@@ -67,5 +67,34 @@
   "srednia": {
     "rok": "2025",
     "procent": 32
-  }
+  },
+  "bank": [
+    {
+      "plik": "wos/bank/miedzynarodowe.json"
+    },
+    {
+      "plik": "wos/bank/obywatel.json"
+    },
+    {
+      "plik": "wos/bank/polityka.json"
+    },
+    {
+      "plik": "wos/bank/prawa-czlowieka.json"
+    },
+    {
+      "plik": "wos/bank/prawo.json"
+    },
+    {
+      "plik": "wos/bank/spoleczenstwo.json"
+    },
+    {
+      "plik": "wos/bank/systemy-panstw.json"
+    },
+    {
+      "plik": "wos/bank/ue.json"
+    },
+    {
+      "plik": "wos/bank/ustroj-rp.json"
+    }
+  ]
 }
