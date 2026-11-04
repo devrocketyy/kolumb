@@ -23,7 +23,7 @@ Działa w przeglądarce na telefonie, tablecie i komputerze, można ją dodać d
 | Integracja europejska | 3 | 389 | 44 |
 | **Razem** | **53** | **5840** | **515** |
 
-**Zadania maturalne:** 8 arkuszy CKE: maj i czerwiec 2023, maj 2024, maj i czerwiec 2025, próbna matura CKE ze stycznia 2026 oraz maj i czerwiec 2026 (formuła 2023; od 2026 r. arkusz ma 50 pkt i jedno zadanie rozszerzonej odpowiedzi za 7 pkt) — 336 zadań (449 pkt) z materiałami źródłowymi, poleceniami, przykładowymi odpowiedziami i zasadami oceniania. Każde zadanie jest przypisane do działów na podstawie wymagań egzaminacyjnych podanych przez CKE.
+**Zadania maturalne:** 9 arkuszy CKE: maj i czerwiec 2023, maj i czerwiec 2024, maj i czerwiec 2025, próbna matura CKE ze stycznia 2026 oraz maj i czerwiec 2026 (formuła 2023; od 2026 r. arkusz ma 50 pkt i jedno zadanie rozszerzonej odpowiedzi za 7 pkt) — 381 zadań (509 pkt) z materiałami źródłowymi, poleceniami, przykładowymi odpowiedziami i zasadami oceniania. Każde zadanie jest przypisane do działów na podstawie wymagań egzaminacyjnych podanych przez CKE.
 
 **Bank zadań autorskich Kolumba:** 142 wiązki (368 zadań, 457 pkt) we wszystkich działach — zadania krótkie (prawda/fałsz, rozstrzygnij i uzasadnij, przyporządkuj, porównaj, argumenty), pisma za 5 pkt (prywatny akt oskarżenia, petycja, odwołanie, skarga do WSA, wniosek o informację publiczną, wniosek do RPO, wystąpienia publiczne) i wypracowania za 7 pkt. Materiały zawierają wykresy, tabele oraz opisy rysunków satyrycznych, plakatów i map. Zadania i dane oznaczone jako „przykładowe” są autorskie i służą wyłącznie ćwiczeniu.
 
