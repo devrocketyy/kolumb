@@ -35,13 +35,14 @@ Każda fiszka i każde pytanie ma pole `zrodlo` — numer artykułu aktu prawneg
 
 | Ekran | Co robi |
 |---|---|
-| **Nauka** (ekran główny) | Przedmioty i działy z paskiem opanowania, licznik „dziś do powtórki”, seria dni nauki. |
+| **Nauka** (ekran główny) | Cel dnia (XP), seria dni nauki, przycisk „Kontynuuj”, trzy zadania dnia i **ścieżka nauki** — kolejne poddziały jako punkty na trasie, z postępem opanowania i liczbą powtórek. |
+| **Lekcja** | 12 mieszanych ćwiczeń: wybór odpowiedzi, prawda/fałsz, dopasuj pary, wpisz odpowiedź (z tolerancją literówek i polskich znaków), pytania ABCD. 5 serc, seria poprawnych odpowiedzi, błędne ćwiczenia wracają na koniec, podsumowanie z XP, celnością i czasem. |
 | **Dział / poddział** | Postęp, liczba powtórek i nowych fiszek, przyciski: fiszki, test, zadania maturalne z działu, przegląd treści. Naukę można prowadzić dla całego działu albo pojedynczego poddziału. |
 | **Fiszki** | Pytanie z przodu, odpowiedź po dotknięciu. Oceny **Nie wiem / Trudne / Umiem**. Powtórki według systemu Leitnera. Tryb „trening swobodny” — 50 losowych fiszek bez wpływu na harmonogram. |
 | **Test** | 10 losowych pytań ABCD (kolejność odpowiedzi też losowa), od razu informacja o poprawności z wyjaśnieniem i źródłem, na końcu wynik procentowy i lista błędów. |
 | **Matura** | Próbne matury na czas (180 min, ok. 60 pkt, struktura jak w arkuszach CKE): 12 ponumerowanych i losowe, z samooceną i wynikiem według działów. Trening zadań autorskich według działów. Arkusze CKE i zadania według działów — materiał źródłowy, polecenie, miejsce na odpowiedź, klucz z zasadami oceniania i samoocena punktowa. |
-| **Statystyki** | Opanowane i poznane fiszki, seria dni nauki, ostatnie 14 dni, wynik zadań maturalnych, opanowanie działów, ostatnie testy. |
-| **Ustawienia** | Motyw jasny / ciemny / systemowy, liczba nowych fiszek dziennie (10/20/30/50), instalacja aplikacji, kopia postępów, zerowanie postępów. |
+| **Statystyki** | Poziom i łączne XP, XP z ostatnich 7 dni, 14 odznak z postępem, opanowane i poznane fiszki, seria dni nauki, ostatnie 14 dni, wynik zadań maturalnych, opanowanie działów, ostatnie testy. |
+| **Ustawienia** | Motyw jasny / ciemny / systemowy, dzienny cel XP (10/20/30/50), dźwięki, liczba nowych fiszek dziennie (10/20/30/50), instalacja aplikacji, kopia postępów, zerowanie postępów. |
 | **Zgłoś błąd** | Przy każdej fiszce, pytaniu i zadaniu. Otwiera e-mail do `roc7et@gmail.com` z pełną treścią. |
 
 Skróty klawiszowe: **spacja** odwraca fiszkę, **1 / 2 / 3** to oceny, w teście **A–D** lub **1–4** wybiera odpowiedź, **Enter** przechodzi dalej, **←/→** przełącza zadania maturalne, **Esc** kończy sesję.

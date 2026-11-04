@@ -9,7 +9,11 @@ const defaults = () => ({
   tests: [],      // { sid, scope, name, score, total, at }
   zadania: {},    // "przedmiot/arkusz/nrZadania" -> { pkt, max, at } (samoocena zadań maturalnych)
   egzaminy: {},   // próbne matury: id -> { sid, nazwa, seed, cke, start, koniec, odp:{}, pkt:{}, ... }
-  settings: { theme: 'auto', installDismissed: false, newPerDay: 20 },
+  xp: 0,          // wszystkie zdobyte punkty doświadczenia
+  daily: {},      // "RRRR-MM-DD" -> { xp, lekcje, fiszki, poprawne, zadania, idealne }
+  lekcje: {},     // "przedmiot/zakres/id" -> { n, best, idealne }
+  odznaki: {},    // id odznaki -> czas zdobycia
+  settings: { theme: 'auto', installDismissed: false, newPerDay: 20, dailyGoal: 20, sound: true },
 });
 
 let state = load();
