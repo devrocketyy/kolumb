@@ -64,20 +64,20 @@ export function quests() {
 
 // ---------- odznaki ----------
 export const BADGES = [
-  { id: 'start', name: 'Wypłynięcie', opis: 'Zdobądź pierwsze punkty XP', test: (s) => (s.xp || 0) > 0 },
-  { id: 'lekcja1', name: 'Pierwszy rejs', opis: 'Ukończ pierwszą lekcję', test: (s) => lessonsDone(s) >= 1 },
-  { id: 'lekcja25', name: 'Stary wilk morski', opis: 'Ukończ 25 lekcji', test: (s) => lessonsDone(s) >= 25, max: 25, val: (s) => lessonsDone(s) },
-  { id: 'idealna', name: 'Bez skazy', opis: 'Ukończ lekcję bez żadnego błędu', test: (s) => Object.values(s.lekcje || {}).some((l) => l.idealne) },
-  { id: 'seria3', name: 'Pomyślne wiatry', opis: 'Ucz się 3 dni z rzędu', test: () => store.streak().longest >= 3, max: 3, val: () => store.streak().longest },
-  { id: 'seria7', name: 'Tydzień na morzu', opis: 'Ucz się 7 dni z rzędu', test: () => store.streak().longest >= 7, max: 7, val: () => store.streak().longest },
-  { id: 'seria30', name: 'Wielka wyprawa', opis: 'Ucz się 30 dni z rzędu', test: () => store.streak().longest >= 30, max: 30, val: () => store.streak().longest },
-  { id: 'cel', name: 'Cel osiągnięty', opis: 'Zrealizuj dzienny cel XP', test: (s) => Object.values(s.daily || {}).some((d) => d.xp >= goal()) },
-  { id: 'xp1000', name: 'Kartograf', opis: 'Zdobądź 1000 XP', test: (s) => (s.xp || 0) >= 1000, max: 1000, val: (s) => s.xp || 0 },
-  { id: 'fiszki100', name: 'Pamięć kapitana', opis: 'Opanuj 100 fiszek', test: (s) => mastered(s) >= 100, max: 100, val: (s) => mastered(s) },
-  { id: 'fiszki1000', name: 'Encyklopedysta', opis: 'Opanuj 1000 fiszek', test: (s) => mastered(s) >= 1000, max: 1000, val: (s) => mastered(s) },
-  { id: 'test100', name: 'Celny strzał', opis: 'Zdobądź 100% w teście', test: (s) => s.tests.some((t) => t.score === t.total && t.total >= 5) },
-  { id: 'zadania20', name: 'Maturzysta', opis: 'Rozwiąż 20 zadań maturalnych', test: (s) => Object.keys(s.zadania).length >= 20, max: 20, val: (s) => Object.keys(s.zadania).length },
-  { id: 'egzamin', name: 'Próba generalna', opis: 'Ukończ próbną maturę', test: (s) => Object.values(s.egzaminy || {}).some((e) => e.koniec) },
+  { id: 'start', name: 'Pierwsze XP', opis: 'Zdobądź pierwsze punkty XP', test: (s) => (s.xp || 0) > 0 },
+  { id: 'lekcja1', name: 'Pierwsza lekcja', opis: 'Ukończ pierwszą lekcję', test: (s) => lessonsDone(s) >= 1 },
+  { id: 'lekcja25', name: '25 lekcji', opis: 'Ukończ 25 lekcji', test: (s) => lessonsDone(s) >= 25, max: 25, val: (s) => lessonsDone(s) },
+  { id: 'idealna', name: 'Lekcja bez błędu', opis: 'Ukończ lekcję bez żadnego błędu', test: (s) => Object.values(s.lekcje || {}).some((l) => l.idealne) },
+  { id: 'seria3', name: '3 dni z rzędu', opis: 'Ucz się 3 dni z rzędu', test: () => store.streak().longest >= 3, max: 3, val: () => store.streak().longest },
+  { id: 'seria7', name: 'Tydzień z rzędu', opis: 'Ucz się 7 dni z rzędu', test: () => store.streak().longest >= 7, max: 7, val: () => store.streak().longest },
+  { id: 'seria30', name: '30 dni z rzędu', opis: 'Ucz się 30 dni z rzędu', test: () => store.streak().longest >= 30, max: 30, val: () => store.streak().longest },
+  { id: 'cel', name: 'Cel dnia', opis: 'Zrealizuj dzienny cel XP', test: (s) => Object.values(s.daily || {}).some((d) => d.xp >= goal()) },
+  { id: 'xp1000', name: '1000 XP', opis: 'Zdobądź 1000 XP', test: (s) => (s.xp || 0) >= 1000, max: 1000, val: (s) => s.xp || 0 },
+  { id: 'fiszki100', name: '100 fiszek', opis: 'Opanuj 100 fiszek', test: (s) => mastered(s) >= 100, max: 100, val: (s) => mastered(s) },
+  { id: 'fiszki1000', name: '1000 fiszek', opis: 'Opanuj 1000 fiszek', test: (s) => mastered(s) >= 1000, max: 1000, val: (s) => mastered(s) },
+  { id: 'test100', name: 'Test na 100%', opis: 'Zdobądź 100% w teście', test: (s) => s.tests.some((t) => t.score === t.total && t.total >= 5) },
+  { id: 'zadania20', name: '20 zadań', opis: 'Rozwiąż 20 zadań maturalnych', test: (s) => Object.keys(s.zadania).length >= 20, max: 20, val: (s) => Object.keys(s.zadania).length },
+  { id: 'egzamin', name: 'Próbna matura', opis: 'Ukończ próbną maturę', test: (s) => Object.values(s.egzaminy || {}).some((e) => e.koniec) },
 ];
 const lessonsDone = (s) => Object.values(s.lekcje || {}).reduce((n, l) => n + (l.n || 0), 0);
 const mastered = (s) => Object.values(s.cards).filter((c) => c.box >= 4).length;

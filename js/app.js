@@ -181,20 +181,12 @@ function statsCard(sm) {
 function notFound() {
   app.innerHTML = `<div class="empty">
     <div class="empty-icon">${ICONS.compass}</div>
-    <h1>Zboczyliśmy z kursu</h1>
-    <p>Nie znaleziono tej strony. Być może treści zostały zmienione.</p>
+    <h1>Nie ma takiej strony</h1>
+    <p>Możliwe, że treści zostały przeniesione.</p>
     <a class="btn btn-primary" href="#/">Wróć na start</a></div>`;
 }
 
 // ---------- ekran główny ----------
-function greeting() {
-  const h = new Date().getHours();
-  if (h < 5) return 'Nocna wachta';
-  if (h < 12) return 'Dzień dobry';
-  if (h < 18) return 'Cześć';
-  return 'Dobry wieczór';
-}
-
 // ---------- ścieżka nauki (ekran główny) ----------
 const PATH_X = [0, 44, 68, 44, 0, -44, -68, -44];
 const UNIT_COLORS = ['blue', 'gold', 'green', 'purple', 'red', 'teal', 'orange', 'blue', 'gold'];
@@ -231,7 +223,7 @@ function pathHtml(s, rec) {
       const state = sm.progress >= 0.8 ? 'done' : cur ? 'current' : sm.seen || lr.n ? 'started' : 'new';
       const x = PATH_X[k++ % PATH_X.length];
       return `<div class="path-node-wrap" style="--x:${x}px">
-        ${cur ? '<span class="path-start">START</span>' : ''}
+        ${cur ? '<span class="path-start">Start</span>' : ''}
         <button type="button" class="path-node ${state}" data-unit="${esc(u.id)}" style="--p:${pct(sm.progress)}" aria-label="${esc(u.nazwa)} — opanowanie ${pct(sm.progress)}%${sm.todo ? `, ${sm.todo} do powtórki` : ''}">
           <span class="node-face">${nodeIcon(state)}</span>
           ${sm.todo && sm.seen ? `<span class="node-badge">${sm.todo}</span>` : ''}
@@ -241,9 +233,9 @@ function pathHtml(s, rec) {
       </div>`;
     }).join('');
     return `<section class="unit unit-${color}">
-      <a class="unit-banner" href="${hrefDzial(s.id, d.id)}">
-        <div><span class="unit-kicker">Dział ${di + 1} · ${pct(smD.progress)}%</span><h3>${esc(d.nazwa)}</h3></div>
-        <span class="unit-guide">${ICONS.book}<span>Przewodnik</span></span>
+      <a class="unit-banner" href="${hrefDzial(s.id, d.id)}" aria-label="${esc(d.nazwa)} — szczegóły działu">
+        <div><span class="unit-kicker">Dział ${di + 1} · ${pct(smD.progress)}% opanowane</span><h3>${esc(d.nazwa)}</h3></div>
+        <span class="unit-guide" aria-hidden="true">${ICONS.book}</span>
       </a>
       <div class="path">${nodes}</div>
     </section>`;
@@ -256,7 +248,7 @@ function popHtml(s, u) {
   const nQ = u.pytania.length;
   return `<strong>${esc(u.nazwa)}</strong>
     <span class="pop-meta">Opanowanie ${pct(sm.progress)}% · lekcje: ${lr.n || 0}</span>
-    <a class="btn btn-primary btn-lg" href="#/lekcja/${enc(s.id)}/p/${enc(u.id)}">Lekcja · +10 XP</a>
+    <a class="btn btn-primary btn-lg" href="#/lekcja/${enc(s.id)}/p/${enc(u.id)}">Zacznij lekcję</a>
     <div class="pop-row">
       ${u.fiszki.length ? `<a class="btn btn-ghost btn-sm" href="#/fiszki/${enc(s.id)}/p/${enc(u.id)}">${ICONS.cards}<span>Fiszki${sm.todo ? ` (${sm.todo})` : ''}</span></a>` : ''}
       ${nQ ? `<a class="btn btn-ghost btn-sm" href="#/test/${enc(s.id)}/p/${enc(u.id)}">${ICONS.quiz}<span>Test</span></a>` : ''}
@@ -292,9 +284,8 @@ function goalCard(s, rec) {
     <div class="goal-top">
       <div class="ring ring-goal ${d.xp >= g ? 'ring-ok' : ''}" style="--p:${Math.min(100, pct(d.xp / g))}"><span>${ICONS.bolt}</span></div>
       <div class="goal-text">
-        <span class="eyebrow">${greeting()}!</span>
-        <strong>${d.xp >= g ? 'Cel dnia osiągnięty!' : `Cel dnia: ${d.xp}/${g} XP`}</strong>
-        <span>${st.current ? `${ICONS.flame} ${st.current} ${plural(st.current, 'dzień', 'dni', 'dni')} serii${st.today ? '' : ' — ucz się dziś, by jej nie stracić'}` : 'Zacznij serię — ucz się codziennie!'}</span>
+        <strong>${d.xp >= g ? 'Cel dnia zrobiony' : `${d.xp} / ${g} XP dzisiaj`}</strong>
+        <span>${st.current ? `${ICONS.flame} ${st.current} ${plural(st.current, 'dzień', 'dni', 'dni')} z rzędu${st.today ? '' : ' · dziś jeszcze bez nauki'}` : 'Seria: 0 dni'}</span>
       </div>
     </div>
     ${rec ? `<a class="btn btn-gold btn-xl btn-continue" href="#/lekcja/${enc(s.id)}/p/${enc(rec.u.id)}">${ICONS.play}<span>Kontynuuj<small>${esc(rec.u.nazwa)}</small></span></a>` : ''}
@@ -316,7 +307,7 @@ function viewHome() {
         </div></div>` : ''}
     ${loadErrors.length ? `<div class="alert">Nie udało się wczytać: ${esc(loadErrors.join('; '))}</div>` : ''}
     ${questsHtml()}
-    ${subjects.map((s) => `<h2 class="section-title subject-title"><span class="subject-icon" aria-hidden="true">${esc(s.ikona)}</span>${esc(s.nazwa)}</h2>
+    ${subjects.map((s) => `<h2 class="section-title">${esc(s.nazwa)}</h2>
       <div class="path-wrap" data-sid="${esc(s.id)}">${pathHtml(s, s === main ? rec : recommendedUnit(s))}</div>`).join('') || '<p class="muted">Brak przedmiotów. Dodaj plik JSON do katalogu <code>przedmioty/</code>.</p>'}
   `;
 
@@ -352,7 +343,7 @@ function onGameEvents(events) {
   updateTopStats();
   const msgs = [];
   for (const ev of events) {
-    if (ev.type === 'goal') { msgs.push('Cel dnia osiągnięty!'); game.confetti(); game.sound('win'); }
+    if (ev.type === 'goal') { msgs.push('Cel dnia zrobiony'); game.confetti(); game.sound('win'); }
     if (ev.type === 'level') msgs.push(`Nowy poziom: ${ev.level}!`);
     if (ev.type === 'badge') { msgs.push(`Nowa odznaka: ${ev.badge.name}`); game.confetti(40); }
   }
@@ -362,7 +353,7 @@ function onGameEvents(events) {
 // ---------- lekcja: mieszane ćwiczenia ----------
 const LESSON_SIZE = 12;
 const MAX_HEARTS = 5;
-const PRAISE = ['Świetnie!', 'Doskonale!', 'Brawo!', 'Tak jest!', 'Celnie!', 'Pięknie!'];
+const PRAISE = ['Dobrze!', 'Świetnie!', 'Tak!', 'Zgadza się!'];
 let lesson = null;
 
 const P_DEF = 'Wyjaśnij pojęcie: ';
@@ -661,8 +652,8 @@ function renderLessonEnd() {
   app.innerHTML = `
     <section class="result lesson-end">
       <div class="result-icon ${failed ? 'sad' : ''}">${failed ? ICONS.heart : ICONS.trophy}</div>
-      <h1>${failed ? 'Skończyły się serca' : perfect ? 'Lekcja bez błędu!' : 'Lekcja ukończona!'}</h1>
-      <p class="lead">${failed ? 'Nic straconego — powtórz lekcję, a błędne odpowiedzi szybko zapamiętasz.' : esc(L.sc.title)}</p>
+      <h1>${failed ? 'Skończyły się serca' : perfect ? 'Bez ani jednego błędu' : 'Lekcja zaliczona'}</h1>
+      <p class="lead">${failed ? 'Spróbuj jeszcze raz — pytania będą podobne.' : esc(L.sc.title)}</p>
       <div class="end-tiles">
         <div class="end-tile t-gold"><span>Zdobyte XP</span><strong>${ICONS.bolt}${L.xp}</strong></div>
         <div class="end-tile t-green"><span>Celność</span><strong>${ICONS.target}${pct(acc)}%</strong></div>
@@ -863,7 +854,7 @@ function renderSessionEnd() {
     <div class="session-top"><a class="icon-btn" href="${sc.back}" aria-label="Zamknij">${ICONS.close}</a></div>
     <section class="result">
       <div class="result-icon">${ICONS.compass}</div>
-      <h1>${reviewed ? 'Ziemia na horyzoncie!' : 'Na dziś wszystko!'}</h1>
+      <h1>${reviewed ? 'Koniec sesji' : 'Na dziś wszystko!'}</h1>
       <p class="lead">${reviewed
         ? `Liczba ocen: ${reviewed}. ${training ? 'Trening nie zmienia harmonogramu powtórek.' : 'Kolejne powtórki zaplanowane.'}`
         : 'Nie ma teraz fiszek do powtórki. Wróć jutro albo poćwicz swobodnie.'}</p>
@@ -989,7 +980,7 @@ function renderTestEnd() {
     game.award(5 + (score === qs.length ? 5 : 0));
     if (p >= 70) { game.confetti(); game.sound('win'); }
   }
-  const msg = p >= 90 ? 'Mistrzowska nawigacja!' : p >= 70 ? 'Dobry kurs — tak trzymaj!' : p >= 50 ? 'Połowa drogi za Tobą.' : 'Sztorm — powtórz fiszki i spróbuj ponownie.';
+  const msg = p >= 90 ? 'Bardzo dobrze' : p >= 70 ? 'Dobry wynik' : p >= 50 ? 'Połowa za Tobą' : 'Warto powtórzyć fiszki';
   const wrong = qs.map((x, i) => ({ ...x, a: answers[i] })).filter((x) => x.a !== x.q.poprawna);
 
   app.innerHTML = `
@@ -1074,7 +1065,7 @@ function taskScore(sid, list) {
 function viewMatura() {
   const withTasks = subjects.filter((s) => s.arkusze.length);
   app.innerHTML = `
-    ${pageHead('Zadania maturalne', null, 'Arkusze CKE')}
+    ${pageHead('Matura', null)}
     <p class="lead">Próbne matury na czas oraz prawdziwe zadania z arkuszy CKE z kluczem odpowiedzi.</p>
     ${subjects.filter((s) => s.bank.length || s.arkusze.length).map(examSection).join('')}
     ${subjects.filter((s) => s.bank.length).map((s) => {
@@ -1303,7 +1294,7 @@ function go(d) {
 
 // ---------- próbna matura ----------
 const EXAM_MIN = 180;
-const DEFAULT_WAGI = { spoleczenstwo: 10, obywatel: 5, polityka: 4, 'ustroj-rp': 7, 'systemy-panstw': 6, prawo: 7, 'prawa-czlowieka': 3, miedzynarodowe: 5, ue: 3 };
+const DEFAULT_WAGI = { spoleczenstwo: 9, obywatel: 7, polityka: 3, 'ustroj-rp': 13, 'systemy-panstw': 3, prawo: 2, 'prawa-czlowieka': 2, miedzynarodowe: 5, ue: 2 };
 
 function rng(seed) {
   let a = seed >>> 0;
@@ -1337,39 +1328,40 @@ function examPool(s, cke) {
   return [...s.bank, ...(cke ? ckeWiazki(s) : [])];
 }
 
-// Układa arkusz: ok. 48 pkt w krótkich wiązkach (proporcje działów jak na maturze) + zadania za 5 i 7 pkt.
+// Układa arkusz w formule od 2026 r.: ok. 43 pkt w krótkich wiązkach (proporcje działów jak w arkuszach CKE 2026)
+// + jedno zadanie rozszerzonej odpowiedzi za 7 pkt — razem ok. 50 pkt.
+const SHORT_PTS = 43;
 function buildExam(s, seed, cke) {
   const r = rng(seed);
   const pool = examPool(s, cke);
   const shortW = pool.filter((w) => !isExt(w));
-  const ext5 = seededShuffle(pool.filter((w) => isExt(w) && wPts(w) === 5), r);
   const ext7 = seededShuffle(pool.filter((w) => isExt(w) && wPts(w) >= 6), r);
   const wagi = s.wagi || DEFAULT_WAGI;
   const sum = Object.values(wagi).reduce((a, b) => a + b, 0);
   const byD = {};
   seededShuffle(shortW, r).forEach((w) => (byD[w.dzial] ||= []).push(w));
   const quota = {};
-  Object.keys(wagi).forEach((d) => (quota[d] = (wagi[d] / sum) * 48));
+  Object.keys(wagi).forEach((d) => (quota[d] = (wagi[d] / sum) * SHORT_PTS));
   const picked = [];
   let total = 0;
   let progress = true;
-  while (total < 47 && progress) {
+  while (total < SHORT_PTS - 1 && progress) {
     progress = false;
     for (const d of seededShuffle(Object.keys(wagi), r)) {
-      if (total >= 48) break;
+      if (total >= SHORT_PTS) break;
       const list = byD[d] || [];
       if (!list.length || quota[d] <= 0.5) continue;
       const w = list.shift();
       picked.push(w); total += wPts(w); quota[d] -= wPts(w); progress = true;
     }
   }
-  if (total < 47) { // brak zadań w części działów — dobierz z dowolnych
+  if (total < SHORT_PTS - 1) { // brak zadań w części działów — dobierz z dowolnych
     const rest = Object.values(byD).flat();
-    while (total < 47 && rest.length) { const w = rest.shift(); picked.push(w); total += wPts(w); }
+    while (total < SHORT_PTS - 1 && rest.length) { const w = rest.shift(); picked.push(w); total += wPts(w); }
   }
   const order = s.dzialy.map((d) => d.id);
   picked.sort((a, b) => order.indexOf(a.dzial) - order.indexOf(b.dzial));
-  const ext = [ext5[0], ext7[0]].filter(Boolean);
+  const ext = [ext7[0]].filter(Boolean);
   return [...picked, ...ext].map((w) => w.id);
 }
 
@@ -1395,13 +1387,13 @@ function examSection(s) {
   const res = (e) => (e && e.koniec && e.ocena ? `${e.ocena.pkt}/${e.ocena.max} pkt` : e ? 'w trakcie' : '');
   return `<section class="card exam-card">
     <h2 class="card-title">Próbna matura · 180 minut</h2>
-    <p class="muted">Arkusz ułożony jak prawdziwa matura: ok. 20 wiązek z różnych działów (w proporcjach z egzaminów CKE), na końcu zadania za 5 i 7 pkt. Baza: ${nZadan(s.bank.reduce((n, w) => n + w.zadania.length, 0))} autorskich${cke ? ` + ${nZadan(tasksOf(s).length)} CKE` : ''}.</p>
+    <p class="muted">Arkusz ułożony jak matura od 2026 r.: ok. 50 pkt, kilkanaście wiązek z różnych działów (w proporcjach z arkuszy CKE 2026), na końcu zadanie rozszerzonej odpowiedzi za 7 pkt. Baza: ${nZadan(s.bank.reduce((n, w) => n + w.zadania.length, 0))} autorskich${cke ? ` + ${nZadan(tasksOf(s).length)} CKE` : ''}.</p>
     <label class="switch"><input type="checkbox" id="exam-cke" ${cke ? 'checked' : ''}> <span>Dobieraj też zadania z arkuszy CKE</span></label>
     <button type="button" class="btn btn-gold btn-lg" id="exam-random">Losowa próbna matura</button>
     <h3 class="sub-title">Ponumerowane próbne matury</h3>
     <div class="exam-grid">${numbered.map((n) => {
-      const e = st[`${s.id}-nr${n}-${cke ? 'c' : 'a'}`];
-      return `<a class="exam-tile ${e?.koniec ? 'done' : e ? 'open' : ''}" href="#/egzamin/${enc(s.id)}/${enc(`nr${n}-${cke ? 'c' : 'a'}`)}"><strong>${n}</strong><span>${res(e) || 'rozpocznij'}</span></a>`;
+      const e = st[`${s.id}-nr${n}-${cke ? 'c' : 'a'}-26`];
+      return `<a class="exam-tile ${e?.koniec ? 'done' : e ? 'open' : ''}" href="#/egzamin/${enc(s.id)}/${enc(`nr${n}-${cke ? 'c' : 'a'}-26`)}"><strong>${n}</strong><span>${res(e) || 'rozpocznij'}</span></a>`;
     }).join('')}</div>
     ${mine.length ? `<h3 class="sub-title">Twoje podejścia</h3><ul class="test-list">${mine.slice(0, 8).map((e) => `<li><div><strong>${esc(e.nazwa)}</strong><span>${new Date(e.start).toLocaleString('pl-PL', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}</span></div>
       <a class="score ${e.koniec ? (e.ocena.pkt / e.ocena.max >= .7 ? 'ok' : e.ocena.pkt / e.ocena.max >= .4 ? 'warn' : 'bad') : ''}" href="#/egzamin/${enc(s.id)}/${enc(e.key)}">${e.koniec ? pct(e.ocena.pkt / e.ocena.max) + '%' : 'wróć'}</a></li>`).join('')}</ul>` : ''}
@@ -1436,7 +1428,7 @@ function viewEgzamin(sid, key) {
   if (!s) return notFound();
   let e = store.get().egzaminy[`${sid}-${key}`];
   if (!e) {
-    const m = key.match(/^nr(\d+)-(c|a)$/);
+    const m = key.match(/^nr(\d+)-(c|a)(?:-26)?$/);
     if (!m) return notFound();
     const n = Number(m[1]);
     e = createExam(s, key, 1000 + n * 7919, m[2] === 'c', `Matura próbna nr ${n}${m[2] === 'a' ? ' (autorska)' : ''}`);
@@ -1623,7 +1615,7 @@ function viewStats() {
   const wfmt = new Intl.DateTimeFormat('pl-PL', { weekday: 'short' });
   const got = state.odznaki || {};
   app.innerHTML = `
-    ${pageHead('Statystyki', null, 'Dziennik pokładowy')}
+    ${pageHead('Statystyki', null)}
     <section class="card level-card">
       <div class="level-badge"><span>Poziom</span><strong>${lv}</strong></div>
       <div class="level-body">
@@ -1690,7 +1682,7 @@ function viewSettings() {
   const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
   const standalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
   app.innerHTML = `
-    ${pageHead('Ustawienia', null, 'Kajuta kapitana')}
+    ${pageHead('Ustawienia', null)}
     <section class="card">
       <h2 class="card-title">Motyw</h2>
       <div class="segmented" role="radiogroup" aria-label="Motyw">

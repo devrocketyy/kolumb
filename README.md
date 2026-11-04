@@ -23,7 +23,7 @@ Działa w przeglądarce na telefonie, tablecie i komputerze, można ją dodać d
 | Integracja europejska | 3 | 389 | 44 |
 | **Razem** | **53** | **5840** | **515** |
 
-**Zadania maturalne:** 5 arkuszy CKE: maj i czerwiec 2023, maj 2024, maj i czerwiec 2025 (formuła 2023) — 219 zadań (300 pkt) z materiałami źródłowymi, poleceniami, przykładowymi odpowiedziami i zasadami oceniania. Każde zadanie jest przypisane do działów na podstawie wymagań egzaminacyjnych podanych przez CKE.
+**Zadania maturalne:** 8 arkuszy CKE: maj i czerwiec 2023, maj 2024, maj i czerwiec 2025, próbna matura CKE ze stycznia 2026 oraz maj i czerwiec 2026 (formuła 2023; od 2026 r. arkusz ma 50 pkt i jedno zadanie rozszerzonej odpowiedzi za 7 pkt) — 336 zadań (449 pkt) z materiałami źródłowymi, poleceniami, przykładowymi odpowiedziami i zasadami oceniania. Każde zadanie jest przypisane do działów na podstawie wymagań egzaminacyjnych podanych przez CKE.
 
 **Bank zadań autorskich Kolumba:** 142 wiązki (368 zadań, 457 pkt) we wszystkich działach — zadania krótkie (prawda/fałsz, rozstrzygnij i uzasadnij, przyporządkuj, porównaj, argumenty), pisma za 5 pkt (prywatny akt oskarżenia, petycja, odwołanie, skarga do WSA, wniosek o informację publiczną, wniosek do RPO, wystąpienia publiczne) i wypracowania za 7 pkt. Materiały zawierają wykresy, tabele oraz opisy rysunków satyrycznych, plakatów i map. Zadania i dane oznaczone jako „przykładowe” są autorskie i służą wyłącznie ćwiczeniu.
 
@@ -40,7 +40,7 @@ Każda fiszka i każde pytanie ma pole `zrodlo` — numer artykułu aktu prawneg
 | **Dział / poddział** | Postęp, liczba powtórek i nowych fiszek, przyciski: fiszki, test, zadania maturalne z działu, przegląd treści. Naukę można prowadzić dla całego działu albo pojedynczego poddziału. |
 | **Fiszki** | Pytanie z przodu, odpowiedź po dotknięciu. Oceny **Nie wiem / Trudne / Umiem**. Powtórki według systemu Leitnera. Tryb „trening swobodny” — 50 losowych fiszek bez wpływu na harmonogram. |
 | **Test** | 10 losowych pytań ABCD (kolejność odpowiedzi też losowa), od razu informacja o poprawności z wyjaśnieniem i źródłem, na końcu wynik procentowy i lista błędów. |
-| **Matura** | Próbne matury na czas (180 min, ok. 60 pkt, struktura jak w arkuszach CKE): 12 ponumerowanych i losowe, z samooceną i wynikiem według działów. Trening zadań autorskich według działów. Arkusze CKE i zadania według działów — materiał źródłowy, polecenie, miejsce na odpowiedź, klucz z zasadami oceniania i samoocena punktowa. |
+| **Matura** | Próbne matury na czas (180 min, ok. 50 pkt, struktura jak w arkuszach CKE od 2026 r.): 12 ponumerowanych i losowe, z samooceną i wynikiem według działów. Trening zadań autorskich według działów. Arkusze CKE i zadania według działów — materiał źródłowy, polecenie, miejsce na odpowiedź, klucz z zasadami oceniania i samoocena punktowa. |
 | **Statystyki** | Poziom i łączne XP, XP z ostatnich 7 dni, 14 odznak z postępem, opanowane i poznane fiszki, seria dni nauki, ostatnie 14 dni, wynik zadań maturalnych, opanowanie działów, ostatnie testy. |
 | **Ustawienia** | Motyw jasny / ciemny / systemowy, dzienny cel XP (10/20/30/50), dźwięki, liczba nowych fiszek dziennie (10/20/30/50), instalacja aplikacji, kopia postępów, zerowanie postępów. |
 | **Zgłoś błąd** | Przy każdej fiszce, pytaniu i zadaniu. Otwiera e-mail do `roc7et@gmail.com` z pełną treścią. |
