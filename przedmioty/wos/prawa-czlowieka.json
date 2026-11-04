@@ -287,7 +287,6 @@
    ],
    "pytania": [
     {
-     "id": "p01",
      "pytanie": "Powszechną Deklarację Praw Człowieka przyjęto w:",
      "odpowiedzi": [
       "1950 r.",
@@ -297,10 +296,10 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Przyjęło ją Zgromadzenie Ogólne ONZ 10 grudnia 1948 r.",
-     "zrodlo": "PDPC"
+     "zrodlo": "PDPC",
+     "id": "p01"
     },
     {
-     "id": "p02",
      "pytanie": "Prawo do czystego środowiska należy do praw:",
      "odpowiedzi": [
       "I generacji",
@@ -310,10 +309,10 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "III generacja to prawa solidarnościowe.",
-     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. IV „Prawa człowieka i ich ochrona”"
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. IV „Prawa człowieka i ich ochrona”",
+     "id": "p02"
     },
     {
-     "id": "p03",
      "pytanie": "Cecha praw człowieka oznaczająca, że nie można się ich zrzec, to:",
      "odpowiedzi": [
       "powszechność",
@@ -323,10 +322,10 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Niezbywalność wyklucza też ich przeniesienie.",
-     "zrodlo": "Konstytucja RP, art. 30"
+     "zrodlo": "Konstytucja RP, art. 30",
+     "id": "p03"
     },
     {
-     "id": "p04",
      "pytanie": "Projekt Konwencji o prawach dziecka zgłosiła:",
      "odpowiedzi": [
       "Szwecja",
@@ -336,10 +335,10 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Polska złożyła projekt w 1978 r.",
-     "zrodlo": "KPD"
+     "zrodlo": "KPD",
+     "id": "p04"
     },
     {
-     "id": "p05",
      "pytanie": "Prawo do nauki należy do praw:",
      "odpowiedzi": [
       "I generacji",
@@ -349,10 +348,10 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "II generacja to prawa ekonomiczne, socjalne i kulturalne.",
-     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. IV „Prawa człowieka i ich ochrona”"
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. IV „Prawa człowieka i ich ochrona”",
+     "id": "p05"
     },
     {
-     "id": "p06",
      "pytanie": "Prawnie wiążącym traktatem ONZ jest:",
      "odpowiedzi": [
       "Powszechna Deklaracja Praw Człowieka",
@@ -362,7 +361,8 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Deklaracja z 1948 r. nie jest prawnie wiążąca.",
-     "zrodlo": "MPPOIP"
+     "zrodlo": "MPPOIP",
+     "id": "p06"
     }
    ]
   },
@@ -572,7 +572,6 @@
    ],
    "pytania": [
     {
-     "id": "p01",
      "pytanie": "Skargę konstytucyjną wnosi się do:",
      "odpowiedzi": [
       "Rzecznika Praw Obywatelskich",
@@ -582,10 +581,10 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Termin wynosi 3 miesiące od doręczenia ostatecznego orzeczenia.",
-     "zrodlo": "Konstytucja RP, art. 79"
+     "zrodlo": "Konstytucja RP, art. 79",
+     "id": "p01"
     },
     {
-     "id": "p02",
      "pytanie": "Zakaz cenzury prewencyjnej wynika z art.:",
      "odpowiedzi": [
       "30 Konstytucji",
@@ -595,10 +594,10 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Art. 54 gwarantuje też wolność wyrażania poglądów.",
-     "zrodlo": "Konstytucja RP, art. 54"
+     "zrodlo": "Konstytucja RP, art. 54",
+     "id": "p02"
     },
     {
-     "id": "p03",
      "pytanie": "Skarga konstytucyjna NIE przysługuje w sprawach:",
      "odpowiedzi": [
       "prawa własności",
@@ -608,10 +607,10 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Wyłączenie wynika z art. 79 ust. 2.",
-     "zrodlo": "Konstytucja RP, art. 79 ust. 2"
+     "zrodlo": "Konstytucja RP, art. 79 ust. 2",
+     "id": "p03"
     },
     {
-     "id": "p04",
      "pytanie": "Prawo do informacji o działalności organów władzy publicznej gwarantuje art.:",
      "odpowiedzi": [
       "61 Konstytucji",
@@ -621,10 +620,10 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Art. 51 dotyczy ochrony danych osobowych.",
-     "zrodlo": "Konstytucja RP, art. 61"
+     "zrodlo": "Konstytucja RP, art. 61",
+     "id": "p04"
     },
     {
-     "id": "p05",
      "pytanie": "Wolność sumienia i religii gwarantuje art.:",
      "odpowiedzi": [
       "25 Konstytucji",
@@ -634,10 +633,10 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Art. 25 dotyczy relacji państwa z kościołami.",
-     "zrodlo": "Konstytucja RP, art. 53"
+     "zrodlo": "Konstytucja RP, art. 53",
+     "id": "p05"
     },
     {
-     "id": "p06",
      "pytanie": "Stałe zatrudnianie dzieci jest zakazane do lat:",
      "odpowiedzi": [
       "15",
@@ -647,7 +646,8 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Tak stanowi art. 65 ust. 3.",
-     "zrodlo": "Konstytucja RP, art. 65 ust. 3"
+     "zrodlo": "Konstytucja RP, art. 65 ust. 3",
+     "id": "p06"
     }
    ]
   },
@@ -1217,7 +1217,6 @@
    ],
    "pytania": [
     {
-     "id": "p01",
      "pytanie": "Europejski Trybunał Praw Człowieka jest organem:",
      "odpowiedzi": [
       "Unii Europejskiej",
@@ -1227,10 +1226,10 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Trybunał UE (TSUE) ma siedzibę w Luksemburgu.",
-     "zrodlo": "Europejska Konwencja Praw Człowieka, art. 19"
+     "zrodlo": "Europejska Konwencja Praw Człowieka, art. 19",
+     "id": "p01"
     },
     {
-     "id": "p02",
      "pytanie": "Skargę do ETPC można wnieść w terminie:",
      "odpowiedzi": [
       "6 miesięcy od zdarzenia",
@@ -1240,10 +1239,10 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Od 2022 r. termin skrócono z 6 do 4 miesięcy.",
-     "zrodlo": "Europejska Konwencja Praw Człowieka, art. 35"
+     "zrodlo": "Europejska Konwencja Praw Człowieka, art. 35",
+     "id": "p02"
     },
     {
-     "id": "p03",
      "pytanie": "Międzynarodowy Trybunał Karny sądzi:",
      "odpowiedzi": [
       "osoby fizyczne za zbrodnie międzynarodowe",
@@ -1253,10 +1252,10 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Spory między państwami rozstrzyga MTS.",
-     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. XII „Prawa człowieka i ich ochrona międzynarodowa”"
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. XII „Prawa człowieka i ich ochrona międzynarodowa”",
+     "id": "p03"
     },
     {
-     "id": "p04",
      "pytanie": "Siedzibą ODIHR (Biura Instytucji Demokratycznych i Praw Człowieka OBWE) jest:",
      "odpowiedzi": [
       "Wiedeń",
@@ -1266,10 +1265,10 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "ODIHR monitoruje m.in. wybory.",
-     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. XII „Prawa człowieka i ich ochrona międzynarodowa”"
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. XII „Prawa człowieka i ich ochrona międzynarodowa”",
+     "id": "p04"
     },
     {
-     "id": "p05",
      "pytanie": "Karta praw podstawowych UE stała się prawnie wiążąca na mocy:",
      "odpowiedzi": [
       "traktatu z Maastricht",
@@ -1279,10 +1278,10 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Obowiązuje od 1 grudnia 2009 r.",
-     "zrodlo": "Traktat o Unii Europejskiej, art. 6"
+     "zrodlo": "Traktat o Unii Europejskiej, art. 6",
+     "id": "p05"
     },
     {
-     "id": "p06",
      "pytanie": "Nad wykonaniem wyroków ETPC czuwa:",
      "odpowiedzi": [
       "Zgromadzenie Ogólne ONZ",
@@ -1292,10 +1291,10 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Tak stanowi art. 46 EKPC.",
-     "zrodlo": "Europejska Konwencja Praw Człowieka, art. 46"
+     "zrodlo": "Europejska Konwencja Praw Człowieka, art. 46",
+     "id": "p06"
     },
     {
-     "id": "p07",
      "pytanie": "Organizacją pozarządową jest:",
      "odpowiedzi": [
       "Rada Praw Człowieka",
@@ -1305,7 +1304,8 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Pozostałe to organy organizacji międzyrządowych.",
-     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. XII „Prawa człowieka i ich ochrona międzynarodowa”"
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. XII „Prawa człowieka i ich ochrona międzynarodowa”",
+     "id": "p07"
     }
    ]
   }
