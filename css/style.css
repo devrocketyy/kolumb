@@ -402,6 +402,46 @@ main:focus, main:focus-visible { outline: none; }
 .tab.active, .segmented button.active { background: var(--surface); color: var(--text); box-shadow: var(--shadow); }
 .segmented { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; padding: 5px; border-radius: 16px; background: var(--surface-2); }
 
+/* ---------- zadania maturalne ---------- */
+.subject-exam { margin-top: 12px; }
+.sub-title { font-size: .95rem; margin: 18px 0 10px; color: var(--text-2); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 14px;
+  border-radius: 999px; background: var(--surface-2); text-decoration: none; font-weight: 600; font-size: .92rem;
+}
+.chip b { background: var(--accent); color: var(--on-accent); border-radius: 999px; padding: 1px 8px; font-size: .8rem; }
+.task-title { font-size: 1.35rem; margin: 4px 0 14px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.task-title .muted { font-size: 1rem; font-weight: 600; }
+.pre { white-space: pre-line; overflow-wrap: anywhere; }
+.material summary, .rules summary {
+  cursor: pointer; font-weight: 700; min-height: 32px; list-style-position: inside;
+}
+.material[open] summary { margin-bottom: 12px; }
+.material .pre { font-size: .97rem; line-height: 1.6; }
+.note { background: var(--accent-soft); color: var(--accent-text); padding: 10px 14px; border-radius: 12px; font-weight: 600; font-size: .92rem; margin-bottom: 12px; }
+.task-body .pre { font-weight: 600; font-size: 1.05rem; }
+.answer-label { display: block; margin: 16px 0 8px; font-weight: 700; font-size: .92rem; }
+textarea {
+  width: 100%; min-height: 110px; padding: 12px 14px; border-radius: 14px; resize: vertical;
+  border: 1.5px solid var(--border); background: var(--bg); color: var(--text); font: inherit; font-size: 1rem;
+}
+textarea:focus { outline: none; border-color: var(--accent); }
+.key { border-color: color-mix(in srgb, var(--ok) 45%, transparent); }
+.key .card-title { display: flex; align-items: center; gap: 8px; color: var(--ok); }
+.rules { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border); }
+.rules .pre { margin-top: 8px; color: var(--text-2); font-size: .92rem; }
+.score-q { font-weight: 700; text-align: center; margin: 6px 0 10px; }
+.score-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 18px; }
+.btn-score { flex: 1 1 80px; max-width: 140px; background: var(--surface); border-color: var(--border); }
+.btn-score.active, .btn-score:hover { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+.task-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 8px 0; }
+.task-nav .btn:disabled { opacity: .4; cursor: default; }
+.small { font-size: .82rem; margin-top: 8px; }
+.session-unit { display: block; margin-top: 4px; font-size: .82rem; }
+.tile-wide { grid-column: 1 / -1; }
+.seg-4 { grid-template-columns: repeat(4, 1fr); margin-top: 12px; }
+
 /* ---------- statystyki ---------- */
 .tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
 .tile {
@@ -449,7 +489,7 @@ main:focus, main:focus-visible { outline: none; }
 /* ---------- dolny pasek ---------- */
 .tabbar {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
-  display: grid; grid-template-columns: repeat(3, 1fr);
+  display: grid; grid-template-columns: repeat(4, 1fr);
   padding: 6px max(8px, env(safe-area-inset-left)) calc(6px + env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-right));
   background: color-mix(in srgb, var(--surface) 92%, transparent);
   backdrop-filter: saturate(1.4) blur(14px);
@@ -489,7 +529,7 @@ body.in-session .tabbar { display: none; }
   .options { gap: 12px; }
 }
 @media (min-width: 1000px) {
-  .tabbar { left: 50%; right: auto; bottom: 16px; transform: translateX(-50%); width: 420px; border: 1px solid var(--border); border-radius: 22px; box-shadow: var(--shadow); padding-bottom: 6px; }
+  .tabbar { left: 50%; right: auto; bottom: 16px; transform: translateX(-50%); width: 520px; border: 1px solid var(--border); border-radius: 22px; box-shadow: var(--shadow); padding-bottom: 6px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

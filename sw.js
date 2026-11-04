@@ -27,7 +27,15 @@ async function precache() {
     const res = await cache.match('przedmioty/index.json');
     const idx = await res.json();
     const files = Array.isArray(idx) ? idx : idx.przedmioty || [];
-    await cache.addAll(files.map((f) => new Request(`przedmioty/${f}`, { cache: 'reload' })));
+    const extra = [];
+    for (const f of files) {
+      const res = await fetch(`przedmioty/${f}`, { cache: 'reload' });
+      if (!res.ok) continue;
+      await cache.put(`przedmioty/${f}`, res.clone());
+      const subj = await res.json();
+      [...(subj.dzialy || []), ...(subj.arkusze || [])].forEach((x) => x && x.plik && extra.push(`przedmioty/${x.plik}`));
+    }
+    await cache.addAll(extra.map((u) => new Request(u, { cache: 'reload' })));
   } catch (e) {
     /* przedmioty zostaną zapisane przy pierwszym użyciu */
   }

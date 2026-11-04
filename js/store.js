@@ -6,8 +6,9 @@ const defaults = () => ({
   version: 1,
   cards: {},      // "przedmiot/dzial/idFiszki" -> { box, due, reps, lapses, first, last }
   days: {},       // "RRRR-MM-DD" -> liczba aktywności (ocen fiszek, odpowiedzi w testach)
-  tests: [],      // { sid, did, score, total, at }
-  settings: { theme: 'auto', installDismissed: false },
+  tests: [],      // { sid, scope, name, score, total, at }
+  zadania: {},    // "przedmiot/arkusz/nrZadania" -> { pkt, max, at } (samoocena zadań maturalnych)
+  settings: { theme: 'auto', installDismissed: false, newPerDay: 20 },
 });
 
 let state = load();
