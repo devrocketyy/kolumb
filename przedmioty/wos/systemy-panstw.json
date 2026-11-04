@@ -1,0 +1,1862 @@
+{
+ "id": "systemy-panstw",
+ "nazwa": "Systemy polityczne państw",
+ "opis": "Typologia systemów rządów oraz ustroje Wielkiej Brytanii, USA, Francji, Niemiec, Szwajcarii i wybranych państw niedemokratycznych.",
+ "poddzialy": [
+  {
+   "id": "sys-typologia",
+   "nazwa": "Typy systemów rządów",
+   "opis": "System parlamentarno-gabinetowy, kanclerski, prezydencki, semiprezydencki, komitetowy (dyrektorialny).",
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Wyjaśnij pojęcie: system parlamentarno-gabinetowy",
+     "tyl": "System rządów, w którym rząd powstaje z poparcia parlamentu i ponosi przed nim odpowiedzialność polityczną, a głowa państwa ma ograniczoną rolę (np. Wielka Brytania, Polska — w wersji zracjonalizowanej).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f002",
+     "przod": "Podaj nazwę pojęcia: System rządów, w którym rząd powstaje z poparcia parlamentu i ponosi przed nim odpowiedzialność polityczną, a głowa państwa ma ograniczoną rolę (np. Wielka Brytania, Polska — w wersji zracjonalizowanej).",
+     "tyl": "system parlamentarno-gabinetowy",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f003",
+     "przod": "Jakie są cechy systemu parlamentarno-gabinetowego?",
+     "tyl": "Dualizm egzekutywy (głowa państwa i rząd), rząd wyłaniany przez parlament i politycznie przed nim odpowiedzialny, kontrasygnata aktów głowy państwa, możliwość rozwiązania parlamentu, łączenie mandatu z funkcją ministra, nieodpowiedzialność polityczna głowy państwa.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f004",
+     "przod": "Wyjaśnij pojęcie: system kanclerski",
+     "tyl": "Odmiana systemu parlamentarnego z dominującą pozycją szefa rządu (kanclerza), który ustala wytyczne polityki i może być odwołany tylko przez konstruktywne wotum nieufności (Niemcy).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f005",
+     "przod": "Podaj nazwę pojęcia: Odmiana systemu parlamentarnego z dominującą pozycją szefa rządu (kanclerza), który ustala wytyczne polityki i może być odwołany tylko przez konstruktywne wotum nieufności (Niemcy).",
+     "tyl": "system kanclerski",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f006",
+     "przod": "Wyjaśnij pojęcie: system prezydencki",
+     "tyl": "System rządów oparty na sztywnym podziale władz: prezydent jest jednocześnie głową państwa i szefem rządu, wybierany niezależnie od parlamentu, nie ponosi odpowiedzialności politycznej przed nim i nie może go rozwiązać (USA).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f007",
+     "przod": "Podaj nazwę pojęcia: System rządów oparty na sztywnym podziale władz: prezydent jest jednocześnie głową państwa i szefem rządu, wybierany niezależnie od parlamentu, nie ponosi odpowiedzialności politycznej przed nim i nie może go rozwiązać (USA).",
+     "tyl": "system prezydencki",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f008",
+     "przod": "Jakie są cechy systemu prezydenckiego?",
+     "tyl": "Monizm egzekutywy (prezydent = głowa państwa i rządu), wybór prezydenta niezależny od parlamentu, ministrowie (sekretarze) odpowiedzialni tylko przed prezydentem, brak wotum nieufności i prawa rozwiązania parlamentu, zakaz łączenia mandatu z funkcją w administracji, system hamulców i równowagi (checks and balances).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f009",
+     "przod": "Wyjaśnij pojęcie: system semiprezydencki (półprezydencki, mieszany)",
+     "tyl": "System łączący cechy prezydenckiego i parlamentarnego: silny prezydent wybierany w wyborach powszechnych oraz rząd odpowiedzialny przed parlamentem (Francja — V Republika).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f010",
+     "przod": "Podaj nazwę pojęcia: System łączący cechy prezydenckiego i parlamentarnego: silny prezydent wybierany w wyborach powszechnych oraz rząd odpowiedzialny przed parlamentem (Francja — V Republika).",
+     "tyl": "system semiprezydencki (półprezydencki, mieszany)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f011",
+     "przod": "Wyjaśnij pojęcie: system komitetowy (dyrektorialny, parlamentarno-komitetowy)",
+     "tyl": "System, w którym rząd (kolegialny organ) jest wybierany przez parlament na stałą kadencję i nie może być przez niego odwołany, a rolę głowy państwa pełni rząd jako całość (Szwajcaria — Rada Związkowa).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f012",
+     "przod": "Podaj nazwę pojęcia: System, w którym rząd (kolegialny organ) jest wybierany przez parlament na stałą kadencję i nie może być przez niego odwołany, a rolę głowy państwa pełni rząd jako całość (Szwajcaria — Rada Związkowa).",
+     "tyl": "system komitetowy (dyrektorialny, parlamentarno-komitetowy)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f013",
+     "przod": "Wyjaśnij pojęcie: system rządów zgromadzenia (konwentu)",
+     "tyl": "System, w którym parlament dominuje nad egzekutywą, a rząd jest jego organem wykonawczym.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f014",
+     "przod": "Podaj nazwę pojęcia: System, w którym parlament dominuje nad egzekutywą, a rząd jest jego organem wykonawczym.",
+     "tyl": "system rządów zgromadzenia (konwentu)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f015",
+     "przod": "Wyjaśnij pojęcie: kohabitacja",
+     "tyl": "Sytuacja w systemie semiprezydenckim (Francja), gdy prezydent i premier wywodzą się z przeciwnych obozów politycznych; w Polsce określenie stosowane do współpracy prezydenta i rządu z różnych obozów.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f016",
+     "przod": "Podaj nazwę pojęcia: Sytuacja w systemie semiprezydenckim (Francja), gdy prezydent i premier wywodzą się z przeciwnych obozów politycznych; w Polsce określenie stosowane do współpracy prezydenta i rządu z różnych obozów.",
+     "tyl": "kohabitacja",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f017",
+     "przod": "Wyjaśnij pojęcie: dualizm egzekutywy",
+     "tyl": "Podział władzy wykonawczej między głowę państwa a rząd (w systemach parlamentarnych i semiprezydenckim).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f018",
+     "przod": "Podaj nazwę pojęcia: Podział władzy wykonawczej między głowę państwa a rząd (w systemach parlamentarnych i semiprezydenckim).",
+     "tyl": "dualizm egzekutywy",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f019",
+     "przod": "Wyjaśnij pojęcie: monizm egzekutywy",
+     "tyl": "Skupienie władzy wykonawczej w jednym organie — prezydencie (system prezydencki).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f020",
+     "przod": "Podaj nazwę pojęcia: Skupienie władzy wykonawczej w jednym organie — prezydencie (system prezydencki).",
+     "tyl": "monizm egzekutywy",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f021",
+     "przod": "Wyjaśnij pojęcie: parlamentaryzm zracjonalizowany",
+     "tyl": "System parlamentarny z mechanizmami stabilizującymi rząd (np. konstruktywne wotum nieufności, ograniczenie możliwości rozwiązania parlamentu) — np. Niemcy, Polska.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f022",
+     "przod": "Podaj nazwę pojęcia: System parlamentarny z mechanizmami stabilizującymi rząd (np. konstruktywne wotum nieufności, ograniczenie możliwości rozwiązania parlamentu) — np. Niemcy, Polska.",
+     "tyl": "parlamentaryzm zracjonalizowany",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f023",
+     "przod": "Wyjaśnij pojęcie: checks and balances (hamulce i równowaga)",
+     "tyl": "System wzajemnej kontroli i równoważenia się władz (np. weto prezydenta USA, zatwierdzanie nominacji przez Senat, kontrola sądowa).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f024",
+     "przod": "Podaj nazwę pojęcia: System wzajemnej kontroli i równoważenia się władz (np. weto prezydenta USA, zatwierdzanie nominacji przez Senat, kontrola sądowa).",
+     "tyl": "checks and balances (hamulce i równowaga)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f025",
+     "przod": "Wyjaśnij pojęcie: impeachment",
+     "tyl": "Procedura pociągnięcia do odpowiedzialności konstytucyjnej wysokich urzędników (np. prezydenta USA) — oskarżenie przez izbę niższą i osądzenie przez izbę wyższą.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f026",
+     "przod": "Podaj nazwę pojęcia: Procedura pociągnięcia do odpowiedzialności konstytucyjnej wysokich urzędników (np. prezydenta USA) — oskarżenie przez izbę niższą i osądzenie przez izbę wyższą.",
+     "tyl": "impeachment",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "System, w którym prezydent jest jednocześnie głową państwa i szefem rządu i nie może rozwiązać parlamentu, to system:",
+     "odpowiedzi": [
+      "semiprezydencki",
+      "parlamentarno-gabinetowy",
+      "kanclerski",
+      "prezydencki"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Wzorcowym przykładem są USA.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Sytuacja, w której prezydent i premier Francji pochodzą z przeciwnych obozów politycznych, to:",
+     "odpowiedzi": [
+      "kohabitacja",
+      "impeachment",
+      "koalicja",
+      "gerrymandering"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Kohabitacja miała miejsce np. w latach 1986–1988 i 1997–2002.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "p03",
+     "pytanie": "System komitetowy (dyrektorialny) występuje w:",
+     "odpowiedzi": [
+      "Francji",
+      "Wielkiej Brytanii",
+      "USA",
+      "Szwajcarii"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Rada Związkowa jest kolegialnym rządem i głową państwa.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Konstruktywne wotum nieufności jako element parlamentaryzmu zracjonalizowanego stosuje się w:",
+     "odpowiedzi": [
+      "Niemczech i Polsce",
+      "Wielkiej Brytanii i Francji",
+      "USA i Szwajcarii",
+      "Włoszech i Hiszpanii"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Hiszpania też stosuje konstruktywne wotum nieufności, ale Włochy nie.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    }
+   ]
+  },
+  {
+   "id": "sys-wielka-brytania",
+   "nazwa": "Wielka Brytania",
+   "opis": "Niepisana konstytucja, monarcha, parlament, rząd, premier, sądownictwo, system partyjny i devolution.",
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Jaki jest ustrój Wielkiej Brytanii?",
+     "tyl": "Monarchia parlamentarna (konstytucyjna) z systemem parlamentarno-gabinetowym (westminsterskim) i dwupartyjnym; państwo unitarne z autonomią Szkocji, Walii i Irlandii Północnej (devolution).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f002",
+     "przod": "Z jakich części składa się Zjednoczone Królestwo?",
+     "tyl": "Z Anglii, Szkocji, Walii (tworzą Wielką Brytanię) i Irlandii Północnej.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f003",
+     "przod": "Jakie są źródła niepisanej konstytucji Wielkiej Brytanii?",
+     "tyl": "Ustawy parlamentu o znaczeniu konstytucyjnym (statute law), prawo precedensowe (common law), konwenanse konstytucyjne, prawo zwyczajowe i dzieła doktryny prawa (np. W. Bagehot, A.V. Dicey).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f004",
+     "przod": "Jakie akty prawne należą do brytyjskiego statute law o znaczeniu konstytucyjnym?",
+     "tyl": "Wielka Karta Swobód (1215), Petycja o prawa (1628), Habeas Corpus Act (1679), Bill of Rights (1689), Akt o następstwie tronu (1701), Akty o parlamencie (1911, 1949), Human Rights Act (1998), ustawy dewolucyjne (1998).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f005",
+     "przod": "Wyjaśnij pojęcie: Wielka Karta Swobód (Magna Charta Libertatum)",
+     "tyl": "Dokument z 1215 r. wydany przez króla Jana bez Ziemi, ograniczający władzę monarchy i gwarantujący prawa możnych — symbol początków konstytucjonalizmu.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f006",
+     "przod": "Podaj nazwę pojęcia: Dokument z 1215 r. wydany przez króla Jana bez Ziemi, ograniczający władzę monarchy i gwarantujący prawa możnych — symbol początków konstytucjonalizmu.",
+     "tyl": "Wielka Karta Swobód (Magna Charta Libertatum)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f007",
+     "przod": "Wyjaśnij pojęcie: Habeas Corpus Act",
+     "tyl": "Ustawa angielska z 1679 r. chroniąca przed bezprawnym aresztowaniem — zatrzymany musi zostać szybko postawiony przed sędzią.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f008",
+     "przod": "Podaj nazwę pojęcia: Ustawa angielska z 1679 r. chroniąca przed bezprawnym aresztowaniem — zatrzymany musi zostać szybko postawiony przed sędzią.",
+     "tyl": "Habeas Corpus Act",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f009",
+     "przod": "Wyjaśnij pojęcie: Bill of Rights (1689)",
+     "tyl": "Akt przyjęty po „chwalebnej rewolucji”, ograniczający władzę króla na rzecz parlamentu (m.in. zakaz nakładania podatków bez zgody parlamentu).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f010",
+     "przod": "Podaj nazwę pojęcia: Akt przyjęty po „chwalebnej rewolucji”, ograniczający władzę króla na rzecz parlamentu (m.in. zakaz nakładania podatków bez zgody parlamentu).",
+     "tyl": "Bill of Rights (1689)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f011",
+     "przod": "Wyjaśnij pojęcie: konwenans konstytucyjny",
+     "tyl": "Niepisana, ale przestrzegana zasada ustrojowa w Wielkiej Brytanii (np. monarcha powołuje na premiera lidera partii większościowej, monarcha nie odmawia sankcji królewskiej).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f012",
+     "przod": "Podaj nazwę pojęcia: Niepisana, ale przestrzegana zasada ustrojowa w Wielkiej Brytanii (np. monarcha powołuje na premiera lidera partii większościowej, monarcha nie odmawia sankcji królewskiej).",
+     "tyl": "konwenans konstytucyjny",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f013",
+     "przod": "Wyjaśnij pojęcie: zasada suwerenności parlamentu",
+     "tyl": "Fundamentalna zasada brytyjskiego ustroju — parlament może uchwalić lub uchylić każdą ustawę, a żaden organ nie może uchylić jego ustaw.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f014",
+     "przod": "Podaj nazwę pojęcia: Fundamentalna zasada brytyjskiego ustroju — parlament może uchwalić lub uchylić każdą ustawę, a żaden organ nie może uchylić jego ustaw.",
+     "tyl": "zasada suwerenności parlamentu",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f015",
+     "przod": "Jakie są kompetencje monarchy brytyjskiego?",
+     "tyl": "Formalnie: zwołuje i rozwiązuje parlament (na wniosek premiera), udziela sankcji królewskiej ustawom, powołuje premiera i ministrów, jest głową Kościoła Anglii i zwierzchnikiem sił zbrojnych, otwiera sesję parlamentu (mowa tronowa); w praktyce działa na wniosek rządu („panuje, ale nie rządzi”).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f016",
+     "przod": "Wyjaśnij pojęcie: prerogatywy królewskie",
+     "tyl": "Historyczne uprawnienia monarchy, dziś wykonywane w praktyce przez rząd (np. zawieranie umów, wypowiadanie wojny, prawo łaski).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f017",
+     "przod": "Podaj nazwę pojęcia: Historyczne uprawnienia monarchy, dziś wykonywane w praktyce przez rząd (np. zawieranie umów, wypowiadanie wojny, prawo łaski).",
+     "tyl": "prerogatywy królewskie",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f018",
+     "przod": "Wyjaśnij pojęcie: sankcja królewska (Royal Assent)",
+     "tyl": "Formalna zgoda monarchy na ustawę uchwaloną przez parlament; ostatni raz odmówiono jej w 1708 r.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f019",
+     "przod": "Podaj nazwę pojęcia: Formalna zgoda monarchy na ustawę uchwaloną przez parlament; ostatni raz odmówiono jej w 1708 r.",
+     "tyl": "sankcja królewska (Royal Assent)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f020",
+     "przod": "Kto jest obecnie monarchą Wielkiej Brytanii?",
+     "tyl": "Karol III (od września 2022 r., po śmierci Elżbiety II).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f021",
+     "przod": "Z jakich elementów składa się brytyjski parlament?",
+     "tyl": "Z monarchy, Izby Lordów i Izby Gmin.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f022",
+     "przod": "Wyjaśnij pojęcie: Izba Gmin",
+     "tyl": "Niższa izba brytyjskiego parlamentu licząca 650 posłów wybieranych w okręgach jednomandatowych systemem większości względnej (FPTP) na kadencję do 5 lat.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f023",
+     "przod": "Podaj nazwę pojęcia: Niższa izba brytyjskiego parlamentu licząca 650 posłów wybieranych w okręgach jednomandatowych systemem większości względnej (FPTP) na kadencję do 5 lat.",
+     "tyl": "Izba Gmin",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f024",
+     "przod": "Wyjaśnij pojęcie: Izba Lordów",
+     "tyl": "Wyższa izba brytyjskiego parlamentu, niewybieralna — składa się z lordów dożywotnich (większość), lordów dziedzicznych (historycznie 92 — ich usunięcie przewiduje reforma rządu Partii Pracy z 2024 r.) i 26 lordów duchownych (biskupów Kościoła Anglii).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f025",
+     "przod": "Podaj nazwę pojęcia: Wyższa izba brytyjskiego parlamentu, niewybieralna — składa się z lordów dożywotnich (większość), lordów dziedzicznych (historycznie 92 — ich usunięcie przewiduje reforma rządu Partii Pracy z 2024 r.) i 26 lordów duchownych (biskupów Kościoła Anglii).",
+     "tyl": "Izba Lordów",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f026",
+     "przod": "Jakie są kompetencje Izby Lordów?",
+     "tyl": "Może opóźnić (zawiesić) uchwalenie ustawy o rok (weto zawieszające); w sprawach finansowych — o miesiąc; rozpatruje i poprawia projekty ustaw. Do 2009 r. była najwyższą instancją sądową.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f027",
+     "przod": "Wyjaśnij pojęcie: speaker Izby Gmin",
+     "tyl": "Przewodniczący Izby Gmin, bezstronny wobec partii; po wyborze rezygnuje z przynależności partyjnej.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f028",
+     "przod": "Podaj nazwę pojęcia: Przewodniczący Izby Gmin, bezstronny wobec partii; po wyborze rezygnuje z przynależności partyjnej.",
+     "tyl": "speaker Izby Gmin",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f029",
+     "przod": "Wyjaśnij pojęcie: backbenchers",
+     "tyl": "Szeregowi posłowie Izby Gmin, niezajmujący stanowisk w rządzie ani gabinecie cieni (zasiadają w tylnych ławach).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f030",
+     "przod": "Podaj nazwę pojęcia: Szeregowi posłowie Izby Gmin, niezajmujący stanowisk w rządzie ani gabinecie cieni (zasiadają w tylnych ławach).",
+     "tyl": "backbenchers",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f031",
+     "przod": "Wyjaśnij pojęcie: frontbenchers",
+     "tyl": "Posłowie zasiadający w pierwszych ławach — członkowie rządu i gabinetu cieni.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f032",
+     "przod": "Podaj nazwę pojęcia: Posłowie zasiadający w pierwszych ławach — członkowie rządu i gabinetu cieni.",
+     "tyl": "frontbenchers",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f033",
+     "przod": "Wyjaśnij pojęcie: gabinet cieni (shadow cabinet)",
+     "tyl": "Zespół polityków największej partii opozycyjnej, odpowiadający resortom rządu, przygotowany do przejęcia władzy; lider opozycji ma oficjalny status.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f034",
+     "przod": "Podaj nazwę pojęcia: Zespół polityków największej partii opozycyjnej, odpowiadający resortom rządu, przygotowany do przejęcia władzy; lider opozycji ma oficjalny status.",
+     "tyl": "gabinet cieni (shadow cabinet)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f035",
+     "przod": "Jak powoływany jest premier Wielkiej Brytanii?",
+     "tyl": "Monarcha powołuje na premiera lidera partii, która zdobyła większość w Izbie Gmin (konwenans konstytucyjny).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f036",
+     "przod": "Jaka jest pozycja premiera Wielkiej Brytanii?",
+     "tyl": "Bardzo silna: kieruje rządem i gabinetem, dobiera i odwołuje ministrów, jest liderem partii większościowej, wpływa na rozwiązanie parlamentu, reprezentuje państwo; mówi się o „rządach premierowskich”.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f037",
+     "przod": "Wyjaśnij pojęcie: gabinet",
+     "tyl": "Węższy zespół ok. 20 najważniejszych ministrów pod przewodnictwem premiera, podejmujący najważniejsze decyzje polityczne w Wielkiej Brytanii.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f038",
+     "przod": "Podaj nazwę pojęcia: Węższy zespół ok. 20 najważniejszych ministrów pod przewodnictwem premiera, podejmujący najważniejsze decyzje polityczne w Wielkiej Brytanii.",
+     "tyl": "gabinet",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f039",
+     "przod": "Wyjaśnij pojęcie: 10 Downing Street",
+     "tyl": "Oficjalna siedziba premiera Wielkiej Brytanii w Londynie.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f040",
+     "przod": "Podaj nazwę pojęcia: Oficjalna siedziba premiera Wielkiej Brytanii w Londynie.",
+     "tyl": "10 Downing Street",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f041",
+     "przod": "Wyjaśnij pojęcie: Whitehall",
+     "tyl": "Ulica w Londynie, przy której mieszczą się ministerstwa; synonim brytyjskiej administracji rządowej.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f042",
+     "przod": "Podaj nazwę pojęcia: Ulica w Londynie, przy której mieszczą się ministerstwa; synonim brytyjskiej administracji rządowej.",
+     "tyl": "Whitehall",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f043",
+     "przod": "Wyjaśnij pojęcie: Westminster",
+     "tyl": "Pałac w Londynie, siedziba brytyjskiego parlamentu; także synonim modelu ustrojowego (model westminsterski).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f044",
+     "przod": "Podaj nazwę pojęcia: Pałac w Londynie, siedziba brytyjskiego parlamentu; także synonim modelu ustrojowego (model westminsterski).",
+     "tyl": "Westminster",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f045",
+     "przod": "Wyjaśnij pojęcie: Sąd Najwyższy Zjednoczonego Królestwa",
+     "tyl": "Najwyższy sąd apelacyjny w Wielkiej Brytanii utworzony w 2009 r. (przejął funkcje sądowe Izby Lordów).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f046",
+     "przod": "Podaj nazwę pojęcia: Najwyższy sąd apelacyjny w Wielkiej Brytanii utworzony w 2009 r. (przejął funkcje sądowe Izby Lordów).",
+     "tyl": "Sąd Najwyższy Zjednoczonego Królestwa",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f047",
+     "przod": "Wyjaśnij pojęcie: devolution (dewolucja)",
+     "tyl": "Przekazanie części kompetencji ustawodawczych i wykonawczych regionom: Parlamentowi Szkockiemu, Senedd (Walia) i Zgromadzeniu Irlandii Północnej (od 1998–1999 r.).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f048",
+     "przod": "Podaj nazwę pojęcia: Przekazanie części kompetencji ustawodawczych i wykonawczych regionom: Parlamentowi Szkockiemu, Senedd (Walia) i Zgromadzeniu Irlandii Północnej (od 1998–1999 r.).",
+     "tyl": "devolution (dewolucja)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f049",
+     "przod": "Jakie partie dominują w Wielkiej Brytanii?",
+     "tyl": "Partia Konserwatywna (torysi) i Partia Pracy (laburzyści); ważne są też Liberalni Demokraci, Szkocka Partia Narodowa (SNP) i Reform UK.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f050",
+     "przod": "Która partia wygrała wybory w Wielkiej Brytanii w 2024 r.?",
+     "tyl": "Partia Pracy — premierem został Keir Starmer (lipiec 2024 r.), kończąc 14 lat rządów konserwatystów.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f051",
+     "przod": "Wyjaśnij pojęcie: Brexit",
+     "tyl": "Wyjście Wielkiej Brytanii z UE — referendum 23 czerwca 2016 r. (51,9% za wyjściem), formalne opuszczenie UE 31 stycznia 2020 r.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. XIV „Integracja europejska”"
+    },
+    {
+     "id": "f052",
+     "przod": "Podaj nazwę pojęcia: Wyjście Wielkiej Brytanii z UE — referendum 23 czerwca 2016 r. (51,9% za wyjściem), formalne opuszczenie UE 31 stycznia 2020 r.",
+     "tyl": "Brexit",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. XIV „Integracja europejska”"
+    },
+    {
+     "id": "f053",
+     "przod": "Wyjaśnij pojęcie: referendum w sprawie niepodległości Szkocji",
+     "tyl": "Referendum z 2014 r., w którym ok. 55% głosujących opowiedziało się za pozostaniem w Zjednoczonym Królestwie.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f054",
+     "przod": "Podaj nazwę pojęcia: Referendum z 2014 r., w którym ok. 55% głosujących opowiedziało się za pozostaniem w Zjednoczonym Królestwie.",
+     "tyl": "referendum w sprawie niepodległości Szkocji",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f055",
+     "przod": "Jak można rozwiązać Izbę Gmin?",
+     "tyl": "Na wniosek premiera monarcha rozwiązuje parlament i zarządza wybory (prerogatywa przywrócona w 2022 r. po uchyleniu Fixed-term Parliaments Act z 2011 r.); kadencja może trwać najdłużej 5 lat.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f056",
+     "przod": "Wyjaśnij pojęcie: wotum nieufności w Izbie Gmin",
+     "tyl": "Uchwała Izby Gmin wyrażająca brak zaufania dla rządu, skutkująca jego dymisją lub rozwiązaniem parlamentu (nie jest konstruktywne).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f057",
+     "przod": "Podaj nazwę pojęcia: Uchwała Izby Gmin wyrażająca brak zaufania dla rządu, skutkująca jego dymisją lub rozwiązaniem parlamentu (nie jest konstruktywne).",
+     "tyl": "wotum nieufności w Izbie Gmin",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f058",
+     "przod": "Wyjaśnij pojęcie: Wspólnota Narodów (Commonwealth)",
+     "tyl": "Organizacja ok. 56 państw, głównie byłych kolonii brytyjskich; w części z nich (np. Kanada, Australia) głową państwa jest brytyjski monarcha.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f059",
+     "przod": "Podaj nazwę pojęcia: Organizacja ok. 56 państw, głównie byłych kolonii brytyjskich; w części z nich (np. Kanada, Australia) głową państwa jest brytyjski monarcha.",
+     "tyl": "Wspólnota Narodów (Commonwealth)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Brytyjska Izba Gmin liczy:",
+     "odpowiedzi": [
+      "460 posłów",
+      "650 posłów",
+      "435 posłów",
+      "577 posłów"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "435 członków liczy Izba Reprezentantów USA, 577 — francuskie Zgromadzenie Narodowe.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Posłowie do Izby Gmin są wybierani w systemie:",
+     "odpowiedzi": [
+      "proporcjonalnym z listami zamkniętymi",
+      "mieszanym",
+      "większości względnej w okręgach jednomandatowych",
+      "większości bezwzględnej z dwiema turami"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Tzw. FPTP — first past the post.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Który dokument NIE jest elementem brytyjskiej konstytucji?",
+     "odpowiedzi": [
+      "Wielka Karta Swobód",
+      "Deklaracja Niepodległości",
+      "Bill of Rights",
+      "Habeas Corpus Act"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Deklaracja Niepodległości (1776) to dokument USA.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Izba Lordów może opóźnić uchwalenie zwykłej ustawy o:",
+     "odpowiedzi": [
+      "miesiąc",
+      "rok",
+      "30 dni",
+      "dwa lata"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "W sprawach finansowych — tylko o miesiąc.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Funkcje sądowe Izby Lordów przejął w 2009 r.:",
+     "odpowiedzi": [
+      "Izba Gmin",
+      "Tajna Rada",
+      "Sąd Najwyższy Zjednoczonego Królestwa",
+      "Europejski Trybunał Praw Człowieka"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Sąd Najwyższy rozpoczął działalność w październiku 2009 r.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Brytyjski monarcha powołuje na premiera:",
+     "odpowiedzi": [
+      "lidera partii mającej większość w Izbie Gmin",
+      "dowolnego posła",
+      "kandydata wskazanego przez Izbę Lordów",
+      "zwycięzcę wyborów powszechnych na premiera"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "To konwenans konstytucyjny.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    }
+   ]
+  },
+  {
+   "id": "sys-usa",
+   "nazwa": "Stany Zjednoczone",
+   "opis": "Konstytucja USA, federalizm, Kongres, prezydent, Sąd Najwyższy, wybory i system partyjny.",
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Jaki jest ustrój USA?",
+     "tyl": "Republika federalna z systemem prezydenckim, opartym na sztywnym podziale władz i systemie hamulców i równowagi; system dwupartyjny.",
+     "zrodlo": "Konstytucja USA, art. I–III"
+    },
+    {
+     "id": "f002",
+     "przod": "Kiedy uchwalono Konstytucję USA i jaki ma charakter?",
+     "tyl": "W 1787 r. w Filadelfii (weszła w życie w 1789 r.); jest najstarszą obowiązującą konstytucją pisaną, sztywną, krótką (7 artykułów) i uzupełnioną 27 poprawkami.",
+     "zrodlo": "KUSA"
+    },
+    {
+     "id": "f003",
+     "przod": "Wyjaśnij pojęcie: Karta Praw (Bill of Rights) w USA",
+     "tyl": "Pierwsze 10 poprawek do Konstytucji USA (1791), gwarantujących m.in. wolność słowa, religii, prasy i zgromadzeń (I poprawka), prawo do posiadania broni (II poprawka) i prawa oskarżonego.",
+     "zrodlo": "Konstytucja USA, poprawki I–X"
+    },
+    {
+     "id": "f004",
+     "przod": "Podaj nazwę pojęcia: Pierwsze 10 poprawek do Konstytucji USA (1791), gwarantujących m.in. wolność słowa, religii, prasy i zgromadzeń (I poprawka), prawo do posiadania broni (II poprawka) i prawa oskarżonego.",
+     "tyl": "Karta Praw (Bill of Rights) w USA",
+     "zrodlo": "Konstytucja USA, poprawki I–X"
+    },
+    {
+     "id": "f005",
+     "przod": "Jak zmienia się Konstytucję USA?",
+     "tyl": "Poprawkę proponuje 2/3 obu izb Kongresu (lub konwencja zwołana na wniosek 2/3 stanów), a ratyfikuje ją 3/4 stanów (legislatury lub konwencje stanowe).",
+     "zrodlo": "Konstytucja USA, art. V"
+    },
+    {
+     "id": "f006",
+     "przod": "Wyjaśnij pojęcie: federalizm amerykański",
+     "tyl": "Podział władzy między rząd federalny a 50 stanów; stany mają własne konstytucje, gubernatorów, legislatury i sądy, a kompetencje niezastrzeżone dla federacji należą do stanów (X poprawka).",
+     "zrodlo": "Konstytucja USA, poprawka X"
+    },
+    {
+     "id": "f007",
+     "przod": "Podaj nazwę pojęcia: Podział władzy między rząd federalny a 50 stanów; stany mają własne konstytucje, gubernatorów, legislatury i sądy, a kompetencje niezastrzeżone dla federacji należą do stanów (X poprawka).",
+     "tyl": "federalizm amerykański",
+     "zrodlo": "Konstytucja USA, poprawka X"
+    },
+    {
+     "id": "f008",
+     "przod": "Wyjaśnij pojęcie: Deklaracja Niepodległości",
+     "tyl": "Akt z 4 lipca 1776 r. (T. Jefferson) proklamujący niepodległość 13 kolonii; głosił przyrodzone prawa do życia, wolności i dążenia do szczęścia.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f009",
+     "przod": "Podaj nazwę pojęcia: Akt z 4 lipca 1776 r. (T. Jefferson) proklamujący niepodległość 13 kolonii; głosił przyrodzone prawa do życia, wolności i dążenia do szczęścia.",
+     "tyl": "Deklaracja Niepodległości",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f010",
+     "przod": "Z jakich izb składa się Kongres USA?",
+     "tyl": "Z Izby Reprezentantów (435 członków, kadencja 2 lata, wybierani w okręgach jednomandatowych proporcjonalnie do ludności stanów) i Senatu (100 senatorów — po 2 z każdego stanu, kadencja 6 lat, co 2 lata wymiana 1/3).",
+     "zrodlo": "Konstytucja USA, art. I"
+    },
+    {
+     "id": "f011",
+     "przod": "Jakie są szczególne kompetencje Senatu USA?",
+     "tyl": "Zatwierdza nominacje prezydenta (np. sędziów Sądu Najwyższego, sekretarzy, ambasadorów), wyraża zgodę na ratyfikację traktatów (większością 2/3) i sądzi w procedurze impeachmentu.",
+     "zrodlo": "Konstytucja USA, art. I; art. II"
+    },
+    {
+     "id": "f012",
+     "przod": "Jakie są szczególne kompetencje Izby Reprezentantów?",
+     "tyl": "Wyłączna inicjatywa w sprawach ustaw podatkowych (finansowych), stawianie w stan oskarżenia (impeachment) oraz wybór prezydenta, gdy żaden kandydat nie uzyska większości głosów elektorskich.",
+     "zrodlo": "Konstytucja USA, art. I; poprawka XII"
+    },
+    {
+     "id": "f013",
+     "przod": "Kto przewodniczy Senatowi USA?",
+     "tyl": "Wiceprezydent USA (głosuje tylko przy równej liczbie głosów); pod jego nieobecność — przewodniczący pro tempore.",
+     "zrodlo": "Konstytucja USA, art. I"
+    },
+    {
+     "id": "f014",
+     "przod": "Wyjaśnij pojęcie: Speaker Izby Reprezentantów",
+     "tyl": "Przewodniczący Izby Reprezentantów, wybierany przez izbę (zwykle z partii większościowej), drugi w kolejności sukcesji po wiceprezydencie.",
+     "zrodlo": "Konstytucja USA, art. I"
+    },
+    {
+     "id": "f015",
+     "przod": "Podaj nazwę pojęcia: Przewodniczący Izby Reprezentantów, wybierany przez izbę (zwykle z partii większościowej), drugi w kolejności sukcesji po wiceprezydencie.",
+     "tyl": "Speaker Izby Reprezentantów",
+     "zrodlo": "Konstytucja USA, art. I"
+    },
+    {
+     "id": "f016",
+     "przod": "Jak przebiega impeachment w USA?",
+     "tyl": "Izba Reprezentantów zwykłą większością stawia urzędnika w stan oskarżenia, a Senat sądzi go i może usunąć z urzędu większością 2/3 głosów; przy sądzeniu prezydenta przewodniczy Prezes Sądu Najwyższego.",
+     "zrodlo": "Konstytucja USA, art. I; art. II"
+    },
+    {
+     "id": "f017",
+     "przod": "Którzy prezydenci USA zostali postawieni w stan oskarżenia (impeachment)?",
+     "tyl": "Andrew Johnson (1868), Bill Clinton (1998) i Donald Trump (2019 i 2021) — żaden nie został skazany przez Senat; Richard Nixon ustąpił w 1974 r. przed procedurą.",
+     "zrodlo": "Konstytucja USA, art. II"
+    },
+    {
+     "id": "f018",
+     "przod": "Jakie warunki musi spełniać kandydat na prezydenta USA?",
+     "tyl": "Musi być urodzonym obywatelem USA, mieć co najmniej 35 lat i mieszkać w USA od co najmniej 14 lat.",
+     "zrodlo": "Konstytucja USA, art. II"
+    },
+    {
+     "id": "f019",
+     "przod": "Ile kadencji może sprawować prezydent USA?",
+     "tyl": "Dwie 4-letnie kadencje (XXII poprawka z 1951 r. po czterokrotnym wyborze F.D. Roosevelta).",
+     "zrodlo": "Konstytucja USA, poprawka XXII"
+    },
+    {
+     "id": "f020",
+     "przod": "Jak wybierany jest prezydent USA?",
+     "tyl": "Pośrednio — przez Kolegium Elektorów (538 elektorów); w większości stanów obowiązuje zasada „zwycięzca bierze wszystko”; do wyboru potrzeba co najmniej 270 głosów elektorskich.",
+     "zrodlo": "Konstytucja USA, art. II; poprawka XII"
+    },
+    {
+     "id": "f021",
+     "przod": "Wyjaśnij pojęcie: Kolegium Elektorów",
+     "tyl": "Grono 538 elektorów wybieranych w stanach (liczba elektorów stanu = liczba jego senatorów i reprezentantów; 3 dla Dystryktu Kolumbii), które formalnie wybiera prezydenta i wiceprezydenta USA.",
+     "zrodlo": "Konstytucja USA, art. II"
+    },
+    {
+     "id": "f022",
+     "przod": "Podaj nazwę pojęcia: Grono 538 elektorów wybieranych w stanach (liczba elektorów stanu = liczba jego senatorów i reprezentantów; 3 dla Dystryktu Kolumbii), które formalnie wybiera prezydenta i wiceprezydenta USA.",
+     "tyl": "Kolegium Elektorów",
+     "zrodlo": "Konstytucja USA, art. II"
+    },
+    {
+     "id": "f023",
+     "przod": "Wyjaśnij pojęcie: prawybory (primaries)",
+     "tyl": "Głosowania wewnątrzpartyjne w stanach, w których wybiera się delegatów na konwencję krajową partii wyłaniającą kandydata na prezydenta.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f024",
+     "przod": "Podaj nazwę pojęcia: Głosowania wewnątrzpartyjne w stanach, w których wybiera się delegatów na konwencję krajową partii wyłaniającą kandydata na prezydenta.",
+     "tyl": "prawybory (primaries)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f025",
+     "przod": "Wyjaśnij pojęcie: caucus",
+     "tyl": "Forma prawyborów w postaci zebrań członków partii w stanie, na których wybiera się delegatów (np. Iowa).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f026",
+     "przod": "Podaj nazwę pojęcia: Forma prawyborów w postaci zebrań członków partii w stanie, na których wybiera się delegatów (np. Iowa).",
+     "tyl": "caucus",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f027",
+     "przod": "Jakie są kompetencje prezydenta USA?",
+     "tyl": "Szef państwa i rządu, zwierzchnik sił zbrojnych, prowadzi politykę zagraniczną, mianuje sekretarzy, sędziów i ambasadorów (za zgodą Senatu), zawiera traktaty (za zgodą 2/3 Senatu), ma prawo weta, wydaje rozporządzenia wykonawcze (executive orders), stosuje prawo łaski, wygłasza orędzie o stanie państwa.",
+     "zrodlo": "Konstytucja USA, art. II"
+    },
+    {
+     "id": "f028",
+     "przod": "Wyjaśnij pojęcie: weto prezydenta USA",
+     "tyl": "Odmowa podpisania ustawy przez prezydenta; Kongres może je odrzucić większością 2/3 głosów w obu izbach.",
+     "zrodlo": "Konstytucja USA, art. I"
+    },
+    {
+     "id": "f029",
+     "przod": "Podaj nazwę pojęcia: Odmowa podpisania ustawy przez prezydenta; Kongres może je odrzucić większością 2/3 głosów w obu izbach.",
+     "tyl": "weto prezydenta USA",
+     "zrodlo": "Konstytucja USA, art. I"
+    },
+    {
+     "id": "f030",
+     "przod": "Wyjaśnij pojęcie: weto kieszonkowe (pocket veto)",
+     "tyl": "Weto „milczące” — gdy prezydent nie podpisze ustawy w ciągu 10 dni, a Kongres w tym czasie zakończy sesję, ustawa przepada (nie można go odrzucić).",
+     "zrodlo": "Konstytucja USA, art. I"
+    },
+    {
+     "id": "f031",
+     "przod": "Podaj nazwę pojęcia: Weto „milczące” — gdy prezydent nie podpisze ustawy w ciągu 10 dni, a Kongres w tym czasie zakończy sesję, ustawa przepada (nie można go odrzucić).",
+     "tyl": "weto kieszonkowe (pocket veto)",
+     "zrodlo": "Konstytucja USA, art. I"
+    },
+    {
+     "id": "f032",
+     "przod": "Wyjaśnij pojęcie: executive order",
+     "tyl": "Rozporządzenie wykonawcze prezydenta USA wydawane w zakresie jego kompetencji, wiążące administrację federalną.",
+     "zrodlo": "Konstytucja USA, art. II"
+    },
+    {
+     "id": "f033",
+     "przod": "Podaj nazwę pojęcia: Rozporządzenie wykonawcze prezydenta USA wydawane w zakresie jego kompetencji, wiążące administrację federalną.",
+     "tyl": "executive order",
+     "zrodlo": "Konstytucja USA, art. II"
+    },
+    {
+     "id": "f034",
+     "przod": "Wyjaśnij pojęcie: orędzie o stanie państwa (State of the Union)",
+     "tyl": "Coroczne wystąpienie prezydenta USA przed Kongresem przedstawiające sytuację kraju i program legislacyjny.",
+     "zrodlo": "Konstytucja USA, art. II"
+    },
+    {
+     "id": "f035",
+     "przod": "Podaj nazwę pojęcia: Coroczne wystąpienie prezydenta USA przed Kongresem przedstawiające sytuację kraju i program legislacyjny.",
+     "tyl": "orędzie o stanie państwa (State of the Union)",
+     "zrodlo": "Konstytucja USA, art. II"
+    },
+    {
+     "id": "f036",
+     "przod": "Wyjaśnij pojęcie: gabinet (USA)",
+     "tyl": "Zespół doradców prezydenta złożony z sekretarzy departamentów (np. Sekretarz Stanu — sprawy zagraniczne) i innych wysokich urzędników; nie ponosi odpowiedzialności przed Kongresem.",
+     "zrodlo": "Konstytucja USA, art. II"
+    },
+    {
+     "id": "f037",
+     "przod": "Podaj nazwę pojęcia: Zespół doradców prezydenta złożony z sekretarzy departamentów (np. Sekretarz Stanu — sprawy zagraniczne) i innych wysokich urzędników; nie ponosi odpowiedzialności przed Kongresem.",
+     "tyl": "gabinet (USA)",
+     "zrodlo": "Konstytucja USA, art. II"
+    },
+    {
+     "id": "f038",
+     "przod": "Wyjaśnij pojęcie: Sekretarz Stanu",
+     "tyl": "Szef Departamentu Stanu, odpowiadający za politykę zagraniczną USA (odpowiednik ministra spraw zagranicznych).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f039",
+     "przod": "Podaj nazwę pojęcia: Szef Departamentu Stanu, odpowiadający za politykę zagraniczną USA (odpowiednik ministra spraw zagranicznych).",
+     "tyl": "Sekretarz Stanu",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f040",
+     "przod": "Wyjaśnij pojęcie: Biały Dom",
+     "tyl": "Oficjalna siedziba i miejsce pracy prezydenta USA w Waszyngtonie.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f041",
+     "przod": "Podaj nazwę pojęcia: Oficjalna siedziba i miejsce pracy prezydenta USA w Waszyngtonie.",
+     "tyl": "Biały Dom",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f042",
+     "przod": "Wyjaśnij pojęcie: Kapitol",
+     "tyl": "Siedziba Kongresu USA w Waszyngtonie.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f043",
+     "przod": "Podaj nazwę pojęcia: Siedziba Kongresu USA w Waszyngtonie.",
+     "tyl": "Kapitol",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f044",
+     "przod": "Kto zastępuje prezydenta USA w razie śmierci lub ustąpienia?",
+     "tyl": "Wiceprezydent (obejmuje urząd), następnie Speaker Izby Reprezentantów, przewodniczący pro tempore Senatu i sekretarze departamentów (XXV poprawka i ustawa o sukcesji).",
+     "zrodlo": "Konstytucja USA, poprawka XXV"
+    },
+    {
+     "id": "f045",
+     "przod": "Wyjaśnij pojęcie: Sąd Najwyższy USA",
+     "tyl": "Najwyższy sąd federalny złożony z 9 sędziów powoływanych dożywotnio przez prezydenta za zgodą Senatu; sprawuje kontrolę konstytucyjności prawa.",
+     "zrodlo": "Konstytucja USA, art. III"
+    },
+    {
+     "id": "f046",
+     "przod": "Podaj nazwę pojęcia: Najwyższy sąd federalny złożony z 9 sędziów powoływanych dożywotnio przez prezydenta za zgodą Senatu; sprawuje kontrolę konstytucyjności prawa.",
+     "tyl": "Sąd Najwyższy USA",
+     "zrodlo": "Konstytucja USA, art. III"
+    },
+    {
+     "id": "f047",
+     "przod": "Wyjaśnij pojęcie: judicial review (kontrola sądowa)",
+     "tyl": "Uprawnienie sądów USA do badania zgodności ustaw z Konstytucją; ugruntowane wyrokiem w sprawie Marbury v. Madison (1803).",
+     "zrodlo": "Konstytucja USA, art. III"
+    },
+    {
+     "id": "f048",
+     "przod": "Podaj nazwę pojęcia: Uprawnienie sądów USA do badania zgodności ustaw z Konstytucją; ugruntowane wyrokiem w sprawie Marbury v. Madison (1803).",
+     "tyl": "judicial review (kontrola sądowa)",
+     "zrodlo": "Konstytucja USA, art. III"
+    },
+    {
+     "id": "f049",
+     "przod": "Jakie znane orzeczenia wydał Sąd Najwyższy USA?",
+     "tyl": "Marbury v. Madison (1803 — kontrola konstytucyjności), Brown v. Board of Education (1954 — koniec segregacji rasowej w szkołach), Roe v. Wade (1973 — aborcja; uchylony w 2022 r. wyrokiem Dobbs v. Jackson), Obergefell v. Hodges (2015 — małżeństwa jednopłciowe).",
+     "zrodlo": "Konstytucja USA, art. III"
+    },
+    {
+     "id": "f050",
+     "przod": "Jak wybiera się członków Izby Reprezentantów i senatorów?",
+     "tyl": "W okręgach jednomandatowych, większością względną (z wyjątkami w niektórych stanach), w wyborach powszechnych; wybory do Kongresu odbywają się co 2 lata (także w połowie kadencji prezydenta — midterms).",
+     "zrodlo": "Konstytucja USA, art. I; poprawka XVII"
+    },
+    {
+     "id": "f051",
+     "przod": "Wyjaśnij pojęcie: wybory połówkowe (midterms)",
+     "tyl": "Wybory do Kongresu (cała Izba Reprezentantów i 1/3 Senatu) odbywające się w połowie kadencji prezydenta USA.",
+     "zrodlo": "Konstytucja USA, art. I"
+    },
+    {
+     "id": "f052",
+     "przod": "Podaj nazwę pojęcia: Wybory do Kongresu (cała Izba Reprezentantów i 1/3 Senatu) odbywające się w połowie kadencji prezydenta USA.",
+     "tyl": "wybory połówkowe (midterms)",
+     "zrodlo": "Konstytucja USA, art. I"
+    },
+    {
+     "id": "f053",
+     "przod": "Wyjaśnij pojęcie: filibuster",
+     "tyl": "Taktyka obstrukcji w Senacie USA polegająca na przedłużaniu debaty, by uniemożliwić głosowanie; do jej przerwania potrzeba zwykle 60 głosów (cloture).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f054",
+     "przod": "Podaj nazwę pojęcia: Taktyka obstrukcji w Senacie USA polegająca na przedłużaniu debaty, by uniemożliwić głosowanie; do jej przerwania potrzeba zwykle 60 głosów (cloture).",
+     "tyl": "filibuster",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f055",
+     "przod": "Jakie partie dominują w USA?",
+     "tyl": "Partia Demokratyczna (centrolewicowa, liberalna) i Partia Republikańska (konserwatywna, GOP — Grand Old Party).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f056",
+     "przod": "Kto był prezydentem USA w latach 2021–2025, a kto od 2025 r.?",
+     "tyl": "W latach 2021–2025 — Joe Biden (demokrata); od 20 stycznia 2025 r. — Donald Trump (republikanin, druga kadencja; wiceprezydent J.D. Vance).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f057",
+     "przod": "Wyjaśnij pojęcie: dzielony rząd (divided government)",
+     "tyl": "Sytuacja w USA, gdy prezydent pochodzi z innej partii niż większość w jednej lub obu izbach Kongresu.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f058",
+     "przod": "Podaj nazwę pojęcia: Sytuacja w USA, gdy prezydent pochodzi z innej partii niż większość w jednej lub obu izbach Kongresu.",
+     "tyl": "dzielony rząd (divided government)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f059",
+     "przod": "Wyjaśnij pojęcie: lame duck (kulawa kaczka)",
+     "tyl": "Polityk (np. prezydent USA) w ostatnim okresie urzędowania, gdy znany jest już jego następca lub nie może się ubiegać o reelekcję — ma osłabioną pozycję.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f060",
+     "przod": "Podaj nazwę pojęcia: Polityk (np. prezydent USA) w ostatnim okresie urzędowania, gdy znany jest już jego następca lub nie może się ubiegać o reelekcję — ma osłabioną pozycję.",
+     "tyl": "lame duck (kulawa kaczka)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Izba Reprezentantów USA liczy:",
+     "odpowiedzi": [
+      "100 członków",
+      "538 członków",
+      "435 członków",
+      "650 członków"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "538 to liczba elektorów.",
+     "zrodlo": "Konstytucja USA, art. I"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Senatorowie USA są wybierani na kadencję:",
+     "odpowiedzi": [
+      "4-letnią",
+      "2-letnią",
+      "6-letnią",
+      "dożywotnio"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Co 2 lata wymienia się 1/3 Senatu.",
+     "zrodlo": "Konstytucja USA, art. I"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Weto prezydenta USA Kongres może odrzucić większością:",
+     "odpowiedzi": [
+      "3/5 głosów w Senacie",
+      "bezwzględną w obu izbach",
+      "zwykłą w Izbie Reprezentantów",
+      "2/3 głosów w obu izbach"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Weto kieszonkowego nie można odrzucić.",
+     "zrodlo": "Konstytucja USA, art. I"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Do wyboru na prezydenta USA potrzeba co najmniej:",
+     "odpowiedzi": [
+      "270 głosów elektorskich",
+      "50% głosów obywateli",
+      "218 głosów elektorskich",
+      "300 głosów elektorskich"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Kolegium liczy 538 elektorów.",
+     "zrodlo": "Konstytucja USA, art. II"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Zasadę kontroli konstytucyjności ustaw w USA ugruntował wyrok:",
+     "odpowiedzi": [
+      "Marbury v. Madison",
+      "Roe v. Wade",
+      "Brown v. Board of Education",
+      "Dobbs v. Jackson"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Wyrok z 1803 r. — sędzia J. Marshall.",
+     "zrodlo": "Konstytucja USA, art. III"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Ograniczenie prezydentury w USA do dwóch kadencji wprowadziła poprawka:",
+     "odpowiedzi": [
+      "I",
+      "XIV",
+      "XXII",
+      "XXV"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Uchwalono ją po czterech wyborach F.D. Roosevelta.",
+     "zrodlo": "Konstytucja USA, poprawka XXII"
+    },
+    {
+     "id": "p07",
+     "pytanie": "Zgoda Senatu USA na ratyfikację traktatu wymaga większości:",
+     "odpowiedzi": [
+      "bezwzględnej",
+      "2/3 głosów",
+      "3/5 głosów",
+      "zwykłej"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Prezydent zawiera traktaty „za radą i zgodą” Senatu.",
+     "zrodlo": "Konstytucja USA, art. II"
+    }
+   ]
+  },
+  {
+   "id": "sys-francja",
+   "nazwa": "Francja",
+   "opis": "Konstytucja V Republiki, prezydent, rząd, parlament, Rada Konstytucyjna, kohabitacja.",
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Jaki system rządów ma Francja?",
+     "tyl": "Semiprezydencki (półprezydencki) — V Republika, konstytucja z 1958 r. przygotowana z inicjatywy gen. Charles'a de Gaulle'a.",
+     "zrodlo": "K58"
+    },
+    {
+     "id": "f002",
+     "przod": "Jak wybierany jest prezydent Francji?",
+     "tyl": "W wyborach powszechnych (od 1962 r.), większością bezwzględną — w razie potrzeby w dwóch turach; kadencja 5 lat (od 2002 r., wcześniej 7), najwyżej dwie kadencje z rzędu (od 2008 r.).",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 6; Konstytucja V Republiki Francuskiej, art. 7"
+    },
+    {
+     "id": "f003",
+     "przod": "Jakie są kompetencje prezydenta Francji?",
+     "tyl": "Mianuje premiera i (na jego wniosek) ministrów, przewodniczy Radzie Ministrów, może rozwiązać Zgromadzenie Narodowe (po konsultacji, nie częściej niż raz w roku), zarządza referendum, ma uprawnienia nadzwyczajne (art. 16), jest zwierzchnikiem sił zbrojnych, negocjuje i ratyfikuje traktaty, mianuje 3 członków Rady Konstytucyjnej.",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 8; Konstytucja V Republiki Francuskiej, art. 11; Konstytucja V Republiki Francuskiej, art. 12; Konstytucja V Republiki Francuskiej, art. 16"
+    },
+    {
+     "id": "f004",
+     "przod": "Wyjaśnij pojęcie: art. 16 konstytucji Francji",
+     "tyl": "Uprawnienie prezydenta Francji do podjęcia nadzwyczajnych środków w razie poważnego i bezpośredniego zagrożenia instytucji republiki, niepodległości lub integralności terytorium.",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 16"
+    },
+    {
+     "id": "f005",
+     "przod": "Podaj nazwę pojęcia: Uprawnienie prezydenta Francji do podjęcia nadzwyczajnych środków w razie poważnego i bezpośredniego zagrożenia instytucji republiki, niepodległości lub integralności terytorium.",
+     "tyl": "art. 16 konstytucji Francji",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 16"
+    },
+    {
+     "id": "f006",
+     "przod": "Kto kieruje rządem Francji i przed kim rząd odpowiada?",
+     "tyl": "Premier (mianowany przez prezydenta) kieruje działalnością rządu; rząd jest politycznie odpowiedzialny przed Zgromadzeniem Narodowym.",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 20; Konstytucja V Republiki Francuskiej, art. 21"
+    },
+    {
+     "id": "f007",
+     "przod": "Z jakich izb składa się parlament Francji?",
+     "tyl": "Ze Zgromadzenia Narodowego (577 deputowanych, kadencja 5 lat, ordynacja większościowa dwuturowa w okręgach jednomandatowych) i Senatu (348 senatorów, wybory pośrednie przez kolegia elektorskie, kadencja 6 lat, co 3 lata wymiana połowy).",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 24"
+    },
+    {
+     "id": "f008",
+     "przod": "Wyjaśnij pojęcie: Rada Konstytucyjna (Francja)",
+     "tyl": "Organ kontroli konstytucyjności ustaw we Francji; liczy 9 członków (po 3 mianowanych przez prezydenta i przewodniczących obu izb) na 9 lat, oraz byłych prezydentów jako członków z urzędu.",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 56"
+    },
+    {
+     "id": "f009",
+     "przod": "Podaj nazwę pojęcia: Organ kontroli konstytucyjności ustaw we Francji; liczy 9 członków (po 3 mianowanych przez prezydenta i przewodniczących obu izb) na 9 lat, oraz byłych prezydentów jako członków z urzędu.",
+     "tyl": "Rada Konstytucyjna (Francja)",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 56"
+    },
+    {
+     "id": "f010",
+     "przod": "Wyjaśnij pojęcie: Pałac Elizejski",
+     "tyl": "Oficjalna siedziba prezydenta Francji w Paryżu.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f011",
+     "przod": "Podaj nazwę pojęcia: Oficjalna siedziba prezydenta Francji w Paryżu.",
+     "tyl": "Pałac Elizejski",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f012",
+     "przod": "Wyjaśnij pojęcie: Hôtel Matignon",
+     "tyl": "Siedziba premiera Francji w Paryżu.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f013",
+     "przod": "Podaj nazwę pojęcia: Siedziba premiera Francji w Paryżu.",
+     "tyl": "Hôtel Matignon",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f014",
+     "przod": "Kiedy we Francji występowała kohabitacja?",
+     "tyl": "1986–1988 i 1993–1995 (prezydent F. Mitterrand — premierzy J. Chirac i É. Balladur) oraz 1997–2002 (prezydent J. Chirac — premier L. Jospin).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f015",
+     "przod": "Wyjaśnij pojęcie: art. 49.3 konstytucji Francji",
+     "tyl": "Procedura pozwalająca rządowi przyjąć ustawę bez głosowania w Zgromadzeniu Narodowym, jeśli w ciągu 24 godzin nie zostanie złożony i przyjęty wniosek o wotum nieufności.",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 49"
+    },
+    {
+     "id": "f016",
+     "przod": "Podaj nazwę pojęcia: Procedura pozwalająca rządowi przyjąć ustawę bez głosowania w Zgromadzeniu Narodowym, jeśli w ciągu 24 godzin nie zostanie złożony i przyjęty wniosek o wotum nieufności.",
+     "tyl": "art. 49.3 konstytucji Francji",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 49"
+    },
+    {
+     "id": "f017",
+     "przod": "Jak wotum nieufności działa we Francji?",
+     "tyl": "Wniosek musi podpisać co najmniej 1/10 deputowanych; do przyjęcia potrzeba większości ustawowej liczby członków Zgromadzenia Narodowego; przyjęcie oznacza dymisję rządu.",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 49"
+    },
+    {
+     "id": "f018",
+     "przod": "Kto jest prezydentem Francji od 2017 r.?",
+     "tyl": "Emmanuel Macron (ponownie wybrany w 2022 r.).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f019",
+     "przod": "Wyjaśnij pojęcie: racjonalizacja parlamentaryzmu (Francja)",
+     "tyl": "Ograniczenie pozycji parlamentu w V Republice na rzecz władzy wykonawczej (np. dziedzina ustawowa zamknięta, art. 49.3, silny prezydent).",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 34; Konstytucja V Republiki Francuskiej, art. 49"
+    },
+    {
+     "id": "f020",
+     "przod": "Podaj nazwę pojęcia: Ograniczenie pozycji parlamentu w V Republice na rzecz władzy wykonawczej (np. dziedzina ustawowa zamknięta, art. 49.3, silny prezydent).",
+     "tyl": "racjonalizacja parlamentaryzmu (Francja)",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 34; Konstytucja V Republiki Francuskiej, art. 49"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Prezydent Francji jest wybierany na kadencję:",
+     "odpowiedzi": [
+      "7-letnią",
+      "4-letnią",
+      "6-letnią",
+      "5-letnią"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Do 2002 r. kadencja trwała 7 lat.",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 6"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Zgromadzenie Narodowe Francji liczy:",
+     "odpowiedzi": [
+      "650 deputowanych",
+      "348 deputowanych",
+      "577 deputowanych",
+      "460 deputowanych"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "348 członków liczy francuski Senat.",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 24"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Organem kontroli konstytucyjności ustaw we Francji jest:",
+     "odpowiedzi": [
+      "Sąd Najwyższy",
+      "Rada Konstytucyjna",
+      "Rada Stanu",
+      "Senat"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Rada Konstytucyjna liczy 9 członków mianowanych.",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 56"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Uprawnienia nadzwyczajne prezydenta Francji w sytuacji zagrożenia przewiduje art.:",
+     "odpowiedzi": [
+      "49",
+      "11",
+      "89",
+      "16"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Art. 49 dotyczy odpowiedzialności rządu.",
+     "zrodlo": "Konstytucja V Republiki Francuskiej, art. 16"
+    }
+   ]
+  },
+  {
+   "id": "sys-niemcy",
+   "nazwa": "Niemcy",
+   "opis": "Ustawa Zasadnicza, federalizm, Bundestag i Bundesrat, kanclerz, prezydent federalny, Federalny Trybunał Konstytucyjny.",
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Jaki jest ustrój Republiki Federalnej Niemiec?",
+     "tyl": "Republika federalna (16 krajów związkowych) z systemem kanclerskim (odmiana parlamentarno-gabinetowego); konstytucją jest Ustawa Zasadnicza z 1949 r. (Grundgesetz).",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 20"
+    },
+    {
+     "id": "f002",
+     "przod": "Wyjaśnij pojęcie: Ustawa Zasadnicza (Grundgesetz)",
+     "tyl": "Konstytucja RFN uchwalona w 1949 r., pierwotnie jako tymczasowa (do zjednoczenia Niemiec), obowiązująca także po zjednoczeniu w 1990 r.",
+     "zrodlo": "GG"
+    },
+    {
+     "id": "f003",
+     "przod": "Podaj nazwę pojęcia: Konstytucja RFN uchwalona w 1949 r., pierwotnie jako tymczasowa (do zjednoczenia Niemiec), obowiązująca także po zjednoczeniu w 1990 r.",
+     "tyl": "Ustawa Zasadnicza (Grundgesetz)",
+     "zrodlo": "GG"
+    },
+    {
+     "id": "f004",
+     "przod": "Wyjaśnij pojęcie: klauzula wieczności",
+     "tyl": "Przepis art. 79 ust. 3 Ustawy Zasadniczej zakazujący zmian naruszających federalny podział państwa, udział krajów w ustawodawstwie oraz zasady z art. 1 (godność człowieka) i art. 20 (demokratyczne, socjalne państwo federalne).",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 79"
+    },
+    {
+     "id": "f005",
+     "przod": "Podaj nazwę pojęcia: Przepis art. 79 ust. 3 Ustawy Zasadniczej zakazujący zmian naruszających federalny podział państwa, udział krajów w ustawodawstwie oraz zasady z art. 1 (godność człowieka) i art. 20 (demokratyczne, socjalne państwo federalne).",
+     "tyl": "klauzula wieczności",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 79"
+    },
+    {
+     "id": "f006",
+     "przod": "Wyjaśnij pojęcie: Bundestag",
+     "tyl": "Izba niższa parlamentu Niemiec wybierana na 4 lata w systemie mieszanym (dwa głosy); od wyborów w 2025 r. liczy 630 posłów.",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 38; Ustawa Zasadnicza RFN, art. 39"
+    },
+    {
+     "id": "f007",
+     "przod": "Podaj nazwę pojęcia: Izba niższa parlamentu Niemiec wybierana na 4 lata w systemie mieszanym (dwa głosy); od wyborów w 2025 r. liczy 630 posłów.",
+     "tyl": "Bundestag",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 38; Ustawa Zasadnicza RFN, art. 39"
+    },
+    {
+     "id": "f008",
+     "przod": "Wyjaśnij pojęcie: Bundesrat",
+     "tyl": "Organ reprezentujący kraje związkowe (Rada Federalna), złożony z przedstawicieli rządów krajowych (69 członków, 3–6 głosów na kraj, głosujących jednolicie).",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 50; Ustawa Zasadnicza RFN, art. 51"
+    },
+    {
+     "id": "f009",
+     "przod": "Podaj nazwę pojęcia: Organ reprezentujący kraje związkowe (Rada Federalna), złożony z przedstawicieli rządów krajowych (69 członków, 3–6 głosów na kraj, głosujących jednolicie).",
+     "tyl": "Bundesrat",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 50; Ustawa Zasadnicza RFN, art. 51"
+    },
+    {
+     "id": "f010",
+     "przod": "Jak przebiegają wybory do Bundestagu?",
+     "tyl": "Wyborca oddaje dwa głosy: pierwszy na kandydata w okręgu jednomandatowym, drugi na listę partyjną w kraju związkowym — drugi głos decyduje o proporcjonalnym podziale mandatów; próg 5% (lub 3 mandaty bezpośrednie).",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 38"
+    },
+    {
+     "id": "f011",
+     "przod": "Wyjaśnij pojęcie: kanclerz federalny",
+     "tyl": "Szef rządu Niemiec, wybierany przez Bundestag na wniosek prezydenta federalnego; wyznacza wytyczne polityki rządu (Richtlinienkompetenz) i odpowiada za nie przed Bundestagiem.",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 63; Ustawa Zasadnicza RFN, art. 65"
+    },
+    {
+     "id": "f012",
+     "przod": "Podaj nazwę pojęcia: Szef rządu Niemiec, wybierany przez Bundestag na wniosek prezydenta federalnego; wyznacza wytyczne polityki rządu (Richtlinienkompetenz) i odpowiada za nie przed Bundestagiem.",
+     "tyl": "kanclerz federalny",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 63; Ustawa Zasadnicza RFN, art. 65"
+    },
+    {
+     "id": "f013",
+     "przod": "Jak wybierany jest kanclerz Niemiec?",
+     "tyl": "Bundestag wybiera go bez debaty na wniosek prezydenta federalnego większością ustawowej liczby posłów; jeśli kandydat nie zostanie wybrany, Bundestag może w ciągu 14 dni wybrać inną osobę; potem wystarczy zwykła większość, a prezydent może mianować kanclerza lub rozwiązać Bundestag.",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 63"
+    },
+    {
+     "id": "f014",
+     "przod": "Jak można odwołać kanclerza Niemiec?",
+     "tyl": "Tylko przez konstruktywne wotum nieufności — Bundestag większością członków wybiera następcę i prosi prezydenta o odwołanie kanclerza (skutecznie użyte raz, w 1982 r. — Helmut Kohl zastąpił Helmuta Schmidta).",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 67"
+    },
+    {
+     "id": "f015",
+     "przod": "Wyjaśnij pojęcie: wotum zaufania w Niemczech",
+     "tyl": "Kanclerz może zwrócić się o wotum zaufania; jeśli go nie uzyska, prezydent na wniosek kanclerza może w ciągu 21 dni rozwiązać Bundestag (np. 2005 G. Schröder, 2024 O. Scholz).",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 68"
+    },
+    {
+     "id": "f016",
+     "przod": "Podaj nazwę pojęcia: Kanclerz może zwrócić się o wotum zaufania; jeśli go nie uzyska, prezydent na wniosek kanclerza może w ciągu 21 dni rozwiązać Bundestag (np. 2005 G. Schröder, 2024 O. Scholz).",
+     "tyl": "wotum zaufania w Niemczech",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 68"
+    },
+    {
+     "id": "f017",
+     "przod": "Jak wybierany jest prezydent federalny Niemiec?",
+     "tyl": "Przez Zgromadzenie Federalne (członkowie Bundestagu i taka sama liczba delegatów parlamentów krajowych) na 5 lat, z możliwością jednej reelekcji; ma głównie funkcje reprezentacyjne.",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 54"
+    },
+    {
+     "id": "f018",
+     "przod": "Kto jest prezydentem i kanclerzem Niemiec (2025)?",
+     "tyl": "Prezydent federalny — Frank-Walter Steinmeier (od 2017 r.); kanclerz — Friedrich Merz (CDU, od maja 2025 r., koalicja CDU/CSU i SPD).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f019",
+     "przod": "Wyjaśnij pojęcie: Federalny Trybunał Konstytucyjny",
+     "tyl": "Sąd konstytucyjny Niemiec z siedzibą w Karlsruhe; 16 sędziów wybieranych po połowie przez Bundestag i Bundesrat na 12 lat; rozpatruje m.in. skargi konstytucyjne i może delegalizować partie.",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 93; Ustawa Zasadnicza RFN, art. 94"
+    },
+    {
+     "id": "f020",
+     "przod": "Podaj nazwę pojęcia: Sąd konstytucyjny Niemiec z siedzibą w Karlsruhe; 16 sędziów wybieranych po połowie przez Bundestag i Bundesrat na 12 lat; rozpatruje m.in. skargi konstytucyjne i może delegalizować partie.",
+     "tyl": "Federalny Trybunał Konstytucyjny",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 93; Ustawa Zasadnicza RFN, art. 94"
+    },
+    {
+     "id": "f021",
+     "przod": "Wyjaśnij pojęcie: demokracja walcząca (wehrhafte Demokratie)",
+     "tyl": "Zasada niemieckiego ustroju pozwalająca bronić porządku demokratycznego przed jego wrogami, np. przez delegalizację partii antydemokratycznych.",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 21"
+    },
+    {
+     "id": "f022",
+     "przod": "Podaj nazwę pojęcia: Zasada niemieckiego ustroju pozwalająca bronić porządku demokratycznego przed jego wrogami, np. przez delegalizację partii antydemokratycznych.",
+     "tyl": "demokracja walcząca (wehrhafte Demokratie)",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 21"
+    },
+    {
+     "id": "f023",
+     "przod": "Jakie partie odgrywają główną rolę w Niemczech?",
+     "tyl": "CDU/CSU (chadecja), SPD (socjaldemokracja), Zieloni, FDP (liberałowie), AfD (prawicowo-populistyczna) i Die Linke (lewica).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f024",
+     "przod": "Wyjaśnij pojęcie: kraj związkowy (Land)",
+     "tyl": "Jednostka federacji niemieckiej z własną konstytucją, parlamentem (Landtag) i rządem (np. Bawaria, Saksonia); są też 3 kraje-miasta: Berlin, Hamburg i Brema.",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 28"
+    },
+    {
+     "id": "f025",
+     "przod": "Podaj nazwę pojęcia: Jednostka federacji niemieckiej z własną konstytucją, parlamentem (Landtag) i rządem (np. Bawaria, Saksonia); są też 3 kraje-miasta: Berlin, Hamburg i Brema.",
+     "tyl": "kraj związkowy (Land)",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 28"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Kanclerza Niemiec można odwołać tylko przez:",
+     "odpowiedzi": [
+      "decyzję prezydenta federalnego",
+      "uchwałę Bundesratu",
+      "referendum",
+      "konstruktywne wotum nieufności"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Udało się to raz — w 1982 r.",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 67"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Bundesrat to:",
+     "odpowiedzi": [
+      "izba wybierana w wyborach powszechnych",
+      "organ reprezentujący rządy krajów związkowych",
+      "sąd konstytucyjny",
+      "rada przy prezydencie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Liczy 69 członków.",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 51"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Prezydenta federalnego Niemiec wybiera:",
+     "odpowiedzi": [
+      "Zgromadzenie Federalne",
+      "Bundestag",
+      "naród w wyborach powszechnych",
+      "Bundesrat"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Kadencja trwa 5 lat.",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 54"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Siedzibą Federalnego Trybunału Konstytucyjnego jest:",
+     "odpowiedzi": [
+      "Berlin",
+      "Bonn",
+      "Monachium",
+      "Karlsruhe"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Sędziów wybierają po połowie Bundestag i Bundesrat.",
+     "zrodlo": "Ustawa Zasadnicza RFN, art. 93"
+    }
+   ]
+  },
+  {
+   "id": "sys-szwajcaria-inne",
+   "nazwa": "Szwajcaria i inne państwa",
+   "opis": "Szwajcaria (system komitetowy, demokracja bezpośrednia), Włochy, Hiszpania, Rosja, Chiny, Iran, Białoruś i inne.",
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Jaki jest ustrój Szwajcarii?",
+     "tyl": "Federacja (Konfederacja Szwajcarska) 26 kantonów z systemem komitetowym (dyrektorialnym) i rozbudowaną demokracją bezpośrednią; konstytucja z 1999 r.",
+     "zrodlo": "KSZ"
+    },
+    {
+     "id": "f002",
+     "przod": "Wyjaśnij pojęcie: Zgromadzenie Federalne (Szwajcaria)",
+     "tyl": "Dwuizbowy parlament Szwajcarii: Rada Narodowa (200 deputowanych, wybory proporcjonalne) i Rada Kantonów (46 członków — po 2 z kantonu, po 1 z półkantonów); kadencja 4 lata.",
+     "zrodlo": "Konstytucja Szwajcarii, art. 149; Konstytucja Szwajcarii, art. 150"
+    },
+    {
+     "id": "f003",
+     "przod": "Podaj nazwę pojęcia: Dwuizbowy parlament Szwajcarii: Rada Narodowa (200 deputowanych, wybory proporcjonalne) i Rada Kantonów (46 członków — po 2 z kantonu, po 1 z półkantonów); kadencja 4 lata.",
+     "tyl": "Zgromadzenie Federalne (Szwajcaria)",
+     "zrodlo": "Konstytucja Szwajcarii, art. 149; Konstytucja Szwajcarii, art. 150"
+    },
+    {
+     "id": "f004",
+     "przod": "Wyjaśnij pojęcie: Rada Związkowa (Federalna)",
+     "tyl": "Rząd Szwajcarii — 7-osobowy organ kolegialny wybierany przez Zgromadzenie Federalne na 4 lata, nieodwoływalny w trakcie kadencji; pełni także funkcję kolegialnej głowy państwa.",
+     "zrodlo": "Konstytucja Szwajcarii, art. 174; Konstytucja Szwajcarii, art. 175"
+    },
+    {
+     "id": "f005",
+     "przod": "Podaj nazwę pojęcia: Rząd Szwajcarii — 7-osobowy organ kolegialny wybierany przez Zgromadzenie Federalne na 4 lata, nieodwoływalny w trakcie kadencji; pełni także funkcję kolegialnej głowy państwa.",
+     "tyl": "Rada Związkowa (Federalna)",
+     "zrodlo": "Konstytucja Szwajcarii, art. 174; Konstytucja Szwajcarii, art. 175"
+    },
+    {
+     "id": "f006",
+     "przod": "Wyjaśnij pojęcie: prezydent Konfederacji Szwajcarskiej",
+     "tyl": "Członek Rady Związkowej wybierany na roczną kadencję, przewodniczący jej obradom i pełniący funkcje reprezentacyjne (primus inter pares).",
+     "zrodlo": "Konstytucja Szwajcarii, art. 176"
+    },
+    {
+     "id": "f007",
+     "przod": "Podaj nazwę pojęcia: Członek Rady Związkowej wybierany na roczną kadencję, przewodniczący jej obradom i pełniący funkcje reprezentacyjne (primus inter pares).",
+     "tyl": "prezydent Konfederacji Szwajcarskiej",
+     "zrodlo": "Konstytucja Szwajcarii, art. 176"
+    },
+    {
+     "id": "f008",
+     "przod": "Wyjaśnij pojęcie: formuła magiczna (Szwajcaria)",
+     "tyl": "Zwyczaj podziału miejsc w Radzie Związkowej między największe partie według ich siły (np. 2:2:2:1), wyraz demokracji konsensualnej.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f009",
+     "przod": "Podaj nazwę pojęcia: Zwyczaj podziału miejsc w Radzie Związkowej między największe partie według ich siły (np. 2:2:2:1), wyraz demokracji konsensualnej.",
+     "tyl": "formuła magiczna (Szwajcaria)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f010",
+     "przod": "Jakie formy demokracji bezpośredniej występują w Szwajcarii?",
+     "tyl": "Referendum obligatoryjne (zmiany konstytucji, przystąpienie do organizacji bezpieczeństwa zbiorowego), referendum fakultatywne (na wniosek 50 tys. obywateli lub 8 kantonów — wobec ustaw) i inicjatywa ludowa (100 tys. podpisów — projekt zmiany konstytucji); w niektórych kantonach — zgromadzenia ludowe (Landsgemeinde).",
+     "zrodlo": "Konstytucja Szwajcarii, art. 138–142"
+    },
+    {
+     "id": "f011",
+     "przod": "Wyjaśnij pojęcie: Landsgemeinde",
+     "tyl": "Zgromadzenie ludowe wszystkich uprawnionych obywateli kantonu, głosujących na otwartym powietrzu (np. w Glarus i Appenzell Innerrhoden).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f012",
+     "przod": "Podaj nazwę pojęcia: Zgromadzenie ludowe wszystkich uprawnionych obywateli kantonu, głosujących na otwartym powietrzu (np. w Glarus i Appenzell Innerrhoden).",
+     "tyl": "Landsgemeinde",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f013",
+     "przod": "Wyjaśnij pojęcie: podwójna większość (Szwajcaria)",
+     "tyl": "Wymóg, by zmiana konstytucji w referendum uzyskała poparcie większości głosujących w kraju oraz większości kantonów.",
+     "zrodlo": "Konstytucja Szwajcarii, art. 142"
+    },
+    {
+     "id": "f014",
+     "przod": "Podaj nazwę pojęcia: Wymóg, by zmiana konstytucji w referendum uzyskała poparcie większości głosujących w kraju oraz większości kantonów.",
+     "tyl": "podwójna większość (Szwajcaria)",
+     "zrodlo": "Konstytucja Szwajcarii, art. 142"
+    },
+    {
+     "id": "f015",
+     "przod": "Kiedy kobiety uzyskały prawo głosu na szczeblu federalnym w Szwajcarii?",
+     "tyl": "W 1971 r. (w kantonie Appenzell Innerrhoden dopiero w 1990 r., po wyroku sądu).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f016",
+     "przod": "Jaki system rządów mają Włochy?",
+     "tyl": "Republikę parlamentarną (konstytucja z 1948 r.) z prezydentem wybieranym przez parlament (na 7 lat) i rządem odpowiedzialnym przed obiema równorzędnymi izbami (Izbą Deputowanych i Senatem) — bikameralizm symetryczny.",
+     "zrodlo": "KIT"
+    },
+    {
+     "id": "f017",
+     "przod": "Wyjaśnij pojęcie: bikameralizm symetryczny (Włochy)",
+     "tyl": "Model, w którym obie izby parlamentu mają równe kompetencje — rząd musi mieć zaufanie zarówno Izby Deputowanych, jak i Senatu.",
+     "zrodlo": "Konstytucja Republiki Włoskiej, art. 94"
+    },
+    {
+     "id": "f018",
+     "przod": "Podaj nazwę pojęcia: Model, w którym obie izby parlamentu mają równe kompetencje — rząd musi mieć zaufanie zarówno Izby Deputowanych, jak i Senatu.",
+     "tyl": "bikameralizm symetryczny (Włochy)",
+     "zrodlo": "Konstytucja Republiki Włoskiej, art. 94"
+    },
+    {
+     "id": "f019",
+     "przod": "Jaki ustrój ma Hiszpania?",
+     "tyl": "Monarchię parlamentarną (konstytucja z 1978 r.) z systemem parlamentarno-gabinetowym, konstruktywnym wotum nieufności i państwem autonomii (17 wspólnot autonomicznych).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f020",
+     "przod": "Jaki jest ustrój Federacji Rosyjskiej?",
+     "tyl": "Formalnie republika federalna z systemem semiprezydenckim (konstytucja z 1993 r.), w praktyce reżim autorytarny z dominującą pozycją prezydenta (Władimir Putin) i partii Jedna Rosja.",
+     "zrodlo": "KRF"
+    },
+    {
+     "id": "f021",
+     "przod": "Jakie zmiany wprowadziła nowelizacja konstytucji Rosji z 2020 r.?",
+     "tyl": "M.in. „wyzerowanie” kadencji W. Putina (możliwość rządzenia do 2036 r.), pierwszeństwo konstytucji Rosji nad prawem międzynarodowym, wzmocnienie pozycji prezydenta, odwołanie do Boga i definicja małżeństwa.",
+     "zrodlo": "KRF"
+    },
+    {
+     "id": "f022",
+     "przod": "Wyjaśnij pojęcie: Duma Państwowa",
+     "tyl": "Izba niższa parlamentu Rosji (Zgromadzenia Federalnego), licząca 450 deputowanych.",
+     "zrodlo": "Konstytucja Federacji Rosyjskiej, art. 95"
+    },
+    {
+     "id": "f023",
+     "przod": "Podaj nazwę pojęcia: Izba niższa parlamentu Rosji (Zgromadzenia Federalnego), licząca 450 deputowanych.",
+     "tyl": "Duma Państwowa",
+     "zrodlo": "Konstytucja Federacji Rosyjskiej, art. 95"
+    },
+    {
+     "id": "f024",
+     "przod": "Wyjaśnij pojęcie: Rada Federacji",
+     "tyl": "Izba wyższa parlamentu Rosji reprezentująca podmioty federacji.",
+     "zrodlo": "Konstytucja Federacji Rosyjskiej, art. 95"
+    },
+    {
+     "id": "f025",
+     "przod": "Podaj nazwę pojęcia: Izba wyższa parlamentu Rosji reprezentująca podmioty federacji.",
+     "tyl": "Rada Federacji",
+     "zrodlo": "Konstytucja Federacji Rosyjskiej, art. 95"
+    },
+    {
+     "id": "f026",
+     "przod": "Jaki ustrój ma Chińska Republika Ludowa?",
+     "tyl": "Państwo socjalistyczne z monopolem władzy Komunistycznej Partii Chin (system partii hegemonicznej); formalnie najwyższym organem władzy jest Ogólnochińskie Zgromadzenie Przedstawicieli Ludowych; przywódcą (sekretarz generalny KPCh i przewodniczący ChRL) jest Xi Jinping.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f027",
+     "przod": "Wyjaśnij pojęcie: Ogólnochińskie Zgromadzenie Przedstawicieli Ludowych",
+     "tyl": "Formalnie najwyższy organ władzy państwowej ChRL (parlament liczący ok. 3000 deputowanych), w praktyce zatwierdzający decyzje partii komunistycznej.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f028",
+     "przod": "Podaj nazwę pojęcia: Formalnie najwyższy organ władzy państwowej ChRL (parlament liczący ok. 3000 deputowanych), w praktyce zatwierdzający decyzje partii komunistycznej.",
+     "tyl": "Ogólnochińskie Zgromadzenie Przedstawicieli Ludowych",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f029",
+     "przod": "Wyjaśnij pojęcie: „jeden kraj, dwa systemy”",
+     "tyl": "Zasada, na podstawie której Hongkong (od 1997 r.) i Makau (od 1999 r.) miały zachować autonomię i system kapitalistyczny w ramach ChRL; w Hongkongu ograniczona po 2020 r. (ustawa o bezpieczeństwie narodowym).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. XIII „Ład międzynarodowy”"
+    },
+    {
+     "id": "f030",
+     "przod": "Podaj nazwę pojęcia: Zasada, na podstawie której Hongkong (od 1997 r.) i Makau (od 1999 r.) miały zachować autonomię i system kapitalistyczny w ramach ChRL; w Hongkongu ograniczona po 2020 r. (ustawa o bezpieczeństwie narodowym).",
+     "tyl": "„jeden kraj, dwa systemy”",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. XIII „Ład międzynarodowy”"
+    },
+    {
+     "id": "f031",
+     "przod": "Jaki jest status Tajwanu?",
+     "tyl": "Tajwan (Republika Chińska) jest de facto niezależnym, demokratycznym państwem, ale ChRL uważa go za swoją prowincję; uznaje go formalnie tylko kilkanaście państw.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. XIII „Ład międzynarodowy”"
+    },
+    {
+     "id": "f032",
+     "przod": "Jaki ustrój ma Iran?",
+     "tyl": "Republikę islamską (od rewolucji 1979 r.) — teokrację z najwyższym przywódcą duchowym (ajatollah Ali Chamenei), który dominuje nad wybieranym w wyborach prezydentem i parlamentem (Madżlis); Rada Strażników weryfikuje kandydatów i ustawy.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f033",
+     "przod": "Jaki reżim panuje na Białorusi?",
+     "tyl": "Autorytarny — od 1994 r. rządzi Aleksandr Łukaszenka; wybory w 2020 r. uznano za sfałszowane, co wywołało masowe protesty brutalnie stłumione przez władze.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f034",
+     "przod": "Jaki reżim panuje w Korei Północnej?",
+     "tyl": "Totalitarny — dynastia Kimów (Kim Ir Sen, Kim Dzong Il, Kim Dzong Un), ideologia dżucze, kult jednostki, system jednopartyjny (Partia Pracy Korei).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f035",
+     "przod": "Jaki system rządów mają Węgry?",
+     "tyl": "Republika parlamentarna (konstytucja — Ustawa Zasadnicza z 2011 r.) z jednoizbowym parlamentem (Zgromadzenie Narodowe); od 2010 r. rządy Fideszu i V. Orbána krytykowane za ograniczanie rządów prawa („demokracja nieliberalna”).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f036",
+     "przod": "Jaki ustrój ma Japonia?",
+     "tyl": "Monarchię parlamentarną (konstytucja z 1947 r.) z cesarzem jako „symbolem państwa i jedności narodu” i dwuizbowym parlamentem (Sejm — Izba Reprezentantów i Izba Radców).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f037",
+     "przod": "Jaki ustrój ma Ukraina?",
+     "tyl": "Republikę z systemem semiprezydenckim (konstytucja z 1996 r.), jednoizbowym parlamentem (Rada Najwyższa — 450 deputowanych) i prezydentem wybieranym w wyborach powszechnych (od 2019 r. Wołodymyr Zełenski).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f038",
+     "przod": "Jaki ustrój ma Litwa?",
+     "tyl": "Republikę z systemem semiprezydenckim, jednoizbowym parlamentem (Sejm — 141 posłów) i prezydentem wybieranym w wyborach powszechnych.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f039",
+     "przod": "Jaki ustrój ma Czechy?",
+     "tyl": "Republikę parlamentarną z dwuizbowym parlamentem (Izba Poselska i Senat) i prezydentem wybieranym (od 2013 r.) w wyborach powszechnych.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f040",
+     "przod": "Jaki ustrój ma Szwecja?",
+     "tyl": "Monarchię parlamentarną z jednoizbowym parlamentem (Riksdag — 349 posłów); król pełni wyłącznie funkcje ceremonialne — nawet premiera nominuje przewodniczący parlamentu.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f041",
+     "przod": "Wyjaśnij pojęcie: Watykan",
+     "tyl": "Najmniejsze państwo świata — monarchia absolutna elekcyjna i teokratyczna, w której władzę sprawuje papież (od 2025 r. Leon XIV).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f042",
+     "przod": "Podaj nazwę pojęcia: Najmniejsze państwo świata — monarchia absolutna elekcyjna i teokratyczna, w której władzę sprawuje papież (od 2025 r. Leon XIV).",
+     "tyl": "Watykan",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "f043",
+     "przod": "Jakie państwa UE są monarchiami?",
+     "tyl": "Belgia, Dania, Hiszpania, Holandia, Luksemburg (wielkie księstwo) i Szwecja.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Rządem Szwajcarii jest:",
+     "odpowiedzi": [
+      "Rada Kantonów",
+      "Rada Związkowa",
+      "Rada Narodowa",
+      "Landsgemeinde"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Rada Związkowa liczy 7 członków.",
+     "zrodlo": "Konstytucja Szwajcarii, art. 174"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Najwyższym przywódcą Iranu jest:",
+     "odpowiedzi": [
+      "prezydent",
+      "przywódca duchowy (ajatollah)",
+      "premier",
+      "szach"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Dominuje on nad prezydentem i parlamentem.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Inicjatywa ludowa w Szwajcarii dotycząca zmiany konstytucji wymaga:",
+     "odpowiedzi": [
+      "50 tys. podpisów",
+      "500 tys. podpisów",
+      "zgody 8 kantonów",
+      "100 tys. podpisów"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "50 tys. podpisów to próg referendum fakultatywnego.",
+     "zrodlo": "Konstytucja Szwajcarii, art. 139"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Która z wymienionych monarchii jest absolutna?",
+     "odpowiedzi": [
+      "Hiszpania",
+      "Watykan",
+      "Szwecja",
+      "Japonia"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Pozostałe to monarchie parlamentarne.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VIII „Modele sprawowania władzy”"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Zasada „jeden kraj, dwa systemy” dotyczy:",
+     "odpowiedzi": [
+      "Hongkongu i Makau",
+      "Tajwanu i Tybetu",
+      "Korei Północnej i Południowej",
+      "Rosji i Białorusi"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Hongkong wrócił do Chin w 1997 r.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. XIII „Ład międzynarodowy”"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Bikameralizm symetryczny (równorzędne izby) charakteryzuje:",
+     "odpowiedzi": [
+      "Włochy",
+      "Polskę",
+      "Wielką Brytanię",
+      "Niemcy"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "We Włoszech rząd odpowiada przed obiema izbami.",
+     "zrodlo": "Konstytucja Republiki Włoskiej, art. 94"
+    }
+   ]
+  }
+ ]
+}
