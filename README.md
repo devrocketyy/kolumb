@@ -23,7 +23,7 @@ Działa w przeglądarce na telefonie, tablecie i komputerze, można ją dodać d
 | Integracja europejska | 3 | 305 | 34 |
 | **Razem** | **53** | **5530** | **479** |
 
-**Zadania maturalne:** arkusze CKE z maja i czerwca 2023 r. (formuła 2023) — 88 zadań (120 pkt) z materiałami źródłowymi, poleceniami, przykładowymi odpowiedziami i zasadami oceniania. Każde zadanie jest przypisane do działów na podstawie wymagań egzaminacyjnych podanych przez CKE.
+**Zadania maturalne:** 5 arkuszy CKE: maj i czerwiec 2023, maj 2024, maj i czerwiec 2025 (formuła 2023) — 219 zadań (300 pkt) z materiałami źródłowymi, poleceniami, przykładowymi odpowiedziami i zasadami oceniania. Każde zadanie jest przypisane do działów na podstawie wymagań egzaminacyjnych podanych przez CKE.
 
 Podział na działy wynika z wymagań egzaminacyjnych (podstawy programowej). Najwięcej punktów w arkuszach 2023–2024 przypadało na: prawo w RP, organy władzy w RP, człowieka i społeczeństwo, systemy polityczne państw, ład międzynarodowy i społeczeństwo obywatelskie.
 
