@@ -8,6 +8,7 @@ const defaults = () => ({
   days: {},       // "RRRR-MM-DD" -> liczba aktywności (ocen fiszek, odpowiedzi w testach)
   tests: [],      // { sid, scope, name, score, total, at }
   zadania: {},    // "przedmiot/arkusz/nrZadania" -> { pkt, max, at } (samoocena zadań maturalnych)
+  egzaminy: {},   // próbne matury: id -> { sid, nazwa, seed, cke, start, koniec, odp:{}, pkt:{}, ... }
   settings: { theme: 'auto', installDismissed: false, newPerDay: 20 },
 });
 

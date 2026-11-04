@@ -630,7 +630,9 @@ function viewMatura() {
   const withTasks = subjects.filter((s) => s.arkusze.length);
   app.innerHTML = `
     ${pageHead('Zadania maturalne', null, 'Arkusze CKE')}
-    <p class="lead">Prawdziwe zadania z matur z kluczem odpowiedzi CKE. Rozwiąż, porównaj z kluczem i przyznaj sobie punkty.</p>
+    <p class="lead">Próbne matury na czas oraz prawdziwe zadania z arkuszy CKE z kluczem odpowiedzi.</p>
+    ${subjects.filter((s) => s.bank.length || s.arkusze.length).map(examSection).join('')}
+    <h2 class="section-title">Arkusze CKE</h2>
     ${withTasks.map((s) => {
       const byDzial = s.dzialy.map((d) => ({ d, n: tasksOf(s, d.id).length })).filter((x) => x.n);
       return `<section class="card">
@@ -647,6 +649,7 @@ function viewMatura() {
           <div class="chips">${byDzial.map(({ d, n }) => `<a class="chip" href="#/zadania/${enc(s.id)}/d/${enc(d.id)}">${esc(d.nazwa)} <b>${n}</b></a>`).join('')}</div>` : ''}
       </section>`;
     }).join('') || '<p class="muted">Brak zadań maturalnych w treściach.</p>'}`;
+  subjects.filter((s) => s.bank.length || s.arkusze.length).forEach(bindExamSection);
 }
 
 let zs = null; // sesja zadań
@@ -767,6 +770,285 @@ function go(d) {
   zs.i = n;
   renderTask();
   window.scrollTo({ top: 0 });
+}
+
+// ---------- próbna matura ----------
+const EXAM_MIN = 180;
+const DEFAULT_WAGI = { spoleczenstwo: 10, obywatel: 5, polityka: 4, 'ustroj-rp': 7, 'systemy-panstw': 6, prawo: 7, 'prawa-czlowieka': 3, miedzynarodowe: 5, ue: 3 };
+
+function rng(seed) {
+  let a = seed >>> 0;
+  return () => {
+    a = (a + 0x6d2b79f5) >>> 0;
+    let t = a;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+const seededShuffle = (arr, r) => {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+};
+const wPts = (w) => w.zadania.reduce((n, z) => n + z.punkty, 0);
+const isExt = (w) => w.zadania.length === 1 && w.zadania[0].punkty >= 5;
+
+// Wiązki z arkuszy CKE w tym samym formacie co bank autorski.
+function ckeWiazki(s) {
+  return s.arkusze.flatMap((a) => a.wiazki.map((w) => {
+    const c = {};
+    w.zadania.forEach((z) => z.dzialy.forEach((d) => (c[d] = (c[d] || 0) + z.punkty)));
+    const dzial = Object.keys(c).sort((x, y) => c[y] - c[x])[0] || 'spoleczenstwo';
+    return { ...w, id: `cke-${a.id}-${w.nr}`, dzial, zrodlo: `CKE — ${a.nazwa}, zadanie ${w.nr}`, autorskie: false };
+  }));
+}
+
+function examPool(s, cke) {
+  return [...s.bank, ...(cke ? ckeWiazki(s) : [])];
+}
+
+// Układa arkusz: ok. 48 pkt w krótkich wiązkach (proporcje działów jak na maturze) + zadania za 5 i 7 pkt.
+function buildExam(s, seed, cke) {
+  const r = rng(seed);
+  const pool = examPool(s, cke);
+  const shortW = pool.filter((w) => !isExt(w));
+  const ext5 = seededShuffle(pool.filter((w) => isExt(w) && wPts(w) === 5), r);
+  const ext7 = seededShuffle(pool.filter((w) => isExt(w) && wPts(w) >= 6), r);
+  const wagi = s.wagi || DEFAULT_WAGI;
+  const sum = Object.values(wagi).reduce((a, b) => a + b, 0);
+  const byD = {};
+  seededShuffle(shortW, r).forEach((w) => (byD[w.dzial] ||= []).push(w));
+  const quota = {};
+  Object.keys(wagi).forEach((d) => (quota[d] = (wagi[d] / sum) * 48));
+  const picked = [];
+  let total = 0;
+  let progress = true;
+  while (total < 47 && progress) {
+    progress = false;
+    for (const d of seededShuffle(Object.keys(wagi), r)) {
+      if (total >= 48) break;
+      const list = byD[d] || [];
+      if (!list.length || quota[d] <= 0.5) continue;
+      const w = list.shift();
+      picked.push(w); total += wPts(w); quota[d] -= wPts(w); progress = true;
+    }
+  }
+  if (total < 47) { // brak zadań w części działów — dobierz z dowolnych
+    const rest = Object.values(byD).flat();
+    while (total < 47 && rest.length) { const w = rest.shift(); picked.push(w); total += wPts(w); }
+  }
+  const order = s.dzialy.map((d) => d.id);
+  picked.sort((a, b) => order.indexOf(a.dzial) - order.indexOf(b.dzial));
+  const ext = [ext5[0], ext7[0]].filter(Boolean);
+  return [...picked, ...ext].map((w) => w.id);
+}
+
+function examById(s, ids, cke) {
+  const pool = examPool(s, true);
+  const m = new Map(pool.map((w) => [w.id, w]));
+  return ids.map((id) => m.get(id)).filter(Boolean);
+}
+
+const examMax = (ws) => ws.reduce((n, w) => n + wPts(w), 0);
+const fmtTime = (ms) => {
+  const t = Math.max(0, Math.round(ms / 1000));
+  const h = Math.floor(t / 3600), m = Math.floor((t % 3600) / 60), sec = t % 60;
+  return `${h}:${String(m).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
+};
+
+function examSection(s) {
+  const st = store.get().egzaminy;
+  const cke = store.get().settings.examCke !== false;
+  const nBank = s.bank.length;
+  const mine = Object.values(st).filter((e) => e.sid === s.id).sort((a, b) => b.start - a.start);
+  const numbered = Array.from({ length: 12 }, (_, i) => i + 1);
+  const res = (e) => (e && e.koniec && e.ocena ? `${e.ocena.pkt}/${e.ocena.max} pkt` : e ? 'w trakcie' : '');
+  return `<section class="card exam-card">
+    <h2 class="card-title">Próbna matura · 180 minut</h2>
+    <p class="muted">Arkusz ułożony jak prawdziwa matura: ok. 20 wiązek z różnych działów (w proporcjach z egzaminów CKE), na końcu zadania za 5 i 7 pkt. Baza: ${nZadan(s.bank.reduce((n, w) => n + w.zadania.length, 0))} autorskich${cke ? ` + ${nZadan(tasksOf(s).length)} CKE` : ''}.</p>
+    <label class="switch"><input type="checkbox" id="exam-cke" ${cke ? 'checked' : ''}> <span>Dobieraj też zadania z arkuszy CKE</span></label>
+    <button type="button" class="btn btn-gold btn-lg" id="exam-random">Losowa próbna matura</button>
+    <h3 class="sub-title">Ponumerowane próbne matury</h3>
+    <div class="exam-grid">${numbered.map((n) => {
+      const e = st[`${s.id}-nr${n}-${cke ? 'c' : 'a'}`];
+      return `<a class="exam-tile ${e?.koniec ? 'done' : e ? 'open' : ''}" href="#/egzamin/${enc(s.id)}/${enc(`nr${n}-${cke ? 'c' : 'a'}`)}"><strong>${n}</strong><span>${res(e) || 'rozpocznij'}</span></a>`;
+    }).join('')}</div>
+    ${mine.length ? `<h3 class="sub-title">Twoje podejścia</h3><ul class="test-list">${mine.slice(0, 8).map((e) => `<li><div><strong>${esc(e.nazwa)}</strong><span>${new Date(e.start).toLocaleString('pl-PL', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}</span></div>
+      <a class="score ${e.koniec ? (e.ocena.pkt / e.ocena.max >= .7 ? 'ok' : e.ocena.pkt / e.ocena.max >= .4 ? 'warn' : 'bad') : ''}" href="#/egzamin/${enc(s.id)}/${enc(e.key)}">${e.koniec ? pct(e.ocena.pkt / e.ocena.max) + '%' : 'wróć'}</a></li>`).join('')}</ul>` : ''}
+    ${nBank ? '' : '<p class="note">Baza zadań autorskich jest w przygotowaniu — próbne matury korzystają teraz z zadań CKE.</p>'}
+  </section>`;
+}
+
+function bindExamSection(s) {
+  app.querySelector('#exam-cke')?.addEventListener('change', (e) => {
+    store.get().settings.examCke = e.target.checked; store.save(); viewMatura();
+  });
+  app.querySelector('#exam-random')?.addEventListener('click', () => {
+    const cke = store.get().settings.examCke !== false;
+    const key = `los-${Date.now().toString(36)}`;
+    createExam(s, key, Math.floor(Math.random() * 1e9), cke, 'Losowa próbna matura');
+    location.hash = `#/egzamin/${enc(s.id)}/${enc(key)}`;
+  });
+}
+
+function createExam(s, key, seed, cke, nazwa) {
+  const ids = buildExam(s, seed, cke);
+  const e = { key, sid: s.id, nazwa, seed, cke, ids, start: Date.now(), koniec: null, odp: {}, pkt: {}, i: 0 };
+  store.get().egzaminy[`${s.id}-${key}`] = e;
+  store.save();
+  return e;
+}
+
+let examTimer = null;
+
+function viewEgzamin(sid, key) {
+  const s = findSubject(sid);
+  if (!s) return notFound();
+  let e = store.get().egzaminy[`${sid}-${key}`];
+  if (!e) {
+    const m = key.match(/^nr(\d+)-(c|a)$/);
+    if (!m) return notFound();
+    const n = Number(m[1]);
+    e = createExam(s, key, 1000 + n * 7919, m[2] === 'c', `Matura próbna nr ${n}${m[2] === 'a' ? ' (autorska)' : ''}`);
+  }
+  const ws = examById(s, e.ids);
+  if (!ws.length) return notFound();
+  if (e.koniec) return renderExamResult(s, e, ws);
+  renderExamTask(s, e, ws);
+}
+
+function renderExamTask(s, e, ws) {
+  document.body.classList.add('in-session');
+  const w = ws[e.i] || ws[0];
+  const left = e.start + EXAM_MIN * 60000 - Date.now();
+  app.innerHTML = `
+    <div class="session-top exam-top">
+      <a class="icon-btn" href="#/matura" aria-label="Wyjdź (postęp zostaje zapisany)">${ICONS.close}</a>
+      <div class="exam-clock ${left < 15 * 60000 ? 'late' : ''}" id="clock" aria-live="off">${fmtTime(left)}</div>
+      <button type="button" class="btn btn-sm btn-gold" id="finish">Zakończ</button>
+    </div>
+    <nav class="exam-strip" aria-label="Zadania">${ws.map((x, i) => {
+      const done = x.zadania.some((z) => (e.odp[`${x.id}/${z.nr}`] || '').trim());
+      return `<button type="button" class="${i === e.i ? 'cur' : ''} ${done ? 'done' : ''}" data-i="${i}">${i + 1}</button>`;
+    }).join('')}</nav>
+    <p class="eyebrow">${esc(e.nazwa)} · wiązka ${e.i + 1} z ${ws.length} · ${wPts(w)} pkt</p>
+    <section class="card material">
+      <h2 class="card-title">${esc(w.tytul || 'Zadanie ' + (e.i + 1))}</h2>
+      ${w.uwaga ? `<p class="note">${esc(w.uwaga)}</p>` : ''}
+      ${w.material ? pre(w.material) : ''}
+      <p class="muted small">${esc(w.zrodlo)}</p>
+    </section>
+    ${w.zadania.map((z, j) => `<section class="card task-body">
+      <p class="eyebrow">Zadanie ${e.i + 1}.${j + 1} · 0–${z.punkty} pkt</p>
+      ${pre(z.polecenie)}
+      <textarea data-k="${esc(`${w.id}/${z.nr}`)}" rows="${z.punkty >= 5 ? 14 : 4}" aria-label="Odpowiedź do zadania ${e.i + 1}.${j + 1}" placeholder="Twoja odpowiedź…">${esc(e.odp[`${w.id}/${z.nr}`] || '')}</textarea>
+    </section>`).join('')}
+    <div class="task-nav">
+      <button type="button" class="btn btn-ghost" id="prev" ${e.i === 0 ? 'disabled' : ''}>${ICONS.back}<span>Poprzednia</span></button>
+      <button type="button" class="btn btn-ghost" id="nextW" ${e.i === ws.length - 1 ? 'disabled' : ''}><span>Następna</span>${ICONS.next}</button>
+    </div>
+    <div id="finish-confirm"></div>`;
+
+  let saveT;
+  app.querySelectorAll('textarea[data-k]').forEach((t) => t.addEventListener('input', () => {
+    e.odp[t.dataset.k] = t.value;
+    clearTimeout(saveT); saveT = setTimeout(() => store.save(), 400);
+  }));
+  const goW = (i) => { store.save(); e.i = Math.max(0, Math.min(ws.length - 1, i)); store.save(); renderExamTask(s, e, ws); window.scrollTo({ top: 0 }); };
+  app.querySelector('.exam-strip').addEventListener('click', (ev) => { const b = ev.target.closest('[data-i]'); if (b) goW(Number(b.dataset.i)); });
+  app.querySelector('#prev').addEventListener('click', () => goW(e.i - 1));
+  app.querySelector('#nextW').addEventListener('click', () => goW(e.i + 1));
+  app.querySelector('#finish').addEventListener('click', () => {
+    const box = app.querySelector('#finish-confirm');
+    const answered = ws.flatMap((x) => x.zadania.map((z) => (e.odp[`${x.id}/${z.nr}`] || '').trim())).filter(Boolean).length;
+    const all = ws.reduce((n, x) => n + x.zadania.length, 0);
+    box.innerHTML = `<section class="card key"><h2 class="card-title">Zakończyć egzamin?</h2>
+      <p>Odpowiedzi: ${answered} z ${all}. Po zakończeniu zobaczysz klucz i ocenisz swoje odpowiedzi.</p>
+      <div class="actions"><button type="button" class="btn btn-primary btn-lg" id="finish-yes">Zakończ i sprawdź</button>
+      <button type="button" class="btn btn-ghost btn-lg" id="finish-no">Wróć do pisania</button></div></section>`;
+    box.scrollIntoView({ behavior: 'smooth' });
+    box.querySelector('#finish-no').onclick = () => (box.innerHTML = '');
+    box.querySelector('#finish-yes').onclick = () => finishExam(s, e, ws);
+  });
+  clearInterval(examTimer);
+  examTimer = setInterval(() => {
+    const c = document.getElementById('clock');
+    if (!c) return clearInterval(examTimer);
+    const l = e.start + EXAM_MIN * 60000 - Date.now();
+    c.textContent = fmtTime(l);
+    c.classList.toggle('late', l < 15 * 60000);
+    if (l <= 0) { clearInterval(examTimer); toast('Czas minął — egzamin zakończony.'); finishExam(s, e, ws); }
+  }, 1000);
+}
+
+function finishExam(s, e, ws) {
+  clearInterval(examTimer);
+  e.koniec = Date.now();
+  e.i = 0;
+  e.ocena = { pkt: 0, max: examMax(ws) };
+  store.markActivity();
+  store.save();
+  renderExamResult(s, e, ws);
+  window.scrollTo({ top: 0 });
+}
+
+function renderExamResult(s, e, ws) {
+  document.body.classList.add('in-session');
+  const max = examMax(ws);
+  const pktSum = Object.values(e.pkt).reduce((a, b) => a + b, 0);
+  e.ocena = { pkt: pktSum, max };
+  const graded = ws.flatMap((w) => w.zadania.map((z) => `${w.id}/${z.nr}`)).filter((k) => e.pkt[k] !== undefined).length;
+  const all = ws.reduce((n, w) => n + w.zadania.length, 0);
+  const byD = {};
+  ws.forEach((w) => w.zadania.forEach((z) => {
+    const d = (byD[w.dzial] ||= { pkt: 0, max: 0 });
+    d.max += z.punkty; d.pkt += e.pkt[`${w.id}/${z.nr}`] || 0;
+  }));
+  const p = max ? pct(pktSum / max) : 0;
+  const czas = Math.round((e.koniec - e.start) / 60000);
+  app.innerHTML = `
+    <div class="session-top"><a class="icon-btn" href="#/matura" aria-label="Zamknij">${ICONS.close}</a></div>
+    <section class="result">
+      <div class="ring ring-xl ${p >= 70 ? 'ring-ok' : p >= 40 ? 'ring-warn' : 'ring-bad'}" style="--p:${p}"><span>${p}%</span></div>
+      <h1>${esc(e.nazwa)}</h1>
+      <p class="lead"><strong>${pktSum} z ${max} pkt</strong> · czas pisania: ${czas} min · ocenione: <span id="graded">${graded}</span>/${all}</p>
+      ${s.srednia ? `<p class="muted">Średni wynik w kraju (${esc(s.srednia.rok)}): ${s.srednia.procent}%</p>` : ''}
+    </section>
+    <section class="card"><h2 class="card-title">Wynik w działach</h2>
+      ${s.dzialy.filter((d) => byD[d.id]).map((d) => `<div class="stat-row"><div class="stat-row-top"><span>${esc(d.nazwa)}</span><strong>${byD[d.id].pkt}/${byD[d.id].max}</strong></div>${progressBar(byD[d.id].pkt / byD[d.id].max, d.nazwa)}</div>`).join('')}
+    </section>
+    <h2 class="section-title">Sprawdź z kluczem i przyznaj punkty</h2>
+    <div class="review-list">${ws.map((w, i) => w.zadania.map((z, j) => {
+      const k = `${w.id}/${z.nr}`;
+      return `<article class="card review" data-k="${esc(k)}">
+        <p class="eyebrow">Zadanie ${i + 1}.${j + 1} · ${esc(w.tytul)} · 0–${z.punkty} pkt</p>
+        ${pre(z.polecenie)}
+        <div class="exam-answer"><strong>Twoja odpowiedź</strong>${pre(e.odp[k] || '— brak —')}</div>
+        <div class="exam-key"><strong>${ICONS.check} Klucz</strong>${pre(z.odpowiedz || '—')}
+          ${z.zasady ? `<details class="rules"><summary>Zasady oceniania</summary>${pre(z.zasady)}</details>` : ''}</div>
+        <div class="score-row">${Array.from({ length: z.punkty + 1 }, (_, q) => `<button type="button" class="btn btn-score ${e.pkt[k] === q ? 'active' : ''}" data-pkt="${q}" data-max="${z.punkty}">${q} pkt</button>`).join('')}</div>
+        <div class="review-foot"><span class="source">${esc(w.zrodlo)}</span>${reportBtn(mailto(`[Kolumb] Błąd w zadaniu: ${w.id}/${z.nr}`, ['Dzień dobry,', '', `zgłaszam błąd w zadaniu ${w.id}/${z.nr} (${w.zrodlo}).`, '', `Polecenie: ${z.polecenie}`, '', `Klucz: ${z.odpowiedz}`, '', 'Na czym polega błąd:', '']))}</div>
+      </article>`;
+    }).join('')).join('')}</div>
+    <div class="actions"><a class="btn btn-ghost btn-lg" href="#/matura">Wróć do listy próbnych matur</a></div>`;
+
+  app.querySelector('.review-list').addEventListener('click', (ev) => {
+    const b = ev.target.closest('[data-pkt]');
+    if (!b) return;
+    const k = b.closest('[data-k]').dataset.k;
+    e.pkt[k] = Number(b.dataset.pkt);
+    b.parentElement.querySelectorAll('.btn-score').forEach((x) => x.classList.toggle('active', x === b));
+    const sum = Object.values(e.pkt).reduce((a, c) => a + c, 0);
+    e.ocena = { pkt: sum, max };
+    store.save();
+    const g = app.querySelector('#graded');
+    if (g) g.textContent = Object.keys(e.pkt).length;
+    const lead = app.querySelector('.result .lead strong');
+    if (lead) lead.textContent = `${sum} z ${max} pkt`;
+    const ring = app.querySelector('.result .ring');
+    if (ring) { const pp = pct(sum / max); ring.style.setProperty('--p', pp); ring.querySelector('span').textContent = pp + '%'; }
+  });
 }
 
 // ---------- statystyki ----------
@@ -978,6 +1260,7 @@ const routes = [
   [/^#\/lista\/([^/]+)\/([^/]+)$/, viewLista],
   [/^#\/matura$/, viewMatura],
   [/^#\/zadania\/([^/]+)\/(a|d)\/([^/]+)$/, viewZadania],
+  [/^#\/egzamin\/([^/]+)\/([^/]+)$/, viewEgzamin],
   [/^#\/statystyki$/, viewStats],
   [/^#\/ustawienia$/, viewSettings],
 ];
@@ -992,6 +1275,7 @@ function route() {
   if (!hash.startsWith('#/fiszki/')) session = null;
   if (!hash.startsWith('#/test/')) test = null;
   if (!hash.startsWith('#/zadania/')) zs = null;
+  if (!hash.startsWith('#/egzamin/')) clearInterval(examTimer);
 
   const hit = routes.find(([re]) => re.test(hash));
   if (hit) {
@@ -1001,7 +1285,7 @@ function route() {
 
   const tab = hash.startsWith('#/statystyki') ? 'stats'
     : hash.startsWith('#/ustawienia') ? 'settings'
-    : hash.startsWith('#/matura') || hash.startsWith('#/zadania') ? 'matura' : 'home';
+    : hash.startsWith('#/matura') || hash.startsWith('#/zadania') || hash.startsWith('#/egzamin') ? 'matura' : 'home';
   document.querySelectorAll('.tabbar a').forEach((a) => {
     const on = a.dataset.tab === tab;
     a.classList.toggle('active', on);

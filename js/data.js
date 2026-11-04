@@ -91,10 +91,33 @@ function normalizeArkusz(a, i) {
   };
 }
 
+// Bank zadań autorskich: wiązki przypisane do działów, z typem każdego zadania.
+function normalizeBank(b) {
+  return (b.wiazki || []).map((w) => ({
+    id: String(w.id),
+    dzial: String(w.dzial || b.dzial || ''),
+    tytul: w.tytul || '',
+    material: w.material || '',
+    uwaga: w.uwaga || '',
+    zrodlo: w.zrodlo || 'Zadanie autorskie Kolumba',
+    autorskie: true,
+    zadania: (w.zadania || []).map((z, i) => ({
+      nr: String(z.nr ?? i + 1),
+      typ: z.typ || 'otwarte',
+      punkty: Number(z.punkty) || 1,
+      polecenie: z.polecenie || '',
+      odpowiedz: z.odpowiedz || '',
+      zasady: z.zasady || '',
+      dzialy: [String(w.dzial || b.dzial || '')],
+    })),
+  }));
+}
+
 async function normalizeSubject(raw, file) {
   const id = String(raw.id || file.replace(/\.json$/, ''));
   const dzialyRaw = await Promise.all((raw.dzialy || []).map(resolve));
   const arkuszeRaw = await Promise.all((raw.arkusze || []).map(resolve));
+  const bankRaw = await Promise.all((raw.bank || []).map(resolve));
   const dzialy = dzialyRaw.map(normalizeDzial);
   const units = new Map();
   dzialy.forEach((d) => d.poddzialy.forEach((u) => units.set(u.id, u)));
@@ -108,6 +131,9 @@ async function normalizeSubject(raw, file) {
     dzialy,
     units,
     arkusze: arkuszeRaw.map(normalizeArkusz),
+    bank: bankRaw.filter(Boolean).flatMap(normalizeBank),
+    wagi: raw.wagi || null,
+    srednia: raw.srednia || null,
   };
 }
 

@@ -442,6 +442,37 @@ textarea:focus { outline: none; border-color: var(--accent); }
 .tile-wide { grid-column: 1 / -1; }
 .seg-4 { grid-template-columns: repeat(4, 1fr); margin-top: 12px; }
 
+/* ---------- próbna matura ---------- */
+.exam-card { display: grid; gap: 14px; border-top: 6px solid var(--accent); }
+.exam-card .card-title { margin-bottom: 0; }
+.switch { display: flex; align-items: center; gap: 10px; min-height: 44px; font-weight: 600; cursor: pointer; }
+.switch input { width: 22px; height: 22px; accent-color: var(--accent); }
+.exam-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(92px, 1fr)); gap: 8px; }
+.exam-tile {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+  min-height: 72px; border-radius: var(--radius-sm); background: var(--surface-2);
+  text-decoration: none; border: 2px solid transparent;
+}
+.exam-tile strong { font-size: 1.4rem; font-variant-numeric: tabular-nums; }
+.exam-tile span { font-size: .75rem; color: var(--text-2); }
+.exam-tile.open { border-color: var(--accent); }
+.exam-tile.done { background: var(--ok-soft); }
+.exam-tile.done span { color: var(--ok); font-weight: 700; }
+.exam-top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 15; background: var(--bg); padding-block: 8px; margin-bottom: 4px; }
+.exam-clock { flex: 1; text-align: center; font-size: 1.4rem; font-weight: 800; font-variant-numeric: tabular-nums; letter-spacing: .02em; }
+.exam-clock.late { color: var(--bad); }
+.exam-strip { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 8px; margin-bottom: 10px; scrollbar-width: thin; }
+.exam-strip button {
+  flex: none; width: 40px; height: 40px; border-radius: 10px; border: 1.5px solid var(--border);
+  background: var(--surface); font-weight: 700; cursor: pointer; font-variant-numeric: tabular-nums;
+}
+.exam-strip button.done { background: var(--accent-soft); border-color: color-mix(in srgb, var(--accent) 50%, transparent); }
+.exam-strip button.cur { background: var(--primary); color: var(--on-primary); border-color: var(--primary); }
+.exam-answer, .exam-key { display: grid; gap: 6px; padding: 12px 14px; border-radius: 12px; background: var(--surface-2); }
+.exam-key { background: var(--ok-soft); }
+.exam-key > strong { display: flex; align-items: center; gap: 6px; color: var(--ok); }
+.exam-key svg { width: 18px; height: 18px; }
+
 /* ---------- statystyki ---------- */
 .tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
 .tile {
