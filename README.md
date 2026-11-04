@@ -14,14 +14,14 @@ Działa w przeglądarce na telefonie, tablecie i komputerze, można ją dodać d
 |---|---|---|---|
 | Człowiek i społeczeństwo | 8 | 1075 | 74 |
 | Społeczeństwo obywatelskie i partycypacja | 4 | 418 | 32 |
-| Państwo, ideologie i rywalizacja o władzę | 5 | 461 | 38 |
+| Państwo, ideologie i rywalizacja o władzę | 5 | 497 | 43 |
 | Ustrój Rzeczypospolitej Polskiej | 10 | 998 | 101 |
-| Systemy polityczne państw | 6 | 366 | 44 |
+| Systemy polityczne państw | 6 | 510 | 60 |
 | Prawo w Rzeczypospolitej Polskiej | 8 | 1017 | 72 |
-| Prawa człowieka i ich ochrona | 3 | 285 | 28 |
+| Prawa człowieka i ich ochrona | 3 | 331 | 33 |
 | Stosunki międzynarodowe | 6 | 605 | 56 |
-| Integracja europejska | 3 | 305 | 34 |
-| **Razem** | **53** | **5530** | **479** |
+| Integracja europejska | 3 | 389 | 44 |
+| **Razem** | **53** | **5840** | **515** |
 
 **Zadania maturalne:** 5 arkuszy CKE: maj i czerwiec 2023, maj 2024, maj i czerwiec 2025 (formuła 2023) — 219 zadań (300 pkt) z materiałami źródłowymi, poleceniami, przykładowymi odpowiedziami i zasadami oceniania. Każde zadanie jest przypisane do działów na podstawie wymagań egzaminacyjnych podanych przez CKE.
 
