@@ -12,16 +12,16 @@ Działa w przeglądarce na telefonie, tablecie i komputerze, można ją dodać d
 
 | Dział | Poddziały | Fiszki | Pytania ABCD |
 |---|---|---|---|
-| Człowiek i społeczeństwo | 7 | 615 | 43 |
-| Społeczeństwo obywatelskie i partycypacja | 4 | 276 | 20 |
-| Państwo, ideologie i rywalizacja o władzę | 5 | 368 | 30 |
-| Ustrój Rzeczypospolitej Polskiej | 10 | 767 | 82 |
-| Systemy polityczne państw | 6 | 233 | 31 |
-| Prawo w Rzeczypospolitej Polskiej | 7 | 667 | 44 |
-| Prawa człowieka i ich ochrona | 3 | 172 | 19 |
-| Stosunki międzynarodowe | 6 | 328 | 34 |
-| Integracja europejska | 3 | 181 | 24 |
-| **Razem** | **51** | **3607** | **327** |
+| Człowiek i społeczeństwo | 8 | 1075 | 74 |
+| Społeczeństwo obywatelskie i partycypacja | 4 | 418 | 32 |
+| Państwo, ideologie i rywalizacja o władzę | 5 | 461 | 38 |
+| Ustrój Rzeczypospolitej Polskiej | 10 | 998 | 101 |
+| Systemy polityczne państw | 6 | 366 | 44 |
+| Prawo w Rzeczypospolitej Polskiej | 8 | 1017 | 72 |
+| Prawa człowieka i ich ochrona | 3 | 285 | 28 |
+| Stosunki międzynarodowe | 6 | 605 | 56 |
+| Integracja europejska | 3 | 305 | 34 |
+| **Razem** | **53** | **5530** | **479** |
 
 **Zadania maturalne:** arkusze CKE z maja i czerwca 2023 r. (formuła 2023) — 88 zadań (120 pkt) z materiałami źródłowymi, poleceniami, przykładowymi odpowiedziami i zasadami oceniania. Każde zadanie jest przypisane do działów na podstawie wymagań egzaminacyjnych podanych przez CKE.
 
