@@ -13,6 +13,7 @@ const defaults = () => ({
   daily: {},      // "RRRR-MM-DD" -> { xp, lekcje, fiszki, poprawne, zadania, idealne }
   lekcje: {},     // "przedmiot/zakres/id" -> { n, best, idealne }
   odznaki: {},    // id odznaki -> czas zdobycia
+  bledy: {},      // "przedmiot/poddział/id" -> { t: 'f'|'q', uid, id, n, at } — pomyłki do poprawy
   settings: { theme: 'auto', installDismissed: false, newPerDay: 20, dailyGoal: 20, sound: true },
 });
 

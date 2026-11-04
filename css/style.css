@@ -241,6 +241,14 @@ main:focus, main:focus-visible { outline: none; }
 .quest-bar small { font-weight: 800; color: var(--text-2); font-variant-numeric: tabular-nums; min-width: 3.2em; text-align: right; }
 .quest.done .progress span { background: var(--ok-fill); }
 
+/* ---------- błędy do poprawy, wyszukiwarka ---------- */
+.mistakes-card { display: flex; align-items: center; gap: 12px; text-decoration: none; border-color: color-mix(in srgb, var(--bad-fill) 40%, var(--border)); box-shadow: 0 4px 0 color-mix(in srgb, var(--bad-fill) 40%, var(--border)); }
+.mistakes-card .quest-icon { background: var(--bad-soft); color: var(--bad); }
+.mistakes-text { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.mistakes-text small { color: var(--text-2); font-size: .88rem; }
+.mistakes-card > svg { color: var(--text-2); }
+.search-input { margin-bottom: 4px; }
+
 /* ---------- ścieżka nauki ---------- */
 .subject-title { display: flex; align-items: center; gap: 10px; }
 .subject-icon { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 14px; background: var(--accent-soft); font-size: 1.4rem; flex: none; }

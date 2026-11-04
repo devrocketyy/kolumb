@@ -85,6 +85,8 @@ const ICONS = {
   target: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="12" cy="12" r="1.6" fill="currentColor"/></svg>',
   play: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>',
   clock: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>',
+  search: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+  redo: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
   sound: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4zM16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
 };
 
@@ -306,6 +308,10 @@ function viewHome() {
           <button type="button" class="icon-btn" data-act="dismiss" aria-label="Nie teraz">${ICONS.close}</button>
         </div></div>` : ''}
     ${loadErrors.length ? `<div class="alert">Nie udało się wczytać: ${esc(loadErrors.join('; '))}</div>` : ''}
+    ${main && mistakesOf(main).length ? `<a class="card mistakes-card" href="#/bledy/${enc(main.id)}">
+      <span class="quest-icon">${ICONS.redo}</span>
+      <span class="mistakes-text"><strong>Błędy do poprawy: ${mistakesOf(main).length}</strong><small>Lekcja z pytań, w których była pomyłka</small></span>
+      ${ICONS.next}</a>` : ''}
     ${questsHtml()}
     ${subjects.map((s) => `<h2 class="section-title">${esc(s.nazwa)}</h2>
       <div class="path-wrap" data-sid="${esc(s.id)}">${pathHtml(s, s === main ? rec : recommendedUnit(s))}</div>`).join('') || '<p class="muted">Brak przedmiotów. Dodaj plik JSON do katalogu <code>przedmioty/</code>.</p>'}
@@ -447,6 +453,96 @@ function buildLesson(sc) {
   const rest = shuffle(ex.filter((e) => e.type !== 'match'));
   rest.splice(Math.min(4, rest.length), 0, ...match);
   return rest.slice(0, LESSON_SIZE);
+}
+
+
+// ---------- błędy do poprawy ----------
+const mistakeKey = (sid, uid, id) => `${sid}/${uid}/${id}`;
+function addMistake(sid, u, item, t) {
+  const st = store.get();
+  st.bledy ||= {};
+  const k = mistakeKey(sid, u.id, item.id);
+  const m = st.bledy[k] || { t, uid: u.id, id: item.id, n: 0 };
+  m.n++; m.at = Date.now();
+  st.bledy[k] = m;
+}
+function clearMistake(sid, uid, id) {
+  const st = store.get();
+  if (st.bledy) delete st.bledy[mistakeKey(sid, uid, id)];
+}
+function mistakesOf(s) {
+  const st = store.get().bledy || {};
+  return Object.entries(st).filter(([k]) => k.startsWith(s.id + '/')).map(([k, m]) => {
+    const u = s.units.get(m.uid);
+    if (!u) return null;
+    const item = m.t === 'q' ? u.pytania.find((q) => q.id === m.id) : u.fiszki.find((f) => f.id === m.id);
+    return item ? { k, m, u, item } : null;
+  }).filter(Boolean).sort((a, b) => a.m.at - b.m.at);
+}
+function buildMistakeLesson(s) {
+  const ex = [];
+  for (const { u, item, m } of mistakesOf(s).slice(0, LESSON_SIZE)) {
+    if (m.t === 'q') { ex.push({ type: 'abcd', u, q: item, order: shuffle(item.odpowiedzi.map((_, i) => i)), blad: true }); continue; }
+    const it = { f: item, u };
+    const pool = u.fiszki.filter((f) => f !== item && kindOf(f) === kindOf(item)).map((f) => ({ f, u }));
+    const wide = pool.length >= 3 ? pool : (dzialOf(s, u)?.poddzialy || [u]).flatMap((x) => x.fiszki.filter((f) => f !== item && kindOf(f) === kindOf(item)).map((f) => ({ f, u: x })));
+    const d = pickDistractors(wide, it, 3, (x) => x.f.tyl);
+    if (d.length >= 2) {
+      const opts = shuffle([it, ...d]);
+      ex.push({ type: 'choose', u, f: item, opts: opts.map((x) => x.f.tyl), good: opts.indexOf(it), blad: true });
+    } else ex.push({ type: 'tf', u, f: item, shown: item.tyl, truth: true, blad: true });
+  }
+  return ex;
+}
+function viewBledy(sid) {
+  const s = findSubject(sid);
+  if (!s) return notFound();
+  const key = `${sid}/b/bledy`;
+  if (!lesson || lesson.key !== key) {
+    const queue = buildMistakeLesson(s);
+    if (!queue.length) {
+      app.innerHTML = `${pageHead('Błędy do poprawy', '#/')}<div class="empty"><div class="empty-icon">${ICONS.check}</div><h1>Brak błędów</h1><p>Pomyłki z lekcji i testów pojawią się tutaj do powtórki.</p><a class="btn btn-primary" href="#/">Wróć</a></div>`;
+      return;
+    }
+    const sc = { s, type: 'b', id: 'bledy', units: [], title: 'Błędy do poprawy', back: '#/' };
+    lesson = { key, sc, queue, total: queue.length, done: 0, hearts: MAX_HEARTS, correct: 0, wrong: 0, combo: 0, maxCombo: 0, start: Date.now(), state: 'ask', sel: null, finished: false };
+  }
+  renderExercise();
+}
+
+// ---------- wyszukiwarka pojęć ----------
+let searchQ = '';
+function viewSzukaj() {
+  app.innerHTML = `${pageHead('Szukaj', null)}
+    <input class="type-input search-input" id="q" type="search" autocomplete="off" placeholder="np. kontrasygnata, art. 104, NATO…" aria-label="Szukaj w fiszkach" value="${esc(searchQ)}">
+    <p class="muted small" id="q-info"></p>
+    <div class="review-list" id="q-res"></div>`;
+  const inp = app.querySelector('#q');
+  const run = () => {
+    searchQ = inp.value;
+    const q = norm(searchQ);
+    const res = app.querySelector('#q-res');
+    const info = app.querySelector('#q-info');
+    if (q.length < 2) { res.innerHTML = ''; info.textContent = 'Wpisz co najmniej 2 znaki. Przeszukiwane są wszystkie fiszki i pytania.'; return; }
+    const words = q.split(' ');
+    const hits = [];
+    for (const s of subjects) for (const u of allUnits(s)) {
+      for (const f of u.fiszki) {
+        const a = norm(f.przod), b = norm(f.tyl);
+        if (words.every((w) => a.includes(w) || b.includes(w))) hits.push({ s, u, f, score: (a.includes(q) ? 0 : 1) + (kindOf(f) === 'term' ? 2 : 0) });
+      }
+    }
+    hits.sort((x, y) => x.score - y.score);
+    info.textContent = hits.length ? `Znaleziono: ${hits.length}${hits.length > 60 ? ' (pokazuję 60)' : ''}` : 'Nic nie znaleziono.';
+    res.innerHTML = hits.slice(0, 60).map(({ s, u, f }) => `<article class="card review">
+      <h3>${esc(f.przod)}</h3><p>${esc(f.tyl)}</p>
+      <div class="review-foot">${sourceTag(f.zrodlo) || '<span></span>'}<a class="btn-report" href="${hrefUnit(s.id, u.id)}">${ICONS.book}<span>${esc(u.nazwa)}</span></a></div>
+    </article>`).join('');
+  };
+  let t;
+  inp.addEventListener('input', () => { clearTimeout(t); t = setTimeout(run, 120); });
+  run();
+  setTimeout(() => inp.focus(), 50);
 }
 
 function viewLekcja(sid, type, id) {
@@ -596,6 +692,9 @@ function finishAnswer(ok, note = '', right = '') {
   const L = lesson;
   const e = L.queue[0];
   L.state = 'fb';
+  const sid = L.sc.s.id;
+  if (ok && e.blad) clearMistake(sid, e.u.id, (e.f || e.q).id);
+  if (!ok && (e.f || e.q)) addMistake(sid, e.u, e.f || e.q, e.f ? 'f' : 'q');
   if (ok) { L.correct++; L.combo++; L.maxCombo = Math.max(L.maxCombo, L.combo); game.sound('ok'); }
   else {
     L.wrong++; L.combo = 0;
@@ -665,7 +764,7 @@ function renderLessonEnd() {
         <button type="button" class="btn btn-ghost btn-lg" id="again">${failed ? 'Spróbuj ponownie' : 'Jeszcze jedna lekcja'}</button>
       </div>
     </section>`;
-  app.querySelector('#again').addEventListener('click', () => { const sc = L.sc; lesson = null; viewLekcja(sc.s.id, sc.type, sc.id); });
+  app.querySelector('#again').addEventListener('click', () => { const sc = L.sc; lesson = null; if (sc.type === 'b') viewBledy(sc.s.id); else viewLekcja(sc.s.id, sc.type, sc.id); });
   keyHandler = (ev) => { if (ev.key === 'Enter') { ev.preventDefault(); location.hash = '#/'; } };
 }
 
@@ -935,6 +1034,7 @@ function answer(oi) {
   test.answers[test.i] = oi;
   store.markActivity();
   const ok = oi === test.qs[test.i].q.poprawna;
+  if (!ok) addMistake(test.sc.s.id, test.qs[test.i].u, test.qs[test.i].q, 'q');
   game.sound(ok ? 'ok' : 'bad');
   game.award(ok ? 2 : 0, { poprawne: ok ? 1 : 0 });
   showFeedback();
@@ -1834,6 +1934,8 @@ const routes = [
   [/^#\/fiszki\/([^/]+)\/(d|p)\/([^/]+)(?:\/(trening))?$/, viewFiszki],
   [/^#\/test\/([^/]+)\/(d|p)\/([^/]+)$/, viewTest],
   [/^#\/lekcja\/([^/]+)\/(d|p)\/([^/]+)$/, viewLekcja],
+  [/^#\/bledy\/([^/]+)$/, viewBledy],
+  [/^#\/szukaj$/, viewSzukaj],
   [/^#\/lista\/([^/]+)\/([^/]+)$/, viewLista],
   [/^#\/matura$/, viewMatura],
   [/^#\/zadania\/([^/]+)\/(a|d|b)\/([^/]+)$/, viewZadania],
@@ -1849,7 +1951,7 @@ function route() {
   lastHash = hash;
   keyHandler = null;
   document.body.classList.remove('in-session', 'in-lesson');
-  if (!hash.startsWith('#/lekcja/')) lesson = null;
+  if (!hash.startsWith('#/lekcja/') && !hash.startsWith('#/bledy/')) lesson = null;
   if (!hash.startsWith('#/fiszki/')) session = null;
   if (!hash.startsWith('#/test/')) test = null;
   if (!hash.startsWith('#/zadania/')) zs = null;
