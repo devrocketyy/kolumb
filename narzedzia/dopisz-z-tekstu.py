@@ -71,7 +71,7 @@ def parse(path):
         if not line or line.startswith('//'): continue
         if line.startswith('## '):
             i, n, *o = [x.strip() for x in line[3:].split('|')]
-            cur = {'id': i, 'nazwa': n, 'opis': o[0] if o else '', 'items': [], 'qs': []}; units.append(cur); continue
+            cur = {'id': i, 'nazwa': n, 'opis': o[0] if o else '', 'items': [], 'qs': [], 'dz': dz}; units.append(cur); continue
         if line.startswith('# '):
             i, n, *o = [x.strip() for x in line[2:].split('|')]
             dz = {'id': i, 'nazwa': n, 'opis': o[0] if o else ''}; continue
@@ -98,7 +98,13 @@ def parse(path):
                 raise ValueError('nieznany typ linii')
         except Exception as e:
             sys.exit(f'{path}:{ln}: {e}: {line[:80]}')
-    return dz, units
+    # plik może zawierać kilka działów (# …) — zwracamy listę par (dział, poddziały)
+    groups = []
+    for u in units:
+        if not groups or groups[-1][0] is not u['dz']:
+            groups.append((u['dz'], []))
+        groups[-1][1].append(u)
+    return groups
 
 def merge(dz, units):
     path = f'{OUT}/{dz["id"]}.json'
@@ -151,6 +157,7 @@ if __name__ == '__main__':
     OUT = os.path.join(ROOT, 'przedmioty', sys.argv[1])
     tf = tq = 0
     for p in sys.argv[2:]:
-        a, b = merge(*parse(p)); tf += a; tq += b
+        for dz, units in parse(p):
+            a, b = merge(dz, units); tf += a; tq += b
     print(f'RAZEM w zmienionych działach: {tf} fiszek, {tq} pytań')
     print('Teraz uruchom: node narzedzia/zbuduj-indeks.mjs')
