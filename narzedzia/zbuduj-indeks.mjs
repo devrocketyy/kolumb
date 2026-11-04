@@ -115,6 +115,30 @@ async function sprawdzPrzedmiot(plik, p) {
       }
     }
   }
+  const idWiazek = new Set();
+  let nb = 0;
+  for (const raw of p.bank || []) {
+    const b = await rozwin(raw, gdzie);
+    if (!b) continue;
+    for (const wz of b.wiazki || []) {
+      const w = `bank, wiązka ${wz.id}`;
+      if (!wz.id) bledy.push(gdzie('bank: wiązka bez "id"'));
+      if (idWiazek.has(wz.id)) bledy.push(gdzie(`${w}: powtórzone id`));
+      idWiazek.add(wz.id);
+      if (!idDzialow.has(wz.dzial || b.dzial)) ostrzezenia.push(gdzie(`${w}: nieznany dział "${wz.dzial || b.dzial}"`));
+      const otw = (wz.material.match(/\[\[(wykres|linia|tabela|rysunek|mapa)/g) || []).length;
+      const zam = (wz.material.match(/\[\[\/\]\]/g) || []).length;
+      if (otw !== zam) bledy.push(gdzie(`${w}: niedomknięty blok [[…]] w materiale`));
+      if (!(wz.zadania || []).length) bledy.push(gdzie(`${w}: brak zadań`));
+      for (const z of wz.zadania || []) {
+        if (!z.polecenie) bledy.push(gdzie(`${w}, zadanie ${z.nr}: brak "polecenie"`));
+        if (!z.odpowiedz) bledy.push(gdzie(`${w}, zadanie ${z.nr}: brak "odpowiedz"`));
+        if (!(z.punkty >= 1)) bledy.push(gdzie(`${w}, zadanie ${z.nr}: zła liczba punktów`));
+        nb++;
+      }
+    }
+  }
+  staty.push(`${plik}: ${idWiazek.size} wiązek autorskich (${nb} zadań)`);
   staty.push(`${plik}: ${idDzialow.size} działów, ${nu} poddziałów, ${nf} fiszek, ${nq} pytań ABCD, ${nz} zadań maturalnych`);
 }
 

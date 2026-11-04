@@ -25,6 +25,8 @@ Działa w przeglądarce na telefonie, tablecie i komputerze, można ją dodać d
 
 **Zadania maturalne:** 5 arkuszy CKE: maj i czerwiec 2023, maj 2024, maj i czerwiec 2025 (formuła 2023) — 219 zadań (300 pkt) z materiałami źródłowymi, poleceniami, przykładowymi odpowiedziami i zasadami oceniania. Każde zadanie jest przypisane do działów na podstawie wymagań egzaminacyjnych podanych przez CKE.
 
+**Bank zadań autorskich Kolumba:** 142 wiązki (368 zadań, 457 pkt) we wszystkich działach — zadania krótkie (prawda/fałsz, rozstrzygnij i uzasadnij, przyporządkuj, porównaj, argumenty), pisma za 5 pkt (prywatny akt oskarżenia, petycja, odwołanie, skarga do WSA, wniosek o informację publiczną, wniosek do RPO, wystąpienia publiczne) i wypracowania za 7 pkt. Materiały zawierają wykresy, tabele oraz opisy rysunków satyrycznych, plakatów i map. Zadania i dane oznaczone jako „przykładowe” są autorskie i służą wyłącznie ćwiczeniu.
+
 Podział na działy wynika z wymagań egzaminacyjnych (podstawy programowej). Najwięcej punktów w arkuszach 2023–2024 przypadało na: prawo w RP, organy władzy w RP, człowieka i społeczeństwo, systemy polityczne państw, ład międzynarodowy i społeczeństwo obywatelskie.
 
 Każda fiszka i każde pytanie ma pole `zrodlo` — numer artykułu aktu prawnego (np. „Konstytucja RP, art. 104”, „Kodeks cywilny, art. 158”) albo dział podstawy programowej. Błędy można zgłaszać przyciskiem „Zgłoś błąd”.
@@ -37,7 +39,7 @@ Każda fiszka i każde pytanie ma pole `zrodlo` — numer artykułu aktu prawneg
 | **Dział / poddział** | Postęp, liczba powtórek i nowych fiszek, przyciski: fiszki, test, zadania maturalne z działu, przegląd treści. Naukę można prowadzić dla całego działu albo pojedynczego poddziału. |
 | **Fiszki** | Pytanie z przodu, odpowiedź po dotknięciu. Oceny **Nie wiem / Trudne / Umiem**. Powtórki według systemu Leitnera. Tryb „trening swobodny” — 50 losowych fiszek bez wpływu na harmonogram. |
 | **Test** | 10 losowych pytań ABCD (kolejność odpowiedzi też losowa), od razu informacja o poprawności z wyjaśnieniem i źródłem, na końcu wynik procentowy i lista błędów. |
-| **Matura** | Arkusze CKE i zadania według działów. Materiał źródłowy, polecenie, miejsce na własną odpowiedź, klucz CKE z zasadami oceniania i samoocena punktowa. |
+| **Matura** | Próbne matury na czas (180 min, ok. 60 pkt, struktura jak w arkuszach CKE): 12 ponumerowanych i losowe, z samooceną i wynikiem według działów. Trening zadań autorskich według działów. Arkusze CKE i zadania według działów — materiał źródłowy, polecenie, miejsce na odpowiedź, klucz z zasadami oceniania i samoocena punktowa. |
 | **Statystyki** | Opanowane i poznane fiszki, seria dni nauki, ostatnie 14 dni, wynik zadań maturalnych, opanowanie działów, ostatnie testy. |
 | **Ustawienia** | Motyw jasny / ciemny / systemowy, liczba nowych fiszek dziennie (10/20/30/50), instalacja aplikacji, kopia postępów, zerowanie postępów. |
 | **Zgłoś błąd** | Przy każdej fiszce, pytaniu i zadaniu. Otwiera e-mail do `roc7et@gmail.com` z pełną treścią. |
@@ -169,6 +171,40 @@ Skrypt tylko **dopisuje** — niczego nie usuwa, a fiszki o tym samym przodzie a
 ### Zadania maturalne (arkusze)
 
 W pliku przedmiotu: `"arkusze": [{ "id": "2023-maj", "plik": "wos/arkusze/2023-maj.json" }]`. Arkusz składa się z wiązek (`wiazki`): `nr`, `tytul`, `material`, `uwaga` oraz `zadania` z polami `nr`, `punkty`, `polecenie`, `odpowiedz`, `zasady`, `dzialy` (lista `id` działów).
+
+### Bank zadań autorskich
+
+Wiązki pisze się w prostym formacie tekstowym i zamienia na JSON:
+
+```bash
+python3 narzedzia/zbuduj-bank.py wos moje-zadania.txt
+```
+
+```text
+@W g001 | polityka | Frekwencja w wyborach — wykres
+@M
+[[linia: Frekwencja w wyborach do Sejmu | %]]
+# | 2015 | 2019 | 2023
+Frekwencja | 50,9 | 61,7 | 74,4
+[[/]]
+@R Na podstawie danych PKW.
+@Z wyjasnij | 1
+@P
+Sformułuj wniosek dotyczący zmian frekwencji.
+@O
+Frekwencja systematycznie rosła.
+```
+
+Typy zadań (`@Z typ | punkty`): `pf`, `abcd`, `przyporzadkuj`, `rozstrzygnij`, `argument`, `podaj`, `wyjasnij`, `porownaj`, `pismo`, `wypracowanie`. Pole `@S` (zasady oceniania) jest opcjonalne. Bloki w materiale:
+
+| Blok | Zawartość |
+|---|---|
+| `[[wykres: tytuł \| jednostka]]` | wykres słupkowy; wiersze `etykieta \| wartość [\| wartość…]`, opcjonalny nagłówek `# \| seria 1 \| seria 2` |
+| `[[linia: tytuł \| jednostka]]` | wykres liniowy; nagłówek `# \| x1 \| x2 …`, potem wiersze serii |
+| `[[tabela: tytuł]]` | tabela; pierwszy wiersz to nagłówek, kolumny rozdzielone `\|` |
+| `[[rysunek: tytuł]]`, `[[mapa: tytuł]]` | opis rysunku satyrycznego, plakatu lub mapy |
+
+Każdy blok kończy się wierszem `[[/]]`.
 
 ### Sprawdzanie treści
 

@@ -632,6 +632,19 @@ function viewMatura() {
     ${pageHead('Zadania maturalne', null, 'Arkusze CKE')}
     <p class="lead">Próbne matury na czas oraz prawdziwe zadania z arkuszy CKE z kluczem odpowiedzi.</p>
     ${subjects.filter((s) => s.bank.length || s.arkusze.length).map(examSection).join('')}
+    ${subjects.filter((s) => s.bank.length).map((s) => {
+      const byD = s.dzialy.map((d) => ({ d, list: bankTasks(s, d.id) })).filter((x) => x.list.length);
+      return `<section class="card"><h2 class="card-title">Trening: zadania autorskie</h2>
+        <p class="muted">Ćwicz wiązki zadań z jednego działu bez limitu czasu — od razu z kluczem i samooceną.</p>
+        <div class="dzial-list">${byD.map(({ d, list }) => {
+          const sc = taskScore(s.id, list);
+          return `<a class="dzial-row" href="#/zadania/${enc(s.id)}/b/${enc(d.id)}">
+            <div class="dzial-row-top"><span class="dzial-name">${esc(d.nazwa)}</span>${sc.done ? `<span class="score ${sc.pkt / sc.max >= .7 ? 'ok' : sc.pkt / sc.max >= .5 ? 'warn' : 'bad'}">${pct(sc.pkt / sc.max)}%</span>` : ''}</div>
+            ${progressBar(sc.done / (sc.total || 1), `Rozwiązane zadania autorskie: ${d.nazwa}`)}
+            <div class="dzial-meta"><span>${sc.done}/${nZadan(sc.total)} rozwiązanych</span></div>
+          </a>`;
+        }).join('')}</div></section>`;
+    }).join('')}
     <h2 class="section-title">Arkusze CKE</h2>
     ${withTasks.map((s) => {
       const byDzial = s.dzialy.map((d) => ({ d, n: tasksOf(s, d.id).length })).filter((x) => x.n);
@@ -665,6 +678,11 @@ function viewZadania(sid, type, id) {
       if (!a) return notFound();
       list = a.zadania;
       title = a.nazwa;
+    } else if (type === 'b') {
+      const d = findDzial(s, id);
+      if (!d) return notFound();
+      list = bankTasks(s, d.id);
+      title = `${d.nazwa} — zadania autorskie`;
     } else {
       const d = findDzial(s, id);
       if (!d) return notFound();
@@ -681,12 +699,77 @@ function viewZadania(sid, type, id) {
 
 const pre = (t) => `<div class="pre">${esc(t)}</div>`;
 
+// Materiał z blokami: [[wykres: tytuł | jednostka]] … [[/]], [[linia: …]], [[tabela: tytuł]], [[rysunek: tytuł]], [[mapa: tytuł]]
+const num = (v) => Number(String(v).replace(/\s/g, '').replace(',', '.').replace(/[^\d.\-]/g, ''));
+const fmtNum = (v) => String(v).trim();
+function richBlock(kind, head, lines) {
+  const [tytul = '', jedn = ''] = head.split('|').map((x) => x.trim());
+  const rows = lines.filter((l) => l.trim()).map((l) => l.split('|').map((x) => x.trim()));
+  const cap = tytul ? `<figcaption>${esc(tytul)}${jedn ? ` <span class="muted">(${esc(jedn)})</span>` : ''}</figcaption>` : '';
+  if (kind === 'tabela') {
+    const [h, ...body] = rows;
+    return `<figure class="mat-fig">${cap}<div class="mat-table-wrap"><table class="mat-table">
+      <thead><tr>${(h || []).map((c) => `<th scope="col">${esc(c)}</th>`).join('')}</tr></thead>
+      <tbody>${body.map((r) => `<tr>${r.map((c, i) => i ? `<td>${esc(c)}</td>` : `<th scope="row">${esc(c)}</th>`).join('')}</tr>`).join('')}</tbody></table></div></figure>`;
+  }
+  if (kind === 'rysunek' || kind === 'mapa') {
+    return `<figure class="mat-fig mat-drawing ${kind}"><div class="mat-drawing-label">${kind === 'mapa' ? 'Mapa — opis' : 'Rysunek — opis'}</div>${tytul ? `<strong>${esc(tytul)}</strong>` : ''}${lines.map((l) => l.trim() ? `<p>${esc(l)}</p>` : '').join('')}</figure>`;
+  }
+  // wykres słupkowy / liniowy; wiersz zaczynający się od "#" to nagłówek serii
+  let series = [''];
+  let data = rows;
+  if (rows[0] && rows[0][0] === '#') { series = rows[0].slice(1); data = rows.slice(1); }
+  const max = Math.max(...data.flatMap((r) => r.slice(1).map(num)).filter((x) => !isNaN(x)), 0) || 1;
+  const legend = series.length > 1 ? `<div class="chart-legend">${series.map((s, i) => `<span><i class="sw s${i}"></i>${esc(s)}</span>`).join('')}</div>` : '';
+  if (kind === 'linia') {
+    // dane: wiersz = seria, kolumny = kolejne punkty (nagłówek "#" = etykiety osi X)
+    const xs = series.length > 1 || series[0] ? series : data[0].slice(1).map((_, i) => String(i + 1));
+    const W = 320, H = 170, L = 34, R = 12, T = 12, B = 26;
+    const x = (i) => L + (xs.length < 2 ? 0 : (i * (W - L - R)) / (xs.length - 1));
+    const pw = 10 ** Math.floor(Math.log10(max));
+    const top = [1, 2, 2.5, 5, 10].map((m) => m * pw).find((v) => v >= max);
+    const y = (v) => T + (H - T - B) * (1 - v / top);
+    const ticks = [0, .25, .5, .75, 1].map((f) => Math.round(top * f * 100) / 100);
+    const svg = `<svg viewBox="0 0 ${W} ${H}" class="chart-line" role="img" aria-label="${esc(tytul)}">
+      ${ticks.map((v) => `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" class="grid"/><text x="${L - 4}" y="${y(v) + 3}" text-anchor="end">${v}</text>`).join('')}
+      ${xs.map((lbl, i) => `<text x="${x(i)}" y="${H - 8}" text-anchor="middle">${esc(lbl)}</text>`).join('')}
+      ${data.map((r, si) => `<polyline class="ln s${si}" points="${r.slice(1).map((v, i) => `${x(i)},${y(num(v))}`).join(' ')}"/>${r.slice(1).map((v, i) => `<circle class="pt s${si}" cx="${x(i)}" cy="${y(num(v))}" r="3"><title>${esc(r[0])}, ${esc(xs[i])}: ${esc(v)}</title></circle>`).join('')}`).join('')}
+    </svg>`;
+    const leg = data.length < 2 ? '' : `<div class="chart-legend">${data.map((r, i) => `<span><i class="sw s${i}"></i>${esc(r[0])}</span>`).join('')}</div>`;
+    const tbl = `<details class="chart-data"><summary>Dane w tabeli</summary><table class="mat-table"><thead><tr><th></th>${xs.map((v) => `<th>${esc(v)}</th>`).join('')}</tr></thead><tbody>${data.map((r) => `<tr><th scope="row">${esc(r[0])}</th>${r.slice(1).map((v) => `<td>${esc(v)}</td>`).join('')}</tr>`).join('')}</tbody></table></details>`;
+    return `<figure class="mat-fig chart">${cap}${svg}${leg}${tbl}</figure>`;
+  }
+  return `<figure class="mat-fig chart">${cap}${legend}<div class="bars">${data.map((r) => `<div class="bar-row"><span class="bar-label">${esc(r[0])}</span><div class="bar-group">${r.slice(1).map((v, i) => `<div class="bar-line"><span class="bar s${i}" style="width:${Math.max(0, Math.min(100, (num(v) / max) * 100))}%"></span><span class="bar-val">${esc(fmtNum(v))}</span></div>`).join('')}</div></div>`).join('')}</div></figure>`;
+}
+function rich(text) {
+  if (!text.includes('[[')) return pre(text);
+  const out = []; let buf = []; let blk = null;
+  const flush = () => { if (buf.join('').trim()) out.push(pre(buf.join('\n').replace(/^\n+|\n+$/g, ''))); buf = []; };
+  for (const line of text.split('\n')) {
+    const m = line.match(/^\s*\[\[(wykres|linia|tabela|rysunek|mapa)\s*:?\s*(.*?)\]\]\s*$/);
+    if (m && !blk) { flush(); blk = { kind: m[1], head: m[2], lines: [] }; continue; }
+    if (blk && /^\s*\[\[\/\]\]\s*$/.test(line)) { out.push(richBlock(blk.kind, blk.head, blk.lines)); blk = null; continue; }
+    (blk ? blk.lines : buf).push(line);
+  }
+  if (blk) out.push(richBlock(blk.kind, blk.head, blk.lines));
+  flush();
+  return `<div class="rich">${out.join('')}</div>`;
+}
+
+const BANK_PREFIX = 'bank-';
+function bankTasks(s, did) {
+  return s.bank.filter((w) => !did || w.dzial === did).flatMap((w, i) => {
+    const wz = { ...w, nr: String(i + 1) };
+    return w.zadania.map((z) => ({ ...z, arkusz: BANK_PREFIX + w.id, wiazka: wz }));
+  });
+}
+
 function renderTask() {
   const { s, list, i, title } = zs;
   document.body.classList.add('in-session');
   const z = list[i];
-  const a = s.arkusze.find((x) => x.id === z.arkusz);
   const w = z.wiazka;
+  const a = s.arkusze.find((x) => x.id === z.arkusz) || { nazwa: 'Zadanie autorskie Kolumba', zrodlo: w.zrodlo };
   const k = taskKey(s.id, z);
   const prev = store.get().zadania[k];
   const revealed = zs.revealed[k];
@@ -703,7 +786,7 @@ function renderTask() {
     ${w.material || w.uwaga ? `<details class="card material" ${i === 0 || list[i - 1].wiazka !== w ? 'open' : ''}>
       <summary>Materiał do zadania ${esc(w.nr)}${w.tytul ? ` — ${esc(w.tytul)}` : ''}</summary>
       ${w.uwaga ? `<p class="note">${esc(w.uwaga)}</p>` : ''}
-      ${w.material ? pre(w.material) : ''}
+      ${w.material ? rich(w.material) : ''}
     </details>` : ''}
 
     <section class="card task-body">
@@ -743,7 +826,7 @@ function keyHtml(z, prev) {
   const btns = Array.from({ length: z.punkty + 1 }, (_, p) =>
     `<button type="button" class="btn btn-score ${prev && prev.pkt === p ? 'active' : ''}" data-pkt="${p}">${p} pkt</button>`).join('');
   return `<section class="card key">
-      <h2 class="card-title">${ICONS.check} Odpowiedź według klucza CKE</h2>
+      <h2 class="card-title">${ICONS.check} ${String(z.arkusz).startsWith(BANK_PREFIX) ? 'Przykładowa odpowiedź (klucz Kolumba)' : 'Odpowiedź według klucza CKE'}</h2>
       ${pre(z.odpowiedz || '—')}
       ${z.zasady ? `<details class="rules"><summary>Zasady oceniania</summary>${pre(z.zasady)}</details>` : ''}
     </section>
@@ -936,7 +1019,7 @@ function renderExamTask(s, e, ws) {
     <section class="card material">
       <h2 class="card-title">${esc(w.tytul || 'Zadanie ' + (e.i + 1))}</h2>
       ${w.uwaga ? `<p class="note">${esc(w.uwaga)}</p>` : ''}
-      ${w.material ? pre(w.material) : ''}
+      ${w.material ? rich(w.material) : ''}
       <p class="muted small">${esc(w.zrodlo)}</p>
     </section>
     ${w.zadania.map((z, j) => `<section class="card task-body">
@@ -1259,7 +1342,7 @@ const routes = [
   [/^#\/test\/([^/]+)\/(d|p)\/([^/]+)$/, viewTest],
   [/^#\/lista\/([^/]+)\/([^/]+)$/, viewLista],
   [/^#\/matura$/, viewMatura],
-  [/^#\/zadania\/([^/]+)\/(a|d)\/([^/]+)$/, viewZadania],
+  [/^#\/zadania\/([^/]+)\/(a|d|b)\/([^/]+)$/, viewZadania],
   [/^#\/egzamin\/([^/]+)\/([^/]+)$/, viewEgzamin],
   [/^#\/statystyki$/, viewStats],
   [/^#\/ustawienia$/, viewSettings],
