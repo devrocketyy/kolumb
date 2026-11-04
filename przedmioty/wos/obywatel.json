@@ -1,0 +1,1959 @@
+{
+ "id": "obywatel",
+ "nazwa": "Społeczeństwo obywatelskie i partycypacja",
+ "opis": "Społeczeństwo obywatelskie, formy partycypacji, organizacje pozarządowe, media i opinia publiczna, kultura polityczna, społeczność lokalna.",
+ "poddzialy": [
+  {
+   "id": "obyw-spoleczenstwo",
+   "nazwa": "Społeczeństwo obywatelskie i formy partycypacji",
+   "opis": "Obywatelstwo, cnoty obywatelskie, partycypacja polityczna i społeczna, frekwencja, aktywność obywatelska.",
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Wyjaśnij pojęcie: społeczeństwo obywatelskie",
+     "tyl": "Społeczeństwo, w którym obywatele są świadomi swoich praw i obowiązków, dobrowolnie i oddolnie zrzeszają się i aktywnie uczestniczą w życiu publicznym, niezależnie od państwa.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f002",
+     "przod": "Podaj nazwę pojęcia: Społeczeństwo, w którym obywatele są świadomi swoich praw i obowiązków, dobrowolnie i oddolnie zrzeszają się i aktywnie uczestniczą w życiu publicznym, niezależnie od państwa.",
+     "tyl": "społeczeństwo obywatelskie",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f003",
+     "przod": "Jakie są cechy społeczeństwa obywatelskiego?",
+     "tyl": "Aktywność i samoorganizacja obywateli, dobrowolne zrzeszanie się (NGO), niezależność od państwa, zaufanie społeczne, odpowiedzialność za dobro wspólne, tolerancja, wolne media, poszanowanie prawa.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f004",
+     "przod": "Wyjaśnij pojęcie: obywatelstwo",
+     "tyl": "Więź prawna jednostki z państwem, z której wynikają prawa (np. wyborcze) i obowiązki (np. wierność RP, przestrzeganie prawa, płacenie podatków, obrona Ojczyzny).",
+     "zrodlo": "Konstytucja RP, art. 34; Konstytucja RP, art. 82–86"
+    },
+    {
+     "id": "f005",
+     "przod": "Podaj nazwę pojęcia: Więź prawna jednostki z państwem, z której wynikają prawa (np. wyborcze) i obowiązki (np. wierność RP, przestrzeganie prawa, płacenie podatków, obrona Ojczyzny).",
+     "tyl": "obywatelstwo",
+     "zrodlo": "Konstytucja RP, art. 34; Konstytucja RP, art. 82–86"
+    },
+    {
+     "id": "f006",
+     "przod": "Jakie obowiązki obywateli wymienia Konstytucja RP?",
+     "tyl": "Wierność RP i troska o dobro wspólne, przestrzeganie prawa, obrona Ojczyzny, ponoszenie ciężarów i świadczeń publicznych (podatki), dbałość o stan środowiska.",
+     "zrodlo": "Konstytucja RP, art. 82–86"
+    },
+    {
+     "id": "f007",
+     "przod": "Wyjaśnij pojęcie: cnoty obywatelskie",
+     "tyl": "Postawy i cechy dobrego obywatela, np. odpowiedzialność, troska o dobro wspólne, praworządność, tolerancja, aktywność, solidarność, uczciwość.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f008",
+     "przod": "Podaj nazwę pojęcia: Postawy i cechy dobrego obywatela, np. odpowiedzialność, troska o dobro wspólne, praworządność, tolerancja, aktywność, solidarność, uczciwość.",
+     "tyl": "cnoty obywatelskie",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f009",
+     "przod": "Wyjaśnij pojęcie: dobro wspólne",
+     "tyl": "Wartości, dobra i warunki służące całej wspólnocie (np. bezpieczeństwo, środowisko, sprawiedliwe instytucje), a nie tylko jednostkom lub grupom.",
+     "zrodlo": "Konstytucja RP, art. 1; Konstytucja RP, art. 82"
+    },
+    {
+     "id": "f010",
+     "przod": "Podaj nazwę pojęcia: Wartości, dobra i warunki służące całej wspólnocie (np. bezpieczeństwo, środowisko, sprawiedliwe instytucje), a nie tylko jednostkom lub grupom.",
+     "tyl": "dobro wspólne",
+     "zrodlo": "Konstytucja RP, art. 1; Konstytucja RP, art. 82"
+    },
+    {
+     "id": "f011",
+     "przod": "Wyjaśnij pojęcie: partycypacja polityczna",
+     "tyl": "Udział obywateli w życiu politycznym — w wyborach, referendach, partiach, demonstracjach, petycjach, kontaktach z politykami.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f012",
+     "przod": "Podaj nazwę pojęcia: Udział obywateli w życiu politycznym — w wyborach, referendach, partiach, demonstracjach, petycjach, kontaktach z politykami.",
+     "tyl": "partycypacja polityczna",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f013",
+     "przod": "Wyjaśnij pojęcie: partycypacja społeczna",
+     "tyl": "Udział obywateli w życiu społecznym — w organizacjach pozarządowych, wolontariacie, konsultacjach, inicjatywach lokalnych.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f014",
+     "przod": "Podaj nazwę pojęcia: Udział obywateli w życiu społecznym — w organizacjach pozarządowych, wolontariacie, konsultacjach, inicjatywach lokalnych.",
+     "tyl": "partycypacja społeczna",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f015",
+     "przod": "Wyjaśnij pojęcie: partycypacja wyborcza",
+     "tyl": "Udział obywateli w wyborach (głosowanie, kandydowanie, praca w komisjach wyborczych).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f016",
+     "przod": "Podaj nazwę pojęcia: Udział obywateli w wyborach (głosowanie, kandydowanie, praca w komisjach wyborczych).",
+     "tyl": "partycypacja wyborcza",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f017",
+     "przod": "Jakie formy aktywności obywatelskiej są dostępne w Polsce?",
+     "tyl": "Udział w wyborach i referendach, inicjatywa ustawodawcza i uchwałodawcza, petycje, skargi i wnioski, budżet obywatelski, konsultacje społeczne, zgromadzenia i demonstracje, członkostwo w partiach, NGO, związkach zawodowych, wolontariat.",
+     "zrodlo": "Konstytucja RP, art. 54; Konstytucja RP, art. 57; Konstytucja RP, art. 58; Konstytucja RP, art. 62; Konstytucja RP, art. 63; Konstytucja RP, art. 118"
+    },
+    {
+     "id": "f018",
+     "przod": "Wyjaśnij pojęcie: frekwencja wyborcza",
+     "tyl": "Odsetek uprawnionych do głosowania, którzy wzięli udział w wyborach.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f019",
+     "przod": "Podaj nazwę pojęcia: Odsetek uprawnionych do głosowania, którzy wzięli udział w wyborach.",
+     "tyl": "frekwencja wyborcza",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f020",
+     "przod": "Jaka była frekwencja w wyborach do Sejmu w 2023 r.?",
+     "tyl": "Ok. 74,4% — najwyższa w historii III RP.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f021",
+     "przod": "Jakie są przyczyny absencji wyborczej?",
+     "tyl": "Brak zainteresowania polityką i zaufania do polityków, poczucie braku wpływu, niezadowolenie z oferty politycznej, niska kultura polityczna, przeszkody organizacyjne (np. wyjazd), niski poziom wykształcenia i wiedzy.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f022",
+     "przod": "Wyjaśnij pojęcie: absencja wyborcza",
+     "tyl": "Niebranie udziału w wyborach przez uprawnionych obywateli.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f023",
+     "przod": "Podaj nazwę pojęcia: Niebranie udziału w wyborach przez uprawnionych obywateli.",
+     "tyl": "absencja wyborcza",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f024",
+     "przod": "Wyjaśnij pojęcie: głosowanie korespondencyjne",
+     "tyl": "Oddanie głosu przez pocztę — w Polsce dostępne m.in. dla wyborców niepełnosprawnych i powyżej 60. roku życia (w kraju) oraz dla wyborców za granicą.",
+     "zrodlo": "Kodeks wyborczy, art. 53a"
+    },
+    {
+     "id": "f025",
+     "przod": "Podaj nazwę pojęcia: Oddanie głosu przez pocztę — w Polsce dostępne m.in. dla wyborców niepełnosprawnych i powyżej 60. roku życia (w kraju) oraz dla wyborców za granicą.",
+     "tyl": "głosowanie korespondencyjne",
+     "zrodlo": "Kodeks wyborczy, art. 53a"
+    },
+    {
+     "id": "f026",
+     "przod": "Wyjaśnij pojęcie: pełnomocnik do głosowania",
+     "tyl": "Osoba upoważniona do oddania głosu w imieniu wyborcy niepełnosprawnego lub mającego co najmniej 60 lat.",
+     "zrodlo": "Kodeks wyborczy, art. 54"
+    },
+    {
+     "id": "f027",
+     "przod": "Podaj nazwę pojęcia: Osoba upoważniona do oddania głosu w imieniu wyborcy niepełnosprawnego lub mającego co najmniej 60 lat.",
+     "tyl": "pełnomocnik do głosowania",
+     "zrodlo": "Kodeks wyborczy, art. 54"
+    },
+    {
+     "id": "f028",
+     "przod": "Wyjaśnij pojęcie: zaświadczenie o prawie do głosowania",
+     "tyl": "Dokument umożliwiający oddanie głosu w dowolnym obwodzie (w kraju, za granicą, na statku) w wyborach do Sejmu, Senatu, na Prezydenta i do PE.",
+     "zrodlo": "Kodeks wyborczy, art. 32"
+    },
+    {
+     "id": "f029",
+     "przod": "Podaj nazwę pojęcia: Dokument umożliwiający oddanie głosu w dowolnym obwodzie (w kraju, za granicą, na statku) w wyborach do Sejmu, Senatu, na Prezydenta i do PE.",
+     "tyl": "zaświadczenie o prawie do głosowania",
+     "zrodlo": "Kodeks wyborczy, art. 32"
+    },
+    {
+     "id": "f030",
+     "przod": "Wyjaśnij pojęcie: wolontariat",
+     "tyl": "Dobrowolna, bezpłatna, świadoma praca na rzecz innych lub społeczności, wykraczająca poza więzi rodzinno-koleżeńsko-przyjacielskie.",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 2"
+    },
+    {
+     "id": "f031",
+     "przod": "Podaj nazwę pojęcia: Dobrowolna, bezpłatna, świadoma praca na rzecz innych lub społeczności, wykraczająca poza więzi rodzinno-koleżeńsko-przyjacielskie.",
+     "tyl": "wolontariat",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 2"
+    },
+    {
+     "id": "f032",
+     "przod": "Wyjaśnij pojęcie: wolontariusz",
+     "tyl": "Osoba fizyczna, która ochotniczo i bez wynagrodzenia wykonuje świadczenia na rzecz organizacji pozarządowych, administracji i innych podmiotów.",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 2"
+    },
+    {
+     "id": "f033",
+     "przod": "Podaj nazwę pojęcia: Osoba fizyczna, która ochotniczo i bez wynagrodzenia wykonuje świadczenia na rzecz organizacji pozarządowych, administracji i innych podmiotów.",
+     "tyl": "wolontariusz",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 2"
+    },
+    {
+     "id": "f034",
+     "przod": "Wyjaśnij pojęcie: aktywizm miejski",
+     "tyl": "Oddolne działania mieszkańców (ruchy miejskie) na rzecz poprawy jakości życia w mieście, np. w sprawie zieleni, transportu, przestrzeni publicznej.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f035",
+     "przod": "Podaj nazwę pojęcia: Oddolne działania mieszkańców (ruchy miejskie) na rzecz poprawy jakości życia w mieście, np. w sprawie zieleni, transportu, przestrzeni publicznej.",
+     "tyl": "aktywizm miejski",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f036",
+     "przod": "Wyjaśnij pojęcie: obywatelskie nieposłuszeństwo",
+     "tyl": "Świadome, publiczne i pokojowe złamanie prawa uznanego za niesprawiedliwe, z gotowością poniesienia konsekwencji (np. M. Gandhi, M.L. King).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f037",
+     "przod": "Podaj nazwę pojęcia: Świadome, publiczne i pokojowe złamanie prawa uznanego za niesprawiedliwe, z gotowością poniesienia konsekwencji (np. M. Gandhi, M.L. King).",
+     "tyl": "obywatelskie nieposłuszeństwo",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f038",
+     "przod": "Wyjaśnij pojęcie: petycja (obywatelska)",
+     "tyl": "Wniosek, propozycja lub skarga w interesie publicznym, prywatnym lub osoby trzeciej składana do organów władzy, organizacji lub instytucji społecznych.",
+     "zrodlo": "Konstytucja RP, art. 63"
+    },
+    {
+     "id": "f039",
+     "przod": "Podaj nazwę pojęcia: Wniosek, propozycja lub skarga w interesie publicznym, prywatnym lub osoby trzeciej składana do organów władzy, organizacji lub instytucji społecznych.",
+     "tyl": "petycja (obywatelska)",
+     "zrodlo": "Konstytucja RP, art. 63"
+    },
+    {
+     "id": "f040",
+     "przod": "W jakim terminie rozpatruje się petycję?",
+     "tyl": "Bez zbędnej zwłoki, nie później niż w ciągu 3 miesięcy od dnia jej złożenia (ustawa o petycjach).",
+     "zrodlo": "Konstytucja RP, art. 63"
+    },
+    {
+     "id": "f041",
+     "przod": "Wyjaśnij pojęcie: zgromadzenie",
+     "tyl": "Zgrupowanie osób na otwartej przestrzeni dostępnej dla nieokreślonych imiennie osób w celu wspólnych obrad lub wyrażenia stanowiska w sprawach publicznych.",
+     "zrodlo": "Konstytucja RP, art. 57"
+    },
+    {
+     "id": "f042",
+     "przod": "Podaj nazwę pojęcia: Zgrupowanie osób na otwartej przestrzeni dostępnej dla nieokreślonych imiennie osób w celu wspólnych obrad lub wyrażenia stanowiska w sprawach publicznych.",
+     "tyl": "zgromadzenie",
+     "zrodlo": "Konstytucja RP, art. 57"
+    },
+    {
+     "id": "f043",
+     "przod": "Jak Konstytucja gwarantuje wolność zgromadzeń?",
+     "tyl": "Każdemu zapewnia się wolność organizowania pokojowych zgromadzeń i uczestniczenia w nich; ograniczenia może wprowadzić tylko ustawa.",
+     "zrodlo": "Konstytucja RP, art. 57"
+    },
+    {
+     "id": "f044",
+     "przod": "Wyjaśnij pojęcie: zgromadzenie spontaniczne",
+     "tyl": "Zgromadzenie odbywające się w związku z zaistniałym nagle, niemożliwym do wcześniejszego przewidzenia wydarzeniem, którego odbycie w innym terminie byłoby niecelowe — nie wymaga zawiadomienia.",
+     "zrodlo": "Konstytucja RP, art. 57"
+    },
+    {
+     "id": "f045",
+     "przod": "Podaj nazwę pojęcia: Zgromadzenie odbywające się w związku z zaistniałym nagle, niemożliwym do wcześniejszego przewidzenia wydarzeniem, którego odbycie w innym terminie byłoby niecelowe — nie wymaga zawiadomienia.",
+     "tyl": "zgromadzenie spontaniczne",
+     "zrodlo": "Konstytucja RP, art. 57"
+    },
+    {
+     "id": "f046",
+     "przod": "Kogo zawiadamia się o planowanym zgromadzeniu?",
+     "tyl": "Organ gminy (wójta, burmistrza, prezydenta miasta) — nie wcześniej niż 30 dni i nie później niż 6 dni przed planowaną datą; istnieje też tryb uproszczony (zawiadomienie co najmniej 2 dni przed).",
+     "zrodlo": "Konstytucja RP, art. 57"
+    },
+    {
+     "id": "f047",
+     "przod": "Wyjaśnij pojęcie: demonstracja",
+     "tyl": "Publiczne zgromadzenie lub przemarsz w celu wyrażenia poparcia lub sprzeciwu wobec określonych decyzji, polityki lub zjawisk.",
+     "zrodlo": "Konstytucja RP, art. 57"
+    },
+    {
+     "id": "f048",
+     "przod": "Podaj nazwę pojęcia: Publiczne zgromadzenie lub przemarsz w celu wyrażenia poparcia lub sprzeciwu wobec określonych decyzji, polityki lub zjawisk.",
+     "tyl": "demonstracja",
+     "zrodlo": "Konstytucja RP, art. 57"
+    },
+    {
+     "id": "f049",
+     "przod": "Wyjaśnij pojęcie: happening",
+     "tyl": "Forma protestu lub ekspresji o charakterze artystycznym, angażująca widzów (np. pomarańczowa alternatywa w PRL).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f050",
+     "przod": "Podaj nazwę pojęcia: Forma protestu lub ekspresji o charakterze artystycznym, angażująca widzów (np. pomarańczowa alternatywa w PRL).",
+     "tyl": "happening",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f051",
+     "przod": "Wyjaśnij pojęcie: bojkot",
+     "tyl": "Odmowa współpracy, udziału lub kupowania produktów jako forma protestu (np. bojkot wyborów, produktów).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f052",
+     "przod": "Podaj nazwę pojęcia: Odmowa współpracy, udziału lub kupowania produktów jako forma protestu (np. bojkot wyborów, produktów).",
+     "tyl": "bojkot",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f053",
+     "przod": "Wyjaśnij pojęcie: pikieta",
+     "tyl": "Forma protestu polegająca na stacjonarnym zgromadzeniu przed budynkiem instytucji z transparentami.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f054",
+     "przod": "Podaj nazwę pojęcia: Forma protestu polegająca na stacjonarnym zgromadzeniu przed budynkiem instytucji z transparentami.",
+     "tyl": "pikieta",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f055",
+     "przod": "Wyjaśnij pojęcie: e-partycypacja",
+     "tyl": "Udział obywateli w życiu publicznym za pomocą narzędzi internetowych (e-petycje, konsultacje online, głosowania w budżecie obywatelskim).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f056",
+     "przod": "Podaj nazwę pojęcia: Udział obywateli w życiu publicznym za pomocą narzędzi internetowych (e-petycje, konsultacje online, głosowania w budżecie obywatelskim).",
+     "tyl": "e-partycypacja",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f057",
+     "przod": "Wyjaśnij pojęcie: slaktywizm (klikalny aktywizm)",
+     "tyl": "Pozorna, mało angażująca aktywność obywatelska w internecie (np. lajkowanie, udostępnianie postów), niepociągająca za sobą realnych działań.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f058",
+     "przod": "Podaj nazwę pojęcia: Pozorna, mało angażująca aktywność obywatelska w internecie (np. lajkowanie, udostępnianie postów), niepociągająca za sobą realnych działań.",
+     "tyl": "slaktywizm (klikalny aktywizm)",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f059",
+     "przod": "Wyjaśnij pojęcie: zaufanie społeczne",
+     "tyl": "Przekonanie, że inni ludzie i instytucje będą działać uczciwie i zgodnie z oczekiwaniami; w Polsce zaufanie interpersonalne jest relatywnie niskie.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f060",
+     "przod": "Podaj nazwę pojęcia: Przekonanie, że inni ludzie i instytucje będą działać uczciwie i zgodnie z oczekiwaniami; w Polsce zaufanie interpersonalne jest relatywnie niskie.",
+     "tyl": "zaufanie społeczne",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f061",
+     "przod": "Wyjaśnij pojęcie: paradoks wyborczy (paradoks głosowania)",
+     "tyl": "Problem racjonalności udziału w wyborach — koszt głosowania może przewyższać szansę, że pojedynczy głos przesądzi o wyniku (A. Downs).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f062",
+     "przod": "Podaj nazwę pojęcia: Problem racjonalności udziału w wyborach — koszt głosowania może przewyższać szansę, że pojedynczy głos przesądzi o wyniku (A. Downs).",
+     "tyl": "paradoks wyborczy (paradoks głosowania)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f063",
+     "przod": "Wyjaśnij pojęcie: postawa obywatelska",
+     "tyl": "Postawa charakteryzująca się zainteresowaniem sprawami publicznymi, znajomością praw i obowiązków, odpowiedzialnością i gotowością do działania na rzecz wspólnoty.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f064",
+     "przod": "Podaj nazwę pojęcia: Postawa charakteryzująca się zainteresowaniem sprawami publicznymi, znajomością praw i obowiązków, odpowiedzialnością i gotowością do działania na rzecz wspólnoty.",
+     "tyl": "postawa obywatelska",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f065",
+     "przod": "Wyjaśnij pojęcie: postawa bierna (apatia polityczna)",
+     "tyl": "Brak zainteresowania i zaangażowania w sprawy publiczne i polityczne.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f066",
+     "przod": "Podaj nazwę pojęcia: Brak zainteresowania i zaangażowania w sprawy publiczne i polityczne.",
+     "tyl": "postawa bierna (apatia polityczna)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f067",
+     "przod": "Wyjaśnij pojęcie: alienacja polityczna",
+     "tyl": "Poczucie obcości wobec systemu politycznego i braku wpływu na decyzje władzy, prowadzące często do bierności.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f068",
+     "przod": "Podaj nazwę pojęcia: Poczucie obcości wobec systemu politycznego i braku wpływu na decyzje władzy, prowadzące często do bierności.",
+     "tyl": "alienacja polityczna",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f069",
+     "przod": "Wyjaśnij pojęcie: solidarność społeczna",
+     "tyl": "Postawa wzajemnego wspierania się członków społeczności, zwłaszcza w trudnych sytuacjach (np. pomoc uchodźcom, akcje charytatywne).",
+     "zrodlo": "Konstytucja RP, art. 20; PP ZP II"
+    },
+    {
+     "id": "f070",
+     "przod": "Podaj nazwę pojęcia: Postawa wzajemnego wspierania się członków społeczności, zwłaszcza w trudnych sytuacjach (np. pomoc uchodźcom, akcje charytatywne).",
+     "tyl": "solidarność społeczna",
+     "zrodlo": "Konstytucja RP, art. 20; PP ZP II"
+    },
+    {
+     "id": "f071",
+     "przod": "Jakie znaczenie dla społeczeństwa obywatelskiego miała „Solidarność” w PRL?",
+     "tyl": "NSZZ „Solidarność” (1980) był masowym, niezależnym ruchem społecznym (ok. 10 mln członków), który zorganizował społeczeństwo przeciw władzy komunistycznej i doprowadził do przemian 1989 r.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f072",
+     "przod": "Wyjaśnij pojęcie: Wielka Orkiestra Świątecznej Pomocy (WOŚP)",
+     "tyl": "Fundacja Jerzego Owsiaka organizująca od 1993 r. coroczną zbiórkę na zakup sprzętu medycznego — przykład masowej aktywności obywatelskiej.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f073",
+     "przod": "Podaj nazwę pojęcia: Fundacja Jerzego Owsiaka organizująca od 1993 r. coroczną zbiórkę na zakup sprzętu medycznego — przykład masowej aktywności obywatelskiej.",
+     "tyl": "Wielka Orkiestra Świątecznej Pomocy (WOŚP)",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Udział w budżecie obywatelskim to przykład:",
+     "odpowiedzi": [
+      "absencji wyborczej",
+      "alienacji politycznej",
+      "obywatelskiego nieposłuszeństwa",
+      "partycypacji społecznej"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Mieszkańcy decydują o części wydatków gminy.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Świadome, publiczne i pokojowe łamanie niesprawiedliwego prawa to:",
+     "odpowiedzi": [
+      "obywatelskie nieposłuszeństwo",
+      "bojkot",
+      "petycja",
+      "lobbing"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Przykładami są działania M. Gandhiego i M.L. Kinga.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Petycję należy rozpatrzyć w terminie:",
+     "odpowiedzi": [
+      "14 dni",
+      "nie później niż 3 miesięcy od jej złożenia",
+      "30 dni",
+      "6 miesięcy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Tak stanowi ustawa o petycjach.",
+     "zrodlo": "Konstytucja RP, art. 63"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Frekwencja w wyborach do Sejmu w 2023 r. wyniosła ok.:",
+     "odpowiedzi": [
+      "51%",
+      "74%",
+      "62%",
+      "43%"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Była to najwyższa frekwencja w historii III RP.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Które z obowiązków obywatela wynikają z Konstytucji RP?",
+     "odpowiedzi": [
+      "udział w wyborach",
+      "przynależność do partii",
+      "udział w referendum",
+      "wierność RP i obrona Ojczyzny"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Udział w wyborach jest prawem, nie obowiązkiem.",
+     "zrodlo": "Konstytucja RP, art. 82; Konstytucja RP, art. 85"
+    }
+   ]
+  },
+  {
+   "id": "obyw-organizacje",
+   "nazwa": "Organizacje pozarządowe, związki i trzeci sektor",
+   "opis": "Stowarzyszenia, fundacje, organizacje pożytku publicznego, związki zawodowe, kościoły, samorządy zawodowe, lobbing.",
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Wyjaśnij pojęcie: organizacja pozarządowa (NGO)",
+     "tyl": "Niezależna od administracji publicznej, niedziałająca w celu osiągnięcia zysku organizacja (np. stowarzyszenie, fundacja), tworzona przez obywateli.",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 3"
+    },
+    {
+     "id": "f002",
+     "przod": "Podaj nazwę pojęcia: Niezależna od administracji publicznej, niedziałająca w celu osiągnięcia zysku organizacja (np. stowarzyszenie, fundacja), tworzona przez obywateli.",
+     "tyl": "organizacja pozarządowa (NGO)",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 3"
+    },
+    {
+     "id": "f003",
+     "przod": "Wyjaśnij pojęcie: trzeci sektor",
+     "tyl": "Sektor organizacji pozarządowych, działających obok sektora publicznego (państwo) i prywatnego (biznes).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f004",
+     "przod": "Podaj nazwę pojęcia: Sektor organizacji pozarządowych, działających obok sektora publicznego (państwo) i prywatnego (biznes).",
+     "tyl": "trzeci sektor",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f005",
+     "przod": "Wyjaśnij pojęcie: stowarzyszenie",
+     "tyl": "Dobrowolne, samorządne, trwałe zrzeszenie o celach niezarobkowych, które samodzielnie określa swoje cele, programy działania i struktury; opiera działalność na pracy społecznej członków.",
+     "zrodlo": "Prawo o stowarzyszeniach, art. 2"
+    },
+    {
+     "id": "f006",
+     "przod": "Podaj nazwę pojęcia: Dobrowolne, samorządne, trwałe zrzeszenie o celach niezarobkowych, które samodzielnie określa swoje cele, programy działania i struktury; opiera działalność na pracy społecznej członków.",
+     "tyl": "stowarzyszenie",
+     "zrodlo": "Prawo o stowarzyszeniach, art. 2"
+    },
+    {
+     "id": "f007",
+     "przod": "Ile osób jest potrzebnych do założenia stowarzyszenia rejestrowego, a ile zwykłego?",
+     "tyl": "Stowarzyszenie rejestrowe — co najmniej 7 osób (wpis do KRS, osobowość prawna); stowarzyszenie zwykłe — co najmniej 3 osoby (wpis do ewidencji starosty, bez osobowości prawnej).",
+     "zrodlo": "Prawo o stowarzyszeniach, art. 9; Prawo o stowarzyszeniach, art. 40"
+    },
+    {
+     "id": "f008",
+     "przod": "Wyjaśnij pojęcie: stowarzyszenie zwykłe",
+     "tyl": "Uproszczona forma stowarzyszenia bez osobowości prawnej, zakładana przez co najmniej 3 osoby i wpisywana do ewidencji prowadzonej przez starostę.",
+     "zrodlo": "Prawo o stowarzyszeniach, art. 40"
+    },
+    {
+     "id": "f009",
+     "przod": "Podaj nazwę pojęcia: Uproszczona forma stowarzyszenia bez osobowości prawnej, zakładana przez co najmniej 3 osoby i wpisywana do ewidencji prowadzonej przez starostę.",
+     "tyl": "stowarzyszenie zwykłe",
+     "zrodlo": "Prawo o stowarzyszeniach, art. 40"
+    },
+    {
+     "id": "f010",
+     "przod": "Kto może założyć stowarzyszenie?",
+     "tyl": "Obywatele polscy mający pełną zdolność do czynności prawnych i niepozbawieni praw publicznych; małoletni 16–18 lat mogą należeć do stowarzyszeń (z ograniczeniami), młodsi — za zgodą rodziców.",
+     "zrodlo": "Prawo o stowarzyszeniach, art. 3"
+    },
+    {
+     "id": "f011",
+     "przod": "Jakie są organy stowarzyszenia rejestrowego?",
+     "tyl": "Walne zebranie członków (najwyższa władza), zarząd i organ kontroli wewnętrznej (komisja rewizyjna).",
+     "zrodlo": "Prawo o stowarzyszeniach, art. 11"
+    },
+    {
+     "id": "f012",
+     "przod": "Wyjaśnij pojęcie: fundacja",
+     "tyl": "Organizacja, której podstawą jest majątek przeznaczony przez fundatora na realizację celów społecznie lub gospodarczo użytecznych (np. ochrona zdrowia, nauka, kultura, pomoc społeczna).",
+     "zrodlo": "Ustawa o fundacjach, art. 1"
+    },
+    {
+     "id": "f013",
+     "przod": "Podaj nazwę pojęcia: Organizacja, której podstawą jest majątek przeznaczony przez fundatora na realizację celów społecznie lub gospodarczo użytecznych (np. ochrona zdrowia, nauka, kultura, pomoc społeczna).",
+     "tyl": "fundacja",
+     "zrodlo": "Ustawa o fundacjach, art. 1"
+    },
+    {
+     "id": "f014",
+     "przod": "Czym różni się fundacja od stowarzyszenia?",
+     "tyl": "Fundacja opiera się na majątku przekazanym przez fundatora i nie ma członków; stowarzyszenie to zrzeszenie osób (członków) opierające się na ich pracy społecznej.",
+     "zrodlo": "Ustawa o fundacjach, art. 1; Prawo o stowarzyszeniach, art. 2"
+    },
+    {
+     "id": "f015",
+     "przod": "Kto może być fundatorem?",
+     "tyl": "Osoba fizyczna (także cudzoziemiec) lub osoba prawna; fundację zakłada się aktem notarialnym lub w testamencie.",
+     "zrodlo": "Ustawa o fundacjach, art. 2; Ustawa o fundacjach, art. 3"
+    },
+    {
+     "id": "f016",
+     "przod": "Wyjaśnij pojęcie: organizacja pożytku publicznego (OPP)",
+     "tyl": "Organizacja pozarządowa prowadząca działalność pożytku publicznego co najmniej 2 lata, wpisana do KRS jako OPP; może otrzymywać 1,5% podatku dochodowego od osób fizycznych.",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 20; Ustawa o działalności pożytku publicznego i o wolontariacie, art. 27"
+    },
+    {
+     "id": "f017",
+     "przod": "Podaj nazwę pojęcia: Organizacja pozarządowa prowadząca działalność pożytku publicznego co najmniej 2 lata, wpisana do KRS jako OPP; może otrzymywać 1,5% podatku dochodowego od osób fizycznych.",
+     "tyl": "organizacja pożytku publicznego (OPP)",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 20; Ustawa o działalności pożytku publicznego i o wolontariacie, art. 27"
+    },
+    {
+     "id": "f018",
+     "przod": "Wyjaśnij pojęcie: 1,5% podatku",
+     "tyl": "Możliwość przekazania przez podatnika 1,5% (dawniej 1%) należnego podatku dochodowego na wybraną organizację pożytku publicznego.",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 27"
+    },
+    {
+     "id": "f019",
+     "przod": "Podaj nazwę pojęcia: Możliwość przekazania przez podatnika 1,5% (dawniej 1%) należnego podatku dochodowego na wybraną organizację pożytku publicznego.",
+     "tyl": "1,5% podatku",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 27"
+    },
+    {
+     "id": "f020",
+     "przod": "Wyjaśnij pojęcie: działalność pożytku publicznego",
+     "tyl": "Działalność społecznie użyteczna prowadzona przez organizacje pozarządowe w sferze zadań publicznych (np. pomoc społeczna, edukacja, ochrona zdrowia, kultura, ekologia).",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 3; Ustawa o działalności pożytku publicznego i o wolontariacie, art. 4"
+    },
+    {
+     "id": "f021",
+     "przod": "Podaj nazwę pojęcia: Działalność społecznie użyteczna prowadzona przez organizacje pozarządowe w sferze zadań publicznych (np. pomoc społeczna, edukacja, ochrona zdrowia, kultura, ekologia).",
+     "tyl": "działalność pożytku publicznego",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 3; Ustawa o działalności pożytku publicznego i o wolontariacie, art. 4"
+    },
+    {
+     "id": "f022",
+     "przod": "Wyjaśnij pojęcie: Fundusz Inicjatyw Obywatelskich (FIO)",
+     "tyl": "Rządowy program dotacyjny dla organizacji pozarządowych na projekty społeczne, prowadzony przez Narodowy Instytut Wolności.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f023",
+     "przod": "Podaj nazwę pojęcia: Rządowy program dotacyjny dla organizacji pozarządowych na projekty społeczne, prowadzony przez Narodowy Instytut Wolności.",
+     "tyl": "Fundusz Inicjatyw Obywatelskich (FIO)",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f024",
+     "przod": "Wyjaśnij pojęcie: Narodowy Instytut Wolności",
+     "tyl": "Agencja wykonawcza wspierająca rozwój społeczeństwa obywatelskiego i zarządzająca programami grantowymi dla NGO (np. FIO).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f025",
+     "przod": "Podaj nazwę pojęcia: Agencja wykonawcza wspierająca rozwój społeczeństwa obywatelskiego i zarządzająca programami grantowymi dla NGO (np. FIO).",
+     "tyl": "Narodowy Instytut Wolności",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f026",
+     "przod": "Wyjaśnij pojęcie: ruch społeczny",
+     "tyl": "Oddolna, mniej sformalizowana forma działalności zbiorowej, zmierzająca do wprowadzenia lub powstrzymania zmian społecznych (np. ruch ekologiczny, feministyczny).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f027",
+     "przod": "Podaj nazwę pojęcia: Oddolna, mniej sformalizowana forma działalności zbiorowej, zmierzająca do wprowadzenia lub powstrzymania zmian społecznych (np. ruch ekologiczny, feministyczny).",
+     "tyl": "ruch społeczny",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f028",
+     "przod": "Wyjaśnij pojęcie: grupa interesu",
+     "tyl": "Zorganizowana grupa dążąca do wpływania na decyzje władzy w celu ochrony określonych interesów (np. organizacje pracodawców, związki zawodowe, stowarzyszenia branżowe).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f029",
+     "przod": "Podaj nazwę pojęcia: Zorganizowana grupa dążąca do wpływania na decyzje władzy w celu ochrony określonych interesów (np. organizacje pracodawców, związki zawodowe, stowarzyszenia branżowe).",
+     "tyl": "grupa interesu",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f030",
+     "przod": "Wyjaśnij pojęcie: grupa nacisku",
+     "tyl": "Grupa interesu wywierająca presję na władzę (np. przez lobbing, protesty, kampanie medialne), ale niedążąca do przejęcia władzy (w odróżnieniu od partii).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f031",
+     "przod": "Podaj nazwę pojęcia: Grupa interesu wywierająca presję na władzę (np. przez lobbing, protesty, kampanie medialne), ale niedążąca do przejęcia władzy (w odróżnieniu od partii).",
+     "tyl": "grupa nacisku",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f032",
+     "przod": "Wyjaśnij pojęcie: lobbing",
+     "tyl": "Działania prowadzone metodami zgodnymi z prawem, zmierzające do wywarcia wpływu na organy władzy publicznej w procesie stanowienia prawa.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f033",
+     "przod": "Podaj nazwę pojęcia: Działania prowadzone metodami zgodnymi z prawem, zmierzające do wywarcia wpływu na organy władzy publicznej w procesie stanowienia prawa.",
+     "tyl": "lobbing",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f034",
+     "przod": "Wyjaśnij pojęcie: lobbing zawodowy",
+     "tyl": "Zarobkowa działalność lobbingowa prowadzona na rzecz osób trzecich, wymagająca wpisu do rejestru prowadzonego przez ministra właściwego do spraw administracji.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f035",
+     "przod": "Podaj nazwę pojęcia: Zarobkowa działalność lobbingowa prowadzona na rzecz osób trzecich, wymagająca wpisu do rejestru prowadzonego przez ministra właściwego do spraw administracji.",
+     "tyl": "lobbing zawodowy",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f036",
+     "przod": "Wyjaśnij pojęcie: think tank",
+     "tyl": "Ośrodek analityczny (instytut badawczy) przygotowujący ekspertyzy i propozycje polityk publicznych (np. Fundacja Batorego, Ośrodek Studiów Wschodnich).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f037",
+     "przod": "Podaj nazwę pojęcia: Ośrodek analityczny (instytut badawczy) przygotowujący ekspertyzy i propozycje polityk publicznych (np. Fundacja Batorego, Ośrodek Studiów Wschodnich).",
+     "tyl": "think tank",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f038",
+     "przod": "Wyjaśnij pojęcie: związek zawodowy (w społeczeństwie obywatelskim)",
+     "tyl": "Organizacja pracowników reprezentująca i broniąca ich praw i interesów zawodowych oraz socjalnych; do założenia potrzeba co najmniej 10 osób.",
+     "zrodlo": "Konstytucja RP, art. 59"
+    },
+    {
+     "id": "f039",
+     "przod": "Podaj nazwę pojęcia: Organizacja pracowników reprezentująca i broniąca ich praw i interesów zawodowych oraz socjalnych; do założenia potrzeba co najmniej 10 osób.",
+     "tyl": "związek zawodowy (w społeczeństwie obywatelskim)",
+     "zrodlo": "Konstytucja RP, art. 59"
+    },
+    {
+     "id": "f040",
+     "przod": "Jakie są największe centrale związkowe w Polsce?",
+     "tyl": "NSZZ „Solidarność”, Ogólnopolskie Porozumienie Związków Zawodowych (OPZZ) i Forum Związków Zawodowych (FZZ).",
+     "zrodlo": "Konstytucja RP, art. 59"
+    },
+    {
+     "id": "f041",
+     "przod": "Wyjaśnij pojęcie: organizacje pracodawców",
+     "tyl": "Organizacje reprezentujące interesy pracodawców (np. Lewiatan, Pracodawcy RP, Business Centre Club), uczestniczące w dialogu społecznym.",
+     "zrodlo": "Konstytucja RP, art. 59"
+    },
+    {
+     "id": "f042",
+     "przod": "Podaj nazwę pojęcia: Organizacje reprezentujące interesy pracodawców (np. Lewiatan, Pracodawcy RP, Business Centre Club), uczestniczące w dialogu społecznym.",
+     "tyl": "organizacje pracodawców",
+     "zrodlo": "Konstytucja RP, art. 59"
+    },
+    {
+     "id": "f043",
+     "przod": "Wyjaśnij pojęcie: samorząd zawodowy",
+     "tyl": "Samorząd reprezentujący osoby wykonujące zawody zaufania publicznego (np. lekarzy, adwokatów, notariuszy), sprawujący pieczę nad należytym wykonywaniem zawodu.",
+     "zrodlo": "Konstytucja RP, art. 17 ust. 1"
+    },
+    {
+     "id": "f044",
+     "przod": "Podaj nazwę pojęcia: Samorząd reprezentujący osoby wykonujące zawody zaufania publicznego (np. lekarzy, adwokatów, notariuszy), sprawujący pieczę nad należytym wykonywaniem zawodu.",
+     "tyl": "samorząd zawodowy",
+     "zrodlo": "Konstytucja RP, art. 17 ust. 1"
+    },
+    {
+     "id": "f045",
+     "przod": "Wyjaśnij pojęcie: samorząd gospodarczy",
+     "tyl": "Samorząd przedsiębiorców (np. izby gospodarcze, izby rzemieślnicze) reprezentujący ich interesy.",
+     "zrodlo": "Konstytucja RP, art. 17 ust. 2"
+    },
+    {
+     "id": "f046",
+     "przod": "Podaj nazwę pojęcia: Samorząd przedsiębiorców (np. izby gospodarcze, izby rzemieślnicze) reprezentujący ich interesy.",
+     "tyl": "samorząd gospodarczy",
+     "zrodlo": "Konstytucja RP, art. 17 ust. 2"
+    },
+    {
+     "id": "f047",
+     "przod": "Wyjaśnij pojęcie: kościoły i związki wyznaniowe (w społeczeństwie obywatelskim)",
+     "tyl": "Wspólnoty religijne, które oprócz działalności religijnej prowadzą działalność charytatywną (np. Caritas), edukacyjną i kulturalną.",
+     "zrodlo": "Konstytucja RP, art. 25"
+    },
+    {
+     "id": "f048",
+     "przod": "Podaj nazwę pojęcia: Wspólnoty religijne, które oprócz działalności religijnej prowadzą działalność charytatywną (np. Caritas), edukacyjną i kulturalną.",
+     "tyl": "kościoły i związki wyznaniowe (w społeczeństwie obywatelskim)",
+     "zrodlo": "Konstytucja RP, art. 25"
+    },
+    {
+     "id": "f049",
+     "przod": "Wyjaśnij pojęcie: Caritas Polska",
+     "tyl": "Instytucja charytatywna Konferencji Episkopatu Polski prowadząca pomoc potrzebującym w kraju i za granicą.",
+     "zrodlo": "Konstytucja RP, art. 25"
+    },
+    {
+     "id": "f050",
+     "przod": "Podaj nazwę pojęcia: Instytucja charytatywna Konferencji Episkopatu Polski prowadząca pomoc potrzebującym w kraju i za granicą.",
+     "tyl": "Caritas Polska",
+     "zrodlo": "Konstytucja RP, art. 25"
+    },
+    {
+     "id": "f051",
+     "przod": "Wyjaśnij pojęcie: Rada Działalności Pożytku Publicznego",
+     "tyl": "Organ konsultacyjny i opiniodawczy przy ministrze właściwym ds. zabezpieczenia społecznego, złożony z przedstawicieli administracji i NGO.",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 35"
+    },
+    {
+     "id": "f052",
+     "przod": "Podaj nazwę pojęcia: Organ konsultacyjny i opiniodawczy przy ministrze właściwym ds. zabezpieczenia społecznego, złożony z przedstawicieli administracji i NGO.",
+     "tyl": "Rada Działalności Pożytku Publicznego",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 35"
+    },
+    {
+     "id": "f053",
+     "przod": "Wyjaśnij pojęcie: rada działalności pożytku publicznego (gminna)",
+     "tyl": "Organ konsultacyjny gminy, w którym zasiadają przedstawiciele samorządu i organizacji pozarządowych.",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 41e"
+    },
+    {
+     "id": "f054",
+     "przod": "Podaj nazwę pojęcia: Organ konsultacyjny gminy, w którym zasiadają przedstawiciele samorządu i organizacji pozarządowych.",
+     "tyl": "rada działalności pożytku publicznego (gminna)",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 41e"
+    },
+    {
+     "id": "f055",
+     "przod": "Wyjaśnij pojęcie: program współpracy z organizacjami pozarządowymi",
+     "tyl": "Coroczny program uchwalany przez organ stanowiący samorządu, określający zasady współpracy (np. zlecanie zadań, konkursy dotacyjne).",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 5a"
+    },
+    {
+     "id": "f056",
+     "przod": "Podaj nazwę pojęcia: Coroczny program uchwalany przez organ stanowiący samorządu, określający zasady współpracy (np. zlecanie zadań, konkursy dotacyjne).",
+     "tyl": "program współpracy z organizacjami pozarządowymi",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 5a"
+    },
+    {
+     "id": "f057",
+     "przod": "Wyjaśnij pojęcie: zasady współpracy administracji z NGO",
+     "tyl": "Pomocniczość, suwerenność stron, partnerstwo, efektywność, uczciwa konkurencja i jawność.",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 5 ust. 3"
+    },
+    {
+     "id": "f058",
+     "przod": "Podaj nazwę pojęcia: Pomocniczość, suwerenność stron, partnerstwo, efektywność, uczciwa konkurencja i jawność.",
+     "tyl": "zasady współpracy administracji z NGO",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 5 ust. 3"
+    },
+    {
+     "id": "f059",
+     "przod": "Wyjaśnij pojęcie: Krajowy Rejestr Sądowy (rejestr stowarzyszeń)",
+     "tyl": "Rejestr prowadzony przez sądy rejonowe, w którym wpisywane są m.in. stowarzyszenia rejestrowe, fundacje i OPP.",
+     "zrodlo": "Prawo o stowarzyszeniach, art. 8"
+    },
+    {
+     "id": "f060",
+     "przod": "Podaj nazwę pojęcia: Rejestr prowadzony przez sądy rejonowe, w którym wpisywane są m.in. stowarzyszenia rejestrowe, fundacje i OPP.",
+     "tyl": "Krajowy Rejestr Sądowy (rejestr stowarzyszeń)",
+     "zrodlo": "Prawo o stowarzyszeniach, art. 8"
+    },
+    {
+     "id": "f061",
+     "przod": "Wyjaśnij pojęcie: nadzór nad stowarzyszeniami",
+     "tyl": "Sprawuje go wojewoda (dla stowarzyszeń jednostek samorządu) lub starosta (dla pozostałych); w razie naruszeń sąd może rozwiązać stowarzyszenie.",
+     "zrodlo": "Prawo o stowarzyszeniach, art. 8; Prawo o stowarzyszeniach, art. 29"
+    },
+    {
+     "id": "f062",
+     "przod": "Podaj nazwę pojęcia: Sprawuje go wojewoda (dla stowarzyszeń jednostek samorządu) lub starosta (dla pozostałych); w razie naruszeń sąd może rozwiązać stowarzyszenie.",
+     "tyl": "nadzór nad stowarzyszeniami",
+     "zrodlo": "Prawo o stowarzyszeniach, art. 8; Prawo o stowarzyszeniach, art. 29"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Do założenia stowarzyszenia rejestrowego potrzeba co najmniej:",
+     "odpowiedzi": [
+      "7 osób",
+      "3 osób",
+      "10 osób",
+      "15 osób"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Stowarzyszenie zwykłe zakłada co najmniej 3 osoby.",
+     "zrodlo": "Prawo o stowarzyszeniach, art. 9"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Organizacja, której podstawą jest majątek przeznaczony przez założyciela na cele społecznie użyteczne, to:",
+     "odpowiedzi": [
+      "stowarzyszenie",
+      "związek zawodowy",
+      "fundacja",
+      "partia polityczna"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Fundacja nie ma członków.",
+     "zrodlo": "Ustawa o fundacjach, art. 1"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Podatnik może przekazać część podatku dochodowego na:",
+     "odpowiedzi": [
+      "organizację pożytku publicznego",
+      "dowolną partię polityczną",
+      "związek zawodowy",
+      "dowolną spółkę"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Obecnie jest to 1,5% podatku.",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 27"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Grupa interesu, która wywiera presję na władzę, ale nie dąży do jej przejęcia, to:",
+     "odpowiedzi": [
+      "grupa nacisku",
+      "partia polityczna",
+      "koalicja rządowa",
+      "komisja sejmowa"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Partia dąży do zdobycia władzy.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Organizacją pozarządową NIE jest:",
+     "odpowiedzi": [
+      "stowarzyszenie",
+      "fundacja",
+      "stowarzyszenie zwykłe",
+      "spółka akcyjna"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "NGO nie działa w celu osiągnięcia zysku.",
+     "zrodlo": "Ustawa o działalności pożytku publicznego i o wolontariacie, art. 3"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Samorząd zawodowy reprezentuje osoby wykonujące:",
+     "odpowiedzi": [
+      "zawody wymagające wyższego wykształcenia",
+      "działalność gospodarczą",
+      "zawody zaufania publicznego",
+      "pracę w administracji"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Tak stanowi art. 17 ust. 1 Konstytucji.",
+     "zrodlo": "Konstytucja RP, art. 17"
+    }
+   ]
+  },
+  {
+   "id": "obyw-media",
+   "nazwa": "Media i opinia publiczna",
+   "opis": "Funkcje mediów, rynek mediów w Polsce, wolność prasy, manipulacja i dezinformacja, sondaże i opinia publiczna.",
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Wyjaśnij pojęcie: środki masowego przekazu (media)",
+     "tyl": "Instrumenty przekazywania informacji do szerokiego, zróżnicowanego odbiorcy: prasa, radio, telewizja, internet.",
+     "zrodlo": "Konstytucja RP, art. 14"
+    },
+    {
+     "id": "f002",
+     "przod": "Podaj nazwę pojęcia: Instrumenty przekazywania informacji do szerokiego, zróżnicowanego odbiorcy: prasa, radio, telewizja, internet.",
+     "tyl": "środki masowego przekazu (media)",
+     "zrodlo": "Konstytucja RP, art. 14"
+    },
+    {
+     "id": "f003",
+     "przod": "Jakie funkcje pełnią media w państwie demokratycznym?",
+     "tyl": "Informacyjną, kontrolną (tzw. czwarta władza — kontrola władzy), opiniotwórczą, edukacyjną, integracyjną, rozrywkową, socjalizacyjną, mobilizacyjną (np. do udziału w wyborach) i reklamową.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f004",
+     "przod": "Wyjaśnij pojęcie: czwarta władza",
+     "tyl": "Określenie mediów jako siły kontrolującej władzę ustawodawczą, wykonawczą i sądowniczą przez ujawnianie nadużyć i informowanie opinii publicznej.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f005",
+     "przod": "Podaj nazwę pojęcia: Określenie mediów jako siły kontrolującej władzę ustawodawczą, wykonawczą i sądowniczą przez ujawnianie nadużyć i informowanie opinii publicznej.",
+     "tyl": "czwarta władza",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f006",
+     "przod": "Wyjaśnij pojęcie: dziennikarstwo śledcze",
+     "tyl": "Rodzaj dziennikarstwa polegający na długotrwałym zbieraniu informacji w celu ujawnienia nadużyć, afer, korupcji (np. afera Watergate, afera Rywina).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f007",
+     "przod": "Podaj nazwę pojęcia: Rodzaj dziennikarstwa polegający na długotrwałym zbieraniu informacji w celu ujawnienia nadużyć, afer, korupcji (np. afera Watergate, afera Rywina).",
+     "tyl": "dziennikarstwo śledcze",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f008",
+     "przod": "Wyjaśnij pojęcie: afera Watergate",
+     "tyl": "Skandal w USA (1972–1974) ujawniony przez dziennikarzy „Washington Post” — doprowadził do rezygnacji prezydenta R. Nixona.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f009",
+     "przod": "Podaj nazwę pojęcia: Skandal w USA (1972–1974) ujawniony przez dziennikarzy „Washington Post” — doprowadził do rezygnacji prezydenta R. Nixona.",
+     "tyl": "afera Watergate",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f010",
+     "przod": "Wyjaśnij pojęcie: afera Rywina",
+     "tyl": "Afera korupcyjna ujawniona w 2002 r. przez „Gazetę Wyborczą” (propozycja łapówki w zamian za korzystne zapisy ustawy medialnej), badana przez pierwszą sejmową komisję śledczą.",
+     "zrodlo": "Konstytucja RP, art. 111"
+    },
+    {
+     "id": "f011",
+     "przod": "Podaj nazwę pojęcia: Afera korupcyjna ujawniona w 2002 r. przez „Gazetę Wyborczą” (propozycja łapówki w zamian za korzystne zapisy ustawy medialnej), badana przez pierwszą sejmową komisję śledczą.",
+     "tyl": "afera Rywina",
+     "zrodlo": "Konstytucja RP, art. 111"
+    },
+    {
+     "id": "f012",
+     "przod": "Wyjaśnij pojęcie: media publiczne",
+     "tyl": "Media finansowane częściowo ze środków publicznych (abonament, dotacje), mające realizować misję publiczną (TVP, Polskie Radio).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f013",
+     "przod": "Podaj nazwę pojęcia: Media finansowane częściowo ze środków publicznych (abonament, dotacje), mające realizować misję publiczną (TVP, Polskie Radio).",
+     "tyl": "media publiczne",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f014",
+     "przod": "Wyjaśnij pojęcie: misja publiczna mediów",
+     "tyl": "Obowiązek oferowania przez media publiczne zróżnicowanych, rzetelnych i pluralistycznych programów służących całemu społeczeństwu (informacja, kultura, edukacja).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f015",
+     "przod": "Podaj nazwę pojęcia: Obowiązek oferowania przez media publiczne zróżnicowanych, rzetelnych i pluralistycznych programów służących całemu społeczeństwu (informacja, kultura, edukacja).",
+     "tyl": "misja publiczna mediów",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f016",
+     "przod": "Wyjaśnij pojęcie: media komercyjne",
+     "tyl": "Media prywatne, finansowane głównie z reklam, nastawione na zysk (np. TVN, Polsat, RMF FM).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f017",
+     "przod": "Podaj nazwę pojęcia: Media prywatne, finansowane głównie z reklam, nastawione na zysk (np. TVN, Polsat, RMF FM).",
+     "tyl": "media komercyjne",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f018",
+     "przod": "Wyjaśnij pojęcie: media społecznościowe",
+     "tyl": "Platformy internetowe umożliwiające użytkownikom tworzenie i wymianę treści (np. Facebook, X, Instagram, TikTok, YouTube).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f019",
+     "przod": "Podaj nazwę pojęcia: Platformy internetowe umożliwiające użytkownikom tworzenie i wymianę treści (np. Facebook, X, Instagram, TikTok, YouTube).",
+     "tyl": "media społecznościowe",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f020",
+     "przod": "Wyjaśnij pojęcie: dziennikarstwo obywatelskie",
+     "tyl": "Tworzenie i publikowanie informacji przez osoby niebędące zawodowymi dziennikarzami (blogi, relacje w mediach społecznościowych).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f021",
+     "przod": "Podaj nazwę pojęcia: Tworzenie i publikowanie informacji przez osoby niebędące zawodowymi dziennikarzami (blogi, relacje w mediach społecznościowych).",
+     "tyl": "dziennikarstwo obywatelskie",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f022",
+     "przod": "Wyjaśnij pojęcie: wolność prasy",
+     "tyl": "Prawo do swobodnego zbierania i publikowania informacji oraz wyrażania opinii przez media, bez cenzury prewencyjnej.",
+     "zrodlo": "Konstytucja RP, art. 14; Konstytucja RP, art. 54"
+    },
+    {
+     "id": "f023",
+     "przod": "Podaj nazwę pojęcia: Prawo do swobodnego zbierania i publikowania informacji oraz wyrażania opinii przez media, bez cenzury prewencyjnej.",
+     "tyl": "wolność prasy",
+     "zrodlo": "Konstytucja RP, art. 14; Konstytucja RP, art. 54"
+    },
+    {
+     "id": "f024",
+     "przod": "Jak Konstytucja RP reguluje cenzurę?",
+     "tyl": "Cenzura prewencyjna środków społecznego przekazu oraz koncesjonowanie prasy są zakazane; ustawa może wprowadzić obowiązek uprzedniego uzyskania koncesji dla stacji radiowej lub telewizyjnej.",
+     "zrodlo": "Konstytucja RP, art. 54 ust. 2"
+    },
+    {
+     "id": "f025",
+     "przod": "Wyjaśnij pojęcie: cenzura prewencyjna",
+     "tyl": "Kontrola treści przed ich publikacją przez organ państwowy, który może zakazać rozpowszechniania; w Polsce zakazana.",
+     "zrodlo": "Konstytucja RP, art. 54 ust. 2"
+    },
+    {
+     "id": "f026",
+     "przod": "Podaj nazwę pojęcia: Kontrola treści przed ich publikacją przez organ państwowy, który może zakazać rozpowszechniania; w Polsce zakazana.",
+     "tyl": "cenzura prewencyjna",
+     "zrodlo": "Konstytucja RP, art. 54 ust. 2"
+    },
+    {
+     "id": "f027",
+     "przod": "Wyjaśnij pojęcie: tajemnica dziennikarska",
+     "tyl": "Obowiązek i prawo dziennikarza do zachowania w tajemnicy danych pozwalających zidentyfikować informatora.",
+     "zrodlo": "Prawo prasowe, art. 15"
+    },
+    {
+     "id": "f028",
+     "przod": "Podaj nazwę pojęcia: Obowiązek i prawo dziennikarza do zachowania w tajemnicy danych pozwalających zidentyfikować informatora.",
+     "tyl": "tajemnica dziennikarska",
+     "zrodlo": "Prawo prasowe, art. 15"
+    },
+    {
+     "id": "f029",
+     "przod": "Wyjaśnij pojęcie: autoryzacja",
+     "tyl": "Prawo osoby udzielającej wywiadu do zatwierdzenia dosłownie cytowanej wypowiedzi przed publikacją.",
+     "zrodlo": "Prawo prasowe, art. 14"
+    },
+    {
+     "id": "f030",
+     "przod": "Podaj nazwę pojęcia: Prawo osoby udzielającej wywiadu do zatwierdzenia dosłownie cytowanej wypowiedzi przed publikacją.",
+     "tyl": "autoryzacja",
+     "zrodlo": "Prawo prasowe, art. 14"
+    },
+    {
+     "id": "f031",
+     "przod": "Wyjaśnij pojęcie: sprostowanie prasowe",
+     "tyl": "Obowiązek opublikowania przez redaktora naczelnego rzeczowej odpowiedzi na nieprawdziwą lub nieścisłą informację prasową.",
+     "zrodlo": "Prawo prasowe, art. 31"
+    },
+    {
+     "id": "f032",
+     "przod": "Podaj nazwę pojęcia: Obowiązek opublikowania przez redaktora naczelnego rzeczowej odpowiedzi na nieprawdziwą lub nieścisłą informację prasową.",
+     "tyl": "sprostowanie prasowe",
+     "zrodlo": "Prawo prasowe, art. 31"
+    },
+    {
+     "id": "f033",
+     "przod": "Wyjaśnij pojęcie: koncesja nadawcza",
+     "tyl": "Zezwolenie na rozpowszechnianie programu radiowego lub telewizyjnego wydawane przez Przewodniczącego KRRiT.",
+     "zrodlo": "Konstytucja RP, art. 54 ust. 2; Konstytucja RP, art. 213"
+    },
+    {
+     "id": "f034",
+     "przod": "Podaj nazwę pojęcia: Zezwolenie na rozpowszechnianie programu radiowego lub telewizyjnego wydawane przez Przewodniczącego KRRiT.",
+     "tyl": "koncesja nadawcza",
+     "zrodlo": "Konstytucja RP, art. 54 ust. 2; Konstytucja RP, art. 213"
+    },
+    {
+     "id": "f035",
+     "przod": "Wyjaśnij pojęcie: Indeks Wolności Prasy (Reporterzy bez Granic)",
+     "tyl": "Coroczny ranking wolności mediów w państwach świata publikowany przez organizację Reporterzy bez Granic.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f036",
+     "przod": "Podaj nazwę pojęcia: Coroczny ranking wolności mediów w państwach świata publikowany przez organizację Reporterzy bez Granic.",
+     "tyl": "Indeks Wolności Prasy (Reporterzy bez Granic)",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f037",
+     "przod": "Wyjaśnij pojęcie: manipulacja",
+     "tyl": "Wywieranie wpływu na odbiorcę w sposób ukryty, bez jego świadomości, w celu skłonienia go do określonych zachowań lub opinii.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f038",
+     "przod": "Podaj nazwę pojęcia: Wywieranie wpływu na odbiorcę w sposób ukryty, bez jego świadomości, w celu skłonienia go do określonych zachowań lub opinii.",
+     "tyl": "manipulacja",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f039",
+     "przod": "Jakie są techniki manipulacji w mediach?",
+     "tyl": "Selekcja i pomijanie informacji, wyrywanie wypowiedzi z kontekstu, tendencyjne tytuły, nacechowane emocjonalnie słownictwo, dobór zdjęć i ujęć, nieuprawnione uogólnienia, fałszywe autorytety, powtarzanie kłamstwa, zmanipulowane wykresy.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f040",
+     "przod": "Wyjaśnij pojęcie: dezinformacja",
+     "tyl": "Celowe rozpowszechnianie nieprawdziwych lub zmanipulowanych informacji w celu wprowadzenia odbiorców w błąd (np. przez obce państwa).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f041",
+     "przod": "Podaj nazwę pojęcia: Celowe rozpowszechnianie nieprawdziwych lub zmanipulowanych informacji w celu wprowadzenia odbiorców w błąd (np. przez obce państwa).",
+     "tyl": "dezinformacja",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f042",
+     "przod": "Wyjaśnij pojęcie: fake news",
+     "tyl": "Fałszywa wiadomość podawana jako prawdziwa, często rozpowszechniana w internecie w celu manipulacji lub zysku.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f043",
+     "przod": "Podaj nazwę pojęcia: Fałszywa wiadomość podawana jako prawdziwa, często rozpowszechniana w internecie w celu manipulacji lub zysku.",
+     "tyl": "fake news",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f044",
+     "przod": "Wyjaśnij pojęcie: deepfake",
+     "tyl": "Sfałszowany za pomocą sztucznej inteligencji materiał wideo lub audio, przedstawiający osobę mówiącą lub robiącą coś, czego nie zrobiła.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f045",
+     "przod": "Podaj nazwę pojęcia: Sfałszowany za pomocą sztucznej inteligencji materiał wideo lub audio, przedstawiający osobę mówiącą lub robiącą coś, czego nie zrobiła.",
+     "tyl": "deepfake",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f046",
+     "przod": "Wyjaśnij pojęcie: fact-checking",
+     "tyl": "Weryfikacja prawdziwości informacji i wypowiedzi publicznych (np. przez serwisy Demagog, OKO.press).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f047",
+     "przod": "Podaj nazwę pojęcia: Weryfikacja prawdziwości informacji i wypowiedzi publicznych (np. przez serwisy Demagog, OKO.press).",
+     "tyl": "fact-checking",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f048",
+     "przod": "Wyjaśnij pojęcie: clickbait",
+     "tyl": "Sensacyjny lub mylący tytuł mający skłonić do kliknięcia w link.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f049",
+     "przod": "Podaj nazwę pojęcia: Sensacyjny lub mylący tytuł mający skłonić do kliknięcia w link.",
+     "tyl": "clickbait",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f050",
+     "przod": "Wyjaśnij pojęcie: trolling",
+     "tyl": "Celowe prowokowanie w internecie, wywoływanie kłótni lub dezinformowanie; zorganizowane farmy trolli bywają wykorzystywane przez państwa do wojny informacyjnej.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f051",
+     "przod": "Podaj nazwę pojęcia: Celowe prowokowanie w internecie, wywoływanie kłótni lub dezinformowanie; zorganizowane farmy trolli bywają wykorzystywane przez państwa do wojny informacyjnej.",
+     "tyl": "trolling",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f052",
+     "przod": "Wyjaśnij pojęcie: propaganda",
+     "tyl": "Systematyczne, celowe oddziaływanie na postawy i poglądy odbiorców w interesie określonej grupy lub państwa, często z użyciem manipulacji.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f053",
+     "przod": "Podaj nazwę pojęcia: Systematyczne, celowe oddziaływanie na postawy i poglądy odbiorców w interesie określonej grupy lub państwa, często z użyciem manipulacji.",
+     "tyl": "propaganda",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f054",
+     "przod": "Wyjaśnij pojęcie: reklama polityczna",
+     "tyl": "Płatny przekaz promujący kandydata lub partię, zwłaszcza w kampanii wyborczej; w Polsce regulowana Kodeksem wyborczym (np. bezpłatny czas antenowy w mediach publicznych).",
+     "zrodlo": "Kodeks wyborczy, art. 117"
+    },
+    {
+     "id": "f055",
+     "przod": "Podaj nazwę pojęcia: Płatny przekaz promujący kandydata lub partię, zwłaszcza w kampanii wyborczej; w Polsce regulowana Kodeksem wyborczym (np. bezpłatny czas antenowy w mediach publicznych).",
+     "tyl": "reklama polityczna",
+     "zrodlo": "Kodeks wyborczy, art. 117"
+    },
+    {
+     "id": "f056",
+     "przod": "Wyjaśnij pojęcie: cisza wyborcza",
+     "tyl": "Zakaz prowadzenia agitacji wyborczej i publikowania sondaży od zakończenia kampanii (24 godziny przed dniem głosowania) do zamknięcia lokali wyborczych.",
+     "zrodlo": "Kodeks wyborczy, art. 107; Kodeks wyborczy, art. 115"
+    },
+    {
+     "id": "f057",
+     "przod": "Podaj nazwę pojęcia: Zakaz prowadzenia agitacji wyborczej i publikowania sondaży od zakończenia kampanii (24 godziny przed dniem głosowania) do zamknięcia lokali wyborczych.",
+     "tyl": "cisza wyborcza",
+     "zrodlo": "Kodeks wyborczy, art. 107; Kodeks wyborczy, art. 115"
+    },
+    {
+     "id": "f058",
+     "przod": "Wyjaśnij pojęcie: agitacja wyborcza",
+     "tyl": "Publiczne nakłanianie lub zachęcanie do głosowania w określony sposób, w szczególności do głosowania na kandydata lub komitet.",
+     "zrodlo": "Kodeks wyborczy, art. 105"
+    },
+    {
+     "id": "f059",
+     "przod": "Podaj nazwę pojęcia: Publiczne nakłanianie lub zachęcanie do głosowania w określony sposób, w szczególności do głosowania na kandydata lub komitet.",
+     "tyl": "agitacja wyborcza",
+     "zrodlo": "Kodeks wyborczy, art. 105"
+    },
+    {
+     "id": "f060",
+     "przod": "Wyjaśnij pojęcie: opinia publiczna",
+     "tyl": "Zbiór poglądów i ocen wyrażanych przez znaczną część społeczeństwa na temat spraw publicznych.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f061",
+     "przod": "Podaj nazwę pojęcia: Zbiór poglądów i ocen wyrażanych przez znaczną część społeczeństwa na temat spraw publicznych.",
+     "tyl": "opinia publiczna",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f062",
+     "przod": "Wyjaśnij pojęcie: sondaż",
+     "tyl": "Badanie opinii wybranej, reprezentatywnej grupy osób (próby), na podstawie którego wnioskuje się o poglądach całej populacji.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f063",
+     "przod": "Podaj nazwę pojęcia: Badanie opinii wybranej, reprezentatywnej grupy osób (próby), na podstawie którego wnioskuje się o poglądach całej populacji.",
+     "tyl": "sondaż",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f064",
+     "przod": "Wyjaśnij pojęcie: próba reprezentatywna",
+     "tyl": "Grupa osób dobranych do badania tak, aby odzwierciedlała strukturę całej populacji (np. wiek, płeć, wykształcenie, miejsce zamieszkania).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f065",
+     "przod": "Podaj nazwę pojęcia: Grupa osób dobranych do badania tak, aby odzwierciedlała strukturę całej populacji (np. wiek, płeć, wykształcenie, miejsce zamieszkania).",
+     "tyl": "próba reprezentatywna",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f066",
+     "przod": "Wyjaśnij pojęcie: exit poll",
+     "tyl": "Sondaż przeprowadzany wśród wyborców wychodzących z lokali wyborczych, publikowany po zamknięciu lokali.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f067",
+     "przod": "Podaj nazwę pojęcia: Sondaż przeprowadzany wśród wyborców wychodzących z lokali wyborczych, publikowany po zamknięciu lokali.",
+     "tyl": "exit poll",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f068",
+     "przod": "Wyjaśnij pojęcie: CBOS",
+     "tyl": "Centrum Badania Opinii Społecznej — fundacja prowadząca regularne badania opinii publicznej w Polsce.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f069",
+     "przod": "Podaj nazwę pojęcia: Centrum Badania Opinii Społecznej — fundacja prowadząca regularne badania opinii publicznej w Polsce.",
+     "tyl": "CBOS",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f070",
+     "przod": "Wyjaśnij pojęcie: efekt bandwagon (owczego pędu)",
+     "tyl": "Skłonność do popierania kandydata lub opinii, które według sondaży mają przewagę.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f071",
+     "przod": "Podaj nazwę pojęcia: Skłonność do popierania kandydata lub opinii, które według sondaży mają przewagę.",
+     "tyl": "efekt bandwagon (owczego pędu)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f072",
+     "przod": "Wyjaśnij pojęcie: efekt underdoga",
+     "tyl": "Skłonność do popierania kandydata przegrywającego w sondażach (współczucie dla słabszego).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f073",
+     "przod": "Podaj nazwę pojęcia: Skłonność do popierania kandydata przegrywającego w sondażach (współczucie dla słabszego).",
+     "tyl": "efekt underdoga",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f074",
+     "przod": "Wyjaśnij pojęcie: spin doctor",
+     "tyl": "Specjalista od marketingu politycznego i kreowania wizerunku, kształtujący przekaz polityków w mediach.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VII „Rywalizacja o władzę”"
+    },
+    {
+     "id": "f075",
+     "przod": "Podaj nazwę pojęcia: Specjalista od marketingu politycznego i kreowania wizerunku, kształtujący przekaz polityków w mediach.",
+     "tyl": "spin doctor",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VII „Rywalizacja o władzę”"
+    },
+    {
+     "id": "f076",
+     "przod": "Wyjaśnij pojęcie: marketing polityczny",
+     "tyl": "Zastosowanie metod marketingowych (badań, kreowania wizerunku, reklamy) w kampaniach i komunikacji politycznej.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VII „Rywalizacja o władzę”"
+    },
+    {
+     "id": "f077",
+     "przod": "Podaj nazwę pojęcia: Zastosowanie metod marketingowych (badań, kreowania wizerunku, reklamy) w kampaniach i komunikacji politycznej.",
+     "tyl": "marketing polityczny",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VII „Rywalizacja o władzę”"
+    },
+    {
+     "id": "f078",
+     "przod": "Wyjaśnij pojęcie: mediatyzacja polityki",
+     "tyl": "Zjawisko podporządkowywania polityki logice mediów (np. krótkie, efektowne przekazy, personalizacja).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VII „Rywalizacja o władzę”"
+    },
+    {
+     "id": "f079",
+     "przod": "Podaj nazwę pojęcia: Zjawisko podporządkowywania polityki logice mediów (np. krótkie, efektowne przekazy, personalizacja).",
+     "tyl": "mediatyzacja polityki",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VII „Rywalizacja o władzę”"
+    },
+    {
+     "id": "f080",
+     "przod": "Wyjaśnij pojęcie: tabloidyzacja",
+     "tyl": "Upodabnianie się mediów do tabloidów: sensacja, emocje, skandale i plotki zamiast rzetelnej informacji.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f081",
+     "przod": "Podaj nazwę pojęcia: Upodabnianie się mediów do tabloidów: sensacja, emocje, skandale i plotki zamiast rzetelnej informacji.",
+     "tyl": "tabloidyzacja",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f082",
+     "przod": "Wyjaśnij pojęcie: agenda setting (ustalanie agendy)",
+     "tyl": "Teoria, zgodnie z którą media decydują, o czym myślą odbiorcy, wybierając tematy i nadając im znaczenie.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f083",
+     "przod": "Podaj nazwę pojęcia: Teoria, zgodnie z którą media decydują, o czym myślą odbiorcy, wybierając tematy i nadając im znaczenie.",
+     "tyl": "agenda setting (ustalanie agendy)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f084",
+     "przod": "Wyjaśnij pojęcie: gatekeeping",
+     "tyl": "Selekcja informacji przez dziennikarzy i redakcje — decydowanie, które wiadomości trafią do odbiorców.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f085",
+     "przod": "Podaj nazwę pojęcia: Selekcja informacji przez dziennikarzy i redakcje — decydowanie, które wiadomości trafią do odbiorców.",
+     "tyl": "gatekeeping",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f086",
+     "przod": "Wyjaśnij pojęcie: postprawda",
+     "tyl": "Zjawisko, w którym obiektywne fakty mają mniejszy wpływ na opinię publiczną niż emocje i osobiste przekonania.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f087",
+     "przod": "Podaj nazwę pojęcia: Zjawisko, w którym obiektywne fakty mają mniejszy wpływ na opinię publiczną niż emocje i osobiste przekonania.",
+     "tyl": "postprawda",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f088",
+     "przod": "Wyjaśnij pojęcie: informacja a opinia",
+     "tyl": "Informacja przedstawia fakty możliwe do sprawdzenia; opinia (komentarz) wyraża ocenę lub stanowisko autora.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f089",
+     "przod": "Podaj nazwę pojęcia: Informacja przedstawia fakty możliwe do sprawdzenia; opinia (komentarz) wyraża ocenę lub stanowisko autora.",
+     "tyl": "informacja a opinia",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Funkcja mediów polegająca na kontrolowaniu władzy to funkcja:",
+     "odpowiedzi": [
+      "rozrywkowa",
+      "kontrolna",
+      "integracyjna",
+      "reklamowa"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Media określane są czwartą władzą.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Cenzura prewencyjna w Polsce jest:",
+     "odpowiedzi": [
+      "dopuszczalna w mediach publicznych",
+      "zakazana przez Konstytucję",
+      "prowadzona przez KRRiT",
+      "dopuszczalna w czasie kampanii wyborczej"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Zakaz wynika z art. 54 ust. 2.",
+     "zrodlo": "Konstytucja RP, art. 54 ust. 2"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Sondaż przeprowadzany wśród wyborców wychodzących z lokali wyborczych to:",
+     "odpowiedzi": [
+      "late poll",
+      "fact-checking",
+      "próba kwotowa",
+      "exit poll"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Wyniki exit poll publikuje się po zamknięciu lokali.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Teoria, wg której media decydują, o czym myślą odbiorcy, to:",
+     "odpowiedzi": [
+      "agenda setting",
+      "gatekeeping",
+      "efekt underdoga",
+      "spirala milczenia"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Media wybierają tematy i nadają im znaczenie.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Sfałszowany przez sztuczną inteligencję film przedstawiający polityka to:",
+     "odpowiedzi": [
+      "clickbait",
+      "exit poll",
+      "spin",
+      "deepfake"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Deepfake jest narzędziem dezinformacji.",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    }
+   ]
+  },
+  {
+   "id": "obyw-kultura-polityczna",
+   "nazwa": "Kultura polityczna i społeczność lokalna",
+   "opis": "Typy kultury politycznej, zaufanie do instytucji, społeczność lokalna i regionalna, regionalizm.",
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Wyjaśnij pojęcie: kultura polityczna",
+     "tyl": "Ogół postaw, wartości, przekonań i wzorów zachowań obywateli wobec polityki, władzy i instytucji politycznych.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f002",
+     "przod": "Podaj nazwę pojęcia: Ogół postaw, wartości, przekonań i wzorów zachowań obywateli wobec polityki, władzy i instytucji politycznych.",
+     "tyl": "kultura polityczna",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f003",
+     "przod": "Jakie typy kultury politycznej wyróżnili G. Almond i S. Verba?",
+     "tyl": "Zaściankową (parafiańską — brak zainteresowania polityką i wiedzy o niej), poddańczą (wiedza o systemie, ale bierność i podporządkowanie) i uczestniczącą (aktywne uczestnictwo); w praktyce występują typy mieszane (np. kultura obywatelska).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f004",
+     "przod": "Wyjaśnij pojęcie: kultura polityczna zaściankowa (parafiańska)",
+     "tyl": "Typ kultury, w którym obywatele nie interesują się polityką, mają o niej małą wiedzę i nie oczekują od władzy niczego.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f005",
+     "przod": "Podaj nazwę pojęcia: Typ kultury, w którym obywatele nie interesują się polityką, mają o niej małą wiedzę i nie oczekują od władzy niczego.",
+     "tyl": "kultura polityczna zaściankowa (parafiańska)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f006",
+     "przod": "Wyjaśnij pojęcie: kultura polityczna poddańcza",
+     "tyl": "Typ kultury, w którym obywatele znają system i oczekują od niego korzyści, ale są bierni i nie uczestniczą w decyzjach.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f007",
+     "przod": "Podaj nazwę pojęcia: Typ kultury, w którym obywatele znają system i oczekują od niego korzyści, ale są bierni i nie uczestniczą w decyzjach.",
+     "tyl": "kultura polityczna poddańcza",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f008",
+     "przod": "Wyjaśnij pojęcie: kultura polityczna uczestnicząca",
+     "tyl": "Typ kultury, w którym obywatele interesują się polityką, mają wiedzę i aktywnie uczestniczą w życiu politycznym.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f009",
+     "przod": "Podaj nazwę pojęcia: Typ kultury, w którym obywatele interesują się polityką, mają wiedzę i aktywnie uczestniczą w życiu politycznym.",
+     "tyl": "kultura polityczna uczestnicząca",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f010",
+     "przod": "Wyjaśnij pojęcie: kultura obywatelska (civic culture)",
+     "tyl": "Mieszany typ kultury politycznej, łączący elementy uczestniczące z poddańczymi i zaściankowymi, uznawany przez Almonda i Verbę za najkorzystniejszy dla stabilnej demokracji.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f011",
+     "przod": "Podaj nazwę pojęcia: Mieszany typ kultury politycznej, łączący elementy uczestniczące z poddańczymi i zaściankowymi, uznawany przez Almonda i Verbę za najkorzystniejszy dla stabilnej demokracji.",
+     "tyl": "kultura obywatelska (civic culture)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f012",
+     "przod": "Gabriel Almond i Sidney Verba — z jaką koncepcją lub dziełem kojarzysz tę postać?",
+     "tyl": "Autorzy klasycznej typologii kultury politycznej (zaściankowa, poddańcza, uczestnicząca) w książce „The Civic Culture” (1963).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f013",
+     "przod": "Kto jest autorem lub przedstawicielem? — Autorzy klasycznej typologii kultury politycznej (zaściankowa, poddańcza, uczestnicząca) w książce „The Civic Culture” (1963).",
+     "tyl": "Gabriel Almond i Sidney Verba",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f014",
+     "przod": "Wyjaśnij pojęcie: socjalizacja polityczna",
+     "tyl": "Proces nabywania wiedzy, postaw i wartości dotyczących polityki (w rodzinie, szkole, mediach, partiach).",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f015",
+     "przod": "Podaj nazwę pojęcia: Proces nabywania wiedzy, postaw i wartości dotyczących polityki (w rodzinie, szkole, mediach, partiach).",
+     "tyl": "socjalizacja polityczna",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f016",
+     "przod": "Wyjaśnij pojęcie: elektorat",
+     "tyl": "Ogół wyborców; elektorat danej partii — wyborcy głosujący na nią.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VII „Rywalizacja o władzę”"
+    },
+    {
+     "id": "f017",
+     "przod": "Podaj nazwę pojęcia: Ogół wyborców; elektorat danej partii — wyborcy głosujący na nią.",
+     "tyl": "elektorat",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VII „Rywalizacja o władzę”"
+    },
+    {
+     "id": "f018",
+     "przod": "Wyjaśnij pojęcie: elektorat negatywny",
+     "tyl": "Wyborcy, którzy w żadnym wypadku nie zagłosowaliby na danego kandydata lub partię.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VII „Rywalizacja o władzę”"
+    },
+    {
+     "id": "f019",
+     "przod": "Podaj nazwę pojęcia: Wyborcy, którzy w żadnym wypadku nie zagłosowaliby na danego kandydata lub partię.",
+     "tyl": "elektorat negatywny",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VII „Rywalizacja o władzę”"
+    },
+    {
+     "id": "f020",
+     "przod": "Wyjaśnij pojęcie: elektorat żelazny (twardy)",
+     "tyl": "Wyborcy trwale lojalni wobec danej partii, głosujący na nią niezależnie od okoliczności.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VII „Rywalizacja o władzę”"
+    },
+    {
+     "id": "f021",
+     "przod": "Podaj nazwę pojęcia: Wyborcy trwale lojalni wobec danej partii, głosujący na nią niezależnie od okoliczności.",
+     "tyl": "elektorat żelazny (twardy)",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VII „Rywalizacja o władzę”"
+    },
+    {
+     "id": "f022",
+     "przod": "Wyjaśnij pojęcie: elektorat płynny",
+     "tyl": "Wyborcy niezdecydowani lub zmieniający preferencje między kolejnymi wyborami.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VII „Rywalizacja o władzę”"
+    },
+    {
+     "id": "f023",
+     "przod": "Podaj nazwę pojęcia: Wyborcy niezdecydowani lub zmieniający preferencje między kolejnymi wyborami.",
+     "tyl": "elektorat płynny",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VII „Rywalizacja o władzę”"
+    },
+    {
+     "id": "f024",
+     "przod": "Wyjaśnij pojęcie: populizm",
+     "tyl": "Styl lub strategia polityczna przeciwstawiająca „uczciwy lud” „skorumpowanym elitom”, operująca prostymi rozwiązaniami złożonych problemów i odwołująca się do emocji.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f025",
+     "przod": "Podaj nazwę pojęcia: Styl lub strategia polityczna przeciwstawiająca „uczciwy lud” „skorumpowanym elitom”, operująca prostymi rozwiązaniami złożonych problemów i odwołująca się do emocji.",
+     "tyl": "populizm",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f026",
+     "przod": "Wyjaśnij pojęcie: polaryzacja polityczna",
+     "tyl": "Narastanie podziałów między obozami politycznymi i ich zwolennikami, połączone ze spadkiem zdolności do kompromisu.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f027",
+     "przod": "Podaj nazwę pojęcia: Narastanie podziałów między obozami politycznymi i ich zwolennikami, połączone ze spadkiem zdolności do kompromisu.",
+     "tyl": "polaryzacja polityczna",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f028",
+     "przod": "Wyjaśnij pojęcie: zaufanie do instytucji publicznych",
+     "tyl": "Poziom przekonania obywateli, że instytucje (np. Sejm, sądy, rząd, policja) działają uczciwie i skutecznie; w Polsce najwyższe zaufanie mają zwykle wojsko, policja i samorząd, najniższe — partie i parlament.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f029",
+     "przod": "Podaj nazwę pojęcia: Poziom przekonania obywateli, że instytucje (np. Sejm, sądy, rząd, policja) działają uczciwie i skutecznie; w Polsce najwyższe zaufanie mają zwykle wojsko, policja i samorząd, najniższe — partie i parlament.",
+     "tyl": "zaufanie do instytucji publicznych",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "f030",
+     "przod": "Wyjaśnij pojęcie: społeczność lokalna",
+     "tyl": "Mieszkańcy niewielkiego terytorium (wsi, osiedla, gminy) połączeni więziami sąsiedzkimi, wspólnymi sprawami i poczuciem przynależności.",
+     "zrodlo": "PP SP VI"
+    },
+    {
+     "id": "f031",
+     "przod": "Podaj nazwę pojęcia: Mieszkańcy niewielkiego terytorium (wsi, osiedla, gminy) połączeni więziami sąsiedzkimi, wspólnymi sprawami i poczuciem przynależności.",
+     "tyl": "społeczność lokalna",
+     "zrodlo": "PP SP VI"
+    },
+    {
+     "id": "f032",
+     "przod": "Wyjaśnij pojęcie: społeczność regionalna",
+     "tyl": "Mieszkańcy regionu połączeni wspólną historią, kulturą, tradycją, czasem gwarą lub językiem (np. Kaszubi, Ślązacy, górale).",
+     "zrodlo": "PP SP VII"
+    },
+    {
+     "id": "f033",
+     "przod": "Podaj nazwę pojęcia: Mieszkańcy regionu połączeni wspólną historią, kulturą, tradycją, czasem gwarą lub językiem (np. Kaszubi, Ślązacy, górale).",
+     "tyl": "społeczność regionalna",
+     "zrodlo": "PP SP VII"
+    },
+    {
+     "id": "f034",
+     "przod": "Wyjaśnij pojęcie: region",
+     "tyl": "Obszar wyodrębniony ze względu na cechy geograficzne, historyczne, kulturowe lub administracyjne (np. Kaszuby, Podhale, Warmia).",
+     "zrodlo": "PP SP VII"
+    },
+    {
+     "id": "f035",
+     "przod": "Podaj nazwę pojęcia: Obszar wyodrębniony ze względu na cechy geograficzne, historyczne, kulturowe lub administracyjne (np. Kaszuby, Podhale, Warmia).",
+     "tyl": "region",
+     "zrodlo": "PP SP VII"
+    },
+    {
+     "id": "f036",
+     "przod": "Wyjaśnij pojęcie: regionalizm",
+     "tyl": "Ruch społeczny dążący do zachowania i rozwoju kultury, tradycji i interesów regionu.",
+     "zrodlo": "PP SP VII"
+    },
+    {
+     "id": "f037",
+     "przod": "Podaj nazwę pojęcia: Ruch społeczny dążący do zachowania i rozwoju kultury, tradycji i interesów regionu.",
+     "tyl": "regionalizm",
+     "zrodlo": "PP SP VII"
+    },
+    {
+     "id": "f038",
+     "przod": "Wyjaśnij pojęcie: tożsamość regionalna",
+     "tyl": "Poczucie przynależności do regionu i identyfikacja z jego kulturą, tradycją i historią.",
+     "zrodlo": "PP SP VII"
+    },
+    {
+     "id": "f039",
+     "przod": "Podaj nazwę pojęcia: Poczucie przynależności do regionu i identyfikacja z jego kulturą, tradycją i historią.",
+     "tyl": "tożsamość regionalna",
+     "zrodlo": "PP SP VII"
+    },
+    {
+     "id": "f040",
+     "przod": "Wyjaśnij pojęcie: kultura regionalna",
+     "tyl": "Kultura typowa dla danego regionu: gwara, stroje, obrzędy, kuchnia, architektura, muzyka ludowa.",
+     "zrodlo": "PP SP VII"
+    },
+    {
+     "id": "f041",
+     "przod": "Podaj nazwę pojęcia: Kultura typowa dla danego regionu: gwara, stroje, obrzędy, kuchnia, architektura, muzyka ludowa.",
+     "tyl": "kultura regionalna",
+     "zrodlo": "PP SP VII"
+    },
+    {
+     "id": "f042",
+     "przod": "Jakie są przykłady regionów etnograficznych w Polsce?",
+     "tyl": "Kaszuby, Kurpie, Podhale, Śląsk, Kujawy, Warmia, Mazury, Łowickie, Podlasie, Łemkowszczyzna.",
+     "zrodlo": "PP SP VII"
+    },
+    {
+     "id": "f043",
+     "przod": "Wyjaśnij pojęcie: Euroregion",
+     "tyl": "Forma współpracy transgranicznej jednostek samorządu terytorialnego z różnych państw (np. Euroregion Nysa, Tatry, Pomerania).",
+     "zrodlo": "Konstytucja RP, art. 172"
+    },
+    {
+     "id": "f044",
+     "przod": "Podaj nazwę pojęcia: Forma współpracy transgranicznej jednostek samorządu terytorialnego z różnych państw (np. Euroregion Nysa, Tatry, Pomerania).",
+     "tyl": "Euroregion",
+     "zrodlo": "Konstytucja RP, art. 172"
+    },
+    {
+     "id": "f045",
+     "przod": "Wyjaśnij pojęcie: Fundusz Sołecki",
+     "tyl": "Środki wyodrębnione w budżecie gminy do dyspozycji sołectw, o których przeznaczeniu decyduje zebranie wiejskie.",
+     "zrodlo": "Ustawa o samorządzie gminnym, art. 5"
+    },
+    {
+     "id": "f046",
+     "przod": "Podaj nazwę pojęcia: Środki wyodrębnione w budżecie gminy do dyspozycji sołectw, o których przeznaczeniu decyduje zebranie wiejskie.",
+     "tyl": "Fundusz Sołecki",
+     "zrodlo": "Ustawa o samorządzie gminnym, art. 5"
+    },
+    {
+     "id": "f047",
+     "przod": "Wyjaśnij pojęcie: Koło Gospodyń Wiejskich",
+     "tyl": "Organizacja społeczna kobiet (i mężczyzn) na wsi, działająca na rzecz rozwoju lokalnego, kultury i tradycji; od 2018 r. może uzyskać osobowość prawną.",
+     "zrodlo": "PP SP VI"
+    },
+    {
+     "id": "f048",
+     "przod": "Podaj nazwę pojęcia: Organizacja społeczna kobiet (i mężczyzn) na wsi, działająca na rzecz rozwoju lokalnego, kultury i tradycji; od 2018 r. może uzyskać osobowość prawną.",
+     "tyl": "Koło Gospodyń Wiejskich",
+     "zrodlo": "PP SP VI"
+    },
+    {
+     "id": "f049",
+     "przod": "Wyjaśnij pojęcie: ochotnicza straż pożarna (OSP)",
+     "tyl": "Stowarzyszenie zrzeszające mieszkańców, prowadzące działalność ratowniczą i społeczną; jedna z najstarszych form aktywności lokalnej.",
+     "zrodlo": "PP SP VI"
+    },
+    {
+     "id": "f050",
+     "przod": "Podaj nazwę pojęcia: Stowarzyszenie zrzeszające mieszkańców, prowadzące działalność ratowniczą i społeczną; jedna z najstarszych form aktywności lokalnej.",
+     "tyl": "ochotnicza straż pożarna (OSP)",
+     "zrodlo": "PP SP VI"
+    },
+    {
+     "id": "f051",
+     "przod": "Wyjaśnij pojęcie: kampania społeczna",
+     "tyl": "Zorganizowane działania komunikacyjne (np. plakaty, spoty) mające zmienić postawy lub zachowania w sprawie społecznej (np. bezpieczeństwo na drodze, profilaktyka).",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    },
+    {
+     "id": "f052",
+     "przod": "Podaj nazwę pojęcia: Zorganizowane działania komunikacyjne (np. plakaty, spoty) mające zmienić postawy lub zachowania w sprawie społecznej (np. bezpieczeństwo na drodze, profilaktyka).",
+     "tyl": "kampania społeczna",
+     "zrodlo": "Podstawa programowa WOS, zakres podstawowy, dz. II „Społeczeństwo obywatelskie”"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Typ kultury politycznej, w którym obywatele znają system, ale są bierni, to kultura:",
+     "odpowiedzi": [
+      "zaściankowa",
+      "uczestnicząca",
+      "poddańcza",
+      "obywatelska"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Typologia G. Almonda i S. Verby.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Współpraca transgraniczna jednostek samorządu z różnych państw to:",
+     "odpowiedzi": [
+      "województwo",
+      "związek międzygminny",
+      "powiat ziemski",
+      "euroregion"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Przykładem jest Euroregion Nysa.",
+     "zrodlo": "Konstytucja RP, art. 172"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Wyborcy trwale lojalni wobec partii to elektorat:",
+     "odpowiedzi": [
+      "negatywny",
+      "płynny",
+      "żelazny",
+      "niezdecydowany"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Elektorat płynny zmienia preferencje.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VII „Rywalizacja o władzę”"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Strategia przeciwstawiająca „lud” „skorumpowanym elitom” to:",
+     "odpowiedzi": [
+      "liberalizm",
+      "technokracja",
+      "merytokracja",
+      "populizm"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Populizm odwołuje się do emocji i prostych rozwiązań.",
+     "zrodlo": "Podstawa programowa WOS, zakres rozszerzony, dz. VI „Społeczeństwo obywatelskie i kultura polityczna”"
+    }
+   ]
+  }
+ ]
+}
