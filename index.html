@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Kolumb — nauka do matury</title>
+  <meta name="description" content="Kolumb: fiszki z powtórkami rozłożonymi w czasie i testy ABCD do matury. Działa offline.">
+  <meta name="theme-color" content="#13274d">
+  <meta name="color-scheme" content="light dark">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Kolumb">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="ikony/ikona.svg" type="image/svg+xml">
+  <link rel="icon" href="ikony/ikona-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="ikony/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    // Motyw ustawiony przed pierwszym malowaniem, żeby nie migało.
+    try {
+      var t = JSON.parse(localStorage.getItem('kolumb.v1') || '{}').settings;
+      if (t && (t.theme === 'light' || t.theme === 'dark')) document.documentElement.dataset.theme = t.theme;
+    } catch (e) {}
+  </script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#app">Przejdź do treści</a>
+  <header class="topbar">
+    <a class="brand" href="#/" aria-label="Kolumb — strona główna">
+      <img src="ikony/ikona.svg" alt="" width="36" height="36">
+      <span>Kolumb</span>
+    </a>
+    <button type="button" class="icon-btn" id="theme-toggle" aria-label="Zmień motyw">
+      <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+      <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <div class="loading" aria-live="polite">
+      <img src="ikony/ikona.svg" alt="" width="72" height="72">
+      <p>Wyznaczanie kursu…</p>
+    </div>
+    <noscript><p class="alert">Kolumb wymaga włączonego JavaScriptu.</p></noscript>
+  </main>
+
+  <nav class="tabbar" aria-label="Nawigacja główna">
+    <a href="#/" data-tab="home">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.25" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M15.8 8.2 13.4 13.4 8.2 15.8 10.6 10.6Z" fill="currentColor"/></svg>
+      <span>Nauka</span>
+    </a>
+    <a href="#/statystyki" data-tab="stats">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <span>Statystyki</span>
+    </a>
+    <a href="#/ustawienia" data-tab="settings">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.5 5.5l1.7 1.7M16.8 16.8l1.7 1.7M5.5 18.5l1.7-1.7M16.8 7.2l1.7-1.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <span>Ustawienia</span>
+    </a>
+  </nav>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
