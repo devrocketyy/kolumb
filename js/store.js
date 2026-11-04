@@ -1,6 +1,6 @@
 // Kolumb — zapis postępów w localStorage, z osobnymi profilami (każdy uczeń ma swoje postępy).
 const LEGACY_KEY = 'kolumb.v1';           // zapis sprzed profili — przenoszony do pierwszego profilu
-const PROFILES_KEY = 'kolumb.profile';    // { active, list: [{ id, name, color, created, cloud? }] }
+const PROFILES_KEY = 'kolumb.profile';    // { active, session, list: [{ id, name, color, created, cloud? }] }
 const DAY = 86400000;
 const dataKey = (id) => `kolumb.v1.${id}`;
 
@@ -38,26 +38,47 @@ function normalize(s) {
 let profiles = readJSON(PROFILES_KEY);
 if (!profiles || !Array.isArray(profiles.list) || !profiles.list.length) {
   const id = uid();
-  profiles = { active: id, list: [{ id, name: 'Mój profil', color: COLORS[0], created: Date.now() }] };
+  profiles = { active: id, session: null, list: [{ id, name: 'Mój profil', color: COLORS[0], created: Date.now(), placeholder: true }] };
   const legacy = readJSON(LEGACY_KEY);
   if (legacy) {
     // dotychczasowy użytkownik: przedmiot z jego postępów, żeby nie pokazywać ekranu wyboru
     const first = Object.keys(legacy.cards || {})[0];
     legacy.settings = { ...(legacy.settings || {}), przedmiot: legacy.settings?.przedmiot || (first ? first.split('/')[0] : null) };
     writeJSON(dataKey(id), legacy);
+    delete profiles.list[0].placeholder;
+    profiles.session = id; // dotychczasowy użytkownik zostaje zalogowany
   }
   writeJSON(PROFILES_KEY, profiles);
 }
+if (!('session' in profiles)) { profiles.session = profiles.active; writeJSON(PROFILES_KEY, profiles); }
 if (!profiles.list.some((p) => p.id === profiles.active)) profiles.active = profiles.list[0].id;
 
 let state = normalize(readJSON(dataKey(profiles.active)));
 const saveHooks = [];
 
-export const profileList = () => profiles.list;
+export const profileList = () => profiles.list.filter((p) => !p.placeholder);
+export const loggedIn = () => !!profiles.session && profiles.session === profiles.active;
+export function login(id) {
+  switchProfile(id);
+  profiles.session = id;
+  saveProfiles();
+}
+export function logout() {
+  save({ touch: false });
+  profiles.session = null;
+  saveProfiles();
+}
 export const activeProfile = () => profiles.list.find((p) => p.id === profiles.active);
 export function saveProfiles() { writeJSON(PROFILES_KEY, profiles); }
 
 export function createProfile(name) {
+  const ph = profiles.list.find((x) => x.placeholder);
+  if (ph) { // pierwszy profil zajmuje miejsce pustego profilu startowego
+    delete ph.placeholder;
+    ph.name = String(name || '').trim().slice(0, 30) || 'Nowy profil';
+    saveProfiles();
+    return ph;
+  }
   const p = { id: uid(), name: String(name || '').trim().slice(0, 30) || 'Nowy profil', color: COLORS[profiles.list.length % COLORS.length], created: Date.now() };
   profiles.list.push(p);
   saveProfiles();
@@ -75,7 +96,15 @@ export function renameProfile(id, name) {
   if (p) { p.name = String(name || '').trim().slice(0, 30) || p.name; saveProfiles(); }
 }
 export function deleteProfile(id) {
-  if (profiles.list.length < 2) return false;
+  if (profiles.list.length < 2) {
+    const only = profiles.list[0];
+    if (only.id !== id) return false;
+    try { localStorage.removeItem(dataKey(id)); } catch { /* brak dostępu */ }
+    only.placeholder = true; only.name = 'Mój profil'; delete only.cloud;
+    state = normalize(null);
+    saveProfiles();
+    return true;
+  }
   profiles.list = profiles.list.filter((p) => p.id !== id);
   try { localStorage.removeItem(dataKey(id)); } catch { /* brak dostępu */ }
   if (profiles.active === id) {

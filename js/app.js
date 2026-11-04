@@ -88,6 +88,7 @@ const ICONS = {
   clock: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>',
   search: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
   redo: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  cog: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.5 5.5l1.7 1.7M16.8 16.8l1.7 1.7M5.5 18.5l1.7-1.7M16.8 7.2l1.7-1.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
   sound: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4zM16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
 };
 
@@ -233,7 +234,6 @@ function pathHtml(s, rec) {
           </button>
           <div class="stop-pop" data-pop="${esc(u.id)}" hidden></div>
         </div>
-        <a class="stop-go" href="#/lekcja/${enc(s.id)}/p/${enc(u.id)}" aria-label="Lekcja: ${esc(u.nazwa)}">${ICONS.play}</a>
       </li>`;
     }).join('');
     return `<details class="leg" ${open ? 'open' : ''}>
@@ -243,7 +243,6 @@ function pathHtml(s, rec) {
         <span class="leg-chev" aria-hidden="true">${ICONS.next}</span>
       </summary>
       <ol class="stops">${stops}</ol>
-      <a class="leg-guide" href="${hrefDzial(s.id, d.id)}">${ICONS.book}<span>Cały dział: fiszki, test, zadania maturalne</span></a>
     </details>`;
   }).join('');
 }
@@ -290,27 +289,19 @@ function goalCard(s, rec) {
       </div>
     </div>
     ${rec ? `<a class="btn btn-gold btn-xl btn-continue" href="#/lekcja/${enc(s.id)}/p/${enc(rec.u.id)}">${ICONS.play}<span>Kontynuuj<small>${esc(rec.u.nazwa)}</small></span></a>` : ''}
-    ${best ? `<a class="btn btn-ghost btn-lg" href="#/fiszki/${enc(s.id)}/d/${enc(best.d.id)}">${ICONS.cards}<span>Powtórki na dziś: ${todo}</span></a>` : ''}
+    ${best ? `<a class="goal-link" href="#/fiszki/${enc(s.id)}/d/${enc(best.d.id)}">${ICONS.cards}<span>Powtórki na dziś: <b>${todo}</b></span>${ICONS.next}</a>` : ''}
   </section>`;
 }
 
-function needsOnboarding() {
-  return !store.get().settings.przedmiot && subjects.length > 0;
-}
 
 // ---------- zakładka „Dziś” ----------
 function viewHome() {
-  if (needsOnboarding()) return viewStart();
   const showInstall = installEvent && !store.get().settings.installDismissed;
   const s = currentSubject();
   const rec = s ? recommendedUnit(s) : null;
   const nb = s ? mistakesOf(s).length : 0;
-  const smS = s ? summary(s.id, allUnits(s)) : null;
   app.innerHTML = `
-    <header class="today-head">
-      <h1>Dziś</h1>
-      ${s ? `<a class="subject-chip" href="#/nauka">${esc(s.skrot || s.nazwa)}<span>${pct(smS.progress)}%</span></a>` : ''}
-    </header>
+    <header class="today-head"><h1>Dziś</h1></header>
     ${s ? goalCard(s, rec) : ''}
     ${showInstall ? `<div class="install-banner">
         <div><strong>Zainstaluj Kolumba</strong><span>Ikona na ekranie głównym i nauka bez internetu.</span></div>
@@ -324,10 +315,7 @@ function viewHome() {
       <span class="mistakes-text"><strong>Błędy do poprawy: ${nb}</strong><small>Lekcja z pytań, w których była pomyłka</small></span>
       ${ICONS.next}</a>` : ''}
     ${questsHtml()}
-    ${s ? `<a class="card route-card" href="#/nauka">
-      <span class="quest-icon">${ICONS.compass}</span>
-      <span class="mistakes-text"><strong>Trasa nauki</strong><small>${rec ? `Dział ${s.dzialy.indexOf(rec.d) + 1}: ${esc(rec.d.nazwa)}` : esc(s.nazwa)}</small></span>
-      ${ICONS.next}</a>` : '<p class="muted">Brak przedmiotów. Dodaj plik JSON do katalogu <code>przedmioty/</code>.</p>'}
+    ${s ? '' : '<p class="muted">Brak przedmiotów.</p>'}
   `;
   app.querySelector('[data-act="install"]')?.addEventListener('click', promptInstall);
   app.querySelector('[data-act="dismiss"]')?.addEventListener('click', () => {
@@ -339,7 +327,6 @@ function viewHome() {
 
 // ---------- zakładka „Nauka” ----------
 function viewNauka() {
-  if (needsOnboarding()) return viewStart();
   const s = currentSubject();
   if (!s) return notFound();
   const rec = recommendedUnit(s);
@@ -347,7 +334,7 @@ function viewNauka() {
   app.innerHTML = `
     <header class="today-head">
       <h1>${esc(s.nazwa)}</h1>
-      <a class="subject-chip" href="#/start">Zmień</a>
+      <a class="icon-btn" href="#/szukaj" aria-label="Szukaj pojęć">${ICONS.search}</a>
     </header>
     <p class="muted route-sum">${pct(sm.progress)}% opanowane · ${sm.mastered}/${nFiszek(sm.total)} · ${sm.todo} do powtórki</p>
     <div class="route" data-sid="${esc(s.id)}">${pathHtml(s, rec)}</div>`;
@@ -365,47 +352,12 @@ function viewNauka() {
   wrap.querySelector('.stop.current')?.scrollIntoView({ block: 'center' });
 }
 
-// ---------- wybór przedmiotu (na start i przy zmianie) ----------
-function viewStart() {
-  const st = store.get();
-  const first = !st.settings.przedmiot;
-  const names = new Set(subjects.map((s) => s.nazwa.toLowerCase()));
-  const planned = PLANNED.filter((n) => !names.has(n.toLowerCase()));
-  const prof = store.activeProfile();
-  app.innerHTML = `
-    <section class="onboard">
-      ${first ? `<img src="ikony/ikona.svg" alt="" width="64" height="64"><h1>Od czego zaczynasz?</h1>
-        <p class="muted">Wybierz przedmiot. Możesz go zmienić w każdej chwili w zakładce Nauka.</p>` : `${pageHead('Wybierz przedmiot', '#/nauka')}`}
-      <div class="subject-pick" role="list">
-        ${subjects.map((s) => {
-          const sm = summary(s.id, allUnits(s));
-          return `<button type="button" role="listitem" class="subject-opt ${currentSubject() === s && !first ? 'active' : ''}" data-sid="${esc(s.id)}">
-            <span class="subject-badge">${esc((s.skrot || s.nazwa).slice(0, 3))}</span>
-            <span class="subject-opt-text"><strong>${esc(s.nazwa)}</strong><small>${s.dzialy.length} działów · ${nFiszek(sm.total)}${s.arkusze.length ? ` · ${s.arkusze.length} arkuszy CKE` : ''}</small></span>
-          </button>`;
-        }).join('')}
-        ${planned.map((n) => `<div role="listitem" class="subject-opt soon" aria-disabled="true">
-            <span class="subject-badge">${esc(n.slice(0, 3))}</span>
-            <span class="subject-opt-text"><strong>${esc(n)}</strong><small>wkrótce</small></span>
-          </div>`).join('')}
-      </div>
-      ${first ? `<label class="answer-label" for="pname">Jak masz na imię? <span class="muted">(opcjonalnie)</span></label>
-        <input class="type-input" id="pname" type="text" maxlength="30" autocomplete="given-name" placeholder="${esc(prof.name)}">` : ''}
-    </section>`;
-  app.querySelector('.subject-pick').addEventListener('click', (e) => {
-    const b = e.target.closest('.subject-opt[data-sid]');
-    if (!b) return;
-    st.settings.przedmiot = b.dataset.sid;
-    const name = app.querySelector('#pname')?.value.trim();
-    if (name) store.renameProfile(prof.id, name);
-    store.save();
-    game.sound('tap');
-    location.hash = first ? '#/' : '#/nauka';
-  });
-}
 
 // ---------- pasek u góry: seria i XP ----------
 function updateTopStats() {
+  const sb = document.getElementById('subj-btn');
+  const cs = subjects.length ? currentSubject() : null;
+  if (sb) sb.innerHTML = cs ? `<span class="subj-icon subj-icon-sm">${subjectIcon(cs)}</span><span class="subj-btn-name">${esc(cs.skrot || cs.nazwa)}</span>` : '';
   const el = document.getElementById('top-stats');
   if (!el) return;
   const st = store.streak();
@@ -1743,59 +1695,14 @@ function renderExamResult(s, e, ws) {
   });
 }
 
-// ---------- profil i konto ----------
+// ---------- profil, logowanie i wybór przedmiotu ----------
 const initials = (n) => (String(n).trim().split(/\s+/).map((w) => w[0]).join('').slice(0, 2) || '?').toUpperCase();
 const avatar = (p, big) => `<span class="avatar ${big ? 'avatar-lg' : ''}" style="--av:${esc(p.color)}" aria-hidden="true">${esc(initials(p.name))}</span>`;
-let accountMsg = '';
-
-function accountHtml() {
-  const prof = store.activeProfile();
-  const list = store.profileList();
-  const acc = cloud.account();
-  const fmt = new Intl.DateTimeFormat('pl-PL', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
-  let cloudPart;
-  if (!cloud.enabled()) {
-    cloudPart = `<p class="muted small">Logowanie na konto (postępy na każdym urządzeniu) nie jest jeszcze włączone w tej wersji aplikacji. Do tego czasu postępy zapisują się na tym urządzeniu — możesz je przenieść kopią w Ustawieniach.</p>`;
-  } else if (acc) {
-    cloudPart = `<div class="acc-row"><span>${ICONS.check}<strong>${esc(acc.email || 'Zalogowano')}</strong></span>
-        <small class="muted">${acc.synced ? `Zapisano w chmurze: ${fmt.format(acc.synced)}` : 'Jeszcze nie zsynchronizowano'}</small></div>
-      <div class="pop-row">
-        <button type="button" class="btn btn-ghost btn-sm" data-acc="sync">Synchronizuj teraz</button>
-        <button type="button" class="btn btn-ghost btn-sm" data-acc="logout">Wyloguj</button>
-      </div>`;
-  } else {
-    cloudPart = `<form class="acc-form" id="acc-form" novalidate>
-        <p class="muted small">Zaloguj się, aby mieć swoje postępy, serię i odznaki na każdym urządzeniu.</p>
-        <input class="type-input" name="email" type="email" autocomplete="email" placeholder="E-mail" aria-label="E-mail" required>
-        <input class="type-input" name="pass" type="password" autocomplete="current-password" placeholder="Hasło (min. 6 znaków)" aria-label="Hasło" minlength="6" required>
-        <div class="pop-row">
-          <button type="submit" class="btn btn-primary btn-sm" data-mode="in">Zaloguj się</button>
-          <button type="submit" class="btn btn-ghost btn-sm" data-mode="up">Załóż konto</button>
-        </div>
-      </form>`;
-  }
-  return `<section class="card profile-card">
-      <div class="profile-top">${avatar(prof, true)}
-        <div class="profile-name"><strong id="pn">${esc(prof.name)}</strong>
-          <button type="button" class="btn-report" data-acc="rename"><span>Zmień nazwę</span></button></div>
-      </div>
-      <div id="rename-box" hidden>
-        <input class="type-input" id="rename-in" maxlength="30" value="${esc(prof.name)}" aria-label="Nazwa profilu">
-        <div class="pop-row"><button type="button" class="btn btn-primary btn-sm" data-acc="rename-ok">Zapisz</button></div>
-      </div>
-      <h3 class="sub-title">Konto</h3>
-      ${cloudPart}
-      ${accountMsg ? `<p class="acc-msg" role="status">${esc(accountMsg)}</p>` : ''}
-      <h3 class="sub-title">Profile na tym urządzeniu</h3>
-      <p class="muted small">Każdy profil ma osobne postępy — np. dla rodzeństwa korzystającego z jednego telefonu.</p>
-      <ul class="profiles">${list.map((p) => `<li class="${p.id === prof.id ? 'active' : ''}">
-          <button type="button" class="profile-switch" data-pid="${esc(p.id)}">${avatar(p)}<span>${esc(p.name)}${p.cloud ? ' <small class="muted">· konto</small>' : ''}</span>${p.id === prof.id ? '<em class="here">aktywny</em>' : ''}</button>
-          ${p.id !== prof.id ? `<button type="button" class="icon-btn" data-del="${esc(p.id)}" aria-label="Usuń profil ${esc(p.name)}">${ICONS.close}</button>` : ''}
-        </li>`).join('')}</ul>
-      <div id="del-confirm"></div>
-      <div class="pop-row"><input class="type-input" id="new-prof" maxlength="30" placeholder="Imię nowego profilu" aria-label="Imię nowego profilu"><button type="button" class="btn btn-ghost btn-sm" data-acc="add">Dodaj profil</button></div>
-    </section>`;
-}
+const SUBJECT_ICONS = {
+  wos: '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6 6 15v3h36v-3z" fill="currentColor"/><path d="M10 21h4v15h-4zM18 21h4v15h-4zM26 21h4v15h-4zM34 21h4v15h-4z" fill="currentColor" opacity=".85"/><path d="M6 38h36v4H6z" fill="currentColor"/></svg>',
+};
+const subjectIcon = (s) => SUBJECT_ICONS[s.id] || `<span class="subj-letters">${esc((s.skrot || s.nazwa).slice(0, 3))}</span>`;
+let gateMsg = '';
 
 function afterProfileChange() {
   session = test = zs = lesson = null;
@@ -1803,32 +1710,120 @@ function afterProfileChange() {
   updateTopStats();
 }
 
-function bindAccount() {
-  const rerender = (msg) => { accountMsg = msg || ''; viewStats(); };
-  app.querySelector('[data-acc="rename"]')?.addEventListener('click', () => { app.querySelector('#rename-box').hidden = false; app.querySelector('#rename-in').focus(); });
-  app.querySelector('[data-acc="rename-ok"]')?.addEventListener('click', () => { store.renameProfile(store.activeProfile().id, app.querySelector('#rename-in').value); rerender(); });
-  app.querySelector('[data-acc="add"]')?.addEventListener('click', () => {
-    const p = store.createProfile(app.querySelector('#new-prof').value);
-    store.switchProfile(p.id);
-    afterProfileChange();
-    location.hash = '#/start';
+// Ekran logowania: wybór profilu na urządzeniu albo logowanie e-mailem (gdy konta są włączone).
+function viewKonto() {
+  document.body.classList.add('in-gate');
+  const list = store.profileList();
+  app.innerHTML = `<section class="gate">
+    <img class="gate-logo" src="ikony/ikona.svg" width="76" height="76" alt="Kolumb">
+    <h1 class="gate-title">Kto się uczy?</h1>
+    <div class="who">${list.map((p) => `<button type="button" class="who-item" data-pid="${esc(p.id)}">${avatar(p, true)}<span>${esc(p.name)}</span></button>`).join('')}
+      <button type="button" class="who-item" data-act="new"><span class="avatar avatar-lg avatar-add" aria-hidden="true">+</span><span>Nowy</span></button></div>
+    <form class="gate-form" id="new-form" hidden>
+      <input class="type-input" name="name" maxlength="30" placeholder="Imię" aria-label="Imię" autocomplete="given-name" required>
+      <button type="submit" class="btn btn-primary btn-lg">Utwórz profil</button>
+    </form>
+    ${cloud.enabled() ? `<button type="button" class="link-btn" data-act="email">Zaloguj się e-mailem</button>
+    <form class="gate-form" id="acc-form" hidden novalidate>
+      <input class="type-input" name="email" type="email" autocomplete="email" placeholder="E-mail" aria-label="E-mail">
+      <input class="type-input" name="pass" type="password" autocomplete="current-password" placeholder="Hasło" aria-label="Hasło">
+      <button type="submit" class="btn btn-primary btn-lg" data-mode="in">Zaloguj się</button>
+      <button type="submit" class="link-btn" data-mode="up">Nie mam konta — załóż</button>
+    </form>` : ''}
+    ${gateMsg ? `<p class="acc-msg" role="status">${esc(gateMsg)}</p>` : ''}
+  </section>`;
+  gateMsg = '';
+  const enter = (id) => { store.login(id); afterProfileChange(); location.hash = '#/przedmiot'; if (location.hash === '#/przedmiot') route(); };
+  app.querySelector('.who').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-pid]');
+    if (b) return enter(b.dataset.pid);
+    if (e.target.closest('[data-act="new"]')) { const f = app.querySelector('#new-form'); f.hidden = false; f.name.focus(); }
   });
-  app.querySelector('.profiles').addEventListener('click', (e) => {
-    const sw = e.target.closest('[data-pid]');
-    const del = e.target.closest('[data-del]');
-    if (sw && sw.dataset.pid !== store.activeProfile().id) {
-      store.switchProfile(sw.dataset.pid);
-      afterProfileChange();
-      rerender(`Przełączono na profil: ${store.activeProfile().name}`);
-    }
-    if (del) {
-      const p = store.profileList().find((x) => x.id === del.dataset.del);
-      const box = app.querySelector('#del-confirm');
-      box.innerHTML = `<div class="feedback bad"><strong>Usunąć profil „${esc(p.name)}”?</strong><p>Postępy tego profilu na tym urządzeniu zostaną usunięte${p.cloud ? ' (kopia na koncie zostaje)' : ''}.</p>
-        <div class="pop-row"><button type="button" class="btn btn-danger-solid btn-sm" data-yes>Usuń</button><button type="button" class="btn btn-ghost btn-sm" data-no>Anuluj</button></div></div>`;
-      box.querySelector('[data-no]').onclick = () => (box.innerHTML = '');
-      box.querySelector('[data-yes]').onclick = () => { store.deleteProfile(p.id); rerender('Profil usunięty.'); };
-    }
+  app.querySelector('#new-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = e.target.name.value.trim();
+    if (!name) return;
+    enter(store.createProfile(name).id);
+  });
+  app.querySelector('[data-act="email"]')?.addEventListener('click', () => { const f = app.querySelector('#acc-form'); f.hidden = false; f.email.focus(); });
+  const form = app.querySelector('#acc-form');
+  if (form) {
+    let mode = 'in';
+    form.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => (mode = b.dataset.mode)));
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = form.email.value.trim().toLowerCase();
+      const pass = form.pass.value;
+      const fail = (m) => { gateMsg = m; viewKonto(); };
+      if (!/^\S+@\S+\.\S+$/.test(email)) return fail('Podaj poprawny adres e-mail.');
+      if (pass.length < 6) return fail('Hasło musi mieć co najmniej 6 znaków.');
+      form.querySelectorAll('button').forEach((b) => (b.disabled = true));
+      const prev = store.activeProfile().id;
+      const p = store.profileList().find((x) => x.cloud?.email === email) || store.createProfile(email.split('@')[0]);
+      store.switchProfile(p.id);
+      try {
+        if (mode === 'up') {
+          const r = await cloud.signUp(email, pass);
+          if (r.confirm) { store.switchProfile(prev); return fail('Kliknij link w wiadomości e-mail, a potem zaloguj się.'); }
+        } else await cloud.signIn(email, pass);
+        enter(p.id);
+      } catch (err) {
+        if (!p.cloud && !store.get().updatedAt) store.deleteProfile(p.id);
+        store.switchProfile(prev);
+        fail(err.message);
+      }
+    });
+  }
+}
+
+// Wybór przedmiotu — po każdym zalogowaniu i po dotknięciu ikony przedmiotu w górnym pasku.
+function viewPrzedmiot() {
+  document.body.classList.add('in-gate');
+  const cur = store.get().settings.przedmiot;
+  app.innerHTML = `<section class="gate">
+    <div class="gate-who">${avatar(store.activeProfile())}<span>${esc(store.activeProfile().name)}</span></div>
+    <h1 class="gate-title">Wybierz przedmiot</h1>
+    <div class="subj-grid">${subjects.map((s) => `<button type="button" class="subj-tile ${s.id === cur ? 'active' : ''}" data-sid="${esc(s.id)}" aria-label="${esc(s.nazwa)}">
+        <span class="subj-icon">${subjectIcon(s)}</span><span class="subj-name">${esc(s.skrot || s.nazwa)}</span></button>`).join('')}</div>
+    <button type="button" class="link-btn" data-act="logout">Zmień profil</button>
+  </section>`;
+  app.querySelector('.subj-grid').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-sid]');
+    if (!b) return;
+    store.get().settings.przedmiot = b.dataset.sid;
+    store.save();
+    game.sound('tap');
+    location.hash = '#/';
+  });
+  app.querySelector('[data-act="logout"]').addEventListener('click', () => { store.logout(); location.hash = '#/konto'; });
+}
+
+function profileHeadHtml(xp, lv) {
+  const prof = store.activeProfile();
+  const acc = cloud.account();
+  return `<section class="profile-head">
+    ${avatar(prof, true)}
+    <div class="profile-meta"><h1>${esc(prof.name)}</h1><span class="muted">${acc ? esc(acc.email) : 'Profil na tym urządzeniu'}</span>
+      <div class="lv-row"><b>Poziom ${lv}</b>${progressBar((xp - game.levelFloor(lv)) / (game.levelFloor(lv + 1) - game.levelFloor(lv)), 'Postęp do następnego poziomu')}<small>${xp} XP</small></div></div>
+  </section>`;
+}
+
+function connectHtml() {
+  if (!cloud.enabled() || cloud.account()) return '';
+  return `<details class="card connect"><summary class="card-title">Zapisuj postępy na koncie</summary>
+    <form class="gate-form" id="acc-form" novalidate>
+      <p class="muted small">Zaloguj się, aby mieć te same postępy na każdym urządzeniu.</p>
+      <input class="type-input" name="email" type="email" autocomplete="email" placeholder="E-mail" aria-label="E-mail">
+      <input class="type-input" name="pass" type="password" autocomplete="current-password" placeholder="Hasło (min. 6 znaków)" aria-label="Hasło">
+      <button type="submit" class="btn btn-primary btn-lg" data-mode="in">Zaloguj się</button>
+      <button type="submit" class="link-btn" data-mode="up">Załóż konto</button>
+    </form></details>`;
+}
+
+function bindProfil() {
+  app.querySelector('[data-act="logout"]').addEventListener('click', async () => {
+    store.logout();
+    location.hash = '#/konto';
   });
   const form = app.querySelector('#acc-form');
   if (form) {
@@ -1836,29 +1831,22 @@ function bindAccount() {
     form.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => (mode = b.dataset.mode)));
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const email = form.email.value.trim();
+      const email = form.email.value.trim().toLowerCase();
       const pass = form.pass.value;
-      if (!/^\S+@\S+\.\S+$/.test(email)) return rerender('Podaj poprawny adres e-mail.');
-      if (pass.length < 6) return rerender('Hasło musi mieć co najmniej 6 znaków.');
+      if (!/^\S+@\S+\.\S+$/.test(email) || pass.length < 6) return toast('Podaj e-mail i hasło (min. 6 znaków).');
       form.querySelectorAll('button').forEach((b) => (b.disabled = true));
       try {
-        if (mode === 'up') {
-          const r = await cloud.signUp(email, pass);
-          rerender(r.confirm ? 'Sprawdź skrzynkę i kliknij link potwierdzający, a potem zaloguj się.' : 'Konto założone — postępy są zapisywane na koncie.');
-        } else {
-          const r = await cloud.signIn(email, pass);
-          afterProfileChange();
-          rerender(r === 'merged' ? 'Zalogowano — połączono postępy z konta i z tego urządzenia.' : 'Zalogowano — postępy z tego urządzenia zapisano na koncie.');
-        }
+        if (mode === 'up') { const r = await cloud.signUp(email, pass); if (r.confirm) toast('Kliknij link w wiadomości e-mail, a potem zaloguj się.'); }
+        else await cloud.signIn(email, pass);
+        afterProfileChange();
+        viewStats();
+        if (cloud.account()) toast('Połączono z kontem.');
       } catch (err) {
-        rerender(err.message);
+        toast(err.message);
+        form.querySelectorAll('button').forEach((b) => (b.disabled = false));
       }
     });
   }
-  app.querySelector('[data-acc="sync"]')?.addEventListener('click', async () => {
-    try { const r = await cloud.sync(); afterProfileChange(); rerender(r === 'merged' ? 'Zsynchronizowano z kontem.' : 'Postępy zapisane na koncie.'); } catch (err) { rerender(err.message); }
-  });
-  app.querySelector('[data-acc="logout"]')?.addEventListener('click', async () => { await cloud.signOut(); rerender('Wylogowano. Postępy zostają na tym urządzeniu.'); });
 }
 
 // ---------- statystyki ----------
@@ -1904,16 +1892,7 @@ function viewStats() {
   const wfmt = new Intl.DateTimeFormat('pl-PL', { weekday: 'short' });
   const got = state.odznaki || {};
   app.innerHTML = `
-    ${pageHead('Profil', null)}
-    ${accountHtml()}
-    <section class="card level-card">
-      <div class="level-badge"><span>Poziom</span><strong>${lv}</strong></div>
-      <div class="level-body">
-        <strong>${xp} XP łącznie</strong>
-        ${progressBar((xp - lvA) / (lvB - lvA), 'Postęp do następnego poziomu')}
-        <span class="muted small">${lvB - xp} XP do poziomu ${lv + 1}</span>
-      </div>
-    </section>
+    ${profileHeadHtml(xp, lv)}
     <section class="card">
       <h2 class="card-title">XP w tym tygodniu</h2>
       <div class="week" role="list">${week.map((w) => `<div class="week-day ${w.xp >= game.goal() ? 'hit' : ''}" role="listitem" aria-label="${wfmt.format(w.t)}: ${w.xp} XP">
@@ -1924,15 +1903,11 @@ function viewStats() {
     </section>
     <section class="card">
       <h2 class="card-title">Odznaki · ${Object.keys(got).length}/${game.BADGES.length}</h2>
-      <div class="badges">${game.BADGES.map((b) => {
-        const pr = game.badgeProgress(b);
-        return `<div class="badge-item ${got[b.id] ? 'got' : ''}">
-          <span class="badge-medal">${got[b.id] ? ICONS.trophy : ICONS.star}</span>
-          <strong>${esc(b.name)}</strong><small>${esc(b.opis)}</small>
-          ${!got[b.id] && b.max ? progressBar(pr, b.name) : ''}
-        </div>`;
-      }).join('')}</div>
+      <div class="medals" role="list">${[...game.BADGES].sort((x, y) => (got[y.id] ? 1 : 0) - (got[x.id] ? 1 : 0)).map((b) => `<div role="listitem" class="medal ${got[b.id] ? 'got' : ''}" title="${esc(b.opis)}">
+          <span class="badge-medal">${got[b.id] ? ICONS.trophy : ICONS.star}</span><small>${esc(b.name)}</small></div>`).join('')}</div>
     </section>
+    ${connectHtml()}
+    <details class="card more"><summary class="card-title">Więcej statystyk</summary>
     <div class="tiles">
       <div class="tile"><span class="tile-label">Opanowane fiszki</span><strong>${mastered}<small>/${total}</small></strong>${progressBar(total ? mastered / total : 0, 'Opanowane fiszki')}</div>
       <div class="tile tile-gold"><span class="tile-label">Seria dni nauki</span><strong>${st.current}<small> ${plural(st.current, 'dzień', 'dni', 'dni')}</small></strong><span class="tile-sub">Najdłuższa: ${st.longest} ${plural(st.longest, 'dzień', 'dni', 'dni')}</span></div>
@@ -1960,9 +1935,18 @@ function viewStats() {
         const p = pct(t.score / t.total);
         return `<li><div><strong>${esc(t.name || t.did || 'Test')}</strong><span>${fmt.format(t.at)} · ${t.score}/${t.total}</span></div>
           <span class="score ${p >= 70 ? 'ok' : p >= 50 ? 'warn' : 'bad'}">${p}%</span></li>`;
-      }).join('')}</ul>` : '<p class="muted">Nie masz jeszcze żadnego testu. Rozwiąż pierwszy w wybranym dziale!</p>'}
-    </section>`;
-  bindAccount();
+      }).join('')}</ul>` : '<p class="muted">Nie masz jeszcze żadnego testu.</p>'}
+    </section>
+    </details>
+    <nav class="menu-list" aria-label="Konto">
+      <a href="#/ustawienia">${ICONS.cog}<span>Ustawienia</span>${ICONS.next}</a>
+      ${cloud.account() ? `<button type="button" data-act="sync">${ICONS.redo}<span>Synchronizuj z kontem</span></button>` : ''}
+      <button type="button" data-act="logout">${ICONS.back}<span>Wyloguj</span></button>
+    </nav>`;
+  bindProfil();
+  app.querySelector('[data-act="sync"]')?.addEventListener('click', async () => {
+    try { await cloud.sync(); afterProfileChange(); toast('Zsynchronizowano z kontem.'); } catch (err) { toast(err.message); }
+  });
 }
 
 // ---------- ustawienia ----------
@@ -1973,7 +1957,7 @@ function viewSettings() {
   const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
   const standalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
   app.innerHTML = `
-    ${pageHead('Ustawienia', null)}
+    ${pageHead('Ustawienia', '#/profil')}
     <section class="card">
       <h2 class="card-title">Motyw</h2>
       <div class="segmented" role="radiogroup" aria-label="Motyw">
@@ -1990,8 +1974,8 @@ function viewSettings() {
     </section>
 
     <section class="card">
-      <h2 class="card-title">Przedmiot</h2>
-      <a class="subject-opt" href="#/start"><span class="subject-badge">${esc((currentSubject()?.skrot || '?').slice(0, 3))}</span><span class="subject-opt-text"><strong>${esc(currentSubject()?.nazwa || 'Nie wybrano')}</strong><small>Zmień przedmiot</small></span></a>
+      <h2 class="card-title">Nazwa profilu</h2>
+      <div class="pop-row"><input class="type-input" id="pname" maxlength="30" value="${esc(store.activeProfile().name)}" aria-label="Nazwa profilu"><button type="button" class="btn btn-ghost btn-sm" data-act="rename">Zapisz</button></div>
     </section>
 
     <section class="card">
@@ -2028,7 +2012,10 @@ function viewSettings() {
 
     <section class="card">
       <h2 class="card-title">Strefa ryzyka</h2>
-      <button type="button" class="btn btn-danger btn-lg" data-act="reset">Wyzeruj wszystkie postępy</button>
+      <div class="actions">
+        <button type="button" class="btn btn-danger btn-lg" data-act="reset">Wyzeruj postępy tego profilu</button>
+        <button type="button" class="btn btn-danger btn-lg" data-act="delprof">Usuń ten profil z urządzenia</button>
+      </div>
     </section>
 
     <section class="card about">
@@ -2050,6 +2037,13 @@ function viewSettings() {
     store.save();
     viewSettings();
   }));
+  app.querySelector('[data-act="rename"]').addEventListener('click', () => { store.renameProfile(store.activeProfile().id, app.querySelector('#pname').value); toast('Zapisano nazwę profilu.'); });
+  app.querySelector('[data-act="delprof"]')?.addEventListener('click', () => {
+    if (!confirm('Usunąć ten profil i jego postępy z tego urządzenia?')) return;
+    store.deleteProfile(store.activeProfile().id);
+    store.logout();
+    location.hash = '#/konto';
+  });
   app.querySelector('[data-act="install"]')?.addEventListener('click', promptInstall);
   app.querySelector('[data-act="export"]').addEventListener('click', () => {
     const blob = new Blob([JSON.stringify(store.get(), null, 2)], { type: 'application/json' });
@@ -2092,11 +2086,10 @@ function applyTheme() {
   const dark = t === 'dark' || (t === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches);
   document.querySelector('meta[name="theme-color"]').setAttribute('content', dark ? '#0f1a2d' : '#ffffff');
   const btn = document.getElementById('theme-toggle');
-  btn.setAttribute('aria-label', dark ? 'Włącz jasny motyw' : 'Włącz ciemny motyw');
-  btn.dataset.dark = String(dark);
+  if (btn) { btn.setAttribute('aria-label', dark ? 'Włącz jasny motyw' : 'Włącz ciemny motyw'); btn.dataset.dark = String(dark); }
 }
 
-document.getElementById('theme-toggle').addEventListener('click', () => {
+document.getElementById('theme-toggle')?.addEventListener('click', () => {
   const dark = document.getElementById('theme-toggle').dataset.dark === 'true';
   store.get().settings.theme = dark ? 'light' : 'dark';
   store.save();
@@ -2139,7 +2132,9 @@ const routes = [
   [/^#\/statystyki$/, viewStats],
   [/^#\/profil$/, viewStats],
   [/^#\/nauka$/, viewNauka],
-  [/^#\/start$/, viewStart],
+  [/^#\/start$/, viewPrzedmiot],
+  [/^#\/przedmiot$/, viewPrzedmiot],
+  [/^#\/konto$/, viewKonto],
   [/^#\/ustawienia$/, viewSettings],
 ];
 
@@ -2149,23 +2144,25 @@ function route() {
   const changed = hash !== lastHash;
   lastHash = hash;
   keyHandler = null;
-  document.body.classList.remove('in-session', 'in-lesson');
+  document.body.classList.remove('in-session', 'in-lesson', 'in-gate');
   if (!hash.startsWith('#/lekcja/') && !hash.startsWith('#/bledy/')) lesson = null;
   if (!hash.startsWith('#/fiszki/')) session = null;
   if (!hash.startsWith('#/test/')) test = null;
   if (!hash.startsWith('#/zadania/')) zs = null;
   if (!hash.startsWith('#/egzamin/')) clearInterval(examTimer);
 
-  const hit = routes.find(([re]) => re.test(hash));
-  if (hit) {
+  // bramka: najpierw logowanie (profil), potem wybór przedmiotu
+  const gate = !store.loggedIn() ? viewKonto : !store.get().settings.przedmiot && subjects.length && !/^#\/(przedmiot|start)$/.test(hash) ? viewPrzedmiot : null;
+  const hit = gate ? null : routes.find(([re]) => re.test(hash));
+  if (gate) gate();
+  else if (hit) {
     const m = hash.match(hit[0]);
     hit[1](...m.slice(1).map((x) => (x === undefined ? undefined : decodeURIComponent(x))));
   } else notFound();
 
-  const tab = hash.startsWith('#/statystyki') || hash.startsWith('#/profil') ? 'stats'
-    : hash.startsWith('#/ustawienia') ? 'settings'
+  const tab = /^#\/(statystyki|profil|ustawienia)/.test(hash) ? 'stats'
     : hash.startsWith('#/matura') || hash.startsWith('#/zadania') || hash.startsWith('#/egzamin') ? 'matura'
-    : /^#\/(nauka|start|d\/|p\/|lista|fiszki|test|lekcja)/.test(hash) ? 'nauka' : 'home';
+    : /^#\/(nauka|szukaj|d\/|p\/|lista|fiszki|test|lekcja)/.test(hash) ? 'nauka' : 'home';
   document.querySelectorAll('.tabbar a').forEach((a) => {
     const on = a.dataset.tab === tab;
     a.classList.toggle('active', on);

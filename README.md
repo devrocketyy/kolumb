@@ -35,7 +35,8 @@ Każda fiszka i każde pytanie ma pole `zrodlo` — numer artykułu aktu prawneg
 
 | Ekran | Co robi |
 |---|---|
-| **Nauka** (ekran główny) | Cel dnia (XP), seria dni nauki, przycisk „Kontynuuj”, trzy zadania dnia i **ścieżka nauki** — kolejne poddziały jako punkty na trasie, z postępem opanowania i liczbą powtórek. |
+| **Logowanie i przedmiot** | Na start ekran „Kto się uczy?” (profile na urządzeniu lub logowanie e-mailem), po zalogowaniu wybór przedmiotu — ikona przedmiotu w lewym górnym rogu pozwala go zmienić. |
+| **Dziś** (pierwsza zakładka) | Cel dnia (XP), seria dni nauki, przycisk „Kontynuuj”, trzy zadania dnia i **ścieżka nauki** — kolejne poddziały jako punkty na trasie, z postępem opanowania i liczbą powtórek. |
 | **Lekcja** | 12 mieszanych ćwiczeń: wybór odpowiedzi, prawda/fałsz, dopasuj pary, wpisz odpowiedź (z tolerancją literówek i polskich znaków), pytania ABCD. 5 serc, seria poprawnych odpowiedzi, błędne ćwiczenia wracają na koniec, podsumowanie z XP, celnością i czasem. |
 | **Dział / poddział** | Postęp, liczba powtórek i nowych fiszek, przyciski: fiszki, test, zadania maturalne z działu, przegląd treści. Naukę można prowadzić dla całego działu albo pojedynczego poddziału. |
 | **Fiszki** | Pytanie z przodu, odpowiedź po dotknięciu. Oceny **Nie wiem / Trudne / Umiem**. Powtórki według systemu Leitnera. Tryb „trening swobodny” — 50 losowych fiszek bez wpływu na harmonogram. |
