@@ -12,6 +12,8 @@ const SHELL = [
   'js/srs.js',
   'js/data.js',
   'js/game.js',
+  'js/cloud.js',
+  'js/config.js',
   'fonty/nunito-latin-wght-normal.woff2',
   'fonty/nunito-latin-ext-wght-normal.woff2',
   'manifest.webmanifest',

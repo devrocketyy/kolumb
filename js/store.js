@@ -1,6 +1,8 @@
-// Kolumb — zapis postępów w localStorage.
-const KEY = 'kolumb.v1';
+// Kolumb — zapis postępów w localStorage, z osobnymi profilami (każdy uczeń ma swoje postępy).
+const LEGACY_KEY = 'kolumb.v1';           // zapis sprzed profili — przenoszony do pierwszego profilu
+const PROFILES_KEY = 'kolumb.profile';    // { active, list: [{ id, name, color, created, cloud? }] }
 const DAY = 86400000;
+const dataKey = (id) => `kolumb.v1.${id}`;
 
 const defaults = () => ({
   version: 1,
@@ -14,47 +16,105 @@ const defaults = () => ({
   lekcje: {},     // "przedmiot/zakres/id" -> { n, best, idealne }
   odznaki: {},    // id odznaki -> czas zdobycia
   bledy: {},      // "przedmiot/poddział/id" -> { t: 'f'|'q', uid, id, n, at } — pomyłki do poprawy
-  settings: { theme: 'auto', installDismissed: false, newPerDay: 20, dailyGoal: 20, sound: true },
+  updatedAt: 0,   // czas ostatniej zmiany (do synchronizacji z chmurą)
+  settings: { theme: 'auto', installDismissed: false, newPerDay: 20, dailyGoal: 20, sound: true, przedmiot: null },
 });
 
-let state = load();
+const COLORS = ['#1b7ae6', '#e06a10', '#1f9d5c', '#7c4ddb', '#e04848', '#0f9488', '#c58a00'];
+const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
 
-function load() {
-  try {
-    const raw = localStorage.getItem(KEY);
-    if (!raw) return defaults();
-    const s = JSON.parse(raw);
-    const d = defaults();
-    return { ...d, ...s, settings: { ...d.settings, ...(s.settings || {}) } };
-  } catch {
-    return defaults();
-  }
+function readJSON(key) {
+  try { const raw = localStorage.getItem(key); return raw ? JSON.parse(raw) : null; } catch { return null; }
+}
+function writeJSON(key, value) {
+  try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch { return false; }
+}
+function normalize(s) {
+  const d = defaults();
+  return { ...d, ...(s || {}), settings: { ...d.settings, ...((s && s.settings) || {}) } };
 }
 
-export function save() {
-  try {
-    localStorage.setItem(KEY, JSON.stringify(state));
-  } catch {
-    /* tryb prywatny lub brak miejsca — aplikacja działa dalej bez zapisu */
+// ---------- profile ----------
+let profiles = readJSON(PROFILES_KEY);
+if (!profiles || !Array.isArray(profiles.list) || !profiles.list.length) {
+  const id = uid();
+  profiles = { active: id, list: [{ id, name: 'Mój profil', color: COLORS[0], created: Date.now() }] };
+  const legacy = readJSON(LEGACY_KEY);
+  if (legacy) {
+    // dotychczasowy użytkownik: przedmiot z jego postępów, żeby nie pokazywać ekranu wyboru
+    const first = Object.keys(legacy.cards || {})[0];
+    legacy.settings = { ...(legacy.settings || {}), przedmiot: legacy.settings?.przedmiot || (first ? first.split('/')[0] : null) };
+    writeJSON(dataKey(id), legacy);
   }
+  writeJSON(PROFILES_KEY, profiles);
+}
+if (!profiles.list.some((p) => p.id === profiles.active)) profiles.active = profiles.list[0].id;
+
+let state = normalize(readJSON(dataKey(profiles.active)));
+const saveHooks = [];
+
+export const profileList = () => profiles.list;
+export const activeProfile = () => profiles.list.find((p) => p.id === profiles.active);
+export function saveProfiles() { writeJSON(PROFILES_KEY, profiles); }
+
+export function createProfile(name) {
+  const p = { id: uid(), name: String(name || '').trim().slice(0, 30) || 'Nowy profil', color: COLORS[profiles.list.length % COLORS.length], created: Date.now() };
+  profiles.list.push(p);
+  saveProfiles();
+  return p;
+}
+export function switchProfile(id) {
+  if (!profiles.list.some((p) => p.id === id)) return;
+  save({ touch: false });
+  profiles.active = id;
+  saveProfiles();
+  state = normalize(readJSON(dataKey(id)));
+}
+export function renameProfile(id, name) {
+  const p = profiles.list.find((x) => x.id === id);
+  if (p) { p.name = String(name || '').trim().slice(0, 30) || p.name; saveProfiles(); }
+}
+export function deleteProfile(id) {
+  if (profiles.list.length < 2) return false;
+  profiles.list = profiles.list.filter((p) => p.id !== id);
+  try { localStorage.removeItem(dataKey(id)); } catch { /* brak dostępu */ }
+  if (profiles.active === id) {
+    profiles.active = profiles.list[0].id;
+    state = normalize(readJSON(dataKey(profiles.active)));
+  }
+  saveProfiles();
+  return true;
+}
+// Dane konta w chmurze przypięte do aktywnego profilu (e-mail, tokeny sesji).
+export function setCloud(info) {
+  const p = activeProfile();
+  if (info) p.cloud = info; else delete p.cloud;
+  saveProfiles();
 }
 
+// ---------- zapis ----------
+export function save({ touch = true } = {}) {
+  if (touch) state.updatedAt = Date.now();
+  writeJSON(dataKey(profiles.active), state); // w trybie prywatnym zapis może się nie udać — aplikacja działa dalej
+  if (touch) saveHooks.forEach((fn) => fn());
+}
+export const onSave = (fn) => saveHooks.push(fn);
 export const get = () => state;
 
-export function replace(newState) {
-  const d = defaults();
-  state = { ...d, ...newState, settings: { ...d.settings, ...(newState.settings || {}) } };
-  save();
+export function replace(newState, { touch = true } = {}) {
+  state = normalize(newState);
+  save({ touch });
 }
 
 export function reset() {
-  const theme = state.settings.theme;
+  const { theme, przedmiot } = state.settings;
   state = defaults();
   state.settings.theme = theme;
+  state.settings.przedmiot = przedmiot;
   save();
 }
 
-// ---- daty (czas lokalny) ----
+// ---------- daty (czas lokalny) ----------
 export function dayKey(t = Date.now()) {
   const d = new Date(t);
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;

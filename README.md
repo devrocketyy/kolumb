@@ -78,6 +78,31 @@ narzedzia/dopisz-z-tekstu.py               szybkie dopisywanie fiszek z pliku te
 .github/workflows/pages.yml                automatyczne wdrożenie na GitHub Pages
 ```
 
+## Konta użytkowników
+
+Kolumb ma **profile** (każdy uczeń na wspólnym urządzeniu ma swoje postępy, serię i odznaki — zakładka *Profil*) oraz opcjonalne **konta w chmurze**: logowanie e-mailem i hasłem, dzięki któremu postępy są te same na telefonie i komputerze. Po zalogowaniu postępy z urządzenia i z konta są **scalane** (nic nie ginie), a później zmiany wysyłają się automatycznie.
+
+Konta wymagają bezpłatnego projektu [Supabase](https://supabase.com) — strona na GitHub Pages nie ma własnego serwera:
+
+1. Załóż projekt w Supabase.
+2. W *SQL Editor* uruchom:
+
+```sql
+create table postepy (
+  user_id uuid primary key references auth.users on delete cascade,
+  data jsonb not null,
+  updated_at timestamptz not null default now()
+);
+alter table postepy enable row level security;
+create policy "własne postępy" on postepy
+  for all using (auth.uid() = user_id) with check (auth.uid() = user_id);
+```
+
+3. W *Authentication → URL Configuration* ustaw *Site URL* na adres aplikacji (np. `https://devrocketyy.github.io/kolumb/`). Jeśli nie chcesz wymagać potwierdzenia e-maila, wyłącz *Confirm email* w *Authentication → Providers → Email*.
+4. W *Project Settings → API* skopiuj **Project URL** i klucz **anon public** do pliku `js/config.js` i wypchnij zmianę.
+
+Klucz *anon* jest publiczny z założenia — każdy uczeń widzi i zmienia wyłącznie własny wiersz dzięki regule RLS. Bez konfiguracji aplikacja działa jak dotąd: postępy są na urządzeniu, a w zakładce *Profil* widać informację, że konta nie są jeszcze włączone.
+
 ## Jak dodać nowy przedmiot
 
 1. Utwórz plik `przedmioty/<id>.json`, np. `przedmioty/historia.json`. Najprostsza wersja — wszystko w jednym pliku:

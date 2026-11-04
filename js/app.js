@@ -2,6 +2,7 @@
 import * as store from './store.js';
 import { loadSubjects } from './data.js';
 import * as game from './game.js';
+import * as cloud from './cloud.js';
 import { cardKey, nextState, intervalLabel, summary, buildQueue, newAllowance, MASTERED_BOX } from './srs.js';
 
 const REPORT_EMAIL = 'roc7et@gmail.com';
@@ -190,10 +191,14 @@ function notFound() {
 
 // ---------- ekran główny ----------
 // ---------- ścieżka nauki (ekran główny) ----------
-const PATH_X = [0, 44, 68, 44, 0, -44, -68, -44];
-const UNIT_COLORS = ['blue', 'gold', 'green', 'purple', 'red', 'teal', 'orange', 'blue', 'gold'];
 const lessonKey = (sid, type, id) => `${sid}/${type}/${id}`;
 const lessonRec = (sid, type, id) => store.get().lekcje?.[lessonKey(sid, type, id)] || { n: 0 };
+
+// Przedmiot wybrany przez ucznia (na start i w zakładce Nauka).
+const PLANNED = ['Historia', 'Geografia', 'Język polski', 'Matematyka', 'Biologia', 'Język angielski'];
+function currentSubject() {
+  return findSubject(store.get().settings.przedmiot) || subjects[0] || null;
+}
 
 function recommendedUnit(s) {
   const allowance = newAllowance(s.id);
@@ -206,55 +211,51 @@ function recommendedUnit(s) {
   return d ? { d, u: d.poddzialy[0] } : null;
 }
 
-function nodeIcon(state) {
-  if (state === 'done') return ICONS.crown;
-  if (state === 'current') return ICONS.star;
-  return ICONS.star;
-}
-
+// ---------- trasa nauki: działy jako odcinki, poddziały jako kolejne przystanki ----------
 function pathHtml(s, rec) {
   const allowance = newAllowance(s.id);
-  let k = 0;
   return s.dzialy.map((d, di) => {
     const smD = summary(s.id, d.poddzialy, allowance);
-    const color = UNIT_COLORS[di % UNIT_COLORS.length];
-    const nodes = d.poddzialy.map((u) => {
+    const open = rec ? rec.d === d : di === 0;
+    const doneN = d.poddzialy.filter((u) => summary(s.id, [u], allowance).progress >= 0.8).length;
+    const stops = d.poddzialy.map((u, ui) => {
       const sm = summary(s.id, [u], allowance);
       const lr = lessonRec(s.id, 'p', u.id);
       const cur = rec && rec.u === u;
       const state = sm.progress >= 0.8 ? 'done' : cur ? 'current' : sm.seen || lr.n ? 'started' : 'new';
-      const x = PATH_X[k++ % PATH_X.length];
-      return `<div class="path-node-wrap" style="--x:${x}px">
-        ${cur ? '<span class="path-start">Start</span>' : ''}
-        <button type="button" class="path-node ${state}" data-unit="${esc(u.id)}" style="--p:${pct(sm.progress)}" aria-label="${esc(u.nazwa)} — opanowanie ${pct(sm.progress)}%${sm.todo ? `, ${sm.todo} do powtórki` : ''}">
-          <span class="node-face">${nodeIcon(state)}</span>
-          ${sm.todo && sm.seen ? `<span class="node-badge">${sm.todo}</span>` : ''}
-        </button>
-        <span class="path-label">${esc(u.nazwa)}</span>
-        <div class="node-pop" data-pop="${esc(u.id)}" hidden></div>
-      </div>`;
+      const meta = [`${pct(sm.progress)}%`, lr.n ? `${lr.n} ${plural(lr.n, 'lekcja', 'lekcje', 'lekcji')}` : '', sm.todo && sm.seen ? `${sm.todo} do powtórki` : ''].filter(Boolean).join(' · ');
+      return `<li class="stop ${state}">
+        <span class="stop-dot" style="--p:${pct(sm.progress)}" aria-hidden="true"><i>${state === 'done' ? ICONS.check : ui + 1}</i></span>
+        <div class="stop-main">
+          <button type="button" class="stop-body" data-unit="${esc(u.id)}" aria-expanded="false">
+            <span class="stop-name">${esc(u.nazwa)}${cur ? ' <em class="here">tu jesteś</em>' : ''}</span>
+            <span class="stop-meta">${meta}</span>
+          </button>
+          <div class="stop-pop" data-pop="${esc(u.id)}" hidden></div>
+        </div>
+        <a class="stop-go" href="#/lekcja/${enc(s.id)}/p/${enc(u.id)}" aria-label="Lekcja: ${esc(u.nazwa)}">${ICONS.play}</a>
+      </li>`;
     }).join('');
-    return `<section class="unit unit-${color}">
-      <a class="unit-banner" href="${hrefDzial(s.id, d.id)}" aria-label="${esc(d.nazwa)} — szczegóły działu">
-        <div><span class="unit-kicker">Dział ${di + 1} · ${pct(smD.progress)}% opanowane</span><h3>${esc(d.nazwa)}</h3></div>
-        <span class="unit-guide" aria-hidden="true">${ICONS.book}</span>
-      </a>
-      <div class="path">${nodes}</div>
-    </section>`;
+    return `<details class="leg" ${open ? 'open' : ''}>
+      <summary class="leg-head">
+        <span class="leg-num">${di + 1}</span>
+        <span class="leg-text"><strong>${esc(d.nazwa)}</strong><small>${doneN}/${d.poddzialy.length} opanowanych · ${pct(smD.progress)}%</small>${progressBar(smD.progress, d.nazwa)}</span>
+        <span class="leg-chev" aria-hidden="true">${ICONS.next}</span>
+      </summary>
+      <ol class="stops">${stops}</ol>
+      <a class="leg-guide" href="${hrefDzial(s.id, d.id)}">${ICONS.book}<span>Cały dział: fiszki, test, zadania maturalne</span></a>
+    </details>`;
   }).join('');
 }
 
 function popHtml(s, u) {
   const sm = summary(s.id, [u]);
-  const lr = lessonRec(s.id, 'p', u.id);
   const nQ = u.pytania.length;
-  return `<strong>${esc(u.nazwa)}</strong>
-    <span class="pop-meta">Opanowanie ${pct(sm.progress)}% · lekcje: ${lr.n || 0}</span>
-    <a class="btn btn-primary btn-lg" href="#/lekcja/${enc(s.id)}/p/${enc(u.id)}">Zacznij lekcję</a>
-    <div class="pop-row">
+  return `<div class="pop-row">
+      <a class="btn btn-primary btn-sm" href="#/lekcja/${enc(s.id)}/p/${enc(u.id)}">${ICONS.play}<span>Lekcja</span></a>
       ${u.fiszki.length ? `<a class="btn btn-ghost btn-sm" href="#/fiszki/${enc(s.id)}/p/${enc(u.id)}">${ICONS.cards}<span>Fiszki${sm.todo ? ` (${sm.todo})` : ''}</span></a>` : ''}
       ${nQ ? `<a class="btn btn-ghost btn-sm" href="#/test/${enc(s.id)}/p/${enc(u.id)}">${ICONS.quiz}<span>Test</span></a>` : ''}
-      <a class="btn btn-ghost btn-sm" href="${hrefUnit(s.id, u.id)}">${ICONS.book}<span>Więcej</span></a>
+      <a class="btn btn-ghost btn-sm" href="${hrefUnit(s.id, u.id)}">${ICONS.book}<span>Treści</span></a>
     </div>`;
 }
 
@@ -273,14 +274,12 @@ function goalCard(s, rec) {
   const d = game.today();
   const g = game.goal();
   const st = store.streak();
+  const allowance = newAllowance(s.id);
   let todo = 0, best = null;
-  subjects.forEach((x) => {
-    const allowance = newAllowance(x.id);
-    x.dzialy.forEach((dz) => {
-      const n = summary(x.id, dz.poddzialy, allowance).todo;
-      todo += n;
-      if (n && (!best || n > best.n)) best = { s: x, d: dz, n };
-    });
+  s.dzialy.forEach((dz) => {
+    const n = summary(s.id, dz.poddzialy, allowance).todo;
+    todo += n;
+    if (n && (!best || n > best.n)) best = { d: dz, n };
   });
   return `<section class="goal-card">
     <div class="goal-top">
@@ -291,16 +290,28 @@ function goalCard(s, rec) {
       </div>
     </div>
     ${rec ? `<a class="btn btn-gold btn-xl btn-continue" href="#/lekcja/${enc(s.id)}/p/${enc(rec.u.id)}">${ICONS.play}<span>Kontynuuj<small>${esc(rec.u.nazwa)}</small></span></a>` : ''}
-    ${best ? `<a class="btn btn-ghost btn-lg" href="#/fiszki/${enc(best.s.id)}/d/${enc(best.d.id)}">${ICONS.cards}<span>Powtórki na dziś: ${todo}</span></a>` : ''}
+    ${best ? `<a class="btn btn-ghost btn-lg" href="#/fiszki/${enc(s.id)}/d/${enc(best.d.id)}">${ICONS.cards}<span>Powtórki na dziś: ${todo}</span></a>` : ''}
   </section>`;
 }
 
+function needsOnboarding() {
+  return !store.get().settings.przedmiot && subjects.length > 0;
+}
+
+// ---------- zakładka „Dziś” ----------
 function viewHome() {
+  if (needsOnboarding()) return viewStart();
   const showInstall = installEvent && !store.get().settings.installDismissed;
-  const main = subjects[0];
-  const rec = main ? recommendedUnit(main) : null;
+  const s = currentSubject();
+  const rec = s ? recommendedUnit(s) : null;
+  const nb = s ? mistakesOf(s).length : 0;
+  const smS = s ? summary(s.id, allUnits(s)) : null;
   app.innerHTML = `
-    ${main ? goalCard(main, rec) : ''}
+    <header class="today-head">
+      <h1>Dziś</h1>
+      ${s ? `<a class="subject-chip" href="#/nauka">${esc(s.skrot || s.nazwa)}<span>${pct(smS.progress)}%</span></a>` : ''}
+    </header>
+    ${s ? goalCard(s, rec) : ''}
     ${showInstall ? `<div class="install-banner">
         <div><strong>Zainstaluj Kolumba</strong><span>Ikona na ekranie głównym i nauka bez internetu.</span></div>
         <div class="install-actions">
@@ -308,30 +319,88 @@ function viewHome() {
           <button type="button" class="icon-btn" data-act="dismiss" aria-label="Nie teraz">${ICONS.close}</button>
         </div></div>` : ''}
     ${loadErrors.length ? `<div class="alert">Nie udało się wczytać: ${esc(loadErrors.join('; '))}</div>` : ''}
-    ${main && mistakesOf(main).length ? `<a class="card mistakes-card" href="#/bledy/${enc(main.id)}">
+    ${nb ? `<a class="card mistakes-card" href="#/bledy/${enc(s.id)}">
       <span class="quest-icon">${ICONS.redo}</span>
-      <span class="mistakes-text"><strong>Błędy do poprawy: ${mistakesOf(main).length}</strong><small>Lekcja z pytań, w których była pomyłka</small></span>
+      <span class="mistakes-text"><strong>Błędy do poprawy: ${nb}</strong><small>Lekcja z pytań, w których była pomyłka</small></span>
       ${ICONS.next}</a>` : ''}
     ${questsHtml()}
-    ${subjects.map((s) => `<h2 class="section-title">${esc(s.nazwa)}</h2>
-      <div class="path-wrap" data-sid="${esc(s.id)}">${pathHtml(s, s === main ? rec : recommendedUnit(s))}</div>`).join('') || '<p class="muted">Brak przedmiotów. Dodaj plik JSON do katalogu <code>przedmioty/</code>.</p>'}
+    ${s ? `<a class="card route-card" href="#/nauka">
+      <span class="quest-icon">${ICONS.compass}</span>
+      <span class="mistakes-text"><strong>Trasa nauki</strong><small>${rec ? `Dział ${s.dzialy.indexOf(rec.d) + 1}: ${esc(rec.d.nazwa)}` : esc(s.nazwa)}</small></span>
+      ${ICONS.next}</a>` : '<p class="muted">Brak przedmiotów. Dodaj plik JSON do katalogu <code>przedmioty/</code>.</p>'}
   `;
-
-  app.querySelectorAll('.path-wrap').forEach((wrap) => wrap.addEventListener('click', (e) => {
-    const b = e.target.closest('.path-node');
-    if (!b) return;
-    const s = findSubject(wrap.dataset.sid);
-    const u = s.units.get(b.dataset.unit);
-    const pop = wrap.querySelector(`[data-pop="${CSS.escape(u.id)}"]`);
-    const open = !pop.hidden;
-    app.querySelectorAll('.node-pop').forEach((p) => (p.hidden = true));
-    if (!open) { pop.innerHTML = popHtml(s, u); pop.hidden = false; game.sound('tap'); pop.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
-  }));
   app.querySelector('[data-act="install"]')?.addEventListener('click', promptInstall);
   app.querySelector('[data-act="dismiss"]')?.addEventListener('click', () => {
     store.get().settings.installDismissed = true;
     store.save();
     viewHome();
+  });
+}
+
+// ---------- zakładka „Nauka” ----------
+function viewNauka() {
+  if (needsOnboarding()) return viewStart();
+  const s = currentSubject();
+  if (!s) return notFound();
+  const rec = recommendedUnit(s);
+  const sm = summary(s.id, allUnits(s));
+  app.innerHTML = `
+    <header class="today-head">
+      <h1>${esc(s.nazwa)}</h1>
+      <a class="subject-chip" href="#/start">Zmień</a>
+    </header>
+    <p class="muted route-sum">${pct(sm.progress)}% opanowane · ${sm.mastered}/${nFiszek(sm.total)} · ${sm.todo} do powtórki</p>
+    <div class="route" data-sid="${esc(s.id)}">${pathHtml(s, rec)}</div>`;
+  const wrap = app.querySelector('.route');
+  wrap.addEventListener('click', (e) => {
+    const b = e.target.closest('.stop-body');
+    if (!b) return;
+    const u = s.units.get(b.dataset.unit);
+    const pop = wrap.querySelector(`[data-pop="${CSS.escape(u.id)}"]`);
+    const open = !pop.hidden;
+    wrap.querySelectorAll('.stop-pop').forEach((p) => (p.hidden = true));
+    wrap.querySelectorAll('.stop-body').forEach((x) => x.setAttribute('aria-expanded', 'false'));
+    if (!open) { pop.innerHTML = popHtml(s, u); pop.hidden = false; b.setAttribute('aria-expanded', 'true'); game.sound('tap'); }
+  });
+  wrap.querySelector('.stop.current')?.scrollIntoView({ block: 'center' });
+}
+
+// ---------- wybór przedmiotu (na start i przy zmianie) ----------
+function viewStart() {
+  const st = store.get();
+  const first = !st.settings.przedmiot;
+  const names = new Set(subjects.map((s) => s.nazwa.toLowerCase()));
+  const planned = PLANNED.filter((n) => !names.has(n.toLowerCase()));
+  const prof = store.activeProfile();
+  app.innerHTML = `
+    <section class="onboard">
+      ${first ? `<img src="ikony/ikona.svg" alt="" width="64" height="64"><h1>Od czego zaczynasz?</h1>
+        <p class="muted">Wybierz przedmiot. Możesz go zmienić w każdej chwili w zakładce Nauka.</p>` : `${pageHead('Wybierz przedmiot', '#/nauka')}`}
+      <div class="subject-pick" role="list">
+        ${subjects.map((s) => {
+          const sm = summary(s.id, allUnits(s));
+          return `<button type="button" role="listitem" class="subject-opt ${currentSubject() === s && !first ? 'active' : ''}" data-sid="${esc(s.id)}">
+            <span class="subject-badge">${esc((s.skrot || s.nazwa).slice(0, 3))}</span>
+            <span class="subject-opt-text"><strong>${esc(s.nazwa)}</strong><small>${s.dzialy.length} działów · ${nFiszek(sm.total)}${s.arkusze.length ? ` · ${s.arkusze.length} arkuszy CKE` : ''}</small></span>
+          </button>`;
+        }).join('')}
+        ${planned.map((n) => `<div role="listitem" class="subject-opt soon" aria-disabled="true">
+            <span class="subject-badge">${esc(n.slice(0, 3))}</span>
+            <span class="subject-opt-text"><strong>${esc(n)}</strong><small>wkrótce</small></span>
+          </div>`).join('')}
+      </div>
+      ${first ? `<label class="answer-label" for="pname">Jak masz na imię? <span class="muted">(opcjonalnie)</span></label>
+        <input class="type-input" id="pname" type="text" maxlength="30" autocomplete="given-name" placeholder="${esc(prof.name)}">` : ''}
+    </section>`;
+  app.querySelector('.subject-pick').addEventListener('click', (e) => {
+    const b = e.target.closest('.subject-opt[data-sid]');
+    if (!b) return;
+    st.settings.przedmiot = b.dataset.sid;
+    const name = app.querySelector('#pname')?.value.trim();
+    if (name) store.renameProfile(prof.id, name);
+    store.save();
+    game.sound('tap');
+    location.hash = first ? '#/' : '#/nauka';
   });
 }
 
@@ -803,7 +872,7 @@ function viewDzial(sid, did) {
   const nTasks = tasksOf(s, d.id).length;
 
   app.innerHTML = `
-    ${pageHead(d.nazwa, '#/', s.nazwa)}
+    ${pageHead(d.nazwa, '#/nauka', s.nazwa)}
     ${d.opis ? `<p class="lead">${esc(d.opis)}</p>` : ''}
     ${statsCard(sm)}
     <div class="actions">
@@ -1163,12 +1232,14 @@ function taskScore(sid, list) {
 }
 
 function viewMatura() {
-  const withTasks = subjects.filter((s) => s.arkusze.length);
+  const cur = currentSubject();
+  const shown = cur ? [cur] : subjects;
+  const withTasks = shown.filter((s) => s.arkusze.length);
   app.innerHTML = `
     ${pageHead('Matura', null)}
     <p class="lead">Próbne matury na czas oraz prawdziwe zadania z arkuszy CKE z kluczem odpowiedzi.</p>
-    ${subjects.filter((s) => s.bank.length || s.arkusze.length).map(examSection).join('')}
-    ${subjects.filter((s) => s.bank.length).map((s) => {
+    ${shown.filter((s) => s.bank.length || s.arkusze.length).map(examSection).join('')}
+    ${shown.filter((s) => s.bank.length).map((s) => {
       const byD = s.dzialy.map((d) => ({ d, list: bankTasks(s, d.id) })).filter((x) => x.list.length);
       return `<section class="card"><h2 class="card-title">Trening: zadania autorskie</h2>
         <p class="muted">Ćwicz wiązki zadań z jednego działu bez limitu czasu — od razu z kluczem i samooceną.</p>
@@ -1198,7 +1269,7 @@ function viewMatura() {
           <div class="chips">${byDzial.map(({ d, n }) => `<a class="chip" href="#/zadania/${enc(s.id)}/d/${enc(d.id)}">${esc(d.nazwa)} <b>${n}</b></a>`).join('')}</div>` : ''}
       </section>`;
     }).join('') || '<p class="muted">Brak zadań maturalnych w treściach.</p>'}`;
-  subjects.filter((s) => s.bank.length || s.arkusze.length).forEach(bindExamSection);
+  shown.filter((s) => s.bank.length || s.arkusze.length).forEach(bindExamSection);
 }
 
 let zs = null; // sesja zadań
@@ -1672,6 +1743,124 @@ function renderExamResult(s, e, ws) {
   });
 }
 
+// ---------- profil i konto ----------
+const initials = (n) => (String(n).trim().split(/\s+/).map((w) => w[0]).join('').slice(0, 2) || '?').toUpperCase();
+const avatar = (p, big) => `<span class="avatar ${big ? 'avatar-lg' : ''}" style="--av:${esc(p.color)}" aria-hidden="true">${esc(initials(p.name))}</span>`;
+let accountMsg = '';
+
+function accountHtml() {
+  const prof = store.activeProfile();
+  const list = store.profileList();
+  const acc = cloud.account();
+  const fmt = new Intl.DateTimeFormat('pl-PL', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+  let cloudPart;
+  if (!cloud.enabled()) {
+    cloudPart = `<p class="muted small">Logowanie na konto (postępy na każdym urządzeniu) nie jest jeszcze włączone w tej wersji aplikacji. Do tego czasu postępy zapisują się na tym urządzeniu — możesz je przenieść kopią w Ustawieniach.</p>`;
+  } else if (acc) {
+    cloudPart = `<div class="acc-row"><span>${ICONS.check}<strong>${esc(acc.email || 'Zalogowano')}</strong></span>
+        <small class="muted">${acc.synced ? `Zapisano w chmurze: ${fmt.format(acc.synced)}` : 'Jeszcze nie zsynchronizowano'}</small></div>
+      <div class="pop-row">
+        <button type="button" class="btn btn-ghost btn-sm" data-acc="sync">Synchronizuj teraz</button>
+        <button type="button" class="btn btn-ghost btn-sm" data-acc="logout">Wyloguj</button>
+      </div>`;
+  } else {
+    cloudPart = `<form class="acc-form" id="acc-form" novalidate>
+        <p class="muted small">Zaloguj się, aby mieć swoje postępy, serię i odznaki na każdym urządzeniu.</p>
+        <input class="type-input" name="email" type="email" autocomplete="email" placeholder="E-mail" aria-label="E-mail" required>
+        <input class="type-input" name="pass" type="password" autocomplete="current-password" placeholder="Hasło (min. 6 znaków)" aria-label="Hasło" minlength="6" required>
+        <div class="pop-row">
+          <button type="submit" class="btn btn-primary btn-sm" data-mode="in">Zaloguj się</button>
+          <button type="submit" class="btn btn-ghost btn-sm" data-mode="up">Załóż konto</button>
+        </div>
+      </form>`;
+  }
+  return `<section class="card profile-card">
+      <div class="profile-top">${avatar(prof, true)}
+        <div class="profile-name"><strong id="pn">${esc(prof.name)}</strong>
+          <button type="button" class="btn-report" data-acc="rename"><span>Zmień nazwę</span></button></div>
+      </div>
+      <div id="rename-box" hidden>
+        <input class="type-input" id="rename-in" maxlength="30" value="${esc(prof.name)}" aria-label="Nazwa profilu">
+        <div class="pop-row"><button type="button" class="btn btn-primary btn-sm" data-acc="rename-ok">Zapisz</button></div>
+      </div>
+      <h3 class="sub-title">Konto</h3>
+      ${cloudPart}
+      ${accountMsg ? `<p class="acc-msg" role="status">${esc(accountMsg)}</p>` : ''}
+      <h3 class="sub-title">Profile na tym urządzeniu</h3>
+      <p class="muted small">Każdy profil ma osobne postępy — np. dla rodzeństwa korzystającego z jednego telefonu.</p>
+      <ul class="profiles">${list.map((p) => `<li class="${p.id === prof.id ? 'active' : ''}">
+          <button type="button" class="profile-switch" data-pid="${esc(p.id)}">${avatar(p)}<span>${esc(p.name)}${p.cloud ? ' <small class="muted">· konto</small>' : ''}</span>${p.id === prof.id ? '<em class="here">aktywny</em>' : ''}</button>
+          ${p.id !== prof.id ? `<button type="button" class="icon-btn" data-del="${esc(p.id)}" aria-label="Usuń profil ${esc(p.name)}">${ICONS.close}</button>` : ''}
+        </li>`).join('')}</ul>
+      <div id="del-confirm"></div>
+      <div class="pop-row"><input class="type-input" id="new-prof" maxlength="30" placeholder="Imię nowego profilu" aria-label="Imię nowego profilu"><button type="button" class="btn btn-ghost btn-sm" data-acc="add">Dodaj profil</button></div>
+    </section>`;
+}
+
+function afterProfileChange() {
+  session = test = zs = lesson = null;
+  applyTheme();
+  updateTopStats();
+}
+
+function bindAccount() {
+  const rerender = (msg) => { accountMsg = msg || ''; viewStats(); };
+  app.querySelector('[data-acc="rename"]')?.addEventListener('click', () => { app.querySelector('#rename-box').hidden = false; app.querySelector('#rename-in').focus(); });
+  app.querySelector('[data-acc="rename-ok"]')?.addEventListener('click', () => { store.renameProfile(store.activeProfile().id, app.querySelector('#rename-in').value); rerender(); });
+  app.querySelector('[data-acc="add"]')?.addEventListener('click', () => {
+    const p = store.createProfile(app.querySelector('#new-prof').value);
+    store.switchProfile(p.id);
+    afterProfileChange();
+    location.hash = '#/start';
+  });
+  app.querySelector('.profiles').addEventListener('click', (e) => {
+    const sw = e.target.closest('[data-pid]');
+    const del = e.target.closest('[data-del]');
+    if (sw && sw.dataset.pid !== store.activeProfile().id) {
+      store.switchProfile(sw.dataset.pid);
+      afterProfileChange();
+      rerender(`Przełączono na profil: ${store.activeProfile().name}`);
+    }
+    if (del) {
+      const p = store.profileList().find((x) => x.id === del.dataset.del);
+      const box = app.querySelector('#del-confirm');
+      box.innerHTML = `<div class="feedback bad"><strong>Usunąć profil „${esc(p.name)}”?</strong><p>Postępy tego profilu na tym urządzeniu zostaną usunięte${p.cloud ? ' (kopia na koncie zostaje)' : ''}.</p>
+        <div class="pop-row"><button type="button" class="btn btn-danger-solid btn-sm" data-yes>Usuń</button><button type="button" class="btn btn-ghost btn-sm" data-no>Anuluj</button></div></div>`;
+      box.querySelector('[data-no]').onclick = () => (box.innerHTML = '');
+      box.querySelector('[data-yes]').onclick = () => { store.deleteProfile(p.id); rerender('Profil usunięty.'); };
+    }
+  });
+  const form = app.querySelector('#acc-form');
+  if (form) {
+    let mode = 'in';
+    form.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => (mode = b.dataset.mode)));
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = form.email.value.trim();
+      const pass = form.pass.value;
+      if (!/^\S+@\S+\.\S+$/.test(email)) return rerender('Podaj poprawny adres e-mail.');
+      if (pass.length < 6) return rerender('Hasło musi mieć co najmniej 6 znaków.');
+      form.querySelectorAll('button').forEach((b) => (b.disabled = true));
+      try {
+        if (mode === 'up') {
+          const r = await cloud.signUp(email, pass);
+          rerender(r.confirm ? 'Sprawdź skrzynkę i kliknij link potwierdzający, a potem zaloguj się.' : 'Konto założone — postępy są zapisywane na koncie.');
+        } else {
+          const r = await cloud.signIn(email, pass);
+          afterProfileChange();
+          rerender(r === 'merged' ? 'Zalogowano — połączono postępy z konta i z tego urządzenia.' : 'Zalogowano — postępy z tego urządzenia zapisano na koncie.');
+        }
+      } catch (err) {
+        rerender(err.message);
+      }
+    });
+  }
+  app.querySelector('[data-acc="sync"]')?.addEventListener('click', async () => {
+    try { const r = await cloud.sync(); afterProfileChange(); rerender(r === 'merged' ? 'Zsynchronizowano z kontem.' : 'Postępy zapisane na koncie.'); } catch (err) { rerender(err.message); }
+  });
+  app.querySelector('[data-acc="logout"]')?.addEventListener('click', async () => { await cloud.signOut(); rerender('Wylogowano. Postępy zostają na tym urządzeniu.'); });
+}
+
 // ---------- statystyki ----------
 function viewStats() {
   const st = store.streak();
@@ -1715,7 +1904,8 @@ function viewStats() {
   const wfmt = new Intl.DateTimeFormat('pl-PL', { weekday: 'short' });
   const got = state.odznaki || {};
   app.innerHTML = `
-    ${pageHead('Statystyki', null)}
+    ${pageHead('Profil', null)}
+    ${accountHtml()}
     <section class="card level-card">
       <div class="level-badge"><span>Poziom</span><strong>${lv}</strong></div>
       <div class="level-body">
@@ -1772,6 +1962,7 @@ function viewStats() {
           <span class="score ${p >= 70 ? 'ok' : p >= 50 ? 'warn' : 'bad'}">${p}%</span></li>`;
       }).join('')}</ul>` : '<p class="muted">Nie masz jeszcze żadnego testu. Rozwiąż pierwszy w wybranym dziale!</p>'}
     </section>`;
+  bindAccount();
 }
 
 // ---------- ustawienia ----------
@@ -1796,6 +1987,11 @@ function viewSettings() {
       <div class="segmented seg-4" role="radiogroup" aria-label="Nowe fiszki dziennie">
         ${[10, 20, 30, 50].map((v) => `<button type="button" role="radio" aria-checked="${npd === v}" class="${npd === v ? 'active' : ''}" data-npd="${v}">${v}</button>`).join('')}
       </div>
+    </section>
+
+    <section class="card">
+      <h2 class="card-title">Przedmiot</h2>
+      <a class="subject-opt" href="#/start"><span class="subject-badge">${esc((currentSubject()?.skrot || '?').slice(0, 3))}</span><span class="subject-opt-text"><strong>${esc(currentSubject()?.nazwa || 'Nie wybrano')}</strong><small>Zmień przedmiot</small></span></a>
     </section>
 
     <section class="card">
@@ -1941,6 +2137,9 @@ const routes = [
   [/^#\/zadania\/([^/]+)\/(a|d|b)\/([^/]+)$/, viewZadania],
   [/^#\/egzamin\/([^/]+)\/([^/]+)$/, viewEgzamin],
   [/^#\/statystyki$/, viewStats],
+  [/^#\/profil$/, viewStats],
+  [/^#\/nauka$/, viewNauka],
+  [/^#\/start$/, viewStart],
   [/^#\/ustawienia$/, viewSettings],
 ];
 
@@ -1963,9 +2162,10 @@ function route() {
     hit[1](...m.slice(1).map((x) => (x === undefined ? undefined : decodeURIComponent(x))));
   } else notFound();
 
-  const tab = hash.startsWith('#/statystyki') ? 'stats'
+  const tab = hash.startsWith('#/statystyki') || hash.startsWith('#/profil') ? 'stats'
     : hash.startsWith('#/ustawienia') ? 'settings'
-    : hash.startsWith('#/matura') || hash.startsWith('#/zadania') || hash.startsWith('#/egzamin') ? 'matura' : 'home';
+    : hash.startsWith('#/matura') || hash.startsWith('#/zadania') || hash.startsWith('#/egzamin') ? 'matura'
+    : /^#\/(nauka|start|d\/|p\/|lista|fiszki|test|lekcja)/.test(hash) ? 'nauka' : 'home';
   document.querySelectorAll('.tabbar a').forEach((a) => {
     const on = a.dataset.tab === tab;
     a.classList.toggle('active', on);
@@ -1994,6 +2194,7 @@ document.addEventListener('keydown', (e) => {
 async function init() {
   applyTheme();
   game.onChange(onGameEvents);
+  cloud.startAutoSync(() => {});
   updateTopStats();
   try {
     ({ subjects, errors: loadErrors } = await loadSubjects());
