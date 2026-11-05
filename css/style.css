@@ -291,7 +291,8 @@ body.in-gate { padding-bottom: 24px; }
 .medal .badge-medal { width: 52px; height: 52px; margin: 0; }
 .medal.got small { color: var(--text); }
 .medal.got .badge-medal { background: var(--accent); color: var(--on-accent); box-shadow: 0 3px 0 var(--accent-shadow); }
-.more > summary, .connect > summary { cursor: pointer; margin: 0; list-style: none; display: flex; justify-content: space-between; }
+.more > summary, .connect > summary { cursor: pointer; margin: 0; list-style: none; display: flex; justify-content: space-between; align-items: center; font-weight: 800; font-size: 1.05rem; }
+.more > summary::-webkit-details-marker, .connect > summary::-webkit-details-marker { display: none; }
 .more > summary::after, .connect > summary::after { content: "›"; color: var(--text-2); font-size: 1.3rem; line-height: 1; transition: transform .2s; }
 .more[open] > summary::after, .connect[open] > summary::after { transform: rotate(90deg); }
 .more[open] > summary { margin-bottom: 14px; }
@@ -709,7 +710,12 @@ body.in-lesson .toast { bottom: calc(250px + env(safe-area-inset-bottom)); }
   .face { padding: 40px; }
   .options { gap: 12px; }
 }
+@media (min-width: 760px) {
+  /* górny pasek wyrównany do kolumny z treścią */
+  .topbar { padding-left: max(16px, calc((100% - 688px) / 2)); padding-right: max(16px, calc((100% - 688px) / 2)); }
+}
 @media (min-width: 1000px) {
+  body { padding-bottom: 128px; }
   .tabbar { left: 50%; right: auto; bottom: 16px; transform: translateX(-50%); width: 560px; border: 2px solid var(--border); border-radius: 22px; padding-bottom: 6px; }
 }
 @media (max-width: 380px) {
