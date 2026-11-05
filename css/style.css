@@ -562,6 +562,13 @@ body.in-gate { padding-bottom: 24px; }
 .seg-4 { grid-template-columns: repeat(4, 1fr); margin-top: 12px; }
 .seg-2 { grid-template-columns: repeat(2, 1fr); }
 
+/* ---------- zakładki w sekcji Matura ---------- */
+.seg-tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; padding: 4px; margin-bottom: 16px; border-radius: 14px; background: var(--surface-2); position: sticky; top: calc(62px + env(safe-area-inset-top, 0px)); z-index: 5; }
+.seg-tabs a { display: grid; place-items: center; min-height: 42px; padding: 4px; border-radius: 10px; border: 2px solid transparent; text-decoration: none; font-weight: 800; font-size: .86rem; color: var(--text-2); text-align: center; line-height: 1.15; }
+.seg-tabs a.active { background: var(--surface); color: var(--primary); border-color: var(--primary); }
+.dzial-both { display: grid; gap: 10px; }
+.dzial-both .btn b { margin-left: 4px; color: var(--primary); }
+
 /* ---------- zadania maturalne ---------- */
 .subject-exam { margin-top: 12px; }
 .sub-title { font-size: .95rem; margin: 18px 0 10px; color: var(--text-2); }

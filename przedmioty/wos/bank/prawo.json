@@ -439,6 +439,122 @@
      "zasady": "1 pkt – podanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
     }
    ]
+  },
+  {
+   "id": "t069",
+   "dzial": "prawo",
+   "tytul": "Prawo spadkowe",
+   "material": "Sytuacja. Pan Marek zmarł, nie pozostawiając testamentu. Pozostawił żonę, dwoje dorosłych dzieci i matkę. W skład spadku wchodzi mieszkanie warte 600 tys. zł.",
+   "zrodlo": "Zadanie autorskie Kolumba. Tekst autorski na podstawie Kodeksu cywilnego.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę sposobu dziedziczenia w opisanej sytuacji oraz wskaż, kto dziedziczy po panu Marku.",
+     "odpowiedz": "Dziedziczenie ustawowe; dziedziczą żona i dwoje dzieci (matka nie dziedziczy, bo spadkodawca miał zstępnych).",
+     "zasady": "1 pkt – podanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    },
+    {
+     "nr": "2",
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz udział żony w spadku, wiedząc, że małżonek dziedziczy w częściach równych z dziećmi, ale jego część nie może być mniejsza niż 1/4.",
+     "odpowiedz": "1/3 spadku (żona i dwoje dzieci dziedziczą po równo) — 200 tys. zł.",
+     "zasady": "1 pkt – podanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    },
+    {
+     "nr": "3",
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, czym jest zachowek i kiedy przysługuje.",
+     "odpowiedz": "Zachowek to roszczenie pieniężne przysługujące najbliższym (zstępnym, małżonkowi, rodzicom), którzy zostaliby powołani do spadku z ustawy, a zostali pominięci w testamencie lub otrzymali mniej — zwykle połowa udziału ustawowego (2/3 dla małoletnich i trwale niezdolnych do pracy).",
+     "zasady": "1 pkt – poprawne wyjaśnienie z odwołaniem do materiału lub wiedzy.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    }
+   ]
+  },
+  {
+   "id": "t070",
+   "dzial": "prawo",
+   "tytul": "Prawa konsumenta",
+   "material": "Sytuacja 1. Pani Anna kupiła przez internet buty, ale po przymierzeniu stwierdziła, że jej się nie podobają.\nSytuacja 2. Pan Jan kupił w sklepie stacjonarnym laptop, który po dwóch miesiącach przestał się włączać.",
+   "zrodlo": "Zadanie autorskie Kolumba. Tekst autorski na podstawie ustawy o prawach konsumenta.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy pani Anna może zwrócić buty bez podania przyczyny. Odpowiedź uzasadnij i podaj termin.",
+     "odpowiedz": "Rozstrzygnięcie – Tak.\nUzasadnienie – Konsument może odstąpić od umowy zawartej na odległość bez podania przyczyny w terminie 14 dni od otrzymania towaru.",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    },
+    {
+     "nr": "2",
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę podstawy reklamacji, z której może skorzystać pan Jan wobec sprzedawcy, oraz okres, w jakim sprzedawca odpowiada za wady ujawnione po wydaniu towaru.",
+     "odpowiedz": "Niezgodność towaru z umową (dawniej rękojmia); 2 lata od wydania towaru.",
+     "zasady": "1 pkt – podanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    },
+    {
+     "nr": "3",
+     "typ": "pf",
+     "punkty": 1,
+     "polecenie": "Oceń prawdziwość podanych stwierdzeń.\n1. Prawo odstąpienia od umowy bez podania przyczyny przysługuje także przy zakupie w sklepie stacjonarnym.  (P / F)\n2. Instytucją publiczną chroniącą konsumentów jest Urząd Ochrony Konkurencji i Konsumentów.  (P / F)",
+     "odpowiedz": "1. F\n2. P",
+     "zasady": "1 pkt – poprawna ocena wszystkich stwierdzeń.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    }
+   ]
+  },
+  {
+   "id": "t071",
+   "dzial": "prawo",
+   "tytul": "Sądy i środki odwoławcze",
+   "material": "Sytuacja. Sąd rejonowy w sprawie cywilnej wydał wyrok niekorzystny dla pana Tomasza. Pan Tomasz uważa, że sąd błędnie ocenił dowody.",
+   "zrodlo": "Zadanie autorskie Kolumba. Tekst autorski na podstawie Kodeksu postępowania cywilnego.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę środka odwoławczego od wyroku sądu I instancji, termin jego wniesienia oraz sąd, który go rozpatrzy.",
+     "odpowiedz": "Apelacja; 2 tygodnie od doręczenia wyroku z uzasadnieniem; sąd okręgowy.",
+     "zasady": "1 pkt – podanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    },
+    {
+     "nr": "2",
+     "typ": "porownaj",
+     "punkty": 1,
+     "polecenie": "Porównaj apelację ze skargą kasacyjną — wskaż jedną różnicę.",
+     "odpowiedz": "Apelacja jest zwykłym środkiem odwoławczym od nieprawomocnego wyroku I instancji, a skarga kasacyjna — nadzwyczajnym środkiem od prawomocnego wyroku II instancji, rozpatrywanym przez Sąd Najwyższy.",
+     "zasady": "1 pkt – poprawne wskazanie podobieństwa lub różnicy.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    }
+   ]
+  },
+  {
+   "id": "t072",
+   "dzial": "prawo",
+   "tytul": "Odpowiedzialność nieletnich",
+   "material": "Sprawca 1. Dwunastolatek pobił kolegę na przerwie.\nSprawca 2. Szesnastolatek ukradł telefon w sklepie.\nSprawca 3. Szesnastolatek dokonał rozboju z użyciem noża.\nSprawca 4. Osiemnastolatek ukradł rower.",
+   "zrodlo": "Zadanie autorskie Kolumba. Tekst autorski na podstawie Kodeksu karnego i ustawy o wspieraniu i resocjalizacji nieletnich.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę sądu (wydziału), który zajmie się sprawą sprawcy 1., oraz rodzaj środków, które może zastosować.",
+     "odpowiedz": "Sąd rodzinny (wydział rodzinny i nieletnich); środki wychowawcze (np. upomnienie, nadzór kuratora), a w szczególnych przypadkach — środek poprawczy (od 13 lat).",
+     "zasady": "1 pkt – podanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    },
+    {
+     "nr": "2",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, który ze sprawców 2.–4. może odpowiadać według Kodeksu karnego jak dorosły. Odpowiedź uzasadnij.",
+     "odpowiedz": "Sprawca 4. (pełnoletni — odpowiada od 17 lat) oraz sprawca 3. — nieletni, który ukończył 15 lat, może odpowiadać jak dorosły za niektóre ciężkie przestępstwa (m.in. rozbój z użyciem niebezpiecznego narzędzia), jeśli przemawiają za tym okoliczności.",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    }
+   ]
   }
  ]
 }

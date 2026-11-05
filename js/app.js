@@ -1183,45 +1183,51 @@ function taskScore(sid, list) {
   return { done, pkt, max, total: list.length };
 }
 
-function viewMatura() {
-  const cur = currentSubject();
-  const shown = cur ? [cur] : subjects;
-  const withTasks = shown.filter((s) => s.arkusze.length);
+const MATURA_TABS = [['proba', 'Próbna'], ['cke', 'Arkusze CKE'], ['dzialy', 'Działy'], ['autorskie', 'Autorskie']];
+const scoreTag = (sc) => (sc.done ? `<span class="score ${sc.pkt / sc.max >= .7 ? 'ok' : sc.pkt / sc.max >= .5 ? 'warn' : 'bad'}">${pct(sc.pkt / sc.max)}%</span>` : '');
+
+function taskRow(href, name, sc, right = '') {
+  return `<a class="dzial-row" href="${href}">
+    <div class="dzial-row-top"><span class="dzial-name">${esc(name)}</span>${scoreTag(sc)}</div>
+    ${progressBar(sc.done / (sc.total || 1), `Rozwiązane zadania: ${name}`)}
+    <div class="dzial-meta"><span>${sc.done}/${nZadan(sc.total)} rozwiązanych</span>${right}</div>
+  </a>`;
+}
+
+function viewMatura(tab) {
+  tab = MATURA_TABS.some(([k]) => k === tab) ? tab : 'proba';
+  const s = currentSubject();
+  if (!s) return notFound();
+  let body = '';
+  if (tab === 'proba') {
+    body = examSection(s);
+  } else if (tab === 'cke') {
+    body = `<div class="dzial-list">${s.arkusze.map((a) => taskRow(`#/zadania/${enc(s.id)}/a/${enc(a.id)}`, a.nazwa, taskScore(s.id, a.zadania), `<span>${a.punkty} pkt</span>`)).join('')}</div>`
+      || '<p class="muted">Brak arkuszy CKE.</p>';
+  } else if (tab === 'dzialy') {
+    body = `<p class="muted small">Zadania z arkuszy CKE i zadania autorskie z jednego działu.</p>
+      <div class="dzial-list">${s.dzialy.map((d) => {
+        const cke = tasksOf(s, d.id);
+        const own = bankTasks(s, d.id);
+        return `<div class="dzial-row dzial-both">
+          <span class="dzial-name">${esc(d.nazwa)}</span>
+          <div class="pop-row">
+            ${cke.length ? `<a class="btn btn-ghost btn-sm" href="#/zadania/${enc(s.id)}/d/${enc(d.id)}">CKE <b>${cke.length}</b></a>` : ''}
+            ${own.length ? `<a class="btn btn-ghost btn-sm" href="#/zadania/${enc(s.id)}/b/${enc(d.id)}">Autorskie <b>${own.length}</b></a>` : ''}
+          </div>
+        </div>`;
+      }).join('')}</div>`;
+  } else {
+    const all = bankTasks(s);
+    body = `<p class="muted small">${nZadan(all.length)} w ${s.bank.length} wiązkach — w formacie matury od 2026 r., z kluczem i zasadami oceniania.</p>
+      <div class="dzial-list">${s.dzialy.map((d) => ({ d, list: bankTasks(s, d.id) })).filter((x) => x.list.length)
+        .map(({ d, list }) => taskRow(`#/zadania/${enc(s.id)}/b/${enc(d.id)}`, d.nazwa, taskScore(s.id, list))).join('')}</div>`;
+  }
   app.innerHTML = `
     ${pageHead('Matura', null)}
-    <p class="lead">Próbne matury na czas oraz prawdziwe zadania z arkuszy CKE z kluczem odpowiedzi.</p>
-    ${shown.filter((s) => s.bank.length || s.arkusze.length).map(examSection).join('')}
-    ${shown.filter((s) => s.bank.length).map((s) => {
-      const byD = s.dzialy.map((d) => ({ d, list: bankTasks(s, d.id) })).filter((x) => x.list.length);
-      return `<section class="card"><h2 class="card-title">Trening: zadania autorskie</h2>
-        <p class="muted">Ćwicz wiązki zadań z jednego działu bez limitu czasu — od razu z kluczem i samooceną.</p>
-        <div class="dzial-list">${byD.map(({ d, list }) => {
-          const sc = taskScore(s.id, list);
-          return `<a class="dzial-row" href="#/zadania/${enc(s.id)}/b/${enc(d.id)}">
-            <div class="dzial-row-top"><span class="dzial-name">${esc(d.nazwa)}</span>${sc.done ? `<span class="score ${sc.pkt / sc.max >= .7 ? 'ok' : sc.pkt / sc.max >= .5 ? 'warn' : 'bad'}">${pct(sc.pkt / sc.max)}%</span>` : ''}</div>
-            ${progressBar(sc.done / (sc.total || 1), `Rozwiązane zadania autorskie: ${d.nazwa}`)}
-            <div class="dzial-meta"><span>${sc.done}/${nZadan(sc.total)} rozwiązanych</span></div>
-          </a>`;
-        }).join('')}</div></section>`;
-    }).join('')}
-    <h2 class="section-title">Arkusze CKE</h2>
-    ${withTasks.map((s) => {
-      const byDzial = s.dzialy.map((d) => ({ d, n: tasksOf(s, d.id).length })).filter((x) => x.n);
-      return `<section class="card">
-        <h2 class="card-title">${esc(s.ikona)} ${esc(s.nazwa)}</h2>
-        <div class="dzial-list">${s.arkusze.map((a) => {
-          const sc = taskScore(s.id, a.zadania);
-          return `<a class="dzial-row" href="#/zadania/${enc(s.id)}/a/${enc(a.id)}">
-            <div class="dzial-row-top"><span class="dzial-name">${esc(a.nazwa)}</span>${sc.done ? `<span class="score ${sc.pkt / sc.max >= .7 ? 'ok' : sc.pkt / sc.max >= .5 ? 'warn' : 'bad'}">${pct(sc.pkt / sc.max)}%</span>` : ''}</div>
-            ${progressBar(sc.done / (sc.total || 1), `Rozwiązane zadania: ${a.nazwa}`)}
-            <div class="dzial-meta"><span>${sc.done}/${nZadan(sc.total)} rozwiązanych</span><span>${a.punkty} pkt</span></div>
-          </a>`;
-        }).join('')}</div>
-        ${byDzial.length ? `<h3 class="sub-title">Według działów</h3>
-          <div class="chips">${byDzial.map(({ d, n }) => `<a class="chip" href="#/zadania/${enc(s.id)}/d/${enc(d.id)}">${esc(d.nazwa)} <b>${n}</b></a>`).join('')}</div>` : ''}
-      </section>`;
-    }).join('') || '<p class="muted">Brak zadań maturalnych w treściach.</p>'}`;
-  shown.filter((s) => s.bank.length || s.arkusze.length).forEach(bindExamSection);
+    <nav class="seg-tabs" aria-label="Sekcje matury">${MATURA_TABS.map(([k, l]) => `<a href="#/matura/${k}" class="${k === tab ? 'active' : ''}" ${k === tab ? 'aria-current="page"' : ''}>${l}</a>`).join('')}</nav>
+    ${body}`;
+  if (tab === 'proba') bindExamSection(s);
 }
 
 let zs = null; // sesja zadań
@@ -1335,7 +1341,7 @@ function renderTask() {
 
   app.innerHTML = `
     <div class="session-top">
-      <a class="icon-btn" href="#/matura" aria-label="Zamknij">${ICONS.close}</a>
+      <a class="icon-btn" href="#/matura/${{ a: 'cke', b: 'autorskie', d: 'dzialy' }[zs.key.split('/')[1]] || 'proba'}" aria-label="Zamknij">${ICONS.close}</a>
       <div class="session-progress">${progressBar((i + 1) / list.length, 'Postęp')}</div>
       <span class="session-count">${i + 1}/${list.length}</span>
     </div>
@@ -2126,7 +2132,7 @@ const routes = [
   [/^#\/bledy\/([^/]+)$/, viewBledy],
   [/^#\/szukaj$/, viewSzukaj],
   [/^#\/lista\/([^/]+)\/([^/]+)$/, viewLista],
-  [/^#\/matura$/, viewMatura],
+  [/^#\/matura(?:\/(proba|cke|dzialy|autorskie))?$/, viewMatura],
   [/^#\/zadania\/([^/]+)\/(a|d|b)\/([^/]+)$/, viewZadania],
   [/^#\/egzamin\/([^/]+)\/([^/]+)$/, viewEgzamin],
   [/^#\/statystyki$/, viewStats],
