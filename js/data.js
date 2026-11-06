@@ -1,4 +1,4 @@
-// Kolumb — wczytywanie treści z plików JSON w katalogu przedmioty/.
+// IndexLab — wczytywanie treści z plików JSON w katalogu przedmioty/.
 //
 // Przedmiot (przedmioty/<id>.json) zawiera listę działów. Dział może:
 //  • mieć fiszki i pytania bezpośrednio (jeden poddział),
@@ -99,7 +99,7 @@ function normalizeBank(b) {
     tytul: w.tytul || '',
     material: w.material || '',
     uwaga: w.uwaga || '',
-    zrodlo: w.zrodlo || 'Zadanie autorskie Kolumba',
+    zrodlo: w.zrodlo || 'Zadanie autorskie IndexLab',
     autorskie: true,
     zadania: (w.zadania || []).map((z, i) => ({
       nr: String(z.nr ?? i + 1),

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Kolumb — bank zadań autorskich z prostego formatu tekstowego do JSON.
+"""IndexLab — bank zadań autorskich z prostego formatu tekstowego do JSON.
 
 Użycie:  python3 narzedzia/zbuduj-bank.py <przedmiot> plik1.txt [plik2.txt ...]
 Wynik:   przedmioty/<przedmiot>/bank/<dział>.json (wiązki o tym samym id są nadpisywane, inne zostają).
@@ -48,12 +48,12 @@ def parse(path):
             tag, rest = m.group(1), m.group(2).strip()
             if tag == 'W':
                 i, d, t = [x.strip() for x in rest.split('|', 2)]
-                w = {'id': i, 'dzial': d, 'tytul': t, 'material': '', 'zrodlo': 'Zadanie autorskie Kolumba', 'zadania': []}
+                w = {'id': i, 'dzial': d, 'tytul': t, 'material': '', 'zrodlo': 'Zadanie autorskie IndexLab', 'zadania': []}
                 wiazki.append(w); z = None; field = None
             elif tag == 'M':
                 field = ('w', 'material')
             elif tag == 'R':
-                w['zrodlo'] = 'Zadanie autorskie Kolumba. ' + rest
+                w['zrodlo'] = 'Zadanie autorskie IndexLab. ' + rest
                 field = None
             elif tag == 'Z':
                 typ, pkt = [x.strip() for x in rest.split('|')]

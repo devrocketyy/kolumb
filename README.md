@@ -1,6 +1,10 @@
-# 🧭 Kolumb — nauka do matury
+# IndexLab — matura z WOS
 
-Kolumb to aplikacja webowa do nauki do matury: **fiszki z powtórkami rozłożonymi w czasie**, **testy ABCD** i **prawdziwe zadania maturalne CKE z kluczem odpowiedzi**.
+> **Kolumb jest teraz częścią IndexLab.** To ta sama aplikacja pod nową marką: postępy użytkowników są zachowane (zapisy w przeglądarce nadal używają kluczy `kolumb.*`, żeby nic nie przepadło).
+>
+> Marka: czerń `#111111` i jasnoszary `#F1F2F1`, fonty Inter i Inter Tight (lokalnie w `fonty/`), logo w `ikony/logo/` (znak „i” z gwiazdką w okręgu i napis „indexlab”). Materiały są niezależne — nie są publikowane przez CKE ani organizatorów olimpiad.
+
+IndexLab to aplikacja webowa do nauki do matury: **fiszki z powtórkami rozłożonymi w czasie**, **testy ABCD** i **prawdziwe zadania maturalne CKE z kluczem odpowiedzi**.
 Działa w przeglądarce na telefonie, tablecie i komputerze, można ją dodać do ekranu głównego i uczyć się **bez internetu**.
 
 - czysty HTML, CSS i JavaScript — bez backendu, bez kosztów utrzymania,
@@ -25,7 +29,7 @@ Działa w przeglądarce na telefonie, tablecie i komputerze, można ją dodać d
 
 **Zadania maturalne:** 9 arkuszy CKE: maj i czerwiec 2023, maj i czerwiec 2024, maj i czerwiec 2025, próbna matura CKE ze stycznia 2026 oraz maj i czerwiec 2026 (formuła 2023; od 2026 r. arkusz ma 50 pkt i jedno zadanie rozszerzonej odpowiedzi za 7 pkt) — 381 zadań (509 pkt) z materiałami źródłowymi, poleceniami, przykładowymi odpowiedziami i zasadami oceniania. Każde zadanie jest przypisane do działów na podstawie wymagań egzaminacyjnych podanych przez CKE.
 
-**Bank zadań autorskich Kolumba:** 142 wiązki (368 zadań, 457 pkt) we wszystkich działach — zadania krótkie (prawda/fałsz, rozstrzygnij i uzasadnij, przyporządkuj, porównaj, argumenty), pisma za 5 pkt (prywatny akt oskarżenia, petycja, odwołanie, skarga do WSA, wniosek o informację publiczną, wniosek do RPO, wystąpienia publiczne) i wypracowania za 7 pkt. Materiały zawierają wykresy, tabele oraz opisy rysunków satyrycznych, plakatów i map. Zadania i dane oznaczone jako „przykładowe” są autorskie i służą wyłącznie ćwiczeniu.
+**Bank zadań autorskich IndexLab:** 142 wiązki (368 zadań, 457 pkt) we wszystkich działach — zadania krótkie (prawda/fałsz, rozstrzygnij i uzasadnij, przyporządkuj, porównaj, argumenty), pisma za 5 pkt (prywatny akt oskarżenia, petycja, odwołanie, skarga do WSA, wniosek o informację publiczną, wniosek do RPO, wystąpienia publiczne) i wypracowania za 7 pkt. Materiały zawierają wykresy, tabele oraz opisy rysunków satyrycznych, plakatów i map. Zadania i dane oznaczone jako „przykładowe” są autorskie i służą wyłącznie ćwiczeniu.
 
 Podział na działy wynika z wymagań egzaminacyjnych (podstawy programowej). Najwięcej punktów w arkuszach 2023–2024 przypadało na: prawo w RP, organy władzy w RP, człowieka i społeczeństwo, systemy polityczne państw, ład międzynarodowy i społeczeństwo obywatelskie.
 
@@ -81,7 +85,7 @@ narzedzia/dopisz-z-tekstu.py               szybkie dopisywanie fiszek z pliku te
 
 ## Konta użytkowników
 
-Kolumb ma **profile** (każdy uczeń na wspólnym urządzeniu ma swoje postępy, serię i odznaki — zakładka *Profil*) oraz opcjonalne **konta w chmurze**: logowanie e-mailem i hasłem, dzięki któremu postępy są te same na telefonie i komputerze. Po zalogowaniu postępy z urządzenia i z konta są **scalane** (nic nie ginie), a później zmiany wysyłają się automatycznie.
+IndexLab ma **profile** (każdy uczeń na wspólnym urządzeniu ma swoje postępy, serię i odznaki — zakładka *Profil*) oraz opcjonalne **konta w chmurze**: logowanie e-mailem i hasłem, dzięki któremu postępy są te same na telefonie i komputerze. Po zalogowaniu postępy z urządzenia i z konta są **scalane** (nic nie ginie), a później zmiany wysyłają się automatycznie.
 
 Konta wymagają bezpłatnego projektu [Supabase](https://supabase.com) — strona na GitHub Pages nie ma własnego serwera:
 

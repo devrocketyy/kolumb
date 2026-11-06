@@ -1,4 +1,4 @@
-// Kolumb — zapis postępów w localStorage, z osobnymi profilami (każdy uczeń ma swoje postępy).
+// IndexLab — zapis postępów w localStorage, z osobnymi profilami (każdy uczeń ma swoje postępy).
 const LEGACY_KEY = 'kolumb.v1';           // zapis sprzed profili — przenoszony do pierwszego profilu
 const PROFILES_KEY = 'kolumb.profile';    // { active, session, list: [{ id, name, color, created, cloud? }] }
 const DAY = 86400000;

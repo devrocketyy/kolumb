@@ -1,4 +1,4 @@
-// Kolumb — powtórki rozłożone w czasie (system Leitnera z 6 pudełkami).
+// IndexLab — powtórki rozłożone w czasie (system Leitnera z 6 pudełkami).
 //
 //  Pudełko:           1    2    3    4    5    6
 //  Następna powtórka: 1d   2d   4d   8d   16d  32d

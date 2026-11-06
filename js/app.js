@@ -1,4 +1,4 @@
-// Kolumb — aplikacja do nauki do matury.
+// IndexLab — aplikacja do nauki do matury (dawniej Kolumb).
 import * as store from './store.js';
 import { loadSubjects } from './data.js';
 import * as game from './game.js';
@@ -14,6 +14,10 @@ let subjects = [];
 let loadErrors = [];
 let keyHandler = null;
 let installEvent = null;
+
+// ---------- marka IndexLab (logo z plików marki, kolor dziedziczony: currentColor) ----------
+const BRAND_MARK = '<svg class="brand-mark" viewBox="14.14 14.14 171.72 171.72" aria-hidden="true"><circle cx="100" cy="100" r="76" fill="none" stroke="currentColor" stroke-width="7"/><path d="M92.509765625 145.5325H107.490234375V91.9075H92.509765625Z" fill="currentColor"/><path d="M100.00,54.47 Q101.87,68.20 115.60,70.07 Q101.87,71.94 100.00,85.67 Q98.13,71.94 84.40,70.07 Q98.13,68.20 100.00,54.47Z" fill="currentColor"/></svg>';
+const BRAND_NAME = '<svg class="brand-name" viewBox="3.73 18.89 378.32 95.83" role="img" aria-label="indexlab"><path d="M15.078125 110.0H29.482421875V58.4375H15.078125ZM51.04296875 81.337890625C51.04296875 73.330078125 55.193359375 69.765625 61.150390625 69.765625C67.15625 69.765625 70.623046875 73.427734375 70.623046875 80.361328125V110.0H84.978515625V77.724609375C84.978515625 64.6875 77.8984375 57.36328125 66.912109375 57.36328125C59.490234375 57.36328125 54.265625 60.68359375 50.798828125 66.54296875V58.4375H36.638671875V110.0H51.04296875ZM112.251953125 111.07421875C119.0390625 111.07421875 124.556640625 108.095703125 127.53515625 102.08984375H127.583984375V110.0H141.744140625V37.24609375H127.388671875V65.56640625H127.33984375C124.01953125 60.0 118.84375 57.36328125 112.154296875 57.36328125C98.970703125 57.36328125 89.9375 68.349609375 89.9375 84.169921875C89.9375 100.33203125 98.775390625 111.07421875 112.251953125 111.07421875ZM115.962890625 99.35546875C108.98046875 99.35546875 104.439453125 93.837890625 104.439453125 84.169921875C104.439453125 74.501953125 108.98046875 68.984375 115.962890625 68.984375C123.23828125 68.984375 128.072265625 74.990234375 128.072265625 84.169921875C128.072265625 93.3984375 123.23828125 99.35546875 115.962890625 99.35546875ZM172.484375 111.171875C184.984375 111.171875 194.9453125 104.04296875 196.849609375 93.7890625H183.71484375C182.396484375 97.79296875 178.5390625 100.380859375 172.923828125 100.380859375C165.35546875 100.380859375 160.9609375 95.44921875 160.716796875 87.83203125H197.38671875V83.974609375C197.38671875 68.251953125 187.181640625 57.265625 171.99609375 57.265625C157.201171875 57.265625 146.703125 68.544921875 146.703125 84.267578125C146.703125 99.94140625 156.859375 111.171875 172.484375 111.171875ZM160.814453125 78.65234375C161.595703125 72.20703125 165.84375 68.203125 172.2890625 68.203125C178.783203125 68.203125 183.080078125 72.20703125 183.8125 78.65234375ZM197.609375 110.0H213.33203125L218.60546875 102.08984375C220.509765625 98.96484375 222.21875 96.1328125 223.9765625 93.251953125C225.63671875 96.1328125 227.345703125 98.96484375 229.201171875 102.08984375L234.376953125 110.0H250.1484375L231.935546875 83.388671875L249.318359375 58.4375H233.83984375L229.201171875 65.6640625C227.345703125 68.642578125 225.734375 71.42578125 224.123046875 74.208984375C222.51171875 71.42578125 220.900390625 68.642578125 219.142578125 65.6640625L214.6015625 58.4375H198.87890625L216.06640625 83.73046875ZM267.216796875 37.24609375H252.8125V110.0H267.216796875ZM290.14453125 110.87890625C298.0546875 110.87890625 302.498046875 107.75390625 305.232421875 102.724609375H305.427734375V110.0H319.490234375V75.0390625C319.490234375 64.00390625 311.384765625 57.36328125 297.2734375 57.36328125C283.11328125 57.36328125 274.71484375 64.1015625 274.080078125 74.74609375H287.60546875C287.947265625 70.791015625 291.462890625 68.056640625 296.833984375 68.056640625C302.107421875 68.056640625 305.28125 70.693359375 305.28125 74.501953125V74.84375C305.28125 78.1640625 301.9609375 78.603515625 292.537109375 79.53125C281.794921875 80.5078125 272.419921875 83.828125 272.419921875 95.44921875C272.419921875 105.751953125 279.841796875 110.87890625 290.14453125 110.87890625ZM294.1484375 100.869140625C289.314453125 100.869140625 286.189453125 98.720703125 286.189453125 95.05859375C286.189453125 90.95703125 290.095703125 89.052734375 295.02734375 88.3203125C299.666015625 87.587890625 303.71875 86.904296875 305.37890625 85.9765625V91.15234375C305.37890625 96.71875 301.08203125 100.869140625 294.1484375 100.869140625ZM356.1875 111.07421875C369.6640625 111.07421875 378.501953125 100.33203125 378.501953125 84.169921875C378.501953125 68.349609375 369.46875 57.36328125 356.28515625 57.36328125C349.595703125 57.36328125 344.419921875 60.0 341.099609375 65.56640625H341.05078125V37.24609375H326.646484375V110.0H340.85546875V102.08984375H340.904296875C343.8828125 108.095703125 349.400390625 111.07421875 356.1875 111.07421875ZM352.4765625 99.35546875C345.201171875 99.35546875 340.3671875 93.3984375 340.3671875 84.169921875C340.3671875 74.990234375 345.201171875 68.984375 352.4765625 68.984375C359.458984375 68.984375 364.0 74.501953125 364.0 84.169921875C364.0 93.837890625 359.458984375 99.35546875 352.4765625 99.35546875Z" fill="currentColor"/><path d="M22.28,22.44 Q24.08,35.64 37.28,37.44 Q24.08,39.24 22.28,52.44 Q20.48,39.24 7.28,37.44 Q20.48,35.64 22.28,22.44Z" fill="currentColor"/></svg>';
 
 // ---------- narzędzia ----------
 const esc = (s) =>
@@ -114,7 +118,7 @@ function reportHref(s, u, kind, item) {
   const d = dzialOf(s, u);
   const lines = [
     'Dzień dobry,', '',
-    `zgłaszam błąd w ${kind === 'fiszka' ? 'fiszce' : 'pytaniu testowym'} w aplikacji Kolumb.`, '',
+    `zgłaszam błąd w ${kind === 'fiszka' ? 'fiszce' : 'pytaniu testowym'} w aplikacji IndexLab.`, '',
     `Przedmiot: ${s.nazwa}`,
     `Dział: ${d ? d.nazwa : ''}`,
     `Poddział: ${u.nazwa}`,
@@ -128,12 +132,12 @@ function reportHref(s, u, kind, item) {
     if (item.wyjasnienie) lines.push(`Wyjaśnienie: ${item.wyjasnienie}`);
   }
   lines.push(`Źródło: ${item.zrodlo || '—'}`, '', 'Na czym polega błąd:', '', '');
-  return mailto(`[Kolumb] Błąd: ${s.skrot} — ${kind} ${u.id}/${item.id}`, lines);
+  return mailto(`[IndexLab] Błąd: ${s.skrot} — ${kind} ${u.id}/${item.id}`, lines);
 }
 
 function reportTaskHref(s, a, z) {
-  return mailto(`[Kolumb] Błąd: ${s.skrot} — ${a.nazwa}, zadanie ${z.nr}`, [
-    'Dzień dobry,', '', 'zgłaszam błąd w zadaniu maturalnym w aplikacji Kolumb.', '',
+  return mailto(`[IndexLab] Błąd: ${s.skrot} — ${a.nazwa}, zadanie ${z.nr}`, [
+    'Dzień dobry,', '', 'zgłaszam błąd w zadaniu maturalnym w aplikacji IndexLab.', '',
     `Przedmiot: ${s.nazwa}`, `Arkusz: ${a.nazwa}`, `Zadanie: ${z.nr}`, '',
     `Polecenie: ${z.polecenie}`, '', `Odpowiedź w aplikacji: ${z.odpowiedz}`, '',
     'Na czym polega błąd:', '', '',
@@ -294,6 +298,17 @@ function goalCard(s, rec) {
 }
 
 
+// Dotychczasowi użytkownicy Kolumba (mają już postępy) widzą raz krótką informację o nowej marce.
+function rebrandNote() {
+  const st = store.get();
+  const veteran = Object.keys(st.cards).length || st.tests.length || (st.xp || 0) > 0;
+  if (!veteran || st.settings.rebrandSeen) return '';
+  return `<section class="ink rebrand-note" role="status">${BRAND_MARK}
+    <div><strong>Kolumb jest teraz częścią IndexLab</strong>
+      <p>Ta sama aplikacja pod nową nazwą — Twoje postępy, seria i odznaki zostały zachowane.</p></div>
+    <button type="button" class="icon-btn" data-act="rebrand-ok" aria-label="Zamknij informację">${ICONS.close}</button></section>`;
+}
+
 // ---------- zakładka „Dziś” ----------
 function viewHome() {
   const showInstall = installEvent && !store.get().settings.installDismissed;
@@ -302,9 +317,10 @@ function viewHome() {
   const nb = s ? mistakesOf(s).length : 0;
   app.innerHTML = `
     <header class="today-head"><h1>Dziś</h1></header>
+    ${rebrandNote()}
     ${s ? goalCard(s, rec) : ''}
     ${showInstall ? `<div class="install-banner">
-        <div><strong>Zainstaluj Kolumba</strong><span>Ikona na ekranie głównym i nauka bez internetu.</span></div>
+        <div><strong>Zainstaluj IndexLab</strong><span>Ikona na ekranie głównym i nauka bez internetu.</span></div>
         <div class="install-actions">
           <button type="button" class="btn btn-gold btn-sm" data-act="install">Zainstaluj</button>
           <button type="button" class="icon-btn" data-act="dismiss" aria-label="Nie teraz">${ICONS.close}</button>
@@ -317,6 +333,11 @@ function viewHome() {
     ${questsHtml()}
     ${s ? '' : '<p class="muted">Brak przedmiotów.</p>'}
   `;
+  app.querySelector('[data-act="rebrand-ok"]')?.addEventListener('click', () => {
+    store.get().settings.rebrandSeen = true;
+    store.save();
+    viewHome();
+  });
   app.querySelector('[data-act="install"]')?.addEventListener('click', promptInstall);
   app.querySelector('[data-act="dismiss"]')?.addEventListener('click', () => {
     store.get().settings.installDismissed = true;
@@ -357,7 +378,7 @@ function viewNauka() {
 function updateTopStats() {
   const sb = document.getElementById('subj-btn');
   const cs = subjects.length ? currentSubject() : null;
-  if (sb) sb.innerHTML = cs ? `<span class="subj-icon subj-icon-sm">${subjectIcon(cs)}</span><span class="subj-btn-name">${esc(cs.skrot || cs.nazwa)}</span>` : '';
+  if (sb) sb.innerHTML = `${BRAND_MARK}${cs ? `<span class="subj-btn-name">${esc(cs.skrot || cs.nazwa)}<small>zmień</small></span>` : ''}`;
   const el = document.getElementById('top-stats');
   if (!el) return;
   const st = store.streak();
@@ -1334,7 +1355,7 @@ function renderTask() {
   document.body.classList.add('in-session');
   const z = list[i];
   const w = z.wiazka;
-  const a = s.arkusze.find((x) => x.id === z.arkusz) || { nazwa: 'Zadanie autorskie Kolumba', zrodlo: w.zrodlo };
+  const a = s.arkusze.find((x) => x.id === z.arkusz) || { nazwa: 'Zadanie autorskie IndexLab', zrodlo: w.zrodlo };
   const k = taskKey(s.id, z);
   const prev = store.get().zadania[k];
   const revealed = zs.revealed[k];
@@ -1391,7 +1412,7 @@ function keyHtml(z, prev) {
   const btns = Array.from({ length: z.punkty + 1 }, (_, p) =>
     `<button type="button" class="btn btn-score ${prev && prev.pkt === p ? 'active' : ''}" data-pkt="${p}">${p} pkt</button>`).join('');
   return `<section class="card key">
-      <h2 class="card-title">${ICONS.check} ${String(z.arkusz).startsWith(BANK_PREFIX) ? 'Przykładowa odpowiedź (klucz Kolumba)' : 'Odpowiedź według klucza CKE'}</h2>
+      <h2 class="card-title">${ICONS.check} ${String(z.arkusz).startsWith(BANK_PREFIX) ? 'Przykładowa odpowiedź (klucz IndexLab)' : 'Odpowiedź według klucza CKE'}</h2>
       ${pre(z.odpowiedz || '—')}
       ${z.zasady ? `<details class="rules"><summary>Zasady oceniania</summary>${pre(z.zasady)}</details>` : ''}
     </section>
@@ -1678,7 +1699,7 @@ function renderExamResult(s, e, ws) {
         <div class="exam-key"><strong>${ICONS.check} Klucz</strong>${pre(z.odpowiedz || '—')}
           ${z.zasady ? `<details class="rules"><summary>Zasady oceniania</summary>${pre(z.zasady)}</details>` : ''}</div>
         <div class="score-row">${Array.from({ length: z.punkty + 1 }, (_, q) => `<button type="button" class="btn btn-score ${e.pkt[k] === q ? 'active' : ''}" data-pkt="${q}" data-max="${z.punkty}">${q} pkt</button>`).join('')}</div>
-        <div class="review-foot"><span class="source">${esc(w.zrodlo)}</span>${reportBtn(mailto(`[Kolumb] Błąd w zadaniu: ${w.id}/${z.nr}`, ['Dzień dobry,', '', `zgłaszam błąd w zadaniu ${w.id}/${z.nr} (${w.zrodlo}).`, '', `Polecenie: ${z.polecenie}`, '', `Klucz: ${z.odpowiedz}`, '', 'Na czym polega błąd:', '']))}</div>
+        <div class="review-foot"><span class="source">${esc(w.zrodlo)}</span>${reportBtn(mailto(`[IndexLab] Błąd w zadaniu: ${w.id}/${z.nr}`, ['Dzień dobry,', '', `zgłaszam błąd w zadaniu ${w.id}/${z.nr} (${w.zrodlo}).`, '', `Polecenie: ${z.polecenie}`, '', `Klucz: ${z.odpowiedz}`, '', 'Na czym polega błąd:', '']))}</div>
       </article>`;
     }).join('')).join('')}</div>
     <div class="actions"><a class="btn btn-ghost btn-lg" href="#/matura">Wróć do listy próbnych matur</a></div>`;
@@ -1721,7 +1742,7 @@ function viewKonto() {
   document.body.classList.add('in-gate');
   const list = store.profileList();
   app.innerHTML = `<section class="gate">
-    <img class="gate-logo" src="ikony/ikona.svg" width="76" height="76" alt="Kolumb">
+    <div class="gate-brand">${BRAND_NAME}<span class="eyebrow">Matura z WOS · kursy olimpijskie</span></div>
     <h1 class="gate-title">Kto się uczy?</h1>
     <div class="who">${list.map((p) => `<button type="button" class="who-item" data-pid="${esc(p.id)}">${avatar(p, true)}<span>${esc(p.name)}</span></button>`).join('')}
       <button type="button" class="who-item" data-act="new"><span class="avatar avatar-lg avatar-add" aria-hidden="true">+</span><span>Nowy</span></button></div>
@@ -2001,10 +2022,10 @@ function viewSettings() {
 
     ${standalone ? '' : `<section class="card">
       <h2 class="card-title">Aplikacja na ekranie głównym</h2>
-      ${installEvent ? '<button type="button" class="btn btn-gold btn-lg" data-act="install">Zainstaluj Kolumba</button>'
+      ${installEvent ? '<button type="button" class="btn btn-gold btn-lg" data-act="install">Zainstaluj IndexLab</button>'
         : ios ? '<p>Na iPhonie lub iPadzie otwórz stronę w Safari, stuknij <strong>Udostępnij</strong>, a potem <strong>Do ekranu początkowego</strong>.</p>'
         : '<p>Otwórz menu przeglądarki i wybierz <strong>Zainstaluj aplikację</strong> lub <strong>Dodaj do ekranu głównego</strong>.</p>'}
-      <p class="muted">Po instalacji Kolumb działa także bez internetu.</p>
+      <p class="muted">Po instalacji IndexLab działa także bez internetu.</p>
     </section>`}
 
     <section class="card">
@@ -2026,7 +2047,8 @@ function viewSettings() {
 
     <section class="card about">
       <h2 class="card-title">O aplikacji</h2>
-      <p><strong>Kolumb</strong> — fiszki, testy i zadania maturalne. Fiszki wracają według systemu Leitnera: te, których nie znasz, pojawiają się szybko, a opanowane — coraz rzadziej.</p>
+      <p><strong>IndexLab</strong> — kurs do matury rozszerzonej z WOS: fiszki z powtórkami (system Leitnera), lekcje, zadania i próbne matury. Kolumb jest teraz częścią IndexLab — Twoje postępy zostały zachowane.</p>
+      <p class="muted">Materiały przygotowuje finalista Olimpiady Wiedzy o Prawach Człowieka. To materiały niezależne — nie są publikowane przez CKE ani organizatorów olimpiad.</p>
       <p class="muted">Zauważyłeś błąd w treści? Użyj przycisku „Zgłoś błąd” albo napisz na <a href="mailto:${REPORT_EMAIL}">${REPORT_EMAIL}</a>.</p>
     </section>`;
 
@@ -2055,7 +2077,7 @@ function viewSettings() {
     const blob = new Blob([JSON.stringify(store.get(), null, 2)], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = `kolumb-postepy-${store.dayKey()}.json`;
+    a.download = `indexlab-postepy-${store.dayKey()}.json`;
     document.body.appendChild(a);
     a.click();
     a.remove();
@@ -2072,7 +2094,7 @@ function viewSettings() {
       applyTheme();
       toast('Wczytano kopię postępów.');
     } catch {
-      toast('To nie jest poprawny plik kopii Kolumba.');
+      toast('To nie jest poprawny plik kopii postępów IndexLab.');
     }
     e.target.value = '';
   });
@@ -2090,7 +2112,7 @@ function applyTheme() {
   if (t === 'auto') document.documentElement.removeAttribute('data-theme');
   else document.documentElement.dataset.theme = t;
   const dark = t === 'dark' || (t === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches);
-  document.querySelector('meta[name="theme-color"]').setAttribute('content', dark ? '#0f1a2d' : '#ffffff');
+  document.querySelector('meta[name="theme-color"]').setAttribute('content', dark ? '#0D0D0D' : '#F1F2F1');
   const btn = document.getElementById('theme-toggle');
   if (btn) { btn.setAttribute('aria-label', dark ? 'Włącz jasny motyw' : 'Włącz ciemny motyw'); btn.dataset.dark = String(dark); }
 }
@@ -2111,7 +2133,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
 });
 window.addEventListener('appinstalled', () => {
   installEvent = null;
-  toast('Kolumb zainstalowany!');
+  toast('IndexLab zainstalowany!');
 });
 async function promptInstall() {
   if (!installEvent) return;
@@ -2220,7 +2242,7 @@ if ('serviceWorker' in navigator && location.protocol !== 'file:') {
         const sw = reg.installing;
         sw?.addEventListener('statechange', () => {
           if (sw.state === 'activated' && hadController) {
-            toast('Dostępna nowa wersja Kolumba.', { label: 'Odśwież', run: () => location.reload() });
+            toast('Dostępna nowa wersja IndexLab.', { label: 'Odśwież', run: () => location.reload() });
           }
         });
       });

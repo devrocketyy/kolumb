@@ -1,4 +1,4 @@
-// Kolumb — grywalizacja: punkty XP, cel dnia, zadania dnia, odznaki, dźwięki i konfetti.
+// IndexLab — grywalizacja: punkty XP, cel dnia, zadania dnia, odznaki, dźwięki i konfetti.
 import * as store from './store.js';
 
 // ---------- XP i dzienne liczniki ----------

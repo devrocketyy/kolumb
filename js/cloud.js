@@ -1,4 +1,4 @@
-// Kolumb — konto w chmurze (Supabase: logowanie e-mailem i zapis postępów).
+// IndexLab — konto w chmurze (Supabase: logowanie e-mailem i zapis postępów).
 // Aplikacja działa bez tego modułu; gdy w js/config.js nie ma adresu projektu, konta są wyłączone.
 import * as store from './store.js';
 import { CLOUD } from './config.js';

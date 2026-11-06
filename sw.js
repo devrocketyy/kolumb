@@ -1,7 +1,7 @@
-// Kolumb — service worker: działanie offline.
+// IndexLab — service worker: działanie offline.
 // Przy wdrożeniu przez GitHub Actions znacznik __BUILD__ jest zastępowany identyfikatorem
 // commita, dzięki czemu każda nowa wersja odświeża pamięć podręczną.
-const VERSION = 'kolumb-__BUILD__';
+const VERSION = 'indexlab-__BUILD__';
 
 const SHELL = [
   './',
@@ -14,8 +14,11 @@ const SHELL = [
   'js/game.js',
   'js/cloud.js',
   'js/config.js',
-  'fonty/nunito-latin-wght-normal.woff2',
-  'fonty/nunito-latin-ext-wght-normal.woff2',
+  'fonty/inter-latin-wght-normal.woff2',
+  'fonty/inter-latin-ext-wght-normal.woff2',
+  'fonty/inter-tight-latin-wght-normal.woff2',
+  'fonty/inter-tight-latin-ext-wght-normal.woff2',
+  'ikony/logo/znak.svg',
   'manifest.webmanifest',
   'ikony/ikona.svg',
   'ikony/ikona-192.png',
@@ -53,7 +56,7 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys()
-      .then((keys) => Promise.all(keys.filter((k) => k.startsWith('kolumb-') && k !== VERSION).map((k) => caches.delete(k))))
+      .then((keys) => Promise.all(keys.filter((k) => (k.startsWith('kolumb-') || k.startsWith('indexlab-')) && k !== VERSION).map((k) => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 });
