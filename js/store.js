@@ -17,7 +17,7 @@ const defaults = () => ({
   odznaki: {},    // id odznaki -> czas zdobycia
   bledy: {},      // "przedmiot/poddział/id" -> { t: 'f'|'q', uid, id, n, at } — pomyłki do poprawy
   updatedAt: 0,   // czas ostatniej zmiany (do synchronizacji z chmurą)
-  settings: { theme: 'auto', installDismissed: false, newPerDay: 20, dailyGoal: 20, sound: true, przedmiot: null },
+  settings: { theme: 'auto', installDismissed: false, newPerDay: 20, dailyGoal: 20, sound: false, przedmiot: null },
 });
 
 const COLORS = ['#1b7ae6', '#e06a10', '#1f9d5c', '#7c4ddb', '#e04848', '#0f9488', '#c58a00'];

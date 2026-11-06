@@ -93,6 +93,7 @@ const ICONS = {
   search: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
   redo: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
   cog: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.5 5.5l1.7 1.7M16.8 16.8l1.7 1.7M5.5 18.5l1.7-1.7M16.8 7.2l1.7-1.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+  news: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2zM17 9h3v8a2 2 0 0 1-2 2h-1M7.5 9h6M7.5 12.5h6M7.5 16h3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
   sound: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4zM16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
 };
 
@@ -262,38 +263,36 @@ function popHtml(s, u) {
     </div>`;
 }
 
-function questsHtml() {
-  return `<section class="card quests">
-    <h2 class="card-title">Zadania dnia</h2>
-    ${game.quests().map((q) => `<div class="quest ${q.v >= q.n ? 'done' : ''}">
-      <span class="quest-icon">${q.v >= q.n ? ICONS.check : q.id === 'xp' ? ICONS.bolt : q.id === 'lekcje' || q.id === 'idealne' ? ICONS.star : q.id === 'fiszki' ? ICONS.cards : q.id === 'zadania' ? ICONS.exam : ICONS.target}</span>
-      <div class="quest-body"><span>${esc(q.name)}</span>
-        <div class="quest-bar">${progressBar(q.v / q.n, q.name)}<small>${q.v}/${q.n}</small></div></div>
-    </div>`).join('')}
+// „Na dziś”: zwykła lista kroków zamiast zadań z nagrodami.
+function planHtml(s, rec, todo, best) {
+  const d = game.today();
+  const items = [
+    best ? { done: !todo, href: `#/fiszki/${enc(s.id)}/d/${enc(best.d.id)}`, icon: ICONS.cards, name: todo ? `Powtórz fiszki: ${todo}` : 'Powtórki na dziś zrobione' } : null,
+    rec ? { done: (d.lekcje || 0) > 0, href: `#/lekcja/${enc(s.id)}/p/${enc(rec.u.id)}`, icon: ICONS.play, name: `Lekcja: ${rec.u.nazwa}` } : null,
+    rec && s.bank.length ? { done: (d.zadania || 0) > 0, href: `#/zadania/${enc(s.id)}/b/${enc(rec.d.id)}`, icon: ICONS.exam, name: `Zadanie maturalne: ${rec.d.nazwa}` } : null,
+    s.aktualnosci ? { done: false, href: '#/aktualnosci', icon: ICONS.news, name: 'Aktualności — kto jest kim' } : null,
+  ].filter(Boolean);
+  return `<section class="card plan">
+    <h2 class="card-title">Na dziś</h2>
+    ${items.map((x) => `<a class="plan-item ${x.done ? 'done' : ''}" href="${x.href}">
+      <span class="plan-check" aria-hidden="true">${x.done ? ICONS.check : x.icon}</span>
+      <span class="plan-name">${esc(x.name)}</span>${ICONS.next}</a>`).join('')}
   </section>`;
 }
 
-function goalCard(s, rec) {
-  const d = game.today();
+function goalCard(s, rec, todo) {
+  const n = store.get().days[store.dayKey()] || 0;
   const g = game.goal();
   const st = store.streak();
-  const allowance = newAllowance(s.id);
-  let todo = 0, best = null;
-  s.dzialy.forEach((dz) => {
-    const n = summary(s.id, dz.poddzialy, allowance).todo;
-    todo += n;
-    if (n && (!best || n > best.n)) best = { d: dz, n };
-  });
   return `<section class="goal-card">
     <div class="goal-top">
-      <div class="ring ring-goal ${d.xp >= g ? 'ring-ok' : ''}" style="--p:${Math.min(100, pct(d.xp / g))}"><span>${ICONS.bolt}</span></div>
+      <div class="ring ring-goal ${n >= g ? 'ring-ok' : ''}" style="--p:${Math.min(100, pct(n / g))}"><span>${n}</span></div>
       <div class="goal-text">
-        <strong>${d.xp >= g ? 'Cel dnia zrobiony' : `${d.xp} / ${g} XP dzisiaj`}</strong>
-        <span>${st.current ? `${ICONS.flame} ${st.current} ${plural(st.current, 'dzień', 'dni', 'dni')} z rzędu${st.today ? '' : ' · dziś jeszcze bez nauki'}` : 'Seria: 0 dni'}</span>
+        <strong>${n >= g ? 'Cel dnia zrobiony' : `${n} / ${g} odpowiedzi dzisiaj`}</strong>
+        <span>${ICONS.flame} ${st.current ? `${st.current} ${plural(st.current, 'dzień', 'dni', 'dni')} nauki z rzędu${st.today ? '' : ' · dziś jeszcze bez nauki'}` : 'Zacznij serię — ucz się codziennie'}</span>
       </div>
     </div>
-    ${rec ? `<a class="btn btn-gold btn-xl btn-continue" href="#/lekcja/${enc(s.id)}/p/${enc(rec.u.id)}">${ICONS.play}<span>Kontynuuj<small>${esc(rec.u.nazwa)}</small></span></a>` : ''}
-    ${best ? `<a class="goal-link" href="#/fiszki/${enc(s.id)}/d/${enc(best.d.id)}">${ICONS.cards}<span>Powtórki na dziś: <b>${todo}</b></span>${ICONS.next}</a>` : ''}
+    ${rec ? `<a class="btn btn-primary btn-xl btn-continue" href="#/lekcja/${enc(s.id)}/p/${enc(rec.u.id)}">${ICONS.play}<span>Kontynuuj<small>${esc(rec.u.nazwa)}</small></span></a>` : ''}
   </section>`;
 }
 
@@ -315,10 +314,19 @@ function viewHome() {
   const s = currentSubject();
   const rec = s ? recommendedUnit(s) : null;
   const nb = s ? mistakesOf(s).length : 0;
+  let todo = 0, best = null;
+  if (s) {
+    const allowance = newAllowance(s.id);
+    s.dzialy.forEach((dz) => {
+      const k = summary(s.id, dz.poddzialy, allowance).todo;
+      todo += k;
+      if (k && (!best || k > best.n)) best = { d: dz, n: k };
+    });
+  }
   app.innerHTML = `
     <header class="today-head"><h1>Dziś</h1></header>
     ${rebrandNote()}
-    ${s ? goalCard(s, rec) : ''}
+    ${s ? goalCard(s, rec, todo) : ''}
     ${showInstall ? `<div class="install-banner">
         <div><strong>Zainstaluj IndexLab</strong><span>Ikona na ekranie głównym i nauka bez internetu.</span></div>
         <div class="install-actions">
@@ -330,7 +338,7 @@ function viewHome() {
       <span class="quest-icon">${ICONS.redo}</span>
       <span class="mistakes-text"><strong>Błędy do poprawy: ${nb}</strong><small>Lekcja z pytań, w których była pomyłka</small></span>
       ${ICONS.next}</a>` : ''}
-    ${questsHtml()}
+    ${s ? planHtml(s, rec, todo, best) : ''}
     ${s ? '' : '<p class="muted">Brak przedmiotów.</p>'}
   `;
   app.querySelector('[data-act="rebrand-ok"]')?.addEventListener('click', () => {
@@ -378,24 +386,15 @@ function viewNauka() {
 function updateTopStats() {
   const sb = document.getElementById('subj-btn');
   const cs = subjects.length ? currentSubject() : null;
-  if (sb) sb.innerHTML = `${BRAND_MARK}${cs ? `<span class="subj-btn-name">${esc(cs.skrot || cs.nazwa)}<small>zmień</small></span>` : ''}`;
+  if (sb) sb.innerHTML = `${BRAND_MARK}${cs ? `<span class="subj-btn-name">${esc(cs.skrot || cs.nazwa)}</span>` : ''}`;
   const el = document.getElementById('top-stats');
   if (!el) return;
   const st = store.streak();
-  const d = game.today();
-  el.innerHTML = `<a class="top-chip chip-flame ${st.today ? 'on' : ''}" href="#/statystyki" aria-label="Seria: ${st.current} ${plural(st.current, 'dzień', 'dni', 'dni')}">${ICONS.flame}<span>${st.current}</span></a>
-    <a class="top-chip chip-xp" href="#/statystyki" aria-label="Dziś ${d.xp} XP">${ICONS.bolt}<span>${d.xp}</span></a>`;
+  el.innerHTML = `<a class="top-chip chip-flame ${st.today ? 'on' : ''}" href="#/profil" aria-label="Seria: ${st.current} ${plural(st.current, 'dzień', 'dni', 'dni')} nauki">${ICONS.flame}<span>${st.current}</span></a>`;
 }
 
 function onGameEvents(events) {
   updateTopStats();
-  const msgs = [];
-  for (const ev of events) {
-    if (ev.type === 'goal') { msgs.push('Cel dnia zrobiony'); game.confetti(); game.sound('win'); }
-    if (ev.type === 'level') msgs.push(`Nowy poziom: ${ev.level}!`);
-    if (ev.type === 'badge') { msgs.push(`Nowa odznaka: ${ev.badge.name}`); game.confetti(40); }
-  }
-  if (msgs.length) toast(msgs.join(' · '), { label: 'Zobacz', run: () => (location.hash = '#/statystyki') });
 }
 
 // ---------- lekcja: mieszane ćwiczenia ----------
@@ -547,7 +546,7 @@ function viewBledy(sid) {
       return;
     }
     const sc = { s, type: 'b', id: 'bledy', units: [], title: 'Błędy do poprawy', back: '#/' };
-    lesson = { key, sc, queue, total: queue.length, done: 0, hearts: MAX_HEARTS, correct: 0, wrong: 0, combo: 0, maxCombo: 0, start: Date.now(), state: 'ask', sel: null, finished: false };
+    lesson = { key, sc, queue, total: queue.length, done: 0, correct: 0, wrong: 0, start: Date.now(), state: 'ask', sel: null, finished: false };
   }
   renderExercise();
 }
@@ -594,7 +593,7 @@ function viewLekcja(sid, type, id) {
   if (!lesson || lesson.key !== key) {
     const queue = buildLesson(sc);
     if (!queue.length) return notFound();
-    lesson = { key, sc, queue, total: queue.length, done: 0, hearts: MAX_HEARTS, correct: 0, wrong: 0, combo: 0, maxCombo: 0, start: Date.now(), retried: new Set(), state: 'ask', sel: null, finished: false };
+    lesson = { key, sc, queue, total: queue.length, done: 0, correct: 0, wrong: 0, start: Date.now(), retried: new Set(), state: 'ask', sel: null, finished: false };
   }
   renderExercise();
 }
@@ -604,15 +603,14 @@ function lessonTop() {
   return `<div class="session-top lesson-top">
       <a class="icon-btn" href="#/" aria-label="Zakończ lekcję">${ICONS.close}</a>
       <div class="session-progress">${progressBar(L.done / L.total, 'Postęp lekcji')}</div>
-      <span class="hearts" aria-label="Serca: ${L.hearts}">${ICONS.heart}<b>${L.hearts}</b></span>
-    </div>
-    ${L.combo >= 3 ? `<p class="combo">${ICONS.flame} ${L.combo} z rzędu!</p>` : ''}`;
+      <span class="session-count">${Math.min(L.done + 1, L.total)}/${L.total}</span>
+    </div>`;
 }
 
 function renderExercise() {
   const L = lesson;
   document.body.classList.add('in-session', 'in-lesson');
-  if (L.finished || !L.queue.length || L.hearts <= 0) return renderLessonEnd();
+  if (L.finished || !L.queue.length) return renderLessonEnd();
   const e = L.queue[0];
   L.state = 'ask'; L.sel = null;
   let body = '';
@@ -690,8 +688,7 @@ function bindMatch(e) {
     } else {
       [left, b].forEach((x) => { x.classList.add('wrong-flash'); setTimeout(() => x.classList.remove('wrong-flash', 'selected'), 450); });
       left = null;
-      if (!missed) { missed = true; L.hearts--; game.sound('bad'); app.querySelector('.hearts b').textContent = L.hearts; app.querySelector('.hearts').classList.add('lost'); }
-      if (L.hearts <= 0) finishAnswer(false, '');
+      if (!missed) { missed = true; game.sound('bad'); }
     }
   });
 }
@@ -737,10 +734,10 @@ function finishAnswer(ok, note = '', right = '') {
   const sid = L.sc.s.id;
   if (ok && e.blad) clearMistake(sid, e.u.id, (e.f || e.q).id);
   if (!ok && (e.f || e.q)) addMistake(sid, e.u, e.f || e.q, e.f ? 'f' : 'q');
-  if (ok) { L.correct++; L.combo++; L.maxCombo = Math.max(L.maxCombo, L.combo); game.sound('ok'); }
+  if (ok) { L.correct++; game.sound('ok'); }
   else {
-    L.wrong++; L.combo = 0;
-    if (e.type !== 'match') { L.hearts--; game.sound('bad'); }
+    L.wrong++;
+    if (e.type !== 'match') game.sound('bad');
   }
   store.markActivity();
   store.save();
@@ -754,8 +751,6 @@ function finishAnswer(ok, note = '', right = '') {
     ${note ? `<p class="sheet-note">${esc(note)}</p>` : ''}
     <div class="sheet-foot">${src ? `<span class="sheet-src">${esc(src)}</span>` : '<span></span>'}${report ? reportBtn(report) : ''}</div>
     <button type="button" class="btn btn-lg btn-cta ${ok ? 'btn-success' : 'btn-danger-solid'}" id="next">Dalej</button>`;
-  app.querySelector('.hearts b').textContent = Math.max(0, L.hearts);
-  if (!ok) app.querySelector('.hearts').classList.add('lost');
   bar.querySelector('#next').addEventListener('click', nextExercise);
   bar.querySelector('#next').focus({ preventScroll: true });
   // błędne ćwiczenie wraca raz na koniec lekcji (jak w powtórkach)
@@ -772,38 +767,34 @@ function nextExercise() {
 
 function renderLessonEnd() {
   const L = lesson;
-  const s = L.sc.s;
-  const failed = L.hearts <= 0;
-  const acc = L.correct + L.wrong ? L.correct / (L.correct + L.wrong) : 0;
-  const perfect = !failed && L.wrong === 0;
+  const answered = L.correct + L.wrong;
+  const acc = answered ? L.correct / answered : 0;
+  const perfect = L.wrong === 0;
   if (!L.finished) {
     L.finished = true;
-    L.xp = failed ? Math.floor(L.correct / 2) : 10 + (perfect ? 5 : 0) + (L.maxCombo >= 5 ? 3 : 0);
     const st = store.get();
     st.lekcje ||= {};
     const r = st.lekcje[L.key] || { n: 0, best: 0 };
-    if (!failed) { r.n++; r.best = Math.max(r.best || 0, pct(acc)); if (perfect) r.idealne = (r.idealne || 0) + 1; }
+    r.n++; r.best = Math.max(r.best || 0, pct(acc)); if (perfect) r.idealne = (r.idealne || 0) + 1;
     st.lekcje[L.key] = r;
     store.markActivity();
-    game.award(L.xp, { lekcje: failed ? 0 : 1, poprawne: L.correct, idealne: perfect ? 1 : 0 });
-    if (!failed) { game.confetti(); game.sound('win'); }
+    game.award(0, { lekcje: 1, poprawne: L.correct, idealne: perfect ? 1 : 0 });
   }
   document.body.classList.remove('in-lesson');
   const secs = Math.round((Date.now() - L.start) / 1000);
   app.innerHTML = `
     <section class="result lesson-end">
-      <div class="result-icon ${failed ? 'sad' : ''}">${failed ? ICONS.heart : ICONS.trophy}</div>
-      <h1>${failed ? 'Skończyły się serca' : perfect ? 'Bez ani jednego błędu' : 'Lekcja zaliczona'}</h1>
-      <p class="lead">${failed ? 'Spróbuj jeszcze raz — pytania będą podobne.' : esc(L.sc.title)}</p>
+      <p class="eyebrow">${esc(L.sc.title)}</p>
+      <h1>${perfect ? 'Bez ani jednego błędu' : 'Lekcja zaliczona'}</h1>
       <div class="end-tiles">
-        <div class="end-tile t-gold"><span>Zdobyte XP</span><strong>${ICONS.bolt}${L.xp}</strong></div>
-        <div class="end-tile t-green"><span>Celność</span><strong>${ICONS.target}${pct(acc)}%</strong></div>
-        <div class="end-tile t-blue"><span>Czas</span><strong>${ICONS.clock}${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, '0')}</strong></div>
+        <div class="end-tile"><span>Celność</span><strong>${pct(acc)}%</strong></div>
+        <div class="end-tile"><span>Poprawne</span><strong>${L.correct}/${answered}</strong></div>
+        <div class="end-tile"><span>Czas</span><strong>${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, '0')}</strong></div>
       </div>
-      ${L.maxCombo >= 3 ? `<p class="muted">Najdłuższa seria poprawnych odpowiedzi: <strong>${L.maxCombo}</strong></p>` : ''}
+      ${L.wrong ? '<p class="muted">Pytania z błędami trafiły do „Błędów do poprawy”.</p>' : ''}
       <div class="actions">
         <a class="btn btn-primary btn-lg btn-cta" href="#/">Kontynuuj</a>
-        <button type="button" class="btn btn-ghost btn-lg" id="again">${failed ? 'Spróbuj ponownie' : 'Jeszcze jedna lekcja'}</button>
+        <button type="button" class="btn btn-ghost btn-lg" id="again">Jeszcze jedna lekcja</button>
       </div>
     </section>`;
   app.querySelector('#again').addEventListener('click', () => { const sc = L.sc; lesson = null; if (sc.type === 'b') viewBledy(sc.s.id); else viewLekcja(sc.s.id, sc.type, sc.id); });
@@ -1120,7 +1111,6 @@ function renderTestEnd() {
     store.addTest({ sid: s.id, scope: `${sc.type}:${sc.id}`, name: sc.title, score, total: qs.length, at: Date.now() });
     test.saved = true;
     game.award(5 + (score === qs.length ? 5 : 0));
-    if (p >= 70) { game.confetti(); game.sound('win'); }
   }
   const msg = p >= 90 ? 'Bardzo dobrze' : p >= 70 ? 'Dobry wynik' : p >= 50 ? 'Połowa za Tobą' : 'Warto powtórzyć fiszki';
   const wrong = qs.map((x, i) => ({ ...x, a: answers[i] })).filter((x) => x.a !== x.q.poprawna);
@@ -1722,6 +1712,31 @@ function renderExamResult(s, e, ws) {
   });
 }
 
+// ---------- zakładka „Aktualności” ----------
+let newsQ = '';
+function viewAktualnosci() {
+  const s = currentSubject();
+  const A = s?.aktualnosci;
+  if (!A) return notFound();
+  const q = norm(newsQ);
+  const ALIAS = { rpo: 'rzecznik praw obywatelskich', rpd: 'rzecznik praw dziecka', sn: 'sadu najwyzszego', tk: 'trybunalu konstytucyjnego', sg: 'sekretarz generalny', ke: 'komisji europejskiej', pe: 'parlamentu europejskiego', rm: 'rady ministrow', nbp: 'nbp' };
+  const match = (row) => { const txt = norm(row.join(' ')); return !q || q.split(' ').every((w) => txt.includes(w) || (ALIAS[w] && txt.includes(ALIAS[w]))); };
+  const sections = A.sekcje.map((sec, i) => ({ sec, rows: sec.wiersze.filter(match), i })).filter((x) => x.rows.length);
+  app.innerHTML = `
+    ${pageHead('Aktualności', null)}
+    <p class="muted news-meta">Kto jest kim i najważniejsze wydarzenia · stan na ${esc(A.stan)}</p>
+    <input class="type-input search-input" id="news-q" type="search" autocomplete="off" placeholder="Szukaj: RPO, Węgry, MTK…" aria-label="Szukaj w aktualnościach" value="${esc(newsQ)}">
+    <div class="news">${sections.map(({ sec, rows, i }) => `<details class="card news-sec" ${q || i === 0 ? 'open' : ''}>
+        <summary><span>${esc(sec.tytul)}</span><small>${rows.length}</small></summary>
+        <dl class="news-rows">${rows.map((r) => `<div class="news-row"><dt>${esc(r[0])}</dt><dd>${sec.kolumny?.[2] === 'Jest' ? `${esc(r[2])}<small>wcześniej: ${esc(r[1])}</small>` : `${esc(r[1])}${r[2] ? `<small>${esc(r[2])}</small>` : ''}`}</dd></div>`).join('')}</dl>
+        ${!q && sec.notatki ? sec.notatki.map((n) => `<p class="news-note">${esc(n)}</p>`).join('') : ''}
+      </details>`).join('') || '<p class="muted">Nic nie znaleziono.</p>'}</div>
+    <p class="muted small news-foot">${esc(A.uwaga || '')} Źródło: ${esc(A.zrodlo)}.</p>`;
+  const inp = app.querySelector('#news-q');
+  let tm;
+  inp.addEventListener('input', () => { clearTimeout(tm); tm = setTimeout(() => { newsQ = inp.value; const pos = inp.selectionStart; viewAktualnosci(); const n = app.querySelector('#news-q'); n.focus(); n.setSelectionRange(pos, pos); }, 200); });
+}
+
 // ---------- profil, logowanie i wybór przedmiotu ----------
 const initials = (n) => (String(n).trim().split(/\s+/).map((w) => w[0]).join('').slice(0, 2) || '?').toUpperCase();
 const avatar = (p, big) => `<span class="avatar ${big ? 'avatar-lg' : ''}" style="--av:${esc(p.color)}" aria-hidden="true">${esc(initials(p.name))}</span>`;
@@ -1809,7 +1824,7 @@ function viewPrzedmiot() {
   const cur = store.get().settings.przedmiot;
   app.innerHTML = `<section class="gate">
     <div class="gate-who">${avatar(store.activeProfile())}<span>${esc(store.activeProfile().name)}</span></div>
-    <h1 class="gate-title">Wybierz przedmiot</h1>
+    <h1 class="gate-title">Twoje kursy</h1>
     <div class="subj-grid">${subjects.map((s) => `<button type="button" class="subj-tile ${s.id === cur ? 'active' : ''}" data-sid="${esc(s.id)}" aria-label="${esc(s.nazwa)}">
         <span class="subj-icon">${subjectIcon(s)}</span><span class="subj-name">${esc(s.skrot || s.nazwa)}</span></button>`).join('')}</div>
     <button type="button" class="link-btn" data-act="logout">Zmień profil</button>
@@ -1825,13 +1840,14 @@ function viewPrzedmiot() {
   app.querySelector('[data-act="logout"]').addEventListener('click', () => { store.logout(); location.hash = '#/konto'; });
 }
 
-function profileHeadHtml(xp, lv) {
+function profileHeadHtml() {
   const prof = store.activeProfile();
   const acc = cloud.account();
+  const st = store.streak();
   return `<section class="profile-head">
     ${avatar(prof, true)}
     <div class="profile-meta"><h1>${esc(prof.name)}</h1><span class="muted">${acc ? esc(acc.email) : 'Profil na tym urządzeniu'}</span>
-      <div class="lv-row"><b>Poziom ${lv}</b>${progressBar((xp - game.levelFloor(lv)) / (game.levelFloor(lv + 1) - game.levelFloor(lv)), 'Postęp do następnego poziomu')}<small>${xp} XP</small></div></div>
+      <div class="lv-row">${ICONS.flame}<b>${st.current} ${plural(st.current, 'dzień', 'dni', 'dni')} nauki z rzędu</b><small>najdłuższa seria: ${st.longest}</small></div></div>
   </section>`;
 }
 
@@ -1907,31 +1923,22 @@ function viewStats() {
   }
   const dfmt = new Intl.DateTimeFormat('pl-PL', { weekday: 'narrow' });
 
-  const xp = game.xpTotal();
-  const lv = game.level(xp);
-  const lvA = game.levelFloor(lv), lvB = game.levelFloor(lv + 1);
   const week = [];
   for (let k = 6; k >= 0; k--) {
     const t = store.addDays(store.startOfDay(), -k);
-    week.push({ t, xp: state.daily?.[store.dayKey(t)]?.xp || 0 });
+    week.push({ t, xp: state.days[store.dayKey(t)] || 0 });
   }
   const wMax = Math.max(game.goal(), ...week.map((w) => w.xp));
   const wfmt = new Intl.DateTimeFormat('pl-PL', { weekday: 'short' });
-  const got = state.odznaki || {};
   app.innerHTML = `
-    ${profileHeadHtml(xp, lv)}
+    ${profileHeadHtml()}
     <section class="card">
-      <h2 class="card-title">XP w tym tygodniu</h2>
-      <div class="week" role="list">${week.map((w) => `<div class="week-day ${w.xp >= game.goal() ? 'hit' : ''}" role="listitem" aria-label="${wfmt.format(w.t)}: ${w.xp} XP">
+      <h2 class="card-title">Aktywność w tym tygodniu</h2>
+      <div class="week" role="list">${week.map((w) => `<div class="week-day ${w.xp >= game.goal() ? 'hit' : ''}" role="listitem" aria-label="${wfmt.format(w.t)}: ${w.xp} odpowiedzi">
         <span class="week-val">${w.xp || ''}</span>
         <div class="week-bar"><span style="height:${Math.round((w.xp / wMax) * 100)}%"></span></div>
         <small>${wfmt.format(w.t).replace('.', '')}</small></div>`).join('')}</div>
-      <p class="muted small">Cel dnia: ${game.goal()} XP — dni z osiągniętym celem są wyróżnione.</p>
-    </section>
-    <section class="card">
-      <h2 class="card-title">Odznaki · ${Object.keys(got).length}/${game.BADGES.length}</h2>
-      <div class="medals" role="list">${[...game.BADGES].sort((x, y) => (got[y.id] ? 1 : 0) - (got[x.id] ? 1 : 0)).map((b) => `<div role="listitem" class="medal ${got[b.id] ? 'got' : ''}" title="${esc(b.opis)}">
-          <span class="badge-medal">${got[b.id] ? ICONS.trophy : ICONS.star}</span><small>${esc(b.name)}</small></div>`).join('')}</div>
+      <p class="muted small">Liczba odpowiedzi dziennie. Cel dnia: ${game.goal()} — dni z osiągniętym celem są wyróżnione.</p>
     </section>
     ${connectHtml()}
     <details class="card more"><summary class="card-title">Więcej statystyk</summary>
@@ -2006,17 +2013,10 @@ function viewSettings() {
     </section>
 
     <section class="card">
-      <h2 class="card-title">Dzienny cel XP</h2>
-      <p class="muted">Lekcja to ok. 10–15 XP, fiszka 1–2 XP, poprawna odpowiedź w teście 2 XP.</p>
-      <div class="segmented seg-4" role="radiogroup" aria-label="Dzienny cel XP">
+      <h2 class="card-title">Dzienny cel</h2>
+      <p class="muted">Ile odpowiedzi dziennie (fiszki, pytania testowe, ćwiczenia w lekcjach) chcesz udzielić.</p>
+      <div class="segmented seg-4" role="radiogroup" aria-label="Dzienny cel — liczba odpowiedzi">
         ${game.GOALS.map((v) => `<button type="button" role="radio" aria-checked="${game.goal() === v}" class="${game.goal() === v ? 'active' : ''}" data-goal="${v}">${v}</button>`).join('')}
-      </div>
-    </section>
-
-    <section class="card">
-      <h2 class="card-title">Dźwięki</h2>
-      <div class="segmented seg-2" role="radiogroup" aria-label="Dźwięki">
-        ${[[true, 'Włączone'], [false, 'Wyłączone']].map(([v, l]) => `<button type="button" role="radio" aria-checked="${(settings.sound !== false) === v}" class="${(settings.sound !== false) === v ? 'active' : ''}" data-sound="${v}">${l}</button>`).join('')}
       </div>
     </section>
 
@@ -2153,6 +2153,7 @@ const routes = [
   [/^#\/lekcja\/([^/]+)\/(d|p)\/([^/]+)$/, viewLekcja],
   [/^#\/bledy\/([^/]+)$/, viewBledy],
   [/^#\/szukaj$/, viewSzukaj],
+  [/^#\/aktualnosci$/, viewAktualnosci],
   [/^#\/lista\/([^/]+)\/([^/]+)$/, viewLista],
   [/^#\/matura(?:\/(proba|cke|dzialy|autorskie))?$/, viewMatura],
   [/^#\/zadania\/([^/]+)\/(a|d|b)\/([^/]+)$/, viewZadania],
@@ -2190,6 +2191,7 @@ function route() {
 
   const tab = /^#\/(statystyki|profil|ustawienia)/.test(hash) ? 'stats'
     : hash.startsWith('#/matura') || hash.startsWith('#/zadania') || hash.startsWith('#/egzamin') ? 'matura'
+    : hash.startsWith('#/aktualnosci') ? 'news'
     : /^#\/(nauka|szukaj|d\/|p\/|lista|fiszki|test|lekcja)/.test(hash) ? 'nauka' : 'home';
   document.querySelectorAll('.tabbar a').forEach((a) => {
     const on = a.dataset.tab === tab;

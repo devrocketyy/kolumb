@@ -2,7 +2,7 @@
 import * as store from './store.js';
 
 // ---------- XP i dzienne liczniki ----------
-export const GOALS = [10, 20, 30, 50];
+export const GOALS = [20, 40, 60, 100];
 export const goal = () => Number(store.get().settings.dailyGoal) || 20;
 
 export function today() {
@@ -104,7 +104,7 @@ export function badgeProgress(b) {
 
 // ---------- dźwięki (syntezowane, bez plików) ----------
 let ctx = null;
-const soundOn = () => store.get().settings.sound !== false;
+const soundOn = () => false; // IndexLab: bez efektów dźwiękowych (mniej grywalizacji)
 function tone(freq, start, dur, type = 'sine', vol = 0.12) {
   const o = ctx.createOscillator();
   const g = ctx.createGain();

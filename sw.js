@@ -41,7 +41,7 @@ async function precache() {
       if (!res.ok) continue;
       await cache.put(`przedmioty/${f}`, res.clone());
       const subj = await res.json();
-      [...(subj.dzialy || []), ...(subj.arkusze || []), ...(subj.bank || [])].forEach((x) => x && x.plik && extra.push(`przedmioty/${x.plik}`));
+      [...(subj.dzialy || []), ...(subj.arkusze || []), ...(subj.bank || []), subj.aktualnosci].forEach((x) => x && x.plik && extra.push(`przedmioty/${x.plik}`));
     }
     await cache.addAll(extra.map((u) => new Request(u, { cache: 'reload' })));
   } catch (e) {

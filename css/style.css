@@ -12,26 +12,26 @@
 :root {
   --bg: #F1F2F1;
   --surface: #FFFFFF;
-  --surface-2: #E8E9E8;
+  --surface-2: #F5F6F5;
   --text: #111111;
-  --text-2: #5C5F5C;
-  --border: #DCDEDC;
-  --border-2: #C2C5C2;
+  --text-2: #5E615E;
+  --border: #E2E3E2;
+  --border-2: #CDD0CD;
   --primary: #111111;
   --primary-shadow: #111111;
-  --primary-soft: #E4E5E4;
+  --primary-soft: #EEEFEE;
   --on-primary: #FFFFFF;
   --accent: #111111;
   --accent-shadow: #111111;
   --accent-text: #111111;
-  --accent-soft: #E8E9E8;
+  --accent-soft: #F3F4F3;
   --on-accent: #FFFFFF;
   --ok: #111111;
   --ok-fill: #111111;
   --ok-shadow: #111111;
-  --ok-soft: #E4E5E4;
+  --ok-soft: #EEEFEE;
   --warn: #111111;
-  --warn-soft: #ECEDEC;
+  --warn-soft: #F3F4F3;
   --bad: #111111;
   --bad-fill: #6E716E;
   --bad-shadow: #6E716E;
@@ -40,8 +40,8 @@
   --heart: #111111;
   --c-blue: #111111; --c-gold: #111111; --c-green: #111111; --c-red: #6E716E; --c-purple: #9A9D9A; --c-orange: #C2C5C2;
   --chart-1: #111111;
-  --chart-2: #8A8D8A;
-  --chart-3: #C2C5C2;
+  --chart-2: #9A9D9A;
+  --chart-3: #D0D2D0;
   --radius: 16px;
   --radius-sm: 12px;
   --tap: 50px;
@@ -51,13 +51,13 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0D0D0D; --surface: #171717; --surface-2: #222222; --text: #F1F2F1; --text-2: #A2A5A2;
-    --border: #2C2D2C; --border-2: #3A3B3A;
-    --primary: #F1F2F1; --primary-shadow: #F1F2F1; --primary-soft: #262726; --on-primary: #111111;
-    --accent: #F1F2F1; --accent-shadow: #F1F2F1; --accent-text: #F1F2F1; --accent-soft: #222222; --on-accent: #111111;
-    --ok: #F1F2F1; --ok-fill: #F1F2F1; --ok-shadow: #F1F2F1; --ok-soft: #262726;
+    --bg: #0B0B0B; --surface: #141414; --surface-2: #1B1B1B; --text: #EDEEED; --text-2: #9EA19E;
+    --border: #262726; --border-2: #353635;
+    --primary: #EDEEED; --primary-shadow: #F1F2F1; --primary-soft: #202120; --on-primary: #0B0B0B;
+    --accent: #EDEEED; --accent-shadow: #F1F2F1; --accent-text: #EDEEED; --accent-soft: #1B1B1B; --on-accent: #0B0B0B;
+    --ok: #EDEEED; --ok-fill: #EDEEED; --ok-shadow: #F1F2F1; --ok-soft: #202120;
     --warn: #F1F2F1; --warn-soft: #222222;
-    --bad: #F1F2F1; --bad-fill: #8A8D8A; --bad-shadow: #8A8D8A; --bad-soft: #171717;
+    --bad: #F1F2F1; --bad-fill: #8A8D8A; --bad-shadow: #8A8D8A; --bad-soft: #141414;
     --flame: #F1F2F1; --heart: #F1F2F1;
     --c-blue: #F1F2F1; --c-gold: #F1F2F1; --c-green: #F1F2F1; --c-red: #8A8D8A; --c-purple: #5C5F5C; --c-orange: #3A3B3A;
     --chart-1: #F1F2F1; --chart-2: #8A8D8A; --chart-3: #4A4C4A;
@@ -65,13 +65,13 @@
   }
 }
 :root[data-theme="dark"] {
-  --bg: #0D0D0D; --surface: #171717; --surface-2: #222222; --text: #F1F2F1; --text-2: #A2A5A2;
-  --border: #2C2D2C; --border-2: #3A3B3A;
-  --primary: #F1F2F1; --primary-shadow: #F1F2F1; --primary-soft: #262726; --on-primary: #111111;
-  --accent: #F1F2F1; --accent-shadow: #F1F2F1; --accent-text: #F1F2F1; --accent-soft: #222222; --on-accent: #111111;
-  --ok: #F1F2F1; --ok-fill: #F1F2F1; --ok-shadow: #F1F2F1; --ok-soft: #262726;
+  --bg: #0B0B0B; --surface: #141414; --surface-2: #1B1B1B; --text: #EDEEED; --text-2: #9EA19E;
+  --border: #262726; --border-2: #353635;
+  --primary: #EDEEED; --primary-shadow: #F1F2F1; --primary-soft: #202120; --on-primary: #0B0B0B;
+  --accent: #EDEEED; --accent-shadow: #F1F2F1; --accent-text: #EDEEED; --accent-soft: #1B1B1B; --on-accent: #0B0B0B;
+  --ok: #EDEEED; --ok-fill: #EDEEED; --ok-shadow: #F1F2F1; --ok-soft: #202120;
   --warn: #F1F2F1; --warn-soft: #222222;
-  --bad: #F1F2F1; --bad-fill: #8A8D8A; --bad-shadow: #8A8D8A; --bad-soft: #171717;
+  --bad: #F1F2F1; --bad-fill: #8A8D8A; --bad-shadow: #8A8D8A; --bad-soft: #141414;
   --flame: #F1F2F1; --heart: #F1F2F1;
   --c-blue: #F1F2F1; --c-gold: #F1F2F1; --c-green: #F1F2F1; --c-red: #8A8D8A; --c-purple: #5C5F5C; --c-orange: #3A3B3A;
   --chart-1: #F1F2F1; --chart-2: #8A8D8A; --chart-3: #4A4C4A;
@@ -561,7 +561,7 @@ body.in-gate { padding-bottom: 24px; }
 .seg-2 { grid-template-columns: repeat(2, 1fr); }
 
 /* ---------- zakładki w sekcji Matura ---------- */
-.seg-tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; padding: 4px; margin-bottom: 16px; border-radius: 14px; background: var(--surface-2); position: sticky; top: calc(62px + env(safe-area-inset-top, 0px)); z-index: 5; }
+.seg-tabs { display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px; padding: 4px; margin-bottom: 16px; border-radius: 14px; background: var(--surface-2); position: sticky; top: calc(62px + env(safe-area-inset-top, 0px)); z-index: 5; }
 .seg-tabs a { display: grid; place-items: center; min-height: 42px; padding: 4px; border-radius: 10px; border: 2px solid transparent; text-decoration: none; font-weight: 600; font-size: .86rem; color: var(--text-2); text-align: center; line-height: 1.15; }
 .seg-tabs a.active { background: var(--surface); color: var(--primary); border-color: var(--primary); }
 .dzial-both { display: grid; gap: 10px; }
@@ -682,7 +682,7 @@ textarea:focus { outline: none; border-color: var(--primary); background: var(--
 /* ---------- dolny pasek ---------- */
 .tabbar {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px;
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px;
   padding: 6px max(8px, env(safe-area-inset-left)) calc(6px + env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-right));
   background: var(--bg); border-top: 2px solid var(--border);
 }
@@ -767,7 +767,10 @@ body.in-lesson .toast { bottom: calc(250px + env(safe-area-inset-bottom)); }
 .eyebrow { font-size: .74rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--text-2); }
 .topbar { background: var(--bg); border-bottom: 1px solid var(--border); }
 .tabbar { background: var(--surface); border-top: 1px solid var(--border); }
-.tabbar a.active { background: var(--text); color: var(--bg); border-color: var(--text); }
+.tabbar a { position: relative; border: 0; }
+.tabbar a.active { background: transparent; color: var(--text); }
+.tabbar a.active::before { content: ""; position: absolute; top: -7px; left: 30%; right: 30%; height: 2px; border-radius: 2px; background: var(--text); }
+.tabbar a:not(.active) { color: var(--text-2); }
 .subj-btn { gap: 10px; color: var(--text); }
 .subj-btn .brand-mark { width: 30px; height: 30px; }
 .subj-btn-name { font-family: var(--font-head); font-weight: 700; font-size: 1.02rem; letter-spacing: -.01em; }
@@ -847,3 +850,51 @@ body.in-lesson .toast { bottom: calc(250px + env(safe-area-inset-bottom)); }
 .rebrand-note p { margin: 2px 0 0; color: color-mix(in srgb, var(--bg) 80%, transparent); font-size: .92rem; }
 .rebrand-note strong { font-family: var(--font-head); font-size: 1.05rem; }
 .rebrand-note .icon-btn { color: var(--bg); margin: -8px -10px 0 auto; }
+
+/* ---------- odcienie i drobne poprawki (IndexLab v2) ---------- */
+.progress { background: var(--surface-2); }
+.ring { background: conic-gradient(var(--c) calc(var(--p) * 1%), var(--surface-2) 0); }
+.ring-goal span { color: var(--text); font-family: var(--font-head); font-weight: 700; font-size: 1.35rem; }
+.goal-text > span:last-child svg { color: var(--text-2); }
+.lv-row svg { width: 18px; height: 18px; color: var(--text); }
+.lv-row b { font-weight: 600; }
+.tabbar a { font-size: .72rem; }
+.tabbar a svg { width: 24px; height: 24px; }
+.btn-continue { border-radius: 14px; }
+.card, .goal-card, .quests, .exam-card, .leg, .dzial-row, .option, .match-item, .subject-opt, .exam-tile, .menu-list { border-color: var(--border); }
+.dzial-row, .option, .match-item, .exam-tile { border-width: 1px; }
+
+/* „Na dziś” */
+.plan { display: grid; gap: 2px; border-top: 3px solid var(--text); }
+.plan .card-title { margin-bottom: 8px; }
+.plan-item { display: flex; align-items: center; gap: 12px; min-height: 52px; padding: 6px 0; text-decoration: none; border-top: 1px solid var(--border); }
+.plan-item:first-of-type { border-top: 0; }
+.plan-check { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; border: 1.5px solid var(--border-2); color: var(--text); flex: none; }
+.plan-check svg { width: 18px; height: 18px; }
+.plan-item.done .plan-check { background: var(--text); border-color: var(--text); color: var(--bg); }
+.plan-item.done .plan-name { color: var(--text-2); text-decoration: line-through; text-decoration-thickness: 1px; }
+.plan-name { flex: 1; min-width: 0; font-weight: 500; }
+.plan-item > svg:last-child { width: 18px; height: 18px; color: var(--text-2); }
+
+/* Aktualności */
+.news-meta { margin: -6px 0 12px; }
+.news { display: grid; gap: 10px; margin-top: 12px; }
+.news-sec { padding: 0; overflow: hidden; }
+.news-sec > summary { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 18px; cursor: pointer; list-style: none; font-family: var(--font-head); font-weight: 700; font-size: 1.05rem; letter-spacing: -.01em; }
+.news-sec > summary::-webkit-details-marker { display: none; }
+.news-sec > summary small { font-family: var(--font); font-weight: 600; font-size: .78rem; color: var(--text-2); min-width: 26px; text-align: center; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); }
+.news-sec[open] > summary { border-bottom: 1px solid var(--border); }
+.news-rows { margin: 0; padding: 4px 18px 8px; }
+.news-row { display: grid; grid-template-columns: minmax(0, 42%) 1fr; gap: 12px; padding: 10px 0; border-top: 1px solid var(--border); }
+.news-row:first-child { border-top: 0; }
+.news-row dt { font-size: .86rem; color: var(--text-2); font-weight: 500; }
+.news-row dd { margin: 0; font-weight: 600; font-size: .95rem; min-width: 0; }
+.news-row dd small { display: block; font-weight: 400; color: var(--text-2); font-size: .84rem; margin-top: 2px; }
+.news-note { margin: 0 18px 14px; padding: 12px 14px; border-radius: 12px; background: var(--surface-2); font-size: .9rem; line-height: 1.5; }
+.news-foot { margin-top: 14px; }
+@media (max-width: 420px) { .news-row { grid-template-columns: 1fr; gap: 2px; } }
+.search-input { font-weight: 400; font-size: 1rem; min-height: 50px; background: var(--surface); border: 1px solid var(--border-2); }
+.search-input::placeholder { color: var(--text-2); font-weight: 400; }
+.option { font-weight: 500; font-size: .98rem; }
+.option .option-text { line-height: 1.42; }
+.ex-prompt, .question-text { font-weight: 700; }

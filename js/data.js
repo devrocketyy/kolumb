@@ -118,6 +118,7 @@ async function normalizeSubject(raw, file) {
   const dzialyRaw = await Promise.all((raw.dzialy || []).map(resolve));
   const arkuszeRaw = await Promise.all((raw.arkusze || []).map(resolve));
   const bankRaw = await Promise.all((raw.bank || []).map(resolve));
+  const aktualnosci = raw.aktualnosci ? await resolve(raw.aktualnosci) : null;
   const dzialy = dzialyRaw.map(normalizeDzial);
   const units = new Map();
   dzialy.forEach((d) => d.poddzialy.forEach((u) => units.set(u.id, u)));
@@ -132,6 +133,7 @@ async function normalizeSubject(raw, file) {
     units,
     arkusze: arkuszeRaw.map(normalizeArkusz),
     bank: bankRaw.filter(Boolean).flatMap(normalizeBank),
+    aktualnosci,
     wagi: raw.wagi || null,
     srednia: raw.srednia || null,
   };
