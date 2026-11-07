@@ -806,9 +806,9 @@
      "pytanie": "Ograniczenie wolności działalności gospodarczej jest dopuszczalne:",
      "odpowiedzi": [
       "tylko w drodze ustawy i tylko ze względu na ważny interes publiczny",
-      "w drodze rozporządzenia Rady Ministrów",
-      "wyłącznie w czasie stanu nadzwyczajnego",
-      "tylko za zgodą Trybunału Konstytucyjnego"
+      "w drodze rozporządzenia Rady Ministrów w każdym czasie",
+      "wyłącznie w czasie stanu nadzwyczajnego i na jego obszarze",
+      "tylko za zgodą Trybunału Konstytucyjnego wyrażoną w wyroku"
      ],
      "poprawna": "A",
      "wyjasnienie": "Tak stanowi art. 22 Konstytucji.",
@@ -1782,10 +1782,10 @@
     {
      "pytanie": "Interpelacja poselska jest skierowana do:",
      "odpowiedzi": [
-      "Prezydenta RP",
-      "Marszałka Sejmu",
+      "Prezydenta RP lub jego kancelarii",
+      "Marszałka Sejmu lub Prezydium Sejmu",
       "Prezesa Rady Ministrów lub ministra",
-      "Prezesa NIK"
+      "Prezesa NIK lub Rzecznika Praw Obywatelskich"
      ],
      "poprawna": "C",
      "wyjasnienie": "Odpowiedź na interpelację musi zostać udzielona w ciągu 21 dni.",
@@ -1834,10 +1834,10 @@
     {
      "pytanie": "Immunitet materialny posła:",
      "odpowiedzi": [
-      "obowiązuje tylko w czasie kadencji",
-      "chroni przed zatrzymaniem w każdej sytuacji",
-      "dotyczy wszystkich czynów posła",
-      "chroni go za działalność w ramach mandatu także po jego wygaśnięciu"
+      "obowiązuje wyłącznie w czasie trwania kadencji Sejmu",
+      "chroni posła przed zatrzymaniem w każdej sytuacji",
+      "dotyczy wszystkich czynów posła, także prywatnych",
+      "obejmuje działalność w ramach mandatu także po kadencji"
      ],
      "poprawna": "D",
      "wyjasnienie": "Immunitet formalny trwa od ogłoszenia wyników do wygaśnięcia mandatu; materialny jest trwały.",
@@ -1874,10 +1874,10 @@
      "id": "p11",
      "pytanie": "Zgoda Sejmu na uchylenie immunitetu posła wymaga:",
      "odpowiedzi": [
-      "zwykłej większości głosów",
-      "2/3 głosów",
+      "zwykłej większości głosów posłów",
+      "2/3 głosów w obecności połowy posłów",
       "bezwzględnej większości ustawowej liczby posłów",
-      "3/5 głosów"
+      "3/5 głosów w obecności połowy posłów"
      ],
      "poprawna": "C",
      "wyjasnienie": "Czyli co najmniej 231 głosów.",
@@ -2319,9 +2319,9 @@
      "pytanie": "Prawo zgłaszania poprawek do projektu ustawy w Sejmie przysługuje:",
      "odpowiedzi": [
       "wnioskodawcy, posłom i Radzie Ministrów",
-      "wyłącznie posłom",
-      "Prezydentowi i Senatowi",
-      "każdemu obywatelowi"
+      "wyłącznie posłom i komisjom sejmowym",
+      "Prezydentowi i Senatowi na każdym etapie",
+      "każdemu obywatelowi w drodze petycji"
      ],
      "poprawna": "A",
      "wyjasnienie": "Senat wprowadza poprawki dopiero do ustawy uchwalonej przez Sejm.",
@@ -2344,10 +2344,10 @@
     {
      "pytanie": "Senat nie podjął uchwały w sprawie ustawy w ciągu 30 dni. Oznacza to, że:",
      "odpowiedzi": [
-      "ustawa została odrzucona",
-      "Sejm musi ponownie głosować nad ustawą",
+      "ustawa została odrzucona i wraca do komisji",
+      "Sejm musi ponownie głosować nad całą ustawą",
       "ustawa trafia do Trybunału Konstytucyjnego",
-      "ustawa została uchwalona w brzmieniu przyjętym przez Sejm"
+      "ustawę uznaje się za przyjętą w brzmieniu Sejmu"
      ],
      "poprawna": "D",
      "wyjasnienie": "Milczenie Senatu oznacza przyjęcie ustawy w brzmieniu Sejmu.",
@@ -2955,10 +2955,10 @@
     {
      "pytanie": "Postawienie Prezydenta w stan oskarżenia przed Trybunałem Stanu wymaga:",
      "odpowiedzi": [
-      "uchwały Sejmu większością 3/5 na wniosek 115 posłów",
-      "uchwały ZN większością 2/3 ustawowej liczby członków, na wniosek co najmniej 140 członków ZN",
-      "uchwały Senatu bezwzględną większością",
-      "wniosku Prokuratora Generalnego"
+      "uchwały Sejmu większością 3/5 na wniosek co najmniej 115 posłów",
+      "uchwały ZN 2/3 ustawowej liczby członków na wniosek co najmniej 140",
+      "uchwały Senatu bezwzględną większością na wniosek 30 senatorów",
+      "wniosku Prokuratora Generalnego zatwierdzonego przez Sejm"
      ],
      "poprawna": "B",
      "wyjasnienie": "Członków RM stawia w stan oskarżenia Sejm (3/5, wniosek Prezydenta lub 115 posłów).",
@@ -3020,10 +3020,10 @@
     {
      "pytanie": "Rozporządzenia z mocą ustawy Prezydent może wydać:",
      "odpowiedzi": [
-      "w czasie każdego stanu nadzwyczajnego",
-      "gdy Sejm nie uchwali budżetu",
-      "w czasie stanu wojennego, gdy Sejm nie może zebrać się na posiedzenie",
-      "na wniosek Senatu"
+      "w czasie każdego stanu nadzwyczajnego na wniosek RM",
+      "gdy Sejm nie uchwali budżetu w terminie",
+      "w stanie wojennym, gdy Sejm nie może się zebrać",
+      "na wniosek Senatu w czasie przerwy w obradach Sejmu"
      ],
      "poprawna": "C",
      "wyjasnienie": "Wydaje je na wniosek RM, a Sejm zatwierdza je na najbliższym posiedzeniu.",
@@ -3035,8 +3035,8 @@
      "pytanie": "Sekretarzem Rady Bezpieczeństwa Narodowego jest:",
      "odpowiedzi": [
       "Minister Obrony Narodowej",
-      "Szef Sztabu Generalnego",
-      "Szef Kancelarii Prezydenta",
+      "Szef Sztabu Generalnego WP",
+      "Szef Kancelarii Prezydenta RP",
       "Szef Biura Bezpieczeństwa Narodowego"
      ],
      "poprawna": "D",
@@ -3682,9 +3682,9 @@
      "pytanie": "W trzeciej procedurze tworzenia rządu Sejm udziela wotum zaufania:",
      "odpowiedzi": [
       "zwykłą większością głosów w obecności co najmniej połowy ustawowej liczby posłów",
-      "bezwzględną większością głosów",
-      "większością ustawowej liczby posłów",
-      "większością 3/5"
+      "bezwzględną większością głosów w obecności co najmniej połowy ustawowej liczby posłów",
+      "większością ustawowej liczby posłów, czyli co najmniej 231 głosami",
+      "większością 3/5 głosów w obecności co najmniej połowy ustawowej liczby posłów"
      ],
      "poprawna": "A",
      "wyjasnienie": "Brak wotum zaufania w trzecim kroku oznacza skrócenie kadencji Sejmu przez Prezydenta.",
@@ -4987,10 +4987,10 @@
     {
      "pytanie": "KRRiT stoi na straży:",
      "odpowiedzi": [
-      "niezależności sądów",
-      "wolności słowa, prawa do informacji oraz interesu publicznego w radiofonii i telewizji",
-      "praw konsumentów",
-      "tajemnicy dziennikarskiej"
+      "niezależności sądów i sędziów",
+      "wolności słowa w radiu i telewizji",
+      "praw konsumentów na rynku usług",
+      "tajemnicy dziennikarskiej w prasie"
      ],
      "poprawna": "B",
      "wyjasnienie": "Zadania KRRiT określa art. 213.",
@@ -5729,9 +5729,9 @@
     {
      "pytanie": "Organem wykonawczym województwa samorządowego jest:",
      "odpowiedzi": [
-      "wojewoda",
-      "sejmik województwa",
-      "urząd wojewódzki",
+      "wojewoda jako przedstawiciel rządu",
+      "sejmik województwa z przewodniczącym",
+      "urząd wojewódzki z wojewodą",
       "zarząd województwa z marszałkiem"
      ],
      "poprawna": "D",
@@ -5742,10 +5742,10 @@
     {
      "pytanie": "Referendum w sprawie odwołania wójta jest ważne, jeżeli wzięło w nim udział co najmniej:",
      "odpowiedzi": [
-      "30% uprawnionych",
-      "3/5 liczby osób, które wzięły udział w wyborze wójta",
-      "50% uprawnionych",
-      "10% uprawnionych"
+      "30% uprawnionych do głosowania w gminie",
+      "3/5 liczby głosujących w wyborach wójta",
+      "połowa uprawnionych do głosowania",
+      "10% mieszkańców uprawnionych do głosowania"
      ],
      "poprawna": "B",
      "wyjasnienie": "Próg 30% dotyczy referendów w innych sprawach.",
@@ -5768,9 +5768,9 @@
     {
      "pytanie": "Organ stanowiący samorządu, który rażąco narusza Konstytucję lub ustawy, może rozwiązać:",
      "odpowiedzi": [
-      "wojewoda",
+      "wojewoda w drodze zarządzenia",
       "Sejm na wniosek Prezesa Rady Ministrów",
-      "Prezydent RP",
+      "Prezydent RP w drodze postanowienia",
       "regionalna izba obrachunkowa"
      ],
      "poprawna": "B",
@@ -5821,9 +5821,9 @@
      "id": "p09",
      "pytanie": "Coroczny raport o stanie gminy przedstawia radzie:",
      "odpowiedzi": [
-      "wojewoda",
-      "przewodniczący rady",
-      "skarbnik",
+      "wojewoda (przedstawiciel rządu)",
+      "przewodniczący rady gminy",
+      "skarbnik gminy (główny księgowy)",
       "wójt (burmistrz, prezydent miasta)"
      ],
      "poprawna": "D",
@@ -6407,10 +6407,10 @@
     {
      "pytanie": "Rada Polityki Pieniężnej składa się z Prezesa NBP oraz członków powołanych przez:",
      "odpowiedzi": [
-      "Sejm i Senat",
+      "Sejm i Senat w równej liczbie",
       "Prezydenta, Sejm i Senat w równej liczbie",
-      "Prezydenta i Radę Ministrów",
-      "Zarząd NBP"
+      "Prezydenta i Radę Ministrów po równo",
+      "Zarząd NBP i Radę Ministrów"
      ],
      "poprawna": "B",
      "wyjasnienie": "Każdy z organów powołuje 3 członków na 6 lat.",
@@ -6421,9 +6421,9 @@
      "pytanie": "Absolutorium dla Rady Ministrów udziela:",
      "odpowiedzi": [
       "Sejm po zapoznaniu się z opinią NIK",
-      "Senat",
-      "Prezydent",
-      "NIK"
+      "Senat po rozpatrzeniu sprawozdania",
+      "Prezydent po zasięgnięciu opinii RPP",
+      "NIK po kontroli wykonania budżetu"
      ],
      "poprawna": "A",
      "wyjasnienie": "Sejm podejmuje uchwałę w ciągu 90 dni.",
@@ -7356,10 +7356,10 @@
     {
      "pytanie": "Szczególną opiekę zdrowotną władze publiczne mają zapewnić m.in.:",
      "odpowiedzi": [
-      "wyłącznie dzieciom",
-      "tylko osobom ubezpieczonym",
-      "dzieciom, kobietom ciężarnym, osobom niepełnosprawnym i w podeszłym wieku",
-      "rolnikom i ich rodzinom"
+      "wyłącznie dzieciom i młodzieży do 18 roku życia",
+      "tylko osobom ubezpieczonym i ich rodzinom",
+      "dzieciom, kobietom w ciąży, niepełnosprawnym i starszym",
+      "rolnikom, emerytom i osobom bezrobotnym"
      ],
      "poprawna": "C",
      "wyjasnienie": "Tak stanowi art. 68 ust. 3.",
@@ -7911,9 +7911,9 @@
      "id": "p03",
      "pytanie": "Terapia szokowa była przede wszystkim odpowiedzią na:",
      "odpowiedzi": [
-      "wysokie bezrobocie w latach 2000.",
-      "kryzys finansowy 2008 r.",
-      "deficyt w handlu z UE",
+      "wysokie bezrobocie po wejściu Polski do UE",
+      "kryzys finansowy z 2008 r. w strefie euro",
+      "deficyt w handlu z państwami Unii Europejskiej",
       "hiperinflację i kryzys gospodarki centralnie planowanej"
      ],
      "poprawna": "D",
