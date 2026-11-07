@@ -682,7 +682,7 @@ textarea:focus { outline: none; border-color: var(--primary); background: var(--
 /* ---------- dolny pasek ---------- */
 .tabbar {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
-  display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px;
+  display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 2px;
   padding: 6px max(8px, env(safe-area-inset-left)) calc(6px + env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-right));
   background: var(--bg); border-top: 2px solid var(--border);
 }
@@ -898,3 +898,6 @@ body.in-lesson .toast { bottom: calc(250px + env(safe-area-inset-bottom)); }
 .option { font-weight: 500; font-size: .98rem; }
 .option .option-text { line-height: 1.42; }
 .ex-prompt, .question-text { font-weight: 700; }
+
+/* przedmiot bez zakładki Aktualności — pasek ma wtedy 4 pozycje */
+.tabbar a[hidden] { display: none; }

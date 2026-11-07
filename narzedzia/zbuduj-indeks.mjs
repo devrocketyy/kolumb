@@ -156,9 +156,12 @@ const pliki = (await readdir(DIR, { withFileTypes: true }))
   .map((f) => f.name)
   .sort((a, b) => a.localeCompare(b, 'pl'));
 
+const szkice = []; // przedmioty z "szkic": true — sprawdzane, ale niewidoczne w aplikacji
 for (const plik of pliki) {
   try {
-    await sprawdzPrzedmiot(plik, await wczytaj(plik));
+    const p = await wczytaj(plik);
+    if (p && p.szkic) szkice.push(plik);
+    await sprawdzPrzedmiot(plik, p);
   } catch (e) {
     bledy.push(`${plik}: niepoprawny JSON — ${e.message}`);
   }
@@ -176,7 +179,9 @@ if (bledy.length) {
   process.exit(1);
 }
 
-await writeFile(join(DIR, 'index.json'), JSON.stringify({ przedmioty: pliki }, null, 2) + '\n');
+const widoczne = pliki.filter((f) => !szkice.includes(f));
+await writeFile(join(DIR, 'index.json'), JSON.stringify({ przedmioty: widoczne }, null, 2) + '\n');
 staty.forEach((s) => console.log('📚 ' + s));
 if (dlugosc.abcd) console.log(`📏 Poprawna = najdłuższa odpowiedź: ${Math.round((100 * dlugosc.najdluzsza) / dlugosc.abcd)}% pytań ABCD (poziom losowy ~25%)`);
-console.log(`✅ Zapisano przedmioty/index.json (${pliki.length}): ${pliki.join(', ')}`);
+console.log(`✅ Zapisano przedmioty/index.json (${widoczne.length}): ${widoczne.join(', ')}`);
+if (szkice.length) console.log(`📝 Szkice (niewidoczne dla uczniów, usuń "szkic": true, by opublikować): ${szkice.join(', ')}`);

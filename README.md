@@ -111,6 +111,16 @@ Klucz *anon* jest publiczny z założenia — każdy uczeń widzi i zmienia wył
 
 ## Jak dodać nowy przedmiot
 
+**Najszybciej — generator szkieletu** (np. historia, filozofia):
+
+```bash
+node narzedzia/nowy-przedmiot.mjs historia "Historia" HIS "starozytnosc:Starożytność" "sredniowiecze:Średniowiecze"
+```
+
+Tworzy `przedmioty/historia.json` i pliki działów w `przedmioty/historia/` z przykładową fiszką i pytaniem. Kurs ma pole `"szkic": true` — walidator go sprawdza, ale uczniowie go nie widzą. Gdy treści są gotowe, usuń to pole i uruchom `node narzedzia/zbuduj-indeks.mjs`. Ekran wyboru kursów, nawigacja, lekcje, testy i próbne matury działają dla każdego przedmiotu bez zmian w kodzie; zakładka Aktualności pojawia się tylko, gdy przedmiot ma pole `"aktualnosci"`. Ikonę kursu dodaje się w `SUBJECT_ICONS` w `js/app.js` (historia i filozofia już ją mają; inne dostają skrót literowy).
+
+Opis ręczny:
+
 1. Utwórz plik `przedmioty/<id>.json`, np. `przedmioty/historia.json`. Najprostsza wersja — wszystko w jednym pliku:
 
 ```json

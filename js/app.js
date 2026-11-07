@@ -387,6 +387,8 @@ function updateTopStats() {
   const sb = document.getElementById('subj-btn');
   const cs = subjects.length ? currentSubject() : null;
   if (sb) sb.innerHTML = `${BRAND_MARK}${cs ? `<span class="subj-btn-name">${esc(cs.skrot || cs.nazwa)}</span>` : ''}`;
+  const newsTab = document.querySelector('.tabbar [data-tab="news"]');
+  if (newsTab) newsTab.hidden = !cs?.aktualnosci; // zakładka tylko dla przedmiotów z modułem aktualności
   const el = document.getElementById('top-stats');
   if (!el) return;
   const st = store.streak();
@@ -1743,6 +1745,8 @@ const avatar = (p, big) => `<span class="avatar ${big ? 'avatar-lg' : ''}" style
 const SUBJECT_ICONS = {
   wos: '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6 6 15v3h36v-3z" fill="currentColor"/><path d="M10 21h4v15h-4zM18 21h4v15h-4zM26 21h4v15h-4zM34 21h4v15h-4z" fill="currentColor" opacity=".85"/><path d="M6 38h36v4H6z" fill="currentColor"/></svg>',
 };
+SUBJECT_ICONS.historia = '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6h20v6a10 10 0 0 1-10 10A10 10 0 0 1 14 12zM14 42h20v-6a10 10 0 0 0-10-10 10 10 0 0 0-10 10z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M10 5h28M10 43h28" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M18 40c1-4 3-6 6-6s5 2 6 6z" fill="currentColor"/></svg>';
+SUBJECT_ICONS.filozofia = '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 7c-8 0-13 5-13 12 0 5 3 8 6 10v6h14v-6c3-2 6-5 6-10 0-7-5-12-13-12z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M18 40h12M20 44h8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M24 16v10M20 20h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>';
 const subjectIcon = (s) => SUBJECT_ICONS[s.id] || `<span class="subj-letters">${esc((s.skrot || s.nazwa).slice(0, 3))}</span>`;
 let gateMsg = '';
 
@@ -1757,7 +1761,7 @@ function viewKonto() {
   document.body.classList.add('in-gate');
   const list = store.profileList();
   app.innerHTML = `<section class="gate">
-    <div class="gate-brand">${BRAND_NAME}<span class="eyebrow">Matura z WOS · kursy olimpijskie</span></div>
+    <div class="gate-brand">${BRAND_NAME}<span class="eyebrow">Matura rozszerzona · kursy autorskie</span></div>
     <h1 class="gate-title">Kto się uczy?</h1>
     <div class="who">${list.map((p) => `<button type="button" class="who-item" data-pid="${esc(p.id)}">${avatar(p, true)}<span>${esc(p.name)}</span></button>`).join('')}
       <button type="button" class="who-item" data-act="new"><span class="avatar avatar-lg avatar-add" aria-hidden="true">+</span><span>Nowy</span></button></div>
