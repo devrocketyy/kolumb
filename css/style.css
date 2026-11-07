@@ -901,3 +901,65 @@ body.in-lesson .toast { bottom: calc(250px + env(safe-area-inset-bottom)); }
 
 /* przedmiot bez zakładki Aktualności — pasek ma wtedy 4 pozycje */
 .tabbar a[hidden] { display: none; }
+
+/* ---------- licznik podstawy programowej ---------- */
+.core-card { display: grid; gap: 6px; padding: 20px; margin-bottom: 16px; border-radius: var(--radius); background: var(--text); color: var(--bg); }
+.core-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.core-card .eyebrow { color: color-mix(in srgb, var(--bg) 70%, transparent); }
+.core-link { display: inline-flex; align-items: center; gap: 2px; color: var(--bg); text-decoration: none; font-weight: 600; font-size: .9rem; }
+.core-link svg { width: 18px; height: 18px; }
+.core-num { display: flex; align-items: baseline; gap: 2px; font-family: var(--font-head); line-height: 1; margin-top: 6px; }
+.core-num b { font-size: clamp(4rem, 22vw, 5.5rem); font-weight: 700; letter-spacing: -.04em; }
+.core-num span { font-size: 2rem; font-weight: 600; }
+.core-sub { margin: 0; font-size: 1rem; color: color-mix(in srgb, var(--bg) 75%, transparent); }
+.core-bar, .core-mini { position: relative; height: 10px; border-radius: 99px; background: color-mix(in srgb, var(--bg) 18%, transparent); overflow: hidden; margin-top: 10px; }
+.core-bar i, .core-mini i { position: absolute; inset: 0 auto 0 0; border-radius: inherit; background: color-mix(in srgb, var(--bg) 55%, transparent); }
+.core-bar i.m, .core-mini i.m { background: var(--bg); }
+.core-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 12px 0 0; }
+.core-stats div { min-width: 0; }
+.core-stats dt { font-size: .76rem; color: color-mix(in srgb, var(--bg) 65%, transparent); }
+.core-stats dd { margin: 2px 0 0; font-weight: 700; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
+.core-dz { margin-top: 8px; border-top: 1px solid color-mix(in srgb, var(--bg) 18%, transparent); }
+.core-dz summary { cursor: pointer; padding: 12px 0 4px; font-weight: 600; font-size: .92rem; list-style: none; display: flex; justify-content: space-between; }
+.core-dz summary::-webkit-details-marker { display: none; }
+.core-dz summary::after { content: "+"; font-size: 1.1rem; line-height: 1; }
+.core-dz[open] summary::after { content: "−"; }
+.core-dz ol { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 2px; }
+.core-dz a { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 6px 10px; padding: 7px 0; color: inherit; text-decoration: none; font-size: .88rem; }
+.core-dz-name { min-width: 0; }
+.core-dz .core-mini { grid-column: 1 / -1; margin: 0; height: 5px; }
+.core-dz b { text-align: right; font-variant-numeric: tabular-nums; }
+
+/* ---------- aktualności ---------- */
+.news-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: -6px 0 14px; color: var(--text-2); font-size: .92rem; }
+.nw-pill { display: inline-block; padding: 3px 10px; border-radius: 99px; background: var(--text); color: var(--bg); font-size: .78rem; font-weight: 600; }
+.nw-chips { display: flex; gap: 8px; overflow-x: auto; margin: 12px calc(-1 * max(16px, env(safe-area-inset-left, 0px))) 16px; padding: 2px max(16px, env(safe-area-inset-left, 0px)); scrollbar-width: none; }
+.nw-chips::-webkit-scrollbar { display: none; }
+.nw-chip { flex: none; padding: 8px 14px; border-radius: 99px; border: 1px solid var(--border); background: var(--surface); color: var(--text); font: 600 .88rem var(--font); cursor: pointer; white-space: nowrap; }
+.nw-chip.on { background: var(--text); color: var(--bg); border-color: var(--text); }
+.nw-sec { margin-bottom: 22px; }
+.nw-title { display: flex; align-items: center; gap: 8px; margin: 0 0 10px; font-family: var(--font-head); font-size: 1.15rem; font-weight: 700; }
+.nw-title small { font: 600 .76rem var(--font); color: var(--text-2); padding: 2px 8px; border-radius: 99px; background: var(--surface-2); }
+.nw-role { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: .74rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--text-2); }
+.nw-date { flex: none; padding: 2px 8px; border-radius: 99px; background: var(--surface-2); color: var(--text); letter-spacing: 0; text-transform: none; font-size: .76rem; }
+.nw-changes { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 10px; }
+.nw-change { display: grid; gap: 4px; padding: 14px 16px; border: 1px solid var(--border); border-radius: 16px; background: var(--surface); }
+.nw-now { font-family: var(--font-head); font-size: 1.15rem; font-weight: 700; }
+.nw-was { font-size: .86rem; color: var(--text-2); }
+.nw-was span { text-decoration: none; font-size: .74rem; padding: 1px 6px; border-radius: 6px; border: 1px solid var(--border); margin-right: 4px; }
+.nw-people { list-style: none; margin: 0; padding: 0; border: 1px solid var(--border); border-radius: 16px; background: var(--surface); }
+.nw-people li { display: grid; gap: 2px; padding: 12px 16px; border-top: 1px solid var(--border); }
+.nw-people li:first-child { border-top: 0; }
+.nw-people strong { font-size: 1.02rem; }
+.nw-people small { color: var(--text-2); font-size: .86rem; line-height: 1.45; }
+.nw-time { list-style: none; margin: 0; padding: 0 0 0 18px; border-left: 2px solid var(--border); display: grid; gap: 14px; margin-left: 6px; }
+.nw-time li { position: relative; }
+.nw-time li::before { content: ""; box-sizing: border-box; position: absolute; left: -24px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: var(--text); border: 3px solid var(--bg); }
+.nw-time time { font-size: .78rem; font-weight: 600; color: var(--text-2); }
+.nw-time p { margin: 2px 0 0; font-weight: 600; }
+.nw-note { display: grid; gap: 2px; margin: 10px 0 0; padding: 12px 14px; border-radius: 14px; background: var(--surface-2); font-size: .9rem; line-height: 1.5; }
+.nw-note b { font-size: .74rem; text-transform: uppercase; letter-spacing: .04em; color: var(--text-2); }
+.core-legend { display: flex; gap: 14px; margin: 6px 0 0; font-size: .78rem; color: color-mix(in srgb, var(--bg) 70%, transparent); }
+.core-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.core-legend i { width: 10px; height: 10px; border-radius: 3px; background: color-mix(in srgb, var(--bg) 55%, transparent); }
+.core-legend i.m { background: var(--bg); }

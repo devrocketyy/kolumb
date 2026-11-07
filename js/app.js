@@ -297,6 +297,34 @@ function goalCard(s, rec, todo) {
 }
 
 
+// Duży licznik: ile podstawy programowej przedmiotu uczeń już przerobił.
+// Przerobione = fiszki, które były już w nauce; opanowane = fiszki w najwyższych pudełkach Leitnera.
+const pctFine = (x) => (x > 0 && x < 0.1 ? (Math.round(x * 1000) / 10).toLocaleString('pl-PL') : String(pct(x)));
+function coreCard(s) {
+  const all = s.dzialy.flatMap((d) => d.poddzialy);
+  const sm = summary(s.id, all, 0);
+  if (!sm.total) return '';
+  const done = sm.seen / sm.total;
+  const mast = sm.mastered / sm.total;
+  const tematy = all.filter((u) => { const x = summary(s.id, [u], 0); return x.total && x.seen === x.total; }).length;
+  const rows = s.dzialy.map((d) => { const x = summary(s.id, d.poddzialy, 0); return { d, p: x.total ? x.seen / x.total : 0, m: x.total ? x.mastered / x.total : 0 }; });
+  return `<section class="core-card" aria-label="Postęp w podstawie programowej">
+    <div class="core-head"><span class="eyebrow">Podstawa programowa · ${esc(s.skrot || s.nazwa)}</span><a href="#/nauka" class="core-link">Nauka ${ICONS.next}</a></div>
+    <div class="core-num"><b>${pctFine(done)}</b><span>%</span></div>
+    <p class="core-sub">materiału przerobione</p>
+    <div class="core-bar" role="img" aria-label="Przerobione ${pct(done)}%, opanowane ${pct(mast)}%"><i style="width:${done * 100}%"></i><i class="m" style="width:${mast * 100}%"></i></div>
+    <p class="core-legend"><span><i class="m"></i>opanowane</span><span><i></i>przerobione</span></p>
+    <dl class="core-stats">
+      <div><dt>Opanowane</dt><dd>${pctFine(mast)}%</dd></div>
+      <div><dt>Tematy</dt><dd>${tematy} / ${all.length}</dd></div>
+      <div><dt>Fiszki</dt><dd>${sm.seen.toLocaleString('pl-PL')} / ${sm.total.toLocaleString('pl-PL')}</dd></div>
+    </dl>
+    <details class="core-dz"><summary>Postęp w działach</summary>
+      <ol>${rows.map((r) => `<li><a href="#/nauka"><span class="core-dz-name">${esc(r.d.nazwa)}</span><b>${pctFine(r.p)}%</b><span class="core-mini"><i style="width:${r.p * 100}%"></i><i class="m" style="width:${r.m * 100}%"></i></span></a></li>`).join('')}</ol>
+    </details>
+  </section>`;
+}
+
 // Dotychczasowi użytkownicy Kolumba (mają już postępy) widzą raz krótką informację o nowej marce.
 function rebrandNote() {
   const st = store.get();
@@ -326,6 +354,7 @@ function viewHome() {
   app.innerHTML = `
     <header class="today-head"><h1>Dziś</h1></header>
     ${rebrandNote()}
+    ${s ? coreCard(s) : ''}
     ${s ? goalCard(s, rec, todo) : ''}
     ${showInstall ? `<div class="install-banner">
         <div><strong>Zainstaluj IndexLab</strong><span>Ikona na ekranie głównym i nauka bez internetu.</span></div>
@@ -1716,6 +1745,7 @@ function renderExamResult(s, e, ws) {
 
 // ---------- zakładka „Aktualności” ----------
 let newsQ = '';
+let newsSec = '';
 function viewAktualnosci() {
   const s = currentSubject();
   const A = s?.aktualnosci;
@@ -1723,17 +1753,35 @@ function viewAktualnosci() {
   const q = norm(newsQ);
   const ALIAS = { rpo: 'rzecznik praw obywatelskich', rpd: 'rzecznik praw dziecka', sn: 'sadu najwyzszego', tk: 'trybunalu konstytucyjnego', sg: 'sekretarz generalny', ke: 'komisji europejskiej', pe: 'parlamentu europejskiego', rm: 'rady ministrow', nbp: 'nbp' };
   const match = (row) => { const txt = norm(row.join(' ')); return !q || q.split(' ').every((w) => txt.includes(w) || (ALIAS[w] && txt.includes(ALIAS[w]))); };
-  const sections = A.sekcje.map((sec, i) => ({ sec, rows: sec.wiersze.filter(match), i })).filter((x) => x.rows.length);
+  const all = A.sekcje.map((sec, i) => ({ sec, rows: sec.wiersze.filter(match), i }));
+  if (!A.sekcje.some((x) => x.id === newsSec)) newsSec = A.sekcje[0].id;
+  const sections = q ? all.filter((x) => x.rows.length) : all.filter((x) => x.sec.id === newsSec);
+  const withDate = (t) => { const m = String(t).match(/^(.*?)\s*\(([^)]+)\)$/); return m ? [m[1], m[2]] : [t, '']; };
+  const body = (sec, rows) => {
+    const k = sec.kolumny || [];
+    if (k[2] === 'Jest') return `<div class="nw-changes">${rows.map((r) => { const [who, when] = withDate(r[2]); return `<article class="nw-change">
+        <div class="nw-role">${esc(r[0])}${when ? `<span class="nw-date">${esc(when)}</span>` : ''}</div>
+        <div class="nw-now">${esc(who)}</div>
+        <div class="nw-was"><span>wcześniej</span> ${esc(r[1])}</div></article>`; }).join('')}</div>`;
+    if (k[0] === 'Data') return `<ol class="nw-time">${rows.map((r) => `<li><time>${esc(r[0])}</time><p>${esc(r[1])}</p></li>`).join('')}</ol>`;
+    return `<ul class="nw-people">${rows.map((r) => { const [who, extra] = k[2] ? [r[1], r[2]] : withDate(r[1]); return `<li>
+        <span class="nw-role">${esc(r[0])}</span><strong>${esc(who)}</strong>${extra ? `<small>${k[2] === 'Od' && /^[0-9IVX]/.test(extra) ? 'od ' : ''}${esc(extra)}</small>` : ''}</li>`; }).join('')}</ul>`;
+  };
   app.innerHTML = `
     ${pageHead('Aktualności', null)}
-    <p class="muted news-meta">Kto jest kim i najważniejsze wydarzenia · stan na ${esc(A.stan)}</p>
+    <p class="news-meta"><span class="nw-pill">Stan na ${esc(A.stan)}</span> Kto jest kim i najważniejsze wydarzenia</p>
     <input class="type-input search-input" id="news-q" type="search" autocomplete="off" placeholder="Szukaj: RPO, Węgry, MTK…" aria-label="Szukaj w aktualnościach" value="${esc(newsQ)}">
-    <div class="news">${sections.map(({ sec, rows, i }) => `<details class="card news-sec" ${q || i === 0 ? 'open' : ''}>
-        <summary><span>${esc(sec.tytul)}</span><small>${rows.length}</small></summary>
-        <dl class="news-rows">${rows.map((r) => `<div class="news-row"><dt>${esc(r[0])}</dt><dd>${sec.kolumny?.[2] === 'Jest' ? `${esc(r[2])}<small>wcześniej: ${esc(r[1])}</small>` : `${esc(r[1])}${r[2] ? `<small>${esc(r[2])}</small>` : ''}`}</dd></div>`).join('')}</dl>
-        ${!q && sec.notatki ? sec.notatki.map((n) => `<p class="news-note">${esc(n)}</p>`).join('') : ''}
-      </details>`).join('') || '<p class="muted">Nic nie znaleziono.</p>'}</div>
+    ${q ? '' : `<nav class="nw-chips" aria-label="Sekcje">${A.sekcje.map((x) => `<button type="button" class="nw-chip ${x.id === newsSec ? 'on' : ''}" data-sec="${esc(x.id)}" aria-pressed="${x.id === newsSec}">${esc(x.tytul)}</button>`).join('')}</nav>`}
+    <div class="news">${sections.map(({ sec, rows }) => `<section class="nw-sec">
+        ${q ? `<h2 class="nw-title">${esc(sec.tytul)}<small>${rows.length}</small></h2>` : ''}
+        ${body(sec, rows)}
+        ${!q && sec.notatki ? sec.notatki.map((n) => `<p class="nw-note"><b>Warto wiedzieć</b>${esc(n)}</p>`).join('') : ''}
+      </section>`).join('') || '<p class="muted">Nic nie znaleziono.</p>'}</div>
     <p class="muted small news-foot">${esc(A.uwaga || '')} Źródło: ${esc(A.zrodlo)}.</p>`;
+  app.querySelectorAll('.nw-chip').forEach((b) => b.addEventListener('click', () => {
+    newsSec = b.dataset.sec; viewAktualnosci();
+    app.querySelector('.nw-chip.on')?.scrollIntoView({ inline: 'center', block: 'nearest' });
+  }));
   const inp = app.querySelector('#news-q');
   let tm;
   inp.addEventListener('input', () => { clearTimeout(tm); tm = setTimeout(() => { newsQ = inp.value; const pos = inp.selectionStart; viewAktualnosci(); const n = app.querySelector('#news-q'); n.focus(); n.setSelectionRange(pos, pos); }, 200); });
