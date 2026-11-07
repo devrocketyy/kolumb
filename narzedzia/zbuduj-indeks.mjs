@@ -18,6 +18,7 @@ const ID = /^[a-z0-9-]+$/;
 const bledy = [];
 const ostrzezenia = [];
 const staty = [];
+const dlugosc = { abcd: 0, najdluzsza: 0 }; // czy poprawna odpowiedź nie jest regularnie najdłuższa
 
 async function wczytaj(plik) {
   return JSON.parse(await readFile(join(DIR, plik), 'utf8'));
@@ -60,6 +61,14 @@ function sprawdzPoddzial(u, w, gdzie) {
     if (!Array.isArray(q.odpowiedzi) || q.odpowiedzi.length !== 4) bledy.push(gdzie(`${x}: "odpowiedzi" musi mieć dokładnie 4 elementy`));
     const ok = typeof q.poprawna === 'number' ? q.poprawna >= 0 && q.poprawna < 4 : LITERY.includes(String(q.poprawna).toUpperCase());
     if (!ok) bledy.push(gdzie(`${x}: "poprawna" musi być literą A–D`));
+    if (ok && Array.isArray(q.odpowiedzi) && q.odpowiedzi.length === 4) {
+      const ci = typeof q.poprawna === 'number' ? q.poprawna : LITERY.indexOf(String(q.poprawna).toUpperCase());
+      const dl = q.odpowiedzi.map((o) => String(o).length);
+      const inne = Math.max(...dl.filter((_, k) => k !== ci));
+      dlugosc.abcd++;
+      if (dl[ci] > inne) dlugosc.najdluzsza++;
+      if (dl[ci] >= 1.6 * inne && dl[ci] - inne >= 15) ostrzezenia.push(gdzie(`${x}: poprawna odpowiedź jest wyraźnie dłuższa od pozostałych — zdradza się długością`));
+    }
     if (!q.wyjasnienie) ostrzezenia.push(gdzie(`${x}: brak "wyjasnienie"`));
     if (!q.zrodlo) ostrzezenia.push(gdzie(`${x}: brak "zrodlo"`));
     nq++;
@@ -155,6 +164,9 @@ for (const plik of pliki) {
   }
 }
 
+if (dlugosc.abcd >= 40 && dlugosc.najdluzsza / dlugosc.abcd > 0.33) {
+  ostrzezenia.push(`pytania ABCD: poprawna jest najdłuższą odpowiedzią w ${Math.round((100 * dlugosc.najdluzsza) / dlugosc.abcd)}% pytań (losowo ~25%) — wyrównaj długości odpowiedzi`);
+}
 if (ostrzezenia.length > 20) {
   ostrzezenia.slice(0, 20).forEach((o) => console.warn('⚠️  ' + o));
   console.warn(`⚠️  …i ${ostrzezenia.length - 20} kolejnych ostrzeżeń`);
@@ -166,4 +178,5 @@ if (bledy.length) {
 
 await writeFile(join(DIR, 'index.json'), JSON.stringify({ przedmioty: pliki }, null, 2) + '\n');
 staty.forEach((s) => console.log('📚 ' + s));
+if (dlugosc.abcd) console.log(`📏 Poprawna = najdłuższa odpowiedź: ${Math.round((100 * dlugosc.najdluzsza) / dlugosc.abcd)}% pytań ABCD (poziom losowy ~25%)`);
 console.log(`✅ Zapisano przedmioty/index.json (${pliki.length}): ${pliki.join(', ')}`);
