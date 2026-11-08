@@ -97,7 +97,12 @@ CKE = 'https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjn
 def load_tresci():
     T = {}
     for f in sorted(glob.glob(os.path.join(SRC, 'tresci*.py'))):
-        T.update(runpy.run_path(f)['T'])
+        for k, v in runpy.run_path(f)['T'].items():
+            if k in T:  # kolejne porcje dopisują fiszki i pytania do istniejących tematów
+                T[k]['F'] = T[k].get('F', []) + v.get('F', [])
+                T[k]['Q'] = T[k].get('Q', []) + v.get('Q', [])
+            else:
+                T[k] = dict(v)
     return T
 
 
