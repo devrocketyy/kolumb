@@ -963,3 +963,15 @@ body.in-lesson .toast { bottom: calc(250px + env(safe-area-inset-bottom)); }
 .core-legend span { display: inline-flex; align-items: center; gap: 6px; }
 .core-legend i { width: 10px; height: 10px; border-radius: 3px; background: color-mix(in srgb, var(--bg) 55%, transparent); }
 .core-legend i.m { background: var(--bg); }
+
+/* materiał w oryginalnym arkuszu CKE (kursy „link + omówienie”) */
+.material-link { display: flex; align-items: center; gap: 12px; padding: 14px 16px; text-decoration: none; color: var(--text); margin-bottom: 12px; }
+.material-link > span { flex: 1; min-width: 0; display: grid; gap: 2px; }
+.material-link small { color: var(--text-2); }
+.material-link svg { width: 22px; height: 22px; flex: none; }
+.omowienie { margin-top: 12px; padding: 12px 14px; border-radius: 12px; background: var(--surface-2); display: grid; gap: 4px; }
+.omowienie strong { font-size: .76rem; text-transform: uppercase; letter-spacing: .04em; color: var(--text-2); }
+
+/* temat kursu jeszcze bez treści */
+.stop.soon { opacity: .5; }
+.stop.soon .stop-body { cursor: default; }

@@ -1,0 +1,873 @@
+{
+ "id": "starozytnosc",
+ "nazwa": "Starożytność",
+ "opis": "Pradzieje, starożytny Wschód, Grecja i Rzym.",
+ "poddzialy": [
+  {
+   "id": "h-wschod",
+   "nazwa": "Pradzieje i historia starożytnego Wschodu",
+   "opis": "Wymaganie II podstawy programowej.",
+   "wymaganie": "II",
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Wyjaśnij pojęcie: rewolucja neolityczna",
+     "tyl": "Przejście od zbieractwa i łowiectwa do rolnictwa i hodowli oraz osiadłego trybu życia (ok. X–VIII tys. p.n.e. na Bliskim Wschodzie).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f002",
+     "przod": "Jakie były skutki przejścia do osiadłego trybu życia?",
+     "tyl": "Wzrost liczby ludności, nadwyżki żywności, podział pracy, własność, powstanie osad, a z czasem miast i państw.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f003",
+     "przod": "Gdzie powstały pierwsze cywilizacje?",
+     "tyl": "W dolinach wielkich rzek: Mezopotamia (Eufrat i Tygrys), Egipt (Nil), Indie (Indus), Chiny (Huang He).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f004",
+     "przod": "Wyjaśnij pojęcie: Żyzny Półksiężyc",
+     "tyl": "Obszar urodzajnych ziem od Egiptu przez Palestynę i Syrię po Mezopotamię — kolebka rolnictwa.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f005",
+     "przod": "Wkład Sumerów w dziedzictwo ludzkości",
+     "tyl": "Pismo klinowe, pierwsze miasta-państwa (Ur, Uruk), koło, system sześćdziesiątkowy, epos o Gilgameszu.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f006",
+     "przod": "Czym był kodeks Hammurabiego?",
+     "tyl": "Zbiór praw babilońskich (XVIII w. p.n.e.) oparty na zasadzie odwetu (talion) i nierówności stanowej.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f007",
+     "przod": "Wyjaśnij pojęcie: zasada talionu",
+     "tyl": "Kara odpowiadająca wyrządzonej krzywdzie — „oko za oko, ząb za ząb”.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f008",
+     "przod": "Wkład Egipcjan w dziedzictwo ludzkości",
+     "tyl": "Hieroglify, papirus, kalendarz słoneczny (365 dni), piramidy i świątynie, osiągnięcia medycyny i geometrii.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f009",
+     "przod": "Jaką pozycję miał faraon?",
+     "tyl": "Władca absolutny uważany za boga lub syna boga — teokracja.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f010",
+     "przod": "Wyjaśnij pojęcie: teokracja",
+     "tyl": "Ustrój, w którym władca sprawuje władzę z woli bóstwa lub jest uważany za boga, a religia legitymizuje władzę.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f011",
+     "przod": "Wkład Persów w dziedzictwo ludzkości",
+     "tyl": "Sprawna administracja imperium (satrapie), droga królewska, poczta, tolerancja religijna, zaratusztrianizm.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f012",
+     "przod": "Wyjaśnij pojęcie: satrapia",
+     "tyl": "Prowincja imperium perskiego zarządzana przez satrapę.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f013",
+     "przod": "Wkład Fenicjan w dziedzictwo ludzkości",
+     "tyl": "Alfabet fonetyczny — podstawa alfabetów greckiego i łacińskiego; handel i kolonie (np. Kartagina).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f014",
+     "przod": "Czym wyróżniała się religia starożytnych Hebrajczyków?",
+     "tyl": "Monoteizm — wiara w jednego Boga (Jahwe); święta księga: Tora (część Biblii).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f015",
+     "przod": "Najważniejsze etapy starożytnych dziejów Żydów",
+     "tyl": "Wyjście z Egiptu (Mojżesz) → królestwo Dawida i Salomona → podział na Izrael i Judę → niewola babilońska → panowanie rzymskie → zburzenie świątyni (70 r. n.e.) → diaspora.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f016",
+     "przod": "Wyjaśnij pojęcie: diaspora",
+     "tyl": "Rozproszenie narodu poza jego ojczyzną — w odniesieniu do Żydów szczególnie po 70 r. n.e.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f017",
+     "przod": "Kim był Salomon?",
+     "tyl": "Król Izraela (X w. p.n.e.), syn Dawida, budowniczy pierwszej świątyni w Jerozolimie.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f018",
+     "przod": "Jak zorganizowane było społeczeństwo starożytnych Indii?",
+     "tyl": "W system kast (warn): bramini, wojownicy, kupcy i rolnicy, sudrowie; poza systemem — niedotykalni.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f019",
+     "przod": "Wyjaśnij pojęcie: system kastowy",
+     "tyl": "Zamknięty podział społeczeństwa na grupy dziedziczne, między którymi nie można było przechodzić.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f020",
+     "przod": "Jak zorganizowane były Chiny cesarskie?",
+     "tyl": "Władza cesarza („syna nieba”) i rozbudowana biurokracja urzędników wyłanianych w egzaminach państwowych.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f021",
+     "przod": "Wkład Chińczyków w dziedzictwo ludzkości",
+     "tyl": "Papier, porcelana, jedwab, kompas, proch; konfucjanizm; Wielki Mur.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    },
+    {
+     "id": "f022",
+     "przod": "Czego uczył Konfucjusz?",
+     "tyl": "Szacunku dla tradycji, przodków i władzy, posłuszeństwa w rodzinie i państwie, samodoskonalenia.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. II"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Pismo klinowe stworzyli:",
+     "odpowiedzi": [
+      "Egipcjanie",
+      "Sumerowie",
+      "Fenicjanie",
+      "Persowie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Egipcjanie — hieroglify, Fenicjanie — alfabet.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Zasada talionu cechuje:",
+     "odpowiedzi": [
+      "prawo rzymskie XII tablic",
+      "kodeks Hammurabiego",
+      "nauki Konfucjusza",
+      "Torę i dekalog"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Talion: „oko za oko”.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Alfabet fonetyczny, z którego wywodzi się alfabet grecki, stworzyli:",
+     "odpowiedzi": [
+      "Hebrajczycy",
+      "Sumerowie",
+      "Fenicjanie",
+      "Egipcjanie"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Grecy przejęli alfabet od Fenicjan.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Satrapie to jednostki administracyjne:",
+     "odpowiedzi": [
+      "Egiptu faraonów",
+      "imperium perskiego",
+      "państwa Sumerów",
+      "Chin z dynastii Han"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Rządzone przez satrapów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "System kastowy ukształtował się w starożytnych:",
+     "odpowiedzi": [
+      "Chinach",
+      "Indiach",
+      "Persji",
+      "Babilonii"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Najwyższą kastą byli bramini.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Diaspora żydowska nasiliła się po:",
+     "odpowiedzi": [
+      "wyjściu z Egiptu pod wodzą Mojżesza",
+      "śmierci króla Salomona",
+      "zburzeniu świątyni w 70 r.",
+      "niewoli babilońskiej"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Zburzenie świątyni przez Rzymian w 70 r. n.e.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p07",
+     "pytanie": "Egzaminy państwowe dla urzędników wprowadzono w:",
+     "odpowiedzi": [
+      "Egipcie faraonów",
+      "Chinach cesarskich",
+      "Persji Achemenidów",
+      "Indiach braminów"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Biurokracja chińska opierała się na egzaminach.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p08",
+     "pytanie": "Skutkiem rewolucji neolitycznej było:",
+     "odpowiedzi": [
+      "powstanie pisma alfabetycznego",
+      "przejście do osiadłego trybu życia",
+      "upadek pierwszych państw",
+      "wynalezienie druku"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Rolnictwo i hodowla wymusiły osiadły tryb życia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "h-grecja",
+   "nazwa": "Świat starożytnych Greków",
+   "opis": "Wymaganie III podstawy programowej.",
+   "wymaganie": "III",
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Jak warunki geograficzne wpłynęły na cywilizację grecką?",
+     "tyl": "Góry i wybrzeże podzieliły Grecję na małe, niezależne poleis, a dostęp do morza sprzyjał żegludze, handlowi i kolonizacji.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f002",
+     "przod": "Czym różniły się warunki narodzin cywilizacji Wschodu i Grecji?",
+     "tyl": "Wschód — wielkie rzeki i scentralizowane monarchie zarządzające nawadnianiem; Grecja — góry, morze, małe poleis.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f003",
+     "przod": "Wyjaśnij pojęcie: polis",
+     "tyl": "Greckie miasto-państwo: miasto z okolicznymi ziemiami, samodzielne politycznie wspólnoty obywateli.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f004",
+     "przod": "Jakie formy ustrojowe miały greckie poleis?",
+     "tyl": "Monarchia, arystokracja, oligarchia, tyrania i demokracja.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f005",
+     "przod": "Wyjaśnij pojęcie: tyrania (w Grecji)",
+     "tyl": "Władza jednostki zdobyta pozaprawnie, często z poparciem ludu przeciw arystokracji — niekoniecznie okrutna.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f006",
+     "przod": "Jak zorganizowane było społeczeństwo Sparty?",
+     "tyl": "Spartiaci (pełnoprawni obywatele-wojownicy), periojkowie (wolni bez praw politycznych) i heloci (państwowi niewolnicy).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f007",
+     "przod": "Jak zorganizowane było społeczeństwo Aten?",
+     "tyl": "Obywatele (mężczyźni z rodzin ateńskich), metojkowie (wolni cudzoziemcy bez praw politycznych) i niewolnicy.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f008",
+     "przod": "Jakie organy władzy miała Sparta?",
+     "tyl": "Dwóch królów, geruzja (rada starszych), apella (zgromadzenie Spartiatów) i eforowie (kontrola).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f009",
+     "przod": "Jakie organy władzy miały Ateny w czasach Peryklesa?",
+     "tyl": "Eklezja (zgromadzenie ludowe), Rada Pięciuset (bule), sądy ludowe (heliaja), strategowie, archonci.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f010",
+     "przod": "Wyjaśnij pojęcie: ostracyzm",
+     "tyl": "Sąd skorupkowy — głosowanie w Atenach nad wygnaniem na 10 lat obywatela groźnego dla demokracji.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f011",
+     "przod": "Jakie reformy przeprowadził Klejstenes?",
+     "tyl": "Podział na 10 fil terytorialnych, Rada Pięciuset, ostracyzm — początek demokracji ateńskiej (508/507 p.n.e.).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f012",
+     "przod": "Oceń demokrację Peryklesa — zalety",
+     "tyl": "Udział obywateli we władzy, losowanie urzędników, diety za pełnienie funkcji publicznych umożliwiające udział ubogim.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f013",
+     "przod": "Oceń demokrację Peryklesa — ograniczenia",
+     "tyl": "Prawa polityczne tylko dla dorosłych mężczyzn-obywateli; wykluczeni kobiety, metojkowie i niewolnicy; ryzyko demagogii.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f014",
+     "przod": "Jakie były przyczyny kolonizacji greckiej (VIII–VI w. p.n.e.)?",
+     "tyl": "Przeludnienie, brak ziemi uprawnej, walki wewnętrzne, poszukiwanie surowców i rynków.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f015",
+     "przod": "Jaki był zasięg kolonizacji greckiej?",
+     "tyl": "Wybrzeża Morza Śródziemnego (Italia, Sycylia, południowa Francja) i Czarnego.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f016",
+     "przod": "Jakie były skutki kolonizacji greckiej?",
+     "tyl": "Rozwój handlu i rzemiosła, rozprzestrzenienie kultury i alfabetu greckiego, kontakty z innymi ludami.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f017",
+     "przod": "Podaj daty i bitwy wojen grecko-perskich",
+     "tyl": "Maraton (490 p.n.e.), Termopile i Salamina (480 p.n.e.), Plateje (479 p.n.e.).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f018",
+     "przod": "Jakie były skutki wojen grecko-perskich?",
+     "tyl": "Wzrost potęgi Aten, Związek Morski, rozkwit demokracji i kultury ateńskiej, poczucie wspólnoty Greków.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f019",
+     "przod": "Czym była wojna peloponeska?",
+     "tyl": "Wojna Aten ze Spartą (431–404 p.n.e.) zakończona klęską Aten — osłabiła świat grecki.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f020",
+     "przod": "Jaki był zasięg podbojów Aleksandra Macedońskiego?",
+     "tyl": "Od Grecji i Egiptu przez imperium perskie po rzekę Indus (334–323 p.n.e.).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f021",
+     "przod": "Wyjaśnij pojęcie: hellenizm",
+     "tyl": "Epoka (323–30 p.n.e.) i kultura powstała z połączenia kultury greckiej i wschodniej po podbojach Aleksandra.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f022",
+     "przod": "Cechy kultury hellenistycznej",
+     "tyl": "Kosmopolityzm, język koine, rozwój nauki (Aleksandria — Biblioteka, Muzejon), monumentalna i ekspresyjna sztuka.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f023",
+     "przod": "Wyjaśnij pojęcie: paideia",
+     "tyl": "Grecki ideał wychowania — wszechstronne kształcenie ciała i umysłu, prowadzące do pełni człowieczeństwa i cnoty obywatelskiej.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f024",
+     "przod": "Wyjaśnij pojęcie: kalokagatia",
+     "tyl": "Ideał jedności piękna (ciała) i dobra (ducha) w człowieku.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f025",
+     "przod": "Wkład Sokratesa w filozofię",
+     "tyl": "Metoda dialogu (majeutyka), etyka — „wiem, że nic nie wiem”, cnota jako wiedza.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f026",
+     "przod": "Wkład Platona w filozofię",
+     "tyl": "Teoria idei, „Państwo” (ideał państwa rządzonego przez filozofów), Akademia.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f027",
+     "przod": "Wkład Arystotelesa w naukę",
+     "tyl": "Logika, „Polityka” (formy ustrojów), nauki przyrodnicze; wychowawca Aleksandra.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f028",
+     "przod": "Twórcy literatury greckiej",
+     "tyl": "Homer („Iliada”, „Odyseja”), tragicy: Ajschylos, Sofokles, Eurypides; komediopisarz Arystofanes; historyk Herodot i Tukidydes.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f029",
+     "przod": "Porządki architektoniczne w Grecji",
+     "tyl": "Dorycki (prosty), joński (woluty), koryncki (liście akantu).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    },
+    {
+     "id": "f030",
+     "przod": "Najważniejsza budowla Akropolu ateńskiego",
+     "tyl": "Partenon — świątynia Ateny (V w. p.n.e., czasy Peryklesa, Fidiasz).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. III"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Heloci w Sparcie to:",
+     "odpowiedzi": [
+      "pełnoprawni obywatele",
+      "wolni rzemieślnicy",
+      "państwowi niewolnicy",
+      "członkowie rady starszych"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Periojkowie byli wolni, Spartiaci — obywatelami.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Ostracyzm służył:",
+     "odpowiedzi": [
+      "wyborowi strategów na rok",
+      "wygnaniu obywatela groźnego dla demokracji",
+      "skazaniu niewolnika na śmierć",
+      "nadaniu obywatelstwa ateńskiego metojkowi"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Głosowano skorupkami na 10-letnie wygnanie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Bitwa pod Salaminą rozegrała się w:",
+     "odpowiedzi": [
+      "490 p.n.e.",
+      "480 p.n.e.",
+      "479 p.n.e.",
+      "431 p.n.e."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "W 480 p.n.e. — także Termopile.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Diety dla obywateli pełniących funkcje publiczne wprowadził:",
+     "odpowiedzi": [
+      "Klejstenes",
+      "Perykles",
+      "Solon",
+      "Aleksander"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Umożliwiło to udział ubogich w życiu politycznym.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Językiem wspólnym epoki hellenistycznej był:",
+     "odpowiedzi": [
+      "łacina",
+      "aramejski",
+      "koine",
+      "perski"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Koine — wspólny dialekt grecki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Teoria idei jest dziełem:",
+     "odpowiedzi": [
+      "Arystotelesa",
+      "Sokratesa",
+      "Platona",
+      "Herodota"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Platon — „Państwo”, Akademia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p07",
+     "pytanie": "Główną przyczyną kolonizacji greckiej był:",
+     "odpowiedzi": [
+      "podbój Grecji przez Persów",
+      "niedobór ziemi uprawnej i przeludnienie",
+      "rozpad imperium Aleksandra",
+      "wojna peloponeska ze Spartą"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Kolonizacja trwała w VIII–VI w. p.n.e.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p08",
+     "pytanie": "Kapitel z liśćmi akantu jest charakterystyczny dla porządku:",
+     "odpowiedzi": [
+      "doryckiego",
+      "jońskiego",
+      "korynckiego",
+      "toskańskiego"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Joński ma woluty, dorycki jest najprostszy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p09",
+     "pytanie": "Metojkowie w Atenach:",
+     "odpowiedzi": [
+      "zasiadali w Radzie Pięciuset",
+      "byli wolni, ale bez praw politycznych",
+      "byli niewolnikami państwowymi",
+      "wybierali strategów co roku"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Metojkowie to wolni cudzoziemcy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "h-rzym",
+   "nazwa": "Społeczeństwo, życie polityczne i kultura starożytnego Rzymu",
+   "opis": "Wymaganie IV podstawy programowej.",
+   "wymaganie": "IV",
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Legendarna data założenia Rzymu",
+     "tyl": "753 p.n.e. (Romulus i Remus).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f002",
+     "przod": "Jak wyglądały początki Rzymu?",
+     "tyl": "Osada Latynów nad Tybrem, okres królewski pod wpływem Etrusków; ok. 509 p.n.e. wygnanie ostatniego króla i powstanie republiki.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f003",
+     "przod": "Organy władzy republiki rzymskiej",
+     "tyl": "Zgromadzenia ludowe (komicja), senat i urzędnicy (magistratury): konsulowie, pretorzy, cenzorzy, edylowie, kwestorzy, trybuni ludowi.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f004",
+     "przod": "Wyjaśnij zasady pełnienia urzędów w republice",
+     "tyl": "Kadencyjność (zwykle rok), kolegialność (co najmniej dwóch na urzędzie), bezpłatność, wybieralność.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f005",
+     "przod": "Kim był dyktator w republice?",
+     "tyl": "Urzędnik powoływany w sytuacji zagrożenia na maks. 6 miesięcy z pełnią władzy.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f006",
+     "przod": "Na czym polegały walki patrycjuszy z plebejuszami?",
+     "tyl": "Plebejusze walczyli o równe prawa — zdobyli trybunów ludowych, spisanie prawa (XII tablic), dostęp do urzędów i konsulatu.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f007",
+     "przod": "Etapy ekspansji rzymskiej",
+     "tyl": "Podbój Italii (do 272 p.n.e.) → wojny punickie z Kartaginą (264–146 p.n.e.) → podbój Grecji, Macedonii i wschodu → Galia (Cezar) → Egipt (30 p.n.e.).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f008",
+     "przod": "Wyjaśnij pojęcie: imperium",
+     "tyl": "Pierwotnie najwyższa władza urzędnika; później ogromne państwo panujące nad wieloma ludami — państwo rzymskie.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f009",
+     "przod": "Wyjaśnij pojęcie: prowincja (rzymska)",
+     "tyl": "Terytorium podbite poza Italią, zarządzane przez namiestnika i płacące podatki.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f010",
+     "przod": "Przyczyny kryzysu republiki rzymskiej",
+     "tyl": "Rozwarstwienie społeczne, upadek drobnych rolników, napływ niewolników, armia zawodowa wierna wodzom, wojny domowe.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f011",
+     "przod": "Na czym polegały reformy Grakchów?",
+     "tyl": "Próba przywrócenia ziemi drobnym rolnikom (reforma rolna) — zakończona śmiercią braci i zaostrzeniem konfliktów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f012",
+     "przod": "Na czym polegała reforma wojskowa Mariusza?",
+     "tyl": "Wprowadzenie armii zawodowej z ochotników (także biednych) — żołnierze stali się zależni od wodzów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f013",
+     "przod": "Rola Juliusza Cezara",
+     "tyl": "Zdobywca Galii, zwycięzca wojny domowej, dyktator dożywotni; zamordowany w 44 p.n.e. — symbol upadku republiki.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f014",
+     "przod": "Rola Oktawiana Augusta",
+     "tyl": "Po zwycięstwie pod Akcjum (31 p.n.e.) stworzył pryncypat (27 p.n.e.) — ukrytą monarchię z zachowaniem fasady republiki.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f015",
+     "przod": "Wyjaśnij pojęcie: pryncypat",
+     "tyl": "Ustrój wprowadzony przez Augusta: władza princepsa („pierwszego obywatela”) przy formalnym zachowaniu instytucji republiki.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f016",
+     "przod": "Wyjaśnij pojęcie: dominat",
+     "tyl": "Jawna monarchia absolutna od Dioklecjana (koniec III w.) — cesarz jako pan (dominus) i bóg.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f017",
+     "przod": "Problem niewolnictwa w Rzymie",
+     "tyl": "Masowy napływ jeńców wojennych; niewolnicy pracowali w latyfundiach i kopalniach; powstanie Spartakusa (73–71 p.n.e.).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f018",
+     "przod": "Wyjaśnij pojęcie: obywatelstwo rzymskie",
+     "tyl": "Pełnia praw publicznych i prywatnych w państwie rzymskim; stopniowo rozszerzane, aż edykt Karakalli (212 r.) nadał je wolnym mieszkańcom imperium.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f019",
+     "przod": "Porównaj obywatelstwo w Atenach i Rzymie",
+     "tyl": "Ateny — wąski krąg, zamknięty (urodzenie z rodziców Ateńczyków); Rzym — otwarte, nadawane podbitym ludom i wyzwoleńcom.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f020",
+     "przod": "Recepcja antycznego pojęcia obywatela",
+     "tyl": "Ideał obywatela odżył w renesansie, w republikach miejskich, w oświeceniu i w rewolucjach XVIII w. (obywatel zamiast poddanego).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f021",
+     "przod": "Geneza chrześcijaństwa",
+     "tyl": "Powstało w I w. w Palestynie wśród Żydów; opiera się na nauce Jezusa z Nazaretu; szerzone przez apostołów (św. Piotr, św. Paweł).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f022",
+     "przod": "Dlaczego Rzymianie prześladowali chrześcijan?",
+     "tyl": "Odmawiali czczenia cesarza i bogów państwowych — uznawani za nielojalnych; obwiniani o klęski (np. pożar Rzymu za Nerona).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f023",
+     "przod": "Edykt mediolański — data i treść",
+     "tyl": "313 r., Konstantyn Wielki — tolerancja religijna dla chrześcijan.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f024",
+     "przod": "Edykty Teodozjusza Wielkiego",
+     "tyl": "380 r. — chrześcijaństwo religią państwową; 392 r. — zakaz kultów pogańskich.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f025",
+     "przod": "Kulturowe znaczenie chrześcijaństwa",
+     "tyl": "Uniwersalizm, nowa etyka (miłość bliźniego, równość wobec Boga), Biblia jako fundament kultury europejskiej, rola Kościoła w przekazie wiedzy.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f026",
+     "przod": "Wewnętrzne przyczyny upadku cesarstwa zachodniorzymskiego",
+     "tyl": "Kryzys gospodarczy i monetarny, walki o władzę, korupcja, wysokie podatki, spadek liczby ludności, barbaryzacja armii.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f027",
+     "przod": "Zewnętrzne przyczyny upadku cesarstwa zachodniorzymskiego",
+     "tyl": "Najazdy plemion germańskich i Hunów (wędrówka ludów), presja na granicach.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f028",
+     "przod": "Upadek cesarstwa zachodniorzymskiego — data i okoliczności",
+     "tyl": "476 r. — Odoaker zdetronizował Romulusa Augustulusa.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f029",
+     "przod": "Podział cesarstwa — data",
+     "tyl": "395 r. — po śmierci Teodozjusza na zachodnie i wschodnie.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f030",
+     "przod": "Osiągnięcia kulturowe Rzymian",
+     "tyl": "Prawo rzymskie, łacina, akwedukty, drogi, łuk i sklepienie, beton, amfiteatry (Koloseum), literatura (Wergiliusz, Horacy, Owidiusz).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    },
+    {
+     "id": "f031",
+     "przod": "Wyjaśnij pojęcie: prawo rzymskie",
+     "tyl": "System prawny starożytnego Rzymu (od Ustawy XII tablic po kodyfikację Justyniana) — podstawa prawa cywilnego Europy.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. IV"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Kolegialność urzędów w republice rzymskiej oznaczała:",
+     "odpowiedzi": [
+      "wybór urzędników na jeden rok",
+      "sprawowanie urzędu przez co najmniej dwie osoby",
+      "pełnienie urzędu bez wynagrodzenia",
+      "dożywotnie sprawowanie urzędu"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Kadencyjność, kolegialność i bezpłatność to odrębne zasady.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Pryncypat wprowadził:",
+     "odpowiedzi": [
+      "Juliusz Cezar",
+      "Oktawian August",
+      "Dioklecjan",
+      "Konstantyn Wielki"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "W 27 p.n.e.; dominat — Dioklecjan.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Edykt mediolański wydano w:",
+     "odpowiedzi": [
+      "64 r.",
+      "313 r.",
+      "380 r.",
+      "476 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "313 r. — tolerancja dla chrześcijan.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Wojny punickie Rzym toczył z:",
+     "odpowiedzi": [
+      "Macedonią",
+      "Kartaginą",
+      "Galami",
+      "Egiptem"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "264–146 p.n.e.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Obywatelstwo wszystkim wolnym mieszkańcom imperium nadał edykt:",
+     "odpowiedzi": [
+      "Konstantyna",
+      "Teodozjusza",
+      "Karakalli",
+      "Augusta"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Edykt Karakalli z 212 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Armię zawodową w Rzymie wprowadził:",
+     "odpowiedzi": [
+      "Juliusz Cezar",
+      "Tyberiusz Grakchus",
+      "Gajusz Mariusz",
+      "Oktawian August"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Reforma Mariusza z końca II w. p.n.e.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p07",
+     "pytanie": "Do zewnętrznych przyczyn upadku cesarstwa zachodniorzymskiego należy:",
+     "odpowiedzi": [
+      "kryzys monetarny",
+      "korupcja urzędników",
+      "wędrówka ludów",
+      "wysokie podatki"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Pozostałe to przyczyny wewnętrzne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p08",
+     "pytanie": "Chrześcijaństwo stało się religią państwową Rzymu za panowania:",
+     "odpowiedzi": [
+      "Konstantyna Wielkiego",
+      "Teodozjusza Wielkiego",
+      "Dioklecjana",
+      "Nerona"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "380 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p09",
+     "pytanie": "Powstanie Spartakusa było buntem:",
+     "odpowiedzi": [
+      "plebejuszy",
+      "niewolników",
+      "legionistów",
+      "Galów"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "73–71 p.n.e.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

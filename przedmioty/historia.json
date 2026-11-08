@@ -1,0 +1,59 @@
+{
+ "id": "historia",
+ "nazwa": "Historia",
+ "skrot": "HIS",
+ "szkic": true,
+ "opis": "Matura rozszerzona z historii — wszystkie wymagania podstawy programowej 2024.",
+ "dzialy": [
+  {
+   "id": "umiejetnosci",
+   "plik": "historia/umiejetnosci.json"
+  },
+  {
+   "id": "starozytnosc",
+   "plik": "historia/starozytnosc.json"
+  },
+  {
+   "id": "sredniowiecze",
+   "plik": "historia/sredniowiecze.json"
+  },
+  {
+   "id": "nowozytnosc",
+   "plik": "historia/nowozytnosc.json"
+  },
+  {
+   "id": "xviii-wiek",
+   "plik": "historia/xviii-wiek.json"
+  },
+  {
+   "id": "xix-wiek",
+   "plik": "historia/xix-wiek.json"
+  },
+  {
+   "id": "lata-1914-1939",
+   "plik": "historia/lata-1914-1939.json"
+  },
+  {
+   "id": "ii-wojna",
+   "plik": "historia/ii-wojna.json"
+  },
+  {
+   "id": "swiat-po-1945",
+   "plik": "historia/swiat-po-1945.json"
+  },
+  {
+   "id": "polska-po-1945",
+   "plik": "historia/polska-po-1945.json"
+  }
+ ],
+ "arkusze": [
+  {
+   "id": "2026-maj",
+   "plik": "historia/arkusze/2026-maj.json"
+  }
+ ],
+ "bank": [],
+ "aktualnosci": {
+  "plik": "historia/chronologia.json"
+ }
+}

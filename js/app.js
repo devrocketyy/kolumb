@@ -225,6 +225,10 @@ function pathHtml(s, rec) {
     const open = rec ? rec.d === d : di === 0;
     const doneN = d.poddzialy.filter((u) => summary(s.id, [u], allowance).progress >= 0.8).length;
     const stops = d.poddzialy.map((u, ui) => {
+      if (!u.fiszki.length && !u.pytania.length) { // temat bez treści (kurs w budowie)
+        return `<li class="stop soon"><span class="stop-dot" aria-hidden="true"><i>${ui + 1}</i></span>
+          <div class="stop-main"><div class="stop-body" aria-disabled="true"><span class="stop-name">${esc(u.nazwa)}</span><span class="stop-meta">wkrótce</span></div></div></li>`;
+      }
       const sm = summary(s.id, [u], allowance);
       const lr = lessonRec(s.id, 'p', u.id);
       const cur = rec && rec.u === u;
@@ -270,7 +274,7 @@ function planHtml(s, rec, todo, best) {
     best ? { done: !todo, href: `#/fiszki/${enc(s.id)}/d/${enc(best.d.id)}`, icon: ICONS.cards, name: todo ? `Powtórz fiszki: ${todo}` : 'Powtórki na dziś zrobione' } : null,
     rec ? { done: (d.lekcje || 0) > 0, href: `#/lekcja/${enc(s.id)}/p/${enc(rec.u.id)}`, icon: ICONS.play, name: `Lekcja: ${rec.u.nazwa}` } : null,
     rec && s.bank.length ? { done: (d.zadania || 0) > 0, href: `#/zadania/${enc(s.id)}/b/${enc(rec.d.id)}`, icon: ICONS.exam, name: `Zadanie maturalne: ${rec.d.nazwa}` } : null,
-    s.aktualnosci ? { done: false, href: '#/aktualnosci', icon: ICONS.news, name: 'Aktualności — kto jest kim' } : null,
+    s.aktualnosci ? { done: false, href: '#/aktualnosci', icon: ICONS.news, name: s.aktualnosci.nazwa ? s.aktualnosci.nazwa : 'Aktualności — kto jest kim' } : null,
   ].filter(Boolean);
   return `<section class="card plan">
     <h2 class="card-title">Na dziś</h2>
@@ -417,7 +421,11 @@ function updateTopStats() {
   const cs = subjects.length ? currentSubject() : null;
   if (sb) sb.innerHTML = `${BRAND_MARK}${cs ? `<span class="subj-btn-name">${esc(cs.skrot || cs.nazwa)}</span>` : ''}`;
   const newsTab = document.querySelector('.tabbar [data-tab="news"]');
-  if (newsTab) newsTab.hidden = !cs?.aktualnosci; // zakładka tylko dla przedmiotów z modułem aktualności
+  if (newsTab) {
+    newsTab.hidden = !cs?.aktualnosci; // zakładka tylko dla przedmiotów z modułem aktualności
+    const lbl = newsTab.querySelector('span');
+    if (lbl) lbl.textContent = cs?.aktualnosci?.zakladka || 'Aktualności';
+  }
   const el = document.getElementById('top-stats');
   if (!el) return;
   const st = store.streak();
@@ -1371,6 +1379,10 @@ function bankTasks(s, did) {
   });
 }
 
+// Materiał źródłowy: przepisany w aplikacji albo (historia) link do właściwej strony arkusza CKE.
+const linkMaterial = (w) => w.link && !w.material
+  ? `<a class="card material-link" href="${esc(w.link)}" target="_blank" rel="noopener">${ICONS.exam}<span><strong>Materiał źródłowy w arkuszu CKE</strong><small>${w.tytul ? esc(w.tytul) + ' · ' : ''}otwórz PDF${w.strona ? `, s. ${w.strona}` : ''}</small></span>${ICONS.next}</a>` : '';
+
 function renderTask() {
   const { s, list, i, title } = zs;
   document.body.classList.add('in-session');
@@ -1390,6 +1402,7 @@ function renderTask() {
     <p class="eyebrow">${esc(title)}${title !== a.nazwa ? ` · ${esc(a.nazwa)}` : ''}</p>
     <h1 class="task-title">Zadanie ${esc(z.nr)} <span class="muted">(0–${z.punkty} pkt)</span>${prev ? ` <span class="tag tag-ok">${prev.pkt}/${prev.max} pkt</span>` : ''}</h1>
 
+    ${linkMaterial(w)}
     ${w.material || w.uwaga ? `<details class="card material" ${i === 0 || list[i - 1].wiazka !== w ? 'open' : ''}>
       <summary>Materiał do zadania ${esc(w.nr)}${w.tytul ? ` — ${esc(w.tytul)}` : ''}</summary>
       ${w.uwaga ? `<p class="note">${esc(w.uwaga)}</p>` : ''}
@@ -1430,12 +1443,17 @@ function renderTask() {
 }
 
 function keyHtml(z, prev) {
+  const ark = zs?.s?.arkusze?.find((x) => x.id === z.arkusz);
+  const label = String(z.arkusz).startsWith(BANK_PREFIX) ? 'Przykładowa odpowiedź (klucz IndexLab)'
+    : ark?.link ? 'Wzorcowa odpowiedź (opracowanie IndexLab na podstawie zasad CKE)' : 'Odpowiedź według klucza CKE';
   const btns = Array.from({ length: z.punkty + 1 }, (_, p) =>
     `<button type="button" class="btn btn-score ${prev && prev.pkt === p ? 'active' : ''}" data-pkt="${p}">${p} pkt</button>`).join('');
   return `<section class="card key">
-      <h2 class="card-title">${ICONS.check} ${String(z.arkusz).startsWith(BANK_PREFIX) ? 'Przykładowa odpowiedź (klucz IndexLab)' : 'Odpowiedź według klucza CKE'}</h2>
+      <h2 class="card-title">${ICONS.check} ${label}</h2>
       ${pre(z.odpowiedz || '—')}
-      ${z.zasady ? `<details class="rules"><summary>Zasady oceniania</summary>${pre(z.zasady)}</details>` : ''}
+      ${z.omowienie ? `<div class="omowienie"><strong>Omówienie</strong>${pre(z.omowienie)}</div>` : ''}
+      ${z.zasady ? `<details class="rules"><summary>Jak to jest punktowane</summary>${pre(z.zasady)}</details>` : ''}
+      ${ark?.linkZasady ? `<a class="small" href="${esc(ark.linkZasady)}" target="_blank" rel="noopener">Oficjalne zasady oceniania CKE (PDF)</a>` : ''}
     </section>
     <p class="score-q">Ile punktów przyznajesz sobie?</p>
     <div class="score-row">${btns}</div>`;
@@ -1629,6 +1647,7 @@ function renderExamTask(s, e, ws) {
       <h2 class="card-title">${esc(w.tytul || 'Zadanie ' + (e.i + 1))}</h2>
       ${w.uwaga ? `<p class="note">${esc(w.uwaga)}</p>` : ''}
       ${w.material ? rich(w.material) : ''}
+      ${linkMaterial(w)}
       <p class="muted small">${esc(w.zrodlo)}</p>
     </section>
     ${w.zadania.map((z, j) => `<section class="card task-body">
@@ -1768,9 +1787,9 @@ function viewAktualnosci() {
         <span class="nw-role">${esc(r[0])}</span><strong>${esc(who)}</strong>${extra ? `<small>${k[2] === 'Od' && /^[0-9IVX]/.test(extra) ? 'od ' : ''}${esc(extra)}</small>` : ''}</li>`; }).join('')}</ul>`;
   };
   app.innerHTML = `
-    ${pageHead('Aktualności', null)}
-    <p class="news-meta"><span class="nw-pill">Stan na ${esc(A.stan)}</span> Kto jest kim i najważniejsze wydarzenia</p>
-    <input class="type-input search-input" id="news-q" type="search" autocomplete="off" placeholder="Szukaj: RPO, Węgry, MTK…" aria-label="Szukaj w aktualnościach" value="${esc(newsQ)}">
+    ${pageHead(A.nazwa || 'Aktualności', null)}
+    <p class="news-meta">${A.stan ? `<span class="nw-pill">Stan na ${esc(A.stan)}</span>` : ''} ${esc(A.podtytul || 'Kto jest kim i najważniejsze wydarzenia')}</p>
+    <input class="type-input search-input" id="news-q" type="search" autocomplete="off" placeholder="${esc(A.szukaj || 'Szukaj: RPO, Węgry, MTK…')}" aria-label="Szukaj w aktualnościach" value="${esc(newsQ)}">
     ${q ? '' : `<nav class="nw-chips" aria-label="Sekcje">${A.sekcje.map((x) => `<button type="button" class="nw-chip ${x.id === newsSec ? 'on' : ''}" data-sec="${esc(x.id)}" aria-pressed="${x.id === newsSec}">${esc(x.tytul)}</button>`).join('')}</nav>`}
     <div class="news">${sections.map(({ sec, rows }) => `<section class="nw-sec">
         ${q ? `<h2 class="nw-title">${esc(sec.tytul)}<small>${rows.length}</small></h2>` : ''}
