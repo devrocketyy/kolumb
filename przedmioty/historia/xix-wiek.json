@@ -8,56 +8,1278 @@
    "nazwa": "Europa i świat po kongresie wiedeńskim",
    "opis": "Wymaganie XXX podstawy programowej.",
    "wymaganie": "XXX",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Kongres wiedeński — zasady",
+     "tyl": "1814–1815: legitymizm (powrót dawnych dynastii), restauracja, równowaga sił; rola Metternicha.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f002",
+     "przod": "Postanowienia kongresu wiedeńskiego wobec ziem polskich",
+     "tyl": "Królestwo Polskie w unii z Rosją, Wielkie Księstwo Poznańskie dla Prus, Wolne Miasto Kraków, Galicja dla Austrii.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f003",
+     "przod": "Święte Przymierze",
+     "tyl": "1815 r. — Rosja, Austria, Prusy: obrona porządku wiedeńskiego i monarchii przed rewolucją; interwencje (Neapol, Hiszpania).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f004",
+     "przod": "Próby podważenia systemu wiedeńskiego",
+     "tyl": "Rewolucje lat 20. (Hiszpania, Włochy — karbonariusze, dekabryści w Rosji 1825), powstanie greckie (1821–1829), rewolucja lipcowa we Francji i niepodległość Belgii (1830).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f005",
+     "przod": "Ruchy niepodległościowe w Ameryce Łacińskiej",
+     "tyl": "Simón Bolívar, José de San Martín — niepodległość kolonii hiszpańskich (1810–1825); Brazylia niezależna od Portugalii (1822).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f006",
+     "przod": "Doktryna Monroego",
+     "tyl": "1823 r. — „Ameryka dla Amerykanów”: sprzeciw USA wobec ingerencji Europy w Ameryce.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f007",
+     "przod": "Rewolucja przemysłowa w XIX w. — przebieg",
+     "tyl": "Z Anglii na kontynent (Belgia, Francja, Niemcy): kolej, maszyna parowa, przemysł włókienniczy, węgiel i stal.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f008",
+     "przod": "Konsekwencje rewolucji przemysłowej",
+     "tyl": "Urbanizacja, powstanie robotników i burżuazji, kwestia robotnicza (bieda, praca dzieci), wzrost produkcji, zanieczyszczenie.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f009",
+     "przod": "Liberalizm",
+     "tyl": "Ideologia wolności jednostki, praw obywatelskich, konstytucji i wolnego rynku (Adam Smith).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f010",
+     "przod": "Konserwatyzm",
+     "tyl": "Obrona tradycji, religii i ładu społecznego; ostrożność wobec zmian (Edmund Burke).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f011",
+     "przod": "Romantyzm w kulturze",
+     "tyl": "Uczucie, wyobraźnia, ludowość, historia narodowa, indywidualizm; Byron, Goethe, Mickiewicz, Chopin, Delacroix.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f012",
+     "przod": "Przyczyny Wiosny Ludów",
+     "tyl": "Kryzys gospodarczy i nieurodzaje (1845–1847), dążenia liberalne i narodowe, sprzeciw wobec systemu wiedeńskiego.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f013",
+     "przod": "Przebieg Wiosny Ludów",
+     "tyl": "1848–1849: rewolucja lutowa we Francji (II Republika), rewolucje w Wiedniu, Berlinie, Węgrzech, Włoszech; parlament frankfurcki.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f014",
+     "przod": "Polacy w Wiośnie Ludów",
+     "tyl": "Józef Bem i Henryk Dembiński na Węgrzech, Legion Mickiewicza we Włoszech, Ludwik Mierosławski w Badenii i na Sycylii.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f015",
+     "przod": "Skutki Wiosny Ludów",
+     "tyl": "Zniesienie pańszczyzny w Austrii i Prusach, konstytucje w części państw, upadek Metternicha; ale zwycięstwo reakcji (stłumienie Węgier przez Rosję).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f016",
+     "przod": "Wojna krymska",
+     "tyl": "1853–1856: Rosja kontra Turcja, Francja, Wielka Brytania (i Piemont); oblężenie Sewastopola; klęska Rosji, pokój paryski.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    },
+    {
+     "id": "f017",
+     "przod": "Znaczenie wojny krymskiej",
+     "tyl": "Rozpad Świętego Przymierza, osłabienie Rosji i reformy Aleksandra II, nowoczesna wojna (kolej, telegraf, Florence Nightingale).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXX"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Twórcą systemu wiedeńskiego był przede wszystkim:",
+     "odpowiedzi": [
+      "Talleyrand",
+      "Metternich",
+      "Bismarck",
+      "Castlereagh"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Kanclerz Austrii.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Doktrynę „Ameryka dla Amerykanów” ogłoszono w:",
+     "odpowiedzi": [
+      "1815 r.",
+      "1823 r.",
+      "1848 r.",
+      "1861 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Prezydent James Monroe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Wolne Miasto Kraków utworzono na mocy:",
+     "odpowiedzi": [
+      "pokoju w Tylży",
+      "kongresu wiedeńskiego",
+      "pokoju w Schönbrunn",
+      "Wiosny Ludów"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1815 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Wojska węgierskie podczas Wiosny Ludów wspierał:",
+     "odpowiedzi": [
+      "Ludwik Mierosławski",
+      "Józef Bem",
+      "Adam Mickiewicz",
+      "Józef Chłopicki"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Generał Bem.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Oblężenie Sewastopola miało miejsce podczas wojny:",
+     "odpowiedzi": [
+      "napoleońskiej",
+      "krymskiej",
+      "francusko-pruskiej",
+      "rosyjsko-japońskiej"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1854–1855.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Niepodległość kolonii hiszpańskich w Ameryce Południowej wywalczył m.in.:",
+     "odpowiedzi": [
+      "Toussaint Louverture",
+      "Simón Bolívar",
+      "Giuseppe Garibaldi",
+      "George Washington"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Bolívar.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-ziemie-1815-1848",
    "nazwa": "Ziemie polskie i ich mieszkańcy w latach 1815–1848",
    "opis": "Wymaganie XXXI podstawy programowej.",
    "wymaganie": "XXXI",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Ustrój Królestwa Polskiego (1815)",
+     "tyl": "Konstytucja nadana przez Aleksandra I: unia personalna z Rosją, sejm, wojsko polskie, namiestnik; car królem Polski.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f002",
+     "przod": "Łamanie konstytucji w Królestwie",
+     "tyl": "Cenzura, wielki książę Konstanty jako wódz armii, prześladowanie opozycji (kaliszanie), procesy studentów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f003",
+     "przod": "Ziemie zabrane",
+     "tyl": "Dawne ziemie wschodnie Rzeczypospolitej wcielone do Rosji; Uniwersytet Wileński, Towarzystwo Filomatów (Mickiewicz).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f004",
+     "przod": "Zabór pruski 1815–1848",
+     "tyl": "Wielkie Księstwo Poznańskie z namiestnikiem Antonim Radziwiłłem; po 1830 r. germanizacja; praca organiczna (Karol Marcinkowski).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f005",
+     "przod": "Zabór austriacki 1815–1848",
+     "tyl": "Galicja — zacofanie, pańszczyzna, urzędnicy niemieccy; Ossolineum (1817); Wolne Miasto Kraków.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f006",
+     "przod": "Geneza powstania listopadowego",
+     "tyl": "Łamanie konstytucji, plany użycia polskiego wojska przeciw rewolucjom we Francji i Belgii, spisek Piotra Wysockiego w Szkole Podchorążych.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f007",
+     "przod": "Wybuch powstania listopadowego",
+     "tyl": "Noc 29/30 XI 1830 r. — atak na Belweder i arsenał.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f008",
+     "przod": "Władze powstania listopadowego",
+     "tyl": "Dyktatura Józefa Chłopickiego, Rząd Narodowy Adama Czartoryskiego; detronizacja Mikołaja I (25 I 1831).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f009",
+     "przod": "Bitwy powstania listopadowego",
+     "tyl": "Olszynka Grochowska, Stoczek, Iganie, Ostrołęka (klęska), szturm na Warszawę (IX 1831).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f010",
+     "przod": "Reakcja międzynarodowa na powstanie listopadowe",
+     "tyl": "Sympatia opinii publicznej (pieśni o Polsce), ale brak pomocy rządów Francji i Wielkiej Brytanii; Prusy i Austria wspierały Rosję.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f011",
+     "przod": "Następstwa powstania listopadowego",
+     "tyl": "Statut organiczny (1832), likwidacja sejmu i wojska, zamknięcie uniwersytetów, cytadela warszawska, Wielka Emigracja.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f012",
+     "przod": "Hotel Lambert",
+     "tyl": "Konserwatywny obóz Wielkiej Emigracji — Adam Czartoryski: niepodległość dzięki dyplomacji i pomocy mocarstw.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f013",
+     "przod": "Towarzystwo Demokratyczne Polskie",
+     "tyl": "Demokratyczny obóz emigracji: powstanie ludowe, uwłaszczenie chłopów, Manifest poitierski (1836).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f014",
+     "przod": "Gromady Ludu Polskiego",
+     "tyl": "Radykalny, socjalizujący obóz emigracji — wspólna własność ziemi.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f015",
+     "przod": "Powstanie krakowskie",
+     "tyl": "Luty 1846 r. — Edward Dembowski; upadek; Kraków wcielony do Austrii.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f016",
+     "przod": "Rabacja galicyjska",
+     "tyl": "1846 r. — chłopi pod wodzą Jakuba Szeli mordowali szlachtę, podburzani przez urzędników austriackich.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f017",
+     "przod": "Wiosna Ludów na ziemiach polskich",
+     "tyl": "Powstanie wielkopolskie 1848 (Mierosławski — Miłosław, Sokołów), uwłaszczenie w Galicji (1848), Rada Narodowa we Lwowie.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f018",
+     "przod": "Romantyczny mesjanizm",
+     "tyl": "Przekonanie, że Polska — „Chrystus narodów” — cierpi za grzechy świata i zmartwychwstanie (Mickiewicz, „Dziady” cz. III).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    },
+    {
+     "id": "f019",
+     "przod": "Dorobek kultury I połowy XIX w.",
+     "tyl": "Mickiewicz („Pan Tadeusz”), Słowacki, Krasiński, Chopin, Lelewel (historia), Ossolineum, Towarzystwo Przyjaciół Nauk.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXI"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Powstanie listopadowe wybuchło w nocy:",
+     "odpowiedzi": [
+      "22/23 I 1863 r.",
+      "29/30 XI 1830 r.",
+      "20/21 II 1846 r.",
+      "3/4 V 1791 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Atak na Belweder.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Detronizacji Mikołaja I sejm dokonał w:",
+     "odpowiedzi": [
+      "grudniu 1830 r.",
+      "styczniu 1831 r.",
+      "maju 1831 r.",
+      "wrześniu 1831 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "25 I 1831 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Obozem konserwatywnym Wielkiej Emigracji był:",
+     "odpowiedzi": [
+      "Towarzystwo Demokratyczne Polskie",
+      "Hotel Lambert",
+      "Gromady Ludu Polskiego",
+      "Młoda Polska"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Adam Czartoryski.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Rabacji galicyjskiej przewodził:",
+     "odpowiedzi": [
+      "Edward Dembowski",
+      "Jakub Szela",
+      "Ludwik Mierosławski",
+      "Piotr Wysocki"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1846 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Statut organiczny wprowadzono w:",
+     "odpowiedzi": [
+      "1815 r.",
+      "1832 r.",
+      "1846 r.",
+      "1864 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Po powstaniu listopadowym.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Ossolineum założono w:",
+     "odpowiedzi": [
+      "Krakowie",
+      "Lwowie",
+      "Wilnie",
+      "Poznaniu"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1817 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p07",
+     "pytanie": "Pracę organiczną w Poznańskiem rozwijał:",
+     "odpowiedzi": [
+      "Hipolit Cegielski",
+      "Karol Marcinkowski",
+      "Antoni Radziwiłł",
+      "Edward Raczyński"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Bazar Poznański.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-powstanie-styczniowe",
    "nazwa": "Powstanie styczniowe i jego następstwa",
    "opis": "Wymaganie XXXII podstawy programowej.",
    "wymaganie": "XXXII",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Geneza powstania styczniowego",
+     "tyl": "Odwilż posewastopolska, manifestacje patriotyczne (1860–1861), reformy Wielopolskiego, branka (1863) — pobór do armii rosyjskiej.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXII"
+    },
+    {
+     "id": "f002",
+     "przod": "Biali i czerwoni",
+     "tyl": "Biali — ziemiaństwo i burżuazja, ostrożni, przeciw powstaniu; czerwoni — radykałowie, powstanie i uwłaszczenie.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXII"
+    },
+    {
+     "id": "f003",
+     "przod": "Aleksander Wielopolski",
+     "tyl": "Naczelnik rządu cywilnego; ugoda z Rosją, autonomia, Szkoła Główna; branka miała usunąć spiskowców.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXII"
+    },
+    {
+     "id": "f004",
+     "przod": "Wybuch powstania styczniowego",
+     "tyl": "Noc 22/23 I 1863 r.; manifest Tymczasowego Rządu Narodowego.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXII"
+    },
+    {
+     "id": "f005",
+     "przod": "Charakter walk",
+     "tyl": "Wojna partyzancka — kilkaset potyczek; brak regularnej armii; walki w Królestwie, na Litwie i Białorusi.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXII"
+    },
+    {
+     "id": "f006",
+     "przod": "Państwo podziemne 1863–1864",
+     "tyl": "Rząd Narodowy z tajną administracją, policją, podatkami, prasą; dyktatorzy: Mierosławski, Langiewicz.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXII"
+    },
+    {
+     "id": "f007",
+     "przod": "Romuald Traugutt",
+     "tyl": "Ostatni dyktator powstania (od X 1863), zreorganizował władze; stracony w 1864 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXII"
+    },
+    {
+     "id": "f008",
+     "przod": "Reakcja międzynarodowa na powstanie styczniowe",
+     "tyl": "Francja, Wielka Brytania i Austria — tylko noty dyplomatyczne; Prusy — konwencja Alvenslebena (1863) — pomoc dla Rosji.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXII"
+    },
+    {
+     "id": "f009",
+     "przod": "Represje po powstaniu",
+     "tyl": "Egzekucje, zsyłki na Syberię, konfiskaty majątków, kasata klasztorów, rusyfikacja, likwidacja odrębności Królestwa (Kraj Przywiślański).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXII"
+    },
+    {
+     "id": "f010",
+     "przod": "Uwłaszczenie w Królestwie Polskim",
+     "tyl": "Dekret z 1864 r. (car) — ziemia dla chłopów bez wykupu, serwituty; cel: odciągnąć chłopów od szlachty.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXII"
+    },
+    {
+     "id": "f011",
+     "przod": "Uwłaszczenie w zaborze pruskim",
+     "tyl": "Stopniowo od 1823 r. (ostatecznie 1850) — za odszkodowaniem dla właścicieli (ziemią lub pieniędzmi).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXII"
+    },
+    {
+     "id": "f012",
+     "przod": "Uwłaszczenie w Galicji",
+     "tyl": "1848 r. — w czasie Wiosny Ludów; odszkodowanie dla dziedziców z funduszu państwowego.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXII"
+    },
+    {
+     "id": "f013",
+     "przod": "Znaczenie powstania styczniowego dla narodu",
+     "tyl": "Upowszechnienie świadomości narodowej (także wśród chłopów), etos walki, mit powstańczy; ale odejście od walki zbrojnej na rzecz pracy organicznej.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXII"
+    },
+    {
+     "id": "f014",
+     "przod": "Polacy na zesłaniu syberyjskim",
+     "tyl": "Badacze Syberii: Benedykt Dybowski (Bajkał), Jan Czerski, Aleksander Czekanowski; Bronisław Piłsudski (Ajnowie).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Powstanie styczniowe wybuchło w:",
+     "odpowiedzi": [
+      "1830 r.",
+      "1846 r.",
+      "1863 r.",
+      "1905 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "22 I 1863 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Ostatnim dyktatorem powstania styczniowego był:",
+     "odpowiedzi": [
+      "Marian Langiewicz",
+      "Romuald Traugutt",
+      "Ludwik Mierosławski",
+      "Stefan Bobrowski"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Stracony w 1864 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Konwencję o pomocy dla Rosji przeciw powstańcom zawarły:",
+     "odpowiedzi": [
+      "Austria",
+      "Francja",
+      "Prusy",
+      "Wielka Brytania"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Konwencja Alvenslebena.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Uwłaszczenie w Królestwie Polskim przeprowadzono w:",
+     "odpowiedzi": [
+      "1848 r.",
+      "1850 r.",
+      "1864 r.",
+      "1867 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Dekret carski.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Brankę zarządził:",
+     "odpowiedzi": [
+      "Romuald Traugutt",
+      "Aleksander Wielopolski",
+      "Michaił Murawjow",
+      "Iwan Paskiewicz"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Styczeń 1863 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Badaczem Bajkału był:",
+     "odpowiedzi": [
+      "Bronisław Piłsudski",
+      "Benedykt Dybowski",
+      "Ignacy Domeyko",
+      "Paweł Strzelecki"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Zesłaniec.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-swiat-xix-xx",
    "nazwa": "Europa i świat w II połowie XIX i na początku XX w.",
    "opis": "Wymaganie XXXIII podstawy programowej.",
    "wymaganie": "XXXIII",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Zjednoczenie Włoch",
+     "tyl": "Piemont (Cavour) i Garibaldi (wyprawa tysiąca, 1860); Królestwo Włoch 1861 r.; Rzym stolicą w 1870 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIII"
+    },
+    {
+     "id": "f002",
+     "przod": "Zjednoczenie Niemiec",
+     "tyl": "Bismarck — „krwią i żelazem”: wojny z Danią (1864), Austrią (1866), Francją (1870–1871); cesarstwo proklamowane w Wersalu 18 I 1871 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIII"
+    },
+    {
+     "id": "f003",
+     "przod": "Przyczyny wojny secesyjnej",
+     "tyl": "Spór o niewolnictwo i prawa stanów, różnice gospodarcze (przemysłowa Północ vs plantacyjne Południe), wybór Lincolna (1860).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIII"
+    },
+    {
+     "id": "f004",
+     "przod": "Przebieg i skutki wojny secesyjnej",
+     "tyl": "1861–1865; Gettysburg (1863); zwycięstwo Północy, zniesienie niewolnictwa (XIII poprawka), zjednoczenie i rozwój USA.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIII"
+    },
+    {
+     "id": "f005",
+     "przod": "Przyczyny ekspansji kolonialnej XIX w.",
+     "tyl": "Surowce i rynki zbytu, prestiż mocarstw, rywalizacja, misja „cywilizacyjna”, rozwój techniki (statki parowe, broń).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIII"
+    },
+    {
+     "id": "f006",
+     "przod": "Wyjaśnij pojęcie: imperializm",
+     "tyl": "Dążenie mocarstw do podporządkowania sobie obcych terytoriów i budowy imperiów kolonialnych.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIII"
+    },
+    {
+     "id": "f007",
+     "przod": "Zasięg ekspansji kolonialnej",
+     "tyl": "Podział Afryki (konferencja berlińska 1884–1885), Indie brytyjskie, Indochiny francuskie, strefy wpływów w Chinach; USA — Filipiny, Hawaje; Japonia — Korea, Tajwan.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIII"
+    },
+    {
+     "id": "f008",
+     "przod": "Następstwa kolonializmu",
+     "tyl": "Eksploatacja ludności i surowców, sztuczne granice, upowszechnienie europejskiej cywilizacji, konflikty mocarstw (Faszoda 1898), opór ludności (powstanie bokserów).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIII"
+    },
+    {
+     "id": "f009",
+     "przod": "Modernizacja Japonii",
+     "tyl": "Rewolucja Meiji (1868): koniec szogunatu, konstytucja, armia z poboru, przemysł, szkolnictwo, wzorce zachodnie; zwycięstwa nad Chinami (1895) i Rosją (1905).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIII"
+    },
+    {
+     "id": "f010",
+     "przod": "Podział polityczny świata u schyłku XIX w.",
+     "tyl": "Mocarstwa europejskie z imperiami kolonialnymi, wzrost USA i Japonii, słabnące Chiny i Turcja; tworzenie bloków (trójprzymierze, trójporozumienie).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIII"
+    },
+    {
+     "id": "f011",
+     "przod": "Reformy w Rosji (Aleksander II)",
+     "tyl": "Uwłaszczenie (1861), samorząd ziemski (ziemstwa), reforma sądów i wojska.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIII"
+    },
+    {
+     "id": "f012",
+     "przod": "Reformy w Austrii",
+     "tyl": "Konstytucja grudniowa (1867), dualizm austro-węgierski (1867), autonomia Galicji.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIII"
+    },
+    {
+     "id": "f013",
+     "przod": "Reformy w Niemczech (Bismarck)",
+     "tyl": "Kulturkampf (walka z Kościołem katolickim), ustawy socjalne (ubezpieczenia), ustawa antysocjalistyczna.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIII"
+    },
+    {
+     "id": "f014",
+     "przod": "Trójprzymierze i trójporozumienie",
+     "tyl": "Trójprzymierze (1882): Niemcy, Austro-Węgry, Włochy; trójporozumienie (ententa, 1907): Francja, Wielka Brytania, Rosja.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Cesarstwo Niemieckie proklamowano w:",
+     "odpowiedzi": [
+      "Berlinie",
+      "Wersalu",
+      "Frankfurcie",
+      "Wiedniu"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "18 I 1871 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Wyprawę tysiąca poprowadził:",
+     "odpowiedzi": [
+      "Cavour",
+      "Garibaldi",
+      "Mazzini",
+      "Wiktor Emanuel II"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1860 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Rewolucja Meiji dotyczyła:",
+     "odpowiedzi": [
+      "Chin dynastii Qing",
+      "Japonii",
+      "Korei",
+      "Indii brytyjskich"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1868 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Podział Afryki uzgodniono na konferencji w:",
+     "odpowiedzi": [
+      "Wiedniu",
+      "Berlinie",
+      "Paryżu",
+      "Londynie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1884–1885.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Dualizm austro-węgierski wprowadzono w:",
+     "odpowiedzi": [
+      "1848 r.",
+      "1861 r.",
+      "1867 r.",
+      "1871 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ugoda austro-węgierska.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "W skład trójprzymierza NIE wchodziła:",
+     "odpowiedzi": [
+      "Rzesza Niemiecka",
+      "monarchia Austro-Węgier",
+      "Rosja",
+      "Królestwo Włoch"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Rosja należała do ententy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-przemiany-xix",
    "nazwa": "Przemiany gospodarcze i społeczne. Nowe prądy ideowe",
    "opis": "Wymaganie XXXIV podstawy programowej.",
    "wymaganie": "XXXIV",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Odkrycia naukowe II połowy XIX w.",
+     "tyl": "Teoria ewolucji (Darwin), szczepionki (Pasteur), bakterie (Koch), promieniowanie (Röntgen, Skłodowska-Curie), elektromagnetyzm (Maxwell).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIV"
+    },
+    {
+     "id": "f002",
+     "przod": "Wynalazki II rewolucji przemysłowej",
+     "tyl": "Elektryczność i żarówka (Edison), telefon (Bell), silnik spalinowy i samochód (Benz, Daimler), radio, samolot (bracia Wright 1903).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIV"
+    },
+    {
+     "id": "f003",
+     "przod": "Procesy migracyjne XIX w.",
+     "tyl": "Ze wsi do miast; emigracja zarobkowa do USA, Ameryki Południowej (Brazylia), Niemiec (Polacy w Zagłębiu Ruhry).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIV"
+    },
+    {
+     "id": "f004",
+     "przod": "Wyjaśnij pojęcie: nacjonalizm",
+     "tyl": "Ideologia stawiająca interes narodu na pierwszym miejscu; w XIX w. źródło ruchów zjednoczeniowych i niepodległościowych.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIV"
+    },
+    {
+     "id": "f005",
+     "przod": "Wyjaśnij pojęcie: socjalizm",
+     "tyl": "Ideologia równości społecznej i uspołecznienia środków produkcji; nurt rewolucyjny (Marks, Engels — „Manifest komunistyczny” 1848) i reformistyczny (socjaldemokracja).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIV"
+    },
+    {
+     "id": "f006",
+     "przod": "Ruch chrześcijańsko-społeczny",
+     "tyl": "Encyklika „Rerum novarum” Leona XIII (1891) — sprawiedliwa płaca, prawo do zrzeszania się, odrzucenie walki klas.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIV"
+    },
+    {
+     "id": "f007",
+     "przod": "Wyjaśnij pojęcie: anarchizm",
+     "tyl": "Ideologia zniesienia państwa i przymusu (Bakunin, Kropotkin); zamachy na władców.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIV"
+    },
+    {
+     "id": "f008",
+     "przod": "Formy działalności robotników",
+     "tyl": "Związki zawodowe, strajki, partie socjalistyczne, I i II Międzynarodówka, 1 Maja.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIV"
+    },
+    {
+     "id": "f009",
+     "przod": "Emancypacja kobiet",
+     "tyl": "Walka o prawa wyborcze (sufrażystki w Wielkiej Brytanii), dostęp do studiów i pracy; pierwsze prawa wyborcze — Nowa Zelandia (1893).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIV"
+    },
+    {
+     "id": "f010",
+     "przod": "Demokratyzacja ustrojów Europy Zachodniej",
+     "tyl": "Rozszerzanie praw wyborczych (reformy w Wielkiej Brytanii 1832, 1867, 1884), powszechne prawo wyborcze mężczyzn (Francja 1848, Niemcy 1871), parlamentaryzm.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIV"
+    },
+    {
+     "id": "f011",
+     "przod": "Początki kultury masowej",
+     "tyl": "Prasa codzienna, kino (bracia Lumière 1895), sport i olimpiady nowożytne (1896), reklama, turystyka.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIV"
+    },
+    {
+     "id": "f012",
+     "przod": "Wyjaśnij pojęcie: laicyzacja",
+     "tyl": "Proces zmniejszania roli religii w życiu publicznym i prywatnym; rozdział Kościoła od państwa (Francja 1905).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIV"
+    },
+    {
+     "id": "f013",
+     "przod": "Skutki laicyzacji",
+     "tyl": "Świeckie szkoły i śluby, spadek praktyk religijnych w miastach, konflikty państwa z Kościołem (Kulturkampf), rozwój myśli świeckiej.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIV"
+    },
+    {
+     "id": "f014",
+     "przod": "Ideologie a ruchy narodowe i partie",
+     "tyl": "Nacjonalizm napędzał zjednoczenie Niemiec i Włoch oraz ruchy niepodległościowe; socjalizm — partie robotnicze (SPD) i związki zawodowe.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIV"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "„Manifest komunistyczny” wydano w:",
+     "odpowiedzi": [
+      "1830 r.",
+      "1848 r.",
+      "1871 r.",
+      "1891 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Marks i Engels.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Encyklikę „Rerum novarum” ogłosił:",
+     "odpowiedzi": [
+      "Pius IX",
+      "Leon XIII",
+      "Pius X",
+      "Benedykt XV"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1891 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Teorię ewolucji sformułował:",
+     "odpowiedzi": [
+      "Ludwik Pasteur",
+      "Karol Darwin",
+      "Robert Koch",
+      "Gregor Mendel"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "„O powstawaniu gatunków”.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Zniesienia państwa domagali się:",
+     "odpowiedzi": [
+      "socjaldemokraci",
+      "anarchiści",
+      "chadecy",
+      "konserwatyści"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Bakunin.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Pierwszy pokaz filmowy zorganizowali:",
+     "odpowiedzi": [
+      "bracia Wright",
+      "bracia Lumière",
+      "Thomas Edison i Bell",
+      "Benz i Daimler"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1895 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Rozdział Kościoła od państwa we Francji nastąpił w:",
+     "odpowiedzi": [
+      "1789 r.",
+      "1871 r.",
+      "1905 r.",
+      "1918 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ustawa z 1905 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-zabory-xix-xx",
    "nazwa": "Ziemie polskie pod zaborami w II połowie XIX i na początku XX w.",
    "opis": "Wymaganie XXXV podstawy programowej.",
    "wymaganie": "XXXV",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Rusyfikacja w Królestwie Polskim",
+     "tyl": "Kraj Przywiślański, język rosyjski w urzędach i szkołach, Uniwersytet Warszawski zrusyfikowany, kurator Apuchtin.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f002",
+     "przod": "Germanizacja w zaborze pruskim",
+     "tyl": "Kulturkampf, rugi pruskie (1885), Komisja Kolonizacyjna (1886), ustawa kagańcowa (1908), strajk we Wrześni (1901).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f003",
+     "przod": "Autonomia galicyjska",
+     "tyl": "Od lat 60. XIX w.: polski język urzędowy, Sejm Krajowy we Lwowie, polskie szkoły i uniwersytety, Akademia Umiejętności.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f004",
+     "przod": "Postawy wobec zaborców",
+     "tyl": "Lojalizm (ugodowcy), trójlojalizm, praca organiczna, praca u podstaw, walka konspiracyjna i zbrojna.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f005",
+     "przod": "Wyjaśnij pojęcie: praca organiczna",
+     "tyl": "Program rozwoju gospodarczego i społecznego (spółdzielnie, banki, rzemiosło) zamiast walki zbrojnej.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f006",
+     "przod": "Wyjaśnij pojęcie: praca u podstaw",
+     "tyl": "Szerzenie oświaty i świadomości narodowej wśród chłopów i robotników.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f007",
+     "przod": "Opór Polaków w zaborze pruskim",
+     "tyl": "Michał Drzymała (wóz), Hipolit Cegielski, Banki Ludowe, spółdzielnie, Straż.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f008",
+     "przod": "Rozwój przemysłu na ziemiach polskich",
+     "tyl": "Łódź (włókiennictwo), Zagłębie Dąbrowskie (węgiel), Warszawa (metalurgia), Górny Śląsk (węgiel i hutnictwo); w Galicji — nafta.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f009",
+     "przod": "Nowe warstwy społeczne",
+     "tyl": "Robotnicy, burżuazja (często pochodzenia niemieckiego i żydowskiego), inteligencja.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f010",
+     "przod": "Socjalizm na ziemiach polskich",
+     "tyl": "Proletariat (Waryński), PPS (1892 — niepodległość i socjalizm, Piłsudski), SDKPiL (Luksemburg — internacjonalizm).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f011",
+     "przod": "Ruch narodowy",
+     "tyl": "Liga Narodowa, Stronnictwo Narodowo-Demokratyczne — Roman Dmowski („Myśli nowoczesnego Polaka”), główny wróg — Niemcy.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f012",
+     "przod": "Ruch ludowy",
+     "tyl": "Stronnictwo Ludowe (1895) w Galicji, PSL „Piast” — Wincenty Witos; emancypacja chłopów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f013",
+     "przod": "Wojciech Korfanty",
+     "tyl": "Przywódca Polaków na Górnym Śląsku, poseł do Reichstagu.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f014",
+     "przod": "Odradzanie polskości na Śląsku, Warmii i Mazurach",
+     "tyl": "Prasa polska (Karol Miarka, „Gazeta Olsztyńska”), biblioteki, towarzystwa śpiewacze, posłowie polscy.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f015",
+     "przod": "Kształtowanie się świadomości narodowej",
+     "tyl": "Polacy, a także Litwini, Ukraińcy, Białorusini, Żydzi (syjonizm) budowali nowoczesne tożsamości narodowe.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f016",
+     "przod": "Rewolucja 1905–1907 — przyczyny",
+     "tyl": "Klęska Rosji w wojnie z Japonią, nędza robotników, ucisk narodowy, „krwawa niedziela” w Petersburgu.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f017",
+     "przod": "Rewolucja 1905–1907 w Królestwie Polskim",
+     "tyl": "Strajki szkolne i robotnicze, powstanie łódzkie (1905), Organizacja Bojowa PPS, akcja pod Bezdanami (1908).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    },
+    {
+     "id": "f018",
+     "przod": "Skutki rewolucji 1905–1907",
+     "tyl": "Duma Państwowa w Rosji, polskie szkoły prywatne (Macierz Szkolna), legalne partie i związki; ale represje.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXV"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Strajk dzieci we Wrześni wybuchł w:",
+     "odpowiedzi": [
+      "zaborze rosyjskim",
+      "zaborze pruskim",
+      "zaborze austriackim",
+      "Wolnym Mieście Krakowie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1901 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "PPS powstała w:",
+     "odpowiedzi": [
+      "1882 r.",
+      "1892 r.",
+      "1895 r.",
+      "1905 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Kongres paryski.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "„Myśli nowoczesnego Polaka” napisał:",
+     "odpowiedzi": [
+      "Józef Piłsudski",
+      "Roman Dmowski",
+      "Wincenty Witos",
+      "Ignacy Daszyński"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1903 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Autonomię uzyskali Polacy w:",
+     "odpowiedzi": [
+      "Królestwie Polskim",
+      "Galicji",
+      "Wielkopolsce",
+      "na Górnym Śląsku"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Lata 60. XIX w.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Szerzenie oświaty wśród chłopów i robotników to:",
+     "odpowiedzi": [
+      "praca organiczna",
+      "praca u podstaw",
+      "trójlojalizm",
+      "Kulturkampf"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Hasło pozytywistów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Przywódcą Polaków na Górnym Śląsku był:",
+     "odpowiedzi": [
+      "Michał Drzymała",
+      "Wojciech Korfanty",
+      "Hipolit Cegielski",
+      "Karol Miarka"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Poseł do Reichstagu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p07",
+     "pytanie": "Rugi pruskie przeprowadzono w:",
+     "odpowiedzi": [
+      "1871 r.",
+      "1885 r.",
+      "1901 r.",
+      "1908 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wysiedlenie Polaków bez obywatelstwa pruskiego.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-kultura-xix",
    "nazwa": "Kultura i nauka polska w II połowie XIX i na początku XX w.",
    "opis": "Wymaganie XXXVI podstawy programowej.",
    "wymaganie": "XXXVI",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Program polskiego pozytywizmu",
+     "tyl": "Praca organiczna i u podstaw, scjentyzm, emancypacja kobiet, asymilacja Żydów, odrzucenie walki zbrojnej.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVI"
+    },
+    {
+     "id": "f002",
+     "przod": "Pisarze pozytywizmu",
+     "tyl": "Bolesław Prus („Lalka”), Eliza Orzeszkowa („Nad Niemnem”), Henryk Sienkiewicz (Trylogia „ku pokrzepieniu serc”, Nobel 1905), Maria Konopnicka („Rota”).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVI"
+    },
+    {
+     "id": "f003",
+     "przod": "Malarstwo historyczne",
+     "tyl": "Jan Matejko („Bitwa pod Grunwaldem”, „Hołd pruski”, „Konstytucja 3 maja”), Artur Grottger (cykle o powstaniu styczniowym).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVI"
+    },
+    {
+     "id": "f004",
+     "przod": "Młoda Polska",
+     "tyl": "Modernizm przełomu XIX i XX w.: Stanisław Wyspiański („Wesele”), Stefan Żeromski, Władysław Reymont (Nobel 1924), Jacek Malczewski, Józef Mehoffer.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVI"
+    },
+    {
+     "id": "f005",
+     "przod": "Nurty w sztuce przełomu XIX i XX w.",
+     "tyl": "Impresjonizm, symbolizm, secesja, realizm; w Polsce — Olga Boznańska, Józef Chełmoński, Leon Wyczółkowski.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVI"
+    },
+    {
+     "id": "f006",
+     "przod": "Ludzie nauki",
+     "tyl": "Maria Skłodowska-Curie (polon, rad; Nobel 1903 i 1911), Ignacy Łukasiewicz (lampa naftowa), Karol Olszewski i Zygmunt Wróblewski (skroplenie tlenu i azotu).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVI"
+    },
+    {
+     "id": "f007",
+     "przod": "Rola kultury w zachowaniu tożsamości",
+     "tyl": "Literatura i malarstwo historyczne podtrzymywały pamięć narodową, tajne nauczanie (Uniwersytet Latający), teatr i prasa, kult bohaterów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVI"
+    },
+    {
+     "id": "f008",
+     "przod": "Uniwersytet Latający",
+     "tyl": "Tajne kursy dla kobiet w Warszawie (od 1885 r.) — uczyła się tam Maria Skłodowska.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVI"
+    },
+    {
+     "id": "f009",
+     "przod": "Przejawy ożywienia religijnego",
+     "tyl": "Pielgrzymki na Jasną Górę, św. Albert Chmielowski i bezdomni, nowe zgromadzenia zakonne, objawienia w Gietrzwałdzie (1877), Kościół jako ostoja polskości.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVI"
+    },
+    {
+     "id": "f010",
+     "przod": "Zakopane i styl zakopiański",
+     "tyl": "Stanisław Witkiewicz — styl narodowy w architekturze; Zakopane ośrodkiem kultury.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVI"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "„Lalkę” napisał:",
+     "odpowiedzi": [
+      "Henryk Sienkiewicz",
+      "Bolesław Prus",
+      "Stefan Żeromski",
+      "Władysław Reymont"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Pozytywizm.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "„Hołd pruski” namalował:",
+     "odpowiedzi": [
+      "Artur Grottger",
+      "Jan Matejko",
+      "Jacek Malczewski",
+      "Józef Chełmoński"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Matejko.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "„Wesele” jest dziełem:",
+     "odpowiedzi": [
+      "Stefana Żeromskiego",
+      "Stanisława Wyspiańskiego",
+      "Władysława Reymonta",
+      "Kazimierza Tetmajera"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Młoda Polska, 1901 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Lampę naftową skonstruował:",
+     "odpowiedzi": [
+      "Karol Olszewski",
+      "Ignacy Łukasiewicz",
+      "Zygmunt Wróblewski",
+      "Jan Szczepanik"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1853 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Pierwszą polską Nagrodę Nobla w literaturze otrzymał:",
+     "odpowiedzi": [
+      "Władysław Reymont",
+      "Henryk Sienkiewicz",
+      "Bolesław Prus",
+      "Stefan Żeromski"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1905 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Styl zakopiański stworzył:",
+     "odpowiedzi": [
+      "Stanisław Wyspiański",
+      "Stanisław Witkiewicz",
+      "Józef Mehoffer",
+      "Jan Kasprowicz"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Witkiewicz — ojciec Witkacego.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   }
  ]
 }
