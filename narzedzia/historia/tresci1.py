@@ -75,7 +75,7 @@ T['h-zrodla'] = dict(pp='wymagania ogólne II', nazwa='Analiza i interpretacja �
  ('Polecenie „na podstawie źródła i własnej wiedzy” wymaga:', ['tylko cytatu ze źródła', '*połączenia źródła z wiedzą spoza niego', 'wyłącznie wiedzy spoza treści źródła', 'przepisania tytułu źródła'], 'Sam cytat zwykle nie wystarcza.'),
  ('Klucza do odczytania mapy szukamy przede wszystkim w:', ['skali mapy', '*legendzie mapy', 'nazwie wydawnictwa', 'kolorze tła mapy'], 'Legenda objaśnia znaki i barwy.'),
  ('Opinią (a nie faktem) jest zdanie:', ['traktat podpisano w 1525 r.', '*traktat był dla Polski haniebny', 'traktat podpisano w Krakowie', 'traktat podpisało dwóch władców'], 'Ocena „haniebny” jest opinią autora.'),
- ('Polecenie „uzasadnij” oznacza:', ['wymień kilka dat', '*podaj argument na poparcie stanowiska', 'przepisz fragment źródła', 'nazwij autora źródła'], 'Uzasadnienie to argument.'),
+ ('Polecenie „uzasadnij” oznacza:', ['wymień kilka dat związanych z tematem', '*podaj argument na poparcie stanowiska', 'przepisz fragment źródła bez zmian', 'nazwij autora i datę powstania źródła'], 'Uzasadnienie to argument.'),
 ])
 
 T['h-narracja'] = dict(pp='wymagania ogólne III', nazwa='Wypowiedź argumentacyjna (umiejętność)', F=[
@@ -170,7 +170,7 @@ T['h-grecja'] = dict(pp='III', F=[
  ('Diety dla obywateli pełniących funkcje publiczne wprowadził:', ['Klejstenes', '*Perykles', 'Solon', 'Aleksander'], 'Umożliwiło to udział ubogich w życiu politycznym.'),
  ('Językiem wspólnym epoki hellenistycznej był:', ['łacina', 'aramejski', '*koine', 'perski'], 'Koine — wspólny dialekt grecki.'),
  ('Teoria idei jest dziełem:', ['Arystotelesa', 'Sokratesa', '*Platona', 'Herodota'], 'Platon — „Państwo”, Akademia.'),
- ('Główną przyczyną kolonizacji greckiej był:', ['podbój Grecji przez Persów', '*niedobór ziemi uprawnej i przeludnienie', 'rozpad imperium Aleksandra', 'wojna peloponeska ze Spartą'], 'Kolonizacja trwała w VIII–VI w. p.n.e.'),
+ ('Główną przyczyną kolonizacji greckiej był:', ['podbój Grecji przez Persów', '*niedobór ziemi uprawnej i przeludnienie', 'rozpad imperium Aleksandra Macedońskiego', 'wojna peloponeska Aten ze Spartą'], 'Kolonizacja trwała w VIII–VI w. p.n.e.'),
  ('Kapitel z liśćmi akantu jest charakterystyczny dla porządku:', ['doryckiego', 'jońskiego', '*korynckiego', 'toskańskiego'], 'Joński ma woluty, dorycki jest najprostszy.'),
  ('Metojkowie w Atenach:', ['zasiadali w Radzie Pięciuset', '*byli wolni, ale bez praw politycznych', 'byli niewolnikami państwowymi', 'wybierali strategów co roku'], 'Metojkowie to wolni cudzoziemcy.'),
 ])
