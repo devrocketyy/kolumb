@@ -8,7 +8,7 @@ Treści (fiszki, pytania) są autorskie i leżą w narzedzia/historia/tresci*.py
 
 Użycie: python3 narzedzia/zbuduj-historie.py && node narzedzia/zbuduj-indeks.mjs
 """
-import json, os, glob, runpy
+import json, os, glob, runpy, hashlib, re
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 OUT = os.path.join(ROOT, 'przedmioty', 'historia')
@@ -106,15 +106,57 @@ def load_tresci():
     return T
 
 
+def _id(prefix, text):
+    # stały identyfikator z treści — dopisywanie nowych fiszek nie zmienia postępów w istniejących
+    return prefix + hashlib.sha1(text.strip().lower().encode()).hexdigest()[:8]
+
+
+def _stem_leak(term, text):
+    # czy odpowiedź (opis) zdradza nazwę — wtedy nie robimy fiszki odwrotnej
+    low = text.lower()
+    words = [w for w in re.findall(r'[\wąćęłńóśźż]+', term.lower()) if len(w) >= 4]
+    return any(w[:5] in low for w in words)
+
+
+# fiszki o ogólnych tematach („Skutki…”, „Przyczyny…”) nie nadają się do odwrócenia
+OGOLNE = set('''Wyjaśnij Podaj Porównaj Oceń Synchronizacja Jak Konflikty Przykłady Skutki Przyczyny Cechy Reformy Etapy
+Najważniejsze Walka Wynalazki Zmiany Sytuacja Postawy Ocena Rola Polityka Organizacja Struktura Kultura Twórcy Osiągnięcia
+Wkład Początki Geneza Przebieg Znaczenie Bilans Ofiary Opór Zasięg Problem Formy Uniwersytety Zabytki Pisarze Ludzie Nurty
+Kryzys Ewolucja Przemiany Rozwój Wpływ Upadek Powstanie Najczęstszy Typowe Wojny Ruchy Procesy Projekty Problemy Migracje
+Emancypacja Represje Udział Okoliczności Uwarunkowania Ustrój Organy Plusy Minusy Działalność Dorobek Literatura Sztuka Nauka
+Oświata Sport Film Kolektywizacja Podział Granica Granice Społeczeństwo Twórcy Zakony Formy Polacy Pierwsze Inni Wizja Prezydenci
+Ostatni Pięć Święta Trzy Dwie Siedem Wewnętrzne Zewnętrzne Charakter Kształtowanie'''.split())
+
+
+def reverse_cards(F):
+    """Fiszki odwrotne (jak w WOS): pojęcie ← definicja, wydarzenie/postać ← opis."""
+    out = []
+    for p, ty in F:
+        if p.startswith('Wyjaśnij pojęcie: '):
+            term = p[len('Wyjaśnij pojęcie: '):].strip()
+            if not _stem_leak(term, ty):
+                out.append((f'Podaj nazwę pojęcia: {ty}', term))
+        elif not p.endswith('?') and not p.endswith(':') and len(p) <= 60 and p.split()[0] not in OGOLNE:
+            if not _stem_leak(p, ty):
+                out.append((f'Rozpoznaj: {ty}', p))
+    return out
+
+
 def build_unit(uid, nr, nazwa, t):
     ref = f'{PP}, {"wymagania ogólne " + nr[4:] if nr.startswith("og.") else "dz. " + nr}'
     u = {'id': uid, 'nazwa': t.get('nazwa', nazwa), 'opis': f'Wymaganie {nr} podstawy programowej.', 'wymaganie': nr, 'fiszki': [], 'pytania': []}
-    for i, (p, ty) in enumerate(t.get('F', []), 1):
-        u['fiszki'].append({'id': f'f{i:03d}', 'przod': p, 'tyl': ty, 'zrodlo': f'Opracowanie IndexLab · {ref}'})
-    for i, (q, odp, wyj) in enumerate(t.get('Q', []), 1):
+    F = list(t.get('F', []))
+    seen = set()
+    for p, ty in F + reverse_cards(F):
+        fid = _id('f', p)
+        if fid in seen:
+            continue
+        seen.add(fid)
+        u['fiszki'].append({'id': fid, 'przod': p, 'tyl': ty, 'zrodlo': f'Opracowanie IndexLab · {ref}'})
+    for q, odp, wyj in t.get('Q', []):
         star = [k for k, a in enumerate(odp) if a.startswith('*')]
         assert len(star) == 1, (uid, q)
-        u['pytania'].append({'id': f'p{i:02d}', 'pytanie': q, 'odpowiedzi': [a.lstrip('*') for a in odp],
+        u['pytania'].append({'id': _id('p', q), 'pytanie': q, 'odpowiedzi': [a.lstrip('*') for a in odp],
                              'poprawna': 'ABCD'[star[0]], 'wyjasnienie': wyj, 'zrodlo': 'Zadanie autorskie IndexLab'})
     return u
 
