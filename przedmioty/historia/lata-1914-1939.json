@@ -8,64 +8,1302 @@
    "nazwa": "I wojna światowa",
    "opis": "Wymaganie XXXVII podstawy programowej.",
    "wymaganie": "XXXVII",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Konflikty przed I wojną światową",
+     "tyl": "Kryzysy marokańskie (1905, 1911), aneksja Bośni przez Austro-Węgry (1908), wojny bałkańskie (1912–1913) — „kocioł bałkański”.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVII"
+    },
+    {
+     "id": "f002",
+     "przod": "Bezpośrednia przyczyna I wojny światowej",
+     "tyl": "28 VI 1914 r. — zamach w Sarajewie na arcyksięcia Franciszka Ferdynanda (Gawriło Princip).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVII"
+    },
+    {
+     "id": "f003",
+     "przod": "Głębsze przyczyny I wojny światowej",
+     "tyl": "Rywalizacja mocarstw o kolonie i rynki, wyścig zbrojeń (flota niemiecka), nacjonalizmy, system bloków.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVII"
+    },
+    {
+     "id": "f004",
+     "przod": "Front zachodni",
+     "tyl": "Plan Schlieffena, bitwa nad Marną (1914) — wojna pozycyjna; Verdun i Somma (1916); okopy, gazy bojowe (Ypres 1915), czołgi.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVII"
+    },
+    {
+     "id": "f005",
+     "przod": "Front wschodni",
+     "tyl": "Tannenberg (1914), Gorlice (1915) — wyparcie Rosjan z Królestwa; ofensywa Brusiłowa (1916); wojna manewrowa.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVII"
+    },
+    {
+     "id": "f006",
+     "przod": "Wyjaśnij pojęcie: wojna pozycyjna",
+     "tyl": "Walka z umocnionych linii okopów, bez większych zmian frontu, przy ogromnych stratach.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVII"
+    },
+    {
+     "id": "f007",
+     "przod": "Przystąpienie USA do wojny",
+     "tyl": "1917 r. — nieograniczona wojna podwodna Niemiec (Lusitania 1915), depesza Zimmermanna; USA zapewniły przewagę ententy.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVII"
+    },
+    {
+     "id": "f008",
+     "przod": "Rewolucja lutowa w Rosji",
+     "tyl": "1917 r. — abdykacja Mikołaja II, Rząd Tymczasowy i rady (sowiety) — dwuwładza.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVII"
+    },
+    {
+     "id": "f009",
+     "przod": "Rewolucja październikowa",
+     "tyl": "7 XI 1917 r. (25 X st.st.) — przewrót bolszewików (Lenin, Trocki); dekrety o pokoju i ziemi.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVII"
+    },
+    {
+     "id": "f010",
+     "przod": "Pokój brzeski",
+     "tyl": "3 III 1918 r. — Rosja bolszewicka wyszła z wojny, oddając Niemcom ogromne terytoria.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVII"
+    },
+    {
+     "id": "f011",
+     "przod": "Przyczyny klęski państw centralnych",
+     "tyl": "Wojna na dwa fronty, blokada morska, wyczerpanie gospodarcze, przewaga ententy i USA, rewolucja w Niemczech.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVII"
+    },
+    {
+     "id": "f012",
+     "przod": "Koniec I wojny światowej",
+     "tyl": "11 XI 1918 r. — rozejm w Compiègne.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVII"
+    },
+    {
+     "id": "f013",
+     "przod": "Ludność cywilna w czasie wojny",
+     "tyl": "Głód, kartki, praca kobiet w przemyśle, ewakuacje i bieżeństwo, ludobójstwo Ormian w Turcji (1915).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Zamach w Sarajewie miał miejsce:",
+     "odpowiedzi": [
+      "1 VIII 1914 r.",
+      "28 VI 1914 r.",
+      "11 XI 1918 r.",
+      "3 III 1918 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Franciszek Ferdynand.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Bitwa nad Marną zapoczątkowała na zachodzie wojnę:",
+     "odpowiedzi": [
+      "manewrową",
+      "pozycyjną",
+      "podwodną",
+      "błyskawiczną"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1914 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Przełamanie frontu pod Gorlicami nastąpiło w:",
+     "odpowiedzi": [
+      "1914 r.",
+      "1915 r.",
+      "1916 r.",
+      "1917 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wyparcie Rosjan z Galicji i Królestwa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Rosja bolszewicka wyszła z wojny na mocy pokoju:",
+     "odpowiedzi": [
+      "wersalskiego",
+      "brzeskiego",
+      "ryskiego",
+      "w Rapallo"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1918 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "USA przystąpiły do I wojny światowej w:",
+     "odpowiedzi": [
+      "1914 r.",
+      "1916 r.",
+      "1917 r.",
+      "1918 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Po wznowieniu wojny podwodnej.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Ludobójstwo Ormian popełniła:",
+     "odpowiedzi": [
+      "Rosja carska",
+      "Turcja osmańska",
+      "Austro-Węgry",
+      "Bułgaria"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1915 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-sprawa-polska-iws",
    "nazwa": "Sprawa polska w przededniu i podczas I wojny światowej",
    "opis": "Wymaganie XXXVIII podstawy programowej.",
    "wymaganie": "XXXVIII",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Orientacje polityczne przed I wojną",
+     "tyl": "Proaustriacka (Piłsudski, PPS — walka z Rosją) i prorosyjska (Dmowski, endecja — głównym wrogiem Niemcy).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVIII"
+    },
+    {
+     "id": "f002",
+     "przod": "Pobór Polaków do armii zaborczych",
+     "tyl": "Polacy służyli w armiach rosyjskiej, niemieckiej i austriackiej — walczyli przeciw sobie (ok. 3 mln zmobilizowanych).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVIII"
+    },
+    {
+     "id": "f003",
+     "przod": "Organizacje paramilitarne przed wojną",
+     "tyl": "Związek Walki Czynnej, Związek Strzelecki, Drużyny Strzeleckie, Sokół — w Galicji.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVIII"
+    },
+    {
+     "id": "f004",
+     "przod": "Pierwsza Kompania Kadrowa",
+     "tyl": "6 VIII 1914 r. — wymarsz z Krakowa do Królestwa.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVIII"
+    },
+    {
+     "id": "f005",
+     "przod": "Legiony Polskie",
+     "tyl": "Powstały w 1914 r. przy armii austriackiej (Naczelny Komitet Narodowy); trzy brygady; bitwy pod Rarańczą, Kostiuchnówką (1916).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVIII"
+    },
+    {
+     "id": "f006",
+     "przod": "Kryzys przysięgowy",
+     "tyl": "1917 r. — odmowa przysięgi na wierność cesarzowi Niemiec; Piłsudski internowany w Magdeburgu.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVIII"
+    },
+    {
+     "id": "f007",
+     "przod": "Akt 5 listopada",
+     "tyl": "1916 r. — Niemcy i Austro-Węgry zapowiedziały Królestwo Polskie (cel: pobór); Tymczasowa Rada Stanu, Rada Regencyjna.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVIII"
+    },
+    {
+     "id": "f008",
+     "przod": "Komitet Narodowy Polski",
+     "tyl": "1917 r., Paryż — Dmowski, Paderewski; uznawany przez ententę za przedstawicielstwo Polski; zwierzchnictwo nad Armią Polską we Francji (Błękitna Armia, gen. Józef Haller).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVIII"
+    },
+    {
+     "id": "f009",
+     "przod": "Umiędzynarodowienie sprawy polskiej",
+     "tyl": "Akt 5 listopada, odezwa rosyjskiego Rządu Tymczasowego (1917), 13. punkt Wilsona (I 1918), deklaracja wersalska ententy (VI 1918).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVIII"
+    },
+    {
+     "id": "f010",
+     "przod": "13. punkt programu Wilsona",
+     "tyl": "Niepodległa Polska z ziem zamieszkanych przez ludność polską, z dostępem do morza.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVIII"
+    },
+    {
+     "id": "f011",
+     "przod": "Polskie formacje u boku Rosji",
+     "tyl": "Legion Puławski, korpusy polskie w Rosji (gen. Józef Dowbor-Muśnicki) po rewolucji lutowej.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVIII"
+    },
+    {
+     "id": "f012",
+     "przod": "Zniszczenia wojenne na ziemiach polskich",
+     "tyl": "Front przechodził wielokrotnie; zniszczone wsie, miasta, fabryki (wywóz maszyn), rekwizycje, bieżeństwo ludności na wschód.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXVIII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Pierwsza Kompania Kadrowa wyruszyła z:",
+     "odpowiedzi": [
+      "Warszawy",
+      "Krakowa",
+      "Lwowa",
+      "Kielc"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "6 VIII 1914 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Akt 5 listopada wydały:",
+     "odpowiedzi": [
+      "Rosja i Francja",
+      "Niemcy i Austro-Węgry",
+      "Wielka Brytania i USA",
+      "Rosja i Austro-Węgry"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1916 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Na czele Błękitnej Armii stał:",
+     "odpowiedzi": [
+      "Józef Piłsudski",
+      "Józef Haller",
+      "Józef Dowbor-Muśnicki",
+      "Edward Rydz-Śmigły"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Armia Polska we Francji.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Komitet Narodowy Polski działał w:",
+     "odpowiedzi": [
+      "Londynie",
+      "Paryżu",
+      "Lozannie",
+      "Petersburgu"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Dmowski.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Kryzys przysięgowy wybuchł w:",
+     "odpowiedzi": [
+      "1915 r.",
+      "1916 r.",
+      "1917 r.",
+      "1918 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Piłsudski w Magdeburgu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Orientację prorosyjską reprezentował:",
+     "odpowiedzi": [
+      "Józef Piłsudski",
+      "Roman Dmowski",
+      "Ignacy Daszyński",
+      "Władysław Sikorski"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Endecja.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-europa-po-iws",
    "nazwa": "Europa i świat po I wojnie światowej",
    "opis": "Wymaganie XXXIX podstawy programowej.",
    "wymaganie": "XXXIX",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Skutki I wojny światowej",
+     "tyl": "Ok. 10 mln poległych żołnierzy, upadek czterech imperiów (Rosja, Niemcy, Austro-Węgry, Turcja), nowe państwa, kryzys gospodarczy, hiszpanka.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIX"
+    },
+    {
+     "id": "f002",
+     "przod": "Postanowienia traktatu wersalskiego (1919)",
+     "tyl": "Niemcy: utrata Alzacji i Lotaryngii, ziem na rzecz Polski, kolonii; demilitaryzacja Nadrenii, armia do 100 tys., reparacje, wina za wojnę.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIX"
+    },
+    {
+     "id": "f003",
+     "przod": "Słabe strony ładu wersalskiego",
+     "tyl": "Poczucie krzywdy w Niemczech, brak udziału Rosji, izolacjonizm USA, słaba Liga Narodów, spory graniczne.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIX"
+    },
+    {
+     "id": "f004",
+     "przod": "Traktaty z sojusznikami Niemiec",
+     "tyl": "Saint-Germain (Austria), Trianon (Węgry — utrata 2/3 terytorium), Neuilly (Bułgaria), Sèvres (Turcja, zastąpiony przez Lozannę 1923).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIX"
+    },
+    {
+     "id": "f005",
+     "przod": "Liga Narodów",
+     "tyl": "Organizacja z siedzibą w Genewie (1920) — miała chronić pokój; bez USA, nieskuteczna wobec agresorów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIX"
+    },
+    {
+     "id": "f006",
+     "przod": "Izolacjonizm USA",
+     "tyl": "Senat nie ratyfikował traktatu wersalskiego; USA poza Ligą Narodów — osłabienie systemu.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIX"
+    },
+    {
+     "id": "f007",
+     "przod": "Układ w Rapallo",
+     "tyl": "1922 r. — Niemcy i Rosja Sowiecka nawiązały stosunki i współpracę (także wojskową) — zagrożenie dla Polski.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIX"
+    },
+    {
+     "id": "f008",
+     "przod": "Układy w Locarno",
+     "tyl": "1925 r. — Niemcy uznały granice zachodnie, ale nie wschodnie — osłabienie bezpieczeństwa Polski.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIX"
+    },
+    {
+     "id": "f009",
+     "przod": "Sytuacja Niemiec w latach 20.",
+     "tyl": "Republika Weimarska, hiperinflacja (1923), okupacja Zagłębia Ruhry, pucz monachijski Hitlera; stabilizacja (plan Dawesa).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIX"
+    },
+    {
+     "id": "f010",
+     "przod": "Przyczyny wielkiego kryzysu",
+     "tyl": "Nadprodukcja, spekulacja giełdowa, krach na Wall Street (24 X 1929 — „czarny czwartek”).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIX"
+    },
+    {
+     "id": "f011",
+     "przod": "Skutki wielkiego kryzysu",
+     "tyl": "Bezrobocie, bankructwa, spadek produkcji i handlu, radykalizacja polityczna (wzrost NSDAP).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIX"
+    },
+    {
+     "id": "f012",
+     "przod": "Metody walki z kryzysem",
+     "tyl": "New Deal Roosevelta (roboty publiczne, ubezpieczenia), interwencjonizm (Keynes), protekcjonizm celny.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIX"
+    },
+    {
+     "id": "f013",
+     "przod": "Przemiany cywilizacyjne dwudziestolecia",
+     "tyl": "Motoryzacja (Ford), radio, kino dźwiękowe, lotnictwo, emancypacja kobiet (prawa wyborcze), kultura masowa.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIX"
+    },
+    {
+     "id": "f014",
+     "przod": "Kultura i nauka okresu międzywojennego",
+     "tyl": "Awangarda: kubizm, surrealizm, Bauhaus; Einstein, penicylina (Fleming 1928); film (Chaplin).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XXXIX"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Armię niemiecką do 100 tys. żołnierzy ograniczył traktat:",
+     "odpowiedzi": [
+      "w Locarno",
+      "wersalski",
+      "w Rapallo",
+      "w Trianon"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1919 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Traktat w Trianon dotyczył:",
+     "odpowiedzi": [
+      "Austrii",
+      "Węgier",
+      "Bułgarii",
+      "Turcji"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1920 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Niemcy i Rosja Sowiecka nawiązały współpracę w:",
+     "odpowiedzi": [
+      "Locarno",
+      "Rapallo",
+      "Genui",
+      "Brześciu"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1922 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Krach na Wall Street nastąpił w:",
+     "odpowiedzi": [
+      "1923 r.",
+      "1925 r.",
+      "1929 r.",
+      "1933 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Czarny czwartek.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Program New Deal wprowadził:",
+     "odpowiedzi": [
+      "Thomas Woodrow Wilson",
+      "Franklin D. Roosevelt",
+      "Herbert Clark Hoover",
+      "John Calvin Coolidge"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1933 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Siedzibą Ligi Narodów była:",
+     "odpowiedzi": [
+      "Haga",
+      "Genewa",
+      "Paryż",
+      "Nowy Jork"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Szwajcaria.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-totalitaryzmy",
    "nazwa": "Narodziny i rozwój totalitaryzmów w okresie międzywojennym",
    "opis": "Wymaganie XL podstawy programowej.",
    "wymaganie": "XL",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Wyjaśnij pojęcie: totalitaryzm",
+     "tyl": "System, w którym państwo z jedną partią i ideologią kontroluje wszystkie dziedziny życia, używa terroru i propagandy, dąży do stworzenia „nowego człowieka”.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XL"
+    },
+    {
+     "id": "f002",
+     "przod": "Różnica: totalitaryzm a autorytaryzm",
+     "tyl": "Autorytaryzm ogranicza demokrację, ale nie kontroluje całego życia i nie narzuca ideologii; totalitaryzm dąży do pełnej kontroli.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XL"
+    },
+    {
+     "id": "f003",
+     "przod": "ZSRS w okresie międzywojennym",
+     "tyl": "Wojna domowa, NEP (1921), Stalin u władzy, kolektywizacja i industrializacja (plany pięcioletnie), Wielki Głód na Ukrainie (1932–1933), wielka czystka (1936–1938).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XL"
+    },
+    {
+     "id": "f004",
+     "przod": "Operacja polska NKWD",
+     "tyl": "1937–1938 — zamordowano ok. 111 tys. Polaków w ZSRS.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XL"
+    },
+    {
+     "id": "f005",
+     "przod": "Wyjaśnij pojęcie: łagier (Gułag)",
+     "tyl": "Sowiecki obóz pracy przymusowej; Gułag — system obozów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XL"
+    },
+    {
+     "id": "f006",
+     "przod": "Geneza faszyzmu we Włoszech",
+     "tyl": "Niezadowolenie z wyników wojny („okaleczone zwycięstwo”), kryzys, strach przed komunizmem; marsz na Rzym (1922) — Mussolini premierem.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XL"
+    },
+    {
+     "id": "f007",
+     "przod": "Cechy faszystowskich Włoch",
+     "tyl": "Kult wodza (Duce), korporacjonizm, jedna partia, propaganda, układy laterańskie z papiestwem (1929), podbój Etiopii (1935–1936).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XL"
+    },
+    {
+     "id": "f008",
+     "przod": "Idee narodowego socjalizmu",
+     "tyl": "Rasizm i antysemityzm, „przestrzeń życiowa” (Lebensraum) na wschodzie, wódz (Führer), wspólnota narodowa, odrzucenie Wersalu.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XL"
+    },
+    {
+     "id": "f009",
+     "przod": "Droga Hitlera do władzy",
+     "tyl": "Pucz monachijski (1923), „Mein Kampf”, wzrost NSDAP w kryzysie; 30 I 1933 r. kanclerz; pożar Reichstagu, ustawa o pełnomocnictwach.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XL"
+    },
+    {
+     "id": "f010",
+     "przod": "Polityka wewnętrzna III Rzeszy",
+     "tyl": "Likwidacja partii i związków, Gestapo i SS, obozy koncentracyjne (Dachau 1933), ustawy norymberskie (1935), noc kryształowa (1938), roboty publiczne i zbrojenia.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XL"
+    },
+    {
+     "id": "f011",
+     "przod": "Polityka zagraniczna III Rzeszy w latach 30.",
+     "tyl": "Wyjście z Ligi Narodów (1933), pobór (1935), remilitaryzacja Nadrenii (1936), Anschluss (1938), Sudety (1938), Czechy (1939).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XL"
+    },
+    {
+     "id": "f012",
+     "przod": "Porównaj terror w ZSRS i III Rzeszy",
+     "tyl": "Wspólne: policja polityczna (NKWD, Gestapo), obozy, propaganda; różnice: w ZSRS terror wobec „wrogów klasowych” i własnych elit, w Rzeszy — według kryteriów rasowych.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XL"
+    },
+    {
+     "id": "f013",
+     "przod": "Kult jednostki",
+     "tyl": "Przedstawianie wodza jako nieomylnego (Stalin, Hitler, Mussolini) w propagandzie, sztuce i edukacji.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XL"
+    },
+    {
+     "id": "f014",
+     "przod": "Przyczyny kryzysu demokracji w dwudziestoleciu",
+     "tyl": "Skutki wojny, kryzys gospodarczy, rozdrobnienie parlamentów, brak tradycji demokratycznych, strach przed komunizmem.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XL"
+    },
+    {
+     "id": "f015",
+     "przod": "Państwa autorytarne w dwudziestoleciu",
+     "tyl": "Polska po 1926 r., Węgry (Horthy), Hiszpania (Franco), Portugalia (Salazar), państwa bałtyckie, Rumunia, Jugosławia.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XL"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Marsz na Rzym zorganizował:",
+     "odpowiedzi": [
+      "Adolf Hitler",
+      "Mussolini",
+      "Francisco Franco",
+      "Miklós Horthy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1922 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Hitler został kanclerzem w:",
+     "odpowiedzi": [
+      "1923 r.",
+      "1929 r.",
+      "1933 r.",
+      "1935 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "30 I 1933 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Ustawy norymberskie dotyczyły:",
+     "odpowiedzi": [
+      "zbrojeń Niemiec",
+      "dyskryminacji Żydów",
+      "gospodarki planowej",
+      "polityki wobec Kościoła"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1935 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Wielki Głód dotknął przede wszystkim:",
+     "odpowiedzi": [
+      "Białoruś",
+      "Ukrainę",
+      "Polskę",
+      "Litwę"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1932–1933.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Operację polską przeprowadziło:",
+     "odpowiedzi": [
+      "Gestapo",
+      "NKWD",
+      "SS",
+      "Abwehra"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1937–1938.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Systemem nie totalitarnym, lecz autorytarnym była:",
+     "odpowiedzi": [
+      "III Rzesza",
+      "ZSRS Stalina",
+      "Portugalia Salazara",
+      "Włochy po 1925 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Autorytaryzm.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-odrodzenie",
    "nazwa": "Walka o odrodzenie państwa polskiego po I wojnie światowej",
    "opis": "Wymaganie XLI podstawy programowej.",
    "wymaganie": "XLI",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Uwarunkowania odzyskania niepodległości",
+     "tyl": "Klęska wszystkich zaborców, 13. punkt Wilsona, działalność Piłsudskiego i Dmowskiego, gotowość społeczeństwa, czyn zbrojny.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f002",
+     "przod": "11 listopada 1918 r.",
+     "tyl": "Rada Regencyjna przekazała Piłsudskiemu dowództwo nad wojskiem; rozbrajanie Niemców w Warszawie.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f003",
+     "przod": "Pierwsze ośrodki władzy w 1918 r.",
+     "tyl": "Polska Komisja Likwidacyjna (Kraków), Rząd Ludowy Daszyńskiego (Lublin), Rada Narodowa Księstwa Cieszyńskiego, NRL w Poznaniu.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f004",
+     "przod": "Konferencja pokojowa w Paryżu wobec Polski",
+     "tyl": "Polska dostała Pomorze (korytarz), Wielkopolskę; plebiscyty na Górnym Śląsku, Warmii i Mazurach; Gdańsk wolnym miastem; mały traktat wersalski (ochrona mniejszości).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f005",
+     "przod": "Powstanie wielkopolskie",
+     "tyl": "27 XII 1918 r. — po przyjeździe Paderewskiego do Poznania; zakończone sukcesem (rozejm w Trewirze 1919).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f006",
+     "przod": "Znaczenie powstania wielkopolskiego",
+     "tyl": "Jedno z nielicznych zwycięskich powstań; przesądziło o przynależności Wielkopolski do Polski.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f007",
+     "przod": "Powstania śląskie",
+     "tyl": "1919, 1920, 1921 (Korfanty); plebiscyt 1921 r.; Polska dostała część Górnego Śląska z większością przemysłu.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f008",
+     "przod": "Plebiscyt na Warmii i Mazurach",
+     "tyl": "1920 r. — w czasie wojny z bolszewikami; przegrany przez Polskę.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f009",
+     "przod": "Granica z Czechosłowacją",
+     "tyl": "Spór o Śląsk Cieszyński, Spisz i Orawę; podział w 1920 r. (konferencja w Spa) — niekorzystny dla Polski.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f010",
+     "przod": "Granica z Litwą",
+     "tyl": "Spór o Wileńszczyznę; bunt Żeligowskiego (1920), Litwa Środkowa włączona do Polski (1922).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f011",
+     "przod": "Wojna polsko-ukraińska",
+     "tyl": "1918–1919 o Lwów i Galicję Wschodnią (Orlęta Lwowskie); zwycięstwo Polski.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f012",
+     "przod": "Geneza wojny polsko-bolszewickiej",
+     "tyl": "Bolszewicy chcieli przenieść rewolucję na Zachód; Piłsudski — koncepcja federacyjna; wyprawa kijowska i sojusz z Petlurą (1920).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f013",
+     "przod": "Bitwa warszawska",
+     "tyl": "13–25 VIII 1920 r. — „cud nad Wisłą”: kontruderzenie znad Wieprza; zatrzymanie Armii Czerwonej.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f014",
+     "przod": "Znaczenie bitwy warszawskiej",
+     "tyl": "Ocalenie niepodległości, zatrzymanie rewolucji w Europie — jedna z najważniejszych bitew w dziejach.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f015",
+     "przod": "Pokój ryski",
+     "tyl": "18 III 1921 r. — granica wschodnia Polski; podział Ukrainy i Białorusi.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f016",
+     "przod": "Porównaj I i II Rzeczpospolitą",
+     "tyl": "II RP mniejsza (ok. 388 tys. km² wobec ok. 990 tys. km² w 1619 r.), przesunięta na zachód, z dostępem do morza; bez Kijowa, Smoleńska, Inflant.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    },
+    {
+     "id": "f017",
+     "przod": "Miejsca pamięci walk o niepodległość",
+     "tyl": "Grób Nieznanego Żołnierza (Warszawa), Cmentarz Obrońców Lwowa, Muzeum Powstań Śląskich, Muzeum Powstania Wielkopolskiego 1918–1919.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLI"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Powstanie wielkopolskie wybuchło:",
+     "odpowiedzi": [
+      "11 XI 1918 r.",
+      "27 XII 1918 r.",
+      "1 V 1919 r.",
+      "3 V 1921 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Po przyjeździe Paderewskiego.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Bitwa warszawska rozegrała się w:",
+     "odpowiedzi": [
+      "1919 r.",
+      "1920 r.",
+      "1921 r.",
+      "1922 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Sierpień 1920 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Wschodnią granicę Polski ustalił pokój:",
+     "odpowiedzi": [
+      "brzeski",
+      "ryski",
+      "wersalski",
+      "w Spa"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1921 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Na czele III powstania śląskiego stał:",
+     "odpowiedzi": [
+      "Józef Haller",
+      "Wojciech Korfanty",
+      "Józef Dowbor-Muśnicki",
+      "Lucjan Żeligowski"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1921 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Wileńszczyznę zajęły w 1920 r. wojska:",
+     "odpowiedzi": [
+      "Józefa Hallera",
+      "Lucjana Żeligowskiego",
+      "Edwarda Rydza-Śmigłego",
+      "Władysława Sikorskiego"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Litwa Środkowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Plebiscyt przegrany przez Polskę w 1920 r. dotyczył:",
+     "odpowiedzi": [
+      "Górnego Śląska",
+      "Warmii i Mazur",
+      "Śląska Cieszyńskiego",
+      "Wileńszczyzny"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "W czasie wojny z bolszewikami.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-ii-rp-polityka",
    "nazwa": "Dzieje polityczne II Rzeczypospolitej",
    "opis": "Wymaganie XLII podstawy programowej.",
    "wymaganie": "XLII",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Mała konstytucja",
+     "tyl": "1919 r. — Sejm Ustawodawczy, Piłsudski Naczelnikiem Państwa.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLII"
+    },
+    {
+     "id": "f002",
+     "przod": "Konstytucja marcowa",
+     "tyl": "17 III 1921 r. — republika parlamentarna, silny dwuizbowy parlament, słaby prezydent wybierany przez Zgromadzenie Narodowe.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLII"
+    },
+    {
+     "id": "f003",
+     "przod": "Zabójstwo Narutowicza",
+     "tyl": "XII 1922 r. — pierwszy prezydent zamordowany 5 dni po zaprzysiężeniu przez Eligiusza Niewiadomskiego.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLII"
+    },
+    {
+     "id": "f004",
+     "przod": "Przyczyny przewrotu majowego",
+     "tyl": "Niestabilność rządów (14 gabinetów w latach 1918–1926), kryzys gospodarczy, korupcja, sprzeciw Piłsudskiego wobec „sejmowładztwa”, rząd Chjeno-Piasta.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLII"
+    },
+    {
+     "id": "f005",
+     "przod": "Przewrót majowy",
+     "tyl": "12–14 V 1926 r. — Piłsudski zbrojnie przejął władzę; walki w Warszawie (ok. 380 zabitych).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLII"
+    },
+    {
+     "id": "f006",
+     "przod": "Nowela sierpniowa",
+     "tyl": "1926 r. — wzmocnienie prezydenta: prawo rozwiązania parlamentu i wydawania rozporządzeń z mocą ustawy.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLII"
+    },
+    {
+     "id": "f007",
+     "przod": "Wyjaśnij pojęcie: sanacja",
+     "tyl": "Obóz Piłsudskiego rządzący po 1926 r. — „uzdrowienie” życia publicznego; BBWR.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLII"
+    },
+    {
+     "id": "f008",
+     "przod": "Rządy sanacyjne — przejawy autorytaryzmu",
+     "tyl": "Wybory brzeskie (1930), proces brzeski przywódców Centrolewu, Bereza Kartuska (1934) — obóz odosobnienia.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLII"
+    },
+    {
+     "id": "f009",
+     "przod": "Konstytucja kwietniowa",
+     "tyl": "23 IV 1935 r. — prezydent odpowiedzialny „przed Bogiem i historią”, nadrzędny wobec innych organów; system prezydencki.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLII"
+    },
+    {
+     "id": "f010",
+     "przod": "Porównaj ustrój przed i po przewrocie majowym",
+     "tyl": "Przed: system parlamentarny, silny sejm, częste zmiany rządów; po: rosnąca władza wykonawcza i prezydenta, ograniczenie opozycji.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLII"
+    },
+    {
+     "id": "f011",
+     "przod": "Polityka zagraniczna II RP — sojusze",
+     "tyl": "Sojusz z Francją (1921) i Rumunią (1921); pakty o nieagresji z ZSRS (1932) i Niemcami (1934); polityka równowagi (Józef Beck).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLII"
+    },
+    {
+     "id": "f012",
+     "przod": "Wizja Polski Piłsudskiego",
+     "tyl": "Państwo wielonarodowe, koncepcja federacyjna, silna władza wykonawcza, główne zagrożenie — Rosja.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLII"
+    },
+    {
+     "id": "f013",
+     "przod": "Wizja Polski Dmowskiego",
+     "tyl": "Państwo narodowe, inkorporacja ziem, asymilacja mniejszości, główne zagrożenie — Niemcy.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLII"
+    },
+    {
+     "id": "f014",
+     "przod": "Inni ojcowie niepodległości",
+     "tyl": "Ignacy Paderewski (dyplomacja, premier), Wincenty Witos (premier, PSL), Ignacy Daszyński (PPS, Rząd Lubelski), Wojciech Korfanty (Śląsk).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Konstytucję marcową uchwalono w:",
+     "odpowiedzi": [
+      "1919 r.",
+      "1921 r.",
+      "1926 r.",
+      "1935 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "17 III 1921 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Pierwszym prezydentem II RP był:",
+     "odpowiedzi": [
+      "Józef Piłsudski",
+      "Gabriel Narutowicz",
+      "Stanisław Wojciechowski",
+      "Ignacy Mościcki"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Zamordowany w 1922 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Przewrót majowy miał miejsce w:",
+     "odpowiedzi": [
+      "1922 r.",
+      "1926 r.",
+      "1930 r.",
+      "1935 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "12–14 V 1926 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Wzmocnienie władzy prezydenta w 1926 r. wprowadziła:",
+     "odpowiedzi": [
+      "mała konstytucja",
+      "nowela sierpniowa",
+      "konstytucja marcowa",
+      "konstytucja kwietniowa"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Sierpień 1926 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Pakt o nieagresji z Niemcami Polska podpisała w:",
+     "odpowiedzi": [
+      "1921 r.",
+      "1932 r.",
+      "1934 r.",
+      "1939 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "26 I 1934 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Obóz odosobnienia dla przeciwników politycznych utworzono w:",
+     "odpowiedzi": [
+      "Brześciu nad Bugiem",
+      "Berezie Kartuskiej",
+      "Kozielsku",
+      "Twierdzy Modlin"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1934 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-ii-rp-spoleczenstwo",
    "nazwa": "Społeczeństwo i gospodarka II Rzeczypospolitej",
    "opis": "Wymaganie XLIII podstawy programowej.",
    "wymaganie": "XLIII",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Dziedzictwo pozaborowe",
+     "tyl": "Trzy systemy prawa, waluty, kolei; różny poziom rozwoju (Polska A i B); zniszczenia wojenne.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIII"
+    },
+    {
+     "id": "f002",
+     "przod": "Struktura narodowościowa II RP",
+     "tyl": "Polacy ok. 69%, Ukraińcy ok. 14%, Żydzi ok. 8–10%, Białorusini ok. 3–4%, Niemcy ok. 2–3% (spis 1931).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIII"
+    },
+    {
+     "id": "f003",
+     "przod": "Struktura społeczna II RP",
+     "tyl": "Większość — chłopi (ok. 60%), robotnicy ok. 20%, inteligencja i burżuazja nieliczne; ziemiaństwo.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIII"
+    },
+    {
+     "id": "f004",
+     "przod": "Wyjaśnij pojęcie: Polska A i B",
+     "tyl": "Podział na bardziej rozwinięte zachodnie i zacofane wschodnie ziemie II RP.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIII"
+    },
+    {
+     "id": "f005",
+     "przod": "Reforma walutowa Grabskiego",
+     "tyl": "1924 r. — złoty zamiast marki polskiej, Bank Polski; zatrzymanie hiperinflacji.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIII"
+    },
+    {
+     "id": "f006",
+     "przod": "Reforma rolna",
+     "tyl": "Ustawy z 1920 i 1925 r. — parcelacja dużych majątków i komasacja gruntów; realizowana powoli.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIII"
+    },
+    {
+     "id": "f007",
+     "przod": "Budowa Gdyni",
+     "tyl": "Port i miasto od 1921 r. — uniezależnienie handlu morskiego od Gdańska; „okno na świat”.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIII"
+    },
+    {
+     "id": "f008",
+     "przod": "Centralny Okręg Przemysłowy",
+     "tyl": "1936–1939, Eugeniusz Kwiatkowski — przemysł w widłach Wisły i Sanu (Stalowa Wola, Mielec); również magistrala węglowa Śląsk–Gdynia.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIII"
+    },
+    {
+     "id": "f009",
+     "przod": "Skutki wielkiego kryzysu w Polsce",
+     "tyl": "Spadek produkcji o ok. 40%, bezrobocie, nożyce cen (tanie płody rolne), strajki chłopskie (1937).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIII"
+    },
+    {
+     "id": "f010",
+     "przod": "Stosunki narodowościowe w II RP",
+     "tyl": "Konflikty z Ukraińcami (OUN, pacyfikacja Małopolski Wschodniej 1930), antysemityzm (getto ławkowe), polonizacja kresów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIII"
+    },
+    {
+     "id": "f011",
+     "przod": "Wielowyznaniowość II RP",
+     "tyl": "Katolicy, prawosławni, grekokatolicy, żydzi, protestanci.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIII"
+    },
+    {
+     "id": "f012",
+     "przod": "Ocena polityki gospodarczej II RP",
+     "tyl": "Sukcesy: unifikacja, złoty, Gdynia, COP; porażki: niewielki wzrost, przeludnienie wsi, skutki kryzysu, polityka deflacyjna.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Złoty wprowadził:",
+     "odpowiedzi": [
+      "Eugeniusz Kwiatkowski",
+      "Władysław Grabski",
+      "Ignacy Mościcki",
+      "Wincenty Witos"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1924 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Centralny Okręg Przemysłowy budowano w latach:",
+     "odpowiedzi": [
+      "1924–1928",
+      "1936–1939",
+      "1929–1933",
+      "1921–1926"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Kwiatkowski.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Najliczniejszą mniejszością w II RP byli:",
+     "odpowiedzi": [
+      "Żydzi",
+      "Ukraińcy",
+      "Niemcy",
+      "Białorusini"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ok. 14%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Gdynię budowano, aby uniezależnić handel od:",
+     "odpowiedzi": [
+      "Szczecina",
+      "Gdańska",
+      "Królewca",
+      "Kłajpedy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wolne Miasto Gdańsk.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Większość ludności II RP stanowili:",
+     "odpowiedzi": [
+      "robotnicy",
+      "chłopi",
+      "inteligencja",
+      "ziemianie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ok. 60%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-ii-rp-kultura",
    "nazwa": "Kultura i nauka w okresie II Rzeczypospolitej",
    "opis": "Wymaganie XLIV podstawy programowej.",
    "wymaganie": "XLIV",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Upowszechnienie oświaty w II RP",
+     "tyl": "Obowiązek szkolny (1919), spadek analfabetyzmu, reforma jędrzejewiczowska (1932) — szkoła powszechna, gimnazjum, liceum.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIV"
+    },
+    {
+     "id": "f002",
+     "przod": "Literatura dwudziestolecia",
+     "tyl": "Skamandryci (Tuwim, Słonimski, Lechoń), Gombrowicz („Ferdydurke”), Schulz, Witkacy, Nałkowska, Dąbrowska („Noce i dnie”).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIV"
+    },
+    {
+     "id": "f003",
+     "przod": "Nauka w II RP",
+     "tyl": "Lwowsko-warszawska szkoła matematyczna (Banach), złamanie Enigmy (Rejewski, Różycki, Zygalski — 1932), szkoła filozoficzna (Twardowski, Kotarbiński).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIV"
+    },
+    {
+     "id": "f004",
+     "przod": "Złamanie Enigmy",
+     "tyl": "1932 r. — Marian Rejewski, Jerzy Różycki, Henryk Zygalski; wiedzę przekazano aliantom w 1939 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIV"
+    },
+    {
+     "id": "f005",
+     "przod": "Kultura masowa w II RP",
+     "tyl": "Radio (Polskie Radio 1926), kino (Ordonka, Bodo), kabarety, prasa codzienna (IKC), sport (Kusociński, Walasiewiczówna).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIV"
+    },
+    {
+     "id": "f006",
+     "przod": "Sztuka dwudziestolecia",
+     "tyl": "Awangarda (Strzemiński, Kobro), art déco, modernizm w architekturze (Gdynia), muzyka Szymanowskiego.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIV"
+    },
+    {
+     "id": "f007",
+     "przod": "Uniwersytety II RP",
+     "tyl": "Warszawa, Kraków, Lwów, Wilno (Uniwersytet Stefana Batorego), Poznań, KUL.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIV"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Enigmę złamał w 1932 r.:",
+     "odpowiedzi": [
+      "Stefan Banach",
+      "Marian Rejewski",
+      "Alan Turing",
+      "Hugo Steinhaus"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Z Różyckim i Zygalskim.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "„Ferdydurke” napisał:",
+     "odpowiedzi": [
+      "Bruno Schulz",
+      "Witold Gombrowicz",
+      "Stanisław Ignacy Witkiewicz",
+      "Julian Tuwim"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1937 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Do grupy Skamander należał:",
+     "odpowiedzi": [
+      "Bruno Schulz",
+      "Julian Tuwim",
+      "Witold Gombrowicz",
+      "Zofia Nałkowska"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Skamandryci.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Reformę szkolną w 1932 r. przeprowadził:",
+     "odpowiedzi": [
+      "Władysław Grabski",
+      "Janusz Jędrzejewicz",
+      "Eugeniusz Kwiatkowski",
+      "Kazimierz Bartel"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Reforma jędrzejewiczowska.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Twórcą lwowskiej szkoły matematycznej był m.in.:",
+     "odpowiedzi": [
+      "Kazimierz Twardowski",
+      "Stefan Banach",
+      "Marian Rejewski",
+      "Karol Szymanowski"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Kawiarnia Szkocka.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   }
  ]
 }
