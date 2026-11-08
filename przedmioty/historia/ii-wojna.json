@@ -8,48 +8,983 @@
    "nazwa": "Świat na drodze do II wojny światowej",
    "opis": "Wymaganie XLV podstawy programowej.",
    "wymaganie": "XLV",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Rozbijanie systemu wersalskiego przez Niemcy",
+     "tyl": "Wyjście z Ligi Narodów (1933), pobór i Luftwaffe (1935), remilitaryzacja Nadrenii (1936), Anschluss Austrii (1938), Sudety (1938), Czechy i Kłajpeda (1939).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLV"
+    },
+    {
+     "id": "f002",
+     "przod": "Udział ZSRS w rozbijaniu ładu wersalskiego",
+     "tyl": "Rapallo, tajna współpraca wojskowa z Niemcami, dążenie do rewizji granic (Polska, państwa bałtyckie), pakt z Hitlerem (1939).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLV"
+    },
+    {
+     "id": "f003",
+     "przod": "Marginalizacja Ligi Narodów",
+     "tyl": "Bezradność wobec agresji Japonii (Mandżuria 1931), Włoch (Etiopia 1935) i Niemiec; wystąpienie Niemiec, Japonii i Włoch.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLV"
+    },
+    {
+     "id": "f004",
+     "przod": "Ekspansja Włoch",
+     "tyl": "Podbój Etiopii (1935–1936), udział w wojnie domowej w Hiszpanii, aneksja Albanii (1939); oś Berlin–Rzym.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLV"
+    },
+    {
+     "id": "f005",
+     "przod": "Wojna domowa w Hiszpanii",
+     "tyl": "1936–1939: republikanie (wsparcie ZSRS, Brygady Międzynarodowe) kontra nacjonaliści gen. Franco (wsparcie Niemiec i Włoch — Guernica); zwycięstwo Franco.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLV"
+    },
+    {
+     "id": "f006",
+     "przod": "Wyjaśnij pojęcie: appeasement",
+     "tyl": "Polityka ustępstw wobec Hitlera prowadzona przez Wielką Brytanię (Chamberlain) i Francję, by uniknąć wojny.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLV"
+    },
+    {
+     "id": "f007",
+     "przod": "Konferencja monachijska",
+     "tyl": "29–30 IX 1938 r. — Wielka Brytania, Francja, Niemcy i Włochy oddały Niemcom Sudety; Polska zajęła Zaolzie.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLV"
+    },
+    {
+     "id": "f008",
+     "przod": "Żądania Niemiec wobec Polski",
+     "tyl": "1938–1939: włączenie Gdańska do Rzeszy, eksterytorialna autostrada przez Pomorze, przystąpienie do paktu antykominternowskiego; odrzucone (przemówienie Becka 5 V 1939).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLV"
+    },
+    {
+     "id": "f009",
+     "przod": "Gwarancje brytyjskie dla Polski",
+     "tyl": "31 III 1939 r.; sojusz polsko-brytyjski 25 VIII 1939 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLV"
+    },
+    {
+     "id": "f010",
+     "przod": "Pakt Ribbentrop–Mołotow",
+     "tyl": "23 VIII 1939 r. — pakt o nieagresji Niemiec i ZSRS z tajnym protokołem dzielącym Europę Środkową na strefy wpływów (podział Polski na linii Narwi, Wisły i Sanu).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLV"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Anschluss Austrii nastąpił w:",
+     "odpowiedzi": [
+      "1936 r.",
+      "1938 r.",
+      "1939 r.",
+      "1935 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Marzec 1938 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Na konferencji w Monachium oddano Niemcom:",
+     "odpowiedzi": [
+      "Gdańsk",
+      "Sudety",
+      "Kłajpedę",
+      "Nadrenię"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "IX 1938 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Polityką appeasementu kierował premier brytyjski:",
+     "odpowiedzi": [
+      "Winston Churchill",
+      "Neville Chamberlain",
+      "Anthony Eden",
+      "Clement Attlee"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ustępstwa wobec Hitlera.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Pakt Ribbentrop–Mołotow podpisano:",
+     "odpowiedzi": [
+      "1 IX 1939 r.",
+      "23 VIII 1939 r.",
+      "28 IX 1939 r.",
+      "31 III 1939 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Z tajnym protokołem.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Bombardowanie Guerniki miało miejsce podczas wojny:",
+     "odpowiedzi": [
+      "włosko-etiopskiej",
+      "domowej w Hiszpanii",
+      "polsko-niemieckiej",
+      "zimowej w Finlandii"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1937 r., Legion Condor.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-wrzesien-1939",
    "nazwa": "Wojna obronna Polski w 1939 r.",
    "opis": "Wymaganie XLVI podstawy programowej.",
    "wymaganie": "XLVI",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Cele wojenne Niemiec wobec Polski",
+     "tyl": "Zniszczenie państwa polskiego, zdobycie przestrzeni życiowej, eksterminacja elit; pretekst — prowokacja gliwicka.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVI"
+    },
+    {
+     "id": "f002",
+     "przod": "Cele ZSRS wobec Polski",
+     "tyl": "Zajęcie wschodnich ziem RP zgodnie z paktem; uzasadnienie: „ochrona ludności ukraińskiej i białoruskiej” wobec rzekomego rozpadu państwa polskiego.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVI"
+    },
+    {
+     "id": "f003",
+     "przod": "Porównanie potencjału stron w 1939 r.",
+     "tyl": "Niemcy — wyraźna przewaga w czołgach, samolotach i artylerii, atak z trzech stron; Polska — mniej nowoczesnej broni, długie granice.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVI"
+    },
+    {
+     "id": "f004",
+     "przod": "Etapy wojny obronnej",
+     "tyl": "Bitwy graniczne (1–6 IX: Mokra, Mława, Westerplatte), bitwa nad Bzurą (9–22 IX), obrona Warszawy (do 28 IX), Lwowa i Modlina, Kock (5 X — ostatnia bitwa).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVI"
+    },
+    {
+     "id": "f005",
+     "przod": "Przykłady bohaterstwa we wrześniu 1939",
+     "tyl": "Westerplatte (mjr Henryk Sucharski), Poczta Polska w Gdańsku, Wizna (kpt. Władysław Raginis), obrona Warszawy (Stefan Starzyński).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVI"
+    },
+    {
+     "id": "f006",
+     "przod": "Zbrodnie agresorów w 1939 r.",
+     "tyl": "Wieluń (bombardowanie 1 IX), egzekucje w Bydgoszczy i Wawrze, mordy Einsatzgruppen; zbrodnie sowieckie (Grodno, gen. Olszyna-Wilczyński).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVI"
+    },
+    {
+     "id": "f007",
+     "przod": "Agresja ZSRS",
+     "tyl": "17 IX 1939 r. — Armia Czerwona wkroczyła do Polski; walki KOP i obrona Grodna.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVI"
+    },
+    {
+     "id": "f008",
+     "przod": "Postawa sojuszników wobec agresji",
+     "tyl": "Francja i Wielka Brytania wypowiedziały wojnę Niemcom 3 IX, ale nie podjęły ofensywy („dziwna wojna”); wobec ZSRS — brak reakcji.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVI"
+    },
+    {
+     "id": "f009",
+     "przod": "Ocena władz cywilnych i wojskowych w 1939 r.",
+     "tyl": "Krytyka: opuszczenie kraju przez rząd i Naczelnego Wodza (Rydz-Śmigły) 17/18 IX, chaos w dowodzeniu; pozytywnie: postawa wielu dowódców i Starzyńskiego.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVI"
+    },
+    {
+     "id": "f010",
+     "przod": "Współpraca okupantów",
+     "tyl": "Traktat o granicach i przyjaźni (28 IX 1939), wspólna parada w Brześciu, wymiana jeńców i ludności, konferencje NKWD–Gestapo.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVI"
+    },
+    {
+     "id": "f011",
+     "przod": "Podział ziem polskich przez okupantów",
+     "tyl": "Niemcy: ziemie wcielone do Rzeszy (Pomorze, Wielkopolska, Śląsk) i Generalne Gubernatorstwo; ZSRS: ziemie wcielone do Ukrainy i Białorusi Sowieckiej; Wileńszczyzna dla Litwy.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVI"
+    },
+    {
+     "id": "f012",
+     "przod": "Władze RP na uchodźstwie",
+     "tyl": "Prezydent Władysław Raczkiewicz, premier i Naczelny Wódz gen. Władysław Sikorski; zachowanie ciągłości państwa i armii (we Francji, potem w Wielkiej Brytanii).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVI"
+    },
+    {
+     "id": "f013",
+     "przod": "Przyczyny klęski w 1939 r.",
+     "tyl": "Przewaga militarna Niemiec, atak ZSRS, bierność sojuszników, niekorzystne położenie geograficzne, błędy w dowodzeniu.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVI"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Agresja ZSRS na Polskę nastąpiła:",
+     "odpowiedzi": [
+      "1 IX 1939 r.",
+      "17 IX 1939 r.",
+      "28 IX 1939 r.",
+      "6 X 1939 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Zgodnie z paktem z Niemcami.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Największa bitwa wojny obronnej 1939 r. rozegrała się nad:",
+     "odpowiedzi": [
+      "Wisłą",
+      "Bzurą",
+      "Narwią",
+      "Sanem"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "9–22 IX 1939 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Obroną Westerplatte dowodził:",
+     "odpowiedzi": [
+      "Władysław Raginis",
+      "Henryk Sucharski",
+      "Franciszek Kleeberg",
+      "Stefan Starzyński"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Do 7 IX 1939 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Ostatnią bitwą kampanii wrześniowej była bitwa pod:",
+     "odpowiedzi": [
+      "Mławą",
+      "Kockiem",
+      "Tomaszowem Lubelskim",
+      "Wizną"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "5 X 1939 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Pierwszym premierem rządu na uchodźstwie był:",
+     "odpowiedzi": [
+      "Stanisław Mikołajczyk",
+      "Władysław Sikorski",
+      "Tomasz Arciszewski",
+      "Władysław Raczkiewicz"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Także Naczelny Wódz.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Pierwszym zbombardowanym miastem 1 IX 1939 r. był:",
+     "odpowiedzi": [
+      "Gdańsk",
+      "Wieluń",
+      "Warszawa",
+      "Gdynia"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Zbrodnia wojenna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-ii-wojna",
    "nazwa": "II wojna światowa i jej etapy",
    "opis": "Wymaganie XLVII podstawy programowej.",
    "wymaganie": "XLVII",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Współpraca Niemiec i ZSRS 1939–1941",
+     "tyl": "Dostawy surowców do Rzeszy, wspólne zwalczanie polskiego podziemia, podział Europy (ZSRS: państwa bałtyckie, Besarabia, wojna z Finlandią).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVII"
+    },
+    {
+     "id": "f002",
+     "przod": "Etapy II wojny światowej w Europie 1940",
+     "tyl": "Atak na Danię i Norwegię (IV), Francję i kraje Beneluksu (V–VI), bitwa o Anglię (VIII–X).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVII"
+    },
+    {
+     "id": "f003",
+     "przod": "Atak Niemiec na ZSRS",
+     "tyl": "22 VI 1941 r. — operacja Barbarossa; bitwa pod Moskwą (XII 1941).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVII"
+    },
+    {
+     "id": "f004",
+     "przod": "Przełomowe bitwy II wojny światowej",
+     "tyl": "Midway (VI 1942), El Alamein (X–XI 1942), Stalingrad (1942–1943), Kursk (VII 1943).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVII"
+    },
+    {
+     "id": "f005",
+     "przod": "Wojna na Dalekim Wschodzie",
+     "tyl": "Japonia: Pearl Harbor (7 XII 1941), podbój Azji Południowo-Wschodniej; Midway; walki o wyspy; bomby atomowe na Hiroszimę i Nagasaki (VIII 1945).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVII"
+    },
+    {
+     "id": "f006",
+     "przod": "Wielka Koalicja",
+     "tyl": "USA, Wielka Brytania, ZSRS; Karta Atlantycka (1941), lend-lease, Deklaracja Narodów Zjednoczonych (1942).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVII"
+    },
+    {
+     "id": "f007",
+     "przod": "Konferencja w Teheranie",
+     "tyl": "XI–XII 1943 r. — otwarcie drugiego frontu we Francji, wstępna zgoda na granicę wschodnią Polski na linii Curzona.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVII"
+    },
+    {
+     "id": "f008",
+     "przod": "Konferencja w Jałcie",
+     "tyl": "II 1945 r. — granica wschodnia Polski na linii Curzona, rekompensata na zachodzie, rząd z udziałem komunistów, ONZ, strefy okupacyjne Niemiec.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVII"
+    },
+    {
+     "id": "f009",
+     "przod": "Konferencja w Poczdamie",
+     "tyl": "VII–VIII 1945 r. — granica Polski na Odrze i Nysie Łużyckiej, wysiedlenie Niemców, zasady 4D (denazyfikacja, demilitaryzacja, demokratyzacja, dekartelizacja).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVII"
+    },
+    {
+     "id": "f010",
+     "przod": "Lądowanie w Normandii",
+     "tyl": "6 VI 1944 r. — operacja Overlord, otwarcie drugiego frontu.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVII"
+    },
+    {
+     "id": "f011",
+     "przod": "Koniec wojny w Europie",
+     "tyl": "Kapitulacja Niemiec 8 V 1945 r.; w Azji — kapitulacja Japonii 2 IX 1945 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVII"
+    },
+    {
+     "id": "f012",
+     "przod": "Polityka okupacyjna Niemiec na zachodzie i wschodzie",
+     "tyl": "Zachód — rządy kolaboracyjne (Vichy), względna łagodność; wschód — terror, eksterminacja, rabunek, traktowanie Słowian jako „podludzi”.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVII"
+    },
+    {
+     "id": "f013",
+     "przod": "Przyczyny klęski państw Osi",
+     "tyl": "Przewaga gospodarcza i ludnościowa aliantów, wojna na wielu frontach, błędy Hitlera, opór okupowanych narodów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVII"
+    },
+    {
+     "id": "f014",
+     "przod": "Sytuacja jeńców i ludności cywilnej",
+     "tyl": "Masowa śmierć jeńców sowieckich w niewoli niemieckiej, praca przymusowa, bombardowania miast (Coventry, Drezno), Holokaust.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Atak Japonii na Pearl Harbor nastąpił:",
+     "odpowiedzi": [
+      "22 VI 1941 r.",
+      "7 XII 1941 r.",
+      "6 VI 1944 r.",
+      "8 V 1945 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wejście USA do wojny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Granicę Polski na Odrze i Nysie Łużyckiej ustalono w:",
+     "odpowiedzi": [
+      "Teheranie",
+      "Jałcie",
+      "Poczdamie",
+      "Moskwie"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "1945 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Operacja Barbarossa to atak Niemiec na:",
+     "odpowiedzi": [
+      "Polskę",
+      "Francję",
+      "ZSRS",
+      "Wielką Brytanię"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "22 VI 1941 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Lądowanie aliantów w Normandii nastąpiło w:",
+     "odpowiedzi": [
+      "1943 r.",
+      "1944 r.",
+      "1945 r.",
+      "1942 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "6 VI 1944 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Bitwą przełomową na froncie wschodnim była bitwa pod:",
+     "odpowiedzi": [
+      "Moskwą",
+      "Stalingradem",
+      "Kijowem",
+      "Smoleńskiem"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1942–1943.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Zasadę 4D wobec Niemiec przyjęto w:",
+     "odpowiedzi": [
+      "Jałcie",
+      "Poczdamie",
+      "Teheranie",
+      "Casablance"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1945 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-okupacja",
    "nazwa": "Polska pod okupacją niemiecką i sowiecką",
    "opis": "Wymaganie XLVIII podstawy programowej.",
    "wymaganie": "XLVIII",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Generalne Gubernatorstwo",
+     "tyl": "Utworzone przez Niemców w X 1939 r. (Hans Frank, stolica w Krakowie) — rezerwuar siły roboczej, terror, likwidacja polskiej kultury.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVIII"
+    },
+    {
+     "id": "f002",
+     "przod": "Polityka niemiecka w okupowanej Polsce",
+     "tyl": "Eksterminacja elit (Intelligenzaktion, AB-Aktion), łapanki, roboty przymusowe, wysiedlenia (Zamojszczyzna), germanizacja ziem wcielonych (Volkslista), zamknięcie szkół średnich i uczelni.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVIII"
+    },
+    {
+     "id": "f003",
+     "przod": "Polityka sowiecka w okupowanej Polsce",
+     "tyl": "Narzucenie obywatelstwa, 4 masowe deportacje w głąb ZSRS (1940–1941), aresztowania, kolektywizacja, sowietyzacja.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVIII"
+    },
+    {
+     "id": "f004",
+     "przod": "Zbrodnia katyńska",
+     "tyl": "Wiosna 1940 r. — NKWD zamordowało ok. 22 tys. polskich oficerów i przedstawicieli elit (Katyń, Charków, Twer); Niemcy ujawnili w 1943 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVIII"
+    },
+    {
+     "id": "f005",
+     "przod": "Przykłady zbrodni regionalnych",
+     "tyl": "Palmiry (egzekucje elit Warszawy), Piaśnica (mordy na Pomorzu 1939–1940), Ponary (mordy pod Wilnem).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVIII"
+    },
+    {
+     "id": "f006",
+     "przod": "Obozy koncentracyjne a obozy zagłady",
+     "tyl": "Koncentracyjne (Auschwitz, Stutthof, Gross-Rosen) — praca i wyniszczenie; zagłady (Treblinka, Bełżec, Sobibór, Chełmno, Auschwitz II-Birkenau) — natychmiastowe mordowanie.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVIII"
+    },
+    {
+     "id": "f007",
+     "przod": "Sowieckie obozy pracy",
+     "tyl": "Gułag — łagry na Syberii i w Kazachstanie; więźniowie i deportowani Polacy pracowali w nieludzkich warunkach.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVIII"
+    },
+    {
+     "id": "f008",
+     "przod": "Rzeź wołyńska",
+     "tyl": "1943–1944 — ludobójstwo ludności polskiej na Wołyniu i w Małopolsce Wschodniej dokonane przez OUN-UPA (ok. 100 tys. ofiar).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVIII"
+    },
+    {
+     "id": "f009",
+     "przod": "Rola okupantów w konfliktach narodowościowych",
+     "tyl": "Okupanci podsycali konflikty polsko-ukraińskie i polsko-litewskie (policja litewska w Ponarach, ukraińska policja pomocnicza).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVIII"
+    },
+    {
+     "id": "f010",
+     "przod": "Postawy społeczeństwa polskiego pod okupacją",
+     "tyl": "Opór zbrojny i cywilny, tajne nauczanie, pomoc Żydom; ale też szmalcownictwo i kolaboracja jednostek.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVIII"
+    },
+    {
+     "id": "f011",
+     "przod": "Dzieci i młodzież pod okupacją",
+     "tyl": "Szare Szeregi (mały sabotaż, akcja pod Arsenałem), tajne komplety, germanizacja dzieci (Zamojszczyzna), obóz dla dzieci w Łodzi.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVIII"
+    },
+    {
+     "id": "f012",
+     "przod": "Miejsca pamięci zbrodni i heroizmu",
+     "tyl": "Muzeum Powstania Warszawskiego, Państwowe Muzeum Auschwitz-Birkenau, Polski Cmentarz Wojenny w Katyniu.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLVIII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Zbrodnię katyńską popełniło:",
+     "odpowiedzi": [
+      "Gestapo",
+      "NKWD",
+      "SS",
+      "UPA"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wiosna 1940 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Obozem zagłady (a nie tylko koncentracyjnym) była:",
+     "odpowiedzi": [
+      "Stutthof",
+      "Treblinka",
+      "Gross-Rosen",
+      "Dachau"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Treblinka II.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Ludobójstwa na Wołyniu dokonała:",
+     "odpowiedzi": [
+      "Armia Czerwona",
+      "OUN-UPA",
+      "policja litewska",
+      "Wehrmacht"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1943–1944.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Stolicą Generalnego Gubernatorstwa był:",
+     "odpowiedzi": [
+      "Warszawa",
+      "Kraków",
+      "Lublin",
+      "Radom"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Hans Frank na Wawelu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Akcję pod Arsenałem przeprowadziły:",
+     "odpowiedzi": [
+      "Bataliony Chłopskie",
+      "Szare Szeregi",
+      "Narodowe Siły Zbrojne",
+      "Gwardia Ludowa"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1943 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Masowe mordy pod Wilnem miały miejsce w:",
+     "odpowiedzi": [
+      "Palmirach",
+      "Ponarach",
+      "Piaśnicy",
+      "Katyniu"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ponary.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-eksterminacja",
    "nazwa": "Niemiecka polityka eksterminacji",
    "opis": "Wymaganie XLIX podstawy programowej.",
    "wymaganie": "XLIX",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Korzenie rasizmu i antysemityzmu",
+     "tyl": "Religijne (antyjudaizm), kulturowe (stereotypy), polityczne (nacjonalizm), pseudonaukowe teorie rasowe i darwinizm społeczny XIX w.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIX"
+    },
+    {
+     "id": "f002",
+     "przod": "Etapy eksterminacji Żydów",
+     "tyl": "Dyskryminacja (ustawy norymberskie), stygmatyzacja (opaska z gwiazdą Dawida), izolacja (getta), zagłada (od 1941 r. Einsatzgruppen, od 1942 r. obozy zagłady).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIX"
+    },
+    {
+     "id": "f003",
+     "przod": "Konferencja w Wannsee",
+     "tyl": "20 I 1942 r. — narada o organizacji „ostatecznego rozwiązania kwestii żydowskiej”.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIX"
+    },
+    {
+     "id": "f004",
+     "przod": "Getta",
+     "tyl": "Wydzielone dzielnice zamknięte dla Żydów (Warszawa, Łódź): głód, choroby, wywózki do obozów zagłady.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIX"
+    },
+    {
+     "id": "f005",
+     "przod": "Powstanie w getcie warszawskim",
+     "tyl": "19 IV – 16 V 1943 r., ŻOB (Mordechaj Anielewicz) i ŻZW; zakończone zburzeniem getta.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIX"
+    },
+    {
+     "id": "f006",
+     "przod": "Ofiary Holokaustu",
+     "tyl": "Ok. 6 mln Żydów, w tym ok. 3 mln obywateli polskich; także Romowie, osoby niepełnosprawne (akcja T4).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIX"
+    },
+    {
+     "id": "f007",
+     "przod": "Rada Pomocy Żydom „Żegota”",
+     "tyl": "1942 r. — organizacja Polskiego Państwa Podziemnego ratująca Żydów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIX"
+    },
+    {
+     "id": "f008",
+     "przod": "Irena Sendlerowa",
+     "tyl": "Działaczka Żegoty — uratowała ok. 2,5 tys. dzieci z getta warszawskiego.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIX"
+    },
+    {
+     "id": "f009",
+     "przod": "Rodzina Ulmów",
+     "tyl": "Markowa — zamordowani przez Niemców w 1944 r. z ukrywanymi Żydami; beatyfikowani w 2023 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIX"
+    },
+    {
+     "id": "f010",
+     "przod": "Antonina i Jan Żabińscy",
+     "tyl": "Dyrektorzy warszawskiego zoo — ukrywali ok. 300 Żydów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIX"
+    },
+    {
+     "id": "f011",
+     "przod": "Sprawiedliwy wśród Narodów Świata",
+     "tyl": "Tytuł przyznawany przez Instytut Jad Waszem osobom ratującym Żydów; Polacy stanowią największą grupę.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIX"
+    },
+    {
+     "id": "f012",
+     "przod": "Kara śmierci za pomoc Żydom",
+     "tyl": "W okupowanej Polsce za ukrywanie Żydów groziła śmierć całej rodzinie.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIX"
+    },
+    {
+     "id": "f013",
+     "przod": "Działania rządu RP wobec Zagłady",
+     "tyl": "Nota Raczyńskiego (1942) do państw sprzymierzonych, misja Jana Karskiego, Żegota; apel Szmula Zygielbojma (samobójstwo w 1943 r.).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIX"
+    },
+    {
+     "id": "f014",
+     "przod": "Postawa społeczności międzynarodowej wobec Holokaustu",
+     "tyl": "Mimo informacji (Karski) — bierność aliantów, odrzucenie żądań bombardowania obozów, ograniczenia imigracyjne.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. XLIX"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Konferencja w Wannsee odbyła się w:",
+     "odpowiedzi": [
+      "1939 r.",
+      "1941 r.",
+      "1942 r.",
+      "1943 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "20 I 1942 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Powstaniem w getcie warszawskim dowodził:",
+     "odpowiedzi": [
+      "Marek Edelman",
+      "Mordechaj Anielewicz",
+      "Szmul Zygielbojm",
+      "Adam Czerniaków"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "ŻOB.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Organizacja Polskiego Państwa Podziemnego ratująca Żydów to:",
+     "odpowiedzi": [
+      "Kedyw",
+      "Żegota",
+      "Wachlarz",
+      "Delegatura"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Od 1942 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Rodzina Ulmów mieszkała w:",
+     "odpowiedzi": [
+      "Warszawie",
+      "Markowej",
+      "Krakowie",
+      "Lublinie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Podkarpacie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "O Zagładzie informował przywódców aliantów kurier:",
+     "odpowiedzi": [
+      "Witold Pilecki",
+      "Jan Karski",
+      "Jan Nowak-Jeziorański",
+      "Stefan Rowecki"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1942–1943.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Opaska z gwiazdą Dawida była przejawem etapu:",
+     "odpowiedzi": [
+      "izolacji",
+      "stygmatyzacji",
+      "zagłady",
+      "deportacji"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Oznakowanie Żydów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-panstwo-podziemne",
    "nazwa": "Władze RP na uchodźstwie i w okupowanym kraju",
    "opis": "Wymaganie L podstawy programowej.",
    "wymaganie": "L",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Rząd RP na uchodźstwie — położenie",
+     "tyl": "Uznawany przez aliantów (Francja, potem Londyn), ale jego pozycja słabła wraz ze wzrostem znaczenia ZSRS w koalicji.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. L"
+    },
+    {
+     "id": "f002",
+     "przod": "Układ Sikorski–Majski",
+     "tyl": "30 VII 1941 r. — wznowienie stosunków z ZSRS, „amnestia” dla Polaków w ZSRS, tworzenie armii polskiej w ZSRS.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. L"
+    },
+    {
+     "id": "f003",
+     "przod": "Armia gen. Andersa",
+     "tyl": "Tworzona w ZSRS (1941–1942), ewakuowana do Iranu; 2 Korpus Polski — Monte Cassino (V 1944), Ankona, Bolonia.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. L"
+    },
+    {
+     "id": "f004",
+     "przod": "Polskie Siły Zbrojne na Zachodzie",
+     "tyl": "Narwik (1940), bitwa o Anglię (Dywizjon 303), Tobruk (Brygada Karpacka), Falaise (1 Dywizja Pancerna gen. Maczka), Arnhem (Brygada Spadochronowa gen. Sosabowskiego).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. L"
+    },
+    {
+     "id": "f005",
+     "przod": "Zerwanie stosunków z ZSRS",
+     "tyl": "IV 1943 r. — po ujawnieniu zbrodni katyńskiej Stalin zerwał stosunki z rządem RP.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. L"
+    },
+    {
+     "id": "f006",
+     "przod": "Katastrofa gibraltarska",
+     "tyl": "4 VII 1943 r. — śmierć gen. Sikorskiego; premierem Mikołajczyk, Naczelnym Wodzem gen. Sosnkowski.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. L"
+    },
+    {
+     "id": "f007",
+     "przod": "Polityka mocarstw wobec sprawy polskiej",
+     "tyl": "Ustępstwa wobec Stalina w Teheranie i Jałcie; brak wsparcia dla powstania warszawskiego; cofnięcie uznania rządu RP (VII 1945).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. L"
+    },
+    {
+     "id": "f008",
+     "przod": "Struktura Polskiego Państwa Podziemnego",
+     "tyl": "Delegatura Rządu na Kraj (władza cywilna), Armia Krajowa (wojsko), Rada Jedności Narodowej (reprezentacja partii), sądy podziemne, tajne nauczanie.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. L"
+    },
+    {
+     "id": "f009",
+     "przod": "Armia Krajowa",
+     "tyl": "Od 1942 r. (wcześniej SZP, ZWZ); dowódcy: Stefan Rowecki „Grot”, Tadeusz Komorowski „Bór”, Leopold Okulicki; ok. 350 tys. żołnierzy.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. L"
+    },
+    {
+     "id": "f010",
+     "przod": "Działalność AK",
+     "tyl": "Wywiad (V1, V2), dywersja i sabotaż (Kedyw), akcje zbrojne (zamach na Kutscherę 1944), plan „Burza”.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. L"
+    },
+    {
+     "id": "f011",
+     "przod": "Akcja „Burza”",
+     "tyl": "1944 r. — ujawnianie się AK przed wkraczającą Armią Czerwoną (operacja „Ostra Brama” w Wilnie, Lwów); represje NKWD.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. L"
+    },
+    {
+     "id": "f012",
+     "przod": "Powstanie warszawskie — przyczyny",
+     "tyl": "Chęć wyzwolenia stolicy przed wkroczeniem Sowietów i przejęcia jej przez władze RP, zbliżanie się Armii Czerwonej.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. L"
+    },
+    {
+     "id": "f013",
+     "przod": "Powstanie warszawskie — przebieg i skutki",
+     "tyl": "1 VIII – 3 X 1944 r.; ok. 150–200 tys. zabitych cywilów (rzeź Woli), zniszczenie miasta, wypędzenie ludności; Armia Czerwona stała na Pradze.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. L"
+    },
+    {
+     "id": "f014",
+     "przod": "Inne formacje podziemne",
+     "tyl": "Bataliony Chłopskie (ludowcy), NSZ (narodowcy), komunistyczna Gwardia Ludowa / Armia Ludowa.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. L"
+    },
+    {
+     "id": "f015",
+     "przod": "Witold Pilecki",
+     "tyl": "Dobrowolnie trafił do Auschwitz, by zbierać informacje i tworzyć konspirację; raporty o obozie; stracony przez komunistów w 1948 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. L"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Układ Sikorski–Majski zawarto w:",
+     "odpowiedzi": [
+      "1939 r.",
+      "1941 r.",
+      "1943 r.",
+      "1944 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "30 VII 1941 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "2 Korpus Polski zdobył:",
+     "odpowiedzi": [
+      "Falaise w Normandii",
+      "Monte Cassino",
+      "Narwik w Norwegii",
+      "Arnhem w Holandii"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Maj 1944 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Pierwszym dowódcą Armii Krajowej był:",
+     "odpowiedzi": [
+      "Tadeusz Komorowski",
+      "Stefan Rowecki",
+      "Leopold Okulicki",
+      "August Fieldorf"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "„Grot”.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Powstanie warszawskie wybuchło:",
+     "odpowiedzi": [
+      "19 IV 1943 r.",
+      "1 VIII 1944 r.",
+      "17 IX 1939 r.",
+      "1 IX 1944 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Godzina W.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Sowieci zerwali stosunki z rządem RP po ujawnieniu:",
+     "odpowiedzi": [
+      "akcji „Burza”",
+      "zbrodni katyńskiej",
+      "powstania w getcie",
+      "raportów Pileckiego"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Kwiecień 1943 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "1 Dywizją Pancerną dowodził:",
+     "odpowiedzi": [
+      "Władysław Anders",
+      "Stanisław Maczek",
+      "Stanisław Sosabowski",
+      "Zygmunt Berling"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Falaise, Breda.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   }
  ]
 }

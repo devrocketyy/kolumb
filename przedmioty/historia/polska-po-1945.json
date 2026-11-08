@@ -8,40 +8,700 @@
    "nazwa": "Przejmowanie władzy przez komunistów w Polsce (1944–1948)",
    "opis": "Wymaganie LV podstawy programowej.",
    "wymaganie": "LV",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Manifest PKWN",
+     "tyl": "22 VII 1944 r. — program komunistycznego Polskiego Komitetu Wyzwolenia Narodowego, ogłoszony w Chełmie.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LV"
+    },
+    {
+     "id": "f002",
+     "przod": "Rząd Tymczasowy i TRJN",
+     "tyl": "Rząd Tymczasowy (I 1945); Tymczasowy Rząd Jedności Narodowej (VI 1945) z udziałem Mikołajczyka — uznany przez mocarstwa.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LV"
+    },
+    {
+     "id": "f003",
+     "przod": "Proces szesnastu",
+     "tyl": "1945 r., Moskwa — sąd nad przywódcami Polskiego Państwa Podziemnego (gen. Okulicki) porwanymi podstępem.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LV"
+    },
+    {
+     "id": "f004",
+     "przod": "Referendum ludowe",
+     "tyl": "30 VI 1946 r. („3 razy tak”) — sfałszowane przez komunistów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LV"
+    },
+    {
+     "id": "f005",
+     "przod": "Wybory do Sejmu Ustawodawczego",
+     "tyl": "19 I 1947 r. — sfałszowane; porażka PSL; Mikołajczyk uciekł z kraju.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LV"
+    },
+    {
+     "id": "f006",
+     "przod": "Opór antykomunistyczny",
+     "tyl": "Żołnierze wyklęci (niezłomni): WiN, NSZ; walka zbrojna do początku lat 50. (ostatni — Józef Franczak, 1963).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LV"
+    },
+    {
+     "id": "f007",
+     "przod": "Represje wobec opozycji",
+     "tyl": "UB, NKWD, obozy pracy, procesy pokazowe (gen. Fieldorf „Nil”, Witold Pilecki — straceni).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LV"
+    },
+    {
+     "id": "f008",
+     "przod": "Zmiany granic i ludności po 1945 r.",
+     "tyl": "Utrata Kresów Wschodnich, Ziemie Odzyskane; przesiedlenia Polaków z Kresów, wysiedlenie Niemców, akcja „Wisła” (1947).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LV"
+    },
+    {
+     "id": "f009",
+     "przod": "Reforma rolna i nacjonalizacja",
+     "tyl": "Dekret o reformie rolnej (1944) — parcelacja majątków powyżej 50 ha; nacjonalizacja przemysłu (1946).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LV"
+    },
+    {
+     "id": "f010",
+     "przod": "Powstanie PZPR",
+     "tyl": "XII 1948 r. — połączenie PPR i PPS; monopol władzy komunistów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LV"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Manifest PKWN ogłoszono:",
+     "odpowiedzi": [
+      "1 VIII 1944 r.",
+      "22 VII 1944 r.",
+      "30 VI 1946 r.",
+      "19 I 1947 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Chełm.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Referendum „3 razy tak” odbyło się w:",
+     "odpowiedzi": [
+      "1945 r.",
+      "1946 r.",
+      "1947 r.",
+      "1948 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Sfałszowane.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "PZPR powstała w:",
+     "odpowiedzi": [
+      "1944 r.",
+      "1947 r.",
+      "1948 r.",
+      "1952 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Połączenie PPR i PPS.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "W procesie szesnastu sądzono:",
+     "odpowiedzi": [
+      "przywódców PSL Mikołajczyka",
+      "przywódców Państwa Podziemnego",
+      "żołnierzy Zrzeszenia WiN",
+      "działaczy PPS-WRN z Londynu"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Moskwa, 1945 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Akcja „Wisła” dotyczyła ludności:",
+     "odpowiedzi": [
+      "niemieckiej",
+      "ukraińskiej",
+      "żydowskiej",
+      "litewskiej"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1947 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-stalinizm",
    "nazwa": "Stalinizm w Polsce i jego erozja",
    "opis": "Wymaganie LVI podstawy programowej.",
    "wymaganie": "LVI",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Cechy stalinizmu w Polsce",
+     "tyl": "Terror UB, kult Stalina i Bieruta, gospodarka planowa (plan sześcioletni), kolektywizacja, socrealizm, walka z Kościołem.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVI"
+    },
+    {
+     "id": "f002",
+     "przod": "Konstytucja PRL",
+     "tyl": "22 VII 1952 r. — nazwa Polska Rzeczpospolita Ludowa; Rada Państwa.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVI"
+    },
+    {
+     "id": "f003",
+     "przod": "Plan sześcioletni",
+     "tyl": "1950–1955 — industrializacja (przemysł ciężki, Nowa Huta), kosztem rolnictwa i konsumpcji.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVI"
+    },
+    {
+     "id": "f004",
+     "przod": "Walka z Kościołem",
+     "tyl": "Aresztowanie prymasa Stefana Wyszyńskiego (1953), proces biskupa Kaczmarka, likwidacja szkół katolickich.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVI"
+    },
+    {
+     "id": "f005",
+     "przod": "Wyjaśnij pojęcie: socrealizm",
+     "tyl": "Obowiązkowa w sztuce doktryna przedstawiania rzeczywistości zgodnie z ideologią komunistyczną (np. Pałac Kultury i Nauki).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVI"
+    },
+    {
+     "id": "f006",
+     "przod": "Erozja stalinizmu",
+     "tyl": "Śmierć Stalina (1953), ucieczka Józefa Światły i jego audycje w RWE, XX zjazd KPZR i referat Chruszczowa (1956), śmierć Bieruta.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVI"
+    },
+    {
+     "id": "f007",
+     "przod": "Poznański Czerwiec",
+     "tyl": "28 VI 1956 r. — protest robotników Poznania („chleba i wolności”) krwawo stłumiony.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVI"
+    },
+    {
+     "id": "f008",
+     "przod": "Październik 1956",
+     "tyl": "Władysław Gomułka I sekretarzem; uwolnienie Wyszyńskiego, odejście od kolektywizacji, odwilż; Rokossowski wyjechał do ZSRS.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVI"
+    },
+    {
+     "id": "f009",
+     "przod": "Powstanie węgierskie 1956",
+     "tyl": "Zryw przeciw komunistom (Imre Nagy) stłumiony przez armię sowiecką; Polacy oddawali krew dla Węgrów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVI"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Konstytucję PRL uchwalono w:",
+     "odpowiedzi": [
+      "1947 r.",
+      "1952 r.",
+      "1956 r.",
+      "1976 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "22 VII 1952 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Poznański Czerwiec wybuchł w:",
+     "odpowiedzi": [
+      "1953 r.",
+      "1956 r.",
+      "1968 r.",
+      "1970 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "28 VI 1956 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Prymasa Wyszyńskiego aresztowano w:",
+     "odpowiedzi": [
+      "1948 r.",
+      "1953 r.",
+      "1956 r.",
+      "1966 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Uwolniony w 1956 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "W październiku 1956 r. I sekretarzem został:",
+     "odpowiedzi": [
+      "Bolesław Bierut",
+      "Władysław Gomułka",
+      "Edward Ochab",
+      "Edward Gierek"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Odwilż.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Nowa Huta powstała w ramach:",
+     "odpowiedzi": [
+      "planu trzyletniego",
+      "planu sześcioletniego",
+      "reformy rolnej",
+      "odwilży"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1950–1955.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-prl-1957-1981",
    "nazwa": "Polska w latach 1957–1981",
    "opis": "Wymaganie LVII podstawy programowej.",
    "wymaganie": "LVII",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Mała stabilizacja",
+     "tyl": "Rządy Gomułki po 1956 r. — stopniowe odchodzenie od zdobyczy października, stagnacja.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVII"
+    },
+    {
+     "id": "f002",
+     "przod": "Obchody Tysiąclecia Chrztu Polski",
+     "tyl": "1966 r. — Wielka Nowenna prymasa Wyszyńskiego kontra państwowe obchody Tysiąclecia Państwa Polskiego.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVII"
+    },
+    {
+     "id": "f003",
+     "przod": "Orędzie biskupów polskich do niemieckich",
+     "tyl": "1965 r. — „przebaczamy i prosimy o przebaczenie”; atak propagandy PRL.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVII"
+    },
+    {
+     "id": "f004",
+     "przod": "Marzec 1968",
+     "tyl": "Zdjęcie „Dziadów” z afisza, protesty studentów, represje; kampania antysemicka — emigracja ok. 13–15 tys. Żydów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVII"
+    },
+    {
+     "id": "f005",
+     "przod": "Interwencja w Czechosłowacji",
+     "tyl": "Sierpień 1968 r. — wojska Układu Warszawskiego (w tym LWP) stłumiły praską wiosnę.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVII"
+    },
+    {
+     "id": "f006",
+     "przod": "Grudzień 1970",
+     "tyl": "Podwyżki cen → strajki na Wybrzeżu (Gdańsk, Gdynia, Szczecin); strzały do robotników; Gierek zastąpił Gomułkę.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVII"
+    },
+    {
+     "id": "f007",
+     "przod": "Układ PRL–RFN",
+     "tyl": "1970 r. — uznanie przez RFN granicy na Odrze i Nysie.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVII"
+    },
+    {
+     "id": "f008",
+     "przod": "Dekada Gierka",
+     "tyl": "Kredyty zachodnie, budowa fabryk i dróg, wzrost konsumpcji („propaganda sukcesu”), potem zadłużenie i kryzys.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVII"
+    },
+    {
+     "id": "f009",
+     "przod": "Czerwiec 1976",
+     "tyl": "Protesty po podwyżkach w Radomiu, Ursusie i Płocku; represje („ścieżki zdrowia”) → powstanie KOR.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVII"
+    },
+    {
+     "id": "f010",
+     "przod": "Komitet Obrony Robotników",
+     "tyl": "1976 r. — pomoc represjonowanym (Jacek Kuroń, Adam Michnik, Antoni Macierewicz); początek zorganizowanej opozycji.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVII"
+    },
+    {
+     "id": "f011",
+     "przod": "Wybór Jana Pawła II",
+     "tyl": "16 X 1978 r.; pielgrzymka w 1979 r. („Niech zstąpi Duch Twój i odnowi oblicze ziemi. Tej ziemi”).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVII"
+    },
+    {
+     "id": "f012",
+     "przod": "Sierpień 1980",
+     "tyl": "Strajki na Wybrzeżu (Stocznia Gdańska — Lech Wałęsa, Anna Walentynowicz); 21 postulatów; porozumienia sierpniowe (31 VIII 1980).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVII"
+    },
+    {
+     "id": "f013",
+     "przod": "„Solidarność”",
+     "tyl": "NSZZ „Solidarność” — niezależny związek zawodowy (ok. 10 mln członków); przewodniczący Lech Wałęsa.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Wydarzenia Marca ’68 rozpoczęło zdjęcie z afisza:",
+     "odpowiedzi": [
+      "„Wesela”",
+      "„Dziadów”",
+      "„Kordiana”",
+      "„Nie-Boskiej komedii”"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Teatr Narodowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "KOR powstał w:",
+     "odpowiedzi": [
+      "1970 r.",
+      "1976 r.",
+      "1978 r.",
+      "1980 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Po Czerwcu ’76.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Porozumienie w Gdańsku podpisano:",
+     "odpowiedzi": [
+      "14 VIII 1980 r.",
+      "31 VIII 1980 r.",
+      "13 XII 1981 r.",
+      "17 IX 1980 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Porozumienia sierpniowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Po Grudniu ’70 władzę objął:",
+     "odpowiedzi": [
+      "Władysław Gomułka",
+      "Edward Gierek",
+      "Stanisław Kania",
+      "Wojciech Jaruzelski"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "I sekretarz od 1970 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Karol Wojtyła został papieżem w:",
+     "odpowiedzi": [
+      "1976 r.",
+      "1978 r.",
+      "1979 r.",
+      "1980 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "16 X 1978 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Orędzie biskupów polskich do niemieckich ogłoszono w:",
+     "odpowiedzi": [
+      "1956 r.",
+      "1965 r.",
+      "1966 r.",
+      "1970 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "„Przebaczamy i prosimy o przebaczenie”.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-dekada-80",
    "nazwa": "Dekada 1981–1989",
    "opis": "Wymaganie LVIII podstawy programowej.",
    "wymaganie": "LVIII",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Stan wojenny",
+     "tyl": "13 XII 1981 r. — gen. Wojciech Jaruzelski i WRON; internowania, zakaz działalności „Solidarności”, godzina policyjna.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVIII"
+    },
+    {
+     "id": "f002",
+     "przod": "Ofiary stanu wojennego",
+     "tyl": "Kopalnia „Wujek” (9 górników zabitych, 16 XII 1981), zabójstwo ks. Jerzego Popiełuszki (1984).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVIII"
+    },
+    {
+     "id": "f003",
+     "przod": "Opór po wprowadzeniu stanu wojennego",
+     "tyl": "Podziemna „Solidarność” (TKK), wydawnictwa drugiego obiegu, Radio Solidarność, demonstracje.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVIII"
+    },
+    {
+     "id": "f004",
+     "przod": "Zniesienie stanu wojennego",
+     "tyl": "Zawieszony 31 XII 1982, zniesiony 22 VII 1983 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVIII"
+    },
+    {
+     "id": "f005",
+     "przod": "Pokojowa Nagroda Nobla dla Wałęsy",
+     "tyl": "1983 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVIII"
+    },
+    {
+     "id": "f006",
+     "przod": "Kryzys gospodarczy lat 80.",
+     "tyl": "Kartki na żywność, kolejki, inflacja, zadłużenie zagraniczne, emigracja.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVIII"
+    },
+    {
+     "id": "f007",
+     "przod": "Okrągły Stół",
+     "tyl": "6 II – 5 IV 1989 r. — rozmowy władzy z opozycją: legalizacja „Solidarności”, wybory częściowo wolne (35% Sejmu, wolny Senat), urząd prezydenta.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVIII"
+    },
+    {
+     "id": "f008",
+     "przod": "Wybory 4 czerwca 1989 r.",
+     "tyl": "Zwycięstwo „Solidarności” (161 z 161 miejsc w Sejmie do zdobycia i 99 ze 100 w Senacie).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVIII"
+    },
+    {
+     "id": "f009",
+     "przod": "Rząd Mazowieckiego",
+     "tyl": "1989 r. — pierwszy niekomunistyczny premier w bloku wschodnim (Tadeusz Mazowiecki).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVIII"
+    },
+    {
+     "id": "f010",
+     "przod": "Plan Balcerowicza",
+     "tyl": "Od 1 I 1990 r. — terapia szokowa: wolny rynek, wymienialny złoty, zatrzymanie hiperinflacji.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LVIII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Stan wojenny wprowadzono:",
+     "odpowiedzi": [
+      "31 VIII 1980 r.",
+      "13 XII 1981 r.",
+      "16 XII 1981 r.",
+      "22 VII 1983 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "WRON.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Pacyfikacja kopalni „Wujek” miała miejsce w:",
+     "odpowiedzi": [
+      "1980 r.",
+      "1981 r.",
+      "1982 r.",
+      "1984 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "16 XII 1981 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Ks. Jerzy Popiełuszko został zamordowany w:",
+     "odpowiedzi": [
+      "1981 r.",
+      "1982 r.",
+      "1984 r.",
+      "1989 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Przez funkcjonariuszy SB.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Obrady Okrągłego Stołu trwały w:",
+     "odpowiedzi": [
+      "1988 r.",
+      "1989 r.",
+      "1990 r.",
+      "1987 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Luty–kwiecień 1989 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Pierwszym niekomunistycznym premierem był:",
+     "odpowiedzi": [
+      "Lech Wałęsa",
+      "Tadeusz Mazowiecki",
+      "Jan Olszewski",
+      "Leszek Balcerowicz"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1989 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-iii-rp",
    "nazwa": "Narodziny III Rzeczypospolitej i jej miejsce w świecie",
    "opis": "Wymaganie LIX podstawy programowej.",
    "wymaganie": "LIX",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Przemiany ustrojowe 1989–1990",
+     "tyl": "Nowela grudniowa (1989): nazwa Rzeczpospolita Polska, orzeł w koronie; rozwiązanie PZPR (1990); Wałęsa prezydentem w wyborach powszechnych (1990).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIX"
+    },
+    {
+     "id": "f002",
+     "przod": "Pierwsze w pełni wolne wybory do Sejmu",
+     "tyl": "27 X 1991 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIX"
+    },
+    {
+     "id": "f003",
+     "przod": "Mała konstytucja 1992",
+     "tyl": "Tymczasowa regulacja stosunków między władzą wykonawczą i ustawodawczą.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIX"
+    },
+    {
+     "id": "f004",
+     "przod": "Konstytucja RP",
+     "tyl": "2 IV 1997 r. (referendum 25 V 1997); obowiązuje od 17 X 1997 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIX"
+    },
+    {
+     "id": "f005",
+     "przod": "Wycofanie wojsk sowieckich",
+     "tyl": "Ostatnie wojska rosyjskie opuściły Polskę w 1993 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIX"
+    },
+    {
+     "id": "f006",
+     "przod": "Polska w NATO",
+     "tyl": "12 III 1999 r. — wraz z Czechami i Węgrami.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIX"
+    },
+    {
+     "id": "f007",
+     "przod": "Polska w Unii Europejskiej",
+     "tyl": "1 V 2004 r. — po referendum akcesyjnym (2003).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIX"
+    },
+    {
+     "id": "f008",
+     "przod": "Reformy 1999 r.",
+     "tyl": "Reforma administracyjna (16 województw, powiaty), oświaty (gimnazja), emerytalna i zdrowia.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIX"
+    },
+    {
+     "id": "f009",
+     "przod": "Koszty transformacji",
+     "tyl": "Bezrobocie, upadek PGR-ów i wielkich zakładów, rozwarstwienie społeczne; ale wzrost gospodarczy i dobrobytu.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIX"
+    },
+    {
+     "id": "f010",
+     "przod": "Polityka zagraniczna III RP",
+     "tyl": "Traktaty z sąsiadami (z Niemcami 1990–1991), Trójkąt Weimarski, Grupa Wyszehradzka (1991), integracja z Zachodem.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIX"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Obowiązującą Konstytucję RP uchwalono w:",
+     "odpowiedzi": [
+      "1989 r.",
+      "1992 r.",
+      "1997 r.",
+      "1999 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "2 IV 1997 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Polska wstąpiła do NATO w:",
+     "odpowiedzi": [
+      "1997 r.",
+      "1999 r.",
+      "2004 r.",
+      "1993 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "12 III 1999 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Polska wstąpiła do Unii Europejskiej w:",
+     "odpowiedzi": [
+      "1999 r.",
+      "2003 r.",
+      "2004 r.",
+      "2007 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "1 V 2004 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Pierwszym prezydentem wybranym w wyborach powszechnych był:",
+     "odpowiedzi": [
+      "Wojciech Jaruzelski",
+      "Lech Wałęsa",
+      "Aleksander Kwaśniewski",
+      "Tadeusz Mazowiecki"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1990 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Grupa Wyszehradzka powstała w:",
+     "odpowiedzi": [
+      "1989 r.",
+      "1991 r.",
+      "1993 r.",
+      "1999 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Polska, Czechosłowacja, Węgry.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   }
  ]
 }

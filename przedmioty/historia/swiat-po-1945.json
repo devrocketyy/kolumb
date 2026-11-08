@@ -8,32 +8,509 @@
    "nazwa": "Świat po II wojnie światowej. Początek zimnej wojny",
    "opis": "Wymaganie LI podstawy programowej.",
    "wymaganie": "LI",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Skutki II wojny światowej",
+     "tyl": "Ok. 60–70 mln ofiar, zniszczenia, przesunięcia granic i ludności, podział Europy, dominacja USA i ZSRS, powstanie ONZ (1945).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LI"
+    },
+    {
+     "id": "f002",
+     "przod": "Organizacja Narodów Zjednoczonych",
+     "tyl": "Karta Narodów Zjednoczonych (San Francisco, 1945); Rada Bezpieczeństwa z pięcioma stałymi członkami z prawem weta.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LI"
+    },
+    {
+     "id": "f003",
+     "przod": "Proces norymberski",
+     "tyl": "1945–1946 — sąd nad głównymi zbrodniarzami nazistowskimi.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LI"
+    },
+    {
+     "id": "f004",
+     "przod": "Wyjaśnij pojęcie: zimna wojna",
+     "tyl": "Rywalizacja USA i ZSRS (1947–1991) bez bezpośredniego konfliktu zbrojnego: wyścig zbrojeń, propaganda, wojny zastępcze.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LI"
+    },
+    {
+     "id": "f005",
+     "przod": "Żelazna kurtyna",
+     "tyl": "Przemówienie Churchilla w Fulton (1946) — podział Europy na wolny Zachód i zdominowany przez ZSRS Wschód.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LI"
+    },
+    {
+     "id": "f006",
+     "przod": "Doktryna Trumana i plan Marshalla",
+     "tyl": "1947 r. — powstrzymywanie komunizmu i pomoc gospodarcza dla Europy Zachodniej (państwa bloku wschodniego jej odmówiły).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LI"
+    },
+    {
+     "id": "f007",
+     "przod": "Blokada Berlina",
+     "tyl": "1948–1949 — ZSRS zablokował Berlin Zachodni; most powietrzny aliantów; powstanie RFN i NRD (1949).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LI"
+    },
+    {
+     "id": "f008",
+     "przod": "Powstanie bloków militarnych",
+     "tyl": "NATO (1949), Układ Warszawski (1955); RWPG (1949) — integracja gospodarcza bloku wschodniego.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LI"
+    },
+    {
+     "id": "f009",
+     "przod": "Wojna koreańska",
+     "tyl": "1950–1953 — Korea Północna (wsparcie ZSRS i Chin) kontra Południowa (USA, ONZ); rozejm na 38. równoleżniku.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LI"
+    },
+    {
+     "id": "f010",
+     "przod": "Kryzys kubański",
+     "tyl": "1962 r. — sowieckie rakiety na Kubie; świat na krawędzi wojny jądrowej; kompromis Kennedy–Chruszczow.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LI"
+    },
+    {
+     "id": "f011",
+     "przod": "Mur berliński",
+     "tyl": "Zbudowany w 1961 r.; zburzony 9 XI 1989 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LI"
+    },
+    {
+     "id": "f012",
+     "przod": "Wojna w Wietnamie",
+     "tyl": "1955–1975 — klęska USA, zjednoczenie Wietnamu pod władzą komunistów.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LI"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Przemówienie o „żelaznej kurtynie” wygłosił:",
+     "odpowiedzi": [
+      "Harry Truman",
+      "Winston Churchill",
+      "George Marshall",
+      "Józef Stalin"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Fulton, 1946 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "NATO powstało w:",
+     "odpowiedzi": [
+      "1945 r.",
+      "1947 r.",
+      "1949 r.",
+      "1955 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Pakt Północnoatlantycki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Układ Warszawski powstał w:",
+     "odpowiedzi": [
+      "1949 r.",
+      "1955 r.",
+      "1956 r.",
+      "1961 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Odpowiedź na wejście RFN do NATO.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Kryzys kubański miał miejsce w:",
+     "odpowiedzi": [
+      "1956 r.",
+      "1961 r.",
+      "1962 r.",
+      "1968 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Rakiety na Kubie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Wojna koreańska zakończyła się:",
+     "odpowiedzi": [
+      "zjednoczeniem Korei",
+      "rozejmem bez traktatu pokojowego",
+      "zwycięstwem Korei Północnej",
+      "traktatem pokojowym w Seulu"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1953 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06",
+     "pytanie": "Mur berliński zbudowano w:",
+     "odpowiedzi": [
+      "1949 r.",
+      "1953 r.",
+      "1961 r.",
+      "1968 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "NRD.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-dekolonizacja",
    "nazwa": "Dekolonizacja, integracja i nowe konflikty",
    "opis": "Wymaganie LII podstawy programowej.",
    "wymaganie": "LII",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Przyczyny dekolonizacji",
+     "tyl": "Osłabienie mocarstw kolonialnych po II wojnie, ruchy narodowowyzwoleńcze, stanowisko ONZ, USA i ZSRS przeciw kolonializmowi.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LII"
+    },
+    {
+     "id": "f002",
+     "przod": "Niepodległość Indii",
+     "tyl": "1947 r. — Mahatma Gandhi (bierny opór); podział na Indie i Pakistan.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LII"
+    },
+    {
+     "id": "f003",
+     "przod": "Rok Afryki",
+     "tyl": "1960 r. — niepodległość uzyskało 17 państw afrykańskich.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LII"
+    },
+    {
+     "id": "f004",
+     "przod": "Wojna w Algierii",
+     "tyl": "1954–1962 — krwawa walka o niepodległość od Francji.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LII"
+    },
+    {
+     "id": "f005",
+     "przod": "Skutki dekolonizacji",
+     "tyl": "Kilkadziesiąt nowych państw, konflikty etniczne i graniczne, bieda i zależność gospodarcza, rywalizacja bloków o Trzeci Świat.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LII"
+    },
+    {
+     "id": "f006",
+     "przod": "Konflikt bliskowschodni",
+     "tyl": "Powstanie Izraela (1948) i wojny arabsko-izraelskie (1948, 1956, 1967 — wojna sześciodniowa, 1973 — Jom Kippur); problem palestyński.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LII"
+    },
+    {
+     "id": "f007",
+     "przod": "Początki integracji europejskiej",
+     "tyl": "Plan Schumana (1950), EWWiS (1951), traktaty rzymskie (1957) — EWG i Euratom; ojcowie Europy: Schuman, Monnet, Adenauer, De Gasperi.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LII"
+    },
+    {
+     "id": "f008",
+     "przod": "Traktat z Maastricht",
+     "tyl": "1992 r. — powstanie Unii Europejskiej.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LII"
+    },
+    {
+     "id": "f009",
+     "przod": "Chiny komunistyczne",
+     "tyl": "Mao Zedong (ChRL od 1949 r.), wielki skok naprzód, rewolucja kulturalna; reformy Deng Xiaopinga; Tiananmen (1989).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LII"
+    },
+    {
+     "id": "f010",
+     "przod": "Konflikty po 1945 r.",
+     "tyl": "Korea, Wietnam, Afganistan (interwencja ZSRS 1979–1989), wojny w Jugosławii (lata 90.).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Rokiem Afryki nazywa się rok:",
+     "odpowiedzi": [
+      "1947",
+      "1960",
+      "1962",
+      "1975"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Niepodległość 17 państw.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Wojna sześciodniowa toczyła się w:",
+     "odpowiedzi": [
+      "1948 r.",
+      "1956 r.",
+      "1967 r.",
+      "1973 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Izrael kontra państwa arabskie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Traktaty rzymskie utworzyły m.in.:",
+     "odpowiedzi": [
+      "EWWiS",
+      "EWG",
+      "Unię Europejską",
+      "NATO"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1957 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Biernym oporem wobec Brytyjczyków kierował:",
+     "odpowiedzi": [
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Ali Jinnah",
+      "Ho Chi Minh"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Indie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p05",
+     "pytanie": "Unię Europejską powołał traktat z:",
+     "odpowiedzi": [
+      "Rzymu",
+      "Paryża",
+      "Maastricht",
+      "Amsterdamu"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "1992 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-przemiany-cywilizacyjne",
    "nazwa": "Przemiany cywilizacyjne na świecie",
    "opis": "Wymaganie LIII podstawy programowej.",
    "wymaganie": "LIII",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Rewolucja naukowo-techniczna po 1945 r.",
+     "tyl": "Energia jądrowa, komputery, tranzystor, tworzywa sztuczne, antybiotyki, eksploracja kosmosu, internet.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIII"
+    },
+    {
+     "id": "f002",
+     "przod": "Wyścig kosmiczny",
+     "tyl": "Sputnik (1957), Jurij Gagarin (1961), lądowanie na Księżycu (Apollo 11, 1969).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIII"
+    },
+    {
+     "id": "f003",
+     "przod": "Rewolucja obyczajowa lat 60.",
+     "tyl": "Kontrkultura (hipisi), rewolta studencka 1968 r., emancypacja kobiet, ruch praw obywatelskich w USA (Martin Luther King).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIII"
+    },
+    {
+     "id": "f004",
+     "przod": "Sobór watykański II",
+     "tyl": "1962–1965 — liturgia w językach narodowych, dialog ekumeniczny i z innymi religiami.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIII"
+    },
+    {
+     "id": "f005",
+     "przod": "Globalizacja",
+     "tyl": "Proces wzrostu powiązań gospodarczych, kulturowych i informacyjnych między państwami; korporacje ponadnarodowe, handel, internet.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIII"
+    },
+    {
+     "id": "f006",
+     "przod": "Problemy globalne",
+     "tyl": "Przeludnienie, ubóstwo Południa, zanieczyszczenie środowiska, zmiany klimatu, terroryzm.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIII"
+    },
+    {
+     "id": "f007",
+     "przod": "Społeczeństwo konsumpcyjne",
+     "tyl": "Wzrost dobrobytu na Zachodzie, kultura masowa (telewizja, muzyka rockowa), reklama.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Pierwszym człowiekiem w kosmosie był:",
+     "odpowiedzi": [
+      "Neil Armstrong",
+      "Jurij Gagarin",
+      "Buzz Aldrin",
+      "Aleksiej Leonow"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1961 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Lądowanie na Księżycu miało miejsce w:",
+     "odpowiedzi": [
+      "1961 r.",
+      "1965 r.",
+      "1969 r.",
+      "1972 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Apollo 11.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Ruchem praw obywatelskich w USA kierował:",
+     "odpowiedzi": [
+      "Malcolm X",
+      "Martin Luther King",
+      "John F. Kennedy",
+      "Nelson Mandela"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Lata 50. i 60.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Sobór watykański II obradował w latach:",
+     "odpowiedzi": [
+      "1945–1948",
+      "1962–1965",
+      "1978–1981",
+      "1968–1970"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Odnowa Kościoła.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   },
   {
    "id": "h-przelom-tysiacleci",
    "nazwa": "Świat na przełomie tysiącleci",
    "opis": "Wymaganie LIV podstawy programowej.",
    "wymaganie": "LIV",
-   "fiszki": [],
-   "pytania": []
+   "fiszki": [
+    {
+     "id": "f001",
+     "przod": "Reformy Gorbaczowa",
+     "tyl": "Pierestrojka (przebudowa) i głasnost (jawność) od 1985 r.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIV"
+    },
+    {
+     "id": "f002",
+     "przod": "Jesień Ludów",
+     "tyl": "1989 r. — upadek komunizmu w Europie Środkowo-Wschodniej: Polska, Węgry, NRD (upadek muru), Czechosłowacja (aksamitna rewolucja), Bułgaria, Rumunia.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIV"
+    },
+    {
+     "id": "f003",
+     "przod": "Zjednoczenie Niemiec w 1990 r.",
+     "tyl": "3 X 1990 r. — NRD przyłączona do RFN po upadku muru berlińskiego.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIV"
+    },
+    {
+     "id": "f004",
+     "przod": "Rozpad ZSRS",
+     "tyl": "Pucz Janajewa (VIII 1991), układ białowieski, rozwiązanie ZSRS w XII 1991 r.; powstanie WNP.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIV"
+    },
+    {
+     "id": "f005",
+     "przod": "Rozpad Jugosławii",
+     "tyl": "Wojny w latach 90.: Chorwacja, Bośnia (Srebrenica 1995), Kosowo (1999).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIV"
+    },
+    {
+     "id": "f006",
+     "przod": "Zamach 11 września 2001 r.",
+     "tyl": "Atak Al-Kaidy na WTC i Pentagon; wojna z terroryzmem: Afganistan (2001), Irak (2003).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIV"
+    },
+    {
+     "id": "f007",
+     "przod": "Rozszerzenie NATO i UE",
+     "tyl": "NATO: Polska, Czechy, Węgry (1999), kolejne państwa (2004); UE: rozszerzenie o 10 państw (2004).",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIV"
+    },
+    {
+     "id": "f008",
+     "przod": "Wyjaśnij pojęcie: transformacja ustrojowa",
+     "tyl": "Przejście od komunizmu do demokracji i gospodarki rynkowej.",
+     "zrodlo": "Opracowanie IndexLab · Podstawa programowa 2024, historia (zakres rozszerzony), dz. LIV"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p01",
+     "pytanie": "Pierestrojkę zapoczątkował:",
+     "odpowiedzi": [
+      "Leonid Breżniew",
+      "Michaił Gorbaczow",
+      "Borys Jelcyn",
+      "Jurij Andropow"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Od 1985 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p02",
+     "pytanie": "Zjednoczenie Niemiec nastąpiło w:",
+     "odpowiedzi": [
+      "1989 r.",
+      "1990 r.",
+      "1991 r.",
+      "1992 r."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "3 X 1990 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03",
+     "pytanie": "Masakra w Srebrenicy miała miejsce w:",
+     "odpowiedzi": [
+      "Chorwacji (Krajina)",
+      "Bośni i Hercegowinie",
+      "Kosowie i Metohii",
+      "Serbii"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1995 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04",
+     "pytanie": "Rozwiązanie ZSRS nastąpiło w:",
+     "odpowiedzi": [
+      "1989 r.",
+      "1990 r.",
+      "1991 r.",
+      "1993 r."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Grudzień 1991 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   }
  ]
 }
