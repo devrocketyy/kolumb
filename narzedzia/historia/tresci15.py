@@ -5,7 +5,7 @@ T['h-zrodla'] = dict(F=[
  ('Wyjaśnij pojęcie: źródło kartograficzne', 'Mapa lub plan jako źródło historyczne.'),
  ('Wyjaśnij pojęcie: źródło statystyczne', 'Tabela lub wykres z danymi liczbowymi (np. spis ludności, produkcja).'),
  ('Wyjaśnij pojęcie: źródło propagandowe', 'Przekaz tworzony w celu wpłynięcia na poglądy odbiorców (plakat, ulotka, przemówienie).'),
- ('Wyjaśnij pojęcie: anachronizm w źródle', 'Element niepasujący do epoki — pozwala wykryć fałszerstwo lub datować źródło.'),
+ ('Anachronizm w źródle', 'Element niepasujący do epoki — pozwala wykryć fałszerstwo lub datować źródło.'),
  ('Wyjaśnij pojęcie: tendencyjność źródła', 'Jednostronne przedstawienie wydarzeń zgodne z interesem autora.'),
  ('Wyjaśnij pojęcie: fotomontaż', 'Zmanipulowane zdjęcie złożone z fragmentów — częste w propagandzie.'),
  ('Atrybut postaci w ikonografii', 'Przedmiot charakterystyczny dla postaci (np. korona, herb, mundur, symbol partii) — pomaga ją rozpoznać.'),
@@ -50,7 +50,7 @@ T['h-piastowie'] = dict(F=[
 ])
 
 T['h-polska-xiv-xv'] = dict(F=[
- ('Wyjaśnij pojęcie: Akademia Krakowska — odnowienie', '1400 r. — odnowiona dzięki zapisowi królowej Jadwigi.'),
+ ('Odnowienie Akademii Krakowskiej', '1400 r. — odnowiona dzięki zapisowi królowej Jadwigi.'),
  ('Wyjaśnij pojęcie: przywilej warcki', '1423 r. — możliwość usunięcia nieużytecznego sołtysa; wzmocnienie szlachty kosztem sołtysów.'),
  ('Wyjaśnij pojęcie: sejmik ziemski (XV w.)', 'Zgromadzenie szlachty ziemi — od przywilejów nieszawskich decydował o podatkach i pospolitym ruszeniu.'),
  ('Wyjaśnij pojęcie: Prusy Królewskie', 'Ziemie przyłączone do Polski w 1466 r. (Pomorze Gdańskie, ziemia chełmińska, Warmia).'),
@@ -72,8 +72,8 @@ T['h-polska-xiv-xv'] = dict(F=[
 T['h-ostatni-jagiellonowie'] = dict(F=[
  ('Wyjaśnij pojęcie: przywilej mielnicki', '1501 r. — próba wzmocnienia senatu (oligarchia magnacka); nie wszedł w życie.'),
  ('Wyjaśnij pojęcie: statut Łaskiego', '1506 r. — zbiór praw Korony.'),
- ('Wyjaśnij pojęcie: elekcja vivente rege Zygmunta Augusta', '1529 r. — wybór Zygmunta Augusta za życia ojca.'),
- ('Wyjaśnij pojęcie: wojna północna (1563–1570)', 'Wojna Danii i Polski przeciw Szwecji o handel bałtycki.'),
+ ('Elekcja vivente rege Zygmunta Augusta', '1529 r. — wybór Zygmunta Augusta za życia ojca.'),
+ ('Wojna północna 1563–1570', 'Wojna Danii i Polski przeciw Szwecji o handel bałtycki.'),
  ('Wyjaśnij pojęcie: Komisja Morska', 'Instytucja Zygmunta Augusta do budowy floty kaperskiej (1568).'),
  ('Konstanty Ostrogski', 'Hetman litewski, zwycięzca spod Orszy (1514).'),
  ('Królowa Bona — polityka', 'Reformy gospodarcze, skupowanie królewszczyzn, plan przyłączenia Mazowsza, popieranie ostrej polityki wobec Habsburgów.'),
@@ -116,7 +116,7 @@ T['h-rp-xviii'] = dict(F=[
 ])
 
 T['h-napoleon'] = dict(F=[
- ('Wyjaśnij pojęcie: Księstwo Warszawskie — ustrój', 'Monarchia konstytucyjna: książę (król saski), Rada Stanu, sejm dwuizbowy, równość wobec prawa.'),
+ ('Ustrój Księstwa Warszawskiego', 'Monarchia konstytucyjna: książę (król saski), Rada Stanu, sejm dwuizbowy, równość wobec prawa.'),
  ('Wyjaśnij pojęcie: sumy bajońskie', 'Długi Prus przejęte przez Napoleona i odsprzedane Księstwu — obciążenie finansowe (1808).'),
  ('Wyjaśnij pojęcie: Konfederacja Generalna Królestwa Polskiego', '1812 r. — ogłoszenie odrodzenia Polski przed wyprawą na Rosję.'),
  ('Dąbrowski w Wielkopolsce', '1806 r. — powstanie przeciw Prusom przed wkroczeniem Napoleona.'),
@@ -159,7 +159,7 @@ T['h-zabory-xix-xx'] = dict(F=[
  ('Feliks Dzierżyński', 'Działacz SDKPiL, później twórca Czeki.'),
  ('Ignacy Daszyński (przed 1914)', 'Przywódca PPSD w Galicji, poseł do parlamentu w Wiedniu.'),
  ('Wincenty Witos (przed 1914)', 'Działacz PSL „Piast” (1913), poseł do Sejmu Krajowego.'),
- ('Akcja „Bez Polaków nie ma Polski” / strajk szkolny 1905', 'Strajk szkolny w Królestwie — bojkot szkół rosyjskich.'),
+ ('Strajk szkolny 1905 r.', 'Strajk szkolny w Królestwie — bojkot szkół rosyjskich.'),
 ], Q=[
  ('Żydowską partią socjalistyczną był:', ['SDKPiL', '*Bund', 'Proletariat', 'Hakata'], '1897 r.'),
  ('Towarzystwo Gimnastyczne „Sokół” powstało we:', ['Krakowie', '*Lwowie', 'Poznaniu', 'Warszawie'], '1867 r.'),
@@ -231,7 +231,7 @@ T['h-przejecie-wladzy'] = dict(F=[
  ('Wyjaśnij pojęcie: Rząd Tymczasowy RP (1945)', 'Komunistyczny rząd utworzony 31 XII 1944 r. z PKWN.'),
  ('Wyjaśnij pojęcie: Sejm Ustawodawczy', 'Parlament wybrany w sfałszowanych wyborach 1947 r.'),
  ('Wyjaśnij pojęcie: Blok Demokratyczny', 'Koalicja komunistów i ich sojuszników w wyborach 1947 r.'),
- ('Wyjaśnij pojęcie: amnestia 1947', 'Ujawnienie się ok. 50 tys. członków podziemia — wielu potem represjonowanych.'),
+ ('Amnestia 1947 r.', 'Ujawnienie się ok. 50 tys. członków podziemia — wielu potem represjonowanych.'),
  ('Jakub Berman', 'Członek kierownictwa PPR/PZPR, nadzorował bezpiekę i propagandę.'),
  ('Józef Kuraś „Ogień”', 'Dowódca podziemia antykomunistycznego na Podhalu.'),
  ('Wilno i Lwów po wojnie', 'Przyłączone do ZSRS; ludność polską przesiedlono.'),
@@ -256,7 +256,7 @@ T['h-dekada-80'] = dict(F=[
 T['h-stalinizm'] = dict(F=[
  ('Wyjaśnij pojęcie: ZMP', 'ZMP — komunistyczna organizacja młodzieżowa okresu stalinizmu (1948–1957).'),
  ('Wyjaśnij pojęcie: proces generałów', '1951 r. — pokazowy proces oficerów przedwojennych.'),
- ('Wyjaśnij pojęcie: Departament X MBP', 'Komórka zwalczająca „wrogów” w partii.'),
+ ('Departament X MBP', 'Komórka zwalczająca „wrogów” w partii.'),
  ('Wyjaśnij pojęcie: Polski Październik', 'Przełom 1956 r. — powrót Gomułki i odwilż.'),
  ('Gen. Emil Fieldorf — los', 'Stracony w 1953 r. po sfingowanym procesie.'),
  ('Witold Pilecki — los', 'Stracony w 1948 r. w więzieniu mokotowskim.'),
