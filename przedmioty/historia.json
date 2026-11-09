@@ -68,7 +68,17 @@
    "plik": "historia/arkusze/2024-grudzien.json"
   }
  ],
- "bank": [],
+ "bank": [
+  {
+   "plik": "historia/bank/nowozytnosc.json"
+  },
+  {
+   "plik": "historia/bank/sredniowiecze.json"
+  },
+  {
+   "plik": "historia/bank/starozytnosc.json"
+  }
+ ],
  "aktualnosci": {
   "plik": "historia/chronologia.json"
  }

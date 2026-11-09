@@ -161,6 +161,21 @@ def build_unit(uid, nr, nazwa, t):
     return u
 
 
+ZASADY = {
+    1: '1 pkt – odpowiedź poprawna (przy rozstrzygnięciu — z uzasadnieniem odwołującym się do materiału).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.',
+    2: '2 pkt – odpowiedź pełna i poprawna.\n1 pkt – odpowiedź częściowo poprawna (np. jeden z dwóch elementów).\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.',
+    3: '3 pkt – odpowiedź pełna z interpretacją i kontekstem.\n2 pkt – brak jednego elementu.\n1 pkt – odpowiedź częściowa.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.',
+}
+
+
+def bank_zadanie(typ, pkt, polecenie, odpowiedz):
+    return {'typ': typ, 'punkty': pkt, 'polecenie': polecenie, 'odpowiedz': odpowiedz, 'zasady': ZASADY.get(pkt, '')}
+
+
+def bank_wiazka(tytul, material, *zadania, zrodlo='Zadanie autorskie IndexLab. Tekst autorski.'):
+    return {'tytul': tytul, 'material': material, 'zrodlo': zrodlo, 'zadania': list(zadania)}
+
+
 def main():
     T = load_tresci()
     os.makedirs(OUT, exist_ok=True)
@@ -181,6 +196,26 @@ def main():
         json.dump(chrono, o, ensure_ascii=False, indent=1)
         o.write('\n')
 
+    # bank zadań autorskich: pliki bank*.py definiują słownik BANK {id działu: [wiązki]}
+    bank = {}
+    for f in sorted(glob.glob(os.path.join(SRC, 'bank*.py'))):
+        for did, ws in runpy.run_path(f, init_globals={'B': bank_wiazka, 'T': bank_zadanie})['BANK'].items():
+            bank.setdefault(did, []).extend(ws)
+    os.makedirs(os.path.join(OUT, 'bank'), exist_ok=True)
+    nb = 0
+    for did, ws in bank.items():
+        assert did in {d[0] for d in DZIALY}, did
+        for i, w in enumerate(ws, 1):
+            w['id'] = f'h-{did}-{i:02d}'
+            w['dzial'] = did
+            for j, z in enumerate(w['zadania'], 1):
+                z['nr'] = str(j)
+            nb += len(w['zadania'])
+        with open(os.path.join(OUT, 'bank', did + '.json'), 'w') as o:
+            json.dump({'dzial': did, 'wiazki': ws}, o, ensure_ascii=False, indent=1)
+            o.write('\n')
+    print(f'bank zadań autorskich: {sum(len(v) for v in bank.values())} wiązek, {nb} zadań')
+
     arkusze = runpy.run_path(os.path.join(SRC, 'arkusze.py'))['ARKUSZE']
     os.makedirs(os.path.join(OUT, 'arkusze'), exist_ok=True)
     for a in arkusze:
@@ -194,7 +229,7 @@ def main():
         'opis': 'Matura rozszerzona z historii — wszystkie wymagania podstawy programowej 2024.',
         'dzialy': [{'id': d[0], 'plik': f'historia/{d[0]}.json'} for d in DZIALY],
         'arkusze': [{'id': a['id'], 'plik': f'historia/arkusze/{a["id"]}.json'} for a in arkusze],
-        'bank': [],
+        'bank': [{'plik': f'historia/bank/{d}.json'} for d in sorted(bank)],
         'aktualnosci': {'plik': 'historia/chronologia.json'},
     }
     with open(os.path.join(ROOT, 'przedmioty', 'historia.json'), 'w') as o:
