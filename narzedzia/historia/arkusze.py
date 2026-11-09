@@ -176,3 +176,10 @@ ARKUSZE = [{
       'Kryterium A (narracja) do 12 pkt, kryterium B (spójność) do 3 pkt; poniżej 300 słów — 0 pkt w kryterium B. Błędy merytoryczne obniżają punkty w kryterium A.')),
  ],
 }]
+
+
+# Kolejne arkusze w osobnych plikach arkusz_*.py (definiują słownik A, korzystają z W, Z i CKE).
+import glob as _glob, os as _os, runpy as _runpy
+for _f in sorted(_glob.glob(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'arkusz_*.py'))):
+    ARKUSZE.append(_runpy.run_path(_f, init_globals={'W': W, 'Z': Z, 'CKE': CKE})['A'])
+ARKUSZE.sort(key=lambda a: a['id'], reverse=True)
