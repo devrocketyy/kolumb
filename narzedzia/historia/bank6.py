@@ -1,0 +1,90 @@
+# Bank zadań autorskich — runda 3: wyrównanie działów (XX w., umiejętności).
+BANK = {}
+
+BANK['swiat-po-1945'] = [
+ B('Podział Niemiec', 'Tekst. Po wojnie Niemcy i Berlin podzielono na cztery strefy okupacyjne. W 1949 r. ze stref zachodnich powstało jedno państwo, a ze strefy sowieckiej — drugie. (tekst autorski)',
+   T('podaj', 2, 'Podaj nazwy obu państw niemieckich i ich skróty.', 'Republika Federalna Niemiec (RFN) i Niemiecka Republika Demokratyczna (NRD).'),
+   T('podaj', 1, 'Podaj nazwę konferencji, na której ustalono zasady okupacji Niemiec.', 'Konferencja poczdamska (1945) — także Jałta.')),
+ B('Wojna w Korei', 'Tekst. Wojska północy zaatakowały południe półwyspu. Rada Bezpieczeństwa, pod nieobecność przedstawiciela ZSRS, zdecydowała o wysłaniu wojsk ONZ. Po interwencji Chin front ustabilizował się wzdłuż 38. równoleżnika. (tekst autorski)',
+   T('podaj', 1, 'Podaj lata wojny.', '1950–1953.'),
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego Rada Bezpieczeństwa mogła podjąć decyzję o interwencji.', 'ZSRS bojkotował wtedy posiedzenia Rady i nie mógł użyć weta.'),
+   T('pf', 1, 'Oceń zdania: 1. Wojna zakończyła się traktatem pokojowym. 2. Korea do dziś jest podzielona.', '1 – F (rozejm), 2 – P.')),
+ B('Kryzys kubański', 'Tekst. Amerykańskie samoloty zwiadowcze wykryły na wyspie wyrzutnie rakiet zdolnych przenosić ładunki jądrowe. Prezydent ogłosił blokadę morską wyspy. Po kilkunastu dniach przywódca ZSRS zgodził się wycofać rakiety w zamian za obietnicę nieatakowania wyspy. (tekst autorski)',
+   T('podaj', 2, 'Podaj rok kryzysu oraz nazwiska prezydenta USA i przywódcy ZSRS.', '1962; John F. Kennedy; Nikita Chruszczow.'),
+   T('wyjasnij', 1, 'Wyjaśnij jeden skutek kryzysu dla stosunków USA–ZSRS.', 'Gorąca linia Waszyngton–Moskwa, układ o zakazie prób jądrowych (1963) — początek odprężenia.')),
+ B('Wojna w Wietnamie', 'Tekst. USA wysłały do Wietnamu ponad pół miliona żołnierzy. Wojna wywołała masowe protesty w Ameryce. W 1975 r. komuniści zajęli Sajgon. (tekst autorski)',
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego USA zaangażowały się w wojnę.', 'W ramach polityki powstrzymywania komunizmu („teoria domina”).'),
+   T('podaj', 1, 'Podaj nazwisko przywódcy komunistów wietnamskich.', 'Ho Chi Minh.')),
+ B('Interwencje w bloku wschodnim', 'Zestawienie (tekst autorski). A. Berlin Wschodni 1953. B. Węgry 1956. C. Czechosłowacja 1968. D. Polska 1981.',
+   T('przyporzadkuj', 2, 'Podaj, w których przypadkach A–D doszło do interwencji wojsk sowieckich lub Układu Warszawskiego, a w którym kryzys stłumiły siły krajowe.', 'Interwencje: A, B, C; siły krajowe: D (stan wojenny).'),
+   T('podaj', 1, 'Podaj nazwę reform w Czechosłowacji w 1968 r.', 'Praska wiosna.')),
+ B('Odprężenie', 'Tekst. W 1975 r. w Helsinkach przywódcy 35 państw podpisali akt końcowy konferencji. Uznano w nim nienaruszalność granic, a państwa zobowiązały się do przestrzegania praw człowieka. (tekst autorski)',
+   T('podaj', 1, 'Podaj nazwę konferencji.', 'Konferencja Bezpieczeństwa i Współpracy w Europie (KBWE).'),
+   T('wyjasnij', 1, 'Wyjaśnij, jak postanowienia o prawach człowieka wykorzystała opozycja w PRL.', 'Powoływała się na nie, domagając się wolności słowa i zgromadzeń (np. ROPCiO, KOR).')),
+ B('Przemiany cywilizacyjne', 'Zestawienie (tekst autorski). A. Pierwszy satelita. B. Pierwszy człowiek w kosmosie. C. Lądowanie na Księżycu. D. Udostępnienie sieci WWW.',
+   T('uporzadkuj', 1, 'Podaj lata wydarzeń A–D.', 'A — 1957; B — 1961; C — 1969; D — 1991.'),
+   T('wyjasnij', 1, 'Wyjaśnij związek wyścigu kosmicznego z zimną wojną.', 'Rywalizacja USA i ZSRS o prestiż i przewagę technologiczną (także militarną — rakiety).')),
+]
+
+BANK['polska-po-1945'] = [
+ B('Żołnierze wyklęci', 'Tekst. Po 1945 r. część żołnierzy podziemia nie złożyła broni i walczyła z nową władzą. Organizacja powstała z struktur AK prowadziła działalność zbrojną i propagandową. Wielu członków skazano na śmierć. (tekst autorski)',
+   T('podaj', 1, 'Podaj nazwę organizacji wymienionej w tekście.', 'Wolność i Niezawisłość (WiN).'),
+   T('podaj', 1, 'Podaj nazwisko jednej postaci podziemia antykomunistycznego straconej przez władze PRL.', 'Np. Witold Pilecki, Danuta Siedzikówna „Inka”, August Emil Fieldorf, Łukasz Ciepliński.')),
+ B('Marzec 1968', 'Tekst. Po zdjęciu ze sceny dramatu romantycznego studenci wyszli na ulice. Władze rozpętały kampanię „antysyjonistyczną”, w wyniku której tysiące obywateli pochodzenia żydowskiego zmuszono do emigracji. (tekst autorski)',
+   T('podaj', 1, 'Podaj tytuł dramatu.', '„Dziady” Mickiewicza.'),
+   T('wyjasnij', 1, 'Wyjaśnij cel kampanii „antysyjonistycznej”.', 'Odwrócenie uwagi od protestów, walka frakcji w PZPR, usunięcie części elit.')),
+ B('Grudzień 1970', 'Tekst. Po ogłoszeniu podwyżek cen żywności tuż przed świętami robotnicy stoczni podpalili budynek komitetu partii. Do protestujących strzelało wojsko i milicja. (tekst autorski)',
+   T('podaj', 2, 'Podaj nazwy dwóch miast, w których doszło do protestów, i nazwisko przywódcy, który objął władzę po wydarzeniach.', 'Gdańsk, Gdynia, Szczecin, Elbląg; Edward Gierek.'),
+   T('pf', 1, 'Oceń zdania: 1. Protesty wybuchły po podwyżkach cen. 2. Po wydarzeniach Gomułka pozostał I sekretarzem.', '1 – P, 2 – F.')),
+ B('Dekada Gierka', 'Dane (tekst autorski). Zadłużenie zagraniczne PRL: 1970 — ok. 1 mld dolarów; 1980 — ok. 24 mld dolarów.',
+   T('wyjasnij', 1, 'Wyjaśnij przyczynę wzrostu zadłużenia.', 'Gierek finansował inwestycje i konsumpcję kredytami zagranicznymi.'),
+   T('wyjasnij', 1, 'Wyjaśnij skutek zadłużenia dla gospodarki PRL pod koniec lat 70.', 'Kryzys: braki towarów, podwyżki cen, protesty (1976, 1980).')),
+ B('21 postulatów', 'Tekst (wybór, tekst autorski). 1. Akceptacja niezależnych od partii wolnych związków zawodowych. 2. Prawo do strajku. 3. Przestrzeganie wolności słowa. 4. Przywrócenie do pracy zwolnionych za strajki.',
+   T('podaj', 2, 'Podaj nazwę porozumienia, datę jego podpisania w Gdańsku i nazwę organizacji, która powstała w jego wyniku.', 'Porozumienia sierpniowe, 31 VIII 1980; NSZZ „Solidarność”.'),
+   T('podaj', 1, 'Podaj nazwisko przewodniczącego „Solidarności”.', 'Lech Wałęsa.')),
+ B('Okrągły Stół', 'Zestawienie (tekst autorski). A. Strajki 1988. B. Rozmowy w Magdalence. C. Okrągły Stół. D. Wybory 4 czerwca. E. Rząd Mazowieckiego.',
+   T('uporzadkuj', 1, 'Uporządkuj wydarzenia chronologicznie — podaj, które z nich miały miejsce w 1989 r.', 'W 1989 r.: C, D, E (B — przełom 1988/1989; A — 1988).'),
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego władze zgodziły się na rozmowy z opozycją.', 'Kryzys gospodarczy, fale strajków, zmiany w ZSRS (Gorbaczow) — potrzeba społecznego poparcia dla reform.')),
+ B('Polska w NATO i UE', 'Tekst. W 1999 r. Polska wraz z dwoma sąsiadami weszła do sojuszu północnoatlantyckiego. W 2003 r. obywatele w referendum zgodzili się na członkostwo w Unii Europejskiej, a rok później Polska wstąpiła do niej wraz z dziewięcioma innymi państwami. (tekst autorski)',
+   T('podaj', 1, 'Podaj nazwy dwóch państw, które weszły do NATO razem z Polską.', 'Czechy i Węgry.'),
+   T('podaj', 1, 'Podaj datę wstąpienia Polski do UE.', '1 V 2004.')),
+]
+
+BANK['ii-wojna'] = [
+ B('Polska pod okupacją niemiecką', 'Tekst. Ziemie zachodnie włączono do Rzeszy, wysiedlając Polaków i zmuszając część do wpisu na listę narodową. Z reszty utworzono jednostkę z siedzibą w Krakowie, gdzie zamknięto szkoły średnie i uczelnie. (tekst autorski)',
+   T('podaj', 2, 'Podaj nazwy: jednostki utworzonej z reszty ziem i listy narodowej.', 'Generalne Gubernatorstwo; Volkslista.'),
+   T('podaj', 1, 'Podaj nazwisko generalnego gubernatora.', 'Hans Frank.')),
+ B('Polska pod okupacją sowiecką', 'Tekst. Ziemie wschodnie wcielono do republik sowieckich. Mieszkańcom narzucono obywatelstwo ZSRS, przeprowadzono cztery masowe deportacje w głąb Związku Sowieckiego, aresztowano tysiące osób. (tekst autorski)',
+   T('podaj', 1, 'Podaj lata deportacji.', '1940–1941.'),
+   T('porownaj', 2, 'Porównaj politykę obu okupantów wobec ludności polskiej — jedno podobieństwo i jedna różnica.', 'Podobieństwo: terror, wysiedlenia i deportacje, niszczenie elit. Różnica: Niemcy — kryterium rasowe i germanizacja; ZSRS — kryterium klasowe i sowietyzacja.')),
+ B('Rzeź wołyńska', 'Tekst. W 1943 r. oddziały ukraińskich nacjonalistów dokonały masowych mordów na polskich mieszkańcach Wołynia, a następnie Małopolski Wschodniej. Zginęło około 100 tysięcy Polaków. (tekst autorski)',
+   T('podaj', 1, 'Podaj nazwę organizacji odpowiedzialnej za zbrodnię.', 'OUN-UPA.'),
+   T('wyjasnij', 1, 'Wyjaśnij cel sprawców.', 'Usunięcie ludności polskiej z ziem uznawanych za ukraińskie, by utworzyć jednolite narodowo państwo.')),
+ B('Sprawiedliwi', 'Zestawienie (tekst autorski). A. Organizowała wyprowadzanie dzieci z getta warszawskiego. B. Rodzina zamordowana w 1944 r. w Markowej za ukrywanie Żydów. C. Dyrektorzy warszawskiego zoo ukrywający Żydów.',
+   T('przyporzadkuj', 2, 'Podaj nazwiska osób A–C.', 'A — Irena Sendlerowa; B — Ulmowie; C — Antonina i Jan Żabińscy.'),
+   T('podaj', 1, 'Podaj nazwę tytułu nadawanego przez Jad Waszem osobom ratującym Żydów.', 'Sprawiedliwy wśród Narodów Świata.')),
+]
+
+BANK['umiejetnosci'] = [
+ B('Wypowiedź — plan 1', 'Temat: „Rewolucja przemysłowa przyniosła więcej korzyści niż strat”. Aspekty: społeczny, gospodarczy, kulturowy.',
+   T('wypracowanie', 3, 'Przygotuj plan wypowiedzi: stanowisko i po jednym argumencie (z przykładem) do każdego aspektu.', 'Stanowisko np. „więcej korzyści w dłuższej perspektywie”. Społeczny: urbanizacja, ale bieda i praca dzieci (kwestia robotnicza). Gospodarczy: wzrost produkcji, kolej, maszyna parowa. Kulturowy: prasa i oświata masowa, nowe ideologie (socjalizm), kultura masowa.')),
+ B('Wypowiedź — plan 2', 'Temat: „Konstytucja 3 maja była dziełem spóźnionym”. Aspekty: polityczny, ustrojowy, międzynarodowy.',
+   T('wypracowanie', 3, 'Przygotuj plan wypowiedzi z trzema argumentami.', 'Polityczny: reformy dopiero po I rozbiorze, sprzeciw magnaterii (Targowica). Ustrojowy: zniesienie liberum veto i wolnej elekcji — dobre, ale za późno. Międzynarodowy: sprzyjająca chwila (wojna Rosji z Turcją) szybko minęła; wojna 1792 i II rozbiór.')),
+ B('Wypowiedź — plan 3', 'Temat: „Rok 1989 był przełomowy dla Europy Środkowo-Wschodniej”. Przykłady trzech państw.',
+   T('wypracowanie', 3, 'Przygotuj plan wypowiedzi z przykładami z trzech państw.', 'Polska: Okrągły Stół, wybory 4 VI, rząd Mazowieckiego. NRD: upadek muru (9 XI), zjednoczenie 1990. Czechosłowacja: aksamitna rewolucja, Havel prezydentem. Wniosek: koniec dominacji ZSRS i początek transformacji.')),
+ B('Analiza danych', 'Dane (tekst autorski). Ludność ziem polskich: 1800 — ok. 9 mln; 1850 — ok. 13 mln; 1900 — ok. 25 mln.',
+   T('wyjasnij', 1, 'Sformułuj wniosek na podstawie danych.', 'W XIX w. liczba ludności ziem polskich szybko rosła — niemal się potroiła.'),
+   T('wyjasnij', 1, 'Wyjaśnij jedną przyczynę zjawiska widocznego w danych.', 'Postęp w medycynie i higienie (spadek śmiertelności), rozwój rolnictwa i przemysłu.')),
+]
+
+BANK['xviii-wiek'] = [
+ B('Oświecenie w Polsce', 'Tekst. Pijar założył w Warszawie szkołę dla synów magnackich, a później napisał dzieło krytykujące zrywanie sejmów. Król organizował spotkania pisarzy i uczonych. (tekst autorski)',
+   T('podaj', 2, 'Podaj nazwisko pijara, nazwę szkoły i nazwę spotkań organizowanych przez króla.', 'Stanisław Konarski; Collegium Nobilium; obiady czwartkowe.'),
+   T('wyjasnij', 1, 'Wyjaśnij, czym różniło się oświecenie polskie od francuskiego.', 'Koncentrowało się na reformie państwa i było mniej antyreligijne.')),
+ B('Wojna 1792 i II rozbiór', 'Chronologia (tekst autorski). A. Zawiązanie konfederacji targowickiej. B. Bitwa pod Zieleńcami. C. Przystąpienie króla do Targowicy. D. Sejm w Grodnie.',
+   T('uporzadkuj', 1, 'Uporządkuj wydarzenia A–D chronologicznie.', 'A → B → C → D (1792–1793).'),
+   T('podaj', 1, 'Podaj nazwę orderu ustanowionego po bitwie B.', 'Virtuti Militari.')),
+ B('Napoleon', 'Zestawienie (tekst autorski). A. Kodeks cywilny. B. Blokada kontynentalna. C. Konkordat z papieżem. D. Związek Reński.',
+   T('przyporzadkuj', 2, 'Wskaż, które z A–D dotyczyły polityki wewnętrznej Francji, a które zagranicznej.', 'Wewnętrznej: A, C; zagranicznej: B, D.'),
+   T('wyjasnij', 1, 'Wyjaśnij cel blokady kontynentalnej.', 'Zniszczenie gospodarki Wielkiej Brytanii przez zakaz handlu z nią na kontynencie.')),
+]
