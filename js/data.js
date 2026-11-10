@@ -128,12 +128,16 @@ function normalizeBank(b) {
   }));
 }
 
+// Brak jednego pliku (np. arkusza) nie może wyłączyć całego przedmiotu — pomijamy go i zgłaszamy.
+let bledyPlikow = [];
+const resolveSafe = (item) => resolve(item).catch((e) => { bledyPlikow.push(e.message); return null; });
+
 async function normalizeSubject(raw, file) {
   const id = String(raw.id || file.replace(/\.json$/, ''));
-  const dzialyRaw = await Promise.all((raw.dzialy || []).map(resolve));
-  const arkuszeRaw = await Promise.all((raw.arkusze || []).map(resolve));
-  const bankRaw = await Promise.all((raw.bank || []).map(resolve));
-  const akt = raw.aktualnosci ? await resolve(raw.aktualnosci) : null;
+  const dzialyRaw = (await Promise.all((raw.dzialy || []).map(resolveSafe))).filter(Boolean);
+  const arkuszeRaw = (await Promise.all((raw.arkusze || []).map(resolveSafe))).filter(Boolean);
+  const bankRaw = await Promise.all((raw.bank || []).map(resolveSafe));
+  const akt = raw.aktualnosci ? await resolveSafe(raw.aktualnosci) : null;
   const aktualnosci = akt && !akt.zablokowany ? akt : null;
   const dzialy = dzialyRaw.map(normalizeDzial);
   const units = new Map();
@@ -158,6 +162,7 @@ async function normalizeSubject(raw, file) {
 
 // zrodlo (opcjonalnie): Map plik → dane, np. treści z bazy; brak pliku w mapie = brak dostępu.
 export async function loadSubjects(zrodlo) {
+  bledyPlikow = [];
   if (zrodlo) pobierz = async (plik) => (zrodlo.has(plik) ? zrodlo.get(plik) : null);
   const idx = await pobierz('index.json');
   if (!idx) throw new Error('Brak spisu przedmiotów.');
@@ -170,7 +175,8 @@ export async function loadSubjects(zrodlo) {
     })
   );
   const subjects = [];
-  const errors = [];
+  const errors = bledyPlikow;
+  bledyPlikow = [];
   results.forEach((r, i) => {
     if (r.status === 'fulfilled') subjects.push(r.value);
     else errors.push(`${files[i]}: ${r.reason?.message || r.reason}`);
