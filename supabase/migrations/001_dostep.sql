@@ -110,3 +110,17 @@ $$;
 
 revoke all on function public.wykorzystaj_kod(text) from public, anon;
 grant execute on function public.wykorzystaj_kod(text) to authenticated;
+
+-- Zgłoszenia błędów z aplikacji (przycisk „Zgłoś błąd”). Każdy może dodać zgłoszenie, nikt nie może ich czytać
+-- z aplikacji — przeglądasz je w panelu Supabase (Table Editor → zgloszenia).
+create table if not exists public.zgloszenia (
+  id bigint generated always as identity primary key,
+  temat text not null check (length(temat) <= 300),
+  rodzaj text check (length(rodzaj) <= 60),
+  opis text check (length(opis) <= 8000),
+  user_id uuid default auth.uid(),
+  created_at timestamptz not null default now()
+);
+alter table public.zgloszenia enable row level security;
+drop policy if exists "dodawanie zgłoszeń" on public.zgloszenia;
+create policy "dodawanie zgłoszeń" on public.zgloszenia for insert to anon, authenticated with check (true);

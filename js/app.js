@@ -148,7 +148,68 @@ function reportTaskHref(s, a, z) {
   ]);
 }
 
-const reportBtn = (href) => `<a class="btn-report" href="${esc(href)}">${ICONS.flag}<span>Zgłoś błąd</span></a>`;
+// Przycisk otwiera okienko w aplikacji (link mailto: wyrzucał z aplikacji zainstalowanej na telefonie).
+const reportBtn = (href) => `<button type="button" class="btn-report" data-report="${esc(href)}">${ICONS.flag}<span>Zgłoś błąd</span></button>`;
+
+const REPORT_KINDS = ['Błąd merytoryczny', 'Literówka', 'Zła odpowiedź w kluczu', 'Niejasne polecenie', 'Coś nie działa'];
+function openReport(href) {
+  const u = new URL(href);
+  const subject = u.searchParams.get('subject') || '[IndexLab] Zgłoszenie';
+  const ctx = (u.searchParams.get('body') || '').replace(/\n*Na czym polega błąd:\s*$/, '').replace(/^Dzień dobry,\n\n/, '');
+  document.querySelector('.report-layer')?.remove();
+  const layer = document.createElement('div');
+  layer.className = 'report-layer';
+  layer.innerHTML = `<div class="report-box" role="dialog" aria-modal="true" aria-labelledby="rep-title">
+    <div class="report-top"><h2 id="rep-title">Zgłoś błąd</h2><button type="button" class="icon-btn" data-rep="close" aria-label="Zamknij">${ICONS.close}</button></div>
+    <div class="rep-kinds">${REPORT_KINDS.map((k, i) => `<button type="button" class="rep-kind ${i ? '' : 'active'}" data-kind="${esc(k)}">${esc(k)}</button>`).join('')}</div>
+    <textarea class="type-input rep-text" rows="4" maxlength="2000" placeholder="Co jest nie tak? (opcjonalnie)" aria-label="Opis błędu"></textarea>
+    <div class="rep-actions">
+      <button type="button" class="btn btn-primary btn-lg" data-rep="send">${cloud.enabled() ? 'Wyślij zgłoszenie' : 'Wyślij e-mailem'}</button>
+      <button type="button" class="btn btn-ghost btn-lg" data-rep="copy">Skopiuj zgłoszenie</button>
+    </div>
+    <p class="muted small">Zgłoszenie zawiera treść fiszki lub zadania, więc szybko znajdziemy błąd.</p>
+  </div>`;
+  document.body.appendChild(layer);
+  let kind = REPORT_KINDS[0];
+  const text = () => `${kind}\n\n${layer.querySelector('.rep-text').value.trim() || '(bez opisu)'}\n\n---\n${ctx}`;
+  const close = () => { layer.remove(); keyHandler = prevKey; };
+  const prevKey = keyHandler;
+  keyHandler = (e) => { if (e.key === 'Escape') close(); };
+  layer.addEventListener('click', async (e) => {
+    if (e.target === layer) return close();
+    const k = e.target.closest('[data-kind]');
+    if (k) { kind = k.dataset.kind; layer.querySelectorAll('.rep-kind').forEach((b) => b.classList.toggle('active', b === k)); return; }
+    const act = e.target.closest('[data-rep]')?.dataset.rep;
+    if (act === 'close') close();
+    if (act === 'copy') {
+      try { await navigator.clipboard.writeText(`${subject}\n\n${text()}`); toast(`Skopiowano — wklej w wiadomości na ${REPORT_EMAIL}.`); }
+      catch { layer.querySelector('.rep-text').value = `${subject}\n\n${text()}`; layer.querySelector('.rep-text').select(); toast('Zaznaczono tekst — skopiuj go ręcznie.'); }
+    }
+    if (act === 'send') {
+      if (cloud.enabled()) {
+        try {
+          await cloud.api('/rest/v1/zgloszenia', { method: 'POST', token: await cloud.tokenOrNull(), headers: { Prefer: 'return=minimal' }, body: { temat: subject, rodzaj: kind, opis: text() } });
+          close(); toast('Dziękujemy! Zgłoszenie wysłane.'); game.sound('ok');
+        } catch (err) { toast(err.message); }
+        return;
+      }
+      // nowa karta/aplikacja pocztowa — IndexLab zostaje otwarty
+      const a = document.createElement('a');
+      a.href = `mailto:${REPORT_EMAIL}?subject=${enc(subject)}&body=${enc(text())}`;
+      a.target = '_blank'; a.rel = 'noopener';
+      document.body.appendChild(a); a.click(); a.remove();
+      close(); toast('Otwieram pocztę… Jeśli się nie otworzyła, użyj „Skopiuj zgłoszenie”.');
+    }
+  });
+  layer.querySelector('.rep-text').focus({ preventScroll: true });
+}
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-report]');
+  if (!b) return;
+  e.preventDefault();
+  e.stopPropagation();
+  openReport(b.dataset.report);
+}, true);
 const sourceTag = (z) => (z ? `<span class="source">Źródło: ${esc(z)}</span>` : '');
 
 // ---------- elementy wspólne ----------
@@ -2550,6 +2611,7 @@ function route() {
   const changed = hash !== lastHash;
   lastHash = hash;
   keyHandler = null;
+  document.querySelector('.report-layer')?.remove();
   document.body.classList.remove('in-session', 'in-lesson', 'in-gate');
   if (!hash.startsWith('#/lekcja/') && !hash.startsWith('#/bledy/')) lesson = null;
   if (!hash.startsWith('#/fiszki/')) session = null;
@@ -2587,6 +2649,7 @@ window.addEventListener('hashchange', route);
 document.addEventListener('keydown', (e) => {
   if (e.metaKey || e.ctrlKey || e.altKey) return;
   if (e.target.closest('input, textarea, select')) return;
+  if (document.querySelector('.report-layer')) { keyHandler?.(e); return; }
   if (e.key === 'Escape' && document.body.classList.contains('in-session')) {
     app.querySelector('.session-top .icon-btn')?.click();
     return;
