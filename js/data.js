@@ -14,10 +14,16 @@ async function fetchJSON(url) {
   return res.json();
 }
 
+// Źródło plików: domyślnie katalog przedmioty/, w trybie premium — treści z bazy (null = brak dostępu).
+let pobierz = (plik) => fetchJSON(`przedmioty/${plik}`);
+
 async function resolve(item) {
   if (!item || !item.plik) return item;
-  const ext = await fetchJSON(`przedmioty/${item.plik}`);
-  return { ...ext, ...item, plik: item.plik };
+  const { zarys, ...ref } = item;
+  const ext = await pobierz(item.plik);
+  // treść premium bez dostępu: zostaje sam zarys (nazwy działów i tematów), oznaczony jako zablokowany
+  if (ext == null) return { ...(zarys || {}), ...ref, zablokowany: true };
+  return { ...ext, ...ref, plik: item.plik };
 }
 
 function normalizeQuestion(q, i) {
@@ -33,10 +39,11 @@ function normalizeQuestion(q, i) {
   };
 }
 
-function normalizeUnit(u, i, dzialId) {
+function normalizeUnit(u, i, dzialId, zablokowany) {
   return {
     id: String(u.id || `${dzialId}-${i + 1}`),
     dzialId,
+    zablokowany: !!zablokowany,
     nazwa: u.nazwa || `Część ${i + 1}`,
     opis: u.opis || '',
     fiszki: (u.fiszki || []).map((f, j) => ({
@@ -58,7 +65,8 @@ function normalizeDzial(d, i) {
     id,
     nazwa: d.nazwa || `Dział ${i + 1}`,
     opis: d.opis || '',
-    poddzialy: raw.map((u, j) => normalizeUnit(u, j, id)),
+    zablokowany: !!d.zablokowany,
+    poddzialy: raw.map((u, j) => normalizeUnit(u, j, id, d.zablokowany)),
   };
 }
 
@@ -91,6 +99,7 @@ function normalizeArkusz(a, i) {
     zrodlo: a.zrodlo || '',
     link: a.link || '',
     linkZasady: a.linkZasady || '',
+    zablokowany: !!a.zablokowany,
     wiazki,
     zadania,
     punkty: zadania.reduce((n, z) => n + z.punkty, 0),
@@ -124,7 +133,8 @@ async function normalizeSubject(raw, file) {
   const dzialyRaw = await Promise.all((raw.dzialy || []).map(resolve));
   const arkuszeRaw = await Promise.all((raw.arkusze || []).map(resolve));
   const bankRaw = await Promise.all((raw.bank || []).map(resolve));
-  const aktualnosci = raw.aktualnosci ? await resolve(raw.aktualnosci) : null;
+  const akt = raw.aktualnosci ? await resolve(raw.aktualnosci) : null;
+  const aktualnosci = akt && !akt.zablokowany ? akt : null;
   const dzialy = dzialyRaw.map(normalizeDzial);
   const units = new Map();
   dzialy.forEach((d) => d.poddzialy.forEach((u) => units.set(u.id, u)));
@@ -146,11 +156,18 @@ async function normalizeSubject(raw, file) {
   };
 }
 
-export async function loadSubjects() {
-  const idx = await fetchJSON('przedmioty/index.json');
+// zrodlo (opcjonalnie): Map plik → dane, np. treści z bazy; brak pliku w mapie = brak dostępu.
+export async function loadSubjects(zrodlo) {
+  if (zrodlo) pobierz = async (plik) => (zrodlo.has(plik) ? zrodlo.get(plik) : null);
+  const idx = await pobierz('index.json');
+  if (!idx) throw new Error('Brak spisu przedmiotów.');
   const files = Array.isArray(idx) ? idx : idx.przedmioty || [];
   const results = await Promise.allSettled(
-    files.map(async (f) => normalizeSubject(await fetchJSON(`przedmioty/${f}`), f))
+    files.map(async (f) => {
+      const raw = await pobierz(f);
+      if (!raw) throw new Error('brak dostępu');
+      return normalizeSubject(raw, f);
+    })
   );
   const subjects = [];
   const errors = [];

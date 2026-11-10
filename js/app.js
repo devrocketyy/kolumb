@@ -3,6 +3,7 @@ import * as store from './store.js';
 import { loadSubjects } from './data.js';
 import * as game from './game.js';
 import * as cloud from './cloud.js';
+import * as dostep from './dostep.js';
 import { cardKey, nextState, intervalLabel, summary, buildQueue, newAllowance, MASTERED_BOX, setAutoRate, tempoAuto, newPerDay } from './srs.js';
 
 const REPORT_EMAIL = 'roc7et@gmail.com';
@@ -89,6 +90,7 @@ const ICONS = {
   trophy: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10v5a5 5 0 0 1-10 0zM7 5H3.5a3.5 3.5 0 0 0 3.6 4M17 5h3.5a3.5 3.5 0 0 1-3.6 4M12 13v4M8 21h8M9 17h6v4H9z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>',
   target: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="12" cy="12" r="1.6" fill="currentColor"/></svg>',
   play: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>',
+  lock: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M8 11V8a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>',
   clock: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>',
   search: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
   redo: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
@@ -225,6 +227,10 @@ function pathHtml(s, rec) {
     const open = rec ? rec.d === d : di === 0;
     const doneN = d.poddzialy.filter((u) => summary(s.id, [u], allowance).progress >= 0.8).length;
     const stops = d.poddzialy.map((u, ui) => {
+      if (u.zablokowany) { // treść premium bez aktywnego dostępu
+        return `<li class="stop locked"><span class="stop-dot" aria-hidden="true"><i>${ICONS.lock}</i></span>
+          <div class="stop-main"><a class="stop-body" href="#/plany"><span class="stop-name">${esc(u.nazwa)}</span><span class="stop-meta">Premium — odblokuj pełny kurs</span></a></div></li>`;
+      }
       if (!u.fiszki.length && !u.pytania.length) { // temat bez treści (kurs w budowie)
         return `<li class="stop soon"><span class="stop-dot" aria-hidden="true"><i>${ui + 1}</i></span>
           <div class="stop-main"><div class="stop-body" aria-disabled="true"><span class="stop-name">${esc(u.nazwa)}</span><span class="stop-meta">wkrótce</span></div></div></li>`;
@@ -248,7 +254,7 @@ function pathHtml(s, rec) {
     return `<details class="leg" ${open ? 'open' : ''}>
       <summary class="leg-head">
         <span class="leg-num">${di + 1}</span>
-        <span class="leg-text"><strong>${esc(d.nazwa)}</strong><small>${doneN}/${d.poddzialy.length} opanowanych · ${pct(smD.progress)}%</small>${progressBar(smD.progress, d.nazwa)}</span>
+        <span class="leg-text"><strong>${esc(d.nazwa)}</strong><small>${d.zablokowany ? `${ICONS.lock} Premium · ${d.poddzialy.length} ${plural(d.poddzialy.length, 'temat', 'tematy', 'tematów')}` : `${doneN}/${d.poddzialy.length} opanowanych · ${pct(smD.progress)}%`}</small>${d.zablokowany ? '' : progressBar(smD.progress, d.nazwa)}</span>
         <span class="leg-chev" aria-hidden="true">${ICONS.next}</span>
       </summary>
       <ol class="stops">${stops}</ol>
@@ -481,6 +487,7 @@ function viewHome() {
     ${rebrandNote()}
     ${s ? coreCard(s) : ''}
     ${s ? planCard(s) : ''}
+    ${premiumCard()}
     ${s ? goalCard(s, rec, todo) : ''}
     ${showInstall ? `<div class="install-banner">
         <div><strong>Zainstaluj IndexLab</strong><span>Ikona na ekranie głównym i nauka bez internetu.</span></div>
@@ -1358,6 +1365,13 @@ function taskScore(sid, list) {
 const MATURA_TABS = [['proba', 'Próbna'], ['cke', 'Arkusze CKE'], ['dzialy', 'Działy'], ['autorskie', 'Autorskie']];
 const scoreTag = (sc) => (sc.done ? `<span class="score ${sc.pkt / sc.max >= .7 ? 'ok' : sc.pkt / sc.max >= .5 ? 'warn' : 'bad'}">${pct(sc.pkt / sc.max)}%</span>` : '');
 
+function lockedRow(name) {
+  return `<a class="dzial-row locked-row" href="#/plany">
+    <div class="dzial-row-top"><span class="dzial-name">${esc(name)}</span><span class="badge">${ICONS.lock}</span></div>
+    <div class="dzial-meta"><span>Premium — odblokuj wszystkie arkusze z omówieniem</span></div>
+  </a>`;
+}
+
 function taskRow(href, name, sc, right = '') {
   return `<a class="dzial-row" href="${href}">
     <div class="dzial-row-top"><span class="dzial-name">${esc(name)}</span>${scoreTag(sc)}</div>
@@ -1374,7 +1388,7 @@ function viewMatura(tab) {
   if (tab === 'proba') {
     body = examSection(s);
   } else if (tab === 'cke') {
-    body = `<div class="dzial-list">${s.arkusze.map((a) => taskRow(`#/zadania/${enc(s.id)}/a/${enc(a.id)}`, a.nazwa, taskScore(s.id, a.zadania), `<span>${a.punkty} pkt</span>`)).join('')}</div>`
+    body = `<div class="dzial-list">${s.arkusze.map((a) => a.zablokowany ? lockedRow(a.nazwa) : taskRow(`#/zadania/${enc(s.id)}/a/${enc(a.id)}`, a.nazwa, taskScore(s.id, a.zadania), `<span>${a.punkty} pkt</span>`)).join('')}</div>`
       || '<p class="muted">Brak arkuszy CKE.</p>';
   } else if (tab === 'dzialy') {
     body = `<p class="muted small">Zadania z arkuszy CKE i zadania autorskie z jednego działu.</p>
@@ -1413,6 +1427,7 @@ function viewZadania(sid, type, id) {
     if (type === 'a') {
       const a = s.arkusze.find((x) => x.id === id);
       if (!a) return notFound();
+      if (a.zablokowany) { location.hash = '#/plany'; return; }
       list = a.zadania;
       title = a.nazwa;
     } else if (type === 'b') {
@@ -1943,6 +1958,7 @@ function afterProfileChange() {
   session = test = zs = lesson = null;
   applyTheme();
   updateTopStats();
+  if (dostep.wlaczone()) zaladujTresci().then(route).catch((e) => toast(e.message)); // inne konto = inny dostęp
 }
 
 // Ekran logowania: wybór profilu na urządzeniu albo logowanie e-mailem (gdy konta są włączone).
@@ -2045,11 +2061,11 @@ function profileHeadHtml() {
   </section>`;
 }
 
-function connectHtml() {
+function connectHtml(open, intro) {
   if (!cloud.enabled() || cloud.account()) return '';
-  return `<details class="card connect"><summary class="card-title">Zapisuj postępy na koncie</summary>
+  return `<details class="card connect" ${open ? 'open' : ''}><summary class="card-title">${open ? 'Zaloguj się albo załóż konto' : 'Zapisuj postępy na koncie'}</summary>
     <form class="gate-form" id="acc-form" novalidate>
-      <p class="muted small">Zaloguj się, aby mieć te same postępy na każdym urządzeniu.</p>
+      <p class="muted small">${intro || 'Zaloguj się, aby mieć te same postępy na każdym urządzeniu.'}</p>
       <input class="type-input" name="email" type="email" autocomplete="email" placeholder="E-mail" aria-label="E-mail">
       <input class="type-input" name="pass" type="password" autocomplete="current-password" placeholder="Hasło (min. 6 znaków)" aria-label="Hasło">
       <button type="submit" class="btn btn-primary btn-lg" data-mode="in">Zaloguj się</button>
@@ -2062,6 +2078,10 @@ function bindProfil() {
     store.logout();
     location.hash = '#/konto';
   });
+  bindConnect(viewStats);
+}
+
+function bindConnect(after) {
   const form = app.querySelector('#acc-form');
   if (form) {
     let mode = 'in';
@@ -2076,7 +2096,7 @@ function bindProfil() {
         if (mode === 'up') { const r = await cloud.signUp(email, pass); if (r.confirm) toast('Kliknij link w wiadomości e-mail, a potem zaloguj się.'); }
         else await cloud.signIn(email, pass);
         afterProfileChange();
-        viewStats();
+        after();
         if (cloud.account()) toast('Połączono z kontem.');
       } catch (err) {
         toast(err.message);
@@ -2126,6 +2146,7 @@ function viewStats() {
   const wfmt = new Intl.DateTimeFormat('pl-PL', { weekday: 'short' });
   app.innerHTML = `
     ${profileHeadHtml()}
+    ${premiumCard()}
     <section class="card">
       <h2 class="card-title">Aktywność w tym tygodniu</h2>
       <div class="week" role="list">${week.map((w) => `<div class="week-day ${w.xp >= game.goal() ? 'hit' : ''}" role="listitem" aria-label="${wfmt.format(w.t)}: ${w.xp} odpowiedzi">
@@ -2175,6 +2196,92 @@ function viewStats() {
   app.querySelector('[data-act="sync"]')?.addEventListener('click', async () => {
     try { await cloud.sync(); afterProfileChange(); toast('Zsynchronizowano z kontem.'); } catch (err) { toast(err.message); }
   });
+}
+
+// ---------- płatny dostęp: plany, zakup, kody ----------
+const maZablokowane = () => subjects.some((s) => s.dzialy.some((d) => d.zablokowany) || s.arkusze.some((a) => a.zablokowany));
+
+function premiumCard() {
+  if (!dostep.wlaczone()) return '';
+  if (dostep.aktywny()) {
+    const st = dostep.biezacy();
+    return `<a class="card plan-card" href="#/plany"><span class="quest-icon">${ICONS.check}</span>
+      <span class="plan-text"><strong>IndexLab Premium</strong><small>Aktywny do ${fmtDay(new Date(st.wazne_do).getTime())}${st.plan === 'miesiac' && st.status === 'active' ? ' · odnawia się automatycznie' : ''}</small></span>${ICONS.next}</a>`;
+  }
+  return maZablokowane() ? `<a class="card plan-card premium-cta" href="#/plany"><span class="quest-icon">${ICONS.lock}</span>
+    <span class="plan-text"><strong>Odblokuj pełny kurs</strong><small>Wszystkie działy, arkusze CKE z omówieniem i bank zadań. Pierwszy dział jest za darmo.</small></span>${ICONS.next}</a>` : '';
+}
+
+async function viewPlany(ok) {
+  if (!dostep.wlaczone()) {
+    app.innerHTML = `${pageHead('Plany', '#/profil')}<section class="card"><p>Wszystkie treści IndexLab są teraz dostępne bez opłat.</p></section>`;
+    return;
+  }
+  const zalogowany = !!cloud.account();
+  const render = (msg = '') => {
+    const st = dostep.biezacy();
+    const akt = dostep.aktywny();
+    app.innerHTML = `
+      ${pageHead('IndexLab Premium', '#/', 'Plany')}
+      ${ok && !akt ? '<section class="card"><p><strong>Dziękujemy!</strong> Czekamy na potwierdzenie płatności — to zwykle kilka sekund.</p></section>' : ''}
+      ${akt ? `<section class="card premium-on">
+          <h2 class="card-title">Masz pełny dostęp</h2>
+          <p>Aktywny do <strong>${fmtDay(new Date(st.wazne_do).getTime())}</strong>${st.plan === 'miesiac' && st.status === 'active' ? ' — subskrypcja odnawia się co miesiąc.' : '.'}</p>
+          ${st.zrodlo === 'stripe' ? '<button type="button" class="btn btn-ghost btn-lg" data-act="portal">Zarządzaj płatnościami</button>' : ''}
+        </section>` : `<section class="card">
+          <h2 class="card-title">Co dostajesz</h2>
+          <ul class="premium-list">
+            <li>Wszystkie działy: fiszki, lekcje i pytania testowe z całej podstawy programowej</li>
+            <li>Arkusze CKE z omówieniem każdego zadania</li>
+            <li>Bank zadań maturalnych i próbne matury na czas</li>
+            <li>Plan nauki dopasowany do daty matury</li>
+          </ul>
+        </section>
+        ${zalogowany ? '' : connectHtml(true, 'Dostęp przypisujemy do konta e-mail, żeby działał na telefonie, tablecie i komputerze. Twoje dotychczasowe postępy zostaną zachowane.')}
+        <div class="plany">${dostep.plany().map((p) => `<section class="card plan-oferta ${p.polecany ? 'polecany' : ''}">
+          ${p.polecany ? '<span class="eyebrow">Najczęściej wybierany</span>' : ''}
+          <h2 class="card-title">${esc(p.nazwa)}</h2>
+          <p class="plan-cena"><b>${esc(p.cena)}</b><span>${esc(p.okres)}</span></p>
+          <p class="muted">${esc(p.opis)}</p>
+          <button type="button" class="btn ${p.polecany ? 'btn-primary' : 'btn-ghost'} btn-lg" data-kup="${esc(p.id)}" ${zalogowany ? '' : 'disabled'}>Wybieram</button>
+        </section>`).join('')}</div>`}
+      <section class="card">
+        <h2 class="card-title">Masz kod dostępu?</h2>
+        <form class="pop-row" id="kod-form"><input class="type-input" name="kod" maxlength="40" placeholder="np. ABCD-EFGH-JKLM" autocomplete="off" autocapitalize="characters" aria-label="Kod dostępu" ${zalogowany ? '' : 'disabled'}><button type="submit" class="btn btn-ghost btn-sm" ${zalogowany ? '' : 'disabled'}>Aktywuj</button></form>
+        ${dostep.sklepKodow() ? `<p class="muted">Kod możesz też kupić <a href="${esc(dostep.sklepKodow())}" target="_blank" rel="noopener">w naszym sklepie</a>.</p>` : ''}
+      </section>
+      ${msg ? `<p class="acc-msg" role="status">${esc(msg)}</p>` : ''}
+      <p class="muted small">Płatności obsługuje Stripe — IndexLab nie widzi danych Twojej karty. Subskrypcję anulujesz w każdej chwili w „Zarządzaj płatnościami”.</p>`;
+    bindConnect(() => viewPlany());
+    app.querySelectorAll('[data-kup]').forEach((b) => b.addEventListener('click', async () => {
+      b.disabled = true;
+      try { await dostep.kup(b.dataset.kup); } catch (e) { b.disabled = false; toast(e.message); }
+    }));
+    app.querySelector('[data-act="portal"]')?.addEventListener('click', () => dostep.panelKlienta().catch((e) => toast(e.message)));
+    app.querySelector('#kod-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const kod = e.target.kod.value.trim();
+      if (!kod) return;
+      e.submitter && (e.submitter.disabled = true);
+      try {
+        await dostep.wykorzystajKod(kod);
+        await zaladujTresci();
+        game.sound('ok');
+        render('Kod aktywny — pełny kurs odblokowany.');
+      } catch (err) { render(err.message); }
+    });
+  };
+  render();
+  await dostep.odswiez().catch(() => null);
+  if (ok && !dostep.aktywny()) { // webhook Stripe może przyjść z kilkusekundowym opóźnieniem
+    for (let i = 0; i < 10 && !dostep.aktywny() && location.hash === '#/plany/ok'; i++) {
+      await new Promise((r) => setTimeout(r, 2000));
+      await dostep.odswiez().catch(() => null);
+    }
+  }
+  if (!location.hash.startsWith('#/plany')) return;
+  if (dostep.aktywny() && maZablokowane()) await zaladujTresci();
+  render(ok && dostep.aktywny() ? 'Płatność przyjęta — pełny kurs odblokowany.' : '');
 }
 
 // ---------- ustawienia ----------
@@ -2363,6 +2470,7 @@ const routes = [
   [/^#\/konto$/, viewKonto],
   [/^#\/ustawienia$/, viewSettings],
   [/^#\/plan$/, viewPlan],
+  [/^#\/plany(?:\/(ok))?$/, viewPlany],
 ];
 
 let lastHash = null;
@@ -2416,13 +2524,22 @@ document.addEventListener('keydown', (e) => {
 });
 
 // ---------- start ----------
+// Treści: z plików (tryb bezpłatny) albo z bazy — tylko to, do czego konto ma dostęp (tryb premium).
+async function zaladujTresci() {
+  if (dostep.wlaczone()) {
+    await dostep.odswiez().catch(() => null);
+    ({ subjects, errors: loadErrors } = await loadSubjects(await dostep.pobierzTresci()));
+  } else ({ subjects, errors: loadErrors } = await loadSubjects());
+  refreshAutoRates();
+}
+
 async function init() {
   applyTheme();
   game.onChange(onGameEvents);
   cloud.startAutoSync(() => {});
   updateTopStats();
   try {
-    ({ subjects, errors: loadErrors } = await loadSubjects());
+    await zaladujTresci();
   } catch (e) {
     app.innerHTML = `<div class="empty"><div class="empty-icon">${ICONS.compass}</div>
       <h1>Nie udało się wczytać treści</h1>

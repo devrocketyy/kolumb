@@ -109,6 +109,37 @@ create policy "własne postępy" on postepy
 
 Klucz *anon* jest publiczny z założenia — każdy uczeń widzi i zmienia wyłącznie własny wiersz dzięki regule RLS. Bez konfiguracji aplikacja działa jak dotąd: postępy są na urządzeniu, a w zakładce *Profil* widać informację, że konta nie są jeszcze włączone.
 
+## Płatny dostęp (subskrypcja)
+
+Model: **pierwszy dział każdego przedmiotu, najnowszy arkusz CKE i aktualności są za darmo**, a pełny kurs odblokowuje:
+
+- **subskrypcja miesięczna** (Stripe, karta / Apple Pay / Google Pay, odnawiana automatycznie, anulowanie w panelu klienta),
+- **dostęp „do matury”** — jednorazowa płatność (Stripe: BLIK, Przelewy24, karta) ważna do daty `DOSTEP_MATURA_DO`,
+- **kod dostępu** — np. sprzedawany na Naffy; uczeń wpisuje go w aplikacji (*Profil → IndexLab Premium*).
+
+Dostęp jest przypisany do **konta e-mail** (działa na każdym urządzeniu). Bez włączenia (`PREMIUM.wlaczone = false` w `js/config.js`) aplikacja działa jak dotąd — wszystko za darmo z plików.
+
+Jak to chroni treści: w trybie premium aplikacja nie czyta plików z `przedmioty/`, tylko tabelę `tresci` w Supabase. Reguła RLS wydaje pliki płatne wyłącznie kontom z aktywnym wierszem w tabeli `dostep`, a ten wiersz może zapisać tylko webhook Stripe (klucz serwisowy) albo funkcja `wykorzystaj_kod`.
+
+Uruchomienie:
+
+1. Supabase → *SQL Editor* → uruchom `supabase/migrations/001_dostep.sql` (tworzy też tabelę `postepy`).
+2. Wgraj treści: `SUPABASE_URL=… SUPABASE_SERVICE_ROLE_KEY=… node narzedzia/wgraj-tresci.mjs` (podgląd: `--sprawdz`; listę darmowych działów zmienisz w `DEMO` na początku skryptu). Uruchamiaj po każdej zmianie treści.
+3. Stripe → utwórz produkt z dwiema cenami: cykliczną miesięczną i jednorazową; włącz metody płatności BLIK i Przelewy24.
+4. Funkcje (wymaga [Supabase CLI](https://supabase.com/docs/guides/cli)):
+
+```bash
+supabase secrets set STRIPE_SECRET_KEY=sk_live_… STRIPE_WEBHOOK_SECRET=whsec_… STRIPE_PRICE_MIESIAC=price_… STRIPE_PRICE_MATURA=price_… APP_URL=https://devrocketyy.github.io/kolumb/ DOSTEP_MATURA_DO=2027-05-31
+supabase functions deploy checkout portal stripe-webhook
+```
+
+5. Stripe → *Developers → Webhooks* → adres `https://<projekt>.supabase.co/functions/v1/stripe-webhook`, zdarzenia: `checkout.session.completed`, `checkout.session.async_payment_succeeded`, `invoice.paid`, `customer.subscription.updated`, `customer.subscription.deleted`. Włącz też *Customer portal* (*Settings → Billing → Customer portal*).
+6. Kody: `SUPABASE_URL=… SUPABASE_SERVICE_ROLE_KEY=… node narzedzia/kody.mjs --ile 100 --do 2027-05-31 --partia naffy` — powstaje plik CSV z kodami do wgrania w sklepie (nie dodawaj go do repozytorium).
+7. W `js/config.js` ustaw `PREMIUM.wlaczone = true`, ceny do wyświetlenia i ewentualnie `sklepKodow`.
+8. **Usuń płatne treści z publicznej strony** — pliki w `przedmioty/` (poza spisem) nie mogą być publicznie dostępne: przenieś treści do prywatnego repozytorium albo ustaw repozytorium jako prywatne i publikuj stronę bez katalogu `przedmioty/`. Inaczej każdy pobierze je z GitHuba z pominięciem płatności.
+
+Klucze `service_role` i `sk_…` podawaj tylko w zmiennych środowiskowych i w `supabase secrets` — nigdy w repozytorium.
+
 ## Jak dodać nowy przedmiot
 
 **Najszybciej — generator szkieletu** (np. historia, filozofia):

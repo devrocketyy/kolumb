@@ -7,7 +7,7 @@ export const enabled = () => !!(CLOUD.url && CLOUD.anonKey);
 const base = () => CLOUD.url.replace(/\/+$/, '');
 const TABLE = CLOUD.table || 'postepy';
 
-async function api(path, { method = 'GET', body, token, headers = {} } = {}) {
+export async function api(path, { method = 'GET', body, token, headers = {} } = {}) {
   const res = await fetch(base() + path, {
     method,
     headers: {
@@ -46,7 +46,7 @@ function sessionFrom(d) {
 
 export const account = () => store.activeProfile()?.cloud || null;
 
-async function token() {
+export async function token() {
   const c = account();
   if (!c) throw new Error('Nie zalogowano.');
   if (Date.now() < c.exp - 60000) return c.access;
@@ -147,4 +147,10 @@ export function startAutoSync(onError) {
     timer = setTimeout(() => push().catch((e) => onError?.(e)), 8000);
   });
   window.addEventListener('online', () => { if (enabled() && account()) push().catch(() => {}); });
+}
+
+// Token zalogowanego konta albo null (treści premium i płatności).
+export async function tokenOrNull() {
+  if (!enabled() || !account()) return null;
+  try { return await token(); } catch { return null; }
 }

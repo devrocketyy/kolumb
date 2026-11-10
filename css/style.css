@@ -997,3 +997,20 @@ body.in-lesson .toast { bottom: calc(250px + env(safe-area-inset-bottom)); }
 .plan-ok { font-weight: 600; }
 .plan-warn { padding: 10px 12px; border: 2px dashed var(--text); border-radius: 12px; }
 input[type="date"].type-input { font-size: 1.05rem; }
+
+/* ---------- premium ---------- */
+.stop.locked .stop-dot i svg { width: 16px; height: 16px; }
+.stop.locked .stop-body { text-decoration: none; color: var(--text-2); }
+.stop.locked .stop-name { color: var(--text-2); }
+.locked-row .badge svg { width: 14px; height: 14px; }
+.locked-row { color: var(--text-2); }
+.premium-cta { border-color: var(--text); }
+.premium-list { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.plany { display: grid; gap: 12px; margin-bottom: 16px; }
+.plany .card { margin-bottom: 0; }
+.plan-oferta.polecany { border: 2px solid var(--text); }
+.plan-oferta .eyebrow { display: block; margin-bottom: 6px; }
+.plan-cena { display: flex; align-items: baseline; gap: 8px; margin: 0 0 6px; }
+.plan-cena b { font-family: var(--font-head); font-size: 2.2rem; letter-spacing: -.02em; }
+.plan-cena span { color: var(--text-2); }
+.leg-text small svg { width: 13px; height: 13px; vertical-align: -2px; }

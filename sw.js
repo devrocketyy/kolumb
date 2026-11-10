@@ -13,6 +13,7 @@ const SHELL = [
   'js/data.js',
   'js/game.js',
   'js/cloud.js',
+  'js/dostep.js',
   'js/config.js',
   'fonty/inter-latin-wght-normal.woff2',
   'fonty/inter-latin-ext-wght-normal.woff2',
