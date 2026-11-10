@@ -1039,3 +1039,27 @@ input[type="date"].type-input { font-size: 1.05rem; }
 .plan-cena b { font-family: var(--font-head); font-size: 2.2rem; letter-spacing: -.02em; }
 .plan-cena span { color: var(--text-2); }
 .leg-text small svg { width: 13px; height: 13px; vertical-align: -2px; }
+
+/* ---------- przełącznik kursów i Nauka ---------- */
+.subj-switch { display: flex; gap: 6px; padding: 5px; margin-bottom: 14px; border-radius: 16px; background: var(--surface-2); overflow-x: auto; }
+.subj-switch button { flex: 1; min-height: 44px; padding: 0 14px; border: 0; border-radius: 12px; background: transparent; color: var(--text-2); font: 600 .95rem var(--font); cursor: pointer; white-space: nowrap; }
+.subj-switch button.active { background: var(--text); color: var(--bg); }
+.nauka-hero { display: grid; gap: 8px; padding: 20px; margin-bottom: 10px; border-radius: var(--radius); background: var(--text); color: var(--bg); }
+.nauka-hero .eyebrow { color: color-mix(in srgb, var(--bg) 70%, transparent); }
+.nauka-hero h2 { font-size: 1.45rem; line-height: 1.2; text-wrap: balance; }
+.nauka-hero .core-bar { margin-top: 4px; }
+.nauka-hero .core-bar i { position: absolute; inset: 0 auto 0 0; background: var(--bg); border-radius: 99px; }
+.hero-actions { display: flex; gap: 8px; margin-top: 8px; }
+.hero-actions .btn { min-height: 52px; border-radius: 14px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; font-weight: 700; }
+.hero-actions svg { width: 22px; height: 22px; }
+.hero-main { flex: 1; background: var(--bg); color: var(--text); }
+.hero-sec { min-width: 56px; padding: 0 14px; background: color-mix(in srgb, var(--bg) 14%, transparent); color: var(--bg); }
+.nauka-tiles { margin-bottom: 16px; }
+.nauka-tiles .plan-tile { text-decoration: none; background: var(--surface); color: var(--text); border: 2px solid var(--border); }
+.nauka-tiles .plan-tile span { opacity: 1; color: var(--text-2); }
+.nauka-tiles .plan-tile small { font-size: 1rem; color: var(--text-2); }
+.nauka-tiles .plan-tile.off { pointer-events: none; opacity: .55; }
+.pop-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(84px, 1fr)); gap: 6px; }
+.pop-act { display: grid; justify-items: center; gap: 4px; padding: 10px 4px; border-radius: 12px; background: var(--surface-2); color: var(--text); text-decoration: none; font-size: .82rem; font-weight: 600; }
+.pop-act svg { width: 22px; height: 22px; }
+.pop-act.main { background: var(--text); color: var(--bg); }

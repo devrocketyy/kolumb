@@ -78,6 +78,7 @@ const ICONS = {
   flag: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21V4m0 0h11l-2 4 2 4H5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
   cards: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="14" height="14" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7 3h11.5A2.5 2.5 0 0 1 21 5.5V17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
   quiz: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.25" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9.5 9.3a2.6 2.6 0 1 1 3.6 2.4c-.7.3-1.1.9-1.1 1.6v.4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="17" r="1.1" fill="currentColor"/></svg>',
+  doc: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 12h7M9 16h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
   book: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5zM4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>',
   exam: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M14 3v5h5M10 13h6M10 17h6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
   check: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
@@ -265,11 +266,15 @@ function pathHtml(s, rec) {
 function popHtml(s, u) {
   const sm = summary(s.id, [u]);
   const nQ = u.pytania.length;
-  return `<div class="pop-row">
-      <a class="btn btn-primary btn-sm" href="#/lekcja/${enc(s.id)}/p/${enc(u.id)}">${ICONS.play}<span>Lekcja</span></a>
-      ${u.fiszki.length ? `<a class="btn btn-ghost btn-sm" href="#/fiszki/${enc(s.id)}/p/${enc(u.id)}">${ICONS.cards}<span>Fiszki${sm.todo ? ` (${sm.todo})` : ''}</span></a>` : ''}
-      ${nQ ? `<a class="btn btn-ghost btn-sm" href="#/test/${enc(s.id)}/p/${enc(u.id)}">${ICONS.quiz}<span>Test</span></a>` : ''}
-      <a class="btn btn-ghost btn-sm" href="${hrefUnit(s.id, u.id)}">${ICONS.book}<span>Treści</span></a>
+  const nZ = bankTasks(s, u.dzialId).length;
+  const nC = tasksOf(s, u.dzialId).length;
+  const zHref = nZ ? `#/zadania/${enc(s.id)}/b/${enc(u.dzialId)}` : nC ? `#/zadania/${enc(s.id)}/d/${enc(u.dzialId)}` : '';
+  return `<div class="pop-grid">
+      <a class="pop-act main" href="#/lekcja/${enc(s.id)}/p/${enc(u.id)}">${ICONS.play}<span>Lekcja</span></a>
+      ${u.fiszki.length ? `<a class="pop-act" href="#/fiszki/${enc(s.id)}/p/${enc(u.id)}">${ICONS.cards}<span>Fiszki${sm.todo ? ` · ${sm.todo}` : ''}</span></a>` : ''}
+      ${nQ ? `<a class="pop-act" href="#/test/${enc(s.id)}/p/${enc(u.id)}">${ICONS.quiz}<span>Test</span></a>` : ''}
+      ${zHref ? `<a class="pop-act" href="${zHref}">${ICONS.doc}<span>Zadania</span></a>` : ''}
+      <a class="pop-act" href="${hrefUnit(s.id, u.id)}">${ICONS.book}<span>Treści</span></a>
     </div>`;
 }
 
@@ -505,6 +510,7 @@ function viewHome() {
   }
   app.innerHTML = `
     <header class="today-head"><h1>Dziś</h1></header>
+    ${subjSwitch()}
     ${rebrandNote()}
     ${s ? coreCard(s) : ''}
     ${s ? planCard(s) : ''}
@@ -524,6 +530,7 @@ function viewHome() {
     ${s ? planHtml(s, rec, todo, best) : ''}
     ${s ? '' : '<p class="muted">Brak przedmiotów.</p>'}
   `;
+  bindSubjSwitch(viewHome);
   app.querySelector('[data-act="rebrand-ok"]')?.addEventListener('click', () => {
     store.get().settings.rebrandSeen = true;
     store.save();
@@ -537,31 +544,74 @@ function viewHome() {
   });
 }
 
+// ---------- przełącznik kursów (widoczny na Dziś i w Nauce) ----------
+function subjSwitch() {
+  if (subjects.length < 2) return '';
+  const cur = currentSubject();
+  return `<div class="subj-switch" role="tablist" aria-label="Kurs">${subjects.map((x) => `<button type="button" role="tab" aria-selected="${x === cur}" class="${x === cur ? 'active' : ''}" data-switch="${esc(x.id)}">${esc(x.nazwa)}</button>`).join('')}</div>`;
+}
+function bindSubjSwitch(rerender) {
+  app.querySelector('.subj-switch')?.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-switch]');
+    if (!b || b.classList.contains('active')) return;
+    const st = store.get().settings;
+    st.przedmiot = b.dataset.switch;
+    store.save();
+    game.sound('tap');
+    updateTopStats();
+    if (!st.plan?.[b.dataset.switch]) location.hash = '#/plan';
+    else rerender();
+  });
+}
+
 // ---------- zakładka „Nauka” ----------
 function viewNauka() {
   const s = currentSubject();
   if (!s) return notFound();
   const rec = recommendedUnit(s);
-  const sm = summary(s.id, allUnits(s));
+  const allowance = newAllowance(s.id);
+  const sm = summary(s.id, allUnits(s), allowance);
+  let best = null;
+  s.dzialy.forEach((d) => { const k = summary(s.id, d.poddzialy, allowance).due; if (k && (!best || k > best.n)) best = { d, n: k }; });
+  const st = store.get().zadania;
+  const zad = allTasks(s);
+  const zDone = zad.filter((z) => st[taskKey(s.id, z)]).length;
+  const u = rec?.u;
+  const usm = u ? summary(s.id, [u], allowance) : null;
   app.innerHTML = `
     <header class="today-head">
-      <h1>${esc(s.nazwa)}</h1>
+      <h1>Nauka</h1>
       <a class="icon-btn" href="#/szukaj" aria-label="Szukaj pojęć">${ICONS.search}</a>
     </header>
-    <p class="muted route-sum">${pct(sm.progress)}% opanowane · ${sm.mastered}/${nFiszek(sm.total)} · ${sm.todo} do powtórki</p>
+    ${subjSwitch()}
+    ${u ? `<section class="nauka-hero">
+      <span class="eyebrow">${esc(rec.d.nazwa)}</span>
+      <h2>${esc(u.nazwa)}</h2>
+      <div class="core-bar" role="img" aria-label="Opanowanie ${pct(usm.progress)}%"><i style="width:${usm.progress * 100}%"></i></div>
+      <div class="hero-actions">
+        <a class="btn hero-main" href="#/lekcja/${enc(s.id)}/p/${enc(u.id)}">${ICONS.play}<span>Lekcja</span></a>
+        ${u.fiszki.length ? `<a class="btn hero-sec" href="#/fiszki/${enc(s.id)}/p/${enc(u.id)}" aria-label="Fiszki">${ICONS.cards}<span>${usm.todo || ''}</span></a>` : ''}
+        ${u.pytania.length ? `<a class="btn hero-sec" href="#/test/${enc(s.id)}/p/${enc(u.id)}" aria-label="Test">${ICONS.quiz}</a>` : ''}
+      </div>
+    </section>` : ''}
+    <div class="plan-tiles nauka-tiles">
+      <a class="plan-tile" href="#/statystyki"><b>${pct(sm.progress)}%</b><span>opanowane</span></a>
+      <a class="plan-tile ${best ? '' : 'off'}" href="${best ? `#/fiszki/${enc(s.id)}/d/${enc(best.d.id)}` : '#/nauka'}"><b>${sm.due}</b><span>do powtórki</span></a>
+      <a class="plan-tile" href="${nextTasksHref(s)}"><b>${zDone}<small>/${zad.length}</small></b><span>zadań</span></a>
+    </div>
     <div class="route" data-sid="${esc(s.id)}">${pathHtml(s, rec)}</div>`;
+  bindSubjSwitch(viewNauka);
   const wrap = app.querySelector('.route');
   wrap.addEventListener('click', (e) => {
-    const b = e.target.closest('.stop-body');
+    const b = e.target.closest('.stop-body[data-unit]');
     if (!b) return;
-    const u = s.units.get(b.dataset.unit);
-    const pop = wrap.querySelector(`[data-pop="${CSS.escape(u.id)}"]`);
+    const un = s.units.get(b.dataset.unit);
+    const pop = wrap.querySelector(`[data-pop="${CSS.escape(un.id)}"]`);
     const open = !pop.hidden;
     wrap.querySelectorAll('.stop-pop').forEach((p) => (p.hidden = true));
     wrap.querySelectorAll('.stop-body').forEach((x) => x.setAttribute('aria-expanded', 'false'));
-    if (!open) { pop.innerHTML = popHtml(s, u); pop.hidden = false; b.setAttribute('aria-expanded', 'true'); game.sound('tap'); }
+    if (!open) { pop.innerHTML = popHtml(s, un); pop.hidden = false; b.setAttribute('aria-expanded', 'true'); game.sound('tap'); }
   });
-  wrap.querySelector('.stop.current')?.scrollIntoView({ block: 'center' });
 }
 
 
