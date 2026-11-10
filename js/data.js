@@ -142,6 +142,7 @@ async function normalizeSubject(raw, file) {
     aktualnosci,
     wagi: raw.wagi || null,
     srednia: raw.srednia || null,
+    egzamin: raw.egzamin || null, // data matury (RRRR-MM-DD) — podstawa planu nauki
   };
 }
 

@@ -225,6 +225,7 @@ def main():
 
     subj = {
         'id': 'historia', 'nazwa': 'Historia', 'skrot': 'HIS',
+        'egzamin': '2027-05-18',  # harmonogram CKE 2027: historia (pr) — 18 maja
         'szkic': True,  # kurs w budowie — niewidoczny dla uczniów; usuń, by opublikować
         'opis': 'Matura rozszerzona z historii — wszystkie wymagania podstawy programowej 2024.',
         'dzialy': [{'id': d[0], 'plik': f'historia/{d[0]}.json'} for d in DZIALY],

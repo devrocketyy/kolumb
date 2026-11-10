@@ -975,3 +975,25 @@ body.in-lesson .toast { bottom: calc(250px + env(safe-area-inset-bottom)); }
 /* temat kursu jeszcze bez treści */
 .stop.soon { opacity: .5; }
 .stop.soon .stop-body { cursor: default; }
+
+/* ---------- plan do matury ---------- */
+.seg-5 { grid-template-columns: repeat(5, 1fr); margin-top: 12px; }
+.seg-5 button { padding: 0 4px; }
+.plan-card { display: flex; align-items: center; gap: 14px; text-decoration: none; color: var(--text); box-shadow: none; }
+.plan-card > svg { color: var(--text-2); flex: none; }
+.plan-card.warn { border-style: dashed; border-color: var(--text); }
+.plan-days { flex: none; display: grid; justify-items: center; min-width: 64px; padding: 8px 6px; border-radius: 14px; background: var(--surface-2); }
+.plan-days b { font-family: var(--font-head); font-size: 1.7rem; line-height: 1; }
+.plan-days span { font-size: .68rem; text-align: center; color: var(--text-2); line-height: 1.2; margin-top: 4px; }
+.plan-text { flex: 1; display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.plan-text small { color: var(--text-2); font-size: .88rem; }
+.plan-cele { display: grid; gap: 8px; }
+.plan-cel { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; text-align: left; padding: 14px 16px; border-radius: 14px; border: 2px solid var(--border); background: var(--surface); color: var(--text); font: inherit; cursor: pointer; }
+.plan-cel small { color: var(--text-2); }
+.plan-cel[aria-checked="true"] { border-color: var(--text); background: var(--surface-2); }
+.plan-sum p { margin: 8px 0 0; }
+.plan-big { display: flex; align-items: baseline; gap: 10px; }
+.plan-big b { font-family: var(--font-head); font-size: 3rem; line-height: 1; letter-spacing: -.03em; }
+.plan-ok { font-weight: 600; }
+.plan-warn { padding: 10px 12px; border: 2px dashed var(--text); border-radius: 12px; }
+input[type="date"].type-input { font-size: 1.05rem; }

@@ -45,7 +45,12 @@ export function intervalLabel(prev, rating) {
   return days === 1 ? 'jutro' : `za ${days} dni`;
 }
 
-export const newPerDay = () => Number(get().settings.newPerDay) || DEFAULT_NEW_PER_DAY;
+// Tempo nauki: „auto” (domyślnie) — liczba nowych fiszek wyliczana z planu do matury dla każdego przedmiotu;
+// albo stała liczba wybrana w ustawieniach.
+const autoRates = {};
+export const setAutoRate = (sid, n) => { autoRates[sid] = n; };
+export const tempoAuto = () => (get().settings.tempo || 'auto') === 'auto';
+export const newPerDay = (sid) => (tempoAuto() && sid && autoRates[sid]) || Number(get().settings.newPerDay) || DEFAULT_NEW_PER_DAY;
 
 // Ile nowych fiszek z danego przedmiotu można jeszcze dziś zacząć.
 export function newAllowance(sid) {
@@ -55,7 +60,7 @@ export function newAllowance(sid) {
   for (const [k, c] of Object.entries(get().cards)) {
     if (k.startsWith(prefix) && c.first && dayKey(c.first) === today) started++;
   }
-  return Math.max(0, newPerDay() - started);
+  return Math.max(0, newPerDay(sid) - started);
 }
 
 // Podsumowanie zbioru poddziałów (jednego poddziału, działu albo całego przedmiotu).
