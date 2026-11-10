@@ -1738,9 +1738,7 @@ function viewMatura(tab) {
         </div>`;
       }).join('')}</div>`;
   } else {
-    const all = bankTasks(s);
-    body = `<p class="muted small">${nZadan(all.length)} w ${s.bank.length} wiązkach — w formacie matury od 2026 r., z kluczem i zasadami oceniania.</p>
-      <div class="dzial-list">${s.dzialy.map((d) => ({ d, list: bankTasks(s, d.id) })).filter((x) => x.list.length)
+    body = `<div class="dzial-list">${s.dzialy.map((d) => ({ d, list: bankTasks(s, d.id) })).filter((x) => x.list.length)
         .map(({ d, list }) => taskRow(`#/zadania/${enc(s.id)}/b/${enc(d.id)}`, d.nazwa, taskScore(s.id, list))).join('')}</div>`;
   }
   app.innerHTML = `
