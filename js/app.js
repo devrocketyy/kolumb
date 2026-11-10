@@ -560,6 +560,13 @@ function prognoza(s, tempo) {
     const wiedza = Math.max(K, Ktest);
     dzialy.push({ d, w: wagi[d.id], n, fresh, pam, K: wiedza, A, zm, wynik: wiedza * A });
   }
+  // dział „umiejętności” (źródła, chronologia) sprawdza wiedzę ze wszystkich epok — liczymy go z całego kursu
+  const przekroj = (arr) => {
+    const inne = arr.filter((x) => x.d.id !== 'umiejetnosci' && x.n);
+    const sr = inne.reduce((a, x) => a + x.K * x.n, 0) / Math.max(1, inne.reduce((a, x) => a + x.n, 0));
+    return arr.map((x) => (x.d.id === 'umiejetnosci' ? { ...x, K: 0.3 * x.K + 0.7 * sr, wynik: (0.3 * x.K + 0.7 * sr) * x.A } : x));
+  };
+  dzialy.splice(0, dzialy.length, ...przekroj(dzialy));
   const model = (arr) => arr.reduce((a, x) => a + x.w * x.wynik, 0);
   const dzis = model(dzialy);
   // próbne matury
@@ -575,9 +582,9 @@ function prognoza(s, tempo) {
     const ile = Math.min(x.fresh, zapas);
     zapas -= ile;
     const K = x.n ? Math.max(x.K, (x.pam + ile * 0.75) / x.n) : x.K;
-    return { ...x, wynik: K * x.A };
+    return { ...x, K, wynik: K * x.A };
   });
-  const majModel = model(maj);
+  const majModel = model(przekroj(maj));
   const laczenie = (m) => (M == null ? m : (1 - wm) * m + wm * Math.min(M, m + 0.15));
   const punkt = laczenie(dzis);
   const punktMaj = laczenie(majModel) + (M == null ? 0 : wm * (majModel - dzis));

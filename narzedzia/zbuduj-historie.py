@@ -8,6 +8,7 @@ Treści (fiszki, pytania) są autorskie i leżą w narzedzia/historia/tresci*.py
 
 Użycie: python3 narzedzia/zbuduj-historie.py && node narzedzia/zbuduj-indeks.mjs
 """
+import random
 import json, os, glob, runpy, hashlib, re
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
@@ -156,8 +157,13 @@ def build_unit(uid, nr, nazwa, t):
     for q, odp, wyj in t.get('Q', []):
         star = [k for k, a in enumerate(odp) if a.startswith('*')]
         assert len(star) == 1, (uid, q)
-        u['pytania'].append({'id': _id('p', q), 'pytanie': q, 'odpowiedzi': [a.lstrip('*') for a in odp],
-                             'poprawna': 'ABCD'[star[0]], 'wyjasnienie': wyj, 'zrodlo': 'Zadanie autorskie IndexLab'})
+        # stała, ale „losowa” kolejność odpowiedzi (zależna od treści pytania), żeby poprawna nie stała zawsze na tym samym miejscu
+        los = random.Random(hashlib.sha1(q.encode()).hexdigest())
+        kolej = list(range(len(odp)))
+        los.shuffle(kolej)
+        odp2 = [odp[k] for k in kolej]
+        u['pytania'].append({'id': _id('p', q), 'pytanie': q, 'odpowiedzi': [a.lstrip('*') for a in odp2],
+                             'poprawna': 'ABCD'[kolej.index(star[0])], 'wyjasnienie': wyj, 'zrodlo': 'Zadanie autorskie IndexLab'})
     return u
 
 
