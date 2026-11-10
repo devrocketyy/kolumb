@@ -348,55 +348,77 @@ function rebrandNote() {
 
 // ---------- zakładka „Dziś” ----------
 // ---------- plan do matury (personalizacja tempa) ----------
-// Cel wyznacza, ile dni przed maturą kończymy nowy materiał (reszta to powtórki i arkusze).
-const CELE = [
-  { id: 'zdac', nazwa: 'Spokojnie zdać', opis: 'nowy materiał do 2 tygodni przed maturą', rezerwa: 14 },
-  { id: 'dobry', nazwa: 'Dobry wynik', opis: 'miesiąc na powtórki i arkusze', rezerwa: 30 },
-  { id: 'max', nazwa: 'Wynik na studia', opis: '6 tygodni na arkusze CKE', rezerwa: 45 },
-];
+// Uczeń wybiera suwakiem dzień, w którym chce skończyć materiał; z tego wynika dzienna porcja fiszek i zadań.
 const MIN_NA_FISZKE = 0.8; // nowa fiszka + jej późniejsze powtórki ≈ 50 s
+const MIN_NA_ZADANIE = 3;
 const DAY = 86400000;
 const parseDay = (iso) => { const [y, m, d] = String(iso).split('-').map(Number); return new Date(y, m - 1, d).getTime(); };
 const isoDay = (t) => { const d = new Date(t); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
 const fmtDay = (t) => new Date(t).toLocaleDateString('pl-PL', { day: 'numeric', month: 'long', year: 'numeric' });
+const fmtShort = (t) => new Date(t).toLocaleDateString('pl-PL', { day: 'numeric', month: 'short' });
 const todayStart = () => { const d = new Date(); d.setHours(0, 0, 0, 0); return d.getTime(); };
+const allTasks = (s) => [...tasksOf(s), ...bankTasks(s)];
 
-function planOf(s) {
-  const p = store.get().settings.plan?.[s.id] || {};
+function planOf(s, over) {
+  const p = { ...(store.get().settings.plan?.[s.id] || {}), ...(over || {}) };
   const data = p.data || s.egzamin || null;
-  const cel = CELE.find((c) => c.id === p.cel) || CELE[1];
-  const minuty = Number(p.minuty) || 30;
-  const fresh = summary(s.id, allUnits(s), 0).fresh;
+  if (!data) return { data: null };
   const today = todayStart();
-  if (!data) return { ustawiony: !!p.data, data: null, cel, minuty, fresh, rate: null };
   const egz = parseDay(data);
-  const dniDoMatury = Math.max(0, Math.round((egz - today) / DAY));
-  const koniec = egz - cel.rezerwa * DAY;
-  const dniNaMaterial = Math.max(1, Math.round((koniec - today) / DAY));
-  const rate = fresh ? Math.min(80, Math.max(5, Math.ceil(fresh / dniNaMaterial))) : 5;
-  const potrzeba = Math.ceil(rate * MIN_NA_FISZKE);
-  const rateCzas = Math.max(1, Math.floor(minuty / MIN_NA_FISZKE));
-  const koniecRealny = today + Math.ceil(fresh / Math.min(rate, rateCzas)) * DAY;
-  return { ustawiony: !!p.data, data, egz, cel, minuty, fresh, dniDoMatury, koniec, dniNaMaterial, rate, potrzeba, koniecRealny, zdazy: koniecRealny <= koniec };
+  const dniDoMatury = Math.max(1, Math.round((egz - today) / DAY));
+  let koniec = p.koniec ? parseDay(p.koniec) : egz - Math.min(30, Math.floor(dniDoMatury / 4)) * DAY;
+  koniec = Math.min(egz, Math.max(today + DAY, koniec));
+  const dni = Math.max(1, Math.round((koniec - today) / DAY));
+  const fresh = summary(s.id, allUnits(s), 0).fresh;
+  const st = store.get().zadania;
+  const zad = allTasks(s);
+  const zLeft = zad.filter((z) => !st[taskKey(s.id, z)]).length;
+  const dk = store.dayKey();
+  const zDzis = zad.filter((z) => { const r = st[taskKey(s.id, z)]; return r?.at && store.dayKey(r.at) === dk; }).length;
+  const rate = fresh ? Math.min(150, Math.max(3, Math.ceil(fresh / dni))) : 0;
+  const zRate = zLeft ? Math.ceil(zLeft / dni) : 0;
+  return {
+    ustawiony: !!p.koniec, data, egz, koniec, dni, dniDoMatury, rezerwa: Math.round((egz - koniec) / DAY),
+    fresh, zLeft, zTotal: zad.length, zDzis, rate, zRate,
+    minuty: Math.ceil(rate * MIN_NA_FISZKE + zRate * MIN_NA_ZADANIE),
+  };
 }
 
 function refreshAutoRates() {
-  for (const s of subjects) { const p = planOf(s); if (p.rate) setAutoRate(s.id, p.rate); }
+  for (const s of subjects) { const p = planOf(s); if (p.data) setAutoRate(s.id, p.rate || 3); }
+}
+
+// Następne zadania: najpierw z działu, którego uczeń się teraz uczy.
+function nextTasksHref(s) {
+  const st = store.get().zadania;
+  const open = (list) => list.some((z) => !st[taskKey(s.id, z)]);
+  const rec = recommendedUnit(s);
+  const order = rec ? [rec.d, ...s.dzialy.filter((d) => d !== rec.d)] : s.dzialy;
+  for (const d of order) {
+    if (open(bankTasks(s, d.id))) return `#/zadania/${enc(s.id)}/b/${enc(d.id)}`;
+    if (open(tasksOf(s, d.id))) return `#/zadania/${enc(s.id)}/d/${enc(d.id)}`;
+  }
+  const a = s.arkusze.find((x) => !x.zablokowany && open(x.zadania));
+  return a ? `#/zadania/${enc(s.id)}/a/${enc(a.id)}` : '#/matura';
 }
 
 function planCard(s) {
   const p = planOf(s);
   if (!p.data) return '';
   const npd = newPerDay(s.id);
-  const status = !p.fresh ? 'Cały materiał przerobiony — teraz powtórki i arkusze.'
-    : p.zdazy ? `Nowy materiał skończysz ok. ${fmtDay(p.koniecRealny)}.`
-    : p.koniecRealny >= p.egz ? `Przy ${p.minuty} min dziennie nie zdążysz z materiałem przed maturą — zwiększ czas nauki.`
-    : `Przy ${p.minuty} min dziennie skończysz dopiero ${fmtDay(p.koniecRealny)} — zwiększ czas nauki.`;
-  return `<a class="card plan-card ${p.zdazy || !p.fresh ? '' : 'warn'}" href="#/plan">
-    <div class="plan-days"><b>${p.dniDoMatury}</b><span>${plural(p.dniDoMatury, 'dzień', 'dni', 'dni')} do matury</span></div>
-    <div class="plan-text"><strong>Twój plan: ${npd} ${plural(npd, 'nowa fiszka', 'nowe fiszki', 'nowych fiszek')} dziennie</strong>
-      <small>${esc(p.cel.nazwa)} · ok. ${Math.ceil(npd * MIN_NA_FISZKE)} min dziennie · ${esc(status)}</small></div>
-    ${ICONS.next}</a>`;
+  const zOk = p.zRate && p.zDzis >= p.zRate;
+  return `<section class="card plan-card">
+    <a class="plan-top" href="#/plan" aria-label="Zmień plan">
+      <div class="plan-days"><b>${p.dniDoMatury}</b><span>${plural(p.dniDoMatury, 'dzień', 'dni', 'dni')} do matury</span></div>
+      <div class="plan-text"><strong>Plan na dziś</strong><small>koniec materiału: ${fmtShort(p.koniec)} · ok. ${p.minuty} min</small></div>
+      <span class="plan-edit">${ICONS.next}</span>
+    </a>
+    <div class="plan-today">
+      <a class="plan-chip" href="${(() => { const r = recommendedUnit(s); return r?.u ? `#/lekcja/${enc(s.id)}/p/${enc(r.u.id)}` : '#/nauka'; })()}"><b>${npd}</b><span>${plural(npd, 'nowa fiszka', 'nowe fiszki', 'nowych fiszek')} →</span></a>
+      <a class="plan-chip ${zOk ? 'ok' : ''}" href="${nextTasksHref(s)}"><b>${p.zDzis}/${p.zRate}</b><span>zadania ${zOk ? '✓' : '→'}</span>
+        <i style="width:${p.zRate ? Math.min(100, (p.zDzis / p.zRate) * 100) : 100}%"></i></a>
+    </div>
+  </section>`;
 }
 
 function viewPlan() {
@@ -405,66 +427,65 @@ function viewPlan() {
   const settings = store.get().settings;
   const first = !settings.plan?.[s.id];
   const draft = { ...(settings.plan?.[s.id] || {}) };
+  delete draft.pominiety;
   draft.data ||= s.egzamin || isoDay(todayStart() + 180 * DAY);
-  draft.cel ||= 'dobry';
-  draft.minuty ||= 30;
-  const render = () => {
-    const prev = settings.plan?.[s.id];
-    settings.plan = { ...(settings.plan || {}), [s.id]: draft };
-    const p = planOf(s);
-    if (prev) settings.plan[s.id] = prev; else delete settings.plan[s.id];
-    app.querySelector('.plan-sum').innerHTML = !p.fresh ? '<p>Cały materiał masz już przerobiony — zostają powtórki i arkusze.</p>' : `
-      <div class="plan-big"><b>${p.rate}</b><span>${plural(p.rate, 'nowa fiszka', 'nowe fiszki', 'nowych fiszek')} dziennie</span></div>
-      <p>Zostało <strong>${p.fresh.toLocaleString('pl-PL')}</strong> ${plural(p.fresh, 'nowa fiszka', 'nowe fiszki', 'nowych fiszek')}. Kończysz nowy materiał <strong>${fmtDay(p.koniec)}</strong>, a ostatnie ${p.cel.rezerwa} dni zostają na powtórki i arkusze CKE.</p>
-      <p>Potrzebujesz ok. <strong>${p.potrzeba} min</strong> dziennie (plus powtórki).</p>
-      ${p.zdazy ? '<p class="plan-ok">Masz na to czas — trzymaj tempo.</p>'
-        : `<p class="plan-warn">Przy ${p.minuty} min dziennie nowy materiał skończysz dopiero ${fmtDay(p.koniecRealny)}${p.koniecRealny >= p.egz ? ' — już po maturze' : ''}. Wybierz więcej czasu albo zacznij od działów, które znasz najsłabiej.</p>`}`;
-  };
+  const p0 = planOf(s, draft);
+  draft.koniec ||= isoDay(p0.koniec);
   app.innerHTML = `
-    ${pageHead(first ? 'Ułóżmy plan' : 'Plan do matury', first ? null : '#/', s.nazwa)}
-    ${first ? '<p class="muted">Trzy pytania — i IndexLab sam dobierze, ile nowego materiału robisz każdego dnia.</p>' : ''}
-    <section class="card">
-      <h2 class="card-title">Kiedy piszesz maturę?</h2>
-      <input class="type-input" type="date" id="plan-data" value="${esc(draft.data)}" min="${isoDay(todayStart() + DAY)}" aria-label="Data matury">
-      ${s.egzamin ? `<p class="muted">Termin główny według harmonogramu CKE: ${fmtDay(parseDay(s.egzamin))}.</p>` : ''}
+    ${pageHead('Plan nauki', first ? null : '#/', s.nazwa)}
+    <section class="card plan-slider">
+      <p class="eyebrow">Kończę materiał</p>
+      <output class="plan-date" id="pl-date"></output>
+      <input type="range" id="pl-range" min="1" step="1" aria-label="Dzień końca nauki nowego materiału">
+      <div class="plan-scale"><span>jutro</span><span id="pl-egz"></span></div>
+      <div class="plan-bar" aria-hidden="true"><i id="pl-learn"></i><i id="pl-rez" class="rez"></i></div>
+      <p class="plan-legend"><span><i></i>nowy materiał · <b id="pl-dni"></b></span><span><i class="rez"></i>powtórki i arkusze · <b id="pl-rezn"></b></span></p>
     </section>
-    <section class="card">
-      <h2 class="card-title">Jaki masz cel?</h2>
-      <div class="plan-cele" role="radiogroup" aria-label="Cel">
-        ${CELE.map((c) => `<button type="button" role="radio" class="plan-cel" data-cel="${c.id}" aria-checked="${draft.cel === c.id}"><strong>${c.nazwa}</strong><small>${c.opis}</small></button>`).join('')}
-      </div>
-    </section>
-    <section class="card">
-      <h2 class="card-title">Ile czasu dziennie możesz poświęcić?</h2>
-      <div class="segmented seg-4" role="radiogroup" aria-label="Minuty dziennie">
-        ${[15, 30, 45, 60].map((v) => `<button type="button" role="radio" data-min="${v}" aria-checked="${draft.minuty === v}" class="${draft.minuty === v ? 'active' : ''}">${v} min</button>`).join('')}
-      </div>
-    </section>
-    <section class="card plan-sum" aria-live="polite"></section>
-    <button type="button" class="btn btn-primary btn-lg" data-act="save">${first ? 'Zaczynam naukę' : 'Zapisz plan'}</button>
-    ${first ? '<button type="button" class="link-btn" data-act="skip">Pomiń — ustawię później</button>' : ''}`;
-  const sync = () => {
-    app.querySelectorAll('[data-cel]').forEach((b) => b.setAttribute('aria-checked', b.dataset.cel === draft.cel));
-    app.querySelectorAll('[data-min]').forEach((b) => { const on = Number(b.dataset.min) === draft.minuty; b.classList.toggle('active', on); b.setAttribute('aria-checked', on); });
-    render();
+    <div class="plan-tiles" aria-live="polite">
+      <div class="plan-tile"><b id="pl-f"></b><span>fiszek dziennie</span></div>
+      <div class="plan-tile"><b id="pl-z"></b><span>zadań dziennie</span></div>
+      <div class="plan-tile" id="pl-mt"><b id="pl-m"></b><span>minut dziennie</span></div>
+    </div>
+    <p class="plan-left muted" id="pl-left"></p>
+    <details class="card plan-exam"><summary>Matura: <b id="pl-ed"></b></summary>
+      <input class="type-input" type="date" id="plan-data" value="${esc(draft.data)}" min="${isoDay(todayStart() + 2 * DAY)}" aria-label="Data matury">
+    </details>
+    <button type="button" class="btn btn-primary btn-lg" data-act="save">${first ? 'Zaczynam' : 'Zapisz plan'}</button>`;
+  const range = app.querySelector('#pl-range');
+  const $ = (id) => app.querySelector(id);
+  const sync = (fromRange) => {
+    const today = todayStart();
+    const egz = parseDay(draft.data);
+    const max = Math.max(1, Math.round((egz - today) / DAY));
+    range.max = max;
+    if (fromRange) draft.koniec = isoDay(today + Number(range.value) * DAY);
+    const p = planOf(s, draft);
+    range.value = p.dni;
+    range.style.setProperty('--v', `${(p.dni / max) * 100}%`);
+    $('#pl-date').textContent = fmtDay(p.koniec);
+    $('#pl-egz').textContent = `matura ${fmtShort(egz)}`;
+    $('#pl-ed').textContent = fmtDay(egz);
+    $('#pl-learn').style.width = `${(p.dni / max) * 100}%`;
+    $('#pl-rez').style.width = `${100 - (p.dni / max) * 100}%`;
+    $('#pl-dni').textContent = `${p.dni} ${plural(p.dni, 'dzień', 'dni', 'dni')}`;
+    $('#pl-rezn').textContent = `${p.rezerwa} ${plural(p.rezerwa, 'dzień', 'dni', 'dni')}`;
+    $('#pl-f').textContent = p.rate;
+    $('#pl-z').textContent = p.zRate;
+    $('#pl-m').textContent = p.minuty;
+    $('#pl-mt').classList.toggle('warn', p.minuty > 90);
+    $('#pl-left').textContent = `Zostało: ${p.fresh.toLocaleString('pl-PL')} ${plural(p.fresh, 'fiszka', 'fiszki', 'fiszek')} i ${p.zLeft} ${plural(p.zLeft, 'zadanie', 'zadania', 'zadań')}${p.minuty > 90 ? ' — to dużo na jeden dzień, przesuń koniec dalej.' : '.'}`;
   };
-  app.querySelector('#plan-data').addEventListener('change', (e) => { if (e.target.value) { draft.data = e.target.value; sync(); } });
-  app.querySelector('.plan-cele').addEventListener('click', (e) => { const b = e.target.closest('[data-cel]'); if (b) { draft.cel = b.dataset.cel; game.sound('tap'); sync(); } });
-  app.querySelector('[data-min]').parentElement.addEventListener('click', (e) => { const b = e.target.closest('[data-min]'); if (b) { draft.minuty = Number(b.dataset.min); game.sound('tap'); sync(); } });
-  app.querySelector('[data-act="save"]').addEventListener('click', () => {
-    settings.plan = { ...(settings.plan || {}), [s.id]: draft };
+  range.addEventListener('input', () => sync(true));
+  $('#plan-data').addEventListener('change', (e) => { if (e.target.value) { draft.data = e.target.value; sync(false); } });
+  $('[data-act="save"]').addEventListener('click', () => {
+    settings.plan = { ...(settings.plan || {}), [s.id]: { data: draft.data, koniec: draft.koniec } };
     settings.tempo = 'auto';
     store.save();
     refreshAutoRates();
-    toast('Plan zapisany — tempo dopasowane do Ciebie.');
+    game.sound('ok');
     location.hash = '#/';
   });
-  app.querySelector('[data-act="skip"]')?.addEventListener('click', () => {
-    settings.plan = { ...(settings.plan || {}), [s.id]: { pominiety: true } };
-    store.save();
-    location.hash = '#/';
-  });
-  sync();
+  sync(false);
 }
 
 function viewHome() {
@@ -2303,7 +2324,7 @@ function viewSettings() {
 
     <section class="card">
       <h2 class="card-title">Nowe fiszki dziennie</h2>
-      <p class="muted">„Plan” dobiera liczbę nowych fiszek do daty matury i Twojego celu${currentSubject() && auto ? ` (teraz: ${newPerDay(currentSubject().id)} dziennie)` : ''}. Możesz też ustawić stałą liczbę. Powtórki są zawsze bez limitu.</p>
+      <p class="muted">„Plan” dobiera liczbę nowych fiszek do dnia, w którym chcesz skończyć materiał${currentSubject() && auto ? ` (teraz: ${newPerDay(currentSubject().id)} dziennie)` : ''}. Możesz też ustawić stałą liczbę. Powtórki są zawsze bez limitu.</p>
       <div class="segmented seg-5" role="radiogroup" aria-label="Nowe fiszki dziennie">
         ${['auto', 10, 20, 30, 50].map((v) => `<button type="button" role="radio" aria-checked="${npd === v}" class="${npd === v ? 'active' : ''}" data-npd="${v}">${v === 'auto' ? 'Plan' : v}</button>`).join('')}
       </div>
@@ -2350,7 +2371,7 @@ function viewSettings() {
 
     <section class="card about">
       <h2 class="card-title">O aplikacji</h2>
-      <p><strong>IndexLab</strong> — kurs do matury rozszerzonej z WOS: fiszki z powtórkami (system Leitnera), lekcje, zadania i próbne matury. Kolumb jest teraz częścią IndexLab — Twoje postępy zostały zachowane.</p>
+      <p><strong>IndexLab</strong> — kursy do matury rozszerzonej z WOS i historii: fiszki z powtórkami (system Leitnera), lekcje, zadania i próbne matury. Kolumb jest teraz częścią IndexLab — Twoje postępy zostały zachowane.</p>
       <p class="muted">Materiały przygotowuje finalista Olimpiady Wiedzy o Prawach Człowieka. To materiały niezależne — nie są publikowane przez CKE ani organizatorów olimpiad.</p>
       <p class="muted">Zauważyłeś błąd w treści? Użyj przycisku „Zgłoś błąd” albo napisz na <a href="mailto:${REPORT_EMAIL}">${REPORT_EMAIL}</a>.</p>
     </section>`;
