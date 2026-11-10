@@ -1,7 +1,6 @@
 {
- "stan": "10 października 2026 r.",
- "zrodlo": "IndexLab — temat 18 „Aktualności i kto jest kim 2026”",
- "uwaga": "Przed maturą sprawdź, czy coś się nie zmieniło — aktualności są uzupełniane do maja.",
+ "stan": "10 listopada 2026 r.",
+ "uwaga": "Funkcje i stanowiska mogą się zmienić w każdej chwili — sprawdzaj je na bieżąco w wiadomościach i na stronach urzędów. Aktualizacja w aplikacji może potrwać kilka dni.",
  "sekcje": [
   {
    "id": "zmiany",
@@ -91,6 +90,36 @@
      "Premier Wielkiej Brytanii",
      "K. Starmer",
      "A. Burnham (20 VII 2026)"
+    ],
+    [
+     "Król Norwegii",
+     "Harald V (zm. 28 VIII 2026)",
+     "Haakon VIII (28 VIII 2026)"
+    ],
+    [
+     "Wielki książę Luksemburga",
+     "Henryk (abdykacja)",
+     "Wilhelm V (3 X 2025)"
+    ],
+    [
+     "Premier Holandii",
+     "D. Schoof",
+     "R. Jetten (23 II 2026)"
+    ],
+    [
+     "Prezydent Portugalii",
+     "M. Rebelo de Sousa",
+     "A. J. Seguro (9 III 2026)"
+    ],
+    [
+     "Premier Rumunii",
+     "I. Bolojan",
+     "L. Niculescu (20 X 2026)"
+    ],
+    [
+     "Premier Szwecji",
+     "U. Kristersson",
+     "U. Kristersson p.o. — trwa tworzenie rządu (po wyborach 13 IX 2026)"
     ]
    ]
   },
@@ -436,7 +465,7 @@
    "wiersze": [
     [
      "USA",
-     "prezydent Donald Trump (od 20 I 2025)"
+     "prezydent Donald Trump (od 20 I 2025); od 3 XI 2026 Demokraci mają większość w obu izbach Kongresu"
     ],
     [
      "Niemcy",
@@ -456,7 +485,7 @@
     ],
     [
      "Hiszpania",
-     "premier Pedro Sánchez (wybory 29 XI 2026)"
+     "premier Pedro Sánchez (wybory 29 XI 2026); król Filip VI"
     ],
     [
      "Węgry",
@@ -484,7 +513,7 @@
     ],
     [
      "Izrael",
-     "premier Binjamin Netanjahu (wybory 27 X 2026)"
+     "premier Binjamin Netanjahu — po wyborach 27 X 2026 trwa tworzenie rządu (G. Eisenkot)"
     ],
     [
      "Iran",
@@ -496,12 +525,212 @@
     ],
     [
      "Japonia",
-     "premier Sanae Takaichi"
+     "cesarz Naruhito; premier Sanae Takaichi (od 21 X 2025)"
     ],
     [
      "Watykan",
      "papież Leon XIV (od 8 V 2025)"
+    ],
+    [
+     "Chiny",
+     "przewodniczący ChRL Xi Jinping; premier Li Qiang"
+    ],
+    [
+     "Indie",
+     "premier Narendra Modi; prezydent Droupadi Murmu"
+    ],
+    [
+     "Turcja",
+     "prezydent Recep Tayyip Erdoğan"
+    ],
+    [
+     "Kanada",
+     "premier Mark Carney; król Karol III"
+    ],
+    [
+     "Australia",
+     "premier Anthony Albanese; król Karol III"
+    ],
+    [
+     "Brazylia",
+     "prezydent Luiz Inácio Lula da Silva — wygrał wybory 25 X 2026 (IV kadencja od 1 I 2027)"
+    ],
+    [
+     "Meksyk",
+     "prezydent Claudia Sheinbaum"
+    ],
+    [
+     "Argentyna",
+     "prezydent Javier Milei"
+    ],
+    [
+     "Korea Południowa",
+     "prezydent Lee Jae-myung (od VI 2025)"
+    ],
+    [
+     "Korea Północna",
+     "Kim Dzong Un"
+    ],
+    [
+     "Tajwan",
+     "prezydent Lai Ching-te"
+    ],
+    [
+     "Holandia",
+     "premier Rob Jetten (od 23 II 2026); król Wilhelm Aleksander"
+    ],
+    [
+     "Belgia",
+     "premier Bart De Wever; król Filip"
+    ],
+    [
+     "Szwecja",
+     "p.o. premier Ulf Kristersson (po wyborach 13 IX 2026 brak nowego rządu); król Karol XVI Gustaw"
+    ],
+    [
+     "Dania",
+     "premier Mette Frederiksen; król Fryderyk X"
+    ],
+    [
+     "Norwegia",
+     "premier Jonas Gahr Støre; król Haakon VIII"
+    ],
+    [
+     "Finlandia",
+     "prezydent Alexander Stubb; premier Petteri Orpo"
+    ],
+    [
+     "Austria",
+     "kanclerz Christian Stocker; prezydent A. Van der Bellen"
+    ],
+    [
+     "Portugalia",
+     "prezydent António José Seguro (od 9 III 2026); premier Luís Montenegro"
+    ],
+    [
+     "Rumunia",
+     "prezydent Nicușor Dan; premier Luca Niculescu (od 20 X 2026)"
+    ],
+    [
+     "Litwa",
+     "prezydent Gitanas Nausėda"
+    ],
+    [
+     "Mołdawia",
+     "prezydent Maia Sandu"
+    ],
+    [
+     "Syria",
+     "prezydent Ahmed asz-Szara"
+    ],
+    [
+     "Arabia Saudyjska",
+     "król Salman; następca tronu i premier Muhammad ibn Salman"
+    ],
+    [
+     "RPA",
+     "prezydent Cyril Ramaphosa"
     ]
+   ]
+  },
+  {
+   "id": "monarchie",
+   "tytul": "Monarchie — kto panuje",
+   "kolumny": [
+    "Państwo",
+    "Monarcha",
+    "Warto wiedzieć"
+   ],
+   "wiersze": [
+    [
+     "Wielka Brytania",
+     "król Karol III (od 8 IX 2022)",
+     "monarchia parlamentarna; premier Andy Burnham; Karol III jest też królem m.in. Kanady i Australii; następca: książę William"
+    ],
+    [
+     "Hiszpania",
+     "król Filip VI (od 19 VI 2014)",
+     "następczyni: księżniczka Eleonora; przedterminowe wybory 29 XI 2026"
+    ],
+    [
+     "Holandia",
+     "król Wilhelm Aleksander (od 30 IV 2013)",
+     "następczyni: księżniczka Amalia; premier Rob Jetten (od 23 II 2026)"
+    ],
+    [
+     "Belgia",
+     "król Filip (od 21 VII 2013)",
+     "następczyni: księżniczka Elżbieta; premier Bart De Wever (od II 2025)"
+    ],
+    [
+     "Luksemburg",
+     "wielki książę Wilhelm V (od 3 X 2025)",
+     "jedyne wielkie księstwo na świecie; po abdykacji ojca, Henryka"
+    ],
+    [
+     "Dania",
+     "król Fryderyk X (od 14 I 2024)",
+     "po abdykacji Małgorzaty II; premier Mette Frederiksen (III rząd od VI 2026)"
+    ],
+    [
+     "Szwecja",
+     "król Karol XVI Gustaw (od 15 IX 1973)",
+     "najdłużej panujący król Szwecji; rola wyłącznie reprezentacyjna — nie mianuje nawet premiera (robi to przewodniczący Riksdagu)"
+    ],
+    [
+     "Norwegia",
+     "król Haakon VIII (od 28 VIII 2026)",
+     "po śmierci ojca, Haralda V; następczyni: księżniczka Ingrid Aleksandra; premier Jonas Gahr Støre"
+    ],
+    [
+     "Monako",
+     "książę Albert II (od 2005)",
+     "księstwo, monarchia konstytucyjna"
+    ],
+    [
+     "Liechtenstein",
+     "książę Jan Adam II (od 1989)",
+     "od 2004 r. bieżące rządy sprawuje regent — następca tronu Alojzy; monarcha ma silną pozycję (weto wobec ustaw)"
+    ],
+    [
+     "Andora",
+     "współksiążęta: prezydent Francji i biskup Urgell (Hiszpania)",
+     "jedyna monarchia z dwoma współwładcami, żaden nie jest Andorczykiem"
+    ],
+    [
+     "Watykan",
+     "papież Leon XIV (od 8 V 2025)",
+     "monarchia absolutna i elekcyjna — papieża wybiera konklawe"
+    ],
+    [
+     "Japonia",
+     "cesarz Naruhito (od 1 V 2019)",
+     "jedyny cesarz na świecie; era Reiwa; po konstytucji z 1947 r. „symbol państwa” bez władzy politycznej; premier Sanae Takaichi"
+    ],
+    [
+     "Tajlandia",
+     "król Maha Vajiralongkorn — Rama X (od 2016)",
+     "monarchia konstytucyjna z surowym prawem chroniącym króla (lèse-majesté); premier Anutin Charnvirakul"
+    ],
+    [
+     "Arabia Saudyjska",
+     "król Salman (od 2015)",
+     "monarchia absolutna; faktycznie rządzi następca tronu i premier Muhammad ibn Salman"
+    ],
+    [
+     "Jordania",
+     "król Abdullah II (od 1999)",
+     "monarchia konstytucyjna z silną pozycją króla"
+    ],
+    [
+     "Maroko",
+     "król Muhammad VI (od 1999)",
+     "monarchia konstytucyjna z silną pozycją króla"
+    ]
+   ],
+   "notatki": [
+    "W Europie jest 12 monarchii (z Watykanem). Monarchie absolutne na świecie to m.in. Watykan, Arabia Saudyjska, Brunei, Oman, Eswatini.",
+    "Na maturze często pojawia się porównanie: monarcha w monarchii parlamentarnej „panuje, ale nie rządzi” — kontrasygnata, rząd odpowiada przed parlamentem."
    ]
   },
   {
@@ -557,8 +786,16 @@
      "Polska poza konwencją ottawską (miny przeciwpiechotne)"
     ],
     [
+     "23 II 2026",
+     "Rob Jetten premierem Holandii"
+    ],
+    [
      "28 II 2026",
      "śmierć Alego Chameneiego"
+    ],
+    [
+     "9 III 2026",
+     "António José Seguro prezydentem Portugalii"
     ],
     [
      "12 IV 2026",
@@ -573,8 +810,32 @@
      "odwołanie prokuratora MTK K. Khana"
     ],
     [
+     "28 VIII 2026",
+     "śmierć króla Norwegii Haralda V — królem Haakon VIII"
+    ],
+    [
+     "13 IX 2026",
+     "wybory w Szwecji — wygrywa opozycja, impas przy wyborze premiera"
+    ],
+    [
      "9 X 2026",
      "Pokojowy Nobel dla Navi Pillay; sankcje USA na MTK"
+    ],
+    [
+     "25 X 2026",
+     "Lula wygrywa wybory prezydenckie w Brazylii"
+    ],
+    [
+     "27 X 2026",
+     "wybory parlamentarne w Izraelu"
+    ],
+    [
+     "3 XI 2026",
+     "wybory połówkowe w USA — Demokraci przejmują Kongres"
+    ],
+    [
+     "29 XI 2026",
+     "przedterminowe wybory w Hiszpanii"
     ],
     [
      "1 I 2027",

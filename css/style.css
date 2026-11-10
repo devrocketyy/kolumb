@@ -1115,3 +1115,7 @@ button.btn-report { border: 0; background: none; font: inherit; font-size: .88re
 .prog-dz-row .core-mini i { position: absolute; inset: 0 auto 0 0; background: var(--text); border-radius: 99px; }
 .prog-how summary { cursor: pointer; font-weight: 600; }
 .prog-how ul { margin: 12px 0 0; padding-left: 20px; display: grid; gap: 6px; color: var(--text-2); font-size: .92rem; }
+.plan-more { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
+.plan-more .btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 48px; }
+.plan-more svg { width: 18px; height: 18px; }
+.plan-info { margin: 12px 4px 0; }

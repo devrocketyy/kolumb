@@ -696,7 +696,12 @@ function viewPlan() {
     <details class="card plan-exam"><summary>Matura: <b id="pl-ed"></b></summary>
       <input class="type-input" type="date" id="plan-data" value="${esc(draft.data)}" min="${isoDay(todayStart() + 2 * DAY)}" aria-label="Data matury">
     </details>
-    <button type="button" class="btn btn-primary btn-lg" data-act="save">${first ? 'Zaczynam' : 'Zapisz plan'}</button>`;
+    <button type="button" class="btn btn-primary btn-lg" data-act="save">${first ? 'Zaczynam' : 'Zapisz plan'}</button>
+    <div class="plan-more">
+      <button type="button" class="btn btn-ghost" data-act="zalecany">${ICONS.redo}<span>Zalecany plan</span></button>
+      ${first ? '' : `<button type="button" class="btn btn-ghost" data-act="reset">${ICONS.close}<span>Resetuj plan</span></button>`}
+    </div>
+    <p class="muted small plan-info">Plan sam przelicza dzienne porcje od dzisiaj — jeśli zrobisz więcej lub mniej, liczby na kolejne dni się dopasują.</p>`;
   const range = app.querySelector('#pl-range');
   const $ = (id) => app.querySelector(id);
   const sync = (fromRange) => {
@@ -722,6 +727,22 @@ function viewPlan() {
     $('#pl-left').textContent = `Zostało: ${p.fresh.toLocaleString('pl-PL')} ${plural(p.fresh, 'fiszka', 'fiszki', 'fiszek')} i ${p.zLeft} ${plural(p.zLeft, 'zadanie', 'zadania', 'zadań')}${p.minuty > 90 ? ' — to dużo na jeden dzień, przesuń koniec dalej.' : '.'}`;
   };
   range.addEventListener('input', () => sync(true));
+  $('[data-act="zalecany"]').addEventListener('click', () => {
+    draft.data = s.egzamin || draft.data;
+    draft.koniec = isoDay(planOf(s, { data: draft.data, koniec: null }).koniec);
+    $('#plan-data').value = draft.data;
+    game.sound('tap');
+    sync(false);
+    toast('Ustawiono zalecany plan: miesiąc przed maturą na powtórki. Zapisz, aby zatwierdzić.');
+  });
+  $('[data-act="reset"]')?.addEventListener('click', () => {
+    const stary = settings.plan[s.id];
+    delete settings.plan[s.id];
+    store.save();
+    refreshAutoRates();
+    viewPlan();
+    toast('Plan zresetowany — ułóż go od nowa.', { label: 'Cofnij', run: () => { settings.plan[s.id] = stary; store.save(); refreshAutoRates(); viewPlan(); } });
+  });
   $('#plan-data').addEventListener('change', (e) => { if (e.target.value) { draft.data = e.target.value; sync(false); } });
   $('[data-act="save"]').addEventListener('click', () => {
     settings.plan = { ...(settings.plan || {}), [s.id]: { data: draft.data, koniec: draft.koniec } };
@@ -2246,7 +2267,7 @@ function viewAktualnosci() {
         ${body(sec, rows)}
         ${!q && sec.notatki ? sec.notatki.map((n) => `<p class="nw-note"><b>Warto wiedzieć</b>${esc(n)}</p>`).join('') : ''}
       </section>`).join('') || '<p class="muted">Nic nie znaleziono.</p>'}</div>
-    <p class="muted small news-foot">${esc(A.uwaga || '')} Źródło: ${esc(A.zrodlo)}.</p>`;
+    ${A.uwaga || A.zrodlo ? `<p class="muted small news-foot">${esc(A.uwaga || '')}${A.zrodlo ? ` Źródło: ${esc(A.zrodlo)}.` : ''}</p>` : ''}`;
   app.querySelectorAll('.nw-chip').forEach((b) => b.addEventListener('click', () => {
     newsSec = b.dataset.sec; viewAktualnosci();
     app.querySelector('.nw-chip.on')?.scrollIntoView({ inline: 'center', block: 'nearest' });
@@ -2620,7 +2641,15 @@ function viewSettings() {
       <div class="segmented seg-5" role="radiogroup" aria-label="Nowe fiszki dziennie">
         ${['auto', 10, 20, 30, 50].map((v) => `<button type="button" role="radio" aria-checked="${npd === v}" class="${npd === v ? 'active' : ''}" data-npd="${v}">${v === 'auto' ? 'Plan' : v}</button>`).join('')}
       </div>
-      <a class="link-btn" href="#/plan">Zmień plan do matury</a>
+    </section>
+
+    <section class="card">
+      <h2 class="card-title">Plan nauki do matury</h2>
+      ${(() => { const cs = currentSubject(); const pp = cs && planOf(cs); return pp?.data ? `<p class="muted">${esc(cs.nazwa)}: koniec materiału ${fmtDay(pp.koniec)}, matura ${fmtDay(pp.egz)}.</p>` : ''; })()}
+      <div class="actions">
+        <a class="btn btn-ghost btn-lg" href="#/plan">Zmień plan</a>
+        <button type="button" class="btn btn-danger btn-lg" data-act="plan-reset">Resetuj plan</button>
+      </div>
     </section>
 
     <section class="card">
@@ -2682,6 +2711,16 @@ function viewSettings() {
     store.save();
     viewSettings();
   }));
+  app.querySelector('[data-act="plan-reset"]')?.addEventListener('click', () => {
+    const cs = currentSubject();
+    if (!cs) return;
+    const stary = settings.plan?.[cs.id];
+    if (settings.plan) delete settings.plan[cs.id];
+    store.save();
+    refreshAutoRates();
+    location.hash = '#/plan';
+    if (stary) toast('Plan zresetowany — ułóż go od nowa.', { label: 'Cofnij', run: () => { settings.plan[cs.id] = stary; store.save(); refreshAutoRates(); location.hash = '#/'; } });
+  });
   app.querySelector('[data-act="rename"]').addEventListener('click', () => { store.renameProfile(store.activeProfile().id, app.querySelector('#pname').value); toast('Zapisano nazwę profilu.'); });
   app.querySelector('[data-act="delprof"]')?.addEventListener('click', () => {
     if (!confirm('Usunąć ten profil i jego postępy z tego urządzenia?')) return;
