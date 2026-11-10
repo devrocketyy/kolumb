@@ -90,3 +90,16 @@ A = {
       'Kryterium A (narracja) do 12 pkt, kryterium B (spójność) do 3 pkt; min. 300 słów.')),
  ],
 }
+
+
+# Omówienia zadań, które wcześniej miały tylko klucz.
+OMOWIENIA = {
+ '18.1': 'Przewrót majowy (12–14 V 1926): Józef Piłsudski z wiernymi mu oddziałami obalił rząd Wincentego Witosa; prezydent Stanisław Wojciechowski ustąpił. Początek rządów sanacji i nowela sierpniowa wzmacniająca władzę wykonawczą. W tekstach prasowych szukaj walk w Warszawie, nazwisk Piłsudskiego, Witosa i Wojciechowskiego.',
+ '21': 'Irena Sendlerowa — działaczka „Żegoty” (Rady Pomocy Żydom), która uratowała z getta warszawskiego około 2500 dzieci. Władysław Anders — dowódca Armii Polskiej w ZSRR utworzonej po układzie Sikorski–Majski (1941), potem 2 Korpusu. Witold Pilecki — dobrowolnie dał się zamknąć w Auschwitz (1940), by zorganizować konspirację i przekazać raporty; stracony przez komunistów w 1948 r. Rozpoznawaj postacie po jednym charakterystycznym czynie.',
+ '25.1': 'Poznański Czerwiec (28 VI 1956) — strajk robotników zakładów Cegielskiego przerodził się w demonstrację i walki uliczne, krwawo stłumione przez wojsko i UB (kilkadziesiąt ofiar śmiertelnych). Premier Cyrankiewicz groził, że władza „odrąbie rękę” podnoszoną przeciw niej.',
+ '25.3': 'Odwilż październikowa (1956): powrót Gomułki do władzy, zmniejszenie terroru i cenzury, odejście od kolektywizacji, porozumienie z Kościołem (uwolnienie kard. Wyszyńskiego). Poznański Czerwiec był jednym z impulsów do tych zmian.',
+}
+for _w in A['wiazki']:
+    for _z in _w['zadania']:
+        if not _z.get('omowienie') and _z['nr'] in OMOWIENIA:
+            _z['omowienie'] = OMOWIENIA[_z['nr']]

@@ -124,3 +124,23 @@ A = {
       'Kryterium A (narracja) do 12 pkt, kryterium B (spójność) do 3 pkt; min. 300 słów.')),
  ],
 }
+
+
+# Omówienia zadań, które wcześniej miały tylko klucz.
+OMOWIENIA = {
+ '5.1': 'Przy porównaniu podobieństwo i różnica muszą dotyczyć tej samej kwestii — tu motywów chrztu. Typowy błąd: podanie dwóch podobieństw albo różnicy, która nie wynika z tekstów. Kontekst: chrzest w 966 r., małżeństwo z czeską Dobrawą; przyjęcie chrztu z Czech, a nie z Niemiec, wzmacniało pozycję Mieszka wobec Cesarstwa.',
+ '9.1': 'Śluby lwowskie złożył Jan Kazimierz 1 IV 1656 r. w katedrze lwowskiej, w czasie potopu szwedzkiego: oddał państwo pod opiekę Matki Bożej, „Królowej Korony Polskiej”, i obiecał ulżyć doli chłopów. Uzasadnienie musi wskazać te elementy w treści dokumentu, a nie tylko podać datę.',
+ '14': 'Rozpoznawanie herbów powstańczych: w powstaniu listopadowym (1830–1831) herb był dwudzielny — Orzeł i Pogoń (Korona i Litwa). Rząd Narodowy w 1863 r. używał herbu trójdzielnego: Orzeł, Pogoń i Michał Archanioł (Ruś), co podkreślało odbudowę Rzeczypospolitej w granicach przedrozbiorowych.',
+ '15': 'Praca organiczna to program pozytywistów po upadku powstania styczniowego: rozwój gospodarki, przemysłu, handlu i oświaty zamiast walki zbrojnej. Ilustracja pasuje, jeśli pokazuje pracę, rozwój gospodarczy lub edukację; nie pasuje, jeśli pokazuje walkę lub konspirację. W uzasadnieniu nazwij element ilustracji i połącz go z hasłem programu.',
+ '16': 'Aleksander Wielopolski, naczelnik rządu cywilnego Królestwa Polskiego (1862), prowadził politykę ugody z Rosją: reformy (spolszczenie administracji, Szkoła Główna, oczynszowanie chłopów) w zamian za lojalność. Branka — pobór do wojska wymierzony w młodzież spiskową w styczniu 1863 r. — miała rozbić konspirację, a przyspieszyła wybuch powstania (22 I 1863). Za 2 pkt potrzebne jest nazwisko i poprawne wyjaśnienie skutku.',
+ '17.1': 'Hakata (Niemiecki Związek Marchii Wschodnich, 1894) wspierała germanizację ziem zaboru pruskiego. Pomniki niemieckich władców i bohaterów miały podkreślać niemiecki charakter Wielkopolski. W uzasadnieniu połącz cel organizacji (umacnianie niemieckości) z funkcją pomnika w przestrzeni miasta.',
+ '18.2': 'Traktat wersalski (28 VI 1919) przyznał Polsce większość Wielkopolski i Pomorze Gdańskie, zarządził plebiscyty na Górnym Śląsku oraz Warmii i Mazurach, a z Gdańska utworzył Wolne Miasto pod opieką Ligi Narodów. Rozpoznasz go po tych postanowieniach na mapie lub w tekście.',
+ '19.1': 'Tajny protokół paktu Ribbentrop–Mołotow (23 VIII 1939) dzielił Polskę na linii Narew–Wisła–San. Po agresji ZSRR (17 IX) traktat o granicach i przyjaźni z 28 IX 1939 r. przesunął granicę na Bug: Niemcy dostały Lubelszczyznę i część Mazowsza, a ZSRR Litwę. Na maturze to częsta pułapka — sprawdź, którą rzekę pokazuje mapa.',
+ '20': 'Odwilż październikowa (1956) to potępienie stalinizmu i kultu jednostki, dojście do władzy Gomułki i złagodzenie cenzury. Wiersz wychwalający Bieruta to socrealizm (ok. 1949–1955), czyli przeciwieństwo odwilży. Uzasadnienie musi odwołać się do treści wiersza (pochwała przywódcy), a nie tylko do daty.',
+ '22': 'Szukaj w tekście wskazówek chronologicznych: nazwisk, wydarzeń, zjawisk gospodarczych. Lata 60. to „mała stabilizacja” rządów Gomułki — powolna poprawa warunków życia bez głębokich reform, zakończona kryzysem marca 1968 i grudnia 1970. Odrzucaj dekady, w których opisane zjawiska nie mogły wystąpić.',
+ '24': 'Anna Walentynowicz — suwnicowa, której zwolnienie w sierpniu 1980 r. wywołało strajk w Stoczni Gdańskiej; ks. Jerzy Popiełuszko — kapelan „Solidarności”, zamordowany przez funkcjonariuszy SB w październiku 1984 r.; Tadeusz Mazowiecki — doradca strajkujących w 1980 r., w 1989 r. pierwszy niekomunistyczny premier w bloku wschodnim. Rozpoznawaj postacie po funkcji i wydarzeniu, z którym są związane.',
+}
+for _w in A['wiazki']:
+    for _z in _w['zadania']:
+        if not _z.get('omowienie') and _z['nr'] in OMOWIENIA:
+            _z['omowienie'] = OMOWIENIA[_z['nr']]
