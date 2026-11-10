@@ -417,6 +417,10 @@ function rebrandNote() {
 // Uczeń wybiera suwakiem dzień, w którym chce skończyć materiał; z tego wynika dzienna porcja fiszek i zadań.
 const MIN_NA_FISZKE = 0.8; // nowa fiszka + jej późniejsze powtórki ≈ 50 s
 const MIN_NA_ZADANIE = 3;
+// Faza powtórek przed maturą: fiszka z ostatniego dnia nowego materiału potrzebuje ok. 4 tygodni (1+2+4+8+16 dni),
+// żeby przejść kolejne pudełka; do tego 4–5 pełnych arkuszy z przedmiotu. Minimum 4 tygodnie, zalecane 6.
+const POWTORKI_MIN = 28;
+const POWTORKI_ZALECANE = 42;
 const DAY = 86400000;
 const parseDay = (iso) => { const [y, m, d] = String(iso).split('-').map(Number); return new Date(y, m - 1, d).getTime(); };
 const isoDay = (t) => { const d = new Date(t); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
@@ -432,7 +436,7 @@ function planOf(s, over) {
   const today = todayStart();
   const egz = parseDay(data);
   const dniDoMatury = Math.max(1, Math.round((egz - today) / DAY));
-  let koniec = p.koniec ? parseDay(p.koniec) : egz - Math.min(30, Math.floor(dniDoMatury / 4)) * DAY;
+  let koniec = p.koniec ? parseDay(p.koniec) : egz - Math.min(POWTORKI_ZALECANE, Math.floor(dniDoMatury / 4)) * DAY;
   koniec = Math.min(egz, Math.max(today + DAY, koniec));
   const dni = Math.max(1, Math.round((koniec - today) / DAY));
   const fresh = summary(s.id, allUnits(s), 0).fresh;
@@ -476,7 +480,7 @@ function planCard(s) {
   return `<section class="card plan-card">
     <a class="plan-top" href="#/plan" aria-label="Zmień plan">
       <div class="plan-days"><b>${p.dniDoMatury}</b><span>${plural(p.dniDoMatury, 'dzień', 'dni', 'dni')} do matury</span></div>
-      <div class="plan-text"><strong>Plan na dziś</strong><small>koniec materiału: ${fmtShort(p.koniec)} · ok. ${p.minuty} min</small></div>
+      <div class="plan-text"><strong>Plan na dziś</strong><small>koniec materiału: ${fmtShort(p.koniec)} · ok. ${p.minuty} min${p.rezerwa < POWTORKI_MIN && p.fresh ? ' · <b>za mało czasu na powtórki</b>' : ''}</small></div>
       <span class="plan-edit">${ICONS.next}</span>
     </a>
     <div class="plan-today">
@@ -682,10 +686,14 @@ function viewPlan() {
     <section class="card plan-slider">
       <p class="eyebrow">Kończę materiał</p>
       <output class="plan-date" id="pl-date"></output>
-      <input type="range" id="pl-range" min="1" step="1" aria-label="Dzień końca nauki nowego materiału">
+      <div class="plan-track">
+        <input type="range" id="pl-range" min="1" step="1" aria-label="Dzień końca nauki nowego materiału">
+        <div class="plan-marks" aria-hidden="true"><i id="pl-m6"><span>zalecany koniec</span></i></div>
+      </div>
       <div class="plan-scale"><span>jutro</span><span id="pl-egz"></span></div>
       <div class="plan-bar" aria-hidden="true"><i id="pl-learn"></i><i id="pl-rez" class="rez"></i></div>
       <p class="plan-legend"><span><i></i>nowy materiał · <b id="pl-dni"></b></span><span><i class="rez"></i>powtórki i arkusze · <b id="pl-rezn"></b></span></p>
+      <p class="plan-status" id="pl-status"></p>
     </section>
     <div class="plan-tiles" aria-live="polite">
       <div class="plan-tile"><b id="pl-f"></b><span>fiszek dziennie</span></div>
@@ -720,6 +728,13 @@ function viewPlan() {
     $('#pl-rez').style.width = `${100 - (p.dni / max) * 100}%`;
     $('#pl-dni').textContent = `${p.dni} ${plural(p.dni, 'dzień', 'dni', 'dni')}`;
     $('#pl-rezn').textContent = `${p.rezerwa} ${plural(p.rezerwa, 'dzień', 'dni', 'dni')}`;
+    const mark = (el, d) => { el.style.left = `${((max - d) / max) * 100}%`; el.hidden = d >= max; };
+    mark($('#pl-m6'), POWTORKI_ZALECANE);
+    const st = $('#pl-status');
+    st.className = `plan-status ${p.rezerwa >= POWTORKI_ZALECANE ? 'ok' : p.rezerwa >= POWTORKI_MIN ? 'mid' : 'bad'}`;
+    st.textContent = p.rezerwa >= POWTORKI_ZALECANE ? '✓ Zalecane: co najmniej 6 tygodni na powtórki i arkusze'
+      : p.rezerwa >= POWTORKI_MIN ? 'Minimum — lepiej zostawić 6 tygodni na powtórki'
+      : 'Za mało na utrwalenie — ostatnie fiszki potrzebują ok. 4 tygodni powtórek';
     $('#pl-f').textContent = p.rate;
     $('#pl-z').textContent = p.zRate;
     $('#pl-m').textContent = p.minuty;
@@ -733,7 +748,7 @@ function viewPlan() {
     $('#plan-data').value = draft.data;
     game.sound('tap');
     sync(false);
-    toast('Ustawiono zalecany plan: miesiąc przed maturą na powtórki. Zapisz, aby zatwierdzić.');
+    toast('Zalecany plan: 6 tygodni przed maturą na powtórki i arkusze. Zapisz, aby zatwierdzić.');
   });
   $('[data-act="reset"]')?.addEventListener('click', () => {
     const stary = settings.plan[s.id];
