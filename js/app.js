@@ -487,6 +487,186 @@ function planCard(s) {
   </section>`;
 }
 
+// ---------- prognoza wyniku matury ----------
+// Szacunek celowo ostrożny: lepiej zaniżyć niż rozczarować. Składniki:
+//  • wiedza w dziale — ile fiszek pamiętasz (szansa przypomnienia zależy od pudełka; zaległe i często mylone liczą się słabiej,
+//    nieprzerobione = 0), albo wynik testów ABCD z przerobionych tematów;
+//  • skuteczność w zadaniach maturalnych z działu (samoocena pomniejszona o 10%, przy małej liczbie zadań przyciągana do 50%);
+//  • wagi działów = udział punktów działu w prawdziwych arkuszach CKE;
+//  • próbne matury (do 60% wagi przy kilku rozwiązanych);
+//  • prognoza na maj: Twoje faktyczne tempo z ostatnich 14 dni, a nie tempo z planu.
+const PAMIEC = [0, 0.3, 0.45, 0.6, 0.78, 0.88, 0.94];
+const PRIOR_ZADANIA = 0.5;
+
+function wagiDzialow(s) {
+  const w = {};
+  const ids = new Set(s.dzialy.map((d) => d.id));
+  for (const a of s.arkusze) for (const z of a.zadania) {
+    const ds = z.dzialy.filter((d) => ids.has(d));
+    ds.forEach((d) => (w[d] = (w[d] || 0) + z.punkty / ds.length));
+  }
+  const sum = Object.values(w).reduce((a, b) => a + b, 0);
+  s.dzialy.forEach((d) => (w[d.id] = sum ? (w[d.id] || 0) / sum : 1 / s.dzialy.length));
+  return w;
+}
+
+function prognoza(s, tempo) {
+  const st = store.get();
+  const now = Date.now();
+  const wagi = wagiDzialow(s);
+  const dzialy = [];
+  let odpowiedzi = 0, nowe14 = 0;
+  for (const d of s.dzialy) {
+    let n = 0, pam = 0, fresh = 0;
+    for (const u of d.poddzialy) for (const f of u.fiszki) {
+      n++;
+      const c = st.cards[cardKey(s.id, u.id, f.id)];
+      if (!c || !c.reps) { fresh++; continue; }
+      odpowiedzi += c.reps;
+      if (c.first && now - c.first < 14 * DAY) nowe14++;
+      let r = PAMIEC[Math.min(6, c.box || 0)];
+      if (c.due && c.due < now - 3 * DAY) r *= 0.8;          // zaległa powtórka — część już się zatarła
+      r /= 1 + 0.08 * (c.lapses || 0);                         // często mylona
+      pam += r;
+    }
+    const K = n ? pam / n : 0;
+    // testy ABCD z tematów działu
+    let tOk = 0, tAll = 0;
+    const tematy = new Set();
+    for (const t of st.tests) {
+      if (t.sid !== s.id) continue;
+      const [typ, id] = String(t.scope).split(':');
+      const uid = typ === 'p' && s.units.get(id)?.dzialId === d.id ? id : null;
+      if (typ === 'd' && id === d.id) d.poddzialy.forEach((u) => tematy.add(u.id));
+      else if (uid) tematy.add(uid);
+      else continue;
+      tOk += t.score; tAll += t.total;
+    }
+    const Ktest = tAll ? (tematy.size / Math.max(1, d.poddzialy.length)) * (tOk / tAll) * 0.8 : 0;
+    // zadania maturalne z działu
+    let zp = 0, zm = 0;
+    const lista = [...tasksOf(s, d.id), ...bankTasks(s, d.id)];
+    for (const z of lista) {
+      const r = st.zadania[taskKey(s.id, z)];
+      if (!r || !r.max) continue;
+      const udzial = 1 / Math.max(1, (z.dzialy || []).length);
+      zp += r.pkt * 0.9 * udzial; zm += r.max * udzial;
+    }
+    const A = (zp + PRIOR_ZADANIA * 8) / (zm + 8);
+    const wiedza = Math.max(K, Ktest);
+    dzialy.push({ d, w: wagi[d.id], n, fresh, pam, K: wiedza, A, zm, wynik: wiedza * A });
+  }
+  const model = (arr) => arr.reduce((a, x) => a + x.w * x.wynik, 0);
+  const dzis = model(dzialy);
+  // próbne matury
+  const proby = Object.values(st.egzaminy || {}).filter((e) => e.sid === s.id && e.koniec && e.ocena?.max).sort((a, b) => b.koniec - a.koniec).slice(0, 3);
+  const M = proby.length ? proby.reduce((a, e) => a + e.ocena.pkt / e.ocena.max, 0) / proby.length * 0.95 : null;
+  const wm = Math.min(0.6, 0.25 * proby.length);
+  // prognoza na maj: obecne tempo (albo podane suwakiem), nowe fiszki dochodzą do działów w kolejności kursu
+  const p = planOf(s);
+  const dniDo = p.data ? Math.max(0, Math.round((Math.min(p.koniec, p.egz) - todayStart()) / DAY)) : 0;
+  const tempoTeraz = Math.round(nowe14 / 14);
+  let zapas = Math.round((tempo ?? tempoTeraz) * dniDo);
+  const maj = dzialy.map((x) => {
+    const ile = Math.min(x.fresh, zapas);
+    zapas -= ile;
+    const K = x.n ? Math.max(x.K, (x.pam + ile * 0.75) / x.n) : x.K;
+    return { ...x, wynik: K * x.A };
+  });
+  const majModel = model(maj);
+  const laczenie = (m) => (M == null ? m : (1 - wm) * m + wm * Math.min(M, m + 0.15));
+  const punkt = laczenie(dzis);
+  const punktMaj = laczenie(majModel) + (M == null ? 0 : wm * (majModel - dzis));
+  // niepewność: im mniej danych, tym szerszy przedział; pokazujemy dolną połowę
+  const dowody = odpowiedzi / 40 + dzialy.reduce((a, x) => a + x.zm, 0) / 4 + proby.length * 8 + st.tests.filter((t) => t.sid === s.id).length;
+  const margines = Math.min(0.25, Math.max(0.05, 0.04 + 0.22 / Math.sqrt(1 + dowody)));
+  const szacunek = (x) => ({
+    pokaz: Math.max(0, Math.floor((x - margines / 2) * 100)),
+    od: Math.max(0, Math.floor((x - margines) * 100)),
+    do: Math.min(95, Math.ceil((x + margines / 2) * 100)),
+  });
+  // ile punktów dałoby opanowanie działu (od stanu na dziś)
+  const zysk = dzialy.map((x) => ({ d: x.d, pkt: x.w * (x.A * PAMIEC[6] - x.wynik) * 60 })).sort((a, b) => b.pkt - a.pkt).filter((x) => x.pkt >= 0.5).slice(0, 3);
+  return {
+    gotowa: odpowiedzi >= 60 || dzialy.some((x) => x.zm >= 5) || proby.length > 0,
+    postepDanych: Math.min(1, Math.max(odpowiedzi / 60, dzialy.reduce((a, x) => a + x.zm, 0) / 5)),
+    dzis: szacunek(punkt), maj: szacunek(punktMaj), dzialy, zysk, proby: proby.length,
+    tempoTeraz, planTempo: p.rate || 0, dniDo, srednia: s.srednia,
+  };
+}
+
+function prognozaCard(s) {
+  const pr = prognoza(s);
+  if (!pr.gotowa) {
+    return `<a class="card prog-card" href="#/prognoza"><div class="prog-left"><span class="eyebrow">Prognoza matury</span>
+      <strong>Jeszcze za mało danych</strong>${progressBar(pr.postepDanych, 'Dane do prognozy')}<small>Odpowiedz na 60 fiszek albo rozwiąż 5 zadań</small></div>${ICONS.next}</a>`;
+  }
+  return `<a class="card prog-card" href="#/prognoza">
+    <div class="prog-left"><span class="eyebrow">Prognoza matury</span>
+      <div class="prog-nums"><div><b>${pr.dzis.pokaz}%</b><small>gdyby matura była dziś</small></div><div><b>${pr.maj.pokaz}%</b><small>w maju przy Twoim tempie</small></div></div></div>
+    ${ICONS.next}</a>`;
+}
+
+function viewPrognoza() {
+  const s = currentSubject();
+  if (!s) return notFound();
+  const pr0 = prognoza(s);
+  let tempo = pr0.tempoTeraz;
+  const render = () => {
+    const pr = prognoza(s, tempo);
+    const box = app.querySelector('.prog-body');
+    if (!pr.gotowa) {
+      box.innerHTML = `<section class="card"><h2 class="card-title">Potrzebujemy trochę więcej danych</h2>
+        ${progressBar(pr.postepDanych, 'Dane do prognozy')}
+        <p class="muted">Odpowiedz na 60 fiszek albo rozwiąż 5 zadań maturalnych — wtedy policzymy prognozę.</p>
+        <a class="btn btn-primary btn-lg" href="#/nauka">Do nauki</a></section>`;
+      return;
+    }
+    const pas = (x) => `<div class="prog-range" aria-label="Zakres od ${x.od} do ${x.do}%"><i style="left:${x.od}%;width:${Math.max(1, x.do - x.od)}%"></i><b style="left:${x.pokaz}%"></b>${pr.srednia ? `<em style="left:${pr.srednia.procent}%" title="Średnia w kraju"></em>` : ''}</div>`;
+    const hero = (q) => `
+        <div class="prog-nums big">
+          <div><b>${q.dzis.pokaz}%</b><small>gdyby matura była dziś</small></div>
+          <div><b>${q.maj.pokaz}%</b><small>w maju · ok. ${Math.round(q.maj.pokaz * 0.6)} / 60 pkt</small></div>
+        </div>
+        ${pas(q.maj)}
+        <p class="prog-scale"><span>prawdopodobnie ${q.maj.od}–${q.maj.do}%</span>${q.srednia ? `<span>średnia w kraju ${q.srednia.procent}% (${esc(q.srednia.rok)})</span>` : ''}</p>`;
+    const zysk = (q) => q.zysk.length ? `<section class="card"><h2 class="card-title">Gdzie zyskasz najwięcej</h2>
+        <div class="prog-zysk">${q.zysk.map((z) => `<a href="#/d/${enc(s.id)}/${enc(z.d.id)}"><span>${esc(z.d.nazwa)}</span><b>+${Math.floor(z.pkt)} pkt</b>${ICONS.next}</a>`).join('')}</div></section>` : '';
+    box.innerHTML = `
+      <section class="prog-hero">${hero(pr)}</section>
+      <section class="card prog-tempo">
+        <h2 class="card-title">A gdybyś robił więcej?</h2>
+        <output class="prog-tempo-val"><b>${tempo}</b> nowych fiszek dziennie</output>
+        <input type="range" id="pr-tempo" min="0" max="80" step="1" value="${tempo}" aria-label="Nowe fiszki dziennie">
+        <p class="prog-scale"><span>teraz: ${pr.tempoTeraz}/dzień</span><span>plan: ${pr.planTempo}/dzień</span></p>
+      </section>
+      <div class="prog-zysk-wrap">${zysk(pr)}</div>
+      <section class="card"><h2 class="card-title">Działy</h2>
+        <div class="prog-dz">${pr.dzialy.map((x) => `<div class="prog-dz-row"><span>${esc(x.d.nazwa)}</span><small>${Math.round(x.w * 60)} pkt na maturze · znasz ${pct(x.K)}% · zadania ${x.zm ? pct(x.A) + '%' : '—'}</small>
+          <div class="core-mini"><i style="width:${x.wynik * 100}%"></i></div></div>`).join('')}</div>
+      </section>
+      <details class="card prog-how"><summary>Jak to liczymy</summary>
+        <ul>
+          <li>Wiedza: ile fiszek z działu pamiętasz — im wyższe pudełko, tym pewniej; zaległe powtórki i częste pomyłki obniżają wynik, nieprzerobione liczą się jako 0.</li>
+          <li>Skuteczność: Twoje punkty z zadań maturalnych z działu (samoocenę pomniejszamy o 10%). Przy kilku zadaniach zakładamy 50%.</li>
+          <li>Wagi działów jak w prawdziwych arkuszach CKE.${pr.proby ? ` Uwzględniamy też ${pr.proby} ${plural(pr.proby, 'próbną maturę', 'próbne matury', 'próbnych matur')}.` : ' Rozwiąż próbną maturę, a prognoza będzie dokładniejsza.'}</li>
+          <li>Pokazujemy ostrożny szacunek — prawdziwy wynik częściej będzie wyższy niż niższy.</li>
+        </ul></details>`;
+    const r = box.querySelector('#pr-tempo');
+    const upd = () => {
+      r.style.setProperty('--v', `${(tempo / 80) * 100}%`);
+      const q = prognoza(s, tempo);
+      box.querySelector('.prog-hero').innerHTML = hero(q);
+      box.querySelector('.prog-tempo-val b').textContent = tempo;
+      box.querySelector('.prog-zysk-wrap').innerHTML = zysk(q);
+    };
+    r.addEventListener('input', () => { tempo = Number(r.value); upd(); });
+    upd();
+  };
+  app.innerHTML = `${pageHead('Prognoza matury', '#/', s.nazwa)}<div class="prog-body"></div>`;
+  render();
+}
+
 function viewPlan() {
   const s = currentSubject();
   if (!s) return notFound();
@@ -575,6 +755,7 @@ function viewHome() {
     ${rebrandNote()}
     ${s ? coreCard(s) : ''}
     ${s ? planCard(s) : ''}
+    ${s ? prognozaCard(s) : ''}
     ${premiumCard()}
     ${s ? goalCard(s, rec, todo) : ''}
     ${showInstall ? `<div class="install-banner">
@@ -2602,6 +2783,7 @@ const routes = [
   [/^#\/konto$/, viewKonto],
   [/^#\/ustawienia$/, viewSettings],
   [/^#\/plan$/, viewPlan],
+  [/^#\/prognoza$/, viewPrognoza],
   [/^#\/plany(?:\/(ok))?$/, viewPlany],
 ];
 
