@@ -1,6 +1,6 @@
 // IndexLab — aplikacja do nauki do matury (dawniej Kolumb).
 import * as store from './store.js';
-import { loadSubjects } from './data.js';
+import { loadIndex, loadFull, takeErrors } from './data.js';
 import * as game from './game.js';
 import * as cloud from './cloud.js';
 import * as dostep from './dostep.js';
@@ -1003,7 +1003,7 @@ function bindSubjSwitch(rerender) {
     game.sound('tap');
     updateTopStats();
     if (!st.plan?.[b.dataset.switch]) location.hash = '#/plan';
-    else rerender();
+    else route(); // przez routing — poczeka, aż treść przedmiotu się wczyta
   });
 }
 
@@ -3024,6 +3024,7 @@ function route() {
   // bramka: najpierw logowanie (profil), potem wybór przedmiotu
   const gate = !store.loggedIn() ? viewKonto : !store.get().settings.przedmiot && subjects.length && !/^#\/(przedmiot|start)$/.test(hash) ? viewPrzedmiot : null;
   const hit = gate ? null : routes.find(([re]) => re.test(hash));
+  if (!gate && hit && !/^#\/(konto|przedmiot|start)$/.test(hash) && czekajNaTresc(hash)) { updateTopStats(); return; }
   if (gate) gate();
   else if (hit) {
     const m = hash.match(hit[0]);
@@ -3061,12 +3062,47 @@ document.addEventListener('keydown', (e) => {
 
 // ---------- start ----------
 // Treści: z plików (tryb bezpłatny) albo z bazy — tylko to, do czego konto ma dostęp (tryb premium).
-async function zaladujTresci() {
+// Szybki start: najpierw spis przedmiotów (kilka KB) — ekrany profilu i wyboru kursu są od razu gotowe;
+// pełne treści dochodzą w tle, zaczynając od przedmiotu, którego uczeń się uczy.
+let gotowe = {};                     // id przedmiotu → Promise (treść wczytana)
+let ladowanie = Promise.resolve();   // wszystkie przedmioty wczytane
+async function startTresci() {
+  let zrodlo;
   if (dostep.wlaczone()) {
     await dostep.odswiez().catch(() => null);
-    ({ subjects, errors: loadErrors } = await loadSubjects(await dostep.pobierzTresci()));
-  } else ({ subjects, errors: loadErrors } = await loadSubjects());
-  refreshAutoRates();
+    zrodlo = await dostep.pobierzTresci();
+  }
+  const wpisy = await loadIndex(zrodlo);
+  subjects = wpisy.map((w) => w.stub).sort((a, b) => a.nazwa.localeCompare(b.nazwa, 'pl'));
+  loadErrors = takeErrors();
+  const cur = store.get().settings.przedmiot;
+  const kolej = [...wpisy].sort((a, b) => (b.stub.id === cur) - (a.stub.id === cur));
+  gotowe = {};
+  let prev = Promise.resolve();
+  for (const w of kolej) {
+    const p = prev.then(() => loadFull(w)).then((full) => {
+      const i = subjects.findIndex((x) => x.id === full.id);
+      if (i >= 0) subjects[i] = full;
+    }).catch((e) => { loadErrors.push(`${w.file}: ${e.message}`); });
+    gotowe[w.stub.id] = p;
+    prev = p;
+  }
+  ladowanie = prev.then(() => { loadErrors.push(...takeErrors()); refreshAutoRates(); updateTopStats(); });
+}
+async function zaladujTresci() {
+  await startTresci();
+  await ladowanie;
+}
+// Czy widok może się wyświetlić; jeśli nie — pokazuje wczytywanie i wraca do routingu, gdy treść dojdzie.
+function czekajNaTresc(hash) {
+  if (!subjects.some((x) => x.szkielet)) return false;
+  const wszystkie = /^#\/(statystyki|profil|szukaj|ustawienia|plany)/.test(hash);
+  const cs = currentSubject();
+  const czekaj = wszystkie ? ladowanie : cs?.szkielet ? gotowe[cs.id] : null;
+  if (!czekaj) return false;
+  app.innerHTML = `<div class="loading-course" role="status"><span class="spinner" aria-hidden="true"></span><p>Wczytuję kurs${cs ? `: ${esc(cs.nazwa)}` : ''}…</p></div>`;
+  czekaj.then(() => { if ((location.hash || '#/') === hash) route(); });
+  return true;
 }
 
 async function init() {
@@ -3075,7 +3111,7 @@ async function init() {
   cloud.startAutoSync(() => {});
   updateTopStats();
   try {
-    await zaladujTresci();
+    await startTresci();
   } catch (e) {
     app.innerHTML = `<div class="empty"><div class="empty-icon">${ICONS.compass}</div>
       <h1>Nie udało się wczytać treści</h1>

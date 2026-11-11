@@ -160,6 +160,32 @@ async function normalizeSubject(raw, file) {
   };
 }
 
+// Wczytywanie dwuetapowe (szybki start): najpierw spis i „szkielety” przedmiotów (kilka KB),
+// potem pełne treści — w kolejności, od przedmiotu, którego uczeń teraz się uczy.
+export async function loadIndex(zrodlo) {
+  bledyPlikow = [];
+  if (zrodlo) pobierz = async (plik) => (zrodlo.has(plik) ? zrodlo.get(plik) : null);
+  const idx = await pobierz('index.json');
+  if (!idx) throw new Error('Brak spisu przedmiotów.');
+  const files = Array.isArray(idx) ? idx : idx.przedmioty || [];
+  const raws = await Promise.all(files.map((f) => pobierz(f).catch((e) => { bledyPlikow.push(`${f}: ${e.message}`); return null; })));
+  return files.map((f, i) => ({ file: f, raw: raws[i] })).filter((x) => x.raw)
+    .map(({ file, raw }) => ({ file, raw, stub: { ...stubSubject(raw, file), _raw: raw } }));
+}
+
+// Przedmiot bez treści — wystarcza do ekranów wyboru profilu i kursu.
+function stubSubject(raw, file) {
+  const id = String(raw.id || file.replace(/\.json$/, ''));
+  return { id, plik: file, nazwa: raw.nazwa || id, skrot: raw.skrot || raw.nazwa || id, ikona: raw.ikona || '📘', opis: raw.opis || '',
+    dzialy: [], units: new Map(), arkusze: [], bank: [], aktualnosci: null, wagi: null, srednia: raw.srednia || null, egzamin: raw.egzamin || null, szkielet: true };
+}
+
+export async function loadFull(entry) {
+  return normalizeSubject(entry.raw, entry.file);
+}
+
+export const takeErrors = () => { const e = bledyPlikow; bledyPlikow = []; return e; };
+
 // zrodlo (opcjonalnie): Map plik → dane, np. treści z bazy; brak pliku w mapie = brak dostępu.
 export async function loadSubjects(zrodlo) {
   bledyPlikow = [];

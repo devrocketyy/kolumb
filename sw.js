@@ -112,8 +112,15 @@ self.addEventListener('fetch', (event) => {
     );
     return;
   }
-  if (url.pathname.endsWith('.json')) {
+  // Spis przedmiotów: najpierw sieć (nowe przedmioty widać od razu).
+  // Treści przedmiotów: od razu z pamięci telefonu, aktualizacja w tle — start bez czekania na sieć.
+  // Nowe wdrożenie i tak odświeża całą pamięć (zmiana VERSION), więc poprawki treści docierają przy aktualizacji.
+  if (url.pathname.endsWith('/przedmioty/index.json')) {
     event.respondWith(networkFirst(req));
+    return;
+  }
+  if (url.pathname.endsWith('.json')) {
+    event.respondWith(staleWhileRevalidate(req, event));
     return;
   }
   event.respondWith(staleWhileRevalidate(req, event));

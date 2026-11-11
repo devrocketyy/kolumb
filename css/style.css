@@ -1159,3 +1159,9 @@ button.btn-report { border: 0; background: none; font: inherit; font-size: .88re
 .rev-start .btn svg { width: 20px; height: 20px; }
 .rev-start .btn[disabled] { opacity: .5; }
 .rev-info { margin: 8px 4px 16px; }
+
+/* ---------- wczytywanie kursu ---------- */
+.loading-course { display: grid; justify-items: center; gap: 14px; padding: 80px 16px; color: var(--text-2); text-align: center; }
+.spinner { width: 34px; height: 34px; border-radius: 50%; border: 3px solid var(--surface-2); border-top-color: var(--text); animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .spinner { animation-duration: 2.4s; } }
