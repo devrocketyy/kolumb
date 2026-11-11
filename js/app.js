@@ -54,6 +54,10 @@ const hrefUnit = (sid, uid) => `#/p/${enc(sid)}/${enc(uid)}`;
 function resolveScope(sid, type, id) {
   const s = findSubject(sid);
   if (!s) return null;
+  if (type === 'x') { // test diagnostyczny: cały kurs, pytania dobierane według wag działów
+    const units = allUnits(s).filter((u) => !u.zablokowany && u.pytania.length);
+    return units.length ? { s, type, id, units, title: 'Test diagnostyczny', sub: s.nazwa, back: '#/' } : null;
+  }
   if (type === 'w') { // własna powtórka: tematy wybrane przez ucznia (#/powtorka)
     const sel = wlasnaSel(s);
     const units = (sel.tematy?.length ? sel.tematy.map((x) => s.units.get(x)).filter(Boolean) : allUnits(s)).filter((u) => !u.zablokowany);
@@ -563,7 +567,10 @@ function prognoza(s, tempo) {
       zp += r.pkt * 0.9 * udzial; zm += r.max * udzial;
     }
     const A = (zp + PRIOR_ZADANIA * 8) / (zm + 8);
-    const wiedza = Math.max(K, Ktest);
+    // test diagnostyczny: wiedza „ze szkoły” w dziale, z poprawką na zgadywanie (25% w ABCD) i ostrożnym ściąganiem do 20%
+    const dg = st.diagnoza?.[s.id]?.dz?.[d.id];
+    const Kdiag = dg ? (Math.max(0, (dg[0] / dg[1] - 0.25) / 0.75) * dg[1] + 0.2 * 2) / (dg[1] + 2) : 0;
+    const wiedza = Math.max(K, Ktest, Kdiag);
     dzialy.push({ d, w: wagi[d.id], n, fresh, pam, K: wiedza, A, zm, wynik: wiedza * A });
   }
   // dział „umiejętności” (źródła, chronologia) sprawdza wiedzę ze wszystkich epok — liczymy go z całego kursu
@@ -583,7 +590,9 @@ function prognoza(s, tempo) {
   const p = planOf(s);
   const dniDo = p.data ? Math.max(0, Math.round((Math.min(p.koniec, p.egz) - todayStart()) / DAY)) : 0;
   const tempoTeraz = Math.round(nowe14 / 14);
-  let zapas = Math.round((tempo ?? tempoTeraz) * dniDo);
+  // nowy uczeń nie ma jeszcze własnego tempa — wtedy liczymy tempem z planu
+  const tempoBaza = tempoTeraz || (trybWlasny() ? 0 : p.rate || 0);
+  let zapas = Math.round((tempo ?? tempoBaza) * dniDo);
   const maj = dzialy.map((x) => {
     const ile = Math.min(x.fresh, zapas);
     zapas -= ile;
@@ -595,7 +604,8 @@ function prognoza(s, tempo) {
   const punkt = laczenie(dzis);
   const punktMaj = laczenie(majModel) + (M == null ? 0 : wm * (majModel - dzis));
   // niepewność: im mniej danych, tym szerszy przedział; pokazujemy dolną połowę
-  const dowody = odpowiedzi / 40 + dzialy.reduce((a, x) => a + x.zm, 0) / 4 + proby.length * 8 + st.tests.filter((t) => t.sid === s.id).length;
+  const diag = st.diagnoza?.[s.id];
+  const dowody = odpowiedzi / 40 + dzialy.reduce((a, x) => a + x.zm, 0) / 4 + proby.length * 8 + st.tests.filter((t) => t.sid === s.id).length + (diag ? 2 : 0);
   const margines = Math.min(0.25, Math.max(0.05, 0.04 + 0.22 / Math.sqrt(1 + dowody)));
   const szacunek = (x) => ({
     pokaz: Math.max(0, Math.floor((x - margines / 2) * 100)),
@@ -605,10 +615,10 @@ function prognoza(s, tempo) {
   // ile punktów dałoby opanowanie działu (od stanu na dziś)
   const zysk = dzialy.map((x) => ({ d: x.d, pkt: x.w * (x.A * PAMIEC[6] - x.wynik) * 60 })).sort((a, b) => b.pkt - a.pkt).filter((x) => x.pkt >= 0.5).slice(0, 3);
   return {
-    gotowa: odpowiedzi >= 60 || dzialy.some((x) => x.zm >= 5) || proby.length > 0,
+    gotowa: odpowiedzi >= 60 || dzialy.some((x) => x.zm >= 5) || proby.length > 0 || !!diag,
     postepDanych: Math.min(1, Math.max(odpowiedzi / 60, dzialy.reduce((a, x) => a + x.zm, 0) / 5)),
     dzis: szacunek(punkt), maj: szacunek(punktMaj), dzialy, zysk, proby: proby.length,
-    tempoTeraz, planTempo: p.rate || 0, dniDo, srednia: s.srednia,
+    tempoTeraz, tempoBaza, zPlanu: !tempoTeraz && tempoBaza > 0, planTempo: p.rate || 0, dniDo, srednia: s.srednia,
   };
 }
 
@@ -616,11 +626,11 @@ function prognozaCard(s) {
   const pr = prognoza(s);
   if (!pr.gotowa) {
     return `<a class="card prog-card" href="#/prognoza"><div class="prog-left"><span class="eyebrow">Prognoza matury</span>
-      <strong>Jeszcze za mało danych</strong>${progressBar(pr.postepDanych, 'Dane do prognozy')}<small>Odpowiedz na 60 fiszek albo rozwiąż 5 zadań</small></div>${ICONS.next}</a>`;
+      <strong>Sprawdź swój punkt startowy</strong><small>Test diagnostyczny: ok. 15 pytań, 3 minuty — od razu prognoza wyniku</small></div>${ICONS.next}</a>`.replace('href="#/prognoza"', 'href="#/diagnoza"');
   }
   return `<a class="card prog-card" href="#/prognoza">
     <div class="prog-left"><span class="eyebrow">Prognoza matury</span>
-      <div class="prog-nums"><div><b>${pr.dzis.pokaz}%</b><small>gdyby matura była dziś</small></div><div><b>${pr.maj.pokaz}%</b><small>w maju przy Twoim tempie</small></div></div></div>
+      <div class="prog-nums"><div><b>${pr.dzis.pokaz}%</b><small>gdyby matura była dziś</small></div><div><b>${pr.maj.pokaz}%</b><small>${pr.zPlanu ? 'w maju, jeśli trzymasz plan' : 'w maju przy Twoim tempie'}</small></div></div></div>
     ${ICONS.next}</a>`;
 }
 
@@ -628,15 +638,15 @@ function viewPrognoza() {
   const s = currentSubject();
   if (!s) return notFound();
   const pr0 = prognoza(s);
-  let tempo = pr0.tempoTeraz;
+  let tempo = pr0.tempoBaza;
   const render = () => {
     const pr = prognoza(s, tempo);
     const box = app.querySelector('.prog-body');
     if (!pr.gotowa) {
       box.innerHTML = `<section class="card"><h2 class="card-title">Potrzebujemy trochę więcej danych</h2>
         ${progressBar(pr.postepDanych, 'Dane do prognozy')}
-        <p class="muted">Odpowiedz na 60 fiszek albo rozwiąż 5 zadań maturalnych — wtedy policzymy prognozę.</p>
-        <a class="btn btn-primary btn-lg" href="#/nauka">Do nauki</a></section>`;
+        <p class="muted">Zrób krótki test diagnostyczny albo odpowiedz na 60 fiszek lub rozwiąż 5 zadań maturalnych — wtedy policzymy prognozę.</p>
+        <div class="actions"><a class="btn btn-primary btn-lg" href="#/diagnoza">Test diagnostyczny — 3 min</a><a class="btn btn-ghost btn-lg" href="#/nauka">Do nauki</a></div></section>`;
       return;
     }
     const pas = (x) => `<div class="prog-range" aria-label="Zakres od ${x.od} do ${x.do}%"><i style="left:${x.od}%;width:${Math.max(1, x.do - x.od)}%"></i><b style="left:${x.pokaz}%"></b>${pr.srednia ? `<em style="left:${pr.srednia.procent}%" title="Średnia w kraju"></em>` : ''}</div>`;
@@ -929,7 +939,7 @@ function viewPlan() {
     store.save();
     refreshAutoRates();
     game.sound('ok');
-    location.hash = '#/';
+    location.hash = first && !store.get().diagnoza?.[s.id] ? '#/diagnoza' : '#/';
   });
   sync(false);
 }
@@ -1704,8 +1714,20 @@ function viewTest(sid, type, id) {
   renderQuestion();
 }
 
+const DIAG_SIZE = 15;
+function pytaniaDiagnozy(sc) {
+  const s = sc.s;
+  const w = wagiDzialow(s);
+  const out = [];
+  for (const d of s.dzialy) {
+    const pula = shuffle(sc.units.filter((u) => u.dzialId === d.id).flatMap((u) => u.pytania.map((q) => ({ q, u }))));
+    out.push(...pula.slice(0, Math.max(1, Math.round((w[d.id] || 0) * DIAG_SIZE))));
+  }
+  return shuffle(out).slice(0, DIAG_SIZE + 2);
+}
+
 function startTest(sc) {
-  const qs = shuffle(scopeQuestions(sc)).slice(0, TEST_SIZE)
+  const qs = (sc.type === 'x' ? pytaniaDiagnozy(sc) : shuffle(scopeQuestions(sc)).slice(0, TEST_SIZE))
     .map(({ q, u }) => ({ q, u, order: shuffle(q.odpowiedzi.map((_, i) => i)) }));
   test = { key: `${sc.s.id}/${sc.type}/${sc.id}`, sc, qs, i: 0, answers: [], saved: false };
 }
@@ -1787,6 +1809,7 @@ function nextQuestion() {
 }
 
 function renderTestEnd() {
+  if (test.sc.type === 'x') return renderDiagnozaEnd();
   const { sc, qs, answers } = test;
   const s = sc.s;
   const score = qs.reduce((n, { q }, i) => n + (answers[i] === q.poprawna ? 1 : 0), 0);
@@ -1825,6 +1848,58 @@ function renderTestEnd() {
     window.scrollTo({ top: 0 });
   });
   keyHandler = null;
+}
+
+// ---------- test diagnostyczny: wynik ----------
+function renderDiagnozaEnd() {
+  const { sc, qs, answers } = test;
+  const s = sc.s;
+  if (!test.saved) {
+    const dz = {};
+    qs.forEach(({ q, u }, i) => { const r = (dz[u.dzialId] ||= [0, 0]); r[1]++; if (answers[i] === q.poprawna) r[0]++; });
+    const st = store.get();
+    st.diagnoza = { ...(st.diagnoza || {}), [s.id]: { at: Date.now(), dz } };
+    store.save();
+    test.saved = true;
+    game.award(10);
+  }
+  const score = qs.reduce((n, { q }, i) => n + (answers[i] === q.poprawna ? 1 : 0), 0);
+  const pr = prognoza(s);
+  const dz = store.get().diagnoza[s.id].dz;
+  const slabe = s.dzialy.filter((d) => dz[d.id]).map((d) => ({ d, r: dz[d.id], w: wagiDzialow(s)[d.id] }))
+    .sort((a, b) => a.r[0] / a.r[1] - b.r[0] / b.r[1] || b.w - a.w);
+  const start = slabe[0]?.d;
+  app.innerHTML = `
+    <div class="session-top"><a class="icon-btn" href="#/" aria-label="Zamknij">${ICONS.close}</a></div>
+    <section class="result">
+      <p class="eyebrow">Twój punkt startowy · ${esc(s.nazwa)}</p>
+      <div class="prog-nums big diag-nums"><div><b>${pr.dzis.pokaz}%</b><small>gdyby matura była dziś</small></div><div><b>${score}/${qs.length}</b><small>poprawnych odpowiedzi</small></div></div>
+      <p class="lead">To ostrożny szacunek z jednego krótkiego testu — z każdą fiszką i zadaniem będzie dokładniejszy.</p>
+    </section>
+    <section class="card"><h2 class="card-title">Wynik w działach</h2>
+      <div class="prog-dz">${slabe.map(({ d, r }) => `<div class="prog-dz-row"><span>${esc(d.nazwa)}</span><small>${r[0]} z ${r[1]} poprawnie</small>
+        <div class="core-mini"><i style="width:${(r[0] / r[1]) * 100}%"></i></div></div>`).join('')}</div>
+    </section>
+    <div class="actions">
+      ${start ? `<a class="btn btn-primary btn-lg" href="#/d/${enc(s.id)}/${enc(start.id)}">Zacznij od: ${esc(start.nazwa)}</a>` : ''}
+      <a class="btn btn-ghost btn-lg" href="#/prognoza">Zobacz prognozę</a>
+    </div>`;
+  keyHandler = null;
+}
+
+function viewDiagnoza() {
+  const s = currentSubject();
+  if (!s) return notFound();
+  const byl = store.get().diagnoza?.[s.id];
+  app.innerHTML = `
+    ${pageHead('Test diagnostyczny', '#/', s.nazwa)}
+    <section class="card diag-intro">
+      <div class="plan-tiles"><div class="plan-tile"><b>~${DIAG_SIZE}</b><span>pytań</span></div><div class="plan-tile"><b>3</b><span>minuty</span></div><div class="plan-tile"><b>${s.dzialy.length}</b><span>działów</span></div></div>
+      <p>Pytania z każdego działu, w proporcjach jak na maturze. Po teście zobaczysz swój punkt startowy, prognozę wyniku i dział, od którego warto zacząć.</p>
+      ${byl ? `<p class="muted small">Ostatni test: ${fmtDay(byl.at)}. Nowy wynik zastąpi poprzedni.</p>` : ''}
+    </section>
+    <a class="btn btn-primary btn-lg" href="#/test/${enc(s.id)}/x/start">Zaczynam</a>
+    <a class="link-btn" href="#/">Pomiń</a>`;
 }
 
 // ---------- przegląd treści poddziału ----------
@@ -2985,7 +3060,7 @@ const routes = [
   [/^#\/d\/([^/]+)\/([^/]+)$/, viewDzial],
   [/^#\/p\/([^/]+)\/([^/]+)$/, viewUnit],
   [/^#\/fiszki\/([^/]+)\/(d|p|w)\/([^/]+)(?:\/(trening))?$/, viewFiszki],
-  [/^#\/test\/([^/]+)\/(d|p|w)\/([^/]+)$/, viewTest],
+  [/^#\/test\/([^/]+)\/(d|p|w|x)\/([^/]+)$/, viewTest],
   [/^#\/lekcja\/([^/]+)\/(d|p|w)\/([^/]+)$/, viewLekcja],
   [/^#\/bledy\/([^/]+)$/, viewBledy],
   [/^#\/szukaj$/, viewSzukaj],
@@ -3003,6 +3078,7 @@ const routes = [
   [/^#\/ustawienia$/, viewSettings],
   [/^#\/plan$/, viewPlan],
   [/^#\/powtorka$/, viewPowtorka],
+  [/^#\/diagnoza$/, viewDiagnoza],
   [/^#\/prognoza$/, viewPrognoza],
   [/^#\/plany(?:\/(ok))?$/, viewPlany],
 ];
