@@ -54,6 +54,12 @@ const hrefUnit = (sid, uid) => `#/p/${enc(sid)}/${enc(uid)}`;
 function resolveScope(sid, type, id) {
   const s = findSubject(sid);
   if (!s) return null;
+  if (type === 'w') { // własna powtórka: tematy wybrane przez ucznia (#/powtorka)
+    const sel = wlasnaSel(s);
+    const units = (sel.tematy?.length ? sel.tematy.map((x) => s.units.get(x)).filter(Boolean) : allUnits(s)).filter((u) => !u.zablokowany);
+    if (!units.length) return null;
+    return { s, type, id, units, title: 'Własna powtórka', sub: s.nazwa, back: '#/powtorka' };
+  }
   if (type === 'd') {
     const d = findDzial(s, id);
     if (!d) return null;
@@ -455,7 +461,7 @@ function planOf(s, over) {
 }
 
 function refreshAutoRates() {
-  for (const s of subjects) { const p = planOf(s); if (p.data) setAutoRate(s.id, p.rate || 3); }
+  for (const s of subjects) { const p = planOf(s); setAutoRate(s.id, p.data && !trybWlasny() ? p.rate || 3 : 0); }
 }
 
 // Następne zadania: najpierw z działu, którego uczeń się teraz uczy.
@@ -678,6 +684,146 @@ function viewPrognoza() {
   render();
 }
 
+// ---------- tryb „na własną rękę” i własna powtórka ----------
+// Uczeń bez planu sam wybiera, co i kiedy powtarza. Ekran #/powtorka jest dostępny w obu trybach.
+const trybWlasny = () => store.get().settings.tryb === 'wlasny';
+const RODZAJE = [
+  { id: 'trudne', nazwa: 'Trudne', opis: 'mylone i słabo zapamiętane' },
+  { id: 'dawno', nazwa: 'Dawno niepowtarzane', opis: 'najdłużej bez powtórki' },
+  { id: 'losowo', nazwa: 'Losowo', opis: 'przemieszane z wybranych tematów' },
+  { id: 'opanowane', nazwa: 'Odśwież opanowane', opis: 'szybki przegląd tego, co umiesz' },
+  { id: 'zalegle', nazwa: 'Zaległe powtórki', opis: 'według harmonogramu' },
+  { id: 'nowe', nazwa: 'Nowe fiszki', opis: 'jeszcze nieznane' },
+];
+const RODZAJE_SRS = new Set(['zalegle', 'nowe']); // te liczą się do harmonogramu; reszta to trening
+const wlasnaSel = (s) => ({ rodzaj: 'trudne', ile: 20, tematy: [], ...(store.get().settings.wlasna?.[s.id] || {}) });
+
+function pulaWlasna(sc, rodzaj) {
+  const cards = store.get().cards;
+  const end = store.endOfToday();
+  const all = sc.units.flatMap((u) => u.fiszki.map((f) => ({ f, u, c: cards[cardKey(sc.s.id, u.id, f.id)] })));
+  const seen = all.filter((x) => x.c?.reps);
+  switch (rodzaj) {
+    case 'trudne': return seen.filter((x) => x.c.lapses > 0 || x.c.box <= 2).sort((a, b) => a.c.box - b.c.box || b.c.lapses - a.c.lapses);
+    case 'dawno': return seen.slice().sort((a, b) => (a.c.last || 0) - (b.c.last || 0));
+    case 'losowo': return shuffle(seen.length ? seen : all);
+    case 'opanowane': return shuffle(seen.filter((x) => x.c.box >= MASTERED_BOX));
+    case 'zalegle': return seen.filter((x) => x.c.due <= end).sort((a, b) => a.c.due - b.c.due);
+    case 'nowe': return all.filter((x) => !x.c?.reps);
+    default: return [];
+  }
+}
+
+function kolejkaWlasna(sc, rodzaj) {
+  const ile = wlasnaSel(sc.s).ile || 20;
+  return pulaWlasna(sc, rodzaj).slice(0, ile).map(({ f, u }) => ({ f, u }));
+}
+
+function wlasnaCard(s) {
+  const p = planOf(s);
+  const sel = wlasnaSel(s);
+  const sc = resolveScope(s.id, 'w', sel.rodzaj);
+  const ile = (r) => (sc ? pulaWlasna(sc, r).length : 0);
+  return `<section class="card plan-card">
+    <a class="plan-top" href="#/powtorka">
+      ${p.data ? `<div class="plan-days"><b>${p.dniDoMatury}</b><span>${plural(p.dniDoMatury, 'dzień', 'dni', 'dni')} do matury</span></div>` : ''}
+      <div class="plan-text"><strong>Twoja powtórka</strong><small>uczysz się na własną rękę · ${sel.tematy.length ? `${sel.tematy.length} ${plural(sel.tematy.length, 'temat', 'tematy', 'tematów')}` : 'cały kurs'}</small></div>
+      <span class="plan-edit">${ICONS.next}</span>
+    </a>
+    <div class="quick-rev">${['trudne', 'dawno', 'zalegle', 'nowe'].map((r) => { const n = ile(r); const R = RODZAJE.find((x) => x.id === r);
+      return `<button type="button" class="plan-chip ${n ? '' : 'off'}" data-szybko="${r}" ${n ? '' : 'disabled'}><b>${n}</b><span>${R.nazwa.toLowerCase()}</span></button>`; }).join('')}</div>
+  </section>`;
+}
+
+function startWlasna(s, rodzaj, typ = 'fiszki') {
+  const st = store.get().settings;
+  st.wlasna = { ...(st.wlasna || {}), [s.id]: { ...wlasnaSel(s), rodzaj } };
+  store.save();
+  session = null; test = null;
+  location.hash = typ === 'test' ? `#/test/${enc(s.id)}/w/test` : `#/fiszki/${enc(s.id)}/w/${rodzaj}`;
+}
+
+function viewPowtorka() {
+  const s = currentSubject();
+  if (!s) return notFound();
+  const st = store.get().settings;
+  const sel = wlasnaSel(s);
+  const zapisz = () => { st.wlasna = { ...(st.wlasna || {}), [s.id]: sel }; store.save(); };
+  const render = () => {
+    const wyb = new Set(sel.tematy);
+    const sc = resolveScope(s.id, 'w', sel.rodzaj);
+    const pula = sc ? pulaWlasna(sc, sel.rodzaj).length : 0;
+    const nQ = sc ? scopeQuestions(sc).length : 0;
+    app.innerHTML = `
+      ${pageHead('Własna powtórka', '#/', s.nazwa)}
+      ${subjSwitch()}
+      <section class="card">
+        <h2 class="card-title">Co powtarzasz?</h2>
+        <div class="rev-kinds">${RODZAJE.map((r) => { const n = sc ? pulaWlasna(sc, r.id).length : 0;
+          return `<button type="button" class="rev-kind ${sel.rodzaj === r.id ? 'on' : ''}" data-rodzaj="${r.id}" aria-pressed="${sel.rodzaj === r.id}"><strong>${r.nazwa}</strong><small>${r.opis} · ${n}</small></button>`; }).join('')}</div>
+      </section>
+      <section class="card">
+        <div class="rev-head"><h2 class="card-title">Z jakich tematów?</h2>
+          <button type="button" class="link-btn" data-act="all">${wyb.size ? 'Cały kurs' : ''}</button></div>
+        <div class="rev-dz">${s.dzialy.filter((d) => !d.zablokowany).map((d) => {
+          const ids = d.poddzialy.map((u) => u.id);
+          const ile = ids.filter((x) => wyb.has(x)).length;
+          return `<details class="rev-group" ${ile && ile < ids.length ? 'open' : ''}>
+            <summary><button type="button" class="rev-dzial ${ile === ids.length ? 'on' : ile ? 'part' : ''}" data-dzial="${esc(d.id)}">${esc(d.nazwa)}${ile ? `<small>${ile}/${ids.length}</small>` : ''}</button></summary>
+            <div class="rev-units">${d.poddzialy.map((u) => `<button type="button" class="rev-unit ${wyb.has(u.id) ? 'on' : ''}" data-unit-sel="${esc(u.id)}">${esc(u.nazwa)}</button>`).join('')}</div>
+          </details>`; }).join('')}</div>
+        <p class="muted small">${wyb.size ? `Wybrane tematy: ${wyb.size}` : 'Nic nie wybrano — powtarzasz z całego kursu.'} Stuknij dział, aby zaznaczyć cały, albo rozwiń go strzałką.</p>
+      </section>
+      <section class="card">
+        <h2 class="card-title">Ile fiszek?</h2>
+        <div class="segmented seg-4">${[10, 20, 30, 50].map((v) => `<button type="button" data-ile="${v}" class="${sel.ile === v ? 'active' : ''}" aria-pressed="${sel.ile === v}">${v}</button>`).join('')}</div>
+      </section>
+      <div class="rev-start">
+        <button type="button" class="btn btn-primary btn-lg" data-start="fiszki" ${pula ? '' : 'disabled'}>${ICONS.cards}<span>${pula ? `Fiszki · ${Math.min(pula, sel.ile)}` : 'Brak fiszek w tym wyborze'}</span></button>
+        <button type="button" class="btn btn-ghost btn-lg" data-start="test" ${nQ ? '' : 'disabled'}>${ICONS.quiz}<span>Test z wybranych tematów</span></button>
+      </div>
+      <p class="muted small rev-info">${RODZAJE_SRS.has(sel.rodzaj) ? 'Te oceny trafiają do harmonogramu powtórek.' : 'Trening nie zmienia harmonogramu powtórek — możesz powtarzać do woli.'}</p>
+      <section class="card rev-mode">
+        <h2 class="card-title">Tryb nauki</h2>
+        <div class="segmented" style="grid-template-columns:1fr 1fr">
+          <button type="button" data-tryb="plan" class="${trybWlasny() ? '' : 'active'}">Z planem</button>
+          <button type="button" data-tryb="wlasny" class="${trybWlasny() ? 'active' : ''}">Na własną rękę</button>
+        </div>
+        <p class="muted small">${trybWlasny() ? 'Na ekranie Dziś zamiast planu widzisz szybkie powtórki. Nowych fiszek dziennie: ' + (Number(st.newPerDay) || 20) + ' (zmienisz w Ustawieniach).' : 'Plan dobiera dzienne porcje do daty matury. Własną powtórkę możesz robić zawsze.'}</p>
+      </section>`;
+    bindSubjSwitch(viewPowtorka);
+    app.querySelectorAll('[data-rodzaj]').forEach((b) => b.addEventListener('click', () => { sel.rodzaj = b.dataset.rodzaj; zapisz(); game.sound('tap'); render(); }));
+    app.querySelectorAll('[data-ile]').forEach((b) => b.addEventListener('click', () => { sel.ile = Number(b.dataset.ile); zapisz(); render(); }));
+    app.querySelector('[data-act="all"]')?.addEventListener('click', () => { sel.tematy = []; zapisz(); render(); });
+    app.querySelectorAll('[data-dzial]').forEach((b) => b.addEventListener('click', (e) => {
+      e.preventDefault();
+      const ids = findDzial(s, b.dataset.dzial).poddzialy.map((u) => u.id);
+      const wszystkie = ids.every((x) => wyb.has(x));
+      sel.tematy = wszystkie ? sel.tematy.filter((x) => !ids.includes(x)) : [...new Set([...sel.tematy, ...ids])];
+      zapisz(); game.sound('tap'); render();
+    }));
+    app.querySelectorAll('[data-unit-sel]').forEach((b) => b.addEventListener('click', () => {
+      const id = b.dataset.unitSel;
+      sel.tematy = wyb.has(id) ? sel.tematy.filter((x) => x !== id) : [...sel.tematy, id];
+      zapisz(); render();
+    }));
+    app.querySelectorAll('[data-start]').forEach((b) => b.addEventListener('click', () => startWlasna(s, sel.rodzaj, b.dataset.start)));
+    app.querySelectorAll('[data-tryb]').forEach((b) => b.addEventListener('click', () => ustawTryb(b.dataset.tryb, render)));
+  };
+  render();
+}
+
+function ustawTryb(tryb, po) {
+  const st = store.get().settings;
+  if ((st.tryb || 'plan') === tryb) return;
+  st.tryb = tryb;
+  store.save();
+  refreshAutoRates();
+  game.sound('tap');
+  toast(tryb === 'wlasny' ? 'Uczysz się na własną rękę — plan wyłączony, powtórki wybierasz samodzielnie.' : 'Plan nauki znów jest włączony.');
+  po?.();
+}
+
 function viewPlan() {
   const s = currentSubject();
   if (!s) return notFound();
@@ -690,6 +836,11 @@ function viewPlan() {
   draft.koniec ||= isoDay(p0.koniec);
   app.innerHTML = `
     ${pageHead('Plan nauki', first ? null : '#/', s.nazwa)}
+    <div class="segmented plan-tryb" style="grid-template-columns:1fr 1fr">
+      <button type="button" data-tryb="plan" class="${trybWlasny() ? '' : 'active'}" aria-pressed="${!trybWlasny()}">Z planem</button>
+      <button type="button" data-tryb="wlasny" class="${trybWlasny() ? 'active' : ''}" aria-pressed="${trybWlasny()}">Na własną rękę</button>
+    </div>
+    ${trybWlasny() ? '<p class="plan-status mid">Teraz uczysz się na własną rękę. Ustaw plan i stuknij „Zapisz plan”, aby do niego wrócić.</p>' : ''}
     <section class="card plan-slider">
       <p class="eyebrow">Kończę materiał</p>
       <output class="plan-date" id="pl-date"></output>
@@ -749,6 +900,11 @@ function viewPlan() {
     $('#pl-left').textContent = `Zostało: ${p.fresh.toLocaleString('pl-PL')} ${plural(p.fresh, 'fiszka', 'fiszki', 'fiszek')} i ${p.zLeft} ${plural(p.zLeft, 'zadanie', 'zadania', 'zadań')}${p.minuty > 90 ? ' — to dużo na jeden dzień, przesuń koniec dalej.' : '.'}`;
   };
   range.addEventListener('input', () => sync(true));
+  $('[data-tryb="plan"]').addEventListener('click', () => ustawTryb('plan', viewPlan));
+  $('[data-tryb="wlasny"]').addEventListener('click', () => {
+    if (!settings.plan?.[s.id]) settings.plan = { ...(settings.plan || {}), [s.id]: { data: draft.data, koniec: draft.koniec } };
+    ustawTryb('wlasny', () => { location.hash = '#/powtorka'; });
+  });
   $('[data-act="zalecany"]').addEventListener('click', () => {
     draft.data = s.egzamin || draft.data;
     draft.koniec = isoDay(planOf(s, { data: draft.data, koniec: null }).koniec);
@@ -769,6 +925,7 @@ function viewPlan() {
   $('[data-act="save"]').addEventListener('click', () => {
     settings.plan = { ...(settings.plan || {}), [s.id]: { data: draft.data, koniec: draft.koniec } };
     settings.tempo = 'auto';
+    settings.tryb = 'plan';
     store.save();
     refreshAutoRates();
     game.sound('ok');
@@ -797,7 +954,7 @@ function viewHome() {
     ${subjSwitch()}
     ${rebrandNote()}
     ${s ? coreCard(s) : ''}
-    ${s ? planCard(s) : ''}
+    ${s ? (trybWlasny() ? wlasnaCard(s) : planCard(s)) : ''}
     ${s ? prognozaCard(s) : ''}
     ${premiumCard()}
     ${s ? goalCard(s, rec, todo) : ''}
@@ -816,6 +973,7 @@ function viewHome() {
     ${s ? '' : '<p class="muted">Brak przedmiotów.</p>'}
   `;
   bindSubjSwitch(viewHome);
+  app.querySelectorAll('[data-szybko]').forEach((b) => b.addEventListener('click', () => startWlasna(s, b.dataset.szybko)));
   app.querySelector('[data-act="rebrand-ok"]')?.addEventListener('click', () => {
     store.get().settings.rebrandSeen = true;
     store.save();
@@ -884,6 +1042,7 @@ function viewNauka() {
       <a class="plan-tile ${best ? '' : 'off'}" href="${best ? `#/fiszki/${enc(s.id)}/d/${enc(best.d.id)}` : '#/nauka'}"><b>${sm.due}</b><span>do powtórki</span></a>
       <a class="plan-tile" href="${nextTasksHref(s)}"><b>${zDone}<small>/${zad.length}</small></b><span>zadań</span></a>
     </div>
+    <a class="card rev-link" href="#/powtorka"><span class="quest-icon">${ICONS.redo}</span><span class="plan-text"><strong>Własna powtórka</strong><small>Wybierz tematy i powtarzaj, co chcesz</small></span>${ICONS.next}</a>
     <div class="route" data-sid="${esc(s.id)}">${pathHtml(s, rec)}</div>`;
   bindSubjSwitch(viewNauka);
   const wrap = app.querySelector('.route');
@@ -1396,10 +1555,11 @@ let session = null;
 function viewFiszki(sid, type, id, mode) {
   const sc = resolveScope(sid, type, id);
   if (!sc) return notFound();
-  const training = mode === 'trening';
+  const wlasna = type === 'w';
+  const training = wlasna ? !RODZAJE_SRS.has(id) : mode === 'trening';
   const key = `${sid}/${type}/${id}/${mode || ''}`;
   if (!session || session.key !== key) {
-    const queue = training
+    const queue = wlasna ? kolejkaWlasna(sc, id) : training
       ? shuffle(sc.units.flatMap((u) => u.fiszki.map((f) => ({ f, u })))).slice(0, 50)
       : buildQueue(sc.s.id, sc.units);
     session = { key, sc, queue, done: 0, training, counts: { nie: 0, trudne: 0, umiem: 0 } };
@@ -1424,7 +1584,7 @@ function renderCard() {
       <div class="session-progress">${progressBar(session.done / total, 'Postęp sesji')}</div>
       <span class="session-count">${session.done + 1}/${total}</span>
     </div>
-    <p class="session-label">${training ? 'Trening swobodny' : isNew ? '<span class="tag tag-new">Nowa fiszka</span>' : '<span class="tag">Powtórka</span>'}
+    <p class="session-label">${training ? (sc.type === 'w' ? 'Własna powtórka — bez zmiany harmonogramu' : 'Trening swobodny') : isNew ? '<span class="tag tag-new">Nowa fiszka</span>' : '<span class="tag">Powtórka</span>'}
       ${sc.type === 'd' ? `<span class="session-unit">${esc(u.nazwa)}</span>` : ''}</p>
 
     <div class="flashcard" id="card" role="button" tabindex="0" aria-label="Fiszka — dotknij, aby odwrócić">
@@ -1522,7 +1682,7 @@ function renderSessionEnd() {
       <p class="muted">Opanowanie: <strong>${pct(sm.progress)}%</strong></p>
       <div class="actions">
         ${sm.todo && !training ? `<a class="btn btn-primary btn-lg" href="#/fiszki/${base}" data-restart>Kontynuuj (${sm.todo})</a>` : ''}
-        ${training ? `<a class="btn btn-primary btn-lg" href="#/fiszki/${base}/trening" data-restart>Kolejne 50 fiszek</a>` : ''}
+        ${training ? `<a class="btn btn-primary btn-lg" href="#/fiszki/${base}${sc.type === 'w' ? '' : '/trening'}" data-restart>${sc.type === 'w' ? 'Jeszcze raz' : 'Kolejne 50 fiszek'}</a>` : ''}
         ${scopeQuestions(sc).length ? `<a class="btn btn-gold btn-lg" href="#/test/${base}">Sprawdź się w teście</a>` : ''}
         <a class="btn btn-ghost btn-lg" href="${sc.back}">Wróć</a>
       </div>
@@ -2824,9 +2984,9 @@ const routes = [
   [/^#?\/?$/, viewHome],
   [/^#\/d\/([^/]+)\/([^/]+)$/, viewDzial],
   [/^#\/p\/([^/]+)\/([^/]+)$/, viewUnit],
-  [/^#\/fiszki\/([^/]+)\/(d|p)\/([^/]+)(?:\/(trening))?$/, viewFiszki],
-  [/^#\/test\/([^/]+)\/(d|p)\/([^/]+)$/, viewTest],
-  [/^#\/lekcja\/([^/]+)\/(d|p)\/([^/]+)$/, viewLekcja],
+  [/^#\/fiszki\/([^/]+)\/(d|p|w)\/([^/]+)(?:\/(trening))?$/, viewFiszki],
+  [/^#\/test\/([^/]+)\/(d|p|w)\/([^/]+)$/, viewTest],
+  [/^#\/lekcja\/([^/]+)\/(d|p|w)\/([^/]+)$/, viewLekcja],
   [/^#\/bledy\/([^/]+)$/, viewBledy],
   [/^#\/szukaj$/, viewSzukaj],
   [/^#\/aktualnosci$/, viewAktualnosci],
@@ -2842,6 +3002,7 @@ const routes = [
   [/^#\/konto$/, viewKonto],
   [/^#\/ustawienia$/, viewSettings],
   [/^#\/plan$/, viewPlan],
+  [/^#\/powtorka$/, viewPowtorka],
   [/^#\/prognoza$/, viewPrognoza],
   [/^#\/plany(?:\/(ok))?$/, viewPlany],
 ];
