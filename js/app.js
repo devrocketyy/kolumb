@@ -174,8 +174,9 @@ function openReport(href) {
     <div class="rep-kinds">${REPORT_KINDS.map((k, i) => `<button type="button" class="rep-kind ${i ? '' : 'active'}" data-kind="${esc(k)}">${esc(k)}</button>`).join('')}</div>
     <textarea class="type-input rep-text" rows="4" maxlength="2000" placeholder="Co jest nie tak? (opcjonalnie)" aria-label="Opis błędu"></textarea>
     <div class="rep-actions">
-      <button type="button" class="btn btn-primary btn-lg" data-rep="send">${cloud.enabled() ? 'Wyślij zgłoszenie' : 'Wyślij e-mailem'}</button>
-      <button type="button" class="btn btn-ghost btn-lg" data-rep="copy">Skopiuj zgłoszenie</button>
+      ${cloud.enabled() ? '<button type="button" class="btn btn-primary btn-lg" data-rep="send">Wyślij zgłoszenie</button>' : ''}
+      <button type="button" class="btn ${cloud.enabled() ? 'btn-ghost' : 'btn-primary'} btn-lg" data-rep="copy">Skopiuj zgłoszenie</button>
+      ${cloud.enabled() ? '' : `<p class="muted small">Wklej je w wiadomości na <strong>${REPORT_EMAIL}</strong>.</p>`}
     </div>
     <p class="muted small">Zgłoszenie zawiera treść fiszki lub zadania, więc szybko znajdziemy błąd.</p>
   </div>`;
@@ -511,6 +512,7 @@ function planCard(s) {
 //  • prognoza na maj: Twoje faktyczne tempo z ostatnich 14 dni, a nie tempo z planu.
 const PAMIEC = [0, 0.3, 0.45, 0.6, 0.78, 0.88, 0.94];
 const PRIOR_ZADANIA = 0.5;
+const A_CEL = 0.72; // skuteczność w zadaniach osiągalna przy regularnym ćwiczeniu arkuszy (ostrożnie, poniżej 3/4)
 
 function wagiDzialow(s) {
   const w = {};
@@ -595,13 +597,16 @@ function prognoza(s, tempo) {
   const dniDo = p.data ? Math.max(0, Math.round((Math.min(p.koniec, p.egz) - todayStart()) / DAY)) : 0;
   const tempoTeraz = Math.round(nowe14 / 14);
   // nowy uczeń nie ma jeszcze własnego tempa — wtedy liczymy tempem z planu
-  const tempoBaza = tempoTeraz || (trybWlasny() ? 0 : p.rate || 0);
+  const tempoBaza = Math.max(tempoTeraz, trybWlasny() ? 0 : p.rate || 0);
   let zapas = Math.round((tempo ?? tempoBaza) * dniDo);
+  // Kto trzyma plan, robi też zadania maturalne — skuteczność w zadaniach rośnie proporcjonalnie do realizacji planu
+  const realizacja = Math.min(1.2, (tempo ?? tempoBaza) / Math.max(1, p.rate || 30));
   const maj = dzialy.map((x) => {
     const ile = Math.min(x.fresh, zapas);
     zapas -= ile;
     const K = x.n ? Math.max(x.K, (x.pam + ile * 0.75) / x.n) : x.K;
-    return { ...x, K, wynik: Math.max(x.wynik, K * x.A) };
+    const A = x.A + (A_CEL - x.A) * Math.min(1, realizacja);
+    return { ...x, K, A, wynik: Math.max(x.wynik, K * A) };
   });
   const majModel = model(przekroj(maj));
   const laczenie = (m) => (M == null ? m : (1 - wm) * m + wm * Math.min(M, m + 0.15));
@@ -630,7 +635,7 @@ function prognozaCard(s) {
   const pr = prognoza(s);
   if (!pr.gotowa) {
     return `<a class="card prog-card" href="#/prognoza"><div class="prog-left"><span class="eyebrow">Prognoza matury</span>
-      <strong>Sprawdź swój punkt startowy</strong><small>Test diagnostyczny: ok. 15 pytań, 3 minuty — od razu prognoza wyniku</small></div>${ICONS.next}</a>`.replace('href="#/prognoza"', 'href="#/diagnoza"');
+      <strong>Sprawdź swój punkt startowy</strong><small>Test diagnostyczny: ok. 20 pytań, 4 minuty — od razu prognoza wyniku</small></div>${ICONS.next}</a>`.replace('href="#/prognoza"', 'href="#/diagnoza"');
   }
   return `<a class="card prog-card" href="#/prognoza">
     <div class="prog-left"><span class="eyebrow">Prognoza matury</span>
@@ -650,7 +655,7 @@ function viewPrognoza() {
       box.innerHTML = `<section class="card"><h2 class="card-title">Potrzebujemy trochę więcej danych</h2>
         ${progressBar(pr.postepDanych, 'Dane do prognozy')}
         <p class="muted">Zrób krótki test diagnostyczny albo odpowiedz na 60 fiszek lub rozwiąż 5 zadań maturalnych — wtedy policzymy prognozę.</p>
-        <div class="actions"><a class="btn btn-primary btn-lg" href="#/diagnoza">Test diagnostyczny — 3 min</a><a class="btn btn-ghost btn-lg" href="#/nauka">Do nauki</a></div></section>`;
+        <div class="actions"><a class="btn btn-primary btn-lg" href="#/diagnoza">Test diagnostyczny — 4 min</a><a class="btn btn-ghost btn-lg" href="#/nauka">Do nauki</a></div></section>`;
       return;
     }
     const pas = (x) => `<div class="prog-range" aria-label="Zakres od ${x.od} do ${x.do}%"><i style="left:${x.od}%;width:${Math.max(1, x.do - x.od)}%"></i><b style="left:${x.pokaz}%"></b>${pr.srednia ? `<em style="left:${pr.srednia.procent}%" title="Średnia w kraju"></em>` : ''}</div>`;
@@ -668,7 +673,8 @@ function viewPrognoza() {
       <section class="card prog-tempo">
         <h2 class="card-title">A gdybyś robił więcej?</h2>
         <output class="prog-tempo-val"><b>${tempo}</b> nowych fiszek dziennie</output>
-        <input type="range" id="pr-tempo" min="0" max="80" step="1" value="${tempo}" aria-label="Nowe fiszki dziennie">
+        <input type="range" id="pr-tempo" min="0" max="120" step="1" value="${tempo}" aria-label="Nowe fiszki dziennie">
+        <p class="muted small">Zakładamy, że razem z fiszkami robisz zadania z planu — to one podnoszą wynik najbardziej.</p>
         <p class="prog-scale"><span>teraz: ${pr.tempoTeraz}/dzień</span><span>plan: ${pr.planTempo}/dzień</span></p>
       </section>
       <div class="prog-zysk-wrap">${zysk(pr)}</div>
@@ -685,7 +691,7 @@ function viewPrognoza() {
         </ul></details>`;
     const r = box.querySelector('#pr-tempo');
     const upd = () => {
-      r.style.setProperty('--v', `${(tempo / 80) * 100}%`);
+      r.style.setProperty('--v', `${(tempo / 120) * 100}%`);
       const q = prognoza(s, tempo);
       box.querySelector('.prog-hero').innerHTML = hero(q);
       box.querySelector('.prog-tempo-val b').textContent = tempo;
@@ -1713,16 +1719,16 @@ function viewTest(sid, type, id) {
   renderQuestion();
 }
 
-const DIAG_SIZE = 15;
+const DIAG_SIZE = 20;
 function pytaniaDiagnozy(sc) {
   const s = sc.s;
   const w = wagiDzialow(s);
   const out = [];
   for (const d of s.dzialy) {
     const pula = shuffle(sc.units.filter((u) => u.dzialId === d.id).flatMap((u) => u.pytania.map((q) => ({ q, u }))));
-    out.push(...pula.slice(0, Math.max(1, Math.round((w[d.id] || 0) * DIAG_SIZE))));
+    out.push(...pula.slice(0, Math.max(2, Math.round((w[d.id] || 0) * DIAG_SIZE))));
   }
-  return shuffle(out).slice(0, DIAG_SIZE + 2);
+  return shuffle(out).slice(0, DIAG_SIZE + 6);
 }
 
 function startTest(sc) {
@@ -1745,22 +1751,24 @@ function renderQuestion() {
       <span class="session-count">${i + 1}/${qs.length}</span>
     </div>
     <section class="question">
-      <p class="eyebrow">Pytanie ${i + 1}${sc.type === 'd' ? ` · ${esc(u.nazwa)}` : ''}</p>
+      <p class="eyebrow">${sc.type === 'x' ? `Diagnoza · ${esc(dzialOf(sc.s, u)?.nazwa || '')}` : `Pytanie ${i + 1}${sc.type === 'd' ? ` · ${esc(u.nazwa)}` : ''}`}</p>
       <h2 class="question-text">${esc(q.pytanie)}</h2>
       <div class="options" role="group" aria-label="Odpowiedzi">
         ${order.map((oi, pos) => `<button type="button" class="option" data-oi="${oi}">
             <span class="option-letter">${LITERY[pos]}</span><span class="option-text">${esc(q.odpowiedzi[oi])}</span>
           </button>`).join('')}
       </div>
+      ${sc.type === 'x' ? '<button type="button" class="btn btn-ghost btn-lg diag-idk" data-idk>Nie wiem — pomiń</button><p class="muted small diag-hint">Nie zgaduj: „Nie wiem” daje dokładniejszy wynik.</p>' : ''}
       <div id="feedback" aria-live="polite"></div>
-      ${reportBtn(reportHref(sc.s, u, 'pytanie', q))}
+      ${sc.type === 'x' ? '' : reportBtn(reportHref(sc.s, u, 'pytanie', q))}
     </section>`;
+  app.querySelector('[data-idk]')?.addEventListener('click', () => { if (test.answers[i] === undefined) answer(-1); });
 
   app.querySelector('.options').addEventListener('click', (e) => {
     const b = e.target.closest('.option');
     if (b && test.answers[i] === undefined) answer(Number(b.dataset.oi));
   });
-  if (test.answers[i] !== undefined) showFeedback();
+  if (test.answers[i] !== undefined && sc.type !== 'x') showFeedback();
   keyHandler = (e) => {
     const pos = ['1', '2', '3', '4'].includes(e.key) ? Number(e.key) - 1 : LITERY.indexOf(e.key.toUpperCase());
     if (test.answers[i] === undefined && pos >= 0 && pos < order.length) answer(order[pos]);
@@ -1772,6 +1780,11 @@ function answer(oi) {
   test.answers[test.i] = oi;
   store.markActivity();
   const ok = oi === test.qs[test.i].q.poprawna;
+  if (test.sc.type === 'x') { // diagnoza: bez oceniania na bieżąco — od razu następne pytanie
+    game.sound('tap');
+    setTimeout(nextQuestion, 160);
+    return;
+  }
   if (!ok) addMistake(test.sc.s.id, test.qs[test.i].u, test.qs[test.i].q, 'q');
   game.sound(ok ? 'ok' : 'bad');
   game.award(ok ? 2 : 0, { poprawne: ok ? 1 : 0 });
@@ -1873,11 +1886,12 @@ function renderDiagnozaEnd() {
     <section class="result">
       <p class="eyebrow">Twój punkt startowy · ${esc(s.nazwa)}</p>
       <div class="prog-nums big diag-nums"><div><b>${pr.dzis.pokaz}%</b><small>gdyby matura była dziś</small></div><div><b>${score}/${qs.length}</b><small>poprawnych odpowiedzi</small></div></div>
-      <p class="lead">To ostrożny szacunek z jednego krótkiego testu — z każdą fiszką i zadaniem będzie dokładniejszy.</p>
+      <p class="lead">Ostrożny szacunek z krótkiego testu. W maju: <strong>${pr.maj.pokaz}%</strong>, jeśli będziesz trzymać się planu — z każdą fiszką i zadaniem prognoza będzie dokładniejsza.</p>
     </section>
     <section class="card"><h2 class="card-title">Wynik w działach</h2>
-      <div class="prog-dz">${slabe.map(({ d, r }) => `<div class="prog-dz-row"><span>${esc(d.nazwa)}</span><small>${r[0]} z ${r[1]} poprawnie</small>
-        <div class="core-mini"><i style="width:${(r[0] / r[1]) * 100}%"></i></div></div>`).join('')}</div>
+      <div class="prog-dz">${slabe.map(({ d, r }) => { const q = r[0] / r[1]; const et = q >= 0.75 ? 'mocna strona' : q >= 0.4 ? 'średnio' : 'do nauki';
+        return `<div class="prog-dz-row"><span>${esc(d.nazwa)} <em class="diag-tag ${et === 'do nauki' ? 'bad' : et === 'mocna strona' ? 'ok' : ''}">${et}</em></span><small>${r[0]} z ${r[1]} poprawnie</small>
+        <div class="core-mini"><i style="width:${(r[0] / r[1]) * 100}%"></i></div></div>`; }).join('')}</div>
     </section>
     <div class="actions">
       ${start ? `<a class="btn btn-primary btn-lg" href="#/d/${enc(s.id)}/${enc(start.id)}">Zacznij od: ${esc(start.nazwa)}</a>` : ''}
@@ -1893,8 +1907,8 @@ function viewDiagnoza() {
   app.innerHTML = `
     ${pageHead('Test diagnostyczny', '#/', s.nazwa)}
     <section class="card diag-intro">
-      <div class="plan-tiles"><div class="plan-tile"><b>~${DIAG_SIZE}</b><span>pytań</span></div><div class="plan-tile"><b>3</b><span>minuty</span></div><div class="plan-tile"><b>${s.dzialy.length}</b><span>działów</span></div></div>
-      <p>Pytania z każdego działu, w proporcjach jak na maturze. Po teście zobaczysz swój punkt startowy, prognozę wyniku i dział, od którego warto zacząć.</p>
+      <div class="plan-tiles"><div class="plan-tile"><b>~${DIAG_SIZE}</b><span>pytań</span></div><div class="plan-tile"><b>4</b><span>minuty</span></div><div class="plan-tile"><b>${s.dzialy.length}</b><span>działów</span></div></div>
+      <p>Co najmniej 2 pytania z każdego działu. Bez podpowiedzi w trakcie — jeśli nie wiesz, wybierz „Nie wiem” zamiast zgadywać. Na końcu: punkt startowy, prognoza i dział, od którego warto zacząć.</p>
       ${byl ? `<p class="muted small">Ostatni test: ${fmtDay(byl.at)}. Nowy wynik zastąpi poprzedni.</p>` : ''}
     </section>
     <a class="btn btn-primary btn-lg" href="#/test/${enc(s.id)}/x/start">Zaczynam</a>
@@ -2988,10 +3002,9 @@ function viewSettings() {
       <p>Widzisz błąd albo masz pomysł? Napisz do nas:</p>
       <p class="contact-mail"><strong>${REPORT_EMAIL}</strong></p>
       <div class="actions">
-        <a class="btn btn-primary btn-lg" href="mailto:${REPORT_EMAIL}?subject=${enc('IndexLab — wiadomość')}" target="_blank" rel="noopener">Napisz e-mail</a>
-        <button type="button" class="btn btn-ghost btn-lg" data-act="copy-mail">Kopiuj adres</button>
+        <button type="button" class="btn btn-primary btn-lg" data-act="copy-mail">Kopiuj adres e-mail</button>
       </div>
-      <p class="muted small">IndexLab to niezależne materiały — nie są publikowane przez CKE.</p>
+      <p class="muted small">Zadania z arkuszy CKE pochodzą z egzaminów maturalnych Centralnej Komisji Egzaminacyjnej i są oznaczone źródłem. Fiszki, lekcje, omówienia i zadania autorskie przygotowuje IndexLab. Aplikacja nie jest związana z CKE.</p>
     </section>`;
 
   app.querySelectorAll('.segmented').forEach((seg) => seg.addEventListener('click', (e) => {
