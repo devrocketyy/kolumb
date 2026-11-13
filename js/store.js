@@ -91,6 +91,12 @@ export function switchProfile(id) {
   saveProfiles();
   state = normalize(readJSON(dataKey(id)));
 }
+export function setPhoto(id, dataUrl) {
+  const p = profiles.list.find((x) => x.id === id);
+  if (!p) return;
+  if (dataUrl) p.photo = dataUrl; else delete p.photo;
+  saveProfiles();
+}
 export function renameProfile(id, name) {
   const p = profiles.list.find((x) => x.id === id);
   if (p) { p.name = String(name || '').trim().slice(0, 30) || p.name; saveProfiles(); }

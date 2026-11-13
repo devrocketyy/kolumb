@@ -6,7 +6,7 @@ import * as cloud from './cloud.js';
 import * as dostep from './dostep.js';
 import { cardKey, nextState, intervalLabel, summary, buildQueue, newAllowance, MASTERED_BOX, setAutoRate, tempoAuto, newPerDay } from './srs.js';
 
-const REPORT_EMAIL = 'roc7et@gmail.com';
+const REPORT_EMAIL = 'kontakt.indexlab@gmail.com';
 const TEST_SIZE = 10;
 const LITERY = ['A', 'B', 'C', 'D'];
 
@@ -372,7 +372,7 @@ function goalCard(s, rec, todo) {
   const st = store.streak();
   return `<section class="goal-card">
     <div class="goal-top">
-      <div class="ring ring-goal ${n >= g ? 'ring-ok' : ''}" style="--p:${Math.min(100, pct(n / g))}"><span>${n}</span></div>
+      <div class="ring ring-goal ${n >= g ? 'ring-ok' : ''} ${n >= 1000 ? 'digits-4' : n >= 100 ? 'digits-3' : ''}" style="--p:${Math.min(100, pct(n / g))}"><span>${n > 9999 ? '9999+' : n}</span></div>
       <div class="goal-text">
         <strong>${n >= g ? 'Cel dnia zrobiony' : `${n} / ${g} odpowiedzi dzisiaj`}</strong>
         <span>${ICONS.flame} ${st.current ? `${st.current} ${plural(st.current, 'dzień', 'dni', 'dni')} nauki z rzędu${st.today ? '' : ' · dziś jeszcze bez nauki'}` : 'Zacznij serię — ucz się codziennie'}</span>
@@ -531,12 +531,12 @@ function prognoza(s, tempo) {
   const dzialy = [];
   let odpowiedzi = 0, nowe14 = 0;
   for (const d of s.dzialy) {
-    let n = 0, pam = 0, fresh = 0;
+    let n = 0, pam = 0, fresh = 0, odpDz = 0;
     for (const u of d.poddzialy) for (const f of u.fiszki) {
       n++;
       const c = st.cards[cardKey(s.id, u.id, f.id)];
       if (!c || !c.reps) { fresh++; continue; }
-      odpowiedzi += c.reps;
+      odpowiedzi += c.reps; odpDz += c.reps;
       if (c.first && now - c.first < 14 * DAY) nowe14++;
       let r = PAMIEC[Math.min(6, c.box || 0)];
       if (c.due && c.due < now - 3 * DAY) r *= 0.8;          // zaległa powtórka — część już się zatarła
@@ -569,9 +569,13 @@ function prognoza(s, tempo) {
     const A = (zp + PRIOR_ZADANIA * 8) / (zm + 8);
     // test diagnostyczny: wiedza „ze szkoły” w dziale, z poprawką na zgadywanie (25% w ABCD) i ostrożnym ściąganiem do 20%
     const dg = st.diagnoza?.[s.id]?.dz?.[d.id];
-    const Kdiag = dg ? (Math.max(0, (dg[0] / dg[1] - 0.25) / 0.75) * dg[1] + 0.2 * 2) / (dg[1] + 2) : 0;
+    const Kdiag = dg ? (Math.max(0, (dg[0] / dg[1] - 0.25) / 0.75) * dg[1] + 0.3) / (dg[1] + 1) : 0;
     const wiedza = Math.max(K, Ktest, Kdiag);
-    dzialy.push({ d, w: wagi[d.id], n, fresh, pam, K: wiedza, A, zm, wynik: wiedza * A });
+    // dział znany tylko z testu diagnostycznego: wynik ABCD (po odjęciu zgadywania) przekładamy wprost na punkty —
+    // bez drugiego mnożenia przez nieznaną jeszcze skuteczność w zadaniach (podwójna kara)
+    const tylkoDiag = dg && !odpDz && !tAll && !zm;
+    const wynikDz = tylkoDiag ? 0.12 + 0.6 * Kdiag : wiedza * A;
+    dzialy.push({ d, w: wagi[d.id], n, fresh, pam, K: wiedza, A, zm, wynik: wynikDz });
   }
   // dział „umiejętności” (źródła, chronologia) sprawdza wiedzę ze wszystkich epok — liczymy go z całego kursu
   const przekroj = (arr) => {
@@ -597,7 +601,7 @@ function prognoza(s, tempo) {
     const ile = Math.min(x.fresh, zapas);
     zapas -= ile;
     const K = x.n ? Math.max(x.K, (x.pam + ile * 0.75) / x.n) : x.K;
-    return { ...x, K, wynik: K * x.A };
+    return { ...x, K, wynik: Math.max(x.wynik, K * x.A) };
   });
   const majModel = model(przekroj(maj));
   const laczenie = (m) => (M == null ? m : (1 - wm) * m + wm * Math.min(M, m + 0.15));
@@ -606,7 +610,7 @@ function prognoza(s, tempo) {
   // niepewność: im mniej danych, tym szerszy przedział; pokazujemy dolną połowę
   const diag = st.diagnoza?.[s.id];
   const dowody = odpowiedzi / 40 + dzialy.reduce((a, x) => a + x.zm, 0) / 4 + proby.length * 8 + st.tests.filter((t) => t.sid === s.id).length + (diag ? 2 : 0);
-  const margines = Math.min(0.25, Math.max(0.05, 0.04 + 0.22 / Math.sqrt(1 + dowody)));
+  const margines = Math.min(diag && odpowiedzi < 60 ? 0.12 : 0.25, Math.max(0.05, 0.04 + 0.22 / Math.sqrt(1 + dowody)));
   const szacunek = (x) => ({
     pokaz: Math.max(0, Math.floor((x - margines / 2) * 100)),
     od: Math.max(0, Math.floor((x - margines) * 100)),
@@ -952,17 +956,18 @@ function viewHome() {
   const nb = s ? mistakesOf(s).length : 0;
   let todo = 0, best = null;
   if (s) {
+    // limit nowych fiszek dotyczy całego przedmiotu — liczymy go raz, nie osobno w każdym dziale
     const allowance = newAllowance(s.id);
+    todo = summary(s.id, allUnits(s), allowance).todo;
     s.dzialy.forEach((dz) => {
-      const k = summary(s.id, dz.poddzialy, allowance).todo;
-      todo += k;
+      const k = summary(s.id, dz.poddzialy, 0).due;
       if (k && (!best || k > best.n)) best = { d: dz, n: k };
     });
+    if (!best && todo && rec) best = { d: rec.d, n: todo };
   }
   app.innerHTML = `
     <header class="today-head"><h1>Dziś</h1></header>
     ${subjSwitch()}
-    ${rebrandNote()}
     ${s ? coreCard(s) : ''}
     ${s ? (trybWlasny() ? wlasnaCard(s) : planCard(s)) : ''}
     ${s ? prognozaCard(s) : ''}
@@ -998,23 +1003,17 @@ function viewHome() {
 }
 
 // ---------- przełącznik kursów (widoczny na Dziś i w Nauce) ----------
+let wrocPoWyborze = null; // gdzie wrócić po zmianie kursu
 function subjSwitch() {
   if (subjects.length < 2) return '';
   const cur = currentSubject();
-  return `<div class="subj-switch" role="tablist" aria-label="Kurs">${subjects.map((x) => `<button type="button" role="tab" aria-selected="${x === cur}" class="${x === cur ? 'active' : ''}" data-switch="${esc(x.id)}">${esc(x.nazwa)}</button>`).join('')}</div>`;
+  return `<a class="course-pill" href="#/przedmiot" data-course-pill>
+    <span class="course-pill-icon">${subjectIcon(cur)}</span>
+    <span class="course-pill-text"><small>Twój kurs</small><b>${esc(cur.nazwa)}</b></span>
+    <span class="course-pill-change">Zmień</span></a>`;
 }
-function bindSubjSwitch(rerender) {
-  app.querySelector('.subj-switch')?.addEventListener('click', (e) => {
-    const b = e.target.closest('[data-switch]');
-    if (!b || b.classList.contains('active')) return;
-    const st = store.get().settings;
-    st.przedmiot = b.dataset.switch;
-    store.save();
-    game.sound('tap');
-    updateTopStats();
-    if (!st.plan?.[b.dataset.switch]) location.hash = '#/plan';
-    else route(); // przez routing — poczeka, aż treść przedmiotu się wczyta
-  });
+function bindSubjSwitch() {
+  app.querySelector('[data-course-pill]')?.addEventListener('click', () => { wrocPoWyborze = location.hash || '#/'; });
 }
 
 // ---------- zakładka „Nauka” ----------
@@ -2534,7 +2533,36 @@ function viewAktualnosci() {
 
 // ---------- profil, logowanie i wybór przedmiotu ----------
 const initials = (n) => (String(n).trim().split(/\s+/).map((w) => w[0]).join('').slice(0, 2) || '?').toUpperCase();
-const avatar = (p, big) => `<span class="avatar ${big ? 'avatar-lg' : ''}" style="--av:${esc(p.color)}" aria-hidden="true">${esc(initials(p.name))}</span>`;
+const avatar = (p, big) => p.photo
+  ? `<span class="avatar avatar-photo ${big ? 'avatar-lg' : ''}" aria-hidden="true"><img src="${esc(p.photo)}" alt=""></span>`
+  : `<span class="avatar ${big ? 'avatar-lg' : ''}" style="--av:${esc(p.color)}" aria-hidden="true">${esc(initials(p.name))}</span>`;
+
+// Zdjęcie profilowe: przycinane do kwadratu i zmniejszane do 160 px (kilka KB), zapisane tylko na urządzeniu.
+function zdjecieDoDataUrl(file) {
+  return new Promise((resolve, reject) => {
+    const url = URL.createObjectURL(file);
+    const img = new Image();
+    img.onload = () => {
+      const k = Math.min(img.width, img.height), size = 160;
+      const c = document.createElement('canvas'); c.width = c.height = size;
+      c.getContext('2d').drawImage(img, (img.width - k) / 2, (img.height - k) / 2, k, k, 0, 0, size, size);
+      URL.revokeObjectURL(url);
+      resolve(c.toDataURL('image/jpeg', 0.82));
+    };
+    img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('Nie udało się wczytać zdjęcia.')); };
+    img.src = url;
+  });
+}
+function bindAvatarUpload() {
+  app.querySelector('#avatar-file')?.addEventListener('change', async (e) => {
+    const f = e.target.files?.[0];
+    if (!f) return;
+    if (!f.type.startsWith('image/')) return toast('Wybierz plik ze zdjęciem.');
+    try { store.setPhoto(store.activeProfile().id, await zdjecieDoDataUrl(f)); toast('Zdjęcie profilowe zmienione.'); viewSettings(); updateTopStats(); }
+    catch (err) { toast(err.message); }
+  });
+  app.querySelector('[data-act="photo-del"]')?.addEventListener('click', () => { store.setPhoto(store.activeProfile().id, null); viewSettings(); });
+}
 const SUBJECT_ICONS = {
   wos: '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6 6 15v3h36v-3z" fill="currentColor"/><path d="M10 21h4v15h-4zM18 21h4v15h-4zM26 21h4v15h-4zM34 21h4v15h-4z" fill="currentColor" opacity=".85"/><path d="M6 38h36v4H6z" fill="currentColor"/></svg>',
 };
@@ -2634,7 +2662,8 @@ function viewPrzedmiot() {
     st.przedmiot = b.dataset.sid;
     store.save();
     game.sound('tap');
-    location.hash = st.plan?.[b.dataset.sid] ? '#/' : '#/plan';
+    const wroc = wrocPoWyborze; wrocPoWyborze = null;
+    location.hash = st.plan?.[b.dataset.sid] ? (wroc || '#/') : '#/plan';
   });
   app.querySelector('[data-act="logout"]').addEventListener('click', () => { store.logout(); location.hash = '#/konto'; });
 }
@@ -2908,6 +2937,14 @@ function viewSettings() {
     </section>
 
     <section class="card">
+      <h2 class="card-title">Zdjęcie profilowe</h2>
+      <div class="photo-row">${avatar(store.activeProfile(), true)}
+        <label class="btn btn-ghost btn-sm file-btn">${store.activeProfile().photo ? 'Zmień zdjęcie' : 'Dodaj zdjęcie'}<input type="file" id="avatar-file" accept="image/*"></label>
+        ${store.activeProfile().photo ? '<button type="button" class="link-btn" data-act="photo-del">Usuń</button>' : ''}</div>
+      <p class="muted small">Zdjęcie zostaje tylko na tym urządzeniu.</p>
+    </section>
+
+    <section class="card">
       <h2 class="card-title">Nazwa profilu</h2>
       <div class="pop-row"><input class="type-input" id="pname" maxlength="30" value="${esc(store.activeProfile().name)}" aria-label="Nazwa profilu"><button type="button" class="btn btn-ghost btn-sm" data-act="rename">Zapisz</button></div>
     </section>
@@ -2918,6 +2955,7 @@ function viewSettings() {
       <div class="segmented seg-4" role="radiogroup" aria-label="Dzienny cel — liczba odpowiedzi">
         ${game.GOALS.map((v) => `<button type="button" role="radio" aria-checked="${game.goal() === v}" class="${game.goal() === v ? 'active' : ''}" data-goal="${v}">${v}</button>`).join('')}
       </div>
+      <div class="pop-row goal-own"><input class="type-input" id="goal-own" type="number" inputmode="numeric" min="5" max="2000" placeholder="Własny cel, np. 150" value="${game.GOALS.includes(game.goal()) ? '' : game.goal()}" aria-label="Własny dzienny cel"><button type="button" class="btn btn-ghost btn-sm" data-act="goal-own">Ustaw</button></div>
     </section>
 
     ${standalone ? '' : `<section class="card">
@@ -2946,10 +2984,14 @@ function viewSettings() {
     </section>
 
     <section class="card about">
-      <h2 class="card-title">O aplikacji</h2>
-      <p><strong>IndexLab</strong> — kursy do matury rozszerzonej z WOS i historii: fiszki z powtórkami (system Leitnera), lekcje, zadania i próbne matury. Kolumb jest teraz częścią IndexLab — Twoje postępy zostały zachowane.</p>
-      <p class="muted">Materiały przygotowuje finalista Olimpiady Wiedzy o Prawach Człowieka. To materiały niezależne — nie są publikowane przez CKE ani organizatorów olimpiad.</p>
-      <p class="muted">Zauważyłeś błąd w treści? Użyj przycisku „Zgłoś błąd” albo napisz na <a href="mailto:${REPORT_EMAIL}">${REPORT_EMAIL}</a>.</p>
+      <h2 class="card-title">Kontakt</h2>
+      <p>Widzisz błąd albo masz pomysł? Napisz do nas:</p>
+      <p class="contact-mail"><strong>${REPORT_EMAIL}</strong></p>
+      <div class="actions">
+        <a class="btn btn-primary btn-lg" href="mailto:${REPORT_EMAIL}?subject=${enc('IndexLab — wiadomość')}" target="_blank" rel="noopener">Napisz e-mail</a>
+        <button type="button" class="btn btn-ghost btn-lg" data-act="copy-mail">Kopiuj adres</button>
+      </div>
+      <p class="muted small">IndexLab to niezależne materiały — nie są publikowane przez CKE.</p>
     </section>`;
 
   app.querySelectorAll('.segmented').forEach((seg) => seg.addEventListener('click', (e) => {
@@ -2975,6 +3017,15 @@ function viewSettings() {
     refreshAutoRates();
     location.hash = '#/plan';
     if (stary) toast('Plan zresetowany — ułóż go od nowa.', { label: 'Cofnij', run: () => { settings.plan[cs.id] = stary; store.save(); refreshAutoRates(); location.hash = '#/'; } });
+  });
+  app.querySelector('[data-act="goal-own"]').addEventListener('click', () => {
+    const v = Math.round(Number(app.querySelector('#goal-own').value));
+    if (!(v >= 5 && v <= 2000)) return toast('Podaj liczbę od 5 do 2000.');
+    settings.dailyGoal = v; store.save(); toast(`Cel dnia: ${v} odpowiedzi.`); viewSettings();
+  });
+  bindAvatarUpload();
+  app.querySelector('[data-act="copy-mail"]')?.addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(REPORT_EMAIL); toast('Adres skopiowany.'); } catch { toast(REPORT_EMAIL); }
   });
   app.querySelector('[data-act="rename"]').addEventListener('click', () => { store.renameProfile(store.activeProfile().id, app.querySelector('#pname').value); toast('Zapisano nazwę profilu.'); });
   app.querySelector('[data-act="delprof"]')?.addEventListener('click', () => {
@@ -3176,7 +3227,7 @@ function czekajNaTresc(hash) {
   const cs = currentSubject();
   const czekaj = wszystkie ? ladowanie : cs?.szkielet ? gotowe[cs.id] : null;
   if (!czekaj) return false;
-  app.innerHTML = `<div class="loading-course" role="status"><span class="spinner" aria-hidden="true"></span><p>Wczytuję kurs${cs ? `: ${esc(cs.nazwa)}` : ''}…</p></div>`;
+  app.innerHTML = `<div class="skeleton" role="status" aria-label="Wczytywanie"><i class="sk-title"></i><i class="sk-card"></i><i class="sk-card short"></i><i class="sk-card"></i></div>`;
   czekaj.then(() => { if ((location.hash || '#/') === hash) route(); });
   return true;
 }
@@ -3188,6 +3239,9 @@ async function init() {
   updateTopStats();
   try {
     await startTresci();
+    // uczeń z wybranym kursem: poczekaj na jego treść (z pamięci telefonu to ułamek sekundy) — bez ekranu wczytywania
+    const cur = store.loggedIn() && store.get().settings.przedmiot;
+    if (cur && gotowe[cur]) await gotowe[cur];
   } catch (e) {
     app.innerHTML = `<div class="empty"><div class="empty-icon">${ICONS.compass}</div>
       <h1>Nie udało się wczytać treści</h1>
