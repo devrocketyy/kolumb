@@ -1121,7 +1121,7 @@ button.btn-report { border: 0; background: none; font: inherit; font-size: .88re
 .plan-info { margin: 12px 4px 0; }
 .plan-track { position: relative; padding-bottom: 18px; }
 .plan-marks { position: absolute; left: 15px; right: 15px; bottom: 0; height: 18px; pointer-events: none; }
-.plan-marks i { position: absolute; top: -28px; width: 2px; height: 12px; margin-left: -1px; background: var(--text-2); }
+.plan-marks i { position: absolute; top: -28px; width: 0; height: 0; }
 .plan-marks span { position: absolute; top: 26px; left: 50%; transform: translateX(-50%); font: 600 .7rem var(--font); font-style: normal; color: var(--text-2); white-space: nowrap; }
 .plan-status { margin: 0; padding: 8px 12px; border-radius: 10px; font-size: .85rem; font-weight: 600; background: var(--surface-2); }
 .plan-status.bad { background: var(--surface); border: 2px dashed var(--text); }
@@ -1202,3 +1202,9 @@ button.btn-report { border: 0; background: none; font: inherit; font-size: .88re
 .diag-tag { font-style: normal; font-size: .72rem; font-weight: 700; padding: 2px 8px; border-radius: 99px; background: var(--surface-2); color: var(--text-2); margin-left: 6px; white-space: nowrap; }
 .diag-tag.ok { background: var(--text); color: var(--bg); }
 .diag-tag.bad { border: 1.5px dashed var(--text); background: transparent; color: var(--text); }
+
+.exam-facts { list-style: none; margin: 4px 0 6px; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.exam-facts li { display: grid; gap: 2px; padding: 12px 8px; border-radius: var(--radius); background: var(--surface-2); text-align: center; }
+.exam-facts b { font-family: var(--font-head); font-size: 1.5rem; line-height: 1; }
+.exam-facts span { font-size: .75rem; color: var(--text-2); }
+.dzial-list .dzial-row .pop-row { margin-top: 8px; }

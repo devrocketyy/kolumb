@@ -856,11 +856,6 @@ function viewPlan() {
   draft.koniec ||= isoDay(p0.koniec);
   app.innerHTML = `
     ${pageHead('Plan nauki', first ? null : '#/', s.nazwa)}
-    <div class="segmented plan-tryb" style="grid-template-columns:1fr 1fr">
-      <button type="button" data-tryb="plan" class="${trybWlasny() ? '' : 'active'}" aria-pressed="${!trybWlasny()}">Z planem</button>
-      <button type="button" data-tryb="wlasny" class="${trybWlasny() ? 'active' : ''}" aria-pressed="${trybWlasny()}">Na własną rękę</button>
-    </div>
-    ${trybWlasny() ? '<p class="plan-status mid">Teraz uczysz się na własną rękę. Ustaw plan i stuknij „Zapisz plan”, aby do niego wrócić.</p>' : ''}
     <section class="card plan-slider">
       <p class="eyebrow">Kończę materiał</p>
       <output class="plan-date" id="pl-date"></output>
@@ -878,7 +873,6 @@ function viewPlan() {
       <div class="plan-tile"><b id="pl-z"></b><span>zadań dziennie</span></div>
       <div class="plan-tile" id="pl-mt"><b id="pl-m"></b><span>minut dziennie</span></div>
     </div>
-    <p class="plan-left muted" id="pl-left"></p>
     <details class="card plan-exam"><summary>Matura: <b id="pl-ed"></b></summary>
       <input class="type-input" type="date" id="plan-data" value="${esc(draft.data)}" min="${isoDay(todayStart() + 2 * DAY)}" aria-label="Data matury">
     </details>
@@ -886,8 +880,7 @@ function viewPlan() {
     <div class="plan-more">
       <button type="button" class="btn btn-ghost" data-act="zalecany">${ICONS.redo}<span>Zalecany plan</span></button>
       ${first ? '' : `<button type="button" class="btn btn-ghost" data-act="reset">${ICONS.close}<span>Resetuj plan</span></button>`}
-    </div>
-    <p class="muted small plan-info">Plan sam przelicza dzienne porcje od dzisiaj — jeśli zrobisz więcej lub mniej, liczby na kolejne dni się dopasują.</p>`;
+    </div>`;
   const range = app.querySelector('#pl-range');
   const $ = (id) => app.querySelector(id);
   const sync = (fromRange) => {
@@ -917,14 +910,8 @@ function viewPlan() {
     $('#pl-z').textContent = p.zRate;
     $('#pl-m').textContent = p.minuty;
     $('#pl-mt').classList.toggle('warn', p.minuty > 90);
-    $('#pl-left').textContent = `Zostało: ${p.fresh.toLocaleString('pl-PL')} ${plural(p.fresh, 'fiszka', 'fiszki', 'fiszek')} i ${p.zLeft} ${plural(p.zLeft, 'zadanie', 'zadania', 'zadań')}${p.minuty > 90 ? ' — to dużo na jeden dzień, przesuń koniec dalej.' : '.'}`;
   };
   range.addEventListener('input', () => sync(true));
-  $('[data-tryb="plan"]').addEventListener('click', () => ustawTryb('plan', viewPlan));
-  $('[data-tryb="wlasny"]').addEventListener('click', () => {
-    if (!settings.plan?.[s.id]) settings.plan = { ...(settings.plan || {}), [s.id]: { data: draft.data, koniec: draft.koniec } };
-    ustawTryb('wlasny', () => { location.hash = '#/powtorka'; });
-  });
   $('[data-act="zalecany"]').addEventListener('click', () => {
     draft.data = s.egzamin || draft.data;
     draft.koniec = isoDay(planOf(s, { data: draft.data, koniec: null }).koniec);
@@ -1966,7 +1953,7 @@ function taskScore(sid, list) {
   return { done, pkt, max, total: list.length };
 }
 
-const MATURA_TABS = [['proba', 'Próbna'], ['cke', 'Arkusze CKE'], ['dzialy', 'Działy'], ['autorskie', 'Autorskie']];
+const MATURA_TABS = [['proba', 'Próbna'], ['cke', 'Arkusze CKE'], ['dzialy', 'Działy']];
 const scoreTag = (sc) => (sc.done ? `<span class="score ${sc.pkt / sc.max >= .7 ? 'ok' : sc.pkt / sc.max >= .5 ? 'warn' : 'bad'}">${pct(sc.pkt / sc.max)}%</span>` : '');
 
 function lockedRow(name) {
@@ -1985,6 +1972,7 @@ function taskRow(href, name, sc, right = '') {
 }
 
 function viewMatura(tab) {
+  if (tab === 'autorskie') tab = 'dzialy';
   tab = MATURA_TABS.some(([k]) => k === tab) ? tab : 'proba';
   const s = currentSubject();
   if (!s) return notFound();
@@ -1994,22 +1982,21 @@ function viewMatura(tab) {
   } else if (tab === 'cke') {
     body = `<div class="dzial-list">${s.arkusze.map((a) => a.zablokowany ? lockedRow(a.nazwa) : taskRow(`#/zadania/${enc(s.id)}/a/${enc(a.id)}`, a.nazwa, taskScore(s.id, a.zadania), `<span>${a.punkty} pkt</span>`)).join('')}</div>`
       || '<p class="muted">Brak arkuszy CKE.</p>';
-  } else if (tab === 'dzialy') {
-    body = `<p class="muted small">Zadania z arkuszy CKE i zadania autorskie z jednego działu.</p>
-      <div class="dzial-list">${s.dzialy.map((d) => {
+  } else {
+    body = `<div class="dzial-list">${s.dzialy.map((d) => {
         const cke = tasksOf(s, d.id);
         const own = bankTasks(s, d.id);
-        return `<div class="dzial-row dzial-both">
-          <span class="dzial-name">${esc(d.nazwa)}</span>
+        if (!cke.length && !own.length) return '';
+        const sc = taskScore(s.id, [...cke, ...own]);
+        return `<div class="dzial-row">
+          <div class="dzial-row-top"><span class="dzial-name">${esc(d.nazwa)}</span>${scoreTag(sc)}</div>
+          ${progressBar(sc.done / (sc.total || 1), `Rozwiązane zadania: ${d.nazwa}`)}
           <div class="pop-row">
-            ${cke.length ? `<a class="btn btn-ghost btn-sm" href="#/zadania/${enc(s.id)}/d/${enc(d.id)}">CKE <b>${cke.length}</b></a>` : ''}
+            ${cke.length ? `<a class="btn btn-ghost btn-sm" href="#/zadania/${enc(s.id)}/d/${enc(d.id)}">Z arkuszy CKE <b>${cke.length}</b></a>` : ''}
             ${own.length ? `<a class="btn btn-ghost btn-sm" href="#/zadania/${enc(s.id)}/b/${enc(d.id)}">Autorskie <b>${own.length}</b></a>` : ''}
           </div>
         </div>`;
       }).join('')}</div>`;
-  } else {
-    body = `<div class="dzial-list">${s.dzialy.map((d) => ({ d, list: bankTasks(s, d.id) })).filter((x) => x.list.length)
-        .map(({ d, list }) => taskRow(`#/zadania/${enc(s.id)}/b/${enc(d.id)}`, d.nazwa, taskScore(s.id, list))).join('')}</div>`;
   }
   app.innerHTML = `
     ${pageHead('Matura', null)}
@@ -2134,7 +2121,7 @@ function renderTask() {
 
   app.innerHTML = `
     <div class="session-top">
-      <a class="icon-btn" href="#/matura/${{ a: 'cke', b: 'autorskie', d: 'dzialy' }[zs.key.split('/')[1]] || 'proba'}" aria-label="Zamknij">${ICONS.close}</a>
+      <a class="icon-btn" href="#/matura/${{ a: 'cke', b: 'dzialy', d: 'dzialy' }[zs.key.split('/')[1]] || 'proba'}" aria-label="Zamknij">${ICONS.close}</a>
       <div class="session-progress">${progressBar((i + 1) / list.length, 'Postęp')}</div>
       <span class="session-count">${i + 1}/${list.length}</span>
     </div>
@@ -2314,8 +2301,13 @@ function examSection(s) {
   const numbered = Array.from({ length: 12 }, (_, i) => i + 1);
   const res = (e) => (e && e.koniec && e.ocena ? `${e.ocena.pkt}/${e.ocena.max} pkt` : e ? 'w trakcie' : '');
   return `<section class="card exam-card">
-    <h2 class="card-title">Próbna matura · 180 minut</h2>
-    <p class="muted">Arkusz ułożony jak matura od 2026 r.: ok. 50 pkt, kilkanaście wiązek z różnych działów (w proporcjach z arkuszy CKE 2026), na końcu zadanie rozszerzonej odpowiedzi za 7 pkt. Baza: ${nZadan(s.bank.reduce((n, w) => n + w.zadania.length, 0))} autorskich${cke ? ` + ${nZadan(tasksOf(s).length)} CKE` : ''}.</p>
+    <h2 class="card-title">Próbna matura</h2>
+    <ul class="exam-facts">
+      <li><b>180</b><span>minut</span></li>
+      <li><b>~50</b><span>punktów</span></li>
+      <li><b>${(s.bank.reduce((n, w) => n + w.zadania.length, 0) + (cke ? tasksOf(s).length : 0)).toLocaleString('pl-PL')}</b><span>zadań w puli</span></li>
+    </ul>
+    <p class="muted small">Układ jak na prawdziwym arkuszu: wiązki ze wszystkich działów i na końcu wypracowanie.</p>
     <label class="switch"><input type="checkbox" id="exam-cke" ${cke ? 'checked' : ''}> <span>Dobieraj też zadania z arkuszy CKE</span></label>
     <button type="button" class="btn btn-gold btn-lg" id="exam-random">Losowa próbna matura</button>
     <h3 class="sub-title">Ponumerowane próbne matury</h3>
