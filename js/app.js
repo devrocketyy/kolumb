@@ -2304,10 +2304,9 @@ function examSection(s) {
     <h2 class="card-title">Próbna matura</h2>
     <ul class="exam-facts">
       <li><b>180</b><span>minut</span></li>
-      <li><b>~50</b><span>punktów</span></li>
+      <li><b>50</b><span>pkt w arkuszu</span></li>
       <li><b>${(s.bank.reduce((n, w) => n + w.zadania.length, 0) + (cke ? tasksOf(s).length : 0)).toLocaleString('pl-PL')}</b><span>zadań w puli</span></li>
     </ul>
-    <p class="muted small">Układ jak na prawdziwym arkuszu: wiązki ze wszystkich działów i na końcu wypracowanie.</p>
     <label class="switch"><input type="checkbox" id="exam-cke" ${cke ? 'checked' : ''}> <span>Dobieraj też zadania z arkuszy CKE</span></label>
     <button type="button" class="btn btn-gold btn-lg" id="exam-random">Losowa próbna matura</button>
     <h3 class="sub-title">Ponumerowane próbne matury</h3>
