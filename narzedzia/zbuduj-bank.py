@@ -12,6 +12,7 @@ Format:
 @P                      ← polecenie (kolejne linie)
 @O                      ← odpowiedź / klucz (kolejne linie)
 @S                      ← zasady oceniania (opcjonalnie; domyślne zależą od typu)
+@Q                      ← omówienie: dlaczego tak, pułapki, dystraktory (opcjonalnie)
 """
 import json, os, re, sys
 
@@ -57,10 +58,10 @@ def parse(path):
                 field = None
             elif tag == 'Z':
                 typ, pkt = [x.strip() for x in rest.split('|')]
-                z = {'nr': str(len(w['zadania']) + 1), 'typ': typ, 'punkty': int(pkt), 'polecenie': '', 'odpowiedz': '', 'zasady': ''}
+                z = {'nr': str(len(w['zadania']) + 1), 'typ': typ, 'punkty': int(pkt), 'polecenie': '', 'odpowiedz': '', 'zasady': '', 'omowienie': ''}
                 w['zadania'].append(z); field = None
-            elif tag in 'POS':
-                field = ('z', {'P': 'polecenie', 'O': 'odpowiedz', 'S': 'zasady'}[tag])
+            elif tag in 'POSQ':
+                field = ('z', {'P': 'polecenie', 'O': 'odpowiedz', 'S': 'zasady', 'Q': 'omowienie'}[tag])
             else:
                 sys.exit(f'{path}:{ln}: nieznany znacznik @{tag}')
             continue
@@ -74,8 +75,9 @@ def parse(path):
         w['material'] = w['material'].strip()
         assert w['zadania'], f'wiązka {w["id"]} nie ma zadań'
         for z in w['zadania']:
-            for k in ('polecenie', 'odpowiedz', 'zasady'):
-                z[k] = z[k].strip()
+            for k in ('polecenie', 'odpowiedz', 'zasady', 'omowienie'):
+                if k in z: z[k] = z[k].strip()
+            if not z.get('omowienie'): z.pop('omowienie', None)
             assert z['polecenie'] and z['odpowiedz'], f'{w["id"]}/{z["nr"]}: brak polecenia lub odpowiedzi'
             if not z['zasady']:
                 z['zasady'] = zasady_dla(z['typ'], z['punkty'])
