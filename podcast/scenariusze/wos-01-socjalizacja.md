@@ -1,7 +1,7 @@
 # IndexLab · WOS · Odcinek 1 · „Kto cię wychował?”
 Temat: Człowiek jako istota społeczna i socjalizacja
 Dział: Człowiek i społeczeństwo
-Długość: ok. 17 minut (ok. 2 450 słów), jeden narrator, spokojnie.
+Długość: ok. 14–15 minut (ok. 1 870 słów), jeden narrator, spokojnie.
 
 ---
 

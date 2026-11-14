@@ -1,7 +1,7 @@
 # IndexLab · Historia · Odcinek 1 · „Dzień, w którym ludzie przestali wędrować”
 Temat: Pradzieje i historia starożytnego Wschodu
 Dział: Starożytność
-Długość: ok. 18 minut (ok. 2 550 słów), jeden narrator, spokojnie.
+Długość: ok. 13–14 minut (ok. 1 720 słów), jeden narrator, spokojnie.
 
 ---
 
