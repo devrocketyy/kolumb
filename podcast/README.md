@@ -1,4 +1,9 @@
 # Podcast IndexLab
 
-Scenariusze odcinków (Markdown). Format linii: `OLA:` / `KUBA:` (WOS, „Na przerwie”) albo `NARRATOR:` / `MAJA:` (historia, „Teczki”).
-Generator MP3 (Azure Speech, dwa głosy) dojdzie po wyborze głosów. Odcinki tematyczne ok. 10 min, działowe ok. 20 min.
+Format: **jeden narrator**, spokojny ton, opowieść (styl podcastu reportażowego), nie lista faktów.
+Każdy odcinek: scena otwierająca → opowieść z pojęciami wplecionymi w historię → „Co z tego będzie na maturze” → spokojne podsumowanie i trzy pytania do przemyślenia.
+
+- Odcinki tematyczne: ok. 15–18 min (ok. 2 300–2 600 słów).
+- Odcinki działowe (powtórka przed arkuszem): ok. 25–30 min.
+
+Wskazówki dla lektora (Azure SSML) w nawiasach kwadratowych, np. [pauza], [wolniej] — generator zamieni je na znaczniki.
