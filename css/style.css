@@ -134,7 +134,8 @@ body.in-session .topbar, body.in-gate .topbar { display: none; }
 /* ---------- układ ---------- */
 main { max-width: 720px; margin: 0 auto; padding: 16px max(16px, env(safe-area-inset-left)) 24px max(16px, env(safe-area-inset-right)); outline: none; }
 main:focus, main:focus-visible { outline: none; }
-.loading { display: grid; place-items: center; gap: 16px; padding: 22vh 0; color: var(--text-2); }
+.loading { display: grid; place-items: center; gap: 16px; padding: 22vh 0; color: var(--text-2); opacity: 0; animation: loading-in .2s ease 1.2s forwards; }
+@keyframes loading-in { to { opacity: 1; } }
 .loading img { animation: spin 2.4s ease-in-out infinite; border-radius: 16px; }
 @keyframes spin { 50% { transform: rotate(180deg); } 100% { transform: rotate(360deg); } }
 
