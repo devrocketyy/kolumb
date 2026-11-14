@@ -811,6 +811,338 @@
      "zasady": "1 pkt – poprawne wyjaśnienie z odwołaniem do materiału lub wiedzy.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
     }
    ]
+  },
+  {
+   "id": "p2-01",
+   "dzial": "prawo",
+   "tytul": "Zdolność do czynności prawnych — kazus",
+   "material": "Kazus (autorski). Dwunastoletni Kuba kupił w kiosku gazetę. Piętnastoletnia Ola kupiła za własne oszczędności drogi rower, bez zgody rodziców. Szesnastoletni Michał wydał na grę komputerową pieniądze zarobione w wakacje.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: Kodeks cywilny, art. 14–22.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy umowa zawarta przez Kubę jest ważna. Uzasadnij.",
+     "odpowiedz": "Tak — osoba bez zdolności do czynności prawnych (poniżej 13 lat) może zawierać umowy powszechnie zawierane w drobnych bieżących sprawach życia codziennego, jeśli nie prowadzą do rażącego pokrzywdzenia.",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Zakup gazety to drobna sprawa życia codziennego."
+    },
+    {
+     "nr": "2",
+     "typ": "przyporzadkuj",
+     "punkty": 1,
+     "polecenie": "Przyporządkuj Oli i Michałowi skutek ich umów: ważna bez zgody rodziców; wymaga potwierdzenia przez rodziców (przedstawiciela ustawowego).",
+     "odpowiedz": "Ola — wymaga potwierdzenia przez rodziców; Michał — ważna bez zgody rodziców.",
+     "zasady": "1 pkt – poprawne przyporządkowanie wszystkich elementów.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Osoba z ograniczoną zdolnością (13–18 lat) może bez zgody rozporządzać swoim zarobkiem. Drogi zakup za oszczędności wymaga zgody — jeśli rodzice go nie potwierdzą, umowa jest nieważna."
+    }
+   ]
+  },
+  {
+   "id": "p2-02",
+   "dzial": "prawo",
+   "tytul": "Zakupy przez internet — kazus",
+   "material": "Kazus (autorski). Pani Agata kupiła przez internet buty, które po otrzymaniu okazały się za małe. Po 10 dniach postanowiła je zwrócić. Pan Robert kupił w sklepie stacjonarnym pralkę, która po 18 miesiącach przestała działać z powodu wady fabrycznej.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: ustawa o prawach konsumenta; Kodeks cywilny.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy pani Agata może odstąpić od umowy bez podania przyczyny. Uzasadnij.",
+     "odpowiedz": "Tak — konsument może odstąpić od umowy zawartej na odległość (np. przez internet) bez podania przyczyny w ciągu 14 dni od otrzymania towaru.",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Prawo do odstąpienia bez przyczyny nie przysługuje przy zakupach w sklepie stacjonarnym — tam zwrot to dobra wola sprzedawcy."
+    },
+    {
+     "nr": "2",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy pan Robert może skutecznie dochodzić roszczeń od sprzedawcy. Uzasadnij.",
+     "odpowiedz": "Tak — sprzedawca odpowiada wobec konsumenta za brak zgodności towaru z umową, który ujawni się w ciągu 2 lat od wydania towaru; wada ujawniła się po 18 miesiącach.",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Konsument może żądać naprawy lub wymiany, a w określonych sytuacjach obniżenia ceny lub odstąpienia od umowy."
+    }
+   ]
+  },
+  {
+   "id": "p2-03",
+   "dzial": "prawo",
+   "tytul": "Dziedziczenie ustawowe — kazus",
+   "material": "Kazus (autorski). Zmarł pan Henryk, nie zostawiwszy testamentu. Pozostawił żonę oraz troje dorosłych dzieci. Spadek ma wartość 400 000 zł.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: Kodeks cywilny, art. 931.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Oblicz, jaką część spadku i jaką kwotę otrzyma żona, a jaką każde z dzieci.",
+     "odpowiedz": "Żona — 1/4 (100 000 zł), każde dziecko — 1/4 (100 000 zł).",
+     "zasady": "2 pkt – poprawna i pełna odpowiedź na obie części polecenia.\n1 pkt – poprawna odpowiedź na jedną część polecenia.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "W pierwszej kolejności dziedziczą małżonek i dzieci w częściach równych, ale część małżonka nie może być mniejsza niż 1/4. Przy trojgu dzieci podział równy daje dokładnie po 1/4. Przy czworgu dzieci żona dostałaby 1/4, a dzieci podzieliłyby 3/4."
+    },
+    {
+     "nr": "2",
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, czym jest zachowek.",
+     "odpowiedz": "To roszczenie pieniężne najbliższych (zstępnych, małżonka, rodziców), którzy zostali pominięci w testamencie; wynosi połowę udziału, który przypadłby im z ustawy (2/3, jeśli uprawniony jest małoletni lub trwale niezdolny do pracy).",
+     "zasady": "1 pkt – poprawne wyjaśnienie z odwołaniem do materiału lub wiedzy.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    }
+   ]
+  },
+  {
+   "id": "p2-04",
+   "dzial": "prawo",
+   "tytul": "Testament własnoręczny",
+   "material": "Kazus (autorski). Pani Maria napisała testament na komputerze, wydrukowała go i podpisała. Jej sąsiad napisał testament w całości odręcznie, podpisał go i opatrzył datą.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: Kodeks cywilny, art. 949.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy testament pani Marii jest ważnym testamentem własnoręcznym. Uzasadnij.",
+     "odpowiedz": "Nie — testament własnoręczny musi zostać w całości napisany ręką spadkodawcy i podpisany; wydruk komputerowy tego wymogu nie spełnia.",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Inne formy: testament notarialny i allograficzny (ustnie wobec urzędnika). Testament sąsiada spełnia wymogi."
+    }
+   ]
+  },
+  {
+   "id": "p2-05",
+   "dzial": "prawo",
+   "tytul": "Przedawnienie roszczeń",
+   "material": "Kazus (autorski). Pan Adam pożyczył koledze 3 000 zł z terminem zwrotu do 15 marca 2019 r. Kolega nie oddał pieniędzy, a pan Adam przypomniał sobie o długu w 2026 r.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: Kodeks cywilny, art. 117–118.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy roszczenie pana Adama uległo przedawnieniu. Uzasadnij, wiedząc, że ogólny termin przedawnienia wynosi 6 lat, a koniec terminu przypada na ostatni dzień roku kalendarzowego.",
+     "odpowiedz": "Tak — roszczenie stało się wymagalne 15 marca 2019 r., 6 lat upłynęło w marcu 2025 r., więc termin przedawnienia zakończył się 31 grudnia 2025 r.",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Po przedawnieniu dług nadal istnieje, ale dłużnik może się uchylić od jego zaspokojenia. Roszczenia okresowe i związane z działalnością gospodarczą przedawniają się po 3 latach."
+    }
+   ]
+  },
+  {
+   "id": "p2-06",
+   "dzial": "prawo",
+   "tytul": "Przestępstwo i wykroczenie — kazus",
+   "material": "Kazus (autorski). Pan Jerzy ukradł ze sklepu towar wartości 600 zł. Pani Iwona ukradła z innego sklepu laptop wartości 3 500 zł.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: Kodeks wykroczeń, art. 119; Kodeks karny, art. 278.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "przyporzadkuj",
+     "punkty": 1,
+     "polecenie": "Przyporządkuj czynom pana Jerzego i pani Iwony kwalifikację: wykroczenie albo przestępstwo.",
+     "odpowiedz": "Pan Jerzy — wykroczenie; pani Iwona — przestępstwo (występek).",
+     "zasady": "1 pkt – poprawne przyporządkowanie wszystkich elementów.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Kradzież rzeczy o wartości nieprzekraczającej 800 zł jest wykroczeniem; powyżej — przestępstwem."
+    },
+    {
+     "nr": "2",
+     "typ": "abcd",
+     "punkty": 1,
+     "polecenie": "Dokończ zdanie. Zbrodnią jest czyn zabroniony zagrożony karą pozbawienia wolności\nA. powyżej miesiąca.\nB. co najmniej roku.\nC. co najmniej 3 lat lub karą surowszą.\nD. co najmniej 5 lat.",
+     "odpowiedz": "C",
+     "zasady": "1 pkt – wskazanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Występek: grzywna powyżej 30 stawek dziennych, kara ograniczenia wolności albo pozbawienia wolności przekraczająca miesiąc."
+    }
+   ]
+  },
+  {
+   "id": "p2-07",
+   "dzial": "prawo",
+   "tytul": "Odpowiedzialność karna nieletnich — kazus",
+   "material": "Kazus (autorski). Szesnastoletni Patryk dokonał rozboju. Czternastoletni Kamil wybił szybę w szkole. Piętnastoletni Bartek dopuścił się zabójstwa.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: Kodeks karny, art. 10.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy Bartek może odpowiadać przed sądem jak dorosły. Uzasadnij.",
+     "odpowiedz": "Tak — co do zasady odpowiedzialność karna zaczyna się od 17 lat, ale sprawca, który ukończył 15 lat i dopuścił się najcięższych przestępstw (m.in. zabójstwa), może odpowiadać na zasadach ogólnych, jeśli przemawiają za tym okoliczności sprawy.",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Patryk i Kamil odpowiadają przed sądem rodzinnym — wobec nieletnich stosuje się przede wszystkim środki wychowawcze i poprawcze."
+    }
+   ]
+  },
+  {
+   "id": "p2-08",
+   "dzial": "prawo",
+   "tytul": "Zasady prawa karnego",
+   "material": "Zestawienie (autorskie). A — nikt nie odpowiada karnie, jeśli czyn nie był zabroniony przez ustawę w chwili jego popełnienia; B — nie dające się usunąć wątpliwości rozstrzyga się na korzyść oskarżonego; C — oskarżonego uważa się za niewinnego, dopóki jego wina nie zostanie udowodniona prawomocnym wyrokiem.",
+   "zrodlo": "Zadanie autorskie IndexLab",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "przyporzadkuj",
+     "punkty": 1,
+     "polecenie": "Przyporządkuj zasadom A–C ich łacińskie lub polskie nazwy: in dubio pro reo, nullum crimen sine lege, domniemanie niewinności.",
+     "odpowiedz": "A — nullum crimen sine lege; B — in dubio pro reo; C — domniemanie niewinności.",
+     "zasady": "1 pkt – poprawne przyporządkowanie wszystkich elementów.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Pokrewna zasada: lex retro non agit — prawo nie działa wstecz."
+    }
+   ]
+  },
+  {
+   "id": "p2-09",
+   "dzial": "prawo",
+   "tytul": "Obrona konieczna — kazus",
+   "material": "Kazus (autorski). W nocy do mieszkania pana Leszka włamał się uzbrojony w nóż napastnik i zaatakował go. Pan Leszek uderzył napastnika krzesłem, a ten doznał złamania ręki.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: Kodeks karny, art. 25.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy pan Leszek popełnił przestępstwo. Uzasadnij.",
+     "odpowiedz": "Nie — działał w obronie koniecznej, odpierając bezpośredni, bezprawny zamach na swoje zdrowie i życie; nie przekroczył granic obrony koniecznej.",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Obrona konieczna wyłącza bezprawność czynu. Przekroczenie jej granic (np. nadmierna przemoc wobec uciekającego napastnika) może skutkować nadzwyczajnym złagodzeniem kary lub odstąpieniem od jej wymierzenia."
+    },
+    {
+     "nr": "2",
+     "typ": "abcd",
+     "punkty": 1,
+     "polecenie": "Dokończ zdanie. Stan wyższej konieczności zachodzi wtedy, gdy ktoś\nA. odpiera bezpośredni, bezprawny zamach.\nB. ratuje dobro chronione prawem przed bezpośrednim niebezpieczeństwem, poświęcając inne dobro.\nC. działa na rozkaz przełożonego.\nD. nie jest w stanie rozpoznać znaczenia swojego czynu.",
+     "odpowiedz": "B",
+     "zasady": "1 pkt – wskazanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Przykład: wybicie szyby w cudzym samochodzie, by uratować dziecko zamknięte w upale. D to niepoczytalność."
+    }
+   ]
+  },
+  {
+   "id": "p2-10",
+   "dzial": "prawo",
+   "tytul": "Przestępstwa prywatnoskargowe",
+   "material": "Kazus (autorski). Pani Zofia została publicznie znieważona przez sąsiadkę w obecności innych osób. Pan Karol padł ofiarą rozboju na ulicy.",
+   "zrodlo": "Zadanie autorskie IndexLab",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy w sprawie pani Zofii postępowanie wszczyna prokurator z urzędu. Uzasadnij.",
+     "odpowiedz": "Nie — znieważenie jest przestępstwem ściganym z oskarżenia prywatnego; pani Zofia musi sama wnieść prywatny akt oskarżenia do sądu.",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Przestępstwa prywatnoskargowe: m.in. znieważenie, zniesławienie, naruszenie nietykalności cielesnej. Rozbój jest ścigany z urzędu (publicznoskargowy) — postępowanie prowadzi policja i prokuratura."
+    }
+   ]
+  },
+  {
+   "id": "p2-11",
+   "dzial": "prawo",
+   "tytul": "Umowa o pracę — kazus",
+   "material": "Kazus (autorski). Pani Kinga pracuje w firmie od 4 lat na umowie na czas nieokreślony. Pracodawca chce ją zwolnić z powodu likwidacji stanowiska. Jej kolega zawarł z tym samym pracodawcą już czwartą z rzędu umowę na czas określony.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: Kodeks pracy, art. 25¹, 36.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "abcd",
+     "punkty": 1,
+     "polecenie": "Dokończ zdanie. Okres wypowiedzenia umowy pani Kingi wynosi\nA. 2 tygodnie.\nB. 1 miesiąc.\nC. 3 miesiące.\nD. 6 miesięcy.",
+     "odpowiedz": "C",
+     "zasady": "1 pkt – wskazanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Umowa na czas nieokreślony: 2 tygodnie (staż poniżej 6 miesięcy), 1 miesiąc (od 6 miesięcy do 3 lat), 3 miesiące (co najmniej 3 lata)."
+    },
+    {
+     "nr": "2",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, jaki skutek ma zawarcie czwartej umowy na czas określony. Uzasadnij.",
+     "odpowiedz": "Czwarta umowa na czas określony z tym samym pracodawcą uważana jest za umowę na czas nieokreślony (limit to 3 umowy i łącznie 33 miesiące).",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Limit ma chronić pracowników przed zatrudnianiem latami na „umowach tymczasowych”."
+    }
+   ]
+  },
+  {
+   "id": "p2-12",
+   "dzial": "prawo",
+   "tytul": "Umowa o pracę a umowy cywilnoprawne",
+   "material": "Zestawienie (autorskie). A — pracownik wykonuje pracę pod kierownictwem pracodawcy, w określonym miejscu i czasie, za wynagrodzeniem; B — zleceniobiorca starannie wykonuje określone czynności (np. ulotki), bez gwarancji efektu; C — wykonawca zobowiązuje się do osiągnięcia określonego rezultatu (np. namalowania obrazu).",
+   "zrodlo": "Zadanie autorskie IndexLab",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "przyporzadkuj",
+     "punkty": 1,
+     "polecenie": "Przyporządkuj opisom A–C rodzaje umów: umowa zlecenia, umowa o dzieło, umowa o pracę.",
+     "odpowiedz": "A — umowa o pracę; B — umowa zlecenia; C — umowa o dzieło.",
+     "zasady": "1 pkt – poprawne przyporządkowanie wszystkich elementów.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Tylko umowa o pracę daje prawo do urlopu wypoczynkowego i ochronę z Kodeksu pracy. Przy umowie zlecenia obowiązuje minimalna stawka godzinowa."
+    },
+    {
+     "nr": "2",
+     "typ": "abcd",
+     "punkty": 1,
+     "polecenie": "Dokończ zdanie. Pracownik ze stażem pracy krótszym niż 10 lat ma prawo do urlopu wypoczynkowego w wymiarze\nA. 14 dni.\nB. 20 dni.\nC. 26 dni.\nD. 30 dni.",
+     "odpowiedz": "B",
+     "zasady": "1 pkt – wskazanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Od 10 lat stażu — 26 dni. Do stażu wlicza się m.in. okres nauki (np. ukończenie szkoły wyższej — 8 lat)."
+    }
+   ]
+  },
+  {
+   "id": "p2-13",
+   "dzial": "prawo",
+   "tytul": "Postępowanie administracyjne — terminy",
+   "material": "Kazus (autorski). Pan Wiktor złożył w urzędzie wniosek o wydanie decyzji. Urząd wydał decyzję po półtora miesiąca, a sprawa nie była szczególnie skomplikowana. Decyzja była dla pana Wiktora niekorzystna.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: Kodeks postępowania administracyjnego.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy urząd dotrzymał terminu załatwienia sprawy. Uzasadnij.",
+     "odpowiedz": "Nie — sprawa wymagająca postępowania wyjaśniającego powinna być załatwiona nie później niż w ciągu miesiąca (szczególnie skomplikowana — w ciągu dwóch miesięcy).",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Na bezczynność lub przewlekłość organu przysługuje ponaglenie, a następnie skarga do sądu administracyjnego."
+    },
+    {
+     "nr": "2",
+     "typ": "abcd",
+     "punkty": 1,
+     "polecenie": "Dokończ zdanie. Odwołanie od decyzji administracyjnej wnosi się w terminie\nA. 7 dni do sądu administracyjnego.\nB. 14 dni do organu wyższego stopnia za pośrednictwem organu, który wydał decyzję.\nC. 30 dni bezpośrednio do ministra.\nD. 14 dni do Rzecznika Praw Obywatelskich.",
+     "odpowiedz": "B",
+     "zasady": "1 pkt – wskazanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Po wyczerpaniu odwołania skargę do wojewódzkiego sądu administracyjnego wnosi się w terminie 30 dni."
+    }
+   ]
+  },
+  {
+   "id": "p2-14",
+   "dzial": "prawo",
+   "tytul": "Prawo rodzinne — rozwód i majątek",
+   "material": "Kazus (autorski). Małżonkowie od kilku lat nie mieszkają razem, nie utrzymują kontaktu i nie prowadzą wspólnego gospodarstwa. Przed ślubem nie zawarli żadnej umowy majątkowej. Mają małoletnie dziecko.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: Kodeks rodzinny i opiekuńczy.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj przesłankę, której spełnienia wymaga orzeczenie rozwodu.",
+     "odpowiedz": "Zupełny i trwały rozkład pożycia małżeńskiego.",
+     "zasady": "1 pkt – podanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Rozwodu nie można orzec m.in., gdy ucierpiałoby na nim dobro wspólnych małoletnich dzieci lub gdy żąda go wyłącznie winny, a drugi małżonek się nie zgadza (z wyjątkami). Separacja wymaga tylko rozkładu zupełnego."
+    },
+    {
+     "nr": "2",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, jaki ustrój majątkowy obowiązywał małżonków. Uzasadnij.",
+     "odpowiedz": "Wspólność majątkowa ustawowa — powstaje z mocy prawa z chwilą zawarcia małżeństwa, jeśli małżonkowie nie zawarli umowy majątkowej (intercyzy).",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Do majątku osobistego należą m.in. rzeczy nabyte przed ślubem, darowizny i spadki (chyba że darczyńca postanowił inaczej)."
+    }
+   ]
   }
  ]
 }
