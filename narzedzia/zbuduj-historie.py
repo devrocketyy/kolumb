@@ -174,8 +174,11 @@ ZASADY = {
 }
 
 
-def bank_zadanie(typ, pkt, polecenie, odpowiedz):
-    return {'typ': typ, 'punkty': pkt, 'polecenie': polecenie, 'odpowiedz': odpowiedz, 'zasady': ZASADY.get(pkt, '')}
+def bank_zadanie(typ, pkt, polecenie, odpowiedz, omowienie=None):
+    z = {'typ': typ, 'punkty': pkt, 'polecenie': polecenie, 'odpowiedz': odpowiedz, 'zasady': ZASADY.get(pkt, '')}
+    if omowienie:
+        z['omowienie'] = omowienie
+    return z
 
 
 def bank_wiazka(tytul, material, *zadania, zrodlo='Zadanie autorskie IndexLab. Tekst autorski.'):

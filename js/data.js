@@ -123,6 +123,7 @@ function normalizeBank(b) {
       polecenie: z.polecenie || '',
       odpowiedz: z.odpowiedz || '',
       zasady: z.zasady || '',
+      omowienie: z.omowienie || '',
       dzialy: [String(w.dzial || b.dzial || '')],
     })),
   }));
