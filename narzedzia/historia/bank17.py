@@ -1,0 +1,113 @@
+# Bank zadań autorskich — partia 9: wiek XIX, średniowiecze, nowożytność (ciąg dalszy).
+# B(tytuł, materiał, *zadania) — wiązka; T(typ, punkty, polecenie, odpowiedź, omówienie) — zadanie.
+BANK = {}
+
+BANK['xix-wiek'] = [
+ B('Parlament frankfurcki',
+   'Tekst (autorski). W 1848 r. we Frankfurcie nad Menem zebrało się zgromadzenie wybrane we wszystkich państwach niemieckich. Uchwaliło konstytucję zjednoczonych Niemiec i zaproponowało koronę cesarską królowi Prus. Ten odmówił, mówiąc, że nie przyjmie korony „z rynsztoka”.',
+   T('rozstrzygnij', 1, 'Rozstrzygnij, czy zjednoczenie Niemiec nastąpiło w sposób zaproponowany przez zgromadzenie z tekstu. Uzasadnij.',
+     'Nie — zgromadzenie chciało zjednoczyć Niemcy drogą demokratyczną (konstytucja, decyzja przedstawicieli narodu), a zjednoczenie dokonało się „od góry”, przez wojny prowadzone przez Prusy pod kierunkiem Bismarcka (1864–1871).',
+     'Parlament frankfurcki to przykład „błędu lat 1848 i 1849”, o którym mówił Bismarck. Król, który odmówił korony, to Fryderyk Wilhelm IV.'),
+   T('pf', 1, 'Oceń prawdziwość zdań.\n1. Parlament frankfurcki obradował w czasie Wiosny Ludów.\n2. Część posłów chciała zjednoczenia Niemiec z Austrią („wielkie Niemcy”).\n3. Konstytucja uchwalona we Frankfurcie weszła w życie w całych Niemczech.',
+     '1 – P, 2 – P, 3 – F.',
+     'Spór „małe Niemcy” (bez Austrii) czy „wielkie Niemcy” (z Austrią) rozstrzygnęła wojna z 1866 r. — zwyciężyła koncepcja małoniemiecka.')),
+
+ B('Wojna krymska',
+   'Tekst (autorski). W latach 1853–1856 Rosja walczyła z Turcją, którą poparły Wielka Brytania i Francja. Najcięższe walki toczyły się o twierdzę na Krymie, oblężoną przez prawie rok. W czasie wojny w Konstantynopolu zmarł polski poeta, który próbował tam tworzyć polskie oddziały.',
+   T('podaj', 1, 'Podaj nazwę twierdzy na Krymie oraz nazwisko poety, o których mowa w tekście.',
+     'Sewastopol; Adam Mickiewicz.',
+     'Mickiewicz zmarł w Konstantynopolu w 1855 r. W czasie wojny krymskiej działała też formacja „kozaków sułtańskich” Michała Czajkowskiego (Sadyka Paszy).'),
+   T('rozstrzygnij', 1, 'Rozstrzygnij, czy klęska Rosji w wojnie krymskiej przyczyniła się do zmian w jej polityce wobec Królestwa Polskiego. Uzasadnij.',
+     'Tak — po klęsce nowy car Aleksander II ogłosił „odwilż posewastopolską”: amnestię dla zesłańców, zgodę na Akademię Medyko-Chirurgiczną i Towarzystwo Rolnicze, a później reformy Wielopolskiego.',
+     'Łańcuch: klęska (1856) → odwilż → manifestacje (1861) → reformy Wielopolskiego → branka → powstanie styczniowe (1863).')),
+
+ B('Łódź — „ziemia obiecana”',
+   'Tekst (autorski). W ciągu kilkudziesięciu lat mała osada w Królestwie Polskim zamieniła się w jedno z największych centrów przemysłu włókienniczego w Europie. Fabrykanci, w tym wielu Niemców i Żydów, sprzedawali tkaniny na ogromnym rynku rosyjskim. Robotnicy mieszkali w przepełnionych domach, pracując po kilkanaście godzin dziennie.',
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego przemysł Królestwa Polskiego rozwijał się szybko w drugiej połowie XIX w.',
+     'Np. zniesienie granicy celnej z Rosją (1851) otworzyło ogromny rynek zbytu; po uwłaszczeniu (1864) do miast napłynęła tania siła robocza; rozwijały się koleje.',
+     'Za pełną odpowiedź wystarczą dwa czynniki. „Ziemia obiecana” to tytuł powieści Władysława Reymonta (1899) o Łodzi.'),
+   T('rozstrzygnij', 1, 'Rozstrzygnij, czy tekst przedstawia wyłącznie pozytywne skutki industrializacji. Uzasadnij, odwołując się do tekstu.',
+     'Nie — obok rozwoju przemysłu tekst pokazuje złe warunki życia robotników: przepełnione mieszkania i kilkanaście godzin pracy dziennie.',
+     'W zadaniach o rewolucji przemysłowej zawsze warto wskazać obie strony: rozwój gospodarczy i kwestię robotniczą.')),
+
+ B('Ruch ludowy w Galicji',
+   'Tekst (autorski). Pod koniec XIX w. w Galicji powstało stronnictwo, które domagało się, by chłopi sami reprezentowali swoje interesy w sejmie i parlamencie, a nie byli tylko wyborcami ziemian i księży. Jednym z jego późniejszych przywódców był chłop z Wierzchosławic, trzykrotny premier w II Rzeczypospolitej.',
+   T('podaj', 1, 'Podaj imię i nazwisko polityka z Wierzchosławic.', 'Wincenty Witos.',
+     'Stronnictwo Ludowe powstało w 1895 r. (od 1903 r. PSL). W 1913 r. podzieliło się na PSL „Piast” (Witos) i PSL-Lewica (Jan Stapiński).'),
+   T('abcd', 1, 'Dokończ zdanie. Ruch ludowy najwcześniej rozwinął się w Galicji, ponieważ\nA. tam najwcześniej przeprowadzono uwłaszczenie chłopów.\nB. Galicja miała autonomię i względną swobodę działalności politycznej.\nC. chłopi galicyjscy byli najbogatsi spośród chłopów trzech zaborów.\nD. austriackie władze wprowadziły tam powszechne prawo wyborcze w 1848 r.',
+     'B',
+     'Autonomia umożliwiła legalne partie. Uwłaszczenie najwcześniej nastąpiło w zaborze pruskim, chłopi galicyjscy byli najbiedniejsi, a powszechne prawo wyborcze do parlamentu w Wiedniu wprowadzono dla mężczyzn dopiero w 1907 r.')),
+
+ B('Ruch sufrażystek',
+   'Tekst (autorski). Na początku XX w. kobiety w Wielkiej Brytanii organizowały marsze, przykuwały się do ogrodzeń i prowadziły głodówki w więzieniach. Ich przywódczyni powtarzała, że „czyny, nie słowa” zmuszą rząd do zmiany prawa.',
+   T('podaj', 1, 'Podaj, jaki był główny cel ruchu opisanego w tekście.', 'Uzyskanie praw wyborczych dla kobiet.',
+     'Przywódczyni to Emmeline Pankhurst. Kobiety w Wielkiej Brytanii uzyskały częściowe prawo wyborcze w 1918 r., pełne — w 1928 r.'),
+   T('rozstrzygnij', 1, 'Rozstrzygnij, czy kobiety w Polsce uzyskały prawa wyborcze później niż w Wielkiej Brytanii. Uzasadnij.',
+     'Nie — w Polsce kobiety uzyskały pełne prawa wyborcze już w 1918 r. (dekret Piłsudskiego z 28 listopada 1918 r.), a w Wielkiej Brytanii pełne prawa na równi z mężczyznami dopiero w 1928 r.',
+     'Polska była jednym z pierwszych państw Europy, które przyznały kobietom prawa wyborcze. W 1919 r. do Sejmu Ustawodawczego weszło 8 posłanek.')),
+]
+
+BANK['sredniowiecze'] = [
+ B('Najstarsze zdanie po polsku',
+   'Tekst (autorski, na podstawie księgi z XIII w.). Mnisi z klasztoru cystersów na Śląsku spisali dzieje swoich posiadłości. Zanotowali m.in., że czeski osadnik, mąż miejscowej kobiety, powiedział do żony mielącej zboże na żarnach: „Daj, ać ja pobruszę, a ty poczywaj”.',
+   T('podaj', 1, 'Podaj nazwę księgi, w której zapisano zdanie z tekstu.', 'Księga henrykowska.',
+     'Zapis pochodzi z ok. 1270 r. (klasztor w Henrykowie). To najstarsze zapisane zdanie w języku polskim.'),
+   T('rozstrzygnij', 1, 'Rozstrzygnij, czy tekst dowodzi, że w XIII w. polszczyzna była językiem dokumentów urzędowych. Uzasadnij.',
+     'Nie — księga była pisana po łacinie, a polskie zdanie zanotowano tylko jako ciekawostkę; językiem dokumentów i kronik była łacina.',
+     'Pierwsze utwory w języku polskim: „Bogurodzica” (XIII/XIV w.), „Kazania świętokrzyskie” (XIV w.).')),
+
+ B('Rzeź Gdańska',
+   'Tekst (autorski). W 1308 r. Brandenburczycy zaatakowali Pomorze Gdańskie. Władca Polski, nie mając sił, poprosił o pomoc zakon krzyżacki. Rycerze zakonni wyparli Brandenburczyków, ale sami zajęli Gdańsk, a następnie całe Pomorze, żądając zapłaty, której Polska nie była w stanie dać.',
+   T('abcd', 1, 'Dokończ zdanie. Władcą, który wezwał Krzyżaków na pomoc, był\nA. Przemysł II.\nB. Wacław II.\nC. Władysław Łokietek.\nD. Kazimierz Wielki.',
+     'C',
+     'Łokietek (1308). Przemysł II zginął w 1296 r., Wacław II zmarł w 1305 r., a Kazimierz Wielki objął tron w 1333 r.'),
+   T('uporzadkuj', 1, 'Uporządkuj chronologicznie wydarzenia konfliktu polsko-krzyżackiego.\nA. bitwa pod Płowcami\nB. zajęcie Pomorza Gdańskiego przez Krzyżaków\nC. pokój kaliski\nD. proces polsko-krzyżacki w Inowrocławiu i Brześciu Kujawskim',
+     'B, D, A, C.',
+     'Zajęcie Pomorza: 1308–1309 → proces: 1320–1321 (wyrok papieskich sędziów korzystny dla Polski, zakon go nie wykonał) → Płowce: 1331 → pokój kaliski: 1343.')),
+
+ B('Przemysł II',
+   'Tekst (autorski). W 1295 r. w Gnieźnie arcybiskup Jakub Świnka koronował księcia wielkopolskiego na króla Polski — po ponad dwustu latach przerwy. Rok wcześniej książę objął Pomorze Gdańskie. W 1296 r. zginął w zamachu w Rogoźnie.',
+   T('rozstrzygnij', 1, 'Rozstrzygnij, czy koronacja z tekstu zakończyła rozbicie dzielnicowe. Uzasadnij.',
+     'Nie — władca panował tylko nad Wielkopolską i Pomorzem Gdańskim, a inne dzielnice (np. Małopolska, Śląsk, Mazowsze) pozostawały w rękach innych książąt; ponadto zginął po kilku miesiącach.',
+     'Koronacja Przemysła II była symbolicznym krokiem ku zjednoczeniu. Trwałe zjednoczenie przyniosła dopiero koronacja Łokietka (1320) — ale i on nie miał Śląska, Mazowsza ani Pomorza.'),
+   T('pf', 1, 'Oceń prawdziwość zdań.\n1. Orzeł w koronie na pieczęci Przemysła II stał się później godłem Polski.\n2. Przemysł II objął Pomorze Gdańskie po śmierci Mściwoja II.\n3. Po śmierci Przemysła II tron przejął jego syn.',
+     '1 – P, 2 – P, 3 – F.',
+     'Przemysł II nie miał syna. Po jego śmierci o władzę walczyli Łokietek i Wacław II, który koronował się w 1300 r.')),
+]
+
+BANK['nowozytnosc'] = [
+ B('Zamość — miasto idealne',
+   'Tekst (autorski). Pod koniec XVI w. kanclerz i hetman wielki koronny założył miasto według planu włoskiego architekta. Miasto miało regularny układ ulic, rynek z ratuszem, otaczające je fortyfikacje i akademię kształcącą młodzież.',
+   T('podaj', 1, 'Podaj imię i nazwisko założyciela miasta z tekstu.', 'Jan Zamoyski.',
+     'Planował je Bernardo Morando. Zamość, jako miasto idealne renesansu, jest wpisany na listę UNESCO. Akademia Zamojska powstała w 1594/1595 r.'),
+   T('rozstrzygnij', 1, 'Rozstrzygnij, czy miasto z tekstu jest przykładem realizacji ideałów renesansu. Uzasadnij, odwołując się do tekstu.',
+     'Tak — zostało zaplanowane racjonalnie, według regularnego, symetrycznego planu włoskiego architekta, i miało akademię, co odpowiada renesansowym ideałom harmonii i wiary w rozum.',
+     'Cechy miasta idealnego: geometria, symetria, plan od podstaw (a nie rozwój żywiołowy), funkcje obronne i kulturalne.')),
+
+ B('Jan Kochanowski',
+   'Tekst (autorski). Poeta z Czarnolasu pisał zarówno po łacinie, jak i po polsku. Jego dramat wystawiony na weselu podkanclerzego w 1578 r. przestrzegał rządzących przed prywatą i nieodpowiedzialnością w sprawach państwa.',
+   T('abcd', 1, 'Dokończ zdanie. Dramat Kochanowskiego, o którym mowa w tekście, to\nA. „Treny”.\nB. „Odprawa posłów greckich”.\nC. „Fraszki”.\nD. „Psałterz Dawidów”.',
+     'B',
+     '„Odprawa posłów greckich” (1578) — pierwsza polska tragedia renesansowa, wystawiona na weselu Jana Zamoyskiego. „Treny” to cykl żałobny po śmierci córki Urszuli.'),
+   T('rozstrzygnij', 1, 'Rozstrzygnij, czy przesłanie dramatu z tekstu ma związek z ówczesną sytuacją Rzeczypospolitej. Uzasadnij.',
+     'Tak — przestroga przed prywatą i nieodpowiedzialnością rządzących odnosiła się do szlachty i magnatów Rzeczypospolitej, którzy przedkładali własne interesy nad dobro państwa.',
+     'Trojańska narada z dramatu to przenośnia sejmu Rzeczypospolitej. Podobne ostrzeżenia głosili Modrzewski i Skarga.')),
+
+ B('Ugoda w Hadziaczu',
+   'Tekst (autorski). W 1658 r. Rzeczpospolita zawarła ugodę ze starszyzną kozacką. Miała powstać trzecia część państwa — Księstwo Ruskie — z własnymi urzędami i wojskiem. Część Kozaków miała otrzymać szlachectwo, a unię brzeską miano znieść na terenie księstwa.',
+   T('rozstrzygnij', 1, 'Rozstrzygnij, czy ugoda z tekstu zmieniłaby ustrój Rzeczypospolitej Obojga Narodów. Uzasadnij.',
+     'Tak — Rzeczpospolita stałaby się państwem trzech narodów (Korona, Litwa, Ruś), a do szlachty weszliby Kozacy.',
+     'Ugody nie zrealizowano: sprzeciwiła się jej większość Kozaków i duchowieństwo prawosławne, a Moskwa wznowiła wojnę.'),
+   T('abcd', 1, 'Dokończ zdanie. Ugodę ze strony kozackiej zawarł hetman\nA. Bohdan Chmielnicki.\nB. Iwan Wyhowski.\nC. Piotr Doroszenko.\nD. Iwan Mazepa.',
+     'B',
+     'Wyhowski był następcą Chmielnickiego (zmarł w 1657 r.). Doroszenko w latach 60. i 70. XVII w. związał się z Turcją, a Mazepa sprzymierzył się ze Szwecją w czasie wojny północnej (XVIII w.).')),
+
+ B('Beresteczko',
+   'Tekst (autorski). W 1651 r. pod Beresteczkiem armia koronna stoczyła jedną z największych bitew XVII-wiecznej Europy. Wojska Rzeczypospolitej pokonały Kozaków, gdy w czasie walki z pola wycofał się ich sojusznik — chan tatarski, zabierając ze sobą hetmana kozackiego.',
+   T('abcd', 1, 'Dokończ zdanie. Bitwę pod Beresteczkiem wygrał król\nA. Władysław IV.\nB. Jan Kazimierz.\nC. Michał Korybut Wiśniowiecki.\nD. Jan III Sobieski.',
+     'B',
+     'Jan Kazimierz dowodził osobiście. Władysław IV zmarł w 1648 r., Michał Korybut panował w latach 1669–1673, Sobieski — od 1674 r.'),
+   T('rozstrzygnij', 1, 'Rozstrzygnij, czy zwycięstwo pod Beresteczkiem zakończyło konflikt z Kozakami. Uzasadnij.',
+     'Nie — już w 1652 r. Kozacy rozgromili armię koronną pod Batohem, a w 1654 r. Chmielnicki zawarł ugodę perejasławską z Moskwą, co rozpoczęło wojnę z Rosją.',
+     'Beresteczko było triumfem militarnym, ale bez trwałych skutków politycznych — częsty schemat w zadaniach typu „rozstrzygnij”.')),
+]
