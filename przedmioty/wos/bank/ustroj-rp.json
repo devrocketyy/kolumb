@@ -2649,6 +2649,289 @@
      "omowienie": "To typowe zadanie „argument + kontrargument” — oba elementy muszą odnosić się do konkretnych uprawnień."
     }
    ]
+  },
+  {
+   "id": "u2-47",
+   "dzial": "ustroj-rp",
+   "tytul": "Metoda d’Hondta — obliczenie",
+   "material": "Kazus (dane autorskie). W okręgu wyborczym do Sejmu do podziału jest 7 mandatów. Komitety, które przekroczyły próg w skali kraju, uzyskały w okręgu: A — 40 000 głosów, B — 25 000, C — 15 000.",
+   "zrodlo": "Zadanie autorskie IndexLab",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Oblicz metodą d’Hondta, ile mandatów zdobył każdy komitet. Zapisz obliczenia.",
+     "odpowiedz": "Ilorazy: A — 40 000, 20 000, 13 333, 10 000; B — 25 000, 12 500; C — 15 000, 7 500. Siedem największych: 40 000 (A), 25 000 (B), 20 000 (A), 15 000 (C), 13 333 (A), 12 500 (B), 10 000 (A). Wynik: A — 4, B — 2, C — 1.",
+     "zasady": "2 pkt – poprawna i pełna odpowiedź na obie części polecenia.\n1 pkt – poprawna odpowiedź na jedną część polecenia.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Dzielimy liczbę głosów przez 1, 2, 3, 4… i przydzielamy mandaty według największych ilorazów. Metoda d’Hondta premiuje największe komitety: A ma 50% głosów, a 57% mandatów."
+    },
+    {
+     "nr": "2",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy wynik obliczenia potwierdza tezę, że metoda d’Hondta sprzyja dużym ugrupowaniom. Uzasadnij liczbami.",
+     "odpowiedz": "Tak — komitet A zdobył 50% głosów (40 z 80 tys.), a otrzymał 4 z 7 mandatów, czyli ok. 57%.",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    }
+   ]
+  },
+  {
+   "id": "u2-48",
+   "dzial": "ustroj-rp",
+   "tytul": "Frekwencja w wyborach do Sejmu",
+   "material": "Tabela. Frekwencja w wyborach do Sejmu RP: 2011 — 48,9%; 2015 — 50,9%; 2019 — 61,7%; 2023 — 74,4%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: dane Państwowej Komisji Wyborczej.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, o ile punktów procentowych wzrosła frekwencja między wyborami w 2015 a 2023 r.",
+     "odpowiedz": "O 23,5 punktu procentowego.",
+     "zasady": "1 pkt – podanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Różnicę procentów podaje się w punktach procentowych, a nie w procentach — to częsty błąd w zadaniach z danymi."
+    },
+    {
+     "nr": "2",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy dane z tabeli potwierdzają tezę o rosnącym zaangażowaniu wyborców w latach 2011–2023. Uzasadnij.",
+     "odpowiedz": "Tak — w każdych kolejnych wyborach frekwencja była wyższa niż w poprzednich, a w 2023 r. osiągnęła najwyższy poziom w wyborach do Sejmu po 1989 r.",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    }
+   ]
+  },
+  {
+   "id": "u2-49",
+   "dzial": "ustroj-rp",
+   "tytul": "Terminy wyborów i pierwszego posiedzenia",
+   "material": "Tekst (autorski, na podstawie art. 98, 109 Konstytucji). Wybory do Sejmu i Senatu zarządza Prezydent nie później niż na 90 dni przed upływem 4 lat od rozpoczęcia kadencji. Wybory odbywają się w dniu wolnym od pracy, w ciągu 30 dni przed upływem kadencji. Pierwsze posiedzenie Sejmu i Senatu zwołuje Prezydent na dzień przypadający w ciągu 30 dni od dnia wyborów.",
+   "zrodlo": "Zadanie autorskie IndexLab",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "abcd",
+     "punkty": 1,
+     "polecenie": "Dokończ zdanie. Kadencja Sejmu rozpoczyna się z dniem\nA. wyborów.\nB. ogłoszenia wyników przez PKW.\nC. zebrania się Sejmu na pierwszym posiedzeniu.\nD. złożenia ślubowania przez Marszałka.",
+     "odpowiedz": "C",
+     "zasady": "1 pkt – wskazanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Kadencja trwa do dnia poprzedzającego zebranie się Sejmu następnej kadencji."
+    },
+    {
+     "nr": "2",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy Prezydent mógłby zwołać pierwsze posiedzenie nowego Sejmu na dzień przypadający 40 dni po wyborach. Uzasadnij.",
+     "odpowiedz": "Nie — pierwsze posiedzenie musi przypaść w ciągu 30 dni od dnia wyborów.",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    }
+   ]
+  },
+  {
+   "id": "u2-50",
+   "dzial": "ustroj-rp",
+   "tytul": "Wygaśnięcie mandatu — kazus",
+   "material": "Kazus (autorski). W trakcie kadencji zmarła jedna posłanka wybrana z listy komitetu A oraz jeden senator wybrany w okręgu jednomandatowym.",
+   "zrodlo": "Zadanie autorskie IndexLab",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "porownaj",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, czym różni się sposób obsadzenia zwolnionego mandatu posła i senatora.",
+     "odpowiedz": "Mandat posła obejmuje kolejny kandydat z tej samej listy, który uzyskał najwięcej głosów; w przypadku senatora przeprowadza się wybory uzupełniające w okręgu.",
+     "zasady": "1 pkt – poprawne wskazanie podobieństwa lub różnicy.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "To konsekwencja różnych systemów: proporcjonalnego (listy) i większościowego (okręgi jednomandatowe). Wyborów uzupełniających nie przeprowadza się, gdy do końca kadencji zostało mniej niż 6 miesięcy."
+    }
+   ]
+  },
+  {
+   "id": "u2-51",
+   "dzial": "ustroj-rp",
+   "tytul": "Ustawa pilna",
+   "material": "Kazus (autorski). Rada Ministrów chce uznać za pilne trzy projekty: A — zmianę stawek podatku VAT; B — przepisy o pomocy dla rolników po suszy; C — zmianę Kodeksu karnego.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: Konstytucja RP, art. 123.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "przyporzadkuj",
+     "punkty": 1,
+     "polecenie": "Wskaż, który z projektów A–C może zostać uznany za pilny.",
+     "odpowiedz": "Tylko B.",
+     "zasady": "1 pkt – poprawne przyporządkowanie wszystkich elementów.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Za pilne nie można uznać projektów ustaw podatkowych, dotyczących wyborów, ustroju i właściwości władz publicznych oraz kodeksów. Ustawa pilna: Senat ma 14 dni, Prezydent — 7 dni."
+    }
+   ]
+  },
+  {
+   "id": "u2-52",
+   "dzial": "ustroj-rp",
+   "tytul": "Rozporządzenie z mocą ustawy",
+   "material": "Kazus (autorski). W czasie stanu wojennego Sejm nie może zebrać się na posiedzenie, a konieczne jest pilne uregulowanie sprawy mobilizacji gospodarki.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: Konstytucja RP, art. 234.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "abcd",
+     "punkty": 1,
+     "polecenie": "Dokończ zdanie. W opisanej sytuacji rozporządzenie z mocą ustawy może wydać\nA. Prezes Rady Ministrów.\nB. Prezydent na wniosek Rady Ministrów.\nC. Minister Obrony Narodowej.\nD. Marszałek Sejmu.",
+     "odpowiedz": "B",
+     "zasady": "1 pkt – wskazanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Rozporządzenie z mocą ustawy to wyjątkowe źródło prawa — dopuszczalne tylko w czasie stanu wojennego, gdy Sejm nie może się zebrać. Podlega zatwierdzeniu przez Sejm na najbliższym posiedzeniu."
+    }
+   ]
+  },
+  {
+   "id": "u2-53",
+   "dzial": "ustroj-rp",
+   "tytul": "Skutki wyroku Trybunału Konstytucyjnego",
+   "material": "Kazus (autorski). Trybunał Konstytucyjny orzekł, że przepis ustawy jest niezgodny z Konstytucją, ale określił, że utraci moc obowiązującą po upływie 12 miesięcy od ogłoszenia wyroku.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: Konstytucja RP, art. 190.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy Trybunał mógł odroczyć utratę mocy przepisu. Uzasadnij.",
+     "odpowiedz": "Tak — TK może określić inny termin utraty mocy przepisu; w przypadku ustawy nie może on przekroczyć 18 miesięcy (dla innych aktów — 12 miesięcy).",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Odroczenie daje parlamentowi czas na uchwalenie nowych przepisów, żeby nie powstała luka w prawie."
+    },
+    {
+     "nr": "2",
+     "typ": "pf",
+     "punkty": 1,
+     "polecenie": "Oceń prawdziwość zdań.\n1. Orzeczenia Trybunału Konstytucyjnego mają moc powszechnie obowiązującą i są ostateczne.\n2. Od wyroku TK można się odwołać do Sądu Najwyższego.\n3. Wyroki TK ogłasza się w organie urzędowym, w którym ogłoszono akt normatywny.",
+     "odpowiedz": "1 – P, 2 – F, 3 – P.",
+     "zasady": "1 pkt – poprawna ocena wszystkich stwierdzeń.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    }
+   ]
+  },
+  {
+   "id": "u2-54",
+   "dzial": "ustroj-rp",
+   "tytul": "Zasady wymiaru sprawiedliwości",
+   "material": "Zestawienie (autorskie). A — w sądzie rejonowym w sprawie karnej obok sędziego orzekają ławnicy; B — każda sprawa może być rozpoznana przez sąd drugiej instancji; C — rozprawy co do zasady są otwarte dla publiczności; D — sędzia orzeka wyłącznie na podstawie Konstytucji i ustaw.",
+   "zrodlo": "Zadanie autorskie IndexLab",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "przyporzadkuj",
+     "punkty": 1,
+     "polecenie": "Przyporządkuj sytuacjom A–D zasady: udział obywateli w wymiarze sprawiedliwości, dwuinstancyjność, jawność, niezawisłość sędziowska.",
+     "odpowiedz": "A — udział obywateli; B — dwuinstancyjność; C — jawność; D — niezawisłość sędziowska.",
+     "zasady": "1 pkt – poprawne przyporządkowanie wszystkich elementów.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Jawność może zostać wyłączona ze względu na moralność, bezpieczeństwo państwa, porządek publiczny lub ochronę życia prywatnego, ale wyrok ogłasza się publicznie."
+    },
+    {
+     "nr": "2",
+     "typ": "abcd",
+     "punkty": 1,
+     "polecenie": "Dokończ zdanie. Ławników do sądów powszechnych wybierają\nA. prezesi sądów.\nB. rady gmin.\nC. Krajowa Rada Sądownictwa.\nD. Sejm.",
+     "odpowiedz": "B",
+     "zasady": "1 pkt – wskazanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi."
+    }
+   ]
+  },
+  {
+   "id": "u2-55",
+   "dzial": "ustroj-rp",
+   "tytul": "Zadania gminy",
+   "material": "Zestawienie (autorskie). A — prowadzenie szkół podstawowych; B — wydawanie dowodów osobistych; C — utrzymanie dróg gminnych; D — organizacja wyborów powszechnych na swoim terenie; E — zaopatrzenie w wodę.",
+   "zrodlo": "Zadanie autorskie IndexLab",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "przyporzadkuj",
+     "punkty": 1,
+     "polecenie": "Przyporządkuj zadania A–E do kategorii: zadania własne gminy, zadania zlecone z zakresu administracji rządowej.",
+     "odpowiedz": "Zadania własne — A, C, E; zadania zlecone — B, D.",
+     "zasady": "1 pkt – poprawne przyporządkowanie wszystkich elementów.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Na zadania zlecone gmina dostaje dotacje celowe z budżetu państwa."
+    },
+    {
+     "nr": "2",
+     "typ": "pf",
+     "punkty": 1,
+     "polecenie": "Oceń prawdziwość zdań.\n1. Wszyscy mieszkańcy gminy z mocy prawa tworzą wspólnotę samorządową.\n2. Sołectwo jest jednostką pomocniczą gminy.\n3. W Polsce jest 16 województw i ok. 380 powiatów.",
+     "odpowiedz": "1 – P, 2 – P, 3 – P.",
+     "zasady": "1 pkt – poprawna ocena wszystkich stwierdzeń.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Ok. 380 powiatów to ok. 314 powiatów ziemskich i 66 miast na prawach powiatu. Gmin jest ok. 2,5 tys."
+    }
+   ]
+  },
+  {
+   "id": "u2-56",
+   "dzial": "ustroj-rp",
+   "tytul": "Preambuła Konstytucji",
+   "material": "Tekst (fragment preambuły Konstytucji RP). (…) my, Naród Polski — wszyscy obywatele Rzeczypospolitej, zarówno wierzący w Boga będącego źródłem prawdy, sprawiedliwości, dobra i piękna, jak i nie podzielający tej wiary, a te uniwersalne wartości wywodzący z innych źródeł (…).",
+   "zrodlo": "Zadanie autorskie IndexLab",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, w jaki sposób przytoczony fragment preambuły godzi różne światopoglądy obywateli.",
+     "odpowiedz": "Odwołuje się do wartości uniwersalnych, wskazując, że wierzący wywodzą je od Boga, a niewierzący — z innych źródeł; obie grupy są równoprawnymi współtwórcami Konstytucji.",
+     "zasady": "1 pkt – poprawne wyjaśnienie z odwołaniem do materiału lub wiedzy.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Formuła ta jest kompromisem przyjętym w 1997 r. i bywa nazywana formułą Mazowieckiego."
+    }
+   ]
+  },
+  {
+   "id": "u2-57",
+   "dzial": "ustroj-rp",
+   "tytul": "Dyskontynuacja prac parlamentarnych",
+   "material": "Kazus (autorski). Pod koniec kadencji Sejmu w komisjach utknęły trzy projekty: A — projekt rządowy; B — projekt poselski; C — projekt obywatelski podpisany przez 120 tys. osób.",
+   "zrodlo": "Zadanie autorskie IndexLab",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, który z projektów nowy Sejm musi rozpatrzyć bez ponownego wnoszenia. Uzasadnij.",
+     "odpowiedz": "Projekt C — obywatelski projekt ustawy nie podlega zasadzie dyskontynuacji; projekty A i B trzeba wnieść ponownie.",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Zasada dyskontynuacji: nowy Sejm nie kontynuuje prac poprzedniego. Wyjątek dla projektów obywatelskich ma chronić wysiłek obywateli zbierających podpisy."
+    }
+   ]
+  },
+  {
+   "id": "u2-58",
+   "dzial": "ustroj-rp",
+   "tytul": "Kto wydaje rozporządzenia?",
+   "material": "Zestawienie (autorskie). A — Prezydent RP; B — Rada Ministrów; C — minister kierujący działem administracji rządowej; D — Rzecznik Praw Obywatelskich; E — Krajowa Rada Radiofonii i Telewizji; F — Prezes Najwyższej Izby Kontroli.",
+   "zrodlo": "Zadanie autorskie IndexLab. Na podstawie: Konstytucja RP, art. 92, 142, 146, 148, 213.",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "przyporzadkuj",
+     "punkty": 1,
+     "polecenie": "Wskaż organy, które mogą wydawać rozporządzenia.",
+     "odpowiedz": "A, B, C, E.",
+     "zasady": "1 pkt – poprawne przyporządkowanie wszystkich elementów.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Rozporządzenia wydają organy wskazane w Konstytucji: Prezydent, Rada Ministrów, Prezes RM, ministrowie, przewodniczący komitetów w RM, KRRiT. RPO i Prezes NIK nie wydają aktów prawa powszechnie obowiązującego."
+    }
+   ]
+  },
+  {
+   "id": "u2-59",
+   "dzial": "ustroj-rp",
+   "tytul": "Weto prezydenckie — obliczenie",
+   "material": "Kazus (autorski). Prezydent zawetował ustawę. W ponownym głosowaniu w Sejmie wzięło udział 440 posłów, z czego 270 głosowało za ustawą.",
+   "zrodlo": "Zadanie autorskie IndexLab",
+   "zadania": [
+    {
+     "nr": "1",
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy Sejm odrzucił weto. Uzasadnij obliczeniem.",
+     "odpowiedz": "Tak — do odrzucenia weta potrzeba 3/5 głosów w obecności co najmniej połowy ustawowej liczby posłów; 3/5 z 440 obecnych to 264, a za ustawą głosowało 270 posłów.",
+     "zasady": "1 pkt – poprawne rozstrzygnięcie i poprawne uzasadnienie.\n0 pkt – inna odpowiedź lub brak odpowiedzi.",
+     "omowienie": "Próg 3/5 liczy się od liczby głosujących (obecnych), a nie od 460. Gdyby liczyć od 460, potrzeba byłoby 276 głosów — to typowy błąd."
+    }
+   ]
   }
  ]
 }

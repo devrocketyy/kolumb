@@ -1,0 +1,199 @@
+// IndexLab — WOS, ustrój RP, partia 5 (większa partia, krótsze omówienia): obliczenia wyborcze, terminy, procedury, samorząd.
+
+@W u2-47 | ustroj-rp | Metoda d’Hondta — obliczenie
+@M
+Kazus (dane autorskie). W okręgu wyborczym do Sejmu do podziału jest 7 mandatów. Komitety, które przekroczyły próg w skali kraju, uzyskały w okręgu: A — 40 000 głosów, B — 25 000, C — 15 000.
+@Z podaj | 2
+@P
+Oblicz metodą d’Hondta, ile mandatów zdobył każdy komitet. Zapisz obliczenia.
+@O
+Ilorazy: A — 40 000, 20 000, 13 333, 10 000; B — 25 000, 12 500; C — 15 000, 7 500. Siedem największych: 40 000 (A), 25 000 (B), 20 000 (A), 15 000 (C), 13 333 (A), 12 500 (B), 10 000 (A). Wynik: A — 4, B — 2, C — 1.
+@Q
+Dzielimy liczbę głosów przez 1, 2, 3, 4… i przydzielamy mandaty według największych ilorazów. Metoda d’Hondta premiuje największe komitety: A ma 50% głosów, a 57% mandatów.
+@Z rozstrzygnij | 1
+@P
+Rozstrzygnij, czy wynik obliczenia potwierdza tezę, że metoda d’Hondta sprzyja dużym ugrupowaniom. Uzasadnij liczbami.
+@O
+Tak — komitet A zdobył 50% głosów (40 z 80 tys.), a otrzymał 4 z 7 mandatów, czyli ok. 57%.
+
+@W u2-48 | ustroj-rp | Frekwencja w wyborach do Sejmu
+@M
+Tabela. Frekwencja w wyborach do Sejmu RP: 2011 — 48,9%; 2015 — 50,9%; 2019 — 61,7%; 2023 — 74,4%.
+@R Na podstawie: dane Państwowej Komisji Wyborczej.
+@Z podaj | 1
+@P
+Podaj, o ile punktów procentowych wzrosła frekwencja między wyborami w 2015 a 2023 r.
+@O
+O 23,5 punktu procentowego.
+@Q
+Różnicę procentów podaje się w punktach procentowych, a nie w procentach — to częsty błąd w zadaniach z danymi.
+@Z rozstrzygnij | 1
+@P
+Rozstrzygnij, czy dane z tabeli potwierdzają tezę o rosnącym zaangażowaniu wyborców w latach 2011–2023. Uzasadnij.
+@O
+Tak — w każdych kolejnych wyborach frekwencja była wyższa niż w poprzednich, a w 2023 r. osiągnęła najwyższy poziom w wyborach do Sejmu po 1989 r.
+
+@W u2-49 | ustroj-rp | Terminy wyborów i pierwszego posiedzenia
+@M
+Tekst (autorski, na podstawie art. 98, 109 Konstytucji). Wybory do Sejmu i Senatu zarządza Prezydent nie później niż na 90 dni przed upływem 4 lat od rozpoczęcia kadencji. Wybory odbywają się w dniu wolnym od pracy, w ciągu 30 dni przed upływem kadencji. Pierwsze posiedzenie Sejmu i Senatu zwołuje Prezydent na dzień przypadający w ciągu 30 dni od dnia wyborów.
+@Z abcd | 1
+@P
+Dokończ zdanie. Kadencja Sejmu rozpoczyna się z dniem
+A. wyborów.
+B. ogłoszenia wyników przez PKW.
+C. zebrania się Sejmu na pierwszym posiedzeniu.
+D. złożenia ślubowania przez Marszałka.
+@O
+C
+@Q
+Kadencja trwa do dnia poprzedzającego zebranie się Sejmu następnej kadencji.
+@Z rozstrzygnij | 1
+@P
+Rozstrzygnij, czy Prezydent mógłby zwołać pierwsze posiedzenie nowego Sejmu na dzień przypadający 40 dni po wyborach. Uzasadnij.
+@O
+Nie — pierwsze posiedzenie musi przypaść w ciągu 30 dni od dnia wyborów.
+
+@W u2-50 | ustroj-rp | Wygaśnięcie mandatu — kazus
+@M
+Kazus (autorski). W trakcie kadencji zmarła jedna posłanka wybrana z listy komitetu A oraz jeden senator wybrany w okręgu jednomandatowym.
+@Z porownaj | 1
+@P
+Wyjaśnij, czym różni się sposób obsadzenia zwolnionego mandatu posła i senatora.
+@O
+Mandat posła obejmuje kolejny kandydat z tej samej listy, który uzyskał najwięcej głosów; w przypadku senatora przeprowadza się wybory uzupełniające w okręgu.
+@Q
+To konsekwencja różnych systemów: proporcjonalnego (listy) i większościowego (okręgi jednomandatowe). Wyborów uzupełniających nie przeprowadza się, gdy do końca kadencji zostało mniej niż 6 miesięcy.
+
+@W u2-51 | ustroj-rp | Ustawa pilna
+@M
+Kazus (autorski). Rada Ministrów chce uznać za pilne trzy projekty: A — zmianę stawek podatku VAT; B — przepisy o pomocy dla rolników po suszy; C — zmianę Kodeksu karnego.
+@R Na podstawie: Konstytucja RP, art. 123.
+@Z przyporzadkuj | 1
+@P
+Wskaż, który z projektów A–C może zostać uznany za pilny.
+@O
+Tylko B.
+@Q
+Za pilne nie można uznać projektów ustaw podatkowych, dotyczących wyborów, ustroju i właściwości władz publicznych oraz kodeksów. Ustawa pilna: Senat ma 14 dni, Prezydent — 7 dni.
+
+@W u2-52 | ustroj-rp | Rozporządzenie z mocą ustawy
+@M
+Kazus (autorski). W czasie stanu wojennego Sejm nie może zebrać się na posiedzenie, a konieczne jest pilne uregulowanie sprawy mobilizacji gospodarki.
+@R Na podstawie: Konstytucja RP, art. 234.
+@Z abcd | 1
+@P
+Dokończ zdanie. W opisanej sytuacji rozporządzenie z mocą ustawy może wydać
+A. Prezes Rady Ministrów.
+B. Prezydent na wniosek Rady Ministrów.
+C. Minister Obrony Narodowej.
+D. Marszałek Sejmu.
+@O
+B
+@Q
+Rozporządzenie z mocą ustawy to wyjątkowe źródło prawa — dopuszczalne tylko w czasie stanu wojennego, gdy Sejm nie może się zebrać. Podlega zatwierdzeniu przez Sejm na najbliższym posiedzeniu.
+
+@W u2-53 | ustroj-rp | Skutki wyroku Trybunału Konstytucyjnego
+@M
+Kazus (autorski). Trybunał Konstytucyjny orzekł, że przepis ustawy jest niezgodny z Konstytucją, ale określił, że utraci moc obowiązującą po upływie 12 miesięcy od ogłoszenia wyroku.
+@R Na podstawie: Konstytucja RP, art. 190.
+@Z rozstrzygnij | 1
+@P
+Rozstrzygnij, czy Trybunał mógł odroczyć utratę mocy przepisu. Uzasadnij.
+@O
+Tak — TK może określić inny termin utraty mocy przepisu; w przypadku ustawy nie może on przekroczyć 18 miesięcy (dla innych aktów — 12 miesięcy).
+@Q
+Odroczenie daje parlamentowi czas na uchwalenie nowych przepisów, żeby nie powstała luka w prawie.
+@Z pf | 1
+@P
+Oceń prawdziwość zdań.
+1. Orzeczenia Trybunału Konstytucyjnego mają moc powszechnie obowiązującą i są ostateczne.
+2. Od wyroku TK można się odwołać do Sądu Najwyższego.
+3. Wyroki TK ogłasza się w organie urzędowym, w którym ogłoszono akt normatywny.
+@O
+1 – P, 2 – F, 3 – P.
+
+@W u2-54 | ustroj-rp | Zasady wymiaru sprawiedliwości
+@M
+Zestawienie (autorskie). A — w sądzie rejonowym w sprawie karnej obok sędziego orzekają ławnicy; B — każda sprawa może być rozpoznana przez sąd drugiej instancji; C — rozprawy co do zasady są otwarte dla publiczności; D — sędzia orzeka wyłącznie na podstawie Konstytucji i ustaw.
+@Z przyporzadkuj | 1
+@P
+Przyporządkuj sytuacjom A–D zasady: udział obywateli w wymiarze sprawiedliwości, dwuinstancyjność, jawność, niezawisłość sędziowska.
+@O
+A — udział obywateli; B — dwuinstancyjność; C — jawność; D — niezawisłość sędziowska.
+@Q
+Jawność może zostać wyłączona ze względu na moralność, bezpieczeństwo państwa, porządek publiczny lub ochronę życia prywatnego, ale wyrok ogłasza się publicznie.
+@Z abcd | 1
+@P
+Dokończ zdanie. Ławników do sądów powszechnych wybierają
+A. prezesi sądów.
+B. rady gmin.
+C. Krajowa Rada Sądownictwa.
+D. Sejm.
+@O
+B
+
+@W u2-55 | ustroj-rp | Zadania gminy
+@M
+Zestawienie (autorskie). A — prowadzenie szkół podstawowych; B — wydawanie dowodów osobistych; C — utrzymanie dróg gminnych; D — organizacja wyborów powszechnych na swoim terenie; E — zaopatrzenie w wodę.
+@Z przyporzadkuj | 1
+@P
+Przyporządkuj zadania A–E do kategorii: zadania własne gminy, zadania zlecone z zakresu administracji rządowej.
+@O
+Zadania własne — A, C, E; zadania zlecone — B, D.
+@Q
+Na zadania zlecone gmina dostaje dotacje celowe z budżetu państwa.
+@Z pf | 1
+@P
+Oceń prawdziwość zdań.
+1. Wszyscy mieszkańcy gminy z mocy prawa tworzą wspólnotę samorządową.
+2. Sołectwo jest jednostką pomocniczą gminy.
+3. W Polsce jest 16 województw i ok. 380 powiatów.
+@O
+1 – P, 2 – P, 3 – P.
+@Q
+Ok. 380 powiatów to ok. 314 powiatów ziemskich i 66 miast na prawach powiatu. Gmin jest ok. 2,5 tys.
+
+@W u2-56 | ustroj-rp | Preambuła Konstytucji
+@M
+Tekst (fragment preambuły Konstytucji RP). (…) my, Naród Polski — wszyscy obywatele Rzeczypospolitej, zarówno wierzący w Boga będącego źródłem prawdy, sprawiedliwości, dobra i piękna, jak i nie podzielający tej wiary, a te uniwersalne wartości wywodzący z innych źródeł (…).
+@Z wyjasnij | 1
+@P
+Wyjaśnij, w jaki sposób przytoczony fragment preambuły godzi różne światopoglądy obywateli.
+@O
+Odwołuje się do wartości uniwersalnych, wskazując, że wierzący wywodzą je od Boga, a niewierzący — z innych źródeł; obie grupy są równoprawnymi współtwórcami Konstytucji.
+@Q
+Formuła ta jest kompromisem przyjętym w 1997 r. i bywa nazywana formułą Mazowieckiego.
+
+@W u2-57 | ustroj-rp | Dyskontynuacja prac parlamentarnych
+@M
+Kazus (autorski). Pod koniec kadencji Sejmu w komisjach utknęły trzy projekty: A — projekt rządowy; B — projekt poselski; C — projekt obywatelski podpisany przez 120 tys. osób.
+@Z rozstrzygnij | 1
+@P
+Rozstrzygnij, który z projektów nowy Sejm musi rozpatrzyć bez ponownego wnoszenia. Uzasadnij.
+@O
+Projekt C — obywatelski projekt ustawy nie podlega zasadzie dyskontynuacji; projekty A i B trzeba wnieść ponownie.
+@Q
+Zasada dyskontynuacji: nowy Sejm nie kontynuuje prac poprzedniego. Wyjątek dla projektów obywatelskich ma chronić wysiłek obywateli zbierających podpisy.
+
+@W u2-58 | ustroj-rp | Kto wydaje rozporządzenia?
+@M
+Zestawienie (autorskie). A — Prezydent RP; B — Rada Ministrów; C — minister kierujący działem administracji rządowej; D — Rzecznik Praw Obywatelskich; E — Krajowa Rada Radiofonii i Telewizji; F — Prezes Najwyższej Izby Kontroli.
+@R Na podstawie: Konstytucja RP, art. 92, 142, 146, 148, 213.
+@Z przyporzadkuj | 1
+@P
+Wskaż organy, które mogą wydawać rozporządzenia.
+@O
+A, B, C, E.
+@Q
+Rozporządzenia wydają organy wskazane w Konstytucji: Prezydent, Rada Ministrów, Prezes RM, ministrowie, przewodniczący komitetów w RM, KRRiT. RPO i Prezes NIK nie wydają aktów prawa powszechnie obowiązującego.
+
+@W u2-59 | ustroj-rp | Weto prezydenckie — obliczenie
+@M
+Kazus (autorski). Prezydent zawetował ustawę. W ponownym głosowaniu w Sejmie wzięło udział 440 posłów, z czego 270 głosowało za ustawą.
+@Z rozstrzygnij | 1
+@P
+Rozstrzygnij, czy Sejm odrzucił weto. Uzasadnij obliczeniem.
+@O
+Tak — do odrzucenia weta potrzeba 3/5 głosów w obecności co najmniej połowy ustawowej liczby posłów; 3/5 z 440 obecnych to 264, a za ustawą głosowało 270 posłów.
+@Q
+Próg 3/5 liczy się od liczby głosujących (obecnych), a nie od 460. Gdyby liczyć od 460, potrzeba byłoby 276 głosów — to typowy błąd.
