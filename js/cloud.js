@@ -146,6 +146,8 @@ export function merge(a, b) {
   for (const [k, l] of Object.entries(b.lekcje || {})) out.lekcje[k] = pickBy(out.lekcje[k], l, (v) => v.n || 0);
   out.odznaki = { ...(b.odznaki || {}), ...(a.odznaki || {}) };
   out.diagnoza = { ...(b.diagnoza || {}), ...(a.diagnoza || {}) };
+  out.prognozy = { ...(b.prognozy || {}) };
+  for (const [k, h] of Object.entries(a.prognozy || {})) out.prognozy[k] = { ...(out.prognozy[k] || {}), ...h };
   out.bledy = { ...(b.bledy || {}), ...(a.bledy || {}) };
   out.settings = { ...(b.settings || {}), ...(a.settings || {}) };
   if (!a.settings?.przedmiot && b.settings?.przedmiot) out.settings.przedmiot = b.settings.przedmiot;

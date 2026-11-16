@@ -1346,3 +1346,21 @@ body.in-gate:has(.auth) .topbar, body.in-gate:has(.auth) .tabbar { display: none
   .auth-main { align-content: center; padding: 48px; }
 }
 @media (prefers-reduced-motion: reduce) { .auth-card, .auth-hero::before { animation: none; } .auth-card:first-child { opacity: 1; } }
+
+/* ---------- prognoza: wykres i kontrast ---------- */
+.prog-hero .lead { margin: 0; color: color-mix(in srgb, var(--bg) 82%, transparent); }
+.prog-hero .lead strong { color: var(--bg); }
+.prog-chart-wrap { overflow-x: auto; margin: 4px -4px 0; }
+.prog-chart { display: block; width: 100%; min-width: 300px; height: auto; }
+.prog-chart text { font: 600 11px var(--font); fill: var(--text-2); }
+.prog-chart .g { stroke: var(--border); stroke-width: 1; }
+.prog-chart .avg { stroke: var(--text-2); stroke-width: 1; stroke-dasharray: 2 4; }
+.prog-chart .avg-t { font-size: 10px; }
+.prog-chart .area { fill: color-mix(in srgb, var(--text) 8%, transparent); }
+.prog-chart .line { fill: none; stroke: var(--text); stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+.prog-chart .proj { fill: none; stroke: var(--text); stroke-width: 2.5; stroke-dasharray: 6 6; stroke-linecap: round; }
+.prog-chart .dot { fill: var(--surface); stroke: var(--text); stroke-width: 1.5; }
+.prog-chart .now { fill: var(--text); stroke: var(--surface); stroke-width: 2.5; }
+.prog-chart .goal { fill: var(--surface); stroke: var(--text); stroke-width: 3; }
+.prog-chart .goal-t { font: 800 13px var(--font-head); fill: var(--text); }
+.prog-chart .ax { font-size: 10.5px; }

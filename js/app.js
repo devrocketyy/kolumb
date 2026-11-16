@@ -612,22 +612,31 @@ function prognoza(s, tempo) {
   const majModel = model(przekroj(maj));
   const laczenie = (m) => (M == null ? m : (1 - wm) * m + wm * Math.min(M, m + 0.15));
   const punkt = laczenie(dzis);
-  const punktMaj = laczenie(majModel) + (M == null ? 0 : wm * (majModel - dzis));
+  // Prognoza na maj = dokąd dojdziesz, przerabiając materiał. Uczeń, który przerobi cały kurs i ćwiczy zadania,
+  // realnie osiąga ok. 75–85% — tyle zakłada CEL. Ile z tej drogi przejdziesz, zależy od pokrycia materiału
+  // do matury przy obecnym tempie (albo tempie z planu). Wynik rośnie z każdą przerobioną fiszką i zadaniem.
+  const N = dzialy.reduce((a, x) => a + x.n, 0) || 1;
+  const poznane = dzialy.reduce((a, x) => a + (x.n - x.fresh), 0);
+  const pokrycie = Math.min(1, (poznane + (tempo ?? tempoBaza) * dniDo) / N);
+  const CEL = 0.8;
+  const droga = Math.pow(pokrycie, 0.85) * (0.75 + 0.25 * Math.min(1, realizacja));
+  const punktMaj = Math.max(laczenie(majModel) + (M == null ? 0 : wm * (majModel - dzis)), punkt + Math.max(0, CEL - punkt) * droga);
   // niepewność: im mniej danych, tym szerszy przedział; pokazujemy dolną połowę
   const diag = st.diagnoza?.[s.id];
   const dowody = odpowiedzi / 40 + dzialy.reduce((a, x) => a + x.zm, 0) / 4 + proby.length * 8 + st.tests.filter((t) => t.sid === s.id).length + (diag ? 2 : 0);
   const margines = Math.min(diag && odpowiedzi < 60 ? 0.12 : 0.25, Math.max(0.05, 0.04 + 0.22 / Math.sqrt(1 + dowody)));
+  const szacunekMaj = (x) => ({ pokaz: Math.round((x - margines / 4) * 100), od: Math.max(0, Math.floor((x - margines * 0.6) * 100)), do: Math.min(95, Math.ceil((x + margines / 3) * 100)) });
   const szacunek = (x) => ({
     pokaz: Math.max(0, Math.floor((x - margines / 2) * 100)),
     od: Math.max(0, Math.floor((x - margines) * 100)),
     do: Math.min(95, Math.ceil((x + margines / 2) * 100)),
   });
   // ile punktów dałoby opanowanie działu (od stanu na dziś)
-  const zysk = dzialy.map((x) => ({ d: x.d, pkt: x.w * (x.A * PAMIEC[6] - x.wynik) * 60 })).sort((a, b) => b.pkt - a.pkt).filter((x) => x.pkt >= 0.5).slice(0, 3);
+  const zysk = dzialy.map((x) => ({ d: x.d, pkt: x.w * Math.max(0, 0.85 - x.wynik) * 60 })).sort((a, b) => b.pkt - a.pkt).filter((x) => x.pkt >= 1).slice(0, 3);
   return {
     gotowa: odpowiedzi >= 60 || dzialy.some((x) => x.zm >= 5) || proby.length > 0 || !!diag,
     postepDanych: Math.min(1, Math.max(odpowiedzi / 60, dzialy.reduce((a, x) => a + x.zm, 0) / 5)),
-    dzis: szacunek(punkt), maj: szacunek(punktMaj), dzialy, zysk, proby: proby.length,
+    dzis: szacunek(punkt), maj: (() => { const m = szacunekMaj(punktMaj); const d = szacunek(punkt).pokaz; return { ...m, pokaz: Math.max(m.pokaz, d) }; })(), pokrycie, dzialy, zysk, proby: proby.length,
     tempoTeraz, tempoBaza, zPlanu: !tempoTeraz && tempoBaza > 0, planTempo: p.rate || 0, dniDo, srednia: s.srednia,
   };
 }
@@ -661,6 +670,43 @@ function viewPrognoza() {
     }
     const MAX = 60;
     const pk = (x) => Math.round((x / 100) * MAX);
+    // zapis prognozy na dziś (1 punkt dziennie) — z tego rysujemy wykres postępu
+    const stS = store.get();
+    const hist = ((stS.prognozy ||= {})[s.id] ||= {});
+    const dk = store.dayKey();
+    if (!hist[dk] || hist[dk].d !== pr.dzis.pokaz || hist[dk].m !== pr.maj.pokaz) {
+      hist[dk] = { d: pr.dzis.pokaz, m: pr.maj.pokaz };
+      const klucze = Object.keys(hist).sort();
+      klucze.slice(0, Math.max(0, klucze.length - 200)).forEach((k) => delete hist[k]);
+      store.save({ touch: false });
+    }
+    const wykres = (() => {
+      const pts = Object.entries(hist).sort(([a], [b]) => (a < b ? -1 : 1)).map(([k, v]) => ({ t: new Date(k + 'T12:00').getTime(), ...v }));
+      const egz = planOf(s).egz || (s.egzamin ? new Date(s.egzamin + 'T09:00').getTime() : Date.now() + 180 * DAY);
+      const t0 = Math.min(pts[0].t, Date.now() - 14 * DAY), t1 = Math.max(egz, Date.now() + DAY);
+      const W = 640, H = 200, L = 34, R = 14, T = 14, B = 26;
+      const x = (t) => L + ((t - t0) / (t1 - t0)) * (W - L - R);
+      const y = (v) => T + (1 - v / 100) * (H - T - B);
+      const last = pts[pts.length - 1];
+      const linia = pts.map((q, i) => `${i ? 'L' : 'M'}${x(q.t).toFixed(1)},${y(q.d).toFixed(1)}`).join(' ');
+      const pole = `${linia} L${x(last.t).toFixed(1)},${y(0)} L${x(pts[0].t).toFixed(1)},${y(0)} Z`;
+      const siatka = [0, 25, 50, 75, 100].map((v) => `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" class="g"/><text x="${L - 6}" y="${y(v) + 3}" text-anchor="end">${pk(v)}</text>`).join('');
+      const fmt = (t) => new Date(t).toLocaleDateString('pl-PL', { day: 'numeric', month: 'short' });
+      return `<svg class="prog-chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Twoja prognoza w czasie: dziś ${pk(last.d)} pkt, w maju ${pk(pr.maj.pokaz)} pkt">
+        ${siatka}
+        ${pr.srednia ? `<line x1="${L}" x2="${W - R}" y1="${y(pr.srednia.procent)}" y2="${y(pr.srednia.procent)}" class="avg"/><text x="${W - R}" y="${y(pr.srednia.procent) - 5}" text-anchor="end" class="avg-t">średnia w kraju</text>` : ''}
+        <path d="${pole}" class="area"/>
+        <path d="${linia}" class="line"/>
+        <path d="M${x(last.t).toFixed(1)},${y(last.d).toFixed(1)} L${x(egz).toFixed(1)},${y(pr.maj.pokaz).toFixed(1)}" class="proj"/>
+        ${pts.length < 40 ? pts.map((q) => `<circle cx="${x(q.t).toFixed(1)}" cy="${y(q.d).toFixed(1)}" r="3" class="dot"/>`).join('') : ''}
+        <circle cx="${x(last.t).toFixed(1)}" cy="${y(last.d).toFixed(1)}" r="5.5" class="now"/>
+        <circle cx="${x(egz).toFixed(1)}" cy="${y(pr.maj.pokaz).toFixed(1)}" r="7" class="goal"/>
+        <text x="${x(egz) - 10}" y="${y(pr.maj.pokaz) - 12}" text-anchor="end" class="goal-t">${pk(pr.maj.pokaz)} pkt</text>
+        <text x="${x(t0)}" y="${H - 6}" class="ax">${fmt(t0)}</text>
+        <text x="${x(last.t)}" y="${H - 6}" text-anchor="middle" class="ax">dziś</text>
+        <text x="${x(egz)}" y="${H - 6}" text-anchor="end" class="ax">matura</text>
+      </svg>`;
+    })();
     const pas = (x) => `<div class="prog-range" aria-label="Zakres od ${x.od} do ${x.do}%"><i style="left:${x.od}%;width:${Math.max(1, x.do - x.od)}%"></i><b style="left:${x.pokaz}%"></b>${pr.srednia ? `<em style="left:${pr.srednia.procent}%" title="Średnia w kraju"></em>` : ''}</div>`;
     const sr = pr.srednia ? pr.maj.pokaz - pr.srednia.procent : null;
     const etykieta = (q) => (q >= 0.7 ? ['mocna strona', 'ok'] : q >= 0.4 ? ['średnio', ''] : ['do nauki', 'bad']);
@@ -670,12 +716,17 @@ function viewPrognoza() {
       <section class="prog-hero">
         <span class="eyebrow">Prognoza na maj</span>
         <div class="prog-nums big">
-          <div><b>${pk(pr.maj.pokaz)}<small> / ${MAX} pkt</small></b><small>${pr.maj.pokaz}% · ${pr.zPlanu ? 'jeśli trzymasz plan' : 'przy Twoim obecnym tempie'}</small></div>
+          <div><b>${pk(pr.maj.pokaz)}<small> / ${MAX}</small></b><small>pkt · ${pr.maj.pokaz}% · ${pr.zPlanu ? 'jeśli trzymasz plan' : 'przy Twoim obecnym tempie'}</small></div>
           <div><b>${pk(pr.dzis.pokaz)}<small> / ${MAX}</small></b><small>gdyby matura była dziś</small></div>
         </div>
         ${pas(pr.maj)}
         <p class="prog-scale"><span>prawdopodobnie ${pk(pr.maj.od)}–${pk(pr.maj.do)} pkt</span>${pr.srednia ? `<span>średnia w kraju ${pr.srednia.procent}% (${esc(pr.srednia.rok)})</span>` : ''}</p>
         ${sr != null ? `<p class="lead">${sr >= 0 ? `To <strong>${sr} pkt proc. powyżej</strong> średniej w kraju.` : `Do średniej w kraju brakuje Ci <strong>${-sr} pkt proc.</strong> — to do nadrobienia.`}</p>` : ''}
+      </section>
+      <section class="card"><h2 class="card-title">Twoja droga do matury</h2>
+        <p class="muted small">Linia ciągła to Twój wynik dzień po dniu — rośnie z każdą sesją nauki. Przerywana prowadzi do prognozy na maj.</p>
+        <div class="prog-chart-wrap">${wykres}</div>
+        <p class="prog-scale"><span>przerobiony materiał w maju: ${pct(pr.pokrycie)}%</span><span>${pr.zPlanu ? 'tempo z planu' : `tempo: ${pr.tempoTeraz} fiszek/dzień`}</span></p>
       </section>
       ${pr.zysk.length ? `<section class="card"><h2 class="card-title">Gdzie zyskasz najwięcej</h2>
         <p class="muted small">Tyle punktów dołożysz do wyniku, opanowując dział — zacznij od góry.</p>
@@ -688,9 +739,9 @@ function viewPrognoza() {
       </section>
       <section class="card"><h2 class="card-title">Jak podnieść prognozę</h2>
         <div class="prog-zysk">
-          ${najslabszy ? `<a href="#/zadania/${enc(s.id)}/b/${enc(najslabszy.d.id)}"><span>Zadania maturalne: ${esc(najslabszy.d.nazwa)}</span><b>najsłabszy dział</b>${ICONS.next}</a>` : ''}
-          <a href="#/matura/proba"><span>Próbna matura</span><b>${pr.proby ? 'kolejna' : 'najdokładniejsza prognoza'}</b>${ICONS.next}</a>
-          <a href="#/diagnoza"><span>Test diagnostyczny — 20 pytań</span><b>sprawdź postęp</b>${ICONS.next}</a>
+          ${najslabszy ? `<a href="#/zadania/${enc(s.id)}/b/${enc(najslabszy.d.id)}"><span>Zadania: ${esc(najslabszy.d.nazwa)}</span><b>start</b>${ICONS.next}</a>` : ''}
+          <a href="#/matura/proba"><span>Próbna matura — najdokładniejsza prognoza</span><b></b>${ICONS.next}</a>
+          <a href="#/diagnoza"><span>Test diagnostyczny — 20 pytań</span><b></b>${ICONS.next}</a>
         </div>
       </section>
       <details class="card prog-how"><summary>Jak to liczymy</summary>
