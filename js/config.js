@@ -3,8 +3,8 @@
 // i wpisz tu jego adres oraz klucz publiczny „anon” (instrukcja w README, sekcja „Konta użytkowników”).
 // Klucz „anon” jest publiczny z założenia — dostęp do danych chronią reguły RLS w bazie.
 export const CLOUD = {
-  url: '',      // np. 'https://abcdefgh.supabase.co'
-  anonKey: '',  // klucz „anon public” z ustawień projektu (Project Settings → API)
+  url: 'https://fepprnkhuotbeyuqpqid.supabase.co',
+  anonKey: 'sb_publishable_zX2SXqBqfBmfkFMVOlrm_A_YTUTm-t-', // klucz publiczny (publishable) — może być w kodzie
   table: 'postepy',
 };
 

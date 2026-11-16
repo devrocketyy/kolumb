@@ -12,7 +12,8 @@ export async function api(path, { method = 'GET', body, token, headers = {} } = 
     method,
     headers: {
       apikey: CLOUD.anonKey,
-      Authorization: `Bearer ${token || CLOUD.anonKey}`,
+      // nowe klucze „sb_publishable_…” idą tylko w nagłówku apikey; Bearer = wyłącznie token zalogowanego ucznia
+      ...(token || !CLOUD.anonKey.startsWith('sb_') ? { Authorization: `Bearer ${token || CLOUD.anonKey}` } : {}),
       'Content-Type': 'application/json',
       ...headers,
     },
