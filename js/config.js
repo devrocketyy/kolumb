@@ -20,3 +20,11 @@ export const PREMIUM = {
   ],
   sklepKodow: '', // np. adres strony kursu na Naffy, gdzie można kupić kod dostępu
 };
+
+// Tryb prywatny (przed premierą): strona pokazuje „Wkrótce”, a aplikację widzi tylko ten, kto raz otworzy
+// adres z kluczem: https://app.indexlab.pl/?klucz=TWÓJ_KLUCZ (przeglądarka zapamięta dostęp).
+// Aby opublikować aplikację dla wszystkich: zmień wlaczone na false (oraz usuń „noindex” — instrukcja w docs/06).
+export const PRYWATNE = {
+  wlaczone: true,
+  kluczSha256: '980fb41d7bfee5062b0862055bffccf56fc39d360a05fdb17c7d2782cfd0ed1c',
+};

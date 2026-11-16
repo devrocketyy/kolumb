@@ -5,6 +5,7 @@ import * as game from './game.js';
 import * as cloud from './cloud.js';
 import * as dostep from './dostep.js';
 import * as podcast from './podcast.js';
+import * as CFG from './config.js';
 import { cardKey, nextState, intervalLabel, summary, buildQueue, newAllowance, MASTERED_BOX, setAutoRate, tempoAuto, newPerDay } from './srs.js';
 
 const REPORT_EMAIL = 'kontakt.indexlab@gmail.com';
@@ -3606,7 +3607,26 @@ function czekajNaTresc(hash) {
   return true;
 }
 
+// Tryb prywatny przed premierą: bez klucza widać tylko stronę „Wkrótce”.
+async function prywatnyDostep() {
+  const PRYWATNE = CFG.PRYWATNE;
+  if (!PRYWATNE?.wlaczone) return true;
+  const m = location.search.match(/[?&]klucz=([^&#]+)/);
+  if (m) { try { localStorage.setItem('ixl-klucz', decodeURIComponent(m[1])); } catch { /* */ } history.replaceState(null, '', location.pathname + location.hash); }
+  let k = ''; try { k = localStorage.getItem('ixl-klucz') || ''; } catch { /* */ }
+  if (!k || !crypto.subtle) return false;
+  const h = [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(k)))].map((b) => b.toString(16).padStart(2, '0')).join('');
+  return h === PRYWATNE.kluczSha256;
+}
+
 async function init() {
+  if (!(await prywatnyDostep())) {
+    document.body.classList.add('in-gate', 'wkrotce-on');
+    app.innerHTML = `<section class="wkrotce"><div class="auth-logo">${BRAND_NAME}</div>
+      <h1>Już wkrótce</h1><p>Pracujemy nad aplikacją do nauki na maturę rozszerzoną z WOS i historii.</p>
+      <p class="wkrotce-mail">kontakt.indexlab@gmail.com</p></section>`;
+    return;
+  }
   applyTheme();
   game.onChange(onGameEvents);
   cloud.startAutoSync(() => {});

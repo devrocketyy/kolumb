@@ -1407,3 +1407,11 @@ body.in-gate:has(.auth) .topbar, body.in-gate:has(.auth) .tabbar { display: none
 .os-karta[disabled] { cursor: default; opacity: 1; }
 .os-foot { display: grid; margin-top: 18px; }
 .os-link { margin-bottom: 12px; }
+
+/* ---------- tryb prywatny: strona „Wkrótce” ---------- */
+body.wkrotce-on .topbar, body.wkrotce-on .tabbar { display: none; }
+.wkrotce { min-height: 90dvh; display: grid; place-content: center; justify-items: center; gap: 14px; text-align: center; }
+.wkrotce .auth-logo svg { width: 170px; }
+.wkrotce h1 { font-size: clamp(2rem, 6vw, 3.2rem); letter-spacing: -.04em; margin-top: 18px; }
+.wkrotce p { color: var(--text-2); max-width: 420px; margin: 0; line-height: 1.55; }
+.wkrotce-mail { font-weight: 600; color: var(--text) !important; }
