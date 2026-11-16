@@ -200,3 +200,28 @@ Ten krok robimy **razem**, po tym jak zrobię swoją część (wgram bazę i fun
 | Link przenosi na złą stronę | A4: Site URL i Redirect URLs |
 | Płatność przeszła, a dostęp się nie włączył | Stripe → Webhooks → endpoint → zakładka zdarzeń: czerwone = błąd — zrób zrzut i wyślij mi |
 | Resend nie weryfikuje domeny | czy rekordy dodałeś w **Netlify**, nie w OVH; czy nazwa nie ma dopisanego `.indexlab.pl.indexlab.pl` |
+
+## Aktualizacja: rejestracja, logowanie linkiem i usuwanie konta
+
+**Jak teraz działa pierwsze wejście ucznia**
+- „Nowe konto”: imię, e-mail, hasło, powtórz hasło. Imię zapisuje się w koncie, więc pojawia się na każdym urządzeniu.
+- „Mam konto”: e-mail i hasło.
+- Logowanie linkiem z e-maila: działa też jako „nie pamiętam hasła”.
+- „Ucz się bez konta”: zwinięta opcja na dole, tylko na tym urządzeniu.
+
+**Co ustawić w Supabase**
+1. Authentication → URL Configuration:
+   - Site URL: `https://app.indexlab.pl`.
+   - Redirect URLs: dodaj `https://app.indexlab.pl/**`, inaczej link z e-maila nie zadziała.
+2. Authentication → Providers → Email:
+   - włącz „Confirm email” (zalecane);
+   - logowanie linkiem (Magic Link) jest włączone domyślnie.
+3. Authentication → Email Templates: przetłumacz treści wiadomości na polski (potwierdzenie konta, magic link).
+4. SQL Editor: uruchom `supabase/migrations/002_usun_konto.sql`. To funkcja do przycisku **Ustawienia → Usuń konto**. Usuwa konto, postępy i dostęp. Przed usunięciem uczeń z aktywną subskrypcją dostaje ostrzeżenie, że najpierw musi ją anulować.
+
+**Zakupy a konto (dlaczego tak)**
+Kupić można tylko będąc zalogowanym. Funkcja `checkout` przekazuje do Stripe identyfikator konta (oraz jego e-mail). Webhook po płatności zapisuje dostęp dokładnie na to konto.
+
+To pewniejsze niż dopasowywanie po samym adresie e-mail. Uczeń może w formularzu płatności wpisać inny mail, zrobić literówkę albo kupić dla siebie z karty rodzica. Wtedy dostęp i tak trafi do właściwego konta.
+
+E-mail zostaje w Stripe do faktur i kontaktu. Na zakupy poza aplikacją (np. Naffy) są kody dostępu wpisywane w aplikacji.

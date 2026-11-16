@@ -1209,3 +1209,53 @@ button.btn-report { border: 0; background: none; font: inherit; font-size: .88re
 .exam-facts b { font-family: var(--font-head); font-size: 1.5rem; line-height: 1; }
 .exam-facts span { font-size: .75rem; color: var(--text-2); }
 .dzial-list .dzial-row .pop-row { margin-top: 8px; }
+
+/* ---------- wybór kursu: duże karty ---------- */
+.gate-sub { margin-top: -8px; }
+.subj-grid { display: grid; grid-template-columns: 1fr; gap: 14px; width: 100%; max-width: 560px; }
+.subj-tile { display: flex; align-items: center; gap: 16px; width: 100%; padding: 18px; text-align: left; border: 2px solid var(--border); border-radius: 24px; background: var(--surface); color: var(--text); font-size: 1rem; letter-spacing: 0; transition: transform .08s, border-color .15s; }
+.subj-tile:hover { border-color: var(--primary); }
+.subj-tile:active { transform: scale(.99); }
+.subj-tile.active { border-color: var(--primary); box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 18%, transparent); }
+.subj-tile .subj-icon { flex: none; width: 76px; height: 76px; border-radius: 22px; }
+.subj-body { display: grid; gap: 4px; flex: 1; min-width: 0; }
+.subj-tile .subj-name { font-size: 1.2rem; font-weight: 800; line-height: 1.2; }
+.subj-body small { color: var(--text-2); font-weight: 600; }
+.subj-prog { display: flex; align-items: center; gap: 8px; margin-top: 4px; }
+.subj-prog .core-mini { flex: 1; }
+.subj-prog b { font-size: .85rem; }
+.subj-badge { flex: none; padding: 5px 10px; border-radius: 999px; background: var(--primary); color: var(--on-primary); font-size: .75rem; font-weight: 800; }
+.subj-tile > svg { flex: none; width: 22px; height: 22px; opacity: .5; }
+@media (max-width: 420px) { .subj-tile { padding: 14px; gap: 12px; } .subj-tile .subj-icon { width: 60px; height: 60px; border-radius: 18px; } .subj-badge { display: none; } }
+/* ---------- logowanie, usuwanie konta, okienka chronologii ---------- */
+.gate-acc .gate-form { width: 100%; max-width: 380px; }
+.gate-tabs { width: 100%; max-width: 380px; }
+.gate-note { max-width: 380px; }
+.gate-local { max-width: 420px; color: var(--text-2); }
+.gate-local summary { cursor: pointer; font-weight: 600; padding: 8px; }
+.gate-local[open] { display: grid; gap: 14px; justify-items: center; }
+.del-confirm { display: grid; gap: 10px; margin-top: 12px; }
+.nw-time li.has-opis { cursor: pointer; border-radius: 12px; }
+.nw-time li.has-opis:hover p { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.nw-time li.has-opis p::after { content: " ›"; color: var(--text-2); }
+.chr-layer { position: fixed; inset: 0; z-index: 60; display: grid; place-items: end center; background: rgb(0 0 0 / .45); padding: 16px; padding-bottom: max(16px, env(safe-area-inset-bottom, 0px)); animation: fadein .15s ease; }
+@media (min-width: 640px) { .chr-layer { place-items: center; } }
+.chr-box { width: 100%; max-width: 520px; max-height: 80dvh; overflow: auto; background: var(--surface); color: var(--text); border-radius: 24px; padding: 22px; display: grid; gap: 10px; animation: sheetup .2s ease; }
+.chr-box time { font-weight: 800; color: var(--primary); font-size: 1.05rem; }
+.chr-box h2 { font-size: 1.25rem; line-height: 1.25; }
+.chr-box p { line-height: 1.55; }
+.chr-box .chr-era { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--text-2); font-weight: 700; }
+.chr-nav { display: flex; justify-content: space-between; gap: 8px; margin-top: 6px; }
+@keyframes fadein { from { opacity: 0; } }
+/* ---------- podcast ---------- */
+.pod-hero { display: grid; gap: 6px; padding: 20px; border-radius: 24px; background: var(--primary); color: var(--on-primary); }
+.pod-hero h2 { font-size: 1.3rem; }
+.pod-list { display: grid; gap: 8px; }
+.pod-ep { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: 16px; background: var(--surface); border: 1px solid var(--border); }
+.pod-ep .pod-nr { flex: none; display: grid; place-items: center; width: 38px; height: 38px; border-radius: 12px; background: var(--bg); font-weight: 800; }
+.pod-ep .pod-t { flex: 1; min-width: 0; display: grid; gap: 2px; }
+.pod-ep .pod-t small { color: var(--text-2); }
+.pod-ep audio { width: 100%; margin-top: 6px; }
+.pod-soon { flex: none; font-size: .72rem; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; color: var(--text-2); }
+a.prog-dz-row { color: inherit; text-decoration: none; display: grid; }
+.prog-nums b small { font-size: .5em; font-weight: 700; opacity: .7; }

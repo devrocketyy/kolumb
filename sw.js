@@ -15,6 +15,7 @@ const SHELL = [
   'js/cloud.js',
   'js/dostep.js',
   'js/config.js',
+  'js/podcast.js',
   'fonty/inter-latin-wght-normal.woff2',
   'fonty/inter-latin-ext-wght-normal.woff2',
   'fonty/inter-tight-latin-wght-normal.woff2',

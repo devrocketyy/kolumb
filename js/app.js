@@ -4,6 +4,7 @@ import { loadIndex, loadFull, takeErrors } from './data.js';
 import * as game from './game.js';
 import * as cloud from './cloud.js';
 import * as dostep from './dostep.js';
+import * as podcast from './podcast.js';
 import { cardKey, nextState, intervalLabel, summary, buildQueue, newAllowance, MASTERED_BOX, setAutoRate, tempoAuto, newPerDay } from './srs.js';
 
 const REPORT_EMAIL = 'kontakt.indexlab@gmail.com';
@@ -635,11 +636,11 @@ function prognozaCard(s) {
   const pr = prognoza(s);
   if (!pr.gotowa) {
     return `<a class="card prog-card" href="#/prognoza"><div class="prog-left"><span class="eyebrow">Prognoza matury</span>
-      <strong>Sprawdź swój punkt startowy</strong><small>Test diagnostyczny: ok. 20 pytań, 4 minuty — od razu prognoza wyniku</small></div>${ICONS.next}</a>`.replace('href="#/prognoza"', 'href="#/diagnoza"');
+      <strong>Sprawdź swój punkt startowy</strong><small>Test diagnostyczny: 20 pytań, ok. 5 minut — od razu prognoza wyniku</small></div>${ICONS.next}</a>`.replace('href="#/prognoza"', 'href="#/diagnoza"');
   }
   return `<a class="card prog-card" href="#/prognoza">
     <div class="prog-left"><span class="eyebrow">Prognoza matury</span>
-      <div class="prog-nums"><div><b>${pr.dzis.pokaz}%</b><small>gdyby matura była dziś</small></div><div><b>${pr.maj.pokaz}%</b><small>${pr.zPlanu ? 'w maju, jeśli trzymasz plan' : 'w maju przy Twoim tempie'}</small></div></div></div>
+      <div class="prog-nums"><div><b>${Math.round(pr.maj.pokaz * 0.6)}<small>/60</small></b><small>pkt w maju${pr.zPlanu ? ', jeśli trzymasz plan' : ' przy Twoim tempie'}</small></div><div><b>${Math.round(pr.dzis.pokaz * 0.6)}<small>/60</small></b><small>gdyby matura była dziś</small></div></div></div>
     ${ICONS.next}</a>`;
 }
 
@@ -655,50 +656,51 @@ function viewPrognoza() {
       box.innerHTML = `<section class="card"><h2 class="card-title">Potrzebujemy trochę więcej danych</h2>
         ${progressBar(pr.postepDanych, 'Dane do prognozy')}
         <p class="muted">Zrób krótki test diagnostyczny albo odpowiedz na 60 fiszek lub rozwiąż 5 zadań maturalnych — wtedy policzymy prognozę.</p>
-        <div class="actions"><a class="btn btn-primary btn-lg" href="#/diagnoza">Test diagnostyczny — 4 min</a><a class="btn btn-ghost btn-lg" href="#/nauka">Do nauki</a></div></section>`;
+        <div class="actions"><a class="btn btn-primary btn-lg" href="#/diagnoza">Test diagnostyczny — 20 pytań</a><a class="btn btn-ghost btn-lg" href="#/nauka">Do nauki</a></div></section>`;
       return;
     }
+    const MAX = 60;
+    const pk = (x) => Math.round((x / 100) * MAX);
     const pas = (x) => `<div class="prog-range" aria-label="Zakres od ${x.od} do ${x.do}%"><i style="left:${x.od}%;width:${Math.max(1, x.do - x.od)}%"></i><b style="left:${x.pokaz}%"></b>${pr.srednia ? `<em style="left:${pr.srednia.procent}%" title="Średnia w kraju"></em>` : ''}</div>`;
-    const hero = (q) => `
-        <div class="prog-nums big">
-          <div><b>${q.dzis.pokaz}%</b><small>gdyby matura była dziś</small></div>
-          <div><b>${q.maj.pokaz}%</b><small>w maju · ok. ${Math.round(q.maj.pokaz * 0.6)} / 60 pkt</small></div>
-        </div>
-        ${pas(q.maj)}
-        <p class="prog-scale"><span>prawdopodobnie ${q.maj.od}–${q.maj.do}%</span>${q.srednia ? `<span>średnia w kraju ${q.srednia.procent}% (${esc(q.srednia.rok)})</span>` : ''}</p>`;
-    const zysk = (q) => q.zysk.length ? `<section class="card"><h2 class="card-title">Gdzie zyskasz najwięcej</h2>
-        <div class="prog-zysk">${q.zysk.map((z) => `<a href="#/d/${enc(s.id)}/${enc(z.d.id)}"><span>${esc(z.d.nazwa)}</span><b>+${Math.floor(z.pkt)} pkt</b>${ICONS.next}</a>`).join('')}</div></section>` : '';
+    const sr = pr.srednia ? pr.maj.pokaz - pr.srednia.procent : null;
+    const etykieta = (q) => (q >= 0.7 ? ['mocna strona', 'ok'] : q >= 0.4 ? ['średnio', ''] : ['do nauki', 'bad']);
+    const dz = pr.dzialy.filter((x) => x.w > 0.005).sort((a, b) => a.wynik - b.wynik);
+    const najslabszy = dz.find((x) => x.d.id !== 'umiejetnosci') || dz[0];
     box.innerHTML = `
-      <section class="prog-hero">${hero(pr)}</section>
-      <section class="card prog-tempo">
-        <h2 class="card-title">A gdybyś robił więcej?</h2>
-        <output class="prog-tempo-val"><b>${tempo}</b> nowych fiszek dziennie</output>
-        <input type="range" id="pr-tempo" min="0" max="120" step="1" value="${tempo}" aria-label="Nowe fiszki dziennie">
-        <p class="muted small">Zakładamy, że razem z fiszkami robisz zadania z planu — to one podnoszą wynik najbardziej.</p>
-        <p class="prog-scale"><span>teraz: ${pr.tempoTeraz}/dzień</span><span>plan: ${pr.planTempo}/dzień</span></p>
+      <section class="prog-hero">
+        <span class="eyebrow">Prognoza na maj</span>
+        <div class="prog-nums big">
+          <div><b>${pk(pr.maj.pokaz)}<small> / ${MAX} pkt</small></b><small>${pr.maj.pokaz}% · ${pr.zPlanu ? 'jeśli trzymasz plan' : 'przy Twoim obecnym tempie'}</small></div>
+          <div><b>${pk(pr.dzis.pokaz)}<small> / ${MAX}</small></b><small>gdyby matura była dziś</small></div>
+        </div>
+        ${pas(pr.maj)}
+        <p class="prog-scale"><span>prawdopodobnie ${pk(pr.maj.od)}–${pk(pr.maj.do)} pkt</span>${pr.srednia ? `<span>średnia w kraju ${pr.srednia.procent}% (${esc(pr.srednia.rok)})</span>` : ''}</p>
+        ${sr != null ? `<p class="lead">${sr >= 0 ? `To <strong>${sr} pkt proc. powyżej</strong> średniej w kraju.` : `Do średniej w kraju brakuje Ci <strong>${-sr} pkt proc.</strong> — to do nadrobienia.`}</p>` : ''}
       </section>
-      <div class="prog-zysk-wrap">${zysk(pr)}</div>
-      <section class="card"><h2 class="card-title">Działy</h2>
-        <div class="prog-dz">${pr.dzialy.map((x) => `<div class="prog-dz-row"><span>${esc(x.d.nazwa)}</span><small>${Math.round(x.w * 60)} pkt na maturze · znasz ${pct(x.K)}% · zadania ${x.zm ? pct(x.A) + '%' : '—'}</small>
-          <div class="core-mini"><i style="width:${x.wynik * 100}%"></i></div></div>`).join('')}</div>
+      ${pr.zysk.length ? `<section class="card"><h2 class="card-title">Gdzie zyskasz najwięcej</h2>
+        <p class="muted small">Tyle punktów dołożysz do wyniku, opanowując dział — zacznij od góry.</p>
+        <div class="prog-zysk">${pr.zysk.map((z) => `<a href="#/d/${enc(s.id)}/${enc(z.d.id)}"><span>${esc(z.d.nazwa)}</span><b>+${Math.floor(z.pkt)} pkt</b>${ICONS.next}</a>`).join('')}</div></section>` : ''}
+      <section class="card"><h2 class="card-title">Twoje działy</h2>
+        <div class="prog-dz">${dz.map((x) => { const [et, cls] = etykieta(x.K); const max = Math.round(x.w * MAX);
+          return `<a class="prog-dz-row" href="#/d/${enc(s.id)}/${enc(x.d.id)}"><span>${esc(x.d.nazwa)} <em class="diag-tag ${cls}">${et}</em></span>
+          <small>ok. ${Math.round(x.wynik * max)} z ${max} pkt na maturze · znasz ${pct(x.K)}% materiału${x.zm ? ` · zadania ${pct(x.A)}%` : ''}</small>
+          <div class="core-mini"><i style="width:${x.wynik * 100}%"></i></div></a>`; }).join('')}</div>
+      </section>
+      <section class="card"><h2 class="card-title">Jak podnieść prognozę</h2>
+        <div class="prog-zysk">
+          ${najslabszy ? `<a href="#/zadania/${enc(s.id)}/b/${enc(najslabszy.d.id)}"><span>Zadania maturalne: ${esc(najslabszy.d.nazwa)}</span><b>najsłabszy dział</b>${ICONS.next}</a>` : ''}
+          <a href="#/matura/proba"><span>Próbna matura</span><b>${pr.proby ? 'kolejna' : 'najdokładniejsza prognoza'}</b>${ICONS.next}</a>
+          <a href="#/diagnoza"><span>Test diagnostyczny — 20 pytań</span><b>sprawdź postęp</b>${ICONS.next}</a>
+        </div>
       </section>
       <details class="card prog-how"><summary>Jak to liczymy</summary>
         <ul>
-          <li>Wiedza: ile fiszek z działu pamiętasz — im wyższe pudełko, tym pewniej; zaległe powtórki i częste pomyłki obniżają wynik, nieprzerobione liczą się jako 0.</li>
+          <li>Wiedza: ile fiszek z działu pamiętasz — im wyższe pudełko, tym pewniej; zaległe powtórki i częste pomyłki obniżają wynik. Liczy się też test diagnostyczny i testy ABCD.</li>
           <li>Skuteczność: Twoje punkty z zadań maturalnych z działu (samoocenę pomniejszamy o 10%). Przy kilku zadaniach zakładamy 50%.</li>
           <li>Wagi działów jak w prawdziwych arkuszach CKE.${pr.proby ? ` Uwzględniamy też ${pr.proby} ${plural(pr.proby, 'próbną maturę', 'próbne matury', 'próbnych matur')}.` : ' Rozwiąż próbną maturę, a prognoza będzie dokładniejsza.'}</li>
+          <li>Prognoza na maj zakłada Twoje tempo z ostatnich 14 dni (albo tempo z planu, jeśli dopiero zaczynasz).</li>
           <li>Pokazujemy ostrożny szacunek — prawdziwy wynik częściej będzie wyższy niż niższy.</li>
         </ul></details>`;
-    const r = box.querySelector('#pr-tempo');
-    const upd = () => {
-      r.style.setProperty('--v', `${(tempo / 120) * 100}%`);
-      const q = prognoza(s, tempo);
-      box.querySelector('.prog-hero').innerHTML = hero(q);
-      box.querySelector('.prog-tempo-val b').textContent = tempo;
-      box.querySelector('.prog-zysk-wrap').innerHTML = zysk(q);
-    };
-    r.addEventListener('input', () => { tempo = Number(r.value); upd(); });
-    upd();
   };
   app.innerHTML = `${pageHead('Prognoza matury', '#/', s.nazwa)}<div class="prog-body"></div>`;
   render();
@@ -1045,6 +1047,7 @@ function viewNauka() {
       <a class="plan-tile" href="${nextTasksHref(s)}"><b>${zDone}<small>/${zad.length}</small></b><span>zadań</span></a>
     </div>
     <a class="card rev-link" href="#/powtorka"><span class="quest-icon">${ICONS.redo}</span><span class="plan-text"><strong>Własna powtórka</strong><small>Wybierz tematy i powtarzaj, co chcesz</small></span>${ICONS.next}</a>
+    <a class="card rev-link" href="#/podcast"><span class="quest-icon">${ICONS.play}</span><span class="plan-text"><strong>Podcast IndexLab</strong><small>Słuchaj tematów w drodze do szkoły</small></span>${ICONS.next}</a>
     <div class="route" data-sid="${esc(s.id)}">${pathHtml(s, rec)}</div>`;
   bindSubjSwitch(viewNauka);
   const wrap = app.querySelector('.route');
@@ -1707,15 +1710,19 @@ function viewTest(sid, type, id) {
 }
 
 const DIAG_SIZE = 20;
+// Dokładnie 20 pytań w każdym przedmiocie: liczba pytań z działu ~ waga działu na maturze (min. 1 z każdego działu),
+// podział metodą największych reszt. Działy bez pytań ABCD oddają swoje miejsca pozostałym.
 function pytaniaDiagnozy(sc) {
   const s = sc.s;
   const w = wagiDzialow(s);
-  const out = [];
-  for (const d of s.dzialy) {
-    const pula = shuffle(sc.units.filter((u) => u.dzialId === d.id).flatMap((u) => u.pytania.map((q) => ({ q, u }))));
-    out.push(...pula.slice(0, Math.max(2, Math.round((w[d.id] || 0) * DIAG_SIZE))));
-  }
-  return shuffle(out).slice(0, DIAG_SIZE + 6);
+  const pule = s.dzialy.map((d) => ({ d, pula: shuffle(sc.units.filter((u) => u.dzialId === d.id).flatMap((u) => u.pytania.map((q) => ({ q, u })))) }))
+    .filter((x) => x.pula.length);
+  const suma = pule.reduce((a, x) => a + (w[x.d.id] || 0), 0) || 1;
+  const ile = pule.map((x) => { const r = ((w[x.d.id] || 0) / suma) * DIAG_SIZE; return { x, n: Math.max(1, Math.floor(r)), reszta: r - Math.floor(r) }; });
+  let wolne = DIAG_SIZE - ile.reduce((a, y) => a + y.n, 0);
+  for (const y of [...ile].sort((a, b) => b.reszta - a.reszta)) { if (wolne <= 0) break; if (y.n < y.x.pula.length) { y.n++; wolne--; } }
+  while (wolne < 0) { const y = ile.filter((z) => z.n > 1).sort((a, b) => a.reszta - b.reszta)[0]; if (!y) break; y.n--; wolne++; }
+  return shuffle(ile.flatMap((y) => y.x.pula.slice(0, y.n)));
 }
 
 function startTest(sc) {
@@ -1894,8 +1901,8 @@ function viewDiagnoza() {
   app.innerHTML = `
     ${pageHead('Test diagnostyczny', '#/', s.nazwa)}
     <section class="card diag-intro">
-      <div class="plan-tiles"><div class="plan-tile"><b>~${DIAG_SIZE}</b><span>pytań</span></div><div class="plan-tile"><b>4</b><span>minuty</span></div><div class="plan-tile"><b>${s.dzialy.length}</b><span>działów</span></div></div>
-      <p>Co najmniej 2 pytania z każdego działu. Bez podpowiedzi w trakcie — jeśli nie wiesz, wybierz „Nie wiem” zamiast zgadywać. Na końcu: punkt startowy, prognoza i dział, od którego warto zacząć.</p>
+      <div class="plan-tiles"><div class="plan-tile"><b>${DIAG_SIZE}</b><span>pytań</span></div><div class="plan-tile"><b>~5</b><span>minut</span></div><div class="plan-tile"><b>${s.dzialy.length}</b><span>działów</span></div></div>
+      <p>Pytania z każdego działu — tym więcej, im więcej punktów dział daje na maturze. Bez podpowiedzi w trakcie — jeśli nie wiesz, wybierz „Nie wiem” zamiast zgadywać. Na końcu: punkt startowy, prognoza i dział, od którego warto zacząć.</p>
       ${byl ? `<p class="muted small">Ostatni test: ${fmtDay(byl.at)}. Nowy wynik zastąpi poprzedni.</p>` : ''}
     </section>
     <a class="btn btn-primary btn-lg" href="#/test/${enc(s.id)}/x/start">Zaczynam</a>
@@ -2492,6 +2499,26 @@ function renderExamResult(s, e, ws) {
   });
 }
 
+// ---------- podcast ----------
+function viewPodcast() {
+  const s = currentSubject();
+  if (!s) return notFound();
+  const dz = podcast.odcinki(s);
+  const all = dz.flatMap((x) => x.lista);
+  const gotowe = all.filter((o) => o.nagranie).length;
+  app.innerHTML = `
+    ${pageHead('Podcast', '#/nauka', s.nazwa)}
+    <section class="pod-hero"><span class="eyebrow">Podcast IndexLab</span>
+      <h2>Cały kurs do słuchania</h2>
+      <p>${all.length} odcinków: po jednym na każdy temat i powtórka na koniec działu. ${gotowe ? `Gotowe: ${gotowe}.` : 'Pierwsze odcinki już wkrótce.'}</p></section>
+    ${dz.map(({ d, lista }) => `<section class="card"><h2 class="card-title">${esc(d.nazwa)}</h2><div class="pod-list">
+      ${lista.map((o) => `<div class="pod-ep"><span class="pod-nr">${o.nr}</span>
+        <span class="pod-t"><b>${esc(o.tytul)}</b><small>${o.typ === 'powtorka' ? 'powtórka działu' : 'temat'} · ${o.nagranie ? `${o.nagranie.min} min` : `ok. ${o.min} min`}</small>
+          ${o.nagranie ? `<audio controls preload="none" src="${esc(o.nagranie.plik)}"></audio>` : ''}</span>
+        ${o.nagranie ? '' : '<span class="pod-soon">wkrótce</span>'}</div>`).join('')}
+    </div></section>`).join('')}`;
+}
+
 // ---------- zakładka „Aktualności” ----------
 let newsQ = '';
 let newsSec = '';
@@ -2512,7 +2539,9 @@ function viewAktualnosci() {
         <div class="nw-role">${esc(r[0])}${when ? `<span class="nw-date">${esc(when)}</span>` : ''}</div>
         <div class="nw-now">${esc(who)}</div>
         <div class="nw-was"><span>wcześniej</span> ${esc(r[1])}</div></article>`; }).join('')}</div>`;
-    if (k[0] === 'Data') return `<ol class="nw-time">${rows.map((r) => `<li><time>${esc(r[0])}</time><p>${esc(r[1])}</p></li>`).join('')}</ol>`;
+    if (k[0] === 'Data') return `<ol class="nw-time">${rows.map((r) => r[2]
+      ? `<li class="has-opis" tabindex="0" role="button" data-chr="${esc(sec.id)}|${sec.wiersze.indexOf(r)}"><time>${esc(r[0])}</time><p>${esc(r[1])}</p></li>`
+      : `<li><time>${esc(r[0])}</time><p>${esc(r[1])}</p></li>`).join('')}</ol>`;
     return `<ul class="nw-people">${rows.map((r) => { const [who, extra] = k[2] ? [r[1], r[2]] : withDate(r[1]); return `<li>
         <span class="nw-role">${esc(r[0])}</span><strong>${esc(who)}</strong>${extra ? `<small>${k[2] === 'Od' && /^[0-9IVX]/.test(extra) ? 'od ' : ''}${esc(extra)}</small>` : ''}</li>`; }).join('')}</ul>`;
   };
@@ -2524,9 +2553,11 @@ function viewAktualnosci() {
     <div class="news">${sections.map(({ sec, rows }) => `<section class="nw-sec">
         ${q ? `<h2 class="nw-title">${esc(sec.tytul)}<small>${rows.length}</small></h2>` : ''}
         ${body(sec, rows)}
-        ${!q && sec.notatki ? sec.notatki.map((n) => `<p class="nw-note"><b>Warto wiedzieć</b>${esc(n)}</p>`).join('') : ''}
       </section>`).join('') || '<p class="muted">Nic nie znaleziono.</p>'}</div>
     ${A.uwaga || A.zrodlo ? `<p class="muted small news-foot">${esc(A.uwaga || '')}${A.zrodlo ? ` Źródło: ${esc(A.zrodlo)}.` : ''}</p>` : ''}`;
+  const otworz = (el) => { const [sid, i] = el.dataset.chr.split('|'); pokazDate(A, sid, Number(i)); };
+  app.querySelector('.news').addEventListener('click', (e) => { const li = e.target.closest('[data-chr]'); if (li) otworz(li); });
+  app.querySelector('.news').addEventListener('keydown', (e) => { const li = e.target.closest('[data-chr]'); if (li && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); otworz(li); } });
   app.querySelectorAll('.nw-chip').forEach((b) => b.addEventListener('click', () => {
     newsSec = b.dataset.sec; viewAktualnosci();
     app.querySelector('.nw-chip.on')?.scrollIntoView({ inline: 'center', block: 'nearest' });
@@ -2534,6 +2565,42 @@ function viewAktualnosci() {
   const inp = app.querySelector('#news-q');
   let tm;
   inp.addEventListener('input', () => { clearTimeout(tm); tm = setTimeout(() => { newsQ = inp.value; const pos = inp.selectionStart; viewAktualnosci(); const n = app.querySelector('#news-q'); n.focus(); n.setSelectionRange(pos, pos); }, 200); });
+}
+
+// Okienko z krótkim omówieniem daty (chronologia). Strzałki: poprzednia / następna data w tej samej epoce.
+function pokazDate(A, sid, i) {
+  const sec = A.sekcje.find((x) => x.id === sid);
+  const r = sec?.wiersze[i];
+  if (!r) return;
+  document.querySelector('.chr-layer')?.remove();
+  const prevKey = keyHandler;
+  const layer = document.createElement('div');
+  layer.className = 'chr-layer';
+  const zamknij = () => { layer.remove(); keyHandler = prevKey; };
+  const sasiad = (d) => { let j = i + d; while (sec.wiersze[j] && !sec.wiersze[j][2]) j += d; return sec.wiersze[j] ? j : null; };
+  const pj = sasiad(-1), nj = sasiad(1);
+  layer.innerHTML = `<div class="chr-box" role="dialog" aria-modal="true" aria-labelledby="chr-t">
+    <span class="chr-era">${esc(sec.tytul)}</span>
+    <time>${esc(r[0])}</time>
+    <h2 id="chr-t">${esc(r[1].charAt(0).toUpperCase() + r[1].slice(1))}</h2>
+    <p>${esc(r[2])}</p>
+    <div class="chr-nav">
+      <button type="button" class="btn btn-ghost btn-sm" data-j="${pj ?? ''}" ${pj == null ? 'disabled' : ''}>‹ Wcześniej</button>
+      <button type="button" class="btn btn-primary btn-sm" data-act="close">Zamknij</button>
+      <button type="button" class="btn btn-ghost btn-sm" data-j="${nj ?? ''}" ${nj == null ? 'disabled' : ''}>Później ›</button>
+    </div></div>`;
+  layer.addEventListener('click', (e) => {
+    if (e.target === layer || e.target.closest('[data-act="close"]')) return zamknij();
+    const b = e.target.closest('[data-j]');
+    if (b && b.dataset.j !== '') { keyHandler = prevKey; pokazDate(A, sid, Number(b.dataset.j)); }
+  });
+  document.body.appendChild(layer);
+  keyHandler = (e) => {
+    if (e.key === 'Escape') zamknij();
+    else if (e.key === 'ArrowLeft' && pj != null) { keyHandler = prevKey; pokazDate(A, sid, pj); }
+    else if (e.key === 'ArrowRight' && nj != null) { keyHandler = prevKey; pokazDate(A, sid, nj); }
+  };
+  layer.querySelector('[data-act="close"]').focus();
 }
 
 // ---------- profil, logowanie i wybór przedmiotu ----------
@@ -2583,28 +2650,45 @@ function afterProfileChange() {
   if (dostep.wlaczone()) zaladujTresci().then(route).catch((e) => toast(e.message)); // inne konto = inny dostęp
 }
 
-// Ekran logowania: wybór profilu na urządzeniu albo logowanie e-mailem (gdy konta są włączone).
+// Ekran logowania. Z kontami w chmurze: założenie konta (imię, e-mail, hasło ×2) albo logowanie hasłem
+// lub linkiem z e-maila. Profile tylko na urządzeniu zostają jako opcja „bez konta”.
+let gateTab = 'up';
 function viewKonto() {
   document.body.classList.add('in-gate');
   const list = store.profileList();
-  app.innerHTML = `<section class="gate">
-    <div class="gate-brand">${BRAND_NAME}<span class="eyebrow">Matura rozszerzona · kursy autorskie</span></div>
-    <h1 class="gate-title">Kto się uczy?</h1>
-    <div class="who">${list.map((p) => `<button type="button" class="who-item" data-pid="${esc(p.id)}">${avatar(p, true)}<span>${esc(p.name)}</span></button>`).join('')}
+  const lokalne = `<div class="who">${list.map((p) => `<button type="button" class="who-item" data-pid="${esc(p.id)}">${avatar(p, true)}<span>${esc(p.name)}</span></button>`).join('')}
       <button type="button" class="who-item" data-act="new"><span class="avatar avatar-lg avatar-add" aria-hidden="true">+</span><span>Nowy</span></button></div>
     <form class="gate-form" id="new-form" hidden>
       <input class="type-input" name="name" maxlength="30" placeholder="Imię" aria-label="Imię" autocomplete="given-name" required>
       <button type="submit" class="btn btn-primary btn-lg">Utwórz profil</button>
-    </form>
-    ${cloud.enabled() ? `<button type="button" class="link-btn" data-act="email">Zaloguj się e-mailem</button>
-    <form class="gate-form" id="acc-form" hidden novalidate>
-      <input class="type-input" name="email" type="email" autocomplete="email" placeholder="E-mail" aria-label="E-mail">
-      <input class="type-input" name="pass" type="password" autocomplete="current-password" placeholder="Hasło" aria-label="Hasło">
-      <button type="submit" class="btn btn-primary btn-lg" data-mode="in">Zaloguj się</button>
-      <button type="submit" class="link-btn" data-mode="up">Nie mam konta — załóż</button>
-    </form>` : ''}
-    ${gateMsg ? `<p class="acc-msg" role="status">${esc(gateMsg)}</p>` : ''}
-  </section>`;
+    </form>`;
+  const msg = gateMsg ? `<p class="acc-msg" role="status">${esc(gateMsg)}</p>` : '';
+  if (!cloud.enabled()) {
+    app.innerHTML = `<section class="gate">
+      <div class="gate-brand">${BRAND_NAME}<span class="eyebrow">Matura rozszerzona · kursy autorskie</span></div>
+      <h1 class="gate-title">Kto się uczy?</h1>${lokalne}${msg}</section>`;
+  } else {
+    const up = gateTab === 'up';
+    app.innerHTML = `<section class="gate gate-acc">
+      <div class="gate-brand">${BRAND_NAME}<span class="eyebrow">Matura rozszerzona · kursy autorskie</span></div>
+      <h1 class="gate-title">${up ? 'Załóż konto' : 'Zaloguj się'}</h1>
+      <div class="segmented gate-tabs" role="tablist">
+        <button type="button" role="tab" aria-selected="${up}" class="${up ? 'active' : ''}" data-tab="up">Nowe konto</button>
+        <button type="button" role="tab" aria-selected="${!up}" class="${up ? '' : 'active'}" data-tab="in">Mam konto</button>
+      </div>
+      <form class="gate-form" id="acc-form" novalidate>
+        ${up ? '<input class="type-input" name="imie" maxlength="30" autocomplete="given-name" placeholder="Imię" aria-label="Imię">' : ''}
+        <input class="type-input" name="email" type="email" autocomplete="email" placeholder="E-mail" aria-label="E-mail">
+        <input class="type-input" name="pass" type="password" autocomplete="${up ? 'new-password' : 'current-password'}" placeholder="${up ? 'Hasło (min. 8 znaków)' : 'Hasło'}" aria-label="Hasło">
+        ${up ? '<input class="type-input" name="pass2" type="password" autocomplete="new-password" placeholder="Powtórz hasło" aria-label="Powtórz hasło">' : ''}
+        <button type="submit" class="btn btn-primary btn-lg">${up ? 'Załóż konto' : 'Zaloguj się'}</button>
+        <button type="button" class="link-btn" data-act="magic">${up ? 'Wolisz bez hasła? Wyślij link na e-mail' : 'Nie pamiętasz hasła? Zaloguj się linkiem z e-maila'}</button>
+      </form>
+      ${msg}
+      <p class="muted small gate-note">Zakupy przypisujemy do adresu e-mail konta — dostęp działa na każdym urządzeniu.</p>
+      <details class="gate-local"><summary>Ucz się bez konta (tylko na tym urządzeniu)</summary>${lokalne}</details>
+    </section>`;
+  }
   gateMsg = '';
   const enter = (id) => { store.login(id); afterProfileChange(); location.hash = '#/przedmiot'; if (location.hash === '#/przedmiot') route(); };
   app.querySelector('.who').addEventListener('click', (e) => {
@@ -2618,34 +2702,60 @@ function viewKonto() {
     if (!name) return;
     enter(store.createProfile(name).id);
   });
-  app.querySelector('[data-act="email"]')?.addEventListener('click', () => { const f = app.querySelector('#acc-form'); f.hidden = false; f.email.focus(); });
+  app.querySelectorAll('.gate-tabs [data-tab]').forEach((b) => b.addEventListener('click', () => { gateTab = b.dataset.tab; viewKonto(); }));
   const form = app.querySelector('#acc-form');
-  if (form) {
-    let mode = 'in';
-    form.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => (mode = b.dataset.mode)));
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      const email = form.email.value.trim().toLowerCase();
-      const pass = form.pass.value;
-      const fail = (m) => { gateMsg = m; viewKonto(); };
-      if (!/^\S+@\S+\.\S+$/.test(email)) return fail('Podaj poprawny adres e-mail.');
-      if (pass.length < 6) return fail('Hasło musi mieć co najmniej 6 znaków.');
-      form.querySelectorAll('button').forEach((b) => (b.disabled = true));
-      const prev = store.activeProfile().id;
-      const p = store.profileList().find((x) => x.cloud?.email === email) || store.createProfile(email.split('@')[0]);
-      store.switchProfile(p.id);
-      try {
-        if (mode === 'up') {
-          const r = await cloud.signUp(email, pass);
-          if (r.confirm) { store.switchProfile(prev); return fail('Kliknij link w wiadomości e-mail, a potem zaloguj się.'); }
-        } else await cloud.signIn(email, pass);
-        enter(p.id);
-      } catch (err) {
-        if (!p.cloud && !store.get().updatedAt) store.deleteProfile(p.id);
-        store.switchProfile(prev);
-        fail(err.message);
-      }
-    });
+  if (!form) return;
+  const fail = (m) => { gateMsg = m; viewKonto(); };
+  form.querySelector('[data-act="magic"]').addEventListener('click', async (e) => {
+    const email = form.email.value.trim().toLowerCase();
+    if (!/^\S+@\S+\.\S+$/.test(email)) { form.email.focus(); return toast('Wpisz najpierw swój e-mail.'); }
+    e.target.disabled = true;
+    try { await cloud.sendMagicLink(email); fail(`Wysłaliśmy link logowania na ${email}. Otwórz go na tym urządzeniu.`); }
+    catch (err) { fail(err.message); }
+  });
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const up = gateTab === 'up';
+    const email = form.email.value.trim().toLowerCase();
+    const pass = form.pass.value;
+    const imie = up ? form.imie.value.trim() : '';
+    if (up && !imie) return fail('Podaj imię.');
+    if (!/^\S+@\S+\.\S+$/.test(email)) return fail('Podaj poprawny adres e-mail.');
+    if (pass.length < (up ? 8 : 6)) return fail(up ? 'Hasło musi mieć co najmniej 8 znaków.' : 'Wpisz hasło.');
+    if (up && pass !== form.pass2.value) return fail('Hasła nie są takie same.');
+    form.querySelectorAll('button').forEach((b) => (b.disabled = true));
+    const prev = store.activeProfile().id;
+    const p = store.profileList().find((x) => x.cloud?.email === email) || store.createProfile(imie || email.split('@')[0]);
+    store.switchProfile(p.id);
+    try {
+      if (up) {
+        const r = await cloud.signUp(email, pass, imie);
+        if (r.confirm) { store.switchProfile(prev); gateTab = 'in'; return fail('Gotowe! Kliknij link w wiadomości e-mail, aby potwierdzić konto, a potem zaloguj się.'); }
+      } else await cloud.signIn(email, pass);
+      const im = cloud.account()?.imie;
+      if (im && p.name === email.split('@')[0]) store.renameProfile(p.id, im);
+      enter(p.id);
+    } catch (err) {
+      if (!p.cloud && !store.get().updatedAt) store.deleteProfile(p.id);
+      store.switchProfile(prev);
+      fail(err.message);
+    }
+  });
+}
+
+// Powrót z linku logowania wysłanego e-mailem.
+async function poLinkuZMaila() {
+  const t = cloud.enabled() && cloud.redirectTokens();
+  if (!t) return;
+  try {
+    const user = await cloud.userFrom(t);
+    const p = store.profileList().find((x) => x.cloud?.email === user.email) || store.createProfile(user.user_metadata?.imie || user.email.split('@')[0]);
+    store.switchProfile(p.id);
+    await cloud.adoptSession(t, user);
+    store.login(p.id);
+    toast('Zalogowano.');
+  } catch {
+    gateMsg = 'Link logowania wygasł albo był już użyty — wyślij nowy.';
   }
 }
 
@@ -2656,8 +2766,16 @@ function viewPrzedmiot() {
   app.innerHTML = `<section class="gate">
     <div class="gate-who">${avatar(store.activeProfile())}<span>${esc(store.activeProfile().name)}</span></div>
     <h1 class="gate-title">Twoje kursy</h1>
-    <div class="subj-grid">${subjects.map((s) => `<button type="button" class="subj-tile ${s.id === cur ? 'active' : ''}" data-sid="${esc(s.id)}" aria-label="${esc(s.nazwa)}">
-        <span class="subj-icon">${subjectIcon(s)}</span><span class="subj-name">${esc(s.skrot || s.nazwa)}</span></button>`).join('')}</div>
+    <p class="muted gate-sub">Wybierz przedmiot — możesz go zmienić w każdej chwili.</p>
+    <div class="subj-grid">${subjects.map((s) => {
+      const dni = s.egzamin ? Math.ceil((new Date(s.egzamin + 'T09:00') - Date.now()) / DAY) : null;
+      const sm = !s.szkielet && s.dzialy.length ? summary(s.id, allUnits(s), 0) : null;
+      return `<button type="button" class="subj-tile ${s.id === cur ? 'active' : ''}" data-sid="${esc(s.id)}">
+        <span class="subj-icon">${subjectIcon(s)}</span>
+        <span class="subj-body"><span class="subj-name">${esc(s.nazwa)}</span>
+          <small>Matura rozszerzona${dni > 0 ? ` · egzamin za ${dni} ${plural(dni, 'dzień', 'dni', 'dni')}` : ''}</small>
+          ${sm ? `<span class="subj-prog"><span class="core-mini"><i style="width:${sm.progress * 100}%"></i></span><b>${pct(sm.progress)}%</b></span>` : ''}</span>
+        ${s.id === cur ? '<span class="subj-badge">Twój kurs</span>' : ICONS.next}</button>`; }).join('')}</div>
     <button type="button" class="link-btn" data-act="logout">Zmień profil</button>
   </section>`;
   app.querySelector('.subj-grid').addEventListener('click', (e) => {
@@ -2984,8 +3102,19 @@ function viewSettings() {
       <h2 class="card-title">Strefa ryzyka</h2>
       <div class="actions">
         <button type="button" class="btn btn-danger btn-lg" data-act="reset">Wyzeruj postępy tego profilu</button>
-        <button type="button" class="btn btn-danger btn-lg" data-act="delprof">Usuń ten profil z urządzenia</button>
       </div>
+    </section>
+
+    <section class="card del-acc">
+      <h2 class="card-title">Usuń konto</h2>
+      <p class="muted">${cloud.account() ? `Usuniemy konto <b>${esc(cloud.account().email)}</b>: postępy na serwerze i na tym urządzeniu, wyniki i przypisany dostęp. Tego nie da się cofnąć.` : 'Usuniemy ten profil i wszystkie jego postępy z tego urządzenia. Tego nie da się cofnąć.'}</p>
+      <button type="button" class="btn btn-danger btn-lg" data-act="del-open">Usuń konto</button>
+      <form class="del-confirm" hidden>
+        ${cloud.account() && dostep.aktywny() ? '<p class="acc-msg">Masz aktywną subskrypcję — najpierw anuluj ją w „Plany i płatności”, inaczej płatności będą dalej pobierane.</p>' : ''}
+        <label class="muted small" for="del-word">Aby potwierdzić, wpisz <b>USUŃ</b></label>
+        <input class="type-input" id="del-word" autocomplete="off" aria-label="Wpisz USUŃ">
+        <div class="actions"><button type="button" class="btn btn-ghost btn-lg" data-act="del-cancel">Anuluj</button><button type="submit" class="btn btn-danger btn-lg" disabled>Usuń na zawsze</button></div>
+      </form>
     </section>
 
     <section class="card about">
@@ -3032,11 +3161,26 @@ function viewSettings() {
     try { await navigator.clipboard.writeText(REPORT_EMAIL); toast('Adres skopiowany.'); } catch { toast(REPORT_EMAIL); }
   });
   app.querySelector('[data-act="rename"]').addEventListener('click', () => { store.renameProfile(store.activeProfile().id, app.querySelector('#pname').value); toast('Zapisano nazwę profilu.'); });
-  app.querySelector('[data-act="delprof"]')?.addEventListener('click', () => {
-    if (!confirm('Usunąć ten profil i jego postępy z tego urządzenia?')) return;
-    store.deleteProfile(store.activeProfile().id);
-    store.logout();
-    location.hash = '#/konto';
+  const del = app.querySelector('.del-confirm');
+  const delWord = del.querySelector('#del-word');
+  app.querySelector('[data-act="del-open"]').addEventListener('click', (e) => { del.hidden = false; e.target.hidden = true; delWord.focus(); });
+  del.querySelector('[data-act="del-cancel"]').addEventListener('click', () => viewSettings());
+  delWord.addEventListener('input', () => { del.querySelector('[type="submit"]').disabled = norm(delWord.value) !== 'usun'; });
+  del.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (norm(delWord.value) !== 'usun') return;
+    del.querySelectorAll('button').forEach((b) => (b.disabled = true));
+    try {
+      if (cloud.account()) await cloud.deleteAccount();
+      store.deleteProfile(store.activeProfile().id);
+      store.logout();
+      session = test = zs = lesson = null;
+      gateMsg = 'Konto zostało usunięte.';
+      location.hash = '#/konto';
+    } catch (err) {
+      toast(err.message);
+      del.querySelectorAll('button').forEach((b) => (b.disabled = false));
+    }
   });
   app.querySelector('[data-act="install"]')?.addEventListener('click', promptInstall);
   app.querySelector('[data-act="export"]').addEventListener('click', () => {
@@ -3135,6 +3279,7 @@ const routes = [
   [/^#\/powtorka$/, viewPowtorka],
   [/^#\/diagnoza$/, viewDiagnoza],
   [/^#\/prognoza$/, viewPrognoza],
+  [/^#\/podcast$/, viewPodcast],
   [/^#\/plany(?:\/(ok))?$/, viewPlany],
 ];
 
@@ -3145,6 +3290,7 @@ function route() {
   lastHash = hash;
   keyHandler = null;
   document.querySelector('.report-layer')?.remove();
+  document.querySelector('.chr-layer')?.remove();
   document.body.classList.remove('in-session', 'in-lesson', 'in-gate');
   if (!hash.startsWith('#/lekcja/') && !hash.startsWith('#/bledy/')) lesson = null;
   if (!hash.startsWith('#/fiszki/')) session = null;
@@ -3165,7 +3311,7 @@ function route() {
   const tab = /^#\/(statystyki|profil|ustawienia)/.test(hash) ? 'stats'
     : hash.startsWith('#/matura') || hash.startsWith('#/zadania') || hash.startsWith('#/egzamin') ? 'matura'
     : hash.startsWith('#/aktualnosci') ? 'news'
-    : /^#\/(nauka|szukaj|d\/|p\/|lista|fiszki|test|lekcja)/.test(hash) ? 'nauka' : 'home';
+    : /^#\/(nauka|podcast|szukaj|d\/|p\/|lista|fiszki|test|lekcja)/.test(hash) ? 'nauka' : 'home';
   document.querySelectorAll('.tabbar a').forEach((a) => {
     const on = a.dataset.tab === tab;
     a.classList.toggle('active', on);
@@ -3241,6 +3387,7 @@ async function init() {
   game.onChange(onGameEvents);
   cloud.startAutoSync(() => {});
   updateTopStats();
+  await poLinkuZMaila();
   try {
     await startTresci();
     // uczeń z wybranym kursem: poczekaj na jego treść (z pamięci telefonu to ułamek sekundy) — bez ekranu wczytywania

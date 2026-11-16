@@ -41,7 +41,7 @@ function translate(m) {
 }
 
 function sessionFrom(d) {
-  return { email: d.user?.email, uid: d.user?.id, access: d.access_token, refresh: d.refresh_token, exp: Date.now() + (d.expires_in || 3600) * 1000, synced: 0 };
+  return { email: d.user?.email, uid: d.user?.id, imie: d.user?.user_metadata?.imie || '', access: d.access_token, refresh: d.refresh_token, exp: Date.now() + (d.expires_in || 3600) * 1000, synced: 0 };
 }
 
 export const account = () => store.activeProfile()?.cloud || null;
@@ -55,8 +55,8 @@ export async function token() {
   return d.access_token;
 }
 
-export async function signUp(email, password) {
-  const d = await api('/auth/v1/signup', { method: 'POST', body: { email, password } });
+export async function signUp(email, password, imie) {
+  const d = await api('/auth/v1/signup', { method: 'POST', body: { email, password, data: imie ? { imie } : {} } });
   if (!d.access_token) return { confirm: true }; // projekt wymaga potwierdzenia adresu e-mail
   store.setCloud(sessionFrom(d));
   await push();
@@ -68,6 +68,32 @@ export async function signIn(email, password) {
   const d = await api('/auth/v1/token?grant_type=password', { method: 'POST', body: { email, password } });
   store.setCloud(sessionFrom(d));
   return sync();
+}
+
+// Logowanie bez hasła: link wysłany na e-mail (konto zakłada się samo przy pierwszym logowaniu).
+export async function sendMagicLink(email) {
+  const back = location.origin + location.pathname;
+  await api(`/auth/v1/otp?redirect_to=${encodeURIComponent(back)}`, { method: 'POST', body: { email, create_user: true } });
+}
+
+// Powrót z linku w e-mailu: Supabase dopisuje tokeny do adresu (#access_token=…). Zwraca e-mail albo null.
+export function redirectTokens() {
+  const h = location.hash;
+  if (!/access_token=/.test(h)) return null;
+  const q = new URLSearchParams(h.replace(/^#\/?/, ''));
+  history.replaceState(null, '', location.pathname + location.search + '#/');
+  return { access_token: q.get('access_token'), refresh_token: q.get('refresh_token'), expires_in: Number(q.get('expires_in')) || 3600 };
+}
+export const userFrom = (t) => api('/auth/v1/user', { token: t.access_token });
+export async function adoptSession(t, user) {
+  store.setCloud(sessionFrom({ ...t, user }));
+  await sync();
+}
+
+// Usunięcie konta: funkcja w bazie kasuje użytkownika (a z nim postępy i dostęp — „on delete cascade”).
+export async function deleteAccount() {
+  await api('/rest/v1/rpc/usun_konto', { method: 'POST', token: await token(), body: {} });
+  store.setCloud(null);
 }
 
 export async function signOut() {
