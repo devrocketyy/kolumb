@@ -66,3 +66,27 @@ export async function pobierzTresci() {
     throw e;
   }
 }
+
+// Program poleceń
+export async function mojePolecenia() {
+  const token = await cloud.tokenOrNull();
+  if (!token) return null;
+  return cloud.api('/rest/v1/rpc/moj_kod_polecajacy', { method: 'POST', token, body: {} });
+}
+export async function dodajPolecenie(kod) {
+  const token = await cloud.tokenOrNull();
+  if (!token) throw new Error('Najpierw zaloguj się.');
+  await cloud.api('/rest/v1/rpc/uzyj_polecenia', { method: 'POST', token, body: { kod } });
+}
+// Kod z linku polecającego (?ref=KOD) czeka w przeglądarce, aż uczeń założy konto.
+const REF = 'ixl-ref';
+export function zapamietajRef() {
+  const m = location.search.match(/[?&]ref=([A-Za-z0-9]{4,12})/);
+  if (m) { try { localStorage.setItem(REF, m[1].toUpperCase()); } catch { /* brak pamięci */ } history.replaceState(null, '', location.pathname + location.hash); }
+}
+export const czekajacyRef = () => { try { return localStorage.getItem(REF) || ''; } catch { return ''; } };
+export async function wykorzystajRef(kod = czekajacyRef()) {
+  if (!kod || !cloud.account()) return null;
+  try { await dodajPolecenie(kod); localStorage.removeItem(REF); return 'ok'; }
+  catch (e) { if (!/połączenia|fetch/i.test(e.message)) try { localStorage.removeItem(REF); } catch { /* */ } return e.message; }
+}

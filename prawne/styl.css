@@ -1,0 +1,21 @@
+@font-face { font-family: "Inter IL"; src: url("../fonty/inter-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Inter IL"; src: url("../fonty/inter-latin-ext-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-display: swap;
+  unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20C0; }
+:root { --bg: #F1F2F1; --surface: #fff; --text: #111; --text-2: #5E615E; --border: #E2E3E2; color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0B0B0B; --surface: #141414; --text: #EDEEED; --text-2: #9EA19E; --border: #262726; color-scheme: dark; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 "Inter IL", system-ui, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 32px max(18px, env(safe-area-inset-left, 0px)) 64px; }
+.top { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 28px; }
+.top a { color: var(--text); font-weight: 600; text-decoration: none; }
+.top a:hover { text-decoration: underline; }
+.logo { font-weight: 800; font-size: 1.2rem; letter-spacing: -.03em; }
+h1 { font-size: clamp(1.7rem, 4vw, 2.3rem); letter-spacing: -.03em; line-height: 1.15; margin: 0 0 6px; }
+.meta { color: var(--text-2); margin: 0 0 28px; }
+section { background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 22px 24px; margin-bottom: 14px; }
+h2 { font-size: 1.08rem; margin: 0 0 10px; letter-spacing: -.01em; }
+p, li { margin: 0 0 8px; }
+ol, ul { padding-left: 22px; margin: 0; }
+li::marker { color: var(--text-2); }
+a { color: inherit; }
+.uw { color: var(--text-2); font-size: .92rem; }

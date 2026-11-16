@@ -1098,6 +1098,7 @@ function viewNauka() {
       <a class="plan-tile" href="${nextTasksHref(s)}"><b>${zDone}<small>/${zad.length}</small></b><span>zadań</span></a>
     </div>
     <a class="card rev-link" href="#/powtorka"><span class="quest-icon">${ICONS.redo}</span><span class="plan-text"><strong>Własna powtórka</strong><small>Wybierz tematy i powtarzaj, co chcesz</small></span>${ICONS.next}</a>
+    ${wydarzeniaChronologii(s).length ? `<a class="card rev-link" href="#/os-czasu"><span class="quest-icon">${ICONS.clock}</span><span class="plan-text"><strong>Oś czasu</strong><small>Gra: ułóż wydarzenia od najstarszego</small></span>${ICONS.next}</a>` : ''}
     <a class="card rev-link" href="#/podcast"><span class="quest-icon">${ICONS.play}</span><span class="plan-text"><strong>Podcast IndexLab</strong><small>Słuchaj tematów w drodze do szkoły</small></span>${ICONS.next}</a>
     <div class="route" data-sid="${esc(s.id)}">${pathHtml(s, rec)}</div>`;
   bindSubjSwitch(viewNauka);
@@ -2570,6 +2571,116 @@ function viewPodcast() {
     </div></section>`).join('')}`;
 }
 
+// ---------- gra „Oś czasu”: ułóż wydarzenia od najstarszego ----------
+const RZYM = { I: 1, V: 5, X: 10, L: 50, C: 100 };
+const zRzymskiej = (r) => [...r].reduce((a, c, i, t) => (RZYM[c] < (RZYM[t[i + 1]] || 0) ? a - RZYM[c] : a + RZYM[c]), 0);
+// Data z chronologii → liczba do sortowania (rok + ułamek roku). Obsługuje „ok. 3500–3200 p.n.e.”, „XVIII w. p.n.e.”,
+// „15 III 44 p.n.e.”, „IV–V 1940”, „1337–1453”, „6 i 9 VIII 1945”.
+function kluczDaty(t) {
+  const pne = /p\.\s?n\.\s?e\./.test(t);
+  const zn = (y) => (pne ? -y : y);
+  let m = t.match(/\b([IVXL]+) w\./);
+  if (m) return zn((zRzymskiej(m[1]) - 1) * 100 + 50);
+  m = t.match(/(\d{1,2}) ([IVX]+) (\d{1,4})/);
+  if (m) return zn(Number(m[3])) + (zRzymskiej(m[2]) - 1) / 12 + Number(m[1]) / 400;
+  m = t.match(/\b([IVX]+)(?:–[IVX]+)? (\d{3,4})\b/);
+  if (m) return zn(Number(m[2])) + (zRzymskiej(m[1]) - 1) / 12;
+  m = t.match(/(\d{1,4})/);
+  return m ? zn(Number(m[1])) : null;
+}
+function wydarzeniaChronologii(s) {
+  const A = s.aktualnosci;
+  if (!A?.sekcje?.[0]?.kolumny || A.sekcje[0].kolumny[0] !== 'Data') return [];
+  return A.sekcje.flatMap((sec) => sec.wiersze.map((r, i) => ({ sid: sec.id, era: sec.tytul, i, data: r[0], tekst: r[1], k: kluczDaty(r[0]) })))
+    .filter((e) => e.k != null);
+}
+const OS_RUNDY = 6, OS_KART = 4;
+let os = null;
+function nowaRunda(pula) {
+  for (let proba = 0; proba < 50; proba++) {
+    const wyb = [];
+    for (const e of shuffle(pula)) {
+      if (wyb.some((w) => Math.floor(w.k) === Math.floor(e.k) || w.tekst === e.tekst)) continue;
+      wyb.push(e);
+      if (wyb.length === OS_KART) return wyb;
+    }
+  }
+  return shuffle(pula).slice(0, OS_KART);
+}
+function viewOsCzasu() {
+  const s = currentSubject();
+  const wszystkie = s ? wydarzeniaChronologii(s) : [];
+  if (!wszystkie.length) return notFound();
+  const ery = [...new Map(wszystkie.map((e) => [e.sid, e.era])).entries()];
+  if (!os || os.s !== s.id) os = { s: s.id, era: '', faza: 'start' };
+  const pula = () => (os.era ? wszystkie.filter((e) => e.sid === os.era) : wszystkie);
+  const start = () => { Object.assign(os, { faza: 'gra', runda: 1, pkt: 0, idealne: 0, karty: nowaRunda(pula()), wybor: [], sprawdzone: false }); viewOsCzasu(); };
+  const najlepszy = store.get().settings.osCzasuRekord?.[s.id] || 0;
+  if (os.faza === 'start') {
+    app.innerHTML = `${pageHead('Oś czasu', '#/nauka', s.nazwa)}
+      <section class="card os-intro"><div class="os-demo">${['1410', '1569', '1791', '1918'].map((y, i) => `<span style="--i:${i}">${y}</span>`).join('')}</div>
+        <h2 class="card-title">Ułóż wydarzenia od najstarszego</h2>
+        <p class="muted">${OS_RUNDY} rund po ${OS_KART} wydarzenia. Dotykaj kart po kolei — od najdawniejszego do najnowszego. Każda dobrze ustawiona karta to punkt.</p>
+        ${najlepszy ? `<p class="muted small">Twój rekord: <b>${najlepszy} / ${OS_RUNDY * OS_KART}</b></p>` : ''}</section>
+      <section class="card"><h2 class="card-title">Epoka</h2><div class="nw-chips os-ery">
+        <button type="button" class="nw-chip ${os.era ? '' : 'on'}" data-era="">Wszystkie</button>
+        ${ery.map(([id, t]) => `<button type="button" class="nw-chip ${os.era === id ? 'on' : ''}" data-era="${esc(id)}">${esc(t)}</button>`).join('')}</div></section>
+      <button type="button" class="btn btn-primary btn-lg" data-act="start">Graj</button>`;
+    app.querySelectorAll('[data-era]').forEach((b) => b.addEventListener('click', () => { os.era = b.dataset.era; viewOsCzasu(); }));
+    app.querySelector('[data-act="start"]').addEventListener('click', start);
+    return;
+  }
+  if (os.faza === 'koniec') {
+    const max = OS_RUNDY * OS_KART;
+    const st = store.get().settings;
+    const rekord = os.pkt > najlepszy;
+    if (rekord && !os.zapisany) { st.osCzasuRekord = { ...(st.osCzasuRekord || {}), [s.id]: os.pkt }; store.save(); }
+    if (!os.zapisany) { game.award(os.pkt * 2 + os.idealne * 3); os.zapisany = true; }
+    app.innerHTML = `<div class="session-top"><a class="icon-btn" href="#/nauka" aria-label="Zamknij">${ICONS.close}</a></div>
+      <section class="result"><p class="eyebrow">Oś czasu</p>
+        <div class="prog-nums big"><div><b>${os.pkt}<small>/${max}</small></b><small>dobrze ustawionych</small></div><div><b>${os.idealne}<small>/${OS_RUNDY}</small></b><small>idealnych rund</small></div></div>
+        <p class="lead">${rekord ? 'Nowy rekord!' : os.pkt >= max * 0.8 ? 'Świetna orientacja w czasie.' : os.pkt >= max * 0.5 ? 'Nieźle — powtórz daty, które się pomyliły.' : 'Warto przejrzeć chronologię i spróbować jeszcze raz.'} +${os.pkt * 2 + os.idealne * 3} XP</p></section>
+      <div class="actions"><button type="button" class="btn btn-primary btn-lg" data-act="again">Jeszcze raz</button><a class="btn btn-ghost btn-lg" href="#/aktualnosci">Chronologia</a></div>`;
+    app.querySelector('[data-act="again"]').addEventListener('click', () => { os.zapisany = false; start(); });
+    return;
+  }
+  const { karty, wybor, sprawdzone } = os;
+  const poprawna = [...karty].sort((a, b) => a.k - b.k);
+  document.body.classList.add('in-session');
+  app.innerHTML = `<div class="session-top"><a class="icon-btn" href="#/nauka" aria-label="Zakończ">${ICONS.close}</a>
+      <div class="progress"><i style="width:${((os.runda - 1 + (sprawdzone ? 1 : 0)) / OS_RUNDY) * 100}%"></i></div><span class="os-pkt">${os.pkt} pkt</span></div>
+    <h1 class="os-q">${sprawdzone ? 'Prawidłowa kolejność' : wybor.length ? 'Co było potem?' : 'Co wydarzyło się najwcześniej?'}</h1>
+    <div class="os-karty">${(sprawdzone ? poprawna : karty).map((e) => {
+      const nr = wybor.indexOf(e);
+      const ok = sprawdzone && poprawna.indexOf(e) === nr;
+      return `<button type="button" class="os-karta ${nr >= 0 ? 'wyb' : ''} ${sprawdzone ? (ok ? 'ok' : 'zle') : ''}" data-i="${karty.indexOf(e)}" ${sprawdzone ? 'disabled' : ''}>
+        <span class="os-nr">${sprawdzone ? poprawna.indexOf(e) + 1 : nr >= 0 ? nr + 1 : ''}</span>
+        <span class="os-t"><b>${esc(e.tekst.charAt(0).toUpperCase() + e.tekst.slice(1))}</b>${sprawdzone ? `<small>${esc(e.data)}${ok ? '' : ` · Twoje miejsce: ${nr + 1}`}</small>` : `<small>${esc(e.era)}</small>`}</span></button>`; }).join('')}</div>
+    <div class="os-foot">${sprawdzone
+      ? `<button type="button" class="btn btn-primary btn-lg" data-act="dalej">${os.runda >= OS_RUNDY ? 'Wynik' : 'Dalej'}</button>`
+      : `<button type="button" class="btn btn-ghost btn-lg" data-act="cofnij" ${wybor.length ? '' : 'disabled'}>Cofnij</button>`}</div>`;
+  app.querySelectorAll('.os-karta:not([disabled])').forEach((b) => b.addEventListener('click', () => {
+    const e = karty[Number(b.dataset.i)];
+    if (wybor.includes(e)) { if (wybor[wybor.length - 1] === e) wybor.pop(); }
+    else wybor.push(e);
+    game.sound('tap');
+    if (wybor.length === OS_KART) {
+      const dobre = wybor.filter((x, i) => poprawna[i] === x).length;
+      os.pkt += dobre; if (dobre === OS_KART) os.idealne++;
+      os.sprawdzone = true;
+      game.sound(dobre === OS_KART ? 'ok' : 'bad');
+    }
+    viewOsCzasu();
+  }));
+  app.querySelector('[data-act="cofnij"]')?.addEventListener('click', () => { wybor.pop(); viewOsCzasu(); });
+  app.querySelector('[data-act="dalej"]')?.addEventListener('click', () => {
+    if (os.runda >= OS_RUNDY) os.faza = 'koniec';
+    else Object.assign(os, { runda: os.runda + 1, karty: nowaRunda(pula()), wybor: [], sprawdzone: false });
+    viewOsCzasu();
+  });
+  keyHandler = (e) => { if (e.key === 'Enter') app.querySelector('[data-act="dalej"]')?.click(); };
+}
+
 // ---------- zakładka „Aktualności” ----------
 let newsQ = '';
 let newsSec = '';
@@ -2599,6 +2710,7 @@ function viewAktualnosci() {
   app.innerHTML = `
     ${pageHead(A.nazwa || 'Aktualności', null)}
     <p class="news-meta">${A.stan ? `<span class="nw-pill">Stan na ${esc(A.stan)}</span>` : ''} ${esc(A.podtytul || 'Kto jest kim i najważniejsze wydarzenia')}</p>
+    ${wydarzeniaChronologii(s).length ? `<a class="card rev-link os-link" href="#/os-czasu"><span class="quest-icon">${ICONS.clock}</span><span class="plan-text"><strong>Sprawdź się: Oś czasu</strong><small>Ułóż 4 wydarzenia od najstarszego</small></span>${ICONS.next}</a>` : ''}
     <input class="type-input search-input" id="news-q" type="search" autocomplete="off" placeholder="${esc(A.szukaj || 'Szukaj: RPO, Węgry, MTK…')}" aria-label="Szukaj w aktualnościach" value="${esc(newsQ)}">
     ${q ? '' : `<nav class="nw-chips" aria-label="Sekcje">${A.sekcje.map((x) => `<button type="button" class="nw-chip ${x.id === newsSec ? 'on' : ''}" data-sec="${esc(x.id)}" aria-pressed="${x.id === newsSec}">${esc(x.tytul)}</button>`).join('')}</nav>`}
     <div class="news">${sections.map(({ sec, rows }) => `<section class="nw-sec">
@@ -2746,6 +2858,9 @@ function viewKonto() {
           ${pole('email', 'email', 'E-mail', 'email', 'inputmode="email" spellcheck="false"')}
           ${pole('pass', 'password', 'Hasło', up ? 'new-password' : 'current-password', up ? 'placeholder="co najmniej 8 znaków"' : '')}
           ${up ? pole('pass2', 'password', 'Powtórz hasło', 'new-password') : ''}
+          ${up ? `<details class="auth-ref" ${dostep.czekajacyRef() ? 'open' : ''}><summary>Mam kod polecający od znajomego</summary>
+            <span class="auth-input"><input name="ref" maxlength="12" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="np. K7PX2M" value="${esc(dostep.czekajacyRef())}" aria-label="Kod polecający"></span></details>` : ''}
+          ${up ? `<label class="auth-check"><input type="checkbox" name="zgoda"><span>Akceptuję <a href="prawne/regulamin.html" target="_blank" rel="noopener">Regulamin</a> i <a href="prawne/prywatnosc.html" target="_blank" rel="noopener">Politykę prywatności</a>. Jeśli mam mniej niż 18 lat — mam zgodę rodzica lub opiekuna.</span></label>` : ''}
           ${msg}
           <button type="submit" class="auth-submit">${up ? 'Załóż konto' : 'Zaloguj się'}</button>
           <div class="auth-or"><span>albo</span></div>
@@ -2780,7 +2895,9 @@ function viewKonto() {
   form.querySelector('[data-act="magic"]').addEventListener('click', async (e) => {
     const email = form.email.value.trim().toLowerCase();
     if (!/^\S+@\S+\.\S+$/.test(email)) { form.email.focus(); return toast('Wpisz najpierw swój e-mail.'); }
-    e.target.disabled = true;
+    if (form.zgoda && !form.zgoda.checked) return toast('Zaakceptuj Regulamin i Politykę prywatności.');
+    if (form.ref?.value.trim()) try { localStorage.setItem('ixl-ref', form.ref.value.trim().toUpperCase()); } catch { /* */ }
+    e.currentTarget.disabled = true;
     try { await cloud.sendMagicLink(email); fail(`Wysłaliśmy link logowania na ${email}. Otwórz go na tym urządzeniu.`); }
     catch (err) { fail(err.message); }
   });
@@ -2794,6 +2911,8 @@ function viewKonto() {
     if (!/^\S+@\S+\.\S+$/.test(email)) return fail('Podaj poprawny adres e-mail.');
     if (pass.length < (up ? 8 : 6)) return fail(up ? 'Hasło musi mieć co najmniej 8 znaków.' : 'Wpisz hasło.');
     if (up && pass !== form.pass2.value) return fail('Hasła nie są takie same.');
+    if (up && !form.zgoda.checked) return fail('Zaakceptuj Regulamin i Politykę prywatności, aby założyć konto.');
+    if (up && form.ref?.value.trim()) try { localStorage.setItem('ixl-ref', form.ref.value.trim().toUpperCase()); } catch { /* */ }
     form.querySelectorAll('button').forEach((b) => (b.disabled = true));
     const prev = store.activeProfile().id;
     const p = store.profileList().find((x) => x.cloud?.email === email) || store.createProfile(imie || email.split('@')[0]);
@@ -2805,6 +2924,7 @@ function viewKonto() {
       } else await cloud.signIn(email, pass);
       const im = cloud.account()?.imie;
       if (im && p.name === email.split('@')[0]) store.renameProfile(p.id, im);
+      dostep.wykorzystajRef().then((r) => r && r !== 'ok' && toast(`Kod polecający: ${r}`));
       enter(p.id);
     } catch (err) {
       if (!p.cloud && !store.get().updatedAt) store.deleteProfile(p.id);
@@ -2824,6 +2944,7 @@ async function poLinkuZMaila() {
     store.switchProfile(p.id);
     await cloud.adoptSession(t, user);
     store.login(p.id);
+    dostep.wykorzystajRef();
     toast('Zalogowano.');
   } catch {
     gateMsg = 'Link logowania wygasł albo był już użyty — wyślij nowy.';
@@ -2885,7 +3006,32 @@ function connectHtml(open, intro) {
     </form></details>`;
 }
 
+async function bindPolecenia() {
+  const box = app.querySelector('#polec');
+  if (!box) return;
+  let d;
+  try { d = await dostep.mojePolecenia(); } catch { box.remove(); return; }
+  if (!d || !app.contains(box)) return;
+  const link = `https://app.indexlab.pl/?ref=${d.kod}`;
+  box.innerHTML = `<h2 class="card-title">Poleć znajomym</h2>
+    <p class="muted">Gdy znajomy założy konto z Twoim kodem i kupi dostęp, <b>oboje dostajecie +7 dni</b> nauki gratis.</p>
+    <div class="polec-kod"><span>Twój kod</span><b>${esc(d.kod)}</b></div>
+    <div class="actions"><button type="button" class="btn btn-primary btn-lg" data-act="polec-link">Kopiuj link polecający</button></div>
+    <p class="muted small">${d.polecone ? `Poleciłeś ${d.polecone} ${plural(d.polecone, 'osobę', 'osoby', 'osób')} · nagrodzone: ${d.nagrodzone}` : 'Nikt jeszcze nie skorzystał z Twojego kodu.'}</p>
+    ${d.moje ? `<p class="muted small">Do Twojego konta dodany jest kod: ${esc(d.moje)}.</p>` : `<details class="polec-moje"><summary>Mam kod od znajomego</summary>
+      <form class="pop-row" id="polec-form"><input class="type-input" name="kod" maxlength="12" autocapitalize="characters" autocomplete="off" placeholder="KOD" aria-label="Kod polecający"><button type="submit" class="btn btn-ghost btn-sm">Dodaj</button></form></details>`}`;
+  box.querySelector('[data-act="polec-link"]').addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(link); toast('Link skopiowany — wyślij go znajomym.'); } catch { toast(link); }
+  });
+  box.querySelector('#polec-form')?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    try { await dostep.dodajPolecenie(e.target.kod.value.trim()); toast('Kod dodany. Bonus +7 dni dostaniesz przy pierwszym zakupie.'); bindPolecenia(); }
+    catch (err) { toast(err.message); }
+  });
+}
+
 function bindProfil() {
+  bindPolecenia();
   app.querySelector('[data-act="logout"]').addEventListener('click', async () => {
     store.logout();
     location.hash = '#/konto';
@@ -2959,6 +3105,7 @@ function viewStats() {
   app.innerHTML = `
     ${profileHeadHtml()}
     ${premiumCard()}
+    ${cloud.account() ? '<section class="card polec" id="polec"><h2 class="card-title">Poleć znajomym</h2><p class="muted">Wczytywanie…</p></section>' : ''}
     <section class="card">
       <h2 class="card-title">Aktywność w tym tygodniu</h2>
       <div class="week" role="list">${week.map((w) => `<div class="week-day ${w.xp >= game.goal() ? 'hit' : ''}" role="listitem" aria-label="${wfmt.format(w.t)}: ${w.xp} odpowiedzi">
@@ -3050,6 +3197,7 @@ async function viewPlany(ok) {
           </ul>
         </section>
         ${zalogowany ? '' : connectHtml(true, 'Dostęp przypisujemy do konta e-mail, żeby działał na telefonie, tablecie i komputerze. Twoje dotychczasowe postępy zostaną zachowane.')}
+        ${zalogowany ? `<label class="auth-check zgoda-kup"><input type="checkbox" id="zgoda-kup"><span>Chcę mieć dostęp od razu. Wiem, że po rozpoczęciu dostarczania treści tracę prawo odstąpienia od umowy w ciągu 14 dni (<a href="prawne/regulamin.html#odstapienie" target="_blank" rel="noopener">§ 7 Regulaminu</a>).</span></label>` : ''}
         <div class="plany">${dostep.plany().map((p) => `<section class="card plan-oferta ${p.polecany ? 'polecany' : ''}">
           ${p.polecany ? '<span class="eyebrow">Najczęściej wybierany</span>' : ''}
           <h2 class="card-title">${esc(p.nazwa)}</h2>
@@ -3066,6 +3214,8 @@ async function viewPlany(ok) {
       <p class="muted small">Płatności obsługuje Stripe — IndexLab nie widzi danych Twojej karty. Subskrypcję anulujesz w każdej chwili w „Zarządzaj płatnościami”.</p>`;
     bindConnect(() => viewPlany());
     app.querySelectorAll('[data-kup]').forEach((b) => b.addEventListener('click', async () => {
+      const z = app.querySelector('#zgoda-kup');
+      if (z && !z.checked) { z.closest('label').classList.add('shake'); setTimeout(() => z.closest('label').classList.remove('shake'), 500); return toast('Zaznacz zgodę na natychmiastowy dostęp.'); }
       b.disabled = true;
       try { await dostep.kup(b.dataset.kup); } catch (e) { b.disabled = false; toast(e.message); }
     }));
@@ -3195,6 +3345,7 @@ function viewSettings() {
       <div class="actions">
         <button type="button" class="btn btn-primary btn-lg" data-act="copy-mail">Kopiuj adres e-mail</button>
       </div>
+      <p class="legal-links"><a href="prawne/regulamin.html" target="_blank" rel="noopener">Regulamin</a> · <a href="prawne/prywatnosc.html" target="_blank" rel="noopener">Polityka prywatności</a></p>
       <p class="muted small">Zadania z arkuszy CKE pochodzą z egzaminów maturalnych Centralnej Komisji Egzaminacyjnej i są oznaczone źródłem. Fiszki, lekcje, omówienia i zadania autorskie przygotowuje IndexLab. Aplikacja nie jest związana z CKE.</p>
     </section>`;
 
@@ -3351,6 +3502,7 @@ const routes = [
   [/^#\/diagnoza$/, viewDiagnoza],
   [/^#\/prognoza$/, viewPrognoza],
   [/^#\/podcast$/, viewPodcast],
+  [/^#\/os-czasu$/, viewOsCzasu],
   [/^#\/plany(?:\/(ok))?$/, viewPlany],
 ];
 
@@ -3366,6 +3518,7 @@ function route() {
   if (!hash.startsWith('#/lekcja/') && !hash.startsWith('#/bledy/')) lesson = null;
   if (!hash.startsWith('#/fiszki/')) session = null;
   if (!hash.startsWith('#/test/')) test = null;
+  if (!hash.startsWith('#/os-czasu')) os = null;
   if (!hash.startsWith('#/zadania/')) zs = null;
   if (!hash.startsWith('#/egzamin/')) clearInterval(examTimer);
 
@@ -3382,7 +3535,7 @@ function route() {
   const tab = /^#\/(statystyki|profil|ustawienia)/.test(hash) ? 'stats'
     : hash.startsWith('#/matura') || hash.startsWith('#/zadania') || hash.startsWith('#/egzamin') ? 'matura'
     : hash.startsWith('#/aktualnosci') ? 'news'
-    : /^#\/(nauka|podcast|szukaj|d\/|p\/|lista|fiszki|test|lekcja)/.test(hash) ? 'nauka' : 'home';
+    : /^#\/(nauka|podcast|os-czasu|szukaj|d\/|p\/|lista|fiszki|test|lekcja)/.test(hash) ? 'nauka' : 'home';
   document.querySelectorAll('.tabbar a').forEach((a) => {
     const on = a.dataset.tab === tab;
     a.classList.toggle('active', on);
@@ -3458,6 +3611,7 @@ async function init() {
   game.onChange(onGameEvents);
   cloud.startAutoSync(() => {});
   updateTopStats();
+  dostep.zapamietajRef();
   await poLinkuZMaila();
   try {
     await startTresci();

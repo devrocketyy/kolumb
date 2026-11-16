@@ -225,3 +225,16 @@ Kupić można tylko będąc zalogowanym. Funkcja `checkout` przekazuje do Stripe
 To pewniejsze niż dopasowywanie po samym adresie e-mail. Uczeń może w formularzu płatności wpisać inny mail, zrobić literówkę albo kupić dla siebie z karty rodzica. Wtedy dostęp i tak trafi do właściwego konta.
 
 E-mail zostaje w Stripe do faktur i kontaktu. Na zakupy poza aplikacją (np. Naffy) są kody dostępu wpisywane w aplikacji.
+
+## Aktualizacja: program poleceń, regulamin i polityka prywatności
+1. SQL Editor → uruchom `supabase/migrations/003_polecenia.sql` (jak poprzednie: skopiuj → New query → Run → „Success”).
+2. Funkcję `stripe-webhook` wdróż ponownie przy konfiguracji Stripe (nagroda +7 dni nalicza się po zakupie).
+3. Uzupełnij w `prawne/regulamin.html` i `prawne/prywatnosc.html`:
+   - `[IMIĘ I NAZWISKO]` — Twoje imię i nazwisko;
+   - `[ADRES]` — adres do korespondencji;
+   - `[DATA WEJŚCIA W ŻYCIE]` — dzień publikacji.
+   Dokumenty są pod adresami app.indexlab.pl/prawne/regulamin.html i /prawne/prywatnosc.html.
+
+Link polecający ma postać `https://app.indexlab.pl/?ref=KOD`. Kod zapamiętuje się w przeglądarce i dodaje do konta przy rejestracji.
+
+Uwaga dla subskrypcji miesięcznej: bonus +7 dni wydłuża bieżący okres. Przy kolejnym odnowieniu Stripe ustawia nowy koniec okresu, więc bonus „zjada” się z pierwszym odnowieniem. Dla planu „do matury” i dla polecającego bez subskrypcji działa w pełni. Jeśli zechcesz, można to później zamienić na kupon rabatowy w Stripe.

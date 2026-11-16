@@ -55,6 +55,9 @@ Deno.serve(async (req) => {
         } else if (s.mode === 'payment' && s.payment_status === 'paid') {
           await zapisz(uid, { plan: 'matura', zrodlo: 'stripe', status: 'active', stripe_customer: s.customer }, new Date(`${MATURA_DO}T23:59:59+02:00`).toISOString());
         }
+        // program poleceń: +7 dni dla poleconego i polecającego (tylko raz, przy pierwszym zakupie)
+        const { error: blad } = await admin.rpc('nagrodz_polecenie', { p_uid: uid });
+        if (blad) console.error('polecenie', blad);
         break;
       }
       case 'invoice.paid': {
