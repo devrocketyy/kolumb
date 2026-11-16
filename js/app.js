@@ -2653,6 +2653,7 @@ function afterProfileChange() {
 // Ekran logowania. Z kontami w chmurze: założenie konta (imię, e-mail, hasło ×2) albo logowanie hasłem
 // lub linkiem z e-maila. Profile tylko na urządzeniu zostają jako opcja „bez konta”.
 let gateTab = 'up';
+const OKO = ['<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>', '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3l18 18M10.6 5.1A10 10 0 0 1 12 5c6.4 0 10 7 10 7a17 17 0 0 1-3.2 4M6.6 6.6A17 17 0 0 0 2 12s3.6 7 10 7a10 10 0 0 0 5.4-1.6M9.9 9.9a3 3 0 0 0 4.2 4.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>'];
 function viewKonto() {
   document.body.classList.add('in-gate');
   const list = store.profileList();
@@ -2665,29 +2666,48 @@ function viewKonto() {
   const msg = gateMsg ? `<p class="acc-msg" role="status">${esc(gateMsg)}</p>` : '';
   if (!cloud.enabled()) {
     app.innerHTML = `<section class="gate">
-      <div class="gate-brand">${BRAND_NAME}<span class="eyebrow">Matura rozszerzona · kursy autorskie</span></div>
+      <div class="gate-brand">${BRAND_NAME}</div>
       <h1 class="gate-title">Kto się uczy?</h1>${lokalne}${msg}</section>`;
   } else {
     const up = gateTab === 'up';
-    app.innerHTML = `<section class="gate gate-acc">
-      <div class="gate-brand">${BRAND_NAME}<span class="eyebrow">Matura rozszerzona · kursy autorskie</span></div>
-      <h1 class="gate-title">${up ? 'Załóż konto' : 'Zaloguj się'}</h1>
-      <div class="segmented gate-tabs" role="tablist">
-        <button type="button" role="tab" aria-selected="${up}" class="${up ? 'active' : ''}" data-tab="up">Nowe konto</button>
-        <button type="button" role="tab" aria-selected="${!up}" class="${up ? '' : 'active'}" data-tab="in">Mam konto</button>
+    const pole = (name, type, label, ac, extra = '') => `<label class="auth-field"><span>${label}</span>
+        <span class="auth-input"><input name="${name}" type="${type}" autocomplete="${ac}" ${extra}>${type === 'password' ? `<button type="button" class="auth-eye" data-eye aria-label="Pokaż hasło" aria-pressed="false">${OKO[0]}</button>` : ''}</span></label>`;
+    app.innerHTML = `<section class="auth">
+      <aside class="auth-hero" aria-hidden="true">
+        <div class="auth-logo">${BRAND_NAME}</div>
+        <div class="auth-stack">
+          <div class="auth-card"><small>Historia</small><b>15 VII 1410</b><span>Bitwa pod Grunwaldem</span></div>
+          <div class="auth-card"><small>WOS</small><b>Art. 158</b><span>Konstruktywne wotum nieufności</span></div>
+          <div class="auth-card"><small>Historia</small><b>3 V 1791</b><span>Konstytucja 3 maja</span></div>
+        </div>
+        <p class="auth-claim">Fiszki, zadania i próbne matury<br>w jednym miejscu.</p>
+      </aside>
+      <div class="auth-main">
+        <div class="auth-logo auth-logo-sm">${BRAND_NAME}</div>
+        <h1 class="auth-title">${up ? 'Zacznij naukę' : 'Witaj z powrotem'}</h1>
+        <p class="auth-sub">${up ? 'Załóż darmowe konto — postępy zapiszą się na każdym urządzeniu.' : 'Zaloguj się, by wrócić do swojego planu.'}</p>
+        <div class="auth-tabs" role="tablist" data-on="${up ? 0 : 1}">
+          <button type="button" role="tab" aria-selected="${up}" data-tab="up">Nowe konto</button>
+          <button type="button" role="tab" aria-selected="${!up}" data-tab="in">Mam konto</button>
+        </div>
+        <form class="auth-form" id="acc-form" novalidate>
+          ${up ? pole('imie', 'text', 'Imię', 'given-name', 'maxlength="30"') : ''}
+          ${pole('email', 'email', 'E-mail', 'email', 'inputmode="email" spellcheck="false"')}
+          ${pole('pass', 'password', 'Hasło', up ? 'new-password' : 'current-password', up ? 'placeholder="co najmniej 8 znaków"' : '')}
+          ${up ? pole('pass2', 'password', 'Powtórz hasło', 'new-password') : ''}
+          ${msg}
+          <button type="submit" class="auth-submit">${up ? 'Załóż konto' : 'Zaloguj się'}</button>
+          <div class="auth-or"><span>albo</span></div>
+          <button type="button" class="auth-alt" data-act="magic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>${up ? 'Wyślij mi link logowania na e-mail' : 'Zaloguj się linkiem z e-maila'}</span></button>
+        </form>
+        <details class="auth-local"><summary>Ucz się bez konta</summary><p>Postępy zostaną tylko na tym urządzeniu.</p>${lokalne}</details>
       </div>
-      <form class="gate-form" id="acc-form" novalidate>
-        ${up ? '<input class="type-input" name="imie" maxlength="30" autocomplete="given-name" placeholder="Imię" aria-label="Imię">' : ''}
-        <input class="type-input" name="email" type="email" autocomplete="email" placeholder="E-mail" aria-label="E-mail">
-        <input class="type-input" name="pass" type="password" autocomplete="${up ? 'new-password' : 'current-password'}" placeholder="${up ? 'Hasło (min. 8 znaków)' : 'Hasło'}" aria-label="Hasło">
-        ${up ? '<input class="type-input" name="pass2" type="password" autocomplete="new-password" placeholder="Powtórz hasło" aria-label="Powtórz hasło">' : ''}
-        <button type="submit" class="btn btn-primary btn-lg">${up ? 'Załóż konto' : 'Zaloguj się'}</button>
-        <button type="button" class="link-btn" data-act="magic">${up ? 'Wolisz bez hasła? Wyślij link na e-mail' : 'Nie pamiętasz hasła? Zaloguj się linkiem z e-maila'}</button>
-      </form>
-      ${msg}
-      <p class="muted small gate-note">Zakupy przypisujemy do adresu e-mail konta — dostęp działa na każdym urządzeniu.</p>
-      <details class="gate-local"><summary>Ucz się bez konta (tylko na tym urządzeniu)</summary>${lokalne}</details>
     </section>`;
+    app.querySelectorAll('[data-eye]').forEach((b) => b.addEventListener('click', () => {
+      const inp = b.previousElementSibling; const pokaz = inp.type === 'password';
+      app.querySelectorAll('[data-eye]').forEach((e) => { e.previousElementSibling.type = pokaz ? 'text' : 'password'; e.innerHTML = OKO[pokaz ? 1 : 0]; e.setAttribute('aria-pressed', pokaz); e.setAttribute('aria-label', pokaz ? 'Ukryj hasło' : 'Pokaż hasło'); });
+      inp.focus();
+    }));
   }
   gateMsg = '';
   const enter = (id) => { store.login(id); afterProfileChange(); location.hash = '#/przedmiot'; if (location.hash === '#/przedmiot') route(); };
@@ -2702,7 +2722,7 @@ function viewKonto() {
     if (!name) return;
     enter(store.createProfile(name).id);
   });
-  app.querySelectorAll('.gate-tabs [data-tab]').forEach((b) => b.addEventListener('click', () => { gateTab = b.dataset.tab; viewKonto(); }));
+  app.querySelectorAll('.auth-tabs [data-tab]').forEach((b) => b.addEventListener('click', () => { gateTab = b.dataset.tab; viewKonto(); }));
   const form = app.querySelector('#acc-form');
   if (!form) return;
   const fail = (m) => { gateMsg = m; viewKonto(); };
