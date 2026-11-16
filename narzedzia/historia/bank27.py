@@ -86,7 +86,7 @@ BANK['lata-1914-1939'] = [
    'Tekst (autorski). W 1924 r., po licznych napadach dywersantów sowieckich na wschodnie tereny Polski (m.in. na Stołpce), utworzono wyspecjalizowaną formację wojskową strzegącą granicy wschodniej.',
    T('podaj', 1, 'Podaj nazwę formacji opisanej w tekście.', 'Korpus Ochrony Pogranicza (KOP).', 'Żołnierze KOP walczyli z Armią Czerwoną po 17 września 1939 r. (m.in. pod Szackiem).')),
  B('Obóz narodowy i opozycja wobec sanacji',
-   'Zestawienie (autorskie). A — utworzenie Stronnictwa Narodowego z Związku Ludowo-Narodowego; B — powstanie radykalnej organizacji Obóz Narodowo-Radykalny, zdelegalizowanej po kilku miesiącach; C — porozumienie opozycji (Paderewski, Sikorski, Witos) zawiązane w Szwajcarii.',
+   'Zestawienie (autorskie). A — utworzenie Stronnictwa Narodowego ze Związku Ludowo-Narodowego; B — powstanie radykalnej organizacji Obóz Narodowo-Radykalny, zdelegalizowanej po kilku miesiącach; C — porozumienie opozycji (Paderewski, Sikorski, Witos) zawiązane w Szwajcarii.',
    T('przyporzadkuj', 1, 'Przyporządkuj opisom A–C lata: 1928, 1934, 1936.', 'A — 1928; B — 1934; C — 1936 (Front Morges).', 'Front Morges skupiał przeciwników sanacji o różnych poglądach — część z nich odegrała ważną rolę w rządzie na uchodźstwie (Sikorski).')),
  B('Zaolzie 1938',
    'Tekst (autorski). Na początku października 1938 r., kilka dni po konferencji w Monachium, wojsko polskie zajęło Zaolzie — część Śląska Cieszyńskiego, którą w 1920 r. przyznano Czechosłowacji. Rząd polski przedstawił Pradze ultimatum.',
