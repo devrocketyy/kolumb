@@ -2848,6 +2848,8 @@ function viewKonto() {
       </aside>
       <div class="auth-main">
         <div class="auth-logo auth-logo-sm">${BRAND_NAME}</div>
+        ${list.length && list.some((p) => !p.placeholder) ? `<div class="auth-dalej">${list.map((p) => `<button type="button" class="auth-dalej-btn" data-pid="${esc(p.id)}">${avatar(p)}<span><b>Kontynuuj jako ${esc(p.name)}</b><small>${p.cloud ? esc(p.cloud.email) : 'profil na tym urządzeniu'}</small></span>${ICONS.next}</button>`).join('')}</div>
+        <div class="auth-or"><span>albo zaloguj się na inne konto</span></div>` : ''}
         <h1 class="auth-title">${up ? 'Zacznij naukę' : 'Witaj z powrotem'}</h1>
         <p class="auth-sub">${up ? 'Załóż darmowe konto — postępy zapiszą się na każdym urządzeniu.' : 'Zaloguj się, by wrócić do swojego planu.'}</p>
         <div class="auth-tabs" role="tablist" data-on="${up ? 0 : 1}">
@@ -2878,6 +2880,7 @@ function viewKonto() {
   }
   gateMsg = '';
   const enter = (id) => { store.login(id); afterProfileChange(); location.hash = '#/przedmiot'; if (location.hash === '#/przedmiot') route(); };
+  app.querySelectorAll('.auth-dalej-btn').forEach((b) => b.addEventListener('click', () => enter(b.dataset.pid)));
   app.querySelector('.who').addEventListener('click', (e) => {
     const b = e.target.closest('[data-pid]');
     if (b) return enter(b.dataset.pid);
@@ -3632,6 +3635,12 @@ async function init() {
   cloud.startAutoSync(() => {});
   updateTopStats();
   dostep.zapamietajRef();
+  // Komputer: każde nowe wejście (nowa karta/okno) zaczyna się od ekranu logowania. Telefon: od razu aplikacja.
+  try {
+    const komputer = matchMedia('(min-width: 860px) and (pointer: fine)').matches;
+    if (komputer && !sessionStorage.getItem('ixl-wejscie') && store.loggedIn()) store.logout();
+    sessionStorage.setItem('ixl-wejscie', '1');
+  } catch { /* brak sessionStorage */ }
   await poLinkuZMaila();
   try {
     await startTresci();
