@@ -1,0 +1,2397 @@
+{
+ "id": "komorka",
+ "nazwa": "Komórka",
+ "opis": "Budowa komórki, błony i transport, organella, endosymbioza.",
+ "poddzialy": [
+  {
+   "id": "b-typy-komorek",
+   "nazwa": "Typy komórek i obserwacje mikroskopowe",
+   "opis": "Wymaganie II.1, II.13–14 podstawy programowej.",
+   "wymaganie": "II.1, II.13–14",
+   "fiszki": [
+    {
+     "id": "fc93602ad",
+     "przod": "Wyjaśnij pojęcie: teoria komórkowa",
+     "tyl": "Wszystkie organizmy zbudowane są z komórek; komórka jest podstawową jednostką budowy i funkcji życia; każda komórka powstaje z innej komórki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f65a2f68d",
+     "przod": "Wyjaśnij pojęcie: komórka prokariotyczna",
+     "tyl": "Komórka bez jądra komórkowego i organelli otoczonych błonami; DNA w cytoplazmie (nukleoid) — bakterie i archeowce.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fbc486448",
+     "przod": "Wyjaśnij pojęcie: komórka eukariotyczna",
+     "tyl": "Komórka z jądrem komórkowym i organellami otoczonymi błonami (mitochondria, siateczka, aparat Golgiego) — protisty, grzyby, rośliny, zwierzęta.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f504c2181",
+     "przod": "Wyjaśnij pojęcie: nukleoid",
+     "tyl": "Obszar cytoplazmy komórki prokariotycznej, w którym znajduje się kolisty chromosom (DNA) — nieoddzielony błoną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f9aba7c13",
+     "przod": "Różnice prokariota–eukariota (wymień 5)",
+     "tyl": "Prokarionty: brak jądra i organelli błoniastych, DNA kolisty bez histonów, rybosomy 70S, mniejsze rozmiary (1–10 µm). Eukarionty: jądro, organella błoniaste, liniowe chromosomy z histonami, rybosomy 80S w cytoplazmie, cytoszkielet, zwykle 10–100 µm.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f156766a3",
+     "przod": "Cechy wspólne komórek pro- i eukariotycznych",
+     "tyl": "Błona komórkowa, cytoplazma, rybosomy, DNA jako materiał genetyczny, ATP jako nośnik energii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f6ae1c92d",
+     "przod": "Typowa wielkość komórki bakterii i komórki eukariotycznej",
+     "tyl": "Bakteria ok. 1–10 µm; komórka eukariotyczna ok. 10–100 µm.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f543cc043",
+     "przod": "Struktury typowe dla komórki roślinnej (nie występujące u zwierząt)",
+     "tyl": "Ściana komórkowa celulozowa, plastydy (chloroplasty), duża wakuola z sokiem komórkowym, plazmodesmy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fc2c7c584",
+     "przod": "Struktury typowe dla komórki zwierzęcej (nie występujące u roślin)",
+     "tyl": "Centriole (centrosom), lizosomy (u roślin funkcję tę pełni wakuola), glikokaliks; brak ściany komórkowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fb4edaa30",
+     "przod": "Cechy komórki grzybowej",
+     "tyl": "Ściana komórkowa z chityny, brak plastydów, materiał zapasowy — glikogen, wakuole, często wielojądrowe strzępki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f121bc3f7",
+     "przod": "Materiał zapasowy roślin, zwierząt i grzybów",
+     "tyl": "Rośliny — skrobia (oraz tłuszcze w nasionach); zwierzęta — glikogen i tłuszcze; grzyby — glikogen i tłuszcze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f6d33aebf",
+     "przod": "Czym różni się ściana komórkowa roślin, grzybów i bakterii?",
+     "tyl": "Rośliny — celuloza; grzyby — chityna; bakterie — peptydoglikan (mureina).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fc405c94a",
+     "przod": "Wyjaśnij pojęcie: protoplast",
+     "tyl": "Żywa zawartość komórki roślinnej (błona, cytoplazma, jądro, organella) bez ściany komórkowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f860825eb",
+     "przod": "Wyjaśnij pojęcie: cytoplazma",
+     "tyl": "Zawartość komórki między błoną komórkową a jądrem: cytozol (płynna część) i zanurzone w nim organella oraz cytoszkielet.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f9e20e34f",
+     "przod": "Wyjaśnij pojęcie: cytozol",
+     "tyl": "Płynna część cytoplazmy (roztwór wodny białek, jonów i metabolitów), w której zachodzi m.in. glikoliza i synteza białek na wolnych rybosomach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fb2cb46fa",
+     "przod": "Wyjaśnij pojęcie: kompartmentacja komórki",
+     "tyl": "Podział komórki eukariotycznej przez błony na przedziały (organella) o odrębnym składzie — pozwala na jednoczesny przebieg różnych, nawet przeciwstawnych procesów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f54e1ea60",
+     "przod": "Dlaczego komórki są małe (stosunek powierzchni do objętości)?",
+     "tyl": "Przy wzroście komórki objętość rośnie szybciej niż powierzchnia — mała komórka ma względnie dużą powierzchnię do wymiany substancji z otoczeniem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f2a4ccabc",
+     "przod": "Jak duża komórka może zwiększyć powierzchnię wymiany?",
+     "tyl": "Przez wydłużony kształt, spłaszczenie lub uwypuklenia błony (np. mikrokosmki komórek nabłonka jelita).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f8c27fa5d",
+     "przod": "Zdolność rozdzielcza mikroskopu optycznego i elektronowego",
+     "tyl": "Optyczny ok. 0,2 µm (200 nm); elektronowy ok. 0,1–1 nm — pozwala zobaczyć ultrastrukturę organelli.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f65a357d5",
+     "przod": "Co można zobaczyć w mikroskopie optycznym w komórce roślinnej?",
+     "tyl": "Ścianę komórkową, jądro (po wybarwieniu), chloroplasty, wakuolę, ruch cytoplazmy; nie widać rybosomów ani budowy błon.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f56d2b242",
+     "przod": "Wyjaśnij pojęcie: mikroskop elektronowy transmisyjny (TEM)",
+     "tyl": "Mikroskop, w którym wiązka elektronów przechodzi przez cienki preparat — pokazuje wewnętrzną budowę komórki (ultrastrukturę).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f205c26c7",
+     "przod": "Wyjaśnij pojęcie: mikroskop elektronowy skaningowy (SEM)",
+     "tyl": "Mikroskop, w którym elektrony odbijają się od powierzchni preparatu — daje trójwymiarowy obraz powierzchni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f7e085924",
+     "przod": "Jak przygotować preparat ze skórki cebuli?",
+     "tyl": "Zdjąć cienką skórkę z wewnętrznej strony łuski, położyć na szkiełku w kropli wody, przykryć szkiełkiem nakrywkowym (bez pęcherzyków); można zabarwić płynem Lugola lub błękitem metylenowym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f4d85e89d",
+     "przod": "Po co barwi się preparaty mikroskopowe?",
+     "tyl": "Aby zwiększyć kontrast i uwidocznić struktury, które są przezroczyste (np. jądro barwione błękitem metylenowym lub jodem).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fabc9d10d",
+     "przod": "Jak przesuwa się obraz w mikroskopie optycznym przy ruchu preparatu?",
+     "tyl": "Obraz jest odwrócony, więc przesuwa się w przeciwną stronę niż preparat.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fe87d9987",
+     "przod": "Jak oszacować wielkość komórki pod mikroskopem?",
+     "tyl": "Porównując ją ze znaną średnicą pola widzenia (lub skalą mikrometryczną) przy danym powiększeniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fdc81f1e6",
+     "przod": "Wyjaśnij pojęcie: mikrofotografia",
+     "tyl": "Zdjęcie obrazu z mikroskopu; na maturze często z podanym paskiem skali, który pozwala obliczyć rzeczywiste wymiary struktur.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fdcc04d43",
+     "przod": "Jak obliczyć rzeczywisty wymiar obiektu z mikrofotografii?",
+     "tyl": "Rzeczywisty wymiar = wymiar na zdjęciu / powiększenie (lub porównać z paskiem skali).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fc6418222",
+     "przod": "Wyjaśnij pojęcie: komórki wielojądrowe (komórczaki)",
+     "tyl": "Komórki z wieloma jądrami powstałe przez podziały jądra bez podziału cytoplazmy, np. włókna mięśni szkieletowych, strzępki niektórych grzybów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fe27b43d0",
+     "przod": "Wyjaśnij pojęcie: komórki bezjądrowe",
+     "tyl": "Komórki, które utraciły jądro w trakcie różnicowania, np. erytrocyty ssaków, człony rurek sitowych (z komórkami przyrurkowymi).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f2a103409",
+     "przod": "Dlaczego dojrzałe erytrocyty ssaków nie dzielą się i żyją krótko?",
+     "tyl": "Bo nie mają jądra (ani rybosomów i mitochondriów) — nie mogą syntetyzować białek ani naprawiać uszkodzeń; żyją ok. 120 dni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fa35643c6",
+     "przod": "Wyjaśnij pojęcie: komórka somatyczna",
+     "tyl": "Każda komórka ciała organizmu z wyjątkiem komórek rozrodczych (gamet) i ich prekursorów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f28d47c1a",
+     "przod": "Organella występujące tylko u eukariontów",
+     "tyl": "Jądro, mitochondria, plastydy, siateczka śródplazmatyczna, aparat Golgiego, lizosomy, peroksysomy, wakuole.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f3e67a9c5",
+     "przod": "Wyjaśnij pojęcie: rybosomy 70S i 80S",
+     "tyl": "Typy rybosomów różniące się wielkością: 70S u prokariontów oraz w mitochondriach i plastydach; 80S w cytoplazmie eukariontów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f7c035317",
+     "przod": "Cechy wspólne mitochondriów i bakterii (argument endosymbiozy)",
+     "tyl": "Koliste DNA bez histonów, rybosomy 70S, podział przez rozszczepienie, wielkość zbliżona do bakterii, podwójna błona.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f5cc3769a",
+     "przod": "Wyjaśnij pojęcie: komórki macierzyste",
+     "tyl": "Komórki niezróżnicowane, zdolne do wielokrotnych podziałów i do przekształcania się w różne typy komórek wyspecjalizowanych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f443e29be",
+     "przod": "Wyjaśnij pojęcie: różnicowanie komórek",
+     "tyl": "Proces, w którym komórki uzyskują specjalizację (budowę i funkcję) przez włączanie i wyłączanie określonych genów — mimo że zawierają ten sam DNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f0c39086d",
+     "przod": "Dlaczego komórki wątroby i neurony tego samego człowieka różnią się, choć mają ten sam DNA?",
+     "tyl": "Bo ulegają ekspresji różne zestawy genów — wytwarzają inne białka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fe27e1706",
+     "przod": "Wyjaśnij pojęcie: ultrastruktura komórki",
+     "tyl": "Szczegółowa budowa komórki widoczna w mikroskopie elektronowym (błony, rybosomy, grzebienie mitochondrialne).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fd55e958a",
+     "przod": "Wyjaśnij pojęcie: wirowanie różnicowe (frakcjonowanie komórek)",
+     "tyl": "Metoda rozdzielania organelli przez wirowanie homogenatu z rosnącą prędkością — najpierw osadzają się jądra, potem mitochondria i chloroplasty, na końcu rybosomy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f5f5cb647",
+     "przod": "Komórki o najwyższej liczbie mitochondriów — przykłady",
+     "tyl": "Komórki mięśni (zwłaszcza serca), wątroby, kanalików nerkowych, plemniki (wstawka) — miejsca o dużym zapotrzebowaniu na ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f8f411973",
+     "przod": "Komórki o rozbudowanej siateczce szorstkiej — przykłady",
+     "tyl": "Komórki wydzielające białka: komórki pęcherzykowe trzustki, komórki plazmatyczne (przeciwciała), komórki gruczołów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f0aa3a251",
+     "przod": "Komórki o rozbudowanej siateczce gładkiej — przykłady",
+     "tyl": "Komórki wątroby (detoksykacja), komórki gonad i kory nadnerczy (hormony steroidowe), komórki mięśni (magazyn Ca²⁺).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fdde4d09c",
+     "przod": "Czym różni się komórka roślinna od grzybowej pod względem odżywiania?",
+     "tyl": "Komórka roślinna z chloroplastami może być autotroficzna (fotosynteza); grzyby są heterotrofami — pobierają gotowe związki organiczne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f82ed6381",
+     "przod": "Jak rozpoznać komórkę roślinną na mikrofotografii TEM?",
+     "tyl": "Po ścianie komórkowej, chloroplastach z tylakoidami i dużej centralnej wakuoli.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f7018d6de",
+     "przod": "Podaj nazwę pojęcia: Obszar cytoplazmy komórki prokariotycznej, w którym znajduje się kolisty chromosom (DNA) — nieoddzielony błoną.",
+     "tyl": "nukleoid",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f1be10c90",
+     "przod": "Podaj nazwę pojęcia: Żywa zawartość komórki roślinnej (błona, cytoplazma, jądro, organella) bez ściany komórkowej.",
+     "tyl": "protoplast",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f0587da2e",
+     "przod": "Podaj nazwę pojęcia: Zawartość komórki między błoną komórkową a jądrem: cytozol (płynna część) i zanurzone w nim organella oraz cytoszkielet.",
+     "tyl": "cytoplazma",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "fcbaeffb4",
+     "przod": "Podaj nazwę pojęcia: Płynna część cytoplazmy (roztwór wodny białek, jonów i metabolitów), w której zachodzi m.in. glikoliza i synteza białek na wolnych rybosomach.",
+     "tyl": "cytozol",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    },
+    {
+     "id": "f52b5e990",
+     "przod": "Rozpoznaj: Jądro, mitochondria, plastydy, siateczka śródplazmatyczna, aparat Golgiego, lizosomy, peroksysomy, wakuole.",
+     "tyl": "Organella występujące tylko u eukariontów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.1, II.13–14"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pda26af54",
+     "pytanie": "Rybosomy 70S występują w:",
+     "odpowiedzi": [
+      "cytoplazmie komórek zwierzęcych",
+      "komórkach bakterii oraz w mitochondriach",
+      "siateczce gładkiej",
+      "jądrze komórkowym eukariontów"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "70S — prokarionty, mitochondria, plastydy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0966772c",
+     "pytanie": "Ścianę komórkową z chityny mają:",
+     "odpowiedzi": [
+      "bakterie",
+      "rośliny",
+      "zwierzęta",
+      "grzyby"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Chityna — grzyby.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1a7ec15b",
+     "pytanie": "Strukturą występującą zarówno u bakterii, jak i u człowieka jest:",
+     "odpowiedzi": [
+      "rybosom",
+      "jądro komórkowe",
+      "mitochondrium",
+      "aparat Golgiego"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Rybosomy są uniwersalne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8ef1abd5",
+     "pytanie": "Dlaczego komórki są zwykle małe?",
+     "odpowiedzi": [
+      "bo duże komórki nie mogą zawierać jądra komórkowego",
+      "bo komórkom brakuje budulca do dalszego wzrostu",
+      "bo mała komórka ma korzystny stosunek powierzchni do objętości",
+      "bo błona komórkowa nie może zwiększać powierzchni"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wymiana przez powierzchnię.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pfa3ca029",
+     "pytanie": "W mikroskopie optycznym NIE zobaczymy:",
+     "odpowiedzi": [
+      "jądra po wybarwieniu",
+      "rybosomów",
+      "chloroplastów",
+      "ściany komórkowej"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Rybosomy ~20–30 nm.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd0133b89",
+     "pytanie": "Komórka z centriolami, lizosomami i bez ściany to komórka:",
+     "odpowiedzi": [
+      "bakteryjna",
+      "zwierzęca",
+      "grzybowa",
+      "roślinna"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Zwierzęca.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p68c328ce",
+     "pytanie": "Erytrocyty ssaków nie dzielą się, ponieważ:",
+     "odpowiedzi": [
+      "są zbyt małe",
+      "nie mają jądra komórkowego",
+      "nie mają błony",
+      "zawierają hemoglobinę"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Brak DNA jądrowego.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb416c90f",
+     "pytanie": "Dużo siateczki szorstkiej mają komórki wydzielające:",
+     "odpowiedzi": [
+      "białka (np. enzymy trawienne)",
+      "tłuszcze zapasowe",
+      "steroidy",
+      "glikogen"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "RER = synteza białek na eksport.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-blony",
+   "nazwa": "Błona komórkowa, transport, osmoza i plazmoliza",
+   "opis": "Wymaganie II.2–4 podstawy programowej.",
+   "wymaganie": "II.2–4",
+   "fiszki": [
+    {
+     "id": "fea733967",
+     "przod": "Wyjaśnij pojęcie: model płynnej mozaiki",
+     "tyl": "Model budowy błony (Singer i Nicolson, 1972): płynna dwuwarstwa fosfolipidowa, w której zanurzone są i przemieszczają się białka (integralne i powierzchniowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f157ecafa",
+     "przod": "Składniki błony komórkowej",
+     "tyl": "Fosfolipidy (dwuwarstwa), białka (integralne, powierzchniowe), cholesterol (u zwierząt), glikolipidy i glikoproteiny (glikokaliks po stronie zewnętrznej).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fe514cdd8",
+     "przod": "Funkcje błony komórkowej (wymień 5)",
+     "tyl": "Oddziela komórkę od otoczenia, reguluje transport substancji (selektywna przepuszczalność), odbiera sygnały (receptory), umożliwia rozpoznawanie komórek, łączy komórki ze sobą, uczestniczy w przewodzeniu impulsów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "ff8c119a4",
+     "przod": "Wyjaśnij pojęcie: selektywna (wybiórcza) przepuszczalność",
+     "tyl": "Właściwość błony polegająca na tym, że przepuszcza jedne substancje swobodnie, inne tylko z pomocą białek, a niektórych wcale.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f462d850e",
+     "przod": "Jakie substancje łatwo przechodzą przez dwuwarstwę lipidową?",
+     "tyl": "Małe cząsteczki niepolarne (O₂, CO₂, N₂) i substancje rozpuszczalne w tłuszczach (np. hormony steroidowe, alkohol); woda w ograniczonym stopniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fbfc95bd4",
+     "przod": "Jakie substancje nie przechodzą przez dwuwarstwę bez pomocy białek?",
+     "tyl": "Jony (Na⁺, K⁺, Cl⁻), duże cząsteczki polarne (glukoza, aminokwasy) i makrocząsteczki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f947a8f63",
+     "przod": "Wyjaśnij pojęcie: białka integralne",
+     "tyl": "Białka zanurzone w dwuwarstwie (często przechodzące przez nią — transbłonowe), np. kanały, przenośniki, pompy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f0154df4f",
+     "przod": "Wyjaśnij pojęcie: białka powierzchniowe (peryferyczne)",
+     "tyl": "Białka luźno związane z powierzchnią błony (z białkami integralnymi lub głowami lipidów), np. enzymy, elementy łączące z cytoszkieletem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fd33af7bd",
+     "przod": "Wyjaśnij pojęcie: dyfuzja prosta",
+     "tyl": "Bierny transport substancji przez dwuwarstwę lipidową zgodnie z gradientem stężeń (od większego do mniejszego), bez udziału białek i bez nakładu energii (np. O₂, CO₂).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f9a74e79d",
+     "przod": "Wyjaśnij pojęcie: dyfuzja wspomagana (ułatwiona)",
+     "tyl": "Bierny transport zgodnie z gradientem stężeń z udziałem białek kanałowych lub przenośnikowych, bez nakładu ATP (np. glukoza przez GLUT, jony przez kanały).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f088619f0",
+     "przod": "Wyjaśnij pojęcie: transport aktywny",
+     "tyl": "Przenoszenie substancji przez błonę wbrew gradientowi stężeń z udziałem białek (pomp) i z nakładem energii (zwykle ATP).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fd59c795e",
+     "przod": "Wyjaśnij pojęcie: pompa sodowo-potasowa",
+     "tyl": "Białko błonowe (Na⁺/K⁺-ATPaza), które kosztem ATP usuwa z komórki 3 jony Na⁺ i wprowadza 2 jony K⁺ — utrzymuje różnicę stężeń i potencjał spoczynkowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "ff705e5b2",
+     "przod": "Wyjaśnij pojęcie: transport aktywny wtórny (kotransport)",
+     "tyl": "Transport substancji wbrew gradientowi z wykorzystaniem energii gradientu innego jonu (np. symport Na⁺-glukoza w nabłonku jelita), wytworzonego wcześniej przez pompę zużywającą ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "ff6dc2e0a",
+     "przod": "Wyjaśnij pojęcie: symport i antyport",
+     "tyl": "Symport — przenoszenie dwóch substancji w tym samym kierunku; antyport — w przeciwnych kierunkach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fb38bdbb9",
+     "przod": "Czym różni się kanał od przenośnika?",
+     "tyl": "Kanał tworzy por, przez który substancja przepływa szybko (np. jony); przenośnik wiąże substancję i zmienia kształt, przenosząc ją na drugą stronę (wolniej, może się wysycić).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f45d4dffa",
+     "przod": "Dlaczego tempo dyfuzji wspomaganej osiąga plateau przy dużym stężeniu substancji?",
+     "tyl": "Bo liczba przenośników jest ograniczona — przy dużym stężeniu wszystkie są zajęte (wysycenie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f8a969c9d",
+     "przod": "Wyjaśnij pojęcie: endocytoza",
+     "tyl": "Pobieranie do komórki dużych cząsteczek lub cząstek przez wpuklenie błony i utworzenie pęcherzyka; wymaga energii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "ff3bf9985",
+     "przod": "Wyjaśnij pojęcie: fagocytoza",
+     "tyl": "Endocytoza dużych cząstek stałych (np. bakterii) — pęcherzyk fagocytarny; np. przez makrofagi i neutrofile, ameby.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f13906ce2",
+     "przod": "Wyjaśnij pojęcie: pinocytoza",
+     "tyl": "Endocytoza płynu z rozpuszczonymi substancjami — „picie” komórki małymi pęcherzykami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f1d2d2d0a",
+     "przod": "Wyjaśnij pojęcie: endocytoza zależna od receptorów",
+     "tyl": "Pobieranie określonych cząsteczek (np. LDL z cholesterolem) po związaniu ich z receptorami błonowymi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "faf97d35b",
+     "przod": "Wyjaśnij pojęcie: egzocytoza",
+     "tyl": "Wydzielanie substancji z komórki przez fuzję pęcherzyka z błoną komórkową (np. wydzielanie hormonów, enzymów, neuroprzekaźników).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fb914c9ec",
+     "przod": "Dlaczego endo- i egzocytoza wymagają energii?",
+     "tyl": "Bo wymagają przebudowy błony i pracy cytoszkieletu (transport pęcherzyków), zasilanych ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f3711be39",
+     "przod": "Wyjaśnij pojęcie: osmoza",
+     "tyl": "Dyfuzja wody przez błonę półprzepuszczalną z roztworu o mniejszym stężeniu substancji rozpuszczonych (wyższym potencjale wody) do roztworu o większym stężeniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fccd654af",
+     "przod": "Wyjaśnij pojęcie: roztwór hipotoniczny",
+     "tyl": "Roztwór o mniejszym stężeniu substancji osmotycznie czynnych niż wnętrze komórki — woda napływa do komórki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fde242c11",
+     "przod": "Wyjaśnij pojęcie: roztwór hipertoniczny",
+     "tyl": "Roztwór o większym stężeniu substancji osmotycznie czynnych niż wnętrze komórki — woda wypływa z komórki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fdaa78092",
+     "przod": "Wyjaśnij pojęcie: roztwór izotoniczny",
+     "tyl": "Roztwór o takim samym stężeniu jak wnętrze komórki — przepływ wody w obu kierunkach jest zrównoważony.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fafad33f6",
+     "przod": "Co dzieje się z erytrocytem w roztworze hipotonicznym?",
+     "tyl": "Woda napływa do komórki, erytrocyt pęcznieje i pęka (hemoliza), bo nie ma ściany komórkowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f13b1c9e2",
+     "przod": "Co dzieje się z erytrocytem w roztworze hipertonicznym?",
+     "tyl": "Woda wypływa, komórka się kurczy i marszczy (krenacja).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f9f283dbf",
+     "przod": "Co dzieje się z komórką roślinną w roztworze hipotonicznym?",
+     "tyl": "Woda napływa do wakuoli, rośnie turgor; ściana komórkowa zapobiega pęknięciu — komórka jest jędrna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "ffb8e649d",
+     "przod": "Wyjaśnij pojęcie: plazmoliza",
+     "tyl": "Odstawanie protoplastu od ściany komórkowej w roztworze hipertonicznym, wskutek utraty wody z wakuoli.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fd4d75e01",
+     "przod": "Wyjaśnij pojęcie: deplazmoliza",
+     "tyl": "Powrót protoplastu do ściany po przeniesieniu splazmolizowanej komórki do roztworu hipotonicznego (wody) — dowodzi, że komórka żyje.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fc9886f5d",
+     "przod": "Jak przeprowadzić obserwację plazmolizy?",
+     "tyl": "Preparat ze skórki cebuli (najlepiej czerwonej) obserwować w wodzie, potem dodać stężony roztwór NaCl lub sacharozy (np. 10%) i obserwować odstawanie protoplastu; próba kontrolna — preparat w wodzie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fa1cac4b9",
+     "przod": "Wyjaśnij pojęcie: potencjał wody (Ψ)",
+     "tyl": "Miara zdolności wody do przemieszczania się; woda przepływa zawsze z obszaru o wyższym (mniej ujemnym) potencjale do obszaru o niższym (bardziej ujemnym).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f117039bb",
+     "przod": "Jak stężenie substancji rozpuszczonych wpływa na potencjał wody?",
+     "tyl": "Im większe stężenie, tym niższy (bardziej ujemny) potencjał wody — czysta woda ma potencjał 0.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fc78d2e74",
+     "przod": "Rola tonoplastu w osmozie",
+     "tyl": "Tonoplast (błona wakuoli) jest półprzepuszczalny i reguluje gromadzenie substancji w soku komórkowym — dzięki temu wakuola pobiera wodę i utrzymuje turgor.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f81eb4ca6",
+     "przod": "Jak zaprojektować doświadczenie wykazujące osmozę na ziemniaku?",
+     "tyl": "Jednakowe walce ziemniaka zważyć i umieścić w roztworach sacharozy o różnych stężeniach (np. 0; 0,2; 0,4; 0,6 M) na ten sam czas; ponownie zważyć — zmiana masy pokazuje kierunek osmozy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f6a5022f1",
+     "przod": "Jak z wykresu zmiany masy ziemniaka odczytać stężenie izotoniczne?",
+     "tyl": "To stężenie, przy którym zmiana masy wynosi 0 (przecięcie krzywej z osią X).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f3b57df74",
+     "przod": "Wyjaśnij pojęcie: osmoregulacja (komórkowa)",
+     "tyl": "Utrzymywanie stałego stężenia substancji w komórce, np. przez usuwanie nadmiaru wody wodniczkami tętniącymi u protistów słodkowodnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f326ba252",
+     "przod": "Dlaczego protisty słodkowodne mają wodniczki tętniące, a morskie zwykle nie?",
+     "tyl": "Woda słodka jest hipotoniczna względem cytoplazmy — woda stale napływa i musi być usuwana; woda morska jest zbliżona do izotonicznej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fcc50a9ae",
+     "przod": "Wyjaśnij pojęcie: połączenia ścisłe",
+     "tyl": "Połączenia między komórkami nabłonka uszczelniające przestrzeń międzykomórkową — substancje muszą przejść przez komórki (np. w jelicie, barierze krew–mózg).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "ffd46bfd3",
+     "przod": "Wyjaśnij pojęcie: desmosomy",
+     "tyl": "Połączenia mechaniczne między komórkami (np. naskórka, mięśnia sercowego), związane z filamentami pośrednimi — zapewniają wytrzymałość tkanki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f20aab6d8",
+     "przod": "Wyjaśnij pojęcie: połączenia szczelinowe (neksusy)",
+     "tyl": "Kanały białkowe łączące cytoplazmy sąsiednich komórek zwierzęcych — przepływ jonów i małych cząsteczek (np. szybkie przewodzenie pobudzenia w sercu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f9f1f1095",
+     "przod": "Wyjaśnij pojęcie: plazmodesmy",
+     "tyl": "Kanaliki cytoplazmatyczne przechodzące przez ściany komórkowe roślin, łączące cytoplazmy sąsiednich komórek (transport symplastyczny).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fe26ffa79",
+     "przod": "Dlaczego błony mają dwie warstwy o różnym składzie (asymetria)?",
+     "tyl": "Bo pełnią inne funkcje po stronie zewnętrznej (glikokaliks, receptory) i wewnętrznej (łączenie z cytoszkieletem, enzymy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f211cf400",
+     "przod": "Wyjaśnij pojęcie: płynność błony",
+     "tyl": "Zdolność lipidów i białek do przemieszczania się w płaszczyźnie błony; zależy od temperatury, nasycenia kwasów tłuszczowych i zawartości cholesterolu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f4e29fae8",
+     "przod": "Jak temperatura wpływa na przepuszczalność błony?",
+     "tyl": "Wzrost temperatury zwiększa płynność i przepuszczalność; bardzo wysoka denaturuje białka i niszczy błonę (np. wyciek barwnika z buraka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fe22a816d",
+     "przod": "Doświadczenie z burakiem a przepuszczalność błon",
+     "tyl": "Krążki buraka w wodzie o rosnącej temperaturze — im wyższa temperatura, tym więcej barwnika (betaniny) wycieka z wakuol, bo błony są uszkadzane.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f6b52f244",
+     "przod": "Wyjaśnij pojęcie: receptory błonowe",
+     "tyl": "Białka błony wiążące swoiście cząsteczki sygnałowe (hormony peptydowe, neuroprzekaźniki) i przekazujące sygnał do wnętrza komórki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f52485fa5",
+     "przod": "Wyjaśnij pojęcie: akwaporyny (w transporcie przez błonę)",
+     "tyl": "Białkowe kanały dla wody — umożliwiają szybki przepływ wody przez błonę podczas osmozy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f3cbe263a",
+     "przod": "Wyjaśnij pojęcie: gradient elektrochemiczny",
+     "tyl": "Połączenie gradientu stężeń i różnicy ładunków po obu stronach błony, decydujące o kierunku ruchu jonów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f72f15149",
+     "przod": "Wyjaśnij pojęcie: potencjał błonowy",
+     "tyl": "Różnica ładunków elektrycznych między wnętrzem a zewnętrzem komórki (w neuronie spoczynkowym ok. −70 mV, wnętrze ujemne).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f7d2e0fd1",
+     "przod": "Dlaczego zatrucie cyjankiem hamuje transport aktywny?",
+     "tyl": "Cyjanek blokuje łańcuch oddechowy w mitochondriach — komórka nie wytwarza ATP potrzebnego pompom.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fea5a60d7",
+     "przod": "Jak odróżnić na wykresie dyfuzję prostą od wspomaganej?",
+     "tyl": "Szybkość dyfuzji prostej rośnie liniowo ze stężeniem; dyfuzji wspomaganej — rośnie, a potem osiąga plateau (wysycenie przenośników).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "faf24219f",
+     "przod": "Jak sprawdzić, czy transport jest aktywny?",
+     "tyl": "Sprawdzić, czy zachodzi wbrew gradientowi stężeń i czy ustaje po zahamowaniu wytwarzania ATP (np. inhibitorem oddychania, w braku tlenu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f00d28b73",
+     "przod": "Wyjaśnij pojęcie: lizosomy a endocytoza",
+     "tyl": "Pęcherzyki endocytarne łączą się z lizosomami, których enzymy hydrolityczne trawią pobrany materiał.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fc1919478",
+     "przod": "Dlaczego mukowiscydoza jest chorobą transportu błonowego?",
+     "tyl": "Mutacja genu CFTR uszkadza kanał chlorkowy w błonie komórek nabłonka — zaburzony transport Cl⁻ i wody powoduje gęsty śluz w drogach oddechowych i przewodach trzustki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f37cf28f0",
+     "przod": "Wyjaśnij pojęcie: transcytoza",
+     "tyl": "Przeniesienie substancji przez komórkę: pobranie endocytozą po jednej stronie i oddanie egzocytozą po drugiej (np. przeciwciała z mleka matki w jelicie noworodka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f701a737c",
+     "przod": "Dlaczego sól na drodze szkodzi roślinom przydrożnym?",
+     "tyl": "Zwiększa stężenie roztworu glebowego (hipertoniczny) — korzenie trudniej pobierają wodę, a nawet ją tracą (susza fizjologiczna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f08eafac5",
+     "przod": "Dlaczego kiszenie i solenie konserwuje żywność?",
+     "tyl": "Wysokie stężenie soli lub cukru tworzy środowisko hipertoniczne — bakterie tracą wodę przez osmozę i nie mogą się rozwijać.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f500150d7",
+     "przod": "Dlaczego kroplówki podaje się w roztworze izotonicznym (0,9% NaCl)?",
+     "tyl": "Aby nie zmieniać objętości komórek krwi — roztwór hipotoniczny spowodowałby hemolizę, a hipertoniczny — kurczenie się erytrocytów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fce43f7db",
+     "przod": "Rozpoznaj: Fosfolipidy (dwuwarstwa), białka (integralne, powierzchniowe), cholesterol (u zwierząt), glikolipidy i glikoproteiny (glikokaliks po stronie zewnętrznej).",
+     "tyl": "Składniki błony komórkowej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f8f3dd724",
+     "przod": "Podaj nazwę pojęcia: Bierny transport substancji przez dwuwarstwę lipidową zgodnie z gradientem stężeń (od większego do mniejszego), bez udziału białek i bez nakładu energii (np. O₂, CO₂).",
+     "tyl": "dyfuzja prosta",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fba277a65",
+     "przod": "Podaj nazwę pojęcia: Bierny transport zgodnie z gradientem stężeń z udziałem białek kanałowych lub przenośnikowych, bez nakładu ATP (np. glukoza przez GLUT, jony przez kanały).",
+     "tyl": "dyfuzja wspomagana (ułatwiona)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f74648eeb",
+     "przod": "Podaj nazwę pojęcia: Przenoszenie substancji przez błonę wbrew gradientowi stężeń z udziałem białek (pomp) i z nakładem energii (zwykle ATP).",
+     "tyl": "transport aktywny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f825c558f",
+     "przod": "Podaj nazwę pojęcia: Białko błonowe (Na⁺/K⁺-ATPaza), które kosztem ATP usuwa z komórki 3 jony Na⁺ i wprowadza 2 jony K⁺ — utrzymuje różnicę stężeń i potencjał spoczynkowy.",
+     "tyl": "pompa sodowo-potasowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fd436fa04",
+     "przod": "Podaj nazwę pojęcia: Pobieranie do komórki dużych cząsteczek lub cząstek przez wpuklenie błony i utworzenie pęcherzyka; wymaga energii.",
+     "tyl": "endocytoza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f1164c722",
+     "przod": "Podaj nazwę pojęcia: Endocytoza płynu z rozpuszczonymi substancjami — „picie” komórki małymi pęcherzykami.",
+     "tyl": "pinocytoza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f10985a26",
+     "przod": "Podaj nazwę pojęcia: Wydzielanie substancji z komórki przez fuzję pęcherzyka z błoną komórkową (np. wydzielanie hormonów, enzymów, neuroprzekaźników).",
+     "tyl": "egzocytoza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f3d76db42",
+     "przod": "Podaj nazwę pojęcia: Dyfuzja wody przez błonę półprzepuszczalną z roztworu o mniejszym stężeniu substancji rozpuszczonych (wyższym potencjale wody) do roztworu o większym stężeniu.",
+     "tyl": "osmoza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fbd18b3fa",
+     "przod": "Podaj nazwę pojęcia: Odstawanie protoplastu od ściany komórkowej w roztworze hipertonicznym, wskutek utraty wody z wakuoli.",
+     "tyl": "plazmoliza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f60a9458e",
+     "przod": "Podaj nazwę pojęcia: Powrót protoplastu do ściany po przeniesieniu splazmolizowanej komórki do roztworu hipotonicznego (wody) — dowodzi, że komórka żyje.",
+     "tyl": "deplazmoliza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fb24a7610",
+     "przod": "Podaj nazwę pojęcia: Połączenia mechaniczne między komórkami (np. naskórka, mięśnia sercowego), związane z filamentami pośrednimi — zapewniają wytrzymałość tkanki.",
+     "tyl": "desmosomy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "fa1b8b99b",
+     "przod": "Podaj nazwę pojęcia: Kanały białkowe łączące cytoplazmy sąsiednich komórek zwierzęcych — przepływ jonów i małych cząsteczek (np. szybkie przewodzenie pobudzenia w sercu).",
+     "tyl": "połączenia szczelinowe (neksusy)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "ff8a7fbb8",
+     "przod": "Podaj nazwę pojęcia: Białka błony wiążące swoiście cząsteczki sygnałowe (hormony peptydowe, neuroprzekaźniki) i przekazujące sygnał do wnętrza komórki.",
+     "tyl": "receptory błonowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f00cf78c8",
+     "przod": "Podaj nazwę pojęcia: Różnica ładunków elektrycznych między wnętrzem a zewnętrzem komórki (w neuronie spoczynkowym ok. −70 mV, wnętrze ujemne).",
+     "tyl": "potencjał błonowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f2bb5dd25",
+     "przod": "Podaj nazwę pojęcia: Przeniesienie substancji przez komórkę: pobranie endocytozą po jednej stronie i oddanie egzocytozą po drugiej (np. przeciwciała z mleka matki w jelicie noworodka).",
+     "tyl": "transcytoza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p4212861a",
+     "pytanie": "Transport aktywny różni się od dyfuzji wspomaganej tym, że:",
+     "odpowiedzi": [
+      "przenosi tylko jony",
+      "zachodzi wbrew gradientowi z nakładem energii",
+      "wymaga białek błonowych",
+      "zachodzi przez dwuwarstwę lipidową"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Oba wymagają białek; aktywny — energii.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p72acd6ae",
+     "pytanie": "Erytrocyt umieszczony w wodzie destylowanej:",
+     "odpowiedzi": [
+      "kurczy się",
+      "pęcznieje i pęka",
+      "nie zmienia objętości",
+      "ulega plazmolizie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Hemoliza.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcbf4b21e",
+     "pytanie": "Plazmoliza zachodzi w komórce roślinnej umieszczonej w roztworze:",
+     "odpowiedzi": [
+      "hipotonicznym",
+      "izotonicznym",
+      "czystej wodzie",
+      "hipertonicznym"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Woda wypływa z wakuoli.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p98ea2724",
+     "pytanie": "Przez dwuwarstwę lipidową najłatwiej przenika:",
+     "odpowiedzi": [
+      "jon Na⁺",
+      "tlen",
+      "glukoza",
+      "aminokwas"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Mała, niepolarna cząsteczka.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc51e7329",
+     "pytanie": "Pompa sodowo-potasowa przenosi:",
+     "odpowiedzi": [
+      "3 Na⁺ na zewnątrz i 2 K⁺ do komórki",
+      "jednakową liczbę obu jonów",
+      "tylko jony Na⁺",
+      "2 Na⁺ do komórki i 3 K⁺ na zewnątrz"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "3 Na⁺ out, 2 K⁺ in.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe45abc1a",
+     "pytanie": "Pobieranie bakterii przez makrofag to:",
+     "odpowiedzi": [
+      "egzocytoza",
+      "pinocytoza",
+      "fagocytoza",
+      "dyfuzja wspomagana"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Duże cząstki stałe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p082f8b62",
+     "pytanie": "Szybkość dyfuzji wspomaganej przy dużym stężeniu substancji osiąga plateau, ponieważ:",
+     "odpowiedzi": [
+      "brakuje ATP do transportu",
+      "wszystkie przenośniki są zajęte",
+      "błona ulega uszkodzeniu",
+      "gradient stężeń rośnie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wysycenie przenośników.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe4dea803",
+     "pytanie": "Połączenia umożliwiające przepływ jonów między komórkami mięśnia sercowego to:",
+     "odpowiedzi": [
+      "połączenia ścisłe",
+      "desmosomy",
+      "plazmodesmy",
+      "połączenia szczelinowe"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Neksusy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1fd93c47",
+     "pytanie": "Kotransport glukozy z jonami Na⁺ w jelicie jest przykładem:",
+     "odpowiedzi": [
+      "osmozy",
+      "endocytozy",
+      "dyfuzji prostej",
+      "transportu aktywnego wtórnego"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Wykorzystuje gradient Na⁺.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6fd9d0b7",
+     "pytanie": "Woda przepływa zawsze z obszaru o:",
+     "odpowiedzi": [
+      "wyższym potencjale wody do niższego",
+      "większym stężeniu roztworu do mniejszego",
+      "niższym potencjale wody do wyższego",
+      "mniejszym ciśnieniu do większego"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Od mniej ujemnego do bardziej ujemnego Ψ.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-jadro",
+   "nazwa": "Jądro, rybosomy i system błon wewnątrzkomórkowych",
+   "opis": "Wymaganie II.5–7 podstawy programowej.",
+   "wymaganie": "II.5–7",
+   "fiszki": [
+    {
+     "id": "f6cc2b844",
+     "przod": "Budowa jądra komórkowego",
+     "tyl": "Otoczka jądrowa (dwie błony z porami), kariolimfa (nukleoplazma), chromatyna (DNA z białkami) i jąderko.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f019a5d8a",
+     "przod": "Funkcje jądra komórkowego",
+     "tyl": "Przechowywanie i powielanie informacji genetycznej (replikacja), synteza RNA (transkrypcja), sterowanie metabolizmem i podziałami komórki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f5c018c9a",
+     "przod": "Wyjaśnij pojęcie: otoczka jądrowa",
+     "tyl": "Podwójna błona otaczająca jądro, z porami jądrowymi; błona zewnętrzna łączy się z siateczką śródplazmatyczną szorstką.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f442e9834",
+     "przod": "Wyjaśnij pojęcie: pory jądrowe",
+     "tyl": "Kompleksy białkowe w otoczce jądrowej regulujące transport między jądrem a cytoplazmą (wychodzi mRNA i podjednostki rybosomów, wchodzą białka — np. polimerazy, histony).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f382bdda9",
+     "przod": "Wyjaśnij pojęcie: jąderko",
+     "tyl": "Struktura w jądrze bez własnej błony, w której syntetyzowany jest rRNA i składane są podjednostki rybosomów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fbceebee0",
+     "przod": "Dlaczego komórki intensywnie syntetyzujące białka mają duże jąderka?",
+     "tyl": "Bo potrzebują wielu rybosomów, a ich podjednostki powstają w jąderku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fd8511017",
+     "przod": "Wyjaśnij pojęcie: euchromatyna",
+     "tyl": "Luźno upakowana chromatyna, aktywna transkrypcyjnie (geny ulegają ekspresji).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fc2af43f0",
+     "przod": "Wyjaśnij pojęcie: heterochromatyna",
+     "tyl": "Silnie skondensowana chromatyna, nieaktywna transkrypcyjnie (np. w okolicy centromerów, ciałko Barra).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "ff8dea531",
+     "przod": "Wyjaśnij pojęcie: ciałko Barra",
+     "tyl": "Nieaktywny, skondensowany chromosom X w komórkach somatycznych samic ssaków (kobiet) — widoczny jako ciemna grudka przy otoczce jądrowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f9c0516f1",
+     "przod": "Wyjaśnij pojęcie: lamina jądrowa",
+     "tyl": "Sieć białek (lamin) pod wewnętrzną błoną otoczki jądrowej — nadaje jądru kształt i porządkuje chromatynę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f14e14097",
+     "przod": "Jak zmienia się chromatyna podczas podziału komórki?",
+     "tyl": "Kondensuje się w chromosomy widoczne w mikroskopie (maksymalnie w metafazie), a otoczka jądrowa i jąderko zanikają.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fb875405c",
+     "przod": "Wyjaśnij pojęcie: rybosom",
+     "tyl": "Niebłoniaste organellum zbudowane z rRNA i białek, z dwóch podjednostek (dużej i małej) — miejsce syntezy białek (translacji).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fdaa3cc79",
+     "przod": "Gdzie powstają podjednostki rybosomów eukariotycznych?",
+     "tyl": "W jąderku — z rRNA syntetyzowanego tam i białek rybosomalnych sprowadzanych z cytoplazmy; potem przez pory jądrowe przechodzą do cytoplazmy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f6f6cfde4",
+     "przod": "Lokalizacja rybosomów w komórce eukariotycznej",
+     "tyl": "Wolne w cytozolu, związane z siateczką śródplazmatyczną szorstką i błoną zewnętrzną otoczki jądrowej, a także w mitochondriach i plastydach (70S).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f698a82fe",
+     "przod": "Jakie białka syntetyzują rybosomy wolne, a jakie związane z siateczką?",
+     "tyl": "Wolne — białka cytozolu, jądra, mitochondriów; związane z RER — białka wydzielane, błonowe i lizosomalne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f10db1522",
+     "przod": "Wyjaśnij pojęcie: polisom (polirybosom)",
+     "tyl": "Kilka rybosomów jednocześnie tłumaczących tę samą cząsteczkę mRNA — przyspiesza syntezę wielu kopii białka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f72a21c43",
+     "przod": "Wyjaśnij pojęcie: siateczka śródplazmatyczna szorstka (RER)",
+     "tyl": "System błoniastych kanałów i cystern z rybosomami na powierzchni — synteza, fałdowanie i modyfikacja (glikozylacja) białek wydzielniczych i błonowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f10fe08c8",
+     "przod": "Wyjaśnij pojęcie: siateczka śródplazmatyczna gładka (SER)",
+     "tyl": "System kanałów bez rybosomów — synteza lipidów i steroidów, detoksykacja (wątroba), magazynowanie jonów Ca²⁺ (w mięśniach — siateczka sarkoplazmatyczna), przemiany glikogenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f699ebe83",
+     "przod": "Wyjaśnij pojęcie: aparat Golgiego",
+     "tyl": "Stos spłaszczonych cystern (diktiosomy) — modyfikuje, sortuje i pakuje białka i lipidy do pęcherzyków; wytwarza lizosomy; u roślin syntetyzuje polisacharydy ściany.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f033981a9",
+     "przod": "Biegunowość aparatu Golgiego (strona cis i trans)",
+     "tyl": "Strona cis (wejściowa) przyjmuje pęcherzyki z siateczki; strona trans (wyjściowa) wysyła pęcherzyki do błony, lizosomów lub na zewnątrz.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f4f1ff963",
+     "przod": "Droga białka wydzielniczego w komórce",
+     "tyl": "Rybosom na RER → światło RER (fałdowanie, glikozylacja) → pęcherzyk transportujący → aparat Golgiego (modyfikacja, sortowanie) → pęcherzyk wydzielniczy → egzocytoza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fbf35fa2e",
+     "przod": "Wyjaśnij pojęcie: system błon wewnątrzkomórkowych (endomembranowy)",
+     "tyl": "Zintegrowany system: otoczka jądrowa, siateczka śródplazmatyczna, aparat Golgiego, lizosomy, wakuole i błona komórkowa, połączone transportem pęcherzykowym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f1f4556c3",
+     "przod": "Wyjaśnij pojęcie: lizosomy",
+     "tyl": "Pęcherzyki z enzymami hydrolitycznymi (działającymi w kwaśnym pH ok. 5) — trawienie wewnątrzkomórkowe, rozkład zużytych organelli (autofagia).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f489e9140",
+     "przod": "Wyjaśnij pojęcie: autofagia",
+     "tyl": "Rozkład zużytych lub uszkodzonych składników komórki we własnych lizosomach — recykling materiału.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fd8115079",
+     "przod": "Dlaczego enzymy lizosomalne nie niszczą cytoplazmy, gdy przypadkiem z nich wyciekną?",
+     "tyl": "Bo działają w kwaśnym pH (ok. 5), a cytozol ma pH obojętne (ok. 7,2) — tam są mało aktywne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fde7fef49",
+     "przod": "Wyjaśnij pojęcie: peroksysomy",
+     "tyl": "Pęcherzyki z enzymami utleniającymi (np. rozkład kwasów tłuszczowych) i katalazą rozkładającą toksyczny H₂O₂ do wody i tlenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f85dc5758",
+     "przod": "Wyjaśnij pojęcie: choroby lizosomalne",
+     "tyl": "Choroby genetyczne, w których brakuje jednego z enzymów lizosomów — nierozłożone substancje gromadzą się w komórkach (np. choroba Taya-Sachsa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fb7304ce1",
+     "przod": "Jak oznaczyć izotopowo drogę białka wydzielniczego?",
+     "tyl": "Podać komórkom aminokwas znakowany izotopem i śledzić promieniotwórczość kolejno w RER, aparacie Golgiego, pęcherzykach i na zewnątrz komórki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fd0f43099",
+     "przod": "Wyjaśnij pojęcie: pęcherzyki transportujące",
+     "tyl": "Małe pęcherzyki błoniaste przenoszące białka i lipidy między składnikami systemu błon (np. z RER do aparatu Golgiego).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fd0e91a71",
+     "przod": "Co by się stało z komórką trzustki po zablokowaniu aparatu Golgiego?",
+     "tyl": "Enzymy trawienne nie zostałyby prawidłowo zmodyfikowane, posortowane i wydzielone — gromadziłyby się w siateczce.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f648c6406",
+     "przod": "Wyjaśnij pojęcie: centrosom",
+     "tyl": "Ośrodek organizacji mikrotubul w komórkach zwierzęcych, zawierający parę centrioli — organizuje wrzeciono podziałowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fb7e53ab8",
+     "przod": "Wyjaśnij pojęcie: centriole",
+     "tyl": "Walcowate struktury z 9 trójek mikrotubul, w parze w centrosomie; z nich powstają ciałka podstawowe rzęsek i wici.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f99ad06ab",
+     "przod": "Ile jąder ma komórka mięśnia szkieletowego i dlaczego?",
+     "tyl": "Wiele — włókno powstaje przez zlanie się wielu komórek (mioblastów); dzięki temu duża komórka ma wystarczająco DNA do syntezy białek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f2f473566",
+     "przod": "Wyjaśnij pojęcie: kariotyp",
+     "tyl": "Zestaw chromosomów komórki opisany liczbą, wielkością i kształtem (u człowieka 46 chromosomów: 22 pary autosomów i para chromosomów płci).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f0f877b25",
+     "przod": "Doświadczenie z Acetabularią (parasolnikiem) — co wykazało?",
+     "tyl": "Że kształt kapelusza zależy od jądra (w chwytniku) — po przeszczepieniu jądra innego gatunku regeneruje kapelusz typowy dla gatunku dawcy jądra.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fdcb67d08",
+     "przod": "Dlaczego komórka bez jądra (np. erytrocyt) nie może się odnawiać?",
+     "tyl": "Bo bez DNA nie może syntetyzować nowego mRNA, więc nie powstają nowe białka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f174869cb",
+     "przod": "Wyjaśnij pojęcie: rybosomy 80S — budowa",
+     "tyl": "Duża podjednostka 60S i mała 40S; zbudowane z kilku rodzajów rRNA i ok. 80 białek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f9f558124",
+     "przod": "Rola SER w komórkach wątroby",
+     "tyl": "Detoksykacja leków, alkoholu i toksyn (enzymy z cytochromem P450), synteza lipidów i rozkład glikogenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f64f31939",
+     "przod": "Rola siateczki sarkoplazmatycznej",
+     "tyl": "Wyspecjalizowana SER komórek mięśniowych — magazynuje jony Ca²⁺ i uwalnia je, wywołując skurcz.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f27fc7c23",
+     "przod": "Gdzie powstają lipidy błon i jak trafiają do błony komórkowej?",
+     "tyl": "W siateczce gładkiej; wędrują w błonach pęcherzyków przez aparat Golgiego do błony komórkowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f4dc9bb62",
+     "przod": "Rozpoznaj: Otoczka jądrowa (dwie błony z porami), kariolimfa (nukleoplazma), chromatyna (DNA z białkami) i jąderko.",
+     "tyl": "Budowa jądra komórkowego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f97ab9e0a",
+     "przod": "Podaj nazwę pojęcia: Struktura w jądrze bez własnej błony, w której syntetyzowany jest rRNA i składane są podjednostki rybosomów.",
+     "tyl": "jąderko",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f22106ec2",
+     "przod": "Podaj nazwę pojęcia: Luźno upakowana chromatyna, aktywna transkrypcyjnie (geny ulegają ekspresji).",
+     "tyl": "euchromatyna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f5960b6ab",
+     "przod": "Podaj nazwę pojęcia: Silnie skondensowana chromatyna, nieaktywna transkrypcyjnie (np. w okolicy centromerów, ciałko Barra).",
+     "tyl": "heterochromatyna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f998e6eca",
+     "przod": "Podaj nazwę pojęcia: Nieaktywny, skondensowany chromosom X w komórkach somatycznych samic ssaków (kobiet) — widoczny jako ciemna grudka przy otoczce jądrowej.",
+     "tyl": "ciałko Barra",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f3bddf98d",
+     "przod": "Podaj nazwę pojęcia: Niebłoniaste organellum zbudowane z rRNA i białek, z dwóch podjednostek (dużej i małej) — miejsce syntezy białek (translacji).",
+     "tyl": "rybosom",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f62a9212f",
+     "przod": "Rozpoznaj: Wolne w cytozolu, związane z siateczką śródplazmatyczną szorstką i błoną zewnętrzną otoczki jądrowej, a także w mitochondriach i plastydach (70S).",
+     "tyl": "Lokalizacja rybosomów w komórce eukariotycznej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f18c6dd83",
+     "przod": "Podaj nazwę pojęcia: Kilka rybosomów jednocześnie tłumaczących tę samą cząsteczkę mRNA — przyspiesza syntezę wielu kopii białka.",
+     "tyl": "polisom (polirybosom)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f4553f812",
+     "przod": "Podaj nazwę pojęcia: System błoniastych kanałów i cystern z rybosomami na powierzchni — synteza, fałdowanie i modyfikacja (glikozylacja) białek wydzielniczych i błonowych.",
+     "tyl": "siateczka śródplazmatyczna szorstka (RER)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fe1922fcd",
+     "przod": "Podaj nazwę pojęcia: Stos spłaszczonych cystern (diktiosomy) — modyfikuje, sortuje i pakuje białka i lipidy do pęcherzyków; wytwarza lizosomy; u roślin syntetyzuje polisacharydy ściany.",
+     "tyl": "aparat Golgiego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fb9bde044",
+     "przod": "Podaj nazwę pojęcia: Pęcherzyki z enzymami hydrolitycznymi (działającymi w kwaśnym pH ok. 5) — trawienie wewnątrzkomórkowe, rozkład zużytych organelli (autofagia).",
+     "tyl": "lizosomy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fd260f792",
+     "przod": "Podaj nazwę pojęcia: Rozkład zużytych lub uszkodzonych składników komórki we własnych lizosomach — recykling materiału.",
+     "tyl": "autofagia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "f212cbf2c",
+     "przod": "Podaj nazwę pojęcia: Pęcherzyki z enzymami utleniającymi (np. rozkład kwasów tłuszczowych) i katalazą rozkładającą toksyczny H₂O₂ do wody i tlenu.",
+     "tyl": "peroksysomy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    },
+    {
+     "id": "fd59e2989",
+     "przod": "Podaj nazwę pojęcia: Zestaw chromosomów komórki opisany liczbą, wielkością i kształtem (u człowieka 46 chromosomów: 22 pary autosomów i para chromosomów płci).",
+     "tyl": "kariotyp",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.5–7"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p6329c3b9",
+     "pytanie": "Podjednostki rybosomów powstają w:",
+     "odpowiedzi": [
+      "aparacie Golgiego",
+      "siateczce gładkiej",
+      "lizosomach",
+      "jąderku"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "rRNA + białka w jąderku.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb8058988",
+     "pytanie": "Białka wydzielane przez komórkę syntetyzowane są na rybosomach:",
+     "odpowiedzi": [
+      "wolnych w cytozolu",
+      "związanych z siateczką szorstką",
+      "mitochondrialnych",
+      "w jądrze"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "RER.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p69580288",
+     "pytanie": "Detoksykacja alkoholu w wątrobie zachodzi głównie w:",
+     "odpowiedzi": [
+      "RER",
+      "jąderku",
+      "SER",
+      "lizosomach"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Siateczka gładka.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8dd024d4",
+     "pytanie": "Enzymy lizosomów działają optymalnie w pH:",
+     "odpowiedzi": [
+      "kwaśnym",
+      "zasadowym",
+      "każdym",
+      "obojętnym"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "pH ok. 5.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd80790e4",
+     "pytanie": "Funkcją aparatu Golgiego NIE jest:",
+     "odpowiedzi": [
+      "sortowanie białek",
+      "synteza białek na rybosomach",
+      "tworzenie lizosomów",
+      "modyfikacja glikoprotein"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Białka powstają na rybosomach.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "paaf92573",
+     "pytanie": "Przez pory jądrowe z jądra do cytoplazmy przechodzi:",
+     "odpowiedzi": [
+      "polimeraza DNA",
+      "mRNA",
+      "histon",
+      "glukoza"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "mRNA i podjednostki rybosomów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5dee4b2b",
+     "pytanie": "Katalaza rozkładająca H₂O₂ występuje w:",
+     "odpowiedzi": [
+      "lizosomach",
+      "rybosomach",
+      "peroksysomach",
+      "jąderku"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Peroksysomy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p26a9747a",
+     "pytanie": "Aktywna transkrypcyjnie, luźno upakowana chromatyna to:",
+     "odpowiedzi": [
+      "centromer",
+      "euchromatyna",
+      "ciałko Barra",
+      "heterochromatyna"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Euchromatyna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-mitochondria",
+   "nazwa": "Mitochondria, plastydy i endosymbioza",
+   "opis": "Wymaganie II.8–9 podstawy programowej.",
+   "wymaganie": "II.8–9",
+   "fiszki": [
+    {
+     "id": "f53775f02",
+     "przod": "Budowa mitochondrium",
+     "tyl": "Dwie błony (zewnętrzna gładka, wewnętrzna pofałdowana w grzebienie), przestrzeń międzybłonowa, macierz (matriks) z DNA, rybosomami 70S i enzymami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f5949ea7f",
+     "przod": "Funkcja mitochondrium",
+     "tyl": "Oddychanie komórkowe tlenowe — wytwarzanie większości ATP komórki (reakcja pomostowa i cykl Krebsa w macierzy, łańcuch oddechowy na błonie wewnętrznej).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fab1b735c",
+     "przod": "Wyjaśnij pojęcie: grzebienie mitochondrialne",
+     "tyl": "Fałdy wewnętrznej błony mitochondrium — zwiększają powierzchnię dla łańcucha oddechowego i syntazy ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f045f3a7a",
+     "przod": "Wyjaśnij pojęcie: macierz mitochondrialna",
+     "tyl": "Wnętrze mitochondrium — zachodzą w nim reakcja pomostowa, cykl Krebsa i β-oksydacja kwasów tłuszczowych; zawiera DNA i rybosomy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fb293c7f4",
+     "przod": "Dlaczego komórki mięśnia sercowego mają mitochondria z licznymi grzebieniami?",
+     "tyl": "Bo mają ogromne zapotrzebowanie na ATP — więcej grzebieni to większa powierzchnia łańcucha oddechowego i więcej syntazy ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fa66c73d0",
+     "przod": "Wyjaśnij pojęcie: organella półautonomiczne",
+     "tyl": "Mitochondria i plastydy — mają własne DNA i rybosomy, częściowo same syntetyzują białka i dzielą się, ale większość ich białek kodowana jest w jądrze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "ff01f7183",
+     "przod": "Wyjaśnij pojęcie: plastydy",
+     "tyl": "Organella roślin i glonów otoczone dwiema błonami, z własnym DNA — chloroplasty, chromoplasty, leukoplasty (np. amyloplasty), proplastydy, etioplasty.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fa87724d4",
+     "przod": "Wyjaśnij pojęcie: chloroplast",
+     "tyl": "Plastyd z chlorofilem, w którym zachodzi fotosynteza; otoczony dwiema błonami, wewnątrz tylakoidy (granum) zanurzone w stromie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f40c9ab0f",
+     "przod": "Wyjaśnij pojęcie: tylakoidy",
+     "tyl": "Spłaszczone pęcherzyki błoniaste w chloroplaście, ułożone w stosy (grana); w ich błonach są barwniki, fotosystemy i syntaza ATP — zachodzi faza zależna od światła.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "ffac09f52",
+     "przod": "Wyjaśnij pojęcie: stroma",
+     "tyl": "Płynne wnętrze chloroplastu z enzymami (m.in. RuBisCO), DNA i rybosomami — zachodzi w niej faza niezależna od światła (cykl Calvina).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fe8222c68",
+     "przod": "Wyjaśnij pojęcie: granum (grana)",
+     "tyl": "Stos tylakoidów w chloroplaście; grana łączą się tylakoidami stromy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f82e799bb",
+     "przod": "Wyjaśnij pojęcie: chromoplasty",
+     "tyl": "Plastydy z barwnikami karotenoidowymi (żółtymi, pomarańczowymi, czerwonymi) — barwią kwiaty i owoce (np. pomidor, marchew), wabią zwierzęta.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fde573092",
+     "przod": "Wyjaśnij pojęcie: leukoplasty",
+     "tyl": "Bezbarwne plastydy magazynujące substancje zapasowe: amyloplasty (skrobia), elajoplasty (tłuszcze), proteinoplasty (białka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f29aaad67",
+     "przod": "Wyjaśnij pojęcie: amyloplasty",
+     "tyl": "Leukoplasty magazynujące skrobię (np. w bulwach ziemniaka); w czapeczce korzenia działają jako statolity w reakcji na grawitację.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f72e433bf",
+     "przod": "Wyjaśnij pojęcie: proplastydy",
+     "tyl": "Małe, niezróżnicowane plastydy w komórkach merystematycznych, z których rozwijają się pozostałe typy plastydów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f1b72ee84",
+     "przod": "Wyjaśnij pojęcie: etioplasty",
+     "tyl": "Plastydy roślin rosnących w ciemności — bez chlorofilu, z prekursorem chlorofilu; na świetle przekształcają się w chloroplasty.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f204b1a9a",
+     "przod": "Wspólna cecha wszystkich typów plastydów (najtrudniejsze zadanie matury 2025)",
+     "tyl": "Np. otoczenie dwiema błonami (plastydowymi), obecność własnego DNA i rybosomów, pochodzenie od proplastydów/endosymbiontów. Uwaga: błona plastydowa to nie błona komórkowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f71a7a2e6",
+     "przod": "Jak przekształcają się plastydy przy dojrzewaniu pomidora?",
+     "tyl": "Chloroplasty przekształcają się w chromoplasty — rozpada się chlorofil, gromadzi się likopen (karotenoid), owoc zmienia barwę z zielonej na czerwoną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f2b5f1a01",
+     "przod": "Wyjaśnij pojęcie: teoria endosymbiozy",
+     "tyl": "Teoria, według której mitochondria i chloroplasty pochodzą od bakterii (tlenowych i sinic) wchłoniętych przez komórkę praeukariotyczną, które stały się jej trwałymi symbiontami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f71c89cb5",
+     "przod": "Argumenty za endosymbiotycznym pochodzeniem mitochondriów i chloroplastów (wymień 5)",
+     "tyl": "Dwie błony (wewnętrzna podobna do bakteryjnej), własne koliste DNA bez histonów, rybosomy 70S, podział przez rozszczepienie (nie powstają de novo), wielkość zbliżona do bakterii, podobieństwo sekwencji DNA do bakterii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f5b56a7ec",
+     "przod": "Od jakich organizmów pochodzą mitochondria, a od jakich chloroplasty?",
+     "tyl": "Mitochondria — od tlenowych proteobakterii (α-proteobakterii); chloroplasty — od sinic (cyjanobakterii).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fc2824daa",
+     "przod": "Dlaczego zewnętrzna błona mitochondrium przypomina błonę komórki gospodarza?",
+     "tyl": "Bo według teorii endosymbiozy pochodzi z błony pęcherzyka, którym komórka gospodarza wchłonęła bakterię.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f39fb3507",
+     "przod": "Dlaczego wewnętrzna błona mitochondrium zawiera kardiolipinę?",
+     "tyl": "Kardiolipina jest lipidem typowym dla błon bakterii — to jeden z argumentów za endosymbiozą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f7f933a6e",
+     "przod": "Dlaczego mitochondria i chloroplasty nie mogą żyć poza komórką?",
+     "tyl": "Bo większość genów ich bakteryjnych przodków przeniosła się do jądra — wiele ich białek jest kodowanych w jądrze i importowanych z cytoplazmy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fd85fbcf2",
+     "przod": "Wyjaśnij pojęcie: endosymbioza wtórna",
+     "tyl": "Wchłonięcie przez komórkę eukariotyczną innego eukarionta, który miał już chloroplasty (np. u eugleny, okrzemek) — ich chloroplasty mają 3 lub 4 błony.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fcc2a30c9",
+     "przod": "Jak dziedziczone jest DNA mitochondrialne u człowieka?",
+     "tyl": "Niemal wyłącznie po matce — mitochondria plemnika nie przechodzą do zygoty (są niszczone).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "ffec1a835",
+     "przod": "Wyjaśnij pojęcie: choroby mitochondrialne",
+     "tyl": "Choroby wywołane mutacjami w DNA mitochondrialnym lub w genach jądrowych białek mitochondrialnych — dotyczą zwłaszcza tkanek o dużym zapotrzebowaniu na energię (mięśnie, nerwy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f7f422f42",
+     "przod": "Gdzie powstaje ATP w komórce roślinnej?",
+     "tyl": "W mitochondriach (oddychanie), w chloroplastach (faza zależna od światła — na potrzeby cyklu Calvina) i w cytozolu (glikoliza).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fad6f5bb2",
+     "przod": "Czym różni się wykorzystanie ATP z chloroplastów i z mitochondriów?",
+     "tyl": "ATP z chloroplastów służy głównie do syntezy cukrów w cyklu Calvina; ATP z mitochondriów — do pozostałych procesów w komórce.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f641ecf2c",
+     "przod": "Porównanie mitochondrium i chloroplastu (podobieństwa)",
+     "tyl": "Dwie błony, własne DNA i rybosomy 70S, chemiosmotyczna synteza ATP przez syntazę ATP, podział przez rozszczepienie, pochodzenie endosymbiotyczne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fe5217e13",
+     "przod": "Porównanie mitochondrium i chloroplastu (różnice)",
+     "tyl": "Mitochondrium: oddychanie, grzebienie, ATP kosztem utleniania związków organicznych; chloroplast: fotosynteza, tylakoidy z barwnikami, ATP kosztem energii światła; mitochondria u prawie wszystkich eukariontów, chloroplasty tylko u fotoautotrofów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f48b30227",
+     "przod": "Jak przeprowadzić obserwację chloroplastów?",
+     "tyl": "Preparat z liścia moczarki lub mchu w kropli wody — w mikroskopie optycznym widać zielone, soczewkowate chloroplasty, często w ruchu (cykloza).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f50ca9954",
+     "przod": "Jak zaobserwować chromoplasty?",
+     "tyl": "Preparat z miąższu dojrzałego pomidora, papryki lub płatka nasturcji — widoczne pomarańczowe lub czerwone ziarna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fb46cd72f",
+     "przod": "Jak wykazać obecność amyloplastów w bulwie ziemniaka?",
+     "tyl": "Zeskrobać miąższ do kropli wody, dodać płyn Lugola — ziarna skrobi barwią się na granatowo.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fe0787459",
+     "przod": "Dlaczego komórki skórki cebuli nie mają chloroplastów?",
+     "tyl": "Bo to komórki podziemnego organu spichrzowego, niedostępne dla światła — nie przeprowadzają fotosyntezy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f60e49901",
+     "przod": "Ile błon ma chloroplast rośliny lądowej, a ile sam tylakoid?",
+     "tyl": "Chloroplast — dwie błony otoczki; dodatkowo wewnątrz system błon tylakoidów (trzeci system błon).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f00441d03",
+     "przod": "Wyjaśnij pojęcie: przestrzeń międzybłonowa mitochondrium",
+     "tyl": "Przestrzeń między błoną zewnętrzną a wewnętrzną — gromadzone są w niej protony (H⁺) pompowane przez łańcuch oddechowy, co tworzy gradient do syntezy ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fa9131c00",
+     "przod": "Dlaczego mitochondria lokalizują się blisko miofibryli lub w wstawce plemnika?",
+     "tyl": "Bo dostarczają ATP tam, gdzie jest ono zużywane — do skurczu mięśnia lub ruchu witki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f4247521e",
+     "przod": "Co by się stało z komórką bez funkcjonujących mitochondriów?",
+     "tyl": "Mogłaby uzyskiwać ATP tylko w glikolizie (fermentacji) — znacznie mniej energii; komórki o dużym zapotrzebowaniu (neurony) obumierają.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fe9f7586b",
+     "przod": "Wyjaśnij pojęcie: hydrogenosomy",
+     "tyl": "Organella beztlenowych protistów (np. rzęsistka), pochodzące od mitochondriów, wytwarzające ATP i wodór bez udziału tlenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f79cdbf87",
+     "przod": "Dlaczego liczba mitochondriów w komórce mięśniowej rośnie przy treningu wytrzymałościowym?",
+     "tyl": "Bo zwiększone zapotrzebowanie na ATP pobudza namnażanie mitochondriów (biogenezę) — mięsień wydajniej oddycha tlenowo.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f2092efa4",
+     "przod": "Wyjaśnij pojęcie: syntaza ATP",
+     "tyl": "Kompleks białkowy w wewnętrznej błonie mitochondrium i w błonie tylakoidu, który wykorzystuje przepływ protonów zgodnie z gradientem do syntezy ATP z ADP i fosforanu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f4dfbae9f",
+     "przod": "Czy w komórkach roślinnych zachodzi oddychanie komórkowe?",
+     "tyl": "Tak — w mitochondriach, przez całą dobę (także na świetle); fotosynteza zachodzi dodatkowo w chloroplastach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f5f2cfec7",
+     "przod": "Gdzie w komórce zachodzi glikoliza, a gdzie cykl Krebsa?",
+     "tyl": "Glikoliza — w cytozolu; cykl Krebsa — w macierzy mitochondrium.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f2717bfae",
+     "przod": "Dlaczego plastydy nie powstają w komórce „od zera”?",
+     "tyl": "Bo mogą powstać tylko przez podział istniejących plastydów (lub proplastydów) — tak jak bakterie, od których pochodzą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f52ae8bd4",
+     "przod": "Rozpoznaj: Dwie błony (zewnętrzna gładka, wewnętrzna pofałdowana w grzebienie), przestrzeń międzybłonowa, macierz (matriks) z DNA, rybosomami 70S i enzymami.",
+     "tyl": "Budowa mitochondrium",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "ffe1f033d",
+     "przod": "Rozpoznaj: Oddychanie komórkowe tlenowe — wytwarzanie większości ATP komórki (reakcja pomostowa i cykl Krebsa w macierzy, łańcuch oddechowy na błonie wewnętrznej).",
+     "tyl": "Funkcja mitochondrium",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f765e6a92",
+     "przod": "Podaj nazwę pojęcia: Mitochondria i plastydy — mają własne DNA i rybosomy, częściowo same syntetyzują białka i dzielą się, ale większość ich białek kodowana jest w jądrze.",
+     "tyl": "organella półautonomiczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fe9fdd236",
+     "przod": "Podaj nazwę pojęcia: Spłaszczone pęcherzyki błoniaste w chloroplaście, ułożone w stosy (grana); w ich błonach są barwniki, fotosystemy i syntaza ATP — zachodzi faza zależna od światła.",
+     "tyl": "tylakoidy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f89407576",
+     "przod": "Podaj nazwę pojęcia: Płynne wnętrze chloroplastu z enzymami (m.in. RuBisCO), DNA i rybosomami — zachodzi w niej faza niezależna od światła (cykl Calvina).",
+     "tyl": "stroma",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f6b4bb9dc",
+     "przod": "Podaj nazwę pojęcia: Plastydy z barwnikami karotenoidowymi (żółtymi, pomarańczowymi, czerwonymi) — barwią kwiaty i owoce (np. pomidor, marchew), wabią zwierzęta.",
+     "tyl": "chromoplasty",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fa5255a2a",
+     "przod": "Podaj nazwę pojęcia: Bezbarwne plastydy magazynujące substancje zapasowe: amyloplasty (skrobia), elajoplasty (tłuszcze), proteinoplasty (białka).",
+     "tyl": "leukoplasty",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f5b0c543f",
+     "przod": "Podaj nazwę pojęcia: Leukoplasty magazynujące skrobię (np. w bulwach ziemniaka); w czapeczce korzenia działają jako statolity w reakcji na grawitację.",
+     "tyl": "amyloplasty",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f42722822",
+     "przod": "Podaj nazwę pojęcia: Małe, niezróżnicowane plastydy w komórkach merystematycznych, z których rozwijają się pozostałe typy plastydów.",
+     "tyl": "proplastydy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f72f0bdde",
+     "przod": "Podaj nazwę pojęcia: Plastydy roślin rosnących w ciemności — bez chlorofilu, z prekursorem chlorofilu; na świetle przekształcają się w chloroplasty.",
+     "tyl": "etioplasty",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fb64c707a",
+     "przod": "Podaj nazwę pojęcia: Wchłonięcie przez komórkę eukariotyczną innego eukarionta, który miał już chloroplasty (np. u eugleny, okrzemek) — ich chloroplasty mają 3 lub 4 błony.",
+     "tyl": "endosymbioza wtórna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "ffe9cfbfb",
+     "przod": "Rozpoznaj: Dwie błony, własne DNA i rybosomy 70S, chemiosmotyczna synteza ATP przez syntazę ATP, podział przez rozszczepienie, pochodzenie endosymbiotyczne.",
+     "tyl": "Porównanie mitochondrium i chloroplastu (podobieństwa)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "ff307f418",
+     "przod": "Podaj nazwę pojęcia: Organella beztlenowych protistów (np. rzęsistka), pochodzące od mitochondriów, wytwarzające ATP i wodór bez udziału tlenu.",
+     "tyl": "hydrogenosomy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fdad20f46",
+     "przod": "Podaj nazwę pojęcia: Kompleks białkowy w wewnętrznej błonie mitochondrium i w błonie tylakoidu, który wykorzystuje przepływ protonów zgodnie z gradientem do syntezy ATP z ADP i fosforanu.",
+     "tyl": "syntaza ATP",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pf2948304",
+     "pytanie": "Grzebienie mitochondrialne to fałdy:",
+     "odpowiedzi": [
+      "błony wewnętrznej",
+      "tylakoidów",
+      "otoczki jądrowej",
+      "błony zewnętrznej"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Zwiększają powierzchnię łańcucha oddechowego.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6209776a",
+     "pytanie": "Faza niezależna od światła zachodzi w:",
+     "odpowiedzi": [
+      "tylakoidach",
+      "cytozolu",
+      "przestrzeni międzybłonowej",
+      "stromie"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Cykl Calvina — stroma.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p96ef0c10",
+     "pytanie": "Argumentem za endosymbiozą NIE jest:",
+     "odpowiedzi": [
+      "rybosomy typu 70S w organellum",
+      "otoczenie organellum dwiema błonami",
+      "własne koliste DNA w macierzy",
+      "obecność histonów w DNA organellum"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "DNA organelli jest bez histonów — jak u bakterii.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9ae8d1d5",
+     "pytanie": "Chloroplasty pochodzą od:",
+     "odpowiedzi": [
+      "proteobakterii",
+      "sinic",
+      "grzybów",
+      "archeowców"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Cyjanobakterie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe02ec029",
+     "pytanie": "Plastydy magazynujące skrobię to:",
+     "odpowiedzi": [
+      "amyloplasty",
+      "chromoplasty",
+      "chloroplasty",
+      "etioplasty"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Leukoplasty — amyloplasty.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p49890c69",
+     "pytanie": "Czerwona barwa dojrzałego pomidora wynika z obecności:",
+     "odpowiedzi": [
+      "betaniny",
+      "antocyjanów w wakuoli",
+      "chlorofilu b",
+      "karotenoidów w chromoplastach"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Likopen w chromoplastach.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p27c340ce",
+     "pytanie": "DNA mitochondrialne człowiek dziedziczy:",
+     "odpowiedzi": [
+      "po obojgu rodzicach po równo",
+      "niemal wyłącznie po matce",
+      "po ojcu",
+      "losowo"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Mitochondria z komórki jajowej.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8ff161ae",
+     "pytanie": "Organellum, w którym NIE ma DNA, to:",
+     "odpowiedzi": [
+      "mitochondrium",
+      "jądro komórkowe",
+      "chloroplast",
+      "aparat Golgiego"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "DNA: jądro, mitochondria, plastydy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-sciana",
+   "nazwa": "Ściana komórkowa, wakuola i cytoszkielet",
+   "opis": "Wymaganie II.10–12 podstawy programowej.",
+   "wymaganie": "II.10–12",
+   "fiszki": [
+    {
+     "id": "f17bdf042",
+     "przod": "Wyjaśnij pojęcie: ściana komórkowa",
+     "tyl": "Sztywna struktura na zewnątrz błony komórkowej roślin, grzybów, większości bakterii i niektórych protistów — nadaje kształt, chroni i przeciwdziała pęknięciu przy napływie wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f1b289ab3",
+     "przod": "Budowa ściany komórkowej roślin",
+     "tyl": "Mikrofibryle celulozy zatopione w matriks z hemiceluloz i pektyn; między ścianami sąsiednich komórek — blaszka środkowa (pektyny).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fc8ec25fc",
+     "przod": "Wyjaśnij pojęcie: blaszka środkowa",
+     "tyl": "Warstwa pektyn sklejająca ściany sąsiednich komórek roślinnych; jej rozpuszczenie powoduje rozpad tkanek (np. mięknięcie owoców).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fabf33db4",
+     "przod": "Wyjaśnij pojęcie: ściana pierwotna",
+     "tyl": "Cienka, elastyczna ściana młodych, rosnących komórek roślinnych — umożliwia ich wzrost.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fd01062d6",
+     "przod": "Wyjaśnij pojęcie: ściana wtórna",
+     "tyl": "Grubsza, sztywna ściana odkładana od wewnątrz po zakończeniu wzrostu komórki, często inkrustowana ligniną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f1e8d9395",
+     "przod": "Wyjaśnij pojęcie: inkrustacja",
+     "tyl": "Odkładanie substancji w ścianie komórkowej między włóknami celulozy — np. ligniny (drewnienie) lub krzemionki — zwiększa sztywność.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fda469816",
+     "przod": "Wyjaśnij pojęcie: adkrustacja",
+     "tyl": "Odkładanie substancji na powierzchni ściany — np. kutyny (kutykula), suberyny (korkowacenie) lub wosków — ogranicza przepuszczalność dla wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fb9ef1761",
+     "przod": "Wyjaśnij pojęcie: drewnienie (lignifikacja)",
+     "tyl": "Inkrustacja ściany ligniną — ściana staje się twarda i wytrzymała na ściskanie (np. naczynia, włókna drzewne).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f0883d7ba",
+     "przod": "Wyjaśnij pojęcie: korkowacenie (suberynizacja)",
+     "tyl": "Odkładanie suberyny w ścianach komórek korka — ściana staje się nieprzepuszczalna dla wody i gazów, a komórki obumierają.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f9dc0c539",
+     "przod": "Wyjaśnij pojęcie: jamki",
+     "tyl": "Miejsca w ścianie wtórnej, gdzie nie odłożyła się ściana wtórna — ułatwiają transport między komórkami (np. w naczyniach i cewkach).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f25f53071",
+     "przod": "Ściana komórkowa bakterii — skład",
+     "tyl": "Peptydoglikan (mureina) — polimer cukrów połączonych krótkimi peptydami; grubość i budowa różnią bakterie Gram-dodatnie od Gram-ujemnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fcdda1a1d",
+     "przod": "Dlaczego penicylina zabija bakterie, a nie szkodzi komórkom człowieka?",
+     "tyl": "Blokuje syntezę peptydoglikanu ściany bakteryjnej — komórki człowieka nie mają ściany ani peptydoglikanu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f8d3ca08d",
+     "przod": "Funkcje ściany komórkowej roślin (wymień 4)",
+     "tyl": "Nadaje kształt i sztywność, chroni przed uszkodzeniem i patogenami, przeciwdziała pękaniu przy napływie wody (turgor), uczestniczy w transporcie wody (apoplast).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f2ed7b85d",
+     "przod": "Wyjaśnij pojęcie: apoplast",
+     "tyl": "Ciągły system ścian komórkowych i przestrzeni międzykomórkowych rośliny, którym woda przemieszcza się bez przechodzenia przez błony.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f5ea4713e",
+     "przod": "Wyjaśnij pojęcie: symplast",
+     "tyl": "Połączone plazmodesmami cytoplazmy komórek rośliny — droga transportu wewnątrz komórek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fbbf837f4",
+     "przod": "Wyjaśnij pojęcie: wakuola",
+     "tyl": "Pęcherz otoczony błoną (tonoplastem), wypełniony sokiem komórkowym; w dojrzałej komórce roślinnej zajmuje do 90% objętości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fceab193c",
+     "przod": "Wyjaśnij pojęcie: sok komórkowy",
+     "tyl": "Wodny roztwór w wakuoli: sole mineralne, cukry, kwasy organiczne, barwniki (antocyjany), alkaloidy, garbniki, produkty przemiany materii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fe0e5b2ce",
+     "przod": "Funkcje wakuoli w komórce roślinnej (wymień 5)",
+     "tyl": "Utrzymuje turgor, magazynuje substancje zapasowe i wodę, gromadzi produkty uboczne i toksyny, odpowiada za barwę (antocyjany), trawi składniki komórki (funkcja lizosomalna), odstrasza roślinożerców (alkaloidy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fc2c05834",
+     "przod": "Wyjaśnij pojęcie: antocyjany",
+     "tyl": "Barwniki rozpuszczone w soku komórkowym — czerwone, fioletowe lub niebieskie zależnie od pH (np. w płatkach kwiatów, czerwonej kapuście, burakach — tam betalainy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fee61977e",
+     "przod": "Jak antocyjany z czerwonej kapusty wskazują pH?",
+     "tyl": "W środowisku kwaśnym są czerwone, w obojętnym — fioletowe, w zasadowym — niebieskozielone.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f3167479e",
+     "przod": "Wyjaśnij pojęcie: wodniczki tętniące",
+     "tyl": "Wakuole pulsujące u protistów słodkowodnych — usuwają nadmiar wody napływającej przez osmozę (osmoregulacja).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f21ea108f",
+     "przod": "Wyjaśnij pojęcie: wodniczki pokarmowe",
+     "tyl": "Wakuole, w których u protistów trawiony jest pobrany pokarm (po połączeniu z lizosomami).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f8506d37a",
+     "przod": "Wyjaśnij pojęcie: cytoszkielet",
+     "tyl": "Sieć włókien białkowych w cytoplazmie: mikrotubule, mikrofilamenty (aktynowe) i filamenty pośrednie — nadaje kształt, umożliwia ruch i transport wewnątrzkomórkowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f0d9871d4",
+     "przod": "Wyjaśnij pojęcie: mikrotubule",
+     "tyl": "Najgrubsze włókna cytoszkieletu (ok. 25 nm), puste rurki z tubuliny — budują wrzeciono podziałowe, rzęski, wici, centriole i są „szynami” transportu pęcherzyków.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fd0a7bb89",
+     "przod": "Wyjaśnij pojęcie: mikrofilamenty (filamenty aktynowe)",
+     "tyl": "Najcieńsze włókna cytoszkieletu (ok. 7 nm) z aktyny — ruch ameboidalny, ruchy cytoplazmy, cytokineza komórek zwierzęcych (pierścień kurczliwy), skurcz mięśni (z miozyną).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f6853fc04",
+     "przod": "Wyjaśnij pojęcie: filamenty pośrednie",
+     "tyl": "Włókna cytoszkieletu o średniej grubości (ok. 10 nm), np. z keratyny — nadają komórce wytrzymałość mechaniczną; budują laminę jądrową.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f12cace87",
+     "przod": "Wyjaśnij pojęcie: białka motoryczne",
+     "tyl": "Białka przemieszczające się wzdłuż włókien cytoszkieletu kosztem ATP (np. kinezyna i dyneina po mikrotubulach, miozyna po aktynie) — transportują pęcherzyki i organella.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f61f16986",
+     "przod": "Wyjaśnij pojęcie: wrzeciono podziałowe",
+     "tyl": "Struktura z mikrotubul tworzona podczas podziału komórki — rozdziela chromosomy (chromatydy) do biegunów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fc835a759",
+     "przod": "Budowa rzęski i wici eukariotycznej (układ 9×2+2)",
+     "tyl": "Dziewięć par mikrotubul na obwodzie i dwie pojedyncze w środku, połączone ramionami dyneiny; wyrastają z ciałka podstawowego (9×3).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f24b1c77f",
+     "przod": "Wyjaśnij pojęcie: cykloza (ruchy cytoplazmy)",
+     "tyl": "Ruch cytoplazmy w komórce (np. wokół wakuoli u moczarki), wywołany oddziaływaniem miozyny z mikrofilamentami — rozprowadza substancje i organella.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f119ee8b2",
+     "przod": "Jak przeprowadzić obserwację ruchów cytoplazmy?",
+     "tyl": "Preparat z młodego liścia moczarki kanadyjskiej w kropli wody; w ciepłym miejscu i na świetle widać przesuwanie się chloroplastów wzdłuż ścian komórki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fcbc98850",
+     "przod": "Jakie czynniki przyspieszają ruchy cytoplazmy?",
+     "tyl": "Umiarkowany wzrost temperatury i światło (więcej ATP i aktywniejsze białka motoryczne).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fdf289d1d",
+     "przod": "Wyjaśnij pojęcie: kolchicyna",
+     "tyl": "Alkaloid wiążący tubulinę i hamujący tworzenie mikrotubul — blokuje wrzeciono podziałowe (komórki zatrzymują się w metafazie); stosowana do uzyskiwania poliploidów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fd21badce",
+     "przod": "Rola cytoszkieletu w podziale komórki",
+     "tyl": "Mikrotubule tworzą wrzeciono rozdzielające chromosomy; mikrofilamenty tworzą pierścień kurczliwy, który przewęża komórkę zwierzęcą przy cytokinezie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fea7f68f4",
+     "przod": "Rola cytoszkieletu w transporcie wewnątrzkomórkowym",
+     "tyl": "Mikrotubule są „torami”, po których białka motoryczne przenoszą pęcherzyki (np. w aksonie od ciała neuronu do zakończenia).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f5156b4d5",
+     "przod": "Wyjaśnij pojęcie: zespół nieruchomych rzęsek (dyskineza rzęsek)",
+     "tyl": "Choroba genetyczna z wadliwą budową rzęsek (brak dyneiny) — upośledzone oczyszczanie dróg oddechowych, niepłodność męska (nieruchome plemniki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f6f81ef5f",
+     "przod": "Dlaczego komórki roślinne mogą być pozbawione centrioli, a mimo to tworzą wrzeciono?",
+     "tyl": "Bo mikrotubule wrzeciona organizowane są przez inne ośrodki organizacji mikrotubul (bez centrioli).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f8e0483ef",
+     "przod": "Wyjaśnij pojęcie: mikrokosmki",
+     "tyl": "Palczaste uwypuklenia błony komórek nabłonka (np. jelita) usztywnione mikrofilamentami — zwiększają powierzchnię wchłaniania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fecbca057",
+     "przod": "Jak ściana komórkowa umożliwia turgor?",
+     "tyl": "Ściana przeciwstawia się naciskowi rosnącej objętości wakuoli — powstaje ciśnienie turgorowe, które usztywnia komórkę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f231dcfe9",
+     "przod": "Dlaczego zwiędnięta roślina po podlaniu odzyskuje jędrność?",
+     "tyl": "Woda napływa do wakuol przez osmozę, protoplast naciska na ścianę i przywracany jest turgor.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fe0b210eb",
+     "przod": "Kalloza — rola w roślinie",
+     "tyl": "Polisacharyd odkładany np. na płytach sitowych rurek łyka i w miejscach zranień — zamyka połączenia i ogranicza wyciek soku lub wnikanie patogenów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f14907a88",
+     "przod": "Wyjaśnij pojęcie: kutykula",
+     "tyl": "Warstwa kutyny i wosków na zewnętrznej ścianie komórek skórki — ogranicza parowanie wody i chroni przed patogenami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "ff359fbee",
+     "przod": "Podaj nazwę pojęcia: Warstwa pektyn sklejająca ściany sąsiednich komórek roślinnych; jej rozpuszczenie powoduje rozpad tkanek (np. mięknięcie owoców).",
+     "tyl": "blaszka środkowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f0758ca25",
+     "przod": "Podaj nazwę pojęcia: Odkładanie substancji w ścianie komórkowej między włóknami celulozy — np. ligniny (drewnienie) lub krzemionki — zwiększa sztywność.",
+     "tyl": "inkrustacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f9e01332b",
+     "przod": "Podaj nazwę pojęcia: Odkładanie substancji na powierzchni ściany — np. kutyny (kutykula), suberyny (korkowacenie) lub wosków — ogranicza przepuszczalność dla wody.",
+     "tyl": "adkrustacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f13a192cf",
+     "przod": "Podaj nazwę pojęcia: Miejsca w ścianie wtórnej, gdzie nie odłożyła się ściana wtórna — ułatwiają transport między komórkami (np. w naczyniach i cewkach).",
+     "tyl": "jamki",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fe4fb3faa",
+     "przod": "Rozpoznaj: Nadaje kształt i sztywność, chroni przed uszkodzeniem i patogenami, przeciwdziała pękaniu przy napływie wody (turgor), uczestniczy w transporcie wody (apoplast).",
+     "tyl": "Funkcje ściany komórkowej roślin (wymień 4)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f31b93979",
+     "przod": "Podaj nazwę pojęcia: Ciągły system ścian komórkowych i przestrzeni międzykomórkowych rośliny, którym woda przemieszcza się bez przechodzenia przez błony.",
+     "tyl": "apoplast",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f6db5a0eb",
+     "przod": "Podaj nazwę pojęcia: Połączone plazmodesmami cytoplazmy komórek rośliny — droga transportu wewnątrz komórek.",
+     "tyl": "symplast",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f47f6de3e",
+     "przod": "Podaj nazwę pojęcia: Pęcherz otoczony błoną (tonoplastem), wypełniony sokiem komórkowym; w dojrzałej komórce roślinnej zajmuje do 90% objętości.",
+     "tyl": "wakuola",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fbbb9e6f3",
+     "przod": "Podaj nazwę pojęcia: Wodny roztwór w wakuoli: sole mineralne, cukry, kwasy organiczne, barwniki (antocyjany), alkaloidy, garbniki, produkty przemiany materii.",
+     "tyl": "sok komórkowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "fda412aa1",
+     "przod": "Podaj nazwę pojęcia: Barwniki rozpuszczone w soku komórkowym — czerwone, fioletowe lub niebieskie zależnie od pH (np. w płatkach kwiatów, czerwonej kapuście, burakach — tam betalainy).",
+     "tyl": "antocyjany",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f7c5d784b",
+     "przod": "Podaj nazwę pojęcia: Wakuole pulsujące u protistów słodkowodnych — usuwają nadmiar wody napływającej przez osmozę (osmoregulacja).",
+     "tyl": "wodniczki tętniące",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f25fa7580",
+     "przod": "Podaj nazwę pojęcia: Sieć włókien białkowych w cytoplazmie: mikrotubule, mikrofilamenty (aktynowe) i filamenty pośrednie — nadaje kształt, umożliwia ruch i transport wewnątrzkomórkowy.",
+     "tyl": "cytoszkielet",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f2b1dc011",
+     "przod": "Podaj nazwę pojęcia: Najgrubsze włókna cytoszkieletu (ok. 25 nm), puste rurki z tubuliny — budują wrzeciono podziałowe, rzęski, wici, centriole i są „szynami” transportu pęcherzyków.",
+     "tyl": "mikrotubule",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f4de5fd50",
+     "przod": "Podaj nazwę pojęcia: Włókna cytoszkieletu o średniej grubości (ok. 10 nm), np. z keratyny — nadają komórce wytrzymałość mechaniczną; budują laminę jądrową.",
+     "tyl": "filamenty pośrednie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f7f2e0fd3",
+     "przod": "Rozpoznaj: Dziewięć par mikrotubul na obwodzie i dwie pojedyncze w środku, połączone ramionami dyneiny; wyrastają z ciałka podstawowego (9×3).",
+     "tyl": "Budowa rzęski i wici eukariotycznej (układ 9×2+2)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f5607eac1",
+     "przod": "Podaj nazwę pojęcia: Alkaloid wiążący tubulinę i hamujący tworzenie mikrotubul — blokuje wrzeciono podziałowe (komórki zatrzymują się w metafazie); stosowana do uzyskiwania poliploidów.",
+     "tyl": "kolchicyna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f53ab16b6",
+     "przod": "Rozpoznaj: Polisacharyd odkładany np. na płytach sitowych rurek łyka i w miejscach zranień — zamyka połączenia i ogranicza wyciek soku lub wnikanie patogenów.",
+     "tyl": "Kalloza — rola w roślinie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    },
+    {
+     "id": "f6821668c",
+     "przod": "Podaj nazwę pojęcia: Warstwa kutyny i wosków na zewnętrznej ścianie komórek skórki — ogranicza parowanie wody i chroni przed patogenami.",
+     "tyl": "kutykula",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.10–12"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p0ee5ef6e",
+     "pytanie": "Blaszkę środkową między komórkami roślinnymi budują głównie:",
+     "odpowiedzi": [
+      "pektyny",
+      "celuloza",
+      "lignina",
+      "suberyna"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Pektyny sklejają ściany.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8bb795c2",
+     "pytanie": "Drewnienie ściany komórkowej polega na odkładaniu:",
+     "odpowiedzi": [
+      "kutyny",
+      "ligniny",
+      "chityny",
+      "suberyny"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Lignifikacja — inkrustacja ligniną.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4605bf88",
+     "pytanie": "Mikrotubule NIE budują:",
+     "odpowiedzi": [
+      "rzęsek i wici komórek eukariotycznych",
+      "centrioli i ciałek podstawowych rzęsek",
+      "pierścienia kurczliwego w cytokinezie zwierząt",
+      "wrzeciona podziałowego w czasie mitozy"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Pierścień kurczliwy — mikrofilamenty aktynowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe4fdb62c",
+     "pytanie": "Układ mikrotubul „9×2+2” występuje w:",
+     "odpowiedzi": [
+      "aksonemie rzęski i wici",
+      "centrioli",
+      "wrzecionie",
+      "ciałku podstawowym"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Centriola i ciałko podstawowe — 9×3.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd9ec4033",
+     "pytanie": "Kolchicyna hamuje podział komórki, ponieważ:",
+     "odpowiedzi": [
+      "rozpuszcza ścianę komórkową rośliny",
+      "niszczy DNA w jądrze komórkowym",
+      "blokuje tworzenie mikrotubul wrzeciona",
+      "hamuje syntezę ATP w mitochondriach"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Komórki zatrzymują się w metafazie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p573ed33e",
+     "pytanie": "Barwa płatków chabra jest wynikiem obecności:",
+     "odpowiedzi": [
+      "ksantofili",
+      "karotenoidów w chromoplastach",
+      "antocyjanów w soku komórkowym",
+      "chlorofilu"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Antocyjany w wakuoli.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1ab8c25f",
+     "pytanie": "Peptydoglikan buduje ścianę komórkową:",
+     "odpowiedzi": [
+      "bakterii",
+      "roślin",
+      "grzybów",
+      "protistów"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Mureina.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd1df9aaf",
+     "pytanie": "Ruch cytoplazmy w komórkach moczarki zależy od:",
+     "odpowiedzi": [
+      "turgoru wywieranego na ścianę",
+      "mikrotubul i białka dyneiny",
+      "mikrofilamentów aktynowych i miozyny",
+      "filamentów pośrednich z keratyny"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Aktyna + miozyna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
