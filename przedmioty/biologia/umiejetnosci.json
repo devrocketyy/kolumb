@@ -1,0 +1,1195 @@
+{
+ "id": "umiejetnosci",
+ "nazwa": "Umiejętności egzaminacyjne",
+ "opis": "Czasowniki operacyjne, metodologia badań, analiza danych i konstruowanie wykresów.",
+ "poddzialy": [
+  {
+   "id": "b-czasowniki",
+   "nazwa": "Czasowniki operacyjne i budowa odpowiedzi",
+   "opis": "Wymaganie og. IV podstawy programowej.",
+   "wymaganie": "og. IV",
+   "fiszki": [
+    {
+     "id": "f963f11ff",
+     "przod": "Czego wymaga polecenie „wyjaśnij”?",
+     "tyl": "Przedstawienia zależności przyczynowo-skutkowej: przyczyna → mechanizm (jak jedno prowadzi do drugiego) → skutek. Sam opis zjawiska nie wystarcza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fa1d148ad",
+     "przod": "Jakie trzy elementy musi zawierać odpowiedź na polecenie „wyjaśnij”?",
+     "tyl": "Przyczynę, mechanizm (drogę od przyczyny do skutku) i skutek, o który pyta polecenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fac58562b",
+     "przod": "Najczęstszy błąd w odpowiedziach na „wyjaśnij” według sprawozdań CKE",
+     "tyl": "Pominięcie mechanizmu — podanie tylko przyczyny i skutku („bo jest zimno, więc enzym działa wolniej”) bez wskazania, co zachodzi pomiędzy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "ffb2bfd25",
+     "przod": "Czego wymaga polecenie „wykaż” („udowodnij”)?",
+     "tyl": "Udowodnienia, że istnieje zależność (czasowa, przestrzenna, przyczynowo-skutkowa, budowa–funkcja) między podanymi faktami — odpowiedź musi łączyć oba elementy wskazane w poleceniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fe8fd47bb",
+     "przod": "Jak zbudować odpowiedź „wykaż związek budowy z funkcją”?",
+     "tyl": "Wskazać konkretną cechę budowy i powiązać ją z tym, jak umożliwia lub ułatwia pełnienie funkcji, np. „duża powierzchnia kosmków → więcej miejsca na wchłanianie”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fae7cc9e4",
+     "przod": "Typowy błąd w poleceniu „wykaż związek budowy z funkcją”",
+     "tyl": "Opisanie samej budowy albo samej funkcji bez połączenia ich ze sobą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fb5514d98",
+     "przod": "Czego wymaga polecenie „uzasadnij”?",
+     "tyl": "Podania argumentu (dowodu), który rzeczywiście przemawia za rozstrzygnięciem lub stwierdzeniem — najlepiej odwołującego się do danych z zadania lub do mechanizmu biologicznego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f5a0e9b41",
+     "przod": "Na co powinno wskazywać uzasadnienie wyboru jednej z kilku opcji?",
+     "tyl": "Na cechę, którą wybrana opcja różni się od pozostałych — a nie na ogólny opis wybranej opcji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f505a846a",
+     "przod": "Dlaczego uzasadnienie „to tętnica, bo płynie w niej krew utlenowana” jest błędne?",
+     "tyl": "Bo o podziale naczyń decyduje kierunek przepływu krwi (tętnice — od serca), a nie jej natlenienie; tętnica płucna niesie krew odtlenowaną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f1f24b5e1",
+     "przod": "Czego wymaga polecenie „rozstrzygnij i uzasadnij”?",
+     "tyl": "Jednoznacznego wyboru (tak/nie, A/B) oraz argumentu za tym wyborem. Brak rozstrzygnięcia lub niejednoznaczne rozstrzygnięcie = 0 pkt.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fc102c6ca",
+     "przod": "Czego wymaga polecenie „określ”?",
+     "tyl": "Krótkiego podania cechy, roli lub zależności — bez rozbudowanego uzasadnienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f057ddaaf",
+     "przod": "Czego wymaga polecenie „podaj” / „wymień”?",
+     "tyl": "Podania nazwy, cechy lub przykładu w krótkiej formie, bez wyjaśniania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f48bda01f",
+     "przod": "Czego wymaga polecenie „opisz”?",
+     "tyl": "Przedstawienia przebiegu procesu lub cech struktury w logicznej kolejności, z użyciem poprawnych terminów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f0ffd9c77",
+     "przod": "Czego wymaga polecenie „porównaj”?",
+     "tyl": "Wskazania podobieństw lub różnic dotyczących tej samej cechy obu obiektów, np. „w mitozie powstają 2 komórki, w mejozie — 4”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f28dcdff0",
+     "przod": "Typowy błąd w poleceniu „porównaj”",
+     "tyl": "Opisanie każdego obiektu osobno, bez zestawienia tej samej cechy (np. „mitoza daje 2 komórki; mejoza zachodzi w gonadach”).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fe23d1aae",
+     "przod": "Czego wymaga polecenie „oceń prawdziwość stwierdzeń” (P/F)?",
+     "tyl": "Wskazania przy każdym zdaniu, czy jest prawdziwe, czy fałszywe. Zwykle 1 pkt tylko za wszystkie poprawne oceny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f25485c2c",
+     "przod": "Czego wymaga polecenie „sformułuj wniosek”?",
+     "tyl": "Uogólnienia wynikającego z wyników badania, które odnosi się do problemu badawczego (np. „temperatura wpływa na…”). Wniosek nie może wykraczać poza dane.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fe44ea819",
+     "przod": "Czego wymaga polecenie „sformułuj problem badawczy”?",
+     "tyl": "Pytania (lub zdania w formie pytającej), na które ma odpowiedzieć doświadczenie, zawierającego zmienną niezależną i zależną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f76945525",
+     "przod": "Czego wymaga polecenie „sformułuj hipotezę”?",
+     "tyl": "Twierdzenia (zdania oznajmującego), które przewiduje wynik badania i można je potwierdzić albo obalić doświadczeniem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f7a634657",
+     "przod": "Czego wymaga polecenie „zaprojektuj doświadczenie”?",
+     "tyl": "Opisu próby badawczej i kontrolnej, zmiennej niezależnej, warunków stałych oraz sposobu pomiaru wyniku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f7013776c",
+     "przod": "Czego wymaga polecenie „narysuj wykres”?",
+     "tyl": "Wykresu samoobjaśnialnego: tytuł lub opis, opisane osie z jednostkami, odpowiednia skala, poprawnie naniesione punkty, legenda przy kilku seriach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fa423a590",
+     "przod": "Jak oceniane są zadania otwarte na maturze z biologii?",
+     "tyl": "Według zasad oceniania CKE: za każdą poprawną i zgodną z poleceniem odpowiedź merytoryczną przyznaje się punkty, nawet jeśli nie ma jej w kluczu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fe7e5ee67",
+     "przod": "Co się dzieje, gdy w odpowiedzi obok poprawnych informacji jest błąd merytoryczny?",
+     "tyl": "Odpowiedź zwykle traci punkt — dodatkowe, błędne informacje „psują” poprawną część.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f063f6930",
+     "przod": "Dlaczego nie warto dopisywać „na wszelki wypadek” kilku odpowiedzi?",
+     "tyl": "Bo przy podaniu kilku odpowiedzi, z których jedna jest błędna, egzaminator przyznaje 0 pkt.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fec1fb0a8",
+     "przod": "Jak precyzyjnie nazywać struktury i procesy w odpowiedzi?",
+     "tyl": "Używać terminów z podstawy programowej (np. „kanał jonowy”, „siateczka śródplazmatyczna szorstka”) zamiast potocznych określeń („dziurka w błonie”).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f553f4764",
+     "przod": "Co oznacza „odwołaj się do danych z wykresu”?",
+     "tyl": "Odpowiedź musi zawierać konkretną informację odczytaną z wykresu (wartość, kierunek zmiany, porównanie) — sama wiedza z podręcznika nie wystarcza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fc3a7ec18",
+     "przod": "Ile punktów maksymalnie daje zadanie otwarte na maturze z biologii?",
+     "tyl": "1, 2 lub 3 punkty (najczęściej 1).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f6839f627",
+     "przod": "Ile zadań i punktów ma arkusz z biologii (formuła 2023)?",
+     "tyl": "44–56 zadań, łącznie 60 punktów, 180 minut.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f3c815fbb",
+     "przod": "Czym jest wiązka zadań?",
+     "tyl": "Zestaw 2–5 zadań opartych na wspólnym materiale (tekst, schemat, wykres, opis doświadczenia). Każde zadanie z wiązki da się rozwiązać niezależnie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f1f1f7925",
+     "przod": "Jaki udział punktów na maturze z biologii mają zadania otwarte?",
+     "tyl": "Około 70% (w 2026 r. 42 z 60 pkt). Zadania otwarte są też trudniejsze niż zamknięte.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f3c7dcf64",
+     "przod": "Co to jest „nowy kontekst” w zadaniach maturalnych?",
+     "tyl": "Sytuacja nieznana z podręcznika (np. nowa terapia, nietypowy organizm), w której trzeba zastosować znane prawa biologiczne. CKE co roku wskazuje to jako źródło trudności.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f3a1cba52",
+     "przod": "Jak radzić sobie z zadaniem w nowym kontekście?",
+     "tyl": "Zidentyfikować, którego znanego procesu dotyczy (np. ekspresja genu, osmoza), wypisać dane z materiału i zastosować do nich znaną zależność.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f054489eb",
+     "przod": "Czym różni się „opisz” od „wyjaśnij”?",
+     "tyl": "„Opisz” — co się dzieje i w jakiej kolejności; „wyjaśnij” — dlaczego tak się dzieje (przyczyna → mechanizm → skutek).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f63e0933c",
+     "przod": "Czym różni się „określ” od „uzasadnij”?",
+     "tyl": "„Określ” wymaga podania cechy/roli; „uzasadnij” — argumentu, który dowodzi prawdziwości stwierdzenia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fffdcb3a5",
+     "przod": "Jak sprawdzić własną odpowiedź przed oddaniem arkusza?",
+     "tyl": "Czy odpowiada dokładnie na polecenie? Czy każdy element jest potrzebny? Czy wniosek wynika z przesłanek? Czy nie wykracza poza dane? Czy dodatki nie przeczą poprawnej części?",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f25d03423",
+     "przod": "Pułapka: odpowiedź prawdziwa, ale nie na temat",
+     "tyl": "Według CKE częsty błąd — zdający podaje poprawne informacje biologiczne, które nie realizują polecenia (np. opisuje proces zamiast go wyjaśnić). Taka odpowiedź dostaje 0 pkt.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "ff4da9b55",
+     "przod": "Czym jest „samoobjaśnialność” schematu lub wykresu?",
+     "tyl": "Takie opisanie elementów (tytuł, osie, jednostki, legenda), że rysunek jest zrozumiały bez czytania tekstu zadania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f7c25f914",
+     "przod": "Jakie przybory można mieć na maturze z biologii?",
+     "tyl": "Długopis z czarnym tuszem, linijkę i kalkulator prosty. Do arkusza dołączona jest karta wybranych wzorów i stałych fizykochemicznych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fe692878e",
+     "przod": "Ile czasu średnio przypada na 1 punkt na maturze z biologii?",
+     "tyl": "Około 3 minuty (180 min : 60 pkt) — warto pilnować tempa i nie utknąć na jednym zadaniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f2ba5ac1f",
+     "przod": "Jak zapisywać odpowiedź na „wyjaśnij” w praktyce?",
+     "tyl": "Jednym–dwoma zdaniami z łącznikami przyczynowymi: „ponieważ…, dlatego…, co powoduje…, w wyniku czego…”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fa7d455f0",
+     "przod": "Rozpoznaj: Opisanie każdego obiektu osobno, bez zestawienia tej samej cechy (np. „mitoza daje 2 komórki; mejoza zachodzi w gonadach”).",
+     "tyl": "Typowy błąd w poleceniu „porównaj”",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p826a06a9",
+     "pytanie": "Odpowiedź na polecenie „wyjaśnij” powinna zawierać przede wszystkim:",
+     "odpowiedzi": [
+      "definicję pojęcia z polecenia",
+      "opis budowy struktury",
+      "listę przykładów",
+      "przyczynę, mechanizm i skutek"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "CKE: wyjaśnienie to droga od przyczyny do skutku.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p27d8a848",
+     "pytanie": "Uzasadnienie wyboru jednej z opcji powinno:",
+     "odpowiedzi": [
+      "zawierać kilka alternatywnych odpowiedzi",
+      "wskazywać cechę różniącą wybraną opcję od pozostałych",
+      "opisywać wybraną opcję jak najdokładniej",
+      "powtarzać treść polecenia"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Typowy błąd z 2025 r.: opis opcji zamiast cechy różnicującej.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1366f47e",
+     "pytanie": "Uczeń napisał kilka odpowiedzi, z których jedna jest błędna. Ile punktów otrzyma?",
+     "odpowiedzi": [
+      "połowę",
+      "punkt za każdą poprawną",
+      "0 pkt",
+      "pełną liczbę"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Podanie kilku odpowiedzi, w tym błędnej, skutkuje brakiem punktów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "peffad091",
+     "pytanie": "Polecenie „porównaj” wymaga:",
+     "odpowiedzi": [
+      "opisania każdego obiektu oddzielnie",
+      "podania definicji obu obiektów",
+      "zestawienia tej samej cechy obu obiektów",
+      "narysowania schematu"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Porównanie dotyczy tej samej cechy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p37d40ede",
+     "pytanie": "Hipoteza to:",
+     "odpowiedzi": [
+      "wniosek z doświadczenia",
+      "twierdzenie przewidujące wynik, które można zweryfikować",
+      "pytanie badawcze",
+      "opis wyników badania"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Problem — pytanie; hipoteza — twierdzenie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p95cbc4ec",
+     "pytanie": "Ile punktów łącznie można uzyskać na maturze rozszerzonej z biologii?",
+     "odpowiedzi": [
+      "100",
+      "50",
+      "60",
+      "70"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "60 pkt, 180 minut, 44–56 zadań.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p08993dd8",
+     "pytanie": "Zadania z jednej wiązki:",
+     "odpowiedzi": [
+      "dotyczą wspólnego materiału, ale każde można rozwiązać niezależnie",
+      "zawsze mają po 2 pkt",
+      "trzeba rozwiązywać w kolejności, bo zależą od siebie",
+      "zawsze są zamknięte"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Informator CKE: każde zadanie wiązki jest niezależne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa32ec1cc",
+     "pytanie": "Które zdanie jest poprawnym wyjaśnieniem?",
+     "odpowiedzi": [
+      "Enzym działa w optymalnej temperaturze.",
+      "Wysoka temperatura zrywa wiązania stabilizujące strukturę białka enzymu, zmienia się kształt centrum aktywnego, więc substrat nie może się z nim wiązać.",
+      "Wysoka temperatura obniża aktywność enzymu.",
+      "Enzym to białko."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Tylko ta odpowiedź zawiera mechanizm.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-metodologia",
+   "nazwa": "Metodologia badań biologicznych",
+   "opis": "Wymaganie og. II podstawy programowej.",
+   "wymaganie": "og. II",
+   "fiszki": [
+    {
+     "id": "f47034a12",
+     "przod": "Wyjaśnij pojęcie: problem badawczy",
+     "tyl": "Pytanie, na które odpowiada doświadczenie, np. „Czy temperatura wpływa na aktywność katalazy?”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f99cf0e73",
+     "przod": "Wyjaśnij pojęcie: hipoteza badawcza",
+     "tyl": "Przypuszczenie (zdanie oznajmujące) przewidujące wynik doświadczenia, np. „Wraz ze wzrostem temperatury do 40°C aktywność katalazy rośnie”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fc4687cff",
+     "przod": "Wyjaśnij pojęcie: zmienna niezależna",
+     "tyl": "Czynnik, który badacz celowo zmienia w doświadczeniu (np. temperatura, stężenie, natężenie światła).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "faec71cae",
+     "przod": "Wyjaśnij pojęcie: zmienna zależna",
+     "tyl": "Wielkość mierzona, która zmienia się pod wpływem zmiennej niezależnej (np. objętość wydzielonego tlenu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fba14958b",
+     "przod": "Wyjaśnij pojęcie: próba badawcza",
+     "tyl": "Zestaw, w którym działa badany czynnik (zmienna niezależna ma wartość badaną).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fd9bf3ee2",
+     "przod": "Wyjaśnij pojęcie: próba kontrolna",
+     "tyl": "Zestaw identyczny z badawczym, ale bez działania badanego czynnika (lub z jego wartością odniesienia) — pozwala stwierdzić, że wynik zależy właśnie od tego czynnika.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f2ba68fb4",
+     "przod": "Po co w doświadczeniu jest próba kontrolna?",
+     "tyl": "By porównać z nią wyniki próby badawczej i wykluczyć, że zmiana wynika z innego czynnika niż badany.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f84d7de99",
+     "przod": "Jakie warunki muszą być jednakowe w próbie badawczej i kontrolnej?",
+     "tyl": "Wszystkie poza badanym czynnikiem (temperatura, objętość, czas, rodzaj materiału itp.) — to tzw. warunki stałe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fcecbbd83",
+     "przod": "Wyjaśnij pojęcie: zmienna kontrolowana (warunek stały)",
+     "tyl": "Czynnik utrzymywany na stałym poziomie we wszystkich próbach, aby nie wpływał na wynik.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f438bb9c4",
+     "przod": "Dlaczego doświadczenie powtarza się kilka razy lub stosuje kilka prób?",
+     "tyl": "By ograniczyć wpływ przypadkowych błędów i zmienności osobniczej — wynik staje się wiarygodniejszy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f6f590066",
+     "przod": "Czym różni się wynik od wniosku?",
+     "tyl": "Wynik to opis tego, co zaobserwowano lub zmierzono; wniosek to uogólnienie odpowiadające na problem badawczy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f790547c3",
+     "przod": "Czym różni się wniosek od wyjaśnienia?",
+     "tyl": "Wniosek mówi, JAKA jest zależność („temperatura wpływa na…”); wyjaśnienie mówi, DLACZEGO tak jest (mechanizm).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f51f61e0b",
+     "przod": "Typowy błąd we wnioskach według CKE (2026)",
+     "tyl": "Ograniczenie wniosku do opisu pojedynczej wartości z wykresu albo rozszerzenie go poza zakres danych (np. o czynniki, których nie badano).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fe61131f6",
+     "przod": "Wyjaśnij pojęcie: obserwacja (w metodologii)",
+     "tyl": "Metoda badawcza polegająca na rejestrowaniu zjawisk bez ingerencji w ich przebieg (np. obserwacja mikroskopowa ruchów cytoplazmy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f87820a23",
+     "przod": "Czym różni się doświadczenie od obserwacji?",
+     "tyl": "W doświadczeniu badacz celowo zmienia jeden czynnik i porównuje próby; w obserwacji tylko rejestruje zjawisko.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f877ee093",
+     "przod": "Jak zaprojektować próbę kontrolną w badaniu wpływu światła na fotosyntezę moczarki?",
+     "tyl": "Taka sama roślina i warunki (temperatura, woda, CO₂), ale w ciemności (lub przy innym, wyjściowym natężeniu światła).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fe77814cf",
+     "przod": "Co oznacza próba kontrolna z „zagotowanym” materiałem (np. ugotowany ziemniak w badaniu katalazy)?",
+     "tyl": "Enzymy uległy denaturacji — brak reakcji w tej próbie dowodzi, że wynik w próbie badawczej zależy od aktywnego enzymu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fb84b5baf",
+     "przod": "Czym jest kontrola negatywna, a czym pozytywna?",
+     "tyl": "Negatywna — próba, w której nie powinien wystąpić efekt (np. woda zamiast enzymu); pozytywna — próba, w której efekt musi wystąpić (np. znany aktywny enzym), co potwierdza, że metoda działa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fdbb2f039",
+     "przod": "Jak sformułować problem badawczy z dwiema zmiennymi?",
+     "tyl": "Wpływ [zmiennej niezależnej] na [zmienną zależną] u [obiektu], np. „Wpływ pH na aktywność amylazy ślinowej”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f975eabdc",
+     "przod": "Dlaczego w doświadczeniu zmienia się tylko jeden czynnik?",
+     "tyl": "Bo tylko wtedy można przypisać zmianę wyniku temu czynnikowi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f07723039",
+     "przod": "Wyjaśnij pojęcie: wskaźnik (w doświadczeniu)",
+     "tyl": "Substancja lub zjawisko pozwalające wykryć wynik, np. płyn Lugola (skrobia), woda wapienna (CO₂), błękit bromotymolowy (zmiana pH).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f1a94740c",
+     "przod": "Jakim odczynnikiem wykrywa się skrobię i jaki jest wynik dodatni?",
+     "tyl": "Płynem Lugola (jodyną w KI) — granatowe lub fioletowoczarne zabarwienie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fe2b0398c",
+     "przod": "Jakim odczynnikiem wykrywa się białko i jaki jest wynik dodatni?",
+     "tyl": "Odczynnikiem biuretowym (CuSO₄ w środowisku zasadowym) — fioletowe zabarwienie (reakcja biuretowa); reakcja ksantoproteinowa (HNO₃) daje zabarwienie żółte.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "faed9be05",
+     "przod": "Jak wykazać, że drożdże przeprowadzają fermentację alkoholową?",
+     "tyl": "Umieścić drożdże z roztworem cukru w szczelnym naczyniu i wykazać wydzielanie CO₂ (np. mętnienie wody wapiennej); próba kontrolna — bez cukru lub z zagotowanymi drożdżami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f768bdbba",
+     "przod": "Co to jest wynik fałszywie dodatni?",
+     "tyl": "Wynik wskazujący na obecność efektu, którego w rzeczywistości nie ma — np. z powodu zanieczyszczenia próby.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "ff325408d",
+     "przod": "Dlaczego w badaniach na organizmach stosuje się wiele osobników?",
+     "tyl": "Ze względu na zmienność osobniczą — wynik dla jednego osobnika może być przypadkowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fd09c7dd0",
+     "przod": "Wyjaśnij pojęcie: badanie z podwójnie ślepą próbą",
+     "tyl": "Badanie (np. leku), w którym ani uczestnicy, ani badacze nie wiedzą, kto otrzymuje lek, a kto placebo — eliminuje wpływ oczekiwań.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f8cf30605",
+     "przod": "Wyjaśnij pojęcie: placebo",
+     "tyl": "Substancja obojętna podawana grupie kontrolnej w badaniach leków, wyglądająca jak badany lek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fffb2cc2e",
+     "przod": "Jak określić, czy czynnik X jest zmienną niezależną w opisanym doświadczeniu?",
+     "tyl": "Sprawdzić, czy badacz ustalał jego różne wartości w różnych próbach (tabela wyników zwykle ma go w pierwszej kolumnie / na osi X).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f774548e3",
+     "przod": "Pytania kontrolne CKE do analizy procedury badawczej",
+     "tyl": "Co dany zabieg kontroluje? Jakie źródło zmienności ogranicza? Jakie porównanie umożliwia? Czego na podstawie danych nie można rozstrzygnąć?",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "ffa54c5ea",
+     "przod": "Dlaczego zestaw z moczarką trzyma się w wodzie z dodatkiem NaHCO₃?",
+     "tyl": "Wodorowęglan jest źródłem CO₂ — dzięki temu dostępność CO₂ nie ogranicza fotosyntezy i jest stałym warunkiem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fb32d5267",
+     "przod": "Czym jest czynnik ograniczający w doświadczeniu nad fotosyntezą?",
+     "tyl": "Czynnik, którego niedobór ogranicza tempo procesu mimo optymalnej wartości innych (np. przy dużym natężeniu światła — stężenie CO₂).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f962e781e",
+     "przod": "Jak wykazać obecność tlenu wydzielanego w fotosyntezie?",
+     "tyl": "Zebrać gaz z moczarki w probówce i włożyć tlące się łuczywo — rozpali się.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f1ae86d60",
+     "przod": "Co to jest powtarzalność wyników?",
+     "tyl": "Uzyskiwanie podobnych wyników przy powtórzeniu doświadczenia w tych samych warunkach — świadczy o jego wiarygodności.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f06f52001",
+     "przod": "Dlaczego wniosek „X powoduje Y u wszystkich organizmów” jest zwykle błędny?",
+     "tyl": "Bo wykracza poza dane — doświadczenie przeprowadzono na określonym obiekcie i w określonym zakresie warunków.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fa38b9d73",
+     "przod": "Jak zaplanować badanie wpływu temperatury na kiełkowanie nasion?",
+     "tyl": "Kilka grup jednakowych nasion na wilgotnej ligninie w różnych temperaturach (np. 5, 15, 25, 35°C), reszta warunków stała; mierzyć odsetek wykiełkowanych nasion po tym samym czasie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f895da991",
+     "przod": "Czym jest korelacja a czym związek przyczynowy?",
+     "tyl": "Korelacja — dwie wielkości zmieniają się razem; związek przyczynowy — jedna jest przyczyną drugiej. Korelacja nie dowodzi przyczynowości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fb992985f",
+     "przod": "Przykład: dlaczego korelacja nie dowodzi przyczyny?",
+     "tyl": "Wzrost sprzedaży lodów i liczby utonięć latem — oba wynikają z temperatury (trzeciego czynnika), a nie jeden z drugiego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f8bd835ce",
+     "przod": "Jak w doświadczeniu wyeliminować wpływ światła na wynik?",
+     "tyl": "Prowadzić wszystkie próby w ciemności lub w identycznym oświetleniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f0e67337d",
+     "przod": "Co to jest roztwór izotoniczny jako próba kontrolna w badaniu osmozy?",
+     "tyl": "Roztwór o takim samym stężeniu jak wnętrze komórek — komórki nie zmieniają objętości, co daje punkt odniesienia dla roztworów hipo- i hipertonicznych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "ff01ee31d",
+     "przod": "Podaj nazwę pojęcia: Pytanie, na które odpowiada doświadczenie, np. „Czy temperatura wpływa na aktywność katalazy?”.",
+     "tyl": "problem badawczy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f0892da3b",
+     "przod": "Podaj nazwę pojęcia: Przypuszczenie (zdanie oznajmujące) przewidujące wynik doświadczenia, np. „Wraz ze wzrostem temperatury do 40°C aktywność katalazy rośnie”.",
+     "tyl": "hipoteza badawcza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f41ba980d",
+     "przod": "Podaj nazwę pojęcia: Zestaw, w którym działa badany czynnik (zmienna niezależna ma wartość badaną).",
+     "tyl": "próba badawcza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fd80ad344",
+     "przod": "Podaj nazwę pojęcia: Zestaw identyczny z badawczym, ale bez działania badanego czynnika (lub z jego wartością odniesienia) — pozwala stwierdzić, że wynik zależy właśnie od tego czynnika.",
+     "tyl": "próba kontrolna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "ffdbac6ee",
+     "przod": "Podaj nazwę pojęcia: Substancja lub zjawisko pozwalające wykryć wynik, np. płyn Lugola (skrobia), woda wapienna (CO₂), błękit bromotymolowy (zmiana pH).",
+     "tyl": "wskaźnik (w doświadczeniu)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fadd1b160",
+     "przod": "Podaj nazwę pojęcia: Substancja obojętna podawana grupie kontrolnej w badaniach leków, wyglądająca jak badany lek.",
+     "tyl": "placebo",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pd8e6348d",
+     "pytanie": "W badaniu wpływu temperatury na aktywność katalazy zmienną zależną jest:",
+     "odpowiedzi": [
+      "ilość wydzielonego tlenu",
+      "rodzaj materiału roślinnego",
+      "temperatura",
+      "objętość H₂O₂"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Mierzona wielkość = zmienna zależna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa9530c14",
+     "pytanie": "Próba kontrolna różni się od badawczej:",
+     "odpowiedzi": [
+      "tylko czasem trwania",
+      "tylko badanym czynnikiem",
+      "wszystkimi warunkami",
+      "liczbą powtórzeń"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Pozostałe warunki są stałe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0b6673f5",
+     "pytanie": "Które zdanie jest hipotezą?",
+     "odpowiedzi": [
+      "Nasiona rzeżuchy kiełkują szybciej w ciemności niż na świetle.",
+      "Czy światło wpływa na kiełkowanie rzeżuchy?",
+      "Badano kiełkowanie rzeżuchy.",
+      "Wykiełkowało 80% nasion."
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Hipoteza to twierdzenie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p467a910d",
+     "pytanie": "Wynik dodatni z płynem Lugola to zabarwienie:",
+     "odpowiedzi": [
+      "granatowe",
+      "ceglastoczerwone",
+      "fioletowe",
+      "żółte"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Skrobia + jod = granat.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p461db676",
+     "pytanie": "Zagotowany materiał w próbie kontrolnej służy do:",
+     "odpowiedzi": [
+      "przyspieszenia reakcji",
+      "zwiększenia stężenia substratu",
+      "wykazania, że efekt zależy od aktywnych enzymów",
+      "zabicia bakterii przed pomiarem"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Gotowanie denaturuje białka enzymatyczne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p93fcac6b",
+     "pytanie": "Korelacja dwóch zmiennych:",
+     "odpowiedzi": [
+      "nie dowodzi sama w sobie związku przyczynowego",
+      "występuje tylko w doświadczeniach",
+      "oznacza brak zależności",
+      "zawsze dowodzi związku przyczynowego"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Może wynikać z trzeciego czynnika.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p88c8c9d1",
+     "pytanie": "Wodę wapienną stosuje się do wykrywania:",
+     "odpowiedzi": [
+      "białek",
+      "dwutlenku węgla",
+      "skrobi",
+      "tlenu"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "CO₂ powoduje mętnienie wody wapiennej (CaCO₃).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p90a7b565",
+     "pytanie": "Wniosek z doświadczenia:",
+     "odpowiedzi": [
+      "jest pytaniem",
+      "zawsze wyjaśnia mechanizm",
+      "opisuje szczegółowo pomiary",
+      "odpowiada na problem badawczy i nie wykracza poza dane"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Wniosek = uogólnienie wyników.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-dane",
+   "nazwa": "Analiza danych: wykresy, tabele, statystyka",
+   "opis": "Wymaganie og. III podstawy programowej.",
+   "wymaganie": "og. III",
+   "fiszki": [
+    {
+     "id": "fb52ff5f2",
+     "przod": "Jak odczytać wykres przed odpowiedzią?",
+     "tyl": "Sprawdzić tytuł, co jest na osiach (zmienne i jednostki), skalę, legendę i kształt krzywej, zanim zacznie się odpowiadać.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f90c547d4",
+     "przod": "Na której osi umieszcza się zmienną niezależną?",
+     "tyl": "Na osi X (poziomej); zmienną zależną — na osi Y (pionowej).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f7024b9e7",
+     "przod": "Jak opisać trend na wykresie?",
+     "tyl": "Podać kierunek zmiany (rośnie/maleje/stała), zakres wartości zmiennej niezależnej i — jeśli trzeba — wartości liczbowe z jednostkami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f14c945ab",
+     "przod": "Co oznacza plateau na wykresie?",
+     "tyl": "Odcinek, w którym wartość przestaje się zmieniać mimo zmiany zmiennej niezależnej — często oznacza, że działa inny czynnik ograniczający (np. wysycenie enzymu substratem).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fbf42ab6a",
+     "przod": "Wyjaśnij pojęcie: optimum (na wykresie)",
+     "tyl": "Wartość czynnika, przy której badany proces przebiega najintensywniej (szczyt krzywej).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fd7074db4",
+     "przod": "Wyjaśnij pojęcie: średnia arytmetyczna",
+     "tyl": "Suma wszystkich wartości podzielona przez ich liczbę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f283ffe50",
+     "przod": "Wyjaśnij pojęcie: mediana",
+     "tyl": "Wartość środkowa w uporządkowanym zbiorze danych; mniej wrażliwa na wartości skrajne niż średnia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f890b7d21",
+     "przod": "Wyjaśnij pojęcie: odchylenie standardowe",
+     "tyl": "Miara rozrzutu wyników wokół średniej — im większe, tym bardziej zróżnicowane są wyniki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fa63adea3",
+     "przod": "Co pokazują słupki błędu (odcinki) na wykresie?",
+     "tyl": "Rozrzut wyników (np. odchylenie standardowe) — jeśli słupki dwóch prób mocno się nakładają, różnica między nimi może nie być istotna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f82587ab4",
+     "przod": "Wyjaśnij pojęcie: istotność statystyczna",
+     "tyl": "Ocena, czy różnica między grupami jest na tyle duża, że raczej nie wynika z przypadku (często podawana jako p < 0,05).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fae40dbb6",
+     "przod": "Co oznacza zapis p < 0,05?",
+     "tyl": "Prawdopodobieństwo, że obserwowana różnica jest przypadkowa, jest mniejsze niż 5% — różnicę uznaje się za istotną statystycznie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fb392f302",
+     "przod": "Jak obliczyć zmianę procentową?",
+     "tyl": "(wartość końcowa − wartość początkowa) / wartość początkowa × 100%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f29e7cd5e",
+     "przod": "Jak odczytywać wykres z dwiema osiami Y?",
+     "tyl": "Sprawdzić, która krzywa odnosi się do której osi (legenda, kolor) — każda ma własną skalę i jednostkę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fe3deecfe",
+     "przod": "Jak odczytywać wykres w skali logarytmicznej?",
+     "tyl": "Kolejne podziałki oznaczają wielokrotność (np. 10, 100, 1000), więc równe odległości to równe stosunki, a nie równe różnice.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f3d5ced5b",
+     "przod": "Co pokazuje wykres słupkowy, a co liniowy?",
+     "tyl": "Słupkowy — porównanie wartości dla odrębnych kategorii; liniowy — zmianę wielkości w funkcji zmiennej ciągłej (czas, temperatura).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f1787682c",
+     "przod": "Kiedy stosuje się wykres kołowy?",
+     "tyl": "Gdy trzeba pokazać udział części w całości (np. procent poszczególnych grup krwi w populacji).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fe34244d9",
+     "przod": "Co to jest wykres punktowy (rozrzutu)?",
+     "tyl": "Wykres pokazujący pary wartości dwóch zmiennych — pozwala ocenić, czy istnieje między nimi korelacja.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "ff55cf7e1",
+     "przod": "Jak porównać dwie grupy na podstawie tabeli?",
+     "tyl": "Zestawić odpowiadające sobie wartości (ta sama cecha, te same warunki) i opisać różnicę z jednostkami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fe0d0ede3",
+     "przod": "Na co uważać przy wnioskowaniu z wykresu?",
+     "tyl": "By nie wnioskować poza zakres przedstawionych danych (ekstrapolacja) i nie mylić korelacji z przyczyną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fb9879c60",
+     "przod": "Wyjaśnij pojęcie: ekstrapolacja",
+     "tyl": "Przewidywanie wartości poza zakresem zbadanych danych — ryzykowne, bo zależność może się zmienić.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f98057d3b",
+     "przod": "Wyjaśnij pojęcie: interpolacja",
+     "tyl": "Szacowanie wartości pomiędzy zmierzonymi punktami na podstawie przebiegu krzywej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f95ecf5d7",
+     "przod": "Jak opisać zależność „im więcej X, tym więcej Y”?",
+     "tyl": "Jako zależność wprost (dodatnią): wraz ze wzrostem X rośnie Y.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f1dbb5a59",
+     "przod": "Jak opisać zależność „im więcej X, tym mniej Y”?",
+     "tyl": "Jako zależność odwrotną (ujemną): wraz ze wzrostem X maleje Y.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f75faf21d",
+     "przod": "Co to jest wartość względna (np. „aktywność względna enzymu, %”)?",
+     "tyl": "Wartość wyrażona w stosunku do wartości odniesienia (np. maksymalnej = 100%), a nie w jednostkach bezwzględnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f65518fbf",
+     "przod": "Jak sprawdzić, czy wynik w tabeli jest wiarygodny?",
+     "tyl": "Czy podano liczbę powtórzeń lub osobników, rozrzut wyników i czy próby kontrolne zachowały się zgodnie z oczekiwaniem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f6204c412",
+     "przod": "Podaj nazwę pojęcia: Wartość czynnika, przy której badany proces przebiega najintensywniej (szczyt krzywej).",
+     "tyl": "optimum (na wykresie)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f970cde3f",
+     "przod": "Podaj nazwę pojęcia: Suma wszystkich wartości podzielona przez ich liczbę.",
+     "tyl": "średnia arytmetyczna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f8e7a88d5",
+     "przod": "Podaj nazwę pojęcia: Wartość środkowa w uporządkowanym zbiorze danych; mniej wrażliwa na wartości skrajne niż średnia.",
+     "tyl": "mediana",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fc4649f37",
+     "przod": "Podaj nazwę pojęcia: Miara rozrzutu wyników wokół średniej — im większe, tym bardziej zróżnicowane są wyniki.",
+     "tyl": "odchylenie standardowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f371aed0e",
+     "przod": "Podaj nazwę pojęcia: Ocena, czy różnica między grupami jest na tyle duża, że raczej nie wynika z przypadku (często podawana jako p < 0,05).",
+     "tyl": "istotność statystyczna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "ff0bdb708",
+     "przod": "Podaj nazwę pojęcia: Przewidywanie wartości poza zakresem zbadanych danych — ryzykowne, bo zależność może się zmienić.",
+     "tyl": "ekstrapolacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fd1331eaa",
+     "przod": "Podaj nazwę pojęcia: Szacowanie wartości pomiędzy zmierzonymi punktami na podstawie przebiegu krzywej.",
+     "tyl": "interpolacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p4502daed",
+     "pytanie": "Plateau na krzywej aktywności enzymu w funkcji stężenia substratu oznacza najczęściej:",
+     "odpowiedzi": [
+      "denaturację enzymu",
+      "wysycenie centrów aktywnych substratem",
+      "brak substratu",
+      "błąd pomiaru"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Dalszy wzrost substratu nie zwiększa szybkości reakcji.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7f82156b",
+     "pytanie": "Zmienną niezależną umieszcza się zwykle:",
+     "odpowiedzi": [
+      "na osi X",
+      "na osi Y",
+      "w legendzie",
+      "w tytule"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Oś pozioma.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5e17bd39",
+     "pytanie": "Wartość środkowa uporządkowanego zbioru danych to:",
+     "odpowiedzi": [
+      "średnia",
+      "dominanta",
+      "odchylenie",
+      "mediana"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Mediana.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4b4f5cb5",
+     "pytanie": "Zapis p < 0,05 oznacza, że różnica:",
+     "odpowiedzi": [
+      "jest mniejsza niż 5%",
+      "jest uznawana za istotną statystycznie",
+      "jest przypadkowa",
+      "wynosi 0,05"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Prawdopodobieństwo przypadku < 5%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7237efa6",
+     "pytanie": "Udział grup krwi w populacji najlepiej przedstawić na wykresie:",
+     "odpowiedzi": [
+      "liniowym",
+      "kołowym lub słupkowym",
+      "logarytmicznym",
+      "punktowym"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Udział części w całości.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6879b9d6",
+     "pytanie": "Wartość wzrosła z 40 do 50. Zmiana procentowa wynosi:",
+     "odpowiedzi": [
+      "10%",
+      "20%",
+      "25%",
+      "50%"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "(50 − 40) / 40 × 100% = 25%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-wykresy",
+   "nazwa": "Konstruowanie wykresów, tabel i schematów",
+   "opis": "Wymaganie og. III podstawy programowej.",
+   "wymaganie": "og. III",
+   "fiszki": [
+    {
+     "id": "f43039591",
+     "przod": "Elementy poprawnego wykresu maturalnego",
+     "tyl": "Tytuł (lub opis), opisane osie z nazwą wielkości i jednostką, równomierna skala, poprawnie naniesione punkty połączone linią (lub słupki), legenda przy kilku seriach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f699374d4",
+     "przod": "Jak dobrać skalę na osi?",
+     "tyl": "Równe odstępy między podziałkami odpowiadające równym przyrostom wartości; zakres obejmujący wszystkie dane.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f2e98c64f",
+     "przod": "Czy oś Y musi zaczynać się od zera?",
+     "tyl": "Nie zawsze, ale przerwanie osi trzeba wyraźnie zaznaczyć; skala musi być równomierna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f8e8dccfc",
+     "przod": "Typowe błędy w rysowaniu wykresów na maturze",
+     "tyl": "Brak jednostek, nierówna skala, zamiana osi (zmienna zależna na osi X), brak legendy, łączenie punktów, gdy dane są kategoriami (zamiast słupków).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f8867adde",
+     "przod": "Kiedy łączyć punkty linią, a kiedy rysować słupki?",
+     "tyl": "Linią — gdy zmienna niezależna jest ciągła (czas, temperatura); słupki — gdy to kategorie (gatunki, grupy, rodzaje gleby).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f48603679",
+     "przod": "Jak oznaczyć kilka serii danych na jednym wykresie?",
+     "tyl": "Różnym rodzajem linii lub punktów i opisać je w legendzie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f78749f15",
+     "przod": "Elementy poprawnej tabeli",
+     "tyl": "Tytuł, nagłówki kolumn z nazwą wielkości i jednostką (jednostka w nagłówku, nie przy każdej liczbie), uporządkowane wiersze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fd128e9a3",
+     "przod": "W której kolumnie tabeli umieszcza się zmienną niezależną?",
+     "tyl": "Zwykle w pierwszej (lewej) kolumnie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f172eca1f",
+     "przod": "Co to jest schemat blokowy procesu?",
+     "tyl": "Ciąg prostokątów (etapów) połączonych strzałkami pokazującymi kolejność lub przepływ substancji/informacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fc71fc0e6",
+     "przod": "Jak narysować schemat przepływu (np. obiegu substancji)?",
+     "tyl": "Nazwać elementy, połączyć strzałkami w kierunku przepływu i opisać strzałki procesami (np. „fotosynteza”, „oddychanie”).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fcd9ef3cd",
+     "przod": "Jak przedstawić krzyżówkę genetyczną w odpowiedzi?",
+     "tyl": "Zapisać genotypy rodziców, ich gamety, szachownicę Punnetta oraz stosunek genotypów i fenotypów potomstwa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f83513501",
+     "przod": "Jak zapisać rodowód?",
+     "tyl": "Kwadrat — mężczyzna, koło — kobieta, figura zamalowana — osoba z cechą, linia pozioma — para, linia pionowa — potomstwo; pokolenia numerowane cyframi rzymskimi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fbfe2315e",
+     "przod": "Jak zapisać łańcuch pokarmowy?",
+     "tyl": "Nazwami organizmów połączonymi strzałkami w kierunku przepływu energii (od zjadanego do zjadającego).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f8d99878a",
+     "przod": "Jak wykonać rysunek obserwacji mikroskopowej?",
+     "tyl": "Ołówkiem, wyraźnymi liniami, bez cieniowania; podpisać elementy liniami odniesienia, podać powiększenie i tytuł.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fa71ce6d3",
+     "przod": "Jak obliczyć powiększenie mikroskopu optycznego?",
+     "tyl": "Pomnożyć powiększenie okularu przez powiększenie obiektywu (np. 10× · 40× = 400×).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f0e1aa525",
+     "przod": "Rozpoznaj: Tytuł, nagłówki kolumn z nazwą wielkości i jednostką (jednostka w nagłówku, nie przy każdej liczbie), uporządkowane wiersze.",
+     "tyl": "Elementy poprawnej tabeli",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p62f0425d",
+     "pytanie": "Gatunki roślin jako zmienną niezależną najlepiej przedstawić na wykresie:",
+     "odpowiedzi": [
+      "liniowym",
+      "kołowym",
+      "słupkowym",
+      "logarytmicznym"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Kategorie → słupki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p81269d25",
+     "pytanie": "Jednostkę wielkości w tabeli zapisuje się:",
+     "odpowiedzi": [
+      "w ogóle nie jest potrzebna",
+      "przy każdej liczbie",
+      "pod tabelą",
+      "w nagłówku kolumny"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Nagłówek: „Temperatura [°C]”.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb9288536",
+     "pytanie": "Okular 10×, obiektyw 40×. Powiększenie wynosi:",
+     "odpowiedzi": [
+      "4000×",
+      "50×",
+      "40×",
+      "400×"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "10 · 40 = 400.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p00743329",
+     "pytanie": "W łańcuchu pokarmowym strzałka biegnie:",
+     "odpowiedzi": [
+      "od drapieżnika do ofiary",
+      "zawsze od rośliny do grzyba",
+      "w obie strony",
+      "od organizmu zjadanego do zjadającego"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Kierunek przepływu energii.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
