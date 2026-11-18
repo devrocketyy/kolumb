@@ -1,0 +1,419 @@
+{
+ "dzial": "komorka",
+ "wiazki": [
+  {
+   "tytul": "Osmoza w ziemniaku",
+   "material": "Doświadczenie (autorskie). Jednakowe walce z bulwy ziemniaka zważono i umieszczono na 2 godziny w roztworach sacharozy. Zmiana masy (%): 0 M — +12; 0,2 M — +5; 0,3 M — +1; 0,4 M — −4; 0,6 M — −11.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Na podstawie danych oszacuj stężenie sacharozy izotoniczne względem soku komórkowego ziemniaka.",
+     "odpowiedz": "Ok. 0,3 M (między 0,3 a 0,4 M, bliżej 0,3 M).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Stężenie izotoniczne — zmiana masy równa 0.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego walce w roztworze 0,6 M straciły masę.",
+     "odpowiedz": "Roztwór 0,6 M jest hipertoniczny względem soku komórkowego (ma niższy potencjał wody), więc woda wypłynęła z komórek ziemniaka na drodze osmozy.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kierunek osmozy wyznacza potencjał wody.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, dlaczego zmianę masy wyrażono w procentach, a nie w gramach.",
+     "odpowiedz": "Bo walce mogły mieć nieco różną masę początkową — procenty pozwalają porównać wyniki niezależnie od masy wyjściowej.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Normalizacja danych.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-komorka-01",
+   "dzial": "komorka"
+  },
+  {
+   "tytul": "Plazmoliza w skórce cebuli",
+   "material": "Obserwacja (autorska). Preparat ze skórki czerwonej cebuli obserwowano kolejno w: 1 — wodzie destylowanej, 2 — 10% roztworze NaCl (po 10 minutach), 3 — ponownie w wodzie destylowanej.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "przyporzadkuj",
+     "punkty": 1,
+     "polecenie": "Przyporządkuj etapom 1–3 nazwy zjawisk: deplazmoliza, plazmoliza, turgor (stan jędrności).",
+     "odpowiedz": "1 — turgor; 2 — plazmoliza; 3 — deplazmoliza.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kolejność zależy od tonii roztworu.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, co dzieje się z komórką w roztworze 10% NaCl.",
+     "odpowiedz": "Roztwór jest hipertoniczny — woda wypływa z wakuoli przez tonoplast i błonę komórkową, wakuola się kurczy, a protoplast odstaje od ściany komórkowej (plazmoliza).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mechanizm: osmoza z wakuoli.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, dlaczego do obserwacji wybrano czerwoną cebulę.",
+     "odpowiedz": "Barwnik (antocyjany) w soku komórkowym uwidacznia wakuolę, więc łatwo zaobserwować jej kurczenie się.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wybór materiału ułatwiający obserwację.",
+     "nr": "3"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, o czym świadczy zajście deplazmolizy w etapie 3.",
+     "odpowiedz": "Że komórki żyły — błony zachowały półprzepuszczalność, więc woda mogła wrócić do wakuoli.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Martwa komórka traci półprzepuszczalność błon.",
+     "nr": "4"
+    }
+   ],
+   "id": "b-komorka-02",
+   "dzial": "komorka"
+  },
+  {
+   "tytul": "Erytrocyty w roztworach",
+   "material": "Opis (autorski). Krople krwi dodano do trzech roztworów NaCl: A — 0,3%, B — 0,9%, C — 3%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "przyporzadkuj",
+     "punkty": 1,
+     "polecenie": "Określ, w którym roztworze erytrocyty: zachowają kształt, pękną, pomarszczą się.",
+     "odpowiedz": "Zachowają kształt — B; pękną — A; pomarszczą się — C.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,9% NaCl — roztwór fizjologiczny (izotoniczny).",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego erytrocyty w roztworze A pękają, a komórki roślinne w podobnym roztworze nie.",
+     "odpowiedz": "Woda napływa do komórek w roztworze hipotonicznym; erytrocyty nie mają ściany komórkowej, która przeciwstawiłaby się wzrostowi objętości, a komórki roślinne ją mają — powstaje turgor zamiast pęknięcia.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Rola ściany komórkowej.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-komorka-03",
+   "dzial": "komorka"
+  },
+  {
+   "tytul": "Transport glukozy",
+   "material": "Wykres (opis, autorski). Szybkość pobierania glukozy przez erytrocyty rosła wraz ze stężeniem glukozy na zewnątrz do ok. 10 mM, a powyżej tej wartości przestawała rosnąć. Dodanie inhibitora oddychania komórkowego nie zmieniło szybkości pobierania.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Na podstawie opisu podaj nazwę rodzaju transportu glukozy do erytrocytów.",
+     "odpowiedz": "Dyfuzja wspomagana (ułatwiona).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wysycenie + brak zależności od ATP.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego powyżej 10 mM szybkość transportu nie rośnie.",
+     "odpowiedz": "Liczba białek przenośnikowych w błonie jest ograniczona — przy dużym stężeniu wszystkie są zajęte (wysycone), więc szybkość osiąga maksimum.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Plateau = wysycenie przenośników.",
+     "nr": "2"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy wynik z inhibitorem oddychania wskazuje na transport aktywny. Uzasadnij.",
+     "odpowiedz": "Nie — zablokowanie wytwarzania ATP nie zmieniło szybkości transportu, więc transport nie wymaga energii z ATP (jest bierny).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Test na zależność od ATP.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-komorka-04",
+   "dzial": "komorka"
+  },
+  {
+   "tytul": "Pompa sodowo-potasowa",
+   "material": "Tekst (autorski). Stężenie K⁺ wewnątrz neuronu jest ok. 30 razy większe niż na zewnątrz, a stężenie Na⁺ — ok. 10 razy mniejsze. Ouabaina (glikozyd roślinny) blokuje Na⁺/K⁺-ATPazę.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego utrzymanie różnicy stężeń jonów wymaga stałego nakładu energii.",
+     "odpowiedz": "Jony stale dyfundują przez kanały zgodnie z gradientem (Na⁺ do wnętrza, K⁺ na zewnątrz), więc pompa musi je stale przenosić wbrew gradientowi, zużywając ATP.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Transport aktywny przeciwdziała wyrównywaniu stężeń.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ skutek długotrwałego działania ouabainy na stężenia jonów w neuronie.",
+     "odpowiedz": "Różnica stężeń stopniowo zaniknie — stężenie Na⁺ we wnętrzu wzrośnie, a K⁺ zmaleje (zaniknie potencjał spoczynkowy).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Brak pompy → wyrównanie stężeń.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-komorka-05",
+   "dzial": "komorka"
+  },
+  {
+   "tytul": "Droga białka wydzielniczego",
+   "material": "Doświadczenie (autorskie, w duchu badań G. Palade’a). Komórkom pęcherzykowym trzustki podano na krótko aminokwas znakowany izotopem promieniotwórczym, a potem zwykłe aminokwasy. Promieniotwórczość wykrywano kolejno: po 3 min w strukturze A, po 20 min — w strukturze B, po 2 godzinach — w pęcherzykach przy błonie i w soku trzustkowym.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwy struktur A i B.",
+     "odpowiedz": "A — siateczka śródplazmatyczna szorstka (rybosomy na RER); B — aparat Golgiego.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Droga: RER → aparat Golgiego → pęcherzyki → egzocytoza.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego po podaniu znakowanego aminokwasu podawano zwykłe aminokwasy.",
+     "odpowiedz": "Aby znakowane były tylko białka zsyntetyzowane w krótkim czasie — dzięki temu można śledzić, jak „fala” znaczników przesuwa się przez kolejne struktury.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Metoda „puls–pościg”.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę procesu, w którym enzymy trzustki opuszczają komórkę.",
+     "odpowiedz": "Egzocytoza.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Fuzja pęcherzyka z błoną.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-komorka-06",
+   "dzial": "komorka"
+  },
+  {
+   "tytul": "Komórki wyspecjalizowane",
+   "material": "Zestawienie (autorskie). Komórka A ma bardzo dużo siateczki szorstkiej i rozbudowany aparat Golgiego. Komórka B ma dużo siateczki gładkiej. Komórka C ma bardzo liczne mitochondria i miofibryle. Komórka D nie ma jądra ani mitochondriów.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "przyporzadkuj",
+     "punkty": 1,
+     "polecenie": "Przyporządkuj komórkom A–D przykłady: erytrocyt ssaka, komórka mięśnia sercowego, komórka plazmatyczna, komórka kory nadnerczy.",
+     "odpowiedz": "A — komórka plazmatyczna; B — komórka kory nadnerczy; C — komórka mięśnia sercowego; D — erytrocyt ssaka.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "RER — białka (przeciwciała); SER — steroidy; mitochondria — praca mięśnia.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij związek budowy komórki B z jej funkcją.",
+     "odpowiedz": "Siateczka gładka jest miejscem syntezy lipidów, w tym hormonów steroidowych (np. kortyzolu), które komórka kory nadnerczy wytwarza w dużych ilościach.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Budowa–funkcja.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-komorka-07",
+   "dzial": "komorka"
+  },
+  {
+   "tytul": "Plastydy w pomidorze",
+   "material": "Tekst (autorski). Niedojrzały pomidor jest zielony, a dojrzały — czerwony. Podczas dojrzewania w plastydach owocu rozpada się chlorofil, a gromadzi się likopen — karotenoid o czerwonej barwie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwy plastydów obecnych w miąższu niedojrzałego i dojrzałego pomidora.",
+     "odpowiedz": "Niedojrzały — chloroplasty; dojrzały — chromoplasty.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przekształcanie się plastydów.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedną cechę wspólną dla wszystkich typów plastydów.",
+     "odpowiedz": "Np. otoczenie dwiema błonami (plastydowymi), obecność własnego DNA i rybosomów 70S, powstawanie przez podział lub z proplastydów.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Najtrudniejsze zadanie matury 2025 (16%) dotyczyło tej cechy — nie myl błony plastydowej z komórkową.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, jakie znaczenie ma dla rośliny zmiana barwy owocu.",
+     "odpowiedz": "Czerwony, dojrzały owoc jest widoczny dla zwierząt (ptaków, ssaków), które go zjadają i rozprzestrzeniają nasiona; zielony, niedojrzały owoc jest mniej zauważalny, gdy nasiona nie są jeszcze gotowe.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zoochoria.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-komorka-08",
+   "dzial": "komorka"
+  },
+  {
+   "tytul": "Endosymbioza",
+   "material": "Tekst (autorski). Paulinella chromatophora to ameba, która zawiera w cytoplazmie „chromatofory” — struktury powstałe z sinic wchłoniętych ok. 100 mln lat temu. Chromatofory mają własne DNA, ale część ich genów przeniosła się do jądra ameby; nie potrafią żyć poza komórką gospodarza.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego chromatofory Paulinelli są uznawane za model wczesnego etapu powstawania chloroplastów.",
+     "odpowiedz": "Bo powstały z wchłoniętych sinic, mają własne DNA, a jednocześnie część ich genów przeszła do jądra gospodarza i stały się od niego zależne — tak jak według teorii endosymbiozy powstały chloroplasty.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ilustracja procesu endosymbiozy.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa argumenty przemawiające za endosymbiotycznym pochodzeniem mitochondriów.",
+     "odpowiedz": "Np.: dwie błony; własne koliste DNA bez histonów; rybosomy 70S; podział przez rozszczepienie; wielkość zbliżona do bakterii; podobieństwo sekwencji DNA do α-proteobakterii.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Każdy trafny argument — 1 pkt.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-komorka-09",
+   "dzial": "komorka"
+  },
+  {
+   "tytul": "Ruchy cytoplazmy",
+   "material": "Doświadczenie (autorskie). Liście moczarki obserwowano pod mikroskopem w wodzie o temperaturze 10°C, 25°C i 45°C. Mierzono czas, w jakim chloroplast obiega komórkę: 10°C — 90 s; 25°C — 35 s; 45°C — ruch zatrzymał się.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w 45°C ruch cytoplazmy się zatrzymał.",
+     "odpowiedz": "Wysoka temperatura spowodowała denaturację białek (miozyny, enzymów wytwarzających ATP) odpowiedzialnych za ruch cytoplazmy wzdłuż mikrofilamentów.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ruch zależy od białek motorycznych i ATP.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwy białek odpowiedzialnych za ruchy cytoplazmy w komórkach roślinnych.",
+     "odpowiedz": "Aktyna (mikrofilamenty) i miozyna.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Cykloza.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-komorka-10",
+   "dzial": "komorka"
+  },
+  {
+   "tytul": "Kolchicyna",
+   "material": "Tekst (autorski). Kolchicyna wiąże tubulinę i uniemożliwia tworzenie mikrotubul. Wierzchołki korzeni cebuli traktowane kolchicyną wykazują dużo komórek zatrzymanych w metafazie, a część komórek ma podwojoną liczbę chromosomów.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego kolchicyna prowadzi do podwojenia liczby chromosomów w komórce.",
+     "odpowiedz": "Nie powstaje wrzeciono podziałowe, więc chromatydy siostrzane nie są rozciągane do biegunów; po rozdzieleniu centromerów wszystkie chromosomy pozostają w jednym jądrze — liczba chromosomów się podwaja (poliploidyzacja).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Brak mikrotubul → brak rozdziału.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj praktyczne zastosowanie kolchicyny w hodowli roślin.",
+     "odpowiedz": "Uzyskiwanie roślin poliploidalnych (np. o większych owocach, odmian bez nasion, płodnych mieszańców).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Hodowla roślin uprawnych.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-komorka-11",
+   "dzial": "komorka"
+  },
+  {
+   "tytul": "Penicylina i bakterie",
+   "material": "Tekst (autorski). Penicylina hamuje enzymy tworzące wiązania poprzeczne w peptydoglikanie. Bakterie traktowane penicyliną w podłożu hipotonicznym pękają, ale w podłożu izotonicznym przeżywają jako kuliste protoplasty bez ściany.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego bakterie pozbawione ściany pękają w podłożu hipotonicznym.",
+     "odpowiedz": "Woda napływa do komórki przez osmozę, a bez sztywnej ściany z peptydoglikanu nic nie przeciwdziała wzrostowi objętości — błona pęka.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ściana chroni przed lizą osmotyczną.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy penicylina jest skuteczna wobec grzybów. Uzasadnij.",
+     "odpowiedz": "Nie — ściana komórkowa grzybów jest zbudowana z chityny, a nie z peptydoglikanu, więc penicylina nie ma w niej punktu uchwytu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Specyficzność antybiotyku.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-komorka-12",
+   "dzial": "komorka"
+  },
+  {
+   "tytul": "Kompartmentacja",
+   "material": "Tekst (autorski). W tej samej komórce wątroby jednocześnie zachodzą synteza kwasów tłuszczowych (w cytozolu) i ich rozkład (β-oksydacja w mitochondriach).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, jakie znaczenie ma kompartmentacja dla przebiegu tych procesów.",
+     "odpowiedz": "Oddzielenie procesów błonami zapobiega temu, by przeciwstawne reakcje zachodziły w tym samym miejscu i znosiły się — każdy proces ma swoje enzymy i warunki, a jego przebieg można regulować osobno.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Rola błon wewnątrzkomórkowych.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-komorka-13",
+   "dzial": "komorka"
+  },
+  {
+   "tytul": "Lizosomy i choroba",
+   "material": "Tekst (autorski). W chorobie Taya-Sachsa brakuje enzymu lizosomalnego rozkładającego jeden z glikolipidów błon neuronów. Glikolipid gromadzi się w lizosomach neuronów, co prowadzi do ich obumierania.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego brak jednego enzymu lizosomalnego prowadzi do obumierania neuronów.",
+     "odpowiedz": "Lizosomy rozkładają zużyte składniki komórki (autofagia); bez enzymu glikolipid nie jest rozkładany i gromadzi się, rozdęte lizosomy zaburzają funkcje neuronów, które obumierają.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Rola lizosomów w recyklingu.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-komorka-14",
+   "dzial": "komorka"
+  }
+ ]
+}
