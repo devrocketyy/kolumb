@@ -963,6 +963,48 @@
    "wymaganie": "IX.2.5–8",
    "fiszki": [
     {
+     "id": "f59d10807",
+     "przod": "Strefy korzenia",
+     "tyl": "Czapeczka → strefa merystematyczna → strefa wydłużania → strefa włośnikowa → strefa korzeni bocznych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f5acbdc9a",
+     "przod": "Budowa pierwotna korzenia",
+     "tyl": "Skórka (ryzoderma) z włośnikami, kora pierwotna, śródskórnia z pasemkami Caspary’ego, okolnica, walec osiowy z wiązką promienistą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f00c4b6e7",
+     "przod": "Wiązka przewodząca w łodydze dwuliściennych",
+     "tyl": "Wiązki kolateralne otwarte (z kambium) ułożone w pierścień.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f2c0b6f62",
+     "przod": "Wiązka przewodząca w łodydze jednoliściennych",
+     "tyl": "Wiązki kolateralne zamknięte (bez kambium) rozproszone w miękiszu — brak przyrostu wtórnego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f2eb0c3f1",
+     "przod": "Liście igłowate sosny — przystosowania",
+     "tyl": "Mała powierzchnia, gruba kutykula, zagłębione szparki — ograniczanie transpiracji (zimą i na suchych siedliskach).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "ffd1c9922",
+     "przod": "Korzenie przybyszowe",
+     "tyl": "Wyrastające z łodygi lub liści (np. u kukurydzy — podporowe, u bluszczu — czepne).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fbac7750b",
+     "przod": "Modyfikacje liści — przykłady",
+     "tyl": "Ciernie (kaktus, berberys), wąsy czepne (groch), liście pułapkowe (rosiczka), łuski cebuli (spichrzowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
      "id": "ffb570285",
      "przod": "Organy wegetatywne roślin",
      "tyl": "Korzeń, łodyga i liść — służą do odżywiania i wzrostu (a nie bezpośrednio do rozmnażania płciowego).",
@@ -1068,12 +1110,6 @@
      "id": "f044f6adb",
      "przod": "Modyfikacje łodygi — przykłady",
      "tyl": "Kłącza (perz, konwalia), bulwy (ziemniak), rozłogi (truskawka), cebule (tarczka łodygi), ciernie (głóg), wąsy (winorośl), łodygi spłaszczone — gałęziaki (opuncja), łodygi sukulentów.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
-    },
-    {
-     "id": "fbac7750b",
-     "przod": "Modyfikacje liści — przykłady",
-     "tyl": "Ciernie (kaktus, berberys), wąsy czepne (groch), liście spichrzowe (łuski cebuli, liście sukulentów), liście pułapkowe (rosiczka, dzbanecznik), łuski pąków, przylistki.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
     },
     {
@@ -1200,6 +1236,18 @@
      "id": "f22fb281f",
      "przod": "Jak rozpoznać kłącze?",
      "tyl": "Podziemna łodyga rosnąca poziomo, z węzłami, łuskowatymi liśćmi i pąkami, z której wyrastają korzenie przybyszowe i nowe pędy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f5831e8cc",
+     "przod": "Rozpoznaj: Mała powierzchnia, gruba kutykula, zagłębione szparki — ograniczanie transpiracji (zimą i na suchych siedliskach).",
+     "tyl": "Liście igłowate sosny — przystosowania",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f3142ba2c",
+     "przod": "Rozpoznaj: Wyrastające z łodygi lub liści (np. u kukurydzy — podporowe, u bluszczu — czepne).",
+     "tyl": "Korzenie przybyszowe",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
     },
     {
@@ -1443,6 +1491,42 @@
    "opis": "Wymaganie IX.3 podstawy programowej.",
    "wymaganie": "IX.3",
    "fiszki": [
+    {
+     "id": "fae8b865d",
+     "przod": "Droga apoplastyczna i symplastyczna",
+     "tyl": "Apoplastyczna — przez ściany komórkowe i przestwory; symplastyczna — przez cytoplazmę połączoną plazmodesmami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f0ad86015",
+     "przod": "Makroelementy roślin",
+     "tyl": "N, P, K, Ca, Mg, S (oraz C, H, O) — potrzebne w dużych ilościach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f8572fc8e",
+     "przod": "Mikroelementy roślin",
+     "tyl": "Fe, Mn, Zn, Cu, B, Mo, Cl, Ni — potrzebne w śladowych ilościach (głównie składniki enzymów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f133ffe2c",
+     "przod": "Niedobór azotu u roślin",
+     "tyl": "Zahamowanie wzrostu, żółknięcie (chloroza) starszych liści — azot jest składnikiem białek, chlorofilu i kwasów nukleinowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f9c64a5e5",
+     "przod": "Niedobór fosforu u roślin",
+     "tyl": "Słaby rozwój korzeni, czerwonofioletowe przebarwienia liści — fosfor jest składnikiem ATP, kwasów nukleinowych i fosfolipidów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f5ae28c27",
+     "przod": "Przetchlinki",
+     "tyl": "Otwory w korku łodygi wypełnione luźną tkanką — wymiana gazowa przy przyroście wtórnym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
     {
      "id": "fa1e08839",
      "przod": "Jak woda wnika do korzenia?",
@@ -1711,6 +1795,30 @@
      "id": "f96528eab",
      "przod": "Dlaczego szparki znajdują się zwykle na spodniej stronie liścia?",
      "tyl": "Spodnia strona jest mniej nasłoneczniona i chłodniejsza — mniejsze straty wody przy otwartych szparkach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f4c027b66",
+     "przod": "Rozpoznaj: N, P, K, Ca, Mg, S (oraz C, H, O) — potrzebne w dużych ilościach.",
+     "tyl": "Makroelementy roślin",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f37417e1f",
+     "przod": "Rozpoznaj: Fe, Mn, Zn, Cu, B, Mo, Cl, Ni — potrzebne w śladowych ilościach (głównie składniki enzymów).",
+     "tyl": "Mikroelementy roślin",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f5f112258",
+     "przod": "Rozpoznaj: Zahamowanie wzrostu, żółknięcie (chloroza) starszych liści — azot jest składnikiem białek, chlorofilu i kwasów nukleinowych.",
+     "tyl": "Niedobór azotu u roślin",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fc24db3f6",
+     "przod": "Rozpoznaj: Otwory w korku łodygi wypełnione luźną tkanką — wymiana gazowa przy przyroście wtórnym.",
+     "tyl": "Przetchlinki",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
     },
     {
