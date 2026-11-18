@@ -140,3 +140,13 @@ Trudność: ★ poziom wykonania na maturze ok. 20–35%, ★★ poniżej 20% (t
 | Populacje i zależności międzygatunkowe | 55 | 14 | 2 |  |
 | Ekosystem: sieci pokarmowe, przepływ energii, obiegi C i N, sukcesja | 60 | 14 | 3 |  |
 | Różnorodność biologiczna, biomy, zagrożenia i ochrona | 60 | 13 | 1 |  |
+## Zadania CKE (obok autorskich)
+- **Formuła 2023** — 11 arkuszy: maj i czerwiec 2023–2026, próbne 2024 i 2026, przykładowy 2023 (ok. 600 poleceń). Każde zadanie z omówieniem; dostępne jako całe arkusze (na czas) i przypisane do poddziałów.
+- **Formuła 2015** — arkusze 2015–2022 (maj, czerwiec, lipiec 2020, próbne 2020–2022; ok. 20 arkuszy, ok. 900 poleceń). Zadania sprzed 2023 sprawdzone pod wymagania 2027 — te spoza zakresu są pomijane; pozostałe trafiają do banku działów jako „CKE (formuła 2015)”.
+- Łącznie ok. 1 300–1 500 poleceń CKE + ok. 920 autorskich.
+
+## Rozbudowa w przyszłości
+- Bank autorski jest dzielony na poddziały (identyfikatory b-<poddział>-NN), więc kolejne partie dopisuje się bez przebudowy kursu.
+- Kolejne fale: najpierw tematy ★★ (ploidalność, protisty, nisza, ekspresja genów), potem wiązki „nowy kontekst” na podstawie nowych arkuszy (maj 2027 → aktualizacja w czerwcu).
+- Generatory (krzyżówki, rodowody, Hardy–Weinberg) dają nieograniczoną liczbę zadań rachunkowych.
+- Docelowo bank autorski może urosnąć do ok. 1 500–2 000 poleceń.
