@@ -1,0 +1,712 @@
+{
+ "dzial": "fizjologia",
+ "wiazki": [
+  {
+   "tytul": "Trawienie białka jaja",
+   "material": "Doświadczenie (autorskie). Do czterech probówek z kawałkiem ugotowanego białka jaja dodano: 1 — pepsynę + HCl; 2 — pepsynę + wodę; 3 — HCl + wodę; 4 — pepsynę + HCl, probówka wcześniej gotowana z enzymem. Inkubowano w 37°C. Białko zostało strawione tylko w probówce 1.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj wniosek z doświadczenia.",
+     "odpowiedz": "Pepsyna trawi białko tylko w środowisku kwaśnym (z HCl) i jest unieczynniana przez wysoką temperaturę; sam HCl nie trawi białka.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego pepsyna nie działała w probówce 2.",
+     "odpowiedz": "Pepsyna ma optimum pH ok. 1,5–2; w obojętnym pH zmienia się jej konformacja (i nie zachodzi aktywacja pepsynogenu) — enzym jest nieaktywny.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, dlaczego inkubację prowadzono w 37°C.",
+     "odpowiedz": "Odpowiada temperaturze ciała człowieka — optimum dla enzymów ludzkich.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-fizjologia-01",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Żółć i lipaza",
+   "material": "Doświadczenie (autorskie). Do dwóch probówek z olejem, wodą i lipazą trzustkową dodano: A — żółć; B — wodę. Po godzinie pH w probówce A spadło znacznie bardziej niż w B.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego pH spadło w obu probówkach.",
+     "odpowiedz": "Lipaza hydrolizuje tłuszcze do glicerolu i kwasów tłuszczowych, które zakwaszają środowisko.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w probówce A trawienie było szybsze.",
+     "odpowiedz": "Żółć emulguje tłuszcze — rozbija je na drobne kropelki, zwiększając powierzchnię dostępną dla lipazy.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy żółć jest sokiem trawiennym zawierającym enzymy. Uzasadnij.",
+     "odpowiedz": "Nie — nie zawiera enzymów trawiennych; działa fizycznie (emulgacja).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-fizjologia-02",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Kosmki jelitowe",
+   "material": "Opis (autorski). Celiakia to choroba, w której gluten wywołuje reakcję odpornościową niszczącą kosmki jelita cienkiego. U chorych obserwuje się niedobory żelaza, witamin A, D, E, K i spadek masy ciała.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego zniszczenie kosmków prowadzi do niedoborów pokarmowych.",
+     "odpowiedz": "Kosmki zwiększają powierzchnię wchłaniania — ich zanik ogranicza wchłanianie produktów trawienia, witamin i soli mineralnych.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, z jakim procesem trawienia jest związane wchłanianie witamin A, D, E i K.",
+     "odpowiedz": "Z trawieniem i wchłanianiem tłuszczów — są to witaminy rozpuszczalne w tłuszczach.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaklasyfikuj celiakię do grupy chorób ze względu na mechanizm.",
+     "odpowiedz": "Choroba autoimmunizacyjna (o podłożu immunologicznym).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-fizjologia-03",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Szczepienie a surowica",
+   "material": "Wykres (opis, autorski). Stężenie przeciwciał przeciwtężcowych we krwi: osoba X — po podaniu szczepionki wzrost od 2. tygodnia, wysoki poziom przez miesiące, po dawce przypominającej szybki, wyższy wzrost; osoba Y — po podaniu surowicy natychmiastowy wysoki poziom, spadający w ciągu kilku tygodni.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ rodzaj odporności osoby X i osoby Y.",
+     "odpowiedz": "X — czynna sztuczna; Y — bierna sztuczna.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego po dawce przypominającej przeciwciała pojawiły się szybciej i w większej ilości.",
+     "odpowiedz": "Po pierwszej dawce powstały komórki pamięci, które przy ponownym kontakcie z antygenem szybko różnicują się w komórki plazmatyczne (odpowiedź wtórna).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego zranionej, nieszczepionej osobie podaje się surowicę, a nie szczepionkę.",
+     "odpowiedz": "Surowica daje natychmiastową ochronę gotowymi przeciwciałami; po szczepionce przeciwciała pojawiłyby się za późno.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-fizjologia-04",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Konflikt serologiczny",
+   "material": "Opis (autorski). Kobieta Rh⁻ urodziła pierwsze dziecko Rh⁺. Nie podano jej immunoglobuliny anty-D. W drugiej ciąży z płodem Rh⁺ u płodu wystąpiła choroba hemolityczna.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego choroba wystąpiła dopiero w drugiej ciąży.",
+     "odpowiedz": "Podczas pierwszego porodu erytrocyty płodu z antygenem D przedostały się do krwi matki, która wytworzyła przeciwciała anty-D i komórki pamięci; w kolejnej ciąży przeciwciała (IgG) przeszły przez łożysko i niszczyły erytrocyty płodu Rh⁺.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "1 pkt — uczulenie w 1. porodzie; 1 pkt — przejście przeciwciał przez łożysko.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, jak działa podanie immunoglobuliny anty-D po porodzie.",
+     "odpowiedz": "Przeciwciała usuwają erytrocyty płodu z krwi matki, zanim jej układ odpornościowy je rozpozna — nie powstają własne przeciwciała ani komórki pamięci.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-fizjologia-05",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Spirometria",
+   "material": "Wyniki (autorskie). Objętości płuc dwóch osób: A — pojemność życiowa 5,2 l, objętość oddechowa 0,6 l; B (palacz od 20 lat) — pojemność życiowa 3,4 l, objętość oddechowa 0,5 l.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, co oznacza pojemność życiowa płuc.",
+     "odpowiedz": "Maksymalną objętość powietrza wydychanego po maksymalnym wdechu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Podaj jedną przyczynę mniejszej pojemności życiowej u osoby B.",
+     "odpowiedz": "Palenie uszkadza pęcherzyki płucne (rozedma) i zmniejsza elastyczność płuc / przewlekłe zapalenie oskrzeli zwęża drogi oddechowe.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy po maksymalnym wydechu płuca są puste. Uzasadnij.",
+     "odpowiedz": "Nie — pozostaje w nich objętość zalegająca, której nie można wydmuchać (płuca nie zapadają się dzięki opłucnej i surfaktantowi).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-fizjologia-06",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Krzywa dysocjacji oksyhemoglobiny",
+   "material": "Wykres (opis, autorski). Wysycenie hemoglobiny tlenem w zależności od pO₂ ma kształt litery S. Krzywa dla pH 7,2 przebiega na prawo od krzywej dla pH 7,4. Krzywa hemoglobiny płodowej przebiega na lewo od krzywej hemoglobiny dorosłego.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij znaczenie przesunięcia krzywej w prawo w pracującym mięśniu.",
+     "odpowiedz": "W mięśniu powstaje dużo CO₂ (i mleczanu), pH spada — hemoglobina łatwiej oddaje tlen tam, gdzie jest najbardziej potrzebny (efekt Bohra).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij znaczenie położenia krzywej hemoglobiny płodowej.",
+     "odpowiedz": "Większe powinowactwo do tlenu pozwala hemoglobinie płodu pobierać tlen od hemoglobiny matki w łożysku.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-fizjologia-07",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Ośrodek oddechowy",
+   "material": "Doświadczenie (autorskie). Osoba oddychała przez 1 minutę: A — powietrzem atmosferycznym; B — mieszaniną z 5% CO₂; C — mieszaniną z 15% O₂ (bez CO₂). Wentylacja minutowa: A — 7 l; B — 20 l; C — 8 l.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj wniosek z doświadczenia.",
+     "odpowiedz": "Głównym czynnikiem pobudzającym oddychanie jest wzrost stężenia CO₂ we krwi, a nie niewielki spadek stężenia tlenu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij mechanizm, w jaki CO₂ pobudza ośrodek oddechowy.",
+     "odpowiedz": "CO₂ reaguje z wodą, tworząc kwas węglowy — spada pH, co wykrywają chemoreceptory; ośrodek w rdzeniu przedłużonym zwiększa częstość i głębokość oddechów.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-fizjologia-08",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Cykl pracy serca",
+   "material": "Opis (autorski). W pewnej fazie cyklu serca zastawki przedsionkowo-komorowe są zamknięte, a zastawki półksiężycowate otwarte.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ fazę cyklu pracy serca.",
+     "odpowiedz": "Skurcz komór (faza wyrzutu krwi).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego zastawki przedsionkowo-komorowe są wtedy zamknięte.",
+     "odpowiedz": "Ciśnienie w komorach przewyższa ciśnienie w przedsionkach — zamknięcie zastawek zapobiega cofaniu się krwi do przedsionków.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, dokąd płynie krew z każdej komory w tej fazie.",
+     "odpowiedz": "Z prawej komory do pnia płucnego, z lewej — do aorty.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-fizjologia-09",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Obrzęki",
+   "material": "Tekst (autorski). U dzieci cierpiących na kwashiorkor (niedobór białka w diecie) występuje charakterystyczny obrzęk brzucha i kończyn.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij związek niedoboru białka z powstawaniem obrzęków.",
+     "odpowiedz": "Niedobór białka obniża stężenie białek osocza (np. albumin), a więc ciśnienie onkotyczne krwi; na żylnym końcu naczyń włosowatych mniej wody wraca z płynu tkankowego do krwi — płyn gromadzi się w tkankach.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "1 pkt — spadek ciśnienia onkotycznego; 1 pkt — zahamowanie powrotu wody.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-fizjologia-10",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Krzepnięcie krwi",
+   "material": "Doświadczenie (autorskie). Krew pobrano do trzech probówek: A — bez dodatków; B — z cytrynianem sodu (wiąże jony Ca²⁺); C — z cytrynianem sodu, a po godzinie dodano CaCl₂. Krew skrzepła w probówkach A i C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj wniosek z doświadczenia.",
+     "odpowiedz": "Jony wapnia są niezbędne do krzepnięcia krwi.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj praktyczne zastosowanie cytrynianu sodu.",
+     "odpowiedz": "Zapobiega krzepnięciu krwi przechowywanej do transfuzji lub badań laboratoryjnych.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego niedobór witaminy K wydłuża czas krzepnięcia.",
+     "odpowiedz": "Witamina K jest potrzebna wątrobie do syntezy protrombiny i innych czynników krzepnięcia.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-fizjologia-11",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Glukoza w moczu",
+   "material": "Tabela (autorska). Stężenie glukozy (mg/100 ml): osoba zdrowa — osocze 90, mocz pierwotny 90, mocz ostateczny 0; osoba z nieleczoną cukrzycą — osocze 300, mocz pierwotny 300, mocz ostateczny 120.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego stężenie glukozy w osoczu i moczu pierwotnym jest jednakowe.",
+     "odpowiedz": "Glukoza to mała cząsteczka swobodnie przechodząca przez filtr kłębuszka — mocz pierwotny jest przesączem osocza.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego u chorego glukoza występuje w moczu ostatecznym.",
+     "odpowiedz": "Stężenie glukozy przekracza próg nerkowy — przenośniki w kanaliku krętym I rzędu są wysycone i nie resorbują całej glukozy.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego chory na cukrzycę oddaje dużo moczu i odczuwa pragnienie.",
+     "odpowiedz": "Glukoza w kanalikach podnosi ciśnienie osmotyczne moczu i zatrzymuje wodę — mniej wody jest resorbowane, organizm traci wodę.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-fizjologia-12",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Wazopresyna",
+   "material": "Doświadczenie (autorskie). Ochotnik w 1. dniu wypił 1,5 l wody w krótkim czasie, w 2. dniu nie pił przez 12 godzin. Mierzono objętość i stężenie oddawanego moczu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Opisz, jak zmieniało się wydzielanie wazopresyny w obu dniach.",
+     "odpowiedz": "Dzień 1 — wydzielanie zmalało; dzień 2 — wzrosło.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, jak wazopresyna wpływa na objętość i stężenie moczu w dniu 2.",
+     "odpowiedz": "Wazopresyna zwiększa przepuszczalność kanalików zbiorczych dla wody (wbudowanie akwaporyn); więcej wody wraca do krwi, mocz jest mniej obfity i bardziej stężony.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-fizjologia-13",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Insulina i glukagon",
+   "material": "Wykres (opis, autorski). Po posiłku bogatym w węglowodany stężenie glukozy we krwi wzrasta ze 90 do 140 mg/100 ml i po 2 godzinach wraca do 90. W tym czasie stężenie insuliny rośnie, a glukagonu maleje.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, jak insulina przywraca prawidłowe stężenie glukozy.",
+     "odpowiedz": "Zwiększa pobieranie glukozy przez komórki (mięśnie, tkanka tłuszczowa) i jej przekształcanie w glikogen w wątrobie i mięśniach oraz w tłuszcze.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę mechanizmu regulacji przedstawionego na wykresie.",
+     "odpowiedz": "Ujemne sprzężenie zwrotne.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w cukrzycy typu 2 podawanie insuliny nie zawsze jest pierwszą metodą leczenia.",
+     "odpowiedz": "Insulina jest wytwarzana, ale komórki słabo na nią reagują (insulinooporność) — podstawą jest zmiana diety, aktywność fizyczna i leki zwiększające wrażliwość tkanek.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-fizjologia-14",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Oś tarczycowa",
+   "material": "Opis (autorski). U pacjenta stwierdzono bardzo wysokie stężenie TSH i niskie stężenie tyroksyny. Tarczyca była powiększona.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego stężenie TSH jest wysokie.",
+     "odpowiedz": "Niski poziom tyroksyny nie hamuje (przez ujemne sprzężenie zwrotne) podwzgórza i przysadki — przysadka wydziela dużo TSH.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedną możliwą przyczynę takiego stanu.",
+     "odpowiedz": "Niedobór jodu w diecie (wole) / uszkodzenie tarczycy (np. choroba Hashimoto).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj dwa objawy, jakich można się spodziewać u pacjenta.",
+     "odpowiedz": "Np. spowolnienie metabolizmu, przyrost masy ciała, senność, uczucie zimna.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-fizjologia-15",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Potencjał czynnościowy",
+   "material": "Wykres (opis, autorski). Potencjał błony aksonu: spoczynkowo −70 mV; po bodźcu wzrost do +30 mV w ciągu 1 ms, następnie spadek do −80 mV i powrót do −70 mV.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwy jonów odpowiedzialnych za wzrost i spadek potencjału.",
+     "odpowiedz": "Wzrost (depolaryzacja) — napływ Na⁺; spadek (repolaryzacja) — wypływ K⁺.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego silniejszy bodziec nie zwiększa amplitudy potencjału.",
+     "odpowiedz": "Potencjał czynnościowy podlega regule „wszystko albo nic” — siła bodźca kodowana jest częstotliwością impulsów.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, czemu służy praca pompy sodowo-potasowej po serii impulsów.",
+     "odpowiedz": "Przywraca pierwotne stężenia Na⁺ i K⁺ po obu stronach błony (gradient potrzebny do kolejnych impulsów).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-fizjologia-16",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Gaz paraliżujący",
+   "material": "Tekst (autorski). Związki fosforoorganiczne (np. niektóre insektycydy) blokują acetylocholinoesterazę.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego zatrucie tymi związkami powoduje skurcze mięśni i zaburzenia oddychania.",
+     "odpowiedz": "Acetylocholina nie jest rozkładana w szczelinie synaptycznej (płytki nerwowo-mięśniowej) i stale pobudza receptory — mięśnie (także oddechowe) są w ciągłym skurczu, co uniemożliwia rytmiczny oddech.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-fizjologia-17",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Łuk odruchowy",
+   "material": "Opis (autorski). Po dotknięciu gorącego przedmiotu ręka zostaje cofnięta, zanim poczujemy ból.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wymień kolejne elementy łuku odruchowego tej reakcji.",
+     "odpowiedz": "Receptor (termo-/nocyceptor skóry) → neuron czuciowy → rdzeń kręgowy (neuron pośredniczący) → neuron ruchowy → efektor (mięsień zginacz ramienia).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego cofnięcie ręki następuje przed odczuciem bólu.",
+     "odpowiedz": "Ośrodek odruchu znajduje się w rdzeniu kręgowym (krótka droga), a odczucie bólu wymaga przewodzenia impulsu do kory mózgowej.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-fizjologia-18",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Akomodacja",
+   "material": "Opis (autorski). Po latach czytania z bliska u 50-latka wystąpiła trudność w widzeniu drobnego druku z bliska (starczowzroczność).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego z wiekiem pogarsza się widzenie z bliska.",
+     "odpowiedz": "Soczewka traci elastyczność — nie może przyjąć bardziej wypukłego kształtu potrzebnego do akomodacji.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj rodzaj soczewki korygującej tę wadę.",
+     "odpowiedz": "Skupiająca (wypukła).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-fizjologia-19",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Skurcz mięśnia",
+   "material": "Schemat (opis, autorski). Długość sarkomeru: rozkurcz — 2,4 µm, prążek A 1,6 µm, prążek I 0,8 µm; skurcz — 1,8 µm, prążek A 1,6 µm, prążek I 0,2 µm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, na podstawie danych, że podczas skurczu filamenty nie skracają się.",
+     "odpowiedz": "Prążek A (odpowiadający długości filamentów miozyny) ma stałą długość, a skraca się prążek I — filamenty aktyny wsuwają się między filamenty miozyny.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj rolę jonów wapnia w zapoczątkowaniu skurczu.",
+     "odpowiedz": "Wiążą troponinę, co przesuwa tropomiozynę i odsłania miejsca wiązania miozyny na aktynie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-fizjologia-20",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Sprinter i maratończyk",
+   "material": "Tabela (autorska). Udział włókien wolnokurczliwych w mięśniu czworogłowym: sprinter — 25%, maratończyk — 80%. Stężenie mleczanu po wysiłku: po sprincie 400 m — 15 mmol/l, po 10 km — 3 mmol/l.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij przewagę maratończyka wynikającą z budowy mięśni.",
+     "odpowiedz": "Włókna wolnokurczliwe mają dużo mitochondriów i mioglobiny — pozyskują energię w oddychaniu tlenowym i są odporne na zmęczenie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij wysokie stężenie mleczanu po sprincie.",
+     "odpowiedz": "Przy intensywnym wysiłku dostarczanie tlenu nie nadąża — energia pochodzi z glikolizy beztlenowej, w której powstaje mleczan.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-fizjologia-21",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Termoregulacja w saunie",
+   "material": "Opis (autorski). W saunie (90°C, niska wilgotność) człowiek może przebywać kilkanaście minut, w łaźni parowej (50°C, wilgotność 100%) odczuwa podobny dyskomfort szybciej, mimo niższej temperatury.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego łaźnia parowa jest trudniej tolerowana.",
+     "odpowiedz": "W powietrzu nasyconym parą wodną pot nie paruje, więc nie odbiera ciepła ze skóry — główny mechanizm chłodzenia nie działa, a ciało się przegrzewa.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-fizjologia-22",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Cykl miesiączkowy",
+   "material": "Wykres (opis, autorski). Stężenia hormonów w 28-dniowym cyklu: estrogeny rosną do 13. dnia; LH gwałtownie rośnie w 14. dniu; progesteron jest wysoki w dniach 16–25, potem spada; w 28. dniu rozpoczyna się krwawienie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, który hormon bezpośrednio wywołuje owulację.",
+     "odpowiedz": "LH (hormon luteinizujący).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę struktury wydzielającej progesteron w dniach 16–25.",
+     "odpowiedz": "Ciałko żółte.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego spadek progesteronu prowadzi do miesiączki.",
+     "odpowiedz": "Progesteron utrzymuje endometrium w stanie gotowości do zagnieżdżenia; po zaniku ciałka żółtego jego poziom spada i błona śluzowa macicy się złuszcza.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-fizjologia-23",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Spermatogeneza a oogeneza",
+   "material": "Opis (autorski). Z jednego spermatocytu I rzędu powstają cztery plemniki, a z jednego oocytu I rzędu — jedna komórka jajowa.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij znaczenie nierównomiernego podziału cytoplazmy w oogenezie.",
+     "odpowiedz": "Komórka jajowa otrzymuje niemal całą cytoplazmę z materiałami zapasowymi, organellami i mRNA, które zapewniają rozwój zarodka do czasu zagnieżdżenia.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj ploidalność spermatocytu I rzędu i plemnika.",
+     "odpowiedz": "Spermatocyt I rzędu — 2n; plemnik — n.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-fizjologia-24",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Łożysko",
+   "material": "Tekst (autorski). Krew matki i płodu nie mieszają się w łożysku, a mimo to przez łożysko przenikają tlen, glukoza, przeciwciała IgG, alkohol i niektóre wirusy.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego krew matki i płodu nie może się mieszać.",
+     "odpowiedz": "Mogą się różnić grupą krwi (np. AB0, Rh) — zmieszanie wywołałoby reakcję odpornościową; ponadto oddzielenie chroni przed różnicą ciśnień.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj znaczenie przenikania IgG przez łożysko dla noworodka.",
+     "odpowiedz": "Daje noworodkowi odporność bierną naturalną w pierwszych miesiącach życia.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego picie alkoholu w ciąży jest szczególnie groźne w pierwszych tygodniach.",
+     "odpowiedz": "Alkohol przenika przez łożysko, a w okresie zarodkowym powstają zawiązki narządów — działanie teratogenne powoduje trwałe wady (FAS).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-fizjologia-25",
+   "dzial": "fizjologia"
+  }
+ ]
+}
