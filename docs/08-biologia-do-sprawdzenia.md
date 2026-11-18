@@ -27,3 +27,9 @@ Treści są pisane na podstawie wymagań egzaminacyjnych 2027, informatora i spr
 - [ ] Przegląd, tkanki, organy, gospodarka wodna, odżywianie, rozmnażanie, rozwój — przeczytać merytorycznie.
 - [ ] Fitohormony: na maturze 2027 wymagane auksyny i etylen; gibereliny/cytokininy/ABA oznaczone jako „dodatkowo” — potwierdzić z podstawą.
 - [ ] Klasyfikacja owoców (jabłko, truskawka jako rzekome) — sprawdzić z podręcznikiem używanym przez uczniów.
+
+## Fizjologia (tresci9–11)
+- [ ] 11 podrozdziałów — przeczytać merytorycznie.
+- [ ] Fazy cyklu miesiączkowego i numeracja dni — porównać z podręcznikiem.
+- [ ] Budowa odcinków kręgosłupa (liczba kręgów guzicznych 4–5) i nazewnictwo krzywizn.
+- [ ] Zadania autorskie z Fizjologii — jeszcze do napisania (cel ok. 180).

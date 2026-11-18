@@ -2606,6 +2606,964 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
+  },
+  {
+   "id": "b-ruch",
+   "nazwa": "Ruch",
+   "opis": "Wymaganie XI.2.7 podstawy programowej.",
+   "wymaganie": "XI.2.7",
+   "fiszki": [
+    {
+     "id": "f86276e4c",
+     "przod": "Funkcje szkieletu",
+     "tyl": "Podporowa, ochronna (czaszka, klatka piersiowa), ruchowa (przyczepy mięśni, dźwignie), krwiotwórcza (szpik czerwony), magazynowa (Ca, P).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f95b01275",
+     "przod": "Budowa kości długiej",
+     "tyl": "Trzon (kość zbita, jama szpikowa ze szpikiem żółtym), nasady (kość gąbczasta ze szpikiem czerwonym, chrząstka stawowa), okostna (odżywianie, wzrost na grubość), chrząstka nasadowa (wzrost na długość).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f552a8bfc",
+     "przod": "Wyjaśnij pojęcie: okostna",
+     "tyl": "Błona łącznotkankowa pokrywająca kość (poza powierzchniami stawowymi), unaczyniona i unerwiona — odżywianie, wzrost na grubość, regeneracja po złamaniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f1ff26c7c",
+     "przod": "Jak kość rośnie na długość?",
+     "tyl": "Dzięki chrząstce nasadowej między trzonem a nasadą; po jej skostnieniu (po okresie dojrzewania) wzrost na długość ustaje.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f12e322d4",
+     "przod": "Rodzaje połączeń kości",
+     "tyl": "Ruchome — stawy; półruchome/nieruchome — szwy (czaszka), chrząstkozrosty (krążki międzykręgowe), kościozrosty (kość krzyżowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f2dce1cf1",
+     "przod": "Budowa stawu",
+     "tyl": "Powierzchnie stawowe pokryte chrząstką szklistą (główka i panewka), torebka stawowa, jama stawowa z mazią, więzadła.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fdee91189",
+     "przod": "Rodzaje stawów ze względu na kształt",
+     "tyl": "Kulisty (ramienny, biodrowy — ruch we wszystkich płaszczyznach), zawiasowy (łokciowy, międzypaliczkowe), siodełkowy (nadgarstkowo-śródręczny kciuka), obrotowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f7a613734",
+     "przod": "Szkielet osiowy i obwody",
+     "tyl": "Osiowy: czaszka, kręgosłup, klatka piersiowa; kończyn: obręcze (barkowa, miedniczna) i kości kończyn wolnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f1c64b0ec",
+     "przod": "Odcinki kręgosłupa człowieka",
+     "tyl": "Szyjny (7), piersiowy (12), lędźwiowy (5), krzyżowy (5 zrośniętych), guziczny (4–5); krzywizny: lordozy szyjna i lędźwiowa, kifozy piersiowa i krzyżowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fe857433b",
+     "przod": "Znaczenie krzywizn kręgosłupa",
+     "tyl": "Amortyzują wstrząsy, utrzymują równowagę przy pionowej postawie ciała.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fae3dd28e",
+     "przod": "Budowa mięśnia szkieletowego",
+     "tyl": "Mięsień → pęczki włókien → włókna mięśniowe (wielojądrowe komórki) → miofibryle → sarkomery z filamentami aktyny (cienkimi) i miozyny (grubymi).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fc0bf01c2",
+     "przod": "Wyjaśnij pojęcie: sarkomer",
+     "tyl": "Podstawowa jednostka skurczu, odcinek miofibryli między dwiema liniami (prążkami) Z; zawiera filamenty aktyny i miozyny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f12f9926d",
+     "przod": "Mechanizm ślizgowy skurczu mięśnia",
+     "tyl": "Główki miozyny przyłączają się do aktyny, wykonują ruch (zużywając ATP) i przesuwają filamenty aktyny ku środkowi sarkomeru — sarkomer się skraca, a długość filamentów się nie zmienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f380d1d2c",
+     "przod": "Rola jonów Ca²⁺ w skurczu mięśnia",
+     "tyl": "Uwalniane z siateczki sarkoplazmatycznej po pobudzeniu; wiążą się z troponiną, co przesuwa tropomiozynę i odsłania miejsca wiązania miozyny na aktynie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fbf9481f8",
+     "przod": "Rola ATP w skurczu mięśnia",
+     "tyl": "Hydroliza ATP dostarcza energii do ruchu główki miozyny; przyłączenie ATP odłącza miozynę od aktyny (rozkurcz); ATP napędza też pompę wapniową.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f89cab260",
+     "przod": "Dlaczego po śmierci występuje stężenie pośmiertne?",
+     "tyl": "Brak ATP uniemożliwia odłączenie główek miozyny od aktyny — mięśnie pozostają zesztywniałe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f2c3ce584",
+     "przod": "Które prążki sarkomeru skracają się podczas skurczu?",
+     "tyl": "Prążek jasny I i strefa H; prążek ciemny A (długość filamentów miozyny) się nie zmienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f58c2c036",
+     "przod": "Źródła energii do pracy mięśni",
+     "tyl": "Zapas ATP (sekundy) → fosfokreatyna (kilkanaście sekund) → glikoliza beztlenowa z wytworzeniem mleczanu → oddychanie tlenowe (wysiłek długotrwały: glukoza, kwasy tłuszczowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f0552f876",
+     "przod": "Wyjaśnij pojęcie: fosfokreatyna",
+     "tyl": "Związek w mięśniach szybko odtwarzający ATP z ADP (przekazuje grupę fosforanową) — źródło energii na początku wysiłku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fa96fd2f9",
+     "przod": "Wyjaśnij pojęcie: dług tlenowy",
+     "tyl": "Zwiększone pobieranie tlenu po wysiłku, potrzebne do odtworzenia ATP i fosfokreatyny oraz przetworzenia mleczanu w wątrobie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fd75465e8",
+     "przod": "Włókna mięśniowe wolno- i szybkokurczliwe",
+     "tyl": "Wolnokurczliwe (czerwone) — dużo mioglobiny i mitochondriów, oddychanie tlenowe, odporne na zmęczenie (biegi długie); szybkokurczliwe (białe) — glikoliza beztlenowa, duża siła, szybko się męczą (sprint).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fdcbb4d37",
+     "przod": "Wyjaśnij pojęcie: antagonizm mięśni",
+     "tyl": "Mięśnie działające przeciwstawnie na ten sam staw — np. biceps (zginacz) i triceps (prostownik) ramienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f9126fdad",
+     "przod": "Wyjaśnij pojęcie: skurcz izotoniczny i izometryczny",
+     "tyl": "Izotoniczny — mięsień skraca się przy stałym napięciu (ruch); izometryczny — rośnie napięcie bez zmiany długości (trzymanie ciężaru).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f0133f140",
+     "przod": "Wyjaśnij pojęcie: skurcz tężcowy",
+     "tyl": "Skurcz ciągły wynikający z sumowania się skurczów pojedynczych przy szybko następujących bodźcach — typowy dla ruchów dowolnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "feeb88841",
+     "przod": "Wyjaśnij pojęcie: płytka nerwowo-mięśniowa",
+     "tyl": "Synapsa między zakończeniem neuronu ruchowego a włóknem mięśniowym; przekaźnikiem jest acetylocholina.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f256dfb95",
+     "przod": "Wpływ aktywności fizycznej na układ ruchu",
+     "tyl": "Zwiększa masę i siłę mięśni, gęstość kości, elastyczność stawów, zapobiega osteoporozie i wadom postawy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f48791109",
+     "przod": "Wyjaśnij pojęcie: osteoporoza",
+     "tyl": "Zmniejszenie masy i gęstości kości (utrata soli wapnia) — kości łamliwe; częsta u kobiet po menopauzie (spadek estrogenów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fb66c452d",
+     "przod": "Wyjaśnij pojęcie: szkielet zewnętrzny i hydroszkielet",
+     "tyl": "Zewnętrzny — oskórek z chityną u stawonogów (ogranicza wzrost — linienie); hydroszkielet — płyn pod ciśnieniem w jamie ciała (dżdżownica).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f7d24c79a",
+     "przod": "Rozpoznaj: Podporowa, ochronna (czaszka, klatka piersiowa), ruchowa (przyczepy mięśni, dźwignie), krwiotwórcza (szpik czerwony), magazynowa (Ca, P).",
+     "tyl": "Funkcje szkieletu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fa2968c54",
+     "przod": "Rozpoznaj: Trzon (kość zbita, jama szpikowa ze szpikiem żółtym), nasady (kość gąbczasta ze szpikiem czerwonym, chrząstka stawowa), okostna (odżywianie, wzrost na grubość), chrząstka nasadowa (wzrost na długość).",
+     "tyl": "Budowa kości długiej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fa97369ad",
+     "przod": "Podaj nazwę pojęcia: Błona łącznotkankowa pokrywająca kość (poza powierzchniami stawowymi), unaczyniona i unerwiona — odżywianie, wzrost na grubość, regeneracja po złamaniu.",
+     "tyl": "okostna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fe391f372",
+     "przod": "Rozpoznaj: Powierzchnie stawowe pokryte chrząstką szklistą (główka i panewka), torebka stawowa, jama stawowa z mazią, więzadła.",
+     "tyl": "Budowa stawu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fa9333c60",
+     "przod": "Rozpoznaj: Kulisty (ramienny, biodrowy — ruch we wszystkich płaszczyznach), zawiasowy (łokciowy, międzypaliczkowe), siodełkowy (nadgarstkowo-śródręczny kciuka), obrotowy.",
+     "tyl": "Rodzaje stawów ze względu na kształt",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f8145d7a0",
+     "przod": "Rozpoznaj: Szyjny (7), piersiowy (12), lędźwiowy (5), krzyżowy (5 zrośniętych), guziczny (4–5); krzywizny: lordozy szyjna i lędźwiowa, kifozy piersiowa i krzyżowa.",
+     "tyl": "Odcinki kręgosłupa człowieka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fa937cb94",
+     "przod": "Podaj nazwę pojęcia: Podstawowa jednostka skurczu, odcinek miofibryli między dwiema liniami (prążkami) Z; zawiera filamenty aktyny i miozyny.",
+     "tyl": "sarkomer",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fadf52d39",
+     "przod": "Rozpoznaj: Główki miozyny przyłączają się do aktyny, wykonują ruch (zużywając ATP) i przesuwają filamenty aktyny ku środkowi sarkomeru — sarkomer się skraca, a długość filamentów się nie zmienia.",
+     "tyl": "Mechanizm ślizgowy skurczu mięśnia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "fa7636b90",
+     "przod": "Rozpoznaj: Zapas ATP (sekundy) → fosfokreatyna (kilkanaście sekund) → glikoliza beztlenowa z wytworzeniem mleczanu → oddychanie tlenowe (wysiłek długotrwały: glukoza, kwasy tłuszczowe).",
+     "tyl": "Źródła energii do pracy mięśni",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f4f3865fe",
+     "przod": "Podaj nazwę pojęcia: Zwiększone pobieranie tlenu po wysiłku, potrzebne do odtworzenia ATP i fosfokreatyny oraz przetworzenia mleczanu w wątrobie.",
+     "tyl": "dług tlenowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    },
+    {
+     "id": "f7231d0f4",
+     "przod": "Podaj nazwę pojęcia: Zmniejszenie masy i gęstości kości (utrata soli wapnia) — kości łamliwe; częsta u kobiet po menopauzie (spadek estrogenów).",
+     "tyl": "osteoporoza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.7"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pff11ae0b",
+     "pytanie": "Podczas skurczu mięśnia długość prążka A:",
+     "odpowiedzi": [
+      "nie zmienia się",
+      "najpierw rośnie, potem maleje",
+      "rośnie",
+      "maleje"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Długość filamentów miozyny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf21d1f83",
+     "pytanie": "Jony Ca²⁺ w skurczu mięśnia wiążą się z:",
+     "odpowiedzi": [
+      "ATP",
+      "aktyną",
+      "troponiną",
+      "miozyną"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Odsłonięcie miejsc wiązania.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2898a0b7",
+     "pytanie": "Wzrost kości na długość zachodzi w:",
+     "odpowiedzi": [
+      "jamie szpikowej",
+      "okostnej",
+      "chrząstce stawowej",
+      "chrząstce nasadowej"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Między trzonem a nasadą.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2d00b5c1",
+     "pytanie": "Stawem kulistym jest staw:",
+     "odpowiedzi": [
+      "kolanowy",
+      "międzypaliczkowy",
+      "łokciowy",
+      "biodrowy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Ruch we wszystkich płaszczyznach.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2b0bab78",
+     "pytanie": "Włókna wolnokurczliwe zawierają dużo:",
+     "odpowiedzi": [
+      "fosfokreatyny",
+      "mioglobiny i mitochondriów",
+      "glikogenu i mleczanu",
+      "jąder"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Metabolizm tlenowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-skora",
+   "nazwa": "Pokrycie ciała i termoregulacja",
+   "opis": "Wymaganie XI.2.8 podstawy programowej.",
+   "wymaganie": "XI.2.8",
+   "fiszki": [
+    {
+     "id": "f7c80502c",
+     "przod": "Warstwy skóry",
+     "tyl": "Naskórek (nabłonek wielowarstwowy płaski rogowaciejący), skóra właściwa (tkanka łączna z naczyniami, receptorami, gruczołami, mieszkami włosowymi), tkanka podskórna (tłuszczowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "fca509e4d",
+     "przod": "Funkcje skóry",
+     "tyl": "Ochrona (mechaniczna, przed UV, drobnoustrojami, utratą wody), termoregulacja, wydalanie (pot), czucie (receptory), synteza witaminy D, magazyn tłuszczu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f9c5389d1",
+     "przod": "Wyjaśnij pojęcie: melanina",
+     "tyl": "Barwnik wytwarzany przez melanocyty naskórka, chroniący jądra komórek przed promieniowaniem UV; opalenie — wzrost jej produkcji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f94f5cc37",
+     "przod": "Wyjaśnij pojęcie: keratyna",
+     "tyl": "Białko włókniste wypełniające martwe komórki zewnętrznej warstwy naskórka, włosów i paznokci — wodoodporność i wytrzymałość.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f10a66408",
+     "przod": "Wytwory naskórka",
+     "tyl": "Włosy, paznokcie, gruczoły potowe, łojowe i mlekowe; u innych kręgowców: pióra, łuski gadów, pazury, kopyta, rogi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f2897fe9d",
+     "przod": "Funkcja gruczołów łojowych",
+     "tyl": "Wydzielają łój natłuszczający skórę i włosy — elastyczność, ochrona przed wysychaniem i drobnoustrojami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f60fa969e",
+     "przod": "Receptory skóry",
+     "tyl": "Mechanoreceptory (dotyk, ucisk, wibracje), termoreceptory (ciepło, zimno), nocyceptory (ból).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "fd9c2eaae",
+     "przod": "Wyjaśnij pojęcie: zwierzęta stałocieplne (endotermiczne)",
+     "tyl": "Utrzymują stałą temperaturę ciała dzięki wytwarzaniu ciepła w metabolizmie i regulacji jego utraty (ptaki, ssaki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "fa79efefc",
+     "przod": "Wyjaśnij pojęcie: zwierzęta zmiennocieplne (ektotermiczne)",
+     "tyl": "Ich temperatura ciała zależy głównie od otoczenia; regulują ją behawioralnie (wygrzewanie, chowanie się) — ryby, płazy, gady, bezkręgowce.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f18783348",
+     "przod": "Ośrodek termoregulacji",
+     "tyl": "Podwzgórze — porównuje temperaturę krwi z wartością zadaną i uruchamia mechanizmy wytwarzania lub oddawania ciepła.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "fdd336076",
+     "przod": "Reakcje organizmu na wysoką temperaturę",
+     "tyl": "Rozszerzenie naczyń krwionośnych skóry (zaczerwienienie), wydzielanie potu i jego parowanie, ograniczenie aktywności.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f8795fc41",
+     "przod": "Reakcje organizmu na niską temperaturę",
+     "tyl": "Zwężenie naczyń skóry (bladość), drżenie mięśniowe, termogeneza w tkance brunatnej, wzrost wydzielania tyroksyny i adrenaliny, „gęsia skórka” (stroszenie włosów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "fa7125e75",
+     "przod": "Dlaczego pocenie się jest nieskuteczne przy dużej wilgotności powietrza?",
+     "tyl": "Pot słabo paruje, a to parowanie (pobieranie ciepła) chłodzi skórę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "fa30e70c3",
+     "przod": "Wyjaśnij pojęcie: gorączka",
+     "tyl": "Podwyższenie temperatury zadanej w podwzgórzu przez pirogeny (np. z bakterii, cytokiny) — hamuje namnażanie drobnoustrojów i przyspiesza reakcje odpornościowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f4c9f6e97",
+     "przod": "Wyjaśnij pojęcie: wymiennik przeciwprądowy ciepła",
+     "tyl": "Tętnice i żyły kończyn biegną blisko siebie w przeciwnych kierunkach — ciepła krew tętnicza ogrzewa żylną, ograniczając utratę ciepła (np. nogi ptaków brodzących, płetwy fok).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f57e2b2c9",
+     "przod": "Reguła Bergmanna",
+     "tyl": "W chłodniejszym klimacie zwierzęta stałocieplne pokrewnych gatunków są większe — mniejszy stosunek powierzchni do objętości ogranicza utratę ciepła.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f1ecdd7df",
+     "przod": "Reguła Allena",
+     "tyl": "W chłodnym klimacie zwierzęta mają krótsze wystające części ciała (uszy, kończyny, ogony) — np. lis polarny vs fenek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f202cda6f",
+     "przod": "Wyjaśnij pojęcie: hibernacja (sen zimowy)",
+     "tyl": "Długotrwałe obniżenie temperatury ciała i metabolizmu u niektórych ssaków (jeż, nietoperz, świstak) — oszczędzanie energii w zimie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f3097ccf9",
+     "przod": "Wyjaśnij pojęcie: termoregulacja behawioralna",
+     "tyl": "Regulacja temperatury przez zachowanie: wygrzewanie się na słońcu, szukanie cienia, zmiana ułożenia ciała, skupianie się w grupy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "fb4597900",
+     "przod": "Dlaczego małe ssaki mają intensywny metabolizm?",
+     "tyl": "Mają duży stosunek powierzchni do objętości ciała i szybko tracą ciepło — muszą je intensywnie wytwarzać.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "fad361636",
+     "przod": "Wyjaśnij pojęcie: udar cieplny",
+     "tyl": "Przegrzanie organizmu przy zawodzeniu termoregulacji (np. wysiłek w upale, odwodnienie) — zagrożenie życia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f297956a6",
+     "przod": "Wpływ promieniowania UV na skórę",
+     "tyl": "Synteza witaminy D, opalanie; nadmiar — oparzenia, starzenie skóry, mutacje i nowotwory (czerniak).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "fa62b10cf",
+     "przod": "Rozpoznaj: Ochrona (mechaniczna, przed UV, drobnoustrojami, utratą wody), termoregulacja, wydalanie (pot), czucie (receptory), synteza witaminy D, magazyn tłuszczu.",
+     "tyl": "Funkcje skóry",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "fc6b4fc7e",
+     "przod": "Podaj nazwę pojęcia: Białko włókniste wypełniające martwe komórki zewnętrznej warstwy naskórka, włosów i paznokci — wodoodporność i wytrzymałość.",
+     "tyl": "keratyna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "fb9daa7b8",
+     "przod": "Rozpoznaj: Włosy, paznokcie, gruczoły potowe, łojowe i mlekowe; u innych kręgowców: pióra, łuski gadów, pazury, kopyta, rogi.",
+     "tyl": "Wytwory naskórka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "fd466193c",
+     "przod": "Rozpoznaj: Wydzielają łój natłuszczający skórę i włosy — elastyczność, ochrona przed wysychaniem i drobnoustrojami.",
+     "tyl": "Funkcja gruczołów łojowych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f7b4c0477",
+     "przod": "Podaj nazwę pojęcia: Utrzymują stałą temperaturę ciała dzięki wytwarzaniu ciepła w metabolizmie i regulacji jego utraty (ptaki, ssaki).",
+     "tyl": "zwierzęta stałocieplne (endotermiczne)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "fddb728b4",
+     "przod": "Podaj nazwę pojęcia: Ich temperatura ciała zależy głównie od otoczenia; regulują ją behawioralnie (wygrzewanie, chowanie się) — ryby, płazy, gady, bezkręgowce.",
+     "tyl": "zwierzęta zmiennocieplne (ektotermiczne)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "ff1b61587",
+     "przod": "Rozpoznaj: Podwzgórze — porównuje temperaturę krwi z wartością zadaną i uruchamia mechanizmy wytwarzania lub oddawania ciepła.",
+     "tyl": "Ośrodek termoregulacji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "fc8439398",
+     "przod": "Rozpoznaj: Rozszerzenie naczyń krwionośnych skóry (zaczerwienienie), wydzielanie potu i jego parowanie, ograniczenie aktywności.",
+     "tyl": "Reakcje organizmu na wysoką temperaturę",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "fa4ec358d",
+     "przod": "Rozpoznaj: Zwężenie naczyń skóry (bladość), drżenie mięśniowe, termogeneza w tkance brunatnej, wzrost wydzielania tyroksyny i adrenaliny, „gęsia skórka” (stroszenie włosów).",
+     "tyl": "Reakcje organizmu na niską temperaturę",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f5d490ab1",
+     "przod": "Podaj nazwę pojęcia: Podwyższenie temperatury zadanej w podwzgórzu przez pirogeny (np. z bakterii, cytokiny) — hamuje namnażanie drobnoustrojów i przyspiesza reakcje odpornościowe.",
+     "tyl": "gorączka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f21d4b6ab",
+     "przod": "Rozpoznaj: W chłodniejszym klimacie zwierzęta stałocieplne pokrewnych gatunków są większe — mniejszy stosunek powierzchni do objętości ogranicza utratę ciepła.",
+     "tyl": "Reguła Bergmanna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f42c61579",
+     "przod": "Rozpoznaj: W chłodnym klimacie zwierzęta mają krótsze wystające części ciała (uszy, kończyny, ogony) — np. lis polarny vs fenek.",
+     "tyl": "Reguła Allena",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f7ae0a1d0",
+     "przod": "Podaj nazwę pojęcia: Długotrwałe obniżenie temperatury ciała i metabolizmu u niektórych ssaków (jeż, nietoperz, świstak) — oszczędzanie energii w zimie.",
+     "tyl": "hibernacja (sen zimowy)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f6de24e54",
+     "przod": "Podaj nazwę pojęcia: Regulacja temperatury przez zachowanie: wygrzewanie się na słońcu, szukanie cienia, zmiana ułożenia ciała, skupianie się w grupy.",
+     "tyl": "termoregulacja behawioralna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    },
+    {
+     "id": "f382905c2",
+     "przod": "Podaj nazwę pojęcia: Przegrzanie organizmu przy zawodzeniu termoregulacji (np. wysiłek w upale, odwodnienie) — zagrożenie życia.",
+     "tyl": "udar cieplny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.8"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p12e648c1",
+     "pytanie": "Ośrodek termoregulacji znajduje się w:",
+     "odpowiedzi": [
+      "skórze",
+      "rdzeniu przedłużonym",
+      "móżdżku",
+      "podwzgórzu"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Termostat organizmu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p23ed04c4",
+     "pytanie": "W reakcji na zimno naczynia krwionośne skóry:",
+     "odpowiedzi": [
+      "rozszerzają się",
+      "zwężają się",
+      "pękają",
+      "nie zmieniają średnicy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ograniczenie utraty ciepła.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p52bd0e97",
+     "pytanie": "Melanina wytwarzana jest przez:",
+     "odpowiedzi": [
+      "keratynocyty",
+      "fibroblasty",
+      "gruczoły łojowe",
+      "melanocyty"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Ochrona przed UV.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf7bcff2c",
+     "pytanie": "Zgodnie z regułą Allena zwierzęta w chłodnym klimacie mają:",
+     "odpowiedzi": [
+      "krótsze wystające części ciała",
+      "większe i dłuższe uszy",
+      "mniejsze rozmiary ciała",
+      "cieńsze i krótsze futro"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Mniejsza utrata ciepła.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-rozmnazanie",
+   "nazwa": "Rozmnażanie i rozwój",
+   "opis": "Wymaganie XI.2.9 podstawy programowej.",
+   "wymaganie": "XI.2.9",
+   "fiszki": [
+    {
+     "id": "f543377b1",
+     "przod": "Budowa męskiego układu rozrodczego",
+     "tyl": "Jądra (w mosznie; kanaliki nasienne — plemniki, komórki śródmiąższowe — testosteron), najądrza (dojrzewanie plemników), nasieniowody, pęcherzyki nasienne, gruczoł krokowy, cewka moczowa, prącie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "fc688aa38",
+     "przod": "Dlaczego jądra znajdują się w mosznie?",
+     "tyl": "Spermatogeneza wymaga temperatury o ok. 2–3°C niższej niż temperatura wnętrza ciała.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f1c316297",
+     "przod": "Budowa żeńskiego układu rozrodczego",
+     "tyl": "Jajniki (pęcherzyki jajnikowe — oocyty, hormony), jajowody (miejsce zapłodnienia), macica (endometrium, mięśniówka), pochwa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f9382cda7",
+     "przod": "Wyjaśnij pojęcie: spermatogeneza",
+     "tyl": "Powstawanie plemników w kanalikach nasiennych: spermatogonie (mitozy) → spermatocyty I rzędu (mejoza I) → spermatocyty II rzędu (mejoza II) → spermatydy → plemniki (spermiogeneza); z jednej komórki 4 plemniki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f4c478605",
+     "przod": "Wyjaśnij pojęcie: oogeneza",
+     "tyl": "Oogonie (mitozy w okresie płodowym) → oocyty I rzędu (zatrzymane w profazie I do dojrzewania) → po owulacji oocyt II rzędu (zatrzymany w metafazie II) → mejoza II kończy się po wniknięciu plemnika; powstaje 1 komórka jajowa i ciałka kierunkowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f5d6e8f10",
+     "przod": "Różnice spermatogenezy i oogenezy",
+     "tyl": "Spermatogeneza: ciągła od dojrzewania, 4 równocenne plemniki; oogeneza: zaczyna się przed urodzeniem, cykliczna, nierówne podziały cytoplazmy — 1 duża komórka jajowa i ciałka kierunkowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f0615a7dc",
+     "przod": "Dlaczego podziały oogenezy są nierówne?",
+     "tyl": "Komórka jajowa otrzymuje niemal całą cytoplazmę z substancjami zapasowymi i organellami potrzebnymi zarodkowi na początku rozwoju.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f44a18542",
+     "przod": "Budowa plemnika",
+     "tyl": "Główka (jądro haploidalne, akrosom z enzymami), wstawka (mitochondria — ATP do ruchu), witka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "fc69520d0",
+     "przod": "Rola akrosomu",
+     "tyl": "Zawiera enzymy hydrolityczne trawiące osłonki komórki jajowej, umożliwiając wniknięcie plemnika.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "fc670b7fa",
+     "przod": "Fazy cyklu miesiączkowego",
+     "tyl": "Faza menstruacyjna (złuszczenie endometrium, dni 1–5), folikularna/proliferacyjna (dojrzewanie pęcherzyka, odbudowa endometrium), owulacja (~14. dzień), lutealna/wydzielnicza (ciałko żółte, progesteron).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "ff47d59c3",
+     "przod": "Rola FSH i LH w cyklu",
+     "tyl": "FSH — pobudza wzrost pęcherzyka jajnikowego i wydzielanie estrogenów; gwałtowny wzrost LH — wywołuje owulację i przekształcenie pęcherzyka w ciałko żółte.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f54b82f3e",
+     "przod": "Rola estrogenów i progesteronu w cyklu",
+     "tyl": "Estrogeny — odbudowa endometrium, wywołują (przez dodatnie sprzężenie) wyrzut LH; progesteron — przygotowanie endometrium do zagnieżdżenia, hamowanie FSH i LH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f1479e619",
+     "przod": "Co dzieje się z ciałkiem żółtym bez zapłodnienia?",
+     "tyl": "Zanika — spada poziom progesteronu i estrogenów, endometrium się złuszcza (miesiączka), a FSH znów rośnie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f6a033f83",
+     "przod": "Co podtrzymuje ciałko żółte w ciąży?",
+     "tyl": "Gonadotropina kosmówkowa (hCG) wydzielana przez zarodek (kosmówkę); później hormony przejmuje łożysko.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f1a334b5e",
+     "przod": "Gdzie dochodzi do zapłodnienia u człowieka?",
+     "tyl": "W bańce jajowodu; zygota wędruje do macicy, dzieląc się, i jako blastocysta zagnieżdża się w endometrium (implantacja, ok. 6.–7. dnia).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f818a6c16",
+     "przod": "Wyjaśnij pojęcie: blastocysta",
+     "tyl": "Stadium zarodka ssaka: pęcherzyk z trofoblastem (zewnętrzna warstwa — część łożyska) i węzłem zarodkowym (embrioblast — z niego rozwija się zarodek).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f2c46c02f",
+     "przod": "Błony płodowe ssaków i ich funkcje",
+     "tyl": "Owodnia (płyn owodniowy — ochrona przed wysychaniem i urazami), kosmówka (współtworzy łożysko), omocznia (naczynia pępowiny), pęcherzyk żółtkowy (pierwsze krwinki, komórki płciowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "ff8fe4b05",
+     "przod": "Funkcje łożyska",
+     "tyl": "Wymiana gazów, składników odżywczych i produktów przemiany między krwią matki i płodu (bez mieszania krwi), przekazywanie przeciwciał IgG, wytwarzanie hormonów, bariera dla wielu substancji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "fe80927c8",
+     "przod": "Wyjaśnij pojęcie: listki zarodkowe",
+     "tyl": "Ektoderma (naskórek, układ nerwowy, narządy zmysłów), mezoderma (mięśnie, szkielet, krew, układ krążenia, wydalniczy, rozrodczy), endoderma (nabłonek przewodu pokarmowego i oddechowego, wątroba, trzustka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f1858f114",
+     "przod": "Etapy rozwoju zarodkowego",
+     "tyl": "Bruzdkowanie (podziały mitotyczne zygoty bez wzrostu) → blastula → gastrulacja (powstawanie listków zarodkowych) → organogeneza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f473fd67f",
+     "przod": "Wyjaśnij pojęcie: okres zarodkowy i płodowy",
+     "tyl": "Zarodkowy (do końca 8. tygodnia) — powstają zawiązki narządów (najbardziej wrażliwy na teratogeny); płodowy (od 9. tygodnia) — wzrost i dojrzewanie narządów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f66273d17",
+     "przod": "Wyjaśnij pojęcie: czynniki teratogenne",
+     "tyl": "Czynniki uszkadzające rozwijający się zarodek: alkohol (FAS), niektóre leki, nikotyna, wirus różyczki, toksoplazmoza, promieniowanie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f23a56229",
+     "przod": "Etapy porodu",
+     "tyl": "Rozwarcie szyjki macicy, wydalenie płodu (skurcze macicy pod wpływem oksytocyny), wydalenie łożyska.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f1efd1a84",
+     "przod": "Metody antykoncepcji — przykłady",
+     "tyl": "Mechaniczne (prezerwatywa — chroni też przed chorobami przenoszonymi drogą płciową), hormonalne (hamują owulację), naturalne (obserwacja cyklu), wkładka wewnątrzmaciczna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f48a78e77",
+     "przod": "Choroby przenoszone drogą płciową",
+     "tyl": "Wirusowe: HIV/AIDS, WZW B, HPV (rak szyjki macicy — szczepionka), opryszczka; bakteryjne: kiła, rzeżączka, chlamydioza; pierwotniakowe: rzęsistkowica.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f017b116a",
+     "przod": "Wyjaśnij pojęcie: zapłodnienie zewnętrzne i wewnętrzne",
+     "tyl": "Zewnętrzne — w wodzie (większość ryb, płazy); wewnętrzne — w drogach rodnych samicy (gady, ptaki, ssaki, owady) — niezależne od wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f4b2b1a14",
+     "przod": "Wyjaśnij pojęcie: jajorodność, jajożyworodność, żyworodność",
+     "tyl": "Jajorodność — składanie jaj (ptaki); jajożyworodność — jaja rozwijają się w ciele matki, zarodek odżywia się żółtkiem (żmija zygzakowata); żyworodność — zarodek odżywiany przez matkę (łożysko u ssaków).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f62610b0f",
+     "przod": "Wyjaśnij pojęcie: owodniowce",
+     "tyl": "Gady, ptaki i ssaki — zarodek rozwija się w owodni, co uniezależnia rozwój od wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "fee918fca",
+     "przod": "Wyjaśnij pojęcie: rozwój prosty i złożony",
+     "tyl": "Prosty — młode podobne do dorosłych (ssaki, ptaki, gady); złożony — z larwą i przeobrażeniem (płazy, wiele owadów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f13bb3f6c",
+     "przod": "Przeobrażenie zupełne i niezupełne u owadów",
+     "tyl": "Zupełne: jajo → larwa → poczwarka → imago (motyle, chrząszcze, muchówki); niezupełne: jajo → larwa (podobna do imago) → imago (pluskwiaki, ważki, prostoskrzydłe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "fae96cad3",
+     "przod": "Wyjaśnij pojęcie: partenogeneza",
+     "tyl": "Rozwój osobnika z niezapłodnionej komórki jajowej (np. mszyce, wioślarki, trutnie pszczół).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "fba37fd2f",
+     "przod": "Wyjaśnij pojęcie: obojnactwo",
+     "tyl": "Wytwarzanie przez jednego osobnika gamet męskich i żeńskich (dżdżownica, ślimak winniczek, tasiemce); zwykle zachodzi zapłodnienie krzyżowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f377be781",
+     "przod": "Rozpoznaj: Jądra (w mosznie; kanaliki nasienne — plemniki, komórki śródmiąższowe — testosteron), najądrza (dojrzewanie plemników), nasieniowody, pęcherzyki nasienne, gruczoł krokowy, cewka moczowa, prącie.",
+     "tyl": "Budowa męskiego układu rozrodczego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f2f2f0f4f",
+     "przod": "Rozpoznaj: Jajniki (pęcherzyki jajnikowe — oocyty, hormony), jajowody (miejsce zapłodnienia), macica (endometrium, mięśniówka), pochwa.",
+     "tyl": "Budowa żeńskiego układu rozrodczego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f6b40e6f6",
+     "przod": "Podaj nazwę pojęcia: Oogonie (mitozy w okresie płodowym) → oocyty I rzędu (zatrzymane w profazie I do dojrzewania) → po owulacji oocyt II rzędu (zatrzymany w metafazie II) → mejoza II kończy się po wniknięciu plemnika; powstaje 1 komórka jajowa i ciałka kierunkowe.",
+     "tyl": "oogeneza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "fcc589c73",
+     "przod": "Rozpoznaj: Główka (jądro haploidalne, akrosom z enzymami), wstawka (mitochondria — ATP do ruchu), witka.",
+     "tyl": "Budowa plemnika",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "fa884984b",
+     "przod": "Rozpoznaj: Faza menstruacyjna (złuszczenie endometrium, dni 1–5), folikularna/proliferacyjna (dojrzewanie pęcherzyka, odbudowa endometrium), owulacja (~14. dzień), lutealna/wydzielnicza (ciałko żółte, progesteron).",
+     "tyl": "Fazy cyklu miesiączkowego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f2dc969da",
+     "przod": "Rozpoznaj: Owodnia (płyn owodniowy — ochrona przed wysychaniem i urazami), kosmówka (współtworzy łożysko), omocznia (naczynia pępowiny), pęcherzyk żółtkowy (pierwsze krwinki, komórki płciowe).",
+     "tyl": "Błony płodowe ssaków i ich funkcje",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f039a9dc5",
+     "przod": "Rozpoznaj: Wymiana gazów, składników odżywczych i produktów przemiany między krwią matki i płodu (bez mieszania krwi), przekazywanie przeciwciał IgG, wytwarzanie hormonów, bariera dla wielu substancji.",
+     "tyl": "Funkcje łożyska",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "fbb121873",
+     "przod": "Podaj nazwę pojęcia: Ektoderma (naskórek, układ nerwowy, narządy zmysłów), mezoderma (mięśnie, szkielet, krew, układ krążenia, wydalniczy, rozrodczy), endoderma (nabłonek przewodu pokarmowego i oddechowego, wątroba, trzustka).",
+     "tyl": "listki zarodkowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f919d3a8e",
+     "przod": "Rozpoznaj: Mechaniczne (prezerwatywa — chroni też przed chorobami przenoszonymi drogą płciową), hormonalne (hamują owulację), naturalne (obserwacja cyklu), wkładka wewnątrzmaciczna.",
+     "tyl": "Metody antykoncepcji — przykłady",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f8d19608c",
+     "przod": "Rozpoznaj: Wirusowe: HIV/AIDS, WZW B, HPV (rak szyjki macicy — szczepionka), opryszczka; bakteryjne: kiła, rzeżączka, chlamydioza; pierwotniakowe: rzęsistkowica.",
+     "tyl": "Choroby przenoszone drogą płciową",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f31091081",
+     "przod": "Podaj nazwę pojęcia: Rozwój osobnika z niezapłodnionej komórki jajowej (np. mszyce, wioślarki, trutnie pszczół).",
+     "tyl": "partenogeneza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f8da8ed6a",
+     "przod": "Podaj nazwę pojęcia: Wytwarzanie przez jednego osobnika gamet męskich i żeńskich (dżdżownica, ślimak winniczek, tasiemce); zwykle zachodzi zapłodnienie krzyżowe.",
+     "tyl": "obojnactwo",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pc747f9ce",
+     "pytanie": "Owulację wywołuje gwałtowny wzrost stężenia:",
+     "odpowiedzi": [
+      "progesteronu",
+      "FSH",
+      "LH",
+      "oksytocyny"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Pik LH.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6ea73781",
+     "pytanie": "Z jednego oocytu I rzędu powstaje:",
+     "odpowiedzi": [
+      "1 komórka jajowa bez ciałek kierunkowych",
+      "4 równocenne komórki jajowe",
+      "2 komórki jajowe i 2 ciałka",
+      "1 komórka jajowa i ciałka kierunkowe"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Nierówne podziały.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4c9ca9e0",
+     "pytanie": "Do zapłodnienia u człowieka dochodzi zwykle w:",
+     "odpowiedzi": [
+      "jajowodzie",
+      "macicy",
+      "pochwie",
+      "jajniku"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Bańka jajowodu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb7656684",
+     "pytanie": "Układ nerwowy rozwija się z:",
+     "odpowiedzi": [
+      "trofoblastu",
+      "mezodermy",
+      "endodermy",
+      "ektodermy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Listki zarodkowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf44ffce2",
+     "pytanie": "Hormonem wykrywanym w testach ciążowych jest:",
+     "odpowiedzi": [
+      "hCG (gonadotropina kosmówkowa)",
+      "FSH z przysadki",
+      "oksytocyna z przysadki",
+      "progesteron z ciałka żółtego"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Wydzielany przez kosmówkę.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p695c0326",
+     "pytanie": "Przeobrażenie zupełne przechodzi:",
+     "odpowiedzi": [
+      "pluskwa",
+      "ważka",
+      "konik polny",
+      "motyl"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Stadium poczwarki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4f57a2a4",
+     "pytanie": "Mitochondria plemnika znajdują się we:",
+     "odpowiedzi": [
+      "akrosomie",
+      "wstawce",
+      "główce",
+      "witce"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "ATP do ruchu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   }
  ]
 }
