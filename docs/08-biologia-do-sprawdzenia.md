@@ -46,3 +46,9 @@ Treści są pisane na podstawie wymagań egzaminacyjnych 2027, informatora i spr
 - [ ] Rodzaje zależności międzygatunkowych (protokooperacja vs mutualizm fakultatywny) — terminologia CKE.
 - [ ] Zadania autorskie w działach biotechnologia, mikroorganizmy, zwierzęta, ewolucja — na razie ok. 20 wiązek, rozbudować.
 - [ ] Arkusz maj 2024 — sprawdzić link do PDF (MBIP-R0-100-A-2405) i litery w zad. 7 i 11 (zależne od schematów).
+
+## Arkusze CKE czerwiec 2024, 2025, 2026
+- [ ] Linki do PDF (MBIP-R0-100-A-2406 / 2506 / 2606) — sprawdzić, czy CKE używa tego samego wzorca nazw co dla maja.
+- [ ] Zadania zależne od rysunków (numery/litery na schematach) — porównać z oryginałem: 2024-cz 4.1, 6.1; 2025-cz 5, 6.1, 9.1, 10.1, 11.1; 2026-cz 1.1, 2.1, 3.1, 11.1, 16.
+- [ ] 2026-cz zad. 3.1 — zasady podają dwa warianty kolejności komórek A–D; sprawdzić ze schematem.
+- [ ] Brak arkusza maj 2023 na Drive (jest tylko przykładowy) — dograć, jeśli chcemy komplet.
