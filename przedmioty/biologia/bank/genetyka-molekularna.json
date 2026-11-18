@@ -1,0 +1,274 @@
+{
+ "dzial": "genetyka-molekularna",
+ "wiazki": [
+  {
+   "tytul": "Od DNA do białka",
+   "material": "Sekwencja (autorska). Fragment nici kodującej DNA: 5′-ATG GCT TGG AAA TGA-3′. Fragment tabeli kodu: AUG — Met; GCU — Ala; UGG — Trp; AAA — Lys; UGA — STOP.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz sekwencję mRNA powstałą na podstawie tego fragmentu.",
+     "odpowiedz": "5′-AUG GCU UGG AAA UGA-3′.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "mRNA ma sekwencję nici kodującej z U zamiast T.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz sekwencję aminokwasów kodowanego peptydu.",
+     "odpowiedz": "Met–Ala–Trp–Lys.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "UGA to STOP.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz sekwencję nici matrycowej DNA (z oznaczeniem końców).",
+     "odpowiedz": "3′-TAC CGA ACC TTT ACT-5′.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-genetyka-molekularna-01",
+   "dzial": "genetyka-molekularna"
+  },
+  {
+   "tytul": "Skutki mutacji punktowych",
+   "material": "Sekwencja (autorska). mRNA: 5′-AUG AAA GGC UUU UGA-3′ (Met–Lys–Gly–Phe–STOP). Mutacje: 1 — AAA → AAG (Lys); 2 — AAA → UAA; 3 — delecja jednego G w kodonie GGC.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Określ skutek każdej mutacji dla białka.",
+     "odpowiedz": "1 — mutacja cicha (bez zmiany aminokwasu, kod zdegenerowany); 2 — nonsens: przedwczesny STOP, białko skrócone do Met; 3 — przesunięcie ramki odczytu: zmiana wszystkich dalszych aminokwasów.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "2 pkt — 3 poprawne; 1 pkt — 2.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego mutacja 3 jest zwykle groźniejsza niż zamiana jednego nukleotydu.",
+     "odpowiedz": "Kod jest trójkowy i bezprzecinkowy — delecja jednego nukleotydu zmienia odczyt wszystkich kolejnych kodonów.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-molekularna-02",
+   "dzial": "genetyka-molekularna"
+  },
+  {
+   "tytul": "Splicing alternatywny",
+   "material": "Opis (autorski). Gen kalcytoniny zawiera 6 eksonów. W tarczycy dojrzałe mRNA zawiera eksony 1–4, a w neuronach eksony 1–3, 5 i 6.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, jak z jednego genu powstają dwa różne białka.",
+     "odpowiedz": "W wyniku alternatywnego splicingu z tego samego pre-mRNA w różnych tkankach łączone są różne zestawy eksonów.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy podobne zjawisko może zachodzić u bakterii. Uzasadnij.",
+     "odpowiedz": "Nie — geny bakterii zwykle nie zawierają intronów i nie zachodzi u nich splicing.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-molekularna-03",
+   "dzial": "genetyka-molekularna"
+  },
+  {
+   "tytul": "Liczenie nukleotydów",
+   "material": "Opis (autorski). Dojrzałe białko składa się z 150 aminokwasów. Gen kodujący je zawiera 3 introny o łącznej długości 900 par zasad.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz minimalną liczbę nukleotydów mRNA kodujących to białko (z kodonem STOP).",
+     "odpowiedz": "150 × 3 + 3 = 453.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego dojrzałe białko może mieć mniej aminokwasów niż wynika to z sekwencji mRNA.",
+     "odpowiedz": "Po translacji białko może zostać przycięte (np. usunięcie metioniny, sekwencji sygnałowej) — modyfikacje potranslacyjne.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-molekularna-04",
+   "dzial": "genetyka-molekularna"
+  },
+  {
+   "tytul": "Antybiotyki a translacja",
+   "material": "Tabela (autorska). Mechanizmy działania antybiotyków: streptomycyna — wiąże małą podjednostkę rybosomu 70S; chloramfenikol — hamuje peptydylotransferazę rybosomu 70S; ryfampicyna — hamuje bakteryjną polimerazę RNA.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego te antybiotyki są stosunkowo mało szkodliwe dla komórek człowieka.",
+     "odpowiedz": "Działają na rybosomy 70S i polimerazę bakteryjną, które różnią się budową od rybosomów 80S i polimeraz w cytoplazmie i jądrze człowieka.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego niektóre z nich mogą jednak uszkadzać komórki człowieka przy długim stosowaniu.",
+     "odpowiedz": "Mitochondria mają rybosomy typu 70S (pochodzenie endosymbiotyczne), więc antybiotyki mogą hamować syntezę białek mitochondrialnych.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-molekularna-05",
+   "dzial": "genetyka-molekularna"
+  },
+  {
+   "tytul": "Operon laktozowy",
+   "material": "Doświadczenie (autorskie). Bakterie E. coli hodowano w pożywce: A — z glukozą; B — z laktozą; C — z laktozą, szczep z mutacją uniemożliwiającą wiązanie represora z operatorem. Mierzono aktywność β-galaktozydazy: A — brak; B — wysoka; C — wysoka. W dodatkowej próbie D (szczep z C, pożywka z glukozą) aktywność była także wysoka.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij wynik próby B.",
+     "odpowiedz": "Laktoza wiąże represor i zmienia jego kształt — represor odłącza się od operatora i zachodzi transkrypcja genów operonu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij wynik próby D.",
+     "odpowiedz": "Represor nie może zablokować operatora, więc geny są transkrybowane stale, niezależnie od obecności laktozy (ekspresja konstytutywna).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj znaczenie adaptacyjne regulacji operonu lac.",
+     "odpowiedz": "Enzymy rozkładające laktozę są wytwarzane tylko wtedy, gdy są potrzebne — oszczędność energii i materiału.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-genetyka-molekularna-06",
+   "dzial": "genetyka-molekularna"
+  },
+  {
+   "tytul": "Komórki tego samego organizmu",
+   "material": "Opis (autorski). Komórki wątroby i neurony człowieka zawierają identyczne DNA, lecz wątroba wytwarza albuminy, a neurony — neuroprzekaźniki.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij przyczynę tych różnic.",
+     "odpowiedz": "W różnych komórkach aktywne są różne geny — ekspresja różnicowa regulowana czynnikami transkrypcyjnymi i modyfikacjami epigenetycznymi.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj przykład genu aktywnego w obu typach komórek.",
+     "odpowiedz": "Np. gen enzymu glikolizy / białka rybosomowego / ATP-syntazy (geny metabolizmu podstawowego).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-molekularna-07",
+   "dzial": "genetyka-molekularna"
+  },
+  {
+   "tytul": "Uniwersalność kodu",
+   "material": "Tekst (autorski). Gen ludzkiej insuliny wprowadzony do bakterii umożliwia wytwarzanie przez nie białka o identycznej sekwencji aminokwasów. Wprowadza się jednak nie gen z genomu, lecz cDNA otrzymane z mRNA.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj cechę kodu genetycznego, która umożliwia syntezę ludzkiego białka w bakterii.",
+     "odpowiedz": "Uniwersalność.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego do bakterii wprowadza się cDNA, a nie gen z genomu człowieka.",
+     "odpowiedz": "Gen człowieka zawiera introny, a bakterie nie przeprowadzają splicingu; cDNA powstaje z dojrzałego mRNA i nie ma intronów.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-molekularna-08",
+   "dzial": "genetyka-molekularna"
+  },
+  {
+   "tytul": "Polisom",
+   "material": "Obraz mikroskopowy (opis, autorski). Na jednej nici mRNA widoczne są liczne rybosomy, a od nich odchodzą łańcuchy polipeptydowe o różnej długości — najkrótsze przy jednym końcu mRNA, najdłuższe przy drugim.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, przy którym końcu mRNA (5′ czy 3′) są najkrótsze łańcuchy. Uzasadnij.",
+     "odpowiedz": "Przy końcu 5′ — rybosomy rozpoczynają translację od 5′ i przesuwają się ku 3′, więc te przy 5′ dopiero zaczęły syntezę.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj znaczenie polisomów.",
+     "odpowiedz": "Umożliwiają jednoczesną syntezę wielu cząsteczek tego samego białka na jednym mRNA.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-molekularna-09",
+   "dzial": "genetyka-molekularna"
+  },
+  {
+   "tytul": "Epigenetyka — kotki szylkretowe",
+   "material": "Tekst (autorski). U kotów gen barwy rudej/czarnej leży na chromosomie X. Kotki heterozygotyczne mają łaciate (rude i czarne) futro, a kocury prawie zawsze są jednobarwne.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego kotki heterozygotyczne mają futro łaciate.",
+     "odpowiedz": "W każdej komórce samicy jeden chromosom X jest losowo inaktywowany (ciałko Barra) na wczesnym etapie rozwoju; komórki potomne dziedziczą tę inaktywację, więc płaty skóry wyrażają allel rudy lub czarny.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego kocury są zwykle jednobarwne.",
+     "odpowiedz": "Mają jeden chromosom X, więc tylko jeden allel tego genu (XY).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-molekularna-10",
+   "dzial": "genetyka-molekularna"
+  }
+ ]
+}

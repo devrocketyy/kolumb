@@ -1,0 +1,1149 @@
+{
+ "id": "genetyka",
+ "nazwa": "Genetyka klasyczna i zmienność",
+ "opis": "Krzyżówki, sprzężenia, płeć, rodowody, mutacje i choroby genetyczne.",
+ "poddzialy": [
+  {
+   "id": "b-krzyzowki",
+   "nazwa": "Krzyżówki jedno- i dwugenowe",
+   "opis": "Wymaganie XIV.1.1 podstawy programowej.",
+   "wymaganie": "XIV.1.1",
+   "fiszki": [
+    {
+     "id": "ff298a3a1",
+     "przod": "Wyjaśnij pojęcie: allel dominujący i recesywny",
+     "tyl": "Dominujący (A) ujawnia się w fenotypie także u heterozygoty; recesywny (a) — tylko u homozygoty recesywnej (aa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "f3ebe52c7",
+     "przod": "Wyjaśnij pojęcie: homozygota i heterozygota",
+     "tyl": "Homozygota — dwa jednakowe allele danego genu (AA, aa); heterozygota — dwa różne (Aa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "f7b4f68b0",
+     "przod": "I prawo Mendla (czystości gamet)",
+     "tyl": "Każda gameta zawiera tylko jeden allel z danej pary — allele rozdzielają się podczas tworzenia gamet (anafaza I mejozy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "fd5960667",
+     "przod": "II prawo Mendla (niezależnej segregacji)",
+     "tyl": "Allele różnych genów dziedziczą się niezależnie od siebie — dotyczy genów leżących na różnych parach chromosomów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "f8c6ffc6a",
+     "przod": "Stosunek fenotypów w F2 krzyżówki jednogenowej z dominacją zupełną",
+     "tyl": "3 : 1 (genotypy 1 AA : 2 Aa : 1 aa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "f84511343",
+     "przod": "Stosunek fenotypów w F2 krzyżówki dwugenowej (AaBb × AaBb)",
+     "tyl": "9 : 3 : 3 : 1 (geny niesprzężone, dominacja zupełna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "f8c6ec9b7",
+     "przod": "Wyjaśnij pojęcie: krzyżówka testowa",
+     "tyl": "Krzyżowanie osobnika o fenotypie dominującym z homozygotą recesywną, aby ustalić jego genotyp: brak potomstwa recesywnego → AA; 1:1 → Aa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "f2113426b",
+     "przod": "Wynik krzyżówki testowej AaBb × aabb",
+     "tyl": "1 : 1 : 1 : 1 (AaBb, Aabb, aaBb, aabb) — przy genach niesprzężonych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "f8f08bb95",
+     "przod": "Wyjaśnij pojęcie: dominacja niezupełna",
+     "tyl": "Heterozygota ma fenotyp pośredni (np. różowe kwiaty lwiej paszczy z czerwonych i białych); w F2 stosunek 1 : 2 : 1.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "f9e4210a1",
+     "przod": "Wyjaśnij pojęcie: kodominacja",
+     "tyl": "W heterozygocie ujawniają się oba allele w pełni (np. grupa krwi AB — obecne oba antygeny).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "ffe0217e1",
+     "przod": "Wyjaśnij pojęcie: allele letalne",
+     "tyl": "Allele powodujące śmierć osobnika (zwykle w stanie homozygotycznym) — np. przy żółtym umaszczeniu myszy w F2 stosunek 2 : 1 zamiast 3 : 1.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "faa02490e",
+     "przod": "Jak obliczyć liczbę typów gamet osobnika?",
+     "tyl": "2ⁿ, gdzie n — liczba genów w stanie heterozygotycznym (niesprzężonych); np. AaBbCC → 2² = 4 typy gamet.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "fe6ab8da2",
+     "przod": "Jak obliczać prawdopodobieństwo w krzyżówkach wielogenowych?",
+     "tyl": "Rozpatrzyć każdy gen osobno i pomnożyć prawdopodobieństwa (reguła iloczynu) — np. P(aabb) z AaBb × AaBb = 1/4 × 1/4 = 1/16.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "fee332b15",
+     "przod": "Jak zapisać krzyżówkę na maturze?",
+     "tyl": "Podać genotypy rodziców (P), ich gamety, szachownicę Punnetta (lub krzyżówkę), genotypy i fenotypy potomstwa z proporcjami; objaśnić oznaczenia alleli.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "f20cba2a6",
+     "przod": "Wyjaśnij pojęcie: pokolenie P, F1, F2",
+     "tyl": "P — rodzicielskie; F1 — pierwsze pokolenie potomne; F2 — potomstwo osobników F1.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "f7d669cca",
+     "przod": "Dlaczego Mendel wybrał groch?",
+     "tyl": "Łatwa uprawa, krótki cykl, dużo potomstwa, wyraźne cechy alternatywne, możliwość samozapylenia (linie czyste) i kontrolowanego krzyżowania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "fd6533edc",
+     "przod": "Rozpoznaj: 9 : 3 : 3 : 1 (geny niesprzężone, dominacja zupełna).",
+     "tyl": "Stosunek fenotypów w F2 krzyżówki dwugenowej (AaBb × AaBb)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "f3245fb87",
+     "przod": "Podaj nazwę pojęcia: Heterozygota ma fenotyp pośredni (np. różowe kwiaty lwiej paszczy z czerwonych i białych); w F2 stosunek 1 : 2 : 1.",
+     "tyl": "dominacja niezupełna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "f948313f0",
+     "przod": "Podaj nazwę pojęcia: W heterozygocie ujawniają się oba allele w pełni (np. grupa krwi AB — obecne oba antygeny).",
+     "tyl": "kodominacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p7e5e990a",
+     "pytanie": "Stosunek fenotypów 9:3:3:1 dotyczy krzyżówki:",
+     "odpowiedzi": [
+      "Aa × aa (jeden gen)",
+      "AABB × aabb (pokolenie P)",
+      "AaBb × AaBb (geny niesprzężone)",
+      "AaBb × aabb (testowej)"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "F2 dwugenowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe11a62a5",
+     "pytanie": "Krzyżówka testowa polega na skrzyżowaniu z:",
+     "odpowiedzi": [
+      "homozygotą dominującą",
+      "osobnikiem F1",
+      "heterozygotą",
+      "homozygotą recesywną"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Ujawnia genotyp.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf25a4f6e",
+     "pytanie": "Ile typów gamet wytwarza osobnik AaBbCc (geny niesprzężone)?",
+     "odpowiedzi": [
+      "9",
+      "3",
+      "8",
+      "6"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "2³.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pebd281ce",
+     "pytanie": "Grupa krwi AB jest przykładem:",
+     "odpowiedzi": [
+      "epistazy",
+      "dominacji niezupełnej",
+      "kodominacji",
+      "sprzężenia z płcią"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Oba antygeny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe3a682f5",
+     "pytanie": "Stosunek 2:1 w potomstwie dwóch heterozygot wskazuje na:",
+     "odpowiedzi": [
+      "allel letalny w homozygocie",
+      "kodominację alleli",
+      "polimerię genów",
+      "sprzężenie genów"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Homozygoty giną.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-wspoldzialanie",
+   "nazwa": "Współdziałanie genów i allele wielokrotne",
+   "opis": "Wymaganie XIV.1.2 podstawy programowej.",
+   "wymaganie": "XIV.1.2",
+   "fiszki": [
+    {
+     "id": "f27e542ef",
+     "przod": "Wyjaśnij pojęcie: allele wielokrotne",
+     "tyl": "Więcej niż dwa allele danego genu w populacji (osobnik ma maksymalnie dwa) — np. grupy krwi: Iᴬ, Iᴮ, i.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "fab6fc7d8",
+     "przod": "Genotypy grup krwi AB0",
+     "tyl": "A: IᴬIᴬ lub Iᴬi; B: IᴮIᴮ lub Iᴮi; AB: IᴬIᴮ; 0: ii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "f2b82c71f",
+     "przod": "Czy rodzice z grupami A i B mogą mieć dziecko z grupą 0?",
+     "tyl": "Tak — jeśli oboje są heterozygotami (Iᴬi × Iᴮi); prawdopodobieństwo 1/4.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "f92d5dafc",
+     "przod": "Wyjaśnij pojęcie: epistaza",
+     "tyl": "Allel jednego genu maskuje (hamuje) ekspresję alleli innego genu — np. albinizm maskuje geny barwy sierści.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "ff96967a5",
+     "przod": "Stosunek fenotypów przy epistazie recesywnej",
+     "tyl": "9 : 3 : 4 (np. barwa sierści myszy: aa maskuje gen B).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "f65664dfe",
+     "przod": "Stosunek fenotypów przy epistazie dominującej",
+     "tyl": "12 : 3 : 1 (np. barwa owoców dyni).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "ff0d7ccbf",
+     "przod": "Wyjaśnij pojęcie: geny komplementarne",
+     "tyl": "Dwa geny, których dominujące allele muszą wystąpić razem, aby ujawniła się cecha — stosunek 9 : 7 (np. purpurowe kwiaty groszku pachnącego).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "fabfe5c5a",
+     "przod": "Wyjaśnij pojęcie: polimeria (dziedziczenie wielogenowe)",
+     "tyl": "Cecha warunkowana addytywnym działaniem wielu genów — im więcej alleli dominujących, tym silniej wyrażona (wzrost, kolor skóry); rozkład ciągły.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "fc61d2b70",
+     "przod": "Wyjaśnij pojęcie: cechy ilościowe i jakościowe",
+     "tyl": "Ilościowe — zmienność ciągła, wiele genów i wpływ środowiska (masa, wzrost); jakościowe — kilka wyraźnych klas (grupa krwi, barwa kwiatu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "f1c1d60ec",
+     "przod": "Wyjaśnij pojęcie: plejotropia",
+     "tyl": "Jeden gen wpływa na wiele cech (np. mukowiscydoza — układ oddechowy, trawienny i rozrodczy; fenyloketonuria).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "fe0b7bd8a",
+     "przod": "Wyjaśnij pojęcie: norma reakcji",
+     "tyl": "Zakres fenotypów, jakie może wytworzyć dany genotyp w różnych warunkach środowiska (np. umaszczenie kota syjamskiego zależne od temperatury).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "fd830a96a",
+     "przod": "Jak rozpoznać współdziałanie genów w zadaniu?",
+     "tyl": "Stosunek fenotypów w F2 jest modyfikacją 9:3:3:1 (np. 9:7, 9:3:4, 12:3:1, 15:1), a liczba klas fenotypowych jest mniejsza niż 4.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "fdf274ea7",
+     "przod": "Rozpoznaj: A: IᴬIᴬ lub Iᴬi; B: IᴮIᴮ lub Iᴮi; AB: IᴬIᴮ; 0: ii.",
+     "tyl": "Genotypy grup krwi AB0",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "f58510099",
+     "przod": "Podaj nazwę pojęcia: Allel jednego genu maskuje (hamuje) ekspresję alleli innego genu — np. albinizm maskuje geny barwy sierści.",
+     "tyl": "epistaza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "ff961fe9c",
+     "przod": "Rozpoznaj: 9 : 3 : 4 (np. barwa sierści myszy: aa maskuje gen B).",
+     "tyl": "Stosunek fenotypów przy epistazie recesywnej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "fc3fed101",
+     "przod": "Rozpoznaj: 12 : 3 : 1 (np. barwa owoców dyni).",
+     "tyl": "Stosunek fenotypów przy epistazie dominującej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "fba80a6c3",
+     "przod": "Podaj nazwę pojęcia: Cecha warunkowana addytywnym działaniem wielu genów — im więcej alleli dominujących, tym silniej wyrażona (wzrost, kolor skóry); rozkład ciągły.",
+     "tyl": "polimeria (dziedziczenie wielogenowe)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "fe6373dfd",
+     "przod": "Podaj nazwę pojęcia: Jeden gen wpływa na wiele cech (np. mukowiscydoza — układ oddechowy, trawienny i rozrodczy; fenyloketonuria).",
+     "tyl": "plejotropia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "f313de0d8",
+     "przod": "Podaj nazwę pojęcia: Zakres fenotypów, jakie może wytworzyć dany genotyp w różnych warunkach środowiska (np. umaszczenie kota syjamskiego zależne od temperatury).",
+     "tyl": "norma reakcji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pd6239115",
+     "pytanie": "Osoba z grupą krwi 0 ma genotyp:",
+     "odpowiedzi": [
+      "IᴮIᴮ",
+      "Iᴬi",
+      "ii",
+      "IᴬIᴮ"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Homozygota recesywna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pefe9acd5",
+     "pytanie": "Stosunek 9:7 w F2 wskazuje na:",
+     "odpowiedzi": [
+      "polimerię",
+      "epistazę dominującą",
+      "geny komplementarne",
+      "kodominację"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Dwa allele dominujące potrzebne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf97a580a",
+     "pytanie": "Kolor skóry człowieka jest przykładem:",
+     "odpowiedzi": [
+      "sprzężenia z chromosomem X",
+      "dominacji zupełnej jednego genu",
+      "dziedziczenia wielogenowego (polimerii)",
+      "allelu letalnego w homozygocie"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Zmienność ciągła.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe4b2cc80",
+     "pytanie": "Wpływ jednego genu na wiele cech to:",
+     "odpowiedzi": [
+      "kodominacja",
+      "epistaza",
+      "polimeria",
+      "plejotropia"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Np. mukowiscydoza.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-sprzezenia",
+   "nazwa": "Geny sprzężone i mapy genowe",
+   "opis": "Wymaganie XIV.1.3–4 podstawy programowej.",
+   "wymaganie": "XIV.1.3–4",
+   "fiszki": [
+    {
+     "id": "f857e0a82",
+     "przod": "Wyjaśnij pojęcie: geny sprzężone",
+     "tyl": "Geny leżące na tym samym chromosomie, dziedziczone najczęściej razem (nie podlegają II prawu Mendla).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.3–4"
+    },
+    {
+     "id": "f95388542",
+     "przod": "Wyjaśnij pojęcie: teoria chromosomowa Morgana",
+     "tyl": "Geny leżą w chromosomach liniowo; geny jednego chromosomu tworzą grupę sprzężeń; sprzężenie może być przerwane przez crossing-over z częstością zależną od odległości między genami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.3–4"
+    },
+    {
+     "id": "fa6c0e403",
+     "przod": "Wyjaśnij pojęcie: rekombinanty",
+     "tyl": "Osobniki (gamety) z nowymi kombinacjami alleli, niewystępującymi u rodziców — powstają w wyniku crossing-over.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.3–4"
+    },
+    {
+     "id": "f3a084585",
+     "przod": "Jak obliczyć częstość crossing-over?",
+     "tyl": "Liczba rekombinantów / liczba wszystkich potomków × 100%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.3–4"
+    },
+    {
+     "id": "f87d9686c",
+     "przod": "Wyjaśnij pojęcie: centymorgan (cM)",
+     "tyl": "Jednostka odległości na mapie genowej — 1% rekombinantów = 1 cM.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.3–4"
+    },
+    {
+     "id": "fbe6ea7a7",
+     "przod": "Jak rozpoznać sprzężenie w krzyżówce testowej?",
+     "tyl": "Zamiast stosunku 1:1:1:1 przeważają dwie klasy fenotypów rodzicielskich, a dwie klasy rekombinantów są nieliczne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.3–4"
+    },
+    {
+     "id": "f910bec62",
+     "przod": "Dlaczego częstość rekombinacji nie przekracza 50%?",
+     "tyl": "Przy 50% wynik jest taki jak dla genów niesprzężonych — geny bardzo odległe zachowują się jak niezależne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.3–4"
+    },
+    {
+     "id": "fced23aae",
+     "przod": "Jak ustalić kolejność genów na mapie?",
+     "tyl": "Na podstawie odległości (procentu rekombinacji) między parami genów — np. A–B 10 cM, B–C 4 cM, A–C 14 cM → kolejność A–B–C.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.3–4"
+    },
+    {
+     "id": "fd203152d",
+     "przod": "Dlaczego Morgan prowadził badania na muszce owocowej?",
+     "tyl": "Krótki cykl rozwojowy, liczne potomstwo, mała liczba chromosomów (4 pary), łatwa hodowla, wiele widocznych mutacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.3–4"
+    },
+    {
+     "id": "fd3ad32fb",
+     "przod": "Wyjaśnij pojęcie: układ cis i trans",
+     "tyl": "Cis (sprzężenie) — allele dominujące na jednym chromosomie (AB/ab); trans (odpychanie) — na różnych (Ab/aB); ważne dla przewidywania gamet rodzicielskich.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.3–4"
+    },
+    {
+     "id": "f3f9c1e5f",
+     "przod": "Podaj nazwę pojęcia: Osobniki (gamety) z nowymi kombinacjami alleli, niewystępującymi u rodziców — powstają w wyniku crossing-over.",
+     "tyl": "rekombinanty",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.3–4"
+    },
+    {
+     "id": "feb55f9a3",
+     "przod": "Podaj nazwę pojęcia: Jednostka odległości na mapie genowej — 1% rekombinantów = 1 cM.",
+     "tyl": "centymorgan (cM)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.3–4"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p4bc9977d",
+     "pytanie": "W krzyżówce testowej AaBb × aabb uzyskano: 45% AaBb, 45% aabb, 5% Aabb, 5% aaBb. Odległość genów wynosi:",
+     "odpowiedzi": [
+      "5 cM",
+      "90 cM",
+      "10 cM",
+      "45 cM"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "10% rekombinantów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p002cc4a7",
+     "pytanie": "Przy genach sprzężonych w krzyżówce testowej przeważają:",
+     "odpowiedzi": [
+      "wszystkie po równo",
+      "rekombinanty",
+      "homozygoty dominujące",
+      "klasy rodzicielskie"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Brak crossing-over w większości gamet.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p27b7bdf2",
+     "pytanie": "Odległość A–B = 12 cM, B–C = 5 cM, A–C = 7 cM. Kolejność genów to:",
+     "odpowiedzi": [
+      "A–B–C",
+      "C–A–B",
+      "B–A–C",
+      "A–C–B"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "C leży między A i B.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-plec",
+   "nazwa": "Płeć, cechy sprzężone z płcią i dziedziczenie pozajądrowe",
+   "opis": "Wymaganie XIV.1.5–7 podstawy programowej.",
+   "wymaganie": "XIV.1.5–7",
+   "fiszki": [
+    {
+     "id": "f2efa0dd0",
+     "przod": "Chromosomowa determinacja płci u człowieka",
+     "tyl": "XX — kobieta, XY — mężczyzna; płeć dziecka zależy od plemnika (X lub Y); gen SRY na chromosomie Y uruchamia rozwój jąder.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "f4bd0c4bf",
+     "przod": "Typy determinacji płci u zwierząt",
+     "tyl": "XX/XY (ssaki, muszka), ZW/ZZ (ptaki, motyle — samica ZW heterogametyczna), X0 (niektóre owady), haplodiploidalność (pszczoły — samce n), temperaturowa (wiele gadów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "fe6bd78bd",
+     "przod": "Wyjaśnij pojęcie: cechy sprzężone z płcią",
+     "tyl": "Cechy warunkowane genami leżącymi na chromosomie X (w odcinku niehomologicznym do Y) — inaczej dziedziczone u obu płci.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "fae53a428",
+     "przod": "Dlaczego choroby recesywne sprzężone z X częściej występują u mężczyzn?",
+     "tyl": "Mężczyźni mają jeden chromosom X (hemizygoty) — jeden allel recesywny wystarcza do ujawnienia cechy; kobieta musi mieć dwa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "f3a0b9bc9",
+     "przod": "Przykłady chorób recesywnych sprzężonych z chromosomem X",
+     "tyl": "Hemofilia A, daltonizm (ślepota na barwy czerwoną i zieloną), dystrofia mięśniowa Duchenne’a.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "f50169de6",
+     "przod": "Po kim syn dziedziczy allel sprzężony z X?",
+     "tyl": "Zawsze po matce (od ojca otrzymuje chromosom Y).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "f4519dd5e",
+     "przod": "Wyjaśnij pojęcie: nosicielka",
+     "tyl": "Kobieta heterozygotyczna (XᴴXʰ) — zdrowa fenotypowo, ale może przekazać allel choroby; połowa jej synów może być chora.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "f537934db",
+     "przod": "Potomstwo nosicielki daltonizmu i zdrowego mężczyzny (XᴰXᵈ × XᴰY)",
+     "tyl": "Córki: 50% zdrowe, 50% nosicielki; synowie: 50% zdrowi, 50% chorzy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "fa1b58868",
+     "przod": "Czy chory na hemofilię ojciec może przekazać chorobę synowi?",
+     "tyl": "Nie — synowi przekazuje chromosom Y; wszystkie jego córki będą nosicielkami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "fbfcdb837",
+     "przod": "Wyjaśnij pojęcie: cechy związane z chromosomem Y (holandryczne)",
+     "tyl": "Warunkowane genami tylko na chromosomie Y — przekazywane z ojca na wszystkich synów (np. SRY).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "f75f40051",
+     "przod": "Wyjaśnij pojęcie: cechy związane z płcią (ograniczone płcią)",
+     "tyl": "Cechy warunkowane genami autosomalnymi, ale ujawniające się zależnie od płci, pod wpływem hormonów (np. łysienie androgenowe, rogi u owiec).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "f518a8602",
+     "przod": "Wyjaśnij pojęcie: dziedziczenie pozajądrowe (cytoplazmatyczne)",
+     "tyl": "Dziedziczenie genów zawartych w mitochondriach i plastydach — zwykle wyłącznie po matce (komórka jajowa przekazuje cytoplazmę).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "f86f41e29",
+     "przod": "Jak rozpoznać chorobę mitochondrialną w rodowodzie?",
+     "tyl": "Chora matka przekazuje ją wszystkim dzieciom (obu płci); chory ojciec nie przekazuje jej nikomu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "fbfb7e7e1",
+     "przod": "Zapis genotypów cech sprzężonych z X",
+     "tyl": "Allel zapisuje się jako indeks przy X: kobieta XᴬXᵃ, mężczyzna XᵃY (Y bez allelu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "f1b41aa84",
+     "przod": "Rozpoznaj: XX/XY (ssaki, muszka), ZW/ZZ (ptaki, motyle — samica ZW heterogametyczna), X0 (niektóre owady), haplodiploidalność (pszczoły — samce n), temperaturowa (wiele gadów).",
+     "tyl": "Typy determinacji płci u zwierząt",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "f114343f1",
+     "przod": "Podaj nazwę pojęcia: Kobieta heterozygotyczna (XᴴXʰ) — zdrowa fenotypowo, ale może przekazać allel choroby; połowa jej synów może być chora.",
+     "tyl": "nosicielka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pf7be726d",
+     "pytanie": "Syn otrzymuje chromosom X od:",
+     "odpowiedzi": [
+      "ojca",
+      "losowo od jednego z rodziców",
+      "obojga rodziców",
+      "matki"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Od ojca — Y.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9fa2b487",
+     "pytanie": "U ptaków płeć heterogametyczną (ZW) mają:",
+     "odpowiedzi": [
+      "obie płcie",
+      "żadna",
+      "samce",
+      "samice"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Odwrotnie niż u ssaków.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p52a98a37",
+     "pytanie": "Dziecko chorej matki z chorobą mitochondrialną i zdrowego ojca:",
+     "odpowiedzi": [
+      "może zachorować bez względu na płeć",
+      "nie zachoruje",
+      "zachoruje tylko syn",
+      "zachoruje tylko córka"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Mitochondria od matki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6de6a35f",
+     "pytanie": "Chory na hemofilię mężczyzna i zdrowa (nienosicielka) kobieta. Ich córki będą:",
+     "odpowiedzi": [
+      "w połowie chore",
+      "chore",
+      "nosicielkami",
+      "zdrowe bez allelu"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "XᴴXʰ.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-rodowody",
+   "nazwa": "Analiza rodowodów",
+   "opis": "Wymaganie XIV.1.8 podstawy programowej.",
+   "wymaganie": "XIV.1.8",
+   "fiszki": [
+    {
+     "id": "fd433dd04",
+     "przod": "Oznaczenia w rodowodach",
+     "tyl": "Kwadrat — mężczyzna, koło — kobieta; zamalowany — chory; pozioma linia — związek; pionowa — potomstwo; cyfry rzymskie — pokolenia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
+     "id": "f47722df4",
+     "przod": "Cechy dziedziczenia autosomalnego dominującego w rodowodzie",
+     "tyl": "Cecha w każdym pokoleniu, chory ma co najmniej jednego chorego rodzica, obie płcie jednakowo; dwoje chorych rodziców może mieć zdrowe dziecko.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
+     "id": "f670430a3",
+     "przod": "Cechy dziedziczenia autosomalnego recesywnego w rodowodzie",
+     "tyl": "Cecha może przeskakiwać pokolenia, zdrowi rodzice (nosiciele) mogą mieć chore dziecko, obie płcie jednakowo.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
+     "id": "f78bfead9",
+     "przod": "Cechy dziedziczenia recesywnego sprzężonego z X w rodowodzie",
+     "tyl": "Chorują głównie mężczyźni; chory syn zwykle ma zdrową matkę-nosicielkę; chory ojciec nie przekazuje choroby synom; córki chorego ojca to nosicielki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
+     "id": "f8c929f4a",
+     "przod": "Cechy dziedziczenia dominującego sprzężonego z X w rodowodzie",
+     "tyl": "Chory ojciec przekazuje cechę wszystkim córkom i żadnemu synowi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
+     "id": "f55a0cf7c",
+     "przod": "Jak wykluczyć dziedziczenie dominujące?",
+     "tyl": "Jeśli dwoje zdrowych rodziców ma chore dziecko — cecha jest recesywna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
+     "id": "f1c541b9c",
+     "przod": "Jak wykluczyć dziedziczenie recesywne sprzężone z X?",
+     "tyl": "Jeśli chora kobieta ma zdrowego syna albo zdrowy ojciec ma chorą córkę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
+     "id": "fb9e2272c",
+     "przod": "Jak wykluczyć dziedziczenie autosomalne recesywne?",
+     "tyl": "Jeśli dwoje chorych rodziców ma zdrowe dziecko (dla recesywnej oboje to aa, więc dzieci muszą być aa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
+     "id": "f501ec048",
+     "przod": "Jak obliczyć ryzyko, że zdrowe rodzeństwo chorego (AR) jest nosicielem?",
+     "tyl": "2/3 — wśród zdrowych dzieci dwóch heterozygot (AA : 2 Aa) dwie trzecie to Aa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
+     "id": "f5d43197a",
+     "przod": "Dlaczego małżeństwa krewniacze zwiększają ryzyko chorób recesywnych?",
+     "tyl": "Krewni częściej mają te same allele recesywne odziedziczone po wspólnym przodku — rośnie szansa homozygoty aa u dziecka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
+     "id": "ff2429bbc",
+     "przod": "Rozpoznaj: Kwadrat — mężczyzna, koło — kobieta; zamalowany — chory; pozioma linia — związek; pionowa — potomstwo; cyfry rzymskie — pokolenia.",
+     "tyl": "Oznaczenia w rodowodach",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pde77fab5",
+     "pytanie": "Dwoje zdrowych rodziców ma chore dziecko. Cecha jest:",
+     "odpowiedzi": [
+      "holandryczna",
+      "mitochondrialna",
+      "dominująca",
+      "recesywna"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Rodzice nosicielami.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pfd810e58",
+     "pytanie": "Zdrowy ojciec ma chorą córkę. Wykluczono dziedziczenie:",
+     "odpowiedzi": [
+      "mitochondrialne",
+      "recesywne sprzężone z X",
+      "autosomalne recesywne",
+      "autosomalne dominujące"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Córka otrzymała zdrowe X ojca.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p75ccef72",
+     "pytanie": "Prawdopodobieństwo, że zdrowy brat chorego na mukowiscydozę jest nosicielem:",
+     "odpowiedzi": [
+      "3/4",
+      "1/2",
+      "1/4",
+      "2/3"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "AA : 2Aa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-mutacje",
+   "nazwa": "Zmienność, mutacje i aberracje",
+   "opis": "Wymaganie XIV.2.1–6 podstawy programowej.",
+   "wymaganie": "XIV.2.1–6",
+   "fiszki": [
+    {
+     "id": "fdcefcc07",
+     "przod": "Wyjaśnij pojęcie: zmienność genetyczna i środowiskowa",
+     "tyl": "Genetyczna (dziedziczna) — rekombinacyjna i mutacyjna; środowiskowa (fluktuacyjna) — zmiany fenotypu pod wpływem środowiska, niedziedziczne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "fae616529",
+     "przod": "Źródła zmienności rekombinacyjnej",
+     "tyl": "Crossing-over, niezależna segregacja chromosomów w mejozie, losowe łączenie się gamet.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "f9b164a84",
+     "przod": "Wyjaśnij pojęcie: mutacja",
+     "tyl": "Nagła, trwała zmiana materiału genetycznego — genowa (punktowa), chromosomowa strukturalna lub liczbowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "fd91fffe4",
+     "przod": "Rodzaje mutacji punktowych",
+     "tyl": "Substytucja (tranzycja, transwersja), delecja i insercja nukleotydów (przesunięcie ramki odczytu, jeśli nie o wielokrotność 3).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "f61182627",
+     "przod": "Skutki substytucji",
+     "tyl": "Cicha (bez zmiany aminokwasu), zmiany sensu (missens — inny aminokwas, np. anemia sierpowata), nonsens (kodon STOP — skrócone białko).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "ff0b7e0de",
+     "przod": "Wyjaśnij pojęcie: mutacje chromosomowe strukturalne",
+     "tyl": "Delecja (utrata fragmentu), duplikacja (podwojenie), inwersja (odwrócenie o 180°), translokacja (przeniesienie na inny chromosom).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "fbf1d7ecf",
+     "przod": "Wyjaśnij pojęcie: mutacje liczbowe — aneuploidie",
+     "tyl": "Brak lub nadmiar pojedynczych chromosomów (2n−1 monosomia, 2n+1 trisomia) — skutek nondysjunkcji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "f68b37826",
+     "przod": "Wyjaśnij pojęcie: euploidia (poliploidia)",
+     "tyl": "Zmiana liczby całych zestawów chromosomów (3n, 4n) — autopoliploidy (zestawy tego samego gatunku) i allopoliploidy (różnych gatunków, np. pszenica).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "f26d336ca",
+     "przod": "Dlaczego mieszańce międzygatunkowe są często bezpłodne, a allopoliploidy płodne?",
+     "tyl": "U mieszańca chromosomy różnych gatunków nie tworzą par homologicznych w mejozie; po podwojeniu liczby chromosomów każdy ma parę — mejoza przebiega prawidłowo.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "f4b4cdba8",
+     "przod": "Wyjaśnij pojęcie: mutacje somatyczne i generatywne",
+     "tyl": "Somatyczne — w komórkach ciała, nie są dziedziczone (mogą prowadzić do nowotworu); generatywne — w komórkach płciowych, przekazywane potomstwu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "fce10069d",
+     "przod": "Wyjaśnij pojęcie: mutacje spontaniczne i indukowane",
+     "tyl": "Spontaniczne — błędy replikacji, naturalne uszkodzenia; indukowane — wywołane mutagenami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "f4f646ff9",
+     "przod": "Znaczenie mutacji w ewolucji",
+     "tyl": "Są pierwotnym źródłem nowych alleli (zmienności genetycznej), na które działa dobór naturalny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "f18c106a4",
+     "przod": "Rozpoznaj: Crossing-over, niezależna segregacja chromosomów w mejozie, losowe łączenie się gamet.",
+     "tyl": "Źródła zmienności rekombinacyjnej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "fd820f5fd",
+     "przod": "Podaj nazwę pojęcia: Nagła, trwała zmiana materiału genetycznego — genowa (punktowa), chromosomowa strukturalna lub liczbowa.",
+     "tyl": "mutacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "fdd914e2f",
+     "przod": "Rozpoznaj: Substytucja (tranzycja, transwersja), delecja i insercja nukleotydów (przesunięcie ramki odczytu, jeśli nie o wielokrotność 3).",
+     "tyl": "Rodzaje mutacji punktowych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "f80ec74a0",
+     "przod": "Podaj nazwę pojęcia: Brak lub nadmiar pojedynczych chromosomów (2n−1 monosomia, 2n+1 trisomia) — skutek nondysjunkcji.",
+     "tyl": "mutacje liczbowe — aneuploidie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p8185fe1b",
+     "pytanie": "Zamiana kodonu na kodon STOP to mutacja:",
+     "odpowiedzi": [
+      "zmiany sensu",
+      "inwersja",
+      "nonsens",
+      "cicha"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Skrócone białko.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf48f0203",
+     "pytanie": "Trisomia jest przykładem:",
+     "odpowiedzi": [
+      "mutacji punktowej",
+      "aneuploidii",
+      "translokacji",
+      "poliploidii"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "2n+1.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9f056540",
+     "pytanie": "Odwrócenie fragmentu chromosomu o 180° to:",
+     "odpowiedzi": [
+      "duplikacja",
+      "translokacja",
+      "delecja",
+      "inwersja"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Mutacja strukturalna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6ebe3345",
+     "pytanie": "Mutacje dziedziczone przez potomstwo zachodzą w komórkach:",
+     "odpowiedzi": [
+      "płciowych (linii generatywnej)",
+      "somatycznych skóry",
+      "nowotworowych guza",
+      "mięśniowych serca"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Generatywne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-choroby-genetyczne",
+   "nazwa": "Choroby genetyczne, mutageny i nowotwory",
+   "opis": "Wymaganie XIV.2.7–9 podstawy programowej.",
+   "wymaganie": "XIV.2.7–9",
+   "fiszki": [
+    {
+     "id": "fe1d377d3",
+     "przod": "Mukowiscydoza — dziedziczenie i przyczyna",
+     "tyl": "Autosomalna recesywna; mutacja genu CFTR (kanał chlorkowy) — gęsty śluz w płucach, trzustce, przewodach — infekcje, zaburzenia trawienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f900985bd",
+     "przod": "Fenyloketonuria — dziedziczenie i przyczyna",
+     "tyl": "Autosomalna recesywna; brak enzymu przekształcającego fenyloalaninę w tyrozynę — fenyloalanina gromadzi się i uszkadza mózg; leczenie: dieta ubogofenyloalaninowa, badanie przesiewowe noworodków.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f6d06524d",
+     "przod": "Anemia sierpowata — przyczyna",
+     "tyl": "Autosomalna recesywna; substytucja w genie β-globiny (Glu → Val) — hemoglobina S krystalizuje przy niskim O₂, erytrocyty sierpowate; heterozygoty odporniejsze na malarię.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "fa2bc05a7",
+     "przod": "Pląsawica Huntingtona — dziedziczenie",
+     "tyl": "Autosomalna dominująca; ekspansja powtórzeń CAG — zwyrodnienie neuronów, objawy zwykle po 35.–40. roku życia (po okresie rozrodczym).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f14d97233",
+     "przod": "Achondroplazja — dziedziczenie",
+     "tyl": "Autosomalna dominująca; zaburzenie wzrostu kości długich (karłowatość); homozygota dominująca letalna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f160bc074",
+     "przod": "Zespół Downa — przyczyna",
+     "tyl": "Trisomia chromosomu 21 (47,XX+21 lub 47,XY+21) — najczęściej nondysjunkcja w oogenezie; ryzyko rośnie z wiekiem matki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f86fa3dca",
+     "przod": "Zespół Turnera — przyczyna i objawy",
+     "tyl": "Monosomia X (45,X0) — kobieta niskiego wzrostu, niedorozwój jajników, bezpłodność.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f676f5f8d",
+     "przod": "Zespół Klinefeltera — przyczyna i objawy",
+     "tyl": "47,XXY — mężczyzna wysoki, niedorozwój jąder, bezpłodność, czasem cechy żeńskie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f62c477fe",
+     "przod": "Zespół Patau i Edwardsa",
+     "tyl": "Trisomia 13 (Patau) i 18 (Edwardsa) — ciężkie wady, zwykle śmierć w pierwszym roku życia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f924d802c",
+     "przod": "Zespół „miauczenia kota” (cri du chat)",
+     "tyl": "Delecja fragmentu krótkiego ramienia chromosomu 5 — niepełnosprawność intelektualna, charakterystyczny płacz.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "fb7509407",
+     "przod": "Wyjaśnij pojęcie: mutageny fizyczne, chemiczne i biologiczne",
+     "tyl": "Fizyczne — promieniowanie UV, X, γ, wysoka temperatura; chemiczne — benzopiren (dym tytoniowy), azbest, barwniki, kolchicyna; biologiczne — niektóre wirusy (HPV, HBV), aflatoksyny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f08114974",
+     "przod": "Jak promieniowanie UV uszkadza DNA?",
+     "tyl": "Powoduje powstawanie dimerów tyminy (wiązania między sąsiednimi tyminami), zaburzających replikację i transkrypcję.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f98048376",
+     "przod": "Wyjaśnij pojęcie: nowotwór — przyczyna genetyczna",
+     "tyl": "Nagromadzenie mutacji w protoonkogenach (→ onkogeny) i genach supresorowych — niekontrolowane podziały, unikanie apoptozy, zdolność do przerzutów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f359a04ee",
+     "przod": "Wyjaśnij pojęcie: nowotwór łagodny i złośliwy",
+     "tyl": "Łagodny — rośnie powoli, otoczony torebką, nie daje przerzutów; złośliwy — nacieka tkanki, tworzy przerzuty.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f7960763b",
+     "przod": "Metody diagnostyki prenatalnej",
+     "tyl": "Nieinwazyjne: USG, testy z krwi matki (wolne DNA płodu); inwazyjne: amniopunkcja, biopsja kosmówki — badanie kariotypu i DNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "fa0c97de5",
+     "przod": "Wyjaśnij pojęcie: poradnictwo genetyczne",
+     "tyl": "Ocena ryzyka chorób genetycznych w rodzinie na podstawie rodowodu i badań, informowanie o możliwościach diagnostyki i profilaktyki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "fbdf7b237",
+     "przod": "Rozpoznaj: Autosomalna recesywna; mutacja genu CFTR (kanał chlorkowy) — gęsty śluz w płucach, trzustce, przewodach — infekcje, zaburzenia trawienia.",
+     "tyl": "Mukowiscydoza — dziedziczenie i przyczyna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "fd4fcdf3b",
+     "przod": "Rozpoznaj: Autosomalna dominująca; ekspansja powtórzeń CAG — zwyrodnienie neuronów, objawy zwykle po 35.–40. roku życia (po okresie rozrodczym).",
+     "tyl": "Pląsawica Huntingtona — dziedziczenie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f1dca54b8",
+     "przod": "Rozpoznaj: Autosomalna dominująca; zaburzenie wzrostu kości długich (karłowatość); homozygota dominująca letalna.",
+     "tyl": "Achondroplazja — dziedziczenie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f70c89290",
+     "przod": "Rozpoznaj: Trisomia chromosomu 21 (47,XX+21 lub 47,XY+21) — najczęściej nondysjunkcja w oogenezie; ryzyko rośnie z wiekiem matki.",
+     "tyl": "Zespół Downa — przyczyna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "fe7277870",
+     "przod": "Rozpoznaj: Monosomia X (45,X0) — kobieta niskiego wzrostu, niedorozwój jajników, bezpłodność.",
+     "tyl": "Zespół Turnera — przyczyna i objawy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f4873779c",
+     "przod": "Rozpoznaj: 47,XXY — mężczyzna wysoki, niedorozwój jąder, bezpłodność, czasem cechy żeńskie.",
+     "tyl": "Zespół Klinefeltera — przyczyna i objawy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "fe3107af8",
+     "przod": "Rozpoznaj: Delecja fragmentu krótkiego ramienia chromosomu 5 — niepełnosprawność intelektualna, charakterystyczny płacz.",
+     "tyl": "Zespół „miauczenia kota” (cri du chat)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f91cc4ca9",
+     "przod": "Podaj nazwę pojęcia: Nagromadzenie mutacji w protoonkogenach (→ onkogeny) i genach supresorowych — niekontrolowane podziały, unikanie apoptozy, zdolność do przerzutów.",
+     "tyl": "nowotwór — przyczyna genetyczna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f25a6687e",
+     "przod": "Rozpoznaj: Nieinwazyjne: USG, testy z krwi matki (wolne DNA płodu); inwazyjne: amniopunkcja, biopsja kosmówki — badanie kariotypu i DNA.",
+     "tyl": "Metody diagnostyki prenatalnej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pbbd11e7b",
+     "pytanie": "Zespół Downa to:",
+     "odpowiedzi": [
+      "trisomia 21",
+      "delecja chromosomu 5",
+      "trisomia 13",
+      "monosomia X"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "47,+21.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbcd29831",
+     "pytanie": "Fenyloketonurię leczy się:",
+     "odpowiedzi": [
+      "przetaczaniem krwi",
+      "dietą ubogą w fenyloalaninę",
+      "antybiotykami",
+      "insuliną"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Brak enzymu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbc0cf2b0",
+     "pytanie": "Pląsawica Huntingtona dziedziczy się w sposób:",
+     "odpowiedzi": [
+      "autosomalny recesywny",
+      "recesywny sprzężony z X",
+      "mitochondrialny",
+      "autosomalny dominujący"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Objawy późno.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p30abc15f",
+     "pytanie": "Kariotyp 47,XXY to zespół:",
+     "odpowiedzi": [
+      "Klinefeltera",
+      "Downa",
+      "Turnera",
+      "Patau"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Mężczyzna z dodatkowym X.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd0caa65e",
+     "pytanie": "Promieniowanie UV wywołuje w DNA powstawanie:",
+     "odpowiedzi": [
+      "delecji chromosomu",
+      "trisomii",
+      "inwersji",
+      "dimerów tyminy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Mutagen fizyczny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

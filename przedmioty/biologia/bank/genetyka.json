@@ -1,0 +1,416 @@
+{
+ "dzial": "genetyka",
+ "wiazki": [
+  {
+   "tytul": "Barwa sierści świnek morskich",
+   "material": "Opis (autorski). U świnek morskich czarna sierść (B) dominuje nad białą (b), a sierść krótka (S) nad długą (s). Geny leżą na różnych chromosomach. Skrzyżowano dwie heterozygoty BbSs.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Zapisz krzyżówkę (szachownicę Punnetta) i podaj stosunek fenotypów potomstwa.",
+     "odpowiedz": "Gamety: BS, Bs, bS, bs od każdego rodzica; fenotypy: 9 czarne krótkowłose : 3 czarne długowłose : 3 białe krótkowłose : 1 białe długowłose.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "1 pkt — poprawna krzyżówka; 1 pkt — stosunek.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz prawdopodobieństwo urodzenia się białej, długowłosej świnki.",
+     "odpowiedz": "1/16 (6,25%).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1/4 × 1/4.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-01",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Krzyżówka testowa",
+   "material": "Opis (autorski). Hodowca ma czarnego psa (czarne umaszczenie dominuje nad brązowym) i chce ustalić, czy jest on homozygotą.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaproponuj krzyżówkę, którą powinien przeprowadzić hodowca.",
+     "odpowiedz": "Krzyżówkę testową — skrzyżować psa z suką o brązowym umaszczeniu (homozygota recesywna).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj, jakie wyniki pozwolą określić genotyp psa.",
+     "odpowiedz": "Jeśli wszystkie szczenięta są czarne (przy dużej liczbie potomstwa) — pies jest homozygotą AA; jeśli pojawią się szczenięta brązowe (ok. 1:1) — heterozygotą Aa.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-02",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Grupy krwi w rodzinie",
+   "material": "Opis (autorski). Matka ma grupę krwi A, ojciec — B, a ich pierwsze dziecko — grupę 0.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj genotypy rodziców.",
+     "odpowiedz": "Matka Iᴬi, ojciec Iᴮi.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj możliwe grupy krwi kolejnych dzieci i prawdopodobieństwo każdej z nich.",
+     "odpowiedz": "A, B, AB, 0 — każda z prawdopodobieństwem 1/4.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ, jaki typ dziedziczenia ilustruje grupa AB.",
+     "odpowiedz": "Kodominacja.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-genetyka-03",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Lwia paszcza",
+   "material": "Opis (autorski). Po skrzyżowaniu lwiej paszczy o kwiatach czerwonych z rośliną o kwiatach białych w F1 wszystkie rośliny miały kwiaty różowe.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ typ dziedziczenia barwy kwiatów.",
+     "odpowiedz": "Dominacja niezupełna.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj stosunek fenotypów w F2.",
+     "odpowiedz": "1 czerwone : 2 różowe : 1 białe.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w tym przypadku stosunek fenotypów jest równy stosunkowi genotypów.",
+     "odpowiedz": "Heterozygota ma inny fenotyp niż obie homozygoty — każdy genotyp ma odrębny fenotyp.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-genetyka-04",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Myszy żółte",
+   "material": "Opis (autorski). Skrzyżowanie dwóch żółtych myszy daje zawsze potomstwo w stosunku 2 żółte : 1 szare. Skrzyżowanie myszy żółtej z szarą daje 1 : 1.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij te wyniki.",
+     "odpowiedz": "Allel żółtej barwy (Y) jest dominujący w stosunku do barwy, ale letalny w homozygocie: żółte myszy to heterozygoty Yy; z krzyżówki Yy × Yy zarodki YY obumierają, zostaje 2 Yy (żółte) : 1 yy (szare).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-genetyka-05",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Barwa sierści myszy — epistaza",
+   "material": "Opis (autorski). U myszy allel C warunkuje wytwarzanie barwnika, a cc — albinizm. Gen B decyduje o barwie: B — czarna, b — brązowa. Skrzyżowano CcBb × CcBb.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj stosunek fenotypów potomstwa.",
+     "odpowiedz": "9 czarne : 3 brązowe : 4 białe (albinosy).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego myszy cc są białe niezależnie od genu B.",
+     "odpowiedz": "Bez barwnika gen B nie ma czego „zabarwić” — allel cc maskuje działanie genu B (epistaza recesywna).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-06",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Groszek pachnący",
+   "material": "Opis (autorski). Skrzyżowano dwie odmiany groszku o białych kwiatach. W F1 wszystkie rośliny miały kwiaty purpurowe, a w F2 uzyskano 9 purpurowych : 7 białych.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij te wyniki.",
+     "odpowiedz": "Barwa zależy od dwóch genów komplementarnych: purpura powstaje tylko, gdy obecny jest co najmniej jeden allel dominujący każdego genu (A_B_); rodzice to AAbb i aaBB, F1 AaBb.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-genetyka-07",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Sprzężenie u muszki",
+   "material": "Wyniki (autorskie). Samicę muszki heterozygotyczną (AaBb, allele dominujące na jednym chromosomie) skrzyżowano z samcem aabb. Potomstwo: AaBb — 412; aabb — 408; Aabb — 92; aaBb — 88.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy geny A i B są sprzężone. Uzasadnij.",
+     "odpowiedz": "Tak — przeważają klasy rodzicielskie, a rekombinantów jest mało (zamiast 1:1:1:1).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość między genami A i B.",
+     "odpowiedz": "(92 + 88) / 1000 × 100% = 18% → 18 cM.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, jak powstały osobniki Aabb i aaBb.",
+     "odpowiedz": "W wyniku crossing-over między locus A i B w profazie I mejozy u samicy.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-genetyka-08",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Mapa genów",
+   "material": "Dane (autorskie). Częstości rekombinacji: A–B — 20%; A–C — 8%; B–C — 12%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Ustal kolejność genów na chromosomie.",
+     "odpowiedz": "A–C–B (C leży między A i B: 8 + 12 = 20).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-genetyka-09",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Daltonizm",
+   "material": "Opis (autorski). Kobieta o prawidłowym widzeniu barw, której ojciec był daltonistą, poślubiła mężczyznę o prawidłowym widzeniu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj genotypy kobiety i jej męża.",
+     "odpowiedz": "Kobieta XᴰXᵈ (nosicielka), mąż XᴰY.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz prawdopodobieństwo, że ich syn będzie daltonistą.",
+     "odpowiedz": "50% (1/2) — wśród synów.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Uwaga: wśród wszystkich dzieci — 1/4.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego żadna z ich córek nie będzie daltonistką.",
+     "odpowiedz": "Każda córka otrzyma od ojca chromosom Xᴰ z allelem dominującym.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-genetyka-10",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Hemofilia w rodzinie",
+   "material": "Opis (autorski). Mężczyzna chory na hemofilię A ma z zdrową kobietą (nienosicielką) syna i córkę.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ, czy syn może być chory. Uzasadnij.",
+     "odpowiedz": "Nie — od ojca otrzymał chromosom Y, a od matki zdrowy chromosom X.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz prawdopodobieństwo, że wnuk (syn córki z zdrowym mężczyzną) będzie chory.",
+     "odpowiedz": "Córka jest nosicielką na pewno → syn chory z prawdopodobieństwem 1/2.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-11",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Analiza rodowodu",
+   "material": "Rodowód (opis, autorski). Zdrowi rodzice (I-1, I-2) mają troje dzieci: zdrową córkę II-1, chorą córkę II-2 i zdrowego syna II-3.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ sposób dziedziczenia choroby. Uzasadnij.",
+     "odpowiedz": "Autosomalny recesywny — zdrowi rodzice mają chore dziecko (cecha recesywna), a chora jest córka zdrowego ojca (wyklucza sprzężenie z X).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz prawdopodobieństwo, że II-3 jest nosicielem.",
+     "odpowiedz": "2/3.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-12",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Choroba mitochondrialna",
+   "material": "Rodowód (opis, autorski). Chora kobieta i zdrowy mężczyzna mają dwoje chorych dzieci (syna i córkę). Chory syn ma ze zdrową kobietą troje zdrowych dzieci, a chora córka ze zdrowym mężczyzną — dwoje chorych dzieci.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ sposób dziedziczenia choroby.",
+     "odpowiedz": "Mitochondrialny (pozajądrowy, w linii matczynej).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego chory mężczyzna nie przekazuje choroby dzieciom.",
+     "odpowiedz": "Mitochondria zarodka pochodzą z komórki jajowej; plemnik nie przekazuje mitochondriów potomstwu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-13",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Anemia sierpowata",
+   "material": "Tekst (autorski). Anemia sierpowata jest wywołana substytucją jednego nukleotydu w genie β-globiny, w wyniku której kwas glutaminowy w białku zostaje zastąpiony waliną. Heterozygoty są bardziej odporne na malarię i w Afryce Równikowej allel choroby występuje częściej niż w Europie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ rodzaj mutacji ze względu na jej skutek dla białka.",
+     "odpowiedz": "Mutacja zmiany sensu (missens).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego allel choroby utrzymuje się z dużą częstością w rejonach malarycznych.",
+     "odpowiedz": "Heterozygoty mają przewagę — są odporniejsze na malarię niż homozygoty dominujące i nie chorują ciężko jak homozygoty recesywne; dobór naturalny faworyzuje heterozygoty, co utrzymuje allel w populacji.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-14",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Nondysjunkcja a zespół Downa",
+   "material": "Wykres (opis, autorski). Częstość urodzeń dzieci z zespołem Downa: matki 25-letnie — 1/1250; 35-letnie — 1/350; 45-letnie — 1/30.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego ryzyko rośnie z wiekiem matki.",
+     "odpowiedz": "Oocyty I rzędu powstają przed urodzeniem i pozostają zatrzymane w profazie I mejozy przez lata; z wiekiem rośnie ryzyko błędów rozchodzenia się chromosomów (nondysjunkcji) przy dokończeniu mejozy.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj kariotyp chłopca z zespołem Downa.",
+     "odpowiedz": "47,XY,+21.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-15",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Mutagen w dymie tytoniowym",
+   "material": "Tekst (autorski). Benzopiren z dymu tytoniowego tworzy wiązania z guaniną, co prowadzi m.in. do mutacji genu TP53 w komórkach nabłonka oskrzeli.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaklasyfikuj benzopiren do odpowiedniej grupy mutagenów.",
+     "odpowiedz": "Mutagen chemiczny.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy te mutacje mogą być przekazane potomstwu palacza. Uzasadnij.",
+     "odpowiedz": "Nie — są to mutacje somatyczne w komórkach oskrzeli, a nie w komórkach płciowych.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-16",
+   "dzial": "genetyka"
+  }
+ ]
+}

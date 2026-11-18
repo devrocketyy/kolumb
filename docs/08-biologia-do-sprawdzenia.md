@@ -33,3 +33,9 @@ Treści są pisane na podstawie wymagań egzaminacyjnych 2027, informatora i spr
 - [ ] Fazy cyklu miesiączkowego i numeracja dni — porównać z podręcznikiem.
 - [ ] Budowa odcinków kręgosłupa (liczba kręgów guzicznych 4–5) i nazewnictwo krzywizn.
 - [ ] Zadania autorskie z Fizjologii — jeszcze do napisania (cel ok. 180).
+
+## Podziały, genetyka molekularna, genetyka (tresci12–14, bank11–13)
+- [ ] Zapis ploidalności (n/c) — upewnić się, że jest zgodny z konwencją CKE w zasadach oceniania.
+- [ ] Przykład „zawłotnia” (mejoza zygotyczna) — czy nazwa jest zrozumiała, ew. zamienić na „chlamydomonas”.
+- [ ] Bank13 „Hemofilia w rodzinie” — sprawdzić rachunek prawdopodobieństwa i sformułowania (wśród synów vs wśród wszystkich dzieci).
+- [ ] Kod genetyczny: w zadaniach używam fragmentów tabeli — porównać z tabelą w „Wybranych wzorach” CKE.
