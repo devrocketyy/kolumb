@@ -13,7 +13,6 @@ T['b-weglowodany'] = dict(Q=[
  ('Glikogen jest materiałem zapasowym:', ['roślin', '*zwierząt i grzybów', 'wyłącznie bakterii', 'wszystkich organizmów'], 'Wątroba, mięśnie.'),
  ('Celuloza zbudowana jest z reszt:', ['α-glukozy', '*β-glukozy', 'fruktozy', 'galaktozy'], 'Wiązania β-1,4.'),
  ('Sacharoza składa się z:', ['dwóch cząsteczek glukozy', '*glukozy i fruktozy', 'glukozy i galaktozy', 'dwóch cząsteczek fruktozy'], 'Cukier trzcinowy.'),
- ('Cukrem nieredukującym jest:', ['glukoza', 'maltoza', '*sacharoza', 'laktoza'], 'Próba Trommera ujemna.'),
  ('Chityna występuje w:', ['ścianach komórek roślin', '*ścianach grzybów i oskórku stawonogów', 'błonach komórkowych zwierząt', 'ścianach bakterii'], 'Polisacharyd z azotem.'),
 ])
 
@@ -44,15 +43,12 @@ T['b-blony'] = dict(Q=[
 ])
 
 T['b-jadro'] = dict(Q=[
- ('Rybosomy 70S występują w:', ['cytoplazmie komórek zwierząt', '*mitochondriach i chloroplastach', 'jądrze komórkowym', 'aparacie Golgiego'], 'Pochodzenie endosymbiotyczne.'),
  ('Lizosomy zawierają:', ['DNA', '*enzymy hydrolityczne', 'chlorofil', 'rybosomy'], 'Trawienie wewnątrzkomórkowe.'),
  ('Synteza lipidów zachodzi w:', ['siateczce szorstkiej', '*siateczce gładkiej', 'jąderku', 'lizosomach'], 'ER gładkie.'),
  ('Jąderko jest miejscem:', ['replikacji DNA', '*powstawania podjednostek rybosomów', 'syntezy białek', 'oddychania komórkowego'], 'rRNA.'),
 ])
 
 T['b-oddychanie'] = dict(Q=[
- ('Glikoliza zachodzi w:', ['macierzy mitochondrium', '*cytozolu', 'błonie wewnętrznej mitochondrium', 'stromie chloroplastu'], 'Etap beztlenowy.'),
- ('Końcowym akceptorem elektronów w łańcuchu oddechowym jest:', ['NAD⁺', '*tlen', 'CO₂', 'pirogronian'], 'Powstaje woda.'),
  ('CO₂ powstaje podczas:', ['glikolizy', '*reakcji pomostowej i cyklu Krebsa', 'łańcucha oddechowego', 'fosforylacji substratowej w glikolizie'], 'Dekarboksylacje.'),
  ('Najwięcej ATP powstaje w:', ['glikolizie', 'cyklu Krebsa', '*fosforylacji oksydacyjnej', 'reakcji pomostowej'], 'Syntaza ATP.'),
  ('Fermentacja mleczanowa w mięśniach umożliwia:', ['syntezę glukozy', '*regenerację NAD⁺ dla glikolizy', 'produkcję CO₂', 'syntezę ATP w mitochondriach'], 'Glikoliza trwa dalej.'),
@@ -60,8 +56,6 @@ T['b-oddychanie'] = dict(Q=[
 
 T['b-fotosynteza'] = dict(Q=[
  ('Tlen wydzielany w fotosyntezie pochodzi z:', ['CO₂', '*wody', 'glukozy', 'chlorofilu'], 'Fotoliza wody.'),
- ('Cykl Calvina zachodzi w:', ['tylakoidach', '*stromie chloroplastu', 'cytozolu', 'mitochondrium'], 'Faza niezależna od światła.'),
- ('Enzymem wiążącym CO₂ w cyklu Calvina jest:', ['karboksylaza PEP', '*RuBisCO', 'syntaza ATP', 'reduktaza NADP⁺'], 'Najliczniejsze białko na Ziemi.'),
  ('Produktami fazy zależnej od światła są:', ['glukoza i tlen', '*ATP, NADPH i tlen', 'CO₂ i woda', 'RuBP i ATP'], 'Siła asymilacyjna.'),
  ('Chlorofil najsłabiej pochłania światło:', ['czerwone', 'niebieskie', '*zielone', 'fioletowe'], 'Odbijane — barwa liści.'),
 ])
@@ -103,7 +97,6 @@ T['b-transkrypcja'] = dict(Q=[
 T['b-bakterie'] = dict(Q=[
  ('Transdukcja to przeniesienie DNA za pośrednictwem:', ['pilusa', '*bakteriofaga', 'otoczenia', 'plazmidu R'], 'Wirus bakteryjny.'),
  ('Bakterie nitryfikacyjne są:', ['fotoautotrofami', '*chemoautotrofami', 'heterotrofami pasożytniczymi', 'saprotrofami'], 'Energia z utleniania NH₃.'),
- ('Chorobą bakteryjną jest:', ['odra', 'grypa', '*tężec', 'malaria'], 'Laseczka tężca.'),
  ('Bakterie Gram-ujemne mają:', ['grubą warstwę mureiny', '*cienką mureinę i błonę zewnętrzną', 'ścianę z chityny', 'brak ściany'], 'Barwienie Grama.'),
 ])
 
