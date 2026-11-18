@@ -1,0 +1,500 @@
+{
+ "dzial": "umiejetnosci",
+ "wiazki": [
+  {
+   "tytul": "Katalaza w ziemniaku",
+   "material": "Doświadczenie (autorskie). Uczniowie umieścili w czterech probówkach po 5 g startego surowego ziemniaka i dodali po 5 cm³ 3% roztworu H₂O₂. Probówki inkubowano 10 minut w temperaturze: 0°C, 20°C, 40°C i 80°C. Mierzono wysokość piany (cm) powstałej z wydzielanego tlenu. Wyniki: 0°C — 0,8; 20°C — 2,5; 40°C — 4,1; 80°C — 0,2.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj problem badawczy tego doświadczenia.",
+     "odpowiedz": "Np. Czy (jak) temperatura wpływa na aktywność katalazy w bulwie ziemniaka?",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Problem to pytanie zawierające zmienną niezależną (temperatura) i zależną (aktywność katalazy mierzona ilością piany).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ zmienną niezależną i zmienną zależną w doświadczeniu.",
+     "odpowiedz": "Niezależna — temperatura; zależna — wysokość piany (ilość wydzielonego tlenu, aktywność katalazy).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Niezależną zmienia badacz, zależną mierzy.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaproponuj próbę kontrolną, która wykaże, że piana powstaje z udziałem enzymu z ziemniaka.",
+     "odpowiedz": "Np. probówka z H₂O₂ i ugotowanym (zagotowanym) ziemniakiem albo z samą wodą zamiast ziemniaka — piana nie powstanie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Gotowanie denaturuje enzym; brak piany w tej próbie pokazuje, że to enzym rozkłada H₂O₂.",
+     "nr": "3"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w temperaturze 80°C powstało bardzo mało piany.",
+     "odpowiedz": "Wysoka temperatura spowodowała denaturację katalazy — zmienił się kształt centrum aktywnego, więc H₂O₂ nie mógł się z nim wiązać i nie był rozkładany.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Pełne wyjaśnienie: przyczyna (80°C) → mechanizm (denaturacja, zmiana centrum aktywnego) → skutek (brak rozkładu, mało tlenu).",
+     "nr": "4"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy na podstawie wyników można stwierdzić, że optimum temperaturowe katalazy wynosi dokładnie 40°C. Uzasadnij.",
+     "odpowiedz": "Nie — zbadano tylko cztery temperatury; optimum może leżeć np. między 20 a 80°C (np. 35 lub 50°C), których nie badano.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wniosek nie może wykraczać poza dane — klasyczna pułapka z rekomendacji CKE 2026.",
+     "nr": "5"
+    }
+   ],
+   "id": "b-umiejetnosci-01",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Kiełkowanie rzeżuchy",
+   "material": "Doświadczenie (autorskie). W czterech szalkach na wilgotnej ligninie wysiano po 50 nasion rzeżuchy. Szalki umieszczono w temperaturze 22°C: A — na świetle, B — w ciemności, C — na świetle, ale na suchej ligninie, D — w ciemności i w lodówce (4°C). Po 3 dniach wykiełkowało: A — 46, B — 47, C — 0, D — 3 nasiona.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, które dwie szalki należy porównać, aby ocenić wpływ światła na kiełkowanie.",
+     "odpowiedz": "A i B.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Różnią się tylko światłem; pozostałe warunki (woda, temperatura) są takie same.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy porównanie szalek A i D pozwala ocenić wpływ temperatury na kiełkowanie. Uzasadnij.",
+     "odpowiedz": "Nie — szalki różnią się dwoma czynnikami (światłem i temperaturą), więc nie wiadomo, który spowodował różnicę.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "W poprawnym porównaniu różni się tylko jedna zmienna.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj wniosek dotyczący wpływu wody na kiełkowanie nasion rzeżuchy.",
+     "odpowiedz": "Do kiełkowania nasion rzeżuchy niezbędna jest woda (bez wody nasiona nie kiełkują).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wniosek z porównania A i C — dotyczy wody i nie wykracza poza rzeżuchę.",
+     "nr": "3"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego do każdej szalki wysiano po 50 nasion, a nie po jednym.",
+     "odpowiedz": "Aby ograniczyć wpływ zmienności osobniczej i przypadku (np. martwego nasienia) — wynik jest bardziej wiarygodny.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Liczna próba = wiarygodność.",
+     "nr": "4"
+    }
+   ],
+   "id": "b-umiejetnosci-02",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Moczarka i światło",
+   "material": "Doświadczenie (autorskie). Gałązkę moczarki kanadyjskiej umieszczono w zlewce z wodą z dodatkiem NaHCO₃ w temperaturze 25°C. Lampę ustawiano w różnej odległości od zlewki i liczono pęcherzyki gazu wydzielane w ciągu minuty: 10 cm — 42; 20 cm — 24; 40 cm — 9; 80 cm — 3.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jaką funkcję pełni NaHCO₃ dodany do wody.",
+     "odpowiedz": "Jest źródłem CO₂ dla fotosyntezy — dzięki temu ilość CO₂ nie ogranicza procesu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Warunek stały, który eliminuje CO₂ jako czynnik ograniczający.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego zmniejszanie odległości lampy zwiększa liczbę pęcherzyków.",
+     "odpowiedz": "Im bliżej lampa, tym większe natężenie światła, więc fotosystemy pochłaniają więcej energii, szybciej zachodzi faza zależna od światła (fotoliza wody) i wydziela się więcej tlenu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mechanizm: więcej światła → więcej wzbudzonego chlorofilu i fotolizy → więcej O₂.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż czynnik, który powinien być kontrolowany, a którego zmiana mogłaby zafałszować wynik przy zbliżaniu lampy, i zaproponuj sposób jego kontroli.",
+     "odpowiedz": "Temperatura wody (lampa grzeje) — można postawić między lampą a zlewką naczynie z wodą (filtr cieplny) lub użyć lampy LED i mierzyć temperaturę.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "CKE pyta o funkcję elementów procedury — co kontroluje dany zabieg.",
+     "nr": "3"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy liczba pęcherzyków jest dokładną miarą intensywności fotosyntezy. Uzasadnij.",
+     "odpowiedz": "Nie — pęcherzyki mogą mieć różną wielkość, część tlenu rozpuszcza się w wodzie lub jest zużywana w oddychaniu; to miara przybliżona.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ocena ograniczeń metody to częsty typ polecenia.",
+     "nr": "4"
+    }
+   ],
+   "id": "b-umiejetnosci-03",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Lek i placebo",
+   "material": "Opis badania (autorski). 200 osób z nadciśnieniem losowo podzielono na dwie grupy. Grupa I przez 8 tygodni otrzymywała nowy lek, grupa II — identycznie wyglądające tabletki bez substancji czynnej. Ani pacjenci, ani lekarze mierzący ciśnienie nie wiedzieli, kto należy do której grupy. Średni spadek ciśnienia skurczowego: grupa I — 14 mm Hg, grupa II — 4 mm Hg (p < 0,01).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę takiego schematu badania.",
+     "odpowiedz": "Badanie z podwójnie ślepą próbą (z grupą kontrolną otrzymującą placebo, randomizowane).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Podwójnie ślepa — nie wiedzą ani badani, ani badacze.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego lekarze mierzący ciśnienie nie wiedzieli, kto otrzymuje lek.",
+     "odpowiedz": "Aby ich oczekiwania nie wpływały (nawet nieświadomie) na sposób pomiaru i interpretację wyników.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Eliminacja błędu obserwatora.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w grupie II ciśnienie też nieco spadło.",
+     "odpowiedz": "Efekt placebo (oczekiwanie poprawy, mniejszy stres) lub naturalna zmienność ciśnienia; dlatego skuteczność leku ocenia się względem placebo, a nie względem zera.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Grupa kontrolna pokazuje, ile zmiany nie wynika z leku.",
+     "nr": "3"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Na podstawie wyników sformułuj wniosek.",
+     "odpowiedz": "Nowy lek istotnie statystycznie obniża ciśnienie skurczowe u osób z nadciśnieniem (bardziej niż placebo).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "p < 0,01 — różnica istotna; wniosek dotyczy badanej grupy (osoby z nadciśnieniem).",
+     "nr": "4"
+    }
+   ],
+   "id": "b-umiejetnosci-04",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Pleśń na chlebie",
+   "material": "Doświadczenie (autorskie). Sześć jednakowych kromek chleba bez konserwantów zwilżono taką samą ilością wody i zamknięto w woreczkach. Trzy woreczki trzymano w 25°C, trzy — w 4°C. Po 7 dniach mierzono powierzchnię pokrytą pleśnią: 25°C — 38%, 42%, 35%; 4°C — 3%, 0%, 2%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz średnią powierzchnię pokrytą pleśnią w każdej temperaturze.",
+     "odpowiedz": "25°C — ok. 38,3%; 4°C — ok. 1,7%.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(38+42+35)/3 = 38,3; (3+0+2)/3 = 1,7.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w jakim celu każdą temperaturę badano na trzech kromkach.",
+     "odpowiedz": "Aby uwzględnić zmienność wyników (powtórzenia) i obliczyć średnią — wynik jest bardziej wiarygodny.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Powtórzenia.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w lodówce pleśń rozwijała się wolniej.",
+     "odpowiedz": "Niska temperatura obniża aktywność enzymów grzyba, więc wolniej zachodzi metabolizm, wzrost strzępek i kiełkowanie zarodników.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mechanizm: temperatura → aktywność enzymów → tempo wzrostu.",
+     "nr": "3"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy na podstawie doświadczenia można stwierdzić, że chleb przechowywany w lodówce nigdy nie spleśnieje. Uzasadnij.",
+     "odpowiedz": "Nie — badanie trwało tylko 7 dni, a w 4°C pleśń też się pojawiła (wzrost spowolniony, nie zatrzymany).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Nie wolno ekstrapolować poza zakres danych.",
+     "nr": "4"
+    }
+   ],
+   "id": "b-umiejetnosci-05",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Korelacja a przyczyna",
+   "material": "Dane (przykładowe). W miastach, w których jest więcej bocianich gniazd, rodzi się więcej dzieci. Współczynnik korelacji między liczbą gniazd a liczbą urodzeń wynosi 0,8.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy dane dowodzą, że bociany wpływają na liczbę urodzeń. Uzasadnij.",
+     "odpowiedz": "Nie — korelacja nie dowodzi związku przyczynowego; obie wielkości mogą zależeć od trzeciego czynnika (np. wielkości miasta lub liczby mieszkańców).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Klasyczny przykład pozornej zależności.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaproponuj, jak można by sprawdzić, czy zależność wynika z wielkości miast.",
+     "odpowiedz": "Porównać miasta o podobnej liczbie mieszkańców (lub przeliczyć dane na 1000 mieszkańców) i sprawdzić, czy korelacja nadal występuje.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kontrola zmiennej zakłócającej.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-06",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Wpływ pH na amylazę",
+   "material": "Doświadczenie (autorskie). Do pięciu probówek z 2 cm³ 1% roztworu skrobi i roztworami buforowymi o pH 3, 5, 7, 9 i 11 dodano po 1 cm³ rozcieńczonej śliny. Co 30 sekund pobierano kroplę mieszaniny na płytkę z płynem Lugola. Zanotowano czas, po którym kropla przestawała barwić się na granatowo: pH 3 — powyżej 10 min; pH 5 — 6 min; pH 7 — 2 min; pH 9 — 5 min; pH 11 — powyżej 10 min.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego zanik granatowej barwy świadczy o działaniu amylazy.",
+     "odpowiedz": "Amylaza rozkłada skrobię do maltozy, a płyn Lugola barwi na granatowo tylko skrobię — gdy skrobia zostanie rozłożona, barwa zanika.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wskaźnik reaguje na substrat, nie na produkt.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, przy którym pH amylaza ślinowa działała najszybciej, i określ, jaką zależność przedstawiają wyniki.",
+     "odpowiedz": "Przy pH 7; aktywność amylazy zależy od pH — jest największa przy pH obojętnym i maleje w środowisku kwaśnym i zasadowym.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Krótszy czas = wyższa aktywność.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego amylaza ślinowa przestaje działać w żołądku.",
+     "odpowiedz": "W żołądku jest kwaśne środowisko (pH ok. 2) — zmienia się jonizacja aminokwasów w centrum aktywnym, enzym zmienia kształt (denaturuje) i nie wiąże skrobi.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zmiana pH → zmiana ładunków i struktury → utrata aktywności.",
+     "nr": "3"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaproponuj próbę kontrolną do tego doświadczenia.",
+     "odpowiedz": "Probówka ze skrobią i buforem o pH 7, do której zamiast śliny dodano wodę destylowaną (lub zagotowaną ślinę) — skrobia nie powinna zniknąć.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Pokazuje, że rozkład skrobi zachodzi dzięki enzymowi ze śliny.",
+     "nr": "4"
+    }
+   ],
+   "id": "b-umiejetnosci-07",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Wykres w zadaniu",
+   "material": "Dane (autorskie). Zmierzono tempo pobierania tlenu przez myszy (cm³ O₂/g/h) w różnych temperaturach otoczenia: 5°C — 6,2; 10°C — 5,0; 20°C — 3,4; 30°C — 2,4; 35°C — 2,6.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Narysuj wykres liniowy przedstawiający zależność tempa pobierania tlenu od temperatury otoczenia.",
+     "odpowiedz": "Oś X: temperatura otoczenia [°C] (5–35), oś Y: pobieranie tlenu [cm³ O₂ · g⁻¹ · h⁻¹]; równomierne skale, pięć poprawnie naniesionych punktów połączonych linią, tytuł lub opis.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "2 pkt — poprawnie opisane i wyskalowane osie oraz poprawnie naniesione punkty; 1 pkt — jeden z tych elementów.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego mysz zużywa więcej tlenu w niskiej temperaturze.",
+     "odpowiedz": "Mysz jest stałocieplna — w zimnie traci więcej ciepła, więc intensyfikuje oddychanie komórkowe (produkcję ciepła), na co zużywa więcej tlenu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Termoregulacja wymaga energii z oddychania.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-08",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Hipoteza czy wniosek?",
+   "material": "Zestaw zdań (autorski). 1. Czy stężenie soli wpływa na plazmolizę w komórkach skórki cebuli? 2. Im wyższe stężenie NaCl, tym większy odsetek komórek ulega plazmolizie. 3. W roztworze 10% NaCl plazmolizie uległo 95% komórek. 4. Stężenie soli w otoczeniu wpływa na plazmolizę komórek skórki cebuli.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "przyporzadkuj",
+     "punkty": 1,
+     "polecenie": "Przyporządkuj zdaniom 1–4 nazwy: wynik, hipoteza, problem badawczy, wniosek.",
+     "odpowiedz": "1 — problem badawczy; 2 — hipoteza; 3 — wynik; 4 — wniosek.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Problem = pytanie, hipoteza = przewidywanie przed badaniem, wynik = konkretna obserwacja, wniosek = uogólnienie po badaniu.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-umiejetnosci-09",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Uzasadnienie w praktyce",
+   "material": "Polecenie (autorskie). „Rozstrzygnij, czy naczynie oznaczone X na schemacie serca ryby jest żyłą, czy tętnicą. Uzasadnij.” Na schemacie naczynie X wyprowadza krew z komory serca do skrzeli. Uczeń odpowiedział: „Tętnica, bo płynie w niej krew odtlenowana”.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Oceń, czy odpowiedź ucznia zasługuje na punkt. Uzasadnij swoją ocenę.",
+     "odpowiedz": "Nie — rozstrzygnięcie jest poprawne, ale uzasadnienie błędne: o tym, czy naczynie jest tętnicą, decyduje kierunek przepływu krwi (od serca), a nie stopień jej utlenowania.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przykład z typowych błędów opisanych w sprawozdaniu CKE 2025.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz poprawne uzasadnienie.",
+     "odpowiedz": "Jest to tętnica, ponieważ odprowadza krew z serca (z komory) do skrzeli.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Uzasadnienie wskazuje cechę rozstrzygającą (kierunek przepływu).",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-10",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Wyjaśnij — przyczyna, mechanizm, skutek",
+   "material": "Odpowiedzi uczniów (autorskie) na polecenie „Wyjaśnij, dlaczego u osoby z niedoborem albumin pojawiają się obrzęki”: A — „Bo brakuje albumin.” B — „Albuminy zatrzymują wodę we krwi.” C — „Mało albumin obniża ciśnienie onkotyczne osocza, więc mniej wody wraca z płynu tkankowego do naczyń włosowatych i gromadzi się ona w tkankach.”",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Wskaż odpowiedź, która jest pełnym wyjaśnieniem, i określ, czego brakuje w odpowiedzi B.",
+     "odpowiedz": "C; w odpowiedzi B brakuje powiązania z przyczyną (niedobór → spadek ciśnienia onkotycznego) i skutku (gromadzenie wody w tkankach — obrzęk).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Pełne wyjaśnienie zawiera przyczynę, mechanizm i skutek.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-umiejetnosci-11",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Bioindykacja porostami",
+   "material": "Dane (autorskie). Na pniach drzew w pięciu punktach na linii od centrum miasta do lasu oznaczono liczbę gatunków porostów: centrum — 0; 2 km — 1; 5 km — 4; 10 km — 9; las 20 km — 15. Stężenie SO₂ w powietrzu malało w tym kierunku.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj wniosek na podstawie danych.",
+     "odpowiedz": "Liczba gatunków porostów rośnie wraz ze spadkiem zanieczyszczenia powietrza SO₂ (z odległością od centrum miasta).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wniosek wiąże obie zmienne, ale nie twierdzi, że dowiedziono przyczyny.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy same dane dowodzą, że SO₂ jest przyczyną braku porostów w centrum. Uzasadnij.",
+     "odpowiedz": "Nie — to dane korelacyjne; na porosty mogą wpływać też inne czynniki zmieniające się wraz z odległością (pyły, wilgotność, gatunki drzew); potrzebne byłoby doświadczenie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Odróżnianie korelacji od przyczyny.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-12",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Średnia a mediana",
+   "material": "Dane (autorskie). Masa ciała (g) dziesięciu myszy z jednej populacji: 18, 19, 19, 20, 20, 21, 21, 22, 22, 48.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz średnią i medianę masy ciała myszy.",
+     "odpowiedz": "Średnia = 23 g; mediana = 20,5 g.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Suma = 230 g, n = 10; mediana — średnia z 5. i 6. wartości (20 i 21).",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w tym przypadku mediana lepiej opisuje typową masę myszy niż średnia.",
+     "odpowiedz": "Bo jedna mysz o masie 48 g (wartość odstająca) zawyża średnią, a mediana jest na wartości skrajne mało wrażliwa.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wybór miary tendencji centralnej.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-13",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Słupki błędu",
+   "material": "Wykres (opis, autorski). Średnia wysokość siewek fasoli po 14 dniach: nawożone — 18 cm (odchylenie standardowe ±6 cm), nienawożone — 16 cm (±5 cm). W każdej grupie było 5 roślin.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy na podstawie tych wyników można uznać, że nawóz zwiększa wysokość siewek fasoli. Uzasadnij.",
+     "odpowiedz": "Nie można tego pewnie stwierdzić — różnica średnich (2 cm) jest mała w porównaniu z rozrzutem wyników (±5–6 cm), a grupy są małe; różnica może być przypadkowa.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Nakładające się słupki błędu i mała liczebność.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaproponuj zmianę w doświadczeniu, która zwiększy jego wiarygodność.",
+     "odpowiedz": "Zwiększenie liczby roślin w grupach (np. do 30) i/lub powtórzenie doświadczenia, a następnie test statystyczny.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Większa próba zmniejsza wpływ przypadku.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-14",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Wniosek poza danymi",
+   "material": "Badanie (autorskie). Szczurom podawano przez 4 tygodnie dietę z dodatkiem związku X. W porównaniu z grupą kontrolną zmniejszyło się u nich stężenie cholesterolu LDL we krwi o 20%. Uczeń sformułował wniosek: „Związek X chroni ludzi przed zawałem serca”.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Podaj dwa powody, dla których wniosek ucznia wykracza poza dane z badania.",
+     "odpowiedz": "Np. 1) badanie przeprowadzono na szczurach, a nie na ludziach; 2) mierzono stężenie LDL, a nie częstość zawałów (nie badano skutków klinicznych); 3) badanie trwało tylko 4 tygodnie.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Każdy trafny powód — 1 pkt. Rekomendacja CKE: kontroluj zakres wnioskowania.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-umiejetnosci-15",
+   "dzial": "umiejetnosci"
+  }
+ ]
+}

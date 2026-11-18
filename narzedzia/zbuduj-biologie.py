@@ -112,10 +112,9 @@ def build_unit(uid, nr, nazwa, t):
 
 
 ZASADY = {
-    1: '1 pkt – odpowiedź poprawna (przy rozstrzygnięciu — z uzasadnieniem odwołującym się do materiału).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.',
-    2: '2 pkt – odpowiedź pełna i poprawna.\n1 pkt – odpowiedź częściowo poprawna (np. jeden z dwóch elementów).\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.',
-    3: '3 pkt – odpowiedź pełna z interpretacją i kontekstem.\n2 pkt – brak jednego elementu.\n1 pkt – odpowiedź częściowa.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.',
-    15: 'Kryterium A — rzeczowość i argumentacja (0–12 pkt): jasne stanowisko wobec tezy; argumenty dotyczące wszystkich wymaganych aspektów lub postaci; poprawna i szeroka faktografia (daty, nazwy, przykłady); dostrzeżenie kontrargumentów i złożoności zjawiska; wniosek zgodny ze stanowiskiem.\nKryterium B — kompozycja i spójność (0–3 pkt): wstęp, rozwinięcie i zakończenie; logiczne powiązanie argumentów; poprawny język.\nMinimum 300 wyrazów. Praca nie na temat lub bez stanowiska — 0 pkt.',
+    1: '1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.',
+    2: '2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.',
+    3: '3 pkt – odpowiedź pełna (wszystkie trzy elementy).\n2 pkt – poprawne dwa elementy.\n1 pkt – poprawny jeden element.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.',
 }
 
 
