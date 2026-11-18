@@ -50,10 +50,10 @@ T['b-czasowniki'] = dict(F=[
  ('Uzasadnienie wyboru jednej z opcji powinno:', ['opisywać wybraną opcję jak najdokładniej', 'powtarzać treść polecenia', '*wskazywać cechę różniącą wybraną opcję od pozostałych', 'zawierać kilka alternatywnych odpowiedzi'], 'Typowy błąd z 2025 r.: opis opcji zamiast cechy różnicującej.'),
  ('Uczeń napisał kilka odpowiedzi, z których jedna jest błędna. Ile punktów otrzyma?', ['pełną liczbę', 'połowę', '*0 pkt', 'punkt za każdą poprawną'], 'Podanie kilku odpowiedzi, w tym błędnej, skutkuje brakiem punktów.'),
  ('Polecenie „porównaj” wymaga:', ['opisania każdego obiektu oddzielnie', '*zestawienia tej samej cechy obu obiektów', 'podania definicji obu obiektów', 'narysowania schematu'], 'Porównanie dotyczy tej samej cechy.'),
- ('Hipoteza to:', ['pytanie badawcze', '*twierdzenie przewidujące wynik, które można zweryfikować', 'opis wyników badania', 'wniosek z doświadczenia'], 'Problem — pytanie; hipoteza — twierdzenie.'),
+ ('Hipoteza to:', ['pytanie, na które odpowiada doświadczenie', '*twierdzenie przewidujące wynik, które można sprawdzić', 'opis wyników uzyskanych w doświadczeniu', 'uogólnienie sformułowane po zakończeniu badania'], 'Problem — pytanie; hipoteza — twierdzenie.'),
  ('Ile punktów łącznie można uzyskać na maturze rozszerzonej z biologii?', ['50', '*60', '70', '100'], '60 pkt, 180 minut, 44–56 zadań.'),
  ('Zadania z jednej wiązki:', ['trzeba rozwiązywać w kolejności, bo zależą od siebie', '*dotyczą wspólnego materiału, ale każde można rozwiązać niezależnie', 'zawsze są zamknięte', 'zawsze mają po 2 pkt'], 'Informator CKE: każde zadanie wiązki jest niezależne.'),
- ('Które zdanie jest poprawnym wyjaśnieniem?', ['Wysoka temperatura obniża aktywność enzymu.', 'Enzym to białko.', '*Wysoka temperatura zrywa wiązania stabilizujące strukturę białka enzymu, zmienia się kształt centrum aktywnego, więc substrat nie może się z nim wiązać.', 'Enzym działa w optymalnej temperaturze.'], 'Tylko ta odpowiedź zawiera mechanizm.'),
+ ('Które zdanie jest poprawnym wyjaśnieniem?', ['Wysoka temperatura obniża aktywność enzymu, ponieważ enzym jest białkiem, a białka źle znoszą wysokie temperatury.', 'Enzym ma optimum temperaturowe, powyżej którego jego aktywność spada, a poniżej którego rośnie wraz z temperaturą.', '*Wysoka temperatura zrywa wiązania stabilizujące strukturę enzymu, zmienia kształt centrum aktywnego i substrat nie może się z nim wiązać.', 'W wysokiej temperaturze cząsteczki poruszają się szybciej, dlatego enzym nie nadąża i reakcja zachodzi wolniej.'], 'Tylko ta odpowiedź zawiera mechanizm.'),
 ], pp='og.')
 
 T['b-metodologia'] = dict(F=[
@@ -105,7 +105,7 @@ T['b-metodologia'] = dict(F=[
  ('Zagotowany materiał w próbie kontrolnej służy do:', ['przyspieszenia reakcji', '*wykazania, że efekt zależy od aktywnych enzymów', 'zwiększenia stężenia substratu', 'zabicia bakterii przed pomiarem'], 'Gotowanie denaturuje białka enzymatyczne.'),
  ('Korelacja dwóch zmiennych:', ['zawsze dowodzi związku przyczynowego', '*nie dowodzi sama w sobie związku przyczynowego', 'występuje tylko w doświadczeniach', 'oznacza brak zależności'], 'Może wynikać z trzeciego czynnika.'),
  ('Wodę wapienną stosuje się do wykrywania:', ['tlenu', '*dwutlenku węgla', 'skrobi', 'białek'], 'CO₂ powoduje mętnienie wody wapiennej (CaCO₃).'),
- ('Wniosek z doświadczenia:', ['opisuje szczegółowo pomiary', '*odpowiada na problem badawczy i nie wykracza poza dane', 'zawsze wyjaśnia mechanizm', 'jest pytaniem'], 'Wniosek = uogólnienie wyników.'),
+ ('Wniosek z doświadczenia:', ['szczegółowo opisuje wszystkie wykonane pomiary', '*odpowiada na problem badawczy i nie wykracza poza dane', 'zawsze wyjaśnia mechanizm badanego procesu', 'jest pytaniem, na które odpowiada badanie'], 'Wniosek = uogólnienie wyników.'),
 ], pp='og.')
 
 T['b-dane'] = dict(F=[
@@ -135,10 +135,10 @@ T['b-dane'] = dict(F=[
  ('Co to jest wartość względna (np. „aktywność względna enzymu, %”)?', 'Wartość wyrażona w stosunku do wartości odniesienia (np. maksymalnej = 100%), a nie w jednostkach bezwzględnych.'),
  ('Jak sprawdzić, czy wynik w tabeli jest wiarygodny?', 'Czy podano liczbę powtórzeń lub osobników, rozrzut wyników i czy próby kontrolne zachowały się zgodnie z oczekiwaniem.'),
 ], Q=[
- ('Plateau na krzywej aktywności enzymu w funkcji stężenia substratu oznacza najczęściej:', ['denaturację enzymu', '*wysycenie centrów aktywnych substratem', 'brak substratu', 'błąd pomiaru'], 'Dalszy wzrost substratu nie zwiększa szybkości reakcji.'),
+ ('Plateau na krzywej aktywności enzymu w funkcji stężenia substratu oznacza najczęściej:', ['denaturację cząsteczek enzymu', '*wysycenie centrów aktywnych substratem', 'całkowite zużycie substratu', 'działanie inhibitora kompetycyjnego'], 'Dalszy wzrost substratu nie zwiększa szybkości reakcji.'),
  ('Zmienną niezależną umieszcza się zwykle:', ['*na osi X', 'na osi Y', 'w legendzie', 'w tytule'], 'Oś pozioma.'),
  ('Wartość środkowa uporządkowanego zbioru danych to:', ['średnia', '*mediana', 'dominanta', 'odchylenie'], 'Mediana.'),
- ('Zapis p < 0,05 oznacza, że różnica:', ['jest mniejsza niż 5%', '*jest uznawana za istotną statystycznie', 'jest przypadkowa', 'wynosi 0,05'], 'Prawdopodobieństwo przypadku < 5%.'),
+ ('Zapis p < 0,05 oznacza, że różnica:', ['jest mniejsza niż 5% wartości średniej', '*jest uznawana za istotną statystycznie', 'jest najprawdopodobniej przypadkowa', 'wynosi dokładnie 0,05 jednostki'], 'Prawdopodobieństwo przypadku < 5%.'),
  ('Udział grup krwi w populacji najlepiej przedstawić na wykresie:', ['liniowym', 'punktowym', '*kołowym lub słupkowym', 'logarytmicznym'], 'Udział części w całości.'),
  ('Wartość wzrosła z 40 do 50. Zmiana procentowa wynosi:', ['10%', '20%', '*25%', '50%'], '(50 − 40) / 40 × 100% = 25%.'),
 ], pp='og.')

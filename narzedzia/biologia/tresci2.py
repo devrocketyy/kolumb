@@ -106,7 +106,7 @@ T['b-weglowodany'] = dict(F=[
  ('Jak mikrofibryle celulozy wpływają na wytrzymałość ściany komórkowej?', 'Łańcuchy β-glukozy są ułożone równolegle i połączone wiązaniami wodorowymi w włókna o dużej wytrzymałości na rozciąganie — ściana wytrzymuje nacisk turgoru.'),
  ('Jak oznaczyć ilościowo glukozę we krwi w praktyce medycznej?', 'Glukometrem (metoda enzymatyczna z oksydazą glukozową) — pomiar stężenia glukozy, np. w diagnostyce cukrzycy.'),
 ], Q=[
- ('Skrobia i celuloza różnią się przede wszystkim:', ['rodzajem pierwiastków', '*rodzajem glukozy (α lub β) i typem wiązań glikozydowych', 'liczbą atomów węgla w glukozie', 'obecnością azotu'], 'Skrobia — α-glukoza, celuloza — β-glukoza.'),
+ ('Skrobia i celuloza różnią się przede wszystkim:', ['rodzajem pierwiastków budujących cząsteczkę', '*rodzajem glukozy (α lub β) i typem wiązań', 'liczbą atomów węgla w cząsteczce glukozy', 'obecnością azotu w jednostkach budulcowych'], 'Skrobia — α-glukoza, celuloza — β-glukoza.'),
  ('Materiałem zapasowym grzybów i zwierząt jest:', ['skrobia', '*glikogen', 'celuloza', 'chityna'], 'Glikogen.'),
  ('Laktoza składa się z:', ['glukozy i fruktozy', 'dwóch glukoz', '*glukozy i galaktozy', 'fruktozy i galaktozy'], 'Cukier mleczny.'),
  ('Ketozą jest:', ['glukoza', 'ryboza', '*fruktoza', 'galaktoza'], 'Fruktoza ma grupę ketonową.'),
@@ -115,7 +115,7 @@ T['b-weglowodany'] = dict(F=[
  ('Dodatni wynik próby Trommera to:', ['granatowe zabarwienie', 'fioletowe zabarwienie', '*ceglastoczerwony osad', 'zmętnienie'], 'Osad Cu₂O.'),
  ('Glukoza nie jest magazynowana w dużych ilościach w komórce, ponieważ:', ['jest nietrwała', '*zwiększałaby ciśnienie osmotyczne komórki', 'nie przechodzi przez błony', 'jest toksyczna'], 'Rozpuszczalne cukry zmieniają osmolarność.'),
  ('Deoksyryboza jest składnikiem:', ['RNA', '*DNA', 'ATP', 'NADP'], 'DNA; ryboza — RNA i ATP.'),
- ('Wiązania α-1,6-glikozydowe występują w:', ['amylozie', 'celulozie', '*amylopektynie i glikogenie', 'maltozie'], 'W punktach rozgałęzień.'),
+ ('Wiązania α-1,6-glikozydowe występują w:', ['amylozie i maltozie', 'celulozie i chitynie', '*amylopektynie i glikogenie', 'sacharozie i laktozie'], 'W punktach rozgałęzień.'),
 ], pp='I.2')
 
 T['b-bialka'] = dict(F=[
@@ -203,7 +203,7 @@ T['b-bialka'] = dict(F=[
 ], Q=[
  ('Struktura I-rzędowa białka to:', ['helisa α', '*sekwencja aminokwasów', 'połączenie podjednostek', 'kształt przestrzenny łańcucha'], 'Kolejność aminokwasów.'),
  ('Podczas denaturacji NIE ulega zniszczeniu struktura:', ['II-rzędowa', 'III-rzędowa', 'IV-rzędowa', '*I-rzędowa'], 'Wiązania peptydowe pozostają.'),
- ('Strukturę II-rzędową stabilizują przede wszystkim:', ['mostki disiarczkowe', '*wiązania wodorowe w łańcuchu głównym', 'wiązania peptydowe', 'wiązania glikozydowe'], 'Helisa α i harmonijka β.'),
+ ('Strukturę II-rzędową stabilizują przede wszystkim:', ['mostki disiarczkowe między cysteinami', '*wiązania wodorowe w łańcuchu głównym', 'wiązania peptydowe między aminokwasami', 'oddziaływania hydrofobowe łańcuchów R'], 'Helisa α i harmonijka β.'),
  ('Białkiem złożonym jest:', ['kolagen', 'keratyna', '*hemoglobina', 'albumina'], 'Ma grupę prostetyczną — hem.'),
  ('Białka osocza odpowiedzialne za utrzymanie ciśnienia onkotycznego to:', ['globuliny', '*albuminy', 'histony', 'fibryna'], 'Ich niedobór → obrzęki.'),
  ('Odwracalne wytrącenie białka z roztworu następuje pod wpływem:', ['wysokiej temperatury', 'soli metali ciężkich', '*soli metali lekkich (np. NaCl)', 'stężonego kwasu'], 'Wysalanie.'),
@@ -212,5 +212,5 @@ T['b-bialka'] = dict(F=[
  ('Fioletowe zabarwienie w reakcji biuretowej świadczy o obecności:', ['skrobi', 'cukrów redukujących', '*wiązań peptydowych', 'tłuszczów'], 'Kompleks Cu²⁺ z wiązaniami peptydowymi.'),
  ('Witamina C jest niezbędna do prawidłowej syntezy:', ['keratyny', '*kolagenu', 'hemoglobiny', 'insuliny'], 'Jej brak → szkorbut.'),
  ('Struktura IV-rzędowa występuje w:', ['mioglobinie', '*hemoglobinie', 'każdym białku', 'keratynie pojedynczego łańcucha'], 'Hemoglobina — 4 podjednostki.'),
- ('Pepsynogen jest wydzielany w formie nieaktywnej, aby:', ['szybciej działał', '*nie trawił komórek, które go wytwarzają', 'mógł przejść przez błonę', 'nie uległ denaturacji'], 'Aktywacja w świetle żołądka.'),
+ ('Pepsynogen jest wydzielany w formie nieaktywnej, aby:', ['szybciej działał po dotarciu do żołądka', '*nie trawił komórek, które go wytwarzają', 'mógł łatwiej przejść przez błonę komórkową', 'nie uległ denaturacji w kwaśnym środowisku'], 'Aktywacja w świetle żołądka.'),
 ], pp='I.2')

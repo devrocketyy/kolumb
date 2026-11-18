@@ -313,10 +313,10 @@
      "id": "p37d40ede",
      "pytanie": "Hipoteza to:",
      "odpowiedzi": [
-      "wniosek z doświadczenia",
-      "twierdzenie przewidujące wynik, które można zweryfikować",
-      "pytanie badawcze",
-      "opis wyników badania"
+      "uogólnienie sformułowane po zakończeniu badania",
+      "twierdzenie przewidujące wynik, które można sprawdzić",
+      "pytanie, na które odpowiada doświadczenie",
+      "opis wyników uzyskanych w doświadczeniu"
      ],
      "poprawna": "B",
      "wyjasnienie": "Problem — pytanie; hipoteza — twierdzenie.",
@@ -352,10 +352,10 @@
      "id": "pa32ec1cc",
      "pytanie": "Które zdanie jest poprawnym wyjaśnieniem?",
      "odpowiedzi": [
-      "Enzym działa w optymalnej temperaturze.",
-      "Wysoka temperatura zrywa wiązania stabilizujące strukturę białka enzymu, zmienia się kształt centrum aktywnego, więc substrat nie może się z nim wiązać.",
-      "Wysoka temperatura obniża aktywność enzymu.",
-      "Enzym to białko."
+      "W wysokiej temperaturze cząsteczki poruszają się szybciej, dlatego enzym nie nadąża i reakcja zachodzi wolniej.",
+      "Wysoka temperatura zrywa wiązania stabilizujące strukturę enzymu, zmienia kształt centrum aktywnego i substrat nie może się z nim wiązać.",
+      "Wysoka temperatura obniża aktywność enzymu, ponieważ enzym jest białkiem, a białka źle znoszą wysokie temperatury.",
+      "Enzym ma optimum temperaturowe, powyżej którego jego aktywność spada, a poniżej którego rośnie wraz z temperaturą."
      ],
      "poprawna": "B",
      "wyjasnienie": "Tylko ta odpowiedź zawiera mechanizm.",
@@ -742,9 +742,9 @@
      "id": "p90a7b565",
      "pytanie": "Wniosek z doświadczenia:",
      "odpowiedzi": [
-      "jest pytaniem",
-      "zawsze wyjaśnia mechanizm",
-      "opisuje szczegółowo pomiary",
+      "jest pytaniem, na które odpowiada badanie",
+      "zawsze wyjaśnia mechanizm badanego procesu",
+      "szczegółowo opisuje wszystkie wykonane pomiary",
       "odpowiada na problem badawczy i nie wykracza poza dane"
      ],
      "poprawna": "D",
@@ -957,10 +957,10 @@
      "id": "p4502daed",
      "pytanie": "Plateau na krzywej aktywności enzymu w funkcji stężenia substratu oznacza najczęściej:",
      "odpowiedzi": [
-      "denaturację enzymu",
+      "denaturację cząsteczek enzymu",
       "wysycenie centrów aktywnych substratem",
-      "brak substratu",
-      "błąd pomiaru"
+      "całkowite zużycie substratu",
+      "działanie inhibitora kompetycyjnego"
      ],
      "poprawna": "B",
      "wyjasnienie": "Dalszy wzrost substratu nie zwiększa szybkości reakcji.",
@@ -996,10 +996,10 @@
      "id": "p4b4f5cb5",
      "pytanie": "Zapis p < 0,05 oznacza, że różnica:",
      "odpowiedzi": [
-      "jest mniejsza niż 5%",
+      "jest mniejsza niż 5% wartości średniej",
       "jest uznawana za istotną statystycznie",
-      "jest przypadkowa",
-      "wynosi 0,05"
+      "jest najprawdopodobniej przypadkowa",
+      "wynosi dokładnie 0,05 jednostki"
      ],
      "poprawna": "B",
      "wyjasnienie": "Prawdopodobieństwo przypadku < 5%.",
