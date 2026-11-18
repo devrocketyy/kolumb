@@ -1,0 +1,3011 @@
+{
+ "id": "biochemia",
+ "nazwa": "Biochemia",
+ "opis": "Woda, pierwiastki, węglowodany, białka, lipidy i kwasy nukleinowe.",
+ "poddzialy": [
+  {
+   "id": "b-woda",
+   "nazwa": "Woda, makro- i mikroelementy",
+   "opis": "Wymaganie I.1 podstawy programowej.",
+   "wymaganie": "I.1",
+   "fiszki": [
+    {
+     "id": "f8932febb",
+     "przod": "Wyjaśnij pojęcie: pierwiastki biogenne",
+     "tyl": "Sześć pierwiastków budujących główne związki organiczne: C, H, O, N, P, S.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f5d0a3d8f",
+     "przod": "Wyjaśnij pojęcie: makroelementy",
+     "tyl": "Pierwiastki występujące w organizmie w dużych ilościach (> 0,01% suchej masy), np. C, H, O, N, P, S, Ca, K, Na, Cl, Mg.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fbf88c861",
+     "przod": "Wyjaśnij pojęcie: mikroelementy",
+     "tyl": "Pierwiastki niezbędne w bardzo małych ilościach (< 0,01% suchej masy), np. Fe, I, F, Zn, Cu, Mn.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fca636ebc",
+     "przod": "Biologiczna rola wapnia (Ca)",
+     "tyl": "Składnik kości i zębów (fosforany wapnia), niezbędny do krzepnięcia krwi, skurczu mięśni i uwalniania neuroprzekaźników; u roślin — składnik blaszki środkowej (pektyniany).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f093675a6",
+     "przod": "Biologiczna rola fosforu (P)",
+     "tyl": "Składnik kwasów nukleinowych, ATP, fosfolipidów błon i kości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fb7a456d4",
+     "przod": "Biologiczna rola magnezu (Mg)",
+     "tyl": "Centralny atom chlorofilu; aktywator wielu enzymów (m.in. związanych z ATP); składnik kości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f85d3b74c",
+     "przod": "Biologiczna rola potasu (K)",
+     "tyl": "Główny kation wewnątrzkomórkowy — udział w potencjale spoczynkowym i przewodzeniu impulsów; u roślin reguluje turgor komórek szparkowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "faf0d26c2",
+     "przod": "Biologiczna rola sodu (Na)",
+     "tyl": "Główny kation płynów zewnątrzkomórkowych — utrzymanie ciśnienia osmotycznego, udział w powstawaniu potencjału czynnościowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fef152f11",
+     "przod": "Biologiczna rola siarki (S)",
+     "tyl": "Składnik aminokwasów (cysteina, metionina) — tworzy mostki disiarczkowe stabilizujące strukturę białek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "faf764b98",
+     "przod": "Biologiczna rola azotu (N)",
+     "tyl": "Składnik aminokwasów (białek), zasad azotowych (kwasów nukleinowych), ATP i chlorofilu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f6cef9eed",
+     "przod": "Biologiczna rola żelaza (Fe)",
+     "tyl": "Składnik hemu w hemoglobinie i mioglobinie (wiązanie tlenu) oraz cytochromów łańcucha oddechowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fabe642d0",
+     "przod": "Skutek niedoboru żelaza u człowieka",
+     "tyl": "Niedokrwistość (anemia) — mniej hemoglobiny, gorszy transport tlenu, osłabienie, bladość.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f92ee598f",
+     "przod": "Biologiczna rola jodu (I)",
+     "tyl": "Składnik hormonów tarczycy (tyroksyny i trijodotyroniny) regulujących tempo metabolizmu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fdcf563c6",
+     "przod": "Skutek niedoboru jodu",
+     "tyl": "Niedoczynność tarczycy i jej powiększenie (wole); u dzieci zaburzenia rozwoju.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fc72cae0e",
+     "przod": "Biologiczna rola fluoru (F)",
+     "tyl": "Wzmacnia szkliwo zębów (fluoroapatyt) i chroni przed próchnicą; składnik kości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f4543074b",
+     "przod": "Skutek nadmiaru fluoru",
+     "tyl": "Fluoroza — przebarwienia szkliwa i zmiany w kościach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fed16228a",
+     "przod": "Skutek niedoboru magnezu u roślin",
+     "tyl": "Chloroza — żółknięcie liści (zwłaszcza starszych), bo brakuje chlorofilu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f7a88b0e9",
+     "przod": "Skutek niedoboru wapnia u człowieka",
+     "tyl": "Odwapnienie kości (osteoporoza u dorosłych, krzywica u dzieci przy braku witaminy D), skurcze mięśni (tężyczka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f0e61eabd",
+     "przod": "Ile procent masy komórki stanowi zwykle woda?",
+     "tyl": "Ok. 60–90% (zależnie od rodzaju komórki i tkanki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fd610008c",
+     "przod": "Wyjaśnij pojęcie: dipol (w odniesieniu do wody)",
+     "tyl": "Cząsteczka o nierównomiernie rozłożonym ładunku: atom tlenu ma cząstkowy ładunek ujemny, atomy wodoru — dodatni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f622bae1b",
+     "przod": "Wyjaśnij pojęcie: wiązanie wodorowe",
+     "tyl": "Słabe oddziaływanie między atomem wodoru związanym z atomem elektroujemnym (O, N) a innym atomem elektroujemnym; łączy m.in. cząsteczki wody i pary zasad w DNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fcfa37fc9",
+     "przod": "Dlaczego woda jest dobrym rozpuszczalnikiem?",
+     "tyl": "Bo jej cząsteczki są polarne — otaczają jony i cząsteczki polarne (tworzą otoczki hydratacyjne) i oddzielają je od siebie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f9ad63e39",
+     "przod": "Wyjaśnij pojęcie: substancje hydrofilowe",
+     "tyl": "Substancje polarne lub zjonizowane, które łatwo rozpuszczają się w wodzie (np. glukoza, NaCl).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f19ed3afc",
+     "przod": "Wyjaśnij pojęcie: substancje hydrofobowe",
+     "tyl": "Substancje niepolarne, nierozpuszczalne w wodzie (np. tłuszcze), które w wodzie łączą się ze sobą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f130be67c",
+     "przod": "Wyjaśnij pojęcie: substancje amfipatyczne",
+     "tyl": "Cząsteczki mające część hydrofilową i hydrofobową (np. fosfolipidy) — w wodzie tworzą błony i micele.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fd8ac94b6",
+     "przod": "Znaczenie dużego ciepła właściwego wody",
+     "tyl": "Woda wolno się nagrzewa i stygnie — stabilizuje temperaturę organizmów i zbiorników wodnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fc32df8df",
+     "przod": "Znaczenie dużego ciepła parowania wody",
+     "tyl": "Parowanie odbiera dużo ciepła — umożliwia chłodzenie organizmu (pocenie, transpiracja).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f71d9efcc",
+     "przod": "Dlaczego lód pływa po wodzie i jakie ma to znaczenie?",
+     "tyl": "Lód ma mniejszą gęstość niż woda (sieć wiązań wodorowych), więc tworzy warstwę izolacyjną — zbiorniki nie zamarzają do dna, organizmy przeżywają zimę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fb75c6cc8",
+     "przod": "Wyjaśnij pojęcie: kohezja (wody)",
+     "tyl": "Wzajemne przyciąganie się cząsteczek wody dzięki wiązaniom wodorowym — umożliwia nieprzerwany słup wody w naczyniach roślin.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f5ad10421",
+     "przod": "Wyjaśnij pojęcie: adhezja (wody)",
+     "tyl": "Przyleganie cząsteczek wody do innych powierzchni (np. ścian naczyń) — wspiera podnoszenie wody w roślinie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f39dc7394",
+     "przod": "Wyjaśnij pojęcie: napięcie powierzchniowe",
+     "tyl": "Skutek kohezji — „błonka” na powierzchni wody, po której mogą poruszać się niewielkie organizmy (np. nartniki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f569c43be",
+     "przod": "Funkcje wody w organizmie (wymień 4)",
+     "tyl": "Rozpuszczalnik i środowisko reakcji, substrat reakcji (fotosynteza, hydroliza), transport substancji, termoregulacja, utrzymanie turgoru, składnik płynów ustrojowych i mazi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fe1b3ee38",
+     "przod": "W jakich reakcjach woda jest substratem?",
+     "tyl": "W hydrolizie (rozkładzie wielocukrów, białek, tłuszczów) i w fazie zależnej od światła fotosyntezy (fotoliza wody).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f2df5a91a",
+     "przod": "W jakich reakcjach woda jest produktem?",
+     "tyl": "W kondensacji (powstawanie wiązań glikozydowych, peptydowych, estrowych) i w oddychaniu komórkowym (łańcuch oddechowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fbb5fb327",
+     "przod": "Wyjaśnij pojęcie: hydroliza",
+     "tyl": "Rozkład związku z udziałem wody, np. rozkład skrobi do glukozy, białek do aminokwasów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f32f6626c",
+     "przod": "Wyjaśnij pojęcie: kondensacja (reakcja)",
+     "tyl": "Łączenie cząsteczek z wydzieleniem wody, np. tworzenie wiązania peptydowego lub glikozydowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f8600e36d",
+     "przod": "Wyjaśnij pojęcie: turgor",
+     "tyl": "Stan napięcia komórki roślinnej wynikający z nacisku wypełnionej wodą wakuoli na ścianę komórkową — nadaje sztywność niezdrewniałym organom.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f8c33129c",
+     "przod": "Znaczenie soli mineralnych w postaci jonów",
+     "tyl": "Utrzymują ciśnienie osmotyczne i pH (bufory), uczestniczą w przewodzeniu impulsów, aktywują enzymy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f7b39f76b",
+     "przod": "Wyjaśnij pojęcie: bufor",
+     "tyl": "Układ (np. HCO₃⁻/H₂CO₃, fosforanowy) ograniczający zmiany pH po dodaniu kwasu lub zasady.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f76cd5fdc",
+     "przod": "Jakie jest znaczenie buforu wodorowęglanowego we krwi?",
+     "tyl": "Utrzymuje pH krwi w wąskim zakresie (ok. 7,35–7,45), wiążąc nadmiar jonów H⁺ lub OH⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fb156c6a1",
+     "przod": "Wyjaśnij pojęcie: ciśnienie osmotyczne",
+     "tyl": "Ciśnienie, które trzeba wywrzeć na roztwór, by zatrzymać napływ do niego wody przez błonę półprzepuszczalną; rośnie ze stężeniem substancji rozpuszczonych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fb5057ef6",
+     "przod": "Gdzie w organizmie człowieka występuje najwięcej wapnia?",
+     "tyl": "W kościach i zębach (ok. 99%).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fd2d8f58e",
+     "przod": "Które jony odpowiadają za ładunek błony w spoczynku neuronu?",
+     "tyl": "Głównie K⁺ (wewnątrz) i Na⁺ (na zewnątrz), utrzymywane przez pompę sodowo-potasową.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fefdaf2a8",
+     "przod": "Rola chloru (Cl) w organizmie człowieka",
+     "tyl": "Główny anion płynów zewnątrzkomórkowych; składnik kwasu solnego w żołądku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f262e2251",
+     "przod": "Rola cynku (Zn) w organizmie",
+     "tyl": "Składnik wielu enzymów (np. polimeraz) i białek regulujących; wspiera odporność.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f402e8327",
+     "przod": "Podaj nazwę pojęcia: Pierwiastki występujące w organizmie w dużych ilościach (> 0,01% suchej masy), np. C, H, O, N, P, S, Ca, K, Na, Cl, Mg.",
+     "tyl": "makroelementy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fc1d0e811",
+     "przod": "Podaj nazwę pojęcia: Pierwiastki niezbędne w bardzo małych ilościach (< 0,01% suchej masy), np. Fe, I, F, Zn, Cu, Mn.",
+     "tyl": "mikroelementy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f15456396",
+     "przod": "Rozpoznaj: Centralny atom chlorofilu; aktywator wielu enzymów (m.in. związanych z ATP); składnik kości.",
+     "tyl": "Biologiczna rola magnezu (Mg)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "ff5305050",
+     "przod": "Rozpoznaj: Główny kation wewnątrzkomórkowy — udział w potencjale spoczynkowym i przewodzeniu impulsów; u roślin reguluje turgor komórek szparkowych.",
+     "tyl": "Biologiczna rola potasu (K)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f927ce2d0",
+     "przod": "Rozpoznaj: Główny kation płynów zewnątrzkomórkowych — utrzymanie ciśnienia osmotycznego, udział w powstawaniu potencjału czynnościowego.",
+     "tyl": "Biologiczna rola sodu (Na)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f330867fb",
+     "przod": "Rozpoznaj: Składnik aminokwasów (cysteina, metionina) — tworzy mostki disiarczkowe stabilizujące strukturę białek.",
+     "tyl": "Biologiczna rola siarki (S)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f5b55a9d2",
+     "przod": "Rozpoznaj: Składnik aminokwasów (białek), zasad azotowych (kwasów nukleinowych), ATP i chlorofilu.",
+     "tyl": "Biologiczna rola azotu (N)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fcac0cda6",
+     "przod": "Rozpoznaj: Składnik hemu w hemoglobinie i mioglobinie (wiązanie tlenu) oraz cytochromów łańcucha oddechowego.",
+     "tyl": "Biologiczna rola żelaza (Fe)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f5e72af8b",
+     "przod": "Rozpoznaj: Składnik hormonów tarczycy (tyroksyny i trijodotyroniny) regulujących tempo metabolizmu.",
+     "tyl": "Biologiczna rola jodu (I)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "faffe5066",
+     "przod": "Rozpoznaj: Chloroza — żółknięcie liści (zwłaszcza starszych), bo brakuje chlorofilu.",
+     "tyl": "Skutek niedoboru magnezu u roślin",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f128d71da",
+     "przod": "Podaj nazwę pojęcia: Cząsteczka o nierównomiernie rozłożonym ładunku: atom tlenu ma cząstkowy ładunek ujemny, atomy wodoru — dodatni.",
+     "tyl": "dipol (w odniesieniu do wody)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fcb6acfa2",
+     "przod": "Podaj nazwę pojęcia: Cząsteczki mające część hydrofilową i hydrofobową (np. fosfolipidy) — w wodzie tworzą błony i micele.",
+     "tyl": "substancje amfipatyczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fcbaa27ff",
+     "przod": "Rozpoznaj: Rozpuszczalnik i środowisko reakcji, substrat reakcji (fotosynteza, hydroliza), transport substancji, termoregulacja, utrzymanie turgoru, składnik płynów ustrojowych i mazi.",
+     "tyl": "Funkcje wody w organizmie (wymień 4)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f3453ab83",
+     "przod": "Podaj nazwę pojęcia: Rozkład związku z udziałem wody, np. rozkład skrobi do glukozy, białek do aminokwasów.",
+     "tyl": "hydroliza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "fd390187d",
+     "przod": "Podaj nazwę pojęcia: Łączenie cząsteczek z wydzieleniem wody, np. tworzenie wiązania peptydowego lub glikozydowego.",
+     "tyl": "kondensacja (reakcja)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f77c7e148",
+     "przod": "Podaj nazwę pojęcia: Stan napięcia komórki roślinnej wynikający z nacisku wypełnionej wodą wakuoli na ścianę komórkową — nadaje sztywność niezdrewniałym organom.",
+     "tyl": "turgor",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    },
+    {
+     "id": "f87737ede",
+     "przod": "Podaj nazwę pojęcia: Układ (np. HCO₃⁻/H₂CO₃, fosforanowy) ograniczający zmiany pH po dodaniu kwasu lub zasady.",
+     "tyl": "bufor",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.1"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p4d412ea7",
+     "pytanie": "Pierwiastkiem budującym centrum chlorofilu jest:",
+     "odpowiedzi": [
+      "wapń",
+      "miedź",
+      "magnez",
+      "żelazo"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Mg w pierścieniu porfirynowym chlorofilu; Fe — w hemie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p99fc416d",
+     "pytanie": "Do pierwiastków biogennych NIE należy:",
+     "odpowiedzi": [
+      "fosfor",
+      "siarka",
+      "węgiel",
+      "wapń"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Biogenne: C, H, O, N, P, S.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p566ee813",
+     "pytanie": "Wole jest skutkiem niedoboru:",
+     "odpowiedzi": [
+      "fluoru",
+      "jodu",
+      "potasu",
+      "żelaza"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Jod — hormony tarczycy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8545164c",
+     "pytanie": "Lód pływa po wodzie, ponieważ:",
+     "odpowiedzi": [
+      "ma większą gęstość",
+      "zawiera powietrze",
+      "ma mniejszą gęstość niż woda ciekła",
+      "nie tworzy wiązań wodorowych"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Sieć wiązań wodorowych w lodzie jest luźniejsza.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3883911d",
+     "pytanie": "Woda jest produktem reakcji:",
+     "odpowiedzi": [
+      "trawienia skrobi",
+      "kondensacji aminokwasów",
+      "hydrolizy białek",
+      "fotolizy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Przy tworzeniu wiązania peptydowego wydziela się woda.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9b4bdf1f",
+     "pytanie": "Ciągły słup wody w naczyniach roślin jest możliwy głównie dzięki:",
+     "odpowiedzi": [
+      "dużemu ciepłu parowania",
+      "hydrofobowości",
+      "buforom",
+      "kohezji"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Kohezja = przyciąganie cząsteczek wody.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p302385e4",
+     "pytanie": "Fosfolipidy są cząsteczkami:",
+     "odpowiedzi": [
+      "hydrofobowymi",
+      "hydrofilowymi",
+      "amfipatycznymi",
+      "niepolarnymi w całości"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Głowa polarna, ogony niepolarne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9006cc58",
+     "pytanie": "Pocenie się chłodzi organizm, ponieważ woda ma:",
+     "odpowiedzi": [
+      "małą gęstość",
+      "małe ciepło właściwe",
+      "dużą lepkość",
+      "duże ciepło parowania"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Parowanie odbiera dużo ciepła.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa6c0ac89",
+     "pytanie": "Pierwiastek wchodzący w skład hemoglobiny to:",
+     "odpowiedzi": [
+      "cynk",
+      "żelazo",
+      "magnez",
+      "jod"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Fe w hemie wiąże O₂.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-weglowodany",
+   "nazwa": "Węglowodany",
+   "opis": "Wymaganie I.2.1 podstawy programowej.",
+   "wymaganie": "I.2.1",
+   "fiszki": [
+    {
+     "id": "fc71c998c",
+     "przod": "Wyjaśnij pojęcie: węglowodany (cukry)",
+     "tyl": "Związki organiczne zbudowane z C, H i O (zwykle w stosunku CₙH₂ₙOₙ), pełniące funkcje energetyczne, zapasowe i budulcowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fa3e2f41f",
+     "przod": "Wyjaśnij pojęcie: monosacharydy",
+     "tyl": "Cukry proste, których nie można rozłożyć do prostszych cukrów, np. glukoza, fruktoza, galaktoza, ryboza, deoksyryboza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f1b1fc2b2",
+     "przod": "Wyjaśnij pojęcie: disacharydy",
+     "tyl": "Dwucukry powstałe z połączenia dwóch monosacharydów wiązaniem glikozydowym, np. sacharoza, laktoza, maltoza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fe48400fa",
+     "przod": "Wyjaśnij pojęcie: polisacharydy",
+     "tyl": "Wielocukry zbudowane z wielu reszt monosacharydów, np. skrobia, glikogen, celuloza, chityna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f62d5008f",
+     "przod": "Wyjaśnij pojęcie: wiązanie O-glikozydowe",
+     "tyl": "Wiązanie kowalencyjne łączące dwa monosacharydy przez atom tlenu, powstające w reakcji kondensacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fb2fbead9",
+     "przod": "Wyjaśnij pojęcie: aldozy",
+     "tyl": "Monosacharydy z grupą aldehydową (–CHO), np. glukoza, galaktoza, ryboza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fd0fc424b",
+     "przod": "Wyjaśnij pojęcie: ketozy",
+     "tyl": "Monosacharydy z grupą ketonową (C=O w środku łańcucha), np. fruktoza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fd05b9cf8",
+     "przod": "Podział monosacharydów ze względu na liczbę atomów węgla",
+     "tyl": "Triozy (3C, np. aldehyd glicerynowy), pentozy (5C, ryboza, deoksyryboza), heksozy (6C, glukoza, fruktoza, galaktoza).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fa20e4a24",
+     "przod": "Glukoza — wzór i znaczenie",
+     "tyl": "C₆H₁₂O₆, aldoheksoza; główne źródło energii w oddychaniu komórkowym, produkt fotosyntezy, monomer skrobi, glikogenu i celulozy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f363ae7b6",
+     "przod": "Fruktoza — występowanie",
+     "tyl": "Ketoheksoza występująca w owocach i miodzie; składnik sacharozy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fa47f5841",
+     "przod": "Galaktoza — występowanie",
+     "tyl": "Aldoheksoza, składnik laktozy (cukru mlecznego).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f64f152b4",
+     "przod": "Ryboza a deoksyryboza",
+     "tyl": "Pentozy; ryboza — składnik RNA i ATP; deoksyryboza (ma o jeden atom tlenu mniej przy C2) — składnik DNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f31d5bc15",
+     "przod": "Sacharoza — z czego się składa i gdzie występuje",
+     "tyl": "Glukoza + fruktoza; cukier trzcinowy i buraczany, forma transportu cukrów w łyku roślin.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f58748118",
+     "przod": "Laktoza — z czego się składa i gdzie występuje",
+     "tyl": "Glukoza + galaktoza; cukier mleka ssaków.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fd8f9d2a5",
+     "przod": "Maltoza — z czego się składa i gdzie występuje",
+     "tyl": "Dwie cząsteczki glukozy (wiązanie α-1,4); powstaje przy rozkładzie skrobi (np. w kiełkujących nasionach, w ślinie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f95112abe",
+     "przod": "Czym różnią się α-glukoza i β-glukoza?",
+     "tyl": "Położeniem grupy –OH przy węglu C1: w α — pod płaszczyzną pierścienia, w β — nad nią. Ta różnica decyduje o budowie skrobi (α) i celulozy (β).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f3d806548",
+     "przod": "Skrobia — budowa i funkcja",
+     "tyl": "Polisacharyd zapasowy roślin z α-glukozy; składa się z nierozgałęzionej amylozy (α-1,4) i rozgałęzionej amylopektyny (α-1,4 i α-1,6).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f3df600ae",
+     "przod": "Gdzie roślina magazynuje skrobię?",
+     "tyl": "W amyloplastach — np. w bulwach ziemniaka, nasionach zbóż; skrobia asymilacyjna powstaje też czasowo w chloroplastach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f6151060b",
+     "przod": "Glikogen — budowa i funkcja",
+     "tyl": "Polisacharyd zapasowy zwierząt i grzybów z α-glukozy, silniej rozgałęziony niż amylopektyna; magazynowany w wątrobie i mięśniach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f457177ab",
+     "przod": "Dlaczego silne rozgałęzienie glikogenu ma znaczenie?",
+     "tyl": "Wiele zakończeń łańcuchów pozwala enzymom szybko odcinać jednocześnie wiele cząsteczek glukozy, gdy organizm potrzebuje energii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f83eb31c9",
+     "przod": "Celuloza — budowa i funkcja",
+     "tyl": "Polisacharyd z β-glukozy połączonej wiązaniami β-1,4; tworzy długie, proste łańcuchy połączone wiązaniami wodorowymi w mikrofibryle — budulec ścian komórek roślin.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f0acb7922",
+     "przod": "Dlaczego człowiek nie trawi celulozy?",
+     "tyl": "Nie wytwarza enzymu (celulazy) rozkładającego wiązania β-1,4-glikozydowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f6c22adf7",
+     "przod": "Jak przeżuwacze trawią celulozę?",
+     "tyl": "Dzięki symbiotycznym bakteriom i protistom w żwaczu, które wytwarzają celulazy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f8e4497fe",
+     "przod": "Znaczenie celulozy w diecie człowieka",
+     "tyl": "Jako błonnik pokarmowy — pobudza perystaltykę jelit, daje uczucie sytości, zapobiega zaparciom.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fc6a8a084",
+     "przod": "Chityna — budowa i występowanie",
+     "tyl": "Polisacharyd z pochodnej glukozy zawierającej azot (N-acetyloglukozaminy); budulec ściany komórkowej grzybów i pancerza (oskórka) stawonogów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f74561592",
+     "przod": "Dlaczego polisacharydy dobrze nadają się na materiał zapasowy?",
+     "tyl": "Są nierozpuszczalne lub słabo rozpuszczalne w wodzie (nie zmieniają ciśnienia osmotycznego), zwarte i łatwo rozkładane do glukozy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fc727853d",
+     "przod": "Dlaczego glukoza nie jest magazynowana jako wolny cukier?",
+     "tyl": "Bo jest dobrze rozpuszczalna — duże jej stężenie podniosłoby ciśnienie osmotyczne komórki i powodowało napływ wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f84c8715e",
+     "przod": "Właściwości monosacharydów i disacharydów",
+     "tyl": "Słodkie, dobrze rozpuszczalne w wodzie, krystaliczne; łatwo przechodzą przez błony z udziałem białek transportowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f23719eec",
+     "przod": "Właściwości polisacharydów",
+     "tyl": "Niesłodkie, nierozpuszczalne lub tworzące koloidy, o dużej masie cząsteczkowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f0ea05d41",
+     "przod": "Wyjaśnij pojęcie: cukry redukujące",
+     "tyl": "Cukry z wolną grupą aldehydową lub hemiacetalową (np. glukoza, fruktoza, maltoza, laktoza), dające dodatni wynik próby Trommera lub Fehlinga.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f7f5d1002",
+     "przod": "Czy sacharoza jest cukrem redukującym?",
+     "tyl": "Nie — wiązanie glikozydowe łączy grupy, które w innych cukrach mają właściwości redukujące.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f7e86e8ce",
+     "przod": "Na czym polega próba Trommera i jaki daje wynik dodatni?",
+     "tyl": "Ogrzewanie cukru z Cu(OH)₂ w środowisku zasadowym; cukier redukujący daje ceglastoczerwony osad Cu₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fcc5e9858",
+     "przod": "Jak wykazać obecność skrobi w materiale biologicznym?",
+     "tyl": "Dodać płyn Lugola — granatowe zabarwienie świadczy o obecności skrobi. Próba kontrolna: woda destylowana lub roztwór glukozy (brak granatu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f8a9b9957",
+     "przod": "Jak zmienia się wynik próby z płynem Lugola, gdy amylaza rozłoży skrobię?",
+     "tyl": "Granatowe zabarwienie zanika (pozostaje brunatna barwa jodu), bo skrobia została rozłożona do maltozy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fbe79c2a0",
+     "przod": "Wyjaśnij pojęcie: glikoproteiny",
+     "tyl": "Białka połączone z łańcuchami cukrowymi — np. receptory i antygeny na powierzchni komórek, część hormonów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "ff4b5140d",
+     "przod": "Wyjaśnij pojęcie: glikokaliks",
+     "tyl": "Warstwa łańcuchów cukrowych glikoprotein i glikolipidów na zewnętrznej powierzchni błony komórek zwierzęcych — rozpoznawanie komórek, adhezja, ochrona.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f9ef5c38d",
+     "przod": "Biologiczne funkcje węglowodanów (wymień 4)",
+     "tyl": "Energetyczna (glukoza), zapasowa (skrobia, glikogen), budulcowa (celuloza, chityna, ryboza w kwasach nukleinowych), informacyjna (glikokaliks, antygeny grup krwi).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f5fade352",
+     "przod": "Pektyny — rola w roślinie",
+     "tyl": "Polisacharydy cementujące ściany sąsiednich komórek (blaszka środkowa); w owocach odpowiadają za ich zwięzłość.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fcde444b2",
+     "przod": "Wyjaśnij pojęcie: heparyna",
+     "tyl": "Polisacharyd (glikozoaminoglikan) hamujący krzepnięcie krwi, wytwarzany m.in. przez komórki tuczne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f4ab681af",
+     "przod": "Ile cząsteczek wody powstaje przy połączeniu trzech cząsteczek glukozy w łańcuch?",
+     "tyl": "Dwie — każde wiązanie glikozydowe powstaje z wydzieleniem jednej cząsteczki wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f0857def6",
+     "przod": "Wyjaśnij pojęcie: izomeria (cukrów)",
+     "tyl": "Ten sam wzór sumaryczny, ale inna budowa: glukoza, fruktoza i galaktoza mają wzór C₆H₁₂O₆, a różne właściwości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "ff8cd37f1",
+     "przod": "Wiązania glikozydowe w amylopektynie i glikogenie",
+     "tyl": "α-1,4 w łańcuchu głównym i α-1,6 w miejscach rozgałęzień.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f21e616f2",
+     "przod": "Wyjaśnij pojęcie: nietolerancja laktozy",
+     "tyl": "Niedobór enzymu laktazy w jelicie cienkim — niestrawiona laktoza jest fermentowana przez bakterie jelita grubego, co powoduje wzdęcia i biegunkę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f3194f5dc",
+     "przod": "Jak mikrofibryle celulozy wpływają na wytrzymałość ściany komórkowej?",
+     "tyl": "Łańcuchy β-glukozy są ułożone równolegle i połączone wiązaniami wodorowymi w włókna o dużej wytrzymałości na rozciąganie — ściana wytrzymuje nacisk turgoru.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f2246b874",
+     "przod": "Jak oznaczyć ilościowo glukozę we krwi w praktyce medycznej?",
+     "tyl": "Glukometrem (metoda enzymatyczna z oksydazą glukozową) — pomiar stężenia glukozy, np. w diagnostyce cukrzycy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fc0bfe500",
+     "przod": "Podaj nazwę pojęcia: Związki organiczne zbudowane z C, H i O (zwykle w stosunku CₙH₂ₙOₙ), pełniące funkcje energetyczne, zapasowe i budulcowe.",
+     "tyl": "węglowodany (cukry)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f1752cd24",
+     "przod": "Podaj nazwę pojęcia: Cukry proste, których nie można rozłożyć do prostszych cukrów, np. glukoza, fruktoza, galaktoza, ryboza, deoksyryboza.",
+     "tyl": "monosacharydy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f27c18ca3",
+     "przod": "Podaj nazwę pojęcia: Dwucukry powstałe z połączenia dwóch monosacharydów wiązaniem glikozydowym, np. sacharoza, laktoza, maltoza.",
+     "tyl": "disacharydy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f6315ae43",
+     "przod": "Podaj nazwę pojęcia: Wielocukry zbudowane z wielu reszt monosacharydów, np. skrobia, glikogen, celuloza, chityna.",
+     "tyl": "polisacharydy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f1ba6c8cb",
+     "przod": "Podaj nazwę pojęcia: Monosacharydy z grupą aldehydową (–CHO), np. glukoza, galaktoza, ryboza.",
+     "tyl": "aldozy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fcc5cbf05",
+     "przod": "Podaj nazwę pojęcia: Monosacharydy z grupą ketonową (C=O w środku łańcucha), np. fruktoza.",
+     "tyl": "ketozy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f364bc486",
+     "przod": "Rozpoznaj: C₆H₁₂O₆, aldoheksoza; główne źródło energii w oddychaniu komórkowym, produkt fotosyntezy, monomer skrobi, glikogenu i celulozy.",
+     "tyl": "Glukoza — wzór i znaczenie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f60df28c1",
+     "przod": "Rozpoznaj: Aldoheksoza, składnik laktozy (cukru mlecznego).",
+     "tyl": "Galaktoza — występowanie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "ff1785977",
+     "przod": "Rozpoznaj: Glukoza + fruktoza; cukier trzcinowy i buraczany, forma transportu cukrów w łyku roślin.",
+     "tyl": "Sacharoza — z czego się składa i gdzie występuje",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "fee5b8f18",
+     "przod": "Rozpoznaj: Dwie cząsteczki glukozy (wiązanie α-1,4); powstaje przy rozkładzie skrobi (np. w kiełkujących nasionach, w ślinie).",
+     "tyl": "Maltoza — z czego się składa i gdzie występuje",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f2232ff5d",
+     "przod": "Rozpoznaj: Polisacharyd zapasowy roślin z α-glukozy; składa się z nierozgałęzionej amylozy (α-1,4) i rozgałęzionej amylopektyny (α-1,4 i α-1,6).",
+     "tyl": "Skrobia — budowa i funkcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f3ea55a87",
+     "przod": "Rozpoznaj: Polisacharyd zapasowy zwierząt i grzybów z α-glukozy, silniej rozgałęziony niż amylopektyna; magazynowany w wątrobie i mięśniach.",
+     "tyl": "Glikogen — budowa i funkcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f3c7cf39b",
+     "przod": "Rozpoznaj: Polisacharyd z β-glukozy połączonej wiązaniami β-1,4; tworzy długie, proste łańcuchy połączone wiązaniami wodorowymi w mikrofibryle — budulec ścian komórek roślin.",
+     "tyl": "Celuloza — budowa i funkcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f6293dac8",
+     "przod": "Rozpoznaj: Polisacharyd z pochodnej glukozy zawierającej azot (N-acetyloglukozaminy); budulec ściany komórkowej grzybów i pancerza (oskórka) stawonogów.",
+     "tyl": "Chityna — budowa i występowanie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f0ce0f2c6",
+     "przod": "Rozpoznaj: Słodkie, dobrze rozpuszczalne w wodzie, krystaliczne; łatwo przechodzą przez błony z udziałem białek transportowych.",
+     "tyl": "Właściwości monosacharydów i disacharydów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f2a27163c",
+     "przod": "Rozpoznaj: Niesłodkie, nierozpuszczalne lub tworzące koloidy, o dużej masie cząsteczkowej.",
+     "tyl": "Właściwości polisacharydów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f344fe2b1",
+     "przod": "Podaj nazwę pojęcia: Białka połączone z łańcuchami cukrowymi — np. receptory i antygeny na powierzchni komórek, część hormonów.",
+     "tyl": "glikoproteiny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f52678a93",
+     "przod": "Rozpoznaj: Energetyczna (glukoza), zapasowa (skrobia, glikogen), budulcowa (celuloza, chityna, ryboza w kwasach nukleinowych), informacyjna (glikokaliks, antygeny grup krwi).",
+     "tyl": "Biologiczne funkcje węglowodanów (wymień 4)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f9f910c21",
+     "przod": "Rozpoznaj: Polisacharydy cementujące ściany sąsiednich komórek (blaszka środkowa); w owocach odpowiadają za ich zwięzłość.",
+     "tyl": "Pektyny — rola w roślinie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f042cbf0d",
+     "przod": "Podaj nazwę pojęcia: Polisacharyd (glikozoaminoglikan) hamujący krzepnięcie krwi, wytwarzany m.in. przez komórki tuczne.",
+     "tyl": "heparyna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "ff6ed4059",
+     "przod": "Podaj nazwę pojęcia: Ten sam wzór sumaryczny, ale inna budowa: glukoza, fruktoza i galaktoza mają wzór C₆H₁₂O₆, a różne właściwości.",
+     "tyl": "izomeria (cukrów)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    },
+    {
+     "id": "f25302399",
+     "przod": "Rozpoznaj: α-1,4 w łańcuchu głównym i α-1,6 w miejscach rozgałęzień.",
+     "tyl": "Wiązania glikozydowe w amylopektynie i glikogenie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.1"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p0068b7fc",
+     "pytanie": "Skrobia i celuloza różnią się przede wszystkim:",
+     "odpowiedzi": [
+      "rodzajem glukozy (α lub β) i typem wiązań glikozydowych",
+      "liczbą atomów węgla w glukozie",
+      "obecnością azotu",
+      "rodzajem pierwiastków"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Skrobia — α-glukoza, celuloza — β-glukoza.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc12e9794",
+     "pytanie": "Materiałem zapasowym grzybów i zwierząt jest:",
+     "odpowiedzi": [
+      "skrobia",
+      "chityna",
+      "celuloza",
+      "glikogen"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Glikogen.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd381b1bf",
+     "pytanie": "Laktoza składa się z:",
+     "odpowiedzi": [
+      "glukozy i galaktozy",
+      "glukozy i fruktozy",
+      "dwóch glukoz",
+      "fruktozy i galaktozy"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Cukier mleczny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf6ab7774",
+     "pytanie": "Ketozą jest:",
+     "odpowiedzi": [
+      "galaktoza",
+      "glukoza",
+      "ryboza",
+      "fruktoza"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Fruktoza ma grupę ketonową.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2016c61b",
+     "pytanie": "Ścianę komórkową grzybów buduje głównie:",
+     "odpowiedzi": [
+      "chityna",
+      "peptydoglikan",
+      "pektyna",
+      "celuloza"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Chityna — grzyby i stawonogi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p50e746e3",
+     "pytanie": "Cukrem nieredukującym jest:",
+     "odpowiedzi": [
+      "glukoza",
+      "laktoza",
+      "sacharoza",
+      "maltoza"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "W sacharozie obie grupy redukujące tworzą wiązanie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2efed208",
+     "pytanie": "Dodatni wynik próby Trommera to:",
+     "odpowiedzi": [
+      "granatowe zabarwienie",
+      "zmętnienie",
+      "ceglastoczerwony osad",
+      "fioletowe zabarwienie"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Osad Cu₂O.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7a44baeb",
+     "pytanie": "Glukoza nie jest magazynowana w dużych ilościach w komórce, ponieważ:",
+     "odpowiedzi": [
+      "jest toksyczna",
+      "zwiększałaby ciśnienie osmotyczne komórki",
+      "nie przechodzi przez błony",
+      "jest nietrwała"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Rozpuszczalne cukry zmieniają osmolarność.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf192f3c2",
+     "pytanie": "Deoksyryboza jest składnikiem:",
+     "odpowiedzi": [
+      "ATP",
+      "NADP",
+      "DNA",
+      "RNA"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "DNA; ryboza — RNA i ATP.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcb8c11b8",
+     "pytanie": "Wiązania α-1,6-glikozydowe występują w:",
+     "odpowiedzi": [
+      "celulozie",
+      "maltozie",
+      "amylozie",
+      "amylopektynie i glikogenie"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "W punktach rozgałęzień.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-bialka",
+   "nazwa": "Białka",
+   "opis": "Wymaganie I.2.2 podstawy programowej.",
+   "wymaganie": "I.2.2",
+   "fiszki": [
+    {
+     "id": "f5b5f577a",
+     "przod": "Wyjaśnij pojęcie: aminokwas białkowy",
+     "tyl": "Związek z grupą aminową (–NH₂), karboksylową (–COOH), atomem wodoru i podstawnikiem (R) przy tym samym atomie węgla α; białka buduje 20 (+2 rzadkie) aminokwasów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f367e6906",
+     "przod": "Czym różnią się od siebie aminokwasy białkowe?",
+     "tyl": "Budową łańcucha bocznego (R), który decyduje o ich właściwościach (polarne, niepolarne, kwaśne, zasadowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f9c066272",
+     "przod": "Wyjaśnij pojęcie: aminokwasy egzogenne",
+     "tyl": "Aminokwasy, których organizm nie syntetyzuje i musi je otrzymać z pokarmem (u człowieka dorosłego 8, np. leucyna, lizyna, metionina, tryptofan).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f4e25b4d7",
+     "przod": "Wyjaśnij pojęcie: aminokwasy endogenne",
+     "tyl": "Aminokwasy, które organizm potrafi sam syntetyzować.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f9f2109f6",
+     "przod": "Wyjaśnij pojęcie: wiązanie peptydowe",
+     "tyl": "Wiązanie –CO–NH– między grupą karboksylową jednego aminokwasu a aminową drugiego, powstające w reakcji kondensacji (z wydzieleniem wody).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f8aa19ee0",
+     "przod": "Wyjaśnij pojęcie: polipeptyd",
+     "tyl": "Łańcuch wielu (zwykle > 10) aminokwasów połączonych wiązaniami peptydowymi; białko to polipeptyd o dużej masie (ok. > 100 aminokwasów) i określonej strukturze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f5d142571",
+     "przod": "Wyjaśnij pojęcie: struktura I-rzędowa białka",
+     "tyl": "Kolejność (sekwencja) aminokwasów w łańcuchu polipeptydowym, utrwalona wiązaniami peptydowymi; zapisana w genie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fac493e6c",
+     "przod": "Wyjaśnij pojęcie: struktura II-rzędowa białka",
+     "tyl": "Regularne pofałdowanie fragmentów łańcucha — helisa α lub harmonijka β — stabilizowane wiązaniami wodorowymi między grupami –CO i –NH łańcucha głównego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f50dc4a3c",
+     "przod": "Wyjaśnij pojęcie: struktura III-rzędowa białka",
+     "tyl": "Przestrzenne ułożenie całego łańcucha polipeptydowego, stabilizowane oddziaływaniami między łańcuchami bocznymi: mostkami disiarczkowymi, wiązaniami jonowymi, wodorowymi i oddziaływaniami hydrofobowymi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f74521d3a",
+     "przod": "Wyjaśnij pojęcie: struktura IV-rzędowa białka",
+     "tyl": "Połączenie kilku łańcuchów polipeptydowych (podjednostek) w jedno funkcjonalne białko, np. hemoglobina (4 podjednostki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "feb28ac6b",
+     "przod": "Wyjaśnij pojęcie: mostek disiarczkowy",
+     "tyl": "Kowalencyjne wiązanie –S–S– między resztami cysteiny, stabilizujące strukturę III- i IV-rzędową (np. w keratynie, insulinie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f75af786e",
+     "przod": "Dlaczego zmiana jednego aminokwasu może zmienić funkcję białka?",
+     "tyl": "Zmiana struktury I-rzędowej może zmienić oddziaływania między łańcuchami bocznymi, a więc kształt przestrzenny (III-rzędowy) i np. centrum aktywne lub miejsce wiązania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f19eae8cd",
+     "przod": "Przykład choroby wynikającej ze zmiany jednego aminokwasu",
+     "tyl": "Anemia sierpowata — w łańcuchu β hemoglobiny kwas glutaminowy zastąpiony waliną; hemoglobina S polimeryzuje przy niskim stężeniu tlenu, erytrocyty przybierają kształt sierpa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fa1078af3",
+     "przod": "Wyjaśnij pojęcie: białka proste",
+     "tyl": "Białka zbudowane wyłącznie z aminokwasów, np. albuminy, globuliny, histony, kolagen, keratyna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f9daefa6b",
+     "przod": "Wyjaśnij pojęcie: białka złożone",
+     "tyl": "Białka zawierające oprócz aminokwasów część niebiałkową (grupę prostetyczną), np. hemoglobina (hem), glikoproteiny, lipoproteiny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f5b878667",
+     "przod": "Wyjaśnij pojęcie: białka fibrylarne (włókienkowe)",
+     "tyl": "Białka o wydłużonym kształcie, nierozpuszczalne w wodzie, pełniące funkcje budulcowe, np. kolagen, keratyna, elastyna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fce12e015",
+     "przod": "Wyjaśnij pojęcie: białka globularne",
+     "tyl": "Białka o kulistym kształcie, zwykle rozpuszczalne w wodzie, np. enzymy, hemoglobina, albuminy, przeciwciała.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f1a4d6cc8",
+     "przod": "Albuminy — funkcja",
+     "tyl": "Białka osocza utrzymujące ciśnienie onkotyczne (zatrzymują wodę w naczyniach) i transportujące substancje (np. kwasy tłuszczowe, leki, bilirubinę).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f2b16e17c",
+     "przod": "Co się dzieje przy niedoborze albumin w osoczu?",
+     "tyl": "Spada ciśnienie onkotyczne — woda przechodzi z naczyń do tkanek i powstają obrzęki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fc4e4676f",
+     "przod": "Globuliny — funkcja",
+     "tyl": "Białka osocza — m.in. przeciwciała (immunoglobuliny) i białka transportujące.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fab262393",
+     "przod": "Histony — funkcja",
+     "tyl": "Zasadowe białka jądrowe, wokół których nawinięty jest DNA (nukleosomy) — upakowanie chromatyny i regulacja ekspresji genów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f5df6c671",
+     "przod": "Kolagen — funkcja i występowanie",
+     "tyl": "Białko fibrylarne o budowie potrójnej helisy, nadające wytrzymałość na rozciąganie skórze, ścięgnom, chrząstkom i kościom; najpowszechniejsze białko ssaków.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fb57b98da",
+     "przod": "Dlaczego do syntezy kolagenu potrzebna jest witamina C?",
+     "tyl": "Bo jest niezbędna do modyfikacji aminokwasów (hydroksylacji proliny i lizyny) stabilizujących potrójną helisę; jej brak wywołuje szkorbut.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f8a670c71",
+     "przod": "Keratyna — funkcja i występowanie",
+     "tyl": "Białko fibrylarne bogate w cysteinę (liczne mostki disiarczkowe) — buduje naskórek, włosy, paznokcie, pióra, rogi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f512b1e27",
+     "przod": "Hemoglobina — budowa i funkcja",
+     "tyl": "Białko złożone o strukturze IV-rzędowej (2 łańcuchy α + 2 β), każdy z hemem zawierającym Fe²⁺; transportuje tlen we krwi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fc71ebe09",
+     "przod": "Mioglobina — funkcja",
+     "tyl": "Białko mięśni (jeden łańcuch z hemem) magazynujące tlen; ma większe powinowactwo do tlenu niż hemoglobina.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f5c633fde",
+     "przod": "Funkcje białek w organizmie (wymień 6)",
+     "tyl": "Enzymatyczna, budulcowa, transportowa (hemoglobina, białka błonowe), regulatorowa (hormony, np. insulina), obronna (przeciwciała), ruchowa (aktyna, miozyna), receptorowa, zapasowa (kazeina, albumina jaja).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fbfc7a181",
+     "przod": "Wyjaśnij pojęcie: denaturacja białka",
+     "tyl": "Nieodwracalna (zwykle) utrata struktury II-, III- i IV-rzędowej białka pod wpływem czynników fizycznych lub chemicznych; struktura I-rzędowa zostaje zachowana, ale białko traci funkcję.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fe541ff84",
+     "przod": "Czynniki wywołujące denaturację białek",
+     "tyl": "Wysoka temperatura, skrajne pH (silne kwasy i zasady), sole metali ciężkich, alkohol etylowy (stężony), mocznik, promieniowanie UV.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f27787af2",
+     "przod": "Wyjaśnij pojęcie: koagulacja białka",
+     "tyl": "Wytrącanie białka z roztworu koloidalnego. Może być odwracalna (wysalanie — dodatek soli metali lekkich, np. NaCl) albo nieodwracalna (denaturacja).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fef1112b5",
+     "przod": "Czym różni się wysalanie od denaturacji?",
+     "tyl": "Wysalanie (sole metali lekkich) wytrąca białko bez zmiany jego struktury — po dodaniu wody białko się rozpuszcza; denaturacja niszczy strukturę przestrzenną i funkcję.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f8722aa4b",
+     "przod": "Jak przeprowadzić obserwację wpływu temperatury na białko?",
+     "tyl": "Ogrzać roztwór białka jaja kurzego w łaźni wodnej i porównać z próbą w temperaturze pokojowej — w próbie ogrzanej białko ścina się (denaturacja).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f31632952",
+     "przod": "Wyjaśnij pojęcie: renaturacja",
+     "tyl": "Odzyskanie natywnej struktury i funkcji po usunięciu czynnika denaturującego — możliwe tylko dla niektórych białek przy łagodnej denaturacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fe667a974",
+     "przod": "Dlaczego gorączka powyżej 42°C zagraża życiu?",
+     "tyl": "Bo wysoka temperatura zaczyna denaturować białka (w tym enzymy), co zaburza metabolizm komórek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f5fcc0899",
+     "przod": "Wyjaśnij pojęcie: białka opiekuńcze (chaperony)",
+     "tyl": "Białka pomagające innym białkom uzyskać prawidłową strukturę przestrzenną i chroniące je przed agregacją (np. białka szoku cieplnego).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fb22dea60",
+     "przod": "Wyjaśnij pojęcie: grupa prostetyczna",
+     "tyl": "Trwale związana z białkiem część niebiałkowa, niezbędna do jego funkcji, np. hem w hemoglobinie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f3e500c73",
+     "przod": "Wyjaśnij pojęcie: lipoproteiny",
+     "tyl": "Kompleksy białek i lipidów transportujące we krwi cholesterol i triglicerydy (np. LDL, HDL).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f67f839eb",
+     "przod": "Insulina — budowa",
+     "tyl": "Hormon peptydowy z dwóch łańcuchów (A i B) połączonych mostkami disiarczkowymi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f99f3a9eb",
+     "przod": "Wyjaśnij pojęcie: białka pełnowartościowe",
+     "tyl": "Białka zawierające wszystkie aminokwasy egzogenne w odpowiednich proporcjach — głównie białka zwierzęce (mięso, jaja, mleko).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "faf39c3e3",
+     "przod": "Wyjaśnij pojęcie: białka niepełnowartościowe",
+     "tyl": "Białka, w których brakuje jednego lub kilku aminokwasów egzogennych lub jest ich za mało — większość białek roślinnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f9478cbd9",
+     "przod": "Jak weganin może uzyskać wszystkie aminokwasy egzogenne?",
+     "tyl": "Łącząc różne źródła białek roślinnych, np. zboża z roślinami strączkowymi, które uzupełniają się składem aminokwasów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f96151b75",
+     "przod": "Na czym polega reakcja biuretowa?",
+     "tyl": "Jony Cu²⁺ w środowisku zasadowym tworzą z wiązaniami peptydowymi fioletowy kompleks — wykrywa białka i peptydy (minimum 2 wiązania peptydowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f757f44a9",
+     "przod": "Na czym polega reakcja ksantoproteinowa?",
+     "tyl": "Stężony HNO₃ daje z aminokwasami aromatycznymi w białku żółte zabarwienie (dlatego kwas azotowy barwi skórę na żółto).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f4292bf78",
+     "przod": "Wyjaśnij pojęcie: centrum aktywne enzymu",
+     "tyl": "Fragment cząsteczki enzymu (o określonym kształcie i rozmieszczeniu ładunków), w którym wiąże się substrat i zachodzi reakcja; tworzą go łańcuchy boczne wybranych aminokwasów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f62d028a7",
+     "przod": "Wyjaśnij pojęcie: priony",
+     "tyl": "Białka o nieprawidłowej strukturze przestrzennej, które przekształcają prawidłowe białka tego samego rodzaju w formę nieprawidłową — wywołują choroby układu nerwowego (np. choroba Creutzfeldta–Jakoba, BSE).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fff45409d",
+     "przod": "Dlaczego białka błonowe mają fragmenty z aminokwasów hydrofobowych?",
+     "tyl": "Bo te fragmenty zanurzone są w hydrofobowym wnętrzu dwuwarstwy lipidowej — kotwiczą białko w błonie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f5e6562eb",
+     "przod": "Wyjaśnij pojęcie: punkt izoelektryczny białka",
+     "tyl": "pH, przy którym białko ma ładunek wypadkowy równy zero — wtedy najsłabiej rozpuszcza się w wodzie i najłatwiej się wytrąca.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fc5f9250f",
+     "przod": "Dlaczego enzymy żołądka działają w niskim pH, a jelitowe — w obojętnym/zasadowym?",
+     "tyl": "Bo pH wpływa na jonizację łańcuchów bocznych aminokwasów, a więc na kształt centrum aktywnego; każdy enzym ma swoje optimum pH (pepsyna ok. 2, trypsyna ok. 8).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fbd64568a",
+     "przod": "Wyjaśnij pojęcie: domena białkowa",
+     "tyl": "Fragment białka o samodzielnej strukturze przestrzennej i określonej funkcji (np. domena wiążąca DNA).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f6bbfaadd",
+     "przod": "Białka transbłonowe — przykłady funkcji",
+     "tyl": "Kanały jonowe, przenośniki, pompy (np. Na⁺/K⁺-ATPaza), receptory hormonów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f500f5e72",
+     "przod": "Wyjaśnij pojęcie: przeciwciała (immunoglobuliny)",
+     "tyl": "Białka wytwarzane przez komórki plazmatyczne, swoiście wiążące antygeny — zbudowane z 2 łańcuchów ciężkich i 2 lekkich połączonych mostkami disiarczkowymi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fd6505f4b",
+     "przod": "Aktyna i miozyna — funkcja",
+     "tyl": "Białka kurczliwe mięśni (filamenty cienkie i grube); aktyna buduje też mikrofilamenty cytoszkieletu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f1e46d2ff",
+     "przod": "Białka zapasowe — przykłady",
+     "tyl": "Kazeina (mleko), owoalbumina (białko jaja), gluten (nasiona zbóż), ferrytyna (magazynuje żelazo).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f2d560646",
+     "przod": "Wyjaśnij pojęcie: N-koniec i C-koniec łańcucha",
+     "tyl": "Początek łańcucha polipeptydowego z wolną grupą aminową (N-koniec) i koniec z wolną grupą karboksylową (C-koniec); translacja przebiega od N- do C-końca.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f43d1b759",
+     "przod": "Ile cząsteczek wody powstaje przy syntezie polipeptydu ze 100 aminokwasów?",
+     "tyl": "99 — każde wiązanie peptydowe powstaje z wydzieleniem jednej cząsteczki wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f6b4c16c3",
+     "przod": "Wyjaśnij pojęcie: helisa α",
+     "tyl": "Struktura II-rzędowa w kształcie prawoskrętnej spirali, utrzymywana wiązaniami wodorowymi między co czwartym aminokwasem łańcucha.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "febc985a1",
+     "przod": "Wyjaśnij pojęcie: harmonijka β (struktura β)",
+     "tyl": "Struktura II-rzędowa z równolegle ułożonych fragmentów łańcucha połączonych wiązaniami wodorowymi — tworzy pofałdowaną płaszczyznę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f911905f2",
+     "przod": "Dlaczego białka przeciwzamarzające ryb arktycznych są przykładem związku budowy z funkcją?",
+     "tyl": "Ich powierzchnia wiąże się z zarodkami kryształów lodu i hamuje ich wzrost, co obniża temperaturę zamarzania płynów ustrojowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f26022a9b",
+     "przod": "Wyjaśnij pojęcie: hydroliza białek",
+     "tyl": "Rozkład białek do aminokwasów z udziałem wody, katalizowany przez enzymy proteolityczne (np. pepsynę, trypsynę).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f130c9664",
+     "przod": "Co to jest proteom?",
+     "tyl": "Zestaw wszystkich białek wytwarzanych przez komórkę (lub organizm) w danym momencie — zmienia się zależnie od warunków i etapu rozwoju.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "ffb3342ed",
+     "przod": "Wyjaśnij pojęcie: kinazy białkowe",
+     "tyl": "Enzymy przyłączające resztę fosforanową do białek (fosforylacja) — w ten sposób włączają lub wyłączają ich aktywność.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f3381a1f6",
+     "przod": "Fibrynogen i fibryna — rola",
+     "tyl": "Fibrynogen — białko osocza; w procesie krzepnięcia przekształca się w nierozpuszczalną fibrynę tworzącą sieć skrzepu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fc92d5bb2",
+     "przod": "Elastyna — funkcja",
+     "tyl": "Białko fibrylarne nadające tkankom sprężystość (np. ściany tętnic, płuca, skóra).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f186f7a10",
+     "przod": "Białka transportujące w błonie a w osoczu — przykłady",
+     "tyl": "W błonie — przenośnik glukozy (GLUT), akwaporyny; w osoczu — albuminy, transferyna (żelazo), lipoproteiny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f981004c2",
+     "przod": "Wyjaśnij pojęcie: akwaporyny",
+     "tyl": "Białka błonowe tworzące kanały dla cząsteczek wody — przyspieszają osmozę (np. w kanalikach nerkowych, w korzeniach roślin).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f2b5f24a4",
+     "przod": "Jak sole metali ciężkich (np. Hg, Pb) działają na organizm?",
+     "tyl": "Denaturują białka (wiążą się z grupami –SH i niszczą strukturę) — m.in. hamują enzymy, dlatego są toksyczne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f5b0b19ed",
+     "przod": "Dlaczego mleko lub białko jaja podaje się przy zatruciu solami metali ciężkich?",
+     "tyl": "Białka z pokarmu wiążą jony metali i ulegają denaturacji zamiast białek przewodu pokarmowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f0a70ab9d",
+     "przod": "Wyjaśnij pojęcie: modyfikacje potranslacyjne",
+     "tyl": "Zmiany białka po syntezie: przyłączanie cukrów (glikozylacja), reszt fosforanowych, grup prostetycznych, cięcie łańcucha, tworzenie mostków disiarczkowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f92b6c0c2",
+     "przod": "Przykład aktywacji białka przez cięcie łańcucha",
+     "tyl": "Pepsynogen → pepsyna; trypsynogen → trypsyna (enzymy wydzielane w formie nieaktywnej, by nie trawiły komórek, które je wytwarzają).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fff9666ec",
+     "przod": "Jak powstają białka o strukturze IV-rzędowej?",
+     "tyl": "Przez połączenie kilku łańcuchów polipeptydowych (często kodowanych przez różne geny) oddziaływaniami niekowalencyjnymi i czasem mostkami disiarczkowymi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f03b930f4",
+     "przod": "Czy każde białko ma strukturę IV-rzędową?",
+     "tyl": "Nie — tylko białka zbudowane z co najmniej dwóch łańcuchów polipeptydowych (np. hemoglobina, przeciwciała, insulina dojrzała).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f518c98e3",
+     "przod": "Dlaczego białka są tak różnorodne?",
+     "tyl": "Bo z 20 aminokwasów można utworzyć ogromną liczbę różnych sekwencji o różnej długości, a każda sekwencja daje inny kształt przestrzenny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f6b52f244",
+     "przod": "Wyjaśnij pojęcie: receptory błonowe",
+     "tyl": "Białka wiążące określone cząsteczki sygnałowe (np. hormony, neuroprzekaźniki) i przekazujące sygnał do wnętrza komórki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f5bb45516",
+     "przod": "Rola białek w utrzymaniu pH",
+     "tyl": "Białka (zwłaszcza hemoglobina i białka osocza) mają grupy, które wiążą lub oddają jony H⁺ — działają jak bufory.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f3e8a57d6",
+     "przod": "Wyjaśnij pojęcie: amfoteryczność aminokwasów",
+     "tyl": "Zdolność do reagowania zarówno z kwasami (grupa –NH₂), jak i z zasadami (grupa –COOH).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f8ba2c14b",
+     "przod": "Wyjaśnij pojęcie: jon obojnaczy (aminokwasu)",
+     "tyl": "Forma aminokwasu w roztworze, w której grupa aminowa ma ładunek dodatni (–NH₃⁺), a karboksylowa ujemny (–COO⁻).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "ff8e0f7f5",
+     "przod": "Jaki skutek ma denaturacja enzymu?",
+     "tyl": "Zmienia się kształt centrum aktywnego — substrat nie może się z nim wiązać, więc enzym przestaje katalizować reakcję.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f98d3741c",
+     "przod": "Dlaczego gotowanie jaj ułatwia ich trawienie?",
+     "tyl": "Zdenaturowane białko ma rozwiniętą strukturę, więc enzymy proteolityczne łatwiej docierają do wiązań peptydowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fdc55ab83",
+     "przod": "Jakie oddziaływanie stabilizuje strukturę II-rzędową?",
+     "tyl": "Wiązania wodorowe między grupami C=O i N–H łańcucha głównego (nie łańcuchów bocznych).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f854820c0",
+     "przod": "Jakie oddziaływania stabilizują strukturę III-rzędową?",
+     "tyl": "Mostki disiarczkowe, wiązania jonowe, wodorowe między łańcuchami bocznymi i oddziaływania hydrofobowe (niepolarne łańcuchy skupiają się we wnętrzu białka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f53dac317",
+     "przod": "Gdzie w białku globularnym rozpuszczalnym w wodzie znajdują się aminokwasy hydrofobowe?",
+     "tyl": "Głównie we wnętrzu cząsteczki, z dala od wody; aminokwasy polarne — na powierzchni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f9fcaf681",
+     "przod": "Podaj nazwę pojęcia: Kolejność (sekwencja) aminokwasów w łańcuchu polipeptydowym, utrwalona wiązaniami peptydowymi; zapisana w genie.",
+     "tyl": "struktura I-rzędowa białka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fa9690fc9",
+     "przod": "Podaj nazwę pojęcia: Regularne pofałdowanie fragmentów łańcucha — helisa α lub harmonijka β — stabilizowane wiązaniami wodorowymi między grupami –CO i –NH łańcucha głównego.",
+     "tyl": "struktura II-rzędowa białka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fdebb5b33",
+     "przod": "Podaj nazwę pojęcia: Przestrzenne ułożenie całego łańcucha polipeptydowego, stabilizowane oddziaływaniami między łańcuchami bocznymi: mostkami disiarczkowymi, wiązaniami jonowymi, wodorowymi i oddziaływaniami hydrofobowymi.",
+     "tyl": "struktura III-rzędowa białka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fc834c3b4",
+     "przod": "Podaj nazwę pojęcia: Kowalencyjne wiązanie –S–S– między resztami cysteiny, stabilizujące strukturę III- i IV-rzędową (np. w keratynie, insulinie).",
+     "tyl": "mostek disiarczkowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f03ff90ed",
+     "przod": "Rozpoznaj: Białka osocza utrzymujące ciśnienie onkotyczne (zatrzymują wodę w naczyniach) i transportujące substancje (np. kwasy tłuszczowe, leki, bilirubinę).",
+     "tyl": "Albuminy — funkcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f2155e50f",
+     "przod": "Rozpoznaj: Zasadowe białka jądrowe, wokół których nawinięty jest DNA (nukleosomy) — upakowanie chromatyny i regulacja ekspresji genów.",
+     "tyl": "Histony — funkcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "ff37e5a68",
+     "przod": "Rozpoznaj: Białko fibrylarne o budowie potrójnej helisy, nadające wytrzymałość na rozciąganie skórze, ścięgnom, chrząstkom i kościom; najpowszechniejsze białko ssaków.",
+     "tyl": "Kolagen — funkcja i występowanie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f9d2374d9",
+     "przod": "Rozpoznaj: Białko fibrylarne bogate w cysteinę (liczne mostki disiarczkowe) — buduje naskórek, włosy, paznokcie, pióra, rogi.",
+     "tyl": "Keratyna — funkcja i występowanie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f9fda347c",
+     "przod": "Rozpoznaj: Białko złożone o strukturze IV-rzędowej (2 łańcuchy α + 2 β), każdy z hemem zawierającym Fe²⁺; transportuje tlen we krwi.",
+     "tyl": "Hemoglobina — budowa i funkcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f214d4dcd",
+     "przod": "Rozpoznaj: Białko mięśni (jeden łańcuch z hemem) magazynujące tlen; ma większe powinowactwo do tlenu niż hemoglobina.",
+     "tyl": "Mioglobina — funkcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f94474301",
+     "przod": "Rozpoznaj: Enzymatyczna, budulcowa, transportowa (hemoglobina, białka błonowe), regulatorowa (hormony, np. insulina), obronna (przeciwciała), ruchowa (aktyna, miozyna), receptorowa, zapasowa (kazeina, albumina jaja).",
+     "tyl": "Funkcje białek w organizmie (wymień 6)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f7cb3ea1a",
+     "przod": "Rozpoznaj: Wysoka temperatura, skrajne pH (silne kwasy i zasady), sole metali ciężkich, alkohol etylowy (stężony), mocznik, promieniowanie UV.",
+     "tyl": "Czynniki wywołujące denaturację białek",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fa63d8452",
+     "przod": "Podaj nazwę pojęcia: Odzyskanie natywnej struktury i funkcji po usunięciu czynnika denaturującego — możliwe tylko dla niektórych białek przy łagodnej denaturacji.",
+     "tyl": "renaturacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f768686d2",
+     "przod": "Podaj nazwę pojęcia: Trwale związana z białkiem część niebiałkowa, niezbędna do jego funkcji, np. hem w hemoglobinie.",
+     "tyl": "grupa prostetyczna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f8eff8a30",
+     "przod": "Podaj nazwę pojęcia: Kompleksy białek i lipidów transportujące we krwi cholesterol i triglicerydy (np. LDL, HDL).",
+     "tyl": "lipoproteiny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f8486fdff",
+     "przod": "Rozpoznaj: Hormon peptydowy z dwóch łańcuchów (A i B) połączonych mostkami disiarczkowymi.",
+     "tyl": "Insulina — budowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fe9e3a76e",
+     "przod": "Podaj nazwę pojęcia: Białka o nieprawidłowej strukturze przestrzennej, które przekształcają prawidłowe białka tego samego rodzaju w formę nieprawidłową — wywołują choroby układu nerwowego (np. choroba Creutzfeldta–Jakoba, BSE).",
+     "tyl": "priony",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f5da00fa2",
+     "przod": "Rozpoznaj: Kanały jonowe, przenośniki, pompy (np. Na⁺/K⁺-ATPaza), receptory hormonów.",
+     "tyl": "Białka transbłonowe — przykłady funkcji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fc1a9a257",
+     "przod": "Podaj nazwę pojęcia: Białka wytwarzane przez komórki plazmatyczne, swoiście wiążące antygeny — zbudowane z 2 łańcuchów ciężkich i 2 lekkich połączonych mostkami disiarczkowymi.",
+     "tyl": "przeciwciała (immunoglobuliny)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f5af2abf8",
+     "przod": "Podaj nazwę pojęcia: Struktura II-rzędowa w kształcie prawoskrętnej spirali, utrzymywana wiązaniami wodorowymi między co czwartym aminokwasem łańcucha.",
+     "tyl": "helisa α",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f73d0fbec",
+     "przod": "Podaj nazwę pojęcia: Enzymy przyłączające resztę fosforanową do białek (fosforylacja) — w ten sposób włączają lub wyłączają ich aktywność.",
+     "tyl": "kinazy białkowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fd63fb49c",
+     "przod": "Rozpoznaj: Białko fibrylarne nadające tkankom sprężystość (np. ściany tętnic, płuca, skóra).",
+     "tyl": "Elastyna — funkcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "f51a5dee1",
+     "przod": "Podaj nazwę pojęcia: Białka błonowe tworzące kanały dla cząsteczek wody — przyspieszają osmozę (np. w kanalikach nerkowych, w korzeniach roślin).",
+     "tyl": "akwaporyny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fb53af117",
+     "przod": "Podaj nazwę pojęcia: Zmiany białka po syntezie: przyłączanie cukrów (glikozylacja), reszt fosforanowych, grup prostetycznych, cięcie łańcucha, tworzenie mostków disiarczkowych.",
+     "tyl": "modyfikacje potranslacyjne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fe267f3d5",
+     "przod": "Podaj nazwę pojęcia: Białka wiążące określone cząsteczki sygnałowe (np. hormony, neuroprzekaźniki) i przekazujące sygnał do wnętrza komórki.",
+     "tyl": "receptory błonowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    },
+    {
+     "id": "fefd18fc9",
+     "przod": "Podaj nazwę pojęcia: Zdolność do reagowania zarówno z kwasami (grupa –NH₂), jak i z zasadami (grupa –COOH).",
+     "tyl": "amfoteryczność aminokwasów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.2"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p4eb1932c",
+     "pytanie": "Struktura I-rzędowa białka to:",
+     "odpowiedzi": [
+      "kształt przestrzenny łańcucha",
+      "helisa α",
+      "połączenie podjednostek",
+      "sekwencja aminokwasów"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Kolejność aminokwasów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "paeb43800",
+     "pytanie": "Podczas denaturacji NIE ulega zniszczeniu struktura:",
+     "odpowiedzi": [
+      "III-rzędowa",
+      "II-rzędowa",
+      "I-rzędowa",
+      "IV-rzędowa"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wiązania peptydowe pozostają.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0b6c3015",
+     "pytanie": "Strukturę II-rzędową stabilizują przede wszystkim:",
+     "odpowiedzi": [
+      "wiązania peptydowe",
+      "wiązania wodorowe w łańcuchu głównym",
+      "mostki disiarczkowe",
+      "wiązania glikozydowe"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Helisa α i harmonijka β.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p72165815",
+     "pytanie": "Białkiem złożonym jest:",
+     "odpowiedzi": [
+      "keratyna",
+      "hemoglobina",
+      "kolagen",
+      "albumina"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ma grupę prostetyczną — hem.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6d9844ac",
+     "pytanie": "Białka osocza odpowiedzialne za utrzymanie ciśnienia onkotycznego to:",
+     "odpowiedzi": [
+      "globuliny",
+      "histony",
+      "albuminy",
+      "fibryna"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ich niedobór → obrzęki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1584bb01",
+     "pytanie": "Odwracalne wytrącenie białka z roztworu następuje pod wpływem:",
+     "odpowiedzi": [
+      "wysokiej temperatury",
+      "stężonego kwasu",
+      "soli metali ciężkich",
+      "soli metali lekkich (np. NaCl)"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Wysalanie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p42c4e9c0",
+     "pytanie": "Wiązanie peptydowe powstaje między:",
+     "odpowiedzi": [
+      "dwiema grupami aminowymi",
+      "resztami cysteiny",
+      "grupą –OH a –COOH",
+      "grupą karboksylową a aminową"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "–CO–NH–.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p99542b18",
+     "pytanie": "Białko budujące włosy i paznokcie to:",
+     "odpowiedzi": [
+      "keratyna",
+      "kolagen",
+      "aktyna",
+      "elastyna"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Keratyna bogata w mostki S–S.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pfd3f7bd2",
+     "pytanie": "Fioletowe zabarwienie w reakcji biuretowej świadczy o obecności:",
+     "odpowiedzi": [
+      "wiązań peptydowych",
+      "tłuszczów",
+      "skrobi",
+      "cukrów redukujących"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Kompleks Cu²⁺ z wiązaniami peptydowymi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pdb532120",
+     "pytanie": "Witamina C jest niezbędna do prawidłowej syntezy:",
+     "odpowiedzi": [
+      "keratyny",
+      "hemoglobiny",
+      "insuliny",
+      "kolagenu"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Jej brak → szkorbut.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p18c4034d",
+     "pytanie": "Struktura IV-rzędowa występuje w:",
+     "odpowiedzi": [
+      "hemoglobinie",
+      "każdym białku",
+      "mioglobinie",
+      "keratynie pojedynczego łańcucha"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Hemoglobina — 4 podjednostki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb98e744b",
+     "pytanie": "Pepsynogen jest wydzielany w formie nieaktywnej, aby:",
+     "odpowiedzi": [
+      "szybciej działał",
+      "mógł przejść przez błonę",
+      "nie uległ denaturacji",
+      "nie trawił komórek, które go wytwarzają"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Aktywacja w świetle żołądka.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-lipidy",
+   "nazwa": "Lipidy",
+   "opis": "Wymaganie I.2.3 podstawy programowej.",
+   "wymaganie": "I.2.3",
+   "fiszki": [
+    {
+     "id": "fe70e1429",
+     "przod": "Wyjaśnij pojęcie: lipidy",
+     "tyl": "Zróżnicowana grupa związków organicznych nierozpuszczalnych w wodzie, a rozpuszczalnych w rozpuszczalnikach niepolarnych (np. eter, chloroform).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "ffd4f6303",
+     "przod": "Wyjaśnij pojęcie: lipidy proste",
+     "tyl": "Estry kwasów tłuszczowych i alkoholi — tłuszcze właściwe (triacyloglicerole) i woski.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "ffe3ca759",
+     "przod": "Wyjaśnij pojęcie: lipidy złożone",
+     "tyl": "Lipidy zawierające oprócz kwasów tłuszczowych i alkoholu inne składniki, np. resztę kwasu fosforowego (fosfolipidy) lub cukier (glikolipidy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "fa3e4dc9e",
+     "przod": "Wyjaśnij pojęcie: wiązanie estrowe",
+     "tyl": "Wiązanie –CO–O– powstające w reakcji kondensacji grupy karboksylowej kwasu i grupy hydroksylowej alkoholu (np. kwasu tłuszczowego i glicerolu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f0382719c",
+     "przod": "Wyjaśnij pojęcie: triacyloglicerol (tłuszcz właściwy)",
+     "tyl": "Ester glicerolu i trzech cząsteczek kwasów tłuszczowych — główny materiał zapasowy i energetyczny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "fb21b7313",
+     "przod": "Wyjaśnij pojęcie: nasycone kwasy tłuszczowe",
+     "tyl": "Kwasy tłuszczowe bez wiązań podwójnych między atomami węgla — łańcuchy proste, ciasno upakowane (np. palmitynowy, stearynowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f0e181092",
+     "przod": "Wyjaśnij pojęcie: nienasycone kwasy tłuszczowe",
+     "tyl": "Kwasy tłuszczowe z jednym lub kilkoma wiązaniami podwójnymi C=C, które zaginają łańcuch (np. oleinowy, linolowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f0ce3aea1",
+     "przod": "Dlaczego tłuszcze roślinne są zwykle płynne (oleje), a zwierzęce stałe?",
+     "tyl": "Oleje zawierają więcej nienasyconych kwasów tłuszczowych — zagięte łańcuchy nie układają się ciasno, więc temperatura topnienia jest niższa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "ff73366ca",
+     "przod": "Wyjaśnij pojęcie: NNKT",
+     "tyl": "Niezbędne nienasycone kwasy tłuszczowe (np. linolowy — omega-6, α-linolenowy — omega-3), których człowiek nie syntetyzuje i musi pobierać z pokarmem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f7198c0e6",
+     "przod": "Znaczenie NNKT w organizmie",
+     "tyl": "Składniki błon komórkowych, substraty do wytwarzania hormonów tkankowych (prostaglandyn), wpływ na pracę układu krążenia i nerwowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "ff3ccd208",
+     "przod": "Wyjaśnij pojęcie: tłuszcze trans",
+     "tyl": "Tłuszcze z nienasyconymi kwasami tłuszczowymi o konfiguracji trans (powstają m.in. przy utwardzaniu olejów) — zwiększają ryzyko miażdżycy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f5ec2102a",
+     "przod": "Dlaczego tłuszcze są lepszym materiałem zapasowym niż węglowodany?",
+     "tyl": "Przy utlenieniu 1 g tłuszczu uzyskuje się ok. 2 razy więcej energii (ok. 38 kJ) niż z 1 g węglowodanów (ok. 17 kJ); tłuszcz magazynuje się bez wody, więc zajmuje mniej masy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f74685667",
+     "przod": "Wyjaśnij pojęcie: woda metaboliczna",
+     "tyl": "Woda powstająca w organizmie w procesie oddychania komórkowego (zwłaszcza przy utlenianiu tłuszczów) — ważna np. dla wielbłądów i zwierząt pustynnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f3c0eee97",
+     "przod": "Funkcje tłuszczów właściwych (wymień 4)",
+     "tyl": "Zapasowa i energetyczna, izolacja termiczna (podskórna tkanka tłuszczowa), ochrona mechaniczna narządów, rozpuszczalnik witamin A, D, E, K, źródło wody metabolicznej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f2044e17a",
+     "przod": "Wyjaśnij pojęcie: woski",
+     "tyl": "Estry długołańcuchowych kwasów tłuszczowych i alkoholi jednowodorotlenowych — tworzą warstwy wodoodporne (kutykula liści, pióra, sierść, plaster pszczeli).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f6383f53e",
+     "przod": "Znaczenie wosków u roślin",
+     "tyl": "Budują kutykulę na powierzchni liści i owoców — ograniczają utratę wody (transpirację kutykularną) i chronią przed patogenami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f7a6952dd",
+     "przod": "Wyjaśnij pojęcie: fosfolipidy",
+     "tyl": "Lipidy złożone z glicerolu, dwóch kwasów tłuszczowych (hydrofobowe ogony) i reszty kwasu fosforowego z grupą polarną (hydrofilowa głowa) — główny składnik błon.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "ff4d5b92d",
+     "przod": "Dlaczego fosfolipidy w wodzie tworzą dwuwarstwę?",
+     "tyl": "Bo są amfipatyczne — hydrofilowe głowy kierują się do wody, a hydrofobowe ogony chowają się do wnętrza, z dala od wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "fe82f9958",
+     "przod": "Wyjaśnij pojęcie: glikolipidy",
+     "tyl": "Lipidy połączone z łańcuchem cukrowym, obecne w zewnętrznej warstwie błony — uczestniczą w rozpoznawaniu komórek (glikokaliks).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f00381763",
+     "przod": "Wyjaśnij pojęcie: steroidy (sterydy)",
+     "tyl": "Lipidy zbudowane z czterech połączonych pierścieni węglowych (szkielet steranu), np. cholesterol, hormony płciowe, kortyzol, witamina D, kwasy żółciowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f3ce3a7a4",
+     "przod": "Cholesterol — funkcje",
+     "tyl": "Składnik błon komórek zwierzęcych (reguluje ich płynność), substrat do syntezy hormonów steroidowych, witaminy D₃ i kwasów żółciowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f9aaf4e31",
+     "przod": "Jak cholesterol wpływa na płynność błony?",
+     "tyl": "W niskiej temperaturze zapobiega jej sztywnieniu (rozdziela fosfolipidy), w wysokiej — zmniejsza nadmierną płynność.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "fd84558a3",
+     "przod": "Wyjaśnij pojęcie: LDL",
+     "tyl": "Lipoproteiny niskiej gęstości transportujące cholesterol z wątroby do tkanek; ich nadmiar sprzyja odkładaniu cholesterolu w ścianach tętnic (miażdżyca) — tzw. „zły cholesterol”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "fa8a8ecfa",
+     "przod": "Wyjaśnij pojęcie: HDL",
+     "tyl": "Lipoproteiny wysokiej gęstości transportujące nadmiar cholesterolu z tkanek do wątroby — tzw. „dobry cholesterol”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f4071ac9e",
+     "przod": "Hormony steroidowe — przykłady",
+     "tyl": "Testosteron, estrogeny, progesteron, kortyzol, aldosteron.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f4e5ead06",
+     "przod": "Dlaczego hormony steroidowe działają na receptory wewnątrz komórki?",
+     "tyl": "Bo jako lipidy przenikają przez dwuwarstwę lipidową błony i wiążą się z receptorami w cytoplazmie lub jądrze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "fe42c2f1a",
+     "przod": "Wyjaśnij pojęcie: karotenoidy",
+     "tyl": "Barwniki lipidowe (izoprenoidy), np. β-karoten i ksantofile — barwniki pomocnicze fotosyntezy i ochronne; β-karoten to prowitamina A.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f51a6eebe",
+     "przod": "Witaminy rozpuszczalne w tłuszczach",
+     "tyl": "A, D, E, K — do ich wchłaniania potrzebne są tłuszcze w diecie i żółć.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f4c39f186",
+     "przod": "Jak wykryć tłuszcz w materiale biologicznym prostą metodą?",
+     "tyl": "Rozetrzeć materiał na bibule — tłuszcz zostawia półprzezroczystą plamę, która nie znika po wyschnięciu (woda wysycha bez śladu); można też użyć barwnika Sudan III (pomarańczowo-czerwone zabarwienie tłuszczu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "fb55a1113",
+     "przod": "Wyjaśnij pojęcie: zmydlanie",
+     "tyl": "Hydroliza tłuszczu w środowisku zasadowym — powstają glicerol i sole kwasów tłuszczowych (mydła).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f6ef16465",
+     "przod": "Jak przebiega hydroliza tłuszczu w przewodzie pokarmowym?",
+     "tyl": "Lipazy (głównie trzustkowa) rozkładają triacyloglicerole do glicerolu, kwasów tłuszczowych i monoacylogliceroli; wcześniej żółć emulguje tłuszcz.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "fe29ffff9",
+     "przod": "Wyjaśnij pojęcie: emulgacja tłuszczów",
+     "tyl": "Rozbicie dużych kropli tłuszczu na drobne kropelki (przez kwasy żółciowe) — zwiększa powierzchnię działania lipazy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "fad744215",
+     "przod": "Ile cząsteczek wody powstaje przy syntezie jednej cząsteczki triacyloglicerolu?",
+     "tyl": "Trzy — po jednej przy tworzeniu każdego z trzech wiązań estrowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f659b3043",
+     "przod": "Gdzie w komórce syntezowane są lipidy?",
+     "tyl": "W siateczce śródplazmatycznej gładkiej (szorstkiej — białka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f42ae8ef3",
+     "przod": "Dlaczego zwierzęta zimnych stref mają grubą warstwę tłuszczu?",
+     "tyl": "Tkanka tłuszczowa słabo przewodzi ciepło — izoluje termicznie i jest jednocześnie zapasem energii na okres niedoboru pokarmu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f23aff72d",
+     "przod": "Wyjaśnij pojęcie: tkanka tłuszczowa brunatna",
+     "tyl": "Tkanka bogata w mitochondria, w której energia utleniania tłuszczów jest uwalniana jako ciepło (bez syntezy ATP) — u noworodków i zwierząt hibernujących.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f81e9ae8f",
+     "przod": "Dlaczego ptaki wodne mają natłuszczone pióra?",
+     "tyl": "Woski z gruczołu kuprowego czynią pióra nienasiąkliwymi — zapobiegają przemakaniu i wychłodzeniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f328f8a4e",
+     "przod": "Wyjaśnij pojęcie: sfingolipidy",
+     "tyl": "Lipidy złożone zbudowane na bazie alkoholu sfingozyny (np. sfingomielina) — ważne składniki osłonek mielinowych neuronów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f894bf7e1",
+     "przod": "Rola lipidów w osłonce mielinowej",
+     "tyl": "Bogata w lipidy osłonka izoluje elektrycznie akson — umożliwia szybkie, skokowe przewodzenie impulsów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f78f05c4d",
+     "przod": "Jak liczba wiązań podwójnych wpływa na płynność błony?",
+     "tyl": "Więcej nienasyconych kwasów tłuszczowych (zagięte łańcuchy) — błona bardziej płynna; organizmy zimnych środowisk mają ich w błonach więcej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f07caa475",
+     "przod": "Wyjaśnij pojęcie: kwasy żółciowe",
+     "tyl": "Pochodne cholesterolu wytwarzane w wątrobie, składnik żółci — emulgują tłuszcze i ułatwiają wchłanianie witamin A, D, E, K.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f420a7f8b",
+     "przod": "Wyjaśnij pojęcie: terpeny (izoprenoidy)",
+     "tyl": "Lipidy zbudowane z jednostek izoprenowych, np. olejki eteryczne, karotenoidy, kauczuk, łańcuch boczny chlorofilu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "fb375c4ee",
+     "przod": "Co to jest miażdżyca?",
+     "tyl": "Odkładanie się złogów lipidowych (głównie cholesterolu) w ścianach tętnic — zwęża ich światło i sprzyja zawałom oraz udarom.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f4ba9a775",
+     "przod": "Witamina D — powiązanie z lipidami",
+     "tyl": "Steroid powstający w skórze pod wpływem UV z pochodnej cholesterolu; reguluje gospodarkę wapniowo-fosforanową.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f7173a13e",
+     "przod": "Dlaczego nadmiar witamin A i D jest groźniejszy niż nadmiar witaminy C?",
+     "tyl": "Witaminy rozpuszczalne w tłuszczach gromadzą się w tkance tłuszczowej i wątrobie (hiperwitaminoza), a nadmiar witaminy C (rozpuszczalnej w wodzie) jest wydalany z moczem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f5b415456",
+     "przod": "Czym różni się tłuszcz od oleju pod względem budowy?",
+     "tyl": "Oba są triacyloglicerolami; oleje mają więcej reszt nienasyconych kwasów tłuszczowych, tłuszcze stałe — nasyconych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f4c878c8a",
+     "przod": "Znaczenie lipidów jako sygnałów",
+     "tyl": "Hormony steroidowe, prostaglandyny i inne pochodne kwasów tłuszczowych działają jako cząsteczki sygnałowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f04c515c1",
+     "przod": "Wyjaśnij pojęcie: micela",
+     "tyl": "Kulista struktura tworzona w wodzie przez cząsteczki amfipatyczne (np. kwasy żółciowe, mydła) — części hydrofobowe skierowane do środka; w jelicie transportują produkty trawienia tłuszczów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f43602933",
+     "przod": "Jakie jest główne miejsce magazynowania tłuszczów u kręgowców?",
+     "tyl": "Komórki tłuszczowe (adipocyty) tkanki tłuszczowej podskórnej i trzewnej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "fd9f0793e",
+     "przod": "Wyjaśnij pojęcie: lipaza",
+     "tyl": "Enzym hydrolizujący wiązania estrowe w tłuszczach (do glicerolu i kwasów tłuszczowych).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f2c0e6ce4",
+     "przod": "Podaj nazwę pojęcia: Zróżnicowana grupa związków organicznych nierozpuszczalnych w wodzie, a rozpuszczalnych w rozpuszczalnikach niepolarnych (np. eter, chloroform).",
+     "tyl": "lipidy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "fa74cf76f",
+     "przod": "Podaj nazwę pojęcia: Estry kwasów tłuszczowych i alkoholi — tłuszcze właściwe (triacyloglicerole) i woski.",
+     "tyl": "lipidy proste",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "fb08c2078",
+     "przod": "Podaj nazwę pojęcia: Niezbędne nienasycone kwasy tłuszczowe (np. linolowy — omega-6, α-linolenowy — omega-3), których człowiek nie syntetyzuje i musi pobierać z pokarmem.",
+     "tyl": "NNKT",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f06134d41",
+     "przod": "Podaj nazwę pojęcia: Estry długołańcuchowych kwasów tłuszczowych i alkoholi jednowodorotlenowych — tworzą warstwy wodoodporne (kutykula liści, pióra, sierść, plaster pszczeli).",
+     "tyl": "woski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f16b25ca1",
+     "przod": "Rozpoznaj: Składnik błon komórek zwierzęcych (reguluje ich płynność), substrat do syntezy hormonów steroidowych, witaminy D₃ i kwasów żółciowych.",
+     "tyl": "Cholesterol — funkcje",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f32ed2490",
+     "przod": "Podaj nazwę pojęcia: Lipoproteiny niskiej gęstości transportujące cholesterol z wątroby do tkanek; ich nadmiar sprzyja odkładaniu cholesterolu w ścianach tętnic (miażdżyca) — tzw. „zły cholesterol”.",
+     "tyl": "LDL",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f0c03bc60",
+     "przod": "Podaj nazwę pojęcia: Lipoproteiny wysokiej gęstości transportujące nadmiar cholesterolu z tkanek do wątroby — tzw. „dobry cholesterol”.",
+     "tyl": "HDL",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f7fcedd30",
+     "przod": "Podaj nazwę pojęcia: Hydroliza tłuszczu w środowisku zasadowym — powstają glicerol i sole kwasów tłuszczowych (mydła).",
+     "tyl": "zmydlanie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f9a99a261",
+     "przod": "Rozpoznaj: Steroid powstający w skórze pod wpływem UV z pochodnej cholesterolu; reguluje gospodarkę wapniowo-fosforanową.",
+     "tyl": "Witamina D — powiązanie z lipidami",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f84463c02",
+     "przod": "Podaj nazwę pojęcia: Kulista struktura tworzona w wodzie przez cząsteczki amfipatyczne (np. kwasy żółciowe, mydła) — części hydrofobowe skierowane do środka; w jelicie transportują produkty trawienia tłuszczów.",
+     "tyl": "micela",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    },
+    {
+     "id": "f34471f58",
+     "przod": "Podaj nazwę pojęcia: Enzym hydrolizujący wiązania estrowe w tłuszczach (do glicerolu i kwasów tłuszczowych).",
+     "tyl": "lipaza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p1dad9416",
+     "pytanie": "Fosfolipidy tworzą w wodzie dwuwarstwę, ponieważ:",
+     "odpowiedzi": [
+      "są całkowicie hydrofobowe",
+      "zawierają cholesterol",
+      "są całkowicie hydrofilowe",
+      "mają hydrofilowe głowy i hydrofobowe ogony"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Amfipatyczność.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4794500d",
+     "pytanie": "Olej jest płynny w temperaturze pokojowej, ponieważ zawiera dużo:",
+     "odpowiedzi": [
+      "glicerolu",
+      "nienasyconych kwasów tłuszczowych",
+      "cholesterolu",
+      "wosków"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Zagięte łańcuchy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pfad133b1",
+     "pytanie": "Szkielet czterech pierścieni węglowych mają:",
+     "odpowiedzi": [
+      "woski",
+      "triacyloglicerole",
+      "steroidy",
+      "fosfolipidy"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Steran.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0a13fa98",
+     "pytanie": "Wiązania łączące glicerol z kwasami tłuszczowymi to wiązania:",
+     "odpowiedzi": [
+      "peptydowe",
+      "estrowe",
+      "glikozydowe",
+      "wodorowe"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "–CO–O–.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pca7030b4",
+     "pytanie": "Cholesterol jest substratem do syntezy:",
+     "odpowiedzi": [
+      "hemoglobiny",
+      "insuliny",
+      "glikogenu",
+      "testosteronu"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Hormony steroidowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1502b8d7",
+     "pytanie": "Witaminą rozpuszczalną w tłuszczach jest witamina:",
+     "odpowiedzi": [
+      "B₁₂",
+      "B₆",
+      "K",
+      "C"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "A, D, E, K.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0ac7665c",
+     "pytanie": "Tłuszcz dostarcza więcej energii na gram niż węglowodany, ponieważ:",
+     "odpowiedzi": [
+      "szybciej się trawi",
+      "ma więcej tlenu",
+      "zawiera fosfor",
+      "ma więcej wiązań C–H do utlenienia"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Bardziej zredukowany.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcf6ad302",
+     "pytanie": "Emulgację tłuszczów w jelicie powodują:",
+     "odpowiedzi": [
+      "kwasy żółciowe",
+      "lipazy",
+      "amylazy",
+      "pepsyna"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Żółć nie trawi, tylko emulguje.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbbe3851c",
+     "pytanie": "„Dobry cholesterol” to frakcja:",
+     "odpowiedzi": [
+      "LDL",
+      "HDL",
+      "VLDL",
+      "triglicerydy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "HDL odprowadza cholesterol do wątroby.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-kwasy",
+   "nazwa": "Kwasy nukleinowe",
+   "opis": "Wymaganie I.2.4 podstawy programowej.",
+   "wymaganie": "I.2.4",
+   "fiszki": [
+    {
+     "id": "f0ae66bf5",
+     "przod": "Wyjaśnij pojęcie: nukleotyd",
+     "tyl": "Monomer kwasów nukleinowych zbudowany z pentozy (rybozy lub deoksyrybozy), zasady azotowej i reszty kwasu fosforowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f2c71992a",
+     "przod": "Wyjaśnij pojęcie: nukleozyd",
+     "tyl": "Połączenie pentozy z zasadą azotową (bez reszty fosforanowej), np. adenozyna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f60b9ae46",
+     "przod": "Wyjaśnij pojęcie: zasady purynowe",
+     "tyl": "Zasady azotowe o dwóch pierścieniach: adenina (A) i guanina (G).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fd5fb99b5",
+     "przod": "Wyjaśnij pojęcie: zasady pirymidynowe",
+     "tyl": "Zasady azotowe o jednym pierścieniu: cytozyna (C), tymina (T, tylko w DNA) i uracyl (U, tylko w RNA).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fcc55c3fd",
+     "przod": "Wyjaśnij pojęcie: wiązanie fosfodiestrowe",
+     "tyl": "Wiązanie łączące sąsiednie nukleotydy w łańcuchu: reszta fosforanowa łączy węgiel 3′ jednej pentozy z węglem 5′ następnej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f68b4d9c5",
+     "przod": "Wyjaśnij pojęcie: wiązanie N-glikozydowe (w nukleotydzie)",
+     "tyl": "Wiązanie łączące zasadę azotową z atomem węgla 1′ pentozy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f658a0f01",
+     "przod": "Wyjaśnij pojęcie: komplementarność zasad",
+     "tyl": "Zasady łączą się w pary w ściśle określony sposób: A–T (w RNA A–U) dwoma wiązaniami wodorowymi i G–C trzema wiązaniami wodorowymi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f9f70aaee",
+     "przod": "Ile wiązań wodorowych łączy pary A–T i G–C?",
+     "tyl": "A–T — dwa, G–C — trzy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f0ef5c2e2",
+     "przod": "Dlaczego DNA bogate w pary G–C jest bardziej stabilne termicznie?",
+     "tyl": "Bo pary G–C łączą się trzema wiązaniami wodorowymi (A–T dwoma) — do rozdzielenia nici potrzeba więcej energii (wyższa temperatura topnienia DNA).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fbd5fdc9c",
+     "przod": "Wyjaśnij pojęcie: antyrównoległość nici DNA",
+     "tyl": "Dwie nici helisy biegną w przeciwnych kierunkach: jedna 5′→3′, druga 3′→5′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f2c94e33d",
+     "przod": "Wyjaśnij pojęcie: koniec 5′ i 3′ nici",
+     "tyl": "Koniec 5′ ma wolną resztę fosforanową przy węglu 5′ pentozy; koniec 3′ — wolną grupę –OH przy węglu 3′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f7d91a969",
+     "przod": "Model budowy DNA Watsona i Cricka (1953)",
+     "tyl": "Podwójna, prawoskrętna helisa z dwóch antyrównoległych nici; szkielet cukrowo-fosforanowy na zewnątrz, komplementarne pary zasad wewnątrz.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fc51f047a",
+     "przod": "Wyjaśnij pojęcie: reguła Chargaffa",
+     "tyl": "W dwuniciowym DNA liczba A równa się liczbie T, a G — liczbie C, więc puryny stanowią 50% zasad.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "ff34b6c66",
+     "przod": "Zadanie: w DNA jest 30% adeniny. Ile jest cytozyny?",
+     "tyl": "T = 30%, A + T = 60%, więc G + C = 40%, czyli C = 20%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f8c8f5bb5",
+     "przod": "Czym różni się budowa DNA i RNA (3 różnice)?",
+     "tyl": "DNA: deoksyryboza, tymina, zwykle dwuniciowy; RNA: ryboza, uracyl, zwykle jednoniciowy (krótszy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f4a7b1814",
+     "przod": "Funkcja DNA",
+     "tyl": "Przechowywanie informacji genetycznej i przekazywanie jej komórkom potomnym (dzięki replikacji).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fb057b844",
+     "przod": "Wyjaśnij pojęcie: mRNA",
+     "tyl": "Informacyjny RNA — kopia informacji z genu, przenosząca ją do rybosomów jako matryca do syntezy białka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f8db7356e",
+     "przod": "Wyjaśnij pojęcie: tRNA",
+     "tyl": "Transportujący RNA — przenosi aminokwasy do rybosomu; ma antykodon komplementarny do kodonu mRNA; ma kształt „liścia koniczyny”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fd37e0d0a",
+     "przod": "Wyjaśnij pojęcie: rRNA",
+     "tyl": "Rybosomowy RNA — wraz z białkami buduje rybosomy i katalizuje tworzenie wiązań peptydowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f36e69156",
+     "przod": "Gdzie w komórce eukariotycznej występuje DNA?",
+     "tyl": "W jądrze komórkowym, mitochondriach i chloroplastach (plastydach).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fb7e86f6c",
+     "przod": "Gdzie powstaje rRNA?",
+     "tyl": "W jąderku (jąderkach) jądra komórkowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f8bc726b2",
+     "przod": "Wyjaśnij pojęcie: ATP",
+     "tyl": "Adenozynotrifosforan — nukleotyd zbudowany z adeniny, rybozy i trzech reszt fosforanowych; uniwersalny przenośnik energii w komórce.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f3e791b34",
+     "przod": "Dlaczego ATP nazywa się „nośnikiem energii”?",
+     "tyl": "Bo wiązania między resztami fosforanowymi (bezwodnikowe) przy hydrolizie uwalniają dużo energii, którą komórka wykorzystuje do pracy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f1682cb21",
+     "przod": "Nukleotydy jako składniki koenzymów",
+     "tyl": "NAD⁺, NADP⁺, FAD i koenzym A zawierają nukleotydy — przenoszą elektrony, protony lub grupy chemiczne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f960d8708",
+     "przod": "Wyjaśnij pojęcie: cAMP",
+     "tyl": "Cykliczny AMP — wtórny przekaźnik sygnału wewnątrz komórki (np. w działaniu hormonów peptydowych).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "ffe9cfde5",
+     "przod": "Jak liczyć liczbę par zasad dla fragmentu DNA o 1000 nukleotydach w każdej nici?",
+     "tyl": "Dwuniciowy fragment ma 1000 par zasad (1000 pz) i 2000 nukleotydów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f9fd3ff77",
+     "przod": "Wyjaśnij pojęcie: denaturacja DNA",
+     "tyl": "Rozdzielenie nici DNA przez zerwanie wiązań wodorowych (np. w wysokiej temperaturze); po ochłodzeniu nici mogą się ponownie połączyć (renaturacja).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f75f6412e",
+     "przod": "Dlaczego DNA może być renaturowane, a większość białek nie?",
+     "tyl": "Bo komplementarność zasad jednoznacznie wyznacza, które fragmenty nici się połączą, więc po ochłodzeniu nici odtwarzają podwójną helisę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "ff61f1af1",
+     "przod": "Wyjaśnij pojęcie: replikacja semikonserwatywna",
+     "tyl": "Sposób powielania DNA, w którym każda nowa cząsteczka składa się z jednej nici starej (matrycowej) i jednej nowo zsyntetyzowanej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "ff0bb8e02",
+     "przod": "Doświadczenie Meselsona i Stahla — co wykazało?",
+     "tyl": "Że replikacja DNA jest semikonserwatywna (wykorzystano ciężki izotop azotu ¹⁵N i wirowanie w gradiencie gęstości).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f751e3f83",
+     "przod": "Doświadczenie Griffitha — co wykazało?",
+     "tyl": "Zjawisko transformacji: martwe zjadliwe pneumokoki przekazały żywym niezjadliwym czynnik nadający zjadliwość (później okazało się, że to DNA).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f95d151c1",
+     "przod": "Doświadczenie Hersheya i Chase — co wykazało?",
+     "tyl": "Że materiałem genetycznym bakteriofaga jest DNA, a nie białko (znakowanie ³²P i ³⁵S).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f00e434f3",
+     "przod": "Wyjaśnij pojęcie: chromatyna",
+     "tyl": "Kompleks DNA z białkami (głównie histonami) w jądrze komórkowym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fc5958eac",
+     "przod": "Wyjaśnij pojęcie: nukleosom",
+     "tyl": "Podstawowa jednostka chromatyny — fragment DNA nawinięty na rdzeń z ośmiu cząsteczek histonów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f84076d0a",
+     "przod": "Dlaczego histony mają ładunek dodatni i jakie to ma znaczenie?",
+     "tyl": "Bo zawierają dużo zasadowych aminokwasów (lizyna, arginina) — przyciągają ujemnie naładowane reszty fosforanowe DNA, umożliwiając jego upakowanie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f28bd71b6",
+     "przod": "Dlaczego DNA ma ładunek ujemny?",
+     "tyl": "Bo reszty fosforanowe szkieletu cukrowo-fosforanowego są zjonizowane (ujemne) — wykorzystuje się to w elektroforezie (DNA wędruje do anody).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fa7999d1a",
+     "przod": "Wyjaśnij pojęcie: genom",
+     "tyl": "Całkowita informacja genetyczna organizmu (komórki) — cały zestaw DNA (lub RNA u niektórych wirusów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fec4a51df",
+     "przod": "Wyjaśnij pojęcie: gen",
+     "tyl": "Odcinek DNA (u niektórych wirusów RNA) zawierający informację o budowie białka lub funkcjonalnego RNA, wraz z sekwencjami regulatorowymi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f2d0126a8",
+     "przod": "Jak DNA bakterii różni się od DNA w jądrze eukariontów?",
+     "tyl": "U bakterii — kolista cząsteczka w cytoplazmie (nukleoid), bez histonów, plus plazmidy; u eukariontów — liniowe cząsteczki w chromosomach, związane z histonami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "ff513d686",
+     "przod": "Wyjaśnij pojęcie: plazmid",
+     "tyl": "Mała, kolista cząsteczka DNA występująca poza chromosomem bakterii, replikująca się niezależnie (często z genami oporności na antybiotyki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f0b94c3f2",
+     "przod": "DNA mitochondrialne — cechy",
+     "tyl": "Koliste, niewielkie, bez histonów, podobne do DNA bakterii; dziedziczone u człowieka niemal wyłącznie po matce.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f4da68bb0",
+     "przod": "Wyjaśnij pojęcie: sekwencja nukleotydów",
+     "tyl": "Kolejność nukleotydów w łańcuchu DNA lub RNA — nośnik informacji genetycznej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fbf187488",
+     "przod": "Zapisz nić komplementarną do 5′-ATGCCA-3′",
+     "tyl": "3′-TACGGT-5′ (czyli 5′-TGGCAT-3′).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fa0012432",
+     "przod": "Zapisz RNA komplementarne do nici DNA 3′-TACGGT-5′",
+     "tyl": "5′-AUGCCA-3′ (U zamiast T).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f955d49e7",
+     "przod": "Wyjaśnij pojęcie: rybozymy",
+     "tyl": "Cząsteczki RNA o właściwościach katalitycznych (np. rRNA w rybosomie tworzący wiązania peptydowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fdac3419c",
+     "przod": "Jakie znaczenie ma hipoteza „świata RNA”?",
+     "tyl": "Zakłada, że pierwsze układy żywe opierały się na RNA, które mogło jednocześnie przechowywać informację i katalizować reakcje.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fed07b421",
+     "przod": "Wyjaśnij pojęcie: nić matrycowa (kodująca/niekodująca)",
+     "tyl": "Nić matrycowa (antysensowna) służy jako wzór do syntezy RNA; nić kodująca (sensowna) ma sekwencję taką jak mRNA (z T zamiast U).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f9edf79ab",
+     "przod": "Jakie są funkcje RNA (wymień 4)?",
+     "tyl": "Przenoszenie informacji (mRNA), transport aminokwasów (tRNA), budowa i kataliza w rybosomie (rRNA), regulacja ekspresji genów (np. miRNA), materiał genetyczny niektórych wirusów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fff15f5ce",
+     "przod": "Wyjaśnij pojęcie: wirusy RNA",
+     "tyl": "Wirusy, których materiałem genetycznym jest RNA (np. grypy, HIV, SARS-CoV-2, odry).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f88288535",
+     "przod": "Dlaczego tymina w DNA zamiast uracylu zwiększa stabilność informacji?",
+     "tyl": "Cytozyna może spontanicznie ulegać deaminacji do uracylu; obecność T zamiast U pozwala enzymom naprawczym rozpoznać uracyl w DNA jako błąd i go usunąć.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fdf6d11a4",
+     "przod": "Wyjaśnij pojęcie: hybrydyzacja kwasów nukleinowych",
+     "tyl": "Łączenie się komplementarnych pojedynczych nici DNA (lub DNA i RNA) w dwuniciowe struktury — wykorzystywane w sondach molekularnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f095f3a3e",
+     "przod": "Średnica i skok helisy DNA (model B)",
+     "tyl": "Średnica ok. 2 nm; jeden skręt helisy obejmuje ok. 10 par zasad (ok. 3,4 nm).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f3ed1ad02",
+     "przod": "Co to jest bruzda większa i mniejsza w DNA?",
+     "tyl": "Rowki na powierzchni helisy; w bruździe większej białka regulatorowe mogą „odczytywać” sekwencję zasad bez rozplatania DNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fe929fcfa",
+     "przod": "Wyjaśnij pojęcie: telomery",
+     "tyl": "Powtarzalne sekwencje DNA na końcach chromosomów eukariotycznych, chroniące je przed skracaniem i degradacją.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f48c6719f",
+     "przod": "Rola nukleotydów w przekazywaniu energii i sygnałów (przykłady)",
+     "tyl": "ATP i GTP — energia; NAD⁺, NADP⁺, FAD — przenośniki elektronów; cAMP — przekaźnik sygnału.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f0c7feb03",
+     "przod": "Wyjaśnij pojęcie: nukleazy",
+     "tyl": "Enzymy rozkładające kwasy nukleinowe przez hydrolizę wiązań fosfodiestrowych (np. DNazy, RNazy, enzymy restrykcyjne).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f4c0cf712",
+     "przod": "Jak liczba nukleotydów w DNA ma się do liczby reszt fosforanowych?",
+     "tyl": "Każdy nukleotyd ma jedną resztę fosforanową — ich liczby są równe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f132b3c89",
+     "przod": "Ile różnych sekwencji może mieć fragment DNA o długości 10 nukleotydów (jednej nici)?",
+     "tyl": "4¹⁰ (ok. milion) — co ilustruje ogromną pojemność informacyjną DNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f72478ba4",
+     "przod": "Wyjaśnij pojęcie: komplementarność w RNA (tRNA)",
+     "tyl": "W obrębie jednej nici tRNA fragmenty łączą się parami zasad (A–U, G–C), tworząc ramiona struktury „liścia koniczyny”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fcf8b38ce",
+     "przod": "Czym różni się DNA od RNA pod względem trwałości?",
+     "tyl": "DNA jest trwalsze (deoksyryboza, dwuniciowość); RNA łatwiej ulega hydrolizie (grupa –OH przy C2′ rybozy) — dobrze pasuje do roli krótkotrwałych kopii informacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "ff1dda959",
+     "przod": "Wyjaśnij pojęcie: nić wiodąca i opóźniona",
+     "tyl": "W replikacji: nić wiodąca syntezowana jest w sposób ciągły (w kierunku rozplatania helisy), opóźniona — odcinkami (fragmenty Okazakiego), bo polimeraza dobudowuje nukleotydy tylko na końcu 3′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f5544a945",
+     "przod": "W jakim kierunku polimeraza DNA wydłuża nić?",
+     "tyl": "Zawsze od końca 5′ do 3′ (dołącza nukleotydy do grupy –OH na końcu 3′).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f738839c3",
+     "przod": "Wyjaśnij pojęcie: starter (primer)",
+     "tyl": "Krótki fragment RNA (w komórce) lub DNA (w PCR) z wolnym końcem 3′, od którego polimeraza DNA rozpoczyna syntezę nici.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fc73ac747",
+     "przod": "Dlaczego DNA jest dobrym nośnikiem informacji dziedzicznej (3 cechy)?",
+     "tyl": "Jest stabilne chemicznie, może być dokładnie kopiowane dzięki komplementarności zasad, a sekwencja może zawierać ogromną ilość informacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "ffad03012",
+     "przod": "Podaj nazwę pojęcia: Połączenie pentozy z zasadą azotową (bez reszty fosforanowej), np. adenozyna.",
+     "tyl": "nukleozyd",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f5d6dae13",
+     "przod": "Rozpoznaj: Podwójna, prawoskrętna helisa z dwóch antyrównoległych nici; szkielet cukrowo-fosforanowy na zewnątrz, komplementarne pary zasad wewnątrz.",
+     "tyl": "Model budowy DNA Watsona i Cricka (1953)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f919cbd29",
+     "przod": "Podaj nazwę pojęcia: W dwuniciowym DNA liczba A równa się liczbie T, a G — liczbie C, więc puryny stanowią 50% zasad.",
+     "tyl": "reguła Chargaffa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f956dc34f",
+     "przod": "Rozpoznaj: Przechowywanie informacji genetycznej i przekazywanie jej komórkom potomnym (dzięki replikacji).",
+     "tyl": "Funkcja DNA",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "ffaeb0422",
+     "przod": "Podaj nazwę pojęcia: Informacyjny RNA — kopia informacji z genu, przenosząca ją do rybosomów jako matryca do syntezy białka.",
+     "tyl": "mRNA",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fd723e1f4",
+     "przod": "Podaj nazwę pojęcia: Transportujący RNA — przenosi aminokwasy do rybosomu; ma antykodon komplementarny do kodonu mRNA; ma kształt „liścia koniczyny”.",
+     "tyl": "tRNA",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f6652f2a1",
+     "przod": "Podaj nazwę pojęcia: Rybosomowy RNA — wraz z białkami buduje rybosomy i katalizuje tworzenie wiązań peptydowych.",
+     "tyl": "rRNA",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f2513806e",
+     "przod": "Podaj nazwę pojęcia: Adenozynotrifosforan — nukleotyd zbudowany z adeniny, rybozy i trzech reszt fosforanowych; uniwersalny przenośnik energii w komórce.",
+     "tyl": "ATP",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fcdc0d0c4",
+     "przod": "Podaj nazwę pojęcia: Cykliczny AMP — wtórny przekaźnik sygnału wewnątrz komórki (np. w działaniu hormonów peptydowych).",
+     "tyl": "cAMP",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f1d9efa28",
+     "przod": "Podaj nazwę pojęcia: Rozdzielenie nici DNA przez zerwanie wiązań wodorowych (np. w wysokiej temperaturze); po ochłodzeniu nici mogą się ponownie połączyć (renaturacja).",
+     "tyl": "denaturacja DNA",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fb8587c4f",
+     "przod": "Podaj nazwę pojęcia: Sposób powielania DNA, w którym każda nowa cząsteczka składa się z jednej nici starej (matrycowej) i jednej nowo zsyntetyzowanej.",
+     "tyl": "replikacja semikonserwatywna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fd4b269aa",
+     "przod": "Podaj nazwę pojęcia: Kompleks DNA z białkami (głównie histonami) w jądrze komórkowym.",
+     "tyl": "chromatyna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fa4f28b60",
+     "przod": "Podaj nazwę pojęcia: Podstawowa jednostka chromatyny — fragment DNA nawinięty na rdzeń z ośmiu cząsteczek histonów.",
+     "tyl": "nukleosom",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "ff5c289a2",
+     "przod": "Podaj nazwę pojęcia: Całkowita informacja genetyczna organizmu (komórki) — cały zestaw DNA (lub RNA u niektórych wirusów).",
+     "tyl": "genom",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f71342e88",
+     "przod": "Podaj nazwę pojęcia: Odcinek DNA (u niektórych wirusów RNA) zawierający informację o budowie białka lub funkcjonalnego RNA, wraz z sekwencjami regulatorowymi.",
+     "tyl": "gen",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fe7b3f1d2",
+     "przod": "Podaj nazwę pojęcia: Mała, kolista cząsteczka DNA występująca poza chromosomem bakterii, replikująca się niezależnie (często z genami oporności na antybiotyki).",
+     "tyl": "plazmid",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f84966aaf",
+     "przod": "Rozpoznaj: Koliste, niewielkie, bez histonów, podobne do DNA bakterii; dziedziczone u człowieka niemal wyłącznie po matce.",
+     "tyl": "DNA mitochondrialne — cechy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fd6ec2654",
+     "przod": "Rozpoznaj: 3′-TACGGT-5′ (czyli 5′-TGGCAT-3′).",
+     "tyl": "Zapisz nić komplementarną do 5′-ATGCCA-3′",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f4db27fbc",
+     "przod": "Rozpoznaj: 5′-AUGCCA-3′ (U zamiast T).",
+     "tyl": "Zapisz RNA komplementarne do nici DNA 3′-TACGGT-5′",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "fdf19efcf",
+     "przod": "Podaj nazwę pojęcia: Cząsteczki RNA o właściwościach katalitycznych (np. rRNA w rybosomie tworzący wiązania peptydowe).",
+     "tyl": "rybozymy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f6c31cf34",
+     "przod": "Podaj nazwę pojęcia: Łączenie się komplementarnych pojedynczych nici DNA (lub DNA i RNA) w dwuniciowe struktury — wykorzystywane w sondach molekularnych.",
+     "tyl": "hybrydyzacja kwasów nukleinowych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "f97b3bff6",
+     "przod": "Podaj nazwę pojęcia: Powtarzalne sekwencje DNA na końcach chromosomów eukariotycznych, chroniące je przed skracaniem i degradacją.",
+     "tyl": "telomery",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    },
+    {
+     "id": "ffa6e79e2",
+     "przod": "Podaj nazwę pojęcia: Krótki fragment RNA (w komórce) lub DNA (w PCR) z wolnym końcem 3′, od którego polimeraza DNA rozpoczyna syntezę nici.",
+     "tyl": "starter (primer)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. I.2.4"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p0bdab077",
+     "pytanie": "W DNA cytozyna stanowi 18% zasad. Ile procent stanowi adenina?",
+     "odpowiedzi": [
+      "18%",
+      "36%",
+      "32%",
+      "64%"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "G = 18%, G + C = 36%, A + T = 64%, A = 32%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb4306495",
+     "pytanie": "Uracyl występuje w:",
+     "odpowiedzi": [
+      "ATP",
+      "RNA",
+      "histonach",
+      "DNA"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "W RNA zamiast tyminy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6876e901",
+     "pytanie": "Do zasad purynowych należą:",
+     "odpowiedzi": [
+      "uracyl i cytozyna",
+      "cytozyna i tymina",
+      "adenina i guanina",
+      "adenina i tymina"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Puryny — dwa pierścienie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3f5366f8",
+     "pytanie": "Nukleotydy w łańcuchu DNA łączą się wiązaniami:",
+     "odpowiedzi": [
+      "wodorowymi",
+      "peptydowymi",
+      "glikozydowymi między zasadami",
+      "fosfodiestrowymi"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Szkielet cukrowo-fosforanowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe73c2841",
+     "pytanie": "Nici DNA łączą się ze sobą dzięki:",
+     "odpowiedzi": [
+      "wiązaniom fosfodiestrowym",
+      "histonom",
+      "wiązaniom wodorowym między zasadami",
+      "mostkom disiarczkowym"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Pary komplementarne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p75ffe814",
+     "pytanie": "Antykodon występuje w cząsteczce:",
+     "odpowiedzi": [
+      "rRNA",
+      "tRNA",
+      "mRNA",
+      "DNA"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "tRNA rozpoznaje kodon.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd1dbb86d",
+     "pytanie": "Replikacja semikonserwatywna oznacza, że:",
+     "odpowiedzi": [
+      "obie nici są nowe",
+      "każda cząsteczka potomna ma jedną nić starą i jedną nową",
+      "stara cząsteczka zostaje cała",
+      "nici są mieszane fragmentami"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Meselson i Stahl.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2afa135d",
+     "pytanie": "Który fragment DNA ma najwyższą temperaturę denaturacji?",
+     "odpowiedzi": [
+      "TTAATA",
+      "ATATAT",
+      "GCGCAT",
+      "AATTAT"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Najwięcej par G–C.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf5202689",
+     "pytanie": "Ładunek ujemny DNA wynika z obecności:",
+     "odpowiedzi": [
+      "wiązań wodorowych",
+      "deoksyrybozy",
+      "reszt fosforanowych",
+      "zasad azotowych"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Zjonizowane fosforany.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p24cb3bea",
+     "pytanie": "DNA poza jądrem komórkowym u eukariontów występuje w:",
+     "odpowiedzi": [
+      "lizosomach",
+      "aparacie Golgiego",
+      "rybosomach",
+      "mitochondriach i plastydach"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Organella półautonomiczne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
