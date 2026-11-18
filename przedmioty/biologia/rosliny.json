@@ -1725,6 +1725,1183 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
+  },
+  {
+   "id": "b-odzywianie-roslin",
+   "nazwa": "Odżywianie roślin, C4 i CAM",
+   "opis": "Wymaganie IX.4 podstawy programowej.",
+   "wymaganie": "IX.4",
+   "fiszki": [
+    {
+     "id": "f11407e32",
+     "przod": "Jaką drogą CO₂ dociera do komórek miękiszu asymilacyjnego?",
+     "tyl": "Z powietrza przez szparki do przestworów międzykomórkowych, a następnie dyfuzją przez ściany i błony do chloroplastów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f243e2b67",
+     "przod": "Jaką drogą woda — substrat fotosyntezy — dociera do liści?",
+     "tyl": "Z gleby przez włośniki i korę korzenia do drewna, naczyniami drewna przez łodygę do nerwów liścia, a stąd do komórek miękiszu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "feefe48da",
+     "przod": "Jaką drogą transportowane są produkty fotosyntezy?",
+     "tyl": "W postaci sacharozy łykiem (rurkami sitowymi) z liści (źródeł) do miejsc zużycia lub magazynowania (akceptorów): korzeni, owoców, nasion, pąków, bulw.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "fc007d87e",
+     "przod": "Wyjaśnij pojęcie: źródło i akceptor asymilatów",
+     "tyl": "Źródło — organ wytwarzający lub uwalniający cukry (dojrzały liść, bulwa wiosną); akceptor — organ zużywający lub magazynujący je (korzenie, owoce, rosnące pędy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f94739fca",
+     "przod": "Wyjaśnij pojęcie: teoria przepływu ciśnieniowego (Müncha)",
+     "tyl": "Załadunek sacharozy do rurek sitowych w źródle obniża potencjał wody — woda napływa z drewna, rośnie ciśnienie; w akceptorze sacharoza jest rozładowywana, woda odpływa — różnica ciśnień przepycha sok łykowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f74d837ac",
+     "przod": "Dlaczego cukry transportowane są w postaci sacharozy, a nie glukozy?",
+     "tyl": "Sacharoza jest cukrem nieredukującym (mniej reaktywnym) i dobrze rozpuszczalnym; nie jest od razu zużywana w komórkach po drodze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "faa96c73a",
+     "przod": "Wyjaśnij pojęcie: mszyce a łyko (metoda badania)",
+     "tyl": "Mszyce wbijają kłujkę w rurkę sitową; po odcięciu kłujki wycieka sok łykowy — tak zbadano skład i tempo transportu w łyku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "fd72f775f",
+     "przod": "Adaptacje anatomiczne do wymiany gazowej w liściu",
+     "tyl": "Szparki, przestwory miękiszu gąbczastego, cienka blaszka, duża powierzchnia; u roślin wodnych — aerenchyma, szparki po górnej stronie liści pływających.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f2dd5c8e3",
+     "przod": "Wyjaśnij pojęcie: czynniki wewnętrzne wpływające na fotosyntezę",
+     "tyl": "Ilość chlorofilu i chloroplastów, liczba i stan szparek, ilość enzymów (RuBisCO), wiek i budowa liścia, zawartość wody, gromadzenie produktów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f116875b8",
+     "przod": "Jak zaplanować doświadczenie wpływu temperatury na intensywność fotosyntezy?",
+     "tyl": "Jednakowe gałązki moczarki w wodzie z NaHCO₃ w kilku temperaturach (np. 10, 20, 30, 40°C), przy jednakowym oświetleniu; liczyć pęcherzyki O₂ w jednostce czasu, po okresie aklimatyzacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "fbc1b0df2",
+     "przod": "Jak zaplanować doświadczenie wpływu natężenia światła na fotosyntezę?",
+     "tyl": "Moczarka w wodzie z NaHCO₃ w stałej temperaturze; zmieniać odległość lampy (z filtrem cieplnym); liczyć pęcherzyki O₂ na minutę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "fe8b3da45",
+     "przod": "Wyjaśnij pojęcie: bakterie brodawkowe",
+     "tyl": "Bakterie (np. Rhizobium) żyjące w brodawkach korzeni bobowatych, wiążące azot atmosferyczny (N₂ → NH₃) i przekazujące związki azotu roślinie w zamian za cukry.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "fe55a1a8e",
+     "przod": "Dlaczego bobowate wzbogacają glebę w azot?",
+     "tyl": "Dzięki bakteriom brodawkowym — po obumarciu roślin związki azotu z korzeni i brodawek trafiają do gleby (dlatego stosuje się je w płodozmianie i jako nawóz zielony).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "fed9f0859",
+     "przod": "Wyjaśnij pojęcie: nitrogenaza",
+     "tyl": "Enzym bakterii wiążących azot, przekształcający N₂ w amoniak; jest wrażliwy na tlen — w brodawkach chroni go leghemoglobina.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "fbb683551",
+     "przod": "Wyjaśnij pojęcie: leghemoglobina",
+     "tyl": "Białko wiążące tlen w brodawkach korzeniowych (podobne do hemoglobiny) — utrzymuje niskie stężenie wolnego tlenu, chroniąc nitrogenazę, a jednocześnie dostarcza tlen do oddychania bakterii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f5f5fbf8f",
+     "przod": "Udział grzybów w pozyskiwaniu pokarmu przez rośliny",
+     "tyl": "Mikoryza: strzępki grzyba zwiększają powierzchnię chłonną korzeni i pobieranie wody oraz soli (fosforu); grzyb otrzymuje od rośliny cukry.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f8d89409d",
+     "przod": "Wyjaśnij pojęcie: ektomikoryza i endomikoryza",
+     "tyl": "Ektomikoryza — strzępki tworzą mufkę wokół korzenia i wnikają między komórki (drzewa, np. sosna z maślakiem); endomikoryza — strzępki wnikają do wnętrza komórek kory (większość roślin zielnych, storczyki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f6047ab20",
+     "przod": "Wyjaśnij pojęcie: rośliny pasożytnicze",
+     "tyl": "Rośliny pobierające wodę, sole i/lub związki organiczne z innych roślin przez ssawki — półpasożyty (jemioła — ma chlorofil, pobiera wodę z solami) i pasożyty całkowite (kanianka — bez chlorofilu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f4d55dc6a",
+     "przod": "Wyjaśnij pojęcie: rośliny owadożerne",
+     "tyl": "Rośliny samożywne (fotosyntezują), które dodatkowo chwytają i trawią owady, uzyskując azot i fosfor — np. rosiczka, muchołówka, pływacz.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f5f264d4a",
+     "przod": "Adaptacje anatomiczne roślin C4",
+     "tyl": "Anatomia typu Kranz — wieniec komórek pochwy okołowiązkowej z chloroplastami wokół wiązek, otoczony mezofilem; ścisły kontakt komórek przez plazmodesmy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f4f76ef6a",
+     "przod": "Adaptacje fizjologiczne roślin C4",
+     "tyl": "Wstępne wiązanie CO₂ przez karboksylazę PEP w mezofilu i transport kwasów C4 do pochwy okołowiązkowej, gdzie uwalniany CO₂ wchodzi do cyklu Calvina — zagęszczanie CO₂, brak fotooddychania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f0fb3d07f",
+     "przod": "Adaptacje roślin CAM do suchego środowiska",
+     "tyl": "Szparki otwarte nocą (mniejsze straty wody), nocne wiązanie CO₂ w kwas jabłkowy gromadzony w wakuoli, dzienne uwalnianie CO₂ przy zamkniętych szparkach; sukulentny miękisz.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f10eb2bd9",
+     "przod": "W jakich warunkach rośliny C4 mają przewagę nad C3?",
+     "tyl": "W wysokiej temperaturze, silnym nasłonecznieniu i przy ograniczonej dostępności wody — fotosyntezują wydajniej i zużywają mniej wody na jednostkę wytworzonej biomasy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "fd6a7c8e6",
+     "przod": "Czy rośliny C4 i CAM zrezygnowały z cyklu Calvina?",
+     "tyl": "Nie — wszystkie ostatecznie syntetyzują cukry w cyklu Calvina z udziałem RuBisCO; mechanizmy C4 i CAM tylko wstępnie wiążą i zagęszczają CO₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f32732bce",
+     "przod": "Jak sucha masa siewek zmienia się podczas kiełkowania w ciemności? (matura 2026)",
+     "tyl": "Maleje — siewka zużywa materiał zapasowy nasienia w oddychaniu, a nie fotosyntezuje.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f7cf47cc9",
+     "przod": "Jak sucha masa siewek zmienia się na świetle po wytworzeniu liści?",
+     "tyl": "Po początkowym spadku rośnie — fotosynteza zaczyna przewyższać oddychanie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "fcf0ca8e4",
+     "przod": "Dlaczego do oszacowania bilansu węgla mierzy się suchą, a nie świeżą masę? (matura 2026)",
+     "tyl": "Świeża masa zawiera zmienną ilość wody (>90%), która nie świadczy o ilości związków organicznych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f6281292c",
+     "przod": "Wyjaśnij pojęcie: heterotrofizm u roślin zielonych — okresy",
+     "tyl": "W okresie kiełkowania (przed wytworzeniem liści) i w nocy roślina zużywa zapasy — jest okresowo zależna od materiału zgromadzonego wcześniej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f49fc5acd",
+     "przod": "Gdzie gromadzone są asymilaty w roślinach dwuletnich?",
+     "tyl": "W pierwszym roku w organach spichrzowych (korzeń buraka, marchwi), które w drugim roku stają się źródłem do wytworzenia kwiatów i nasion.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "fd7240745",
+     "przod": "Wyjaśnij pojęcie: chloroza",
+     "tyl": "Żółknięcie liści z powodu braku chlorofilu — np. przy niedoborze N, Mg, Fe, S lub braku światła.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "fde5ccd5a",
+     "przod": "Podaj nazwę pojęcia: Ilość chlorofilu i chloroplastów, liczba i stan szparek, ilość enzymów (RuBisCO), wiek i budowa liścia, zawartość wody, gromadzenie produktów.",
+     "tyl": "czynniki wewnętrzne wpływające na fotosyntezę",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f71630d67",
+     "przod": "Podaj nazwę pojęcia: Enzym bakterii wiążących azot, przekształcający N₂ w amoniak; jest wrażliwy na tlen — w brodawkach chroni go leghemoglobina.",
+     "tyl": "nitrogenaza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f2d30ce27",
+     "przod": "Podaj nazwę pojęcia: Białko wiążące tlen w brodawkach korzeniowych (podobne do hemoglobiny) — utrzymuje niskie stężenie wolnego tlenu, chroniąc nitrogenazę, a jednocześnie dostarcza tlen do oddychania bakterii.",
+     "tyl": "leghemoglobina",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "f08935ebb",
+     "przod": "Rozpoznaj: Wstępne wiązanie CO₂ przez karboksylazę PEP w mezofilu i transport kwasów C4 do pochwy okołowiązkowej, gdzie uwalniany CO₂ wchodzi do cyklu Calvina — zagęszczanie CO₂, brak fotooddychania.",
+     "tyl": "Adaptacje fizjologiczne roślin C4",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    },
+    {
+     "id": "ff5d684a1",
+     "przod": "Rozpoznaj: Szparki otwarte nocą (mniejsze straty wody), nocne wiązanie CO₂ w kwas jabłkowy gromadzony w wakuoli, dzienne uwalnianie CO₂ przy zamkniętych szparkach; sukulentny miękisz.",
+     "tyl": "Adaptacje roślin CAM do suchego środowiska",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.4"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pc6de09f5",
+     "pytanie": "Produkty fotosyntezy transportowane są głównie w postaci:",
+     "odpowiedzi": [
+      "glukozy w drewnie",
+      "fruktozy w drewnie",
+      "skrobi w łyku",
+      "sacharozy w łyku"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Sok łykowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p12ddbbc4",
+     "pytanie": "Azot atmosferyczny dla bobowatych wiążą:",
+     "odpowiedzi": [
+      "bakterie brodawkowe",
+      "sinice w liściach",
+      "grzyby mikoryzowe",
+      "same korzenie"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Rhizobium.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8fa99c64",
+     "pytanie": "Jemioła jest:",
+     "odpowiedzi": [
+      "rośliną owadożerną",
+      "saprofitem",
+      "półpasożytem",
+      "pasożytem całkowitym"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ma chlorofil, pobiera wodę i sole.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0955e74a",
+     "pytanie": "Akceptorem asymilatów jest:",
+     "odpowiedzi": [
+      "liść w południe",
+      "rozwijający się owoc",
+      "bulwa wiosną (kiełkująca)",
+      "dojrzały liść na świetle"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Organ zużywający lub magazynujący.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7681e0bc",
+     "pytanie": "U roślin C4 cykl Calvina zachodzi w komórkach:",
+     "odpowiedzi": [
+      "szparkowych",
+      "skórki",
+      "mezofilu",
+      "pochwy okołowiązkowej"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Anatomia Kranz.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-rozmnazanie-roslin",
+   "nazwa": "Przemiana pokoleń i rozmnażanie",
+   "opis": "Wymaganie IX.5 podstawy programowej.",
+   "wymaganie": "IX.5",
+   "fiszki": [
+    {
+     "id": "ff93fa3ee",
+     "przod": "Wyjaśnij pojęcie: przemiana pokoleń (metageneza)",
+     "tyl": "Następowanie po sobie w cyklu życiowym pokolenia haploidalnego (gametofitu, wytwarzającego gamety) i diploidalnego (sporofitu, wytwarzającego zarodniki przez mejozę).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f9987b872",
+     "przod": "Gdzie w cyklu roślin zachodzi mejoza?",
+     "tyl": "W zarodniach sporofitu podczas wytwarzania zarodników (mejoza sporyczna); gamety powstają z gametofitu przez mitozę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fcdd19ad2",
+     "przod": "Cykl rozwojowy mchu (płonnika)",
+     "tyl": "Zarodnik (n) → splątek → gametofit (n, ulistniona łodyżka) z rodniami (komórki jajowe) i plemniami (plemniki z wiciami) → zapłodnienie w wodzie → zygota (2n) → sporofit (seta z puszką) na gametoficie → mejoza w puszce → zarodniki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f8ca2d7e7",
+     "przod": "Wyjaśnij pojęcie: splątek",
+     "tyl": "Nitkowata struktura (n) wyrastająca z zarodnika mchu, z której rozwijają się ulistnione gametofity.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f915ee802",
+     "przod": "Cykl rozwojowy paproci",
+     "tyl": "Sporofit (2n) z kupkami zarodni na spodzie liści → mejoza → zarodniki (n) → przedrośle (gametofit) z rodniami i plemniami → zapłodnienie w wodzie → zygota → młody sporofit wyrasta z przedrośla, które obumiera.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f2f7d9bb9",
+     "przod": "Cykl rozwojowy skrzypu polnego",
+     "tyl": "Wiosną pędy zarodnionośne (bez chlorofilu) z kłosem — zarodniki ze sprężycami; z zarodników przedrośla; latem zielone pędy płonne (fotosyntetyzujące).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fa2b13aff",
+     "przod": "Wyjaśnij pojęcie: sprężyce",
+     "tyl": "Taśmowate twory na zarodnikach skrzypu, które zwijają się i rozwijają zależnie od wilgotności — ułatwiają rozsiewanie zarodników.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f8221dc06",
+     "przod": "Wyjaśnij pojęcie: stopniowa redukcja gametofitu w ewolucji roślin",
+     "tyl": "Mchy — gametofit dominuje; paprotniki — samodzielny, ale mały gametofit (przedrośle); nasienne — gametofit mikroskopijny, rozwija się w sporoficie (ziarno pyłku, woreczek zalążkowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f6ad9e2f1",
+     "przod": "Gametofit męski roślin nasiennych",
+     "tyl": "Ziarno pyłku (kilka komórek) — z niego wyrasta łagiewka pyłkowa niosąca komórki plemnikowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f21c19e4f",
+     "przod": "Gametofit żeński roślin okrytonasiennych",
+     "tyl": "Woreczek zalążkowy w zalążku (zwykle 7 komórek, 8 jąder): komórka jajowa, 2 synergidy, 3 antypody, komórka centralna z 2 jądrami biegunowymi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f03a327bd",
+     "przod": "Jak powstaje gametofit żeński u okrytonasiennych?",
+     "tyl": "W zalążku komórka macierzysta makrospor dzieli się mejotycznie; z 4 makrospor przeżywa jedna, która trzema podziałami mitotycznymi daje woreczek zalążkowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fc4b429c0",
+     "przod": "Jak powstaje ziarno pyłku?",
+     "tyl": "W pylnikach komórki macierzyste mikrospor dzielą się mejotycznie na mikrospory (n), które mitotycznie dzielą się na komórkę wegetatywną (łagiewki) i generatywną (z niej 2 komórki plemnikowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fd504d7aa",
+     "przod": "Wyjaśnij pojęcie: zapylenie",
+     "tyl": "Przeniesienie pyłku z pylnika na znamię słupka (u okrytonasiennych) lub na zalążek (u nagonasiennych).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f855eb928",
+     "przod": "Wyjaśnij pojęcie: zapłodnienie podwójne",
+     "tyl": "U okrytonasiennych: jedna komórka plemnikowa łączy się z komórką jajową (zygota, 2n), druga — z komórką centralną (bielmo wtórne, 3n).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f91958bb2",
+     "przod": "Wyjaśnij pojęcie: bielmo",
+     "tyl": "Tkanka odżywcza nasienia — u okrytonasiennych triploidalna (bielmo wtórne), u nagonasiennych haploidalna (bielmo pierwotne, z gametofitu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f59c7cda3",
+     "przod": "Z czego powstają części nasienia i owocu?",
+     "tyl": "Zalążek → nasienie; zygota → zarodek; komórka centralna → bielmo; osłonki zalążka → łupina nasienna; zalążnia (ściana słupka) → owocnia (owoc).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "ff42eacd5",
+     "przod": "Budowa kwiatu okrytonasiennych",
+     "tyl": "Dno kwiatowe, okwiat (kielich i korona lub okwiat pojedynczy), pręciki (nitka + pylnik) i słupek (zalążnia, szyjka, znamię).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fdf64414c",
+     "przod": "Wyjaśnij pojęcie: kwiat obupłciowy i rozdzielnopłciowy",
+     "tyl": "Obupłciowy — ma pręciki i słupki; rozdzielnopłciowy — tylko pręciki (męski) lub tylko słupki (żeński).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fd403a666",
+     "przod": "Wyjaśnij pojęcie: rośliny jednopienne i dwupienne",
+     "tyl": "Jednopienne — kwiaty męskie i żeńskie na tym samym osobniku (kukurydza, leszczyna, sosna); dwupienne — na różnych osobnikach (wierzba, topola, kiwi, cis).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fdf731cda",
+     "przod": "Cechy kwiatów owadopylnych",
+     "tyl": "Barwny, duży okwiat, zapach, nektar (miodniki), lepki pyłek o urzeźbionej powierzchni, często kształt dopasowany do zapylaczy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f59ae82a7",
+     "przod": "Cechy kwiatów wiatropylnych",
+     "tyl": "Niepozorny, zredukowany okwiat, brak zapachu i nektaru, duża ilość lekkiego, suchego pyłku, długie pręciki i pierzaste, duże znamiona, kwitnienie przed rozwojem liści.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f5ad567e3",
+     "przod": "Wyjaśnij pojęcie: samozapylenie i zapylenie krzyżowe",
+     "tyl": "Samozapylenie — pyłek trafia na znamię tego samego kwiatu lub osobnika; krzyżowe — z innego osobnika (zwiększa zmienność genetyczną).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f29ed6591",
+     "przod": "Mechanizmy zapobiegające samozapyleniu",
+     "tyl": "Przedsłupność lub przedprątność (dojrzewanie słupka i pręcików w różnym czasie), samoniezgodność, rozdzielnopłciowość, dwupienność, różnosłupkowość.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fd9e792c9",
+     "przod": "Budowa kwiatostanu nagonasiennych (sosny)",
+     "tyl": "Szyszki męskie (kwiaty męskie z mikrosporofilami i workami pyłkowymi) i szyszki żeńskie (łuski nasienne z dwoma nagimi zalążkami).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f360fcefd",
+     "przod": "Wyjaśnij pojęcie: łagiewka pyłkowa",
+     "tyl": "Wyrostek komórki wegetatywnej ziarna pyłku, rosnący przez szyjkę słupka do zalążka i doprowadzający komórki plemnikowe — zapłodnienie bez udziału wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fc995be70",
+     "przod": "Znaczenie łagiewki pyłkowej w ewolucji roślin",
+     "tyl": "Uniezależnia zapłodnienie od wody — umożliwia rozmnażanie płciowe w suchych środowiskach lądowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fd8e362a2",
+     "przod": "Wyjaśnij pojęcie: owoc",
+     "tyl": "Organ okrytonasiennych powstały z zalążni słupka (czasem z udziałem innych części kwiatu), zawierający nasiona — chroni je i ułatwia ich rozprzestrzenianie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f8dc96f24",
+     "przod": "Owoce suche i mięsiste — przykłady",
+     "tyl": "Suche: strąk (groch), łuszczyna (rzepak), torebka (mak), orzech (leszczyna), ziarniak (zboża), niełupka (słonecznik). Mięsiste: jagoda (pomidor, winogrono), pestkowiec (wiśnia, śliwka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f5be1cfbd",
+     "przod": "Wyjaśnij pojęcie: owoc rzekomy",
+     "tyl": "Owoc, w którego tworzeniu uczestniczą inne części kwiatu niż zalążnia, np. jabłko (dno kwiatowe), truskawka (dno kwiatowe z niełupkami na powierzchni).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f2b1be7e0",
+     "przod": "Związek budowy owocu z rozprzestrzenianiem — wiatr (anemochoria)",
+     "tyl": "Lekkie owoce z aparatem lotnym: puch (mniszek), skrzydełka (klon, lipa, sosna — nasiona).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f2abe63d8",
+     "przod": "Związek budowy owocu z rozprzestrzenianiem — zwierzęta (zoochoria)",
+     "tyl": "Mięsiste, barwne owoce zjadane przez zwierzęta (nasiona przechodzą przez przewód pokarmowy); owoce z haczykami przyczepiające się do sierści (łopian); nasiona z elajosomami roznoszone przez mrówki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "faf83929c",
+     "przod": "Związek budowy owocu z rozprzestrzenianiem — woda (hydrochoria)",
+     "tyl": "Owoce lekkie, z tkanką powietrzną, nienasiąkliwe (np. orzech kokosowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f887a4f25",
+     "przod": "Wyjaśnij pojęcie: samorozsiewanie (autochoria)",
+     "tyl": "Owoce gwałtownie pękające i wyrzucające nasiona (np. niecierpek, groch, kolczurka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f0b9a366a",
+     "przod": "Wyjaśnij pojęcie: rozmnażanie wegetatywne roślin",
+     "tyl": "Rozmnażanie bezpłciowe z fragmentów ciała — powstają osobniki genetycznie identyczne z rodzicem (klony).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fbecb22f2",
+     "przod": "Sposoby naturalnego rozmnażania wegetatywnego roślin",
+     "tyl": "Rozłogi (truskawka), kłącza (perz), bulwy (ziemniak), cebule i cebulki przybyszowe (czosnek), odrosty korzeniowe (malina, osika), rozmnóżki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fc0b2b3c0",
+     "przod": "Sposoby sztucznego rozmnażania wegetatywnego roślin",
+     "tyl": "Sadzonki pędowe i liściowe, odkłady, szczepienie i okulizacja, podział kęp, kultury tkankowe in vitro (mikrorozmnażanie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f7d2fa499",
+     "przod": "Zalety rozmnażania wegetatywnego w uprawie",
+     "tyl": "Szybkie uzyskanie wielu identycznych roślin o pożądanych cechach (np. odmiany jabłoni, ziemniaka), bez rozszczepiania cech jak przy rozmnażaniu z nasion.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fa71db909",
+     "przod": "Wada rozmnażania wegetatywnego",
+     "tyl": "Brak zmienności genetycznej — wszystkie osobniki są jednakowo podatne na choroby i zmiany warunków.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f8c1a1142",
+     "przod": "Wyjaśnij pojęcie: apomiksja",
+     "tyl": "Wytwarzanie nasion bez zapłodnienia (np. u mniszka) — zarodek powstaje z komórki diploidalnej, nasiona są klonami rośliny matecznej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f06b30c0a",
+     "przod": "Ile cząsteczek DNA i chromosomów (ploidalność) ma komórka bielma wtórnego?",
+     "tyl": "Jest triploidalna (3n) — powstaje z dwóch jąder biegunowych (n + n) i jednej komórki plemnikowej (n).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f4cd230f8",
+     "przod": "Wyjaśnij pojęcie: zalążek",
+     "tyl": "Struktura w zalążni (u okrytonasiennych) lub na łusce (u nagonasiennych) zawierająca gametofit żeński; po zapłodnieniu przekształca się w nasienie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "ff0f62748",
+     "przod": "Dlaczego owoc kiwi zawiera wiele nasion? (matura 2025)",
+     "tyl": "Bo w zalążni słupka znajduje się wiele zalążków — z każdego zapłodnionego powstaje nasienie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f31c70e92",
+     "przod": "Wyjaśnij pojęcie: kwiatostan",
+     "tyl": "Zespół kwiatów na wspólnej osi (np. kłos, grono, baldach, koszyczek — słonecznik), zwiększający atrakcyjność dla zapylaczy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fbd3b9a0e",
+     "przod": "Wyjaśnij pojęcie: nektar i miodniki",
+     "tyl": "Nektar — słodka wydzielina miodników (gruczołów w kwiecie), nagroda dla zapylaczy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "faed70c36",
+     "przod": "Wyjaśnij pojęcie: owocnia",
+     "tyl": "Ściana owocu powstała ze ściany zalążni — może być sucha lub mięsista (z warstwami: skórka, miąższ, pestka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fe384014a",
+     "przod": "Rozpoznaj: Zarodnik (n) → splątek → gametofit (n, ulistniona łodyżka) z rodniami (komórki jajowe) i plemniami (plemniki z wiciami) → zapłodnienie w wodzie → zygota (2n) → sporofit (seta z puszką) na gametoficie → mejoza w puszce → zarodniki.",
+     "tyl": "Cykl rozwojowy mchu (płonnika)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "ff8162071",
+     "przod": "Podaj nazwę pojęcia: Nitkowata struktura (n) wyrastająca z zarodnika mchu, z której rozwijają się ulistnione gametofity.",
+     "tyl": "splątek",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f55c4f1a8",
+     "przod": "Rozpoznaj: Sporofit (2n) z kupkami zarodni na spodzie liści → mejoza → zarodniki (n) → przedrośle (gametofit) z rodniami i plemniami → zapłodnienie w wodzie → zygota → młody sporofit wyrasta z przedrośla, które obumiera.",
+     "tyl": "Cykl rozwojowy paproci",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "febd234ed",
+     "przod": "Rozpoznaj: Wiosną pędy zarodnionośne (bez chlorofilu) z kłosem — zarodniki ze sprężycami; z zarodników przedrośla; latem zielone pędy płonne (fotosyntetyzujące).",
+     "tyl": "Cykl rozwojowy skrzypu polnego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f903ce924",
+     "przod": "Podaj nazwę pojęcia: Taśmowate twory na zarodnikach skrzypu, które zwijają się i rozwijają zależnie od wilgotności — ułatwiają rozsiewanie zarodników.",
+     "tyl": "sprężyce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f95b99485",
+     "przod": "Rozpoznaj: Ziarno pyłku (kilka komórek) — z niego wyrasta łagiewka pyłkowa niosąca komórki plemnikowe.",
+     "tyl": "Gametofit męski roślin nasiennych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fe76f9c14",
+     "przod": "Rozpoznaj: Woreczek zalążkowy w zalążku (zwykle 7 komórek, 8 jąder): komórka jajowa, 2 synergidy, 3 antypody, komórka centralna z 2 jądrami biegunowymi.",
+     "tyl": "Gametofit żeński roślin okrytonasiennych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fab2b9903",
+     "przod": "Podaj nazwę pojęcia: Przeniesienie pyłku z pylnika na znamię słupka (u okrytonasiennych) lub na zalążek (u nagonasiennych).",
+     "tyl": "zapylenie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f4bf2e8bb",
+     "przod": "Podaj nazwę pojęcia: U okrytonasiennych: jedna komórka plemnikowa łączy się z komórką jajową (zygota, 2n), druga — z komórką centralną (bielmo wtórne, 3n).",
+     "tyl": "zapłodnienie podwójne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f72f7ee70",
+     "przod": "Rozpoznaj: Przedsłupność lub przedprątność (dojrzewanie słupka i pręcików w różnym czasie), samoniezgodność, rozdzielnopłciowość, dwupienność, różnosłupkowość.",
+     "tyl": "Mechanizmy zapobiegające samozapyleniu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f2e34e290",
+     "przod": "Podaj nazwę pojęcia: Wyrostek komórki wegetatywnej ziarna pyłku, rosnący przez szyjkę słupka do zalążka i doprowadzający komórki plemnikowe — zapłodnienie bez udziału wody.",
+     "tyl": "łagiewka pyłkowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "fd318a4b4",
+     "przod": "Podaj nazwę pojęcia: Organ okrytonasiennych powstały z zalążni słupka (czasem z udziałem innych części kwiatu), zawierający nasiona — chroni je i ułatwia ich rozprzestrzenianie.",
+     "tyl": "owoc",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f71d0679c",
+     "przod": "Podaj nazwę pojęcia: Owoce gwałtownie pękające i wyrzucające nasiona (np. niecierpek, groch, kolczurka).",
+     "tyl": "samorozsiewanie (autochoria)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f4c52c860",
+     "przod": "Rozpoznaj: Brak zmienności genetycznej — wszystkie osobniki są jednakowo podatne na choroby i zmiany warunków.",
+     "tyl": "Wada rozmnażania wegetatywnego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "ffaa05b8c",
+     "przod": "Podaj nazwę pojęcia: Wytwarzanie nasion bez zapłodnienia (np. u mniszka) — zarodek powstaje z komórki diploidalnej, nasiona są klonami rośliny matecznej.",
+     "tyl": "apomiksja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    },
+    {
+     "id": "f74df71a3",
+     "przod": "Podaj nazwę pojęcia: Ściana owocu powstała ze ściany zalążni — może być sucha lub mięsista (z warstwami: skórka, miąższ, pestka).",
+     "tyl": "owocnia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.5"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p6ce1d674",
+     "pytanie": "Mejoza w cyklu paproci zachodzi podczas wytwarzania:",
+     "odpowiedzi": [
+      "gamet w rodniach",
+      "zygoty po zapłodnieniu",
+      "zarodników w zarodniach",
+      "przedrośla z plemniami"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Mejoza sporyczna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p80097621",
+     "pytanie": "Bielmo wtórne okrytonasiennych jest:",
+     "odpowiedzi": [
+      "diploidalne",
+      "haploidalne",
+      "tetraploidalne",
+      "triploidalne"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "2 jądra biegunowe + plemnik.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf69df82a",
+     "pytanie": "Gametofitem żeńskim okrytonasiennych jest:",
+     "odpowiedzi": [
+      "zalążek",
+      "zalążnia",
+      "woreczek zalążkowy",
+      "słupek"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Woreczek w zalążku.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5ce60396",
+     "pytanie": "Cechą kwiatów wiatropylnych jest:",
+     "odpowiedzi": [
+      "duża ilość lekkiego, suchego pyłku",
+      "barwny, duży okwiat",
+      "obfity słodki nektar",
+      "silny, wabiący zapach"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Anemogamia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd316b413",
+     "pytanie": "Jabłko to owoc rzekomy, ponieważ w jego tworzeniu uczestniczy:",
+     "odpowiedzi": [
+      "tylko ściana zalążni",
+      "dno kwiatowe",
+      "zalążek z łupiną",
+      "wyłącznie kielich"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Miąższ z dna kwiatowego.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3362527c",
+     "pytanie": "Zapłodnienie u roślin nasiennych jest niezależne od wody dzięki:",
+     "odpowiedzi": [
+      "zarodnikom z wiciami",
+      "łagiewce pyłkowej",
+      "sprężycom zarodników",
+      "przedroślu na glebie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Plemniki dostarczane łagiewką.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p080034ce",
+     "pytanie": "Owoce klonu rozprzestrzenia głównie:",
+     "odpowiedzi": [
+      "samorozsiewanie",
+      "wiatr",
+      "mrówki",
+      "woda"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Skrzydlaki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-rozwoj-roslin",
+   "nazwa": "Wzrost, rozwój, hormony i ruchy roślin",
+   "opis": "Wymaganie IX.6–7 podstawy programowej.",
+   "wymaganie": "IX.6–7",
+   "fiszki": [
+    {
+     "id": "f2ee0c29f",
+     "przod": "Budowa nasienia bielmowego (np. rącznika, zbóż)",
+     "tyl": "Łupina nasienna, bielmo (tkanka zapasowa) i zarodek: korzonek, łodyżka (hipokotyl), pąk (pączek) i liścień lub liścienie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f2d6d8af2",
+     "przod": "Czym różni się nasienie bielmowe od bezbielmowego?",
+     "tyl": "W bielmowym materiał zapasowy jest w bielmie (zboża, rącznik); w bezbielmowym — w liścieniach zarodka (fasola, groch).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f1402fe72",
+     "przod": "Wyjaśnij pojęcie: spoczynek nasion",
+     "tyl": "Stan obniżonej aktywności metabolicznej nasion, w którym nie kiełkują mimo sprzyjających warunków — chroni przed przedwczesnym kiełkowaniem (np. przed zimą).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f3dcd88f7",
+     "przod": "Sposoby przerywania spoczynku nasion",
+     "tyl": "Przechłodzenie (stratyfikacja), uszkodzenie łupiny (skaryfikacja), wymycie inhibitorów, działanie światła, przejście przez przewód pokarmowy zwierzęcia, ogień (u niektórych gatunków).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fdeeda8fd",
+     "przod": "Czynniki zewnętrzne niezbędne do kiełkowania",
+     "tyl": "Woda, odpowiednia temperatura, tlen; u części gatunków światło (lub ciemność).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fd69fedc6",
+     "przod": "Rola wody w kiełkowaniu",
+     "tyl": "Pęcznienie nasienia, rozerwanie łupiny, aktywacja enzymów (np. amylaz) i przemian materiału zapasowego, wznowienie metabolizmu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "ffd63005b",
+     "przod": "Rola tlenu w kiełkowaniu",
+     "tyl": "Umożliwia intensywne oddychanie tlenowe dostarczające ATP do wzrostu zarodka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f5be1d1e9",
+     "przod": "Wyjaśnij pojęcie: kiełkowanie epigeiczne i hipogeiczne",
+     "tyl": "Epigeiczne — liścienie wynoszone nad ziemię (fasola zwykła, ogórek); hipogeiczne — liścienie pozostają w glebie (groch, dąb, zboża).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f70aeca54",
+     "przod": "Czynniki wewnętrzne wpływające na kiełkowanie",
+     "tyl": "Dojrzałość i żywotność zarodka, zawartość materiału zapasowego, równowaga hormonalna (giberelin i kwasu abscysynowego), przepuszczalność łupiny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f69889aa6",
+     "przod": "Jak zbadać rolę liścieni we wzroście siewki?",
+     "tyl": "Siewkom fasoli usunąć jeden lub oba liścienie i porównać ich wzrost z siewkami nienaruszonymi (kontrola) w tych samych warunkach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f50675bc3",
+     "przod": "Wyjaśnij pojęcie: etiolacja",
+     "tyl": "Rozwój siewki w ciemności: długie, cienkie, blade łodygi, drobne liście, brak chlorofilu — roślina „szuka” światła, zużywając zapasy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f4fb69c62",
+     "przod": "Wyjaśnij pojęcie: fitohormony",
+     "tyl": "Substancje wytwarzane w małych ilościach w jednych częściach rośliny i regulujące wzrost i rozwój w innych (auksyny, gibereliny, cytokininy, etylen, kwas abscysynowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f1a767f06",
+     "przod": "Rola auksyn",
+     "tyl": "Stymulują wydłużanie komórek (rozluźnianie ścian), dominację wierzchołkową, tworzenie korzeni przybyszowych, rozwój owoców; odpowiadają za tropizmy; hamują opadanie liści i owoców.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fb27ed431",
+     "przod": "Gdzie wytwarzane są auksyny?",
+     "tyl": "Głównie w merystemach wierzchołkowych pędu, młodych liściach i rozwijających się nasionach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f36acdb0d",
+     "przod": "Wyjaśnij pojęcie: dominacja wierzchołkowa",
+     "tyl": "Hamowanie rozwoju pąków bocznych przez auksyny z pąka szczytowego; po usunięciu wierzchołka pąki boczne się rozwijają (roślina się krzewi).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f250ced2b",
+     "przod": "Rola etylenu",
+     "tyl": "Gazowy hormon przyspieszający dojrzewanie owoców, starzenie się i opadanie liści, kwiatów i owoców; hamuje wydłużanie pędu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fa2c3547e",
+     "przod": "Dlaczego dojrzałe jabłko przyspiesza dojrzewanie bananów obok?",
+     "tyl": "Wydziela etylen, który pobudza dojrzewanie innych owoców.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fbdcf62af",
+     "przod": "Jak w praktyce wykorzystuje się auksyny?",
+     "tyl": "Ukorzeniacze do sadzonek, herbicydy selektywne (syntetyczne auksyny niszczą chwasty dwuliścienne), wywoływanie partenokarpii (owoce bez nasion).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f6e489736",
+     "przod": "Jak w praktyce wykorzystuje się etylen?",
+     "tyl": "Dojrzewanie owoców w komorach (np. bananów zrywanych na zielono); usuwanie etylenu z przechowalni wydłuża trwałość owoców.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f016bece1",
+     "przod": "Wyjaśnij pojęcie: tropizmy",
+     "tyl": "Ruchy wzrostowe organów roślinnych, których kierunek zależy od kierunku bodźca (np. fototropizm, geotropizm).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f89dc2c26",
+     "przod": "Wyjaśnij pojęcie: nastie",
+     "tyl": "Ruchy organów roślin, których kierunek nie zależy od kierunku bodźca, lecz od budowy organu (np. otwieranie i zamykanie kwiatów, składanie liści mimozy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fba61141a",
+     "przod": "Wyjaśnij pojęcie: fototropizm dodatni pędu",
+     "tyl": "Wyginanie się pędu w stronę światła: auksyny przemieszczają się na zacienioną stronę, komórki tam wydłużają się szybciej, więc pęd wygina się ku światłu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f68dbc50c",
+     "przod": "Wyjaśnij pojęcie: geotropizm (grawitropizm)",
+     "tyl": "Ruch wzrostowy zależny od siły ciężkości: korzeń — dodatni (rośnie w dół), pęd — ujemny (w górę).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f0bca9ca7",
+     "przod": "Mechanizm geotropizmu korzenia",
+     "tyl": "Amyloplasty (statolity) w czapeczce opadają na dolną stronę komórek; auksyny gromadzą się po dolnej stronie korzenia, gdzie w wysokim stężeniu hamują wydłużanie — korzeń wygina się w dół (w strefie wydłużania).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f276d963c",
+     "przod": "Dlaczego to samo stężenie auksyn działa inaczej na pęd i korzeń?",
+     "tyl": "Korzeń jest dużo wrażliwszy na auksyny — stężenie stymulujące wzrost pędu hamuje wzrost korzenia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f1c2317be",
+     "przod": "Jak wykazać różnicę geotropizmu korzenia i pędu?",
+     "tyl": "Ułożyć siewkę poziomo w ciemności (by wykluczyć światło) — po kilku dniach korzeń wygina się w dół, a pęd w górę; po usunięciu czapeczki korzeń przestaje reagować.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fc938b197",
+     "przod": "Wyjaśnij pojęcie: tigmotropizm",
+     "tyl": "Ruch wzrostowy wywołany dotykiem — np. owijanie się wąsów czepnych wokół podpory.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fd9d31be0",
+     "przod": "Wyjaśnij pojęcie: chemotropizm",
+     "tyl": "Ruch wzrostowy w kierunku substancji chemicznej — np. wzrost łagiewki pyłkowej w kierunku zalążka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fe183544c",
+     "przod": "Wyjaśnij pojęcie: sejsmonastia",
+     "tyl": "Ruch nastyczny wywołany wstrząsem lub dotykiem — np. składanie liści mimozy, zamykanie pułapki muchołówki (zmiany turgoru komórek).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f08cbcc59",
+     "przod": "Wyjaśnij pojęcie: termonastia i fotonastia",
+     "tyl": "Otwieranie i zamykanie kwiatów pod wpływem zmian temperatury (tulipan, krokus) lub światła (mniszek).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fc998b409",
+     "przod": "Wyjaśnij pojęcie: nyktynastia",
+     "tyl": "Dobowe ruchy liści (np. składanie liści fasoli lub szczawika na noc).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f484395fe",
+     "przod": "Doświadczenie Darwinów z koleoptylami — co wykazało?",
+     "tyl": "Że wierzchołek koleoptyla odbiera bodziec świetlny i przekazuje sygnał do niżej położonej strefy, która się wygina (zasłonięcie wierzchołka znosi fototropizm).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fecf3276d",
+     "przod": "Doświadczenie Wenta — co wykazało?",
+     "tyl": "Że sygnał z wierzchołka koleoptyla jest substancją chemiczną (auksyną), która może przenikać do bloczka agaru i wywoływać wygięcie, gdy bloczek położy się z boku ściętego koleoptyla.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fa8dfaca8",
+     "przod": "Rola giberelin (dodatkowo)",
+     "tyl": "Stymulują wydłużanie łodygi, przerywają spoczynek nasion (aktywacja amylazy w zbożach), pobudzają kwitnienie i rozwój owoców.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f18771b67",
+     "przod": "Rola cytokinin (dodatkowo)",
+     "tyl": "Stymulują podziały komórek, rozwój pąków bocznych, opóźniają starzenie się liści.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fac57f142",
+     "przod": "Rola kwasu abscysynowego (dodatkowo)",
+     "tyl": "Hormon stresu: zamyka szparki, utrzymuje spoczynek nasion i pąków.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fbcb798fa",
+     "przod": "Wyjaśnij pojęcie: wzrost a rozwój rośliny",
+     "tyl": "Wzrost — nieodwracalne zwiększanie rozmiarów i masy (podziały i wydłużanie komórek); rozwój — zmiany jakościowe (różnicowanie, kwitnienie, owocowanie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fb2e2f3c8",
+     "przod": "Wyjaśnij pojęcie: fotoperiodyzm",
+     "tyl": "Reakcja roślin na długość dnia i nocy — np. rośliny dnia długiego kwitną latem, dnia krótkiego — jesienią.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f3504c416",
+     "przod": "Wyjaśnij pojęcie: wernalizacja",
+     "tyl": "Pobudzenie zakwitania przez okres niskiej temperatury (np. u ozimin i roślin dwuletnich).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f9794455c",
+     "przod": "Dlaczego cięcie wierzchołka pędu sprawia, że krzew się zagęszcza?",
+     "tyl": "Usuwa się źródło auksyn odpowiedzialnych za dominację wierzchołkową — pąki boczne zaczynają się rozwijać.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fa43bfe3d",
+     "przod": "Rozpoznaj: Przechłodzenie (stratyfikacja), uszkodzenie łupiny (skaryfikacja), wymycie inhibitorów, działanie światła, przejście przez przewód pokarmowy zwierzęcia, ogień (u niektórych gatunków).",
+     "tyl": "Sposoby przerywania spoczynku nasion",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f664502e2",
+     "przod": "Rozpoznaj: Woda, odpowiednia temperatura, tlen; u części gatunków światło (lub ciemność).",
+     "tyl": "Czynniki zewnętrzne niezbędne do kiełkowania",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f989d30ae",
+     "przod": "Rozpoznaj: Dojrzałość i żywotność zarodka, zawartość materiału zapasowego, równowaga hormonalna (giberelin i kwasu abscysynowego), przepuszczalność łupiny.",
+     "tyl": "Czynniki wewnętrzne wpływające na kiełkowanie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f17b1b0db",
+     "przod": "Podaj nazwę pojęcia: Rozwój siewki w ciemności: długie, cienkie, blade łodygi, drobne liście, brak chlorofilu — roślina „szuka” światła, zużywając zapasy.",
+     "tyl": "etiolacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f8e228200",
+     "przod": "Podaj nazwę pojęcia: Substancje wytwarzane w małych ilościach w jednych częściach rośliny i regulujące wzrost i rozwój w innych (auksyny, gibereliny, cytokininy, etylen, kwas abscysynowy).",
+     "tyl": "fitohormony",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fdf7cbf68",
+     "przod": "Podaj nazwę pojęcia: Ruchy organów roślin, których kierunek nie zależy od kierunku bodźca, lecz od budowy organu (np. otwieranie i zamykanie kwiatów, składanie liści mimozy).",
+     "tyl": "nastie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f8a51caeb",
+     "przod": "Podaj nazwę pojęcia: Ruch wzrostowy zależny od siły ciężkości: korzeń — dodatni (rośnie w dół), pęd — ujemny (w górę).",
+     "tyl": "geotropizm (grawitropizm)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fdf9c13d6",
+     "przod": "Podaj nazwę pojęcia: Ruch wzrostowy wywołany dotykiem — np. owijanie się wąsów czepnych wokół podpory.",
+     "tyl": "tigmotropizm",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fb1c83b5b",
+     "przod": "Podaj nazwę pojęcia: Ruch wzrostowy w kierunku substancji chemicznej — np. wzrost łagiewki pyłkowej w kierunku zalążka.",
+     "tyl": "chemotropizm",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f0eb81242",
+     "przod": "Podaj nazwę pojęcia: Ruch nastyczny wywołany wstrząsem lub dotykiem — np. składanie liści mimozy, zamykanie pułapki muchołówki (zmiany turgoru komórek).",
+     "tyl": "sejsmonastia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "f1c5134b8",
+     "przod": "Podaj nazwę pojęcia: Otwieranie i zamykanie kwiatów pod wpływem zmian temperatury (tulipan, krokus) lub światła (mniszek).",
+     "tyl": "termonastia i fotonastia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "ff88f8bfb",
+     "przod": "Podaj nazwę pojęcia: Dobowe ruchy liści (np. składanie liści fasoli lub szczawika na noc).",
+     "tyl": "nyktynastia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "ffa9875c9",
+     "przod": "Podaj nazwę pojęcia: Reakcja roślin na długość dnia i nocy — np. rośliny dnia długiego kwitną latem, dnia krótkiego — jesienią.",
+     "tyl": "fotoperiodyzm",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    },
+    {
+     "id": "fe6486e6e",
+     "przod": "Podaj nazwę pojęcia: Pobudzenie zakwitania przez okres niskiej temperatury (np. u ozimin i roślin dwuletnich).",
+     "tyl": "wernalizacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.6–7"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pa1039652",
+     "pytanie": "Fototropizm dodatni pędu wynika z gromadzenia się auksyn po stronie:",
+     "odpowiedzi": [
+      "oświetlonej",
+      "górnej",
+      "dolnej",
+      "zacienionej"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Szybsze wydłużanie zacienionej strony.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb83dd25b",
+     "pytanie": "Owijanie się wąsów grochu wokół podpory to:",
+     "odpowiedzi": [
+      "tigmotropizm",
+      "geotropizm",
+      "termonastia",
+      "fototropizm"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Bodziec dotykowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pccd6c80f",
+     "pytanie": "Hormonem przyspieszającym dojrzewanie owoców jest:",
+     "odpowiedzi": [
+      "cytokinina",
+      "etylen",
+      "giberelina",
+      "auksyna"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Gazowy fitohormon.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa7e41c56",
+     "pytanie": "Składanie liści mimozy po dotknięciu to przykład:",
+     "odpowiedzi": [
+      "tropizmu",
+      "nastii",
+      "taksji",
+      "fotoperiodyzmu"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Sejsmonastia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbc33e7e9",
+     "pytanie": "Statolity w czapeczce korzenia to:",
+     "odpowiedzi": [
+      "amyloplasty ze skrobią",
+      "wakuole",
+      "chloroplasty",
+      "kryształy szczawianu"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Odbiór grawitacji.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbc762152",
+     "pytanie": "Materiał zapasowy nasienia fasoli zgromadzony jest w:",
+     "odpowiedzi": [
+      "korzonku",
+      "liścieniach",
+      "bielmie",
+      "łupinie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Nasienie bezbielmowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pce67fb13",
+     "pytanie": "Po usunięciu pąka szczytowego rozwijają się pąki boczne, ponieważ:",
+     "odpowiedzi": [
+      "rośnie fotosynteza",
+      "pojawia się światło",
+      "wzrasta poziom etylenu",
+      "ustaje dopływ auksyn z wierzchołka"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Dominacja wierzchołkowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
   }
  ]
 }
