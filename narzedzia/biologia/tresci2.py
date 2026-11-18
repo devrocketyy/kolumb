@@ -51,7 +51,7 @@ T['b-woda'] = dict(F=[
  ('Pierwiastkiem budującym centrum chlorofilu jest:', ['żelazo', '*magnez', 'wapń', 'miedź'], 'Mg w pierścieniu porfirynowym chlorofilu; Fe — w hemie.'),
  ('Do pierwiastków biogennych NIE należy:', ['węgiel', 'siarka', '*wapń', 'fosfor'], 'Biogenne: C, H, O, N, P, S.'),
  ('Wole jest skutkiem niedoboru:', ['żelaza', 'fluoru', '*jodu', 'potasu'], 'Jod — hormony tarczycy.'),
- ('Lód pływa po wodzie, ponieważ:', ['ma większą gęstość', '*ma mniejszą gęstość niż woda ciekła', 'zawiera powietrze', 'nie tworzy wiązań wodorowych'], 'Sieć wiązań wodorowych w lodzie jest luźniejsza.'),
+ ('Lód pływa po wodzie, ponieważ:', ['ma większą gęstość niż woda ciekła', '*ma mniejszą gęstość niż woda ciekła', 'zawiera dużo uwięzionego powietrza', 'nie tworzy żadnych wiązań wodorowych'], 'Sieć wiązań wodorowych w lodzie jest luźniejsza.'),
  ('Woda jest produktem reakcji:', ['hydrolizy białek', '*kondensacji aminokwasów', 'fotolizy', 'trawienia skrobi'], 'Przy tworzeniu wiązania peptydowego wydziela się woda.'),
  ('Ciągły słup wody w naczyniach roślin jest możliwy głównie dzięki:', ['*kohezji', 'hydrofobowości', 'dużemu ciepłu parowania', 'buforom'], 'Kohezja = przyciąganie cząsteczek wody.'),
  ('Fosfolipidy są cząsteczkami:', ['hydrofilowymi', 'hydrofobowymi', '*amfipatycznymi', 'niepolarnymi w całości'], 'Głowa polarna, ogony niepolarne.'),
