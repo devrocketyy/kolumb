@@ -1,0 +1,176 @@
+# Treści kursu biologii — porcja 15: Biotechnologia i Mikroorganizmy.
+T = {}
+
+T['b-biotech-tradycyjna'] = dict(F=[
+ ('Wyjaśnij pojęcie: biotechnologia', 'Wykorzystanie organizmów, ich części lub procesów biologicznych do wytwarzania produktów i usług.'),
+ ('Biotechnologia tradycyjna a nowoczesna', 'Tradycyjna — wykorzystuje naturalne procesy organizmów (fermentacje, selekcja); nowoczesna — opiera się na inżynierii genetycznej (modyfikacja DNA).'),
+ ('Przykłady fermentacji alkoholowej w przemyśle', 'Drożdże: wypiek chleba (CO₂ spulchnia ciasto), produkcja piwa, wina, bioetanolu.'),
+ ('Przykłady fermentacji mlekowej w przemyśle', 'Bakterie mlekowe: jogurty, kefiry, sery, kiszonki (ogórki, kapusta), kiszonki dla zwierząt (sianokiszonki).'),
+ ('Fermentacja octowa', 'Bakterie octowe utleniają etanol do kwasu octowego (proces tlenowy) — produkcja octu.'),
+ ('Biotechnologia w ochronie środowiska', 'Oczyszczalnie ścieków (osad czynny z bakteriami), bioremediacja (rozkład ropy, pestycydów przez mikroorganizmy), kompostowanie, biogaz z fermentacji metanowej.'),
+ ('Wyjaśnij pojęcie: biogaz', 'Mieszanina głównie metanu i CO₂ wytwarzana przez bakterie i archeony metanogenne w beztlenowym rozkładzie materii organicznej — źródło energii odnawialnej.'),
+ ('Biotechnologia w medycynie (tradycyjna)', 'Produkcja antybiotyków przez grzyby (pędzlak — penicylina) i promieniowce (streptomycyna), szczepionek, enzymów.'),
+ ('Wyjaśnij pojęcie: selekcja i hodowla', 'Wybieranie do rozmnażania osobników o pożądanych cechach przez wiele pokoleń (sztuczny dobór) — powstanie ras i odmian.'),
+ ('Wyjaśnij pojęcie: kultury tkankowe roślin', 'Hodowla komórek lub fragmentów roślin na pożywce in vitro — szybkie rozmnażanie wegetatywne, otrzymywanie roślin wolnych od wirusów (totipotencja komórek roślinnych).'),
+ ('Wyjaśnij pojęcie: totipotencja', 'Zdolność komórki do odtworzenia całego organizmu (zygota, wczesne blastomery, wiele komórek roślinnych).'),
+], Q=[
+ ('Spulchnianie ciasta chlebowego wynika z wytwarzania CO₂ w fermentacji:', ['mlekowej', '*alkoholowej', 'octowej', 'metanowej'], 'Drożdże.'),
+ ('Biogaz zawiera głównie:', ['wodór', '*metan', 'tlen', 'amoniak'], 'Metanogeny.'),
+ ('Penicylinę wytwarza:', ['bakteria mlekowa', '*grzyb pędzlak', 'drożdże', 'promieniowiec'], 'Fleming.'),
+], pp='XV.1–2')
+
+T['b-techniki'] = dict(F=[
+ ('Wyjaśnij pojęcie: inżynieria genetyczna', 'Zespół technik umożliwiających celowe zmiany materiału genetycznego — izolowanie, cięcie, łączenie, powielanie i przenoszenie DNA.'),
+ ('Wyjaśnij pojęcie: enzymy restrykcyjne (restryktazy)', 'Enzymy bakteryjne przecinające DNA w ściśle określonych sekwencjach (często palindromowych), tworząc lepkie lub tępe końce; naturalnie chronią bakterie przed wirusami.'),
+ ('Wyjaśnij pojęcie: lepkie końce', 'Jednoniciowe, komplementarne fragmenty powstające po cięciu przesuniętym restryktazą — ułatwiają łączenie DNA pociętego tym samym enzymem.'),
+ ('Rola ligazy w inżynierii genetycznej', 'Łączy fragmenty DNA (np. gen z wektorem) wiązaniami fosfodiestrowymi — powstaje zrekombinowane DNA.'),
+ ('Wyjaśnij pojęcie: wektor', 'Cząsteczka DNA przenosząca obcy gen do komórki (plazmid, DNA wirusa/bakteriofaga, sztuczny chromosom); musi się replikować i zawierać miejsce restrykcyjne i gen markerowy.'),
+ ('Wyjaśnij pojęcie: gen markerowy (selekcyjny)', 'Gen w wektorze umożliwiający rozpoznanie komórek, które go przyjęły — np. oporności na antybiotyk (rosną tylko na pożywce z antybiotykiem) lub białka fluorescencyjnego.'),
+ ('Wyjaśnij pojęcie: PCR', 'Łańcuchowa reakcja polimerazy — powielanie in vitro wybranego fragmentu DNA w cyklach: denaturacja (~95°C), przyłączanie starterów (~55°C), wydłużanie (~72°C).'),
+ ('Składniki mieszaniny PCR', 'Matrycowe DNA, dwa startery (komplementarne do końców fragmentu), termostabilna polimeraza DNA (Taq), nukleotydy, bufor z jonami Mg²⁺.'),
+ ('Dlaczego w PCR stosuje się polimerazę Taq?', 'Pochodzi z bakterii termofilnej (Thermus aquaticus) — nie ulega denaturacji w wysokiej temperaturze kolejnych cykli.'),
+ ('Ile kopii fragmentu powstaje po n cyklach PCR?', 'Teoretycznie 2ⁿ (z jednej cząsteczki dwuniciowej).'),
+ ('Wyjaśnij pojęcie: elektroforeza DNA', 'Rozdział fragmentów DNA w żelu agarozowym w polu elektrycznym — ujemnie naładowane DNA wędruje do anody (+), krótsze fragmenty szybciej (dalej).'),
+ ('Wyjaśnij pojęcie: sekwencjonowanie DNA', 'Ustalanie kolejności nukleotydów w DNA (np. metoda Sangera z dideoksynukleotydami, metody nowej generacji).'),
+ ('Wyjaśnij pojęcie: sonda molekularna', 'Znakowany fragment jednoniciowego DNA/RNA komplementarny do poszukiwanej sekwencji — wykrywa ją przez hybrydyzację.'),
+ ('Wyjaśnij pojęcie: profil genetyczny (DNA fingerprinting)', 'Wzór fragmentów DNA (np. sekwencji powtórzonych STR) charakterystyczny dla osobnika — używany w kryminalistyce i ustalaniu ojcostwa.'),
+ ('Jak ustalić ojcostwo na podstawie profilu DNA?', 'Każdy prążek dziecka musi pochodzić od matki lub od ojca — prążki niepochodzące od matki muszą występować u domniemanego ojca.'),
+ ('Wyjaśnij pojęcie: cDNA', 'DNA otrzymane na matrycy mRNA przez odwrotną transkryptazę — nie zawiera intronów; służy do ekspresji genów eukariotycznych w bakteriach.'),
+ ('Wyjaśnij pojęcie: CRISPR/Cas9', 'Narzędzie edycji genomu: RNA prowadzący kieruje nukleazę Cas9 do określonej sekwencji DNA, gdzie przecina obie nici — umożliwia wyłączenie, zmianę lub wstawienie genu.'),
+ ('Wyjaśnij pojęcie: biblioteka genomowa', 'Zbiór klonów (np. bakterii) zawierających łącznie fragmenty całego genomu danego organizmu.'),
+], Q=[
+ ('Enzymy restrykcyjne:', ['łączą fragmenty DNA wiązaniami', '*przecinają DNA w określonych sekwencjach', 'powielają wybrane fragmenty DNA', 'przepisują informację z RNA na DNA'], 'Lepkie końce.'),
+ ('W elektroforezie najdalej od studzienki wędrują fragmenty DNA:', ['najdłuższe', '*najkrótsze', 'dwuniciowe', 'z intronami'], 'Mniejszy opór żelu.'),
+ ('Polimeraza Taq jest stosowana w PCR, ponieważ:', ['nie wymaga żadnych starterów', '*jest odporna na wysoką temperaturę', 'syntetyzuje RNA na matrycy DNA', 'tnie DNA w miejscach palindromowych'], 'Bakteria termofilna.'),
+ ('Gen oporności na antybiotyk w plazmidzie pełni funkcję:', ['promotora genu', '*markera selekcyjnego', 'miejsca restrykcyjnego', 'startera replikacji'], 'Selekcja komórek.'),
+ ('Po 10 cyklach PCR z jednej cząsteczki DNA powstaje teoretycznie:', ['20 kopii', '100 kopii', '*1024 kopie', '10 kopii'], '2¹⁰.'),
+], pp='XV.3–5')
+
+T['b-gmo'] = dict(F=[
+ ('Wyjaśnij pojęcie: organizm genetycznie zmodyfikowany (GMO)', 'Organizm, którego materiał genetyczny zmieniono metodami inżynierii genetycznej; transgeniczny — zawiera gen innego gatunku.'),
+ ('Przykłady bakterii GMO i ich zastosowanie', 'E. coli produkująca ludzką insulinę, hormon wzrostu, czynniki krzepnięcia; bakterie rozkładające zanieczyszczenia.'),
+ ('Przykłady roślin GMO', 'Kukurydza Bt (gen toksyny Bacillus thuringiensis — odporność na szkodniki), soja odporna na herbicydy, „złoty ryż” (prowitamina A).'),
+ ('Jak wprowadza się geny do roślin?', 'Za pomocą bakterii Agrobacterium tumefaciens (plazmid Ti), mikrowstrzeliwania (armatka genowa) lub elektroporacji protoplastów.'),
+ ('Przykłady zwierząt GMO', 'Kozy produkujące w mleku białka ludzkie (np. antytrombinę), łososie szybciej rosnące, myszy modelowe chorób.'),
+ ('Korzyści stosowania GMO', 'Większe plony, mniej pestycydów, lepsza wartość odżywcza, produkcja leków, rośliny odporne na suszę.'),
+ ('Potencjalne zagrożenia GMO', 'Przenoszenie transgenów do dzikich gatunków (np. przez pyłek), powstanie odpornych szkodników i chwastów, wpływ na bioróżnorodność, możliwe alergie, kwestie ekonomiczne (patenty).'),
+ ('Wyjaśnij pojęcie: klonowanie reprodukcyjne zwierząt (transfer jąder)', 'Jądro komórki somatycznej wprowadza się do komórki jajowej pozbawionej jądra; zarodek umieszcza się w macicy matki zastępczej — np. owca Dolly.'),
+ ('Czyj materiał genetyczny ma klon (np. Dolly)?', 'DNA jądrowe — dawcy jądra komórki somatycznej; DNA mitochondrialne — głównie dawczyni komórki jajowej.'),
+ ('Wyjaśnij pojęcie: klonowanie terapeutyczne', 'Uzyskanie zarodka metodą transferu jądra w celu pozyskania komórek macierzystych zgodnych z pacjentem (bez implantacji).'),
+ ('Wyjaśnij pojęcie: komórki macierzyste', 'Niezróżnicowane komórki zdolne do samoodnawiania i różnicowania się w inne typy komórek.'),
+ ('Rodzaje komórek macierzystych', 'Totipotencjalne (zygota — wszystkie komórki z łożyskiem), pluripotencjalne (węzeł zarodkowy — wszystkie komórki ciała), multipotencjalne (dorosłe, np. szpikowe — kilka typów), unipotencjalne.'),
+ ('Wyjaśnij pojęcie: indukowane komórki pluripotencjalne (iPS)', 'Komórki somatyczne przeprogramowane do stanu pluripotencji przez wprowadzenie kilku czynników transkrypcyjnych — omijają problem etyczny zarodków.'),
+ ('Zastosowanie komórek macierzystych', 'Przeszczepy szpiku (białaczki), terapia oparzeń, badania nad leczeniem chorób neurodegeneracyjnych, cukrzycy, uszkodzeń rdzenia.'),
+], Q=[
+ ('Kukurydza Bt jest odporna na:', ['susze', 'herbicydy', '*owady szkodniki', 'wirusy'], 'Toksyna Bt.'),
+ ('Do wprowadzania genów do roślin często wykorzystuje się:', ['E. coli', '*Agrobacterium tumefaciens', 'drożdże', 'bakteriofagi'], 'Plazmid Ti.'),
+ ('Owca Dolly miała DNA jądrowe:', ['matki zastępczej', 'dawczyni komórki jajowej', '*dawczyni komórki somatycznej', 'wszystkich trzech owiec'], 'Transfer jądra.'),
+ ('Komórki węzła zarodkowego blastocysty są:', ['totipotencjalne', '*pluripotencjalne', 'unipotencjalne', 'zróżnicowane'], 'Bez łożyska.'),
+], pp='XV.6–9')
+
+T['b-biotech-medycyna'] = dict(F=[
+ ('Wyjaśnij pojęcie: terapia genowa', 'Leczenie chorób przez wprowadzenie do komórek pacjenta prawidłowej kopii genu (lub wyłączenie wadliwego) — najczęściej za pomocą wektorów wirusowych.'),
+ ('Terapia genowa somatyczna a linii płciowej', 'Somatyczna — zmiany tylko u pacjenta (dopuszczona); płciowa — zmiany dziedziczone przez potomstwo (zakazana w wielu krajach ze względów etycznych).'),
+ ('Terapia ex vivo i in vivo', 'Ex vivo — komórki pobiera się, modyfikuje poza organizmem i wprowadza z powrotem (np. szpik); in vivo — wektor podaje się bezpośrednio do organizmu.'),
+ ('Zastosowanie diagnostyki molekularnej', 'Wykrywanie mutacji (choroby genetyczne, predyspozycje nowotworowe — BRCA1/2), patogenów (PCR, testy na wirusy), identyfikacja osób.'),
+ ('Wyjaśnij pojęcie: leki biologiczne (rekombinowane)', 'Białka wytwarzane przez GMO: insulina, hormon wzrostu, erytropoetyna, interferony, przeciwciała monoklonalne, szczepionki (np. przeciw WZW B).'),
+ ('Wyjaśnij pojęcie: przeciwciała monoklonalne', 'Jednakowe przeciwciała wytwarzane przez klon komórek (hybrydoma — limfocyt B + komórka szpiczaka); stosowane w diagnostyce (testy ciążowe) i terapii nowotworów.'),
+ ('Wyjaśnij pojęcie: szczepionki mRNA', 'Zawierają mRNA kodujące antygen patogenu (w nanocząstkach lipidowych); komórki wytwarzają antygen, który wywołuje odpowiedź odpornościową.'),
+ ('Zastosowanie analizy DNA w kryminalistyce i archeologii', 'Identyfikacja sprawców i ofiar, ustalanie pokrewieństwa, badanie kopalnego DNA (np. neandertalczyków), badanie pochodzenia gatunków.'),
+ ('Problemy etyczne biotechnologii', 'Ingerencja w genom człowieka (edycja zarodków), klonowanie, wykorzystanie zarodków, prywatność danych genetycznych, dyskryminacja genetyczna, patentowanie genów.'),
+ ('Wyjaśnij pojęcie: farmakogenomika', 'Dobór leków i dawek na podstawie wariantów genów pacjenta (medycyna spersonalizowana).'),
+], Q=[
+ ('Terapia genowa linii płciowej:', ['jest powszechnie stosowana w Polsce', '*wprowadza zmiany dziedziczone przez potomstwo', 'dotyczy wyłącznie komórek szpiku kostnego', 'nie wymaga użycia żadnego wektora'], 'Problem etyczny.'),
+ ('Przeciwciała monoklonalne wytwarzają:', ['limfocyty T', '*hybrydomy', 'makrofagi', 'erytrocyty'], 'Klon komórek.'),
+ ('Ludzką insulinę dla diabetyków wytwarza się obecnie głównie:', ['z trzustek świń i bydła rzeźnego', '*przez zmodyfikowane genetycznie mikroorganizmy', 'z krwi honorowych dawców', 'wyłącznie syntezą chemiczną w laboratorium'], 'Rekombinowana.'),
+], pp='XV.10–14')
+
+T['b-wirusy'] = dict(F=[
+ ('Budowa wirusa', 'Kwas nukleinowy (DNA lub RNA) otoczony białkowym kapsydem; niektóre mają osłonkę lipidową z glikoproteinami (np. HIV, grypa, SARS-CoV-2).'),
+ ('Dlaczego wirusy nie są uznawane za organizmy?', 'Nie mają budowy komórkowej ani własnego metabolizmu, nie rozmnażają się poza komórką gospodarza — są bezwzględnymi pasożytami wewnątrzkomórkowymi.'),
+ ('Cykl lityczny bakteriofaga', 'Adsorpcja → wstrzyknięcie DNA → synteza kwasów nukleinowych i białek wirusa przez komórkę → składanie wirionów → liza komórki i uwolnienie nowych wirusów.'),
+ ('Cykl lizogeniczny bakteriofaga', 'DNA faga włącza się do chromosomu bakterii jako profag i replikuje się razem z nim; w sprzyjających warunkach może przejść w cykl lityczny.'),
+ ('Wyjaśnij pojęcie: retrowirusy', 'Wirusy RNA (np. HIV), które za pomocą odwrotnej transkryptazy przepisują swój RNA na DNA wbudowywane w genom gospodarza (prowirus).'),
+ ('Dlaczego leczenie zakażeń wirusowych jest trudne?', 'Wirusy namnażają się z użyciem maszynerii komórki gospodarza — trudno zahamować je bez uszkodzenia komórek; szybko mutują (zwłaszcza wirusy RNA); antybiotyki na nie nie działają.'),
+ ('Dlaczego antybiotyki nie działają na wirusy?', 'Działają na struktury i procesy bakterii (ściana, rybosomy 70S), których wirusy nie mają.'),
+ ('Choroby wirusowe człowieka — przykłady', 'Grypa, przeziębienie, COVID-19, ospa wietrzna, odra, świnka, różyczka, WZW A/B/C, AIDS, wścieklizna, HPV (brodawki, rak szyjki macicy), opryszczka, polio.'),
+ ('Drogi zakażenia wirusami', 'Kropelkowa (grypa, odra), pokarmowa (WZW A, rotawirusy), przez krew i kontakty seksualne (HIV, WZW B/C), przez ukąszenia (wścieklizna, kleszczowe zapalenie mózgu).'),
+ ('Choroby wirusowe roślin', 'Mozaika tytoniu, smugowatość ziemniaka — przenoszone często przez owady (mszyce); objawy: plamy, deformacje, zahamowanie wzrostu.'),
+ ('Wyjaśnij pojęcie: wiroidy i priony', 'Wiroidy — koliste cząsteczki RNA bez kapsydu (choroby roślin); priony — białka o nieprawidłowej konformacji wywołujące zmianę kształtu prawidłowych białek (BSE, choroba Creutzfeldta-Jakoba).'),
+ ('Swoistość wirusów', 'Wirus zakaża tylko komórki z odpowiednimi receptorami na powierzchni (np. HIV — limfocyty z CD4).'),
+ ('Znaczenie wirusów w biotechnologii', 'Wektory w terapii genowej i szczepionkach, bakteriofagi w terapii fagowej (zakażenia bakteriami opornymi na antybiotyki).'),
+], Q=[
+ ('Profag to:', ['nowo powstały, dojrzały wirion faga', '*DNA faga wbudowane w chromosom bakterii', 'białkowy kapsyd otaczający DNA', 'rodzaj rybosomu zakażonej bakterii'], 'Cykl lizogeniczny.'),
+ ('Odwrotną transkryptazę mają:', ['bakteriofagi DNA', '*retrowirusy', 'wszystkie wirusy', 'wiroidy'], 'RNA → DNA.'),
+ ('Chorobą wirusową jest:', ['gruźlica', 'borelioza', '*odra', 'tężec'], 'Pozostałe — bakteryjne.'),
+ ('Priony są zbudowane z:', ['DNA', 'RNA', '*białka', 'lipidów'], 'Nieprawidłowa konformacja.'),
+], pp='XII')
+
+T['b-bakterie'] = dict(F=[
+ ('Budowa komórki bakterii', 'Ściana komórkowa z mureiny (peptydoglikanu), błona komórkowa, cytoplazma z rybosomami 70S, nukleoid, plazmidy; często otoczka śluzowa, rzęski, fimbrie.'),
+ ('Formy morfologiczne bakterii', 'Ziarniaki (paciorkowce, gronkowce, dwoinki), pałeczki, przecinkowce, śrubowce, krętki.'),
+ ('Gram-dodatnie i Gram-ujemne', 'G+ — gruba warstwa mureiny, barwią się na fioletowo; G− — cienka mureina i błona zewnętrzna, barwią się na różowo; różna wrażliwość na antybiotyki.'),
+ ('Sposoby odżywiania bakterii', 'Autotrofy: fotoautotrofy (sinice, bakterie purpurowe), chemoautotrofy (nitryfikacyjne, siarkowe); heterotrofy: saprobionty, pasożyty, symbionty.'),
+ ('Wyjaśnij pojęcie: sinice (cyjanobakterie)', 'Bakterie fotosyntezujące z chlorofilem a i fikobilinami, wydzielające tlen; niektóre wiążą azot w heterocystach; przodkowie chloroplastów.'),
+ ('Oddychanie bakterii — typy', 'Bezwzględne tlenowce, bezwzględne beztlenowce (np. laseczka tężca), względne beztlenowce (E. coli, drożdże wśród grzybów).'),
+ ('Rozmnażanie bakterii', 'Podział komórki (amitotycznie, poprzez replikację DNA i podział — w sprzyjających warunkach co ~20 min).'),
+ ('Sposoby wymiany informacji genetycznej u bakterii', 'Koniugacja (przekazanie plazmidu przez pilus), transformacja (pobranie DNA z otoczenia), transdukcja (przeniesienie DNA przez bakteriofaga).'),
+ ('Wyjaśnij pojęcie: przetrwalniki (endospory)', 'Formy spoczynkowe niektórych bakterii (np. laseczek) o grubej osłonie, odporne na wysoką temperaturę i wysychanie — nie służą rozmnażaniu.'),
+ ('Jak powstaje oporność bakterii na antybiotyki?', 'Przez mutacje i przekazywanie genów oporności (plazmidy R) — nadużywanie antybiotyków selekcjonuje oporne szczepy.'),
+ ('Choroby bakteryjne człowieka — przykłady', 'Gruźlica, borelioza, tężec, salmonelloza, cholera, angina paciorkowcowa, krztusiec, kiła, rzeżączka, czerwonka, botulizm, dur brzuszny.'),
+ ('Profilaktyka boreliozy', 'Odpowiedni ubiór w lesie, repelenty, oglądanie skóry po spacerze i szybkie usuwanie kleszczy; brak szczepionki dla ludzi.'),
+ ('Znaczenie bakterii w przyrodzie', 'Destruenci (obieg materii), wiązanie azotu, nitryfikacja i denitryfikacja, symbionty (flora jelitowa, przeżuwacze), producenci (sinice).'),
+ ('Archeony — cechy', 'Prokarionty bez mureiny w ścianie, z odmiennymi lipidami błon; często ekstremofile (halofile, termofile, metanogeny); pod względem niektórych procesów (transkrypcja) bliższe eukariontom.'),
+ ('Wyjaśnij pojęcie: mikrobiom jelitowy', 'Zespół mikroorganizmów przewodu pokarmowego — synteza witamin K i B, trawienie błonnika, ochrona przed patogenami, wpływ na odporność.'),
+], Q=[
+ ('Ściana komórkowa bakterii zbudowana jest z:', ['celulozy', 'chityny', '*mureiny', 'pektyn'], 'Peptydoglikan.'),
+ ('Przekazanie plazmidu przez pilus to:', ['transformacja', 'transdukcja', '*koniugacja', 'podział'], 'Kontakt komórek.'),
+ ('Chorobą bakteryjną jest:', ['grypa', '*borelioza', 'ospa wietrzna', 'malaria'], 'Krętki przenoszone przez kleszcze.'),
+ ('Przetrwalniki bakterii służą do:', ['szybkiego rozmnażania się', '*przetrwania niekorzystnych warunków', 'przeprowadzania fotosyntezy', 'koniugacji z innymi bakteriami'], 'Endospory.'),
+ ('Wydzielanie tlenu w fotosyntezie zachodzi u:', ['bakterii purpurowych', '*sinic', 'bakterii nitryfikacyjnych', 'archeonów metanogennych'], 'Chlorofil a.'),
+], pp='VI')
+
+T['b-protisty'] = dict(F=[
+ ('Wyjaśnij pojęcie: protisty', 'Eukarionty, które nie są roślinami, zwierzętami ani grzybami — głównie jednokomórkowe lub proste wielokomórkowe; grupa niejednorodna (parafiletyczna).'),
+ ('Podział protistów (tradycyjny)', 'Protisty zwierzęce (pierwotniaki — heterotrofy), roślinopodobne (glony — fotoautotrofy), grzybopodobne (lęgniowce, śluzowce).'),
+ ('Budowa pantofelka', 'Pokryty rzęskami, ma makronukleus (funkcje życiowe) i mikronukleus (rozmnażanie płciowe), cytostom, wodniczki pokarmowe i tętniące, cytopyge.'),
+ ('Jak porusza się ameba, eugliena i pantofelek?', 'Ameba — nibynóżki (ruch pełzakowaty); eugliena — wić; pantofelek — rzęski.'),
+ ('Wyjaśnij pojęcie: miksotrofizm euglieny', 'Eugliena fotosyntezuje na świetle, a w ciemności odżywia się heterotroficznie — łączy oba sposoby.'),
+ ('Rola wodniczek tętniących', 'Usuwanie nadmiaru wody z komórki pierwotniaków słodkowodnych (środowisko hipotoniczne) — osmoregulacja.'),
+ ('Wyjaśnij pojęcie: koniugacja pantofelka', 'Proces płciowy: dwa osobniki wymieniają się haploidalnymi jądrami powstałymi z mikronukleusów — rekombinacja bez zwiększenia liczby osobników.'),
+ ('Cykl rozwojowy zarodźca malarii', 'Żywiciel ostateczny — komar widliszek (rozmnażanie płciowe); pośredni — człowiek: sporozoity → wątroba → erytrocyty (rozmnażanie bezpłciowe, rozpad krwinek — napady gorączki).'),
+ ('Dlaczego napady gorączki w malarii są cykliczne?', 'Zarodźce w erytrocytach namnażają się synchronicznie i co 48 lub 72 h jednocześnie rozsadzają krwinki, uwalniając toksyny.'),
+ ('Choroby wywoływane przez protisty', 'Malaria (zarodziec), toksoplazmoza (toksoplazma — kot), czerwonka pełzakowa, rzęsistkowica, lamblioza, śpiączka afrykańska (świdrowiec — mucha tse-tse).'),
+ ('Profilaktyka toksoplazmozy w ciąży', 'Unikanie surowego mięsa, mycie warzyw, ostrożność przy kontakcie z kocimi odchodami (rękawice), badanie przeciwciał.'),
+ ('Okrzemki — cechy i znaczenie', 'Jednokomórkowe glony z krzemionkowym pancerzykiem; ważny składnik fitoplanktonu (produkcja tlenu, podstawa łańcuchów pokarmowych); ziemia okrzemkowa.'),
+ ('Bruzdnice (tobołki) — znaczenie', 'Glony planktonowe z dwiema wiciami; niektóre wywołują toksyczne zakwity („czerwone przypływy”), inne są symbiontami koralowców.'),
+ ('Brunatnice i krasnorosty — cechy', 'Wielokomórkowe glony morskie; brunatnice (np. listownica, morszczyn) — duże plechy, fukoksantyna; krasnorosty — fikoerytryna, głębsze wody; źródło alginianów i agaru.'),
+ ('Zielenice — znaczenie ewolucyjne', 'Glony z chlorofilem a i b oraz skrobią — jak rośliny lądowe; z nich (ramienice) wywodzą się rośliny lądowe.'),
+ ('Wyjaśnij pojęcie: przemiana pokoleń u glonów (np. sałaty morskiej)', 'Gametofit i sporofit są podobne (izomorficzna przemiana pokoleń), oba wielokomórkowe.'),
+], Q=[
+ ('Żywicielem ostatecznym zarodźca malarii jest:', ['człowiek', '*komar widliszek', 'kot', 'mucha tse-tse'], 'Rozmnażanie płciowe.'),
+ ('Toksoplazmozą człowiek może się zarazić przez kontakt z odchodami:', ['psa', '*kota', 'ptaków', 'ryb'], 'Żywiciel ostateczny — kot.'),
+ ('Wodniczki tętniące występują u pierwotniaków:', ['morskich', '*słodkowodnych', 'pasożytniczych we krwi', 'wszystkich jednakowo'], 'Hipotoniczne środowisko.'),
+ ('Pancerzyk krzemionkowy mają:', ['bruzdnice', '*okrzemki', 'zielenice', 'krasnorosty'], 'Fitoplankton.'),
+], pp='VIII')
+
+T['b-grzyby'] = dict(F=[
+ ('Cechy grzybów', 'Eukarionty, heterotrofy (wchłanianie pokarmu po trawieniu zewnętrznym), ściana komórkowa z chityny, materiał zapasowy — glikogen, ciało — grzybnia ze strzępek (lub pojedyncze komórki — drożdże).'),
+ ('Wyjaśnij pojęcie: strzępka i grzybnia', 'Strzępka — nitkowata struktura (komórkowa lub komórczakowa); grzybnia — splot strzępek tworzący ciało grzyba.'),
+ ('Wyjaśnij pojęcie: owocnik', 'Zbita grzybnia tworząca struktury wytwarzające zarodniki (np. kapelusz z trzonem u podstawczaków).'),
+ ('Sposoby rozmnażania grzybów', 'Bezpłciowo: zarodniki (konidia, sporangiospory), pączkowanie (drożdże), fragmentacja grzybni; płciowo: łączenie strzępek lub gamet, zarodniki płciowe (workowe, podstawkowe).'),
+ ('Grzyby workowe — przykłady', 'Drożdże, pędzlak, kropidlak, smardze, trufle, sporysz; zarodniki płciowe w workach.'),
+ ('Grzyby podstawkowe — przykłady', 'Pieczarka, borowik, muchomor, maślak, rdze, głownie; zarodniki płciowe na podstawkach.'),
+ ('Sposoby odżywiania grzybów', 'Saprotrofy (rozkład martwej materii), pasożyty (roślin, zwierząt, człowieka), symbionty (mikoryza, porosty).'),
+ ('Wyjaśnij pojęcie: porost', 'Organizm złożony — symbioza grzyba (mykobiont) z glonem lub sinicą (fotobiont): grzyb daje wodę, sole i ochronę, fotobiont — związki organiczne.'),
+ ('Porosty jako bioindykatory', 'Są wrażliwe na zanieczyszczenie powietrza (głównie SO₂) — skala porostowa pozwala ocenić czystość powietrza.'),
+ ('Znaczenie grzybów w przyrodzie', 'Destruenci (rozkład celulozy i ligniny), mikoryza (pobieranie wody i soli przez rośliny), pionierzy (porosty).'),
+ ('Znaczenie gospodarcze grzybów', 'Pieczywo, piwo, wino (drożdże), sery pleśniowe, antybiotyki (penicylina), kwas cytrynowy (kropidlak), grzyby jadalne.'),
+ ('Choroby wywoływane przez grzyby', 'Grzybice skóry i paznokci, drożdżyca (kandydoza), aspergiloza; u roślin — sporysz, rdze, mączniaki, zaraza ziemniaka (lęgniowiec — protist grzybopodobny).'),
+ ('Wyjaśnij pojęcie: mykotoksyny', 'Toksyny grzybów — np. aflatoksyny (kropidlak, rakotwórcze), alkaloidy sporyszu, amanityna (muchomor sromotnikowy — uszkadza wątrobę).'),
+], Q=[
+ ('Ściana komórkowa grzybów zbudowana jest z:', ['celulozy', '*chityny', 'mureiny', 'krzemionki'], 'Jak u stawonogów.'),
+ ('Porost to symbioza grzyba z:', ['bakterią brodawkową', '*glonem lub sinicą', 'rośliną nasienną', 'pierwotniakiem'], 'Fotobiont.'),
+ ('Materiałem zapasowym grzybów jest:', ['skrobia', '*glikogen', 'celuloza', 'sacharoza'], 'Jak u zwierząt.'),
+ ('Porosty są bioindykatorami zanieczyszczenia:', ['wody azotanami', '*powietrza dwutlenkiem siarki', 'gleby metalami', 'hałasem'], 'Skala porostowa.'),
+], pp='VII')

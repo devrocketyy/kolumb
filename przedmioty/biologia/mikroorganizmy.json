@@ -1,0 +1,766 @@
+{
+ "id": "mikroorganizmy",
+ "nazwa": "Mikroorganizmy",
+ "opis": "Wirusy, bakterie i archeowce, protisty, grzyby i porosty.",
+ "poddzialy": [
+  {
+   "id": "b-wirusy",
+   "nazwa": "Wirusy",
+   "opis": "Wymaganie XII podstawy programowej.",
+   "wymaganie": "XII",
+   "fiszki": [
+    {
+     "id": "f20330b4a",
+     "przod": "Budowa wirusa",
+     "tyl": "Kwas nukleinowy (DNA lub RNA) otoczony białkowym kapsydem; niektóre mają osłonkę lipidową z glikoproteinami (np. HIV, grypa, SARS-CoV-2).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f75ea0061",
+     "przod": "Dlaczego wirusy nie są uznawane za organizmy?",
+     "tyl": "Nie mają budowy komórkowej ani własnego metabolizmu, nie rozmnażają się poza komórką gospodarza — są bezwzględnymi pasożytami wewnątrzkomórkowymi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "ff5c9f134",
+     "przod": "Cykl lityczny bakteriofaga",
+     "tyl": "Adsorpcja → wstrzyknięcie DNA → synteza kwasów nukleinowych i białek wirusa przez komórkę → składanie wirionów → liza komórki i uwolnienie nowych wirusów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "feae6feb2",
+     "przod": "Cykl lizogeniczny bakteriofaga",
+     "tyl": "DNA faga włącza się do chromosomu bakterii jako profag i replikuje się razem z nim; w sprzyjających warunkach może przejść w cykl lityczny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f8418bb7b",
+     "przod": "Wyjaśnij pojęcie: retrowirusy",
+     "tyl": "Wirusy RNA (np. HIV), które za pomocą odwrotnej transkryptazy przepisują swój RNA na DNA wbudowywane w genom gospodarza (prowirus).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f52c35c10",
+     "przod": "Dlaczego leczenie zakażeń wirusowych jest trudne?",
+     "tyl": "Wirusy namnażają się z użyciem maszynerii komórki gospodarza — trudno zahamować je bez uszkodzenia komórek; szybko mutują (zwłaszcza wirusy RNA); antybiotyki na nie nie działają.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "faba8a9ad",
+     "przod": "Dlaczego antybiotyki nie działają na wirusy?",
+     "tyl": "Działają na struktury i procesy bakterii (ściana, rybosomy 70S), których wirusy nie mają.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f31dbe289",
+     "przod": "Choroby wirusowe człowieka — przykłady",
+     "tyl": "Grypa, przeziębienie, COVID-19, ospa wietrzna, odra, świnka, różyczka, WZW A/B/C, AIDS, wścieklizna, HPV (brodawki, rak szyjki macicy), opryszczka, polio.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f0061969a",
+     "przod": "Drogi zakażenia wirusami",
+     "tyl": "Kropelkowa (grypa, odra), pokarmowa (WZW A, rotawirusy), przez krew i kontakty seksualne (HIV, WZW B/C), przez ukąszenia (wścieklizna, kleszczowe zapalenie mózgu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f50664916",
+     "przod": "Choroby wirusowe roślin",
+     "tyl": "Mozaika tytoniu, smugowatość ziemniaka — przenoszone często przez owady (mszyce); objawy: plamy, deformacje, zahamowanie wzrostu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f077290b4",
+     "przod": "Wyjaśnij pojęcie: wiroidy i priony",
+     "tyl": "Wiroidy — koliste cząsteczki RNA bez kapsydu (choroby roślin); priony — białka o nieprawidłowej konformacji wywołujące zmianę kształtu prawidłowych białek (BSE, choroba Creutzfeldta-Jakoba).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "ffbd4db19",
+     "przod": "Swoistość wirusów",
+     "tyl": "Wirus zakaża tylko komórki z odpowiednimi receptorami na powierzchni (np. HIV — limfocyty z CD4).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "ff97f3eb2",
+     "przod": "Znaczenie wirusów w biotechnologii",
+     "tyl": "Wektory w terapii genowej i szczepionkach, bakteriofagi w terapii fagowej (zakażenia bakteriami opornymi na antybiotyki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "fd02eb1e1",
+     "przod": "Rozpoznaj: Kwas nukleinowy (DNA lub RNA) otoczony białkowym kapsydem; niektóre mają osłonkę lipidową z glikoproteinami (np. HIV, grypa, SARS-CoV-2).",
+     "tyl": "Budowa wirusa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f299fe7a6",
+     "przod": "Rozpoznaj: Adsorpcja → wstrzyknięcie DNA → synteza kwasów nukleinowych i białek wirusa przez komórkę → składanie wirionów → liza komórki i uwolnienie nowych wirusów.",
+     "tyl": "Cykl lityczny bakteriofaga",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "feed80ce9",
+     "przod": "Podaj nazwę pojęcia: Wirusy RNA (np. HIV), które za pomocą odwrotnej transkryptazy przepisują swój RNA na DNA wbudowywane w genom gospodarza (prowirus).",
+     "tyl": "retrowirusy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f3758cdcf",
+     "przod": "Rozpoznaj: Grypa, przeziębienie, COVID-19, ospa wietrzna, odra, świnka, różyczka, WZW A/B/C, AIDS, wścieklizna, HPV (brodawki, rak szyjki macicy), opryszczka, polio.",
+     "tyl": "Choroby wirusowe człowieka — przykłady",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f259742b0",
+     "przod": "Rozpoznaj: Mozaika tytoniu, smugowatość ziemniaka — przenoszone często przez owady (mszyce); objawy: plamy, deformacje, zahamowanie wzrostu.",
+     "tyl": "Choroby wirusowe roślin",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p08439b80",
+     "pytanie": "Profag to:",
+     "odpowiedzi": [
+      "DNA faga wbudowane w chromosom bakterii",
+      "nowo powstały, dojrzały wirion faga",
+      "rodzaj rybosomu zakażonej bakterii",
+      "białkowy kapsyd otaczający DNA"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Cykl lizogeniczny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6e61d0ea",
+     "pytanie": "Odwrotną transkryptazę mają:",
+     "odpowiedzi": [
+      "wiroidy",
+      "wszystkie wirusy",
+      "retrowirusy",
+      "bakteriofagi DNA"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "RNA → DNA.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p52a6e349",
+     "pytanie": "Chorobą wirusową jest:",
+     "odpowiedzi": [
+      "gruźlica",
+      "borelioza",
+      "odra",
+      "tężec"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Pozostałe — bakteryjne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p30f5cf53",
+     "pytanie": "Priony są zbudowane z:",
+     "odpowiedzi": [
+      "lipidów",
+      "DNA",
+      "białka",
+      "RNA"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Nieprawidłowa konformacja.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-bakterie",
+   "nazwa": "Bakterie i archeowce",
+   "opis": "Wymaganie VI podstawy programowej.",
+   "wymaganie": "VI",
+   "fiszki": [
+    {
+     "id": "f653fa061",
+     "przod": "Budowa komórki bakterii",
+     "tyl": "Ściana komórkowa z mureiny (peptydoglikanu), błona komórkowa, cytoplazma z rybosomami 70S, nukleoid, plazmidy; często otoczka śluzowa, rzęski, fimbrie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f39e108b1",
+     "przod": "Formy morfologiczne bakterii",
+     "tyl": "Ziarniaki (paciorkowce, gronkowce, dwoinki), pałeczki, przecinkowce, śrubowce, krętki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "fdb98a101",
+     "przod": "Gram-dodatnie i Gram-ujemne",
+     "tyl": "G+ — gruba warstwa mureiny, barwią się na fioletowo; G− — cienka mureina i błona zewnętrzna, barwią się na różowo; różna wrażliwość na antybiotyki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f4feb1f0e",
+     "przod": "Sposoby odżywiania bakterii",
+     "tyl": "Autotrofy: fotoautotrofy (sinice, bakterie purpurowe), chemoautotrofy (nitryfikacyjne, siarkowe); heterotrofy: saprobionty, pasożyty, symbionty.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f8bfcc5e9",
+     "przod": "Wyjaśnij pojęcie: sinice (cyjanobakterie)",
+     "tyl": "Bakterie fotosyntezujące z chlorofilem a i fikobilinami, wydzielające tlen; niektóre wiążą azot w heterocystach; przodkowie chloroplastów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "fb91bd478",
+     "przod": "Oddychanie bakterii — typy",
+     "tyl": "Bezwzględne tlenowce, bezwzględne beztlenowce (np. laseczka tężca), względne beztlenowce (E. coli, drożdże wśród grzybów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f5f3b2a8f",
+     "przod": "Rozmnażanie bakterii",
+     "tyl": "Podział komórki (amitotycznie, poprzez replikację DNA i podział — w sprzyjających warunkach co ~20 min).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f2c8327d1",
+     "przod": "Sposoby wymiany informacji genetycznej u bakterii",
+     "tyl": "Koniugacja (przekazanie plazmidu przez pilus), transformacja (pobranie DNA z otoczenia), transdukcja (przeniesienie DNA przez bakteriofaga).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "fa5f29fc9",
+     "przod": "Wyjaśnij pojęcie: przetrwalniki (endospory)",
+     "tyl": "Formy spoczynkowe niektórych bakterii (np. laseczek) o grubej osłonie, odporne na wysoką temperaturę i wysychanie — nie służą rozmnażaniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f4023f753",
+     "przod": "Jak powstaje oporność bakterii na antybiotyki?",
+     "tyl": "Przez mutacje i przekazywanie genów oporności (plazmidy R) — nadużywanie antybiotyków selekcjonuje oporne szczepy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f8edbfc13",
+     "przod": "Choroby bakteryjne człowieka — przykłady",
+     "tyl": "Gruźlica, borelioza, tężec, salmonelloza, cholera, angina paciorkowcowa, krztusiec, kiła, rzeżączka, czerwonka, botulizm, dur brzuszny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f012e9845",
+     "przod": "Profilaktyka boreliozy",
+     "tyl": "Odpowiedni ubiór w lesie, repelenty, oglądanie skóry po spacerze i szybkie usuwanie kleszczy; brak szczepionki dla ludzi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f4b8a0c31",
+     "przod": "Znaczenie bakterii w przyrodzie",
+     "tyl": "Destruenci (obieg materii), wiązanie azotu, nitryfikacja i denitryfikacja, symbionty (flora jelitowa, przeżuwacze), producenci (sinice).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f29d6f8dc",
+     "przod": "Archeony — cechy",
+     "tyl": "Prokarionty bez mureiny w ścianie, z odmiennymi lipidami błon; często ekstremofile (halofile, termofile, metanogeny); pod względem niektórych procesów (transkrypcja) bliższe eukariontom.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f4eaaaa15",
+     "przod": "Wyjaśnij pojęcie: mikrobiom jelitowy",
+     "tyl": "Zespół mikroorganizmów przewodu pokarmowego — synteza witamin K i B, trawienie błonnika, ochrona przed patogenami, wpływ na odporność.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f7e988d31",
+     "przod": "Rozpoznaj: G+ — gruba warstwa mureiny, barwią się na fioletowo; G− — cienka mureina i błona zewnętrzna, barwią się na różowo; różna wrażliwość na antybiotyki.",
+     "tyl": "Gram-dodatnie i Gram-ujemne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f187ddaad",
+     "przod": "Podaj nazwę pojęcia: Bakterie fotosyntezujące z chlorofilem a i fikobilinami, wydzielające tlen; niektóre wiążą azot w heterocystach; przodkowie chloroplastów.",
+     "tyl": "sinice (cyjanobakterie)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "fd0f9928d",
+     "przod": "Rozpoznaj: Bezwzględne tlenowce, bezwzględne beztlenowce (np. laseczka tężca), względne beztlenowce (E. coli, drożdże wśród grzybów).",
+     "tyl": "Oddychanie bakterii — typy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f3e321a71",
+     "przod": "Rozpoznaj: Podział komórki (amitotycznie, poprzez replikację DNA i podział — w sprzyjających warunkach co ~20 min).",
+     "tyl": "Rozmnażanie bakterii",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f13e0e072",
+     "przod": "Podaj nazwę pojęcia: Formy spoczynkowe niektórych bakterii (np. laseczek) o grubej osłonie, odporne na wysoką temperaturę i wysychanie — nie służą rozmnażaniu.",
+     "tyl": "przetrwalniki (endospory)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f68bb13ca",
+     "przod": "Rozpoznaj: Gruźlica, borelioza, tężec, salmonelloza, cholera, angina paciorkowcowa, krztusiec, kiła, rzeżączka, czerwonka, botulizm, dur brzuszny.",
+     "tyl": "Choroby bakteryjne człowieka — przykłady",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f9bc78ebd",
+     "przod": "Rozpoznaj: Odpowiedni ubiór w lesie, repelenty, oglądanie skóry po spacerze i szybkie usuwanie kleszczy; brak szczepionki dla ludzi.",
+     "tyl": "Profilaktyka boreliozy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f28cbafb8",
+     "przod": "Rozpoznaj: Prokarionty bez mureiny w ścianie, z odmiennymi lipidami błon; często ekstremofile (halofile, termofile, metanogeny); pod względem niektórych procesów (transkrypcja) bliższe eukariontom.",
+     "tyl": "Archeony — cechy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "peb9836bc",
+     "pytanie": "Ściana komórkowa bakterii zbudowana jest z:",
+     "odpowiedzi": [
+      "mureiny",
+      "celulozy",
+      "pektyn",
+      "chityny"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Peptydoglikan.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf3e47c83",
+     "pytanie": "Przekazanie plazmidu przez pilus to:",
+     "odpowiedzi": [
+      "koniugacja",
+      "transdukcja",
+      "podział",
+      "transformacja"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Kontakt komórek.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc5948519",
+     "pytanie": "Chorobą bakteryjną jest:",
+     "odpowiedzi": [
+      "grypa",
+      "borelioza",
+      "ospa wietrzna",
+      "malaria"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Krętki przenoszone przez kleszcze.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5e083492",
+     "pytanie": "Przetrwalniki bakterii służą do:",
+     "odpowiedzi": [
+      "koniugacji z innymi bakteriami",
+      "szybkiego rozmnażania się",
+      "przetrwania niekorzystnych warunków",
+      "przeprowadzania fotosyntezy"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Endospory.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p873ecf20",
+     "pytanie": "Wydzielanie tlenu w fotosyntezie zachodzi u:",
+     "odpowiedzi": [
+      "archeonów metanogennych",
+      "bakterii purpurowych",
+      "sinic",
+      "bakterii nitryfikacyjnych"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Chlorofil a.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-protisty",
+   "nazwa": "Protisty",
+   "opis": "Wymaganie VIII podstawy programowej.",
+   "wymaganie": "VIII",
+   "fiszki": [
+    {
+     "id": "f6e71e192",
+     "przod": "Wyjaśnij pojęcie: protisty",
+     "tyl": "Eukarionty, które nie są roślinami, zwierzętami ani grzybami — głównie jednokomórkowe lub proste wielokomórkowe; grupa niejednorodna (parafiletyczna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f198d73c1",
+     "przod": "Podział protistów (tradycyjny)",
+     "tyl": "Protisty zwierzęce (pierwotniaki — heterotrofy), roślinopodobne (glony — fotoautotrofy), grzybopodobne (lęgniowce, śluzowce).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f5c123a38",
+     "przod": "Budowa pantofelka",
+     "tyl": "Pokryty rzęskami, ma makronukleus (funkcje życiowe) i mikronukleus (rozmnażanie płciowe), cytostom, wodniczki pokarmowe i tętniące, cytopyge.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f35c18bef",
+     "przod": "Jak porusza się ameba, eugliena i pantofelek?",
+     "tyl": "Ameba — nibynóżki (ruch pełzakowaty); eugliena — wić; pantofelek — rzęski.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f3490fbce",
+     "przod": "Wyjaśnij pojęcie: miksotrofizm euglieny",
+     "tyl": "Eugliena fotosyntezuje na świetle, a w ciemności odżywia się heterotroficznie — łączy oba sposoby.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "fc1e55777",
+     "przod": "Rola wodniczek tętniących",
+     "tyl": "Usuwanie nadmiaru wody z komórki pierwotniaków słodkowodnych (środowisko hipotoniczne) — osmoregulacja.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f25b2c8fa",
+     "przod": "Wyjaśnij pojęcie: koniugacja pantofelka",
+     "tyl": "Proces płciowy: dwa osobniki wymieniają się haploidalnymi jądrami powstałymi z mikronukleusów — rekombinacja bez zwiększenia liczby osobników.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "fb1ce857c",
+     "przod": "Cykl rozwojowy zarodźca malarii",
+     "tyl": "Żywiciel ostateczny — komar widliszek (rozmnażanie płciowe); pośredni — człowiek: sporozoity → wątroba → erytrocyty (rozmnażanie bezpłciowe, rozpad krwinek — napady gorączki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f9b97ca58",
+     "przod": "Dlaczego napady gorączki w malarii są cykliczne?",
+     "tyl": "Zarodźce w erytrocytach namnażają się synchronicznie i co 48 lub 72 h jednocześnie rozsadzają krwinki, uwalniając toksyny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f384d0739",
+     "przod": "Choroby wywoływane przez protisty",
+     "tyl": "Malaria (zarodziec), toksoplazmoza (toksoplazma — kot), czerwonka pełzakowa, rzęsistkowica, lamblioza, śpiączka afrykańska (świdrowiec — mucha tse-tse).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f3b4e923b",
+     "przod": "Profilaktyka toksoplazmozy w ciąży",
+     "tyl": "Unikanie surowego mięsa, mycie warzyw, ostrożność przy kontakcie z kocimi odchodami (rękawice), badanie przeciwciał.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f0ed43e16",
+     "przod": "Okrzemki — cechy i znaczenie",
+     "tyl": "Jednokomórkowe glony z krzemionkowym pancerzykiem; ważny składnik fitoplanktonu (produkcja tlenu, podstawa łańcuchów pokarmowych); ziemia okrzemkowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f39c29ef4",
+     "przod": "Bruzdnice (tobołki) — znaczenie",
+     "tyl": "Glony planktonowe z dwiema wiciami; niektóre wywołują toksyczne zakwity („czerwone przypływy”), inne są symbiontami koralowców.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f7f29f5c5",
+     "przod": "Brunatnice i krasnorosty — cechy",
+     "tyl": "Wielokomórkowe glony morskie; brunatnice (np. listownica, morszczyn) — duże plechy, fukoksantyna; krasnorosty — fikoerytryna, głębsze wody; źródło alginianów i agaru.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f533813ba",
+     "przod": "Zielenice — znaczenie ewolucyjne",
+     "tyl": "Glony z chlorofilem a i b oraz skrobią — jak rośliny lądowe; z nich (ramienice) wywodzą się rośliny lądowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f0adbe7f0",
+     "przod": "Wyjaśnij pojęcie: przemiana pokoleń u glonów (np. sałaty morskiej)",
+     "tyl": "Gametofit i sporofit są podobne (izomorficzna przemiana pokoleń), oba wielokomórkowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f8452f39a",
+     "przod": "Podaj nazwę pojęcia: Eukarionty, które nie są roślinami, zwierzętami ani grzybami — głównie jednokomórkowe lub proste wielokomórkowe; grupa niejednorodna (parafiletyczna).",
+     "tyl": "protisty",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f186ab220",
+     "przod": "Rozpoznaj: Pokryty rzęskami, ma makronukleus (funkcje życiowe) i mikronukleus (rozmnażanie płciowe), cytostom, wodniczki pokarmowe i tętniące, cytopyge.",
+     "tyl": "Budowa pantofelka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f5e4c9e70",
+     "przod": "Podaj nazwę pojęcia: Proces płciowy: dwa osobniki wymieniają się haploidalnymi jądrami powstałymi z mikronukleusów — rekombinacja bez zwiększenia liczby osobników.",
+     "tyl": "koniugacja pantofelka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f2d909938",
+     "przod": "Rozpoznaj: Żywiciel ostateczny — komar widliszek (rozmnażanie płciowe); pośredni — człowiek: sporozoity → wątroba → erytrocyty (rozmnażanie bezpłciowe, rozpad krwinek — napady gorączki).",
+     "tyl": "Cykl rozwojowy zarodźca malarii",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "fa23651d3",
+     "przod": "Rozpoznaj: Malaria (zarodziec), toksoplazmoza (toksoplazma — kot), czerwonka pełzakowa, rzęsistkowica, lamblioza, śpiączka afrykańska (świdrowiec — mucha tse-tse).",
+     "tyl": "Choroby wywoływane przez protisty",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "fe01adfa5",
+     "przod": "Rozpoznaj: Unikanie surowego mięsa, mycie warzyw, ostrożność przy kontakcie z kocimi odchodami (rękawice), badanie przeciwciał.",
+     "tyl": "Profilaktyka toksoplazmozy w ciąży",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "fd45f0fb4",
+     "przod": "Rozpoznaj: Glony planktonowe z dwiema wiciami; niektóre wywołują toksyczne zakwity („czerwone przypływy”), inne są symbiontami koralowców.",
+     "tyl": "Bruzdnice (tobołki) — znaczenie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f94a94537",
+     "przod": "Rozpoznaj: Glony z chlorofilem a i b oraz skrobią — jak rośliny lądowe; z nich (ramienice) wywodzą się rośliny lądowe.",
+     "tyl": "Zielenice — znaczenie ewolucyjne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p0390a55e",
+     "pytanie": "Żywicielem ostatecznym zarodźca malarii jest:",
+     "odpowiedzi": [
+      "człowiek",
+      "mucha tse-tse",
+      "kot",
+      "komar widliszek"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Rozmnażanie płciowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p86d5a94e",
+     "pytanie": "Toksoplazmozą człowiek może się zarazić przez kontakt z odchodami:",
+     "odpowiedzi": [
+      "ryb",
+      "ptaków",
+      "kota",
+      "psa"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Żywiciel ostateczny — kot.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb7f11e2b",
+     "pytanie": "Wodniczki tętniące występują u pierwotniaków:",
+     "odpowiedzi": [
+      "morskich",
+      "pasożytniczych we krwi",
+      "słodkowodnych",
+      "wszystkich jednakowo"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Hipotoniczne środowisko.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p693c5a4a",
+     "pytanie": "Pancerzyk krzemionkowy mają:",
+     "odpowiedzi": [
+      "zielenice",
+      "bruzdnice",
+      "okrzemki",
+      "krasnorosty"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Fitoplankton.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-grzyby",
+   "nazwa": "Grzyby i porosty",
+   "opis": "Wymaganie VII podstawy programowej.",
+   "wymaganie": "VII",
+   "fiszki": [
+    {
+     "id": "fa5d92444",
+     "przod": "Cechy grzybów",
+     "tyl": "Eukarionty, heterotrofy (wchłanianie pokarmu po trawieniu zewnętrznym), ściana komórkowa z chityny, materiał zapasowy — glikogen, ciało — grzybnia ze strzępek (lub pojedyncze komórki — drożdże).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "fe55c0c9b",
+     "przod": "Wyjaśnij pojęcie: strzępka i grzybnia",
+     "tyl": "Strzępka — nitkowata struktura (komórkowa lub komórczakowa); grzybnia — splot strzępek tworzący ciało grzyba.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "f50d975e4",
+     "przod": "Wyjaśnij pojęcie: owocnik",
+     "tyl": "Zbita grzybnia tworząca struktury wytwarzające zarodniki (np. kapelusz z trzonem u podstawczaków).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "fd7fc1d04",
+     "przod": "Sposoby rozmnażania grzybów",
+     "tyl": "Bezpłciowo: zarodniki (konidia, sporangiospory), pączkowanie (drożdże), fragmentacja grzybni; płciowo: łączenie strzępek lub gamet, zarodniki płciowe (workowe, podstawkowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "f228b95c8",
+     "przod": "Grzyby workowe — przykłady",
+     "tyl": "Drożdże, pędzlak, kropidlak, smardze, trufle, sporysz; zarodniki płciowe w workach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "f67abb226",
+     "przod": "Grzyby podstawkowe — przykłady",
+     "tyl": "Pieczarka, borowik, muchomor, maślak, rdze, głownie; zarodniki płciowe na podstawkach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "ffcd24454",
+     "przod": "Sposoby odżywiania grzybów",
+     "tyl": "Saprotrofy (rozkład martwej materii), pasożyty (roślin, zwierząt, człowieka), symbionty (mikoryza, porosty).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "f1fe2ba8d",
+     "przod": "Wyjaśnij pojęcie: porost",
+     "tyl": "Organizm złożony — symbioza grzyba (mykobiont) z glonem lub sinicą (fotobiont): grzyb daje wodę, sole i ochronę, fotobiont — związki organiczne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "f77031753",
+     "przod": "Porosty jako bioindykatory",
+     "tyl": "Są wrażliwe na zanieczyszczenie powietrza (głównie SO₂) — skala porostowa pozwala ocenić czystość powietrza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "f8171e9a1",
+     "przod": "Znaczenie grzybów w przyrodzie",
+     "tyl": "Destruenci (rozkład celulozy i ligniny), mikoryza (pobieranie wody i soli przez rośliny), pionierzy (porosty).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "f0dfec849",
+     "przod": "Znaczenie gospodarcze grzybów",
+     "tyl": "Pieczywo, piwo, wino (drożdże), sery pleśniowe, antybiotyki (penicylina), kwas cytrynowy (kropidlak), grzyby jadalne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "fae22d295",
+     "przod": "Choroby wywoływane przez grzyby",
+     "tyl": "Grzybice skóry i paznokci, drożdżyca (kandydoza), aspergiloza; u roślin — sporysz, rdze, mączniaki, zaraza ziemniaka (lęgniowiec — protist grzybopodobny).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "f8263da35",
+     "przod": "Wyjaśnij pojęcie: mykotoksyny",
+     "tyl": "Toksyny grzybów — np. aflatoksyny (kropidlak, rakotwórcze), alkaloidy sporyszu, amanityna (muchomor sromotnikowy — uszkadza wątrobę).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "f6d7d703f",
+     "przod": "Podaj nazwę pojęcia: Zbita grzybnia tworząca struktury wytwarzające zarodniki (np. kapelusz z trzonem u podstawczaków).",
+     "tyl": "owocnik",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "fa27955c4",
+     "przod": "Rozpoznaj: Drożdże, pędzlak, kropidlak, smardze, trufle, sporysz; zarodniki płciowe w workach.",
+     "tyl": "Grzyby workowe — przykłady",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "f537b7e42",
+     "przod": "Rozpoznaj: Saprotrofy (rozkład martwej materii), pasożyty (roślin, zwierząt, człowieka), symbionty (mikoryza, porosty).",
+     "tyl": "Sposoby odżywiania grzybów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "fb2cea734",
+     "przod": "Podaj nazwę pojęcia: Organizm złożony — symbioza grzyba (mykobiont) z glonem lub sinicą (fotobiont): grzyb daje wodę, sole i ochronę, fotobiont — związki organiczne.",
+     "tyl": "porost",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "f66992090",
+     "przod": "Podaj nazwę pojęcia: Toksyny grzybów — np. aflatoksyny (kropidlak, rakotwórcze), alkaloidy sporyszu, amanityna (muchomor sromotnikowy — uszkadza wątrobę).",
+     "tyl": "mykotoksyny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p27a86f91",
+     "pytanie": "Ściana komórkowa grzybów zbudowana jest z:",
+     "odpowiedzi": [
+      "krzemionki",
+      "mureiny",
+      "chityny",
+      "celulozy"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Jak u stawonogów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3f482d8b",
+     "pytanie": "Porost to symbioza grzyba z:",
+     "odpowiedzi": [
+      "rośliną nasienną",
+      "bakterią brodawkową",
+      "glonem lub sinicą",
+      "pierwotniakiem"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Fotobiont.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0614788b",
+     "pytanie": "Materiałem zapasowym grzybów jest:",
+     "odpowiedzi": [
+      "glikogen",
+      "skrobia",
+      "sacharoza",
+      "celuloza"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Jak u zwierząt.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p486e4244",
+     "pytanie": "Porosty są bioindykatorami zanieczyszczenia:",
+     "odpowiedzi": [
+      "hałasem",
+      "gleby metalami",
+      "powietrza dwutlenkiem siarki",
+      "wody azotanami"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Skala porostowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
