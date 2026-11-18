@@ -1,0 +1,465 @@
+{
+ "dzial": "rosliny",
+ "wiazki": [
+  {
+   "tytul": "Szparki a pora dnia",
+   "material": "Tabela (autorska). Średnia szerokość szparek liścia fasoli (µm): 6:00 — 2; 10:00 — 8; 14:00 (upał, susza) — 3; 18:00 — 6; 24:00 — 1.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego o 14:00 szparki były przymknięte.",
+     "odpowiedz": "Przy wysokiej temperaturze i niedoborze wody roślina traci turgor; wzrasta poziom kwasu abscysynowego i komórki szparkowe tracą wodę — szparki się zamykają, ograniczając transpirację.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden negatywny skutek zamknięcia szparek dla fotosyntezy.",
+     "odpowiedz": "Ograniczony dopływ CO₂ do liścia — spada intensywność fotosyntezy (i nasila się fotooddychanie).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij mechanizm otwierania szparek rano.",
+     "odpowiedz": "Światło pobudza pompę protonową; jony K⁺ napływają do komórek szparkowych, obniżając potencjał wody — woda napływa osmotycznie, turgor rośnie, a nierównomiernie zgrubiałe ściany powodują rozchylenie szparki.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-rosliny-01",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Transpiracja i ruch wody",
+   "material": "Doświadczenie (autorskie). Gałązki tej samej rośliny umieszczono w potometrze w trzech warunkach: A — powietrze nieruchome, 20°C; B — wiatr z wentylatora, 20°C; C — powietrze nieruchome, 20°C, wysoka wilgotność (pod kloszem). Pobór wody w ciągu godziny: A — 0,8 cm³; B — 1,6 cm³; C — 0,2 cm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij różnicę wyników prób B i A.",
+     "odpowiedz": "Wiatr usuwa parę wodną z okolicy szparek, zwiększając różnicę stężeń pary między liściem a powietrzem — transpiracja, a więc i pobór wody, rośnie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij wynik próby C.",
+     "odpowiedz": "Wysoka wilgotność powietrza zmniejsza gradient pary wodnej między przestworami liścia a otoczeniem — transpiracja jest słaba.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, dlaczego potometr mierzy pobór wody, a nie wprost transpirację.",
+     "odpowiedz": "Część pobranej wody zostaje zużyta w komórkach (np. fotosynteza, wzrost), więc pobór nie jest dokładnie równy ilości wody wyparowanej.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-rosliny-02",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Parcie korzeniowe",
+   "material": "Obserwacja (autorska). Wiosną po ścięciu pędu pomidora tuż nad ziemią z kikuta przez wiele godzin wypływa sok. Wczesnym rankiem na brzegach liści truskawki widać krople wody (gutacja).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę zjawiska odpowiedzialnego za wypływ soku z kikuta.",
+     "odpowiedz": "Parcie korzeniowe.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego gutacja zachodzi głównie nocą lub rano przy wilgotnym powietrzu.",
+     "odpowiedz": "Przy zamkniętych szparkach i wilgotnym powietrzu transpiracja jest słaba, a parcie korzeniowe nadal wtłacza wodę do drewna — nadmiar wody jest wydzielany w postaci kropli przez hydatody.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rosliny-03",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Obrączkowanie",
+   "material": "Doświadczenie (autorskie). Z pnia młodej jabłoni usunięto pierścień kory wraz z łykiem (obrączkowanie), pozostawiając drewno nienaruszone. Po kilku tygodniach nad obrączką pień wyraźnie się zgrubił, liście nie więdły, a po dłuższym czasie korzenie zaczęły zamierać.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego liście nie więdły.",
+     "odpowiedz": "Drewno pozostało nienaruszone, więc woda z solami mineralnymi była nadal transportowana z korzeni do liści.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij zgrubienie pnia nad obrączką i zamieranie korzeni.",
+     "odpowiedz": "Asymilaty transportowane łykiem z liści w dół gromadziły się nad obrączką (zgrubienie), a korzenie — pozbawione dopływu cukrów — wyczerpały zapasy i obumierały, bo same nie fotosyntezują.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "2 pkt: oba zjawiska powiązane z przerwaniem łyka.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rosliny-04",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Brodawki korzeniowe",
+   "material": "Doświadczenie (autorskie). Koniczynę uprawiano na jałowym podłożu bez związków azotu: A — z dodatkiem bakterii Rhizobium; B — bez bakterii; C — bez bakterii, z dodatkiem azotanów. Po 6 tygodniach rośliny A i C były zielone i duże, rośliny B — małe i żółknące.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj problem badawczy doświadczenia.",
+     "odpowiedz": "Czy bakterie brodawkowe wpływają na wzrost koniczyny na podłożu ubogim w azot?",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego rośliny z próby B żółkły.",
+     "odpowiedz": "Bez bakterii i bez azotanów nie miały źródła azotu do syntezy chlorofilu i białek — wystąpiła chloroza i zahamowanie wzrostu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ, jaką rolę w doświadczeniu odgrywa próba C.",
+     "odpowiedz": "Pokazuje, że objawy w próbie B wynikają z braku azotu (dostarczenie azotu w innej formie znosi je), a nie z innej przyczyny.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-rosliny-05",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Rośliny C4 i C3 w upale",
+   "material": "Wykres (opis, autorski). Intensywność fotosyntezy kukurydzy (C4) i pszenicy (C3) w zależności od temperatury: pszenica osiąga maksimum przy ok. 25°C, kukurydza przy ok. 35°C; w 40°C kukurydza fotosyntezuje ponad dwukrotnie intensywniej.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego w wysokiej temperaturze kukurydza fotosyntezuje wydajniej niż pszenica.",
+     "odpowiedz": "W upale szparki się przymykają i u roślin C3 nasila się fotooddychanie (RuBisCO wiąże O₂); u kukurydzy karboksylaza PEP wiąże CO₂ nawet przy jego niskim stężeniu i zagęszcza go w komórkach pochwy okołowiązkowej — fotooddychanie praktycznie nie zachodzi.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "1 pkt — fotooddychanie u C3; 1 pkt — mechanizm zagęszczania CO₂ u C4.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-rosliny-06",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Cykl paproci",
+   "material": "Schemat (opis, autorski). Liść paproci z kupkami zarodni → zarodniki → przedrośle z rodniami i plemniami → zygota → młoda paproć.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, które z wymienionych struktur są haploidalne.",
+     "odpowiedz": "Zarodniki, przedrośle (z rodniami i plemniami) oraz gamety.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego paprocie są uzależnione od wody w środowisku.",
+     "odpowiedz": "Plemniki mają wici i do zapłodnienia muszą dopłynąć do komórki jajowej w rodni w wodzie (np. kropli rosy).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy w zarodniach paproci zachodzi mitoza czy mejoza. Uzasadnij.",
+     "odpowiedz": "Mejoza — z komórek diploidalnego sporofitu powstają haploidalne zarodniki.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-rosliny-07",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Podwójne zapłodnienie",
+   "material": "Tekst (autorski). U okrytonasiennych łagiewka pyłkowa wnika do woreczka zalążkowego, gdzie uwalnia dwie komórki plemnikowe.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj, z jakimi komórkami woreczka łączą się obie komórki plemnikowe, i określ ploidalność powstałych struktur.",
+     "odpowiedz": "Jedna z komórką jajową — zygota (2n); druga z komórką centralną (dwa jądra biegunowe) — bielmo wtórne (3n).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Po 1 pkt za każdą parę.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, z której części kwiatu powstaje owoc, a z której nasienie.",
+     "odpowiedz": "Owoc — z zalążni słupka; nasienie — z zalążka.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rosliny-08",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Kwiaty a zapylanie",
+   "material": "Opis (autorski). Kwiat A: biały, pachnący nocą, z długą rurką korony i nektarem na jej dnie. Kwiat B: drobny, zielonkawy, bez zapachu, z długimi pręcikami i pierzastym znamieniem.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ sposób zapylania kwiatów A i B.",
+     "odpowiedz": "A — zapylany przez zwierzęta (owady nocne, np. ćmy o długiej ssawce); B — wiatropylny.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij znaczenie pierzastego znamienia w kwiecie B.",
+     "odpowiedz": "Duża powierzchnia znamienia zwiększa szansę wychwycenia z powietrza ziaren pyłku przenoszonych przez wiatr.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rosliny-09",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Rozsiewanie owoców",
+   "material": "Opis (autorski). Owoce czterech roślin: mniszek — niełupka z puchem; łopian — koszyczek z haczykowatymi łuskami; czereśnia — soczysty, czerwony pestkowiec; niecierpek — torebka pękająca gwałtownie po dotknięciu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Przyporządkuj każdej roślinie sposób rozsiewania nasion lub owoców.",
+     "odpowiedz": "Mniszek — wiatr (anemochoria); łopian — zwierzęta, zewnętrznie (przyczepianie do sierści); czereśnia — zwierzęta zjadające owoce; niecierpek — samorozsiewanie (autochoria).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "2 pkt — 4 poprawne; 1 pkt — 3 poprawne.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-rosliny-10",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Kiełkowanie nasion",
+   "material": "Doświadczenie (autorskie). Nasiona grochu umieszczono w czterech zestawach: 1 — wilgotna wata, 20°C; 2 — sucha wata, 20°C; 3 — wilgotna wata, 4°C; 4 — nasiona całkowicie zalane przegotowaną (odtlenioną) wodą, 20°C. Po 5 dniach kiełkowały tylko nasiona z zestawu 1.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj trzy czynniki, których wpływ zbadano w doświadczeniu.",
+     "odpowiedz": "Woda, temperatura i dostęp tlenu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego nasiona w zestawie 4 nie kiełkowały mimo dostępu wody.",
+     "odpowiedz": "Przegotowana woda nie zawiera tlenu — zarodek nie mógł oddychać tlenowo i uzyskać dość ATP do wzrostu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż zestaw kontrolny doświadczenia.",
+     "odpowiedz": "Zestaw 1 — wszystkie warunki sprzyjające kiełkowaniu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-rosliny-11",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Siewka w ciemności",
+   "material": "Doświadczenie (autorskie). Siewki fasoli hodowano 10 dni w ciemności i 10 dni na świetle. Siewki z ciemności były dwukrotnie wyższe, blade, o drobnych liściach; ich sucha masa była mniejsza niż masa nasion przed wysiewem.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę zjawiska obserwowanego u siewek z ciemności.",
+     "odpowiedz": "Etiolacja.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego sucha masa siewek z ciemności była mniejsza niż masa nasion.",
+     "odpowiedz": "Siewki nie fotosyntezowały, a materiał zapasowy nasion był zużywany w oddychaniu (wydalany jako CO₂).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij znaczenie adaptacyjne silnego wydłużania pędu w ciemności.",
+     "odpowiedz": "Zwiększa szansę, że siewka przebije się przez glebę lub zacienienie do światła, zanim wyczerpie zapasy.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-rosliny-12",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Fototropizm koleoptyli",
+   "material": "Doświadczenie (autorskie). Koleoptyle owsa oświetlano z boku: A — nienaruszone; B — z odciętym wierzchołkiem; C — z wierzchołkiem przykrytym nieprzezroczystym kapturkiem; D — z wierzchołkiem przykrytym przezroczystym kapturkiem. Wygięły się ku światłu tylko koleoptyle A i D.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj wniosek z doświadczenia.",
+     "odpowiedz": "Bodziec świetlny odbierany jest przez wierzchołek koleoptyla — bez niego (lub gdy nie dociera do niego światło) nie zachodzi fototropizm.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, czemu służyła próba D.",
+     "odpowiedz": "Wyklucza, że sam fakt nałożenia kapturka (np. ucisk, mechaniczne uszkodzenie) hamował reakcję — liczy się brak światła.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij mechanizm wyginania się koleoptyla ku światłu.",
+     "odpowiedz": "Auksyny przemieszczają się na stronę zacienioną, gdzie komórki wydłużają się szybciej — koleoptyl wygina się w stronę światła.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-rosliny-13",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Etylen w przechowalni",
+   "material": "Tekst (autorski). Banany zrywa się zielone, a przed sprzedażą umieszcza w komorach z etylenem. Jabłka przechowuje się w chłodniach z niskim stężeniem tlenu, z których usuwa się etylen.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego z chłodni usuwa się etylen.",
+     "odpowiedz": "Etylen (wydzielany także przez same owoce) przyspiesza dojrzewanie i starzenie owoców — jego usuwanie wydłuża czas przechowywania.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego niskie stężenie tlenu w chłodni przedłuża trwałość jabłek.",
+     "odpowiedz": "Ogranicza oddychanie komórkowe owoców, a więc zużywanie cukrów i procesy dojrzewania.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rosliny-14",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Geotropizm korzenia",
+   "material": "Doświadczenie (autorskie). Siewki kukurydzy ułożono poziomo w ciemności: A — z nienaruszonym korzeniem; B — z usuniętą czapeczką korzenia. Po dobie korzenie A wygięły się w dół, a korzenie B rosły dalej poziomo.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj wniosek z doświadczenia.",
+     "odpowiedz": "Czapeczka korzenia odbiera bodziec grawitacyjny — jest niezbędna do geotropizmu dodatniego korzenia.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego doświadczenie prowadzono w ciemności.",
+     "odpowiedz": "Aby wykluczyć wpływ światła (fototropizmu) na kierunek wzrostu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego gromadzenie auksyn po dolnej stronie korzenia powoduje wygięcie w dół.",
+     "odpowiedz": "Korzeń jest bardzo wrażliwy na auksyny — ich wysokie stężenie hamuje wydłużanie komórek po stronie dolnej, a górna rośnie szybciej.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-rosliny-15",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Rozmnażanie wegetatywne ziemniaka",
+   "material": "Tekst (autorski). Ziemniaki uprawia się z bulw. Po latach takiej uprawy odmiana może „wyradzać się” wskutek gromadzenia się wirusów.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedną zaletę uprawy ziemniaka z bulw.",
+     "odpowiedz": "Uzyskuje się rośliny genetycznie identyczne, o cechach odmiany — szybciej niż z nasion.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego wirusy kumulują się w kolejnych pokoleniach.",
+     "odpowiedz": "Bulwy są częściami zakażonej rośliny — wirusy przechodzą do nowych osobników, bo nie ma etapu (nasienia), który by je eliminował.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj metodę uzyskiwania zdrowego materiału.",
+     "odpowiedz": "Kultury tkankowe z merystemu wierzchołkowego (wolnego od wirusów).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-rosliny-16",
+   "dzial": "rosliny"
+  }
+ ]
+}
