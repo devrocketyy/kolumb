@@ -39,3 +39,9 @@ Treści są pisane na podstawie wymagań egzaminacyjnych 2027, informatora i spr
 - [ ] Przykład „zawłotnia” (mejoza zygotyczna) — czy nazwa jest zrozumiała, ew. zamienić na „chlamydomonas”.
 - [ ] Bank13 „Hemofilia w rodzinie” — sprawdzić rachunek prawdopodobieństwa i sformułowania (wśród synów vs wśród wszystkich dzieci).
 - [ ] Kod genetyczny: w zadaniach używam fragmentów tabeli — porównać z tabelą w „Wybranych wzorach” CKE.
+
+## Biotechnologia, mikroorganizmy, zwierzęta, ewolucja i ekologia (tresci15–17, bank14)
+- [ ] Liczba parków narodowych (23) — aktualność.
+- [ ] Hierarchia jednostek systematycznych (typ/gromada u roślin) — sprawdzić konwencję podręcznika.
+- [ ] Rodzaje zależności międzygatunkowych (protokooperacja vs mutualizm fakultatywny) — terminologia CKE.
+- [ ] Zadania autorskie w działach biotechnologia, mikroorganizmy, zwierzęta, ewolucja — na razie ok. 20 wiązek, rozbudować.

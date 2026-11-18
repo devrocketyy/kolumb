@@ -1,0 +1,231 @@
+{
+ "dzial": "ewolucja-ekologia",
+ "wiazki": [
+  {
+   "tytul": "Hardy-Weinberg",
+   "material": "Dane (autorskie). W populacji ludzi 16% osób nie ma zdolności zwijania języka (cecha recesywna, aa).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Oblicz częstości alleli A i a oraz odsetek heterozygot.",
+     "odpowiedz": "q² = 0,16 → q = 0,4; p = 0,6; 2pq = 2 × 0,6 × 0,4 = 0,48 (48%).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "1 pkt — częstości alleli; 1 pkt — heterozygoty.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj dwa warunki, które muszą być spełnione, aby te częstości były stałe w kolejnych pokoleniach.",
+     "odpowiedz": "Np. duża populacja, losowe kojarzenie, brak mutacji, brak doboru, brak migracji.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ewolucja-ekologia-01",
+   "dzial": "ewolucja-ekologia"
+  },
+  {
+   "tytul": "Zięby Darwina",
+   "material": "Opis (autorski). Na wyspach Galapagos żyje kilkanaście gatunków zięb pochodzących od wspólnego przodka z kontynentu; różnią się kształtem dziobów dostosowanym do pokarmu (nasiona, owady, kaktusy).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę zjawiska ewolucyjnego.",
+     "odpowiedz": "Radiacja adaptatywna (dywergencja).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, jak doszło do powstania wielu gatunków.",
+     "odpowiedz": "Populacje na różnych wyspach były izolowane geograficznie i poddane różnym presjom doboru (różny pokarm); kumulowały się różnice genetyczne aż do izolacji rozrodczej — specjacja allopatryczna.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ewolucja-ekologia-02",
+   "dzial": "ewolucja-ekologia"
+  },
+  {
+   "tytul": "Gepardy",
+   "material": "Tekst (autorski). Gepardy są genetycznie tak podobne, że przeszczepy skóry między niespokrewnionymi osobnikami nie są odrzucane. Uważa się, że ok. 10 tys. lat temu przeżyło ich bardzo niewiele.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę zjawiska, które doprowadziło do niskiej zmienności.",
+     "odpowiedz": "Efekt wąskiego gardła.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego niska zmienność genetyczna zagraża gatunkowi.",
+     "odpowiedz": "Populacja ma ograniczoną zdolność adaptacji do zmian środowiska i nowych chorób; częściej ujawniają się szkodliwe allele recesywne.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ewolucja-ekologia-03",
+   "dzial": "ewolucja-ekologia"
+  },
+  {
+   "tytul": "Nisze ptaków brodzących",
+   "material": "Opis (autorski). Na tej samej plaży żerują trzy gatunki ptaków brodzących o różnej długości dziobów: krótki (zbiera z powierzchni), średni (do 3 cm w głąb mułu), długi (do 10 cm).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego te gatunki mogą współistnieć na jednym obszarze.",
+     "odpowiedz": "Zajmują różne nisze ekologiczne (żerują na różnej głębokości, zdobywają inne ofiary) — ograniczona konkurencja międzygatunkowa.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę zasady ekologicznej, której ilustracją jest ten przykład.",
+     "odpowiedz": "Zasada konkurencyjnego wykluczania (Gausego) — rozdzielenie nisz.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ewolucja-ekologia-04",
+   "dzial": "ewolucja-ekologia"
+  },
+  {
+   "tytul": "Zając i ryś",
+   "material": "Wykres (opis, autorski). Liczebność zająca bielaka i rysia w Kanadzie zmieniała się cyklicznie co ok. 10 lat; maksima liczebności rysia występowały 1–2 lata po maksimach zająca.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przesunięcie maksimów liczebności.",
+     "odpowiedz": "Wzrost liczby zajęcy zapewnia rysiom więcej pokarmu — ich rozrodczość rośnie z opóźnieniem; większa liczba rysi zmniejsza liczebność zajęcy, a brak pokarmu następnie ogranicza populację rysi.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden czynnik inny niż drapieżnictwo, który może ograniczać liczebność zająca.",
+     "odpowiedz": "Ilość pokarmu roślinnego / choroby / pasożyty / warunki pogodowe.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ewolucja-ekologia-05",
+   "dzial": "ewolucja-ekologia"
+  },
+  {
+   "tytul": "Przepływ energii",
+   "material": "Dane (autorskie). W ekosystemie jeziora: produkcja pierwotna netto fitoplanktonu — 10 000 kJ/m²/rok; zooplankton — 1 000; ryby planktonożerne — 100; szczupak — 10.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz efektywność przejścia energii między kolejnymi poziomami.",
+     "odpowiedz": "10%.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, gdzie tracona jest energia między poziomami troficznymi.",
+     "odpowiedz": "Większość energii zużywana jest w oddychaniu komórkowym (rozpraszana jako ciepło), część pozostaje w niezjedzonych i niestrawionych szczątkach (trafia do destruentów).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego stężenie rtęci jest najwyższe w mięśniach szczupaka.",
+     "odpowiedz": "Rtęć nie jest rozkładana ani wydalana — kumuluje się w organizmach i jej stężenie rośnie na kolejnych poziomach troficznych (biomagnifikacja).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-ewolucja-ekologia-06",
+   "dzial": "ewolucja-ekologia"
+  },
+  {
+   "tytul": "Eutrofizacja jeziora",
+   "material": "Opis (autorski). Do jeziora przez kilka lat spływały nawozy z pól. Latem woda zrobiła się zielona i mętna, a pod koniec lata ryby masowo śniły.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przyczynę śnięcia ryb.",
+     "odpowiedz": "Związki azotu i fosforu z nawozów spowodowały masowy rozwój glonów (zakwit); po obumarciu glonów ich rozkład przez bakterie tlenowe zużył tlen w wodzie — przyducha.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden sposób ograniczenia eutrofizacji.",
+     "odpowiedz": "Pasy zadrzewień/strefy buforowe wokół jezior / ograniczenie nawożenia / oczyszczalnie ścieków usuwające fosfor i azot.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ewolucja-ekologia-07",
+   "dzial": "ewolucja-ekologia"
+  },
+  {
+   "tytul": "Obieg azotu",
+   "material": "Schemat (opis, autorski). N₂ → (proces 1) → NH₄⁺; białka martwych organizmów → (proces 2) → NH₄⁺ → (proces 3) → NO₃⁻ → (proces 4) → N₂.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Nazwij procesy 1–4 i wskaż organizmy przeprowadzające proces 1 i 3.",
+     "odpowiedz": "1 — wiązanie azotu (bakterie brodawkowe, sinice); 2 — amonifikacja; 3 — nitryfikacja (bakterie nitryfikacyjne); 4 — denitryfikacja.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ewolucja-ekologia-08",
+   "dzial": "ewolucja-ekologia"
+  },
+  {
+   "tytul": "Barszcz Sosnowskiego",
+   "material": "Tekst (autorski). Barszcz Sosnowskiego sprowadzono do Polski jako roślinę paszową. Obecnie tworzy rozległe łany wzdłuż rzek i dróg, wypierając rodzime rośliny.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę grupy gatunków, do której należy barszcz Sosnowskiego.",
+     "odpowiedz": "Gatunki inwazyjne (obce inwazyjne).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Podaj jedną cechę gatunków inwazyjnych ułatwiającą ich rozprzestrzenianie.",
+     "odpowiedz": "Duża rozrodczość / szybki wzrost / brak naturalnych wrogów i konkurentów w nowym środowisku / szeroki zakres tolerancji.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ewolucja-ekologia-09",
+   "dzial": "ewolucja-ekologia"
+  }
+ ]
+}

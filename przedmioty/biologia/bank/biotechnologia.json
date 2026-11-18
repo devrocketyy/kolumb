@@ -1,0 +1,138 @@
+{
+ "dzial": "biotechnologia",
+ "wiazki": [
+  {
+   "tytul": "Ustalanie ojcostwa",
+   "material": "Wynik elektroforezy (opis, autorski). Prążki DNA (fragmenty STR): matka — 1, 3, 5, 7; dziecko — 1, 4, 5, 8; mężczyzna X — 2, 4, 6, 8; mężczyzna Y — 2, 4, 6, 9.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, który mężczyzna może być ojcem dziecka. Uzasadnij.",
+     "odpowiedz": "Mężczyzna X — prążki dziecka niepochodzące od matki (4 i 8) występują tylko u niego; Y nie ma prążka 8.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego krótsze fragmenty DNA wędrują w żelu dalej.",
+     "odpowiedz": "Łatwiej przemieszczają się przez pory żelu (mniejszy opór), a wszystkie fragmenty mają podobny ładunek na jednostkę długości.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-biotechnologia-01",
+   "dzial": "biotechnologia"
+  },
+  {
+   "tytul": "Insulina z bakterii",
+   "material": "Schemat (opis, autorski). Etapy: 1 — z komórek trzustki izoluje się mRNA insuliny; 2 — odwrotna transkryptaza tworzy cDNA; 3 — cDNA i plazmid tnie się tą samą restryktazą; 4 — łączy się je ligazą; 5 — plazmid wprowadza się do bakterii; 6 — bakterie wysiewa się na pożywkę z ampicyliną.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w etapie 3 używa się tej samej restryktazy.",
+     "odpowiedz": "Powstają komplementarne lepkie końce, które umożliwiają połączenie genu z plazmidem.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij cel etapu 6.",
+     "odpowiedz": "Plazmid zawiera gen oporności na ampicylinę — rosną tylko bakterie, które go przyjęły (selekcja transformantów).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedną zaletę insuliny rekombinowanej w porównaniu z insuliną zwierzęcą.",
+     "odpowiedz": "Ma sekwencję identyczną z ludzką — mniejsze ryzyko reakcji alergicznych / produkcja tania i na dużą skalę.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-biotechnologia-02",
+   "dzial": "biotechnologia"
+  },
+  {
+   "tytul": "PCR",
+   "material": "Opis (autorski). W pewnym cyklu PCR temperatura zmienia się: 95°C → 55°C → 72°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Przyporządkuj każdej temperaturze zachodzący etap.",
+     "odpowiedz": "95°C — denaturacja (rozdzielenie nici); 55°C — przyłączanie starterów; 72°C — wydłużanie nici przez polimerazę.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile kopii fragmentu teoretycznie powstanie z 5 cząsteczek po 20 cyklach.",
+     "odpowiedz": "5 × 2²⁰ ≈ 5,2 mln.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-biotechnologia-03",
+   "dzial": "biotechnologia"
+  },
+  {
+   "tytul": "Klonowanie owcy",
+   "material": "Opis (autorski). Jądro komórki gruczołu mlekowego owcy rasy A (biała głowa) wprowadzono do pozbawionej jądra komórki jajowej owcy rasy B (czarna głowa). Zarodek umieszczono w macicy owcy rasy B.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj barwę głowy sklonowanej owcy. Uzasadnij.",
+     "odpowiedz": "Biała — DNA jądrowe pochodzi od owcy rasy A.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego klon nie jest w 100% identyczny genetycznie z dawczynią jądra.",
+     "odpowiedz": "Ma mitochondria (i mtDNA) z komórki jajowej owcy rasy B.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-biotechnologia-04",
+   "dzial": "biotechnologia"
+  },
+  {
+   "tytul": "Komórki macierzyste",
+   "material": "Tekst (autorski). Komórki iPS uzyskuje się z komórek skóry pacjenta przez wprowadzenie kilku genów czynników transkrypcyjnych.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Podaj jedną zaletę komórek iPS w porównaniu z zarodkowymi komórkami macierzystymi.",
+     "odpowiedz": "Nie wymagają niszczenia zarodków (problem etyczny) / są zgodne immunologicznie z pacjentem — brak odrzucenia.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ potencjał komórek iPS.",
+     "odpowiedz": "Pluripotencjalne.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-biotechnologia-05",
+   "dzial": "biotechnologia"
+  }
+ ]
+}

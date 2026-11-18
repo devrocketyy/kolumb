@@ -1,0 +1,88 @@
+{
+ "dzial": "zwierzeta",
+ "wiazki": [
+  {
+   "tytul": "Kladogram kręgowców",
+   "material": "Kladogram (opis, autorski). Od wspólnego przodka odchodzą kolejno: ryby kostnoszkieletowe; płazy; ssaki; od ostatniego węzła — jaszczurki oraz klad (krokodyle + ptaki). Cechy na gałęziach: kończyny pięciopalczaste (po rybach), jajo owodniowe (po płazach).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj grupę siostrzaną ptaków.",
+     "odpowiedz": "Krokodyle.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy „gady” (jaszczurki + krokodyle) tworzą takson monofiletyczny. Uzasadnij.",
+     "odpowiedz": "Nie — nie obejmują wszystkich potomków wspólnego przodka (brak ptaków) — takson parafiletyczny.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż grupy, które mają jajo owodniowe.",
+     "odpowiedz": "Ssaki, jaszczurki, krokodyle i ptaki.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-zwierzeta-01",
+   "dzial": "zwierzeta"
+  },
+  {
+   "tytul": "Tasiemiec",
+   "material": "Tekst (autorski). Tasiemiec uzbrojony pasożytuje w jelicie człowieka; jego żywicielem pośrednim jest świnia.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie cechy budowy tasiemca stanowiące przystosowanie do pasożytnictwa i określ ich znaczenie.",
+     "odpowiedz": "Np. haki i przyssawki — utrzymanie się w jelicie; brak układu pokarmowego — wchłanianie strawionego pokarmu całą powierzchnią; oskórek — ochrona przed enzymami; obojnactwo — rozmnażanie bez partnera.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj sposób zapobiegania zarażeniu.",
+     "odpowiedz": "Spożywanie wyłącznie mięsa wieprzowego przebadanego i dobrze ugotowanego/upieczonego.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-zwierzeta-02",
+   "dzial": "zwierzeta"
+  },
+  {
+   "tytul": "Ptaki a lot",
+   "material": "Opis (autorski). Kości ptaków są puste w środku i połączone z workami powietrznymi; ptaki nie mają pęcherza moczowego i wydalają kwas moczowy.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, jak wymienione cechy są związane z lotem.",
+     "odpowiedz": "Zmniejszają masę ciała (puste kości, brak pęcherza, kwas moczowy wydalany z niewielką ilością wody).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij znaczenie worków powietrznych dla wydolności lotu.",
+     "odpowiedz": "Umożliwiają jednokierunkowy przepływ powietrza przez płuca i wymianę gazową przy wdechu i wydechu — duże zaopatrzenie w tlen dla intensywnego metabolizmu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-zwierzeta-03",
+   "dzial": "zwierzeta"
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "dzial": "mikroorganizmy",
+ "wiazki": [
+  {
+   "tytul": "Cykl faga",
+   "material": "Opis (autorski). Do hodowli bakterii dodano bakteriofagi. W pierwszej hodowli po kilku godzinach pożywka stała się przejrzysta. W drugiej hodowli (inny fag) bakterie rosły normalnie, ale po naświetleniu UV nastąpiła ich masowa liza.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ, jaki cykl przeszły fagi w pierwszej, a jaki w drugiej hodowli przed naświetleniem.",
+     "odpowiedz": "Pierwsza — cykl lityczny; druga — lizogeniczny (profag).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij wynik naświetlenia drugiej hodowli.",
+     "odpowiedz": "Promieniowanie UV (stres, uszkodzenie DNA) indukuje wycięcie profaga i przejście w cykl lityczny — fagi się namnażają i lizują bakterie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mikroorganizmy-01",
+   "dzial": "mikroorganizmy"
+  },
+  {
+   "tytul": "Antybiotykooporność",
+   "material": "Wykres (opis, autorski). Liczba bakterii w hodowli podczas działania antybiotyku: gwałtowny spadek przez 2 dni, następnie wzrost do poziomu wyjściowego. Bakterie z końca doświadczenia nie reagowały na antybiotyk.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przebieg wykresu.",
+     "odpowiedz": "Antybiotyk zabił bakterie wrażliwe, ale przeżyły nieliczne bakterie oporne (mutacje lub geny oporności istniejące wcześniej), które namnożyły się bez konkurencji — populacja stała się oporna (dobór naturalny).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedno działanie ograniczające narastanie oporności.",
+     "odpowiedz": "Stosowanie antybiotyków tylko z przepisu i do końca kuracji / niestosowanie ich przy infekcjach wirusowych / ograniczenie w hodowli zwierząt.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mikroorganizmy-02",
+   "dzial": "mikroorganizmy"
+  },
+  {
+   "tytul": "Malaria",
+   "material": "Tekst (autorski). W tropikach stosuje się moskitiery nasączone insektycydem i osusza się mokradła.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, jak te działania ograniczają zachorowania na malarię.",
+     "odpowiedz": "Ograniczają kontakt z komarem widliszkiem i jego liczebność (miejsca rozwoju larw) — przerywają przenoszenie zarodźca.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w których komórkach człowieka zarodziec rozmnaża się bezpłciowo.",
+     "odpowiedz": "W komórkach wątroby i erytrocytach.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mikroorganizmy-03",
+   "dzial": "mikroorganizmy"
+  },
+  {
+   "tytul": "Porosty w mieście",
+   "material": "Dane (autorskie). Liczba gatunków porostów na drzewach w odległości od centrum dużego miasta: 0 km — 0; 3 km — 2 (skorupiaste); 8 km — 7 (skorupiaste i listkowate); 15 km — 15 (także krzaczkowate).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj wniosek.",
+     "odpowiedz": "Im dalej od centrum (mniej zanieczyszczeń SO₂), tym więcej gatunków porostów — najwrażliwsze są porosty krzaczkowate.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego porosty są wrażliwe na zanieczyszczenia powietrza.",
+     "odpowiedz": "Pobierają wodę i sole całą powierzchnią plechy bezpośrednio z opadów i powietrza, nie mają mechanizmów ochronnych — gromadzą toksyczne substancje.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mikroorganizmy-04",
+   "dzial": "mikroorganizmy"
+  }
+ ]
+}
