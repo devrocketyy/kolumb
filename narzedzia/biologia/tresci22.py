@@ -15,7 +15,7 @@ T['b-wykresy'] = dict(Q=[
 ])
 
 T['b-czasowniki'] = dict(Q=[
- ('Polecenie „wykaż” wymaga:', ['podania samej nazwy', '*uzasadnienia związku przyczynowo-skutkowego lub prawdziwości stwierdzenia', 'narysowania schematu', 'wymienienia przykładów bez wyjaśnienia'], 'Argumentacja.'),
+ ('Polecenie „wykaż” wymaga:', ['podania samej nazwy procesu lub struktury', '*uzasadnienia związku przyczynowo-skutkowego lub prawdziwości stwierdzenia', 'narysowania schematu z opisem wszystkich elementów', 'wymienienia kilku przykładów bez żadnego wyjaśnienia'], 'Argumentacja.'),
  ('Polecenie „sformułuj wniosek” wymaga odniesienia do:', ['wyłącznie wiedzy z podręcznika szkolnego', '*wyników doświadczenia i badanego czynnika', 'hipotezy alternatywnej sformułowanej później', 'próby kontrolnej z innego badania'], 'Wniosek z danych.'),
  ('Problem badawczy zapisuje się zwykle w formie:', ['zdania twierdzącego', '*pytania', 'tabeli wyników', 'wykresu'], 'Hipoteza — twierdzenie.'),
 ])
