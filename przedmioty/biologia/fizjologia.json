@@ -1,0 +1,1329 @@
+{
+ "id": "fizjologia",
+ "nazwa": "Fizjologia człowieka i zwierząt",
+ "opis": "Tkanki, odżywianie, odporność, oddychanie, krążenie, wydalanie, hormony, układ nerwowy, ruch, rozmnażanie.",
+ "poddzialy": [
+  {
+   "id": "b-tkanki-zwierzece",
+   "nazwa": "Tkanki, narządy i homeostaza",
+   "opis": "Wymaganie XI.1 podstawy programowej.",
+   "wymaganie": "XI.1",
+   "fiszki": [
+    {
+     "id": "f08086e74",
+     "przod": "Wyjaśnij pojęcie: tkanka nabłonkowa",
+     "tyl": "Tkanka zbudowana ze ściśle przylegających komórek leżących na błonie podstawnej, bez naczyń krwionośnych; pokrywa ciało i wyściela narządy (funkcje: ochronna, wydzielnicza, chłonna, zmysłowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "fdca0f50e",
+     "przod": "Rodzaje nabłonków ze względu na kształt i liczbę warstw",
+     "tyl": "Jednowarstwowy płaski (pęcherzyki płucne, śródbłonek), sześcienny (kanaliki nerkowe), walcowaty (jelito), wielorzędowy migawkowy (tchawica); wielowarstwowy płaski (naskórek, przełyk); przejściowy (pęcherz moczowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "fdd2e1aae",
+     "przod": "Gdzie występuje nabłonek jednowarstwowy płaski i dlaczego?",
+     "tyl": "W pęcherzykach płucnych, naczyniach włosowatych, torebce kłębuszka — jest cienki, co ułatwia dyfuzję i filtrację.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f7b64f6b8",
+     "przod": "Gdzie występuje nabłonek wielorzędowy migawkowy?",
+     "tyl": "W drogach oddechowych (jama nosowa, tchawica, oskrzela) — rzęski przesuwają śluz z zanieczyszczeniami ku gardłu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "fe777d49f",
+     "przod": "Funkcja mikrokosmków w nabłonku jelita",
+     "tyl": "Zwiększają powierzchnię wchłaniania produktów trawienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "ff995acd8",
+     "przod": "Wyjaśnij pojęcie: nabłonek przejściowy",
+     "tyl": "Nabłonek wielowarstwowy zmieniający grubość przy rozciąganiu — wyściela pęcherz moczowy i moczowody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "fdf388c6e",
+     "przod": "Wyjaśnij pojęcie: gruczoły zewnątrz- i wewnątrzwydzielnicze",
+     "tyl": "Zewnątrzwydzielnicze (ślinianki, potowe) mają przewody wyprowadzające; dokrewne (tarczyca, przysadka) wydzielają hormony bezpośrednio do krwi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "fbc9ffbe9",
+     "przod": "Wyjaśnij pojęcie: tkanka łączna",
+     "tyl": "Tkanka o komórkach rozproszonych w dużej ilości istoty międzykomórkowej (włókna + substancja podstawowa); pełni funkcje podporowe, łączące, transportowe, zapasowe i obronne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f50e31a82",
+     "przod": "Rodzaje tkanki łącznej",
+     "tyl": "Właściwa (luźna, zwarta — ścięgna, więzadła), tłuszczowa (żółta, brunatna), chrzęstna (szklista, sprężysta, włóknista), kostna, krew i limfa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f07ee81ca",
+     "przod": "Funkcje tkanki tłuszczowej żółtej i brunatnej",
+     "tyl": "Żółta — magazyn energii, izolacja cieplna, ochrona mechaniczna; brunatna — wytwarzanie ciepła (termogeneza bezdrżeniowa; mitochondria z termogeniną) — u noworodków i hibernujących ssaków.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "fb66aaa5c",
+     "przod": "Rodzaje chrząstki i ich występowanie",
+     "tyl": "Szklista — powierzchnie stawowe, chrząstki żeber, tchawica; sprężysta — małżowina uszna, nagłośnia; włóknista — krążki międzykręgowe, spojenie łonowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "fca06c92d",
+     "przod": "Budowa tkanki kostnej",
+     "tyl": "Osteocyty w jamkach, istota międzykomórkowa z włóknami kolagenowymi (elastyczność) i solami wapnia — fosforanami (twardość); w kości zbitej układ osteonów (systemów Haversa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f8e80cbf5",
+     "przod": "Wyjaśnij pojęcie: osteoblasty i osteoklasty",
+     "tyl": "Osteoblasty — wytwarzają istotę międzykomórkową kości (przekształcają się w osteocyty); osteoklasty — rozkładają tkankę kostną (przebudowa kości, uwalnianie Ca²⁺).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "fb49fadd8",
+     "przod": "Rodzaje tkanki mięśniowej",
+     "tyl": "Gładka (narządy wewnętrzne, naczynia; skurcz niezależny od woli, powolny), poprzecznie prążkowana szkieletowa (wielojądrowe włókna, skurcz zależny od woli), poprzecznie prążkowana serca (komórki rozgałęzione, wstawki, automatyzm).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f37424fee",
+     "przod": "Wyjaśnij pojęcie: wstawki w mięśniu sercowym",
+     "tyl": "Połączenia komórek mięśnia sercowego zawierające połączenia szczelinowe — umożliwiają szybkie przewodzenie pobudzenia i skurcz całego serca jako jednej całości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f5662dcca",
+     "przod": "Wyjaśnij pojęcie: tkanka nerwowa",
+     "tyl": "Tkanka zbudowana z neuronów (przewodzą impulsy) i komórek glejowych (odżywiają, wspierają, izolują, tworzą osłonki mielinowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "fb27728fa",
+     "przod": "Budowa neuronu",
+     "tyl": "Ciało komórki z jądrem, dendryty (odbierają sygnały), akson (przewodzi impuls od ciała komórki) zakończony kolbkami synaptycznymi; często osłonka mielinowa z przewężeniami Ranviera.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f30b0fa2f",
+     "przod": "Wyjaśnij pojęcie: homeostaza",
+     "tyl": "Utrzymywanie względnie stałych warunków środowiska wewnętrznego (temperatury, pH, stężenia glukozy, ciśnienia osmotycznego) dzięki mechanizmom regulacyjnym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f417243c1",
+     "przod": "Wyjaśnij pojęcie: ujemne sprzężenie zwrotne",
+     "tyl": "Mechanizm, w którym odchylenie parametru od normy uruchamia procesy przeciwdziałające temu odchyleniu (np. wzrost glukozy → insulina → spadek glukozy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f03b64287",
+     "przod": "Wyjaśnij pojęcie: dodatnie sprzężenie zwrotne",
+     "tyl": "Zmiana parametru wzmacnia proces ją wywołujący (np. oksytocyna i skurcze porodowe, krzepnięcie krwi) — rzadkie, kończy się zdarzeniem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f5fb0665a",
+     "przod": "Wyjaśnij pojęcie: narząd i układ narządów",
+     "tyl": "Narząd — zespół różnych tkanek pełniący określoną funkcję (np. żołądek); układ — zespół narządów współdziałających w pełnieniu funkcji (np. pokarmowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "fed55f3a0",
+     "przod": "Dlaczego nabłonek odżywia się dzięki dyfuzji z tkanki łącznej?",
+     "tyl": "Nabłonki nie mają naczyń krwionośnych — substancje dyfundują z naczyń tkanki łącznej leżącej pod błoną podstawną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "fad6d5161",
+     "przod": "Skład krwi",
+     "tyl": "Osocze (~55%: woda, białka — albuminy, globuliny, fibrynogen; sole, glukoza, hormony) i elementy morfotyczne: erytrocyty, leukocyty, trombocyty.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "ff13752b5",
+     "przod": "Budowa i funkcja erytrocytów człowieka",
+     "tyl": "Dwuwklęsłe, bez jądra i mitochondriów, wypełnione hemoglobiną — transport O₂ (i części CO₂); duża powierzchnia względem objętości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f08aed3ce",
+     "przod": "Dlaczego dojrzałe erytrocyty ssaków nie mają mitochondriów?",
+     "tyl": "Zyskują więcej miejsca na hemoglobinę i nie zużywają przenoszonego tlenu — ATP uzyskują w glikolizie (fermentacji mleczanowej).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f05df9587",
+     "przod": "Rozpoznaj: Zwiększają powierzchnię wchłaniania produktów trawienia.",
+     "tyl": "Funkcja mikrokosmków w nabłonku jelita",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "fe322e13e",
+     "przod": "Rozpoznaj: Właściwa (luźna, zwarta — ścięgna, więzadła), tłuszczowa (żółta, brunatna), chrzęstna (szklista, sprężysta, włóknista), kostna, krew i limfa.",
+     "tyl": "Rodzaje tkanki łącznej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f050fdd53",
+     "przod": "Rozpoznaj: Osteocyty w jamkach, istota międzykomórkowa z włóknami kolagenowymi (elastyczność) i solami wapnia — fosforanami (twardość); w kości zbitej układ osteonów (systemów Haversa).",
+     "tyl": "Budowa tkanki kostnej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f073baa7a",
+     "przod": "Rozpoznaj: Gładka (narządy wewnętrzne, naczynia; skurcz niezależny od woli, powolny), poprzecznie prążkowana szkieletowa (wielojądrowe włókna, skurcz zależny od woli), poprzecznie prążkowana serca (komórki rozgałęzione, wstawki, automatyzm).",
+     "tyl": "Rodzaje tkanki mięśniowej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f66ac3cbf",
+     "przod": "Rozpoznaj: Ciało komórki z jądrem, dendryty (odbierają sygnały), akson (przewodzi impuls od ciała komórki) zakończony kolbkami synaptycznymi; często osłonka mielinowa z przewężeniami Ranviera.",
+     "tyl": "Budowa neuronu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f08e3c953",
+     "przod": "Podaj nazwę pojęcia: Utrzymywanie względnie stałych warunków środowiska wewnętrznego (temperatury, pH, stężenia glukozy, ciśnienia osmotycznego) dzięki mechanizmom regulacyjnym.",
+     "tyl": "homeostaza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f717d65e9",
+     "przod": "Podaj nazwę pojęcia: Mechanizm, w którym odchylenie parametru od normy uruchamia procesy przeciwdziałające temu odchyleniu (np. wzrost glukozy → insulina → spadek glukozy).",
+     "tyl": "ujemne sprzężenie zwrotne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "f7bceab32",
+     "przod": "Podaj nazwę pojęcia: Zmiana parametru wzmacnia proces ją wywołujący (np. oksytocyna i skurcze porodowe, krzepnięcie krwi) — rzadkie, kończy się zdarzeniem.",
+     "tyl": "dodatnie sprzężenie zwrotne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "fcc8b0e38",
+     "przod": "Rozpoznaj: Osocze (~55%: woda, białka — albuminy, globuliny, fibrynogen; sole, glukoza, hormony) i elementy morfotyczne: erytrocyty, leukocyty, trombocyty.",
+     "tyl": "Skład krwi",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    },
+    {
+     "id": "fea44dc7a",
+     "przod": "Rozpoznaj: Dwuwklęsłe, bez jądra i mitochondriów, wypełnione hemoglobiną — transport O₂ (i części CO₂); duża powierzchnia względem objętości.",
+     "tyl": "Budowa i funkcja erytrocytów człowieka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.1"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pbb578ea1",
+     "pytanie": "Nabłonek wielowarstwowy płaski występuje w:",
+     "odpowiedzi": [
+      "kanalikach nerkowych",
+      "jelicie cienkim",
+      "pęcherzykach płucnych",
+      "naskórku i przełyku"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Ochrona mechaniczna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5e636b87",
+     "pytanie": "Krążki międzykręgowe zbudowane są z chrząstki:",
+     "odpowiedzi": [
+      "kostnej",
+      "sprężystej",
+      "włóknistej",
+      "szklistej"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wytrzymałość na ucisk.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p51d8499b",
+     "pytanie": "Wstawki występują w tkance mięśniowej:",
+     "odpowiedzi": [
+      "sercowej",
+      "szkieletowej",
+      "gładkiej",
+      "każdej"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Przewodzenie pobudzenia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pfc33b21a",
+     "pytanie": "Ciepło wytwarzane jest głównie przez tkankę tłuszczową:",
+     "odpowiedzi": [
+      "szpikową",
+      "brunatną",
+      "podskórną białą",
+      "żółtą"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Termogenina.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p563eb1f7",
+     "pytanie": "Przykładem dodatniego sprzężenia zwrotnego jest:",
+     "odpowiedzi": [
+      "regulacja stężenia Ca²⁺ we krwi",
+      "termoregulacja przez pocenie się",
+      "nasilanie skurczów porodowych przez oksytocynę",
+      "regulacja stężenia glukozy we krwi"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wzmacnianie bodźca.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-odzywianie",
+   "nazwa": "Odżywianie i trawienie",
+   "opis": "Wymaganie XI.2.1 podstawy programowej.",
+   "wymaganie": "XI.2.1",
+   "fiszki": [
+    {
+     "id": "f1b1c08da",
+     "przod": "Odcinki przewodu pokarmowego człowieka",
+     "tyl": "Jama ustna → gardło → przełyk → żołądek → jelito cienkie (dwunastnica, jelito czcze, kręte) → jelito grube (kątnica z wyrostkiem, okrężnica, odbytnica) → odbyt.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "fd57084a0",
+     "przod": "Gruczoły trawienne człowieka",
+     "tyl": "Ślinianki (ślina), gruczoły żołądkowe (sok żołądkowy), wątroba (żółć), trzustka (sok trzustkowy), gruczoły jelitowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f9d07998c",
+     "przod": "Trawienie w jamie ustnej",
+     "tyl": "Mechaniczne rozdrabnianie, zwilżanie śliną; amylaza ślinowa rozpoczyna trawienie skrobi do dekstryn i maltozy; lizozym działa bakteriobójczo.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "fad9ce5e4",
+     "przod": "Skład i funkcje soku żołądkowego",
+     "tyl": "HCl (pH 1,5–2: denaturuje białka, aktywuje pepsynogen, zabija bakterie), pepsyna (trawi białka do peptydów), śluz (chroni ścianę), czynnik wewnętrzny (wchłanianie B₁₂), u niemowląt podpuszczka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f1dc45f49",
+     "przod": "Dlaczego pepsyna jest wydzielana jako nieaktywny pepsynogen?",
+     "tyl": "Aby nie trawiła białek komórek, które ją wytwarzają; aktywuje się dopiero w świetle żołądka pod wpływem HCl.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "ffb9bcbaf",
+     "przod": "Skład soku trzustkowego",
+     "tyl": "Amylaza trzustkowa, lipaza, trypsyna i chymotrypsyna (jako nieaktywne prekursory), karboksypeptydaza, nukleazy oraz wodorowęglany (neutralizują kwaśną treść).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f87e56a35",
+     "przod": "Rola żółci",
+     "tyl": "Nie zawiera enzymów; kwasy żółciowe emulgują tłuszcze (zwiększają powierzchnię dla lipazy) i ułatwiają wchłanianie tłuszczów i witamin A, D, E, K; zasadowe pH neutralizuje treść.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "fe67ab529",
+     "przod": "Gdzie wytwarzana i gdzie gromadzona jest żółć?",
+     "tyl": "Wytwarzana w wątrobie, gromadzona i zagęszczana w pęcherzyku żółciowym, wydzielana do dwunastnicy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "fbc5026ce",
+     "przod": "Wyjaśnij pojęcie: enteropeptydaza (enterokinaza)",
+     "tyl": "Enzym jelitowy aktywujący trypsynogen do trypsyny, która aktywuje następnie pozostałe proenzymy trzustki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f628b5ed6",
+     "przod": "Końcowe produkty trawienia",
+     "tyl": "Węglowodany → monosacharydy (glukoza); białka → aminokwasy; tłuszcze → glicerol i kwasy tłuszczowe (monoacyloglicerole); kwasy nukleinowe → nukleotydy, zasady, cukry, fosforany.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f32510b95",
+     "przod": "Adaptacje jelita cienkiego do wchłaniania",
+     "tyl": "Duża długość, fałdy okrężne, kosmki jelitowe z naczyniami krwionośnymi i naczyniem chłonnym, mikrokosmki enterocytów, cienki nabłonek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f8b767a51",
+     "przod": "Jak wchłaniane są produkty trawienia tłuszczów?",
+     "tyl": "Wnikają do enterocytów, tam odtwarzane są triglicerydy, pakowane w chylomikrony, które trafiają do naczyń chłonnych kosmków, a dopiero potem do krwi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f67f2e998",
+     "przod": "Dokąd trafia krew z jelit z wchłoniętymi cukrami i aminokwasami?",
+     "tyl": "Żyłą wrotną do wątroby, która reguluje ich stężenie (np. magazynuje glukozę jako glikogen) i unieszkodliwia toksyny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "fc576be95",
+     "przod": "Funkcje jelita grubego",
+     "tyl": "Wchłanianie wody i soli, formowanie kału, synteza witamin (K, część z grupy B) przez bakterie jelitowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f98372c7b",
+     "przod": "Funkcje wątroby (wybrane)",
+     "tyl": "Wytwarzanie żółci, magazynowanie glikogenu, żelaza i witamin, glukoneogeneza, synteza białek osocza i mocznika, detoksykacja, rozkład starych erytrocytów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f7b2945e4",
+     "przod": "Wyjaśnij pojęcie: perystaltyka",
+     "tyl": "Rytmiczne skurcze mięśniówki gładkiej przewodu pokarmowego przesuwające treść pokarmową.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f33d69a02",
+     "przod": "Hormony regulujące trawienie",
+     "tyl": "Gastryna (pobudza wydzielanie soku żołądkowego), sekretyna (wydzielanie wodorowęglanów przez trzustkę), cholecystokinina (wydzielanie enzymów trzustki i żółci z pęcherzyka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f32d9f6e4",
+     "przod": "Funkcje białek w diecie",
+     "tyl": "Dostarczają aminokwasów (w tym egzogennych) do budowy białek własnych; mogą być źródłem energii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f9c066272",
+     "przod": "Wyjaśnij pojęcie: aminokwasy egzogenne",
+     "tyl": "Aminokwasy, których organizm nie może syntetyzować i musi otrzymywać z pożywieniem (np. leucyna, lizyna, tryptofan).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f9285b9a2",
+     "przod": "Wyjaśnij pojęcie: pełnowartościowe białko",
+     "tyl": "Białko zawierające wszystkie aminokwasy egzogenne w odpowiednich proporcjach — głównie pochodzenia zwierzęcego (jaja, mleko, mięso).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f79072716",
+     "przod": "Znaczenie błonnika",
+     "tyl": "Nie jest trawiony przez enzymy człowieka; pobudza perystaltykę, zapobiega zaparciom, daje uczucie sytości, jest pożywką bakterii jelitowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "ff8b20227",
+     "przod": "Witamina A — rola i skutek niedoboru",
+     "tyl": "Składnik rodopsyny (widzenie), prawidłowy stan nabłonków; niedobór — kurza ślepota, zmiany skóry.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "fc61f9549",
+     "przod": "Witamina D — rola i skutek niedoboru",
+     "tyl": "Reguluje wchłanianie wapnia i fosforu, mineralizację kości; niedobór — krzywica (dzieci), osteomalacja (dorośli). Syntezowana w skórze pod wpływem UV.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "fe6fb7f26",
+     "przod": "Witamina K — rola i skutek niedoboru",
+     "tyl": "Niezbędna do syntezy czynników krzepnięcia w wątrobie; niedobór — skłonność do krwawień.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f81626655",
+     "przod": "Witamina C — rola i skutek niedoboru",
+     "tyl": "Antyoksydant, synteza kolagenu, wchłanianie żelaza; niedobór — szkorbut (krwawienie dziąseł, osłabienie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "fa9aea2b5",
+     "przod": "Witamina B₁₂ — rola i skutek niedoboru",
+     "tyl": "Tworzenie erytrocytów, funkcjonowanie układu nerwowego; niedobór — niedokrwistość złośliwa (wchłanianie wymaga czynnika wewnętrznego).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f31ce0ed1",
+     "przod": "Wyjaśnij pojęcie: witaminy rozpuszczalne w tłuszczach",
+     "tyl": "A, D, E, K — mogą być magazynowane (możliwe przedawkowanie, hiperwitaminoza); wchłaniane z tłuszczami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f5b05d153",
+     "przod": "Znaczenie żelaza, wapnia i jodu",
+     "tyl": "Żelazo — hemoglobina, mioglobina (niedobór — anemia); wapń — kości, skurcz mięśni, krzepnięcie; jod — hormony tarczycy (niedobór — wole).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "ff077d942",
+     "przod": "Przystosowania roślinożerców do trawienia celulozy",
+     "tyl": "Mikroorganizmy symbiotyczne z celulazami; przeżuwacze — żołądek wielokomorowy (żwacz, czepiec, księgi, trawieniec) i przeżuwanie; koń, królik — duże jelito ślepe; długie jelita.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f3c20b689",
+     "przod": "Przystosowania uzębienia mięsożerców i roślinożerców",
+     "tyl": "Mięsożercy — duże kły, zęby łamacze; roślinożercy — szerokie trzonowce o płaskich koronach do rozcierania, często brak kłów, diastema.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "fda18d873",
+     "przod": "Wyjaśnij pojęcie: wskaźnik BMI",
+     "tyl": "Masa ciała (kg) / wzrost² (m²); 18,5–24,9 — masa prawidłowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f0951cf03",
+     "przod": "Rozpoznaj: Jama ustna → gardło → przełyk → żołądek → jelito cienkie (dwunastnica, jelito czcze, kręte) → jelito grube (kątnica z wyrostkiem, okrężnica, odbytnica) → odbyt.",
+     "tyl": "Odcinki przewodu pokarmowego człowieka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f760eb984",
+     "przod": "Rozpoznaj: HCl (pH 1,5–2: denaturuje białka, aktywuje pepsynogen, zabija bakterie), pepsyna (trawi białka do peptydów), śluz (chroni ścianę), czynnik wewnętrzny (wchłanianie B₁₂), u niemowląt podpuszczka.",
+     "tyl": "Skład i funkcje soku żołądkowego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f764146c4",
+     "przod": "Podaj nazwę pojęcia: Enzym jelitowy aktywujący trypsynogen do trypsyny, która aktywuje następnie pozostałe proenzymy trzustki.",
+     "tyl": "enteropeptydaza (enterokinaza)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f2426121b",
+     "przod": "Rozpoznaj: Węglowodany → monosacharydy (glukoza); białka → aminokwasy; tłuszcze → glicerol i kwasy tłuszczowe (monoacyloglicerole); kwasy nukleinowe → nukleotydy, zasady, cukry, fosforany.",
+     "tyl": "Końcowe produkty trawienia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "fbb7cc033",
+     "przod": "Rozpoznaj: Wytwarzanie żółci, magazynowanie glikogenu, żelaza i witamin, glukoneogeneza, synteza białek osocza i mocznika, detoksykacja, rozkład starych erytrocytów.",
+     "tyl": "Funkcje wątroby (wybrane)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f3faa7010",
+     "przod": "Podaj nazwę pojęcia: Rytmiczne skurcze mięśniówki gładkiej przewodu pokarmowego przesuwające treść pokarmową.",
+     "tyl": "perystaltyka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "fda6d05da",
+     "przod": "Rozpoznaj: Gastryna (pobudza wydzielanie soku żołądkowego), sekretyna (wydzielanie wodorowęglanów przez trzustkę), cholecystokinina (wydzielanie enzymów trzustki i żółci z pęcherzyka).",
+     "tyl": "Hormony regulujące trawienie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    },
+    {
+     "id": "f8e4b9114",
+     "przod": "Podaj nazwę pojęcia: Masa ciała (kg) / wzrost² (m²); 18,5–24,9 — masa prawidłowa.",
+     "tyl": "wskaźnik BMI",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.1"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p0c293f7e",
+     "pytanie": "Żółć:",
+     "odpowiedzi": [
+      "zawiera lipazę",
+      "jest wytwarzana w pęcherzyku żółciowym",
+      "trawi białka",
+      "emulguje tłuszcze"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Kwasy żółciowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbaf3456a",
+     "pytanie": "Trypsynogen aktywowany jest przez:",
+     "odpowiedzi": [
+      "żółć",
+      "HCl",
+      "pepsynę",
+      "enteropeptydazę"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Enzym jelitowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5eddb603",
+     "pytanie": "Produkty trawienia tłuszczów trafiają z kosmków głównie do:",
+     "odpowiedzi": [
+      "żółci",
+      "żyły wrotnej",
+      "tętnicy krezkowej",
+      "naczyń chłonnych"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Chylomikrony.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8a277188",
+     "pytanie": "Niedobór witaminy K powoduje:",
+     "odpowiedzi": [
+      "zaburzenia krzepnięcia krwi",
+      "szkorbut",
+      "krzywicę",
+      "kurzą ślepotę"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Czynniki krzepnięcia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pdd0da5ae",
+     "pytanie": "Hormonem pobudzającym wydzielanie soku żołądkowego jest:",
+     "odpowiedzi": [
+      "sekretyna",
+      "cholecystokinina",
+      "gastryna",
+      "insulina"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Gastryna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-odpornosc",
+   "nazwa": "Odporność",
+   "opis": "Wymaganie XI.2.2 podstawy programowej.",
+   "wymaganie": "XI.2.2",
+   "fiszki": [
+    {
+     "id": "fbfcc15ce",
+     "przod": "Wyjaśnij pojęcie: odporność nieswoista",
+     "tyl": "Wrodzone mechanizmy obrony działające na każdy patogen tak samo i natychmiast: bariery (skóra, śluz, HCl, lizozym), fagocytoza, stan zapalny, gorączka, układ dopełniacza, interferony, komórki NK.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f8cc7da8a",
+     "przod": "Wyjaśnij pojęcie: odporność swoista",
+     "tyl": "Nabyta odpowiedź skierowana przeciw konkretnemu antygenowi, z udziałem limfocytów T i B, rozwijająca się z opóźnieniem i tworząca pamięć immunologiczną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f80de0d38",
+     "przod": "Wyjaśnij pojęcie: antygen",
+     "tyl": "Substancja (najczęściej białko lub wielocukier) rozpoznawana przez układ odpornościowy jako obca i wywołująca odpowiedź swoistą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f522f5342",
+     "przod": "Wyjaśnij pojęcie: przeciwciało",
+     "tyl": "Immunoglobulina — białko wytwarzane przez komórki plazmatyczne (z limfocytów B), wiążące swoiście antygen.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f0cf71b0e",
+     "przod": "Budowa przeciwciała",
+     "tyl": "Dwa łańcuchy ciężkie i dwa lekkie połączone mostkami disiarczkowymi (kształt Y); regiony zmienne tworzą dwa miejsca wiązania antygenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "ff8b22b07",
+     "przod": "Sposoby działania przeciwciał",
+     "tyl": "Neutralizacja toksyn i wirusów, aglutynacja (zlepianie) komórek, precypitacja, opsonizacja (ułatwienie fagocytozy), aktywacja dopełniacza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f8f3bdaac",
+     "przod": "Gdzie dojrzewają limfocyty B i T?",
+     "tyl": "Powstają w szpiku kostnym; limfocyty B dojrzewają w szpiku, limfocyty T — w grasicy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "fa977d9e9",
+     "przod": "Funkcja limfocytów T pomocniczych (Th, CD4)",
+     "tyl": "Rozpoznają antygen prezentowany przez komórki prezentujące i wydzielają cytokiny aktywujące limfocyty B i Tc oraz makrofagi — koordynują odpowiedź.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "ff869475a",
+     "przod": "Funkcja limfocytów T cytotoksycznych (Tc, CD8)",
+     "tyl": "Rozpoznają i niszczą komórki zakażone wirusami i nowotworowe (odpowiedź komórkowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "fdf38fa5d",
+     "przod": "Wyjaśnij pojęcie: odpowiedź humoralna i komórkowa",
+     "tyl": "Humoralna — przeciwciała wytwarzane przez komórki plazmatyczne, działające w płynach ustrojowych; komórkowa — niszczenie zakażonych komórek przez limfocyty Tc.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "faed923dd",
+     "przod": "Wyjaśnij pojęcie: komórki pamięci",
+     "tyl": "Długo żyjące limfocyty B i T powstałe podczas odpowiedzi pierwotnej, umożliwiające szybką i silną odpowiedź wtórną przy ponownym kontakcie z antygenem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f6ede815b",
+     "przod": "Odpowiedź pierwotna a wtórna",
+     "tyl": "Wtórna jest szybsza, silniejsza (więcej przeciwciał, głównie IgG) i dłuższa dzięki komórkom pamięci.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f994df75b",
+     "przod": "Wyjaśnij pojęcie: komórki prezentujące antygen",
+     "tyl": "Makrofagi, komórki dendrytyczne i limfocyty B — fagocytują patogen i prezentują jego fragmenty na białkach MHC II limfocytom Th.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f7b1d12f0",
+     "przod": "Wyjaśnij pojęcie: białka MHC (zgodności tkankowej)",
+     "tyl": "Białka błonowe prezentujące fragmenty antygenów limfocytom T; MHC I — na wszystkich komórkach jądrzastych, MHC II — na komórkach prezentujących antygen. Odpowiadają za odrzucanie przeszczepów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f921374d5",
+     "przod": "Etapy stanu zapalnego",
+     "tyl": "Uszkodzenie → uwolnienie histaminy przez komórki tuczne → rozszerzenie i zwiększona przepuszczalność naczyń (zaczerwienienie, obrzęk, ciepło, ból) → napływ fagocytów (neutrofili, makrofagów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f111a7728",
+     "przod": "Wyjaśnij pojęcie: interferony",
+     "tyl": "Białka wydzielane przez komórki zakażone wirusem, chroniące sąsiednie komórki przed namnażaniem się wirusa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f07d31a4f",
+     "przod": "Wyjaśnij pojęcie: odporność czynna naturalna",
+     "tyl": "Wytworzona po przechorowaniu — organizm sam wytwarza przeciwciała i komórki pamięci.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f76288825",
+     "przod": "Wyjaśnij pojęcie: odporność czynna sztuczna",
+     "tyl": "Wytworzona po szczepieniu — organizm wytwarza przeciwciała i komórki pamięci w reakcji na antygeny szczepionki; długotrwała.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "ffe5bef05",
+     "przod": "Wyjaśnij pojęcie: odporność bierna naturalna",
+     "tyl": "Przeciwciała otrzymane od matki — przez łożysko (IgG) i z mlekiem (IgA); krótkotrwała.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "fda498ebe",
+     "przod": "Wyjaśnij pojęcie: odporność bierna sztuczna",
+     "tyl": "Podanie gotowych przeciwciał (surowica odpornościowa, np. przeciwtężcowa, przeciw jadowi żmii) — działa natychmiast, ale krótko; brak pamięci.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f1d0b07b8",
+     "przod": "Kiedy stosuje się surowicę, a kiedy szczepionkę?",
+     "tyl": "Surowicę — gdy potrzebna jest natychmiastowa ochrona po zakażeniu lub zatruciu; szczepionkę — profilaktycznie, by wytworzyć długotrwałą odporność.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f9f88fed9",
+     "przod": "Wyjaśnij pojęcie: szczepionka",
+     "tyl": "Preparat zawierający antygeny patogenu (zabite lub osłabione drobnoustroje, ich fragmenty, toksoidy, mRNA kodujące antygen) wywołujący odporność czynną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f07ff6fed",
+     "przod": "Wyjaśnij pojęcie: alergia",
+     "tyl": "Nadmierna reakcja układu odpornościowego na nieszkodliwy antygen (alergen) — przeciwciała IgE na komórkach tucznych powodują uwalnianie histaminy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f08edd8a7",
+     "przod": "Wyjaśnij pojęcie: choroba autoimmunizacyjna",
+     "tyl": "Choroba, w której układ odpornościowy atakuje własne komórki i tkanki — np. cukrzyca typu 1, RZS, stwardnienie rozsiane, choroba Hashimoto.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f2034687c",
+     "przod": "Wyjaśnij pojęcie: AIDS — mechanizm",
+     "tyl": "HIV zakaża limfocyty Th (CD4) i niszczy je; spadek ich liczby osłabia całą odpowiedź swoistą — rozwijają się zakażenia oportunistyczne i nowotwory.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f8700ab78",
+     "przod": "Wyjaśnij pojęcie: grupy krwi AB0",
+     "tyl": "Określane przez antygeny A i B na erytrocytach; w osoczu występują przeciwciała przeciw antygenom nieobecnym (np. grupa A ma anty-B).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f21e8ceca",
+     "przod": "Kto jest uniwersalnym dawcą i biorcą krwi (AB0)?",
+     "tyl": "Dawca — grupa 0 (brak antygenów A i B); biorca — AB (brak przeciwciał anty-A i anty-B). W praktyce przetacza się krew jednoimienną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f2f852fb2",
+     "przod": "Wyjaśnij pojęcie: konflikt serologiczny Rh",
+     "tyl": "Matka Rh⁻ uczulona antygenem D płodu Rh⁺ (zwykle przy pierwszym porodzie) wytwarza przeciwciała anty-D, które w kolejnej ciąży z płodem Rh⁺ przechodzą przez łożysko i niszczą jego erytrocyty.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "fcbcba10c",
+     "przod": "Jak zapobiega się konfliktowi serologicznemu?",
+     "tyl": "Matce Rh⁻ po porodzie dziecka Rh⁺ (i w trakcie ciąży) podaje się immunoglobulinę anty-D, która usuwa erytrocyty płodu, zanim matka wytworzy własne przeciwciała i komórki pamięci.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f6868ed84",
+     "przod": "Narządy limfatyczne",
+     "tyl": "Pierwotne: szpik kostny, grasica; wtórne: węzły chłonne, śledziona, migdałki, kępki Peyera.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "fd4b3af42",
+     "przod": "Wyjaśnij pojęcie: przeszczep a odrzucenie",
+     "tyl": "Limfocyty T rozpoznają obce białka MHC przeszczepu jako antygeny; stosuje się dobór zgodnych dawców i leki immunosupresyjne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f9f957c71",
+     "przod": "Podaj nazwę pojęcia: Wrodzone mechanizmy obrony działające na każdy patogen tak samo i natychmiast: bariery (skóra, śluz, HCl, lizozym), fagocytoza, stan zapalny, gorączka, układ dopełniacza, interferony, komórki NK.",
+     "tyl": "odporność nieswoista",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f724efa06",
+     "przod": "Podaj nazwę pojęcia: Nabyta odpowiedź skierowana przeciw konkretnemu antygenowi, z udziałem limfocytów T i B, rozwijająca się z opóźnieniem i tworząca pamięć immunologiczną.",
+     "tyl": "odporność swoista",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f232e13c9",
+     "przod": "Podaj nazwę pojęcia: Substancja (najczęściej białko lub wielocukier) rozpoznawana przez układ odpornościowy jako obca i wywołująca odpowiedź swoistą.",
+     "tyl": "antygen",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f76f6ea2c",
+     "przod": "Podaj nazwę pojęcia: Immunoglobulina — białko wytwarzane przez komórki plazmatyczne (z limfocytów B), wiążące swoiście antygen.",
+     "tyl": "przeciwciało",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "fbe23d211",
+     "przod": "Rozpoznaj: Dwa łańcuchy ciężkie i dwa lekkie połączone mostkami disiarczkowymi (kształt Y); regiony zmienne tworzą dwa miejsca wiązania antygenu.",
+     "tyl": "Budowa przeciwciała",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f031770d9",
+     "przod": "Rozpoznaj: Neutralizacja toksyn i wirusów, aglutynacja (zlepianie) komórek, precypitacja, opsonizacja (ułatwienie fagocytozy), aktywacja dopełniacza.",
+     "tyl": "Sposoby działania przeciwciał",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "fe1c04230",
+     "przod": "Rozpoznaj: Rozpoznają i niszczą komórki zakażone wirusami i nowotworowe (odpowiedź komórkowa).",
+     "tyl": "Funkcja limfocytów T cytotoksycznych (Tc, CD8)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f97d03190",
+     "przod": "Podaj nazwę pojęcia: Długo żyjące limfocyty B i T powstałe podczas odpowiedzi pierwotnej, umożliwiające szybką i silną odpowiedź wtórną przy ponownym kontakcie z antygenem.",
+     "tyl": "komórki pamięci",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "fca0ed228",
+     "przod": "Podaj nazwę pojęcia: Białka wydzielane przez komórki zakażone wirusem, chroniące sąsiednie komórki przed namnażaniem się wirusa.",
+     "tyl": "interferony",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f6f8f7ac7",
+     "przod": "Podaj nazwę pojęcia: Wytworzona po przechorowaniu — organizm sam wytwarza przeciwciała i komórki pamięci.",
+     "tyl": "odporność czynna naturalna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f38da727a",
+     "przod": "Podaj nazwę pojęcia: Wytworzona po szczepieniu — organizm wytwarza przeciwciała i komórki pamięci w reakcji na antygeny szczepionki; długotrwała.",
+     "tyl": "odporność czynna sztuczna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f1aa4d9db",
+     "przod": "Podaj nazwę pojęcia: Przeciwciała otrzymane od matki — przez łożysko (IgG) i z mlekiem (IgA); krótkotrwała.",
+     "tyl": "odporność bierna naturalna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "ff1a61069",
+     "przod": "Podaj nazwę pojęcia: Preparat zawierający antygeny patogenu (zabite lub osłabione drobnoustroje, ich fragmenty, toksoidy, mRNA kodujące antygen) wywołujący odporność czynną.",
+     "tyl": "szczepionka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f224fa790",
+     "przod": "Podaj nazwę pojęcia: HIV zakaża limfocyty Th (CD4) i niszczy je; spadek ich liczby osłabia całą odpowiedź swoistą — rozwijają się zakażenia oportunistyczne i nowotwory.",
+     "tyl": "AIDS — mechanizm",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f2dc43e3a",
+     "przod": "Podaj nazwę pojęcia: Określane przez antygeny A i B na erytrocytach; w osoczu występują przeciwciała przeciw antygenom nieobecnym (np. grupa A ma anty-B).",
+     "tyl": "grupy krwi AB0",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f442c3cc1",
+     "przod": "Podaj nazwę pojęcia: Matka Rh⁻ uczulona antygenem D płodu Rh⁺ (zwykle przy pierwszym porodzie) wytwarza przeciwciała anty-D, które w kolejnej ciąży z płodem Rh⁺ przechodzą przez łożysko i niszczą jego erytrocyty.",
+     "tyl": "konflikt serologiczny Rh",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f97aaa668",
+     "przod": "Rozpoznaj: Pierwotne: szpik kostny, grasica; wtórne: węzły chłonne, śledziona, migdałki, kępki Peyera.",
+     "tyl": "Narządy limfatyczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p1947e1fb",
+     "pytanie": "Przeciwciała wytwarzane są przez:",
+     "odpowiedzi": [
+      "komórki plazmatyczne",
+      "limfocyty Tc",
+      "erytrocyty",
+      "makrofagi"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Zróżnicowane limfocyty B.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p59014140",
+     "pytanie": "Limfocyty T dojrzewają w:",
+     "odpowiedzi": [
+      "wątrobie",
+      "śledzionie",
+      "grasicy",
+      "szpiku kostnym"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Grasica.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb2bf5075",
+     "pytanie": "Odporność uzyskana po podaniu surowicy przeciwtężcowej to odporność:",
+     "odpowiedzi": [
+      "czynna sztuczna",
+      "czynna naturalna",
+      "bierna naturalna",
+      "bierna sztuczna"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Gotowe przeciwciała.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd9e47d9a",
+     "pytanie": "HIV niszczy przede wszystkim:",
+     "odpowiedzi": [
+      "limfocyty B",
+      "erytrocyty",
+      "limfocyty T pomocnicze",
+      "neutrofile"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "CD4.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc2f3bfc2",
+     "pytanie": "Osoba z grupą krwi A ma w osoczu przeciwciała:",
+     "odpowiedzi": [
+      "brak",
+      "anty-B",
+      "anty-A",
+      "anty-A i anty-B"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Przeciw nieobecnemu antygenowi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe6438ce4",
+     "pytanie": "Szybsza i silniejsza odpowiedź wtórna wynika z obecności:",
+     "odpowiedzi": [
+      "dopełniacza",
+      "komórek pamięci",
+      "interferonów",
+      "histaminy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Pamięć immunologiczna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-oddychanie-czl",
+   "nazwa": "Wymiana gazowa",
+   "opis": "Wymaganie XI.2.3 a–j podstawy programowej.",
+   "wymaganie": "XI.2.3 a–j",
+   "fiszki": [
+    {
+     "id": "f7a731a7b",
+     "przod": "Odcinki układu oddechowego człowieka",
+     "tyl": "Drogi oddechowe: jama nosowa → gardło → krtań → tchawica → oskrzela → oskrzeliki; część oddechowa: pęcherzyki płucne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f1117a9ec",
+     "przod": "Funkcje jamy nosowej",
+     "tyl": "Ogrzewanie, nawilżanie i oczyszczanie powietrza (śluz, rzęski, włosy), odbiór bodźców węchowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f63d5bd81",
+     "przod": "Budowa tchawicy związana z funkcją",
+     "tyl": "Chrzęstne półpierścienie (utrzymują drożność, z tyłu miękka ściana — przełyk), nabłonek migawkowy z komórkami kubkowymi (śluz).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f4e316bd4",
+     "przod": "Funkcja krtani",
+     "tyl": "Przewodzenie powietrza, wytwarzanie głosu (fałdy głosowe), nagłośnia zamyka wejście do krtani podczas połykania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f095c9827",
+     "przod": "Adaptacje pęcherzyków płucnych do wymiany gazowej",
+     "tyl": "Ogromna powierzchnia (ok. 70–100 m²), cienka ściana z nabłonka jednowarstwowego płaskiego, gęsta sieć naczyń włosowatych, wilgotna powierzchnia, surfaktant.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f4bdcb7fa",
+     "przod": "Wyjaśnij pojęcie: surfaktant",
+     "tyl": "Substancja (fosfolipidy i białka) wyściełająca pęcherzyki, obniżająca napięcie powierzchniowe — zapobiega zapadaniu się pęcherzyków.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "ff0a688a8",
+     "przod": "Wyjaśnij pojęcie: opłucna",
+     "tyl": "Podwójna błona surowicza (płuco i ściana klatki piersiowej) z płynem w jamie opłucnej — zmniejsza tarcie i sprawia, że płuca podążają za ruchami klatki piersiowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f6744b1ba",
+     "przod": "Wyjaśnij pojęcie: odma opłucnowa",
+     "tyl": "Dostanie się powietrza do jamy opłucnej — wyrównanie ciśnień powoduje zapadnięcie się płuca.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f46ce954d",
+     "przod": "Mechanizm wdechu",
+     "tyl": "Skurcz przepony (spłaszcza się) i mięśni międzyżebrowych zewnętrznych (unoszą żebra) → zwiększa się objętość klatki → ciśnienie w płucach spada poniżej atmosferycznego → powietrze napływa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "fc852042e",
+     "przod": "Mechanizm wydechu spoczynkowego",
+     "tyl": "Bierny: rozkurcz przepony i mięśni międzyżebrowych → objętość klatki maleje → ciśnienie w płucach rośnie → powietrze wypływa. Wydech nasilony — udział mięśni międzyżebrowych wewnętrznych i brzucha.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f41b056af",
+     "przod": "Wyjaśnij pojęcie: wymiana gazowa zewnętrzna i wewnętrzna",
+     "tyl": "Zewnętrzna — między powietrzem w pęcherzykach a krwią; wewnętrzna — między krwią a komórkami tkanek; obie zachodzą przez dyfuzję zgodnie z gradientem ciśnień parcjalnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f8bb4b45a",
+     "przod": "Jak transportowany jest tlen we krwi?",
+     "tyl": "Prawie w całości związany z hemoglobiną erytrocytów (oksyhemoglobina), w niewielkim stopniu rozpuszczony w osoczu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f482e19c8",
+     "przod": "Jak transportowany jest CO₂ we krwi?",
+     "tyl": "Głównie jako jony wodorowęglanowe HCO₃⁻ w osoczu (ok. 70%), częściowo związany z hemoglobiną (karbaminohemoglobina) i rozpuszczony w osoczu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "ff271ccd1",
+     "przod": "Rola anhydrazy węglanowej",
+     "tyl": "Enzym erytrocytów katalizujący reakcję CO₂ + H₂O ⇄ H₂CO₃ ⇄ H⁺ + HCO₃⁻ — umożliwia szybki transport CO₂ jako wodorowęglanów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f642cce26",
+     "przod": "Wyjaśnij pojęcie: krzywa dysocjacji oksyhemoglobiny",
+     "tyl": "Esowata zależność wysycenia hemoglobiny tlenem od ciśnienia parcjalnego O₂ — w płucach hemoglobina prawie całkowicie się wysyca, w tkankach łatwo oddaje tlen.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f8fe1a091",
+     "przod": "Wyjaśnij pojęcie: efekt Bohra",
+     "tyl": "Spadek powinowactwa hemoglobiny do tlenu przy wyższym stężeniu CO₂, niższym pH (i wyższej temperaturze) — krzywa przesuwa się w prawo; ułatwia oddawanie tlenu pracującym tkankom.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f2112debe",
+     "przod": "Dlaczego hemoglobina płodowa ma większe powinowactwo do tlenu?",
+     "tyl": "Umożliwia pobieranie tlenu z krwi matki w łożysku, gdzie ciśnienie parcjalne O₂ jest niskie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "fae77aa96",
+     "przod": "Dlaczego tlenek węgla (CO) jest trujący?",
+     "tyl": "Wiąże się z hemoglobiną ok. 200–250 razy silniej niż tlen (karboksyhemoglobina), blokując transport tlenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "fe4b5a995",
+     "przod": "Wyjaśnij pojęcie: mioglobina",
+     "tyl": "Białko mięśni magazynujące tlen; ma większe powinowactwo do O₂ niż hemoglobina, oddaje go przy bardzo niskim ciśnieniu parcjalnym (intensywny wysiłek).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "fd7435672",
+     "przod": "Ośrodek oddechowy — gdzie i jak reguluje oddychanie?",
+     "tyl": "W rdzeniu przedłużonym (i moście); głównym bodźcem zwiększającym wentylację jest wzrost stężenia CO₂ (spadek pH) we krwi, wykrywany przez chemoreceptory.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f2db12d5f",
+     "przod": "Dlaczego po hiperwentylacji można dłużej wstrzymać oddech?",
+     "tyl": "Hiperwentylacja obniża stężenie CO₂ we krwi, a to wzrost CO₂ jest głównym bodźcem wymuszającym wdech.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "fd719c7b3",
+     "przod": "Wyjaśnij pojęcie: pojemność życiowa płuc",
+     "tyl": "Maksymalna objętość powietrza wydychanego po maksymalnym wdechu (= objętość oddechowa + zapasowa wdechowa + zapasowa wydechowa); ok. 3,5–5 l.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f22f9d9ce",
+     "przod": "Wyjaśnij pojęcie: objętość zalegająca",
+     "tyl": "Powietrze pozostające w płucach po maksymalnym wydechu (ok. 1–1,5 l) — nie można jej wydmuchać.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f1b5ff710",
+     "przod": "Wyjaśnij pojęcie: przestrzeń martwa",
+     "tyl": "Objętość dróg oddechowych, w których nie zachodzi wymiana gazowa (ok. 150 ml).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "fce166164",
+     "przod": "Wpływ palenia tytoniu na układ oddechowy",
+     "tyl": "Uszkodzenie rzęsek, nadmiar śluzu (kaszel), przewlekłe zapalenie oskrzeli, rozedma, rak płuca; CO zmniejsza transport tlenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "fc111633c",
+     "przod": "Wyjaśnij pojęcie: adaptacja do życia na dużych wysokościach",
+     "tyl": "Wzrost liczby erytrocytów (pod wpływem erytropoetyny z nerek), większa wentylacja, więcej naczyń włosowatych i mioglobiny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f362468ef",
+     "przod": "Narządy wymiany gazowej u zwierząt",
+     "tyl": "Powierzchnia ciała (płazińce, dżdżownica), skrzela (ryby, skorupiaki), tchawki (owady), płuca (kręgowce lądowe, pajęczaki — płucotchawki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f8931ae33",
+     "przod": "Wyjaśnij pojęcie: przeciwprąd w skrzelach ryb",
+     "tyl": "Woda i krew płyną w blaszkach skrzelowych w przeciwnych kierunkach — gradient O₂ utrzymuje się na całej długości, co pozwala pobrać do ok. 80% tlenu z wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "fb8ff74bc",
+     "przod": "Adaptacje płuc ptaków",
+     "tyl": "Worki powietrzne i jednokierunkowy przepływ powietrza przez płuca (parabronchy) — wymiana gazowa zarówno przy wdechu, jak i wydechu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f84e951fb",
+     "przod": "Wyjaśnij pojęcie: tchawki owadów",
+     "tyl": "System rurek doprowadzających powietrze bezpośrednio do komórek — krew (hemolimfa) nie transportuje tlenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f4ae7ddc7",
+     "przod": "Rozpoznaj: Ogrzewanie, nawilżanie i oczyszczanie powietrza (śluz, rzęski, włosy), odbiór bodźców węchowych.",
+     "tyl": "Funkcje jamy nosowej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f3be51c9f",
+     "przod": "Rozpoznaj: Chrzęstne półpierścienie (utrzymują drożność, z tyłu miękka ściana — przełyk), nabłonek migawkowy z komórkami kubkowymi (śluz).",
+     "tyl": "Budowa tchawicy związana z funkcją",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f4319c3cf",
+     "przod": "Rozpoznaj: Ogromna powierzchnia (ok. 70–100 m²), cienka ściana z nabłonka jednowarstwowego płaskiego, gęsta sieć naczyń włosowatych, wilgotna powierzchnia, surfaktant.",
+     "tyl": "Adaptacje pęcherzyków płucnych do wymiany gazowej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f95d96b2c",
+     "przod": "Podaj nazwę pojęcia: Substancja (fosfolipidy i białka) wyściełająca pęcherzyki, obniżająca napięcie powierzchniowe — zapobiega zapadaniu się pęcherzyków.",
+     "tyl": "surfaktant",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f2e70dfa8",
+     "przod": "Rozpoznaj: Skurcz przepony (spłaszcza się) i mięśni międzyżebrowych zewnętrznych (unoszą żebra) → zwiększa się objętość klatki → ciśnienie w płucach spada poniżej atmosferycznego → powietrze napływa.",
+     "tyl": "Mechanizm wdechu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f2f84e105",
+     "przod": "Podaj nazwę pojęcia: Esowata zależność wysycenia hemoglobiny tlenem od ciśnienia parcjalnego O₂ — w płucach hemoglobina prawie całkowicie się wysyca, w tkankach łatwo oddaje tlen.",
+     "tyl": "krzywa dysocjacji oksyhemoglobiny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "fd432b377",
+     "przod": "Podaj nazwę pojęcia: Spadek powinowactwa hemoglobiny do tlenu przy wyższym stężeniu CO₂, niższym pH (i wyższej temperaturze) — krzywa przesuwa się w prawo; ułatwia oddawanie tlenu pracującym tkankom.",
+     "tyl": "efekt Bohra",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f0f64ddb7",
+     "przod": "Podaj nazwę pojęcia: Białko mięśni magazynujące tlen; ma większe powinowactwo do O₂ niż hemoglobina, oddaje go przy bardzo niskim ciśnieniu parcjalnym (intensywny wysiłek).",
+     "tyl": "mioglobina",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "fa42c4194",
+     "przod": "Podaj nazwę pojęcia: Maksymalna objętość powietrza wydychanego po maksymalnym wdechu (= objętość oddechowa + zapasowa wdechowa + zapasowa wydechowa); ok. 3,5–5 l.",
+     "tyl": "pojemność życiowa płuc",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "fd660015b",
+     "przod": "Podaj nazwę pojęcia: Powietrze pozostające w płucach po maksymalnym wydechu (ok. 1–1,5 l) — nie można jej wydmuchać.",
+     "tyl": "objętość zalegająca",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "fe947916b",
+     "przod": "Podaj nazwę pojęcia: Objętość dróg oddechowych, w których nie zachodzi wymiana gazowa (ok. 150 ml).",
+     "tyl": "przestrzeń martwa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "ffc6d2e86",
+     "przod": "Podaj nazwę pojęcia: Wzrost liczby erytrocytów (pod wpływem erytropoetyny z nerek), większa wentylacja, więcej naczyń włosowatych i mioglobiny.",
+     "tyl": "adaptacja do życia na dużych wysokościach",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f506eac97",
+     "przod": "Rozpoznaj: Powierzchnia ciała (płazińce, dżdżownica), skrzela (ryby, skorupiaki), tchawki (owady), płuca (kręgowce lądowe, pajęczaki — płucotchawki).",
+     "tyl": "Narządy wymiany gazowej u zwierząt",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "fcd1d1544",
+     "przod": "Podaj nazwę pojęcia: System rurek doprowadzających powietrze bezpośrednio do komórek — krew (hemolimfa) nie transportuje tlenu.",
+     "tyl": "tchawki owadów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p1834a800",
+     "pytanie": "Podczas wdechu przepona:",
+     "odpowiedzi": [
+      "nie zmienia swojego położenia",
+      "kurczy się i unosi ku górze",
+      "kurczy się i spłaszcza",
+      "rozkurcza się i unosi"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Zwiększenie objętości klatki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p547afccb",
+     "pytanie": "Najwięcej CO₂ transportowane jest we krwi jako:",
+     "odpowiedzi": [
+      "CO₂ rozpuszczony",
+      "jony wodorowęglanowe",
+      "karboksyhemoglobina",
+      "karbaminohemoglobina"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ok. 70%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9a3aca17",
+     "pytanie": "Efekt Bohra polega na zmniejszeniu powinowactwa hemoglobiny do O₂ przy:",
+     "odpowiedzi": [
+      "wzroście pH krwi",
+      "spadku temperatury",
+      "spadku pH krwi",
+      "spadku stężenia CO₂"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ułatwia oddawanie O₂.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8f3d06f0",
+     "pytanie": "Głównym bodźcem pobudzającym ośrodek oddechowy jest:",
+     "odpowiedzi": [
+      "wzrost pH krwi tętniczej",
+      "wzrost stężenia CO₂ we krwi",
+      "spadek temperatury ciała",
+      "niewielki spadek stężenia O₂"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Chemoreceptory.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa8072890",
+     "pytanie": "Surfaktant:",
+     "odpowiedzi": [
+      "transportuje tlen do krwi",
+      "oczyszcza powietrze z pyłów",
+      "zapobiega zapadaniu się pęcherzyków",
+      "wiąże CO₂ w pęcherzykach"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Obniża napięcie powierzchniowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p80a74952",
+     "pytanie": "Wymiana gazowa w skrzelach ryb jest wydajna dzięki:",
+     "odpowiedzi": [
+      "surfaktantowi pokrywającemu blaszki",
+      "przeciwprądowemu przepływowi wody i krwi",
+      "workom powietrznym połączonym z płucami",
+      "rozgałęzionym tchawkom doprowadzającym wodę"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Przeciwprąd.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
