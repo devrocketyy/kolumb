@@ -1,7 +1,7 @@
 # Biologia — plan kursu (działy, poddziały, liczby)
 
 Źródła: wymagania egzaminacyjne 2027 (od 2025), sprawozdania CKE 2023–2026, arkusze 2023–2026.
-Trudność: ★ poziom wykonania na maturze ok. 20–35%, ★★ poniżej 20% (tematy z najwiekszą liczbą ćwiczeń).
+Trudność: ★ poziom wykonania na maturze ok. 20–35%, ★★ poniżej 20% (tematy z największą liczbą ćwiczeń).
 
 **Razem: 13 działów, 71 poddziałów, ok. 3 620 fiszek, ok. 920 poleceń w zadaniach autorskich (ok. 290 wiązek), ok. 1 500 pytań ABCD, ok. 170 schematów, 71 lekcji.**
 
