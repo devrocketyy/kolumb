@@ -93,7 +93,7 @@ T['b-fotosynteza'] = dict(F=[
  ('W fotofosforylacji cyklicznej powstaje:', ['ATP, NADPH i O₂', '*tylko ATP', 'tylko NADPH', 'ATP i O₂'], 'Elektrony wracają do PS I.'),
  ('Rośliny CAM pobierają CO₂:', ['tylko w dzień', '*głównie nocą', 'przez korzenie', 'tylko w zimie'], 'Rozdział czasowy.'),
  ('Punkt kompensacyjny świetlny to natężenie światła, przy którym:', ['fotosynteza jest maksymalna', '*fotosynteza równoważy oddychanie', 'ustaje oddychanie', 'zamykają się szparki'], 'Bilans gazowy = 0.'),
- ('Po nagłym wyłączeniu światła w chloroplastach rośnie ilość:', ['RuBP', '*PGA (3-fosfoglicerynianu)', 'NADPH', 'ATP'], 'Brak ATP i NADPH do redukcji PGA.'),
+ ('Po nagłym wyłączeniu światła w chloroplastach rośnie ilość:', ['RuBP (rybulozobisfosforanu)', '*PGA (3-fosfoglicerynianu)', 'NADPH w stromie', 'ATP w stromie'], 'Brak ATP i NADPH do redukcji PGA.'),
  ('Fotooddychanie nasila się przy:', ['niskiej temperaturze i dużym stężeniu CO₂', '*wysokiej temperaturze i niskim stężeniu CO₂', 'słabym świetle i niskiej temperaturze', 'dużej wilgotności i otwartych szparkach'], 'RuBisCO wiąże wtedy O₂.'),
  ('Rośliną C4 jest:', ['pszenica', 'fasola', '*kukurydza', 'kaktus'], 'Kukurydza, trzcina cukrowa.'),
  ('Liść odbarwia się etanolem przed próbą z płynem Lugola, aby:', ['zabić komórki i rozpuścić ściany', '*usunąć chlorofil maskujący wynik', 'rozłożyć skrobię do glukozy', 'dostarczyć jodu do chloroplastów'], 'Inaczej zielona barwa zasłoni granat.'),
