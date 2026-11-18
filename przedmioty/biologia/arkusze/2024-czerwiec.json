@@ -1,0 +1,666 @@
+{
+ "id": "2024-czerwiec",
+ "nazwa": "Matura czerwiec 2024",
+ "opis": "Egzamin maturalny z biologii, poziom rozszerzony, Formuła 2023 — termin dodatkowy 2024 r. (6 czerwca).",
+ "link": "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2024/Biologia/MBIP-R0-100-A-2406-arkusz.pdf",
+ "linkZasady": "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2024/zasady_oceniania/MBIP-R0-100-2406-zasady.pdf",
+ "zrodlo": "Arkusz: CKE, czerwiec 2024 (otwórz PDF). Odpowiedzi i omówienia: opracowanie IndexLab na podstawie zasad oceniania CKE.",
+ "wiazki": [
+  {
+   "nr": "1",
+   "strona": 4,
+   "tytul": "Akwaporyna",
+   "zadania": [
+    {
+     "nr": "1.1",
+     "punkty": 1,
+     "polecenie": "Najwyższą rzędowością struktury akwaporyny (4 łańcuchy po 271 aminokwasów) jest struktura A. II- / B. III- / C. IV-rzędowa, ponieważ 1. dominują α-helisy / 2. jest zbudowana z czterech łańcuchów / 3. tworzy ją pojedynczy łańcuch.",
+     "odpowiedz": "C2.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Struktura IV-rzędowa = kilka łańcuchów polipeptydowych.",
+     "dzialy": [
+      "komorka"
+     ]
+    },
+    {
+     "nr": "1.2",
+     "punkty": 1,
+     "polecenie": "Jaki rodzaj transportu zachodzi z udziałem akwaporyny (A. dyfuzja prosta, B. dyfuzja wspomagana, C. transport aktywny)? Uzasadnij.",
+     "odpowiedz": "B — woda przechodzi przez kanały białkowe zgodnie z gradientem stężeń, bez nakładu energii.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Kanał białkowy → wspomagana; brak ATP → dyfuzja.",
+     "dzialy": [
+      "komorka"
+     ]
+    },
+    {
+     "nr": "1.3",
+     "punkty": 1,
+     "polecenie": "Określ, czy przy niefunkcjonalnej akwaporynie ilość moczu jest większa czy mniejsza. Uzasadnij.",
+     "odpowiedz": "Większa — akwaporyny w kanalikach zbiorczych umożliwiają resorpcję zwrotną wody; bez nich woda nie wraca do krwi i jest wydalana z moczem (moczówka prosta).",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Działanie ADH polega właśnie na wbudowywaniu akwaporyn.",
+     "dzialy": [
+      "komorka"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "2",
+   "strona": 6,
+   "tytul": "Łańcuch oddechowy",
+   "zadania": [
+    {
+     "nr": "2.1",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego utlenienie FADH₂ daje mniej ATP niż utlenienie NADH + H⁺.",
+     "odpowiedz": "Elektrony z FADH₂ trafiają do kompleksu II, który nie przepompowuje protonów — omijają kompleks I, więc do przestrzeni międzybłonowej przenoszonych jest mniej protonów i mniej z nich napędza syntazę ATP.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Kluczowe: mniej przepompowanych protonów.",
+     "dzialy": [
+      "metabolizm"
+     ]
+    },
+    {
+     "nr": "2.2",
+     "punkty": 2,
+     "polecenie": "Uporządkuj etapy oddychania tlenowego i podaj ich lokalizację: glikoliza, reakcja pomostowa, cykl Krebsa, łańcuch oddechowy.",
+     "odpowiedz": "1 — glikoliza (cytozol); 2 — reakcja pomostowa (macierz); 3 — cykl Krebsa (macierz mitochondrialna); 4 — łańcuch oddechowy (wewnętrzna błona mitochondrium).",
+     "zasady": "2 pkt – kolejność i lokalizacje poprawne.\n1 pkt – jedno z dwóch.\n0 pkt – brak.",
+     "omowienie": "",
+     "dzialy": [
+      "metabolizm"
+     ]
+    },
+    {
+     "nr": "2.3",
+     "punkty": 2,
+     "polecenie": "Podkreśl: synteza ATP dzięki gradientowi (protonów / elektronów); u prokariontów syntaza ATP jest (w błonie komórkowej / w cytozolu); ATP powstaje (tylko w fosforylacji oksydacyjnej / w fosforylacjach oksydacyjnej i substratowej).",
+     "odpowiedz": "Protonów; w błonie komórkowej; w fosforylacjach oksydacyjnej i substratowej.",
+     "zasady": "2 pkt – trzy poprawne.\n1 pkt – dwa.\n0 pkt – mniej.",
+     "omowienie": "Fosforylacja substratowa zachodzi w glikolizie i cyklu Krebsa.",
+     "dzialy": [
+      "metabolizm"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "3",
+   "strona": 8,
+   "tytul": "Blaszka jądrowa",
+   "zadania": [
+    {
+     "nr": "3.1",
+     "punkty": 2,
+     "polecenie": "Oceń P/F: 1. W jądrze występują funkcjonalne rybosomy. 2. Obie błony otoczki mają taką samą budowę i skład. 3. Podjednostki rybosomów opuszczają jądro przez pory jądrowe.",
+     "odpowiedz": "1 — F, 2 — F, 3 — P.",
+     "zasady": "2 pkt – trzy poprawne.\n1 pkt – dwie.\n0 pkt – mniej.",
+     "omowienie": "W jąderku powstają podjednostki, ale rybosomy działają w cytoplazmie.",
+     "dzialy": [
+      "komorka"
+     ]
+    },
+    {
+     "nr": "3.2",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego przy podziale komórki filamenty blaszki jądrowej muszą być demontowane i formowane na nowo.",
+     "odpowiedz": "Podczas podziału otoczka jądrowa zanika, aby wrzeciono mogło połączyć się z chromosomami i rozdzielić je; po podziale blaszka musi zostać odtworzona w obu jądrach potomnych.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "komorka"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "4",
+   "strona": 9,
+   "tytul": "Liść ligustru",
+   "zadania": [
+    {
+     "nr": "4.1",
+     "punkty": 1,
+     "polecenie": "Podaj nazwy tkanek oznaczonych 1 i 2 na przekroju liścia.",
+     "odpowiedz": "1 — miękisz asymilacyjny (palisadowy); 2 — drewno (ksylem).",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Oznaczenia według mikrofotografii w arkuszu.",
+     "dzialy": [
+      "rosliny"
+     ]
+    },
+    {
+     "nr": "4.2",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, jak transpiracja przyczynia się do transportu wody w łodydze.",
+     "odpowiedz": "Parowanie wody z liści wytwarza podciśnienie (siłę ssącą), które dzięki spójności cząsteczek wody (kohezji) i przyleganiu do ścian naczyń (adhezji) zasysa nieprzerwany słup wody w naczyniach drewna.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "rosliny"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "5",
+   "strona": 10,
+   "tytul": "Potencjał wody",
+   "zadania": [
+    {
+     "nr": "5.1",
+     "punkty": 2,
+     "polecenie": "Podkreśl: komórka A ma (mniejszą / większą) zdolność pobierania wody niż B, ponieważ jej ψw wynosi ok. (−1,2 MPa / 0 MPa) i jest mniejsza niż ψw komórki B ok. (−0,8 / 0 / +0,8 MPa).",
+     "odpowiedz": "Większą; −1,2 MPa; 0 MPa.",
+     "zasady": "2 pkt – trzy poprawne.\n1 pkt – dwa.\n0 pkt – mniej.",
+     "omowienie": "Im niższy (bardziej ujemny) potencjał wody, tym silniej komórka pobiera wodę. Komórka B w pełnym turgorze ma ψw = 0.",
+     "dzialy": [
+      "rosliny"
+     ]
+    },
+    {
+     "nr": "5.2",
+     "punkty": 2,
+     "polecenie": "Przy plazmolizie: ψw roztworu zewnętrznego jest (mniejsza / większa) niż komórkowego; ψs komórki (wzrost / spadek); ψp komórki (wzrost / spadek).",
+     "odpowiedz": "Mniejsza; spadek; spadek.",
+     "zasady": "2 pkt – trzy poprawne.\n1 pkt – dwa.\n0 pkt – mniej.",
+     "omowienie": "Woda wypływa do roztworu o niższym ψw; sok komórkowy się zagęszcza (ψs maleje), turgor zanika.",
+     "dzialy": [
+      "rosliny"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "6",
+   "strona": 12,
+   "tytul": "Przemiana pokoleń i mejoza",
+   "zadania": [
+    {
+     "nr": "6.1",
+     "punkty": 1,
+     "polecenie": "Wskaż na ilustracji gametofit mchu (A/B) i gametofit paproci (C/D).",
+     "odpowiedz": "Mech: B; paproć: D.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "U mchu gametofit to zielona roślinka z listkami; u paproci — małe przedrośle (litery według ilustracji w arkuszu).",
+     "dzialy": [
+      "podzialy"
+     ]
+    },
+    {
+     "nr": "6.2",
+     "punkty": 2,
+     "polecenie": "Oceń P/F: 1. Redukcja liczby chromosomów zachodzi w I podziale mejotycznym. 2. Crossing-over zachodzi w metafazie I. 3. W wyniku mejozy zmniejsza się liczba cząsteczek DNA w jądrze.",
+     "odpowiedz": "1 — P, 2 — F, 3 — P.",
+     "zasady": "2 pkt – trzy poprawne.\n1 pkt – dwie.\n0 pkt – mniej.",
+     "omowienie": "Crossing-over — profaza I.",
+     "dzialy": [
+      "podzialy"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "7",
+   "strona": 13,
+   "tytul": "Owoc czereśni",
+   "zadania": [
+    {
+     "nr": "7.1",
+     "punkty": 1,
+     "polecenie": "Wykaż związek budowy owocu czereśni ze sposobem rozprzestrzeniania.",
+     "odpowiedz": "Soczysty, barwny mezokarp przyciąga zwierzęta (ptaki), które zjadają owoce; zdrewniały endokarp chroni nasienie przed strawieniem — nasiona są wydalane daleko od rośliny macierzystej.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "rosliny"
+     ]
+    },
+    {
+     "nr": "7.2",
+     "punkty": 2,
+     "polecenie": "Podkreśl: czereśnia — (nagonasienne / okrytonasienne); owoce to (jagody / pestkowce); woski (zwiększają / ograniczają) parowanie.",
+     "odpowiedz": "Okrytonasienne; pestkowce; ograniczają.",
+     "zasady": "2 pkt – trzy poprawne.\n1 pkt – dwa.\n0 pkt – mniej.",
+     "omowienie": "",
+     "dzialy": [
+      "rosliny"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "8",
+   "strona": 14,
+   "tytul": "Karmienie godowe wojsiłki",
+   "zadania": [
+    {
+     "nr": "8.1",
+     "punkty": 1,
+     "polecenie": "Określ, czy wielkość zdobyczy godowej wpływa na szansę przekazania genów przez samca. Uzasadnij wynikami.",
+     "odpowiedz": "Tak — im większa zdobycz, tym dłużej trwa kopulacja (samica dłużej je), co zwiększa liczbę przekazanych plemników i szansę zapłodnienia jaj.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Odwołanie do wykresu jest wymagane.",
+     "dzialy": [
+      "ewolucja-ekologia"
+     ]
+    },
+    {
+     "nr": "8.2",
+     "punkty": 1,
+     "polecenie": "Podkreśl: samica wytwarza gamety na drodze (mitozy / mejozy); pokarm (wpływa / nie wpływa) na zdolność produkowania jaj.",
+     "odpowiedz": "Mejozy; wpływa.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "ewolucja-ekologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "9",
+   "strona": 15,
+   "tytul": "Stado gołębi a jastrząb",
+   "zadania": [
+    {
+     "nr": "9",
+     "punkty": 1,
+     "polecenie": "Oceń, czy z wyników można wnioskować: 1. sukces jastrzębi jest mniejszy przy dużych stadach; 2. im większe stado, tym wcześniej dostrzega jastrzębia.",
+     "odpowiedz": "1 — T, 2 — T.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Korzyść życia w grupie — „wiele oczu”.",
+     "dzialy": [
+      "ewolucja-ekologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "10",
+   "strona": 16,
+   "tytul": "Gynandromorfy motyli",
+   "zadania": [
+    {
+     "nr": "10.1",
+     "punkty": 2,
+     "polecenie": "Określ kolor II pary skrzydeł i ubarwienie odwłoka samicy, gynandromorfa i samca P. androgeus.",
+     "odpowiedz": "Skrzydła: samica — niebieski, gynandromorf — żółto-niebieski, samiec — żółty. Odwłok: samica — czarny jednolity, gynandromorf i samiec — żółto-czarny.",
+     "zasady": "2 pkt – oba wiersze.\n1 pkt – jeden.\n0 pkt – brak.",
+     "omowienie": "Odczyt ze zdjęć w arkuszu.",
+     "dzialy": [
+      "zwierzeta"
+     ]
+    },
+    {
+     "nr": "10.2",
+     "punkty": 1,
+     "polecenie": "Oceń P/F: 1. Gynandromorfy mogą rozmnażać się bez partnera. 2. Wszystkie komórki gynandromorfa zawierają tę samą informację genetyczną.",
+     "odpowiedz": "1 — F, 2 — F.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Gynandromorf to chimera dwóch linii komórkowych i jest bezpłodny.",
+     "dzialy": [
+      "zwierzeta"
+     ]
+    },
+    {
+     "nr": "10.3",
+     "punkty": 1,
+     "polecenie": "Motyl przechodzi przeobrażenie A. zupełne / B. niezupełne, o czym świadczy 1. larwa / 2. poczwarka / 3. imago.",
+     "odpowiedz": "A2.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Larwa i imago występują w obu typach przeobrażenia — wyróżnikiem jest poczwarka.",
+     "dzialy": [
+      "zwierzeta"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "11",
+   "strona": 17,
+   "tytul": "Rozwielitka",
+   "zadania": [
+    {
+     "nr": "11",
+     "punkty": 1,
+     "polecenie": "Rozwielitka należy do typu A. stawonogów / B. mięczaków oraz gromady 1. skorupiaków / 2. owadów / 3. małży.",
+     "odpowiedz": "A1.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Dwie pary czułków i pancerz — skorupiak.",
+     "dzialy": [
+      "zwierzeta"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "12",
+   "strona": 18,
+   "tytul": "Laktoza w lekach",
+   "zadania": [
+    {
+     "nr": "12.1",
+     "punkty": 1,
+     "polecenie": "Określ, czy dawka 0,4 g laktozy jest dopuszczalna dla osób z nietolerancją. Uzasadnij wynikami.",
+     "odpowiedz": "Tak — nasilenie objawów po 0,4 g laktozy było podobne jak po placebo (i dużo mniejsze niż po 20 g).",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Porównanie z próbą placebo jest kluczowe.",
+     "dzialy": [
+      "fizjologia"
+     ]
+    },
+    {
+     "nr": "12.2",
+     "punkty": 1,
+     "polecenie": "Laktoza należy do A. disacharydów / B. polisacharydów i jest trawiona 1. w dwunastnicy przez enzym trzustki / 2. w jelicie cienkim przez enzym nabłonka jelita / 3. w jelicie grubym.",
+     "odpowiedz": "A2.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Laktaza jest enzymem rąbka szczoteczkowego enterocytów.",
+     "dzialy": [
+      "fizjologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "13",
+   "strona": 18,
+   "tytul": "Inhibitory wychwytu serotoniny",
+   "zadania": [
+    {
+     "nr": "13",
+     "punkty": 1,
+     "polecenie": "Określ wpływ inhibitorów wychwytu zwrotnego serotoniny na jej stężenie w szczelinie i szybkość repolaryzacji neuronu postsynaptycznego.",
+     "odpowiedz": "Stężenie serotoniny w szczelinie rośnie, a repolaryzacja neuronu postsynaptycznego jest wolniejsza.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "fizjologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "14",
+   "strona": 19,
+   "tytul": "Azotowe produkty przemiany",
+   "zadania": [
+    {
+     "nr": "14.1",
+     "punkty": 1,
+     "polecenie": "Podaj związek, którego wydalanie wiąże się z: 1. największą stratą wody; 2. największym nakładem energii.",
+     "odpowiedz": "1 — amoniak; 2 — kwas moczowy.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "fizjologia"
+     ]
+    },
+    {
+     "nr": "14.2",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego zwierzęta wodne wydalają głównie amoniak, a lądowe mocznik lub kwas moczowy.",
+     "odpowiedz": "Amoniak jest bardzo toksyczny i wymaga dużo wody do rozcieńczenia — zwierzęta wodne mają jej pod dostatkiem; zwierzęta lądowe muszą oszczędzać wodę, więc przekształcają amoniak w mniej toksyczny mocznik lub nierozpuszczalny kwas moczowy, wydalane z małą ilością wody.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "fizjologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "15",
+   "strona": 20,
+   "tytul": "Skurcz mięśnia",
+   "zadania": [
+    {
+     "nr": "15.1",
+     "punkty": 1,
+     "polecenie": "Podaj funkcję tropomiozyny w spoczynku mięśnia.",
+     "odpowiedz": "Zasłania miejsca wiązania miozyny na aktynie, uniemożliwiając skurcz.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "fizjologia"
+     ]
+    },
+    {
+     "nr": "15.2",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, jak uwolnienie Ca²⁺ prowadzi do skurczu (oddziaływanie aktyny i miozyny).",
+     "odpowiedz": "Ca²⁺ wiążą się z troponiną, która przesuwa tropomiozynę i odsłania miejsca wiązania miozyny; główki miozyny przyłączają się do aktyny i przesuwają filamenty aktynowe względem miozynowych — sarkomer się skraca.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "fizjologia"
+     ]
+    },
+    {
+     "nr": "15.3",
+     "punkty": 1,
+     "polecenie": "Podkreśl: siła skurczu zależy od liczby aktywowanych neuronów (czuciowych / ruchowych); siła skurczu tężcowego (wzrasta / maleje) względem pojedynczego.",
+     "odpowiedz": "Ruchowych; wzrasta.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "fizjologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "16",
+   "strona": 22,
+   "tytul": "Przemiany glukozy",
+   "zadania": [
+    {
+     "nr": "16.1",
+     "punkty": 1,
+     "polecenie": "Uzupełnij schemat: produkt glikogenogenezy (1) i glikolizy (2).",
+     "odpowiedz": "1 — glikogen; 2 — pirogronian.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "metabolizm"
+     ]
+    },
+    {
+     "nr": "16.2",
+     "punkty": 2,
+     "polecenie": "Oceń P/F: 1. Wzrost glukozy pobudza wydzielanie glukagonu. 2. Mózg pobiera glukozę niezależnie od insuliny. 3. Między posiłkami w wątrobie zachodzi glikogenoliza.",
+     "odpowiedz": "1 — F, 2 — P, 3 — P.",
+     "zasady": "2 pkt – trzy poprawne.\n1 pkt – dwie.\n0 pkt – mniej.",
+     "omowienie": "Wzrost glukozy → insulina.",
+     "dzialy": [
+      "metabolizm"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "17",
+   "strona": 23,
+   "tytul": "Kiwi a galaretka",
+   "zadania": [
+    {
+     "nr": "17.1",
+     "punkty": 3,
+     "polecenie": "Zaplanuj doświadczenie: czy sparzenie kiwi wrzątkiem wpływa na aktywność jego proteazy (próba badawcza, kontrolna, sposób odczytu).",
+     "odpowiedz": "Próba badawcza: rozdrobnione kiwi sparzone wrzącą wodą dodane do szklanki z płynną galaretką. Próba kontrolna: tyle samo niesparzonego (surowego) kiwi dodane do drugiej szklanki z galaretką. Pozostałe warunki jednakowe (np. obie do lodówki na kilka godzin). Odczyt: sprawdzić, w której szklance galaretka stężała — stężenie oznacza brak aktywności proteazy.",
+     "zasady": "3 pkt – obie próby i sposób odczytu.\n2 pkt – dwa elementy.\n1 pkt – jeden.\n0 pkt – brak.",
+     "omowienie": "Typowy błąd: kontrola bez kiwi — klucz wymaga, by próby różniły się tylko sparzeniem.",
+     "dzialy": [
+      "metabolizm"
+     ]
+    },
+    {
+     "nr": "17.2",
+     "punkty": 1,
+     "polecenie": "Kolagen jest białkiem A. roślinnym / B. zwierzęcym, wchodzącym w skład struktury 1. na zewnątrz / 2. wewnątrz komórki.",
+     "odpowiedz": "B1.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Kolagen — główne białko istoty międzykomórkowej tkanki łącznej.",
+     "dzialy": [
+      "metabolizm"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "18",
+   "strona": 24,
+   "tytul": "Hemofilia B",
+   "zadania": [
+    {
+     "nr": "18.1",
+     "punkty": 3,
+     "polecenie": "Zdrowi rodzice mają syna z hemofilią B. Podaj genotypy rodziców, zapisz krzyżówkę i prawdopodobieństwo urodzenia chorego dziecka.",
+     "odpowiedz": "Matka XᴴXʰ, ojciec XᴴY. Potomstwo: XᴴXᴴ, XᴴXʰ, XᴴY, XʰY. Prawdopodobieństwo chorego dziecka: 25%.",
+     "zasady": "3 pkt – genotypy, krzyżówka i wynik.\n2 pkt – dwa elementy.\n1 pkt – jeden.\n0 pkt – brak.",
+     "omowienie": "Pytanie dotyczy wszystkich dzieci — dlatego 25%, a nie 50%.",
+     "dzialy": [
+      "genetyka"
+     ]
+    },
+    {
+     "nr": "18.2",
+     "punkty": 1,
+     "polecenie": "Wykaż, że mężczyźni nie mogą być nosicielami hemofilii B.",
+     "odpowiedz": "Mężczyźni mają jeden chromosom X (XY); allel h na jedynym X zawsze się ujawnia — nie mogą być heterozygotami, czyli nosicielami.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "genetyka"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "19",
+   "strona": 25,
+   "tytul": "Myszy — Hardy-Weinberg",
+   "zadania": [
+    {
+     "nr": "19.1",
+     "punkty": 1,
+     "polecenie": "Częstość allelu b wynosi 0,3. Oblicz częstość heterozygot.",
+     "odpowiedz": "p = 0,7; 2pq = 2 · 0,7 · 0,3 = 0,42.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "ewolucja-ekologia"
+     ]
+    },
+    {
+     "nr": "19.2",
+     "punkty": 2,
+     "polecenie": "Czy dla równowagi H-W musi być spełnione (T/N): 1. rozmnażanie wyłącznie płciowe; 2. powstawanie mutacji; 3. działanie doboru naturalnego.",
+     "odpowiedz": "1 — T, 2 — N, 3 — N.",
+     "zasady": "2 pkt – trzy poprawne.\n1 pkt – dwie.\n0 pkt – mniej.",
+     "omowienie": "Wymagany jest BRAK mutacji i BRAK doboru.",
+     "dzialy": [
+      "ewolucja-ekologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "20",
+   "strona": 26,
+   "tytul": "Nisze drożdży i bakterii",
+   "zadania": [
+    {
+     "nr": "20",
+     "punkty": 2,
+     "polecenie": "Podaj dwa argumenty, że nisze drożdży i bakterii na owocach winorośli w dużym stopniu się pokrywają.",
+     "odpowiedz": "1. Żyją w tym samym miejscu — na powierzchni owoców winorośli. 2. Wykorzystują to samo główne źródło energii — glukozę.",
+     "zasady": "2 pkt – dwa argumenty.\n1 pkt – jeden.\n0 pkt – brak.",
+     "omowienie": "",
+     "dzialy": [
+      "ewolucja-ekologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "21",
+   "strona": 26,
+   "tytul": "Rasy pokarmowe muchówki",
+   "zadania": [
+    {
+     "nr": "21.1",
+     "punkty": 1,
+     "polecenie": "Specjacja jest A. allopatryczna / B. sympatryczna, ponieważ 1. populacje są izolowane geograficznie / 2. żyją na tym samym obszarze.",
+     "odpowiedz": "B2.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Izolacja czasowa (różny termin dojrzewania owoców) na tym samym obszarze.",
+     "dzialy": [
+      "ewolucja-ekologia"
+     ]
+    },
+    {
+     "nr": "21.2",
+     "punkty": 1,
+     "polecenie": "Aby rasy były odrębnymi gatunkami biologicznymi, musi dojść do: A. ograniczenia izolacji prezygotycznej; B. płodnych mieszańców; C. braku przepływu genów; D. nasilenia efektu założyciela.",
+     "odpowiedz": "C.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Gatunek biologiczny = izolacja rozrodcza.",
+     "dzialy": [
+      "ewolucja-ekologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "22",
+   "strona": 27,
+   "tytul": "Glifosat i soja GMO",
+   "zadania": [
+    {
+     "nr": "22.1",
+     "punkty": 1,
+     "polecenie": "Wykaż, że stosowanie dużych ilości glifosatu może zagrażać różnorodności biologicznej.",
+     "odpowiedz": "Glifosat niszczy wszystkie rośliny (nie tylko chwasty) oraz może działać na grzyby i bakterie mające ten sam szlak syntezy aminokwasów — giną gatunki niebędące celem zabiegu, a wraz z nimi zależne od nich zwierzęta.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "biotechnologia"
+     ]
+    },
+    {
+     "nr": "22.2",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego glifosat jest nieskuteczny w zwalczaniu owadów.",
+     "odpowiedz": "Zwierzęta (w tym owady) nie mają szlaku syntezy aminokwasów aromatycznych — pobierają je z pokarmem (są dla nich egzogenne), więc glifosat nie ma w nich na co działać.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "biotechnologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "23",
+   "strona": 28,
+   "tytul": "Lipiennik Loesela",
+   "zadania": [
+    {
+     "nr": "23",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego oprócz ochrony gatunkowej konieczna jest ochrona siedliskowa lipiennika Loesela.",
+     "odpowiedz": "Gatunek ma wąskie wymagania — rośnie tylko na podmokłych torfowiskach zasilanych wodami bogatymi w wapń; osuszanie lub zarastanie tych siedlisk powoduje jego zanik mimo zakazu zrywania, więc trzeba chronić siedlisko.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "ewolucja-ekologia"
+     ]
+    }
+   ]
+  }
+ ]
+}
