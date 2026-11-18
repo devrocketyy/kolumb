@@ -495,6 +495,339 @@
    ],
    "id": "b-umiejetnosci-15",
    "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Drożdże i fermentacja",
+   "material": "Doświadczenie (autorskie). Do trzech kolb wlano po 100 cm³ roztworu: A — 5% glukozy z drożdżami, B — 5% glukozy z zagotowanymi drożdżami, C — wody z drożdżami. Kolby zamknięto korkami z rurkami odprowadzającymi gaz do probówek z wodą wapienną i umieszczono w 30°C. Po 30 minutach woda wapienna zmętniała tylko przy kolbie A.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj hipotezę, którą weryfikowało to doświadczenie.",
+     "odpowiedz": "Np. Drożdże w obecności glukozy przeprowadzają fermentację alkoholową, w której wydziela się CO₂.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Hipoteza — zdanie oznajmujące, możliwe do sprawdzenia.",
+     "nr": "1"
+    },
+    {
+     "typ": "przyporzadkuj",
+     "punkty": 1,
+     "polecenie": "Określ funkcję kolb B i C w tym doświadczeniu.",
+     "odpowiedz": "B — próba kontrolna wykazująca, że do wydzielania CO₂ potrzebne są żywe drożdże (aktywne enzymy); C — próba kontrolna wykazująca, że potrzebny jest substrat (glukoza).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Każda kontrola wyklucza inne wyjaśnienie wyniku.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego woda wapienna zmętniała.",
+     "odpowiedz": "CO₂ wydzielany przez drożdże reagował z wodorotlenkiem wapnia, tworząc nierozpuszczalny węglan wapnia.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wskaźnik obecności CO₂.",
+     "nr": "3"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy wynik dowodzi, że drożdże przeprowadzały fermentację, a nie oddychanie tlenowe. Uzasadnij.",
+     "odpowiedz": "Nie — CO₂ powstaje w obu procesach; aby to rozstrzygnąć, trzeba wykazać brak tlenu w kolbie lub obecność etanolu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "CKE: czego na podstawie danych nie można rozstrzygnąć?",
+     "nr": "4"
+    }
+   ],
+   "id": "b-umiejetnosci-16",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Projekt doświadczenia: transpiracja",
+   "material": "Polecenie (autorskie). Zaprojektuj doświadczenie sprawdzające, czy ruch powietrza (wiatr) wpływa na intensywność transpiracji pelargonii.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 3,
+     "polecenie": "Opisz próbę badawczą i kontrolną, wskaż zmienną niezależną, warunki stałe oraz sposób pomiaru wyniku.",
+     "odpowiedz": "Próba badawcza — pelargonia w doniczce przed wentylatorem; kontrolna — taka sama pelargonia bez wentylatora. Zmienna niezależna — ruch powietrza. Warunki stałe — gatunek, wielkość roślin, liczba liści, temperatura, światło, wilgotność, podlanie, czas. Pomiar — ubytek masy doniczki szczelnie owiniętej folią (aby woda parowała tylko z liści) po np. 24 h lub ubytek wody w potometrze.",
+     "zasady": "3 pkt – odpowiedź pełna (wszystkie trzy elementy).\n2 pkt – poprawne dwa elementy.\n1 pkt – poprawny jeden element.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "3 pkt — wszystkie elementy; 2 pkt — brak jednego; 1 pkt — tylko próby badawcza i kontrolna. Owinięcie doniczki folią to kontrola ubytku wody z gleby.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-umiejetnosci-17",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Problem badawczy z tabeli",
+   "material": "Tabela (autorska). Liczba plemników ruchliwych (%) w nasieniu knurów po 2 h inkubacji: 15°C — 61; 25°C — 74; 37°C — 82; 42°C — 40.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj problem badawczy, na który odpowiadają dane w tabeli.",
+     "odpowiedz": "Np. Jak temperatura wpływa na ruchliwość plemników knura?",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Problem wynika z tego, co było zmieniane (temperatura) i co mierzono (ruchliwość).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj wniosek na podstawie danych.",
+     "odpowiedz": "Ruchliwość plemników knura zależy od temperatury — jest największa w 37°C (spośród badanych), a maleje w niższej i wyższej temperaturze.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wniosek w zakresie badanych wartości.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-18",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Interpretacja wykresu z dwiema krzywymi",
+   "material": "Wykres (opis, autorski). Na osi X — natężenie światła; na osi Y — tempo fotosyntezy. Krzywa I (0,04% CO₂) rośnie do natężenia 4 jednostek i dalej jest płaska na poziomie 20. Krzywa II (0,1% CO₂) rośnie do natężenia 7 jednostek i dalej jest płaska na poziomie 35.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jaki czynnik ogranicza tempo fotosyntezy przy natężeniu światła 2 jednostek, a jaki przy 8 jednostkach (krzywa I).",
+     "odpowiedz": "Przy 2 — natężenie światła; przy 8 — stężenie CO₂.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Na odcinku rosnącym ogranicza zmienna z osi X; na plateau — inny czynnik (tu CO₂, bo jego zwiększenie podnosi plateau).",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego przy wyższym stężeniu CO₂ plateau występuje na wyższym poziomie.",
+     "odpowiedz": "Więcej CO₂ oznacza więcej substratu dla RuBisCO w cyklu Calvina, więc może być wykorzystane więcej ATP i NADPH z fazy zależnej od światła — fotosynteza zachodzi szybciej, zanim ograniczy ją kolejny czynnik.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Prawo czynnika ograniczającego.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-19",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Wnioskowanie z rodowodu danych",
+   "material": "Dane (autorskie). W pewnej wsi 30% mieszkańców pije wodę z prywatnych studni, a 70% — z wodociągu. Wśród chorych na pewną chorobę jelit 80% piło wodę ze studni.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego dane wskazują na związek choroby z wodą ze studni.",
+     "odpowiedz": "Udział osób pijących wodę ze studni wśród chorych (80%) jest znacznie większy niż w całej populacji (30%), więc choroba występuje u nich częściej niż wynikałoby to z przypadku.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Porównanie odsetka w grupie z odsetkiem w populacji.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaproponuj badanie, które potwierdzi, że przyczyną choroby jest woda ze studni.",
+     "odpowiedz": "Np. zbadać wodę ze studni pod kątem obecności drobnoustrojów chorobotwórczych i porównać z wodą z wodociągu; zidentyfikować patogen u chorych.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Szukanie mechanizmu, nie tylko korelacji.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-20",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Wskaźnik pH w doświadczeniu",
+   "material": "Doświadczenie (autorskie). Do dwóch probówek z roztworem czerwieni krezolowej (wskaźnik: przy spadku stężenia CO₂ barwa zmienia się w kierunku purpury, przy wzroście — w kierunku żółci) włożono po listku moczarki. Probówkę 1 oświetlano, probówkę 2 owinięto folią aluminiową. Po godzinie roztwór w probówce 1 był purpurowy, a w probówce 2 — żółty.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij zmianę barwy wskaźnika w każdej z probówek.",
+     "odpowiedz": "Probówka 1 — na świetle fotosynteza przeważa nad oddychaniem, roślina pobiera CO₂ z wody, jego stężenie maleje → purpura. Probówka 2 — w ciemności zachodzi tylko oddychanie, roślina wydziela CO₂, jego stężenie rośnie → żółć.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "2 pkt — obie probówki; 1 pkt — jedna.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaproponuj próbę kontrolną do tego doświadczenia.",
+     "odpowiedz": "Probówka z samym wskaźnikiem (bez moczarki) na świetle — barwa nie powinna się zmienić.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wykazuje, że zmiana barwy wynika z działania rośliny.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-21",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Dobór materiału do badań",
+   "material": "Polecenie (autorskie). Uczniowie chcą zbadać wpływ temperatury na tempo oddychania kiełkujących nasion grochu, mierząc pobieranie tlenu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego do badania lepiej użyć nasion kiełkujących niż suchych.",
+     "odpowiedz": "Suche nasiona są w stanie spoczynku i oddychają bardzo słabo; kiełkujące mają uwodnione komórki i aktywne enzymy, więc intensywnie oddychają — zmiany są mierzalne.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Dobór obiektu do celu badania.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, dlaczego w każdej próbie należy użyć tej samej masy nasion.",
+     "odpowiedz": "Bo ilość pobieranego tlenu zależy od masy (liczby) nasion — różna masa zafałszowałaby porównanie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Warunek stały.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-22",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Błąd w procedurze",
+   "material": "Opis (autorski). Uczeń badał wpływ stężenia substratu na aktywność enzymu. Próby o niższym stężeniu wykonał rano w temperaturze 18°C, a próby o wyższym — po południu w temperaturze 26°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego uzyskane wyniki nie pozwalają ocenić wpływu stężenia substratu na aktywność enzymu.",
+     "odpowiedz": "Próby różniły się dwoma czynnikami — stężeniem substratu i temperaturą, która też wpływa na aktywność enzymu; nie wiadomo, który czynnik spowodował różnice.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zasada jednej zmiennej.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-umiejetnosci-23",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Rozróżnianie obserwacji i doświadczenia",
+   "material": "Opisy (autorskie). A — uczeń przez miesiąc notował, o której godzinie otwierają się kwiaty mniszka. B — uczeń hodował rzeżuchę przy różnym natężeniu światła i mierzył jej wysokość. C — uczeń liczył porosty na pniach drzew w parku.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "przyporzadkuj",
+     "punkty": 1,
+     "polecenie": "Wskaż, które opisy przedstawiają obserwację, a które doświadczenie.",
+     "odpowiedz": "Obserwacja — A i C; doświadczenie — B.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "W doświadczeniu badacz celowo zmienia czynnik (tu natężenie światła).",
+     "nr": "1"
+    }
+   ],
+   "id": "b-umiejetnosci-24",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Przeliczanie jednostek i skali",
+   "material": "Mikrofotografia (opis, autorski). Na zdjęciu komórka ma długość 40 mm, a pasek skali o długości 20 mm odpowiada 10 µm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz rzeczywistą długość komórki.",
+     "odpowiedz": "20 µm.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "20 mm = 10 µm, więc 40 mm = 20 µm.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz powiększenie zdjęcia.",
+     "odpowiedz": "2000 razy.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "20 mm = 20 000 µm; 20 000 µm : 10 µm = 2000×.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-25",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Uzasadnij czy opisz?",
+   "material": "Polecenie (autorskie). „Uzasadnij, że mitochondria są organellami półautonomicznymi.” Uczeń A: „Mitochondria mają dwie błony, grzebienie i macierz, w której zachodzi cykl Krebsa.” Uczeń B: „Mają własne DNA i rybosomy, więc same syntetyzują część swoich białek i dzielą się, ale większość białek otrzymują z cytoplazmy (kodowanych w jądrze).”",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, który uczeń poprawnie wykonał polecenie, i uzasadnij swój wybór.",
+     "odpowiedz": "Uczeń B — wskazał cechy decydujące o półautonomiczności (własny DNA, rybosomy i jednocześnie zależność od jądra); uczeń A opisał budowę, która nie dowodzi tezy.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Uzasadnienie musi dowodzić tezy, a nie opisywać obiekt.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-umiejetnosci-26",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Czynniki ograniczające w badaniu kiełkowania",
+   "material": "Doświadczenie (autorskie). Nasiona fasoli umieszczono w czterech zestawach: 1 — woda, powietrze, 20°C; 2 — woda, brak powietrza (nasiona zalane wodą przegotowaną i przykryte olejem), 20°C; 3 — brak wody, 20°C; 4 — woda, powietrze, 2°C. Wykiełkowały tylko nasiona z zestawu 1.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, w jakim celu wodę w zestawie 2 przegotowano i przykryto olejem.",
+     "odpowiedz": "Przegotowanie usuwa z wody rozpuszczony tlen, a olej zapobiega jego ponownemu rozpuszczaniu z powietrza — nasiona nie mają dostępu do tlenu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Funkcja elementu procedury.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj wniosek z doświadczenia.",
+     "odpowiedz": "Do kiełkowania nasion fasoli potrzebne są woda, tlen (powietrze) i odpowiednia (wyższa) temperatura.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Każdy zestaw wyklucza jeden czynnik.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-27",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Analiza wyników z rozrzutem",
+   "material": "Tabela (autorska). Tętno (uderzenia/min) pięciu uczniów przed i po 3 minutach przysiadów: Ala 72→118; Bartek 65→102; Celina 80→126; Damian 58→95; Ewa 70→112.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz średni przyrost tętna w grupie.",
+     "odpowiedz": "41,6 uderzenia/min.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przyrosty: 46, 37, 46, 37, 42; suma 208 : 5 = 41,6.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego po wysiłku tętno wzrasta.",
+     "odpowiedz": "Pracujące mięśnie zużywają więcej tlenu i wytwarzają więcej CO₂; układ nerwowy współczulny przyspiesza pracę serca, by szybciej dostarczać tlen i usuwać CO₂.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przyczyna (zapotrzebowanie) → mechanizm (układ współczulny) → skutek (tętno).",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-28",
+   "dzial": "umiejetnosci"
   }
  ]
 }
