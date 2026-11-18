@@ -1,0 +1,401 @@
+{
+ "dzial": "metabolizm",
+ "wiazki": [
+  {
+   "tytul": "Inhibitor kompetycyjny",
+   "material": "Wykres (opis, autorski). Szybkość reakcji enzymatycznej w zależności od stężenia substratu: krzywa A (bez inhibitora) osiąga plateau 100 jednostek przy stężeniu 20 mM; krzywa B (z inhibitorem X) rośnie wolniej, ale przy stężeniu 80 mM osiąga ten sam poziom 100 jednostek.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy inhibitor X jest inhibitorem kompetycyjnym, czy niekompetycyjnym. Uzasadnij na podstawie wykresu.",
+     "odpowiedz": "Kompetycyjnym — przy dużym stężeniu substratu szybkość reakcji osiąga tę samą wartość maksymalną co bez inhibitora (substrat wypiera inhibitor z centrum aktywnego).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przy niekompetycyjnym Vmax byłaby niższa.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego zwiększenie stężenia substratu znosi działanie inhibitora X.",
+     "odpowiedz": "Inhibitor X wiąże się z centrum aktywnym, konkurując z substratem; przy dużym stężeniu substratu większość centrów aktywnych zajmują cząsteczki substratu, a nie inhibitora.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mechanizm konkurencji.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-metabolizm-01",
+   "dzial": "metabolizm"
+  },
+  {
+   "tytul": "Metanol i etanol",
+   "material": "Tekst (autorski). Metanol jest w wątrobie przekształcany przez dehydrogenazę alkoholową w formaldehyd, który uszkadza nerw wzrokowy. Osobom zatrutym metanolem podaje się etanol, który jest substratem tego samego enzymu, a dehydrogenaza ma do niego większe powinowactwo.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego podanie etanolu chroni przed skutkami zatrucia metanolem.",
+     "odpowiedz": "Etanol konkuruje z metanolem o centrum aktywne dehydrogenazy alkoholowej (i jest chętniej wiązany), więc metanol jest wolniej przekształcany w toksyczny formaldehyd i zostaje wydalony w niezmienionej postaci.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Inhibicja kompetycyjna w praktyce klinicznej.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-metabolizm-02",
+   "dzial": "metabolizm"
+  },
+  {
+   "tytul": "Sprzężenie zwrotne w szlaku",
+   "material": "Schemat (opis, autorski). Szlak syntezy aminokwasu Z: substrat A → (enzym 1) → B → (enzym 2) → C → (enzym 3) → Z. Gdy stężenie Z w komórce jest wysokie, Z wiąże się z enzymem 1 w miejscu innym niż centrum aktywne.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę opisanego mechanizmu regulacji.",
+     "odpowiedz": "Ujemne sprzężenie zwrotne (hamowanie allosteryczne enzymu przez produkt końcowy).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij znaczenie tego mechanizmu dla komórki.",
+     "odpowiedz": "Gdy aminokwasu Z jest dużo, szlak jest hamowany już na początku — komórka nie marnuje substratu A ani energii na wytwarzanie zbędnego produktu i nie gromadzi produktów pośrednich.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Hamowanie pierwszego enzymu jest najoszczędniejsze.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-metabolizm-03",
+   "dzial": "metabolizm"
+  },
+  {
+   "tytul": "Doświadczenie Engelmanna",
+   "material": "Opis (autorski). Nić zielenicy oświetlono światłem rozszczepionym przez pryzmat i dodano bakterie tlenowe. Bakterie zgromadziły się najliczniej przy fragmentach nici oświetlonych światłem czerwonym i niebieskofioletowym, a najmniej — przy zielonym.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego bakterie gromadziły się w określonych miejscach.",
+     "odpowiedz": "W miejscach oświetlonych światłem czerwonym i niebieskim chlorofil najsilniej pochłaniał światło, fotosynteza była najintensywniejsza i wydzielało się najwięcej tlenu, do którego przemieszczały się bakterie tlenowe.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Bakterie jako wskaźnik tlenu.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, który barwnik odpowiada za słabe pochłanianie światła zielonego przez nić.",
+     "odpowiedz": "Chlorofil (odbija światło zielone).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-metabolizm-04",
+   "dzial": "metabolizm"
+  },
+  {
+   "tytul": "Moczarka i stężenie CO₂",
+   "material": "Tabela (autorska). Liczba pęcherzyków O₂ na minutę u moczarki przy stałym oświetleniu i 20°C, przy różnym stężeniu NaHCO₃: 0% — 2; 0,1% — 14; 0,2% — 25; 0,4% — 31; 0,8% — 32.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Opisz zależność przedstawioną w tabeli.",
+     "odpowiedz": "Wraz ze wzrostem stężenia NaHCO₃ (źródła CO₂) intensywność fotosyntezy rośnie do ok. 0,4%, a powyżej prawie się nie zmienia.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego powyżej 0,4% NaHCO₃ intensywność fotosyntezy prawie nie rośnie.",
+     "odpowiedz": "Przy dużej ilości CO₂ czynnikiem ograniczającym staje się inny czynnik, np. natężenie światła lub temperatura (lub liczba cząsteczek RuBisCO).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Prawo czynnika ograniczającego.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego przy 0% NaHCO₃ wydzielały się nieliczne pęcherzyki.",
+     "odpowiedz": "W wodzie było niewiele rozpuszczonego CO₂ (i CO₂ z oddychania rośliny), który pozwalał na słabą fotosyntezę.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Woda zawiera trochę CO₂ z powietrza.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-metabolizm-05",
+   "dzial": "metabolizm"
+  },
+  {
+   "tytul": "Cykl Calvina po wyłączeniu światła",
+   "material": "Wykres (opis, autorski). W zawiesinie glonów oświetlonych i zaopatrzonych w CO₂ mierzono stężenie dwóch związków cyklu Calvina. Po wyłączeniu światła stężenie związku X wzrosło, a związku Y spadło.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "przyporzadkuj",
+     "punkty": 1,
+     "polecenie": "Rozpoznaj związki X i Y spośród: 3-fosfoglicerynian (PGA), rybulozo-1,5-bisfosforan (RuBP).",
+     "odpowiedz": "X — PGA; Y — RuBP.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij zmianę stężenia związku X po wyłączeniu światła.",
+     "odpowiedz": "W ciemności nie powstają ATP i NADPH, więc PGA nie może być redukowany; jednocześnie RuBP (dopóki jest) wiąże CO₂ i tworzy PGA — PGA się gromadzi.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Klasyczne doświadczenie Calvina.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-metabolizm-06",
+   "dzial": "metabolizm"
+  },
+  {
+   "tytul": "Rośliny C4 i CAM",
+   "material": "Tekst (autorski). Kukurydza (C4) i opuncja (CAM) rosną w ciepłym klimacie. U kukurydzy CO₂ jest wiązany przez karboksylazę PEP w komórkach mezofilu, a cykl Calvina zachodzi w komórkach pochwy okołowiązkowej. U opuncji szparki otwierają się nocą, a CO₂ jest gromadzony w postaci kwasu jabłkowego w wakuolach.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "porownaj",
+     "punkty": 1,
+     "polecenie": "Porównaj sposób rozdzielenia wstępnego wiązania CO₂ od cyklu Calvina u kukurydzy i opuncji.",
+     "odpowiedz": "U kukurydzy — rozdział przestrzenny (różne komórki: mezofil i pochwa okołowiązkowa); u opuncji — rozdział czasowy (wiązanie nocą, cykl Calvina w dzień w tej samej komórce).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, jakie znaczenie dla opuncji ma otwieranie szparek tylko nocą.",
+     "odpowiedz": "Nocą jest chłodniej i wilgotniej, więc przez otwarte szparki ucieka mniej wody — roślina oszczędza wodę w suchym klimacie, a CO₂ magazynuje na dzień.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Adaptacja do suszy.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, dlaczego u roślin C4 fotooddychanie praktycznie nie zachodzi.",
+     "odpowiedz": "Bo w komórkach pochwy okołowiązkowej stężenie CO₂ jest bardzo wysokie, więc RuBisCO wiąże CO₂, a nie tlen.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-metabolizm-07",
+   "dzial": "metabolizm"
+  },
+  {
+   "tytul": "Punkt kompensacyjny",
+   "material": "Wykres (opis, autorski). Wymiana CO₂ przez liście dwóch roślin w zależności od natężenia światła. Roślina A (światłolubna): pobieranie CO₂ zaczyna się od natężenia 20 jednostek, maksimum 25 jednostek CO₂ przy 400 jednostkach światła. Roślina B (cieniolubna): pobieranie CO₂ od 5 jednostek światła, maksimum 8 jednostek CO₂ przy 100 jednostkach światła.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wartości punktu kompensacyjnego świetlnego obu roślin.",
+     "odpowiedz": "A — 20 jednostek; B — 5 jednostek natężenia światła.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Punkt, w którym pobieranie CO₂ = 0.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego roślina B może rosnąć w runie lasu, a roślina A — nie.",
+     "odpowiedz": "Roślina B osiąga przewagę fotosyntezy nad oddychaniem już przy słabym świetle (niski punkt kompensacyjny), więc w cieniu wytwarza nadwyżkę związków organicznych; roślina A przy tak słabym świetle zużywałaby więcej w oddychaniu, niż wytwarza.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-metabolizm-08",
+   "dzial": "metabolizm"
+  },
+  {
+   "tytul": "Wykrywanie skrobi w liściu",
+   "material": "Doświadczenie (autorskie). Pelargonię trzymano 2 doby w ciemności, a następnie część jednego liścia zasłonięto folią aluminiową i roślinę oświetlano 6 godzin. Liść zerwano, gotowano w wodzie, odbarwiono w gorącym etanolu i zanurzono w płynie Lugola.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj cel trzymania rośliny w ciemności przed doświadczeniem.",
+     "odpowiedz": "Usunięcie skrobi z liści (roślina zużyła ją lub przetransportowała), aby wykryta skrobia pochodziła tylko z fotosyntezy w czasie doświadczenia.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Opisz spodziewany wynik doświadczenia.",
+     "odpowiedz": "Odsłonięta część liścia zabarwi się na granatowo (jest skrobia), a zasłonięta — nie (brązowo-żółta barwa jodu).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj wniosek.",
+     "odpowiedz": "Do wytwarzania skrobi (fotosyntezy) w liściu pelargonii niezbędne jest światło.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-metabolizm-09",
+   "dzial": "metabolizm"
+  },
+  {
+   "tytul": "Oddychanie kiełkujących nasion",
+   "material": "Doświadczenie (autorskie). W dwóch słoikach umieszczono: A — 50 g kiełkujących nasion grochu, B — 50 g nasion grochu zagotowanych i odkażonych. W obu słoikach zawieszono naczyńka z wodą wapienną i szczelnie je zamknięto. Po 24 godzinach woda wapienna zmętniała tylko w słoiku A, a temperatura w nim była o 3°C wyższa.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w jakim celu nasiona w słoiku B odkażono.",
+     "odpowiedz": "Aby na martwych nasionach nie rozwijały się bakterie i grzyby, których oddychanie (wydzielanie CO₂ i ciepła) zafałszowałoby wynik próby kontrolnej.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, skąd pochodzi CO₂ i ciepło w słoiku A.",
+     "odpowiedz": "Kiełkujące nasiona intensywnie oddychają — utleniają związki organiczne (cukry z rozkładu skrobi); CO₂ powstaje w reakcji pomostowej i cyklu Krebsa, a część energii uwalnia się jako ciepło.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-metabolizm-10",
+   "dzial": "metabolizm"
+  },
+  {
+   "tytul": "Cyjanek a komórka",
+   "material": "Tekst (autorski). Cyjanek blokuje oksydazę cytochromową — ostatni kompleks łańcucha oddechowego.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego zablokowanie ostatniego kompleksu łańcucha oddechowego zatrzymuje syntezę ATP w mitochondriach.",
+     "odpowiedz": "Elektrony nie mogą być przekazane na tlen, więc zatrzymuje się cały łańcuch oddechowy i pompowanie protonów; zanika gradient protonów, który napędza syntazę ATP.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Chemiosmoza zależy od przepływu elektronów.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego przy zatruciu cyjankiem w komórkach rośnie stężenie mleczanu.",
+     "odpowiedz": "Komórki przechodzą na beztlenowe pozyskiwanie energii — glikolizę z fermentacją mleczanową, w której pirogronian jest redukowany do mleczanu, by odtworzyć NAD⁺.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-metabolizm-11",
+   "dzial": "metabolizm"
+  },
+  {
+   "tytul": "Tkanka tłuszczowa brunatna",
+   "material": "Tekst (autorski). W mitochondriach komórek tkanki tłuszczowej brunatnej występuje białko termogenina, które tworzy kanał dla protonów w wewnętrznej błonie mitochondrium.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, w jaki sposób termogenina prowadzi do wytwarzania ciepła.",
+     "odpowiedz": "Protony przepompowane przez łańcuch oddechowy wracają do macierzy przez termogeninę, a nie przez syntazę ATP, więc energia gradientu nie jest zamieniana w ATP, lecz uwalnia się jako ciepło.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj przykład organizmu lub etapu życia, w którym tkanka tłuszczowa brunatna ma szczególne znaczenie.",
+     "odpowiedz": "Np. noworodki człowieka, ssaki hibernujące (przy wybudzaniu się ze snu zimowego).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-metabolizm-12",
+   "dzial": "metabolizm"
+  },
+  {
+   "tytul": "Wysiłek i mleczan",
+   "material": "Wykres (opis, autorski). Stężenie mleczanu we krwi biegacza: w spoczynku — 1 mmol/dm³; po 400 m sprintu — 12 mmol/dm³; po 30 minutach odpoczynku — 3 mmol/dm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego podczas sprintu stężenie mleczanu we krwi gwałtownie rośnie.",
+     "odpowiedz": "Dostarczanie tlenu nie nadąża za zapotrzebowaniem mięśni na ATP, więc mięśnie uzyskują dodatkowe ATP z glikolizy z fermentacją mleczanową, a powstały mleczan przechodzi do krwi.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w jaki sposób organizm usuwa mleczan po wysiłku.",
+     "odpowiedz": "Wątroba przekształca go w glukozę (glukoneogeneza), a serce i inne tkanki utleniają go w oddychaniu tlenowym.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Cykl Corich.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-metabolizm-13",
+   "dzial": "metabolizm"
+  },
+  {
+   "tytul": "Drożdże w warunkach tlenowych i beztlenowych",
+   "material": "Doświadczenie (autorskie). Dwie jednakowe hodowle drożdży w roztworze glukozy prowadzono 24 h: A — z napowietrzaniem, B — bez dostępu tlenu. Po tym czasie w hodowli A było 6 razy więcej komórek drożdży, a w hodowli B wykryto etanol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w hodowli A drożdże namnożyły się bardziej.",
+     "odpowiedz": "Przy dostępie tlenu drożdże oddychały tlenowo, uzyskując z glukozy kilkanaście razy więcej ATP niż w fermentacji — miały więcej energii na wzrost i podziały.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę procesu, w którym powstał etanol, i drugi jego produkt gazowy.",
+     "odpowiedz": "Fermentacja alkoholowa; CO₂.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-metabolizm-14",
+   "dzial": "metabolizm"
+  },
+  {
+   "tytul": "Bilans ATP",
+   "material": "Polecenie (autorskie).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Uzupełnij: z jednej cząsteczki glukozy w glikolizie powstaje netto … ATP i … NADH; w reakcji pomostowej … NADH i … CO₂; w cyklu Krebsa … ATP, … NADH, … FADH₂ i … CO₂.",
+     "odpowiedz": "Glikoliza: 2 ATP, 2 NADH; reakcja pomostowa: 2 NADH, 2 CO₂; cykl Krebsa: 2 ATP, 6 NADH, 2 FADH₂, 4 CO₂.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "2 pkt — wszystkie liczby poprawne; 1 pkt — poprawny jeden etap.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-metabolizm-15",
+   "dzial": "metabolizm"
+  }
+ ]
+}

@@ -21,3 +21,4 @@ Treści są pisane na podstawie wymagań egzaminacyjnych 2027, informatora i spr
 ## Znane ograniczenia (nie wymagają działania)
 - Ostrzeżenia generatora „nieznany dział” przy arkuszach — znikną po dodaniu działów z faz 2–4.
 - Schematy i ryciny do lekcji jeszcze nie powstały (planowane ok. 170).
+- [ ] Metabolizm — fiszki, pytania, zadania (tresci5, tresci6, bank7)
