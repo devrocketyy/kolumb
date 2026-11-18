@@ -1,0 +1,699 @@
+{
+ "id": "zwierzeta",
+ "nazwa": "Zwierzęta i systematyka",
+ "opis": "Zasady klasyfikacji, kladogramy, bezkręgowce i kręgowce.",
+ "poddzialy": [
+  {
+   "id": "b-systematyka",
+   "nazwa": "Klasyfikacja i kladogramy",
+   "opis": "Wymaganie V podstawy programowej.",
+   "wymaganie": "V",
+   "fiszki": [
+    {
+     "id": "fe1a274ad",
+     "przod": "Wyjaśnij pojęcie: systematyka",
+     "tyl": "Dział biologii zajmujący się opisywaniem, nazywaniem i klasyfikowaniem organizmów zgodnie z ich pokrewieństwem ewolucyjnym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f92b1ff7e",
+     "przod": "Hierarchia jednostek systematycznych",
+     "tyl": "Domena → królestwo → typ (u roślin: gromada) → gromada (u roślin: klasa) → rząd → rodzina → rodzaj → gatunek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f995942b6",
+     "przod": "Wyjaśnij pojęcie: nazewnictwo binominalne",
+     "tyl": "Dwuczłonowa łacińska nazwa gatunku (Linneusz): nazwa rodzaju (wielką literą) + epitet gatunkowy (małą), np. Homo sapiens.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f793e98e0",
+     "przod": "Wyjaśnij pojęcie: gatunek (biologiczna definicja)",
+     "tyl": "Zespół populacji, których osobniki mogą się swobodnie krzyżować i wydawać płodne potomstwo, izolowany rozrodczo od innych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f05b26481",
+     "przod": "Trzy domeny życia",
+     "tyl": "Bakterie, archeony i eukarionty (Woese, na podstawie sekwencji rRNA).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "fd8617f7b",
+     "przod": "Wyjaśnij pojęcie: kladogram",
+     "tyl": "Diagram przedstawiający pokrewieństwo ewolucyjne grup na podstawie wspólnych cech pochodnych; węzły to wspólni przodkowie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "feaba5abb",
+     "przod": "Wyjaśnij pojęcie: takson monofiletyczny",
+     "tyl": "Grupa obejmująca wspólnego przodka i wszystkich jego potomków (np. ssaki, ptaki) — jedyny prawidłowy w kladystyce.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f4184a58e",
+     "przod": "Wyjaśnij pojęcie: takson parafiletyczny",
+     "tyl": "Grupa obejmująca wspólnego przodka i tylko część jego potomków (np. „gady” bez ptaków, „ryby”, protisty).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "facb46040",
+     "przod": "Wyjaśnij pojęcie: takson polifiletyczny",
+     "tyl": "Grupa organizmów niemających wspólnego bezpośredniego przodka, połączonych na podstawie podobieństw (np. „zwierzęta stałocieplne”: ptaki + ssaki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "fc5acb9dc",
+     "przod": "Wyjaśnij pojęcie: grupy siostrzane",
+     "tyl": "Dwie grupy wywodzące się bezpośrednio od tego samego wspólnego przodka (z tego samego węzła kladogramu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f49582328",
+     "przod": "Jak odczytać pokrewieństwo z kladogramu?",
+     "tyl": "Im bliżej (niżej od końców) znajduje się wspólny węzeł dwóch grup, tym są bliżej spokrewnione; kolejność gałęzi w poziomie nie ma znaczenia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f9a1f60e4",
+     "przod": "Wyjaśnij pojęcie: cechy homologiczne i analogiczne",
+     "tyl": "Homologiczne — wspólne pochodzenie, mogą różnić się funkcją (kończyny kręgowców); analogiczne — podobna funkcja, różne pochodzenie (skrzydła owada i ptaka) — wynik konwergencji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "fbd2422d1",
+     "przod": "Wyjaśnij pojęcie: cechy pierwotne i pochodne (apomorfie)",
+     "tyl": "Pierwotne — odziedziczone po odległym przodku; pochodne — nowe cechy, które pojawiły się u przodka danej grupy i służą do wyróżniania kladów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "ff01d3986",
+     "przod": "Klucz do oznaczania organizmów",
+     "tyl": "Narzędzie z serią par przeciwstawnych opisów (dychotomiczny), prowadzące do nazwy organizmu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f37a80507",
+     "przod": "Cechy zwierząt",
+     "tyl": "Wielokomórkowe eukarionty, heterotrofy (zwykle trawią pokarm wewnątrz ciała), bez ściany komórkowej, materiał zapasowy — glikogen, większość zdolna do ruchu, rozwój z blastulą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f4344e902",
+     "przod": "Wyjaśnij pojęcie: symetria promienista i dwuboczna",
+     "tyl": "Promienista — kilka płaszczyzn symetrii (parzydełkowce, osiadły tryb życia); dwuboczna — jedna płaszczyzna (aktywne poruszanie, cefalizacja).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f8693e26b",
+     "przod": "Wyjaśnij pojęcie: zwierzęta dwu- i trójwarstwowe",
+     "tyl": "Dwuwarstwowe — ektoderma i endoderma (parzydełkowce); trójwarstwowe — także mezoderma (pozostałe tkankowce).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f0af71590",
+     "przod": "Wyjaśnij pojęcie: pierwouste i wtórouste",
+     "tyl": "Pierwouste — pragęba staje się otworem gębowym (pierścienice, stawonogi, mięczaki); wtórouste — pragęba staje się odbytem (szkarłupnie, strunowce).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f13371dad",
+     "przod": "Wyjaśnij pojęcie: jama ciała — typy",
+     "tyl": "Bezjamowe (płazińce — miąższ), jama pierwotna (nicienie), jama wtórna — celoma, wyścielona nabłonkiem z mezodermy (pierścienice, mięczaki, stawonogi, strunowce).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f9b345e42",
+     "przod": "Podaj nazwę pojęcia: Dział biologii zajmujący się opisywaniem, nazywaniem i klasyfikowaniem organizmów zgodnie z ich pokrewieństwem ewolucyjnym.",
+     "tyl": "systematyka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f14550d21",
+     "przod": "Rozpoznaj: Domena → królestwo → typ (u roślin: gromada) → gromada (u roślin: klasa) → rząd → rodzina → rodzaj → gatunek.",
+     "tyl": "Hierarchia jednostek systematycznych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "fb21b8316",
+     "przod": "Podaj nazwę pojęcia: Dwuczłonowa łacińska nazwa gatunku (Linneusz): nazwa rodzaju (wielką literą) + epitet gatunkowy (małą), np. Homo sapiens.",
+     "tyl": "nazewnictwo binominalne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f27d7df10",
+     "przod": "Podaj nazwę pojęcia: Zespół populacji, których osobniki mogą się swobodnie krzyżować i wydawać płodne potomstwo, izolowany rozrodczo od innych.",
+     "tyl": "gatunek (biologiczna definicja)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f520f58c8",
+     "przod": "Podaj nazwę pojęcia: Diagram przedstawiający pokrewieństwo ewolucyjne grup na podstawie wspólnych cech pochodnych; węzły to wspólni przodkowie.",
+     "tyl": "kladogram",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f2098714c",
+     "przod": "Podaj nazwę pojęcia: Grupa obejmująca wspólnego przodka i wszystkich jego potomków (np. ssaki, ptaki) — jedyny prawidłowy w kladystyce.",
+     "tyl": "takson monofiletyczny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f4fdcca0d",
+     "przod": "Podaj nazwę pojęcia: Grupa obejmująca wspólnego przodka i tylko część jego potomków (np. „gady” bez ptaków, „ryby”, protisty).",
+     "tyl": "takson parafiletyczny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "f7164fb2c",
+     "przod": "Podaj nazwę pojęcia: Grupa organizmów niemających wspólnego bezpośredniego przodka, połączonych na podstawie podobieństw (np. „zwierzęta stałocieplne”: ptaki + ssaki).",
+     "tyl": "takson polifiletyczny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pafde4a3e",
+     "pytanie": "Grupa „gady” (bez ptaków) jest taksonem:",
+     "odpowiedzi": [
+      "polifiletycznym",
+      "siostrzanym",
+      "parafiletycznym",
+      "monofiletycznym"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Brak części potomków.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1a6be80e",
+     "pytanie": "Skrzydła motyla i nietoperza to narządy:",
+     "odpowiedzi": [
+      "atawistyczne",
+      "szczątkowe",
+      "homologiczne",
+      "analogiczne"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Konwergencja.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3a1319ec",
+     "pytanie": "Wtóroustymi są:",
+     "odpowiedzi": [
+      "stawonogi",
+      "mięczaki",
+      "strunowce",
+      "pierścienice"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Pragęba → odbyt.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5eeb839f",
+     "pytanie": "Poprawnie zapisana nazwa gatunkowa to:",
+     "odpowiedzi": [
+      "Homo sapiens",
+      "Homo Sapiens",
+      "homo Sapiens",
+      "HOMO sapiens"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Binominalna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-bezkregowce",
+   "nazwa": "Bezkręgowce",
+   "opis": "Wymaganie X podstawy programowej.",
+   "wymaganie": "X",
+   "fiszki": [
+    {
+     "id": "ff7564eb6",
+     "przod": "Gąbki — cechy",
+     "tyl": "Najprostsze zwierzęta bez tkanek; ciało z porami, komórki kołnierzykowate filtrują wodę; osiadłe, wodne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f74ced9a4",
+     "przod": "Parzydełkowce — cechy",
+     "tyl": "Dwuwarstwowe, symetria promienista, jama chłonąco-trawiąca z jednym otworem, komórki parzydełkowe; postaci polipa i meduzy (stułbia, chełbia, koralowce).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f6904827d",
+     "przod": "Płazińce — cechy",
+     "tyl": "Trójwarstwowe, bezjamowe, spłaszczone grzbieto-brzusznie, układ pokarmowy ślepo zakończony lub brak; wiele pasożytów (tasiemce, przywry), wolno żyjące wypławki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f7aec42f7",
+     "przod": "Przystosowania tasiemca do pasożytnictwa",
+     "tyl": "Narządy czepne (przyssawki, haki), brak układu pokarmowego (wchłanianie całą powierzchnią), oskórek chroniący przed enzymami, obojnactwo, ogromna płodność, cykl z żywicielem pośrednim.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f35141b30",
+     "przod": "Cykl tasiemca nieuzbrojonego",
+     "tyl": "Człowiek (żywiciel ostateczny) ← zjedzenie niedogotowanej wołowiny z wągrami ← bydło (żywiciel pośredni) zjada jaja z członami w paszy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fcd0f35dd",
+     "przod": "Nicienie — cechy i przykłady",
+     "tyl": "Obły, nieczłonowany kształt, jama pierwotna, przewód pokarmowy z odbytem, rozdzielnopłciowe; glista ludzka, owsik, włosień (mięso dzika/świni).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "ffb6e99eb",
+     "przod": "Profilaktyka zarażenia glistą ludzką i owsikiem",
+     "tyl": "Mycie rąk, warzyw i owoców, higiena osobista, krótkie paznokcie (owsica).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f7e93cc2d",
+     "przod": "Pierścienice — cechy",
+     "tyl": "Ciało członowane (metameria), celoma, zamknięty układ krwionośny, metanefrydia, łańcuszkowy układ nerwowy; dżdżownica, pijawka, nereida.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "feb48b839",
+     "przod": "Znaczenie dżdżownic",
+     "tyl": "Spulchniają i napowietrzają glebę, mieszają warstwy, przyspieszają rozkład materii organicznej (próchnica).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f346c173d",
+     "przod": "Stawonogi — cechy",
+     "tyl": "Członowane odnóża, szkielet zewnętrzny z chityny (linienie), układ krwionośny otwarty, ciało z tagm (głowa, tułów, odwłok).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f8c3c965c",
+     "przod": "Owady — cechy",
+     "tyl": "Ciało: głowa, tułów (3 pary odnóży, zwykle 2 pary skrzydeł), odwłok; jedna para czułków; tchawki; cewki Malpighiego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fd091bd16",
+     "przod": "Pajęczaki — cechy",
+     "tyl": "Głowotułów i odwłok, 4 pary odnóży krocznych, brak czułków, szczękoczułki, płucotchawki; pająki, kleszcze, roztocza, skorpiony.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "ffaabe3b7",
+     "przod": "Skorupiaki — cechy",
+     "tyl": "Głównie wodne, dwie pary czułków, oddychanie skrzelami, pancerz często wysycony CaCO₃; rak, kryl, rozwielitki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f563bf45d",
+     "przod": "Mięczaki — cechy",
+     "tyl": "Miękkie, nieczłonowane ciało: noga, worek trzewiowy, płaszcz (często wytwarza muszlę); ślimaki, małże, głowonogi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "ff72590f3",
+     "przod": "Przystosowania głowonogów do aktywnego trybu życia",
+     "tyl": "Zamknięty układ krwionośny, dobrze rozwinięty mózg i oczy, ruch odrzutowy, ramiona z przyssawkami, zdolność zmiany barwy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "ff11d77bf",
+     "przod": "Małże — sposób odżywiania",
+     "tyl": "Filtratory — pobierają cząstki pokarmu z wody przepływającej przez skrzela; brak głowy i tarki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fefc3f7de",
+     "przod": "Szkarłupnie — cechy",
+     "tyl": "Morskie wtórouste, symetria promienista (pięciopromienna) dorosłych, larwa dwuboczna, układ ambulakralny (nóżki ambulakralne); rozgwiazdy, jeżowce.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fe80ab76a",
+     "przod": "Rozpoznaj: Najprostsze zwierzęta bez tkanek; ciało z porami, komórki kołnierzykowate filtrują wodę; osiadłe, wodne.",
+     "tyl": "Gąbki — cechy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f06f3b332",
+     "przod": "Rozpoznaj: Trójwarstwowe, bezjamowe, spłaszczone grzbieto-brzusznie, układ pokarmowy ślepo zakończony lub brak; wiele pasożytów (tasiemce, przywry), wolno żyjące wypławki.",
+     "tyl": "Płazińce — cechy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f1c4121ac",
+     "przod": "Rozpoznaj: Człowiek (żywiciel ostateczny) ← zjedzenie niedogotowanej wołowiny z wągrami ← bydło (żywiciel pośredni) zjada jaja z członami w paszy.",
+     "tyl": "Cykl tasiemca nieuzbrojonego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f55ea130e",
+     "przod": "Rozpoznaj: Obły, nieczłonowany kształt, jama pierwotna, przewód pokarmowy z odbytem, rozdzielnopłciowe; glista ludzka, owsik, włosień (mięso dzika/świni).",
+     "tyl": "Nicienie — cechy i przykłady",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fd59e2a76",
+     "przod": "Rozpoznaj: Mycie rąk, warzyw i owoców, higiena osobista, krótkie paznokcie (owsica).",
+     "tyl": "Profilaktyka zarażenia glistą ludzką i owsikiem",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f46f8d2a2",
+     "przod": "Rozpoznaj: Ciało członowane (metameria), celoma, zamknięty układ krwionośny, metanefrydia, łańcuszkowy układ nerwowy; dżdżownica, pijawka, nereida.",
+     "tyl": "Pierścienice — cechy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fad154377",
+     "przod": "Rozpoznaj: Członowane odnóża, szkielet zewnętrzny z chityny (linienie), układ krwionośny otwarty, ciało z tagm (głowa, tułów, odwłok).",
+     "tyl": "Stawonogi — cechy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f15401880",
+     "przod": "Rozpoznaj: Ciało: głowa, tułów (3 pary odnóży, zwykle 2 pary skrzydeł), odwłok; jedna para czułków; tchawki; cewki Malpighiego.",
+     "tyl": "Owady — cechy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fcf22e36c",
+     "przod": "Rozpoznaj: Głowotułów i odwłok, 4 pary odnóży krocznych, brak czułków, szczękoczułki, płucotchawki; pająki, kleszcze, roztocza, skorpiony.",
+     "tyl": "Pajęczaki — cechy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f71a40615",
+     "przod": "Rozpoznaj: Głównie wodne, dwie pary czułków, oddychanie skrzelami, pancerz często wysycony CaCO₃; rak, kryl, rozwielitki.",
+     "tyl": "Skorupiaki — cechy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f91ac86f7",
+     "przod": "Rozpoznaj: Miękkie, nieczłonowane ciało: noga, worek trzewiowy, płaszcz (często wytwarza muszlę); ślimaki, małże, głowonogi.",
+     "tyl": "Mięczaki — cechy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fe8cd2b49",
+     "przod": "Rozpoznaj: Filtratory — pobierają cząstki pokarmu z wody przepływającej przez skrzela; brak głowy i tarki.",
+     "tyl": "Małże — sposób odżywiania",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f54c865e8",
+     "przod": "Rozpoznaj: Morskie wtórouste, symetria promienista (pięciopromienna) dorosłych, larwa dwuboczna, układ ambulakralny (nóżki ambulakralne); rozgwiazdy, jeżowce.",
+     "tyl": "Szkarłupnie — cechy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pada95447",
+     "pytanie": "Komórki parzydełkowe występują u:",
+     "odpowiedzi": [
+      "parzydełkowców",
+      "nicieni",
+      "płazińców",
+      "gąbek"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Stułbia, meduzy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe190f931",
+     "pytanie": "Owady mają:",
+     "odpowiedzi": [
+      "płucotchawki i szczękoczułki",
+      "3 pary odnóży i 1 parę czułków",
+      "4 pary odnóży i brak czułków",
+      "5 par odnóży i 2 pary czułków"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Sześcionogi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb72cd46b",
+     "pytanie": "Zamknięty układ krwionośny występuje u:",
+     "odpowiedzi": [
+      "owadów",
+      "dżdżownicy",
+      "ślimaków",
+      "pająków"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Pierścienice.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p76bd89cc",
+     "pytanie": "Żywicielem pośrednim tasiemca nieuzbrojonego jest:",
+     "odpowiedzi": [
+      "świnia",
+      "pies",
+      "człowiek",
+      "bydło"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Wągry w mięsie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcecee964",
+     "pytanie": "Brak układu pokarmowego jest przystosowaniem:",
+     "odpowiedzi": [
+      "dżdżownicy",
+      "wypławka",
+      "glisty",
+      "tasiemca"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Wchłanianie powierzchnią ciała.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-kregowce",
+   "nazwa": "Kręgowce",
+   "opis": "Wymaganie X podstawy programowej.",
+   "wymaganie": "X",
+   "fiszki": [
+    {
+     "id": "f10146242",
+     "przod": "Cechy strunowców",
+     "tyl": "W pewnym stadium rozwoju: struna grzbietowa, cewka nerwowa po stronie grzbietowej, szczeliny skrzelowe w gardzieli, ogon za odbytem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "ff94dd0cc",
+     "przod": "Cechy kręgowców",
+     "tyl": "Kręgosłup zastępujący strunę, czaszka chroniąca mózg, szkielet wewnętrzny, zamknięty układ krwionośny z sercem po stronie brzusznej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fabd2a6d7",
+     "przod": "Ryby — przystosowania do życia w wodzie",
+     "tyl": "Opływowy kształt, łuski i śluz, płetwy, skrzela, linia boczna (wyczuwanie ruchów wody), pęcherz pławny (ryby kostnoszkieletowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fdebe82ff",
+     "przod": "Wyjaśnij pojęcie: linia boczna",
+     "tyl": "Narząd zmysłu ryb (i larw płazów) odbierający drgania i ruchy wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fc1ffe17e",
+     "przod": "Płazy — cechy i związek z wodą",
+     "tyl": "Cienka, wilgotna, gruczołowata skóra (oddychanie skórne), zapłodnienie zewnętrzne, jaja bez skorupy w wodzie, larwy (kijanki) ze skrzelami — przeobrażenie; zmiennocieplne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fa78985c3",
+     "przod": "Gady — przystosowania do życia na lądzie",
+     "tyl": "Sucha skóra z łuskami rogowymi, płuca o większej powierzchni, zapłodnienie wewnętrzne, jajo owodniowe ze skorupą, wydalanie kwasu moczowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f3fc7f61c",
+     "przod": "Wyjaśnij pojęcie: jajo owodniowe",
+     "tyl": "Jajo z błonami płodowymi (owodnia, kosmówka, omocznia, pęcherzyk żółtkowy) i skorupą — rozwój zarodka niezależny od zbiorników wodnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f65f5ddbb",
+     "przod": "Ptaki — przystosowania do lotu",
+     "tyl": "Pióra, skrzydła, lekkie kości pneumatyczne, grzebień mostka (przyczep mięśni lotnych), worki powietrzne, brak pęcherza moczowego i zębów, wysoki metabolizm, stałocieplność.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f7e7d32e7",
+     "przod": "Wyjaśnij pojęcie: podwójne oddychanie ptaków",
+     "tyl": "Dzięki workom powietrznym powietrze przepływa przez płuca jednokierunkowo — wymiana gazowa zachodzi zarówno przy wdechu, jak i wydechu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f0651ef3f",
+     "przod": "Ssaki — cechy",
+     "tyl": "Sierść, gruczoły mlekowe, potowe i łojowe, przepona, zróżnicowane zęby, 4-jamowe serce, erytrocyty bez jąder, stałocieplność, rozwinięta kora mózgowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f35c0b3bb",
+     "przod": "Stekowce, torbacze i łożyskowce",
+     "tyl": "Stekowce — składają jaja (dziobak, kolczatka); torbacze — młode rodzą się niedojrzałe i rozwijają w torbie (kangur, koala); łożyskowce — rozwój zarodka w macicy z łożyskiem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f08e7e330",
+     "przod": "Porównanie serca kręgowców",
+     "tyl": "Ryby — 1 przedsionek, 1 komora; płazy — 2 przedsionki, 1 komora; gady — 2 przedsionki, komora z niepełną przegrodą; ptaki i ssaki — 2 przedsionki, 2 komory.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f382ea1a2",
+     "przod": "Kręgowce zmiennocieplne i stałocieplne",
+     "tyl": "Zmiennocieplne: ryby, płazy, gady; stałocieplne: ptaki i ssaki (endotermia powstała niezależnie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f62e9c113",
+     "przod": "Wyjaśnij pojęcie: owodniowce i bezowodniowce",
+     "tyl": "Owodniowce — gady, ptaki, ssaki (zarodek w owodni); bezowodniowce — ryby i płazy (rozwój w wodzie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f3fc2eac7",
+     "przod": "Ewolucyjne przejście z wody na ląd — przystosowania płazów",
+     "tyl": "Kończyny kroczące (pięciopalczaste), płuca, powieki i gruczoły łzowe, ucho środkowe, ruchoma głowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f071b450d",
+     "przod": "Podaj nazwę pojęcia: Narząd zmysłu ryb (i larw płazów) odbierający drgania i ruchy wody.",
+     "tyl": "linia boczna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fe2a9bd36",
+     "przod": "Rozpoznaj: Cienka, wilgotna, gruczołowata skóra (oddychanie skórne), zapłodnienie zewnętrzne, jaja bez skorupy w wodzie, larwy (kijanki) ze skrzelami — przeobrażenie; zmiennocieplne.",
+     "tyl": "Płazy — cechy i związek z wodą",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f7d9173c5",
+     "przod": "Rozpoznaj: Sucha skóra z łuskami rogowymi, płuca o większej powierzchni, zapłodnienie wewnętrzne, jajo owodniowe ze skorupą, wydalanie kwasu moczowego.",
+     "tyl": "Gady — przystosowania do życia na lądzie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f490dfba2",
+     "przod": "Rozpoznaj: Pióra, skrzydła, lekkie kości pneumatyczne, grzebień mostka (przyczep mięśni lotnych), worki powietrzne, brak pęcherza moczowego i zębów, wysoki metabolizm, stałocieplność.",
+     "tyl": "Ptaki — przystosowania do lotu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "feffe3f07",
+     "przod": "Podaj nazwę pojęcia: Dzięki workom powietrznym powietrze przepływa przez płuca jednokierunkowo — wymiana gazowa zachodzi zarówno przy wdechu, jak i wydechu.",
+     "tyl": "podwójne oddychanie ptaków",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fe05265ed",
+     "przod": "Rozpoznaj: Sierść, gruczoły mlekowe, potowe i łojowe, przepona, zróżnicowane zęby, 4-jamowe serce, erytrocyty bez jąder, stałocieplność, rozwinięta kora mózgowa.",
+     "tyl": "Ssaki — cechy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f9728b63b",
+     "przod": "Rozpoznaj: Ryby — 1 przedsionek, 1 komora; płazy — 2 przedsionki, 1 komora; gady — 2 przedsionki, komora z niepełną przegrodą; ptaki i ssaki — 2 przedsionki, 2 komory.",
+     "tyl": "Porównanie serca kręgowców",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f97ac4fd9",
+     "przod": "Rozpoznaj: Kończyny kroczące (pięciopalczaste), płuca, powieki i gruczoły łzowe, ucho środkowe, ruchoma głowa.",
+     "tyl": "Ewolucyjne przejście z wody na ląd — przystosowania płazów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p638f7361",
+     "pytanie": "Jajo owodniowe występuje u:",
+     "odpowiedzi": [
+      "ryb",
+      "płazów",
+      "wszystkich kręgowców",
+      "gadów, ptaków i ssaków"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Owodniowce.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb3b83c57",
+     "pytanie": "Grzebień mostka występuje u:",
+     "odpowiedzi": [
+      "ptaków",
+      "ryb",
+      "gadów",
+      "płazów"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Przyczep mięśni lotnych.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5183fd72",
+     "pytanie": "Linia boczna to narząd zmysłu:",
+     "odpowiedzi": [
+      "ptaków",
+      "ssaków",
+      "gadów",
+      "ryb"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Ruch wody.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p41e6b71e",
+     "pytanie": "Dziobak jest przykładem:",
+     "odpowiedzi": [
+      "gada",
+      "stekowca",
+      "torbacza",
+      "łożyskowca"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Składa jaja.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6f12165a",
+     "pytanie": "Oddychanie skórne odgrywa dużą rolę u:",
+     "odpowiedzi": [
+      "płazów",
+      "ssaków",
+      "gadów",
+      "ptaków"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Wilgotna skóra.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
