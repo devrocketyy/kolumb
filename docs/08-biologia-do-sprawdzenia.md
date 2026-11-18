@@ -16,9 +16,9 @@ Treści są pisane na podstawie wymagań egzaminacyjnych 2027, informatora i spr
 - [ ] Biochemia — fiszki, pytania, zadania (tresci2, tresci3, bank2, bank5)
 - [ ] Komórka — fiszki, pytania, zadania (tresci4, bank3, bank5)
 - [ ] Omówienia arkuszy CKE maj 2025 i maj 2026 (procenty wykonania zadań z 2026 pochodzą ze sprawozdania CKE)
-- [ ] Kolejne działy — dopisywane poniżej, gdy powstaną
+- [ ] Metabolizm — fiszki, pytania, zadania (tresci5, tresci6, bank7)
+- [ ] Kolejne działy — dopisywane tutaj, gdy powstaną
 
 ## Znane ograniczenia (nie wymagają działania)
 - Ostrzeżenia generatora „nieznany dział” przy arkuszach — znikną po dodaniu działów z faz 2–4.
 - Schematy i ryciny do lekcji jeszcze nie powstały (planowane ok. 170).
-- [ ] Metabolizm — fiszki, pytania, zadania (tresci5, tresci6, bank7)
