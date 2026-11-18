@@ -1,0 +1,1730 @@
+{
+ "id": "rosliny",
+ "nazwa": "Rośliny",
+ "opis": "Różnorodność, tkanki i organy, gospodarka wodna, odżywianie, rozmnażanie, wzrost i rozwój.",
+ "poddzialy": [
+  {
+   "id": "b-przeglad-roslin",
+   "nazwa": "Glony i przegląd roślin lądowych",
+   "opis": "Wymaganie IX.1, IX.2.1–2 podstawy programowej.",
+   "wymaganie": "IX.1, IX.2.1–2",
+   "fiszki": [
+    {
+     "id": "fb645895f",
+     "przod": "Wyjaśnij pojęcie: zielenice",
+     "tyl": "Glony (rośliny pierwotnie wodne) z chlorofilem a i b, magazynujące skrobię w chloroplastach i mające celulozową ścianę — przodkowie roślin lądowych (np. chlorella, skrętnica, ramienice).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f5141502c",
+     "przod": "Wyjaśnij pojęcie: krasnorosty",
+     "tyl": "Glony głównie morskie z chlorofilem a i fikobilinami (czerwona barwa), magazynujące skrobię krasnorostową w cytoplazmie; brak wici w cyklu (np. Porphyra — nori).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f1775c293",
+     "przod": "Jak odróżnić krasnorosty od zielenic?",
+     "tyl": "Krasnorosty: fikobiliny (czerwona barwa), skrobia krasnorostowa w cytoplazmie, brak stadiów z wiciami; zielenice: chlorofil a i b, skrobia w chloroplastach, często stadia z wiciami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "ff00369f7",
+     "przod": "Znaczenie krasnorostów dla człowieka",
+     "tyl": "Źródło agaru (podłoża mikrobiologiczne, żelujący dodatek E406) i karagenu; pokarm (nori w sushi).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f38d8fb25",
+     "przod": "Znaczenie zielenic w przyrodzie i dla człowieka",
+     "tyl": "Producenci w wodach (fitoplankton), źródło tlenu; chlorella — suplementy; organizmy modelowe i potencjalne źródło biopaliw.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "fc649143f",
+     "przod": "Różnice między warunkami życia w wodzie i na lądzie",
+     "tyl": "Na lądzie: ryzyko wysychania, brak wyporu (potrzebne tkanki wzmacniające), więcej światła i CO₂, większe wahania temperatury, rozmnażanie bez wody (problem dla gamet).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f0cb65125",
+     "przod": "Przystosowania roślin do życia na lądzie",
+     "tyl": "Skórka z kutykulą i szparkami, tkanki przewodzące i wzmacniające, korzenie, ochrona gamet i zarodków (rodnie, plemnie, nasiona), zarodniki ze sporopoleniną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f5593c81c",
+     "przod": "Cechy mchów",
+     "tyl": "Brak tkanek przewodzących i prawdziwych korzeni (chwytniki); dominuje gametofit; do zapłodnienia potrzebna woda; sporofit (puszka z setą) rozwija się na gametoficie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f92f44deb",
+     "przod": "Cechy widłakowych",
+     "tyl": "Rośliny naczyniowe zarodnikowe z drobnymi, gęsto ułożonymi liśćmi (mikrofilami); zarodnie w kłosach zarodnionośnych; dominuje sporofit; np. widłak goździsty.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f91bb5cb8",
+     "przod": "Cechy skrzypowych",
+     "tyl": "Rośliny zarodnikowe z łodygami członowanymi, inkrustowanymi krzemionką, z liśćmi zredukowanymi do okółków ząbków; kłos zarodnionośny na szczycie pędu; np. skrzyp polny (pędy zarodnionośne wiosną).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f0236d9d1",
+     "przod": "Cechy paprociowych",
+     "tyl": "Rośliny naczyniowe zarodnikowe z dużymi, pierzastymi liśćmi (często zwiniętymi pastorałowato w młodości); zarodnie w kupkach na spodzie liści; dominuje sporofit; gametofit — przedrośle.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f5c0a956c",
+     "przod": "Cechy roślin nasiennych",
+     "tyl": "Wytwarzają nasiona; zapłodnienie niezależne od wody (łagiewka pyłkowa); silnie zredukowany gametofit; nagonasienne (zalążki na łuskach) i okrytonasienne (zalążki w zalążni, kwiaty, owoce).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "fca50ad71",
+     "przod": "Czym różnią się nagonasienne od okrytonasiennych?",
+     "tyl": "Nagonasienne: zalążki leżą odkryte na łuskach nasiennych, brak owoców i kwiatów właściwych, w drewnie głównie cewki. Okrytonasienne: zalążki w zalążni słupka, powstaje owoc, w drewnie naczynia, podwójne zapłodnienie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f22e309c0",
+     "przod": "Rodzime przykłady nagonasiennych",
+     "tyl": "Sosna zwyczajna, świerk pospolity, jodła, modrzew, jałowiec, cis (pod ochroną).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "fcaac2056",
+     "przod": "Jak rozpoznać mech na zdjęciu?",
+     "tyl": "Niska, zielona darń listkowatych łodyżek bez kwiatów; nad nią ulistnione sporofity: seta z puszką zarodni (u płonnika, torfowca).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f2e00b523",
+     "przod": "Jak rozpoznać paproć na zdjęciu?",
+     "tyl": "Duże, podzielone liście bez kwiatów; na spodzie liści brązowe kupki zarodni; młode liście zwinięte jak pastorał.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f41ca905c",
+     "przod": "Znaczenie mchów torfowców",
+     "tyl": "Tworzą torfowiska — magazynują wodę i węgiel (torf), kształtują stosunki wodne; zakwaszają środowisko.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f6029adee",
+     "przod": "Wyjaśnij pojęcie: rośliny naczyniowe",
+     "tyl": "Rośliny mające tkanki przewodzące (drewno i łyko): widłakowe, skrzypowe, paprociowe i nasienne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "fb759b124",
+     "przod": "Wyjaśnij pojęcie: przedrośle",
+     "tyl": "Gametofit paproci — mała, sercowata, zielona płytka z rodniami i plemniami, rozwijająca się z zarodnika.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "fca0a2997",
+     "przod": "Znaczenie roślin dla człowieka",
+     "tyl": "Pokarm, pasza, surowce (drewno, włókna, oleje), leki, przyprawy, rośliny ozdobne, tlen i klimat, ochrona gleby.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "ffc679d01",
+     "przod": "Wyjaśnij pojęcie: rośliny wtórnie wodne",
+     "tyl": "Rośliny lądowe (np. grzybień, moczarka, rdestnica), które wtórnie przystosowały się do życia w wodzie — mają np. przestwory powietrzne (aerenchymę), zredukowane tkanki wzmacniające.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f4bc1cf69",
+     "przod": "Dlaczego mchy osiągają niewielkie rozmiary?",
+     "tyl": "Nie mają tkanek przewodzących i wzmacniających — woda przemieszcza się wolno komórka po komórce, a ciało nie mogłoby się utrzymać bez podpory.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f7b0b0ebf",
+     "przod": "Wyjaśnij pojęcie: zarodnik (spora)",
+     "tyl": "Haploidalna komórka rozrodcza powstała przez mejozę w zarodni sporofitu; daje początek gametoficie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "fc9a532a5",
+     "przod": "Porównanie dominującego pokolenia w grupach roślin",
+     "tyl": "Mchy — gametofit; widłakowe, skrzypowe, paprociowe, nasienne — sporofit (u nasiennych gametofit silnie zredukowany).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "fa9407713",
+     "przod": "Wyjaśnij pojęcie: różnozarodnikowość",
+     "tyl": "Wytwarzanie dwóch rodzajów zarodników: mikrospor (dają gametofity męskie) i makrospor (gametofity żeńskie) — u niektórych widłakowych, paproci wodnych i wszystkich roślin nasiennych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f221611a7",
+     "przod": "Jak rozpoznać roślinę jednoliścienną?",
+     "tyl": "Równoległe unerwienie liści, wiązkowy system korzeniowy, rozproszone wiązki w łodydze, kwiaty trójkrotne, jeden liścień (np. trawy, lilie, storczyki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f08052ec5",
+     "przod": "Jak rozpoznać roślinę dwuliścienną?",
+     "tyl": "Siateczkowate unerwienie, system palowy, wiązki ułożone w pierścień, kwiaty cztero- lub pięciokrotne, dwa liścienie (np. fasola, róża, dąb).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f5330ab5d",
+     "przod": "Wyjaśnij pojęcie: porosty (powiązanie z roślinami)",
+     "tyl": "Nie są roślinami — to symbioza grzyba z glonem lub sinicą; omawiane w dziale grzybów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f66e8d0d2",
+     "przod": "Gatunki chronione wśród paprotników i mchów — przykłady",
+     "tyl": "Widłaki (np. widłak goździsty — częściowo), długosz królewski, pióropusznik strusi, torfowce (częściowo).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f48651c23",
+     "przod": "Wyjaśnij pojęcie: sporofit",
+     "tyl": "Diploidalne pokolenie rośliny wytwarzające zarodniki w zarodniach (przez mejozę).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "fe2505d6a",
+     "przod": "Podaj nazwę pojęcia: Glony (rośliny pierwotnie wodne) z chlorofilem a i b, magazynujące skrobię w chloroplastach i mające celulozową ścianę — przodkowie roślin lądowych (np. chlorella, skrętnica, ramienice).",
+     "tyl": "zielenice",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "fbce555bf",
+     "przod": "Rozpoznaj: Skórka z kutykulą i szparkami, tkanki przewodzące i wzmacniające, korzenie, ochrona gamet i zarodków (rodnie, plemnie, nasiona), zarodniki ze sporopoleniną.",
+     "tyl": "Przystosowania roślin do życia na lądzie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f15bfe02a",
+     "przod": "Rozpoznaj: Sosna zwyczajna, świerk pospolity, jodła, modrzew, jałowiec, cis (pod ochroną).",
+     "tyl": "Rodzime przykłady nagonasiennych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "fc5182d35",
+     "przod": "Podaj nazwę pojęcia: Gametofit paproci — mała, sercowata, zielona płytka z rodniami i plemniami, rozwijająca się z zarodnika.",
+     "tyl": "przedrośle",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "fe591a112",
+     "przod": "Rozpoznaj: Mchy — gametofit; widłakowe, skrzypowe, paprociowe, nasienne — sporofit (u nasiennych gametofit silnie zredukowany).",
+     "tyl": "Porównanie dominującego pokolenia w grupach roślin",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f28ac3392",
+     "przod": "Podaj nazwę pojęcia: Wytwarzanie dwóch rodzajów zarodników: mikrospor (dają gametofity męskie) i makrospor (gametofity żeńskie) — u niektórych widłakowych, paproci wodnych i wszystkich roślin nasiennych.",
+     "tyl": "różnozarodnikowość",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f27a6c50f",
+     "przod": "Rozpoznaj: Widłaki (np. widłak goździsty — częściowo), długosz królewski, pióropusznik strusi, torfowce (częściowo).",
+     "tyl": "Gatunki chronione wśród paprotników i mchów — przykłady",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    },
+    {
+     "id": "f356ed7e2",
+     "przod": "Podaj nazwę pojęcia: Diploidalne pokolenie rośliny wytwarzające zarodniki w zarodniach (przez mejozę).",
+     "tyl": "sporofit",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.1, IX.2.1–2"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p49590d92",
+     "pytanie": "Fikobiliny jako barwniki pomocnicze mają:",
+     "odpowiedzi": [
+      "zielenice",
+      "krasnorosty",
+      "paprocie",
+      "mchy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Czerwona barwa krasnorostów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1f8d13ef",
+     "pytanie": "Dominującym pokoleniem u mchów jest:",
+     "odpowiedzi": [
+      "gametofit",
+      "sporofit",
+      "zarodnik",
+      "przedrośle"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Zielona darń to gametofity.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0c34f602",
+     "pytanie": "Zalążki leżące odkryte na łuskach to cecha:",
+     "odpowiedzi": [
+      "mchów",
+      "nagonasiennych",
+      "paproci",
+      "okrytonasiennych"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Nagonasienne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6d4ab1c0",
+     "pytanie": "Agar pozyskuje się z:",
+     "odpowiedzi": [
+      "zielenic",
+      "brunatnic",
+      "krasnorostów",
+      "okrzemek"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Krasnorosty.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p62151659",
+     "pytanie": "Łodygi członowane z krzemionką i okółkami ząbkowatych liści ma:",
+     "odpowiedzi": [
+      "paproć orlica",
+      "widłak",
+      "mech płonnik",
+      "skrzyp"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Skrzypowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1fbee51e",
+     "pytanie": "Cechą rośliny jednoliściennej jest:",
+     "odpowiedzi": [
+      "kwiaty pięciokrotne",
+      "pierścieniowy układ wiązek",
+      "palowy system korzeniowy",
+      "równoległe unerwienie liści"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Np. trawy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-tkanki-roslinne",
+   "nazwa": "Tkanki roślinne",
+   "opis": "Wymaganie IX.2.3–4 podstawy programowej.",
+   "wymaganie": "IX.2.3–4",
+   "fiszki": [
+    {
+     "id": "fe437b2ad",
+     "przod": "Wyjaśnij pojęcie: tkanka",
+     "tyl": "Zespół komórek o podobnej budowie i pochodzeniu, pełniących wspólną funkcję.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fe28f66b6",
+     "przod": "Wyjaśnij pojęcie: merystemy (tkanki twórcze)",
+     "tyl": "Tkanki zbudowane z małych, żywych komórek z dużym jądrem, gęstą cytoplazmą i cienką ścianą, zdolnych do podziałów — wytwarzają nowe komórki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fce74e788",
+     "przod": "Wyjaśnij pojęcie: merystemy wierzchołkowe",
+     "tyl": "Merystemy pierwotne w stożkach wzrostu pędu i korzenia — odpowiadają za wzrost na długość.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f7523496f",
+     "przod": "Wyjaśnij pojęcie: kambium (miazga)",
+     "tyl": "Merystem boczny wtórny w łodydze i korzeniu roślin dwuliściennych i nagonasiennych — wytwarza do wewnątrz drewno wtórne, a na zewnątrz łyko wtórne (przyrost na grubość).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f5c2d0928",
+     "przod": "Wyjaśnij pojęcie: fellogen (miazga korkotwórcza)",
+     "tyl": "Merystem boczny wytwarzający na zewnątrz korek, a do wewnątrz fellodermę — tworzy perydermę zastępującą skórkę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fee419439",
+     "przod": "Wyjaśnij pojęcie: merystemy interkalarne (wstawowe)",
+     "tyl": "Merystemy u nasady międzywęźli (np. traw) — umożliwiają wzrost łodygi na długość także poza wierzchołkiem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "ff1fb12ca",
+     "przod": "Wyjaśnij pojęcie: tkanki stałe",
+     "tyl": "Tkanki powstałe z merystemów, których komórki utraciły zdolność do podziałów i wyspecjalizowały się: okrywające, miękiszowe, wzmacniające, przewodzące, wydzielnicze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fa87aba89",
+     "przod": "Wyjaśnij pojęcie: skórka (epiderma)",
+     "tyl": "Jednowarstwowa tkanka okrywająca młode organy; komórki ściśle przylegające, zwykle bez chloroplastów (oprócz szparkowych), pokryte kutykulą; występują włoski i szparki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "ffe01954b",
+     "przod": "Wyjaśnij pojęcie: aparat szparkowy",
+     "tyl": "Dwie komórki szparkowe (z chloroplastami, o nierównomiernie zgrubiałej ścianie) otaczające szparkę oraz komórki przyszparkowe — reguluje wymianę gazową i transpirację.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f14907a88",
+     "przod": "Wyjaśnij pojęcie: kutykula",
+     "tyl": "Warstwa kutyny i wosków na zewnętrznej ścianie komórek skórki — ogranicza parowanie wody i chroni przed patogenami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fb02d5c1b",
+     "przod": "Wyjaśnij pojęcie: włośniki",
+     "tyl": "Wypustki komórek skórki korzenia (ryzodermy) zwiększające powierzchnię pobierania wody i soli mineralnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f43ca327a",
+     "przod": "Wyjaśnij pojęcie: korek (felem)",
+     "tyl": "Tkanka okrywająca wtórna z martwych komórek o ścianach przesyconych suberyną — nieprzepuszczalna dla wody i gazów, chroni pień i korzenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f80a24711",
+     "przod": "Wyjaśnij pojęcie: przetchlinki",
+     "tyl": "Miejsca w korku z luźno ułożonymi komórkami i przestworami — umożliwiają wymianę gazową (np. ciemne kreski na pniu brzozy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fdef67ed2",
+     "przod": "Wyjaśnij pojęcie: miękisz asymilacyjny",
+     "tyl": "Tkanka z licznymi chloroplastami przeprowadzająca fotosyntezę — miękisz palisadowy (wydłużone komórki) i gąbczasty (z dużymi przestworami) w liściu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "ffbb6e566",
+     "przod": "Wyjaśnij pojęcie: miękisz spichrzowy",
+     "tyl": "Tkanka magazynująca substancje zapasowe (skrobia, białka, tłuszcze) — np. w bulwach, korzeniach spichrzowych, nasionach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fe52cf54d",
+     "przod": "Wyjaśnij pojęcie: miękisz wodonośny",
+     "tyl": "Tkanka z dużymi wakuolami gromadzącymi wodę — u sukulentów (kaktusy, rozchodniki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "ffefee826",
+     "przod": "Wyjaśnij pojęcie: miękisz powietrzny (aerenchyma)",
+     "tyl": "Tkanka z dużymi przestworami międzykomórkowymi wypełnionymi powietrzem — u roślin wodnych i bagiennych; ułatwia dostęp tlenu do zanurzonych organów i utrzymuje je na powierzchni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f52d164a0",
+     "przod": "Wyjaśnij pojęcie: kolenchyma (zwarcica)",
+     "tyl": "Tkanka wzmacniająca z żywych komórek o nierównomiernie zgrubiałych, celulozowych ścianach — wzmacnia rosnące organy (np. ogonki liściowe, młode łodygi), nie hamując ich wzrostu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f8e9374c4",
+     "przod": "Wyjaśnij pojęcie: sklerenchyma (twardzica)",
+     "tyl": "Tkanka wzmacniająca z martwych komórek o równomiernie zgrubiałych, zwykle zdrewniałych ścianach: włókna (np. len) i sklereidy (np. w łupinie orzecha, gruszce).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fb4b7c29b",
+     "przod": "Czym różni się kolenchyma od sklerenchymy?",
+     "tyl": "Kolenchyma — żywe komórki, ściany celulozowe zgrubiałe nierównomiernie, w organach rosnących; sklerenchyma — martwe komórki, ściany zdrewniałe, zgrubiałe równomiernie, w organach dojrzałych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f5b261a0c",
+     "przod": "Wyjaśnij pojęcie: drewno (ksylem)",
+     "tyl": "Tkanka przewodząca wodę i sole mineralne od korzenia do liści; elementy przewodzące: naczynia i cewki (martwe, zdrewniałe); także włókna drzewne i miękisz drzewny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fb6129167",
+     "przod": "Wyjaśnij pojęcie: łyko (floem)",
+     "tyl": "Tkanka przewodząca produkty fotosyntezy (sacharozę); elementy przewodzące: rurki sitowe z komórkami przyrurkowymi (żywe); także włókna łykowe i miękisz łykowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "ffbce2b49",
+     "przod": "Czym różnią się naczynia od cewek?",
+     "tyl": "Naczynia — rurki z członów, których ściany poprzeczne zanikły (szybki przepływ), u okrytonasiennych; cewki — wydłużone komórki z zachowanymi ścianami poprzecznymi i jamkami, u nagonasiennych i paprotników.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f67476a9a",
+     "przod": "Budowa rurki sitowej a funkcja",
+     "tyl": "Żywe komórki bez jądra, z cienką warstwą cytoplazmy, połączone płytami sitowymi z porami — umożliwiają przepływ soku; funkcje życiowe wspiera komórka przyrurkowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fee5597a6",
+     "przod": "Wyjaśnij pojęcie: komórka przyrurkowa",
+     "tyl": "Komórka z jądrem i licznymi mitochondriami towarzysząca członowi rurki sitowej — dostarcza ATP i białek, uczestniczy w załadunku sacharozy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f19033152",
+     "przod": "Budowa naczynia a funkcja",
+     "tyl": "Martwe, puste rurki bez ścian poprzecznych, ze zdrewniałymi, zgrubiałymi ścianami (pierścieniowo, spiralnie, siateczkowato) — umożliwiają szybki przepływ wody i są odporne na zgniecenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f1cffbb42",
+     "przod": "Wyjaśnij pojęcie: wiązka przewodząca",
+     "tyl": "Zespół drewna i łyka (czasem z kambium i sklerenchymą) przebiegający przez łodygę, liście i korzeń.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f57d1d169",
+     "przod": "Typy wiązek przewodzących",
+     "tyl": "Kolateralna zamknięta (bez kambium, jednoliścienne), kolateralna otwarta (z kambium, dwuliścienne), bikolateralna (łyko po obu stronach drewna, np. dyniowate), koncentryczne, promieniste (w korzeniu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fe087a09f",
+     "przod": "Wyjaśnij pojęcie: tkanki wydzielnicze",
+     "tyl": "Komórki lub zespoły komórek wydzielające substancje: włoski gruczołowe, miodniki (nektar), kanały żywiczne, rury mleczne (lateks), hydatody (woda).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fabb86848",
+     "przod": "Wyjaśnij pojęcie: hydatody",
+     "tyl": "Szparki wodne na brzegach liści, przez które wydzielana jest woda w postaci kropli (gutacja) przy wysokiej wilgotności powietrza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f888cf0ae",
+     "przod": "Wyjaśnij pojęcie: gutacja",
+     "tyl": "Wydzielanie wody w postaci kropli przez hydatody, gdy transpiracja jest słaba, a parcie korzeniowe silne (np. rano na liściach traw).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "ffce343d7",
+     "przod": "Jak rozpoznać na preparacie drewno?",
+     "tyl": "Martwe komórki o grubych, zdrewniałych ścianach (barwią się floroglucyną na czerwono), z dużymi światłami naczyń, bez cytoplazmy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f4547204d",
+     "przod": "Jak rozpoznać na preparacie łyko?",
+     "tyl": "Żywe komórki o cienkich ścianach: rurki sitowe z płytami sitowymi i mniejsze komórki przyrurkowe z jądrami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fdc1c78d2",
+     "przod": "Wyjaśnij pojęcie: przestwory międzykomórkowe",
+     "tyl": "Wolne przestrzenie między komórkami (wypełnione powietrzem) — umożliwiają dyfuzję gazów w tkankach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f98aec3d3",
+     "przod": "Wyjaśnij pojęcie: endoderma (śródskórnia)",
+     "tyl": "Wewnętrzna warstwa kory korzenia z pasemkami Caspary’ego — kontroluje przechodzenie wody i jonów do walca osiowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f7cfbdc8a",
+     "przod": "Wyjaśnij pojęcie: pasemka Caspary’ego",
+     "tyl": "Pasma suberyny w ścianach komórek endodermy — blokują transport apoplastyczny, zmuszając wodę i jony do przejścia przez błony (selekcja).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f9b3e1f0b",
+     "przod": "Wyjaśnij pojęcie: perycykl",
+     "tyl": "Zewnętrzna warstwa walca osiowego korzenia, zdolna do podziałów — wytwarza korzenie boczne i (u dwuliściennych) uczestniczy w przyroście wtórnym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f12971aa5",
+     "przod": "Połączenia międzykomórkowe w tkankach roślinnych",
+     "tyl": "Plazmodesmy (cytoplazmatyczne kanaliki przez ściany) — transport symplastyczny substancji i sygnałów; blaszka środkowa — spaja komórki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f1f9c4390",
+     "przod": "Znaczenie plazmodesm w tkankach roślinnych",
+     "tyl": "Umożliwiają przemieszczanie wody, jonów, cukrów, hormonów, RNA i białek między komórkami, koordynując funkcje tkanki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fdc4310d3",
+     "przod": "Jak przeprowadzić obserwację tkanki przewodzącej wodę?",
+     "tyl": "Wstawić łodygę selera lub białego kwiatu do wody z barwnikiem (np. eozyną, tuszem) i po kilku godzinach obejrzeć przekrój — zabarwione są wiązki drewna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f9c4d9282",
+     "przod": "Wyjaśnij pojęcie: drewno wczesne i późne (słoje)",
+     "tyl": "Drewno wczesne (wiosenne) — duże naczynia, cienkie ściany, jaśniejsze; późne (letnie) — mniejsze komórki, grubsze ściany, ciemniejsze; razem tworzą słój roczny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f9f521b94",
+     "przod": "Jak określić wiek drzewa na przekroju pnia?",
+     "tyl": "Policzyć przyrosty roczne (słoje) drewna — każdy odpowiada jednemu sezonowi wegetacyjnemu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f4d79ef35",
+     "przod": "Wyjaśnij pojęcie: twardziel",
+     "tyl": "Wewnętrzna, ciemniejsza część pnia z martwym, nieprzewodzącym drewnem przesyconym garbnikami i żywicami — pełni funkcję mechaniczną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fea8ed7f9",
+     "przod": "Wyjaśnij pojęcie: biel",
+     "tyl": "Zewnętrzna, jaśniejsza część drewna pnia, przewodząca wodę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f67ea4077",
+     "przod": "Dlaczego elementy drewna są martwe, a rurki sitowe żywe?",
+     "tyl": "Przepływ wody (napędzany transpiracją) nie wymaga energii komórek, a puste wnętrze ułatwia przepływ; transport cukrów w łyku jest aktywny (załadunek wymaga ATP), więc rurki muszą być żywe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f60056d93",
+     "przod": "Wyjaśnij pojęcie: włoski (trichomy)",
+     "tyl": "Wytwory skórki: ograniczają transpirację (odbijają światło, tworzą warstwę wilgotnego powietrza), chronią przed roślinożercami (włoski parzące pokrzywy), wydzielają substancje (gruczołowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "ff430ce06",
+     "przod": "Funkcja miękiszu w łodydze",
+     "tyl": "Wypełnia przestrzeń, magazynuje substancje i wodę, a w zielonych łodygach przeprowadza fotosyntezę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fd0eb52b0",
+     "przod": "Wyjaśnij pojęcie: ryzoderma",
+     "tyl": "Skórka korzenia — bez kutykuli i szparek, z włośnikami; przystosowana do pobierania wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "ffe1e8fec",
+     "przod": "Dlaczego skórka liścia jest zwykle bezbarwna?",
+     "tyl": "Komórki skórki (poza szparkowymi) nie mają chloroplastów — przepuszczają światło do miękiszu asymilacyjnego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f4113d0b0",
+     "przod": "Jak rozpoznać tkankę merystematyczną na preparacie?",
+     "tyl": "Drobne, ściśle przylegające komórki z dużym jądrem, bez dużej wakuoli, często w różnych fazach podziału (np. stożek wzrostu korzenia cebuli).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fb2237259",
+     "przod": "Podaj nazwę pojęcia: Zespół komórek o podobnej budowie i pochodzeniu, pełniących wspólną funkcję.",
+     "tyl": "tkanka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f6f25e913",
+     "przod": "Podaj nazwę pojęcia: Merystem boczny wtórny w łodydze i korzeniu roślin dwuliściennych i nagonasiennych — wytwarza do wewnątrz drewno wtórne, a na zewnątrz łyko wtórne (przyrost na grubość).",
+     "tyl": "kambium (miazga)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f4465d79e",
+     "przod": "Podaj nazwę pojęcia: Jednowarstwowa tkanka okrywająca młode organy; komórki ściśle przylegające, zwykle bez chloroplastów (oprócz szparkowych), pokryte kutykulą; występują włoski i szparki.",
+     "tyl": "skórka (epiderma)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f6821668c",
+     "przod": "Podaj nazwę pojęcia: Warstwa kutyny i wosków na zewnętrznej ścianie komórek skórki — ogranicza parowanie wody i chroni przed patogenami.",
+     "tyl": "kutykula",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f2f006988",
+     "przod": "Podaj nazwę pojęcia: Wypustki komórek skórki korzenia (ryzodermy) zwiększające powierzchnię pobierania wody i soli mineralnych.",
+     "tyl": "włośniki",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fe98f31d8",
+     "przod": "Podaj nazwę pojęcia: Tkanka okrywająca wtórna z martwych komórek o ścianach przesyconych suberyną — nieprzepuszczalna dla wody i gazów, chroni pień i korzenie.",
+     "tyl": "korek (felem)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f836fe6fe",
+     "przod": "Podaj nazwę pojęcia: Miejsca w korku z luźno ułożonymi komórkami i przestworami — umożliwiają wymianę gazową (np. ciemne kreski na pniu brzozy).",
+     "tyl": "przetchlinki",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f2292718e",
+     "przod": "Podaj nazwę pojęcia: Tkanka z dużymi wakuolami gromadzącymi wodę — u sukulentów (kaktusy, rozchodniki).",
+     "tyl": "miękisz wodonośny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f3d0ebc71",
+     "przod": "Podaj nazwę pojęcia: Tkanka wzmacniająca z żywych komórek o nierównomiernie zgrubiałych, celulozowych ścianach — wzmacnia rosnące organy (np. ogonki liściowe, młode łodygi), nie hamując ich wzrostu.",
+     "tyl": "kolenchyma (zwarcica)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fd87ebe50",
+     "przod": "Rozpoznaj: Martwe, puste rurki bez ścian poprzecznych, ze zdrewniałymi, zgrubiałymi ścianami (pierścieniowo, spiralnie, siateczkowato) — umożliwiają szybki przepływ wody i są odporne na zgniecenie.",
+     "tyl": "Budowa naczynia a funkcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f74bce8a7",
+     "przod": "Podaj nazwę pojęcia: Zespół drewna i łyka (czasem z kambium i sklerenchymą) przebiegający przez łodygę, liście i korzeń.",
+     "tyl": "wiązka przewodząca",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fb1445165",
+     "przod": "Rozpoznaj: Kolateralna zamknięta (bez kambium, jednoliścienne), kolateralna otwarta (z kambium, dwuliścienne), bikolateralna (łyko po obu stronach drewna, np. dyniowate), koncentryczne, promieniste (w korzeniu).",
+     "tyl": "Typy wiązek przewodzących",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fd3308c3b",
+     "przod": "Podaj nazwę pojęcia: Szparki wodne na brzegach liści, przez które wydzielana jest woda w postaci kropli (gutacja) przy wysokiej wilgotności powietrza.",
+     "tyl": "hydatody",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f23685618",
+     "przod": "Podaj nazwę pojęcia: Wydzielanie wody w postaci kropli przez hydatody, gdy transpiracja jest słaba, a parcie korzeniowe silne (np. rano na liściach traw).",
+     "tyl": "gutacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "ffd95c9c2",
+     "przod": "Podaj nazwę pojęcia: Wewnętrzna warstwa kory korzenia z pasemkami Caspary’ego — kontroluje przechodzenie wody i jonów do walca osiowego.",
+     "tyl": "endoderma (śródskórnia)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f8f557c2d",
+     "przod": "Podaj nazwę pojęcia: Pasma suberyny w ścianach komórek endodermy — blokują transport apoplastyczny, zmuszając wodę i jony do przejścia przez błony (selekcja).",
+     "tyl": "pasemka Caspary’ego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fab7106f1",
+     "przod": "Podaj nazwę pojęcia: Zewnętrzna warstwa walca osiowego korzenia, zdolna do podziałów — wytwarza korzenie boczne i (u dwuliściennych) uczestniczy w przyroście wtórnym.",
+     "tyl": "perycykl",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "fba65a949",
+     "przod": "Rozpoznaj: Plazmodesmy (cytoplazmatyczne kanaliki przez ściany) — transport symplastyczny substancji i sygnałów; blaszka środkowa — spaja komórki.",
+     "tyl": "Połączenia międzykomórkowe w tkankach roślinnych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f205032fe",
+     "przod": "Podaj nazwę pojęcia: Wewnętrzna, ciemniejsza część pnia z martwym, nieprzewodzącym drewnem przesyconym garbnikami i żywicami — pełni funkcję mechaniczną.",
+     "tyl": "twardziel",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f707a00ca",
+     "przod": "Podaj nazwę pojęcia: Zewnętrzna, jaśniejsza część drewna pnia, przewodząca wodę.",
+     "tyl": "biel",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "f90179c59",
+     "przod": "Rozpoznaj: Wypełnia przestrzeń, magazynuje substancje i wodę, a w zielonych łodygach przeprowadza fotosyntezę.",
+     "tyl": "Funkcja miękiszu w łodydze",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    },
+    {
+     "id": "ffbbbaca3",
+     "przod": "Podaj nazwę pojęcia: Skórka korzenia — bez kutykuli i szparek, z włośnikami; przystosowana do pobierania wody.",
+     "tyl": "ryzoderma",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.3–4"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p115bedae",
+     "pytanie": "Przyrost łodygi na grubość u drzew zawdzięczamy:",
+     "odpowiedzi": [
+      "merystemom interkalarnym",
+      "kambium i fellogenowi",
+      "merystemom wierzchołkowym",
+      "perycyklowi korzenia"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Merystemy boczne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p464acc1e",
+     "pytanie": "Żywe komórki o nierównomiernie zgrubiałych celulozowych ścianach tworzą:",
+     "odpowiedzi": [
+      "drewno",
+      "korek",
+      "kolenchymę",
+      "sklerenchymę"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Zwarcica.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4cedde6a",
+     "pytanie": "Sacharozę z liści do korzeni transportuje:",
+     "odpowiedzi": [
+      "łyko",
+      "kolenchyma",
+      "drewno",
+      "korek"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Rurki sitowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb37b6630",
+     "pytanie": "Naczynia różnią się od cewek tym, że:",
+     "odpowiedzi": [
+      "występują u nagonasiennych",
+      "są żywe",
+      "przewodzą cukry",
+      "nie mają ścian poprzecznych"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Ciągłe rurki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcc12ed94",
+     "pytanie": "Pasemka Caspary’ego występują w:",
+     "odpowiedzi": [
+      "kambium",
+      "skórce liścia",
+      "endodermie korzenia",
+      "łyku"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Kontrola transportu do walca osiowego.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p91db9a41",
+     "pytanie": "Aerenchyma (miękisz powietrzny) jest typowa dla roślin:",
+     "odpowiedzi": [
+      "wodnych i bagiennych",
+      "pasożytniczych",
+      "iglastych",
+      "pustynnych"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Dostęp tlenu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa1212e6c",
+     "pytanie": "Wymianę gazową w korku umożliwiają:",
+     "odpowiedzi": [
+      "szparki",
+      "hydatody",
+      "włośniki",
+      "przetchlinki"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Luźno ułożone komórki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd9a58e69",
+     "pytanie": "Komórka przyrurkowa:",
+     "odpowiedzi": [
+      "jest martwa i ma zdrewniałą ścianę",
+      "zawiera jądro i wspiera człon rurki sitowej",
+      "przewodzi wodę razem z naczyniami",
+      "występuje w drewnie wtórnym drzew"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Rurka sitowa nie ma jądra.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-organy",
+   "nazwa": "Organy wegetatywne i ich modyfikacje",
+   "opis": "Wymaganie IX.2.5–8 podstawy programowej.",
+   "wymaganie": "IX.2.5–8",
+   "fiszki": [
+    {
+     "id": "ffb570285",
+     "przod": "Organy wegetatywne roślin",
+     "tyl": "Korzeń, łodyga i liść — służą do odżywiania i wzrostu (a nie bezpośrednio do rozmnażania płciowego).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f6ee2bd2a",
+     "przod": "Funkcje korzenia",
+     "tyl": "Utrzymanie rośliny w podłożu, pobieranie wody i soli mineralnych, przewodzenie, magazynowanie substancji, synteza niektórych hormonów (cytokinin).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f7f6464c2",
+     "przod": "Strefy korzenia (od wierzchołka)",
+     "tyl": "Czapeczka, strefa merystematyczna (podziałów), strefa wydłużania, strefa włośnikowa (różnicowania), strefa korzeni bocznych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fa50d0228",
+     "przod": "Funkcja czapeczki korzeniowej",
+     "tyl": "Chroni merystem wierzchołkowy podczas wzrostu w glebie, wydziela śluz ułatwiający przesuwanie się, odbiera bodziec grawitacyjny (statolity).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f1bc35c05",
+     "przod": "Budowa pierwotna korzenia (przekrój)",
+     "tyl": "Ryzoderma z włośnikami, kora pierwotna (miękisz, endoderma), walec osiowy: perycykl, wiązka promienista — pasma drewna i łyka ułożone naprzemianlegle.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f86d3f1df",
+     "przod": "Jak odróżnić na przekroju korzeń od łodygi? (matura 2026)",
+     "tyl": "Korzeń — wiązka promienista, drewno i łyko naprzemianległe, endoderma i perycykl; łodyga — wiązki kolateralne (drewno i łyko naprzeciwlegle), często rdzeń.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f8fd8a9a7",
+     "przod": "Budowa pierwotna łodygi rośliny dwuliściennej",
+     "tyl": "Skórka, kora pierwotna, wiązki przewodzące kolateralne otwarte ułożone w pierścień, rdzeń.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fd0c7bf23",
+     "przod": "Budowa łodygi rośliny jednoliściennej",
+     "tyl": "Wiązki kolateralne zamknięte (bez kambium) rozproszone w miękiszu; brak przyrostu wtórnego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f21b0816c",
+     "przod": "Funkcje łodygi",
+     "tyl": "Podtrzymanie liści i kwiatów (eksponowanie do światła), przewodzenie wody i asymilatów, magazynowanie, czasem fotosynteza i rozmnażanie wegetatywne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f14ea6153",
+     "przod": "Budowa wtórna łodygi drzewa (od zewnątrz)",
+     "tyl": "Korek (peryderma), kora (łyko wtórne), kambium, drewno wtórne (słoje), rdzeń.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f5f8970dd",
+     "przod": "Wyjaśnij pojęcie: kora (w łodydze drzewa)",
+     "tyl": "Wszystkie tkanki na zewnątrz kambium: łyko wtórne, kora pierwotna (resztki) i peryderma.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fc9489430",
+     "przod": "Dlaczego obrączkowanie (zdjęcie pierścienia kory) zabija drzewo?",
+     "tyl": "Przecina łyko — asymilaty z liści nie docierają do korzeni, które po wyczerpaniu zapasów obumierają (woda drewnem przepływa jeszcze przez jakiś czas).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f59026755",
+     "przod": "Budowa liścia (przekrój poprzeczny)",
+     "tyl": "Skórka górna z kutykulą, miękisz palisadowy, miękisz gąbczasty z przestworami, wiązki przewodzące (nerwy), skórka dolna ze szparkami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f55740106",
+     "przod": "Funkcje liścia",
+     "tyl": "Fotosynteza, wymiana gazowa, transpiracja; czasem magazynowanie, ochrona, rozmnażanie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fb4b2eded",
+     "przod": "Związek budowy liścia z fotosyntezą",
+     "tyl": "Duża, płaska blaszka (powierzchnia chwytania światła), miękisz palisadowy z chloroplastami pod skórką górną, przestwory i szparki dla CO₂, gęsta sieć wiązek dostarczających wodę i odprowadzających cukry.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f1b868eae",
+     "przod": "Liście światłolubne a cieniolubne",
+     "tyl": "Światłolubne — grubsze, z wielowarstwowym miękiszem palisadowym, grubą kutykulą; cieniolubne — cieńsze, większe, z cienką kutykulą, więcej chlorofilu na chloroplast.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fa900857a",
+     "przod": "Modyfikacje korzeni — przykłady",
+     "tyl": "Spichrzowe (marchew, burak), czepne (bluszcz), podporowe (kukurydza), oddechowe (pneumatofory namorzyn), ssawki (jemioła, kanianka), powietrzne (storczyki epifityczne z welamenem), brodawki z bakteriami (bobowate).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f044f6adb",
+     "przod": "Modyfikacje łodygi — przykłady",
+     "tyl": "Kłącza (perz, konwalia), bulwy (ziemniak), rozłogi (truskawka), cebule (tarczka łodygi), ciernie (głóg), wąsy (winorośl), łodygi spłaszczone — gałęziaki (opuncja), łodygi sukulentów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fbac7750b",
+     "przod": "Modyfikacje liści — przykłady",
+     "tyl": "Ciernie (kaktus, berberys), wąsy czepne (groch), liście spichrzowe (łuski cebuli, liście sukulentów), liście pułapkowe (rosiczka, dzbanecznik), łuski pąków, przylistki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f7d46a760",
+     "przod": "Dlaczego ziemniak to zmodyfikowana łodyga, a nie korzeń?",
+     "tyl": "Bulwa ma pąki (oczka) w kątach zredukowanych liści (blizny), wyrasta na podziemnych pędach (stolonach) i na świetle zielenieje — cechy łodygi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fb6c523dc",
+     "przod": "Dlaczego cierń kaktusa to zmodyfikowany liść?",
+     "tyl": "Wyrasta z areoli w miejscu liścia; redukcja blaszki ogranicza transpirację, a fotosyntezę przejęła zgrubiała łodyga.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f64a9b1e6",
+     "przod": "Wyjaśnij pojęcie: sukulenty",
+     "tyl": "Rośliny gromadzące wodę w miękiszu wodonośnym łodyg (kaktusy) lub liści (aloes, rozchodnik) — przystosowanie do suchych siedlisk.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fcc8eb9b1",
+     "przod": "Przystosowania kserofitów",
+     "tyl": "Gruba kutykula, mało szparek, szparki zagłębione, liście zwinięte lub zredukowane, włoski, głęboki lub rozległy system korzeniowy, miękisz wodonośny, fotosynteza CAM.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f3a554efb",
+     "przod": "Przystosowania hydrofitów",
+     "tyl": "Aerenchyma, słabo rozwinięte tkanki wzmacniające i przewodzące, cienka kutykula, szparki po górnej stronie liści pływających, liście podwodne silnie podzielone.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fea6fc9a9",
+     "przod": "Przystosowania higrofitów",
+     "tyl": "Cienka kutykula, duże, cienkie liście, liczne szparki, często hydatody, wzmożona transpiracja (np. włoski, brodawki zwiększające powierzchnię — matura 2026).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fdc00d3f4",
+     "przod": "Przystosowania roślin do zasiedlenia lądu (cechy budowy)",
+     "tyl": "Skórka z kutykulą i szparkami, tkanki przewodzące z ligniną, tkanki wzmacniające, korzenie, nasiona i łagiewka pyłkowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f2334d05f",
+     "przod": "Dlaczego liście drzew strefy umiarkowanej opadają jesienią?",
+     "tyl": "Zimą woda w glebie jest zamarznięta (susza fizjologiczna) — zrzucenie liści ogranicza utratę wody przez transpirację i uszkodzenia mrozem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f49d6d292",
+     "przod": "Wyjaśnij pojęcie: ulistnienie",
+     "tyl": "Sposób rozmieszczenia liści na łodydze: skrętoległe, naprzeciwległe, okółkowe — dobrze eksponuje liście do światła (mozaika liściowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f0cf60fc1",
+     "przod": "Wyjaśnij pojęcie: pąk",
+     "tyl": "Zawiązek pędu (lub kwiatu) z merystemem wierzchołkowym okrytym łuskami — szczytowy lub boczny (w kątach liści).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fc02866c9",
+     "przod": "Wyjaśnij pojęcie: przyrost wtórny korzenia",
+     "tyl": "Przyrost na grubość korzeni roślin dwuliściennych i nagonasiennych dzięki kambium i fellogenowi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fc14d527e",
+     "przod": "Wyjaśnij pojęcie: brodawki korzeniowe",
+     "tyl": "Zgrubienia korzeni (głównie bobowatych) z bakteriami brodawkowymi wiążącymi azot atmosferyczny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fbcdf9d8e",
+     "przod": "Wyjaśnij pojęcie: mikoryza",
+     "tyl": "Symbioza korzeni roślin z grzybami — grzyb zwiększa pobieranie wody i soli (szczególnie fosforu), roślina dostarcza mu cukrów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f8c53914c",
+     "przod": "Wyjaśnij pojęcie: welamen",
+     "tyl": "Wielowarstwowa skórka korzeni powietrznych storczyków z martwych komórek chłonących wodę deszczową i parę wodną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f873c83f2",
+     "przod": "Liście pułapkowe roślin owadożernych — znaczenie",
+     "tyl": "Rośliny te rosną na glebach ubogich w azot (torfowiska) — trawiąc owady uzyskują związki azotu i fosforu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f4bf5bdc3",
+     "przod": "Dlaczego rośliny cieniolubne mają duże, cienkie liście?",
+     "tyl": "Duża powierzchnia zwiększa ilość pochłanianego słabego światła, a cienka blaszka pozwala dotrzeć mu do wszystkich chloroplastów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fb057ef80",
+     "przod": "Wyjaśnij pojęcie: łodyga zielna a zdrewniała",
+     "tyl": "Zielna — miękka, krótkotrwała, z niewielką ilością drewna (rośliny zielne); zdrewniała — z dużą ilością drewna wtórnego (drzewa, krzewy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f20293d71",
+     "przod": "Funkcja rdzenia w łodydze",
+     "tyl": "Magazynowanie substancji i wody (miękisz); u niektórych roślin zanika, tworząc pustą łodygę (np. źdźbło trawy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f83a92e62",
+     "przod": "Dlaczego źdźbło trawy jest puste w środku, a mimo to wytrzymałe?",
+     "tyl": "Konstrukcja rury z tkanką wzmacniającą na obwodzie i kolankami (węzłami) jest lekka i odporna na zginanie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f1bca8400",
+     "przod": "Wyjaśnij pojęcie: gałęziaki",
+     "tyl": "Spłaszczone, zielone pędy pełniące funkcję liści (np. opuncja, myszopłoch).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f22fb281f",
+     "przod": "Jak rozpoznać kłącze?",
+     "tyl": "Podziemna łodyga rosnąca poziomo, z węzłami, łuskowatymi liśćmi i pąkami, z której wyrastają korzenie przybyszowe i nowe pędy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f378221b8",
+     "przod": "Rozpoznaj: Utrzymanie rośliny w podłożu, pobieranie wody i soli mineralnych, przewodzenie, magazynowanie substancji, synteza niektórych hormonów (cytokinin).",
+     "tyl": "Funkcje korzenia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f1dd9bf50",
+     "przod": "Rozpoznaj: Chroni merystem wierzchołkowy podczas wzrostu w glebie, wydziela śluz ułatwiający przesuwanie się, odbiera bodziec grawitacyjny (statolity).",
+     "tyl": "Funkcja czapeczki korzeniowej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fad66ccd9",
+     "przod": "Rozpoznaj: Wiązki kolateralne zamknięte (bez kambium) rozproszone w miękiszu; brak przyrostu wtórnego.",
+     "tyl": "Budowa łodygi rośliny jednoliściennej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f06fea5cf",
+     "przod": "Rozpoznaj: Podtrzymanie liści i kwiatów (eksponowanie do światła), przewodzenie wody i asymilatów, magazynowanie, czasem fotosynteza i rozmnażanie wegetatywne.",
+     "tyl": "Funkcje łodygi",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f1722f43e",
+     "przod": "Rozpoznaj: Skórka górna z kutykulą, miękisz palisadowy, miękisz gąbczasty z przestworami, wiązki przewodzące (nerwy), skórka dolna ze szparkami.",
+     "tyl": "Budowa liścia (przekrój poprzeczny)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "faf253722",
+     "przod": "Rozpoznaj: Fotosynteza, wymiana gazowa, transpiracja; czasem magazynowanie, ochrona, rozmnażanie.",
+     "tyl": "Funkcje liścia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "ff9f5100e",
+     "przod": "Rozpoznaj: Duża, płaska blaszka (powierzchnia chwytania światła), miękisz palisadowy z chloroplastami pod skórką górną, przestwory i szparki dla CO₂, gęsta sieć wiązek dostarczających wodę i odprowadzających cukry.",
+     "tyl": "Związek budowy liścia z fotosyntezą",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f6f411545",
+     "przod": "Rozpoznaj: Spichrzowe (marchew, burak), czepne (bluszcz), podporowe (kukurydza), oddechowe (pneumatofory namorzyn), ssawki (jemioła, kanianka), powietrzne (storczyki epifityczne z welamenem), brodawki z bakteriami (bobowate).",
+     "tyl": "Modyfikacje korzeni — przykłady",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f03f1335e",
+     "przod": "Podaj nazwę pojęcia: Rośliny gromadzące wodę w miękiszu wodonośnym łodyg (kaktusy) lub liści (aloes, rozchodnik) — przystosowanie do suchych siedlisk.",
+     "tyl": "sukulenty",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "ff632dae1",
+     "przod": "Rozpoznaj: Gruba kutykula, mało szparek, szparki zagłębione, liście zwinięte lub zredukowane, włoski, głęboki lub rozległy system korzeniowy, miękisz wodonośny, fotosynteza CAM.",
+     "tyl": "Przystosowania kserofitów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f8d78a64a",
+     "przod": "Rozpoznaj: Aerenchyma, słabo rozwinięte tkanki wzmacniające i przewodzące, cienka kutykula, szparki po górnej stronie liści pływających, liście podwodne silnie podzielone.",
+     "tyl": "Przystosowania hydrofitów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f5681ef82",
+     "przod": "Rozpoznaj: Cienka kutykula, duże, cienkie liście, liczne szparki, często hydatody, wzmożona transpiracja (np. włoski, brodawki zwiększające powierzchnię — matura 2026).",
+     "tyl": "Przystosowania higrofitów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f0c6fc41b",
+     "przod": "Rozpoznaj: Skórka z kutykulą i szparkami, tkanki przewodzące z ligniną, tkanki wzmacniające, korzenie, nasiona i łagiewka pyłkowa.",
+     "tyl": "Przystosowania roślin do zasiedlenia lądu (cechy budowy)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "feee6f19c",
+     "przod": "Podaj nazwę pojęcia: Sposób rozmieszczenia liści na łodydze: skrętoległe, naprzeciwległe, okółkowe — dobrze eksponuje liście do światła (mozaika liściowa).",
+     "tyl": "ulistnienie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fef6b6971",
+     "przod": "Podaj nazwę pojęcia: Zawiązek pędu (lub kwiatu) z merystemem wierzchołkowym okrytym łuskami — szczytowy lub boczny (w kątach liści).",
+     "tyl": "pąk",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f14b064f1",
+     "przod": "Podaj nazwę pojęcia: Symbioza korzeni roślin z grzybami — grzyb zwiększa pobieranie wody i soli (szczególnie fosforu), roślina dostarcza mu cukrów.",
+     "tyl": "mikoryza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "fd725c345",
+     "przod": "Podaj nazwę pojęcia: Wielowarstwowa skórka korzeni powietrznych storczyków z martwych komórek chłonących wodę deszczową i parę wodną.",
+     "tyl": "welamen",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f9b24b7e2",
+     "przod": "Rozpoznaj: Magazynowanie substancji i wody (miękisz); u niektórych roślin zanika, tworząc pustą łodygę (np. źdźbło trawy).",
+     "tyl": "Funkcja rdzenia w łodydze",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    },
+    {
+     "id": "f0e296581",
+     "przod": "Podaj nazwę pojęcia: Spłaszczone, zielone pędy pełniące funkcję liści (np. opuncja, myszopłoch).",
+     "tyl": "gałęziaki",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.2.5–8"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pf132961a",
+     "pytanie": "Wiązka promienista z naprzemianległym drewnem i łykiem jest cechą:",
+     "odpowiedzi": [
+      "łodygi dwuliściennej",
+      "korzenia",
+      "łodygi jednoliściennej",
+      "liścia"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Matura 2026, zad. 7.1.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p235d5b47",
+     "pytanie": "Bulwa ziemniaka jest przekształconą:",
+     "odpowiedzi": [
+      "liściem",
+      "korzeniem",
+      "łodygą",
+      "kwiatostanem"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ma oczka (pąki).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p14563eb8",
+     "pytanie": "Miękisz palisadowy w liściu leży:",
+     "odpowiedzi": [
+      "przy skórce dolnej",
+      "wokół szparek",
+      "w nerwach",
+      "pod skórką górną"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Najwięcej światła.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p41ed8a39",
+     "pytanie": "Cierń kaktusa to przekształcony:",
+     "odpowiedzi": [
+      "kwiat",
+      "pęd",
+      "korzeń",
+      "liść"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Ograniczenie transpiracji.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p93233829",
+     "pytanie": "Obrączkowanie pnia zabija drzewo, ponieważ przerywa:",
+     "odpowiedzi": [
+      "twardziel",
+      "rdzeń",
+      "drewno",
+      "łyko"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Korzenie nie otrzymują cukrów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p648c3a72",
+     "pytanie": "Wąsy grochu są przekształconymi:",
+     "odpowiedzi": [
+      "fragmentami liścia złożonego",
+      "przekształconymi łodygami",
+      "zredukowanymi kwiatami",
+      "korzeniami przybyszowymi"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "U grochu — części liścia złożonego.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-gospodarka-wodna",
+   "nazwa": "Gospodarka wodna i mineralna",
+   "opis": "Wymaganie IX.3 podstawy programowej.",
+   "wymaganie": "IX.3",
+   "fiszki": [
+    {
+     "id": "fa1e08839",
+     "przod": "Jak woda wnika do korzenia?",
+     "tyl": "Przez włośniki — osmotycznie (komórki korzenia mają niższy potencjał wody niż roztwór glebowy), a następnie przez korę drogą apoplastyczną i symplastyczną do walca osiowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f30dca776",
+     "przod": "Drogi transportu wody w korzeniu",
+     "tyl": "Apoplastyczna (ścianami i przestworami — do endodermy), symplastyczna (przez cytoplazmę i plazmodesmy); w endodermie pasemka Caspary’ego wymuszają przejście przez symplast.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fb791dea7",
+     "przod": "Wyjaśnij pojęcie: parcie korzeniowe",
+     "tyl": "Ciśnienie wytwarzane w korzeniu przez aktywne gromadzenie jonów w walcu osiowym (napływ wody osmotycznie) — wypycha wodę w górę (widoczne jako gutacja, „płacz” przyciętych roślin).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f2aef9a1e",
+     "przod": "Wyjaśnij pojęcie: siła ssąca liści",
+     "tyl": "Spadek potencjału wody w liściach wskutek transpiracji, który „zasysa” wodę z drewna — główny mechanizm transportu wody w wysokich roślinach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f324fe55c",
+     "przod": "Wyjaśnij pojęcie: teoria kohezyjno-adhezyjno-transpiracyjna",
+     "tyl": "Woda jest wyciągana w górę naczyń przez transpirację (siła ssąca), a ciągłość słupa wody zapewnia kohezja cząsteczek wody i ich adhezja do ścian naczyń.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fca128212",
+     "przod": "Dlaczego transpiracja przyspiesza transport wody w drewnie? (matura 2026)",
+     "tyl": "Parowanie wody z liści obniża potencjał wody w liściach, co dzięki kohezji przenosi się na cały słup wody w naczyniach — woda szybciej płynie z korzeni do liści.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f6ff32714",
+     "przod": "Wyjaśnij pojęcie: transpiracja",
+     "tyl": "Parowanie wody z nadziemnych części rośliny, głównie przez szparki (transpiracja szparkowa) i w mniejszym stopniu przez kutykulę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f1892c649",
+     "przod": "Znaczenie transpiracji",
+     "tyl": "Napędza transport wody i soli mineralnych w drewnie, chłodzi liście, umożliwia otwarte szparki do pobierania CO₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f8b99d403",
+     "przod": "Wyjaśnij pojęcie: transpiracja kutykularna",
+     "tyl": "Parowanie wody przez kutykulę skórki — niewielka, zależna od grubości kutykuli; nie jest regulowana przez roślinę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f03cfe088",
+     "przod": "Mechanizm otwierania szparek",
+     "tyl": "Na świetle pompy protonowe w komórkach szparkowych aktywnie pobierają jony K⁺ (i Cl⁻, powstaje jabłczan) — spada potencjał osmotyczny i potencjał wody, woda napływa, turgor rośnie, a ze względu na nierównomierne zgrubienie ścian komórki wyginają się i szparka się otwiera.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fadb70b10",
+     "przod": "Mechanizm zamykania szparek",
+     "tyl": "Przy niedoborze wody (sygnał — kwas abscysynowy) komórki szparkowe tracą jony K⁺, rośnie ich potencjał wody, woda wypływa, turgor spada i szparka się zamyka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f3b490745",
+     "przod": "Rola kwasu abscysynowego (ABA) w gospodarce wodnej",
+     "tyl": "Hormon stresu — przy suszy wywołuje zamykanie szparek, ograniczając utratę wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f376acb38",
+     "przod": "Wpływ temperatury na transpirację",
+     "tyl": "Wyższa temperatura zwiększa parowanie (rośnie różnica prężności pary wodnej) — transpiracja rośnie, o ile szparki są otwarte.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f74b1a889",
+     "przod": "Wpływ światła na transpirację",
+     "tyl": "Światło powoduje otwieranie szparek (i nagrzewa liście) — transpiracja rośnie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f65f342ad",
+     "przod": "Wpływ wilgotności powietrza na transpirację",
+     "tyl": "Im wyższa wilgotność, tym mniejsza różnica potencjału wody między liściem a powietrzem — transpiracja maleje.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f4a32b5d2",
+     "przod": "Wpływ wiatru na transpirację",
+     "tyl": "Wiatr usuwa wilgotne powietrze znad liści — rośnie różnica stężeń pary wodnej i transpiracja (przy silnym wietrze szparki mogą się zamykać).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f13e9f5e0",
+     "przod": "Jak zmierzyć intensywność transpiracji?",
+     "tyl": "Metodą wagową (ubytek masy rośliny w doniczce szczelnie owiniętej folią) lub potometrem (szybkość pobierania wody przez pęd).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "feeed69e8",
+     "przod": "Wyjaśnij pojęcie: potometr",
+     "tyl": "Przyrząd mierzący szybkość pobierania wody przez pęd rośliny (np. przesuw pęcherzyka powietrza w kapilarze) — pośrednio mierzy transpirację.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fc8923f15",
+     "przod": "Wyjaśnij pojęcie: bilans wodny rośliny",
+     "tyl": "Różnica między ilością wody pobranej a wytranspirowanej; ujemny bilans prowadzi do więdnięcia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f8eda08e3",
+     "przod": "Wyjaśnij pojęcie: więdnięcie",
+     "tyl": "Utrata turgoru przez komórki, gdy transpiracja przewyższa pobieranie wody — liście i młode pędy wiotczeją.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f7576d64c",
+     "przod": "Wyjaśnij pojęcie: susza fizjologiczna",
+     "tyl": "Stan, w którym woda w podłożu jest obecna, ale niedostępna dla rośliny — np. przy zamarzniętej glebie lub dużym zasoleniu (roztwór glebowy hipertoniczny).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fd1f1b8ad",
+     "przod": "Skutek suszy fizjologicznej dla bilansu wodnego",
+     "tyl": "Roślina nie może pobrać wody, a nadal ją traci przez transpirację — bilans jest ujemny, roślina więdnie mimo wilgotnej gleby.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f922e83a8",
+     "przod": "Dlaczego rośliny na glebach zasolonych mają problem z wodą?",
+     "tyl": "Zasolony roztwór glebowy ma niski potencjał wody — korzenie trudniej pobierają wodę, a nawet mogą ją tracić.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f1f40a2fa",
+     "przod": "Wyjaśnij pojęcie: halofity",
+     "tyl": "Rośliny przystosowane do gleb zasolonych (np. soliród) — gromadzą sole w komórkach, by obniżyć potencjał wody, mają gruczoły solne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f7fe703bb",
+     "przod": "Wyjaśnij pojęcie: sole mineralne pobierane przez roślinę",
+     "tyl": "Jony z roztworu glebowego (NO₃⁻, NH₄⁺, K⁺, PO₄³⁻, SO₄²⁻, Mg²⁺, Ca²⁺ i mikroelementy) — pobierane głównie aktywnie przez korzenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fd55cee56",
+     "przod": "Dostępne dla roślin formy azotu",
+     "tyl": "Jony azotanowe (NO₃⁻) i amonowe (NH₄⁺); azotu atmosferycznego N₂ rośliny bezpośrednio nie wykorzystują (wyjątek — symbioza z bakteriami brodawkowymi).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f519ca35c",
+     "przod": "Dostępna dla roślin forma siarki",
+     "tyl": "Jony siarczanowe (SO₄²⁻).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fe1f5792c",
+     "przod": "Rola azotu w roślinie",
+     "tyl": "Składnik aminokwasów, białek, kwasów nukleinowych, chlorofilu i ATP; niedobór — słaby wzrost i chloroza (żółknięcie od starszych liści).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fb75946c6",
+     "przod": "Rola siarki w roślinie",
+     "tyl": "Składnik aminokwasów (cysteina, metionina) i niektórych koenzymów; niedobór — chloroza młodych liści.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fbd071d1e",
+     "przod": "Rola magnezu w roślinie",
+     "tyl": "Składnik chlorofilu, aktywator enzymów; niedobór — chloroza między nerwami starszych liści.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f223bd843",
+     "przod": "Rola potasu w roślinie",
+     "tyl": "Reguluje turgor i ruchy szparek, aktywuje enzymy, uczestniczy w transporcie asymilatów; niedobór — brązowienie brzegów liści, słaba odporność na suszę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f513bf566",
+     "przod": "Rola fosforu w roślinie",
+     "tyl": "Składnik ATP, kwasów nukleinowych, fosfolipidów; niedobór — słaby rozwój korzeni, fioletowe zabarwienie liści.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fe536e968",
+     "przod": "Dlaczego objawy niedoboru N, Mg, K pojawiają się najpierw na starszych liściach?",
+     "tyl": "Te pierwiastki są ruchliwe w roślinie — przy niedoborze są przemieszczane ze starszych liści do młodszych, rosnących.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f739e9859",
+     "przod": "Dlaczego objawy niedoboru wapnia i siarki pojawiają się na młodych liściach?",
+     "tyl": "Te pierwiastki są mało ruchliwe w roślinie — nie mogą być przemieszczone ze starszych tkanek do nowo powstających.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f2af503b9",
+     "przod": "Wyjaśnij pojęcie: kultura wodna (hydroponika)",
+     "tyl": "Hodowla roślin w roztworze soli mineralnych bez gleby — pozwala badać rolę poszczególnych pierwiastków (pomija się jeden i obserwuje objawy niedoboru).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f372e586a",
+     "przod": "Jak zbadać znaczenie azotu dla rośliny?",
+     "tyl": "Hodować rośliny w pełnej pożywce (kontrola) i w pożywce bez azotu, pozostałe warunki jednakowe; porównać wzrost i barwę liści.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fd7eeb757",
+     "przod": "Wyjaśnij pojęcie: nawozy",
+     "tyl": "Substancje dostarczające glebie składników mineralnych (N, P, K) — uzupełniają ubytki po zbiorach; nadmiar powoduje eutrofizację wód.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f2f01fdde",
+     "przod": "Wyjaśnij pojęcie: transpiracja a pobieranie soli",
+     "tyl": "Strumień transpiracyjny przenosi jony pobrane przez korzenie do pędów — przy słabej transpiracji dostawa soli do liści jest mniejsza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fad0008d8",
+     "przod": "Dlaczego rośliny pustynne mają szparki zagłębione w skórce?",
+     "tyl": "Nad zagłębioną szparką gromadzi się wilgotne powietrze — zmniejsza to różnicę wilgotności i transpirację.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "ff755d6e7",
+     "przod": "Dlaczego przesadzanie rośliny powoduje jej więdnięcie?",
+     "tyl": "Uszkadzane są włośniki — pobieranie wody spada, a transpiracja trwa (bilans ujemny); dlatego przycina się część liści lub przesadza z bryłą ziemi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f7fcaf62b",
+     "przod": "Wyjaśnij pojęcie: kawitacja (zator powietrzny)",
+     "tyl": "Zerwanie słupa wody w naczyniu i powstanie pęcherzyka powietrza (np. przy silnej suszy, mrozie) — blokuje przepływ w tym naczyniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "ffb6b381d",
+     "przod": "Wyjaśnij pojęcie: potencjał wody a kierunek przepływu w roślinie",
+     "tyl": "Woda płynie z gleby (najwyższy potencjał) przez korzeń i łodygę do liści i atmosfery (najniższy potencjał) — wzdłuż spadku potencjału.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fd421ba8b",
+     "przod": "Jak gutacja różni się od transpiracji?",
+     "tyl": "Gutacja — wydzielanie wody w postaci cieczy przez hydatody, napędzane parciem korzeniowym; transpiracja — parowanie wody (gaz) głównie przez szparki, napędzane różnicą wilgotności.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f361b0752",
+     "przod": "Wyjaśnij pojęcie: komórki szparkowe — budowa",
+     "tyl": "Fasolkowate (u traw hantlowate) komórki z chloroplastami i nierównomiernie zgrubiałymi ścianami (grubsza ściana od strony szparki) — przy wzroście turgoru wyginają się na zewnątrz.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f96528eab",
+     "przod": "Dlaczego szparki znajdują się zwykle na spodniej stronie liścia?",
+     "tyl": "Spodnia strona jest mniej nasłoneczniona i chłodniejsza — mniejsze straty wody przy otwartych szparkach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fab0b71f4",
+     "przod": "Rozpoznaj: Apoplastyczna (ścianami i przestworami — do endodermy), symplastyczna (przez cytoplazmę i plazmodesmy); w endodermie pasemka Caspary’ego wymuszają przejście przez symplast.",
+     "tyl": "Drogi transportu wody w korzeniu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fad88dc76",
+     "przod": "Podaj nazwę pojęcia: Przyrząd mierzący szybkość pobierania wody przez pęd rośliny (np. przesuw pęcherzyka powietrza w kapilarze) — pośrednio mierzy transpirację.",
+     "tyl": "potometr",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f261f6946",
+     "przod": "Podaj nazwę pojęcia: Utrata turgoru przez komórki, gdy transpiracja przewyższa pobieranie wody — liście i młode pędy wiotczeją.",
+     "tyl": "więdnięcie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f1ee54fef",
+     "przod": "Podaj nazwę pojęcia: Stan, w którym woda w podłożu jest obecna, ale niedostępna dla rośliny — np. przy zamarzniętej glebie lub dużym zasoleniu (roztwór glebowy hipertoniczny).",
+     "tyl": "susza fizjologiczna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fec3e9544",
+     "przod": "Podaj nazwę pojęcia: Rośliny przystosowane do gleb zasolonych (np. soliród) — gromadzą sole w komórkach, by obniżyć potencjał wody, mają gruczoły solne.",
+     "tyl": "halofity",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f99a94850",
+     "przod": "Rozpoznaj: Jony siarczanowe (SO₄²⁻).",
+     "tyl": "Dostępna dla roślin forma siarki",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "fd2fc4274",
+     "przod": "Podaj nazwę pojęcia: Hodowla roślin w roztworze soli mineralnych bez gleby — pozwala badać rolę poszczególnych pierwiastków (pomija się jeden i obserwuje objawy niedoboru).",
+     "tyl": "kultura wodna (hydroponika)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    },
+    {
+     "id": "f97b0c0dd",
+     "przod": "Podaj nazwę pojęcia: Substancje dostarczające glebie składników mineralnych (N, P, K) — uzupełniają ubytki po zbiorach; nadmiar powoduje eutrofizację wód.",
+     "tyl": "nawozy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IX.3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pa9df899f",
+     "pytanie": "Główną siłą transportującą wodę w wysokich drzewach jest:",
+     "odpowiedzi": [
+      "gutacja",
+      "transport aktywny w naczyniach",
+      "parcie korzeniowe",
+      "transpiracja (siła ssąca liści)"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Teoria kohezyjna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbf39dd96",
+     "pytanie": "Otwieranie szparek następuje, gdy do komórek szparkowych:",
+     "odpowiedzi": [
+      "wnika ABA",
+      "wnika CO₂",
+      "wypływają jony K⁺",
+      "napływają jony K⁺ i woda"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Wzrost turgoru.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4a0fd540",
+     "pytanie": "Transpiracja maleje, gdy:",
+     "odpowiedzi": [
+      "rośnie temperatura",
+      "rośnie wilgotność powietrza",
+      "wieje wiatr",
+      "rośnie natężenie światła"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Mniejsza różnica wilgotności.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pacdbc55a",
+     "pytanie": "Susza fizjologiczna występuje m.in., gdy:",
+     "odpowiedzi": [
+      "jest wysoka wilgotność powietrza",
+      "wieje słaby wiatr",
+      "gleba jest bardzo wilgotna",
+      "gleba jest zamarznięta lub silnie zasolona"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Woda niedostępna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p45fa2699",
+     "pytanie": "Dostępną dla roślin formą siarki jest:",
+     "odpowiedzi": [
+      "jon siarczanowy SO₄²⁻",
+      "SO₂ z powietrza",
+      "H₂S",
+      "siarka elementarna"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Pobierana przez korzenie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pfad4c330",
+     "pytanie": "Objawy niedoboru magnezu pojawiają się najpierw na liściach starszych, ponieważ magnez:",
+     "odpowiedzi": [
+      "jest przemieszczany do młodszych liści",
+      "jest nieruchliwy",
+      "gromadzi się w korzeniach",
+      "jest pobierany tylko przez liście"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Pierwiastek ruchliwy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "peb1ee2b7",
+     "pytanie": "Pasemka Caspary’ego zmuszają wodę do przejścia przez:",
+     "odpowiedzi": [
+      "przestwory międzykomórkowe kory",
+      "naczynia drewna pierwotnego",
+      "błony i cytoplazmę komórek endodermy",
+      "ściany komórkowe (apoplast)"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Kontrola selekcji jonów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
