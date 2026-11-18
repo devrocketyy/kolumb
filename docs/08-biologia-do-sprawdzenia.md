@@ -45,3 +45,4 @@ Treści są pisane na podstawie wymagań egzaminacyjnych 2027, informatora i spr
 - [ ] Hierarchia jednostek systematycznych (typ/gromada u roślin) — sprawdzić konwencję podręcznika.
 - [ ] Rodzaje zależności międzygatunkowych (protokooperacja vs mutualizm fakultatywny) — terminologia CKE.
 - [ ] Zadania autorskie w działach biotechnologia, mikroorganizmy, zwierzęta, ewolucja — na razie ok. 20 wiązek, rozbudować.
+- [ ] Arkusz maj 2024 — sprawdzić link do PDF (MBIP-R0-100-A-2405) i litery w zad. 7 i 11 (zależne od schematów).

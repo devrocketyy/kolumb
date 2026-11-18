@@ -1,0 +1,663 @@
+{
+ "id": "2024-maj",
+ "nazwa": "Matura maj 2024",
+ "opis": "Egzamin maturalny z biologii, poziom rozszerzony, Formuła 2023 — termin główny 2024 r. (14 maja).",
+ "link": "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2024/Biologia/MBIP-R0-100-A-2405-arkusz.pdf",
+ "linkZasady": "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2024/zasady_oceniania/MBIP-R0-100-2405-zasady.pdf",
+ "zrodlo": "Arkusz: CKE, maj 2024 (otwórz PDF). Odpowiedzi i omówienia: opracowanie IndexLab na podstawie zasad oceniania CKE.",
+ "wiazki": [
+  {
+   "nr": "1",
+   "strona": 3,
+   "tytul": "Polimery w organizmach",
+   "zadania": [
+    {
+     "nr": "1.1",
+     "punkty": 2,
+     "polecenie": "Uzupełnij tabelę: dla białek — monomer i wiązanie; dla polisacharydów (monomer: monosacharyd) — nazwa grupy i wiązanie.",
+     "odpowiedz": "Białka — monomer: aminokwas, wiązanie peptydowe; polisacharydy (wielocukry) — wiązanie glikozydowe.",
+     "zasady": "2 pkt – cztery poprawne komórki.\n1 pkt – trzy poprawne komórki.\n0 pkt – mniej.",
+     "omowienie": "Fosfodiestrowe łączy nukleotydy w kwasach nukleinowych — to typowy dystraktor.",
+     "dzialy": [
+      "biochemia"
+     ]
+    },
+    {
+     "nr": "1.2",
+     "punkty": 1,
+     "polecenie": "Przyporządkuj opisy A–D strukturom I-, II- i III-rzędowej białka.",
+     "odpowiedz": "I-rzędowa — D (kolejność aminokwasów); II-rzędowa — B (regularne zwinięcie stabilizowane wiązaniami wodorowymi); III-rzędowa — C (przestrzenne ułożenie jednego łańcucha).",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Opis A (oddziaływania między osobnymi łańcuchami) dotyczy struktury IV-rzędowej.",
+     "dzialy": [
+      "biochemia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "2",
+   "strona": 4,
+   "tytul": "Odwrotna transkryptaza HIV",
+   "zadania": [
+    {
+     "nr": "2",
+     "punkty": 2,
+     "polecenie": "Określ funkcję obszaru o aktywności polimerazy oraz obszaru o aktywności rybonukleazy w przepisywaniu RNA wirusa na DNA.",
+     "odpowiedz": "Polimeraza — synteza DNA na matrycy RNA (a potem drugiej nici na matrycy DNA); rybonukleaza — rozkład (hydroliza) RNA z hybrydy RNA-DNA, by mogła powstać druga nić DNA.",
+     "zasady": "2 pkt – dwie poprawne funkcje.\n1 pkt – jedna.\n0 pkt – brak.",
+     "omowienie": "Nukleaza = enzym rozkładający kwas nukleinowy; rybonukleaza rozkłada RNA.",
+     "dzialy": [
+      "genetyka-molekularna"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "3",
+   "strona": 6,
+   "tytul": "Bioluminescencja świetlików",
+   "zadania": [
+    {
+     "nr": "3.1",
+     "punkty": 1,
+     "polecenie": "Przedstaw korzyść, jaką odnoszą samice Photuris dzięki wabieniu ofiar.",
+     "odpowiedz": "Łatwiej i przy mniejszym nakładzie energii zdobywają pokarm — samce innego gatunku same przylatują w ich pobliże.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "To przykład mimikry agresywnej drapieżnika.",
+     "dzialy": [
+      "zwierzeta"
+     ]
+    },
+    {
+     "nr": "3.2",
+     "punkty": 2,
+     "polecenie": "Podkreśl: test opiera się na tym, że (AMP / ATP) powstaje w oddychaniu, jego stężenie (wzrasta / spada) wraz z liczbą mikroorganizmów, a o ich wykryciu świadczy (ustanie / wystąpienie) bioluminescencji.",
+     "odpowiedz": "ATP; wzrasta; wystąpienie.",
+     "zasady": "2 pkt – trzy poprawne.\n1 pkt – dwa.\n0 pkt – mniej.",
+     "omowienie": "Lucyferaza potrzebuje ATP — żywe komórki dostarczają ATP, więc pojawia się światło.",
+     "dzialy": [
+      "zwierzeta"
+     ]
+    },
+    {
+     "nr": "3.3",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę narządu oddechowego owadów doprowadzającego tlen bezpośrednio do komórek.",
+     "odpowiedz": "Tracheole (uznawano także „tchawki”).",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Uwaga klucza: „tchawki powietrzne” nie były uznawane — to nie jest termin.",
+     "dzialy": [
+      "zwierzeta"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "4",
+   "strona": 7,
+   "tytul": "Potencjał czynnościowy i stwardnienie rozsiane",
+   "zadania": [
+    {
+     "nr": "4",
+     "punkty": 1,
+     "polecenie": "Wydłużenie potencjału czynnościowego jest skutkiem podania A. blokera kanału K⁺ / B. blokera kanału Na⁺, który wydłuża fazę 1. depolaryzacji / 2. repolaryzacji.",
+     "odpowiedz": "A2 — bloker kanałów potasowych wydłuża repolaryzację.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Repolaryzacja to wypływ K⁺; jego ograniczenie spowalnia powrót do spoczynku.",
+     "dzialy": [
+      "fizjologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "5",
+   "strona": 8,
+   "tytul": "Bakterie ekstremofilne",
+   "zadania": [
+    {
+     "nr": "5.1",
+     "punkty": 1,
+     "polecenie": "Oceń (T/N), czy adaptacją do niskiej temperatury jest: 1. wzrost zawartości nasyconych kwasów tłuszczowych; 2. wzrost zawartości krótkich kwasów tłuszczowych.",
+     "odpowiedz": "1 — N, 2 — T.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Błonę upłynniają kwasy nienasycone i krótkie; nasycone ją usztywniają.",
+     "dzialy": [
+      "mikroorganizmy"
+     ]
+    },
+    {
+     "nr": "5.2",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę aminokwasu tworzącego mostki disiarczkowe.",
+     "odpowiedz": "Cysteina.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Grupa –SH cysteiny.",
+     "dzialy": [
+      "mikroorganizmy"
+     ]
+    },
+    {
+     "nr": "5.3",
+     "punkty": 1,
+     "polecenie": "Wykaż, że stabilność rRNA i tRNA rośnie wraz z zawartością par GC kosztem AU.",
+     "odpowiedz": "Między G i C tworzą się trzy wiązania wodorowe, a między A i U dwa — więcej par GC oznacza więcej wiązań wodorowych stabilizujących cząsteczkę w wysokiej temperaturze.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Klucz wymaga porównania liczby wiązań wodorowych.",
+     "dzialy": [
+      "mikroorganizmy"
+     ]
+    },
+    {
+     "nr": "5.4",
+     "punkty": 1,
+     "polecenie": "Określ, czy źródłem polimeraz do PCR są psychrofile czy termofile. Uzasadnij.",
+     "odpowiedz": "Termofile — ich polimerazy nie ulegają denaturacji w wysokiej temperaturze stosowanej w PCR (denaturacja DNA ok. 95°C).",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Polimeraza Taq z Thermus aquaticus.",
+     "dzialy": [
+      "mikroorganizmy"
+     ]
+    },
+    {
+     "nr": "5.5",
+     "punkty": 1,
+     "polecenie": "Która cecha występuje u bakterii? A. mitochondria; B. rybosomy 80S; C. chityna w ścianie; D. translacja rozpoczynająca się przed końcem syntezy mRNA.",
+     "odpowiedz": "D.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "U prokariontów transkrypcja i translacja są sprzężone — brak otoczki jądrowej.",
+     "dzialy": [
+      "mikroorganizmy"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "6",
+   "strona": 10,
+   "tytul": "Bezlist — mech",
+   "zadania": [
+    {
+     "nr": "6.1",
+     "punkty": 1,
+     "polecenie": "Wykaż, że dojrzały sporofit bezlistu pozyskuje związki organiczne niezależnie od gametofitu.",
+     "odpowiedz": "Listki gametofitu żeńskiego zanikają (nie może on fotosyntezować w wystarczającym stopniu), a puszka sporofitu jest zielona — sporofit sam fotosyntezuje.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Trzeba połączyć dwie informacje z tekstu.",
+     "dzialy": [
+      "rosliny"
+     ]
+    },
+    {
+     "nr": "6.2",
+     "punkty": 1,
+     "polecenie": "Określ, czy gametofit bezlistu jest jednopienny czy dwupienny. Uzasadnij.",
+     "odpowiedz": "Dwupienny — występują odrębne gametofity męskie i żeńskie.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Jednopienny miałby rodnie i plemnie na jednym osobniku.",
+     "dzialy": [
+      "rosliny"
+     ]
+    },
+    {
+     "nr": "6.3",
+     "punkty": 1,
+     "polecenie": "Podkreśl: gametofity męskie mchów są (haploidalne / diploidalne); sporofit wytwarza (identyczne / różne) genetycznie zarodniki.",
+     "odpowiedz": "Haploidalne; różne.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Zarodniki powstają w mejozie — crossing-over i segregacja dają zmienność.",
+     "dzialy": [
+      "rosliny"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "7",
+   "strona": 11,
+   "tytul": "Nasiono tytoniu",
+   "zadania": [
+    {
+     "nr": "7",
+     "punkty": 1,
+     "polecenie": "Wskaż na schemacie przekroju nasiona tytoniu literę oznaczającą bielmo.",
+     "odpowiedz": "C.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Bielmo otacza zarodek i stanowi materiał zapasowy (schemat w arkuszu CKE).",
+     "dzialy": [
+      "rosliny"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "8",
+   "strona": 12,
+   "tytul": "Nasiona buka",
+   "zadania": [
+    {
+     "nr": "8.1",
+     "punkty": 1,
+     "polecenie": "Sformułuj wniosek dotyczący żywotności nasion buka na podstawie wyników.",
+     "odpowiedz": "Im dłużej nasiona buka są przechowywane, tym mniejsza jest ich siła kiełkowania (żywotność maleje z czasem przechowywania).",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Wniosek musi odnosić się do zmiennej niezależnej (czasu przechowywania).",
+     "dzialy": [
+      "rosliny"
+     ]
+    },
+    {
+     "nr": "8.2",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę i funkcję struktury X siewki buka (pod pierwszym liściem właściwym).",
+     "odpowiedz": "Liścień — fotosynteza (u buka liścienie wynoszone nad ziemię są zielone) i/lub dostarczanie materiałów zapasowych siewce.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Kiełkowanie epigeiczne.",
+     "dzialy": [
+      "rosliny"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "9",
+   "strona": 13,
+   "tytul": "Łodyga lipy",
+   "zadania": [
+    {
+     "nr": "9.1",
+     "punkty": 2,
+     "polecenie": "Podkreśl: tkanka okrywająca na zdjęciu to (skórka / korkowica), powstająca z (merystemu wierzchołkowego / kambium); kolenchyma to tkanka (żywa / martwa).",
+     "odpowiedz": "Skórka; merystemu wierzchołkowego; żywa.",
+     "zasady": "2 pkt – trzy poprawne.\n1 pkt – dwa.\n0 pkt – mniej.",
+     "omowienie": "Łodyga o budowie pierwotnej — korkowica powstaje dopiero z fellogenu przy przyroście wtórnym.",
+     "dzialy": [
+      "rosliny"
+     ]
+    },
+    {
+     "nr": "9.2",
+     "punkty": 1,
+     "polecenie": "Wykaż, że tkanka okrywająca pełni funkcje ochronne, uwzględniając cechę budowy widoczną na zdjęciu.",
+     "odpowiedz": "Zewnętrzne ściany komórek skórki są zgrubiałe (pokryte kutykulą), a komórki ściśle do siebie przylegają — chronią przed urazami, utratą wody i patogenami.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Cecha budowy + funkcja.",
+     "dzialy": [
+      "rosliny"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "10",
+   "strona": 14,
+   "tytul": "Filogeneza kręgowców",
+   "zadania": [
+    {
+     "nr": "10.1",
+     "punkty": 1,
+     "polecenie": "Na drzewie filogenetycznym literą X (przed ssakami, gadami i ptakami, po płazach) oznaczono wykształcenie: A. płuc; B. błon płodowych; C. gruczołów mlecznych; D. kończyn lądowych.",
+     "odpowiedz": "B — błony płodowe (owodniowce).",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Płuca i kończyny pojawiły się wcześniej (mają je płazy), gruczoły mleczne — tylko ssaki.",
+     "dzialy": [
+      "zwierzeta"
+     ]
+    },
+    {
+     "nr": "10.2",
+     "punkty": 2,
+     "polecenie": "Oceń P/F: 1. Krokodyle są bliżej spokrewnione z ptakami niż z jaszczurkami. 2. Ptaki są grupą parafiletyczną. 3. Gady są grupą monofiletyczną.",
+     "odpowiedz": "1 — P, 2 — F, 3 — F.",
+     "zasady": "2 pkt – trzy poprawne.\n1 pkt – dwie.\n0 pkt – mniej.",
+     "omowienie": "Ptaki są monofiletyczne; „gady” bez ptaków są parafiletyczne.",
+     "dzialy": [
+      "zwierzeta"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "11",
+   "strona": 15,
+   "tytul": "Gruczoły dokrewne",
+   "zadania": [
+    {
+     "nr": "11",
+     "punkty": 2,
+     "polecenie": "Podaj nazwy gruczołów: wydzielającego peptydowe hormony regulujące glukozę; kluczowego w dojrzewaniu układu odpornościowego; którego kora wydziela kortyzol.",
+     "odpowiedz": "Trzustka; grasica; nadnercza (kora nadnerczy). Litery — według schematu w arkuszu: D, B, C.",
+     "zasady": "2 pkt – trzy poprawne wiersze.\n1 pkt – dwa.\n0 pkt – mniej.",
+     "omowienie": "Grasica — dojrzewanie limfocytów T.",
+     "dzialy": [
+      "fizjologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "12",
+   "strona": 16,
+   "tytul": "Rotawirusy",
+   "zadania": [
+    {
+     "nr": "12.1",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, jak infekcja rotawirusowa zwiększa utratę wody — uwzględnij osmotyczne zatrzymywanie i osmotyczne wydzielanie wody do treści jelitowej.",
+     "odpowiedz": "Zanik mikrokosmków powoduje niedobór disacharydaz — niestrawione disacharydy pozostają w świetle jelita i osmotycznie zatrzymują w nim wodę; zakażone komórki wydzielają jony Cl⁻, za którymi woda przechodzi osmotycznie do światła jelita — powstaje biegunka.",
+     "zasady": "2 pkt – oba mechanizmy.\n1 pkt – jeden.\n0 pkt – brak.",
+     "omowienie": "Dwa mechanizmy = dwa punkty.",
+     "dzialy": [
+      "fizjologia"
+     ]
+    },
+    {
+     "nr": "12.2",
+     "punkty": 1,
+     "polecenie": "Podkreśl: przy odwodnieniu objętość osocza (spada / wzrasta), więc serce bije (szybciej / wolniej).",
+     "odpowiedz": "Spada; szybciej.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "fizjologia"
+     ]
+    },
+    {
+     "nr": "12.3",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego obniżenie tempa metabolizmu przy niskim stężeniu glukozy zwiększa szanse przeżycia.",
+     "odpowiedz": "Organizm zużywa mniej glukozy (i zapasów energetycznych), więc dłużej wystarcza jej dla narządów zależnych od glukozy, np. mózgu.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "fizjologia"
+     ]
+    },
+    {
+     "nr": "12.4",
+     "punkty": 1,
+     "polecenie": "Podaj przyczynę nietolerancji mleka po zakażeniu rotawirusem.",
+     "odpowiedz": "Niedobór laktazy (wskutek uszkodzenia szczytowych komórek kosmków) — laktoza nie jest trawiona.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "fizjologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "13",
+   "strona": 17,
+   "tytul": "Jod i tarczyca",
+   "zadania": [
+    {
+     "nr": "13.1",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę hormonu zawierającego jod.",
+     "odpowiedz": "Tyroksyna (T4) lub trijodotyronina (T3).",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Kalcytonina nie zawiera jodu.",
+     "dzialy": [
+      "fizjologia"
+     ]
+    },
+    {
+     "nr": "13.2",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego przy długotrwałym niedoborze jodu poziom TSH jest podwyższony (sprzężenie zwrotne ujemne).",
+     "odpowiedz": "Bez jodu tarczyca wytwarza mało hormonów; ich niskie stężenie nie hamuje podwzgórza i przysadki (brak ujemnego sprzężenia zwrotnego), więc przysadka wydziela więcej TSH.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Skutek — przerost tarczycy (wole).",
+     "dzialy": [
+      "fizjologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "14",
+   "strona": 18,
+   "tytul": "Roztocza i alergia",
+   "zadania": [
+    {
+     "nr": "14.1",
+     "punkty": 1,
+     "polecenie": "Określ gromadę stawonogów, do której należy roztocz, i podaj widoczną cechę budowy.",
+     "odpowiedz": "Pajęczaki — cztery pary odnóży (brak czułków).",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Owady mają 3 pary odnóży.",
+     "dzialy": [
+      "fizjologia"
+     ]
+    },
+    {
+     "nr": "14.2",
+     "punkty": 2,
+     "polecenie": "Podkreśl: IgE na powierzchni (komórek tucznych / limfocytów B); histamina powoduje (rozszerzenie / zwężenie) naczyń i (zwiększenie / zmniejszenie) przepuszczalności.",
+     "odpowiedz": "Komórek tucznych; rozszerzenie; zwiększenie.",
+     "zasady": "2 pkt – trzy poprawne.\n1 pkt – dwa.\n0 pkt – mniej.",
+     "omowienie": "",
+     "dzialy": [
+      "fizjologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "15",
+   "strona": 19,
+   "tytul": "Choroby mitochondrialne",
+   "zadania": [
+    {
+     "nr": "15.1",
+     "punkty": 1,
+     "polecenie": "Wykaż, że mitochondria są półautonomiczne.",
+     "odpowiedz": "Mają własne DNA i rybosomy i wytwarzają część własnych białek, ale większość białek mitochondrialnych jest kodowana przez genom jądrowy.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Trzeba pokazać obie strony — autonomię i zależność.",
+     "dzialy": [
+      "genetyka"
+     ]
+    },
+    {
+     "nr": "15.2",
+     "punkty": 2,
+     "polecenie": "Oceń P/F: 1. mutacja autosomalna — dziedziczenie zgodne z I prawem Mendla; 2. dzieci mężczyzny z mutacją mtDNA odziedziczą zaburzenia; 3. dzieci chorej kobiety będą miały identyczne objawy.",
+     "odpowiedz": "1 — P, 2 — F, 3 — F.",
+     "zasady": "2 pkt – trzy poprawne.\n1 pkt – dwie.\n0 pkt – mniej.",
+     "omowienie": "mtDNA od matki; heteroplazmia powoduje różne nasilenie objawów.",
+     "dzialy": [
+      "genetyka"
+     ]
+    },
+    {
+     "nr": "15.3",
+     "punkty": 2,
+     "polecenie": "Podkreśl: niedobór ATP nasila (glikolizę / glikogenogenezę), w której powstaje (pirogronian / glikogen), przekształcany w (mleczan / etanol).",
+     "odpowiedz": "Glikolizy; pirogronian; mleczan.",
+     "zasady": "2 pkt – trzy poprawne.\n1 pkt – dwa.\n0 pkt – mniej.",
+     "omowienie": "Stąd podwyższony kwas mlekowy we krwi chorych.",
+     "dzialy": [
+      "genetyka"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "16",
+   "strona": 20,
+   "tytul": "Paskowanie brzanki sumatrzańskiej",
+   "zadania": [
+    {
+     "nr": "16.1",
+     "punkty": 2,
+     "polecenie": "Zapisz wszystkie genotypy dla wzoru 1 (pełne paskowanie) i wzoru 2 (homozygota recesywna w jednym locus).",
+     "odpowiedz": "Wzór 1: AABB, AABb, AaBB, AaBb; wzór 2: AAbb, Aabb, aaBB, aaBb.",
+     "zasady": "2 pkt – oba wiersze kompletne.\n1 pkt – jeden.\n0 pkt – brak.",
+     "omowienie": "",
+     "dzialy": [
+      "genetyka"
+     ]
+    },
+    {
+     "nr": "16.2",
+     "punkty": 2,
+     "polecenie": "Zapisz krzyżówkę AaBb × AaBb i podaj proporcje wzorów 1 : 2 : 3.",
+     "odpowiedz": "Szachownica 4 × 4 gamet (AB, Ab, aB, ab); proporcje 9 : 6 : 1.",
+     "zasady": "2 pkt – krzyżówka i proporcje.\n1 pkt – jedno z dwóch.\n0 pkt – brak.",
+     "omowienie": "Wzór 2 łączy klasy 3 + 3 z rozkładu 9:3:3:1.",
+     "dzialy": [
+      "genetyka"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "17",
+   "strona": 22,
+   "tytul": "Budowa tRNA",
+   "zadania": [
+    {
+     "nr": "17.1",
+     "punkty": 1,
+     "polecenie": "tRNA zbudowany jest A. z jednej / B. z dwóch nici, a komplementarne odcinki są położone 1. w przeciwnej / 2. w tej samej orientacji.",
+     "odpowiedz": "A1.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Parowanie zasad zawsze antyrównoległe.",
+     "dzialy": [
+      "genetyka-molekularna"
+     ]
+    },
+    {
+     "nr": "17.2",
+     "punkty": 2,
+     "polecenie": "Określ funkcję ramienia akceptorowego i antykodonu tRNA.",
+     "odpowiedz": "Ramię akceptorowe — przyłącza aminokwas (koniec 3′); antykodon — komplementarnie wiąże się z kodonem mRNA, zapewniając wstawienie właściwego aminokwasu.",
+     "zasady": "2 pkt – obie funkcje.\n1 pkt – jedna.\n0 pkt – brak.",
+     "omowienie": "",
+     "dzialy": [
+      "genetyka-molekularna"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "18",
+   "strona": 23,
+   "tytul": "Ekspresja genu — sekwencja",
+   "zadania": [
+    {
+     "nr": "18.1",
+     "punkty": 1,
+     "polecenie": "Wybierz sekwencję dojrzałego mRNA transkrybowanego z podanej nici matrycowej (po wycięciu intronów).",
+     "odpowiedz": "D.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "mRNA jest komplementarne i antyrównoległe do matrycy, bez promotora i intronów.",
+     "dzialy": [
+      "genetyka-molekularna"
+     ]
+    },
+    {
+     "nr": "18.2",
+     "punkty": 1,
+     "polecenie": "Podaj sekwencję aminokwasową kodowaną przez pierwszy ekson (od końca N do C).",
+     "odpowiedz": "Met–Pro–Ala–Cys.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Nie uznawano odwróconej kolejności ani oznaczeń 5′/3′ przy peptydzie.",
+     "dzialy": [
+      "genetyka-molekularna"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "19",
+   "strona": 24,
+   "tytul": "Przewlekła białaczka szpikowa",
+   "zadania": [
+    {
+     "nr": "19.1",
+     "punkty": 1,
+     "polecenie": "Przyczyną przewlekłej białaczki szpikowej jest: A. duplikacja; B. inwersja; C. translokacja; D. transkrypcja.",
+     "odpowiedz": "C — translokacja (chromosom Philadelphia).",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Wymiana fragmentów chromosomów 9 i 22.",
+     "dzialy": [
+      "genetyka"
+     ]
+    },
+    {
+     "nr": "19.2",
+     "punkty": 1,
+     "polecenie": "Oceń P/F: 1. mutacja zmienia strukturę i liczbę chromosomów; 2. zmiany chromosomów 9 i 22 są widoczne w kariotypie.",
+     "odpowiedz": "1 — F, 2 — P.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Liczba chromosomów się nie zmienia.",
+     "dzialy": [
+      "genetyka"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "20",
+   "strona": 25,
+   "tytul": "Wymieranie płazów",
+   "zadania": [
+    {
+     "nr": "20.1",
+     "punkty": 1,
+     "polecenie": "Wykaż, że osuszanie siedlisk negatywnie wpływa na liczebność płazów.",
+     "odpowiedz": "Płazy rozmnażają się w wodzie (zapłodnienie zewnętrzne, jaja bez skorupy, larwy oddychające skrzelami) — osuszenie zbiorników uniemożliwia rozród i rozwój larw.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "ewolucja-ekologia"
+     ]
+    },
+    {
+     "nr": "20.2",
+     "punkty": 1,
+     "polecenie": "Który dokument reguluje handel gatunkami zagrożonymi? A. Agenda 21; B. Konwencja o Różnorodności Biologicznej; C. CITES; D. Natura 2000.",
+     "odpowiedz": "C — Konwencja Waszyngtońska (CITES).",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "ewolucja-ekologia"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "21",
+   "strona": 26,
+   "tytul": "Krzewy i rośliny jednoroczne na pustyni",
+   "zadania": [
+    {
+     "nr": "21.1",
+     "punkty": 2,
+     "polecenie": "Wskaż próby do porównania (A — tylko krzewy, B — krzewy i jednoroczne, C — tylko jednoroczne) dla hipotez: 1. krzewy zwiększają przyrost jednorocznych; 2. jednoroczne ograniczają przyrost krzewów.",
+     "odpowiedz": "1 — B i C; 2 — A i B.",
+     "zasady": "2 pkt – oba wiersze.\n1 pkt – jeden.\n0 pkt – brak.",
+     "omowienie": "Porównujemy próby różniące się tylko obecnością badanego czynnika.",
+     "dzialy": [
+      "ewolucja-ekologia"
+     ]
+    },
+    {
+     "nr": "21.2",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, jak cień krzewów pozytywnie wpływa na przyrost roślin jednorocznych w suszy (bilans wodny).",
+     "odpowiedz": "W cieniu jest niższa temperatura i mniejsze nasłonecznienie, więc rośliny jednoroczne tracą mniej wody w transpiracji (i gleba mniej paruje) — dłużej mają otwarte szparki i mogą fotosyntezować.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "",
+     "dzialy": [
+      "ewolucja-ekologia"
+     ]
+    }
+   ]
+  }
+ ]
+}
