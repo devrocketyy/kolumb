@@ -33,6 +33,73 @@ DZIALY = [
   ('b-jadro', 'II.5–7', 'Jądro, rybosomy i system błon wewnątrzkomórkowych'),
   ('b-mitochondria', 'II.8–9', 'Mitochondria, plastydy i endosymbioza'),
   ('b-sciana', 'II.10–12', 'Ściana komórkowa, wakuola i cytoszkielet')]),
+ ('metabolizm', 'Metabolizm', 'ATP i przenośniki, enzymy, fotosynteza, oddychanie komórkowe, fermentacje.', [
+  ('b-atp', 'III.1–2', 'Szlaki metaboliczne, ATP i przenośniki elektronów'),
+  ('b-enzymy', 'III.3', 'Enzymy'),
+  ('b-fotosynteza', 'III.4', 'Fotosynteza'),
+  ('b-oddychanie', 'III.5.1–4, 6', 'Oddychanie komórkowe'),
+  ('b-fermentacje', 'III.5.5, 7', 'Fermentacje, glukoneogeneza i glikogenoliza')]),
+ ('podzialy', 'Podziały komórkowe i genom', 'Organizacja DNA, replikacja, cykl komórkowy, mitoza, mejoza, apoptoza.', [
+  ('b-genom', 'IV.1', 'Organizacja materiału genetycznego'),
+  ('b-replikacja', 'IV.2', 'Replikacja DNA'),
+  ('b-cykl', 'IV.3', 'Cykl komórkowy i ploidalność'),
+  ('b-mitoza-mejoza', 'IV.4–7, 9', 'Mitoza, mejoza i cytokineza'),
+  ('b-apoptoza', 'IV.8', 'Apoptoza')]),
+ ('genetyka-molekularna', 'Genetyka molekularna', 'Budowa genu, transkrypcja, translacja, kod genetyczny i regulacja ekspresji.', [
+  ('b-gen', 'XIII.1', 'Budowa genu'),
+  ('b-transkrypcja', 'XIII.2–3', 'Transkrypcja i obróbka RNA'),
+  ('b-translacja', 'XIII.4–6', 'Kod genetyczny i translacja'),
+  ('b-regulacja', 'XIII.7', 'Regulacja ekspresji genów')]),
+ ('genetyka', 'Genetyka klasyczna i zmienność', 'Krzyżówki, sprzężenia, płeć, rodowody, mutacje i choroby genetyczne.', [
+  ('b-krzyzowki', 'XIV.1.1', 'Krzyżówki jedno- i dwugenowe'),
+  ('b-wspoldzialanie', 'XIV.1.2', 'Współdziałanie genów i allele wielokrotne'),
+  ('b-sprzezenia', 'XIV.1.3–4', 'Geny sprzężone i mapy genowe'),
+  ('b-plec', 'XIV.1.5–7', 'Płeć, cechy sprzężone z płcią i dziedziczenie pozajądrowe'),
+  ('b-rodowody', 'XIV.1.8', 'Analiza rodowodów'),
+  ('b-mutacje', 'XIV.2.1–6', 'Zmienność, mutacje i aberracje'),
+  ('b-choroby-genetyczne', 'XIV.2.7–9', 'Choroby genetyczne, mutageny i nowotwory')]),
+ ('biotechnologia', 'Biotechnologia', 'Biotechnologia tradycyjna i molekularna, GMO, klonowanie, medycyna, etyka.', [
+  ('b-biotech-tradycyjna', 'XV.1–2', 'Biotechnologia tradycyjna'),
+  ('b-techniki', 'XV.3–5', 'Narzędzia i techniki inżynierii genetycznej'),
+  ('b-gmo', 'XV.6–9', 'GMO, klonowanie i komórki macierzyste'),
+  ('b-biotech-medycyna', 'XV.10–14', 'Terapia genowa, poradnictwo i etyka')]),
+ ('mikroorganizmy', 'Mikroorganizmy', 'Wirusy, bakterie i archeowce, protisty, grzyby i porosty.', [
+  ('b-wirusy', 'XII', 'Wirusy'),
+  ('b-bakterie', 'VI', 'Bakterie i archeowce'),
+  ('b-protisty', 'VIII', 'Protisty'),
+  ('b-grzyby', 'VII', 'Grzyby i porosty')]),
+ ('rosliny', 'Rośliny', 'Różnorodność, tkanki i organy, gospodarka wodna, odżywianie, rozmnażanie, wzrost i rozwój.', [
+  ('b-przeglad-roslin', 'IX.1, IX.2.1–2', 'Glony i przegląd roślin lądowych'),
+  ('b-tkanki-roslinne', 'IX.2.3–4', 'Tkanki roślinne'),
+  ('b-organy', 'IX.2.5–8', 'Organy wegetatywne i ich modyfikacje'),
+  ('b-gospodarka-wodna', 'IX.3', 'Gospodarka wodna i mineralna'),
+  ('b-odzywianie-roslin', 'IX.4', 'Odżywianie roślin, C4 i CAM'),
+  ('b-rozmnazanie-roslin', 'IX.5', 'Przemiana pokoleń i rozmnażanie'),
+  ('b-rozwoj-roslin', 'IX.6–7', 'Wzrost, rozwój, hormony i ruchy roślin')]),
+ ('zwierzeta', 'Zwierzęta i systematyka', 'Zasady klasyfikacji, kladogramy, bezkręgowce i kręgowce.', [
+  ('b-systematyka', 'V', 'Klasyfikacja i kladogramy'),
+  ('b-bezkregowce', 'X', 'Bezkręgowce'),
+  ('b-kregowce', 'X', 'Kręgowce')]),
+ ('fizjologia', 'Fizjologia człowieka i zwierząt', 'Tkanki, odżywianie, odporność, oddychanie, krążenie, wydalanie, hormony, układ nerwowy, ruch, rozmnażanie.', [
+  ('b-tkanki-zwierzece', 'XI.1', 'Tkanki, narządy i homeostaza'),
+  ('b-odzywianie', 'XI.2.1', 'Odżywianie i trawienie'),
+  ('b-odpornosc', 'XI.2.2', 'Odporność'),
+  ('b-oddychanie-czl', 'XI.2.3 a–j', 'Wymiana gazowa'),
+  ('b-krazenie', 'XI.2.3 k–s', 'Krążenie'),
+  ('b-wydalanie', 'XI.2.4', 'Wydalanie i osmoregulacja'),
+  ('b-hormony', 'XI.2.5', 'Regulacja hormonalna'),
+  ('b-nerwy', 'XI.2.6', 'Układ nerwowy i zmysły'),
+  ('b-ruch', 'XI.2.7', 'Ruch'),
+  ('b-skora', 'XI.2.8', 'Pokrycie ciała i termoregulacja'),
+  ('b-rozmnazanie', 'XI.2.9', 'Rozmnażanie i rozwój')]),
+ ('ewolucja-ekologia', 'Ewolucja, ekologia i ochrona przyrody', 'Dobór, genetyka populacji, specjacja, nisza, populacje, ekosystemy, ochrona.', [
+  ('b-dobor', 'XVI.1–5', 'Dowody ewolucji i dobór naturalny'),
+  ('b-populacje-genetyka', 'XVI.6–9', 'Genetyka populacji'),
+  ('b-specjacja', 'XVI.10–18', 'Specjacja i ewolucja człowieka'),
+  ('b-nisza', 'XVII.1', 'Ekologia organizmów i nisza'),
+  ('b-populacje', 'XVII.2, XVII.3.1–5', 'Populacje i zależności międzygatunkowe'),
+  ('b-ekosystem', 'XVII.3.6–9', 'Ekosystem i obiegi materii'),
+  ('b-ochrona', 'XVIII', 'Różnorodność biologiczna i jej ochrona')]),
 ]
 
 PP = 'Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony)'
