@@ -1,0 +1,729 @@
+{
+ "id": "genetyka-molekularna",
+ "nazwa": "Genetyka molekularna",
+ "opis": "Budowa genu, transkrypcja, translacja, kod genetyczny i regulacja ekspresji.",
+ "poddzialy": [
+  {
+   "id": "b-gen",
+   "nazwa": "Budowa genu",
+   "opis": "Wymaganie XIII.1 podstawy programowej.",
+   "wymaganie": "XIII.1",
+   "fiszki": [
+    {
+     "id": "fec4a51df",
+     "przod": "Wyjaśnij pojęcie: gen",
+     "tyl": "Odcinek DNA zawierający informację o budowie produktu — białka (łańcucha polipeptydowego) lub funkcjonalnego RNA (rRNA, tRNA), wraz z sekwencjami regulatorowymi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "ff7a4f13c",
+     "przod": "Budowa genu eukariotycznego",
+     "tyl": "Promotor (miejsce przyłączenia polimerazy RNA), sekwencja kodująca złożona z eksonów przedzielonych intronami, terminator; dodatkowo sekwencje wzmacniające (enhancery) i wyciszające.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "f8965418c",
+     "przod": "Wyjaśnij pojęcie: ekson i intron",
+     "tyl": "Ekson — fragment genu obecny w dojrzałym mRNA (kodujący); intron — fragment niekodujący, przepisywany na pre-mRNA i wycinany w splicingu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "f4e130af7",
+     "przod": "Budowa genu prokariotycznego",
+     "tyl": "Zwykle ciągła sekwencja kodująca (bez intronów); geny o wspólnej funkcji często zorganizowane w operony pod kontrolą jednego promotora.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "f465efe9c",
+     "przod": "Wyjaśnij pojęcie: promotor",
+     "tyl": "Sekwencja DNA przed genem, do której przyłącza się polimeraza RNA (z czynnikami transkrypcyjnymi) i która wyznacza początek oraz nić matrycową transkrypcji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "f11043165",
+     "przod": "Wyjaśnij pojęcie: nić matrycowa i kodująca",
+     "tyl": "Matrycowa (antysensowna) — odczytywana przez polimerazę RNA; kodująca (sensowna) — ma sekwencję taką jak mRNA (z T zamiast U).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "f67fcd2af",
+     "przod": "Wyjaśnij pojęcie: allele",
+     "tyl": "Różne wersje tego samego genu zajmujące ten sam locus w chromosomach homologicznych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "fd7fee91e",
+     "przod": "Wyjaśnij pojęcie: genotyp i fenotyp",
+     "tyl": "Genotyp — zestaw alleli (genów) organizmu; fenotyp — zespół cech, wynik działania genotypu i środowiska.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "f283c4ecd",
+     "przod": "Wyjaśnij pojęcie: ekspresja genu",
+     "tyl": "Proces realizacji informacji genetycznej: transkrypcja (DNA → RNA) i, dla genów kodujących białka, translacja (mRNA → białko), wraz z obróbką i modyfikacjami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "f26ac1cb5",
+     "przod": "Wyjaśnij pojęcie: centralny dogmat biologii molekularnej",
+     "tyl": "Przepływ informacji DNA → RNA → białko; wyjątki: odwrotna transkrypcja (RNA → DNA u retrowirusów), replikacja RNA u wirusów RNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "f56887011",
+     "przod": "Dlaczego jeden gen może kodować kilka białek?",
+     "tyl": "Dzięki alternatywnemu splicingowi — z tego samego pre-mRNA mogą powstać różne mRNA przez łączenie różnych zestawów eksonów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "f868533b2",
+     "przod": "Wyjaśnij pojęcie: geny metabolizmu podstawowego",
+     "tyl": "Geny konstytutywne (housekeeping) — ulegają ekspresji we wszystkich komórkach, bo kodują białka niezbędne do życia (np. enzymy glikolizy, rybosomy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "ff6d5b9ba",
+     "przod": "Podaj nazwę pojęcia: Odcinek DNA zawierający informację o budowie produktu — białka (łańcucha polipeptydowego) lub funkcjonalnego RNA (rRNA, tRNA), wraz z sekwencjami regulatorowymi.",
+     "tyl": "gen",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "f03bce299",
+     "przod": "Rozpoznaj: Promotor (miejsce przyłączenia polimerazy RNA), sekwencja kodująca złożona z eksonów przedzielonych intronami, terminator; dodatkowo sekwencje wzmacniające (enhancery) i wyciszające.",
+     "tyl": "Budowa genu eukariotycznego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "fbfa343dc",
+     "przod": "Rozpoznaj: Zwykle ciągła sekwencja kodująca (bez intronów); geny o wspólnej funkcji często zorganizowane w operony pod kontrolą jednego promotora.",
+     "tyl": "Budowa genu prokariotycznego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "f203b7ed9",
+     "przod": "Podaj nazwę pojęcia: Sekwencja DNA przed genem, do której przyłącza się polimeraza RNA (z czynnikami transkrypcyjnymi) i która wyznacza początek oraz nić matrycową transkrypcji.",
+     "tyl": "promotor",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "fff2fea98",
+     "przod": "Podaj nazwę pojęcia: Różne wersje tego samego genu zajmujące ten sam locus w chromosomach homologicznych.",
+     "tyl": "allele",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "f11a6cafa",
+     "przod": "Podaj nazwę pojęcia: Proces realizacji informacji genetycznej: transkrypcja (DNA → RNA) i, dla genów kodujących białka, translacja (mRNA → białko), wraz z obróbką i modyfikacjami.",
+     "tyl": "ekspresja genu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "f6dbda0e7",
+     "przod": "Podaj nazwę pojęcia: Przepływ informacji DNA → RNA → białko; wyjątki: odwrotna transkrypcja (RNA → DNA u retrowirusów), replikacja RNA u wirusów RNA.",
+     "tyl": "centralny dogmat biologii molekularnej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pfaa56edf",
+     "pytanie": "Introny są:",
+     "odpowiedzi": [
+      "miejscem przyłączenia polimerazy",
+      "wycinane podczas splicingu",
+      "obecne w dojrzałym mRNA",
+      "typowe dla bakterii"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Niekodujące fragmenty.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p57d8e70d",
+     "pytanie": "Polimeraza RNA przyłącza się do:",
+     "odpowiedzi": [
+      "promotora",
+      "terminatora",
+      "intronu",
+      "kodonu START"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Początek transkrypcji.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p14e5dd88",
+     "pytanie": "Odwrotna transkrypcja (RNA → DNA) zachodzi u:",
+     "odpowiedzi": [
+      "wszystkich bakterii",
+      "wszystkich roślin",
+      "retrowirusów (np. HIV)",
+      "mitochondriów"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wyjątek od dogmatu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-transkrypcja",
+   "nazwa": "Transkrypcja i obróbka RNA",
+   "opis": "Wymaganie XIII.2–3 podstawy programowej.",
+   "wymaganie": "XIII.2–3",
+   "fiszki": [
+    {
+     "id": "f9715d72b",
+     "przod": "Wyjaśnij pojęcie: transkrypcja",
+     "tyl": "Synteza RNA na matrycy jednej nici DNA przez polimerazę RNA, zgodnie z zasadą komplementarności (A–U, T–A, G–C, C–G).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "f15d085a4",
+     "przod": "Etapy transkrypcji",
+     "tyl": "Inicjacja (przyłączenie polimerazy do promotora, rozplecenie DNA) → elongacja (synteza RNA 5′→3′) → terminacja (na terminatorze, uwolnienie RNA).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "f9a125b14",
+     "przod": "Czym różni się transkrypcja od replikacji?",
+     "tyl": "Kopiowany jest tylko fragment DNA (gen) i jedna nić; produktem jest jednoniciowe RNA (z U i rybozą); polimeraza RNA nie potrzebuje startera.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "fe1004dbd",
+     "przod": "Gdzie zachodzi transkrypcja u eukariontów i prokariontów?",
+     "tyl": "Eukarionty — w jądrze (oraz mitochondriach i plastydach); prokarionty — w cytoplazmie, równocześnie z translacją.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "fad290fb8",
+     "przod": "Wyjaśnij pojęcie: obróbka (dojrzewanie) pre-mRNA",
+     "tyl": "U eukariontów: dołączenie czapeczki (5′), dołączenie ogona poli-A (3′), wycięcie intronów i połączenie eksonów (splicing) — powstaje dojrzałe mRNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "fdce206e7",
+     "przod": "Rola czapeczki i ogona poli-A",
+     "tyl": "Chronią mRNA przed degradacją, ułatwiają transport z jądra i przyłączenie rybosomu (czapeczka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "ffb47a936",
+     "przod": "Wyjaśnij pojęcie: splicing",
+     "tyl": "Wycinanie intronów z pre-mRNA i łączenie eksonów, przeprowadzane przez spliceosom (kompleks snRNA i białek).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "f64af6668",
+     "przod": "Dlaczego u bakterii translacja może zachodzić w trakcie transkrypcji?",
+     "tyl": "Brak otoczki jądrowej oddzielającej DNA od rybosomów i brak obróbki mRNA — rybosomy przyłączają się do powstającego mRNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "ff08edec6",
+     "przod": "Rodzaje RNA i ich funkcje",
+     "tyl": "mRNA — przenosi informację o sekwencji aminokwasów; tRNA — dostarcza aminokwasy do rybosomu; rRNA — budulec i katalizator rybosomu; snRNA — splicing; miRNA — regulacja ekspresji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "f957be627",
+     "przod": "Jak ustalić sekwencję mRNA na podstawie nici matrycowej DNA?",
+     "tyl": "Zapisać komplementarną sekwencję (A→U, T→A, G→C, C→G), pamiętając, że mRNA jest antyrównoległe do matrycy; mRNA ma taką sekwencję jak nić kodująca, z U zamiast T.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "fa9981d63",
+     "przod": "Wyjaśnij pojęcie: odwrotna transkryptaza",
+     "tyl": "Enzym retrowirusów syntetyzujący DNA na matrycy RNA — wykorzystywany w biotechnologii do otrzymywania cDNA (bez intronów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "f845b87fc",
+     "przod": "Podaj nazwę pojęcia: Synteza RNA na matrycy jednej nici DNA przez polimerazę RNA, zgodnie z zasadą komplementarności (A–U, T–A, G–C, C–G).",
+     "tyl": "transkrypcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "f4a239a94",
+     "przod": "Rozpoznaj: mRNA — przenosi informację o sekwencji aminokwasów; tRNA — dostarcza aminokwasy do rybosomu; rRNA — budulec i katalizator rybosomu; snRNA — splicing; miRNA — regulacja ekspresji.",
+     "tyl": "Rodzaje RNA i ich funkcje",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "f440c0f99",
+     "przod": "Podaj nazwę pojęcia: Enzym retrowirusów syntetyzujący DNA na matrycy RNA — wykorzystywany w biotechnologii do otrzymywania cDNA (bez intronów).",
+     "tyl": "odwrotna transkryptaza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pd6a41232",
+     "pytanie": "W RNA zamiast tyminy występuje:",
+     "odpowiedzi": [
+      "uracyl",
+      "cytozyna",
+      "guanina",
+      "adenina"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "A–U.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p54952aeb",
+     "pytanie": "Ogon poli-A dołączany jest do końca:",
+     "odpowiedzi": [
+      "intronu",
+      "5′ DNA",
+      "3′ mRNA",
+      "5′ mRNA"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Obróbka pre-mRNA.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "paeaae89e",
+     "pytanie": "Jeśli nić matrycowa DNA ma fragment 3′-TAC-5′, to mRNA ma:",
+     "odpowiedzi": [
+      "5′-AUG-3′",
+      "3′-AUG-5′",
+      "5′-UAC-3′",
+      "5′-ATG-3′"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Komplementarność i antyrównoległość.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe37bb41c",
+     "pytanie": "Splicing przeprowadza:",
+     "odpowiedzi": [
+      "rybosom",
+      "polimeraza DNA",
+      "spliceosom",
+      "ligaza DNA"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "snRNA + białka.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-translacja",
+   "nazwa": "Kod genetyczny i translacja",
+   "opis": "Wymaganie XIII.4–6 podstawy programowej.",
+   "wymaganie": "XIII.4–6",
+   "fiszki": [
+    {
+     "id": "f4e687d1e",
+     "przod": "Wyjaśnij pojęcie: kod genetyczny",
+     "tyl": "Sposób zapisu informacji o kolejności aminokwasów w białku za pomocą sekwencji nukleotydów — trójek (kodonów) w mRNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "fe1a305e2",
+     "przod": "Cechy kodu genetycznego",
+     "tyl": "Trójkowy, jednoznaczny, zdegenerowany (wiele kodonów dla jednego aminokwasu), bezprzecinkowy, niezachodzący, uniwersalny (z nielicznymi wyjątkami, np. mitochondria).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "fdfc35b11",
+     "przod": "Wyjaśnij pojęcie: zdegenerowanie kodu",
+     "tyl": "Jeden aminokwas może być kodowany przez kilka kodonów (64 kodony, 20 aminokwasów) — różnią się zwykle trzecim nukleotydem; zmniejsza skutki mutacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "fc256bcd0",
+     "przod": "Wyjaśnij pojęcie: jednoznaczność kodu",
+     "tyl": "Dany kodon oznacza zawsze tylko jeden aminokwas.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f0debcf88",
+     "przod": "Wyjaśnij pojęcie: kodon START i STOP",
+     "tyl": "START — AUG (metionina), rozpoczyna translację; STOP — UAA, UAG, UGA, nie kodują aminokwasów, kończą translację.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f6507fc75",
+     "przod": "Wyjaśnij pojęcie: antykodon",
+     "tyl": "Trójka nukleotydów w pętli tRNA, komplementarna do kodonu mRNA — zapewnia wstawienie właściwego aminokwasu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "fd4be9401",
+     "przod": "Budowa tRNA",
+     "tyl": "Krótki łańcuch RNA o strukturze „liścia koniczyny”: pętla z antykodonem i koniec 3′ (CCA), do którego przyłączany jest aminokwas.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f6cd2fe61",
+     "przod": "Wyjaśnij pojęcie: aktywacja aminokwasów",
+     "tyl": "Przyłączenie aminokwasu do właściwego tRNA przez syntetazę aminoacylo-tRNA kosztem ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f9f067609",
+     "przod": "Budowa rybosomu",
+     "tyl": "Podjednostka mała (wiąże mRNA) i duża (katalizuje wiązanie peptydowe); miejsca A (aminoacylowe), P (peptydylowe), E (wyjścia).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "fe3279ad5",
+     "przod": "Etapy translacji",
+     "tyl": "Inicjacja (połączenie mRNA, małej podjednostki, tRNA z metioniną przy AUG i dużej podjednostki) → elongacja (dołączanie kolejnych aminokwasów, przesuwanie rybosomu o kodon) → terminacja (kodon STOP, czynnik uwalniający, rozpad kompleksu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f4868240a",
+     "przod": "Co katalizuje tworzenie wiązania peptydowego?",
+     "tyl": "rRNA dużej podjednostki rybosomu (rybozym — aktywność peptydylotransferazy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f0329303c",
+     "przod": "Wyjaśnij pojęcie: polisom",
+     "tyl": "Kilka rybosomów jednocześnie tłumaczących tę samą cząsteczkę mRNA — szybka synteza wielu kopii białka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f408cd11a",
+     "przod": "Gdzie powstają białka wydzielnicze i błonowe?",
+     "tyl": "Na rybosomach siateczki śródplazmatycznej szorstkiej; następnie modyfikowane w ER i aparacie Golgiego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f0a70ab9d",
+     "przod": "Wyjaśnij pojęcie: modyfikacje potranslacyjne",
+     "tyl": "Zmiany białka po translacji: fałdowanie (z udziałem białek opiekuńczych), przyłączanie cukrów (glikozylacja), fosforylacja, cięcie (np. proinsulina → insulina), tworzenie mostków disiarczkowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f90f225fd",
+     "przod": "Jak odczytać sekwencję aminokwasów z mRNA?",
+     "tyl": "Znaleźć pierwszy kodon AUG (od 5′), czytać kolejne trójki do kodonu STOP, korzystając z tabeli kodu genetycznego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f89b88047",
+     "przod": "Ile nukleotydów mRNA koduje białko złożone ze 100 aminokwasów?",
+     "tyl": "300 nukleotydów kodujących + 3 nukleotydy kodonu STOP = 303 (bez sekwencji niekodujących UTR).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f5b8a1503",
+     "przod": "Dlaczego liczba nukleotydów genu eukariotycznego jest dużo większa niż 3 × liczba aminokwasów?",
+     "tyl": "Gen zawiera introny, promotor, sekwencje nieulegające translacji (UTR) i kodon STOP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f07ce90b7",
+     "przod": "Podaj nazwę pojęcia: Sposób zapisu informacji o kolejności aminokwasów w białku za pomocą sekwencji nukleotydów — trójek (kodonów) w mRNA.",
+     "tyl": "kod genetyczny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "fa790690c",
+     "przod": "Podaj nazwę pojęcia: Jeden aminokwas może być kodowany przez kilka kodonów (64 kodony, 20 aminokwasów) — różnią się zwykle trzecim nukleotydem; zmniejsza skutki mutacji.",
+     "tyl": "zdegenerowanie kodu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "fe42c4050",
+     "przod": "Podaj nazwę pojęcia: Dany kodon oznacza zawsze tylko jeden aminokwas.",
+     "tyl": "jednoznaczność kodu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f8746d71c",
+     "przod": "Podaj nazwę pojęcia: Trójka nukleotydów w pętli tRNA, komplementarna do kodonu mRNA — zapewnia wstawienie właściwego aminokwasu.",
+     "tyl": "antykodon",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f5cc834f4",
+     "przod": "Rozpoznaj: Krótki łańcuch RNA o strukturze „liścia koniczyny”: pętla z antykodonem i koniec 3′ (CCA), do którego przyłączany jest aminokwas.",
+     "tyl": "Budowa tRNA",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f745e1c95",
+     "przod": "Rozpoznaj: Podjednostka mała (wiąże mRNA) i duża (katalizuje wiązanie peptydowe); miejsca A (aminoacylowe), P (peptydylowe), E (wyjścia).",
+     "tyl": "Budowa rybosomu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "feda6142d",
+     "przod": "Podaj nazwę pojęcia: Kilka rybosomów jednocześnie tłumaczących tę samą cząsteczkę mRNA — szybka synteza wielu kopii białka.",
+     "tyl": "polisom",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f27a81492",
+     "przod": "Podaj nazwę pojęcia: Zmiany białka po translacji: fałdowanie (z udziałem białek opiekuńczych), przyłączanie cukrów (glikozylacja), fosforylacja, cięcie (np. proinsulina → insulina), tworzenie mostków disiarczkowych.",
+     "tyl": "modyfikacje potranslacyjne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p78773954",
+     "pytanie": "Kodonem START jest:",
+     "odpowiedzi": [
+      "AUG",
+      "UAA",
+      "UAG",
+      "UGA"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Metionina.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3d708159",
+     "pytanie": "Zdegenerowanie kodu oznacza, że:",
+     "odpowiedzi": [
+      "jeden aminokwas może być kodowany przez kilka kodonów",
+      "kodony nakładają się na siebie",
+      "kod różni się między gatunkami",
+      "jeden kodon koduje kilka aminokwasów"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "64 kodony, 20 aminokwasów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p09d4252d",
+     "pytanie": "Antykodon znajduje się w:",
+     "odpowiedzi": [
+      "rRNA",
+      "mRNA",
+      "tRNA",
+      "DNA"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Komplementarny do kodonu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p123f1f2e",
+     "pytanie": "Wiązanie peptydowe tworzone jest dzięki aktywności:",
+     "odpowiedzi": [
+      "mRNA",
+      "polimerazy RNA",
+      "tRNA",
+      "rRNA dużej podjednostki"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Rybozym.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p211196d8",
+     "pytanie": "Aminokwas przyłączany jest do tRNA przez:",
+     "odpowiedzi": [
+      "ligazę",
+      "syntetazę aminoacylo-tRNA",
+      "rybosom",
+      "polimerazę RNA"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Aktywacja z ATP.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-regulacja",
+   "nazwa": "Regulacja ekspresji genów",
+   "opis": "Wymaganie XIII.7 podstawy programowej.",
+   "wymaganie": "XIII.7",
+   "fiszki": [
+    {
+     "id": "fee67add9",
+     "przod": "Wyjaśnij pojęcie: regulacja ekspresji genów",
+     "tyl": "Kontrola tego, które geny, kiedy i w jakim stopniu ulegają ekspresji — podstawa różnicowania komórek i reakcji na środowisko.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "fc98b51f2",
+     "przod": "Wyjaśnij pojęcie: operon",
+     "tyl": "U prokariontów: zespół genów struktury pod kontrolą wspólnego promotora i operatora, transkrybowanych razem na jedną cząsteczkę mRNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "fae0c6895",
+     "przod": "Budowa operonu laktozowego",
+     "tyl": "Promotor, operator, geny struktury (kodujące enzymy rozkładu laktozy, m.in. β-galaktozydazę); gen regulatorowy (poza operonem) koduje represor.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "ff1a25631",
+     "przod": "Działanie operonu laktozowego bez laktozy",
+     "tyl": "Represor wiąże się z operatorem i blokuje polimerazę RNA — geny nie ulegają transkrypcji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f184f1364",
+     "przod": "Działanie operonu laktozowego przy obecności laktozy",
+     "tyl": "Laktoza (allolaktoza) wiąże represor i zmienia jego kształt — odłącza się od operatora, polimeraza transkrybuje geny (operon indukowany).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "fadb8624a",
+     "przod": "Wyjaśnij pojęcie: operon indukowany i represyjny",
+     "tyl": "Indukowany (np. lac) — włączany przez substrat; represyjny (np. trp) — wyłączany przez nadmiar produktu (korepresor aktywuje represor).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f3e293a72",
+     "przod": "Działanie operonu tryptofanowego",
+     "tyl": "Przy niskim stężeniu tryptofanu geny syntezy są aktywne; nadmiar tryptofanu wiąże się z represorem (korepresor), który blokuje operator.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f0247bcd0",
+     "przod": "Poziomy regulacji ekspresji u eukariontów",
+     "tyl": "Struktura chromatyny (metylacja DNA, modyfikacje histonów), transkrypcja (czynniki transkrypcyjne, enhancery), obróbka RNA (alternatywny splicing), transport i trwałość mRNA (miRNA), translacja, modyfikacje i degradacja białek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f127b9d33",
+     "przod": "Wyjaśnij pojęcie: czynniki transkrypcyjne",
+     "tyl": "Białka wiążące się z sekwencjami regulatorowymi DNA i ułatwiające (lub hamujące) przyłączenie polimerazy RNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f7fd58375",
+     "przod": "Wpływ metylacji DNA na ekspresję",
+     "tyl": "Metylacja cytozyny w promotorze zwykle wycisza gen (kondensacja chromatyny, utrudnione przyłączenie czynników transkrypcyjnych).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f19f0a8b3",
+     "przod": "Wyjaśnij pojęcie: epigenetyka",
+     "tyl": "Dziedziczne zmiany ekspresji genów niewynikające ze zmiany sekwencji DNA (metylacja DNA, modyfikacje histonów) — np. inaktywacja chromosomu X, piętnowanie genomowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f9b3daa27",
+     "przod": "Wyjaśnij pojęcie: interferencja RNA (miRNA, siRNA)",
+     "tyl": "Krótkie RNA łączące się komplementarnie z mRNA, co prowadzi do jego degradacji lub zahamowania translacji — wyciszanie genów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f65cbc361",
+     "przod": "Dlaczego komórki jednego organizmu różnią się, choć mają ten sam genom?",
+     "tyl": "Różnią się zestawem aktywnych genów (ekspresja różnicowa), regulowanym m.in. czynnikami transkrypcyjnymi i modyfikacjami epigenetycznymi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "fbdafe217",
+     "przod": "Jak hormony steroidowe wpływają na ekspresję genów?",
+     "tyl": "Wiążą się z receptorem wewnątrzkomórkowym; kompleks hormon–receptor działa jak czynnik transkrypcyjny, wiążąc się z DNA i regulując transkrypcję.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f36951acf",
+     "przod": "Wyjaśnij pojęcie: inaktywacja chromosomu X (ciałko Barra)",
+     "tyl": "U samic ssaków jeden z chromosomów X w każdej komórce somatycznej jest losowo, trwale wyciszany i skondensowany — wyrównanie dawki genów (np. umaszczenie szylkretowe kotek).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f195fa266",
+     "przod": "Podaj nazwę pojęcia: U prokariontów: zespół genów struktury pod kontrolą wspólnego promotora i operatora, transkrybowanych razem na jedną cząsteczkę mRNA.",
+     "tyl": "operon",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f6abc6cc6",
+     "przod": "Rozpoznaj: Represor wiąże się z operatorem i blokuje polimerazę RNA — geny nie ulegają transkrypcji.",
+     "tyl": "Działanie operonu laktozowego bez laktozy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "fee262655",
+     "przod": "Rozpoznaj: Struktura chromatyny (metylacja DNA, modyfikacje histonów), transkrypcja (czynniki transkrypcyjne, enhancery), obróbka RNA (alternatywny splicing), transport i trwałość mRNA (miRNA), translacja, modyfikacje i degradacja białek.",
+     "tyl": "Poziomy regulacji ekspresji u eukariontów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "fa9e496e8",
+     "przod": "Podaj nazwę pojęcia: Białka wiążące się z sekwencjami regulatorowymi DNA i ułatwiające (lub hamujące) przyłączenie polimerazy RNA.",
+     "tyl": "czynniki transkrypcyjne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f599c7a71",
+     "przod": "Podaj nazwę pojęcia: Dziedziczne zmiany ekspresji genów niewynikające ze zmiany sekwencji DNA (metylacja DNA, modyfikacje histonów) — np. inaktywacja chromosomu X, piętnowanie genomowe.",
+     "tyl": "epigenetyka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f8b8221f8",
+     "przod": "Podaj nazwę pojęcia: Krótkie RNA łączące się komplementarnie z mRNA, co prowadzi do jego degradacji lub zahamowania translacji — wyciszanie genów.",
+     "tyl": "interferencja RNA (miRNA, siRNA)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p8db8cf49",
+     "pytanie": "Represor operonu laktozowego wiąże się z:",
+     "odpowiedzi": [
+      "genem struktury",
+      "promotorem",
+      "rybosomem",
+      "operatorem"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Blokuje polimerazę.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p92f02749",
+     "pytanie": "W obecności laktozy operon lac jest:",
+     "odpowiedzi": [
+      "zmetylowany",
+      "usunięty",
+      "aktywny (indukowany)",
+      "zablokowany"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Represor odłączony.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb9cde38a",
+     "pytanie": "Metylacja DNA w promotorze zwykle:",
+     "odpowiedzi": [
+      "zwiększa transkrypcję",
+      "wycisza gen",
+      "zmienia sekwencję DNA",
+      "wywołuje mutację punktową"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Epigenetyka.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc94ae462",
+     "pytanie": "Ciałko Barra to:",
+     "odpowiedzi": [
+      "nieaktywny chromosom X",
+      "chromosom Y",
+      "jąderko",
+      "plazmid"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Wyrównanie dawki genów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
