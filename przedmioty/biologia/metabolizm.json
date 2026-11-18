@@ -1,0 +1,2621 @@
+{
+ "id": "metabolizm",
+ "nazwa": "Metabolizm",
+ "opis": "ATP i przenośniki, enzymy, fotosynteza, oddychanie komórkowe, fermentacje.",
+ "poddzialy": [
+  {
+   "id": "b-atp",
+   "nazwa": "Szlaki metaboliczne, ATP i przenośniki elektronów",
+   "opis": "Wymaganie III.1–2 podstawy programowej.",
+   "wymaganie": "III.1–2",
+   "fiszki": [
+    {
+     "id": "fbb7feacb",
+     "przod": "Wyjaśnij pojęcie: metabolizm",
+     "tyl": "Ogół reakcji chemicznych zachodzących w organizmie, połączonych z przemianami energii — obejmuje anabolizm i katabolizm.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "ff964b4e7",
+     "przod": "Wyjaśnij pojęcie: anabolizm",
+     "tyl": "Reakcje syntezy złożonych związków z prostszych, wymagające dostarczenia energii (endoergiczne), np. fotosynteza, synteza białek, glikogenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fa829d999",
+     "przod": "Wyjaśnij pojęcie: katabolizm",
+     "tyl": "Reakcje rozkładu złożonych związków na prostsze, z uwolnieniem energii (egzoergiczne), np. oddychanie komórkowe, hydroliza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f60b707e5",
+     "przod": "Jak powiązane są anabolizm i katabolizm?",
+     "tyl": "Energia uwolniona w katabolizmie (zmagazynowana w ATP) zasila reakcje anaboliczne; produkty jednych procesów są substratami drugich.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f7fd9b923",
+     "przod": "Wyjaśnij pojęcie: szlak metaboliczny",
+     "tyl": "Ciąg kolejnych reakcji, w których produkt jednej jest substratem następnej, katalizowanych przez kolejne enzymy, np. glikoliza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "ff305c4db",
+     "przod": "Wyjaśnij pojęcie: cykl metaboliczny",
+     "tyl": "Szlak, w którym końcowy produkt jest jednocześnie substratem pierwszej reakcji, np. cykl Krebsa, cykl Calvina, cykl mocznikowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fd5730c65",
+     "przod": "Wyjaśnij pojęcie: reakcje egzoergiczne",
+     "tyl": "Reakcje, w których energia jest uwalniana (produkty mają mniej energii niż substraty).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f04c83425",
+     "przod": "Wyjaśnij pojęcie: reakcje endoergiczne",
+     "tyl": "Reakcje wymagające dostarczenia energii (produkty mają więcej energii niż substraty).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f14c7de83",
+     "przod": "Wyjaśnij pojęcie: sprzężenie energetyczne reakcji",
+     "tyl": "Połączenie reakcji egzoergicznej (np. hydrolizy ATP) z endoergiczną, która wykorzystuje uwolnioną energię.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fa8eb3028",
+     "przod": "Budowa ATP a jego funkcja",
+     "tyl": "Adenina + ryboza + trzy reszty fosforanowe; wiązania między resztami fosforanowymi (bezwodnikowe) przy hydrolizie uwalniają dużo energii, łatwo powstają i łatwo się rozpadają — idealny przenośnik energii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f6f0299fc",
+     "przod": "Hydroliza ATP — produkty i znaczenie",
+     "tyl": "ATP + H₂O → ADP + Pᵢ + energia (ok. 30 kJ/mol); energia napędza pracę mechaniczną, transport aktywny i syntezy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f333fc44a",
+     "przod": "Wyjaśnij pojęcie: fosforylacja",
+     "tyl": "Przyłączenie reszty fosforanowej do cząsteczki, np. ADP → ATP lub aktywacja glukozy do glukozo-6-fosforanu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f9fda0e52",
+     "przod": "Trzy sposoby wytwarzania ATP w komórce",
+     "tyl": "Fosforylacja substratowa (np. w glikolizie), oksydacyjna (łańcuch oddechowy w mitochondriach) i fotofosforylacja (faza zależna od światła w chloroplastach).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f261659f0",
+     "przod": "Rodzaje pracy wykonywanej kosztem ATP",
+     "tyl": "Mechaniczna (skurcz mięśni, ruch rzęsek), transportowa (pompy błonowe), chemiczna (syntezy), elektryczna, osmotyczna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fe7d222c8",
+     "przod": "Wyjaśnij pojęcie: utlenianie (biologiczne)",
+     "tyl": "Oddanie elektronów (często razem z protonami, czyli atomów wodoru) przez cząsteczkę; uwalnia energię.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f45c431bf",
+     "przod": "Wyjaśnij pojęcie: redukcja (biologiczna)",
+     "tyl": "Przyjęcie elektronów (często z protonami) przez cząsteczkę; wymaga energii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fb717e06c",
+     "przod": "Wyjaśnij pojęcie: NAD⁺",
+     "tyl": "Dinukleotyd nikotynamidoadeninowy — przenośnik elektronów i protonów w procesach katabolicznych (glikoliza, cykl Krebsa); forma zredukowana NADH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f5e97128c",
+     "przod": "Wyjaśnij pojęcie: FAD",
+     "tyl": "Dinukleotyd flawinoadeninowy — przenośnik elektronów i protonów (np. w cyklu Krebsa), forma zredukowana FADH₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fa789c12c",
+     "przod": "Wyjaśnij pojęcie: NADP⁺",
+     "tyl": "Fosforan dinukleotydu nikotynamidoadeninowego — przenośnik elektronów i protonów w procesach anabolicznych, np. w fotosyntezie (NADPH w cyklu Calvina).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fafa9acd7",
+     "przod": "Czym różni się rola NAD⁺ i NADP⁺?",
+     "tyl": "NAD⁺ uczestniczy głównie w katabolizmie (przenosi elektrony do łańcucha oddechowego), NADP⁺ — głównie w anabolizmie (dostarcza elektronów do syntez, np. w cyklu Calvina).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f5b5bc673",
+     "przod": "Gdzie trafiają elektrony z NADH i FADH₂ w komórce tlenowej?",
+     "tyl": "Do łańcucha oddechowego na wewnętrznej błonie mitochondrium, a ostatecznie na tlen, który wraz z protonami tworzy wodę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fc983d700",
+     "przod": "Wyjaśnij pojęcie: siła asymilacyjna",
+     "tyl": "ATP i NADPH wytworzone w fazie zależnej od światła i zużywane w fazie niezależnej od światła (cyklu Calvina).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "ff3d260fc",
+     "przod": "Dlaczego komórka nie magazynuje dużych ilości ATP?",
+     "tyl": "ATP jest nietrwałe i stale zużywane; energię magazynuje się w trwalszych związkach (glikogen, tłuszcze, skrobia, fosfokreatyna), a ATP odtwarza się na bieżąco.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f0552f876",
+     "przod": "Wyjaśnij pojęcie: fosfokreatyna",
+     "tyl": "Związek magazynujący energię w mięśniach — szybko przekazuje resztę fosforanową na ADP, odtwarzając ATP w pierwszych sekundach wysiłku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fd7251ce7",
+     "przod": "Wyjaśnij pojęcie: koenzym",
+     "tyl": "Niebiałkowa cząsteczka organiczna (często pochodna witaminy) współdziałająca z enzymem, np. NAD⁺ (z witaminy PP), FAD (z witaminy B₂), koenzym A (z kwasu pantotenowego).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f10d704fb",
+     "przod": "Wyjaśnij pojęcie: autotrofizm",
+     "tyl": "Sposób odżywiania polegający na wytwarzaniu związków organicznych z nieorganicznych (CO₂, H₂O) kosztem energii światła (fotoautotrofy) lub reakcji chemicznych (chemoautotrofy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f09f240a1",
+     "przod": "Wyjaśnij pojęcie: heterotrofizm",
+     "tyl": "Sposób odżywiania polegający na pobieraniu gotowych związków organicznych z otoczenia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fbcc6805c",
+     "przod": "Przykład szlaku z ujemnym sprzężeniem zwrotnym",
+     "tyl": "Produkt końcowy szlaku hamuje enzym katalizujący jego pierwszą reakcję — gdy produktu jest dużo, szlak zwalnia (np. hamowanie syntezy izoleucyny przez izoleucynę).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fff836bdf",
+     "przod": "Przykład cyklu metabolicznego u człowieka (inny niż Krebsa)",
+     "tyl": "Cykl mocznikowy w wątrobie — przekształca amoniak w mocznik.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f3420a12e",
+     "przod": "Wyjaśnij pojęcie: wydajność energetyczna procesu",
+     "tyl": "Stosunek energii zmagazynowanej w produkcie (np. ATP) do energii uwolnionej z substratu; w oddychaniu tlenowym ok. 40%, reszta rozprasza się jako ciepło.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f9702be35",
+     "przod": "Podaj nazwę pojęcia: Ogół reakcji chemicznych zachodzących w organizmie, połączonych z przemianami energii — obejmuje anabolizm i katabolizm.",
+     "tyl": "metabolizm",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f24b9a39b",
+     "przod": "Podaj nazwę pojęcia: Reakcje syntezy złożonych związków z prostszych, wymagające dostarczenia energii (endoergiczne), np. fotosynteza, synteza białek, glikogenu.",
+     "tyl": "anabolizm",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fc8f3c170",
+     "przod": "Podaj nazwę pojęcia: Reakcje rozkładu złożonych związków na prostsze, z uwolnieniem energii (egzoergiczne), np. oddychanie komórkowe, hydroliza.",
+     "tyl": "katabolizm",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f1250b499",
+     "przod": "Podaj nazwę pojęcia: Ciąg kolejnych reakcji, w których produkt jednej jest substratem następnej, katalizowanych przez kolejne enzymy, np. glikoliza.",
+     "tyl": "szlak metaboliczny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f05b07398",
+     "przod": "Rozpoznaj: Adenina + ryboza + trzy reszty fosforanowe; wiązania między resztami fosforanowymi (bezwodnikowe) przy hydrolizie uwalniają dużo energii, łatwo powstają i łatwo się rozpadają — idealny przenośnik energii.",
+     "tyl": "Budowa ATP a jego funkcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fdfb1a8de",
+     "przod": "Rozpoznaj: ATP + H₂O → ADP + Pᵢ + energia (ok. 30 kJ/mol); energia napędza pracę mechaniczną, transport aktywny i syntezy.",
+     "tyl": "Hydroliza ATP — produkty i znaczenie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f5641ff32",
+     "przod": "Rozpoznaj: Mechaniczna (skurcz mięśni, ruch rzęsek), transportowa (pompy błonowe), chemiczna (syntezy), elektryczna, osmotyczna.",
+     "tyl": "Rodzaje pracy wykonywanej kosztem ATP",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fa65eaaad",
+     "przod": "Podaj nazwę pojęcia: Oddanie elektronów (często razem z protonami, czyli atomów wodoru) przez cząsteczkę; uwalnia energię.",
+     "tyl": "utlenianie (biologiczne)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f3db81ebd",
+     "przod": "Podaj nazwę pojęcia: Przyjęcie elektronów (często z protonami) przez cząsteczkę; wymaga energii.",
+     "tyl": "redukcja (biologiczna)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f296591de",
+     "przod": "Podaj nazwę pojęcia: Dinukleotyd nikotynamidoadeninowy — przenośnik elektronów i protonów w procesach katabolicznych (glikoliza, cykl Krebsa); forma zredukowana NADH.",
+     "tyl": "NAD⁺",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fdea52c09",
+     "przod": "Podaj nazwę pojęcia: Dinukleotyd flawinoadeninowy — przenośnik elektronów i protonów (np. w cyklu Krebsa), forma zredukowana FADH₂.",
+     "tyl": "FAD",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f6f59b252",
+     "przod": "Podaj nazwę pojęcia: ATP i NADPH wytworzone w fazie zależnej od światła i zużywane w fazie niezależnej od światła (cyklu Calvina).",
+     "tyl": "siła asymilacyjna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f133c0b1c",
+     "przod": "Podaj nazwę pojęcia: Sposób odżywiania polegający na pobieraniu gotowych związków organicznych z otoczenia.",
+     "tyl": "heterotrofizm",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f273e444b",
+     "przod": "Rozpoznaj: Cykl mocznikowy w wątrobie — przekształca amoniak w mocznik.",
+     "tyl": "Przykład cyklu metabolicznego u człowieka (inny niż Krebsa)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pf9262f1f",
+     "pytanie": "Reakcją anaboliczną jest:",
+     "odpowiedzi": [
+      "hydroliza białek",
+      "synteza glikogenu",
+      "glikoliza",
+      "cykl Krebsa"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Synteza z prostszych związków.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p66db1aec",
+     "pytanie": "Cyklem metabolicznym jest:",
+     "odpowiedzi": [
+      "glikoliza",
+      "fermentacja mleczanowa",
+      "reakcja pomostowa",
+      "cykl Calvina"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Produkt końcowy jest substratem początkowym.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p13739833",
+     "pytanie": "Przenośnikiem elektronów w procesach anabolicznych fotosyntezy jest:",
+     "odpowiedzi": [
+      "FAD",
+      "NAD⁺",
+      "ATP",
+      "NADP⁺"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "NADPH w cyklu Calvina.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa0ac9a1f",
+     "pytanie": "Fotofosforylacja zachodzi w:",
+     "odpowiedzi": [
+      "macierzy mitochondrium",
+      "stromie",
+      "cytozolu",
+      "błonach tylakoidów"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Faza zależna od światła.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb619b8f5",
+     "pytanie": "Hydroliza ATP prowadzi do powstania:",
+     "odpowiedzi": [
+      "NADH",
+      "adenozyny i rybozy",
+      "ADP i fosforanu",
+      "AMP i glukozy"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "ATP → ADP + Pᵢ.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-enzymy",
+   "nazwa": "Enzymy",
+   "opis": "Wymaganie III.3 podstawy programowej.",
+   "wymaganie": "III.3",
+   "fiszki": [
+    {
+     "id": "f06ba6565",
+     "przod": "Wyjaśnij pojęcie: enzym",
+     "tyl": "Biokatalizator (najczęściej białko) przyspieszający reakcję chemiczną przez obniżenie energii aktywacji; sam nie zużywa się w reakcji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f2f103235",
+     "przod": "Wyjaśnij pojęcie: energia aktywacji",
+     "tyl": "Minimalna energia, którą muszą mieć cząsteczki, aby doszło do reakcji; enzymy ją obniżają.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fc5042be0",
+     "przod": "Czy enzym zmienia ilość energii uwalnianej w reakcji?",
+     "tyl": "Nie — zmienia tylko szybkość reakcji (energię aktywacji), a nie bilans energetyczny ani stan równowagi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fd121a80c",
+     "przod": "Wyjaśnij pojęcie: centrum aktywne",
+     "tyl": "Fragment enzymu o określonym kształcie i rozmieszczeniu grup chemicznych, w którym wiąże się substrat i zachodzi kataliza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f5fd50cbd",
+     "przod": "Wyjaśnij pojęcie: kompleks enzym–substrat",
+     "tyl": "Przejściowe połączenie enzymu z substratem w centrum aktywnym, po którym powstaje produkt i enzym zostaje uwolniony niezmieniony.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fd6483e9d",
+     "przod": "Wyjaśnij pojęcie: swoistość substratowa",
+     "tyl": "Zdolność enzymu do katalizowania reakcji tylko jednego substratu lub grupy podobnych substratów — wynika z dopasowania substratu do centrum aktywnego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f0e69de17",
+     "przod": "Wyjaśnij pojęcie: swoistość działania (reakcji)",
+     "tyl": "Katalizowanie przez enzym tylko jednego typu reakcji (np. tylko hydrolizy danego wiązania).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f82065f01",
+     "przod": "Model „klucza i zamka” a model indukowanego dopasowania",
+     "tyl": "Klucz–zamek: centrum aktywne ma kształt sztywno dopasowany do substratu. Indukowane dopasowanie: centrum aktywne zmienia kształt przy wiązaniu substratu, dopasowując się do niego (model aktualny).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f52e36feb",
+     "przod": "Wyjaśnij pojęcie: holoenzym",
+     "tyl": "Kompletny, aktywny enzym złożony z części białkowej (apoenzymu) i niebiałkowej (kofaktora).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f57cc16ae",
+     "przod": "Wyjaśnij pojęcie: apoenzym",
+     "tyl": "Białkowa część enzymu złożonego; sama jest nieaktywna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fee1dd83b",
+     "przod": "Wyjaśnij pojęcie: kofaktor",
+     "tyl": "Niebiałkowy składnik niezbędny do działania enzymu: jon metalu (np. Mg²⁺, Zn²⁺) lub cząsteczka organiczna (koenzym, grupa prostetyczna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fd154ebad",
+     "przod": "Wyjaśnij pojęcie: grupa prostetyczna enzymu",
+     "tyl": "Kofaktor trwale (kowalencyjnie) związany z białkiem enzymu, np. FAD w niektórych dehydrogenazach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f690f3624",
+     "przod": "Wyjaśnij pojęcie: koenzym (luźno związany)",
+     "tyl": "Kofaktor organiczny nietrwale związany z enzymem, przenoszący grupy lub elektrony między enzymami, np. NAD⁺.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f5c7134ea",
+     "przod": "Jak temperatura wpływa na aktywność enzymu?",
+     "tyl": "Do optimum aktywność rośnie (szybszy ruch cząsteczek, więcej zderzeń); powyżej optimum spada gwałtownie, bo enzym ulega denaturacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f651ee207",
+     "przod": "Dlaczego w niskiej temperaturze enzymy działają wolno, ale nie ulegają zniszczeniu?",
+     "tyl": "Cząsteczki poruszają się wolniej i rzadziej się zderzają; struktura enzymu jest zachowana, więc po ogrzaniu aktywność wraca.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f9e213aae",
+     "przod": "Jak pH wpływa na aktywność enzymu?",
+     "tyl": "Każdy enzym ma optimum pH; odchylenia zmieniają jonizację grup aminokwasów (także w centrum aktywnym), co zmienia kształt enzymu i wiązanie substratu, a w skrajnym pH — denaturuje go.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f5fff5697",
+     "przod": "Optimum pH pepsyny, amylazy ślinowej i trypsyny",
+     "tyl": "Pepsyna ok. 2 (żołądek), amylaza ślinowa ok. 7, trypsyna ok. 8 (jelito cienkie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f2be1e95a",
+     "przod": "Jak stężenie substratu wpływa na szybkość reakcji enzymatycznej?",
+     "tyl": "Początkowo szybkość rośnie proporcjonalnie, potem coraz wolniej, aż osiąga maksimum (Vmax), gdy wszystkie centra aktywne są wysycone.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fa1180680",
+     "przod": "Jak stężenie enzymu wpływa na szybkość reakcji (przy nadmiarze substratu)?",
+     "tyl": "Szybkość rośnie proporcjonalnie do stężenia enzymu, bo jest więcej centrów aktywnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f5223bced",
+     "przod": "Wyjaśnij pojęcie: inhibitor",
+     "tyl": "Substancja zmniejszająca aktywność enzymu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f2d474f72",
+     "przod": "Wyjaśnij pojęcie: inhibicja kompetycyjna",
+     "tyl": "Inhibitor podobny do substratu wiąże się z centrum aktywnym i konkuruje z substratem; można ją znieść, zwiększając stężenie substratu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fcddabea8",
+     "przod": "Wyjaśnij pojęcie: inhibicja niekompetycyjna",
+     "tyl": "Inhibitor wiąże się poza centrum aktywnym i zmienia kształt enzymu; zwiększenie stężenia substratu jej nie znosi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fca903977",
+     "przod": "Jak odróżnić na wykresie inhibicję kompetycyjną od niekompetycyjnej?",
+     "tyl": "Przy kompetycyjnej przy bardzo dużym stężeniu substratu reakcja osiąga tę samą Vmax co bez inhibitora; przy niekompetycyjnej Vmax jest niższa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f18237300",
+     "przod": "Wyjaśnij pojęcie: inhibicja odwracalna i nieodwracalna",
+     "tyl": "Odwracalna — inhibitor łączy się nietrwale i można go usunąć; nieodwracalna — trwale (kowalencyjnie) uszkadza enzym (np. sarin, sole metali ciężkich).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fe26d2749",
+     "przod": "Wyjaśnij pojęcie: aktywator enzymu",
+     "tyl": "Substancja zwiększająca aktywność enzymu, np. jony metali (Cl⁻ dla amylazy ślinowej, Mg²⁺ dla wielu kinaz).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f4b771371",
+     "przod": "Wyjaśnij pojęcie: enzymy allosteryczne",
+     "tyl": "Enzymy mające oprócz centrum aktywnego miejsca regulatorowe (allosteryczne), do których wiążą się aktywatory lub inhibitory zmieniające kształt enzymu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f3611a3b0",
+     "przod": "Wyjaśnij pojęcie: regulacja przez sprzężenie zwrotne ujemne (w szlaku)",
+     "tyl": "Produkt końcowy szlaku hamuje (allosterycznie) pierwszy enzym tego szlaku — zapobiega nadmiernemu wytwarzaniu produktu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fbd149383",
+     "przod": "Wyjaśnij pojęcie: proenzym (zymogen)",
+     "tyl": "Nieaktywna forma enzymu, aktywowana np. przez odcięcie fragmentu łańcucha (pepsynogen → pepsyna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f4b006db0",
+     "przod": "Wyjaśnij pojęcie: izoenzymy",
+     "tyl": "Różne formy enzymu katalizujące tę samą reakcję, ale różniące się budową i właściwościami (np. w różnych tkankach).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f99348915",
+     "przod": "Klasy enzymów — przykłady",
+     "tyl": "Oksydoreduktazy (dehydrogenazy), transferazy (kinazy), hydrolazy (amylaza, lipaza), liazy, izomerazy, ligazy (ligaza DNA).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f70af945c",
+     "przod": "Wyjaśnij pojęcie: katalaza",
+     "tyl": "Enzym rozkładający nadtlenek wodoru do wody i tlenu (2H₂O₂ → 2H₂O + O₂); występuje w peroksysomach, np. w wątrobie i bulwie ziemniaka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f26869c48",
+     "przod": "Jak zbadać aktywność katalazy w doświadczeniu?",
+     "tyl": "Do H₂O₂ dodać materiał (np. starty ziemniak, wątrobę) i mierzyć ilość wydzielonego tlenu (wysokość piany, objętość gazu); próba kontrolna — materiał zagotowany.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fd04e8b16",
+     "przod": "Jak zbadać wpływ temperatury na aktywność enzymu (np. amylazy)?",
+     "tyl": "Jednakowe próby enzymu i substratu w różnych temperaturach; mierzyć czas zaniku skrobi (płyn Lugola) — reszta warunków (pH, stężenia, objętości) stała.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f3fe2ebbf",
+     "przod": "Dlaczego enzymy bakterii termofilnych nie denaturują w 80°C?",
+     "tyl": "Mają strukturę wzmocnioną dodatkowymi wiązaniami (więcej mostków, wiązań jonowych, oddziaływań hydrofobowych) — są stabilne w wysokiej temperaturze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f1682f1c2",
+     "przod": "Zastosowanie enzymów termostabilnych",
+     "tyl": "Polimeraza Taq (z bakterii Thermus aquaticus) w PCR, enzymy w proszkach do prania i przemyśle spożywczym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "ffaa5a8e1",
+     "przod": "Wyjaśnij pojęcie: proteinaza (proteaza)",
+     "tyl": "Enzym hydrolizujący wiązania peptydowe w białkach (np. pepsyna, trypsyna, papaina, aktynidaza z kiwi).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fe43853cd",
+     "przod": "Dlaczego galaretka z surowym ananasem nie tężeje?",
+     "tyl": "Ananas zawiera proteinazę (bromelainę), która rozkłada białka żelatyny (kolagen), więc nie tworzy się sieć zatrzymująca wodę; gotowanie owocu denaturuje enzym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f72a13b6d",
+     "przod": "Dlaczego wiele leków działa jako inhibitory enzymów?",
+     "tyl": "Blokując konkretny enzym, hamują szlak metaboliczny patogenu lub szlak odpowiedzialny za objawy (np. aspiryna hamuje cyklooksygenazę, penicylina — enzymy syntezy ściany bakterii).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f013ca0a8",
+     "przod": "Wyjaśnij pojęcie: dehydrogenazy",
+     "tyl": "Enzymy odłączające atomy wodoru (elektrony i protony) od substratu i przekazujące je na NAD⁺ lub FAD.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f146ca8ed",
+     "przod": "Wyjaśnij pojęcie: kinazy",
+     "tyl": "Enzymy przenoszące resztę fosforanową z ATP na inne cząsteczki (fosforylacja), np. heksokinaza w glikolizie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f2236b13c",
+     "przod": "Dlaczego hipotermia może chronić narządy w czasie operacji?",
+     "tyl": "W niskiej temperaturze spada aktywność enzymów i tempo metabolizmu, więc komórki zużywają mniej tlenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f77cfed51",
+     "przod": "Wyjaśnij pojęcie: enzymy restrykcyjne (restryktazy)",
+     "tyl": "Enzymy bakteryjne tnące DNA w ściśle określonych sekwencjach (miejscach restrykcyjnych) — narzędzie inżynierii genetycznej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f1d284f67",
+     "przod": "Jak metale ciężkie wpływają na enzymy?",
+     "tyl": "Wiążą się z grupami –SH i denaturują enzym (inhibicja nieodwracalna), dlatego są toksyczne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fed3a786a",
+     "przod": "Wyjaśnij pojęcie: Vmax",
+     "tyl": "Maksymalna szybkość reakcji enzymatycznej, osiągana przy wysyceniu wszystkich cząsteczek enzymu substratem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f8d06ad3a",
+     "przod": "Wyjaśnij pojęcie: stała Michaelisa (Km)",
+     "tyl": "Stężenie substratu, przy którym szybkość reakcji wynosi połowę Vmax — im mniejsza Km, tym większe powinowactwo enzymu do substratu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f7084561f",
+     "przod": "Jak przedstawić na wykresie wpływ temperatury na aktywność enzymu?",
+     "tyl": "Krzywa rośnie do optimum, a potem gwałtownie opada (asymetryczna — spadek po optimum jest szybszy niż wzrost).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f73cad283",
+     "przod": "Dlaczego aktywność enzymu w próbie powyżej optimum spada z czasem trwania inkubacji?",
+     "tyl": "Bo denaturacja postępuje w czasie — im dłużej enzym jest w wysokiej temperaturze, tym więcej jego cząsteczek traci aktywność.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f530245c0",
+     "przod": "Przykład enzymu z jonem metalu jako kofaktorem",
+     "tyl": "Anhydraza węglanowa (Zn²⁺), cytochromy (Fe), polimerazy DNA (Mg²⁺), oksydaza cytochromowa (Cu, Fe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f553df404",
+     "przod": "Wyjaśnij pojęcie: rybozym",
+     "tyl": "Cząsteczka RNA o aktywności katalitycznej (np. rRNA w rybosomie) — wyjątek od zasady, że enzymy są białkami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f42f16e1c",
+     "przod": "Wyjaśnij pojęcie: sprzężenie zwrotne dodatnie (w regulacji enzymów)",
+     "tyl": "Produkt reakcji zwiększa aktywność enzymu, przyspieszając proces (np. aktywacja kaskady krzepnięcia krwi).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fe3ae382d",
+     "przod": "Dlaczego enzymy trawienne trzustki są wydzielane jako proenzymy?",
+     "tyl": "Aby nie strawiły komórek trzustki i jej przewodów; aktywują się dopiero w świetle jelita (trypsynogen → trypsyna dzięki enteropeptydazie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f0749fd80",
+     "przod": "Co oznacza, że enzym ma dużą liczbę obrotów?",
+     "tyl": "Jedna cząsteczka enzymu przekształca bardzo wiele cząsteczek substratu w jednostce czasu (np. katalaza — miliony na sekundę).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fb598605b",
+     "przod": "Wyjaśnij pojęcie: denaturacja cieplna enzymów w gotowaniu warzyw (blanszowanie)",
+     "tyl": "Krótkie gotowanie przed mrożeniem denaturuje enzymy warzyw, które inaczej powodowałyby zmiany smaku, barwy i wartości odżywczej podczas przechowywania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f3d5d1ad2",
+     "przod": "Jak sprawdzić, czy enzym jest białkiem w prostym doświadczeniu?",
+     "tyl": "Zagotować go (denaturacja) albo dodać proteinazę — utrata aktywności wskazuje na charakter białkowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f2edcc3d8",
+     "przod": "Gdzie występuje lizozym i jak działa?",
+     "tyl": "W ślinie, łzach, białku jaja — hydrolizuje wiązania w peptydoglikanie ściany bakterii, działając bakteriobójczo.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f308e8041",
+     "przod": "Wyjaśnij pojęcie: aktywność enzymatyczna (jednostka)",
+     "tyl": "Ilość substratu przekształcona przez enzym w jednostce czasu w określonych warunkach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fb961dbfd",
+     "przod": "Wyjaśnij pojęcie: enzymy konstytutywne i indukowane",
+     "tyl": "Konstytutywne — wytwarzane stale; indukowane — wytwarzane tylko w obecności substratu (np. enzymy rozkładu laktozy u E. coli).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f4d38e8cc",
+     "przod": "Dlaczego substrat chroni enzym przed denaturacją w podwyższonej temperaturze?",
+     "tyl": "Związany w centrum aktywnym substrat stabilizuje strukturę enzymu (dodatkowe oddziaływania), utrudniając jej rozluźnienie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f71970a6f",
+     "przod": "Jak alkohol etylowy wpływa na enzymy w wysokim stężeniu?",
+     "tyl": "Denaturuje białka (zaburza oddziaływania hydrofobowe i wiązania wodorowe) — dlatego 70% etanol działa odkażająco.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fc4b35a1f",
+     "przod": "Wyjaśnij pojęcie: amylaza",
+     "tyl": "Enzym hydrolizujący skrobię do maltozy (i dekstryn); występuje w ślinie i soku trzustkowym oraz w kiełkujących nasionach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fd9f0793e",
+     "przod": "Wyjaśnij pojęcie: lipaza",
+     "tyl": "Enzym hydrolizujący tłuszcze do glicerolu i kwasów tłuszczowych (lipaza trzustkowa, żołądkowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fb0f89901",
+     "przod": "Dlaczego wraz ze wzrostem temperatury o 10°C (poniżej optimum) szybkość reakcji enzymatycznej mniej więcej się podwaja?",
+     "tyl": "Bo rośnie energia kinetyczna cząsteczek i liczba skutecznych zderzeń enzymu z substratem (współczynnik Q₁₀ ≈ 2).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f9493cc08",
+     "przod": "Wyjaśnij pojęcie: centrum allosteryczne",
+     "tyl": "Miejsce w enzymie poza centrum aktywnym, w którym wiąże się regulator (aktywator lub inhibitor).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f67371138",
+     "przod": "Wyjaśnij pojęcie: enzymy wewnątrzkomórkowe i zewnątrzkomórkowe",
+     "tyl": "Wewnątrzkomórkowe działają w komórce (np. enzymy glikolizy), zewnątrzkomórkowe są wydzielane i działają poza nią (np. enzymy trawienne).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "ff622f7f2",
+     "przod": "Jak cyjanek działa na enzymy?",
+     "tyl": "Blokuje oksydazę cytochromową w łańcuchu oddechowym — komórki nie mogą wytwarzać ATP w oddychaniu tlenowym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f4680cd1b",
+     "przod": "Dlaczego leki będące inhibitorami kompetycyjnymi mogą przestać działać przy nagromadzeniu substratu?",
+     "tyl": "Bo duże stężenie substratu wypiera inhibitor z centrum aktywnego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f37fe8e3a",
+     "przod": "Wyjaśnij pojęcie: metanol a dehydrogenaza alkoholowa — leczenie etanolem",
+     "tyl": "Etanol jest substratem konkurującym z metanolem o dehydrogenazę alkoholową — podany przy zatruciu metanolem ogranicza powstawanie toksycznego formaldehydu (inhibicja kompetycyjna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f73abb4f5",
+     "przod": "Jaka jest rola jonów Cl⁻ dla amylazy ślinowej?",
+     "tyl": "Są jej aktywatorem — zwiększają aktywność enzymu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f08e12a1b",
+     "przod": "Dlaczego kiszonki i marynaty długo się nie psują?",
+     "tyl": "Niskie pH (kwas mlekowy lub ocet) hamuje aktywność enzymów bakterii i grzybów powodujących psucie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f55dea2a1",
+     "przod": "Wyjaśnij pojęcie: bloki metaboliczne (choroby)",
+     "tyl": "Brak lub niedobór enzymu w szlaku (np. w fenyloketonurii — hydroksylazy fenyloalaninowej) powoduje gromadzenie substratu i brak produktu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f03f0a6a3",
+     "przod": "Podaj nazwę pojęcia: Biokatalizator (najczęściej białko) przyspieszający reakcję chemiczną przez obniżenie energii aktywacji; sam nie zużywa się w reakcji.",
+     "tyl": "enzym",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f3126e5a1",
+     "przod": "Podaj nazwę pojęcia: Fragment enzymu o określonym kształcie i rozmieszczeniu grup chemicznych, w którym wiąże się substrat i zachodzi kataliza.",
+     "tyl": "centrum aktywne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fddfe1f6f",
+     "przod": "Podaj nazwę pojęcia: Kompletny, aktywny enzym złożony z części białkowej (apoenzymu) i niebiałkowej (kofaktora).",
+     "tyl": "holoenzym",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f146051b3",
+     "przod": "Podaj nazwę pojęcia: Białkowa część enzymu złożonego; sama jest nieaktywna.",
+     "tyl": "apoenzym",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fd0782b64",
+     "przod": "Podaj nazwę pojęcia: Niebiałkowy składnik niezbędny do działania enzymu: jon metalu (np. Mg²⁺, Zn²⁺) lub cząsteczka organiczna (koenzym, grupa prostetyczna).",
+     "tyl": "kofaktor",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f428c70a6",
+     "przod": "Podaj nazwę pojęcia: Substancja zmniejszająca aktywność enzymu.",
+     "tyl": "inhibitor",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f85d45440",
+     "przod": "Podaj nazwę pojęcia: Nieaktywna forma enzymu, aktywowana np. przez odcięcie fragmentu łańcucha (pepsynogen → pepsyna).",
+     "tyl": "proenzym (zymogen)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "faea1a158",
+     "przod": "Podaj nazwę pojęcia: Różne formy enzymu katalizujące tę samą reakcję, ale różniące się budową i właściwościami (np. w różnych tkankach).",
+     "tyl": "izoenzymy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f5e7dc0fe",
+     "przod": "Rozpoznaj: Oksydoreduktazy (dehydrogenazy), transferazy (kinazy), hydrolazy (amylaza, lipaza), liazy, izomerazy, ligazy (ligaza DNA).",
+     "tyl": "Klasy enzymów — przykłady",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f006246e0",
+     "przod": "Podaj nazwę pojęcia: Enzym rozkładający nadtlenek wodoru do wody i tlenu (2H₂O₂ → 2H₂O + O₂); występuje w peroksysomach, np. w wątrobie i bulwie ziemniaka.",
+     "tyl": "katalaza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "ff5ab3b03",
+     "przod": "Podaj nazwę pojęcia: Enzym hydrolizujący wiązania peptydowe w białkach (np. pepsyna, trypsyna, papaina, aktynidaza z kiwi).",
+     "tyl": "proteinaza (proteaza)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f0ef43ddf",
+     "przod": "Podaj nazwę pojęcia: Enzymy odłączające atomy wodoru (elektrony i protony) od substratu i przekazujące je na NAD⁺ lub FAD.",
+     "tyl": "dehydrogenazy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f42d42370",
+     "przod": "Podaj nazwę pojęcia: Maksymalna szybkość reakcji enzymatycznej, osiągana przy wysyceniu wszystkich cząsteczek enzymu substratem.",
+     "tyl": "Vmax",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f508ea4f6",
+     "przod": "Podaj nazwę pojęcia: Stężenie substratu, przy którym szybkość reakcji wynosi połowę Vmax — im mniejsza Km, tym większe powinowactwo enzymu do substratu.",
+     "tyl": "stała Michaelisa (Km)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f7e5d279a",
+     "przod": "Rozpoznaj: Anhydraza węglanowa (Zn²⁺), cytochromy (Fe), polimerazy DNA (Mg²⁺), oksydaza cytochromowa (Cu, Fe).",
+     "tyl": "Przykład enzymu z jonem metalu jako kofaktorem",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f683564a8",
+     "przod": "Podaj nazwę pojęcia: Cząsteczka RNA o aktywności katalitycznej (np. rRNA w rybosomie) — wyjątek od zasady, że enzymy są białkami.",
+     "tyl": "rybozym",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fbb832980",
+     "przod": "Podaj nazwę pojęcia: Enzym hydrolizujący skrobię do maltozy (i dekstryn); występuje w ślinie i soku trzustkowym oraz w kiełkujących nasionach.",
+     "tyl": "amylaza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "ff193b6f6",
+     "przod": "Podaj nazwę pojęcia: Brak lub niedobór enzymu w szlaku (np. w fenyloketonurii — hydroksylazy fenyloalaninowej) powoduje gromadzenie substratu i brak produktu.",
+     "tyl": "bloki metaboliczne (choroby)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p7bd7b5cb",
+     "pytanie": "Enzymy przyspieszają reakcje, ponieważ:",
+     "odpowiedzi": [
+      "obniżają energię aktywacji",
+      "dostarczają energii substratom",
+      "zmieniają kierunek reakcji",
+      "zwiększają ilość produktu w równowadze"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Obniżenie energii aktywacji.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf5752add",
+     "pytanie": "Inhibicję kompetycyjną można znieść przez:",
+     "odpowiedzi": [
+      "dodanie inhibitora",
+      "obniżenie temperatury",
+      "zmianę pH na skrajne",
+      "zwiększenie stężenia substratu"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Substrat wypiera inhibitor z centrum aktywnego.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p45d466a9",
+     "pytanie": "Białkowa część enzymu złożonego to:",
+     "odpowiedzi": [
+      "apoenzym",
+      "koenzym",
+      "holoenzym",
+      "kofaktor"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Apoenzym + kofaktor = holoenzym.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pffdc0b2e",
+     "pytanie": "Powyżej temperatury optymalnej aktywność enzymu spada, ponieważ:",
+     "odpowiedzi": [
+      "rośnie energia aktywacji",
+      "enzym zużywa się w reakcji",
+      "enzym ulega denaturacji",
+      "brakuje substratu"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Zmiana struktury przestrzennej.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4245be36",
+     "pytanie": "Optimum pH pepsyny wynosi około:",
+     "odpowiedzi": [
+      "8",
+      "7",
+      "2",
+      "11"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Kwaśne środowisko żołądka.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4a22911a",
+     "pytanie": "Produkt końcowy szlaku hamujący pierwszy enzym szlaku to przykład:",
+     "odpowiedzi": [
+      "ujemnego sprzężenia zwrotnego",
+      "aktywacji allosterycznej",
+      "inhibicji nieodwracalnej",
+      "denaturacji"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Regulacja szlaków metabolicznych.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1c2bb2c7",
+     "pytanie": "Katalaza katalizuje rozkład:",
+     "odpowiedzi": [
+      "skrobi",
+      "tłuszczów",
+      "nadtlenku wodoru",
+      "białek"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "2H₂O₂ → 2H₂O + O₂.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03f7ef80",
+     "pytanie": "Przy wysyceniu enzymu substratem szybkość reakcji można zwiększyć przez:",
+     "odpowiedzi": [
+      "obniżenie temperatury",
+      "dodanie enzymu",
+      "dodanie inhibitora",
+      "dodanie substratu"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Więcej centrów aktywnych.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-fotosynteza",
+   "nazwa": "Fotosynteza",
+   "opis": "Wymaganie III.4 podstawy programowej.",
+   "wymaganie": "III.4",
+   "fiszki": [
+    {
+     "id": "f913d29d5",
+     "przod": "Wyjaśnij pojęcie: fotosynteza",
+     "tyl": "Proces anaboliczny, w którym organizmy fotoautotroficzne z CO₂ i H₂O, kosztem energii światła, wytwarzają związki organiczne (cukry), a uwalniają tlen.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fba50add7",
+     "przod": "Sumaryczne równanie fotosyntezy",
+     "tyl": "6CO₂ + 12H₂O → (światło, chlorofil) → C₆H₁₂O₆ + 6O₂ + 6H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f4a5d3d06",
+     "przod": "Skąd pochodzi tlen uwalniany w fotosyntezie?",
+     "tyl": "Z wody — z fotolizy wody w fazie zależnej od światła (wykazano to izotopem ¹⁸O).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f7ebe5872",
+     "przod": "Dwie fazy fotosyntezy i ich miejsce",
+     "tyl": "Faza zależna od światła — w błonach tylakoidów; faza niezależna od światła (cykl Calvina) — w stromie chloroplastu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f9d17cc36",
+     "przod": "Substraty i produkty fazy zależnej od światła",
+     "tyl": "Substraty: H₂O, ADP, Pᵢ, NADP⁺ (i energia światła); produkty: O₂, ATP, NADPH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f060d318f",
+     "przod": "Substraty i produkty fazy niezależnej od światła",
+     "tyl": "Substraty: CO₂, ATP, NADPH; produkty: cukier (aldehyd 3-fosfoglicerynowy → glukoza), ADP, Pᵢ, NADP⁺.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "ff21a3098",
+     "przod": "Wyjaśnij pojęcie: barwniki fotosyntetyczne",
+     "tyl": "Związki pochłaniające światło: chlorofile (a, b) i karotenoidy (karoteny, ksantofile); u sinic i krasnorostów także fikobiliny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f99e00e13",
+     "przod": "Który barwnik jest głównym barwnikiem fotosyntezy?",
+     "tyl": "Chlorofil a — tworzy centra reakcji fotosystemów; pozostałe barwniki są pomocnicze (antenowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f29852907",
+     "przod": "Jakie światło pochłania chlorofil, a jakie odbija?",
+     "tyl": "Pochłania głównie czerwone i niebieskofioletowe, odbija zielone — dlatego liście są zielone.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f24a30b18",
+     "przod": "Rola karotenoidów w fotosyntezie",
+     "tyl": "Pochłaniają światło w zakresie niedostępnym dla chlorofilu i przekazują energię chlorofilowi; chronią chlorofil przed uszkodzeniem przez nadmiar światła (fotoochrona).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fa975fd42",
+     "przod": "Wyjaśnij pojęcie: widmo absorpcyjne",
+     "tyl": "Wykres pochłaniania światła o różnych długościach fali przez barwnik.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f21fc37a0",
+     "przod": "Wyjaśnij pojęcie: widmo czynnościowe fotosyntezy",
+     "tyl": "Wykres intensywności fotosyntezy w zależności od długości fali światła — pokrywa się z widmem absorpcji barwników.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f6d469cbc",
+     "przod": "Doświadczenie Engelmanna — co wykazało?",
+     "tyl": "Bakterie tlenowe gromadziły się przy nici zielenicy w miejscach oświetlonych światłem czerwonym i niebieskim — tam powstawało najwięcej tlenu (najintensywniejsza fotosynteza).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f2d15b72a",
+     "przod": "Wyjaśnij pojęcie: fotosystem",
+     "tyl": "Kompleks barwników i białek w błonie tylakoidu: antena (barwniki pomocnicze zbierające energię) i centrum reakcji z parą cząsteczek chlorofilu a.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f8801c729",
+     "przod": "Czym różnią się PS I i PS II?",
+     "tyl": "PS II (centrum P680) — rozkłada wodę i przekazuje elektrony do łańcucha transportu; PS I (centrum P700) — przekazuje elektrony na NADP⁺.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f6794db8c",
+     "przod": "Wyjaśnij pojęcie: fotoliza wody",
+     "tyl": "Rozkład wody w PS II (przez enzym rozszczepiający wodę) na elektrony, protony i tlen: 2H₂O → 4H⁺ + 4e⁻ + O₂; elektrony uzupełniają braki w centrum reakcji PS II.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f39c6d48f",
+     "przod": "Dlaczego PS II potrzebuje enzymu rozszczepiającego wodę? (matura 2026)",
+     "tyl": "Światło wybija elektrony z centrum reakcji PS II; ich ubytek musi być stale uzupełniany elektronami z wody, inaczej fotosystem przestałby działać.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fb34313ca",
+     "przod": "Wyjaśnij pojęcie: fotofosforylacja niecykliczna",
+     "tyl": "Wytwarzanie ATP podczas niecyklicznego przepływu elektronów: woda → PS II → łańcuch transportu → PS I → NADP⁺; powstają ATP, NADPH i O₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f41cdf9aa",
+     "przod": "Wyjaśnij pojęcie: fotofosforylacja cykliczna",
+     "tyl": "Wytwarzanie ATP podczas cyklicznego przepływu elektronów: PS I → łańcuch transportu → z powrotem do PS I; powstaje tylko ATP (bez NADPH i O₂).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f977ff56e",
+     "przod": "Po co roślinie fotofosforylacja cykliczna?",
+     "tyl": "Dostarcza dodatkowego ATP, bo cykl Calvina zużywa więcej ATP niż NADPH (3 ATP : 2 NADPH na cząsteczkę CO₂).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f7eb09d4c",
+     "przod": "Wyjaśnij pojęcie: chemiosmoza (w chloroplaście)",
+     "tyl": "Wytwarzanie ATP dzięki gradientowi protonów: podczas transportu elektronów H⁺ są pompowane do wnętrza tylakoidu, a wracając do stromy przez syntazę ATP napędzają syntezę ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f393bea25",
+     "przod": "Gdzie stężenie H⁺ jest większe w chloroplaście na świetle?",
+     "tyl": "We wnętrzu (świetle) tylakoidu — tam gromadzą się protony z fotolizy wody i z pompowania przez łańcuch transportu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f24e0df61",
+     "przod": "Wyjaśnij pojęcie: cykl Calvina",
+     "tyl": "Cykl reakcji w stromie, w którym CO₂ jest wiązany i redukowany do cukru kosztem ATP i NADPH; składa się z karboksylacji, redukcji i regeneracji RuBP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f810bc672",
+     "przod": "Etap karboksylacji w cyklu Calvina",
+     "tyl": "Enzym RuBisCO przyłącza CO₂ do rybulozo-1,5-bisfosforanu (RuBP); powstają 2 cząsteczki 3-fosfoglicerynianu (PGA).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "ff6cef412",
+     "przod": "Etap redukcji w cyklu Calvina",
+     "tyl": "PGA jest redukowany kosztem ATP i NADPH do aldehydu 3-fosfoglicerynowego (PGAL, triozy) — części z niego powstaje glukoza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f417032bc",
+     "przod": "Etap regeneracji w cyklu Calvina",
+     "tyl": "Większość PGAL jest przekształcana — kosztem ATP — z powrotem w akceptor CO₂, czyli RuBP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f682f4159",
+     "przod": "Wyjaśnij pojęcie: RuBisCO",
+     "tyl": "Karboksylaza/oksygenaza rybulozo-1,5-bisfosforanu — enzym wiążący CO₂ w cyklu Calvina; najpowszechniejsze białko na Ziemi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f8dee1c6c",
+     "przod": "Ile cząsteczek CO₂ potrzeba do syntezy jednej cząsteczki glukozy?",
+     "tyl": "Sześć (6 obrotów cyklu Calvina).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f4579f0de",
+     "przod": "Ile ATP i NADPH zużywa cykl Calvina na 1 cząsteczkę glukozy?",
+     "tyl": "18 ATP i 12 NADPH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f09f11cf4",
+     "przod": "Wyjaśnij pojęcie: fotooddychanie",
+     "tyl": "Przyłączanie przez RuBisCO tlenu zamiast CO₂ (przy wysokim stężeniu O₂, niskim CO₂, wysokiej temperaturze) — zużywa energię i uwalnia CO₂, obniżając wydajność fotosyntezy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f586d3303",
+     "przod": "Co się dzieje z produktami fotosyntezy w komórce?",
+     "tyl": "PGAL i glukoza służą do syntezy sacharozy (transport), skrobi (zapas), celulozy, aminokwasów, tłuszczów i są substratem oddychania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f8c777e9d",
+     "przod": "Wyjaśnij pojęcie: skrobia asymilacyjna",
+     "tyl": "Skrobia odkładana czasowo w chloroplastach w ciągu dnia i rozkładana w nocy do cukrów transportowanych do innych organów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fbbd9a501",
+     "przod": "Dlaczego faza niezależna od światła nie zachodzi długo w ciemności?",
+     "tyl": "Bo wymaga ATP i NADPH z fazy zależnej od światła; po ich wyczerpaniu cykl Calvina ustaje.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f92ec8046",
+     "przod": "Czynniki zewnętrzne wpływające na intensywność fotosyntezy",
+     "tyl": "Natężenie i barwa światła, stężenie CO₂, temperatura, dostępność wody, zawartość soli mineralnych (N, Mg).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fbb8d4bbe",
+     "przod": "Wyjaśnij pojęcie: punkt kompensacyjny świetlny",
+     "tyl": "Natężenie światła, przy którym intensywność fotosyntezy równa się intensywności oddychania — bilans wymiany gazowej wynosi zero.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f5f14ff97",
+     "przod": "Wyjaśnij pojęcie: punkt kompensacyjny CO₂",
+     "tyl": "Stężenie CO₂, przy którym ilość CO₂ pobieranego w fotosyntezie równa się ilości wydzielanego w oddychaniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fc66436b8",
+     "przod": "Wyjaśnij pojęcie: punkt wysycenia świetlnego",
+     "tyl": "Natężenie światła, powyżej którego intensywność fotosyntezy już nie rośnie (ogranicza ją inny czynnik, np. CO₂ lub temperatura).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "ffd554df6",
+     "przod": "Dlaczego rośliny cienioznośne mają niższy punkt kompensacyjny?",
+     "tyl": "Oddychają słabiej i mają bardziej wydajne anteny — przy słabym świetle fotosynteza już przewyższa oddychanie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f90f1e616",
+     "przod": "Jak temperatura wpływa na fotosyntezę?",
+     "tyl": "Faza niezależna od światła jest enzymatyczna — jej szybkość rośnie do optimum, potem spada (denaturacja enzymów, zamykanie szparek, nasilenie fotooddychania).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fcefb768c",
+     "przod": "Wyjaśnij pojęcie: prawo minimum (czynnika ograniczającego)",
+     "tyl": "Intensywność procesu zależy od czynnika, który jest w największym niedoborze względem potrzeb.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f51342b46",
+     "przod": "Jak wykazać, że do fotosyntezy potrzebne jest światło?",
+     "tyl": "Zasłonić część liścia rośliny (wcześniej przetrzymanej w ciemności) folią, po kilku godzinach na świetle wykonać próbę ze skrobią (Lugol) — zasłonięta część nie barwi się na granatowo.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f55d91f36",
+     "przod": "Jak wykazać, że do fotosyntezy potrzebny jest chlorofil?",
+     "tyl": "Liść pstry (zielono-biały) po oświetleniu odbarwić w etanolu i zbadać płynem Lugola — skrobia powstaje tylko w zielonych częściach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fa3c297eb",
+     "przod": "Jak wykazać, że do fotosyntezy potrzebny jest CO₂?",
+     "tyl": "Roślinę pod kloszem z substancją pochłaniającą CO₂ (np. NaOH, wapno sodowane) porównać z rośliną w zwykłym powietrzu — w pierwszej nie powstaje skrobia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "ff0d63952",
+     "przod": "Po co odbarwia się liść w gorącym etanolu przed próbą z płynem Lugola?",
+     "tyl": "Aby usunąć chlorofil, który maskowałby granatowe zabarwienie skrobi (wcześniej liść gotuje się w wodzie, by zniszczyć błony).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fcd0fd15d",
+     "przod": "Wyjaśnij pojęcie: rośliny C3",
+     "tyl": "Rośliny, u których pierwszym produktem wiązania CO₂ jest 3-węglowy PGA (cykl Calvina); większość roślin strefy umiarkowanej (pszenica, fasola).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f4c358cc5",
+     "przod": "Wyjaśnij pojęcie: rośliny C4",
+     "tyl": "Rośliny, które najpierw wiążą CO₂ w komórkach mezofilu w związki 4-węglowe (przez karboksylazę PEP), a potem uwalniają CO₂ w komórkach pochwy okołowiązkowej, gdzie zachodzi cykl Calvina (np. kukurydza, trzcina cukrowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f5749a4cd",
+     "przod": "Dlaczego rośliny C4 są wydajne w gorącym, suchym klimacie?",
+     "tyl": "Zagęszczają CO₂ w komórkach pochwy okołowiązkowej, więc RuBisCO prawie nie przyłącza tlenu (brak fotooddychania), a szparki mogą być bardziej przymknięte (mniejsza utrata wody).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fb4a93bd0",
+     "przod": "Wyjaśnij pojęcie: anatomia typu Kranz",
+     "tyl": "Budowa liścia roślin C4: wokół wiązek przewodzących wieniec dużych komórek pochwy okołowiązkowej z chloroplastami, otoczony komórkami mezofilu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f4f28ae99",
+     "przod": "Wyjaśnij pojęcie: rośliny CAM",
+     "tyl": "Rośliny (np. kaktusy, gruboszowate, ananas), które otwierają szparki nocą i wiążą CO₂ w kwas jabłkowy gromadzony w wakuoli, a w dzień przy zamkniętych szparkach uwalniają z niego CO₂ do cyklu Calvina.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fa77b13a6",
+     "przod": "Czym różni się C4 od CAM?",
+     "tyl": "C4 — rozdział przestrzenny wiązania CO₂ (różne komórki); CAM — rozdział czasowy (noc i dzień w tej samej komórce).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f28965662",
+     "przod": "Wyjaśnij pojęcie: karboksylaza PEP",
+     "tyl": "Enzym wiążący CO₂ (jako HCO₃⁻) z fosfoenolopirogronianem u roślin C4 i CAM; ma większe powinowactwo do CO₂ niż RuBisCO i nie wiąże tlenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f4dc70748",
+     "przod": "Wyjaśnij pojęcie: chemosynteza",
+     "tyl": "Wytwarzanie związków organicznych z CO₂ kosztem energii z utleniania związków nieorganicznych (np. NH₃, H₂S, Fe²⁺) — u bakterii chemoautotroficznych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "ffa98c321",
+     "przod": "Przykłady bakterii chemosyntetyzujących",
+     "tyl": "Bakterie nitryfikacyjne (utleniają amoniak i azotyny), siarkowe (H₂S), żelaziste (Fe²⁺), wodorowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fc4d3369f",
+     "przod": "Znaczenie fotosyntezy w przyrodzie",
+     "tyl": "Źródło związków organicznych i energii dla niemal wszystkich organizmów, źródło tlenu w atmosferze, pochłanianie CO₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f7b14e711",
+     "przod": "Wyjaśnij pojęcie: fotosynteza anoksygeniczna",
+     "tyl": "Fotosynteza bakteryjna (np. bakterii purpurowych, zielonych), w której donorem elektronów nie jest woda (lecz np. H₂S), więc nie wydziela się tlen.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f192e13a4",
+     "przod": "Dlaczego zimą na pastwiskach ustaje przyrost biomasy roślin?",
+     "tyl": "Niska temperatura hamuje enzymy fazy niezależnej od światła i pobieranie wody, a dzień jest krótki — fotosynteza jest zbyt słaba.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fa5f8f53f",
+     "przod": "Jak stężenie CO₂ w szklarniach wpływa na plony?",
+     "tyl": "Zwiększanie stężenia CO₂ (przy dobrym świetle i temperaturze) przyspiesza fotosyntezę i zwiększa plon, bo w powietrzu CO₂ często jest czynnikiem ograniczającym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fcc0fbd0a",
+     "przod": "Jak zbudowany jest chloroplast w powiązaniu z funkcją?",
+     "tyl": "Duża powierzchnia błon tylakoidów (grana) mieści wiele fotosystemów i syntaz ATP; stroma zawiera enzymy cyklu Calvina; dwie błony oddzielają procesy od cytozolu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fa5e50d6c",
+     "przod": "Wyjaśnij pojęcie: łańcuch transportu elektronów w tylakoidzie",
+     "tyl": "Przenośniki (plastochinon, cytochromy b₆f, plastocyjanina) przekazujące elektrony z PS II do PS I; ich przepływ napędza pompowanie protonów do wnętrza tylakoidu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f6aef4e54",
+     "przod": "Wyjaśnij pojęcie: ferredoksyna",
+     "tyl": "Białko przenoszące elektrony z PS I na reduktazę NADP⁺, która redukuje NADP⁺ do NADPH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f39f19be3",
+     "przod": "Co by się stało z fotosyntezą po zablokowaniu syntazy ATP w tylakoidach?",
+     "tyl": "Nie powstawałoby ATP, więc cykl Calvina (wymagający ATP) zatrzymałby się; nastąpiłoby gromadzenie się protonów we wnętrzu tylakoidu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f2b27afd9",
+     "przod": "Co by się stało z cyklem Calvina po nagłym wyłączeniu światła?",
+     "tyl": "Spada ilość ATP i NADPH — przestaje zachodzić redukcja PGA i regeneracja RuBP, więc PGA się gromadzi, a RuBP ubywa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fac334459",
+     "przod": "Co by się stało z cyklem Calvina po nagłym usunięciu CO₂?",
+     "tyl": "RuBP przestaje być zużywany, więc się gromadzi, a ilość PGA maleje.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f5097dc1d",
+     "przod": "Jak wykazać wydzielanie tlenu w fotosyntezie?",
+     "tyl": "Zebrać gaz wydzielany przez moczarkę w odwróconej probówce i wprowadzić tlące się łuczywo — zapala się.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f6ce87ea5",
+     "przod": "Dlaczego liście jesienią zmieniają barwę?",
+     "tyl": "Chlorofil ulega rozkładowi (składniki są odzyskiwane), więc stają się widoczne karotenoidy (żółte, pomarańczowe), a w niektórych gatunkach powstają antocyjany (czerwone).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fea586647",
+     "przod": "Wyjaśnij pojęcie: chromatografia barwników liścia",
+     "tyl": "Metoda rozdzielenia barwników (np. na bibule w rozpuszczalniku) — rozdzielają się w pasma: karoteny, ksantofile, chlorofil a i b — różnią się rozpuszczalnością i wędrowaniem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fb21dd9d9",
+     "przod": "Gdzie w liściu zachodzi najintensywniejsza fotosynteza?",
+     "tyl": "W miękiszu palisadowym (asymilacyjnym), najbogatszym w chloroplasty, położonym pod skórką górnej strony liścia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fd31c019b",
+     "przod": "Dlaczego w miękiszu gąbczastym są duże przestwory międzykomórkowe?",
+     "tyl": "Ułatwiają dyfuzję CO₂ do komórek przeprowadzających fotosyntezę i odprowadzanie tlenu oraz pary wodnej do szparek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fda1384c2",
+     "przod": "Jakie przystosowania anatomiczne liści ułatwiają wymianę gazową?",
+     "tyl": "Szparki (głównie po spodniej stronie), przestwory międzykomórkowe w miękiszu gąbczastym, cienka blaszka liściowa, duża powierzchnia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fd971de79",
+     "przod": "Wyjaśnij pojęcie: asymilaty",
+     "tyl": "Produkty fotosyntezy (głównie sacharoza) transportowane łykiem z liści do innych organów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f79804edf",
+     "przod": "Dlaczego rośliny zielone na świetle jednocześnie oddychają?",
+     "tyl": "Bo oddychanie komórkowe zachodzi w mitochondriach stale — dostarcza ATP do wszystkich procesów; na świetle jest maskowane przez intensywniejszą fotosyntezę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f3e759651",
+     "przod": "Jak przy pomocy fotosyntezy wyjaśnić powstanie atmosfery tlenowej?",
+     "tyl": "Sinice i potem glony przez miliardy lat wydzielały tlen z fotolizy wody, co doprowadziło do nagromadzenia O₂ w atmosferze i powstania warstwy ozonowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fcb10a510",
+     "przod": "Wyjaśnij pojęcie: światło fotosyntetycznie czynne (PAR)",
+     "tyl": "Promieniowanie o długości fali ok. 400–700 nm, które może być wykorzystane w fotosyntezie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "ff2a4cdc9",
+     "przod": "Jak zmienia się pH stromy na świetle i dlaczego?",
+     "tyl": "Rośnie (staje się bardziej zasadowe), bo protony są pompowane ze stromy do wnętrza tylakoidu — to sprzyja aktywności enzymów cyklu Calvina.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f68cc54e7",
+     "przod": "Wyjaśnij pojęcie: aldehyd 3-fosfoglicerynowy (PGAL)",
+     "tyl": "Trioza będąca produktem fazy niezależnej od światła; z niej powstają glukoza, sacharoza, skrobia i inne związki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fe399fe9f",
+     "przod": "Ile cząsteczek O₂ powstaje przy fotolizie wody dającej 4 elektrony?",
+     "tyl": "Jedna cząsteczka O₂ (z dwóch cząsteczek wody).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fcbffb28f",
+     "przod": "Wyjaśnij pojęcie: stomatalna regulacja fotosyntezy",
+     "tyl": "Zamykanie szparek przy niedoborze wody ogranicza dopływ CO₂ — fotosynteza spada mimo dobrego oświetlenia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fcb5599ef",
+     "przod": "Jaki wpływ ma niedobór azotu na fotosyntezę?",
+     "tyl": "Mniej chlorofilu, białek fotosystemów i enzymów (RuBisCO) — fotosynteza spada, liście żółkną (chloroza).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "ff0795b61",
+     "przod": "Dlaczego fotosynteza jest procesem anabolicznym, a jednocześnie źródłem ATP?",
+     "tyl": "ATP powstaje w fazie zależnej od światła, ale jest zużywane w cyklu Calvina do syntezy cukrów — bilans całego procesu to synteza związków organicznych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f92999970",
+     "przod": "Gdzie powstaje glukoza w fotosyntezie (w jakiej części komórki)?",
+     "tyl": "Z triozofosforanów: w stromie (skrobia) lub w cytozolu (sacharoza); sam cykl Calvina zachodzi w stromie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f9fcd31ad",
+     "przod": "Jak zmieni się intensywność fotosyntezy przy świetle zielonym?",
+     "tyl": "Będzie mała, bo chlorofil słabo pochłania światło zielone (odbija je).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f29c62230",
+     "przod": "Dlaczego glony głębinowe (krasnorosty) mogą żyć głębiej niż zielenice?",
+     "tyl": "Mają fikobiliny pochłaniające światło niebieskozielone, które dociera głęboko do wody; światło czerwone pochłaniane jest blisko powierzchni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f62f7e22e",
+     "przod": "Wyjaśnij pojęcie: fotoinhibicja",
+     "tyl": "Obniżenie wydajności fotosyntezy wskutek uszkodzenia (głównie PS II) przez zbyt silne światło.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f608aa487",
+     "przod": "Jak oznaczyć tempo fotosyntezy netto i brutto?",
+     "tyl": "Netto — mierzone na świetle (pobór CO₂/wydzielanie O₂ pomniejszone o oddychanie); brutto = netto + oddychanie mierzone w ciemności.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f194e7087",
+     "przod": "Podaj nazwę pojęcia: Proces anaboliczny, w którym organizmy fotoautotroficzne z CO₂ i H₂O, kosztem energii światła, wytwarzają związki organiczne (cukry), a uwalniają tlen.",
+     "tyl": "fotosynteza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f9b662c06",
+     "przod": "Rozpoznaj: 6CO₂ + 12H₂O → (światło, chlorofil) → C₆H₁₂O₆ + 6O₂ + 6H₂O.",
+     "tyl": "Sumaryczne równanie fotosyntezy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fca456e41",
+     "przod": "Podaj nazwę pojęcia: Związki pochłaniające światło: chlorofile (a, b) i karotenoidy (karoteny, ksantofile); u sinic i krasnorostów także fikobiliny.",
+     "tyl": "barwniki fotosyntetyczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fe3a62c6b",
+     "przod": "Podaj nazwę pojęcia: Wykres pochłaniania światła o różnych długościach fali przez barwnik.",
+     "tyl": "widmo absorpcyjne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f42de3b7c",
+     "przod": "Podaj nazwę pojęcia: Kompleks barwników i białek w błonie tylakoidu: antena (barwniki pomocnicze zbierające energię) i centrum reakcji z parą cząsteczek chlorofilu a.",
+     "tyl": "fotosystem",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f224118e4",
+     "przod": "Podaj nazwę pojęcia: Wytwarzanie ATP dzięki gradientowi protonów: podczas transportu elektronów H⁺ są pompowane do wnętrza tylakoidu, a wracając do stromy przez syntazę ATP napędzają syntezę ATP.",
+     "tyl": "chemiosmoza (w chloroplaście)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fc5fc90f1",
+     "przod": "Rozpoznaj: Enzym RuBisCO przyłącza CO₂ do rybulozo-1,5-bisfosforanu (RuBP); powstają 2 cząsteczki 3-fosfoglicerynianu (PGA).",
+     "tyl": "Etap karboksylacji w cyklu Calvina",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f11bd2cbc",
+     "przod": "Rozpoznaj: Większość PGAL jest przekształcana — kosztem ATP — z powrotem w akceptor CO₂, czyli RuBP.",
+     "tyl": "Etap regeneracji w cyklu Calvina",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f9523e0c5",
+     "przod": "Podaj nazwę pojęcia: Karboksylaza/oksygenaza rybulozo-1,5-bisfosforanu — enzym wiążący CO₂ w cyklu Calvina; najpowszechniejsze białko na Ziemi.",
+     "tyl": "RuBisCO",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fff13d635",
+     "przod": "Podaj nazwę pojęcia: Przyłączanie przez RuBisCO tlenu zamiast CO₂ (przy wysokim stężeniu O₂, niskim CO₂, wysokiej temperaturze) — zużywa energię i uwalnia CO₂, obniżając wydajność fotosyntezy.",
+     "tyl": "fotooddychanie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f3f43fe69",
+     "przod": "Rozpoznaj: Natężenie i barwa światła, stężenie CO₂, temperatura, dostępność wody, zawartość soli mineralnych (N, Mg).",
+     "tyl": "Czynniki zewnętrzne wpływające na intensywność fotosyntezy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f9e5995cc",
+     "przod": "Podaj nazwę pojęcia: Natężenie światła, przy którym intensywność fotosyntezy równa się intensywności oddychania — bilans wymiany gazowej wynosi zero.",
+     "tyl": "punkt kompensacyjny świetlny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fe7b213bc",
+     "przod": "Podaj nazwę pojęcia: Stężenie CO₂, przy którym ilość CO₂ pobieranego w fotosyntezie równa się ilości wydzielanego w oddychaniu.",
+     "tyl": "punkt kompensacyjny CO₂",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f0d45b858",
+     "przod": "Podaj nazwę pojęcia: Natężenie światła, powyżej którego intensywność fotosyntezy już nie rośnie (ogranicza ją inny czynnik, np. CO₂ lub temperatura).",
+     "tyl": "punkt wysycenia świetlnego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f8c522fb1",
+     "przod": "Podaj nazwę pojęcia: Budowa liścia roślin C4: wokół wiązek przewodzących wieniec dużych komórek pochwy okołowiązkowej z chloroplastami, otoczony komórkami mezofilu.",
+     "tyl": "anatomia typu Kranz",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f00c6274e",
+     "przod": "Podaj nazwę pojęcia: Enzym wiążący CO₂ (jako HCO₃⁻) z fosfoenolopirogronianem u roślin C4 i CAM; ma większe powinowactwo do CO₂ niż RuBisCO i nie wiąże tlenu.",
+     "tyl": "karboksylaza PEP",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f74460d77",
+     "przod": "Podaj nazwę pojęcia: Białko przenoszące elektrony z PS I na reduktazę NADP⁺, która redukuje NADP⁺ do NADPH.",
+     "tyl": "ferredoksyna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fbd3e1d8e",
+     "przod": "Podaj nazwę pojęcia: Produkty fotosyntezy (głównie sacharoza) transportowane łykiem z liści do innych organów.",
+     "tyl": "asymilaty",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f0372746a",
+     "przod": "Podaj nazwę pojęcia: Trioza będąca produktem fazy niezależnej od światła; z niej powstają glukoza, sacharoza, skrobia i inne związki.",
+     "tyl": "aldehyd 3-fosfoglicerynowy (PGAL)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f318a09f2",
+     "przod": "Podaj nazwę pojęcia: Obniżenie wydajności fotosyntezy wskutek uszkodzenia (głównie PS II) przez zbyt silne światło.",
+     "tyl": "fotoinhibicja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p9efb4e85",
+     "pytanie": "Tlen uwalniany w fotosyntezie pochodzi z:",
+     "odpowiedzi": [
+      "CO₂",
+      "RuBP",
+      "glukozy",
+      "wody"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Fotoliza wody (doświadczenie z ¹⁸O).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p437ffb48",
+     "pytanie": "Cykl Calvina zachodzi w:",
+     "odpowiedzi": [
+      "stromie chloroplastu",
+      "błonach tylakoidów",
+      "cytozolu",
+      "macierzy mitochondrium"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Faza niezależna od światła.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa245946b",
+     "pytanie": "Enzymem wiążącym CO₂ w cyklu Calvina jest:",
+     "odpowiedzi": [
+      "syntaza ATP",
+      "karboksylaza PEP",
+      "reduktaza NADP⁺",
+      "RuBisCO"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "RuBisCO.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p944bd390",
+     "pytanie": "W fotofosforylacji cyklicznej powstaje:",
+     "odpowiedzi": [
+      "ATP, NADPH i O₂",
+      "tylko ATP",
+      "tylko NADPH",
+      "ATP i O₂"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Elektrony wracają do PS I.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4bcdfd21",
+     "pytanie": "Rośliny CAM pobierają CO₂:",
+     "odpowiedzi": [
+      "głównie nocą",
+      "przez korzenie",
+      "tylko w dzień",
+      "tylko w zimie"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Rozdział czasowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pef1479e0",
+     "pytanie": "Punkt kompensacyjny świetlny to natężenie światła, przy którym:",
+     "odpowiedzi": [
+      "fotosynteza równoważy oddychanie",
+      "ustaje oddychanie",
+      "fotosynteza jest maksymalna",
+      "zamykają się szparki"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Bilans gazowy = 0.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p120d5764",
+     "pytanie": "Po nagłym wyłączeniu światła w chloroplastach rośnie ilość:",
+     "odpowiedzi": [
+      "RuBP",
+      "NADPH",
+      "PGA (3-fosfoglicerynianu)",
+      "ATP"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Brak ATP i NADPH do redukcji PGA.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc4a33ab2",
+     "pytanie": "Fotooddychanie nasila się przy:",
+     "odpowiedzi": [
+      "wysokiej temperaturze i niskim stężeniu CO₂",
+      "dużej wilgotności i otwartych szparkach",
+      "słabym świetle i niskiej temperaturze",
+      "niskiej temperaturze i dużym stężeniu CO₂"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "RuBisCO wiąże wtedy O₂.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9f6cd956",
+     "pytanie": "Rośliną C4 jest:",
+     "odpowiedzi": [
+      "kaktus",
+      "fasola",
+      "kukurydza",
+      "pszenica"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Kukurydza, trzcina cukrowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p111207f0",
+     "pytanie": "Liść odbarwia się etanolem przed próbą z płynem Lugola, aby:",
+     "odpowiedzi": [
+      "zabić komórki i rozpuścić ściany",
+      "rozłożyć skrobię do glukozy",
+      "dostarczyć jodu do chloroplastów",
+      "usunąć chlorofil maskujący wynik"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Inaczej zielona barwa zasłoni granat.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-oddychanie",
+   "nazwa": "Oddychanie komórkowe",
+   "opis": "Wymaganie III.5.1–4, 6 podstawy programowej.",
+   "wymaganie": "III.5.1–4, 6",
+   "fiszki": [
+    {
+     "id": "f95365adb",
+     "przod": "Wyjaśnij pojęcie: oddychanie komórkowe",
+     "tyl": "Proces kataboliczny, w którym związki organiczne (głównie glukoza) są utleniane, a uwolniona energia jest magazynowana w ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "faf36c2d4",
+     "przod": "Sumaryczne równanie oddychania tlenowego",
+     "tyl": "C₆H₁₂O₆ + 6O₂ + 6H₂O → 6CO₂ + 12H₂O + energia (ok. 30–32 ATP).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f61bb7bf9",
+     "przod": "Etapy oddychania tlenowego i ich miejsce",
+     "tyl": "Glikoliza — cytozol; reakcja pomostowa (oksydacyjna dekarboksylacja pirogronianu) — macierz mitochondrium; cykl Krebsa — macierz; łańcuch oddechowy i fosforylacja oksydacyjna — wewnętrzna błona mitochondrium.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fbe69311c",
+     "przod": "Wyjaśnij pojęcie: glikoliza",
+     "tyl": "Rozkład glukozy do dwóch cząsteczek pirogronianu w cytozolu; zysk netto: 2 ATP i 2 NADH; nie wymaga tlenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f6deb1e6d",
+     "przod": "Faza inwestycji energii w glikolizie",
+     "tyl": "Zużycie 2 ATP na fosforylację glukozy i fruktozo-6-fosforanu (aktywacja) — powstaje fruktozo-1,6-bisfosforan rozpadający się na 2 triozy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fe84a32c7",
+     "przod": "Faza zysku energetycznego w glikolizie",
+     "tyl": "Utlenianie trioz (powstaje 2 NADH) i fosforylacja substratowa (powstają 4 ATP) — zysk netto 2 ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f9757d9c0",
+     "przod": "Wyjaśnij pojęcie: fosforylacja substratowa",
+     "tyl": "Wytwarzanie ATP przez bezpośrednie przeniesienie reszty fosforanowej z wysokoenergetycznego związku (substratu) na ADP — w glikolizie i cyklu Krebsa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fd737e963",
+     "przod": "Wyjaśnij pojęcie: reakcja pomostowa",
+     "tyl": "Oksydacyjna dekarboksylacja pirogronianu w macierzy mitochondrium: pirogronian → acetylo-CoA + CO₂ + NADH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f315e4b5b",
+     "przod": "Wyjaśnij pojęcie: acetylo-CoA",
+     "tyl": "Aktywny octan związany z koenzymem A — wchodzi do cyklu Krebsa; powstaje też z rozkładu kwasów tłuszczowych i niektórych aminokwasów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f3d4e4b8b",
+     "przod": "Wyjaśnij pojęcie: cykl Krebsa (kwasu cytrynowego)",
+     "tyl": "Cykl reakcji w macierzy mitochondrium: acetyl (2C) łączy się ze szczawiooctanem (4C) w cytrynian (6C), który jest stopniowo utleniany; powstają CO₂, NADH, FADH₂ i ATP (GTP), a szczawiooctan jest odtwarzany.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f511546e7",
+     "przod": "Produkty jednego obrotu cyklu Krebsa",
+     "tyl": "2 CO₂, 3 NADH, 1 FADH₂, 1 ATP (GTP).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f2a9bfbfa",
+     "przod": "Ile obrotów cyklu Krebsa przypada na jedną cząsteczkę glukozy?",
+     "tyl": "Dwa (z jednej glukozy powstają 2 cząsteczki acetylo-CoA).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fc15c28ea",
+     "przod": "Skąd pochodzi CO₂ wydychany przez człowieka?",
+     "tyl": "Z reakcji pomostowej i cyklu Krebsa (dekarboksylacje w macierzy mitochondriów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f32ef7a27",
+     "przod": "Wyjaśnij pojęcie: łańcuch oddechowy",
+     "tyl": "Szereg przenośników (kompleksy białkowe, ubichinon, cytochromy) w wewnętrznej błonie mitochondrium, które przekazują elektrony z NADH i FADH₂ na tlen; energia przepływu elektronów jest wykorzystywana do pompowania protonów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f31c08be5",
+     "przod": "Rola tlenu w oddychaniu komórkowym",
+     "tyl": "Tlen jest końcowym akceptorem elektronów w łańcuchu oddechowym — przyjmuje elektrony i protony, tworząc wodę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f5f8ee488",
+     "przod": "Wyjaśnij pojęcie: fosforylacja oksydacyjna",
+     "tyl": "Wytwarzanie ATP przez syntazę ATP kosztem gradientu protonów powstałego podczas transportu elektronów w łańcuchu oddechowym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fdf49c4d2",
+     "przod": "Wyjaśnij pojęcie: chemiosmoza (w mitochondrium)",
+     "tyl": "Mechanizm syntezy ATP: łańcuch oddechowy pompuje H⁺ z macierzy do przestrzeni międzybłonowej, a protony wracają do macierzy przez syntazę ATP, napędzając syntezę ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f336b39c7",
+     "przod": "Gdzie w mitochondrium jest większe stężenie H⁺ podczas oddychania?",
+     "tyl": "W przestrzeni międzybłonowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f770c9057",
+     "przod": "Ile ATP powstaje z 1 cząsteczki glukozy w oddychaniu tlenowym?",
+     "tyl": "Ok. 30–32 ATP (dawniej podawano 36–38) — z czego większość w fosforylacji oksydacyjnej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fd0da3c0a",
+     "przod": "Ile ATP powstaje z 1 NADH i z 1 FADH₂ w łańcuchu oddechowym?",
+     "tyl": "Ok. 2,5 ATP z NADH i ok. 1,5 ATP z FADH₂ (FADH₂ przekazuje elektrony dalej w łańcuchu, więc pompowanych jest mniej protonów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fdc9d2a71",
+     "przod": "Dlaczego oddychanie tlenowe daje dużo więcej ATP niż fermentacja?",
+     "tyl": "Bo glukoza zostaje utleniona całkowicie do CO₂ i H₂O, a energia z NADH i FADH₂ jest wykorzystana w łańcuchu oddechowym; w fermentacji powstają tylko 2 ATP z glikolizy, a produkty (etanol, mleczan) nadal zawierają dużo energii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f219426f5",
+     "przod": "Związek budowy mitochondrium z oddychaniem",
+     "tyl": "Pofałdowana błona wewnętrzna (grzebienie) — duża powierzchnia na łańcuch oddechowy i syntazę ATP; nieprzepuszczalna dla H⁺ — umożliwia gradient protonów; macierz zawiera enzymy cyklu Krebsa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fb9ba473b",
+     "przod": "Wyjaśnij pojęcie: odłączacze (rozprzęgacze)",
+     "tyl": "Substancje lub białka (np. termogenina w tkance tłuszczowej brunatnej) pozwalające protonom wracać do macierzy z pominięciem syntazy ATP — energia uwalnia się jako ciepło.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f2fc42b7b",
+     "przod": "Jak cyjanek i tlenek węgla wpływają na oddychanie?",
+     "tyl": "Blokują oksydazę cytochromową (ostatni kompleks łańcucha) — elektrony nie mogą być przekazane na tlen, ustaje fosforylacja oksydacyjna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "faaacba69",
+     "przod": "Wyjaśnij pojęcie: współczynnik oddechowy (RQ)",
+     "tyl": "Stosunek objętości wydzielonego CO₂ do pobranego O₂; dla glukozy RQ = 1, dla tłuszczów ok. 0,7, dla białek ok. 0,8.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f34747798",
+     "przod": "Dlaczego RQ dla tłuszczów jest mniejszy niż 1?",
+     "tyl": "Tłuszcze zawierają mało tlenu — do ich utlenienia trzeba więcej O₂ w stosunku do wydzielanego CO₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f5cd4a5de",
+     "przod": "Wyjaśnij pojęcie: β-oksydacja",
+     "tyl": "Rozkład kwasów tłuszczowych w macierzy mitochondrium do acetylo-CoA, z wytworzeniem NADH i FADH₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f1ad46d2e",
+     "przod": "Jak białka wykorzystywane są w oddychaniu?",
+     "tyl": "Po rozkładzie do aminokwasów i deaminacji (odłączeniu grupy aminowej) szkielety węglowe wchodzą do cyklu Krebsa lub glikolizy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f9f908bde",
+     "przod": "Wyjaśnij pojęcie: cykl Krebsa jako węzeł metaboliczny",
+     "tyl": "Łączy katabolizm cukrów, tłuszczów i białek (wspólny acetylo-CoA), a jego produkty pośrednie są substratami do syntez (np. aminokwasów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f5819f10c",
+     "przod": "Wyjaśnij pojęcie: oddychanie beztlenowe (u bakterii)",
+     "tyl": "Utlenianie związków organicznych z łańcuchem oddechowym, w którym końcowym akceptorem elektronów nie jest tlen, lecz np. azotany (denitryfikacja) lub siarczany.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fc650d739",
+     "przod": "Jak zmierzyć intensywność oddychania kiełkujących nasion?",
+     "tyl": "W respirometrze: pochłaniacz CO₂ (np. KOH) i pomiar ubytku objętości gazu (pobranego O₂) po określonym czasie; próba kontrolna — nasiona martwe (zagotowane) lub szklane kulki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f583b70ca",
+     "przod": "Jak wykazać, że kiełkujące nasiona wydzielają CO₂?",
+     "tyl": "Przepuścić powietrze znad nasion przez wodę wapienną — mętnieje (powstaje CaCO₃); próba kontrolna — nasiona zagotowane.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "faf67d5b2",
+     "przod": "Jak wykazać, że kiełkujące nasiona wydzielają ciepło?",
+     "tyl": "Umieścić nasiona w termosie z termometrem; temperatura rośnie w porównaniu z termosem z nasionami martwymi (odkażonymi, by nie oddychały bakterie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f188fc291",
+     "przod": "Dlaczego w próbie kontrolnej z martwymi nasionami odkaża się je środkiem antyseptycznym?",
+     "tyl": "Aby oddychanie bakterii i grzybów rozwijających się na martwych nasionach nie zafałszowało wyniku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f70b57b7f",
+     "przod": "Wyjaśnij pojęcie: NADH jako „waluta” elektronów",
+     "tyl": "NADH przenosi elektrony z utlenianych substratów do łańcucha oddechowego, gdzie ich energia jest zamieniana na ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f85a386ae",
+     "przod": "Co się dzieje z NADH z glikolizy w warunkach tlenowych?",
+     "tyl": "Jego elektrony trafiają do łańcucha oddechowego (przez układy czółenkowe w błonie mitochondrium), co regeneruje NAD⁺.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f083e30e7",
+     "przod": "Dlaczego bez tlenu ustaje cykl Krebsa?",
+     "tyl": "Łańcuch oddechowy nie przyjmuje elektronów, więc nie odtwarza się NAD⁺ i FAD — brakuje ich do reakcji cyklu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fb3d54efc",
+     "przod": "Wyjaśnij pojęcie: termogeneza bezdrżeniowa",
+     "tyl": "Wytwarzanie ciepła przez tkankę tłuszczową brunatną dzięki rozprzęgnięciu łańcucha oddechowego (termogenina) — u noworodków i zwierząt hibernujących.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fcf766e74",
+     "przod": "Gdzie zachodzi oddychanie komórkowe u bakterii (bez mitochondriów)?",
+     "tyl": "Glikoliza i cykl Krebsa w cytoplazmie, łańcuch oddechowy w błonie komórkowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f4e8e81d6",
+     "przod": "Wyjaśnij pojęcie: wydajność oddychania tlenowego",
+     "tyl": "Ok. 34–40% energii zawartej w glukozie jest magazynowane w ATP; reszta rozprasza się jako ciepło (wykorzystywane np. do utrzymania temperatury ciała).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f97dcd040",
+     "przod": "Dlaczego organizmy stałocieplne zużywają więcej tlenu niż zmiennocieplne tej samej masy?",
+     "tyl": "Utrzymują stałą, wysoką temperaturę ciała — potrzebują intensywnego oddychania, które dostarcza ciepła.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f2d2fa2c3",
+     "przod": "Jak temperatura otoczenia wpływa na oddychanie zwierzęcia zmiennocieplnego?",
+     "tyl": "Wraz ze wzrostem temperatury (do optimum) rośnie aktywność enzymów i intensywność oddychania (zużycie tlenu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f40324362",
+     "przod": "Wyjaśnij pojęcie: łańcuch oddechowy — kolejność przenośników",
+     "tyl": "NADH → kompleks I → ubichinon → kompleks III → cytochrom c → kompleks IV (oksydaza cytochromowa) → O₂; FADH₂ wchodzi przez kompleks II do ubichinonu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f936bf36a",
+     "przod": "Dlaczego syntaza ATP nazywana jest „wirującą turbiną”?",
+     "tyl": "Bo przepływ protonów obraca jej część (rotor), a zmiany kształtu podjednostek katalitycznych prowadzą do syntezy ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fbc612b17",
+     "przod": "Jak liczba mitochondriów jest związana z aktywnością komórki?",
+     "tyl": "Komórki o dużym zapotrzebowaniu na ATP (mięśnie, neurony, wątroba, plemniki) mają więcej mitochondriów z gęstszymi grzebieniami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f89ee241f",
+     "przod": "Wyjaśnij pojęcie: dekarboksylacja",
+     "tyl": "Odłączenie cząsteczki CO₂ od związku organicznego — zachodzi w reakcji pomostowej i cyklu Krebsa (oraz w fermentacji alkoholowej).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f7c6644d1",
+     "przod": "Wyjaśnij pojęcie: dehydrogenacja",
+     "tyl": "Odłączenie atomów wodoru (elektronów i protonów) od substratu przez dehydrogenazy, z redukcją NAD⁺ lub FAD.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f65ae1f7f",
+     "przod": "Ile cząsteczek CO₂ powstaje z 1 cząsteczki glukozy i na jakich etapach?",
+     "tyl": "Sześć: 2 w reakcji pomostowej i 4 w cyklu Krebsa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fec1e9418",
+     "przod": "Ile ATP powstaje w fosforylacji substratowej z jednej glukozy w oddychaniu tlenowym?",
+     "tyl": "4: 2 (netto) w glikolizie i 2 w cyklu Krebsa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f4e7b4e17",
+     "przod": "Wyjaśnij, dlaczego wewnętrzna błona mitochondrium musi być nieprzepuszczalna dla protonów",
+     "tyl": "Tylko wtedy utrzymuje się gradient protonów, a protony mogą wracać do macierzy wyłącznie przez syntazę ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "febf59c1f",
+     "przod": "Podaj nazwę pojęcia: Proces kataboliczny, w którym związki organiczne (głównie glukoza) są utleniane, a uwolniona energia jest magazynowana w ATP.",
+     "tyl": "oddychanie komórkowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f2a9a14d5",
+     "przod": "Rozpoznaj: C₆H₁₂O₆ + 6O₂ + 6H₂O → 6CO₂ + 12H₂O + energia (ok. 30–32 ATP).",
+     "tyl": "Sumaryczne równanie oddychania tlenowego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fe7f00f51",
+     "przod": "Podaj nazwę pojęcia: Rozkład glukozy do dwóch cząsteczek pirogronianu w cytozolu; zysk netto: 2 ATP i 2 NADH; nie wymaga tlenu.",
+     "tyl": "glikoliza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f3d29a9b9",
+     "przod": "Rozpoznaj: Zużycie 2 ATP na fosforylację glukozy i fruktozo-6-fosforanu (aktywacja) — powstaje fruktozo-1,6-bisfosforan rozpadający się na 2 triozy.",
+     "tyl": "Faza inwestycji energii w glikolizie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fea8b6d4e",
+     "przod": "Rozpoznaj: Utlenianie trioz (powstaje 2 NADH) i fosforylacja substratowa (powstają 4 ATP) — zysk netto 2 ATP.",
+     "tyl": "Faza zysku energetycznego w glikolizie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fded8cb50",
+     "przod": "Podaj nazwę pojęcia: Oksydacyjna dekarboksylacja pirogronianu w macierzy mitochondrium: pirogronian → acetylo-CoA + CO₂ + NADH.",
+     "tyl": "reakcja pomostowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f3ded0e54",
+     "przod": "Podaj nazwę pojęcia: Aktywny octan związany z koenzymem A — wchodzi do cyklu Krebsa; powstaje też z rozkładu kwasów tłuszczowych i niektórych aminokwasów.",
+     "tyl": "acetylo-CoA",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fb5def66e",
+     "przod": "Rozpoznaj: 2 CO₂, 3 NADH, 1 FADH₂, 1 ATP (GTP).",
+     "tyl": "Produkty jednego obrotu cyklu Krebsa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fb0f33307",
+     "przod": "Podaj nazwę pojęcia: Szereg przenośników (kompleksy białkowe, ubichinon, cytochromy) w wewnętrznej błonie mitochondrium, które przekazują elektrony z NADH i FADH₂ na tlen; energia przepływu elektronów jest wykorzystywana do pompowania protonów.",
+     "tyl": "łańcuch oddechowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fa3bf4687",
+     "przod": "Podaj nazwę pojęcia: Wytwarzanie ATP przez syntazę ATP kosztem gradientu protonów powstałego podczas transportu elektronów w łańcuchu oddechowym.",
+     "tyl": "fosforylacja oksydacyjna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f9fe66e7e",
+     "przod": "Podaj nazwę pojęcia: Mechanizm syntezy ATP: łańcuch oddechowy pompuje H⁺ z macierzy do przestrzeni międzybłonowej, a protony wracają do macierzy przez syntazę ATP, napędzając syntezę ATP.",
+     "tyl": "chemiosmoza (w mitochondrium)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "ffbd886c8",
+     "przod": "Rozpoznaj: Pofałdowana błona wewnętrzna (grzebienie) — duża powierzchnia na łańcuch oddechowy i syntazę ATP; nieprzepuszczalna dla H⁺ — umożliwia gradient protonów; macierz zawiera enzymy cyklu Krebsa.",
+     "tyl": "Związek budowy mitochondrium z oddychaniem",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f301fe564",
+     "przod": "Podaj nazwę pojęcia: Substancje lub białka (np. termogenina w tkance tłuszczowej brunatnej) pozwalające protonom wracać do macierzy z pominięciem syntazy ATP — energia uwalnia się jako ciepło.",
+     "tyl": "odłączacze (rozprzęgacze)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f37f79f26",
+     "przod": "Podaj nazwę pojęcia: Stosunek objętości wydzielonego CO₂ do pobranego O₂; dla glukozy RQ = 1, dla tłuszczów ok. 0,7, dla białek ok. 0,8.",
+     "tyl": "współczynnik oddechowy (RQ)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f88c34bfb",
+     "przod": "Podaj nazwę pojęcia: Rozkład kwasów tłuszczowych w macierzy mitochondrium do acetylo-CoA, z wytworzeniem NADH i FADH₂.",
+     "tyl": "β-oksydacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fd22e0359",
+     "przod": "Podaj nazwę pojęcia: Łączy katabolizm cukrów, tłuszczów i białek (wspólny acetylo-CoA), a jego produkty pośrednie są substratami do syntez (np. aminokwasów).",
+     "tyl": "cykl Krebsa jako węzeł metaboliczny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fa5f22201",
+     "przod": "Podaj nazwę pojęcia: Utlenianie związków organicznych z łańcuchem oddechowym, w którym końcowym akceptorem elektronów nie jest tlen, lecz np. azotany (denitryfikacja) lub siarczany.",
+     "tyl": "oddychanie beztlenowe (u bakterii)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f9a6216e9",
+     "przod": "Podaj nazwę pojęcia: Ok. 34–40% energii zawartej w glukozie jest magazynowane w ATP; reszta rozprasza się jako ciepło (wykorzystywane np. do utrzymania temperatury ciała).",
+     "tyl": "wydajność oddychania tlenowego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "feee55254",
+     "przod": "Podaj nazwę pojęcia: NADH → kompleks I → ubichinon → kompleks III → cytochrom c → kompleks IV (oksydaza cytochromowa) → O₂; FADH₂ wchodzi przez kompleks II do ubichinonu.",
+     "tyl": "łańcuch oddechowy — kolejność przenośników",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f58a9976f",
+     "przod": "Podaj nazwę pojęcia: Odłączenie cząsteczki CO₂ od związku organicznego — zachodzi w reakcji pomostowej i cyklu Krebsa (oraz w fermentacji alkoholowej).",
+     "tyl": "dekarboksylacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p97734cef",
+     "pytanie": "Glikoliza zachodzi w:",
+     "odpowiedzi": [
+      "macierzy mitochondrium",
+      "cytozolu",
+      "grzebieniach mitochondrialnych",
+      "stromie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Cytozol.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p712707c1",
+     "pytanie": "Końcowym akceptorem elektronów w łańcuchu oddechowym jest:",
+     "odpowiedzi": [
+      "FAD",
+      "NAD⁺",
+      "pirogronian",
+      "tlen"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "O₂ + elektrony + protony → H₂O.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pde5050e0",
+     "pytanie": "CO₂ w oddychaniu tlenowym powstaje w:",
+     "odpowiedzi": [
+      "glikolizie",
+      "łańcuchu oddechowym",
+      "fosforylacji oksydacyjnej",
+      "reakcji pomostowej i cyklu Krebsa"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Dekarboksylacje.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc3e852b4",
+     "pytanie": "Zysk netto ATP w glikolizie wynosi:",
+     "odpowiedzi": [
+      "4",
+      "36",
+      "2",
+      "1"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "4 powstają, 2 zużyte.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc536d8db",
+     "pytanie": "Najwięcej ATP powstaje w oddychaniu tlenowym podczas:",
+     "odpowiedzi": [
+      "reakcji pomostowej",
+      "glikolizy",
+      "fosforylacji oksydacyjnej",
+      "cyklu Krebsa"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Chemiosmoza.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1861b0fe",
+     "pytanie": "Cyjanek hamuje oddychanie, ponieważ blokuje:",
+     "odpowiedzi": [
+      "oksydazę cytochromową",
+      "cykl Calvina",
+      "syntazę ATP w chloroplastach",
+      "heksokinazę"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Ostatni kompleks łańcucha.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p547242f3",
+     "pytanie": "Współczynnik oddechowy (RQ) dla glukozy wynosi:",
+     "odpowiedzi": [
+      "1,3",
+      "0,7",
+      "0,8",
+      "1,0"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "6 CO₂ / 6 O₂.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p37ac5e8a",
+     "pytanie": "Tkanka tłuszczowa brunatna wytwarza ciepło, ponieważ:",
+     "odpowiedzi": [
+      "protony wracają do macierzy z pominięciem syntazy ATP",
+      "przeprowadza wyłącznie fermentację mleczanową",
+      "nie ma mitochondriów i fermentuje",
+      "zużywa tlen bez udziału łańcucha oddechowego"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Termogenina.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf5c94575",
+     "pytanie": "Acetylo-CoA powstaje w:",
+     "odpowiedzi": [
+      "reakcji pomostowej",
+      "glikolizie",
+      "łańcuchu oddechowym",
+      "cyklu Calvina"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Oksydacyjna dekarboksylacja pirogronianu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-fermentacje",
+   "nazwa": "Fermentacje, glukoneogeneza i glikogenoliza",
+   "opis": "Wymaganie III.5.5, 7 podstawy programowej.",
+   "wymaganie": "III.5.5, 7",
+   "fiszki": [
+    {
+     "id": "fe56fe40c",
+     "przod": "Wyjaśnij pojęcie: fermentacja",
+     "tyl": "Beztlenowy rozkład związków organicznych (glukozy), w którym ATP powstaje tylko w glikolizie, a pirogronian jest przekształcany tak, by odtworzyć NAD⁺.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f2d5cde43",
+     "przod": "Po co w fermentacji przekształca się pirogronian?",
+     "tyl": "Aby utlenić NADH z glikolizy i odtworzyć NAD⁺ — bez tego glikoliza by stanęła, a z nią wytwarzanie ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f446a4e15",
+     "przod": "Wyjaśnij pojęcie: fermentacja alkoholowa",
+     "tyl": "Pirogronian jest dekarboksylowany do aldehydu octowego (wydziela się CO₂), który redukowany przez NADH daje etanol; przeprowadzają ją drożdże i niektóre bakterie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f81044e49",
+     "przod": "Wyjaśnij pojęcie: fermentacja mleczanowa",
+     "tyl": "Pirogronian jest bezpośrednio redukowany przez NADH do mleczanu (kwasu mlekowego); bez wydzielania CO₂ — bakterie mlekowe, mięśnie szkieletowe przy niedoborze tlenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f4fecea98",
+     "przod": "Porównanie dróg przemiany pirogronianu",
+     "tyl": "Oddychanie tlenowe: → acetylo-CoA → cykl Krebsa (CO₂, H₂O, dużo ATP); fermentacja alkoholowa: → etanol + CO₂; mleczanowa: → mleczan; w obu fermentacjach tylko 2 ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "ff5ecc129",
+     "przod": "Zysk ATP z fermentacji",
+     "tyl": "2 cząsteczki ATP z jednej cząsteczki glukozy (z glikolizy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f7bb460d2",
+     "przod": "Zastosowanie fermentacji alkoholowej",
+     "tyl": "Produkcja pieczywa (CO₂ spulchnia ciasto), piwa, wina, bioetanolu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f1950666a",
+     "przod": "Zastosowanie fermentacji mleczanowej",
+     "tyl": "Produkcja jogurtów, kefirów, serów, kiszonek (ogórki, kapusta), kiszonek dla zwierząt.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "fd41e613f",
+     "przod": "Dlaczego kiszonki są trwałe?",
+     "tyl": "Kwas mlekowy obniża pH, co hamuje rozwój bakterii gnilnych i innych drobnoustrojów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f841bd3a8",
+     "przod": "Fermentacja mleczanowa w mięśniach — kiedy zachodzi?",
+     "tyl": "Podczas intensywnego wysiłku, gdy dostarczanie tlenu nie nadąża za zapotrzebowaniem — mięśnie uzyskują ATP szybko, choć mało wydajnie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f15395849",
+     "przod": "Co się dzieje z mleczanem wytworzonym w mięśniach?",
+     "tyl": "Jest przenoszony krwią do wątroby i przekształcany z powrotem w glukozę (glukoneogeneza — cykl Corich) albo utleniany w sercu i innych tkankach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "fa96fd2f9",
+     "przod": "Wyjaśnij pojęcie: dług tlenowy",
+     "tyl": "Zwiększone zużycie tlenu po wysiłku, potrzebne m.in. do usunięcia mleczanu, odbudowy fosfokreatyny, ATP i zapasów tlenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f3e238efd",
+     "przod": "Wyjaśnij pojęcie: beztlenowce bezwzględne (obligatoryjne)",
+     "tyl": "Organizmy, dla których tlen jest toksyczny — mogą żyć tylko w środowisku beztlenowym (np. laseczki tężca, metanogeny).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "fbb63933a",
+     "przod": "Wyjaśnij pojęcie: beztlenowce względne (fakultatywne)",
+     "tyl": "Organizmy, które przy dostępie tlenu oddychają tlenowo, a bez tlenu przeprowadzają fermentację (np. drożdże, E. coli).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f83c98218",
+     "przod": "Dlaczego drożdże w warunkach tlenowych rosną szybciej?",
+     "tyl": "Oddychanie tlenowe dostarcza ok. 15 razy więcej ATP z glukozy niż fermentacja — więcej energii na wzrost i podziały.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "fe8c8229b",
+     "przod": "Wyjaśnij pojęcie: glukoneogeneza",
+     "tyl": "Synteza glukozy ze związków niecukrowych (mleczan, glicerol, aminokwasy glukogenne) — głównie w wątrobie (i nerkach), np. w czasie głodu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f5b2b3219",
+     "przod": "Wyjaśnij pojęcie: glikogenoliza",
+     "tyl": "Rozkład glikogenu do glukozy (w wątrobie, uwalnianej do krwi) lub do glukozo-6-fosforanu (w mięśniach, zużywanego na miejscu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f37ca3e54",
+     "przod": "Wyjaśnij pojęcie: glikogenogeneza",
+     "tyl": "Synteza glikogenu z glukozy — w wątrobie i mięśniach, pobudzana przez insulinę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f10785c71",
+     "przod": "Dlaczego glikogen mięśniowy nie podnosi poziomu glukozy we krwi?",
+     "tyl": "Mięśnie nie mają enzymu glukozo-6-fosfatazy, więc glukozo-6-fosforan nie może opuścić komórki — jest zużywany w glikolizie mięśni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f76ced0cb",
+     "przod": "Jakie hormony pobudzają glikogenolizę i glukoneogenezę?",
+     "tyl": "Glukagon (glikogenoliza w wątrobie, glukoneogeneza), adrenalina (glikogenoliza w wątrobie i mięśniach), kortyzol (glukoneogeneza).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f6dbf41b1",
+     "przod": "Związek glukoneogenezy i glikogenolizy z pozyskiwaniem energii",
+     "tyl": "Zapewniają stały poziom glukozy we krwi między posiłkami i podczas wysiłku — glukoza jest głównym źródłem energii dla mózgu i erytrocytów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f81a204a4",
+     "przod": "Dlaczego mózg jest szczególnie wrażliwy na spadek glukozy we krwi?",
+     "tyl": "Neurony zużywają głównie glukozę i nie magazynują glikogenu — przy hipoglikemii brakuje im energii (osłabienie, utrata przytomności).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f01c17749",
+     "przod": "Jak przebiega doświadczenie wykazujące fermentację drożdży?",
+     "tyl": "Drożdże z roztworem glukozy w kolbie z rurką odprowadzającą gaz do wody wapiennej — woda mętnieje (CO₂); próby kontrolne: bez cukru, z zagotowanymi drożdżami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "fa493110e",
+     "przod": "Dlaczego ciasto drożdżowe rośnie w ciepłym miejscu?",
+     "tyl": "W optymalnej temperaturze enzymy drożdży działają szybciej — intensywniej zachodzi fermentacja, a wydzielany CO₂ spulchnia ciasto.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "fc3d6ff33",
+     "przod": "Wyjaśnij pojęcie: fermentacja masłowa (przykład innej fermentacji)",
+     "tyl": "Fermentacja prowadzona przez niektóre bakterie beztlenowe (np. Clostridium), dająca kwas masłowy — odpowiada za jełczenie masła i nieprzyjemny zapach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f83490365",
+     "przod": "Wyjaśnij pojęcie: efekt Pasteura",
+     "tyl": "Hamowanie fermentacji (spadek zużycia glukozy) przez dostęp tlenu u organizmów względnie beztlenowych, np. drożdży.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "ff0ed0f48",
+     "przod": "Dlaczego mleczan w mięśniach nie jest główną przyczyną „zakwasów” następnego dnia?",
+     "tyl": "Mleczan jest usuwany w ciągu godziny–dwóch; bolesność dzień później wynika głównie z mikrourazów włókien mięśniowych i stanu zapalnego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "fdfffab46",
+     "przod": "Jakie produkty powstają w fermentacji alkoholowej z jednej cząsteczki glukozy?",
+     "tyl": "2 cząsteczki etanolu, 2 cząsteczki CO₂ i 2 ATP.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f15bf56d6",
+     "przod": "Gdzie w komórce zachodzi fermentacja?",
+     "tyl": "W cytozolu (podobnie jak glikoliza).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "fcee6eb7e",
+     "przod": "Erytrocyty ssaków — skąd mają ATP?",
+     "tyl": "Z glikolizy zakończonej fermentacją mleczanową, bo nie mają mitochondriów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "fae4078ce",
+     "przod": "Podaj nazwę pojęcia: Beztlenowy rozkład związków organicznych (glukozy), w którym ATP powstaje tylko w glikolizie, a pirogronian jest przekształcany tak, by odtworzyć NAD⁺.",
+     "tyl": "fermentacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f8c2c8aa6",
+     "przod": "Podaj nazwę pojęcia: Pirogronian jest dekarboksylowany do aldehydu octowego (wydziela się CO₂), który redukowany przez NADH daje etanol; przeprowadzają ją drożdże i niektóre bakterie.",
+     "tyl": "fermentacja alkoholowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "fab9ee19c",
+     "przod": "Rozpoznaj: Oddychanie tlenowe: → acetylo-CoA → cykl Krebsa (CO₂, H₂O, dużo ATP); fermentacja alkoholowa: → etanol + CO₂; mleczanowa: → mleczan; w obu fermentacjach tylko 2 ATP.",
+     "tyl": "Porównanie dróg przemiany pirogronianu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "fb21e8a74",
+     "przod": "Rozpoznaj: 2 cząsteczki ATP z jednej cząsteczki glukozy (z glikolizy).",
+     "tyl": "Zysk ATP z fermentacji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "ff07d0152",
+     "przod": "Rozpoznaj: Produkcja pieczywa (CO₂ spulchnia ciasto), piwa, wina, bioetanolu.",
+     "tyl": "Zastosowanie fermentacji alkoholowej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f15f6ef0d",
+     "przod": "Rozpoznaj: Produkcja jogurtów, kefirów, serów, kiszonek (ogórki, kapusta), kiszonek dla zwierząt.",
+     "tyl": "Zastosowanie fermentacji mleczanowej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f84217d64",
+     "przod": "Podaj nazwę pojęcia: Zwiększone zużycie tlenu po wysiłku, potrzebne m.in. do usunięcia mleczanu, odbudowy fosfokreatyny, ATP i zapasów tlenu.",
+     "tyl": "dług tlenowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f019e5385",
+     "przod": "Podaj nazwę pojęcia: Organizmy, które przy dostępie tlenu oddychają tlenowo, a bez tlenu przeprowadzają fermentację (np. drożdże, E. coli).",
+     "tyl": "beztlenowce względne (fakultatywne)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f44eff82d",
+     "przod": "Podaj nazwę pojęcia: Hamowanie fermentacji (spadek zużycia glukozy) przez dostęp tlenu u organizmów względnie beztlenowych, np. drożdży.",
+     "tyl": "efekt Pasteura",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p5a5428c2",
+     "pytanie": "W fermentacji alkoholowej z pirogronianu powstają:",
+     "odpowiedzi": [
+      "mleczan i ATP",
+      "woda i CO₂",
+      "acetylo-CoA i CO₂",
+      "etanol i CO₂"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Przez aldehyd octowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb5564b49",
+     "pytanie": "Główną funkcją przemian pirogronianu w fermentacji jest:",
+     "odpowiedzi": [
+      "wytworzenie tlenu",
+      "synteza glukozy",
+      "odtworzenie NAD⁺ dla glikolizy",
+      "wytworzenie dużej ilości ATP"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Bez NAD⁺ glikoliza stanie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4a8ef64d",
+     "pytanie": "Glikogen mięśniowy nie zwiększa poziomu glukozy we krwi, ponieważ mięśnie nie mają:",
+     "odpowiedzi": [
+      "mitochondriów",
+      "heksokinazy",
+      "glukozo-6-fosfatazy",
+      "glikogenu"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Glukozo-6-fosforan nie opuszcza komórki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p46183782",
+     "pytanie": "Synteza glukozy z mleczanu w wątrobie to:",
+     "odpowiedzi": [
+      "fermentacja",
+      "glikoliza",
+      "glikogenoliza",
+      "glukoneogeneza"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Cykl Corich.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8eaa0bec",
+     "pytanie": "Z jednej cząsteczki glukozy w fermentacji mleczanowej powstaje netto:",
+     "odpowiedzi": [
+      "30 ATP",
+      "0 ATP",
+      "2 ATP",
+      "4 ATP"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Tylko z glikolizy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc27f3daf",
+     "pytanie": "Organizm względnie beztlenowy to:",
+     "odpowiedzi": [
+      "człowiek",
+      "drożdże piekarskie",
+      "laseczka tężca",
+      "metanogen"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Oddycha tlenowo albo fermentuje.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
