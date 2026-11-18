@@ -266,6 +266,123 @@
    ],
    "id": "b-mikroorganizmy-10",
    "dzial": "mikroorganizmy"
+  },
+  {
+   "tytul": "Koniugacja bakterii",
+   "material": "Doświadczenie (autorskie). Szczep A bakterii E. coli jest oporny na ampicylinę (gen na plazmidzie), a szczep B — wrażliwy, ale oporny na streptomycynę (gen chromosomowy). Po wspólnej hodowli wysiano bakterie na pożywkę z oboma antybiotykami — wyrosły kolonie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, skąd wzięły się bakterie oporne na oba antybiotyki.",
+     "odpowiedz": "Bakterie szczepu A przekazały plazmid z genem oporności na ampicylinę bakteriom szczepu B przez pilus (koniugacja); powstały bakterie z oboma genami oporności.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę innego sposobu przenoszenia DNA między bakteriami, który mógłby dać podobny wynik.",
+     "odpowiedz": "Transformacja (pobranie DNA z otoczenia) lub transdukcja (przez bakteriofaga).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mikroorganizmy-11",
+   "dzial": "mikroorganizmy"
+  },
+  {
+   "tytul": "Krzywa wzrostu bakterii",
+   "material": "Wykres (opis, autorski). Liczba bakterii w zamkniętej hodowli: faza I — brak wzrostu (2 h); faza II — gwałtowny wzrost; faza III — stała liczebność; faza IV — spadek.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w fazie I liczba bakterii nie rośnie.",
+     "odpowiedz": "Bakterie przystosowują się do nowej pożywki — syntetyzują enzymy i przygotowują się do podziałów (faza zastoju).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij przyczyny spadku liczebności w fazie IV.",
+     "odpowiedz": "Wyczerpanie składników pokarmowych i nagromadzenie toksycznych produktów przemiany materii — przewaga obumierania nad podziałami.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mikroorganizmy-12",
+   "dzial": "mikroorganizmy"
+  },
+  {
+   "tytul": "Sinice i heterocysty",
+   "material": "Opis (autorski). Nitkowate sinice z rodzaju Anabaena mają w nici co kilka komórek wegetatywnych jedną komórkę o grubej ścianie — heterocystę, w której nie działa fotosystem II, a zachodzi wiązanie azotu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego wiązanie azotu zachodzi w heterocystach, a nie w zwykłych komórkach sinicy.",
+     "odpowiedz": "Nitrogenaza jest wrażliwa na tlen; w heterocystach nie działa PS II, więc nie powstaje tlen z fotolizy wody, a gruba ściana ogranicza dopływ tlenu z zewnątrz.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mikroorganizmy-13",
+   "dzial": "mikroorganizmy"
+  },
+  {
+   "tytul": "Zakażenia grzybicze",
+   "material": "Tekst (autorski). Grzybice skóry stóp często występują u osób korzystających z basenów i noszących nieprzewiewne obuwie. Ich leczenie trwa długo, a leki przeciwgrzybicze częściej wywołują działania niepożądane niż leki przeciwbakteryjne.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jakie warunki sprzyjają rozwojowi grzybic skóry.",
+     "odpowiedz": "Ciepło i wilgoć (np. pocenie się w nieprzewiewnym obuwiu, wilgotne podłogi basenów).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego trudno znaleźć leki przeciwgrzybicze bezpieczne dla człowieka.",
+     "odpowiedz": "Grzyby, podobnie jak człowiek, są eukariontami — mają podobną budowę komórek (rybosomy 80S, jądro), więc trudniej znaleźć cel działania leku obecny tylko u grzyba.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mikroorganizmy-14",
+   "dzial": "mikroorganizmy"
+  },
+  {
+   "tytul": "Toksoplazmoza w ciąży",
+   "material": "Tekst (autorski). Kobiecie w ciąży zaleca się badanie przeciwciał przeciw toksoplazmie. Jeśli wynik wskazuje na przebyte dawno zakażenie, ryzyko dla płodu jest minimalne.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego przebyte dawno zakażenie chroni płód.",
+     "odpowiedz": "Organizm matki ma przeciwciała i komórki pamięci, które szybko zwalczają ponowne zakażenie, a przeciwciała IgG przechodzą przez łożysko.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj dwa zalecenia profilaktyczne dla kobiety bez przeciwciał.",
+     "odpowiedz": "Np. nie jeść surowego/niedosmażonego mięsa; myć warzywa i owoce; używać rękawic przy pracy w ogrodzie i sprzątaniu kuwety.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mikroorganizmy-15",
+   "dzial": "mikroorganizmy"
   }
  ]
 }
