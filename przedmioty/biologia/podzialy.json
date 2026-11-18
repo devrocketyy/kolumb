@@ -1,0 +1,1093 @@
+{
+ "id": "podzialy",
+ "nazwa": "Podziały komórkowe i genom",
+ "opis": "Organizacja DNA, replikacja, cykl komórkowy, mitoza, mejoza, apoptoza.",
+ "poddzialy": [
+  {
+   "id": "b-genom",
+   "nazwa": "Organizacja materiału genetycznego",
+   "opis": "Wymaganie IV.1 podstawy programowej.",
+   "wymaganie": "IV.1",
+   "fiszki": [
+    {
+     "id": "fa7999d1a",
+     "przod": "Wyjaśnij pojęcie: genom",
+     "tyl": "Całość materiału genetycznego komórki lub organizmu (u eukariontów — jądrowy oraz mitochondrialny i plastydowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f1d18039c",
+     "przod": "Organizacja materiału genetycznego u prokariontów",
+     "tyl": "Kolista cząsteczka DNA (genofor, nukleoid) w cytoplazmie, bez histonów (u bakterii); dodatkowo plazmidy; geny zwykle bez intronów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f7ace8425",
+     "przod": "Organizacja materiału genetycznego u eukariontów",
+     "tyl": "Liniowe cząsteczki DNA związane z histonami (chromatyna) w jądrze; dużo niekodującego DNA, introny, sekwencje powtarzalne; DNA także w mitochondriach i plastydach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "fc5958eac",
+     "przod": "Wyjaśnij pojęcie: nukleosom",
+     "tyl": "Podstawowa jednostka upakowania chromatyny — ok. 146 par zasad DNA nawinięte na rdzeń z 8 histonów (oktamer).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f338cd21a",
+     "przod": "Wyjaśnij pojęcie: histony",
+     "tyl": "Zasadowe białka (dodatnio naładowane — dużo lizyny i argininy) wiążące ujemnie naładowane DNA i umożliwiające jego upakowanie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "fbfe67956",
+     "przod": "Wyjaśnij pojęcie: euchromatyna i heterochromatyna",
+     "tyl": "Euchromatyna — luźno upakowana, aktywna transkrypcyjnie; heterochromatyna — silnie skondensowana, nieaktywna (np. w okolicy centromerów, ciałko Barra).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "fa80d822c",
+     "przod": "Wyjaśnij pojęcie: chromosom",
+     "tyl": "Cząsteczka DNA z białkami; w czasie podziału silnie skondensowana i widoczna; po replikacji składa się z dwóch chromatyd siostrzanych połączonych centromerem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f5b54c40b",
+     "przod": "Budowa chromosomu metafazowego",
+     "tyl": "Dwie chromatydy siostrzane, centromer (przewężenie pierwotne) z kinetochorami, ramiona, telomery na końcach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "fe929fcfa",
+     "przod": "Wyjaśnij pojęcie: telomery",
+     "tyl": "Powtarzalne sekwencje na końcach chromosomów, chroniące je przed degradacją i łączeniem; skracają się przy każdej replikacji (odtwarza je telomeraza).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f2f473566",
+     "przod": "Wyjaśnij pojęcie: kariotyp",
+     "tyl": "Zespół chromosomów komórki charakterystyczny dla gatunku — ich liczba, wielkość i kształt (człowiek: 46, w tym XX lub XY).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f2913a6ed",
+     "przod": "Wyjaśnij pojęcie: chromosomy homologiczne",
+     "tyl": "Para chromosomów o tej samej budowie i układzie genów (loci), pochodzących jeden od matki, drugi od ojca; mogą mieć różne allele.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "fcf84de18",
+     "przod": "Wyjaśnij pojęcie: autosomy i heterosomy",
+     "tyl": "Autosomy — chromosomy jednakowe u obu płci (u człowieka 22 pary); heterosomy — chromosomy płci (X, Y).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f4768a467",
+     "przod": "Wyjaśnij pojęcie: haploidalność i diploidalność",
+     "tyl": "Haploidalna (n) — jeden zestaw chromosomów (gamety człowieka: 23); diploidalna (2n) — dwa zestawy, pary homologiczne (komórki somatyczne człowieka: 46).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f2303025a",
+     "przod": "Wyjaśnij pojęcie: zapis 2n/4c",
+     "tyl": "n — liczba zestawów chromosomów (ploidalność), c — ilość DNA w zestawie haploidalnym; komórka diploidalna po replikacji ma 2n i 4c.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f25a6688d",
+     "przod": "Wyjaśnij pojęcie: poliploidalność",
+     "tyl": "Obecność więcej niż dwóch zestawów chromosomów (3n, 4n…) — częsta u roślin uprawnych (pszenica, ziemniak, truskawka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f4488f680",
+     "przod": "Wyjaśnij pojęcie: genom mitochondrialny człowieka",
+     "tyl": "Kolista cząsteczka DNA (ok. 16,5 tys. par zasad, 37 genów), dziedziczona w linii matczynej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "ff513d686",
+     "przod": "Wyjaśnij pojęcie: plazmid",
+     "tyl": "Mała kolista cząsteczka DNA bakterii, replikująca się niezależnie od genoforu; często niesie geny oporności na antybiotyki — wykorzystywana jako wektor w inżynierii genetycznej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f1fc7a5d1",
+     "przod": "Wyjaśnij pojęcie: sekwencje niekodujące DNA",
+     "tyl": "Introny, sekwencje regulatorowe, powtarzalne (np. mikrosatelity, telomery), pseudogeny, transpozony — stanowią większość genomu człowieka (~98%).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f338b2bd7",
+     "przod": "Ile chromosomów ma komórka jajowa i komórka skóry człowieka?",
+     "tyl": "Komórka jajowa — 23 (n); komórka skóry — 46 (2n).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f22c4e312",
+     "przod": "Podaj nazwę pojęcia: Całość materiału genetycznego komórki lub organizmu (u eukariontów — jądrowy oraz mitochondrialny i plastydowy).",
+     "tyl": "genom",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "fa8715bb7",
+     "przod": "Podaj nazwę pojęcia: Podstawowa jednostka upakowania chromatyny — ok. 146 par zasad DNA nawinięte na rdzeń z 8 histonów (oktamer).",
+     "tyl": "nukleosom",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f28aa3a19",
+     "przod": "Podaj nazwę pojęcia: Zasadowe białka (dodatnio naładowane — dużo lizyny i argininy) wiążące ujemnie naładowane DNA i umożliwiające jego upakowanie.",
+     "tyl": "histony",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "fd6547315",
+     "przod": "Podaj nazwę pojęcia: Zespół chromosomów komórki charakterystyczny dla gatunku — ich liczba, wielkość i kształt (człowiek: 46, w tym XX lub XY).",
+     "tyl": "kariotyp",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f730f2926",
+     "przod": "Podaj nazwę pojęcia: n — liczba zestawów chromosomów (ploidalność), c — ilość DNA w zestawie haploidalnym; komórka diploidalna po replikacji ma 2n i 4c.",
+     "tyl": "zapis 2n/4c",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "fbff080f3",
+     "przod": "Podaj nazwę pojęcia: Obecność więcej niż dwóch zestawów chromosomów (3n, 4n…) — częsta u roślin uprawnych (pszenica, ziemniak, truskawka).",
+     "tyl": "poliploidalność",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "fd60c280a",
+     "przod": "Podaj nazwę pojęcia: Kolista cząsteczka DNA (ok. 16,5 tys. par zasad, 37 genów), dziedziczona w linii matczynej.",
+     "tyl": "genom mitochondrialny człowieka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f1d65999d",
+     "przod": "Podaj nazwę pojęcia: Mała kolista cząsteczka DNA bakterii, replikująca się niezależnie od genoforu; często niesie geny oporności na antybiotyki — wykorzystywana jako wektor w inżynierii genetycznej.",
+     "tyl": "plazmid",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pc4963384",
+     "pytanie": "Nukleosom składa się z DNA nawiniętego na:",
+     "odpowiedzi": [
+      "oktamer histonów",
+      "kinetochor",
+      "pojedynczy histon",
+      "rybosomy"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "8 histonów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0e9b6505",
+     "pytanie": "Heterochromatyna jest:",
+     "odpowiedzi": [
+      "zawsze kodująca",
+      "silnie skondensowana i nieaktywna",
+      "obecna tylko u bakterii",
+      "luźna i aktywna"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Np. ciałko Barra.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa4ec80fb",
+     "pytanie": "Chromosomy homologiczne:",
+     "odpowiedzi": [
+      "mają te same loci genów, mogą mieć różne allele",
+      "są zawsze identyczne pod względem alleli",
+      "to chromatydy siostrzane jednego chromosomu",
+      "występują parami w gametach człowieka"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Od matki i od ojca.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p84067fd6",
+     "pytanie": "Komórka diploidalna po replikacji DNA ma:",
+     "odpowiedzi": [
+      "n 2c",
+      "4n 4c",
+      "2n 2c",
+      "2n 4c"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Ploidalność się nie zmienia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-replikacja",
+   "nazwa": "Replikacja DNA",
+   "opis": "Wymaganie IV.2 podstawy programowej.",
+   "wymaganie": "IV.2",
+   "fiszki": [
+    {
+     "id": "f9d8109c1",
+     "przod": "Wyjaśnij pojęcie: replikacja DNA",
+     "tyl": "Proces powielania DNA przed podziałem komórki (w fazie S), w którym z jednej cząsteczki powstają dwie identyczne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "ff61f1af1",
+     "przod": "Wyjaśnij pojęcie: replikacja semikonserwatywna",
+     "tyl": "Każda potomna cząsteczka DNA składa się z jednej nici starej (matrycowej) i jednej nowo zsyntetyzowanej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "fb2dedfc3",
+     "przod": "Doświadczenie Meselsona i Stahla",
+     "tyl": "Bakterie hodowane na ¹⁵N przeniesiono na ¹⁴N; po 1 pokoleniu całe DNA miało gęstość pośrednią, po 2 — połowa pośrednia, połowa lekka — dowód replikacji semikonserwatywnej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "fff2f8ee0",
+     "przod": "Rola helikazy",
+     "tyl": "Rozplata podwójną helisę DNA, rozrywając wiązania wodorowe między zasadami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "fd3ac23e9",
+     "przod": "Rola topoizomerazy",
+     "tyl": "Usuwa napięcia (superskręty) powstające przed widełkami replikacyjnymi przez przecinanie i ponowne łączenie nici.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "f56dec173",
+     "przod": "Rola białek SSB",
+     "tyl": "Wiążą pojedyncze nici DNA, zapobiegając ich ponownemu łączeniu się.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "f81eddc63",
+     "przod": "Rola prymazy",
+     "tyl": "Syntetyzuje krótki starter (primer) z RNA, od którego polimeraza DNA może rozpocząć syntezę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "f502ac868",
+     "przod": "Dlaczego polimeraza DNA potrzebuje startera?",
+     "tyl": "Nie potrafi rozpocząć syntezy od zera — może jedynie dołączać nukleotydy do grupy 3′-OH istniejącego łańcucha.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "f16c70304",
+     "przod": "Rola polimerazy DNA",
+     "tyl": "Dobudowuje nukleotydy komplementarne do nici matrycowej w kierunku 5′→3′ oraz sprawdza i poprawia błędy (aktywność korektorska).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "ff1dda959",
+     "przod": "Wyjaśnij pojęcie: nić wiodąca i opóźniona",
+     "tyl": "Wiodąca — syntetyzowana w sposób ciągły w kierunku ruchu widełek; opóźniona — nieciągle, w przeciwnym kierunku, w postaci fragmentów Okazaki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "fb5351e4b",
+     "przod": "Dlaczego jedna nić syntetyzowana jest nieciągle?",
+     "tyl": "Nici DNA są antyrównoległe, a polimeraza syntetyzuje tylko w kierunku 5′→3′ — na jednej matrycy musi pracować odcinkami, w kierunku przeciwnym do ruchu widełek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "fb921ef7f",
+     "przod": "Wyjaśnij pojęcie: fragmenty Okazaki",
+     "tyl": "Krótkie odcinki DNA (z starterami RNA) syntetyzowane na nici opóźnionej, następnie łączone.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "f41a6868f",
+     "przod": "Rola ligazy DNA",
+     "tyl": "Łączy fragmenty Okazaki (wiązaniem fosfodiestrowym) w ciągłą nić po usunięciu starterów RNA i uzupełnieniu luk.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "f0ded59fa",
+     "przod": "Wyjaśnij pojęcie: oczko (bańka) replikacyjne",
+     "tyl": "Miejsce rozplecenia DNA w punkcie początku replikacji (ori), z dwoma widełkami przesuwającymi się w przeciwnych kierunkach (replikacja dwukierunkowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "fd6e61722",
+     "przod": "Dlaczego DNA eukariontów ma wiele miejsc ori?",
+     "tyl": "Cząsteczki są bardzo długie — wiele punktów startu pozwala zreplikować je w krótkim czasie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "f5cc9424f",
+     "przod": "Wyjaśnij pojęcie: problem replikacji końców chromosomów",
+     "tyl": "Po usunięciu ostatniego startera na nici opóźnionej nie da się uzupełnić luki — chromosomy skracają się przy każdej replikacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "f4a19e1b3",
+     "przod": "Rola telomerazy",
+     "tyl": "Enzym (odwrotna transkryptaza z własnym RNA-matrycą) wydłużający telomery — aktywny w komórkach macierzystych, płciowych i nowotworowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "f6f46c174",
+     "przod": "Wyjaśnij pojęcie: wierność replikacji",
+     "tyl": "Bardzo niski poziom błędów (ok. 1 na 10⁹–10¹⁰ nukleotydów) dzięki komplementarności, aktywności korektorskiej polimerazy i systemom naprawy DNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "f54dfb209",
+     "przod": "Co by się stało, gdyby ligaza nie działała?",
+     "tyl": "Nić opóźniona pozostałaby pofragmentowana — powstałe DNA byłoby nieciągłe i niestabilne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "fa6f878ab",
+     "przod": "Podaj nazwę pojęcia: Proces powielania DNA przed podziałem komórki (w fazie S), w którym z jednej cząsteczki powstają dwie identyczne.",
+     "tyl": "replikacja DNA",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "f5f76f8e0",
+     "przod": "Podaj nazwę pojęcia: Każda potomna cząsteczka DNA składa się z jednej nici starej (matrycowej) i jednej nowo zsyntetyzowanej.",
+     "tyl": "replikacja semikonserwatywna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "fdf3df9f8",
+     "przod": "Rozpoznaj: Bakterie hodowane na ¹⁵N przeniesiono na ¹⁴N; po 1 pokoleniu całe DNA miało gęstość pośrednią, po 2 — połowa pośrednia, połowa lekka — dowód replikacji semikonserwatywnej.",
+     "tyl": "Doświadczenie Meselsona i Stahla",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "fb7042b50",
+     "przod": "Podaj nazwę pojęcia: Krótkie odcinki DNA (z starterami RNA) syntetyzowane na nici opóźnionej, następnie łączone.",
+     "tyl": "fragmenty Okazaki",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "fa8360b18",
+     "przod": "Podaj nazwę pojęcia: Bardzo niski poziom błędów (ok. 1 na 10⁹–10¹⁰ nukleotydów) dzięki komplementarności, aktywności korektorskiej polimerazy i systemom naprawy DNA.",
+     "tyl": "wierność replikacji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p5814c69b",
+     "pytanie": "Starter RNA syntetyzuje:",
+     "odpowiedzi": [
+      "helikaza",
+      "polimeraza DNA",
+      "ligaza",
+      "prymaza"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Primer.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pdcc961d8",
+     "pytanie": "Fragmenty Okazaki powstają na nici:",
+     "odpowiedzi": [
+      "matrycowej RNA",
+      "obu niciach",
+      "opóźnionej",
+      "wiodącej"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Synteza nieciągła.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf5d8dd24",
+     "pytanie": "Polimeraza DNA syntetyzuje nić w kierunku:",
+     "odpowiedzi": [
+      "zależnym od matrycy",
+      "5′→3′",
+      "obu kierunkach",
+      "3′→5′"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Dołącza do 3′-OH.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p303bf1ec",
+     "pytanie": "Wyniki Meselsona i Stahla potwierdziły replikację:",
+     "odpowiedzi": [
+      "konserwatywną",
+      "semikonserwatywną",
+      "dyspersyjną",
+      "odwrotną"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Gęstość pośrednia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-cykl",
+   "nazwa": "Cykl komórkowy i ploidalność",
+   "opis": "Wymaganie IV.3 podstawy programowej.",
+   "wymaganie": "IV.3",
+   "fiszki": [
+    {
+     "id": "f10a59049",
+     "przod": "Wyjaśnij pojęcie: cykl komórkowy",
+     "tyl": "Okres od powstania komórki w wyniku podziału do jej własnego podziału: interfaza (G1, S, G2) i faza M (kariokineza + cytokineza).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "f078463c5",
+     "przod": "Faza G1 — co się dzieje?",
+     "tyl": "Wzrost komórki, synteza białek i organelli, przygotowanie do replikacji; komórka ma 2n 2c.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "fd71d070d",
+     "przod": "Faza S — co się dzieje?",
+     "tyl": "Replikacja DNA i synteza histonów — ilość DNA podwaja się (2c → 4c), ploidalność się nie zmienia (2n).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "f4cc043e6",
+     "przod": "Faza G2 — co się dzieje?",
+     "tyl": "Przygotowanie do podziału: synteza białek wrzeciona (tubuliny), sprawdzanie poprawności replikacji; komórka ma 2n 4c.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "f593662d0",
+     "przod": "Wyjaśnij pojęcie: faza G0",
+     "tyl": "Stan spoczynku — komórka wychodzi z cyklu i nie dzieli się (np. neurony, większość komórek mięśni), choć pełni swoje funkcje.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "f44a01c10",
+     "przod": "Wyjaśnij pojęcie: punkty kontrolne cyklu",
+     "tyl": "Momenty (G1/S, G2/M, w metafazie), w których sprawdzana jest gotowość do kolejnego etapu: wielkość komórki, uszkodzenia DNA, przyłączenie chromosomów do wrzeciona.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "fc99e3f9b",
+     "przod": "Wyjaśnij pojęcie: cykliny i kinazy zależne od cyklin (CDK)",
+     "tyl": "Białka regulujące cykl: stężenie cyklin zmienia się cyklicznie; po związaniu z cykliną CDK fosforyluje białka docelowe, uruchamiając kolejne fazy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "fbeda16b5",
+     "przod": "Rola białka p53",
+     "tyl": "Wykrywa uszkodzenia DNA i zatrzymuje cykl (umożliwia naprawę) lub kieruje komórkę na apoptozę — „strażnik genomu”; mutacje p53 sprzyjają nowotworom.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "f22626dbb",
+     "przod": "Wyjaśnij pojęcie: protoonkogeny i geny supresorowe",
+     "tyl": "Protoonkogeny pobudzają podziały (zmutowane — onkogeny, nadmierna proliferacja); geny supresorowe hamują podziały (np. p53) — ich inaktywacja sprzyja nowotworom.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "f78fbf7d9",
+     "przod": "Jak zmienia się ilość DNA w cyklu komórkowym (mitotycznym)?",
+     "tyl": "G1: 2c → S: wzrost do 4c → G2: 4c → po mitozie i cytokinezie: 2c w każdej komórce potomnej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "f3b45e948",
+     "przod": "Jak odczytać fazę cyklu z wykresu ilości DNA?",
+     "tyl": "Poziom 2c — G1; rosnąca ilość — S; 4c — G2 i mitoza do anafazy; spadek do 2c — koniec podziału (telofaza, cytokineza).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "f89abf324",
+     "przod": "Wyjaśnij pojęcie: ploidalność a liczba chromatyd",
+     "tyl": "Ploidalność (n) liczy zestawy chromosomów, a ilość DNA (c) — chromatydy; w G2 chromosomów jest 46, ale chromatyd 92 (2n 4c).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "f0c866123",
+     "przod": "Dlaczego komórki nowotworowe dzielą się bez kontroli?",
+     "tyl": "Mutacje w genach regulujących cykl (onkogeny aktywne, geny supresorowe nieaktywne) wyłączają punkty kontrolne i apoptozę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "f1ca7e385",
+     "przod": "Jak działają niektóre leki przeciwnowotworowe (np. kolchicyna, taksol)?",
+     "tyl": "Zaburzają mikrotubule wrzeciona podziałowego — blokują mitozę w szybko dzielących się komórkach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "f9c3b8e03",
+     "przod": "Wyjaśnij pojęcie: endomitoza",
+     "tyl": "Replikacja DNA bez podziału komórki — prowadzi do poliploidyzacji (np. niektóre komórki wątroby, chromosomy olbrzymie owadów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "f12848490",
+     "przod": "Ile czasu trwa typowy cykl komórek człowieka i która faza jest najdłuższa?",
+     "tyl": "Ok. 24 h; najdłuższa jest interfaza (zwłaszcza G1), mitoza trwa ok. 1 h.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "fdb7136a5",
+     "przod": "Podaj nazwę pojęcia: Stan spoczynku — komórka wychodzi z cyklu i nie dzieli się (np. neurony, większość komórek mięśni), choć pełni swoje funkcje.",
+     "tyl": "faza G0",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "f74ec1c33",
+     "przod": "Podaj nazwę pojęcia: Momenty (G1/S, G2/M, w metafazie), w których sprawdzana jest gotowość do kolejnego etapu: wielkość komórki, uszkodzenia DNA, przyłączenie chromosomów do wrzeciona.",
+     "tyl": "punkty kontrolne cyklu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "fa8889f8c",
+     "przod": "Podaj nazwę pojęcia: Replikacja DNA bez podziału komórki — prowadzi do poliploidyzacji (np. niektóre komórki wątroby, chromosomy olbrzymie owadów).",
+     "tyl": "endomitoza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pedf1b8e3",
+     "pytanie": "Replikacja DNA zachodzi w fazie:",
+     "odpowiedzi": [
+      "S",
+      "G2",
+      "G1",
+      "M"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Synteza.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pfda44616",
+     "pytanie": "Komórka człowieka w fazie G2 ma:",
+     "odpowiedzi": [
+      "23 chromosomy",
+      "46 chromatyd",
+      "2c DNA",
+      "92 chromatydy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "2n 4c.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb1bdede4",
+     "pytanie": "Neurony najczęściej znajdują się w fazie:",
+     "odpowiedzi": [
+      "S",
+      "G2",
+      "M",
+      "G0"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Nie dzielą się.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p01f14bb5",
+     "pytanie": "Białko p53:",
+     "odpowiedzi": [
+      "tworzy wrzeciono podziałowe",
+      "pobudza podziały komórek",
+      "zatrzymuje cykl przy uszkodzeniu DNA",
+      "replikuje DNA w fazie S"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Strażnik genomu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-mitoza-mejoza",
+   "nazwa": "Mitoza, mejoza i cytokineza",
+   "opis": "Wymaganie IV.4–7, 9 podstawy programowej.",
+   "wymaganie": "IV.4–7, 9",
+   "fiszki": [
+    {
+     "id": "f7febf3e7",
+     "przod": "Wyjaśnij pojęcie: mitoza",
+     "tyl": "Podział jądra, w którym z jednej komórki powstają dwie o tej samej ploidalności i identycznej informacji genetycznej (2n → 2n).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f26400f14",
+     "przod": "Znaczenie biologiczne mitozy",
+     "tyl": "Wzrost organizmu, regeneracja i odnowa tkanek, rozmnażanie bezpłciowe, zachowanie stałej liczby chromosomów w komórkach somatycznych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fa93f2a4d",
+     "przod": "Profaza mitozy",
+     "tyl": "Kondensacja chromosomów (widoczne dwie chromatydy), zanik jąderka i otoczki jądrowej (prometafaza), tworzenie wrzeciona podziałowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f82430b6a",
+     "przod": "Metafaza mitozy",
+     "tyl": "Chromosomy ustawiają się w płaszczyźnie równikowej (płytka metafazowa); włókna wrzeciona przyczepione do kinetochorów obu chromatyd — najlepszy moment do badania kariotypu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fe7845d8d",
+     "przod": "Anafaza mitozy",
+     "tyl": "Rozdzielenie chromatyd siostrzanych (od tej chwili chromosomy potomne) i ich wędrówka do przeciwnych biegunów — skracanie mikrotubul.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fcdceeef4",
+     "przod": "Telofaza mitozy",
+     "tyl": "Dekondensacja chromosomów, odtworzenie otoczki jądrowej i jąderek, zanik wrzeciona; zwykle równocześnie cytokineza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f0b12c3cf",
+     "przod": "Cytokineza u zwierząt i roślin",
+     "tyl": "Zwierzęta — przewężenie (bruzda podziałowa z pierścieniem aktyny i miozyny); rośliny — przegroda pierwotna (fragmoplast) z pęcherzyków aparatu Golgiego w środku komórki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f52c8c373",
+     "przod": "Dlaczego cytokineza roślin przebiega inaczej niż zwierząt?",
+     "tyl": "Sztywna ściana komórkowa uniemożliwia przewężenie — nowa ściana musi powstać od środka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "ffb1fafb9",
+     "przod": "Wyjaśnij pojęcie: mejoza",
+     "tyl": "Dwa następujące po sobie podziały (bez replikacji między nimi), w wyniku których z komórki diploidalnej powstają cztery komórki haploidalne, zróżnicowane genetycznie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f12198cd5",
+     "przod": "Znaczenie biologiczne mejozy",
+     "tyl": "Redukcja liczby chromosomów o połowę (stała liczba po zapłodnieniu) i zmienność genetyczna (crossing-over, losowa segregacja chromosomów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fd44f4cff",
+     "przod": "Profaza I mejozy",
+     "tyl": "Koniugacja chromosomów homologicznych (biwalenty, tetrady), crossing-over (wymiana odcinków między chromatydami niesiostrzanymi), chiazmy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f252308db",
+     "przod": "Wyjaśnij pojęcie: crossing-over",
+     "tyl": "Wymiana odcinków między chromatydami niesiostrzanymi chromosomów homologicznych w profazie I — powstają nowe kombinacje alleli (rekombinacja).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fb4f47b95",
+     "przod": "Metafaza I mejozy",
+     "tyl": "Biwalenty (pary chromosomów homologicznych) ustawiają się w płaszczyźnie równikowej; losowe ułożenie par → niezależna segregacja.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f48e6f603",
+     "przod": "Anafaza I mejozy",
+     "tyl": "Rozchodzenie się chromosomów homologicznych (każdy złożony z dwóch chromatyd) do przeciwnych biegunów — redukcja ploidalności.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fdfbd3948",
+     "przod": "Różnica anafazy mitozy i anafazy I mejozy",
+     "tyl": "W mitozie rozchodzą się chromatydy siostrzane; w anafazie I mejozy — całe chromosomy homologiczne (dwuchromatydowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f33ea5077",
+     "przod": "Mejoza II — przebieg",
+     "tyl": "Przypomina mitozę komórek haploidalnych: w anafazie II rozchodzą się chromatydy siostrzane; powstają 4 komórki n.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fc7feb09a",
+     "przod": "Zmiana ploidalności i ilości DNA w mejozie",
+     "tyl": "Przed: 2n 4c → po mejozie I: n 2c (dwie komórki) → po mejozie II: n 1c (cztery komórki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f05693684",
+     "przod": "W którym podziale mejozy następuje redukcja liczby chromosomów?",
+     "tyl": "W pierwszym (mejoza I — podział redukcyjny); mejoza II jest podziałem wyrównawczym (zmniejsza ilość DNA, nie ploidalność).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fc121687e",
+     "przod": "Źródła zmienności genetycznej w mejozie",
+     "tyl": "Crossing-over (profaza I) i niezależna, losowa segregacja chromosomów homologicznych (anafaza I); dodatkowo losowe łączenie gamet przy zapłodnieniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f0159c940",
+     "przod": "Ile kombinacji chromosomów może powstać w gametach człowieka (bez crossing-over)?",
+     "tyl": "2²³ ≈ 8,4 mln.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f8964d909",
+     "przod": "Wyjaśnij pojęcie: nondysjunkcja",
+     "tyl": "Nierozejście się chromosomów homologicznych (mejoza I) lub chromatyd (mejoza II) — powstają gamety z nadmiarem lub brakiem chromosomu (np. trisomia 21).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fc04f6f17",
+     "przod": "Jak rozpoznać na rysunku anafazę I od anafazy II?",
+     "tyl": "Anafaza I — do biegunów wędrują chromosomy dwuchromatydowe, a na każdym biegunie brak par homologicznych; anafaza II — rozchodzą się pojedyncze chromatydy, a komórek jest dwie (lub komórka jest haploidalna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "feef0547e",
+     "przod": "Jak rozpoznać metafazę mitozy od metafazy I mejozy?",
+     "tyl": "Mitoza — chromosomy pojedynczo w płaszczyźnie równikowej; metafaza I — chromosomy w parach (biwalenty).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f826d7b7d",
+     "przod": "Wyjaśnij pojęcie: mejoza gametyczna, sporyczna i zygotyczna",
+     "tyl": "Gametyczna — powstają gamety (zwierzęta); sporyczna — zarodniki (rośliny, przemiana pokoleń); zygotyczna — zaraz po zapłodnieniu zygota dzieli się mejotycznie (wiele glonów i grzybów — organizmy haploidalne).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fa493a818",
+     "przod": "Czy komórka haploidalna może dzielić się mitotycznie?",
+     "tyl": "Tak — np. gametofity roślin wytwarzają gamety przez mitozę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f53f764e1",
+     "przod": "Czy komórka haploidalna może dzielić się mejotycznie?",
+     "tyl": "Nie — mejoza wymaga par chromosomów homologicznych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fdbe5f9af",
+     "przod": "Ile cząsteczek DNA ma chromosom w anafazie mitozy?",
+     "tyl": "Jedną — po rozdzieleniu każda chromatyda staje się samodzielnym chromosomem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fa01e0580",
+     "przod": "Liczba chromosomów i chromatyd w komórce człowieka w metafazie mitozy",
+     "tyl": "46 chromosomów, 92 chromatydy (2n 4c).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f55ee7147",
+     "przod": "Liczba chromosomów w komórce po mejozie I u człowieka",
+     "tyl": "23 chromosomy, każdy z dwóch chromatyd (n 2c).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f120baacb",
+     "przod": "Wyjaśnij pojęcie: kolchicyna w hodowli roślin",
+     "tyl": "Blokuje tworzenie wrzeciona — chromosomy się replikują, ale nie rozchodzą — powstają komórki poliploidalne (otrzymywanie odmian poliploidalnych).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f741f4424",
+     "przod": "Podaj nazwę pojęcia: Podział jądra, w którym z jednej komórki powstają dwie o tej samej ploidalności i identycznej informacji genetycznej (2n → 2n).",
+     "tyl": "mitoza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f998ac173",
+     "przod": "Rozpoznaj: Kondensacja chromosomów (widoczne dwie chromatydy), zanik jąderka i otoczki jądrowej (prometafaza), tworzenie wrzeciona podziałowego.",
+     "tyl": "Profaza mitozy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "faaa91c53",
+     "przod": "Rozpoznaj: Rozdzielenie chromatyd siostrzanych (od tej chwili chromosomy potomne) i ich wędrówka do przeciwnych biegunów — skracanie mikrotubul.",
+     "tyl": "Anafaza mitozy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f986980db",
+     "przod": "Rozpoznaj: Dekondensacja chromosomów, odtworzenie otoczki jądrowej i jąderek, zanik wrzeciona; zwykle równocześnie cytokineza.",
+     "tyl": "Telofaza mitozy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fdb031b47",
+     "przod": "Podaj nazwę pojęcia: Dwa następujące po sobie podziały (bez replikacji między nimi), w wyniku których z komórki diploidalnej powstają cztery komórki haploidalne, zróżnicowane genetycznie.",
+     "tyl": "mejoza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f5237350f",
+     "przod": "Rozpoznaj: Koniugacja chromosomów homologicznych (biwalenty, tetrady), crossing-over (wymiana odcinków między chromatydami niesiostrzanymi), chiazmy.",
+     "tyl": "Profaza I mejozy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f0b7d4399",
+     "przod": "Podaj nazwę pojęcia: Wymiana odcinków między chromatydami niesiostrzanymi chromosomów homologicznych w profazie I — powstają nowe kombinacje alleli (rekombinacja).",
+     "tyl": "crossing-over",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f48394a1b",
+     "przod": "Rozpoznaj: Biwalenty (pary chromosomów homologicznych) ustawiają się w płaszczyźnie równikowej; losowe ułożenie par → niezależna segregacja.",
+     "tyl": "Metafaza I mejozy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fb79a953d",
+     "przod": "Rozpoznaj: Rozchodzenie się chromosomów homologicznych (każdy złożony z dwóch chromatyd) do przeciwnych biegunów — redukcja ploidalności.",
+     "tyl": "Anafaza I mejozy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f62d63e43",
+     "przod": "Rozpoznaj: Przypomina mitozę komórek haploidalnych: w anafazie II rozchodzą się chromatydy siostrzane; powstają 4 komórki n.",
+     "tyl": "Mejoza II — przebieg",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fed702f1a",
+     "przod": "Rozpoznaj: Crossing-over (profaza I) i niezależna, losowa segregacja chromosomów homologicznych (anafaza I); dodatkowo losowe łączenie gamet przy zapłodnieniu.",
+     "tyl": "Źródła zmienności genetycznej w mejozie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fa54b6282",
+     "przod": "Podaj nazwę pojęcia: Nierozejście się chromosomów homologicznych (mejoza I) lub chromatyd (mejoza II) — powstają gamety z nadmiarem lub brakiem chromosomu (np. trisomia 21).",
+     "tyl": "nondysjunkcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f0fe270af",
+     "przod": "Podaj nazwę pojęcia: Blokuje tworzenie wrzeciona — chromosomy się replikują, ale nie rozchodzą — powstają komórki poliploidalne (otrzymywanie odmian poliploidalnych).",
+     "tyl": "kolchicyna w hodowli roślin",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p02b6dd51",
+     "pytanie": "Chromatydy siostrzane rozchodzą się w:",
+     "odpowiedzi": [
+      "anafazie mitozy",
+      "profazie I mejozy",
+      "metafazie mitozy",
+      "anafazie I mejozy"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Także w anafazie II.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7558293e",
+     "pytanie": "Crossing-over zachodzi w:",
+     "odpowiedzi": [
+      "interfazie",
+      "anafazie II",
+      "metafazie I",
+      "profazie I mejozy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Biwalenty.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9653b227",
+     "pytanie": "Komórka po mejozie I (człowiek) ma:",
+     "odpowiedzi": [
+      "n 1c",
+      "2n 2c",
+      "2n 4c",
+      "n 2c"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Chromosomy dwuchromatydowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p944ba14f",
+     "pytanie": "Cytokineza u roślin zachodzi przez:",
+     "odpowiedzi": [
+      "pączkowanie komórki potomnej",
+      "przewężenie komórki bruzdą podziałową",
+      "tworzenie przegrody pierwotnej (fragmoplastu)",
+      "rozpuszczenie starej ściany komórkowej"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Sztywna ściana.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc321a52f",
+     "pytanie": "Redukcja liczby chromosomów następuje w:",
+     "odpowiedzi": [
+      "mejozie I",
+      "mitozie",
+      "mejozie II",
+      "fazie S"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Podział redukcyjny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc393ef6e",
+     "pytanie": "Chromosomy ustawione w biwalentach w płaszczyźnie równikowej to obraz:",
+     "odpowiedzi": [
+      "metafazy I mejozy",
+      "anafazy I",
+      "metafazy II mejozy",
+      "metafazy mitozy"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Pary homologiczne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf6455712",
+     "pytanie": "Trisomia może być skutkiem:",
+     "odpowiedzi": [
+      "nondysjunkcji chromosomów",
+      "replikacji DNA",
+      "crossing-over",
+      "apoptozy"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Nierozejście się.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "b-apoptoza",
+   "nazwa": "Apoptoza",
+   "opis": "Wymaganie IV.8 podstawy programowej.",
+   "wymaganie": "IV.8",
+   "fiszki": [
+    {
+     "id": "f0f44f68e",
+     "przod": "Wyjaśnij pojęcie: apoptoza",
+     "tyl": "Zaprogramowana, kontrolowana genetycznie śmierć komórki: obkurczenie komórki, kondensacja chromatyny, fragmentacja DNA, rozpad na ciałka apoptotyczne pochłaniane przez fagocyty — bez stanu zapalnego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "f0d420104",
+     "przod": "Wyjaśnij pojęcie: nekroza",
+     "tyl": "Niekontrolowana śmierć komórki wskutek urazu (np. niedokrwienia, toksyn): pęcznienie, pęknięcie błony, wylanie zawartości — wywołuje stan zapalny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "f7ee09b95",
+     "przod": "Apoptoza a nekroza — różnice",
+     "tyl": "Apoptoza: zaprogramowana, komórka się obkurcza, brak stanu zapalnego, wymaga ATP; nekroza: przypadkowa, komórka pęcznieje i pęka, wywołuje stan zapalny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "feb3d4818",
+     "przod": "Znaczenie apoptozy w rozwoju",
+     "tyl": "Kształtowanie narządów — np. zanik błon między palcami u zarodka człowieka, zanik ogona kijanki, eliminacja zbędnych neuronów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "ffc5f5b00",
+     "przod": "Znaczenie apoptozy w odporności i ochronie przed nowotworami",
+     "tyl": "Eliminacja komórek zakażonych wirusami (przez limfocyty Tc), autoreaktywnych limfocytów i komórek z nienaprawialnymi uszkodzeniami DNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "ff54e5a73",
+     "przod": "Wyjaśnij pojęcie: kaspazy",
+     "tyl": "Enzymy proteolityczne (proteazy) przeprowadzające apoptozę — rozkładają białka komórki w kaskadzie aktywacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "f018b7f0d",
+     "przod": "Rola mitochondriów w apoptozie",
+     "tyl": "Uwalniają cytochrom c do cytoplazmy, co aktywuje kaspazy (droga wewnętrzna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "fade7634b",
+     "przod": "Wyjaśnij pojęcie: droga wewnętrzna i zewnętrzna apoptozy",
+     "tyl": "Wewnętrzna — sygnał z wnętrza komórki (uszkodzenie DNA, stres) przez mitochondria; zewnętrzna — sygnał z zewnątrz, przez receptory śmierci na błonie (np. od limfocytów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "f02c3569f",
+     "przod": "Skutki zaburzeń apoptozy",
+     "tyl": "Za mało apoptozy — nowotwory, choroby autoimmunizacyjne; za dużo — choroby neurodegeneracyjne (Alzheimer, Parkinson), zanik tkanek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "f2e1ffff5",
+     "przod": "Dlaczego apoptoza nie wywołuje stanu zapalnego?",
+     "tyl": "Zawartość komórki pozostaje zamknięta w ciałkach apoptotycznych otoczonych błoną, szybko pochłanianych przez fagocyty.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "ff87e9e86",
+     "przod": "Podaj nazwę pojęcia: Niekontrolowana śmierć komórki wskutek urazu (np. niedokrwienia, toksyn): pęcznienie, pęknięcie błony, wylanie zawartości — wywołuje stan zapalny.",
+     "tyl": "nekroza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "f61f7a593",
+     "przod": "Podaj nazwę pojęcia: Enzymy proteolityczne (proteazy) przeprowadzające apoptozę — rozkładają białka komórki w kaskadzie aktywacji.",
+     "tyl": "kaspazy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p14e9ddb5",
+     "pytanie": "Apoptoza:",
+     "odpowiedzi": [
+      "zawsze wywołuje stan zapalny",
+      "polega na pęcznieniu i pęknięciu komórki",
+      "jest zaprogramowaną śmiercią komórki",
+      "zachodzi wyłącznie u roślin"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Kontrolowana genetycznie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p411b945c",
+     "pytanie": "Enzymami przeprowadzającymi apoptozę są:",
+     "odpowiedzi": [
+      "ligazy",
+      "helikazy",
+      "kaspazy",
+      "lipazy"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Proteazy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2669ac02",
+     "pytanie": "Zanik błon między palcami zarodka człowieka jest skutkiem:",
+     "odpowiedzi": [
+      "mitozy",
+      "mejozy",
+      "nekrozy",
+      "apoptozy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Kształtowanie narządów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,316 @@
+{
+ "dzial": "podzialy",
+ "wiazki": [
+  {
+   "tytul": "Ilość DNA w cyklu",
+   "material": "Wykres (opis, autorski). Ilość DNA w jądrze komórki (w jednostkach c) w czasie: odcinek I — 2c; odcinek II — wzrost od 2c do 4c; odcinek III — 4c; odcinek IV — spadek do 2c.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Przyporządkuj odcinkom I–III fazy interfazy.",
+     "odpowiedz": "I — G1; II — S; III — G2 (oraz mitoza do anafazy).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jaki proces jest odpowiedzialny za zmianę na odcinku II.",
+     "odpowiedz": "Replikacja DNA.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy na odcinku II zmienia się ploidalność komórki. Uzasadnij.",
+     "odpowiedz": "Nie — liczba chromosomów (zestawów) pozostaje taka sama (2n); każdy chromosom składa się po replikacji z dwóch chromatyd.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Typowy błąd: mylenie c z n.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-podzialy-01",
+   "dzial": "podzialy"
+  },
+  {
+   "tytul": "Mejoza — ploidalność",
+   "material": "Tabela (do uzupełnienia, autorska). Komórka zwierzęcia 2n = 8 przechodzi mejozę. Etapy: A — G1 przed mejozą; B — metafaza I; C — telofaza I (po cytokinezie, jedna komórka); D — metafaza II; E — komórka po mejozie II.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj liczbę chromosomów i ilość DNA (w c) w każdym z etapów A–E.",
+     "odpowiedz": "A — 8 chromosomów, 2c; B — 8, 4c; C — 4, 2c; D — 4, 2c; E — 4, 1c.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "2 pkt — 5 poprawnych; 1 pkt — 3–4.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, ile chromatyd jest w komórce w metafazie I.",
+     "odpowiedz": "16.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-podzialy-02",
+   "dzial": "podzialy"
+  },
+  {
+   "tytul": "Rozpoznawanie faz",
+   "material": "Opis rysunków (autorski). Komórka 2n = 4. Rysunek 1: cztery chromosomy dwuchromatydowe ułożone pojedynczo w płaszczyźnie równikowej. Rysunek 2: dwie pary chromosomów dwuchromatydowych (biwalenty) w płaszczyźnie równikowej. Rysunek 3: do każdego bieguna wędrują 2 chromosomy dwuchromatydowe, różne pod względem wielkości. Rysunek 4: do każdego bieguna wędrują 4 chromosomy jednochromatydowe.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Przyporządkuj rysunkom 1–4 nazwy faz podziału.",
+     "odpowiedz": "1 — metafaza mitozy; 2 — metafaza I mejozy; 3 — anafaza I mejozy; 4 — anafaza mitozy.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "2 pkt — 4 poprawne; 1 pkt — 2–3.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, na podstawie czego rozpoznałeś/rozpoznałaś rysunek 3.",
+     "odpowiedz": "Do biegunów wędrują całe chromosomy dwuchromatydowe, i to niehomologiczne (różnej wielkości) — rozchodzą się chromosomy homologiczne, co zachodzi w anafazie I.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-podzialy-03",
+   "dzial": "podzialy"
+  },
+  {
+   "tytul": "Komórka haploidalna",
+   "material": "Tekst (autorski). Trutnie (samce pszczoły miodnej) rozwijają się z niezapłodnionych jaj i są haploidalne. Mimo to wytwarzają plemniki.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, w wyniku jakiego podziału powstają plemniki trutni.",
+     "odpowiedz": "W wyniku mitozy — komórka haploidalna nie ma par homologicznych, więc nie może przejść mejozy.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy plemniki jednego trutnia są zróżnicowane genetycznie. Uzasadnij.",
+     "odpowiedz": "Nie — powstają przez mitozę, więc są genetycznie identyczne (nie zachodzi crossing-over ani segregacja chromosomów).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-podzialy-04",
+   "dzial": "podzialy"
+  },
+  {
+   "tytul": "Crossing-over",
+   "material": "Schemat (opis, autorski). W profazie I para chromosomów homologicznych z allelami A/a i B/b (A i B na jednym chromosomie, a i b na drugim) wymieniła odcinek między locus A i locus B.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj genotypy wszystkich czterech chromatyd po crossing-over.",
+     "odpowiedz": "AB, Ab, aB, ab.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij znaczenie crossing-over dla zmienności.",
+     "odpowiedz": "Powstają nowe kombinacje alleli (rekombinanty) na chromosomach — gamety są bardziej zróżnicowane.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-podzialy-05",
+   "dzial": "podzialy"
+  },
+  {
+   "tytul": "Kolchicyna",
+   "material": "Doświadczenie (autorskie). Korzenie cebuli (2n = 16) traktowano kolchicyną, która uniemożliwia tworzenie wrzeciona podziałowego. W komórkach merystemu po kilku godzinach widoczne były silnie skondensowane chromosomy, ale nie było anafaz.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w komórkach nie obserwowano anafaz.",
+     "odpowiedz": "Bez wrzeciona chromatydy nie mogą zostać rozciągnięte do biegunów — podział zatrzymuje się na metafazie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jaką ploidalność będą miały komórki, które po usunięciu kolchicyny odtworzą jądro bez podziału.",
+     "odpowiedz": "4n (32 chromosomy).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj praktyczne zastosowanie kolchicyny.",
+     "odpowiedz": "Otrzymywanie roślin poliploidalnych w hodowli / przygotowanie preparatów do badania kariotypu (zatrzymanie w metafazie).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-podzialy-06",
+   "dzial": "podzialy"
+  },
+  {
+   "tytul": "Nondysjunkcja",
+   "material": "Opis (autorski). W pierwszym podziale mejotycznym podczas spermatogenezy jedna para chromosomów homologicznych nie rozeszła się.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj, ile chromosomów (dla człowieka) będą miały powstałe plemniki i ile z nich będzie nieprawidłowych.",
+     "odpowiedz": "Dwa plemniki po 24 chromosomy i dwa po 22 — wszystkie cztery są nieprawidłowe.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "porownaj",
+     "punkty": 1,
+     "polecenie": "Porównaj skutki nondysjunkcji w mejozie I i w mejozie II.",
+     "odpowiedz": "W mejozie I nieprawidłowe są wszystkie 4 gamety; w mejozie II — tylko 2 (dwie pozostałe są prawidłowe).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-podzialy-07",
+   "dzial": "podzialy"
+  },
+  {
+   "tytul": "Cykl komórkowy a nowotwór",
+   "material": "Tekst (autorski). W ponad połowie nowotworów człowieka stwierdza się mutację genu TP53 kodującego białko p53.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego utrata funkcji p53 sprzyja rozwojowi nowotworu.",
+     "odpowiedz": "p53 zatrzymuje cykl komórkowy w punkcie kontrolnym przy uszkodzeniu DNA (umożliwiając naprawę) lub kieruje komórkę na apoptozę; bez niego komórki z uszkodzonym DNA dzielą się dalej i gromadzą kolejne mutacje.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-podzialy-08",
+   "dzial": "podzialy"
+  },
+  {
+   "tytul": "Replikacja — Meselson i Stahl",
+   "material": "Opis (autorski). Bakterie hodowano wiele pokoleń na pożywce z ciężkim azotem ¹⁵N, a następnie przeniesiono na pożywkę z ¹⁴N. DNA rozdzielano przez wirowanie w gradiencie gęstości.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jakie pasma DNA (ciężkie, pośrednie, lekkie) i w jakich proporcjach uzyskano po dwóch pokoleniach.",
+     "odpowiedz": "Połowa DNA pośredniego (¹⁵N/¹⁴N), połowa lekkiego (¹⁴N/¹⁴N); brak ciężkiego.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, który wynik wykluczył replikację konserwatywną.",
+     "odpowiedz": "Po pierwszym pokoleniu całe DNA miało gęstość pośrednią — przy replikacji konserwatywnej powstałyby pasma ciężkie i lekkie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-podzialy-09",
+   "dzial": "podzialy"
+  },
+  {
+   "tytul": "Nić opóźniona",
+   "material": "Schemat (opis, autorski). Widełki replikacyjne przesuwają się w prawo. Górna nić matrycowa biegnie 3′→5′ (od lewej do prawej), dolna 5′→3′.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż, która nowa nić (na matrycy górnej czy dolnej) jest syntetyzowana w sposób ciągły.",
+     "odpowiedz": "Na matrycy górnej (3′→5′) — nowa nić rośnie 5′→3′ w kierunku ruchu widełek (nić wiodąca).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego na drugiej matrycy potrzebne są liczne startery.",
+     "odpowiedz": "Synteza przebiega fragmentami (Okazaki) w kierunku przeciwnym do ruchu widełek — każdy fragment wymaga osobnego startera RNA.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-podzialy-10",
+   "dzial": "podzialy"
+  },
+  {
+   "tytul": "Apoptoza w rozwoju",
+   "material": "Tekst (autorski). U zarodka myszy z zablokowaną aktywnością kaspaz palce kończyn pozostają połączone błoną.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj wniosek.",
+     "odpowiedz": "Do rozdzielenia palców potrzebna jest apoptoza (zależna od kaspaz) komórek błony między palcami.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "porownaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedną różnicę między apoptozą a nekrozą.",
+     "odpowiedz": "Apoptoza nie wywołuje stanu zapalnego (komórka obkurcza się i rozpada na ciałka apoptotyczne), a nekroza — tak (komórka pęcznieje i pęka).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-podzialy-11",
+   "dzial": "podzialy"
+  },
+  {
+   "tytul": "Mitoza czy mejoza w cyklach",
+   "material": "Tekst (autorski). U glonu zawłotni (organizm haploidalny) zygota dzieli się mejotycznie. U człowieka mejoza zachodzi podczas wytwarzania gamet, a u paprotki — podczas wytwarzania zarodników.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Nazwij typy mejozy w każdym przykładzie.",
+     "odpowiedz": "Zawłotnia — zygotyczna; człowiek — gametyczna; paprotka — sporyczna.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego u zawłotni gamety powstają przez mitozę.",
+     "odpowiedz": "Organizm jest haploidalny — gamety (n) powstają z komórek haploidalnych, które nie mogą przejść mejozy.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-podzialy-12",
+   "dzial": "podzialy"
+  }
+ ]
+}
