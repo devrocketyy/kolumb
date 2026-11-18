@@ -189,6 +189,110 @@
      "poprawna": "A",
      "wyjasnienie": "Homozygoty giną.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8ade7cf4",
+     "pytanie": "Prawdopodobieństwo uzyskania genotypu AaBb z krzyżówki AaBb × AaBb wynosi:",
+     "odpowiedzi": [
+      "4/16",
+      "2/16",
+      "1/16",
+      "9/16"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "1/2 × 1/2.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p41066ea8",
+     "pytanie": "Z krzyżówki Aa × aa uzyskuje się fenotypy w stosunku:",
+     "odpowiedzi": [
+      "1 : 2 : 1",
+      "3 : 1",
+      "1 : 1",
+      "9 : 7"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Krzyżówka testowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1d51a989",
+     "pytanie": "Ile typów gamet wytwarza osobnik AABbCcDD (geny niesprzężone)?",
+     "odpowiedzi": [
+      "8",
+      "4",
+      "2",
+      "16"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "2² — dwa geny heterozygotyczne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p26ce7df4",
+     "pytanie": "Prawdopodobieństwo genotypu aabbcc z AaBbCc × AaBbCc wynosi:",
+     "odpowiedzi": [
+      "1/32",
+      "1/64",
+      "1/16",
+      "1/8"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "(1/4)³.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1ee48f44",
+     "pytanie": "W F2 krzyżówki jednogenowej z dominacją zupełną homozygoty stanowią:",
+     "odpowiedzi": [
+      "100%",
+      "50%",
+      "75%",
+      "25%"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "AA + aa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8773240b",
+     "pytanie": "Stosunek 1 : 2 : 1 fenotypów w F2 wskazuje na:",
+     "odpowiedzi": [
+      "geny sprzężone",
+      "dominację niezupełną",
+      "epistazę",
+      "dominację zupełną"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Heterozygota pośrednia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p20304829",
+     "pytanie": "Osobnik o fenotypie dominującym skrzyżowany z recesywnym dał wyłącznie potomstwo dominujące. Jego genotyp to:",
+     "odpowiedzi": [
+      "AA",
+      "Aa",
+      "nie da się ustalić",
+      "aa"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Brak recesywnych w potomstwie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa3748222",
+     "pytanie": "Zgodnie z II prawem Mendla dziedziczą się niezależnie geny leżące:",
+     "odpowiedzi": [
+      "na różnych parach chromosomów",
+      "w mitochondriach",
+      "blisko siebie na jednym chromosomie",
+      "na chromosomie X"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Niezależna segregacja.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -643,6 +747,71 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "XᴴXʰ.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf36d1c5b",
+     "pytanie": "Kobieta nosicielka daltonizmu i mężczyzna daltonista. Prawdopodobieństwo córki daltonistki wśród córek wynosi:",
+     "odpowiedzi": [
+      "0%",
+      "100%",
+      "50%",
+      "25%"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "XᴰXᵈ × XᵈY → córki XᴰXᵈ lub XᵈXᵈ.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pca3d648b",
+     "pytanie": "Chory na hemofilię ojciec przekazuje allel hemofilii:",
+     "odpowiedzi": [
+      "połowie córek",
+      "wszystkim synom",
+      "wszystkim córkom",
+      "nikomu"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Córki dostają jego X.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p80baef4c",
+     "pytanie": "Cechy holandryczne dziedziczą:",
+     "odpowiedzi": [
+      "wszyscy synowie ojca z tą cechą",
+      "wszystkie córki chorego ojca",
+      "dzieci po matce",
+      "połowa dzieci"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Chromosom Y.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p39a4d72b",
+     "pytanie": "Zdrowa nienosicielka i chory na chorobę recesywną sprzężoną z X mężczyzna. Prawdopodobieństwo chorego dziecka:",
+     "odpowiedzi": [
+      "100%",
+      "0%",
+      "50%",
+      "25%"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Córki — nosicielki, synowie — zdrowi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0bce123d",
+     "pytanie": "Łysienie androgenowe jest przykładem cechy:",
+     "odpowiedzi": [
+      "związanej z płcią (autosomalnej, zależnej od hormonów)",
+      "recesywnej sprzężonej z chromosomem X",
+      "holandrycznej (genu na chromosomie Y)",
+      "mitochondrialnej (dziedziczonej po matce)"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Ujawnia się zależnie od płci.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
