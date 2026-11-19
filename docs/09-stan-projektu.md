@@ -32,8 +32,8 @@ Link właściciela: https://app.indexlab.pl/?klucz=ni-D4DOaRe8m (publikacja: `do
 | | Zrobione | Plan |
 |---|---|---|
 | Działy / podrozdziały | 13 / **71 z 71** | 13 / 71 |
-| Fiszki | 3018 (+ wersje odwrócone) | ~3620 |
-| Pytania ABCD | 1330 | ~1500 |
+| Fiszki | 3090 (+ wersje odwrócone) | ~3620 |
+| Pytania ABCD | 1386 | ~1500 |
 | Zadania autorskie | 909 (471 wiązek) | ~920 |
 | Omówienia matur CKE | 6 arkuszy, 295 zadań | ~11 arkuszy |
 
@@ -45,8 +45,8 @@ Link właściciela: https://app.indexlab.pl/?klucz=ni-D4DOaRe8m (publikacja: `do
 ## 2. Co jeszcze trzeba zrobić
 
 ### Biologia — treści
-1. Pytania ABCD: jeszcze około 170.
-2. Fiszki: jeszcze około 600.
+1. Pytania ABCD: jeszcze około 115.
+2. Fiszki: jeszcze około 530.
 3. Zadania autorskie: plan praktycznie osiągnięty (909).
    - Najwięcej brakuje w: mikroorganizmach, zwierzętach, ewolucji i ekologii, biotechnologii.
 4. Arkusze CKE:

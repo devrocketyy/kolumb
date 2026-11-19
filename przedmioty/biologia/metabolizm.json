@@ -64,6 +64,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
     },
     {
+     "id": "ff40695ae",
+     "przod": "ATP a skurcz mięśnia",
+     "tyl": "ATP dostarcza energii do ruchu główek miozyny i umożliwia ich odłączenie od aktyny; bez ATP — sztywność (stężenie pośmiertne).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
      "id": "fbb7feacb",
      "przod": "Wyjaśnij pojęcie: metabolizm",
      "tyl": "Ogół reakcji chemicznych zachodzących w organizmie, połączonych z przemianami energii — obejmuje anabolizm i katabolizm.",
@@ -259,6 +265,12 @@
      "id": "fcb9de495",
      "przod": "Rozpoznaj: Świetliki wytwarzają światło w reakcji utleniania lucyferyny przez lucyferazę z udziałem ATP.",
      "tyl": "Bioluminescencja a ATP",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fc4c600de",
+     "przod": "Rozpoznaj: ATP dostarcza energii do ruchu główek miozyny i umożliwia ich odłączenie od aktyny; bez ATP — sztywność (stężenie pośmiertne).",
+     "tyl": "ATP a skurcz mięśnia",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.1–2"
     },
     {
@@ -515,6 +527,19 @@
      "poprawna": "C",
      "wyjasnienie": "ATP → ADP + Pᵢ.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2c406388",
+     "pytanie": "Stężenie pośmiertne mięśni wynika z braku:",
+     "odpowiedzi": [
+      "ATP",
+      "wapnia",
+      "tlenu we krwi",
+      "miozyny"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Główki miozyny nie odłączają się.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -612,6 +637,12 @@
      "id": "ffed9e698",
      "przod": "Katalaza — znaczenie",
      "tyl": "Rozkłada toksyczny nadtlenek wodoru (produkt uboczny metabolizmu) do wody i tlenu — jeden z najszybszych enzymów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f3393d37c",
+     "przod": "Pepsyna, trypsyna, chymotrypsyna — typ",
+     "tyl": "Endopeptydazy — przecinają wiązania peptydowe wewnątrz łańcucha; karboksypeptydaza i aminopeptydazy (egzopeptydazy) odcinają aminokwasy z końców.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
     },
     {
@@ -1089,6 +1120,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
     },
     {
+     "id": "fcd1df236",
+     "przod": "Rozpoznaj: Endopeptydazy — przecinają wiązania peptydowe wewnątrz łańcucha; karboksypeptydaza i aminopeptydazy (egzopeptydazy) odcinają aminokwasy z końców.",
+     "tyl": "Pepsyna, trypsyna, chymotrypsyna — typ",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
      "id": "f03f0a6a3",
      "przod": "Podaj nazwę pojęcia: Biokatalizator (najczęściej białko) przyspieszający reakcję chemiczną przez obniżenie energii aktywacji; sam nie zużywa się w reakcji.",
      "tyl": "enzym",
@@ -1496,6 +1533,19 @@
      "poprawna": "B",
      "wyjasnienie": "Więcej centrów aktywnych.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb3f78190",
+     "pytanie": "Enzymy odcinające aminokwasy z końców łańcucha to:",
+     "odpowiedzi": [
+      "egzopeptydazy",
+      "lipazy",
+      "endopeptydazy",
+      "amylazy"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Np. karboksypeptydaza.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -1659,6 +1709,12 @@
      "id": "f76fe7011",
      "przod": "RuBP",
      "tyl": "Rybulozo-1,5-bisfosforan — pięciowęglowy akceptor CO₂ w cyklu Calvina; regenerowany w każdym obrocie cyklu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fc9543f76",
+     "przod": "Stroma a tylakoid — co gdzie?",
+     "tyl": "Tylakoid: fotosystemy, łańcuch transportu elektronów, syntaza ATP, fotoliza wody; stroma: cykl Calvina, DNA, rybosomy, skrobia.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
     },
     {
@@ -2574,6 +2630,19 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
+     "id": "pd5687096",
+     "pytanie": "Syntaza ATP w chloroplaście znajduje się w:",
+     "odpowiedzi": [
+      "cytozolu",
+      "zewnętrznej otoczce",
+      "stromie",
+      "błonie tylakoidu"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Gradient protonów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
      "id": "p9efb4e85",
      "pytanie": "Tlen uwalniany w fotosyntezie pochodzi z:",
      "odpowiedzi": [
@@ -2841,6 +2910,12 @@
      "id": "f495e702e",
      "przod": "Kompleksy łańcucha oddechowego",
      "tyl": "Cztery kompleksy białkowe (I–IV) w wewnętrznej błonie mitochondrium; elektrony przechodzą przez nie na tlen, a protony są pompowane.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fd75d0499",
+     "przod": "Przenośniki elektronów w łańcuchu",
+     "tyl": "Ubichinon (koenzym Q) i cytochrom c przenoszą elektrony między kompleksami łańcucha oddechowego.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
     },
     {
@@ -3459,6 +3534,19 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
+     "id": "pbc058c48",
+     "pytanie": "Elektrony między kompleksami III i IV przenosi:",
+     "odpowiedzi": [
+      "NAD⁺",
+      "cytochrom c",
+      "ATP",
+      "FAD"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Przenośnik białkowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
      "id": "p97734cef",
      "pytanie": "Glikoliza zachodzi w:",
      "odpowiedzi": [
@@ -3623,6 +3711,12 @@
      "id": "f2bca1b3b",
      "przod": "Fermentacja alkoholowa — produkty pośrednie",
      "tyl": "Pirogronian → aldehyd octowy (+ CO₂) → etanol (z udziałem NADH).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "feb5f1332",
+     "przod": "Fermentacja w kuchni — przykłady",
+     "tyl": "Pieczywo na zakwasie (bakterie mlekowe i drożdże), kefir (bakterie i drożdże), kombucha, kimchi.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
     },
     {
@@ -3827,6 +3921,12 @@
      "id": "f0951ef7e",
      "przod": "Rozpoznaj: Pirogronian → aldehyd octowy (+ CO₂) → etanol (z udziałem NADH).",
      "tyl": "Fermentacja alkoholowa — produkty pośrednie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "fc09b9fd2",
+     "przod": "Rozpoznaj: Pieczywo na zakwasie (bakterie mlekowe i drożdże), kefir (bakterie i drożdże), kombucha, kimchi.",
+     "tyl": "Fermentacja w kuchni — przykłady",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
     },
     {
