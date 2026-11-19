@@ -250,9 +250,45 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
     },
     {
+     "id": "ff0648d06",
+     "przod": "Polecenie „określ”",
+     "tyl": "Podaj krótką, konkretną odpowiedź (cechę, rodzaj, kierunek) — bez rozbudowanego uzasadnienia, chyba że polecenie go wymaga.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f1f7c1d4e",
+     "przod": "Polecenie „porównaj”",
+     "tyl": "Wskaż podobieństwa lub różnice dotyczące tej samej cechy obu obiektów (np. „A ma…, a B ma…”).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fbda5a031",
+     "przod": "Polecenie „rozstrzygnij”",
+     "tyl": "Wybierz jedną z możliwości i zawsze uzasadnij wybór — samo rozstrzygnięcie zwykle nie daje punktu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fbbbb3be4",
+     "przod": "Polecenie „zaplanuj doświadczenie”",
+     "tyl": "Opisz próbę badawczą i kontrolną (jedna różnica), warunki stałe, sposób pomiaru i odczytu wyników.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
      "id": "fa7d455f0",
      "przod": "Rozpoznaj: Opisanie każdego obiektu osobno, bez zestawienia tej samej cechy (np. „mitoza daje 2 komórki; mejoza zachodzi w gonadach”).",
      "tyl": "Typowy błąd w poleceniu „porównaj”",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fba5e9320",
+     "przod": "Rozpoznaj: Wskaż podobieństwa lub różnice dotyczące tej samej cechy obu obiektów (np. „A ma…, a B ma…”).",
+     "tyl": "Polecenie „porównaj”",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f63df4295",
+     "przod": "Rozpoznaj: Opisz próbę badawczą i kontrolną (jedna różnica), warunki stałe, sposób pomiaru i odczytu wyników.",
+     "tyl": "Polecenie „zaplanuj doświadczenie”",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
     }
    ],
@@ -398,6 +434,32 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Hipoteza — twierdzenie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p98cbfec9",
+     "pytanie": "W poleceniu „porównaj” należy:",
+     "odpowiedzi": [
+      "opisać tylko jeden obiekt",
+      "podać definicję pojęcia",
+      "narysować schemat",
+      "zestawić tę samą cechę obu obiektów"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Ta sama cecha, dwa obiekty.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbf57d288",
+     "pytanie": "Polecenie „rozstrzygnij” wymaga:",
+     "odpowiedzi": [
+      "obliczenia wyniku",
+      "podania przykładu",
+      "tylko wyboru odpowiedzi",
+      "wyboru i uzasadnienia"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Uzasadnienie obowiązkowe.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -902,6 +964,32 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Do weryfikacji.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8c4a3af5",
+     "pytanie": "Doświadczenie wykonano bez próby kontrolnej. Jaki jest główny problem?",
+     "odpowiedzi": [
+      "zabraknie zmiennej niezależnej",
+      "nie da się ocenić wpływu badanego czynnika",
+      "wyniki będą zbyt dokładne",
+      "nie da się zmierzyć wyników"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Brak punktu odniesienia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc0b15727",
+     "pytanie": "Warunki stałe w doświadczeniu to:",
+     "odpowiedzi": [
+      "wyniki pomiarów",
+      "czynniki zmieniane przez badacza",
+      "hipotezy alternatywne",
+      "czynniki jednakowe we wszystkich próbach"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Eliminacja wpływu innych czynników.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

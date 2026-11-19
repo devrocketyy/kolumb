@@ -547,6 +547,56 @@
    ],
    "id": "b-genetyka-22",
    "dzial": "genetyka"
+  },
+  {
+   "tytul": "Geny sprzężone u pomidora",
+   "material": "Wyniki (autorskie). Pomidor heterozygotyczny AaBb (allele AB na jednym chromosomie) skrzyżowano z aabb. Potomstwo: AaBb — 440; aabb — 430; Aabb — 65; aaBb — 65.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość między genami.",
+     "odpowiedz": "(65 + 65)/1000 × 100% = 13% → 13 cM.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego klasy Aabb i aaBb są najmniej liczne.",
+     "odpowiedz": "Powstały z gamet zrekombinowanych w wyniku crossing-over, który między blisko położonymi genami zachodzi rzadko.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-23",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Choroba mitochondrialna — rodowód",
+   "material": "Opis (autorski). Matka chora na chorobę mitochondrialną ma troje dzieci; wszystkie mają objawy o różnym nasileniu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego wszystkie dzieci odziedziczyły chorobę.",
+     "odpowiedz": "Mitochondria (i mtDNA) zarodek otrzymuje wyłącznie z komórki jajowej matki.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego nasilenie objawów jest różne.",
+     "odpowiedz": "Heteroplazmia — komórki zawierają różne proporcje prawidłowego i zmutowanego mtDNA, losowo rozdzielane do komórek potomnych.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-24",
+   "dzial": "genetyka"
   }
  ]
 }

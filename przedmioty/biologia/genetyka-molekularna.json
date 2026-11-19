@@ -276,6 +276,19 @@
      "poprawna": "C",
      "wyjasnienie": "Niekodujący.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcf2c0438",
+     "pytanie": "Przesunięcie ramki odczytu powoduje:",
+     "odpowiedzi": [
+      "mutacja cicha",
+      "zamiana kodonu na synonimiczny",
+      "insercja jednego nukleotydu",
+      "substytucja jednego nukleotydu"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Kod trójkowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -689,6 +702,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
     },
     {
+     "id": "f51024e8d",
+     "przod": "Czynnik uwalniający",
+     "tyl": "Białko rozpoznające kodon STOP — powoduje uwolnienie gotowego peptydu i rozpad kompleksu translacyjnego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f6c5e6111",
+     "przod": "Energia w translacji",
+     "tyl": "Aktywacja aminokwasów (ATP) oraz przyłączanie tRNA i przesuwanie rybosomu (GTP).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
      "id": "f07ce90b7",
      "przod": "Podaj nazwę pojęcia: Sposób zapisu informacji o kolejności aminokwasów w białku za pomocą sekwencji nukleotydów — trójek (kodonów) w mRNA.",
      "tyl": "kod genetyczny",
@@ -752,6 +777,18 @@
      "id": "f210ddfa1",
      "przod": "Rozpoznaj: Fragment na początku białka kierujący rybosom do siateczki szorstkiej (białka wydzielnicze, błonowe); zwykle potem wycinany.",
      "tyl": "Sekwencja sygnałowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f198f7891",
+     "przod": "Rozpoznaj: Białko rozpoznające kodon STOP — powoduje uwolnienie gotowego peptydu i rozpad kompleksu translacyjnego.",
+     "tyl": "Czynnik uwalniający",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "fbf0162af",
+     "przod": "Rozpoznaj: Aktywacja aminokwasów (ATP) oraz przyłączanie tRNA i przesuwanie rybosomu (GTP).",
+     "tyl": "Energia w translacji",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
     }
    ],
@@ -936,6 +973,19 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Białka wydzielnicze.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p91080760",
+     "pytanie": "Kodon STOP rozpoznaje:",
+     "odpowiedzi": [
+      "polimeraza RNA",
+      "tRNA z metioniną",
+      "czynnik uwalniający (białko)",
+      "syntetaza aminoacylo-tRNA"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Brak tRNA dla STOP.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

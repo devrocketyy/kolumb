@@ -320,6 +320,39 @@
    ],
    "id": "b-genetyka-molekularna-12",
    "dzial": "genetyka-molekularna"
+  },
+  {
+   "tytul": "Operon tryptofanowy",
+   "material": "Doświadczenie (autorskie). Bakterie hodowano na pożywce: A — bez tryptofanu; B — z dużą ilością tryptofanu. Mierzono ilość mRNA genów syntezy tryptofanu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ, w której pożywce ilość mRNA będzie większa.",
+     "odpowiedz": "W pożywce A (bez tryptofanu).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij mechanizm regulacji w pożywce B.",
+     "odpowiedz": "Tryptofan wiąże się z represorem (jako korepresor), aktywując go; represor przyłącza się do operatora i blokuje transkrypcję genów.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj korzyść takiej regulacji dla bakterii.",
+     "odpowiedz": "Bakteria nie zużywa energii i substratów na syntezę tryptofanu, gdy jest on dostępny w środowisku.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-genetyka-molekularna-13",
+   "dzial": "genetyka-molekularna"
   }
  ]
 }
