@@ -325,6 +325,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XV.3–5"
     },
     {
+     "id": "f1cbb1c0d",
+     "przod": "Metoda Sangera — zasada",
+     "tyl": "Synteza DNA z dodatkiem dideoksynukleotydów kończących łańcuch — fragmenty różnej długości odczytuje się po rozdziale.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XV.3–5"
+    },
+    {
+     "id": "ffc448e12",
+     "przod": "Marker wielkości DNA (drabinka)",
+     "tyl": "Mieszanina fragmentów o znanej długości nakładana obok prób w elektroforezie — wzorzec do odczytu wielkości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XV.3–5"
+    },
+    {
      "id": "f386b490b",
      "przod": "Podaj nazwę pojęcia: Jednoniciowe, komplementarne fragmenty powstające po cięciu przesuniętym restryktazą — ułatwiają łączenie DNA pociętego tym samym enzymem.",
      "tyl": "lepkie końce",
@@ -394,6 +406,12 @@
      "id": "f10133950",
      "przod": "Rozpoznaj: Płytki z tysiącami sond — jednoczesne badanie ekspresji wielu genów lub wykrywanie wariantów genetycznych.",
      "tyl": "Mikromacierze DNA",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XV.3–5"
+    },
+    {
+     "id": "f55ec629d",
+     "przod": "Rozpoznaj: Synteza DNA z dodatkiem dideoksynukleotydów kończących łańcuch — fragmenty różnej długości odczytuje się po rozdziale.",
+     "tyl": "Metoda Sangera — zasada",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XV.3–5"
     }
    ],
@@ -526,6 +544,19 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Miejsce restrykcyjne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p590d7400",
+     "pytanie": "W metodzie Sangera synteza łańcucha kończy się po wbudowaniu:",
+     "odpowiedzi": [
+      "startera",
+      "aminokwasu",
+      "dideoksynukleotydu",
+      "rybonukleotydu"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Brak 3′-OH.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -861,6 +892,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XV.10–14"
     },
     {
+     "id": "f5936c79a",
+     "przod": "Medycyna sądowa a DNA",
+     "tyl": "Profil STR z niewielkiej ilości materiału (krew, ślina, włos z cebulką) pozwala z dużym prawdopodobieństwem zidentyfikować osobę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XV.10–14"
+    },
+    {
+     "id": "fa6eedaba",
+     "przod": "Testy genetyczne a etyka",
+     "tyl": "Ochrona danych genetycznych, prawo do niewiedzy, ryzyko dyskryminacji (ubezpieczenia, praca), świadoma zgoda.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XV.10–14"
+    },
+    {
      "id": "fc66f395a",
      "przod": "Podaj nazwę pojęcia: Leczenie chorób przez wprowadzenie do komórek pacjenta prawidłowej kopii genu (lub wyłączenie wadliwego) — najczęściej za pomocą wektorów wirusowych.",
      "tyl": "terapia genowa",
@@ -888,6 +931,12 @@
      "id": "f4858318d",
      "przod": "Podaj nazwę pojęcia: Dobór leków i dawek na podstawie wariantów genów pacjenta (medycyna spersonalizowana).",
      "tyl": "farmakogenomika",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XV.10–14"
+    },
+    {
+     "id": "f7ee54bf1",
+     "przod": "Rozpoznaj: Profil STR z niewielkiej ilości materiału (krew, ślina, włos z cebulką) pozwala z dużym prawdopodobieństwem zidentyfikować osobę.",
+     "tyl": "Medycyna sądowa a DNA",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XV.10–14"
     }
    ],
@@ -955,6 +1004,19 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Komórki wytwarzają antygen.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1b8bd2cd",
+     "pytanie": "Do analizy DNA nie nadaje się:",
+     "odpowiedzi": [
+      "ślina na niedopałku papierosa",
+      "włos ścięty bez cebulki",
+      "krew z miejsca zdarzenia",
+      "włos wyrwany z cebulką"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Cebulka zawiera komórki.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

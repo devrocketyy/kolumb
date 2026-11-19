@@ -269,6 +269,57 @@
    ],
    "id": "b-genetyka-molekularna-10",
    "dzial": "genetyka-molekularna"
+  },
+  {
+   "tytul": "Kodon i antykodon",
+   "material": "Sekwencja (autorska). Fragment mRNA: 5′-AUG CCU GAA UGG UAG-3′. Kod: AUG — Met, CCU — Pro, GAA — Glu, UGG — Trp, UAG — STOP.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz sekwencję aminokwasów.",
+     "odpowiedz": "Met–Pro–Glu–Trp.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz antykodon tRNA przenoszącego glutaminian (5′→3′).",
+     "odpowiedz": "5′-UUC-3′.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Komplementarny i antyrównoległy do 5′-GAA-3′.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, ile nukleotydów ma fragment nici matrycowej DNA odpowiadający temu mRNA.",
+     "odpowiedz": "15.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-genetyka-molekularna-11",
+   "dzial": "genetyka-molekularna"
+  },
+  {
+   "tytul": "Gen a białko u bakterii i człowieka",
+   "material": "Opis (autorski). Ten sam ludzki gen wprowadzono do bakterii: A — w postaci genomowego DNA; B — w postaci cDNA. Aktywne białko powstało tylko w B.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij wynik doświadczenia.",
+     "odpowiedz": "Genomowy DNA człowieka zawiera introny, których bakterie nie usuwają (brak splicingu); cDNA powstało z dojrzałego mRNA i nie ma intronów.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-genetyka-molekularna-12",
+   "dzial": "genetyka-molekularna"
   }
  ]
 }

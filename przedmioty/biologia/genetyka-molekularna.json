@@ -100,6 +100,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
     },
     {
+     "id": "f6a915031",
+     "przod": "Rama odczytu",
+     "tyl": "Sposób podziału sekwencji na kolejne trójki od kodonu START; przesunięcie o 1–2 nukleotydy zmienia wszystkie dalsze kodony.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "fa3f1dc87",
+     "przod": "Region nieulegający translacji (UTR)",
+     "tyl": "Fragmenty mRNA przed kodonem START (5′UTR) i za kodonem STOP (3′UTR) — wpływają na stabilność i wydajność translacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
      "id": "ff6d5b9ba",
      "przod": "Podaj nazwę pojęcia: Odcinek DNA zawierający informację o budowie produktu — białka (łańcucha polipeptydowego) lub funkcjonalnego RNA (rRNA, tRNA), wraz z sekwencjami regulatorowymi.",
      "tyl": "gen",
@@ -151,6 +163,12 @@
      "id": "f95a0876c",
      "przod": "Rozpoznaj: Niefunkcjonalna kopia genu, która utraciła zdolność kodowania białka wskutek mutacji.",
      "tyl": "Pseudogen",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "fc5bdd849",
+     "przod": "Rozpoznaj: Sposób podziału sekwencji na kolejne trójki od kodonu START; przesunięcie o 1–2 nukleotydy zmienia wszystkie dalsze kodony.",
+     "tyl": "Rama odczytu",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
     }
    ],
@@ -244,6 +262,19 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Utrata funkcji.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p781aac1e",
+     "pytanie": "5′UTR to fragment mRNA:",
+     "odpowiedzi": [
+      "kodujący pierwszy aminokwas",
+      "za kodonem STOP",
+      "przed kodonem START",
+      "usuwany w splicingu"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Niekodujący.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -345,6 +376,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
     },
     {
+     "id": "f5b97bd36",
+     "przod": "Alternatywny splicing — znaczenie",
+     "tyl": "Z jednego genu powstaje kilka białek — zwiększa różnorodność białek przy ograniczonej liczbie genów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "f587f789b",
+     "przod": "Odwrotna transkrypcja w telomerazie",
+     "tyl": "Telomeraza zawiera własny RNA, na którego matrycy dobudowuje DNA telomerów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
      "id": "f845b87fc",
      "przod": "Podaj nazwę pojęcia: Synteza RNA na matrycy jednej nici DNA przez polimerazę RNA, zgodnie z zasadą komplementarności (A–U, T–A, G–C, C–G).",
      "tyl": "transkrypcja",
@@ -378,6 +421,12 @@
      "id": "f8609a818",
      "przod": "Rozpoznaj: Sekwencja DNA na końcu genu, przy której polimeraza RNA kończy transkrypcję i uwalnia RNA.",
      "tyl": "Terminator",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "fdaf7fb5d",
+     "przod": "Rozpoznaj: Z jednego genu powstaje kilka białek — zwiększa różnorodność białek przy ograniczonej liczbie genów.",
+     "tyl": "Alternatywny splicing — znaczenie",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
     }
    ],
@@ -484,6 +533,19 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Geny kodujące białka.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcbe42c34",
+     "pytanie": "Alternatywny splicing pozwala na:",
+     "odpowiedzi": [
+      "replikację RNA w jądrze",
+      "usunięcie promotora genu",
+      "powstanie kilku białek z jednego genu",
+      "powielenie genu w genomie"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Różne zestawy eksonów.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

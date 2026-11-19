@@ -217,6 +217,31 @@
    ],
    "id": "b-biotechnologia-09",
    "dzial": "biotechnologia"
+  },
+  {
+   "tytul": "Profil DNA w kryminalistyce",
+   "material": "Opis (autorski). Na miejscu przestępstwa znaleziono krew. Analizowano 5 loci STR; profil śladu był zgodny w każdym locus z profilem podejrzanego X i różnił się od profilu podejrzanego Y w trzech loci.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj wniosek.",
+     "odpowiedz": "Ślad mógł pozostawić podejrzany X; podejrzany Y jest wykluczony.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego bada się wiele loci, a nie jeden.",
+     "odpowiedz": "Pojedynczy wariant STR może występować u wielu osób; zgodność w wielu loci jednocześnie jest bardzo mało prawdopodobna przypadkowo.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-biotechnologia-10",
+   "dzial": "biotechnologia"
   }
  ]
 }

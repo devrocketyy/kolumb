@@ -112,6 +112,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
     },
     {
+     "id": "f5e2491ff",
+     "przod": "Szczepionki przeciw wirusom — przykłady",
+     "tyl": "Odra, świnka, różyczka, polio, WZW B, HPV, grypa, COVID-19.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f4c41d2e0",
+     "przod": "Leki przeciwwirusowe — zasada",
+     "tyl": "Hamują etapy specyficzne dla wirusa (np. odwrotną transkryptazę HIV, uwalnianie wirusa grypy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
      "id": "fd02eb1e1",
      "przod": "Rozpoznaj: Kwas nukleinowy (DNA lub RNA) otoczony białkowym kapsydem; niektóre mają osłonkę lipidową z glikoproteinami (np. HIV, grypa, SARS-CoV-2).",
      "tyl": "Budowa wirusa",
@@ -151,6 +163,18 @@
      "id": "f6d9a0633",
      "przod": "Rozpoznaj: Epidemia obejmująca wiele krajów i kontynentów (np. grypa hiszpanka, COVID-19).",
      "tyl": "Pandemia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f2c72f70d",
+     "przod": "Rozpoznaj: Odra, świnka, różyczka, polio, WZW B, HPV, grypa, COVID-19.",
+     "tyl": "Szczepionki przeciw wirusom — przykłady",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f15d9e775",
+     "przod": "Rozpoznaj: Hamują etapy specyficzne dla wirusa (np. odwrotną transkryptazę HIV, uwalnianie wirusa grypy).",
+     "tyl": "Leki przeciwwirusowe — zasada",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
     }
    ],
@@ -284,6 +308,19 @@
      "poprawna": "C",
      "wyjasnienie": "Wstrzyknięcie.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p19dd5bf9",
+     "pytanie": "Przeciw której chorobie istnieje szczepionka?",
+     "odpowiedzi": [
+      "WZW typu B",
+      "opryszczka",
+      "AIDS",
+      "przeziębienie (wszystkie typy)"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Szczepienie obowiązkowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -414,6 +451,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
     },
     {
+     "id": "fb40f727c",
+     "przod": "Antybiotyk bakteriobójczy a bakteriostatyczny",
+     "tyl": "Bakteriobójczy zabija bakterie (np. penicylina — ściana); bakteriostatyczny hamuje ich namnażanie (np. tetracyklina — rybosomy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f6fc85d21",
+     "przod": "Penicylina — mechanizm",
+     "tyl": "Hamuje syntezę mureiny — bakterie mają uszkodzoną ścianę i pękają (działa na dzielące się bakterie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
      "id": "f7e988d31",
      "przod": "Rozpoznaj: G+ — gruba warstwa mureiny, barwią się na fioletowo; G− — cienka mureina i błona zewnętrzna, barwią się na różowo; różna wrażliwość na antybiotyki.",
      "tyl": "Gram-dodatnie i Gram-ujemne",
@@ -477,6 +526,12 @@
      "id": "fdd9616e7",
      "przod": "Rozpoznaj: Termofile (gorące źródła), halofile (słone jeziora), acydofile (kwaśne środowiska) — źródło enzymów do biotechnologii.",
      "tyl": "Bakterie ekstremofilne — przykłady",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "fa67d3f0e",
+     "przod": "Rozpoznaj: Hamuje syntezę mureiny — bakterie mają uszkodzoną ścianę i pękają (działa na dzielące się bakterie).",
+     "tyl": "Penicylina — mechanizm",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
     }
    ],
@@ -623,6 +678,32 @@
      "poprawna": "A",
      "wyjasnienie": "Mikrobiom.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "peda61323",
+     "pytanie": "Penicylina hamuje:",
+     "odpowiedzi": [
+      "replikację DNA",
+      "syntezę białek",
+      "oddychanie",
+      "syntezę ściany komórkowej"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Mureina.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "ped40aa49",
+     "pytanie": "Na komórki człowieka penicylina nie działa, ponieważ nie mają one:",
+     "odpowiedzi": [
+      "rybosomów",
+      "błony komórkowej",
+      "ściany z mureiny",
+      "mitochondriów"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Selektywność.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -753,6 +834,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
     },
     {
+     "id": "fc443d8c2",
+     "przod": "Rzęsistek pochwowy",
+     "tyl": "Pasożytniczy wiciowiec przenoszony drogą płciową — wywołuje rzęsistkowicę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "f4b5142a0",
+     "przod": "Lamblia (giardia)",
+     "tyl": "Wiciowiec pasożytujący w jelicie cienkim — biegunki; zarażenie przez cysty w wodzie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
      "id": "f8452f39a",
      "przod": "Podaj nazwę pojęcia: Eukarionty, które nie są roślinami, zwierzętami ani grzybami — głównie jednokomórkowe lub proste wielokomórkowe; grupa niejednorodna (parafiletyczna).",
      "tyl": "protisty",
@@ -816,6 +909,12 @@
      "id": "fae8aefa3",
      "przod": "Rozpoznaj: Fitoplankton (okrzemki, bruzdnice, zielenice) wytwarza znaczną część tlenu atmosferycznego i stanowi podstawę sieci pokarmowych mórz i jezior.",
      "tyl": "Glony jako producenci",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
+    },
+    {
+     "id": "ffe10bcfb",
+     "przod": "Rozpoznaj: Wiciowiec pasożytujący w jelicie cienkim — biegunki; zarażenie przez cysty w wodzie.",
+     "tyl": "Lamblia (giardia)",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VIII"
     }
    ],
@@ -936,6 +1035,19 @@
      "poprawna": "B",
      "wyjasnienie": "Krzemionka.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3b7d2a9e",
+     "pytanie": "Lamblioza przenosi się głównie przez:",
+     "odpowiedzi": [
+      "kontakt skórny z chorym",
+      "drogę kropelkową w powietrzu",
+      "cysty w zanieczyszczonej wodzie",
+      "ukłucie zakażonego owada"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Droga pokarmowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -1048,6 +1160,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
     },
     {
+     "id": "f401fa89d",
+     "przod": "Konidia",
+     "tyl": "Bezpłciowe zarodniki grzybów workowych (np. pędzlaka, kropidlaka) odcinane na końcach strzępek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "f811cc983",
+     "przod": "Grzyby a obieg węgla",
+     "tyl": "Rozkładając materię organiczną, uwalniają CO₂ do atmosfery w oddychaniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
      "id": "f6d7d703f",
      "przod": "Podaj nazwę pojęcia: Zbita grzybnia tworząca struktury wytwarzające zarodniki (np. kapelusz z trzonem u podstawczaków).",
      "tyl": "owocnik",
@@ -1093,6 +1217,18 @@
      "id": "f39b8c047",
      "przod": "Rozpoznaj: Higiena, suszenie stóp, przewiewne obuwie, klapki na basenie, niepożyczanie ręczników.",
      "tyl": "Grzybica skóry — profilaktyka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "f558a3284",
+     "przod": "Rozpoznaj: Bezpłciowe zarodniki grzybów workowych (np. pędzlaka, kropidlaka) odcinane na końcach strzępek.",
+     "tyl": "Konidia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "ff6625259",
+     "przod": "Rozpoznaj: Rozkładając materię organiczną, uwalniają CO₂ do atmosfery w oddychaniu.",
+     "tyl": "Grzyby a obieg węgla",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
     }
    ],
@@ -1212,6 +1348,19 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Symbioza.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p48eec9f9",
+     "pytanie": "Konidia to:",
+     "odpowiedzi": [
+      "komórki drożdży",
+      "zarodniki płciowe",
+      "bezpłciowe zarodniki grzybów",
+      "owocniki"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Rozmnażanie bezpłciowe.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

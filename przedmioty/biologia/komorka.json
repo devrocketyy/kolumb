@@ -568,6 +568,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
     },
     {
+     "id": "f6b7fe5c2",
+     "przod": "Akwaporyny",
+     "tyl": "Białkowe kanały w błonie ułatwiające szybki przepływ wody (dyfuzja wspomagana); np. w kanalikach nerkowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "febc3ecc2",
+     "przod": "Transport wtórnie aktywny (symport)",
+     "tyl": "Transport substancji wbrew gradientowi z wykorzystaniem gradientu innego jonu (np. glukoza razem z Na⁺ w jelicie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f1e77c964",
+     "przod": "Pinocytoza",
+     "tyl": "Pobieranie przez komórkę kropli płynu w pęcherzykach („picie komórkowe”).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
      "id": "fea733967",
      "przod": "Wyjaśnij pojęcie: model płynnej mozaiki",
      "tyl": "Model budowy błony (Singer i Nicolson, 1972): płynna dwuwarstwa fosfolipidowa, w której zanurzone są i przemieszczają się białka (integralne i powierzchniowe).",
@@ -946,6 +964,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
     },
     {
+     "id": "fc3d55bca",
+     "przod": "Rozpoznaj: Białkowe kanały w błonie ułatwiające szybki przepływ wody (dyfuzja wspomagana); np. w kanalikach nerkowych.",
+     "tyl": "Akwaporyny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
+     "id": "f21931349",
+     "przod": "Rozpoznaj: Pobieranie przez komórkę kropli płynu w pęcherzykach („picie komórkowe”).",
+     "tyl": "Pinocytoza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.2–4"
+    },
+    {
      "id": "fce43f7db",
      "przod": "Rozpoznaj: Fosfolipidy (dwuwarstwa), białka (integralne, powierzchniowe), cholesterol (u zwierząt), glikolipidy i glikoproteiny (glikokaliks po stronie zewnętrznej).",
      "tyl": "Składniki błony komórkowej",
@@ -1119,6 +1149,32 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Napływ wody.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf31514d7",
+     "pytanie": "Glukoza jest wchłaniana do enterocytów razem z jonami Na⁺. To przykład:",
+     "odpowiedzi": [
+      "dyfuzji prostej",
+      "osmozy",
+      "transportu wtórnie aktywnego",
+      "pinocytozy"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Symport.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p83959874",
+     "pytanie": "Akwaporyny umożliwiają transport:",
+     "odpowiedzi": [
+      "glukozy",
+      "wody",
+      "białek",
+      "jonów Na⁺"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Kanały wodne.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
@@ -1836,6 +1892,24 @@
    "wymaganie": "II.8–9",
    "fiszki": [
     {
+     "id": "fd5e49be0",
+     "przod": "Chromoplasty",
+     "tyl": "Plastydy z karotenoidami — nadają barwę kwiatom i owocom (np. pomidor, marchew).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "f99de16a2",
+     "przod": "Macierz mitochondrialna",
+     "tyl": "Wnętrze mitochondrium: zachodzi reakcja pomostowa, cykl Krebsa, β-oksydacja; zawiera mtDNA i rybosomy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
+     "id": "fa00dd586",
+     "przod": "Stroma chloroplastu",
+     "tyl": "Wnętrze chloroplastu poza tylakoidami — zachodzi cykl Calvina; zawiera DNA i rybosomy 70S.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
      "id": "f53775f02",
      "przod": "Budowa mitochondrium",
      "tyl": "Dwie błony (zewnętrzna gładka, wewnętrzna pofałdowana w grzebienie), przestrzeń międzybłonowa, macierz (matriks) z DNA, rybosomami 70S i enzymami.",
@@ -2106,6 +2180,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
     },
     {
+     "id": "f14bead98",
+     "przod": "Rozpoznaj: Plastydy z karotenoidami — nadają barwę kwiatom i owocom (np. pomidor, marchew).",
+     "tyl": "Chromoplasty",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. II.8–9"
+    },
+    {
      "id": "f52ae8bd4",
      "przod": "Rozpoznaj: Dwie błony (zewnętrzna gładka, wewnętrzna pofałdowana w grzebienie), przestrzeń międzybłonowa, macierz (matriks) z DNA, rybosomami 70S i enzymami.",
      "tyl": "Budowa mitochondrium",
@@ -2241,6 +2321,32 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Pozostałe — cechy organelli.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pac7153a7",
+     "pytanie": "Czerwony kolor dojrzałego pomidora nadają:",
+     "odpowiedzi": [
+      "chromoplasty",
+      "leukoplasty",
+      "wakuole z antocyjanami",
+      "chloroplasty"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Karotenoidy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p22f4a7dd",
+     "pytanie": "Cykl Krebsa zachodzi w:",
+     "odpowiedzi": [
+      "stromie chloroplastu",
+      "cytozolu",
+      "błonie zewnętrznej mitochondrium",
+      "macierzy mitochondrium"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Matrix.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {

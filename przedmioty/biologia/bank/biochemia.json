@@ -2,6 +2,56 @@
  "dzial": "biochemia",
  "wiazki": [
   {
+   "tytul": "Wykrywanie składników pokarmu",
+   "material": "Doświadczenie (autorskie). Badano trzy produkty: A — mleko, B — ugotowany ziemniak, C — olej. Wyniki: płyn Lugola — granatowy tylko w B; odczynnik biuretowy — fioletowy tylko w A; plama na bibule — tylko po C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jaki składnik wykryto w każdym produkcie.",
+     "odpowiedz": "A — białko; B — skrobia; C — tłuszcz.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego mleko nie zabarwiło się z płynem Lugola, choć zawiera cukier.",
+     "odpowiedz": "Płyn Lugola wykrywa skrobię, a w mleku jest disacharyd — laktoza.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-biochemia-01",
+   "dzial": "biochemia"
+  },
+  {
+   "tytul": "Denaturacja białka jaja",
+   "material": "Doświadczenie (autorskie). Do roztworu białka jaja kurzego dodano: A — NaCl (stężony); B — etanol; C — ogrzano do 90°C. Następnie do probówek dodano wodę destylowaną. Osad rozpuścił się tylko w A.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Nazwij procesy zachodzące w A oraz w B i C.",
+     "odpowiedz": "A — wysalanie (koagulacja odwracalna); B i C — denaturacja (nieodwracalna).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego denaturacja zwykle prowadzi do utraty funkcji białka.",
+     "odpowiedz": "Zniszczona zostaje struktura przestrzenna (II–IV-rzędowa), od której zależy funkcja, np. kształt centrum aktywnego enzymu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-biochemia-02",
+   "dzial": "biochemia"
+  },
+  {
    "tytul": "Woda w organizmie wielbłąda",
    "material": "Tekst (autorski). Wielbłąd może przez wiele dni nie pić wody. W garbie gromadzi tłuszcz, a nie wodę. Jego erytrocyty mają owalny kształt i wytrzymują duże zmiany stężenia osocza. Temperatura ciała wielbłąda w ciągu dnia wahać się może od 34°C do 41°C.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -34,7 +84,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-biochemia-01",
+   "id": "b-biochemia-03",
    "dzial": "biochemia"
   },
   {
@@ -61,7 +111,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-02",
+   "id": "b-biochemia-04",
    "dzial": "biochemia"
   },
   {
@@ -88,7 +138,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-03",
+   "id": "b-biochemia-05",
    "dzial": "biochemia"
   },
   {
@@ -115,7 +165,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-04",
+   "id": "b-biochemia-06",
    "dzial": "biochemia"
   },
   {
@@ -142,7 +192,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-05",
+   "id": "b-biochemia-07",
    "dzial": "biochemia"
   },
   {
@@ -169,7 +219,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-06",
+   "id": "b-biochemia-08",
    "dzial": "biochemia"
   },
   {
@@ -205,7 +255,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-biochemia-07",
+   "id": "b-biochemia-09",
    "dzial": "biochemia"
   },
   {
@@ -241,7 +291,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-biochemia-08",
+   "id": "b-biochemia-10",
    "dzial": "biochemia"
   },
   {
@@ -268,7 +318,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-09",
+   "id": "b-biochemia-11",
    "dzial": "biochemia"
   },
   {
@@ -295,7 +345,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-10",
+   "id": "b-biochemia-12",
    "dzial": "biochemia"
   },
   {
@@ -313,7 +363,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-biochemia-11",
+   "id": "b-biochemia-13",
    "dzial": "biochemia"
   },
   {
@@ -340,7 +390,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-12",
+   "id": "b-biochemia-14",
    "dzial": "biochemia"
   },
   {
@@ -376,7 +426,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-biochemia-13",
+   "id": "b-biochemia-15",
    "dzial": "biochemia"
   },
   {
@@ -403,7 +453,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-14",
+   "id": "b-biochemia-16",
    "dzial": "biochemia"
   },
   {
@@ -430,7 +480,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-15",
+   "id": "b-biochemia-17",
    "dzial": "biochemia"
   },
   {
@@ -466,7 +516,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-biochemia-16",
+   "id": "b-biochemia-18",
    "dzial": "biochemia"
   },
   {
@@ -493,7 +543,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-17",
+   "id": "b-biochemia-19",
    "dzial": "biochemia"
   },
   {
@@ -520,7 +570,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-18",
+   "id": "b-biochemia-20",
    "dzial": "biochemia"
   },
   {
@@ -547,7 +597,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-19",
+   "id": "b-biochemia-21",
    "dzial": "biochemia"
   },
   {
@@ -574,7 +624,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-20",
+   "id": "b-biochemia-22",
    "dzial": "biochemia"
   },
   {
@@ -601,7 +651,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-21",
+   "id": "b-biochemia-23",
    "dzial": "biochemia"
   },
   {
@@ -619,7 +669,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-biochemia-22",
+   "id": "b-biochemia-24",
    "dzial": "biochemia"
   },
   {
@@ -637,7 +687,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-biochemia-23",
+   "id": "b-biochemia-25",
    "dzial": "biochemia"
   },
   {
@@ -664,7 +714,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-24",
+   "id": "b-biochemia-26",
    "dzial": "biochemia"
   },
   {
@@ -682,7 +732,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-biochemia-25",
+   "id": "b-biochemia-27",
    "dzial": "biochemia"
   },
   {
@@ -709,7 +759,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-26",
+   "id": "b-biochemia-28",
    "dzial": "biochemia"
   },
   {
@@ -736,7 +786,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-27",
+   "id": "b-biochemia-29",
    "dzial": "biochemia"
   },
   {
@@ -763,7 +813,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-biochemia-28",
+   "id": "b-biochemia-30",
    "dzial": "biochemia"
   },
   {
@@ -781,7 +831,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-biochemia-29",
+   "id": "b-biochemia-31",
    "dzial": "biochemia"
   },
   {
@@ -799,7 +849,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-biochemia-30",
+   "id": "b-biochemia-32",
    "dzial": "biochemia"
   }
  ]

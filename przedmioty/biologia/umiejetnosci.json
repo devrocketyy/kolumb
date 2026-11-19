@@ -1063,6 +1063,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
     },
     {
+     "id": "f108d2eaa",
+     "przod": "Odchylenie standardowe",
+     "tyl": "Miara rozrzutu wyników wokół średniej — im większe, tym bardziej zróżnicowane pomiary.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fc6b91381",
+     "przod": "Mediana",
+     "tyl": "Wartość środkowa uporządkowanego zbioru wyników — mniej wrażliwa na wartości skrajne niż średnia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f055a751c",
+     "przod": "Korelacja a związek przyczynowy",
+     "tyl": "Współwystępowanie dwóch zmiennych nie dowodzi, że jedna jest przyczyną drugiej — może działać trzeci czynnik.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f20992013",
+     "przod": "Wartość procentowa a bezwzględna",
+     "tyl": "Wzrost z 2 do 4 to +100%, ale tylko +2 jednostki — przy interpretacji danych trzeba rozróżniać oba ujęcia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
      "id": "f6204c412",
      "przod": "Podaj nazwę pojęcia: Wartość czynnika, przy której badany proces przebiega najintensywniej (szczyt krzywej).",
      "tyl": "optimum (na wykresie)",
@@ -1102,6 +1126,24 @@
      "id": "fd1331eaa",
      "przod": "Podaj nazwę pojęcia: Szacowanie wartości pomiędzy zmierzonymi punktami na podstawie przebiegu krzywej.",
      "tyl": "interpolacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f76411247",
+     "przod": "Rozpoznaj: Miara rozrzutu wyników wokół średniej — im większe, tym bardziej zróżnicowane pomiary.",
+     "tyl": "Odchylenie standardowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f5be1d9c0",
+     "przod": "Rozpoznaj: Wartość środkowa uporządkowanego zbioru wyników — mniej wrażliwa na wartości skrajne niż średnia.",
+     "tyl": "Mediana",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f1889be8f",
+     "przod": "Rozpoznaj: Wzrost z 2 do 4 to +100%, ale tylko +2 jednostki — przy interpretacji danych trzeba rozróżniać oba ujęcia.",
+     "tyl": "Wartość procentowa a bezwzględna",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
     }
    ],
@@ -1235,6 +1277,45 @@
      "poprawna": "D",
      "wyjasnienie": "Kategorie.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p20238fdc",
+     "pytanie": "Wyniki: 3, 5, 5, 7, 30. Mediana wynosi:",
+     "odpowiedzi": [
+      "6",
+      "7",
+      "10",
+      "5"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Wartość środkowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p77e606bf",
+     "pytanie": "Jeśli odchylenia standardowe dwóch prób się nakładają, to:",
+     "odpowiedzi": [
+      "różnica może nie być istotna",
+      "różnica jest na pewno istotna",
+      "pomiary były błędne",
+      "próba kontrolna była zbędna"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Ostrożność we wnioskach.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5e468164",
+     "pytanie": "Korelacja dwóch zmiennych oznacza, że:",
+     "odpowiedzi": [
+      "zmieniają się one współzależnie",
+      "jedna jest przyczyną drugiej",
+      "nie mają ze sobą związku",
+      "badanie było błędne"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Nie dowodzi przyczynowości.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -1335,9 +1416,33 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
     },
     {
+     "id": "f377e2aac",
+     "przod": "Skala logarytmiczna na wykresie",
+     "tyl": "Kolejne podziałki rosną wielokrotnie (1, 10, 100…) — pozwala przedstawić dane obejmujące wiele rzędów wielkości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fe3fc5c71",
+     "przod": "Słupki błędów na wykresie",
+     "tyl": "Pokazują rozrzut (np. odchylenie standardowe) wokół średniej — ułatwiają ocenę wiarygodności różnic.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
      "id": "f0e1aa525",
      "przod": "Rozpoznaj: Tytuł, nagłówki kolumn z nazwą wielkości i jednostką (jednostka w nagłówku, nie przy każdej liczbie), uporządkowane wiersze.",
      "tyl": "Elementy poprawnej tabeli",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f0cafe37f",
+     "przod": "Rozpoznaj: Kolejne podziałki rosną wielokrotnie (1, 10, 100…) — pozwala przedstawić dane obejmujące wiele rzędów wielkości.",
+     "tyl": "Skala logarytmiczna na wykresie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f8ac2b956",
+     "przod": "Rozpoznaj: Pokazują rozrzut (np. odchylenie standardowe) wokół średniej — ułatwiają ocenę wiarygodności różnic.",
+     "tyl": "Słupki błędów na wykresie",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
     }
    ],
@@ -1431,6 +1536,19 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Zmienna ciągła.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf6248695",
+     "pytanie": "Na skali logarytmicznej odległość od 1 do 10 jest taka sama jak od:",
+     "odpowiedzi": [
+      "10 do 100",
+      "10 do 20",
+      "1 do 2",
+      "10 do 50"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Kolejne rzędy wielkości.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

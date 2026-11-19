@@ -824,6 +824,48 @@
    ],
    "id": "b-fizjologia-30",
    "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Grupy krwi i transfuzja",
+   "material": "Opis (autorski). Pacjent z grupą A Rh⁺ potrzebuje transfuzji. Dostępna krew: 0 Rh⁻, B Rh⁺, AB Rh⁺.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż krew, którą można podać pacjentowi w sytuacji awaryjnej. Uzasadnij.",
+     "odpowiedz": "0 Rh⁻ — erytrocyty nie mają antygenów A, B ani D, więc przeciwciała anty-B biorcy ich nie zlepią.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, co stałoby się po przetoczeniu krwi grupy B.",
+     "odpowiedz": "Przeciwciała anty-B w osoczu pacjenta zlepiłyby obce erytrocyty (aglutynacja, hemoliza) — groźna reakcja poprzetoczeniowa.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-fizjologia-31",
+   "dzial": "fizjologia"
+  },
+  {
+   "tytul": "Wazopresyna i alkohol",
+   "material": "Opis (autorski). Po spożyciu alkoholu ilość wydalanego moczu rośnie, a następnego dnia odczuwa się silne pragnienie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij te objawy.",
+     "odpowiedz": "Alkohol hamuje wydzielanie wazopresyny — mniej wody jest resorbowane w kanalikach zbiorczych, powstaje dużo rozcieńczonego moczu; organizm traci wodę (odwodnienie), co wywołuje pragnienie.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-fizjologia-32",
+   "dzial": "fizjologia"
   }
  ]
 }

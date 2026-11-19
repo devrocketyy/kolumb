@@ -496,6 +496,57 @@
    ],
    "id": "b-genetyka-20",
    "dzial": "genetyka"
+  },
+  {
+   "tytul": "Grzebienie kur",
+   "material": "Opis (autorski). Kształt grzebienia kur zależy od dwóch genów: R_P_ — orzechowy, R_pp — różyczkowy, rrP_ — groszkowy, rrpp — pojedynczy.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj stosunek fenotypów w potomstwie kur RrPp × RrPp.",
+     "odpowiedz": "9 orzechowych : 3 różyczkowe : 3 groszkowe : 1 pojedynczy.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj genotypy rodziców, z których krzyżówki powstają wyłącznie kury o grzebieniu orzechowym.",
+     "odpowiedz": "Np. RRpp × rrPP (różyczkowy × groszkowy, homozygoty).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-21",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Albinizm w rodzinie",
+   "material": "Opis (autorski). Zdrowi rodzice mają dziecko albinosa. Ich zdrowa córka poślubia albinosa.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz prawdopodobieństwo, że zdrowa córka jest nosicielką.",
+     "odpowiedz": "2/3.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wśród zdrowych dzieci heterozygot: AA : 2 Aa.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz prawdopodobieństwo, że jej pierwsze dziecko będzie albinosem.",
+     "odpowiedz": "2/3 × 1/2 = 1/3.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-22",
+   "dzial": "genetyka"
   }
  ]
 }

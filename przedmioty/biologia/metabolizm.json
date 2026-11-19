@@ -414,6 +414,24 @@
    "wymaganie": "III.3",
    "fiszki": [
     {
+     "id": "fbc90a49f",
+     "przod": "Model indukowanego dopasowania",
+     "tyl": "Centrum aktywne zmienia nieco kształt po związaniu substratu, dopasowując się do niego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "fa13937bb",
+     "przod": "Swoistość substratowa enzymu",
+     "tyl": "Enzym katalizuje reakcję tylko określonego substratu (lub grupy podobnych) dzięki kształtowi centrum aktywnego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "ffcd87d21",
+     "przod": "Proenzymy (zymogeny)",
+     "tyl": "Nieaktywne formy enzymów (np. pepsynogen, trypsynogen) aktywowane w miejscu działania — chronią komórki przed samostrawieniem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
      "id": "f06ba6565",
      "przod": "Wyjaśnij pojęcie: enzym",
      "tyl": "Biokatalizator (najczęściej białko) przyspieszający reakcję chemiczną przez obniżenie energii aktywacji; sam nie zużywa się w reakcji.",
@@ -834,6 +852,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
     },
     {
+     "id": "f2b94ee38",
+     "przod": "Rozpoznaj: Nieaktywne formy enzymów (np. pepsynogen, trypsynogen) aktywowane w miejscu działania — chronią komórki przed samostrawieniem.",
+     "tyl": "Proenzymy (zymogeny)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
      "id": "f03f0a6a3",
      "przod": "Podaj nazwę pojęcia: Biokatalizator (najczęściej białko) przyspieszający reakcję chemiczną przez obniżenie energii aktywacji; sam nie zużywa się w reakcji.",
      "tyl": "enzym",
@@ -1022,6 +1046,32 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
+     "id": "p09221294",
+     "pytanie": "Trypsynogen jest przykładem:",
+     "odpowiedzi": [
+      "inhibitora",
+      "koenzymu",
+      "hormonu",
+      "proenzymu"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Nieaktywna forma.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p40b89d83",
+     "pytanie": "Wraz ze wzrostem stężenia substratu szybkość reakcji enzymatycznej:",
+     "odpowiedzi": [
+      "rośnie do osiągnięcia maksimum",
+      "spada",
+      "rośnie bez końca",
+      "nie zmienia się"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Wysycenie enzymu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
      "id": "p7bd7b5cb",
      "pytanie": "Enzymy przyspieszają reakcje, ponieważ:",
      "odpowiedzi": [
@@ -1167,6 +1217,18 @@
      "id": "ff62d4b27",
      "przod": "Punkt wysycenia świetlnego",
      "tyl": "Natężenie światła, powyżej którego dalszy wzrost natężenia nie zwiększa intensywności fotosyntezy (ograniczają ją inne czynniki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f6b2ea492",
+     "przod": "Fotofosforylacja",
+     "tyl": "Synteza ATP w fazie zależnej od światła dzięki gradientowi protonów w poprzek błony tylakoidu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f20478083",
+     "przod": "Fotoliza wody",
+     "tyl": "Rozkład wody przy PS II: 2 H₂O → 4 H⁺ + 4 e⁻ + O₂ — źródło elektronów i tlenu.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
     },
     {
@@ -1692,6 +1754,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
     },
     {
+     "id": "f691d0ca5",
+     "przod": "Rozpoznaj: Synteza ATP w fazie zależnej od światła dzięki gradientowi protonów w poprzek błony tylakoidu.",
+     "tyl": "Fotofosforylacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
      "id": "f194e7087",
      "przod": "Podaj nazwę pojęcia: Proces anaboliczny, w którym organizmy fotoautotroficzne z CO₂ i H₂O, kosztem energii światła, wytwarzają związki organiczne (cukry), a uwalniają tlen.",
      "tyl": "fotosynteza",
@@ -1879,6 +1947,32 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
+     "id": "p4672ac8b",
+     "pytanie": "Fotoliza wody zachodzi przy fotosystemie:",
+     "odpowiedzi": [
+      "I i II jednocześnie",
+      "I",
+      "II",
+      "w stromie"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "P680.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3c593e53",
+     "pytanie": "Gradient protonów w chloroplaście powstaje w poprzek błony:",
+     "odpowiedzi": [
+      "wewnętrznej otoczki",
+      "komórkowej",
+      "tylakoidu",
+      "zewnętrznej otoczki"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wnętrze tylakoidu kwaśne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
      "id": "p9efb4e85",
      "pytanie": "Tlen uwalniany w fotosyntezie pochodzi z:",
      "odpowiedzi": [
@@ -2050,6 +2144,18 @@
      "id": "fb09b76df",
      "przod": "Beta-oksydacja",
      "tyl": "Rozkład kwasów tłuszczowych w macierzy mitochondrium do acetylo-CoA, z wytworzeniem NADH i FADH₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f878284a4",
+     "przod": "Gdzie powstaje woda w oddychaniu tlenowym?",
+     "tyl": "W łańcuchu oddechowym — tlen przyjmuje elektrony i protony (kompleks IV).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "fbbec04d6",
+     "przod": "Oddychanie a spalanie",
+     "tyl": "Oddychanie zachodzi etapami, z udziałem enzymów, a energia jest częściowo magazynowana w ATP; spalanie — gwałtownie, energia jako ciepło i światło.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
     },
     {
@@ -2530,6 +2636,19 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Mniej CO₂ na pobrany O₂.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p66658aff",
+     "pytanie": "Woda w oddychaniu tlenowym powstaje w:",
+     "odpowiedzi": [
+      "reakcji pomostowej",
+      "glikolizie",
+      "cyklu Krebsa",
+      "łańcuchu oddechowym"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Redukcja tlenu.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {

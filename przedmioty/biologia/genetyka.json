@@ -361,6 +361,45 @@
      "poprawna": "B",
      "wyjasnienie": "3 × 3.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe7d06d35",
+     "pytanie": "Z krzyżówki AaBb × Aabb (geny niesprzężone) potomstwa o fenotypie dominującym w obu cechach jest:",
+     "odpowiedzi": [
+      "3/8",
+      "1/4",
+      "9/16",
+      "1/2"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "3/4 × 1/2.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "peebec698",
+     "pytanie": "Osobnik AaBbCc wytwarza gametę ABC z prawdopodobieństwem:",
+     "odpowiedzi": [
+      "1/16",
+      "1/4",
+      "1/2",
+      "1/8"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "(1/2)³.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe2f34167",
+     "pytanie": "W krzyżówce Aa × Aa prawdopodobieństwo, że osobnik o fenotypie dominującym jest heterozygotą, wynosi:",
+     "odpowiedzi": [
+      "3/4",
+      "2/3",
+      "1/4",
+      "1/2"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "AA : 2Aa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -443,6 +482,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
     },
     {
+     "id": "f92b9898e",
+     "przod": "Geny kumulatywne (polimeryczne)",
+     "tyl": "Kilka genów o działaniu addytywnym — im więcej alleli dominujących, tym silniej wyrażona cecha (np. kolor ziarna pszenicy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "f6a9674f7",
+     "przod": "Penetracja niepełna",
+     "tyl": "Nie wszyscy nosiciele danego genotypu wykazują odpowiadający mu fenotyp.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
      "id": "fdf274ea7",
      "przod": "Rozpoznaj: A: IᴬIᴬ lub Iᴬi; B: IᴮIᴮ lub Iᴮi; AB: IᴬIᴮ; 0: ii.",
      "tyl": "Genotypy grup krwi AB0",
@@ -482,6 +533,18 @@
      "id": "f313de0d8",
      "przod": "Podaj nazwę pojęcia: Zakres fenotypów, jakie może wytworzyć dany genotyp w różnych warunkach środowiska (np. umaszczenie kota syjamskiego zależne od temperatury).",
      "tyl": "norma reakcji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "fe8268bde",
+     "przod": "Rozpoznaj: Kilka genów o działaniu addytywnym — im więcej alleli dominujących, tym silniej wyrażona cecha (np. kolor ziarna pszenicy).",
+     "tyl": "Geny kumulatywne (polimeryczne)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "f1d0f0d27",
+     "przod": "Rozpoznaj: Nie wszyscy nosiciele danego genotypu wykazują odpowiadający mu fenotyp.",
+     "tyl": "Penetracja niepełna",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
     }
    ],
@@ -588,6 +651,19 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Np. mukowiscydoza.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p710b0e68",
+     "pytanie": "Nie każdy nosiciel allelu dominującego choroby wykazuje objawy. Zjawisko to:",
+     "odpowiedzi": [
+      "epistaza",
+      "sprzężenie",
+      "kodominacja",
+      "niepełna penetracja"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Penetracja.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -1104,9 +1180,27 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
     },
     {
+     "id": "f9a6af0a3",
+     "przod": "Jak wykluczyć dziedziczenie dominujące sprzężone z X?",
+     "tyl": "Jeśli chory ojciec ma zdrową córkę (dominujący allel na X zawsze trafia do córki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
+     "id": "fd0d77b80",
+     "przod": "Proband",
+     "tyl": "Osoba, od której rozpoczęto badanie rodowodu (zwykle pierwsza zdiagnozowana w rodzinie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
      "id": "ff2429bbc",
      "przod": "Rozpoznaj: Kwadrat — mężczyzna, koło — kobieta; zamalowany — chory; pozioma linia — związek; pionowa — potomstwo; cyfry rzymskie — pokolenia.",
      "tyl": "Oznaczenia w rodowodach",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
+     "id": "fa1b90a26",
+     "przod": "Rozpoznaj: Osoba, od której rozpoczęto badanie rodowodu (zwykle pierwsza zdiagnozowana w rodzinie).",
+     "tyl": "Proband",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
     }
    ],
@@ -1187,6 +1281,19 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Rodzice heterozygotami.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pce27ef3a",
+     "pytanie": "Chory ojciec ma zdrową córkę. Wykluczono dziedziczenie:",
+     "odpowiedzi": [
+      "dominujące sprzężone z X",
+      "autosomalne dominujące",
+      "autosomalne recesywne",
+      "mitochondrialne"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Córka dostaje X ojca.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -1547,6 +1654,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
     },
     {
+     "id": "f3cc4309d",
+     "przod": "Hemofilia A",
+     "tyl": "Recesywna choroba sprzężona z X — brak czynnika krzepnięcia VIII; przedłużone krwawienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f09b80030",
+     "przod": "Dystrofia mięśniowa Duchenne’a",
+     "tyl": "Recesywna sprzężona z X — brak dystrofiny, postępujący zanik mięśni u chłopców.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "fd755574a",
+     "przod": "Albinizm",
+     "tyl": "Autosomalny recesywny brak melaniny (niedobór tyrozynazy) — jasna skóra, włosy, wrażliwość na UV.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
      "id": "fbdf7b237",
      "przod": "Rozpoznaj: Autosomalna recesywna; mutacja genu CFTR (kanał chlorkowy) — gęsty śluz w płucach, trzustce, przewodach — infekcje, zaburzenia trawienia.",
      "tyl": "Mukowiscydoza — dziedziczenie i przyczyna",
@@ -1598,6 +1723,18 @@
      "id": "f25a6687e",
      "przod": "Rozpoznaj: Nieinwazyjne: USG, testy z krwi matki (wolne DNA płodu); inwazyjne: amniopunkcja, biopsja kosmówki — badanie kariotypu i DNA.",
      "tyl": "Metody diagnostyki prenatalnej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f097dee21",
+     "przod": "Rozpoznaj: Recesywna choroba sprzężona z X — brak czynnika krzepnięcia VIII; przedłużone krwawienia.",
+     "tyl": "Hemofilia A",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f4926779e",
+     "przod": "Rozpoznaj: Autosomalny recesywny brak melaniny (niedobór tyrozynazy) — jasna skóra, włosy, wrażliwość na UV.",
+     "tyl": "Albinizm",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
     }
    ],
@@ -1743,6 +1880,32 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Przewaga heterozygot.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pddc7d722",
+     "pytanie": "Albinizm u człowieka dziedziczy się:",
+     "odpowiedzi": [
+      "recesywnie autosomalnie",
+      "dominująco autosomalnie",
+      "recesywnie z X",
+      "mitochondrialnie"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Brak melaniny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb6d64d61",
+     "pytanie": "Dystrofia mięśniowa Duchenne’a dotyczy głównie:",
+     "odpowiedzi": [
+      "obu płci równo",
+      "chłopców",
+      "tylko dorosłych",
+      "dziewczynek"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Sprzężona z X.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
