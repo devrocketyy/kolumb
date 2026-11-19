@@ -340,6 +340,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
     },
     {
+     "id": "fdf5b15d0",
+     "przod": "Polecenie „zaproponuj”",
+     "tyl": "Podaj sensowne, uzasadnione rozwiązanie (np. sposób, przyczynę) — akceptowane są różne poprawne odpowiedzi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
      "id": "fa7d455f0",
      "przod": "Rozpoznaj: Opisanie każdego obiektu osobno, bez zestawienia tej samej cechy (np. „mitoza daje 2 komórki; mejoza zachodzi w gonadach”).",
      "tyl": "Typowy błąd w poleceniu „porównaj”",
@@ -397,6 +403,12 @@
      "id": "f2c24266b",
      "przod": "Rozpoznaj: Wybierz element z pierwszej i z drugiej grupy; punkt jest tylko za poprawne oba — sprawdź, czy uzasadnienie pasuje do wybranej opcji.",
      "tyl": "Odpowiedź na matrycy „A/B + 1/2”",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f5285efe3",
+     "przod": "Rozpoznaj: Podaj sensowne, uzasadnione rozwiązanie (np. sposób, przyczynę) — akceptowane są różne poprawne odpowiedzi.",
+     "tyl": "Polecenie „zaproponuj”",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
     }
    ],
@@ -1343,6 +1355,19 @@
      "poprawna": "A",
      "wyjasnienie": "Etyka.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "ped033f5f",
+     "pytanie": "Badanie leku, w którym ani pacjent, ani lekarz nie wie, kto dostał placebo, to próba:",
+     "odpowiedzi": [
+      "podwójnie ślepa",
+      "ślepa",
+      "otwarta",
+      "kontrolna pozytywna"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Eliminacja sugestii.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -1563,6 +1588,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
     },
     {
+     "id": "fa98b96d4",
+     "przod": "Przelicznik jednostek — µm, nm",
+     "tyl": "1 mm = 1000 µm; 1 µm = 1000 nm. Bakterie mają ok. 1–5 µm, wirusy ok. 20–300 nm.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
      "id": "f6204c412",
      "przod": "Podaj nazwę pojęcia: Wartość czynnika, przy której badany proces przebiega najintensywniej (szczyt krzywej).",
      "tyl": "optimum (na wykresie)",
@@ -1650,6 +1681,12 @@
      "id": "f2b6135f6",
      "przod": "Rozpoznaj: Pojedyncze wyniki wyraźnie odbiegające od pozostałych — mogą wynikać z błędu; należy je zauważyć i rozważyć ich przyczynę, a nie ignorować bez uzasadnienia.",
      "tyl": "Wartości odstające",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f2ae7c92a",
+     "przod": "Rozpoznaj: 1 mm = 1000 µm; 1 µm = 1000 nm. Bakterie mają ok. 1–5 µm, wirusy ok. 20–300 nm.",
+     "tyl": "Przelicznik jednostek — µm, nm",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
     }
    ],
@@ -1847,6 +1884,32 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Np. CO₂ lub temperatura.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe230a304",
+     "pytanie": "Wynik wyraźnie odbiegający od pozostałych pomiarów należy:",
+     "odpowiedzi": [
+      "uznać za najważniejszy",
+      "zawsze usunąć bez komentarza",
+      "zauważyć i rozważyć jego przyczynę",
+      "pomnożyć przez dwa"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wartość odstająca.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd038e537",
+     "pytanie": "Rozstęp wyników 4, 7, 9, 15 wynosi:",
+     "odpowiedzi": [
+      "4",
+      "11",
+      "15",
+      "8,75"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "15 − 4.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -2154,6 +2217,19 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Elementy oceniane.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "peee0d3b4",
+     "pytanie": "Odczyt wartości pomiędzy zmierzonymi punktami wykresu to:",
+     "odpowiedzi": [
+      "interpolacja",
+      "korelacja",
+      "ekstrapolacja",
+      "średnia"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Wewnątrz zakresu.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

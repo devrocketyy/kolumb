@@ -208,6 +208,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
     },
     {
+     "id": "f0cdbfe7f",
+     "przod": "Jak sprawdzić, czy wynik krzyżówki zgadza się z oczekiwanym?",
+     "tyl": "Porównać proporcje liczbowe; przy małej liczbie potomstwa odchylenia od 3:1 czy 9:3:3:1 są naturalne (przypadek).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
      "id": "fd6533edc",
      "przod": "Rozpoznaj: 9 : 3 : 3 : 1 (geny niesprzężone, dominacja zupełna).",
      "tyl": "Stosunek fenotypów w F2 krzyżówki dwugenowej (AaBb × AaBb)",
@@ -560,6 +566,19 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Wszystkie fenotypowo dominujące.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4e040de5",
+     "pytanie": "Stosunek fenotypów 1 : 1 w potomstwie typowy jest dla krzyżówki:",
+     "odpowiedzi": [
+      "AA × AA",
+      "AA × aa",
+      "Aa × Aa",
+      "Aa × aa"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Testowa.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -957,6 +976,19 @@
      "poprawna": "C",
      "wyjasnienie": "Wiele objawów.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf17c2dc6",
+     "pytanie": "U heterozygoty widoczne są oba allele osobno (np. grupa AB). To:",
+     "odpowiedzi": [
+      "dominacja niezupełna",
+      "kodominacja",
+      "epistaza",
+      "polimeria"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Oba antygeny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -1060,6 +1092,12 @@
      "id": "f89fe9eee",
      "przod": "Sprzężenie a zmienność",
      "tyl": "Geny sprzężone ograniczają liczbę kombinacji w gametach — crossing-over częściowo przywraca zmienność.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.3–4"
+    },
+    {
+     "id": "fe82294c7",
+     "przod": "Crossing-over podwójny",
+     "tyl": "Dwa crossing-over między odległymi genami mogą przywrócić układ rodzicielski — dlatego odległość dużych map bywa niedoszacowana.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.3–4"
     },
     {
@@ -1653,6 +1691,19 @@
      "poprawna": "D",
      "wyjasnienie": "Cecha związana z płcią.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9de9163c",
+     "pytanie": "Kocury są najczęściej rude albo czarne, ponieważ:",
+     "odpowiedzi": [
+      "barwa sierści w ogóle nie jest dziedziczna",
+      "mają dwa chromosomy X z różnymi allelami",
+      "gen barwy leży na chromosomie Y",
+      "mają jeden chromosom X z jednym allelem barwy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Hemizygoty.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -1762,6 +1813,12 @@
      "id": "fbf48b8f3",
      "przod": "Nosiciel obowiązkowy w rodowodzie",
      "tyl": "Osoba, która na pewno jest nosicielem — np. matka chorego syna (cecha recesywna sprzężona z X) lub zdrowy rodzic chorego dziecka (AR).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
+     "id": "f8d4502e1",
+     "przod": "Pokolenia w rodowodzie a wiek",
+     "tyl": "Kolejność rodzeństwa w rodowodzie zwykle od najstarszego (z lewej) do najmłodszego.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
     },
     {
@@ -2117,6 +2174,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
     },
     {
+     "id": "f43e106cd",
+     "przod": "Mutageny chemiczne — przykłady",
+     "tyl": "Benzopiren (dym tytoniowy), azbest, aflatoksyny, niektóre barwniki i konserwanty, iperyt.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
      "id": "f18c106a4",
      "przod": "Rozpoznaj: Crossing-over, niezależna segregacja chromosomów w mejozie, losowe łączenie się gamet.",
      "tyl": "Źródła zmienności rekombinacyjnej",
@@ -2174,6 +2237,12 @@
      "id": "f4440502e",
      "przod": "Rozpoznaj: Zachowanie intronu lub wycięcie eksonu zmienia sekwencję mRNA — często powstaje przedwczesny kodon STOP lub przesunięcie ramki.",
      "tyl": "Mutacja a splicing — skutki",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "f39f741f1",
+     "przod": "Rozpoznaj: Benzopiren (dym tytoniowy), azbest, aflatoksyny, niektóre barwniki i konserwanty, iperyt.",
+     "tyl": "Mutageny chemiczne — przykłady",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
     }
    ],
@@ -2600,6 +2669,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
     },
     {
+     "id": "f03d8c3a3",
+     "przod": "Choroby genetyczne a pochodzenie etniczne",
+     "tyl": "Częstość niektórych chorób różni się między populacjami (np. anemia sierpowata w Afryce, mukowiscydoza w Europie) — efekt doboru i dryfu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
      "id": "fbdf7b237",
      "przod": "Rozpoznaj: Autosomalna recesywna; mutacja genu CFTR (kanał chlorkowy) — gęsty śluz w płucach, trzustce, przewodach — infekcje, zaburzenia trawienia.",
      "tyl": "Mukowiscydoza — dziedziczenie i przyczyna",
@@ -2711,6 +2786,12 @@
      "id": "f12416cc7",
      "przod": "Rozpoznaj: Autosomalna dominująca choroba (uszkodzony receptor LDL) — bardzo wysoki cholesterol i wczesna miażdżyca.",
      "tyl": "Hipercholesterolemia rodzinna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f23f1cdeb",
+     "przod": "Rozpoznaj: Częstość niektórych chorób różni się między populacjami (np. anemia sierpowata w Afryce, mukowiscydoza w Europie) — efekt doboru i dryfu.",
+     "tyl": "Choroby genetyczne a pochodzenie etniczne",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
     }
    ],
@@ -2986,6 +3067,19 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Wysoki cholesterol.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb67a278b",
+     "pytanie": "Trisomia 18 to zespół:",
+     "odpowiedzi": [
+      "Turnera",
+      "Downa",
+      "Edwardsa",
+      "Patau"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ciężkie wady.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
