@@ -1,0 +1,78 @@
+# Bank zadań autorskich — biologia, część 30: duża partia (wszystkie działy).
+BANK = {
+'umiejetnosci': [
+ B('Tabela wyników',
+   'Opis (autorski). Uczeń mierzył co 5 minut liczbę pęcherzyków O₂ wydzielanych przez moczarkę w 15°C, 25°C i 35°C (trzy powtórzenia każdej temperatury).',
+   T('podaj', 2, 'Zaprojektuj tabelę do zapisania wyników (nagłówki z jednostkami).', 'Kolumny: temperatura, °C | liczba pęcherzyków O₂ na 5 min — powtórzenie 1 | powtórzenie 2 | powtórzenie 3 | średnia; wiersze: 15, 25, 35°C.', 'Zmienna niezależna w pierwszej kolumnie, jednostki w nagłówkach.')),
+],
+'biochemia': [
+ B('Lizozym',
+   'Doświadczenie (autorskie). Do zawiesiny bakterii Gram-dodatnich dodano: A — ślinę; B — ślinę przegotowaną; C — wodę. Po godzinie zawiesina A stała się przejrzysta.',
+   T('wyjasnij', 1, 'Wyjaśnij wynik w probówce A.', 'Lizozym ze śliny rozłożył mureinę ścian komórkowych bakterii — bakterie pękły (liza), zawiesina się sklarowała.', ''),
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego w probówce B zawiesina pozostała mętna.', 'Gotowanie zdenaturowało lizozym — enzym utracił aktywność.', '')),
+],
+'komorka': [
+ B('Hemoliza w roztworach',
+   'Doświadczenie (autorskie). Erytrocyty umieszczono w roztworach NaCl: 0,2%, 0,6%, 0,9%, 1,5%. Odsetek zhemolizowanych erytrocytów: 100%, 40%, 0%, 0% (w 1,5% krwinki pomarszczone).',
+   T('podaj', 1, 'Podaj, który roztwór jest izotoniczny dla erytrocytów. Uzasadnij.', '0,9% — erytrocyty nie pękały ani nie marszczyły się, brak przepływu netto wody.', ''),
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego w 0,6% NaCl pękła tylko część erytrocytów.', 'Erytrocyty różnią się wytrzymałością błony i wiekiem — przy słabej hipotonii pękają tylko najmniej odporne.', '')),
+],
+'metabolizm': [
+ B('Liście słoneczne i cieniste',
+   'Dane (autorskie). Intensywność fotosyntezy (jednostki względne) przy różnym natężeniu światła: słabe — liść cienisty 8, słoneczny 4; silne — liść cienisty 14, słoneczny 30.',
+   T('porownaj', 1, 'Porównaj intensywność fotosyntezy obu liści przy słabym i silnym świetle.', 'Przy słabym świetle liść cienisty fotosyntezuje intensywniej niż słoneczny, a przy silnym — słoneczny ponad dwa razy intensywniej niż cienisty.', ''),
+   T('wyjasnij', 1, 'Wyjaśnij przewagę liścia słonecznego przy silnym świetle.', 'Ma grubszy, wielowarstwowy miękisz palisadowy z liczniejszymi chloroplastami i enzymami — wykorzystuje więcej światła.', '')),
+ B('Mięśnie a substraty energetyczne',
+   'Dane (autorskie). Udział substratów w pokryciu energii przez mięśnie: odpoczynek — tłuszcze 60%, glukoza 40%; sprint — glukoza (glikogen) 95%; maraton (3. godzina) — tłuszcze 70%.',
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego w sprincie wykorzystywana jest głównie glukoza.', 'Glukoza może być rozkładana szybko, także beztlenowo (glikoliza) — dostarcza ATP w krótkim czasie, gdy tlenu brakuje.', ''),
+   T('wyjasnij', 1, 'Wyjaśnij wzrost udziału tłuszczów podczas maratonu.', 'Zapasy glikogenu się wyczerpują, a długi wysiłek o umiarkowanej intensywności pozwala na tlenowy rozkład kwasów tłuszczowych (β-oksydacja).', '')),
+],
+'genetyka': [
+ B('SMA i badanie przesiewowe noworodków',
+   'Tekst (autorski). SMA dziedziczy się autosomalnie recesywnie. W Polsce od 2021 r. wszystkie noworodki bada się w kierunku SMA, bo leczenie jest najskuteczniejsze przed wystąpieniem objawów.',
+   T('podaj', 1, 'Podaj genotypy zdrowych rodziców chorego dziecka.', 'Oboje heterozygoty (Aa).', ''),
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego badanie przesiewowe obejmuje wszystkie noworodki, a nie tylko dzieci z rodzin z chorobą.', 'Większość chorych dzieci rodzi się w rodzinach bez wcześniejszych przypadków — rodzice nosiciele nie wiedzą o swoim nosicielstwie.', '')),
+],
+'biotechnologia': [
+ B('Badanie genomu w diagnostyce',
+   'Opis (autorski). U dziecka z rzadką chorobą wykonano sekwencjonowanie wszystkich eksonów (egzomu) i znaleziono mutację w jednym genie.',
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego bada się eksony, a nie cały genom.', 'Eksony stanowią ok. 1–2% genomu, a zawierają większość znanych mutacji wywołujących choroby — badanie jest tańsze i szybsze.', ''),
+   T('podaj', 1, 'Podaj jeden problem etyczny takich badań.', 'Np. odkrycie niespodziewanych informacji (ryzyko innych chorób) / ochrona danych genetycznych / prawo do niewiedzy.', '')),
+],
+'mikroorganizmy': [
+ B('Salmonella w kuchni',
+   'Opis (autorski). Po rodzinnym obiedzie z deserem z surowymi jajami kilka osób zachorowało na biegunkę z gorączką.',
+   T('podaj', 1, 'Podaj prawdopodobną przyczynę zachorowania.', 'Zakażenie pałeczkami Salmonella z surowych jaj (salmonelloza).', ''),
+   T('podaj', 2, 'Podaj dwa sposoby zapobiegania takim zakażeniom.', 'Np. obróbka termiczna jaj i drobiu; mycie rąk i desek po kontakcie z surowym mięsem; przechowywanie żywności w lodówce.', '')),
+],
+'rosliny': [
+ B('Halofity',
+   'Opis (autorski). Soliród rośnie na zasolonych glebach nad morzem. W jego komórkach stężenie soli w wakuolach jest bardzo wysokie.',
+   T('wyjasnij', 2, 'Wyjaśnij, jak wysokie stężenie soli w wakuolach umożliwia solirodowi pobieranie wody.', 'Sole obniżają potencjał wody w komórkach korzenia poniżej potencjału wody zasolonej gleby — woda może napływać osmotycznie z gleby do korzenia.', '')),
+ B('Liście sosny a zima',
+   'Opis (autorski). Sosna zachowuje igły zimą, a buk zrzuca liście jesienią.',
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego buk zrzuca liście przed zimą.', 'Zimą pobieranie wody z zamarzniętej gleby jest utrudnione, a szerokie liście traciłyby dużo wody w transpiracji — zrzucenie liści chroni przed wysuszeniem.', ''),
+   T('podaj', 1, 'Podaj dwie cechy igieł sosny ograniczające transpirację.', 'Np. gruba kutykula, zagłębione szparki, mała powierzchnia, zwarta budowa.', '')),
+],
+'zwierzeta': [
+ B('Przeżuwacze',
+   'Opis (autorski). Krowa wielokrotnie przeżuwa pokarm, a w jej żwaczu żyją miliardy bakterii i pierwotniaków.',
+   T('wyjasnij', 1, 'Wyjaśnij znaczenie mikroorganizmów żwacza dla krowy.', 'Rozkładają celulozę (krowa nie wytwarza celulaz), a ich biomasa jest źródłem białka dla krowy (trawionej w trawieńcu i jelicie).', ''),
+   T('podaj', 1, 'Podaj nazwę zależności między krową a mikroorganizmami żwacza.', 'Mutualizm (symbioza).', '')),
+],
+'fizjologia': [
+ B('Kwas foliowy w ciąży',
+   'Tekst (autorski). Cewa nerwowa zamyka się w 3.–4. tygodniu ciąży, często zanim kobieta wie, że jest w ciąży. Zaleca się przyjmowanie kwasu foliowego już kilka miesięcy przed planowaną ciążą.',
+   T('wyjasnij', 2, 'Wyjaśnij, dlaczego kwas foliowy trzeba przyjmować przed zajściem w ciążę.', 'Wady cewy nerwowej powstają w pierwszych tygodniach rozwoju zarodka, zanim ciąża zostanie zauważona — odpowiedni poziom kwasu foliowego musi być zapewniony wcześniej.', '')),
+ B('Rozgrzewka',
+   'Dane (autorskie). Szybkość przewodzenia impulsów i siła skurczu mięśnia rosną wraz z jego temperaturą od 34 do 39°C.',
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego rozgrzewka poprawia wydolność mięśni.', 'Wyższa temperatura przyspiesza reakcje enzymatyczne (m.in. hydrolizę ATP) i przewodzenie impulsów, a tkanki stają się bardziej elastyczne.', '')),
+],
+'ewolucja-ekologia': [
+ B('Robotnice pszczół',
+   'Opis (autorski). Robotnice pszczół są bezpłodne, a całe życie pracują na rzecz ula i królowej — swojej matki.',
+   T('wyjasnij', 2, 'Wyjaśnij, jak dobór naturalny mógł utrwalić bezpłodność robotnic.', 'Robotnice są blisko spokrewnione z potomstwem królowej (siostrami) — pomagając w ich wychowaniu, przekazują wspólne geny (dobór krewniaczy) skuteczniej niż przez własne potomstwo.', '')),
+ B('Rafa koralowa',
+   'Dane (autorskie). W latach z temperaturą wody powyżej 30°C odsetek blaknących koralowców na rafie wzrósł z 5% do 60%.',
+   T('wyjasnij', 2, 'Wyjaśnij, dlaczego blaknięcie zagraża przeżyciu koralowców.', 'Koralowce tracą symbiotyczne glony (bruzdnice), które dostarczały im większości związków organicznych z fotosyntezy — bez nich głodują i mogą obumrzeć.', '')),
+]}
