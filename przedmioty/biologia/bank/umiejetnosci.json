@@ -679,6 +679,32 @@
    "dzial": "umiejetnosci"
   },
   {
+   "tytul": "Odczyt z wykresu i interpolacja",
+   "material": "Dane (autorskie). Intensywność fotosyntezy (jednostki względne) przy stężeniu CO₂: 0,01% — 5; 0,03% — 15; 0,05% — 22; 0,09% — 28; 0,15% — 29.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oszacuj intensywność fotosyntezy przy stężeniu CO₂ 0,04%.",
+     "odpowiedz": "Ok. 18–19 jednostek (wartość pomiędzy 15 a 22).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Interpolacja.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego nie można bezpiecznie przewidzieć intensywności fotosyntezy przy 1% CO₂.",
+     "odpowiedz": "To wartość daleko poza zbadanym zakresem (ekstrapolacja) — zależność może się zmienić, np. wysokie stężenie CO₂ może być szkodliwe lub działa inny czynnik ograniczający.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-24",
+   "dzial": "umiejetnosci"
+  },
+  {
    "tytul": "Drożdże i fermentacja",
    "material": "Doświadczenie (autorskie). Do trzech kolb wlano po 100 cm³ roztworu: A — 5% glukozy z drożdżami, B — 5% glukozy z zagotowanymi drożdżami, C — wody z drożdżami. Kolby zamknięto korkami z rurkami odprowadzającymi gaz do probówek z wodą wapienną i umieszczono w 30°C. Po 30 minutach woda wapienna zmętniała tylko przy kolbie A.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -720,7 +746,7 @@
      "nr": "4"
     }
    ],
-   "id": "b-umiejetnosci-24",
+   "id": "b-umiejetnosci-25",
    "dzial": "umiejetnosci"
   },
   {
@@ -738,7 +764,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-25",
+   "id": "b-umiejetnosci-26",
    "dzial": "umiejetnosci"
   },
   {
@@ -765,7 +791,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-26",
+   "id": "b-umiejetnosci-27",
    "dzial": "umiejetnosci"
   },
   {
@@ -792,7 +818,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-27",
+   "id": "b-umiejetnosci-28",
    "dzial": "umiejetnosci"
   },
   {
@@ -819,7 +845,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-28",
+   "id": "b-umiejetnosci-29",
    "dzial": "umiejetnosci"
   },
   {
@@ -846,7 +872,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-29",
+   "id": "b-umiejetnosci-30",
    "dzial": "umiejetnosci"
   },
   {
@@ -873,7 +899,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-30",
+   "id": "b-umiejetnosci-31",
    "dzial": "umiejetnosci"
   },
   {
@@ -891,7 +917,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-31",
+   "id": "b-umiejetnosci-32",
    "dzial": "umiejetnosci"
   },
   {
@@ -909,7 +935,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-32",
+   "id": "b-umiejetnosci-33",
    "dzial": "umiejetnosci"
   },
   {
@@ -936,7 +962,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-33",
+   "id": "b-umiejetnosci-34",
    "dzial": "umiejetnosci"
   },
   {
@@ -954,7 +980,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-34",
+   "id": "b-umiejetnosci-35",
    "dzial": "umiejetnosci"
   },
   {
@@ -981,7 +1007,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-35",
+   "id": "b-umiejetnosci-36",
    "dzial": "umiejetnosci"
   },
   {
@@ -1008,7 +1034,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-36",
+   "id": "b-umiejetnosci-37",
    "dzial": "umiejetnosci"
   },
   {
@@ -1035,7 +1061,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-37",
+   "id": "b-umiejetnosci-38",
    "dzial": "umiejetnosci"
   },
   {
@@ -1053,7 +1079,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-38",
+   "id": "b-umiejetnosci-39",
    "dzial": "umiejetnosci"
   },
   {
@@ -1080,7 +1106,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-39",
+   "id": "b-umiejetnosci-40",
    "dzial": "umiejetnosci"
   },
   {
@@ -1107,7 +1133,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-40",
+   "id": "b-umiejetnosci-41",
    "dzial": "umiejetnosci"
   },
   {
@@ -1134,7 +1160,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-41",
+   "id": "b-umiejetnosci-42",
    "dzial": "umiejetnosci"
   },
   {
@@ -1161,7 +1187,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-42",
+   "id": "b-umiejetnosci-43",
    "dzial": "umiejetnosci"
   },
   {
@@ -1179,7 +1205,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-43",
+   "id": "b-umiejetnosci-44",
    "dzial": "umiejetnosci"
   },
   {
@@ -1197,7 +1223,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-44",
+   "id": "b-umiejetnosci-45",
    "dzial": "umiejetnosci"
   },
   {
@@ -1224,7 +1250,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-45",
+   "id": "b-umiejetnosci-46",
    "dzial": "umiejetnosci"
   },
   {
@@ -1251,7 +1277,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-46",
+   "id": "b-umiejetnosci-47",
    "dzial": "umiejetnosci"
   },
   {
@@ -1269,7 +1295,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-47",
+   "id": "b-umiejetnosci-48",
    "dzial": "umiejetnosci"
   }
  ]

@@ -190,6 +190,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
     },
     {
+     "id": "fe3ec9201",
+     "przod": "Genotyp „A_” — znaczenie zapisu",
+     "tyl": "Podkreślnik oznacza dowolny drugi allel — fenotyp dominujący może mieć genotyp AA lub Aa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
      "id": "fd6533edc",
      "przod": "Rozpoznaj: 9 : 3 : 3 : 1 (geny niesprzężone, dominacja zupełna).",
      "tyl": "Stosunek fenotypów w F2 krzyżówki dwugenowej (AaBb × AaBb)",
@@ -505,6 +511,19 @@
      "poprawna": "D",
      "wyjasnienie": "B — homozygota.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbc73285a",
+     "pytanie": "Zapis „A_bb” oznacza osobnika o genotypie:",
+     "odpowiedzi": [
+      "tylko Aabb",
+      "aabb",
+      "tylko AAbb",
+      "AAbb lub Aabb"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Podkreślnik.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -620,6 +639,12 @@
      "id": "f0931a377",
      "przod": "Grupy krwi — dziedziczenie Rh",
      "tyl": "Allel D (Rh⁺) dominuje nad d (Rh⁻); osoby Rh⁻ to homozygoty dd.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "ffdc5a58e",
+     "przod": "Barwa ziarna pszenicy — przykład polimerii",
+     "tyl": "Kilka genów o działaniu addytywnym — im więcej alleli „czerwonych”, tym ciemniejsze ziarno (od białego do ciemnoczerwonego).",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
     },
     {
@@ -850,6 +875,19 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Homozygota recesywna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd56b0d73",
+     "pytanie": "Barwa ziarna pszenicy (od białej do ciemnoczerwonej) to przykład:",
+     "odpowiedzi": [
+      "kodominacji dwóch alleli",
+      "allelu letalnego w homozygocie",
+      "polimerii (genów kumulatywnych)",
+      "epistazy recesywnej"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Addytywność.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -1234,6 +1272,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
     },
     {
+     "id": "fc43b10dd",
+     "przod": "Zespół XYY i XXX",
+     "tyl": "XYY — mężczyźni zwykle bez poważnych objawów, często wyżsi; XXX — kobiety zwykle bez poważnych objawów (dwa ciałka Barra).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
      "id": "f1b41aa84",
      "przod": "Rozpoznaj: XX/XY (ssaki, muszka), ZW/ZZ (ptaki, motyle — samica ZW heterogametyczna), X0 (niektóre owady), haplodiploidalność (pszczoły — samce n), temperaturowa (wiele gadów).",
      "tyl": "Typy determinacji płci u zwierząt",
@@ -1261,6 +1305,12 @@
      "id": "fdc64e05d",
      "przod": "Rozpoznaj: Gen na chromosomie Y uruchamiający rozwój jąder; jego brak (lub przeniesienie na X) zmienia rozwój płci.",
      "tyl": "Gen SRY",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "f98f9510f",
+     "przod": "Rozpoznaj: XYY — mężczyźni zwykle bez poważnych objawów, często wyżsi; XXX — kobiety zwykle bez poważnych objawów (dwa ciałka Barra).",
+     "tyl": "Zespół XYY i XXX",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
     }
    ],
@@ -1459,6 +1509,19 @@
      "poprawna": "A",
      "wyjasnienie": "XʰXʰ lub XᴴXʰ.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p36085a78",
+     "pytanie": "Kobieta o kariotypie 47,XXX ma w komórkach ciałek Barra:",
+     "odpowiedzi": [
+      "0",
+      "2",
+      "3",
+      "1"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Liczba X − 1.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -1559,6 +1622,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
     },
     {
+     "id": "fbaa08325",
+     "przod": "Prawdopodobieństwo w rodowodzie — reguła",
+     "tyl": "Zaczynaj od osób o pewnym genotypie (chorzy z cechą recesywną = aa), potem ustalaj genotypy rodziców i rodzeństwa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
      "id": "ff2429bbc",
      "przod": "Rozpoznaj: Kwadrat — mężczyzna, koło — kobieta; zamalowany — chory; pozioma linia — związek; pionowa — potomstwo; cyfry rzymskie — pokolenia.",
      "tyl": "Oznaczenia w rodowodach",
@@ -1574,6 +1643,12 @@
      "id": "fdb89e5af",
      "przod": "Rozpoznaj: 1) Recesywna czy dominująca? (zdrowi rodzice, chore dziecko → recesywna). 2) Sprzężona z X? (sprawdź ojców i synów, matki i córki). 3) Zapisz genotypy pewne, potem prawdopodobne.",
      "tyl": "Krok po kroku — analiza rodowodu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
+     "id": "f5f7e1eca",
+     "przod": "Rozpoznaj: Zaczynaj od osób o pewnym genotypie (chorzy z cechą recesywną = aa), potem ustalaj genotypy rodziców i rodzeństwa.",
+     "tyl": "Prawdopodobieństwo w rodowodzie — reguła",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
     }
    ],
@@ -1861,6 +1936,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
     },
     {
+     "id": "f6077b3c5",
+     "przod": "Mutacje w intronach i promotorach",
+     "tyl": "Mogą zaburzać splicing (np. powstanie błędnego mRNA) lub zmieniać poziom ekspresji genu, mimo braku zmian w eksonach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
      "id": "f18c106a4",
      "przod": "Rozpoznaj: Crossing-over, niezależna segregacja chromosomów w mejozie, losowe łączenie się gamet.",
      "tyl": "Źródła zmienności rekombinacyjnej",
@@ -1906,6 +1987,12 @@
      "id": "f31a3481c",
      "przod": "Rozpoznaj: Delecja w genie CCR5 (CCR5-Δ32) w homozygocie chroni przed zakażeniem częścią szczepów HIV.",
      "tyl": "Mutacje a odporność na choroby — przykład",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "f82092013",
+     "przod": "Rozpoznaj: Mogą zaburzać splicing (np. powstanie błędnego mRNA) lub zmieniać poziom ekspresji genu, mimo braku zmian w eksonach.",
+     "tyl": "Mutacje w intronach i promotorach",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
     }
    ],
@@ -2104,6 +2191,19 @@
      "poprawna": "C",
      "wyjasnienie": "69 chromosomów.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcb2a5a08",
+     "pytanie": "Mutacja w intronie może:",
+     "odpowiedzi": [
+      "nigdy nie mieć skutków",
+      "zmienić kod genetyczny",
+      "zmienić liczbę chromosomów",
+      "zaburzyć splicing pre-mRNA"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Miejsca cięcia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -2288,6 +2388,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
     },
     {
+     "id": "fcd7ae0e2",
+     "przod": "Zespół Marfana",
+     "tyl": "Autosomalna dominująca choroba tkanki łącznej (gen fibryliny) — wysoki wzrost, długie kończyny, wady serca i oczu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
      "id": "fbdf7b237",
      "przod": "Rozpoznaj: Autosomalna recesywna; mutacja genu CFTR (kanał chlorkowy) — gęsty śluz w płucach, trzustce, przewodach — infekcje, zaburzenia trawienia.",
      "tyl": "Mukowiscydoza — dziedziczenie i przyczyna",
@@ -2381,6 +2487,12 @@
      "id": "f8a503a82",
      "przod": "Rozpoznaj: Z kropli krwi wykrywa się m.in. fenyloketonurię, niedoczynność tarczycy, mukowiscydozę i SMA.",
      "tyl": "Badanie przesiewowe noworodków w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f06697129",
+     "przod": "Rozpoznaj: Autosomalna dominująca choroba tkanki łącznej (gen fibryliny) — wysoki wzrost, długie kończyny, wady serca i oczu.",
+     "tyl": "Zespół Marfana",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
     }
    ],
@@ -2617,6 +2729,19 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Neurony ruchowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4b6fc527",
+     "pytanie": "Zespół Marfana dotyczy głównie:",
+     "odpowiedzi": [
+      "układu odpornościowego",
+      "wątroby",
+      "tkanki łącznej",
+      "krwi"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Fibrylina.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

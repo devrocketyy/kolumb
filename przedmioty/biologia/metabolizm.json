@@ -591,6 +591,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
     },
     {
+     "id": "f2e97b539",
+     "przod": "Enzymy restrykcyjne a enzymy trawienne — porównanie",
+     "tyl": "Restryktazy tną DNA w ściśle określonych sekwencjach; enzymy trawienne (np. nukleazy trzustkowe) rozkładają kwasy nukleinowe mniej swoiście.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
      "id": "f06ba6565",
      "przod": "Wyjaśnij pojęcie: enzym",
      "tyl": "Biokatalizator (najczęściej białko) przyspieszający reakcję chemiczną przez obniżenie energii aktywacji; sam nie zużywa się w reakcji.",
@@ -1601,6 +1607,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
     },
     {
+     "id": "f6a1b4299",
+     "przod": "Barwa liści jesienią — mechanizm",
+     "tyl": "Rozkład chlorofilu odsłania żółte karotenoidy; czerwień pochodzi od antocyjanów syntetyzowanych jesienią.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
      "id": "f913d29d5",
      "przod": "Wyjaśnij pojęcie: fotosynteza",
      "tyl": "Proces anaboliczny, w którym organizmy fotoautotroficzne z CO₂ i H₂O, kosztem energii światła, wytwarzają związki organiczne (cukry), a uwalniają tlen.",
@@ -2488,6 +2500,19 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
+     "id": "p37387331",
+     "pytanie": "Czerwone zabarwienie liści jesienią wywołują:",
+     "odpowiedzi": [
+      "antocyjany",
+      "karoteny",
+      "chlorofil b",
+      "ksantofile"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Synteza jesienią.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
      "id": "p9efb4e85",
      "pytanie": "Tlen uwalniany w fotosyntezie pochodzi z:",
      "odpowiedzi": [
@@ -2737,6 +2762,12 @@
      "id": "fc38029f8",
      "przod": "Oddychanie a utrata masy roślin w przechowalniach",
      "tyl": "Przechowywane owoce i warzywa oddychają — tracą cukry i masę; niska temperatura i mało O₂ spowalniają ten proces.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f8312f21f",
+     "przod": "Glikoliza — inwestycja i zysk",
+     "tyl": "Na początku zużywa 2 ATP (fosforylacja glukozy), potem wytwarza 4 ATP — zysk netto 2 ATP.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
     },
     {
@@ -3329,6 +3360,19 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
+     "id": "pc6c73f95",
+     "pytanie": "Zysk netto ATP z glikolizy jednej cząsteczki glukozy wynosi:",
+     "odpowiedzi": [
+      "36",
+      "0",
+      "2",
+      "4"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "4 − 2.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
      "id": "p97734cef",
      "pytanie": "Glikoliza zachodzi w:",
      "odpowiedzi": [
@@ -3487,6 +3531,12 @@
      "id": "fb5fee8ff",
      "przod": "Fermentacja masłowa",
      "tyl": "Przeprowadzana przez beztlenowe bakterie z rodzaju Clostridium — powstaje kwas masłowy (zjełczały zapach, psucie się kiszonek).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
+     "id": "f2bca1b3b",
+     "przod": "Fermentacja alkoholowa — produkty pośrednie",
+     "tyl": "Pirogronian → aldehyd octowy (+ CO₂) → etanol (z udziałem NADH).",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
     },
     {
@@ -3688,6 +3738,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
     },
     {
+     "id": "f0951ef7e",
+     "przod": "Rozpoznaj: Pirogronian → aldehyd octowy (+ CO₂) → etanol (z udziałem NADH).",
+     "tyl": "Fermentacja alkoholowa — produkty pośrednie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.5, 7"
+    },
+    {
      "id": "fae4078ce",
      "przod": "Podaj nazwę pojęcia: Beztlenowy rozkład związków organicznych (glukozy), w którym ATP powstaje tylko w glikolizie, a pirogronian jest przekształcany tak, by odtworzyć NAD⁺.",
      "tyl": "fermentacja",
@@ -3858,6 +3914,19 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Clostridium.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p83aadf6d",
+     "pytanie": "Produktem pośrednim fermentacji alkoholowej jest:",
+     "odpowiedzi": [
+      "aldehyd octowy",
+      "cytrynian",
+      "acetylo-CoA",
+      "mleczan"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Przed etanolem.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {

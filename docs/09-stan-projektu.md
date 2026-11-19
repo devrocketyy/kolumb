@@ -32,9 +32,9 @@ Link właściciela: https://app.indexlab.pl/?klucz=ni-D4DOaRe8m (publikacja: `do
 | | Zrobione | Plan |
 |---|---|---|
 | Działy / podrozdziały | 13 / **71 z 71** | 13 / 71 |
-| Fiszki | 2893 (+ wersje odwrócone) | ~3620 |
-| Pytania ABCD | 1251 | ~1500 |
-| Zadania autorskie | 864 (442 wiązek) | ~920 |
+| Fiszki | 2954 (+ wersje odwrócone) | ~3620 |
+| Pytania ABCD | 1296 | ~1500 |
+| Zadania autorskie | 888 (456 wiązek) | ~920 |
 | Omówienia matur CKE | 6 arkuszy, 295 zadań | ~11 arkuszy |
 
 - Arkusze z omówieniem: maj i czerwiec 2024, 2025 i 2026.
@@ -45,9 +45,9 @@ Link właściciela: https://app.indexlab.pl/?klucz=ni-D4DOaRe8m (publikacja: `do
 ## 2. Co jeszcze trzeba zrobić
 
 ### Biologia — treści
-1. Pytania ABCD: jeszcze około 250.
-2. Fiszki: jeszcze około 730.
-3. Zadania autorskie: jeszcze około 55.
+1. Pytania ABCD: jeszcze około 205.
+2. Fiszki: jeszcze około 670.
+3. Zadania autorskie: jeszcze około 30.
    - Najwięcej brakuje w: mikroorganizmach, zwierzętach, ewolucji i ekologii, biotechnologii.
 4. Arkusze CKE:
    - matura maj 2023 (brak na Drive — trzeba dograć);

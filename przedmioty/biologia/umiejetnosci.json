@@ -316,6 +316,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
     },
     {
+     "id": "fbda5f65f",
+     "przod": "Polecenie „podaj” lub „wymień”",
+     "tyl": "Krótka odpowiedź bez uzasadnienia — ale dokładnie tyle elementów, ile wymaga polecenie (nadmiarowe błędne elementy mogą odebrać punkt).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f2acbbaa9",
+     "przod": "Polecenie „narysuj schemat”",
+     "tyl": "Prosty, czytelny rysunek z opisanymi elementami (podpisy, strzałki kierunku) — liczy się poprawność, nie walory artystyczne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
      "id": "fa7d455f0",
      "przod": "Rozpoznaj: Opisanie każdego obiektu osobno, bez zestawienia tej samej cechy (np. „mitoza daje 2 komórki; mejoza zachodzi w gonadach”).",
      "tyl": "Typowy błąd w poleceniu „porównaj”",
@@ -361,6 +373,12 @@
      "id": "fc72df516",
      "przod": "Rozpoznaj: Podaj uporządkowany opis zjawiska lub procesu (etapy, cechy), bez konieczności wyjaśniania przyczyn.",
      "tyl": "Polecenie „przedstaw” lub „opisz”",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f8e314eed",
+     "przod": "Rozpoznaj: Prosty, czytelny rysunek z opisanymi elementami (podpisy, strzałki kierunku) — liczy się poprawność, nie walory artystyczne.",
+     "tyl": "Polecenie „narysuj schemat”",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
     }
    ],
@@ -545,6 +563,19 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Uważne czytanie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc023febb",
+     "pytanie": "Gdy polecenie wymaga podania dwóch przykładów, a uczeń poda cztery (w tym jeden błędny):",
+     "odpowiedzi": [
+      "może stracić punkt",
+      "zawsze dostaje maksimum",
+      "dostaje dodatkowe punkty",
+      "wynik nie ma znaczenia"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Nadmiar z błędem.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -1866,6 +1897,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
     },
     {
+     "id": "f7a62fc23",
+     "przod": "Interpolacja",
+     "tyl": "Odczytanie wartości pomiędzy zmierzonymi punktami wykresu — bezpieczniejsze niż ekstrapolacja.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
      "id": "f0e1aa525",
      "przod": "Rozpoznaj: Tytuł, nagłówki kolumn z nazwą wielkości i jednostką (jednostka w nagłówku, nie przy każdej liczbie), uporządkowane wiersze.",
      "tyl": "Elementy poprawnej tabeli",
@@ -1899,6 +1936,12 @@
      "id": "ffe5ade96",
      "przod": "Rozpoznaj: Pozwala porównać kilka grup w tych samych kategoriach (np. dwie odmiany w trzech temperaturach) — potrzebna legenda.",
      "tyl": "Wykres słupkowy z kilkoma seriami",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f66d77e4b",
+     "przod": "Rozpoznaj: Odczytanie wartości pomiędzy zmierzonymi punktami wykresu — bezpieczniejsze niż ekstrapolacja.",
+     "tyl": "Interpolacja",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
     }
    ],

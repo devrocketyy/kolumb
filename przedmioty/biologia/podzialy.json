@@ -172,6 +172,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
     },
     {
+     "id": "f47b0111f",
+     "przod": "Centromer — położenie a kształt chromosomu",
+     "tyl": "Metacentryczne (centromer pośrodku), submetacentryczne, akrocentryczne (blisko końca) — kryterium w kariotypie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
      "id": "f22c4e312",
      "przod": "Podaj nazwę pojęcia: Całość materiału genetycznego komórki lub organizmu (u eukariontów — jądrowy oraz mitochondrialny i plastydowy).",
      "tyl": "genom",
@@ -418,6 +424,19 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Największa kondensacja.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3861788d",
+     "pytanie": "Chromosom z centromerem położonym pośrodku to chromosom:",
+     "odpowiedzi": [
+      "telocentryczny",
+      "submetacentryczny",
+      "metacentryczny",
+      "akrocentryczny"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ramiona równe.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -936,6 +955,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
     },
     {
+     "id": "f493131a5",
+     "przod": "Faza M",
+     "tyl": "Obejmuje kariokinezę (mitozę — podział jądra) i cytokinezę (podział cytoplazmy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
      "id": "fdb7136a5",
      "przod": "Podaj nazwę pojęcia: Stan spoczynku — komórka wychodzi z cyklu i nie dzieli się (np. neurony, większość komórek mięśni), choć pełni swoje funkcje.",
      "tyl": "faza G0",
@@ -987,6 +1012,12 @@
      "id": "fe5cffad5",
      "przod": "Rozpoznaj: Neurony, włókna mięśni szkieletowych, dojrzałe erytrocyty; hepatocyty mogą wrócić do cyklu po uszkodzeniu wątroby.",
      "tyl": "Komórki, które się nie dzielą (G0)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "faf8a945c",
+     "przod": "Rozpoznaj: Obejmuje kariokinezę (mitozę — podział jądra) i cytokinezę (podział cytoplazmy).",
+     "tyl": "Faza M",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
     }
    ],
@@ -1210,6 +1241,19 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Samoodnawianie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p519f1c3d",
+     "pytanie": "Faza M obejmuje:",
+     "odpowiedzi": [
+      "kariokinezę i cytokinezę",
+      "tylko replikację DNA",
+      "fazy G1 i G2",
+      "tylko cytokinezę"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Podział.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -1509,6 +1553,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
     },
     {
+     "id": "f5c52f5ee",
+     "przod": "Haploidalna liczba chromosomów — przykłady",
+     "tyl": "Człowiek n = 23, kot n = 19, kukurydza n = 10, groch n = 7.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
      "id": "f741f4424",
      "przod": "Podaj nazwę pojęcia: Podział jądra, w którym z jednej komórki powstają dwie o tej samej ploidalności i identycznej informacji genetycznej (2n → 2n).",
      "tyl": "mitoza",
@@ -1620,6 +1670,12 @@
      "id": "f4bcbbcee",
      "przod": "Rozpoznaj: Crossing-over (profaza I), niezależna segregacja chromosomów (anafaza I), losowe łączenie gamet (zapłodnienie).",
      "tyl": "Zmienność kombinacyjna — źródła (zestawienie)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fbe27e32a",
+     "przod": "Rozpoznaj: Człowiek n = 23, kot n = 19, kukurydza n = 10, groch n = 7.",
+     "tyl": "Haploidalna liczba chromosomów — przykłady",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
     }
    ],
@@ -1999,6 +2055,19 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Trzecie źródło zmienności.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf62a0834",
+     "pytanie": "Kot ma 2n = 38. Jego gameta ma chromosomów:",
+     "odpowiedzi": [
+      "9",
+      "19",
+      "38",
+      "76"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "n.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

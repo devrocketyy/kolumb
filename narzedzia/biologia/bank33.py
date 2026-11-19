@@ -1,0 +1,76 @@
+# Bank zadań autorskich — biologia, część 33: duża partia (wszystkie działy).
+BANK = {
+'umiejetnosci': [
+ B('Odczyt z wykresu i interpolacja',
+   'Dane (autorskie). Intensywność fotosyntezy (jednostki względne) przy stężeniu CO₂: 0,01% — 5; 0,03% — 15; 0,05% — 22; 0,09% — 28; 0,15% — 29.',
+   T('podaj', 1, 'Oszacuj intensywność fotosyntezy przy stężeniu CO₂ 0,04%.', 'Ok. 18–19 jednostek (wartość pomiędzy 15 a 22).', 'Interpolacja.'),
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego nie można bezpiecznie przewidzieć intensywności fotosyntezy przy 1% CO₂.', 'To wartość daleko poza zbadanym zakresem (ekstrapolacja) — zależność może się zmienić, np. wysokie stężenie CO₂ może być szkodliwe lub działa inny czynnik ograniczający.', '')),
+],
+'biochemia': [
+ B('Woda metaboliczna',
+   'Dane (autorskie). Z utlenienia 100 g tłuszczu powstaje ok. 107 g wody, a ze 100 g skrobi — ok. 55 g.',
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego magazynowanie tłuszczu jest korzystne dla zwierząt pustynnych.', 'Tłuszcz dostarcza dużo energii i podczas utleniania wytwarza dużo wody metabolicznej — zwierzę może długo nie pić.', '')),
+],
+'metabolizm': [
+ B('Glikoliza — bilans',
+   'Opis (autorski). W pierwszym etapie glikolizy zużywane są 2 cząsteczki ATP, a w drugim powstają 4 ATP i 2 NADH.',
+   T('podaj', 1, 'Podaj zysk netto ATP z glikolizy jednej cząsteczki glukozy.', '2 ATP.', ''),
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego komórka „inwestuje” ATP na początku glikolizy.', 'Fosforylacja glukozy aktywuje ją (ułatwia dalszy rozkład) i zatrzymuje w komórce (ufosforylowana glukoza nie przechodzi przez błonę).', '')),
+],
+'podzialy': [
+ B('Kariotyp i centromery',
+   'Opis (autorski). W kariotypie człowieka chromosom 1 jest duży i metacentryczny, a chromosomy 13–15 i 21–22 są akrocentryczne.',
+   T('podaj', 1, 'Wyjaśnij różnicę między chromosomem metacentrycznym a akrocentrycznym.', 'Metacentryczny ma centromer pośrodku (ramiona równej długości), akrocentryczny — blisko końca (jedno ramię bardzo krótkie).', ''),
+   T('podaj', 1, 'Podaj, w jakiej fazie podziału wykonuje się zdjęcia do kariotypu i dlaczego.', 'W metafazie — chromosomy są najsilniej skondensowane i dobrze widoczne.', '')),
+],
+'genetyka': [
+ B('Ciałka Barra a kariotyp',
+   'Opis (autorski). W komórkach nabłonka jamy ustnej osoby A nie stwierdzono ciałek Barra, u osoby B — jedno, u osoby C — dwa.',
+   T('podaj', 2, 'Podaj możliwe kariotypy chromosomów płci osób A, B i C.', 'A — XY (lub X0); B — XX (lub XXY); C — XXX.', 'Liczba ciałek Barra = liczba chromosomów X − 1.')),
+ B('Zespół Marfana',
+   'Opis (autorski). Chory na zespół Marfana mężczyzna (choroba autosomalna dominująca) ma dzieci ze zdrową kobietą.',
+   T('podaj', 1, 'Oblicz prawdopodobieństwo, że dziecko będzie chore (ojciec heterozygota).', '50%.', 'Aa × aa.'),
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego mutacja jednego genu daje objawy w wielu narządach.', 'Fibrylina buduje tkankę łączną obecną w wielu narządach (naczynia, oczy, kości) — plejotropowe działanie genu.', '')),
+],
+'biotechnologia': [
+ B('Papaja odporna na wirusa',
+   'Tekst (autorski). Na Hawajach uprawy papai zniszczył wirus. Wprowadzenie do papai genu białka płaszcza tego wirusa uchroniło uprawy.',
+   T('podaj', 1, 'Określ, czy zmodyfikowana papaja jest organizmem transgenicznym. Uzasadnij.', 'Tak — zawiera gen pochodzący z innego organizmu (wirusa).', ''),
+   T('podaj', 1, 'Podaj jedno ryzyko lub kontrowersję związaną z taką uprawą.', 'Np. przenoszenie transgenu do dzikich krewnych / możliwość powstania nowych wariantów wirusa / niechęć konsumentów i regulacje rynkowe.', '')),
+],
+'mikroorganizmy': [
+ B('Wścieklizna — szczepienie po pogryzieniu',
+   'Tekst (autorski). Po pogryzieniu przez nieznane zwierzę podaje się szczepionkę przeciw wściekliźnie i często surowicę (gotowe przeciwciała). Wirus wędruje nerwami do mózgu przez wiele dni.',
+   T('wyjasnij', 2, 'Wyjaśnij, dlaczego szczepienie po pogryzieniu jest skuteczne i po co dodatkowo podaje się surowicę.', 'Wirus potrzebuje czasu, by dotrzeć nerwami do mózgu — organizm zdąży wytworzyć własne przeciwciała po szczepieniu; surowica daje natychmiastową ochronę na czas, zanim odpowiedź czynna się rozwinie.', '')),
+],
+'rosliny': [
+ B('Potencjał wody w roślinie',
+   'Dane (autorskie). Potencjał wody (MPa): gleba −0,3; korzeń −0,6; łodyga −0,8; liść −1,5; powietrze −95.',
+   T('podaj', 1, 'Określ kierunek przepływu wody. Uzasadnij.', 'Od gleby przez korzeń, łodygę i liść do powietrza — od wyższego (mniej ujemnego) do niższego potencjału wody.', ''),
+   T('wyjasnij', 1, 'Wyjaśnij, co stałoby się z pobieraniem wody, gdyby potencjał wody gleby spadł do −1,0 MPa (np. przez zasolenie).', 'Byłby niższy niż w korzeniu — korzeń nie pobierałby wody (a nawet mógłby ją tracić); roślina więdłaby.', '')),
+],
+'zwierzeta': [
+ B('Przeobrażenie motyla',
+   'Opis (autorski). Gąsienice bielinka żerują na kapuście, a dorosłe motyle piją nektar kwiatów.',
+   T('podaj', 1, 'Podaj nazwę stadium między gąsienicą a motylem.', 'Poczwarka.', ''),
+   T('podaj', 1, 'Podaj, który etap rozwoju jest szkodnikiem upraw i dlaczego.', 'Gąsienica (larwa) — zjada liście kapusty.', '')),
+],
+'fizjologia': [
+ B('Krwotok',
+   'Opis (autorski). Na miejscu wypadku poszkodowany ma ranę uda, z której jasnoczerwona krew wypływa silnym, pulsującym strumieniem.',
+   T('podaj', 1, 'Określ rodzaj krwotoku. Uzasadnij.', 'Tętniczy — krew jasnoczerwona (natlenowana), wypływa pulsacyjnie zgodnie z rytmem serca.', ''),
+   T('podaj', 1, 'Podaj, gdzie należy ucisnąć naczynie i dlaczego.', 'Powyżej rany (bliżej serca) — tętnica prowadzi krew od serca.', '')),
+ B('Antykoncepcja hormonalna',
+   'Tekst (autorski). Tabletki antykoncepcyjne zawierają syntetyczne estrogeny i progestageny, które utrzymują stałe, podwyższone stężenie tych hormonów.',
+   T('wyjasnij', 2, 'Wyjaśnij mechanizm, w jaki tabletki hamują owulację.', 'Wysokie stężenie estrogenów i progestagenów hamuje (ujemne sprzężenie zwrotne) wydzielanie FSH i LH przez przysadkę — pęcherzyk nie dojrzewa i nie występuje pik LH wywołujący owulację.', '')),
+],
+'ewolucja-ekologia': [
+ B('Rośliny wskaźnikowe',
+   'Opis (autorski). Na jednej łące rosną gęsto pokrzywy i łopiany, a na sąsiedniej — wrzos i borówka.',
+   T('podaj', 1, 'Określ właściwości gleby na obu łąkach.', 'Pierwsza — gleba żyzna, bogata w azot; druga — gleba kwaśna i uboga.', ''),
+   T('wyjasnij', 1, 'Zaproponuj przyczynę dużej ilości azotu w glebie pierwszej łąki.', 'Np. nawożenie / odchody zwierząt (wypas) / rozkład dużej ilości materii organicznej.', '')),
+ B('Kukułka i trzciniak',
+   'Opis (autorski). Pisklę kukułki wyrzuca z gniazda jaja i pisklęta trzciniaka, a trzciniaki karmią je do opuszczenia gniazda. Niektóre populacje trzciniaków częściej rozpoznają i wyrzucają jaja kukułki.',
+   T('podaj', 1, 'Określ typ zależności między kukułką a trzciniakiem.', 'Pasożytnictwo (lęgowe).', ''),
+   T('wyjasnij', 1, 'Wyjaśnij, jak dobór naturalny mógł ukształtować rozpoznawanie jaj kukułki.', 'Trzciniaki rozpoznające obce jaja wychowywały własne potomstwo i przekazywały tę cechę dalej — jej częstość rosła (koewolucja pasożyta i żywiciela).', '')),
+]}
