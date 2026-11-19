@@ -127,6 +127,82 @@
    "dzial": "rosliny"
   },
   {
+   "tytul": "Liść rośliny wodnej",
+   "material": "Opis (autorski). Grzybień biały ma liście pływające na powierzchni wody, z licznymi szparkami po górnej stronie i dużymi przestworami powietrznymi w ogonkach.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego szparki grzybienia leżą po górnej stronie liścia.",
+     "odpowiedz": "Tylko górna strona ma kontakt z powietrzem — umożliwia wymianę gazową.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj funkcję aerenchymy w ogonkach liściowych.",
+     "odpowiedz": "Doprowadza powietrze (tlen) do zanurzonych organów i zwiększa pływalność liści.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rosliny-06",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Gibereliny i kiełkowanie zbóż",
+   "material": "Doświadczenie (autorskie). Ziarniaki jęczmienia przecięto na połowę z zarodkiem i połowę bez zarodka. Na pożywce ze skrobią skrobia była rozkładana tylko wokół połówek z zarodkiem. Po dodaniu giberelin rozkład zachodził także wokół połówek bez zarodka.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij wyniki doświadczenia.",
+     "odpowiedz": "Zarodek wydziela gibereliny, które pobudzają warstwę aleuronową do wytwarzania amylazy rozkładającej skrobię; podanie giberelin z zewnątrz zastępuje sygnał od zarodka.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-rosliny-07",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Więdnięcie w upale",
+   "material": "Opis (autorski). W upalne popołudnie liście ogórków na grządce więdną, mimo że gleba jest wilgotna. Wieczorem odzyskują jędrność.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przyczynę więdnięcia i powrotu jędrności.",
+     "odpowiedz": "W upale transpiracja jest szybsza niż pobieranie i przewodzenie wody — komórki tracą wodę i turgor; wieczorem transpiracja słabnie, pobieranie wody nadąża i turgor wraca.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-rosliny-08",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Nawozy a jezioro",
+   "material": "Opis (autorski). Pole kukurydzy intensywnie nawożone azotanami leży nad jeziorem. Rolnik planuje posadzić pas drzew i krzewów między polem a brzegiem.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, jak pas zadrzewień chroni jezioro.",
+     "odpowiedz": "Korzenie drzew i krzewów pobierają związki azotu spływające z pola, ograniczając ich dopływ do jeziora i eutrofizację.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-rosliny-09",
+   "dzial": "rosliny"
+  },
+  {
    "tytul": "Szparki a pora dnia",
    "material": "Tabela (autorska). Średnia szerokość szparek liścia fasoli (µm): 6:00 — 2; 10:00 — 8; 14:00 (upał, susza) — 3; 18:00 — 6; 24:00 — 1.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -156,7 +232,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-06",
+   "id": "b-rosliny-10",
    "dzial": "rosliny"
   },
   {
@@ -189,7 +265,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-07",
+   "id": "b-rosliny-11",
    "dzial": "rosliny"
   },
   {
@@ -214,7 +290,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rosliny-08",
+   "id": "b-rosliny-12",
    "dzial": "rosliny"
   },
   {
@@ -240,7 +316,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rosliny-09",
+   "id": "b-rosliny-13",
    "dzial": "rosliny"
   },
   {
@@ -273,7 +349,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-10",
+   "id": "b-rosliny-14",
    "dzial": "rosliny"
   },
   {
@@ -291,7 +367,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-rosliny-11",
+   "id": "b-rosliny-15",
    "dzial": "rosliny"
   },
   {
@@ -324,7 +400,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-12",
+   "id": "b-rosliny-16",
    "dzial": "rosliny"
   },
   {
@@ -350,7 +426,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rosliny-13",
+   "id": "b-rosliny-17",
    "dzial": "rosliny"
   },
   {
@@ -375,7 +451,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rosliny-14",
+   "id": "b-rosliny-18",
    "dzial": "rosliny"
   },
   {
@@ -393,7 +469,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-rosliny-15",
+   "id": "b-rosliny-19",
    "dzial": "rosliny"
   },
   {
@@ -426,7 +502,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-16",
+   "id": "b-rosliny-20",
    "dzial": "rosliny"
   },
   {
@@ -459,7 +535,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-17",
+   "id": "b-rosliny-21",
    "dzial": "rosliny"
   },
   {
@@ -492,7 +568,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-18",
+   "id": "b-rosliny-22",
    "dzial": "rosliny"
   },
   {
@@ -517,7 +593,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rosliny-19",
+   "id": "b-rosliny-23",
    "dzial": "rosliny"
   },
   {
@@ -550,7 +626,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-20",
+   "id": "b-rosliny-24",
    "dzial": "rosliny"
   },
   {
@@ -583,7 +659,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-21",
+   "id": "b-rosliny-25",
    "dzial": "rosliny"
   }
  ]
