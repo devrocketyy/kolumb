@@ -392,6 +392,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XV.3–5"
     },
     {
+     "id": "f025c143c",
+     "przod": "Real-time PCR (qPCR)",
+     "tyl": "PCR z pomiarem ilości produktu w czasie rzeczywistym (fluorescencja) — oznaczanie ilości DNA/RNA, np. „wiremii”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XV.3–5"
+    },
+    {
      "id": "f386b490b",
      "przod": "Podaj nazwę pojęcia: Jednoniciowe, komplementarne fragmenty powstające po cięciu przesuniętym restryktazą — ułatwiają łączenie DNA pociętego tym samym enzymem.",
      "tyl": "lepkie końce",
@@ -467,6 +473,12 @@
      "id": "f55ec629d",
      "przod": "Rozpoznaj: Synteza DNA z dodatkiem dideoksynukleotydów kończących łańcuch — fragmenty różnej długości odczytuje się po rozdziale.",
      "tyl": "Metoda Sangera — zasada",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XV.3–5"
+    },
+    {
+     "id": "f01e6eee9",
+     "przod": "Rozpoznaj: PCR z pomiarem ilości produktu w czasie rzeczywistym (fluorescencja) — oznaczanie ilości DNA/RNA, np. „wiremii”.",
+     "tyl": "Real-time PCR (qPCR)",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XV.3–5"
     }
    ],
@@ -651,6 +663,19 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Z mRNA.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p96092965",
+     "pytanie": "Ilość wirusowego RNA w próbce oznacza się metodą:",
+     "odpowiedzi": [
+      "elektroforezy",
+      "ilościowego RT-PCR (qPCR)",
+      "sekwencjonowania Sangera",
+      "barwienia Grama"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Pomiar w czasie rzeczywistym.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
