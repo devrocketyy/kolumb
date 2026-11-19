@@ -532,6 +532,49 @@
    "dzial": "umiejetnosci"
   },
   {
+   "tytul": "Obserwacja czy wniosek?",
+   "material": "Doświadczenie (autorskie). Moczarkę oświetlano lampą z odległości 10, 20 i 40 cm. Liczba pęcherzyków O₂ na minutę: 40, 18, 6.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz jedną obserwację i jeden wniosek z doświadczenia.",
+     "odpowiedz": "Obserwacja: im dalej lampa, tym mniej pęcherzyków na minutę. Wniosek: wraz ze spadkiem natężenia światła maleje intensywność fotosyntezy moczarki.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Obserwacja opisuje dane, wniosek — zależność przyczynową.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, dlaczego między lampą a moczarką warto umieścić naczynie z wodą.",
+     "odpowiedz": "Pochłania ciepło lampy — eliminuje wpływ temperatury (zmiennej ubocznej) na wyniki.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-17",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Interpretacja odchylenia standardowego",
+   "material": "Dane (autorskie). Średnia wysokość siewek (cm) ± odchylenie standardowe: nawożone — 12,1 ± 2,8; nienawożone — 11,4 ± 3,1.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy na podstawie tych danych można stwierdzić, że nawóz wyraźnie zwiększa wzrost siewek. Uzasadnij.",
+     "odpowiedz": "Nie — różnica średnich (0,7 cm) jest znacznie mniejsza niż rozrzut wyników (odchylenia ok. 3 cm), więc może być przypadkowa.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-umiejetnosci-18",
+   "dzial": "umiejetnosci"
+  },
+  {
    "tytul": "Drożdże i fermentacja",
    "material": "Doświadczenie (autorskie). Do trzech kolb wlano po 100 cm³ roztworu: A — 5% glukozy z drożdżami, B — 5% glukozy z zagotowanymi drożdżami, C — wody z drożdżami. Kolby zamknięto korkami z rurkami odprowadzającymi gaz do probówek z wodą wapienną i umieszczono w 30°C. Po 30 minutach woda wapienna zmętniała tylko przy kolbie A.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -573,7 +616,7 @@
      "nr": "4"
     }
    ],
-   "id": "b-umiejetnosci-17",
+   "id": "b-umiejetnosci-19",
    "dzial": "umiejetnosci"
   },
   {
@@ -591,7 +634,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-18",
+   "id": "b-umiejetnosci-20",
    "dzial": "umiejetnosci"
   },
   {
@@ -618,7 +661,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-19",
+   "id": "b-umiejetnosci-21",
    "dzial": "umiejetnosci"
   },
   {
@@ -645,7 +688,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-20",
+   "id": "b-umiejetnosci-22",
    "dzial": "umiejetnosci"
   },
   {
@@ -672,7 +715,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-21",
+   "id": "b-umiejetnosci-23",
    "dzial": "umiejetnosci"
   },
   {
@@ -699,7 +742,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-22",
+   "id": "b-umiejetnosci-24",
    "dzial": "umiejetnosci"
   },
   {
@@ -726,7 +769,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-23",
+   "id": "b-umiejetnosci-25",
    "dzial": "umiejetnosci"
   },
   {
@@ -744,7 +787,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-24",
+   "id": "b-umiejetnosci-26",
    "dzial": "umiejetnosci"
   },
   {
@@ -762,7 +805,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-25",
+   "id": "b-umiejetnosci-27",
    "dzial": "umiejetnosci"
   },
   {
@@ -789,7 +832,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-26",
+   "id": "b-umiejetnosci-28",
    "dzial": "umiejetnosci"
   },
   {
@@ -807,7 +850,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-27",
+   "id": "b-umiejetnosci-29",
    "dzial": "umiejetnosci"
   },
   {
@@ -834,7 +877,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-28",
+   "id": "b-umiejetnosci-30",
    "dzial": "umiejetnosci"
   },
   {
@@ -861,7 +904,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-29",
+   "id": "b-umiejetnosci-31",
    "dzial": "umiejetnosci"
   },
   {
@@ -888,7 +931,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-30",
+   "id": "b-umiejetnosci-32",
    "dzial": "umiejetnosci"
   },
   {
@@ -906,7 +949,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-31",
+   "id": "b-umiejetnosci-33",
    "dzial": "umiejetnosci"
   },
   {
@@ -933,7 +976,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-32",
+   "id": "b-umiejetnosci-34",
    "dzial": "umiejetnosci"
   },
   {
@@ -960,7 +1003,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-33",
+   "id": "b-umiejetnosci-35",
    "dzial": "umiejetnosci"
   },
   {
@@ -987,7 +1030,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-34",
+   "id": "b-umiejetnosci-36",
    "dzial": "umiejetnosci"
   },
   {
@@ -1014,7 +1057,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-35",
+   "id": "b-umiejetnosci-37",
    "dzial": "umiejetnosci"
   },
   {
@@ -1032,7 +1075,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-36",
+   "id": "b-umiejetnosci-38",
    "dzial": "umiejetnosci"
   },
   {
@@ -1050,7 +1093,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-37",
+   "id": "b-umiejetnosci-39",
    "dzial": "umiejetnosci"
   },
   {
@@ -1077,7 +1120,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-38",
+   "id": "b-umiejetnosci-40",
    "dzial": "umiejetnosci"
   },
   {
@@ -1104,7 +1147,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-39",
+   "id": "b-umiejetnosci-41",
    "dzial": "umiejetnosci"
   },
   {
@@ -1122,7 +1165,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-umiejetnosci-40",
+   "id": "b-umiejetnosci-42",
    "dzial": "umiejetnosci"
   }
  ]

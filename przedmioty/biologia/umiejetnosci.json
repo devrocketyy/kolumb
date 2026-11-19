@@ -274,6 +274,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
     },
     {
+     "id": "f52d442f9",
+     "przod": "Typowy błąd: odpowiedź bez odniesienia do danych",
+     "tyl": "Gdy polecenie mówi „na podstawie wyników/wykresu”, odpowiedź musi przywołać konkretne dane (np. wartości, kierunek zmian) — sama wiedza z podręcznika nie wystarcza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "fbbdf1f40",
+     "przod": "Typowy błąd: wniosek zamiast obserwacji",
+     "tyl": "Obserwacja opisuje to, co widać („pęcherzyków było więcej”), wniosek wyjaśnia zależność („światło zwiększa intensywność fotosyntezy”).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f6c0360cd",
+     "przod": "Typowy błąd: antropomorfizacja",
+     "tyl": "Nie pisz, że organizm „chce” lub „stara się” — opisz mechanizm (np. „dobór faworyzował osobniki…”).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
      "id": "fa7d455f0",
      "przod": "Rozpoznaj: Opisanie każdego obiektu osobno, bez zestawienia tej samej cechy (np. „mitoza daje 2 komórki; mejoza zachodzi w gonadach”).",
      "tyl": "Typowy błąd w poleceniu „porównaj”",
@@ -289,6 +307,12 @@
      "id": "f63df4295",
      "przod": "Rozpoznaj: Opisz próbę badawczą i kontrolną (jedna różnica), warunki stałe, sposób pomiaru i odczytu wyników.",
      "tyl": "Polecenie „zaplanuj doświadczenie”",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
+    },
+    {
+     "id": "f9cb91811",
+     "przod": "Rozpoznaj: Nie pisz, że organizm „chce” lub „stara się” — opisz mechanizm (np. „dobór faworyzował osobniki…”).",
+     "tyl": "Typowy błąd: antropomorfizacja",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne IV"
     }
    ],
@@ -741,6 +765,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
     },
     {
+     "id": "f4e5cdaad",
+     "przod": "Problem badawczy — wzór",
+     "tyl": "„Czy/Jak [zmienna niezależna] wpływa na [zmienną zależną] u [obiekt badań]?”",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "ff8136233",
+     "przod": "Hipoteza — wzór",
+     "tyl": "„[Zmienna niezależna] zwiększa/zmniejsza [zmienną zależną] u [obiektu badań].”",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fcdff9361",
+     "przod": "Wniosek — wzór",
+     "tyl": "Odpowiada na problem badawczy i opiera się na wynikach — potwierdza lub obala hipotezę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
      "id": "ff01ee31d",
      "przod": "Podaj nazwę pojęcia: Pytanie, na które odpowiada doświadczenie, np. „Czy temperatura wpływa na aktywność katalazy?”.",
      "tyl": "problem badawczy",
@@ -780,6 +822,18 @@
      "id": "f2a95387c",
      "przod": "Rozpoznaj: Substancja obojętna podawana grupie kontrolnej, by wykluczyć wpływ samej świadomości przyjmowania leku.",
      "tyl": "Placebo",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f3d8ec58d",
+     "przod": "Rozpoznaj: „[Zmienna niezależna] zwiększa/zmniejsza [zmienną zależną] u [obiektu badań].”",
+     "tyl": "Hipoteza — wzór",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fca9dd8c1",
+     "przod": "Rozpoznaj: Odpowiada na problem badawczy i opiera się na wynikach — potwierdza lub obala hipotezę.",
+     "tyl": "Wniosek — wzór",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
     }
    ],
@@ -990,6 +1044,32 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Eliminacja wpływu innych czynników.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9952a58d",
+     "pytanie": "Prawidłowo sformułowany problem badawczy to:",
+     "odpowiedzi": [
+      "Fotosynteza moczarki zachodzi w chloroplastach liści.",
+      "Jak natężenie światła wpływa na intensywność fotosyntezy moczarki?",
+      "Światło o dużym natężeniu przyspiesza fotosyntezę moczarki.",
+      "Moczarka wydziela w świetle pęcherzyki tlenu do wody."
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Forma pytania z obiema zmiennymi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p893c9840",
+     "pytanie": "Wniosek z doświadczenia powinien:",
+     "odpowiedzi": [
+      "powtarzać opis metody",
+      "odnosić się do problemu badawczego i wyników",
+      "zawierać nową hipotezę",
+      "opisywać tylko próbę kontrolną"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Odpowiedź na problem.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

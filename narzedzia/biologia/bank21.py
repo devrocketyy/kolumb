@@ -1,0 +1,63 @@
+# Bank zadań autorskich — biologia, część 21: duża partia (zadania ćwiczące typowe pułapki maturalne).
+BANK = {
+'umiejetnosci': [
+ B('Obserwacja czy wniosek?',
+   'Doświadczenie (autorskie). Moczarkę oświetlano lampą z odległości 10, 20 i 40 cm. Liczba pęcherzyków O₂ na minutę: 40, 18, 6.',
+   T('podaj', 1, 'Zapisz jedną obserwację i jeden wniosek z doświadczenia.', 'Obserwacja: im dalej lampa, tym mniej pęcherzyków na minutę. Wniosek: wraz ze spadkiem natężenia światła maleje intensywność fotosyntezy moczarki.', 'Obserwacja opisuje dane, wniosek — zależność przyczynową.'),
+   T('podaj', 1, 'Podaj, dlaczego między lampą a moczarką warto umieścić naczynie z wodą.', 'Pochłania ciepło lampy — eliminuje wpływ temperatury (zmiennej ubocznej) na wyniki.', '')),
+ B('Interpretacja odchylenia standardowego',
+   'Dane (autorskie). Średnia wysokość siewek (cm) ± odchylenie standardowe: nawożone — 12,1 ± 2,8; nienawożone — 11,4 ± 3,1.',
+   T('rozstrzygnij', 1, 'Rozstrzygnij, czy na podstawie tych danych można stwierdzić, że nawóz wyraźnie zwiększa wzrost siewek. Uzasadnij.', 'Nie — różnica średnich (0,7 cm) jest znacznie mniejsza niż rozrzut wyników (odchylenia ok. 3 cm), więc może być przypadkowa.', '')),
+],
+'metabolizm': [
+ B('Oddychanie roślin w nocy',
+   'Doświadczenie (autorskie). W zamkniętym słoju z rośliną mierzono stężenie CO₂: w dzień spadało, w nocy rosło.',
+   T('wyjasnij', 2, 'Wyjaśnij zmiany stężenia CO₂ w dzień i w nocy.', 'W dzień roślina fotosyntezuje szybciej niż oddycha — pobiera więcej CO₂, niż wydziela; w nocy zachodzi tylko oddychanie, więc CO₂ jest wydzielany.', 'Pułapka: roślina oddycha także w dzień.'),
+   T('podaj', 1, 'Wyjaśnij, co oznaczałoby stałe stężenie CO₂ w ciągu dnia.', 'Roślina byłaby w punkcie kompensacyjnym — intensywność fotosyntezy równa intensywności oddychania.', '')),
+],
+'podzialy': [
+ B('Liczenie chromosomów i chromatyd',
+   'Opis (autorski). Komórka zwierzęcia ma 2n = 10.',
+   T('podaj', 2, 'Podaj liczbę chromosomów i chromatyd: a) w metafazie mitozy; b) w anafazie mitozy (cała komórka); c) w metafazie II mejozy.', 'a) 10 chromosomów, 20 chromatyd; b) 20 chromosomów (jednochromatydowych); c) 5 chromosomów, 10 chromatyd.', 'W anafazie każda chromatyda staje się chromosomem.')),
+],
+'genetyka-molekularna': [
+ B('Od nici matrycowej do białka',
+   'Sekwencja (autorska). Fragment nici matrycowej DNA: 3′-TAC CTT GGG ATT-5′. Kod: AUG — Met, GAA — Glu, CCC — Pro, UAA — STOP.',
+   T('podaj', 1, 'Zapisz sekwencję mRNA z oznaczeniem końców.', '5′-AUG GAA CCC UAA-3′.', 'Najpierw mRNA — tabela kodu dotyczy mRNA.'),
+   T('podaj', 1, 'Zapisz sekwencję aminokwasów.', 'Met–Glu–Pro.', '')),
+],
+'genetyka': [
+ B('Daltonizm — wśród synów czy dzieci?',
+   'Opis (autorski). Matka jest nosicielką daltonizmu, ojciec widzi barwy prawidłowo.',
+   T('podaj', 2, 'Oblicz prawdopodobieństwo: a) że ich syn będzie daltonistą; b) że ich dziecko będzie synem daltonistą.', 'a) 1/2 (50%); b) 1/4 (25%).', 'Różnica wynika z tego, czy liczymy wśród synów, czy wśród wszystkich dzieci.')),
+ B('Genotyp z fenotypu potomstwa',
+   'Opis (autorski). Królik o czarnej sierści (czarna dominuje nad białą) ma z białą samicą 6 czarnych i 5 białych młodych.',
+   T('podaj', 1, 'Podaj genotyp czarnego królika. Uzasadnij.', 'Aa — wśród potomstwa z homozygotą recesywną pojawiły się białe młode (aa), więc ojciec przekazał allel a.', ''),
+   T('podaj', 1, 'Podaj nazwę takiego typu krzyżówki.', 'Krzyżówka testowa (wsteczna z homozygotą recesywną).', '')),
+],
+'fizjologia': [
+ B('Insulina — pułapka',
+   'Tekst (autorski). Uczeń napisał: „Insulina obniża stężenie glukozy, ponieważ rozkłada glukozę we krwi”.',
+   T('wyjasnij', 1, 'Popraw błąd ucznia, wyjaśniając działanie insuliny.', 'Insulina nie rozkłada glukozy — zwiększa jej pobieranie przez komórki (np. mięśnie, tkanka tłuszczowa) oraz syntezę glikogenu w wątrobie i mięśniach.', '')),
+ B('Tętnica z krwią odtlenowaną',
+   'Opis (autorski). Uczeń twierdzi, że „wszystkie tętnice prowadzą krew natlenowaną”.',
+   T('wyjasnij', 1, 'Wykaż, że stwierdzenie jest fałszywe, podając przykład i definicję tętnicy.', 'Tętnica to naczynie prowadzące krew od serca; tętnice płucne (pień płucny) prowadzą od prawej komory do płuc krew odtlenowaną.', '')),
+ B('Szczepienie a antybiotyk',
+   'Opis (autorski). Pacjent ma anginę bakteryjną. Rodzina pyta, czy zamiast antybiotyku można podać szczepionkę.',
+   T('wyjasnij', 2, 'Wyjaśnij różnicę działania antybiotyku i szczepionki w tej sytuacji.', 'Antybiotyk niszczy lub hamuje namnażanie bakterii już powodujących chorobę — leczy; szczepionka wywołuje odporność czynną z opóźnieniem (tygodnie) — zapobiega chorobie, ale nie leczy trwającego zakażenia.', '')),
+],
+'rosliny': [
+ B('Zapylenie a zapłodnienie',
+   'Opis (autorski). Na znamię słupka jabłoni pszczoła przeniosła pyłek. Po kilku godzinach w zalążkach doszło do połączenia gamet.',
+   T('podaj', 1, 'Nazwij oba opisane procesy.', 'Przeniesienie pyłku — zapylenie; połączenie gamet — zapłodnienie.', ''),
+   T('wyjasnij', 1, 'Wyjaśnij, jak komórki plemnikowe docierają do zalążka.', 'Ziarno pyłku kiełkuje w łagiewkę, która rośnie przez szyjkę słupka i doprowadza komórki plemnikowe do woreczka zalążkowego.', '')),
+],
+'ewolucja-ekologia': [
+ B('Czy żyrafa „wyciągnęła” szyję?',
+   'Opis (autorski). Uczeń napisał: „Żyrafy wyciągały szyje, by sięgnąć liści, i dlatego mają długie szyje”.',
+   T('wyjasnij', 2, 'Wyjaśnij powstanie długiej szyi żyraf zgodnie z teorią doboru naturalnego.', 'W populacji przodków występowała zmienność długości szyi (mutacje, rekombinacja); osobniki o dłuższych szyjach lepiej zdobywały pokarm, częściej przeżywały i miały więcej potomstwa — allele warunkujące długą szyję stawały się częstsze z pokolenia na pokolenie.', 'Wypowiedź ucznia to lamarkizm — cechy nabyte nie są dziedziczone.')),
+ B('Energia a materia w ekosystemie',
+   'Opis (autorski). W zamkniętym akwarium z roślinami, ślimakami i bakteriami, oświetlanym lampą, organizmy żyją od roku.',
+   T('wyjasnij', 2, 'Wyjaśnij, dlaczego akwarium wymaga stałego oświetlenia, a nie wymaga dodawania pierwiastków.', 'Energia przepływa jednokierunkowo i jest rozpraszana jako ciepło — musi być stale dostarczana (światło dla producentów); pierwiastki krążą — destruenci mineralizują szczątki, a rośliny ponownie je pobierają.', '')),
+],
+}

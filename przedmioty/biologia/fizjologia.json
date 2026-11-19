@@ -1012,6 +1012,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
     },
     {
+     "id": "fe5ec845c",
+     "przod": "Typowy błąd: antybiotyk a szczepionka",
+     "tyl": "Antybiotyk leczy zakażenie bakteryjne (zabija lub hamuje bakterie); szczepionka zapobiega chorobie (wywołuje odporność).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
+     "id": "f064b22a8",
+     "przod": "Typowy błąd: przeciwciała niszczą wirusy w komórce",
+     "tyl": "Przeciwciała działają w płynach ustrojowych; komórki zakażone wirusem niszczą limfocyty Tc i komórki NK.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.2"
+    },
+    {
      "id": "fbfcc15ce",
      "przod": "Wyjaśnij pojęcie: odporność nieswoista",
      "tyl": "Wrodzone mechanizmy obrony działające na każdy patogen tak samo i natychmiast: bariery (skóra, śluz, HCl, lizozym), fagocytoza, stan zapalny, gorączka, układ dopełniacza, interferony, komórki NK.",
@@ -1469,6 +1481,19 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
+     "id": "p60cf7e70",
+     "pytanie": "Szczepionka:",
+     "odpowiedzi": [
+      "daje pełną ochronę natychmiast po podaniu",
+      "zawiera antybiotyk niszczący bakterie",
+      "zapobiega chorobie przez wytworzenie odporności",
+      "leczy rozwiniętą chorobę bakteryjną"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Profilaktyka.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
      "id": "p1947e1fb",
      "pytanie": "Przeciwciała wytwarzane są przez:",
      "odpowiedzi": [
@@ -1600,6 +1625,12 @@
      "id": "fb4f6487c",
      "przod": "Kaszel i kichanie",
      "tyl": "Odruchy obronne usuwające ciała obce i śluz z dróg oddechowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
+    },
+    {
+     "id": "f820047af",
+     "przod": "Typowy błąd: oddychanie a wymiana gazowa",
+     "tyl": "Oddychanie komórkowe to utlenianie związków organicznych w komórkach; wymiana gazowa to dyfuzja O₂ i CO₂ w płucach i tkankach.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 a–j"
     },
     {
@@ -2284,6 +2315,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 k–s"
     },
     {
+     "id": "f9d32e26d",
+     "przod": "Typowy błąd: tętnice zawsze z krwią natlenowaną",
+     "tyl": "Tętnica płucna prowadzi krew odtlenowaną, a żyła płucna — natlenowaną; nazwa zależy od kierunku przepływu względem serca.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.3 k–s"
+    },
+    {
      "id": "f5c15bc06",
      "przod": "Rozpoznaj: Cztery jamy: dwa przedsionki i dwie komory; przegroda oddziela połowę prawą (krew odtlenowana) od lewej (natlenowana); ściana: wsierdzie, mięsień sercowy, nasierdzie; worek osierdziowy.",
      "tyl": "Budowa serca człowieka",
@@ -2611,6 +2648,19 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Cofanie krwi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3c18e7c0",
+     "pytanie": "Krew odtlenowaną prowadzi:",
+     "odpowiedzi": [
+      "tętnica wieńcowa",
+      "pień płucny",
+      "żyła płucna",
+      "aorta"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Do płuc.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -3263,6 +3313,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.5"
     },
     {
+     "id": "f6303ac50",
+     "przod": "Typowy błąd: insulina rozkłada glukozę",
+     "tyl": "Insulina nie rozkłada glukozy — umożliwia jej pobieranie przez komórki i magazynowanie (glikogen, tłuszcze).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.5"
+    },
+    {
+     "id": "ff69e1881",
+     "przod": "Typowy błąd: glukagon a glikogen",
+     "tyl": "Glukagon to hormon trzustki; glikogen to polisacharyd zapasowy — glukagon pobudza rozkład glikogenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.5"
+    },
+    {
      "id": "f75706e57",
      "przod": "Podaj nazwę pojęcia: Substancja wytwarzana przez gruczoł dokrewny lub komórki wydzielnicze, transportowana z krwią i działająca w małych stężeniach na komórki docelowe z odpowiednimi receptorami.",
      "tyl": "hormon",
@@ -3544,6 +3606,19 @@
      "poprawna": "A",
      "wyjasnienie": "Przedni płat przysadki.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p556e7191",
+     "pytanie": "Insulina obniża stężenie glukozy we krwi, ponieważ:",
+     "odpowiedzi": [
+      "zwiększa jej pobieranie przez komórki i syntezę glikogenu",
+      "zwiększa wydalanie glukozy z moczem przez nerki",
+      "rozkłada glukozę bezpośrednio w osoczu krwi",
+      "hamuje trawienie skrobi w jelicie cienkim"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Pułapka maturalna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -3791,6 +3866,12 @@
      "id": "f08ec5d9c",
      "przod": "Uzależnienie — mechanizm",
      "tyl": "Substancje psychoaktywne pobudzają układ nagrody (dopamina); z czasem rozwija się tolerancja i objawy odstawienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.6"
+    },
+    {
+     "id": "f520e984e",
+     "przod": "Typowy błąd: impuls przez synapsę w obie strony",
+     "tyl": "W synapsie chemicznej impuls jest przekazywany tylko w jednym kierunku — z kolbki presynaptycznej na błonę postsynaptyczną.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.6"
     },
     {
@@ -4141,6 +4222,19 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Drogi nerwowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf8d3a0b6",
+     "pytanie": "Jednokierunkowość przekazywania w synapsie chemicznej wynika z:",
+     "odpowiedzi": [
+      "działania pompy sodowo-potasowej w kolbce",
+      "obecności osłonki mielinowej na aksonie",
+      "rozmieszczenia pęcherzyków i receptorów po przeciwnych stronach",
+      "różnicy temperatur po obu stronach szczeliny"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Budowa synapsy.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -5236,6 +5330,12 @@
      "id": "fb80a6822",
      "przod": "Pępowina",
      "tyl": "Łączy płód z łożyskiem; zawiera dwie tętnice (krew odtlenowana od płodu) i jedną żyłę (krew natlenowana do płodu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
+    },
+    {
+     "id": "f3fc750cf",
+     "przod": "Typowy błąd: plemnik decyduje o płci a komórka jajowa",
+     "tyl": "Płeć dziecka zależy od plemnika (X lub Y) — komórka jajowa zawsze ma chromosom X.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XI.2.9"
     },
     {
