@@ -1,0 +1,47 @@
+# Bank zadań autorskich — biologia, część 25: biochemia, komórka, metabolizm, mikroorganizmy, zwierzęta.
+BANK = {
+'biochemia': [
+ B('Hydroliza i kondensacja',
+   'Opis (autorski). Z 500 cząsteczek glukozy powstał łańcuch amylozy (nierozgałęziony).',
+   T('podaj', 1, 'Podaj, ile cząsteczek wody wydzieliło się podczas syntezy tego łańcucha.', '499.', 'Liczba wiązań = n − 1.'),
+   T('podaj', 1, 'Podaj nazwę procesu odwrotnego i miejsce, w którym zachodzi on u człowieka.', 'Hydroliza (trawienie skrobi) — w jamie ustnej i jelicie cienkim (amylazy).', '')),
+],
+'komorka': [
+ B('Autofagia i głód',
+   'Tekst (autorski). W komórkach drożdży pozbawionych pożywki nasila się autofagia — lizosomy (wakuole) trawią część organelli komórki.',
+   T('wyjasnij', 1, 'Wyjaśnij znaczenie autofagii dla komórki w warunkach głodu.', 'Rozkład zbędnych organelli dostarcza aminokwasów, cukrów i lipidów do syntezy niezbędnych białek i do uzyskania energii — komórka dłużej przeżywa.', ''),
+   T('podaj', 1, 'Podaj nazwę enzymów lizosomalnych ze względu na typ katalizowanej reakcji.', 'Hydrolazy (kwaśne hydrolazy).', '')),
+ B('Rzęski w drogach oddechowych',
+   'Tekst (autorski). U palaczy rzęski nabłonka oskrzeli są uszkodzone, a u chorych na pierwotną dyskinezę rzęsek (wada dyneiny) — nieruchome. W obu grupach częste są zapalenia oskrzeli.',
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego unieruchomienie rzęsek zwiększa ryzyko infekcji.', 'Rzęski przesuwają śluz z zatrzymanymi drobnoustrojami i pyłami ku gardłu; bez ich ruchu śluz zalega i rozwijają się bakterie.', ''),
+   T('podaj', 1, 'Podaj, z jakich elementów cytoszkieletu zbudowane są rzęski.', 'Z mikrotubul (układ 9 + 2).', '')),
+],
+'metabolizm': [
+ B('Szklarnia',
+   'Dane (autorskie). Plon pomidorów w szklarni (kg/m²): przy 400 ppm CO₂ i 20°C — 30; przy 800 ppm CO₂ i 20°C — 40; przy 800 ppm CO₂ i 12°C — 28.',
+   T('podaj', 1, 'Sformułuj wniosek dotyczący wpływu stężenia CO₂ na plon.', 'Wyższe stężenie CO₂ zwiększa plon pomidorów (w temperaturze 20°C).', ''),
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego przy 12°C zwiększenie CO₂ nie przyniosło wzrostu plonu.', 'Czynnikiem ograniczającym stała się niska temperatura — enzymy cyklu Calvina działają wolno.', '')),
+ B('Skąd się bierze wydychany CO₂?',
+   'Opis (autorski). Uczeń twierdzi, że CO₂ w wydychanym powietrzu powstaje w płucach.',
+   T('wyjasnij', 2, 'Popraw błąd ucznia, opisując miejsce powstawania CO₂ i jego drogę do płuc.', 'CO₂ powstaje w mitochondriach komórek ciała (reakcja pomostowa, cykl Krebsa); dyfunduje do krwi, jest transportowany głównie jako HCO₃⁻ do płuc, gdzie dyfunduje do pęcherzyków i jest wydychany.', '')),
+],
+'mikroorganizmy': [
+ B('Konserwowanie żywności',
+   'Tabela (autorska). Metody: A — pasteryzacja mleka; B — sterylizacja konserw w autoklawie; C — kiszenie; D — solenie.',
+   T('wyjasnij', 2, 'Wyjaśnij zasadę działania metod C i D.', 'C — bakterie mlekowe obniżają pH, hamując rozwój drobnoustrojów gnilnych; D — duże stężenie soli powoduje osmotyczną utratę wody przez komórki drobnoustrojów (plazmoliza), co uniemożliwia ich rozwój.', ''),
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego mleko pasteryzowane psuje się szybciej niż sterylizowane.', 'Pasteryzacja nie niszczy przetrwalników i części bakterii, a sterylizacja zabija wszystkie drobnoustroje.', '')),
+ B('Botulizm',
+   'Opis (autorski). Domowe konserwy grzybowe z niedostatecznie wygotowanych słoików spowodowały zatrucie z porażeniem mięśni.',
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego laseczka jadu kiełbasianego rozwija się w zamkniętych słoikach.', 'Jest bezwzględnym beztlenowcem — w szczelnie zamkniętym słoju nie ma tlenu; jej przetrwalniki przeżywają krótkie gotowanie.', ''),
+   T('podaj', 1, 'Podaj jeden sposób zapobiegania botulizmowi.', 'Np. wyrzucanie konserw z wybrzuszonym wieczkiem / dokładna sterylizacja / zakwaszanie przetworów.', '')),
+],
+'zwierzeta': [
+ B('Filtratory',
+   'Opis (autorski). Gąbki, małże i rozwielitki odżywiają się cząstkami zawieszonymi w wodzie.',
+   T('podaj', 1, 'Podaj nazwę wspólnego sposobu odżywiania.', 'Filtracja (filtratory).', ''),
+   T('wyjasnij', 1, 'Wyjaśnij znaczenie filtratorów dla czystości wód.', 'Usuwają z wody zawiesinę, glony i bakterie — zwiększają jej przejrzystość.', '')),
+ B('Gniazdowniki i zagniazdowniki',
+   'Opis (autorski). Pisklęta kury po wykluciu są opierzone i od razu chodzą; pisklęta sikory są nagie, ślepe i przez kilkanaście dni karmione w gnieździe.',
+   T('podaj', 1, 'Przyporządkuj gatunki do gniazdowników lub zagniazdowników.', 'Kura — zagniazdownik; sikora — gniazdownik.', ''),
+   T('podaj', 1, 'Podaj jedną korzyść i jeden koszt bycia zagniazdownikiem.', 'Korzyść: pisklęta szybko uciekają przed drapieżnikiem; koszt: jaja muszą być duże, z dużą ilością żółtka (dłuższa inkubacja, mniej jaj).', '')),
+]}

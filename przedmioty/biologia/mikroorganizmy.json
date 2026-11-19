@@ -142,6 +142,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
     },
     {
+     "id": "f6cd34caa",
+     "przod": "Wirusy a zmienność",
+     "tyl": "Wirusy RNA mutują szybko (brak korekty błędów polimerazy) — powstają nowe warianty, np. grypy i SARS-CoV-2.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f20ced3e0",
+     "przod": "Przenoszenie wirusów roślin",
+     "tyl": "Przez owady ssące (mszyce), uszkodzenia mechaniczne, rozmnażanie wegetatywne zakażonych roślin.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XII"
+    },
+    {
      "id": "fd02eb1e1",
      "przod": "Rozpoznaj: Kwas nukleinowy (DNA lub RNA) otoczony białkowym kapsydem; niektóre mają osłonkę lipidową z glikoproteinami (np. HIV, grypa, SARS-CoV-2).",
      "tyl": "Budowa wirusa",
@@ -371,6 +383,19 @@
      "poprawna": "A",
      "wyjasnienie": "Brak ściany, rybosomów 70S.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc4b4e980",
+     "pytanie": "Wirusy roślin najczęściej przenoszą:",
+     "odpowiedzi": [
+      "woda deszczowa",
+      "owady ssące, np. mszyce",
+      "korzenie sąsiednich roślin",
+      "wiatr"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wektory.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -519,6 +544,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
     },
     {
+     "id": "f2150df0e",
+     "przod": "Sterylizacja a pasteryzacja",
+     "tyl": "Sterylizacja zabija wszystkie drobnoustroje i przetrwalniki (np. autoklaw 121°C); pasteryzacja (ok. 70°C) niszczy większość form wegetatywnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "fa8cc025f",
+     "przod": "Botulizm",
+     "tyl": "Zatrucie toksyną laseczki jadu kiełbasianego z źle zakonserwowanej żywności (beztlenowe puszki, słoiki) — porażenie mięśni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
      "id": "f7e988d31",
      "przod": "Rozpoznaj: G+ — gruba warstwa mureiny, barwią się na fioletowo; G− — cienka mureina i błona zewnętrzna, barwią się na różowo; różna wrażliwość na antybiotyki.",
      "tyl": "Gram-dodatnie i Gram-ujemne",
@@ -588,6 +625,12 @@
      "id": "fa67d3f0e",
      "przod": "Rozpoznaj: Hamuje syntezę mureiny — bakterie mają uszkodzoną ścianę i pękają (działa na dzielące się bakterie).",
      "tyl": "Penicylina — mechanizm",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
+    },
+    {
+     "id": "f517d1eb8",
+     "przod": "Rozpoznaj: Zatrucie toksyną laseczki jadu kiełbasianego z źle zakonserwowanej żywności (beztlenowe puszki, słoiki) — porażenie mięśni.",
+     "tyl": "Botulizm",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VI"
     }
    ],
@@ -798,6 +841,32 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Prokarionty.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb9ec5dc0",
+     "pytanie": "Przetrwalniki bakterii niszczy skutecznie:",
+     "odpowiedzi": [
+      "zamrażanie",
+      "sterylizacja w autoklawie",
+      "suszenie",
+      "pasteryzacja"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wysoka temperatura i ciśnienie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa6624dac",
+     "pytanie": "Wybrzuszone wieczko puszki może świadczyć o rozwoju:",
+     "odpowiedzi": [
+      "bakterii beztlenowych (laseczki jadu kiełbasianego)",
+      "bakterii mlekowych z dodatku octu",
+      "drożdży piekarskich w zalewie",
+      "pleśni rosnącej na powierzchni wieczka"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Gazy z fermentacji.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -1324,6 +1393,19 @@
      "poprawna": "D",
      "wyjasnienie": "Defekacja komórkowa.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2c1df2f5",
+     "pytanie": "Okrzemki, bruzdnice i zielenice planktonowe to:",
+     "odpowiedzi": [
+      "fitoplankton",
+      "nekton",
+      "bentos",
+      "zooplankton"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Producenci.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -1451,6 +1533,12 @@
      "id": "f0ad0ec12",
      "przod": "Grzyby a protisty grzybopodobne",
      "tyl": "Lęgniowce i śluzowce przypominają grzyby (strzępki, zarodnie), ale mają m.in. celulozową ścianę (lęgniowce) — nie są grzybami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
+    },
+    {
+     "id": "f7adccf39",
+     "przod": "Grzyby a antybiotyki",
+     "tyl": "Grzyby wytwarzają antybiotyki, by ograniczać konkurencję bakterii w środowisku.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. VII"
     },
     {
@@ -1656,6 +1744,19 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Mutualizm.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbe655ceb",
+     "pytanie": "Grzyby wytwarzają antybiotyki, ponieważ:",
+     "odpowiedzi": [
+      "trawią nimi pokarm",
+      "zwiększają fotosyntezę",
+      "ograniczają konkurencję bakterii",
+      "chronią się przed światłem"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Amensalizm.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

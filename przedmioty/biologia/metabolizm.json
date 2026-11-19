@@ -469,6 +469,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
     },
     {
+     "id": "fa2d98038",
+     "przod": "Szlak metaboliczny",
+     "tyl": "Ciąg reakcji katalizowanych przez kolejne enzymy, w którym produkt jednej reakcji jest substratem następnej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
+     "id": "f047a1c4e",
+     "przod": "Wpływ temperatury na enzymy — dwa efekty",
+     "tyl": "Wzrost temperatury przyspiesza ruch cząsteczek (szybsze reakcje), ale powyżej optimum powoduje denaturację enzymu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
      "id": "f06ba6565",
      "przod": "Wyjaśnij pojęcie: enzym",
      "tyl": "Biokatalizator (najczęściej białko) przyspieszający reakcję chemiczną przez obniżenie energii aktywacji; sam nie zużywa się w reakcji.",
@@ -901,6 +913,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
     },
     {
+     "id": "f62fda278",
+     "przod": "Rozpoznaj: Ciąg reakcji katalizowanych przez kolejne enzymy, w którym produkt jednej reakcji jest substratem następnej.",
+     "tyl": "Szlak metaboliczny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.3"
+    },
+    {
      "id": "f03f0a6a3",
      "przod": "Podaj nazwę pojęcia: Biokatalizator (najczęściej białko) przyspieszający reakcję chemiczną przez obniżenie energii aktywacji; sam nie zużywa się w reakcji.",
      "tyl": "enzym",
@@ -1128,6 +1146,19 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
+     "id": "p1c2904a4",
+     "pytanie": "Powyżej temperatury optymalnej szybkość reakcji enzymatycznej maleje głównie z powodu:",
+     "odpowiedzi": [
+      "braku substratu",
+      "spowolnienia ruchu cząsteczek",
+      "nadmiaru produktu",
+      "denaturacji enzymu"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Utrata kształtu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
      "id": "p7bd7b5cb",
      "pytanie": "Enzymy przyspieszają reakcje, ponieważ:",
      "odpowiedzi": [
@@ -1309,6 +1340,18 @@
      "id": "f6d0c4c7a",
      "przod": "Faza niezależna od światła — czy zachodzi w nocy?",
      "tyl": "Bezpośrednio nie wymaga światła, ale potrzebuje ATP i NADPH z fazy jasnej — w praktyce zachodzi głównie w dzień.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "f028a44ac",
+     "przod": "Czynniki ograniczające fotosyntezę",
+     "tyl": "Natężenie światła, stężenie CO₂, temperatura, dostępność wody i soli (np. Mg, N) — w danej chwili decyduje ten w minimum.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
+     "id": "fcf3b4dda",
+     "przod": "Szklarnie a fotosynteza",
+     "tyl": "W szklarniach podnosi się stężenie CO₂, doświetla i ogrzewa rośliny — zwiększa intensywność fotosyntezy i plony.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
     },
     {
@@ -1846,6 +1889,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
     },
     {
+     "id": "fee5d03be",
+     "przod": "Rozpoznaj: Natężenie światła, stężenie CO₂, temperatura, dostępność wody i soli (np. Mg, N) — w danej chwili decyduje ten w minimum.",
+     "tyl": "Czynniki ograniczające fotosyntezę",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.4"
+    },
+    {
      "id": "f194e7087",
      "przod": "Podaj nazwę pojęcia: Proces anaboliczny, w którym organizmy fotoautotroficzne z CO₂ i H₂O, kosztem energii światła, wytwarzają związki organiczne (cukry), a uwalniają tlen.",
      "tyl": "fotosynteza",
@@ -2085,6 +2134,19 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
+     "id": "pd0c7a1ed",
+     "pytanie": "Podnoszenie stężenia CO₂ w szklarniach służy:",
+     "odpowiedzi": [
+      "obniżeniu temperatury",
+      "zwiększeniu intensywności fotosyntezy",
+      "ochronie przed szkodnikami",
+      "zmniejszeniu transpiracji"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Czynnik ograniczający.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
      "id": "p9efb4e85",
      "pytanie": "Tlen uwalniany w fotosyntezie pochodzi z:",
      "odpowiedzi": [
@@ -2280,6 +2342,18 @@
      "id": "fdd3f047d",
      "przod": "Oddychanie beztlenowe a fermentacja",
      "tyl": "Niektóre bakterie oddychają beztlenowo — końcowym akceptorem elektronów jest np. azotan lub siarczan (nie tlen); fermentacja nie wykorzystuje łańcucha oddechowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f8bfd38d9",
+     "przod": "Gdzie powstaje CO₂ wydychany przez człowieka?",
+     "tyl": "W macierzy mitochondriów — w reakcji pomostowej i cyklu Krebsa (dekarboksylacje).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
+    },
+    {
+     "id": "f76e180b4",
+     "przod": "Oddychanie a wysiłek",
+     "tyl": "Przy intensywnym wysiłku mięśnie częściowo przechodzą na fermentację mleczanową, gdy dostawa tlenu nie nadąża.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. III.5.1–4, 6"
     },
     {
@@ -2786,6 +2860,19 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Pułapka maturalna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa564948c",
+     "pytanie": "Wydychany CO₂ powstaje w:",
+     "odpowiedzi": [
+      "osoczu",
+      "płucach",
+      "mitochondriach komórek",
+      "erytrocytach"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Dekarboksylacje.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {

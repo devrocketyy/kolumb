@@ -124,6 +124,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
     },
     {
+     "id": "fa46375bf",
+     "przod": "Królestwa organizmów (popularny podział)",
+     "tyl": "Bakterie, archeony, protisty, grzyby, rośliny, zwierzęta.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
      "id": "f9b345e42",
      "przod": "Podaj nazwę pojęcia: Dział biologii zajmujący się opisywaniem, nazywaniem i klasyfikowaniem organizmów zgodnie z ich pokrewieństwem ewolucyjnym.",
      "tyl": "systematyka",
@@ -169,6 +175,12 @@
      "id": "f7164fb2c",
      "przod": "Podaj nazwę pojęcia: Grupa organizmów niemających wspólnego bezpośredniego przodka, połączonych na podstawie podobieństw (np. „zwierzęta stałocieplne”: ptaki + ssaki).",
      "tyl": "takson polifiletyczny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
+    },
+    {
+     "id": "fc7e93b5a",
+     "przod": "Rozpoznaj: Bakterie, archeony, protisty, grzyby, rośliny, zwierzęta.",
+     "tyl": "Królestwa organizmów (popularny podział)",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. V"
     }
    ],
@@ -275,6 +287,19 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Wspólny bezpośredni przodek.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb58623b7",
+     "pytanie": "Do jednego rodzaju należą gatunki:",
+     "odpowiedzi": [
+      "Homo sapiens i Pan troglodytes",
+      "Canis lupus i Canis latrans",
+      "Felis catus i Canis lupus",
+      "Pinus sylvestris i Picea abies"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Pierwszy człon nazwy.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -460,6 +485,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
     },
     {
+     "id": "f89dc9fd6",
+     "przod": "Gąbki — odżywianie",
+     "tyl": "Filtratory: komórki kołnierzykowe wiciami wytwarzają prąd wody i wychwytują cząstki pokarmu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f95f10ec7",
+     "przod": "Mięczaki — tarka",
+     "tyl": "Narząd w jamie gębowej ślimaków i głowonogów z zębami chitynowymi do zdrapywania pokarmu (brak u małży).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f7f83ea46",
+     "przod": "Kleszcze — choroby",
+     "tyl": "Przenoszą boreliozę (bakterie) i kleszczowe zapalenie mózgu (wirus) — przeciw KZM istnieje szczepionka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
      "id": "fe80ab76a",
      "przod": "Rozpoznaj: Najprostsze zwierzęta bez tkanek; ciało z porami, komórki kołnierzykowate filtrują wodę; osiadłe, wodne.",
      "tyl": "Gąbki — cechy",
@@ -577,6 +620,18 @@
      "id": "fa9c148e9",
      "przod": "Rozpoznaj: Pszczoły, mrówki, termity — podział na kasty, współpraca w opiece nad potomstwem, komunikacja (np. taniec pszczół).",
      "tyl": "Owady społeczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fb50112e3",
+     "przod": "Rozpoznaj: Filtratory: komórki kołnierzykowe wiciami wytwarzają prąd wody i wychwytują cząstki pokarmu.",
+     "tyl": "Gąbki — odżywianie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "ffa894464",
+     "przod": "Rozpoznaj: Narząd w jamie gębowej ślimaków i głowonogów z zębami chitynowymi do zdrapywania pokarmu (brak u małży).",
+     "tyl": "Mięczaki — tarka",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
     }
    ],
@@ -801,6 +856,32 @@
      "poprawna": "C",
      "wyjasnienie": "Brzuszny łańcuszek.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa7895a6b",
+     "pytanie": "Tarki nie mają:",
+     "odpowiedzi": [
+      "ślimaki",
+      "małże",
+      "kałamarnice",
+      "głowonogi"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Filtratory.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p629a795c",
+     "pytanie": "Przeciw kleszczowemu zapaleniu mózgu:",
+     "odpowiedzi": [
+      "istnieje szczepionka",
+      "stosuje się surowicę z kleszczy",
+      "stosuje się antybiotyki",
+      "nie ma żadnej ochrony"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Choroba wirusowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -955,6 +1036,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
     },
     {
+     "id": "fdfc0f379",
+     "przod": "Płazy — przystosowania do lądu i ich ograniczenia",
+     "tyl": "Kończyny, płuca, powieki — ale cienka skóra i jaja bez skorupy wiążą je z wodą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f67e6d7dd",
+     "przod": "Ptaki — rozmnażanie",
+     "tyl": "Zapłodnienie wewnętrzne, jaja z wapienną skorupą, wysiadywanie i opieka nad młodymi; pisklęta gniazdowniki i zagniazdowniki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
      "id": "f071b450d",
      "przod": "Podaj nazwę pojęcia: Narząd zmysłu ryb (i larw płazów) odbierający drgania i ruchy wody.",
      "tyl": "linia boczna",
@@ -1030,6 +1123,18 @@
      "id": "f96dd5567",
      "przod": "Rozpoznaj: Wole (gromadzenie, zmiękczanie), żołądek gruczołowy i mięśniowy (rozcieranie z kamykami), brak zębów.",
      "tyl": "Ptaki — trawienie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "fc671b5c5",
+     "przod": "Rozpoznaj: Kończyny, płuca, powieki — ale cienka skóra i jaja bez skorupy wiążą je z wodą.",
+     "tyl": "Płazy — przystosowania do lądu i ich ograniczenia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
+    },
+    {
+     "id": "f6fb5d27a",
+     "przod": "Rozpoznaj: Zapłodnienie wewnętrzne, jaja z wapienną skorupą, wysiadywanie i opieka nad młodymi; pisklęta gniazdowniki i zagniazdowniki.",
+     "tyl": "Ptaki — rozmnażanie",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. X"
     }
    ],
@@ -1214,6 +1319,19 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Brak zębów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7703d907",
+     "pytanie": "Zagniazdownikami są pisklęta:",
+     "odpowiedzi": [
+      "kury",
+      "wróbla",
+      "sikory",
+      "jaskółki"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Od razu aktywne.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
