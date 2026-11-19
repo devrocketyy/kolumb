@@ -597,6 +597,58 @@
    ],
    "id": "b-genetyka-24",
    "dzial": "genetyka"
+  },
+  {
+   "tytul": "Epistaza u labradorów",
+   "material": "Opis (autorski). U labradorów: B — czarna, b — brązowa; gen E: E — barwnik odkładany w sierści, ee — sierść żółta niezależnie od B.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj fenotypy psów: BbEe, bbEE, BBee.",
+     "odpowiedz": "BbEe — czarny; bbEE — brązowy; BBee — żółty.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj stosunek fenotypów potomstwa BbEe × BbEe.",
+     "odpowiedz": "9 czarnych : 3 brązowe : 4 żółte.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-25",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Konflikt serologiczny",
+   "material": "Opis (autorski). Kobieta Rh⁻ (dd) ma męża Rh⁺, którego matka była Rh⁻.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj genotyp męża.",
+     "odpowiedz": "Dd.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Od matki Rh⁻ otrzymał allel d.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz prawdopodobieństwo, że ich dziecko będzie Rh⁺.",
+     "odpowiedz": "50%.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Dd × dd.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-26",
+   "dzial": "genetyka"
   }
  ]
 }
