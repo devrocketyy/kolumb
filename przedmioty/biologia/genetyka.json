@@ -196,6 +196,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
     },
     {
+     "id": "fdd5985e1",
+     "przod": "Stosunek 1 : 1 w potomstwie",
+     "tyl": "Typowy wynik krzyżówki heterozygoty z homozygotą recesywną (Aa × aa) — krzyżówka testowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
      "id": "fd6533edc",
      "przod": "Rozpoznaj: 9 : 3 : 3 : 1 (geny niesprzężone, dominacja zupełna).",
      "tyl": "Stosunek fenotypów w F2 krzyżówki dwugenowej (AaBb × AaBb)",
@@ -235,6 +241,12 @@
      "id": "f1e4dc1ba",
      "przod": "Rozpoznaj: Pojawienie się w F2 fenotypów niewidocznych w F1 (np. recesywnych) — dowód, że allele nie mieszają się, lecz rozdzielają.",
      "tyl": "Rozszczepienie cech",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "f3fa07a71",
+     "przod": "Rozpoznaj: Typowy wynik krzyżówki heterozygoty z homozygotą recesywną (Aa × aa) — krzyżówka testowa.",
+     "tyl": "Stosunek 1 : 1 w potomstwie",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
     }
    ],
@@ -645,6 +657,12 @@
      "id": "ffdc5a58e",
      "przod": "Barwa ziarna pszenicy — przykład polimerii",
      "tyl": "Kilka genów o działaniu addytywnym — im więcej alleli „czerwonych”, tym ciemniejsze ziarno (od białego do ciemnoczerwonego).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
+    },
+    {
+     "id": "ff64a754c",
+     "przod": "Kodominacja a dominacja niezupełna — różnica",
+     "tyl": "Kodominacja: u heterozygoty widoczne oba allele osobno (AB); dominacja niezupełna: cecha pośrednia (różowy).",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.2"
     },
     {
@@ -1124,6 +1142,19 @@
      "poprawna": "C",
      "wyjasnienie": "Rekombinacja u samic.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p28a65f5d",
+     "pytanie": "Osobnik AB/ab (odległość 20 cM) wytwarza gamety Ab z częstością:",
+     "odpowiedzi": [
+      "10%",
+      "5%",
+      "40%",
+      "20%"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Połowa rekombinantów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -1275,6 +1306,12 @@
      "id": "fc43b10dd",
      "przod": "Zespół XYY i XXX",
      "tyl": "XYY — mężczyźni zwykle bez poważnych objawów, często wyżsi; XXX — kobiety zwykle bez poważnych objawów (dwa ciałka Barra).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "fcac03b3d",
+     "przod": "Cechy sprzężone z płcią u zwierząt — przykład kotów",
+     "tyl": "Barwa rudo-czarna u kotów zależy od genu na chromosomie X — kocury są rude albo czarne, kotki mogą być szylkretowe.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
     },
     {
@@ -1521,6 +1558,19 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Liczba X − 1.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p486f3617",
+     "pytanie": "Samica muszki XᵂXʷ × samiec XʷY. Prawdopodobieństwo samicy o białych oczach (wśród wszystkich potomków):",
+     "odpowiedzi": [
+      "1/4",
+      "0",
+      "1/8",
+      "1/2"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "XʷXʷ.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -1782,6 +1832,19 @@
      "poprawna": "B",
      "wyjasnienie": "X ojca do córek.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p199f617d",
+     "pytanie": "Analizę rodowodu zaczyna się od osób o genotypie pewnym, np.:",
+     "odpowiedzi": [
+      "chorych z cechą recesywną (aa)",
+      "najstarszych w rodzinie",
+      "zdrowych z cechą recesywną",
+      "losowo wybranych"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Punkt wyjścia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -1942,6 +2005,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
     },
     {
+     "id": "fb38a2dd9",
+     "przod": "Mutacja a splicing — skutki",
+     "tyl": "Zachowanie intronu lub wycięcie eksonu zmienia sekwencję mRNA — często powstaje przedwczesny kodon STOP lub przesunięcie ramki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
      "id": "f18c106a4",
      "przod": "Rozpoznaj: Crossing-over, niezależna segregacja chromosomów w mejozie, losowe łączenie się gamet.",
      "tyl": "Źródła zmienności rekombinacyjnej",
@@ -1993,6 +2062,12 @@
      "id": "f82092013",
      "przod": "Rozpoznaj: Mogą zaburzać splicing (np. powstanie błędnego mRNA) lub zmieniać poziom ekspresji genu, mimo braku zmian w eksonach.",
      "tyl": "Mutacje w intronach i promotorach",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "f4440502e",
+     "przod": "Rozpoznaj: Zachowanie intronu lub wycięcie eksonu zmienia sekwencję mRNA — często powstaje przedwczesny kodon STOP lub przesunięcie ramki.",
+     "tyl": "Mutacja a splicing — skutki",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
     }
    ],
@@ -2394,6 +2469,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
     },
     {
+     "id": "fca74e4d0",
+     "przod": "Zespół Edwardsa",
+     "tyl": "Trisomia 18 — ciężkie wady serca, nerek, niska masa urodzeniowa; większość dzieci umiera w 1. roku życia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
      "id": "fbdf7b237",
      "przod": "Rozpoznaj: Autosomalna recesywna; mutacja genu CFTR (kanał chlorkowy) — gęsty śluz w płucach, trzustce, przewodach — infekcje, zaburzenia trawienia.",
      "tyl": "Mukowiscydoza — dziedziczenie i przyczyna",
@@ -2493,6 +2574,12 @@
      "id": "f06697129",
      "przod": "Rozpoznaj: Autosomalna dominująca choroba tkanki łącznej (gen fibryliny) — wysoki wzrost, długie kończyny, wady serca i oczu.",
      "tyl": "Zespół Marfana",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f2c36388b",
+     "przod": "Rozpoznaj: Trisomia 18 — ciężkie wady serca, nerek, niska masa urodzeniowa; większość dzieci umiera w 1. roku życia.",
+     "tyl": "Zespół Edwardsa",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
     }
    ],
@@ -2742,6 +2829,19 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Fibrylina.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd1c0440a",
+     "pytanie": "Badanie przesiewowe noworodków w Polsce obejmuje m.in.:",
+     "odpowiedzi": [
+      "zespół Downa i inne trisomie",
+      "daltonizm i hemofilię",
+      "mukowiscydozę i fenyloketonurię",
+      "grupy krwi i czynnik Rh"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Kropla krwi.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

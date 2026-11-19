@@ -949,6 +949,32 @@
    ],
    "id": "b-genetyka-39",
    "dzial": "genetyka"
+  },
+  {
+   "tytul": "Dwa geny i płeć",
+   "material": "Opis (autorski). U muszki owocowej barwa oczu (czerwone W > białe w) jest sprzężona z X, a długość skrzydeł (normalne V > zredukowane v) zależy od genu autosomalnego. Skrzyżowano samicę XᵂXʷ Vv z samcem XʷY vv.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj możliwe gamety samicy.",
+     "odpowiedz": "XᵂV, Xᵂv, XʷV, Xʷv.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz prawdopodobieństwo samca o białych oczach i zredukowanych skrzydłach (wśród wszystkich potomków).",
+     "odpowiedz": "1/4 (samiec XʷY) × 1/2 (vv) = 1/8.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "P(syn) × P(Xʷ od matki) = 1/2 × 1/2.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-40",
+   "dzial": "genetyka"
   }
  ]
 }
