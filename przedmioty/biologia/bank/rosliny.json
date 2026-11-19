@@ -2,6 +2,64 @@
  "dzial": "rosliny",
  "wiazki": [
   {
+   "tytul": "Auksyny i ukorzenianie",
+   "material": "Doświadczenie (autorskie). Sadzonki pelargonii zanurzono w roztworach auksyny o różnych stężeniach, a następnie posadzono. Liczba korzeni po 3 tygodniach: woda — 3; 10 mg/l — 12; 100 mg/l — 18; 1000 mg/l — 2 (część sadzonek obumarła).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Opisz zależność przedstawioną w wynikach.",
+     "odpowiedz": "Niskie i średnie stężenia auksyny pobudzają tworzenie korzeni (najsilniej 100 mg/l), a bardzo wysokie je hamują i są toksyczne.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż próbę kontrolną.",
+     "odpowiedz": "Sadzonki zanurzone w wodzie (bez auksyny).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj praktyczne zastosowanie wyników.",
+     "odpowiedz": "Stosowanie ukorzeniaczy z auksyną w odpowiednim stężeniu przy rozmnażaniu roślin z sadzonek.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-rosliny-01",
+   "dzial": "rosliny"
+  },
+  {
+   "tytul": "Fotoperiodyzm",
+   "material": "Doświadczenie (autorskie). Chryzantemy (rośliny dnia krótkiego) hodowano przy 10 h światła i 14 h ciemności — zakwitły. Gdy noc przerwano krótkim błyskiem światła, nie zakwitły.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj wniosek.",
+     "odpowiedz": "O zakwitaniu chryzantemy decyduje długość nieprzerwanego okresu ciemności, a nie długość dnia.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj sposób, w jaki ogrodnicy mogą uzyskać kwitnące chryzantemy latem.",
+     "odpowiedz": "Zaciemnianie roślin (skrócenie dnia, wydłużenie nieprzerwanej nocy).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rosliny-02",
+   "dzial": "rosliny"
+  },
+  {
    "tytul": "Szparki a pora dnia",
    "material": "Tabela (autorska). Średnia szerokość szparek liścia fasoli (µm): 6:00 — 2; 10:00 — 8; 14:00 (upał, susza) — 3; 18:00 — 6; 24:00 — 1.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -31,7 +89,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-01",
+   "id": "b-rosliny-03",
    "dzial": "rosliny"
   },
   {
@@ -64,7 +122,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-02",
+   "id": "b-rosliny-04",
    "dzial": "rosliny"
   },
   {
@@ -89,7 +147,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rosliny-03",
+   "id": "b-rosliny-05",
    "dzial": "rosliny"
   },
   {
@@ -115,7 +173,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rosliny-04",
+   "id": "b-rosliny-06",
    "dzial": "rosliny"
   },
   {
@@ -148,7 +206,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-05",
+   "id": "b-rosliny-07",
    "dzial": "rosliny"
   },
   {
@@ -166,7 +224,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-rosliny-06",
+   "id": "b-rosliny-08",
    "dzial": "rosliny"
   },
   {
@@ -199,7 +257,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-07",
+   "id": "b-rosliny-09",
    "dzial": "rosliny"
   },
   {
@@ -225,7 +283,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rosliny-08",
+   "id": "b-rosliny-10",
    "dzial": "rosliny"
   },
   {
@@ -250,7 +308,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rosliny-09",
+   "id": "b-rosliny-11",
    "dzial": "rosliny"
   },
   {
@@ -268,7 +326,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-rosliny-10",
+   "id": "b-rosliny-12",
    "dzial": "rosliny"
   },
   {
@@ -301,7 +359,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-11",
+   "id": "b-rosliny-13",
    "dzial": "rosliny"
   },
   {
@@ -334,7 +392,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-12",
+   "id": "b-rosliny-14",
    "dzial": "rosliny"
   },
   {
@@ -367,7 +425,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-13",
+   "id": "b-rosliny-15",
    "dzial": "rosliny"
   },
   {
@@ -392,7 +450,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rosliny-14",
+   "id": "b-rosliny-16",
    "dzial": "rosliny"
   },
   {
@@ -425,7 +483,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-15",
+   "id": "b-rosliny-17",
    "dzial": "rosliny"
   },
   {
@@ -458,7 +516,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rosliny-16",
+   "id": "b-rosliny-18",
    "dzial": "rosliny"
   }
  ]

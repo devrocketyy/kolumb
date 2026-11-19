@@ -2,6 +2,64 @@
  "dzial": "metabolizm",
  "wiazki": [
   {
+   "tytul": "Katalaza w ziemniaku",
+   "material": "Doświadczenie (autorskie). Do probówek z H₂O₂ dodano: A — kawałek surowego ziemniaka; B — kawałek gotowanego ziemniaka; C — piasek. Pieniste wydzielanie gazu obserwowano tylko w probówce A.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę gazu i enzymu odpowiedzialnego za jego wydzielanie.",
+     "odpowiedz": "Tlen; katalaza.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij wynik w probówce B.",
+     "odpowiedz": "Gotowanie spowodowało denaturację katalazy — enzym utracił aktywność.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ funkcję probówki C.",
+     "odpowiedz": "Kontrola wykluczająca, że sam dodatek ciała stałego (powierzchnia) powoduje rozkład H₂O₂.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-metabolizm-01",
+   "dzial": "metabolizm"
+  },
+  {
+   "tytul": "Fotosynteza a barwa światła",
+   "material": "Doświadczenie (autorskie). Moczarkę oświetlano przez filtry o tej samej mocy światła. Liczba pęcherzyków O₂ na minutę: czerwone — 30; niebieskie — 26; zielone — 5.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w świetle zielonym fotosynteza była najsłabsza.",
+     "odpowiedz": "Chlorofil słabo pochłania światło zielone (odbija je), więc mało energii jest wykorzystywane w fazie zależnej od światła.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden czynnik, który trzeba utrzymać na stałym poziomie we wszystkich próbach.",
+     "odpowiedz": "Np. temperatura wody / stężenie CO₂ (NaHCO₃) / wielkość pędu moczarki / odległość od źródła światła.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-metabolizm-02",
+   "dzial": "metabolizm"
+  },
+  {
    "tytul": "Inhibitor kompetycyjny",
    "material": "Wykres (opis, autorski). Szybkość reakcji enzymatycznej w zależności od stężenia substratu: krzywa A (bez inhibitora) osiąga plateau 100 jednostek przy stężeniu 20 mM; krzywa B (z inhibitorem X) rośnie wolniej, ale przy stężeniu 80 mM osiąga ten sam poziom 100 jednostek.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -25,7 +83,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-01",
+   "id": "b-metabolizm-03",
    "dzial": "metabolizm"
   },
   {
@@ -43,7 +101,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-metabolizm-02",
+   "id": "b-metabolizm-04",
    "dzial": "metabolizm"
   },
   {
@@ -69,7 +127,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-03",
+   "id": "b-metabolizm-05",
    "dzial": "metabolizm"
   },
   {
@@ -95,7 +153,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-04",
+   "id": "b-metabolizm-06",
    "dzial": "metabolizm"
   },
   {
@@ -130,7 +188,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-metabolizm-05",
+   "id": "b-metabolizm-07",
    "dzial": "metabolizm"
   },
   {
@@ -156,7 +214,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-06",
+   "id": "b-metabolizm-08",
    "dzial": "metabolizm"
   },
   {
@@ -190,7 +248,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-metabolizm-07",
+   "id": "b-metabolizm-09",
    "dzial": "metabolizm"
   },
   {
@@ -216,7 +274,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-08",
+   "id": "b-metabolizm-10",
    "dzial": "metabolizm"
   },
   {
@@ -249,7 +307,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-metabolizm-09",
+   "id": "b-metabolizm-11",
    "dzial": "metabolizm"
   },
   {
@@ -274,7 +332,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-10",
+   "id": "b-metabolizm-12",
    "dzial": "metabolizm"
   },
   {
@@ -300,7 +358,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-11",
+   "id": "b-metabolizm-13",
    "dzial": "metabolizm"
   },
   {
@@ -325,7 +383,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-12",
+   "id": "b-metabolizm-14",
    "dzial": "metabolizm"
   },
   {
@@ -351,7 +409,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-13",
+   "id": "b-metabolizm-15",
    "dzial": "metabolizm"
   },
   {
@@ -376,7 +434,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-14",
+   "id": "b-metabolizm-16",
    "dzial": "metabolizm"
   },
   {
@@ -394,7 +452,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-metabolizm-15",
+   "id": "b-metabolizm-17",
    "dzial": "metabolizm"
   },
   {
@@ -429,7 +487,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-metabolizm-16",
+   "id": "b-metabolizm-18",
    "dzial": "metabolizm"
   },
   {
@@ -454,7 +512,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-17",
+   "id": "b-metabolizm-19",
    "dzial": "metabolizm"
   },
   {
@@ -487,7 +545,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-metabolizm-18",
+   "id": "b-metabolizm-20",
    "dzial": "metabolizm"
   },
   {
@@ -512,7 +570,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-19",
+   "id": "b-metabolizm-21",
    "dzial": "metabolizm"
   },
   {
@@ -546,7 +604,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-metabolizm-20",
+   "id": "b-metabolizm-22",
    "dzial": "metabolizm"
   },
   {
@@ -571,7 +629,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-21",
+   "id": "b-metabolizm-23",
    "dzial": "metabolizm"
   },
   {
@@ -604,7 +662,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-metabolizm-22",
+   "id": "b-metabolizm-24",
    "dzial": "metabolizm"
   },
   {
@@ -630,7 +688,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-23",
+   "id": "b-metabolizm-25",
    "dzial": "metabolizm"
   },
   {
@@ -656,7 +714,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-24",
+   "id": "b-metabolizm-26",
    "dzial": "metabolizm"
   },
   {
@@ -681,7 +739,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-25",
+   "id": "b-metabolizm-27",
    "dzial": "metabolizm"
   },
   {
@@ -706,7 +764,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-metabolizm-26",
+   "id": "b-metabolizm-28",
    "dzial": "metabolizm"
   }
  ]

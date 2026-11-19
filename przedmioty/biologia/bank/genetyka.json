@@ -411,6 +411,91 @@
    ],
    "id": "b-genetyka-16",
    "dzial": "genetyka"
+  },
+  {
+   "tytul": "Kodominacja u bydła",
+   "material": "Opis (autorski). U bydła rasy shorthorn krzyżówka osobników rudych z białymi daje potomstwo deresowate (rude i białe włosy jednocześnie).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ typ współdziałania alleli. Uzasadnij.",
+     "odpowiedz": "Kodominacja — u heterozygoty ujawniają się oba allele (obecne włosy rude i białe), a nie fenotyp pośredni.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj stosunek fenotypów w potomstwie dwóch osobników deresowatych.",
+     "odpowiedz": "1 rude : 2 deresowate : 1 białe.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-17",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Daltonizm i grupa krwi",
+   "material": "Opis (autorski). Kobieta z grupą krwi A, nosicielka daltonizmu, której ojciec miał grupę 0, ma dziecko z mężczyzną z grupą krwi 0 i prawidłowym widzeniem barw.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz genotypy rodziców.",
+     "odpowiedz": "Kobieta: Iᴬi XᴰXᵈ; mężczyzna: ii XᴰY.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Oblicz prawdopodobieństwo urodzenia syna z grupą 0 i daltonizmem (wśród wszystkich dzieci).",
+     "odpowiedz": "P(grupa 0) = 1/2; P(syn daltonista) = 1/4; łącznie 1/2 × 1/4 = 1/8 (12,5%).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Reguła iloczynu.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-18",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Mutacja w sekwencji",
+   "material": "Sekwencja (autorska). Fragment nici kodującej: 5′-ATG TTT GGA TGG-3′ (Met–Phe–Gly–Trp). Po mutacji: 5′-ATG TTT GGA TGA-3′.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ rodzaj mutacji i jej skutek dla białka.",
+     "odpowiedz": "Substytucja (G→A) — mutacja nonsens: kodon UGG (Trp) zmienił się w UGA (STOP), białko zostanie skrócone.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-genetyka-19",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Zespół Klinefeltera",
+   "material": "Opis (autorski). Mężczyzna o kariotypie 47,XXY jest bezpłodny i ma niedorozwój jąder.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, jak w wyniku nondysjunkcji u matki mogło powstać dziecko o takim kariotypie.",
+     "odpowiedz": "W mejozie u matki chromosomy X nie rozeszły się — powstała komórka jajowa z dwoma chromosomami X (XX); zapłodniona plemnikiem z chromosomem Y dała zygotę XXY.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-genetyka-20",
+   "dzial": "genetyka"
   }
  ]
 }
