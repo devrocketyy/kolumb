@@ -342,6 +342,31 @@
    ],
    "id": "b-biotechnologia-14",
    "dzial": "biotechnologia"
+  },
+  {
+   "tytul": "Test ELISA",
+   "material": "Opis (autorski). W teście na obecność przeciwciał przeciw wirusowi płytkę pokrytą antygenem wirusa inkubuje się z surowicą pacjenta, płucze, a następnie dodaje przeciwciało wtórne z enzymem. Zmiana barwy świadczy o wyniku dodatnim.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego zmiana barwy świadczy o obecności przeciwciał pacjenta.",
+     "odpowiedz": "Przeciwciała pacjenta związały antygen na płytce, a przeciwciało wtórne z enzymem związało się z nimi — enzym przekształca substrat w barwny produkt.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, o czym świadczy dodatni wynik tego testu.",
+     "odpowiedz": "O kontakcie z wirusem (zakażeniu obecnym lub przebytym) lub szczepieniu — organizm wytworzył przeciwciała.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-biotechnologia-15",
+   "dzial": "biotechnologia"
   }
  ]
 }

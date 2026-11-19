@@ -130,6 +130,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
     },
     {
+     "id": "feb57c9cb",
+     "przod": "Polimorfizm genetyczny",
+     "tyl": "Występowanie w populacji dwóch lub więcej wariantów sekwencji DNA (alleli) z częstością powyżej 1% — np. grupy krwi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
      "id": "ff6d5b9ba",
      "przod": "Podaj nazwę pojęcia: Odcinek DNA zawierający informację o budowie produktu — białka (łańcucha polipeptydowego) lub funkcjonalnego RNA (rRNA, tRNA), wraz z sekwencjami regulatorowymi.",
      "tyl": "gen",
@@ -199,6 +205,12 @@
      "id": "f7feb8518",
      "przod": "Rozpoznaj: Ich produktem końcowym jest RNA (nie białko) — ulegają tylko transkrypcji.",
      "tyl": "Geny tRNA i rRNA",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "fa1f79893",
+     "przod": "Rozpoznaj: Występowanie w populacji dwóch lub więcej wariantów sekwencji DNA (alleli) z częstością powyżej 1% — np. grupy krwi.",
+     "tyl": "Polimorfizm genetyczny",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
     }
    ],
@@ -332,6 +344,19 @@
      "poprawna": "C",
      "wyjasnienie": "Powielenie i zróżnicowanie.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pca5e601f",
+     "pytanie": "Występowanie w populacji grup krwi A, B, AB i 0 to przykład:",
+     "odpowiedzi": [
+      "polimorfizmu genetycznego",
+      "mozaicyzmu",
+      "mutacji letalnej",
+      "aneuploidii"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Kilka wariantów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -456,6 +481,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
     },
     {
+     "id": "ff42ab3ca",
+     "przod": "Antybiotyki hamujące transkrypcję",
+     "tyl": "Ryfampicyna blokuje bakteryjną polimerazę RNA — stosowana m.in. w leczeniu gruźlicy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
      "id": "f845b87fc",
      "przod": "Podaj nazwę pojęcia: Synteza RNA na matrycy jednej nici DNA przez polimerazę RNA, zgodnie z zasadą komplementarności (A–U, T–A, G–C, C–G).",
      "tyl": "transkrypcja",
@@ -501,6 +532,12 @@
      "id": "ff6326b03",
      "przod": "Rozpoznaj: Cząsteczki RNA o aktywności katalitycznej (np. rRNA w rybosomie, RNA spliceosomu) — argument za hipotezą świata RNA.",
      "tyl": "Rybozymy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "f7fb7ca36",
+     "przod": "Rozpoznaj: Ryfampicyna blokuje bakteryjną polimerazę RNA — stosowana m.in. w leczeniu gruźlicy.",
+     "tyl": "Antybiotyki hamujące transkrypcję",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
     }
    ],
@@ -646,6 +683,19 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Sprzężenie transkrypcji i translacji.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p726a9a39",
+     "pytanie": "Ryfampicyna hamuje u bakterii:",
+     "odpowiedzi": [
+      "syntezę ściany komórkowej",
+      "transkrypcję (polimerazę RNA)",
+      "replikację DNA",
+      "translację na rybosomach"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Leczenie gruźlicy.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -831,6 +881,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
     },
     {
+     "id": "f1c4bd641",
+     "przod": "Antybiotyki hamujące translację",
+     "tyl": "Streptomycyna, tetracyklina, chloramfenikol, erytromycyna — działają na rybosomy 70S bakterii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
      "id": "f07ce90b7",
      "przod": "Podaj nazwę pojęcia: Sposób zapisu informacji o kolejności aminokwasów w białku za pomocą sekwencji nukleotydów — trójek (kodonów) w mRNA.",
      "tyl": "kod genetyczny",
@@ -912,6 +968,12 @@
      "id": "fb281341a",
      "przod": "Rozpoznaj: rRNA i białka; u eukariontów 80S (60S + 40S), u prokariontów 70S (50S + 30S).",
      "tyl": "Rybosom — skład",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f0ba73ba6",
+     "przod": "Rozpoznaj: Streptomycyna, tetracyklina, chloramfenikol, erytromycyna — działają na rybosomy 70S bakterii.",
+     "tyl": "Antybiotyki hamujące translację",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
     }
    ],
@@ -1148,6 +1210,19 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Import białek.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9efa9b42",
+     "pytanie": "Tetracyklina działa na:",
+     "odpowiedzi": [
+      "polimerazę DNA",
+      "ścianę komórkową",
+      "rybosomy 70S bakterii",
+      "rybosomy 80S człowieka"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Translacja bakteryjna.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
