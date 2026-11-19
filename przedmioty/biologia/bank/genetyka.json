@@ -692,6 +692,83 @@
    ],
    "id": "b-genetyka-28",
    "dzial": "genetyka"
+  },
+  {
+   "tytul": "Dominacja niezupełna w dwóch genach",
+   "material": "Opis (autorski). U pewnej rośliny barwa kwiatów (CC — czerwone, Cc — różowe, cc — białe) i kształt liści (LL — szerokie, Ll — pośrednie, ll — wąskie) dziedziczą się niezależnie, z dominacją niezupełną.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, ile klas fenotypów pojawi się w potomstwie CcLl × CcLl.",
+     "odpowiedz": "9.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Każdy genotyp ma odrębny fenotyp.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz prawdopodobieństwo rośliny o różowych kwiatach i pośrednich liściach.",
+     "odpowiedz": "1/2 × 1/2 = 1/4.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-29",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Zespół łamliwego chromosomu X",
+   "material": "Opis (autorski). W rodzinie dziadek ze strony matki miał 60 powtórzeń CGG w genie FMR1 (bez objawów), jego córka — 90 (bez objawów), a jej syn — ponad 200 (niepełnosprawność intelektualna).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę typu mutacji.",
+     "odpowiedz": "Mutacja dynamiczna (ekspansja powtórzeń trójnukleotydowych).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego objawy pojawiły się dopiero u wnuka.",
+     "odpowiedz": "Liczba powtórzeń rosła z pokolenia na pokolenie i dopiero u wnuka przekroczyła próg wywołujący objawy.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-30",
+   "dzial": "genetyka"
+  },
+  {
+   "tytul": "Analiza rodowodu krok po kroku",
+   "material": "Rodowód (opis, autorski). I: zdrowa kobieta × chory mężczyzna. II: dwie córki (zdrowe), dwóch synów (zdrowi). III: córka II-1 ze zdrowym mężczyzną ma chorego syna i zdrową córkę.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ najbardziej prawdopodobny sposób dziedziczenia. Uzasadnij.",
+     "odpowiedz": "Recesywny sprzężony z X — choroba przeskoczyła pokolenie, córki chorego mężczyzny są zdrowymi nosicielkami, a chory jest wnuk (syn nosicielki).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz prawdopodobieństwo, że kolejny syn córki II-1 będzie chory.",
+     "odpowiedz": "50%.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Matka XᴬXᵃ — połowa synów otrzymuje Xᵃ.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-genetyka-31",
+   "dzial": "genetyka"
   }
  ]
 }

@@ -160,6 +160,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
     },
     {
+     "id": "f0d12fe8d",
+     "przod": "Jak odróżnić 9:3:3:1 od sprzężenia w zadaniu?",
+     "tyl": "Przy genach niesprzężonych w krzyżówce testowej klasy są równe (1:1:1:1); przy sprzężeniu dwie klasy rodzicielskie wyraźnie przeważają.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
+     "id": "f1b28d36f",
+     "przod": "Wynik krzyżówki dwóch heterozygot przy dominacji niezupełnej w obu genach",
+     "tyl": "9 klas fenotypowych w F2 (każdy genotyp ma odrębny fenotyp).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.1"
+    },
+    {
      "id": "fd6533edc",
      "przod": "Rozpoznaj: 9 : 3 : 3 : 1 (geny niesprzężone, dominacja zupełna).",
      "tyl": "Stosunek fenotypów w F2 krzyżówki dwugenowej (AaBb × AaBb)",
@@ -429,6 +441,19 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "AA : 2Aa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p850bf233",
+     "pytanie": "Ile klas fenotypów powstaje w F2 krzyżówki AaBb × AaBb, gdy oba geny wykazują dominację niezupełną?",
+     "odpowiedzi": [
+      "9",
+      "6",
+      "16",
+      "4"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Każdy genotyp to fenotyp.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -1029,6 +1054,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
     },
     {
+     "id": "fdec7c2cf",
+     "przod": "Gen SRY",
+     "tyl": "Gen na chromosomie Y uruchamiający rozwój jąder; jego brak (lub przeniesienie na X) zmienia rozwój płci.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "fdcec73d1",
+     "przod": "Dlaczego mężczyźni częściej są daltonistami?",
+     "tyl": "Allel daltonizmu leży na X; mężczyzna ma jeden X, więc jeden allel recesywny wystarcza — kobieta potrzebuje dwóch.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
      "id": "f1b41aa84",
      "przod": "Rozpoznaj: XX/XY (ssaki, muszka), ZW/ZZ (ptaki, motyle — samica ZW heterogametyczna), X0 (niektóre owady), haplodiploidalność (pszczoły — samce n), temperaturowa (wiele gadów).",
      "tyl": "Typy determinacji płci u zwierząt",
@@ -1050,6 +1087,12 @@
      "id": "f67746826",
      "przod": "Rozpoznaj: Osobnik mający tylko jeden allel danego genu — np. mężczyzna dla genów chromosomu X.",
      "tyl": "Hemizygota",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
+    },
+    {
+     "id": "fdc64e05d",
+     "przod": "Rozpoznaj: Gen na chromosomie Y uruchamiający rozwój jąder; jego brak (lub przeniesienie na X) zmienia rozwój płci.",
+     "tyl": "Gen SRY",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.5–7"
     }
    ],
@@ -1222,6 +1265,19 @@
      "poprawna": "C",
      "wyjasnienie": "Zdarzenia niezależne.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p376beeb4",
+     "pytanie": "Częstość daltonizmu u mężczyzn wynosi ok. 8%. U kobiet jest:",
+     "odpowiedzi": [
+      "znacznie mniejsza (ok. 0,64%)",
+      "zawsze zerowa",
+      "taka sama",
+      "dwa razy większa"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "q² = 0,08².",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -1304,6 +1360,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
     },
     {
+     "id": "fc42a7e15",
+     "przod": "Krok po kroku — analiza rodowodu",
+     "tyl": "1) Recesywna czy dominująca? (zdrowi rodzice, chore dziecko → recesywna). 2) Sprzężona z X? (sprawdź ojców i synów, matki i córki). 3) Zapisz genotypy pewne, potem prawdopodobne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
      "id": "ff2429bbc",
      "przod": "Rozpoznaj: Kwadrat — mężczyzna, koło — kobieta; zamalowany — chory; pozioma linia — związek; pionowa — potomstwo; cyfry rzymskie — pokolenia.",
      "tyl": "Oznaczenia w rodowodach",
@@ -1313,6 +1375,12 @@
      "id": "fa1b90a26",
      "przod": "Rozpoznaj: Osoba, od której rozpoczęto badanie rodowodu (zwykle pierwsza zdiagnozowana w rodzinie).",
      "tyl": "Proband",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
+    },
+    {
+     "id": "fdb89e5af",
+     "przod": "Rozpoznaj: 1) Recesywna czy dominująca? (zdrowi rodzice, chore dziecko → recesywna). 2) Sprzężona z X? (sprawdź ojców i synów, matki i córki). 3) Zapisz genotypy pewne, potem prawdopodobne.",
+     "tyl": "Krok po kroku — analiza rodowodu",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.1.8"
     }
    ],
@@ -1419,6 +1487,19 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Aa × Aa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "ped5af370",
+     "pytanie": "Pierwszym krokiem w analizie rodowodu jest zwykle ustalenie, czy cecha jest:",
+     "odpowiedzi": [
+      "sprzężona z Y",
+      "wielogenowa",
+      "mitochondrialna",
+      "dominująca czy recesywna"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Podstawowa decyzja.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -1544,6 +1625,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
     },
     {
+     "id": "fdf69134f",
+     "przod": "Mutacje dynamiczne",
+     "tyl": "Powiększanie się liczby powtórzeń trójek nukleotydów w kolejnych pokoleniach (np. pląsawica Huntingtona, zespół łamliwego X) — objawy wcześniejsze i silniejsze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "f813187be",
+     "przod": "Duplikacja genów a ewolucja",
+     "tyl": "Kopia genu może mutować bez utraty pierwotnej funkcji — źródło nowych genów i funkcji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
      "id": "f18c106a4",
      "przod": "Rozpoznaj: Crossing-over, niezależna segregacja chromosomów w mejozie, losowe łączenie się gamet.",
      "tyl": "Źródła zmienności rekombinacyjnej",
@@ -1577,6 +1670,12 @@
      "id": "f344cc64d",
      "przod": "Rozpoznaj: Obecność w organizmie komórek o różnym kariotypie lub genotypie (np. wskutek nondysjunkcji w mitozie zarodka).",
      "tyl": "Mozaicyzm",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
+    },
+    {
+     "id": "f7cb38dee",
+     "przod": "Rozpoznaj: Powiększanie się liczby powtórzeń trójek nukleotydów w kolejnych pokoleniach (np. pląsawica Huntingtona, zespół łamliwego X) — objawy wcześniejsze i silniejsze.",
+     "tyl": "Mutacje dynamiczne",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.1–6"
     }
    ],
@@ -1710,6 +1809,19 @@
      "poprawna": "A",
      "wyjasnienie": "Mozaicyzm.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe192dfbe",
+     "pytanie": "Wzrost liczby powtórzeń CAG w kolejnych pokoleniach to mutacja:",
+     "odpowiedzi": [
+      "cicha",
+      "dynamiczna",
+      "translokacja",
+      "liczbowa"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Pląsawica Huntingtona.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -1831,6 +1943,24 @@
      "id": "fd755574a",
      "przod": "Albinizm",
      "tyl": "Autosomalny recesywny brak melaniny (niedobór tyrozynazy) — jasna skóra, włosy, wrażliwość na UV.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f159635d9",
+     "przod": "Zespół łamliwego chromosomu X",
+     "tyl": "Najczęstsza dziedziczna przyczyna niepełnosprawności intelektualnej; mutacja dynamiczna (powtórzenia CGG) w genie na chromosomie X.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f4eb846a9",
+     "przod": "Choroby wieloczynnikowe",
+     "tyl": "Warunkowane wieloma genami i środowiskiem — np. cukrzyca typu 2, nadciśnienie, rozszczep wargi, wiele nowotworów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
+    },
+    {
+     "id": "f4f45f1c8",
+     "przod": "Geny BRCA1 i BRCA2",
+     "tyl": "Geny supresorowe naprawy DNA; ich mutacje znacznie zwiększają ryzyko raka piersi i jajnika.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIV.2.7–9"
     },
     {
@@ -2081,6 +2211,32 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Test z kropli krwi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p34439189",
+     "pytanie": "Cukrzyca typu 2 jest chorobą:",
+     "odpowiedzi": [
+      "wieloczynnikową (geny i środowisko)",
+      "jednogenową recesywną",
+      "chromosomową",
+      "mitochondrialną"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Styl życia + predyspozycje.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7c6e0b48",
+     "pytanie": "Mutacje genów BRCA1/BRCA2 zwiększają ryzyko:",
+     "odpowiedzi": [
+      "daltonizmu",
+      "hemofilii",
+      "zespołu Downa",
+      "raka piersi i jajnika"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Geny supresorowe.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

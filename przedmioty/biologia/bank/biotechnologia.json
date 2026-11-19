@@ -292,6 +292,31 @@
    ],
    "id": "b-biotechnologia-12",
    "dzial": "biotechnologia"
+  },
+  {
+   "tytul": "CRISPR i anemia sierpowata",
+   "material": "Tekst (autorski). W nowej terapii anemii sierpowatej pobiera się komórki macierzyste szpiku pacjenta, za pomocą CRISPR włącza się w nich gen hemoglobiny płodowej, a następnie podaje je z powrotem pacjentowi.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ, czy to terapia genowa somatyczna czy linii płciowej. Uzasadnij.",
+     "odpowiedz": "Somatyczna — zmienia się komórki szpiku, a nie komórki płciowe; zmiana nie będzie dziedziczona.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego modyfikuje się komórki macierzyste, a nie dojrzałe erytrocyty.",
+     "odpowiedz": "Dojrzałe erytrocyty nie mają jądra i nie dzielą się, a komórki macierzyste stale wytwarzają nowe krwinki — efekt jest długotrwały.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-biotechnologia-13",
+   "dzial": "biotechnologia"
   }
  ]
 }
