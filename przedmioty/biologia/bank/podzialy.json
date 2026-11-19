@@ -422,6 +422,56 @@
    ],
    "id": "b-podzialy-17",
    "dzial": "podzialy"
+  },
+  {
+   "tytul": "Schemat ilości DNA w mejozie",
+   "material": "Wykres (opis, autorski). Ilość DNA w komórce: odcinek I — 2c; II — wzrost do 4c; III — 4c; IV — spadek do 2c; V — 2c; VI — spadek do 1c.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Przyporządkuj odcinkom II, IV i VI procesy.",
+     "odpowiedz": "II — replikacja DNA (faza S); IV — mejoza I (rozdzielenie chromosomów homologicznych i cytokineza); VI — mejoza II (rozdzielenie chromatyd).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy wykres może dotyczyć mitozy. Uzasadnij.",
+     "odpowiedz": "Nie — po mitozie ilość DNA wraca do 2c, a tu spada do 1c (dwa podziały bez replikacji między nimi).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-podzialy-18",
+   "dzial": "podzialy"
+  },
+  {
+   "tytul": "Nondysjunkcja w mitozie",
+   "material": "Opis (autorski). U zarodka w jednym z pierwszych podziałów mitotycznych chromatydy chromosomu 21 nie rozeszły się. Dziecko ma część komórek z 47 chromosomami, a część z 46.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę takiego stanu.",
+     "odpowiedz": "Mozaicyzm (mozaika chromosomowa).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego u takich osób objawy zespołu Downa bywają łagodniejsze.",
+     "odpowiedz": "Tylko część komórek ma trisomię 21 — pozostałe mają prawidłowy kariotyp.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-podzialy-19",
+   "dzial": "podzialy"
   }
  ]
 }

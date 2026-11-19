@@ -783,6 +783,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
     },
     {
+     "id": "f0c6e69cc",
+     "przod": "Zmienne uboczne (zakłócające)",
+     "tyl": "Czynniki inne niż badany, które mogą wpływać na wynik — trzeba je kontrolować (utrzymywać stałe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f00aa0dc0",
+     "przod": "Wielkość próby",
+     "tyl": "Im więcej osobników w każdej próbie, tym mniejszy wpływ zmienności osobniczej na wynik.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f975ab7b4",
+     "przod": "Doświadczenie z jedną zmienną",
+     "tyl": "Próby powinny różnić się tylko jednym czynnikiem — inaczej nie wiadomo, który spowodował różnicę wyników.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
      "id": "ff01ee31d",
      "przod": "Podaj nazwę pojęcia: Pytanie, na które odpowiada doświadczenie, np. „Czy temperatura wpływa na aktywność katalazy?”.",
      "tyl": "problem badawczy",
@@ -834,6 +852,24 @@
      "id": "fca9dd8c1",
      "przod": "Rozpoznaj: Odpowiada na problem badawczy i opiera się na wynikach — potwierdza lub obala hipotezę.",
      "tyl": "Wniosek — wzór",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "faaf4ef3e",
+     "przod": "Rozpoznaj: Czynniki inne niż badany, które mogą wpływać na wynik — trzeba je kontrolować (utrzymywać stałe).",
+     "tyl": "Zmienne uboczne (zakłócające)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f1496fd7b",
+     "przod": "Rozpoznaj: Im więcej osobników w każdej próbie, tym mniejszy wpływ zmienności osobniczej na wynik.",
+     "tyl": "Wielkość próby",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f67a38520",
+     "przod": "Rozpoznaj: Próby powinny różnić się tylko jednym czynnikiem — inaczej nie wiadomo, który spowodował różnicę wyników.",
+     "tyl": "Doświadczenie z jedną zmienną",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne II"
     }
    ],
@@ -1070,6 +1106,32 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Odpowiedź na problem.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5231587b",
+     "pytanie": "Jeśli próby różnią się dwoma czynnikami jednocześnie, to:",
+     "odpowiedzi": [
+      "nie można ustalić, który czynnik wpłynął na wynik",
+      "próba kontrolna staje się w ogóle zbędna",
+      "wynik jest bardziej wiarygodny niż przy jednym czynniku",
+      "wystarczy wykonać tylko jedno powtórzenie"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Jedna zmienna niezależna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1649d6f5",
+     "pytanie": "Lampa nagrzewająca wodę z moczarką jest przykładem:",
+     "odpowiedzi": [
+      "próby kontrolnej bez światła",
+      "hipotezy badawczej",
+      "zmiennej ubocznej (zakłócającej)",
+      "zmiennej zależnej doświadczenia"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Temperatura jako czynnik dodatkowy.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -1483,6 +1545,19 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Nie dowodzi przyczynowości.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p03a3e212",
+     "pytanie": "Badano 3 rośliny w każdej grupie. Główną wadą takiego doświadczenia jest:",
+     "odpowiedzi": [
+      "zbyt mała liczebność prób",
+      "brak zmiennej zależnej",
+      "zbyt długi czas",
+      "zbyt duża liczba danych"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Zmienność osobnicza.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

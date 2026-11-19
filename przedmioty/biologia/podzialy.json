@@ -992,6 +992,19 @@
      "poprawna": "A",
      "wyjasnienie": "Naciekanie i rozsiew.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb2b0d1ab",
+     "pytanie": "Wykres ilości DNA wzrastający od 2c do 4c odpowiada:",
+     "odpowiedzi": [
+      "telofazie",
+      "anafazie",
+      "fazie S",
+      "fazie G1"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Replikacja.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -1233,6 +1246,30 @@
      "id": "ffc7d5f2d",
      "przod": "Typowy błąd: mejoza II zmniejsza ploidalność",
      "tyl": "Ploidalność zmniejsza się w mejozie I; mejoza II zmniejsza tylko ilość DNA (2c → 1c).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "fe6e7a231",
+     "przod": "Ploidalność a liczba zestawów — wzór dla zadań",
+     "tyl": "Liczba chromosomów = n × liczba zestawów; liczba chromatyd = liczba chromosomów × (1 lub 2, zależnie od fazy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f234a21c1",
+     "przod": "Kiedy chromosomy są dwuchromatydowe?",
+     "tyl": "Od fazy S do metafazy mitozy (lub do metafazy II mejozy) — rozchodzą się w anafazie mitozy lub anafazie II.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f162cdd72",
+     "przod": "Gdzie zachodzi mejoza u człowieka?",
+     "tyl": "W jądrach (spermatogeneza) i jajnikach (oogeneza) — tylko w komórkach linii płciowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f83a6e521",
+     "przod": "Mitoza w organizmie haploidalnym",
+     "tyl": "U organizmów haploidalnych (np. gametofit mchu) gamety powstają mitotycznie, a mejoza zachodzi po zapłodnieniu lub w sporoficie.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
     },
     {
@@ -1636,6 +1673,58 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Jeden centromer — jeden chromosom.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p90fe94ae",
+     "pytanie": "Chromosomy jednochromatydowe występują w:",
+     "odpowiedzi": [
+      "fazie G2",
+      "metafazie mitozy",
+      "fazie G1",
+      "metafazie I mejozy"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Przed replikacją.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p29a4953d",
+     "pytanie": "Komórka diploidalna 2n = 46 w profazie I mejozy zawiera biwalentów:",
+     "odpowiedzi": [
+      "46",
+      "12",
+      "92",
+      "23"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Pary homologiczne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2bfe2900",
+     "pytanie": "Ilość DNA w komórce po mitozie (w porównaniu z G1 komórki macierzystej) jest:",
+     "odpowiedzi": [
+      "dwa razy większa",
+      "taka sama",
+      "cztery razy mniejsza",
+      "dwa razy mniejsza"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "2c → 2c.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcf09575c",
+     "pytanie": "Mejoza w komórkach ciała człowieka (np. skóry):",
+     "odpowiedzi": [
+      "zachodzi stale",
+      "zachodzi przy gojeniu ran",
+      "nie zachodzi",
+      "zachodzi tylko w dzieciństwie"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Tylko linia płciowa.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
