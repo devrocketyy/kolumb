@@ -129,6 +129,10 @@ Oświata Sport Film Kolektywizacja Podział Granica Granice Społeczeństwo Twó
 Ostatni Pięć Święta Trzy Dwie Siedem Wewnętrzne Zewnętrzne Charakter Kształtowanie'''.split())
 
 
+# tytuły zestawień („X — bilans”, „Główne organy…”, „… w latach 80.”) nie są nazwą do rozpoznania
+SLABA_ODWROTKA = re.compile(r' — | – | w czasie | w latach |\bbilans|^(główne|słabe|mocne|najważniejsze|pierwsze|kolejne)\b', re.I)
+
+
 def reverse_cards(F):
     """Fiszki odwrotne (jak w WOS): pojęcie ← definicja, wydarzenie/postać ← opis."""
     out = []
@@ -137,16 +141,22 @@ def reverse_cards(F):
             term = p[len('Wyjaśnij pojęcie: '):].strip()
             if not _stem_leak(term, ty):
                 out.append((f'Podaj nazwę pojęcia: {ty}', term))
-        elif not p.endswith('?') and not p.endswith(':') and len(p) <= 60 and p.split()[0] not in OGOLNE:
+        elif (not p.endswith('?') and not p.endswith(':') and len(p) <= 60 and p.split()[0] not in OGOLNE
+              and not SLABA_ODWROTKA.search(p)):
             if not _stem_leak(p, ty):
                 out.append((f'Rozpoznaj: {ty}', p))
     return out
 
 
+_usun = os.path.join(SRC, 'usuniete.py')
+_u = runpy.run_path(_usun) if os.path.exists(_usun) else {}
+USUN = _u.get('USUN', set())
+
+
 def build_unit(uid, nr, nazwa, t):
     ref = f'{PP}, {"wymagania ogólne " + nr[4:] if nr.startswith("og.") else "dz. " + nr}'
     u = {'id': uid, 'nazwa': t.get('nazwa', nazwa), 'opis': f'Wymaganie {nr} podstawy programowej.', 'wymaganie': nr, 'fiszki': [], 'pytania': []}
-    F = list(t.get('F', []))
+    F = [(p, ty) for p, ty in t.get('F', []) if (uid, p) not in USUN]
     seen = set()
     for p, ty in F + reverse_cards(F):
         fid = _id('f', p)
@@ -201,10 +211,7 @@ def main():
     extra = set(T) - known
     assert not extra, f'treści dla nieznanych tematów: {extra}'
 
-    chrono = runpy.run_path(os.path.join(SRC, 'chronologia.py'))['CHRONO']
-    with open(os.path.join(OUT, 'chronologia.json'), 'w') as o:
-        json.dump(chrono, o, ensure_ascii=False, indent=1)
-        o.write('\n')
+    runpy.run_path(os.path.join(SRC, 'chronologia.py'))  # sam zapisuje przedmioty/historia/chronologia.json
 
     # bank zadań autorskich: pliki bank*.py definiują słownik BANK {id działu: [wiązki]}
     bank = {}
@@ -245,7 +252,7 @@ def main():
     with open(os.path.join(ROOT, 'przedmioty', 'historia.json'), 'w') as o:
         json.dump(subj, o, ensure_ascii=False, indent=1)
         o.write('\n')
-    nf = sum(len(v.get('F', [])) for v in T.values())
+    nf = len({(k, _id('f', p)) for k, v in T.items() for p, _ in v.get('F', []) if (k, p) not in USUN})  # bez powtórzeń
     nq = sum(len(v.get('Q', [])) for v in T.values())
     print(f'historia: {len(DZIALY)} działów, {len(known)} tematów ({len(T)} z treścią), {nf} fiszek, {nq} pytań, {len(arkusze)} arkuszy')
 

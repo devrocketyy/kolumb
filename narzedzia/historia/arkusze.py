@@ -10,9 +10,25 @@ def W(nr, strona, tytul, dzial, *zadania):
             'zadania': [dict(z, dzialy=[dzial]) for z in zadania]}
 
 
+def zasady_orientacyjne(pkt, polecenie):
+    """Zadania wielopunktowe bez przepisanych zasad: orientacyjny schemat IndexLab (oficjalne zasady — link przy arkuszu)."""
+    p = polecenie.lower()
+    if 'prawdziwość trzech' in p:
+        s = '2 pkt – trzy poprawne oceny.\n1 pkt – dwie poprawne oceny.\n0 pkt – jedna lub żadna.'
+    elif 'podobieństwo' in p and 'różnic' in p:
+        s = '2 pkt – poprawne podobieństwo i poprawna różnica.\n1 pkt – jeden z tych elementów.\n0 pkt – brak poprawnych elementów.'
+    elif pkt == 3 and 'rysunk' in p:
+        s = '3 pkt – poprawnie wyjaśniona wymowa rysunku i interpretacja dwóch elementów graficznych.\n2 pkt – wymowa i jeden element albo dwa elementy bez pełnej wymowy.\n1 pkt – jeden poprawny element odpowiedzi.\n0 pkt – brak poprawnych elementów.'
+    elif pkt == 2:
+        s = '2 pkt – oba wymagane elementy odpowiedzi poprawne.\n1 pkt – jeden poprawny element.\n0 pkt – brak poprawnych elementów.'
+    else:
+        s = f'{pkt} pkt – wszystkie wymagane elementy poprawne; za każdy brakujący element o 1 pkt mniej.'
+    return s + '\nSchemat orientacyjny IndexLab — dokładne zasady w oficjalnym PDF CKE (link przy arkuszu).'
+
+
 def Z(nr, pkt, polecenie, odpowiedz, omowienie, zasady=None):
     if zasady is None:
-        zasady = '1 pkt – odpowiedź poprawna (przy rozstrzygnięciu: z uzasadnieniem odwołującym się do źródeł).\n0 pkt – odpowiedź niepoprawna lub niepełna.' if pkt == 1 else ''
+        zasady = '1 pkt – odpowiedź poprawna (przy rozstrzygnięciu: z uzasadnieniem odwołującym się do źródeł).\n0 pkt – odpowiedź niepoprawna lub niepełna.' if pkt == 1 else zasady_orientacyjne(pkt, polecenie)
     return {'nr': nr, 'punkty': pkt, 'polecenie': polecenie, 'odpowiedz': odpowiedz, 'zasady': zasady, 'omowienie': omowienie}
 
 

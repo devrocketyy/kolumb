@@ -20,6 +20,7 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 
 DOMYSLNE = {
     'pf': '1 pkt – poprawna ocena wszystkich stwierdzeń.\n0 pkt – inna odpowiedź lub brak odpowiedzi.',
+    'uporzadkuj': '1 pkt – poprawne uporządkowanie wszystkich elementów.\n0 pkt – inna odpowiedź lub brak odpowiedzi.',
     'abcd': '1 pkt – wskazanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi.',
     'przyporzadkuj': '1 pkt – poprawne przyporządkowanie wszystkich elementów.\n0 pkt – inna odpowiedź lub brak odpowiedzi.',
     'podaj': '1 pkt – podanie poprawnej odpowiedzi.\n0 pkt – inna odpowiedź lub brak odpowiedzi.',

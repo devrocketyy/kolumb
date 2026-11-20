@@ -153,7 +153,6 @@ T['h-unia-lubelska'] = dict(F=[
  ('Wspólna dla Korony i Litwy po 1569 r. była:', ['armia i hetmani', 'skarb państwa', '*polityka zagraniczna', 'administracja i urzędy'], 'Wojsko i skarb pozostały odrębne.'),
  ('Pokój religijny gwarantowała:', ['unia brzeska', '*konfederacja warszawska', 'unia lubelska', 'konstytucja nihil novi'], '1573 r.'),
  ('Przed unią lubelską do Korony przyłączono m.in.:', ['Inflanty i Kurlandię', '*Podlasie i Wołyń', 'Pomorze i Prusy', 'Śląsk i Spisz'], 'Decyzja Zygmunta Augusta.'),
- ('Statut litewski był:', ['aktem unii z Polską', '*zbiorem prawa Wielkiego Księstwa', 'przywilejem dla Kozaków', 'konstytucją sejmu'], 'Prawo litewskie pozostało odrębne.'),
 ])
 
 T['h-wolne-elekcje'] = dict(F=[
