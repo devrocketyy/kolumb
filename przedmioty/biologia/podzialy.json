@@ -1000,6 +1000,39 @@
      "wyjasnienie": "Przed mitozą.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sac0379d7",
+     "typ": "proces",
+     "tytul": "Replikacja DNA",
+     "opis": "",
+     "uwaga": "Polimeraza DNA dobudowuje nukleotydy tylko do końca 3′ — stąd nić opóźniona i fragmenty Okazakiego.",
+     "kroki": [
+      {
+       "t": "Rozpoznanie miejsca startu (ori)"
+      },
+      {
+       "t": "Rozplecenie helisy przez helikazę"
+      },
+      {
+       "t": "Stabilizacja nici przez białka SSB"
+      },
+      {
+       "t": "Synteza starterów RNA przez prymazę"
+      },
+      {
+       "t": "Wydłużanie nici przez polimerazę DNA",
+       "d": "w kierunku 5′→3′"
+      },
+      {
+       "t": "Usunięcie starterów i uzupełnienie luk"
+      },
+      {
+       "t": "Łączenie fragmentów Okazakiego przez ligazę"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1577,6 +1610,41 @@
      "poprawna": "C",
      "wyjasnienie": "Interfaza dominuje.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s9e2034f8",
+     "typ": "cykl",
+     "tytul": "Cykl komórkowy",
+     "opis": "",
+     "uwaga": "Ilość DNA podwaja się w fazie S (z 2c do 4c), ale liczba chromosomów (2n) się nie zmienia.",
+     "kroki": [
+      {
+       "t": "Faza G₁",
+       "d": "wzrost komórki, synteza białek"
+      },
+      {
+       "t": "Punkt kontrolny G₁/S"
+      },
+      {
+       "t": "Faza S",
+       "d": "replikacja DNA"
+      },
+      {
+       "t": "Faza G₂",
+       "d": "przygotowanie do podziału"
+      },
+      {
+       "t": "Punkt kontrolny G₂/M"
+      },
+      {
+       "t": "Mitoza"
+      },
+      {
+       "t": "Cytokineza"
+      }
+     ]
     }
    ]
   },
@@ -2484,6 +2552,137 @@
      "wyjasnienie": "Gametofit haploidalny.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "saf1eb42d",
+     "typ": "proces",
+     "tytul": "Fazy mitozy",
+     "opis": "",
+     "uwaga": "Liczbę chromosomów najłatwiej policzyć w metafazie. W anafazie chromatydy stają się chromosomami potomnymi.",
+     "kroki": [
+      {
+       "t": "Profaza",
+       "d": "kondensacja chromosomów, zanik jąderka, tworzenie wrzeciona"
+      },
+      {
+       "t": "Prometafaza",
+       "d": "rozpad otoczki jądrowej, przyłączanie włókien do kinetochorów"
+      },
+      {
+       "t": "Metafaza",
+       "d": "chromosomy w płaszczyźnie równikowej"
+      },
+      {
+       "t": "Anafaza",
+       "d": "rozejście chromatyd siostrzanych do biegunów"
+      },
+      {
+       "t": "Telofaza",
+       "d": "despiralizacja chromosomów, odtworzenie otoczek jądrowych"
+      }
+     ]
+    },
+    {
+     "id": "s83f4287b",
+     "typ": "proces",
+     "tytul": "Mejoza — przebieg",
+     "opis": "",
+     "uwaga": "Źródła zmienności w mejozie: crossing-over (profaza I) i niezależna segregacja chromosomów (anafaza I).",
+     "kroki": [
+      {
+       "t": "Profaza I",
+       "d": "koniugacja homologów, biwalenty, crossing-over"
+      },
+      {
+       "t": "Metafaza I",
+       "d": "biwalenty w płaszczyźnie równikowej"
+      },
+      {
+       "t": "Anafaza I",
+       "d": "rozejście chromosomów homologicznych — redukcja liczby"
+      },
+      {
+       "t": "Telofaza I i cytokineza",
+       "d": "2 komórki haploidalne"
+      },
+      {
+       "t": "Profaza II i metafaza II",
+       "d": "bez replikacji DNA"
+      },
+      {
+       "t": "Anafaza II",
+       "d": "rozejście chromatyd siostrzanych"
+      },
+      {
+       "t": "Telofaza II",
+       "d": "4 komórki haploidalne, zróżnicowane genetycznie"
+      }
+     ]
+    },
+    {
+     "id": "s7bbeba2c",
+     "typ": "proces",
+     "tytul": "Spermatogeneza",
+     "opis": "",
+     "uwaga": "Z jednego spermatocytu I rzędu powstają 4 plemniki, a z oocytu I rzędu — 1 komórka jajowa i ciałka kierunkowe.",
+     "kroki": [
+      {
+       "t": "Spermatogonium (2n)",
+       "d": "podziały mitotyczne"
+      },
+      {
+       "t": "Spermatocyt I rzędu (2n)"
+      },
+      {
+       "t": "Mejoza I"
+      },
+      {
+       "t": "2 spermatocyty II rzędu (n)"
+      },
+      {
+       "t": "Mejoza II"
+      },
+      {
+       "t": "4 spermatydy (n)"
+      },
+      {
+       "t": "Spermiogeneza",
+       "d": "dojrzewanie w plemniki"
+      }
+     ]
+    },
+    {
+     "id": "s1a0f2dbc",
+     "typ": "proces",
+     "tytul": "Oogeneza",
+     "opis": "",
+     "uwaga": "Nierówny podział cytoplazmy zapewnia komórce jajowej zapas substancji odżywczych dla zarodka.",
+     "kroki": [
+      {
+       "t": "Oogonium (2n)",
+       "d": "podziały mitotyczne przed urodzeniem"
+      },
+      {
+       "t": "Oocyt I rzędu",
+       "d": "zatrzymany w profazie I do dojrzewania płciowego"
+      },
+      {
+       "t": "Mejoza I przed owulacją",
+       "d": "oocyt II rzędu + I ciałko kierunkowe"
+      },
+      {
+       "t": "Owulacja",
+       "d": "oocyt II zatrzymany w metafazie II"
+      },
+      {
+       "t": "Zapłodnienie uruchamia mejozę II"
+      },
+      {
+       "t": "Komórka jajowa i II ciałko kierunkowe"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2724,6 +2923,39 @@
      "poprawna": "A",
      "wyjasnienie": "Neurodegeneracja.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "sdf43e036",
+     "typ": "proces",
+     "tytul": "Apoptoza — przebieg",
+     "opis": "",
+     "uwaga": "Apoptoza nie wywołuje stanu zapalnego — w przeciwieństwie do martwicy (nekrozy), w której komórka pęka.",
+     "kroki": [
+      {
+       "t": "Sygnał śmierci",
+       "d": "zewnętrzny (receptory) lub wewnętrzny (uszkodzenie DNA)"
+      },
+      {
+       "t": "Uwolnienie cytochromu c z mitochondriów"
+      },
+      {
+       "t": "Aktywacja kaspaz"
+      },
+      {
+       "t": "Fragmentacja DNA i kondensacja chromatyny"
+      },
+      {
+       "t": "Obkurczanie komórki i pączkowanie błony"
+      },
+      {
+       "t": "Powstanie ciałek apoptotycznych"
+      },
+      {
+       "t": "Fagocytoza bez stanu zapalnego"
+      }
+     ]
     }
    ]
   }

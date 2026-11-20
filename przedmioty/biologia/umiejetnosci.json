@@ -1502,6 +1502,75 @@
      "wyjasnienie": "Eliminacja sugestii.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s668da2b9",
+     "typ": "proces",
+     "tytul": "Etapy metody naukowej",
+     "opis": "",
+     "uwaga": "Problem badawczy zapisuje się jako pytanie, hipotezę — jako zdanie oznajmujące. Wniosek musi odnosić się do hipotezy i wynikać z wyników.",
+     "kroki": [
+      {
+       "t": "Obserwacja",
+       "d": "zauważenie zjawiska"
+      },
+      {
+       "t": "Problem badawczy",
+       "d": "pytanie, na które szukamy odpowiedzi"
+      },
+      {
+       "t": "Hipoteza",
+       "d": "przypuszczalna odpowiedź, którą da się sprawdzić"
+      },
+      {
+       "t": "Planowanie doświadczenia",
+       "d": "próba badawcza i kontrolna, jedna zmienna"
+      },
+      {
+       "t": "Przeprowadzenie doświadczenia i zebranie wyników"
+      },
+      {
+       "t": "Analiza wyników"
+      },
+      {
+       "t": "Wniosek",
+       "d": "potwierdzenie lub odrzucenie hipotezy"
+      }
+     ]
+    },
+    {
+     "id": "s8eb575b1",
+     "typ": "proces",
+     "tytul": "Planowanie doświadczenia — krok po kroku",
+     "opis": "",
+     "uwaga": "Najczęstszy błąd na maturze: próba kontrolna różni się od badawczej więcej niż jednym czynnikiem.",
+     "kroki": [
+      {
+       "t": "Ustal zmienną niezależną",
+       "d": "to, co badacz zmienia"
+      },
+      {
+       "t": "Ustal zmienną zależną",
+       "d": "to, co mierzymy"
+      },
+      {
+       "t": "Ustal zmienne kontrolowane",
+       "d": "warunki jednakowe we wszystkich próbach"
+      },
+      {
+       "t": "Zaplanuj próbę kontrolną",
+       "d": "bez działania badanego czynnika"
+      },
+      {
+       "t": "Zaplanuj powtórzenia",
+       "d": "kilka prób w każdym wariancie"
+      },
+      {
+       "t": "Określ sposób pomiaru i zapisu wyników"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2449,6 +2518,40 @@
      "poprawna": "A",
      "wyjasnienie": "Wewnątrz zakresu.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "sc2b94b14",
+     "typ": "proces",
+     "tytul": "Rysowanie wykresu na maturze",
+     "opis": "",
+     "uwaga": "Brak jednostek lub nierówna skala to najczęstsze powody utraty punktu za wykres.",
+     "kroki": [
+      {
+       "t": "Wybierz typ wykresu",
+       "d": "liniowy — zmienna ciągła, słupkowy — kategorie"
+      },
+      {
+       "t": "Zmienna niezależna na osi X"
+      },
+      {
+       "t": "Zmienna zależna na osi Y"
+      },
+      {
+       "t": "Opisz osie z jednostkami"
+      },
+      {
+       "t": "Dobierz skalę",
+       "d": "równe odstępy, cały zakres danych"
+      },
+      {
+       "t": "Nanieś punkty lub słupki"
+      },
+      {
+       "t": "Dodaj legendę, jeśli jest kilka serii"
+      }
+     ]
     }
    ]
   }

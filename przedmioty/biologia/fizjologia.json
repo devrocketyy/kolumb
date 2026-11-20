@@ -636,6 +636,38 @@
      "wyjasnienie": "Wzmacnianie bodźca.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s32445903",
+     "typ": "proces",
+     "tytul": "Hematopoeza — powstawanie krwinek",
+     "opis": "",
+     "uwaga": "Produkcję erytrocytów pobudza erytropoetyna (EPO) wydzielana przez nerki przy niedotlenieniu.",
+     "kroki": [
+      {
+       "t": "Krwiotwórcza komórka macierzysta w szpiku czerwonym"
+      },
+      {
+       "t": "Komórki progenitorowe linii szpikowej i limfoidalnej"
+      },
+      {
+       "t": "Erytroblasty — erytrocyty",
+       "d": "utrata jądra u ssaków"
+      },
+      {
+       "t": "Megakariocyty — płytki krwi",
+       "d": "fragmenty cytoplazmy"
+      },
+      {
+       "t": "Granulocyty i monocyty"
+      },
+      {
+       "t": "Limfocyty",
+       "d": "dojrzewanie w szpiku (B) lub grasicy (T)"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1605,6 +1637,107 @@
      "wyjasnienie": "Gastryna.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s0358c74d",
+     "typ": "proces",
+     "tytul": "Droga pokarmu przez przewód pokarmowy",
+     "opis": "",
+     "uwaga": "Do dwunastnicy uchodzą przewód trzustkowy i przewód żółciowy wspólny.",
+     "kroki": [
+      {
+       "t": "Jama ustna",
+       "d": "rozdrabnianie, amylaza ślinowa"
+      },
+      {
+       "t": "Gardło"
+      },
+      {
+       "t": "Przełyk",
+       "d": "ruchy perystaltyczne"
+      },
+      {
+       "t": "Żołądek",
+       "d": "pepsyna, HCl"
+      },
+      {
+       "t": "Dwunastnica",
+       "d": "sok trzustkowy i żółć"
+      },
+      {
+       "t": "Jelito czcze i kręte",
+       "d": "trawienie końcowe i wchłanianie"
+      },
+      {
+       "t": "Jelito grube",
+       "d": "wchłanianie wody, bakterie"
+      },
+      {
+       "t": "Odbytnica i odbyt"
+      }
+     ]
+    },
+    {
+     "id": "sb036a081",
+     "typ": "proces",
+     "tytul": "Trawienie białek",
+     "opis": "",
+     "uwaga": "Enzymy proteolityczne powstają jako nieaktywne proenzymy (pepsynogen, trypsynogen) — chroni to ściany narządów przed strawieniem.",
+     "kroki": [
+      {
+       "t": "Białko w pokarmie"
+      },
+      {
+       "t": "Denaturacja w kwaśnym środowisku żołądka",
+       "d": "HCl"
+      },
+      {
+       "t": "Pepsyna tnie białka na polipeptydy"
+      },
+      {
+       "t": "Trypsyna i chymotrypsyna w dwunastnicy",
+       "d": "krótsze peptydy"
+      },
+      {
+       "t": "Peptydazy jelitowe",
+       "d": "dipeptydy i aminokwasy"
+      },
+      {
+       "t": "Wchłanianie aminokwasów do krwi",
+       "d": "transport do wątroby żyłą wrotną"
+      }
+     ]
+    },
+    {
+     "id": "sc46f3dd7",
+     "typ": "proces",
+     "tytul": "Trawienie tłuszczów",
+     "opis": "",
+     "uwaga": "Żółć nie zawiera enzymów — tylko zwiększa powierzchnię tłuszczu dostępną dla lipazy.",
+     "kroki": [
+      {
+       "t": "Tłuszcz w pokarmie"
+      },
+      {
+       "t": "Emulgacja przez kwasy żółciowe",
+       "d": "duże krople → drobne kropelki"
+      },
+      {
+       "t": "Lipaza trzustkowa",
+       "d": "glicerol i kwasy tłuszczowe"
+      },
+      {
+       "t": "Wchłanianie do komórek nabłonka jelita"
+      },
+      {
+       "t": "Odtworzenie tłuszczów i chylomikrony"
+      },
+      {
+       "t": "Transport naczyniami limfatycznymi"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2487,6 +2620,98 @@
      "wyjasnienie": "Pamięć immunologiczna.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sc9932c4e",
+     "typ": "proces",
+     "tytul": "Odpowiedź odpornościowa humoralna",
+     "opis": "",
+     "uwaga": "Komórki pamięci sprawiają, że odpowiedź wtórna jest szybsza i silniejsza — na tym opiera się szczepienie.",
+     "kroki": [
+      {
+       "t": "Wniknięcie antygenu"
+      },
+      {
+       "t": "Fagocytoza i prezentacja antygenu przez makrofaga",
+       "d": "z białkami MHC II"
+      },
+      {
+       "t": "Aktywacja limfocytu Th"
+      },
+      {
+       "t": "Aktywacja limfocytu B rozpoznającego antygen"
+      },
+      {
+       "t": "Namnażanie limfocytów B"
+      },
+      {
+       "t": "Różnicowanie w plazmocyty i komórki pamięci"
+      },
+      {
+       "t": "Wydzielanie przeciwciał",
+       "d": "neutralizacja i oznaczanie antygenu"
+      }
+     ]
+    },
+    {
+     "id": "s146e1433",
+     "typ": "proces",
+     "tytul": "Odpowiedź odpornościowa komórkowa",
+     "opis": "",
+     "uwaga": "HIV atakuje limfocyty Th — dlatego osłabia zarówno odpowiedź humoralną, jak i komórkową.",
+     "kroki": [
+      {
+       "t": "Komórka zakażona wirusem prezentuje antygen",
+       "d": "z białkami MHC I"
+      },
+      {
+       "t": "Rozpoznanie przez limfocyt Tc"
+      },
+      {
+       "t": "Pobudzenie przez limfocyt Th",
+       "d": "cytokiny"
+      },
+      {
+       "t": "Namnażanie limfocytów Tc"
+      },
+      {
+       "t": "Zniszczenie komórki zakażonej",
+       "d": "perforyny i wywołanie apoptozy"
+      },
+      {
+       "t": "Powstanie limfocytów pamięci"
+      }
+     ]
+    },
+    {
+     "id": "s67e7aa7c",
+     "typ": "proces",
+     "tytul": "Stan zapalny",
+     "opis": "",
+     "uwaga": "Klasyczne objawy stanu zapalnego: zaczerwienienie, obrzęk, ból, podwyższona temperatura, upośledzenie funkcji.",
+     "kroki": [
+      {
+       "t": "Uszkodzenie tkanki i wniknięcie drobnoustrojów"
+      },
+      {
+       "t": "Uwolnienie histaminy przez komórki tuczne"
+      },
+      {
+       "t": "Rozszerzenie naczyń i wzrost przepuszczalności",
+       "d": "zaczerwienienie, obrzęk, ucieplenie"
+      },
+      {
+       "t": "Napływ neutrofili i makrofagów"
+      },
+      {
+       "t": "Fagocytoza drobnoustrojów"
+      },
+      {
+       "t": "Usunięcie martwych komórek i regeneracja"
+      }
+     ]
+    }
    ]
   },
   {
@@ -3217,6 +3442,99 @@
      "poprawna": "B",
      "wyjasnienie": "Przeciwprąd.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s4c82a936",
+     "typ": "proces",
+     "tytul": "Droga powietrza w układzie oddechowym",
+     "opis": "",
+     "uwaga": "Gardło jest wspólnym odcinkiem dróg oddechowych i pokarmowych — nagłośnia zamyka krtań podczas połykania.",
+     "kroki": [
+      {
+       "t": "Jama nosowa",
+       "d": "ogrzanie, nawilżenie, oczyszczenie"
+      },
+      {
+       "t": "Gardło"
+      },
+      {
+       "t": "Krtań",
+       "d": "nagłośnia, struny głosowe"
+      },
+      {
+       "t": "Tchawica"
+      },
+      {
+       "t": "Oskrzela główne"
+      },
+      {
+       "t": "Oskrzeliki"
+      },
+      {
+       "t": "Pęcherzyki płucne",
+       "d": "wymiana gazowa"
+      }
+     ]
+    },
+    {
+     "id": "s46ce954d",
+     "typ": "proces",
+     "tytul": "Mechanizm wdechu",
+     "opis": "",
+     "uwaga": "Spokojny wydech jest bierny — mięśnie rozkurczają się, a sprężyste płuca się zapadają.",
+     "kroki": [
+      {
+       "t": "Impulsy z ośrodka oddechowego w rdzeniu przedłużonym"
+      },
+      {
+       "t": "Skurcz przepony",
+       "d": "przepona obniża się"
+      },
+      {
+       "t": "Skurcz mięśni międzyżebrowych zewnętrznych",
+       "d": "żebra unoszą się"
+      },
+      {
+       "t": "Wzrost objętości klatki piersiowej"
+      },
+      {
+       "t": "Spadek ciśnienia w płucach poniżej atmosferycznego"
+      },
+      {
+       "t": "Napływ powietrza do płuc"
+      }
+     ]
+    },
+    {
+     "id": "sd889d965",
+     "typ": "proces",
+     "tytul": "Transport tlenu z płuc do komórek",
+     "opis": "",
+     "uwaga": "Efekt Bohra: więcej CO₂ i niższe pH zmniejszają powinowactwo hemoglobiny do tlenu — tkanki pracujące dostają więcej O₂.",
+     "kroki": [
+      {
+       "t": "Dyfuzja O₂ z pęcherzyka do krwi"
+      },
+      {
+       "t": "Wiązanie O₂ z hemoglobiną w erytrocytach",
+       "d": "oksyhemoglobina"
+      },
+      {
+       "t": "Transport krwią tętniczą w krwiobiegu dużym"
+      },
+      {
+       "t": "Oddysocjowanie O₂ w tkankach",
+       "d": "niskie pO₂, wyższe pCO₂, niższe pH"
+      },
+      {
+       "t": "Dyfuzja O₂ do komórek"
+      },
+      {
+       "t": "Zużycie O₂ w mitochondriach"
+      }
+     ]
     }
    ]
   },
@@ -4132,6 +4450,145 @@
      "wyjasnienie": "Wytyczne.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sa8ab6eba",
+     "typ": "cykl",
+     "tytul": "Krwiobieg duży i mały",
+     "opis": "",
+     "uwaga": "Tętnice płucne niosą krew odtlenowaną, a żyły płucne — natlenioną. Nazwa naczynia zależy od kierunku przepływu, nie od zawartości tlenu.",
+     "kroki": [
+      {
+       "t": "Lewa komora"
+      },
+      {
+       "t": "Aorta i tętnice",
+       "d": "krew natleniona"
+      },
+      {
+       "t": "Naczynia włosowate narządów",
+       "d": "oddanie O₂"
+      },
+      {
+       "t": "Żyły główne",
+       "d": "krew odtlenowana"
+      },
+      {
+       "t": "Prawy przedsionek"
+      },
+      {
+       "t": "Prawa komora"
+      },
+      {
+       "t": "Pień płucny i tętnice płucne"
+      },
+      {
+       "t": "Naczynia włosowate płuc",
+       "d": "pobranie O₂"
+      },
+      {
+       "t": "Żyły płucne"
+      },
+      {
+       "t": "Lewy przedsionek"
+      }
+     ]
+    },
+    {
+     "id": "sd6098eb8",
+     "typ": "cykl",
+     "tytul": "Cykl pracy serca",
+     "opis": "",
+     "uwaga": "Zastawki zapewniają jednokierunkowy przepływ krwi — otwierają się i zamykają pod wpływem różnicy ciśnień.",
+     "kroki": [
+      {
+       "t": "Rozkurcz całego serca",
+       "d": "krew napływa do przedsionków i komór"
+      },
+      {
+       "t": "Skurcz przedsionków",
+       "d": "dopełnienie komór"
+      },
+      {
+       "t": "Zamknięcie zastawek przedsionkowo-komorowych",
+       "d": "pierwszy ton serca"
+      },
+      {
+       "t": "Skurcz komór",
+       "d": "otwarcie zastawek półksiężycowatych"
+      },
+      {
+       "t": "Wyrzut krwi do aorty i pnia płucnego"
+      },
+      {
+       "t": "Zamknięcie zastawek półksiężycowatych",
+       "d": "drugi ton serca"
+      }
+     ]
+    },
+    {
+     "id": "s7054303f",
+     "typ": "proces",
+     "tytul": "Przewodzenie pobudzenia w sercu",
+     "opis": "",
+     "uwaga": "Opóźnienie w węźle przedsionkowo-komorowym pozwala przedsionkom skurczyć się, zanim skurczą się komory.",
+     "kroki": [
+      {
+       "t": "Węzeł zatokowo-przedsionkowy",
+       "d": "rozrusznik, ok. 70 impulsów/min"
+      },
+      {
+       "t": "Mięśniówka przedsionków"
+      },
+      {
+       "t": "Węzeł przedsionkowo-komorowy",
+       "d": "opóźnienie przewodzenia"
+      },
+      {
+       "t": "Pęczek Hisa"
+      },
+      {
+       "t": "Odnogi pęczka"
+      },
+      {
+       "t": "Włókna Purkinjego",
+       "d": "skurcz komór"
+      }
+     ]
+    },
+    {
+     "id": "s57b31432",
+     "typ": "proces",
+     "tytul": "Krzepnięcie krwi",
+     "opis": "",
+     "uwaga": "Hemofilia to brak czynnika krzepnięcia (VIII lub IX) — gen leży na chromosomie X.",
+     "kroki": [
+      {
+       "t": "Uszkodzenie naczynia"
+      },
+      {
+       "t": "Skurcz naczynia"
+      },
+      {
+       "t": "Przyleganie i zlepianie płytek krwi",
+       "d": "czop płytkowy"
+      },
+      {
+       "t": "Uwolnienie czynników krzepnięcia",
+       "d": "z udziałem Ca²⁺ i witaminy K"
+      },
+      {
+       "t": "Protrombina → trombina"
+      },
+      {
+       "t": "Fibrynogen → fibryna (włóknik)"
+      },
+      {
+       "t": "Sieć włóknika z krwinkami — skrzep"
+      }
+     ]
+    }
    ]
   },
   {
@@ -4852,6 +5309,102 @@
      "poprawna": "D",
      "wyjasnienie": "Rozcieńczenie moczu.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s8addb81c",
+     "typ": "proces",
+     "tytul": "Powstawanie moczu w nefronie",
+     "opis": "",
+     "uwaga": "Glukoza w moczu oznacza, że jej stężenie we krwi przekroczyło próg nerkowy — typowy objaw cukrzycy.",
+     "kroki": [
+      {
+       "t": "Kłębuszek nerkowy",
+       "d": "filtracja osocza"
+      },
+      {
+       "t": "Torebka Bowmana",
+       "d": "mocz pierwotny, ok. 180 l/dobę"
+      },
+      {
+       "t": "Kanalik kręty I rzędu",
+       "d": "resorpcja glukozy, aminokwasów, Na⁺, wody"
+      },
+      {
+       "t": "Pętla Henlego",
+       "d": "zagęszczanie rdzenia nerki"
+      },
+      {
+       "t": "Kanalik kręty II rzędu",
+       "d": "sekrecja H⁺, K⁺, regulacja przez aldosteron"
+      },
+      {
+       "t": "Kanalik zbiorczy",
+       "d": "resorpcja wody pod wpływem ADH"
+      },
+      {
+       "t": "Mocz ostateczny",
+       "d": "ok. 1,5 l/dobę"
+      }
+     ]
+    },
+    {
+     "id": "s412ba8af",
+     "typ": "proces",
+     "tytul": "Droga moczu",
+     "opis": "",
+     "uwaga": "Pęcherz moczowy magazynuje mocz; jego opróżnianie to odruch kontrolowany przez rdzeń kręgowy i świadomie przez mózg.",
+     "kroki": [
+      {
+       "t": "Nefrony"
+      },
+      {
+       "t": "Kanaliki zbiorcze"
+      },
+      {
+       "t": "Kielichy nerkowe"
+      },
+      {
+       "t": "Miedniczka nerkowa"
+      },
+      {
+       "t": "Moczowód"
+      },
+      {
+       "t": "Pęcherz moczowy"
+      },
+      {
+       "t": "Cewka moczowa"
+      }
+     ]
+    },
+    {
+     "id": "s91b41fbe",
+     "typ": "proces",
+     "tytul": "Cykl mocznikowy — w skrócie",
+     "opis": "",
+     "uwaga": "Mocznik jest mniej toksyczny od amoniaku, ale jego synteza kosztuje energię — dlatego ryby wydalają amoniak bezpośrednio do wody.",
+     "kroki": [
+      {
+       "t": "Rozkład aminokwasów",
+       "d": "odłączenie grupy aminowej"
+      },
+      {
+       "t": "Powstaje amoniak",
+       "d": "silnie toksyczny"
+      },
+      {
+       "t": "Przekształcenie amoniaku w mocznik w wątrobie",
+       "d": "zużycie ATP"
+      },
+      {
+       "t": "Transport mocznika krwią do nerek"
+      },
+      {
+       "t": "Wydalenie z moczem"
+      }
+     ]
     }
    ]
   },
@@ -5652,6 +6205,84 @@
      "poprawna": "D",
      "wyjasnienie": "Hormony a kości.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s46f347dd",
+     "typ": "proces",
+     "tytul": "Regulacja poziomu glukozy po posiłku",
+     "opis": "",
+     "uwaga": "W cukrzycy typu 1 brakuje insuliny (zniszczenie komórek β), w typie 2 komórki są na nią oporne.",
+     "kroki": [
+      {
+       "t": "Wzrost stężenia glukozy we krwi"
+      },
+      {
+       "t": "Pobudzenie komórek β wysp trzustki"
+      },
+      {
+       "t": "Wydzielenie insuliny"
+      },
+      {
+       "t": "Pobieranie glukozy przez komórki mięśni i tkanki tłuszczowej"
+      },
+      {
+       "t": "Synteza glikogenu w wątrobie i mięśniach"
+      },
+      {
+       "t": "Spadek stężenia glukozy do normy"
+      }
+     ]
+    },
+    {
+     "id": "s72fa2947",
+     "typ": "proces",
+     "tytul": "Oś podwzgórze–przysadka–tarczyca",
+     "opis": "",
+     "uwaga": "Niedobór jodu: mało tyroksyny → dużo TSH → przerost tarczycy (wole).",
+     "kroki": [
+      {
+       "t": "Podwzgórze wydziela TRH (tyreoliberynę)"
+      },
+      {
+       "t": "Przysadka wydziela TSH (tyreotropinę)"
+      },
+      {
+       "t": "Tarczyca wydziela tyroksynę (T₄) i T₃"
+      },
+      {
+       "t": "Przyspieszenie metabolizmu komórek"
+      },
+      {
+       "t": "Wysoki poziom T₄ hamuje wydzielanie TRH i TSH",
+       "d": "ujemne sprzężenie zwrotne"
+      }
+     ]
+    },
+    {
+     "id": "s2daaeb44",
+     "typ": "proces",
+     "tytul": "Działanie hormonu steroidowego",
+     "opis": "",
+     "uwaga": "Hormony białkowe nie przechodzą przez błonę — działają przez receptory błonowe i przekaźniki wtórne (np. cAMP).",
+     "kroki": [
+      {
+       "t": "Hormon przenika przez błonę komórkową"
+      },
+      {
+       "t": "Wiązanie z receptorem w cytoplazmie lub jądrze"
+      },
+      {
+       "t": "Kompleks hormon–receptor wiąże się z DNA"
+      },
+      {
+       "t": "Zmiana transkrypcji wybranych genów"
+      },
+      {
+       "t": "Synteza nowych białek — efekt działania"
+      }
+     ]
     }
    ]
   },
@@ -6605,6 +7236,170 @@
      "wyjasnienie": "Odruch mózgowy.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sc250eefa",
+     "typ": "proces",
+     "tytul": "Potencjał czynnościowy",
+     "opis": "",
+     "uwaga": "Zasada „wszystko albo nic”: bodziec podprogowy nie wywołuje impulsu, a silniejszy bodziec zwiększa częstotliwość, nie wielkość potencjału.",
+     "kroki": [
+      {
+       "t": "Potencjał spoczynkowy",
+       "d": "ok. −70 mV"
+      },
+      {
+       "t": "Bodziec przekracza próg pobudliwości"
+      },
+      {
+       "t": "Depolaryzacja",
+       "d": "otwarcie kanałów Na⁺, napływ Na⁺"
+      },
+      {
+       "t": "Odwrócenie polaryzacji",
+       "d": "ok. +30 mV"
+      },
+      {
+       "t": "Repolaryzacja",
+       "d": "otwarcie kanałów K⁺, wypływ K⁺"
+      },
+      {
+       "t": "Hiperpolaryzacja"
+      },
+      {
+       "t": "Przywrócenie stanu spoczynku",
+       "d": "pompa Na⁺/K⁺"
+      }
+     ]
+    },
+    {
+     "id": "se0a27ac6",
+     "typ": "proces",
+     "tytul": "Przekazywanie impulsu przez synapsę chemiczną",
+     "opis": "",
+     "uwaga": "Synapsa chemiczna przewodzi jednokierunkowo i z opóźnieniem — to miejsce działania wielu leków i toksyn.",
+     "kroki": [
+      {
+       "t": "Impuls dociera do zakończenia aksonu"
+      },
+      {
+       "t": "Otwarcie kanałów Ca²⁺ i napływ wapnia"
+      },
+      {
+       "t": "Egzocytoza neuroprzekaźnika do szczeliny"
+      },
+      {
+       "t": "Wiązanie neuroprzekaźnika z receptorami błony postsynaptycznej"
+      },
+      {
+       "t": "Otwarcie kanałów jonowych — depolaryzacja"
+      },
+      {
+       "t": "Rozkład lub wychwyt zwrotny neuroprzekaźnika",
+       "d": "np. acetylocholinesteraza"
+      }
+     ]
+    },
+    {
+     "id": "s133bc86c",
+     "typ": "proces",
+     "tytul": "Łuk odruchowy",
+     "opis": "",
+     "uwaga": "W odruchu kolanowym nie ma neuronu pośredniczącego — to odruch monosynaptyczny.",
+     "kroki": [
+      {
+       "t": "Receptor",
+       "d": "odbiera bodziec"
+      },
+      {
+       "t": "Neuron czuciowy (dośrodkowy)",
+       "d": "korzeń grzbietowy"
+      },
+      {
+       "t": "Ośrodek w rdzeniu kręgowym",
+       "d": "synapsy, neurony pośredniczące"
+      },
+      {
+       "t": "Neuron ruchowy (odśrodkowy)",
+       "d": "korzeń brzuszny"
+      },
+      {
+       "t": "Efektor",
+       "d": "mięsień lub gruczoł"
+      }
+     ]
+    },
+    {
+     "id": "s5fba45c9",
+     "typ": "proces",
+     "tytul": "Droga światła w oku",
+     "opis": "",
+     "uwaga": "Na siatkówce powstaje obraz rzeczywisty, odwrócony i pomniejszony — mózg go „odwraca”.",
+     "kroki": [
+      {
+       "t": "Rogówka"
+      },
+      {
+       "t": "Komora przednia z cieczą wodnistą"
+      },
+      {
+       "t": "Źrenica",
+       "d": "otwór w tęczówce"
+      },
+      {
+       "t": "Soczewka",
+       "d": "akomodacja"
+      },
+      {
+       "t": "Ciało szkliste"
+      },
+      {
+       "t": "Siatkówka",
+       "d": "pręciki i czopki"
+      },
+      {
+       "t": "Nerw wzrokowy"
+      },
+      {
+       "t": "Kora wzrokowa płata potylicznego"
+      }
+     ]
+    },
+    {
+     "id": "s4b43e4ff",
+     "typ": "proces",
+     "tytul": "Droga dźwięku w uchu",
+     "opis": "",
+     "uwaga": "Trąbka słuchowa wyrównuje ciśnienie po obu stronach błony bębenkowej.",
+     "kroki": [
+      {
+       "t": "Małżowina uszna"
+      },
+      {
+       "t": "Przewód słuchowy zewnętrzny"
+      },
+      {
+       "t": "Błona bębenkowa"
+      },
+      {
+       "t": "Kosteczki słuchowe",
+       "d": "młoteczek, kowadełko, strzemiączko"
+      },
+      {
+       "t": "Okienko owalne"
+      },
+      {
+       "t": "Ślimak — drgania płynu"
+      },
+      {
+       "t": "Narząd Cortiego — komórki rzęsate"
+      },
+      {
+       "t": "Nerw słuchowy i kora płata skroniowego"
+      }
+     ]
+    }
    ]
   },
   {
@@ -7313,6 +8108,40 @@
      "wyjasnienie": "Chód wyprostowany.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s5240f4d0",
+     "typ": "proces",
+     "tytul": "Skurcz mięśnia szkieletowego",
+     "opis": "",
+     "uwaga": "ATP jest potrzebny także do odłączenia miozyny od aktyny — jego brak po śmierci powoduje stężenie pośmiertne.",
+     "kroki": [
+      {
+       "t": "Impuls nerwowy w płytce nerwowo-mięśniowej",
+       "d": "acetylocholina"
+      },
+      {
+       "t": "Depolaryzacja błony włókna mięśniowego"
+      },
+      {
+       "t": "Uwolnienie Ca²⁺ z siateczki sarkoplazmatycznej"
+      },
+      {
+       "t": "Odsłonięcie miejsc wiązania na aktynie",
+       "d": "Ca²⁺ wiąże troponinę"
+      },
+      {
+       "t": "Tworzenie mostków poprzecznych miozyna–aktyna"
+      },
+      {
+       "t": "Przesuwanie filamentów kosztem ATP"
+      },
+      {
+       "t": "Skrócenie sarkomerów"
+      }
+     ]
+    }
    ]
   },
   {
@@ -7956,6 +8785,70 @@
      "poprawna": "A",
      "wyjasnienie": "Utrata z potem.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s9b5dc305",
+     "typ": "proces",
+     "tytul": "Termoregulacja przy przegrzaniu",
+     "opis": "",
+     "uwaga": "Przy wysokiej wilgotności powietrza pot słabo paruje — chłodzenie jest mniej skuteczne.",
+     "kroki": [
+      {
+       "t": "Wzrost temperatury ciała"
+      },
+      {
+       "t": "Odbiór przez termoreceptory"
+      },
+      {
+       "t": "Ośrodek termoregulacji w podwzgórzu"
+      },
+      {
+       "t": "Rozszerzenie naczyń skóry",
+       "d": "większa utrata ciepła"
+      },
+      {
+       "t": "Wydzielanie potu",
+       "d": "parowanie chłodzi skórę"
+      },
+      {
+       "t": "Spadek temperatury do normy"
+      }
+     ]
+    },
+    {
+     "id": "s643d3f94",
+     "typ": "proces",
+     "tytul": "Termoregulacja przy wychłodzeniu",
+     "opis": "",
+     "uwaga": "Termoregulacja to przykład ujemnego sprzężenia zwrotnego — reakcja przeciwdziała zmianie.",
+     "kroki": [
+      {
+       "t": "Spadek temperatury ciała"
+      },
+      {
+       "t": "Odbiór przez termoreceptory"
+      },
+      {
+       "t": "Ośrodek termoregulacji w podwzgórzu"
+      },
+      {
+       "t": "Zwężenie naczyń skóry",
+       "d": "mniejsza utrata ciepła"
+      },
+      {
+       "t": "Drżenie mięśni",
+       "d": "produkcja ciepła"
+      },
+      {
+       "t": "Wzrost wydzielania tyroksyny i adrenaliny",
+       "d": "szybszy metabolizm"
+      },
+      {
+       "t": "Wzrost temperatury do normy"
+      }
+     ]
     }
    ]
   },
@@ -8850,6 +9743,95 @@
      "poprawna": "C",
      "wyjasnienie": "Odruch ssania.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s1fc2b67f",
+     "typ": "cykl",
+     "tytul": "Cykl miesiączkowy",
+     "opis": "",
+     "uwaga": "Jeśli dojdzie do zapłodnienia, hCG z zarodka podtrzymuje ciałko żółte — dlatego testy ciążowe wykrywają hCG.",
+     "kroki": [
+      {
+       "t": "Faza menstruacyjna",
+       "d": "złuszczenie endometrium, spadek progesteronu"
+      },
+      {
+       "t": "Faza folikularna",
+       "d": "FSH: dojrzewanie pęcherzyka, estrogeny odbudowują endometrium"
+      },
+      {
+       "t": "Szczyt LH"
+      },
+      {
+       "t": "Owulacja",
+       "d": "ok. 14. dnia cyklu 28-dniowego"
+      },
+      {
+       "t": "Faza lutealna",
+       "d": "ciałko żółte wydziela progesteron"
+      },
+      {
+       "t": "Zanik ciałka żółtego przy braku zapłodnienia"
+      }
+     ]
+    },
+    {
+     "id": "s5592a84c",
+     "typ": "proces",
+     "tytul": "Od zapłodnienia do zagnieżdżenia",
+     "opis": "",
+     "uwaga": "Ciąża pozamaciczna powstaje, gdy zarodek zagnieździ się poza macicą — najczęściej w jajowodzie.",
+     "kroki": [
+      {
+       "t": "Zapłodnienie w jajowodzie"
+      },
+      {
+       "t": "Zygota"
+      },
+      {
+       "t": "Bruzdkowanie",
+       "d": "morula"
+      },
+      {
+       "t": "Blastocysta"
+      },
+      {
+       "t": "Wędrówka do macicy"
+      },
+      {
+       "t": "Implantacja w błonie śluzowej macicy",
+       "d": "ok. 6–7 dni po zapłodnieniu"
+      }
+     ]
+    },
+    {
+     "id": "s3664c306",
+     "typ": "proces",
+     "tytul": "Droga plemników",
+     "opis": "",
+     "uwaga": "Jądra leżą w mosznie, bo spermatogeneza wymaga temperatury niższej niż temperatura wnętrza ciała.",
+     "kroki": [
+      {
+       "t": "Kanaliki nasienne jąder",
+       "d": "spermatogeneza"
+      },
+      {
+       "t": "Najądrze",
+       "d": "dojrzewanie i magazynowanie"
+      },
+      {
+       "t": "Nasieniowód"
+      },
+      {
+       "t": "Gruczoły dodatkowe",
+       "d": "pęcherzyki nasienne, gruczoł krokowy"
+      },
+      {
+       "t": "Cewka moczowa"
+      }
+     ]
     }
    ]
   }

@@ -615,6 +615,32 @@
      "wyjasnienie": "Trzy miejsca.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s0b84c01d",
+     "typ": "cykl",
+     "tytul": "Cykl ATP–ADP",
+     "opis": "",
+     "uwaga": "Fosforylacja substratowa (glikoliza, cykl Krebsa) i oksydacyjna (łańcuch oddechowy) to dwa sposoby odtwarzania ATP.",
+     "kroki": [
+      {
+       "t": "ATP",
+       "d": "nośnik energii w komórce"
+      },
+      {
+       "t": "Hydroliza ATP",
+       "d": "uwolnienie energii do pracy komórki"
+      },
+      {
+       "t": "ADP + fosforan"
+      },
+      {
+       "t": "Fosforylacja ADP",
+       "d": "energia z oddychania lub fotosyntezy"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1712,6 +1738,35 @@
      "poprawna": "A",
      "wyjasnienie": "Zasadowe środowisko.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s25b3e99e",
+     "typ": "cykl",
+     "tytul": "Cykl katalityczny enzymu",
+     "opis": "",
+     "uwaga": "Enzym nie zużywa się w reakcji. Model „ręki i rękawiczki” (dopasowanie indukowane) jest dokładniejszy niż model „klucza i zamka”.",
+     "kroki": [
+      {
+       "t": "Wolny enzym z centrum aktywnym"
+      },
+      {
+       "t": "Przyłączenie substratu",
+       "d": "powstaje kompleks enzym–substrat"
+      },
+      {
+       "t": "Dopasowanie indukowane",
+       "d": "enzym zmienia nieco kształt"
+      },
+      {
+       "t": "Przekształcenie substratu w produkt"
+      },
+      {
+       "t": "Uwolnienie produktu",
+       "d": "enzym jest gotowy do kolejnej reakcji"
+      }
+     ]
     }
    ]
   },
@@ -3042,6 +3097,65 @@
      "wyjasnienie": "Inaczej zielona barwa zasłoni granat.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s1611ae9e",
+     "typ": "proces",
+     "tytul": "Faza zależna od światła",
+     "opis": "",
+     "uwaga": "Tlen z fotosyntezy pochodzi z wody, nie z CO₂ — dowodzą tego badania z izotopem ¹⁸O.",
+     "kroki": [
+      {
+       "t": "Absorpcja światła przez barwniki fotosystemów"
+      },
+      {
+       "t": "Wzbudzenie elektronu w centrum reakcji"
+      },
+      {
+       "t": "Fotoliza wody",
+       "d": "w fotosystemie II: powstają O₂, H⁺ i elektrony"
+      },
+      {
+       "t": "Transport elektronów w błonie tylakoidu",
+       "d": "przez przenośniki do fotosystemu I"
+      },
+      {
+       "t": "Gradient protonów i synteza ATP",
+       "d": "fotofosforylacja"
+      },
+      {
+       "t": "Redukcja NADP⁺ do NADPH"
+      }
+     ]
+    },
+    {
+     "id": "s2372928b",
+     "typ": "cykl",
+     "tytul": "Cykl Calvina",
+     "opis": "",
+     "uwaga": "Cykl Calvina nie wymaga bezpośrednio światła, ale zatrzymuje się w ciemności, bo brakuje ATP i NADPH z fazy jasnej.",
+     "kroki": [
+      {
+       "t": "Karboksylacja",
+       "d": "RuBisCO przyłącza CO₂ do RuBP"
+      },
+      {
+       "t": "Powstaje 3-fosfoglicerynian (PGA)"
+      },
+      {
+       "t": "Redukcja do aldehydu 3-fosfoglicerynowego",
+       "d": "zużycie ATP i NADPH"
+      },
+      {
+       "t": "Część aldehydu — na syntezę glukozy"
+      },
+      {
+       "t": "Regeneracja RuBP",
+       "d": "zużycie ATP"
+      }
+     ]
+    }
    ]
   },
   {
@@ -4037,6 +4151,122 @@
      "wyjasnienie": "Oksydacyjna dekarboksylacja pirogronianu.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s3496ff91",
+     "typ": "proces",
+     "tytul": "Oddychanie tlenowe — etapy",
+     "opis": "",
+     "uwaga": "CO₂ powstaje w reakcji pomostowej i cyklu Krebsa, woda — na końcu łańcucha oddechowego.",
+     "kroki": [
+      {
+       "t": "Glikoliza",
+       "d": "cytozol: glukoza → 2 pirogroniany, 2 ATP netto"
+      },
+      {
+       "t": "Reakcja pomostowa",
+       "d": "macierz: pirogronian → acetylo-CoA + CO₂"
+      },
+      {
+       "t": "Cykl Krebsa",
+       "d": "macierz: CO₂, NADH, FADH₂, ATP"
+      },
+      {
+       "t": "Łańcuch oddechowy",
+       "d": "błona wewnętrzna: transport elektronów na O₂"
+      },
+      {
+       "t": "Fosforylacja oksydacyjna",
+       "d": "syntaza ATP, większość ATP"
+      }
+     ]
+    },
+    {
+     "id": "sbc8cc743",
+     "typ": "proces",
+     "tytul": "Glikoliza — najważniejsze etapy",
+     "opis": "",
+     "uwaga": "Bilans glikolizy: 2 ATP netto i 2 NADH. Zachodzi u wszystkich organizmów — także w warunkach beztlenowych.",
+     "kroki": [
+      {
+       "t": "Glukoza"
+      },
+      {
+       "t": "Fosforylacja glukozy",
+       "d": "zużycie 2 ATP"
+      },
+      {
+       "t": "Rozpad na dwie cząsteczki aldehydu 3-fosfoglicerynowego"
+      },
+      {
+       "t": "Utlenienie i redukcja NAD⁺ do NADH"
+      },
+      {
+       "t": "Fosforylacja substratowa",
+       "d": "powstają 4 ATP"
+      },
+      {
+       "t": "2 cząsteczki pirogronianu"
+      }
+     ]
+    },
+    {
+     "id": "s2ac74ecc",
+     "typ": "cykl",
+     "tytul": "Cykl Krebsa",
+     "opis": "",
+     "uwaga": "Na jedną glukozę przypadają dwa obroty cyklu Krebsa.",
+     "kroki": [
+      {
+       "t": "Acetylo-CoA łączy się ze szczawiooctanem"
+      },
+      {
+       "t": "Powstaje cytrynian (6C)"
+      },
+      {
+       "t": "Dekarboksylacje oksydacyjne",
+       "d": "uwolnienie 2 CO₂, powstaje NADH"
+      },
+      {
+       "t": "Fosforylacja substratowa",
+       "d": "1 ATP (GTP)"
+      },
+      {
+       "t": "Utlenienie z redukcją FAD i NAD⁺"
+      },
+      {
+       "t": "Odtworzenie szczawiooctanu"
+      }
+     ]
+    },
+    {
+     "id": "s894f59c0",
+     "typ": "proces",
+     "tytul": "Łańcuch oddechowy i fosforylacja oksydacyjna",
+     "opis": "",
+     "uwaga": "Cyjanek blokuje przekazanie elektronów na tlen — staje cały łańcuch i synteza ATP.",
+     "kroki": [
+      {
+       "t": "NADH i FADH₂ oddają elektrony przenośnikom"
+      },
+      {
+       "t": "Elektrony przechodzą przez kompleksy w błonie wewnętrznej"
+      },
+      {
+       "t": "Pompowanie H⁺ do przestrzeni międzybłonowej"
+      },
+      {
+       "t": "Tlen przyjmuje elektrony i H⁺ — powstaje woda"
+      },
+      {
+       "t": "Powrót H⁺ przez syntazę ATP do macierzy"
+      },
+      {
+       "t": "Synteza ATP z ADP i fosforanu"
+      }
+     ]
+    }
    ]
   },
   {
@@ -4646,6 +4876,56 @@
      "poprawna": "B",
      "wyjasnienie": "Oddycha tlenowo albo fermentuje.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "sfd75e58f",
+     "typ": "proces",
+     "tytul": "Fermentacja alkoholowa",
+     "opis": "",
+     "uwaga": "Celem etapów po glikolizie jest odzyskanie NAD⁺ — bez tego glikoliza by się zatrzymała.",
+     "kroki": [
+      {
+       "t": "Glikoliza",
+       "d": "glukoza → 2 pirogroniany, 2 ATP, 2 NADH"
+      },
+      {
+       "t": "Dekarboksylacja pirogronianu",
+       "d": "uwolnienie CO₂, powstaje aldehyd octowy"
+      },
+      {
+       "t": "Redukcja aldehydu octowego do etanolu",
+       "d": "NADH oddaje wodór"
+      },
+      {
+       "t": "Odtworzenie NAD⁺ dla glikolizy"
+      }
+     ]
+    },
+    {
+     "id": "s7752d67d",
+     "typ": "proces",
+     "tytul": "Fermentacja mleczanowa",
+     "opis": "",
+     "uwaga": "W fermentacji mleczanowej nie powstaje CO₂ — tym różni się od alkoholowej.",
+     "kroki": [
+      {
+       "t": "Glikoliza",
+       "d": "glukoza → 2 pirogroniany, 2 ATP, 2 NADH"
+      },
+      {
+       "t": "Redukcja pirogronianu do mleczanu",
+       "d": "NADH oddaje wodór"
+      },
+      {
+       "t": "Odtworzenie NAD⁺ dla glikolizy"
+      },
+      {
+       "t": "Mleczan transportowany do wątroby",
+       "d": "u człowieka — przekształcany w glukozę"
+      }
+     ]
     }
    ]
   }

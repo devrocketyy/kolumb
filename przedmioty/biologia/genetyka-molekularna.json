@@ -432,6 +432,42 @@
      "wyjasnienie": "Położenie.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "se5d55323",
+     "typ": "proces",
+     "tytul": "Od genu do cechy",
+     "opis": "",
+     "uwaga": "Mutacja w genie może zmienić białko, a przez to cechę — to typowy łańcuch przyczynowy w zadaniach z genetyki.",
+     "kroki": [
+      {
+       "t": "Gen w DNA"
+      },
+      {
+       "t": "Transkrypcja",
+       "d": "pre-mRNA"
+      },
+      {
+       "t": "Obróbka",
+       "d": "dojrzałe mRNA"
+      },
+      {
+       "t": "Translacja",
+       "d": "łańcuch polipeptydowy"
+      },
+      {
+       "t": "Fałdowanie i modyfikacje białka"
+      },
+      {
+       "t": "Funkcja białka",
+       "d": "np. enzym"
+      },
+      {
+       "t": "Cecha organizmu"
+      }
+     ]
+    }
    ]
   },
   {
@@ -814,6 +850,61 @@
      "poprawna": "C",
      "wyjasnienie": "DNA → RNA.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "sa0701145",
+     "typ": "proces",
+     "tytul": "Transkrypcja u eukariontów",
+     "opis": "",
+     "uwaga": "Polimeraza RNA nie potrzebuje startera — w przeciwieństwie do polimerazy DNA.",
+     "kroki": [
+      {
+       "t": "Przyłączenie czynników transkrypcyjnych do promotora"
+      },
+      {
+       "t": "Przyłączenie polimerazy RNA"
+      },
+      {
+       "t": "Rozplecenie fragmentu DNA"
+      },
+      {
+       "t": "Synteza pre-mRNA na nici matrycowej",
+       "d": "w kierunku 5′→3′"
+      },
+      {
+       "t": "Terminacja i odłączenie polimerazy"
+      }
+     ]
+    },
+    {
+     "id": "sd4ce31c8",
+     "typ": "proces",
+     "tytul": "Obróbka pre-mRNA",
+     "opis": "",
+     "uwaga": "Dzięki alternatywnemu splicingowi jeden gen może kodować kilka różnych białek.",
+     "kroki": [
+      {
+       "t": "Dodanie czapeczki na końcu 5′",
+       "d": "ochrona i rozpoznanie przez rybosom"
+      },
+      {
+       "t": "Dodanie ogona poli-A na końcu 3′",
+       "d": "ochrona przed degradacją"
+      },
+      {
+       "t": "Splicing — wycięcie intronów",
+       "d": "spliceosom"
+      },
+      {
+       "t": "Łączenie eksonów",
+       "d": "możliwy alternatywny splicing"
+      },
+      {
+       "t": "Transport dojrzałego mRNA do cytoplazmy"
+      }
+     ]
     }
    ]
   },
@@ -1441,6 +1532,42 @@
      "wyjasnienie": "Sygnał lokalizacji jądrowej.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s6059603c",
+     "typ": "proces",
+     "tytul": "Translacja — etapy",
+     "opis": "",
+     "uwaga": "Kodony STOP: UAA, UAG, UGA — nie mają odpowiadającego im tRNA.",
+     "kroki": [
+      {
+       "t": "Aktywacja aminokwasów",
+       "d": "przyłączenie do tRNA, zużycie ATP"
+      },
+      {
+       "t": "Inicjacja",
+       "d": "mała podjednostka + mRNA + tRNA z metioniną na kodonie AUG"
+      },
+      {
+       "t": "Przyłączenie dużej podjednostki rybosomu"
+      },
+      {
+       "t": "Elongacja",
+       "d": "kolejne aminoacylo-tRNA, wiązania peptydowe"
+      },
+      {
+       "t": "Translokacja rybosomu o jeden kodon"
+      },
+      {
+       "t": "Terminacja na kodonie STOP",
+       "d": "czynniki uwalniające"
+      },
+      {
+       "t": "Uwolnienie polipeptydu"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1897,6 +2024,36 @@
      "poprawna": "D",
      "wyjasnienie": "Norma reakcji.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s25fe0937",
+     "typ": "proces",
+     "tytul": "Operon laktozowy — indukcja",
+     "opis": "",
+     "uwaga": "Operon lac jest indukowany (włączany substratem), operon tryptofanowy — represjonowany (wyłączany produktem).",
+     "kroki": [
+      {
+       "t": "Brak laktozy: represor związany z operatorem",
+       "d": "geny nieaktywne"
+      },
+      {
+       "t": "Pojawienie się laktozy w środowisku"
+      },
+      {
+       "t": "Allolaktoza wiąże się z represorem"
+      },
+      {
+       "t": "Represor odłącza się od operatora"
+      },
+      {
+       "t": "Polimeraza RNA transkrybuje geny struktury"
+      },
+      {
+       "t": "Synteza enzymów rozkładających laktozę"
+      }
+     ]
     }
    ]
   }
