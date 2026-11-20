@@ -118,6 +118,12 @@ def load_tresci():
     return T
 
 
+_usun = os.path.join(SRC, 'usuniete.py')
+_u = runpy.run_path(_usun) if os.path.exists(_usun) else {}
+USUN, USUN_Q = _u.get('USUN', set()), _u.get('USUN_Q', set())
+USUN_W, TYTULY_W = _u.get('USUN_W', set()), _u.get('TYTULY_W', {})
+
+
 def load_schematy():
     """schematy*.py: S['uid'] = [dict(typ='rysunek'|'proces'|'cykl', tytul, opis, ...)]"""
     S, tytuly = {}, set()
@@ -189,7 +195,7 @@ def reverse_cards(F):
 def build_unit(uid, nr, nazwa, t):
     ref = f'{PP}, {"wymagania ogólne " + nr[4:] if nr.startswith("og.") else "dz. " + nr}'
     u = {'id': uid, 'nazwa': t.get('nazwa', nazwa), 'opis': f'Wymaganie {nr} podstawy programowej.', 'wymaganie': nr, 'fiszki': [], 'pytania': []}
-    F = list(t.get('F', []))
+    F = [(p, ty) for p, ty in t.get('F', []) if (uid, p) not in USUN]
     seen = set()
     for p, ty in F + reverse_cards(F):
         fid = _id('f', p)
@@ -198,6 +204,8 @@ def build_unit(uid, nr, nazwa, t):
         seen.add(fid)
         u['fiszki'].append({'id': fid, 'przod': p, 'tyl': ty, 'zrodlo': f'Opracowanie IndexLab · {ref}'})
     for q, odp, wyj in t.get('Q', []):
+        if (uid, q) in USUN_Q:
+            continue
         star = [k for k, a in enumerate(odp) if a.startswith('*')]
         assert len(star) == 1, (uid, q)
         # stała, ale „losowa” kolejność odpowiedzi (zależna od treści pytania), żeby poprawna nie stała zawsze na tym samym miejscu
@@ -261,10 +269,26 @@ def main():
             bank.setdefault(did, []).extend(ws)
     os.makedirs(os.path.join(OUT, 'bank'), exist_ok=True)
     nb = 0
+    uzyte = set()
+    for did in bank:
+        for i, w in enumerate(bank[did], 1):
+            w['id'] = f'b-{did}-{i:02d}'  # numer nadany przed usunięciami — postępy uczniów się nie przesuwają
+        zostaw = []
+        for w in bank[did]:
+            k = next((k for k in USUN_W if k[0] == did and w['material'].startswith(k[1])), None)
+            if k:
+                uzyte.add(k)
+                continue
+            for (d2, pocz), nowy in TYTULY_W.items():
+                if d2 == did and w['material'].startswith(pocz):
+                    w['tytul'] = nowy
+                    uzyte.add((d2, pocz))
+            zostaw.append(w)
+        bank[did] = zostaw
+    assert uzyte == set(USUN_W) | set(TYTULY_W), ('nieużyte wpisy w usuniete.py', set(USUN_W) | set(TYTULY_W) - uzyte)
     for did, ws in bank.items():
         assert did in {d[0] for d in DZIALY}, did
-        for i, w in enumerate(ws, 1):
-            w['id'] = f'b-{did}-{i:02d}'
+        for w in ws:
             w['dzial'] = did
             for j, z in enumerate(w['zadania'], 1):
                 z['nr'] = str(j)
@@ -276,6 +300,18 @@ def main():
 
     ap = os.path.join(SRC, 'arkusze.py')
     arkusze = runpy.run_path(ap)['ARKUSZE'] if os.path.exists(ap) else []
+    op = os.path.join(SRC, 'omowienia_ark.py')
+    OM = runpy.run_path(op)['OM'] if os.path.exists(op) else {}
+    uzyte_om = set()
+    for a in arkusze:
+        for w in a['wiazki']:
+            for z in w['zadania']:
+                k = (a['id'], z['nr'])
+                if k in OM:
+                    assert not z.get('omowienie'), ('omówienie już jest', k)
+                    z['omowienie'] = OM[k]
+                    uzyte_om.add(k)
+    assert uzyte_om == set(OM), ('nieużyte omówienia', set(OM) - uzyte_om)
     os.makedirs(os.path.join(OUT, 'arkusze'), exist_ok=True)
     for a in arkusze:
         with open(os.path.join(OUT, 'arkusze', a['id'] + '.json'), 'w') as o:
@@ -292,8 +328,8 @@ def main():
     with open(os.path.join(ROOT, 'przedmioty', 'biologia.json'), 'w') as o:
         json.dump(subj, o, ensure_ascii=False, indent=1)
         o.write('\n')
-    nf = sum(len(v.get('F', [])) for v in T.values())
-    nq = sum(len(v.get('Q', [])) for v in T.values())
+    nf = sum(1 for k, v in T.items() for p, _ in v.get('F', []) if (k, p) not in USUN)
+    nq = sum(1 for k, v in T.items() for q in v.get('Q', []) if (k, q[0]) not in USUN_Q)
     print(f'biologia: {len(aktywne)} działów, {len(known)} poddziałów ({len(T)} z treścią), {nf} fiszek, {nq} pytań, {len(arkusze)} arkuszy, {sum(len(v) for v in S.values())} schematów')
 
 
