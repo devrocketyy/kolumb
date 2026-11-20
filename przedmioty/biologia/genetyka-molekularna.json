@@ -172,6 +172,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
     },
     {
+     "id": "f1d2fc759",
+     "przod": "Gen nieciągły",
+     "tyl": "Gen eukariotyczny, w którym sekwencje kodujące (eksony) przedzielone są niekodującymi (intronami).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "f57536be0",
+     "przod": "Geny kodujące RNA",
+     "tyl": "Geny, których produktem końcowym jest RNA, a nie białko, np. geny rRNA, tRNA, miRNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "ff476173f",
+     "przod": "Pseudogeny",
+     "tyl": "Sekwencje podobne do genów, ale nieaktywne (np. z powodu mutacji) — nie dają funkcjonalnego produktu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
      "id": "ff6d5b9ba",
      "przod": "Podaj nazwę pojęcia: Odcinek DNA zawierający informację o budowie produktu — białka (łańcucha polipeptydowego) lub funkcjonalnego RNA (rRNA, tRNA), wraz z sekwencjami regulatorowymi.",
      "tyl": "gen",
@@ -235,6 +253,18 @@
      "id": "fa1f79893",
      "przod": "Rozpoznaj: Występowanie w populacji dwóch lub więcej wariantów sekwencji DNA (alleli) z częstością powyżej 1% — np. grupy krwi.",
      "tyl": "Polimorfizm genetyczny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "f59e23b7f",
+     "przod": "Rozpoznaj: Gen eukariotyczny, w którym sekwencje kodujące (eksony) przedzielone są niekodującymi (intronami).",
+     "tyl": "Gen nieciągły",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
+    },
+    {
+     "id": "fb53133b8",
+     "przod": "Rozpoznaj: Sekwencje podobne do genów, ale nieaktywne (np. z powodu mutacji) — nie dają funkcjonalnego produktu.",
+     "tyl": "Pseudogeny",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.1"
     }
    ],
@@ -406,6 +436,19 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Położenie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2a7772ac",
+     "pytanie": "Introny to odcinki genu, które:",
+     "odpowiedzi": [
+      "są wycinane z pre-mRNA",
+      "kodują aminokwasy białka",
+      "występują tylko u bakterii",
+      "wyznaczają miejsce startu translacji"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Usuwane podczas splicingu.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ],
@@ -630,6 +673,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
     },
     {
+     "id": "fbf571d2a",
+     "przod": "Wyjaśnij pojęcie: spliceosom",
+     "tyl": "Kompleks małych RNA i białek wycinający introny z pre-mRNA i łączący eksony.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "f4998c166",
+     "przod": "Sekwencja terminatora",
+     "tyl": "Odcinek DNA na końcu genu sygnalizujący zakończenie transkrypcji i odłączenie polimerazy RNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "fef0e8be6",
+     "przod": "Kierunek odczytu matrycy w transkrypcji",
+     "tyl": "Polimeraza czyta nić matrycową w kierunku 3′→5′, a nowy RNA rośnie w kierunku 5′→3′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
      "id": "f845b87fc",
      "przod": "Podaj nazwę pojęcia: Synteza RNA na matrycy jednej nici DNA przez polimerazę RNA, zgodnie z zasadą komplementarności (A–U, T–A, G–C, C–G).",
      "tyl": "transkrypcja",
@@ -669,6 +730,18 @@
      "id": "f7fb7ca36",
      "przod": "Rozpoznaj: Ryfampicyna blokuje bakteryjną polimerazę RNA — stosowana m.in. w leczeniu gruźlicy.",
      "tyl": "Antybiotyki hamujące transkrypcję",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "ff6ce14ea",
+     "przod": "Podaj nazwę pojęcia: Kompleks małych RNA i białek wycinający introny z pre-mRNA i łączący eksony.",
+     "tyl": "spliceosom",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
+    },
+    {
+     "id": "f0d5bd8dc",
+     "przod": "Rozpoznaj: Odcinek DNA na końcu genu sygnalizujący zakończenie transkrypcji i odłączenie polimerazy RNA.",
+     "tyl": "Sekwencja terminatora",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.2–3"
     }
    ],
@@ -840,6 +913,19 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "DNA → RNA.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pacc81cd3",
+     "pytanie": "Introny z pre-mRNA usuwa:",
+     "odpowiedzi": [
+      "polimeraza RNA III",
+      "spliceosom",
+      "proteasom",
+      "rybosom"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Kompleks snRNA i białek.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ],
@@ -1119,6 +1205,30 @@
      "id": "fbfff23a0",
      "przod": "Kodony synonimiczne",
      "tyl": "Różne kodony kodujące ten sam aminokwas (np. GGU, GGC, GGA, GGG — glicyna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f24d4ac60",
+     "przod": "Wyjaśnij pojęcie: syntetaza aminoacylo-tRNA",
+     "tyl": "Enzym łączący właściwy aminokwas z odpowiednim tRNA kosztem ATP — zapewnia zgodność kodu genetycznego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "ff2184a05",
+     "przod": "Hipoteza tolerancji (wahania) antykodonu",
+     "tyl": "Trzecia pozycja kodonu może tworzyć niestandardowe pary z antykodonem — dlatego jeden tRNA rozpoznaje kilka kodonów synonimicznych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "fd2a6be65",
+     "przod": "Koszt energetyczny translacji",
+     "tyl": "Aktywacja aminokwasu zużywa ATP, a wiązanie aminoacylo-tRNA i translokacja — GTP; synteza białek to jeden z najbardziej energochłonnych procesów komórki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
+    },
+    {
+     "id": "f30522220",
+     "przod": "Białka cytozolowe a wydzielnicze — miejsce syntezy",
+     "tyl": "Cytozolowe — na wolnych rybosomach; wydzielnicze, błonowe i lizosomalne — na rybosomach siateczki szorstkiej (sekwencja sygnałowa).",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.4–6"
     },
     {
@@ -1765,6 +1875,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
     },
     {
+     "id": "fac9b2366",
+     "przod": "Operon indukcyjny a represyjny",
+     "tyl": "Indukcyjny (np. lac) — włączany przez substrat (induktor); represyjny (np. trp) — wyłączany przez produkt szlaku (korepresor).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f205a173c",
+     "przod": "Metylacja DNA a ekspresja genów",
+     "tyl": "Przyłączanie grup metylowych do cytozyny w promotorze zwykle wycisza gen — przykład regulacji epigenetycznej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f89ef40b5",
+     "przod": "Wzmacniacze (enhancery)",
+     "tyl": "Sekwencje DNA, często odległe od genu, wiążące białka aktywatorowe i zwiększające intensywność transkrypcji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
      "id": "f195fa266",
      "przod": "Podaj nazwę pojęcia: U prokariontów: zespół genów struktury pod kontrolą wspólnego promotora i operatora, transkrybowanych razem na jedną cząsteczkę mRNA.",
      "tyl": "operon",
@@ -1810,6 +1938,12 @@
      "id": "f67848b30",
      "przod": "Rozpoznaj: U bakterii przy braku glukozy (wysokie cAMP) wzmacnia transkrypcję operonu lac — glukoza jest wykorzystywana w pierwszej kolejności.",
      "tyl": "Białko aktywatorowe CAP",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
+    },
+    {
+     "id": "f237664c4",
+     "przod": "Rozpoznaj: Sekwencje DNA, często odległe od genu, wiążące białka aktywatorowe i zwiększające intensywność transkrypcji.",
+     "tyl": "Wzmacniacze (enhancery)",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. XIII.7"
     }
    ],

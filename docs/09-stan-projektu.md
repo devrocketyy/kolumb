@@ -1,6 +1,6 @@
 # IndexLab — stan projektu i lista dalszych prac
 
-Stan na 18 listopada 2026. Aplikacja działa w trybie prywatnym.
+Stan na 20 listopada 2026. Aplikacja działa w trybie prywatnym.
 Link właściciela: https://app.indexlab.pl/?klucz=ni-D4DOaRe8m (publikacja: `docs/06`).
 
 ## 1. Co jest zrobione
@@ -32,13 +32,19 @@ Link właściciela: https://app.indexlab.pl/?klucz=ni-D4DOaRe8m (publikacja: `do
 | | Zrobione | Plan |
 |---|---|---|
 | Działy / podrozdziały | 13 / **71 z 71** | 13 / 71 |
-| Fiszki | 3620 (+ wersje odwrócone) | ~3620 ✅ |
-| Pytania ABCD | 1498 | ~1500 ✅ |
-| Zadania autorskie | 909 (471 wiązek) | ~920 |
-| Omówienia matur CKE | 6 arkuszy, 295 zadań | ~11 arkuszy |
+| Fiszki | 3618 unikalnych (+ 823 odwrócone) | ~3620 ✅ |
+| Pytania ABCD | 1492 | ~1500 ✅ |
+| Zadania autorskie | 903 (467 wiązek) | ~920 |
+| Omówienia matur CKE | 6 arkuszy, 295 zadań (wszystkie z omówieniem) | ~11 arkuszy |
 | Schematy | 171 (43 rysunki, 128 procesów i cykli) | ~170 ✅ |
 
 - Arkusze z omówieniem: maj i czerwiec 2024, 2025 i 2026.
+- Audyt z 20 listopada 2026 (`narzedzia/biologia/usuniete.py`, `omowienia_ark.py`):
+  - usunięte powtórzenia: 156 fiszek, 25 pytań ABCD, 4 wiązki zadań (to samo pojęcie lub zadanie w dwóch miejscach);
+  - uzupełnione 103 brakujące omówienia zadań z arkuszy CKE;
+  - fiszki odwrócone („Rozpoznaj…”) tylko z pojęć — bez zgadywania tytułów zestawień;
+  - dopisane nowe fiszki i pytania z pojęć, których brakowało (sprawdzone pod kątem powtórzeń);
+  - licznik fiszek liczy tylko fiszki rzeczywiście trafiające do aplikacji.
 - Kurs przechodzi automatyczną kontrolę bez błędów i ostrzeżeń:
   - brak powtórzeń;
   - poprawna odpowiedź ABCD nie zdradza się długością.
@@ -46,9 +52,9 @@ Link właściciela: https://app.indexlab.pl/?klucz=ni-D4DOaRe8m (publikacja: `do
 ## 2. Co jeszcze trzeba zrobić
 
 ### Biologia — treści
-1. Pytania ABCD: plan osiągnięty (1498).
+1. Pytania ABCD: plan osiągnięty (1492).
 2. Fiszki: plan osiągnięty ✅.
-3. Zadania autorskie: plan praktycznie osiągnięty (909).
+3. Zadania autorskie: plan praktycznie osiągnięty (903).
    - Najwięcej brakuje w: mikroorganizmach, zwierzętach, ewolucji i ekologii, biotechnologii.
 4. Arkusze CKE:
    - matura maj 2023 (brak na Drive — trzeba dograć);

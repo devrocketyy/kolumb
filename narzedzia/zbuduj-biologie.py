@@ -334,7 +334,7 @@ def main():
     with open(os.path.join(ROOT, 'przedmioty', 'biologia.json'), 'w') as o:
         json.dump(subj, o, ensure_ascii=False, indent=1)
         o.write('\n')
-    nf = sum(1 for k, v in T.items() for p, _ in v.get('F', []) if (k, p) not in USUN)
+    nf = len({(k, _id('f', p)) for k, v in T.items() for p, _ in v.get('F', []) if (k, p) not in USUN})  # bez powtórzeń wewnątrz poddziału
     nq = sum(1 for k, v in T.items() for q in v.get('Q', []) if (k, q[0]) not in USUN_Q)
     print(f'biologia: {len(aktywne)} działów, {len(known)} poddziałów ({len(T)} z treścią), {nf} fiszek, {nq} pytań, {len(arkusze)} arkuszy, {sum(len(v) for v in S.values())} schematów')
 

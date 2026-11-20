@@ -1680,6 +1680,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
     },
     {
+     "id": "fd5494dc4",
+     "przod": "Wyjaśnij pojęcie: dominanta (moda)",
+     "tyl": "Wartość występująca w zbiorze danych najczęściej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f2791a255",
+     "przod": "Wartość odstająca",
+     "tyl": "Wynik wyraźnie różny od pozostałych — może świadczyć o błędzie pomiaru; nie wolno go usuwać bez uzasadnienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fa375cdbf",
+     "przod": "Korelacja dodatnia a ujemna",
+     "tyl": "Dodatnia — wzrost jednej zmiennej towarzyszy wzrostowi drugiej; ujemna — wzrost jednej wiąże się ze spadkiem drugiej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
      "id": "f6204c412",
      "przod": "Podaj nazwę pojęcia: Wartość czynnika, przy której badany proces przebiega najintensywniej (szczyt krzywej).",
      "tyl": "optimum (na wykresie)",
@@ -1731,6 +1749,18 @@
      "id": "f2b6135f6",
      "przod": "Rozpoznaj: Pojedyncze wyniki wyraźnie odbiegające od pozostałych — mogą wynikać z błędu; należy je zauważyć i rozważyć ich przyczynę, a nie ignorować bez uzasadnienia.",
      "tyl": "Wartości odstające",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fab5d188f",
+     "przod": "Podaj nazwę pojęcia: Wartość występująca w zbiorze danych najczęściej.",
+     "tyl": "dominanta (moda)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f5a2a490c",
+     "przod": "Rozpoznaj: Wynik wyraźnie różny od pozostałych — może świadczyć o błędzie pomiaru; nie wolno go usuwać bez uzasadnienia.",
+     "tyl": "Wartość odstająca",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
     }
    ],
@@ -2171,6 +2201,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
     },
     {
+     "id": "fb21f635e",
+     "przod": "Wykres liniowy — kiedy?",
+     "tyl": "Gdy zmienna niezależna jest ciągła (czas, temperatura, stężenie) i chcemy pokazać przebieg zmian.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fe7587b89",
+     "przod": "Tytuł wykresu",
+     "tyl": "Powinien informować, co przedstawia wykres — zależność zmiennej zależnej od niezależnej, np. „Wpływ temperatury na aktywność amylazy”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fadaaa8ac",
+     "przod": "Łączenie punktów na wykresie liniowym",
+     "tyl": "Punkty łączy się odcinkami (lub rysuje linię trendu); nie przedłuża się linii poza zakres zmierzonych danych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fec860980",
+     "przod": "Dwie osie Y na jednym wykresie",
+     "tyl": "Stosowane, gdy dwie zmienne zależne mają różne jednostki — każda seria musi być opisana na właściwej osi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
      "id": "f0e1aa525",
      "przod": "Rozpoznaj: Tytuł, nagłówki kolumn z nazwą wielkości i jednostką (jednostka w nagłówku, nie przy każdej liczbie), uporządkowane wiersze.",
      "tyl": "Elementy poprawnej tabeli",
@@ -2335,6 +2389,32 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Wewnątrz zakresu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf10902ce",
+     "pytanie": "Udział procentowy grup krwi w populacji najlepiej przedstawić na wykresie:",
+     "odpowiedzi": [
+      "punktowym (rozrzutu)",
+      "kołowym",
+      "liniowym z osią czasu",
+      "słupkowym skumulowanym w czasie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Części sumują się do 100% — wykres kołowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p10b52e1c",
+     "pytanie": "Wpływ temperatury (10–40°C) na tempo reakcji najlepiej przedstawić na wykresie:",
+     "odpowiedzi": [
+      "histogramie liczebności",
+      "słupkowym z kategoriami",
+      "kołowym",
+      "liniowym"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Zmienna niezależna jest ciągła.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ],

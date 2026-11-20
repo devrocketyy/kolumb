@@ -220,6 +220,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
     },
     {
+     "id": "f2d3a3694",
+     "przod": "Genom jądrowy a pozajądrowy",
+     "tyl": "Jądrowy — DNA w chromosomach jądra; pozajądrowy — koliste DNA mitochondriów i plastydów (u bakterii także plazmidy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f76a8f1b2",
+     "przod": "Sekwencje powtórzone w genomie",
+     "tyl": "Wielokrotnie powtórzone odcinki DNA (np. w telomerach, centromerach, mikrosatelity) — wykorzystywane m.in. w profilach DNA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f72bfb124",
+     "przod": "Chromosomy akrocentryczne i metacentryczne",
+     "tyl": "Metacentryczne — centromer w środku (ramiona równe); submetacentryczne — przesunięty; akrocentryczne — przy końcu (bardzo krótkie ramię p).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "fcfb14827",
+     "przod": "Zapis n i c",
+     "tyl": "n — liczba zestawów chromosomów, c — ilość DNA w jednym zestawie; np. komórka w G₂ ma 2n 4c, a po mejozie II — n 1c.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
      "id": "f22c4e312",
      "przod": "Podaj nazwę pojęcia: Całość materiału genetycznego komórki lub organizmu (u eukariontów — jądrowy oraz mitochondrialny i plastydowy).",
      "tyl": "genom",
@@ -277,6 +301,12 @@
      "id": "fef082d1e",
      "przod": "Rozpoznaj: mtDNA koduje 13 białek łańcucha oddechowego, 22 tRNA i 2 rRNA.",
      "tyl": "Geny w mitochondriach człowieka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
+    },
+    {
+     "id": "f4219e86e",
+     "przod": "Rozpoznaj: n — liczba zestawów chromosomów, c — ilość DNA w jednym zestawie; np. komórka w G₂ ma 2n 4c, a po mejozie II — n 1c.",
+     "tyl": "Zapis n i c",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.1"
     }
    ],
@@ -749,6 +779,18 @@
      "id": "f426f6bd0",
      "przod": "Nić wiodąca a opóźniona",
      "tyl": "Wiodąca — synteza ciągła w kierunku widełek; opóźniona — nieciągła, we fragmentach Okazakiego łączonych przez ligazę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "f75f4e72f",
+     "przod": "Liczba miejsc ori — bakterie a eukarionty",
+     "tyl": "Bakterie: jedno ori na kolistym chromosomie; eukarionty: tysiące ori na każdym chromosomie — przyspiesza to replikację dużych genomów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
+    },
+    {
+     "id": "f16598f95",
+     "przod": "Korekta błędów przez polimerazę DNA",
+     "tyl": "Polimeraza sprawdza dołączony nukleotyd i usuwa źle sparowany (aktywność egzonukleazy 3′→5′) — bardzo mała liczba błędów.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.2"
     },
     {
@@ -1311,6 +1353,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
     },
     {
+     "id": "f54b36199",
+     "przod": "Punkt kontrolny wrzeciona (M)",
+     "tyl": "Sprawdza, czy wszystkie chromosomy są przyłączone do włókien wrzeciona, zanim rozpocznie się anafaza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "fe3b885eb",
+     "przod": "Wyjaśnij pojęcie: faza G₀",
+     "tyl": "Stan spoczynku komórek, które wyszły z cyklu i się nie dzielą (np. neurony, większość komórek mięśniowych); niektóre mogą do niego wrócić.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "fbdde1ecf",
+     "przod": "Geny supresorowe nowotworów",
+     "tyl": "Hamują podziały lub kierują komórkę do apoptozy (np. p53); utrata ich funkcji (zwykle obu alleli) sprzyja nowotworom.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
      "id": "fdb7136a5",
      "przod": "Podaj nazwę pojęcia: Stan spoczynku — komórka wychodzi z cyklu i nie dzieli się (np. neurony, większość komórek mięśni), choć pełni swoje funkcje.",
      "tyl": "faza G0",
@@ -1344,6 +1404,12 @@
      "id": "faf8a945c",
      "przod": "Rozpoznaj: Obejmuje kariokinezę (mitozę — podział jądra) i cytokinezę (podział cytoplazmy).",
      "tyl": "Faza M",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
+    },
+    {
+     "id": "f08e9c443",
+     "przod": "Podaj nazwę pojęcia: Stan spoczynku komórek, które wyszły z cyklu i się nie dzielą (np. neurony, większość komórek mięśniowych); niektóre mogą do niego wrócić.",
+     "tyl": "faza G₀",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.3"
     }
    ],
@@ -2001,6 +2067,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
     },
     {
+     "id": "f9552c60b",
+     "przod": "Wyjaśnij pojęcie: kohezyny",
+     "tyl": "Białka spinające chromatydy siostrzane od replikacji do anafazy; ich rozcięcie przez separazę pozwala chromatydom się rozejść.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f279db116",
+     "przod": "Wyjaśnij pojęcie: amitoza",
+     "tyl": "Bezpośredni podział jądra przez przewężenie, bez kondensacji chromosomów i wrzeciona — np. podział makronukleusa pantofelka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
      "id": "f741f4424",
      "przod": "Podaj nazwę pojęcia: Podział jądra, w którym z jednej komórki powstają dwie o tej samej ploidalności i identycznej informacji genetycznej (2n → 2n).",
      "tyl": "mitoza",
@@ -2094,6 +2172,18 @@
      "id": "f341aacda",
      "przod": "Rozpoznaj: Małe komórki powstające przy nierównych podziałach oogenezy; zwykle degenerują.",
      "tyl": "Ciałka kierunkowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "f93447a3f",
+     "przod": "Podaj nazwę pojęcia: Białka spinające chromatydy siostrzane od replikacji do anafazy; ich rozcięcie przez separazę pozwala chromatydom się rozejść.",
+     "tyl": "kohezyny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
+    },
+    {
+     "id": "ff43184bf",
+     "przod": "Podaj nazwę pojęcia: Bezpośredni podział jądra przez przewężenie, bez kondensacji chromosomów i wrzeciona — np. podział makronukleusa pantofelka.",
+     "tyl": "amitoza",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.4–7, 9"
     }
    ],
@@ -2756,6 +2846,48 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
     },
     {
+     "id": "faeb81b7a",
+     "przod": "Szlak wewnętrzny (mitochondrialny) apoptozy",
+     "tyl": "Uszkodzenie DNA lub stres komórki → zwiększenie przepuszczalności błony mitochondriów → uwolnienie cytochromu c → aktywacja kaspaz.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "f27608eae",
+     "przod": "Szlak zewnętrzny (receptorowy) apoptozy",
+     "tyl": "Cząsteczka sygnałowa (np. z limfocytu Tc) wiąże się z „receptorem śmierci” na powierzchni komórki → aktywacja kaspaz.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "f85f5c265",
+     "przod": "Białko p53 a apoptoza",
+     "tyl": "Przy nienaprawialnym uszkodzeniu DNA p53 zatrzymuje cykl komórkowy i kieruje komórkę na drogę apoptozy — dlatego nazywane jest „strażnikiem genomu”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "f5420d7db",
+     "przod": "Apoptoza w rozwoju zarodkowym — przykłady",
+     "tyl": "Zanik błon między palcami, usuwanie nadmiaru neuronów, zanik ogona kijanki podczas przeobrażenia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "fb5aba116",
+     "przod": "Apoptoza w układzie odpornościowym",
+     "tyl": "Eliminuje limfocyty rozpoznające własne antygeny (zapobiega autoagresji) oraz komórki zakażone wirusami (niszczone przez limfocyty Tc).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "f9ba53e55",
+     "przod": "Zbyt słaba apoptoza — skutki",
+     "tyl": "Przeżywanie komórek z uszkodzonym DNA — rozwój nowotworów; przeżywanie autoreaktywnych limfocytów — choroby autoimmunologiczne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "fed0b0a74",
+     "przod": "Zbyt silna apoptoza — skutki",
+     "tyl": "Nadmierna utrata komórek, np. neuronów w chorobach neurodegeneracyjnych (choroba Alzheimera, Parkinsona).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
      "id": "ff87e9e86",
      "przod": "Podaj nazwę pojęcia: Niekontrolowana śmierć komórki wskutek urazu (np. niedokrwienia, toksyn): pęcznienie, pęknięcie błony, wylanie zawartości — wywołuje stan zapalny.",
      "tyl": "nekroza",
@@ -2765,6 +2897,12 @@
      "id": "f61f7a593",
      "przod": "Podaj nazwę pojęcia: Enzymy proteolityczne (proteazy) przeprowadzające apoptozę — rozkładają białka komórki w kaskadzie aktywacji.",
      "tyl": "kaspazy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
+    },
+    {
+     "id": "f6b5623c4",
+     "przod": "Rozpoznaj: Eliminuje limfocyty rozpoznające własne antygeny (zapobiega autoagresji) oraz komórki zakażone wirusami (niszczone przez limfocyty Tc).",
+     "tyl": "Apoptoza w układzie odpornościowym",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, biologia (zakres rozszerzony), dz. IV.8"
     }
    ],
@@ -2884,6 +3022,58 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Neurodegeneracja.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4cb9a587",
+     "pytanie": "Kaspazy aktywowane w apoptozie to:",
+     "odpowiedzi": [
+      "lipazy rozkładające błonę komórkową",
+      "proteazy tnące białka komórki",
+      "nukleazy rozkładające wyłącznie RNA",
+      "polimerazy naprawiające uszkodzone DNA"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Kaskada kaspaz rozkłada białka strukturalne i aktywuje nukleazy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p90f25d6b",
+     "pytanie": "Uwolnienie cytochromu c z mitochondriów jest etapem:",
+     "odpowiedzi": [
+      "fosforylacji substratowej w macierzy",
+      "oddychania beztlenowego w cytozolu",
+      "wewnętrznego szlaku apoptozy",
+      "martwicy wywołanej urazem mechanicznym"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Cytochrom c w cytozolu uruchamia aktywację kaspaz.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "ped77d22c",
+     "pytanie": "Zanik błon między palcami zarodka człowieka jest wynikiem:",
+     "odpowiedzi": [
+      "fagocytozy przez neutrofile",
+      "martwicy komórek z niedokrwienia",
+      "apoptozy",
+      "mejozy komórek naskórka"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "To zaprogramowana śmierć komórek w rozwoju.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pce171b93",
+     "pytanie": "Mutacja wyłączająca gen p53 sprzyja nowotworom, ponieważ:",
+     "odpowiedzi": [
+      "komórki z uszkodzonym DNA nie ulegają apoptozie",
+      "blokuje cykl komórkowy w fazie G₁",
+      "zwiększa liczbę mitochondriów w komórce",
+      "przyspiesza replikację wszystkich genów"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "p53 kieruje komórki z nienaprawialnym DNA do apoptozy.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ],
