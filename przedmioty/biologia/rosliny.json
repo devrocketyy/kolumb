@@ -1854,6 +1854,67 @@
      "wyjasnienie": "Rurka sitowa nie ma jądra.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s99a59102",
+     "typ": "rysunek",
+     "tytul": "Przekrój łodygi dwuliściennej i jednoliściennej",
+     "opis": "Po lewej łodyga rośliny dwuliściennej, po prawej — jednoliściennej.",
+     "uwaga": "Jednoliścienne nie mają kambium w wiązkach — dlatego większość z nich nie przyrasta na grubość (wyjątek: np. palmy przez inny mechanizm).",
+     "svg": "<circle class=\"f\" cx=\"105\" cy=\"150\" r=\"92\"/><circle cx=\"105\" cy=\"150\" r=\"56\" fill=\"var(--surface)\" stroke=\"none\"/><circle class=\"dash\" cx=\"105\" cy=\"150\" r=\"66\"/><ellipse class=\"f2\" cx=\"171.0\" cy=\"150.0\" rx=\"9\" ry=\"14\" transform=\"rotate(90 171.0 150.0)\"/><ellipse class=\"f2\" cx=\"151.7\" cy=\"196.7\" rx=\"9\" ry=\"14\" transform=\"rotate(135 151.7 196.7)\"/><ellipse class=\"f2\" cx=\"105.0\" cy=\"216.0\" rx=\"9\" ry=\"14\" transform=\"rotate(180 105.0 216.0)\"/><ellipse class=\"f2\" cx=\"58.3\" cy=\"196.7\" rx=\"9\" ry=\"14\" transform=\"rotate(225 58.3 196.7)\"/><ellipse class=\"f2\" cx=\"39.0\" cy=\"150.0\" rx=\"9\" ry=\"14\" transform=\"rotate(270 39.0 150.0)\"/><ellipse class=\"f2\" cx=\"58.3\" cy=\"103.3\" rx=\"9\" ry=\"14\" transform=\"rotate(315 58.3 103.3)\"/><ellipse class=\"f2\" cx=\"105.0\" cy=\"84.0\" rx=\"9\" ry=\"14\" transform=\"rotate(360 105.0 84.0)\"/><ellipse class=\"f2\" cx=\"151.7\" cy=\"103.3\" rx=\"9\" ry=\"14\" transform=\"rotate(405 151.7 103.3)\"/><circle cx=\"295\" cy=\"150\" r=\"92\" fill=\"var(--surface-2)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><ellipse class=\"f2\" cx=\"295\" cy=\"150\" rx=\"7\" ry=\"9\"/><ellipse class=\"f2\" cx=\"260\" cy=\"110\" rx=\"7\" ry=\"9\"/><ellipse class=\"f2\" cx=\"330\" cy=\"105\" rx=\"7\" ry=\"9\"/><ellipse class=\"f2\" cx=\"250\" cy=\"170\" rx=\"7\" ry=\"9\"/><ellipse class=\"f2\" cx=\"340\" cy=\"175\" rx=\"7\" ry=\"9\"/><ellipse class=\"f2\" cx=\"295\" cy=\"90\" rx=\"7\" ry=\"9\"/><ellipse class=\"f2\" cx=\"295\" cy=\"205\" rx=\"7\" ry=\"9\"/><ellipse class=\"f2\" cx=\"230\" cy=\"135\" rx=\"7\" ry=\"9\"/><ellipse class=\"f2\" cx=\"360\" cy=\"140\" rx=\"7\" ry=\"9\"/><ellipse class=\"f2\" cx=\"270\" cy=\"220\" rx=\"7\" ry=\"9\"/><ellipse class=\"f2\" cx=\"320\" cy=\"220\" rx=\"7\" ry=\"9\"/><ellipse class=\"f2\" cx=\"275\" cy=\"70\" rx=\"7\" ry=\"9\"/><ellipse class=\"f2\" cx=\"318\" cy=\"70\" rx=\"7\" ry=\"9\"/><ellipse class=\"f2\" cx=\"262\" cy=\"145\" rx=\"7\" ry=\"9\"/><ellipse class=\"f2\" cx=\"325\" cy=\"145\" rx=\"7\" ry=\"9\"/><text class=\"t\" x=\"70\" y=\"292\">dwuliścienna</text><text class=\"t\" x=\"255\" y=\"292\">jednoliścienna</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 105,
+       "y": 58,
+       "lx": 60,
+       "ly": 18,
+       "n": "Skórka",
+       "d": ""
+      },
+      {
+       "x": 75,
+       "y": 76,
+       "lx": 160,
+       "ly": 18,
+       "n": "Kora pierwotna",
+       "d": ""
+      },
+      {
+       "x": 171,
+       "y": 150,
+       "lx": 200,
+       "ly": 70,
+       "n": "Wiązka przewodząca w pierścieniu",
+       "d": "typowa dla dwuliściennych"
+      },
+      {
+       "x": 80,
+       "y": 211,
+       "lx": 30,
+       "ly": 270,
+       "n": "Kambium",
+       "d": "merystem boczny — przyrost na grubość"
+      },
+      {
+       "x": 105,
+       "y": 150,
+       "lx": 20,
+       "ly": 150,
+       "n": "Rdzeń",
+       "d": "miękisz"
+      },
+      {
+       "x": 330,
+       "y": 105,
+       "lx": 380,
+       "ly": 30,
+       "n": "Wiązki rozproszone",
+       "d": "typowe dla jednoliściennych, brak kambium"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2801,6 +2862,158 @@
      "wyjasnienie": "U grochu — części liścia złożonego.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s3cdb8219",
+     "typ": "rysunek",
+     "tytul": "Przekrój poprzeczny liścia",
+     "opis": "Przekrój przez liść rośliny dwuliściennej.",
+     "uwaga": "W wiązce przewodzącej liścia drewno leży od górnej strony, a łyko — od dolnej. Aparaty szparkowe są zwykle w skórce dolnej.",
+     "svg": "<line x1=\"10\" y1=\"36\" x2=\"390\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"3\"/><rect class=\"f\" x=\"10.0\" y=\"38\" width=\"27.1\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"37.1\" y=\"38\" width=\"27.1\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"64.3\" y=\"38\" width=\"27.1\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"91.4\" y=\"38\" width=\"27.1\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"118.6\" y=\"38\" width=\"27.1\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"145.7\" y=\"38\" width=\"27.1\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"172.9\" y=\"38\" width=\"27.1\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"200.0\" y=\"38\" width=\"27.1\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"227.1\" y=\"38\" width=\"27.1\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"254.3\" y=\"38\" width=\"27.1\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"281.4\" y=\"38\" width=\"27.1\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"308.6\" y=\"38\" width=\"27.1\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"335.7\" y=\"38\" width=\"27.1\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"362.9\" y=\"38\" width=\"27.1\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"12\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"17\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"23\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"17\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"23\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"31\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"36\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"42\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"36\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"42\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"50\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"55\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"61\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"55\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"61\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"69\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"74\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"80\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"74\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"80\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"88\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"93\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"99\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"93\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"99\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"107\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"112\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"118\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"112\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"118\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"126\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"131\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"137\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"131\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"137\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"145\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"150\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"156\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"150\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"156\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"164\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"169\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"175\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"169\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"175\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"183\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"188\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"194\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"188\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"194\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"202\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"207\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"213\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"207\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"213\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"221\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"226\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"232\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"226\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"232\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"240\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"245\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"251\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"245\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"251\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"259\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"264\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"270\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"264\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"270\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"278\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"283\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"289\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"283\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"289\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"297\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"302\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"308\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"302\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"308\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"316\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"321\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"327\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"321\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"327\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"335\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"340\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"346\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"340\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"346\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"354\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"359\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"365\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"359\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"365\" cy=\"104\" r=\"2.2\"/><rect class=\"f\" x=\"373\" y=\"56\" width=\"16\" height=\"56\" rx=\"5\"/><circle class=\"d\" cx=\"378\" cy=\"66\" r=\"2.2\"/><circle class=\"d\" cx=\"384\" cy=\"80\" r=\"2.2\"/><circle class=\"d\" cx=\"378\" cy=\"94\" r=\"2.2\"/><circle class=\"d\" cx=\"384\" cy=\"104\" r=\"2.2\"/><ellipse class=\"f\" cx=\"30\" cy=\"130\" rx=\"17\" ry=\"12\"/><circle class=\"d\" cx=\"25\" cy=\"128\" r=\"2\"/><circle class=\"d\" cx=\"35\" cy=\"133\" r=\"2\"/><ellipse class=\"f\" cx=\"70\" cy=\"150\" rx=\"17\" ry=\"12\"/><circle class=\"d\" cx=\"65\" cy=\"148\" r=\"2\"/><circle class=\"d\" cx=\"75\" cy=\"153\" r=\"2\"/><ellipse class=\"f\" cx=\"40\" cy=\"180\" rx=\"17\" ry=\"12\"/><circle class=\"d\" cx=\"35\" cy=\"178\" r=\"2\"/><circle class=\"d\" cx=\"45\" cy=\"183\" r=\"2\"/><ellipse class=\"f\" cx=\"110\" cy=\"128\" rx=\"17\" ry=\"12\"/><circle class=\"d\" cx=\"105\" cy=\"126\" r=\"2\"/><circle class=\"d\" cx=\"115\" cy=\"131\" r=\"2\"/><ellipse class=\"f\" cx=\"120\" cy=\"178\" rx=\"17\" ry=\"12\"/><circle class=\"d\" cx=\"115\" cy=\"176\" r=\"2\"/><circle class=\"d\" cx=\"125\" cy=\"181\" r=\"2\"/><ellipse class=\"f\" cx=\"300\" cy=\"130\" rx=\"17\" ry=\"12\"/><circle class=\"d\" cx=\"295\" cy=\"128\" r=\"2\"/><circle class=\"d\" cx=\"305\" cy=\"133\" r=\"2\"/><ellipse class=\"f\" cx=\"340\" cy=\"150\" rx=\"17\" ry=\"12\"/><circle class=\"d\" cx=\"335\" cy=\"148\" r=\"2\"/><circle class=\"d\" cx=\"345\" cy=\"153\" r=\"2\"/><ellipse class=\"f\" cx=\"290\" cy=\"175\" rx=\"17\" ry=\"12\"/><circle class=\"d\" cx=\"285\" cy=\"173\" r=\"2\"/><circle class=\"d\" cx=\"295\" cy=\"178\" r=\"2\"/><ellipse class=\"f\" cx=\"350\" cy=\"185\" rx=\"17\" ry=\"12\"/><circle class=\"d\" cx=\"345\" cy=\"183\" r=\"2\"/><circle class=\"d\" cx=\"355\" cy=\"188\" r=\"2\"/><ellipse class=\"f\" cx=\"380\" cy=\"130\" rx=\"17\" ry=\"12\"/><circle class=\"d\" cx=\"375\" cy=\"128\" r=\"2\"/><circle class=\"d\" cx=\"385\" cy=\"133\" r=\"2\"/><ellipse class=\"f\" cx=\"250\" cy=\"130\" rx=\"17\" ry=\"12\"/><circle class=\"d\" cx=\"245\" cy=\"128\" r=\"2\"/><circle class=\"d\" cx=\"255\" cy=\"133\" r=\"2\"/><ellipse class=\"f\" cx=\"80\" cy=\"196\" rx=\"17\" ry=\"12\"/><circle class=\"d\" cx=\"75\" cy=\"194\" r=\"2\"/><circle class=\"d\" cx=\"85\" cy=\"199\" r=\"2\"/><ellipse class=\"f\" cx=\"330\" cy=\"200\" rx=\"17\" ry=\"12\"/><circle class=\"d\" cx=\"325\" cy=\"198\" r=\"2\"/><circle class=\"d\" cx=\"335\" cy=\"203\" r=\"2\"/><circle class=\"f\" cx=\"195\" cy=\"160\" r=\"40\"/><circle class=\"f2\" cx=\"195\" cy=\"148\" r=\"18\"/><circle class=\"s\" cx=\"186\" cy=\"142\" r=\"5\"/><circle class=\"s\" cx=\"200\" cy=\"140\" r=\"5\"/><circle class=\"s\" cx=\"194\" cy=\"154\" r=\"5\"/><circle class=\"s\" cx=\"206\" cy=\"152\" r=\"5\"/><path class=\"s2\" d=\"M170 178 Q195 190 220 178\"/><circle class=\"d\" cx=\"185\" cy=\"182\" r=\"2\"/><circle class=\"d\" cx=\"195\" cy=\"186\" r=\"2\"/><circle class=\"d\" cx=\"205\" cy=\"182\" r=\"2\"/><rect class=\"f\" x=\"10\" y=\"214\" width=\"28\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"38\" y=\"214\" width=\"28\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"66\" y=\"214\" width=\"28\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"94\" y=\"214\" width=\"28\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"122\" y=\"214\" width=\"28\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"150\" y=\"214\" width=\"28\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"178\" y=\"214\" width=\"28\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"206\" y=\"214\" width=\"28\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"234\" y=\"214\" width=\"28\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"296\" y=\"214\" width=\"28\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"324\" y=\"214\" width=\"28\" height=\"16\" rx=\"2\"/><rect class=\"f\" x=\"352\" y=\"214\" width=\"28\" height=\"16\" rx=\"2\"/><ellipse class=\"f2\" cx=\"262\" cy=\"222\" rx=\"10\" ry=\"8\"/><ellipse class=\"f2\" cx=\"284\" cy=\"222\" rx=\"10\" ry=\"8\"/><line x1=\"10\" y1=\"232\" x2=\"390\" y2=\"232\" stroke=\"currentColor\" stroke-width=\"2\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 60,
+       "y": 36,
+       "lx": 40,
+       "ly": 12,
+       "n": "Kutykula",
+       "d": "ogranicza parowanie"
+      },
+      {
+       "x": 150,
+       "y": 46,
+       "lx": 150,
+       "ly": 12,
+       "n": "Skórka górna",
+       "d": ""
+      },
+      {
+       "x": 240,
+       "y": 84,
+       "lx": 300,
+       "ly": 12,
+       "n": "Miękisz palisadowy",
+       "d": "najwięcej chloroplastów — główne miejsce fotosyntezy"
+      },
+      {
+       "x": 70,
+       "y": 150,
+       "lx": 20,
+       "ly": 100,
+       "n": "Miękisz gąbczasty",
+       "d": ""
+      },
+      {
+       "x": 95,
+       "y": 155,
+       "lx": 20,
+       "ly": 160,
+       "n": "Przestwory międzykomórkowe",
+       "d": "wymiana gazowa"
+      },
+      {
+       "x": 195,
+       "y": 146,
+       "lx": 380,
+       "ly": 100,
+       "n": "Drewno",
+       "d": "woda i sole mineralne"
+      },
+      {
+       "x": 195,
+       "y": 184,
+       "lx": 380,
+       "ly": 170,
+       "n": "Łyko",
+       "d": "produkty fotosyntezy"
+      },
+      {
+       "x": 160,
+       "y": 160,
+       "lx": 140,
+       "ly": 250,
+       "n": "Wiązka przewodząca (nerw liścia)",
+       "d": ""
+      },
+      {
+       "x": 60,
+       "y": 222,
+       "lx": 20,
+       "ly": 245,
+       "n": "Skórka dolna",
+       "d": ""
+      },
+      {
+       "x": 273,
+       "y": 224,
+       "lx": 330,
+       "ly": 280,
+       "n": "Aparat szparkowy",
+       "d": "wymiana gazowa i transpiracja"
+      }
+     ]
+    },
+    {
+     "id": "s59d10807",
+     "typ": "rysunek",
+     "tytul": "Strefy korzenia",
+     "opis": "Wierzchołek korzenia z kolejnymi strefami.",
+     "uwaga": "Włośniki są krótkotrwałe i powstają tylko w młodej części korzenia — dlatego przesadzanie może uszkodzić roślinę.",
+     "svg": "<path class=\"f\" d=\"M184 0 L184 236 Q184 262 200 270 Q216 262 216 236 L216 0 Z\"/><path class=\"f2\" d=\"M180 244 Q180 288 200 296 Q220 288 220 244 Q200 256 180 244 Z\"/><rect class=\"s2\" x=\"188\" y=\"220\" width=\"8\" height=\"8\"/><rect class=\"s2\" x=\"196\" y=\"220\" width=\"8\" height=\"8\"/><rect class=\"s2\" x=\"204\" y=\"220\" width=\"8\" height=\"8\"/><rect class=\"s2\" x=\"188\" y=\"228\" width=\"8\" height=\"8\"/><rect class=\"s2\" x=\"196\" y=\"228\" width=\"8\" height=\"8\"/><rect class=\"s2\" x=\"204\" y=\"228\" width=\"8\" height=\"8\"/><rect class=\"s2\" x=\"188\" y=\"236\" width=\"8\" height=\"8\"/><rect class=\"s2\" x=\"196\" y=\"236\" width=\"8\" height=\"8\"/><rect class=\"s2\" x=\"204\" y=\"236\" width=\"8\" height=\"8\"/><path class=\"s\" d=\"M184 80 l-30 -3 M216 80 l30 0\"/><path class=\"s\" d=\"M184 89 l-30 -5 M216 89 l30 -4\"/><path class=\"s\" d=\"M184 98 l-30 0 M216 98 l30 -3\"/><path class=\"s\" d=\"M184 107 l-30 -2 M216 107 l30 -2\"/><path class=\"s\" d=\"M184 116 l-30 -4 M216 116 l30 -1\"/><path class=\"s\" d=\"M184 125 l-30 -6 M216 125 l30 0\"/><path class=\"s\" d=\"M184 134 l-30 -1 M216 134 l30 -4\"/><path class=\"s\" d=\"M184 143 l-30 -3 M216 143 l30 -3\"/><path class=\"s\" d=\"M184 152 l-30 -5 M216 152 l30 -2\"/><path class=\"f\" d=\"M184 30 L130 8 L128 16 L184 44 Z\"/><path class=\"f\" d=\"M216 48 L272 22 L274 30 L216 62 Z\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 284,
+       "lx": 280,
+       "ly": 290,
+       "n": "Czapeczka",
+       "d": "chroni stożek wzrostu, odbiera grawitację"
+      },
+      {
+       "x": 200,
+       "y": 230,
+       "lx": 290,
+       "ly": 230,
+       "n": "Stożek wzrostu (merystem wierzchołkowy)",
+       "d": "podziały komórek"
+      },
+      {
+       "x": 200,
+       "y": 190,
+       "lx": 290,
+       "ly": 180,
+       "n": "Strefa wydłużania",
+       "d": "wzrost komórek na długość"
+      },
+      {
+       "x": 200,
+       "y": 120,
+       "lx": 300,
+       "ly": 120,
+       "n": "Strefa włośnikowa",
+       "d": "pobieranie wody i soli"
+      },
+      {
+       "x": 160,
+       "y": 98,
+       "lx": 70,
+       "ly": 120,
+       "n": "Włośnik",
+       "d": "wypustka komórki skórki"
+      },
+      {
+       "x": 150,
+       "y": 18,
+       "lx": 70,
+       "ly": 40,
+       "n": "Korzeń boczny",
+       "d": "wyrasta z okolnicy"
+      }
+     ]
+    }
    ]
   },
   {
@@ -3712,6 +3925,65 @@
       },
       {
        "t": "Otwarcie szparki"
+      }
+     ]
+    },
+    {
+     "id": "s8caae072",
+     "typ": "rysunek",
+     "tytul": "Aparat szparkowy",
+     "opis": "Aparat szparkowy w widoku z powierzchni liścia.",
+     "uwaga": "Komórki szparkowe jako jedyne w skórce mają chloroplasty. Wzrost turgoru wygina je i otwiera szparkę.",
+     "svg": "<path class=\"f\" d=\"M10 10 L150 10 L170 60 L130 120 L150 180 L170 240 L150 290 L10 290 Z\"/><path class=\"f\" d=\"M390 10 L250 10 L230 60 L270 120 L250 180 L230 240 L250 290 L390 290 Z\"/><path class=\"f\" d=\"M150 10 L250 10 L230 60 L170 60 Z\"/><path class=\"f\" d=\"M150 290 L250 290 L230 240 L170 240 Z\"/><path class=\"f2\" d=\"M200 62 Q140 66 142 150 Q140 234 200 238 Q178 150 200 62 Z\"/><path class=\"f2\" d=\"M200 62 Q260 66 258 150 Q260 234 200 238 Q222 150 200 62 Z\"/><path d=\"M200 66 Q182 150 200 234 Q218 150 200 66 Z\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"3.5\"/><circle class=\"d\" cx=\"160\" cy=\"110\" r=\"4\"/><circle class=\"d\" cx=\"165\" cy=\"160\" r=\"4\"/><circle class=\"d\" cx=\"162\" cy=\"200\" r=\"4\"/><circle class=\"d\" cx=\"240\" cy=\"100\" r=\"4\"/><circle class=\"d\" cx=\"236\" cy=\"150\" r=\"4\"/><circle class=\"d\" cx=\"240\" cy=\"205\" r=\"4\"/><circle class=\"s\" cx=\"168\" cy=\"140\" r=\"8\"/><circle class=\"s\" cx=\"232\" cy=\"175\" r=\"8\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 155,
+       "y": 150,
+       "lx": 40,
+       "ly": 150,
+       "n": "Komórka szparkowa",
+       "d": "ma chloroplasty, reguluje otwarcie szparki"
+      },
+      {
+       "x": 200,
+       "y": 150,
+       "lx": 300,
+       "ly": 150,
+       "n": "Szparka",
+       "d": "otwór, przez który zachodzi wymiana gazów"
+      },
+      {
+       "x": 192,
+       "y": 110,
+       "lx": 300,
+       "ly": 40,
+       "n": "Zgrubiała ściana od strony szparki",
+       "d": "decyduje o wyginaniu komórek"
+      },
+      {
+       "x": 160,
+       "y": 110,
+       "lx": 80,
+       "ly": 40,
+       "n": "Chloroplast",
+       "d": ""
+      },
+      {
+       "x": 232,
+       "y": 175,
+       "lx": 300,
+       "ly": 260,
+       "n": "Jądro komórkowe",
+       "d": ""
+      },
+      {
+       "x": 80,
+       "y": 230,
+       "lx": 60,
+       "ly": 280,
+       "n": "Komórka skórki",
+       "d": "brak chloroplastów"
       }
      ]
     }
@@ -5187,6 +5459,223 @@
       },
       {
        "t": "Rozpoczęcie fotosyntezy"
+      }
+     ]
+    },
+    {
+     "id": "s9c9a39cb",
+     "typ": "rysunek",
+     "tytul": "Budowa kwiatu",
+     "opis": "Schemat obupłciowego kwiatu rośliny okrytonasiennej (przekrój podłużny).",
+     "uwaga": "Pręciki to męskie organy kwiatu, słupek — żeński. Z zalążni powstaje owoc, z zalążków — nasiona.",
+     "svg": "<rect class=\"f\" x=\"195\" y=\"222\" width=\"10\" height=\"78\"/><path class=\"f\" d=\"M172 216 Q96 182 88 86 Q140 116 182 208 Z\"/><path class=\"f\" d=\"M228 216 Q304 182 312 86 Q260 116 218 208 Z\"/><path class=\"f\" d=\"M168 224 Q122 246 102 220 Q138 214 170 218 Z\"/><path class=\"f\" d=\"M232 224 Q278 246 298 220 Q262 214 230 218 Z\"/><ellipse class=\"f2\" cx=\"200\" cy=\"218\" rx=\"40\" ry=\"11\"/><path class=\"s\" d=\"M178 210 L152 118 M222 210 L248 118\"/><ellipse class=\"f2\" cx=\"150\" cy=\"108\" rx=\"7\" ry=\"13\" transform=\"rotate(-15 150 108)\"/><ellipse class=\"f2\" cx=\"250\" cy=\"108\" rx=\"7\" ry=\"13\" transform=\"rotate(15 250 108)\"/><ellipse class=\"f\" cx=\"200\" cy=\"184\" rx=\"24\" ry=\"28\"/><circle class=\"s\" cx=\"194\" cy=\"176\" r=\"5\"/><circle class=\"s\" cx=\"206\" cy=\"190\" r=\"5\"/><circle class=\"s\" cx=\"194\" cy=\"196\" r=\"5\"/><rect class=\"f\" x=\"197\" y=\"98\" width=\"6\" height=\"60\"/><ellipse class=\"f2\" cx=\"200\" cy=\"94\" rx=\"15\" ry=\"6\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 92,
+       "lx": 200,
+       "ly": 20,
+       "n": "Znamię słupka",
+       "d": "przyjmuje pyłek"
+      },
+      {
+       "x": 200,
+       "y": 130,
+       "lx": 270,
+       "ly": 60,
+       "n": "Szyjka słupka",
+       "d": "przez nią rośnie łagiewka pyłkowa"
+      },
+      {
+       "x": 215,
+       "y": 200,
+       "lx": 340,
+       "ly": 220,
+       "n": "Zalążnia",
+       "d": "przekształca się w owoc"
+      },
+      {
+       "x": 194,
+       "y": 176,
+       "lx": 330,
+       "ly": 150,
+       "n": "Zalążek",
+       "d": "przekształca się w nasienie"
+      },
+      {
+       "x": 150,
+       "y": 108,
+       "lx": 120,
+       "ly": 30,
+       "n": "Pylnik",
+       "d": "wytwarza ziarna pyłku"
+      },
+      {
+       "x": 165,
+       "y": 165,
+       "lx": 60,
+       "ly": 160,
+       "n": "Nitka pręcika",
+       "d": ""
+      },
+      {
+       "x": 100,
+       "y": 100,
+       "lx": 40,
+       "ly": 60,
+       "n": "Płatek korony",
+       "d": "zwabia zapylaczy"
+      },
+      {
+       "x": 110,
+       "y": 222,
+       "lx": 40,
+       "ly": 250,
+       "n": "Działka kielicha",
+       "d": "chroni pąk kwiatowy"
+      },
+      {
+       "x": 230,
+       "y": 222,
+       "lx": 340,
+       "ly": 260,
+       "n": "Dno kwiatowe",
+       "d": ""
+      },
+      {
+       "x": 200,
+       "y": 270,
+       "lx": 260,
+       "ly": 290,
+       "n": "Szypułka",
+       "d": ""
+      }
+     ]
+    },
+    {
+     "id": "sc7f22dd3",
+     "typ": "rysunek",
+     "tytul": "Budowa zalążka",
+     "opis": "Przekrój przez zalążek z dojrzałym woreczkiem zalążkowym (gametofitem żeńskim).",
+     "uwaga": "Woreczek zalążkowy ma 7 komórek i 8 jąder: komórkę jajową, 2 synergidy, 3 antypody i komórkę centralną z 2 jądrami biegunowymi.",
+     "svg": "<path class=\"f2\" d=\"M72 135 Q80 60 200 60 Q320 60 322 150 Q320 240 200 240 Q80 240 72 165 L96 160 L96 140 Z\"/><path class=\"f\" d=\"M88 138 Q96 76 200 76 Q306 76 308 150 Q306 224 200 224 Q96 224 88 162 L100 158 L100 142 Z\"/><ellipse cx=\"200\" cy=\"150\" rx=\"78\" ry=\"44\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle class=\"f2\" cx=\"150\" cy=\"150\" r=\"12\"/><circle class=\"d\" cx=\"150\" cy=\"150\" r=\"3\"/><circle class=\"f\" cx=\"136\" cy=\"134\" r=\"9\"/><circle class=\"f\" cx=\"136\" cy=\"166\" r=\"9\"/><circle class=\"d\" cx=\"198\" cy=\"146\" r=\"5\"/><circle class=\"d\" cx=\"210\" cy=\"156\" r=\"5\"/><circle class=\"f\" cx=\"258\" cy=\"136\" r=\"8\"/><circle class=\"f\" cx=\"266\" cy=\"152\" r=\"8\"/><circle class=\"f\" cx=\"258\" cy=\"166\" r=\"8\"/><rect class=\"f\" x=\"320\" y=\"142\" width=\"76\" height=\"16\"/><text class=\"t\" x=\"20\" y=\"150\">pyłek ⟶</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 66,
+       "lx": 200,
+       "ly": 18,
+       "n": "Osłonki zalążka",
+       "d": "przekształcają się w łupinę nasienną"
+      },
+      {
+       "x": 92,
+       "y": 150,
+       "lx": 30,
+       "ly": 100,
+       "n": "Okienko (mikropyle)",
+       "d": "tędy wnika łagiewka pyłkowa"
+      },
+      {
+       "x": 150,
+       "y": 150,
+       "lx": 120,
+       "ly": 280,
+       "n": "Komórka jajowa",
+       "d": "po zapłodnieniu — zygota"
+      },
+      {
+       "x": 136,
+       "y": 166,
+       "lx": 50,
+       "ly": 230,
+       "n": "Synergidy",
+       "d": "kierują łagiewkę pyłkową"
+      },
+      {
+       "x": 204,
+       "y": 151,
+       "lx": 210,
+       "ly": 280,
+       "n": "Komórka centralna z jądrami biegunowymi",
+       "d": "po zapłodnieniu — bielmo (3n)"
+      },
+      {
+       "x": 266,
+       "y": 152,
+       "lx": 300,
+       "ly": 280,
+       "n": "Antypody",
+       "d": ""
+      },
+      {
+       "x": 285,
+       "y": 110,
+       "lx": 340,
+       "ly": 40,
+       "n": "Ośrodek (nucellus)",
+       "d": ""
+      },
+      {
+       "x": 360,
+       "y": 150,
+       "lx": 380,
+       "ly": 100,
+       "n": "Sznureczek",
+       "d": "łączy zalążek z łożyskiem"
+      }
+     ]
+    },
+    {
+     "id": "s7c7a93a6",
+     "typ": "rysunek",
+     "tytul": "Budowa nasienia fasoli",
+     "opis": "Nasienie fasoli po zdjęciu części łupiny — widoczny jeden liścień i oś zarodka.",
+     "uwaga": "Fasola jest dwuliścienna i nie ma bielma — materiały zapasowe zgromadzone są w liścieniach.",
+     "svg": "<path class=\"f2\" d=\"M60 150 Q60 60 200 60 Q340 60 340 150 Q340 240 200 240 Q120 240 110 200 Q100 175 80 190 Q60 200 60 150 Z\"/><path class=\"f\" d=\"M74 150 Q74 74 200 74 Q326 74 326 150 Q326 226 200 226 Q130 226 120 196 Q112 168 96 176 Q74 186 74 150 Z\"/><path class=\"s2\" d=\"M120 120 Q200 100 290 130 M130 175 Q210 200 300 170\"/><path class=\"f2\" d=\"M100 120 L130 140 L104 150 Z\"/><path class=\"f2\" d=\"M126 126 q10 -18 26 -14 q-6 14 -26 14 Z M128 130 q16 -6 24 6 q-14 6 -24 -6 Z\"/><rect class=\"d\" x=\"74\" y=\"186\" width=\"16\" height=\"5\" rx=\"2\" transform=\"rotate(-30 82 188)\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 66,
+       "lx": 200,
+       "ly": 20,
+       "n": "Łupina nasienna",
+       "d": "ochrona zarodka"
+      },
+      {
+       "x": 230,
+       "y": 150,
+       "lx": 300,
+       "ly": 280,
+       "n": "Liścień",
+       "d": "magazynuje materiały zapasowe"
+      },
+      {
+       "x": 110,
+       "y": 136,
+       "lx": 30,
+       "ly": 90,
+       "n": "Korzeń zarodkowy",
+       "d": "pierwszy wyrasta przy kiełkowaniu"
+      },
+      {
+       "x": 140,
+       "y": 120,
+       "lx": 150,
+       "ly": 30,
+       "n": "Pąk (zawiązek pędu)",
+       "d": ""
+      },
+      {
+       "x": 82,
+       "y": 188,
+       "lx": 30,
+       "ly": 260,
+       "n": "Znaczek",
+       "d": "ślad po sznureczku"
       }
      ]
     }
