@@ -178,6 +178,11 @@ Oświata Sport Film Kolektywizacja Podział Granica Granice Społeczeństwo Twó
 Ostatni Pięć Święta Trzy Dwie Siedem Wewnętrzne Zewnętrzne Charakter Kształtowanie'''.split())
 
 
+# tytuły zestawień, porównań i instrukcji („X — przykłady”, „A a B”, „Krok po kroku…”) nie są pojęciami —
+# zgadywanie ich z opisu nic nie uczy, więc z takich fiszek nie robimy odwrotek
+SLABA_ODWROTKA = re.compile(r' — | – | a | jako |\bkrok|zestawienie|porównanie|przykład|wzór|schemat|typowy błąd|\d|^(funkcj|budow|polecenie|czynnik|sposob|właściwości|główne|szybkość|rodzaj|hormony|zasady|objawy|znaczenie|rola|wpływ|metody|przystosowania)', re.I)
+
+
 def reverse_cards(F):
     """Fiszki odwrotne (jak w WOS): pojęcie ← definicja, wydarzenie/postać ← opis."""
     out = []
@@ -186,7 +191,8 @@ def reverse_cards(F):
             term = p[len('Wyjaśnij pojęcie: '):].strip()
             if not _stem_leak(term, ty):
                 out.append((f'Podaj nazwę pojęcia: {ty}', term))
-        elif not p.endswith('?') and not p.endswith(':') and len(p) <= 60 and p.split()[0] not in OGOLNE:
+        elif (not p.endswith('?') and not p.endswith(':') and len(p) <= 60 and p.split()[0] not in OGOLNE
+              and not SLABA_ODWROTKA.search(p)):
             if not _stem_leak(p, ty):
                 out.append((f'Rozpoznaj: {ty}', p))
     return out

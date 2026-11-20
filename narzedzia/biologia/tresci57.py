@@ -98,7 +98,7 @@ T['b-enzymy'] = dict(F=[
 T['b-oddychanie'] = dict(F=[
  ('Oddychanie tlenowe — równanie sumaryczne', 'C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + energia (ATP i ciepło).'),
  ('Wykrywanie CO₂ — woda wapienna', 'CO₂ powoduje zmętnienie wody wapiennej (wytrącenie CaCO₃) — dowód oddychania.'),
- ('Oddychanie a fermentacja — porównanie wydajności', 'Oddychanie tlenowe ok. 30–38 ATP z glukozy, fermentacja — 2 ATP.'),
+ ('Oddychanie a fermentacja — porównanie wydajności', 'Oddychanie tlenowe ok. 30–32 ATP z glukozy (w starszych podręcznikach 36–38), fermentacja — 2 ATP.'),
 ])
 
 T['b-fermentacje'] = dict(F=[

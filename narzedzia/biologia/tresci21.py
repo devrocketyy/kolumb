@@ -115,7 +115,7 @@ T['b-oddychanie'] = dict(F=[
  ('Bilans glikolizy', 'Z 1 glukozy: 2 pirogroniany, 2 ATP netto (4 powstają, 2 zużyte), 2 NADH.'),
  ('Bilans reakcji pomostowej (na 1 glukozę)', '2 acetylo-CoA, 2 CO₂, 2 NADH.'),
  ('Bilans cyklu Krebsa (na 1 glukozę)', '4 CO₂, 6 NADH, 2 FADH₂, 2 ATP (GTP).'),
- ('Ile ATP powstaje z 1 glukozy w oddychaniu tlenowym?', 'Teoretycznie ok. 30–38 cząsteczek ATP (większość w fosforylacji oksydacyjnej).'),
+ ('Ile ATP powstaje z 1 glukozy w oddychaniu tlenowym?', 'Ok. 30–32 cząsteczki ATP (w starszych podręcznikach 36–38) (większość w fosforylacji oksydacyjnej).'),
  ('Rozprzęgacze (np. termogenina)', 'Białka/substancje umożliwiające powrót protonów do macierzy z pominięciem syntazy ATP — energia rozpraszana jako ciepło.'),
  ('Beta-oksydacja', 'Rozkład kwasów tłuszczowych w macierzy mitochondrium do acetylo-CoA, z wytworzeniem NADH i FADH₂.'),
 ])
