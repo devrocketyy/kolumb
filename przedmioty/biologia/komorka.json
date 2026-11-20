@@ -4874,6 +4874,38 @@
      "wyjasnienie": "Peptydoglikan.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sd19878d3",
+     "typ": "proces",
+     "tytul": "Plazmoliza i deplazmoliza",
+     "opis": "",
+     "uwaga": "Ściana komórkowa nie dopuszcza do pęknięcia komórki roślinnej w roztworze hipotonicznym — erytrocyt w tych warunkach ulega hemolizie.",
+     "kroki": [
+      {
+       "t": "Komórka w roztworze hipertonicznym"
+      },
+      {
+       "t": "Woda wypływa z wakuoli",
+       "d": "osmoza"
+      },
+      {
+       "t": "Protoplast kurczy się i odstaje od ściany",
+       "d": "plazmoliza"
+      },
+      {
+       "t": "Przeniesienie do wody destylowanej"
+      },
+      {
+       "t": "Woda napływa do wakuoli"
+      },
+      {
+       "t": "Protoplast przylega do ściany",
+       "d": "deplazmoliza, turgor"
+      }
+     ]
+    }
    ]
   }
  ]

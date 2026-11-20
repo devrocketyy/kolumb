@@ -340,6 +340,62 @@
      "wyjasnienie": "Rośliny GMO.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sd0888cda",
+     "typ": "proces",
+     "tytul": "Wytwarzanie jogurtu",
+     "opis": "",
+     "uwaga": "Kwas mlekowy obniża pH, przez co białka (kazeina) koagulują, a rozwój bakterii gnilnych jest hamowany.",
+     "kroki": [
+      {
+       "t": "Pasteryzacja mleka",
+       "d": "usunięcie niepożądanych drobnoustrojów"
+      },
+      {
+       "t": "Schłodzenie do ok. 42°C"
+      },
+      {
+       "t": "Dodanie kultur bakterii fermentacji mlekowej"
+      },
+      {
+       "t": "Fermentacja mleczanowa",
+       "d": "laktoza → kwas mlekowy"
+      },
+      {
+       "t": "Spadek pH i ścięcie białek mleka"
+      },
+      {
+       "t": "Schłodzenie produktu"
+      }
+     ]
+    },
+    {
+     "id": "s0dfea84e",
+     "typ": "proces",
+     "tytul": "Produkcja wina",
+     "opis": "",
+     "uwaga": "Dostęp tlenu sprzyjałby rozwojowi bakterii octowych, które utleniają etanol do kwasu octowego.",
+     "kroki": [
+      {
+       "t": "Zgniecenie owoców"
+      },
+      {
+       "t": "Dodanie drożdży",
+       "d": "lub drożdże naturalnie obecne na skórce"
+      },
+      {
+       "t": "Fermentacja alkoholowa w warunkach beztlenowych"
+      },
+      {
+       "t": "Uwalnianie CO₂"
+      },
+      {
+       "t": "Klarowanie i dojrzewanie wina"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1167,6 +1223,58 @@
       {
        "t": "Naprawa DNA przez komórkę",
        "d": "wyłączenie genu lub wstawienie nowej sekwencji"
+      }
+     ]
+    },
+    {
+     "id": "s23267597",
+     "typ": "proces",
+     "tytul": "Ustalanie ojcostwa metodą profilu DNA",
+     "opis": "",
+     "uwaga": "Każdy prążek dziecka pochodzi od matki albo od ojca — tak rozwiązuje się zadania z profilami DNA.",
+     "kroki": [
+      {
+       "t": "Pobranie próbek DNA dziecka, matki i domniemanego ojca"
+      },
+      {
+       "t": "Powielenie wybranych sekwencji powtórzonych (STR) metodą PCR"
+      },
+      {
+       "t": "Rozdział fragmentów elektroforezą"
+      },
+      {
+       "t": "Odczyt prążków"
+      },
+      {
+       "t": "Prążki dziecka nieobecne u matki muszą występować u ojca"
+      }
+     ]
+    },
+    {
+     "id": "s92e69fb4",
+     "typ": "proces",
+     "tytul": "Sekwencjonowanie DNA metodą Sangera",
+     "opis": "",
+     "uwaga": "Dideoksynukleotyd nie ma grupy –OH przy węglu 3′, więc kolejny nukleotyd nie może zostać dołączony.",
+     "kroki": [
+      {
+       "t": "Matryca DNA, starter, polimeraza i nukleotydy"
+      },
+      {
+       "t": "Dodatek znakowanych dideoksynukleotydów (ddNTP)",
+       "d": "brak grupy 3′-OH"
+      },
+      {
+       "t": "Synteza nici przerywana losowo po wbudowaniu ddNTP"
+      },
+      {
+       "t": "Fragmenty różnej długości"
+      },
+      {
+       "t": "Rozdział fragmentów elektroforezą kapilarną"
+      },
+      {
+       "t": "Odczyt sekwencji z kolejności znaczników"
       }
      ]
     }

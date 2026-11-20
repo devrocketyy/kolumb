@@ -467,6 +467,33 @@
        "t": "Cecha organizmu"
       }
      ]
+    },
+    {
+     "id": "s65238a9b",
+     "typ": "proces",
+     "tytul": "Doświadczenie Griffitha",
+     "opis": "",
+     "uwaga": "Avery i współpracownicy wykazali później, że czynnikiem transformującym jest DNA.",
+     "kroki": [
+      {
+       "t": "Szczep S (z otoczką) zabija myszy"
+      },
+      {
+       "t": "Szczep R (bez otoczki) nie zabija myszy"
+      },
+      {
+       "t": "Zabity wysoką temperaturą szczep S nie zabija myszy"
+      },
+      {
+       "t": "Mieszanina zabitego S i żywego R zabija myszy"
+      },
+      {
+       "t": "Z martwych myszy izoluje się żywe bakterie S"
+      },
+      {
+       "t": "Wniosek: zaszła transformacja bakterii"
+      }
+     ]
     }
    ]
   },
@@ -2111,6 +2138,35 @@
       },
       {
        "t": "Synteza enzymów rozkładających laktozę"
+      }
+     ]
+    },
+    {
+     "id": "s3278b2eb",
+     "typ": "proces",
+     "tytul": "Operon tryptofanowy — represja",
+     "opis": "",
+     "uwaga": "To przykład ujemnego sprzężenia zwrotnego — produkt szlaku wyłącza geny własnej syntezy.",
+     "kroki": [
+      {
+       "t": "Mało tryptofanu: represor nieaktywny",
+       "d": "geny syntezy tryptofanu działają"
+      },
+      {
+       "t": "Wzrost stężenia tryptofanu"
+      },
+      {
+       "t": "Tryptofan wiąże się z represorem",
+       "d": "korepresor"
+      },
+      {
+       "t": "Aktywny represor przyłącza się do operatora"
+      },
+      {
+       "t": "Zahamowanie transkrypcji genów"
+      },
+      {
+       "t": "Synteza tryptofanu ustaje"
       }
      ]
     }

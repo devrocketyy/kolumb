@@ -933,6 +933,51 @@
      "wyjasnienie": "Hydrofobowe.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s0b5804d4",
+     "typ": "rysunek",
+     "tytul": "Wiązania wodorowe między cząsteczkami wody",
+     "opis": "Polarne cząsteczki wody łączą się wiązaniami wodorowymi.",
+     "uwaga": "Polarność cząsteczki wody wyjaśnia, dlaczego jest dobrym rozpuszczalnikiem substancji jonowych i polarnych.",
+     "svg": "<line class=\"s\" x1=\"200\" y1=\"130\" x2=\"178\" y2=\"156\"/><line class=\"s\" x1=\"200\" y1=\"130\" x2=\"222\" y2=\"156\"/><circle class=\"f2\" cx=\"200\" cy=\"130\" r=\"20\"/><circle class=\"f\" cx=\"178\" cy=\"156\" r=\"11\"/><circle class=\"f\" cx=\"222\" cy=\"156\" r=\"11\"/><line class=\"s\" x1=\"120\" y1=\"232\" x2=\"100\" y2=\"254\"/><line class=\"s\" x1=\"120\" y1=\"232\" x2=\"142\" y2=\"256\"/><circle class=\"f2\" cx=\"120\" cy=\"232\" r=\"20\"/><circle class=\"f\" cx=\"100\" cy=\"254\" r=\"11\"/><circle class=\"f\" cx=\"142\" cy=\"256\" r=\"11\"/><line class=\"s\" x1=\"282\" y1=\"232\" x2=\"304\" y2=\"252\"/><line class=\"s\" x1=\"282\" y1=\"232\" x2=\"262\" y2=\"258\"/><circle class=\"f2\" cx=\"282\" cy=\"232\" r=\"20\"/><circle class=\"f\" cx=\"304\" cy=\"252\" r=\"11\"/><circle class=\"f\" cx=\"262\" cy=\"258\" r=\"11\"/><line class=\"s\" x1=\"185\" y1=\"36\" x2=\"198\" y2=\"64\"/><line class=\"s\" x1=\"185\" y1=\"36\" x2=\"156\" y2=\"46\"/><circle class=\"f2\" cx=\"185\" cy=\"36\" r=\"20\"/><circle class=\"f\" cx=\"198\" cy=\"64\" r=\"11\"/><circle class=\"f\" cx=\"156\" cy=\"46\" r=\"11\"/><path class=\"dash\" d=\"M170 166 L132 214 M230 166 L268 214 M200 76 L200 108\"/><text class=\"t\" x=\"226\" y=\"122\">δ−</text><text class=\"t\" x=\"160\" y=\"182\">δ+</text><text class=\"t\" x=\"232\" y=\"182\">δ+</text>",
+     "viewBox": "0 0 400 280",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 120,
+       "lx": 300,
+       "ly": 100,
+       "n": "Atom tlenu",
+       "d": "częściowy ładunek ujemny (δ−)"
+      },
+      {
+       "x": 178,
+       "y": 156,
+       "lx": 60,
+       "ly": 120,
+       "n": "Atom wodoru",
+       "d": "częściowy ładunek dodatni (δ+)"
+      },
+      {
+       "x": 151,
+       "y": 190,
+       "lx": 60,
+       "ly": 180,
+       "n": "Wiązanie wodorowe",
+       "d": "słabe, ale liczne — kohezja, wysokie ciepło właściwe"
+      },
+      {
+       "x": 211,
+       "y": 143,
+       "lx": 320,
+       "ly": 160,
+       "n": "Wiązanie kowalencyjne spolaryzowane",
+       "d": "łączy O i H w cząsteczce"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1953,6 +1998,38 @@
      "poprawna": "B",
      "wyjasnienie": "Masa kałowa.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "sb6eea079",
+     "typ": "proces",
+     "tytul": "Trawienie skrobi u człowieka",
+     "opis": "",
+     "uwaga": "Amylaza działa w pH obojętnym lub lekko zasadowym — w żołądku (pH ok. 2) traci aktywność.",
+     "kroki": [
+      {
+       "t": "Skrobia w pokarmie"
+      },
+      {
+       "t": "Amylaza ślinowa w jamie ustnej",
+       "d": "dekstryny, maltoza"
+      },
+      {
+       "t": "Inaktywacja amylazy w kwaśnym żołądku"
+      },
+      {
+       "t": "Amylaza trzustkowa w dwunastnicy",
+       "d": "maltoza"
+      },
+      {
+       "t": "Maltaza jelitowa",
+       "d": "glukoza"
+      },
+      {
+       "t": "Wchłanianie glukozy do krwi"
+      }
+     ]
     }
    ]
   },
@@ -3421,6 +3498,59 @@
      "wyjasnienie": "Np. jaja.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sb64ff0a4",
+     "typ": "rysunek",
+     "tytul": "Poziomy struktury białka",
+     "opis": "Od sekwencji aminokwasów do białka z kilku podjednostek.",
+     "uwaga": "Denaturacja niszczy struktury II-, III- i IV-rzędowe, ale nie rozrywa wiązań peptydowych — struktura I-rzędowa zostaje.",
+     "svg": "<circle class=\"f\" cx=\"20\" cy=\"40\" r=\"7\"/><circle class=\"f\" cx=\"36\" cy=\"40\" r=\"7\"/><circle class=\"f\" cx=\"52\" cy=\"40\" r=\"7\"/><circle class=\"f\" cx=\"68\" cy=\"40\" r=\"7\"/><circle class=\"f\" cx=\"84\" cy=\"40\" r=\"7\"/><circle class=\"f\" cx=\"100\" cy=\"40\" r=\"7\"/><circle class=\"f\" cx=\"116\" cy=\"40\" r=\"7\"/><circle class=\"f\" cx=\"132\" cy=\"40\" r=\"7\"/><circle class=\"f\" cx=\"148\" cy=\"40\" r=\"7\"/><circle class=\"f\" cx=\"164\" cy=\"40\" r=\"7\"/><text class=\"t\" x=\"20\" y=\"18\">I</text><polyline points=\"210,40.0 216,52.5 222,55.6 228,46.8 234,32.9 240,24.4 246,27.6 252,40.3 258,52.7 264,55.5 270,46.6 276,32.7 282,24.3 288,27.8 294,40.5 300,52.9 306,55.5 312,46.3 318,32.4 324,24.3 330,28.0 336,40.8 342,53.0 348,55.4 354,46.1 360,32.2 366,24.2 372,28.2 378,41.1 384,53.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\"/><text class=\"t\" x=\"210\" y=\"18\">II</text><path d=\"M40 190 C20 130 90 120 100 160 S60 230 110 240 S170 180 140 150 S90 110 130 100 S190 150 170 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\"/><line class=\"dash\" x1=\"100\" y1=\"160\" x2=\"140\" y2=\"150\"/><text class=\"t\" x=\"20\" y=\"100\">III</text><circle class=\"f\" cx=\"250\" cy=\"160\" r=\"27\"/><path class=\"s2\" d=\"M236 160 q7 -14 14 0 t14 0\"/><circle class=\"f\" cx=\"310\" cy=\"160\" r=\"27\"/><path class=\"s2\" d=\"M296 160 q7 -14 14 0 t14 0\"/><circle class=\"f\" cx=\"250\" cy=\"220\" r=\"27\"/><path class=\"s2\" d=\"M236 220 q7 -14 14 0 t14 0\"/><circle class=\"f\" cx=\"310\" cy=\"220\" r=\"27\"/><path class=\"s2\" d=\"M296 220 q7 -14 14 0 t14 0\"/><circle class=\"d\" cx=\"250\" cy=\"160\" r=\"4\"/><circle class=\"d\" cx=\"310\" cy=\"160\" r=\"4\"/><circle class=\"d\" cx=\"250\" cy=\"220\" r=\"4\"/><circle class=\"d\" cx=\"310\" cy=\"220\" r=\"4\"/><text class=\"t\" x=\"230\" y=\"120\">IV</text>",
+     "viewBox": "0 0 400 270",
+     "znaczniki": [
+      {
+       "x": 100,
+       "y": 40,
+       "lx": 110,
+       "ly": 80,
+       "n": "Struktura I-rzędowa",
+       "d": "sekwencja aminokwasów"
+      },
+      {
+       "x": 270,
+       "y": 40,
+       "lx": 340,
+       "ly": 80,
+       "n": "Struktura II-rzędowa (α-helisa)",
+       "d": "wiązania wodorowe w szkielecie łańcucha"
+      },
+      {
+       "x": 120,
+       "y": 155,
+       "lx": 200,
+       "ly": 255,
+       "n": "Struktura III-rzędowa",
+       "d": "przestrzenne pofałdowanie łańcucha"
+      },
+      {
+       "x": 310,
+       "y": 220,
+       "lx": 380,
+       "ly": 255,
+       "n": "Struktura IV-rzędowa",
+       "d": "kilka łańcuchów, np. hemoglobina"
+      },
+      {
+       "x": 250,
+       "y": 160,
+       "lx": 380,
+       "ly": 140,
+       "n": "Grupa prostetyczna (hem)",
+       "d": "niebiałkowa część białka złożonego"
+      }
+     ]
+    }
    ]
   },
   {
@@ -4263,6 +4393,67 @@
      "poprawna": "A",
      "wyjasnienie": "Ochrona.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "sb9f7603b",
+     "typ": "rysunek",
+     "tytul": "Tłuszcz właściwy i fosfolipid",
+     "opis": "Porównanie budowy triacyloglicerolu i fosfolipidu.",
+     "uwaga": "Fosfolipidy mają budowę amfipatyczną — dlatego w wodzie same tworzą dwuwarstwy, z których zbudowane są błony.",
+     "svg": "<rect class=\"f2\" x=\"30\" y=\"40\" width=\"40\" height=\"120\" rx=\"4\"/><path class=\"s\" d=\"M70 60 l20 0\"/><rect class=\"f\" x=\"90\" y=\"53\" width=\"16\" height=\"14\" rx=\"2\"/><path class=\"s\" d=\"M106 60 l12 -6 l12 6 l12 -6 l12 6 l12 -6 l12 6 l12 -6\"/><path class=\"s\" d=\"M70 100 l20 0\"/><rect class=\"f\" x=\"90\" y=\"93\" width=\"16\" height=\"14\" rx=\"2\"/><path class=\"s\" d=\"M106 100 l12 -6 l12 6 l12 -6 l12 6 l12 -6 l12 6 l12 -6\"/><path class=\"s\" d=\"M70 140 l20 0\"/><rect class=\"f\" x=\"90\" y=\"133\" width=\"16\" height=\"14\" rx=\"2\"/><path class=\"s\" d=\"M106 140 l12 -6 l12 6 l12 -6 l12 6 l12 -6 l12 6 l12 -6\"/><path class=\"s\" d=\"M106 140 l12 -6 l12 6 l12 -6 l6 3 l8 8 l12 -6 l12 6\"/><circle class=\"f2\" cx=\"280\" cy=\"50\" r=\"22\"/><rect class=\"f\" x=\"268\" y=\"74\" width=\"24\" height=\"16\" rx=\"2\"/><rect class=\"f2\" x=\"262\" y=\"92\" width=\"36\" height=\"22\" rx=\"3\"/><path class=\"s\" d=\"M270 114 l-6 12 l6 12 l-6 12 l6 12 l-6 12 l6 12 l-6 12 M290 114 l6 12 l-6 12 l6 12 l-8 10 l8 10 l-6 12 l6 12\"/><text class=\"t\" x=\"30\" y=\"190\">triacyloglicerol</text><text class=\"t\" x=\"240\" y=\"230\">fosfolipid</text>",
+     "viewBox": "0 0 400 250",
+     "znaczniki": [
+      {
+       "x": 50,
+       "y": 100,
+       "lx": 20,
+       "ly": 230,
+       "n": "Glicerol",
+       "d": ""
+      },
+      {
+       "x": 98,
+       "y": 60,
+       "lx": 98,
+       "ly": 18,
+       "n": "Wiązanie estrowe",
+       "d": ""
+      },
+      {
+       "x": 160,
+       "y": 100,
+       "lx": 200,
+       "ly": 20,
+       "n": "Kwas tłuszczowy nasycony",
+       "d": "proste łańcuchy"
+      },
+      {
+       "x": 150,
+       "y": 140,
+       "lx": 220,
+       "ly": 190,
+       "n": "Kwas tłuszczowy nienasycony",
+       "d": "wiązanie podwójne — zagięcie łańcucha"
+      },
+      {
+       "x": 280,
+       "y": 50,
+       "lx": 350,
+       "ly": 30,
+       "n": "Hydrofilowa główka",
+       "d": "reszta fosforanowa z grupą polarną"
+      },
+      {
+       "x": 280,
+       "y": 160,
+       "lx": 350,
+       "ly": 180,
+       "n": "Hydrofobowe ogony",
+       "d": "dwa kwasy tłuszczowe"
+      }
+     ]
     }
    ]
   },

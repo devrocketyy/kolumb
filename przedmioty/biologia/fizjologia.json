@@ -2778,6 +2778,65 @@
        "t": "Usunięcie martwych komórek i regeneracja"
       }
      ]
+    },
+    {
+     "id": "s0cf71b0e",
+     "typ": "rysunek",
+     "tytul": "Budowa przeciwciała",
+     "opis": "Przeciwciało klasy IgG (immunoglobulina).",
+     "uwaga": "Jedno przeciwciało ma dwa identyczne miejsca wiązania antygenu — może więc sklejać antygeny (aglutynacja).",
+     "svg": "<path d=\"M190 290 L190 170 L125 95 L85 50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M190 290 L190 170 L125 95 L85 50\" fill=\"none\" stroke=\"var(--surface-2)\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M210 290 L210 170 L275 95 L315 50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M210 290 L210 170 L275 95 L315 50\" fill=\"none\" stroke=\"var(--surface-2)\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M148 146 L113 105 L73 60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"11\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M148 146 L113 105 L73 60\" fill=\"none\" stroke=\"var(--surface-2)\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M252 146 L287 105 L327 60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"11\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M252 146 L287 105 L327 60\" fill=\"none\" stroke=\"var(--surface-2)\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path class=\"s\" d=\"M190 200 L210 200 M190 214 L210 214 M150 140 L158 133 M250 140 L242 133\"/><path class=\"f2\" d=\"M52 36 Q50 14 72 14 Q78 32 52 36 Z\"/><path class=\"f2\" d=\"M348 36 Q350 14 328 14 Q322 32 348 36 Z\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 190,
+       "y": 250,
+       "lx": 100,
+       "ly": 270,
+       "n": "Łańcuch ciężki",
+       "d": ""
+      },
+      {
+       "x": 113,
+       "y": 105,
+       "lx": 40,
+       "ly": 140,
+       "n": "Łańcuch lekki",
+       "d": ""
+      },
+      {
+       "x": 79,
+       "y": 50,
+       "lx": 150,
+       "ly": 30,
+       "n": "Miejsce wiązania antygenu",
+       "d": "część zmienna — inna w każdym przeciwciele"
+      },
+      {
+       "x": 200,
+       "y": 207,
+       "lx": 300,
+       "ly": 230,
+       "n": "Mostki disiarczkowe",
+       "d": "łączą łańcuchy"
+      },
+      {
+       "x": 210,
+       "y": 265,
+       "lx": 300,
+       "ly": 285,
+       "n": "Część stała",
+       "d": "wspólna dla przeciwciał danej klasy"
+      },
+      {
+       "x": 60,
+       "y": 28,
+       "lx": 20,
+       "ly": 90,
+       "n": "Antygen",
+       "d": ""
+      }
+     ]
     }
    ]
   },
@@ -3659,6 +3718,35 @@
        "ly": 85,
        "n": "Kierunek dyfuzji tlenu",
        "d": "z pęcherzyka do krwi"
+      }
+     ]
+    },
+    {
+     "id": "s41c94346",
+     "typ": "proces",
+     "tytul": "Transport CO₂ z tkanek do płuc",
+     "opis": "",
+     "uwaga": "Ok. 70% CO₂ transportowane jest jako jony wodorowęglanowe, ok. 20% — w połączeniu z hemoglobiną.",
+     "kroki": [
+      {
+       "t": "Powstanie CO₂ w mitochondriach"
+      },
+      {
+       "t": "Dyfuzja CO₂ do krwi"
+      },
+      {
+       "t": "W erytrocytach: CO₂ + H₂O → H₂CO₃",
+       "d": "anhydraza węglanowa"
+      },
+      {
+       "t": "Dysocjacja na H⁺ i HCO₃⁻"
+      },
+      {
+       "t": "Transport HCO₃⁻ w osoczu",
+       "d": "główna forma transportu"
+      },
+      {
+       "t": "W płucach odwrócenie reakcji i dyfuzja CO₂ do pęcherzyków"
       }
      ]
     }
@@ -4811,6 +4899,57 @@
        "ly": 290,
        "n": "Przegroda międzykomorowa",
        "d": "oddziela krew natlenioną od odtlenowanej"
+      }
+     ]
+    },
+    {
+     "id": "s8003af64",
+     "typ": "rysunek",
+     "tytul": "Przekroje naczyń krwionośnych",
+     "opis": "Tętnica, żyła i naczynie włosowate w przekroju poprzecznym.",
+     "uwaga": "Krew w żyłach kończyn płynie dzięki zastawkom i skurczom otaczających mięśni (pompa mięśniowa).",
+     "svg": "<circle class=\"f2\" cx=\"80\" cy=\"140\" r=\"62\"/><circle class=\"f\" cx=\"80\" cy=\"140\" r=\"44\"/><circle cx=\"80\" cy=\"140\" r=\"24\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><ellipse class=\"f2\" cx=\"225\" cy=\"140\" rx=\"68\" ry=\"52\"/><ellipse class=\"f\" cx=\"225\" cy=\"140\" rx=\"58\" ry=\"42\"/><ellipse cx=\"225\" cy=\"140\" rx=\"48\" ry=\"34\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"345\" cy=\"140\" r=\"16\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text class=\"t\" x=\"45\" y=\"230\">tętnica</text><text class=\"t\" x=\"207\" y=\"230\">żyła</text><text class=\"t\" x=\"322\" y=\"230\">włosowate</text>",
+     "viewBox": "0 40 400 210",
+     "znaczniki": [
+      {
+       "x": 80,
+       "y": 99,
+       "lx": 40,
+       "ly": 60,
+       "n": "Gruba warstwa mięśniowa tętnicy",
+       "d": "wytrzymuje wysokie ciśnienie"
+      },
+      {
+       "x": 80,
+       "y": 140,
+       "lx": 150,
+       "ly": 60,
+       "n": "Wąskie światło tętnicy",
+       "d": ""
+      },
+      {
+       "x": 225,
+       "y": 140,
+       "lx": 290,
+       "ly": 60,
+       "n": "Szerokie światło żyły",
+       "d": "niskie ciśnienie, zastawki zapobiegają cofaniu"
+      },
+      {
+       "x": 161,
+       "y": 140,
+       "lx": 165,
+       "ly": 210,
+       "n": "Cienka ściana żyły",
+       "d": ""
+      },
+      {
+       "x": 345,
+       "y": 124,
+       "lx": 375,
+       "ly": 70,
+       "n": "Ściana z jednej warstwy śródbłonka",
+       "d": "wymiana substancji z tkankami"
       }
      ]
     }
@@ -6581,6 +6720,33 @@
       },
       {
        "t": "Synteza nowych białek — efekt działania"
+      }
+     ]
+    },
+    {
+     "id": "s781f1224",
+     "typ": "proces",
+     "tytul": "Reakcja na długotrwały stres (oś podwzgórze–przysadka–nadnercza)",
+     "opis": "",
+     "uwaga": "Szybką reakcję na stres wywołuje adrenalina z rdzenia nadnerczy, długotrwałą — kortyzol z kory nadnerczy.",
+     "kroki": [
+      {
+       "t": "Czynnik stresowy"
+      },
+      {
+       "t": "Podwzgórze wydziela kortykoliberynę (CRH)"
+      },
+      {
+       "t": "Przysadka wydziela ACTH"
+      },
+      {
+       "t": "Kora nadnerczy wydziela kortyzol"
+      },
+      {
+       "t": "Wzrost glukozy we krwi, hamowanie odporności"
+      },
+      {
+       "t": "Kortyzol hamuje wydzielanie CRH i ACTH"
       }
      ]
     }
@@ -10671,6 +10837,36 @@
        "ly": 140,
        "n": "Witka (ogonek)",
        "d": "ruch"
+      }
+     ]
+    },
+    {
+     "id": "s48594d90",
+     "typ": "proces",
+     "tytul": "Rozwój zarodkowy — od zygoty do narządów",
+     "opis": "",
+     "uwaga": "Z ektodermy powstają naskórek i układ nerwowy, z mezodermy — mięśnie, kości i krew, z endodermy — nabłonek przewodu pokarmowego i płuc.",
+     "kroki": [
+      {
+       "t": "Zygota"
+      },
+      {
+       "t": "Bruzdkowanie",
+       "d": "podziały mitotyczne bez wzrostu"
+      },
+      {
+       "t": "Blastula (u człowieka blastocysta)"
+      },
+      {
+       "t": "Gastrulacja",
+       "d": "powstanie listków zarodkowych"
+      },
+      {
+       "t": "Ektoderma, mezoderma, endoderma"
+      },
+      {
+       "t": "Organogeneza",
+       "d": "np. układ nerwowy z ektodermy"
       }
      ]
     }

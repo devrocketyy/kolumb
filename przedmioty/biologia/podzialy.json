@@ -1168,6 +1168,32 @@
        "d": "synteza nieciągła"
       }
      ]
+    },
+    {
+     "id": "sb2dedfc3",
+     "typ": "proces",
+     "tytul": "Doświadczenie Meselsona i Stahla",
+     "opis": "",
+     "uwaga": "Prążki uzyskano przez wirowanie DNA w gradiencie gęstości chlorku cezu.",
+     "kroki": [
+      {
+       "t": "Hodowla bakterii na pożywce z ciężkim azotem ¹⁵N"
+      },
+      {
+       "t": "Przeniesienie na pożywkę z ¹⁴N"
+      },
+      {
+       "t": "Po 1 pokoleniu: jeden prążek DNA pośredni",
+       "d": "wyklucza replikację konserwatywną"
+      },
+      {
+       "t": "Po 2 pokoleniach: prążek pośredni i lekki",
+       "d": "wyklucza replikację rozproszoną"
+      },
+      {
+       "t": "Wniosek: replikacja jest semikonserwatywna"
+      }
+     ]
     }
    ]
   },

@@ -688,6 +688,34 @@
      "wyjasnienie": "Otwarte rozwiązania.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s83db4ad4",
+     "typ": "proces",
+     "tytul": "Odpowiedź na polecenie „wyjaśnij”",
+     "opis": "",
+     "uwaga": "Sam opis zjawiska („co się dzieje”) to nie wyjaśnienie — trzeba podać „dlaczego”.",
+     "kroki": [
+      {
+       "t": "Przeczytaj, o jakie zjawisko pyta polecenie"
+      },
+      {
+       "t": "Wskaż przyczynę",
+       "d": "mechanizm biologiczny"
+      },
+      {
+       "t": "Połącz przyczynę ze skutkiem",
+       "d": "np. „ponieważ…, więc…”"
+      },
+      {
+       "t": "Użyj terminologii biologicznej"
+      },
+      {
+       "t": "Odnieś się do danych z materiału, jeśli są"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2162,6 +2190,37 @@
      "poprawna": "C",
      "wyjasnienie": "1 µm = 1000 nm.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "sb1516c16",
+     "typ": "proces",
+     "tytul": "Analiza tabeli z wynikami doświadczenia",
+     "opis": "",
+     "uwaga": "Wniosek z tabeli nie może wykraczać poza badany zakres — np. jeśli badano 10–30°C, nie wnioskuj o 50°C.",
+     "kroki": [
+      {
+       "t": "Przeczytaj tytuł i nagłówki",
+       "d": "co i w jakich jednostkach mierzono"
+      },
+      {
+       "t": "Ustal zmienną niezależną i zależną"
+      },
+      {
+       "t": "Znajdź próbę kontrolną"
+      },
+      {
+       "t": "Porównaj wartości — szukaj trendu"
+      },
+      {
+       "t": "Sprawdź wyjątki i wartości skrajne"
+      },
+      {
+       "t": "Sformułuj wniosek",
+       "d": "tylko taki, który wynika z danych"
+      }
+     ]
     }
    ]
   },

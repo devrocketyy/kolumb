@@ -1367,6 +1367,58 @@
      "wyjasnienie": "Zastosowanie medyczne.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sd6410b14",
+     "typ": "proces",
+     "tytul": "Efekt założyciela",
+     "opis": "",
+     "uwaga": "Efekt założyciela tłumaczy np. częstość niektórych chorób w izolowanych społecznościach (amisze).",
+     "kroki": [
+      {
+       "t": "Duża populacja wyjściowa"
+      },
+      {
+       "t": "Kilka osobników zasiedla nowy obszar"
+      },
+      {
+       "t": "Pula genowa założycieli nie odzwierciedla populacji wyjściowej"
+      },
+      {
+       "t": "Rozród w izolacji"
+      },
+      {
+       "t": "Wysoka częstość rzadkich alleli",
+       "d": "np. chorób genetycznych"
+      }
+     ]
+    },
+    {
+     "id": "s29c90bb4",
+     "typ": "proces",
+     "tytul": "Efekt wąskiego gardła",
+     "opis": "",
+     "uwaga": "Przykład: żubr — cała populacja pochodzi od kilkunastu osobników, co zmniejsza jej zmienność i odporność na choroby.",
+     "kroki": [
+      {
+       "t": "Liczna populacja o dużej zmienności"
+      },
+      {
+       "t": "Katastrofa lub masowe polowania"
+      },
+      {
+       "t": "Przeżywa niewiele osobników"
+      },
+      {
+       "t": "Utrata wielu alleli",
+       "d": "przypadkowa, nie dobór"
+      },
+      {
+       "t": "Odbudowa liczebności przy małej zmienności genetycznej"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1999,6 +2051,33 @@
       },
       {
        "t": "Izolacja rozrodcza — dwa gatunki"
+      }
+     ]
+    },
+    {
+     "id": "s9337c9c3",
+     "typ": "proces",
+     "tytul": "Specjacja przez poliploidyzację",
+     "opis": "",
+     "uwaga": "Tak powstało wiele roślin uprawnych, np. pszenica zwyczajna (heksaploid).",
+     "kroki": [
+      {
+       "t": "Mieszaniec dwóch gatunków roślin",
+       "d": "zwykle bezpłodny"
+      },
+      {
+       "t": "Podwojenie liczby chromosomów",
+       "d": "np. błąd podziału"
+      },
+      {
+       "t": "Chromosomy mają pary w mejozie"
+      },
+      {
+       "t": "Płodny poliploid"
+      },
+      {
+       "t": "Brak płodnego potomstwa z gatunkami rodzicielskimi",
+       "d": "natychmiastowa izolacja rozrodcza"
       }
      ]
     }
@@ -2669,6 +2748,32 @@
      "poprawna": "D",
      "wyjasnienie": "Węższa tolerancja.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s8dad0b79",
+     "typ": "proces",
+     "tytul": "Konkurencyjne wypieranie (zasada Gausego)",
+     "opis": "",
+     "uwaga": "W klasycznym doświadczeniu Gause hodował dwa gatunki pantofelków — w jednej hodowli przetrwał tylko jeden.",
+     "kroki": [
+      {
+       "t": "Dwa gatunki o takiej samej niszy"
+      },
+      {
+       "t": "Konkurencja o ten sam zasób"
+      },
+      {
+       "t": "Jeden gatunek wykorzystuje zasób skuteczniej"
+      },
+      {
+       "t": "Spadek liczebności drugiego gatunku"
+      },
+      {
+       "t": "Wyparcie słabszego konkurenta lub zróżnicowanie nisz"
+      }
+     ]
     }
    ]
   },

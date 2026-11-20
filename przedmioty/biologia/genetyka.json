@@ -1125,6 +1125,40 @@
      "wyjasnienie": "Oba antygeny.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sabde2db2",
+     "typ": "proces",
+     "tytul": "Rozpoznawanie współdziałania genów po rozszczepieniu w F₂",
+     "opis": "",
+     "uwaga": "Suma części równa 16 wskazuje na dwa geny dziedziczone niezależnie — zmienia się tylko sposób ujawniania fenotypów.",
+     "kroki": [
+      {
+       "t": "Zsumuj liczby potomstwa",
+       "d": "zwykle 16 części"
+      },
+      {
+       "t": "Porównaj ze stosunkiem 9 : 3 : 3 : 1"
+      },
+      {
+       "t": "9 : 7",
+       "d": "geny komplementarne"
+      },
+      {
+       "t": "9 : 3 : 4",
+       "d": "epistaza recesywna"
+      },
+      {
+       "t": "12 : 3 : 1",
+       "d": "epistaza dominująca"
+      },
+      {
+       "t": "15 : 1",
+       "d": "geny dublujące (polimeria)"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1936,6 +1970,40 @@
      "poprawna": "D",
      "wyjasnienie": "Hemizygoty.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s6870b439",
+     "typ": "proces",
+     "tytul": "Determinacja płci u człowieka",
+     "opis": "",
+     "uwaga": "O płci dziecka decyduje plemnik, bo komórka jajowa zawsze ma chromosom X.",
+     "kroki": [
+      {
+       "t": "Zapłodnienie",
+       "d": "plemnik z X lub Y"
+      },
+      {
+       "t": "Zygota XX lub XY"
+      },
+      {
+       "t": "Gen SRY na chromosomie Y"
+      },
+      {
+       "t": "Przekształcenie gonad w jądra",
+       "d": "u zarodka XY"
+      },
+      {
+       "t": "Wydzielanie testosteronu"
+      },
+      {
+       "t": "Rozwój męskich narządów płciowych"
+      },
+      {
+       "t": "Brak SRY — rozwój jajników i cech żeńskich"
+      }
+     ]
     }
    ]
   },
@@ -3562,6 +3630,64 @@
      "poprawna": "B",
      "wyjasnienie": "Historia populacji.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s9ad5a451",
+     "typ": "proces",
+     "tytul": "Mukowiscydoza — od mutacji do objawów",
+     "opis": "",
+     "uwaga": "Choroba ujawnia się tylko u homozygot recesywnych — rodzice chorego dziecka są zwykle zdrowymi nosicielami.",
+     "kroki": [
+      {
+       "t": "Mutacja genu CFTR",
+       "d": "dziedziczenie autosomalne recesywne"
+      },
+      {
+       "t": "Nieprawidłowe białko kanału chlorkowego"
+      },
+      {
+       "t": "Zaburzony transport Cl⁻ i wody przez błony"
+      },
+      {
+       "t": "Gęsty, lepki śluz"
+      },
+      {
+       "t": "Zatykanie oskrzeli i przewodów trzustki"
+      },
+      {
+       "t": "Nawracające zakażenia płuc i zaburzenia trawienia"
+      }
+     ]
+    },
+    {
+     "id": "sc6add5a4",
+     "typ": "proces",
+     "tytul": "Anemia sierpowata — od mutacji do objawów",
+     "opis": "",
+     "uwaga": "Heterozygoty są bardziej odporne na malarię — dlatego allel sierpowaty jest częsty w Afryce.",
+     "kroki": [
+      {
+       "t": "Substytucja w genie β-globiny",
+       "d": "A → T"
+      },
+      {
+       "t": "Zmiana kodonu GAG na GUG"
+      },
+      {
+       "t": "Walina zamiast kwasu glutaminowego"
+      },
+      {
+       "t": "Hemoglobina S polimeryzuje przy niskim stężeniu O₂"
+      },
+      {
+       "t": "Sierpowaty kształt erytrocytów"
+      },
+      {
+       "t": "Zatykanie naczyń i szybki rozpad krwinek"
+      }
+     ]
     }
    ]
   }

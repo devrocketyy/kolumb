@@ -389,6 +389,43 @@
      "wyjasnienie": "Filogeneza.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s6f9237de",
+     "typ": "proces",
+     "tytul": "Rangi taksonomiczne — od najwyższej",
+     "opis": "",
+     "uwaga": "Nazwa gatunkowa składa się z nazwy rodzaju i epitetu gatunkowego — np. Homo sapiens.",
+     "kroki": [
+      {
+       "t": "Domena"
+      },
+      {
+       "t": "Królestwo"
+      },
+      {
+       "t": "Typ",
+       "d": "u roślin i grzybów: gromada"
+      },
+      {
+       "t": "Gromada",
+       "d": "u roślin: klasa"
+      },
+      {
+       "t": "Rząd"
+      },
+      {
+       "t": "Rodzina"
+      },
+      {
+       "t": "Rodzaj"
+      },
+      {
+       "t": "Gatunek"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1333,6 +1370,56 @@
        "d": "rozmnażanie"
       }
      ]
+    },
+    {
+     "id": "sc2c0a9a6",
+     "typ": "cykl",
+     "tytul": "Cykl rozwojowy motylicy wątrobowej",
+     "opis": "",
+     "uwaga": "Zwalczanie ślimaków przerywa cykl — to sposób zapobiegania motyliczności w hodowli.",
+     "kroki": [
+      {
+       "t": "Dorosła motylica w przewodach żółciowych owcy"
+      },
+      {
+       "t": "Jaja wydalane z kałem"
+      },
+      {
+       "t": "Orzęsiona larwa w wodzie"
+      },
+      {
+       "t": "Rozwój w ślimaku błotniarce",
+       "d": "żywiciel pośredni"
+      },
+      {
+       "t": "Larwy opuszczają ślimaka i otorbiają się na roślinach"
+      },
+      {
+       "t": "Zjedzenie roślin przez owcę"
+      }
+     ]
+    },
+    {
+     "id": "s567cff5a",
+     "typ": "proces",
+     "tytul": "Przeobrażenie niezupełne owada",
+     "opis": "",
+     "uwaga": "W przeobrażeniu niezupełnym nie ma stadium poczwarki.",
+     "kroki": [
+      {
+       "t": "Jajo"
+      },
+      {
+       "t": "Larwa podobna do postaci dorosłej",
+       "d": "np. nimfa szarańczy"
+      },
+      {
+       "t": "Kolejne linienia i wzrost"
+      },
+      {
+       "t": "Postać dorosła (imago)"
+      }
+     ]
     }
    ]
   },
@@ -2124,6 +2211,59 @@
       },
       {
        "t": "Dorosła żaba"
+      }
+     ]
+    },
+    {
+     "id": "sb3637f27",
+     "typ": "cykl",
+     "tytul": "Krążenie krwi u ryby",
+     "opis": "",
+     "uwaga": "Ryby mają jeden obieg krwi, a przez serce płynie tylko krew odtlenowana.",
+     "kroki": [
+      {
+       "t": "Przedsionek serca"
+      },
+      {
+       "t": "Komora serca"
+      },
+      {
+       "t": "Naczynia skrzelowe",
+       "d": "natlenienie krwi"
+      },
+      {
+       "t": "Aorta grzbietowa"
+      },
+      {
+       "t": "Naczynia włosowate narządów"
+      },
+      {
+       "t": "Żyły — powrót krwi odtlenowanej do serca"
+      }
+     ]
+    },
+    {
+     "id": "sa2e5005b",
+     "typ": "proces",
+     "tytul": "Wymiana gazowa w skrzelach ryby",
+     "opis": "",
+     "uwaga": "Mechanizm przeciwprądowy pozwala pobrać z wody nawet ok. 80% tlenu.",
+     "kroki": [
+      {
+       "t": "Woda wpływa przez otwór gębowy"
+      },
+      {
+       "t": "Przepływ przez łuki skrzelowe"
+      },
+      {
+       "t": "Woda omywa blaszki skrzelowe"
+      },
+      {
+       "t": "Przeciwprądowa wymiana gazów",
+       "d": "krew płynie przeciwnie do wody"
+      },
+      {
+       "t": "Woda wypływa spod pokryw skrzelowych"
       }
      ]
     }

@@ -1767,6 +1767,57 @@
        "d": "enzym jest gotowy do kolejnej reakcji"
       }
      ]
+    },
+    {
+     "id": "s839b8413",
+     "typ": "rysunek",
+     "tytul": "Hamowanie kompetycyjne i niekompetycyjne",
+     "opis": "Po lewej — inhibitor zajmuje centrum aktywne; po prawej — zmienia kształt enzymu.",
+     "uwaga": "Zwiększenie stężenia substratu znosi hamowanie kompetycyjne, ale nie niekompetycyjne.",
+     "svg": "<path class=\"f\" d=\"M30 200 L30 120 L70 120 L70 150 L100 150 L100 120 L150 120 L150 200 Z\"/><path class=\"f2\" d=\"M72 152 L98 152 L98 118 L72 118 Z\" transform=\"translate(0 -40)\"/><path class=\"f2\" d=\"M72 112 L98 112 L98 150 L72 150 Z\"/><text class=\"t\" x=\"40\" y=\"230\">kompetycyjne</text><path class=\"f\" d=\"M230 200 L230 130 L270 140 L270 150 L300 150 L300 140 L350 130 L350 200 Z\"/><path class=\"f2\" d=\"M300 200 L320 200 L320 214 L300 214 Z\"/><path class=\"f2\" d=\"M268 60 L296 60 L296 96 L268 96 Z\"/><path class=\"s2\" d=\"M282 100 L285 136\"/><text class=\"t\" x=\"240\" y=\"240\">niekompetycyjne</text>",
+     "viewBox": "0 40 400 220",
+     "znaczniki": [
+      {
+       "x": 90,
+       "y": 160,
+       "lx": 20,
+       "ly": 90,
+       "n": "Enzym",
+       "d": ""
+      },
+      {
+       "x": 85,
+       "y": 130,
+       "lx": 150,
+       "ly": 60,
+       "n": "Inhibitor kompetycyjny w centrum aktywnym",
+       "d": "podobny do substratu"
+      },
+      {
+       "x": 85,
+       "y": 92,
+       "lx": 40,
+       "ly": 60,
+       "n": "Substrat",
+       "d": "nie może wejść do centrum aktywnego"
+      },
+      {
+       "x": 310,
+       "y": 207,
+       "lx": 370,
+       "ly": 240,
+       "n": "Inhibitor niekompetycyjny",
+       "d": "wiąże się poza centrum aktywnym"
+      },
+      {
+       "x": 285,
+       "y": 145,
+       "lx": 370,
+       "ly": 120,
+       "n": "Zmienione centrum aktywne",
+       "d": "substrat do niego nie pasuje"
+      }
+     ]
     }
    ]
   },
