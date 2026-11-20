@@ -53,6 +53,7 @@ function normalizeUnit(u, i, dzialId, zablokowany) {
       zrodlo: f.zrodlo || '',
     })),
     pytania: (u.pytania || []).map(normalizeQuestion).filter((q) => q.odpowiedzi.length >= 2),
+    schematy: Array.isArray(u.schematy) ? u.schematy : [],
   };
 }
 

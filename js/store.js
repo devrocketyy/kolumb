@@ -15,6 +15,7 @@ const defaults = () => ({
   daily: {},      // "RRRR-MM-DD" -> { xp, lekcje, fiszki, poprawne, zadania, idealne }
   lekcje: {},     // "przedmiot/zakres/id" -> { n, best, idealne }
   odznaki: {},    // id odznaki -> czas zdobycia
+  schematy: {},   // "przedmiot/poddział/idSchematu" -> { best, n, at } — wyniki ćwiczeń ze schematami
   bledy: {},      // "przedmiot/poddział/id" -> { t: 'f'|'q', uid, id, n, at } — pomyłki do poprawy
   updatedAt: 0,   // czas ostatniej zmiany (do synchronizacji z chmurą)
   settings: { theme: 'auto', installDismissed: false, newPerDay: 20, dailyGoal: 20, sound: false, przedmiot: null },

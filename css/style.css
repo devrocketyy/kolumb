@@ -1431,3 +1431,42 @@ body.wkrotce-on .topbar, body.wkrotce-on .tabbar { display: none; }
 .auth-dalej-btn b { font-weight: 650; }
 .auth-dalej-btn small { color: var(--text-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .auth-dalej-btn > svg:last-child { width: 20px; height: 20px; opacity: .5; }
+
+/* ---------- schematy ---------- */
+.schem-list { display: grid; gap: 10px; margin-bottom: 18px; }
+.schem-fig { background: var(--surface); border: 2px solid var(--border); border-radius: var(--radius); padding: 10px; margin: 12px 0; overflow-x: auto; }
+.schem-fig svg { display: block; width: 100%; min-width: 300px; height: auto; color: var(--text); font-family: inherit; }
+.schem-fig .s { fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linejoin: round; stroke-linecap: round; }
+.schem-fig .s2 { fill: none; stroke: var(--text-2); stroke-width: 1.2; stroke-linejoin: round; stroke-linecap: round; }
+.schem-fig .f { fill: var(--surface-2); stroke: currentColor; stroke-width: 1.6; stroke-linejoin: round; }
+.schem-fig .f2 { fill: var(--border); stroke: currentColor; stroke-width: 1.4; stroke-linejoin: round; }
+.schem-fig .d { fill: currentColor; stroke: none; }
+.schem-fig .dash { fill: none; stroke: var(--text-2); stroke-width: 1.2; stroke-dasharray: 4 3; }
+.schem-fig .t { fill: var(--text-2); font-size: 11px; }
+.schem-fig .pin line { stroke: var(--text-2); stroke-width: 1; }
+.schem-fig .pin circle { fill: var(--text-2); }
+.schem-fig .pin .pin-dot { fill: var(--surface); stroke: var(--text); stroke-width: 1.6; }
+.schem-fig .pin text { fill: var(--text); font-size: 11px; font-weight: 700; }
+.schem-fig .pin .pin-name { font-weight: 600; font-size: 10.5px; }
+.schem-fig .pin.on .pin-dot { fill: var(--text); }
+.schem-fig .pin.on text { fill: var(--surface); }
+.schem-fig .pin.on line { stroke: var(--text); stroke-width: 1.6; }
+.schem-fig .pin.ok .pin-dot { fill: var(--border); }
+.schem-legend { display: grid; gap: 6px; padding-left: 26px; margin: 8px 0 16px; }
+.schem-legend li { line-height: 1.45; }
+.schem-steps { list-style: none; padding: 0; margin: 10px 0 14px; display: grid; gap: 0; }
+.schem-steps li { display: flex; gap: 12px; align-items: flex-start; position: relative; padding-bottom: 14px; }
+.schem-steps li:not(:last-child)::after { content: ""; position: absolute; left: 14px; top: 32px; bottom: 2px; width: 2px; background: var(--border-2, var(--border)); }
+.schem-steps .st-n { flex: 0 0 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; font-weight: 700; font-size: 13px; background: var(--surface); border: 2px solid var(--text); }
+.schem-steps .st-t { display: grid; gap: 2px; min-width: 0; padding-top: 4px; }
+.schem-steps .st-t small { color: var(--text-2); line-height: 1.4; }
+.schem-steps.done li { padding-bottom: 8px; }
+.schem-steps.done .st-n { background: var(--text); color: var(--surface); }
+.schem-loop { display: flex; gap: 8px; align-items: center; color: var(--text-2); margin: -4px 0 14px; }
+.schem-loop svg { width: 18px; height: 18px; flex: none; }
+.schem-tip p { margin: 6px 0 0; color: var(--text-2); }
+.schem-q { margin: 14px 0 4px; font-size: 1.05rem; }
+.schem-opts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin: 10px 0 20px; }
+.schem-opts.col { grid-template-columns: 1fr; }
+.schem-opt { white-space: normal; text-align: left; justify-content: flex-start; min-height: 48px; }
+.schem-opt.bad { opacity: .45; text-decoration: line-through; }

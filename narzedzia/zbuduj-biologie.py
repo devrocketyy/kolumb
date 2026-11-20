@@ -118,6 +118,38 @@ def load_tresci():
     return T
 
 
+def load_schematy():
+    """schematy*.py: S['uid'] = [dict(typ='rysunek'|'proces'|'cykl', tytul, opis, ...)]"""
+    S, tytuly = {}, set()
+    for f in sorted(glob.glob(os.path.join(SRC, 'schematy*.py'))):
+        for k, lst in runpy.run_path(f)['S'].items():
+            for x in lst:
+                assert x['typ'] in ('rysunek', 'proces', 'cykl'), (k, x['tytul'])
+                assert x['tytul'] not in tytuly, ('powtórzony schemat', x['tytul'])
+                tytuly.add(x['tytul'])
+                y = {'id': _id('s', x['tytul']), 'typ': x['typ'], 'tytul': x['tytul'], 'opis': x.get('opis', '')}
+                if x.get('uwaga'):
+                    y['uwaga'] = x['uwaga']
+                if x['typ'] == 'rysunek':
+                    vb = [float(v) for v in x.get('viewBox', '0 0 400 300').split()]
+                    zn = []
+                    for m in x['znaczniki']:
+                        px, py, lx, ly, n = m[:5]
+                        for xx, yy in ((px, py), (lx, ly)):
+                            assert vb[0] <= xx <= vb[0] + vb[2] and vb[1] <= yy <= vb[1] + vb[3], ('znacznik poza rysunkiem', x['tytul'], n)
+                        zn.append({'x': px, 'y': py, 'lx': lx, 'ly': ly, 'n': n, 'd': m[5] if len(m) > 5 else ''})
+                    assert 3 <= len(zn) <= 12, ('rysunek: 3–12 znaczników', x['tytul'])
+                    assert len({z['n'] for z in zn}) == len(zn), ('powtórzona nazwa znacznika', x['tytul'])
+                    y.update(svg=' '.join(x['svg'].split()), viewBox=x.get('viewBox', '0 0 400 300'), znaczniki=zn)
+                else:
+                    kroki = [{'t': a, 'd': b} if b else {'t': a} for a, b in ((k2 if isinstance(k2, tuple) else (k2, '')) for k2 in x['kroki'])]
+                    assert 3 <= len(kroki) <= 12, ('proces: 3–12 etapów', x['tytul'])
+                    assert len({z['t'] for z in kroki}) == len(kroki), ('powtórzony etap', x['tytul'])
+                    y['kroki'] = kroki
+                S.setdefault(k, []).append(y)
+    return S
+
+
 def _id(prefix, text):
     # stały identyfikator z treści — dopisywanie nowych fiszek nie zmienia postępów w istniejących
     return prefix + hashlib.sha1(text.strip().lower().encode()).hexdigest()[:8]
@@ -198,6 +230,7 @@ def bank_wiazka(tytul, material, *zadania, zrodlo='Zadanie autorskie IndexLab. T
 
 def main():
     T = load_tresci()
+    S = load_schematy()
     os.makedirs(OUT, exist_ok=True)
     known = set()
     aktywne = []
@@ -210,12 +243,16 @@ def main():
             known.add(uid)
             if uid not in T:
                 continue
-            units.append(build_unit(uid, nr, nazwa, T.get(uid, {})))
+            u = build_unit(uid, nr, nazwa, T.get(uid, {}))
+            if S.get(uid):
+                u['schematy'] = S[uid]
+            units.append(u)
         with open(os.path.join(OUT, did + '.json'), 'w') as o:
             json.dump({'id': did, 'nazwa': dn, 'opis': opis, 'poddzialy': units}, o, ensure_ascii=False, indent=1)
             o.write('\n')
     extra = set(T) - {t[0] for d in DZIALY for t in d[3]}
     assert not extra, f'treści dla nieznanych poddziałów: {extra}'
+    assert not set(S) - known, f'schematy dla nieznanych poddziałów: {set(S) - known}'
 
     # bank zadań autorskich: pliki bank*.py definiują słownik BANK {id działu: [wiązki]}
     bank = {}
@@ -257,7 +294,7 @@ def main():
         o.write('\n')
     nf = sum(len(v.get('F', [])) for v in T.values())
     nq = sum(len(v.get('Q', [])) for v in T.values())
-    print(f'biologia: {len(aktywne)} działów, {len(known)} poddziałów ({len(T)} z treścią), {nf} fiszek, {nq} pytań, {len(arkusze)} arkuszy')
+    print(f'biologia: {len(aktywne)} działów, {len(known)} poddziałów ({len(T)} z treścią), {nf} fiszek, {nq} pytań, {len(arkusze)} arkuszy, {sum(len(v) for v in S.values())} schematów')
 
 
 if __name__ == '__main__':

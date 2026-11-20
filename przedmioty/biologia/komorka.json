@@ -731,6 +731,241 @@
      "wyjasnienie": "Synteza i wydzielanie białek.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sbf065d41",
+     "typ": "rysunek",
+     "tytul": "Komórka zwierzęca",
+     "opis": "Schemat typowej komórki zwierzęcej widzianej w mikroskopie elektronowym.",
+     "uwaga": "Komórka zwierzęca nie ma ściany komórkowej, chloroplastów ani dużej wakuoli, ma natomiast centriole. Tych różnic dotyczy wiele zadań typu „porównaj” i „rozpoznaj”.",
+     "svg": "<ellipse class=\"f\" cx=\"200\" cy=\"150\" rx=\"168\" ry=\"122\"/><circle class=\"f2\" cx=\"180\" cy=\"145\" r=\"46\"/><circle class=\"d\" cx=\"190\" cy=\"140\" r=\"13\"/><rect class=\"d\" x=\"218.4\" y=\"165.1\" width=\"4\" height=\"4\"/><rect class=\"d\" x=\"176.7\" y=\"189.0\" width=\"4\" height=\"4\"/><rect class=\"d\" x=\"136.4\" y=\"162.7\" width=\"4\" height=\"4\"/><rect class=\"d\" x=\"141.6\" y=\"114.9\" width=\"4\" height=\"4\"/><rect class=\"d\" x=\"186.6\" y=\"97.8\" width=\"4\" height=\"4\"/><rect class=\"d\" x=\"220.7\" y=\"125.8\" width=\"4\" height=\"4\"/><path class=\"s\" d=\"M112 100 q-14 40.0 0 80\"/><circle class=\"d\" cx=\"105.6\" cy=\"111.4\" r=\"1.8\"/><circle class=\"d\" cx=\"103.3\" cy=\"122.9\" r=\"1.8\"/><circle class=\"d\" cx=\"102.1\" cy=\"134.3\" r=\"1.8\"/><circle class=\"d\" cx=\"102.1\" cy=\"145.7\" r=\"1.8\"/><circle class=\"d\" cx=\"103.3\" cy=\"157.1\" r=\"1.8\"/><circle class=\"d\" cx=\"105.6\" cy=\"168.6\" r=\"1.8\"/><path class=\"s\" d=\"M100 100 q-14 40.0 0 80\"/><circle class=\"d\" cx=\"93.6\" cy=\"111.4\" r=\"1.8\"/><circle class=\"d\" cx=\"91.3\" cy=\"122.9\" r=\"1.8\"/><circle class=\"d\" cx=\"90.1\" cy=\"134.3\" r=\"1.8\"/><circle class=\"d\" cx=\"90.1\" cy=\"145.7\" r=\"1.8\"/><circle class=\"d\" cx=\"91.3\" cy=\"157.1\" r=\"1.8\"/><circle class=\"d\" cx=\"93.6\" cy=\"168.6\" r=\"1.8\"/><path class=\"s\" d=\"M88 100 q-14 40.0 0 80\"/><circle class=\"d\" cx=\"81.6\" cy=\"111.4\" r=\"1.8\"/><circle class=\"d\" cx=\"79.3\" cy=\"122.9\" r=\"1.8\"/><circle class=\"d\" cx=\"78.1\" cy=\"134.3\" r=\"1.8\"/><circle class=\"d\" cx=\"78.1\" cy=\"145.7\" r=\"1.8\"/><circle class=\"d\" cx=\"79.3\" cy=\"157.1\" r=\"1.8\"/><circle class=\"d\" cx=\"81.6\" cy=\"168.6\" r=\"1.8\"/><g transform=\"rotate(0 300 95)\"><ellipse class=\"f\" cx=\"300\" cy=\"95\" rx=\"30\" ry=\"14\"/><path class=\"s2\" d=\"M280 87 l6 16 l6 -16 l6 16 l6 -16 l6 16 l6 -16 l6 16\"/></g><g transform=\"rotate(-20 255 232)\"><ellipse class=\"f\" cx=\"255\" cy=\"232\" rx=\"30\" ry=\"14\"/><path class=\"s2\" d=\"M235 224 l6 16 l6 -16 l6 16 l6 -16 l6 16 l6 -16 l6 16\"/></g><path class=\"s\" d=\"M277.0 165 q23.0 -14 46 0\"/><path class=\"s\" d=\"M280.0 172 q20.0 -14 40 0\"/><path class=\"s\" d=\"M283.0 179 q17.0 -14 34 0\"/><path class=\"s\" d=\"M286.0 186 q14.0 -14 28 0\"/><circle class=\"s\" cx=\"329.0\" cy=\"167\" r=\"4\"/><circle class=\"s\" cx=\"325.0\" cy=\"185\" r=\"3.5\"/><circle class=\"f2\" cx=\"100\" cy=\"220\" r=\"11\"/><circle class=\"f2\" cx=\"140\" cy=\"240\" r=\"8\"/><rect class=\"s\" x=\"210\" y=\"205\" width=\"7\" height=\"18\" rx=\"2\"/><rect class=\"s\" x=\"221\" y=\"210\" width=\"18\" height=\"7\" rx=\"2\"/><circle class=\"d\" cx=\"230\" cy=\"70\" r=\"2\"/><circle class=\"d\" cx=\"240\" cy=\"80\" r=\"2\"/><circle class=\"d\" cx=\"255\" cy=\"70\" r=\"2\"/><circle class=\"d\" cx=\"150\" cy=\"200\" r=\"2\"/><circle class=\"d\" cx=\"165\" cy=\"215\" r=\"2\"/><circle class=\"d\" cx=\"330\" cy=\"230\" r=\"2\"/><circle class=\"d\" cx=\"320\" cy=\"245\" r=\"2\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 41,
+       "y": 112,
+       "lx": 18,
+       "ly": 40,
+       "n": "Błona komórkowa",
+       "d": "oddziela komórkę od otoczenia, wybiórczo przepuszczalna"
+      },
+      {
+       "x": 180,
+       "y": 175,
+       "lx": 140,
+       "ly": 286,
+       "n": "Jądro komórkowe",
+       "d": "zawiera DNA, steruje życiem komórki"
+      },
+      {
+       "x": 190,
+       "y": 140,
+       "lx": 190,
+       "ly": 18,
+       "n": "Jąderko",
+       "d": "synteza rRNA i podjednostek rybosomów"
+      },
+      {
+       "x": 102,
+       "y": 120,
+       "lx": 30,
+       "ly": 120,
+       "n": "Siateczka śródplazmatyczna szorstka",
+       "d": "synteza białek na rybosomach i ich transport"
+      },
+      {
+       "x": 300,
+       "y": 95,
+       "lx": 360,
+       "ly": 40,
+       "n": "Mitochondrium",
+       "d": "oddychanie komórkowe, produkcja ATP"
+      },
+      {
+       "x": 310,
+       "y": 175,
+       "lx": 385,
+       "ly": 175,
+       "n": "Aparat Golgiego",
+       "d": "modyfikacja, sortowanie i pakowanie białek"
+      },
+      {
+       "x": 100,
+       "y": 220,
+       "lx": 30,
+       "ly": 235,
+       "n": "Lizosom",
+       "d": "trawienie wewnątrzkomórkowe"
+      },
+      {
+       "x": 222,
+       "y": 214,
+       "lx": 250,
+       "ly": 286,
+       "n": "Centriole (centrosom)",
+       "d": "organizacja wrzeciona podziałowego"
+      },
+      {
+       "x": 240,
+       "y": 80,
+       "lx": 270,
+       "ly": 18,
+       "n": "Rybosomy",
+       "d": "synteza białek"
+      }
+     ]
+    },
+    {
+     "id": "sb6553d5c",
+     "typ": "rysunek",
+     "tytul": "Komórka roślinna",
+     "opis": "Schemat komórki miękiszu asymilacyjnego liścia.",
+     "uwaga": "Duża wakuola spycha cytoplazmę i jądro pod ścianę. Plazmodesmy łączą protoplasty sąsiednich komórek — to droga transportu symplastycznego.",
+     "svg": "<rect class=\"f2\" x=\"20\" y=\"25\" width=\"360\" height=\"250\" rx=\"12\"/><rect class=\"f\" x=\"28\" y=\"33\" width=\"344\" height=\"234\" rx=\"8\"/><rect class=\"s2\" x=\"120\" y=\"70\" width=\"190\" height=\"160\" rx=\"30\" style=\"fill:var(--surface)\"/><circle class=\"f2\" cx=\"75\" cy=\"200\" r=\"30\"/><circle class=\"d\" cx=\"80\" cy=\"196\" r=\"9\"/><g transform=\"rotate(0 70 80)\"><ellipse class=\"f\" cx=\"70\" cy=\"80\" rx=\"26\" ry=\"12\"/><line class=\"s2\" x1=\"50\" y1=\"80\" x2=\"90\" y2=\"80\"/><rect class=\"f2\" x=\"52\" y=\"75\" width=\"7\" height=\"10\" rx=\"1.5\"/><rect class=\"f2\" x=\"64\" y=\"75\" width=\"7\" height=\"10\" rx=\"1.5\"/><rect class=\"f2\" x=\"76\" y=\"75\" width=\"7\" height=\"10\" rx=\"1.5\"/></g><g transform=\"rotate(80 345 110)\"><ellipse class=\"f\" cx=\"345\" cy=\"110\" rx=\"26\" ry=\"12\"/><line class=\"s2\" x1=\"325\" y1=\"110\" x2=\"365\" y2=\"110\"/><rect class=\"f2\" x=\"327\" y=\"105\" width=\"7\" height=\"10\" rx=\"1.5\"/><rect class=\"f2\" x=\"339\" y=\"105\" width=\"7\" height=\"10\" rx=\"1.5\"/><rect class=\"f2\" x=\"351\" y=\"105\" width=\"7\" height=\"10\" rx=\"1.5\"/></g><g transform=\"rotate(0 250 250)\"><ellipse class=\"f\" cx=\"250\" cy=\"250\" rx=\"26\" ry=\"12\"/><line class=\"s2\" x1=\"230\" y1=\"250\" x2=\"270\" y2=\"250\"/><rect class=\"f2\" x=\"232\" y=\"245\" width=\"7\" height=\"10\" rx=\"1.5\"/><rect class=\"f2\" x=\"244\" y=\"245\" width=\"7\" height=\"10\" rx=\"1.5\"/><rect class=\"f2\" x=\"256\" y=\"245\" width=\"7\" height=\"10\" rx=\"1.5\"/></g><g transform=\"rotate(0 160 52)\"><ellipse class=\"f\" cx=\"160\" cy=\"52\" rx=\"26\" ry=\"12\"/><line class=\"s2\" x1=\"140\" y1=\"52\" x2=\"180\" y2=\"52\"/><rect class=\"f2\" x=\"142\" y=\"47\" width=\"7\" height=\"10\" rx=\"1.5\"/><rect class=\"f2\" x=\"154\" y=\"47\" width=\"7\" height=\"10\" rx=\"1.5\"/><rect class=\"f2\" x=\"166\" y=\"47\" width=\"7\" height=\"10\" rx=\"1.5\"/></g><g transform=\"rotate(70 340 225)\"><ellipse class=\"f\" cx=\"340\" cy=\"225\" rx=\"22\" ry=\"10\"/><path class=\"s2\" d=\"M328 217 l6 16 l6 -16 l6 16 l6 -16\"/></g><line class=\"s\" x1=\"230\" y1=\"22\" x2=\"230\" y2=\"36\"/><line class=\"s\" x1=\"270\" y1=\"22\" x2=\"270\" y2=\"36\"/><path class=\"s\" d=\"M50.0 128 q18.0 -14 36 0\"/><path class=\"s\" d=\"M53.0 135 q15.0 -14 30 0\"/><path class=\"s\" d=\"M56.0 142 q12.0 -14 24 0\"/><circle class=\"s\" cx=\"92.0\" cy=\"130\" r=\"4\"/><circle class=\"s\" cx=\"88.0\" cy=\"148\" r=\"3.5\"/><circle class=\"d\" cx=\"110\" cy=\"250\" r=\"2\"/><circle class=\"d\" cx=\"120\" cy=\"258\" r=\"2\"/><circle class=\"d\" cx=\"300\" cy=\"50\" r=\"2\"/><circle class=\"d\" cx=\"315\" cy=\"60\" r=\"2\"/>",
+     "viewBox": "0 -8 400 308",
+     "znaczniki": [
+      {
+       "x": 20,
+       "y": 160,
+       "lx": 12,
+       "ly": 140,
+       "n": "Ściana komórkowa",
+       "d": "celulozowa, nadaje kształt i chroni przed pęknięciem"
+      },
+      {
+       "x": 29,
+       "y": 240,
+       "lx": 12,
+       "ly": 200,
+       "n": "Błona komórkowa",
+       "d": "przylega do ściany, wybiórczo przepuszczalna"
+      },
+      {
+       "x": 200,
+       "y": 160,
+       "lx": 250,
+       "ly": 150,
+       "n": "Wakuola",
+       "d": "magazyn wody i substancji, utrzymuje turgor"
+      },
+      {
+       "x": 75,
+       "y": 200,
+       "lx": 90,
+       "ly": 288,
+       "n": "Jądro komórkowe",
+       "d": "zawiera DNA, steruje życiem komórki"
+      },
+      {
+       "x": 70,
+       "y": 80,
+       "lx": 20,
+       "ly": 12,
+       "n": "Chloroplast",
+       "d": "fotosynteza"
+      },
+      {
+       "x": 340,
+       "y": 225,
+       "lx": 385,
+       "ly": 282,
+       "n": "Mitochondrium",
+       "d": "oddychanie komórkowe, produkcja ATP"
+      },
+      {
+       "x": 230,
+       "y": 29,
+       "lx": 200,
+       "ly": 6,
+       "n": "Plazmodesmy",
+       "d": "połączenia cytoplazmy sąsiednich komórek"
+      },
+      {
+       "x": 68,
+       "y": 135,
+       "lx": 160,
+       "ly": 288,
+       "n": "Aparat Golgiego",
+       "d": "pakowanie substancji, m.in. do budowy ściany"
+      }
+     ]
+    },
+    {
+     "id": "s7b55c2c9",
+     "typ": "rysunek",
+     "tytul": "Komórka bakteryjna",
+     "opis": "Schemat komórki prokariotycznej.",
+     "uwaga": "Bakterie nie mają jądra ani organelli otoczonych błonami. Plazmidy są wykorzystywane w inżynierii genetycznej jako wektory.",
+     "svg": "<ellipse class=\"dash\" cx=\"200\" cy=\"130\" rx=\"150\" ry=\"78\"/><ellipse class=\"f2\" cx=\"200\" cy=\"130\" rx=\"138\" ry=\"66\"/><ellipse class=\"f\" cx=\"200\" cy=\"130\" rx=\"130\" ry=\"58\"/><path class=\"s\" d=\"M150 130 c10 -30 40 -20 30 0 s-30 30 0 25 s40 -30 20 -40 s-60 0 -40 30 s50 10 60 -10\"/><circle class=\"s\" cx=\"290\" cy=\"110\" r=\"10\"/><circle class=\"s\" cx=\"120\" cy=\"160\" r=\"7\"/><circle class=\"d\" cx=\"240\" cy=\"160\" r=\"2\"/><circle class=\"d\" cx=\"255\" cy=\"150\" r=\"2\"/><circle class=\"d\" cx=\"265\" cy=\"165\" r=\"2\"/><circle class=\"d\" cx=\"130\" cy=\"105\" r=\"2\"/><circle class=\"d\" cx=\"145\" cy=\"95\" r=\"2\"/><circle class=\"d\" cx=\"230\" cy=\"95\" r=\"2\"/><path class=\"s\" d=\"M350 130 q12 -12 22 0 t22 0\"/><line class=\"s2\" x1=\"76\" y1=\"101\" x2=\"64\" y2=\"95\"/><line class=\"s2\" x1=\"110\" y1=\"80\" x2=\"101\" y2=\"69\"/><line class=\"s2\" x1=\"158\" y1=\"67\" x2=\"153\" y2=\"54\"/><line class=\"s2\" x1=\"239\" y1=\"67\" x2=\"243\" y2=\"53\"/><line class=\"s2\" x1=\"288\" y1=\"79\" x2=\"296\" y2=\"68\"/><line class=\"s2\" x1=\"155\" y1=\"192\" x2=\"151\" y2=\"206\"/><line class=\"s2\" x1=\"108\" y1=\"179\" x2=\"99\" y2=\"190\"/><line class=\"s2\" x1=\"250\" y1=\"192\" x2=\"255\" y2=\"205\"/>",
+     "viewBox": "0 0 400 260",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 52,
+       "lx": 200,
+       "ly": 14,
+       "n": "Otoczka śluzowa",
+       "d": "ochrona przed wysychaniem i fagocytozą"
+      },
+      {
+       "x": 72,
+       "y": 150,
+       "lx": 20,
+       "ly": 200,
+       "n": "Ściana komórkowa",
+       "d": "z mureiny (peptydoglikanu)"
+      },
+      {
+       "x": 72,
+       "y": 120,
+       "lx": 20,
+       "ly": 70,
+       "n": "Błona komórkowa",
+       "d": "tu zachodzi m.in. oddychanie u bakterii"
+      },
+      {
+       "x": 180,
+       "y": 130,
+       "lx": 120,
+       "ly": 246,
+       "n": "Nukleoid",
+       "d": "koliste DNA, brak otoczki jądrowej"
+      },
+      {
+       "x": 290,
+       "y": 110,
+       "lx": 330,
+       "ly": 30,
+       "n": "Plazmid",
+       "d": "małe koliste DNA, np. geny oporności"
+      },
+      {
+       "x": 255,
+       "y": 150,
+       "lx": 290,
+       "ly": 246,
+       "n": "Rybosomy 70S",
+       "d": "synteza białek"
+      },
+      {
+       "x": 375,
+       "y": 128,
+       "lx": 380,
+       "ly": 200,
+       "n": "Rzęska (wić)",
+       "d": "ruch"
+      },
+      {
+       "x": 110,
+       "y": 72,
+       "lx": 60,
+       "ly": 22,
+       "n": "Fimbrie (pile)",
+       "d": "przyczepianie się, koniugacja"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1805,6 +2040,131 @@
      "wyjasnienie": "Kanały i przenośniki.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sa22868e7",
+     "typ": "rysunek",
+     "tytul": "Model płynnej mozaiki",
+     "opis": "Budowa błony komórkowej według modelu płynnej mozaiki (Singer i Nicolson).",
+     "uwaga": "Glikokaliks znajduje się zawsze po stronie zewnętrznej — po tym rozpoznasz na schemacie, która strona błony to wnętrze komórki.",
+     "svg": "<circle class=\"f2\" cx=\"30\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M28 101 l0 38 M32 101 l0 38\"/><circle class=\"f2\" cx=\"30\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M28 199 l0 -38 M32 199 l0 -38\"/><circle class=\"f2\" cx=\"46\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M44 101 l0 38 M48 101 l0 38\"/><circle class=\"f2\" cx=\"46\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M44 199 l0 -38 M48 199 l0 -38\"/><circle class=\"f2\" cx=\"62\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M60 101 l0 38 M64 101 l0 38\"/><circle class=\"f2\" cx=\"62\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M60 199 l0 -38 M64 199 l0 -38\"/><circle class=\"f2\" cx=\"78\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M76 101 l0 38 M80 101 l0 38\"/><circle class=\"f2\" cx=\"78\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M76 199 l0 -38 M80 199 l0 -38\"/><circle class=\"f2\" cx=\"94\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M92 101 l0 38 M96 101 l0 38\"/><circle class=\"f2\" cx=\"94\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M92 199 l0 -38 M96 199 l0 -38\"/><circle class=\"f2\" cx=\"110\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M108 101 l0 38 M112 101 l0 38\"/><circle class=\"f2\" cx=\"110\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M108 199 l0 -38 M112 199 l0 -38\"/><circle class=\"f2\" cx=\"126\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M124 101 l0 38 M128 101 l0 38\"/><circle class=\"f2\" cx=\"126\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M124 199 l0 -38 M128 199 l0 -38\"/><circle class=\"f2\" cx=\"206\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M204 101 l0 38 M208 101 l0 38\"/><circle class=\"f2\" cx=\"206\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M204 199 l0 -38 M208 199 l0 -38\"/><circle class=\"f2\" cx=\"222\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M220 101 l0 38 M224 101 l0 38\"/><circle class=\"f2\" cx=\"222\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M220 199 l0 -38 M224 199 l0 -38\"/><circle class=\"f2\" cx=\"238\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M236 101 l0 38 M240 101 l0 38\"/><circle class=\"f2\" cx=\"238\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M236 199 l0 -38 M240 199 l0 -38\"/><circle class=\"f2\" cx=\"254\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M252 101 l0 38 M256 101 l0 38\"/><circle class=\"f2\" cx=\"254\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M252 199 l0 -38 M256 199 l0 -38\"/><circle class=\"f2\" cx=\"302\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M300 101 l0 38 M304 101 l0 38\"/><circle class=\"f2\" cx=\"302\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M300 199 l0 -38 M304 199 l0 -38\"/><circle class=\"f2\" cx=\"318\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M316 101 l0 38 M320 101 l0 38\"/><circle class=\"f2\" cx=\"318\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M316 199 l0 -38 M320 199 l0 -38\"/><circle class=\"f2\" cx=\"334\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M332 101 l0 38 M336 101 l0 38\"/><circle class=\"f2\" cx=\"334\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M332 199 l0 -38 M336 199 l0 -38\"/><circle class=\"f2\" cx=\"350\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M348 101 l0 38 M352 101 l0 38\"/><circle class=\"f2\" cx=\"350\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M348 199 l0 -38 M352 199 l0 -38\"/><circle class=\"f2\" cx=\"366\" cy=\"95\" r=\"6\"/><path class=\"s2\" d=\"M364 101 l0 38 M368 101 l0 38\"/><circle class=\"f2\" cx=\"366\" cy=\"205\" r=\"6\"/><path class=\"s2\" d=\"M364 199 l0 -38 M368 199 l0 -38\"/><path class=\"f\" d=\"M140 70 q30 -20 62 0 l0 160 q-30 20 -62 0 z\"/><path class=\"f\" d=\"M268 82 l14 0 l0 136 l-14 0 z M290 82 l14 0 l0 136 l-14 0 z\"/><ellipse class=\"f\" cx=\"80\" cy=\"222\" rx=\"26\" ry=\"12\"/><path class=\"s\" d=\"M170 60 l0 -20 l-12 -12 M170 40 l12 -12 M182 28 l8 -10\"/><circle class=\"s\" cx=\"158\" cy=\"28\" r=\"4\"/><circle class=\"s\" cx=\"182\" cy=\"28\" r=\"4\"/><circle class=\"s\" cx=\"190\" cy=\"18\" r=\"4\"/><circle class=\"s\" cx=\"170\" cy=\"40\" r=\"4\"/><rect class=\"d\" x=\"225\" y=\"110\" width=\"6\" height=\"26\" rx=\"2\"/><text class=\"t\" x=\"10\" y=\"20\">środowisko zewnętrzne</text><text class=\"t\" x=\"10\" y=\"292\">cytoplazma</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 110,
+       "y": 95,
+       "lx": 60,
+       "ly": 50,
+       "n": "Hydrofilowa główka fosfolipidu",
+       "d": "zwrócona do wody"
+      },
+      {
+       "x": 112,
+       "y": 150,
+       "lx": 30,
+       "ly": 150,
+       "n": "Hydrofobowe ogony kwasów tłuszczowych",
+       "d": "wnętrze dwuwarstwy"
+      },
+      {
+       "x": 171,
+       "y": 150,
+       "lx": 240,
+       "ly": 286,
+       "n": "Białko integralne (przezbłonowe)",
+       "d": "przechodzi przez całą błonę"
+      },
+      {
+       "x": 80,
+       "y": 222,
+       "lx": 120,
+       "ly": 286,
+       "n": "Białko powierzchniowe",
+       "d": "związane z powierzchnią błony"
+      },
+      {
+       "x": 286,
+       "y": 150,
+       "lx": 360,
+       "ly": 270,
+       "n": "Białko kanałowe",
+       "d": "transport jonów i wody"
+      },
+      {
+       "x": 170,
+       "y": 40,
+       "lx": 230,
+       "ly": 30,
+       "n": "Glikokaliks (łańcuch cukrowy)",
+       "d": "rozpoznawanie komórek"
+      },
+      {
+       "x": 228,
+       "y": 123,
+       "lx": 270,
+       "ly": 50,
+       "n": "Cholesterol",
+       "d": "reguluje płynność błony"
+      }
+     ]
+    },
+    {
+     "id": "sd8365044",
+     "typ": "proces",
+     "tytul": "Endocytoza — przebieg",
+     "opis": "",
+     "uwaga": "Endocytoza i egzocytoza wymagają ATP — to transport czynny, choć nie przez białka nośnikowe.",
+     "kroki": [
+      {
+       "t": "Rozpoznanie cząstki",
+       "d": "np. przez receptory w błonie"
+      },
+      {
+       "t": "Wpuklenie błony komórkowej",
+       "d": "błona otacza cząstkę"
+      },
+      {
+       "t": "Odcięcie pęcherzyka",
+       "d": "powstaje pęcherzyk endocytarny (fagosom)"
+      },
+      {
+       "t": "Połączenie z lizosomem",
+       "d": "enzymy hydrolityczne trafiają do pęcherzyka"
+      },
+      {
+       "t": "Trawienie zawartości",
+       "d": "produkty przechodzą do cytoplazmy"
+      }
+     ]
+    },
+    {
+     "id": "s2561921f",
+     "typ": "proces",
+     "tytul": "Pompa sodowo-potasowa — cykl pracy",
+     "opis": "",
+     "uwaga": "Bilans: 3 Na⁺ na zewnątrz, 2 K⁺ do środka, 1 ATP — dlatego wnętrze komórki jest ujemne.",
+     "kroki": [
+      {
+       "t": "Przyłączenie 3 Na⁺ od strony cytoplazmy"
+      },
+      {
+       "t": "Hydroliza ATP i fosforylacja białka"
+      },
+      {
+       "t": "Zmiana konformacji — wyrzucenie 3 Na⁺ na zewnątrz"
+      },
+      {
+       "t": "Przyłączenie 2 K⁺ od zewnątrz"
+      },
+      {
+       "t": "Odłączenie fosforanu i powrót do pierwotnego kształtu"
+      },
+      {
+       "t": "Uwolnienie 2 K⁺ do cytoplazmy"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2646,6 +3006,101 @@
      "wyjasnienie": "Enzymy ER gładkiego.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sb4ffbb60",
+     "typ": "rysunek",
+     "tytul": "Jądro komórkowe",
+     "opis": "Przekrój przez jądro komórkowe w interfazie.",
+     "uwaga": "Zewnętrzna błona otoczki jądrowej przechodzi w siateczkę śródplazmatyczną szorstką — dlatego na jej powierzchni też są rybosomy.",
+     "svg": "<circle class=\"f2\" cx=\"200\" cy=\"150\" r=\"118\"/><circle class=\"f\" cx=\"200\" cy=\"150\" r=\"108\"/><rect class=\"f\" x=\"304.0\" y=\"179.4\" width=\"8\" height=\"8\"/><rect class=\"f\" x=\"247.3\" y=\"246.7\" width=\"8\" height=\"8\"/><rect class=\"f\" x=\"159.5\" y=\"252.9\" width=\"8\" height=\"8\"/><rect class=\"f\" x=\"93.8\" y=\"194.3\" width=\"8\" height=\"8\"/><rect class=\"f\" x=\"90.2\" y=\"106.4\" width=\"8\" height=\"8\"/><rect class=\"f\" x=\"150.7\" y=\"42.5\" width=\"8\" height=\"8\"/><rect class=\"f\" x=\"238.7\" y=\"41.4\" width=\"8\" height=\"8\"/><rect class=\"f\" x=\"296.1\" y=\"93.5\" width=\"8\" height=\"8\"/><circle class=\"d\" cx=\"215\" cy=\"140\" r=\"26\"/><path class=\"s2\" d=\"M120 120 c20 -20 30 20 50 0 s20 -30 10 -40 M140 190 c20 10 40 -10 60 10 s30 10 40 -10 M250 210 c10 -20 30 0 20 -30\"/><path class=\"s\" d=\"M318 150 q30 -30 60 -10 M318 150 q30 30 60 10 M330 176 q25 10 45 30\"/><circle class=\"d\" cx=\"350\" cy=\"128\" r=\"2\"/><circle class=\"d\" cx=\"360\" cy=\"133\" r=\"2\"/><circle class=\"d\" cx=\"370\" cy=\"140\" r=\"2\"/><circle class=\"d\" cx=\"352\" cy=\"172\" r=\"2\"/><circle class=\"d\" cx=\"362\" cy=\"176\" r=\"2\"/><circle class=\"d\" cx=\"350\" cy=\"194\" r=\"2\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 82,
+       "y": 150,
+       "lx": 20,
+       "ly": 150,
+       "n": "Otoczka jądrowa",
+       "d": "podwójna błona"
+      },
+      {
+       "x": 242.71148492656675,
+       "y": 45.38294089696623,
+       "lx": 280,
+       "ly": 18,
+       "n": "Por jądrowy",
+       "d": "transport mRNA i białek"
+      },
+      {
+       "x": 215,
+       "y": 140,
+       "lx": 260,
+       "ly": 100,
+       "n": "Jąderko",
+       "d": "synteza rRNA, składanie podjednostek rybosomów"
+      },
+      {
+       "x": 160,
+       "y": 195,
+       "lx": 120,
+       "ly": 286,
+       "n": "Chromatyna",
+       "d": "DNA z białkami histonowymi"
+      },
+      {
+       "x": 150,
+       "y": 110,
+       "lx": 70,
+       "ly": 50,
+       "n": "Kariolimfa (nukleoplazma)",
+       "d": ""
+      },
+      {
+       "x": 355,
+       "y": 130,
+       "lx": 380,
+       "ly": 60,
+       "n": "Siateczka śródplazmatyczna szorstka",
+       "d": "łączy się z otoczką jądrową"
+      }
+     ]
+    },
+    {
+     "id": "s873154ae",
+     "typ": "proces",
+     "tytul": "Droga białka wydzielniczego",
+     "opis": "",
+     "uwaga": "Typowe zadanie: znakowany radioaktywnie aminokwas pojawia się kolejno w ER szorstkim, aparacie Golgiego, pęcherzykach i poza komórką.",
+     "kroki": [
+      {
+       "t": "Transkrypcja w jądrze",
+       "d": "powstaje mRNA"
+      },
+      {
+       "t": "Wyjście mRNA przez pory jądrowe"
+      },
+      {
+       "t": "Translacja na rybosomach siateczki szorstkiej",
+       "d": "łańcuch trafia do wnętrza ER"
+      },
+      {
+       "t": "Pęcherzyk transportujący z ER"
+      },
+      {
+       "t": "Modyfikacja w aparacie Golgiego",
+       "d": "np. dołączenie reszt cukrowych"
+      },
+      {
+       "t": "Pęcherzyk wydzielniczy"
+      },
+      {
+       "t": "Egzocytoza",
+       "d": "uwolnienie białka na zewnątrz"
+      }
+     ]
+    }
    ]
   },
   {
@@ -3482,6 +3937,150 @@
      "poprawna": "B",
      "wyjasnienie": "Tkanka brunatna.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s2d03297e",
+     "typ": "rysunek",
+     "tytul": "Mitochondrium",
+     "opis": "Przekrój podłużny przez mitochondrium.",
+     "uwaga": "Własne koliste DNA i rybosomy 70S to argumenty za endosymbiotycznym pochodzeniem mitochondriów. Pamiętaj: łańcuch oddechowy leży w błonie wewnętrznej, cykl Krebsa zachodzi w macierzy.",
+     "svg": "<ellipse class=\"f2\" cx=\"200\" cy=\"150\" rx=\"180\" ry=\"98\"/><ellipse class=\"f\" cx=\"200\" cy=\"150\" rx=\"166\" ry=\"84\"/><path class=\"f\" d=\"M95 82.8 L95 122 q0 8 8 8 q8 0 8 -8 L111 82.8\"/><path class=\"f\" d=\"M129 226.7 L129 178 q0 -8 8 -8 q8 0 8 8 L145 226.7\"/><path class=\"f\" d=\"M163 68.3 L163 122 q0 8 8 8 q8 0 8 -8 L179 68.3\"/><path class=\"f\" d=\"M197 233.0 L197 178 q0 -8 8 -8 q8 0 8 8 L213 233.0\"/><path class=\"f\" d=\"M231 69.4 L231 122 q0 8 8 8 q8 0 8 -8 L247 69.4\"/><path class=\"f\" d=\"M265 224.4 L265 178 q0 -8 8 -8 q8 0 8 8 L281 224.4\"/><path class=\"f\" d=\"M299 86.8 L299 122 q0 8 8 8 q8 0 8 -8 L315 86.8\"/><circle class=\"s\" cx=\"318\" cy=\"150\" r=\"12\"/><circle class=\"d\" cx=\"80\" cy=\"150\" r=\"2\"/><circle class=\"d\" cx=\"90\" cy=\"165\" r=\"2\"/><circle class=\"d\" cx=\"330\" cy=\"190\" r=\"2\"/><circle class=\"d\" cx=\"340\" cy=\"182\" r=\"2\"/><circle class=\"d\" cx=\"322\" cy=\"182\" r=\"2\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 52,
+       "lx": 200,
+       "ly": 18,
+       "n": "Błona zewnętrzna",
+       "d": "gładka, przepuszczalna dla małych cząsteczek"
+      },
+      {
+       "x": 34,
+       "y": 150,
+       "lx": 12,
+       "ly": 220,
+       "n": "Błona wewnętrzna",
+       "d": "łańcuch oddechowy i syntaza ATP"
+      },
+      {
+       "x": 103,
+       "y": 115,
+       "lx": 40,
+       "ly": 40,
+       "n": "Grzebień mitochondrialny",
+       "d": "fałd błony wewnętrznej — większa powierzchnia"
+      },
+      {
+       "x": 230,
+       "y": 150,
+       "lx": 230,
+       "ly": 286,
+       "n": "Macierz (matriks)",
+       "d": "cykl Krebsa, reakcja pomostowa"
+      },
+      {
+       "x": 25,
+       "y": 150,
+       "lx": 12,
+       "ly": 120,
+       "n": "Przestrzeń międzybłonowa",
+       "d": "gromadzą się tu protony (H⁺)"
+      },
+      {
+       "x": 318,
+       "y": 150,
+       "lx": 385,
+       "ly": 150,
+       "n": "DNA mitochondrialne",
+       "d": "koliste, dziedziczone po matce"
+      },
+      {
+       "x": 330,
+       "y": 190,
+       "lx": 370,
+       "ly": 250,
+       "n": "Rybosomy 70S",
+       "d": "synteza części białek mitochondrium"
+      }
+     ]
+    },
+    {
+     "id": "s5464aa23",
+     "typ": "rysunek",
+     "tytul": "Chloroplast",
+     "opis": "Przekrój przez chloroplast.",
+     "uwaga": "Zadania często pytają, gdzie zachodzą fazy fotosyntezy: faza zależna od światła — błony tylakoidów (grana), cykl Calvina — stroma.",
+     "svg": "<ellipse class=\"f2\" cx=\"200\" cy=\"150\" rx=\"180\" ry=\"96\"/><ellipse class=\"f\" cx=\"200\" cy=\"150\" rx=\"168\" ry=\"84\"/><rect class=\"f2\" x=\"80\" y=\"110\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"80\" y=\"119\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"80\" y=\"128\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"80\" y=\"137\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"80\" y=\"146\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"170\" y=\"95\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"170\" y=\"104\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"170\" y=\"113\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"170\" y=\"122\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"170\" y=\"131\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"260\" y=\"115\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"260\" y=\"124\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"260\" y=\"133\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"260\" y=\"142\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"260\" y=\"151\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"150\" y=\"175\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"150\" y=\"184\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"150\" y=\"193\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"150\" y=\"202\" width=\"40\" height=\"7\" rx=\"3\"/><rect class=\"f2\" x=\"150\" y=\"211\" width=\"40\" height=\"7\" rx=\"3\"/><path class=\"s2\" d=\"M120 130 L170 120 M210 120 L260 135 M190 140 L170 185 M100 155 L150 190 M300 150 L330 175\"/><ellipse class=\"d\" cx=\"270\" cy=\"200\" rx=\"22\" ry=\"11\"/><circle class=\"s\" cx=\"110\" cy=\"200\" r=\"11\"/><circle class=\"d\" cx=\"330\" cy=\"120\" r=\"2\"/><circle class=\"d\" cx=\"320\" cy=\"130\" r=\"2\"/><circle class=\"d\" cx=\"240\" cy=\"90\" r=\"2\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 54,
+       "lx": 200,
+       "ly": 18,
+       "n": "Błona zewnętrzna",
+       "d": ""
+      },
+      {
+       "x": 60,
+       "y": 112,
+       "lx": 18,
+       "ly": 60,
+       "n": "Błona wewnętrzna",
+       "d": ""
+      },
+      {
+       "x": 190,
+       "y": 113,
+       "lx": 190,
+       "ly": 286,
+       "n": "Granum",
+       "d": "stos tylakoidów — faza zależna od światła"
+      },
+      {
+       "x": 240,
+       "y": 128,
+       "lx": 330,
+       "ly": 30,
+       "n": "Tylakoid stromy",
+       "d": "łączy grana"
+      },
+      {
+       "x": 230,
+       "y": 230,
+       "lx": 120,
+       "ly": 286,
+       "n": "Stroma",
+       "d": "cykl Calvina (faza niezależna od światła)"
+      },
+      {
+       "x": 270,
+       "y": 200,
+       "lx": 385,
+       "ly": 220,
+       "n": "Ziarno skrobi",
+       "d": "materiał zapasowy"
+      },
+      {
+       "x": 110,
+       "y": 200,
+       "lx": 18,
+       "ly": 240,
+       "n": "DNA chloroplastowe",
+       "d": "koliste"
+      },
+      {
+       "x": 330,
+       "y": 120,
+       "lx": 385,
+       "ly": 100,
+       "n": "Rybosomy 70S",
+       "d": ""
+      }
+     ]
     }
    ]
   },

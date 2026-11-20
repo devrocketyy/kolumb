@@ -109,6 +109,7 @@ const ICONS = {
   redo: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
   cog: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.5 5.5l1.7 1.7M16.8 16.8l1.7 1.7M5.5 18.5l1.7-1.7M16.8 7.2l1.7-1.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
   news: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2zM17 9h3v8a2 2 0 0 1-2 2h-1M7.5 9h6M7.5 12.5h6M7.5 16h3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  schemat: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="14" y="15" width="7" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M6.5 9v4.5a2 2 0 0 0 2 2H14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
   sound: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4zM16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
 };
 
@@ -134,7 +135,7 @@ function reportHref(s, u, kind, item) {
   const d = dzialOf(s, u);
   const lines = [
     'Dzień dobry,', '',
-    `zgłaszam błąd w ${kind === 'fiszka' ? 'fiszce' : 'pytaniu testowym'} w aplikacji IndexLab.`, '',
+    `zgłaszam błąd w ${kind === 'fiszka' ? 'fiszce' : kind === 'schemat' ? 'schemacie' : 'pytaniu testowym'} w aplikacji IndexLab.`, '',
     `Przedmiot: ${s.nazwa}`,
     `Dział: ${d ? d.nazwa : ''}`,
     `Poddział: ${u.nazwa}`,
@@ -142,6 +143,8 @@ function reportHref(s, u, kind, item) {
   ];
   if (kind === 'fiszka') {
     lines.push(`Pytanie: ${item.przod}`, `Odpowiedź: ${item.tyl}`);
+  } else if (kind === 'schemat') {
+    lines.push(`Schemat: ${item.przod}`);
   } else {
     lines.push(`Pytanie: ${item.pytanie}`);
     item.odpowiedzi.forEach((o, i) => lines.push(`${LITERY[i]}) ${o}${i === item.poprawna ? '  ← oznaczona jako poprawna' : ''}`));
@@ -348,6 +351,7 @@ function popHtml(s, u) {
       ${u.fiszki.length ? `<a class="pop-act" href="#/fiszki/${enc(s.id)}/p/${enc(u.id)}">${ICONS.cards}<span>Fiszki${sm.todo ? ` · ${sm.todo}` : ''}</span></a>` : ''}
       ${nQ ? `<a class="pop-act" href="#/test/${enc(s.id)}/p/${enc(u.id)}">${ICONS.quiz}<span>Test</span></a>` : ''}
       ${zHref ? `<a class="pop-act" href="${zHref}">${ICONS.doc}<span>Zadania</span></a>` : ''}
+      ${u.schematy.length ? `<a class="pop-act" href="#/schematy/${enc(s.id)}/${enc(u.id)}">${ICONS.schemat}<span>Schematy</span></a>` : ''}
       <a class="pop-act" href="${hrefUnit(s.id, u.id)}">${ICONS.book}<span>Treści</span></a>
     </div>`;
 }
@@ -1100,6 +1104,7 @@ function viewNauka() {
     </div>
     <a class="card rev-link" href="#/powtorka"><span class="quest-icon">${ICONS.redo}</span><span class="plan-text"><strong>Własna powtórka</strong><small>Wybierz tematy i powtarzaj, co chcesz</small></span>${ICONS.next}</a>
     ${wydarzeniaChronologii(s).length ? `<a class="card rev-link" href="#/os-czasu"><span class="quest-icon">${ICONS.clock}</span><span class="plan-text"><strong>Oś czasu</strong><small>Gra: ułóż wydarzenia od najstarszego</small></span>${ICONS.next}</a>` : ''}
+    ${schematyOf(s).length ? `<a class="card rev-link" href="#/schematy/${enc(s.id)}"><span class="quest-icon">${ICONS.schemat}</span><span class="plan-text"><strong>Schematy</strong><small>${schematyOf(s).length} rysunków i procesów do ćwiczenia</small></span>${ICONS.next}</a>` : ''}
     <a class="card rev-link" href="#/podcast"><span class="quest-icon">${ICONS.play}</span><span class="plan-text"><strong>Podcast IndexLab</strong><small>Słuchaj tematów w drodze do szkoły</small></span>${ICONS.next}</a>
     <div class="route" data-sid="${esc(s.id)}">${pathHtml(s, rec)}</div>`;
   bindSubjSwitch(viewNauka);
@@ -1602,6 +1607,7 @@ function viewUnit(sid, uid) {
     ${statsCard(sm)}
     <div class="actions">
       ${learnActions(sc, sm)}
+      ${u.schematy.length ? `<a class="btn btn-ghost btn-xl" href="#/schematy/${enc(s.id)}/${enc(u.id)}">${ICONS.schemat}<span>Schematy (${u.schematy.length})<small>rysunki do podpisania i procesy do ułożenia</small></span></a>` : ''}
       <a class="btn btn-ghost btn-xl" href="#/lista/${enc(s.id)}/${enc(u.id)}">${ICONS.book}<span>Przeglądaj treści<small>wszystkie fiszki i pytania ze źródłami</small></span></a>
     </div>
     ${lastTestNote(sc)}`;
@@ -3481,6 +3487,174 @@ async function promptInstall() {
 }
 
 // ---------- routing ----------
+// ---------- schematy (rysunki z podpisami, procesy, cykle) ----------
+const schematKey = (sid, uid, id) => `${sid}/${uid}/${id}`;
+const schematyOf = (s) => s.dzialy.flatMap((d) => d.poddzialy.filter((u) => !u.zablokowany).flatMap((u) => u.schematy.map((x) => ({ x, u, d }))));
+const TYP_SCHEMATU = { rysunek: 'Rysunek', proces: 'Proces', cykl: 'Cykl' };
+let sx = null; // stan ćwiczenia ze schematem
+
+function schematWynik(sid, u, x) {
+  return store.get().schematy?.[schematKey(sid, u.id, x.id)] || null;
+}
+
+function schematRow(s, u, x) {
+  const r = schematWynik(s.id, u, x);
+  const meta = [TYP_SCHEMATU[x.typ] || 'Schemat', r ? `najlepiej ${pct(r.best)}%` : 'nowy'].join(' · ');
+  return `<a class="card rev-link schem-row" href="#/schemat/${enc(s.id)}/${enc(u.id)}/${enc(x.id)}">
+    <span class="quest-icon">${ICONS.schemat}</span>
+    <span class="plan-text"><strong>${esc(x.tytul)}</strong><small>${esc(meta)}</small></span>${r && r.best >= 1 ? ICONS.check : ICONS.next}</a>`;
+}
+
+// #/schematy/sid — wszystkie schematy przedmiotu; #/schematy/sid/uid — jednego poddziału
+function viewSchematy(sid, uid) {
+  const s = subjects.find((x) => x.id === sid) || currentSubject();
+  if (!s) return notFound();
+  if (uid) {
+    const sc = resolveScope(s.id, 'p', uid);
+    if (!sc) return notFound();
+    const { unit: u } = sc;
+    app.innerHTML = `${pageHead('Schematy', hrefUnit(s.id, u.id), u.nazwa)}
+      <div class="schem-list">${u.schematy.map((x) => schematRow(s, u, x)).join('') || '<p class="muted">Ten poddział nie ma jeszcze schematów.</p>'}</div>`;
+    return;
+  }
+  const all = schematyOf(s);
+  const done = all.filter(({ x, u }) => (schematWynik(s.id, u, x)?.best || 0) >= 1).length;
+  app.innerHTML = `${pageHead('Schematy', '#/nauka', s.nazwa)}
+    <p class="lead">Rysunki do podpisania i procesy do ułożenia — tak jak w zadaniach maturalnych opartych na schematach. ${done}/${all.length} opanowanych bezbłędnie.</p>
+    ${s.dzialy.filter((d) => d.poddzialy.some((u) => !u.zablokowany && u.schematy.length)).map((d) => `
+      <h2 class="section-title">${esc(d.nazwa)}</h2>
+      <div class="schem-list">${d.poddzialy.filter((u) => !u.zablokowany).flatMap((u) => u.schematy.map((x) => schematRow(s, u, x))).join('')}</div>`).join('') || '<p class="muted">Ten przedmiot nie ma jeszcze schematów.</p>'}`;
+}
+
+function schematSvg(x, opts = {}) {
+  // znaczniki: numer w kółku (lx, ly) połączony linią z elementem (x, y)
+  const pins = (x.znaczniki || []).map((m, i) => {
+    const cls = opts.active === i ? 'pin on' : opts.done?.has(i) ? 'pin ok' : 'pin';
+    const lab = opts.labels ? `<text class="pin-name" x="${m.lx + (m.lx > m.x ? 14 : -14)}" y="${m.ly + 4}" text-anchor="${m.lx > m.x ? 'start' : 'end'}">${esc(m.n)}</text>` : '';
+    return `<g class="${cls}" data-pin="${i}"><line x1="${m.x}" y1="${m.y}" x2="${m.lx}" y2="${m.ly}"/><circle cx="${m.x}" cy="${m.y}" r="2.6"/><circle class="pin-dot" cx="${m.lx}" cy="${m.ly}" r="10"/><text x="${m.lx}" y="${m.ly + 4}" text-anchor="middle">${i + 1}</text>${lab}</g>`;
+  }).join('');
+  return `<div class="schem-fig"><svg viewBox="${esc(x.viewBox || '0 0 400 300')}" role="img" aria-label="${esc(x.tytul)}">${x.svg || ''}${pins}</svg></div>`;
+}
+
+function schematKroki(x) {
+  const cyc = x.typ === 'cykl';
+  return `<ol class="schem-steps ${cyc ? 'cyc' : ''}">${x.kroki.map((k, i) => `<li><span class="st-n">${i + 1}</span><span class="st-t"><b>${esc(k.t)}</b>${k.d ? `<small>${esc(k.d)}</small>` : ''}</span></li>`).join('')}</ol>
+    ${cyc ? `<p class="schem-loop">${ICONS.redo}<span>Po ostatnim etapie cykl wraca do etapu 1.</span></p>` : ''}`;
+}
+
+function viewSchemat(sid, uid, xid, tryb) {
+  const sc = resolveScope(sid, 'p', uid);
+  if (!sc) return notFound();
+  const { s, unit: u } = sc;
+  const x = u.schematy.find((y) => y.id === xid);
+  if (!x) return notFound();
+  const base = `#/schemat/${enc(s.id)}/${enc(u.id)}/${enc(x.id)}`;
+  const tabs = `<div class="tabs" role="tablist">
+      <a role="tab" class="tab ${tryb ? '' : 'active'}" aria-selected="${!tryb}" href="${base}">Ucz się</a>
+      <a role="tab" class="tab ${tryb ? 'active' : ''}" aria-selected="${!!tryb}" href="${base}/cwicz">${x.typ === 'rysunek' ? 'Podpisz' : 'Ułóż etapy'}</a>
+    </div>`;
+  const head = `${pageHead(x.tytul, `#/schematy/${enc(s.id)}/${enc(u.id)}`, `${TYP_SCHEMATU[x.typ] || 'Schemat'} · ${u.nazwa}`)}${tabs}`;
+  const r = schematWynik(s.id, u, x);
+  if (!tryb) {
+    sx = null;
+    const legenda = x.typ === 'rysunek'
+      ? `<ol class="schem-legend">${x.znaczniki.map((m) => `<li><b>${esc(m.n)}</b>${m.d ? ` — ${esc(m.d)}` : ''}</li>`).join('')}</ol>`
+      : schematKroki(x);
+    app.innerHTML = `${head}
+      ${x.opis ? `<p class="lead">${esc(x.opis)}</p>` : ''}
+      ${x.typ === 'rysunek' ? schematSvg(x, { labels: false }) : ''}
+      ${legenda}
+      ${x.uwaga ? `<div class="card schem-tip"><strong>Na maturze</strong><p>${esc(x.uwaga)}</p></div>` : ''}
+      <div class="actions"><a class="btn btn-primary btn-xl" href="${base}/cwicz">${ICONS.play}<span>${x.typ === 'rysunek' ? 'Podpisz elementy' : 'Ułóż etapy'}<small>${r ? `najlepszy wynik ${pct(r.best)}%` : 'sprawdź, czy pamiętasz'}</small></span></a></div>
+      <div class="review-foot">${sourceTag(x.zrodlo || 'Opracowanie IndexLab') || '<span></span>'}${reportBtn(reportHref(s, u, 'schemat', { id: x.id, przod: x.tytul }))}</div>`;
+    return;
+  }
+  if (!sx || sx.key !== base) {
+    const n = x.typ === 'rysunek' ? x.znaczniki.length : x.kroki.length;
+    sx = { key: base, kolej: shuffle([...Array(n).keys()]), krok: 0, bledy: 0, done: new Set(), zle: null, koniec: false };
+  }
+  renderSchematCwicz(s, u, x, head, base);
+}
+
+function zapiszSchemat(s, u, x) {
+  const n = x.typ === 'rysunek' ? x.znaczniki.length : x.kroki.length;
+  const wynik = Math.max(0, (n - sx.bledy) / n);
+  const st = store.get();
+  st.schematy ||= {};
+  const k = schematKey(s.id, u.id, x.id);
+  const r = st.schematy[k] || { best: 0, n: 0 };
+  r.best = Math.max(r.best, wynik); r.n += 1; r.at = Date.now();
+  st.schematy[k] = r;
+  store.save();
+  game.award(wynik >= 1 ? 5 : 2, { poprawne: n - Math.min(n, sx.bledy) });
+  return wynik;
+}
+
+function renderSchematCwicz(s, u, x, head, base) {
+  const rys = x.typ === 'rysunek';
+  const n = rys ? x.znaczniki.length : x.kroki.length;
+  if (sx.koniec) {
+    const w = sx.wynik;
+    app.innerHTML = `${head}
+      <div class="empty"><div class="empty-icon">${w >= 1 ? ICONS.trophy : ICONS.target}</div>
+        <h1>${w >= 1 ? 'Bezbłędnie!' : `${pct(w)}%`}</h1>
+        <p>${sx.bledy ? `${sx.bledy} ${plural(sx.bledy, 'pomyłka', 'pomyłki', 'pomyłek')} na ${n} ${plural(n, 'element', 'elementy', 'elementów')}.` : 'Wszystko na swoim miejscu.'}</p>
+        <a class="btn btn-primary btn-lg" href="${base}/cwicz" data-again>Jeszcze raz</a>
+        <a class="link-btn" href="${base}">Wróć do schematu</a></div>`;
+    app.querySelector('[data-again]').addEventListener('click', (e) => { e.preventDefault(); sx = null; route(); });
+    return;
+  }
+  const prog = `<div class="session-progress">${progressBar(sx.krok / n, 'Postęp')}</div>`;
+  if (rys) {
+    const i = sx.kolej[sx.krok];
+    const ok = x.znaczniki[i].n;
+    if (!sx.opcje || sx.opcjeDla !== i) {
+      const inne = shuffle(x.znaczniki.map((m) => m.n).filter((t) => t !== ok));
+      const obce = shuffle(schematyOf(s).filter((y) => y.x.typ === 'rysunek' && y.x.id !== x.id).flatMap((y) => y.x.znaczniki.map((m) => m.n)).filter((t) => t !== ok && !inne.includes(t)));
+      sx.opcje = shuffle([ok, ...[...inne, ...obce].slice(0, 3)]);
+      sx.opcjeDla = i;
+    }
+    app.innerHTML = `${head}${prog}
+      <p class="schem-q">Co oznaczono numerem <b>${i + 1}</b>?</p>
+      ${schematSvg(x, { active: i, done: sx.done })}
+      <div class="schem-opts">${sx.opcje.map((t) => `<button type="button" class="btn btn-ghost schem-opt ${sx.zle === t ? 'bad' : ''}" data-opt="${esc(t)}" ${sx.zle === t ? 'disabled' : ''}>${esc(t)}</button>`).join('')}</div>`;
+    app.querySelector('.schem-opts').addEventListener('click', (e) => {
+      const b = e.target.closest('[data-opt]');
+      if (!b) return;
+      if (b.dataset.opt === ok) {
+        sx.done.add(i); sx.krok += 1; sx.zle = null; sx.opcje = null;
+        if (sx.krok >= n) { sx.koniec = true; sx.wynik = zapiszSchemat(s, u, x); }
+        if (x.znaczniki[i].d) toast(`${ok} — ${x.znaczniki[i].d}`);
+      } else {
+        if (sx.zle === null) sx.bledy += 1;
+        sx.zle = b.dataset.opt;
+      }
+      renderSchematCwicz(s, u, x, head, base);
+    });
+    return;
+  }
+  // proces / cykl: dotknij etapów po kolei
+  const ulozone = x.kroki.slice(0, sx.krok);
+  app.innerHTML = `${head}${prog}
+    <p class="schem-q">${x.typ === 'cykl' ? 'Ułóż etapy cyklu, zaczynając od' : 'Ułóż etapy po kolei, zaczynając od'}: <b>${esc(x.kroki[0].t)}</b>${x.typ === 'cykl' ? '' : ''}</p>
+    <ol class="schem-steps done">${ulozone.map((k, i) => `<li><span class="st-n">${i + 1}</span><span class="st-t"><b>${esc(k.t)}</b>${k.d ? `<small>${esc(k.d)}</small>` : ''}</span></li>`).join('')}</ol>
+    <div class="schem-opts col">${sx.kolej.filter((j) => j >= sx.krok).map((j) => `<button type="button" class="btn btn-ghost schem-opt ${sx.zle === j ? 'bad' : ''}" data-step="${j}">${esc(x.kroki[j].t)}</button>`).join('')}</div>`;
+  if (sx.krok === 0 && !sx.startDany) { sx.startDany = true; }
+  app.querySelector('.schem-opts').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-step]');
+    if (!b) return;
+    const j = Number(b.dataset.step);
+    if (j === sx.krok) {
+      sx.krok += 1; sx.zle = null;
+      if (sx.krok >= n) { sx.koniec = true; sx.wynik = zapiszSchemat(s, u, x); }
+    } else {
+      if (sx.zle === null) sx.bledy += 1;
+      sx.zle = j;
+    }
+    renderSchematCwicz(s, u, x, head, base);
+  });
+}
+
 const routes = [
   [/^#?\/?$/, viewHome],
   [/^#\/d\/([^/]+)\/([^/]+)$/, viewDzial],
@@ -3492,6 +3666,8 @@ const routes = [
   [/^#\/szukaj$/, viewSzukaj],
   [/^#\/aktualnosci$/, viewAktualnosci],
   [/^#\/lista\/([^/]+)\/([^/]+)$/, viewLista],
+  [/^#\/schematy\/([^/]+)(?:\/([^/]+))?$/, viewSchematy],
+  [/^#\/schemat\/([^/]+)\/([^/]+)\/([^/]+)(?:\/(cwicz))?$/, viewSchemat],
   [/^#\/matura(?:\/(proba|cke|dzialy|autorskie))?$/, viewMatura],
   [/^#\/zadania\/([^/]+)\/(a|d|b)\/([^/]+)$/, viewZadania],
   [/^#\/egzamin\/([^/]+)\/([^/]+)$/, viewEgzamin],
@@ -3540,7 +3716,7 @@ function route() {
   const tab = /^#\/(statystyki|profil|ustawienia)/.test(hash) ? 'stats'
     : hash.startsWith('#/matura') || hash.startsWith('#/zadania') || hash.startsWith('#/egzamin') ? 'matura'
     : hash.startsWith('#/aktualnosci') ? 'news'
-    : /^#\/(nauka|podcast|os-czasu|szukaj|d\/|p\/|lista|fiszki|test|lekcja)/.test(hash) ? 'nauka' : 'home';
+    : /^#\/(nauka|podcast|os-czasu|szukaj|d\/|p\/|lista|schemat|fiszki|test|lekcja)/.test(hash) ? 'nauka' : 'home';
   document.querySelectorAll('.tabbar a').forEach((a) => {
     const on = a.dataset.tab === tab;
     a.classList.toggle('active', on);
