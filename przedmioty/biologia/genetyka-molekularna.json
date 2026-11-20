@@ -1567,6 +1567,65 @@
        "t": "Uwolnienie polipeptydu"
       }
      ]
+    },
+    {
+     "id": "sd4be9401",
+     "typ": "rysunek",
+     "tytul": "Budowa tRNA",
+     "opis": "Struktura drugorzędowa tRNA (model liścia koniczyny).",
+     "uwaga": "Każdy tRNA przenosi określony aminokwas, a dobiera go enzym — syntetaza aminoacylo-tRNA.",
+     "svg": "<path class=\"s\" d=\"M190 40 L190 110 L130 110 M210 22 L210 110 L270 110 M130 130 L190 130 L190 205 M270 130 L210 130 L210 205\"/><line class=\"s2\" x1=\"190.0\" y1=\"44.0\" x2=\"210.0\" y2=\"44.0\"/><line class=\"s2\" x1=\"190.0\" y1=\"54.0\" x2=\"210.0\" y2=\"54.0\"/><line class=\"s2\" x1=\"190.0\" y1=\"64.0\" x2=\"210.0\" y2=\"64.0\"/><line class=\"s2\" x1=\"190.0\" y1=\"74.0\" x2=\"210.0\" y2=\"74.0\"/><line class=\"s2\" x1=\"190.0\" y1=\"84.0\" x2=\"210.0\" y2=\"84.0\"/><line class=\"s2\" x1=\"190.0\" y1=\"94.0\" x2=\"210.0\" y2=\"94.0\"/><line class=\"s2\" x1=\"190.0\" y1=\"104.0\" x2=\"210.0\" y2=\"104.0\"/><line class=\"s2\" x1=\"136.0\" y1=\"110.0\" x2=\"136.0\" y2=\"130.0\"/><line class=\"s2\" x1=\"148.0\" y1=\"110.0\" x2=\"148.0\" y2=\"130.0\"/><line class=\"s2\" x1=\"160.0\" y1=\"110.0\" x2=\"160.0\" y2=\"130.0\"/><line class=\"s2\" x1=\"172.0\" y1=\"110.0\" x2=\"172.0\" y2=\"130.0\"/><line class=\"s2\" x1=\"184.0\" y1=\"110.0\" x2=\"184.0\" y2=\"130.0\"/><line class=\"s2\" x1=\"216.0\" y1=\"110.0\" x2=\"216.0\" y2=\"130.0\"/><line class=\"s2\" x1=\"228.0\" y1=\"110.0\" x2=\"228.0\" y2=\"130.0\"/><line class=\"s2\" x1=\"240.0\" y1=\"110.0\" x2=\"240.0\" y2=\"130.0\"/><line class=\"s2\" x1=\"252.0\" y1=\"110.0\" x2=\"252.0\" y2=\"130.0\"/><line class=\"s2\" x1=\"264.0\" y1=\"110.0\" x2=\"264.0\" y2=\"130.0\"/><line class=\"s2\" x1=\"190.0\" y1=\"140.0\" x2=\"210.0\" y2=\"140.0\"/><line class=\"s2\" x1=\"190.0\" y1=\"152.0\" x2=\"210.0\" y2=\"152.0\"/><line class=\"s2\" x1=\"190.0\" y1=\"164.0\" x2=\"210.0\" y2=\"164.0\"/><line class=\"s2\" x1=\"190.0\" y1=\"176.0\" x2=\"210.0\" y2=\"176.0\"/><line class=\"s2\" x1=\"190.0\" y1=\"188.0\" x2=\"210.0\" y2=\"188.0\"/><line class=\"s2\" x1=\"190.0\" y1=\"200.0\" x2=\"210.0\" y2=\"200.0\"/><path class=\"s\" d=\"M130 110 A28 28 0 1 0 130 130 M270 110 A28 28 0 1 1 270 130 M190 205 A32 32 0 1 0 210 205\"/><path class=\"s\" d=\"M210 22 L222 10\"/><text class=\"t\" x=\"224\" y=\"14\">C C A — 3′</text><text class=\"t\" x=\"168\" y=\"50\">5′</text><rect class=\"d\" x=\"186\" y=\"262\" width=\"8\" height=\"12\" rx=\"2\"/><rect class=\"d\" x=\"196\" y=\"262\" width=\"8\" height=\"12\" rx=\"2\"/><rect class=\"d\" x=\"206\" y=\"262\" width=\"8\" height=\"12\" rx=\"2\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 222,
+       "y": 10,
+       "lx": 320,
+       "ly": 30,
+       "n": "Miejsce przyłączenia aminokwasu (koniec 3′)",
+       "d": ""
+      },
+      {
+       "x": 200,
+       "y": 70,
+       "lx": 300,
+       "ly": 70,
+       "n": "Ramię akceptorowe",
+       "d": ""
+      },
+      {
+       "x": 200,
+       "y": 268,
+       "lx": 300,
+       "ly": 270,
+       "n": "Antykodon",
+       "d": "komplementarny do kodonu w mRNA"
+      },
+      {
+       "x": 102,
+       "y": 120,
+       "lx": 40,
+       "ly": 60,
+       "n": "Pętla D",
+       "d": ""
+      },
+      {
+       "x": 298,
+       "y": 120,
+       "lx": 360,
+       "ly": 170,
+       "n": "Pętla T",
+       "d": ""
+      },
+      {
+       "x": 200,
+       "y": 160,
+       "lx": 100,
+       "ly": 200,
+       "n": "Wiązania wodorowe między zasadami",
+       "d": "utrzymują kształt „liścia koniczyny”"
+      }
+     ]
     }
    ]
   },

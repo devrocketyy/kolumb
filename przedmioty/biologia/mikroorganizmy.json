@@ -762,6 +762,116 @@
        "d": "otoczka z błony komórki"
       }
      ]
+    },
+    {
+     "id": "sd5549884",
+     "typ": "rysunek",
+     "tytul": "Budowa bakteriofaga",
+     "opis": "Schemat bakteriofaga typu T4.",
+     "uwaga": "Do wnętrza bakterii wnika tylko DNA faga — kapsyd zostaje na zewnątrz (doświadczenie Hersheya i Chase).",
+     "svg": "<polygon class=\"f\" points=\"200.0,14.0 248.5,42.0 248.5,98.0 200.0,126.0 151.5,98.0 151.5,42.0\"/><path class=\"s2\" d=\"M175 50 c20 -14 40 10 20 20 s-30 20 -5 26 s40 -10 30 -30 M180 90 c10 -6 30 6 40 -4\"/><rect class=\"f2\" x=\"190\" y=\"124\" width=\"20\" height=\"10\"/><rect class=\"f\" x=\"186\" y=\"134\" width=\"28\" height=\"92\" rx=\"3\"/><line class=\"s2\" x1=\"186\" y1=\"144\" x2=\"214\" y2=\"144\"/><line class=\"s2\" x1=\"186\" y1=\"154\" x2=\"214\" y2=\"154\"/><line class=\"s2\" x1=\"186\" y1=\"164\" x2=\"214\" y2=\"164\"/><line class=\"s2\" x1=\"186\" y1=\"174\" x2=\"214\" y2=\"174\"/><line class=\"s2\" x1=\"186\" y1=\"184\" x2=\"214\" y2=\"184\"/><line class=\"s2\" x1=\"186\" y1=\"194\" x2=\"214\" y2=\"194\"/><line class=\"s2\" x1=\"186\" y1=\"204\" x2=\"214\" y2=\"204\"/><line class=\"s2\" x1=\"186\" y1=\"214\" x2=\"214\" y2=\"214\"/><line class=\"s2\" x1=\"186\" y1=\"224\" x2=\"214\" y2=\"224\"/><rect class=\"f2\" x=\"168\" y=\"226\" width=\"64\" height=\"12\" rx=\"3\"/><path class=\"s\" d=\"M172 236 L130 210 L110 285 M228 236 L270 210 L290 285 M180 238 L156 262 L150 292 M220 238 L244 262 L250 292\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 230,
+       "y": 50,
+       "lx": 300,
+       "ly": 30,
+       "n": "Główka (kapsyd)",
+       "d": "białkowa osłona materiału genetycznego"
+      },
+      {
+       "x": 195,
+       "y": 70,
+       "lx": 100,
+       "ly": 40,
+       "n": "DNA",
+       "d": "materiał genetyczny wstrzykiwany do bakterii"
+      },
+      {
+       "x": 200,
+       "y": 180,
+       "lx": 300,
+       "ly": 160,
+       "n": "Kurczliwa pochewka ogonka",
+       "d": "wprowadza DNA do komórki"
+      },
+      {
+       "x": 200,
+       "y": 232,
+       "lx": 300,
+       "ly": 220,
+       "n": "Płytka podstawowa",
+       "d": ""
+      },
+      {
+       "x": 120,
+       "y": 248,
+       "lx": 60,
+       "ly": 200,
+       "n": "Włókienka ogonka",
+       "d": "przyczepianie do receptorów bakterii"
+      }
+     ]
+    },
+    {
+     "id": "se09c7535",
+     "typ": "rysunek",
+     "tytul": "Budowa wirusa z osłonką (HIV)",
+     "opis": "Schemat retrowirusa HIV.",
+     "uwaga": "Osłonka lipidowa czyni wirusa wrażliwym na detergenty i alkohol — dlatego mydło skutecznie niszczy wirusy z osłonką.",
+     "svg": "<circle class=\"f\" cx=\"200\" cy=\"150\" r=\"100\"/><circle class=\"dash\" cx=\"200\" cy=\"150\" r=\"88\"/><line class=\"s\" x1=\"298.5\" y1=\"167.4\" x2=\"316.2\" y2=\"170.5\"/><circle class=\"f2\" cx=\"316.2\" cy=\"170.5\" r=\"7\"/><line class=\"s\" x1=\"276.6\" y1=\"214.3\" x2=\"290.4\" y2=\"225.8\"/><circle class=\"f2\" cx=\"290.4\" cy=\"225.8\" r=\"7\"/><line class=\"s\" x1=\"234.2\" y1=\"244.0\" x2=\"240.4\" y2=\"260.9\"/><circle class=\"f2\" cx=\"240.4\" cy=\"260.9\" r=\"7\"/><line class=\"s\" x1=\"182.6\" y1=\"248.5\" x2=\"179.5\" y2=\"266.2\"/><circle class=\"f2\" cx=\"179.5\" cy=\"266.2\" r=\"7\"/><line class=\"s\" x1=\"135.7\" y1=\"226.6\" x2=\"124.2\" y2=\"240.4\"/><circle class=\"f2\" cx=\"124.2\" cy=\"240.4\" r=\"7\"/><line class=\"s\" x1=\"106.0\" y1=\"184.2\" x2=\"89.1\" y2=\"190.4\"/><circle class=\"f2\" cx=\"89.1\" cy=\"190.4\" r=\"7\"/><line class=\"s\" x1=\"101.5\" y1=\"132.6\" x2=\"83.8\" y2=\"129.5\"/><circle class=\"f2\" cx=\"83.8\" cy=\"129.5\" r=\"7\"/><line class=\"s\" x1=\"123.4\" y1=\"85.7\" x2=\"109.6\" y2=\"74.2\"/><circle class=\"f2\" cx=\"109.6\" cy=\"74.2\" r=\"7\"/><line class=\"s\" x1=\"165.8\" y1=\"56.0\" x2=\"159.6\" y2=\"39.1\"/><circle class=\"f2\" cx=\"159.6\" cy=\"39.1\" r=\"7\"/><line class=\"s\" x1=\"217.4\" y1=\"51.5\" x2=\"220.5\" y2=\"33.8\"/><circle class=\"f2\" cx=\"220.5\" cy=\"33.8\" r=\"7\"/><line class=\"s\" x1=\"264.3\" y1=\"73.4\" x2=\"275.8\" y2=\"59.6\"/><circle class=\"f2\" cx=\"275.8\" cy=\"59.6\" r=\"7\"/><line class=\"s\" x1=\"294.0\" y1=\"115.8\" x2=\"310.9\" y2=\"109.6\"/><circle class=\"f2\" cx=\"310.9\" cy=\"109.6\" r=\"7\"/><path class=\"f2\" d=\"M170 82 L230 82 L252 218 L148 218 Z\"/><path class=\"s\" d=\"M180 100 c10 10 -10 20 0 30 s-10 20 0 30 s-10 20 0 30 M218 100 c10 10 -10 20 0 30 s-10 20 0 30 s-10 20 0 30\"/><circle class=\"d\" cx=\"200\" cy=\"120\" r=\"5\"/><circle class=\"d\" cx=\"204\" cy=\"180\" r=\"5\"/><circle class=\"d\" cx=\"196\" cy=\"150\" r=\"5\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 110,
+       "y": 194,
+       "lx": 40,
+       "ly": 250,
+       "n": "Osłonka lipidowa",
+       "d": "pochodzi z błony komórki gospodarza"
+      },
+      {
+       "x": 290.3932442880394,
+       "y": 225.84893794301163,
+       "lx": 370,
+       "ly": 270,
+       "n": "Glikoproteiny powierzchniowe",
+       "d": "wiążą się z receptorem CD4 limfocytu"
+      },
+      {
+       "x": 240,
+       "y": 200,
+       "lx": 340,
+       "ly": 150,
+       "n": "Kapsyd",
+       "d": ""
+      },
+      {
+       "x": 180,
+       "y": 130,
+       "lx": 60,
+       "ly": 80,
+       "n": "RNA wirusa",
+       "d": "dwie kopie jednoniciowego RNA"
+      },
+      {
+       "x": 204,
+       "y": 180,
+       "lx": 200,
+       "ly": 285,
+       "n": "Odwrotna transkryptaza",
+       "d": "przepisuje RNA na DNA"
+      },
+      {
+       "x": 200,
+       "y": 62,
+       "lx": 200,
+       "ly": 14,
+       "n": "Macierz białkowa",
+       "d": ""
+      }
+     ]
     }
    ]
   },
@@ -2364,6 +2474,140 @@
       {
        "t": "Rozmnażanie płciowe w komarze",
        "d": "żywiciel ostateczny"
+      }
+     ]
+    },
+    {
+     "id": "s5c123a38",
+     "typ": "rysunek",
+     "tytul": "Budowa pantofelka",
+     "opis": "Pantofelek — orzęsek słodkowodny.",
+     "uwaga": "Wodniczki tętniące występują u protistów słodkowodnych: woda stale napływa do komórki przez osmozę i musi być usuwana.",
+     "svg": "<path class=\"f\" d=\"M40 150 Q40 80 140 70 Q250 60 330 90 Q370 110 365 150 Q370 200 320 215 Q240 238 130 228 Q40 220 40 150 Z\"/><line class=\"s2\" x1=\"370.0\" y1=\"150.0\" x2=\"382.0\" y2=\"150.0\"/><line class=\"s2\" x1=\"369.1\" y1=\"158.6\" x2=\"381.0\" y2=\"159.6\"/><line class=\"s2\" x1=\"366.3\" y1=\"167.0\" x2=\"378.1\" y2=\"169.1\"/><line class=\"s2\" x1=\"361.8\" y1=\"175.3\" x2=\"373.2\" y2=\"178.4\"/><line class=\"s2\" x1=\"355.5\" y1=\"183.4\" x2=\"366.4\" y2=\"187.4\"/><line class=\"s2\" x1=\"347.5\" y1=\"191.0\" x2=\"357.9\" y2=\"196.0\"/><line class=\"s2\" x1=\"337.9\" y1=\"198.2\" x2=\"347.6\" y2=\"204.1\"/><line class=\"s2\" x1=\"326.8\" y1=\"204.9\" x2=\"335.8\" y2=\"211.6\"/><line class=\"s2\" x1=\"314.4\" y1=\"210.9\" x2=\"322.4\" y2=\"218.4\"/><line class=\"s2\" x1=\"300.7\" y1=\"216.3\" x2=\"307.8\" y2=\"224.4\"/><line class=\"s2\" x1=\"286.0\" y1=\"221.0\" x2=\"292.0\" y2=\"229.7\"/><line class=\"s2\" x1=\"270.3\" y1=\"224.9\" x2=\"275.2\" y2=\"234.0\"/><line class=\"s2\" x1=\"253.9\" y1=\"228.0\" x2=\"257.6\" y2=\"237.5\"/><line class=\"s2\" x1=\"236.9\" y1=\"230.2\" x2=\"239.4\" y2=\"240.0\"/><line class=\"s2\" x1=\"219.6\" y1=\"231.6\" x2=\"220.8\" y2=\"241.5\"/><line class=\"s2\" x1=\"202.0\" y1=\"232.0\" x2=\"202.0\" y2=\"242.0\"/><line class=\"s2\" x1=\"184.4\" y1=\"231.6\" x2=\"183.2\" y2=\"241.5\"/><line class=\"s2\" x1=\"167.1\" y1=\"230.2\" x2=\"164.6\" y2=\"240.0\"/><line class=\"s2\" x1=\"150.1\" y1=\"228.0\" x2=\"146.4\" y2=\"237.5\"/><line class=\"s2\" x1=\"133.7\" y1=\"224.9\" x2=\"128.8\" y2=\"234.0\"/><line class=\"s2\" x1=\"118.0\" y1=\"221.0\" x2=\"112.0\" y2=\"229.7\"/><line class=\"s2\" x1=\"103.3\" y1=\"216.3\" x2=\"96.2\" y2=\"224.4\"/><line class=\"s2\" x1=\"89.6\" y1=\"210.9\" x2=\"81.6\" y2=\"218.4\"/><line class=\"s2\" x1=\"77.2\" y1=\"204.9\" x2=\"68.2\" y2=\"211.6\"/><line class=\"s2\" x1=\"66.1\" y1=\"198.2\" x2=\"56.4\" y2=\"204.1\"/><line class=\"s2\" x1=\"56.5\" y1=\"191.0\" x2=\"46.1\" y2=\"196.0\"/><line class=\"s2\" x1=\"48.5\" y1=\"183.4\" x2=\"37.6\" y2=\"187.4\"/><line class=\"s2\" x1=\"42.2\" y1=\"175.3\" x2=\"30.8\" y2=\"178.4\"/><line class=\"s2\" x1=\"37.7\" y1=\"167.0\" x2=\"25.9\" y2=\"169.1\"/><line class=\"s2\" x1=\"34.9\" y1=\"158.6\" x2=\"23.0\" y2=\"159.6\"/><line class=\"s2\" x1=\"34.0\" y1=\"150.0\" x2=\"22.0\" y2=\"150.0\"/><line class=\"s2\" x1=\"34.9\" y1=\"141.4\" x2=\"23.0\" y2=\"140.4\"/><line class=\"s2\" x1=\"37.7\" y1=\"133.0\" x2=\"25.9\" y2=\"130.9\"/><line class=\"s2\" x1=\"42.2\" y1=\"124.7\" x2=\"30.8\" y2=\"121.6\"/><line class=\"s2\" x1=\"48.5\" y1=\"116.6\" x2=\"37.6\" y2=\"112.6\"/><line class=\"s2\" x1=\"56.5\" y1=\"109.0\" x2=\"46.1\" y2=\"104.0\"/><line class=\"s2\" x1=\"66.1\" y1=\"101.8\" x2=\"56.4\" y2=\"95.9\"/><line class=\"s2\" x1=\"77.2\" y1=\"95.1\" x2=\"68.2\" y2=\"88.4\"/><line class=\"s2\" x1=\"89.6\" y1=\"89.1\" x2=\"81.6\" y2=\"81.6\"/><line class=\"s2\" x1=\"103.3\" y1=\"83.7\" x2=\"96.2\" y2=\"75.6\"/><line class=\"s2\" x1=\"118.0\" y1=\"79.0\" x2=\"112.0\" y2=\"70.3\"/><line class=\"s2\" x1=\"133.7\" y1=\"75.1\" x2=\"128.8\" y2=\"66.0\"/><line class=\"s2\" x1=\"150.1\" y1=\"72.0\" x2=\"146.4\" y2=\"62.5\"/><line class=\"s2\" x1=\"167.1\" y1=\"69.8\" x2=\"164.6\" y2=\"60.0\"/><line class=\"s2\" x1=\"184.4\" y1=\"68.4\" x2=\"183.2\" y2=\"58.5\"/><line class=\"s2\" x1=\"202.0\" y1=\"68.0\" x2=\"202.0\" y2=\"58.0\"/><line class=\"s2\" x1=\"219.6\" y1=\"68.4\" x2=\"220.8\" y2=\"58.5\"/><line class=\"s2\" x1=\"236.9\" y1=\"69.8\" x2=\"239.4\" y2=\"60.0\"/><line class=\"s2\" x1=\"253.9\" y1=\"72.0\" x2=\"257.6\" y2=\"62.5\"/><line class=\"s2\" x1=\"270.3\" y1=\"75.1\" x2=\"275.2\" y2=\"66.0\"/><line class=\"s2\" x1=\"286.0\" y1=\"79.0\" x2=\"292.0\" y2=\"70.3\"/><line class=\"s2\" x1=\"300.7\" y1=\"83.7\" x2=\"307.8\" y2=\"75.6\"/><line class=\"s2\" x1=\"314.4\" y1=\"89.1\" x2=\"322.4\" y2=\"81.6\"/><line class=\"s2\" x1=\"326.8\" y1=\"95.1\" x2=\"335.8\" y2=\"88.4\"/><line class=\"s2\" x1=\"337.9\" y1=\"101.8\" x2=\"347.6\" y2=\"95.9\"/><line class=\"s2\" x1=\"347.5\" y1=\"109.0\" x2=\"357.9\" y2=\"104.0\"/><line class=\"s2\" x1=\"355.5\" y1=\"116.6\" x2=\"366.4\" y2=\"112.6\"/><line class=\"s2\" x1=\"361.8\" y1=\"124.7\" x2=\"373.2\" y2=\"121.6\"/><line class=\"s2\" x1=\"366.3\" y1=\"133.0\" x2=\"378.1\" y2=\"130.9\"/><line class=\"s2\" x1=\"369.1\" y1=\"141.4\" x2=\"381.0\" y2=\"140.4\"/><path class=\"f2\" d=\"M150 120 Q200 100 240 130 Q250 160 215 170 Q185 160 160 168 Q135 150 150 120 Z\"/><circle class=\"d\" cx=\"250\" cy=\"160\" r=\"6\"/><path class=\"s\" d=\"M150 228 Q180 180 230 190 Q215 205 222 222\"/><circle class=\"s\" cx=\"120\" cy=\"180\" r=\"11\"/><circle class=\"d\" cx=\"117\" cy=\"180\" r=\"1.6\"/><circle class=\"d\" cx=\"123\" cy=\"182\" r=\"1.6\"/><circle class=\"s\" cx=\"290\" cy=\"175\" r=\"11\"/><circle class=\"d\" cx=\"287\" cy=\"175\" r=\"1.6\"/><circle class=\"d\" cx=\"293\" cy=\"177\" r=\"1.6\"/><circle class=\"s\" cx=\"300\" cy=\"120\" r=\"11\"/><circle class=\"d\" cx=\"297\" cy=\"120\" r=\"1.6\"/><circle class=\"d\" cx=\"303\" cy=\"122\" r=\"1.6\"/><circle class=\"f2\" cx=\"90\" cy=\"120\" r=\"9\"/><line class=\"s2\" x1=\"99.0\" y1=\"120.0\" x2=\"112.0\" y2=\"120.0\"/><line class=\"s2\" x1=\"96.4\" y1=\"126.4\" x2=\"105.6\" y2=\"135.6\"/><line class=\"s2\" x1=\"90.0\" y1=\"129.0\" x2=\"90.0\" y2=\"142.0\"/><line class=\"s2\" x1=\"83.6\" y1=\"126.4\" x2=\"74.4\" y2=\"135.6\"/><line class=\"s2\" x1=\"81.0\" y1=\"120.0\" x2=\"68.0\" y2=\"120.0\"/><line class=\"s2\" x1=\"83.6\" y1=\"113.6\" x2=\"74.4\" y2=\"104.4\"/><line class=\"s2\" x1=\"90.0\" y1=\"111.0\" x2=\"90.0\" y2=\"98.0\"/><line class=\"s2\" x1=\"96.4\" y1=\"113.6\" x2=\"105.6\" y2=\"104.4\"/><circle class=\"f2\" cx=\"330\" cy=\"140\" r=\"9\"/><line class=\"s2\" x1=\"339.0\" y1=\"140.0\" x2=\"352.0\" y2=\"140.0\"/><line class=\"s2\" x1=\"336.4\" y1=\"146.4\" x2=\"345.6\" y2=\"155.6\"/><line class=\"s2\" x1=\"330.0\" y1=\"149.0\" x2=\"330.0\" y2=\"162.0\"/><line class=\"s2\" x1=\"323.6\" y1=\"146.4\" x2=\"314.4\" y2=\"155.6\"/><line class=\"s2\" x1=\"321.0\" y1=\"140.0\" x2=\"308.0\" y2=\"140.0\"/><line class=\"s2\" x1=\"323.6\" y1=\"133.6\" x2=\"314.4\" y2=\"124.4\"/><line class=\"s2\" x1=\"330.0\" y1=\"131.0\" x2=\"330.0\" y2=\"118.0\"/><line class=\"s2\" x1=\"336.4\" y1=\"133.6\" x2=\"345.6\" y2=\"124.4\"/><path class=\"s2\" d=\"M80 200 l-14 6\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 360,
+       "y": 110,
+       "lx": 385,
+       "ly": 50,
+       "n": "Rzęski",
+       "d": "ruch i napędzanie pokarmu"
+      },
+      {
+       "x": 200,
+       "y": 125,
+       "lx": 200,
+       "ly": 20,
+       "n": "Makronukleus",
+       "d": "steruje metabolizmem"
+      },
+      {
+       "x": 250,
+       "y": 160,
+       "lx": 300,
+       "ly": 270,
+       "n": "Mikronukleus",
+       "d": "udział w procesie płciowym (koniugacji)"
+      },
+      {
+       "x": 205,
+       "y": 195,
+       "lx": 150,
+       "ly": 280,
+       "n": "Cytostom (gardziel)",
+       "d": "pobieranie pokarmu"
+      },
+      {
+       "x": 290,
+       "y": 175,
+       "lx": 385,
+       "ly": 220,
+       "n": "Wodniczka pokarmowa",
+       "d": "trawienie"
+      },
+      {
+       "x": 90,
+       "y": 120,
+       "lx": 30,
+       "ly": 60,
+       "n": "Wodniczka tętniąca",
+       "d": "usuwanie nadmiaru wody"
+      },
+      {
+       "x": 72,
+       "y": 203,
+       "lx": 20,
+       "ly": 260,
+       "n": "Cytopyge",
+       "d": "usuwanie niestrawionych resztek"
+      }
+     ]
+    },
+    {
+     "id": "s84e185a0",
+     "typ": "rysunek",
+     "tytul": "Budowa klejnotki (eugleny)",
+     "opis": "Klejnotka (euglena) — protist zdolny do auto- i heterotrofii.",
+     "uwaga": "W ciemności euglena traci chlorofil i odżywia się heterotroficznie — to miksotrof.",
+     "svg": "<path class=\"f\" d=\"M60 150 Q90 100 200 98 Q320 100 360 150 Q320 200 200 202 Q90 200 60 150 Z\"/><path class=\"s\" d=\"M70 140 Q50 120 30 130 Q10 140 14 120 Q18 100 4 92\"/><path class=\"s2\" d=\"M64 146 Q78 138 92 146\"/><circle class=\"d\" cx=\"92\" cy=\"136\" r=\"6\"/><circle class=\"s\" cx=\"112\" cy=\"160\" r=\"9\"/><circle class=\"f2\" cx=\"210\" cy=\"150\" r=\"22\"/><circle class=\"d\" cx=\"210\" cy=\"150\" r=\"5\"/><ellipse class=\"f2\" cx=\"150\" cy=\"125\" rx=\"16\" ry=\"6\" transform=\"rotate(15 150 125)\"/><ellipse class=\"f2\" cx=\"160\" cy=\"175\" rx=\"16\" ry=\"6\" transform=\"rotate(15 160 175)\"/><ellipse class=\"f2\" cx=\"260\" cy=\"120\" rx=\"16\" ry=\"6\" transform=\"rotate(15 260 120)\"/><ellipse class=\"f2\" cx=\"280\" cy=\"175\" rx=\"16\" ry=\"6\" transform=\"rotate(15 280 175)\"/><ellipse class=\"f2\" cx=\"310\" cy=\"145\" rx=\"16\" ry=\"6\" transform=\"rotate(15 310 145)\"/><ellipse class=\"f2\" cx=\"240\" cy=\"185\" rx=\"16\" ry=\"6\" transform=\"rotate(15 240 185)\"/><ellipse class=\"f2\" cx=\"180\" cy=\"112\" rx=\"16\" ry=\"6\" transform=\"rotate(15 180 112)\"/><rect class=\"s\" x=\"130\" y=\"145\" width=\"10\" height=\"6\" rx=\"2\"/><rect class=\"s\" x=\"250\" y=\"150\" width=\"10\" height=\"6\" rx=\"2\"/><rect class=\"s\" x=\"290\" y=\"135\" width=\"10\" height=\"6\" rx=\"2\"/><rect class=\"s\" x=\"190\" y=\"182\" width=\"10\" height=\"6\" rx=\"2\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 14,
+       "y": 120,
+       "lx": 30,
+       "ly": 40,
+       "n": "Wić",
+       "d": "ruch"
+      },
+      {
+       "x": 92,
+       "y": 136,
+       "lx": 110,
+       "ly": 50,
+       "n": "Plamka oczna (stigma)",
+       "d": "odbiór kierunku światła"
+      },
+      {
+       "x": 260,
+       "y": 120,
+       "lx": 300,
+       "ly": 40,
+       "n": "Chloroplast",
+       "d": "fotosynteza — odżywianie autotroficzne"
+      },
+      {
+       "x": 210,
+       "y": 150,
+       "lx": 210,
+       "ly": 270,
+       "n": "Jądro komórkowe",
+       "d": ""
+      },
+      {
+       "x": 112,
+       "y": 160,
+       "lx": 60,
+       "ly": 250,
+       "n": "Wodniczka tętniąca",
+       "d": "osmoregulacja"
+      },
+      {
+       "x": 255,
+       "y": 153,
+       "lx": 340,
+       "ly": 260,
+       "n": "Ziarna paramylonu",
+       "d": "materiał zapasowy"
+      },
+      {
+       "x": 340,
+       "y": 140,
+       "lx": 385,
+       "ly": 100,
+       "n": "Pellikula",
+       "d": "elastyczna osłonka białkowa"
       }
      ]
     }

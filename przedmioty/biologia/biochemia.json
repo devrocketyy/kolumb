@@ -5376,6 +5376,67 @@
      "wyjasnienie": "Trzy genomy.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sdeb02dcf",
+     "typ": "rysunek",
+     "tytul": "Fragment cząsteczki DNA",
+     "opis": "Dwie antyrównoległe nici połączone parami komplementarnych zasad.",
+     "uwaga": "Zawartość par G–C podnosi temperaturę topnienia DNA, bo para G–C ma trzy wiązania wodorowe, a A–T — dwa.",
+     "svg": "<polygon class=\"f\" points=\"120,40 132,48 128,60 112,60 108,48\"/><polygon class=\"f\" points=\"280,60 268,52 272,40 288,40 292,52\"/><rect class=\"f2\" x=\"136\" y=\"42\" width=\"58\" height=\"16\" rx=\"3\"/><rect class=\"f2\" x=\"206\" y=\"42\" width=\"58\" height=\"16\" rx=\"3\"/><text class=\"t\" x=\"160\" y=\"54\">A</text><text class=\"t\" x=\"230\" y=\"54\">T</text><line class=\"s\" x1=\"195\" y1=\"44.0\" x2=\"205\" y2=\"44.0\" stroke-dasharray=\"2 2\"/><line class=\"s\" x1=\"195\" y1=\"56.0\" x2=\"205\" y2=\"56.0\" stroke-dasharray=\"2 2\"/><circle class=\"f2\" cx=\"100\" cy=\"75\" r=\"8\"/><text class=\"t\" x=\"96\" y=\"79\">P</text><circle class=\"f2\" cx=\"300\" cy=\"75\" r=\"8\"/><text class=\"t\" x=\"296\" y=\"79\">P</text><path class=\"s\" d=\"M110 60 L104 68 M104 82 L112 90 M290 60 L296 68 M296 82 L288 90\"/><polygon class=\"f\" points=\"120,90 132,98 128,110 112,110 108,98\"/><polygon class=\"f\" points=\"280,110 268,102 272,90 288,90 292,102\"/><rect class=\"f2\" x=\"136\" y=\"92\" width=\"58\" height=\"16\" rx=\"3\"/><rect class=\"f2\" x=\"206\" y=\"92\" width=\"58\" height=\"16\" rx=\"3\"/><text class=\"t\" x=\"160\" y=\"104\">G</text><text class=\"t\" x=\"230\" y=\"104\">C</text><line class=\"s\" x1=\"195\" y1=\"94.0\" x2=\"205\" y2=\"94.0\" stroke-dasharray=\"2 2\"/><line class=\"s\" x1=\"195\" y1=\"100.0\" x2=\"205\" y2=\"100.0\" stroke-dasharray=\"2 2\"/><line class=\"s\" x1=\"195\" y1=\"106.0\" x2=\"205\" y2=\"106.0\" stroke-dasharray=\"2 2\"/><circle class=\"f2\" cx=\"100\" cy=\"125\" r=\"8\"/><text class=\"t\" x=\"96\" y=\"129\">P</text><circle class=\"f2\" cx=\"300\" cy=\"125\" r=\"8\"/><text class=\"t\" x=\"296\" y=\"129\">P</text><path class=\"s\" d=\"M110 110 L104 118 M104 132 L112 140 M290 110 L296 118 M296 132 L288 140\"/><polygon class=\"f\" points=\"120,140 132,148 128,160 112,160 108,148\"/><polygon class=\"f\" points=\"280,160 268,152 272,140 288,140 292,152\"/><rect class=\"f2\" x=\"136\" y=\"142\" width=\"58\" height=\"16\" rx=\"3\"/><rect class=\"f2\" x=\"206\" y=\"142\" width=\"58\" height=\"16\" rx=\"3\"/><text class=\"t\" x=\"160\" y=\"154\">C</text><text class=\"t\" x=\"230\" y=\"154\">G</text><line class=\"s\" x1=\"195\" y1=\"144.0\" x2=\"205\" y2=\"144.0\" stroke-dasharray=\"2 2\"/><line class=\"s\" x1=\"195\" y1=\"150.0\" x2=\"205\" y2=\"150.0\" stroke-dasharray=\"2 2\"/><line class=\"s\" x1=\"195\" y1=\"156.0\" x2=\"205\" y2=\"156.0\" stroke-dasharray=\"2 2\"/><circle class=\"f2\" cx=\"100\" cy=\"175\" r=\"8\"/><text class=\"t\" x=\"96\" y=\"179\">P</text><circle class=\"f2\" cx=\"300\" cy=\"175\" r=\"8\"/><text class=\"t\" x=\"296\" y=\"179\">P</text><path class=\"s\" d=\"M110 160 L104 168 M104 182 L112 190 M290 160 L296 168 M296 182 L288 190\"/><polygon class=\"f\" points=\"120,190 132,198 128,210 112,210 108,198\"/><polygon class=\"f\" points=\"280,210 268,202 272,190 288,190 292,202\"/><rect class=\"f2\" x=\"136\" y=\"192\" width=\"58\" height=\"16\" rx=\"3\"/><rect class=\"f2\" x=\"206\" y=\"192\" width=\"58\" height=\"16\" rx=\"3\"/><text class=\"t\" x=\"160\" y=\"204\">T</text><text class=\"t\" x=\"230\" y=\"204\">A</text><line class=\"s\" x1=\"195\" y1=\"194.0\" x2=\"205\" y2=\"194.0\" stroke-dasharray=\"2 2\"/><line class=\"s\" x1=\"195\" y1=\"206.0\" x2=\"205\" y2=\"206.0\" stroke-dasharray=\"2 2\"/><circle class=\"f2\" cx=\"100\" cy=\"225\" r=\"8\"/><text class=\"t\" x=\"96\" y=\"229\">P</text><circle class=\"f2\" cx=\"300\" cy=\"225\" r=\"8\"/><text class=\"t\" x=\"296\" y=\"229\">P</text><path class=\"s\" d=\"M110 210 L104 218 M104 232 L112 240 M290 210 L296 218 M296 232 L288 240\"/><polygon class=\"f\" points=\"120,240 132,248 128,260 112,260 108,248\"/><polygon class=\"f\" points=\"280,260 268,252 272,240 288,240 292,252\"/><rect class=\"f2\" x=\"136\" y=\"242\" width=\"58\" height=\"16\" rx=\"3\"/><rect class=\"f2\" x=\"206\" y=\"242\" width=\"58\" height=\"16\" rx=\"3\"/><text class=\"t\" x=\"160\" y=\"254\">G</text><text class=\"t\" x=\"230\" y=\"254\">C</text><line class=\"s\" x1=\"195\" y1=\"244.0\" x2=\"205\" y2=\"244.0\" stroke-dasharray=\"2 2\"/><line class=\"s\" x1=\"195\" y1=\"250.0\" x2=\"205\" y2=\"250.0\" stroke-dasharray=\"2 2\"/><line class=\"s\" x1=\"195\" y1=\"256.0\" x2=\"205\" y2=\"256.0\" stroke-dasharray=\"2 2\"/><rect class=\"dash\" x=\"86\" y=\"30\" width=\"112\" height=\"56\" rx=\"6\"/><text class=\"t\" x=\"96\" y=\"22\">5′</text><text class=\"t\" x=\"96\" y=\"290\">3′</text><text class=\"t\" x=\"290\" y=\"22\">3′</text><text class=\"t\" x=\"290\" y=\"290\">5′</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 100,
+       "y": 75,
+       "lx": 30,
+       "ly": 100,
+       "n": "Reszta fosforanowa",
+       "d": ""
+      },
+      {
+       "x": 120,
+       "y": 150,
+       "lx": 30,
+       "ly": 160,
+       "n": "Deoksyryboza",
+       "d": "cukier pięciowęglowy"
+      },
+      {
+       "x": 165,
+       "y": 50,
+       "lx": 160,
+       "ly": 14,
+       "n": "Zasada azotowa",
+       "d": ""
+      },
+      {
+       "x": 200,
+       "y": 100,
+       "lx": 340,
+       "ly": 100,
+       "n": "Wiązania wodorowe (para G–C: 3)",
+       "d": ""
+      },
+      {
+       "x": 200,
+       "y": 200,
+       "lx": 340,
+       "ly": 200,
+       "n": "Wiązania wodorowe (para A–T: 2)",
+       "d": ""
+      },
+      {
+       "x": 90,
+       "y": 34,
+       "lx": 30,
+       "ly": 50,
+       "n": "Nukleotyd",
+       "d": "cukier + fosforan + zasada"
+      }
+     ]
+    }
    ]
   }
  ]
