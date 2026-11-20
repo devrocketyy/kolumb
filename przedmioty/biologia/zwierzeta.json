@@ -1249,6 +1249,91 @@
      "wyjasnienie": "Sygnały chemiczne.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sb3728fa1",
+     "typ": "cykl",
+     "tytul": "Cykl rozwojowy tasiemca uzbrojonego",
+     "opis": "",
+     "uwaga": "Jeśli człowiek połknie jaja tasiemca uzbrojonego, sam staje się żywicielem pośrednim — wągry mogą powstać np. w mózgu (wągrzyca).",
+     "kroki": [
+      {
+       "t": "Tasiemiec w jelicie człowieka",
+       "d": "żywiciel ostateczny"
+      },
+      {
+       "t": "Człony z jajami wydalane z kałem"
+      },
+      {
+       "t": "Zjedzenie jaj przez świnię"
+      },
+      {
+       "t": "Onkosfera przechodzi do krwi"
+      },
+      {
+       "t": "Wągier w mięśniach świni",
+       "d": "żywiciel pośredni"
+      },
+      {
+       "t": "Zjedzenie surowego lub niedogotowanego mięsa przez człowieka"
+      }
+     ]
+    },
+    {
+     "id": "s0f240525",
+     "typ": "cykl",
+     "tytul": "Cykl rozwojowy glisty ludzkiej",
+     "opis": "",
+     "uwaga": "Glista ma jednego żywiciela — człowieka; profilaktyka to mycie rąk i warzyw.",
+     "kroki": [
+      {
+       "t": "Jaja w kale człowieka"
+      },
+      {
+       "t": "Dojrzewanie jaj w glebie"
+      },
+      {
+       "t": "Połknięcie jaj z niemytymi warzywami"
+      },
+      {
+       "t": "Larwy w jelicie przechodzą do krwi"
+      },
+      {
+       "t": "Wędrówka przez wątrobę i płuca"
+      },
+      {
+       "t": "Odkrztuszenie i połknięcie larw"
+      },
+      {
+       "t": "Dojrzałe glisty w jelicie cienkim"
+      }
+     ]
+    },
+    {
+     "id": "s16586e79",
+     "typ": "proces",
+     "tytul": "Przeobrażenie zupełne owada",
+     "opis": "",
+     "uwaga": "Przeobrażenie zupełne mają m.in. motyle, chrząszcze, muchówki i błonkówki; niezupełne — ważki, prostoskrzydłe, pluskwiaki.",
+     "kroki": [
+      {
+       "t": "Jajo"
+      },
+      {
+       "t": "Larwa",
+       "d": "odżywianie i wzrost, linienie"
+      },
+      {
+       "t": "Poczwarka",
+       "d": "przebudowa ciała"
+      },
+      {
+       "t": "Postać dorosła (imago)",
+       "d": "rozmnażanie"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2008,6 +2093,39 @@
      "poprawna": "C",
      "wyjasnienie": "Pęcherz płucopodobny.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s98a98a54",
+     "typ": "proces",
+     "tytul": "Rozwój żaby",
+     "opis": "",
+     "uwaga": "Przeobrażenie płazów jest sterowane hormonami tarczycy.",
+     "kroki": [
+      {
+       "t": "Skrzek — jaja w wodzie"
+      },
+      {
+       "t": "Kijanka ze skrzelami zewnętrznymi"
+      },
+      {
+       "t": "Kijanka ze skrzelami wewnętrznymi"
+      },
+      {
+       "t": "Wykształcenie kończyn tylnych"
+      },
+      {
+       "t": "Wykształcenie kończyn przednich, rozwój płuc"
+      },
+      {
+       "t": "Zanik ogona",
+       "d": "pod wpływem tyroksyny"
+      },
+      {
+       "t": "Dorosła żaba"
+      }
+     ]
     }
    ]
   }

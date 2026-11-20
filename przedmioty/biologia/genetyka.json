@@ -660,6 +660,38 @@
      "wyjasnienie": "Mała liczebność.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sd405ec74",
+     "typ": "proces",
+     "tytul": "Rozwiązywanie zadania z krzyżówką",
+     "opis": "",
+     "uwaga": "Zawsze sprawdź, o co pyta polecenie: o genotyp, fenotyp, prawdopodobieństwo czy stosunek liczbowy.",
+     "kroki": [
+      {
+       "t": "Ustal, które allele są dominujące"
+      },
+      {
+       "t": "Wprowadź oznaczenia alleli"
+      },
+      {
+       "t": "Zapisz genotypy rodziców"
+      },
+      {
+       "t": "Wypisz możliwe gamety"
+      },
+      {
+       "t": "Narysuj szachownicę Punnetta"
+      },
+      {
+       "t": "Odczytaj genotypy i fenotypy potomstwa"
+      },
+      {
+       "t": "Podaj stosunek lub prawdopodobieństwo"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1377,6 +1409,36 @@
      "poprawna": "B",
      "wyjasnienie": "Niedoszacowanie odległości.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s03e52836",
+     "typ": "proces",
+     "tytul": "Crossing-over",
+     "opis": "",
+     "uwaga": "Im dalej od siebie leżą geny, tym częściej zachodzi między nimi crossing-over — 1% rekombinantów = 1 cM.",
+     "kroki": [
+      {
+       "t": "Koniugacja chromosomów homologicznych w profazie I"
+      },
+      {
+       "t": "Powstanie biwalentu (tetrady)"
+      },
+      {
+       "t": "Pęknięcie chromatyd niesiostrzanych w tym samym miejscu"
+      },
+      {
+       "t": "Wymiana odcinków"
+      },
+      {
+       "t": "Chiazma — miejsce wymiany"
+      },
+      {
+       "t": "Chromatydy z nowymi układami alleli",
+       "d": "gamety rekombinowane"
+      }
+     ]
     }
    ]
   },
@@ -2234,6 +2296,39 @@
      "wyjasnienie": "Konwencja.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s5851397f",
+     "typ": "proces",
+     "tytul": "Analiza rodowodu — kolejność rozumowania",
+     "opis": "",
+     "uwaga": "Do wykluczenia sposobu dziedziczenia wystarczy jeden przypadek, który mu przeczy — wskaż go w uzasadnieniu.",
+     "kroki": [
+      {
+       "t": "Czy chore dziecko ma zdrowych rodziców?",
+       "d": "tak → cecha recesywna"
+      },
+      {
+       "t": "Czy chorzy są w każdym pokoleniu?",
+       "d": "sugeruje dominację"
+      },
+      {
+       "t": "Czy chorują głównie mężczyźni?",
+       "d": "sugeruje sprzężenie z X"
+      },
+      {
+       "t": "Czy chora córka ma zdrowego ojca albo chora matka — zdrowego syna?",
+       "d": "tak → wyklucza recesywne sprzężenie z X"
+      },
+      {
+       "t": "Ustal genotypy osób pewnych"
+      },
+      {
+       "t": "Oblicz prawdopodobieństwo dla wskazanej osoby"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2771,6 +2866,33 @@
      "poprawna": "A",
      "wyjasnienie": "Rakotwórczy.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s4f73fdda",
+     "typ": "proces",
+     "tytul": "Nondysjunkcja — powstawanie trisomii",
+     "opis": "",
+     "uwaga": "Ryzyko nondysjunkcji rośnie z wiekiem matki — oocyty są długo zatrzymane w profazie I.",
+     "kroki": [
+      {
+       "t": "Mejoza u rodzica"
+      },
+      {
+       "t": "Nierozejście się chromosomów homologicznych w anafazie I lub chromatyd w anafazie II"
+      },
+      {
+       "t": "Gameta z dodatkowym chromosomem (n + 1)"
+      },
+      {
+       "t": "Zapłodnienie przez prawidłową gametę (n)"
+      },
+      {
+       "t": "Zygota z trisomią (2n + 1)",
+       "d": "np. zespół Downa"
+      }
+     ]
     }
    ]
   },

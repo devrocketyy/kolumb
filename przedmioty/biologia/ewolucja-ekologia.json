@@ -854,6 +854,35 @@
      "wyjasnienie": "Twarde nasiona.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sc58a433f",
+     "typ": "proces",
+     "tytul": "Dobór naturalny według Darwina",
+     "opis": "",
+     "uwaga": "Dobór działa na fenotypy, a zmienia częstość alleli w populacji. Osobnik nie ewoluuje — ewoluuje populacja.",
+     "kroki": [
+      {
+       "t": "Nadprodukcja potomstwa"
+      },
+      {
+       "t": "Zmienność osobników"
+      },
+      {
+       "t": "Walka o byt — ograniczone zasoby"
+      },
+      {
+       "t": "Przeżywają osobniki lepiej przystosowane"
+      },
+      {
+       "t": "Przekazanie korzystnych cech potomstwu"
+      },
+      {
+       "t": "Zmiana częstości cech w populacji"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1899,6 +1928,36 @@
      "poprawna": "C",
      "wyjasnienie": "Reguła Bergmanna i Allena.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "sd68cca11",
+     "typ": "proces",
+     "tytul": "Specjacja allopatryczna",
+     "opis": "",
+     "uwaga": "O powstaniu nowego gatunku świadczy izolacja rozrodcza, a nie same różnice w wyglądzie.",
+     "kroki": [
+      {
+       "t": "Jedna populacja wyjściowa"
+      },
+      {
+       "t": "Powstanie bariery geograficznej",
+       "d": "np. rzeka, góry, morze"
+      },
+      {
+       "t": "Brak przepływu genów"
+      },
+      {
+       "t": "Różne mutacje, dryf i dobór w obu populacjach"
+      },
+      {
+       "t": "Narastanie różnic genetycznych"
+      },
+      {
+       "t": "Izolacja rozrodcza — dwa gatunki"
+      }
+     ]
     }
    ]
   },
@@ -3256,6 +3315,33 @@
      "wyjasnienie": "Zmienna.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s7e363dfa",
+     "typ": "proces",
+     "tytul": "Wzrost logistyczny populacji",
+     "opis": "",
+     "uwaga": "Krzywa wzrostu logistycznego ma kształt litery S, wykładniczego — litery J.",
+     "kroki": [
+      {
+       "t": "Mała liczebność — wolny wzrost"
+      },
+      {
+       "t": "Faza wykładnicza — szybki wzrost"
+      },
+      {
+       "t": "Narastanie oporu środowiska",
+       "d": "konkurencja, choroby"
+      },
+      {
+       "t": "Spowolnienie wzrostu"
+      },
+      {
+       "t": "Stabilizacja przy pojemności środowiska (K)"
+      }
+     ]
+    }
    ]
   },
   {
@@ -4073,6 +4159,123 @@
      "wyjasnienie": "Retencja.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sdd838c7f",
+     "typ": "cykl",
+     "tytul": "Obieg węgla",
+     "opis": "",
+     "uwaga": "Paliwa kopalne to węgiel wyłączony z obiegu na miliony lat — ich spalanie zwiększa stężenie CO₂.",
+     "kroki": [
+      {
+       "t": "CO₂ w atmosferze"
+      },
+      {
+       "t": "Fotosynteza producentów"
+      },
+      {
+       "t": "Związki organiczne w łańcuchach pokarmowych"
+      },
+      {
+       "t": "Oddychanie organizmów"
+      },
+      {
+       "t": "Rozkład martwej materii przez destruentów"
+      },
+      {
+       "t": "Spalanie paliw kopalnych",
+       "d": "działalność człowieka"
+      }
+     ]
+    },
+    {
+     "id": "s41ba3be3",
+     "typ": "cykl",
+     "tytul": "Obieg azotu",
+     "opis": "",
+     "uwaga": "Rośliny nie wiążą N₂ samodzielnie — pobierają jony NH₄⁺ i NO₃⁻ z gleby.",
+     "kroki": [
+      {
+       "t": "N₂ w atmosferze"
+      },
+      {
+       "t": "Wiązanie azotu",
+       "d": "bakterie brodawkowe, sinice"
+      },
+      {
+       "t": "Amonifikacja",
+       "d": "rozkład białek do NH₃"
+      },
+      {
+       "t": "Nitryfikacja",
+       "d": "NH₄⁺ → NO₂⁻ → NO₃⁻"
+      },
+      {
+       "t": "Pobieranie azotanów przez rośliny"
+      },
+      {
+       "t": "Denitryfikacja",
+       "d": "NO₃⁻ → N₂"
+      }
+     ]
+    },
+    {
+     "id": "sf51f85ca",
+     "typ": "proces",
+     "tytul": "Sukcesja pierwotna",
+     "opis": "",
+     "uwaga": "Sukcesja pierwotna zaczyna się bez gleby, wtórna — na podłożu z glebą (np. porzucone pole, pogorzelisko).",
+     "kroki": [
+      {
+       "t": "Naga skała"
+      },
+      {
+       "t": "Porosty",
+       "d": "organizmy pionierskie"
+      },
+      {
+       "t": "Mchy"
+      },
+      {
+       "t": "Rośliny zielne"
+      },
+      {
+       "t": "Krzewy"
+      },
+      {
+       "t": "Las — zbiorowisko klimaksowe"
+      }
+     ]
+    },
+    {
+     "id": "s5678edaf",
+     "typ": "proces",
+     "tytul": "Eutrofizacja jeziora",
+     "opis": "",
+     "uwaga": "W eutrofizacji tlenu brakuje nie z powodu glonów, ale przez bakterie rozkładające ich martwe szczątki.",
+     "kroki": [
+      {
+       "t": "Spływ nawozów i ścieków",
+       "d": "azot i fosfor"
+      },
+      {
+       "t": "Zakwit glonów i sinic"
+      },
+      {
+       "t": "Zacienienie i zamieranie roślin dna"
+      },
+      {
+       "t": "Rozkład martwej materii przez bakterie"
+      },
+      {
+       "t": "Spadek stężenia tlenu w wodzie"
+      },
+      {
+       "t": "Śnięcie ryb, procesy beztlenowe"
+      }
+     ]
+    }
    ]
   },
   {
@@ -4753,6 +4956,33 @@
      "poprawna": "C",
      "wyjasnienie": "Ok. 20% światowej populacji.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s85f5d0f9",
+     "typ": "proces",
+     "tytul": "Reintrodukcja gatunku",
+     "opis": "",
+     "uwaga": "Reintrodukcja ma sens tylko wtedy, gdy usunięto przyczynę wymarcia — inaczej populacja ponownie zginie.",
+     "kroki": [
+      {
+       "t": "Ustalenie przyczyn wymarcia i ich usunięcie"
+      },
+      {
+       "t": "Hodowla zachowawcza w niewoli"
+      },
+      {
+       "t": "Wybór i przygotowanie siedliska"
+      },
+      {
+       "t": "Wypuszczenie osobników",
+       "d": "często stopniowo, z adaptacją"
+      },
+      {
+       "t": "Monitorowanie populacji"
+      }
+     ]
     }
    ]
   }

@@ -675,6 +675,94 @@
      "wyjasnienie": "Od zwierząt.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sf5c9f134",
+     "typ": "proces",
+     "tytul": "Cykl lityczny bakteriofaga",
+     "opis": "",
+     "uwaga": "Bakteriofagi wykorzystuje się w terapii fagowej przeciw bakteriom opornym na antybiotyki.",
+     "kroki": [
+      {
+       "t": "Adsorpcja",
+       "d": "przyczepienie do receptorów bakterii"
+      },
+      {
+       "t": "Wstrzyknięcie DNA faga"
+      },
+      {
+       "t": "Rozkład DNA bakterii"
+      },
+      {
+       "t": "Replikacja DNA faga i synteza białek kapsydu"
+      },
+      {
+       "t": "Składanie nowych wirionów"
+      },
+      {
+       "t": "Liza komórki i uwolnienie fagów"
+      }
+     ]
+    },
+    {
+     "id": "seae6feb2",
+     "typ": "proces",
+     "tytul": "Cykl lizogeniczny bakteriofaga",
+     "opis": "",
+     "uwaga": "W cyklu lizogenicznym bakteria nie ginie — przekazuje profag komórkom potomnym.",
+     "kroki": [
+      {
+       "t": "Adsorpcja i wstrzyknięcie DNA faga"
+      },
+      {
+       "t": "Włączenie DNA faga do chromosomu bakterii",
+       "d": "profag"
+      },
+      {
+       "t": "Podziały bakterii z kopiowaniem profagu"
+      },
+      {
+       "t": "Czynnik stresowy, np. promieniowanie UV"
+      },
+      {
+       "t": "Wycięcie profagu"
+      },
+      {
+       "t": "Przejście w cykl lityczny"
+      }
+     ]
+    },
+    {
+     "id": "s7bece44e",
+     "typ": "proces",
+     "tytul": "Namnażanie HIV",
+     "opis": "",
+     "uwaga": "Leki przeciw HIV hamują m.in. odwrotną transkryptazę, integrazę i proteazę wirusa.",
+     "kroki": [
+      {
+       "t": "Przyłączenie do receptora CD4 limfocytu Th"
+      },
+      {
+       "t": "Fuzja osłonki z błoną i wniknięcie kapsydu"
+      },
+      {
+       "t": "Odwrotna transkrypcja",
+       "d": "RNA wirusa → DNA"
+      },
+      {
+       "t": "Integracja DNA wirusa z genomem gospodarza",
+       "d": "integraza"
+      },
+      {
+       "t": "Transkrypcja i translacja białek wirusa"
+      },
+      {
+       "t": "Składanie wirionów i pączkowanie",
+       "d": "otoczka z błony komórki"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1424,6 +1512,64 @@
      "poprawna": "D",
      "wyjasnienie": "Jad kiełbasiany.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s837eead6",
+     "typ": "proces",
+     "tytul": "Barwienie metodą Grama",
+     "opis": "",
+     "uwaga": "Gruba warstwa mureiny Gram-dodatnich zatrzymuje fiolet — one pozostają fioletowe.",
+     "kroki": [
+      {
+       "t": "Utrwalenie bakterii na szkiełku"
+      },
+      {
+       "t": "Fiolet krystaliczny",
+       "d": "wszystkie komórki fioletowe"
+      },
+      {
+       "t": "Płyn Lugola",
+       "d": "utrwala barwnik"
+      },
+      {
+       "t": "Odbarwienie alkoholem",
+       "d": "Gram-ujemne tracą fiolet"
+      },
+      {
+       "t": "Barwienie safraniną lub fuksyną",
+       "d": "Gram-ujemne — różowe"
+      }
+     ]
+    },
+    {
+     "id": "s9fe3771b",
+     "typ": "proces",
+     "tytul": "Powstawanie oporności bakterii na antybiotyk",
+     "opis": "",
+     "uwaga": "Antybiotyk nie wywołuje mutacji — selekcjonuje bakterie, które już były oporne.",
+     "kroki": [
+      {
+       "t": "Populacja bakterii — część z mutacją oporności"
+      },
+      {
+       "t": "Kontakt z antybiotykiem"
+      },
+      {
+       "t": "Śmierć bakterii wrażliwych"
+      },
+      {
+       "t": "Przeżycie i namnażanie bakterii opornych"
+      },
+      {
+       "t": "Przekazywanie genów oporności",
+       "d": "także koniugacja plazmidów"
+      },
+      {
+       "t": "Populacja w większości oporna"
+      }
+     ]
     }
    ]
   },
@@ -2187,6 +2333,40 @@
      "wyjasnienie": "Plecha.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sb1ce857c",
+     "typ": "cykl",
+     "tytul": "Cykl rozwojowy zarodźca malarii",
+     "opis": "",
+     "uwaga": "Żywicielem ostatecznym jest komar (rozmnażanie płciowe), człowiek — żywicielem pośrednim.",
+     "kroki": [
+      {
+       "t": "Ukłucie przez samicę widliszka",
+       "d": "sporozoity do krwi"
+      },
+      {
+       "t": "Namnażanie w komórkach wątroby"
+      },
+      {
+       "t": "Wniknięcie merozoitów do erytrocytów"
+      },
+      {
+       "t": "Rozpad erytrocytów — napady gorączki"
+      },
+      {
+       "t": "Powstawanie gametocytów we krwi"
+      },
+      {
+       "t": "Pobranie gametocytów przez komara"
+      },
+      {
+       "t": "Rozmnażanie płciowe w komarze",
+       "d": "żywiciel ostateczny"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2800,6 +2980,39 @@
      "poprawna": "C",
      "wyjasnienie": "Pobieranie soli.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "sd2fab252",
+     "typ": "cykl",
+     "tytul": "Cykl rozwojowy grzyba podstawkowego",
+     "opis": "",
+     "uwaga": "U grzybów plazmogamia i kariogamia są rozdzielone w czasie — przez długi czas grzybnia ma po dwa jądra w komórce.",
+     "kroki": [
+      {
+       "t": "Zarodnik (n)"
+      },
+      {
+       "t": "Grzybnia pierwotna (n)"
+      },
+      {
+       "t": "Połączenie dwóch grzybni — plazmogamia"
+      },
+      {
+       "t": "Grzybnia wtórna dwujądrowa (n + n)"
+      },
+      {
+       "t": "Owocnik"
+      },
+      {
+       "t": "Kariogamia w podstawce",
+       "d": "jądro 2n"
+      },
+      {
+       "t": "Mejoza i powstanie zarodników podstawkowych"
+      }
+     ]
     }
    ]
   }

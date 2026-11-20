@@ -795,6 +795,136 @@
      "wyjasnienie": "Np. trawy.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s947e4684",
+     "typ": "cykl",
+     "tytul": "Cykl rozwojowy mchu",
+     "opis": "",
+     "uwaga": "U mchów dominuje gametofit, a sporofit jest od niego zależny. Do zapłodnienia potrzebna jest woda.",
+     "kroki": [
+      {
+       "t": "Zarodnik (n)"
+      },
+      {
+       "t": "Splątek"
+      },
+      {
+       "t": "Gametofit — ulistniona łodyżka (n)",
+       "d": "pokolenie dominujące"
+      },
+      {
+       "t": "Plemnie i rodnie — gamety"
+      },
+      {
+       "t": "Zapłodnienie w wodzie",
+       "d": "zygota 2n"
+      },
+      {
+       "t": "Sporofit — seta z puszką (2n)",
+       "d": "żyje na gametoficie"
+      },
+      {
+       "t": "Mejoza w puszce zarodni"
+      }
+     ]
+    },
+    {
+     "id": "s915ee802",
+     "typ": "cykl",
+     "tytul": "Cykl rozwojowy paproci",
+     "opis": "",
+     "uwaga": "U paproci oba pokolenia są samodzielne, ale dominuje sporofit.",
+     "kroki": [
+      {
+       "t": "Sporofit — roślina z liśćmi (2n)",
+       "d": "pokolenie dominujące"
+      },
+      {
+       "t": "Mejoza w zarodniach na spodzie liści"
+      },
+      {
+       "t": "Zarodnik (n)"
+      },
+      {
+       "t": "Przedrośle — gametofit (n)"
+      },
+      {
+       "t": "Plemnie i rodnie na przedroślu"
+      },
+      {
+       "t": "Zapłodnienie w wodzie"
+      },
+      {
+       "t": "Zygota i młody sporofit"
+      }
+     ]
+    },
+    {
+     "id": "s6cbf8993",
+     "typ": "cykl",
+     "tytul": "Cykl rozwojowy rośliny okrytonasiennej",
+     "opis": "",
+     "uwaga": "Gametofity okrytonasiennych są skrajnie zredukowane: ziarno pyłku ma 2–3 komórki, woreczek zalążkowy — zwykle 7 komórek.",
+     "kroki": [
+      {
+       "t": "Sporofit — roślina kwiatowa (2n)"
+      },
+      {
+       "t": "Mejoza w pylnikach i zalążkach"
+      },
+      {
+       "t": "Ziarno pyłku (gametofit męski)"
+      },
+      {
+       "t": "Woreczek zalążkowy (gametofit żeński)"
+      },
+      {
+       "t": "Zapylenie"
+      },
+      {
+       "t": "Podwójne zapłodnienie"
+      },
+      {
+       "t": "Nasienie z zarodkiem w owocu"
+      },
+      {
+       "t": "Kiełkowanie"
+      }
+     ]
+    },
+    {
+     "id": "s46c5e75e",
+     "typ": "cykl",
+     "tytul": "Cykl rozwojowy sosny",
+     "opis": "",
+     "uwaga": "Nagonasienne nie mają owoców — zalążki leżą odkryte na łuskach szyszek.",
+     "kroki": [
+      {
+       "t": "Sporofit — drzewo (2n)"
+      },
+      {
+       "t": "Szyszki męskie — mikrospory i ziarna pyłku"
+      },
+      {
+       "t": "Szyszki żeńskie — zalążki na łuskach"
+      },
+      {
+       "t": "Zapylenie przez wiatr"
+      },
+      {
+       "t": "Zapłodnienie",
+       "d": "ok. rok po zapyleniu"
+      },
+      {
+       "t": "Nasiono ze skrzydełkiem"
+      },
+      {
+       "t": "Kiełkowanie"
+      }
+     ]
+    }
    ]
   },
   {
@@ -3521,6 +3651,70 @@
      "wyjasnienie": "Kontrola selekcji jonów.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s23db5e9d",
+     "typ": "proces",
+     "tytul": "Transport wody w roślinie",
+     "opis": "",
+     "uwaga": "Pasemka Caspary’ego zatrzymują drogę apoplastyczną — woda musi przejść przez błony komórek śródskórni.",
+     "kroki": [
+      {
+       "t": "Pobieranie wody przez włośniki",
+       "d": "osmoza"
+      },
+      {
+       "t": "Przechodzenie przez korę korzenia",
+       "d": "apoplast i symplast"
+      },
+      {
+       "t": "Śródskórnia z pasemkami Caspary’ego",
+       "d": "kontrola przepływu"
+      },
+      {
+       "t": "Naczynia i cewki drewna"
+      },
+      {
+       "t": "Transport w górę łodygi",
+       "d": "siła ssąca transpiracji, kohezja, parcie korzeniowe"
+      },
+      {
+       "t": "Miękisz liścia"
+      },
+      {
+       "t": "Parowanie przez aparaty szparkowe"
+      }
+     ]
+    },
+    {
+     "id": "s67b95969",
+     "typ": "proces",
+     "tytul": "Otwieranie aparatu szparkowego",
+     "opis": "",
+     "uwaga": "Kwas abscysynowy (ABA) przy niedoborze wody powoduje zamykanie aparatów szparkowych.",
+     "kroki": [
+      {
+       "t": "Światło pobudza pompy protonowe komórek szparkowych"
+      },
+      {
+       "t": "Aktywny napływ K⁺ do komórek szparkowych"
+      },
+      {
+       "t": "Spadek potencjału wody w komórkach"
+      },
+      {
+       "t": "Napływ wody — wzrost turgoru"
+      },
+      {
+       "t": "Wygięcie komórek szparkowych",
+       "d": "cieńsze ściany zewnętrzne rozciągają się"
+      },
+      {
+       "t": "Otwarcie szparki"
+      }
+     ]
+    }
    ]
   },
   {
@@ -4016,6 +4210,36 @@
      "poprawna": "D",
      "wyjasnienie": "Anatomia Kranz.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s1845bd83",
+     "typ": "proces",
+     "tytul": "Transport asymilatów (hipoteza przepływu masowego)",
+     "opis": "",
+     "uwaga": "Łyko transportuje w obu kierunkach — od źródła do miejsca wykorzystania lub magazynowania.",
+     "kroki": [
+      {
+       "t": "Synteza sacharozy w liściu (źródło)"
+      },
+      {
+       "t": "Aktywny załadunek sacharozy do rurek sitowych"
+      },
+      {
+       "t": "Napływ wody z drewna — wzrost ciśnienia"
+      },
+      {
+       "t": "Przepływ roztworu łykiem"
+      },
+      {
+       "t": "Rozładunek w organach odbierających",
+       "d": "korzenie, owoce, bulwy"
+      },
+      {
+       "t": "Odpływ wody do drewna"
+      }
+     ]
     }
    ]
   },
@@ -4882,6 +5106,90 @@
      "wyjasnienie": "Skrzydlaki.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s50b9e8a8",
+     "typ": "proces",
+     "tytul": "Podwójne zapłodnienie",
+     "opis": "",
+     "uwaga": "Podwójne zapłodnienie występuje tylko u roślin okrytonasiennych.",
+     "kroki": [
+      {
+       "t": "Zapylenie — pyłek na znamieniu słupka"
+      },
+      {
+       "t": "Kiełkowanie łagiewki pyłkowej"
+      },
+      {
+       "t": "Wzrost łagiewki przez szyjkę słupka"
+      },
+      {
+       "t": "Wniknięcie do zalążka przez okienko"
+      },
+      {
+       "t": "Komórka plemnikowa + komórka jajowa → zygota (2n)"
+      },
+      {
+       "t": "Komórka plemnikowa + komórka centralna → bielmo (3n)"
+      }
+     ]
+    },
+    {
+     "id": "safeccf99",
+     "typ": "proces",
+     "tytul": "Powstawanie nasienia i owocu",
+     "opis": "",
+     "uwaga": "Owoc powstaje ze ściany zalążni, a nasienie — z zalążka.",
+     "kroki": [
+      {
+       "t": "Zapłodnienie w zalążku"
+      },
+      {
+       "t": "Zygota → zarodek"
+      },
+      {
+       "t": "Komórka centralna → bielmo"
+      },
+      {
+       "t": "Osłonki zalążka → łupina nasienna"
+      },
+      {
+       "t": "Zalążek → nasienie"
+      },
+      {
+       "t": "Zalążnia → owoc"
+      }
+     ]
+    },
+    {
+     "id": "s0133b453",
+     "typ": "proces",
+     "tytul": "Kiełkowanie nasienia",
+     "opis": "",
+     "uwaga": "Do kiełkowania potrzebne są woda, tlen i odpowiednia temperatura; części nasion potrzebne jest też światło.",
+     "kroki": [
+      {
+       "t": "Pęcznienie — pobranie wody"
+      },
+      {
+       "t": "Aktywacja enzymów",
+       "d": "gibereliny pobudzają amylazy"
+      },
+      {
+       "t": "Rozkład materiałów zapasowych"
+      },
+      {
+       "t": "Wydostanie się korzenia zarodkowego"
+      },
+      {
+       "t": "Wzrost hipokotylu i wydostanie się pędu"
+      },
+      {
+       "t": "Rozpoczęcie fotosyntezy"
+      }
+     ]
+    }
    ]
   },
   {
@@ -5674,6 +5982,32 @@
      "poprawna": "D",
      "wyjasnienie": "Dominacja wierzchołkowa.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s4e35fb32",
+     "typ": "proces",
+     "tytul": "Fototropizm dodatni pędu",
+     "opis": "",
+     "uwaga": "Klasyczne doświadczenia z koleoptylami (Darwin, Went) wykazały, że bodziec odbiera wierzchołek, a reaguje strefa poniżej.",
+     "kroki": [
+      {
+       "t": "Jednostronne oświetlenie wierzchołka"
+      },
+      {
+       "t": "Przemieszczenie auksyny na stronę zacienioną"
+      },
+      {
+       "t": "Wyższe stężenie auksyny po stronie zacienionej"
+      },
+      {
+       "t": "Silniejsze wydłużanie komórek po stronie zacienionej"
+      },
+      {
+       "t": "Wygięcie pędu w stronę światła"
+      }
+     ]
     }
    ]
   }

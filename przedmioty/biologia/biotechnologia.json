@@ -1032,6 +1032,144 @@
      "wyjasnienie": "Szczątki kopalne.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s6a111e33",
+     "typ": "cykl",
+     "tytul": "Cykl PCR",
+     "opis": "",
+     "uwaga": "Po n cyklach powstaje do 2ⁿ kopii fragmentu. Polimeraza Taq pochodzi z bakterii z gorących źródeł — nie ulega denaturacji.",
+     "kroki": [
+      {
+       "t": "Denaturacja",
+       "d": "ok. 95°C — rozdzielenie nici"
+      },
+      {
+       "t": "Przyłączenie starterów",
+       "d": "ok. 50–65°C"
+      },
+      {
+       "t": "Wydłużanie",
+       "d": "ok. 72°C — polimeraza Taq"
+      },
+      {
+       "t": "Podwojenie liczby kopii"
+      }
+     ]
+    },
+    {
+     "id": "s95092002",
+     "typ": "proces",
+     "tytul": "Klonowanie genu w bakteriach",
+     "opis": "",
+     "uwaga": "Ta sama restryktaza daje komplementarne lepkie końce — dzięki temu gen i plazmid mogą się połączyć.",
+     "kroki": [
+      {
+       "t": "Wycięcie genu restryktazą"
+      },
+      {
+       "t": "Przecięcie plazmidu tą samą restryktazą",
+       "d": "lepkie końce"
+      },
+      {
+       "t": "Połączenie genu z plazmidem ligazą"
+      },
+      {
+       "t": "Transformacja bakterii"
+      },
+      {
+       "t": "Selekcja na pożywce z antybiotykiem",
+       "d": "gen oporności w plazmidzie"
+      },
+      {
+       "t": "Namnażanie bakterii i ekspresja genu"
+      }
+     ]
+    },
+    {
+     "id": "s4881d19c",
+     "typ": "proces",
+     "tytul": "Elektroforeza DNA",
+     "opis": "",
+     "uwaga": "DNA ma ładunek ujemny dzięki resztom fosforanowym — dlatego wędruje do anody (+).",
+     "kroki": [
+      {
+       "t": "Cięcie DNA restryktazami"
+      },
+      {
+       "t": "Nałożenie próbek do studzienek w żelu"
+      },
+      {
+       "t": "Włączenie prądu",
+       "d": "DNA wędruje do bieguna dodatniego"
+      },
+      {
+       "t": "Rozdział fragmentów według długości",
+       "d": "krótsze szybciej"
+      },
+      {
+       "t": "Wybarwienie i odczyt prążków",
+       "d": "porównanie ze wzorcem"
+      }
+     ]
+    },
+    {
+     "id": "see499aa3",
+     "typ": "proces",
+     "tytul": "Klonowanie owcy Dolly",
+     "opis": "",
+     "uwaga": "Klon jest genetycznie identyczny z dawcą jądra — z wyjątkiem DNA mitochondrialnego, pochodzącego z komórki jajowej.",
+     "kroki": [
+      {
+       "t": "Pobranie komórki somatycznej z wymienia owcy A"
+      },
+      {
+       "t": "Pobranie komórki jajowej owcy B"
+      },
+      {
+       "t": "Usunięcie jądra z komórki jajowej"
+      },
+      {
+       "t": "Połączenie jądra komórki somatycznej z komórką jajową",
+       "d": "impuls elektryczny"
+      },
+      {
+       "t": "Rozwój zarodka in vitro"
+      },
+      {
+       "t": "Wszczepienie zarodka matce zastępczej C"
+      },
+      {
+       "t": "Narodziny klonu owcy A"
+      }
+     ]
+    },
+    {
+     "id": "s193aa130",
+     "typ": "proces",
+     "tytul": "Edycja genu metodą CRISPR-Cas9",
+     "opis": "",
+     "uwaga": "CRISPR pochodzi z układu odpornościowego bakterii, który niszczy DNA bakteriofagów.",
+     "kroki": [
+      {
+       "t": "Zaprojektowanie RNA prowadzącego (gRNA)"
+      },
+      {
+       "t": "Połączenie gRNA z białkiem Cas9"
+      },
+      {
+       "t": "Rozpoznanie docelowej sekwencji DNA"
+      },
+      {
+       "t": "Przecięcie obu nici DNA"
+      },
+      {
+       "t": "Naprawa DNA przez komórkę",
+       "d": "wyłączenie genu lub wstawienie nowej sekwencji"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1495,6 +1633,35 @@
      "wyjasnienie": "Precyzyjna zmiana.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "scd0ccc67",
+     "typ": "proces",
+     "tytul": "Otrzymywanie rośliny transgenicznej",
+     "opis": "",
+     "uwaga": "Komórki roślinne są totipotentne — z jednej komórki można odtworzyć całą roślinę.",
+     "kroki": [
+      {
+       "t": "Wybór genu o pożądanej cesze"
+      },
+      {
+       "t": "Wstawienie genu do plazmidu Ti bakterii Agrobacterium"
+      },
+      {
+       "t": "Zakażenie komórek roślinnych bakterią"
+      },
+      {
+       "t": "Selekcja komórek, które przyjęły gen"
+      },
+      {
+       "t": "Hodowla tkankowa — regeneracja całej rośliny"
+      },
+      {
+       "t": "Sprawdzenie ekspresji genu i badania bezpieczeństwa"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1882,6 +2049,60 @@
      "poprawna": "A",
      "wyjasnienie": "Wytwarzane przez komórki.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s97d0d036",
+     "typ": "proces",
+     "tytul": "Produkcja insuliny przez bakterie",
+     "opis": "",
+     "uwaga": "Bakterie nie mają splicingu — dlatego wprowadza się cDNA, a nie gen z intronami.",
+     "kroki": [
+      {
+       "t": "Wyizolowanie mRNA insuliny z komórek trzustki"
+      },
+      {
+       "t": "Odwrotna transkrypcja — cDNA bez intronów"
+      },
+      {
+       "t": "Wstawienie cDNA do plazmidu"
+      },
+      {
+       "t": "Transformacja bakterii E. coli"
+      },
+      {
+       "t": "Hodowla bakterii w bioreaktorze"
+      },
+      {
+       "t": "Oczyszczenie insuliny"
+      }
+     ]
+    },
+    {
+     "id": "s088abced",
+     "typ": "proces",
+     "tytul": "Terapia genowa ex vivo",
+     "opis": "",
+     "uwaga": "W terapii ex vivo komórki modyfikuje się poza organizmem, w in vivo — wektor podaje się bezpośrednio pacjentowi.",
+     "kroki": [
+      {
+       "t": "Pobranie komórek pacjenta",
+       "d": "np. komórek macierzystych szpiku"
+      },
+      {
+       "t": "Wprowadzenie prawidłowego genu wektorem wirusowym"
+      },
+      {
+       "t": "Namnożenie zmodyfikowanych komórek"
+      },
+      {
+       "t": "Podanie komórek pacjentowi"
+      },
+      {
+       "t": "Synteza brakującego białka"
+      }
+     ]
     }
    ]
   }
