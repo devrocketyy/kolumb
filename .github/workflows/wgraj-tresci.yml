@@ -1,0 +1,24 @@
+# Wgrywa treści z przedmioty/ do tabeli „tresci” w Supabase (tryb premium).
+# Uruchamia się po każdej zmianie treści na main oraz ręcznie (Actions → Wgraj treści → Run workflow).
+# Wymaga sekretu repozytorium SUPABASE_SERVICE_ROLE_KEY (Settings → Secrets and variables → Actions).
+name: Wgraj treści do Supabase
+on:
+  push:
+    branches: [main]
+    paths: ['przedmioty/**', 'narzedzia/wgraj-tresci.mjs']
+  workflow_dispatch:
+concurrency: { group: wgraj-tresci, cancel-in-progress: true }
+jobs:
+  wgraj:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Wgraj
+        env:
+          SUPABASE_URL: https://fepprnkhuotbeyuqpqid.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then echo "Brak sekretu SUPABASE_SERVICE_ROLE_KEY — pomijam."; exit 0; fi
+          node narzedzia/wgraj-tresci.mjs
