@@ -12,7 +12,7 @@ export const CLOUD = {
 // Po włączeniu treści pochodzą z tabeli „tresci” w Supabase (RLS: demo dla wszystkich, reszta z aktywnym dostępem),
 // a płatności obsługują funkcje supabase/functions (Stripe). Instrukcja: README → „Płatny dostęp”.
 export const PREMIUM = {
-  wlaczone: false,
+  wlaczone: true,
   // Ceny tylko do wyświetlenia — kwoty pobiera Stripe (sekrety STRIPE_PRICE_MATURA_1/2/3 i STRIPE_PRICE_MIESIAC_1/2/3).
   // Klucz = liczba przedmiotów w pakiecie.
   cennik: {
