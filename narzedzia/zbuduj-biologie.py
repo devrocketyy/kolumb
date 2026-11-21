@@ -337,6 +337,7 @@ def main():
         'dzialy': [{'id': d, 'plik': f'biologia/{d}.json'} for d in aktywne],
         'arkusze': [{'id': a['id'], 'plik': f'biologia/arkusze/{a["id"]}.json'} for a in arkusze],
         'bank': [{'plik': f'biologia/bank/{d}.json'} for d in sorted(bank)],
+        'egzamin': '2027-05-10',  # komunikat CKE z 20 VIII 2026: biologia (pr) — 10 maja 2027, godz. 9:00
     }
     with open(os.path.join(ROOT, 'przedmioty', 'biologia.json'), 'w') as o:
         json.dump(subj, o, ensure_ascii=False, indent=1)
