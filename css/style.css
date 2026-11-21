@@ -1490,3 +1490,23 @@ body.wkrotce-on .topbar, body.wkrotce-on .tabbar { display: none; }
 .schem-tabs a { display: grid; place-items: center; min-height: 42px; border-radius: 10px; font-weight: 600; color: var(--text-2); text-decoration: none; transition: background .15s, color .15s; }
 .schem-tabs a.on { background: var(--surface); color: var(--text); box-shadow: 0 1px 3px rgb(0 0 0 / .12), inset 0 0 0 1px var(--border-2); }
 .schem-steps .st-t b { font-weight: 650; }
+
+/* moje talie — własne fiszki ucznia */
+.field { display: grid; gap: 6px; margin-bottom: 14px; }
+.field > span { font-weight: 600; font-size: .9rem; color: var(--text-2); }
+.deck-form textarea, .deck-edit textarea, .deck-more textarea { min-height: 64px; font-weight: 500; }
+.deck-form .type-input, .deck-rename .type-input { min-height: 52px; font-size: 1rem; font-weight: 600; }
+.deck-empty { display: flex; gap: 14px; align-items: center; }
+.deck-empty p { margin: 0; }
+.deck-more summary { cursor: pointer; min-height: 32px; display: flex; align-items: center; }
+.deck-more[open] summary { margin-bottom: 12px; }
+.deck-more #bulk { margin-top: 8px; }
+.deck-more .btn-lg { margin-top: 8px; }
+.deck-list-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 12px; margin: 28px 4px 12px; }
+.deck-list-head .section-title { margin: 0; }
+.deck-filter { flex: 1 1 180px; max-width: 280px; min-height: 44px; padding: 8px 14px; font-size: .95rem; font-weight: 500; }
+.deck-card p { white-space: pre-line; }
+.deck-card-actions { display: flex; gap: 8px; justify-content: flex-end; flex-wrap: wrap; }
+.deck-edit { display: grid; }
+.deck-rename { display: grid; gap: 4px; justify-items: start; }
+.deck-rename .field { width: 100%; }

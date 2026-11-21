@@ -2,6 +2,7 @@
 // Aplikacja działa bez tego modułu; gdy w js/config.js nie ma adresu projektu, konta są wyłączone.
 import * as store from './store.js';
 import { CLOUD } from './config.js';
+import { merge as mergeTalie } from './talie.js';
 
 export const enabled = () => !!(CLOUD.url && CLOUD.anonKey);
 const base = () => CLOUD.url.replace(/\/+$/, '');
@@ -149,6 +150,7 @@ export function merge(a, b) {
   out.prognozy = { ...(b.prognozy || {}) };
   for (const [k, h] of Object.entries(a.prognozy || {})) out.prognozy[k] = { ...(out.prognozy[k] || {}), ...h };
   out.bledy = { ...(b.bledy || {}), ...(a.bledy || {}) };
+  out.talie = mergeTalie(a.talie, b.talie);
   out.settings = { ...(b.settings || {}), ...(a.settings || {}) };
   if (!a.settings?.przedmiot && b.settings?.przedmiot) out.settings.przedmiot = b.settings.przedmiot;
   out.updatedAt = Math.max(a.updatedAt || 0, b.updatedAt || 0);

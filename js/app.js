@@ -5,6 +5,7 @@ import * as game from './game.js';
 import * as cloud from './cloud.js';
 import * as dostep from './dostep.js';
 import * as podcast from './podcast.js';
+import * as talie from './talie.js';
 import * as CFG from './config.js';
 import { cardKey, nextState, intervalLabel, summary, buildQueue, newAllowance, MASTERED_BOX, setAutoRate, tempoAuto, newPerDay } from './srs.js';
 
@@ -54,6 +55,11 @@ const hrefUnit = (sid, uid) => `#/p/${enc(sid)}/${enc(uid)}`;
 
 // Zakres nauki: cały dział ("d") albo poddział ("p").
 function resolveScope(sid, type, id) {
+  if (type === 't') { // własna talia ucznia (#/talie) — ten sam silnik powtórek co fiszki z kursów
+    const t = sid === talie.SID ? talie.find(id) : null;
+    if (!t) return null;
+    return { s: { id: talie.SID, nazwa: 'Moje talie' }, type, id, units: [talie.asUnit(t)], title: t.nazwa, sub: 'Moja talia', back: `#/talia/${enc(t.id)}`, wlasne: true };
+  }
   const s = findSubject(sid);
   if (!s) return null;
   if (type === 'x') { // test diagnostyczny: cały kurs, pytania dobierane według wag działów
@@ -1035,6 +1041,7 @@ function viewHome() {
       <span class="quest-icon">${ICONS.redo}</span>
       <span class="mistakes-text"><strong>Błędy do poprawy: ${nb}</strong><small>Lekcja z pytań, w których była pomyłka</small></span>
       ${ICONS.next}</a>` : ''}
+    ${talieCard(true)}
     ${s ? planHtml(s, rec, todo, best) : ''}
     ${s ? '' : '<p class="muted">Brak przedmiotów.</p>'}
   `;
@@ -1102,6 +1109,7 @@ function viewNauka() {
       <a class="plan-tile ${best ? '' : 'off'}" href="${best ? `#/fiszki/${enc(s.id)}/d/${enc(best.d.id)}` : '#/nauka'}"><b>${sm.due}</b><span>do powtórki</span></a>
       <a class="plan-tile" href="${nextTasksHref(s)}"><b>${zDone}<small>/${zad.length}</small></b><span>zadań</span></a>
     </div>
+    ${talieCard()}
     <a class="card rev-link" href="#/powtorka"><span class="quest-icon">${ICONS.redo}</span><span class="plan-text"><strong>Własna powtórka</strong><small>Wybierz tematy i powtarzaj, co chcesz</small></span>${ICONS.next}</a>
     ${wydarzeniaChronologii(s).length ? `<a class="card rev-link" href="#/os-czasu"><span class="quest-icon">${ICONS.clock}</span><span class="plan-text"><strong>Oś czasu</strong><small>Gra: ułóż wydarzenia od najstarszego</small></span>${ICONS.next}</a>` : ''}
     ${schematyOf(s).length ? `<a class="card rev-link" href="#/schematy/${enc(s.id)}"><span class="quest-icon">${ICONS.schemat}</span><span class="plan-text"><strong>Schematy</strong><small>${schematyOf(s).length} rysunków i procesów do ćwiczenia</small></span>${ICONS.next}</a>` : ''}
@@ -1347,7 +1355,7 @@ function viewLekcja(sid, type, id) {
 function lessonTop() {
   const L = lesson;
   return `<div class="session-top lesson-top">
-      <a class="icon-btn" href="#/" aria-label="Zakończ lekcję">${ICONS.close}</a>
+      <a class="icon-btn" href="${L.sc.wlasne ? L.sc.back : '#/'}" aria-label="Zakończ lekcję">${ICONS.close}</a>
       <div class="session-progress">${progressBar(L.done / L.total, 'Postęp lekcji')}</div>
       <span class="session-count">${Math.min(L.done + 1, L.total)}/${L.total}</span>
     </div>`;
@@ -1478,8 +1486,10 @@ function finishAnswer(ok, note = '', right = '') {
   const e = L.queue[0];
   L.state = 'fb';
   const sid = L.sc.s.id;
-  if (ok && e.blad) clearMistake(sid, e.u.id, (e.f || e.q).id);
-  if (!ok && (e.f || e.q)) addMistake(sid, e.u, e.f || e.q, e.f ? 'f' : 'q');
+  if (!L.sc.wlasne) { // własne talie nie trafiają do „Błędów do poprawy” (lista jest per przedmiot)
+    if (ok && e.blad) clearMistake(sid, e.u.id, (e.f || e.q).id);
+    if (!ok && (e.f || e.q)) addMistake(sid, e.u, e.f || e.q, e.f ? 'f' : 'q');
+  }
   if (ok) { L.correct++; game.sound('ok'); }
   else {
     L.wrong++;
@@ -1488,7 +1498,7 @@ function finishAnswer(ok, note = '', right = '') {
   store.markActivity();
   store.save();
   const src = e.f?.zrodlo || e.q?.zrodlo || '';
-  const report = e.f ? reportHref(L.sc.s, e.u, 'fiszka', e.f) : e.q ? reportHref(L.sc.s, e.u, 'pytanie', e.q) : '';
+  const report = L.sc.wlasne ? '' : e.f ? reportHref(L.sc.s, e.u, 'fiszka', e.f) : e.q ? reportHref(L.sc.s, e.u, 'pytanie', e.q) : '';
   const bar = app.querySelector('#bar');
   bar.className = `lesson-bar sheet ${ok ? 'ok' : 'bad'}`;
   bar.innerHTML = `<div class="sheet-head"><span class="sheet-icon">${ok ? ICONS.check : ICONS.close}</span>
@@ -1537,14 +1547,14 @@ function renderLessonEnd() {
         <div class="end-tile"><span>Poprawne</span><strong>${L.correct}/${answered}</strong></div>
         <div class="end-tile"><span>Czas</span><strong>${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, '0')}</strong></div>
       </div>
-      ${L.wrong ? '<p class="muted">Pytania z błędami trafiły do „Błędów do poprawy”.</p>' : ''}
+      ${L.wrong && !L.sc.wlasne ? '<p class="muted">Pytania z błędami trafiły do „Błędów do poprawy”.</p>' : ''}
       <div class="actions">
-        <a class="btn btn-primary btn-lg btn-cta" href="#/">Kontynuuj</a>
+        <a class="btn btn-primary btn-lg btn-cta" href="${L.sc.wlasne ? L.sc.back : '#/'}">Kontynuuj</a>
         <button type="button" class="btn btn-ghost btn-lg" id="again">Jeszcze jedna lekcja</button>
       </div>
     </section>`;
   app.querySelector('#again').addEventListener('click', () => { const sc = L.sc; lesson = null; if (sc.type === 'b') viewBledy(sc.s.id); else viewLekcja(sc.s.id, sc.type, sc.id); });
-  keyHandler = (ev) => { if (ev.key === 'Enter') { ev.preventDefault(); location.hash = '#/'; } };
+  keyHandler = (ev) => { if (ev.key === 'Enter') { ev.preventDefault(); location.hash = L.sc.wlasne ? L.sc.back : '#/'; } };
 }
 
 // ---------- dział i poddział ----------
@@ -1673,7 +1683,7 @@ function renderCard() {
         <button type="button" class="btn btn-rate rate-trudne" data-r="trudne"><span>Trudne</span><small>${training ? '' : intervalLabel(st, 'trudne')}</small></button>
         <button type="button" class="btn btn-rate rate-umiem" data-r="umiem"><span>Umiem</span><small>${training ? '' : intervalLabel(st, 'umiem')}</small></button>
       </div>
-      ${reportBtn(reportHref(s, u, 'fiszka', f))}
+      ${sc.wlasne ? '' : reportBtn(reportHref(s, u, 'fiszka', f))}
     </div>
   `;
 
@@ -1974,7 +1984,6 @@ function viewLista(sid, uid) {
   if (!sc) return notFound();
   const { s, unit: u } = sc;
   const cards = store.get().cards;
-  const boxLabel = (c) => (!c || !c.reps ? 'nowa' : c.box >= MASTERED_BOX ? 'opanowana' : `poziom ${c.box}/6`);
   app.innerHTML = `
     ${pageHead('Treści', sc.back, u.nazwa)}
     <div class="tabs" role="tablist">
@@ -3677,13 +3686,221 @@ function renderSchematCwicz(s, u, x, head, base) {
   });
 }
 
+// ---------- moje talie: fiszki tworzone przez ucznia ----------
+const hrefTalia = (id) => `#/talia/${enc(id)}`;
+const deckUnit = (t) => talie.asUnit(t);
+
+// Karta „Moje talie” — w Nauce zawsze, na ekranie Dziś tylko wtedy, gdy są fiszki do powtórki.
+function talieCard(tylkoGdyPowtorki = false) {
+  const list = talie.list();
+  const allowance = newAllowance(talie.SID);
+  const sm = summary(talie.SID, list.map(deckUnit), allowance);
+  if (tylkoGdyPowtorki && !sm.due) return '';
+  const opis = !list.length ? 'Stwórz własne fiszki i ucz się ich z powtórkami'
+    : sm.todo ? `${sm.todo} ${plural(sm.todo, 'fiszka', 'fiszki', 'fiszek')} na dziś · ${list.length} ${plural(list.length, 'talia', 'talie', 'talii')}`
+    : `${list.length} ${plural(list.length, 'talia', 'talie', 'talii')} · ${nFiszek(sm.total)} · na dziś gotowe`;
+  return `<a class="card rev-link" href="#/talie"><span class="quest-icon">${ICONS.cards}</span><span class="plan-text"><strong>Moje talie</strong><small>${esc(opis)}</small></span>${ICONS.next}</a>`;
+}
+
+function viewTalie() {
+  const list = talie.list();
+  const allowance = newAllowance(talie.SID);
+  const all = summary(talie.SID, list.map(deckUnit), allowance);
+  app.innerHTML = `
+    ${pageHead('Moje talie', '#/nauka', 'Twoje fiszki')}
+    <p class="lead">Twórz własne talie i ucz się ich z powtórkami rozłożonymi w czasie — tak samo jak fiszek z kursu. Talie zapisują się na tym profilu i działają bez internetu.</p>
+    ${list.length ? `<div class="plan-tiles">
+      <div class="plan-tile"><b>${all.total}</b><span>${plural(all.total, 'fiszka', 'fiszki', 'fiszek')}</span></div>
+      <div class="plan-tile"><b>${all.todo}</b><span>na dziś</span></div>
+      <div class="plan-tile"><b>${pct(all.progress)}%</b><span>opanowane</span></div>
+    </div>` : ''}
+    <form class="card deck-form" id="deck-new" autocomplete="off">
+      <h2 class="card-title">Nowa talia</h2>
+      <label class="field"><span>Nazwa talii</span>
+        <input class="type-input" name="nazwa" maxlength="${talie.MAX_NAZWA}" placeholder="np. Angielski — słówka, unit 3" required></label>
+      <button class="btn btn-primary btn-lg" type="submit">Utwórz talię</button>
+    </form>
+    ${list.length
+      ? `<h2 class="section-title">Twoje talie (${list.length})</h2>
+        <div class="dzial-list">${list.map((t) => unitRow(hrefTalia(t.id), t.nazwa, summary(talie.SID, [deckUnit(t)], allowance))).join('')}</div>`
+      : `<div class="card deck-empty"><span class="quest-icon">${ICONS.cards}</span><p class="muted">Nie masz jeszcze żadnej talii. Nadaj jej nazwę powyżej, a potem dopisz fiszki jedna po drugiej albo wklej całą listę naraz.</p></div>`}`;
+  app.querySelector('#deck-new').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const nazwa = e.target.nazwa.value.trim();
+    if (!nazwa) return;
+    const t = talie.create(nazwa);
+    location.hash = hrefTalia(t.id);
+  });
+}
+
+const boxLabel = (c) => (!c || !c.reps ? 'nowa' : c.box >= MASTERED_BOX ? 'opanowana' : `poziom ${c.box}/6`);
+
+function deckCardHtml(t, f, i) {
+  const c = store.get().cards[cardKey(talie.SID, t.id, f.id)];
+  return `<article class="card review deck-card" data-card="${esc(f.id)}">
+    <div class="review-head"><span class="muted">${i + 1}.</span><span class="tag ${c && c.box >= MASTERED_BOX ? 'tag-ok' : ''}">${boxLabel(c)}</span></div>
+    <h3>${esc(f.przod)}</h3><p>${esc(f.tyl)}</p>
+    <div class="deck-card-actions">
+      <button type="button" class="btn btn-ghost btn-sm" data-edit="${esc(f.id)}">Edytuj</button>
+      <button type="button" class="btn btn-ghost btn-sm" data-del="${esc(f.id)}">Usuń</button>
+    </div>
+  </article>`;
+}
+
+function deckEditHtml(f) {
+  return `<form class="deck-edit" data-save="${esc(f.id)}">
+    <label class="field"><span>Przód</span><textarea name="przod" maxlength="${talie.MAX_PRZOD}" required>${esc(f.przod)}</textarea></label>
+    <label class="field"><span>Tył</span><textarea name="tyl" maxlength="${talie.MAX_TYL}" required>${esc(f.tyl)}</textarea></label>
+    <div class="deck-card-actions">
+      <button type="submit" class="btn btn-primary btn-sm">Zapisz</button>
+      <button type="button" class="btn btn-ghost btn-sm" data-cancel>Anuluj</button>
+    </div>
+  </form>`;
+}
+
+function viewTalia(id) {
+  const sc = resolveScope(talie.SID, 't', id);
+  if (!sc) return notFound();
+  const t = talie.find(id);
+  const sm = summary(talie.SID, sc.units);
+  const n = t.fiszki.length;
+  const base = scopePath(sc);
+  app.innerHTML = `
+    ${pageHead(t.nazwa, '#/talie', 'Moja talia')}
+    ${n ? statsCard(sm) : ''}
+    <div class="actions">
+      ${!n ? '' : sm.todo
+        ? `<a class="btn btn-primary btn-xl" href="#/fiszki/${base}">${ICONS.cards}<span>Ucz się<small>${nFiszek(sm.todo)} na dziś</small></span></a>`
+        : `<div class="done-note">${ICONS.check}<span>${sm.fresh ? 'Dzienny limit nowych fiszek wykorzystany. Wróć jutro albo poćwicz swobodnie.' : 'Na dziś wszystko powtórzone! Wróć jutro albo poćwicz swobodnie.'}</span></div>`}
+      ${n >= 4 ? `<a class="btn btn-ghost btn-xl" href="#/lekcja/${base}">${ICONS.play}<span>Lekcja<small>wybór odpowiedzi, prawda/fałsz, wpisywanie</small></span></a>` : ''}
+      ${n ? `<a class="btn btn-ghost btn-xl" href="#/fiszki/${base}/trening">${ICONS.redo}<span>Trening swobodny<small>losowe fiszki, bez wpływu na harmonogram</small></span></a>` : ''}
+    </div>
+
+    <form class="card deck-form" id="card-new" autocomplete="off">
+      <h2 class="card-title">Dodaj fiszkę</h2>
+      <label class="field"><span>Przód — pytanie lub pojęcie</span><textarea name="przod" maxlength="${talie.MAX_PRZOD}" rows="2" required></textarea></label>
+      <label class="field"><span>Tył — odpowiedź</span><textarea name="tyl" maxlength="${talie.MAX_TYL}" rows="2" required></textarea></label>
+      <button class="btn btn-primary btn-lg" type="submit">Dodaj fiszkę</button>
+      <p class="muted small">Ctrl + Enter dodaje fiszkę bez sięgania po myszkę.</p>
+    </form>
+
+    <details class="card deck-more" ${n ? '' : 'open'}>
+      <summary><strong>Wklej wiele fiszek naraz</strong></summary>
+      <p class="muted small">Jedna fiszka w linii: przód i tył oddzielone tabulatorem (np. skopiowane z arkusza lub z Quizletu), myślnikiem „ - ”, średnikiem, znakiem „=” albo dwukropkiem.</p>
+      <textarea id="bulk" rows="6" placeholder="mitochondrium - centrum energetyczne komórki&#10;ATP - nośnik energii w komórce"></textarea>
+      <p class="muted small" id="bulk-info" aria-live="polite"></p>
+      <button type="button" class="btn btn-ghost btn-lg" id="bulk-add" disabled>Dodaj z listy</button>
+    </details>
+
+    ${n ? `<div class="deck-list-head">
+        <h2 class="section-title">Fiszki (${n})</h2>
+        ${n > 8 ? `<input class="type-input deck-filter" id="filter" type="search" placeholder="Szukaj w talii" aria-label="Szukaj w talii">` : ''}
+      </div>
+      <div class="review-list" id="cards">${t.fiszki.map((f, i) => deckCardHtml(t, f, i)).join('')}</div>` : ''}
+
+    <details class="card deck-more">
+      <summary><strong>Ustawienia talii</strong></summary>
+      <form id="deck-rename" class="deck-rename" autocomplete="off">
+        <label class="field"><span>Nazwa</span><input class="type-input" name="nazwa" maxlength="${talie.MAX_NAZWA}" value="${esc(t.nazwa)}" required></label>
+        <button type="submit" class="btn btn-ghost btn-sm">Zmień nazwę</button>
+      </form>
+      <div class="actions">
+        ${n ? `<button type="button" class="btn btn-ghost btn-lg" id="deck-export">${ICONS.download}<span>Pobierz jako plik tekstowy</span></button>` : ''}
+        <button type="button" class="btn btn-danger btn-lg" id="deck-delete">Usuń talię</button>
+      </div>
+    </details>`;
+
+  const rerender = () => viewTalia(id);
+
+  // dodawanie pojedynczej fiszki
+  const form = app.querySelector('#card-new');
+  const addOne = () => {
+    if (!talie.addCard(id, form.przod.value, form.tyl.value)) { form.reportValidity(); return; }
+    game.sound('tap');
+    toast('Dodano fiszkę.');
+    rerender();
+    app.querySelector('#card-new textarea[name="przod"]').focus();
+  };
+  form.addEventListener('submit', (e) => { e.preventDefault(); addOne(); });
+  form.addEventListener('keydown', (e) => { if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); addOne(); } });
+
+  // import z tekstu
+  const bulk = app.querySelector('#bulk');
+  const info = app.querySelector('#bulk-info');
+  const bulkBtn = app.querySelector('#bulk-add');
+  bulk.addEventListener('input', () => {
+    const r = talie.parseText(bulk.value);
+    bulkBtn.disabled = !r.karty.length;
+    bulkBtn.textContent = r.karty.length ? `Dodaj ${nFiszek(r.karty.length)}` : 'Dodaj z listy';
+    info.textContent = !bulk.value.trim() ? ''
+      : r.karty.length ? `Rozpoznano ${nFiszek(r.karty.length)} (separator: ${r.separator})${r.pominiete.length ? `, pominięto ${r.pominiete.length} ${plural(r.pominiete.length, 'linię', 'linie', 'linii')} bez separatora` : ''}.`
+      : 'Nie rozpoznano żadnej fiszki — oddziel przód od tyłu tabulatorem, myślnikiem lub średnikiem.';
+  });
+  bulkBtn.addEventListener('click', () => {
+    const added = talie.addCards(id, talie.parseText(bulk.value).karty);
+    if (!added) return;
+    toast(`Dodano ${nFiszek(added)}.`);
+    rerender();
+  });
+
+  // lista fiszek: edycja, usuwanie, filtr
+  const cards = app.querySelector('#cards');
+  cards?.addEventListener('click', (e) => {
+    const ed = e.target.closest('[data-edit]');
+    const del = e.target.closest('[data-del]');
+    const cancel = e.target.closest('[data-cancel]');
+    if (ed) {
+      const f = t.fiszki.find((x) => x.id === ed.dataset.edit);
+      const art = ed.closest('[data-card]');
+      art.innerHTML = deckEditHtml(f);
+      art.querySelector('textarea').focus();
+    } else if (del) {
+      const f = t.fiszki.find((x) => x.id === del.dataset.del);
+      talie.removeCard(id, f.id);
+      rerender();
+      toast('Usunięto fiszkę.', { label: 'Cofnij', run: () => { talie.addCards(id, [f]); if (location.hash === hrefTalia(id)) rerender(); } });
+    } else if (cancel) rerender();
+  });
+  cards?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const fm = e.target.closest('[data-save]');
+    if (talie.editCard(id, fm.dataset.save, fm.przod.value, fm.tyl.value)) { toast('Zapisano zmiany.'); rerender(); }
+  });
+  app.querySelector('#filter')?.addEventListener('input', (e) => {
+    const q = norm(e.target.value);
+    cards.querySelectorAll('[data-card]').forEach((a) => { a.hidden = q && !norm(a.textContent).includes(q); });
+  });
+
+  // ustawienia talii
+  app.querySelector('#deck-rename').addEventListener('submit', (e) => {
+    e.preventDefault();
+    talie.update(id, { nazwa: e.target.nazwa.value });
+    toast('Zmieniono nazwę talii.');
+    rerender();
+  });
+  app.querySelector('#deck-export')?.addEventListener('click', () => {
+    const blob = new Blob([talie.exportText(t) + '\n'], { type: 'text/plain;charset=utf-8' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `${t.nazwa.replace(/[\\/:*?"<>|]+/g, '-')}.txt`;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  });
+  app.querySelector('#deck-delete').addEventListener('click', () => {
+    if (!confirm(`Usunąć talię „${t.nazwa}” razem z ${nFiszek(n)} i postępami? Tej operacji nie można cofnąć.`)) return;
+    talie.remove(id);
+    toast('Usunięto talię.');
+    location.hash = '#/talie';
+  });
+}
+
 const routes = [
   [/^#?\/?$/, viewHome],
   [/^#\/d\/([^/]+)\/([^/]+)$/, viewDzial],
   [/^#\/p\/([^/]+)\/([^/]+)$/, viewUnit],
-  [/^#\/fiszki\/([^/]+)\/(d|p|w)\/([^/]+)(?:\/(trening))?$/, viewFiszki],
+  [/^#\/fiszki\/([^/]+)\/(d|p|w|t)\/([^/]+)(?:\/(trening))?$/, viewFiszki],
   [/^#\/test\/([^/]+)\/(d|p|w|x)\/([^/]+)$/, viewTest],
-  [/^#\/lekcja\/([^/]+)\/(d|p|w)\/([^/]+)$/, viewLekcja],
+  [/^#\/lekcja\/([^/]+)\/(d|p|w|t)\/([^/]+)$/, viewLekcja],
   [/^#\/bledy\/([^/]+)$/, viewBledy],
   [/^#\/szukaj$/, viewSzukaj],
   [/^#\/aktualnosci$/, viewAktualnosci],
@@ -3707,6 +3924,8 @@ const routes = [
   [/^#\/podcast$/, viewPodcast],
   [/^#\/os-czasu$/, viewOsCzasu],
   [/^#\/plany(?:\/(ok))?$/, viewPlany],
+  [/^#\/talie$/, viewTalie],
+  [/^#\/talia\/([^/]+)$/, viewTalia],
 ];
 
 let lastHash = null;
@@ -3738,7 +3957,7 @@ function route() {
   const tab = /^#\/(statystyki|profil|ustawienia)/.test(hash) ? 'stats'
     : hash.startsWith('#/matura') || hash.startsWith('#/zadania') || hash.startsWith('#/egzamin') ? 'matura'
     : hash.startsWith('#/aktualnosci') ? 'news'
-    : /^#\/(nauka|podcast|os-czasu|szukaj|d\/|p\/|lista|schemat|fiszki|test|lekcja)/.test(hash) ? 'nauka' : 'home';
+    : /^#\/(nauka|talie|talia|podcast|os-czasu|szukaj|d\/|p\/|lista|schemat|fiszki|test|lekcja)/.test(hash) ? 'nauka' : 'home';
   document.querySelectorAll('.tabbar a').forEach((a) => {
     const on = a.dataset.tab === tab;
     a.classList.toggle('active', on);
@@ -3800,6 +4019,7 @@ async function zaladujTresci() {
 // Czy widok może się wyświetlić; jeśli nie — pokazuje wczytywanie i wraca do routingu, gdy treść dojdzie.
 function czekajNaTresc(hash) {
   if (!subjects.some((x) => x.szkielet)) return false;
+  if (/^#\/(talie|talia\/|fiszki\/moje\/|lekcja\/moje\/)/.test(hash)) return false; // własne talie są w zapisie profilu
   const wszystkie = /^#\/(statystyki|profil|szukaj|ustawienia|plany)/.test(hash);
   const cs = currentSubject();
   const czekaj = wszystkie ? ladowanie : cs?.szkielet ? gotowe[cs.id] : null;
