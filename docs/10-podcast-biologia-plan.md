@@ -1,6 +1,6 @@
 # Podcast IndexLab · Biologia — plan 84 odcinków
 
-**Format** (ustalony po pilotażu; odcinki 1–50 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
+**Format** (ustalony po pilotażu; odcinki 1–60 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
 - **Temat:** 10–12 min, ok. 1 400 słów.
 - **Powtórka działu:** 18–20 min, ok. 2 500 słów.
 - **Razem:** ok. 17 h.
@@ -273,52 +273,52 @@
 - **Treść:** pierwotniaki, glony, śluzowce; wodniczki tętniące; cykl zarodźca.
 - **Matura:** osmoregulacja pantofelka; cykl rozwojowy pasożyta.
 
-**51. Grzyby i porosty** `b-grzyby` ⬜
+**51. Grzyby i porosty** `b-grzyby` ✅
 - **Haczyk:** największy organizm na Ziemi to grzyb pod lasem w Oregonie.
 - **Treść:** budowa, odżywianie, rozmnażanie, mikoryza, porosty jako symbioza, grzyby w gospodarce.
 - **Matura:** mikoryza i porosty jako mutualizm; porosty jako bioindykatory.
 
-**52. Powtórka działu: Mikroorganizmy** `mikroorganizmy` ⬜
+**52. Powtórka działu: Mikroorganizmy** `mikroorganizmy` ✅
 - **Treść:** jeden dzień z życia gleby — wirusy, bakterie, protisty i grzyby w jednej grudce ziemi.
 
 ## Dział 10. Rośliny
 
-**53. Glony i przegląd roślin lądowych** `b-przeglad-roslin` ⬜
+**53. Glony i przegląd roślin lądowych** `b-przeglad-roslin` ✅
 - **Haczyk:** wyjście z wody na ląd — największa przeprowadzka w historii roślin.
 - **Treść:** mszaki, paprotniki, nagonasienne, okrytonasienne; przystosowania do lądu.
 - **Matura:** porównanie grup; cechy pozwalające rozpoznać grupę.
 
-**54. Tkanki roślinne** `b-tkanki-roslinne` ⬜
+**54. Tkanki roślinne** `b-tkanki-roslinne` ✅
 - **Haczyk:** dlaczego dąb może żyć tysiąc lat — tkanki, które rosną przez całe życie.
 - **Treść:** merystemy, okrywające, miękiszowe, wzmacniające, przewodzące (drewno i łyko).
 - **Matura:** związek budowy tkanki z funkcją; rozpoznawanie na rysunku.
 
-**55. Organy wegetatywne i ich modyfikacje** `b-organy` ⬜
+**55. Organy wegetatywne i ich modyfikacje** `b-organy` ✅
 - **Haczyk:** kaktus, cebula i ziemniak — co jest czym.
 - **Treść:** budowa korzenia, łodygi, liścia; modyfikacje (ciernie, bulwy, kłącza, wąsy).
 - **Matura:** przekrój liścia; przystosowania kserofitów i hydrofitów.
 
-**56. Gospodarka wodna i mineralna** `b-gospodarka-wodna` ⬜
+**56. Gospodarka wodna i mineralna** `b-gospodarka-wodna` ✅
 - **Haczyk:** jak sekwoja podnosi wodę na sto metrów bez pompy.
 - **Treść:** pobieranie wody, parcie korzeniowe, transpiracja, kohezja, aparaty szparkowe, pobieranie soli.
 - **Matura:** mechanizm otwierania szparek; czynniki wpływające na transpirację.
 
-**57. Odżywianie roślin, C4 i CAM** `b-odzywianie-roslin` ⬜
+**57. Odżywianie roślin, C4 i CAM** `b-odzywianie-roslin` ✅
 - **Haczyk:** kukurydza i ananas — dwa sposoby na upał.
 - **Treść:** fotosynteza w praktyce, rośliny C4 (podział przestrzenny), CAM (podział czasowy), fotooddychanie, rośliny pasożytnicze i owadożerne.
 - **Matura:** porównanie C3, C4, CAM; ograniczanie fotooddychania.
 
-**58. Przemiana pokoleń i rozmnażanie** `b-rozmnazanie-roslin` ⬜
+**58. Przemiana pokoleń i rozmnażanie** `b-rozmnazanie-roslin` ✅
 - **Haczyk:** paproć ma dwa zupełnie różne „ja” — i tylko jedno widzisz w lesie.
 - **Treść:** gametofit i sporofit, cykle mszaków, paprotników i nasiennych, kwiat, zapylenie, podwójne zapłodnienie.
 - **Matura:** schematy cykli z zaznaczeniem mejozy; ploidalność struktur.
 
-**59. Wzrost, rozwój, hormony i ruchy** `b-rozwoj-roslin` ⬜
+**59. Wzrost, rozwój, hormony i ruchy** `b-rozwoj-roslin` ✅
 - **Haczyk:** jedno zgniłe jabłko psuje całą skrzynkę — wina etylenu.
 - **Treść:** auksyny, gibereliny, cytokininy, kwas abscysynowy, etylen; tropizmy i nastie; fotoperiodyzm.
 - **Matura:** doświadczenia z auksynami (koleoptyl); dominacja wierzchołkowa.
 
-**60. Powtórka działu: Rośliny** `rosliny` ⬜
+**60. Powtórka działu: Rośliny** `rosliny` ✅
 - **Treść:** rok z życia jabłoni — od nasiona przez kwitnienie do opadania liści.
 
 ## Dział 11. Zwierzęta i systematyka
