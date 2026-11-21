@@ -1,6 +1,6 @@
 # Podcast IndexLab · Biologia — plan 84 odcinków
 
-**Format** (ustalony po pilotażu; odcinki 1–20 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
+**Format** (ustalony po pilotażu; odcinki 1–30 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
 - **Temat:** 10–12 min, ok. 1 400 słów.
 - **Powtórka działu:** 18–20 min, ok. 2 500 słów.
 - **Razem:** ok. 17 h.
@@ -123,52 +123,52 @@
 - **Treść:** barwniki, faza zależna od światła (fotoliza wody, fotofosforylacja), cykl Calvina (karboksylacja, redukcja, regeneracja), czynniki ograniczające.
 - **Matura:** źródło tlenu (woda!), RuBisCO, wykresy natężenia fotosyntezy, doświadczenia z moczarką.
 
-**21. Oddychanie komórkowe** `b-oddychanie` ⬜
+**21. Oddychanie komórkowe** `b-oddychanie` ✅
 - **Haczyk:** cyjanek zabija w minutę — bo zatrzymuje jedno białko w mitochondrium.
 - **Treść:** glikoliza, reakcja pomostowa, cykl Krebsa, łańcuch oddechowy, chemiosmoza, bilans ATP.
 - **Matura:** lokalizacja etapów; rola tlenu jako ostatecznego akceptora; dehydrogenaza pirogronianowa.
 
-**22. Fermentacje, glukoneogeneza i glikogenoliza** `b-fermentacje` ⬜
-- **Haczyk:** zakwasy po sprincie i drożdże w cieście — ten sam problem, dwa rozwiązania.
+**22. Fermentacje, glukoneogeneza i glikogenoliza** `b-fermentacje` ✅
+- **Haczyk:** drożdże w cieście i mit o zakwasach (ból po wysiłku to mikrourazy, nie mleczan).
 - **Treść:** fermentacja mleczanowa i alkoholowa (regeneracja NAD⁺), glukoneogeneza w wątrobie, glikogenoliza, cykl Corich.
 - **Matura:** „po co fermentacja, skoro daje mało ATP”; mleczan przy niedotlenieniu mięśni.
 
-**23. Powtórka działu: Metabolizm** `metabolizm` ⬜
+**23. Powtórka działu: Metabolizm** `metabolizm` ✅
 - **Treść:** droga jednego atomu węgla z powietrza do liścia, do cukru, do twojego mięśnia i z powrotem do powietrza.
 
 ## Dział 5. Podziały komórkowe i genom
 
-**24. Organizacja materiału genetycznego** `b-genom` ⬜
+**24. Organizacja materiału genetycznego** `b-genom` ✅
 - **Haczyk:** 2 metry DNA w jądrze o średnicy kilku mikrometrów.
 - **Treść:** nukleosomy, histony, chromatyna, chromosom, kariotyp, genom prokariontów i plazmidy, DNA niekodujący.
 - **Matura:** odczytywanie kariotypu; euchromatyna vs heterochromatyna.
 
-**25. Replikacja DNA** `b-replikacja` ⬜
+**25. Replikacja DNA** `b-replikacja` ✅
 - **Haczyk:** doświadczenie Meselsona i Stahla — ciężki azot, wirówka i trzy możliwe wyniki.
 - **Treść:** model semikonserwatywny, helikaza, prymaza, polimeraza, nić wiodąca i opóźniona, fragmenty Okazaki, ligaza, telomery.
 - **Matura:** interpretacja doświadczenia Meselsona–Stahla; kierunek 5′→3′.
 
-**26. Cykl komórkowy i ploidalność** `b-cykl` ⬜
+**26. Cykl komórkowy i ploidalność** `b-cykl` ✅
 - **Haczyk:** komórka nerwowa, która nie dzieli się przez sto lat, i komórka jelita, która dzieli się co kilka dni.
 - **Treść:** interfaza (G1, S, G2), punkty kontrolne, zapis n i c, zmiana ilości DNA w cyklu.
 - **Matura:** wykres ilości DNA w cyklu; obliczanie n i c w fazach.
 
-**27. Mitoza, mejoza i cytokineza** `b-mitoza-mejoza` ⬜
+**27. Mitoza, mejoza i cytokineza** `b-mitoza-mejoza` ✅
 - **Haczyk:** dlaczego rodzeństwo z tych samych rodziców nie jest identyczne.
 - **Treść:** fazy mitozy, mejoza I i II, crossing-over, niezależna segregacja, cytokineza u roślin i zwierząt.
 - **Matura:** rozpoznawanie faz na rysunku; źródła zmienności w mejozie; porównanie mitozy i mejozy.
 
-**28. Apoptoza** `b-apoptoza` ⬜
+**28. Apoptoza** `b-apoptoza` ✅
 - **Haczyk:** palce u twoich rąk istnieją, bo komórki między nimi popełniły samobójstwo.
 - **Treść:** apoptoza vs nekroza, kaspazy, rola w rozwoju i odporności, zaburzenia (nowotwory).
 - **Matura:** znaczenie apoptozy; porównanie z nekrozą.
 
-**29. Powtórka działu: Podziały komórkowe i genom** `podzialy` ⬜
+**29. Powtórka działu: Podziały komórkowe i genom** `podzialy` ✅
 - **Treść:** życie jednej komórki od powstania przez replikację i podział do apoptozy.
 
 ## Dział 6. Genetyka molekularna
 
-**30. Budowa genu** `b-gen` ⬜
+**30. Budowa genu** `b-gen` ✅
 - **Haczyk:** gen człowieka to w większości „śmieci”, które są wycinane — po co?
 - **Treść:** promotor, sekwencje kodujące, eksony i introny, terminator, geny prokariontów i operony.
 - **Matura:** porównanie genu pro- i eukariotycznego.
