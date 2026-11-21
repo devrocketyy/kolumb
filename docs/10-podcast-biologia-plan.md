@@ -1,6 +1,6 @@
 # Podcast IndexLab · Biologia — plan 84 odcinków
 
-**Format** (ustalony po pilotażu; odcinki 1–60 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
+**Format** (ustalony po pilotażu; odcinki 1–70 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
 - **Temat:** 10–12 min, ok. 1 400 słów.
 - **Powtórka działu:** 18–20 min, ok. 2 500 słów.
 - **Razem:** ok. 17 h.
@@ -323,53 +323,53 @@
 
 ## Dział 11. Zwierzęta i systematyka
 
-**61. Klasyfikacja i kladogramy** `b-systematyka` ⬜
+**61. Klasyfikacja i kladogramy** `b-systematyka` ✅
 - **Haczyk:** czy krokodyl jest bliżej spokrewniony z jaszczurką czy z kurą?
 - **Treść:** jednostki systematyczne, nazewnictwo, kladogram, grupy mono-, para- i polifiletyczne, homologia i analogia.
 - **Matura:** odczytywanie kladogramu; rozpoznawanie grup.
 
-**62. Bezkręgowce** `b-bezkregowce` ⬜
+**62. Bezkręgowce** `b-bezkregowce` ✅
 - **Haczyk:** ośmiornica z trzema sercami i niebieską krwią.
 - **Treść:** gąbki, parzydełkowce, płazińce, nicienie, pierścienice, stawonogi, mięczaki, szkarłupnie; plan budowy.
 - **Matura:** przystosowania pasożytów; porównanie układów narządów.
 
-**63. Kręgowce** `b-kregowce` ⬜
+**63. Kręgowce** `b-kregowce` ✅
 - **Haczyk:** ryba, która wyszła na ląd — Tiktaalik.
 - **Treść:** ryby, płazy, gady, ptaki, ssaki; przystosowania do środowiska.
 - **Matura:** porównanie serc i układów oddechowych; owodniowce.
 
-**64. Powtórka działu: Zwierzęta i systematyka** `zwierzeta` ⬜
+**64. Powtórka działu: Zwierzęta i systematyka** `zwierzeta` ✅
 - **Treść:** spacer po drzewie rodowym zwierząt od gąbki do człowieka.
 
 ## Dział 12. Fizjologia człowieka i zwierząt
 
-**65. Tkanki, narządy i homeostaza** `b-tkanki-zwierzece` ⬜
+**65. Tkanki, narządy i homeostaza** `b-tkanki-zwierzece` ✅
 - **Haczyk:** termostat w domu i podwzgórze — to samo sprzężenie zwrotne.
 - **Treść:** nabłonkowa, łączna, mięśniowa, nerwowa; homeostaza, ujemne i dodatnie sprzężenie zwrotne.
 - **Matura:** przykłady sprzężeń; rozpoznawanie tkanek.
 
-**66. Odżywianie i trawienie** `b-odzywianie` ⬜
+**66. Odżywianie i trawienie** `b-odzywianie` ✅
 - **Haczyk:** żołądek trawi mięso — dlaczego nie trawi sam siebie?
 - **Treść:** odcinki przewodu, enzymy i ich miejsca działania, wchłanianie, wątroba, witaminy.
 - **Matura:** tabela enzymów; doświadczenia z pepsyną i amylazą; awitaminozy.
 
-**67. Odporność** `b-odpornosc` ⬜
+**67. Odporność** `b-odpornosc` ✅
 - **Haczyk:** Jenner, krowianka i pierwsza szczepionka.
 - **Treść:** odporność nieswoista i swoista, limfocyty B i T, przeciwciała, pamięć immunologiczna, szczepionki i surowice, alergie.
 - **Matura:** odporność czynna vs bierna, naturalna vs sztuczna; konflikt serologiczny.
 
-**68. Wymiana gazowa** `b-oddychanie-czl` ⬜
+**68. Wymiana gazowa** `b-oddychanie-czl` ✅
 - **Haczyk:** himalaiści i trzy tygodnie aklimatyzacji.
 - **Treść:** drogi oddechowe, pęcherzyki, mechanizm wentylacji, transport gazów, krzywa dysocjacji hemoglobiny, regulacja oddychania.
 - **Matura:** przesunięcia krzywej dysocjacji (efekt Bohra); rola CO₂ w regulacji.
 
-**69. Krążenie** `b-krazenie` ⬜
-- **Haczyk:** serce, które bije samo — nawet po wyjęciu z ciała.
+**69. Krążenie** `b-krazenie` ✅
+- **Haczyk:** przeszczep serca Religi (1985) — serce bije samo, bez nerwów biorcy.
 - **Treść:** budowa serca, układ bodźcoprzewodzący, cykl pracy serca, naczynia, ciśnienie, krew i krzepnięcie, limfa.
 - **Matura:** droga krwi; EKG; porównanie tętnic i żył.
 
-**70. Wydalanie i osmoregulacja** `b-wydalanie` ⬜
-- **Haczyk:** dlaczego woda morska zabija rozbitka, a foka pije ją bez kłopotu.
+**70. Wydalanie i osmoregulacja** `b-wydalanie` ✅
+- **Haczyk:** dlaczego woda morska zabija rozbitka, a mewa pije ją bez kłopotu (gruczoły solne).
 - **Treść:** nerka i nefron, filtracja, resorpcja, sekrecja, ADH i aldosteron, amoniak, mocznik i kwas moczowy.
 - **Matura:** skład moczu pierwotnego i ostatecznego; produkty azotowe a środowisko życia.
 
