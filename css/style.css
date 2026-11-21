@@ -1509,3 +1509,25 @@ body.wkrotce-on .topbar, body.wkrotce-on .tabbar { display: none; }
 .moje-kursy small { color: var(--text-2); }
 .kup-box .plan-cena b { white-space: nowrap; }
 .kup-box .plan-cena span { flex: 1; min-width: 0; }
+
+/* panel właściciela */
+.panel-tiles { margin-bottom: 16px; }
+.panel-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.panel-list li { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+.panel-list li:last-child { border-bottom: 0; padding-bottom: 0; }
+.panel-wykres { display: flex; align-items: flex-end; gap: 3px; height: 110px; padding-top: 6px; }
+.panel-wykres span { flex: 1; min-width: 2px; background: var(--text); border-radius: 3px 3px 0 0; opacity: .85; }
+.panel-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.panel-zgl { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.panel-zgl li { display: flex; gap: 12px; align-items: flex-start; justify-content: space-between; border: 1px solid var(--border); border-radius: 12px; padding: 12px; }
+.panel-zgl li > div { min-width: 0; display: grid; gap: 4px; }
+.panel-zgl small { color: var(--text-2); }
+.panel-zgl p { margin: 4px 0 0; white-space: pre-wrap; overflow-wrap: anywhere; font-size: .92rem; }
+.panel-zgl li.done { opacity: .55; }
+.panel-table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+.panel-table th, .panel-table td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+.panel-table th { color: var(--text-2); font-weight: 600; }
+.panel-sub { margin: 18px 0 8px; font-size: 1rem; }
+.panel-form { display: grid; grid-template-columns: 1fr; gap: 8px; }
+@media (min-width: 560px) { .panel-form { grid-template-columns: 2fr 1.4fr 1.2fr auto; } }
+.table-wrap { overflow-x: auto; }

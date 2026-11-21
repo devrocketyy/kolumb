@@ -2815,6 +2815,7 @@ const subjectIcon = (s) => SUBJECT_ICONS[s.id] || `<span class="subj-letters">${
 let gateMsg = '';
 
 function afterProfileChange() {
+  jestemAdminem = null; // inne konto — sprawdzamy uprawnienia do panelu od nowa
   session = test = zs = lesson = null;
   applyTheme();
   updateTopStats();
@@ -3180,11 +3181,13 @@ function viewStats() {
     </section>
     </details>
     <nav class="menu-list" aria-label="Konto">
+      <a href="#/panel" data-panel-link hidden>${ICONS.target}<span>Panel właściciela</span>${ICONS.next}</a>
       <a href="#/ustawienia">${ICONS.cog}<span>Ustawienia</span>${ICONS.next}</a>
       ${cloud.account() ? `<button type="button" data-act="sync">${ICONS.redo}<span>Synchronizuj z kontem</span></button>` : ''}
       <button type="button" data-act="logout">${ICONS.back}<span>Wyloguj</span></button>
     </nav>`;
   bindProfil();
+  sprawdzAdmina().then((ok) => { const l = app.querySelector('[data-panel-link]'); if (ok && l) l.hidden = false; });
   app.querySelector('[data-act="sync"]')?.addEventListener('click', async () => {
     try { await cloud.sync(); afterProfileChange(); toast('Zsynchronizowano z kontem.'); } catch (err) { toast(err.message); }
   });
@@ -3712,6 +3715,128 @@ function renderSchematCwicz(s, u, x, head, base) {
   });
 }
 
+// ---------- panel właściciela (#/panel) ----------
+// Widoczny tylko dla kont z tabeli „admini” (migracja 005). Dane pochodzą z funkcji admin_* w bazie,
+// które same sprawdzają uprawnienia — ukrycie linku w aplikacji nie jest zabezpieczeniem, tylko wygodą.
+let jestemAdminem = null;
+async function sprawdzAdmina() {
+  if (!cloud.account()) return false;
+  if (jestemAdminem !== null) return jestemAdminem;
+  try {
+    const token = await cloud.tokenOrNull();
+    jestemAdminem = !!(await cloud.api('/rest/v1/rpc/jestem_adminem', { method: 'POST', token, body: {} }));
+  } catch { jestemAdminem = false; }
+  return jestemAdminem;
+}
+async function rpc(nazwa, body = {}) {
+  const token = await cloud.tokenOrNull();
+  return cloud.api(`/rest/v1/rpc/${nazwa}`, { method: 'POST', token, body });
+}
+
+async function viewPanel() {
+  app.innerHTML = `${pageHead('Panel właściciela', '#/profil')}<p class="muted">Wczytywanie…</p>`;
+  if (!(await sprawdzAdmina())) {
+    app.innerHTML = `${pageHead('Panel właściciela', '#/profil')}<section class="card"><p>Ten panel jest dostępny tylko dla właściciela IndexLab.</p></section>`;
+    return;
+  }
+  let st, rej, zgl, kody, pokazWszystkie = false;
+  try {
+    [st, rej, zgl, kody] = await Promise.all([rpc('admin_statystyki'), rpc('admin_rejestracje'), rpc('admin_zgloszenia', { wszystkie: false }), rpc('admin_kody')]);
+  } catch (e) {
+    app.innerHTML = `${pageHead('Panel właściciela', '#/profil')}<section class="card"><p>Nie udało się wczytać danych: ${esc(e.message)}</p><p class="muted small">Sprawdź, czy w Supabase uruchomiono migracje 004 i 005.</p></section>`;
+    return;
+  }
+  const kafel = (l, v, sub = '') => `<div class="tile"><span class="tile-label">${l}</span><strong>${v}</strong>${sub ? `<span class="tile-sub">${sub}</span>` : ''}</div>`;
+  const maxR = Math.max(1, ...rej.map((r) => r.n));
+  const fmtT = (t) => new Date(t).toLocaleString('pl-PL', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+  const render = (msg = '') => {
+    const prz = st.przedmioty || {};
+    app.innerHTML = `
+      ${pageHead('Panel właściciela', '#/profil')}
+      <div class="tiles panel-tiles">
+        ${kafel('Konta', st.konta, `+${st.konta_7d} w 7 dni`)}
+        ${kafel('Aktywni dziś', st.aktywni_1d, `${st.aktywni_7d} w 7 dni · ${st.aktywni_30d} w 30 dni`)}
+        ${kafel('Płacący', (st.pelny_dostep || 0) + Object.values(prz).reduce((a, b) => a + b, 0), `${st.subskrypcje} subskrypcji · ${st.zakupy_30d} zakupów w 30 dni`)}
+        ${kafel('Zgłoszenia', st.zgloszenia_nowe, 'do załatwienia')}
+      </div>
+      <section class="card">
+        <h2 class="card-title">Dostępy według przedmiotu</h2>
+        <ul class="panel-list">${['biologia', 'historia', 'wos'].map((id) => `<li><span>${esc(nazwaPrzedmiotu(id))}</span><b>${prz[id] || 0}</b></li>`).join('')}
+          <li><span>Pełny dostęp (wszystkie)</span><b>${st.pelny_dostep || 0}</b></li>
+          <li><span>Polecenia (nagrodzone)</span><b>${st.polecenia} (${st.polecenia_nagrodzone})</b></li></ul>
+      </section>
+      <section class="card">
+        <h2 class="card-title">Nowe konta — ostatnie 30 dni</h2>
+        <div class="panel-wykres" role="img" aria-label="Rejestracje dziennie">${rej.map((r) => `<span title="${r.dzien}: ${r.n}" style="height:${Math.max(2, Math.round((r.n / maxR) * 100))}%"></span>`).join('')}</div>
+        <p class="muted small">Najwięcej jednego dnia: ${maxR}.</p>
+      </section>
+      <section class="card">
+        <div class="panel-head"><h2 class="card-title">Zgłoszenia błędów</h2><button type="button" class="link-btn" data-act="wszystkie">${pokazWszystkie ? 'Tylko nowe' : 'Pokaż też załatwione'}</button></div>
+        ${zgl.length ? `<ul class="panel-zgl">${zgl.map((z) => `<li class="${z.zalatwione_at ? 'done' : ''}">
+          <div><b>${esc(z.temat)}</b><small>${fmtT(z.created_at)}${z.email ? ` · ${esc(z.email)}` : ''}${z.rodzaj ? ` · ${esc(z.rodzaj)}` : ''}</small>${z.opis ? `<p>${esc(z.opis)}</p>` : ''}</div>
+          <button type="button" class="btn btn-ghost btn-sm" data-zalatw="${z.id}">${z.zalatwione_at ? 'Przywróć' : 'Załatwione'}</button></li>`).join('')}</ul>` : '<p class="muted">Brak zgłoszeń. 🎉</p>'}
+      </section>
+      <section class="card">
+        <h2 class="card-title">Kody dostępu</h2>
+        ${kody.length ? `<div class="table-wrap"><table class="panel-table"><thead><tr><th>Partia</th><th>Wykorzystane</th><th>Ważność</th><th>Przedmioty</th></tr></thead><tbody>
+          ${kody.map((k) => `<tr><td>${esc(k.partia)}</td><td>${k.uzyte}/${k.wszystkie}</td><td>${k.do_dnia ? `do ${fmtDay(new Date(k.do_dnia).getTime())}` : `${k.dni} dni`}</td><td>${esc(k.przedmioty || 'wszystkie')}</td></tr>`).join('')}</tbody></table></div>`
+          : '<p class="muted">Nie wygenerowano jeszcze kodów.</p>'}
+        <p class="muted small">Nowe kody: <code>node narzedzia/kody.mjs --ile 50 --do 2027-05-31 --przedmioty biologia --partia naffy-bio</code> (z kluczem serwisowym, na swoim komputerze).</p>
+      </section>
+      <section class="card">
+        <h2 class="card-title">Uczeń</h2>
+        <form class="pop-row" id="p-szukaj"><input class="type-input" name="email" type="email" placeholder="e-mail ucznia" aria-label="E-mail ucznia" required><button class="btn btn-ghost btn-sm">Szukaj</button></form>
+        <div id="p-uczen"></div>
+        <h3 class="panel-sub">Nadaj dostęp ręcznie</h3>
+        <form class="panel-form" id="p-nadaj">
+          <input class="type-input" name="email" type="email" placeholder="e-mail" aria-label="E-mail" required>
+          <select class="type-input" name="przedmiot" aria-label="Przedmiot"><option value="">Wszystkie przedmioty</option>${['biologia', 'historia', 'wos'].map((id) => `<option value="${id}">${esc(nazwaPrzedmiotu(id))}</option>`).join('')}</select>
+          <input class="type-input" name="do" type="date" value="2027-05-31" aria-label="Ważny do" required>
+          <button class="btn btn-primary btn-sm">Nadaj</button>
+        </form>
+      </section>
+      ${msg ? `<p class="acc-msg" role="status">${esc(msg)}</p>` : ''}`;
+    app.querySelector('[data-act="wszystkie"]').addEventListener('click', async () => {
+      pokazWszystkie = !pokazWszystkie;
+      zgl = await rpc('admin_zgloszenia', { wszystkie: pokazWszystkie }).catch(() => zgl);
+      render();
+    });
+    app.querySelectorAll('[data-zalatw]').forEach((b) => b.addEventListener('click', async () => {
+      b.disabled = true;
+      try {
+        await rpc('admin_zalatw', { p_id: Number(b.dataset.zalatw) });
+        [zgl, st] = await Promise.all([rpc('admin_zgloszenia', { wszystkie: pokazWszystkie }), rpc('admin_statystyki')]);
+        render();
+      } catch (e) { b.disabled = false; toast(e.message); }
+    }));
+    app.querySelector('#p-szukaj').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const box = app.querySelector('#p-uczen');
+      try {
+        const u = await rpc('admin_uczen', { p_email: e.target.email.value });
+        if (!u) { box.innerHTML = '<p class="muted">Nie ma konta z tym e-mailem.</p>'; return; }
+        const dost = [
+          u.pelny?.wazne_do ? `Wszystkie przedmioty do ${fmtDay(new Date(u.pelny.wazne_do).getTime())} (${esc(u.pelny.zrodlo || '')})` : '',
+          ...(u.przedmioty || []).map((p) => `${esc(nazwaPrzedmiotu(p.przedmiot))} do ${fmtDay(new Date(p.wazne_do).getTime())} (${esc(p.zrodlo || '')}${p.plan === 'miesiac' ? ', miesięcznie' : ''})`),
+        ].filter(Boolean);
+        box.innerHTML = `<ul class="panel-list"><li><span>Konto od</span><b>${fmtDay(new Date(u.od).getTime())}</b></li>
+          <li><span>Ostatnia aktywność</span><b>${u.ostatnio ? fmtT(u.ostatnio) : '—'}</b></li></ul>
+          <p class="small">${dost.length ? dost.join('<br>') : 'Brak płatnego dostępu.'}</p>`;
+      } catch (err) { box.innerHTML = `<p class="acc-msg">${esc(err.message)}</p>`; }
+    });
+    app.querySelector('#p-nadaj').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const f = e.target;
+      try {
+        await rpc('admin_nadaj', { p_email: f.email.value, p_przedmiot: f.przedmiot.value || null, p_do: f.do.value });
+        st = await rpc('admin_statystyki');
+        render(`Nadano dostęp dla ${f.email.value}.`);
+      } catch (err) { toast(err.message); }
+    });
+  };
+  render();
+}
+
 const routes = [
   [/^#?\/?$/, viewHome],
   [/^#\/d\/([^/]+)\/([^/]+)$/, viewDzial],
@@ -3742,6 +3867,7 @@ const routes = [
   [/^#\/podcast$/, viewPodcast],
   [/^#\/os-czasu$/, viewOsCzasu],
   [/^#\/plany(?:\/(ok))?$/, viewPlany],
+  [/^#\/panel$/, viewPanel],
 ];
 
 let lastHash = null;
