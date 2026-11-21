@@ -1,6 +1,6 @@
 # Podcast IndexLab · Biologia — plan 84 odcinków
 
-**Format** (ustalony po pilotażu, odcinki 4–5):
+**Format** (ustalony po pilotażu; odcinki 1–10 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
 - **Temat:** 10–12 min, ok. 1 400 słów.
 - **Powtórka działu:** 18–20 min, ok. 2 500 słów.
 - **Razem:** ok. 17 h.
@@ -23,52 +23,52 @@
 
 ## Dział 1. Umiejętności egzaminacyjne
 
-**1. Czasowniki operacyjne i budowa odpowiedzi** `b-czasowniki` ⬜
+**1. Czasowniki operacyjne i budowa odpowiedzi** `b-czasowniki` ✅
 - **Haczyk:** dwie odpowiedzi na to samo pytanie, obie prawdziwe — jedna za 0, druga za 1 pkt. Dlaczego?
 - **Treść:** „wyjaśnij”, „wykaż”, „uzasadnij”, „określ”, „porównaj”, „sformułuj wniosek”. Każde polecenie ma swój przepis.
 - **Matura:** odpowiedź „przyczyna → mechanizm → skutek”; typowe błędy: tautologie, odpowiedź nie na temat.
 
-**2. Metodologia badań biologicznych** `b-metodologia` ⬜
+**2. Metodologia badań biologicznych** `b-metodologia` ✅
 - **Haczyk:** Van Helmont i wierzba ważąca 74 kg więcej po 5 latach — dobre doświadczenie, zły wniosek.
 - **Treść:** problem badawczy, hipoteza, zmienna niezależna i zależna, próba badawcza i kontrolna, powtórzenia.
 - **Matura:** formułowanie problemu i hipotezy; „dlaczego wszystkie rośliny rosły w tych samych warunkach”.
 
-**3. Analiza danych: wykresy, tabele, statystyka** `b-dane` ⬜
+**3. Analiza danych: wykresy, tabele, statystyka** `b-dane` ✅
 - **Haczyk:** wykres, na którym lody „powodują” utonięcia — korelacja to nie przyczyna.
 - **Treść:** czytanie osi, trend, odchylenie standardowe, słupki błędu, wartość średnia vs mediana.
 - **Matura:** pułapki „o ponad”, „dwukrotnie”, porównania procentowe; ocena P/F na podstawie danych.
 
-**4. Konstruowanie wykresów, tabel i schematów** `b-wykresy` ⬜
+**4. Konstruowanie wykresów, tabel i schematów** `b-wykresy` ✅
 - **Haczyk:** egzaminator ma przed sobą 40 tysięcy wykresów — za co zabiera punkt w pierwszej sekundzie?
 - **Treść:** liniowy czy słupkowy, opis osi z jednostkami, skala, legenda, tytuł tabeli.
 - **Matura:** lista kontrolna zasad oceniania CKE dla wykresu.
 
-**5. Powtórka działu: Umiejętności egzaminacyjne** `umiejetnosci` ⬜
+**5. Powtórka działu: Umiejętności egzaminacyjne** `umiejetnosci` ✅
 - **Treść:** jedno doświadczenie przeprowadzone od problemu do wniosku, z wykresem i omówieniem, krok po kroku.
 
 ## Dział 2. Biochemia
 
-**6. Woda, makro- i mikroelementy** `b-woda` ✏️ (gotowy, ok. 1 740 słów → skrócić do ok. 1 400)
+**6. Woda, makro- i mikroelementy** `b-woda` ✅
 - **Haczyk:** jezioro zamarza od góry — gdyby lód tonął, ryby by nie przeżyły.
 - **Treść:** 3 pary pierwiastek–obraz; polarność i wiązania wodorowe; 3 rodziny właściwości wody; turgor.
 - **Matura:** „właściwość + skutek dla organizmu”; chloroza: Mg — stare liście, Fe — młode.
 
-**7. Węglowodany** `b-weglowodany` ✏️ (gotowy, ok. 1 740 słów → skrócić)
+**7. Węglowodany** `b-weglowodany` ✅
 - **Haczyk:** ziemniak i bawełniana koszulka — ta sama glukoza.
 - **Treść:** pentozy i heksozy, wiązanie glikozydowe, dwucukry, skrobia, glikogen, celuloza, chityna.
 - **Matura:** próba Trommera (sacharoza ujemna), płyn Lugola, doświadczenie z amylazą.
 
-**8. Białka** `b-bialka` ⬜
+**8. Białka** `b-bialka` ✅
 - **Haczyk:** ugotowane jajko już nigdy nie wróci do stanu surowego.
 - **Treść:** aminokwasy, wiązanie peptydowe, struktura I–IV rzędowa, mostki disiarczkowe, denaturacja vs koagulacja, funkcje białek.
 - **Matura:** „określ rzędowość i uzasadnij”; denaturacja w doświadczeniach (temperatura, pH, sole metali ciężkich); reakcja biuretowa.
 
-**9. Lipidy** `b-lipidy` ⬜
+**9. Lipidy** `b-lipidy` ✅
 - **Haczyk:** wielbłąd nie trzyma wody w garbie — trzyma tłuszcz, a mimo to ma z niego wodę.
 - **Treść:** tłuszcze proste, nasycone i nienasycone, fosfolipidy, steroidy (cholesterol, hormony), woski.
 - **Matura:** woda metaboliczna, izolacja cieplna, budowa błony; Sudan III.
 
-**10. Kwasy nukleinowe** `b-kwasy` ⬜
+**10. Kwasy nukleinowe** `b-kwasy` ✅
 - **Haczyk:** zdjęcie 51 Rosalind Franklin i wyścig po podwójną helisę.
 - **Treść:** nukleotyd, DNA vs RNA, komplementarność, antyrównoległość, reguła Chargaffa, rodzaje RNA, ATP jako nukleotyd.
 - **Matura:** obliczenia z regułą Chargaffa; końce 5′ i 3′; porównanie DNA i RNA w tabeli.

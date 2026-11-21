@@ -1,7 +1,7 @@
-# IndexLab · Biologia · Odcinek 1 · „Cząsteczka, która udaje, że jest większa”
+# IndexLab · Biologia · Odcinek 6 · „Cząsteczka, która udaje, że jest większa”
 Temat: Woda, makro- i mikroelementy
 Dział: Biochemia
-Długość: ok. 15 minut (ok. 2 000 słów), jeden narrator, spokojnie.
+Długość: ok. 13 minut (ok. 1570 słów), jeden narrator, spokojnie.
 Uwaga dla lektora: nagłówki „##” to tylko podział dla redakcji — nie są czytane. Wskazówki w nawiasach kwadratowych zamieniamy na znaczniki SSML.
 
 ---
@@ -16,15 +16,15 @@ Tuż pod lodem: zero stopni. Dwa metry niżej: dwa stopnie. Przy samym dnie: czt
 
 I właśnie tam, na dnie, w ciemności i w tej czterostopniowej wodzie, czekają na wiosnę ryby. Szczupak, okoń, leszcz. Ich serca biją powoli, ale biją.
 
-Teraz zrób ze mną małe ćwiczenie wyobraźni. Wyobraź sobie, że lód jest cięższy od wody. Tak jak prawie każda inna substancja, kiedy zamarza. Pierwsza kra, która jesienią powstanie na powierzchni, tonie. Potem druga. I trzecia. Jezioro zamarza od dna w górę, warstwa po warstwie, aż zostaje z niego bryła lodu. Ryby nie mają dokąd uciec. A latem słońce roztapia tylko wierzch.
+Teraz wyobraź sobie, że lód jest cięższy od wody, jak prawie każda substancja, kiedy zamarza. Każda kra tonie. Jezioro zamarza od dna w górę, aż zostaje z niego bryła lodu, a ryby nie mają dokąd uciec.
 
 [pauza]
 
-To, że jeziora nie zamieniają się zimą w lodowe bloki, zawdzięczamy jednej małej cząsteczce. Cząsteczce, która zachowuje się tak, jakby była dużo większa, niż jest naprawdę. Do końca tego odcinka dowiesz się, skąd się bierze ta jej dziwność. I zobaczysz, że z tej jednej dziwności wynika prawie wszystko, o co matura pyta w temacie wody.
+To, że jeziora nie zamieniają się zimą w lodowe bloki, zawdzięczamy jednej małej cząsteczce. Cząsteczce, która zachowuje się tak, jakby była dużo większa, niż jest naprawdę. Z tej jej dziwności wynika prawie wszystko, o co matura pyta w temacie wody.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. To pierwszy odcinek biologii, więc zaczynamy od samego dołu. Od tego, z czego jesteśmy zbudowani. Najpierw pierwiastki, potem woda.
+Dzień dobry, tu IndexLab. Zaczynamy dział biochemii, czyli od samego dołu: od tego, z czego jesteśmy zbudowani. Najpierw pierwiastki, potem woda.
 
 ## Część pierwsza: pierwiastki
 
@@ -38,7 +38,7 @@ Biolodzy dzielą pierwiastki na dwie grupy, i kryterium jest jedno: ilość. Mak
 
 [pauza]
 
-Nie będę ci teraz czytał tabeli pierwiastków, bo ze słuchu nikt jej nie zapamięta. Zamiast tego zapamiętaj trzy pary. Każda para to pierwiastek i obraz, który go przypomina.
+Zamiast tabeli pierwiastków zapamiętaj trzy pary: pierwiastek i obraz.
 
 Para pierwsza: magnez i zielony liść. Atom magnezu siedzi w samym środku cząsteczki chlorofilu. Bez magnezu liście żółkną, a fotosynteza słabnie.
 
@@ -80,7 +80,7 @@ I teraz najważniejsze zdanie tego odcinka. Prawie wszystkie niezwykłe właści
 
 ## Część trzecia: trzy rodziny właściwości
 
-Zamiast listy siedmiu punktów, której i tak nie zapamiętasz ze słuchu, podzielmy właściwości wody na trzy rodziny.
+Podzielmy właściwości wody na trzy rodziny.
 
 Rodzina pierwsza: woda i ciepło.
 
@@ -98,7 +98,7 @@ Cząsteczki wody trzymają się siebie nawzajem. To spójność, inaczej kohezja
 
 Ta para tłumaczy, jak woda dociera z korzeni do czubka drzewa wysokiego na trzydzieści metrów. Liście odparowują wodę i ciągną za sobą nieprzerwany słup wody w naczyniach, jak sznur. Ten sznur się nie zrywa właśnie dzięki spójności.
 
-Na powierzchni wody spójność daje też napięcie powierzchniowe. Powierzchnia zachowuje się jak napięta folia, i dlatego nartnik może po niej chodzić.
+Na powierzchni spójność daje napięcie powierzchniowe: woda zachowuje się jak napięta folia, po której chodzi nartnik.
 
 [pauza]
 
@@ -126,7 +126,7 @@ Woda i ciepło. Woda, która się trzyma. Woda, która rozpuszcza. Jeśli to mas
 
 [muzyka, krótko]
 
-Na maturze woda rzadko występuje jako osobne zadanie „wymień właściwości wody”. Zwykle pojawia się w tle. Na przykład w zadaniu o poceniu się, o transpiracji albo o lodzie na jeziorze.
+Na maturze woda pojawia się zwykle w tle: w zadaniu o poceniu się, o transpiracji albo o lodzie na jeziorze.
 
 Najczęstsze polecenie brzmi: „Wyjaśnij znaczenie danej właściwości wody dla organizmów”. I tu jest prosty przepis na punkt. Odpowiedź ma dwie części: najpierw właściwość, potem skutek dla organizmu.
 

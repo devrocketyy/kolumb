@@ -1,7 +1,7 @@
-# IndexLab · Biologia · Odcinek 2 · „Ziemniak i koszulka”
+# IndexLab · Biologia · Odcinek 7 · „Ziemniak i koszulka”
 Temat: Węglowodany
 Dział: Biochemia
-Długość: ok. 15 minut (ok. 2 000 słów), jeden narrator, spokojnie.
+Długość: ok. 13 minut (ok. 1620 słów), jeden narrator, spokojnie.
 Uwaga dla lektora: nagłówki „##” to tylko podział dla redakcji — nie są czytane. „Alfa” i „beta” czytamy pełnymi słowami.
 
 ---
@@ -12,7 +12,7 @@ Połóż na stole dwie rzeczy. Po lewej ugotowany ziemniak. Po prawej stara, baw
 
 [pauza]
 
-Ziemniak możesz zjeść. Kilka godzin później twoje jelito rozłoży go na glukozę, glukoza trafi do krwi, a mięśnie zrobią z niej energię, choćby na wejście po schodach. Koszulkę też możesz próbować zjeść. Przejdzie przez cały przewód pokarmowy właściwie nietknięta.
+Ziemniak zjesz, a twoje jelito rozłoży go na glukozę. Koszulkę też możesz próbować zjeść, ale przejdzie przez przewód pokarmowy nietknięta.
 
 A teraz niespodzianka. Skrobia w ziemniaku i celuloza w bawełnie są zbudowane z tego samego. Z glukozy. Z tysięcy cząsteczek glukozy połączonych w łańcuch. Ta sama cegła, ten sam materiał.
 
@@ -20,7 +20,7 @@ Różnica jest jedna i jest malutka. Chodzi o to, w którą stronę obrócona je
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. W poprzednim odcinku była woda i pierwiastki. Dziś pierwsza wielka grupa związków organicznych: węglowodany. Pójdziemy od najmniejszych do największych. Cukry proste, potem dwucukry, a na końcu wielkie polisacharydy. I na końcu wrócimy do ziemniaka i koszulki.
+Dzień dobry, tu IndexLab. W poprzednim odcinku była woda i pierwiastki. Dziś pierwsza wielka grupa związków organicznych: węglowodany. Od najmniejszych do największych, a na końcu wrócimy do ziemniaka i koszulki.
 
 ## Część pierwsza: cukry proste
 
@@ -88,7 +88,7 @@ Tę spiralę możesz zobaczyć gołym okiem. Kapnij na plasterek ziemniaka płyn
 
 U zwierząt i u grzybów magazynem jest glikogen. Też zbudowany z alfa-glukozy, ale bardzo mocno rozgałęziony, jak gęste drzewo. Gromadzi się w wątrobie i w mięśniach.
 
-Po co tyle gałęzi? Enzymy, które uwalniają glukozę, odcinają ją od końców łańcucha. Każda gałąź to kolejny koniec. Im więcej końców, tym więcej enzymów może pracować naraz i tym szybciej glukoza trafia tam, gdzie trzeba. Przydaje się to, kiedy nagle rzucasz się do biegu za odjeżdżającym autobusem.
+Po co tyle gałęzi? Enzymy, które uwalniają glukozę, odcinają ją od końców łańcucha. Każda gałąź to kolejny koniec. Im więcej końców, tym więcej enzymów może pracować naraz i tym szybciej glukoza trafia tam, gdzie trzeba. Przydaje się to, kiedy biegniesz za odjeżdżającym autobusem.
 
 [pauza]
 
@@ -129,8 +129,6 @@ Skrobia: alfa, spirala, magazyn. Celuloza: beta, prosty drut, rusztowanie.
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
-
-Węglowodany są na maturze co roku. Najczęściej w trzech typach zadań.
 
 Pierwszy typ to doświadczenia. Próba Trommera, płyn Lugola, trawienie skrobi przez amylazę ze śliny. Typowe pytanie: w jednej probówce skrobia ze śliną, w drugiej skrobia ze śliną, którą wcześniej zagotowano. Po pół godzinie dodajesz płyn Lugola. Gdzie będzie granatowo i dlaczego?
 
