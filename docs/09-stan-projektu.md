@@ -81,3 +81,7 @@ Link właściciela: https://app.indexlab.pl/?klucz=ni-D4DOaRe8m (publikacja: `do
 - Uzupełnić dane w regulaminie i polityce prywatności.
 - Wyłączyć tryb prywatny (instrukcja w `docs/06`).
 - Fiszki na fiszki.indexlab.pl/prawa-czlowieka — nie ruszać do końca sezonu olimpijskiego.
+
+## Docelowy model sprzedaży (ustalenie właściciela)
+- **Matura** (dostęp do przedmiotów) — sprzedawana w aplikacji app.indexlab.pl (Stripe Checkout → webhook → `dostep_przedmiot`).
+- **Kursy** — w przyszłości sprzedawane przez stronę internetową indexlab.pl (osobny produkt w Stripe, ta sama zasada `metadata.app` do rozróżniania płatności na wspólnym koncie).
