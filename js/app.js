@@ -3193,15 +3193,20 @@ function viewStats() {
 // ---------- płatny dostęp: plany, zakup, kody ----------
 const maZablokowane = () => subjects.some((s) => s.dzialy.some((d) => d.zablokowany) || s.arkusze.some((a) => a.zablokowany));
 
+const PRZEDMIOTY_PLATNE = ['biologia', 'historia', 'wos'];
+const nazwaPrzedmiotu = (id) => subjects.find((x) => x.id === id)?.nazwa || id;
+const zl = (t) => Number(String(t).replace(/[^\d,]/g, '').replace(',', '.')) || 0;
+
 function premiumCard() {
   if (!dostep.wlaczone()) return '';
-  if (dostep.aktywny()) {
-    const st = dostep.biezacy();
+  const s = currentSubject();
+  if (s && dostep.aktywny(s.id)) {
+    const st = dostep.pelny() ? dostep.biezacy() : dostep.mojePrzedmioty().find((r) => r.przedmiot === s.id);
     return `<a class="card plan-card" href="#/plany"><span class="quest-icon">${ICONS.check}</span>
-      <span class="plan-text"><strong>IndexLab Premium</strong><small>Aktywny do ${fmtDay(new Date(st.wazne_do).getTime())}${st.plan === 'miesiac' && st.status === 'active' ? ' · odnawia się automatycznie' : ''}</small></span>${ICONS.next}</a>`;
+      <span class="plan-text"><strong>${dostep.pelny() ? 'IndexLab Premium' : `${esc(s.nazwa)} — pełny kurs`}</strong><small>Aktywny do ${fmtDay(new Date(st.wazne_do).getTime())}${st.plan === 'miesiac' && st.status === 'active' ? ' · odnawia się automatycznie' : ''}</small></span>${ICONS.next}</a>`;
   }
   return maZablokowane() ? `<a class="card plan-card premium-cta" href="#/plany"><span class="quest-icon">${ICONS.lock}</span>
-    <span class="plan-text"><strong>Odblokuj pełny kurs</strong><small>Wszystkie działy, arkusze CKE z omówieniem i bank zadań. Pierwszy dział jest za darmo.</small></span>${ICONS.next}</a>` : '';
+    <span class="plan-text"><strong>Odblokuj pełny kurs${s ? ` — ${esc(s.nazwa)}` : ''}</strong><small>Wszystkie działy, arkusze CKE z omówieniem i bank zadań. Pierwszy dział jest za darmo.</small></span>${ICONS.next}</a>` : '';
 }
 
 async function viewPlany(ok) {
@@ -3210,34 +3215,55 @@ async function viewPlany(ok) {
     return;
   }
   const zalogowany = !!cloud.account();
+  let wybor = null;       // wybrane przedmioty do kupienia
+  let planKup = 'matura'; // 'matura' | 'miesiac'
   const render = (msg = '') => {
     const st = dostep.biezacy();
-    const akt = dostep.aktywny();
+    const pelny = dostep.pelny();
+    const moje = dostep.mojePrzedmioty();
+    const posiadane = new Set(pelny ? PRZEDMIOTY_PLATNE : moje.map((r) => r.przedmiot));
+    const doKupienia = PRZEDMIOTY_PLATNE.filter((id) => !posiadane.has(id) && subjects.some((x) => x.id === id));
+    if (!wybor) wybor = new Set(doKupienia.includes(currentSubject()?.id) ? [currentSubject().id] : doKupienia.slice(0, 1));
+    const n = wybor.size;
+    const cena = n ? dostep.cenaPakietu(planKup, n) : '';
+    const osobno = [...wybor].length * zl(dostep.cenaPakietu(planKup, 1));
+    const oszcz = n > 1 ? osobno - zl(cena) : 0;
+    const maturaDo = CFG.PREMIUM.maturaDo || 'matury';
     app.innerHTML = `
       ${pageHead('IndexLab Premium', '#/', 'Plany')}
-      ${ok && !akt ? '<section class="card"><p><strong>Dziękujemy!</strong> Czekamy na potwierdzenie płatności — to zwykle kilka sekund.</p></section>' : ''}
-      ${akt ? `<section class="card premium-on">
-          <h2 class="card-title">Masz pełny dostęp</h2>
+      ${ok && !dostep.aktywny() ? '<section class="card"><p><strong>Dziękujemy!</strong> Czekamy na potwierdzenie płatności — to zwykle kilka sekund.</p></section>' : ''}
+      ${pelny ? `<section class="card premium-on">
+          <h2 class="card-title">Masz pełny dostęp do wszystkich przedmiotów</h2>
           <p>Aktywny do <strong>${fmtDay(new Date(st.wazne_do).getTime())}</strong>${st.plan === 'miesiac' && st.status === 'active' ? ' — subskrypcja odnawia się co miesiąc.' : '.'}</p>
           ${st.zrodlo === 'stripe' ? '<button type="button" class="btn btn-ghost btn-lg" data-act="portal">Zarządzaj płatnościami</button>' : ''}
-        </section>` : `<section class="card">
-          <h2 class="card-title">Co dostajesz</h2>
+        </section>` : ''}
+      ${!pelny && moje.length ? `<section class="card premium-on">
+          <h2 class="card-title">Twoje kursy</h2>
+          <ul class="moje-kursy">${moje.map((r) => `<li><span class="mk-check">${ICONS.check}</span><b>${esc(nazwaPrzedmiotu(r.przedmiot))}</b><small>do ${fmtDay(new Date(r.wazne_do).getTime())}${r.plan === 'miesiac' && r.status === 'active' ? ' · odnawia się co miesiąc' : ''}</small></li>`).join('')}</ul>
+          ${moje.some((r) => r.zrodlo === 'stripe') ? '<button type="button" class="btn btn-ghost btn-lg" data-act="portal">Zarządzaj płatnościami</button>' : ''}
+        </section>` : ''}
+      ${!pelny && doKupienia.length ? `<section class="card kup-box">
+          <h2 class="card-title">${moje.length ? 'Dodaj kolejny przedmiot' : 'Wybierz przedmioty'}</h2>
+          <div class="kup-przedmioty" role="group" aria-label="Przedmioty">${doKupienia.map((id) => `<button type="button" class="kup-chip ${wybor.has(id) ? 'on' : ''}" data-przedmiot="${esc(id)}" aria-pressed="${wybor.has(id)}">${ICONS.check}<span>${esc(nazwaPrzedmiotu(id))}</span></button>`).join('')}</div>
+          <div class="schem-tabs kup-plan" role="group" aria-label="Rodzaj płatności">
+            <a href="#" class="${planKup === 'matura' ? 'on' : ''}" data-plan="matura">Do matury</a>
+            <a href="#" class="${planKup === 'miesiac' ? 'on' : ''}" data-plan="miesiac">Miesięcznie</a>
+          </div>
+          ${n ? `<p class="plan-cena"><b>${esc(cena)}</b><span>${planKup === 'matura' ? `jednorazowo · dostęp do ${esc(maturaDo)}` : 'miesięcznie · anulujesz w każdej chwili'}</span></p>
+          ${oszcz > 0 ? `<p class="kup-oszcz">Pakiet ${n} przedmiotów — oszczędzasz ${oszcz} zł względem zakupu osobno.</p>` : ''}
+          <p class="muted small">${planKup === 'matura' ? 'Płatność BLIK-iem, Przelewy24 lub kartą. Bez odnawiania.' : 'Płatność kartą, Apple Pay lub Google Pay. Odnawia się co miesiąc.'}</p>` : '<p class="muted">Zaznacz co najmniej jeden przedmiot.</p>'}
+          ${zalogowany ? `<label class="auth-check zgoda-kup"><input type="checkbox" id="zgoda-kup"><span>Chcę mieć dostęp od razu. Wiem, że po rozpoczęciu dostarczania treści tracę prawo odstąpienia od umowy w ciągu 14 dni (<a href="prawne/regulamin.html#odstapienie" target="_blank" rel="noopener">§ 7 Regulaminu</a>).</span></label>` : connectHtml(true, 'Dostęp przypisujemy do konta e-mail, żeby działał na telefonie, tablecie i komputerze. Twoje dotychczasowe postępy zostaną zachowane.')}
+          <button type="button" class="btn btn-primary btn-xl" data-kup ${zalogowany && n ? '' : 'disabled'}>Przejdź do płatności</button>
+        </section>
+        <section class="card">
+          <h2 class="card-title">Co dostajesz w każdym kursie</h2>
           <ul class="premium-list">
             <li>Wszystkie działy: fiszki, lekcje i pytania testowe z całej podstawy programowej</li>
             <li>Arkusze CKE z omówieniem każdego zadania</li>
             <li>Bank zadań maturalnych i próbne matury na czas</li>
             <li>Plan nauki dopasowany do daty matury</li>
           </ul>
-        </section>
-        ${zalogowany ? '' : connectHtml(true, 'Dostęp przypisujemy do konta e-mail, żeby działał na telefonie, tablecie i komputerze. Twoje dotychczasowe postępy zostaną zachowane.')}
-        ${zalogowany ? `<label class="auth-check zgoda-kup"><input type="checkbox" id="zgoda-kup"><span>Chcę mieć dostęp od razu. Wiem, że po rozpoczęciu dostarczania treści tracę prawo odstąpienia od umowy w ciągu 14 dni (<a href="prawne/regulamin.html#odstapienie" target="_blank" rel="noopener">§ 7 Regulaminu</a>).</span></label>` : ''}
-        <div class="plany">${dostep.plany().map((p) => `<section class="card plan-oferta ${p.polecany ? 'polecany' : ''}">
-          ${p.polecany ? '<span class="eyebrow">Najczęściej wybierany</span>' : ''}
-          <h2 class="card-title">${esc(p.nazwa)}</h2>
-          <p class="plan-cena"><b>${esc(p.cena)}</b><span>${esc(p.okres)}</span></p>
-          <p class="muted">${esc(p.opis)}</p>
-          <button type="button" class="btn ${p.polecany ? 'btn-primary' : 'btn-ghost'} btn-lg" data-kup="${esc(p.id)}" ${zalogowany ? '' : 'disabled'}>Wybieram</button>
-        </section>`).join('')}</div>`}
+        </section>` : ''}
       <section class="card">
         <h2 class="card-title">Masz kod dostępu?</h2>
         <form class="pop-row" id="kod-form"><input class="type-input" name="kod" maxlength="40" placeholder="np. ABCD-EFGH-JKLM" autocomplete="off" autocapitalize="characters" aria-label="Kod dostępu" ${zalogowany ? '' : 'disabled'}><button type="submit" class="btn btn-ghost btn-sm" ${zalogowany ? '' : 'disabled'}>Aktywuj</button></form>
@@ -3245,13 +3271,20 @@ async function viewPlany(ok) {
       </section>
       ${msg ? `<p class="acc-msg" role="status">${esc(msg)}</p>` : ''}
       <p class="muted small">Płatności obsługuje Stripe — IndexLab nie widzi danych Twojej karty. Subskrypcję anulujesz w każdej chwili w „Zarządzaj płatnościami”.</p>`;
+    app.querySelectorAll('[data-przedmiot]').forEach((b) => b.addEventListener('click', () => {
+      const id = b.dataset.przedmiot;
+      if (wybor.has(id)) wybor.delete(id); else wybor.add(id);
+      game.sound('tap'); render(msg);
+    }));
+    app.querySelectorAll('[data-plan]').forEach((b) => b.addEventListener('click', (e) => { e.preventDefault(); planKup = b.dataset.plan; render(msg); }));
     bindConnect(() => viewPlany());
-    app.querySelectorAll('[data-kup]').forEach((b) => b.addEventListener('click', async () => {
+    app.querySelector('[data-kup]')?.addEventListener('click', async (e) => {
+      const b = e.currentTarget;
       const z = app.querySelector('#zgoda-kup');
       if (z && !z.checked) { z.closest('label').classList.add('shake'); setTimeout(() => z.closest('label').classList.remove('shake'), 500); return toast('Zaznacz zgodę na natychmiastowy dostęp.'); }
       b.disabled = true;
-      try { await dostep.kup(b.dataset.kup); } catch (e) { b.disabled = false; toast(e.message); }
-    }));
+      try { await dostep.kup(planKup, [...wybor]); } catch (err) { b.disabled = false; toast(err.message); }
+    });
     app.querySelector('[data-act="portal"]')?.addEventListener('click', () => dostep.panelKlienta().catch((e) => toast(e.message)));
     app.querySelector('#kod-form').addEventListener('submit', async (e) => {
       e.preventDefault();
@@ -3262,7 +3295,8 @@ async function viewPlany(ok) {
         await dostep.wykorzystajKod(kod);
         await zaladujTresci();
         game.sound('ok');
-        render('Kod aktywny — pełny kurs odblokowany.');
+        wybor = null;
+        render('Kod aktywny — kurs odblokowany.');
       } catch (err) { render(err.message); }
     });
   };
@@ -3276,7 +3310,8 @@ async function viewPlany(ok) {
   }
   if (!location.hash.startsWith('#/plany')) return;
   if (dostep.aktywny() && maZablokowane()) await zaladujTresci();
-  render(ok && dostep.aktywny() ? 'Płatność przyjęta — pełny kurs odblokowany.' : '');
+  wybor = null;
+  render(ok && dostep.aktywny() ? 'Płatność przyjęta — kurs odblokowany.' : '');
 }
 
 // ---------- ustawienia ----------

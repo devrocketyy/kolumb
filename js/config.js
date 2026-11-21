@@ -13,11 +13,13 @@ export const CLOUD = {
 // a płatności obsługują funkcje supabase/functions (Stripe). Instrukcja: README → „Płatny dostęp”.
 export const PREMIUM = {
   wlaczone: false,
-  // Ceny tylko do wyświetlenia — kwoty pobiera Stripe (ceny STRIPE_PRICE_* w funkcjach).
-  plany: [
-    { id: 'miesiac', nazwa: 'Miesięcznie', cena: '39 zł', okres: 'miesięcznie', opis: 'Odnawiane co miesiąc, anulujesz w każdej chwili. Płatność kartą, Apple Pay lub Google Pay.' },
-    { id: 'matura', nazwa: 'Do matury', cena: '199 zł', okres: 'jednorazowo', opis: 'Pełny dostęp do końca maja 2027 bez odnawiania. Płatność BLIK-iem, przelewem lub kartą.', polecany: true },
-  ],
+  // Ceny tylko do wyświetlenia — kwoty pobiera Stripe (sekrety STRIPE_PRICE_MATURA_1/2/3 i STRIPE_PRICE_MIESIAC_1/2/3).
+  // Klucz = liczba przedmiotów w pakiecie.
+  cennik: {
+    matura: { 1: '179 zł', 2: '289 zł', 3: '369 zł' },
+    miesiac: { 1: '35 zł', 2: '55 zł', 3: '69 zł' },
+  },
+  maturaDo: 'końca maja 2027',
   sklepKodow: '', // np. adres strony kursu na Naffy, gdzie można kupić kod dostępu
 };
 

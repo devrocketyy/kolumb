@@ -1490,3 +1490,22 @@ body.wkrotce-on .topbar, body.wkrotce-on .tabbar { display: none; }
 .schem-tabs a { display: grid; place-items: center; min-height: 42px; border-radius: 10px; font-weight: 600; color: var(--text-2); text-decoration: none; transition: background .15s, color .15s; }
 .schem-tabs a.on { background: var(--surface); color: var(--text); box-shadow: 0 1px 3px rgb(0 0 0 / .12), inset 0 0 0 1px var(--border-2); }
 .schem-steps .st-t b { font-weight: 650; }
+
+/* ekran planów: wybór przedmiotów i pakietu */
+.kup-box { display: grid; gap: 14px; }
+.kup-box .card-title { margin: 0; }
+.kup-przedmioty { display: flex; flex-wrap: wrap; gap: 8px; }
+.kup-chip { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px 0 12px; border-radius: 999px; border: 1.5px solid var(--border-2); background: var(--surface); color: var(--text); font: inherit; font-weight: 650; cursor: pointer; transition: background .15s, border-color .15s, color .15s; }
+.kup-chip svg { width: 18px; height: 18px; opacity: .25; }
+.kup-chip.on { background: var(--text); border-color: var(--text); color: var(--surface); }
+.kup-chip.on svg { opacity: 1; }
+.kup-plan { margin: 0; }
+.kup-box .plan-cena { margin: 0; }
+.kup-oszcz { margin: -6px 0 0; font-weight: 650; }
+.moje-kursy { list-style: none; padding: 0; margin: 0 0 12px; display: grid; gap: 10px; }
+.moje-kursy li { display: grid; grid-template-columns: 28px 1fr; column-gap: 10px; align-items: center; }
+.moje-kursy .mk-check { grid-row: span 2; width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; background: var(--text); color: var(--surface); }
+.moje-kursy .mk-check svg { width: 16px; height: 16px; }
+.moje-kursy small { color: var(--text-2); }
+.kup-box .plan-cena b { white-space: nowrap; }
+.kup-box .plan-cena span { flex: 1; min-width: 0; }

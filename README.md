@@ -125,11 +125,18 @@ Uruchomienie:
 
 1. Supabase → *SQL Editor* → uruchom `supabase/migrations/001_dostep.sql` (tworzy też tabelę `postepy`).
 2. Wgraj treści: `SUPABASE_URL=… SUPABASE_SERVICE_ROLE_KEY=… node narzedzia/wgraj-tresci.mjs` (podgląd: `--sprawdz`; listę darmowych działów zmienisz w `DEMO` na początku skryptu). Uruchamiaj po każdej zmianie treści.
-3. Stripe → utwórz produkt z dwiema cenami: cykliczną miesięczną i jednorazową; włącz metody płatności BLIK i Przelewy24.
+3. Supabase → *SQL Editor* → uruchom `supabase/migrations/004_dostep_przedmioty.sql` (dostęp osobno na każdy przedmiot).
+   Stripe → utwórz 6 cen (każda jako osobny „Price” — może być w jednym produkcie „IndexLab”) i włącz BLIK oraz Przelewy24:
+   - jednorazowe „do matury”: 1 przedmiot, 2 przedmioty, 3 przedmioty;
+   - cykliczne miesięczne: 1, 2 i 3 przedmioty.
+   Kwoty do wyświetlenia w aplikacji są w `js/config.js` → `PREMIUM.cennik` (muszą zgadzać się ze Stripe).
 4. Funkcje (wymaga [Supabase CLI](https://supabase.com/docs/guides/cli)):
 
 ```bash
-supabase secrets set STRIPE_SECRET_KEY=sk_live_… STRIPE_WEBHOOK_SECRET=whsec_… STRIPE_PRICE_MIESIAC=price_… STRIPE_PRICE_MATURA=price_… APP_URL=https://devrocketyy.github.io/kolumb/ DOSTEP_MATURA_DO=2027-05-31
+supabase secrets set STRIPE_SECRET_KEY=sk_live_… STRIPE_WEBHOOK_SECRET=whsec_… \
+  STRIPE_PRICE_MATURA_1=price_… STRIPE_PRICE_MATURA_2=price_… STRIPE_PRICE_MATURA_3=price_… \
+  STRIPE_PRICE_MIESIAC_1=price_… STRIPE_PRICE_MIESIAC_2=price_… STRIPE_PRICE_MIESIAC_3=price_… \
+  APP_URL=https://app.indexlab.pl/ DOSTEP_MATURA_DO=2027-05-31
 supabase functions deploy checkout portal stripe-webhook
 ```
 

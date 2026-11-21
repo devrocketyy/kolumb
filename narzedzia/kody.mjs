@@ -3,6 +3,7 @@
 //
 //   SUPABASE_URL=… SUPABASE_SERVICE_ROLE_KEY=… node narzedzia/kody.mjs --ile 100 --do 2027-05-31 --partia naffy-2026-11
 //   SUPABASE_URL=… SUPABASE_SERVICE_ROLE_KEY=… node narzedzia/kody.mjs --ile 50 --dni 30 --partia naffy-miesiac
+//   … --przedmioty biologia,wos   ← kod tylko na wybrane przedmioty (bez tej opcji: wszystkie; wymaga migracji 004)
 //
 // Kody trafiają do pliku CSV (wypisanego na końcu) — wgraj go do sklepu. W bazie zostaje tylko SHA-256 kodu,
 // więc wyciek bazy nie ujawnia kodów. Pliku CSV nie dodawaj do repozytorium.
@@ -15,6 +16,9 @@ const dni = arg('dni') ? Number(arg('dni')) : null;
 const doDnia = arg('do') ? new Date(`${arg('do')}T23:59:59+02:00`).toISOString() : null;
 const partia = arg('partia', `partia-${new Date().toISOString().slice(0, 10)}`);
 const plan = arg('plan', doDnia ? 'matura' : 'kod');
+const PRZ = ['biologia', 'historia', 'wos'];
+const przedmioty = arg('przedmioty') ? [...new Set(arg('przedmioty').split(',').map((x) => x.trim()))] : null;
+if (przedmioty && przedmioty.some((x) => !PRZ.includes(x))) { console.error(`--przedmioty: dozwolone ${PRZ.join(', ')}`); process.exit(1); }
 if (!dni && !doDnia) { console.error('Podaj --dni N albo --do RRRR-MM-DD.'); process.exit(1); }
 
 const ALFABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // bez 0/O i 1/I
@@ -29,9 +33,9 @@ if (!URL_ || !KEY) { console.error('Ustaw SUPABASE_URL i SUPABASE_SERVICE_ROLE_K
 const res = await fetch(`${URL_}/rest/v1/kody`, {
   method: 'POST',
   headers: { apikey: KEY, Authorization: `Bearer ${KEY}`, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
-  body: JSON.stringify(kody.map((k) => ({ kod_hash: hash(k), plan, dni, do_dnia: doDnia, partia }))),
+  body: JSON.stringify(kody.map((k) => ({ kod_hash: hash(k), plan, dni, do_dnia: doDnia, partia, ...(przedmioty ? { przedmioty } : {}) }))),
 });
 if (!res.ok) { console.error(`Błąd ${res.status}: ${await res.text()}`); process.exit(1); }
 const plik = `kody-${partia}.csv`;
 writeFileSync(plik, 'kod\n' + kody.join('\n') + '\n');
-console.log(`Zapisano ${ile} kodów (${doDnia ? `ważne do ${arg('do')}` : `${dni} dni`}) → ${plik}`);
+console.log(`Zapisano ${ile} kodów (${doDnia ? `ważne do ${arg('do')}` : `${dni} dni`}; ${przedmioty ? przedmioty.join(', ') : 'wszystkie przedmioty'}) → ${plik}`);

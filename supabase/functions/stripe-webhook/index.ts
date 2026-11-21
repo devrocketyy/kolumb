@@ -2,7 +2,7 @@
 // W Stripe: Developers → Webhooks → endpoint https://<projekt>.supabase.co/functions/v1/stripe-webhook
 // zdarzenia: checkout.session.completed, invoice.paid, customer.subscription.updated, customer.subscription.deleted
 import Stripe from 'npm:stripe@17.7.0';
-import { stripe, admin } from '../_shared/wspolne.ts';
+import { stripe, admin, listaPrzedmiotow } from '../_shared/wspolne.ts';
 
 const SECRET = Deno.env.get('STRIPE_WEBHOOK_SECRET') ?? '';
 const MATURA_DO = Deno.env.get('DOSTEP_MATURA_DO') ?? '2027-05-31'; // koniec dostępu „do matury”
@@ -22,6 +22,17 @@ async function zapisz(uid: string, zmiany: Record<string, unknown>, wydluz?: str
   if (error) throw error;
 }
 
+// Zakup konkretnych przedmiotów → wiersze w dostep_przedmiot (dostęp tylko się wydłuża).
+async function zapiszPrzedmioty(uid: string, przedmioty: string[], zmiany: Record<string, unknown>, wydluz?: string | null) {
+  for (const p of przedmioty) {
+    const { data: stary } = await admin.from('dostep_przedmiot').select('wazne_do').eq('user_id', uid).eq('przedmiot', p).maybeSingle();
+    const row: Record<string, unknown> = { user_id: uid, przedmiot: p, ...zmiany, updated_at: new Date().toISOString() };
+    if (wydluz) row.wazne_do = !stary?.wazne_do || new Date(wydluz) > new Date(stary.wazne_do) ? wydluz : stary.wazne_do;
+    const { error } = await admin.from('dostep_przedmiot').upsert(row);
+    if (error) throw error;
+  }
+}
+
 async function uidKlienta(customer: string | null) {
   if (!customer) return null;
   const { data } = await admin.from('dostep').select('user_id').eq('stripe_customer', customer).maybeSingle();
@@ -32,6 +43,14 @@ async function zSubskrypcji(sub: Stripe.Subscription) {
   const uid = sub.metadata?.user_id || (await uidKlienta(sub.customer as string));
   if (!uid) return;
   const aktywna = sub.status === 'active' || sub.status === 'trialing';
+  const przedmioty = listaPrzedmiotow(sub.metadata?.przedmioty);
+  if (przedmioty.length) {
+    await admin.from('dostep').upsert({ user_id: uid, stripe_customer: sub.customer, updated_at: new Date().toISOString() });
+    await zapiszPrzedmioty(uid, przedmioty, { plan: 'miesiac', zrodlo: 'stripe', status: sub.status, stripe_subscription: sub.id },
+      aktywna ? iso(koniecOkresu(sub)) : null);
+    return;
+  }
+  // subskrypcja sprzed podziału na przedmioty — pełny dostęp
   await zapisz(uid, { plan: 'miesiac', zrodlo: 'stripe', status: sub.status, stripe_customer: sub.customer, stripe_subscription: sub.id },
     aktywna ? iso(koniecOkresu(sub)) : null);
 }
@@ -53,7 +72,14 @@ Deno.serve(async (req) => {
         if (s.mode === 'subscription' && s.subscription) {
           await zSubskrypcji(await stripe.subscriptions.retrieve(s.subscription as string));
         } else if (s.mode === 'payment' && s.payment_status === 'paid') {
-          await zapisz(uid, { plan: 'matura', zrodlo: 'stripe', status: 'active', stripe_customer: s.customer }, new Date(`${MATURA_DO}T23:59:59+02:00`).toISOString());
+          const koniec = new Date(`${MATURA_DO}T23:59:59+02:00`).toISOString();
+          const przedmioty = listaPrzedmiotow(s.metadata?.przedmioty);
+          if (przedmioty.length) {
+            await admin.from('dostep').upsert({ user_id: uid, stripe_customer: s.customer, updated_at: new Date().toISOString() });
+            await zapiszPrzedmioty(uid, przedmioty, { plan: 'matura', zrodlo: 'stripe', status: 'active' }, koniec);
+          } else {
+            await zapisz(uid, { plan: 'matura', zrodlo: 'stripe', status: 'active', stripe_customer: s.customer }, koniec);
+          }
         }
         // program poleceń: +7 dni dla poleconego i polecającego (tylko raz, przy pierwszym zakupie)
         const { error: blad } = await admin.rpc('nagrodz_polecenie', { p_uid: uid });

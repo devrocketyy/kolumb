@@ -4,23 +4,34 @@ import * as cloud from './cloud.js';
 import { PREMIUM } from './config.js';
 
 export const wlaczone = () => !!PREMIUM.wlaczone && cloud.enabled();
-export const plany = () => PREMIUM.plany || [];
 export const sklepKodow = () => PREMIUM.sklepKodow || '';
 
-let stan = null; // { plan, zrodlo, status, wazne_do } albo null
+let stan = null;   // pełny dostęp do wszystkiego: { plan, zrodlo, status, wazne_do } albo null
+let przedm = [];   // dostęp do pojedynczych przedmiotów: [{ przedmiot, plan, zrodlo, status, wazne_do }]
 
 export async function odswiez() {
-  stan = null;
+  stan = null; przedm = [];
   const c = cloud.account();
   const token = await cloud.tokenOrNull();
   if (!token) return null;
-  const rows = await cloud.api(`/rest/v1/dostep?select=plan,zrodlo,status,wazne_do&user_id=eq.${c.uid}`, { token });
+  const [rows, rowsP] = await Promise.all([
+    cloud.api(`/rest/v1/dostep?select=plan,zrodlo,status,wazne_do&user_id=eq.${c.uid}`, { token }),
+    cloud.api(`/rest/v1/dostep_przedmiot?select=przedmiot,plan,zrodlo,status,wazne_do&user_id=eq.${c.uid}`, { token }).catch(() => []),
+  ]);
   stan = rows?.[0] || null;
+  przedm = rowsP || [];
   return stan;
 }
 
+const wazny = (r) => !!(r?.wazne_do && new Date(r.wazne_do) > new Date());
 export const biezacy = () => stan;
-export const aktywny = () => !!(stan?.wazne_do && new Date(stan.wazne_do) > new Date());
+// Czy jest dostęp do przedmiotu sid (bez argumentu: do czegokolwiek płatnego).
+export const pelny = () => wazny(stan);
+export const aktywny = (sid) => pelny() || (sid ? przedm.some((r) => r.przedmiot === sid && wazny(r)) : przedm.some(wazny));
+// Aktywne wpisy przedmiotów (do ekranu planów).
+export const mojePrzedmioty = () => przedm.filter(wazny);
+export const cennik = () => PREMIUM.cennik || {};
+export const cenaPakietu = (plan, n) => (PREMIUM.cennik?.[plan] || {})[n] || '';
 
 async function funkcja(nazwa, body) {
   const token = await cloud.tokenOrNull();
@@ -30,8 +41,8 @@ async function funkcja(nazwa, body) {
   return d;
 }
 
-export async function kup(plan) {
-  const { url } = await funkcja('checkout', { plan });
+export async function kup(plan, przedmioty) {
+  const { url } = await funkcja('checkout', { plan, przedmioty });
   location.href = url;
 }
 

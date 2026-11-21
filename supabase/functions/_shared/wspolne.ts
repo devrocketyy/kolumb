@@ -39,3 +39,10 @@ export async function klientStripe(uid: string, email?: string) {
 }
 
 export const appUrl = (hash: string) => `${(Deno.env.get('APP_URL') ?? '').replace(/\/+$/, '')}/${hash}`;
+
+// Przedmioty, które można kupić osobno. Lista musi zgadzać się z migracją 004 (check w dostep_przedmiot).
+export const PRZEDMIOTY = ['biologia', 'historia', 'wos'];
+export const listaPrzedmiotow = (x: unknown): string[] => {
+  const arr = Array.isArray(x) ? x : String(x ?? '').split(',');
+  return [...new Set(arr.map((v) => String(v).trim()).filter((v) => PRZEDMIOTY.includes(v)))].sort();
+};
