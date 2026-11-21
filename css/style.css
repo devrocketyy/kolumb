@@ -1472,13 +1472,18 @@ body.wkrotce-on .topbar, body.wkrotce-on .tabbar { display: none; }
 .schem-opt { white-space: normal; text-align: left; justify-content: flex-start; min-height: 48px; }
 .schem-opt.bad { opacity: .45; text-decoration: line-through; }
 
-/* zapamiętane konta na ekranie logowania — z przyciskiem usuwania */
-.auth-dalej-row { display: flex; align-items: stretch; gap: 8px; }
-.auth-dalej-row .auth-dalej-btn { flex: 1; min-width: 0; }
-.auth-dalej-x { flex: none; width: 44px; display: grid; place-items: center; border-radius: 16px; border: 1px solid var(--border-2); background: var(--surface); color: var(--text-2); cursor: pointer; font: inherit; font-size: .8rem; font-weight: 700; transition: background .15s, color .15s, width .15s; }
-.auth-dalej-x svg { width: 16px; height: 16px; }
-.auth-dalej-x:hover { color: var(--text); border-color: var(--text); }
-.auth-dalej-x.pewne { width: 64px; background: var(--text); color: var(--surface); border-color: var(--text); }
+/* zapamiętane konta na ekranie logowania — tryb „Edytuj” z przyciskiem „Usuń” */
+.auth-saved { display: grid; gap: 8px; }
+.auth-saved-head { display: flex; align-items: center; justify-content: space-between; font-size: .8rem; color: var(--text-2); padding: 0 2px; }
+.auth-edit { border: 0; background: none; font: inherit; font-weight: 650; color: var(--text); cursor: pointer; padding: 4px 2px; }
+.auth-dalej-row { position: relative; display: flex; align-items: center; }
+.auth-dalej-row .auth-dalej-btn { flex: 1; min-width: 0; transition: padding .2s; }
+.auth-dalej-x { position: absolute; right: 12px; top: 50%; transform: translateY(-50%) scale(.9); opacity: 0; pointer-events: none;
+  border: 0; border-radius: 999px; padding: 7px 12px; background: var(--surface-2); color: #c62828; font: inherit; font-size: .82rem; font-weight: 700; cursor: pointer; transition: opacity .15s, transform .15s, background .15s, color .15s; }
+.auth-saved.edycja .auth-dalej-x { opacity: 1; pointer-events: auto; transform: translateY(-50%); }
+.auth-saved.edycja .auth-dalej-btn { padding-right: 110px; pointer-events: none; }
+.auth-saved.edycja .auth-dalej-btn > svg:last-child { display: none; }
+.auth-dalej-x.pewne { background: #c62828; color: #fff; }
 
 /* zakładki w schematach — jak przełącznik w logowaniu */
 .schem-tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; border-radius: 14px; background: var(--surface-2); border: 1px solid var(--border); margin: 4px 0 18px; }

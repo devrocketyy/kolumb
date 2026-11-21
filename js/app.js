@@ -2856,7 +2856,10 @@ function viewKonto() {
       </aside>
       <div class="auth-main">
         <div class="auth-logo auth-logo-sm">${BRAND_NAME}</div>
-        ${list.length && list.some((p) => !p.placeholder) ? `<div class="auth-dalej">${list.filter((p) => !p.placeholder).map((p) => `<div class="auth-dalej-row"><button type="button" class="auth-dalej-btn" data-pid="${esc(p.id)}">${avatar(p)}<span><b>Kontynuuj jako ${esc(p.name)}</b><small>${p.cloud ? esc(p.cloud.email) : 'profil na tym urządzeniu'}</small></span>${ICONS.next}</button><button type="button" class="auth-dalej-x" data-usun="${esc(p.id)}" data-chmura="${p.cloud ? 1 : 0}" aria-label="Usuń ${esc(p.name)} z tego urządzenia" title="Usuń z tego urządzenia">${ICONS.close}</button></div>`).join('')}</div>
+        ${list.length && list.some((p) => !p.placeholder) ? `<div class="auth-saved">
+          <div class="auth-saved-head"><span>Zapisane na tym urządzeniu</span><button type="button" class="auth-edit" data-edytuj aria-pressed="false">Edytuj</button></div>
+          <div class="auth-dalej">${list.filter((p) => !p.placeholder).map((p) => `<div class="auth-dalej-row"><button type="button" class="auth-dalej-btn" data-pid="${esc(p.id)}">${avatar(p)}<span><b>Kontynuuj jako ${esc(p.name)}</b><small>${p.cloud ? esc(p.cloud.email) : 'profil na tym urządzeniu'}</small></span>${ICONS.next}</button><button type="button" class="auth-dalej-x" data-usun="${esc(p.id)}" data-chmura="${p.cloud ? 1 : 0}" aria-label="Usuń ${esc(p.name)} z tego urządzenia">Usuń</button></div>`).join('')}</div>
+        </div>
         <div class="auth-or"><span>albo zaloguj się na inne konto</span></div>` : ''}
         <h1 class="auth-title">${up ? 'Zacznij naukę' : 'Witaj z powrotem'}</h1>
         <p class="auth-sub">${up ? 'Załóż darmowe konto — postępy zapiszą się na każdym urządzeniu.' : 'Zaloguj się, by wrócić do swojego planu.'}</p>
@@ -2889,12 +2892,17 @@ function viewKonto() {
   gateMsg = '';
   const enter = (id) => { store.login(id); afterProfileChange(); location.hash = '#/przedmiot'; if (location.hash === '#/przedmiot') route(); };
   app.querySelectorAll('.auth-dalej-btn').forEach((b) => b.addEventListener('click', () => enter(b.dataset.pid)));
-  // usuwanie zapamiętanych kont z ekranu logowania: pierwsze kliknięcie pyta, drugie usuwa
+  // usuwanie zapamiętanych kont: „Edytuj” odsłania przyciski „Usuń”, drugie kliknięcie potwierdza
+  app.querySelector('[data-edytuj]')?.addEventListener('click', (e) => {
+    const box = app.querySelector('.auth-saved');
+    const on = box.classList.toggle('edycja');
+    e.currentTarget.textContent = on ? 'Gotowe' : 'Edytuj';
+    e.currentTarget.setAttribute('aria-pressed', on);
+  });
   app.querySelectorAll('[data-usun]').forEach((b) => b.addEventListener('click', () => {
     if (!b.classList.contains('pewne')) {
-      app.querySelectorAll('.auth-dalej-x.pewne').forEach((x) => { x.classList.remove('pewne'); x.innerHTML = ICONS.close; });
       b.classList.add('pewne');
-      b.textContent = 'Usuń';
+      b.textContent = 'Na pewno?';
       toast(b.dataset.chmura === '1' ? 'Konto zniknie tylko z tego urządzenia — postępy zostają w chmurze.' : 'Postępy z tego profilu zostaną usunięte z urządzenia.');
       return;
     }
