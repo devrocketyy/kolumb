@@ -1,6 +1,6 @@
 # Podcast IndexLab · Biologia — plan 84 odcinków
 
-**Format** (ustalony po pilotażu; odcinki 1–10 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
+**Format** (ustalony po pilotażu; odcinki 1–20 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
 - **Temat:** 10–12 min, ok. 1 400 słów.
 - **Powtórka działu:** 18–20 min, ok. 2 500 słów.
 - **Razem:** ok. 17 h.
@@ -73,52 +73,52 @@
 - **Treść:** nukleotyd, DNA vs RNA, komplementarność, antyrównoległość, reguła Chargaffa, rodzaje RNA, ATP jako nukleotyd.
 - **Matura:** obliczenia z regułą Chargaffa; końce 5′ i 3′; porównanie DNA i RNA w tabeli.
 
-**11. Powtórka działu: Biochemia** `biochemia` ⬜
+**11. Powtórka działu: Biochemia** `biochemia` ✅
 - **Treść:** jedno śniadanie rozłożone na związki — wszystkie grupy związków na jednym przykładzie, z próbami wykrywania.
 
 ## Dział 3. Komórka
 
-**12. Typy komórek i obserwacje mikroskopowe** `b-typy-komorek` ⬜
+**12. Typy komórek i obserwacje mikroskopowe** `b-typy-komorek` ✅
 - **Haczyk:** Leeuwenhoek i „animalcula” w kropli wody z rynny.
 - **Treść:** komórka prokariotyczna i eukariotyczna (roślinna, zwierzęca, grzybowa), mikroskop świetlny i elektronowy, preparaty.
 - **Matura:** rozpoznawanie komórek na rysunku; obliczanie powiększenia i rzeczywistej wielkości.
 
-**13. Błona, transport, osmoza i plazmoliza** `b-blony` ⬜
+**13. Błona, transport, osmoza i plazmoliza** `b-blony` ✅
 - **Haczyk:** dlaczego ogórek w solance robi się kiszony i pomarszczony, a erytrocyt w czystej wodzie pęka.
 - **Treść:** model płynnej mozaiki, dyfuzja, transport aktywny, pompa sodowo-potasowa, endo- i egzocytoza, osmoza, plazmoliza i deplazmoliza.
 - **Matura:** roztwory hipo-, izo-, hipertoniczne; doświadczenie z cebulą; kierunek przepływu wody.
 
-**14. Jądro, rybosomy i system błon** `b-jadro` ⬜
+**14. Jądro, rybosomy i system błon** `b-jadro` ✅
 - **Haczyk:** komórka jako fabryka: od projektu w jądrze do paczki wysłanej z aparatu Golgiego.
 - **Treść:** jądro, jąderko, rybosomy, siateczka szorstka i gładka, aparat Golgiego, lizosomy, peroksysomy.
 - **Matura:** droga białka wydzielniczego; „wykaż związek budowy z funkcją” dla komórki trzustki.
 
-**15. Mitochondria, plastydy i endosymbioza** `b-mitochondria` ⬜
+**15. Mitochondria, plastydy i endosymbioza** `b-mitochondria` ✅
 - **Haczyk:** w każdej twojej komórce mieszkają potomkowie bakterii sprzed dwóch miliardów lat.
 - **Treść:** budowa mitochondrium i chloroplastu, chromoplasty i leukoplasty, teoria endosymbiozy i jej dowody.
 - **Matura:** dowody endosymbiozy (własne DNA, rybosomy 70S, podwójna błona); powierzchnia grzebieni.
 
-**16. Ściana, wakuola i cytoszkielet** `b-sciana` ⬜
+**16. Ściana, wakuola i cytoszkielet** `b-sciana` ✅
 - **Haczyk:** dlaczego zwiędła sałata odzyskuje chrupkość w zimnej wodzie.
 - **Treść:** ściana pierwotna i wtórna, lignina, suberyna, wakuola i turgor, mikrotubule, mikrofilamenty, rzęski i wici.
 - **Matura:** funkcje wakuoli; cytoszkielet w podziale i ruchu komórki.
 
-**17. Powtórka działu: Komórka** `komorka` ⬜
+**17. Powtórka działu: Komórka** `komorka` ✅
 - **Treść:** wycieczka po komórce roślinnej i zwierzęcej — organellum po organellum, z porównaniem w formie mówionej tabeli.
 
 ## Dział 4. Metabolizm
 
-**18. Szlaki metaboliczne, ATP i przenośniki elektronów** `b-atp` ⬜
+**18. Szlaki metaboliczne, ATP i przenośniki elektronów** `b-atp` ✅
 - **Haczyk:** codziennie przerabiasz ATP o masie zbliżonej do własnego ciała.
 - **Treść:** anabolizm i katabolizm, ATP jako waluta, NAD⁺, NADP⁺, FAD, reakcje redoks.
 - **Matura:** rozróżnianie NADH i NADPH (oddychanie vs fotosynteza); sprzężenie reakcji.
 
-**19. Enzymy** `b-enzymy` ⬜
+**19. Enzymy** `b-enzymy` ✅
 - **Haczyk:** gorączka powyżej 42 stopni zabija — winne są enzymy.
 - **Treść:** energia aktywacji, centrum aktywne, model zamka i klucza oraz indukowanego dopasowania, kofaktory, wpływ temperatury i pH, inhibicja kompetycyjna i niekompetycyjna, allosteria.
 - **Matura:** interpretacja wykresów aktywności; doświadczenia z katalazą; rozróżnianie typów inhibicji.
 
-**20. Fotosynteza** `b-fotosynteza` ⬜
+**20. Fotosynteza** `b-fotosynteza` ✅
 - **Haczyk:** Priestley, świeca, mysz i gałązka mięty pod szklanym kloszem.
 - **Treść:** barwniki, faza zależna od światła (fotoliza wody, fotofosforylacja), cykl Calvina (karboksylacja, redukcja, regeneracja), czynniki ograniczające.
 - **Matura:** źródło tlenu (woda!), RuBisCO, wykresy natężenia fotosyntezy, doświadczenia z moczarką.
