@@ -2848,6 +2848,7 @@ function viewKonto() {
         <div class="auth-logo">${BRAND_NAME}</div>
         <div class="auth-stack">
           <div class="auth-card"><small>Historia</small><b>15 VII 1410</b><span>Bitwa pod Grunwaldem</span></div>
+          <div class="auth-card"><small>Biologia</small><b>2n = 46</b><span>Kariotyp człowieka</span></div>
           <div class="auth-card"><small>WOS</small><b>Art. 158</b><span>Konstruktywne wotum nieufności</span></div>
           <div class="auth-card"><small>Historia</small><b>3 V 1791</b><span>Konstytucja 3 maja</span></div>
         </div>
@@ -2855,7 +2856,7 @@ function viewKonto() {
       </aside>
       <div class="auth-main">
         <div class="auth-logo auth-logo-sm">${BRAND_NAME}</div>
-        ${list.length && list.some((p) => !p.placeholder) ? `<div class="auth-dalej">${list.map((p) => `<button type="button" class="auth-dalej-btn" data-pid="${esc(p.id)}">${avatar(p)}<span><b>Kontynuuj jako ${esc(p.name)}</b><small>${p.cloud ? esc(p.cloud.email) : 'profil na tym urządzeniu'}</small></span>${ICONS.next}</button>`).join('')}</div>
+        ${list.length && list.some((p) => !p.placeholder) ? `<div class="auth-dalej">${list.filter((p) => !p.placeholder).map((p) => `<div class="auth-dalej-row"><button type="button" class="auth-dalej-btn" data-pid="${esc(p.id)}">${avatar(p)}<span><b>Kontynuuj jako ${esc(p.name)}</b><small>${p.cloud ? esc(p.cloud.email) : 'profil na tym urządzeniu'}</small></span>${ICONS.next}</button><button type="button" class="auth-dalej-x" data-usun="${esc(p.id)}" data-chmura="${p.cloud ? 1 : 0}" aria-label="Usuń ${esc(p.name)} z tego urządzenia" title="Usuń z tego urządzenia">${ICONS.close}</button></div>`).join('')}</div>
         <div class="auth-or"><span>albo zaloguj się na inne konto</span></div>` : ''}
         <h1 class="auth-title">${up ? 'Zacznij naukę' : 'Witaj z powrotem'}</h1>
         <p class="auth-sub">${up ? 'Załóż darmowe konto — postępy zapiszą się na każdym urządzeniu.' : 'Zaloguj się, by wrócić do swojego planu.'}</p>
@@ -2888,6 +2889,19 @@ function viewKonto() {
   gateMsg = '';
   const enter = (id) => { store.login(id); afterProfileChange(); location.hash = '#/przedmiot'; if (location.hash === '#/przedmiot') route(); };
   app.querySelectorAll('.auth-dalej-btn').forEach((b) => b.addEventListener('click', () => enter(b.dataset.pid)));
+  // usuwanie zapamiętanych kont z ekranu logowania: pierwsze kliknięcie pyta, drugie usuwa
+  app.querySelectorAll('[data-usun]').forEach((b) => b.addEventListener('click', () => {
+    if (!b.classList.contains('pewne')) {
+      app.querySelectorAll('.auth-dalej-x.pewne').forEach((x) => { x.classList.remove('pewne'); x.innerHTML = ICONS.close; });
+      b.classList.add('pewne');
+      b.textContent = 'Usuń';
+      toast(b.dataset.chmura === '1' ? 'Konto zniknie tylko z tego urządzenia — postępy zostają w chmurze.' : 'Postępy z tego profilu zostaną usunięte z urządzenia.');
+      return;
+    }
+    store.deleteProfile(b.dataset.usun);
+    afterProfileChange();
+    route();
+  }));
   app.querySelector('.who').addEventListener('click', (e) => {
     const b = e.target.closest('[data-pid]');
     if (b) return enter(b.dataset.pid);
@@ -3549,10 +3563,10 @@ function viewSchemat(sid, uid, xid, tryb) {
   const x = u.schematy.find((y) => y.id === xid);
   if (!x) return notFound();
   const base = `#/schemat/${enc(s.id)}/${enc(u.id)}/${enc(x.id)}`;
-  const tabs = `<div class="tabs" role="tablist">
-      <a role="tab" class="tab ${tryb ? '' : 'active'}" aria-selected="${!tryb}" href="${base}">Ucz się</a>
-      <a role="tab" class="tab ${tryb ? 'active' : ''}" aria-selected="${!!tryb}" href="${base}/cwicz">${x.typ === 'rysunek' ? 'Podpisz' : 'Ułóż etapy'}</a>
-    </div>`;
+  const tabs = `<nav class="schem-tabs" aria-label="Tryb">
+      <a class="${tryb ? '' : 'on'}" ${tryb ? '' : 'aria-current="page"'} href="${base}">Ucz się</a>
+      <a class="${tryb ? 'on' : ''}" ${tryb ? 'aria-current="page"' : ''} href="${base}/cwicz">${x.typ === 'rysunek' ? 'Podpisz' : 'Ułóż etapy'}</a>
+    </nav>`;
   const head = `${pageHead(x.tytul, `#/schematy/${enc(s.id)}/${enc(u.id)}`, `${TYP_SCHEMATU[x.typ] || 'Schemat'} · ${u.nazwa}`)}${tabs}`;
   const r = schematWynik(s.id, u, x);
   if (!tryb) {
