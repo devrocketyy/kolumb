@@ -1,6 +1,6 @@
 # Podcast IndexLab · Biologia — plan 84 odcinków
 
-**Format** (ustalony po pilotażu; odcinki 1–70 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
+**Format** (ustalony po pilotażu; odcinki 1–77 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
 - **Temat:** 10–12 min, ok. 1 400 słów.
 - **Powtórka działu:** 18–20 min, ok. 2 500 słów.
 - **Razem:** ok. 17 h.
@@ -373,37 +373,37 @@
 - **Treść:** nerka i nefron, filtracja, resorpcja, sekrecja, ADH i aldosteron, amoniak, mocznik i kwas moczowy.
 - **Matura:** skład moczu pierwotnego i ostatecznego; produkty azotowe a środowisko życia.
 
-**71. Regulacja hormonalna** `b-hormony` ⬜
+**71. Regulacja hormonalna** `b-hormony` ✅
 - **Haczyk:** cukrzyca — przed odkryciem insuliny wyrok, dziś choroba przewlekła.
 - **Treść:** gruczoły, podwzgórze i przysadka, insulina i glukagon, tyroksyna, adrenalina, kortyzol, hormony płciowe; antagonizm.
 - **Matura:** regulacja glikemii; sprzężenie zwrotne osi podwzgórze–przysadka–tarczyca.
 
-**72. Układ nerwowy i zmysły** `b-nerwy` ⬜
+**72. Układ nerwowy i zmysły** `b-nerwy` ✅
 - **Haczyk:** dlaczego nie możesz sam siebie połaskotać.
 - **Treść:** neuron, potencjał spoczynkowy i czynnościowy, synapsa, łuk odruchowy, układ autonomiczny, oko, ucho.
 - **Matura:** mechanizm impulsu; działanie toksyn i leków na synapsę; wady wzroku.
 
-**73. Ruch** `b-ruch` ⬜
+**73. Ruch** `b-ruch` ✅
 - **Haczyk:** stężenie pośmiertne — mięśnie, którym zabrakło ATP.
 - **Treść:** szkielet, stawy, budowa mięśnia, mechanizm ślizgowy, rola wapnia i ATP, rodzaje włókien.
 - **Matura:** etapy skurczu; włókna wolno- i szybkokurczliwe.
 
-**74. Pokrycie ciała i termoregulacja** `b-skora` ⬜
+**74. Pokrycie ciała i termoregulacja** `b-skora` ✅
 - **Haczyk:** jaszczurka na kamieniu rano i pies dyszący w upale.
 - **Treść:** budowa skóry, funkcje, zmiennocieplność i stałocieplność, mechanizmy oddawania i zatrzymywania ciepła.
 - **Matura:** reakcje na zimno i ciepło; przystosowania zwierząt.
 
-**75. Rozmnażanie i rozwój** `b-rozmnazanie` ⬜
+**75. Rozmnażanie i rozwój** `b-rozmnazanie` ✅
 - **Haczyk:** jedna komórka i dziewięć miesięcy — kalendarz rozwoju człowieka.
 - **Treść:** gametogeneza, cykl miesiączkowy i jego hormony, zapłodnienie, rozwój zarodkowy, łożysko, rozwój prosty i złożony.
 - **Matura:** wykres hormonów cyklu; listki zarodkowe i ich pochodne.
 
-**76. Powtórka działu: Fizjologia** `fizjologia` ⬜
+**76. Powtórka działu: Fizjologia** `fizjologia` ✅
 - **Treść:** bieg na 400 metrów — co robi każdy układ, od startu do mety i odpoczynku.
 
 ## Dział 13. Ewolucja, ekologia i ochrona przyrody
 
-**77. Dowody ewolucji i dobór naturalny** `b-dobor` ⬜
+**77. Dowody ewolucji i dobór naturalny** `b-dobor` ✅
 - **Haczyk:** ćma krępak nabrzozak i sadza angielskich fabryk.
 - **Treść:** dowody (skamieniałości, anatomia, molekularne), Darwin, rodzaje doboru, dobór płciowy.
 - **Matura:** wyjaśnianie doboru (przeżycie i rozród!); rodzaje doboru na wykresach.
