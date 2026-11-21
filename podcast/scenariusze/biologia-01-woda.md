@@ -1,150 +1,175 @@
 # IndexLab · Biologia · Odcinek 1 · „Cząsteczka, która udaje, że jest większa”
 Temat: Woda, makro- i mikroelementy
 Dział: Biochemia
-Długość: ok. 14–15 minut (ok. 1 900 słów), jeden narrator, spokojnie.
+Długość: ok. 15 minut (ok. 2 000 słów), jeden narrator, spokojnie.
+Uwaga dla lektora: nagłówki „##” to tylko podział dla redakcji — nie są czytane. Wskazówki w nawiasach kwadratowych zamieniamy na znaczniki SSML.
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Jest pierwsza połowa stycznia. Mazury, jezioro skute lodem. Na powierzchni minus piętnaście stopni, wiatr, śnieg. Ktoś wierci w lodzie przerębel i spuszcza na sznurku termometr. Pół metra pod lodem: zero stopni. Dwa metry niżej: dwa stopnie. Przy samym dnie: cztery stopnie powyżej zera.
+Połowa stycznia. Mazury, jezioro skute lodem. Na powierzchni minus piętnaście stopni i wiatr, który zatyka oddech. Ktoś wierci w lodzie przerębel i spuszcza na sznurku termometr.
+
+Tuż pod lodem: zero stopni. Dwa metry niżej: dwa stopnie. Przy samym dnie: cztery stopnie powyżej zera.
 
 [pauza]
 
-Na dnie, w ciemności i w tej czterostopniowej wodzie, przezimowują ryby. Szczupak, okoń, leszcz. Ich serca biją powoli, metabolizm jest zwolniony, ale żyją. Wiosną lód stopnieje i wszystko zacznie się od nowa.
+I właśnie tam, na dnie, w ciemności i w tej czterostopniowej wodzie, czekają na wiosnę ryby. Szczupak, okoń, leszcz. Ich serca biją powoli, ale biją.
 
-Teraz pomyśl, co by było, gdyby lód był cięższy od wody. Tak jak prawie każda inna substancja w stanie stałym. Pierwszy kawałek lodu, który powstałby jesienią na powierzchni, opadłby na dno. Potem następny. I następny. Jezioro zamarzałoby od dołu, warstwa po warstwie, aż do samej powierzchni. Ryby nie miałyby gdzie się schować. Latem słońce rozpuściłoby tylko wierzchnią warstwę, a na dnie zostałby lód, którego nic by już nie ruszyło.
+Teraz zrób ze mną małe ćwiczenie wyobraźni. Wyobraź sobie, że lód jest cięższy od wody. Tak jak prawie każda inna substancja, kiedy zamarza. Pierwsza kra, która jesienią powstanie na powierzchni, tonie. Potem druga. I trzecia. Jezioro zamarza od dna w górę, warstwa po warstwie, aż zostaje z niego bryła lodu. Ryby nie mają dokąd uciec. A latem słońce roztapia tylko wierzch.
 
 [pauza]
 
-To, że życie w jeziorach przetrwało zimy, zawdzięczamy jednej dość dziwnej właściwości jednej bardzo małej cząsteczki. Cząsteczki, która zachowuje się tak, jakby była znacznie większa, niż jest naprawdę.
+To, że jeziora nie zamieniają się zimą w lodowe bloki, zawdzięczamy jednej małej cząsteczce. Cząsteczce, która zachowuje się tak, jakby była dużo większa, niż jest naprawdę. Do końca tego odcinka dowiesz się, skąd się bierze ta jej dziwność. I zobaczysz, że z tej jednej dziwności wynika prawie wszystko, o co matura pyta w temacie wody.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. To pierwszy odcinek biologii, a więc zaczynamy od samego początku: od tego, z czego jesteśmy zbudowani. Od wody i od pierwiastków.
+Dzień dobry, tu IndexLab. To pierwszy odcinek biologii, więc zaczynamy od samego dołu. Od tego, z czego jesteśmy zbudowani. Najpierw pierwiastki, potem woda.
 
----
+## Część pierwsza: pierwiastki
 
-## Część pierwsza: z czego zrobiony jest człowiek
+Gdyby rozłożyć twoje ciało na pierwiastki, cztery z nich dałyby razem prawie całą masę. Tlen, węgiel, wodór i azot. Łatwo zapamiętać, bo to pierwiastki, z których zbudowane są białka.
 
-Gdybyś rozłożył swoje ciało na pierwiastki, okazałoby się, że jest w nim przede wszystkim tlen, węgiel, wodór i azot. Te cztery pierwiastki to razem około dziewięćdziesięciu sześciu procent masy organizmu. Dorzuć do nich fosfor, siarkę, wapń, potas, sód, chlor i magnez, a będziesz miał prawie wszystko.
+Biolodzy dzielą pierwiastki na dwie grupy, i kryterium jest jedno: ilość. Makroelementy to te, których w organizmie jest dużo. Mikroelementy to te, których jest bardzo mało, w ilościach śladowych.
 
-Biolodzy dzielą pierwiastki na dwie grupy. Kryterium jest proste: ile ich jest.
+[wolniej] I to jest pierwsza rzecz do zapamiętania z tego odcinka. Mikro nie znaczy mniej ważny. Mikro znaczy tylko: mniej liczny.
 
-[wolniej] Makroelementy to te, których w organizmie jest dużo, powyżej jednej setnej procenta suchej masy. Mikroelementy to te, których jest bardzo mało, poniżej tej granicy.
-
-I tu pierwsza pułapka maturalna. „Mikro” nie znaczy „mniej ważny”. Znaczy tylko „mniej liczny”. Żelaza masz w całym ciele mniej więcej tyle, ile waży gwóźdź, a bez niego nie przeniesiesz ani jednej cząsteczki tlenu. Jodu potrzebujesz przez całe życie mniej niż łyżeczkę, a bez niego tarczyca nie wyprodukuje hormonów.
+Żelaza masz w całym ciele mniej więcej tyle, ile waży mały gwóźdź. A bez niego krew nie przeniesie ani jednej cząsteczki tlenu.
 
 [pauza]
 
-Przejdźmy przez najważniejsze makroelementy tak, jak przechodzi się przez skład drużyny.
+Nie będę ci teraz czytał tabeli pierwiastków, bo ze słuchu nikt jej nie zapamięta. Zamiast tego zapamiętaj trzy pary. Każda para to pierwiastek i obraz, który go przypomina.
 
-Węgiel to kręgosłup. Każdy atom węgla może utworzyć cztery wiązania, więc z węgla buduje się łańcuchy, pierścienie, rozgałęzienia. To szkielet wszystkich związków organicznych.
+Para pierwsza: magnez i zielony liść. Atom magnezu siedzi w samym środku cząsteczki chlorofilu. Bez magnezu liście żółkną, a fotosynteza słabnie.
 
-Azot siedzi w białkach, a dokładniej w grupie aminowej każdego aminokwasu, i w zasadach azotowych kwasów nukleinowych. Bez azotu nie ma ani białek, ani DNA.
+Para druga: żelazo i czerwona krew. Żelazo jest w hemie, czyli w tej części hemoglobiny, która wiąże tlen. Jego niedobór to anemia: zmęczenie, bladość, zadyszka po schodach.
 
-Fosfor występuje w ATP, czyli w uniwersalnym nośniku energii, w kwasach nukleinowych, gdzie tworzy szkielet cukrowo-fosforanowy, w fosfolipidach, z których zbudowane są błony, i w kościach, w postaci fosforanów wapnia.
-
-Siarka to składnik dwóch aminokwasów: cysteiny i metioniny. Cysteina potrafi tworzyć mostki disiarczkowe, które spinają łańcuch białka jak zszywki. Zapamiętaj to, bo wrócimy do tego przy białkach.
-
-Wapń buduje kości i zęby, ale ma też drugie, mniej oczywiste życie. Jony wapnia uruchamiają skurcz mięśnia, uczestniczą w krzepnięciu krwi i w wydzielaniu neuroprzekaźników w synapsach.
-
-Magnez znajduje się w samym środku cząsteczki chlorofilu. Gdyby nie magnez, liście nie byłyby zielone i nie byłoby fotosyntezy. U zwierząt magnez jest potrzebny wielu enzymom, między innymi tym, które pracują z ATP.
-
-Sód i potas to para, którą trzeba znać razem. Sodu jest dużo na zewnątrz komórki, potasu w jej wnętrzu. Ta różnica stężeń to podstawa potencjału spoczynkowego błony i przewodzenia impulsów nerwowych.
+Para trzecia: jod i tarczyca. Jod wchodzi w skład hormonów tarczycy. Gdy go brakuje, tarczyca powiększa się, próbując nadrobić braki. To wole.
 
 [pauza]
 
-A mikroelementy? Wymienię tylko te, o które CKE pyta najczęściej.
+Do tych trzech par dołóż jeszcze kilka krótkich skojarzeń.
 
-Żelazo: składnik hemu w hemoglobinie i mioglobinie oraz cytochromów w łańcuchu oddechowym. Jego niedobór to niedokrwistość, czyli anemia.
+Wapń to kości i zęby. Ale jony wapnia mają też drugie zadanie: uruchamiają skurcz mięśni i pomagają krwi krzepnąć.
 
-Jod: składnik hormonów tarczycy, tyroksyny i trójjodotyroniny. Niedobór daje wole.
+Fosfor jest wszędzie tam, gdzie jest energia i informacja. W ATP i w DNA. A także w fosfolipidach, z których zbudowane są błony.
 
-Fluor: wzmacnia szkliwo zębów.
+Siarka siedzi w dwóch aminokwasach. Jeden z nich, cysteina, tworzy mostki, które spinają białko jak zszywki. Wrócimy do nich w odcinku o białkach.
 
-Miedź i cynk: składniki wielu enzymów.
+Sód i potas zawsze idą w parze. Sodu jest dużo na zewnątrz komórki, potasu w środku. Ta różnica to podstawa przewodzenia impulsów nerwowych.
 
-Molibden: tu ciekawostka, która lubi pojawiać się na maturze. Molibden jest potrzebny nitrogenazie, enzymowi, którym bakterie brodawkowe wiążą azot atmosferyczny.
-
----
+I ciekawostka, którą CKE lubi: molibden. Potrzebuje go enzym, którym bakterie w korzeniach roślin motylkowych wiążą azot z powietrza.
 
 ## Część druga: dlaczego woda jest dziwna
 
 Wróćmy do jeziora.
 
-Cząsteczka wody jest maleńka. Jeden atom tlenu i dwa atomy wodoru, razem masa osiemnaście. Dla porównania: metan ma masę szesnaście, a w temperaturze pokojowej jest gazem. Siarkowodór, bardzo podobny do wody, tyle że z siarką zamiast tlenu, też jest gazem. Według wszelkich rachunków woda powinna wrzeć gdzieś w okolicach minus osiemdziesięciu stopni. A wrze w stu.
-
-Coś ją trzyma razem. Tym czymś są wiązania wodorowe.
-
-[wolniej] Tlen bardzo mocno przyciąga elektrony. W cząsteczce wody ściąga je do siebie od atomów wodoru. Dlatego przy tlenie powstaje cząstkowy ładunek ujemny, a przy wodorach cząstkowe ładunki dodatnie. Do tego cząsteczka nie jest prosta, tylko wygięta pod kątem około stu pięciu stopni. Mówimy, że woda jest cząsteczką polarną, czyli dipolem.
-
-A skoro jedna cząsteczka ma biegun dodatni i ujemny, to przyciąga sąsiednie. Wodór jednej cząsteczki przyciąga tlen drugiej. To właśnie wiązanie wodorowe. Pojedyncze jest słabe, ale w szklance wody jest ich niewyobrażalnie dużo i wciąż powstają i pękają na nowo. Woda w stanie ciekłym to nie zbiór luźnych kulek, tylko nieustannie przebudowująca się sieć.
+Cząsteczka wody jest maleńka. Jeden atom tlenu i dwa atomy wodoru. Dla porównania: siarkowodór jest zbudowany bardzo podobnie, tylko zamiast tlenu ma siarkę, do tego cięższą. I siarkowodór w temperaturze pokojowej jest gazem. Woda, choć lżejsza, jest cieczą, i wrze dopiero w stu stopniach. Coś ją trzyma w kupie.
 
 [pauza]
 
-Z tej jednej cechy, z polarności i wiązań wodorowych, wynikają prawie wszystkie właściwości wody, o które pyta matura. Przejdźmy przez nie po kolei. Przy każdej zadaj sobie pytanie: jakie to ma znaczenie dla organizmu?
+Tym czymś jest sposób, w jaki tlen traktuje elektrony.
 
-Po pierwsze: wysokie ciepło właściwe. Żeby ogrzać wodę, trzeba najpierw porozrywać część wiązań wodorowych, a to kosztuje energię. Woda nagrzewa się więc powoli i powoli stygnie. Znaczenie? Organizmy, które w dużej części składają się z wody, mają stabilną temperaturę wewnętrzną. Morza i jeziora łagodzą klimat. Środowisko wodne nie przeżywa gwałtownych skoków temperatury.
+Wyobraź sobie przeciąganie liny. Z jednej strony tlen, z drugiej wodór, a lina to para elektronów, która je łączy. Tlen jest dużo silniejszy. Przeciąga elektrony do siebie. W efekcie przy tlenie robi się trochę ujemnie, a przy wodorach trochę dodatnio. Do tego cząsteczka wody nie jest prosta, tylko zgięta, trochę jak litera V. Mamy więc cząsteczkę z dwoma biegunami, plusem i minusem. Chemik powie: cząsteczka polarna. Albo: dipol.
 
-Po drugie: wysokie ciepło parowania. Żeby cząsteczka wody uciekła do powietrza, musi zerwać wszystkie wiązania z sąsiadami. To kosztuje jeszcze więcej energii. Znaczenie? Pocenie się chłodzi skórę, bo parujący pot zabiera ze sobą ciepło. U roślin to samo robi transpiracja: parowanie wody z liści chroni je przed przegrzaniem.
+A skoro każda cząsteczka ma plus i minus, to cząsteczki się przyciągają. Wodór jednej, ten z plusem, przyciąga tlen drugiej, ten z minusem. To jest wiązanie wodorowe.
 
-Po trzecie: gęstość lodu. I tu wracamy do jeziora. Kiedy woda zamarza, każda cząsteczka łączy się wiązaniami wodorowymi z czterema sąsiadami i układa w regularną, ażurową sieć krystaliczną. W tej sieci jest dużo pustego miejsca. Lód jest więc mniej gęsty od wody i pływa po jej powierzchni. Woda ma największą gęstość w temperaturze około czterech stopni Celsjusza, dlatego przy dnie zamarzniętego jeziora jest właśnie tyle. Lód na górze działa jak izolator, a pod spodem życie trwa.
+[wolniej] Pojedyncze wiązanie wodorowe jest słabe. Ale w szklance wody jest ich niewyobrażalnie wiele, i w każdej chwili jedne pękają, a drugie powstają. Woda w szklance to nie worek luźnych kulek. To sieć, która cały czas się przebudowuje.
+
+I teraz najważniejsze zdanie tego odcinka. Prawie wszystkie niezwykłe właściwości wody biorą się z tego, że jest polarna i tworzy wiązania wodorowe. Jeśli to zrozumiesz, nie musisz uczyć się właściwości wody na pamięć. Możesz je wyprowadzić.
+
+## Część trzecia: trzy rodziny właściwości
+
+Zamiast listy siedmiu punktów, której i tak nie zapamiętasz ze słuchu, podzielmy właściwości wody na trzy rodziny.
+
+Rodzina pierwsza: woda i ciepło.
+
+Żeby ogrzać wodę, trzeba najpierw porozrywać część wiązań wodorowych. To kosztuje energię. Dlatego woda nagrzewa się powoli i powoli stygnie. Mówimy, że ma duże ciepło właściwe. Po co to organizmom? Ich wnętrze nie przeżywa gwałtownych skoków temperatury. A jeziora i morza łagodzą klimat całych regionów.
+
+Jeszcze więcej energii trzeba, żeby woda wyparowała, bo cząsteczka musi zerwać wszystkie wiązania z sąsiadami naraz. Dlatego parowanie mocno chłodzi. Ty się pocisz, roślina transpiruje, i w obu przypadkach parująca woda zabiera ze sobą ciepło.
+
+I wreszcie lód. Kiedy woda zamarza, każda cząsteczka łapie czterech sąsiadów i wszystkie układają się w regularną, ażurową siatkę. Coś jak plaster miodu: dużo pustego miejsca w środku. Dlatego lód jest lżejszy od wody i pływa. A najgęstsza woda, ta w czterech stopniach, opada na dno. Stąd te cztery stopnie przy dnie naszego jeziora. Lód na górze działa jak koc.
 
 [pauza]
 
-Po czwarte: spójność, czyli kohezja, i przyleganie, czyli adhezja. Cząsteczki wody trzymają się siebie nawzajem i przyklejają się do innych polarnych powierzchni, na przykład do ścian naczyń. Znaczenie? To jeden z mechanizmów, dzięki którym woda wędruje w drewnie od korzenia do liści wysokiego drzewa. Transpiracja odparowuje wodę z liści i ciągnie za sobą nieprzerwany słup wody w naczyniach. Ten słup się nie rwie właśnie dzięki kohezji.
+Rodzina druga: woda, która się trzyma.
 
-Po piąte: napięcie powierzchniowe. Na granicy wody i powietrza cząsteczki są przyciągane tylko w dół i na boki, więc powierzchnia zachowuje się jak napięta błona. Znaczenie? Nartniki chodzą po wodzie. A u człowieka napięcie powierzchniowe musi być w płucach zmniejszane przez surfaktant, bo inaczej pęcherzyki płucne zapadałyby się przy wydechu.
+Cząsteczki wody trzymają się siebie nawzajem. To spójność, inaczej kohezja. I przyklejają się do innych powierzchni, które mają ładunki, na przykład do ścian naczyń w roślinie. To przyleganie, inaczej adhezja.
 
-Po szóste i chyba najważniejsze: woda jest doskonałym rozpuszczalnikiem związków polarnych i jonów. Kiedy wrzucisz do wody kryształ soli, cząsteczki wody otaczają każdy jon i odrywają go od kryształu. Do jonów sodu zwracają się tlenem, do jonów chloru wodorami. Mówimy, że tworzą otoczkę hydratacyjną. Znaczenie? W wodzie rozpuszczają się substancje, które trzeba transportować, na przykład glukoza we krwi czy sole mineralne w soku roślinnym. I w wodzie zachodzi większość reakcji chemicznych w komórce.
+Ta para tłumaczy, jak woda dociera z korzeni do czubka drzewa wysokiego na trzydzieści metrów. Liście odparowują wodę i ciągną za sobą nieprzerwany słup wody w naczyniach, jak sznur. Ten sznur się nie zrywa właśnie dzięki spójności.
+
+Na powierzchni wody spójność daje też napięcie powierzchniowe. Powierzchnia zachowuje się jak napięta folia, i dlatego nartnik może po niej chodzić.
 
 [pauza]
 
-Tutaj ważne rozróżnienie, które przyda się przez cały kurs. Substancje, które dobrze mieszają się z wodą, to substancje hydrofilowe, czyli „lubiące wodę”. Cukry, aminokwasy, jony. Substancje, które z wodą się nie mieszają, to hydrofobowe. Tłuszcze, oleje, woski. Są też cząsteczki, które mają jedno i drugie naraz, na przykład fosfolipidy. Mają hydrofilową głowę i hydrofobowe ogony. Nazywamy je amfipatycznymi. Kiedy wrzucisz je do wody, same układają się w dwuwarstwę, ogonami do środka, głowami na zewnątrz. Tak powstaje błona komórkowa. Nikt jej nie projektuje: robi to za nas woda.
+Rodzina trzecia: woda, która rozpuszcza.
 
-Po siódme: woda to też substrat i produkt reakcji. Jest substratem fotosyntezy, bo przy fotolizie wody uwalnia się tlen, który oddychasz. Jest substratem hydrolizy, czyli rozkładu dużych cząsteczek na mniejsze, na przykład przy trawieniu. I powstaje w reakcjach kondensacji, kiedy małe cząsteczki łączą się w duże.
+Wrzuć do wody szczyptę soli. Cząsteczki wody otaczają każdy jon i odrywają go od kryształu. Do dodatniego jonu sodu zwracają się swoją ujemną stroną, czyli tlenem. Do ujemnego jonu chlorkowego stroną dodatnią, wodorami. Każdy jon dostaje swój płaszczyk z cząsteczek wody.
 
----
+Tak samo woda rozpuszcza cukry i aminokwasy. Takie substancje nazywamy hydrofilowymi, czyli lubiącymi wodę. Tłuszcze się nie rozpuszczają, bo nie mają ładunków, za które woda mogłaby je złapać. To substancje hydrofobowe.
+
+A teraz piękna konsekwencja. Są cząsteczki, które mają jedno i drugie. Fosfolipid ma główkę, która lubi wodę, i dwa ogonki, które jej unikają. Wrzucone do wody, fosfolipidy same układają się w podwójną warstwę: ogonkami do środka, główkami na zewnątrz. Tak powstaje błona komórkowa. Nikt jej nie składa. Składa ją woda.
+
+[pauza]
+
+I ostatnie, bardzo praktyczne zadanie wody w tej rodzinie. Kiedy komórka roślinna pobiera wodę, jej wakuola pęcznieje i dociska zawartość do ściany komórkowej. To ciśnienie nazywamy turgorem. Dzięki niemu łodyga stoi, a liście są rozpostarte. Podlej zwiędłą roślinę i po godzinie zobaczysz turgor na własne oczy.
+
+[pauza]
+
+Zatrzymaj się na moment. Możesz nawet zatrzymać nagranie. Spróbuj powiedzieć na głos trzy rodziny właściwości wody, które przed chwilą omówiliśmy.
+
+[pauza, dłuższa]
+
+Woda i ciepło. Woda, która się trzyma. Woda, która rozpuszcza. Jeśli to masz, masz szkielet całego tematu.
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Na maturze z biologii woda niemal nigdy nie pojawia się jako osobne zadanie typu „wymień właściwości wody”. Pojawia się w tle innych zadań. I tu jest klucz do punktów.
+Na maturze woda rzadko występuje jako osobne zadanie „wymień właściwości wody”. Zwykle pojawia się w tle. Na przykład w zadaniu o poceniu się, o transpiracji albo o lodzie na jeziorze.
 
-Najczęstszy schemat to polecenie typu: „Wyjaśnij, jakie znaczenie dla organizmu ma określona właściwość wody” albo „Wykaż związek między budową cząsteczki wody a jej właściwością”. Odpowiedź za pełny punkt ma zawsze dwie części. Pierwsza: cecha, na przykład wysokie ciepło parowania. Druga: skutek dla organizmu, na przykład to, że parowanie potu odbiera ciału dużo ciepła i chłodzi je. Sama nazwa właściwości to za mało. Samo „bo woda chłodzi” też.
+Najczęstsze polecenie brzmi: „Wyjaśnij znaczenie danej właściwości wody dla organizmów”. I tu jest prosty przepis na punkt. Odpowiedź ma dwie części: najpierw właściwość, potem skutek dla organizmu.
+
+Przykład. Źle: „Woda chłodzi”. Dobrze: „Woda ma wysokie ciepło parowania, dlatego parujący pot odbiera ciału dużo ciepła i obniża jego temperaturę”. Słyszysz różnicę? Cecha, a potem skutek.
 
 [pauza]
 
-Drugi częsty schemat: woda w doświadczeniu. Pojawia się jako próba kontrolna, jako rozpuszczalnik albo w zadaniach o osmozie. Do osmozy wrócimy w dziale o komórce.
+Drugi częsty typ to niedobory pierwiastków. Dostajesz opis objawu i masz wskazać pierwiastek. Tu jest jedna sztuczka, za którą łatwo dostać punkt. Kiedy roślinie brakuje magnezu, żółkną najpierw liście stare. Magnez może się w roślinie przemieszczać, więc roślina zabiera go ze starych liści i przekazuje młodym. Kiedy brakuje żelaza, jest odwrotnie: żółkną liście młode, bo żelazo raz wbudowane zostaje na miejscu.
 
-Trzeci: niedobory pierwiastków. Masz opis objawów, na przykład chlorozę, czyli żółknięcie liści, i musisz wskazać brakujący pierwiastek. Przy chlorozie myśl o magnezie, bo jest w chlorofilu, albo o żelazie, bo jest potrzebne do syntezy chlorofilu. Albo odwrotnie: dostajesz pierwiastek i masz podać jego funkcję. Tu zawsze wskaż konkretny związek lub proces. Nie „wapń jest potrzebny do kości”, tylko „wapń, w postaci fosforanów wapnia, buduje tkankę kostną” albo „jony wapnia uruchamiają skurcz mięśni”.
-
-I ostatnia pułapka: makro i mikro. Jeśli w zadaniu trzeba coś sklasyfikować, pamiętaj, że decyduje ilość w organizmie, a nie ważność. Żelazo i jod to mikroelementy, choć są niezbędne do życia.
-
----
+I trzeci typ: pytanie o funkcję pierwiastka. Wtedy zawsze nazwij konkretny związek albo proces. Nie „wapń jest potrzebny do kości”, tylko „wapń buduje tkankę kostną” albo „jony wapnia uruchamiają skurcz mięśni”.
 
 ## Na spokojnie
 
 [muzyka, cicho]
 
-Podsumujmy. Organizmy są zbudowane głównie z węgla, wodoru, tlenu i azotu. Do makroelementów należą też fosfor, siarka, wapń, magnez, sód, potas i chlor. Mikroelementów, takich jak żelazo, jod, fluor, cynk, miedź czy molibden, jest mało, ale każdy pełni konkretną, niezastąpioną funkcję.
+Podsumujmy. Organizmy zbudowane są głównie z tlenu, węgla, wodoru i azotu. Pierwiastki dzielimy na makroelementy i mikroelementy według ilości, a nie ważności. Zapamiętaj trzy pary: magnez i chlorofil, żelazo i hemoglobina, jod i tarczyca.
 
-Woda jest cząsteczką polarną. Tworzy wiązania wodorowe, a z tego wynikają jej niezwykłe właściwości: wysokie ciepło właściwe i ciepło parowania, mniejsza gęstość lodu niż wody, kohezja i adhezja, napięcie powierzchniowe i zdolność rozpuszczania jonów i związków polarnych. Każda z tych właściwości ma konkretne znaczenie dla życia.
-
-[pauza]
-
-Na koniec trzy pytania do przemyślenia. Nie musisz od razu odpowiadać.
-
-Pierwsze: dlaczego ludzie mieszkający nad morzem rzadziej przeżywają ekstremalne upały i mrozy niż ludzie w głębi lądu? Jaka właściwość wody za tym stoi?
-
-Drugie: dlaczego tłuszcz z patelni nie spłynie z wodą, ale spłynie z płynem do mycia naczyń? Podpowiedź: płyn do naczyń działa trochę jak fosfolipid.
-
-Trzecie: wyobraź sobie roślinę, która rośnie na glebie ubogiej w magnez. Które liście zżółkną pierwsze: stare czy młode? I dlaczego? Odpowiedź znajdziesz w fiszkach tego działu.
+Woda jest polarna i tworzy wiązania wodorowe. Z tego wynikają trzy rodziny jej właściwości. Woda i ciepło: powoli się nagrzewa, mocno chłodzi przy parowaniu, a lód pływa. Woda, która się trzyma: spójność, przyleganie i napięcie powierzchniowe. Woda, która rozpuszcza: jony i związki polarne, a do tego turgor komórek roślinnych.
 
 [pauza]
 
-W następnym odcinku cukry. Dlaczego ziemniak i bawełniana koszulka są zbudowane z tej samej glukozy, a jedno można zjeść, a drugiego nie. Do usłyszenia.
+Na koniec trzy pytania. Po każdym zrobię krótką pauzę, więc spróbuj odpowiedzieć, zanim usłyszysz moją wersję.
+
+Pytanie pierwsze: dlaczego w miastach nad morzem rzadziej zdarzają się ekstremalne upały i mrozy niż w głębi lądu?
+
+[pauza, dłuższa]
+
+Bo woda ma duże ciepło właściwe. Morze latem powoli się nagrzewa i chłodzi okolicę, a zimą powoli oddaje zgromadzone ciepło.
+
+Pytanie drugie: dlaczego tłuszczu z patelni nie zmyjesz samą wodą, a z płynem do naczyń już tak?
+
+[pauza, dłuższa]
+
+Bo tłuszcz jest hydrofobowy. Płyn do naczyń ma cząsteczki podobne do fosfolipidu: jednym końcem łapią tłuszcz, a drugim wodę. Otaczają kropelki tłuszczu i woda może je spłukać.
+
+Pytanie trzecie: na grządce ogórków żółkną dolne, najstarsze liście, a młode są zielone. Którego pierwiastka może brakować?
+
+[pauza, dłuższa]
+
+Najprawdopodobniej magnezu. Magnez się przemieszcza, więc roślina zabiera go ze starych liści i ratuje nim młode.
+
+[pauza]
+
+W następnym odcinku cukry. Dowiesz się, dlaczego ziemniak i bawełniana koszulka są zrobione z tego samego, a tylko jedno z nich możesz zjeść. Do usłyszenia.
 
 [muzyka, wyciszenie]
