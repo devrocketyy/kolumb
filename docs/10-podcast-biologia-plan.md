@@ -1,6 +1,6 @@
 # Podcast IndexLab · Biologia — plan 84 odcinków
 
-**Format** (ustalony po pilotażu; odcinki 1–30 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
+**Format** (ustalony po pilotażu; odcinki 1–40 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
 - **Temat:** 10–12 min, ok. 1 400 słów.
 - **Powtórka działu:** 18–20 min, ok. 2 500 słów.
 - **Razem:** ok. 17 h.
@@ -173,52 +173,52 @@
 - **Treść:** promotor, sekwencje kodujące, eksony i introny, terminator, geny prokariontów i operony.
 - **Matura:** porównanie genu pro- i eukariotycznego.
 
-**31. Transkrypcja i obróbka RNA** `b-transkrypcja` ⬜
+**31. Transkrypcja i obróbka RNA** `b-transkrypcja` ✅
 - **Haczyk:** jeden gen, kilka różnych białek — splicing alternatywny.
 - **Treść:** polimeraza RNA, nić matrycowa i kodująca, czapeczka, ogon poli-A, splicing.
 - **Matura:** zapis nici matrycowej i mRNA; obróbka u eukariontów.
 
-**32. Kod genetyczny i translacja** `b-translacja` ⬜
+**32. Kod genetyczny i translacja** `b-translacja` ✅
 - **Haczyk:** jak Nirenberg odczytał pierwsze „słowo” kodu, wrzucając do probówki same U.
 - **Treść:** cechy kodu, tRNA i antykodon, rybosom, inicjacja, elongacja, terminacja.
 - **Matura:** odczytywanie tabeli kodu; zapis sekwencji 5′→3′; kodony STOP.
 
-**33. Regulacja ekspresji genów** `b-regulacja` ⬜
+**33. Regulacja ekspresji genów** `b-regulacja` ✅
 - **Haczyk:** komórka oka i komórka wątroby mają to samo DNA — skąd różnica?
 - **Treść:** operon laktozowy, regulacja u eukariontów, czynniki transkrypcyjne, metylacja, mikroRNA.
 - **Matura:** działanie operonu lac w obecności i braku laktozy.
 
-**34. Powtórka działu: Genetyka molekularna** `genetyka-molekularna` ⬜
+**34. Powtórka działu: Genetyka molekularna** `genetyka-molekularna` ✅
 - **Treść:** od genu insuliny do cząsteczki insuliny we krwi — każdy etap po kolei.
 
 ## Dział 7. Genetyka klasyczna i zmienność
 
-**35. Krzyżówki jedno- i dwugenowe** `b-krzyzowki` ⬜
+**35. Krzyżówki jedno- i dwugenowe** `b-krzyzowki` ✅
 - **Haczyk:** Mendel, klasztorny ogród i 28 tysięcy roślin grochu.
 - **Treść:** allele, homo- i heterozygota, genotyp i fenotyp, prawa Mendla, krzyżówka testowa.
 - **Matura:** zapis krzyżówki według zasad CKE; stosunki 3:1, 9:3:3:1, 1:1.
 
-**36. Współdziałanie genów i allele wielokrotne** `b-wspoldzialanie` ⬜
+**36. Współdziałanie genów i allele wielokrotne** `b-wspoldzialanie` ✅
 - **Haczyk:** labrador — żółty, brązowy czy czarny, i kolor nosa.
 - **Treść:** dominacja niezupełna, kodominacja, grupy krwi AB0, epistaza, geny kumulatywne.
 - **Matura:** nietypowe stosunki fenotypów; grupy krwi i Rh.
 
-**37. Geny sprzężone i mapy genowe** `b-sprzezenia` ⬜
+**37. Geny sprzężone i mapy genowe** `b-sprzezenia` ✅
 - **Haczyk:** Morgan i muszki owocowe, które nie słuchały Mendla.
 - **Treść:** sprzężenie, crossing-over, rekombinanty, odległość w centymorganach.
 - **Matura:** obliczanie odległości genów; rozpoznawanie rekombinantów.
 
-**38. Płeć i dziedziczenie pozajądrowe** `b-plec` ⬜
+**38. Płeć i dziedziczenie pozajądrowe** `b-plec` ✅
 - **Haczyk:** dlaczego daltonizm dotyka głównie mężczyzn.
 - **Treść:** chromosomy płci, cechy sprzężone z X, hemofilia, daltonizm, dziedziczenie mitochondrialne.
 - **Matura:** krzyżówki z X; dziedziczenie po matce.
 
-**39. Analiza rodowodów** `b-rodowody` ⬜
+**39. Analiza rodowodów** `b-rodowody` ✅
 - **Haczyk:** hemofilia w rodzinie królowej Wiktorii i rodzinie carskiej.
 - **Treść:** symbole, rozpoznawanie typu dziedziczenia, ustalanie genotypów, prawdopodobieństwo.
 - **Matura:** przepis na rozpoznanie: autosomalne czy na X, dominujące czy recesywne.
 
-**40. Zmienność, mutacje i aberracje** `b-mutacje` ⬜
+**40. Zmienność, mutacje i aberracje** `b-mutacje` ✅
 - **Haczyk:** jedna zmieniona litera w DNA i anemia sierpowata, która chroni przed malarią.
 - **Treść:** zmienność środowiskowa i genetyczna, mutacje punktowe, chromosomowe strukturalne i liczbowe, nondysjunkcja.
 - **Matura:** skutki mutacji dla białka; zespół Downa, Turnera, Klinefeltera.
