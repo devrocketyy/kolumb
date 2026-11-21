@@ -445,12 +445,12 @@
      "id": "pcdf5b52f",
      "pytanie": "Paradoks wartości C oznacza, że:",
      "odpowiedzi": [
-      "wielkość genomu nie zależy wprost od złożoności organizmu",
-      "wszystkie organizmy mają tyle samo DNA",
-      "człowiek ma największy genom",
-      "bakterie mają największe genomy"
+      "wszystkie organizmy mają dokładnie tyle samo DNA",
+      "wielkość genomu nie zależy od złożoności organizmu",
+      "człowiek ma największy genom spośród wszystkich gatunków",
+      "bakterie mają największe genomy wśród organizmów"
      ],
-     "poprawna": "A",
+     "poprawna": "B",
      "wyjasnienie": "Ilość DNA niekodującego.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -458,12 +458,12 @@
      "id": "p8c1b39b1",
      "pytanie": "Chromosomy olbrzymie występują w gruczołach ślinowych:",
      "odpowiedzi": [
-      "płazów",
-      "ślimaków",
-      "ssaków",
-      "larw muchówek"
+      "kijanek płazów",
+      "ślimaków lądowych",
+      "larw muchówek",
+      "dorosłych ssaków"
      ],
-     "poprawna": "D",
+     "poprawna": "C",
      "wyjasnienie": "Politenia.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -926,12 +926,12 @@
      "id": "pb29c4917",
      "pytanie": "Superskręty DNA przed widełkami usuwa:",
      "odpowiedzi": [
-      "helikaza",
-      "ligaza",
       "topoizomeraza",
-      "prymaza"
+      "ligaza (łączy fragmenty)",
+      "helikaza (rozplata nici)",
+      "prymaza (syntetyzuje starter)"
      ],
-     "poprawna": "C",
+     "poprawna": "A",
      "wyjasnienie": "Napięcia.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -978,12 +978,12 @@
      "id": "p7a81b582",
      "pytanie": "Replikacja kolistego DNA bakterii rozpoczyna się:",
      "odpowiedzi": [
+      "jednocześnie w tysiącach miejsc ori",
       "w jednym miejscu ori i biegnie dwukierunkowo",
-      "w wielu miejscach jednocześnie",
-      "na końcach cząsteczki",
-      "w telomerach"
+      "na obu końcach liniowej, dwuniciowej cząsteczki DNA",
+      "w telomerach na końcach chromosomu"
      ],
-     "poprawna": "A",
+     "poprawna": "B",
      "wyjasnienie": "Bakteryjny chromosom.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1548,12 +1548,12 @@
      "id": "p93d3083b",
      "pytanie": "Chemioterapia uszkadza szczególnie komórki:",
      "odpowiedzi": [
-      "mięśniowe",
-      "tłuszczowe",
-      "nerwowe",
-      "szybko dzielące się"
+      "mięśni szkieletowych",
+      "tkanki tłuszczowej",
+      "szybko dzielące się",
+      "nerwowe w mózgu"
      ],
-     "poprawna": "D",
+     "poprawna": "C",
      "wyjasnienie": "Szpik, mieszki włosowe.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1587,12 +1587,12 @@
      "id": "p28d3f38a",
      "pytanie": "Po częściowym usunięciu wątroby jej komórki:",
      "odpowiedzi": [
-      "przechodzą mejozę",
-      "nie mogą się dzielić",
-      "ulegają apoptozie wszystkie",
-      "wracają z G0 do cyklu i regenerują narząd"
+      "przechodzą mejozę i tworzą komórki płciowe",
+      "wracają z G0 do cyklu i regenerują narząd",
+      "wszystkie ulegają apoptozie w ciągu doby",
+      "tracą zdolność do jakichkolwiek podziałów"
      ],
-     "poprawna": "D",
+     "poprawna": "B",
      "wyjasnienie": "Regeneracja.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1678,12 +1678,12 @@
      "id": "p462bc41b",
      "pytanie": "Mitoza w porównaniu z całym cyklem komórkowym trwa:",
      "odpowiedzi": [
-      "kilka dni",
-      "dłużej niż interfaza",
-      "znacznie krócej (np. 1 h z 24 h)",
-      "tyle samo"
+      "zwykle kilka dni",
+      "znacznie krócej",
+      "dłużej niż cała interfaza",
+      "tyle samo co faza S"
      ],
-     "poprawna": "C",
+     "poprawna": "B",
      "wyjasnienie": "Interfaza dominuje.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
@@ -2205,12 +2205,12 @@
      "id": "p7558293e",
      "pytanie": "Crossing-over zachodzi w:",
      "odpowiedzi": [
-      "interfazie",
-      "anafazie II",
-      "metafazie I",
-      "profazie I mejozy"
+      "interfazie (faza S)",
+      "anafazie II mejozy",
+      "profazie I mejozy",
+      "metafazie I mejozy"
      ],
-     "poprawna": "D",
+     "poprawna": "C",
      "wyjasnienie": "Biwalenty.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -2270,12 +2270,12 @@
      "id": "pf6455712",
      "pytanie": "Trisomia może być skutkiem:",
      "odpowiedzi": [
+      "crossing-over w profazie I",
+      "replikacji DNA w fazie S",
       "nondysjunkcji chromosomów",
-      "replikacji DNA",
-      "crossing-over",
-      "apoptozy"
+      "apoptozy komórek płciowych"
      ],
-     "poprawna": "A",
+     "poprawna": "C",
      "wyjasnienie": "Nierozejście się.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -3002,12 +3002,12 @@
      "id": "p80b26435",
      "pytanie": "Eliminacja limfocytów rozpoznających własne antygeny chroni przed:",
      "odpowiedzi": [
-      "alergią na pyłki",
-      "nowotworami skóry",
-      "anemią z niedoboru",
-      "chorobami autoimmunizacyjnymi"
+      "chorobami autoimmunizacyjnymi",
+      "nowotworami skóry (czerniakiem)",
+      "anemią z niedoboru żelaza",
+      "alergią na pyłki roślin"
      ],
-     "poprawna": "D",
+     "poprawna": "A",
      "wyjasnienie": "Tolerancja immunologiczna.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },

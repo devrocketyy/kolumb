@@ -122,6 +122,9 @@ _usun = os.path.join(SRC, 'usuniete.py')
 _u = runpy.run_path(_usun) if os.path.exists(_usun) else {}
 USUN, USUN_Q = _u.get('USUN', set()), _u.get('USUN_Q', set())
 USUN_W, TYTULY_W = _u.get('USUN_W', set()), _u.get('TYTULY_W', {})
+_w = os.path.join(SRC, 'wyrownania.py')
+ODP = runpy.run_path(_w)['ODP'] if os.path.exists(_w) else {}  # wyrównane długości odpowiedzi ABCD
+UZYTE_ODP = set()
 
 
 def load_schematy():
@@ -212,6 +215,9 @@ def build_unit(uid, nr, nazwa, t):
     for q, odp, wyj in t.get('Q', []):
         if (uid, q) in USUN_Q:
             continue
+        if q in ODP:
+            odp = ODP[q]
+            UZYTE_ODP.add(q)
         star = [k for k, a in enumerate(odp) if a.startswith('*')]
         assert len(star) == 1, (uid, q)
         # stała, ale „losowa” kolejność odpowiedzi (zależna od treści pytania), żeby poprawna nie stała zawsze na tym samym miejscu
@@ -264,6 +270,7 @@ def main():
         with open(os.path.join(OUT, did + '.json'), 'w') as o:
             json.dump({'id': did, 'nazwa': dn, 'opis': opis, 'poddzialy': units}, o, ensure_ascii=False, indent=1)
             o.write('\n')
+    assert UZYTE_ODP == set(ODP), ('wyrownania.py: pytania, których nie ma w treściach', set(ODP) - UZYTE_ODP)
     extra = set(T) - {t[0] for d in DZIALY for t in d[3]}
     assert not extra, f'treści dla nieznanych poddziałów: {extra}'
     assert not set(S) - known, f'schematy dla nieznanych poddziałów: {set(S) - known}'

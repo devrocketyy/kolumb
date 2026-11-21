@@ -337,12 +337,12 @@
      "id": "pe3a682f5",
      "pytanie": "Stosunek 2:1 w potomstwie dwóch heterozygot wskazuje na:",
      "odpowiedzi": [
+      "kodominację alleli jednego genu",
       "allel letalny w homozygocie",
-      "kodominację alleli",
-      "polimerię genów",
-      "sprzężenie genów"
+      "polimerię (geny kumulatywne)",
+      "pełne sprzężenie dwóch genów"
      ],
-     "poprawna": "A",
+     "poprawna": "B",
      "wyjasnienie": "Homozygoty giną.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -969,12 +969,12 @@
      "id": "p9b3beb80",
      "pytanie": "Stosunek 15 : 1 w F2 wskazuje na:",
      "odpowiedzi": [
-      "geny kumulatywne (dublujące się)",
-      "allel letalny",
-      "kodominację",
-      "epistazę recesywną"
+      "epistazę recesywną (9 : 3 : 4)",
+      "allel letalny w homozygocie",
+      "kodominację alleli jednego genu",
+      "geny dublujące się"
      ],
-     "poprawna": "A",
+     "poprawna": "D",
      "wyjasnienie": "Wystarczy jeden allel dominujący.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1008,12 +1008,12 @@
      "id": "p710b0e68",
      "pytanie": "Nie każdy nosiciel allelu dominującego choroby wykazuje objawy. Zjawisko to:",
      "odpowiedzi": [
-      "epistaza",
-      "sprzężenie",
-      "kodominacja",
-      "niepełna penetracja"
+      "epistaza recesywna",
+      "sprzężenie genu z płcią",
+      "niepełna penetracja",
+      "kodominacja alleli"
      ],
-     "poprawna": "D",
+     "poprawna": "C",
      "wyjasnienie": "Penetracja.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1345,12 +1345,12 @@
      "id": "paa5d5efa",
      "pytanie": "Morgan prowadził badania na:",
      "odpowiedzi": [
-      "grochu",
-      "kukurydzy",
-      "myszach",
-      "muszce owocowej"
+      "muszce owocowej",
+      "kukurydzy zwyczajnej",
+      "myszach laboratoryjnych",
+      "grochu siewnym"
      ],
-     "poprawna": "D",
+     "poprawna": "A",
      "wyjasnienie": "Drosophila.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1397,12 +1397,12 @@
      "id": "pe76e57ff",
      "pytanie": "Krzyżówki testowe przy badaniu sprzężeń u muszki prowadzi się z heterozygotycznymi samicami, ponieważ u samców:",
      "odpowiedzi": [
-      "brak mejozy",
-      "nie ma chromosomów X",
+      "gamety powstają bez mejozy",
       "crossing-over prawie nie zachodzi",
-      "są haploidalne"
+      "nie ma chromosomów X w komórkach",
+      "wszystkie ich komórki są haploidalne"
      ],
-     "poprawna": "C",
+     "poprawna": "B",
      "wyjasnienie": "Rekombinacja u samic.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1763,12 +1763,12 @@
      "id": "p52a98a37",
      "pytanie": "Dziecko chorej matki z chorobą mitochondrialną i zdrowego ojca:",
      "odpowiedzi": [
+      "zachoruje tylko wtedy, gdy będzie córką",
+      "nie zachoruje, bo ojciec jest zdrowy",
       "może zachorować bez względu na płeć",
-      "nie zachoruje",
-      "zachoruje tylko syn",
-      "zachoruje tylko córka"
+      "zachoruje tylko wtedy, gdy będzie synem"
      ],
-     "poprawna": "A",
+     "poprawna": "C",
      "wyjasnienie": "Mitochondria od matki.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1867,12 +1867,12 @@
      "id": "pa9492cef",
      "pytanie": "O płci żółwi decyduje często:",
      "odpowiedzi": [
-      "liczba jaj",
-      "temperatura inkubacji jaj",
-      "chromosom W",
-      "chromosom Y"
+      "liczba jaj złożonych w gnieździe",
+      "obecność chromosomu Y",
+      "obecność chromosomu W",
+      "temperatura inkubacji jaj"
      ],
-     "poprawna": "B",
+     "poprawna": "D",
      "wyjasnienie": "Determinacja środowiskowa.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1906,12 +1906,12 @@
      "id": "p376beeb4",
      "pytanie": "Częstość daltonizmu u mężczyzn wynosi ok. 8%. U kobiet jest:",
      "odpowiedzi": [
+      "taka sama jak u mężczyzn",
+      "zawsze równa zeru",
       "znacznie mniejsza (ok. 0,64%)",
-      "zawsze zerowa",
-      "taka sama",
-      "dwa razy większa"
+      "dwa razy większa niż u mężczyzn"
      ],
-     "poprawna": "A",
+     "poprawna": "C",
      "wyjasnienie": "q² = 0,08².",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -2349,12 +2349,12 @@
      "id": "ped5af370",
      "pytanie": "Pierwszym krokiem w analizie rodowodu jest zwykle ustalenie, czy cecha jest:",
      "odpowiedzi": [
-      "sprzężona z Y",
-      "wielogenowa",
-      "mitochondrialna",
-      "dominująca czy recesywna"
+      "dominująca czy recesywna",
+      "warunkowana wieloma genami",
+      "dziedziczona mitochondrialnie",
+      "sprzężona z chromosomem Y"
      ],
-     "poprawna": "D",
+     "poprawna": "A",
      "wyjasnienie": "Podstawowa decyzja.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -2389,11 +2389,11 @@
      "pytanie": "Nosicielką obowiązkową w rodzinie z hemofilią jest:",
      "odpowiedzi": [
       "córka zdrowego mężczyzny",
-      "matka chorego syna (przy zdrowym ojcu)",
+      "siostra chorego mężczyzny",
       "każda kobieta w rodzinie",
-      "siostra chorego mężczyzny"
+      "matka chorego syna"
      ],
-     "poprawna": "B",
+     "poprawna": "D",
      "wyjasnienie": "Allel od matki.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -2826,12 +2826,12 @@
      "id": "p6ebe3345",
      "pytanie": "Mutacje dziedziczone przez potomstwo zachodzą w komórkach:",
      "odpowiedzi": [
-      "płciowych (linii generatywnej)",
       "somatycznych skóry",
+      "linii płciowej",
       "nowotworowych guza",
       "mięśniowych serca"
      ],
-     "poprawna": "A",
+     "poprawna": "B",
      "wyjasnienie": "Generatywne.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -2852,12 +2852,12 @@
      "id": "pffdedd8a",
      "pytanie": "Translokacja polega na:",
      "odpowiedzi": [
+      "utracie fragmentu chromosomu (delecji)",
       "przeniesieniu fragmentu na inny chromosom",
-      "utracie fragmentu chromosomu",
-      "odwróceniu fragmentu",
-      "podwojeniu fragmentu"
+      "odwróceniu fragmentu o 180° (inwersji)",
+      "podwojeniu fragmentu chromosomu (duplikacji)"
      ],
-     "poprawna": "A",
+     "poprawna": "B",
      "wyjasnienie": "Np. chromosom Philadelphia.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -2956,12 +2956,12 @@
      "id": "pdd989dd1",
      "pytanie": "Homozygotyczna delecja w genie CCR5 chroni przed:",
      "odpowiedzi": [
-      "malarią tropikalną",
-      "grypą sezonową",
       "zakażeniem częścią szczepów HIV",
-      "gruźlicą płuc"
+      "grypą sezonową typu A",
+      "malarią tropikalną (zarodziec)",
+      "gruźlicą płuc wywoływaną przez prątki"
      ],
-     "poprawna": "C",
+     "poprawna": "A",
      "wyjasnienie": "Receptor dla wirusa.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -3008,12 +3008,12 @@
      "id": "pa1d31c75",
      "pytanie": "Mutagenem chemicznym jest:",
      "odpowiedzi": [
+      "wirus brodawczaka ludzkiego (HPV)",
       "benzopiren z dymu tytoniowego",
-      "promieniowanie UV",
-      "wysoka temperatura",
-      "wirus HPV"
+      "promieniowanie rentgenowskie",
+      "promieniowanie ultrafioletowe (UV)"
      ],
-     "poprawna": "A",
+     "poprawna": "B",
      "wyjasnienie": "Rakotwórczy.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
@@ -3377,12 +3377,12 @@
      "id": "pbcd29831",
      "pytanie": "Fenyloketonurię leczy się:",
      "odpowiedzi": [
-      "przetaczaniem krwi",
-      "dietą ubogą w fenyloalaninę",
-      "antybiotykami",
-      "insuliną"
+      "regularnym przetaczaniem krwi",
+      "zastrzykami z insuliny",
+      "antybiotykami o szerokim spektrum",
+      "dietą ubogą w fenyloalaninę"
      ],
-     "poprawna": "B",
+     "poprawna": "D",
      "wyjasnienie": "Brak enzymu.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -3403,12 +3403,12 @@
      "id": "p30abc15f",
      "pytanie": "Kariotyp 47,XXY to zespół:",
      "odpowiedzi": [
+      "Downa (trisomia 21)",
+      "Turnera (45,X)",
       "Klinefeltera",
-      "Downa",
-      "Turnera",
-      "Patau"
+      "Patau (trisomia 13)"
      ],
-     "poprawna": "A",
+     "poprawna": "C",
      "wyjasnienie": "Mężczyzna z dodatkowym X.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -3546,12 +3546,12 @@
      "id": "p34439189",
      "pytanie": "Cukrzyca typu 2 jest chorobą:",
      "odpowiedzi": [
-      "wieloczynnikową (geny i środowisko)",
       "jednogenową recesywną",
-      "chromosomową",
-      "mitochondrialną"
+      "wieloczynnikową",
+      "chromosomową (aneuploidią)",
+      "mitochondrialną (po matce)"
      ],
-     "poprawna": "A",
+     "poprawna": "B",
      "wyjasnienie": "Styl życia + predyspozycje.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -3559,12 +3559,12 @@
      "id": "p7c6e0b48",
      "pytanie": "Mutacje genów BRCA1/BRCA2 zwiększają ryzyko:",
      "odpowiedzi": [
-      "daltonizmu",
-      "hemofilii",
-      "zespołu Downa",
-      "raka piersi i jajnika"
+      "daltonizmu (ślepoty na barwy)",
+      "raka piersi i jajnika",
+      "zespołu Downa u dzieci",
+      "hemofilii typu A"
      ],
-     "poprawna": "D",
+     "poprawna": "B",
      "wyjasnienie": "Geny supresorowe.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },

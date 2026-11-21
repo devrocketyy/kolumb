@@ -312,12 +312,12 @@
      "id": "p5c92eebc",
      "pytanie": "Locus to:",
      "odpowiedzi": [
+      "rodzaj allelu recesywnego",
       "miejsce genu na chromosomie",
-      "rodzaj allelu",
-      "fragment intronu",
-      "kodon STOP"
+      "fragment intronu w genie",
+      "kodon STOP w cząsteczce mRNA"
      ],
-     "poprawna": "A",
+     "poprawna": "B",
      "wyjasnienie": "Położenie.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -403,12 +403,12 @@
      "id": "pca5e601f",
      "pytanie": "Występowanie w populacji grup krwi A, B, AB i 0 to przykład:",
      "odpowiedzi": [
+      "mutacji letalnej w populacji",
+      "mozaicyzmu komórek somatycznych",
       "polimorfizmu genetycznego",
-      "mozaicyzmu",
-      "mutacji letalnej",
-      "aneuploidii"
+      "aneuploidii chromosomów płci"
      ],
-     "poprawna": "A",
+     "poprawna": "C",
      "wyjasnienie": "Kilka wariantów.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -841,12 +841,12 @@
      "id": "pd6d53b0c",
      "pytanie": "Polimeraza RNA II u eukariontów syntetyzuje:",
      "odpowiedzi": [
-      "rRNA",
-      "tRNA",
       "pre-mRNA",
-      "DNA"
+      "tRNA i 5S rRNA",
+      "rRNA rybosomów",
+      "nić DNA"
      ],
-     "poprawna": "C",
+     "poprawna": "A",
      "wyjasnienie": "Geny kodujące białka.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -854,12 +854,12 @@
      "id": "pcbe42c34",
      "pytanie": "Alternatywny splicing pozwala na:",
      "odpowiedzi": [
-      "replikację RNA w jądrze",
-      "usunięcie promotora genu",
-      "powstanie kilku białek z jednego genu",
-      "powielenie genu w genomie"
+      "replikację cząsteczek RNA w jądrze",
+      "usunięcie promotora z sekwencji całego genu",
+      "powielenie całego genu w genomie",
+      "powstanie kilku białek z jednego genu"
      ],
-     "poprawna": "C",
+     "poprawna": "D",
      "wyjasnienie": "Różne zestawy eksonów.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1316,12 +1316,12 @@
      "id": "p3d708159",
      "pytanie": "Zdegenerowanie kodu oznacza, że:",
      "odpowiedzi": [
-      "jeden aminokwas może być kodowany przez kilka kodonów",
-      "kodony nakładają się na siebie",
-      "kod różni się między gatunkami",
-      "jeden kodon koduje kilka aminokwasów"
+      "jeden kodon koduje kilka aminokwasów",
+      "sąsiednie kodony nakładają się na siebie",
+      "kod genetyczny różni się między gatunkami",
+      "jeden aminokwas ma kilka kodonów"
      ],
-     "poprawna": "A",
+     "poprawna": "D",
      "wyjasnienie": "64 kodony, 20 aminokwasów.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1342,12 +1342,12 @@
      "id": "p123f1f2e",
      "pytanie": "Wiązanie peptydowe tworzone jest dzięki aktywności:",
      "odpowiedzi": [
-      "mRNA",
-      "polimerazy RNA",
-      "tRNA",
-      "rRNA dużej podjednostki"
+      "tRNA w miejscu E",
+      "polimerazy RNA II w jądrze",
+      "rRNA dużej podjednostki",
+      "mRNA na kodonie START"
      ],
-     "poprawna": "D",
+     "poprawna": "C",
      "wyjasnienie": "Rybozym.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1355,12 +1355,12 @@
      "id": "p211196d8",
      "pytanie": "Aminokwas przyłączany jest do tRNA przez:",
      "odpowiedzi": [
-      "ligazę",
+      "ligazę DNA w jądrze",
+      "dużą podjednostkę rybosomu",
       "syntetazę aminoacylo-tRNA",
-      "rybosom",
-      "polimerazę RNA"
+      "polimerazę RNA III"
      ],
-     "poprawna": "B",
+     "poprawna": "C",
      "wyjasnienie": "Aktywacja z ATP.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1563,12 +1563,12 @@
      "id": "p27ff1484",
      "pytanie": "U eukariontów mała podjednostka rybosomu rozpoznaje mRNA dzięki:",
      "odpowiedzi": [
-      "ogonowi poli-A",
-      "intronom",
-      "kodonowi STOP",
-      "czapeczce na końcu 5′"
+      "czapeczce na końcu 5′",
+      "intronom w środku mRNA",
+      "kodonowi STOP na końcu",
+      "ogonowi poli-A na końcu 3′"
      ],
-     "poprawna": "D",
+     "poprawna": "A",
      "wyjasnienie": "Inicjacja.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1965,12 +1965,12 @@
      "id": "p92f02749",
      "pytanie": "W obecności laktozy operon lac jest:",
      "odpowiedzi": [
-      "zmetylowany",
-      "usunięty",
-      "aktywny (indukowany)",
-      "zablokowany"
+      "trwale zmetylowany",
+      "usunięty z genomu",
+      "zablokowany przez represor",
+      "aktywny (indukowany)"
      ],
-     "poprawna": "C",
+     "poprawna": "D",
      "wyjasnienie": "Represor odłączony.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1991,12 +1991,12 @@
      "id": "pc94ae462",
      "pytanie": "Ciałko Barra to:",
      "odpowiedzi": [
+      "jąderko w interfazie",
+      "skondensowany chromosom Y",
       "nieaktywny chromosom X",
-      "chromosom Y",
-      "jąderko",
-      "plazmid"
+      "plazmid w jądrze"
      ],
-     "poprawna": "A",
+     "poprawna": "C",
      "wyjasnienie": "Wyrównanie dawki genów.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -2017,12 +2017,12 @@
      "id": "pe5c94988",
      "pytanie": "Enhancery to sekwencje:",
      "odpowiedzi": [
-      "wycinane w splicingu",
-      "wzmacniające transkrypcję genów",
-      "kończące translację",
-      "kodujące białka"
+      "wycinane z pre-mRNA w splicingu",
+      "kodujące białka strukturalne",
+      "kończące translację na rybosomie",
+      "wzmacniające transkrypcję genów"
      ],
-     "poprawna": "B",
+     "poprawna": "D",
      "wyjasnienie": "Regulacja u eukariontów.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -2030,12 +2030,12 @@
      "id": "pb4e5e772",
      "pytanie": "Modyfikacje epigenetyczne:",
      "odpowiedzi": [
-      "zmieniają ekspresję bez zmiany sekwencji",
-      "zawsze są mutacjami",
-      "występują tylko u bakterii",
-      "zmieniają sekwencję DNA"
+      "zmieniają sekwencję nukleotydów DNA",
+      "zawsze są dziedzicznymi mutacjami punktowymi",
+      "występują wyłącznie u bakterii",
+      "zmieniają ekspresję bez zmiany sekwencji"
      ],
-     "poprawna": "A",
+     "poprawna": "D",
      "wyjasnienie": "Np. metylacja.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
