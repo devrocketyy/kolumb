@@ -545,12 +545,12 @@
      "id": "p8f02938f",
      "pytanie": "Gamety osobnika AaBB to:",
      "odpowiedzi": [
-      "tylko AB",
-      "AB, aB, Ab, ab",
+      "AB i aB",
+      "AB i Ab",
       "AB i ab",
-      "AB i aB"
+      "AB, aB, Ab, ab"
      ],
-     "poprawna": "D",
+     "poprawna": "A",
      "wyjasnienie": "B — homozygota.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -930,12 +930,12 @@
      "id": "pf97a580a",
      "pytanie": "Kolor skóry człowieka jest przykładem:",
      "odpowiedzi": [
-      "sprzężenia z chromosomem X",
+      "allelu letalnego w homozygocie",
+      "dziedziczenia wielogenowego",
       "dominacji zupełnej jednego genu",
-      "dziedziczenia wielogenowego (polimerii)",
-      "allelu letalnego w homozygocie"
+      "sprzężenia z chromosomem X"
      ],
-     "poprawna": "C",
+     "poprawna": "B",
      "wyjasnienie": "Zmienność ciągła.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1034,12 +1034,12 @@
      "id": "pf16991bb",
      "pytanie": "Umaszczenie kota syjamskiego (ciemne końce ciała) to przykład wpływu na fenotyp:",
      "odpowiedzi": [
-      "temperatury (norma reakcji)",
-      "kodominacji",
+      "kodominacji alleli",
+      "temperatury",
       "sprzężenia z płcią",
       "epistazy dominującej"
      ],
-     "poprawna": "A",
+     "poprawna": "B",
      "wyjasnienie": "Enzym wrażliwy na ciepło.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1061,11 +1061,11 @@
      "pytanie": "Barwa ziarna pszenicy (od białej do ciemnoczerwonej) to przykład:",
      "odpowiedzi": [
       "kodominacji dwóch alleli",
+      "epistazy recesywnej",
       "allelu letalnego w homozygocie",
-      "polimerii (genów kumulatywnych)",
-      "epistazy recesywnej"
+      "polimerii"
      ],
-     "poprawna": "C",
+     "poprawna": "D",
      "wyjasnienie": "Addytywność.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1306,12 +1306,12 @@
      "id": "p002cc4a7",
      "pytanie": "Przy genach sprzężonych w krzyżówce testowej przeważają:",
      "odpowiedzi": [
-      "wszystkie po równo",
-      "rekombinanty",
       "homozygoty dominujące",
-      "klasy rodzicielskie"
+      "klasy w stosunku 1 : 1 : 1 : 1",
+      "klasy rodzicielskie",
+      "rekombinanty"
      ],
-     "poprawna": "D",
+     "poprawna": "C",
      "wyjasnienie": "Brak crossing-over w większości gamet.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1906,12 +1906,12 @@
      "id": "p376beeb4",
      "pytanie": "Częstość daltonizmu u mężczyzn wynosi ok. 8%. U kobiet jest:",
      "odpowiedzi": [
+      "bliska zeru (brak przypadków)",
+      "dwa razy większa niż u mężczyzn",
       "taka sama jak u mężczyzn",
-      "zawsze równa zeru",
-      "znacznie mniejsza (ok. 0,64%)",
-      "dwa razy większa niż u mężczyzn"
+      "znacznie mniejsza (ok. 0,64%)"
      ],
-     "poprawna": "C",
+     "poprawna": "D",
      "wyjasnienie": "q² = 0,08².",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1959,11 +1959,11 @@
      "pytanie": "Łysienie androgenowe częściej u mężczyzn wynika głównie z:",
      "odpowiedzi": [
       "genu na chromosomie Y",
-      "mutacji mitochondrialnej",
+      "wpływu hormonów",
       "braku chromosomu X",
-      "wpływu hormonów (testosteronu)"
+      "mutacji mitochondrialnej"
      ],
-     "poprawna": "D",
+     "poprawna": "B",
      "wyjasnienie": "Cecha związana z płcią.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -2336,12 +2336,12 @@
      "id": "p4227d966",
      "pytanie": "W rodowodzie choroby autosomalnej recesywnej chore dziecko zdrowych rodziców oznacza, że rodzice są:",
      "odpowiedzi": [
-      "heterozygotami (nosicielami)",
       "homozygotami recesywnymi",
-      "hemizygotami",
-      "homozygotami dominującymi"
+      "hemizygotami (jeden allel)",
+      "homozygotami dominującymi",
+      "heterozygotami"
      ],
-     "poprawna": "A",
+     "poprawna": "D",
      "wyjasnienie": "Aa × Aa.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -2852,12 +2852,12 @@
      "id": "pffdedd8a",
      "pytanie": "Translokacja polega na:",
      "odpowiedzi": [
-      "utracie fragmentu chromosomu (delecji)",
       "przeniesieniu fragmentu na inny chromosom",
+      "utracie fragmentu chromosomu",
       "odwróceniu fragmentu o 180° (inwersji)",
       "podwojeniu fragmentu chromosomu (duplikacji)"
      ],
-     "poprawna": "B",
+     "poprawna": "A",
      "wyjasnienie": "Np. chromosom Philadelphia.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -2943,12 +2943,12 @@
      "id": "p6e67f1df",
      "pytanie": "Ryzyko nowotworów rośnie z wiekiem głównie dlatego, że:",
      "odpowiedzi": [
-      "kumulują się mutacje w komórkach",
-      "zanika apoptoza całkowicie",
+      "zanika apoptoza we wszystkich tkankach",
+      "zanika DNA",
       "spada liczba chromosomów",
-      "zanika DNA"
+      "kumulują się mutacje w komórkach"
      ],
-     "poprawna": "A",
+     "poprawna": "D",
      "wyjasnienie": "Wiele mutacji.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -2982,12 +2982,12 @@
      "id": "pcb2a5a08",
      "pytanie": "Mutacja w intronie może:",
      "odpowiedzi": [
-      "nigdy nie mieć skutków",
-      "zmienić kod genetyczny",
+      "zmienić liczbę alleli w genie",
+      "zaburzyć splicing pre-mRNA",
       "zmienić liczbę chromosomów",
-      "zaburzyć splicing pre-mRNA"
+      "zmienić kod genetyczny"
      ],
-     "poprawna": "D",
+     "poprawna": "B",
      "wyjasnienie": "Miejsca cięcia.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -3403,12 +3403,12 @@
      "id": "p30abc15f",
      "pytanie": "Kariotyp 47,XXY to zespół:",
      "odpowiedzi": [
+      "Klinefeltera (47,XXY)",
+      "Turnera (monosomia X, 45,X)",
       "Downa (trisomia 21)",
-      "Turnera (45,X)",
-      "Klinefeltera",
       "Patau (trisomia 13)"
      ],
-     "poprawna": "C",
+     "poprawna": "A",
      "wyjasnienie": "Mężczyzna z dodatkowym X.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -3481,10 +3481,10 @@
      "id": "pe59058ac",
      "pytanie": "Anemia sierpowata jest skutkiem mutacji:",
      "odpowiedzi": [
-      "liczbowej",
-      "punktowej (substytucji)",
       "mitochondrialnej",
-      "chromosomowej strukturalnej"
+      "punktowej",
+      "chromosomowej strukturalnej",
+      "liczbowej (aneuploidii)"
      ],
      "poprawna": "B",
      "wyjasnienie": "Glu → Val.",
@@ -3520,10 +3520,10 @@
      "id": "pb6d64d61",
      "pytanie": "Dystrofia mięśniowa Duchenne’a dotyczy głównie:",
      "odpowiedzi": [
-      "obu płci równo",
+      "osób dorosłych",
       "chłopców",
-      "tylko dorosłych",
-      "dziewczynek"
+      "dziewczynek",
+      "obu płci równo"
      ],
      "poprawna": "B",
      "wyjasnienie": "Sprzężona z X.",
@@ -3559,12 +3559,12 @@
      "id": "p7c6e0b48",
      "pytanie": "Mutacje genów BRCA1/BRCA2 zwiększają ryzyko:",
      "odpowiedzi": [
-      "daltonizmu (ślepoty na barwy)",
-      "raka piersi i jajnika",
+      "hemofilii typu A",
+      "daltonizmu i ślepoty zmierzchowej",
       "zespołu Downa u dzieci",
-      "hemofilii typu A"
+      "raka piersi i jajnika"
      ],
-     "poprawna": "B",
+     "poprawna": "D",
      "wyjasnienie": "Geny supresorowe.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -3652,8 +3652,8 @@
      "odpowiedzi": [
       "przypadku bez przyczyny",
       "doboru i dryfu w różnych populacjach",
-      "klimatu bezpośrednio uszkadzającego geny",
-      "różnic w kodzie genetycznym"
+      "klimatu i diety uszkadzających geny",
+      "różnic w kodzie genetycznym między ludami"
      ],
      "poprawna": "B",
      "wyjasnienie": "Historia populacji.",

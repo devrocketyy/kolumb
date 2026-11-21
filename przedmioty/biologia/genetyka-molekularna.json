@@ -300,11 +300,11 @@
      "pytanie": "Odwrotna transkrypcja (RNA → DNA) zachodzi u:",
      "odpowiedzi": [
       "wszystkich bakterii",
+      "retrowirusów",
       "wszystkich roślin",
-      "retrowirusów (np. HIV)",
       "mitochondriów"
      ],
-     "poprawna": "C",
+     "poprawna": "B",
      "wyjasnienie": "Wyjątek od dogmatu.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -325,12 +325,12 @@
      "id": "p4f6e7b9b",
      "pytanie": "Fenotyp zależy od:",
      "odpowiedzi": [
-      "wyłącznie środowiska",
-      "wyłącznie genotypu",
       "genotypu i środowiska",
-      "tylko alleli dominujących"
+      "tylko środowiska",
+      "tylko genotypu",
+      "alleli dominujących i płci"
      ],
-     "poprawna": "C",
+     "poprawna": "A",
      "wyjasnienie": "Norma reakcji.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -442,12 +442,12 @@
      "id": "p2a7772ac",
      "pytanie": "Introny to odcinki genu, które:",
      "odpowiedzi": [
-      "są wycinane z pre-mRNA",
       "kodują aminokwasy białka",
-      "występują tylko u bakterii",
+      "są wycinane z pre-mRNA",
+      "występują głównie u bakterii",
       "wyznaczają miejsce startu translacji"
      ],
-     "poprawna": "A",
+     "poprawna": "B",
      "wyjasnienie": "Usuwane podczas splicingu.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
@@ -893,10 +893,10 @@
      "id": "p726a9a39",
      "pytanie": "Ryfampicyna hamuje u bakterii:",
      "odpowiedzi": [
+      "translację na rybosomach",
+      "transkrypcję",
       "syntezę ściany komórkowej",
-      "transkrypcję (polimerazę RNA)",
-      "replikację DNA",
-      "translację na rybosomach"
+      "replikację DNA"
      ],
      "poprawna": "B",
      "wyjasnienie": "Leczenie gruźlicy.",
@@ -1485,12 +1485,12 @@
      "id": "p91080760",
      "pytanie": "Kodon STOP rozpoznaje:",
      "odpowiedzi": [
-      "polimeraza RNA",
-      "tRNA z metioniną",
       "czynnik uwalniający (białko)",
+      "polimeraza RNA (enzym)",
+      "tRNA z metioniną (inicjatorowy)",
       "syntetaza aminoacylo-tRNA"
      ],
-     "poprawna": "C",
+     "poprawna": "A",
      "wyjasnienie": "Brak tRNA dla STOP.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1965,12 +1965,12 @@
      "id": "p92f02749",
      "pytanie": "W obecności laktozy operon lac jest:",
      "odpowiedzi": [
-      "trwale zmetylowany",
-      "usunięty z genomu",
+      "aktywny",
       "zablokowany przez represor",
-      "aktywny (indukowany)"
+      "usunięty z genomu",
+      "trwale zmetylowany"
      ],
-     "poprawna": "D",
+     "poprawna": "A",
      "wyjasnienie": "Represor odłączony.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -2095,10 +2095,10 @@
      "id": "p75fde130",
      "pytanie": "Białka szoku cieplnego są wytwarzane w odpowiedzi na:",
      "odpowiedzi": [
-      "niską temperaturę otoczenia",
+      "niską temperaturę i mróz",
       "wysoką temperaturę i inne stresy",
       "silne światło słoneczne",
-      "działanie hormonów płciowych"
+      "działanie hormonów płciowych i tarczycy"
      ],
      "poprawna": "B",
      "wyjasnienie": "Regulacja przez środowisko.",
@@ -2123,8 +2123,8 @@
      "odpowiedzi": [
       "wytwarzanie przeciwciał",
       "wyciszanie RNA (RNAi)",
-      "gorączkę",
-      "limfocyty T"
+      "limfocyty T",
+      "gorączkę (wzrost temperatury)"
      ],
      "poprawna": "B",
      "wyjasnienie": "Mechanizm obronny roślin.",
