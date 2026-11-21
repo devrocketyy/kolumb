@@ -27,19 +27,19 @@ Deno.serve(async (req) => {
       cancel_url: appUrl('#/plany'),
       locale: 'pl' as const,
       allow_promotion_codes: true,
-      metadata: { user_id: user.id, plan, przedmioty: przedmioty.join(',') },
+      metadata: { app: 'indexlab', user_id: user.id, plan, przedmioty: przedmioty.join(',') },
     };
     const session = plan === 'miesiac'
       ? await stripe.checkout.sessions.create({
           ...wspolne,
           mode: 'subscription',
-          subscription_data: { metadata: { user_id: user.id, plan, przedmioty: przedmioty.join(',') } },
+          subscription_data: { metadata: { app: 'indexlab', user_id: user.id, plan, przedmioty: przedmioty.join(',') } },
         })
       : await stripe.checkout.sessions.create({
           ...wspolne,
           mode: 'payment',
           payment_method_types: ['card', 'blik', 'p24'],
-          payment_intent_data: { metadata: { user_id: user.id, plan, przedmioty: przedmioty.join(',') } },
+          payment_intent_data: { metadata: { app: 'indexlab', user_id: user.id, plan, przedmioty: przedmioty.join(',') } },
         });
     return json({ url: session.url });
   } catch (e) {

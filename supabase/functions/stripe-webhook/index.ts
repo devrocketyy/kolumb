@@ -1,5 +1,6 @@
 // Webhook Stripe → tabela dostep. Jedyne miejsce (poza kodami), które nadaje dostęp premium.
 // W Stripe: Developers → Webhooks → endpoint https://<projekt>.supabase.co/functions/v1/stripe-webhook
+// Jedno konto Stripe może obsługiwać inne projekty: zdarzenia bez metadata.app='indexlab' są pomijane.
 // zdarzenia: checkout.session.completed, invoice.paid, customer.subscription.updated, customer.subscription.deleted
 import Stripe from 'npm:stripe@17.7.0';
 import { stripe, admin, listaPrzedmiotow } from '../_shared/wspolne.ts';
@@ -39,7 +40,11 @@ async function uidKlienta(customer: string | null) {
   return (data?.user_id as string) ?? null;
 }
 
+// Jedno konto Stripe obsługuje kilka projektów — bierzemy tylko płatności oznaczone app=indexlab.
+const nasze = (m?: Stripe.Metadata | null) => m?.app === 'indexlab';
+
 async function zSubskrypcji(sub: Stripe.Subscription) {
+  if (!nasze(sub.metadata)) return;
   const uid = sub.metadata?.user_id || (await uidKlienta(sub.customer as string));
   if (!uid) return;
   const aktywna = sub.status === 'active' || sub.status === 'trialing';
@@ -67,6 +72,7 @@ Deno.serve(async (req) => {
       case 'checkout.session.completed':
       case 'checkout.session.async_payment_succeeded': {
         const s = event.data.object as Stripe.Checkout.Session;
+        if (!nasze(s.metadata)) break;
         const uid = s.client_reference_id || s.metadata?.user_id;
         if (!uid) break;
         if (s.mode === 'subscription' && s.subscription) {
