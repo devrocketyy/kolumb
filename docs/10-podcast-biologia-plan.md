@@ -1,6 +1,6 @@
 # Podcast IndexLab · Biologia — plan 84 odcinków
 
-**Format** (ustalony po pilotażu; odcinki 1–40 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
+**Format** (ustalony po pilotażu; odcinki 1–50 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
 - **Temat:** 10–12 min, ok. 1 400 słów.
 - **Powtórka działu:** 18–20 min, ok. 2 500 słów.
 - **Razem:** ok. 17 h.
@@ -223,52 +223,52 @@
 - **Treść:** zmienność środowiskowa i genetyczna, mutacje punktowe, chromosomowe strukturalne i liczbowe, nondysjunkcja.
 - **Matura:** skutki mutacji dla białka; zespół Downa, Turnera, Klinefeltera.
 
-**41. Choroby genetyczne, mutageny i nowotwory** `b-choroby-genetyczne` ⬜
+**41. Choroby genetyczne, mutageny i nowotwory** `b-choroby-genetyczne` ✅
 - **Haczyk:** test na fenyloketonurię z pięty każdego noworodka.
 - **Treść:** choroby jednogenowe (mukowiscydoza, fenyloketonuria), mutageny, protoonkogeny i geny supresorowe.
 - **Matura:** mechanizm choroby od mutacji do objawu.
 
-**42. Powtórka działu: Genetyka klasyczna i zmienność** `genetyka` ⬜
+**42. Powtórka działu: Genetyka klasyczna i zmienność** `genetyka` ✅
 - **Treść:** jedna wymyślona rodzina przez cztery pokolenia — krzyżówki, rodowód, sprzężenia, mutacja.
 
 ## Dział 8. Biotechnologia
 
-**43. Biotechnologia tradycyjna** `b-biotech-tradycyjna` ⬜
+**43. Biotechnologia tradycyjna** `b-biotech-tradycyjna` ✅
 - **Haczyk:** piwo, ser i chleb — biotechnologia, zanim ktokolwiek wiedział o bakteriach.
 - **Treść:** fermentacje w przemyśle spożywczym, kiszenie, biogaz, oczyszczalnie, antybiotyki.
 - **Matura:** rola mikroorganizmów w produktach; warunki procesów.
 
-**44. Narzędzia i techniki inżynierii genetycznej** `b-techniki` ⬜
+**44. Narzędzia i techniki inżynierii genetycznej** `b-techniki` ✅
 - **Haczyk:** jak test PCR mógł wykryć wirusa z jednego wymazu z nosa.
 - **Treść:** enzymy restrykcyjne, ligaza, wektory, PCR, elektroforeza, sekwencjonowanie, CRISPR.
 - **Matura:** etapy PCR i ich temperatury; odczyt elektroforezy (ojcostwo, kryminalistyka).
 
-**45. GMO, klonowanie i komórki macierzyste** `b-gmo` ⬜
+**45. GMO, klonowanie i komórki macierzyste** `b-gmo` ✅
 - **Haczyk:** owca Dolly i pytanie, czyja właściwie była.
 - **Treść:** organizmy transgeniczne, insulina z bakterii, klonowanie reprodukcyjne i terapeutyczne, komórki macierzyste.
 - **Matura:** etapy otrzymania GMO; „czyje DNA ma klon”.
 
-**46. Terapia genowa, poradnictwo i etyka** `b-biotech-medycyna` ⬜
+**46. Terapia genowa, poradnictwo i etyka** `b-biotech-medycyna` ✅
 - **Haczyk:** dziecko, które mogło wyjść ze sterylnej bańki dzięki terapii genowej.
 - **Treść:** terapia genowa, diagnostyka prenatalna, poradnictwo genetyczne, argumenty etyczne.
 - **Matura:** argumenty za i przeciw; metody diagnostyki prenatalnej.
 
-**47. Powtórka działu: Biotechnologia** `biotechnologia` ⬜
+**47. Powtórka działu: Biotechnologia** `biotechnologia` ✅
 - **Treść:** produkcja ludzkiej insuliny w bakterii, krok po kroku, z każdym narzędziem.
 
 ## Dział 9. Mikroorganizmy
 
-**48. Wirusy** `b-wirusy` ⬜
+**48. Wirusy** `b-wirusy` ✅
 - **Haczyk:** żywe czy nieżywe? Spór, który trwa od stu lat.
 - **Treść:** budowa, cykl lityczny i lizogeniczny, retrowirusy i HIV, wirusy roślin, choroby, szczepionki.
 - **Matura:** dlaczego antybiotyki nie działają na wirusy; odwrotna transkryptaza.
 
-**49. Bakterie i archeowce** `b-bakterie` ⬜
+**49. Bakterie i archeowce** `b-bakterie` ✅
 - **Haczyk:** Fleming, zapomniana płytka Petriego i pleśń.
 - **Treść:** budowa, odżywianie, rozmnażanie, koniugacja, rola w przyrodzie, choroby, oporność na antybiotyki.
 - **Matura:** mechanizm narastania oporności (dobór naturalny); bakterie brodawkowe.
 
-**50. Protisty** `b-protisty` ⬜
+**50. Protisty** `b-protisty` ✅
 - **Haczyk:** zarodziec malarii — pasożyt, który zabił więcej ludzi niż wszystkie wojny.
 - **Treść:** pierwotniaki, glony, śluzowce; wodniczki tętniące; cykl zarodźca.
 - **Matura:** osmoregulacja pantofelka; cykl rozwojowy pasożyta.
