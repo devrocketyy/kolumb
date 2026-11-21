@@ -40,7 +40,7 @@ Glikoliza jest bardzo stara. Zachodzi w prawie wszystkich organizmach, od bakter
 
 Pirogronian wchodzi do mitochondrium, do macierzy. Tam kompleks enzymów, dehydrogenaza pirogronianowa, odcina od niego jeden atom węgla w postaci dwutlenku węgla. Z reszty powstaje dwuwęglowa grupa acetylowa, przyczepiona do koenzymu A. Razem to acetylo-CoA. I powstaje kolejne NADH.
 
-Ten etap łączy glikolizę z cyklem Krebsa, stąd nazwa: pomost. Pamiętasz zadanie z matury 2023? Trzeba było wykazać, że ten kompleks łączy glikolizę z cyklem Krebsa. Odpowiedź: przekształca pirogronian, produkt glikolizy, w acetylo-CoA, substrat cyklu Krebsa.
+Ten etap łączy glikolizę z cyklem Krebsa, stąd nazwa: pomost. Na maturze w 2023 roku było takie zadanie: trzeba było wykazać, że ten kompleks łączy glikolizę z cyklem Krebsa. Odpowiedź: przekształca pirogronian, produkt glikolizy, w acetylo-CoA, substrat cyklu Krebsa.
 
 ## Etap trzeci: cykl Krebsa
 

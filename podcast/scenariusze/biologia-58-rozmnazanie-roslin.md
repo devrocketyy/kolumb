@@ -46,7 +46,7 @@ U roślin nasiennych sporofit dominuje całkowicie. Drzewo, trawa, kwiat to spor
 
 Kwiat to pęd przystosowany do rozmnażania płciowego. Zbudowany jest z okółków, ułożonych od zewnątrz do środka.
 
-Kielich, zwykle zielony, chroni pąk. Korona, z barwnych płatków, przywabia zapylaczy. Pamiętasz zadanie z matury 2023 o goryczce? Trzeba było nazwać koronę i kielich i wyjaśnić, że barwne kwiaty przywabiają owady, zwiększając szansę zapylenia.
+Kielich, zwykle zielony, chroni pąk. Korona, z barwnych płatków, przywabia zapylaczy. Na maturze w 2023 roku było zadanie o goryczce. Trzeba było nazwać koronę i kielich i wyjaśnić, że barwne kwiaty przywabiają owady, zwiększając szansę zapylenia.
 
 Pręciki to męskie organy kwiatu. Każdy ma nitkę i główkę z pylnikami, w których powstaje pyłek.
 

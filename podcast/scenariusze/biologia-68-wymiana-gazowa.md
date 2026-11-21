@@ -26,7 +26,7 @@ Dzień dobry, tu IndexLab. Dziś wymiana gazowa. Jak powietrze dociera do płuc,
 
 Powietrze wpada przez nos, gdzie jest ogrzewane, nawilżane i oczyszczane przez włoski i śluz. Potem gardło, krtań z fałdami głosowymi, tchawica, oskrzela, coraz drobniejsze oskrzeliki i wreszcie pęcherzyki płucne.
 
-Tchawicę usztywniają chrzęstne pierścienie w kształcie podkowy, z kolagenu. Dzięki nim się nie zapada. Pamiętasz zadanie z matury 2023? Tchawica zaczyna się za krtanią, a dzieli się na oskrzela główne. Pierścienie są otwarte od tyłu, od strony przełyku, żeby kęs pokarmu mógł swobodnie przesuwać się przełykiem.
+Tchawicę usztywniają chrzęstne pierścienie w kształcie podkowy, z kolagenu. Dzięki nim się nie zapada. Na maturze w 2023 roku było o tym zadanie. Tchawica zaczyna się za krtanią, a dzieli się na oskrzela główne. Pierścienie są otwarte od tyłu, od strony przełyku, żeby kęs pokarmu mógł swobodnie przesuwać się przełykiem.
 
 Drogi oddechowe wyściela nabłonek z rzęskami i komórkami wydzielającymi śluz. Śluz łapie kurz i bakterie, a rzęski przesuwają go w górę, do gardła. To ruchome schody, które oczyszczają płuca. Dym papierosowy paraliżuje rzęski, dlatego palacze kaszlą: muszą usuwać śluz kaszlem, skoro schody stanęły.
 

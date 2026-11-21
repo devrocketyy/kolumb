@@ -54,7 +54,7 @@ Tu jest najwięcej punktów i najwięcej strat.
 
 Przykład. „Wykaż związek budowy erytrocytu z jego funkcją.” Źle: „Erytrocyt nie ma jądra.” To tylko cecha. Dobrze: „Erytrocyt nie ma jądra, dzięki czemu mieści więcej hemoglobiny i może przenieść więcej tlenu.”
 
-„Uzasadnij”. Podajesz argument za swoim wyborem albo za tezą. Uzasadnienie musi odnosić się do cechy, która naprawdę rozstrzyga. Klasyczny błąd: „To jest tętnica, bo płynie w niej krew utlenowana”. Tętnica płucna niesie krew odtlenowaną, a nadal jest tętnicą. Tętnicę wyróżnia to, że niesie krew od serca. To jest cecha rozstrzygająca.
+„Uzasadnij”. Podajesz argument za swoim wyborem albo za tezą. Uzasadnienie musi odnosić się do cechy, która naprawdę rozstrzyga. Klasyczny błąd: „To jest tętnica, bo płynie w niej krew natleniona”. Tętnica płucna niesie krew odtlenowaną, a nadal jest tętnicą. Tętnicę wyróżnia to, że niesie krew od serca. To jest cecha rozstrzygająca.
 
 „Sformułuj wniosek”. Wniosek z doświadczenia zawsze łączy badany czynnik z wynikiem i mówi, jak jeden wpływa na drugi. „Wraz ze wzrostem temperatury do czterdziestu stopni rośnie aktywność enzymu”. Wniosek nie opisuje, co zrobiłeś, i nie powtarza wyników liczbami. Uogólnia je.
 

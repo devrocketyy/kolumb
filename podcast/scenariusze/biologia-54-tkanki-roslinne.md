@@ -1,4 +1,4 @@
-# IndexLab · Biologia · Odcinek 54 · „Dąb, który rośnie tysiąc lat”
+# IndexLab · Biologia · Odcinek 54 · „Dąb, który rośnie całe życie”
 Temat: Tkanki roślinne
 Dział: Rośliny
 Długość: ok. 8 minut (ok. 1000 słów), jeden narrator, spokojnie.

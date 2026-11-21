@@ -50,7 +50,7 @@ U roślin nie da się tak zrobić, bo jest sztywna ściana. Zamiast tego w środ
 
 Mejoza to podział, w którym z jednej komórki diploidalnej powstają cztery komórki haploidalne. Liczba chromosomów zmniejsza się o połowę. I wszystkie cztery komórki są genetycznie różne.
 
-Po co? U zwierząt do wytworzenia gamet. U roślin do wytworzenia zarodników. Gdyby nie było mejozy, przy każdym zapłodnieniu liczba chromosomów by się podwajała. Pamiętasz to z zadania maturalnego z 2023 roku? Mejoza kompensuje podwojenie liczby chromosomów przy zapłodnieniu.
+Po co? U zwierząt do wytworzenia gamet. U roślin do wytworzenia zarodników. Gdyby nie było mejozy, przy każdym zapłodnieniu liczba chromosomów by się podwajała. Było o tym zadanie na maturze w 2023 roku. Mejoza kompensuje podwojenie liczby chromosomów przy zapłodnieniu.
 
 Mejoza to dwa podziały, jeden po drugim, bez replikacji DNA pomiędzy. Mejoza pierwsza i mejoza druga.
 

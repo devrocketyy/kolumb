@@ -110,6 +110,6 @@ Bo nasienie chroni zarodek przed wysychaniem, zawiera zapas pokarmu i może dłu
 
 [pauza]
 
-W następnym odcinku zajrzymy do środka rośliny. Tkanki, które pozwalają dębowi żyć tysiąc lat. Do usłyszenia.
+W następnym odcinku zajrzymy do środka rośliny. Tkanki, dzięki którym dąb rośnie przez całe swoje życie, nawet setki lat. Do usłyszenia.
 
 [muzyka, wyciszenie]

@@ -50,7 +50,7 @@ Gady, czyli jaszczurki, węże, żółwie i krokodyle, rozwiązały problem rozm
 
 [wolniej] Jajo owodniowe ma skorupkę, która chroni przed wyschnięciem, i błony płodowe. Owodnia otacza zarodek płynem, jakby nosił ze sobą własny mały staw. Inne błony gromadzą odpady i umożliwiają wymianę gazową przez skorupkę. Dzięki temu gady mogą składać jaja na suchym lądzie, daleko od wody. Gady, ptaki i ssaki razem nazywamy owodniowcami.
 
-Gady mają suchą skórę pokrytą zrogowaciałymi łuskami, która chroni przed utratą wody. Pamiętasz zadanie z matury 2023 o amfisbenach? Zrzucanie zrogowaciałego naskórka świadczyło o tym, że to gady. Płuca gadów są bardziej pofałdowane niż u płazów, a powietrze wciągają ruchami żeber.
+Gady mają suchą skórę pokrytą zrogowaciałymi łuskami, która chroni przed utratą wody. Na maturze w 2023 roku było zadanie o amfisbenach. Zrzucanie zrogowaciałego naskórka świadczyło o tym, że to gady. Płuca gadów są bardziej pofałdowane niż u płazów, a powietrze wciągają ruchami żeber.
 
 Gady są zmiennocieplne. Temperatura ich ciała zależy od otoczenia. Dlatego jaszczurka rano wygrzewa się na kamieniu, a w chłodne dni jest ospała.
 

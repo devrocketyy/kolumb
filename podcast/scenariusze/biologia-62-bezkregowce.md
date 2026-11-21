@@ -8,7 +8,7 @@ Uwaga dla lektora: nagłówki „##” nie są czytane. „Parzydełkowce” —
 
 [muzyka, cicho, kilka sekund]
 
-Akwarium oceanariu. Za szybą ośmiornica powoli przepływa między kamieniami. Zmienia kolor z rdzawego na blady, potem na pręgowany, w ciągu sekundy. Wsuwa jedno z ramion do szczeliny i wyciąga z niej kraba.
+Oceanarium, wielkie akwarium. Za szybą ośmiornica powoli przepływa między kamieniami. Zmienia kolor z rdzawego na blady, potem na pręgowany, w ciągu sekundy. Wsuwa jedno z ramion do szczeliny i wyciąga z niej kraba.
 
 [pauza]
 
@@ -30,7 +30,7 @@ Stułbia, meduza, ukwiał, koral. Parzydełkowce mają ciało zbudowane z dwóch
 
 Są symetryczne promieniście, jak koło: można je przeciąć na równe połowy w wielu płaszczyznach. To pasuje do życia w miejscu albo w toni wodnej, gdzie pokarm może nadpłynąć z każdej strony.
 
-Wiele parzydełkowców ma przemianę pokoleń: osiadłego polipa i pływającą meduzę. Pamiętasz zadanie z matury 2023 o mejozie u krążkopławów? Mejoza zachodzi u meduzy, przy wytwarzaniu gamet.
+Wiele parzydełkowców ma przemianę pokoleń: osiadłego polipa i pływającą meduzę. Na maturze w 2023 roku było zadanie o mejozie u krążkopławów. Mejoza zachodzi u meduzy, przy wytwarzaniu gamet.
 
 Koralowce budują rafy. W ich komórkach żyją glony, które prowadzą fotosyntezę i dostarczają im cukrów. Gdy woda jest za ciepła, korale wyrzucają glony i bieleją, a potem mogą zginąć.
 

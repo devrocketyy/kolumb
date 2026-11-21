@@ -26,7 +26,7 @@ Dzień dobry, tu IndexLab. Dziś wydalanie i osmoregulacja. Jak organizm pozbywa
 
 Wydalanie to usuwanie z organizmu zbędnych i szkodliwych produktów przemiany materii. Najważniejsze to związki azotu, pochodzące z rozkładu białek i kwasów nukleinowych.
 
-Kiedy organizm rozkłada aminokwasy, odłącza od nich grupę aminową. Pamiętasz z odcinka o trawieniu i z matury 2023? To deaminacja. Powstaje amoniak, który jest bardzo toksyczny. Trzeba go szybko usunąć albo przerobić.
+Kiedy organizm rozkłada aminokwasy, odłącza od nich grupę aminową. Pamiętasz z odcinka o trawieniu? Było o tym też zadanie na maturze w 2023 roku. To deaminacja. Powstaje amoniak, który jest bardzo toksyczny. Trzeba go szybko usunąć albo przerobić.
 
 ## Trzy produkty azotowe
 
@@ -40,7 +40,7 @@ Kwas moczowy jest najmniej toksyczny i prawie nierozpuszczalny w wodzie. Można 
 
 [wolniej] Zasada: im mniej wody w środowisku, tym mniej toksyczny i mniej rozpuszczalny produkt, ale tym więcej energii kosztuje jego wytworzenie.
 
-Pamiętasz zadanie z matury 2023 o płazach? Gromadzenie mocznika w płynach ustrojowych sprawia, że są hiperosmotyczne względem wody, więc woda napływa do ich ciała przez skórę.
+Na maturze w 2023 roku było zadanie o płazach. Gromadzenie mocznika w płynach ustrojowych sprawia, że są hiperosmotyczne względem wody, więc woda napływa do ich ciała przez skórę.
 
 ## Nerka i nefron
 
