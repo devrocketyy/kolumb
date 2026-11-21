@@ -828,12 +828,12 @@
      "id": "pa6523941",
      "pytanie": "Dojrzałe mRNA eukariontów w porównaniu z pre-mRNA:",
      "odpowiedzi": [
+      "zawiera wszystkie introny genu, które usunięto",
       "jest krótsze i ma czapeczkę oraz ogon poli-A",
-      "zawiera wszystkie introny genu",
-      "jest dwuniciowe i zawiera tyminę",
-      "nie ma kodonu START ani STOP"
+      "jest dwuniciowe i zawiera tyminę zamiast uracylu",
+      "nie ma kodonu START ani żadnego kodonu STOP"
      ],
-     "poprawna": "A",
+     "poprawna": "B",
      "wyjasnienie": "Obróbka.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -1420,12 +1420,12 @@
      "id": "p0ec669ab",
      "pytanie": "Białko z 200 aminokwasów jest kodowane przez co najmniej:",
      "odpowiedzi": [
-      "600 par zasad z intronami",
-      "400 nukleotydów",
-      "603 nukleotydy mRNA (z kodonem STOP)",
-      "200 nukleotydów"
+      "600 par zasad wraz z intronami",
+      "200 nukleotydów mRNA",
+      "400 nukleotydów mRNA",
+      "603 nukleotydy mRNA"
      ],
-     "poprawna": "C",
+     "poprawna": "D",
      "wyjasnienie": "200 × 3 + 3.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -2069,12 +2069,12 @@
      "id": "p0eee13e6",
      "pytanie": "miRNA wycisza geny przez:",
      "odpowiedzi": [
-      "zmianę sekwencji promotora",
+      "trwałą zmianę sekwencji promotora",
+      "metylację cytozyn w DNA promotora",
       "wiązanie z mRNA i hamowanie translacji",
-      "metylację DNA",
-      "rozkład białek"
+      "rozkład gotowych białek w proteasomie komórki"
      ],
-     "poprawna": "B",
+     "poprawna": "C",
      "wyjasnienie": "Interferencja RNA.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
