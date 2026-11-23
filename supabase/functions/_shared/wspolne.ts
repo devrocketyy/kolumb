@@ -32,7 +32,13 @@ export async function uczen(req: Request) {
 // Klient Stripe przypisany do ucznia (tworzony przy pierwszym zakupie).
 export async function klientStripe(uid: string, email?: string) {
   const { data } = await admin.from('dostep').select('stripe_customer').eq('user_id', uid).maybeSingle();
-  if (data?.stripe_customer) return data.stripe_customer as string;
+  if (data?.stripe_customer) {
+    // klient mógł powstać na innym koncie/trybie Stripe (np. test → produkcja) — wtedy tworzymy nowego
+    try {
+      const c = await stripe.customers.retrieve(data.stripe_customer as string);
+      if (!(c as { deleted?: boolean }).deleted) return data.stripe_customer as string;
+    } catch { /* brak takiego klienta na tym koncie */ }
+  }
   const c = await stripe.customers.create({ email, metadata: { user_id: uid } });
   await admin.from('dostep').upsert({ user_id: uid, stripe_customer: c.id, updated_at: new Date().toISOString() });
   return c.id;
