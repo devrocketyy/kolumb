@@ -49,3 +49,5 @@ Gotowe scenariusze pilotażowe: `podcast/scenariusze/wos-01-socjalizacja.md`, `p
 36 h nagrań ≈ 2,2 mln znaków scenariusza. W Azure Neural TTS (ok. 15 USD / 1 mln znaków) to ok. 35 USD za cały kurs, z poprawkami ok. 50–70 USD.
 
 Biologia — plan wszystkich 84 odcinków: `docs/10-podcast-biologia-plan.md`.
+
+Historia — plan wszystkich 72 odcinków: `docs/11-podcast-historia-plan.md`.

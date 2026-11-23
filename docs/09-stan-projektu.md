@@ -85,3 +85,6 @@ Link właściciela: https://app.indexlab.pl/?klucz=ni-D4DOaRe8m (publikacja: `do
 ## Docelowy model sprzedaży (ustalenie właściciela)
 - **Matura** (dostęp do przedmiotów) — sprzedawana w aplikacji app.indexlab.pl (Stripe Checkout → webhook → `dostep_przedmiot`).
 - **Kursy** — w przyszłości sprzedawane przez stronę internetową indexlab.pl (osobny produkt w Stripe, ta sama zasada `metadata.app` do rozróżniania płatności na wspólnym koncie).
+
+## Do wyjaśnienia (płatności)
+- Po anulowaniu subskrypcji w portalu Stripe aplikacja pokazywała „odnawia się automatycznie”. Webhook ma już kod zapisujący status „anulowana” (gdy Stripe ustawia `cancel_at_period_end` lub `cancel_at`), ale nie potwierdziliśmy tego testem po wdrożeniu — sprawdzić: anulować w portalu → `select status from dostep_przedmiot` → powinno być „anulowana”. Jeśli nie, obejrzeć treść zdarzenia `customer.subscription.updated` w Stripe.
