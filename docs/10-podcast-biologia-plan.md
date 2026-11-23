@@ -1,6 +1,6 @@
 # Podcast IndexLab · Biologia — plan 84 odcinków
 
-**Format** (ustalony po pilotażu; odcinki 1–77 gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
+**Format** (ustalony po pilotażu; wszystkie 84 odcinki gotowe — tematy wyszły 8–10 min z pauzami, powtórka ok. 14 min, czyli zwięźlej niż zakładano):
 - **Temat:** 10–12 min, ok. 1 400 słów.
 - **Powtórka działu:** 18–20 min, ok. 2 500 słów.
 - **Razem:** ok. 17 h.
@@ -408,37 +408,37 @@
 - **Treść:** dowody (skamieniałości, anatomia, molekularne), Darwin, rodzaje doboru, dobór płciowy.
 - **Matura:** wyjaśnianie doboru (przeżycie i rozród!); rodzaje doboru na wykresach.
 
-**78. Genetyka populacji** `b-populacje-genetyka` ⬜
+**78. Genetyka populacji** `b-populacje-genetyka` ✅
 - **Haczyk:** dlaczego w małych, odizolowanych społecznościach częściej występują rzadkie choroby.
 - **Treść:** pula genowa, prawo Hardy’ego–Weinberga, dryf, efekt założyciela i wąskiego gardła, przepływ genów.
 - **Matura:** obliczenia z Hardy’ego–Weinberga (p², 2pq, q²).
 
-**79. Specjacja i ewolucja człowieka** `b-specjacja` ⬜
+**79. Specjacja i ewolucja człowieka** `b-specjacja` ✅
 - **Haczyk:** zięby z Galapagos i nasz krewny neandertalczyk w twoim DNA.
 - **Treść:** specjacja allopatryczna i sympatryczna, bariery rozrodcze, radiacja adaptacyjna, antropogeneza.
 - **Matura:** rodzaje izolacji; konwergencja vs dywergencja.
 
-**80. Ekologia organizmów i nisza** `b-nisza` ⬜
+**80. Ekologia organizmów i nisza** `b-nisza` ✅
 - **Haczyk:** dlaczego w jednym jeziorze mieszka pięć gatunków ryb, które się nie zjadają nawzajem.
 - **Treść:** czynniki biotyczne i abiotyczne, prawo tolerancji, nisza ekologiczna, bioindykatory.
 - **Matura:** krzywe tolerancji; porosty jako bioindykatory.
 
-**81. Populacje i zależności międzygatunkowe** `b-populacje` ⬜
+**81. Populacje i zależności międzygatunkowe** `b-populacje` ✅
 - **Haczyk:** zające i rysie w Kanadzie — sto lat danych z handlu futrami.
 - **Treść:** cechy populacji, wzrost wykładniczy i logistyczny, konkurencja, drapieżnictwo, pasożytnictwo, mutualizm, komensalizm.
 - **Matura:** odczytywanie wykresów liczebności; rozpoznawanie zależności z opisu.
 
-**82. Ekosystem i obiegi materii** `b-ekosystem` ⬜
+**82. Ekosystem i obiegi materii** `b-ekosystem` ✅
 - **Haczyk:** dlaczego wilków jest zawsze mniej niż jeleni.
 - **Treść:** łańcuchy i sieci troficzne, przepływ energii, piramidy, obieg węgla i azotu, sukcesja.
 - **Matura:** reguła 10%; obieg azotu (bakterie!); sukcesja pierwotna i wtórna.
 
-**83. Różnorodność biologiczna i jej ochrona** `b-ochrona` ⬜
+**83. Różnorodność biologiczna i jej ochrona** `b-ochrona` ✅
 - **Haczyk:** żubr — od zera w naturze do kilku tysięcy dzięki kilkunastu osobnikom z ogrodów zoologicznych.
 - **Treść:** poziomy różnorodności, zagrożenia, gatunki inwazyjne, ochrona czynna i bierna, formy ochrony w Polsce.
 - **Matura:** ochrona czynna vs bierna; skutki gatunków inwazyjnych.
 
-**84. Powtórka działu: Ewolucja, ekologia i ochrona** `ewolucja-ekologia` ⬜
+**84. Powtórka działu: Ewolucja, ekologia i ochrona** `ewolucja-ekologia` ✅
 - **Treść:** historia jednego jeziora przez 10 tysięcy lat — ewolucja, populacje, sukcesja i ochrona.
 
 ---
