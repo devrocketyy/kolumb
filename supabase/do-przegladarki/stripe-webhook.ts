@@ -103,15 +103,18 @@ async function zSubskrypcji(sub: Stripe.Subscription) {
   const uid = sub.metadata?.user_id || (await uidKlienta(sub.customer as string));
   if (!uid) return;
   const aktywna = sub.status === 'active' || sub.status === 'trialing';
+  // anulowana „na koniec okresu” — Stripe zostawia status active; zapisujemy osobny status, żeby aplikacja nie pisała „odnawia się”
+  const konczy = aktywna && (sub.cancel_at_period_end || !!(sub as unknown as { cancel_at?: number }).cancel_at);
+  const status = konczy ? 'anulowana' : sub.status;
   const przedmioty = listaPrzedmiotow(sub.metadata?.przedmioty);
   if (przedmioty.length) {
     await admin.from('dostep').upsert({ user_id: uid, stripe_customer: sub.customer, updated_at: new Date().toISOString() });
-    await zapiszPrzedmioty(uid, przedmioty, { plan: 'miesiac', zrodlo: 'stripe', status: sub.status, stripe_subscription: sub.id },
+    await zapiszPrzedmioty(uid, przedmioty, { plan: 'miesiac', zrodlo: 'stripe', status, stripe_subscription: sub.id },
       aktywna ? iso(koniecOkresu(sub)) : null);
     return;
   }
   // subskrypcja sprzed podziału na przedmioty — pełny dostęp
-  await zapisz(uid, { plan: 'miesiac', zrodlo: 'stripe', status: sub.status, stripe_customer: sub.customer, stripe_subscription: sub.id },
+  await zapisz(uid, { plan: 'miesiac', zrodlo: 'stripe', status, stripe_customer: sub.customer, stripe_subscription: sub.id },
     aktywna ? iso(koniecOkresu(sub)) : null);
 }
 

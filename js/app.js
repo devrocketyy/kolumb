@@ -3206,7 +3206,7 @@ function premiumCard() {
   if (s && dostep.aktywny(s.id)) {
     const st = dostep.pelny() ? dostep.biezacy() : dostep.mojePrzedmioty().find((r) => r.przedmiot === s.id);
     return `<a class="card plan-card" href="#/plany"><span class="quest-icon">${ICONS.check}</span>
-      <span class="plan-text"><strong>${dostep.pelny() ? 'IndexLab Premium' : `${esc(s.nazwa)} — pełny kurs`}</strong><small>Aktywny do ${fmtDay(new Date(st.wazne_do).getTime())}${st.plan === 'miesiac' && st.status === 'active' ? ' · odnawia się automatycznie' : ''}</small></span>${ICONS.next}</a>`;
+      <span class="plan-text"><strong>${dostep.pelny() ? 'IndexLab Premium' : `${esc(s.nazwa)} — pełny kurs`}</strong><small>Aktywny do ${fmtDay(new Date(st.wazne_do).getTime())}${st.plan === 'miesiac' && st.status === 'active' ? ' · odnawia się automatycznie' : st.status === 'anulowana' ? ' · subskrypcja anulowana' : ''}</small></span>${ICONS.next}</a>`;
   }
   return maZablokowane() ? `<a class="card plan-card premium-cta" href="#/plany"><span class="quest-icon">${ICONS.lock}</span>
     <span class="plan-text"><strong>Odblokuj pełny kurs${s ? ` — ${esc(s.nazwa)}` : ''}</strong><small>Wszystkie działy, arkusze CKE z omówieniem i bank zadań. Pierwszy dział jest za darmo.</small></span>${ICONS.next}</a>` : '';
@@ -3237,12 +3237,12 @@ async function viewPlany(ok) {
       ${ok && !dostep.aktywny() ? '<section class="card"><p><strong>Dziękujemy!</strong> Czekamy na potwierdzenie płatności — to zwykle kilka sekund.</p></section>' : ''}
       ${pelny ? `<section class="card premium-on">
           <h2 class="card-title">Masz pełny dostęp do wszystkich przedmiotów</h2>
-          <p>Aktywny do <strong>${fmtDay(new Date(st.wazne_do).getTime())}</strong>${st.plan === 'miesiac' && st.status === 'active' ? ' — subskrypcja odnawia się co miesiąc.' : '.'}</p>
+          <p>Aktywny do <strong>${fmtDay(new Date(st.wazne_do).getTime())}</strong>${st.plan === 'miesiac' && st.status === 'active' ? ' — subskrypcja odnawia się co miesiąc.' : st.status === 'anulowana' ? ' — subskrypcja anulowana, nie odnowi się.' : '.'}</p>
           ${st.zrodlo === 'stripe' ? '<button type="button" class="btn btn-ghost btn-lg" data-act="portal">Zarządzaj płatnościami</button>' : ''}
         </section>` : ''}
       ${!pelny && moje.length ? `<section class="card premium-on">
           <h2 class="card-title">Twoje kursy</h2>
-          <ul class="moje-kursy">${moje.map((r) => `<li><span class="mk-check">${ICONS.check}</span><b>${esc(nazwaPrzedmiotu(r.przedmiot))}</b><small>do ${fmtDay(new Date(r.wazne_do).getTime())}${r.plan === 'miesiac' && r.status === 'active' ? ' · odnawia się co miesiąc' : ''}</small></li>`).join('')}</ul>
+          <ul class="moje-kursy">${moje.map((r) => `<li><span class="mk-check">${ICONS.check}</span><b>${esc(nazwaPrzedmiotu(r.przedmiot))}</b><small>do ${fmtDay(new Date(r.wazne_do).getTime())}${r.plan === 'miesiac' && r.status === 'active' ? ' · odnawia się co miesiąc' : r.status === 'anulowana' ? ' · anulowana, nie odnowi się' : ''}</small></li>`).join('')}</ul>
           ${moje.some((r) => r.zrodlo === 'stripe') ? '<button type="button" class="btn btn-ghost btn-lg" data-act="portal">Zarządzaj płatnościami</button>' : ''}
         </section>` : ''}
       ${!pelny && doKupienia.length ? `<section class="card kup-box">
