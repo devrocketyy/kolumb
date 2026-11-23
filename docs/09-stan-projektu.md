@@ -10,7 +10,7 @@ Link właściciela: https://app.indexlab.pl/?klucz=ni-D4DOaRe8m (publikacja: `do
   - Na komputerze ekran logowania przy każdej nowej wizycie, z przyciskiem „Kontynuuj jako…”.
   - Usuwanie konta (migracja `002_usun_konto.sql`).
 - Regulamin i polityka prywatności (`prawne/`), zgody przy rejestracji i zakupie.
-  - Do uzupełnienia: [IMIĘ I NAZWISKO], [ADRES], [DATA WEJŚCIA W ŻYCIE].
+  - Dane usługodawcy uzupełnione (23.11.2026). Adres do korespondencji do podmiany na wirtualne biuro po pierwszych przychodach.
 - Program poleceń (`?ref=`, migracja `003_polecenia.sql`).
 - Prognoza wyniku:
   - punkty na 60 i realny cel na maj;
