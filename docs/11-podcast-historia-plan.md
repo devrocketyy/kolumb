@@ -60,23 +60,22 @@ Pliki: `podcast/scenariusze/historia-NN-<temat>.md`.
 
 ## Dział 2. Starożytność
 
-**6. Pradzieje i starożytny Wschód** `h-wschod` ✏️
-- **Pilot:** gotowy jako `historia-06-wschod-pilot.md`, do przerobienia na nowy format i numer.
+**6. Pradzieje i starożytny Wschód** `h-wschod` ✅
 - **Haczyk:** Göbekli Tepe — świątynia starsza niż rolnictwo.
 - **Treść:** rewolucja neolityczna; cywilizacje rzeczne (Mezopotamia, Egipt, Indie, Chiny); pismo; kodeks Hammurabiego; Izraelici i monoteizm.
 - **Matura:** cechy cywilizacji rzecznych; źródła prawa (Hammurabi); wpływ geografii na rozwój.
 
-**7. Świat starożytnych Greków** `h-grecja` ⬜
+**7. Świat starożytnych Greków** `h-grecja` ✅
 - **Haczyk:** Maraton, 490 r. p.n.e. — mała armia ateńska przeciw imperium perskiemu.
 - **Treść:** polis; demokracja ateńska (Klejstenes, Perykles) a ustrój Sparty; wojny perskie i peloponeska; Aleksander Wielki i hellenizm; filozofia i teatr.
 - **Matura:** porównanie Aten i Sparty; ograniczenia demokracji ateńskiej (kto był obywatelem); dziedzictwo Grecji.
 
-**8. Starożytny Rzym** `h-rzym` ⬜
+**8. Starożytny Rzym** `h-rzym` ✅
 - **Haczyk:** idy marcowe 44 r. p.n.e. — zabójstwo Cezara, które miało ocalić republikę, a ją pogrzebało.
 - **Treść:** republika (konsulowie, senat, trybuni); ekspansja; kryzys republiki; pryncypat Augusta; prawo rzymskie; chrześcijaństwo; upadek cesarstwa zachodniego (476).
 - **Matura:** ustrój republiki; przyczyny upadku Rzymu; dziedzictwo prawa rzymskiego.
 
-**9. Powtórka działu: Starożytność** `starozytnosc` ⬜
+**9. Powtórka działu: Starożytność** `starozytnosc` ✅
 - **Treść:** podróż jednego przedmiotu (monety) z Mezopotamii przez Ateny do Rzymu — pismo, prawo, demokracja, imperium.
 
 ## Dział 3. Średniowiecze
