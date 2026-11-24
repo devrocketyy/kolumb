@@ -281,5 +281,11 @@ export const NAGRANIA_AUTO = {
   "min": 3,
   "czasy": "podcast/mp3/biologia-47-powtorka-biotechnologia.json",
   "pytania": "podcast/pytania/biologia-47-powtorka-biotechnologia.json"
+ },
+ "biologia/p/b-wirusy": {
+  "plik": "podcast/mp3/biologia-48-wirusy.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-48-wirusy.json",
+  "pytania": "podcast/pytania/biologia-48-wirusy.json"
  }
 };
