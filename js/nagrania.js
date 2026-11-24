@@ -323,5 +323,41 @@ export const NAGRANIA_AUTO = {
   "min": 4,
   "czasy": "podcast/mp3/biologia-54-tkanki-roslinne.json",
   "pytania": "podcast/pytania/biologia-54-tkanki-roslinne.json"
+ },
+ "biologia/p/b-organy": {
+  "plik": "podcast/mp3/biologia-55-organy.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-55-organy.json",
+  "pytania": "podcast/pytania/biologia-55-organy.json"
+ },
+ "biologia/p/b-gospodarka-wodna": {
+  "plik": "podcast/mp3/biologia-56-gospodarka-wodna.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-56-gospodarka-wodna.json",
+  "pytania": "podcast/pytania/biologia-56-gospodarka-wodna.json"
+ },
+ "biologia/p/b-odzywianie-roslin": {
+  "plik": "podcast/mp3/biologia-57-c4-cam.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-57-c4-cam.json",
+  "pytania": "podcast/pytania/biologia-57-c4-cam.json"
+ },
+ "biologia/p/b-rozmnazanie-roslin": {
+  "plik": "podcast/mp3/biologia-58-rozmnazanie-roslin.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-58-rozmnazanie-roslin.json",
+  "pytania": "podcast/pytania/biologia-58-rozmnazanie-roslin.json"
+ },
+ "biologia/p/b-rozwoj-roslin": {
+  "plik": "podcast/mp3/biologia-59-hormony-roslin.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-59-hormony-roslin.json",
+  "pytania": "podcast/pytania/biologia-59-hormony-roslin.json"
+ },
+ "biologia/d/rosliny": {
+  "plik": "podcast/mp3/biologia-60-powtorka-rosliny.mp3",
+  "min": 3,
+  "czasy": "podcast/mp3/biologia-60-powtorka-rosliny.json",
+  "pytania": "podcast/pytania/biologia-60-powtorka-rosliny.json"
  }
 };
