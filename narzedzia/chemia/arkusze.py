@@ -1135,7 +1135,7 @@ ARKUSZE = [{
  'nazwa': 'Matura maj 2017 (formuła 2015)',
  'opis': 'Egzamin maturalny z chemii, poziom rozszerzony, formuła 2015 — maj 2017. Starsza formuła egzaminu: zakres bardzo zbliżony do wymagań 2027.',
  'link': f'{CKE15}/2017/formula_od_2015/chemia/MCH-R1_1P-172.pdf',
- 'linkZasady': f'{CKE15}/2017/formula_od_2015/zasady_oceniania/MCH-R1_1P-172_zasady.pdf',
+ 'linkZasady': f'{CKE15}/2017/formula_od_2015/zasady_oceniania/MCH-R1-N.pdf',
  'zrodlo': 'Arkusz: CKE, maj 2017, formuła 2015 (MCH-R1_1P-172). Odpowiedzi i omówienia: opracowanie IndexLab na podstawie zasad oceniania CKE.',
  'wiazki': [
   W('1', 4, 'Selen i chrom', 'atom',
