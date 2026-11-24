@@ -58,7 +58,8 @@ function resolveScope(sid, type, id) {
   const s = findSubject(sid);
   if (!s) return null;
   if (type === 'x') { // test diagnostyczny: cały kurs, pytania dobierane według wag działów
-    const units = allUnits(s).filter((u) => !u.zablokowany && u.pytania.length);
+    // bez działu „Umiejętności egzaminacyjne” — pytania o czasowniki operacyjne czy metodologię nie mówią nic o wiedzy z przedmiotu
+    const units = allUnits(s).filter((u) => !u.zablokowany && u.pytania.length && u.dzialId !== 'umiejetnosci');
     return units.length ? { s, type, id, units, title: 'Test diagnostyczny', sub: s.nazwa, back: '#/' } : null;
   }
   if (type === 'w') { // własna powtórka: tematy wybrane przez ucznia (#/powtorka)
