@@ -1,123 +1,116 @@
-# IndexLab · Biologia · Odcinek 12 · „Zwierzątka w kropli wody”
+# IndexLab · Biologia · Odcinek 12 · „Kupiec z Delft”
 Temat: Typy komórek i obserwacje mikroskopowe
 Dział: Komórka
-Długość: ok. 8 minut (ok. 990 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane. „Leeuwenhoek” czytamy: LEJ-wen-huk.
+Długość: ok. 7 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-12-typy-komorek.json
+Uwaga dla lektora: „van Leeuwenhoek” czytamy: wan LEW-en-huk.
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Delft, Holandia, rok 1676. Antoni van Leeuwenhoek nie jest naukowcem. Sprzedaje tkaniny. Ale ma hobby: szlifuje maleńkie soczewki, czasem wielkości ziarenka grochu. Montuje je w metalowych płytkach i ogląda przez nie wszystko, co wpadnie mu w ręce.
+Delft, Holandia, rok 1676. Antoni van Leeuwenhoek nie jest naukowcem. Sprzedaje tkaniny. Ale ma hobby: szlifuje maleńkie soczewki, czasem wielkości ziarenka grochu.
+
+Pewnego dnia patrzy przez soczewkę na kroplę wody z beczki. I widzi coś, czego nikt przed nim nie widział. W kropli roi się od maleńkich istot. Pływają, kręcą się, uciekają.
 
 [pauza]
 
-Pewnego dnia patrzy przez soczewkę na kroplę wody, która stała kilka dni w beczce. I widzi coś, czego nikt przed nim nie widział. W kropli roi się od maleńkich istot. Pływają, kręcą się, uciekają przed sobą. Leeuwenhoek pisze do Towarzystwa Królewskiego w Londynie list o „zwierzątkach”, po łacinie animalcula, tak małych, że całe ich mnóstwo zmieściłoby się na ziarnku piasku.
-
-Uczeni w Londynie początkowo nie wierzą. Wysyłają świadków, żeby sprawdzili. Świadkowie potwierdzają.
-
-Leeuwenhoek jako pierwszy człowiek zobaczył bakterie i pierwotniaki. Otworzył świat, który był wokół nas zawsze, tylko za mały, żeby go dostrzec.
+Uczeni w Londynie nie wierzą i wysyłają świadków. Świadkowie potwierdzają. Leeuwenhoek jako pierwszy człowiek zobaczył bakterie i pierwotniaki.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. Zaczynamy dział o komórce. Najpierw zobaczymy, jakie są rodzaje komórek i jak je odróżnić. A potem, jak patrzeć przez mikroskop i jak liczyć, żeby nie stracić punktów.
+Dzień dobry, tu IndexLab. Zaczynamy dział o komórce: jakie są rodzaje komórek, jak je odróżnić i jak liczyć pod mikroskopem, żeby nie tracić punktów.
 
-## Teoria komórkowa
+## Prokarionty i eukarionty
 
-Zacznijmy od zasady, która porządkuje całą biologię. Teoria komórkowa mówi trzy rzeczy. Wszystkie organizmy zbudowane są z komórek. Komórka to najmniejsza jednostka życia. I każda komórka powstaje z innej komórki, przez podział.
+Teoria komórkowa mówi trzy rzeczy. Wszystkie organizmy zbudowane są z komórek. Komórka to najmniejsza jednostka życia. Każda komórka powstaje z innej komórki.
 
-Wirusy nie są zbudowane z komórek, i właśnie dlatego biolodzy spierają się, czy są żywe. Wrócimy do tego w dziale o mikroorganizmach.
+Komórki dzielą się na dwa typy, a kryterium to jądro. Prokariotyczne, czyli bakterie, nie mają jądra. Ich DNA leży w cytoplazmie, w nukleoidzie. Nie mają organelli otoczonych błonami, mają tylko mniejsze rybosomy.
 
-## Dwa wielkie typy
+Eukariotyczne mają jądro i wiele organelli z błonami. Tak zbudowane są rośliny, zwierzęta, grzyby i protisty. „Pro” znaczy „przed”, a „karion” to „jądro”.
 
-Wszystkie komórki na Ziemi dzielą się na dwa typy. Kryterium to obecność jądra.
+[pytanie: prokariont]
 
-Komórki prokariotyczne nie mają jądra. Ich DNA leży swobodnie w cytoplazmie, w obszarze, który nazywamy nukleoidem. Nie mają też organelli otoczonych błonami: ani mitochondriów, ani chloroplastów, ani siateczki. Mają za to rybosomy, mniejsze niż u eukariontów. Często mają małe koliste cząsteczki DNA zwane plazmidami. Tak zbudowane są bakterie i archeowce.
-
-Komórki eukariotyczne mają jądro otoczone podwójną błoną i całe mnóstwo organelli z błonami. Są zwykle dziesięć razy większe od prokariotycznych. Tak zbudowane są komórki roślin, zwierząt, grzybów i protistów.
-
-[pauza]
-
-Prosty sposób na zapamiętanie. Pro znaczy „przed”, karion znaczy „jądro”. Prokarionty to komórki sprzed jądra. Eu znaczy „właściwy”. Eukarionty mają prawdziwe jądro.
-
-## Trzy rodzaje komórek eukariotycznych
-
-Wśród komórek eukariotycznych na maturze trzeba odróżniać trzy: roślinną, zwierzęcą i grzybową. Najłatwiej porównywać je po trzech cechach: ściana, plastydy i materiał zapasowy.
-
-Komórka roślinna ma ścianę komórkową z celulozy. Ma plastydy, w tym chloroplasty. Ma dużą centralną wakuolę. Materiałem zapasowym jest skrobia.
-
-Komórka zwierzęca nie ma ściany ani plastydów. Ma centriole, które pomagają przy podziale. Materiałem zapasowym jest glikogen.
-
-Komórka grzybowa ma ścianę, ale z chityny, a nie z celulozy. Nie ma plastydów, bo grzyby nie prowadzą fotosyntezy. Materiałem zapasowym, tak jak u zwierząt, jest glikogen.
-
-[pauza]
-
-Zatrzymaj się. Widzisz pod mikroskopem komórkę ze ścianą, ale bez chloroplastów. Czy to na pewno komórka grzyba?
+Sprawdź się. Czego nie ma komórka bakterii?
 
 [pauza, dłuższa]
 
-Niekoniecznie. Może to być komórka rośliny, która nie prowadzi fotosyntezy, na przykład z korzenia albo z bulwy ziemniaka. Ma ścianę z celulozy, ale nie ma chloroplastów. Brak chloroplastów nie wyklucza rośliny. Dlatego na maturze rozpoznając komórkę, patrz na kilka cech naraz.
+[odpowiedź]
 
-## Mikroskop świetlny i elektronowy
+Jądra komórkowego i organelli otoczonych błonami, takich jak mitochondria.
 
-Leeuwenhoek miał jedną soczewkę. Dzisiejszy mikroskop świetlny w szkole ma dwie: okular, przy oku, i obiektyw, przy preparacie. Powiększenie mikroskopu to iloczyn obu. Okular dziesięć razy, obiektyw czterdzieści razy, razem czterysta razy.
+[koniec odpowiedzi]
 
-Ale samo powiększenie to nie wszystko. Ważniejsza jest rozdzielczość, czyli najmniejsza odległość między dwoma punktami, które widzisz jeszcze jako dwa osobne punkty. Mikroskop świetlny ma rozdzielczość ograniczoną długością fali światła. W praktyce zobaczysz w nim komórkę, jądro, chloroplasty, wakuolę, ścianę. Ale rybosomów nie zobaczysz nigdy, choćbyś powiększał bez końca. Obraz będzie tylko większą rozmazaną plamą.
+## Roślina, zwierzę, grzyb
 
-Mikroskop elektronowy zamiast światła używa wiązki elektronów. Ma rozdzielczość setki razy lepszą. Widać w nim rybosomy, błony siateczki, grzebienie mitochondriów. Ale preparat musi być martwy, odwodniony i umieszczony w próżni. Nie zobaczysz w nim żywej, ruszającej się komórki.
+Porównuj trzy cechy: ścianę, plastydy i materiał zapasowy.
 
-Są dwa rodzaje mikroskopów elektronowych. Transmisyjny prześwietla bardzo cienkie skrawki i pokazuje wnętrze komórki. Skaningowy omiata powierzchnię i daje trójwymiarowe obrazy, na przykład skrzydła muchy czy pyłku.
+Komórka roślinna ma ścianę z celulozy, plastydy, dużą wakuolę, a zapasem jest skrobia.
 
-## Preparat i rysunek
+Komórka zwierzęca nie ma ściany ani plastydów, ma centriole, a zapasem jest glikogen.
 
-W szkole najczęściej robisz preparat przyżyciowy, czyli z żywego materiału, na przykład skórki cebuli. Kładziesz cienką warstwę na szkiełku podstawowym, dodajesz kroplę wody, przykrywasz szkiełkiem nakrywkowym tak, żeby nie było pęcherzyków powietrza. Czasem barwisz, na przykład jodem albo błękitem metylenowym, żeby wyraźniej było widać jądro.
+Komórka grzybowa ma ścianę z chityny, nie ma plastydów, a zapasem jest glikogen.
 
-## Obliczenia: rzeczywista wielkość
+[wolniej] Uwaga: brak chloroplastów nie wyklucza rośliny. Komórka z korzenia czy z bulwy ziemniaka ma ścianę z celulozy, ale chloroplastów nie ma. Dlatego patrz na kilka cech naraz.
 
-Teraz typ zadania, w którym uczniowie najczęściej tracą punkty. Obliczanie rzeczywistej wielkości obiektu.
+[pytanie: chityna]
 
-[wolniej] Wzór jest jeden: rzeczywista wielkość równa się wielkość na obrazie podzielona przez powiększenie.
+Sprawdź się. Komórka ma ścianę z chityny. Jaki to organizm?
 
-Przykład. Na zdjęciu spod mikroskopu komórka ma długość czterdziestu milimetrów. Powiększenie to czterysta razy. Rzeczywista długość: czterdzieści milimetrów przez czterysta, czyli jedna dziesiąta milimetra. A to jest sto mikrometrów.
+[pauza, dłuższa]
 
-I tu pułapka: jednostki. Jeden milimetr to tysiąc mikrometrów. Zanim podasz wynik, sprawdź, w jakiej jednostce chce go polecenie. Komórki zwierzęce mają zwykle od kilku do kilkudziesięciu mikrometrów, bakterie około jednego do kilku. Jeśli wyszło ci, że bakteria ma pięć milimetrów, coś poszło nie tak.
+[odpowiedź]
+
+Grzyb. Rośliny mają ścianę z celulozy, a zwierzęta nie mają ściany wcale.
+
+[koniec odpowiedzi]
+
+## Mikroskop
+
+Mikroskop świetlny ma okular i obiektyw. Powiększenie to iloczyn obu: okular dziesięć razy, obiektyw czterdzieści razy, razem czterysta razy.
+
+Ważniejsza od powiększenia jest rozdzielczość, czyli to, jak blisko mogą leżeć dwa punkty, żeby nadal widzieć je osobno. W mikroskopie świetlnym ogranicza ją długość fali światła. Rybosomów nie zobaczysz, choćby powiększenie było ogromne.
+
+Mikroskop elektronowy ma rozdzielczość setki razy lepszą. Widać w nim rybosomy i błony. Ale preparat musi być martwy i umieszczony w próżni.
+
+[pytanie: powiekszenie]
+
+Sprawdź się. Okular powiększa piętnaście razy, obiektyw czterdzieści. Jakie jest powiększenie?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Sześćset razy.
+
+[koniec odpowiedzi]
+
+## Rzeczywista wielkość
+
+Najczęstsze źródło straconych punktów. Na zdjęciu komórka ma czterdzieści milimetrów, a powiększenie to czterysta razy. Dzielisz: czterdzieści przez czterysta to jedna dziesiąta milimetra, czyli sto mikrometrów.
+
+Pilnuj jednostek. Milimetr to tysiąc mikrometrów. Komórki zwierzęce mają zwykle od kilku do kilkudziesięciu mikrometrów, bakterie od jednego do kilku. Jeśli wyszło ci, że bakteria ma pół metra, gdzieś jest błąd.
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Trzy typy zadań. Rozpoznanie komórki na rysunku z uzasadnieniem, czyli wskazanie cech, które rozstrzygają: jądro, ściana, plastydy, wakuola. Porównanie prokariontów i eukariontów albo trzech typów eukariotycznych. I obliczenia powiększenia lub rzeczywistej wielkości, z jednostką.
+Rozpoznanie komórki z uzasadnieniem przez cechy rozstrzygające. Porównanie prokariontów i eukariontów. Obliczenia powiększenia i rzeczywistej wielkości, z jednostką.
 
-## Na spokojnie
+[pytanie: rybosomy]
 
-[muzyka, cicho]
+Ostatnie pytanie. Dlaczego w mikroskopie świetlnym nie zobaczysz rybosomów?
 
-Podsumujmy. Komórki prokariotyczne nie mają jądra ani organelli błonowych, eukariotyczne mają. Roślinna ma ścianę z celulozy, plastydy, dużą wakuolę i skrobię. Zwierzęca nie ma ściany ani plastydów, ma centriole i glikogen. Grzybowa ma ścianę z chityny i glikogen. Mikroskop świetlny ma ograniczoną rozdzielczość, elektronowy pokazuje ultrastrukturę, ale tylko w martwych preparatach. Rzeczywista wielkość to wielkość na obrazie przez powiększenie.
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Bo są mniejsze niż rozdzielczość mikroskopu świetlnego, ograniczona długością fali światła. Większe powiększenie nie pomoże.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: okular powiększa piętnaście razy, obiektyw czterdzieści. Jakie jest powiększenie mikroskopu?
-
-[pauza, dłuższa]
-
-Sześćset razy. Piętnaście razy czterdzieści.
-
-Drugie: dlaczego w mikroskopie świetlnym nie da się zobaczyć rybosomów?
-
-[pauza, dłuższa]
-
-Bo rybosomy są mniejsze niż rozdzielczość mikroskopu świetlnego, ograniczona długością fali światła. Powiększenie tu nie pomoże.
-
-Trzecie: komórka ma ścianę z chityny. Jaki to organizm?
-
-[pauza, dłuższa]
-
-Grzyb. Ściana z chityny wyklucza rośliny, które mają ścianę z celulozy, i zwierzęta, które ściany nie mają.
-
-[pauza]
-
-W następnym odcinku błona komórkowa. Dowiesz się, dlaczego ogórek w solance się marszczy, a czerwona krwinka w czystej wodzie pęka. Do usłyszenia.
+W następnym odcinku błona komórkowa: dlaczego ogórek w solance się marszczy, a krwinka w czystej wodzie pęka. Do usłyszenia.
 
 [muzyka, wyciszenie]

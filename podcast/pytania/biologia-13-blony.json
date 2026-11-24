@@ -1,0 +1,17 @@
+{
+  "odcinek": "biologia-13-blony",
+  "pytania": [
+    {"id": "rodzaj-transportu", "typ": "laczenie", "polecenie": "Połącz rodzaj transportu z opisem.",
+     "pary": [["Dyfuzja prosta", "przez lipidy, z gradientem, bez ATP"], ["Dyfuzja ułatwiona", "przez białko, z gradientem, bez ATP"], ["Transport aktywny", "przeciw gradientowi, z ATP"], ["Endocytoza", "wchłonięcie w pęcherzyku z błony"]],
+     "wyjasnienie": "Sprawdzaj kierunek względem gradientu i zużycie ATP."},
+    {"id": "roztwory", "typ": "abcd", "pytanie": "Krwinka umieszczona w wodzie destylowanej pęka. Jaki to roztwór względem krwinki?",
+     "odpowiedzi": ["Hipotoniczny", "Hipertoniczny", "Izotoniczny", "Fizjologiczny"],
+     "poprawna": 0, "wyjasnienie": "Roztwór o mniejszym stężeniu niż wnętrze komórki — woda wpływa do środka."},
+    {"id": "salata", "typ": "abcd", "pytanie": "Dlaczego sałata polana słonym dressingiem szybko więdnie?",
+     "odpowiedzi": ["Dressing jest hipertoniczny, woda wypływa z komórek i spada turgor", "Sól przechodzi do komórek i je niszczy", "Dressing jest hipotoniczny i komórki pękają", "Olej zatyka aparaty szparkowe"],
+     "poprawna": 0, "wyjasnienie": "W osmozie przemieszcza się woda — z niższego stężenia do wyższego."},
+    {"id": "potas", "typ": "abcd", "pytanie": "Komórka zużywa ATP, by pobrać jony potasu z otoczenia, gdzie jest ich mniej. Jaki to transport?",
+     "odpowiedzi": ["Aktywny", "Dyfuzja prosta", "Dyfuzja ułatwiona", "Osmoza"],
+     "poprawna": 0, "wyjasnienie": "Przeciw gradientowi i z ATP to transport aktywny."}
+  ]
+}

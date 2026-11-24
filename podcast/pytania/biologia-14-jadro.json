@@ -1,0 +1,17 @@
+{
+  "odcinek": "biologia-14-jadro",
+  "pytania": [
+    {"id": "pory", "typ": "abcd", "pytanie": "Którędy mRNA wydostaje się z jądra do cytoplazmy?",
+     "odpowiedzi": ["Przez pory jądrowe", "Przez jąderko", "Przez aparat Golgiego", "Przez siateczkę gładką"],
+     "poprawna": 0, "wyjasnienie": "Otoczka jądrowa to podwójna błona z porami."},
+    {"id": "watroba", "typ": "abcd", "pytanie": "Które organellum jest silnie rozbudowane w komórkach wątroby osoby nadużywającej alkoholu?",
+     "odpowiedzi": ["Siateczka śródplazmatyczna gładka", "Siateczka śródplazmatyczna szorstka", "Jąderko", "Chloroplast"],
+     "poprawna": 0, "wyjasnienie": "Siateczka gładka syntetyzuje lipidy i odtruwa."},
+    {"id": "droga", "typ": "laczenie", "polecenie": "Połącz organellum z jego rolą w drodze enzymu.",
+     "pary": [["Jądro", "przepisanie genu na mRNA"], ["Siateczka szorstka", "synteza i zwijanie białka"], ["Aparat Golgiego", "modyfikacja, sortowanie, pakowanie"], ["Pęcherzyk wydzielniczy", "egzocytoza"]],
+     "wyjasnienie": "Jądro → rybosom na siateczce szorstkiej → aparat Golgiego → pęcherzyk → egzocytoza."},
+    {"id": "trzustka", "typ": "abcd", "pytanie": "Które organella są szczególnie rozbudowane w komórkach trzustki wydzielających enzymy?",
+     "odpowiedzi": ["Siateczka szorstka i aparat Golgiego", "Siateczka gładka i lizosomy", "Chloroplasty i wakuola", "Centriole i rzęski"],
+     "poprawna": 0, "wyjasnienie": "Komórka wytwarza i wydziela dużo białek."}
+  ]
+}

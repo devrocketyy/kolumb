@@ -1,0 +1,17 @@
+{
+  "odcinek": "biologia-12-typy-komorek",
+  "pytania": [
+    {"id": "prokariont", "typ": "abcd", "pytanie": "Czego nie ma komórka bakterii?",
+     "odpowiedzi": ["Jądra i organelli otoczonych błonami", "Rybosomów", "Błony komórkowej", "DNA"],
+     "poprawna": 0, "wyjasnienie": "Bakterie mają DNA w nukleoidzie, rybosomy i błonę, ale nie mają jądra ani organelli błonowych."},
+    {"id": "chityna", "typ": "laczenie", "polecenie": "Połącz typ komórki z jej cechą.",
+     "pary": [["Roślinna", "ściana z celulozy, plastydy, skrobia"], ["Zwierzęca", "brak ściany, centriole, glikogen"], ["Grzybowa", "ściana z chityny, glikogen"], ["Bakteryjna", "brak jądra, nukleoid"]],
+     "wyjasnienie": "Porównuj ścianę, plastydy i materiał zapasowy."},
+    {"id": "powiekszenie", "typ": "abcd", "pytanie": "Okular 15×, obiektyw 40×. Jakie jest powiększenie mikroskopu?",
+     "odpowiedzi": ["600×", "55×", "40×", "15×"],
+     "poprawna": 0, "wyjasnienie": "Powiększenie mikroskopu to iloczyn powiększeń okularu i obiektywu."},
+    {"id": "rybosomy", "typ": "abcd", "pytanie": "Dlaczego rybosomów nie zobaczysz w mikroskopie świetlnym?",
+     "odpowiedzi": ["Są mniejsze niż rozdzielczość mikroskopu świetlnego", "Są przezroczyste", "Występują tylko w żywych komórkach", "Powiększenie jest za małe, wystarczy mocniejszy obiektyw"],
+     "poprawna": 0, "wyjasnienie": "Rozdzielczość ogranicza długość fali światła — większe powiększenie nie pomoże."}
+  ]
+}
