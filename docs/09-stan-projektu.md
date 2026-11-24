@@ -88,3 +88,12 @@ Link właściciela: https://app.indexlab.pl/?klucz=ni-D4DOaRe8m (publikacja: `do
 
 ## Do wyjaśnienia (płatności)
 - Po anulowaniu subskrypcji w portalu Stripe aplikacja pokazywała „odnawia się automatycznie”. Webhook ma już kod zapisujący status „anulowana” (gdy Stripe ustawia `cancel_at_period_end` lub `cancel_at`), ale nie potwierdziliśmy tego testem po wdrożeniu — sprawdzić: anulować w portalu → `select status from dostep_przedmiot` → powinno być „anulowana”. Jeśli nie, obejrzeć treść zdarzenia `customer.subscription.updated` w Stripe.
+
+## Plan końcowy (ustalony 24.11.2026)
+
+1. **Chemia rozszerzona** — działy wg wymagań CKE, fiszki, zadania obliczeniowe krok po kroku, arkusze CKE (link + omówienie), podcast w formacie 2.0.
+2. **Geografia rozszerzona** — jak wyżej; najlepiej pasuje do formatu fiszek (pojęcia, mapy, dane).
+3. **Funkcje AI** — ocenianie zadań otwartych i wypracowań według zasad CKE (Edge Function w Supabase, klucz tylko w sekretach).
+4. **Koniec prac nad aplikacją** → wydanie w Google Play (TWA), promocja i marketing (osobny etap, po resecie limitu).
+
+Wcześniej do domknięcia: weryfikacja statusu „anulowana”, Stripe live, publikacja (PRYWATNE off, noindex), reszta nagrań podcastu.
