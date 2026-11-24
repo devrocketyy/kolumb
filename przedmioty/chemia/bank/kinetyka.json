@@ -155,6 +155,132 @@
    "dzial": "kinetyka"
   },
   {
+   "tytul": "Równowaga — stopień przereagowania",
+   "material": "Tekst autorski. PCl₅ ⇄ PCl₃ + Cl₂. W naczyniu 1 dm³ umieszczono 1,0 mol PCl₅; w równowadze rozłożyło się 40%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz Kc.",
+     "odpowiedz": "K ≈ 0,27",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "[PCl₅] = 0,6; [PCl₃] = [Cl₂] = 0,4; K = 0,16/0,6 = 0,267.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jak dodanie Cl₂ wpłynie na ilość PCl₅.",
+     "odpowiedz": "Wzrośnie",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Reguła przekory.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-09",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Szybkość z doświadczeń — rząd zerowy",
+   "material": "Tekst autorski. Dla reakcji A → B szybkość wynosiła 0,02 mol·dm⁻³·s⁻¹ niezależnie od [A] (0,1–0,5 M).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj rząd reakcji i jednostkę k.",
+     "odpowiedz": "Rząd 0; mol·dm⁻³·s⁻¹",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "v = k.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz czas całkowitego przereagowania A (c₀ = 0,5 M).",
+     "odpowiedz": "25 s",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,5/0,02.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-10",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Prawo Hessa — trzy równania",
+   "material": "Tekst autorski. C + O₂ → CO₂, ΔH = −394; H₂ + ½O₂ → H₂O(c), ΔH = −286; CH₄ + 2O₂ → CO₂ + 2H₂O(c), ΔH = −891 kJ.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz entalpię tworzenia metanu (C + 2H₂ → CH₄).",
+     "odpowiedz": "−75 kJ/mol",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "−394 + 2(−286) − (−891) = −75.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-kinetyka-11",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Wpływ temperatury na równowagę — dane",
+   "material": "Tekst autorski. Dla N₂O₄ ⇄ 2NO₂: K(298 K) = 0,0046; K(373 K) = 0,36.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy reakcja jest endotermiczna. Uzasadnij.",
+     "odpowiedz": "Tak — K rośnie ze wzrostem temperatury.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj obserwację po ogrzaniu zamkniętej ampułki z mieszaniną.",
+     "odpowiedz": "Pogłębienie brunatnej barwy (więcej NO₂).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-12",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Katalizator i energia aktywacji",
+   "material": "Tekst autorski. Rozkład H₂O₂ ma Ea = 76 kJ/mol bez katalizatora, 49 kJ/mol z jonami I⁻ i 23 kJ/mol z katalazą.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, który katalizator najbardziej przyspiesza reakcję.",
+     "odpowiedz": "Katalaza (enzym)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Najniższa Ea.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy katalizatory zmieniają ΔH rozkładu H₂O₂.",
+     "odpowiedz": "Nie",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "ΔH zależy tylko od stanu początkowego i końcowego.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-13",
+   "dzial": "kinetyka"
+  },
+  {
    "tytul": "Prawo Hessa",
    "material": "Tekst autorski. Dane: (1) C(grafit) + O₂ → CO₂, ΔH₁ = −394 kJ; (2) CO + ½O₂ → CO₂, ΔH₂ = −283 kJ.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -178,7 +304,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-09",
+   "id": "b-kinetyka-14",
    "dzial": "kinetyka"
   },
   {
@@ -214,7 +340,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-10",
+   "id": "b-kinetyka-15",
    "dzial": "kinetyka"
   },
   {
@@ -241,7 +367,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-11",
+   "id": "b-kinetyka-16",
    "dzial": "kinetyka"
   },
   {
@@ -277,7 +403,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-12",
+   "id": "b-kinetyka-17",
    "dzial": "kinetyka"
   },
   {
@@ -304,7 +430,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-13",
+   "id": "b-kinetyka-18",
    "dzial": "kinetyka"
   },
   {
@@ -331,7 +457,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-14",
+   "id": "b-kinetyka-19",
    "dzial": "kinetyka"
   },
   {
@@ -358,7 +484,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-15",
+   "id": "b-kinetyka-20",
    "dzial": "kinetyka"
   },
   {
@@ -385,7 +511,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-16",
+   "id": "b-kinetyka-21",
    "dzial": "kinetyka"
   },
   {
@@ -412,7 +538,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-17",
+   "id": "b-kinetyka-22",
    "dzial": "kinetyka"
   },
   {
@@ -448,7 +574,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-18",
+   "id": "b-kinetyka-23",
    "dzial": "kinetyka"
   },
   {
@@ -475,7 +601,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-19",
+   "id": "b-kinetyka-24",
    "dzial": "kinetyka"
   },
   {
@@ -502,7 +628,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-20",
+   "id": "b-kinetyka-25",
    "dzial": "kinetyka"
   },
   {
@@ -520,7 +646,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-21",
+   "id": "b-kinetyka-26",
    "dzial": "kinetyka"
   },
   {
@@ -538,7 +664,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-22",
+   "id": "b-kinetyka-27",
    "dzial": "kinetyka"
   }
  ]

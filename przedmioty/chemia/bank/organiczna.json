@@ -182,6 +182,60 @@
    "dzial": "organiczna"
   },
   {
+   "tytul": "Węglowodór z analizy spalania",
+   "material": "Tekst autorski. Spalenie 0,05 mola węglowodoru dało 8,8 g CO₂ i 2,7 g H₂O.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Ustal wzór i podaj nazwy dwóch możliwych izomerów.",
+     "odpowiedz": "C₄H₆ — np. but-1-yn, buta-1,3-dien",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(C) = 0,2 → 4; n(H) = 0,3 → 6.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-organiczna-09",
+   "dzial": "organiczna"
+  },
+  {
+   "tytul": "Substytucja w benzenie — kolejność",
+   "material": "Tekst autorski. Z benzenu należy otrzymać 4-bromonitrobenzen.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj kolejność reakcji i odczynniki. Uzasadnij.",
+     "odpowiedz": "Najpierw bromowanie (Br₂, FeBr₃), potem nitrowanie (HNO₃, H₂SO₄) — Br kieruje w orto/para; odwrotna kolejność dałaby produkt meta.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    }
+   ],
+   "id": "b-organiczna-10",
+   "dzial": "organiczna"
+  },
+  {
+   "tytul": "Alkeny — utlenianie",
+   "material": "Tekst autorski. Propen poddano reakcji z KMnO₄ w środowisku obojętnym.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równanie reakcji i nazwę produktu organicznego.",
+     "odpowiedz": "3CH₂=CH–CH₃ + 2KMnO₄ + 4H₂O → 3CH₂(OH)–CH(OH)–CH₃ + 2MnO₂ + 2KOH; propano-1,2-diol",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Fioletowy roztwór → brunatny osad.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-organiczna-11",
+   "dzial": "organiczna"
+  },
+  {
    "tytul": "Bromowanie etenu i benzenu",
    "material": "Tekst autorski. Do dwóch probówek z wodą bromową dodano: do I — eten (przepuszczono gaz), do II — benzen (bez katalizatora). W probówce I woda bromowa odbarwiła się, w II — nie.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -205,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-09",
+   "id": "b-organiczna-12",
    "dzial": "organiczna"
   },
   {
@@ -232,7 +286,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-10",
+   "id": "b-organiczna-13",
    "dzial": "organiczna"
   },
   {
@@ -259,7 +313,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-11",
+   "id": "b-organiczna-14",
    "dzial": "organiczna"
   },
   {
@@ -286,7 +340,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-12",
+   "id": "b-organiczna-15",
    "dzial": "organiczna"
   },
   {
@@ -322,7 +376,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-organiczna-13",
+   "id": "b-organiczna-16",
    "dzial": "organiczna"
   },
   {
@@ -349,7 +403,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-14",
+   "id": "b-organiczna-17",
    "dzial": "organiczna"
   },
   {
@@ -376,7 +430,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-15",
+   "id": "b-organiczna-18",
    "dzial": "organiczna"
   },
   {
@@ -394,7 +448,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-16",
+   "id": "b-organiczna-19",
    "dzial": "organiczna"
   },
   {
@@ -412,7 +466,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-17",
+   "id": "b-organiczna-20",
    "dzial": "organiczna"
   },
   {
@@ -430,7 +484,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-18",
+   "id": "b-organiczna-21",
    "dzial": "organiczna"
   },
   {
@@ -457,7 +511,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-19",
+   "id": "b-organiczna-22",
    "dzial": "organiczna"
   },
   {
@@ -493,7 +547,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-organiczna-20",
+   "id": "b-organiczna-23",
    "dzial": "organiczna"
   },
   {
@@ -520,7 +574,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-21",
+   "id": "b-organiczna-24",
    "dzial": "organiczna"
   },
   {
@@ -538,7 +592,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-22",
+   "id": "b-organiczna-25",
    "dzial": "organiczna"
   },
   {
@@ -556,7 +610,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-23",
+   "id": "b-organiczna-26",
    "dzial": "organiczna"
   }
  ]

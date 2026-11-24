@@ -155,6 +155,258 @@
    "dzial": "tlenowe"
   },
   {
+   "tytul": "Utlenianie alkoholi — ilościowo",
+   "material": "Tekst autorski. 4,6 g etanolu utleniono CuO (ogrzewanie) do etanalu z wydajnością 80%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji.",
+     "odpowiedz": "C₂H₅OH + CuO → CH₃CHO + Cu + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Czarny CuO → czerwonobrunatna miedź.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę otrzymanego etanalu.",
+     "odpowiedz": "3,52 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n = 0,1 mol · 0,8 = 0,08 mol · 44 g/mol.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-09",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Identyfikacja izomerów C₃H₆O",
+   "material": "Tekst autorski. Trzy związki o wzorze C₃H₆O: propanal, propanon, prop-2-en-1-ol (alkohol allilowy).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Zaproponuj dwie próby pozwalające je rozróżnić i opisz obserwacje.",
+     "odpowiedz": "Tollens: lustro srebrne — propanal; woda bromowa: odbarwia alkohol allilowy (i propanal), propanon — bez zmian. Kolejność: najpierw Tollens, potem woda bromowa dla pozostałych.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Aldehydy też odbarwiają wodę bromową (utlenianie).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż związek, który reaguje z sodem.",
+     "odpowiedz": "prop-2-en-1-ol",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ma grupę –OH.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-10",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Moc kwasów karboksylowych — Ka",
+   "material": "Tekst autorski. Ka: HCOOH 1,8·10⁻⁴; CH₃COOH 1,8·10⁻⁵; ClCH₂COOH 1,4·10⁻³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz pH 0,10 M roztworu kwasu chlorooctowego (wzór uproszczony).",
+     "odpowiedz": "pH ≈ 1,9",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "[H⁺] = √(1,4·10⁻⁴) = 1,18·10⁻²; pH 1,93. Uwaga: c/Ka ≈ 71 < 400 — wzór uproszczony daje tu tylko przybliżenie.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego kwas chlorooctowy jest mocniejszy od octowego.",
+     "odpowiedz": "Elektroujemny Cl przyciąga elektrony (efekt indukcyjny), osłabia wiązanie O–H i stabilizuje anion.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-11",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Ester — wzór z hydrolizy",
+   "material": "Tekst autorski. Ester X (C₅H₁₀O₂) zhydrolizowano: powstał kwas, który nie daje próby Tollensa, i alkohol, który utlenia się do ketonu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj wzór i nazwę estru X.",
+     "odpowiedz": "CH₃COOCH(CH₃)₂ — octan izopropylu (octan propan-2-ylu)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Alkohol II-rzędowy → propan-2-ol (C₃); kwas C₂ (octowy), nie mrówkowy.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-tlenowe-12",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Tłuszcz — liczba jodowa",
+   "material": "Tekst autorski. Trioleinian glicerolu (M = 884 g/mol) ma trzy wiązania C=C w cząsteczce. M(I₂) = 254 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz liczbę jodową (g I₂ na 100 g tłuszczu).",
+     "odpowiedz": "ok. 86",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "100/884 = 0,113 mol · 3 = 0,339 mol I₂ · 254 = 86,2 g.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jak zmieni się liczba jodowa po częściowym utwardzeniu tłuszczu.",
+     "odpowiedz": "Zmaleje",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ubywa wiązań C=C.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-13",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Fenole — reakcje i moc",
+   "material": "Tekst autorski. Rozpatrz fenol, 4-nitrofenol i etanol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Uszereguj je według rosnącej mocy kwasowej.",
+     "odpowiedz": "etanol < fenol < 4-nitrofenol",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Grupa –NO₂ wzmacnia kwasowość fenolu (stabilizuje anion).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji fenolu z NaOH.",
+     "odpowiedz": "C₆H₅OH + NaOH → C₆H₅ONa + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Etanol z NaOH praktycznie nie reaguje.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-14",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Aldehydy — redukcja i utlenianie",
+   "material": "Tekst autorski. Butanal poddano: I — redukcji (H₂, Ni), II — próbie Trommera.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj nazwy organicznych produktów I i II.",
+     "odpowiedz": "I: butan-1-ol; II: anion butanianowy (kwas butanowy po zakwaszeniu)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj zmianę stopnia utlenienia węgla karbonylowego w obu reakcjach.",
+     "odpowiedz": "I: +I → −I; II: +I → +III",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-15",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Kwasy dikarboksylowe",
+   "material": "Tekst autorski. 0,45 g kwasu szczawiowego (M = 90 g/mol) zmiareczkowano 0,10 M NaOH.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz objętość NaOH do całkowitego zobojętnienia.",
+     "odpowiedz": "100 cm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "n = 0,005 mol → NaOH 0,010 mol → 0,1 dm³.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie utleniania szczawianu manganianem(VII) w środowisku kwasowym.",
+     "odpowiedz": "2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-16",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Alkohole — rozpuszczalność i wrzenie",
+   "material": "Tekst autorski. Temperatury wrzenia: propan −42°C, etanal 20°C, etanol 78°C (podobne masy molowe).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij różnice temperatur wrzenia.",
+     "odpowiedz": "Propan — tylko słabe siły dyspersyjne; etanal — polarny (dipol–dipol); etanol — wiązania wodorowe (najsilniejsze).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    }
+   ],
+   "id": "b-tlenowe-17",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Estryfikacja — wydajność z K",
+   "material": "Tekst autorski. K estryfikacji kwasu octowego etanolem wynosi 4. Zmieszano 1 mol kwasu i 2 mole etanolu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz liczbę moli estru w stanie równowagi (dokładność 0,01).",
+     "odpowiedz": "ok. 0,85 mol",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "x²/((1 − x)(2 − x)) = 4 → 3x² − 12x + 8 = 0 → x = 0,845.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego nadmiar alkoholu zwiększa wydajność.",
+     "odpowiedz": "Zgodnie z regułą przekory nadmiar substratu przesuwa równowagę w stronę produktów (bez 2 moli etanolu powstałoby 0,67 mola estru).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-18",
+   "dzial": "tlenowe"
+  },
+  {
    "tytul": "Utlenianie alkoholi",
    "material": "Tekst autorski. Trzy izomeryczne alkohole o wzorze C₄H₉OH: butan-1-ol, butan-2-ol i 2-metylopropan-2-ol ogrzewano z tlenkiem miedzi(II).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -178,7 +430,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-09",
+   "id": "b-tlenowe-19",
    "dzial": "tlenowe"
   },
   {
@@ -214,7 +466,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-tlenowe-10",
+   "id": "b-tlenowe-20",
    "dzial": "tlenowe"
   },
   {
@@ -241,7 +493,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-11",
+   "id": "b-tlenowe-21",
    "dzial": "tlenowe"
   },
   {
@@ -268,7 +520,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-12",
+   "id": "b-tlenowe-22",
    "dzial": "tlenowe"
   },
   {
@@ -295,7 +547,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-13",
+   "id": "b-tlenowe-23",
    "dzial": "tlenowe"
   },
   {
@@ -322,7 +574,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-14",
+   "id": "b-tlenowe-24",
    "dzial": "tlenowe"
   },
   {
@@ -349,7 +601,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-15",
+   "id": "b-tlenowe-25",
    "dzial": "tlenowe"
   },
   {
@@ -376,7 +628,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-16",
+   "id": "b-tlenowe-26",
    "dzial": "tlenowe"
   },
   {
@@ -403,7 +655,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-17",
+   "id": "b-tlenowe-27",
    "dzial": "tlenowe"
   },
   {
@@ -421,7 +673,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-18",
+   "id": "b-tlenowe-28",
    "dzial": "tlenowe"
   },
   {
@@ -439,7 +691,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-19",
+   "id": "b-tlenowe-29",
    "dzial": "tlenowe"
   },
   {
@@ -466,7 +718,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-20",
+   "id": "b-tlenowe-30",
    "dzial": "tlenowe"
   },
   {
@@ -484,7 +736,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-21",
+   "id": "b-tlenowe-31",
    "dzial": "tlenowe"
   },
   {
@@ -502,7 +754,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-22",
+   "id": "b-tlenowe-32",
    "dzial": "tlenowe"
   },
   {
@@ -520,7 +772,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-23",
+   "id": "b-tlenowe-33",
    "dzial": "tlenowe"
   }
  ]

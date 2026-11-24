@@ -65,6 +65,78 @@
    "dzial": "wiazania"
   },
   {
+   "tytul": "Wzory elektronowe jonów",
+   "material": "Tekst autorski. Rozpatrz jony: NH₄⁺, H₃O⁺, OH⁻.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj liczbę wolnych par elektronowych na atomie centralnym w każdym jonie.",
+     "odpowiedz": "NH₄⁺: 0; H₃O⁺: 1; OH⁻: 3",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj kształt jonów NH₄⁺ i H₃O⁺.",
+     "odpowiedz": "tetraedr; piramida trygonalna",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "VSEPR.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-wiazania-04",
+   "dzial": "wiazania"
+  },
+  {
+   "tytul": "Polarność i rozpuszczalność",
+   "material": "Tekst autorski. Substancje: I₂, NaCl, CCl₄, C₂H₅OH.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj, które rozpuszczają się dobrze w wodzie, a które w heksanie.",
+     "odpowiedz": "Woda: NaCl, C₂H₅OH; heksan: I₂, CCl₄ (etanol miesza się też z heksanem w ograniczonym stopniu)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "„Podobne rozpuszcza podobne”.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-wiazania-05",
+   "dzial": "wiazania"
+  },
+  {
+   "tytul": "Typy kryształów — porównanie",
+   "material": "Tekst autorski. Temperatury topnienia: SiO₂ 1713°C, NaCl 801°C, Cu 1085°C, CO₂ (sublimacja) −78°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Przyporządkuj typ kryształu każdej substancji.",
+     "odpowiedz": "SiO₂ — kowalencyjny; NaCl — jonowy; Cu — metaliczny; CO₂ — molekularny",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego stały CO₂ ma tak niską temperaturę przemiany.",
+     "odpowiedz": "Cząsteczki CO₂ są niepolarne — łączą je tylko słabe siły dyspersyjne.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-wiazania-06",
+   "dzial": "wiazania"
+  },
+  {
    "tytul": "Temperatury wrzenia",
    "material": "Tekst autorski. Temperatury wrzenia: H₂O — 100°C, H₂S — −60°C, H₂Se — −41°C, H₂Te — −2°C.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -88,7 +160,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-04",
+   "id": "b-wiazania-07",
    "dzial": "wiazania"
   },
   {
@@ -115,7 +187,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-05",
+   "id": "b-wiazania-08",
    "dzial": "wiazania"
   },
   {
@@ -151,7 +223,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-wiazania-06",
+   "id": "b-wiazania-09",
    "dzial": "wiazania"
   },
   {
@@ -178,7 +250,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-07",
+   "id": "b-wiazania-10",
    "dzial": "wiazania"
   },
   {
@@ -205,7 +277,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-08",
+   "id": "b-wiazania-11",
    "dzial": "wiazania"
   }
  ]

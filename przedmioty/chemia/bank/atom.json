@@ -83,6 +83,447 @@
    "dzial": "atom"
   },
   {
+   "tytul": "Pierwiastki z opisu konfiguracji",
+   "material": "Tekst autorski. Pierwiastek A ma w stanie podstawowym 3 niesparowane elektrony na podpowłoce 3d. Pierwiastek B należy do 3. okresu i ma o 2 elektrony walencyjne mniej niż chlor.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj symbole A i B oraz ich bloki konfiguracyjne.",
+     "odpowiedz": "A: V (lub Co); B: P — blok d i blok p",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "3d³ (wanad) lub 3d⁷ (kobalt) daje 3 niesparowane elektrony. Chlor ma 7 elektronów walencyjnych → B ma 5 → fosfor.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz skróconą konfigurację jonu P³⁻.",
+     "odpowiedz": "[Ne] 3s² 3p⁶",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Konfiguracja argonu.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-04",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Liczby kwantowe elektronów",
+   "material": "Tekst autorski. Rozpatrz atom siarki w stanie podstawowym.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj liczbę elektronów o n = 3 i liczbę elektronów o l = 1.",
+     "odpowiedz": "n = 3: 6 elektronów; l = 1: 10 elektronów (2p⁶ i 3p⁴)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "S: 1s² 2s² 2p⁶ 3s² 3p⁴.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wartości n, l i m (dowolnego) dla jednego z niesparowanych elektronów siarki.",
+     "odpowiedz": "n = 3, l = 1, m = −1, 0 lub 1 (np. m = 1)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Dwa niesparowane elektrony 3p.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, ile orbitali jest całkowicie zapełnionych w atomie siarki.",
+     "odpowiedz": "7",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1s, 2s, trzy 2p, 3s i jeden 3p.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-atom-05",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Konfiguracje metali przejściowych",
+   "material": "Tekst autorski. Rozpatrz atomy i jony: Fe, Fe²⁺, Fe³⁺, Mn²⁺.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Zapisz skrócone konfiguracje wszystkich drobin.",
+     "odpowiedz": "Fe: [Ar] 4s² 3d⁶; Fe²⁺: [Ar] 3d⁶; Fe³⁺: [Ar] 3d⁵; Mn²⁺: [Ar] 3d⁵",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Kationy metali bloku d tracą najpierw elektrony 4s.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego związki żelaza(II) łatwo utleniają się do żelaza(III).",
+     "odpowiedz": "Fe³⁺ ma konfigurację 3d⁵ — półzapełnioną podpowłokę, która jest szczególnie trwała.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Podobnie trwały jest jon Mn²⁺ (3d⁵).",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż drobiny izoelektronowe spośród podanych.",
+     "odpowiedz": "Fe³⁺ i Mn²⁺ (po 23 elektrony)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Fe³⁺: 26 − 3; Mn²⁺: 25 − 2.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-atom-06",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Energia jonizacji — skoki",
+   "material": "Tekst autorski. Kolejne energie jonizacji pierwiastka X 3. okresu (kJ/mol): 578, 1817, 2745, 11 577, 14 842.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zidentyfikuj pierwiastek X i uzasadnij.",
+     "odpowiedz": "Al — duży skok między 3. a 4. energią jonizacji: 3 elektrony walencyjne.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4. elektron pochodzi z zamkniętej powłoki 2p⁶.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz wzór tlenku X i określ jego charakter chemiczny.",
+     "odpowiedz": "Al₂O₃ — amfoteryczny",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-07",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Okresowość — promienie i elektroujemność",
+   "material": "Tekst autorski. Rozpatrz pierwiastki: Na, Mg, Cl, K.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Uszereguj je według rosnącego promienia atomowego.",
+     "odpowiedz": "Cl < Mg < Na < K",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "W okresie promień maleje w prawo, w grupie rośnie w dół.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Uszereguj je według rosnącej elektroujemności.",
+     "odpowiedz": "K < Na < Mg < Cl",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Odwrotnie niż promień.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wzór i rodzaj wiązania związku pierwiastków o największej różnicy elektroujemności.",
+     "odpowiedz": "KCl — wiązanie jonowe",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-atom-08",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Średnia masa atomowa",
+   "material": "Tekst autorski. Miedź występuje jako ⁶³Cu (62,93 u, 69,2%) i ⁶⁵Cu (64,93 u).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz średnią masę atomową miedzi z dokładnością do 0,01 u.",
+     "odpowiedz": "63,55 u",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "0,692 · 62,93 + 0,308 · 64,93 = 43,55 + 20,00 = 63,55 u.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj liczbę neutronów w ⁶⁵Cu.",
+     "odpowiedz": "36",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "65 − 29.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-09",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Masa izotopu w próbce",
+   "material": "Tekst autorski. Bor występuje jako ¹⁰B i ¹¹B; średnia masa atomowa boru wynosi 10,81 u (przyjmij masy izotopów 10,0 u i 11,0 u).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz zawartość procentową ¹⁰B.",
+     "odpowiedz": "19%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "10x + 11(1 − x) = 10,81 → x = 0,19.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-atom-10",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Szereg promieniotwórczy toru",
+   "material": "Tekst autorski. Szereg promieniotwórczy rozpoczyna się od ²³²Th, a kończy na trwałym ²⁰⁸Pb.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz liczbę przemian α i β⁻ w tym szeregu.",
+     "odpowiedz": "6 α, 4 β⁻",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "α: (232 − 208)/4 = 6 → Z spada o 12 do 78; Pb ma 82 → 4 β⁻.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz pierwszą przemianę (α) toru-232.",
+     "odpowiedz": "²³²₉₀Th → ²²⁸₈₈Ra + ⁴₂He",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-11",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Okres półtrwania — datowanie",
+   "material": "Tekst autorski. W próbce drewna z wykopalisk zawartość ¹⁴C (T½ = 5730 lat) stanowi 25% zawartości w żywym drewnie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wiek próbki.",
+     "odpowiedz": "ok. 11 460 lat",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Dwa okresy półtrwania.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz przemianę β⁻ izotopu ¹⁴C.",
+     "odpowiedz": "¹⁴₆C → ¹⁴₇N + ⁰₋₁e",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego po śmierci organizmu zawartość ¹⁴C maleje.",
+     "odpowiedz": "Organizm przestaje pobierać węgiel (z CO₂), a ¹⁴C nadal ulega rozpadowi.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-atom-12",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Reakcje jądrowe — zapis skrócony",
+   "material": "Tekst autorski. Zapis ¹⁴N(α, p)¹⁷O oznacza bombardowanie azotu-14 cząstką α z emisją protonu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz tę reakcję w postaci pełnego równania.",
+     "odpowiedz": "¹⁴₇N + ⁴₂He → ¹⁷₈O + ¹₁p",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Pierwsza sztuczna przemiana jądrowa (Rutherford).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Uzupełnij: ²⁷Al(α, n)X — podaj X.",
+     "odpowiedz": "³⁰₁₅P",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "27 + 4 − 1 = 30; 13 + 2 = 15.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-13",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Masa izotopu po czasie",
+   "material": "Tekst autorski. Izotop ³²P (T½ = 14 dni) stosuje się w medycynie. Przygotowano 8,0 mg tego izotopu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę ³²P po 42 dniach.",
+     "odpowiedz": "1,0 mg",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3 okresy: 8 → 4 → 2 → 1 mg.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj produkt przemiany β⁻ izotopu ³²P.",
+     "odpowiedz": "³²S",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Z 15 → 16.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-14",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Konfiguracje a stopnie utlenienia",
+   "material": "Tekst autorski. Mangan tworzy związki na stopniach utlenienia od +II do +VII.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij na podstawie konfiguracji, dlaczego maksymalny stopień utlenienia manganu wynosi +VII.",
+     "odpowiedz": "Mn ma 7 elektronów walencyjnych (4s² 3d⁵) i może je wszystkie oddać.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wzory związków manganu na +II, +IV, +VI i +VII.",
+     "odpowiedz": "MnSO₄ (lub MnCl₂); MnO₂; K₂MnO₄; KMnO₄",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-15",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Wzbudzenie atomu węgla",
+   "material": "Tekst autorski. W metanie węgiel tworzy cztery równocenne wiązania.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz klatkowo konfigurację walencyjną węgla w stanie podstawowym i wzbudzonym.",
+     "odpowiedz": "Podstawowy: 2s² 2p² (2 niesparowane); wzbudzony: 2s¹ 2p³ (4 niesparowane)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego wiązania C–H w CH₄ są równocenne, mimo że w stanie wzbudzonym są elektrony s i p.",
+     "odpowiedz": "Orbitale 2s i trzy 2p ulegają hybrydyzacji sp³ — powstają cztery równocenne orbitale.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-16",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Izotopy wodoru",
+   "material": "Tekst autorski. Wodór ma izotopy: prot ¹H, deuter ²H (D) i tryt ³H (T, promieniotwórczy).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj liczby neutronów w jądrach trzech izotopów.",
+     "odpowiedz": "0, 1, 2",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę molową ciężkiej wody D₂O.",
+     "odpowiedz": "20 g/mol",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2 · 2 + 16.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy H₂O i D₂O mają takie same właściwości chemiczne.",
+     "odpowiedz": "Praktycznie tak — o właściwościach chemicznych decyduje liczba elektronów (różnią się nieco szybkością reakcji i właściwościami fizycznymi).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-atom-17",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Położenie w układzie z konfiguracji jonu",
+   "material": "Tekst autorski. Jon X²⁺ ma konfigurację [Ar] 3d¹⁰.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj symbol X, numer grupy, okresu i blok.",
+     "odpowiedz": "Zn; grupa 12; okres 4; blok d",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "X: [Ar] 4s² 3d¹⁰ — cynk.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego roztwory soli tego jonu są bezbarwne.",
+     "odpowiedz": "Podpowłoka 3d jest całkowicie zapełniona — brak przejść elektronowych d–d.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-18",
+   "dzial": "atom"
+  },
+  {
    "tytul": "Izotopy boru",
    "material": "Tekst autorski. Bor występuje w przyrodzie w postaci dwóch trwałych izotopów: ¹⁰B i ¹¹B. Średnia masa atomowa boru wynosi 10,81 u.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -106,7 +547,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-04",
+   "id": "b-atom-19",
    "dzial": "atom"
   },
   {
@@ -142,7 +583,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-05",
+   "id": "b-atom-20",
    "dzial": "atom"
   },
   {
@@ -169,7 +610,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-06",
+   "id": "b-atom-21",
    "dzial": "atom"
   },
   {
@@ -196,7 +637,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-07",
+   "id": "b-atom-22",
    "dzial": "atom"
   },
   {
@@ -223,7 +664,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-08",
+   "id": "b-atom-23",
    "dzial": "atom"
   },
   {
@@ -250,7 +691,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-09",
+   "id": "b-atom-24",
    "dzial": "atom"
   },
   {
@@ -286,7 +727,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-10",
+   "id": "b-atom-25",
    "dzial": "atom"
   }
  ]
