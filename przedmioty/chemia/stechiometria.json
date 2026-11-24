@@ -162,6 +162,78 @@
    "wymaganie": "I.6",
    "fiszki": [
     {
+     "id": "f2d67980e",
+     "przod": "Wzór empiryczny (elementarny)",
+     "tyl": "Najprostszy stosunek liczb atomów pierwiastków w związku, np. CH₂O dla glukozy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "fe50facdd",
+     "przod": "Wzór rzeczywisty (sumaryczny)",
+     "tyl": "Rzeczywista liczba atomów w cząsteczce; = n × wzór empiryczny, n = M(związku) / M(wzoru empirycznego).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "feb42c426",
+     "przod": "Jak ustalić wzór empiryczny z % masowych?",
+     "tyl": "Założyć 100 g związku → masy pierwiastków w g → podzielić przez masy molowe → podzielić przez najmniejszą liczbę moli → doprowadzić do liczb całkowitych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "fb936a4c7",
+     "przod": "Stosunek 1 : 1,5 w obliczeniach wzoru",
+     "tyl": "Pomnożyć przez 2 → 2 : 3 (nie zaokrąglać do 1 : 2!).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "f1a41a98f",
+     "przod": "Stosunek 1 : 1,33 w obliczeniach wzoru",
+     "tyl": "Pomnożyć przez 3 → 3 : 4 (np. Fe₃O₄).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "fc4606fe4",
+     "przod": "Jak wyznaczyć wzór związku organicznego ze spalania?",
+     "tyl": "m(C) z CO₂ (12/44), m(H) z H₂O (2/18), m(O) = m(próbki) − m(C) − m(H); dalej stosunek moli.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "f28157058",
+     "przod": "Gęstość względna gazu D względem H₂",
+     "tyl": "M = D · 2 g/mol (względem powietrza: M = D · 29 g/mol).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "ff1a0f95b",
+     "przod": "Hydrat — jak ustalić liczbę cząsteczek wody?",
+     "tyl": "m(wody) = m(hydratu) − m(soli bezwodnej); n(H₂O) : n(soli) = x.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "f623d0c55",
+     "przod": "Wzór CuSO₄·5H₂O — co oznacza kropka?",
+     "tyl": "Woda krystalizacyjna: 5 moli H₂O na 1 mol CuSO₄ w krysztale.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "fa1166c63",
+     "przod": "Masa molowa CuSO₄·5H₂O",
+     "tyl": "160 + 5·18 = 250 g/mol (najczęstszy błąd: liczenie tylko soli bezwodnej).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "f07315ae5",
+     "przod": "Zawartość % pierwiastka w związku",
+     "tyl": "%E = (liczba atomów E · M(E) / M(związku)) · 100%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "f0ad32bce",
+     "przod": "Pułapka: wynik 2,98 : 1 w obliczeniach wzoru",
+     "tyl": "To błąd zaokrągleń — przyjmij 3 : 1; ale 2,5 : 1 to 5 : 2, nie 3 : 1.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
      "id": "f70f111ee",
      "przod": "Wyjaśnij pojęcie: wzór empiryczny (elementarny)",
      "tyl": "Wzór podający najprostszy stosunek liczby atomów pierwiastków w związku, np. CH₂O dla glukozy.",
@@ -218,6 +290,32 @@
    ],
    "pytania": [
     {
+     "id": "p63627670",
+     "pytanie": "Związek zawiera 40% C, 6,7% H i 53,3% O, M = 180 g/mol. Jego wzór rzeczywisty to:",
+     "odpowiedzi": [
+      "C₃H₆O₃",
+      "C₆H₁₂O₆",
+      "C₆H₆O₆",
+      "CH₂O"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Empiryczny CH₂O (30 g/mol), 180/30 = 6.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pfe7e2c33",
+     "pytanie": "Stosunek molowy Fe : O = 1 : 1,5 oznacza wzór:",
+     "odpowiedzi": [
+      "FeO₂",
+      "Fe₂O₃",
+      "FeO",
+      "Fe₃O₄"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1 : 1,5 = 2 : 3.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
      "id": "pc6a9d452",
      "pytanie": "Wzór empiryczny związku o wzorze rzeczywistym C₆H₆ to:",
      "odpowiedzi": [
@@ -264,6 +362,78 @@
    "opis": "Wymaganie I.7–8 podstawy programowej.",
    "wymaganie": "I.7–8",
    "fiszki": [
+    {
+     "id": "faf3fdbe5",
+     "przod": "Substrat w niedomiarze",
+     "tyl": "Ten, który przereaguje całkowicie — on wyznacza ilość produktu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "feb980c29",
+     "przod": "Jak wskazać substrat w nadmiarze?",
+     "tyl": "Podzielić liczby moli substratów przez ich współczynniki stechiometryczne — mniejszy iloraz = niedomiar.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "f6b66ec61",
+     "przod": "Wydajność reakcji",
+     "tyl": "W = (ilość otrzymana / ilość teoretyczna) · 100%; ilość teoretyczna z substratu w niedomiarze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "fbf1d4123",
+     "przod": "Wydajność procesu wieloetapowego",
+     "tyl": "Iloczyn wydajności etapów: W = W₁ · W₂ · W₃.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "ff1618dcd",
+     "przod": "Masa substratu przy wydajności W",
+     "tyl": "m(rzeczywista) = m(teoretyczna) / W — dzielimy, bo trzeba użyć więcej substratu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "fe45ba43c",
+     "przod": "Czystość substratu (np. 80% CaCO₃)",
+     "tyl": "Do obliczeń bierzemy tylko masę czystego składnika: m · 0,80.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "f58a77a72",
+     "przod": "Objętość molowa gazu w warunkach normalnych",
+     "tyl": "22,4 dm³/mol (0°C, 1013 hPa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "ff96da0d9",
+     "przod": "Objętość gazu w innych warunkach",
+     "tyl": "Z równania Clapeyrona: pV = nRT, R = 83,14 hPa·dm³·mol⁻¹·K⁻¹.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "f8f635912",
+     "przod": "Prawo Avogadra",
+     "tyl": "Równe objętości gazów w tych samych warunkach zawierają tyle samo cząsteczek → stosunek objętości = stosunek moli.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "ff4f125bf",
+     "przod": "Liczba Avogadra",
+     "tyl": "Nₐ = 6,02·10²³ mol⁻¹ — liczba drobin w 1 molu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "f63e4902d",
+     "przod": "Typowy błąd: mieszanina dwóch substancji reagujących",
+     "tyl": "Trzeba ułożyć układ dwóch równań (masa mieszaniny + ilość produktu), a nie liczyć jak dla jednej substancji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "f188f0967",
+     "przod": "Analiza miareczkowa — kolejność rozumowania",
+     "tyl": "n(titranta) = c·V → z równania n(analitu) → przeliczenie na całą próbkę (np. 25 cm³ z 500 cm³ → × 20).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
     {
      "id": "f17a5e06e",
      "przod": "Prawo zachowania masy",
@@ -331,6 +501,36 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
     },
     {
+     "id": "f8393473c",
+     "przod": "Rozpoznaj: Ten, który przereaguje całkowicie — on wyznacza ilość produktu.",
+     "tyl": "Substrat w niedomiarze",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "f38577e52",
+     "przod": "Rozpoznaj: W = (ilość otrzymana / ilość teoretyczna) · 100%; ilość teoretyczna z substratu w niedomiarze.",
+     "tyl": "Wydajność reakcji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "fcfe2f5c3",
+     "przod": "Rozpoznaj: 22,4 dm³/mol (0°C, 1013 hPa).",
+     "tyl": "Objętość molowa gazu w warunkach normalnych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "f4afab135",
+     "przod": "Rozpoznaj: Z równania Clapeyrona: pV = nRT, R = 83,14 hPa·dm³·mol⁻¹·K⁻¹.",
+     "tyl": "Objętość gazu w innych warunkach",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "f36d98a2a",
+     "przod": "Rozpoznaj: Równe objętości gazów w tych samych warunkach zawierają tyle samo cząsteczek → stosunek objętości = stosunek moli.",
+     "tyl": "Prawo Avogadra",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
      "id": "f523d4c14",
      "przod": "Rozpoznaj: Masa substratów równa jest masie produktów reakcji chemicznej.",
      "tyl": "Prawo zachowania masy",
@@ -344,6 +544,32 @@
     }
    ],
    "pytania": [
+    {
+     "id": "pc653e459",
+     "pytanie": "Z 10 g H₂ i 64 g O₂ powstaje woda. W nadmiarze jest:",
+     "odpowiedzi": [
+      "nie da się ustalić",
+      "wodór",
+      "tlen",
+      "żaden"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "n(H₂) = 5, n(O₂) = 2; do 2 mol O₂ potrzeba 4 mol H₂.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4439443c",
+     "pytanie": "Dwa etapy o wydajnościach 80% i 50% dają łączną wydajność:",
+     "odpowiedzi": [
+      "130%",
+      "65%",
+      "30%",
+      "40%"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "0,8 · 0,5 = 0,4.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "pc0da1165",
      "pytanie": "Ile gramów wody powstanie z 4 g wodoru w reakcji 2H₂ + O₂ → 2H₂O (H = 1, O = 16)?",

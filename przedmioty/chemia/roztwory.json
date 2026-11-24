@@ -10,6 +10,72 @@
    "wymaganie": "V.1–4",
    "fiszki": [
     {
+     "id": "f69f93b39",
+     "przod": "Stężenie procentowe",
+     "tyl": "Cp = ms / mr · 100%; mr = ms + m(rozpuszczalnika).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "feaec008f",
+     "przod": "Stężenie molowe",
+     "tyl": "Cm = n / V (V w dm³!).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "fcf963399",
+     "przod": "Przeliczanie Cp → Cm",
+     "tyl": "Cm = Cp · d / (M · 100%), d w g/dm³ (1 g/cm³ = 1000 g/dm³).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "f37512f02",
+     "przod": "Rozcieńczanie — co się nie zmienia?",
+     "tyl": "Masa (liczba moli) substancji rozpuszczonej: Cp₁·mr₁ = Cp₂·mr₂; Cm₁·V₁ = Cm₂·V₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "f3efbe029",
+     "przod": "Zatężanie przez odparowanie wody",
+     "tyl": "ms stała, mr maleje → Cp rośnie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "f4d168df3",
+     "przod": "Stężenie jonów w roztworze soli",
+     "tyl": "Mnożymy przez liczbę jonów: 0,1 M Na₂SO₄ → [Na⁺] = 0,2 M, [SO₄²⁻] = 0,1 M.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "ff1ea4438",
+     "przod": "Ppm",
+     "tyl": "Części na milion: 1 ppm = 1 mg/kg (≈ 1 mg/dm³ dla wody).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "f2a176c47",
+     "przod": "Roztwór z hydratu — pułapka",
+     "tyl": "Masa soli bezwodnej = m(hydratu) · M(soli)/M(hydratu); woda krystalizacyjna dołącza do rozpuszczalnika.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "fb136ef36",
+     "przod": "Gęstość a objętość roztworu",
+     "tyl": "mr = d · V; objętości roztworów przy mieszaniu zwykle się NIE sumują dokładnie (zadanie mówi, czy przyjąć sumowanie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "fef37fa11",
+     "przod": "Najczęstszy błąd w Cm",
+     "tyl": "Objętość w cm³ zamiast dm³ (wynik 1000 razy za duży lub za mały).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "fb1241bca",
+     "przod": "Ułamek molowy",
+     "tyl": "x = n(składnika) / n(wszystkich składników).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
      "id": "f8dc6b517",
      "przod": "Wyjaśnij pojęcie: roztwór",
      "tyl": "Jednorodna mieszanina rozpuszczalnika i substancji rozpuszczonej.",
@@ -64,15 +130,45 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
     },
     {
-     "id": "f4d168df3",
-     "przod": "Stężenie jonów w roztworze soli",
-     "tyl": "Zależy od wzoru soli, np. 0,1 mol/dm³ Na₂SO₄: [Na⁺] = 0,2 mol/dm³, [SO₄²⁻] = 0,1 mol/dm³.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
-    },
-    {
      "id": "f11c52b72",
      "przod": "Wyjaśnij pojęcie: stężenie ppm",
      "tyl": "Liczba części masowych substancji na milion części roztworu (1 ppm = 1 mg/kg); używane przy bardzo małych stężeniach, np. zanieczyszczeń.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "f3a269ca8",
+     "przod": "Rozpoznaj: Cp = ms / mr · 100%; mr = ms + m(rozpuszczalnika).",
+     "tyl": "Stężenie procentowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "ffd3bcd9b",
+     "przod": "Rozpoznaj: Cm = n / V (V w dm³!).",
+     "tyl": "Stężenie molowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "f08fece6c",
+     "przod": "Rozpoznaj: Cm = Cp · d / (M · 100%), d w g/dm³ (1 g/cm³ = 1000 g/dm³).",
+     "tyl": "Przeliczanie Cp → Cm",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "fe6fabe7c",
+     "przod": "Rozpoznaj: ms stała, mr maleje → Cp rośnie.",
+     "tyl": "Zatężanie przez odparowanie wody",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "fcad4b898",
+     "przod": "Rozpoznaj: Części na milion: 1 ppm = 1 mg/kg (≈ 1 mg/dm³ dla wody).",
+     "tyl": "Ppm",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "f1c51dc80",
+     "przod": "Rozpoznaj: x = n(składnika) / n(wszystkich składników).",
+     "tyl": "Ułamek molowy",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
     },
     {
@@ -95,6 +191,32 @@
     }
    ],
    "pytania": [
+    {
+     "id": "ped799980",
+     "pytanie": "Ile gramów NaOH jest w 200 cm³ roztworu 0,5 M? (M = 40 g/mol)",
+     "odpowiedzi": [
+      "10 g",
+      "40 g",
+      "4 g",
+      "0,4 g"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "n = 0,5 · 0,2 = 0,1 mol → 4 g.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p59d4dbdc",
+     "pytanie": "Stężenie jonów Cl⁻ w 0,2 M CaCl₂ wynosi:",
+     "odpowiedzi": [
+      "0,2 mol/dm³",
+      "0,6 mol/dm³",
+      "0,4 mol/dm³",
+      "0,1 mol/dm³"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Dwa jony Cl⁻ na jedną formułę.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "p625f85e3",
      "pytanie": "W 200 g roztworu jest 30 g soli. Cp wynosi:",
@@ -156,6 +278,84 @@
    "wymaganie": "V.5–6",
    "fiszki": [
     {
+     "id": "fa5e2970c",
+     "przod": "Rozpuszczalność",
+     "tyl": "Maksymalna masa substancji, która rozpuszcza się w 100 g rozpuszczalnika w danej temperaturze (roztwór nasycony).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "fe7476546",
+     "przod": "Roztwór nasycony",
+     "tyl": "W danej temperaturze nie rozpuści już więcej substancji; jest w równowadze z osadem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "fc4ee1599",
+     "przod": "Roztwór przesycony",
+     "tyl": "Zawiera więcej substancji niż nasycony — nietrwały, krystalizuje po wstrząśnięciu lub dodaniu kryształka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "facf64104",
+     "przod": "Rozpuszczalność gazów a temperatura",
+     "tyl": "Maleje ze wzrostem temperatury (np. NH₃, CO₂, O₂).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "fd45397cb",
+     "przod": "Rozpuszczalność gazów a ciśnienie",
+     "tyl": "Rośnie ze wzrostem ciśnienia (prawo Henry’ego) — np. napoje gazowane.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "f239981b0",
+     "przod": "Rozpuszczalność większości ciał stałych a temperatura",
+     "tyl": "Rośnie (wyjątki: np. Ca(OH)₂, Li₂CO₃, Ce₂(SO₄)₃ — maleje).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "fdab35fde",
+     "przod": "Cp roztworu nasyconego z rozpuszczalności R",
+     "tyl": "Cp = R / (100 + R) · 100% — dzielimy przez masę ROZTWORU.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "f9b607043",
+     "przod": "Krystalizacja przez chłodzenie",
+     "tyl": "Masa kryształów = R(T₁) − R(T₂) na 100 g wody (przeliczyć na faktyczną masę wody).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "f67028231",
+     "przod": "Iloczyn rozpuszczalności Ks",
+     "tyl": "Dla AₓBᵧ: Ks = [A]ˣ[B]ʸ w roztworze nasyconym; stały w danej temperaturze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "f5479f940",
+     "przod": "Rozpuszczalność molowa z Ks dla AB",
+     "tyl": "s = √Ks.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "f01a2934d",
+     "przod": "Rozpuszczalność molowa z Ks dla AB₂ (np. Mg(OH)₂)",
+     "tyl": "Ks = s(2s)² = 4s³ → s = ∛(Ks/4).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "f383d3e6a",
+     "przod": "Kiedy wytrąci się osad?",
+     "tyl": "Gdy iloczyn stężeń jonów (z wykładnikami) > Ks. Pamiętaj o rozcieńczeniu po zmieszaniu roztworów!",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "feae14781",
+     "przod": "Efekt wspólnego jonu",
+     "tyl": "Dodanie jonu obecnego w osadzie (np. Cl⁻ do AgCl) zmniejsza jego rozpuszczalność.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
      "id": "fef67af5e",
      "przod": "Wyjaśnij pojęcie: rozpuszczalność",
      "tyl": "Maksymalna masa substancji, jaką można rozpuścić w 100 g rozpuszczalnika w danej temperaturze, otrzymując roztwór nasycony.",
@@ -216,6 +416,42 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
     },
     {
+     "id": "f69e0fc0b",
+     "przod": "Rozpoznaj: W danej temperaturze nie rozpuści już więcej substancji; jest w równowadze z osadem.",
+     "tyl": "Roztwór nasycony",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "fc9146e6c",
+     "przod": "Rozpoznaj: Zawiera więcej substancji niż nasycony — nietrwały, krystalizuje po wstrząśnięciu lub dodaniu kryształka.",
+     "tyl": "Roztwór przesycony",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "fee197c33",
+     "przod": "Rozpoznaj: Masa kryształów = R(T₁) − R(T₂) na 100 g wody (przeliczyć na faktyczną masę wody).",
+     "tyl": "Krystalizacja przez chłodzenie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "f0d93f39c",
+     "przod": "Rozpoznaj: Dla AₓBᵧ: Ks = [A]ˣ[B]ʸ w roztworze nasyconym; stały w danej temperaturze.",
+     "tyl": "Iloczyn rozpuszczalności Ks",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "ff1ee20b6",
+     "przod": "Rozpoznaj: s = √Ks.",
+     "tyl": "Rozpuszczalność molowa z Ks dla AB",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "ff0cdd48b",
+     "przod": "Rozpoznaj: Ks = s(2s)² = 4s³ → s = ∛(Ks/4).",
+     "tyl": "Rozpuszczalność molowa z Ks dla AB₂ (np. Mg(OH)₂)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
      "id": "fcee6f6ac",
      "przod": "Podaj nazwę pojęcia: Wydzielanie się substancji z roztworu w postaci kryształów, np. po ochłodzeniu roztworu nasyconego lub odparowaniu rozpuszczalnika.",
      "tyl": "krystalizacja",
@@ -223,6 +459,19 @@
     }
    ],
    "pytania": [
+    {
+     "id": "pfe890528",
+     "pytanie": "Ks soli AB₂ = 4·10⁻¹². Rozpuszczalność molowa s wynosi:",
+     "odpowiedzi": [
+      "10⁻⁴ mol/dm³",
+      "2·10⁻⁴ mol/dm³",
+      "2·10⁻⁶ mol/dm³",
+      "10⁻⁶ mol/dm³"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "4s³ = 4·10⁻¹² → s = 10⁻⁴.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "p578ce84f",
      "pytanie": "Rozpuszczalność soli w 20°C wynosi 25 g/100 g wody. Cp roztworu nasyconego to:",
@@ -270,6 +519,66 @@
    "opis": "Wymaganie V.7–8 podstawy programowej.",
    "wymaganie": "V.7–8",
    "fiszki": [
+    {
+     "id": "f1b448464",
+     "przod": "Mieszanie dwóch roztworów tej samej substancji",
+     "tyl": "ms = ms₁ + ms₂; mr = mr₁ + mr₂; Cp = ms/mr · 100%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f1d59d7d1",
+     "przod": "Reguła krzyża (metoda mieszania)",
+     "tyl": "Stosunek mas roztworów = (Cp₂ − Cp) : (Cp − Cp₁) — działa dla stężeń procentowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f90536cd3",
+     "przod": "Woda w regule krzyża",
+     "tyl": "Woda ma Cp = 0%; czysta substancja Cp = 100%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f53e0dd63",
+     "przod": "Mieszanie roztworów reagujących (np. kwas + zasada)",
+     "tyl": "Najpierw policz mole każdego reagenta, ustal nadmiar, potem stężenie nadmiaru w ŁĄCZNEJ objętości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f9323caec",
+     "przod": "pH po zmieszaniu mocnego kwasu i mocnej zasady",
+     "tyl": "n(nadmiaru H⁺ lub OH⁻) / (V₁ + V₂) → pH lub pOH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f9e8ac216",
+     "przod": "Zmieszanie równych objętości dwóch roztworów",
+     "tyl": "Stężenie każdego składnika spada o połowę (przed ewentualną reakcją).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "fb7f76306",
+     "przod": "Pułapka przy Cm i mieszaniu",
+     "tyl": "Nie wolno sumować stężeń — sumujemy MOLE i dzielimy przez sumę objętości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f427a69d2",
+     "przod": "Rozpuszczanie stałej substancji w gotowym roztworze",
+     "tyl": "ms = ms₁ + m(dodanej); mr = mr₁ + m(dodanej).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f7c616d29",
+     "przod": "Dodanie hydratu do roztworu",
+     "tyl": "Do ms dolicz tylko część bezwodną; do mr całą masę hydratu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "fe8f53246",
+     "przod": "Roztwór buforowy z mieszania",
+     "tyl": "Słaby kwas + jego sól (lub słaba zasada + jej sól); pH = pKa + log(c_soli/c_kwasu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
     {
      "id": "fd920180e",
      "przod": "Wyjaśnij pojęcie: rozcieńczanie roztworu",
@@ -325,6 +634,54 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
     },
     {
+     "id": "f78ab3bcb",
+     "przod": "Rozpoznaj: ms = ms₁ + ms₂; mr = mr₁ + mr₂; Cp = ms/mr · 100%.",
+     "tyl": "Mieszanie dwóch roztworów tej samej substancji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f99fbc5de",
+     "przod": "Rozpoznaj: Stosunek mas roztworów = (Cp₂ − Cp) : (Cp − Cp₁) — działa dla stężeń procentowych.",
+     "tyl": "Reguła krzyża (metoda mieszania)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f5036d551",
+     "przod": "Rozpoznaj: Najpierw policz mole każdego reagenta, ustal nadmiar, potem stężenie nadmiaru w ŁĄCZNEJ objętości.",
+     "tyl": "Mieszanie roztworów reagujących (np. kwas + zasada)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f0128ac0b",
+     "przod": "Rozpoznaj: n(nadmiaru H⁺ lub OH⁻) / (V₁ + V₂) → pH lub pOH.",
+     "tyl": "pH po zmieszaniu mocnego kwasu i mocnej zasady",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f7303d6bd",
+     "przod": "Rozpoznaj: Stężenie każdego składnika spada o połowę (przed ewentualną reakcją).",
+     "tyl": "Zmieszanie równych objętości dwóch roztworów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f6d12191d",
+     "przod": "Rozpoznaj: Nie wolno sumować stężeń — sumujemy MOLE i dzielimy przez sumę objętości.",
+     "tyl": "Pułapka przy Cm i mieszaniu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "fa5c31403",
+     "przod": "Rozpoznaj: ms = ms₁ + m(dodanej); mr = mr₁ + m(dodanej).",
+     "tyl": "Rozpuszczanie stałej substancji w gotowym roztworze",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f7520423d",
+     "przod": "Rozpoznaj: Słaby kwas + jego sól (lub słaba zasada + jej sól); pH = pKa + log(c_soli/c_kwasu).",
+     "tyl": "Roztwór buforowy z mieszania",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
      "id": "f2cbfcaf3",
      "przod": "Podaj nazwę pojęcia: Zwiększanie stężenia przez odparowanie rozpuszczalnika albo dodanie substancji.",
      "tyl": "zatężanie roztworu",
@@ -338,6 +695,32 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p93bfb84b",
+     "pytanie": "Zmieszano 100 g roztworu 10% i 100 g roztworu 30%. Cp mieszaniny:",
+     "odpowiedzi": [
+      "20%",
+      "40%",
+      "15%",
+      "25%"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "(10 + 30)/200 · 100%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p858d9625",
+     "pytanie": "Zmieszano 50 cm³ 0,2 M HCl i 50 cm³ 0,2 M NaOH. pH:",
+     "odpowiedzi": [
+      "0,7",
+      "1",
+      "7",
+      "13"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Zobojętnienie stechiometryczne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "p60451871",
      "pytanie": "Do 100 g 20% roztworu dodano 100 g wody. Cp wynosi:",
