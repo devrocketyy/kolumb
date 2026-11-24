@@ -90,6 +90,96 @@
    ],
    "id": "b-roztwory-wodne-03",
    "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Stopień dysocjacji",
+   "material": "Tekst autorski. W roztworze kwasu metanowego (HCOOH) o stężeniu 0,10 mol·dm⁻³ stopień dysocjacji wynosi 4,2%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stałą dysocjacji kwasu i pH roztworu.",
+     "odpowiedz": "Ka ≈ 1,8·10⁻⁴; pH ≈ 2,4",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: [H⁺] = α·c; Ka = α²c/(1 − α). RACHUNEK: [H⁺] = 0,042 · 0,10 = 4,2·10⁻³; pH = 2,38; Ka = (4,2·10⁻³)²/(0,0958) = 1,84·10⁻⁴. SPRAWDZENIE: α > 5% — nie wolno upraszczać do α²c (tu różnica niewielka).",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy po rozcieńczeniu roztworu stopień dysocjacji wzrośnie, czy zmaleje. Uzasadnij.",
+     "odpowiedz": "Wzrośnie — zgodnie z prawem rozcieńczeń Ostwalda α ≈ √(Ka/c), więc mniejsze c → większe α.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "pH też wzrośnie, bo [H⁺] maleje mimo większego α.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-04",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Bufor amonowy",
+   "material": "Tekst autorski. Zmieszano 100 cm³ roztworu NH₃ o stężeniu 0,20 mol·dm⁻³ z 100 cm³ roztworu NH₄Cl o stężeniu 0,10 mol·dm⁻³. pKb(NH₃) = 4,75.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz pH otrzymanego roztworu.",
+     "odpowiedz": "pH ≈ 9,55",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: pOH = pKb + log(c_soli/c_zasady). RACHUNEK: po zmieszaniu c(NH₃) = 0,10, c(NH₄⁺) = 0,05; pOH = 4,75 + log 0,5 = 4,45; pH = 9,55. SPRAWDZENIE: więcej zasady niż soli → pH > pKa (9,25).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz w formie jonowej skróconej równanie reakcji zachodzącej po dodaniu do buforu niewielkiej ilości HCl.",
+     "odpowiedz": "NH₃ + H⁺ → NH₄⁺",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zasadowy składnik buforu wiąże dodany kwas.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-05",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Miareczkowanie słabego kwasu",
+   "material": "Tekst autorski. 20,0 cm³ roztworu CH₃COOH zmiareczkowano roztworem NaOH o stężeniu 0,100 mol·dm⁻³; punkt równoważnikowy osiągnięto po dodaniu 16,0 cm³ titranta.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie kwasu octowego.",
+     "odpowiedz": "0,080 mol·dm⁻³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "n(NaOH) = 0,1 · 0,016 = 1,6·10⁻³ mol = n(kwasu); c = 1,6·10⁻³/0,020 = 0,080.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy w punkcie równoważnikowym pH jest równe 7, mniejsze czy większe od 7. Uzasadnij.",
+     "odpowiedz": "Większe od 7 — powstały octan sodu ulega hydrolizie anionowej (CH₃COO⁻ + H₂O ⇄ CH₃COOH + OH⁻).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Dlatego do miareczkowania słabego kwasu stosuje się fenoloftaleinę, a nie oranż metylowy.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Spośród wskaźników: oranż metylowy (zmiana barwy przy pH 3,1–4,4), fenoloftaleina (8,2–10,0) wybierz właściwy do tego miareczkowania.",
+     "odpowiedz": "fenoloftaleina",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zakres zmiany barwy musi obejmować pH punktu równoważnikowego.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-roztwory-wodne-06",
+   "dzial": "roztwory-wodne"
   }
  ]
 }

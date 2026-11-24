@@ -90,6 +90,96 @@
    ],
    "id": "b-kinetyka-03",
    "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Okres półtrwania reakcji I rzędu",
+   "material": "Tekst autorski. Rozkład pewnego związku jest reakcją I rzędu. Po 30 minutach jego stężenie spadło z 0,80 do 0,20 mol·dm⁻³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Ustal okres półtrwania tej reakcji.",
+     "odpowiedz": "15 min",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,80 → 0,40 → 0,20 to dwa okresy półtrwania w 30 min.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie po 60 minutach.",
+     "odpowiedz": "0,05 mol·dm⁻³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "60 min = 4 okresy: 0,80 / 2⁴ = 0,05.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego szybkość reakcji maleje w czasie.",
+     "odpowiedz": "Maleje stężenie substratu, a szybkość reakcji I rzędu jest do niego proporcjonalna (v = k·c).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-kinetyka-04",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Entalpia z energii wiązań",
+   "material": "Tekst autorski. Średnie energie wiązań (kJ/mol): H–H 436, Cl–Cl 243, H–Cl 432.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz entalpię reakcji H₂ + Cl₂ → 2HCl.",
+     "odpowiedz": "ΔH = −185 kJ",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: ΔH = Σ E(zerwanych) − Σ E(utworzonych). RACHUNEK: (436 + 243) − 2 · 432 = 679 − 864 = −185 kJ. SPRAWDZENIE: znak ujemny — reakcja egzotermiczna (wybuchowa na świetle).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, czy reakcja jest endo- czy egzotermiczna, i jak wzrost temperatury wpłynie na jej stałą równowagi.",
+     "odpowiedz": "Egzotermiczna; K zmaleje.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Reguła przekory.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-05",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Stała równowagi estryfikacji",
+   "material": "Tekst autorski. Zmieszano 1,0 mol kwasu octowego i 1,0 mol etanolu. W stanie równowagi powstało 0,67 mola octanu etylu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stałą równowagi reakcji estryfikacji.",
+     "odpowiedz": "K ≈ 4",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "RACHUNEK: równowaga: kwas 0,33, alkohol 0,33, ester 0,67, woda 0,67; K = 0,67²/0,33² = 4,1. SPRAWDZENIE: objętość się skraca (Δn = 0), więc można liczyć na molach.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaproponuj dwa sposoby zwiększenia wydajności otrzymywania estru.",
+     "odpowiedz": "Np. nadmiar jednego z substratów (alkoholu), usuwanie wody (stęż. H₂SO₄) lub oddestylowywanie estru.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przesunięcie równowagi w prawo.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-06",
+   "dzial": "kinetyka"
   }
  ]
 }

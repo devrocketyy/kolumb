@@ -81,6 +81,78 @@
    ],
    "id": "b-roztwory-03",
    "dzial": "roztwory"
+  },
+  {
+   "tytul": "Roztwór z hydratu",
+   "material": "Tekst autorski. Należy przygotować 200 g roztworu CuSO₄ o stężeniu 8%, używając CuSO₄·5H₂O (M = 250 g/mol, M(CuSO₄) = 160 g/mol).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę hydratu i masę wody potrzebne do przygotowania roztworu.",
+     "odpowiedz": "hydrat: 25 g; woda: 175 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: ms(CuSO₄) → m(hydratu) przez proporcję mas molowych. RACHUNEK: ms = 0,08 · 200 = 16 g; m(hydratu) = 16 · 250/160 = 25 g; woda = 200 − 25 = 175 g. SPRAWDZENIE: pułapka — 16 g hydratu dałoby za małe stężenie.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-04",
+   "dzial": "roztwory"
+  },
+  {
+   "tytul": "Krystalizacja azotanu potasu",
+   "material": "Tekst autorski. Rozpuszczalność KNO₃: 80°C — 169 g/100 g wody; 20°C — 32 g/100 g wody. Przygotowano 538 g roztworu nasyconego w 80°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę kryształów, które wydzielą się po ochłodzeniu roztworu do 20°C.",
+     "odpowiedz": "274 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: skład roztworu nasyconego → masa wody → różnica rozpuszczalności. RACHUNEK: 269 g roztworu zawiera 100 g wody; 538 g → 200 g wody i 338 g soli; w 20°C rozpuści się 64 g; wydzieli się 338 − 64 = 274 g. SPRAWDZENIE: masa wody się nie zmienia.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-05",
+   "dzial": "roztwory"
+  },
+  {
+   "tytul": "Stężenie po rozcieńczeniu",
+   "material": "Tekst autorski. Do 25,0 cm³ roztworu H₂SO₄ o stężeniu 2,00 mol·dm⁻³ dodano wody do objętości 500 cm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie molowe kwasu po rozcieńczeniu.",
+     "odpowiedz": "0,100 mol·dm⁻³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "c₁V₁ = c₂V₂ → 2,00 · 25,0 = c₂ · 500 → c₂ = 0,100.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz pH otrzymanego roztworu, zakładając całkowitą dysocjację obu etapów.",
+     "odpowiedz": "pH ≈ 0,7",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "[H⁺] = 2 · 0,100 = 0,200; pH = −log 0,2 = 0,70. Pułapka: zapomnienie o dwóch protonach.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego przy rozcieńczaniu stężonego kwasu siarkowego wlewa się kwas do wody, a nie odwrotnie.",
+     "odpowiedz": "Rozcieńczanie jest silnie egzotermiczne — wlewanie wody do kwasu powoduje miejscowe zagotowanie i rozpryskiwanie kwasu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "BHP — pojawia się w zadaniach doświadczalnych.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-roztwory-06",
+   "dzial": "roztwory"
   }
  ]
 }

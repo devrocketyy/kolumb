@@ -99,6 +99,87 @@
    ],
    "id": "b-stechiometria-03",
    "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Mieszanina węglanów",
+   "material": "Tekst autorski. Mieszaninę Na₂CO₃ i NaHCO₃ o masie 2,74 g roztworzono w nadmiarze kwasu solnego. Wydzieliło się 0,672 dm³ CO₂ (warunki normalne). M(Na₂CO₃) = 106 g/mol, M(NaHCO₃) = 84 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz w formie jonowej skróconej równania reakcji obu soli z kwasem solnym.",
+     "odpowiedz": "CO₃²⁻ + 2H⁺ → CO₂ + H₂O; HCO₃⁻ + H⁺ → CO₂ + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Z każdej soli powstaje 1 mol CO₂ na 1 mol soli.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę Na₂CO₃ w mieszaninie.",
+     "odpowiedz": "1,06 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: układ równań — masa i liczba moli CO₂. RACHUNEK: x + y = 0,672/22,4 = 0,03; 106x + 84y = 2,74 → 106x + 84(0,03 − x) = 2,74 → 22x = 0,22 → x = 0,01 mol; m = 1,06 g. SPRAWDZENIE: NaHCO₃ = 0,02 mol · 84 = 1,68 g; 1,06 + 1,68 = 2,74 g.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-04",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Gaz w nietypowych warunkach",
+   "material": "Tekst autorski. Podczas rozkładu termicznego KClO₃ (2KClO₃ → 2KCl + 3O₂) zebrano 1,20 dm³ tlenu w temperaturze 27°C pod ciśnieniem 1000 hPa. R = 83,14 hPa·dm³·mol⁻¹·K⁻¹, M(KClO₃) = 122,5 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę rozłożonego KClO₃. Wynik podaj z dokładnością do 0,01 g.",
+     "odpowiedz": "ok. 3,93 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: pV = nRT → n(O₂) → n(KClO₃) = 2/3 n(O₂). RACHUNEK: n = 1000 · 1,20 / (83,14 · 300) = 0,0481 mol; n(KClO₃) = 0,0321 mol; m = 3,93 g. SPRAWDZENIE: temperatura w kelwinach (300 K), nie 27!",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w tym zadaniu nie wolno użyć objętości molowej 22,4 dm³/mol.",
+     "odpowiedz": "Bo gaz nie jest w warunkach normalnych (0°C, 1013 hPa) — objętość molowa w 27°C i 1000 hPa jest większa (ok. 24,9 dm³/mol).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Najczęstszy błąd metody w zadaniach z gazami.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-05",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Analiza wagowa siarczanów",
+   "material": "Tekst autorski. Z 50,0 cm³ roztworu siarczanu(VI) sodu po dodaniu nadmiaru BaCl₂ otrzymano 0,466 g osadu BaSO₄ (M = 233 g/mol).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stężenie molowe Na₂SO₄ w badanym roztworze.",
+     "odpowiedz": "0,040 mol·dm⁻³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "RACHUNEK: n(BaSO₄) = 0,466/233 = 0,0020 mol = n(Na₂SO₄); c = 0,0020/0,050 = 0,040 mol·dm⁻³. SPRAWDZENIE: objętość przeliczona na dm³.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, po co stosuje się nadmiar BaCl₂.",
+     "odpowiedz": "Aby całkowicie (ilościowo) wytrącić jony SO₄²⁻ — efekt wspólnego jonu zmniejsza rozpuszczalność BaSO₄.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Analiza wagowa wymaga ilościowego strącenia.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-06",
+   "dzial": "stechiometria"
   }
  ]
 }

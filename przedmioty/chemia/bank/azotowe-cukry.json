@@ -63,6 +63,60 @@
    ],
    "id": "b-azotowe-cukry-02",
    "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Punkt izoelektryczny",
+   "material": "Tekst autorski. Glicyna ma pI = 6,0, kwas glutaminowy pI = 3,2, lizyna pI = 9,7. Mieszaninę umieszczono w buforze o pH 6,0 i przeprowadzono elektroforezę.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w którą stronę (do katody, do anody, w miejscu) przemieści się każdy aminokwas.",
+     "odpowiedz": "Glicyna — w miejscu; kwas glutaminowy — do anody; lizyna — do katody.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "pH > pI → anion → anoda; pH < pI → kation → katoda.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz wzór glicyny w formie dominującej przy pH = 6.",
+     "odpowiedz": "⁺H₃N–CH₂–COO⁻",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jon obojnaczy.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-azotowe-cukry-03",
+   "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Hydroliza dipeptydu",
+   "material": "Tekst autorski. Dipeptyd Ala-Gly poddano hydrolizie kwasowej.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz wzór dipeptydu i zaznacz wiązanie peptydowe.",
+     "odpowiedz": "H₂N–CH(CH₃)–CO–NH–CH₂–COOH; wiązanie –CO–NH–",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "N-koniec: alanina.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, ile różnych dipeptydów można utworzyć z jednej cząsteczki alaniny i jednej glicyny.",
+     "odpowiedz": "2 (Ala-Gly i Gly-Ala)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kolejność reszt ma znaczenie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-azotowe-cukry-04",
+   "dzial": "azotowe-cukry"
   }
  ]
 }

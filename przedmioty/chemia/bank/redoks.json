@@ -117,6 +117,78 @@
    ],
    "id": "b-redoks-03",
    "dzial": "redoks"
+  },
+  {
+   "tytul": "Manganometria",
+   "material": "Tekst autorski. Próbkę soli Mohra zawierającą jony Fe²⁺ zmiareczkowano w środowisku kwasowym roztworem KMnO₄ o stężeniu 0,0200 mol·dm⁻³; zużyto 15,0 cm³ titranta.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz w formie jonowej skróconej równanie reakcji.",
+     "odpowiedz": "MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mn +VII → +II (5e⁻), Fe +II → +III (1e⁻).",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę żelaza(II) w próbce (M(Fe) = 56 g/mol).",
+     "odpowiedz": "0,084 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "RACHUNEK: n(MnO₄⁻) = 0,02 · 0,015 = 3,0·10⁻⁴; n(Fe²⁺) = 5 · 3,0·10⁻⁴ = 1,5·10⁻³ mol; m = 0,084 g. Pułapka: stosunek 1 : 5.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, po czym poznać punkt końcowy miareczkowania bez wskaźnika.",
+     "odpowiedz": "Pierwsza kropla nadmiaru KMnO₄ zabarwia roztwór na trwale różowo (fioletowo).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "KMnO₄ jest własnym wskaźnikiem.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-redoks-04",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Elektroliza wody",
+   "material": "Tekst autorski. Przeprowadzono elektrolizę wodnego roztworu Na₂SO₄ z elektrodami platynowymi.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równania reakcji zachodzących na katodzie i na anodzie.",
+     "odpowiedz": "Katoda: 2H₂O + 2e⁻ → H₂ + 2OH⁻; anoda: 2H₂O → O₂ + 4H⁺ + 4e⁻",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Na⁺ i SO₄²⁻ się nie rozładowują — elektrolizie ulega woda.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj stosunek objętości gazów wydzielonych na katodzie i anodzie.",
+     "odpowiedz": "V(H₂) : V(O₂) = 2 : 1",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ta sama liczba elektronów: 2 H₂ na 1 O₂.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, jak zmieni się barwa oranżu metylowego przy anodzie.",
+     "odpowiedz": "Na czerwono — przy anodzie powstają jony H⁺ (odczyn kwasowy).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przy katodzie odczyn zasadowy.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-redoks-05",
+   "dzial": "redoks"
   }
  ]
 }

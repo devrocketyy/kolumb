@@ -90,6 +90,60 @@
    ],
    "id": "b-tlenowe-03",
    "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Identyfikacja alkoholi i fenolu",
+   "material": "Tekst autorski. W trzech probówkach znajdują się: etanol, glicerol i fenol (roztwór wodny).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Zaprojektuj identyfikację z użyciem Cu(OH)₂ i FeCl₃: podaj obserwacje dla każdej substancji.",
+     "odpowiedz": "Cu(OH)₂: glicerol — szafirowy roztwór; FeCl₃: fenol — fioletowe zabarwienie; etanol — brak zmian w obu próbach.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Dwie próby rozróżniają trzy substancje.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego etanol nie reaguje z Cu(OH)₂ tak jak glicerol.",
+     "odpowiedz": "Etanol ma jedną grupę –OH; do utworzenia kompleksu potrzebne są grupy –OH przy sąsiednich atomach węgla.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-04",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Ester o zapachu gruszek",
+   "material": "Tekst autorski. Octan izopentylu (octan 3-metylobutylu) ma zapach gruszek.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz wzory substratów do jego otrzymania.",
+     "odpowiedz": "CH₃COOH i (CH₃)₂CH–CH₂–CH₂–OH",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kwas octowy + 3-metylobutan-1-ol.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Z 12 g kwasu octowego i nadmiaru alkoholu otrzymano 15,6 g estru (M = 130 g/mol). Oblicz wydajność.",
+     "odpowiedz": "60%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(kwasu) = 12/60 = 0,2 mol → teoretycznie 26 g estru; W = 15,6/26 = 60%.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-05",
+   "dzial": "tlenowe"
   }
  ]
 }
