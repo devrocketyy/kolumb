@@ -1308,7 +1308,7 @@ function viewSzukaj() {
   // szukamy tylko w bieżącym przedmiocie
   const cs = currentSubject();
   if (!cs) return notFound();
-  const przyklad = { biologia: 'np. mitochondrium, ATP, mejoza…', historia: 'np. unia lubelska, 1569, Piłsudski…', wos: 'np. kontrasygnata, art. 104, NATO…' }[cs.id] || 'Wpisz szukane słowo…';
+  const przyklad = { biologia: 'np. mitochondrium, ATP, mejoza…', historia: 'np. unia lubelska, 1569, Piłsudski…', wos: 'np. kontrasygnata, art. 104, NATO…', chemia: 'np. hydroliza, pH, estryfikacja…' }[cs.id] || 'Wpisz szukane słowo…';
   app.innerHTML = `${pageHead(`Szukaj · ${cs.nazwa}`, null)}
     <input class="type-input search-input" id="q" type="search" autocomplete="off" placeholder="${przyklad}" aria-label="Szukaj w fiszkach: ${esc(cs.nazwa)}" value="${esc(searchQ)}">
     <p class="muted small" id="q-info"></p>
@@ -3005,6 +3005,7 @@ const SUBJECT_ICONS = {
 };
 SUBJECT_ICONS.historia = '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6h20v6a10 10 0 0 1-10 10A10 10 0 0 1 14 12zM14 42h20v-6a10 10 0 0 0-10-10 10 10 0 0 0-10 10z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M10 5h28M10 43h28" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M18 40c1-4 3-6 6-6s5 2 6 6z" fill="currentColor"/></svg>';
 SUBJECT_ICONS.biologia = '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M16 6c0 9 16 9 16 18s-16 9-16 18M32 6c0 9-16 9-16 18s16 9 16 18" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M18 12h12M17 18h14M17 30h14M18 36h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>';
+SUBJECT_ICONS.chemia = '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M19 6h10M20 6v13L9 38a3 3 0 0 0 2.6 4.5h24.8A3 3 0 0 0 39 38L28 19V6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 31h20l3.6 6.4a1.6 1.6 0 0 1-1.4 2.4H11.8a1.6 1.6 0 0 1-1.4-2.4z" fill="currentColor"/><circle cx="22" cy="26" r="1.6" fill="currentColor"/><circle cx="27" cy="23" r="1.2" fill="currentColor"/></svg>';
 SUBJECT_ICONS.filozofia = '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 7c-8 0-13 5-13 12 0 5 3 8 6 10v6h14v-6c3-2 6-5 6-10 0-7-5-12-13-12z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M18 40h12M20 44h8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M24 16v10M20 20h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>';
 const subjectIcon = (s) => SUBJECT_ICONS[s.id] || `<span class="subj-letters">${esc((s.skrot || s.nazwa).slice(0, 3))}</span>`;
 let gateMsg = '';

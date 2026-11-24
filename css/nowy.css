@@ -5,6 +5,7 @@
   --s-bio: #2F7D4F; --s-bio-soft: #E3F0E7;
   --s-his: #A8620E; --s-his-soft: #F6EBDB;
   --s-wos: #2C5AA8; --s-wos-soft: #E1E8F5;
+  --s-che: #7B3FB0; --s-che-soft: #EFE6F7;
   --s-kolor: #111111; --s-kolor-soft: #F3F4F3; /* kolor bieżącego przedmiotu (tylko do banera) */
 }
 @media (prefers-color-scheme: dark) {
@@ -12,6 +13,7 @@
     --s-bio: #5DBE84; --s-bio-soft: #16281D;
     --s-his: #E0A04A; --s-his-soft: #2A1F10;
     --s-wos: #7FA6EC; --s-wos-soft: #141E30;
+    --s-che: #B98BE8; --s-che-soft: #221832;
     --s-kolor: #EDEEED; --s-kolor-soft: #1B1B1B;
   }
 }
@@ -19,16 +21,19 @@
   --s-bio: #5DBE84; --s-bio-soft: #16281D;
   --s-his: #E0A04A; --s-his-soft: #2A1F10;
   --s-wos: #7FA6EC; --s-wos-soft: #141E30;
+  --s-che: #B98BE8; --s-che-soft: #221832;
   --s-kolor: #EDEEED; --s-kolor-soft: #1B1B1B;
 }
 .wyglad-nowy[data-przedmiot="biologia"] { --s-kolor: var(--s-bio); --s-kolor-soft: var(--s-bio-soft); }
 .wyglad-nowy[data-przedmiot="historia"] { --s-kolor: var(--s-his); --s-kolor-soft: var(--s-his-soft); }
 .wyglad-nowy[data-przedmiot="wos"] { --s-kolor: var(--s-wos); --s-kolor-soft: var(--s-wos-soft); }
+.wyglad-nowy[data-przedmiot="chemia"] { --s-kolor: var(--s-che); --s-kolor-soft: var(--s-che-soft); }
 
 /* Ikony przedmiotów: na wyborze przedmiotu każdy ma swój kolor, w pigułce kursu kolor bieżącego */
 .wyglad-nowy .subj-icon[data-sid="biologia"] { background: var(--s-bio); color: #fff; }
 .wyglad-nowy .subj-icon[data-sid="historia"] { background: var(--s-his); color: #fff; }
 .wyglad-nowy .subj-icon[data-sid="wos"] { background: var(--s-wos); color: #fff; }
+.wyglad-nowy .subj-icon[data-sid="chemia"] { background: var(--s-che); color: #fff; }
 .wyglad-nowy[data-przedmiot] .course-pill-icon { background: var(--s-kolor); color: #fff; }
 
 /* Baner „Zainstaluj IndexLab” w kolorze przedmiotu */
