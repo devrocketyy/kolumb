@@ -387,6 +387,42 @@
    ],
    "id": "b-redoks-13",
    "dzial": "redoks"
+  },
+  {
+   "tytul": "Bilans z H₂S",
+   "material": "Tekst autorski. Siarkowodór reaguje z dichromianem potasu w środowisku kwasowym; wytrąca się siarka.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równanie w formie jonowej skróconej.",
+     "odpowiedz": "Cr₂O₇²⁻ + 3H₂S + 8H⁺ → 2Cr³⁺ + 3S + 7H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "S(−II) → S(0) oddaje 2e⁻; Cr₂ przyjmuje 6e⁻.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-redoks-14",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Elektroliza — czas",
+   "material": "Tekst autorski. Ile czasu trzeba prowadzić elektrolizę roztworu CuSO₄ prądem 5,0 A, aby wydzielić 3,175 g miedzi? F = 96 500 C/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz czas elektrolizy.",
+     "odpowiedz": "1930 s (ok. 32 min)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(Cu) = 0,05 → n(e⁻) = 0,1 → Q = 9650 C → t = 1930 s.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-redoks-15",
+   "dzial": "redoks"
   }
  ]
 }

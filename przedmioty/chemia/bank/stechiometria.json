@@ -351,6 +351,51 @@
    ],
    "id": "b-stechiometria-15",
    "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Rozkład azotanu miedzi",
+   "material": "Tekst autorski. Ogrzewano 18,8 g Cu(NO₃)₂ (M = 188 g/mol): 2Cu(NO₃)₂ → 2CuO + 4NO₂ + O₂.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz łączną objętość gazów (w. n.) i masę stałego produktu.",
+     "odpowiedz": "5,6 dm³ gazów; 8,0 g CuO",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: n(soli) → mole gazów z równania. RACHUNEK: n = 18,8/188 = 0,1 mol; NO₂ 0,2 mol + O₂ 0,05 mol = 0,25 mol · 22,4 = 5,6 dm³; CuO 0,1 mol · 80 = 8,0 g. SPRAWDZENIE: masa gazów 9,2 + 1,6 = 10,8 g; 8,0 + 10,8 = 18,8 g.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-16",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Analiza spalin — CO₂ i H₂O",
+   "material": "Tekst autorski. Spalono 0,1 mola alkanu i otrzymano 17,6 g CO₂.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Ustal wzór alkanu.",
+     "odpowiedz": "C₄H₁₀",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "n(CO₂) = 0,4 mol → 4 atomy C w cząsteczce.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę powstałej wody.",
+     "odpowiedz": "9,0 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,1 · 5 mol H₂O · 18.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-17",
+   "dzial": "stechiometria"
   }
  ]
 }
