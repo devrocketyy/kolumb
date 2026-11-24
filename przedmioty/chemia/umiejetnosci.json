@@ -188,6 +188,54 @@
      "przod": "Czego wymaga polecenie „podaj nazwę systematyczną”?",
      "tyl": "Nazwy zgodnej z zasadami IUPAC (np. kwas propanowy, 2-metylopropan-2-ol), a nie nazwy zwyczajowej — chyba że polecenie dopuszcza obie.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f71df8f13",
+     "przod": "Polecenie „Oceń prawdziwość”",
+     "tyl": "Każde zdanie osobno P/F; punkt zwykle za wszystkie poprawne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f6d1079c4",
+     "przod": "Polecenie „Wyjaśnij”",
+     "tyl": "Mechanizm/przyczyna zjawiska — łańcuch: budowa → właściwość → obserwacja.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "fbda5a031",
+     "przod": "Polecenie „Rozstrzygnij”",
+     "tyl": "Jednoznaczna odpowiedź (tak/nie, I/II) + uzasadnienie, jeśli polecenie go wymaga.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f65f6abf3",
+     "przod": "Polecenie „Zaprojektuj doświadczenie”",
+     "tyl": "Wybrać odczynniki z listy, opisać czynności i spodziewane obserwacje dla każdej substancji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f04b3ac1c",
+     "przod": "„Napisz wzór półstrukturalny (grupowy)”",
+     "tyl": "Wszystkie grupy w poprawnej kolejności; zapis –COH zamiast –CHO = błąd.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f026af822",
+     "przod": "„Napisz w formie jonowej z uwzględnieniem liczby elektronów”",
+     "tyl": "Równanie połówkowe z e⁻, w formie jonowej, ze środowiskiem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "fe7ea0a07",
+     "przod": "Zaznaczanie odpowiedzi w nawiasach",
+     "tyl": "Podkreślić/zakreślić dokładnie jedną opcję w KAŻDYM nawiasie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "fdc2a390c",
+     "przod": "Wynik z dokładnością",
+     "tyl": "Zaokrąglaj dopiero na końcu; wynik podaj z żądaną dokładnością i jednostką.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
     }
    ],
    "pytania": [
@@ -493,9 +541,93 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
     },
     {
+     "id": "ff1218d85",
+     "przod": "Cyfry znaczące — zasada",
+     "tyl": "Wynik podaje się z taką dokładnością jak najmniej dokładna dana (lub jak każe polecenie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f83c8d75f",
+     "przod": "Przeliczenia objętości",
+     "tyl": "1 dm³ = 1000 cm³ = 1 L; 1 m³ = 1000 dm³.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f5f5fbbc0",
+     "przod": "Przeliczenia ciśnienia",
+     "tyl": "1013 hPa = 1 atm = 101,3 kPa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fb7a117d7",
+     "przod": "Logarytmy w pH",
+     "tyl": "log(a·10ⁿ) = log a + n; np. −log(2·10⁻³) = 2,7.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fca62eccd",
+     "przod": "Proporcja vs wzór",
+     "tyl": "Obie metody są poprawne, ale tok rozumowania musi być widoczny — sam wynik = 0 pkt.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f77d7e29f",
+     "przod": "Sprawdzenie sensu wyniku",
+     "tyl": "Stężenie % < 100, wydajność ≤ 100%, pH 0–14, masa produktu realna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fbea15bf3",
+     "przod": "Błąd metody vs błąd rachunkowy",
+     "tyl": "Zła zależność (np. pominięcie współczynnika) = 0 pkt; pomyłka w działaniu = zwykle −1 pkt.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f7e7f1649",
+     "przod": "Stałe z karty wzorów",
+     "tyl": "Nₐ = 6,02·10²³, R = 8,314 J·mol⁻¹·K⁻¹ (83,14 hPa·dm³·mol⁻¹·K⁻¹), F = 96 500 C·mol⁻¹, Vm = 22,4 dm³·mol⁻¹.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
      "id": "f129472c3",
      "przod": "Rozpoznaj: Cm = (Cp · d) / (M · 100%), gdzie d — gęstość roztworu w g/dm³ (uwaga: g/cm³ × 1000 = g/dm³).",
      "tyl": "Przeliczanie Cp na Cm",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fe30de87b",
+     "przod": "Rozpoznaj: 1 dm³ = 1000 cm³ = 1 L; 1 m³ = 1000 dm³.",
+     "tyl": "Przeliczenia objętości",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "ff9ccc618",
+     "przod": "Rozpoznaj: 1013 hPa = 1 atm = 101,3 kPa.",
+     "tyl": "Przeliczenia ciśnienia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f7409997d",
+     "przod": "Rozpoznaj: log(a·10ⁿ) = log a + n; np. −log(2·10⁻³) = 2,7.",
+     "tyl": "Logarytmy w pH",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f5f57c449",
+     "przod": "Rozpoznaj: Stężenie % < 100, wydajność ≤ 100%, pH 0–14, masa produktu realna.",
+     "tyl": "Sprawdzenie sensu wyniku",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f079fc8c3",
+     "przod": "Rozpoznaj: Zła zależność (np. pominięcie współczynnika) = 0 pkt; pomyłka w działaniu = zwykle −1 pkt.",
+     "tyl": "Błąd metody vs błąd rachunkowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f8831bc21",
+     "przod": "Rozpoznaj: Nₐ = 6,02·10²³, R = 8,314 J·mol⁻¹·K⁻¹ (83,14 hPa·dm³·mol⁻¹·K⁻¹), F = 96 500 C·mol⁻¹, Vm = 22,4 dm³·mol⁻¹.",
+     "tyl": "Stałe z karty wzorów",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
     }
    ],
@@ -831,6 +963,72 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
     },
     {
+     "id": "f1c4d1806",
+     "przod": "Sączenie",
+     "tyl": "Oddzielenie osadu od cieczy przez lejek z sączkiem; ilościowe wyodrębnianie osadu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fe636715e",
+     "przod": "Dekantacja",
+     "tyl": "Zlewanie cieczy znad osadu po jego opadnięciu (nie jest ilościowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f07a7c49a",
+     "przod": "Destylacja",
+     "tyl": "Rozdzielanie cieczy o różnych temperaturach wrzenia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f9c91c77d",
+     "przod": "Ekstrakcja",
+     "tyl": "Przeniesienie substancji do rozpuszczalnika, w którym lepiej się rozpuszcza (rozdzielacz).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fb2aefeb4",
+     "przod": "Krystalizacja",
+     "tyl": "Wydzielanie kryształów z roztworu przez odparowanie lub ochłodzenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f57efd847",
+     "przod": "Chromatografia",
+     "tyl": "Rozdział składników na podstawie różnej szybkości wędrówki w fazie stacjonarnej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f693a32d7",
+     "przod": "Miareczkowanie — sprzęt",
+     "tyl": "Biureta (titrant), kolba stożkowa (analit), pipeta, wskaźnik.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fbb0fed51",
+     "przod": "Wykrywanie CO₂",
+     "tyl": "Woda wapienna mętnieje: Ca(OH)₂ + CO₂ → CaCO₃↓ + H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fa6ae7062",
+     "przod": "Wykrywanie H₂",
+     "tyl": "Zapalone łuczywko — charakterystyczny „szczek” (próba wybuchowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f15306fb3",
+     "przod": "Wykrywanie O₂",
+     "tyl": "Tlące się łuczywko rozżarza się.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f7d0e9c5d",
+     "przod": "Wykrywanie NH₃",
+     "tyl": "Zapach; wilgotny uniwersalny papierek zabarwia się na niebiesko.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
      "id": "f90d51537",
      "przod": "Rozpoznaj: Biały, serowaty osad, ciemniejący na świetle.",
      "tyl": "Barwa i wygląd osadu AgCl",
@@ -888,6 +1086,66 @@
      "id": "fa94dfed7",
      "przod": "Rozpoznaj: Cu²⁺ — niebieska; Fe³⁺ — żółta (żółtopomarańczowa); Fe²⁺ — bladozielona.",
      "tyl": "Barwy jonów w roztworze: Cu²⁺, Fe³⁺, Fe²⁺",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f71f168d7",
+     "przod": "Rozpoznaj: Oddzielenie osadu od cieczy przez lejek z sączkiem; ilościowe wyodrębnianie osadu.",
+     "tyl": "Sączenie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f42ec4a64",
+     "przod": "Rozpoznaj: Zlewanie cieczy znad osadu po jego opadnięciu (nie jest ilościowa).",
+     "tyl": "Dekantacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f7855612e",
+     "przod": "Rozpoznaj: Rozdzielanie cieczy o różnych temperaturach wrzenia.",
+     "tyl": "Destylacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f086b1cc5",
+     "przod": "Rozpoznaj: Przeniesienie substancji do rozpuszczalnika, w którym lepiej się rozpuszcza (rozdzielacz).",
+     "tyl": "Ekstrakcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f24c4344b",
+     "przod": "Rozpoznaj: Wydzielanie kryształów z roztworu przez odparowanie lub ochłodzenie.",
+     "tyl": "Krystalizacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fa674af5d",
+     "przod": "Rozpoznaj: Rozdział składników na podstawie różnej szybkości wędrówki w fazie stacjonarnej.",
+     "tyl": "Chromatografia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fcd175723",
+     "przod": "Rozpoznaj: Woda wapienna mętnieje: Ca(OH)₂ + CO₂ → CaCO₃↓ + H₂O.",
+     "tyl": "Wykrywanie CO₂",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fedd0cd1b",
+     "przod": "Rozpoznaj: Zapalone łuczywko — charakterystyczny „szczek” (próba wybuchowa).",
+     "tyl": "Wykrywanie H₂",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fccc6a3f3",
+     "przod": "Rozpoznaj: Tlące się łuczywko rozżarza się.",
+     "tyl": "Wykrywanie O₂",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fab47140f",
+     "przod": "Rozpoznaj: Zapach; wilgotny uniwersalny papierek zabarwia się na niebiesko.",
+     "tyl": "Wykrywanie NH₃",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
     }
    ],

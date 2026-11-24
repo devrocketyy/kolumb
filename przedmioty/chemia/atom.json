@@ -10,6 +10,66 @@
    "wymaganie": "I.1–2, II.1–2",
    "fiszki": [
     {
+     "id": "f57d8d7ed",
+     "przod": "Liczba atomowa Z",
+     "tyl": "Liczba protonów w jądrze (= liczba elektronów w obojętnym atomie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "fe69ca0e8",
+     "przod": "Liczba masowa A",
+     "tyl": "Suma protonów i neutronów (nukleonów) w jądrze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f4297893a",
+     "przod": "Nuklid",
+     "tyl": "Atom o określonej liczbie protonów i neutronów, zapis ᴬ_Z E.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f5bc49c9c",
+     "przod": "Izobary",
+     "tyl": "Nuklidy o tej samej liczbie masowej, różnej liczbie atomowej (np. ⁴⁰Ar i ⁴⁰Ca).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f61106f3f",
+     "przod": "Masa protonu i neutronu",
+     "tyl": "Ok. 1 u każda; elektron ok. 1/1840 u.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "fc61b9095",
+     "przod": "Ładunek jonu a liczba elektronów",
+     "tyl": "Kation Xⁿ⁺ ma o n elektronów mniej niż atom, anion Xⁿ⁻ — o n więcej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f840c62a1",
+     "przod": "Drobiny izoelektronowe",
+     "tyl": "Mają tę samą liczbę elektronów, np. Na⁺, Mg²⁺, F⁻, O²⁻, Ne (10 e⁻).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f40ac4db1",
+     "przod": "Promień w szeregu izoelektronowym",
+     "tyl": "Maleje ze wzrostem Z: O²⁻ > F⁻ > Na⁺ > Mg²⁺ > Al³⁺.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "fe1560f8d",
+     "przod": "Model atomu — orbital",
+     "tyl": "Obszar przestrzeni, w którym prawdopodobieństwo znalezienia elektronu jest największe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f240af06e",
+     "przod": "Kształty orbitali",
+     "tyl": "s — kula, p — „ósemka” (3 orientacje), d — 5 orbitali o złożonych kształtach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
      "id": "f6bfec439",
      "przod": "Z jakich cząstek zbudowany jest atom?",
      "tyl": "Z jądra (protony i neutrony, czyli nukleony) oraz elektronów rozmieszczonych wokół jądra.",
@@ -121,6 +181,42 @@
      "id": "f0b13a177",
      "przod": "Ładunki cząstek elementarnych",
      "tyl": "Proton +1, elektron −1, neutron 0 (w jednostkach ładunku elementarnego).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f5f01ebbc",
+     "przod": "Rozpoznaj: Suma protonów i neutronów (nukleonów) w jądrze.",
+     "tyl": "Liczba masowa A",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f1f7f5480",
+     "przod": "Rozpoznaj: Atom o określonej liczbie protonów i neutronów, zapis ᴬ_Z E.",
+     "tyl": "Nuklid",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "fe6cbf91a",
+     "przod": "Rozpoznaj: Nuklidy o tej samej liczbie masowej, różnej liczbie atomowej (np. ⁴⁰Ar i ⁴⁰Ca).",
+     "tyl": "Izobary",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f8ef3cd11",
+     "przod": "Rozpoznaj: Ok. 1 u każda; elektron ok. 1/1840 u.",
+     "tyl": "Masa protonu i neutronu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "fd851fbe6",
+     "przod": "Rozpoznaj: Mają tę samą liczbę elektronów, np. Na⁺, Mg²⁺, F⁻, O²⁻, Ne (10 e⁻).",
+     "tyl": "Drobiny izoelektronowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f1953f065",
+     "przod": "Rozpoznaj: Maleje ze wzrostem Z: O²⁻ > F⁻ > Na⁺ > Mg²⁺ > Al³⁺.",
+     "tyl": "Promień w szeregu izoelektronowym",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
     },
     {
@@ -268,6 +364,66 @@
    "wymaganie": "II.3–5",
    "fiszki": [
     {
+     "id": "fd774dac9",
+     "przod": "Liczby kwantowe — zestaw",
+     "tyl": "n (główna, powłoka), l (poboczna, podpowłoka: 0 s, 1 p, 2 d, 3 f), m (magnetyczna, orbital), mₛ (spinowa, ±½).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f0d71e1ee",
+     "przod": "Zakaz Pauliego",
+     "tyl": "W atomie nie ma dwóch elektronów o identycznych czterech liczbach kwantowych → max 2 e⁻ na orbitalu, o przeciwnych spinach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "fad52809d",
+     "przod": "Reguła Hunda",
+     "tyl": "Elektrony zajmują orbitale tej samej podpowłoki najpierw pojedynczo, ze zgodnymi spinami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "fdc0d3575",
+     "przod": "Kolejność zapełniania podpowłok",
+     "tyl": "1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p …",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f3355814d",
+     "przod": "Wartości m dla l = 2",
+     "tyl": "−2, −1, 0, 1, 2 (5 orbitali d).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f0126fe7b",
+     "przod": "Zapis skrócony konfiguracji",
+     "tyl": "Rdzeń gazu szlachetnego w nawiasie: Fe [Ar] 3d⁶ 4s².",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f570521dc",
+     "przod": "Elektrony walencyjne pierwiastków bloku d",
+     "tyl": "Elektrony ns i (n−1)d, np. Mn: 4s² 3d⁵ — 7 elektronów walencyjnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f17fcffdc",
+     "przod": "Stan wzbudzony",
+     "tyl": "Elektron przeniesiony na wyższą (pustą) podpowłokę, np. C*: 2s¹ 2p³ — tłumaczy czterowartościowość węgla.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "fe2e69b66",
+     "przod": "Konfiguracja jonu Fe²⁺",
+     "tyl": "[Ar] 3d⁶ (usuwamy 2 elektrony 4s).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f171dce4f",
+     "przod": "Pułapka: schemat klatkowy",
+     "tyl": "Trzeba podpisać powłoki i podpowłoki; elektrony niesparowane — zgodne spiny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
      "id": "f498f65a3",
      "przod": "Wyjaśnij pojęcie: orbital atomowy",
      "tyl": "Obszar przestrzeni wokół jądra, w którym prawdopodobieństwo znalezienia elektronu jest największe (opisany funkcją falową).",
@@ -319,18 +475,6 @@
      "id": "f3e974298",
      "przod": "Ile elektronów maksymalnie mieści powłoka n?",
      "tyl": "2n² (K — 2, L — 8, M — 18, N — 32).",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
-    },
-    {
-     "id": "f0d71e1ee",
-     "przod": "Zakaz Pauliego",
-     "tyl": "W atomie nie mogą istnieć dwa elektrony o takich samych wszystkich czterech liczbach kwantowych — na jednym orbitalu najwyżej 2 elektrony o przeciwnych spinach.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
-    },
-    {
-     "id": "fad52809d",
-     "przod": "Reguła Hunda",
-     "tyl": "Elektrony obsadzają orbitale tej samej podpowłoki najpierw pojedynczo, z równoległymi spinami, a dopiero potem tworzą pary.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
     },
     {
@@ -403,6 +547,42 @@
      "id": "f393dabec",
      "przod": "Jak z konfiguracji odczytać położenie pierwiastka w układzie okresowym?",
      "tyl": "Numer okresu = najwyższa wartość n; blok = typ podpowłoki zapełnianej jako ostatnia; numer grupy z liczby elektronów walencyjnych (s i p: 1–2 oraz 13–18; d: suma elektronów s i d).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f55c43b23",
+     "przod": "Rozpoznaj: W atomie nie ma dwóch elektronów o identycznych czterech liczbach kwantowych → max 2 e⁻ na orbitalu, o przeciwnych spinach.",
+     "tyl": "Zakaz Pauliego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f7f6bca9e",
+     "przod": "Rozpoznaj: Elektrony zajmują orbitale tej samej podpowłoki najpierw pojedynczo, ze zgodnymi spinami.",
+     "tyl": "Reguła Hunda",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f76b53f7c",
+     "przod": "Rozpoznaj: 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p …",
+     "tyl": "Kolejność zapełniania podpowłok",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f5c3f23ec",
+     "przod": "Rozpoznaj: Rdzeń gazu szlachetnego w nawiasie: Fe [Ar] 3d⁶ 4s².",
+     "tyl": "Zapis skrócony konfiguracji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f00d53671",
+     "przod": "Rozpoznaj: Elektron przeniesiony na wyższą (pustą) podpowłokę, np. C*: 2s¹ 2p³ — tłumaczy czterowartościowość węgla.",
+     "tyl": "Stan wzbudzony",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "feb2c30d1",
+     "przod": "Rozpoznaj: [Ar] 3d⁶ (usuwamy 2 elektrony 4s).",
+     "tyl": "Konfiguracja jonu Fe²⁺",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
     },
     {
@@ -607,7 +787,61 @@
     {
      "id": "f67d52237",
      "przod": "Prawo okresowości",
-     "tyl": "Właściwości pierwiastków są okresową funkcją ich liczby atomowej — powtarzają się co pewną liczbę pierwiastków, bo okresowo powtarza się konfiguracja elektronów walencyjnych.",
+     "tyl": "Właściwości pierwiastków są okresową funkcją liczby atomowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "ff0d26619",
+     "przod": "Numer okresu",
+     "tyl": "Liczba powłok elektronowych w atomie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f64601b18",
+     "przod": "Numer grupy (bloki s i p)",
+     "tyl": "Grupy 1–2: liczba elektronów walencyjnych; 13–18: liczba elektronów walencyjnych + 10.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f940a1499",
+     "przod": "Energia jonizacji w okresie",
+     "tyl": "Rośnie od lewej do prawej (z wyjątkami: grupa 13 < 2, grupa 16 < 15).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f25f748d5",
+     "przod": "Elektroujemność — trend",
+     "tyl": "Rośnie w okresie w prawo, maleje w grupie w dół.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f1f09c36c",
+     "przod": "Charakter tlenków w okresie 3",
+     "tyl": "Na₂O, MgO — zasadowe; Al₂O₃ — amfoteryczny; SiO₂, P₄O₁₀, SO₃, Cl₂O₇ — kwasowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "fb1218e35",
+     "przod": "Wodorki w okresie 2",
+     "tyl": "LiH (jonowy, zasadowy) … CH₄ (obojętny) … HF (kwasowy w wodzie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f605b064e",
+     "przod": "Metaloidy (półmetale)",
+     "tyl": "B, Si, Ge, As, Sb, Te — pośrednie właściwości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "ff3a1da96",
+     "przod": "Maksymalny stopień utlenienia",
+     "tyl": "Zwykle równy liczbie elektronów walencyjnych (S: +VI, Cl: +VII, Mn: +VII).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f899fdce6",
+     "przod": "Promień atomowy w okresie",
+     "tyl": "Maleje od lewej do prawej (rośnie ładunek jądra, ta sama liczba powłok).",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
     },
     {
@@ -722,6 +956,36 @@
      "id": "fb469fff9",
      "przod": "Gazy szlachetne — dlaczego są mało reaktywne?",
      "tyl": "Mają trwałe konfiguracje: dublet (He) lub oktet (ns² np⁶) na ostatniej powłoce.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f1e38fc57",
+     "przod": "Rozpoznaj: Liczba powłok elektronowych w atomie.",
+     "tyl": "Numer okresu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "ff29d0962",
+     "przod": "Rozpoznaj: Rośnie od lewej do prawej (z wyjątkami: grupa 13 < 2, grupa 16 < 15).",
+     "tyl": "Energia jonizacji w okresie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "fc4fa0446",
+     "przod": "Rozpoznaj: B, Si, Ge, As, Sb, Te — pośrednie właściwości.",
+     "tyl": "Metaloidy (półmetale)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f61b128b8",
+     "przod": "Rozpoznaj: Zwykle równy liczbie elektronów walencyjnych (S: +VI, Cl: +VII, Mn: +VII).",
+     "tyl": "Maksymalny stopień utlenienia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "fe70e0bde",
+     "przod": "Rozpoznaj: Maleje od lewej do prawej (rośnie ładunek jądra, ta sama liczba powłok).",
+     "tyl": "Promień atomowy w okresie",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
     },
     {
@@ -858,6 +1122,72 @@
    "wymaganie": "II.9–10",
    "fiszki": [
     {
+     "id": "fe38b767b",
+     "przod": "Promieniowanie α",
+     "tyl": "Jądra helu ⁴₂He; małą przenikliwość (zatrzymuje je kartka papieru).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "fe3c9df6d",
+     "przod": "Promieniowanie β⁻",
+     "tyl": "Elektrony z jądra (n → p + e⁻); zatrzymuje je cienka blacha aluminiowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f1d6ff18e",
+     "przod": "Promieniowanie β⁺",
+     "tyl": "Pozytony (p → n + e⁺); Z maleje o 1.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f7a92e1b7",
+     "przod": "Promieniowanie γ",
+     "tyl": "Fale elektromagnetyczne o dużej energii; bardzo przenikliwe (ołów, beton).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f6aa78f22",
+     "przod": "Wychwyt elektronu (K)",
+     "tyl": "Jądro pochłania elektron z powłoki K: p + e⁻ → n; Z maleje o 1.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "fde7a57a2",
+     "przod": "Okres półtrwania T½",
+     "tyl": "Czas, po którym rozpada się połowa jąder; nie zależy od masy próbki ani warunków.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "fb9608f52",
+     "przod": "Masa po n okresach półtrwania",
+     "tyl": "m = m₀ · (½)ⁿ.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f481b4b17",
+     "przod": "Szereg promieniotwórczy",
+     "tyl": "Ciąg przemian α i β kończący się trwałym izotopem (zwykle ołowiu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f02eafcdb",
+     "przod": "Datowanie radiowęglowe",
+     "tyl": "¹⁴C (T½ ≈ 5730 lat) — określanie wieku szczątków organicznych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f09b3f08a",
+     "przod": "Reakcja rozszczepienia",
+     "tyl": "Ciężkie jądro (²³⁵U) po pochłonięciu neutronu dzieli się na dwa lżejsze i 2–3 neutrony (reakcja łańcuchowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f45a1734a",
+     "przod": "Zastosowania izotopów",
+     "tyl": "Medycyna (¹³¹I — tarczyca, ⁶⁰Co — radioterapia), znaczniki, energetyka jądrowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
      "id": "f3e4ab8e5",
      "przod": "Wyjaśnij pojęcie: promieniotwórczość naturalna",
      "tyl": "Samorzutny rozpad jąder nietrwałych izotopów połączony z emisją promieniowania (α, β, γ).",
@@ -879,12 +1209,6 @@
      "id": "fdfc6cfa3",
      "przod": "Przemiana β⁺",
      "tyl": "Proton w jądrze zamienia się w neutron i pozyton (emitowany): A bez zmian, Z maleje o 1.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
-    },
-    {
-     "id": "f7a92e1b7",
-     "przod": "Promieniowanie γ",
-     "tyl": "Wysokoenergetyczne promieniowanie elektromagnetyczne, towarzyszące przemianom α i β; nie zmienia A ani Z.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
     },
     {
@@ -951,6 +1275,60 @@
      "id": "fa68642b7",
      "przod": "Wyjaśnij pojęcie: reakcja rozszczepienia",
      "tyl": "Rozpad ciężkiego jądra (np. ²³⁵U) na dwa lżejsze po pochłonięciu neutronu, z uwolnieniem energii i kolejnych neutronów (reakcja łańcuchowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f6596beed",
+     "przod": "Rozpoznaj: Jądra helu ⁴₂He; małą przenikliwość (zatrzymuje je kartka papieru).",
+     "tyl": "Promieniowanie α",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f4cbe407d",
+     "przod": "Rozpoznaj: Elektrony z jądra (n → p + e⁻); zatrzymuje je cienka blacha aluminiowa.",
+     "tyl": "Promieniowanie β⁻",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "fe5c9b275",
+     "przod": "Rozpoznaj: Pozytony (p → n + e⁺); Z maleje o 1.",
+     "tyl": "Promieniowanie β⁺",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f446891d2",
+     "przod": "Rozpoznaj: Fale elektromagnetyczne o dużej energii; bardzo przenikliwe (ołów, beton).",
+     "tyl": "Promieniowanie γ",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f64bcf16f",
+     "przod": "Rozpoznaj: Czas, po którym rozpada się połowa jąder; nie zależy od masy próbki ani warunków.",
+     "tyl": "Okres półtrwania T½",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "fdcd172e0",
+     "przod": "Rozpoznaj: m = m₀ · (½)ⁿ.",
+     "tyl": "Masa po n okresach półtrwania",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f2d0c41fb",
+     "przod": "Rozpoznaj: Ciąg przemian α i β kończący się trwałym izotopem (zwykle ołowiu).",
+     "tyl": "Szereg promieniotwórczy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f06596152",
+     "przod": "Rozpoznaj: ¹⁴C (T½ ≈ 5730 lat) — określanie wieku szczątków organicznych.",
+     "tyl": "Datowanie radiowęglowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "ffb06d8f6",
+     "przod": "Rozpoznaj: Medycyna (¹³¹I — tarczyca, ⁶⁰Co — radioterapia), znaczniki, energetyka jądrowa.",
+     "tyl": "Zastosowania izotopów",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
     },
     {
