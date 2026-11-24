@@ -60,6 +60,27 @@
  "arkusze": [],
  "bank": [
   {
+   "plik": "chemia/bank/atom.json"
+  },
+  {
+   "plik": "chemia/bank/azotowe-cukry.json"
+  },
+  {
+   "plik": "chemia/bank/chemia-zycia.json"
+  },
+  {
+   "plik": "chemia/bank/kinetyka.json"
+  },
+  {
+   "plik": "chemia/bank/nieorganiczne.json"
+  },
+  {
+   "plik": "chemia/bank/organiczna.json"
+  },
+  {
+   "plik": "chemia/bank/redoks.json"
+  },
+  {
    "plik": "chemia/bank/roztwory.json"
   },
   {
@@ -67,6 +88,15 @@
   },
   {
    "plik": "chemia/bank/stechiometria.json"
+  },
+  {
+   "plik": "chemia/bank/tlenowe.json"
+  },
+  {
+   "plik": "chemia/bank/umiejetnosci.json"
+  },
+  {
+   "plik": "chemia/bank/wiazania.json"
   }
  ]
 }

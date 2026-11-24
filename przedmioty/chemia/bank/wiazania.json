@@ -1,0 +1,59 @@
+{
+ "dzial": "wiazania",
+ "wiazki": [
+  {
+   "tytul": "Temperatury wrzenia",
+   "material": "Tekst autorski. Temperatury wrzenia: H₂O — 100°C, H₂S — −60°C, H₂Se — −41°C, H₂Te — −2°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego woda wrze w znacznie wyższej temperaturze, niż wynikałoby z trendu w grupie.",
+     "odpowiedz": "Między cząsteczkami wody tworzą się wiązania wodorowe (silnie elektroujemny O, H przy O), których rozerwanie wymaga dodatkowej energii; H₂S, H₂Se, H₂Te ich praktycznie nie tworzą.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przyczyna (elektroujemność O) → mechanizm (wiązania wodorowe) → skutek (wysoka temperatura wrzenia).",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego temperatura wrzenia rośnie od H₂S do H₂Te.",
+     "odpowiedz": "Rośnie masa i rozmiar cząsteczek, a więc siła oddziaływań van der Waalsa (dyspersyjnych).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przy braku wiązań wodorowych decydują oddziaływania dyspersyjne.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-wiazania-01",
+   "dzial": "wiazania"
+  },
+  {
+   "tytul": "Kształt cząsteczek",
+   "material": "Tekst autorski. Podano drobiny: CO₂, H₂O, NH₃, BF₃, CH₄, NH₄⁺.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj typ hybrydyzacji atomu centralnego i kształt drobiny dla: NH₃, BF₃, CO₂.",
+     "odpowiedz": "NH₃ — sp³, piramida trygonalna; BF₃ — sp², trójkąt płaski; CO₂ — sp, liniowa.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Liczba przestrzenna: NH₃ 3 + 1 wolna para = 4; BF₃ = 3; CO₂ = 2.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wybierz drobiny niepolarne, które mają wiązania spolaryzowane.",
+     "odpowiedz": "CO₂, BF₃, CH₄",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Symetryczna geometria — momenty dipolowe się znoszą. NH₄⁺ to jon, więc nie klasyfikujemy go jako cząsteczki niepolarnej.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-wiazania-02",
+   "dzial": "wiazania"
+  }
+ ]
+}

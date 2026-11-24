@@ -1,0 +1,95 @@
+{
+ "dzial": "kinetyka",
+ "wiazki": [
+  {
+   "tytul": "Prawo Hessa",
+   "material": "Tekst autorski. Dane: (1) C(grafit) + O₂ → CO₂, ΔH₁ = −394 kJ; (2) CO + ½O₂ → CO₂, ΔH₂ = −283 kJ.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz entalpię reakcji C(grafit) + ½O₂ → CO.",
+     "odpowiedz": "ΔH = −111 kJ",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: szukana = (1) − (2) (odwracamy (2) i zmieniamy znak). RACHUNEK: −394 − (−283) = −111 kJ. SPRAWDZENIE: reakcja egzotermiczna, mniej ciepła niż przy spalaniu całkowitym — ma sens.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego entalpii tej reakcji nie wyznacza się bezpośrednio w kalorymetrze.",
+     "odpowiedz": "Bo przy spalaniu węgla zawsze powstaje mieszanina CO i CO₂ — nie da się przeprowadzić samej reakcji do CO; prawo Hessa pozwala obliczyć jej efekt pośrednio.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zastosowanie prawa Hessa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-01",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Synteza tlenku siarki(VI)",
+   "material": "Tekst autorski. W zamkniętym reaktorze ustala się równowaga 2SO₂(g) + O₂(g) ⇄ 2SO₃(g), ΔH < 0.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz wyrażenie na stałą równowagi tej reakcji.",
+     "odpowiedz": "K = [SO₃]² / ([SO₂]²·[O₂])",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wykładniki = współczynniki stechiometryczne.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Określ, jak zmieni się wydajność SO₃ po: a) podwyższeniu temperatury, b) zwiększeniu ciśnienia, c) dodaniu katalizatora.",
+     "odpowiedz": "a) zmaleje, b) wzrośnie, c) nie zmieni się",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "a) ogrzewanie sprzyja reakcji endotermicznej (odwrotnej); b) mniej moli gazów po prawej (3 → 2); c) katalizator nie przesuwa równowagi.",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "W stanie równowagi [SO₂] = 0,2 mol/dm³, [O₂] = 0,1 mol/dm³, [SO₃] = 0,6 mol/dm³. Oblicz stałą równowagi.",
+     "odpowiedz": "K = 90",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "K = 0,6² / (0,2² · 0,1) = 0,36 / 0,004 = 90. Pułapka: pominięcie kwadratów.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-kinetyka-02",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Szybkość reakcji",
+   "material": "Tekst autorski. Dla reakcji 2NO + O₂ → 2NO₂ równanie kinetyczne ma postać v = k[NO]²[O₂].",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy wzrośnie szybkość reakcji, gdy objętość naczynia zmniejszy się dwukrotnie.",
+     "odpowiedz": "8 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Stężenia obu gazów rosną 2 razy: 2² · 2 = 8.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy podwyższenie temperatury zmieni stałą szybkości k. Uzasadnij.",
+     "odpowiedz": "Tak — k zależy od temperatury (wzrasta z temperaturą, bo więcej drobin ma energię równą co najmniej energii aktywacji).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "k nie zależy od stężeń, ale zależy od temperatury i katalizatora.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-03",
+   "dzial": "kinetyka"
+  }
+ ]
+}

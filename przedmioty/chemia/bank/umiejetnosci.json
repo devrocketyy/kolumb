@@ -1,0 +1,68 @@
+{
+ "dzial": "umiejetnosci",
+ "wiazki": [
+  {
+   "tytul": "Trzy bezbarwne roztwory",
+   "material": "Tekst autorski. W trzech nieopisanych probówkach znajdują się wodne roztwory: NaCl, Na₂SO₄ i Na₂CO₃. Do dyspozycji są: roztwór BaCl₂, kwas solny, roztwór AgNO₃, fenoloftaleina.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Zaprojektuj doświadczenie pozwalające zidentyfikować zawartość probówek: opisz kolejność czynności i obserwacje.",
+     "odpowiedz": "Np. 1) Dodać kwas solny: w probówce z Na₂CO₃ wydzielają się pęcherzyki bezbarwnego, bezwonnego gazu. 2) Do dwóch pozostałych dodać BaCl₂: z Na₂SO₄ wytrąca się biały osad, w probówce z NaCl brak zmian.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Pułapka: AgNO₃ daje białe osady i z Cl⁻, i z SO₄²⁻/CO₃²⁻ (Ag₂SO₄, Ag₂CO₃) — nie rozróżni pewnie roztworów. Odczynnik musi dawać różną obserwację dla każdej substancji.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz w formie jonowej skróconej równanie reakcji zachodzącej w probówce z Na₂SO₄.",
+     "odpowiedz": "Ba²⁺ + SO₄²⁻ → BaSO₄↓",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jony Na⁺ i Cl⁻ są widzami.",
+     "nr": "2"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy fenoloftaleina pozwoli wskazać jedną z probówek. Uzasadnij.",
+     "odpowiedz": "Tak — roztwór Na₂CO₃ ma odczyn zasadowy (hydroliza anionu CO₃²⁻), więc fenoloftaleina zabarwi się na malinowo; NaCl i Na₂SO₄ mają odczyn obojętny.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Łączenie hydrolizy z identyfikacją.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-umiejetnosci-01",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Obserwacja czy wniosek",
+   "material": "Tekst autorski. Uczeń wrzucił do probówki z kwasem solnym kawałek cynku i zanotował: „Wydziela się wodór, cynk się rozpuszcza, powstaje chlorek cynku”.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Popraw zapis ucznia tak, aby zawierał wyłącznie obserwacje.",
+     "odpowiedz": "Wydzielają się pęcherzyki bezbarwnego, bezwonnego gazu; kawałek metalu zmniejsza się (roztwarza się).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Nazwy produktów (wodór, chlorek cynku) to wnioski, nie obserwacje.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego sformułowanie „cynk się rozpuszcza” jest niepoprawne chemicznie.",
+     "odpowiedz": "Bo cynk reaguje z kwasem (roztwarza się) — przechodzi do roztworu w postaci jonów Zn²⁺, a nie rozpuszcza się fizycznie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Rozróżnienie rozpuszczania i roztwarzania.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-02",
+   "dzial": "umiejetnosci"
+  }
+ ]
+}

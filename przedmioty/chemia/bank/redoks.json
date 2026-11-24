@@ -1,0 +1,122 @@
+{
+ "dzial": "redoks",
+ "wiazki": [
+  {
+   "tytul": "Manganian(VII) potasu",
+   "material": "Tekst autorski. Do zakwaszonego kwasem siarkowym(VI) roztworu siarczanu(VI) żelaza(II) wkraplano fioletowy roztwór KMnO₄. Roztwór manganianu odbarwiał się, a roztwór w probówce zmienił barwę z bladozielonej na żółtą.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz w formie jonowej, z uwzględnieniem elektronów, równania połówkowe utleniania i redukcji.",
+     "odpowiedz": "Utlenianie: Fe²⁺ → Fe³⁺ + e⁻; redukcja: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Środowisko kwasowe — tlen bilansujemy wodą, wodór jonami H⁺.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz sumaryczne równanie jonowe reakcji.",
+     "odpowiedz": "MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mnożnik 5 dla żelaza wyrównuje liczbę elektronów. Sprawdzenie ładunków: lewa strona −1 + 10 + 8 = +17, prawa +2 + 15 = +17.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, która drobina jest utleniaczem, a która reduktorem.",
+     "odpowiedz": "Utleniacz — MnO₄⁻; reduktor — Fe²⁺.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Utleniacz przyjmuje elektrony (Mn: +VII → +II).",
+     "nr": "3"
+    }
+   ],
+   "id": "b-redoks-01",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Ogniwo cynkowo-srebrowe",
+   "material": "Tekst autorski. Zbudowano ogniwo z półogniw: Zn | Zn²⁺ (E° = −0,76 V) i Ag | Ag⁺ (E° = 0,80 V), w warunkach standardowych.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz schemat ogniwa, wskazując anodę i katodę.",
+     "odpowiedz": "(−) Zn | Zn²⁺ || Ag⁺ | Ag (+); anoda — Zn, katoda — Ag",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Niższy potencjał — anoda.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz SEM ogniwa.",
+     "odpowiedz": "1,56 V",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "SEM = 0,80 − (−0,76) = 1,56 V.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz sumaryczne równanie reakcji zachodzącej w ogniwie.",
+     "odpowiedz": "Zn + 2Ag⁺ → Zn²⁺ + 2Ag",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wyrównanie elektronów: 2 Ag⁺ na 1 Zn.",
+     "nr": "3"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy SEM tego ogniwa wyniesie dokładnie 1,56 V, gdy stężenie jonów Ag⁺ będzie równe 0,01 mol/dm³. Uzasadnij.",
+     "odpowiedz": "Nie — potencjał elektrody zależy od stężenia jonów (równanie Nernsta); przy niższym [Ag⁺] potencjał elektrody srebrnej będzie niższy, więc SEM spadnie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Pułapka z rekomendacji CKE 2026: potencjał standardowy ≠ potencjał elektrody.",
+     "nr": "4"
+    }
+   ],
+   "id": "b-redoks-02",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Elektroliza roztworu siarczanu(VI) miedzi(II)",
+   "material": "Tekst autorski. Przez wodny roztwór CuSO₄ przepuszczano prąd o natężeniu 2 A przez 965 s, stosując elektrody grafitowe. F = 96 500 C/mol, M(Cu) = 64 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równania reakcji zachodzących na katodzie i anodzie.",
+     "odpowiedz": "Katoda: Cu²⁺ + 2e⁻ → Cu; anoda: 2H₂O → O₂ + 4H⁺ + 4e⁻",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Aniony SO₄²⁻ się nie utleniają — utlenia się woda.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę miedzi wydzielonej na katodzie.",
+     "odpowiedz": "0,64 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: m = M·I·t/(n·F). RACHUNEK: 64 · 2 · 965 / (2 · 96 500) = 0,64 g. SPRAWDZENIE: ładunek 1930 C = 0,02 mol e⁻ → 0,01 mol Cu.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ, jak zmienia się odczyn roztworu w czasie elektrolizy.",
+     "odpowiedz": "Staje się coraz bardziej kwasowy (pH maleje).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Na anodzie powstają jony H⁺.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-redoks-03",
+   "dzial": "redoks"
+  }
+ ]
+}

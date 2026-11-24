@@ -1,0 +1,95 @@
+{
+ "dzial": "tlenowe",
+ "wiazki": [
+  {
+   "tytul": "Utlenianie alkoholi",
+   "material": "Tekst autorski. Trzy izomeryczne alkohole o wzorze C₄H₉OH: butan-1-ol, butan-2-ol i 2-metylopropan-2-ol ogrzewano z tlenkiem miedzi(II).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj, który alkohol utlenił się do aldehydu, który do ketonu, a który nie uległ utlenieniu.",
+     "odpowiedz": "Butan-1-ol → butanal (aldehyd); butan-2-ol → butanon (keton); 2-metylopropan-2-ol — nie utlenia się (alkohol III-rzędowy).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Rzędowość alkoholu decyduje o produkcie.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaproponuj odczynnik, którym odróżnisz produkt utleniania butan-1-olu od produktu utleniania butan-2-olu, i podaj obserwację.",
+     "odpowiedz": "Np. odczynnik Tollensa: z butanalem powstaje srebrne lustro, z butanonem brak zmian.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Aldehyd jest reduktorem, keton nie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-01",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Estryfikacja",
+   "material": "Tekst autorski. Ogrzewano mieszaninę kwasu octowego i etanolu z dodatkiem kilku kropli stężonego kwasu siarkowego(VI). Po pewnym czasie poczuto przyjemny, owocowy zapach.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji, stosując wzory półstrukturalne, i podaj nazwę produktu organicznego.",
+     "odpowiedz": "CH₃COOH + CH₃CH₂OH ⇄ CH₃COOCH₂CH₃ + H₂O; octan etylu (etanian etylu)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Reakcja odwracalna.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij dwie funkcje stężonego H₂SO₄ w tej reakcji.",
+     "odpowiedz": "1) Katalizator — przyspiesza ustalanie się równowagi; 2) wiąże wodę (higroskopijny), przesuwając równowagę w stronę estru (zwiększa wydajność).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Reguła przekory w praktyce.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie hydrolizy powstałego estru w roztworze NaOH.",
+     "odpowiedz": "CH₃COOCH₂CH₃ + NaOH → CH₃COONa + CH₃CH₂OH",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Hydroliza zasadowa jest nieodwracalna.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-tlenowe-02",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Fenol czy alkohol",
+   "material": "Tekst autorski. Dysponujesz dwiema substancjami: fenolem i cykloheksanolem.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj odczynnik, który pozwoli je odróżnić, i opisz obserwacje.",
+     "odpowiedz": "Np. roztwór FeCl₃: z fenolem fioletowe zabarwienie, z cykloheksanolem brak zmian (lub NaOH — fenol się roztwarza, alkohol nie reaguje).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Fenol ma charakter słabo kwasowy.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego fenol jest mocniejszym kwasem niż cykloheksanol.",
+     "odpowiedz": "Ładunek ujemny anionu fenolanowego jest zdelokalizowany w pierścieniu aromatycznym, co stabilizuje anion i ułatwia oderwanie protonu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wpływ pierścienia na grupę –OH.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-03",
+   "dzial": "tlenowe"
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "dzial": "atom",
+ "wiazki": [
+  {
+   "tytul": "Izotopy boru",
+   "material": "Tekst autorski. Bor występuje w przyrodzie w postaci dwóch trwałych izotopów: ¹⁰B i ¹¹B. Średnia masa atomowa boru wynosi 10,81 u.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz zawartość procentową izotopu ¹⁰B w naturalnym borze.",
+     "odpowiedz": "19%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: średnia ważona; x — % ¹⁰B, (100 − x) — % ¹¹B. RACHUNEK: (10x + 11(100 − x))/100 = 10,81 → 1100 − x = 1081 → x = 19%. SPRAWDZENIE: średnia bliżej 11, więc ¹¹B musi przeważać (81%) — zgadza się.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj liczbę protonów, neutronów i elektronów w atomie ¹¹B (Z = 5).",
+     "odpowiedz": "p = 5, n = 6, e = 5",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "n = A − Z = 11 − 5.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-01",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Konfiguracja i jony",
+   "material": "Tekst autorski. Pierwiastek X leży w 4. okresie, w 8. grupie układu okresowego. Tworzy kationy X²⁺ i X³⁺; kation X³⁺ jest trwalszy w obecności tlenu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj symbol pierwiastka X i zapisz skróconą konfigurację elektronową atomu w stanie podstawowym.",
+     "odpowiedz": "Fe; [Ar] 3d⁶ 4s²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Grupa 8, okres 4 — żelazo.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz konfigurację elektronową jonu X³⁺.",
+     "odpowiedz": "[Ar] 3d⁵",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Najpierw usuwamy elektrony 4s, potem jeden z 3d. Typowy błąd: [Ar] 3d³ 4s².",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, odwołując się do konfiguracji, dlaczego jon X³⁺ jest trwalszy od X²⁺.",
+     "odpowiedz": "Jon Fe³⁺ ma półzapełnioną podpowłokę 3d (3d⁵), która jest energetycznie korzystna, a Fe²⁺ ma 3d⁶.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Związek konfiguracji z trwałością — typowe polecenie „wyjaśnij”.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-atom-02",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Datowanie radiowęglowe",
+   "material": "Tekst autorski. Okres półtrwania izotopu ¹⁴C wynosi ok. 5730 lat. W próbce drewna z wykopaliska zawartość ¹⁴C stanowi 25% zawartości w żywym drewnie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz równanie przemiany β⁻ izotopu ¹⁴C.",
+     "odpowiedz": "¹⁴₆C → ¹⁴₇N + ⁰₋₁e",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Z rośnie o 1, A bez zmian.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wiek próbki drewna.",
+     "odpowiedz": "ok. 11 460 lat",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "25% = 1/4 = (1/2)², więc minęły 2 okresy półtrwania: 2 · 5730 = 11 460 lat.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-03",
+   "dzial": "atom"
+  }
+ ]
+}

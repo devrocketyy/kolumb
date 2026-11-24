@@ -1,0 +1,68 @@
+{
+ "dzial": "azotowe-cukry",
+ "wiazki": [
+  {
+   "tytul": "Glicyna i alanina",
+   "material": "Tekst autorski. Glicyna (H₂N–CH₂–COOH) i alanina (H₂N–CH(CH₃)–COOH) to najprostsze aminokwasy białkowe.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, który z aminokwasów jest czynny optycznie. Uzasadnij.",
+     "odpowiedz": "Alanina — ma asymetryczny atom węgla α (cztery różne podstawniki); glicyna ma dwa atomy H przy węglu α.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Warunek chiralności.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Narysuj wzór dipeptydu Gly-Ala.",
+     "odpowiedz": "H₂N–CH₂–CO–NH–CH(CH₃)–COOH",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "N-koniec — glicyna, C-koniec — alanina; wiązanie peptydowe –CO–NH–.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz wzór glicyny w postaci jonu, w jakim występuje w roztworze silnie kwasowym.",
+     "odpowiedz": "⁺H₃N–CH₂–COOH",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "W środowisku kwasowym obie grupy są sprotonowane.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-azotowe-cukry-01",
+   "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Cukry redukujące",
+   "material": "Tekst autorski. W probówkach znajdują się wodne roztwory: glukozy, fruktozy, sacharozy i skrobi.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Zaprojektuj doświadczenie (odczynniki i obserwacje), które pozwoli zidentyfikować wszystkie cztery roztwory.",
+     "odpowiedz": "Np. 1) jodyna: skrobia — granatowe zabarwienie; 2) próba Trommera: glukoza i fruktoza — ceglastoczerwony osad, sacharoza — brak; 3) woda bromowa: glukoza odbarwia, fruktoza nie.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Fruktoza też daje próbę Trommera (przemiana w środowisku zasadowym) — do jej odróżnienia od glukozy potrzebna jest woda bromowa.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego sacharoza nie daje próby Trommera.",
+     "odpowiedz": "Oba anomeryczne atomy węgla (glukozy i fruktozy) są zaangażowane w wiązanie glikozydowe — brak wolnej grupy półacetalowej, więc nie powstaje forma z grupą aldehydową.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Budowa → właściwość.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-azotowe-cukry-02",
+   "dzial": "azotowe-cukry"
+  }
+ ]
+}

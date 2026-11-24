@@ -1,0 +1,86 @@
+{
+ "dzial": "organiczna",
+ "wiazki": [
+  {
+   "tytul": "Bromowanie etenu i benzenu",
+   "material": "Tekst autorski. Do dwóch probówek z wodą bromową dodano: do I — eten (przepuszczono gaz), do II — benzen (bez katalizatora). W probówce I woda bromowa odbarwiła się, w II — nie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji zachodzącej w probówce I, stosując wzory półstrukturalne.",
+     "odpowiedz": "CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Addycja do wiązania podwójnego; produkt: 1,2-dibromoetan.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego benzen nie odbarwia wody bromowej.",
+     "odpowiedz": "Elektrony π w benzenie są zdelokalizowane w trwałym układzie aromatycznym; benzen nie ulega łatwo addycji, a substytucja wymaga katalizatora (FeBr₃).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Aromatyczność → mechanizm → brak reakcji.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-organiczna-01",
+   "dzial": "organiczna"
+  },
+  {
+   "tytul": "Izomeria C₄H₈",
+   "material": "Tekst autorski. Wzór C₄H₈ odpowiada kilku izomerycznym węglowodorom, wśród nich alkenom i cykloalkanom.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Narysuj wzory półstrukturalne trzech izomerycznych alkenów o wzorze C₄H₈ i podaj ich nazwy.",
+     "odpowiedz": "CH₂=CH–CH₂–CH₃ (but-1-en); CH₃–CH=CH–CH₃ (but-2-en); CH₂=C(CH₃)–CH₃ (2-metylopropen)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Izomeria położenia i łańcuchowa.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż alken, który tworzy izomery cis–trans, i uzasadnij.",
+     "odpowiedz": "But-2-en — każdy atom węgla wiązania podwójnego ma dwa różne podstawniki (H i CH₃).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "But-1-en ma przy C1 dwa atomy H; 2-metylopropen ma przy C2 dwie grupy CH₃.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-organiczna-02",
+   "dzial": "organiczna"
+  },
+  {
+   "tytul": "Substytucja rodnikowa",
+   "material": "Tekst autorski. Propan poddano reakcji z chlorem w świetle. Otrzymano dwa monochloropochodne produkty.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwy obu monochloropochodnych.",
+     "odpowiedz": "1-chloropropan i 2-chloropropan",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Atom H może zostać zastąpiony przy węglu I- lub II-rzędowym.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, który etap mechanizmu wymaga światła, i opisz, co w nim zachodzi.",
+     "odpowiedz": "Inicjacja — cząsteczka Cl₂ pod wpływem światła rozpada się na dwa rodniki Cl•.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Homolityczny rozpad wiązania.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-organiczna-03",
+   "dzial": "organiczna"
+  }
+ ]
+}
