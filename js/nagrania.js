@@ -155,5 +155,17 @@ export const NAGRANIA_AUTO = {
   "min": 4,
   "czasy": "podcast/mp3/biologia-26-cykl.json",
   "pytania": "podcast/pytania/biologia-26-cykl.json"
+ },
+ "biologia/p/b-mitoza-mejoza": {
+  "plik": "podcast/mp3/biologia-27-mitoza-mejoza.mp3",
+  "min": 5,
+  "czasy": "podcast/mp3/biologia-27-mitoza-mejoza.json",
+  "pytania": "podcast/pytania/biologia-27-mitoza-mejoza.json"
+ },
+ "biologia/p/b-apoptoza": {
+  "plik": "podcast/mp3/biologia-28-apoptoza.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-28-apoptoza.json",
+  "pytania": "podcast/pytania/biologia-28-apoptoza.json"
  }
 };

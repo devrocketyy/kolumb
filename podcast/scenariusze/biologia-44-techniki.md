@@ -1,127 +1,96 @@
-# IndexLab · Biologia · Odcinek 44 · „Nożyczki, klej i kserokopiarka do DNA”
-Temat: Narzędzia i techniki inżynierii genetycznej
+# IndexLab · Biologia · Odcinek 44 · „Pomysł z górskiej drogi”
+Temat: Techniki inżynierii genetycznej
 Dział: Biotechnologia
-Długość: ok. 8 minut (ok. 970 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane. „PCR” czytamy: pe-ce-er. „CRISPR” czytamy: KRIS-per.
+Długość: ok. 6 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-44-techniki.json
+Uwaga dla lektora: „Mullis” — MA-lis. „restryktaza” — re-stryk-TA-za.
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Kalifornia, wiosna 1983 roku. Chemik Kary Mullis jedzie nocą samochodem krętą drogą przez góry. Jego dziewczyna śpi na siedzeniu obok. Mullis myśli o pracy: jak znaleźć i zbadać jeden konkretny fragment DNA w morzu miliardów innych.
+Kalifornia, wiosna 1983 roku. Chemik Kary Mullis jedzie nocą krętą drogą przez góry. Myśli o problemie: jak znaleźć jeden mały fragment DNA wśród miliardów innych?
+
+I nagle wpada na pomysł. A gdyby go nie szukać, tylko skopiować? Raz, potem kopie kopii, i tak dalej, aż będzie go miliony razy więcej niż reszty.
 
 [pauza]
 
-I nagle, gdzieś między zakrętami, wpada na pomysł. A gdyby nie szukać tego fragmentu, tylko go skopiować? Raz. A potem kopię i oryginał jeszcze raz. I jeszcze. Dwa, cztery, osiem, szesnaście. Po trzydziestu cyklach byłoby go ponad miliard razy więcej. Tyle, że dałoby się go zobaczyć gołym okiem.
-
-Mullis zatrzymuje samochód na poboczu i liczy. Dziesięć lat później dostaje Nagrodę Nobla. Jego pomysł nazywa się PCR. I to właśnie test PCR milionom ludzi wykrył koronawirusa z jednego wymazu z nosa.
+Dziesięć lat później Mullis dostał za ten pomysł Nagrodę Nobla. Metoda nazywa się PCR.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. Dziś narzędzia inżynierii genetycznej. Dowiesz się, jak naukowcy tną DNA, sklejają je, kopiują i czytają.
+Dzień dobry, tu IndexLab. Dziś narzędzia inżynierii genetycznej: enzymy restrykcyjne, wektory, PCR i elektroforeza.
 
-## Nożyczki: enzymy restrykcyjne
+## Nożyczki i klej
 
-Bakterie mają naturalny problem: atakują je wirusy, które wstrzykują do nich swoje DNA. Bakterie wynalazły na to obronę. Enzymy, które rozpoznają określoną, krótką sekwencję w DNA wirusa i tną je w tym miejscu. Nazywamy je enzymami restrykcyjnymi albo restryktazami.
+Bakterie bronią się przed wirusami enzymami restrykcyjnymi, czyli restryktazami. Tną one DNA w miejscach o określonej, krótkiej sekwencji.
 
-[wolniej] Każdy enzym restrykcyjny rozpoznaje swoją sekwencję, zwykle cztery do ośmiu nukleotydów. Często jest to palindrom, czyli sekwencja, która czytana na obu niciach od końca pięć prim brzmi tak samo. Na przykład enzym EcoR jeden rozpoznaje sekwencję G, A, A, T, T, C.
+Wiele restryktaz tnie ze schodkiem i zostawia lepkie końce. Jeśli DNA człowieka i plazmid potniesz tym samym enzymem, ich końce do siebie pasują. Ligaza trwale je skleja.
 
-Wiele restryktaz tnie nici nie dokładnie naprzeciw siebie, ale ze schodkiem. Na końcach powstają wtedy krótkie jednoniciowe odcinki, które nazywamy lepkimi końcami. Lepkie, bo mogą się połączyć z komplementarnymi lepkimi końcami innego DNA pociętego tym samym enzymem.
+## Wektor
 
-To jest klucz do całej inżynierii genetycznej. Potnij DNA człowieka i DNA bakterii tym samym enzymem, a ich końce będą do siebie pasować.
+Gen wprowadza się do komórki w wektorze. Najczęściej to plazmid, małe koliste DNA bakterii. Wektorami bywają też wirusy.
 
-## Klej: ligaza
+Plazmid zwykle niesie gen oporności na antybiotyk. Bakterie hoduje się na pożywce z antybiotykiem i przeżywają tylko te, które przyjęły plazmid.
 
-Lepkie końce łączą się wiązaniami wodorowymi między zasadami. Ale to słabe połączenie. Żeby je utrwalić, potrzebna jest ligaza, którą znasz z replikacji. Ligaza łączy szkielety cukrowo-fosforanowe obu fragmentów w jedną ciągłą nić.
+[pytanie: ten-sam-enzym]
 
-## Nośnik: wektor
-
-Jak wprowadzić wycięty gen do komórki bakterii? Trzeba go do czegoś wbudować. Do nośnika, który nazywamy wektorem.
-
-Najczęściej wektorem jest plazmid, małe koliste DNA bakterii. Naukowcy tną plazmid tym samym enzymem restrykcyjnym co gen, wklejają gen ligazą i wprowadzają tak zmieniony plazmid do bakterii. Plazmid ze wstawionym obcym genem nazywamy zrekombinowanym DNA.
-
-Wektorami mogą być też wirusy, które naturalnie wprowadzają swoje DNA do komórek. Wykorzystuje się je na przykład w terapii genowej.
-
-Skąd wiadomo, które bakterie przyjęły plazmid? Plazmidy zwykle niosą też gen oporności na antybiotyk. Bakterie hoduje się na pożywce z tym antybiotykiem. Przeżywają tylko te, które mają plazmid. To selekcja.
-
-## Kserokopiarka: PCR
-
-Wróćmy do Mullisa. PCR, czyli łańcuchowa reakcja polimerazy, to powielanie wybranego fragmentu DNA w probówce. Potrzebne są: DNA badane, dwa startery wyznaczające początek i koniec fragmentu, wszystkie cztery rodzaje deoksyrybonukleotydów i polimeraza DNA.
-
-Jeden cykl ma trzy etapy, a każdy w innej temperaturze.
-
-Denaturacja, w około dziewięćdziesięciu pięciu stopniach. Wysoka temperatura zrywa wiązania wodorowe i nici DNA się rozdzielają.
-
-Przyłączanie starterów, w około pięćdziesięciu do sześćdziesięciu pięciu stopniach. Startery przyłączają się do komplementarnych miejsc na pojedynczych niciach.
-
-Wydłużanie, w około siedemdziesięciu dwóch stopniach. Polimeraza dobudowuje nowe nici, zaczynając od starterów.
-
-Po każdym cyklu liczba kopii się podwaja. Po trzydziestu cyklach jest ich ponad miliard.
-
-[pauza]
-
-Jest tu jeden problem. W dziewięćdziesięciu pięciu stopniach zwykła polimeraza by się zdenaturowała. Rozwiązanie znaleziono w gorących źródłach w parku Yellowstone. Żyje tam bakteria, której enzymy wytrzymują taką temperaturę. Jej polimeraza, nazywana polimerazą Taq, przetrwa wszystkie cykle.
-
-[pauza]
-
-Zatrzymaj się. Dlaczego w PCR potrzebne są startery?
+Sprawdź się. Dlaczego gen i plazmid tnie się tym samym enzymem restrykcyjnym?
 
 [pauza, dłuższa]
 
-Bo polimeraza DNA nie potrafi zacząć syntezy od zera. Dołącza nukleotydy tylko do istniejącego końca trzy prim. Startery wyznaczają też, który fragment DNA zostanie powielony.
+[odpowiedź]
 
-To dokładnie pytanie z matury 2023.
+Bo wtedy powstają pasujące do siebie lepkie końce, które można połączyć ligazą.
 
-## Elektroforeza: sortowanie po długości
+[koniec odpowiedzi]
 
-Jak zobaczyć, co wyszło z PCR albo z cięcia enzymem? Używa się elektroforezy.
+## PCR
 
-Fragmenty DNA umieszcza się w studzienkach w żelu i przykłada prąd. DNA ma ładunek ujemny, więc wędruje w stronę bieguna dodatniego. Żel działa jak gęsty las: krótkie fragmenty przeciskają się szybko i zajdą daleko, długie wolno i zostaną blisko startu. Po wybarwieniu widać prążki.
+PCR to powielanie wybranego fragmentu DNA w probówce. Potrzebne są matryca DNA, dwa startery, nukleotydy i polimeraza odporna na wysoką temperaturę, pochodząca z bakterii z gorących źródeł.
 
-Elektroforeza służy do ustalania ojcostwa i w kryminalistyce. DNA każdego człowieka, pocięte albo powielone w odpowiednich miejscach, daje unikalny wzór prążków, tak zwany profil genetyczny. Dziecko ma każdy prążek albo od matki, albo od ojca.
+[wolniej] Każdy cykl ma trzy etapy. Denaturacja w około dziewięćdziesięciu pięciu stopniach rozdziela nici. Przyłączanie starterów w około pięćdziesięciu–sześćdziesięciu pięciu stopniach. Wydłużanie w około siedemdziesięciu dwóch stopniach, gdy polimeraza dobudowuje nowe nici.
 
-## Sekwencjonowanie i CRISPR
+Każdy cykl podwaja liczbę kopii. Po trzydziestu cyklach jest ich ponad miliard.
 
-Sekwencjonowanie to odczytanie dokładnej kolejności nukleotydów. W 2003 roku zakończono projekt poznania genomu człowieka, który trwał trzynaście lat. Dziś odczytanie genomu jednej osoby zajmuje dni.
+[pytanie: pcr]
 
-I najnowsze narzędzie: CRISPR. To również system obronny bakterii przed wirusami, przerobiony na precyzyjne nożyczki. Białko Cas dziewięć tnie DNA dokładnie w miejscu wskazanym przez krótki fragment RNA, który naukowcy mogą dowolnie zaprojektować. Pozwala to zmieniać pojedyncze litery w genach. Za opracowanie tej metody Emmanuelle Charpentier i Jennifer Doudna dostały w 2020 roku Nagrodę Nobla.
+Sprawdź się. Dlaczego w PCR używa się polimerazy z bakterii żyjących w gorących źródłach?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Bo wytrzymuje temperaturę denaturacji, około dziewięćdziesięciu pięciu stopni, i nie trzeba jej dodawać w każdym cyklu.
+
+[koniec odpowiedzi]
+
+## Elektroforeza
+
+Elektroforeza rozdziela fragmenty DNA według długości. DNA ma ładunek ujemny, więc w żelu w polu elektrycznym wędruje do bieguna dodatniego. Krótkie fragmenty przechodzą dalej, długie zostają bliżej startu.
+
+Tak powstaje profil DNA, czyli wzór prążków, używany w kryminalistyce i w testach ojcostwa. Każdy prążek dziecka musi pochodzić od matki albo od ojca.
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Etapy PCR z temperaturami i co się w nich dzieje. Rola enzymów restrykcyjnych, ligazy i wektora. Interpretacja wyników elektroforezy: które prążki to krótkie fragmenty, czy mężczyzna może być ojcem. I uzasadnienie, dlaczego do PCR używa się polimerazy z bakterii termofilnych.
+Etapy PCR i ich temperatury. Rola restryktaz, ligazy i wektora. Odczytanie żelu, na przykład w teście ojcostwa.
 
-## Na spokojnie
+[pytanie: elektroforeza]
 
-[muzyka, cicho]
+Ostatnie pytanie. Które fragmenty DNA w elektroforezie przechodzą najdalej i dlaczego?
 
-Podsumujmy. Enzymy restrykcyjne tną DNA w określonych sekwencjach, często zostawiając lepkie końce. Ligaza skleja fragmenty. Wektory, najczęściej plazmidy, wprowadzają gen do komórki. PCR powiela fragment DNA w cyklach: denaturacja, przyłączanie starterów, wydłużanie, z polimerazą odporną na wysoką temperaturę. Elektroforeza rozdziela fragmenty według długości: krótkie wędrują dalej. CRISPR pozwala precyzyjnie zmieniać geny.
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Najkrótsze, bo najłatwiej przeciskają się przez żel w stronę bieguna dodatniego.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: dlaczego DNA w elektroforezie wędruje w stronę bieguna dodatniego?
-
-[pauza, dłuższa]
-
-Bo ma ładunek ujemny, dzięki resztom fosforanowym w szkielecie.
-
-Drugie: dlaczego gen i plazmid tnie się tym samym enzymem restrykcyjnym?
-
-[pauza, dłuższa]
-
-Żeby powstały komplementarne lepkie końce, które się do siebie dopasują i dadzą się skleić ligazą.
-
-Trzecie: ile kopii fragmentu powstanie z jednej cząsteczki po dziesięciu cyklach PCR?
-
-[pauza, dłuższa]
-
-Tysiąc dwadzieścia cztery, czyli dwa do potęgi dziesiątej.
-
-[pauza]
-
-W następnym odcinku owca Dolly, rośliny z genami bakterii i komórki, które mogą stać się czymkolwiek. Do usłyszenia.
+W następnym odcinku owca z trzema matkami i organizmy zmodyfikowane genetycznie. Do usłyszenia.
 
 [muzyka, wyciszenie]
