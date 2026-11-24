@@ -107,6 +107,8 @@ self.addEventListener('fetch', (event) => {
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
+  // Nagrania podcastu: zostawiamy przeglądarce (strumieniowanie i przewijanie przez zapytania Range).
+  if (url.pathname.endsWith('.mp3')) return;
 
   if (req.mode === 'navigate') {
     event.respondWith(

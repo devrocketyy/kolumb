@@ -2584,9 +2584,133 @@ function viewPodcast() {
     ${dz.map(({ d, lista }) => `<section class="card"><h2 class="card-title">${esc(d.nazwa)}</h2><div class="pod-list">
       ${lista.map((o) => `<div class="pod-ep"><span class="pod-nr">${o.nr}</span>
         <span class="pod-t"><b>${esc(o.tytul)}</b><small>${o.typ === 'powtorka' ? 'powtórka działu' : 'temat'} · ${o.nagranie ? `${o.nagranie.min} min` : `ok. ${o.min} min`}</small>
-          ${o.nagranie ? `<audio controls preload="none" src="${esc(o.nagranie.plik)}"></audio>` : ''}</span>
+          ${o.nagranie ? `<a class="btn btn-primary btn-sm" href="#/podcast/${enc(o.klucz)}">${ICONS.play} Słuchaj${o.nagranie.pytania ? ' · z pytaniami' : ''}</a>` : ''}</span>
         ${o.nagranie ? '' : '<span class="pod-soon">wkrótce</span>'}</div>`).join('')}
     </div></section>`).join('')}`;
+}
+
+// ---------- odtwarzacz odcinka: tryb pasywny (słuchaj) i aktywny (zatrzymuje się na pytaniach) ----------
+const podTryb = { get: () => { try { return localStorage.getItem('il-pod-tryb') || 'aktywny'; } catch { return 'aktywny'; } },
+  set: (v) => { try { localStorage.setItem('il-pod-tryb', v); } catch { /* bez pamięci */ } } };
+let pod = null; // stan odtwarzacza
+
+async function viewOdcinek(klucz) {
+  const s = currentSubject();
+  const o = s && podcast.odcinki(s).flatMap((x) => x.lista).find((x) => x.klucz === klucz);
+  if (!o || !o.nagranie) return notFound();
+  const n = o.nagranie;
+  if (!pod || pod.klucz !== klucz) {
+    pod = { klucz, pytania: [], czasy: {}, wyniki: {}, quiz: false };
+    try {
+      const [p, c] = await Promise.all([n.pytania ? fetch(n.pytania).then((r) => r.json()) : null, n.czasy ? fetch(n.czasy).then((r) => r.json()) : null]);
+      pod.pytania = p?.pytania || [];
+      (c?.pytania || []).forEach((x) => { pod.czasy[x.id] = x; });
+    } catch { /* bez pytań odcinek nadal działa jako zwykłe nagranie */ }
+  }
+  const tryb = podTryb.get();
+  const ile = pod.pytania.length;
+  const dobre = Object.values(pod.wyniki).filter(Boolean).length;
+  app.innerHTML = `
+    ${pageHead(o.tytul, '#/podcast', `${s.nazwa} · odcinek ${o.nr}`)}
+    ${ile ? `<nav class="seg-tabs" aria-label="Tryb słuchania">
+      <a href="#" data-tryb="aktywny" class="${tryb === 'aktywny' ? 'active' : ''}">Ucz się · z pytaniami</a>
+      <a href="#" data-tryb="pasywny" class="${tryb === 'pasywny' ? 'active' : ''}">Słuchaj</a></nav>
+    <p class="muted small">${tryb === 'aktywny' ? `Nagranie zatrzyma się ${ile} razy na krótkie pytanie.` : 'Nagranie leci bez przerw — możesz zablokować ekran. Pytania sprawdzisz na końcu.'}</p>` : ''}
+    <section class="card pod-player">
+      <audio id="pod-audio" controls preload="metadata" src="${esc(n.plik)}"></audio>
+      <p class="muted small" id="pod-stan">${ile ? `Pytania: ${Object.keys(pod.wyniki).length}/${ile} · dobrze: ${dobre}` : ''}</p>
+    </section>
+    <div id="pod-karta"></div>
+    ${ile ? `<button type="button" class="btn btn-ghost btn-lg" id="pod-quiz">Sprawdź się: ${ile} pytań z odcinka</button>` : ''}`;
+  const audio = app.querySelector('#pod-audio');
+  const karta = app.querySelector('#pod-karta');
+  if (pod.czas) audio.currentTime = pod.czas;
+  app.querySelectorAll('[data-tryb]').forEach((a) => a.addEventListener('click', (ev) => { ev.preventDefault(); pod.czas = audio.currentTime; podTryb.set(a.dataset.tryb); viewOdcinek(klucz); }));
+  const stan = () => { const st = app.querySelector('#pod-stan'); if (st) st.textContent = `Pytania: ${Object.keys(pod.wyniki).length}/${ile} · dobrze: ${Object.values(pod.wyniki).filter(Boolean).length}`; };
+  const pokaz = (q, dalej) => {
+    karta.innerHTML = podKarta(q);
+    karta.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    bindPodKarta(karta, q, (ok) => {
+      if (!(q.id in pod.wyniki)) { pod.wyniki[q.id] = ok; game.award(ok ? 2 : 1, { poprawne: ok ? 1 : 0 }); }
+      stan(); updateTopStats();
+      karta.insertAdjacentHTML('beforeend', `<button type="button" class="btn btn-primary btn-lg" id="pod-dalej">${dalej}</button>`);
+      karta.querySelector('#pod-dalej').addEventListener('click', () => { karta.innerHTML = ''; onDalej(q); });
+    });
+  };
+  let onDalej = () => {};
+  if (tryb === 'aktywny' && ile) {
+    audio.addEventListener('timeupdate', () => {
+      const t = audio.currentTime;
+      const q = pod.pytania.find((x) => pod.czasy[x.id] && !(x.id in pod.wyniki) && t >= pod.czasy[x.id].czas && t < pod.czasy[x.id].czas + 3);
+      if (!q || karta.innerHTML) return;
+      audio.pause();
+      onDalej = (x) => { const c = pod.czasy[x.id]; if (c.odpowiedz_do) audio.currentTime = c.odpowiedz_do; audio.play(); };
+      pokaz(q, 'Słuchaj dalej');
+    });
+  }
+  audio.addEventListener('ended', () => { pod.czas = 0; if (ile && Object.keys(pod.wyniki).length < ile) toast('Koniec odcinka. Sprawdź się w pytaniach poniżej.'); });
+  audio.addEventListener('pause', () => { pod.czas = audio.currentTime; });
+  const quiz = app.querySelector('#pod-quiz');
+  quiz?.addEventListener('click', () => {
+    audio.pause();
+    const kolejne = pod.pytania.filter((x) => !(x.id in pod.wyniki));
+    const lista = kolejne.length ? kolejne : pod.pytania;
+    if (!kolejne.length) pod.wyniki = {};
+    let i = 0;
+    const nast = () => {
+      if (i >= lista.length) {
+        const d = Object.values(pod.wyniki).filter(Boolean).length;
+        karta.innerHTML = `<section class="card center"><h2>Wynik: ${d}/${ile}</h2><p class="muted">${d === ile ? 'Wszystko dobrze!' : 'Pomylone pytania warto przesłuchać jeszcze raz.'}</p></section>`;
+        game.sound('ok'); return;
+      }
+      onDalej = () => nast();
+      pokaz(lista[i++], i < lista.length ? 'Następne pytanie' : 'Zakończ');
+    };
+    nast();
+  });
+}
+
+function podKarta(q) {
+  if (q.typ === 'laczenie') {
+    const prawe = shuffle(q.pary.map((_, i) => i));
+    return `<section class="card exercise"><p class="ex-kind">Pytanie z odcinka · połącz w pary</p><h2 class="ex-prompt">${esc(q.polecenie)}</h2>
+      <div class="match"><div class="match-col">${q.pary.map((p, i) => `<button type="button" class="match-item" data-side="l" data-i="${i}">${esc(p[0])}</button>`).join('')}</div>
+      <div class="match-col">${prawe.map((i) => `<button type="button" class="match-item" data-side="r" data-i="${i}">${esc(q.pary[i][1])}</button>`).join('')}</div></div>
+      <div id="pod-wyj"></div></section>`;
+  }
+  const kol = shuffle(q.odpowiedzi.map((_, i) => i));
+  return `<section class="card exercise"><p class="ex-kind">Pytanie z odcinka</p><h2 class="ex-prompt">${esc(q.pytanie)}</h2>
+    <div class="options">${kol.map((oi, k) => `<button type="button" class="option" data-oi="${oi}"><span class="option-letter">${'ABCD'[k]}</span><span class="option-text">${esc(q.odpowiedzi[oi])}</span></button>`).join('')}</div>
+    <div id="pod-wyj"></div></section>`;
+}
+
+function bindPodKarta(el, q, done) {
+  const wyj = (ok) => { el.querySelector('#pod-wyj').innerHTML = `<p class="${ok ? '' : 'muted'}"><b>${ok ? 'Dobrze!' : 'Nie tym razem.'}</b> ${esc(q.wyjasnienie || '')}</p>`; done(ok); };
+  if (q.typ === 'laczenie') {
+    let left = null, zle = false, zostalo = q.pary.length;
+    el.querySelector('.match').addEventListener('click', (ev) => {
+      const b = ev.target.closest('.match-item');
+      if (!b || b.disabled) return;
+      if (b.dataset.side === 'l') { el.querySelectorAll('[data-side="l"]').forEach((x) => x.classList.toggle('selected', x === b)); left = b; game.sound('tap'); return; }
+      if (!left) return;
+      if (left.dataset.i === b.dataset.i) {
+        [left, b].forEach((x) => { x.classList.remove('selected'); x.classList.add('matched'); x.disabled = true; });
+        left = null; game.sound('match');
+        if (!--zostalo) wyj(!zle);
+      } else {
+        [left, b].forEach((x) => { x.classList.add('wrong-flash'); setTimeout(() => x.classList.remove('wrong-flash', 'selected'), 450); });
+        left = null; if (!zle) { zle = true; game.sound('bad'); }
+      }
+    });
+    return;
+  }
+  el.querySelectorAll('.option').forEach((b) => b.addEventListener('click', () => {
+    const ok = Number(b.dataset.oi) === q.poprawna;
+    el.querySelectorAll('.option').forEach((x) => { x.disabled = true; if (Number(x.dataset.oi) === q.poprawna) x.classList.add('correct'); });
+    if (!ok) b.classList.add('wrong');
+    game.sound(ok ? 'ok' : 'bad');
+    wyj(ok);
+  }));
 }
 
 // ---------- gra „Oś czasu”: ułóż wydarzenia od najstarszego ----------
@@ -3876,6 +4000,7 @@ const routes = [
   [/^#\/diagnoza$/, viewDiagnoza],
   [/^#\/prognoza$/, viewPrognoza],
   [/^#\/podcast$/, viewPodcast],
+  [/^#\/podcast\/(.+)$/, viewOdcinek],
   [/^#\/os-czasu$/, viewOsCzasu],
   [/^#\/plany(?:\/(ok))?$/, viewPlany],
   [/^#\/panel$/, viewPanel],

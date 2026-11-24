@@ -2,6 +2,7 @@
 // Gotowe nagrania dopisujemy tutaj: klucz = 'przedmiot/p/id-poddziału' albo 'przedmiot/d/id-działu',
 // wartość = ścieżka do pliku MP3 (np. w katalogu podcast/mp3/) i długość.
 export const NAGRANIA = {
+  'biologia/p/b-woda': { plik: 'podcast/mp3/biologia-06-woda.mp3', min: 13, pytania: 'podcast/pytania/biologia-06-woda.json', czasy: 'podcast/mp3/biologia-06-woda.json' },
   // 'wos/p/s-socjalizacja': { plik: 'podcast/mp3/wos-01-socjalizacja.mp3', min: 16 },
 };
 
