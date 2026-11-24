@@ -305,5 +305,23 @@ export const NAGRANIA_AUTO = {
   "min": 4,
   "czasy": "podcast/mp3/biologia-51-grzyby.json",
   "pytania": "podcast/pytania/biologia-51-grzyby.json"
+ },
+ "biologia/d/mikroorganizmy": {
+  "plik": "podcast/mp3/biologia-52-powtorka-mikroorganizmy.mp3",
+  "min": 3,
+  "czasy": "podcast/mp3/biologia-52-powtorka-mikroorganizmy.json",
+  "pytania": "podcast/pytania/biologia-52-powtorka-mikroorganizmy.json"
+ },
+ "biologia/p/b-przeglad-roslin": {
+  "plik": "podcast/mp3/biologia-53-przeglad-roslin.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-53-przeglad-roslin.json",
+  "pytania": "podcast/pytania/biologia-53-przeglad-roslin.json"
+ },
+ "biologia/p/b-tkanki-roslinne": {
+  "plik": "podcast/mp3/biologia-54-tkanki-roslinne.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-54-tkanki-roslinne.json",
+  "pytania": "podcast/pytania/biologia-54-tkanki-roslinne.json"
  }
 };
