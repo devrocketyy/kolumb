@@ -10,6 +10,66 @@
    "wymaganie": "IV.1–4",
    "fiszki": [
     {
+     "id": "f9f192873",
+     "przod": "Reakcja egzotermiczna",
+     "tyl": "ΔH < 0 — układ oddaje ciepło do otoczenia (spalanie, zobojętnianie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "fc6d0993d",
+     "przod": "Reakcja endotermiczna",
+     "tyl": "ΔH > 0 — układ pobiera ciepło (rozkład CaCO₃, fotosynteza, rozpuszczanie NH₄NO₃).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f3edcd5a7",
+     "przod": "Prawo Hessa",
+     "tyl": "Efekt cieplny zależy tylko od stanu początkowego i końcowego — można sumować równania i ich ΔH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f29ba176b",
+     "przod": "Przekształcanie równań w prawie Hessa",
+     "tyl": "Odwrócenie równania → zmiana znaku ΔH; pomnożenie przez liczbę → pomnożenie ΔH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f205d3705",
+     "przod": "Entalpia tworzenia",
+     "tyl": "ΔH powstania 1 mola związku z pierwiastków w stanie standardowym; dla pierwiastków = 0.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f9d397f8e",
+     "przod": "ΔH reakcji z entalpii tworzenia",
+     "tyl": "ΔH = ΣΔHf(produktów) − ΣΔHf(substratów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f225fb66d",
+     "przod": "ΔH z energii wiązań",
+     "tyl": "ΔH = ΣE(wiązań zerwanych) − ΣE(wiązań utworzonych).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f7db96bdd",
+     "przod": "Entalpia spalania",
+     "tyl": "ΔH spalenia 1 mola substancji do CO₂ i H₂O (zawsze ujemna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "fab3d2c52",
+     "przod": "Wykres energetyczny reakcji egzotermicznej",
+     "tyl": "Produkty niżej niż substraty; garb = energia aktywacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f164206d8",
+     "przod": "Pułapka w zadaniach z ciepłem",
+     "tyl": "Q dla podanej masy ≠ ΔH na mol — trzeba przeliczyć na liczbę moli.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
      "id": "f0999bb08",
      "przod": "Wyjaśnij pojęcie: układ i otoczenie",
      "tyl": "Układ — wyodrębniona część materii, którą badamy (np. reagenty w probówce); otoczenie — wszystko poza układem.",
@@ -52,12 +112,6 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
     },
     {
-     "id": "f3edcd5a7",
-     "przod": "Prawo Hessa",
-     "tyl": "Efekt cieplny reakcji zależy tylko od stanu początkowego i końcowego, a nie od drogi przemiany — można go obliczyć, sumując równania etapów.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
-    },
-    {
      "id": "f6e096a5f",
      "przod": "Jak korzystać z prawa Hessa?",
      "tyl": "Przekształcić podane równania (odwrócić — zmienić znak ΔH; pomnożyć przez liczbę — pomnożyć ΔH), aby ich suma dała szukaną reakcję; zsumować ΔH.",
@@ -82,12 +136,6 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
     },
     {
-     "id": "fab3d2c52",
-     "przod": "Wykres energetyczny reakcji egzotermicznej",
-     "tyl": "Produkty leżą niżej niż substraty; ΔH < 0; garb między nimi to energia aktywacji.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
-    },
-    {
      "id": "fdc9a3bbc",
      "przod": "Wyjaśnij pojęcie: kompleks aktywny (stan przejściowy)",
      "tyl": "Nietrwały układ atomów o najwyższej energii na drodze reakcji, w którym stare wiązania się rozrywają, a nowe tworzą.",
@@ -97,6 +145,48 @@
      "id": "f31857ae4",
      "przod": "Czy katalizator zmienia ΔH reakcji?",
      "tyl": "Nie. Katalizator obniża energię aktywacji, ale ΔH (różnica energii produktów i substratów) zostaje taka sama.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "fb54eb8ed",
+     "przod": "Rozpoznaj: ΔH < 0 — układ oddaje ciepło do otoczenia (spalanie, zobojętnianie).",
+     "tyl": "Reakcja egzotermiczna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f06ba3b56",
+     "przod": "Rozpoznaj: ΔH > 0 — układ pobiera ciepło (rozkład CaCO₃, fotosynteza, rozpuszczanie NH₄NO₃).",
+     "tyl": "Reakcja endotermiczna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "facfe8cb9",
+     "przod": "Rozpoznaj: Efekt cieplny zależy tylko od stanu początkowego i końcowego — można sumować równania i ich ΔH.",
+     "tyl": "Prawo Hessa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "fe34e8e13",
+     "przod": "Rozpoznaj: ΔH powstania 1 mola związku z pierwiastków w stanie standardowym; dla pierwiastków = 0.",
+     "tyl": "Entalpia tworzenia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "fb0c2de8e",
+     "przod": "Rozpoznaj: ΔH = ΣΔHf(produktów) − ΣΔHf(substratów).",
+     "tyl": "ΔH reakcji z entalpii tworzenia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f25f6e74a",
+     "przod": "Rozpoznaj: ΔH spalenia 1 mola substancji do CO₂ i H₂O (zawsze ujemna).",
+     "tyl": "Entalpia spalania",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f70b2eaa0",
+     "przod": "Rozpoznaj: Q dla podanej masy ≠ ΔH na mol — trzeba przeliczyć na liczbę moli.",
+     "tyl": "Pułapka w zadaniach z ciepłem",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
     },
     {
@@ -180,6 +270,72 @@
    "wymaganie": "IV.5–7",
    "fiszki": [
     {
+     "id": "f9f31b09b",
+     "przod": "Szybkość reakcji",
+     "tyl": "Zmiana stężenia w jednostce czasu: v = Δc/Δt (mol·dm⁻³·s⁻¹).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f9004d7aa",
+     "przod": "Czynniki zwiększające szybkość",
+     "tyl": "Wzrost stężenia, temperatury, rozdrobnienia (powierzchni), katalizator, mieszanie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "fa0fae3a3",
+     "przod": "Równanie kinetyczne",
+     "tyl": "v = k·[A]ᵃ·[B]ᵇ; wykładniki wyznacza się DOŚWIADCZALNIE (nie ze współczynników!).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f9e38b41a",
+     "przod": "Rząd reakcji",
+     "tyl": "Suma wykładników w równaniu kinetycznym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f24e9e7b6",
+     "przod": "Jak wyznaczyć rząd względem A?",
+     "tyl": "Porównać doświadczenia, w których zmienia się tylko [A]: podwojenie [A] → v × 2 (rząd 1), × 4 (rząd 2), bez zmian (rząd 0).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "fd1e24eb0",
+     "przod": "Jednostka stałej szybkości",
+     "tyl": "Rząd 1: s⁻¹; rząd 2: dm³·mol⁻¹·s⁻¹; rząd 3: dm⁶·mol⁻²·s⁻¹.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f6ed8677d",
+     "przod": "Energia aktywacji",
+     "tyl": "Minimalna energia, jaką muszą mieć zderzające się drobiny, aby zaszła reakcja.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "fe3569f60",
+     "przod": "Katalizator — działanie",
+     "tyl": "Obniża energię aktywacji (inna droga reakcji); nie zmienia ΔH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f6116b38c",
+     "przod": "Reguła van ’t Hoffa",
+     "tyl": "Wzrost temperatury o 10°C zwiększa szybkość reakcji 2–4 razy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f167713b7",
+     "przod": "Etap decydujący o szybkości",
+     "tyl": "Najwolniejszy etap mechanizmu (o najwyższej energii aktywacji).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f0ca1d409",
+     "przod": "Inhibitor",
+     "tyl": "Substancja spowalniająca reakcję (np. konserwanty, antyoksydanty).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
      "id": "f249d7970",
      "przod": "Wyjaśnij pojęcie: szybkość reakcji",
      "tyl": "Zmiana stężenia substratu (ubytek) lub produktu (przyrost) w jednostce czasu, np. v = Δc/Δt w mol·dm⁻³·s⁻¹.",
@@ -243,6 +399,36 @@
      "id": "f52978b08",
      "przod": "Wyjaśnij pojęcie: okres półtrwania reakcji",
      "tyl": "Czas, po którym stężenie substratu zmniejsza się o połowę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f0ead8872",
+     "przod": "Rozpoznaj: v = k·[A]ᵃ·[B]ᵇ; wykładniki wyznacza się DOŚWIADCZALNIE (nie ze współczynników!).",
+     "tyl": "Równanie kinetyczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f9d7e3a2c",
+     "przod": "Rozpoznaj: Suma wykładników w równaniu kinetycznym.",
+     "tyl": "Rząd reakcji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f60480643",
+     "przod": "Rozpoznaj: Rząd 1: s⁻¹; rząd 2: dm³·mol⁻¹·s⁻¹; rząd 3: dm⁶·mol⁻²·s⁻¹.",
+     "tyl": "Jednostka stałej szybkości",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f3edf93e9",
+     "przod": "Rozpoznaj: Wzrost temperatury o 10°C zwiększa szybkość reakcji 2–4 razy.",
+     "tyl": "Reguła van ’t Hoffa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f6a9a3c1a",
+     "przod": "Rozpoznaj: Substancja spowalniająca reakcję (np. konserwanty, antyoksydanty).",
+     "tyl": "Inhibitor",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
     },
     {
@@ -324,6 +510,72 @@
    "opis": "Wymaganie IV.8–11 podstawy programowej.",
    "wymaganie": "IV.8–11",
    "fiszki": [
+    {
+     "id": "f1d56dd58",
+     "przod": "Stan równowagi dynamicznej",
+     "tyl": "Szybkości reakcji w obu kierunkach są równe; stężenia się nie zmieniają (ale reakcje zachodzą).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "f2ff92fe0",
+     "przod": "Wyrażenie na stałą równowagi",
+     "tyl": "K = [produkty]^współczynniki / [substraty]^współczynniki; nie wpisujemy ciał stałych ani czystych cieczy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "fbd947065",
+     "przod": "Co zmienia wartość K?",
+     "tyl": "Tylko temperatura (nie stężenia, ciśnienie ani katalizator).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "ff439c2b2",
+     "przod": "Katalizator a równowaga",
+     "tyl": "Przyspiesza ustalenie równowagi, ale nie przesuwa jej i nie zmienia K ani wydajności.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "f1873ee5a",
+     "przod": "Reguła przekory (Le Chateliera)",
+     "tyl": "Układ przeciwdziała zmianie warunków: dodanie substratu → przesunięcie w prawo.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "f0d8549c9",
+     "przod": "Wpływ ciśnienia",
+     "tyl": "Wzrost ciśnienia przesuwa równowagę w stronę mniejszej liczby moli GAZÓW; brak wpływu, gdy Δn(gazów) = 0.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "ff946dd71",
+     "przod": "Wpływ temperatury",
+     "tyl": "Wzrost T przesuwa równowagę w stronę reakcji endotermicznej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "feff414b8",
+     "przod": "Iloraz reakcji Q",
+     "tyl": "Q < K — reakcja biegnie w prawo; Q > K — w lewo; Q = K — równowaga.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "fd4d2bfe4",
+     "przod": "Tabelka do zadań z K",
+     "tyl": "Wiersze: początek / zmiana (zgodnie ze współczynnikami!) / równowaga; stężenia = mole / objętość.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "f614ac62a",
+     "przod": "Synteza amoniaku — optymalne warunki",
+     "tyl": "Wysokie ciśnienie, umiarkowana temperatura (~450°C — kompromis szybkość/wydajność), katalizator Fe, usuwanie NH₃.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "ff4e7506a",
+     "przod": "Duże K (np. 10¹⁰)",
+     "tyl": "Równowaga silnie przesunięta w stronę produktów — reakcja praktycznie nieodwracalna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
     {
      "id": "f20c40bc9",
      "przod": "Wyjaśnij pojęcie: reakcja odwracalna",
@@ -412,6 +664,30 @@
      "id": "fb25aa968",
      "przod": "Synteza amoniaku N₂ + 3H₂ ⇄ 2NH₃, ΔH < 0 — warunki korzystne dla wydajności",
      "tyl": "Wysokie ciśnienie (mniej moli gazów po prawej), niska temperatura (reakcja egzotermiczna) i usuwanie NH₃; w praktyce umiarkowana temperatura i katalizator (Fe) dla szybkości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "f99887318",
+     "przod": "Rozpoznaj: Szybkości reakcji w obu kierunkach są równe; stężenia się nie zmieniają (ale reakcje zachodzą).",
+     "tyl": "Stan równowagi dynamicznej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "f76d3a9ff",
+     "przod": "Rozpoznaj: K = [produkty]^współczynniki / [substraty]^współczynniki; nie wpisujemy ciał stałych ani czystych cieczy.",
+     "tyl": "Wyrażenie na stałą równowagi",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "fbf7f43e7",
+     "przod": "Rozpoznaj: Układ przeciwdziała zmianie warunków: dodanie substratu → przesunięcie w prawo.",
+     "tyl": "Reguła przekory (Le Chateliera)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "fd0fa13d0",
+     "przod": "Rozpoznaj: Wiersze: początek / zmiana (zgodnie ze współczynnikami!) / równowaga; stężenia = mole / objętość.",
+     "tyl": "Tabelka do zadań z K",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
     },
     {

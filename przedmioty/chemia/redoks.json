@@ -454,6 +454,78 @@
    "wymaganie": "IX.1–5",
    "fiszki": [
     {
+     "id": "fb2cb3b18",
+     "przod": "Ogniwo galwaniczne — anoda",
+     "tyl": "Elektroda ujemna (−), zachodzi utlenianie; półogniwo o niższym potencjale.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f8bcbb93e",
+     "przod": "Ogniwo galwaniczne — katoda",
+     "tyl": "Elektroda dodatnia (+), zachodzi redukcja; półogniwo o wyższym potencjale.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "fbd5b1875",
+     "przod": "SEM ogniwa",
+     "tyl": "SEM = E(katody) − E(anody) > 0.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "fafb3131d",
+     "przod": "Zapis ogniwa (konwencja sztokholmska)",
+     "tyl": "(−) Zn | Zn²⁺ || Cu²⁺ | Cu (+); | — granica faz, || — klucz elektrolityczny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f135c9432",
+     "przod": "Klucz elektrolityczny — rola",
+     "tyl": "Zamyka obwód i wyrównuje ładunki (aniony płyną do anody, kationy do katody).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f0d9ff5dd",
+     "przod": "Standardowa elektroda wodorowa",
+     "tyl": "Pt | H₂ (1013 hPa) | H⁺ (1 mol/dm³); E° = 0,00 V z definicji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "fed8cf7f3",
+     "przod": "Równanie Nernsta (metal)",
+     "tyl": "E = E° + (0,059/n)·log[Mⁿ⁺] w 25°C.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "fc5f17e1c",
+     "przod": "Ogniwo stężeniowe",
+     "tyl": "Dwa takie same półogniwa o różnych stężeniach; anodą jest to o mniejszym stężeniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "fa7d81481",
+     "przod": "Ogniwo Daniella",
+     "tyl": "Zn | ZnSO₄ || CuSO₄ | Cu; SEM ≈ 1,10 V.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f41e9a002",
+     "przod": "Akumulator ołowiowy",
+     "tyl": "Pb (−), PbO₂ (+), H₂SO₄; przy rozładowaniu obie elektrody → PbSO₄, maleje stężenie kwasu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "ffe14855b",
+     "przod": "Ogniwo Leclanchégo (cynkowo-węglowe)",
+     "tyl": "Zn (−), MnO₂ z grafitem (+), elektrolit NH₄Cl — popularna bateria.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f71426e7a",
+     "przod": "Pułapka: masa elektrod w ogniwie Cu–Zn",
+     "tyl": "Masa cynkowej maleje (roztwarza się), masa miedzianej rośnie (osadza się Cu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
      "id": "fbabad793",
      "przod": "Wyjaśnij pojęcie: ogniwo galwaniczne",
      "tyl": "Układ dwóch półogniw, w którym energia reakcji redoks zamienia się w energię elektryczną; utlenianie i redukcja zachodzą w różnych miejscach.",
@@ -520,15 +592,51 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
     },
     {
-     "id": "fc5f17e1c",
-     "przod": "Ogniwo stężeniowe",
-     "tyl": "Dwa takie same półogniwa o różnych stężeniach jonów; katodą jest elektroda w roztworze o większym stężeniu.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
-    },
-    {
      "id": "fbb08a47c",
      "przod": "Akumulator ołowiowy — reakcje rozładowania",
      "tyl": "Anoda: Pb + SO₄²⁻ → PbSO₄ + 2e⁻; katoda: PbO₂ + 4H⁺ + SO₄²⁻ + 2e⁻ → PbSO₄ + 2H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f80e8c668",
+     "przod": "Rozpoznaj: SEM = E(katody) − E(anody) > 0.",
+     "tyl": "SEM ogniwa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "fc1bbbfe0",
+     "przod": "Rozpoznaj: (−) Zn | Zn²⁺ || Cu²⁺ | Cu (+); | — granica faz, || — klucz elektrolityczny.",
+     "tyl": "Zapis ogniwa (konwencja sztokholmska)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "fef53c406",
+     "przod": "Rozpoznaj: Pt | H₂ (1013 hPa) | H⁺ (1 mol/dm³); E° = 0,00 V z definicji.",
+     "tyl": "Standardowa elektroda wodorowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f7fa38693",
+     "przod": "Rozpoznaj: E = E° + (0,059/n)·log[Mⁿ⁺] w 25°C.",
+     "tyl": "Równanie Nernsta (metal)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f5c170408",
+     "przod": "Rozpoznaj: Zn | ZnSO₄ || CuSO₄ | Cu; SEM ≈ 1,10 V.",
+     "tyl": "Ogniwo Daniella",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f1242b93e",
+     "przod": "Rozpoznaj: Pb (−), PbO₂ (+), H₂SO₄; przy rozładowaniu obie elektrody → PbSO₄, maleje stężenie kwasu.",
+     "tyl": "Akumulator ołowiowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f16443bb0",
+     "przod": "Rozpoznaj: Zn (−), MnO₂ z grafitem (+), elektrolit NH₄Cl — popularna bateria.",
+     "tyl": "Ogniwo Leclanchégo (cynkowo-węglowe)",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
     },
     {
@@ -606,6 +714,72 @@
    "wymaganie": "IX.6–9",
    "fiszki": [
     {
+     "id": "f2c3a3697",
+     "przod": "Elektroliza — katoda",
+     "tyl": "Elektroda ujemna (−) — redukcja (odwrotnie niż w ogniwie!).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "fe176a2c6",
+     "przod": "Elektroliza — anoda",
+     "tyl": "Elektroda dodatnia (+) — utlenianie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f7943f2fe",
+     "przod": "Co wydziela się na katodzie (roztwór wodny)?",
+     "tyl": "Metale mniej aktywne niż wodór (Cu, Ag) się osadzają; dla Na⁺, K⁺, Mg²⁺, Al³⁺ — redukuje się woda (H₂).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f50953566",
+     "przod": "Co wydziela się na anodzie (elektroda obojętna)?",
+     "tyl": "Cl⁻, Br⁻, I⁻ → halogen; SO₄²⁻, NO₃⁻, F⁻ — utlenia się woda (O₂).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "fc8fd0079",
+     "przod": "Elektroliza roztworu NaCl",
+     "tyl": "Katoda: H₂; anoda: Cl₂; w roztworze powstaje NaOH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f1447da77",
+     "przod": "Elektroliza stopionego NaCl",
+     "tyl": "Katoda: Na; anoda: Cl₂ — przemysłowe otrzymywanie sodu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "fba8818fa",
+     "przod": "Elektroliza CuSO₄ z elektrodą miedzianą",
+     "tyl": "Anoda roztwarza się (Cu → Cu²⁺), na katodzie osadza się Cu — rafinacja miedzi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "ff345ac07",
+     "przod": "Prawo Faradaya",
+     "tyl": "m = M·I·t / (n·F); F = 96 500 C/mol elektronów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f11e4777d",
+     "przod": "Ładunek",
+     "tyl": "Q = I · t (A · s = C).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "fcc2caed9",
+     "przod": "Otrzymywanie glinu",
+     "tyl": "Elektroliza Al₂O₃ rozpuszczonego w stopionym kriolicie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "ffec65afc",
+     "przod": "Galwanizacja",
+     "tyl": "Pokrywanie przedmiotu (katoda) warstwą metalu z roztworu jego soli.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
      "id": "fee6028df",
      "przod": "Wyjaśnij pojęcie: elektroliza",
      "tyl": "Proces redoks wymuszony przepływem prądu stałego przez elektrolit (roztwór lub stop).",
@@ -615,12 +789,6 @@
      "id": "f04bcf388",
      "przod": "Katoda i anoda w elektrolizie",
      "tyl": "Katoda (−) — redukcja; anoda (+) — utlenianie. Znaki biegunów odwrotne niż w ogniwie, ale nazwy procesów te same.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
-    },
-    {
-     "id": "f1447da77",
-     "przod": "Elektroliza stopionego NaCl",
-     "tyl": "Katoda: Na⁺ + e⁻ → Na; anoda: 2Cl⁻ → Cl₂ + 2e⁻.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
     },
     {
@@ -675,6 +843,36 @@
      "id": "f5898db8a",
      "przod": "Dlaczego porysowana blacha ocynkowana nie rdzewieje, a pobielana (cynowana) rdzewieje szybciej?",
      "tyl": "Cynk jest aktywniejszy od żelaza i utlenia się zamiast niego; cyna jest mniej aktywna, więc w mikroogniwie anodą staje się żelazo.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f1c28d75b",
+     "przod": "Rozpoznaj: Katoda: Na; anoda: Cl₂ — przemysłowe otrzymywanie sodu.",
+     "tyl": "Elektroliza stopionego NaCl",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f4285ef6a",
+     "przod": "Rozpoznaj: m = M·I·t / (n·F); F = 96 500 C/mol elektronów.",
+     "tyl": "Prawo Faradaya",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f3cfc7bd6",
+     "przod": "Rozpoznaj: Q = I · t (A · s = C).",
+     "tyl": "Ładunek",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f106615f1",
+     "przod": "Rozpoznaj: Elektroliza Al₂O₃ rozpuszczonego w stopionym kriolicie.",
+     "tyl": "Otrzymywanie glinu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f6799a403",
+     "przod": "Rozpoznaj: Pokrywanie przedmiotu (katoda) warstwą metalu z roztworu jego soli.",
+     "tyl": "Galwanizacja",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
     },
     {
