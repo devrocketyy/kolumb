@@ -167,5 +167,23 @@ export const NAGRANIA_AUTO = {
   "min": 4,
   "czasy": "podcast/mp3/biologia-28-apoptoza.json",
   "pytania": "podcast/pytania/biologia-28-apoptoza.json"
+ },
+ "biologia/d/podzialy": {
+  "plik": "podcast/mp3/biologia-29-powtorka-podzialy.mp3",
+  "min": 3,
+  "czasy": "podcast/mp3/biologia-29-powtorka-podzialy.json",
+  "pytania": "podcast/pytania/biologia-29-powtorka-podzialy.json"
+ },
+ "biologia/p/b-gen": {
+  "plik": "podcast/mp3/biologia-30-gen.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-30-gen.json",
+  "pytania": "podcast/pytania/biologia-30-gen.json"
+ },
+ "biologia/p/b-transkrypcja": {
+  "plik": "podcast/mp3/biologia-31-transkrypcja.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-31-transkrypcja.json",
+  "pytania": "podcast/pytania/biologia-31-transkrypcja.json"
  }
 };

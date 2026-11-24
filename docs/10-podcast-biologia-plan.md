@@ -32,7 +32,7 @@
 - Wzór: `biologia-06-woda.md`.
 
 ### Stan przeróbki na format 2.0
-- ✅ 1–47 scenariusze i pytania; nagrania w trakcie
+- ✅ 1–52 scenariusze i pytania; nagrania w trakcie
 - ⬜ pozostałe odcinki — partiami, dział po dziale
 
 ## Dział 1. Umiejętności egzaminacyjne
