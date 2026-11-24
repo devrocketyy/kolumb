@@ -209,5 +209,35 @@ export const NAGRANIA_AUTO = {
   "min": 5,
   "czasy": "podcast/mp3/biologia-35-krzyzowki.json",
   "pytania": "podcast/pytania/biologia-35-krzyzowki.json"
+ },
+ "biologia/p/b-wspoldzialanie": {
+  "plik": "podcast/mp3/biologia-36-wspoldzialanie.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-36-wspoldzialanie.json",
+  "pytania": "podcast/pytania/biologia-36-wspoldzialanie.json"
+ },
+ "biologia/p/b-sprzezenia": {
+  "plik": "podcast/mp3/biologia-37-sprzezenia.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-37-sprzezenia.json",
+  "pytania": "podcast/pytania/biologia-37-sprzezenia.json"
+ },
+ "biologia/p/b-plec": {
+  "plik": "podcast/mp3/biologia-38-plec.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-38-plec.json",
+  "pytania": "podcast/pytania/biologia-38-plec.json"
+ },
+ "biologia/p/b-rodowody": {
+  "plik": "podcast/mp3/biologia-39-rodowody.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-39-rodowody.json",
+  "pytania": "podcast/pytania/biologia-39-rodowody.json"
+ },
+ "biologia/p/b-mutacje": {
+  "plik": "podcast/mp3/biologia-40-mutacje.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-40-mutacje.json",
+  "pytania": "podcast/pytania/biologia-40-mutacje.json"
  }
 };
