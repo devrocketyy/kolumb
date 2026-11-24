@@ -101,6 +101,51 @@
    "dzial": "redoks"
   },
   {
+   "tytul": "Utlenianie szczawianu",
+   "material": "Tekst autorski. Jony C₂O₄²⁻ utlenia się zakwaszonym KMnO₄ do CO₂.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz sumaryczne równanie jonowe.",
+     "odpowiedz": "2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Mn: 5e⁻ × 2; C₂O₄²⁻: 2e⁻ × 5.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego reakcja na początku jest wolna, a potem przyspiesza.",
+     "odpowiedz": "Powstające jony Mn²⁺ katalizują reakcję (autokataliza).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-05",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Elektroliza — porównanie",
+   "material": "Tekst autorski. Przez dwa połączone szeregowo elektrolizery z roztworami CuSO₄ i AgNO₃ przepłynął ten sam ładunek; wydzieliło się 2,16 g Ag.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę wydzielonej miedzi.",
+     "odpowiedz": "0,635 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(e⁻) = 0,02 → n(Cu) = 0,01 → 0,635 g.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-redoks-06",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Manganian(VII) potasu",
    "material": "Tekst autorski. Do zakwaszonego kwasem siarkowym(VI) roztworu siarczanu(VI) żelaza(II) wkraplano fioletowy roztwór KMnO₄. Roztwór manganianu odbarwiał się, a roztwór w probówce zmienił barwę z bladozielonej na żółtą.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -133,7 +178,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-05",
+   "id": "b-redoks-07",
    "dzial": "redoks"
   },
   {
@@ -178,7 +223,7 @@
      "nr": "4"
     }
    ],
-   "id": "b-redoks-06",
+   "id": "b-redoks-08",
    "dzial": "redoks"
   },
   {
@@ -214,7 +259,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-07",
+   "id": "b-redoks-09",
    "dzial": "redoks"
   },
   {
@@ -250,7 +295,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-08",
+   "id": "b-redoks-10",
    "dzial": "redoks"
   },
   {
@@ -286,7 +331,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-09",
+   "id": "b-redoks-11",
    "dzial": "redoks"
   },
   {
@@ -313,7 +358,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-10",
+   "id": "b-redoks-12",
    "dzial": "redoks"
   },
   {
@@ -340,7 +385,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-11",
+   "id": "b-redoks-13",
    "dzial": "redoks"
   },
   {
@@ -358,7 +403,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-12",
+   "id": "b-redoks-14",
    "dzial": "redoks"
   },
   {
@@ -385,7 +430,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-13",
+   "id": "b-redoks-15",
    "dzial": "redoks"
   },
   {
@@ -412,7 +457,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-14",
+   "id": "b-redoks-16",
    "dzial": "redoks"
   },
   {
@@ -430,7 +475,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-15",
+   "id": "b-redoks-17",
    "dzial": "redoks"
   },
   {
@@ -457,7 +502,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-16",
+   "id": "b-redoks-18",
    "dzial": "redoks"
   },
   {
@@ -484,7 +529,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-17",
+   "id": "b-redoks-19",
    "dzial": "redoks"
   },
   {
@@ -502,7 +547,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-18",
+   "id": "b-redoks-20",
    "dzial": "redoks"
   },
   {
@@ -520,7 +565,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-19",
+   "id": "b-redoks-21",
    "dzial": "redoks"
   }
  ]

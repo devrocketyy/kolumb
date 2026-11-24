@@ -20,6 +20,33 @@
    "dzial": "chemia-zycia"
   },
   {
+   "tytul": "Polimery biodegradowalne",
+   "material": "Tekst autorski. PLA otrzymuje się z kwasu mlekowego.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj typ polimeryzacji i produkt uboczny.",
+     "odpowiedz": "Polikondensacja; woda",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego PLA ulega biodegradacji, a polietylen nie.",
+     "odpowiedz": "PLA zawiera wiązania estrowe, które ulegają hydrolizie (także enzymatycznej); PE ma tylko wiązania C–C i C–H.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-chemia-zycia-02",
+   "dzial": "chemia-zycia"
+  },
+  {
    "tytul": "Kwaśne deszcze i zabytki",
    "material": "Tekst autorski. Na powierzchni marmurowych rzeźb w miastach tworzy się krucha warstwa gipsu (CaSO₄·2H₂O).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -43,7 +70,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-02",
+   "id": "b-chemia-zycia-03",
    "dzial": "chemia-zycia"
   },
   {
@@ -70,7 +97,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-03",
+   "id": "b-chemia-zycia-04",
    "dzial": "chemia-zycia"
   },
   {
@@ -97,7 +124,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-04",
+   "id": "b-chemia-zycia-05",
    "dzial": "chemia-zycia"
   },
   {
@@ -124,7 +151,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-05",
+   "id": "b-chemia-zycia-06",
    "dzial": "chemia-zycia"
   },
   {
@@ -142,7 +169,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-chemia-zycia-06",
+   "id": "b-chemia-zycia-07",
    "dzial": "chemia-zycia"
   }
  ]

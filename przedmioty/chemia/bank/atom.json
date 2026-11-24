@@ -29,6 +29,33 @@
    "dzial": "atom"
   },
   {
+   "tytul": "Konfiguracja a położenie w układzie",
+   "material": "Tekst autorski. Atom pierwiastka X ma konfigurację [Ar] 4s² 3d¹⁰ 4p³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj symbol, numer grupy, okresu i blok pierwiastka X.",
+     "odpowiedz": "As; grupa 15; okres 4; blok p",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wzór wodorku i najwyższego tlenku X.",
+     "odpowiedz": "AsH₃; As₂O₅ (As₄O₁₀)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Grupa 15: −III i +V.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-02",
+   "dzial": "atom"
+  },
+  {
    "tytul": "Izotopy boru",
    "material": "Tekst autorski. Bor występuje w przyrodzie w postaci dwóch trwałych izotopów: ¹⁰B i ¹¹B. Średnia masa atomowa boru wynosi 10,81 u.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -52,7 +79,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-02",
+   "id": "b-atom-03",
    "dzial": "atom"
   },
   {
@@ -88,7 +115,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-03",
+   "id": "b-atom-04",
    "dzial": "atom"
   },
   {
@@ -115,7 +142,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-04",
+   "id": "b-atom-05",
    "dzial": "atom"
   },
   {
@@ -142,7 +169,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-05",
+   "id": "b-atom-06",
    "dzial": "atom"
   },
   {
@@ -169,7 +196,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-06",
+   "id": "b-atom-07",
    "dzial": "atom"
   },
   {
@@ -196,7 +223,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-07",
+   "id": "b-atom-08",
    "dzial": "atom"
   },
   {
@@ -232,7 +259,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-08",
+   "id": "b-atom-09",
    "dzial": "atom"
   }
  ]

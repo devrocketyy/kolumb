@@ -173,6 +173,42 @@
    "dzial": "stechiometria"
   },
   {
+   "tytul": "Mieszanina gazów — średnia masa molowa",
+   "material": "Tekst autorski. Mieszanina N₂ i O₂ ma średnią masę molową 29 g/mol (powietrze uproszczone).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz ułamek molowy tlenu.",
+     "odpowiedz": "0,25",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: średnia ważona mas molowych. RACHUNEK: 28(1 − y) + 32y = 29 → 4y = 1 → y = 0,25. SPRAWDZENIE: 0,75 · 28 + 0,25 · 32 = 21 + 8 = 29.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-08",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Spalanie siarki w węglu",
+   "material": "Tekst autorski. Spalono 1 t węgla zawierającego 1,6% siarki.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę powstałego SO₂ (kg).",
+     "odpowiedz": "32 kg",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "S = 16 kg = 500 mol → SO₂ 500 · 64 g = 32 kg.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-09",
+   "dzial": "stechiometria"
+  },
+  {
    "tytul": "Mieszanina węglanów",
    "material": "Tekst autorski. Mieszaninę Na₂CO₃ i NaHCO₃ o masie 2,74 g roztworzono w nadmiarze kwasu solnego. Wydzieliło się 0,672 dm³ CO₂ (warunki normalne). M(Na₂CO₃) = 106 g/mol, M(NaHCO₃) = 84 g/mol.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -196,7 +232,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-08",
+   "id": "b-stechiometria-10",
    "dzial": "stechiometria"
   },
   {
@@ -223,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-09",
+   "id": "b-stechiometria-11",
    "dzial": "stechiometria"
   },
   {
@@ -250,7 +286,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-10",
+   "id": "b-stechiometria-12",
    "dzial": "stechiometria"
   },
   {
@@ -268,7 +304,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-11",
+   "id": "b-stechiometria-13",
    "dzial": "stechiometria"
   },
   {
@@ -286,7 +322,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-12",
+   "id": "b-stechiometria-14",
    "dzial": "stechiometria"
   },
   {
@@ -304,7 +340,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-13",
+   "id": "b-stechiometria-15",
    "dzial": "stechiometria"
   },
   {
@@ -322,7 +358,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-14",
+   "id": "b-stechiometria-16",
    "dzial": "stechiometria"
   },
   {
@@ -349,7 +385,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-15",
+   "id": "b-stechiometria-17",
    "dzial": "stechiometria"
   },
   {
@@ -367,7 +403,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-16",
+   "id": "b-stechiometria-18",
    "dzial": "stechiometria"
   },
   {
@@ -385,7 +421,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-17",
+   "id": "b-stechiometria-19",
    "dzial": "stechiometria"
   },
   {
@@ -403,7 +439,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-18",
+   "id": "b-stechiometria-20",
    "dzial": "stechiometria"
   },
   {
@@ -421,7 +457,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-19",
+   "id": "b-stechiometria-21",
    "dzial": "stechiometria"
   },
   {
@@ -439,7 +475,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-20",
+   "id": "b-stechiometria-22",
    "dzial": "stechiometria"
   },
   {
@@ -466,7 +502,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-21",
+   "id": "b-stechiometria-23",
    "dzial": "stechiometria"
   }
  ]

@@ -83,6 +83,42 @@
    "dzial": "kinetyka"
   },
   {
+   "tytul": "Stała równowagi — kierunek reakcji",
+   "material": "Tekst autorski. Dla A + B ⇄ C, K = 10. W pewnej chwili [A] = [B] = 0,5, [C] = 1,0 mol·dm⁻³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 2,
+     "polecenie": "Rozstrzygnij, w którą stronę biegnie reakcja. Uzasadnij obliczeniem.",
+     "odpowiedz": "W prawo — Q = 1,0/(0,5·0,5) = 4 < K = 10.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Porównanie Q i K.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-kinetyka-05",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Wpływ katalizatora na wykres",
+   "material": "Tekst autorski. Reakcję prowadzono z katalizatorem i bez.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj, które wielkości się zmienią: Ea, ΔH, K, szybkość.",
+     "odpowiedz": "Zmieni się Ea (zmaleje) i szybkość (wzrośnie); ΔH i K — bez zmian.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    }
+   ],
+   "id": "b-kinetyka-06",
+   "dzial": "kinetyka"
+  },
+  {
    "tytul": "Prawo Hessa",
    "material": "Tekst autorski. Dane: (1) C(grafit) + O₂ → CO₂, ΔH₁ = −394 kJ; (2) CO + ½O₂ → CO₂, ΔH₂ = −283 kJ.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -106,7 +142,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-05",
+   "id": "b-kinetyka-07",
    "dzial": "kinetyka"
   },
   {
@@ -142,7 +178,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-06",
+   "id": "b-kinetyka-08",
    "dzial": "kinetyka"
   },
   {
@@ -169,7 +205,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-07",
+   "id": "b-kinetyka-09",
    "dzial": "kinetyka"
   },
   {
@@ -205,7 +241,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-08",
+   "id": "b-kinetyka-10",
    "dzial": "kinetyka"
   },
   {
@@ -232,7 +268,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-09",
+   "id": "b-kinetyka-11",
    "dzial": "kinetyka"
   },
   {
@@ -259,7 +295,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-10",
+   "id": "b-kinetyka-12",
    "dzial": "kinetyka"
   },
   {
@@ -286,7 +322,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-11",
+   "id": "b-kinetyka-13",
    "dzial": "kinetyka"
   },
   {
@@ -313,7 +349,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-12",
+   "id": "b-kinetyka-14",
    "dzial": "kinetyka"
   },
   {
@@ -340,7 +376,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-13",
+   "id": "b-kinetyka-15",
    "dzial": "kinetyka"
   },
   {
@@ -376,7 +412,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-14",
+   "id": "b-kinetyka-16",
    "dzial": "kinetyka"
   },
   {
@@ -403,7 +439,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-15",
+   "id": "b-kinetyka-17",
    "dzial": "kinetyka"
   },
   {
@@ -430,7 +466,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-16",
+   "id": "b-kinetyka-18",
    "dzial": "kinetyka"
   },
   {
@@ -448,7 +484,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-17",
+   "id": "b-kinetyka-19",
    "dzial": "kinetyka"
   },
   {
@@ -466,7 +502,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-18",
+   "id": "b-kinetyka-20",
    "dzial": "kinetyka"
   }
  ]
