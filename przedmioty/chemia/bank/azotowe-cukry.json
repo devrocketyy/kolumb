@@ -128,6 +128,51 @@
    "dzial": "azotowe-cukry"
   },
   {
+   "tytul": "Hydroliza dipeptydu — masa",
+   "material": "Tekst autorski. Zhydrolizowano 14,6 g dipeptydu Gly-Ala (M = 146 g/mol).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz łączną masę otrzymanych aminokwasów.",
+     "odpowiedz": "16,4 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "0,1 mol + 0,1 mol H₂O → 7,5 g Gly + 8,9 g Ala.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-azotowe-cukry-08",
+   "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Szereg D i L",
+   "material": "Tekst autorski. Aldehyd glicerynowy jest najprostszym cukrem chiralnym.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, od czego zależy przynależność cukru do szeregu D lub L.",
+     "odpowiedz": "Od położenia –OH przy asymetrycznym atomie C najdalszym od grupy karbonylowej (w projekcji Fischera: prawo — D).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy D-cukry zawsze są prawoskrętne.",
+     "odpowiedz": "Nie — konfiguracja D/L nie określa kierunku skręcania światła (np. D-fruktoza jest lewoskrętna).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-azotowe-cukry-09",
+   "dzial": "azotowe-cukry"
+  },
+  {
    "tytul": "Glicyna i alanina",
    "material": "Tekst autorski. Glicyna (H₂N–CH₂–COOH) i alanina (H₂N–CH(CH₃)–COOH) to najprostsze aminokwasy białkowe.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -160,7 +205,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-azotowe-cukry-08",
+   "id": "b-azotowe-cukry-10",
    "dzial": "azotowe-cukry"
   },
   {
@@ -187,7 +232,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-09",
+   "id": "b-azotowe-cukry-11",
    "dzial": "azotowe-cukry"
   },
   {
@@ -214,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-10",
+   "id": "b-azotowe-cukry-12",
    "dzial": "azotowe-cukry"
   },
   {
@@ -241,7 +286,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-11",
+   "id": "b-azotowe-cukry-13",
    "dzial": "azotowe-cukry"
   },
   {
@@ -268,7 +313,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-12",
+   "id": "b-azotowe-cukry-14",
    "dzial": "azotowe-cukry"
   },
   {
@@ -295,7 +340,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-13",
+   "id": "b-azotowe-cukry-15",
    "dzial": "azotowe-cukry"
   },
   {
@@ -322,7 +367,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-14",
+   "id": "b-azotowe-cukry-16",
    "dzial": "azotowe-cukry"
   },
   {
@@ -349,7 +394,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-15",
+   "id": "b-azotowe-cukry-17",
    "dzial": "azotowe-cukry"
   },
   {
@@ -376,7 +421,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-16",
+   "id": "b-azotowe-cukry-18",
    "dzial": "azotowe-cukry"
   },
   {
@@ -394,7 +439,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-17",
+   "id": "b-azotowe-cukry-19",
    "dzial": "azotowe-cukry"
   },
   {
@@ -421,7 +466,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-18",
+   "id": "b-azotowe-cukry-20",
    "dzial": "azotowe-cukry"
   },
   {
@@ -439,7 +484,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-19",
+   "id": "b-azotowe-cukry-21",
    "dzial": "azotowe-cukry"
   },
   {
@@ -457,7 +502,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-20",
+   "id": "b-azotowe-cukry-22",
    "dzial": "azotowe-cukry"
   }
  ]

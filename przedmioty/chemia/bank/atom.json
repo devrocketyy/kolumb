@@ -56,6 +56,33 @@
    "dzial": "atom"
   },
   {
+   "tytul": "Liczby kwantowe",
+   "material": "Tekst autorski. Elektron opisują liczby: n = 3, l = 2, m = −1.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj symbol podpowłoki.",
+     "odpowiedz": "3d",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj maksymalną liczbę elektronów o n = 3.",
+     "odpowiedz": "18",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2n².",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-03",
+   "dzial": "atom"
+  },
+  {
    "tytul": "Izotopy boru",
    "material": "Tekst autorski. Bor występuje w przyrodzie w postaci dwóch trwałych izotopów: ¹⁰B i ¹¹B. Średnia masa atomowa boru wynosi 10,81 u.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -79,7 +106,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-03",
+   "id": "b-atom-04",
    "dzial": "atom"
   },
   {
@@ -115,7 +142,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-04",
+   "id": "b-atom-05",
    "dzial": "atom"
   },
   {
@@ -142,7 +169,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-05",
+   "id": "b-atom-06",
    "dzial": "atom"
   },
   {
@@ -169,7 +196,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-06",
+   "id": "b-atom-07",
    "dzial": "atom"
   },
   {
@@ -196,7 +223,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-07",
+   "id": "b-atom-08",
    "dzial": "atom"
   },
   {
@@ -223,7 +250,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-08",
+   "id": "b-atom-09",
    "dzial": "atom"
   },
   {
@@ -259,7 +286,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-09",
+   "id": "b-atom-10",
    "dzial": "atom"
   }
  ]
