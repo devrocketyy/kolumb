@@ -1,176 +1,134 @@
 # IndexLab · Biologia · Odcinek 11 · Powtórka działu „Śniadanie pod mikroskopem”
 Dział: Biochemia (odcinki 6–10)
-Długość: ok. 10 minut (ok. 1220 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane.
+Długość: ok. 8 minut (format 2.0, powtórka z pytań), jeden narrator.
+Pytania: podcast/pytania/biologia-11-powtorka-biochemia.json
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Siódma rano. Kuchnia. Na talerzu dwie kromki pełnoziarnistego chleba z masłem, jajko na miękko, plasterek sera, pół jabłka. Do tego szklanka mleka.
+Zwykły poranek. Na talerzu dwie kromki chleba z masłem, jajko na miękko i plaster pomidora. Obok szklanka mleka i łyżeczka cukru do herbaty.
 
-[pauza]
-
-Zwykłe śniadanie. Ale jeśli spojrzeć na nie oczami biochemika, na tym talerzu leży cały dział, który właśnie skończyliśmy. Woda, pierwiastki, cukry, białka, tłuszcze i kwasy nukleinowe. Wszystko w jednym posiłku.
-
-Dziś zjemy je razem, kęs po kęsie. A przy każdym kęsie przypomnisz sobie, co już wiesz.
+Wygląda na zwykłe śniadanie. Ale dla biologa to cały dział biochemii na jednym talerzu. Rozłożymy je na części. Przy każdym produkcie pytanie.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. To powtórka działu biochemia. Jak zwykle proponuję: kiedy usłyszysz pytanie, zatrzymaj nagranie i spróbuj odpowiedzieć sam.
+Dzień dobry, tu IndexLab. To powtórka działu biochemii.
 
-## Kęs pierwszy: szklanka mleka
+## Szklanka wody
 
-Mleko to w prawie dziewięćdziesięciu procentach woda. Zacznijmy więc od niej.
+Zacznijmy od herbaty, czyli od wody. Wrzucasz łyżeczkę cukru i po chwili znika.
 
-Pytanie: dlaczego woda jest cząsteczką polarną i co z tego wynika?
+[pytanie: rozpuszczanie]
 
-[pauza, dłuższa]
-
-Tlen silniej przyciąga elektrony niż wodór, więc przy tlenie powstaje cząstkowy ładunek ujemny, a przy wodorach dodatni. Cząsteczka jest zgięta, więc jest dipolem. Cząsteczki przyciągają się wiązaniami wodorowymi. Z tego wynikają trzy rodziny właściwości. Woda i ciepło: duże ciepło właściwe i ciepło parowania, lód lżejszy od wody. Woda, która się trzyma: spójność, przyleganie, napięcie powierzchniowe. Woda, która rozpuszcza: jony i związki polarne.
-
-W mleku jest też wapń. Pytanie: jakie dwie funkcje pełni wapń w organizmie człowieka?
+Sprawdź się. Dlaczego woda tak dobrze rozpuszcza cukier i sól?
 
 [pauza, dłuższa]
 
-Buduje kości i zęby, w postaci fosforanów wapnia. A jony wapnia uruchamiają skurcz mięśni i biorą udział w krzepnięciu krwi. I pamiętaj: wapń to makroelement, bo jest go w organizmie dużo, a nie dlatego, że jest ważniejszy od żelaza.
+[odpowiedź]
 
-## Kęs drugi: chleb
+Bo jest polarna. Jej cząsteczki otaczają jony i cząsteczki polarne, odrywając je od siebie.
 
-Chleb to przede wszystkim skrobia. Pytanie: z jakiego cukru prostego zbudowana jest skrobia i dlaczego tworzy spiralę?
+[koniec odpowiedzi]
 
-[pauza, dłuższa]
+## Chleb
 
-Z alfa-glukozy, tej z ręką w dół. Wszystkie wiązania są skierowane w tę samą stronę, więc łańcuch amylozy zwija się w spiralę. To w tę spiralę wchodzi jod z płynu Lugola, dając granatowe zabarwienie.
+Chleb to głównie skrobia z ziaren pszenicy. Kiedy długo go przeżuwasz, zaczyna smakować słodko.
 
-Chleb jest pełnoziarnisty, więc ma też dużo błonnika, czyli celulozy. Pytanie: dlaczego nie trawimy celulozy?
+[pytanie: chleb]
 
-[pauza, dłuższa]
-
-Bo celuloza zbudowana jest z beta-glukozy, a nasze amylazy pasują tylko do wiązań między alfa-glukozami. Łańcuch celulozy jest prosty, kolejne cząsteczki są odwrócone względem siebie, a żaden nasz enzym nie rozpoznaje tego wiązania.
-
-Kiedy długo przeżuwasz chleb, robi się słodki. Pytanie: co się wtedy dzieje?
+Sprawdź się. Dlaczego długo przeżuwany chleb robi się słodki?
 
 [pauza, dłuższa]
 
-Amylaza ślinowa hydrolizuje skrobię do maltozy, dwucukru złożonego z dwóch glukoz. Maltoza jest słodka. I jest cukrem redukującym, więc dałaby pozytywną próbę Trommera.
+[odpowiedź]
 
-## Kęs trzeci: pół jabłka
+Bo amylaza ze śliny rozkłada skrobię na maltozę, a maltoza jest słodka.
 
-Jabłko jest słodkie dzięki fruktozie i sacharozie. Pytanie: dlaczego sacharoza nie daje pozytywnej próby Trommera, a fruktoza daje?
+[koniec odpowiedzi]
 
-[pauza, dłuższa]
+[pytanie: skrobia-celuloza]
 
-Bo w sacharozie glukoza i fruktoza są połączone tymi grupami, które mogłyby redukować jony miedzi. Obie grupy są zajęte w wiązaniu glikozydowym. Fruktoza jako cukier prosty ma wolną grupę i redukuje.
-
-Jabłko chrupie, bo jego komórki mają ściany komórkowe z celulozy i są w stanie turgoru. A turgor to znowu woda: wakuole wypełnione wodą dociskają zawartość komórek do ścian. Zwiędłe jabłko traci wodę i turgor, dlatego robi się miękkie.
-
-## Kęs czwarty: jajko
-
-Białko jaja kurzego to głównie woda i białka. Pytanie: jakie są cztery poziomy struktury białka i co utrzymuje każdy z nich?
+Sprawdź się. Skrobia i celuloza są zbudowane z glukozy. Dlaczego skrobię trawisz, a celulozy nie?
 
 [pauza, dłuższa]
 
-Pierwszorzędowa to sekwencja aminokwasów, utrzymywana wiązaniami peptydowymi. Drugorzędowa to helisy alfa i harmonijki beta, utrzymywane wiązaniami wodorowymi szkieletu. Trzeciorzędowa to kształt całego łańcucha, utrzymywany oddziaływaniami reszt R: wiązaniami wodorowymi, jonowymi, hydrofobowymi i mostkami disiarczkowymi. Czwartorzędowa to połączenie kilku łańcuchów.
+[odpowiedź]
 
-Jajko jest na miękko, więc białko jest już ścięte. Pytanie: co stało się z białkami podczas gotowania i czy struktura pierwszorzędowa przetrwała?
+Skrobia jest z alfa-glukozy, a celuloza z beta-glukozy. Nasze enzymy pasują tylko do wiązań między alfa-glukozami.
 
-[pauza, dłuższa]
+[koniec odpowiedzi]
 
-Zaszła denaturacja. Wysoka temperatura rozerwała słabe oddziaływania, białka straciły strukturę przestrzenną i zlepiły się. Struktura pierwszorzędowa przetrwała, bo wiązania peptydowe są silne. Ale kształt i funkcja przepadły bezpowrotnie.
+## Mleko i cukier
 
-[pauza]
+W mleku jest laktoza, a w cukiernicy sacharoza.
 
-Dodaj do tego jedną rzecz, którą warto mieć w głowie na maturze. Gdyby w zadaniu pojawiła się probówka z białkiem, do której dodano sól kuchenną, a białko się wytrąciło, a potem po rozcieńczeniu rozpuściło, to nie była denaturacja. To wysalanie, proces odwracalny.
+[pytanie: dwucukry]
 
-## Kęs piąty: masło i ser
-
-Masło to tłuszcz zwierzęcy. Pytanie: dlaczego masło w lodówce jest twarde, a olej w tej samej lodówce płynny?
+Sprawdź się. Z jakich cukrów prostych zbudowane są laktoza i sacharoza?
 
 [pauza, dłuższa]
 
-Masło zawiera dużo nasyconych kwasów tłuszczowych, których proste łańcuchy ciasno się układają. Olej zawiera głównie nienasycone, z wiązaniami podwójnymi, które zaginają łańcuchy i nie pozwalają im się ciasno ułożyć.
+[odpowiedź]
 
-Pytanie dodatkowe: dlaczego organizm magazynuje energię głównie w postaci tłuszczu?
+Laktoza z glukozy i galaktozy. Sacharoza z glukozy i fruktozy.
 
-[pauza, dłuższa]
+[koniec odpowiedzi]
 
-Bo z grama tłuszczu jest ponad dwa razy więcej energii niż z grama cukru, a tłuszcz magazynuje się bez wody. Przy spalaniu tłuszczu powstaje też dużo wody metabolicznej, z której korzystają na przykład wielbłądy i szczuroskoczki.
+## Masło
 
-Żółtko jajka i ser zawierają cholesterol. Pytanie: do czego organizm potrzebuje cholesterolu?
+Masło jest stałe w lodówce, a oliwa obok w butelce jest płynna.
 
-[pauza, dłuższa]
+[pytanie: maslo]
 
-Jest składnikiem błon komórek zwierzęcych i reguluje ich płynność. Jest surowcem do produkcji hormonów steroidowych, czyli płciowych i kory nadnerczy, do witaminy D i do kwasów żółciowych.
-
-A w żółtku są też fosfolipidy, na przykład lecytyna. Pytanie: dlaczego fosfolipidy tworzą w wodzie dwuwarstwę?
+Sprawdź się. Jakie kwasy tłuszczowe przeważają w maśle i dlaczego jest stałe?
 
 [pauza, dłuższa]
 
-Bo mają hydrofilową głowę z resztą fosforanową i dwa hydrofobowe ogony z kwasów tłuszczowych. Ogony chowają się przed wodą do środka, głowy zwracają się do wody. Tak powstaje błona.
+[odpowiedź]
 
-## Kęs szósty: wszystko naraz
+Nasycone. Mają proste łańcuchy, które ciasno się układają.
 
-Ostatni kęs jest podchwytliwy. Na całym talerzu, w każdej komórce chleba, jabłka i jajka, jest jeszcze jeden rodzaj związku. Jaki?
+[koniec odpowiedzi]
 
-[pauza, dłuższa]
+## Jajko
 
-Kwasy nukleinowe. Każda komórka zboża, każda komórka jabłka ma swoje DNA i RNA. Zjadasz je codziennie.
+Jajko na miękko: żółtko płynne, białko ścięte.
 
-Pytanie: wymień trzy różnice między DNA a RNA.
+[pytanie: jajko]
 
-[pauza, dłuższa]
-
-Cukier: w DNA deoksyryboza, w RNA ryboza. Zasada: w DNA tymina, w RNA uracyl. Budowa: DNA to zwykle dwie nici, RNA zwykle jedna.
-
-I zadanie obliczeniowe. W DNA jabłka jest dwadzieścia osiem procent tyminy. Ile jest cytozyny?
+Sprawdź się. Co stało się z białkiem jajka podczas gotowania i czy wiązania peptydowe zostały zniszczone?
 
 [pauza, dłuższa]
 
-Tyminy dwadzieścia osiem, więc adeniny też dwadzieścia osiem. Razem pięćdziesiąt sześć. Zostaje czterdzieści cztery procent na guaninę i cytozynę, po równo. Cytozyny jest dwadzieścia dwa procent.
+[odpowiedź]
 
-## Jak to się łączy
+Białko uległo denaturacji, czyli straciło strukturę przestrzenną. Wiązania peptydowe zostały, więc sekwencja aminokwasów jest ta sama.
 
-[muzyka, krótko]
+[koniec odpowiedzi]
 
-Zauważ jedną rzecz, która przewijała się przez cały dział. Duże cząsteczki biologiczne powstają z małych w tym samym typie reakcji. Glukozy łączą się w skrobię, aminokwasy w białko, glicerol z kwasami tłuszczowymi w tłuszcz, nukleotydy w DNA. Za każdym razem przy połączeniu odłącza się cząsteczka wody. To kondensacja.
+## Pomidor
 
-A rozkład w trawieniu zawsze wymaga wody. Hydroliza. Skrobia do maltozy i glukozy, białka do aminokwasów, tłuszcze do glicerolu i kwasów tłuszczowych.
+W każdej komórce pomidora jest DNA. Gdyby zbadać jego skład i znaleźć trzydzieści procent adeniny…
 
-[wolniej] Kondensacja buduje, hydroliza rozkłada. Jeśli to zapamiętasz, zrozumiesz połowę metabolizmu, zanim do niego dojdziemy.
+[pytanie: pomidor]
 
-I druga rzecz. W każdej z tych grup budowa decyduje o funkcji. Spirala skrobi jest dobra do magazynowania, prosta celuloza do budowania. Kształt białka decyduje o działaniu enzymu. Dwie części fosfolipidu budują błonę. Komplementarne zasady DNA pozwalają je kopiować. Na maturze polecenie „wykaż związek budowy z funkcją” to najczęstsze pytanie z biochemii.
+Sprawdź się. Ile procent cytozyny jest w tym DNA?
 
-## Co sprawdzić przed maturą
+[pauza, dłuższa]
 
-Przypomnę cztery próby wykrywania, bo często pojawiają się w doświadczeniach. Płyn Lugola: skrobia, granatowo. Próba Trommera: cukry redukujące, ceglastoczerwony osad. Próba biuretowa: białka, fioletowo. Sudan trzeci: tłuszcze, pomarańczowo-czerwono.
+[odpowiedź]
 
-## Na spokojnie
+Dwadzieścia. Adenina i tymina to razem sześćdziesiąt, zostaje czterdzieści na guaninę i cytozynę, po dwadzieścia.
+
+[koniec odpowiedzi]
+
+## Na koniec
 
 [muzyka, cicho]
 
-Trzy ostatnie pytania, tym razem łączące różne odcinki.
+Woda, która rozpuszcza. Cukry: skrobia w chlebie, laktoza w mleku, sacharoza w cukiernicy. Tłuszcze nasycone w maśle. Białko, które traci kształt na gorąco. I DNA w każdej komórce pomidora. Cała biochemia przed pierwszą lekcją.
 
-Pierwsze: w probówce A jest skrobia i ślina, w probówce B skrobia i ślina gotowana. Po pół godzinie do obu dodano płyn Lugola. Gdzie będzie granatowo i dlaczego?
-
-[pauza, dłuższa]
-
-W probówce B. Gotowanie zdenaturowało amylazę, więc skrobia nie została zhydrolizowana i nadal barwi się z jodem. W probówce A amylaza rozłożyła skrobię.
-
-Drugie: co łączy skrobię, białko, tłuszcz i DNA pod względem sposobu powstawania?
-
-[pauza, dłuższa]
-
-Wszystkie powstają w reakcjach kondensacji z mniejszych cząsteczek, z odłączeniem wody.
-
-Trzecie: dlaczego keratyna w paznokciach jest tak twarda?
-
-[pauza, dłuższa]
-
-Bo zawiera dużo cysteiny, która tworzy liczne mostki disiarczkowe. Spinają one łańcuchy białka, dając mu wytrzymałość.
-
-[pauza]
-
-To koniec biochemii. W następnym dziale wchodzimy o piętro wyżej, do komórki. A zaczniemy od holenderskiego sprzedawcy tkanin, który jako pierwszy człowiek zobaczył bakterie. Do usłyszenia.
+W następnym odcinku zaczynamy dział o komórce, od człowieka, który pierwszy zobaczył bakterie i nikomu nie zdradził, jak to zrobił. Do usłyszenia.
 
 [muzyka, wyciszenie]

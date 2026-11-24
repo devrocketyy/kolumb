@@ -1,0 +1,26 @@
+{
+  "odcinek": "biologia-11-powtorka-biochemia",
+  "pytania": [
+    {"id": "rozpuszczanie", "typ": "abcd", "pytanie": "Dlaczego woda dobrze rozpuszcza cukier i sól?",
+     "odpowiedzi": ["Jest polarna i otacza jony oraz cząsteczki polarne", "Ma duże ciepło właściwe", "Lód jest lżejszy od wody", "Ma wysokie napięcie powierzchniowe"],
+     "poprawna": 0, "wyjasnienie": "Polarność wody pozwala jej otaczać jony i związki polarne."},
+    {"id": "chleb", "typ": "abcd", "pytanie": "Dlaczego długo przeżuwany chleb zaczyna smakować słodko?",
+     "odpowiedzi": ["Amylaza ślinowa rozkłada skrobię na maltozę", "Ślina zawiera sacharozę", "Skrobia zamienia się w celulozę", "Chleb zawiera ukrytą fruktozę"],
+     "poprawna": 0, "wyjasnienie": "Hydroliza skrobi przez amylazę daje słodką maltozę."},
+    {"id": "skrobia-celuloza", "typ": "abcd", "pytanie": "Dlaczego skrobię trawimy, a celulozy nie?",
+     "odpowiedzi": ["Nasze enzymy pasują tylko do wiązań między alfa-glukozami, a celuloza jest z beta-glukozy", "Celuloza nie zawiera glukozy", "Skrobia jest rozpuszczalna, a celuloza nie", "Celuloza jest białkiem"],
+     "poprawna": 0, "wyjasnienie": "Enzym pasuje do kształtu wiązania jak klucz do zamka."},
+    {"id": "dwucukry", "typ": "laczenie", "polecenie": "Połącz dwucukier z jego składnikami.",
+     "pary": [["Laktoza", "glukoza + galaktoza"], ["Sacharoza", "glukoza + fruktoza"], ["Maltoza", "glukoza + glukoza"]],
+     "wyjasnienie": "Laktoza z mleka, sacharoza z cukiernicy, maltoza ze słodu."},
+    {"id": "maslo", "typ": "abcd", "pytanie": "Dlaczego masło jest stałe w temperaturze lodówki?",
+     "odpowiedzi": ["Przeważają w nim nasycone kwasy tłuszczowe o prostych łańcuchach", "Zawiera dużo wody", "Ma wiązania peptydowe", "Przeważają w nim nienasycone kwasy tłuszczowe"],
+     "poprawna": 0, "wyjasnienie": "Proste łańcuchy nasyconych kwasów tłuszczowych ciasno się pakują."},
+    {"id": "jajko", "typ": "abcd", "pytanie": "Co dzieje się z białkiem jajka podczas gotowania?",
+     "odpowiedzi": ["Ulega denaturacji, ale wiązania peptydowe zostają", "Rozpada się na aminokwasy", "Zamienia się w tłuszcz", "Ulega wysalaniu, które jest odwracalne"],
+     "poprawna": 0, "wyjasnienie": "Denaturacja niszczy strukturę przestrzenną, a nie sekwencję."},
+    {"id": "pomidor", "typ": "abcd", "pytanie": "W DNA pomidora jest 30% adeniny. Ile jest cytozyny?",
+     "odpowiedzi": ["20%", "30%", "40%", "70%"],
+     "poprawna": 0, "wyjasnienie": "A + T = 60%, więc G + C = 40%, czyli po 20%."}
+  ]
+}

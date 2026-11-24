@@ -1,129 +1,115 @@
 # IndexLab · Biologia · Odcinek 9 · „Co jest w garbie wielbłąda”
 Temat: Lipidy
 Dział: Biochemia
-Długość: ok. 8 minut (ok. 1010 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane.
+Długość: ok. 8 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-09-lipidy.json
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Sahara. Karawana idzie przez piasek od kilku dni. Ludzie piją z bukłaków, pilnując każdego łyku. A wielbłądy idą dalej, nie pijąc. Mogą tak iść tydzień, czasem dłużej.
+Sahara. Karawana idzie przez piasek od kilku dni. Ludzie piją z bukłaków, pilnując każdego łyku. A wielbłądy idą dalej bez picia, czasem nawet tydzień.
+
+Przez wieki ludzie byli pewni, że wielbłąd ma w garbie zapas wody.
 
 [pauza]
 
-Przez wieki ludzie byli pewni, że wielbłąd ma w garbie zapas wody. To brzmi logicznie: duży worek na plecach zwierzęcia, które nie pije.
-
-Ale w garbie nie ma wody. Jest tłuszcz. Kilkadziesiąt kilogramów tłuszczu.
-
-I teraz najciekawsze. Ten tłuszcz rzeczywiście pomaga wielbłądowi przetrwać bez picia. Zaraz zobaczysz dlaczego.
+Ale w garbie nie ma wody. Jest tłuszcz, kilkadziesiąt kilogramów. I ten tłuszcz rzeczywiście pomaga wielbłądowi przetrwać bez picia. Zaraz zobaczysz dlaczego.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. Dziś lipidy. Tłuszcze, oleje, woski, fosfolipidy i steroidy. Grupa bardzo różnorodna, ale połączona jedną cechą. Ta cecha tłumaczy prawie wszystko, co lipidy robią w organizmie.
+Dzień dobry, tu IndexLab. Dziś lipidy: tłuszcze, fosfolipidy, steroidy i woski.
 
-## Wspólna cecha: unikanie wody
+## Co łączy lipidy
 
-Lipidy nie rozpuszczają się w wodzie. Rozpuszczają się za to w rozpuszczalnikach organicznych, takich jak benzyna, eter czy chloroform. Pamiętasz z odcinka o wodzie: woda rozpuszcza związki, które mają ładunki. Lipidy w większości ładunków nie mają, mają długie łańcuchy węgla i wodoru. Są hydrofobowe.
+Lipidy łączy jedna cecha: nie rozpuszczają się w wodzie. Rozpuszczają się za to w rozpuszczalnikach organicznych, takich jak benzyna czy chloroform. Nie mają ładunków, za które woda mogłaby je złapać. Budową bardzo się różnią.
 
-To jedyna rzecz, która łączy całą tę grupę. Budową lipidy bardzo się od siebie różnią.
+## Tłuszcze
 
-## Tłuszcze właściwe
+Tłuszcz to jedna cząsteczka glicerolu i trzy kwasy tłuszczowe, połączone wiązaniami estrowymi. Znowu kondensacja.
 
-Najbardziej znane lipidy to tłuszcze, czyli triglicerydy. Budowa jest prosta: jedna cząsteczka glicerolu i trzy cząsteczki kwasów tłuszczowych, połączone wiązaniami estrowymi. Znowu kondensacja, znowu odłącza się woda. Glicerol to taki trzyramienny wieszak, a na każdym ramieniu wisi długi łańcuch kwasu tłuszczowego.
+Kwasy tłuszczowe nasycone mają tylko pojedyncze wiązania. Łańcuch jest prosty, więc cząsteczki układają się ciasno, jak ołówki w pudełku. Takie tłuszcze są stałe: masło, smalec.
 
-Kwasy tłuszczowe dzielimy na dwa rodzaje.
+Nienasycone mają wiązania podwójne. W tych miejscach łańcuch się zagina i cząsteczki nie układają się ciasno, jak powyginane gałązki. Takie tłuszcze są ciekłe: oleje roślinne, tran.
 
-Nasycone mają w łańcuchu tylko pojedyncze wiązania między atomami węgla. Łańcuch jest prosty. Proste łańcuchy dają się ciasno ułożyć obok siebie, jak ołówki w pudełku. Dlatego tłuszcze z kwasami nasyconymi są w temperaturze pokojowej stałe. Masło, smalec. Głównie tłuszcze zwierzęce.
+[pytanie: oliwa]
 
-Nienasycone mają w łańcuchu jedno albo więcej wiązań podwójnych. W miejscu wiązania podwójnego łańcuch się zagina. Zagięte łańcuchy nie dają się ciasno ułożyć, jak powyginane gałązki w koszu. Dlatego tłuszcze z kwasami nienasyconymi są ciekłe. Oleje roślinne, tran.
-
-[pauza]
-
-Część nienasyconych kwasów tłuszczowych, na przykład kwasy omega-3, jest dla nas niezbędna, bo nie potrafimy ich wytworzyć. Musimy je zjeść, tak jak niezbędne aminokwasy.
-
-## Po co tłuszcz organizmowi
-
-Funkcja pierwsza: magazyn energii. I tu tłuszcz bije cukry na głowę. Gram tłuszczu daje przy spaleniu ponad dwa razy więcej energii niż gram cukru. Do tego tłuszcz magazynuje się bez wody, a glikogen z dużą ilością wody. Jeśli chcesz zabrać dużo energii w małym bagażu, wybierasz tłuszcz. Dlatego zwierzęta przed zimą i ptaki przed przelotem gromadzą tłuszcz, a nie glikogen.
-
-Funkcja druga: izolacja cieplna. Warstwa tłuszczu pod skórą słabo przewodzi ciepło. Foki, wieloryby, pingwiny mają grubą warstwę tłuszczu, która chroni je przed zimną wodą.
-
-Funkcja trzecia: ochrona mechaniczna. Tłuszcz otacza nerki i inne narządy jak poduszka.
-
-I funkcja czwarta, od której zaczęliśmy. Woda metaboliczna.
-
-[wolniej] Kiedy organizm spala tłuszcz w oddychaniu komórkowym, powstaje dwutlenek węgla i woda. Z jednego grama tłuszczu powstaje więcej wody niż z grama cukru, bo tłuszcz ma w cząsteczce dużo wodoru. Ta woda zostaje w organizmie. To jest woda metaboliczna.
-
-Wielbłąd, spalając tłuszcz z garbu, dostaje energię i trochę wody. Garb nie zastąpi picia, ale pomaga przetrwać. A dodatkowo to, że tłuszcz jest zgromadzony w jednym miejscu, a nie pod całą skórą, ułatwia oddawanie ciepła przez resztę ciała. Na pustyni to ważne.
-
-Jeszcze bardziej imponujący jest mały gryzoń z pustyń Ameryki Północnej, szczuroskoczek. Może przez całe życie nie wypić ani kropli wody. Wystarcza mu woda metaboliczna z suchych nasion, które zjada.
-
-[pauza]
-
-Zatrzymaj się. Wymień cztery funkcje tłuszczów.
+Sprawdź się. Dlaczego oliwa jest płynna, a smalec stały?
 
 [pauza, dłuższa]
 
-Magazyn energii, izolacja cieplna, ochrona narządów i źródło wody metabolicznej.
+[odpowiedź]
+
+Oliwa zawiera głównie nienasycone kwasy tłuszczowe, których zagięte łańcuchy nie układają się ciasno. Smalec ma więcej nasyconych, z prostymi łańcuchami.
+
+[koniec odpowiedzi]
+
+## Po co tłuszcz
+
+Po pierwsze, magazyn energii. Gram tłuszczu daje ponad dwa razy więcej energii niż gram cukru, a do tego jest magazynowany bez wody. Dużo energii w małym bagażu.
+
+Po drugie, izolacja cieplna. Foki i pingwiny mają grubą warstwę tłuszczu pod skórą.
+
+Po trzecie, ochrona narządów, na przykład nerek, jak poduszka.
+
+[wolniej] I po czwarte, woda metaboliczna. Spalając tłuszcz z garbu, wielbłąd dostaje energię i trochę wody. Jeszcze lepiej radzi sobie szczuroskoczek z pustyń Ameryki Północnej. Może całe życie nie wypić kropli wody. Wystarcza mu woda metaboliczna z suchych nasion.
+
+[pytanie: ptaki]
+
+Sprawdź się. Dlaczego ptaki wędrowne przed przelotem gromadzą tłuszcz, a nie glikogen?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Bo tłuszcz daje ponad dwa razy więcej energii na gram i jest magazynowany bez wody. Ptak niesie więcej energii przy mniejszej masie.
+
+[koniec odpowiedzi]
 
 ## Fosfolipidy
 
-Teraz lipid, bez którego nie byłoby komórek. Fosfolipid.
+W fosfolipidzie jeden z trzech kwasów tłuszczowych zastąpiono grupą z fosforanem. Ta grupa ma ładunek i lubi wodę. Cząsteczka ma więc hydrofilową głowę i dwa hydrofobowe ogony.
 
-Wyobraź sobie tłuszcz, w którym jeden z trzech kwasów tłuszczowych zastąpiono grupą z fosforanem. Ta grupa ma ładunek, więc lubi wodę. Cząsteczka ma teraz dwie części: hydrofilową głowę i dwa hydrofobowe ogony. Taką cząsteczkę nazywamy amfipatyczną.
+W wodzie fosfolipidy same tworzą dwuwarstwę: ogony do środka, głowy na zewnątrz. Tak zbudowana jest każda błona komórkowa.
 
-W wodzie fosfolipidy same ustawiają się w dwuwarstwę. Ogony chowają się do środka, jak najdalej od wody, a głowy patrzą na zewnątrz, w stronę wody. Tak zbudowana jest każda błona komórkowa. Szczegóły w dziale o komórce.
+[pytanie: fosfolipid]
 
-## Steroidy
+Sprawdź się. Czym fosfolipid różni się od tłuszczu?
 
-Steroidy wyglądają zupełnie inaczej niż tłuszcze. Nie mają długich łańcuchów, tylko cztery połączone pierścienie węglowe. A jednak to lipidy, bo nie rozpuszczają się w wodzie.
+[pauza, dłuższa]
 
-Najważniejszy steroid to cholesterol. Ma złą sławę, ale jest niezbędny. Wbudowuje się w błony komórek zwierzęcych i reguluje ich płynność. Jest też surowcem do produkcji innych steroidów: hormonów płciowych, czyli testosteronu i estrogenów, hormonów kory nadnerczy, takich jak kortyzol, i witaminy D. A wątroba robi z niego kwasy żółciowe.
+[odpowiedź]
 
-## Woski
+Jeden kwas tłuszczowy jest zastąpiony grupą z resztą fosforanową. Ta część jest hydrofilowa, więc cząsteczka ma dwa bieguny.
 
-I ostatnia grupa, krótko: woski. Bardzo hydrofobowe, twarde. Pokrywają liście roślin jako kutykula i ograniczają parowanie wody. Pokrywają pióra ptaków wodnych, żeby nie nasiąkały. Pszczoły budują z wosku plastry.
+[koniec odpowiedzi]
+
+## Steroidy i woski
+
+Steroidy to cztery połączone pierścienie węglowe. Najważniejszy to cholesterol. Reguluje płynność błon komórek zwierzęcych i jest surowcem do produkcji hormonów płciowych, hormonów kory nadnerczy i witaminy D.
+
+Woski są twarde i bardzo hydrofobowe. Na liściach tworzą kutykulę, która ogranicza parowanie, a ptakom wodnym chronią pióra przed nasiąkaniem.
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Najczęstsze polecenie dotyczące lipidów to związek budowy z funkcją. Dlaczego fosfolipidy tworzą dwuwarstwę: bo mają hydrofilową głowę i hydrofobowe ogony. Dlaczego tłuszcz jest dobrym materiałem zapasowym: bo daje dużo energii z małej masy i jest magazynowany bez wody.
+Najczęściej związek budowy z funkcją: dlaczego fosfolipidy tworzą dwuwarstwę, dlaczego tłuszcz to dobry materiał zapasowy. Do tego wykrywanie: Sudan trzeci barwi tłuszcze na pomarańczowo-czerwono, a tłuszcz zostawia na bibule przejrzystą plamę, która nie znika po wyschnięciu.
 
-Drugi typ to wykrywanie. Sudan trzeci barwi tłuszcze na pomarańczowo-czerwono. A prosta próba z papierem: tłuszcz zostawia na bibule przejrzystą plamę, która nie znika po wyschnięciu, w przeciwieństwie do plamy z wody.
+[pytanie: funkcje]
 
-Trzeci: kwasy nasycone i nienasycone, z uzasadnieniem stanu skupienia.
+Ostatnie pytanie. Wymień cztery funkcje tłuszczów.
 
-## Na spokojnie
+[pauza, dłuższa]
 
-[muzyka, cicho]
+[odpowiedź]
 
-Podsumujmy. Lipidy łączy nierozpuszczalność w wodzie. Tłuszcze to glicerol i trzy kwasy tłuszczowe, nasycone dają tłuszcze stałe, nienasycone ciekłe. Tłuszcze to magazyn energii, izolacja, ochrona i źródło wody metabolicznej. Fosfolipidy budują błony dzięki hydrofilowej głowie i hydrofobowym ogonom. Cholesterol to składnik błon i surowiec dla hormonów steroidowych i witaminy D. Woski chronią przed utratą wody.
+Magazyn energii, izolacja cieplna, ochrona narządów i źródło wody metabolicznej.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: dlaczego oliwa jest płynna, a smalec stały?
-
-[pauza, dłuższa]
-
-Bo oliwa zawiera głównie nienasycone kwasy tłuszczowe, których zagięte łańcuchy nie układają się ciasno. Smalec zawiera więcej nasyconych, z prostymi łańcuchami, które się ciasno pakują.
-
-Drugie: dlaczego ptaki wędrowne przed przelotem gromadzą tłuszcz, a nie glikogen?
-
-[pauza, dłuższa]
-
-Bo tłuszcz daje ponad dwa razy więcej energii na gram i jest magazynowany bez wody. Ptak niesie więcej energii przy mniejszej masie.
-
-Trzecie: czym różni się cząsteczka fosfolipidu od cząsteczki tłuszczu?
-
-[pauza, dłuższa]
-
-W fosfolipidzie jeden z kwasów tłuszczowych jest zastąpiony grupą z resztą fosforanową. Ta część jest hydrofilowa, więc cząsteczka ma dwa bieguny.
-
-[pauza]
-
-W następnym odcinku zamykamy biochemię. Kwasy nukleinowe i historia jednego zdjęcia, które pokazało kształt DNA. Do usłyszenia.
+W następnym odcinku zamykamy biochemię: kwasy nukleinowe i historia jednego zdjęcia, które pokazało kształt DNA. Do usłyszenia.
 
 [muzyka, wyciszenie]

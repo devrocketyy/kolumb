@@ -1,0 +1,17 @@
+{
+  "odcinek": "biologia-09-lipidy",
+  "pytania": [
+    {"id": "oliwa", "typ": "abcd", "pytanie": "Dlaczego oliwa jest płynna, a smalec stały?",
+     "odpowiedzi": ["Oliwa ma głównie nienasycone kwasy tłuszczowe z zagiętymi łańcuchami, które nie układają się ciasno", "Oliwa zawiera wodę", "Smalec ma więcej glicerolu", "Oliwa ma krótsze cząsteczki glicerolu"],
+     "poprawna": 0, "wyjasnienie": "Wiązania podwójne zaginają łańcuch, więc tłuszcze nienasycone są ciekłe."},
+    {"id": "ptaki", "typ": "abcd", "pytanie": "Dlaczego ptaki wędrowne gromadzą przed przelotem tłuszcz, a nie glikogen?",
+     "odpowiedzi": ["Tłuszcz daje ponad 2 razy więcej energii na gram i jest magazynowany bez wody", "Tłuszcz szybciej uwalnia glukozę", "Glikogen jest trujący w dużych ilościach", "Tłuszcz jest lżejszy od powietrza"],
+     "poprawna": 0, "wyjasnienie": "Więcej energii przy mniejszej masie to podstawa w locie."},
+    {"id": "fosfolipid", "typ": "abcd", "pytanie": "Czym cząsteczka fosfolipidu różni się od cząsteczki tłuszczu?",
+     "odpowiedzi": ["Jeden kwas tłuszczowy zastąpiono grupą z fosforanem, więc cząsteczka ma hydrofilową głowę", "Nie ma glicerolu", "Ma cztery pierścienie węglowe", "Rozpuszcza się całkowicie w wodzie"],
+     "poprawna": 0, "wyjasnienie": "Hydrofilowa głowa i hydrofobowe ogony sprawiają, że fosfolipidy tworzą dwuwarstwę."},
+    {"id": "funkcje", "typ": "laczenie", "polecenie": "Połącz lipid z jego rolą.",
+     "pary": [["Tłuszcz", "magazyn energii i izolacja"], ["Fosfolipid", "budowa błon komórkowych"], ["Cholesterol", "płynność błon i surowiec do hormonów"], ["Wosk", "kutykula ograniczająca parowanie"]],
+     "wyjasnienie": "Lipidy łączy nierozpuszczalność w wodzie, ale role mają bardzo różne."}
+  ]
+}

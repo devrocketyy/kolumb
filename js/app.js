@@ -2751,7 +2751,8 @@ function bindPodKarta(el, q, done) {
       if (!b || b.disabled) return;
       if (b.dataset.side === 'l') { el.querySelectorAll('[data-side="l"]').forEach((x) => x.classList.toggle('selected', x === b)); left = b; game.sound('tap'); return; }
       if (!left) return;
-      if (left.dataset.i === b.dataset.i) {
+      // ta sama odpowiedź może pasować do kilku pozycji (np. dwa razy „liniowy”) — porównujemy tekst, nie numer
+      if (q.pary[left.dataset.i][1] === q.pary[b.dataset.i][1]) {
         [left, b].forEach((x) => { x.classList.remove('selected'); x.classList.add('matched'); x.disabled = true; });
         left = null; game.sound('match');
         if (!--zostalo) wyj(!zle);

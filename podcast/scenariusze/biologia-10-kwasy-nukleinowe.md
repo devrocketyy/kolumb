@@ -1,125 +1,116 @@
-# IndexLab · Biologia · Odcinek 10 · „Zdjęcie 51”
+# IndexLab · Biologia · Odcinek 10 · „Zdjęcie numer pięćdziesiąt jeden”
 Temat: Kwasy nukleinowe
 Dział: Biochemia
-Długość: ok. 9 minut (ok. 1110 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane. „5′” czytamy „pięć prim”, „3′” — „trzy prim”. DNA: „de-en-a”, RNA: „er-en-a”.
+Długość: ok. 8 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-10-kwasy-nukleinowe.json
+Uwaga dla lektora: „Rosalind Franklin” — RO-za-lind FREN-klin. „Chargaff” — SZAR-gaf. „pięć prim” i „trzy prim” czytamy tak, jak zapisano.
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Londyn, maj 1952 roku. King’s College. W ciemnym laboratorium Rosalind Franklin, chemiczka i specjalistka od krystalografii, kieruje wiązkę promieni rentgenowskich na cieniutkie włókno DNA. Jej doktorant, Raymond Gosling, naświetla kliszę przez kilkadziesiąt godzin.
+Londyn, maj 1952 roku. Rosalind Franklin, specjalistka od krystalografii, kieruje promienie rentgenowskie na cieniutkie włókno DNA. Klisza naświetla się przez kilkadziesiąt godzin.
+
+Po wywołaniu widać wzór w kształcie litery X. Dla kogoś, kto umie go czytać, to jak podpis. Ten wzór mówi: cząsteczka ma kształt helisy. Zdjęcie dostaje numer pięćdziesiąt jeden.
 
 [pauza]
 
-Kiedy klisza zostaje wywołana, widać na niej coś niezwykłego. Wyraźny wzór w kształcie litery X, z ciemnymi plamkami ułożonymi w regularne rzędy. Dla kogoś, kto umie to czytać, to jak podpis. Ten wzór mówi: cząsteczka ma kształt helisy.
-
-Zdjęcie dostaje numer pięćdziesiąt jeden.
-
-Kilka miesięcy później, bez wiedzy Franklin, jej kolega z laboratorium pokazuje zdjęcie Jamesowi Watsonowi. Watson i Francis Crick z Cambridge pracowali nad modelem DNA. Po latach Watson napisze, że kiedy zobaczył zdjęcie, opadła mu szczęka i zaczęło mu bić serce.
-
-W kwietniu 1953 roku Watson i Crick publikują model podwójnej helisy. W 1962 roku dostają za niego Nagrodę Nobla, razem z Maurice’em Wilkinsem. Rosalind Franklin już wtedy nie żyje. Zmarła na raka cztery lata wcześniej, w wieku trzydziestu siedmiu lat.
+Kilka miesięcy później, bez wiedzy Franklin, ktoś pokazuje je Jamesowi Watsonowi. W kwietniu 1953 roku Watson i Francis Crick publikują model podwójnej helisy. W 1962 roku dostają Nagrodę Nobla. Rosalind Franklin już wtedy nie żyje.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. To ostatni temat biochemii: kwasy nukleinowe, czyli DNA i RNA. Dowiesz się, jak są zbudowane, czym się różnią i dlaczego model podwójnej helisy od razu zdradził, jak DNA się kopiuje.
+Dzień dobry, tu IndexLab. Ostatni temat biochemii: DNA i RNA. Jak są zbudowane, czym się różnią i dlaczego podwójna helisa od razu zdradziła, jak DNA się kopiuje.
 
-## Nukleotyd: jedna litera
+## Nukleotyd
 
-Kwasy nukleinowe to długie łańcuchy złożone z nukleotydów. Każdy nukleotyd ma trzy części. Zapamiętaj je jako cukier, fosforan i zasada.
+Kwasy nukleinowe to łańcuchy nukleotydów. Każdy nukleotyd to trzy części: cukier, fosforan i zasada azotowa.
 
-Cukier to pentoza, którą znasz z odcinka o węglowodanach. W DNA deoksyryboza, w RNA ryboza.
+Cukier w DNA to deoksyryboza, w RNA ryboza. Zasady w DNA to adenina, guanina, cytozyna i tymina, w skrócie A, G, C, T. W RNA zamiast tyminy jest uracyl, czyli U.
 
-Fosforan to reszta kwasu fosforowego.
-
-Zasada azotowa to część, która niesie informację. W DNA są cztery: adenina, guanina, cytozyna i tymina. Skróty: A, G, C, T. W RNA zamiast tyminy jest uracyl, czyli U.
-
-[wolniej] Zasady dzielą się na dwie grupy według wielkości. Adenina i guanina to puryny, większe, z dwoma pierścieniami. Cytozyna, tymina i uracyl to pirymidyny, mniejsze, z jednym pierścieniem. Sposób na zapamiętanie: puryny to A i G, jak symbol srebra, Ag. Srebro jest cenne i ciężkie, a puryny to te większe zasady.
-
-## Łańcuch i jego kierunek
-
-Nukleotydy łączą się w łańcuch tak, że fosforan jednego nukleotydu wiąże się z cukrem następnego. Powstaje szkielet: cukier, fosforan, cukier, fosforan. Zasady wystają z tego szkieletu na boki, jak zęby z grzebienia.
-
-Łańcuch ma kierunek. Węgle w cukrze mają numery, a dwa z nich są tu ważne: piąty i trzeci. Na jednym końcu łańcucha wolny jest węgiel piąty, i to jest koniec pięć prim. Na drugim wolny jest węgiel trzeci, i to jest koniec trzy prim. Sekwencję DNA zawsze zapisujemy od końca pięć prim do trzy prim.
+Fosforan jednego nukleotydu łączy się z cukrem następnego. Powstaje szkielet cukrowo-fosforanowy, a zasady wystają z niego jak zęby z grzebienia. Łańcuch ma kierunek: od końca pięć prim do końca trzy prim.
 
 ## Podwójna helisa
 
-Teraz model, który odczytano ze zdjęcia pięćdziesiąt jeden. DNA to dwa łańcuchy, owinięte wokół siebie w spiralę. Szkielety cukrowo-fosforanowe są na zewnątrz, jak poręcze kręconych schodów. Zasady są w środku i tworzą stopnie.
+DNA to dwie nici owinięte wokół siebie. Szkielety są na zewnątrz, jak poręcze kręconych schodów. Zasady są w środku i tworzą stopnie.
 
-Każdy stopień to para zasad połączonych wiązaniami wodorowymi. I tu jest najważniejsza reguła w całej genetyce molekularnej.
+[wolniej] Każdy stopień to para zasad. Adenina zawsze z tyminą, dwoma wiązaniami wodorowymi. Guanina zawsze z cytozyną, trzema wiązaniami.
 
-[wolniej] Adenina łączy się zawsze z tyminą. Guanina zawsze z cytozyną. A z T, G z C. Między A i T są dwa wiązania wodorowe, między G i C trzy.
+To komplementarność. Znasz jedną nić, znasz drugą. Nici biegną w przeciwnych kierunkach, czyli są antyrównoległe.
 
-To nazywamy komplementarnością. Jeśli znasz jeden łańcuch, znasz drugi. Jeśli jeden ma sekwencję A, T, G, C, drugi naprzeciwko ma T, A, C, G.
+Watson i Crick zauważyli w swoim artykule, że takie parowanie sugeruje sposób kopiowania. Skoro każda nić wyznacza drugą, wystarczy je rozdzielić i do każdej dobudować nową.
 
-I jeszcze jedno: łańcuchy biegną w przeciwnych kierunkach. Jeden od pięć prim do trzy prim, drugi od trzy prim do pięć prim. Mówimy, że są antyrównoległe.
+[pytanie: gc]
 
-[pauza]
-
-Kiedy Watson i Crick opisali ten model, dodali na końcu artykułu jedno zdanie, chyba najsłynniejsze niedopowiedzenie w historii nauki. Napisali, że nie umknęło ich uwadze, że to parowanie zasad sugeruje możliwy mechanizm kopiowania materiału genetycznego. Bo skoro każdy łańcuch wyznacza drugi, to wystarczy je rozdzielić i do każdego dobudować nowy, komplementarny. O tym będzie w odcinku o replikacji.
-
-## Reguła Chargaffa
-
-Jeszcze przed modelem Watsona i Cricka biochemik Erwin Chargaff zauważył dziwną prawidłowość. W DNA każdego badanego organizmu adeniny było tyle samo co tyminy, a guaniny tyle samo co cytozyny. Nikt nie wiedział dlaczego. Model podwójnej helisy to wyjaśnił: skoro A zawsze stoi naprzeciwko T, musi być ich tyle samo.
-
-Z tej reguły robi się na maturze proste obliczenia. Jeśli w DNA jest dwadzieścia procent adeniny, to tyminy też jest dwadzieścia. Razem czterdzieści. Zostaje sześćdziesiąt procent na guaninę i cytozynę, po równo, czyli po trzydzieści.
-
-[pauza]
-
-Zatrzymaj się. W DNA jest trzydzieści pięć procent guaniny. Ile jest adeniny?
+Sprawdź się. Dlaczego DNA bogate w pary G i C trudniej rozdzielić wysoką temperaturą?
 
 [pauza, dłuższa]
 
-Piętnaście procent. Guaniny trzydzieści pięć, cytozyny też trzydzieści pięć, razem siedemdziesiąt. Zostaje trzydzieści na adeninę i tyminę, po piętnaście.
+[odpowiedź]
 
-Uwaga: ta reguła działa dla dwuniciowego DNA. Dla jednoniciowego RNA nie działa, bo tam nie ma drugiej nici, która by wymuszała równowagę.
+Bo para G–C ma trzy wiązania wodorowe, a para A–T dwa. Do ich rozerwania potrzeba więcej energii.
 
-## RNA: krótsza kopia robocza
+[koniec odpowiedzi]
 
-RNA różni się od DNA w trzech punktach. Zapamiętaj je jako trzy razy „inny”. Inny cukier: ryboza zamiast deoksyrybozy. Inna zasada: uracyl zamiast tyminy. Inna budowa: zwykle jedna nić zamiast dwóch.
+## Reguła Chargaffa
 
-Są trzy główne rodzaje RNA. Matrycowy, czyli mRNA, to kopia przepisu z genu, zanoszona do rybosomu. Transportujący, czyli tRNA, przynosi do rybosomu aminokwasy. Rybosomowy, czyli rRNA, buduje rybosom razem z białkami. Wszystkie trzy spotkamy jeszcze w dziale o genetyce molekularnej.
+Jeszcze przed modelem helisy Erwin Chargaff zauważył, że w DNA adeniny jest tyle samo co tyminy, a guaniny tyle samo co cytozyny. Model to wyjaśnił: A zawsze stoi naprzeciwko T.
 
-## Krewny z innej bajki: ATP
+Przykład. Adeniny jest dwadzieścia procent. Tyminy też dwadzieścia. Razem czterdzieści. Zostaje sześćdziesiąt na guaninę i cytozynę, po trzydzieści.
 
-I na koniec niespodzianka. ATP, czyli adenozynotrifosforan, nośnik energii w komórce, to też nukleotyd. Adenina, ryboza i trzy reszty fosforanowe zamiast jednej. Między resztami fosforanowymi są wiązania, których rozerwanie uwalnia energię. Biochemia lubi używać tych samych klocków do różnych celów.
+[pytanie: chargaff]
+
+Sprawdź się. W DNA jest trzydzieści pięć procent guaniny. Ile jest adeniny?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Piętnaście procent. Guanina i cytozyna razem to siedemdziesiąt, zostaje trzydzieści na adeninę i tyminę, po piętnaście.
+
+[koniec odpowiedzi]
+
+Ta reguła działa tylko dla dwuniciowego DNA. W jednoniciowym RNA nie ma drugiej nici, która wymuszałaby równe ilości.
+
+## RNA
+
+RNA różni się od DNA trzy razy: inny cukier, czyli ryboza, inna zasada, czyli uracyl, i inna budowa, zwykle jedna nić.
+
+Trzy rodzaje RNA: matrycowy, czyli mRNA, niesie kopię przepisu z genu do rybosomu. Transportujący, czyli tRNA, przynosi aminokwasy. Rybosomowy, czyli rRNA, buduje rybosom.
+
+I niespodzianka: ATP to też nukleotyd. Adenina, ryboza i trzy reszty fosforanowe.
+
+[pytanie: uracyl]
+
+Sprawdź się. W próbce kwasu nukleinowego znaleziono uracyl. Co to za kwas?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+RNA, bo uracyl występuje tylko w RNA.
+
+[koniec odpowiedzi]
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Trzy typy zadań. Pierwszy: porównanie DNA i RNA, zwykle w tabeli. Cukier, zasady, liczba nici, funkcja, miejsce występowania. Drugi: obliczenia z reguły Chargaffa. Trzeci: zapisywanie sekwencji komplementarnej. Tu najczęstszy błąd to pominięcie kierunku. Nić komplementarna do pięć prim, A, T, G, C, trzy prim, zapisana od pięć prim to: G, C, A, T. Bo trzeba ją odwrócić, żeby zacząć od jej końca pięć prim.
+Trzy typy zadań. Porównanie DNA i RNA w tabeli. Obliczenia z reguły Chargaffa. I zapisanie nici komplementarnej. Tu najczęstszy błąd to pominięcie kierunku: nić komplementarna jest antyrównoległa, więc jej końce pięć prim i trzy prim są odwrócone.
 
-## Na spokojnie
+[pytanie: dna-rna]
 
-[muzyka, cicho]
+Ostatnie pytanie. Wymień trzy różnice między DNA a RNA.
 
-Podsumujmy. Nukleotyd to cukier, fosforan i zasada azotowa. DNA ma deoksyrybozę i zasady A, T, G, C. RNA ma rybozę i zamiast tyminy uracyl. DNA to dwie antyrównoległe nici, połączone komplementarnymi parami zasad: A z T dwoma wiązaniami wodorowymi, G z C trzema. Z komplementarności wynika reguła Chargaffa. RNA to zwykle jedna nić i występuje jako mRNA, tRNA i rRNA. ATP też jest nukleotydem.
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Cukier: deoksyryboza w DNA, ryboza w RNA. Zasada: tymina w DNA, uracyl w RNA. Liczba nici: DNA ma zwykle dwie, RNA jedną.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: dlaczego DNA bogate w pary G i C jest trudniej rozdzielić wysoką temperaturą niż DNA bogate w A i T?
-
-[pauza, dłuższa]
-
-Bo para G–C łączy się trzema wiązaniami wodorowymi, a para A–T dwoma. Do rozerwania potrzeba więcej energii.
-
-Drugie: w próbce kwasu nukleinowego znaleziono uracyl. Co to za kwas?
-
-[pauza, dłuższa]
-
-RNA, bo uracyl występuje tylko w RNA. W DNA jego miejsce zajmuje tymina.
-
-Trzecie: czy w RNA adeniny musi być tyle samo co uracylu?
-
-[pauza, dłuższa]
-
-Nie. RNA jest zwykle jednoniciowe, więc nie ma par, które wymuszałyby równe ilości.
-
-[pauza]
-
-To koniec tematów z biochemii. W następnym odcinku powtórka całego działu. Weźmiemy jedno zwykłe śniadanie i rozłożymy je na wszystkie związki, które poznaliśmy. Do usłyszenia.
+To koniec tematów z biochemii. W następnym odcinku powtórka całego działu, z jednym zwykłym śniadaniem w roli głównej. Do usłyszenia.
 
 [muzyka, wyciszenie]

@@ -1,0 +1,17 @@
+{
+  "odcinek": "biologia-10-kwasy-nukleinowe",
+  "pytania": [
+    {"id": "gc", "typ": "abcd", "pytanie": "Dlaczego DNA bogate w pary G–C trudniej rozdzielić wysoką temperaturą?",
+     "odpowiedzi": ["Para G–C ma trzy wiązania wodorowe, a A–T dwa", "Guanina jest cięższa od adeniny", "Pary G–C łączą się wiązaniami peptydowymi", "W parach G–C nie ma cukru"],
+     "poprawna": 0, "wyjasnienie": "Więcej wiązań wodorowych = więcej energii potrzebnej do rozdzielenia nici."},
+    {"id": "chargaff", "typ": "abcd", "pytanie": "W dwuniciowym DNA jest 35% guaniny. Ile jest adeniny?",
+     "odpowiedzi": ["15%", "35%", "30%", "65%"],
+     "poprawna": 0, "wyjasnienie": "G = C = 35%, razem 70%. Zostaje 30% na A i T, po 15%."},
+    {"id": "uracyl", "typ": "abcd", "pytanie": "W próbce kwasu nukleinowego wykryto uracyl. Co to za kwas?",
+     "odpowiedzi": ["RNA", "DNA", "ATP", "Nie da się tego ustalić"],
+     "poprawna": 0, "wyjasnienie": "Uracyl występuje tylko w RNA. W DNA jego miejsce zajmuje tymina."},
+    {"id": "dna-rna", "typ": "laczenie", "polecenie": "Połącz cechę z kwasem nukleinowym.",
+     "pary": [["Deoksyryboza i tymina", "DNA"], ["Ryboza i uracyl", "RNA"], ["Dwie antyrównoległe nici", "DNA"], ["Zwykle jedna nić", "RNA"]],
+     "wyjasnienie": "DNA i RNA różnią się cukrem, jedną zasadą i liczbą nici."}
+  ]
+}
