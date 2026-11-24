@@ -44,6 +44,7 @@ function normalizeUnit(u, i, dzialId, zablokowany) {
     id: String(u.id || `${dzialId}-${i + 1}`),
     dzialId,
     zablokowany: !!zablokowany,
+    liczbaFiszek: zablokowany ? Number(u.liczbaFiszek) || 0 : (u.fiszki || []).length, // przy kłódce: ile fiszek odblokuje dostęp
     nazwa: u.nazwa || `Część ${i + 1}`,
     opis: u.opis || '',
     fiszki: (u.fiszki || []).map((f, j) => ({
@@ -103,7 +104,8 @@ function normalizeArkusz(a, i) {
     zablokowany: !!a.zablokowany,
     wiazki,
     zadania,
-    punkty: zadania.reduce((n, z) => n + z.punkty, 0),
+    liczbaZadan: a.zablokowany ? Number(a.liczbaZadan) || 0 : zadania.length,
+    punkty: a.zablokowany ? Number(a.punkty) || 0 : zadania.reduce((n, z) => n + z.punkty, 0),
   };
 }
 
@@ -154,7 +156,9 @@ async function normalizeSubject(raw, file) {
     dzialy,
     units,
     arkusze: arkuszeRaw.map(normalizeArkusz),
-    bank: bankRaw.filter(Boolean).flatMap(normalizeBank),
+    bank: bankRaw.filter((b) => b && !b.zablokowany).flatMap(normalizeBank),
+    // zablokowane zadania autorskie: dział i liczba zadań (do planu i kłódek w zakładce Matura)
+    bankZablokowany: bankRaw.filter((b) => b?.zablokowany).map((b) => ({ dzial: String(b.dzial || ''), liczba: Number(b.liczbaZadan) || 0 })),
     aktualnosci,
     wagi: raw.wagi || null,
     srednia: raw.srednia || null,
@@ -179,7 +183,7 @@ export async function loadIndex(zrodlo) {
 function stubSubject(raw, file) {
   const id = String(raw.id || file.replace(/\.json$/, ''));
   return { id, plik: file, nazwa: raw.nazwa || id, skrot: raw.skrot || raw.nazwa || id, ikona: raw.ikona || '📘', opis: raw.opis || '',
-    dzialy: [], units: new Map(), arkusze: [], bank: [], aktualnosci: null, wagi: null, srednia: raw.srednia || null, egzamin: raw.egzamin || null, szkielet: true };
+    dzialy: [], units: new Map(), arkusze: [], bank: [], bankZablokowany: [], aktualnosci: null, wagi: null, srednia: raw.srednia || null, egzamin: raw.egzamin || null, szkielet: true };
 }
 
 export async function loadFull(entry) {

@@ -308,7 +308,7 @@ function pathHtml(s, rec) {
     const stops = d.poddzialy.map((u, ui) => {
       if (u.zablokowany) { // treść premium bez aktywnego dostępu
         return `<li class="stop locked"><span class="stop-dot" aria-hidden="true"><i>${ICONS.lock}</i></span>
-          <div class="stop-main"><a class="stop-body" href="#/plany"><span class="stop-name">${esc(u.nazwa)}</span><span class="stop-meta">Premium — odblokuj pełny kurs</span></a></div></li>`;
+          <div class="stop-main"><a class="stop-body" href="#/plany"><span class="stop-name">${esc(u.nazwa)}</span><span class="stop-meta">${u.liczbaFiszek ? `${nFiszek(u.liczbaFiszek)} · ` : ''}Premium — odblokuj pełny kurs</span></a></div></li>`;
       }
       if (!u.fiszki.length && !u.pytania.length) { // temat bez treści (kurs w budowie)
         return `<li class="stop soon"><span class="stop-dot" aria-hidden="true"><i>${ui + 1}</i></span>
@@ -333,7 +333,7 @@ function pathHtml(s, rec) {
     return `<details class="leg" ${open ? 'open' : ''}>
       <summary class="leg-head">
         <span class="leg-num">${di + 1}</span>
-        <span class="leg-text"><strong>${esc(d.nazwa)}</strong><small>${d.zablokowany ? `${ICONS.lock} Premium · ${d.poddzialy.length} ${plural(d.poddzialy.length, 'temat', 'tematy', 'tematów')}` : `${doneN}/${d.poddzialy.length} opanowanych · ${pct(smD.progress)}%`}</small>${d.zablokowany ? '' : progressBar(smD.progress, d.nazwa)}</span>
+        <span class="leg-text"><strong>${esc(d.nazwa)}</strong><small>${d.zablokowany ? `${ICONS.lock} Premium · ${d.poddzialy.length} ${plural(d.poddzialy.length, 'temat', 'tematy', 'tematów')}${smD.total ? ` · ${nFiszek(smD.total)}` : ''}` : `${doneN}/${d.poddzialy.length} opanowanych · ${pct(smD.progress)}%`}</small>${d.zablokowany ? '' : progressBar(smD.progress, d.nazwa)}</span>
         <span class="leg-chev" aria-hidden="true">${ICONS.next}</span>
       </summary>
       <ol class="stops">${stops}</ol>
@@ -460,14 +460,16 @@ function planOf(s, over) {
   const fresh = summary(s.id, allUnits(s), 0).fresh;
   const st = store.get().zadania;
   const zad = allTasks(s);
-  const zLeft = zad.filter((z) => !st[taskKey(s.id, z)]).length;
+  // zadania za kłódką (arkusze i bank bez dostępu) też należą do materiału — plan pokazuje całość
+  const zZablok = s.arkusze.reduce((n, a) => n + (a.zablokowany ? a.liczbaZadan || 0 : 0), 0) + (s.bankZablokowany || []).reduce((n, b) => n + b.liczba, 0);
+  const zLeft = zad.filter((z) => !st[taskKey(s.id, z)]).length + zZablok;
   const dk = store.dayKey();
   const zDzis = zad.filter((z) => { const r = st[taskKey(s.id, z)]; return r?.at && store.dayKey(r.at) === dk; }).length;
   const rate = fresh ? Math.min(150, Math.max(3, Math.ceil(fresh / dni))) : 0;
   const zRate = zLeft ? Math.ceil(zLeft / dni) : 0;
   return {
     ustawiony: !!p.koniec, data, egz, koniec, dni, dniDoMatury, rezerwa: Math.round((egz - koniec) / DAY),
-    fresh, zLeft, zTotal: zad.length, zDzis, rate, zRate,
+    fresh, zLeft, zTotal: zad.length + zZablok, zDzis, rate, zRate,
     minuty: Math.ceil(rate * MIN_NA_FISZKE + zRate * MIN_NA_ZADANIE),
   };
 }
@@ -1557,7 +1559,7 @@ function learnActions(sc, sm) {
   if (total) {
     fiszki = sm.todo
       ? `<a class="btn btn-ghost btn-xl" href="#/fiszki/${base}">${ICONS.cards}<span>Fiszki<small>${nFiszek(sm.todo)} na dziś</small></span></a>`
-      : `<div class="done-note">${ICONS.check}<span>${sm.fresh ? 'Dzienny limit nowych fiszek wykorzystany. Wróć jutro albo poćwicz swobodnie.' : 'Na dziś wszystko powtórzone! Wróć jutro albo poćwicz swobodnie.'}</span></div>`;
+      : `<div class="done-note">${ICONS.check}<span>${sm.fresh - (sm.locked || 0) > 0 ? 'Dzienny limit nowych fiszek wykorzystany. Wróć jutro albo poćwicz swobodnie.' : 'Na dziś wszystko powtórzone! Wróć jutro albo poćwicz swobodnie.'}</span></div>`;
     fiszki += `<a class="btn btn-ghost btn-xl" href="#/fiszki/${base}/trening">${ICONS.cards}<span>Trening swobodny<small>losowe fiszki, bez wpływu na harmonogram</small></span></a>`;
   }
   const lekcja = total || nQ ? `<a class="btn btn-primary btn-xl" href="#/lekcja/${base}">${ICONS.play}<span>Lekcja<small>12 różnych ćwiczeń · +10 XP</small></span></a>` : '';
@@ -2023,10 +2025,10 @@ function taskScore(sid, list) {
 const MATURA_TABS = [['proba', 'Próbna'], ['cke', 'Arkusze CKE'], ['dzialy', 'Działy']];
 const scoreTag = (sc) => (sc.done ? `<span class="score ${sc.pkt / sc.max >= .7 ? 'ok' : sc.pkt / sc.max >= .5 ? 'warn' : 'bad'}">${pct(sc.pkt / sc.max)}%</span>` : '');
 
-function lockedRow(name) {
+function lockedRow(name, opis) {
   return `<a class="dzial-row locked-row" href="#/plany">
     <div class="dzial-row-top"><span class="dzial-name">${esc(name)}</span><span class="badge">${ICONS.lock}</span></div>
-    <div class="dzial-meta"><span>Premium — odblokuj wszystkie arkusze z omówieniem</span></div>
+    <div class="dzial-meta"><span>${opis ? esc(opis) : 'Premium — odblokuj wszystkie arkusze z omówieniem'}</span></div>
   </a>`;
 }
 
@@ -2047,12 +2049,14 @@ function viewMatura(tab) {
   if (tab === 'proba') {
     body = examSection(s);
   } else if (tab === 'cke') {
-    body = `<div class="dzial-list">${s.arkusze.map((a) => a.zablokowany ? lockedRow(a.nazwa) : taskRow(`#/zadania/${enc(s.id)}/a/${enc(a.id)}`, a.nazwa, taskScore(s.id, a.zadania), `<span>${a.punkty} pkt</span>`)).join('')}</div>`
+    body = `<div class="dzial-list">${s.arkusze.map((a) => a.zablokowany ? lockedRow(a.nazwa, a.liczbaZadan ? `Premium · ${nZadan(a.liczbaZadan)} · ${a.punkty} pkt, z omówieniem` : '') : taskRow(`#/zadania/${enc(s.id)}/a/${enc(a.id)}`, a.nazwa, taskScore(s.id, a.zadania), `<span>${a.punkty} pkt</span>`)).join('')}</div>`
       || '<p class="muted">Brak arkuszy CKE.</p>';
   } else {
     body = `<div class="dzial-list">${s.dzialy.map((d) => {
         const cke = tasksOf(s, d.id);
         const own = bankTasks(s, d.id);
+        const zabl = (s.bankZablokowany || []).filter((b) => b.dzial === d.id).reduce((n, b) => n + b.liczba, 0);
+        if (!cke.length && !own.length && zabl) return lockedRow(d.nazwa, `Premium · ${nZadan(zabl)} autorskich z omówieniem`);
         if (!cke.length && !own.length) return '';
         const sc = taskScore(s.id, [...cke, ...own]);
         return `<div class="dzial-row">
@@ -3210,7 +3214,7 @@ function premiumCard() {
       <span class="plan-text"><strong>${dostep.pelny() ? 'IndexLab Premium' : `${esc(s.nazwa)} — pełny kurs`}</strong><small>Aktywny do ${fmtDay(new Date(st.wazne_do).getTime())}${st.plan === 'miesiac' && st.status === 'active' ? ' · odnawia się automatycznie' : st.status === 'anulowana' ? ' · subskrypcja anulowana' : ''}</small></span>${ICONS.next}</a>`;
   }
   return maZablokowane() ? `<a class="card plan-card premium-cta" href="#/plany"><span class="quest-icon">${ICONS.lock}</span>
-    <span class="plan-text"><strong>Odblokuj pełny kurs${s ? ` — ${esc(s.nazwa)}` : ''}</strong><small>Wszystkie działy, arkusze CKE z omówieniem i bank zadań. Pierwszy dział jest za darmo.</small></span>${ICONS.next}</a>` : '';
+    <span class="plan-text"><strong>Odblokuj pełny kurs${s ? ` — ${esc(s.nazwa)}` : ''}</strong><small>Wszystkie działy, arkusze CKE z omówieniem i bank zadań. Około 30% kursu masz za darmo.</small></span>${ICONS.next}</a>` : '';
 }
 
 async function viewPlany(ok) {

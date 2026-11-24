@@ -67,8 +67,9 @@ export function newAllowance(sid) {
 export function summary(sid, units, allowance = newAllowance(sid)) {
   const cards = get().cards;
   const end = endOfToday();
-  let total = 0, due = 0, fresh = 0, mastered = 0, points = 0;
+  let total = 0, due = 0, fresh = 0, mastered = 0, points = 0, locked = 0;
   for (const u of units) {
+    if (u.zablokowany) { locked += u.liczbaFiszek || 0; continue; } // fiszki za kłódką liczą się do całości materiału
     for (const f of u.fiszki) {
       total++;
       const c = cards[cardKey(sid, u.id, f.id)];
@@ -79,10 +80,12 @@ export function summary(sid, units, allowance = newAllowance(sid)) {
     }
   }
   const newToday = Math.min(fresh, allowance);
+  total += locked;
   return {
     total,
     due,
-    fresh,
+    fresh: fresh + locked,
+    locked,
     newToday,
     todo: due + newToday,
     mastered,
