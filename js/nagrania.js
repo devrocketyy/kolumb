@@ -257,5 +257,29 @@ export const NAGRANIA_AUTO = {
   "min": 4,
   "czasy": "podcast/mp3/biologia-43-biotech-tradycyjna.json",
   "pytania": "podcast/pytania/biologia-43-biotech-tradycyjna.json"
+ },
+ "biologia/p/b-techniki": {
+  "plik": "podcast/mp3/biologia-44-techniki.mp3",
+  "min": 5,
+  "czasy": "podcast/mp3/biologia-44-techniki.json",
+  "pytania": "podcast/pytania/biologia-44-techniki.json"
+ },
+ "biologia/p/b-gmo": {
+  "plik": "podcast/mp3/biologia-45-gmo.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-45-gmo.json",
+  "pytania": "podcast/pytania/biologia-45-gmo.json"
+ },
+ "biologia/p/b-biotech-medycyna": {
+  "plik": "podcast/mp3/biologia-46-biotech-medycyna.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-46-biotech-medycyna.json",
+  "pytania": "podcast/pytania/biologia-46-biotech-medycyna.json"
+ },
+ "biologia/d/biotechnologia": {
+  "plik": "podcast/mp3/biologia-47-powtorka-biotechnologia.mp3",
+  "min": 3,
+  "czasy": "podcast/mp3/biologia-47-powtorka-biotechnologia.json",
+  "pytania": "podcast/pytania/biologia-47-powtorka-biotechnologia.json"
  }
 };

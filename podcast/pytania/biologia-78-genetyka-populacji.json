@@ -1,0 +1,5 @@
+{"odcinek": "biologia-78-genetyka-populacji", "pytania": [
+ {"id": "hw", "typ": "abcd", "pytanie": "q² = 0,16. Ile wynoszą q i p?", "odpowiedzi": ["q = 0,4; p = 0,6", "q = 0,16; p = 0,84", "q = 0,04; p = 0,96", "q = 0,6; p = 0,4"], "poprawna": 0, "wyjasnienie": "q = √0,16 = 0,4; p = 1 − q."},
+ {"id": "pingelap", "typ": "abcd", "pytanie": "Co wyjaśnia częstą ślepotę barw na Pingelap?", "odpowiedzi": ["Efekt wąskiego gardła (dryf genetyczny)", "Dobór naturalny faworyzujący ślepotę", "Migracje z Europy", "Mutacje wywołane tajfunem"], "poprawna": 0, "wyjasnienie": "Po tajfunie przeżył nosiciel rzadkiego allelu."},
+ {"id": "nosiciele", "typ": "laczenie", "polecenie": "Połącz wyrażenie z grupą genotypów (Hardy–Weinberg).", "pary": [["p²", "homozygoty dominujące"], ["2pq", "heterozygoty (nosiciele)"], ["q²", "homozygoty recesywne"]], "wyjasnienie": "Obliczenia zaczynaj od q² — homozygot recesywnych."}
+]}

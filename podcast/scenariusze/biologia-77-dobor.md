@@ -1,113 +1,84 @@
-# IndexLab · Biologia · Odcinek 77 · „Ćma, która poczerniała”
+# IndexLab · Biologia · Odcinek 77 · „Czarna ćma z Manchesteru”
 Temat: Dowody ewolucji i dobór naturalny
-Dział: Ewolucja, ekologia i ochrona przyrody
-Długość: ok. 8 minut (ok. 1010 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane. „Krępak nabrzozak” czytamy: KRĘ-pak na-BRZO-zak.
+Dział: Ewolucja i ekologia
+Długość: ok. 5 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-77-dobor.json
+Uwaga dla lektora: „krępak nabrzozak” — KRĘ-pak na-BRZO-zak.
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Manchester, rok 1848. Kolekcjoner motyli łapie w ogrodzie ćmę, jakiej jeszcze nie widział. To krępak nabrzozak, pospolita ćma, zwykle jasna, w drobne czarne plamki, idealnie zlewająca się z porostami na korze brzóz. Ale ta jest czarna. Cała, jak węgiel.
+Manchester, rok 1848. Kolekcjoner łapie w ogrodzie ćmę, jakiej jeszcze nie widział. To krępak nabrzozak, zwykle jasny w czarne plamki, idealnie zlewający się z korą brzóz. A ten jest czarny.
+
+Pięćdziesiąt lat później w okolicach Manchesteru ponad dziewięćdziesiąt procent krępaków jest czarnych.
 
 [pauza]
 
-To ciekawostka, rzadka odmiana. Ale pięćdziesiąt lat później, pod koniec dziewiętnastego wieku, w okolicach Manchesteru ponad dziewięćdziesiąt procent krępaków jest czarnych. Jasne prawie zniknęły.
-
-Co się stało? Wokół wyrosły setki fabryk. Dym z kominów zabił porosty na drzewach i pokrył korę sadzą. Jasna ćma na czarnym pniu była widoczna z daleka, i ptaki zjadały ją od razu. Czarna była niewidoczna i przeżywała.
-
-A w drugiej połowie dwudziestego wieku, kiedy w Anglii wprowadzono przepisy o czystości powietrza, sadza zniknęła, porosty wróciły, i jasne ćmy znowu stały się częstsze.
-
-To był dobór naturalny, obserwowany na oczach ludzi w ciągu kilkudziesięciu lat.
+Fabryki pokryły drzewa sadzą. Jasne ćmy na ciemnej korze widać z daleka i zjadają je ptaki. Czarne przeżywają. To dobór naturalny, oglądany na żywo.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. Zaczynamy ostatni dział kursu: ewolucję, ekologię i ochronę przyrody. Na początek: skąd wiemy, że ewolucja zachodzi, i jak działa jej główny mechanizm, dobór naturalny.
+Dzień dobry, tu IndexLab. Zaczynamy ostatni dział: ewolucję i ekologię. Dziś dowody ewolucji i dobór naturalny.
 
-## Dowody ewolucji
+## Dobór naturalny
 
-Ewolucja to zmiany w organizmach z pokolenia na pokolenie, prowadzące do powstawania nowych gatunków. Na to, że zachodzi, mamy kilka rodzajów dowodów. Na maturze warto znać po jednym przykładzie z każdej grupy.
+Karol Darwin zauważył, że osobniki różnią się od siebie, część tych różnic jest dziedziczna, a rodzi się więcej potomstwa, niż może przeżyć.
 
-Dowody paleontologiczne. Skamieniałości pokazują organizmy, których dziś nie ma, i formy przejściowe między grupami. Pamiętasz Tiktaalika, rybę z kończynami? Albo praptaka, archeopteryksa, który miał pióra i skrzydła jak ptak, ale zęby, pazury na skrzydłach i długi ogon z kości jak gad. Skamieniałości ułożone według wieku skał pokazują, jak zmieniały się na przykład przodkowie konia.
+[wolniej] Osobniki lepiej przystosowane częściej przeżywają i zostawiają więcej potomstwa. Ich cechy stają się w populacji coraz częstsze. To dobór naturalny. Nie tworzy on zmienności, tylko wybiera spośród tej, która już jest.
 
-Dowody anatomii porównawczej. Narządy homologiczne, jak kończyny ssaków o takim samym planie kości, świadczą o wspólnym przodku. Narządy szczątkowe, które nie pełnią już dawnej funkcji, świadczą o przeszłości. U człowieka to na przykład kość guziczna, pozostałość ogona, mięśnie poruszające małżowiną uszną czy wyrostek robaczkowy. U wieloryba szczątkowe kości miednicy, pozostałość po przodkach chodzących po lądzie.
+[pytanie: krepak]
 
-Dowody embriologiczne. Zarodki różnych kręgowców we wczesnych stadiach są do siebie bardzo podobne. Zarodek człowieka ma przez pewien czas łuki skrzelowe i ogon.
-
-Dowody molekularne. Wszystkie organizmy używają tego samego kodu genetycznego, tego samego ATP i podobnych białek. Im bliżej spokrewnione gatunki, tym bardziej podobne sekwencje DNA i białek. DNA człowieka i szympansa różni się zaledwie o kilka procent.
-
-## Darwin i dobór naturalny
-
-W 1859 roku Karol Darwin wydał książkę „O powstawaniu gatunków”. Wyjaśnił w niej mechanizm ewolucji. Ten sam pomysł niezależnie wpadł do głowy Alfredowi Wallace’owi.
-
-Rozumowanie Darwina opiera się na kilku obserwacjach. Zapamiętaj je jako łańcuch, bo właśnie tak trzeba wyjaśniać dobór na maturze.
-
-[wolniej] Jeden: organizmy wydają więcej potomstwa, niż może przeżyć. Dwa: osobniki jednego gatunku różnią się między sobą, i część tych różnic jest dziedziczna. Trzy: osobniki z cechami lepiej dopasowanymi do środowiska mają większą szansę przeżyć i wydać potomstwo. Cztery: przekazują te cechy potomstwu. Pięć: z pokolenia na pokolenie korzystne cechy stają się w populacji coraz częstsze.
-
-Wróć do krępaka. Ćmy różnią się kolorem, a kolor jest dziedziczny. Na okopconych drzewach ptaki częściej zjadały jasne. Czarne częściej przeżywały i rozmnażały się. Ich potomstwo też było czarne. Odsetek czarnych w populacji rósł.
-
-[wolniej] Na maturze najczęstszy błąd to odpowiedź typu „ćmy przystosowały się, żeby przeżyć” albo „zmieniły kolor, bo potrzebowały”. To nieprawda. Pojedyncza ćma nie zmienia koloru. Zmienia się populacja, bo jedne osobniki przeżywają i rozmnażają się częściej niż inne. W odpowiedzi zawsze musi być ogniwo „przeżywały i wydawały więcej potomstwa”. Na maturze w 2023 roku, przy aspidoncie udającym wargatka, trzeba było wyjaśnić to właśnie w ten sposób.
-
-Źródłem różnic, z których wybiera dobór, są mutacje i rekombinacja w mejozie. Dobór nie tworzy nowych cech. Wybiera spośród tych, które już są.
-
-## Rodzaje doboru
-
-Dobór może działać na trzy sposoby. Na maturze często pokazuje się je na wykresach rozkładu cechy w populacji.
-
-Dobór stabilizujący faworyzuje osobniki przeciętne, a eliminuje skrajne. Przykład: masa urodzeniowa dzieci. Noworodki bardzo małe i bardzo duże dawniej częściej umierały, przeżywały te o przeciętnej masie. Krzywa się zwęża, średnia się nie zmienia.
-
-Dobór kierunkowy faworyzuje jedną skrajność. Przykład: krępak nabrzozak, albo bakterie oporne na antybiotyk. Krzywa przesuwa się w jedną stronę.
-
-Dobór rozrywający faworyzuje obie skrajności, a eliminuje osobniki pośrednie. Przykład: ptaki, wśród których przeżywają te z bardzo małymi dziobami, jedzące drobne nasiona, i te z bardzo dużymi, jedzące twarde, a przeciętne radzą sobie gorzej z jednym i drugim. Krzywa rozdziela się na dwa garby. Taki dobór może prowadzić do powstania dwóch gatunków.
-
-[pauza]
-
-Zatrzymaj się. Jaki rodzaj doboru działał na krępaka nabrzozaka w czasach rewolucji przemysłowej?
+Sprawdź się. Dlaczego w czasach przemysłowych przybyło czarnych krępaków?
 
 [pauza, dłuższa]
 
-Dobór kierunkowy. Faworyzował jedną skrajność, czyli ciemne ubarwienie, a częstość tej cechy w populacji systematycznie rosła.
+[odpowiedź]
 
-## Dobór płciowy
+Bo na przyciemnionej sadzą korze czarne ćmy były słabiej widoczne dla ptaków, częściej przeżywały i zostawiały więcej potomstwa.
 
-Osobnym rodzajem jest dobór płciowy. Ogon pawia to ogromny ciężar. Utrudnia ucieczkę przed drapieżnikiem. Dlaczego przetrwał? Bo pawice wybierają samców z najpiękniejszymi ogonami. Samiec z wspaniałym ogonem może żyć krócej, ale ma więcej potomstwa. W doborze płciowym liczy się nie przeżycie, tylko sukces w rozmnażaniu. Tak tłumaczy się poroża jeleni, barwne upierzenie ptaków, śpiew słowików.
+[koniec odpowiedzi]
+
+## Rodzaje doboru
+
+Dobór kierunkowy przesuwa cechę w jedną stronę, jak u krępaka. Stabilizujący faworyzuje osobniki przeciętne, na przykład noworodki o średniej masie urodzeniowej przeżywają najczęściej. Rozrywający faworyzuje oba skrajne warianty.
+
+[pytanie: rodzaje]
+
+Sprawdź się. Jaki dobór działa, gdy najczęściej przeżywają osobniki przeciętne?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Dobór stabilizujący.
+
+[koniec odpowiedzi]
+
+## Dowody ewolucji
+
+Skamieniałości, w tym formy przejściowe, jak Tiktaalik czy praptak. Narządy homologiczne, czyli o wspólnym pochodzeniu. Narządy szczątkowe, jak kość ogonowa człowieka. Podobieństwo zarodków kręgowców. I dowody molekularne: im bliżej spokrewnione gatunki, tym bardziej podobne DNA i białka. Kod genetyczny jest uniwersalny, co wskazuje na wspólne pochodzenie całego życia.
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Wyjaśnienie działania doboru naturalnego na konkretnym przykładzie, zawsze z łańcuchem: zmienność, przeżycie i rozród, przekazanie cechy, wzrost jej częstości. Rozpoznawanie rodzajów doboru na wykresach. Przykłady dowodów ewolucji z każdej grupy. Narządy homologiczne, analogiczne i szczątkowe.
+Wyjaśnianie przykładów doboru naturalnego krok po kroku. Rodzaje doboru na wykresach. Dowody ewolucji. Pułapka: osobnik nie zmienia się, bo czegoś potrzebuje. Zmienia się częstość cech w populacji.
 
-## Na spokojnie
+[pytanie: lamarck]
 
-[muzyka, cicho]
+Ostatnie pytanie. Co jest błędem w zdaniu „ćmy sczerniały, żeby ukryć się przed ptakami”?
 
-Podsumujmy. Dowody ewolucji są paleontologiczne, z anatomii porównawczej, embriologiczne i molekularne. Dobór naturalny działa, bo osobniki się różnią, różnice są dziedziczne, a lepiej dopasowane częściej przeżywają i mają więcej potomstwa. Zmienia się populacja, nie pojedynczy osobnik. Dobór stabilizujący wybiera przeciętne, kierunkowy jedną skrajność, rozrywający obie. Dobór płciowy faworyzuje cechy zwiększające sukces w rozmnażaniu.
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Sugeruje, że ćmy zmieniły się celowo. W rzeczywistości czarne ćmy istniały wcześniej, a dobór sprawił, że przeżywały częściej i ich udział w populacji wzrósł.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: dlaczego zdanie „żyrafy wyciągały szyje, żeby sięgnąć liści, i dlatego mają długie szyje” jest błędne?
-
-[pauza, dłuższa]
-
-Bo cechy nabyte w ciągu życia nie są dziedziczone. Poprawnie: żyrafy różniły się długością szyi, te z dłuższą lepiej zdobywały pokarm, częściej przeżywały i miały więcej potomstwa, które dziedziczyło długą szyję.
-
-Drugie: podaj przykład narządu szczątkowego u człowieka.
-
-[pauza, dłuższa]
-
-Kość guziczna, wyrostek robaczkowy, mięśnie poruszające małżowiną uszną.
-
-Trzecie: w populacji ryb przeżywają tylko osobniki bardzo małe i bardzo duże. Jaki to rodzaj doboru?
-
-[pauza, dłuższa]
-
-Dobór rozrywający.
-
-[pauza]
-
-W następnym odcinku genetyka populacji. Dlaczego w małych, odizolowanych społecznościach rzadkie choroby genetyczne zdarzają się dużo częściej. Do usłyszenia.
+W następnym odcinku wyspa na Pacyfiku, na której co dziesiąty mieszkaniec nie widzi kolorów. Do usłyszenia.
 
 [muzyka, wyciszenie]
