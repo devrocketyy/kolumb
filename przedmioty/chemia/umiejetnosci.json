@@ -1,0 +1,911 @@
+{
+ "id": "umiejetnosci",
+ "nazwa": "Umiejętności egzaminacyjne",
+ "opis": "Czytanie poleceń, model obliczeń, jednostki i zaokrąglenia, doświadczenia: obserwacje i wnioski.",
+ "poddzialy": [
+  {
+   "id": "c-polecenia",
+   "nazwa": "Czytanie poleceń, czasowniki operacyjne i warunki zadania",
+   "opis": "Wymaganie og. I–II podstawy programowej.",
+   "wymaganie": "og. I–II",
+   "fiszki": [
+    {
+     "id": "f3eb98639",
+     "przod": "Co według sprawozdań CKE 2023–2026 najczęściej odbiera punkty na maturze z chemii?",
+     "tyl": "Pobieżne czytanie polecenia i pomijanie jego warunków, niestaranne równania i wzory, błędny model obliczeń, działania na jednostkach oraz brak logicznego uzasadnienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f7178a59c",
+     "przod": "Pierwszy krok przy każdym zadaniu",
+     "tyl": "Wypisać (podkreślić) wszystkie warunki polecenia: co dokładnie zapisać, w jakiej formie (cząsteczkowej, jonowej, jonowej skróconej), z jaką dokładnością, z jakimi jednostkami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f1bdc1163",
+     "przod": "Czego wymaga polecenie „napisz równanie reakcji w formie jonowej skróconej”?",
+     "tyl": "Zapisania tylko tych jonów i cząsteczek, które biorą udział w reakcji; substancje słabo zdysocjowane, gazy i osady zapisuje się w formie cząsteczkowej. Brak jonów „widzów”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f6591f840",
+     "przod": "Typowy błąd przy równaniu jonowym skróconym",
+     "tyl": "Rozpisanie na jony osadu, gazu, wody lub słabego elektrolitu (np. CH₃COOH, H₂S, NH₃·H₂O), albo pozostawienie jonów, które się nie zmieniają.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f2125bf8c",
+     "przod": "Czego wymaga polecenie „napisz równanie reakcji w formie cząsteczkowej”?",
+     "tyl": "Zapisania wszystkich reagentów jako związków (np. NaCl, H₂SO₄), z poprawnymi wzorami i współczynnikami stechiometrycznymi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f928f4572",
+     "przod": "Co oznacza w poleceniu „uzgodnij współczynniki”?",
+     "tyl": "Dobranie najmniejszych całkowitych współczynników, tak aby liczba atomów każdego pierwiastka (i ładunek w równaniu jonowym) była taka sama po obu stronach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f226007d0",
+     "przod": "Czego wymaga polecenie „wyjaśnij” w chemii?",
+     "tyl": "Związku przyczynowo-skutkowego: przyczyna (np. budowa cząsteczki) → mechanizm (co się dzieje) → skutek (obserwowana właściwość).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "fb5514d98",
+     "przod": "Czego wymaga polecenie „uzasadnij”?",
+     "tyl": "Podania argumentu chemicznego, który rzeczywiście dowodzi rozstrzygnięcia — najlepiej odwołującego się do danych z zadania lub do prawa chemicznego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f69666577",
+     "przod": "Czego wymaga polecenie „oceń, czy… i uzasadnij”?",
+     "tyl": "Jednoznacznej oceny (tak/nie, rośnie/maleje) i argumentu. Ocena bez uzasadnienia lub z błędnym uzasadnieniem = 0 pkt.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "fc102c6ca",
+     "przod": "Czego wymaga polecenie „określ”?",
+     "tyl": "Krótkiego podania cechy, typu, charakteru lub zależności (np. „charakter amfoteryczny”, „reakcja egzoenergetyczna”) — bez rozbudowanego uzasadnienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f7060ee27",
+     "przod": "Czego wymaga polecenie „uzupełnij tabelę / schemat”?",
+     "tyl": "Wpisania wszystkich brakujących elementów zgodnie z nagłówkami tabeli. Zwykle punkt tylko za komplet poprawnych wpisów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "fa0af05cc",
+     "przod": "Czego wymaga polecenie „podkreśl właściwe określenie”?",
+     "tyl": "Wybrania jednego określenia w każdym nawiasie. Podkreślenie dwóch opcji w jednym nawiasie to odpowiedź błędna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "fe54b5432",
+     "przod": "Czego wymaga polecenie „narysuj wzór półstrukturalny (grupowy)”?",
+     "tyl": "Wzoru, w którym widać szkielet węglowy i wszystkie grupy z atomami wodoru, np. CH₃–CH(OH)–CH₃. Każdy atom węgla musi mieć cztery wiązania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f68fee3d4",
+     "przod": "Typowy błąd we wzorach półstrukturalnych według CKE",
+     "tyl": "Brak lub nadmiar atomów wodoru przy węglu, „pięciowiązalny” węgiel, wiązanie narysowane do niewłaściwego atomu (np. do H zamiast do O w grupie –OH).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f52de0f75",
+     "przod": "Czego wymaga polecenie „napisz wzór uproszczony (szkieletowy)”?",
+     "tyl": "Rysunku szkieletu węglowego liniami (każde załamanie i koniec = atom C), z zaznaczonymi heteroatomami i grupami funkcyjnymi; atomów H przy C się nie rysuje.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "fbc917aea",
+     "przod": "Czym różni się „obserwacja” od „wniosku” w doświadczeniu?",
+     "tyl": "Obserwacja to to, co widać, czuć lub słychać (zmiana barwy, osad, gaz, zapach). Wniosek to interpretacja chemiczna (np. „powstał wodorotlenek miedzi(II)”).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "ffb55aeca",
+     "przod": "Typowy błąd przy zapisie obserwacji",
+     "tyl": "Podanie wniosku zamiast obserwacji, np. „wydziela się wodór” zamiast „wydziela się bezbarwny, bezwonny gaz”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f619e2b0b",
+     "przod": "Co oznacza „z dokładnością do dwóch miejsc po przecinku” w odpowiedzi?",
+     "tyl": "Wynik końcowy należy zaokrąglić do drugiego miejsca po przecinku. Inne zaokrąglenie (np. do jednego miejsca) może kosztować punkt.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f5a4a3b24",
+     "przod": "Jak postępować z zaokrągleniami w trakcie obliczeń?",
+     "tyl": "W obliczeniach pośrednich zachować więcej cyfr (lub nie zaokrąglać), a zaokrąglić dopiero wynik końcowy zgodnie z poleceniem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f94e79605",
+     "przod": "Co się dzieje, gdy obok poprawnej odpowiedzi dopiszesz błędną informację?",
+     "tyl": "Egzaminator zwykle nie przyzna punktu — dodatkowe, błędne komentarze „psują” poprawną część (CKE: „niepotrzebne, niepoprawne komentarze”).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f646362e4",
+     "przod": "Czy na maturze z chemii można używać kalkulatora?",
+     "tyl": "Tak, kalkulatora naukowego. Do dyspozycji są też linijka i karta „Wybrane wzory i stałe fizykochemiczne”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f9f08ae2e",
+     "przod": "Ile trwa matura z chemii i ile ma punktów?",
+     "tyl": "180 minut, 60 punktów, około 29–30 zadań i 39–43 polecenia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "ffef5924c",
+     "przod": "Ile czasu średnio przypada na 1 punkt?",
+     "tyl": "Około 3 minuty (180 min : 60 pkt) — warto nie utknąć na jednym obliczeniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f1dca91ce",
+     "przod": "Jak sprawdzić odpowiedź przed oddaniem?",
+     "tyl": "Czy odpowiada na polecenie i spełnia wszystkie warunki? Czy równania są uzgodnione (atomy i ładunki)? Czy wynik ma jednostkę i poprawne zaokrąglenie? Czy wynik ma sens?",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f490b71d7",
+     "przod": "Pułapka: „rozpuszcza się” a „roztwarza się”",
+     "tyl": "Rozpuszczanie — substancja przechodzi do roztworu bez zmiany chemicznej (np. cukier w wodzie). Roztwarzanie — substancja reaguje z rozpuszczalnikiem (np. Zn w HCl). W odpowiedziach CKE rozróżnia te pojęcia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f28d697b3",
+     "przod": "Pułapka: „ilość” a „liczba” a „masa”",
+     "tyl": "W chemii „liczba moli” (n), „masa” (m), „objętość” (V) — potoczne „ilość” jest nieprecyzyjne i bywa uznane za błąd terminologiczny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "fc7e06928",
+     "przod": "Co zrobić, gdy zadanie opisuje nieznaną substancję lub reakcję?",
+     "tyl": "Szukać w tekście danych o jej budowie i właściwościach, porównać z poznaną grupą związków (analogia) i zastosować znane prawa — CKE ocenia rozumowanie, a nie pamięć.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f97e79f0b",
+     "przod": "Co oznacza „na podstawie informacji” w poleceniu?",
+     "tyl": "Odpowiedź musi korzystać z podanych w zadaniu danych (tekst, tabela, wykres). Sama wiedza ogólna, bez odwołania do danych, zwykle nie wystarcza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "f9a59f9c5",
+     "przod": "Czego wymaga polecenie „zaprojektuj doświadczenie” (z wyborem odczynników)?",
+     "tyl": "Wybrania odczynnika(-ów) z podanej listy, opisania czynności (co do czego dodać) i podania przewidywanych obserwacji, a często też wniosku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    },
+    {
+     "id": "fc24cca89",
+     "przod": "Czego wymaga polecenie „podaj nazwę systematyczną”?",
+     "tyl": "Nazwy zgodnej z zasadami IUPAC (np. kwas propanowy, 2-metylopropan-2-ol), a nie nazwy zwyczajowej — chyba że polecenie dopuszcza obie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pa1a06e21",
+     "pytanie": "Które równanie jest poprawnym równaniem jonowym skróconym reakcji kwasu octowego z NaOH?",
+     "odpowiedzi": [
+      "CH₃COOH + NaOH → CH₃COONa + H₂O",
+      "CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O",
+      "CH₃COO⁻ + H⁺ + Na⁺ + OH⁻ → CH₃COONa + H₂O",
+      "H⁺ + OH⁻ → H₂O"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Kwas octowy jest słabym elektrolitem, więc zapisujemy go cząsteczkowo; Na⁺ to jon „widz”.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6d67221b",
+     "pytanie": "Który zapis jest OBSERWACJĄ, a nie wnioskiem?",
+     "odpowiedzi": [
+      "roztwór ma odczyn zasadowy",
+      "powstał osad Cu(OH)₂",
+      "wytrąca się niebieski, galaretowaty osad",
+      "wydziela się tlen"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Obserwacja opisuje to, co widać, a nie nazywa produktu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p680a19c5",
+     "pytanie": "Polecenie: „Podaj wynik z dokładnością do jednego miejsca po przecinku”. Obliczona wartość to 12,346. Jaki wynik zapisać?",
+     "odpowiedzi": [
+      "12",
+      "12,35",
+      "12,346",
+      "12,3"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Zaokrąglamy wynik końcowy zgodnie z poleceniem.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5e9f1be8",
+     "pytanie": "Uczeń napisał poprawne równanie, a obok dopisał błędną nazwę produktu. Co zwykle się dzieje?",
+     "odpowiedzi": [
+      "traci punkt, bo odpowiedź zawiera błąd merytoryczny",
+      "otrzymuje pełną liczbę punktów",
+      "egzaminator pomija dopisek",
+      "otrzymuje pół punktu"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "CKE: niepotrzebne, błędne komentarze powodują utratę punktów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p561622a9",
+     "pytanie": "Który wzór grupowy propan-2-olu jest poprawny?",
+     "odpowiedzi": [
+      "CH₂–CH(OH)–CH₃",
+      "CH₃–CH₂–CH₂–OH",
+      "CH₃–CH(HO)–CH₄",
+      "CH₃–CH(OH)–CH₃"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Każdy C ma 4 wiązania; grupa –OH przy drugim atomie węgla.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9a455671",
+     "pytanie": "Co oznacza „roztwarzanie” cynku w kwasie solnym?",
+     "odpowiedzi": [
+      "fizyczne rozpuszczenie metalu",
+      "topnienie metalu",
+      "reakcję chemiczną metalu z kwasem, w której metal przechodzi do roztworu jako jony",
+      "osadzanie cynku na dnie"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Zn + 2H⁺ → Zn²⁺ + H₂ — to reakcja, a nie rozpuszczanie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p424ba6c6",
+     "pytanie": "Polecenie: „Oceń, czy… Uzasadnij”. Uczeń napisał tylko „tak”. Ile punktów?",
+     "odpowiedzi": [
+      "0",
+      "1",
+      "zależy od trudności",
+      "0,5"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Ocena bez uzasadnienia nie spełnia polecenia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p12bc18e2",
+     "pytanie": "Ile trwa matura z chemii na poziomie rozszerzonym?",
+     "odpowiedzi": [
+      "210 min",
+      "180 min",
+      "150 min",
+      "120 min"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Arkusz 60 pkt, 180 minut.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-obliczenia",
+   "nazwa": "Model obliczeń, jednostki, zaokrąglenia i sens wyniku",
+   "opis": "Wymaganie og. II podstawy programowej.",
+   "wymaganie": "og. II",
+   "fiszki": [
+    {
+     "id": "f8222d372",
+     "przod": "Co CKE nazywa „modelem matematycznym” rozwiązania?",
+     "tyl": "Plan obliczeń: jakie wielkości są dane, czego szukamy, jaką zależność (wzór, proporcję, stechiometrię) stosujemy i dlaczego — zanim zacznie się rachunek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f49018a4d",
+     "przod": "Dlaczego błąd modelu jest gorszy niż błąd rachunkowy?",
+     "tyl": "Bo przy złym modelu (np. zła stała, zły stosunek molowy) cały tok rozumowania jest błędny i zwykle daje 0 pkt, a przy drobnym błędzie rachunkowym często zostaje punkt za metodę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "faeacc8c4",
+     "przod": "Schemat dobrego rozwiązania zadania obliczeniowego",
+     "tyl": "1) dane i szukane z jednostkami, 2) równanie reakcji z uzgodnionymi współczynnikami, 3) zależność (stosunek molowy, wzór), 4) obliczenia z jednostkami, 5) wynik z zaokrągleniem, 6) sprawdzenie sensu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f3f9b4db3",
+     "przod": "Jak oceniane są zadania obliczeniowe na maturze z chemii?",
+     "tyl": "Zwykle za poprawną metodę (model) i za poprawne obliczenia z wynikiem i jednostką. Sam wynik bez toku rozumowania nie daje punktów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fea0f040e",
+     "przod": "Wzór: liczba moli z masy",
+     "tyl": "n = m / M (n — mol, m — g, M — g/mol).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f2dca96bb",
+     "przod": "Wzór: liczba moli gazu w warunkach normalnych",
+     "tyl": "n = V / Vmol, gdzie Vmol = 22,4 dm³/mol (warunki normalne: 0°C, 1013 hPa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fd0b589d7",
+     "przod": "Wzór: równanie Clapeyrona",
+     "tyl": "pV = nRT; R = 83,14 hPa·dm³/(mol·K) — przy p w hPa i V w dm³. Temperatura zawsze w kelwinach: T = t(°C) + 273,15.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f293187ab",
+     "przod": "Typowy błąd w równaniu Clapeyrona",
+     "tyl": "Temperatura w °C zamiast w kelwinach albo niezgodne jednostki ciśnienia i stałej R (Pa z R dla hPa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fc9fbc3da",
+     "przod": "Wzór: stężenie procentowe",
+     "tyl": "Cp = (ms / mr) · 100%, gdzie ms — masa substancji, mr — masa roztworu (substancja + rozpuszczalnik).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f9cf30ad3",
+     "przod": "Wzór: stężenie molowe",
+     "tyl": "Cm = n / V, n — mol, V — objętość roztworu w dm³ (nie objętość rozpuszczalnika!).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f9519893b",
+     "przod": "Przeliczanie Cp na Cm",
+     "tyl": "Cm = (Cp · d) / (M · 100%), gdzie d — gęstość roztworu w g/dm³ (uwaga: g/cm³ × 1000 = g/dm³).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fcdb7a34c",
+     "przod": "Typowy błąd przy gęstości",
+     "tyl": "Mieszanie g/cm³ z g/dm³ albo cm³ z dm³ — wynik wychodzi 1000 razy za duży lub za mały.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f19fa3f9d",
+     "przod": "1 dm³ = ? cm³",
+     "tyl": "1 dm³ = 1000 cm³ = 1 litr. 1 cm³ = 1 ml.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f0059e0ad",
+     "przod": "Jak sprawdzić, czy wynik ma sens?",
+     "tyl": "Porównać z rzędem wielkości: Cp nie przekracza 100%, pH zwykle 0–14, wydajność ≤ 100%, masa produktu nie może przekraczać masy substratów (z uwzględnieniem stechiometrii).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fe45b197f",
+     "przod": "Co to jest stosunek stechiometryczny?",
+     "tyl": "Stosunek liczby moli reagentów wynikający ze współczynników w uzgodnionym równaniu reakcji, np. 2H₂ + O₂ → 2H₂O: n(H₂) : n(O₂) = 2 : 1.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fda93d046",
+     "przod": "Typowy błąd stechiometryczny według CKE",
+     "tyl": "Pominięcie współczynników równania (przyjęcie stosunku 1 : 1) albo użycie nieuzgodnionego równania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f36f5ac05",
+     "przod": "Jak liczyć z równania reakcji krok po kroku?",
+     "tyl": "Przeliczyć daną wielkość na mole → przez stosunek molowy z równania znaleźć mole szukanej substancji → przeliczyć mole na masę, objętość lub liczbę cząsteczek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fe8c46d34",
+     "przod": "Wydajność reakcji — wzór",
+     "tyl": "W = (ilość otrzymana praktycznie / ilość teoretyczna) · 100%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f56d6a4a2",
+     "przod": "Co to jest substrat w nadmiarze?",
+     "tyl": "Substrat, którego jest więcej, niż wynika ze stosunku stechiometrycznego. O ilości produktu decyduje substrat w niedomiarze (limitujący).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f05427d3e",
+     "przod": "Jak znaleźć substrat w niedomiarze?",
+     "tyl": "Policzyć mole obu substratów i podzielić przez ich współczynniki w równaniu — mniejszy wynik wskazuje substrat w niedomiarze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "ff4f125bf",
+     "przod": "Liczba Avogadra",
+     "tyl": "NA = 6,02 · 10²³ mol⁻¹ — liczba drobin w 1 molu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f397cd85b",
+     "przod": "Jak przeliczać ułamki i procenty",
+     "tyl": "Procent / 100 = ułamek, np. 15% = 0,15. W obliczeniach używa się ułamka, wynik można podać w procentach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fc6a2a201",
+     "przod": "Jak zapisać wynik końcowy?",
+     "tyl": "Liczbą z jednostką i z dokładnością podaną w poleceniu, np. „m = 2,45 g”. Brak jednostki może kosztować punkt.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fbfea5d80",
+     "przod": "Co z cyframi znaczącymi, gdy polecenie nie podaje dokładności?",
+     "tyl": "Podać wynik z rozsądną dokładnością, zwykle tak dokładnie jak dane (najczęściej 2–3 cyfry znaczące); zaokrąglać dopiero na końcu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f959cdb55",
+     "przod": "Jaką masę molową przyjmować w obliczeniach?",
+     "tyl": "Masy atomowe z karty „Wybrane wzory i stałe…” (np. H = 1,01; C = 12,01; O = 16,00 albo zaokrąglone, jeśli polecenie tak wskazuje).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f129472c3",
+     "przod": "Rozpoznaj: Cm = (Cp · d) / (M · 100%), gdzie d — gęstość roztworu w g/dm³ (uwaga: g/cm³ × 1000 = g/dm³).",
+     "tyl": "Przeliczanie Cp na Cm",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p196bc37d",
+     "pytanie": "Ile moli to 4,4 g CO₂ (M = 44 g/mol)?",
+     "odpowiedzi": [
+      "0,1 mol",
+      "10 mol",
+      "1 mol",
+      "0,44 mol"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "n = m/M = 4,4/44 = 0,1 mol.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf5f2e4b2",
+     "pytanie": "Jaką objętość zajmuje 0,5 mola gazu w warunkach normalnych?",
+     "odpowiedzi": [
+      "22,4 dm³",
+      "11,2 dm³",
+      "44,8 dm³",
+      "5,6 dm³"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "V = n · 22,4 dm³/mol = 11,2 dm³.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p94ff806f",
+     "pytanie": "Gęstość roztworu wynosi 1,2 g/cm³. Ile to g/dm³?",
+     "odpowiedzi": [
+      "1,2 g/dm³",
+      "12 g/dm³",
+      "0,0012 g/dm³",
+      "1200 g/dm³"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "1 dm³ = 1000 cm³.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7b1d4a76",
+     "pytanie": "W reakcji 2H₂ + O₂ → 2H₂O użyto 4 mol H₂ i 4 mol O₂. Który substrat jest w niedomiarze?",
+     "odpowiedzi": [
+      "O₂",
+      "oba po równo",
+      "H₂",
+      "nie da się ustalić"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "4/2 = 2 dla H₂, 4/1 = 4 dla O₂ — mniejszy wynik ma H₂.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd67d1dda",
+     "pytanie": "Otrzymano 8 g produktu, a teoretycznie powinno powstać 10 g. Wydajność wynosi:",
+     "odpowiedzi": [
+      "80%",
+      "8%",
+      "20%",
+      "125%"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "W = 8/10 · 100% = 80%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pdae59898",
+     "pytanie": "W równaniu Clapeyrona temperaturę podajemy w:",
+     "odpowiedzi": [
+      "kelwinach",
+      "°F",
+      "°C",
+      "dowolnej jednostce"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "T = t + 273,15.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc0919809",
+     "pytanie": "Który wynik na pewno jest błędny?",
+     "odpowiedzi": [
+      "Cp = 37%",
+      "n = 0,03 mol",
+      "pH = 2,5",
+      "wydajność = 120%"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Wydajność nie może przekroczyć 100%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-doswiadczenia",
+   "nazwa": "Doświadczenia: projekt, obserwacje, wnioski i identyfikacja substancji",
+   "opis": "Wymaganie og. III podstawy programowej.",
+   "wymaganie": "og. III",
+   "fiszki": [
+    {
+     "id": "f60701256",
+     "przod": "Jak zapisać obserwacje: wydzielanie gazu",
+     "tyl": "Opisać, co widać: „wydzielają się pęcherzyki bezbarwnego gazu (bez zapachu / o charakterystycznym zapachu)”. Nie nazywać gazu w obserwacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f6a177e1b",
+     "przod": "Jak zapisać obserwacje: powstawanie osadu",
+     "tyl": "Podać barwę i wygląd osadu: „wytrąca się biały, serowaty osad” (AgCl), „niebieski, galaretowaty osad” (Cu(OH)₂).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f049207a7",
+     "przod": "Barwa i wygląd osadu AgCl",
+     "tyl": "Biały, serowaty osad, ciemniejący na świetle.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fa2ba02d3",
+     "przod": "Barwa osadu Cu(OH)₂",
+     "tyl": "Niebieski (granatowoniebieski), galaretowaty.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f55aa89c2",
+     "przod": "Barwa osadu Fe(OH)₃",
+     "tyl": "Brunatnoczerwony (rdzawy), kłaczkowaty.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fa126d660",
+     "przod": "Barwa osadu Fe(OH)₂",
+     "tyl": "Zielonkawy (szarozielony), z czasem brunatniejący na powietrzu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f6b93e75d",
+     "przod": "Barwa osadu BaSO₄",
+     "tyl": "Biały, drobnokrystaliczny — nierozpuszczalny w kwasach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f34d55f82",
+     "przod": "Barwa osadu AgI i AgBr",
+     "tyl": "AgI — żółty, AgBr — jasnożółty (kremowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f81ed5d63",
+     "przod": "Barwa osadu PbI₂",
+     "tyl": "Intensywnie żółty.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fcbf98329",
+     "przod": "Barwa wskaźnika: fenoloftaleina",
+     "tyl": "W roztworze zasadowym malinowa (różowofioletowa), w obojętnym i kwasowym bezbarwna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f0abaabc9",
+     "przod": "Barwa wskaźnika: oranż metylowy",
+     "tyl": "W kwasowym czerwona, w obojętnym i zasadowym pomarańczowo-żółta (żółta).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f4d33b9a5",
+     "przod": "Barwa wskaźnika: uniwersalny papierek wskaźnikowy",
+     "tyl": "Kwasowy — czerwony/różowy, obojętny — żółty (żółtopomarańczowy), zasadowy — zielony do granatowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f48356825",
+     "przod": "Barwa wskaźnika: wywar z czerwonej kapusty",
+     "tyl": "Kwasowy — czerwony, obojętny — fioletowy, zasadowy — zielony/żółty (silnie zasadowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fc49a7865",
+     "przod": "Barwy jonów w roztworze: Cu²⁺, Fe³⁺, Fe²⁺",
+     "tyl": "Cu²⁺ — niebieska; Fe³⁺ — żółta (żółtopomarańczowa); Fe²⁺ — bladozielona.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fc7c92fbb",
+     "przod": "Barwy jonów: MnO₄⁻, Cr₂O₇²⁻, CrO₄²⁻",
+     "tyl": "MnO₄⁻ — fioletowa; Cr₂O₇²⁻ — pomarańczowa; CrO₄²⁻ — żółta.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fbc42f05a",
+     "przod": "Barwy produktów redukcji MnO₄⁻ w zależności od środowiska",
+     "tyl": "Kwasowe → Mn²⁺ (roztwór bezbarwny / bladoróżowy); obojętne → MnO₂ (brunatny osad); zasadowe → MnO₄²⁻ (zielony roztwór).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "feec344b7",
+     "przod": "Jak wykryć CO₂?",
+     "tyl": "Przepuścić gaz przez wodę wapienną (Ca(OH)₂) — pojawia się zmętnienie (biały osad CaCO₃).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fb1dd9c5a",
+     "przod": "Jak wykryć tlen?",
+     "tyl": "Wprowadzić tlącą się łuczywkę — rozżarza się (zapala).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f35d1adff",
+     "przod": "Jak wykryć wodór?",
+     "tyl": "Zbliżyć płomień do wylotu probówki — charakterystyczny „szczek” (wybuch mieszaniny z powietrzem).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f111187fc",
+     "przod": "Jak wykryć jony Cl⁻?",
+     "tyl": "Dodać AgNO₃ (z HNO₃) — biały, serowaty osad AgCl.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f5c3ea320",
+     "przod": "Jak wykryć jony SO₄²⁻?",
+     "tyl": "Dodać BaCl₂ (lub Ba(NO₃)₂) — biały osad BaSO₄, nierozpuszczalny w kwasach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f7a846054",
+     "przod": "Jak wykryć jony CO₃²⁻?",
+     "tyl": "Dodać kwas (np. HCl) — wydziela się bezbarwny, bezwonny gaz, mętniejący wodę wapienną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f550b2b66",
+     "przod": "Jak wykryć jony NH₄⁺?",
+     "tyl": "Ogrzać z zasadą (NaOH) — wydziela się gaz o charakterystycznym, drażniącym zapachu, barwiący zwilżony papierek wskaźnikowy na zielononiebiesko.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "ff63f363a",
+     "przod": "Jak wykryć skrobię?",
+     "tyl": "Dodać jodynę lub płyn Lugola — granatowe (ciemnoniebieskie) zabarwienie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f663a14cf",
+     "przod": "Jak wykryć białko?",
+     "tyl": "Próba biuretowa (CuSO₄ + NaOH) — fioletowe zabarwienie; reakcja ksantoproteinowa (stęż. HNO₃) — żółte zabarwienie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f50ca4bff",
+     "przod": "Jak wykryć grupę aldehydową?",
+     "tyl": "Próba Tollensa (srebrne lustro) albo próba Trommera (ceglastoczerwony osad Cu₂O po ogrzaniu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f65a32cb9",
+     "przod": "Jak wykazać nienasycenie węglowodoru?",
+     "tyl": "Woda bromowa lub roztwór KMnO₄ — odbarwienie (addycja / utlenienie wiązania wielokrotnego).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f14c22a9e",
+     "przod": "Co to jest próba kontrolna w doświadczeniu chemicznym?",
+     "tyl": "Próba przeprowadzona w tych samych warunkach, ale bez badanego czynnika — pozwala stwierdzić, że obserwowany efekt wynika z tego czynnika.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f5e4e3887",
+     "przod": "Jak zaprojektować doświadczenie z listy odczynników?",
+     "tyl": "Wybrać odczynnik, który z badaną substancją daje wyraźną, odmienną obserwację (osad, barwa, gaz), opisać czynność i podać spodziewaną obserwację dla każdej probówki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fc0549f99",
+     "przod": "Typowy błąd w projektowaniu doświadczenia według CKE",
+     "tyl": "Wybór odczynnika, który daje taki sam efekt z obiema badanymi substancjami — doświadczenie nie pozwala ich rozróżnić.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f4c6d8152",
+     "przod": "Jak rozróżnić alkohol jednowodorotlenowy od wielowodorotlenowego?",
+     "tyl": "Świeżo strącony Cu(OH)₂: z alkoholem polihydroksylowym (np. glicerolem) daje szafirowy (lazurowy) roztwór, z jednowodorotlenowym brak zmian.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fa1fd9537",
+     "przod": "Jak rozróżnić fenol od alkoholu?",
+     "tyl": "Roztwór FeCl₃ — z fenolem fioletowe zabarwienie; fenol ma też odczyn słabo kwasowy i reaguje z NaOH, alkohol nie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f90d51537",
+     "przod": "Rozpoznaj: Biały, serowaty osad, ciemniejący na świetle.",
+     "tyl": "Barwa i wygląd osadu AgCl",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f7c039157",
+     "przod": "Rozpoznaj: Niebieski (granatowoniebieski), galaretowaty.",
+     "tyl": "Barwa osadu Cu(OH)₂",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fb443cc97",
+     "przod": "Rozpoznaj: Brunatnoczerwony (rdzawy), kłaczkowaty.",
+     "tyl": "Barwa osadu Fe(OH)₃",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f6f34261b",
+     "przod": "Rozpoznaj: Zielonkawy (szarozielony), z czasem brunatniejący na powietrzu.",
+     "tyl": "Barwa osadu Fe(OH)₂",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f3c1c5b53",
+     "przod": "Rozpoznaj: Biały, drobnokrystaliczny — nierozpuszczalny w kwasach.",
+     "tyl": "Barwa osadu BaSO₄",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fb27527f5",
+     "przod": "Rozpoznaj: Intensywnie żółty.",
+     "tyl": "Barwa osadu PbI₂",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f61aa0cb5",
+     "przod": "Rozpoznaj: W roztworze zasadowym malinowa (różowofioletowa), w obojętnym i kwasowym bezbarwna.",
+     "tyl": "Barwa wskaźnika: fenoloftaleina",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f906a341a",
+     "przod": "Rozpoznaj: W kwasowym czerwona, w obojętnym i zasadowym pomarańczowo-żółta (żółta).",
+     "tyl": "Barwa wskaźnika: oranż metylowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f592f456e",
+     "przod": "Rozpoznaj: Kwasowy — czerwony/różowy, obojętny — żółty (żółtopomarańczowy), zasadowy — zielony do granatowego.",
+     "tyl": "Barwa wskaźnika: uniwersalny papierek wskaźnikowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fa94dfed7",
+     "przod": "Rozpoznaj: Cu²⁺ — niebieska; Fe³⁺ — żółta (żółtopomarańczowa); Fe²⁺ — bladozielona.",
+     "tyl": "Barwy jonów w roztworze: Cu²⁺, Fe³⁺, Fe²⁺",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p75741906",
+     "pytanie": "Którym odczynnikiem rozróżnisz roztwory NaCl i Na₂SO₄?",
+     "odpowiedzi": [
+      "NaOH",
+      "woda",
+      "fenoloftaleina",
+      "BaCl₂"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Z Na₂SO₄ wytrąci się biały osad BaSO₄, z NaCl nie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7dd3eaba",
+     "pytanie": "Jaką barwę ma osad Cu(OH)₂?",
+     "odpowiedzi": [
+      "niebieski, galaretowaty",
+      "brunatny",
+      "żółty",
+      "biały"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Cu(OH)₂ — niebieski, galaretowaty.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "peec344b7",
+     "pytanie": "Jak wykryć CO₂?",
+     "odpowiedzi": [
+      "fenoloftaleiną",
+      "tlącą się łuczywką",
+      "wodą wapienną — zmętnienie",
+      "wodą bromową"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "CO₂ + Ca(OH)₂ → CaCO₃↓ + H₂O.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd84205e2",
+     "pytanie": "Fenoloftaleina w roztworze zasadowym ma barwę:",
+     "odpowiedzi": [
+      "żółtą",
+      "bezbarwną",
+      "niebieską",
+      "malinową"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "W kwasowym i obojętnym jest bezbarwna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "peef4bc14",
+     "pytanie": "Co obserwujemy w próbie Tollensa z aldehydem?",
+     "odpowiedzi": [
+      "fioletowe zabarwienie",
+      "srebrny nalot (lustro) na ściankach",
+      "ceglastoczerwony osad",
+      "zmętnienie wody wapiennej"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ag⁺ redukuje się do metalicznego srebra.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc696f0b1",
+     "pytanie": "Fioletowy roztwór KMnO₄ w środowisku obojętnym po reakcji z reduktorem daje:",
+     "odpowiedzi": [
+      "brunatny osad MnO₂",
+      "bezbarwny roztwór",
+      "żółty osad",
+      "zielony roztwór"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Obojętne → MnO₂.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf15cb73a",
+     "pytanie": "Którym odczynnikiem odróżnisz glicerol od etanolu?",
+     "odpowiedzi": [
+      "świeżo strąconym Cu(OH)₂",
+      "wodą bromową",
+      "wodą wapienną",
+      "BaCl₂"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Glicerol daje szafirowy roztwór kompleksu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
