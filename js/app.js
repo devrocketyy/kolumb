@@ -543,6 +543,7 @@ function prognoza(s, tempo) {
   let odpowiedzi = 0, nowe14 = 0;
   for (const d of s.dzialy) {
     let n = 0, pam = 0, fresh = 0, odpDz = 0;
+    for (const u of d.poddzialy) if (u.zablokowany) { n += u.liczbaFiszek || 0; fresh += u.liczbaFiszek || 0; } // zablokowane: nieznane
     for (const u of d.poddzialy) for (const f of u.fiszki) {
       n++;
       const c = st.cards[cardKey(s.id, u.id, f.id)];
@@ -2065,6 +2066,7 @@ function viewMatura(tab) {
           <div class="pop-row">
             ${cke.length ? `<a class="btn btn-ghost btn-sm" href="#/zadania/${enc(s.id)}/d/${enc(d.id)}">Z arkuszy CKE <b>${cke.length}</b></a>` : ''}
             ${own.length ? `<a class="btn btn-ghost btn-sm" href="#/zadania/${enc(s.id)}/b/${enc(d.id)}">Autorskie <b>${own.length}</b></a>` : ''}
+            ${zabl && !own.length ? `<a class="btn btn-ghost btn-sm" href="#/plany">${ICONS.lock} Autorskie <b>${zabl}</b></a>` : ''}
           </div>
         </div>`;
       }).join('')}</div>`;

@@ -89,7 +89,7 @@ export function summary(sid, units, allowance = newAllowance(sid)) {
     newToday,
     todo: due + newToday,
     mastered,
-    seen: total - fresh,
+    seen: total - fresh - locked, // total już zawiera zablokowane — nie są „przerobione”
     progress: total ? points / (total * MASTERED_BOX) : 0,
   };
 }
