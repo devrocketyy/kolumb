@@ -2611,22 +2611,73 @@ async function viewOdcinek(klucz) {
   const ile = pod.pytania.length;
   const dobre = Object.values(pod.wyniki).filter(Boolean).length;
   app.innerHTML = `
-    ${pageHead(o.tytul, '#/podcast', `${s.nazwa} · odcinek ${o.nr}`)}
-    ${ile ? `<nav class="seg-tabs" aria-label="Tryb słuchania">
-      <a href="#" data-tryb="aktywny" class="${tryb === 'aktywny' ? 'active' : ''}">Ucz się · z pytaniami</a>
-      <a href="#" data-tryb="pasywny" class="${tryb === 'pasywny' ? 'active' : ''}">Słuchaj</a></nav>
-    <p class="muted small">${tryb === 'aktywny' ? `Nagranie zatrzyma się ${ile} razy na krótkie pytanie.` : 'Nagranie leci bez przerw — możesz zablokować ekran. Pytania sprawdzisz na końcu.'}</p>` : ''}
-    <section class="card pod-player">
-      <audio id="pod-audio" controls preload="metadata" src="${esc(n.plik)}"></audio>
-      <p class="muted small" id="pod-stan">${ile ? `Pytania: ${Object.keys(pod.wyniki).length}/${ile} · dobrze: ${dobre}` : ''}</p>
+    ${pageHead('Podcast', '#/podcast')}
+    <section class="pod-hero2">
+      <div class="pod-cover" aria-hidden="true">
+        <svg class="pod-star" viewBox="6 21 33 33"><path d="M22.28,22.44 Q24.08,35.64 37.28,37.44 Q24.08,39.24 22.28,52.44 Q20.48,39.24 7.28,37.44 Q20.48,35.64 22.28,22.44Z" fill="currentColor"/></svg>
+        <span class="pod-cover-nr">${o.nr}</span>
+        <span class="pod-cover-sub">${esc(s.nazwa)}</span>
+      </div>
+      <p class="eyebrow">Podcast · odcinek ${o.nr} · ${n.min} min</p>
+      <h1 class="pod-title">${esc(o.tytul)}</h1>
+      ${ile ? `<div class="pod-mode" role="group" aria-label="Tryb słuchania">
+        <button type="button" data-tryb="aktywny" class="${tryb === 'aktywny' ? 'on' : ''}" aria-pressed="${tryb === 'aktywny'}">Z pytaniami</button>
+        <button type="button" data-tryb="pasywny" class="${tryb === 'pasywny' ? 'on' : ''}" aria-pressed="${tryb === 'pasywny'}">Tylko słuchaj</button></div>
+      <p class="muted small center">${tryb === 'aktywny' ? `Nagranie zatrzyma się ${ile} razy na krótkie pytanie.` : 'Bez przerw — możesz zablokować ekran.'}</p>` : ''}
+      <audio id="pod-audio" preload="metadata" src="${esc(n.plik)}"></audio>
+      <div class="pod-track">
+        <div class="pod-bar" id="pod-bar" role="slider" tabindex="0" aria-label="Postęp odcinka" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <i class="pod-fill" id="pod-fill"></i>
+          ${pod.pytania.map((q) => `<b class="pod-dot" data-q="${esc(q.id)}" title="Pytanie"></b>`).join('')}
+        </div>
+        <div class="pod-times"><span id="pod-t">0:00</span><span id="pod-d">${n.min}:00</span></div>
+      </div>
+      <div class="pod-ctrl">
+        <button type="button" class="pod-skip" data-skok="-15" aria-label="Cofnij 15 sekund">−15</button>
+        <button type="button" class="pod-play" id="pod-play" aria-label="Odtwórz">${ICONS.play}</button>
+        <button type="button" class="pod-skip" data-skok="15" aria-label="Do przodu 15 sekund">+15</button>
+      </div>
+      <button type="button" class="pod-speed" id="pod-speed">Tempo 1×</button>
+      ${ile ? `<p class="pod-stan" id="pod-stan">Pytania: ${Object.keys(pod.wyniki).length}/${ile} · dobrze: ${dobre}</p>` : ''}
     </section>
     <div id="pod-karta"></div>
-    ${ile ? `<button type="button" class="btn btn-ghost btn-lg" id="pod-quiz">Sprawdź się: ${ile} pytań z odcinka</button>` : ''}`;
+    ${ile ? `<button type="button" class="btn btn-ghost btn-lg pod-quiz" id="pod-quiz">Sprawdź się: ${ile} pytań z odcinka</button>` : ''}`;
   const audio = app.querySelector('#pod-audio');
   const karta = app.querySelector('#pod-karta');
   if (pod.czas) audio.currentTime = pod.czas;
+  // własne sterowanie: przycisk, pasek z kropkami pytań, skoki i tempo
+  const fmtT = (x) => `${Math.floor(x / 60)}:${String(Math.floor(x % 60)).padStart(2, '0')}`;
+  const bar = app.querySelector('#pod-bar'), fill = app.querySelector('#pod-fill'), play = app.querySelector('#pod-play');
+  const rysuj = () => {
+    const d = audio.duration || 0, t = audio.currentTime || 0;
+    fill.style.width = d ? `${(t / d) * 100}%` : '0';
+    bar.setAttribute('aria-valuenow', d ? Math.round((t / d) * 100) : 0);
+    app.querySelector('#pod-t').textContent = fmtT(t);
+    if (d) app.querySelector('#pod-d').textContent = fmtT(d);
+    app.querySelectorAll('.pod-dot').forEach((el) => {
+      const c = pod.czasy[el.dataset.q];
+      if (!c || !d) { el.hidden = true; return; }
+      el.hidden = false; el.style.left = `${(c.czas / d) * 100}%`;
+      el.classList.toggle('ok', pod.wyniki[el.dataset.q] === true);
+      el.classList.toggle('zle', pod.wyniki[el.dataset.q] === false);
+    });
+    play.innerHTML = audio.paused ? ICONS.play : '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1" fill="currentColor"/><rect x="14" y="5" width="4" height="14" rx="1" fill="currentColor"/></svg>';
+    play.setAttribute('aria-label', audio.paused ? 'Odtwórz' : 'Pauza');
+  };
+  ['timeupdate', 'loadedmetadata', 'play', 'pause'].forEach((e) => audio.addEventListener(e, rysuj));
+  play.addEventListener('click', () => (audio.paused ? audio.play() : audio.pause()));
+  app.querySelectorAll('[data-skok]').forEach((b) => b.addEventListener('click', () => { audio.currentTime = Math.max(0, audio.currentTime + Number(b.dataset.skok)); }));
+  const przewin = (ev) => { const r = bar.getBoundingClientRect(); if (audio.duration) audio.currentTime = Math.min(1, Math.max(0, (ev.clientX - r.left) / r.width)) * audio.duration; };
+  bar.addEventListener('click', przewin);
+  bar.addEventListener('keydown', (ev) => { if (ev.key === 'ArrowRight') audio.currentTime += 5; if (ev.key === 'ArrowLeft') audio.currentTime -= 5; });
+  const tempa = [1, 1.25, 1.5, 0.85];
+  app.querySelector('#pod-speed').addEventListener('click', (ev) => {
+    const i = (tempa.indexOf(audio.playbackRate) + 1) % tempa.length;
+    audio.playbackRate = tempa[i]; ev.currentTarget.textContent = `Tempo ${String(tempa[i]).replace('.', ',')}×`;
+  });
+  rysuj();
   app.querySelectorAll('[data-tryb]').forEach((a) => a.addEventListener('click', (ev) => { ev.preventDefault(); pod.czas = audio.currentTime; podTryb.set(a.dataset.tryb); viewOdcinek(klucz); }));
-  const stan = () => { const st = app.querySelector('#pod-stan'); if (st) st.textContent = `Pytania: ${Object.keys(pod.wyniki).length}/${ile} · dobrze: ${Object.values(pod.wyniki).filter(Boolean).length}`; };
+  const stan = () => { rysuj(); const st = app.querySelector('#pod-stan'); if (st) st.textContent = `Pytania: ${Object.keys(pod.wyniki).length}/${ile} · dobrze: ${Object.values(pod.wyniki).filter(Boolean).length}`; };
   const pokaz = (q, dalej) => {
     karta.innerHTML = podKarta(q);
     karta.scrollIntoView({ behavior: 'smooth', block: 'start' });
