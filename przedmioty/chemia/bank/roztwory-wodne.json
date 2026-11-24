@@ -180,6 +180,42 @@
    ],
    "id": "b-roztwory-wodne-06",
    "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "pH roztworu wodorotlenku baru",
+   "material": "Tekst autorski. Rozpuszczono 0,171 g Ba(OH)₂ (M = 171 g/mol) w wodzie i otrzymano 200 cm³ roztworu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz pH roztworu.",
+     "odpowiedz": "pH = 12",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "RACHUNEK: n = 0,001 mol; c = 0,005 mol·dm⁻³; [OH⁻] = 0,010; pOH = 2; pH = 12. Pułapka: dwie grupy OH⁻.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-wodne-07",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Iloczyn rozpuszczalności — wytrącanie",
+   "material": "Tekst autorski. Ks(PbI₂) = 9,8·10⁻⁹. Zmieszano równe objętości roztworów Pb(NO₃)₂ o stężeniu 2·10⁻³ mol·dm⁻³ i KI o stężeniu 4·10⁻³ mol·dm⁻³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Rozstrzygnij na podstawie obliczeń, czy wytrąci się osad PbI₂.",
+     "odpowiedz": "Nie — iloczyn stężeń 10⁻³ · (2·10⁻³)² = 4·10⁻⁹ < Ks.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: stężenia po zmieszaniu (połowa), iloczyn z wykładnikiem 2 dla I⁻. RACHUNEK: [Pb²⁺] = 10⁻³, [I⁻] = 2·10⁻³; Q = 4·10⁻⁹ < 9,8·10⁻⁹. Pułapka: brak rozcieńczenia daje Q = 3,2·10⁻⁸ i błędny wniosek.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-wodne-08",
+   "dzial": "roztwory-wodne"
   }
  ]
 }

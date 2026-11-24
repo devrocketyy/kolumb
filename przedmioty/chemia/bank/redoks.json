@@ -189,6 +189,60 @@
    ],
    "id": "b-redoks-05",
    "dzial": "redoks"
+  },
+  {
+   "tytul": "Prawo Faradaya",
+   "material": "Tekst autorski. Przez roztwór AgNO₃ przepuszczano prąd o natężeniu 2,0 A przez 16 min 5 s. F = 96 500 C/mol, M(Ag) = 108 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę srebra osadzonego na katodzie.",
+     "odpowiedz": "ok. 2,16 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "RACHUNEK: t = 965 s; Q = 1930 C; n(e⁻) = 0,02 mol = n(Ag); m = 2,16 g. SPRAWDZENIE: Ag⁺ + e⁻ → Ag (1 elektron).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji zachodzącej na anodzie platynowej.",
+     "odpowiedz": "2H₂O → O₂ + 4H⁺ + 4e⁻",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jony NO₃⁻ się nie utleniają.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-06",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Stopnie utlenienia w związkach organicznych",
+   "material": "Tekst autorski. Rozpatrz ciąg: CH₄ → CH₃OH → HCHO → HCOOH → CO₂.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj stopnie utlenienia węgla w każdym związku.",
+     "odpowiedz": "−IV, −II, 0, +II, +IV",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Każdy etap to utlenienie o 2.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, ile moli elektronów oddaje 1 mol metanolu przy utlenianiu do CO₂.",
+     "odpowiedz": "6",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "−II → +IV.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-07",
+   "dzial": "redoks"
   }
  ]
 }

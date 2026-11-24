@@ -90,6 +90,87 @@
    ],
    "id": "b-atom-03",
    "dzial": "atom"
+  },
+  {
+   "tytul": "Skład izotopowy chloru",
+   "material": "Tekst autorski. Chlor występuje w przyrodzie jako mieszanina izotopów ³⁵Cl (masa 34,97 u) i ³⁷Cl (36,97 u). Średnia masa atomowa chloru wynosi 35,45 u.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz zawartość procentową izotopu ³⁵Cl.",
+     "odpowiedz": "ok. 76%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: średnia ważona. RACHUNEK: 34,97x + 36,97(1 − x) = 35,45 → 2x = 1,52 → x = 0,76. SPRAWDZENIE: średnia bliżej 35 — przeważa lżejszy izotop.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj liczbę neutronów w jądrze ³⁷Cl.",
+     "odpowiedz": "20",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "37 − 17 = 20.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-04",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Energia jonizacji",
+   "material": "Tekst autorski. Kolejne energie jonizacji pewnego pierwiastka 3. okresu (kJ/mol): 738, 1451, 7733, 10 543.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Ustal symbol pierwiastka. Uzasadnij.",
+     "odpowiedz": "Mg — skok energii między 2. a 3. jonizacją oznacza 2 elektrony walencyjne.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Trzeci elektron pochodzi z zamkniętej powłoki (2p⁶).",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego pierwsza energia jonizacji glinu jest mniejsza niż magnezu.",
+     "odpowiedz": "Elektron glinu jest usuwany z podpowłoki 3p (wyższa energia, słabiej związany), a magnezu z całkowicie zapełnionej 3s.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wyjątek od trendu w okresie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-05",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Konfiguracje jonów",
+   "material": "Tekst autorski. Rozpatrz drobiny: Fe²⁺, Fe³⁺, Cu⁺, Zn²⁺.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz skróconą konfigurację jonu Fe³⁺.",
+     "odpowiedz": "[Ar] 3d⁵",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Najpierw odchodzą elektrony 4s.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego związki Zn²⁺ są bezbarwne, a Cu²⁺ — barwne.",
+     "odpowiedz": "Zn²⁺ ma całkowicie zapełnioną podpowłokę 3d¹⁰ — brak przejść elektronowych d–d; Cu²⁺ (3d⁹) ma niezapełnioną podpowłokę.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Barwa związków metali przejściowych wynika z niezapełnionej podpowłoki d.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-06",
+   "dzial": "atom"
   }
  ]
 }

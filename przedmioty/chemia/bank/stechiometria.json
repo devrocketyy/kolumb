@@ -180,6 +180,24 @@
    ],
    "id": "b-stechiometria-06",
    "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Spalanie mieszaniny gazów",
+   "material": "Tekst autorski. 10 dm³ mieszaniny metanu i etanu spalono całkowicie, zużywając 29 dm³ tlenu (te same warunki ciśnienia i temperatury).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz skład mieszaniny w procentach objętościowych.",
+     "odpowiedz": "40% CH₄, 60% C₂H₆",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: CH₄ + 2O₂ → CO₂ + 2H₂O; C₂H₆ + 3,5O₂ → 2CO₂ + 3H₂O; stosunek objętości = stosunek moli. RACHUNEK: x + y = 10; 2x + 3,5y = 29 → 2(10 − y) + 3,5y = 29 → 1,5y = 9 → y = 6 dm³ etanu, x = 4 dm³ metanu. SPRAWDZENIE: 8 + 21 = 29 dm³ O₂.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-07",
+   "dzial": "stechiometria"
   }
  ]
 }

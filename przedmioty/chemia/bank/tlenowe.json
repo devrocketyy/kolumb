@@ -144,6 +144,60 @@
    ],
    "id": "b-tlenowe-05",
    "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Moc kwasów i fenolu",
+   "material": "Tekst autorski. Uszereguj: etanol, fenol, kwas octowy, woda, kwas węglowy.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Uszereguj substancje od najsłabszego do najmocniejszego kwasu.",
+     "odpowiedz": "etanol < woda < fenol < kwas węglowy < kwas octowy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Fenol nie wypiera CO₂ z węglanów, kwas octowy — tak.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji, która dowodzi, że kwas węglowy jest mocniejszy od fenolu.",
+     "odpowiedz": "C₆H₅ONa + CO₂ + H₂O → C₆H₅OH + NaHCO₃",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mocniejszy kwas wypiera słabszy z soli.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-06",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Aldehyd czy keton",
+   "material": "Tekst autorski. Związek X o wzorze C₃H₆O nie daje próby Tollensa, a po redukcji tworzy alkohol II-rzędowy.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wzór i nazwę związku X.",
+     "odpowiedz": "CH₃–CO–CH₃, propanon",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wzór izomeru X dającego próbę Tollensa.",
+     "odpowiedz": "CH₃CH₂CHO (propanal)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Izomeria funkcyjna aldehyd–keton.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-07",
+   "dzial": "tlenowe"
   }
  ]
 }

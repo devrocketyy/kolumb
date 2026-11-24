@@ -180,6 +180,60 @@
    ],
    "id": "b-kinetyka-06",
    "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Prawo Hessa",
+   "material": "Tekst autorski. C(grafit) + O₂ → CO₂, ΔH₁ = −394 kJ; CO + ½O₂ → CO₂, ΔH₂ = −283 kJ.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz entalpię reakcji C(grafit) + ½O₂ → CO.",
+     "odpowiedz": "−111 kJ",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "ΔH = ΔH₁ − ΔH₂ = −394 − (−283) = −111 kJ. Drugie równanie odwracamy (zmiana znaku).",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego entalpii tej reakcji nie mierzy się bezpośrednio.",
+     "odpowiedz": "Nie da się spalić węgla wyłącznie do CO — zawsze powstaje też CO₂.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Sens prawa Hessa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-07",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Rząd reakcji z tabeli",
+   "material": "Tekst autorski. Dla reakcji A + B → C zmierzono szybkości początkowe: I: [A] = 0,1, [B] = 0,1, v = 2·10⁻⁴; II: [A] = 0,2, [B] = 0,1, v = 8·10⁻⁴; III: [A] = 0,1, [B] = 0,3, v = 6·10⁻⁴.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie kinetyczne.",
+     "odpowiedz": "v = k·[A]²·[B]",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "I→II: [A] × 2 → v × 4 (rząd 2); I→III: [B] × 3 → v × 3 (rząd 1).",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stałą szybkości wraz z jednostką.",
+     "odpowiedz": "k = 0,2 dm⁶·mol⁻²·s⁻¹",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2·10⁻⁴ / (0,1² · 0,1) = 0,2; reakcja III rzędu.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-08",
+   "dzial": "kinetyka"
   }
  ]
 }
