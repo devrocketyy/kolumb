@@ -137,6 +137,51 @@
    "dzial": "roztwory-wodne"
   },
   {
+   "tytul": "Iloczyn rozpuszczalności z rozpuszczalności",
+   "material": "Tekst autorski. W 1 dm³ nasyconego roztworu rozpuszcza się 1,43·10⁻³ g AgCl (M = 143,5 g/mol).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz Ks AgCl.",
+     "odpowiedz": "ok. 1,0·10⁻¹⁰",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "s = 1,0·10⁻⁵ mol/dm³; Ks = s² = 1,0·10⁻¹⁰.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-wodne-06",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "pH mieszaniny słabego kwasu i jego soli",
+   "material": "Tekst autorski. Do 100 cm³ 0,2 M CH₃COOH dodano 50 cm³ 0,2 M NaOH. pKa = 4,74.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz pH roztworu.",
+     "odpowiedz": "4,74",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Połowa kwasu zobojętniona → c(soli) = c(kwasu) → pH = pKa.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę takiego roztworu.",
+     "odpowiedz": "Roztwór buforowy (bufor octanowy).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-07",
+   "dzial": "roztwory-wodne"
+  },
+  {
    "tytul": "Stopień dysocjacji",
    "material": "Tekst autorski. W roztworze kwasu metanowego (HCOOH) o stężeniu 0,10 mol·dm⁻³ stopień dysocjacji wynosi 4,2%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -160,7 +205,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-06",
+   "id": "b-roztwory-wodne-08",
    "dzial": "roztwory-wodne"
   },
   {
@@ -187,7 +232,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-07",
+   "id": "b-roztwory-wodne-09",
    "dzial": "roztwory-wodne"
   },
   {
@@ -223,7 +268,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-wodne-08",
+   "id": "b-roztwory-wodne-10",
    "dzial": "roztwory-wodne"
   },
   {
@@ -241,7 +286,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-09",
+   "id": "b-roztwory-wodne-11",
    "dzial": "roztwory-wodne"
   },
   {
@@ -259,7 +304,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-10",
+   "id": "b-roztwory-wodne-12",
    "dzial": "roztwory-wodne"
   },
   {
@@ -277,7 +322,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-11",
+   "id": "b-roztwory-wodne-13",
    "dzial": "roztwory-wodne"
   },
   {
@@ -304,7 +349,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-12",
+   "id": "b-roztwory-wodne-14",
    "dzial": "roztwory-wodne"
   },
   {
@@ -322,7 +367,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-13",
+   "id": "b-roztwory-wodne-15",
    "dzial": "roztwory-wodne"
   },
   {
@@ -340,7 +385,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-14",
+   "id": "b-roztwory-wodne-16",
    "dzial": "roztwory-wodne"
   },
   {
@@ -358,7 +403,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-15",
+   "id": "b-roztwory-wodne-17",
    "dzial": "roztwory-wodne"
   },
   {
@@ -376,7 +421,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-16",
+   "id": "b-roztwory-wodne-18",
    "dzial": "roztwory-wodne"
   },
   {
@@ -403,7 +448,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-17",
+   "id": "b-roztwory-wodne-19",
    "dzial": "roztwory-wodne"
   },
   {
@@ -421,7 +466,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-18",
+   "id": "b-roztwory-wodne-20",
    "dzial": "roztwory-wodne"
   },
   {
@@ -439,7 +484,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-19",
+   "id": "b-roztwory-wodne-21",
    "dzial": "roztwory-wodne"
   },
   {
@@ -457,7 +502,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-20",
+   "id": "b-roztwory-wodne-22",
    "dzial": "roztwory-wodne"
   },
   {
@@ -475,7 +520,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-21",
+   "id": "b-roztwory-wodne-23",
    "dzial": "roztwory-wodne"
   }
  ]

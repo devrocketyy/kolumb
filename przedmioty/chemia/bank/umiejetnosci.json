@@ -2,6 +2,51 @@
  "dzial": "umiejetnosci",
  "wiazki": [
   {
+   "tytul": "Identyfikacja czterech cieczy organicznych",
+   "material": "Tekst autorski. W czterech probówkach są: heksan, heks-1-en, etanol, etanal. Dostępne odczynniki: woda bromowa, odczynnik Tollensa, sód.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Zaprojektuj kolejność prób i podaj obserwacje pozwalające zidentyfikować wszystkie ciecze.",
+     "odpowiedz": "Np. 1) Tollens: etanal — lustro srebrne; 2) woda bromowa: heks-1-en — odbarwienie; 3) sód: etanol — pęcherzyki gazu; heksan — brak zmian we wszystkich próbach.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Etanal też odbarwia wodę bromową (utlenianie) — dlatego najpierw Tollens.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-umiejetnosci-01",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Analiza wykresu rozpuszczalności",
+   "material": "Tekst autorski. Rozpuszczalność soli X rośnie liniowo od 20 g (0°C) do 60 g (80°C) na 100 g wody.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Odczytaj (oblicz) rozpuszczalność w 40°C.",
+     "odpowiedz": "40 g/100 g wody",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Interpolacja liniowa: 20 + 40·0,5.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę soli potrzebną do nasycenia 250 g wody w 40°C.",
+     "odpowiedz": "100 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "40 · 2,5.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-02",
+   "dzial": "umiejetnosci"
+  },
+  {
    "tytul": "Trzy bezbarwne roztwory",
    "material": "Tekst autorski. W trzech nieopisanych probówkach znajdują się wodne roztwory: NaCl, Na₂SO₄ i Na₂CO₃. Do dyspozycji są: roztwór BaCl₂, kwas solny, roztwór AgNO₃, fenoloftaleina.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -34,7 +79,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-01",
+   "id": "b-umiejetnosci-03",
    "dzial": "umiejetnosci"
   },
   {
@@ -61,7 +106,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-02",
+   "id": "b-umiejetnosci-04",
    "dzial": "umiejetnosci"
   },
   {
@@ -97,7 +142,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-03",
+   "id": "b-umiejetnosci-05",
    "dzial": "umiejetnosci"
   }
  ]

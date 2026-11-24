@@ -137,6 +137,42 @@
    "dzial": "stechiometria"
   },
   {
+   "tytul": "Tlen z nadtlenku",
+   "material": "Tekst autorski. Rozłożono katalitycznie 100 g 6,8-procentowego roztworu H₂O₂ (M = 34 g/mol): 2H₂O₂ → 2H₂O + O₂.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz objętość tlenu (w. n.).",
+     "odpowiedz": "2,24 dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "m = 6,8 g = 0,2 mol H₂O₂ → 0,1 mol O₂ → 2,24 dm³.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-06",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Wzór kryształu z analizy",
+   "material": "Tekst autorski. Ałun potasowo-glinowy KAl(SO₄)₂·xH₂O zawiera 45,6% masowych wody. M(KAl(SO₄)₂) = 258 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Ustal x.",
+     "odpowiedz": "x = 12",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "18x/(258 + 18x) = 0,456 → 18x = 117,6 + 8,21x → 9,79x = 117,6 → x = 12.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-07",
+   "dzial": "stechiometria"
+  },
+  {
    "tytul": "Mieszanina węglanów",
    "material": "Tekst autorski. Mieszaninę Na₂CO₃ i NaHCO₃ o masie 2,74 g roztworzono w nadmiarze kwasu solnego. Wydzieliło się 0,672 dm³ CO₂ (warunki normalne). M(Na₂CO₃) = 106 g/mol, M(NaHCO₃) = 84 g/mol.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -160,7 +196,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-06",
+   "id": "b-stechiometria-08",
    "dzial": "stechiometria"
   },
   {
@@ -187,7 +223,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-07",
+   "id": "b-stechiometria-09",
    "dzial": "stechiometria"
   },
   {
@@ -214,7 +250,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-08",
+   "id": "b-stechiometria-10",
    "dzial": "stechiometria"
   },
   {
@@ -232,7 +268,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-09",
+   "id": "b-stechiometria-11",
    "dzial": "stechiometria"
   },
   {
@@ -250,7 +286,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-10",
+   "id": "b-stechiometria-12",
    "dzial": "stechiometria"
   },
   {
@@ -268,7 +304,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-11",
+   "id": "b-stechiometria-13",
    "dzial": "stechiometria"
   },
   {
@@ -286,7 +322,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-12",
+   "id": "b-stechiometria-14",
    "dzial": "stechiometria"
   },
   {
@@ -313,7 +349,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-13",
+   "id": "b-stechiometria-15",
    "dzial": "stechiometria"
   },
   {
@@ -331,7 +367,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-14",
+   "id": "b-stechiometria-16",
    "dzial": "stechiometria"
   },
   {
@@ -349,7 +385,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-15",
+   "id": "b-stechiometria-17",
    "dzial": "stechiometria"
   },
   {
@@ -367,7 +403,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-16",
+   "id": "b-stechiometria-18",
    "dzial": "stechiometria"
   },
   {
@@ -385,7 +421,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-17",
+   "id": "b-stechiometria-19",
    "dzial": "stechiometria"
   },
   {
@@ -403,7 +439,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-18",
+   "id": "b-stechiometria-20",
    "dzial": "stechiometria"
   },
   {
@@ -430,7 +466,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-19",
+   "id": "b-stechiometria-21",
    "dzial": "stechiometria"
   }
  ]

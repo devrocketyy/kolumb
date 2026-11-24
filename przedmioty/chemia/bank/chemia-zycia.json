@@ -2,6 +2,24 @@
  "dzial": "chemia-zycia",
  "wiazki": [
   {
+   "tytul": "Twardość wody — obliczenie",
+   "material": "Tekst autorski. 1 dm³ wody zawiera 0,002 mol Ca²⁺. Do zmiękczenia stosuje się Na₂CO₃ (M = 106 g/mol).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę Na₂CO₃ potrzebną do usunięcia Ca²⁺ z 10 dm³ wody.",
+     "odpowiedz": "2,12 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,02 mol · 106.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-chemia-zycia-01",
+   "dzial": "chemia-zycia"
+  },
+  {
    "tytul": "Kwaśne deszcze i zabytki",
    "material": "Tekst autorski. Na powierzchni marmurowych rzeźb w miastach tworzy się krucha warstwa gipsu (CaSO₄·2H₂O).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -25,7 +43,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-01",
+   "id": "b-chemia-zycia-02",
    "dzial": "chemia-zycia"
   },
   {
@@ -52,7 +70,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-02",
+   "id": "b-chemia-zycia-03",
    "dzial": "chemia-zycia"
   },
   {
@@ -79,7 +97,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-03",
+   "id": "b-chemia-zycia-04",
    "dzial": "chemia-zycia"
   },
   {
@@ -106,7 +124,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-04",
+   "id": "b-chemia-zycia-05",
    "dzial": "chemia-zycia"
   },
   {
@@ -124,7 +142,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-chemia-zycia-05",
+   "id": "b-chemia-zycia-06",
    "dzial": "chemia-zycia"
   }
  ]

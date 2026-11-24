@@ -56,6 +56,51 @@
    "dzial": "redoks"
   },
   {
+   "tytul": "Ogniwo z elektrodą wodorową",
+   "material": "Tekst autorski. Ogniwo: (−) Fe | Fe²⁺ || H⁺ | H₂ | Pt (+), E°(Fe²⁺/Fe) = −0,44 V.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz SEM.",
+     "odpowiedz": "0,44 V",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0 − (−0,44).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz reakcję sumaryczną.",
+     "odpowiedz": "Fe + 2H⁺ → Fe²⁺ + H₂",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-03",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Stopnie utlenienia w jonach złożonych",
+   "material": "Tekst autorski. Rozpatrz: S₂O₃²⁻, S₄O₆²⁻, HSO₃⁻, SO₄²⁻.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj (średnie) stopnie utlenienia siarki.",
+     "odpowiedz": "+II; +2,5; +IV; +VI",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    }
+   ],
+   "id": "b-redoks-04",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Manganian(VII) potasu",
    "material": "Tekst autorski. Do zakwaszonego kwasem siarkowym(VI) roztworu siarczanu(VI) żelaza(II) wkraplano fioletowy roztwór KMnO₄. Roztwór manganianu odbarwiał się, a roztwór w probówce zmienił barwę z bladozielonej na żółtą.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -88,7 +133,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-03",
+   "id": "b-redoks-05",
    "dzial": "redoks"
   },
   {
@@ -133,7 +178,7 @@
      "nr": "4"
     }
    ],
-   "id": "b-redoks-04",
+   "id": "b-redoks-06",
    "dzial": "redoks"
   },
   {
@@ -169,7 +214,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-05",
+   "id": "b-redoks-07",
    "dzial": "redoks"
   },
   {
@@ -205,7 +250,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-06",
+   "id": "b-redoks-08",
    "dzial": "redoks"
   },
   {
@@ -241,7 +286,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-07",
+   "id": "b-redoks-09",
    "dzial": "redoks"
   },
   {
@@ -268,7 +313,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-08",
+   "id": "b-redoks-10",
    "dzial": "redoks"
   },
   {
@@ -295,7 +340,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-09",
+   "id": "b-redoks-11",
    "dzial": "redoks"
   },
   {
@@ -313,7 +358,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-10",
+   "id": "b-redoks-12",
    "dzial": "redoks"
   },
   {
@@ -340,7 +385,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-11",
+   "id": "b-redoks-13",
    "dzial": "redoks"
   },
   {
@@ -367,7 +412,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-12",
+   "id": "b-redoks-14",
    "dzial": "redoks"
   },
   {
@@ -385,7 +430,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-13",
+   "id": "b-redoks-15",
    "dzial": "redoks"
   },
   {
@@ -412,7 +457,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-14",
+   "id": "b-redoks-16",
    "dzial": "redoks"
   },
   {
@@ -439,7 +484,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-15",
+   "id": "b-redoks-17",
    "dzial": "redoks"
   },
   {
@@ -457,7 +502,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-16",
+   "id": "b-redoks-18",
    "dzial": "redoks"
   },
   {
@@ -475,7 +520,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-17",
+   "id": "b-redoks-19",
    "dzial": "redoks"
   }
  ]

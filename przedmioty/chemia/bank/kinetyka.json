@@ -38,6 +38,51 @@
    "dzial": "kinetyka"
   },
   {
+   "tytul": "Kinetyka z wykresu stężenia",
+   "material": "Tekst autorski. Rozkład H₂O₂ jest reakcją I rzędu z k = 0,0693 min⁻¹.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz okres półtrwania.",
+     "odpowiedz": "10 min",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "t½ = 0,693/k.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaki procent H₂O₂ pozostanie po 30 minutach.",
+     "odpowiedz": "12,5%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Trzy okresy półtrwania.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-03",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Spalanie a ciepło",
+   "material": "Tekst autorski. Entalpia spalania etanolu wynosi −1367 kJ/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę etanolu, której spalenie dostarczy 2734 kJ.",
+     "odpowiedz": "92 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "2 mol · 46 g/mol.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-kinetyka-04",
+   "dzial": "kinetyka"
+  },
+  {
    "tytul": "Prawo Hessa",
    "material": "Tekst autorski. Dane: (1) C(grafit) + O₂ → CO₂, ΔH₁ = −394 kJ; (2) CO + ½O₂ → CO₂, ΔH₂ = −283 kJ.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -61,7 +106,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-03",
+   "id": "b-kinetyka-05",
    "dzial": "kinetyka"
   },
   {
@@ -97,7 +142,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-04",
+   "id": "b-kinetyka-06",
    "dzial": "kinetyka"
   },
   {
@@ -124,7 +169,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-05",
+   "id": "b-kinetyka-07",
    "dzial": "kinetyka"
   },
   {
@@ -160,7 +205,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-06",
+   "id": "b-kinetyka-08",
    "dzial": "kinetyka"
   },
   {
@@ -187,7 +232,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-07",
+   "id": "b-kinetyka-09",
    "dzial": "kinetyka"
   },
   {
@@ -214,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-08",
+   "id": "b-kinetyka-10",
    "dzial": "kinetyka"
   },
   {
@@ -241,7 +286,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-09",
+   "id": "b-kinetyka-11",
    "dzial": "kinetyka"
   },
   {
@@ -268,7 +313,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-10",
+   "id": "b-kinetyka-12",
    "dzial": "kinetyka"
   },
   {
@@ -295,7 +340,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-11",
+   "id": "b-kinetyka-13",
    "dzial": "kinetyka"
   },
   {
@@ -331,7 +376,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-12",
+   "id": "b-kinetyka-14",
    "dzial": "kinetyka"
   },
   {
@@ -358,7 +403,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-13",
+   "id": "b-kinetyka-15",
    "dzial": "kinetyka"
   },
   {
@@ -385,7 +430,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-14",
+   "id": "b-kinetyka-16",
    "dzial": "kinetyka"
   },
   {
@@ -403,7 +448,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-15",
+   "id": "b-kinetyka-17",
    "dzial": "kinetyka"
   },
   {
@@ -421,7 +466,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-16",
+   "id": "b-kinetyka-18",
    "dzial": "kinetyka"
   }
  ]
