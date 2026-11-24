@@ -1,0 +1,402 @@
+{
+ "id": "stechiometria",
+ "nazwa": "Mol i stechiometria",
+ "opis": "Mol, masa i objętość molowa, wzory, obliczenia z równań: nadmiar, wydajność, mieszaniny.",
+ "poddzialy": [
+  {
+   "id": "c-mol",
+   "nazwa": "Mol, masa molowa, objętość molowa gazów",
+   "opis": "Wymaganie I.3–5 podstawy programowej.",
+   "wymaganie": "I.3–5",
+   "fiszki": [
+    {
+     "id": "fa1af8593",
+     "przod": "Wyjaśnij pojęcie: mol",
+     "tyl": "Jednostka liczności materii: 1 mol zawiera 6,02 · 10²³ drobin (liczba Avogadra).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.3–5"
+    },
+    {
+     "id": "fcd3e76d9",
+     "przod": "Wyjaśnij pojęcie: masa molowa",
+     "tyl": "Masa 1 mola substancji w g/mol; liczbowo równa masie cząsteczkowej (atomowej) w u.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.3–5"
+    },
+    {
+     "id": "f9d15c997",
+     "przod": "Jak obliczyć masę molową H₂SO₄?",
+     "tyl": "2·1 + 32 + 4·16 = 98 g/mol.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.3–5"
+    },
+    {
+     "id": "f35b00ed4",
+     "przod": "Wyjaśnij pojęcie: objętość molowa gazu",
+     "tyl": "Objętość 1 mola gazu; w warunkach normalnych (0°C, 1013 hPa) wynosi 22,4 dm³/mol i jest taka sama dla wszystkich gazów doskonałych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.3–5"
+    },
+    {
+     "id": "f8f635912",
+     "przod": "Prawo Avogadra",
+     "tyl": "Równe objętości różnych gazów w tych samych warunkach ciśnienia i temperatury zawierają tę samą liczbę cząsteczek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.3–5"
+    },
+    {
+     "id": "f036176ba",
+     "przod": "Wzory łączące n, m, V i N",
+     "tyl": "n = m/M; n = V/Vmol (gazy, war. normalne); n = N/NA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.3–5"
+    },
+    {
+     "id": "f1c1a0b1c",
+     "przod": "Gęstość gazu w warunkach normalnych",
+     "tyl": "d = M / 22,4 dm³/mol (g/dm³).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.3–5"
+    },
+    {
+     "id": "f0d8d561d",
+     "przod": "Ile atomów jest w 1 molu H₂O?",
+     "tyl": "3 mole atomów, czyli 3 · 6,02 · 10²³ ≈ 1,81 · 10²⁴ atomów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.3–5"
+    },
+    {
+     "id": "f453dbc03",
+     "przod": "Typowy błąd: liczba cząsteczek a liczba atomów",
+     "tyl": "Pominięcie, że jedna cząsteczka zawiera kilka atomów (np. w 1 molu O₂ jest 2 mole atomów tlenu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.3–5"
+    },
+    {
+     "id": "ff5e0168e",
+     "przod": "Równanie Clapeyrona i jednostki",
+     "tyl": "pV = nRT; R = 83,14 hPa·dm³·mol⁻¹·K⁻¹ (p w hPa, V w dm³) lub 8,314 J·mol⁻¹·K⁻¹ (p w Pa, V w m³); T w kelwinach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.3–5"
+    },
+    {
+     "id": "fc3e037c4",
+     "przod": "Podaj nazwę pojęcia: Jednostka liczności materii: 1 mol zawiera 6,02 · 10²³ drobin (liczba Avogadra).",
+     "tyl": "mol",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.3–5"
+    },
+    {
+     "id": "f1d019513",
+     "przod": "Rozpoznaj: Równe objętości różnych gazów w tych samych warunkach ciśnienia i temperatury zawierają tę samą liczbę cząsteczek.",
+     "tyl": "Prawo Avogadra",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.3–5"
+    },
+    {
+     "id": "f407e139e",
+     "przod": "Rozpoznaj: n = m/M; n = V/Vmol (gazy, war. normalne); n = N/NA.",
+     "tyl": "Wzory łączące n, m, V i N",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.3–5"
+    },
+    {
+     "id": "f5ada98c5",
+     "przod": "Rozpoznaj: d = M / 22,4 dm³/mol (g/dm³).",
+     "tyl": "Gęstość gazu w warunkach normalnych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.3–5"
+    },
+    {
+     "id": "f9f249daf",
+     "przod": "Rozpoznaj: pV = nRT; R = 83,14 hPa·dm³·mol⁻¹·K⁻¹ (p w hPa, V w dm³) lub 8,314 J·mol⁻¹·K⁻¹ (p w Pa, V w m³); T w kelwinach.",
+     "tyl": "Równanie Clapeyrona i jednostki",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.3–5"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pd2403077",
+     "pytanie": "Masa molowa CaCO₃ wynosi (Ca = 40, C = 12, O = 16):",
+     "odpowiedzi": [
+      "100 g/mol",
+      "84 g/mol",
+      "116 g/mol",
+      "68 g/mol"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "40 + 12 + 48 = 100 g/mol.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb92b46c8",
+     "pytanie": "Ile cząsteczek zawiera 0,5 mola wody?",
+     "odpowiedzi": [
+      "9,03·10²³",
+      "6,02·10²³",
+      "3,01·10²³",
+      "1,2·10²⁴"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "N = n · NA.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p88727e97",
+     "pytanie": "Jaka jest gęstość CO₂ (M = 44 g/mol) w warunkach normalnych?",
+     "odpowiedzi": [
+      "1,96 g/dm³",
+      "44 g/dm³",
+      "0,51 g/dm³",
+      "1,25 g/dm³"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "d = 44/22,4 ≈ 1,96 g/dm³.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0c620c52",
+     "pytanie": "Ile moli atomów tlenu jest w 2 molach CO₂?",
+     "odpowiedzi": [
+      "1",
+      "4",
+      "6",
+      "2"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Każda cząsteczka CO₂ ma 2 atomy O.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-wzory",
+   "nazwa": "Wzory empiryczne i rzeczywiste, skład procentowy",
+   "opis": "Wymaganie I.6 podstawy programowej.",
+   "wymaganie": "I.6",
+   "fiszki": [
+    {
+     "id": "f70f111ee",
+     "przod": "Wyjaśnij pojęcie: wzór empiryczny (elementarny)",
+     "tyl": "Wzór podający najprostszy stosunek liczby atomów pierwiastków w związku, np. CH₂O dla glukozy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "f63b8ef5a",
+     "przod": "Wyjaśnij pojęcie: wzór rzeczywisty (sumaryczny)",
+     "tyl": "Wzór podający rzeczywistą liczbę atomów w cząsteczce, np. C₆H₁₂O₆; jest wielokrotnością wzoru empirycznego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "f05f125d7",
+     "przod": "Jak wyznaczyć wzór empiryczny z procentowego składu?",
+     "tyl": "Przyjąć 100 g związku → masy pierwiastków = ich procenty; podzielić przez masy molowe → mole; podzielić przez najmniejszą liczbę moli → stosunek; ewentualnie pomnożyć do liczb całkowitych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "fc1c179f6",
+     "przod": "Jak przejść od wzoru empirycznego do rzeczywistego?",
+     "tyl": "Podzielić masę molową związku przez masę molową wzoru empirycznego — wynik (liczba całkowita) mnoży indeksy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "f03b82061",
+     "przod": "Jak obliczyć skład procentowy pierwiastka w związku?",
+     "tyl": "%E = (liczba atomów E · masa atomowa E / masa molowa związku) · 100%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "f8c5a3fd9",
+     "przod": "Typowy błąd przy wyznaczaniu wzoru empirycznego",
+     "tyl": "Zaokrąglanie stosunków typu 1,5 lub 1,33 do liczb całkowitych zamiast pomnożenia przez 2 lub 3.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "f5873a467",
+     "przod": "Wyjaśnij pojęcie: hydrat (sól uwodniona)",
+     "tyl": "Sól zawierająca w sieci krystalicznej określoną liczbę cząsteczek wody, np. CuSO₄·5H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "f02b7fa97",
+     "przod": "Jak obliczyć liczbę cząsteczek wody w hydracie?",
+     "tyl": "Z ubytku masy przy prażeniu: n(H₂O) / n(soli bezwodnej) = x we wzorze sól·xH₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    },
+    {
+     "id": "f19e6a764",
+     "przod": "Podaj nazwę pojęcia: Sól zawierająca w sieci krystalicznej określoną liczbę cząsteczek wody, np. CuSO₄·5H₂O.",
+     "tyl": "hydrat (sól uwodniona)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.6"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pc6a9d452",
+     "pytanie": "Wzór empiryczny związku o wzorze rzeczywistym C₆H₆ to:",
+     "odpowiedzi": [
+      "C₂H₂",
+      "C₆H₆",
+      "C₃H₃",
+      "CH"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Stosunek 1 : 1.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9bee422e",
+     "pytanie": "Zawartość procentowa tlenu w H₂O (H = 1, O = 16) wynosi około:",
+     "odpowiedzi": [
+      "11,1%",
+      "88,9%",
+      "94,1%",
+      "50%"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "16/18 · 100%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe1fe1cfe",
+     "pytanie": "Stosunek molowy C : H wyszedł 1 : 2,5. Wzór empiryczny to:",
+     "odpowiedzi": [
+      "CH₃",
+      "C₅H₂",
+      "CH₂",
+      "C₂H₅"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Mnożymy przez 2.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-stechiometria",
+   "nazwa": "Obliczenia z równań: nadmiar, wydajność, mieszaniny",
+   "opis": "Wymaganie I.7–8 podstawy programowej.",
+   "wymaganie": "I.7–8",
+   "fiszki": [
+    {
+     "id": "f17a5e06e",
+     "przod": "Prawo zachowania masy",
+     "tyl": "Masa substratów równa jest masie produktów reakcji chemicznej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "f8786bff5",
+     "przod": "Prawo stałości składu",
+     "tyl": "Związek chemiczny ma zawsze ten sam skład jakościowy i ilościowy, niezależnie od sposobu otrzymania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "fc4901ddd",
+     "przod": "Jak ułożyć proporcję z równania reakcji?",
+     "tyl": "Nad wzorami zapisać dane i szukane, pod wzorami — ilości wynikające z równania (mole × masa molowa lub objętość molowa), potem ułożyć proporcję.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "ffcae3d86",
+     "przod": "Obliczenia z wydajnością — schemat",
+     "tyl": "Obliczyć ilość teoretyczną z równania, potem pomnożyć przez wydajność (W/100%); przy szukaniu substratów — podzielić przez wydajność.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "f76f46e2f",
+     "przod": "Typowy błąd w zadaniach z wydajnością",
+     "tyl": "Mnożenie przez wydajność, gdy trzeba dzielić (szukanie potrzebnej ilości substratu przy wydajności < 100%).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "fd1053e72",
+     "przod": "Obliczenia z nadmiarem — schemat",
+     "tyl": "Policzyć mole obu substratów, porównać ze stosunkiem z równania, obliczyć produkt z substratu w niedomiarze; ewentualnie policzyć, ile zostało nadmiaru.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "f23d600cd",
+     "przod": "Jak liczyć skład mieszaniny dwóch substancji reagujących z tym samym odczynnikiem?",
+     "tyl": "Oznaczyć niewiadome (np. x i y — mole lub masy składników), ułożyć dwa równania: na masę mieszaniny i na ilość odczynnika lub produktu, rozwiązać układ.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "fda195981",
+     "przod": "Typowy błąd w zadaniach z mieszaniną według CKE",
+     "tyl": "Niewłaściwa interpretacja składu mieszaniny — np. przyjęcie, że reaguje tylko jeden składnik, albo pomylenie masy mieszaniny z masą składnika.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "ff0ac2be4",
+     "przod": "Obliczenia z udziałem gazów w warunkach innych niż normalne",
+     "tyl": "Liczbę moli gazu obliczyć z równania Clapeyrona n = pV/(RT), a dopiero potem stosować stosunek molowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "fb4101256",
+     "przod": "Jak sprawdzić wynik obliczeń stechiometrycznych?",
+     "tyl": "Czy masa produktu nie przekracza możliwej z prawa zachowania masy? Czy stosunek molowy zgadza się ze współczynnikami? Czy jednostka pasuje do szukanej?",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "f87800f04",
+     "przod": "Wyjaśnij pojęcie: stechiometria",
+     "tyl": "Dział chemii zajmujący się ilościowymi zależnościami między reagentami w reakcjach chemicznych i składem związków.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "f523d4c14",
+     "przod": "Rozpoznaj: Masa substratów równa jest masie produktów reakcji chemicznej.",
+     "tyl": "Prawo zachowania masy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    },
+    {
+     "id": "f5ca3c991",
+     "przod": "Podaj nazwę pojęcia: Dział chemii zajmujący się ilościowymi zależnościami między reagentami w reakcjach chemicznych i składem związków.",
+     "tyl": "stechiometria",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.7–8"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pc0da1165",
+     "pytanie": "Ile gramów wody powstanie z 4 g wodoru w reakcji 2H₂ + O₂ → 2H₂O (H = 1, O = 16)?",
+     "odpowiedzi": [
+      "36 g",
+      "18 g",
+      "72 g",
+      "9 g"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "4 g H₂ = 2 mol → 2 mol H₂O = 36 g.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "paca3c44c",
+     "pytanie": "Teoretycznie powinno powstać 50 g produktu, wydajność wynosi 80%. Ile otrzymano?",
+     "odpowiedzi": [
+      "62,5 g",
+      "30 g",
+      "40 g",
+      "50 g"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "50 · 0,8 = 40 g.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe1592d76",
+     "pytanie": "Aby otrzymać 40 g produktu przy wydajności 80%, trzeba teoretycznie przygotować substraty na:",
+     "odpowiedzi": [
+      "32 g produktu",
+      "48 g produktu",
+      "40 g produktu",
+      "50 g produktu"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Dzielimy przez wydajność: 40/0,8.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9967c6dd",
+     "pytanie": "Do reakcji Zn + 2HCl → ZnCl₂ + H₂ użyto 1 mol Zn i 1 mol HCl. Ile moli H₂ powstanie?",
+     "odpowiedzi": [
+      "1 mol",
+      "0,5 mol",
+      "0,25 mol",
+      "2 mol"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "HCl jest w niedomiarze: 1 mol HCl → 0,5 mol H₂.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

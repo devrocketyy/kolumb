@@ -1,0 +1,939 @@
+{
+ "id": "atom",
+ "nazwa": "Budowa atomu i układ okresowy",
+ "opis": "Budowa atomu, izotopy, konfiguracja elektronowa, okresowość, promieniotwórczość.",
+ "poddzialy": [
+  {
+   "id": "c-atom",
+   "nazwa": "Budowa atomu, izotopy i masa atomowa",
+   "opis": "Wymaganie I.1–2, II.1–2 podstawy programowej.",
+   "wymaganie": "I.1–2, II.1–2",
+   "fiszki": [
+    {
+     "id": "f6bfec439",
+     "przod": "Z jakich cząstek zbudowany jest atom?",
+     "tyl": "Z jądra (protony i neutrony, czyli nukleony) oraz elektronów rozmieszczonych wokół jądra.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "fe49559c9",
+     "przod": "Wyjaśnij pojęcie: liczba atomowa (Z)",
+     "tyl": "Liczba protonów w jądrze atomu; w obojętnym atomie równa liczbie elektronów. Wyznacza pierwiastek i jego miejsce w układzie okresowym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "fa78f13a0",
+     "przod": "Wyjaśnij pojęcie: liczba masowa (A)",
+     "tyl": "Suma liczby protonów i neutronów w jądrze atomu (liczba nukleonów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "fa9d35256",
+     "przod": "Jak obliczyć liczbę neutronów?",
+     "tyl": "N = A − Z (liczba masowa minus liczba atomowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "fe2088695",
+     "przod": "Wyjaśnij pojęcie: izotopy",
+     "tyl": "Atomy tego samego pierwiastka (ta sama liczba protonów Z) różniące się liczbą neutronów, a więc liczbą masową A.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f9fd694cd",
+     "przod": "Wyjaśnij pojęcie: nuklid",
+     "tyl": "Zbiór atomów o określonej liczbie protonów i neutronów (określonym Z i A), np. ¹²C, ¹⁴C.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f41afe733",
+     "przod": "Wyjaśnij pojęcie: izobary",
+     "tyl": "Atomy różnych pierwiastków o tej samej liczbie masowej A, np. ⁴⁰Ar i ⁴⁰Ca.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "fea33eb18",
+     "przod": "Czym różnią się izotopy tego samego pierwiastka pod względem właściwości?",
+     "tyl": "Mają praktycznie takie same właściwości chemiczne (ta sama liczba elektronów), a różnią się właściwościami fizycznymi zależnymi od masy, np. gęstością, i trwałością jądra.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f5ed311f7",
+     "przod": "Wyjaśnij pojęcie: atomowa jednostka masy (u)",
+     "tyl": "1/12 masy atomu izotopu węgla ¹²C; 1 u ≈ 1,66 · 10⁻²⁴ g.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "fe0d6a46a",
+     "przod": "Wyjaśnij pojęcie: masa atomowa pierwiastka",
+     "tyl": "Średnia ważona mas atomowych izotopów tego pierwiastka, uwzględniająca ich procentową zawartość w przyrodzie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "fce4053a9",
+     "przod": "Wzór na masę atomową pierwiastka z izotopów",
+     "tyl": "mat = (A₁·x₁ + A₂·x₂ + …) / 100%, gdzie A — masy izotopów, x — ich zawartość procentowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f768b3fe5",
+     "przod": "Przykład: masa atomowa chloru",
+     "tyl": "Chlor to ok. 75,8% ³⁵Cl i 24,2% ³⁷Cl: (35·75,8 + 37·24,2)/100 ≈ 35,45 u.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f42e1bc5c",
+     "przod": "Typowy błąd przy obliczaniu masy atomowej",
+     "tyl": "Liczenie zwykłej średniej arytmetycznej mas izotopów zamiast średniej ważonej ich zawartością.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f7f6f199c",
+     "przod": "Wyjaśnij pojęcie: jon",
+     "tyl": "Atom lub grupa atomów, która utraciła (kation, ładunek dodatni) albo przyłączyła (anion, ładunek ujemny) elektrony.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f4b553146",
+     "przod": "Ile elektronów ma jon Fe³⁺ (Z = 26)?",
+     "tyl": "23 elektrony (26 − 3).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f87179b43",
+     "przod": "Ile elektronów ma jon S²⁻ (Z = 16)?",
+     "tyl": "18 elektronów (16 + 2).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f7030e5f7",
+     "przod": "Wyjaśnij pojęcie: drobiny izoelektronowe",
+     "tyl": "Atomy lub jony o tej samej liczbie elektronów, np. Ne, Na⁺, Mg²⁺, F⁻, O²⁻ (po 10 elektronów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "fd3017341",
+     "przod": "Masa protonu i neutronu a elektronu",
+     "tyl": "Proton i neutron mają masę ok. 1 u; elektron jest ok. 1840 razy lżejszy — masa atomu skupiona jest w jądrze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f0b13a177",
+     "przod": "Ładunki cząstek elementarnych",
+     "tyl": "Proton +1, elektron −1, neutron 0 (w jednostkach ładunku elementarnego).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f809699a8",
+     "przod": "Podaj nazwę pojęcia: Atomy tego samego pierwiastka (ta sama liczba protonów Z) różniące się liczbą neutronów, a więc liczbą masową A.",
+     "tyl": "izotopy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f8d220bc8",
+     "przod": "Podaj nazwę pojęcia: Zbiór atomów o określonej liczbie protonów i neutronów (określonym Z i A), np. ¹²C, ¹⁴C.",
+     "tyl": "nuklid",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f90f46701",
+     "przod": "Podaj nazwę pojęcia: Atomy różnych pierwiastków o tej samej liczbie masowej A, np. ⁴⁰Ar i ⁴⁰Ca.",
+     "tyl": "izobary",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f89948129",
+     "przod": "Podaj nazwę pojęcia: Atom lub grupa atomów, która utraciła (kation, ładunek dodatni) albo przyłączyła (anion, ładunek ujemny) elektrony.",
+     "tyl": "jon",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    },
+    {
+     "id": "f33df8099",
+     "przod": "Podaj nazwę pojęcia: Atomy lub jony o tej samej liczbie elektronów, np. Ne, Na⁺, Mg²⁺, F⁻, O²⁻ (po 10 elektronów).",
+     "tyl": "drobiny izoelektronowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pe54005fd",
+     "pytanie": "Ile neutronów ma atom ⁵⁶Fe (Z = 26)?",
+     "odpowiedzi": [
+      "26",
+      "30",
+      "56",
+      "82"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "N = A − Z = 56 − 26 = 30.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5c9b3ad3",
+     "pytanie": "Izotopy to atomy o tej samej:",
+     "odpowiedzi": [
+      "masie atomowej",
+      "liczbie masowej",
+      "liczbie neutronów",
+      "liczbie atomowej i różnej liczbie neutronów"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Ten sam pierwiastek = ta sama liczba protonów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1acf8f67",
+     "pytanie": "Pierwiastek ma dwa izotopy: 63 u (69%) i 65 u (31%). Jego masa atomowa wynosi około:",
+     "odpowiedzi": [
+      "64,00 u",
+      "63,62 u",
+      "63,31 u",
+      "64,38 u"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "(63·69 + 65·31)/100 = 63,62 u.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p630a1b87",
+     "pytanie": "Która drobina jest izoelektronowa z atomem argonu?",
+     "odpowiedzi": [
+      "O²⁻",
+      "F⁻",
+      "Cl⁻",
+      "Na⁺"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Cl⁻ ma 17 + 1 = 18 elektronów, jak Ar.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p96abe0bf",
+     "pytanie": "Ile elektronów ma kation Mg²⁺ (Z = 12)?",
+     "odpowiedzi": [
+      "12",
+      "2",
+      "14",
+      "10"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "12 − 2 = 10.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-konfiguracja",
+   "nazwa": "Konfiguracja elektronowa, liczby kwantowe i orbitale",
+   "opis": "Wymaganie II.3–5 podstawy programowej.",
+   "wymaganie": "II.3–5",
+   "fiszki": [
+    {
+     "id": "f498f65a3",
+     "przod": "Wyjaśnij pojęcie: orbital atomowy",
+     "tyl": "Obszar przestrzeni wokół jądra, w którym prawdopodobieństwo znalezienia elektronu jest największe (opisany funkcją falową).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f2f076eaa",
+     "przod": "Wyjaśnij pojęcie: powłoka elektronowa",
+     "tyl": "Zbiór orbitali o tej samej głównej liczbie kwantowej n (K, L, M, N… dla n = 1, 2, 3, 4…).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f7d5f6589",
+     "przod": "Wyjaśnij pojęcie: podpowłoka",
+     "tyl": "Zbiór orbitali o tych samych liczbach n i l, np. 2p (trzy orbitale p drugiej powłoki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "ff01d5f26",
+     "przod": "Główna liczba kwantowa n",
+     "tyl": "Wyznacza numer powłoki i w przybliżeniu energię oraz rozmiar orbitalu; n = 1, 2, 3…",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "fc27d9391",
+     "przod": "Poboczna liczba kwantowa l",
+     "tyl": "Wyznacza typ (kształt) orbitalu: l = 0 (s), 1 (p), 2 (d), 3 (f); przyjmuje wartości od 0 do n − 1.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "feb6c76ca",
+     "przod": "Magnetyczna liczba kwantowa m",
+     "tyl": "Wyznacza orientację orbitalu w przestrzeni; m = −l, …, 0, …, +l (dla p: −1, 0, +1, czyli 3 orbitale).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f74d5dc0d",
+     "przod": "Magnetyczna spinowa liczba kwantowa ms",
+     "tyl": "Opisuje spin elektronu: +½ lub −½.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f0e4265cc",
+     "przod": "Ile orbitali i elektronów mieści podpowłoka s, p, d, f?",
+     "tyl": "s — 1 orbital (2 e⁻), p — 3 (6 e⁻), d — 5 (10 e⁻), f — 7 (14 e⁻).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f3e974298",
+     "przod": "Ile elektronów maksymalnie mieści powłoka n?",
+     "tyl": "2n² (K — 2, L — 8, M — 18, N — 32).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f0d71e1ee",
+     "przod": "Zakaz Pauliego",
+     "tyl": "W atomie nie mogą istnieć dwa elektrony o takich samych wszystkich czterech liczbach kwantowych — na jednym orbitalu najwyżej 2 elektrony o przeciwnych spinach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "fad52809d",
+     "przod": "Reguła Hunda",
+     "tyl": "Elektrony obsadzają orbitale tej samej podpowłoki najpierw pojedynczo, z równoległymi spinami, a dopiero potem tworzą pary.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "fede5e914",
+     "przod": "Kolejność zapełniania podpowłok (reguła n + l)",
+     "tyl": "1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s 4f 5d 6p…",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f82d80766",
+     "przod": "Konfiguracja elektronowa atomu Fe (Z = 26)",
+     "tyl": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s², skrótowo [Ar] 3d⁶ 4s².",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f73359855",
+     "przod": "Wyjątki: konfiguracja chromu i miedzi",
+     "tyl": "Cr: [Ar] 3d⁵ 4s¹ (zamiast 3d⁴ 4s²); Cu: [Ar] 3d¹⁰ 4s¹ (zamiast 3d⁹ 4s²) — połowicznie lub całkowicie zapełniona podpowłoka d jest korzystniejsza energetycznie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f39e9dbdc",
+     "przod": "Jak zapisać konfigurację kationu metalu przejściowego, np. Fe³⁺?",
+     "tyl": "Najpierw usuwa się elektrony z podpowłoki 4s, potem 3d: Fe³⁺ — [Ar] 3d⁵.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "fccd9b227",
+     "przod": "Typowy błąd przy konfiguracji jonów metali przejściowych",
+     "tyl": "Usuwanie elektronów najpierw z 3d (np. Fe²⁺ jako [Ar] 3d⁴ 4s² — błąd; poprawnie [Ar] 3d⁶).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f781eacd1",
+     "przod": "Wyjaśnij pojęcie: elektrony walencyjne",
+     "tyl": "Elektrony biorące udział w tworzeniu wiązań — dla bloków s i p to elektrony ostatniej powłoki, dla bloku d także elektrony podpowłoki d przedostatniej powłoki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "fa2623759",
+     "przod": "Wyjaśnij pojęcie: rdzeń atomowy",
+     "tyl": "Jądro wraz z elektronami niewalencyjnymi (wewnętrznymi), np. dla Na: [Ne].",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f86d20dc4",
+     "przod": "Jak zapisać diagram klatkowy (schemat klatkowy)?",
+     "tyl": "Każdy orbital jako kratkę, elektrony jako strzałki ↑ i ↓; przestrzegać zakazu Pauliego (max 2 strzałki przeciwnie skierowane) i reguły Hunda.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "fb430fb9d",
+     "przod": "Wyjaśnij pojęcie: stan podstawowy i wzbudzony atomu",
+     "tyl": "Podstawowy — elektrony zajmują orbitale o najniższej energii; wzbudzony — po pochłonięciu energii elektron przechodzi na orbital o wyższej energii (np. przy tworzeniu wiązań węgla).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f198ee721",
+     "przod": "Wyjaśnij pojęcie: elektrony niesparowane",
+     "tyl": "Pojedyncze elektrony na orbitalu (bez pary); ich liczbę łatwo odczytać z diagramu klatkowego, np. azot ma 3 niesparowane elektrony 2p.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f8654287f",
+     "przod": "Ile niesparowanych elektronów ma atom tlenu w stanie podstawowym?",
+     "tyl": "Dwa (2p⁴: ↑↓ ↑ ↑).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f393dabec",
+     "przod": "Jak z konfiguracji odczytać położenie pierwiastka w układzie okresowym?",
+     "tyl": "Numer okresu = najwyższa wartość n; blok = typ podpowłoki zapełnianej jako ostatnia; numer grupy z liczby elektronów walencyjnych (s i p: 1–2 oraz 13–18; d: suma elektronów s i d).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f11e6f48c",
+     "przod": "Podaj nazwę pojęcia: Obszar przestrzeni wokół jądra, w którym prawdopodobieństwo znalezienia elektronu jest największe (opisany funkcją falową).",
+     "tyl": "orbital atomowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f8c3e123e",
+     "przod": "Podaj nazwę pojęcia: Zbiór orbitali o tej samej głównej liczbie kwantowej n (K, L, M, N… dla n = 1, 2, 3, 4…).",
+     "tyl": "powłoka elektronowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f0fd6e0d0",
+     "przod": "Podaj nazwę pojęcia: Zbiór orbitali o tych samych liczbach n i l, np. 2p (trzy orbitale p drugiej powłoki).",
+     "tyl": "podpowłoka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "fbe1dc7eb",
+     "przod": "Rozpoznaj: Wyznacza numer powłoki i w przybliżeniu energię oraz rozmiar orbitalu; n = 1, 2, 3…",
+     "tyl": "Główna liczba kwantowa n",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "fe66971fc",
+     "przod": "Rozpoznaj: Wyznacza typ (kształt) orbitalu: l = 0 (s), 1 (p), 2 (d), 3 (f); przyjmuje wartości od 0 do n − 1.",
+     "tyl": "Poboczna liczba kwantowa l",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "fe48a108e",
+     "przod": "Rozpoznaj: Wyznacza orientację orbitalu w przestrzeni; m = −l, …, 0, …, +l (dla p: −1, 0, +1, czyli 3 orbitale).",
+     "tyl": "Magnetyczna liczba kwantowa m",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f0a08124e",
+     "przod": "Rozpoznaj: Opisuje spin elektronu: +½ lub −½.",
+     "tyl": "Magnetyczna spinowa liczba kwantowa ms",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "fc5c313eb",
+     "przod": "Rozpoznaj: W atomie nie mogą istnieć dwa elektrony o takich samych wszystkich czterech liczbach kwantowych — na jednym orbitalu najwyżej 2 elektrony o przeciwnych spinach.",
+     "tyl": "Zakaz Pauliego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "fbfd566f7",
+     "przod": "Rozpoznaj: Elektrony obsadzają orbitale tej samej podpowłoki najpierw pojedynczo, z równoległymi spinami, a dopiero potem tworzą pary.",
+     "tyl": "Reguła Hunda",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f533df6d9",
+     "przod": "Rozpoznaj: 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s 4f 5d 6p…",
+     "tyl": "Kolejność zapełniania podpowłok (reguła n + l)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "fe4e362dd",
+     "przod": "Rozpoznaj: Cr: [Ar] 3d⁵ 4s¹ (zamiast 3d⁴ 4s²); Cu: [Ar] 3d¹⁰ 4s¹ (zamiast 3d⁹ 4s²) — połowicznie lub całkowicie zapełniona podpowłoka d jest korzystniejsza energetycznie.",
+     "tyl": "Wyjątki: konfiguracja chromu i miedzi",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    },
+    {
+     "id": "f5abc6712",
+     "przod": "Podaj nazwę pojęcia: Jądro wraz z elektronami niewalencyjnymi (wewnętrznymi), np. dla Na: [Ne].",
+     "tyl": "rdzeń atomowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.3–5"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p853832ce",
+     "pytanie": "Ile maksymalnie elektronów mieści podpowłoka d?",
+     "odpowiedzi": [
+      "14",
+      "6",
+      "18",
+      "10"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "5 orbitali × 2 elektrony.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4ef153dc",
+     "pytanie": "Konfiguracja [Ar] 3d⁵ 4s¹ należy do atomu:",
+     "odpowiedzi": [
+      "chromu",
+      "manganu",
+      "wanadu",
+      "żelaza"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Cr to wyjątek: półzapełniona podpowłoka 3d.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p96eb76db",
+     "pytanie": "Jaka jest konfiguracja jonu Fe²⁺ (Z = 26)?",
+     "odpowiedzi": [
+      "[Ar] 3d⁵ 4s¹",
+      "[Ar] 3d⁴ 4s²",
+      "[Ar] 3d⁶ 4s²",
+      "[Ar] 3d⁶"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Usuwa się najpierw 2 elektrony 4s.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p22a083ca",
+     "pytanie": "Reguła Hunda mówi, że:",
+     "odpowiedzi": [
+      "na orbitalu mogą być najwyżej 2 elektrony",
+      "najpierw zapełnia się 3d, potem 4s",
+      "elektrony najpierw pojedynczo zajmują orbitale podpowłoki",
+      "elektrony mają ten sam spin w parze"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Pojedyncze obsadzanie z równoległymi spinami.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p95c4b38a",
+     "pytanie": "Poboczna liczba kwantowa l = 1 oznacza orbital typu:",
+     "odpowiedzi": [
+      "d",
+      "f",
+      "p",
+      "s"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "l: 0 — s, 1 — p, 2 — d, 3 — f.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p76a1c409",
+     "pytanie": "Pierwiastek o konfiguracji 1s² 2s² 2p⁶ 3s² 3p⁴ leży w:",
+     "odpowiedzi": [
+      "2. okresie, 16. grupie",
+      "3. okresie, 16. grupie",
+      "4. okresie, 16. grupie",
+      "3. okresie, 14. grupie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "n max = 3; 6 elektronów walencyjnych s+p → grupa 16 (siarka).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-okresowosc",
+   "nazwa": "Układ okresowy i prawo okresowości",
+   "opis": "Wymaganie II.6–8 podstawy programowej.",
+   "wymaganie": "II.6–8",
+   "fiszki": [
+    {
+     "id": "f67d52237",
+     "przod": "Prawo okresowości",
+     "tyl": "Właściwości pierwiastków są okresową funkcją ich liczby atomowej — powtarzają się co pewną liczbę pierwiastków, bo okresowo powtarza się konfiguracja elektronów walencyjnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "fca41aadf",
+     "przod": "Co łączy pierwiastki jednej grupy?",
+     "tyl": "Ta sama liczba elektronów walencyjnych i podobna ich konfiguracja, a więc podobne właściwości chemiczne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "fcb07c47b",
+     "przod": "Co łączy pierwiastki jednego okresu?",
+     "tyl": "Ta sama liczba powłok elektronowych (numer okresu = liczba powłok).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f80a7cb17",
+     "przod": "Bloki układu okresowego",
+     "tyl": "Blok s — grupy 1–2 (i He), blok p — grupy 13–18, blok d — grupy 3–12, blok f — lantanowce i aktynowce.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f659989a0",
+     "przod": "Jak zmienia się promień atomowy w okresie?",
+     "tyl": "Maleje od lewej do prawej — rośnie ładunek jądra, a liczba powłok się nie zmienia, więc elektrony są silniej przyciągane.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f76be1379",
+     "przod": "Jak zmienia się promień atomowy w grupie?",
+     "tyl": "Rośnie z góry na dół — przybywa powłok elektronowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f7ad22d75",
+     "przod": "Promień kationu a promień atomu",
+     "tyl": "Kation jest mniejszy od atomu (mniej elektronów, często o jedną powłokę mniej, silniejsze przyciąganie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f7e2407e4",
+     "przod": "Promień anionu a promień atomu",
+     "tyl": "Anion jest większy od atomu (więcej elektronów, silniejsze odpychanie między nimi).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "ff2d96aa6",
+     "przod": "Promienie drobin izoelektronowych, np. O²⁻, F⁻, Na⁺, Mg²⁺",
+     "tyl": "Im większy ładunek jądra przy tej samej liczbie elektronów, tym mniejszy promień: O²⁻ > F⁻ > Na⁺ > Mg²⁺.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f9972a182",
+     "przod": "Wyjaśnij pojęcie: elektroujemność",
+     "tyl": "Zdolność atomu w cząsteczce do przyciągania elektronów wiązania. Najbardziej elektroujemny jest fluor (4,0 w skali Paulinga).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "faa5a9bb1",
+     "przod": "Jak zmienia się elektroujemność w układzie okresowym?",
+     "tyl": "Rośnie w okresie od lewej do prawej i maleje w grupie z góry na dół (bez gazów szlachetnych).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f989eb0f7",
+     "przod": "Wyjaśnij pojęcie: energia jonizacji",
+     "tyl": "Energia potrzebna do oderwania elektronu od atomu (lub jonu) w stanie gazowym. Kolejne energie jonizacji są coraz większe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "fd36ad039",
+     "przod": "Jak zmienia się pierwsza energia jonizacji?",
+     "tyl": "Rośnie w okresie (mniejszy promień, większy ładunek jądra) i maleje w grupie (elektron dalej od jądra).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f9de05d14",
+     "przod": "Skokowy wzrost kolejnych energii jonizacji — co oznacza?",
+     "tyl": "Że oderwano już wszystkie elektrony walencyjne i następny elektron pochodzi z wewnętrznej powłoki. Liczba elektronów przed skokiem = liczba elektronów walencyjnych (np. Mg: skok po 2.).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f1ca49694",
+     "przod": "Jak zmienia się charakter metaliczny?",
+     "tyl": "Maleje w okresie od lewej do prawej, rośnie w grupie z góry na dół.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "fbfe39e35",
+     "przod": "Charakter chemiczny tlenków w 3. okresie",
+     "tyl": "Na₂O, MgO — zasadowe; Al₂O₃ — amfoteryczny; SiO₂, P₄O₁₀, SO₃, Cl₂O₇ — kwasowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f485a93b6",
+     "przod": "Jak zmienia się aktywność metali w grupie 1 i 2?",
+     "tyl": "Rośnie w dół grupy — elektron walencyjny jest dalej od jądra i łatwiej go oddać.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f3a2baaf3",
+     "przod": "Jak zmienia się aktywność fluorowców?",
+     "tyl": "Maleje w dół grupy: F₂ > Cl₂ > Br₂ > I₂ — atom coraz słabiej przyłącza elektron. Dlatego Cl₂ wypiera Br₂ i I₂ z ich soli.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f9c9395f2",
+     "przod": "Jak zmienia się moc kwasów beztlenowych HX fluorowców?",
+     "tyl": "Rośnie w dół grupy: HF (słaby) < HCl < HBr < HI — rośnie długość i maleje energia wiązania H–X.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "fb469fff9",
+     "przod": "Gazy szlachetne — dlaczego są mało reaktywne?",
+     "tyl": "Mają trwałe konfiguracje: dublet (He) lub oktet (ns² np⁶) na ostatniej powłoce.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    },
+    {
+     "id": "f10554463",
+     "przod": "Rozpoznaj: Blok s — grupy 1–2 (i He), blok p — grupy 13–18, blok d — grupy 3–12, blok f — lantanowce i aktynowce.",
+     "tyl": "Bloki układu okresowego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.6–8"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p32f596a2",
+     "pytanie": "Który atom ma największy promień?",
+     "odpowiedzi": [
+      "K",
+      "Mg",
+      "Al",
+      "Na"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "K jest w 4. okresie (więcej powłok) i w 1. grupie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6660d940",
+     "pytanie": "Ułóż drobiny według malejącego promienia: Na⁺, F⁻, Mg²⁺, O²⁻",
+     "odpowiedzi": [
+      "F⁻ > O²⁻ > Mg²⁺ > Na⁺",
+      "Na⁺ > Mg²⁺ > O²⁻ > F⁻",
+      "Mg²⁺ > Na⁺ > F⁻ > O²⁻",
+      "O²⁻ > F⁻ > Na⁺ > Mg²⁺"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Izoelektronowe: większy ładunek jądra → mniejszy promień.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p16487f06",
+     "pytanie": "Najbardziej elektroujemnym pierwiastkiem jest:",
+     "odpowiedzi": [
+      "fluor",
+      "azot",
+      "tlen",
+      "chlor"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "F — 4,0 w skali Paulinga.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p52e6d2ab",
+     "pytanie": "Kolejne energie jonizacji pierwiastka X (kJ/mol): 578, 1817, 2745, 11577. X należy do grupy:",
+     "odpowiedzi": [
+      "13",
+      "1",
+      "14",
+      "2"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Skok po trzecim elektronie → 3 elektrony walencyjne (glin, grupa 13).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p629dc00e",
+     "pytanie": "Który tlenek ma charakter amfoteryczny?",
+     "odpowiedzi": [
+      "P₄O₁₀",
+      "Al₂O₃",
+      "Na₂O",
+      "SO₃"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Al₂O₃ reaguje i z kwasami, i z zasadami.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe9a255e6",
+     "pytanie": "Który kwas jest najmocniejszy?",
+     "odpowiedzi": [
+      "HBr",
+      "HCl",
+      "HI",
+      "HF"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Moc HX rośnie w dół grupy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-promieniotworczosc",
+   "nazwa": "Przemiany promieniotwórcze i okres półtrwania",
+   "opis": "Wymaganie II.9–10 podstawy programowej.",
+   "wymaganie": "II.9–10",
+   "fiszki": [
+    {
+     "id": "f3e4ab8e5",
+     "przod": "Wyjaśnij pojęcie: promieniotwórczość naturalna",
+     "tyl": "Samorzutny rozpad jąder nietrwałych izotopów połączony z emisją promieniowania (α, β, γ).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f12cfc1dc",
+     "przod": "Przemiana α",
+     "tyl": "Jądro emituje cząstkę α (jądro helu ⁴₂He): liczba masowa maleje o 4, liczba atomowa o 2.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f3430422c",
+     "przod": "Przemiana β⁻",
+     "tyl": "Neutron w jądrze zamienia się w proton i elektron (emitowany): A bez zmian, Z rośnie o 1.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "fdfc6cfa3",
+     "przod": "Przemiana β⁺",
+     "tyl": "Proton w jądrze zamienia się w neutron i pozyton (emitowany): A bez zmian, Z maleje o 1.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f7a92e1b7",
+     "przod": "Promieniowanie γ",
+     "tyl": "Wysokoenergetyczne promieniowanie elektromagnetyczne, towarzyszące przemianom α i β; nie zmienia A ani Z.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f77281c34",
+     "przod": "Przenikliwość promieniowania α, β, γ",
+     "tyl": "α — najmniej przenikliwe (zatrzymuje kartka papieru), β — średnio (cienka blacha aluminium), γ — najbardziej (gruba warstwa ołowiu, beton).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f86a47440",
+     "przod": "Zasady zapisu równań przemian jądrowych",
+     "tyl": "Suma liczb masowych i suma liczb atomowych muszą być równe po obu stronach równania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "ff74dc479",
+     "przod": "Przykład: przemiana α radu-226",
+     "tyl": "²²⁶₈₈Ra → ²²²₈₆Rn + ⁴₂He.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f8cdbc21c",
+     "przod": "Przykład: przemiana β⁻ węgla-14",
+     "tyl": "¹⁴₆C → ¹⁴₇N + ⁰₋₁e.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f6756709c",
+     "przod": "Wyjaśnij pojęcie: okres półtrwania (T½)",
+     "tyl": "Czas, po którym połowa początkowej liczby jąder danego izotopu ulega rozpadowi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "ffcc944ce",
+     "przod": "Wzór na masę izotopu po czasie t",
+     "tyl": "m = m₀ · (½)^(t/T½), czyli po n okresach półtrwania zostaje m₀ / 2ⁿ.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f3d043db7",
+     "przod": "Ile izotopu zostaje po 3 okresach półtrwania?",
+     "tyl": "1/8 (12,5%) masy początkowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "fcba77e88",
+     "przod": "Wyjaśnij pojęcie: szereg promieniotwórczy",
+     "tyl": "Ciąg kolejnych przemian α i β, w którym nietrwały izotop przechodzi aż do trwałego (np. szereg uranowy kończy się na ²⁰⁶Pb).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f199d29a8",
+     "przod": "Jak obliczyć liczbę przemian α i β w szeregu?",
+     "tyl": "Liczba przemian α = (A₀ − A)/4; potem liczba przemian β⁻ wynika z różnicy Z: Z₀ − 2·α + β = Z.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f53beee69",
+     "przod": "Zastosowania izotopów promieniotwórczych",
+     "tyl": "Datowanie radiowęglowe (¹⁴C), medycyna (diagnostyka, radioterapia, np. ¹³¹I, ⁶⁰Co), energetyka jądrowa, sterylizacja.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "fa68642b7",
+     "przod": "Wyjaśnij pojęcie: reakcja rozszczepienia",
+     "tyl": "Rozpad ciężkiego jądra (np. ²³⁵U) na dwa lżejsze po pochłonięciu neutronu, z uwolnieniem energii i kolejnych neutronów (reakcja łańcuchowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f3b6701ff",
+     "przod": "Rozpoznaj: Jądro emituje cząstkę α (jądro helu ⁴₂He): liczba masowa maleje o 4, liczba atomowa o 2.",
+     "tyl": "Przemiana α",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f888e100c",
+     "przod": "Rozpoznaj: Neutron w jądrze zamienia się w proton i elektron (emitowany): A bez zmian, Z rośnie o 1.",
+     "tyl": "Przemiana β⁻",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "fa28efe02",
+     "przod": "Rozpoznaj: Proton w jądrze zamienia się w neutron i pozyton (emitowany): A bez zmian, Z maleje o 1.",
+     "tyl": "Przemiana β⁺",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f69291cf3",
+     "przod": "Podaj nazwę pojęcia: Czas, po którym połowa początkowej liczby jąder danego izotopu ulega rozpadowi.",
+     "tyl": "okres półtrwania (T½)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    },
+    {
+     "id": "f50ad5052",
+     "przod": "Rozpoznaj: Datowanie radiowęglowe (¹⁴C), medycyna (diagnostyka, radioterapia, np. ¹³¹I, ⁶⁰Co), energetyka jądrowa, sterylizacja.",
+     "tyl": "Zastosowania izotopów promieniotwórczych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. II.9–10"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p2839ae34",
+     "pytanie": "W przemianie α liczba masowa:",
+     "odpowiedzi": [
+      "nie zmienia się",
+      "maleje o 2",
+      "maleje o 4",
+      "rośnie o 4"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Emitowana jest cząstka ⁴₂He.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3ae4082c",
+     "pytanie": "W przemianie β⁻ liczba atomowa:",
+     "odpowiedzi": [
+      "maleje o 2",
+      "rośnie o 1",
+      "nie zmienia się",
+      "maleje o 1"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Neutron → proton + elektron.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p31a9e031",
+     "pytanie": "Okres półtrwania izotopu wynosi 8 dni. Ile zostanie z 40 g po 24 dniach?",
+     "odpowiedzi": [
+      "20 g",
+      "10 g",
+      "5 g",
+      "2,5 g"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "24/8 = 3 okresy: 40/8 = 5 g.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb94dfd6f",
+     "pytanie": "Najbardziej przenikliwe jest promieniowanie:",
+     "odpowiedzi": [
+      "wszystkie jednakowo",
+      "β",
+      "α",
+      "γ"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "γ zatrzymuje gruba warstwa ołowiu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3b6c1026",
+     "pytanie": "Izotop ²³⁸U przechodzi w ²⁰⁶Pb. Ile przemian α zachodzi?",
+     "odpowiedzi": [
+      "8",
+      "6",
+      "10",
+      "32"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "(238 − 206)/4 = 8.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

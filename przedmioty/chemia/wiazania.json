@@ -1,0 +1,549 @@
+{
+ "id": "wiazania",
+ "nazwa": "Wiązania i oddziaływania",
+ "opis": "Rodzaje wiązań, hybrydyzacja i kształt cząsteczek, oddziaływania międzycząsteczkowe.",
+ "poddzialy": [
+  {
+   "id": "c-wiazania",
+   "nazwa": "Wiązania jonowe, kowalencyjne, koordynacyjne i metaliczne",
+   "opis": "Wymaganie III.1–4 podstawy programowej.",
+   "wymaganie": "III.1–4",
+   "fiszki": [
+    {
+     "id": "fd43deb78",
+     "przod": "Reguła oktetu (dubletu)",
+     "tyl": "Atomy łączą się tak, by uzyskać trwałą konfigurację najbliższego gazu szlachetnego — 8 elektronów na ostatniej powłoce (wodór i lit: 2).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "f98904371",
+     "przod": "Wyjaśnij pojęcie: wiązanie jonowe",
+     "tyl": "Wiązanie powstające w wyniku przeniesienia elektronów z atomu metalu na atom niemetalu i elektrostatycznego przyciągania powstałych kationów i anionów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "f14548512",
+     "przod": "Kiedy powstaje wiązanie jonowe (kryterium elektroujemności)?",
+     "tyl": "Gdy różnica elektroujemności łączących się atomów jest duża — umownie ΔE ≥ 1,7.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "fa755e5c4",
+     "przod": "Wyjaśnij pojęcie: wiązanie kowalencyjne (atomowe)",
+     "tyl": "Wiązanie utworzone przez wspólną parę (pary) elektronów, do której każdy z atomów wnosi po jednym elektronie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "f25b9a7ed",
+     "przod": "Wiązanie kowalencyjne niespolaryzowane a spolaryzowane",
+     "tyl": "Niespolaryzowane — między atomami o tej samej elektroujemności (ΔE ≈ 0, np. H₂, Cl₂); spolaryzowane — wspólna para przesunięta w stronę atomu bardziej elektroujemnego (0 < ΔE < 1,7, np. HCl, H₂O).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "fcafdad38",
+     "przod": "Wyjaśnij pojęcie: wiązanie koordynacyjne",
+     "tyl": "Wiązanie kowalencyjne, w którym obie elektrony wspólnej pary pochodzą od jednego atomu (donora) i trafiają na wolny orbital drugiego (akceptora), np. w NH₄⁺, H₃O⁺, CO.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "fda0f8950",
+     "przod": "Przykłady drobin z wiązaniem koordynacyjnym",
+     "tyl": "NH₄⁺ (N → H⁺), H₃O⁺ (O → H⁺), CO, SO₂, SO₃, HNO₃, H₂SO₄ (w zapisie wzorów elektronowych), związki kompleksowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "fc708a26d",
+     "przod": "Wyjaśnij pojęcie: wiązanie metaliczne",
+     "tyl": "Wiązanie w metalach: kationy metalu tworzą sieć krystaliczną, a elektrony walencyjne są zdelokalizowane („gaz elektronowy”).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "fed005c5a",
+     "przod": "Jak wiązanie metaliczne tłumaczy właściwości metali?",
+     "tyl": "Zdelokalizowane elektrony przewodzą prąd i ciepło; warstwy kationów mogą się przesuwać, więc metale są kowalne i ciągliwe; elektrony odbijają światło (połysk).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "f49e0dd7d",
+     "przod": "Wyjaśnij pojęcie: wiązanie σ (sigma)",
+     "tyl": "Wiązanie powstające przez czołowe nakładanie się orbitali wzdłuż osi łączącej jądra; każde wiązanie pojedyncze jest typu σ.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "f1f4c7f8e",
+     "przod": "Wyjaśnij pojęcie: wiązanie π (pi)",
+     "tyl": "Wiązanie powstające przez boczne nakładanie się orbitali p, nad i pod osią wiązania; występuje w wiązaniach wielokrotnych obok wiązania σ.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "f6598824b",
+     "przod": "Ile wiązań σ i π ma wiązanie podwójne i potrójne?",
+     "tyl": "Podwójne: 1σ + 1π; potrójne: 1σ + 2π.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "fd3be0f89",
+     "przod": "Właściwości związków jonowych",
+     "tyl": "Wysokie temperatury topnienia, w stanie stałym nie przewodzą prądu, przewodzą w stopie i w roztworze; zwykle dobrze rozpuszczalne w wodzie; kruche.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "ff1a35660",
+     "przod": "Właściwości substancji kowalencyjnych o budowie cząsteczkowej",
+     "tyl": "Niskie temperatury topnienia i wrzenia (słabe oddziaływania między cząsteczkami), zwykle nie przewodzą prądu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "f422c539d",
+     "przod": "Wyjaśnij pojęcie: kryształ kowalencyjny",
+     "tyl": "Kryształ, w którym atomy połączone są w sieć wiązaniami kowalencyjnymi (np. diament, SiO₂) — bardzo twardy, o bardzo wysokiej temperaturze topnienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "f410fd3b1",
+     "przod": "Dlaczego grafit przewodzi prąd, a diament nie?",
+     "tyl": "W graficie każdy atom C tworzy 3 wiązania, a czwarty elektron jest zdelokalizowany w warstwie; w diamencie wszystkie 4 elektrony tworzą wiązania σ.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "fa4136b05",
+     "przod": "Jak zapisać wzór elektronowy kreskowy (Lewisa)?",
+     "tyl": "Pokazać wszystkie wiązania (kreski — wspólne pary) i wolne pary elektronowe przy atomach, tak by spełnić regułę oktetu (dubletu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "f2f1463bc",
+     "przod": "Wyjaśnij pojęcie: wolna (niewiążąca) para elektronowa",
+     "tyl": "Para elektronów walencyjnych atomu, która nie bierze udziału w wiązaniu, np. dwie pary przy tlenie w H₂O, jedna przy azocie w NH₃.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "f3a2172c9",
+     "przod": "Wyjaśnij pojęcie: energia wiązania",
+     "tyl": "Energia potrzebna do rozerwania wiązania (w 1 molu cząsteczek w stanie gazowym); im krótsze wiązanie, tym zwykle większa energia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    },
+    {
+     "id": "fbca0748a",
+     "przod": "Rozpoznaj: Atomy łączą się tak, by uzyskać trwałą konfigurację najbliższego gazu szlachetnego — 8 elektronów na ostatniej powłoce (wodór i lit: 2).",
+     "tyl": "Reguła oktetu (dubletu)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.1–4"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pbaa7839a",
+     "pytanie": "W której substancji występuje wiązanie jonowe?",
+     "odpowiedzi": [
+      "HCl",
+      "KBr",
+      "CO₂",
+      "Cl₂"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Metal z niemetalem o dużej różnicy elektroujemności.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8dcc1b43",
+     "pytanie": "Wiązanie koordynacyjne występuje w:",
+     "odpowiedzi": [
+      "NaCl",
+      "CH₄",
+      "H₂",
+      "NH₄⁺"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Azot oddaje wolną parę kationowi H⁺.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa7bb6eeb",
+     "pytanie": "Ile wiązań σ i π ma cząsteczka N₂?",
+     "odpowiedzi": [
+      "3σ",
+      "1σ i 1π",
+      "1σ i 2π",
+      "2σ i 1π"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wiązanie potrójne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7f821964",
+     "pytanie": "Dlaczego chlorek sodu w stanie stałym nie przewodzi prądu?",
+     "odpowiedzi": [
+      "nie ma elektronów",
+      "ma wiązania kowalencyjne",
+      "nie ma jonów",
+      "jony nie mogą się swobodnie poruszać w sieci krystalicznej"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Przewodzi dopiero w stopie lub roztworze.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4342485d",
+     "pytanie": "Dlaczego metale przewodzą prąd elektryczny?",
+     "odpowiedzi": [
+      "tworzą kryształy kowalencyjne",
+      "mają zdelokalizowane elektrony walencyjne",
+      "mają wiązania jonowe",
+      "mają wolne pary elektronowe"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Gaz elektronowy w sieci metalicznej.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-geometria",
+   "nazwa": "Hybrydyzacja, kształt i polarność cząsteczek",
+   "opis": "Wymaganie III.5–6 podstawy programowej.",
+   "wymaganie": "III.5–6",
+   "fiszki": [
+    {
+     "id": "f0dc32326",
+     "przod": "Wyjaśnij pojęcie: hybrydyzacja",
+     "tyl": "Model, w którym orbitale atomowe atomu centralnego mieszają się, tworząc nowe, równocenne orbitale zhybrydyzowane o określonym ułożeniu w przestrzeni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f88492b96",
+     "przod": "Hybrydyzacja sp³ — geometria i kąt",
+     "tyl": "Cztery orbitale skierowane do naroży czworościanu, kąt ok. 109,5°, np. CH₄. W NH₃ (1 wolna para) kształt piramidy trygonalnej, ok. 107°; w H₂O (2 wolne pary) kątowy, ok. 104,5°.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f68a32e23",
+     "przod": "Hybrydyzacja sp² — geometria i kąt",
+     "tyl": "Trzy orbitale w jednej płaszczyźnie, kąt 120° (trójkąt), np. BF₃, C w etenie, C w benzenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f89ad1395",
+     "przod": "Hybrydyzacja sp — geometria i kąt",
+     "tyl": "Dwa orbitale liniowo, kąt 180°, np. BeCl₂, CO₂ (C), C w etynie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f85a825fd",
+     "przod": "Jak ustalić typ hybrydyzacji atomu centralnego?",
+     "tyl": "Policzyć liczbę przestrzenną: wiązania σ + wolne pary atomu centralnego. 2 → sp, 3 → sp², 4 → sp³.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "fc410b6eb",
+     "przod": "Hybrydyzacja atomów węgla w etanie, etenie i etynie",
+     "tyl": "Etan — sp³, eten — sp², etyn — sp.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "fc15501cc",
+     "przod": "Model VSEPR — podstawowa zasada",
+     "tyl": "Pary elektronowe (wiążące i wolne) wokół atomu centralnego odpychają się i układają jak najdalej od siebie; wolne pary odpychają silniej niż wiążące.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "fa2447d29",
+     "przod": "Dlaczego kąt H–O–H w wodzie jest mniejszy niż w metanie?",
+     "tyl": "Dwie wolne pary elektronowe tlenu odpychają silniej niż pary wiążące i ściskają kąt między wiązaniami O–H (ok. 104,5° zamiast 109,5°).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "fe0d306a0",
+     "przod": "Wyjaśnij pojęcie: moment dipolowy",
+     "tyl": "Miara polarności cząsteczki — wynika z rozsunięcia środków ładunku dodatniego i ujemnego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "fc223de11",
+     "przod": "Kiedy cząsteczka jest polarna?",
+     "tyl": "Gdy ma wiązania spolaryzowane ułożone niesymetrycznie, więc momenty dipolowe się nie znoszą (np. H₂O, NH₃, HCl).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f00a5a1b0",
+     "przod": "Dlaczego CO₂ jest niepolarny, choć wiązania C=O są spolaryzowane?",
+     "tyl": "Cząsteczka jest liniowa i symetryczna — momenty dipolowe obu wiązań znoszą się.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f07a7cc04",
+     "przod": "Przykłady cząsteczek niepolarnych o wiązaniach spolaryzowanych",
+     "tyl": "CO₂ (liniowa), BF₃ (trójkątna płaska), CH₄ i CCl₄ (tetraedryczne).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "fedfa387c",
+     "przod": "Kształt cząsteczki NH₃",
+     "tyl": "Piramida trygonalna — azot sp³ z jedną wolną parą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f07c61eb3",
+     "przod": "Kształt cząsteczki H₂O",
+     "tyl": "Kątowy (zgięty) — tlen sp³ z dwiema wolnymi parami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f82c88ea8",
+     "przod": "Kształt jonu NH₄⁺",
+     "tyl": "Tetraedr (czworościan), kąty 109,5° — cztery wiązania N–H, brak wolnej pary.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f89ff6ccf",
+     "przod": "Typowy błąd w określaniu kształtu cząsteczki",
+     "tyl": "Mylenie kształtu z rozmieszczeniem par elektronowych: w NH₃ pary są rozmieszczone tetraedrycznie, ale kształt cząsteczki (atomy) to piramida.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f093861d8",
+     "przod": "Rozpoznaj: Etan — sp³, eten — sp², etyn — sp.",
+     "tyl": "Hybrydyzacja atomów węgla w etanie, etenie i etynie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "fd198beff",
+     "przod": "Podaj nazwę pojęcia: Miara polarności cząsteczki — wynika z rozsunięcia środków ładunku dodatniego i ujemnego.",
+     "tyl": "moment dipolowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f4bb86867",
+     "przod": "Rozpoznaj: Piramida trygonalna — azot sp³ z jedną wolną parą.",
+     "tyl": "Kształt cząsteczki NH₃",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "fe16129c8",
+     "przod": "Rozpoznaj: Kątowy (zgięty) — tlen sp³ z dwiema wolnymi parami.",
+     "tyl": "Kształt cząsteczki H₂O",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "fcf7b1e04",
+     "przod": "Rozpoznaj: Tetraedr (czworościan), kąty 109,5° — cztery wiązania N–H, brak wolnej pary.",
+     "tyl": "Kształt jonu NH₄⁺",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.5–6"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pb5c342ad",
+     "pytanie": "Atom węgla w etenie ma hybrydyzację:",
+     "odpowiedzi": [
+      "sp",
+      "sp³",
+      "nie ulega hybrydyzacji",
+      "sp²"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Trzy wiązania σ, płaski układ, 120°.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9783bcb2",
+     "pytanie": "Która cząsteczka jest niepolarna?",
+     "odpowiedzi": [
+      "CCl₄",
+      "HCl",
+      "H₂O",
+      "NH₃"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Tetraedryczna symetria — dipole się znoszą.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1ac1b80a",
+     "pytanie": "Kształt cząsteczki amoniaku to:",
+     "odpowiedzi": [
+      "tetraedr",
+      "liniowy",
+      "trójkąt płaski",
+      "piramida trygonalna"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "sp³ z jedną wolną parą.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0dbc3c5b",
+     "pytanie": "Kąt między wiązaniami w cząsteczce CO₂ wynosi:",
+     "odpowiedzi": [
+      "120°",
+      "180°",
+      "109,5°",
+      "104,5°"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Cząsteczka liniowa, węgiel sp.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p613cfc96",
+     "pytanie": "Dlaczego kąt w H₂O (104,5°) jest mniejszy od 109,5°?",
+     "odpowiedzi": [
+      "cząsteczka jest liniowa",
+      "wolne pary elektronowe silniej odpychają pary wiążące",
+      "wiązania O–H są niespolaryzowane",
+      "tlen ma hybrydyzację sp²"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Model VSEPR.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-oddzialywania",
+   "nazwa": "Oddziaływania międzycząsteczkowe a właściwości substancji",
+   "opis": "Wymaganie III.7–8 podstawy programowej.",
+   "wymaganie": "III.7–8",
+   "fiszki": [
+    {
+     "id": "f622bae1b",
+     "przod": "Wyjaśnij pojęcie: wiązanie wodorowe",
+     "tyl": "Oddziaływanie między atomem wodoru związanym z silnie elektroujemnym atomem (F, O, N) a wolną parą elektronową innego atomu F, O lub N.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f22d385ae",
+     "przod": "Jak wiązania wodorowe wpływają na temperaturę wrzenia?",
+     "tyl": "Podnoszą ją — trzeba dostarczyć dodatkowej energii, by je zerwać (np. H₂O wrze w 100°C, a cięższy H₂S w ok. −60°C).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f7d4022f2",
+     "przod": "Dlaczego etanol wrze w wyższej temperaturze niż eter dimetylowy o tej samej masie molowej?",
+     "tyl": "Etanol ma grupę –OH i tworzy wiązania wodorowe między cząsteczkami, eter dimetylowy nie ma wodoru przy tlenie i ich nie tworzy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f2a4b50ed",
+     "przod": "Wyjaśnij pojęcie: oddziaływania van der Waalsa (dyspersyjne)",
+     "tyl": "Słabe oddziaływania między cząsteczkami wynikające z chwilowych dipoli; rosną z wielkością cząsteczki i jej powierzchnią kontaktu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "fd5bdfbe0",
+     "przod": "Jak długość łańcucha alkanu wpływa na temperaturę wrzenia?",
+     "tyl": "Im dłuższy łańcuch, tym silniejsze oddziaływania van der Waalsa i wyższa temperatura wrzenia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f7ef6608e",
+     "przod": "Jak rozgałęzienie łańcucha wpływa na temperaturę wrzenia izomerów?",
+     "tyl": "Rozgałęzione izomery wrą niżej — mają mniejszą powierzchnię kontaktu, więc słabsze oddziaływania międzycząsteczkowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "ff62ef30a",
+     "przod": "Oddziaływania dipol–dipol",
+     "tyl": "Przyciąganie między cząsteczkami polarnymi (np. HCl) — silniejsze niż dyspersyjne przy podobnej masie, słabsze niż wiązania wodorowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f5d4d0a7f",
+     "przod": "Zasada „podobne rozpuszcza podobne”",
+     "tyl": "Substancje polarne i jonowe dobrze rozpuszczają się w rozpuszczalnikach polarnych (woda), niepolarne — w niepolarnych (np. heksan).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f412fec95",
+     "przod": "Dlaczego alkohole o krótkim łańcuchu mieszają się z wodą, a o długim nie?",
+     "tyl": "Grupa –OH tworzy wiązania wodorowe z wodą, ale długi niepolarny łańcuch węglowy (hydrofobowy) przeważa i utrudnia rozpuszczanie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "ff3480528",
+     "przod": "Wyjaśnij pojęcie: hydratacja (solwatacja)",
+     "tyl": "Otaczanie jonów lub cząsteczek substancji rozpuszczonej przez cząsteczki wody (rozpuszczalnika) — dodatnie jony przez atomy O, ujemne przez atomy H wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "fec17131a",
+     "przod": "Dlaczego lód ma mniejszą gęstość niż woda?",
+     "tyl": "W lodzie cząsteczki wody połączone są wiązaniami wodorowymi w ażurową sieć z dużą ilością pustej przestrzeni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f83aea675",
+     "przod": "Uszereguj oddziaływania według siły",
+     "tyl": "Wiązanie kowalencyjne i jonowe (najsilniejsze) > wiązanie wodorowe > oddziaływania dipol–dipol > oddziaływania dyspersyjne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f54d5be28",
+     "przod": "Rozpoznaj: Przyciąganie między cząsteczkami polarnymi (np. HCl) — silniejsze niż dyspersyjne przy podobnej masie, słabsze niż wiązania wodorowe.",
+     "tyl": "Oddziaływania dipol–dipol",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "fb260a8af",
+     "przod": "Podaj nazwę pojęcia: Otaczanie jonów lub cząsteczek substancji rozpuszczonej przez cząsteczki wody (rozpuszczalnika) — dodatnie jony przez atomy O, ujemne przez atomy H wody.",
+     "tyl": "hydratacja (solwatacja)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. III.7–8"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p54f3ae60",
+     "pytanie": "Która substancja tworzy wiązania wodorowe między cząsteczkami?",
+     "odpowiedzi": [
+      "H₂S",
+      "NH₃",
+      "CH₄",
+      "CH₃–O–CH₃"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wodór przy azocie i wolna para na azocie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4eb23049",
+     "pytanie": "Która substancja ma najwyższą temperaturę wrzenia?",
+     "odpowiedzi": [
+      "butan",
+      "propan",
+      "etan",
+      "metan"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Najdłuższy łańcuch — najsilniejsze oddziaływania dyspersyjne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa35b7686",
+     "pytanie": "Dlaczego H₂O wrze w wyższej temperaturze niż H₂S?",
+     "odpowiedzi": [
+      "między cząsteczkami wody tworzą się wiązania wodorowe",
+      "H₂S jest jonowy",
+      "H₂O ma większą masę",
+      "H₂O jest niepolarna"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "S jest za mało elektroujemna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p21187ab3",
+     "pytanie": "Która substancja najlepiej rozpuszcza się w heksanie?",
+     "odpowiedzi": [
+      "etanol",
+      "jod I₂",
+      "cukier",
+      "NaCl"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Niepolarny I₂ w niepolarnym rozpuszczalniku.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
