@@ -17,7 +17,26 @@ TEMPO, TEMPO_WOLNIEJ = 1.0, 0.9  # naturalne tempo; uczeń może zwolnić w odtw
 KLUCZ = os.environ.get('GOOGLE_TTS_KEY', 'x')  # 'x' — w środowisku Claude prawdziwy klucz wstawia proxy
 
 
+# Wymowa: skróty i trudne słowa zapisujemy tak, jak ma je przeczytać lektor (tylko w tekście wysyłanym do TTS).
+WYMOWA = [
+    (r'\bmRNA\b', 'em-er-en-a'), (r'\btRNA\b', 'te-er-en-a'), (r'\brRNA\b', 'er-er-en-a'),
+    (r'\bDNA\b', 'de-en-a'), (r'\bRNA\b', 'er-en-a'), (r'\bATP\b', 'a-te-pe'), (r'\bADP\b', 'a-de-pe'),
+    (r'\bNADPH\b', 'en-a-de-pe-ha'), (r'\bNADH\b', 'en-a-de-ha'), (r'\bFADH2\b', 'fad-ha-dwa'), (r'\bNAD\b', 'nad'),
+    (r'\bpH\b', 'pe-ha'), (r'\bCO2\b', 'dwutlenek węgla'), (r'\bO2\b', 'tlen'), (r'\bH2O\b', 'woda'),
+    (r'\bPCR\b', 'pe-ce-er'), (r'\bGMO\b', 'gie-em-o'), (r'\bCKE\b', 'ce-ka-e'), (r'\bHIV\b', 'ha-i-fau'),
+    (r'\bAIDS\b', 'ejds'), (r'\bUV\b', 'u-fau'), (r'\bIndexLab\b', 'Indeks Lab'), (r'\bcrossing-over\b', 'krosing ower'),
+    (r'\bcm\b', 'centymetrów'), (r'°C', ' stopni Celsjusza'), (r'%', ' procent'),
+]
+
+
+def wymowa(tekst):
+    for wz, zam in WYMOWA:
+        tekst = re.sub(wz, zam, tekst)
+    return tekst
+
+
 def mow(tekst, glos, tempo, plik):
+    tekst = wymowa(tekst)
     body = {'input': {'text': tekst}, 'voice': {'languageCode': 'pl-PL', 'name': glos},
             'audioConfig': {'audioEncoding': 'LINEAR16', 'sampleRateHertz': 24000, 'speakingRate': tempo}}
     req = urllib.request.Request('https://texttospeech.googleapis.com/v1/text:synthesize', data=json.dumps(body).encode(),

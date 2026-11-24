@@ -1,0 +1,20 @@
+{
+  "odcinek": "biologia-08-bialka",
+  "pytania": [
+    {"id": "peptydowe", "typ": "abcd", "pytanie": "Jak nazywa się wiązanie łączące aminokwasy w łańcuchu?",
+     "odpowiedzi": ["Peptydowe", "Glikozydowe", "Disiarczkowe", "Estrowe"],
+     "poprawna": 0, "wyjasnienie": "Wiązanie peptydowe powstaje w kondensacji: odłącza się cząsteczka wody."},
+    {"id": "rzedowosc", "typ": "abcd", "pytanie": "Białko zbudowane z jednego łańcucha polipeptydowego. Jaka jest najwyższa rzędowość jego struktury?",
+     "odpowiedzi": ["Trzeciorzędowa", "Czwartorzędowa", "Drugorzędowa", "Pierwszorzędowa"],
+     "poprawna": 0, "wyjasnienie": "Struktura czwartorzędowa wymaga co najmniej dwóch łańcuchów."},
+    {"id": "denaturacja", "typ": "laczenie", "polecenie": "Połącz poziom struktury z tym, co go utrzymuje.",
+     "pary": [["Pierwszorzędowa", "wiązania peptydowe"], ["Drugorzędowa", "wiązania wodorowe w szkielecie łańcucha"], ["Trzeciorzędowa", "oddziaływania reszt R, mostki disiarczkowe"], ["Czwartorzędowa", "połączenie kilku łańcuchów"]],
+     "wyjasnienie": "Denaturacja niszczy oddziaływania wyższych pięter, a wiązania peptydowe zostają."},
+    {"id": "enzym-gotowany", "typ": "abcd", "pytanie": "Dlaczego w probówce z zagotowanym enzymem reakcja nie zaszła?",
+     "odpowiedzi": ["Enzym uległ denaturacji, zmienił się kształt centrum aktywnego i substrat nie mógł się z nim związać", "Wysoka temperatura zniszczyła substrat", "Enzym się rozpuścił", "Zabrakło wody do reakcji"],
+     "poprawna": 0, "wyjasnienie": "Pełny łańcuch: przyczyna (temperatura) → mechanizm (denaturacja, centrum aktywne) → skutek."},
+    {"id": "ondulacja", "typ": "abcd", "pytanie": "Dlaczego włosy po trwałej ondulacji długo trzymają nowy kształt?",
+     "odpowiedzi": ["Mostki disiarczkowe w keratynie odtworzono w nowych miejscach", "Keratyna uległa wysalaniu", "Zniszczono wiązania peptydowe", "Włosy wchłonęły chemikalia"],
+     "poprawna": 0, "wyjasnienie": "Rozerwanie i ponowne utworzenie mostków disiarczkowych „zszywa” włos w nowym kształcie."}
+  ]
+}

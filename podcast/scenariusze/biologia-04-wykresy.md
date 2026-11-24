@@ -1,135 +1,129 @@
-# IndexLab · Biologia · Odcinek 4 · „Pierwsza sekunda egzaminatora”
-Temat: Konstruowanie wykresów, tabel i schematów
+# IndexLab · Biologia · Odcinek 4 · „Jedna sekunda egzaminatora”
+Temat: Wykres, tabela, schemat
 Dział: Umiejętności egzaminacyjne
-Długość: ok. 8 minut (ok. 980 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane.
+Długość: ok. 7 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-04-wykresy.json
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Wyobraź sobie egzaminatora w czerwcu. Siedzi przy biurku, ma przed sobą stos prac i jedno zadanie do sprawdzenia: narysuj wykres na podstawie tabeli. Dziś zobaczy kilkaset takich wykresów. Jutro znowu.
+Czerwiec. Egzaminator ma przed sobą stos prac i jedno zadanie do sprawdzenia: narysuj wykres na podstawie tabeli. Dziś zobaczy kilkaset takich wykresów.
+
+Ile czasu potrzebuje, żeby zauważyć, że ktoś stracił punkt? Często jedną sekundę. Spojrzenie na osie. Brak jednostki: punkt odpada. Nierówna skala: punkt odpada.
 
 [pauza]
 
-Wiesz, ile czasu potrzebuje, żeby zauważyć, że ktoś stracił punkt? Często jedną sekundę. Spojrzenie na osie. Brak jednostki — punkt odpada. Nierówna skala — punkt odpada. Zanim w ogóle zacznie oglądać punkty i linie.
-
-To dobra wiadomość. Bo te błędy są przewidywalne. Znasz je, to ich nie popełniasz.
+To dobra wiadomość. Te błędy są przewidywalne. Znasz je, to ich nie popełniasz.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. W poprzednim odcinku czytaliśmy wykresy. Dziś je budujemy. Wykres, tabela i schemat. Za każde z tych zadań na maturze zwykle jest jeden albo dwa punkty, i są to jedne z najłatwiejszych punktów do zdobycia, jeśli znasz reguły.
+Dzień dobry, tu IndexLab. W poprzednim odcinku czytaliśmy wykresy, dziś je budujemy. To jedne z najłatwiejszych punktów na maturze, jeśli znasz reguły.
 
-## Najpierw decyzja: jaki wykres
+## Jaki wykres
 
-Pierwsze pytanie brzmi: liniowy czy słupkowy? Odpowiedź zależy od tego, co jest na osi poziomej.
+Pierwsza decyzja: liniowy czy słupkowy? Zależy od tego, co jest na osi poziomej.
 
-[wolniej] Jeśli na osi poziomej jest wielkość ciągła, coś, co płynnie się zmienia, na przykład czas, temperatura, stężenie, wtedy rysujesz wykres liniowy. Punkty łączysz odcinkami, bo między pomiarami wartość też istnieje, tylko jej nie zmierzyłeś.
+[wolniej] Czas, temperatura, stężenie, czyli wielkości ciągłe: wykres liniowy. Gatunki, grupy, kategorie: wykres słupkowy. Między pszenicą a kukurydzą nie ma wartości pośredniej, więc słupki stoją osobno.
 
-Jeśli na osi poziomej są kategorie, rzeczy, które się nie przechodzą jedna w drugą, na przykład gatunki roślin, grupy krwi, rodzaje pokarmu, wtedy rysujesz wykres słupkowy. Słupki stoją osobno, bo między „pszenicą” a „kukurydzą” nie ma żadnej wartości pośredniej.
+[pytanie: typ-wykresu]
 
-Prosta zasada: czas, temperatura, stężenie — linia. Gatunki, grupy, kategorie — słupki.
-
-## Osie, czyli połowa punktu
-
-Teraz to, na co egzaminator patrzy w tej pierwszej sekundzie.
-
-Pierwsze: która zmienna na której osi. Zmienna niezależna, ta, którą zmieniał badacz, idzie na oś poziomą. Zmienna zależna, ta, którą mierzył, idzie na oś pionową. Temperatura na dole, aktywność enzymu z boku.
-
-Drugie: opis osi. Każda oś musi mieć nazwę wielkości i jednostkę. Nie „temperatura”, tylko „temperatura w stopniach Celsjusza”. Nie „czas”, tylko „czas w minutach”. Jeśli w tabeli jest jednostka, ona musi trafić na wykres.
-
-Trzecie: skala. Podziałka na osi musi być równa. Jeśli jedna kratka to pięć stopni, to każda kratka to pięć stopni, od początku do końca. Najczęstszy błąd: uczeń podpisuje kolejne kratki dokładnie wartościami z tabeli — dziesięć, piętnaście, dwadzieścia pięć, czterdzieści — w równych odstępach, choć różnice są różne. Wykres wygląda wtedy ładnie, ale jest fałszywy.
-
-Czwarte: skala powinna wykorzystać miejsce. Jeśli wartości są od zera do ośmiu, nie rysuj osi do stu, bo cały wykres zmieści się w jednym rogu.
-
-[pauza]
-
-Zatrzymaj się. Badasz, jak stężenie soli wpływa na odsetek wykiełkowanych nasion. Jaki wykres i co na której osi?
+Sprawdź się. Masz liczbę gatunków ptaków w pięciu parkach narodowych. Jaki wykres?
 
 [pauza, dłuższa]
 
-Liniowy, bo stężenie jest wielkością ciągłą. Na osi poziomej stężenie soli z jednostką, na pionowej odsetek wykiełkowanych nasion w procentach.
+[odpowiedź]
 
-## Punkty, linie i legenda
+Słupkowy, bo parki to kategorie, a nie wielkość ciągła.
 
-Punkty nanosisz dokładnie. Egzaminator sprawdza je z tolerancją, ale błąd o pół kratki potrafi kosztować punkt.
+[koniec odpowiedzi]
 
-Jeśli na jednym wykresie są dwie serie danych, na przykład wyniki dla dwóch gatunków, potrzebujesz legendy. Rozróżniaj serie wyraźnie: linia ciągła i przerywana, kółka i trójkąty. I podpisz, co jest czym.
+## Osie
 
-Nie przedłużaj linii poza ostatni pomiar. Nie wiesz, co tam się dzieje, więc nie zgaduj.
+Teraz to, na co egzaminator patrzy w pierwszej sekundzie.
 
-## Tabela
+Zmienna niezależna, którą zmieniał badacz, idzie na oś poziomą. Zmienna zależna, którą mierzył, na pionową. Temperatura na dole, aktywność enzymu z boku.
 
-Czasem zamiast wykresu trzeba zaprojektować tabelę. Na przykład: „Zaprojektuj tabelę, w której zapiszesz wyniki doświadczenia”.
+Każda oś ma nazwę i jednostkę. Nie „czas”, tylko „czas w minutach”.
 
-Dobra tabela ma tytuł, który mówi, czego dotyczy. Ma nagłówki kolumn z nazwami wielkości i jednostkami. Pierwsza kolumna to zwykle zmienna niezależna, kolejne to wyniki. Jeśli były powtórzenia, każde dostaje swoją kolumnę, a na końcu jest kolumna ze średnią.
+Skala musi być równa. Jeśli kratka to pięć stopni, to każda kratka to pięć stopni. Najczęstszy błąd: uczeń podpisuje kolejne kratki wartościami z tabeli, na przykład dziesięć, piętnaście, dwadzieścia pięć, czterdzieści, w równych odstępach. Wykres wygląda ładnie, ale jest fałszywy.
 
-Jednostki wpisuje się w nagłówek, a nie przy każdej liczbie. Wtedy w komórkach zostają czyste liczby i tabela jest przejrzysta.
+I skala ma wykorzystać miejsce. Wartości od zera do ośmiu? Nie rysuj osi do stu.
 
-## Schemat
+[pytanie: osie]
 
-Trzeci typ to schemat. Na przykład: „Uzupełnij schemat obiegu azotu” albo „Narysuj schemat przedstawiający kolejność etapów”.
+Sprawdź się. Badasz wpływ stężenia soli na odsetek wykiełkowanych nasion. Co idzie na oś poziomą?
 
-Tu dwie zasady. Pierwsza: strzałki mają kierunek i znaczenie. Strzałka od A do B znaczy, że A przechodzi w B albo wpływa na B. Strzałka w złą stronę to błąd merytoryczny, nie estetyczny. Druga: podpisuj strzałki, jeśli polecenie tego wymaga. Nazwa procesu przy strzałce to często właśnie ten punkt.
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Stężenie soli, z jednostką, bo to zmienna niezależna. Odsetek wykiełkowanych nasion idzie na oś pionową.
+
+[koniec odpowiedzi]
+
+## Punkty i legenda
+
+Punkty nanosisz dokładnie, bo błąd o pół kratki potrafi kosztować punkt. Przy dwóch seriach danych potrzebna jest legenda: linia ciągła i przerywana, kółka i trójkąty, z podpisem. I nie przedłużaj linii poza ostatni pomiar. Nie wiesz, co tam się dzieje.
+
+## Tabela i schemat
+
+Tabela ma tytuł i nagłówki z nazwami wielkości i jednostkami. Pierwsza kolumna to zwykle zmienna niezależna. Powtórzenia dostają osobne kolumny, a na końcu jest średnia. Jednostki wpisuje się w nagłówek, a nie przy każdej liczbie.
+
+W schemacie liczy się kierunek strzałek. Strzałka w złą stronę to błąd merytoryczny, a nie estetyczny. A nazwa procesu przy strzałce to często właśnie ten punkt.
+
+[pytanie: tabela]
+
+Sprawdź się. Gdzie w tabeli wpisuje się jednostki?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+W nagłówkach kolumn, a nie przy każdej liczbie.
+
+[koniec odpowiedzi]
 
 ## Rysunek biologiczny
 
-I czwarta rzecz, rzadsza, ale warta minuty. Czasem polecenie każe narysować to, co widać pod mikroskopem. Na przykład komórki skórki cebuli w stanie plazmolizy.
-
-Rysunek biologiczny to nie dzieło sztuki. Rysuje się go ołówkiem, pojedynczą, wyraźną linią, bez cieniowania. Rysujesz tylko to, co naprawdę widzisz, a nie to, co pamiętasz z podręcznika. Jeśli pod mikroskopem nie widać mitochondriów, nie dorysowujesz ich. Struktury podpisujesz kreskami prowadzącymi do ich nazw, a obok podajesz powiększenie mikroskopu.
+Rysunek spod mikroskopu robi się ołówkiem, pojedynczą wyraźną linią, bez cieniowania. Rysujesz tylko to, co widzisz, a nie to, co pamiętasz z podręcznika. Struktury podpisujesz kreskami, a obok podajesz powiększenie.
 
 ## Pięć błędów z jednej sekundy
 
-Zbierzmy to w listę, którą możesz przeczytać sobie w myślach przed oddaniem arkusza.
+Przed oddaniem arkusza sprawdź pięć rzeczy. Jednostki na obu osiach. Równą skalę. Zmienną niezależną na osi poziomej. Właściwy typ wykresu. Legendę przy kilku seriach.
 
-Jeden: brak jednostki na którejkolwiek osi.
+[pytanie: skala]
 
-Dwa: nierówna skala, bo podpisano kratki wartościami z tabeli.
+Sprawdź się. Uczeń podpisał kratki na osi wartościami z tabeli: dziesięć, piętnaście, dwadzieścia pięć, czterdzieści, w równych odstępach. Co jest nie tak?
 
-Trzy: zamienione osie, czyli zmienna zależna na poziomej.
+[pauza, dłuższa]
 
-Cztery: zły typ wykresu, na przykład linia łącząca kategorie.
+[odpowiedź]
 
-Pięć: brak legendy przy więcej niż jednej serii danych.
+Skala jest nierówna. Równe odstępy na osi muszą oznaczać równe różnice wartości.
 
-Jeśli przy żadnym z pięciu nie musisz się zatrzymać, punkty za wykres są twoje.
+[koniec odpowiedzi]
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Zasady oceniania CKE dla wykresu są zwykle podzielone na dwie części. Jeden punkt za poprawnie opisane i wyskalowane osie. Drugi za poprawnie naniesione dane i właściwy typ wykresu z legendą, jeśli jest potrzebna. Zapamiętaj to jako listę kontrolną i sprawdź ją przed oddaniem pracy.
+W zasadach oceniania CKE za wykres są zwykle dwa punkty. Jeden za opisane i wyskalowane osie. Drugi za dokładnie naniesione dane, właściwy typ wykresu i legendę, jeśli jest potrzebna.
 
-## Na spokojnie
+[pytanie: linia]
 
-[muzyka, cicho]
+Ostatnie pytanie. Czy można przedłużyć linię wykresu za ostatni pomiar, żeby pokazać, co będzie dalej?
 
-Podsumujmy. Wielkość ciągła — wykres liniowy, kategorie — słupkowy. Zmienna niezależna na osi poziomej, zależna na pionowej. Każda oś z nazwą i jednostką. Skala równa i dopasowana do danych. Dokładne punkty, legenda przy kilku seriach, żadnego przedłużania linii. Tabela ma tytuł i nagłówki z jednostkami. W schemacie liczy się kierunek strzałek.
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Nie. Nie wiemy, co dzieje się poza zakresem pomiarów, więc linia kończy się na ostatnim punkcie.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: masz dane o liczbie gatunków ptaków w pięciu różnych parkach narodowych. Jaki wykres?
-
-[pauza, dłuższa]
-
-Słupkowy, bo parki to kategorie, a nie wielkość ciągła.
-
-Drugie: uczeń opisał oś pionową jako „tlen”. Czego brakuje?
-
-[pauza, dłuższa]
-
-Dokładnej nazwy wielkości i jednostki. Na przykład „objętość wydzielonego tlenu w centymetrach sześciennych”.
-
-Trzecie: czy wolno połączyć linią punkty na wykresie słupkowym?
-
-[pauza, dłuższa]
-
-Nie. Między kategoriami nie ma wartości pośrednich, więc linia sugerowałaby coś, czego nie ma.
-
-[pauza]
-
-W następnym odcinku zbierzemy cały dział w jedną historię. Przejdziemy jedno doświadczenie od pierwszego pytania do ostatniego punktu na maturze. Do usłyszenia.
+W następnym odcinku powtórka całego działu umiejętności, w formie krótkich zadań. Do usłyszenia.
 
 [muzyka, wyciszenie]

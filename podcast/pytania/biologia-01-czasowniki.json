@@ -1,0 +1,72 @@
+{
+  "odcinek": "biologia-01-czasowniki",
+  "pytania": [
+    {
+      "id": "dwa-przyklady",
+      "typ": "abcd",
+      "pytanie": "Polecenie: „Podaj dwa przykłady…”. Ile przykładów warto podać?",
+      "odpowiedzi": ["Dokładnie dwa", "Trzy, na wszelki wypadek", "Jak najwięcej", "Jeden, ale dokładnie opisany"],
+      "poprawna": 0,
+      "wyjasnienie": "Egzaminator nie wybiera za Ciebie dobrych przykładów. Nadmiarowy błędny przykład może kosztować punkt."
+    },
+    {
+      "id": "wyjasnij",
+      "typ": "abcd",
+      "pytanie": "Jakie ogniwa powinna mieć odpowiedź na polecenie „wyjaśnij”?",
+      "odpowiedzi": ["Przyczyna, mechanizm, skutek", "Sama przyczyna", "Definicja i przykład", "Teza i kontrargument"],
+      "poprawna": 0,
+      "wyjasnienie": "„Wyjaśnij” wymaga pokazania, jak przyczyna prowadzi do skutku. Sama przyczyna to za mało."
+    },
+    {
+      "id": "erytrocyt",
+      "typ": "abcd",
+      "pytanie": "„Wykaż związek budowy erytrocytu z jego funkcją”. Która odpowiedź dostanie punkt?",
+      "odpowiedzi": [
+        "Erytrocyt nie ma jądra, dzięki czemu mieści więcej hemoglobiny i przenosi więcej tlenu",
+        "Erytrocyt nie ma jądra",
+        "Erytrocyt przenosi tlen",
+        "Erytrocyt jest czerwoną krwinką zbudowaną z hemoglobiny"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Odpowiedź musi łączyć cechę budowy z funkcją, najlepiej słowem „dzięki”."
+    },
+    {
+      "id": "roznica",
+      "typ": "abcd",
+      "pytanie": "Która odpowiedź poprawnie podaje różnicę między komórką roślinną a zwierzęcą?",
+      "odpowiedzi": [
+        "Komórka roślinna ma ścianę komórkową, a zwierzęca nie",
+        "Komórka roślinna ma ścianę komórkową",
+        "Komórka zwierzęca jest inna",
+        "Ściana komórkowa jest zbudowana z celulozy"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "W porównaniu muszą paść oba obiekty i ta sama cecha dla każdego z nich."
+    },
+    {
+      "id": "laczenie-czasowniki",
+      "typ": "laczenie",
+      "polecenie": "Połącz polecenie z tym, czego wymaga.",
+      "pary": [
+        ["Wykaż związek budowy z funkcją", "cecha budowy + „dzięki temu” + funkcja"],
+        ["Uzasadnij", "argument, który rozstrzyga"],
+        ["Oblicz", "obliczenia i wynik z jednostką"],
+        ["Porównaj", "ta sama cecha dla obu obiektów"]
+      ],
+      "wyjasnienie": "Każdy czasownik operacyjny ma swój „przepis” na punkt."
+    },
+    {
+      "id": "wniosek",
+      "typ": "abcd",
+      "pytanie": "Który z tych zapisów jest poprawnym wnioskiem z doświadczenia z enzymem?",
+      "odpowiedzi": [
+        "Wraz ze wzrostem temperatury do 40°C rośnie aktywność enzymu",
+        "W probówce A zaszła reakcja, a w B nie",
+        "Ogrzaliśmy probówki do różnych temperatur",
+        "W 40°C wynik wyniósł 12 jednostek"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Wniosek łączy badany czynnik z wynikiem i uogólnia. Nie opisuje przebiegu ani nie powtarza liczb."
+    }
+  ]
+}

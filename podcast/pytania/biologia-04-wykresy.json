@@ -1,0 +1,69 @@
+{
+  "odcinek": "biologia-04-wykresy",
+  "pytania": [
+    {
+      "id": "typ-wykresu",
+      "typ": "laczenie",
+      "polecenie": "Połącz dane z właściwym typem wykresu.",
+      "pary": [
+        ["Liczba gatunków ptaków w pięciu parkach", "słupkowy"],
+        ["Aktywność enzymu w różnych temperaturach", "liniowy"],
+        ["Liczba bakterii w kolejnych godzinach", "liniowy"],
+        ["Częstość grup krwi w populacji", "słupkowy"]
+      ],
+      "wyjasnienie": "Wielkości ciągłe (czas, temperatura, stężenie) — wykres liniowy. Kategorie — słupkowy."
+    },
+    {
+      "id": "osie",
+      "typ": "abcd",
+      "pytanie": "Badasz wpływ stężenia soli na odsetek wykiełkowanych nasion. Co powinno być na osi poziomej?",
+      "odpowiedzi": [
+        "Stężenie soli z jednostką",
+        "Odsetek wykiełkowanych nasion w %",
+        "Numer próby",
+        "Czas trwania doświadczenia"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Zmienna niezależna idzie na oś poziomą, a zależna na pionową."
+    },
+    {
+      "id": "tabela",
+      "typ": "abcd",
+      "pytanie": "Gdzie w dobrze zaprojektowanej tabeli wpisuje się jednostki?",
+      "odpowiedzi": [
+        "W nagłówkach kolumn",
+        "Przy każdej liczbie",
+        "W tytule tabeli",
+        "Pod tabelą, w przypisie"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Jednostka w nagłówku zostawia w komórkach czyste liczby."
+    },
+    {
+      "id": "skala",
+      "typ": "abcd",
+      "pytanie": "Uczeń podpisał kolejne kratki osi wartościami z tabeli: 10, 15, 25, 40 — w równych odstępach. Na czym polega błąd?",
+      "odpowiedzi": [
+        "Skala jest nierówna",
+        "Brakuje legendy",
+        "Wybrano zły typ wykresu",
+        "Oś nie zaczyna się od zera"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Równe odstępy na osi muszą oznaczać równe różnice wartości."
+    },
+    {
+      "id": "linia",
+      "typ": "abcd",
+      "pytanie": "Czy można przedłużyć linię wykresu poza ostatni pomiar?",
+      "odpowiedzi": [
+        "Nie, bo nie wiadomo, co dzieje się poza zakresem pomiarów",
+        "Tak, jeśli trend jest wyraźny",
+        "Tak, linią przerywaną",
+        "Tylko na wykresie słupkowym"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Wykres pokazuje tylko to, co zmierzono."
+    }
+  ]
+}

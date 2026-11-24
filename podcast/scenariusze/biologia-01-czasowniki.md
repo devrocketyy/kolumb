@@ -1,137 +1,143 @@
-# IndexLab · Biologia · Odcinek 1 · „Dwie prawdziwe odpowiedzi”
+# IndexLab · Biologia · Odcinek 1 · „Dwóch uczniów, jedno zadanie”
 Temat: Czasowniki operacyjne i budowa odpowiedzi
 Dział: Umiejętności egzaminacyjne
-Długość: ok. 9 minut (ok. 1180 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane. Cytaty odpowiedzi uczniów czytamy nieco innym, „cytującym” tonem.
+Długość: ok. 8 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-01-czasowniki.json
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Dwóch uczniów. Ta sama matura, to samo zadanie. Polecenie brzmi: „Wyjaśnij, dlaczego po intensywnym wysiłku w mięśniach gromadzi się mleczan”.
+Dwóch uczniów. Ta sama matura, to samo zadanie: „Wyjaśnij, dlaczego po intensywnym wysiłku w mięśniach gromadzi się mleczan”.
 
-Pierwszy uczeń pisze: [cytat] „Bo mięśnie pracowały beztlenowo.”
+Pierwszy pisze: „Bo mięśnie pracowały beztlenowo”.
 
-Drugi pisze: [cytat] „Przy intensywnym wysiłku do mięśni dociera za mało tlenu, więc łańcuch oddechowy nie nadąża. Żeby glikoliza mogła dalej dostarczać ATP, pirogronian jest redukowany do mleczanu, co odtwarza NAD plus.”
+Drugi pisze: „Do mięśni dociera za mało tlenu, więc łańcuch oddechowy nie nadąża. Żeby glikoliza dalej dostarczała ATP, pirogronian zamienia się w mleczan”.
 
 [pauza]
 
-Obaj napisali prawdę. Pierwszy dostał zero punktów. Drugi dostał punkt.
-
-Nie dlatego, że drugi wiedział więcej. Dlatego, że drugi zrobił to, o co go poproszono. Polecenie brzmiało „wyjaśnij”, a „wyjaśnij” w języku egzaminatora znaczy coś bardzo konkretnego.
+Obaj napisali prawdę. Pierwszy dostał zero punktów, drugi punkt. Nie dlatego, że drugi wiedział więcej. Dlatego, że zrobił to, o co go poproszono.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. To pierwszy odcinek kursu biologii i zaczynamy nie od komórki ani od DNA, tylko od czegoś, co da ci punkty w każdym zadaniu otwartym. Od czasowników, którymi zaczynają się polecenia. Egzaminatorzy nazywają je czasownikami operacyjnymi. Ja nazwę je instrukcją obsługi zadania.
+Dzień dobry, tu IndexLab. Zaczynamy kurs biologii od czegoś, co daje punkty w każdym zadaniu otwartym: od czasowników, którymi zaczynają się polecenia. To instrukcja obsługi zadania.
 
-## Dlaczego to takie ważne
+## Klucz
 
-Odpowiedzi na maturze sprawdza egzaminator z kluczem w ręku. Klucz nie mówi „daj punkt, jeśli uczeń zna temat”. Mówi: „daj punkt za odpowiedź, która zawiera to i to”. Jeśli twoja odpowiedź jest prawdziwa, ale nie zawiera tego, czego wymaga polecenie, egzaminator nie może dać ci punktu, nawet jeśli bardzo chce.
+Egzaminator sprawdza odpowiedź z kluczem w ręku. Klucz nie mówi: daj punkt, jeśli uczeń zna temat. Mówi: daj punkt za odpowiedź, która zawiera określone elementy. Prawdziwa odpowiedź bez tych elementów to zero.
 
-Dlatego zanim zaczniesz pisać, przeczytaj pierwsze słowo polecenia i zadaj sobie jedno pytanie: czego ten czasownik ode mnie chce?
+Dlatego zanim zaczniesz pisać, przeczytaj pierwsze słowo polecenia i zapytaj: czego ten czasownik ode mnie chce?
 
-Przejdźmy przez najważniejsze. Podzielę je na trzy grupy: krótkie, łańcuchowe i porównujące.
+## Krótkie
 
-## Grupa pierwsza: krótkie
+„Podaj”, „wymień”, „nazwij”. Wystarczy słowo albo krótka fraza. Jedna pułapka: jeśli polecenie prosi o dwa przykłady, podaj dokładnie dwa. Gdy podasz trzy, a jeden będzie błędny, możesz stracić punkt.
 
-„Podaj”, „wymień”, „nazwij”. Tu wystarczy samo słowo albo krótka fraza, bez uzasadniania. Jeśli polecenie mówi „podaj nazwę enzymu”, piszesz „amylaza” i idziesz dalej.
+„Określ rolę” to jedno konkretne zdanie o funkcji. Rola żółci? Nie „pomaga w trawieniu”, tylko „emulguje tłuszcze, zwiększając powierzchnię działania lipazy”.
 
-Jest tu jednak jedna pułapka. Jeśli prosi o dwa przykłady, podaj dokładnie dwa. Jeśli podasz trzy, a jeden będzie błędny, możesz stracić punkt. Egzaminator nie wybiera za ciebie tych dobrych.
+[pytanie: dwa-przyklady]
 
-„Określ”. Też krótko, ale z precyzją. „Określ rolę” albo „określ znaczenie” oznacza jedno konkretne zdanie o funkcji. Na przykład: „Określ rolę żółci” — „Emulguje tłuszcze, zwiększając powierzchnię działania lipazy”. Nie „pomaga w trawieniu”, bo to za ogólne.
-
-[pauza]
-
-## Grupa druga: łańcuchowe
-
-Tu jest najwięcej punktów i najwięcej strat.
-
-„Wyjaśnij”. To jest czasownik, który wymaga mechanizmu. Nie wystarczy podać przyczyny. Trzeba pokazać, jak przyczyna prowadzi do skutku, ogniwo po ogniwie.
-
-[wolniej] Najprostszy przepis: przyczyna, potem mechanizm, potem skutek. Wróć do mleczanu. Przyczyna: za mało tlenu. Mechanizm: łańcuch oddechowy staje, a NAD plus trzeba odzyskać, więc pirogronian zamienia się w mleczan. Skutek: mleczan się gromadzi. Pierwszy uczeń podał tylko przyczynę. Brakowało mechanizmu.
-
-„Wykaż”, czasem „udowodnij”. Tu dostajesz gotową tezę, którą masz potwierdzić. Najczęściej w formie: „Wykaż związek budowy z funkcją”. Odpowiedź musi mieć dwie części połączone słowem „dzięki” albo „dlatego”. Cecha budowy, a potem to, jak ta cecha umożliwia funkcję.
-
-Przykład. „Wykaż związek budowy erytrocytu z jego funkcją.” Źle: „Erytrocyt nie ma jądra.” To tylko cecha. Dobrze: „Erytrocyt nie ma jądra, dzięki czemu mieści więcej hemoglobiny i może przenieść więcej tlenu.”
-
-„Uzasadnij”. Podajesz argument za swoim wyborem albo za tezą. Uzasadnienie musi odnosić się do cechy, która naprawdę rozstrzyga. Klasyczny błąd: „To jest tętnica, bo płynie w niej krew natleniona”. Tętnica płucna niesie krew odtlenowaną, a nadal jest tętnicą. Tętnicę wyróżnia to, że niesie krew od serca. To jest cecha rozstrzygająca.
-
-„Sformułuj wniosek”. Wniosek z doświadczenia zawsze łączy badany czynnik z wynikiem i mówi, jak jeden wpływa na drugi. „Wraz ze wzrostem temperatury do czterdziestu stopni rośnie aktywność enzymu”. Wniosek nie opisuje, co zrobiłeś, i nie powtarza wyników liczbami. Uogólnia je.
-
-[pauza]
-
-Zatrzymaj się na chwilę. Jakie trzy ogniwa powinna mieć odpowiedź na polecenie „wyjaśnij”?
+Sprawdź się. Polecenie prosi o dwa przykłady. Ile ich podać?
 
 [pauza, dłuższa]
 
-Przyczyna, mechanizm, skutek. Jeśli to zapamiętasz, już zyskałeś na tym odcinku.
+[odpowiedź]
 
-## Grupa trzecia: porównujące
+Dokładnie dwa. Nadmiarowy, błędny przykład może kosztować punkt.
 
-„Porównaj” albo „podaj różnicę”. Tu najczęstszy błąd jest bardzo prosty: uczeń opisuje tylko jedną stronę. Na przykład: „Podaj jedną różnicę między mitozą a mejozą” — „W mejozie zachodzi crossing-over.” I co z mitozą? Egzaminator chce widzieć obie strony. Dobrze: „W mejozie zachodzi crossing-over, a w mitozie nie”. Albo: „Mitoza daje dwie komórki diploidalne, a mejoza cztery haploidalne”.
+[koniec odpowiedzi]
 
-Zasada: w odpowiedzi muszą paść oba porównywane obiekty i ta sama cecha dla każdego z nich.
+## Łańcuchowe
 
-„Oceń, czy…” albo „Rozstrzygnij, czy…”. Najpierw decyzja: tak albo nie. Potem uzasadnienie. Bez decyzji nie ma punktu, nawet przy świetnym uzasadnieniu.
+Tu jest najwięcej punktów i najwięcej strat.
 
-## Jeszcze dwa: „oblicz” i „na podstawie”
+[wolniej] „Wyjaśnij” wymaga mechanizmu. Przepis: przyczyna, potem mechanizm, potem skutek.
 
-Został czasownik, który wielu uczniów lekceważy, bo kojarzy się z matematyką. „Oblicz”. Na maturze z biologii pojawia się w zadaniach z genetyki, z ekologii, z danych doświadczalnych.
+Wróć do mleczanu. Przyczyna: za mało tlenu. Mechanizm: łańcuch oddechowy staje, więc pirogronian zamienia się w mleczan, żeby glikoliza mogła działać dalej. Skutek: mleczan się gromadzi. Pierwszy uczeń podał tylko przyczynę.
 
-Zasada jest prosta i bezwzględna: pokaż obliczenia i podaj wynik z jednostką. Sam wynik bez obliczeń zwykle nie daje punktu, nawet jeśli jest dobry. A wynik bez jednostki bywa uznany za błędny. Jeśli liczysz odsetek, napisz „procent”. Jeśli liczysz odległość genów, napisz „centymorgany”.
+[pytanie: wyjasnij]
 
-Druga ważna formuła to „na podstawie tekstu”, „na podstawie wykresu”, „na podstawie schematu”. To sygnał, że odpowiedź ma się opierać na tym, co dostałeś w zadaniu. Możesz mieć świetną wiedzę z podręcznika, ale jeśli polecenie mówi „na podstawie wykresu”, odwołaj się do wykresu. Najlepiej konkretnie: „w temperaturze czterdziestu stopni aktywność spadła do zera”. Egzaminator widzi wtedy, że rzeczywiście korzystałeś z danych.
+Sprawdź się. Jakie trzy ogniwa ma dobra odpowiedź na polecenie „wyjaśnij”?
 
-[pauza]
+[pauza, dłuższa]
 
-I ostatni czasownik z tej rodziny, bardzo popularny w ostatnich latach: „zaproponuj”. Zaproponuj próbę kontrolną, zaproponuj sposób pomiaru, zaproponuj wyjaśnienie wyniku. Tu nie ma jednej poprawnej odpowiedzi. Klucz zwykle przyjmuje kilka wersji. Liczy się, żeby propozycja była biologicznie sensowna i wykonalna. „Zmierzyć wysokość piany linijką” jest wykonalne. „Zbadać wszystkie enzymy w komórce” nie jest.
+[odpowiedź]
 
-## Trzy nawyki, które ratują punkty
+Przyczyna, mechanizm, skutek.
 
-Na koniec trzy nawyki, które przydają się bez względu na czasownik.
+[koniec odpowiedzi]
 
-Pierwszy: pisz o tym, o co pytają, w kontekście zadania. Jeśli zadanie jest o roślinach pustynnych, nie pisz ogólnie o „roślinach”. Pisz o tej roślinie, z tego tekstu.
+„Wykaż związek budowy z funkcją” wymaga dwóch części, połączonych słowem „dzięki”. Źle: „Erytrocyt nie ma jądra”. To tylko cecha. Dobrze: „Erytrocyt nie ma jądra, dzięki czemu mieści więcej hemoglobiny i przenosi więcej tlenu”.
 
-Drugi: używaj terminów biologicznych. Nie „roślina pije wodę”, tylko „roślina pobiera wodę”. Nie „krew niesie tlen”, tylko „hemoglobina w erytrocytach wiąże tlen”.
+„Uzasadnij” wymaga argumentu, który naprawdę rozstrzyga. „To tętnica, bo płynie w niej krew natleniona”? Błąd. Tętnica płucna niesie krew odtlenowaną. Tętnicę wyróżnia to, że niesie krew od serca.
 
-Trzeci: unikaj tautologii, czyli tłumaczenia czegoś tym samym. „Mitochondria wytwarzają ATP, bo są centrami energetycznymi komórki” — to nic nie wyjaśnia, to powtórzenie innymi słowami.
+[pytanie: erytrocyt]
+
+Sprawdź się. Która odpowiedź na „wykaż związek budowy erytrocytu z funkcją” dostanie punkt?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Ta z cechą i funkcją: erytrocyt nie ma jądra, dzięki czemu mieści więcej hemoglobiny i przenosi więcej tlenu.
+
+[koniec odpowiedzi]
+
+## Wniosek i porównanie
+
+„Sformułuj wniosek”. Wniosek łączy badany czynnik z wynikiem i uogólnia. „Wraz ze wzrostem temperatury do czterdziestu stopni rośnie aktywność enzymu”. Wniosek nie opisuje, co zrobiłeś, i nie powtarza liczb.
+
+„Porównaj” albo „podaj różnicę”. Muszą paść obie strony. Nie „w mejozie zachodzi crossing-over”, tylko „w mejozie zachodzi crossing-over, a w mitozie nie”.
+
+[pytanie: roznica]
+
+Sprawdź się. Uczeń napisał: „Komórka roślinna ma ścianę komórkową”. Czego brakuje w tej różnicy?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Drugiej strony. Trzeba dodać, że komórka zwierzęca ściany komórkowej nie ma.
+
+[koniec odpowiedzi]
+
+## Oblicz i na podstawie
+
+„Oblicz”: pokaż obliczenia i podaj wynik z jednostką. Sam wynik bez obliczeń zwykle nie daje punktu.
+
+„Na podstawie wykresu” albo „tekstu”: odwołaj się do danych z zadania, najlepiej konkretnie. „W czterdziestu stopniach aktywność spadła do zera”.
+
+[pytanie: laczenie-czasowniki]
+
+Sprawdź się. Czego wymaga polecenie „oblicz”?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Obliczeń i wyniku z jednostką.
+
+[koniec odpowiedzi]
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Na maturze z biologii zadania otwarte to zdecydowana większość punktów. Prawie każde zaczyna się jednym z czasowników, o których mówiliśmy. W aplikacji IndexLab, przy każdym zadaniu z arkuszy CKE, znajdziesz zasady oceniania. Czytaj je. Po kilkunastu zadaniach zaczniesz widzieć, że klucz wymaga za każdym razem tych samych elementów.
+Zadania otwarte to większość punktów na maturze z biologii, a prawie każde zaczyna się jednym z tych czasowników. Przy zadaniach z arkuszy w aplikacji masz zasady oceniania. Czytaj je, a szybko zobaczysz, że klucz chce wciąż tych samych elementów.
 
-## Na spokojnie
+[pytanie: wniosek]
 
-[muzyka, cicho]
+Ostatnie pytanie. Czy zdanie „W probówce A zaszła reakcja, a w B nie” jest poprawnym wnioskiem?
 
-Podsumujmy. Krótkie czasowniki, czyli „podaj”, „wymień”, „określ”, wymagają konkretu bez rozwlekania. Łańcuchowe, czyli „wyjaśnij”, „wykaż”, „uzasadnij”, „sformułuj wniosek”, wymagają powiązania: przyczyna i skutek, cecha i funkcja, decyzja i argument. Porównujące wymagają obu stron.
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Nie. To opis wyników. Wniosek musi uogólnić, jak badany czynnik wpływa na przebieg procesu.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: polecenie brzmi „Wykaż związek budowy włośników z ich funkcją”. Co musi znaleźć się w odpowiedzi?
-
-[pauza, dłuższa]
-
-Cecha budowy i funkcja połączone słowem „dzięki”. Na przykład: włośniki to długie wypustki komórek skórki korzenia, które zwiększają powierzchnię chłonną, dzięki czemu korzeń pobiera więcej wody z solami mineralnymi.
-
-Drugie: uczeń napisał „Różnica: komórka roślinna ma ścianę komórkową”. Czego brakuje?
-
-[pauza, dłuższa]
-
-Drugiej strony porównania. Trzeba dodać, że komórka zwierzęca ściany komórkowej nie ma.
-
-Trzecie: czy wniosek „W probówce A zaszła reakcja, a w B nie” jest poprawny?
-
-[pauza, dłuższa]
-
-Nie. To opis wyników. Wniosek musi uogólnić: jak badany czynnik wpływa na przebieg procesu.
-
-[pauza]
-
-W następnym odcinku zajrzymy do laboratorium. Opowiem ci o człowieku, który przez pięć lat ważył wierzbę, przeprowadził doskonałe doświadczenie i doszedł do błędnego wniosku. Do usłyszenia.
+W następnym odcinku laboratorium i człowiek, który przez pięć lat ważył wierzbę, zrobił świetne doświadczenie i doszedł do błędnego wniosku. Do usłyszenia.
 
 [muzyka, wyciszenie]

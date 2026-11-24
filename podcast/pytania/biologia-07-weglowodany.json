@@ -1,0 +1,20 @@
+{
+  "odcinek": "biologia-07-weglowodany",
+  "pytania": [
+    {"id": "pentozy", "typ": "laczenie", "polecenie": "Połącz cukier z miejscem, w którym występuje.",
+     "pary": [["Deoksyryboza", "DNA"], ["Ryboza", "RNA i ATP"], ["Laktoza", "mleko"], ["Sacharoza", "cukier z buraków"]],
+     "wyjasnienie": "Deoksyryboza ma o jeden atom tlenu mniej niż ryboza — stąd D w nazwie DNA."},
+    {"id": "trommer", "typ": "abcd", "pytanie": "Dlaczego sacharoza daje ujemny wynik próby Trommera?",
+     "odpowiedzi": ["Jej grupy redukujące są zajęte w wiązaniu glikozydowym", "Jest polisacharydem", "Nie rozpuszcza się w wodzie", "Zawiera galaktozę"],
+     "poprawna": 0, "wyjasnienie": "Glukoza i fruktoza połączyły się grupami, które mogłyby redukować miedź."},
+    {"id": "glikogen", "typ": "abcd", "pytanie": "Która odpowiedź poprawnie wykazuje związek budowy glikogenu z funkcją?",
+     "odpowiedzi": ["Jest silnie rozgałęziony, więc enzymy odcinają glukozę z wielu końców naraz i szybko ją uwalniają", "Jest zbudowany z glukozy", "Jest magazynem energii w wątrobie", "Jest nierozpuszczalny w wodzie"],
+     "poprawna": 0, "wyjasnienie": "Cecha budowy (rozgałęzienie) + jej skutek (szybkie uwalnianie glukozy)."},
+    {"id": "alfa-beta", "typ": "laczenie", "polecenie": "Połącz polisacharyd z jego cechą.",
+     "pary": [["Skrobia", "alfa-glukoza, spirala, magazyn roślin"], ["Glikogen", "alfa-glukoza, silne rozgałęzienia"], ["Celuloza", "beta-glukoza, proste włókna"], ["Chityna", "pancerze owadów i ściany grzybów"]],
+     "wyjasnienie": "Typ glukozy (alfa czy beta) decyduje o kształcie łańcucha i funkcji."},
+    {"id": "lugol", "typ": "abcd", "pytanie": "Skrobia ze śliną świeżą (A) i zagotowaną (B). Po 30 min dodajesz płyn Lugola. Gdzie pojawi się granatowy kolor?",
+     "odpowiedzi": ["W probówce B", "W probówce A", "W obu", "W żadnej"],
+     "poprawna": 0, "wyjasnienie": "W B amylaza uległa denaturacji, skrobia się nie rozłożyła i jod ją wykrywa."}
+  ]
+}

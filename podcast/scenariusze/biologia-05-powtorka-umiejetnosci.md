@@ -1,226 +1,148 @@
-# IndexLab · Biologia · Odcinek 5 · Powtórka działu „Jedno doświadczenie od początku do końca”
+# IndexLab · Biologia · Odcinek 5 · Powtórka działu „Laboratorium w dziesięć minut”
 Dział: Umiejętności egzaminacyjne (odcinki 1–4)
-Długość: ok. 13 minut (ok. 1680 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane. Fragmenty „polecenie” czytamy jak cytat z arkusza.
+Długość: ok. 8 minut (format 2.0, powtórka z pytań), jeden narrator.
+Pytania: podcast/pytania/biologia-05-powtorka-umiejetnosci.json
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Ziemniak. Zwykły, surowy ziemniak z kuchni. Kroisz go na plasterki, wkładasz plasterek do probówki i dolewasz wody utlenionej z apteczki. Po sekundzie w probówce zaczyna się pienić. Bąbelki, piana, czasem tak dużo, że wychodzi górą.
+Wyobraź sobie, że jesteś w laboratorium. Na stole probówki ze skrobią, ślina, łaźnia wodna i termometr. Za chwilę zaplanujesz doświadczenie, przeczytasz wyniki, narysujesz wykres i napiszesz odpowiedź, za którą egzaminator da punkt.
 
-[pauza]
-
-Co się dzieje? W komórkach ziemniaka jest enzym katalaza. Rozkłada nadtlenek wodoru, czyli wodę utlenioną, na wodę i tlen. Bąbelki to tlen.
-
-To proste zjawisko będzie dziś naszym bohaterem. Weźmiemy je i przeprowadzimy przez wszystko, czego nauczyliśmy się w tym dziale. Jak przez prawdziwe zadanie maturalne, polecenie po poleceniu. Na końcu będziesz miał w głowie gotowy schemat, który działa dla każdego zadania doświadczalnego.
+Przejdziemy przez to razem, krok po kroku. Na każdym kroku pytanie.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. To powtórka pierwszego działu: umiejętności egzaminacyjnych. Nie będę powtarzał definicji jedna po drugiej. Zamiast tego rozwiążemy razem jedną dużą wiązkę zadań. Proponuję, żebyś przy każdym poleceniu na chwilę zatrzymał nagranie i spróbował odpowiedzieć sam, zanim usłyszysz moją wersję.
+Dzień dobry, tu IndexLab. To powtórka działu umiejętności egzaminacyjnych.
 
-## Opis doświadczenia
+## Krok pierwszy: pytanie
 
-Oto, co dostajesz w arkuszu.
+Chcesz sprawdzić, jak temperatura wpływa na amylazę ślinową. Zaczynasz od problemu badawczego.
 
-[cytat] Uczniowie badali aktywność katalazy z bulwy ziemniaka. Przygotowali sześć probówek. Do każdej włożyli plasterek ziemniaka o tej samej masie i umieścili ją w łaźni wodnej o innej temperaturze: zero, dziesięć, dwadzieścia, trzydzieści siedem, pięćdziesiąt i osiemdziesiąt stopni Celsjusza. Po pięciu minutach do każdej probówki dodali po pięć centymetrów sześciennych trzyprocentowego roztworu nadtlenku wodoru i zmierzyli wysokość piany po minucie. Doświadczenie powtórzyli trzy razy i obliczyli średnie.
+[pytanie: problem]
 
-[pauza]
-
-Wyniki: w zerze stopni piana miała średnio pięć milimetrów. W dziesięciu: dwanaście. W dwudziestu: dwadzieścia pięć. W trzydziestu siedmiu: trzydzieści osiem. W pięćdziesięciu: dziesięć. W osiemdziesięciu: zero.
-
-Teraz polecenia.
-
-## Polecenie pierwsze: problem badawczy
-
-[cytat] Sformułuj problem badawczy.
+Sprawdź się. Jak brzmi dobrze sformułowany problem badawczy?
 
 [pauza, dłuższa]
 
-Przypomnij sobie przepis z drugiego odcinka. Problem to pytanie, które zawiera badany czynnik i proces, na który ten czynnik wpływa.
+[odpowiedź]
 
-Odpowiedź: „Jak temperatura wpływa na aktywność katalazy z bulwy ziemniaka?”.
+Jako pytanie: „Czy temperatura wpływa na aktywność amylazy ślinowej?”.
 
-Zwróć uwagę na trzy rzeczy. To jest pytanie. Jest w nim czynnik, czyli temperatura. Jest w nim proces, czyli aktywność katalazy. I jest precyzyjnie: katalaza z bulwy ziemniaka, a nie „enzymy” w ogóle.
+[koniec odpowiedzi]
 
-Odpowiedź „Badanie katalazy” byłaby za zero punktów. Nie jest pytaniem i nie ma w niej czynnika.
+## Krok drugi: plan
 
-## Polecenie drugie: hipoteza
+Ustawiasz probówki w łaźniach o różnych temperaturach: dziesięć, dwadzieścia, trzydzieści siedem i pięćdziesiąt stopni. Do każdej tyle samo skrobi i tyle samo śliny.
 
-[cytat] Sformułuj hipotezę, którą weryfikowali uczniowie.
+[pytanie: zmienne]
 
-[pauza, dłuższa]
-
-Hipoteza to sprawdzalne zdanie twierdzące. Na przykład: „Aktywność katalazy rośnie wraz z temperaturą do pewnej wartości, a w wyższej temperaturze maleje”. Albo prościej: „Temperatura wpływa na aktywność katalazy”.
-
-Pamiętaj, że hipoteza nie musi się potwierdzić. Mogłeś przewidzieć coś innego niż wyszło, i nadal masz dobrą hipotezę, o ile jest sprawdzalna.
-
-## Polecenie trzecie: zmienne
-
-[cytat] Określ zmienną niezależną i zmienną zależną w tym doświadczeniu.
+Sprawdź się. Co jest tu zmienną niezależną, a co zależną?
 
 [pauza, dłuższa]
 
-Zmienna niezależna to ta, którą zmieniali uczniowie: temperatura. Zmienna zależna to ta, którą mierzyli: wysokość piany. Albo, bardziej biologicznie: aktywność katalazy mierzona wysokością piany.
+[odpowiedź]
 
-A co było stałe? Masa plasterka, objętość i stężenie nadtlenku wodoru, czas inkubacji i czas pomiaru. To też często pada w zadaniu, w formie: „Podaj dwa czynniki, które uczniowie utrzymali na stałym poziomie”.
+Niezależna to temperatura, bo ją ustalasz. Zależna to aktywność amylazy, na przykład czas rozkładu skrobi, bo ją mierzysz.
 
-## Polecenie czwarte: dlaczego tak, a nie inaczej
+[koniec odpowiedzi]
 
-[cytat] Wyjaśnij, dlaczego plasterki ziemniaka trzymano w łaźni wodnej przez pięć minut przed dodaniem nadtlenku wodoru.
+[pytanie: kontrola]
 
-[pauza, dłuższa]
-
-Tu wchodzi czasownik „wyjaśnij”, czyli przyczyna, mechanizm, skutek. Odpowiedź: żeby enzym w plasterku osiągnął temperaturę łaźni, zanim zacznie się reakcja. Dzięki temu aktywność katalazy, mierzona wysokością piany, odpowiadała badanej temperaturze, a nie temperaturze pokojowej.
-
-Słyszysz łańcuch? Przyczyna: trzeba wyrównać temperaturę. Mechanizm: enzym ogrzewa się albo chłodzi do temperatury łaźni. Skutek: pomiar odpowiada właściwej temperaturze.
-
-## Polecenie piąte: próba kontrolna
-
-[cytat] Zaproponuj próbę kontrolną, która pozwoli wykazać, że piana powstaje w wyniku działania enzymu z komórek ziemniaka.
+Sprawdź się. Jak będzie wyglądać próba kontrolna?
 
 [pauza, dłuższa]
 
-Przepis: próba kontrolna to próba badawcza z usuniętym jednym czynnikiem. Tu badanym czynnikiem jest aktywny enzym. Jak go usunąć, nie zmieniając reszty?
+[odpowiedź]
 
-Odpowiedź: probówka z plasterkiem ziemniaka wcześniej ugotowanego, czyli z enzymem zdenaturowanym, i z taką samą ilością nadtlenku wodoru. Albo probówka z samym nadtlenkiem wodoru, bez ziemniaka. Jeśli w kontroli piany nie ma, a w próbie badawczej jest, to pianę wytwarza enzym.
+Skrobia z wodą destylowaną zamiast śliny, w tych samych warunkach.
 
-Zauważ zresztą, że probówka w osiemdziesięciu stopniach działa w pewnym sensie jak kontrola. Tam enzym został zniszczony i piany nie było.
+[koniec odpowiedzi]
 
-## Polecenie szóste: wykres
+## Krok trzeci: wyniki
 
-[cytat] Narysuj wykres ilustrujący zależność wysokości piany od temperatury.
+Skrobia rozkłada się najszybciej w trzydziestu siedmiu stopniach. W dziesięciu wolno, a w pięćdziesięciu prawie wcale. Każdą próbę powtórzyłeś pięć razy.
 
-[pauza, dłuższa]
+[pytanie: powtorzenia]
 
-Przejdźmy przez listę kontrolną z czwartego odcinka.
-
-Typ: temperatura to wielkość ciągła, więc wykres liniowy.
-
-Osie: na poziomej temperatura w stopniach Celsjusza, bo to zmienna niezależna. Na pionowej wysokość piany w milimetrach.
-
-Skala: tu pułapka. Temperatury to zero, dziesięć, dwadzieścia, trzydzieści siedem, pięćdziesiąt, osiemdziesiąt. Odstępy są nierówne. Jeśli postawisz je w równych kratkach, wykres będzie fałszywy. Musisz zrobić równą podziałkę, na przykład co dziesięć stopni, i nanieść trzydzieści siedem między trzydzieści a czterdzieści, bliżej czterdziestu.
-
-Punkty: sześć punktów, połączonych odcinkami. Bez przedłużania linii poza osiemdziesiąt stopni.
-
-[pauza]
-
-Zatrzymaj się. Gdzie wykres osiąga maksimum?
+Sprawdź się. Po co pięć powtórzeń zamiast jednego?
 
 [pauza, dłuższa]
 
-Przy trzydziestu siedmiu stopniach. Ale uważaj, bo to tylko najwyższy z pomiarów. Rzeczywiste maksimum może być gdzieś między dwadzieścia a pięćdziesiąt stopni. Uczniowie nie mierzyli w czterdziestu ani w trzydziestu. Dobrze to zaznaczyć, jeśli polecenie pyta o optimum.
+[odpowiedź]
 
-## Polecenie siódme: prawda czy fałsz
+Żeby wynik był wiarygodny i nie zależał od przypadku w pojedynczej próbie.
 
-[cytat] Oceń, czy poniższe stwierdzenia są prawdziwe. Jeden: w temperaturze trzydziestu siedmiu stopni wysokość piany była ponad trzy razy większa niż w dziesięciu stopniach. Dwa: wzrost temperatury z trzydziestu siedmiu do pięćdziesięciu stopni obniżył wysokość piany o dwadzieścia osiem procent. Trzy: katalaza ludzka ma optimum w trzydziestu siedmiu stopniach.
+[koniec odpowiedzi]
 
-[pauza, dłuższa]
+## Krok czwarty: wykres
 
-Stwierdzenie pierwsze. Trzydzieści osiem do dwunastu. Trzy razy dwanaście to trzydzieści sześć, a trzydzieści osiem jest więcej. Prawda.
+Rysujesz wykres. Temperatura to wielkość ciągła.
 
-Stwierdzenie drugie. Z trzydziestu ośmiu do dziesięciu. Spadek o dwadzieścia osiem milimetrów. Ale o ile procent? Dwadzieścia osiem z trzydziestu ośmiu to około siedemdziesięciu czterech procent. Zdanie miesza milimetry z procentami. Fałsz. Pamiętasz pułapkę z trzeciego odcinka?
+[pytanie: wykres]
 
-Stwierdzenie trzecie. Może i jest prawdziwe w ogóle. Ale czy wynika z tych danych? Nie. Badano katalazę ziemniaka, nie człowieka. Jeśli polecenie pyta, czy coś wynika z danych, to odpowiedź brzmi: nie wynika.
-
-## Polecenie ósme: wniosek
-
-[cytat] Sformułuj wniosek z doświadczenia.
+Sprawdź się. Jaki wykres narysujesz i co będzie na osi poziomej?
 
 [pauza, dłuższa]
 
-Wniosek odpowiada na problem badawczy i uogólnia wyniki. Nie powtarza liczb.
+[odpowiedź]
 
-Odpowiedź: „Aktywność katalazy z bulwy ziemniaka rośnie wraz ze wzrostem temperatury od zera do około trzydziestu siedmiu stopni, a w wyższych temperaturach maleje, aż do całkowitego zahamowania w osiemdziesięciu stopniach”.
+Liniowy. Na osi poziomej temperatura w stopniach Celsjusza, na pionowej aktywność enzymu, każda oś z jednostką i równą skalą.
 
-Kontrola jakości. Czy jest czynnik? Tak, temperatura. Czy jest proces? Tak, aktywność katalazy. Czy jest kierunek wpływu? Tak, rośnie, potem maleje. Czy jest zakres? Tak. Czy wychodzi poza badany materiał? Nie, mówimy tylko o katalazie z ziemniaka.
+[koniec odpowiedzi]
 
-## Polecenie dziewiąte: wyjaśnienie biologiczne
+## Krok piąty: odpowiedź
 
-[cytat] Wyjaśnij, dlaczego w temperaturze osiemdziesięciu stopni Celsjusza nie powstała piana.
+Polecenie: „Sformułuj wniosek”.
 
-[pauza, dłuższa]
+[pytanie: wniosek]
 
-Znowu „wyjaśnij”, czyli łańcuch. I tu łączysz umiejętności z wiedzą biologiczną, o której będzie dalej w kursie.
-
-Odpowiedź: katalaza jest białkiem. Wysoka temperatura spowodowała denaturację, czyli zniszczenie jej struktury przestrzennej, a w tym kształtu centrum aktywnego. Nadtlenek wodoru nie mógł się z nim wiązać i nie był rozkładany, więc nie powstawał tlen i nie było piany.
-
-Gdybyś napisał „bo enzym nie działa w wysokiej temperaturze”, dostałbyś zero. To powtórzenie wyniku, a nie wyjaśnienie. Brakuje mechanizmu: denaturacji białka i utraty kształtu centrum aktywnego.
-
-## Polecenie dziesiąte: wiarygodność
-
-[cytat] Podaj, dlaczego doświadczenie powtórzono trzy razy.
+Sprawdź się. Jak brzmi poprawny wniosek?
 
 [pauza, dłuższa]
 
-Żeby wyniki były wiarygodne, czyli żeby nie zależały od przypadkowych różnic między plasterkami albo błędu pojedynczego pomiaru. Średnia z trzech pomiarów jest pewniejsza niż jeden wynik.
+[odpowiedź]
 
-## Ten sam schemat, inny bohater
+Aktywność amylazy ślinowej rośnie wraz z temperaturą do około trzydziestu siedmiu stopni, a w wyższej temperaturze spada.
 
-Żeby sprawdzić, czy schemat naprawdę działa, zróbmy szybko drugie doświadczenie. Tym razem bez katalazy.
+[koniec odpowiedzi]
 
-[cytat] Gałązkę moczarki kanadyjskiej, rośliny wodnej, umieszczono w zlewce z wodą pod lampą. Lampę ustawiano w odległości dziesięciu, dwudziestu, trzydziestu i czterdziestu centymetrów od zlewki i liczono pęcherzyki gazu wydzielane przez roślinę w ciągu minuty.
+Kolejne polecenie: „Wyjaśnij, dlaczego w pięćdziesięciu stopniach skrobia prawie się nie rozkłada”.
 
-[pauza]
+[pytanie: wyjasnij]
 
-Spróbuj sam, a ja podam odpowiedzi po kolei.
+Sprawdź się. Co musi zawierać odpowiedź na „wyjaśnij”?
 
-Problem badawczy: „Jak natężenie światła wpływa na intensywność fotosyntezy moczarki kanadyjskiej?”. Zwróć uwagę: zmieniano odległość lampy, ale biologicznie badanym czynnikiem jest natężenie światła. Im dalej lampa, tym słabsze światło.
+[pauza, dłuższa]
 
-Zmienna niezależna: natężenie światła, regulowane odległością lampy. Zmienna zależna: liczba pęcherzyków tlenu na minutę, czyli miara intensywności fotosyntezy.
+[odpowiedź]
 
-Co musi być stałe? Temperatura wody. I tu jest klasyczna pułapka: lampa grzeje. Kiedy stoi blisko, podgrzewa wodę, więc zmieniają się dwa czynniki naraz. Dobrze zaplanowane doświadczenie ustawia między lampą a zlewką naczynie z wodą jako filtr cieplny albo używa lampy, która się nie nagrzewa. Na maturze to bardzo częste polecenie: „Wyjaśnij, dlaczego między lampą a zlewką umieszczono zbiornik z wodą”.
+Przyczynę, mechanizm i skutek. Wysoka temperatura denaturuje białko enzymu, zmienia się jego centrum aktywne, więc enzym nie wiąże skrobi i jej nie rozkłada.
 
-Próba kontrolna: taka sama zlewka z moczarką, ale w ciemności. Albo z gałązką wcześniej zabitą. W obu nie powinny pojawiać się pęcherzyki.
+[koniec odpowiedzi]
 
-Wniosek: „Wraz ze wzrostem natężenia światła rośnie intensywność fotosyntezy moczarki kanadyjskiej”. Z zakresem, jeśli dane pokazują, że przy największym natężeniu wzrost się zatrzymuje.
+## Krok ostatni: pułapka
 
-Widzisz? Inny organizm, inny proces, ten sam szkielet. Problem, hipoteza, zmienne, kontrola, wykres, wniosek, wyjaśnienie.
+Kolega mówi: „W pięćdziesięciu stopniach aktywność spadła z dziesięciu do pięciu jednostek, czyli o pięćdziesiąt punktów procentowych”.
 
-## Czego nauczyliśmy się w tym dziale
+[pytanie: procenty]
 
-[muzyka, krótko]
+Sprawdź się. Ma rację?
 
-Zbierzmy to razem. W jednej wiązce zadań użyliśmy wszystkiego, co było w czterech odcinkach.
+[pauza, dłuższa]
 
-Z pierwszego odcinka: czasowniki. „Sformułuj” wymagał konkretnej formy. „Określ” krótkiego wskazania. „Wyjaśnij” łańcucha: przyczyna, mechanizm, skutek. „Oceń” decyzji.
+[odpowiedź]
 
-Z drugiego: metodologia. Problem jako pytanie z czynnikiem i procesem. Hipoteza jako sprawdzalne zdanie. Zmienna niezależna i zależna. Próba kontrolna różniąca się jednym czynnikiem. Powtórzenia dla wiarygodności.
+Nie. Spadła o połowę, czyli o pięćdziesiąt procent. Punkty procentowe dotyczą różnicy między odsetkami, a tu nie ma odsetków.
 
-Z trzeciego: czytanie danych. Pułapka procentów i milimetrów. Różnica między „prawdziwe” a „wynika z danych”.
+[koniec odpowiedzi]
 
-Z czwartego: wykres. Liniowy dla temperatury, równa skala mimo nierównych pomiarów, osie z jednostkami.
-
-[pauza]
-
-I najważniejsze. Każde zadanie doświadczalne na maturze jest zbudowane podobnie. Zmienia się tylko bohater: raz katalaza, raz fotosynteza moczarki, raz kiełkowanie nasion. Schemat zostaje. Jeśli przećwiczysz go kilka razy na zadaniach z arkuszy w aplikacji, zaczniesz go widzieć od razu.
-
-## Na spokojnie
+## Na koniec
 
 [muzyka, cicho]
 
-Trzy ostatnie pytania. Po każdym pauza.
+Problem jako pytanie. Zmienne i próba kontrolna. Powtórzenia. Właściwy wykres z jednostkami. Wniosek z zakresem. „Wyjaśnij” jako łańcuch przyczyn. To cały warsztat, z którego będziesz korzystać w każdym kolejnym dziale.
 
-Pierwsze: uczniowie chcą sprawdzić wpływ pH na aktywność katalazy. Co teraz jest zmienną niezależną, a co musi być stałe?
-
-[pauza, dłuższa]
-
-Zmienna niezależna to pH. Stałe muszą być między innymi temperatura, masa plasterka, objętość i stężenie nadtlenku wodoru oraz czas pomiaru.
-
-Drugie: jeden z uczniów zmierzył wysokość piany po dwóch minutach zamiast po jednej, ale tylko w probówce z dwudziestoma stopniami. Dlaczego to problem?
-
-[pauza, dłuższa]
-
-Bo w tej próbie zmieniły się dwa czynniki naraz: temperatura i czas pomiaru. Nie da się wtedy stwierdzić, który z nich wpłynął na wynik.
-
-Trzecie: na podstawie tego doświadczenia uczeń napisał, że „wszystkie enzymy mają optimum w trzydziestu siedmiu stopniach”. Co jest nie tak?
-
-[pauza, dłuższa]
-
-Wniosek wychodzi poza zakres badania. Badano tylko katalazę ziemniaka. Do tego nie mierzono temperatur między dwudziestoma a pięćdziesięcioma stopniami, więc nawet dla tego enzymu optimum nie jest dokładnie znane.
-
-[pauza]
-
-To koniec pierwszego działu. W następnym odcinku zaczynamy właściwą biologię, od cząsteczki, bez której nie byłoby życia. I od jeziora, które zamarza od góry. Do usłyszenia.
+W następnym odcinku zaczynamy biochemię, od jeziora skutego lodem i cząsteczki, która udaje, że jest większa. Do usłyszenia.
 
 [muzyka, wyciszenie]

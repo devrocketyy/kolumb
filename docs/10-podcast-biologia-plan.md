@@ -32,7 +32,7 @@
 - Wzór: `biologia-06-woda.md`.
 
 ### Stan przeróbki na format 2.0
-- ✅ 6 Woda (pilot)
+- ✅ 1–8 scenariusze i pytania; nagrania 1–6
 - ⬜ pozostałe odcinki — partiami, dział po dziale
 
 ## Dział 1. Umiejętności egzaminacyjne

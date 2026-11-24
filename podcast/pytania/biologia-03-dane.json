@@ -1,0 +1,70 @@
+{
+  "odcinek": "biologia-03-dane",
+  "pytania": [
+    {
+      "id": "trend",
+      "typ": "abcd",
+      "pytanie": "Który opis trendu dostanie punkt?",
+      "odpowiedzi": [
+        "Aktywność enzymu rośnie od 10 do 35°C, a powyżej 40°C gwałtownie spada",
+        "Aktywność enzymu rośnie",
+        "Temperatura wpływa na enzym",
+        "Enzym działa najlepiej w cieple"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Opis trendu podaje kierunek zmian i zakres, a przy zmianie kierunku obie części."
+    },
+    {
+      "id": "punkty-procentowe",
+      "typ": "abcd",
+      "pytanie": "Odsetek chorych spadł z 40% do 20%. Które zdanie jest prawdziwe?",
+      "odpowiedzi": [
+        "Spadł o 20 punktów procentowych, czyli o połowę",
+        "Spadł o 20%",
+        "Spadł dwukrotnie o 20 punktów",
+        "Spadł o 40%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Różnica odsetków to punkty procentowe. Względnie to spadek o 50%."
+    },
+    {
+      "id": "dwiescie",
+      "typ": "abcd",
+      "pytanie": "Liczba komórek wzrosła ze 100 do 300. O ile procent wzrosła?",
+      "odpowiedzi": [
+        "O 200%",
+        "O 300%",
+        "O 100%",
+        "O 30%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Przybyło 200 komórek, czyli 200% wartości wyjściowej. Jest ich trzy razy więcej."
+    },
+    {
+      "id": "slupki",
+      "typ": "abcd",
+      "pytanie": "Słupki błędu dwóch prób wyraźnie się nakładają. Co z tego wynika?",
+      "odpowiedzi": [
+        "Różnica między średnimi może być przypadkowa",
+        "Badany czynnik na pewno zadziałał",
+        "Pomiary wykonano błędnie",
+        "Obie próby mają identyczne średnie"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Nakładające się słupki błędu nie pozwalają z pewnością stwierdzić wpływu badanego czynnika."
+    },
+    {
+      "id": "bociany",
+      "typ": "abcd",
+      "pytanie": "Tam, gdzie gniazduje więcej bocianów, rodzi się więcej dzieci. Jaki wniosek jest poprawny?",
+      "odpowiedzi": [
+        "To korelacja — oba zjawiska mogą mieć wspólną przyczynę",
+        "Bociany zwiększają dzietność",
+        "Dzieci przyciągają bociany",
+        "Dane dowodzą związku przyczynowego"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Współwystępowanie nie dowodzi przyczyny. Przyczynę wykazuje doświadczenie z próbą kontrolną."
+    }
+  ]
+}

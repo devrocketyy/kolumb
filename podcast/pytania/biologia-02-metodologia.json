@@ -1,0 +1,90 @@
+{
+  "odcinek": "biologia-02-metodologia",
+  "pytania": [
+    {
+      "id": "zmienne",
+      "typ": "laczenie",
+      "polecenie": "Doświadczenie: „Czy stężenie soli wpływa na kiełkowanie nasion rzodkiewki?”. Połącz pojęcie z elementem doświadczenia.",
+      "pary": [
+        [
+          "Zmienna niezależna",
+          "stężenie soli"
+        ],
+        [
+          "Zmienna zależna",
+          "odsetek wykiełkowanych nasion"
+        ],
+        [
+          "Warunek stały",
+          "temperatura i ilość wody"
+        ]
+      ],
+      "wyjasnienie": "Niezależną ustalasz, zależną mierzysz, a pozostałe warunki utrzymujesz stałe."
+    },
+    {
+      "id": "kontrola",
+      "typ": "abcd",
+      "pytanie": "Badasz, czy amylaza ślinowa rozkłada skrobię. Która próba będzie dobrą próbą kontrolną?",
+      "odpowiedzi": [
+        "Skrobia z wodą destylowaną zamiast śliny, w tych samych warunkach",
+        "Skrobia ze śliną w niższej temperaturze",
+        "Sama ślina bez skrobi",
+        "Skrobia ze śliną i solą"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Kontrola różni się od próby badawczej tylko brakiem badanego czynnika."
+    },
+    {
+      "id": "jednorodny",
+      "typ": "abcd",
+      "pytanie": "Po co przed doświadczeniem wszystkie rośliny hoduje się w takich samych warunkach?",
+      "odpowiedzi": [
+        "Żeby materiał był jednorodny, a różnice wynikały tylko z badanego czynnika",
+        "Żeby rośliny się zahartowały",
+        "Żeby zaoszczędzić czas",
+        "Żeby wszystkie zakwitły jednocześnie"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Jednorodny materiał wyklucza wpływ czynników innych niż badany."
+    },
+    {
+      "id": "dwadziescia",
+      "typ": "abcd",
+      "pytanie": "Dlaczego w doświadczeniu użyto dwudziestu roślin, a nie jednej?",
+      "odpowiedzi": [
+        "Żeby wynik nie zależał od cech pojedynczego osobnika",
+        "Żeby doświadczenie trwało krócej",
+        "Żeby mieć próbę kontrolną",
+        "Żeby rośliny szybciej rosły"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Powtórzenia zwiększają wiarygodność wyników."
+    },
+    {
+      "id": "helmont",
+      "typ": "abcd",
+      "pytanie": "Dlaczego wniosek van Helmonta („drzewo zbudowało się z wody”) był błędny?",
+      "odpowiedzi": [
+        "Pominął dwutlenek węgla z powietrza, z którego pochodzi większość masy drzewa",
+        "Źle zważył ziemię",
+        "Podlewał wierzbę zbyt rzadko",
+        "Doświadczenie trwało za krótko"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Pomiary były dokładne, ale nie uwzględnił czynnika, którego nie kontrolował."
+    },
+    {
+      "id": "problem",
+      "typ": "abcd",
+      "pytanie": "Który zapis jest poprawnie sformułowanym problemem badawczym?",
+      "odpowiedzi": [
+        "Czy natężenie światła wpływa na intensywność fotosyntezy moczarki?",
+        "Badanie wpływu światła",
+        "Światło wpływa na fotosyntezę",
+        "Moczarka w świetle i w ciemności"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Problem badawczy to pytanie. Zdanie twierdzące to hipoteza."
+    }
+  ]
+}

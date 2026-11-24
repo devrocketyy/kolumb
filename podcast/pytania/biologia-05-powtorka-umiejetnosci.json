@@ -1,0 +1,29 @@
+{
+  "odcinek": "biologia-05-powtorka-umiejetnosci",
+  "pytania": [
+    {"id": "problem", "typ": "abcd", "pytanie": "Który zapis to poprawny problem badawczy?",
+     "odpowiedzi": ["Czy temperatura wpływa na aktywność amylazy ślinowej?", "Temperatura wpływa na amylazę", "Badanie amylazy w różnych temperaturach", "Amylaza rozkłada skrobię"],
+     "poprawna": 0, "wyjasnienie": "Problem badawczy ma formę pytania. Zdanie twierdzące to hipoteza."},
+    {"id": "zmienne", "typ": "laczenie", "polecenie": "Doświadczenie z amylazą w różnych temperaturach. Połącz pojęcie z elementem.",
+     "pary": [["Zmienna niezależna", "temperatura"], ["Zmienna zależna", "czas rozkładu skrobi"], ["Warunek stały", "ilość skrobi i śliny"]],
+     "wyjasnienie": "Niezależną ustalasz, zależną mierzysz, resztę utrzymujesz stałą."},
+    {"id": "kontrola", "typ": "abcd", "pytanie": "Jaka będzie próba kontrolna w doświadczeniu z amylazą?",
+     "odpowiedzi": ["Skrobia z wodą destylowaną zamiast śliny", "Skrobia ze śliną w 37°C", "Sama ślina", "Skrobia ze śliną w lodówce"],
+     "poprawna": 0, "wyjasnienie": "Kontrola różni się od próby badawczej tylko brakiem badanego czynnika."},
+    {"id": "powtorzenia", "typ": "abcd", "pytanie": "Po co każdą próbę powtórzono pięć razy?",
+     "odpowiedzi": ["Żeby wynik był wiarygodny i nie był przypadkiem", "Żeby mieć próbę kontrolną", "Żeby enzym działał szybciej", "Żeby uzyskać więcej skrobi"],
+     "poprawna": 0, "wyjasnienie": "Powtórzenia zmniejszają ryzyko, że wynik jest przypadkowy."},
+    {"id": "wykres", "typ": "abcd", "pytanie": "Jaki wykres przedstawi aktywność amylazy w 10, 20, 37 i 50°C?",
+     "odpowiedzi": ["Liniowy, temperatura na osi poziomej", "Słupkowy, temperatura na osi pionowej", "Kołowy", "Liniowy, aktywność na osi poziomej"],
+     "poprawna": 0, "wyjasnienie": "Temperatura to wielkość ciągła i zmienna niezależna."},
+    {"id": "wniosek", "typ": "abcd", "pytanie": "Który zapis to poprawny wniosek?",
+     "odpowiedzi": ["Aktywność amylazy rośnie do ok. 37°C, a w wyższej temperaturze spada", "W 37°C skrobia zniknęła najszybciej", "Ogrzaliśmy probówki do 50°C", "Amylaza jest enzymem"],
+     "poprawna": 0, "wyjasnienie": "Wniosek uogólnia zależność między czynnikiem a wynikiem, z zakresem."},
+    {"id": "wyjasnij", "typ": "abcd", "pytanie": "Dlaczego w 50°C skrobia prawie się nie rozkłada? Wybierz odpowiedź z pełnym łańcuchem.",
+     "odpowiedzi": ["Wysoka temperatura denaturuje enzym, zmienia się centrum aktywne, więc enzym nie wiąże skrobi", "Bo jest za gorąco", "Bo enzym nie lubi ciepła", "Bo skrobia się rozpuszcza"],
+     "poprawna": 0, "wyjasnienie": "„Wyjaśnij” wymaga przyczyny, mechanizmu i skutku."},
+    {"id": "procenty", "typ": "abcd", "pytanie": "Aktywność spadła z 10 do 5 jednostek. Jak to poprawnie opisać?",
+     "odpowiedzi": ["Spadła o połowę, czyli o 50%", "Spadła o 50 punktów procentowych", "Spadła o 5%", "Spadła dwukrotnie o 50%"],
+     "poprawna": 0, "wyjasnienie": "Punkty procentowe opisują różnicę między odsetkami."}
+  ]
+}
