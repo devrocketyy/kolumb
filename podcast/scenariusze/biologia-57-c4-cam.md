@@ -1,115 +1,86 @@
 # IndexLab · Biologia · Odcinek 57 · „Kukurydza i ananas”
-Temat: Odżywianie roślin, C4 i CAM
+Temat: Rośliny C3, C4 i CAM
 Dział: Rośliny
-Długość: ok. 8 minut (ok. 980 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane. „C4” czytamy „ce cztery”, „CAM” czytamy „kam”. „PEP” czytamy: pe-e-pe.
+Długość: ok. 5 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-57-c4-cam.json
+Uwaga dla lektora: „C3” — ce trzy, „C4” — ce cztery, „CAM” — kam.
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Lipiec, Nizina Węgierska, trzydzieści pięć stopni w cieniu. Pole pszenicy obok pola kukurydzy. Pszenica jest już zżółkła i zwiędła, jej wzrost zatrzymał się tygodnie temu. A kukurydza? Rośnie jak szalona, prawie dwa metry, ciemnozielona, pełna sił.
+Lipiec, Nizina Węgierska, trzydzieści pięć stopni w cieniu. Pole pszenicy obok pola kukurydzy. Pszenica jest zżółkła i dawno przestała rosnąć. Kukurydza ma prawie dwa metry i jest ciemnozielona.
+
+Na Hawajach rośnie ananas. W dzień zamyka wszystkie aparaty szparkowe, a jednak prowadzi fotosyntezę.
 
 [pauza]
 
-A kilka tysięcy kilometrów dalej, na plantacji na Hawajach, rośnie ananas. W dzień, w palącym słońcu, ananas zamyka wszystkie aparaty szparkowe. Nie wpuszcza do liści ani grama dwutlenku węgla. A jednak prowadzi fotosyntezę i daje słodkie owoce.
-
-Kukurydza i ananas znalazły dwa różne rozwiązania tego samego problemu. Problemu, który ma najliczniejsze białko na Ziemi.
+Kukurydza i ananas znalazły dwa różne rozwiązania tego samego problemu. Problemem jest RuBisCO.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. Dziś odżywianie roślin, a szczególnie dwa sprytne warianty fotosyntezy: C4 i CAM. To temat, z którego CKE pytało na maturze w 2023 roku.
+Dzień dobry, tu IndexLab. Dziś rośliny C3, C4 i CAM.
 
-## Problem: RuBisCO i fotooddychanie
+## Problem RuBisCO
 
-Z odcinka o fotosyntezie pamiętasz RuBisCO, enzym, który w cyklu Calvina wiąże dwutlenek węgla z RuBP. RuBisCO ma wadę. Potrafi się pomylić i zamiast dwutlenku węgla przyłączyć tlen.
+RuBisCO wiąże dwutlenek węgla w cyklu Calvina. Ale gdy dwutlenku węgla jest mało, a tlenu dużo, wiąże tlen. To fotooddychanie, które marnuje związany węgiel.
 
-Kiedy to robi, zachodzi fotooddychanie. Roślina zużywa energię i traci część wcześniej związanego węgla, uwalniając dwutlenek węgla. Zamiast zysku jest strata.
+W upale roślina zamyka szparki, żeby nie tracić wody. Dwutlenku węgla w liściu ubywa, a tlenu z fotosyntezy przybywa. Fotooddychanie rośnie. Tak dzieje się u roślin C3, jak pszenica, bo ich pierwszy produkt wiązania ma trzy węgle.
 
-Kiedy RuBisCO myli się najczęściej? Gdy w liściu jest mało dwutlenku węgla, a dużo tlenu. I kiedy tak jest? W upale i suszy. Roślina zamyka wtedy aparaty szparkowe, żeby nie tracić wody. Dwutlenek węgla przestaje wnikać, a tlen z fotosyntezy gromadzi się w liściu. Do tego w wysokiej temperaturze RuBisCO jeszcze chętniej wiąże tlen.
+## Rośliny C4
 
-Rośliny takie jak pszenica, ryż, buk czy ziemniak mają ten problem. Nazywamy je roślinami C3, bo pierwszy produkt wiązania dwutlenku węgla to trójwęglowy związek, PGA.
+[wolniej] Kukurydza rozdziela etapy w przestrzeni. W komórkach miękiszu wiąże dwutlenek węgla enzymem, który nie myli go z tlenem. Powstaje związek czterowęglowy. Ten trafia do komórek pochwy wokół wiązek przewodzących i tam uwalnia dwutlenek węgla. RuBisCO pracuje w środowisku bogatym w dwutlenek węgla i prawie nie przeprowadza fotooddychania.
 
-## Rozwiązanie pierwsze: C4, podział w przestrzeni
+Dlatego rośliny C4, jak kukurydza i trzcina cukrowa, dobrze radzą sobie w upale i silnym świetle.
 
-Kukurydza, trzcina cukrowa, proso. Te rośliny rozdzieliły wiązanie dwutlenku węgla na dwa etapy, w dwóch różnych komórkach.
+[pytanie: c4]
 
-[wolniej] Etap pierwszy w komórkach miękiszu liścia. Dwutlenek węgla wiąże nie RuBisCO, tylko inny enzym, karboksylaza PEP. Ten enzym w ogóle nie wiąże tlenu, nie myli się. Dwutlenek węgla przyłącza się do związku PEP i powstaje czterowęglowy szczawiooctan. Stąd nazwa C4. Szczawiooctan zamienia się w jabłczan, również czterowęglowy.
-
-Etap drugi w komórkach pochwy okołowiązkowej, czyli w ciasnym pierścieniu komórek otaczających wiązki przewodzące. Jabłczan wędruje tam i uwalnia dwutlenek węgla. Tu dopiero działa RuBisCO i cykl Calvina.
-
-Po co ten objazd? Żeby w komórkach pochwy okołowiązkowej zrobić tłok dwutlenku węgla. Karboksylaza PEP działa jak pompa: zbiera dwutlenek węgla nawet przy przymkniętych szparkach i koncentruje go tam, gdzie pracuje RuBisCO. Przy tak wysokim stężeniu dwutlenku węgla RuBisCO prawie się nie myli. Fotooddychanie praktycznie znika.
-
-Na maturze 2023 było jeszcze jedno pytanie. W komórkach pochwy okołowiązkowej niektórych roślin C4 brakuje fotosystemu drugiego. Dlaczego to ogranicza fotooddychanie? Bo bez fotosystemu drugiego nie zachodzi fotoliza wody i nie powstaje tam tlen, który mógłby konkurować z dwutlenkiem węgla o RuBisCO.
-
-Koszt? Pompowanie dwutlenku węgla wymaga dodatkowego ATP. W chłodnym klimacie się nie opłaca i rośliny C3 radzą sobie lepiej. Ale w gorącym, słonecznym klimacie rośliny C4 wygrywają.
-
-## Rozwiązanie drugie: CAM, podział w czasie
-
-Ananas, kaktusy, agawy, rozchodniki. Rośliny suchych pustyń. Tu problemem nie jest tylko fotooddychanie, ale przede wszystkim woda.
-
-Rośliny CAM rozdzieliły dwa etapy nie w przestrzeni, ale w czasie.
-
-[wolniej] W nocy, kiedy jest chłodno i wilgotno, otwierają aparaty szparkowe. Dwutlenek węgla wnika i wiąże go karboksylaza PEP, tak jak u C4. Powstaje kwas jabłkowy, który roślina gromadzi w wakuolach. Rano liście są wyraźnie bardziej kwaśne niż wieczorem.
-
-W dzień, w upale, zamykają aparaty szparkowe. Nie tracą wody. Kwas jabłkowy z wakuoli uwalnia dwutlenek węgla wewnątrz liścia. Światło jest, więc działa faza zależna od światła, a cykl Calvina zużywa dwutlenek węgla zgromadzony w nocy.
-
-Nazwa CAM pochodzi od angielskiego określenia oznaczającego metabolizm kwasów u gruboszowatych, rodziny roślin, u których go odkryto.
-
-Rośliny CAM tracą bardzo mało wody. Ale rosną wolno, bo ilość dwutlenku węgla, jaką mogą zmagazynować w nocy, jest ograniczona pojemnością wakuoli.
-
-[pauza]
-
-Zatrzymaj się. Czym różni się podział etapów u roślin C4 i CAM?
+Sprawdź się. Dlaczego kukurydza w upale prowadzi fotosyntezę wydajniej niż pszenica?
 
 [pauza, dłuższa]
 
-U C4 wstępne wiązanie dwutlenku węgla i cykl Calvina zachodzą w różnych komórkach: miękiszu i pochwie okołowiązkowej. To podział w przestrzeni. U CAM zachodzą w tych samych komórkach, ale w różnym czasie: wiązanie w nocy, cykl Calvina w dzień. To podział w czasie.
+[odpowiedź]
 
-## Inne sposoby odżywiania
+Bo jako roślina C4 zagęszcza dwutlenek węgla w komórkach pochwy wokół wiązek, więc RuBisCO prawie nie przeprowadza fotooddychania.
 
-Na koniec rośliny, które dopełniają fotosyntezę albo z niej rezygnują.
+[koniec odpowiedzi]
 
-Rośliny owadożerne, jak rosiczka czy muchołówka, rosną na torfowiskach ubogich w azot. Łapią owady i trawią je, żeby zdobyć azot. Fotosyntezę prowadzą normalnie, owady to dla nich dodatek mineralny, a nie źródło energii.
+## Rośliny CAM
 
-Półpasożyty, jak jemioła, mają zielone liście i prowadzą fotosyntezę, ale wodę i sole pobierają z drewna gospodarza. Pasożyty całkowite, jak kanianka, nie mają chlorofilu i pobierają z gospodarza wszystko, także cukry z łyka.
+Ananas i kaktusy rozdzielają etapy w czasie. Szparki otwierają nocą, gdy jest chłodniej i parowanie jest mniejsze. Wiążą wtedy dwutlenek węgla w kwasy organiczne i magazynują je w wakuoli. W dzień, przy zamkniętych szparkach, uwalniają z nich dwutlenek węgla do cyklu Calvina.
+
+[pytanie: cam]
+
+Sprawdź się. Dlaczego rośliny CAM otwierają szparki nocą?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Bo nocą jest chłodniej i tracą mniej wody. Dwutlenek węgla magazynują w kwasach i zużywają w dzień.
+
+[koniec odpowiedzi]
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Przyczyny fotooddychania. Mechanizm C4 z podziałem na dwa typy komórek. Mechanizm CAM z podziałem dobowym. Porównanie C3, C4 i CAM w tabeli. Wykresy zawartości kwasów w liściach w ciągu doby u roślin CAM.
+Porównanie roślin C3, C4 i CAM: gdzie i kiedy wiążą dwutlenek węgla, w jakich warunkach mają przewagę. Wykresy intensywności fotosyntezy w zależności od temperatury.
 
-## Na spokojnie
+[pytanie: rozdzielenie]
 
-[muzyka, cicho]
+Ostatnie pytanie. Czym różni się strategia C4 od CAM?
 
-Podsumujmy. RuBisCO może wiązać tlen, co daje fotooddychanie, nasilone w upale i przy zamkniętych szparkach. Rośliny C4 wstępnie wiążą dwutlenek węgla karboksylazą PEP w miękiszu i przenoszą go do pochwy okołowiązkowej, gdzie wysokie stężenie ogranicza fotooddychanie. Rośliny CAM wiążą dwutlenek węgla w nocy, gromadzą kwas jabłkowy, a w dzień przy zamkniętych szparkach prowadzą cykl Calvina. Rośliny owadożerne zdobywają z owadów azot, pasożyty pobierają substancje od gospodarza.
+[pauza, dłuższa]
+
+[odpowiedź]
+
+C4 rozdziela etapy w przestrzeni, między różne komórki. CAM rozdziela je w czasie, między noc i dzień.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: dlaczego w Polsce, w chłodne lato, pszenica może rosnąć lepiej niż kukurydza?
-
-[pauza, dłuższa]
-
-Bo w chłodzie fotooddychanie jest słabe, a mechanizm C4 kosztuje dodatkowe ATP. Przewaga kukurydzy znika, a roślina C3 nie ponosi tego kosztu.
-
-Drugie: dlaczego liście rośliny CAM są rano kwaśniejsze niż wieczorem?
-
-[pauza, dłuższa]
-
-Bo w nocy roślina wiąże dwutlenek węgla i gromadzi kwas jabłkowy w wakuolach. W dzień ten kwas jest zużywany jako źródło dwutlenku węgla.
-
-Trzecie: czy rosiczka może żyć bez owadów?
-
-[pauza, dłuższa]
-
-Tak, bo prowadzi fotosyntezę. Ale na ubogiej w azot glebie rośnie wtedy gorzej, bo owady są dla niej dodatkowym źródłem azotu.
-
-[pauza]
-
-W następnym odcinku paproć, która ma dwa zupełnie różne „ja”, i tylko jedno z nich widzisz w lesie. Przemiana pokoleń i rozmnażanie roślin. Do usłyszenia.
+W następnym odcinku paproć, która ma dwa zupełnie różne życia. Do usłyszenia.
 
 [muzyka, wyciszenie]

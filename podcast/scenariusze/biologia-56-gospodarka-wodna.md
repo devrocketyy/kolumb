@@ -1,119 +1,90 @@
-# IndexLab · Biologia · Odcinek 56 · „Pompa bez pompy”
-Temat: Gospodarka wodna i mineralna roślin
+# IndexLab · Biologia · Odcinek 56 · „Sto metrów bez pompy”
+Temat: Gospodarka wodna i transport w roślinie
 Dział: Rośliny
-Długość: ok. 8 minut (ok. 1050 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane.
+Długość: ok. 5 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-56-gospodarka-wodna.json
+Uwaga dla lektora: „gutacja” — gu-TA-cja.
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Kalifornia, Park Narodowy Redwood. Stoisz u podnóża sekwoi wiecznie zielonej. Zadzierasz głowę, i jeszcze bardziej, a korona wciąż jest daleko. Najwyższe drzewa tego gatunku mają ponad sto metrów. Wysokość trzydziestopiętrowego wieżowca.
+Kalifornia, Park Narodowy Redwood. Stoisz u stóp sekwoi. Najwyższe drzewa tego gatunku mają ponad sto metrów, tyle co trzydziestopiętrowy wieżowiec.
+
+Każdego letniego dnia takie drzewo podnosi na szczyt setki litrów wody. Nie ma pompy, serca ani mięśni. I nie zużywa na to ATP.
 
 [pauza]
 
-Każdego letniego dnia takie drzewo podnosi z ziemi na sam szczyt setki litrów wody. Wieżowiec potrzebowałby do tego potężnych pomp i elektryczności. Sekwoja nie ma żadnej pompy. Nie ma serca. Nie ma mięśni. Nie zużywa na to ani jednej cząsteczki ATP.
-
-Jak to robi? Odpowiedź łączy wszystko, co wiesz o wodzie: wiązania wodorowe, spójność, przyleganie. I parowanie z liści.
+Jak to robi? Odpowiedź łączy wszystko, co wiesz o wodzie: spójność, przyleganie i parowanie.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. Dziś gospodarka wodna i mineralna roślin. Jak roślina pobiera wodę, jak ją transportuje, jak ją traci i jak kontroluje tę utratę.
+Dzień dobry, tu IndexLab. Dziś gospodarka wodna roślin.
 
 ## Pobieranie wody
 
-Woda wnika do rośliny głównie przez włośniki w strefie włośnikowej korzenia. Dlaczego wnika? Przez osmozę. Sok w komórkach korzenia ma wyższe stężenie niż roztwór glebowy, więc woda przepływa do korzenia.
+Woda wnika do korzenia przez włośniki dzięki osmozie, bo komórki korzenia mają wyższe stężenie niż woda w glebie. Sole mineralne roślina pobiera też transportem aktywnym, zużywając ATP.
 
-Dalej woda przemieszcza się przez korę pierwotną korzenia do walca osiowego. Może iść przez ściany komórkowe i przestwory między komórkami albo przez cytoplazmę komórek, przeskakując z komórki do komórki przez plazmodesmy. Ale na granicy walca stoi śródskórnia z pasemkami Caspary’ego. Tu każda kropla musi przejść przez błonę komórkową. Dzięki temu roślina kontroluje, jakie jony wpuszcza do drewna.
+## Siła ssąca liści
 
-## Parcie korzeniowe
+[wolniej] Najważniejszy mechanizm to transpiracja, czyli parowanie wody z liści przez aparaty szparkowe. Parująca woda ciągnie za sobą kolejne cząsteczki. Dzięki spójności wody w naczyniach powstaje nieprzerwany słup, jak sznur, a przyleganie do ścian naczyń pomaga mu się nie zerwać.
 
-Korzeń aktywnie, z użyciem ATP, pompuje jony do walca osiowego. Stężenie w drewnie korzenia rośnie, woda wpływa tam przez osmozę i powstaje ciśnienie, które wypycha wodę w górę. To parcie korzeniowe.
+Do tego dochodzi parcie korzeniowe, które wypycha wodę od dołu. Gdy jest wilgotno i transpiracja słabnie, widać je jako kropelki na brzegach liści. To gutacja.
 
-Widać je wiosną, kiedy z naciętej brzozy wycieka sok, zanim jeszcze rozwiną się liście. Albo rano, kiedy na brzegach liści truskawek czy traw wiszą krople wody wypchniętej przez specjalne otworki. To gutacja.
+[pytanie: transpiracja]
 
-Ale parcie korzeniowe wystarcza najwyżej na kilka metrów. Do korony sekwoi nie doprowadzi wody.
-
-## Transpiracja: siła ssąca
-
-Główny motor transportu wody jest na górze, w liściach.
-
-[wolniej] Z liści woda paruje przez otwarte aparaty szparkowe. To transpiracja. Kiedy cząsteczka wody odparowuje z liścia, ciągnie za sobą następną, bo cząsteczki wody są ze sobą połączone wiązaniami wodorowymi. Ta ciągnie następną. I tak aż do korzeni. W naczyniach drewna od korzenia do liści biegnie nieprzerwany słup wody, jak lina. Transpiracja na górze ciągnie tę linę w górę.
-
-Dlaczego lina się nie zrywa? Dzięki spójności, czyli kohezji: cząsteczki wody trzymają się siebie nawzajem. Dlaczego nie opada? Dzięki przyleganiu, czyli adhezji: cząsteczki wody przyklejają się do ścian naczyń. I dlatego naczynia muszą być wąskie i mieć zdrewniałe ściany: woda jest ciągnięta z ogromną siłą i bez ligniny naczynia by się zapadły.
-
-To wyjaśnienie nazywamy teorią kohezyjno-adhezyjną. Energię do całego procesu daje słońce, które ogrzewa liście i odparowuje wodę. Drzewo nie wydaje na to ani odrobiny własnej energii.
-
-## Po co transpiracja
-
-Transpiracja to dla rośliny wielka strata wody. Ponad dziewięćdziesiąt procent wody pobranej przez korzenie wyparowuje. Ale ma też korzyści. Napędza transport wody i rozpuszczonych w niej soli mineralnych. Chłodzi liście, bo parowanie zabiera ciepło, tak jak pot u człowieka.
-
-## Aparaty szparkowe
-
-Roślina ma problem. Żeby prowadzić fotosyntezę, musi otworzyć aparaty szparkowe i wpuścić dwutlenek węgla. Ale kiedy je otwiera, traci wodę. Aparaty szparkowe to kompromis, który roślina rozwiązuje na bieżąco.
-
-Jak działają? Szparę tworzą dwie komórki szparkowe. Ich ściany są grubsze od strony szpary i cieńsze od zewnątrz.
-
-[wolniej] Kiedy roślina chce otworzyć szparkę, do komórek szparkowych napływają jony potasu. Stężenie w nich rośnie, woda wnika przez osmozę, komórki pęcznieją. Ponieważ cienka ściana zewnętrzna rozciąga się bardziej niż gruba wewnętrzna, komórki wyginają się jak dwa łuki i szpara się otwiera. Kiedy jony potasu wypływają, woda ucieka, komórki wiotczeją i szpara się zamyka.
-
-Co decyduje o otwarciu? Światło sprzyja otwieraniu, bo wtedy fotosynteza może działać. Niedobór wody powoduje zamykanie. Roślina w suszy wytwarza hormon, kwas abscysynowy, który zamyka szparki. Wysokie stężenie dwutlenku węgla w liściu też je zamyka.
-
-[pauza]
-
-Zatrzymaj się. Dlaczego w czasie suszy roślina zamyka aparaty szparkowe i jaki to ma koszt?
+Sprawdź się. Co jest główną siłą podnoszącą wodę w wysokim drzewie?
 
 [pauza, dłuższa]
 
-Żeby ograniczyć utratę wody przez transpirację. Kosztem jest to, że do liścia nie wnika dwutlenek węgla, więc fotosynteza słabnie.
+[odpowiedź]
 
-## Czynniki wpływające na transpirację
+Transpiracja, czyli parowanie wody z liści. Ciągnie ona słup wody, który nie zrywa się dzięki spójności i przyleganiu.
 
-Transpiracja jest silniejsza, gdy jest ciepło, sucho, wietrznie i jasno. Słabsza, gdy chłodno, wilgotno, bezwietrznie i ciemno. Wiatr zwiewa wilgotne powietrze znad liścia i przyspiesza parowanie.
+[koniec odpowiedzi]
 
-Rośliny suchych siedlisk, kserofity, mają przystosowania do ograniczania transpiracji: grubą kutykulę, mało aparatów szparkowych, często schowanych w zagłębieniach liścia, owłosienie, zwinięte liście, liście przekształcone w kolce. Rośliny wodne, hydrofity, przeciwnie: cienką kutykulę albo żadną, aparaty szparkowe na górnej stronie pływających liści.
+## Aparaty szparkowe
 
-## Sole mineralne
+Szparkę otaczają dwie komórki szparkowe. Gdy pobierają wodę i mają wysoki turgor, wyginają się i szparka się otwiera. Gdy tracą wodę, szparka się zamyka.
 
-Razem z wodą roślina pobiera jony z gleby. Często wbrew gradientowi stężeń, bo w komórkach korzenia jest ich więcej niż w glebie. Dlatego pobieranie jonów to transport aktywny, wymagający ATP. Korzeń oddycha, żeby mieć na to energię. Dlatego rośliny w glebie zalanej wodą, bez tlenu, mają kłopoty z pobieraniem soli.
+Roślina musi wybierać: otwarte szparki wpuszczają dwutlenek węgla do fotosyntezy, ale wypuszczają wodę. Przy suszy szparki się zamykają. Zamknięcie wywołuje hormon kwas abscysynowy.
 
-Najważniejsze pierwiastki z gleby to azot, do białek i kwasów nukleinowych, fosfor, do ATP i DNA, potas, do regulacji szparek, i magnez, do chlorofilu. Ich niedobór daje charakterystyczne objawy, jak chloroza przy braku magnezu albo azotu. Pamiętasz z odcinka o wodzie: przy niedoborze magnezu najpierw żółkną liście stare, przy niedoborze żelaza młode.
+[pytanie: szparki]
+
+Sprawdź się. Dlaczego przy suszy roślina zamyka aparaty szparkowe i co na tym traci?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Żeby ograniczyć utratę wody. Traci dopływ dwutlenku węgla, więc fotosynteza słabnie.
+
+[koniec odpowiedzi]
+
+## Transport cukrów
+
+Cukry płyną łykiem, głównie jako sacharoza, z liści, czyli źródeł, do miejsc, które ich potrzebują: korzeni, owoców i pąków.
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Mechanizm transportu wody: transpiracja, kohezja, adhezja, parcie korzeniowe. Mechanizm otwierania aparatów szparkowych. Czynniki wpływające na transpirację, często w doświadczeniu. Przystosowania kserofitów i hydrofitów. I dlaczego pobieranie soli wymaga ATP.
+Mechanizmy transportu wody, rola transpiracji, otwieranie szparek i wpływ czynników, jak światło, wilgotność i wiatr, na intensywność transpiracji.
 
-## Na spokojnie
+[pytanie: wiatr]
 
-[muzyka, cicho]
+Ostatnie pytanie. Jak wiatr wpływa na transpirację?
 
-Podsumujmy. Woda wnika do korzenia przez osmozę, a śródskórnia kontroluje dostęp do walca. Parcie korzeniowe pcha wodę od dołu, ale główną siłą jest transpiracja, która ciągnie słup wody od góry. Słup nie rwie się dzięki kohezji i nie opada dzięki adhezji. Aparaty szparkowe otwierają się, gdy komórki szparkowe pęcznieją od wody wnikającej za jonami potasu. Susza i kwas abscysynowy je zamykają. Sole mineralne pobierane są aktywnie, z użyciem ATP.
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Zwiększa ją, bo usuwa wilgotne powietrze znad liści i para wodna szybciej z nich uchodzi.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: dlaczego w upalny, wietrzny dzień roślina może zwiędnąć, mimo podlanej ziemi?
-
-[pauza, dłuższa]
-
-Bo transpiracja jest wtedy tak silna, że roślina traci wodę szybciej, niż korzenie zdążą ją pobrać.
-
-Drugie: dlaczego roślina z korzeniami w zalanej wodą glebie gorzej pobiera sole mineralne?
-
-[pauza, dłuższa]
-
-Bo w zalanej glebie brakuje tlenu. Korzenie słabiej oddychają i mają mniej ATP potrzebnego do aktywnego transportu jonów.
-
-Trzecie: dlaczego aparaty szparkowe u wielu roślin są głównie na spodzie liścia?
-
-[pauza, dłuższa]
-
-Bo spód liścia jest zacieniony i chłodniejszy, więc przez szparki wyparowuje mniej wody.
-
-[pauza]
-
-W następnym odcinku kukurydza i ananas. Dwie rośliny z gorących krajów i dwa genialne sposoby, żeby prowadzić fotosyntezę w upale, nie tracąc całej wody. Do usłyszenia.
+W następnym odcinku kukurydza, ananas i dwa sposoby na upał. Do usłyszenia.
 
 [muzyka, wyciszenie]

@@ -185,5 +185,29 @@ export const NAGRANIA_AUTO = {
   "min": 4,
   "czasy": "podcast/mp3/biologia-31-transkrypcja.json",
   "pytania": "podcast/pytania/biologia-31-transkrypcja.json"
+ },
+ "biologia/p/b-translacja": {
+  "plik": "podcast/mp3/biologia-32-translacja.mp3",
+  "min": 5,
+  "czasy": "podcast/mp3/biologia-32-translacja.json",
+  "pytania": "podcast/pytania/biologia-32-translacja.json"
+ },
+ "biologia/p/b-regulacja": {
+  "plik": "podcast/mp3/biologia-33-regulacja.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-33-regulacja.json",
+  "pytania": "podcast/pytania/biologia-33-regulacja.json"
+ },
+ "biologia/d/genetyka-molekularna": {
+  "plik": "podcast/mp3/biologia-34-powtorka-genetyka-molekularna.mp3",
+  "min": 3,
+  "czasy": "podcast/mp3/biologia-34-powtorka-genetyka-molekularna.json",
+  "pytania": "podcast/pytania/biologia-34-powtorka-genetyka-molekularna.json"
+ },
+ "biologia/p/b-krzyzowki": {
+  "plik": "podcast/mp3/biologia-35-krzyzowki.mp3",
+  "min": 5,
+  "czasy": "podcast/mp3/biologia-35-krzyzowki.json",
+  "pytania": "podcast/pytania/biologia-35-krzyzowki.json"
  }
 };
