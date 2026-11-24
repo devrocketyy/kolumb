@@ -513,7 +513,6 @@ ARKUSZE = [{
   W('17', 9, 'Hydrat tiosiarczanu', 'roztwory',
     Z('17', 2, 'Oblicz masę Na₂S₂O₃·5H₂O, która wykrystalizuje (dane w arkuszu).', 'ok. 147 g', 'm(hydratu) z 160 g soli = 251,1 g; woda w roztworze = 58,9 g rozpuszcza 103,7 g hydratu; 251,1 − 103,7 = 147,4 g.'),
     Z('18.1', 1, 'Oblicz [Ca²⁺] w nasyconym roztworze CaCO₃ (Ks = 3,36·10⁻⁹).', '5,80·10⁻⁵ mol·dm⁻³', 'x = √Ks.'),
-    Z('19', 2, 'Oblicz stężenie NaOH (dane: pH = 12,7 po zmieszaniu).', 'Zob. tok w zasadach CKE: [OH⁻] = 10⁻¹·³ = 0,050 mol·dm⁻³ → bilans moli w łącznej objętości.', 'pH → pOH → [OH⁻] → n.'),
     Z('20', 1, 'Zidentyfikuj roztwory I–III.', 'I: NaOH; II: CH₃COOH; III: CH₃COONa', '—')),
   W('21', 11, 'Glin i cynk', 'redoks',
     Z('21.2', 2, 'Zapisz reakcje glinu z kwasem (I) i Al³⁺ z OH⁻ (II); opisz zmiany przy nadmiarze NaOH.', '2Al + 6H⁺ → 2Al³⁺ + 3H₂; Al³⁺ + 3OH⁻ → Al(OH)₃; w nadmiarze NaOH osad zanika.', 'Al(OH)₃ jest amfoteryczny.'),
