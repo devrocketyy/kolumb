@@ -1,194 +1,112 @@
 # IndexLab · Biologia · Odcinek 29 · Powtórka działu „Życie jednej komórki”
-Dział: Podziały komórkowe i genom (odcinki 24–28)
-Długość: ok. 8 minut (ok. 980 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane. „2n” czytamy „dwa en”, „4c” — „cztery ce”.
+Dział: Podziały komórki (odcinki 24–28)
+Długość: ok. 5 minut (format 2.0, powtórka z pytań), jeden narrator.
+Pytania: podcast/pytania/biologia-29-powtorka-podzialy.json
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Szpik kostny w twojej kości biodrowej. Właśnie w tej chwili, gdzieś w jego głębi, dzieli się komórka macierzysta. Z jej podziału powstają dwie. Jedna zostanie macierzystą, a druga zacznie drogę, która zakończy się za kilka tygodni.
-
-[pauza]
-
-Dziś pójdziemy za tą drugą komórką. Za jej życiem od narodzin, przez kopiowanie DNA, przez podział, aż do śmierci. I za jej daleką kuzynką, komórką w jądrze albo jajniku, która podzieli się inaczej, żeby dać początek nowemu człowiekowi.
-
-Jak zawsze w powtórce: przy pytaniu zatrzymaj nagranie i odpowiedz sam.
+Komórka skóry właśnie powstała z podziału. Przed nią całe życie: wzrost, kopiowanie DNA, podział, a może kiedyś śmierć. Przejdziemy z nią przez to życie. Na każdym etapie pytanie.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. To powtórka działu o podziałach komórkowych i genomie.
+Dzień dobry, tu IndexLab. To powtórka działu o podziałach komórki.
 
-## Narodziny: faza G1
+## Narodziny
 
-Nasza komórka właśnie powstała. Jest mała, ma czterdzieści sześć chromosomów, każdy z jedną chromatydą.
+Komórka jest w fazie G1. Jej DNA jest nawinięte na histony.
 
-Pytanie: jaki jest jej zapis n i c?
+[pytanie: nukleosom]
 
-[pauza, dłuższa]
-
-Dwa n, dwa c. Dwa zestawy chromosomów, DNA niepodwojone.
-
-Komórka jest w fazie G1. Rośnie, produkuje białka. Jej DNA jest nawinięte na białka i upakowane w jądrze.
-
-Pytanie: jak nazywają się białka, na które nawinięte jest DNA, i jaka struktura powstaje?
+Sprawdź się. Jak nazywa się szpulka z ośmiu histonów z nawiniętym DNA?
 
 [pauza, dłuższa]
 
-Histony. Osiem histonów z nawiniętym DNA tworzy nukleosom, a nukleosomy połączone DNA wyglądają jak koraliki na sznurku.
+[odpowiedź]
 
-Część chromatyny jest luźna, część zwarta. Pytanie: która część zawiera aktywne geny?
+Nukleosom.
 
-[pauza, dłuższa]
+[koniec odpowiedzi]
 
-Euchromatyna, czyli luźna. Heterochromatyna jest zwarta i jej geny są zwykle wyłączone.
+## Kopiowanie
 
-## Decyzja: punkt kontrolny
+Faza S. Helikaza rozplata helisę, polimeraza dobudowuje nowe nici.
 
-Pod koniec G1 komórka dochodzi do punktu kontrolnego. Sprawdza, czy jest gotowa.
+[pytanie: semikonserwatywna]
 
-Pytanie: co się stanie, jeśli w tym momencie wykryje uszkodzenie DNA, którego nie da się naprawić?
-
-[pauza, dłuższa]
-
-Białko p53 uruchomi apoptozę. Komórka zginie, zanim zdąży przekazać błąd dalej.
-
-Ale nasza komórka jest zdrowa. Przechodzi dalej.
-
-## Kopiowanie: faza S
-
-W fazie S komórka kopiuje DNA. Helikaza rozplata podwójną helisę.
-
-Pytanie: dlaczego potrzebny jest starter i kto go robi?
+Sprawdź się. Co znaczy, że replikacja jest semikonserwatywna?
 
 [pauza, dłuższa]
 
-Bo polimeraza DNA nie umie zacząć nici od zera, dołącza nukleotydy tylko do istniejącego końca trzy prim. Starter z RNA robi prymaza.
+[odpowiedź]
 
-Pytanie: dlaczego jedna z nowych nici powstaje we fragmentach?
+Każda nowa cząsteczka DNA ma jedną nić starą i jedną nową.
 
-[pauza, dłuższa]
+[koniec odpowiedzi]
 
-Bo polimeraza buduje nić tylko od pięć prim do trzy prim, a nici matrycowe są antyrównoległe. Na nici opóźnionej synteza idzie krótkimi odcinkami, fragmentami Okazaki, które potem skleja ligaza.
+[pytanie: zapis]
 
-Pytanie: jak nazywa się ten sposób replikacji i kto go udowodnił?
-
-[pauza, dłuższa]
-
-Semikonserwatywny, bo każda nowa cząsteczka ma jedną nić starą i jedną nową. Udowodnili to Meselson i Stahl, hodując bakterie na ciężkim azocie, a potem na lekkim, i wirując DNA.
-
-Pytanie: jaki jest teraz zapis n i c?
+Sprawdź się. Jaki zapis n i c ma komórka po fazie S?
 
 [pauza, dłuższa]
 
-Dwa n, cztery c. Chromosomów tyle samo, ale DNA dwa razy więcej. Każdy chromosom ma dwie chromatydy siostrzane, połączone centromerem.
+[odpowiedź]
 
-## Podział: mitoza
+Dwa n, cztery c.
 
-Po fazie G2 nasza komórka dzieli się przez mitozę.
+[koniec odpowiedzi]
 
-Pytanie: wymień fazy mitozy po kolei i powiedz, co się dzieje w każdej.
+## Podział
 
-[pauza, dłuższa]
+Komórka wchodzi w mitozę. Chromosomy ustawiają się na środku, potem chromatydy rozchodzą się do biegunów.
 
-Profaza: chromosomy kondensują, otoczka jądrowa zanika, tworzy się wrzeciono. Metafaza: chromosomy ustawiają się na płytce metafazowej. Anafaza: chromatydy siostrzane rozchodzą się do biegunów. Telofaza: odtwarzają się jądra, chromosomy się rozluźniają.
+[pytanie: anafaza]
 
-Pytanie: z której struktury cytoszkieletu zbudowane jest wrzeciono?
-
-[pauza, dłuższa]
-
-Z mikrotubul.
-
-Pytanie: jak dzieli się cytoplazma u zwierząt, a jak u roślin?
+Sprawdź się. Jak nazywa się faza, w której chromatydy rozchodzą się do biegunów?
 
 [pauza, dłuższa]
 
-U zwierząt przez przewężenie błony, czyli bruzdę. U roślin przez przegrodę, która powstaje w środku komórki w obrębie fragmoplastu i rośnie do ściany.
+[odpowiedź]
 
-Powstały dwie komórki. Pytanie: jaki mają zapis i czy są identyczne?
+Anafaza.
 
-[pauza, dłuższa]
+[koniec odpowiedzi]
 
-Każda ma dwa n, dwa c. Są genetycznie identyczne ze sobą i z komórką macierzystą.
+[pytanie: mejoza]
 
-## Kuzynka: mejoza
-
-Teraz na chwilę przenieśmy się do jajnika albo do jądra. Tam komórka diploidalna dzieli się inaczej, przez mejozę.
-
-Pytanie: co dzieje się w profazie pierwszej, czego nie ma w mitozie?
+Sprawdź się. Gdyby to była komórka, z której powstają plemniki, jaki podział by przeszła i ile komórek by powstało?
 
 [pauza, dłuższa]
 
-Chromosomy homologiczne łączą się w pary, czyli biwalenty, i zachodzi crossing-over: wymiana odcinków między chromatydami chromosomów homologicznych.
+[odpowiedź]
 
-Pytanie: co rozchodzi się do biegunów w anafazie pierwszej, a co w anafazie drugiej?
+Mejozę. Powstałyby cztery komórki haploidalne, różne genetycznie.
 
-[pauza, dłuższa]
+[koniec odpowiedzi]
 
-W anafazie pierwszej chromosomy homologiczne, każdy z dwiema chromatydami. W anafazie drugiej chromatydy siostrzane.
+## Koniec
 
-Pytanie: ile komórek powstaje i jaki mają zapis?
+Po latach słońce uszkadza DNA komórki. Białko p53 wykrywa uszkodzenie, którego nie da się naprawić.
 
-[pauza, dłuższa]
+[pytanie: apoptoza]
 
-Cztery komórki haploidalne, każda n, c.
-
-Pytanie: wymień dwa źródła zmienności w mejozie.
+Sprawdź się. Co zrobi komórka i dlaczego to dobrze dla organizmu?
 
 [pauza, dłuższa]
 
-Crossing-over i niezależna segregacja chromosomów homologicznych. Dlatego każda gameta jest inna, a rodzeństwo nie jest identyczne.
+[odpowiedź]
 
-## Śmierć: apoptoza
+Uruchomi apoptozę. Zginie, zanim przekaże uszkodzone DNA komórkom potomnym, które mogłyby dać nowotwór.
 
-Wracamy do naszej komórki ze szpiku. Dojrzała w szpiku, stała się krwinką białą, a potem przez kilka dni krążyła po ciele. Teraz jest stara i zużyta. Pora odejść.
+[koniec odpowiedzi]
 
-Pytanie: jak zginie, apoptozą czy nekrozą, i dlaczego to lepsze dla organizmu?
-
-[pauza, dłuższa]
-
-Apoptozą. Komórka się skurczy, DNA zostanie pocięte przez enzymy, rozpadnie się na ciałka apoptotyczne, które pochłoną makrofagi. Zawartość nie wyleje się na zewnątrz, więc nie będzie stanu zapalnego.
-
-Pytanie: jakie enzymy przeprowadzają apoptozę?
-
-[pauza, dłuższa]
-
-Kaspazy, które aktywują się kaskadowo.
-
-## Wielki obraz
-
-[muzyka, krótko]
-
-Spójrzmy na cały dział z góry. Każda komórka przechodzi cykl: rośnie w G1, kopiuje DNA w S, przygotowuje się w G2, dzieli w M. Na każdym etapie są punkty kontrolne. Kopiowanie jest semikonserwatywne i bardzo dokładne. Mitoza robi identyczne kopie do wzrostu i odnowy. Mejoza robi różnorodne gamety do rozmnażania płciowego. A apoptoza usuwa komórki zbędne, uszkodzone i zakażone.
-
-Kiedy którykolwiek z tych mechanizmów zawodzi, punkty kontrolne, naprawa DNA albo apoptoza, komórka może zacząć dzielić się bez kontroli. Tak powstaje nowotwór. Dlatego ten dział łączy się z genetyką i medycyną, do których dojdziemy później.
-
-## Na spokojnie
+## Na koniec
 
 [muzyka, cicho]
 
-Trzy ostatnie pytania, łączące wszystko.
+Upakowanie DNA, replikacja, cykl komórkowy, mitoza, mejoza i apoptoza. Cały dział w jednym życiu.
 
-Pierwsze: narysuj w myślach wykres ilości DNA w jądrze w czasie mejozy. Ile razy spada ilość DNA?
-
-[pauza, dłuższa]
-
-Dwa razy. Po mejozie pierwszej z czterech c do dwóch c, po mejozie drugiej z dwóch c do jednego c. Wcześniej, w fazie S przed mejozą, ilość wzrasta z dwóch c do czterech c.
-
-Drugie: ile chromatyd jest w ludzkiej komórce w metafazie mitozy?
-
-[pauza, dłuższa]
-
-Dziewięćdziesiąt dwie. Czterdzieści sześć chromosomów, każdy z dwiema chromatydami.
-
-Trzecie: komórka nowotworowa ma aktywną telomerazę i uszkodzony gen p53. Jak każda z tych cech pomaga jej się dzielić bez końca?
-
-[pauza, dłuższa]
-
-Telomeraza odbudowuje telomery, więc chromosomy nie skracają się przy kolejnych podziałach i komórka się nie starzeje. Brak sprawnego p53 sprawia, że uszkodzenia DNA nie uruchamiają apoptozy ani zatrzymania cyklu.
-
-[pauza]
-
-To koniec działu o podziałach. W następnym dziale genetyka molekularna. Zaczniemy od zaskoczenia: większość twojego genu jest wycinana i wyrzucana, zanim zostanie odczytana. Do usłyszenia.
+W następnym odcinku zaczynamy genetykę molekularną: czym właściwie jest gen. Do usłyszenia.
 
 [muzyka, wyciszenie]

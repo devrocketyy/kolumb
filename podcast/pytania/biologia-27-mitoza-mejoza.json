@@ -1,0 +1,9 @@
+{
+  "odcinek": "biologia-27-mitoza-mejoza",
+  "pytania": [
+    {"id": "fazy", "typ": "laczenie", "polecenie": "Połącz fazę mitozy z wydarzeniem.", "pary": [["Profaza", "kondensacja chromosomów, zanik otoczki"], ["Metafaza", "chromosomy w płytce metafazowej"], ["Anafaza", "chromatydy wędrują do biegunów"], ["Telofaza", "odtworzenie dwóch jąder"]], "wyjasnienie": "Kolejność: profaza, metafaza, anafaza, telofaza."},
+    {"id": "redukcja", "typ": "abcd", "pytanie": "W którym podziale mejozy zmniejsza się liczba chromosomów?", "odpowiedzi": ["W mejozie I", "W mejozie II", "W interfazie", "W cytokinezie"], "poprawna": 0, "wyjasnienie": "W anafazie I rozchodzą się chromosomy homologiczne."},
+    {"id": "zmiennosc", "typ": "abcd", "pytanie": "Które procesy w mejozie zwiększają zmienność genetyczną?", "odpowiedzi": ["Crossing-over i niezależna segregacja chromosomów", "Replikacja i cytokineza", "Kondensacja i zanik otoczki", "Apoptoza i mitoza"], "poprawna": 0, "wyjasnienie": "Poza mejozą dochodzi jeszcze losowe zapłodnienie."},
+    {"id": "porownanie", "typ": "abcd", "pytanie": "Czym różnią się produkty mitozy i mejozy?", "odpowiedzi": ["Mitoza: 2 identyczne komórki 2n; mejoza: 4 różne komórki n", "Mitoza: 4 komórki n; mejoza: 2 komórki 2n", "Obie dają 2 komórki 2n", "Mitoza: 2 różne komórki n; mejoza: 4 identyczne 2n"], "poprawna": 0, "wyjasnienie": "Mitoza robi kopie, mejoza tworzy różnorodność i redukuje liczbę chromosomów."}
+  ]
+}

@@ -89,5 +89,17 @@ export const NAGRANIA_AUTO = {
   "min": 5,
   "czasy": "podcast/mp3/biologia-15-mitochondria.json",
   "pytania": "podcast/pytania/biologia-15-mitochondria.json"
+ },
+ "biologia/p/b-sciana": {
+  "plik": "podcast/mp3/biologia-16-sciana.mp3",
+  "min": 5,
+  "czasy": "podcast/mp3/biologia-16-sciana.json",
+  "pytania": "podcast/pytania/biologia-16-sciana.json"
+ },
+ "biologia/d/komorka": {
+  "plik": "podcast/mp3/biologia-17-powtorka-komorka.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-17-powtorka-komorka.json",
+  "pytania": "podcast/pytania/biologia-17-powtorka-komorka.json"
  }
 };

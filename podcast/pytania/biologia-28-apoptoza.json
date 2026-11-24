@@ -1,0 +1,9 @@
+{
+  "odcinek": "biologia-28-apoptoza",
+  "pytania": [
+    {"id": "roznice", "typ": "laczenie", "polecenie": "Połącz cechę z rodzajem śmierci komórki.", "pary": [["Komórka się kurczy, brak zapalenia", "apoptoza"], ["Komórka puchnie i pęka", "nekroza"], ["Zaprogramowana, przez kaspazy", "apoptoza"], ["Wywołana urazem lub trucizną", "nekroza"]], "wyjasnienie": "Apoptoza jest kontrolowana i „czysta”, nekroza przypadkowa i zapalna."},
+    {"id": "kaczka", "typ": "abcd", "pytanie": "Dlaczego człowiek nie ma błony między palcami?", "odpowiedzi": ["Komórki między palcami giną w apoptozie w rozwoju zarodkowym", "Palce rosną szybciej niż błona", "Błona ulega nekrozie po urodzeniu", "Człowiek nie ma genów błony"], "poprawna": 0, "wyjasnienie": "U kaczki te komórki przeżywają i tworzą błonę pławną."},
+    {"id": "p53", "typ": "abcd", "pytanie": "Jak uszkodzenie genu p53 może prowadzić do nowotworu?", "odpowiedzi": ["Komórka z uszkodzonym DNA nie ginie, tylko się dzieli", "Komórka ginie zbyt szybko", "Komórka przestaje replikować DNA", "Komórka traci mitochondria"], "poprawna": 0, "wyjasnienie": "p53 uruchamia naprawę DNA albo apoptozę."},
+    {"id": "zapalenie", "typ": "abcd", "pytanie": "Dlaczego apoptoza nie wywołuje stanu zapalnego?", "odpowiedzi": ["Ciałka apoptotyczne otoczone błoną są od razu pochłaniane przez makrofagi", "Komórka pęka bardzo szybko", "Kaspazy hamują zapalenie", "Zachodzi tylko w zarodku"], "poprawna": 0, "wyjasnienie": "Zawartość komórki nie wylewa się na zewnątrz."}
+  ]
+}
