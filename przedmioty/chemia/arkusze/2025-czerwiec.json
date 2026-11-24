@@ -2,7 +2,8 @@
  "id": "2025-czerwiec",
  "nazwa": "Matura czerwiec 2025",
  "opis": "Egzamin maturalny z chemii, poziom rozszerzony, Formuła 2023 — termin dodatkowy 2025 r. (12 czerwca).",
- "link": "https://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2023/arkusze/",
+ "link": "https://arkusze.pl/maturalne/chemia-2025-czerwiec-matura-rozszerzona.pdf",
+ "linkZasady": "https://arkusze.pl/maturalne/chemia-2025-czerwiec-matura-rozszerzona-odpowiedzi.pdf",
  "zrodlo": "Arkusz: CKE, termin dodatkowy czerwiec 2025 (MCHP-R0-100-2506). Odpowiedzi i omówienia: opracowanie IndexLab na podstawie zasad oceniania CKE.",
  "wiazki": [
   {
@@ -517,6 +518,17 @@
      "dzialy": [
       "azotowe-cukry"
      ]
+    },
+    {
+     "nr": "27.3",
+     "punkty": 2,
+     "polecenie": "Trzy dipeptydy badano HNO₂ (gaz — wolna grupa –NH₂) i HNO₃ (żółte zabarwienie — pierścień aromatyczny). Wskaż dipeptydy w probówkach I i II i nazwij reakcję z HNO₃.",
+     "odpowiedz": "I — dipeptyd 1.; II — dipeptyd 3.; reakcja ksantoproteinowa (nitrowanie pierścienia)",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "I: gaz z HNO₂, brak żółtego zabarwienia → wolna –NH₂, bez pierścienia. II: gaz i żółte zabarwienie → wolna –NH₂ i pierścień aromatyczny.",
+     "dzialy": [
+      "azotowe-cukry"
+     ]
     }
    ]
   },
@@ -540,9 +552,9 @@
      "nr": "28.2",
      "punkty": 1,
      "polecenie": "W anionie lizyny najsilniej zasadowa jest grupa (–COO⁻/–NH₂) przy atomie (x/y).",
-     "odpowiedz": "–NH₂ przy atomie y (grupa z łańcucha bocznego, Ka = 2,1·10⁻¹¹)",
+     "odpowiedz": "–NH₂ przy atomie x (grupa aminowa łańcucha bocznego)",
      "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
-     "omowienie": "Najsłabszy kwas sprzężony → najsilniejsza zasada.",
+     "omowienie": "Najsłabszy kwas sprzężony (Ka = 2,1·10⁻¹¹) → najsilniejsza zasada. Ta grupa traci proton jako ostatnia.",
      "dzialy": [
       "azotowe-cukry"
      ]
