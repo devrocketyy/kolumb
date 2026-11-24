@@ -1,8 +1,9 @@
-# IndexLab · Biologia · Odcinek 26 · „Sto lat bez podziału”
-Temat: Cykl komórkowy i ploidalność
-Dział: Podziały komórkowe i genom
-Długość: ok. 8 minut (ok. 990 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane. „G1” czytamy „ge jeden”, „2n” — „dwa en”, „4c” — „cztery ce”.
+# IndexLab · Biologia · Odcinek 26 · „Neuron i komórka jelita”
+Temat: Cykl komórkowy
+Dział: Podziały komórki
+Długość: ok. 6 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-26-cykl.json
+Uwaga dla lektora: „G1”, „G2” czytamy: gie jeden, gie dwa. „G0” — gie zero. Zapis „2n 4c” czytamy: dwa en, cztery ce.
 
 ---
 
@@ -10,130 +11,96 @@ Uwaga dla lektora: nagłówki „##” nie są czytane. „G1” czytamy „ge j
 
 Dwie komórki w twoim ciele.
 
-Pierwsza to neuron w korze mózgowej. Powstał, zanim się urodziłeś. Od tamtej pory się nie podzielił. I prawdopodobnie nie podzieli się już nigdy. Jeśli dożyjesz stu lat, będzie miał sto lat i kilka miesięcy.
+Pierwsza to neuron w korze mózgowej. Powstał, zanim się urodziłeś, i prawdopodobnie nie podzieli się już nigdy.
 
-Druga to komórka nabłonka w twoim jelicie cienkim. Powstała kilka dni temu. Za kilka dni złuszczy się i zginie, a na jej miejsce przyjdą nowe. Całą wyściółkę jelita wymieniasz mniej więcej co tydzień.
+Druga to komórka nabłonka jelita cienkiego. Powstała kilka dni temu i za kilka dni się złuszczy, a na jej miejsce przyjdą nowe.
 
 [pauza]
 
-Obie mają to samo DNA. Obie potrafiłyby się dzielić. Ale jedna robi to bez przerwy, a druga nigdy. O tym, która komórka się dzieli i kiedy, decyduje precyzyjny system kontroli. Gdy ten system się psuje, powstaje nowotwór.
+Obie mają to samo DNA. Ale jedna dzieli się bez przerwy, a druga nigdy. O tym decyduje precyzyjny system kontroli.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. Dziś cykl komórkowy, czyli życie komórki od podziału do podziału. I zapis, którego wielu uczniów się boi, a który jest prostszy, niż wygląda: n i c.
+Dzień dobry, tu IndexLab. Dziś cykl komórkowy i zapis, którego wielu uczniów się boi, choć jest prosty.
 
-## Cykl komórkowy: dwie wielkie części
+## Interfaza i podział
 
-Cykl komórkowy to wszystko, co dzieje się z komórką od momentu, gdy powstaje z podziału, do momentu, gdy sama się dzieli. Ma dwie części.
+Cykl komórkowy to życie komórki od podziału do podziału. Najdłuższa jest interfaza, czasem ponad dziewięćdziesiąt procent cyklu. Krótka faza M to podział: najpierw jądra, potem cytoplazmy.
 
-Interfaza to czas między podziałami. Komórka rośnie, pracuje, a przed podziałem kopiuje DNA. To zdecydowanie najdłuższa część cyklu, zwykle ponad dziewięćdziesiąt procent czasu.
+Interfaza ma trzy etapy: rośnij, kopiuj, sprawdź.
 
-Podział to faza M, od słowa mitoza. Najpierw dzieli się jądro, potem cytoplazma. Szybko, zwykle w ciągu godziny.
+Faza G1: komórka rośnie i pracuje. Faza S: replikacja DNA. Po niej każdy chromosom ma dwie chromatydy. Faza G2: komórka sprawdza kopię i przygotowuje się do podziału.
 
-## Interfaza: trzy etapy
+Neuron opuścił cykl i jest w fazie G0, czyli spoczynku.
 
-Interfazę dzielimy na trzy etapy. Zapamiętaj je jako: rośnij, kopiuj, sprawdź.
+[pytanie: fazy]
 
-Faza G1, od angielskiego słowa gap, przerwa. Komórka rośnie, produkuje białka i organella, pracuje zgodnie ze swoją funkcją. To najbardziej zmienna część cyklu. W szybko dzielących się komórkach trwa kilka godzin, w innych tygodnie.
-
-Faza S, od syntezy. Tu zachodzi replikacja DNA, którą poznaliśmy w poprzednim odcinku. Pod koniec fazy S każdy chromosom składa się z dwóch chromatyd siostrzanych.
-
-Faza G2. Komórka sprawdza, czy DNA zostało poprawnie skopiowane, i przygotowuje się do podziału, na przykład produkuje białka potrzebne do budowy wrzeciona.
-
-[pauza]
-
-A neuron? Neuron opuścił cykl. Przeszedł do fazy, którą nazywamy G zero. To stan spoczynku, w którym komórka pracuje, ale nie przygotowuje się do podziału. Część komórek w G zero może wrócić do cyklu, kiedy organizm tego potrzebuje, na przykład komórki wątroby po uszkodzeniu. Neurony w większości zostają w G zero na zawsze.
-
-## Punkty kontrolne
-
-Cykl ma wbudowane punkty kontrolne. To momenty, w których komórka sprawdza, czy może iść dalej. Najważniejsze są trzy.
-
-Pod koniec G1: czy komórka jest dość duża, czy otoczenie sprzyja podziałowi, czy DNA nie jest uszkodzone. Jeśli nie, komórka nie wejdzie w fazę S.
-
-Pod koniec G2: czy DNA jest kompletnie i poprawnie skopiowane.
-
-W metafazie: czy wszystkie chromosomy są przyczepione do wrzeciona podziałowego. Dopiero wtedy chromatydy mogą się rozdzielić.
-
-Jeśli komórka wykryje uszkodzenie, którego nie da się naprawić, może uruchomić apoptozę, czyli zaprogramowaną śmierć. O apoptozie będzie osobny odcinek.
-
-[wolniej] W komórkach nowotworowych punkty kontrolne nie działają. Komórka dzieli się bez względu na sygnały i uszkodzenia. Właśnie dlatego nowotwór rośnie niekontrolowanie.
-
-## Ploidalność: zapis n
-
-Teraz zapis, który pojawia się w prawie każdym zadaniu o podziałach.
-
-Litera n oznacza liczbę chromosomów w jednym zestawie, czyli w jednym komplecie, gdzie każdy chromosom występuje raz. U człowieka n równa się dwadzieścia trzy.
-
-Komórka haploidalna ma jeden zestaw: zapisujemy n. Tak jest w gametach.
-
-Komórka diploidalna ma dwa zestawy, od matki i od ojca: zapisujemy dwa n. Tak jest w komórkach ciała. U człowieka dwa n równa się czterdzieści sześć.
-
-Są też komórki poliploidalne, na przykład trzy n albo cztery n. Często u roślin uprawnych, na przykład pszenica jest heksaploidalna, ma sześć zestawów.
-
-## Ilość DNA: zapis c
-
-I druga litera: c. Oznacza ilość DNA w jednym zestawie chromosomów, zanim zostanie skopiowany.
-
-[wolniej] Tu jest najważniejsza rzecz w całym odcinku. Liczba chromosomów i ilość DNA to dwie różne rzeczy. Chromosom przed replikacją ma jedną cząsteczkę DNA. Chromosom po replikacji, z dwiema chromatydami, ma dwie cząsteczki DNA. Ale nadal liczymy go jako jeden chromosom.
-
-Prześledźmy komórkę ciała człowieka przez cykl.
-
-W fazie G1: dwa n, dwa c. Dwa zestawy chromosomów, każdy chromosom z jedną chromatydą.
-
-Po fazie S, czyli w G2: dwa n, cztery c. Chromosomów nadal tyle samo, ale DNA jest dwa razy więcej, bo każdy chromosom ma dwie chromatydy.
-
-Po mitozie, w każdej komórce potomnej: znowu dwa n, dwa c.
-
-[pauza]
-
-Zatrzymaj się. Komórka ma zapis dwa n, cztery c. W jakiej fazie cyklu może się znajdować?
+Sprawdź się. W której fazie interfazy zachodzi replikacja DNA?
 
 [pauza, dłuższa]
 
-W fazie G2 albo na początku mitozy, w profazie lub metafazie. DNA już zostało skopiowane, ale komórka się jeszcze nie podzieliła.
+[odpowiedź]
 
-## Wykres ilości DNA
+W fazie S.
 
-Na maturze często pojawia się wykres ilości DNA w jądrze w czasie cyklu. Wygląda jak schody. W G1 ilość jest stała, na poziomie dwa c. W fazie S rośnie, bo zachodzi replikacja. W G2 jest stała, na poziomie cztery c. A po podziale gwałtownie spada z powrotem do dwa c.
+[koniec odpowiedzi]
 
-Kluczowa umiejętność: wskazać na takim wykresie fazę S. To ten odcinek, gdzie krzywa rośnie.
+## Punkty kontrolne
+
+Pod koniec G1 komórka sprawdza, czy jest dość duża i czy DNA nie jest uszkodzone. Pod koniec G2, czy DNA jest dobrze skopiowane. W metafazie, czy wszystkie chromosomy są przyczepione do wrzeciona. Jeśli uszkodzenia nie da się naprawić, komórka może uruchomić apoptozę, czyli zaprogramowaną śmierć.
+
+## Zapis n i c
+
+Litera n to liczba chromosomów w jednym zestawie. U człowieka n to dwadzieścia trzy. Gameta jest haploidalna, czyli n. Komórka ciała jest diploidalna, czyli dwa n.
+
+Litera c to ilość DNA w jednym zestawie przed skopiowaniem.
+
+[wolniej] Komórka ciała w G1 ma dwa n i dwa c. Po fazie S, w G2, ma dwa n i cztery c: chromosomów tyle samo, a DNA dwa razy więcej, bo każdy chromosom ma dwie chromatydy. Po mitozie każda komórka potomna znowu ma dwa n i dwa c.
+
+[pytanie: zapis]
+
+Sprawdź się. Komórka ma zapis dwa n, cztery c. W jakiej fazie może być?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+W fazie G2 albo na początku mitozy, czyli po replikacji, a przed rozdzieleniem chromatyd.
+
+[koniec odpowiedzi]
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Trzy typy zadań. Kolejność i charakterystyka faz cyklu. Zapis n i c w różnych fazach, często w tabeli do uzupełnienia. I wykres zmian ilości DNA z pytaniem o fazę. Do tego pytania o punkty kontrolne w związku z nowotworami.
+Kolejność faz cyklu. Ilość DNA na wykresie w kolejnych fazach. Zapis n i c. Rola punktów kontrolnych.
 
-## Na spokojnie
+[pytanie: g1]
 
-[muzyka, cicho]
+Sprawdź się. Ile chromosomów i ile chromatyd ma komórka ciała człowieka w fazie G1?
 
-Podsumujmy. Cykl komórkowy to interfaza i podział. Interfaza to G1, czyli wzrost, S, czyli replikacja DNA, i G2, czyli przygotowanie do podziału. Komórki, które się nie dzielą, są w G zero. Punkty kontrolne sprawdzają gotowość do kolejnych etapów, a w nowotworach zawodzą. n to liczba chromosomów w zestawie, c to ilość DNA. Replikacja podwaja c, ale nie zmienia n.
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Czterdzieści sześć chromosomów, każdy z jedną chromatydą, czyli czterdzieści sześć chromatyd.
+
+[koniec odpowiedzi]
+
+[pytanie: g0]
+
+Ostatnie pytanie. W jakiej fazie jest neuron, który się nie dzieli?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+W fazie G0, czyli spoczynku poza cyklem.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: ile cząsteczek DNA ma ludzka komórka w fazie G2?
-
-[pauza, dłuższa]
-
-Dziewięćdziesiąt dwie. Czterdzieści sześć chromosomów, każdy z dwiema chromatydami.
-
-Drugie: w której fazie cyklu zachodzi replikacja DNA?
-
-[pauza, dłuższa]
-
-W fazie S interfazy.
-
-Trzecie: dlaczego leki przeciwnowotworowe często uszkadzają też komórki szpiku i nabłonka jelita?
-
-[pauza, dłuższa]
-
-Bo działają na komórki, które szybko się dzielą. A komórki szpiku i jelita też dzielą się bardzo często.
-
-[pauza]
-
-W następnym odcinku dwa sposoby podziału: mitoza i mejoza. I odpowiedź na pytanie, dlaczego rodzeństwo od tych samych rodziców nie jest identyczne. Do usłyszenia.
+W następnym odcinku mitoza i mejoza: dwa sposoby podziału i dlaczego jeden daje kopie, a drugi różnorodność. Do usłyszenia.
 
 [muzyka, wyciszenie]

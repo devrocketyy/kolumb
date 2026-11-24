@@ -1,0 +1,68 @@
+{
+  "odcinek": "biologia-24-genom",
+  "pytania": [
+    {
+      "id": "histony",
+      "typ": "abcd",
+      "pytanie": "Dlaczego histony silnie wiążą DNA?",
+      "odpowiedzi": [
+        "Histony mają ładunek dodatni, a DNA ujemny",
+        "Histony mają ładunek ujemny jak DNA",
+        "Łączą się wiązaniami peptydowymi",
+        "Histony są zbudowane z RNA"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Reszty fosforanowe nadają DNA ładunek ujemny."
+    },
+    {
+      "id": "elementy",
+      "typ": "laczenie",
+      "polecenie": "Połącz element z opisem.",
+      "pary": [
+        [
+          "Nukleosom",
+          "DNA nawinięte na osiem histonów"
+        ],
+        [
+          "Centromer",
+          "miejsce połączenia chromatyd siostrzanych"
+        ],
+        [
+          "Telomer",
+          "ochronny koniec chromosomu"
+        ],
+        [
+          "Plazmid",
+          "mała kolista cząsteczka DNA bakterii"
+        ]
+      ],
+      "wyjasnienie": "Telomery chronią końce chromosomów jak końcówki sznurowadeł."
+    },
+    {
+      "id": "gameta",
+      "typ": "abcd",
+      "pytanie": "Ile chromosomów ma ludzka komórka jajowa?",
+      "odpowiedzi": [
+        "23",
+        "46",
+        "22",
+        "92"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Gamety mają jeden zestaw chromosomów, po jednym z każdej pary."
+    },
+    {
+      "id": "homologiczne",
+      "typ": "abcd",
+      "pytanie": "Czym są chromosomy homologiczne?",
+      "odpowiedzi": [
+        "Parą chromosomów od matki i ojca z tymi samymi genami, ale możliwie różnymi allelami",
+        "Dwiema identycznymi chromatydami",
+        "Chromosomami płci",
+        "Kopiami powstałymi w replikacji"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Identyczne są chromatydy siostrzane, a nie chromosomy homologiczne."
+    }
+  ]
+}

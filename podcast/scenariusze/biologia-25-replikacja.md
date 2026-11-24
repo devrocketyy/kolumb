@@ -1,127 +1,114 @@
-# IndexLab · Biologia · Odcinek 25 · „Najpiękniejsze doświadczenie w biologii”
+# IndexLab · Biologia · Odcinek 25 · „Zważyć DNA”
 Temat: Replikacja DNA
-Dział: Podziały komórkowe i genom
-Długość: ok. 8 minut (ok. 1020 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane. „Meselson” czytamy: MES-el-son. „Okazaki” czytamy: o-ka-ZA-ki.
+Dział: Podziały komórki
+Długość: ok. 6 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-25-replikacja.json
+Uwaga dla lektora: „Meselson” — ME-sel-son. „Stahl” — sztal.
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Kalifornia, rok 1957. Dwóch młodych naukowców, Matthew Meselson i Franklin Stahl, ma problem. Watson i Crick cztery lata wcześniej opisali podwójną helisę i zasugerowali, jak DNA może się kopiować. Ale nikt tego nie sprawdził. A pomysłów na sposób kopiowania jest kilka.
+Kalifornia, rok 1957. Dwóch młodych naukowców, Matthew Meselson i Franklin Stahl, zastanawia się, jak kopiuje się DNA.
+
+Może stara cząsteczka zostaje cała, a obok powstaje zupełnie nowa? Może każda stara nić dostaje nową partnerkę? A może stare i nowe kawałki się mieszają?
 
 [pauza]
 
-Może cała stara cząsteczka zostaje nietknięta, a obok powstaje zupełnie nowa? Może stara rozpada się na dwie nici i każda dostaje nową partnerkę? A może stare i nowe kawałki mieszają się chaotycznie na całej długości?
-
-Jak to sprawdzić, skoro cząsteczki DNA nie da się zobaczyć? Meselson i Stahl wymyślili coś genialnego. Zważyli DNA.
-
-Ich doświadczenie biolodzy do dziś nazywają najpiękniejszym w historii biologii. Pod koniec tego odcinka będziesz umiał je wyjaśnić na maturze.
+Jak to sprawdzić, skoro cząsteczki DNA nie widać? Meselson i Stahl wymyślili coś genialnego. Zważyli DNA.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. Dziś replikacja DNA: jak komórka robi dokładną kopię swojego materiału genetycznego, zanim się podzieli.
+Dzień dobry, tu IndexLab. Dziś replikacja DNA, czyli jak komórka robi dokładną kopię swojego materiału genetycznego.
 
-## Zasada: komplementarność
+## Doświadczenie
 
-Z odcinka o kwasach nukleinowych wiesz, że nici DNA są komplementarne. A zawsze z T, G zawsze z C. Jeśli znasz jedną nić, znasz drugą.
+Bakterie hodowano wiele pokoleń na pożywce z ciężkim azotem, piętnaście. Wbudowywały go do DNA, które stało się ciężkie. Potem przeniesiono je na pożywkę z lekkim azotem, czternaście.
 
-To daje prosty pomysł na kopiowanie. Rozdziel dwie nici. Każda posłuży jako matryca, czyli wzór. Do każdej dobuduj nową, komplementarną nić. Z jednej cząsteczki powstaną dwie, identyczne z pierwotną.
+DNA wirowano w roztworze, w którym każda cząsteczka zatrzymuje się na wysokości odpowiadającej jej gęstości.
 
-## Doświadczenie Meselsona i Stahla
+Na początku: jeden prążek, ciężki. Po pierwszym pokoleniu: jeden prążek pośrodku, pół ciężki, pół lekki. Po drugim: dwa prążki, pośrodku i lekki.
 
-Ale czy tak to rzeczywiście działa? Wróćmy do Kalifornii.
+[wolniej] Wniosek: replikacja jest semikonserwatywna. Każda nowa cząsteczka ma jedną nić starą i jedną nową.
 
-Meselson i Stahl hodowali bakterie przez wiele pokoleń na pożywce, w której jedynym źródłem azotu był ciężki izotop azotu, azot piętnaście. Bakterie wbudowywały go do swojego DNA. Ich DNA było więc cięższe niż normalnie.
+[pytanie: meselson]
 
-Potem przenieśli bakterie na pożywkę ze zwykłym, lekkim azotem, czternaście. I pobierali próbki DNA po każdym pokoleniu.
-
-DNA wirowali w roztworze, który w wirówce tworzy gradient gęstości. Każda cząsteczka zatrzymuje się na wysokości odpowiadającej jej gęstości. Ciężkie DNA niżej, lekkie wyżej.
-
-[pauza]
-
-Wyniki. Na początku, przed przeniesieniem, jeden prążek: ciężki.
-
-Po pierwszym pokoleniu na lekkiej pożywce: jeden prążek, pośrodku. DNA było w połowie ciężkie, w połowie lekkie.
-
-Po drugim pokoleniu: dwa prążki. Jeden pośrodku, jeden lekki.
-
-[wolniej] Co to znaczy? Po pierwszej replikacji każda cząsteczka miała jedną starą, ciężką nić i jedną nową, lekką. To wyklucza model, w którym stara cząsteczka zostaje cała, bo wtedy byłyby od razu dwa prążki: ciężki i lekki. Po drugiej replikacji połowa cząsteczek była pośrednia, połowa lekka. To wyklucza model chaotycznego mieszania, bo wtedy wszystkie cząsteczki byłyby gdzieś pośrodku.
-
-Wniosek: replikacja jest semikonserwatywna. Każda nowa cząsteczka DNA składa się z jednej nici starej i jednej nowej. Semi znaczy pół, konserwatywna znaczy zachowująca. W połowie zachowująca.
-
-## Maszyna replikacyjna
-
-Teraz zobaczmy, jak to robi komórka. W replikacji bierze udział cała ekipa enzymów. Wymienię je w kolejności pracy.
-
-Helikaza rozplata podwójną helisę, zrywając wiązania wodorowe między zasadami. Tam, gdzie pracuje, powstaje rozwidlenie, które nazywamy widełkami replikacyjnymi.
-
-Prymaza dokłada krótki starter z RNA. Dlaczego? Bo główny enzym, polimeraza DNA, nie potrafi zacząć nici od zera. Umie tylko dołączać nukleotydy do już istniejącego końca. Starter to taki punkt zaczepienia.
-
-Polimeraza DNA dobudowuje nową nić, dobierając nukleotydy komplementarne do matrycy. I sprawdza swoją pracę. Jeśli wstawi zły nukleotyd, potrafi go wyciąć i poprawić. Dzięki temu, razem z innymi systemami naprawy DNA, w gotowej kopii zostaje tylko około jednego błędu na miliard nukleotydów.
-
-Ligaza na końcu skleja fragmenty nowej nici w jedną całość.
-
-## Kierunek i fragmenty Okazaki
-
-Jest jeden szczegół, który na maturze pada bardzo często. Polimeraza DNA może budować nową nić tylko w jednym kierunku: od końca pięć prim do końca trzy prim. Dołącza nukleotydy wyłącznie do końca trzy prim.
-
-A nici matrycowe są antyrównoległe, biegną w przeciwnych kierunkach. Co z tego wynika?
-
-[wolniej] Na jednej nici matrycowej polimeraza może pracować w sposób ciągły, podążając za helikazą w głąb widełek. Ta nowa nić to nić wiodąca. Na drugiej nici kierunek jest odwrotny. Polimeraza musi pracować krótkimi odcinkami, wracając za każdym razem do widełek i budując kawałek w przeciwną stronę. Te krótkie odcinki to fragmenty Okazaki, od nazwiska japońskiego badacza Reiji Okazakiego. Potem startery są usuwane, a ligaza skleja fragmenty. Ta nić to nić opóźniona.
-
-[pauza]
-
-Zatrzymaj się. Dlaczego jedna z nici powstaje we fragmentach?
+Sprawdź się. Dlaczego po pierwszym pokoleniu był tylko jeden prążek pośrodku?
 
 [pauza, dłuższa]
 
-Bo polimeraza DNA może dobudowywać nić tylko w kierunku od pięć prim do trzy prim, a nici matrycowe są antyrównoległe. Na jednej z nich kierunek syntezy jest przeciwny do kierunku rozplatania helisy, więc synteza musi przebiegać krótkimi odcinkami.
+[odpowiedź]
 
-## Telomery i starzenie się
+Bo każda nowa cząsteczka DNA miała jedną nić starą, ciężką, i jedną nową, lekką. To wyklucza model, w którym stara cząsteczka zostaje w całości.
 
-I ciekawostka, która łączy się z poprzednim odcinkiem. Na samym końcu chromosomu, na nici opóźnionej, po usunięciu ostatniego startera zostaje luka, której polimeraza nie umie wypełnić. Przy każdej replikacji chromosom trochę się skraca.
+[koniec odpowiedzi]
 
-Dlatego na końcach chromosomów są telomery: powtarzalne sekwencje, które nie zawierają genów. Mogą się skracać bez szkody. Ale po kilkudziesięciu podziałach telomery robią się bardzo krótkie i komórka przestaje się dzielić. To jeden z mechanizmów starzenia.
+## Ekipa enzymów
 
-Niektóre komórki, na przykład macierzyste i komórki nowotworowe, mają enzym telomerazę, który odbudowuje telomery. Dlatego komórki nowotworowe mogą dzielić się bez końca.
+Helikaza rozplata helisę, zrywając wiązania wodorowe. Powstają widełki replikacyjne.
+
+Prymaza dokłada krótki starter z RNA, bo polimeraza DNA nie umie zacząć nici od zera.
+
+Polimeraza DNA dobudowuje nową nić, dobierając nukleotydy komplementarne do matrycy, i poprawia swoje błędy.
+
+Ligaza skleja fragmenty nowej nici w całość.
+
+[pytanie: enzymy]
+
+Sprawdź się. Który enzym rozplata podwójną helisę, a który skleja fragmenty nici?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Rozplata helikaza, a skleja ligaza.
+
+[koniec odpowiedzi]
+
+## Nić wiodąca i opóźniona
+
+Polimeraza DNA buduje nić tylko w kierunku od końca pięć prim do trzy prim. A nici matrycowe są antyrównoległe.
+
+Na jednej nici polimeraza jedzie za widełkami i buduje bez przerw. To nić wiodąca. Na drugiej musi jechać w przeciwną stronę, więc buduje krótkie fragmenty, nazywane fragmentami Okazaki, które ligaza potem skleja. To nić opóźniona.
+
+[pytanie: fragmenty]
+
+Sprawdź się. Dlaczego jedna z nowych nici powstaje we fragmentach?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Bo polimeraza buduje tylko od pięć prim do trzy prim, a nici matrycowe są antyrównoległe. Na jednej z nich kierunek syntezy jest przeciwny do ruchu widełek.
+
+[koniec odpowiedzi]
+
+## Telomery
+
+Na końcu chromosomu, po usunięciu ostatniego startera, zostaje luka, której polimeraza nie wypełni. Chromosom skraca się przy każdym podziale. Dlatego na końcach są telomery bez genów. Po kilkudziesięciu podziałach są za krótkie i komórka przestaje się dzielić.
+
+Komórki macierzyste i nowotworowe mają telomerazę, która odbudowuje telomery. Dlatego komórki nowotworowe mogą dzielić się bez końca.
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Trzy rzeczy. Doświadczenie Meselsona i Stahla: interpretacja wyników i wykluczenie modeli. Role enzymów: helikaza, prymaza, polimeraza, ligaza. I nić wiodąca kontra opóźniona, z wyjaśnieniem przez kierunek pięć prim do trzy prim. Uwaga na pułapkę: polimeraza czyta matrycę od trzy prim do pięć prim, a nową nić buduje od pięć prim do trzy prim.
+Interpretacja doświadczenia Meselsona i Stahla. Role helikazy, prymazy, polimerazy i ligazy. Nić wiodąca i opóźniona.
 
-## Na spokojnie
+[pytanie: telomeraza]
 
-[muzyka, cicho]
+Ostatnie pytanie. Dlaczego komórki nowotworowe mogą dzielić się bez końca?
 
-Podsumujmy. Replikacja jest semikonserwatywna, co udowodnili Meselson i Stahl, używając ciężkiego azotu i wirowania. Helikaza rozplata, prymaza dokłada starter, polimeraza buduje nić od pięć prim do trzy prim i poprawia błędy, ligaza skleja fragmenty. Nić wiodąca powstaje w sposób ciągły, opóźniona we fragmentach Okazaki. Telomery chronią końce chromosomów przed skracaniem.
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Bo mają aktywną telomerazę, która odbudowuje telomery skracane przy każdym podziale.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: gdyby Meselson i Stahl zbadali DNA po trzecim pokoleniu na lekkim azocie, co by zobaczyli?
-
-[pauza, dłuższa]
-
-Dwa prążki: pośredni i lekki. Ale lekki byłby grubszy, bo stanowiłby trzy czwarte DNA, a pośredni tylko jedną czwartą.
-
-Drugie: po co polimerazie starter?
-
-[pauza, dłuższa]
-
-Bo polimeraza DNA nie potrafi zacząć syntezy od zera. Dołącza nukleotydy tylko do istniejącego końca trzy prim, a ten koniec daje starter.
-
-Trzecie: co by się stało, gdyby w komórce nie działała ligaza?
-
-[pauza, dłuższa]
-
-Fragmenty Okazaki nie zostałyby połączone, więc nić opóźniona pozostałaby pocięta na kawałki.
-
-[pauza]
-
-W następnym odcinku zobaczymy całe życie komórki od podziału do podziału. I dowiemy się, dlaczego neuron może nie dzielić się przez sto lat, a komórka w jelicie dzieli się co kilka dni. Do usłyszenia.
+W następnym odcinku cykl komórkowy: dlaczego neuron nie dzieli się nigdy, a komórka jelita co kilka dni. Do usłyszenia.
 
 [muzyka, wyciszenie]

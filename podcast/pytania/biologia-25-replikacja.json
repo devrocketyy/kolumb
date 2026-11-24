@@ -1,0 +1,9 @@
+{
+  "odcinek": "biologia-25-replikacja",
+  "pytania": [
+    {"id": "meselson", "typ": "abcd", "pytanie": "Po jednym pokoleniu na lekkim azocie DNA dało jeden prążek pośrodku. Co z tego wynika?", "odpowiedzi": ["Każda cząsteczka ma jedną nić starą i jedną nową", "Stara cząsteczka zostaje w całości", "DNA powstaje całkowicie od nowa", "Bakterie nie wbudowały azotu"], "poprawna": 0, "wyjasnienie": "Replikacja jest semikonserwatywna."},
+    {"id": "enzymy", "typ": "laczenie", "polecenie": "Połącz enzym z jego rolą w replikacji.", "pary": [["Helikaza", "rozplata helisę"], ["Prymaza", "dokłada starter z RNA"], ["Polimeraza DNA", "dobudowuje nową nić"], ["Ligaza", "skleja fragmenty nici"]], "wyjasnienie": "Polimeraza DNA nie zaczyna nici od zera — potrzebuje startera."},
+    {"id": "fragmenty", "typ": "abcd", "pytanie": "Dlaczego nić opóźniona powstaje we fragmentach?", "odpowiedzi": ["Polimeraza buduje tylko 5'→3', a nici matrycowe są antyrównoległe", "Brakuje nukleotydów", "Helikaza rozplata tylko jedną nić", "Ligaza przecina nową nić"], "poprawna": 0, "wyjasnienie": "Na jednej nici kierunek syntezy jest przeciwny do ruchu widełek."},
+    {"id": "telomeraza", "typ": "abcd", "pytanie": "Dlaczego komórki nowotworowe mogą dzielić się bez końca?", "odpowiedzi": ["Mają aktywną telomerazę odbudowującą telomery", "Nie mają telomerów", "Nie replikują DNA", "Mają więcej chromosomów"], "poprawna": 0, "wyjasnienie": "Zwykłe komórki tracą fragment telomerów przy każdym podziale."}
+  ]
+}

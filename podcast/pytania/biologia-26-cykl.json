@@ -1,0 +1,9 @@
+{
+  "odcinek": "biologia-26-cykl",
+  "pytania": [
+    {"id": "fazy", "typ": "laczenie", "polecenie": "Połącz fazę cyklu z tym, co się w niej dzieje.", "pary": [["G1", "wzrost i praca komórki"], ["S", "replikacja DNA"], ["G2", "sprawdzenie kopii i przygotowanie do podziału"], ["G0", "spoczynek poza cyklem"]], "wyjasnienie": "Interfaza: rośnij, kopiuj, sprawdź."},
+    {"id": "zapis", "typ": "abcd", "pytanie": "Komórka ma zapis 2n 4c. W jakiej fazie może się znajdować?", "odpowiedzi": ["W G2 lub na początku mitozy", "W G1", "Tuż po mitozie", "W gamecie"], "poprawna": 0, "wyjasnienie": "Po replikacji DNA jest dwa razy więcej, a chromosomów tyle samo."},
+    {"id": "g1", "typ": "abcd", "pytanie": "Ile chromatyd ma komórka ciała człowieka w fazie G1?", "odpowiedzi": ["46", "92", "23", "184"], "poprawna": 0, "wyjasnienie": "W G1 każdy z 46 chromosomów ma jedną chromatydę."},
+    {"id": "g0", "typ": "abcd", "pytanie": "W jakiej fazie jest dojrzały neuron, który się nie dzieli?", "odpowiedzi": ["G0", "S", "G2", "M"], "poprawna": 0, "wyjasnienie": "G0 to stan spoczynku poza cyklem komórkowym."}
+  ]
+}
