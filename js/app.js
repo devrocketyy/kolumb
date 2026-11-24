@@ -2615,8 +2615,8 @@ async function viewOdcinek(klucz) {
     <section class="pod-hero2">
       <div class="pod-cover" aria-hidden="true">
         <svg class="pod-star" viewBox="6 21 33 33"><path d="M22.28,22.44 Q24.08,35.64 37.28,37.44 Q24.08,39.24 22.28,52.44 Q20.48,39.24 7.28,37.44 Q20.48,35.64 22.28,22.44Z" fill="currentColor"/></svg>
-        <span class="pod-cover-nr">${o.nr}</span>
         <span class="pod-cover-sub">${esc(s.nazwa)}</span>
+        <span class="pod-cover-nr"><small>odcinek</small>${o.nr}</span>
       </div>
       <p class="eyebrow">Podcast · odcinek ${o.nr} · ${n.min} min</p>
       <h1 class="pod-title">${esc(o.tytul)}</h1>
@@ -2637,7 +2637,11 @@ async function viewOdcinek(klucz) {
         <button type="button" class="pod-play" id="pod-play" aria-label="Odtwórz">${ICONS.play}</button>
         <button type="button" class="pod-skip" data-skok="15" aria-label="Do przodu 15 sekund">+15</button>
       </div>
-      <button type="button" class="pod-speed" id="pod-speed">Tempo 1×</button>
+      <div class="pod-extra">
+        <label class="pod-vol"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          <input type="range" id="pod-vol" min="0" max="1" step="0.05" value="${pod.glosnosc ?? 1}" aria-label="Głośność"></label>
+        <button type="button" class="pod-speed" id="pod-speed">Tempo 1×</button>
+      </div>
       ${ile ? `<p class="pod-stan" id="pod-stan">Pytania: ${Object.keys(pod.wyniki).length}/${ile} · dobrze: ${dobre}</p>` : ''}
     </section>
     <div id="pod-karta"></div>
@@ -2670,6 +2674,9 @@ async function viewOdcinek(klucz) {
   const przewin = (ev) => { const r = bar.getBoundingClientRect(); if (audio.duration) audio.currentTime = Math.min(1, Math.max(0, (ev.clientX - r.left) / r.width)) * audio.duration; };
   bar.addEventListener('click', przewin);
   bar.addEventListener('keydown', (ev) => { if (ev.key === 'ArrowRight') audio.currentTime += 5; if (ev.key === 'ArrowLeft') audio.currentTime -= 5; });
+  const vol = app.querySelector('#pod-vol');
+  audio.volume = pod.glosnosc ?? 1;
+  vol.addEventListener('input', () => { audio.volume = Number(vol.value); pod.glosnosc = audio.volume; });
   const tempa = [1, 1.25, 1.5, 0.85];
   app.querySelector('#pod-speed').addEventListener('click', (ev) => {
     const i = (tempa.indexOf(audio.playbackRate) + 1) % tempa.length;

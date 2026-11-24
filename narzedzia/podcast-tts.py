@@ -13,7 +13,7 @@ Wymaga ffmpeg. Chirp 3 HD nie obsługuje SSML, więc pauzy to wstawiona cisza.
 import base64, hashlib, json, os, re, subprocess, sys, tempfile, urllib.request
 
 PAUZY = {'pauza': 1.2, 'pauza, dłuższa': 6.0, 'muzyka': 2.0}
-TEMPO, TEMPO_WOLNIEJ = 0.95, 0.85
+TEMPO, TEMPO_WOLNIEJ = 1.0, 0.9  # naturalne tempo; uczeń może zwolnić w odtwarzaczu
 KLUCZ = os.environ.get('GOOGLE_TTS_KEY', 'x')  # 'x' — w środowisku Claude prawdziwy klucz wstawia proxy
 
 
@@ -90,8 +90,13 @@ def main():
         if k[0] == 'cisza':
             cisza(k[1], plik)
         else:
-            mow(k[1], glos, k[2], plik)
-            cisza(0.45, plik + '.c.wav')  # oddech między akapitami
+            surowy = plik + '.raw.wav'
+            mow(k[1], glos, k[2], surowy)
+            # łagodne wejście i wyjście każdego fragmentu — bez trzasków i „ucięć” na sklejeniach
+            d = dlugosc(surowy)
+            subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', surowy, '-af',
+                            f'afade=t=in:d=0.03,afade=t=out:st={max(0, d - 0.08):.2f}:d=0.08', plik], check=True)
+            cisza(0.6, plik + '.c.wav')  # oddech między akapitami
             czesci.append(plik); t += dlugosc(plik)
             plik = plik + '.c.wav'
         czesci.append(plik); t += dlugosc(plik)
@@ -99,8 +104,10 @@ def main():
     lista = os.path.join(tmp, 'lista.txt')
     open(lista, 'w').write(''.join(f"file '{p}'\n" for p in czesci))
     mp3 = f'podcast/mp3/{nazwa}.mp3'
+    # wyrównana głośność (standard podcastów: -16 LUFS), łagodne wyciszenie na końcu, lepsza jakość MP3
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', lista,
-                    '-c:a', 'libmp3lame', '-b:a', '64k', '-ac', '1', mp3], check=True)
+                    '-af', f'loudnorm=I=-16:TP=-1.5:LRA=11,afade=t=out:st={max(0, t - 1.5):.2f}:d=1.5',
+                    '-ar', '44100', '-c:a', 'libmp3lame', '-b:a', '96k', '-ac', '1', mp3], check=True)
     json.dump({'odcinek': nazwa, 'glos': glos, 'dlugosc': round(t, 1), 'pytania': znaczniki},
               open(f'podcast/mp3/{nazwa}.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(f'\n{mp3}: {t / 60:.1f} min, pytań: {len(znaczniki)}')
