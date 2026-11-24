@@ -52,6 +52,17 @@
    "tytul": "Rozszczepienie uranu",
    "zadania": [
     {
+     "nr": "2.1",
+     "punkty": 1,
+     "polecenie": "Uzupełnij równanie rozszczepienia ²³⁵U, w którym powstają ⁹²Kr i ¹⁴¹Ba.",
+     "odpowiedz": "²³⁵₉₂U + ¹₀n → ⁹²₃₆Kr + ¹⁴¹₅₆Ba + 3 ¹₀n",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Masa: 236 = 92 + 141 + 3; ładunek: 92 = 36 + 56.",
+     "dzialy": [
+      "atom"
+     ]
+    },
+    {
      "nr": "2.2",
      "punkty": 1,
      "polecenie": "²³⁵U + n → ⁹³Sr + X + 3n: wskaż jądro X (¹³⁹I / ¹⁴⁰Xe / ¹⁴⁰Ba) i jądro o większym stosunku n/p (²³⁵U / ⁹³Sr).",
@@ -381,6 +392,17 @@
      ]
     },
     {
+     "nr": "17.2",
+     "punkty": 1,
+     "polecenie": "Kamfen: uzupełnij produkty addycji HBr (zgodnie z regułą Markownikowa) i H₂O (niezgodnie z regułą).",
+     "odpowiedz": "HBr: Br przyłącza się do węgla bardziej podstawionego (dawny C=, związany z pierścieniem); H₂O: grupa –OH na końcowym węglu (CH₂OH)",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Markownikow: H do węgla bogatszego w wodór. Anty-Markownikow — odwrotnie.",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
      "nr": "18",
      "punkty": 1,
      "polecenie": "Typ i mechanizm reakcji p-ksylenu z Br₂: w świetle oraz z Fe.",
@@ -525,6 +547,17 @@
      "odpowiedz": "P, P",
      "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
      "omowienie": "Fenolowa –OH jest kwasowa, alkoholowa — praktycznie nie. Alkoholowa –OH jest II-rzędowa → keton.",
+     "dzialy": [
+      "azotowe-cukry"
+     ]
+    },
+    {
+     "nr": "27.2",
+     "punkty": 1,
+     "polecenie": "Z HCl reaguje fragment oktopaminy (A / B / C); fragment A (uległ / nie uległ) reakcji z FeCl₃.",
+     "odpowiedz": "B; uległ",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "B — grupa aminowa (zasadowa) reaguje z kwasem; A — fenolowa –OH daje barwny związek z Fe³⁺.",
      "dzialy": [
       "azotowe-cukry"
      ]
