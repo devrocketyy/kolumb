@@ -239,5 +239,23 @@ export const NAGRANIA_AUTO = {
   "min": 4,
   "czasy": "podcast/mp3/biologia-40-mutacje.json",
   "pytania": "podcast/pytania/biologia-40-mutacje.json"
+ },
+ "biologia/p/b-choroby-genetyczne": {
+  "plik": "podcast/mp3/biologia-41-choroby-genetyczne.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-41-choroby-genetyczne.json",
+  "pytania": "podcast/pytania/biologia-41-choroby-genetyczne.json"
+ },
+ "biologia/d/genetyka": {
+  "plik": "podcast/mp3/biologia-42-powtorka-genetyka.mp3",
+  "min": 3,
+  "czasy": "podcast/mp3/biologia-42-powtorka-genetyka.json",
+  "pytania": "podcast/pytania/biologia-42-powtorka-genetyka.json"
+ },
+ "biologia/p/b-biotech-tradycyjna": {
+  "plik": "podcast/mp3/biologia-43-biotech-tradycyjna.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-43-biotech-tradycyjna.json",
+  "pytania": "podcast/pytania/biologia-43-biotech-tradycyjna.json"
  }
 };
