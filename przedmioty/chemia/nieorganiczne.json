@@ -1,0 +1,827 @@
+{
+ "id": "nieorganiczne",
+ "nazwa": "Związki nieorganiczne, metale i niemetale",
+ "opis": "Tlenki, wodorotlenki, kwasy, sole, metale i niemetale, zastosowania.",
+ "poddzialy": [
+  {
+   "id": "c-tlenki",
+   "nazwa": "Tlenki i wodorki, charakter chemiczny, amfoteryczność",
+   "opis": "Wymaganie VII.1–3 podstawy programowej.",
+   "wymaganie": "VII.1–3",
+   "fiszki": [
+    {
+     "id": "facdd5895",
+     "przod": "Wyjaśnij pojęcie: tlenek",
+     "tyl": "Dwuskładnikowy związek pierwiastka z tlenem na −II stopniu utlenienia, np. CaO, SO₂, Fe₂O₃.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.1–3"
+    },
+    {
+     "id": "f659ba659",
+     "przod": "Tlenki zasadowe",
+     "tyl": "Tlenki metali (głównie 1. i 2. grupy i metali na niskich stopniach utlenienia), które reagują z kwasami; z wodą tworzą wodorotlenki, np. CaO + H₂O → Ca(OH)₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.1–3"
+    },
+    {
+     "id": "fd8a0f79a",
+     "przod": "Tlenki kwasowe",
+     "tyl": "Tlenki niemetali (i metali na wysokich stopniach utlenienia, np. CrO₃, Mn₂O₇), które reagują z zasadami; z wodą tworzą kwasy, np. SO₃ + H₂O → H₂SO₄.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.1–3"
+    },
+    {
+     "id": "f3a7c06b3",
+     "przod": "Tlenki amfoteryczne",
+     "tyl": "Tlenki reagujące i z kwasami, i z mocnymi zasadami, np. Al₂O₃, ZnO, Cr₂O₃, BeO, PbO, SnO.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.1–3"
+    },
+    {
+     "id": "fda4d71d2",
+     "przod": "Tlenki obojętne",
+     "tyl": "Tlenki niereagujące ani z kwasami, ani z zasadami, ani z wodą, np. CO, NO, N₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.1–3"
+    },
+    {
+     "id": "f19b32c96",
+     "przod": "ZnO z NaOH — równanie",
+     "tyl": "ZnO + 2NaOH + H₂O → Na₂[Zn(OH)₄] (tetrahydroksocynkan sodu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.1–3"
+    },
+    {
+     "id": "f1cc6808e",
+     "przod": "Al₂O₃ z NaOH — równanie",
+     "tyl": "Al₂O₃ + 2NaOH + 3H₂O → 2Na[Al(OH)₄] (tetrahydroksoglinian sodu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.1–3"
+    },
+    {
+     "id": "f024c0013",
+     "przod": "Charakter tlenków chromu zależnie od stopnia utlenienia",
+     "tyl": "CrO — zasadowy, Cr₂O₃ — amfoteryczny, CrO₃ — kwasowy: im wyższy stopień utlenienia, tym bardziej kwasowy charakter.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.1–3"
+    },
+    {
+     "id": "fc6c534ad",
+     "przod": "Wyjaśnij pojęcie: wodorek",
+     "tyl": "Związek pierwiastka z wodorem, np. NaH (wodorek jonowy, H na −I), NH₃, H₂O, HCl, CH₄ (kowalencyjne).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.1–3"
+    },
+    {
+     "id": "f3b434f80",
+     "przod": "Wodorki metali 1. i 2. grupy z wodą",
+     "tyl": "Reagują z wydzieleniem wodoru, tworząc zasadę: NaH + H₂O → NaOH + H₂↑.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.1–3"
+    },
+    {
+     "id": "f8d7e27eb",
+     "przod": "Charakter chemiczny wodorków w okresie",
+     "tyl": "Wodorki metali zasadowe (NaH), w środku obojętne (CH₄), wodorki niemetali grup 16–17 dają kwasy (H₂S, HCl).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.1–3"
+    },
+    {
+     "id": "f366b78c0",
+     "przod": "Jak doświadczalnie wykazać amfoteryczność tlenku lub wodorotlenku?",
+     "tyl": "Pokazać, że roztwarza się zarówno w kwasie (np. HCl), jak i w mocnej zasadzie (np. NaOH).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.1–3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p08d42d83",
+     "pytanie": "Który tlenek jest amfoteryczny?",
+     "odpowiedzi": [
+      "NO",
+      "ZnO",
+      "CaO",
+      "CO₂"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Reaguje z kwasami i zasadami.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb093331b",
+     "pytanie": "Który tlenek jest obojętny?",
+     "odpowiedzi": [
+      "Al₂O₃",
+      "CO",
+      "SO₂",
+      "Na₂O"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Nie reaguje z kwasami ani zasadami.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pda25519e",
+     "pytanie": "CrO₃ ma charakter:",
+     "odpowiedzi": [
+      "amfoteryczny",
+      "obojętny",
+      "kwasowy",
+      "zasadowy"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wysoki stopień utlenienia (+VI).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5f74f706",
+     "pytanie": "Produktem reakcji NaH z wodą jest:",
+     "odpowiedzi": [
+      "NaO i H₂",
+      "tylko NaOH",
+      "NaOH i H₂",
+      "Na i H₂O₂"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wodorek jonowy z wodą daje wodór.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-wodorotlenki-kwasy",
+   "nazwa": "Wodorotlenki i kwasy",
+   "opis": "Wymaganie VII.4–6 podstawy programowej.",
+   "wymaganie": "VII.4–6",
+   "fiszki": [
+    {
+     "id": "f091fce6e",
+     "przod": "Wyjaśnij pojęcie: wodorotlenek",
+     "tyl": "Związek metalu (lub NH₄⁺ w roztworze) z grupą(-ami) OH, np. NaOH, Ca(OH)₂, Fe(OH)₃.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "f59d47e30",
+     "przod": "Wyjaśnij pojęcie: zasada",
+     "tyl": "Wodorotlenek rozpuszczalny w wodzie (lub roztwór substancji dającej jony OH⁻), np. NaOH, KOH, Ca(OH)₂, Ba(OH)₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "fd76f4900",
+     "przod": "Otrzymywanie wodorotlenków nierozpuszczalnych",
+     "tyl": "Reakcja soli rozpuszczalnej z mocną zasadą, np. CuSO₄ + 2NaOH → Cu(OH)₂↓ + Na₂SO₄.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "f719d0c06",
+     "przod": "Otrzymywanie zasad",
+     "tyl": "Metal aktywny + woda (2Na + 2H₂O → 2NaOH + H₂) albo tlenek zasadowy + woda (CaO + H₂O → Ca(OH)₂).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "fde354dbd",
+     "przod": "Wodorotlenki amfoteryczne",
+     "tyl": "Al(OH)₃, Zn(OH)₂, Cr(OH)₃, Pb(OH)₂, Sn(OH)₂ — roztwarzają się w kwasach i mocnych zasadach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "fcec5f2e8",
+     "przod": "Zn(OH)₂ z NaOH — równanie",
+     "tyl": "Zn(OH)₂ + 2NaOH → Na₂[Zn(OH)₄].",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "f3686e446",
+     "przod": "Al(OH)₃ z HCl — równanie",
+     "tyl": "Al(OH)₃ + 3HCl → AlCl₃ + 3H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "fa52baefa",
+     "przod": "Rozkład termiczny wodorotlenków",
+     "tyl": "Wodorotlenki (poza 1. grupą) rozkładają się po ogrzaniu na tlenek i wodę, np. Cu(OH)₂ → CuO + H₂O (czarny osad).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "f8185019f",
+     "przod": "Wyjaśnij pojęcie: kwas tlenowy i beztlenowy",
+     "tyl": "Tlenowy zawiera tlen (H₂SO₄, HNO₃, H₃PO₄), beztlenowy — nie (HCl, H₂S, HBr).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "f805a69b8",
+     "przod": "Otrzymywanie kwasów tlenowych",
+     "tyl": "Tlenek kwasowy + woda, np. P₄O₁₀ + 6H₂O → 4H₃PO₄; albo mocniejszy kwas + sól słabszego (lotniejszego) kwasu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "fa0266dd4",
+     "przod": "Moc kwasów tlenowych pierwiastka na różnych stopniach utlenienia",
+     "tyl": "Rośnie wraz ze stopniem utlenienia atomu centralnego: HClO < HClO₂ < HClO₃ < HClO₄; H₂SO₃ < H₂SO₄.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "f8fed27fe",
+     "przod": "Typowe kwasy mocne",
+     "tyl": "HCl, HBr, HI, HNO₃, H₂SO₄, HClO₄.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "f0c994285",
+     "przod": "Typowe kwasy słabe",
+     "tyl": "HF, H₂S, H₂CO₃, H₂SO₃, H₃PO₄ (średniej mocy), HNO₂, kwasy karboksylowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "fefdbf79d",
+     "przod": "Właściwości stężonego H₂SO₄",
+     "tyl": "Silnie higroskopijny (odwadniający — zwęgla cukier), utleniający (reaguje z Cu z wydzieleniem SO₂), pasywuje Fe i Al na zimno.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "fef689c17",
+     "przod": "Właściwości HNO₃",
+     "tyl": "Silny utleniacz: z miedzią rozcieńczony daje NO, stężony — NO₂ (brunatny gaz); pasywuje Fe, Al, Cr; z białkami daje reakcję ksantoproteinową.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "fc1349a9d",
+     "przod": "Podaj nazwę pojęcia: Związek metalu (lub NH₄⁺ w roztworze) z grupą(-ami) OH, np. NaOH, Ca(OH)₂, Fe(OH)₃.",
+     "tyl": "wodorotlenek",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "f169c4cf5",
+     "przod": "Podaj nazwę pojęcia: Wodorotlenek rozpuszczalny w wodzie (lub roztwór substancji dającej jony OH⁻), np. NaOH, KOH, Ca(OH)₂, Ba(OH)₂.",
+     "tyl": "zasada",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "fc84bc12e",
+     "przod": "Rozpoznaj: Reakcja soli rozpuszczalnej z mocną zasadą, np. CuSO₄ + 2NaOH → Cu(OH)₂↓ + Na₂SO₄.",
+     "tyl": "Otrzymywanie wodorotlenków nierozpuszczalnych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "f7e41e2c3",
+     "przod": "Rozpoznaj: Al(OH)₃, Zn(OH)₂, Cr(OH)₃, Pb(OH)₂, Sn(OH)₂ — roztwarzają się w kwasach i mocnych zasadach.",
+     "tyl": "Wodorotlenki amfoteryczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    },
+    {
+     "id": "faab56157",
+     "przod": "Rozpoznaj: Tlenek kwasowy + woda, np. P₄O₁₀ + 6H₂O → 4H₃PO₄; albo mocniejszy kwas + sól słabszego (lotniejszego) kwasu.",
+     "tyl": "Otrzymywanie kwasów tlenowych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.4–6"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p84be1321",
+     "pytanie": "Który wodorotlenek jest amfoteryczny?",
+     "odpowiedzi": [
+      "Ca(OH)₂",
+      "NaOH",
+      "Al(OH)₃",
+      "KOH"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Reaguje z kwasami i zasadami.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7d218368",
+     "pytanie": "Najmocniejszym kwasem jest:",
+     "odpowiedzi": [
+      "HClO₄",
+      "HClO₃",
+      "HClO",
+      "HClO₂"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Najwyższy stopień utlenienia chloru (+VII).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9a5cc047",
+     "pytanie": "Produkt reakcji Cu z rozcieńczonym HNO₃ to (poza Cu(NO₃)₂ i H₂O):",
+     "odpowiedzi": [
+      "NO₂",
+      "H₂",
+      "NO",
+      "N₂"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Rozcieńczony HNO₃ redukuje się do NO.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p40ce3c52",
+     "pytanie": "Stężony H₂SO₄ zwęgla cukier, bo jest:",
+     "odpowiedzi": [
+      "utleniaczem",
+      "zasadą",
+      "katalizatorem",
+      "silnie odwadniający (higroskopijny)"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Odbiera wodór i tlen w postaci wody.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-sole",
+   "nazwa": "Sole i ich otrzymywanie",
+   "opis": "Wymaganie VII.7–9 podstawy programowej.",
+   "wymaganie": "VII.7–9",
+   "fiszki": [
+    {
+     "id": "f54d874d0",
+     "przod": "Wyjaśnij pojęcie: sól",
+     "tyl": "Związek zbudowany z kationów metalu (lub NH₄⁺) i anionów reszty kwasowej, np. NaCl, CaCO₃, (NH₄)₂SO₄.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    },
+    {
+     "id": "fb7361235",
+     "przod": "Sposoby otrzymywania soli (najważniejsze)",
+     "tyl": "Kwas + zasada; kwas + tlenek metalu; kwas + metal aktywny; tlenek kwasowy + zasada; tlenek kwasowy + tlenek zasadowy; sól + sól (osad); metal + niemetal.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    },
+    {
+     "id": "ff884cda9",
+     "przod": "Wodorosole",
+     "tyl": "Sole zawierające w anionie atomy wodoru, np. NaHCO₃ (wodorowęglan sodu), KHSO₄, NaH₂PO₄.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    },
+    {
+     "id": "f5b32f337",
+     "przod": "Hydroksosole",
+     "tyl": "Sole zawierające grupy OH obok reszty kwasowej, np. Mg(OH)Cl, (CuOH)₂CO₃.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    },
+    {
+     "id": "f12b09fc2",
+     "przod": "Sole uwodnione (hydraty)",
+     "tyl": "Sole z wodą krystalizacyjną, np. CuSO₄·5H₂O (niebieski) — po wyprażeniu bezwodny CuSO₄ jest biały.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    },
+    {
+     "id": "f5672f940",
+     "przod": "Jak wykryć wodę za pomocą CuSO₄?",
+     "tyl": "Bezwodny, biały CuSO₄ pod wpływem wody niebieszczeje (powstaje hydrat).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    },
+    {
+     "id": "f68b61f17",
+     "przod": "Rozkład termiczny węglanów",
+     "tyl": "CaCO₃ → CaO + CO₂ (ogrzewanie); wodorowęglany rozkładają się łatwiej: 2NaHCO₃ → Na₂CO₃ + H₂O + CO₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    },
+    {
+     "id": "fe0fd9413",
+     "przod": "Twardość wody",
+     "tyl": "Obecność jonów Ca²⁺ i Mg²⁺; przemijająca (wodorowęglany — usuwa się przez gotowanie: Ca(HCO₃)₂ → CaCO₃↓ + H₂O + CO₂), nieprzemijająca (siarczany, chlorki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    },
+    {
+     "id": "f0e5dfbda",
+     "przod": "Nazewnictwo: Fe₂(SO₄)₃",
+     "tyl": "Siarczan(VI) żelaza(III).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    },
+    {
+     "id": "fafe2ff7b",
+     "przod": "Nazewnictwo: KMnO₄ i K₂Cr₂O₇",
+     "tyl": "Manganian(VII) potasu oraz dichromian(VI) potasu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    },
+    {
+     "id": "f85868bc3",
+     "przod": "Typowy błąd w nazwach soli",
+     "tyl": "Pominięcie stopnia utlenienia metalu o kilku wartościowościach (FeCl₃ to chlorek żelaza(III)) lub reszty kwasowej (Na₂SO₃ to siarczan(IV) sodu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    },
+    {
+     "id": "fd2da1ac5",
+     "przod": "Podaj nazwę pojęcia: Związek zbudowany z kationów metalu (lub NH₄⁺) i anionów reszty kwasowej, np. NaCl, CaCO₃, (NH₄)₂SO₄.",
+     "tyl": "sól",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    },
+    {
+     "id": "f338c6f3b",
+     "przod": "Rozpoznaj: Sole zawierające grupy OH obok reszty kwasowej, np. Mg(OH)Cl, (CuOH)₂CO₃.",
+     "tyl": "Hydroksosole",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    },
+    {
+     "id": "f31d883a9",
+     "przod": "Rozpoznaj: Obecność jonów Ca²⁺ i Mg²⁺; przemijająca (wodorowęglany — usuwa się przez gotowanie: Ca(HCO₃)₂ → CaCO₃↓ + H₂O + CO₂), nieprzemijająca (siarczany, chlorki).",
+     "tyl": "Twardość wody",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    },
+    {
+     "id": "f91481682",
+     "przod": "Rozpoznaj: Siarczan(VI) żelaza(III).",
+     "tyl": "Nazewnictwo: Fe₂(SO₄)₃",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    },
+    {
+     "id": "fc8eebdc7",
+     "przod": "Rozpoznaj: Manganian(VII) potasu oraz dichromian(VI) potasu.",
+     "tyl": "Nazewnictwo: KMnO₄ i K₂Cr₂O₇",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VII.7–9"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pf32c78a0",
+     "pytanie": "Wodorosolą jest:",
+     "odpowiedzi": [
+      "Na₂CO₃",
+      "Na₂SO₄",
+      "NaCl",
+      "NaHCO₃"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "W anionie jest wodór.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcff763c2",
+     "pytanie": "Nazwa związku Fe(NO₃)₃ to:",
+     "odpowiedzi": [
+      "azotan(V) żelaza(III)",
+      "azotek żelaza(III)",
+      "azotan żelaza",
+      "azotan(III) żelaza(V)"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Reszta NO₃⁻ — azotan(V).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p522c0511",
+     "pytanie": "Twardość przemijającą wody usuwa się przez:",
+     "odpowiedzi": [
+      "gotowanie",
+      "zamrożenie",
+      "dodanie NaCl",
+      "filtrowanie"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Wodorowęglany rozkładają się do węglanów (kamień kotłowy).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "peec687b8",
+     "pytanie": "Bezwodny CuSO₄ pod wpływem wody:",
+     "odpowiedzi": [
+      "wydziela gaz",
+      "czernieje",
+      "niebieszczeje",
+      "odbarwia się"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Powstaje hydrat CuSO₄·5H₂O.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-metale",
+   "nazwa": "Metale i ich związki",
+   "opis": "Wymaganie X.1–8 podstawy programowej.",
+   "wymaganie": "X.1–8",
+   "fiszki": [
+    {
+     "id": "f9e8c936e",
+     "przod": "Metale 1. grupy (litowce) — reakcja z wodą",
+     "tyl": "Reagują gwałtownie, z wydzieleniem wodoru i powstaniem zasady: 2K + 2H₂O → 2KOH + H₂↑; aktywność rośnie od Li do Cs.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.1–8"
+    },
+    {
+     "id": "fc7817327",
+     "przod": "Przechowywanie sodu i potasu",
+     "tyl": "Pod warstwą nafty (parafiny) — bez dostępu powietrza i wilgoci, z którymi gwałtownie reagują.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.1–8"
+    },
+    {
+     "id": "ff84287b8",
+     "przod": "Barwienie płomienia",
+     "tyl": "Li — karminowy, Na — żółty, K — fioletowy, Ca — ceglastoczerwony, Sr — karminowy, Ba — zielony, Cu — zielononiebieski.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.1–8"
+    },
+    {
+     "id": "f91ab3cf2",
+     "przod": "Magnez i wapń z wodą",
+     "tyl": "Wapń reaguje z zimną wodą; magnez z gorącą wodą (lub parą wodną), tworząc wodorotlenek i wodór.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.1–8"
+    },
+    {
+     "id": "f4638f022",
+     "przod": "Pasywacja glinu",
+     "tyl": "Glin pokrywa się szczelną warstwą Al₂O₃, która chroni go przed dalszą korozją; stężony HNO₃ pasywuje glin.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.1–8"
+    },
+    {
+     "id": "f2f5f3556",
+     "przod": "Glin z NaOH — równanie",
+     "tyl": "2Al + 2NaOH + 6H₂O → 2Na[Al(OH)₄] + 3H₂↑.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.1–8"
+    },
+    {
+     "id": "f411d5a5d",
+     "przod": "Żelazo — stopnie utlenienia i barwy",
+     "tyl": "Fe²⁺ — bladozielone roztwory, Fe³⁺ — żółte; z HCl żelazo daje FeCl₂, z chlorem — FeCl₃.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.1–8"
+    },
+    {
+     "id": "f6a1a9198",
+     "przod": "Miedź z kwasami",
+     "tyl": "Miedź (metal szlachetny względem wodoru) nie reaguje z HCl ani rozcieńczonym H₂SO₄; reaguje z kwasami utleniającymi (HNO₃, stężony H₂SO₄).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.1–8"
+    },
+    {
+     "id": "fed8ac15a",
+     "przod": "Chrom — związki i barwy",
+     "tyl": "Cr³⁺ — zielony/fioletowy; CrO₄²⁻ (chromian) — żółty; Cr₂O₇²⁻ (dichromian) — pomarańczowy. W środowisku kwasowym 2CrO₄²⁻ + 2H⁺ ⇄ Cr₂O₇²⁻ + H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.1–8"
+    },
+    {
+     "id": "f182d88e6",
+     "przod": "Mangan — stopnie utlenienia",
+     "tyl": "Mn²⁺ (bladoróżowy), MnO₂ (brunatny, +IV), MnO₄²⁻ (zielony, +VI), MnO₄⁻ (fioletowy, +VII).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.1–8"
+    },
+    {
+     "id": "f01a3e28b",
+     "przod": "Szereg aktywności metali — zastosowanie",
+     "tyl": "Metal bardziej aktywny wypiera mniej aktywny z roztworu jego soli (Zn + CuSO₄ → ZnSO₄ + Cu); metale przed wodorem wypierają wodór z kwasów nieutleniających.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.1–8"
+    },
+    {
+     "id": "fe18bd782",
+     "przod": "Wyjaśnij pojęcie: stop metali",
+     "tyl": "Mieszanina metalu z innymi metalami lub niemetalami o zmienionych właściwościach, np. stal (Fe + C), mosiądz (Cu + Zn), brąz (Cu + Sn), duraluminium (Al + Cu + Mg).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.1–8"
+    },
+    {
+     "id": "f24da56e6",
+     "przod": "Otrzymywanie żelaza w wielkim piecu",
+     "tyl": "Redukcja tlenków żelaza tlenkiem węgla(II): Fe₂O₃ + 3CO → 2Fe + 3CO₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.1–8"
+    },
+    {
+     "id": "fceae34c5",
+     "przod": "Rozpoznaj: Pod warstwą nafty (parafiny) — bez dostępu powietrza i wilgoci, z którymi gwałtownie reagują.",
+     "tyl": "Przechowywanie sodu i potasu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.1–8"
+    },
+    {
+     "id": "ffabb16fb",
+     "przod": "Rozpoznaj: Li — karminowy, Na — żółty, K — fioletowy, Ca — ceglastoczerwony, Sr — karminowy, Ba — zielony, Cu — zielononiebieski.",
+     "tyl": "Barwienie płomienia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.1–8"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p389596b5",
+     "pytanie": "Jony potasu barwią płomień na kolor:",
+     "odpowiedzi": [
+      "żółty",
+      "ceglastoczerwony",
+      "fioletowy",
+      "zielony"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Na — żółty, K — fioletowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p19bf5e1a",
+     "pytanie": "Który metal NIE wypiera wodoru z kwasu solnego?",
+     "odpowiedzi": [
+      "Fe",
+      "Mg",
+      "Zn",
+      "Cu"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Miedź stoi za wodorem w szeregu aktywności.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p127211b0",
+     "pytanie": "Zanurzenie płytki cynkowej w roztworze CuSO₄ spowoduje:",
+     "odpowiedzi": [
+      "osadzenie się miedzi na cynku i odbarwianie roztworu",
+      "wydzielenie wodoru",
+      "brak zmian",
+      "osadzenie cynku"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Zn jest aktywniejszy od Cu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pad00e5d2",
+     "pytanie": "Pomarańczowe zabarwienie roztworu pochodzi od jonów:",
+     "odpowiedzi": [
+      "MnO₄⁻",
+      "Cu²⁺",
+      "Cr₂O₇²⁻",
+      "CrO₄²⁻"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Dichromian(VI).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-niemetale",
+   "nazwa": "Niemetale, ich związki i zastosowania",
+   "opis": "Wymaganie X.9–16, XI podstawy programowej.",
+   "wymaganie": "X.9–16, XI",
+   "fiszki": [
+    {
+     "id": "fc4810347",
+     "przod": "Otrzymywanie wodoru w laboratorium",
+     "tyl": "Reakcja metalu aktywnego z kwasem nieutleniającym: Zn + 2HCl → ZnCl₂ + H₂↑.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "f7e3d65fe",
+     "przod": "Otrzymywanie tlenu w laboratorium",
+     "tyl": "Rozkład termiczny KMnO₄ lub rozkład H₂O₂ z katalizatorem MnO₂: 2H₂O₂ → 2H₂O + O₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "fa3bc7294",
+     "przod": "Ozon",
+     "tyl": "Odmiana alotropowa tlenu O₃; w stratosferze pochłania promieniowanie UV, przy powierzchni Ziemi jest zanieczyszczeniem (smog fotochemiczny).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "f75f78fa5",
+     "przod": "Odmiany alotropowe węgla",
+     "tyl": "Diament, grafit, fulereny, grafen (i nanorurki) — różnią się budową sieci i właściwościami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "f7428c5f2",
+     "przod": "Amoniak — otrzymywanie i właściwości",
+     "tyl": "Synteza N₂ + 3H₂ ⇄ 2NH₃ (Habera–Boscha); bezbarwny gaz o ostrym zapachu, bardzo dobrze rozpuszczalny w wodzie, roztwór ma odczyn zasadowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "f4a6e6a5e",
+     "przod": "Tlenki azotu",
+     "tyl": "NO — bezbarwny, utlenia się na powietrzu do NO₂; NO₂ — brunatny, trujący, kwasowy (z wodą daje HNO₃ i HNO₂).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "faf09b1ed",
+     "przod": "Siarka i jej tlenki",
+     "tyl": "SO₂ — bezbarwny gaz o duszącym zapachu, z wodą daje H₂SO₃ (kwaśne deszcze); SO₃ — z wodą daje H₂SO₄.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "fa456a867",
+     "przod": "Otrzymywanie kwasu siarkowego(VI) metodą kontaktową",
+     "tyl": "S → SO₂ → SO₃ (katalizator V₂O₅) → H₂SO₄ (pochłanianie SO₃ w stężonym kwasie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "fc8a2dd70",
+     "przod": "Chlor — otrzymywanie w laboratorium",
+     "tyl": "Utlenianie HCl, np. MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O; albo KMnO₄ z HCl.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "f62258509",
+     "przod": "Woda chlorowa i bromowa",
+     "tyl": "Chlor z wodą: Cl₂ + H₂O ⇄ HCl + HClO; HClO ma właściwości bielące i bakteriobójcze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "f6abbd505",
+     "przod": "Wypieranie fluorowców",
+     "tyl": "Bardziej aktywny fluorowiec wypiera mniej aktywny z soli: Cl₂ + 2KBr → 2KCl + Br₂ (roztwór brunatnieje).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "f2a78bdc2",
+     "przod": "Krzem i krzemionka",
+     "tyl": "SiO₂ — kryształ kowalencyjny (kwarc, piasek), surowiec do szkła; krzem — półprzewodnik w elektronice.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "f9a9da022",
+     "przod": "Zastosowania wybranych związków nieorganicznych",
+     "tyl": "NaCl (przyprawa, przemysł chloru), CaCO₃ (budownictwo, wapno), NaHCO₃ (proszek do pieczenia), H₂SO₄ (nawozy, akumulatory), NH₃ (nawozy), gips CaSO₄·2H₂O (budownictwo, medycyna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "fcd679de0",
+     "przod": "Gaszenie i twardnienie wapna",
+     "tyl": "CaO + H₂O → Ca(OH)₂ (gaszenie, silnie egzotermiczne); zaprawa wapienna twardnieje: Ca(OH)₂ + CO₂ → CaCO₃ + H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "fc1ce51ce",
+     "przod": "Rozpoznaj: Reakcja metalu aktywnego z kwasem nieutleniającym: Zn + 2HCl → ZnCl₂ + H₂↑.",
+     "tyl": "Otrzymywanie wodoru w laboratorium",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "f776f5ce2",
+     "przod": "Rozpoznaj: Rozkład termiczny KMnO₄ lub rozkład H₂O₂ z katalizatorem MnO₂: 2H₂O₂ → 2H₂O + O₂.",
+     "tyl": "Otrzymywanie tlenu w laboratorium",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "f7bfde9df",
+     "przod": "Rozpoznaj: Odmiana alotropowa tlenu O₃; w stratosferze pochłania promieniowanie UV, przy powierzchni Ziemi jest zanieczyszczeniem (smog fotochemiczny).",
+     "tyl": "Ozon",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "fc7ccd990",
+     "przod": "Rozpoznaj: Diament, grafit, fulereny, grafen (i nanorurki) — różnią się budową sieci i właściwościami.",
+     "tyl": "Odmiany alotropowe węgla",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "f121651f0",
+     "przod": "Rozpoznaj: NO — bezbarwny, utlenia się na powietrzu do NO₂; NO₂ — brunatny, trujący, kwasowy (z wodą daje HNO₃ i HNO₂).",
+     "tyl": "Tlenki azotu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "f67f4356c",
+     "przod": "Rozpoznaj: SO₂ — bezbarwny gaz o duszącym zapachu, z wodą daje H₂SO₃ (kwaśne deszcze); SO₃ — z wodą daje H₂SO₄.",
+     "tyl": "Siarka i jej tlenki",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "f17e3ecc2",
+     "przod": "Rozpoznaj: S → SO₂ → SO₃ (katalizator V₂O₅) → H₂SO₄ (pochłanianie SO₃ w stężonym kwasie).",
+     "tyl": "Otrzymywanie kwasu siarkowego(VI) metodą kontaktową",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    },
+    {
+     "id": "fb08c970b",
+     "przod": "Rozpoznaj: NaCl (przyprawa, przemysł chloru), CaCO₃ (budownictwo, wapno), NaHCO₃ (proszek do pieczenia), H₂SO₄ (nawozy, akumulatory), NH₃ (nawozy), gips CaSO₄·2H₂O (budownictwo, medycyna).",
+     "tyl": "Zastosowania wybranych związków nieorganicznych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. X.9–16, XI"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p28079b43",
+     "pytanie": "Który gaz jest brunatny?",
+     "odpowiedzi": [
+      "CO₂",
+      "NO₂",
+      "NO",
+      "SO₂"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Tlenek azotu(IV).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p58ada720",
+     "pytanie": "Woda chlorowa dodana do roztworu KI spowoduje:",
+     "odpowiedzi": [
+      "wydzielanie gazu",
+      "osad AgI",
+      "brunatnienie roztworu (wydziela się jod)",
+      "brak zmian"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Cl₂ wypiera I₂.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p846b4b2e",
+     "pytanie": "Katalizatorem utleniania SO₂ do SO₃ w metodzie kontaktowej jest:",
+     "odpowiedzi": [
+      "V₂O₅",
+      "Fe",
+      "MnO₂",
+      "Pt"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Tlenek wanadu(V).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0e48ff81",
+     "pytanie": "Twardnienie zaprawy wapiennej to reakcja:",
+     "odpowiedzi": [
+      "CaO + H₂O",
+      "CaSO₄ + H₂O",
+      "Ca(OH)₂ + CO₂ → CaCO₃ + H₂O",
+      "CaCO₃ → CaO + CO₂"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wiązanie CO₂ z powietrza.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

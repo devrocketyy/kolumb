@@ -1,0 +1,627 @@
+{
+ "id": "redoks",
+ "nazwa": "Redoks i elektrochemia",
+ "opis": "Stopnie utlenienia, bilansowanie redoks, ogniwa, elektroliza i korozja.",
+ "poddzialy": [
+  {
+   "id": "c-stopnie",
+   "nazwa": "Stopnie utlenienia, utleniacz i reduktor",
+   "opis": "Wymaganie VIII.1–3 podstawy programowej.",
+   "wymaganie": "VIII.1–3",
+   "fiszki": [
+    {
+     "id": "fb6c4f583",
+     "przod": "Wyjaśnij pojęcie: stopień utlenienia",
+     "tyl": "Umowny ładunek atomu w związku, obliczony przy założeniu, że wszystkie wiązania są jonowe (elektrony przypisane atomowi bardziej elektroujemnemu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "f3457cf5f",
+     "przod": "Zasady ustalania stopni utlenienia",
+     "tyl": "Pierwiastek wolny — 0; suma w cząsteczce — 0, w jonie — ładunek jonu; F — zawsze −I; metale 1. gr. +I, 2. gr. +II; H zwykle +I (w wodorkach metali −I); O zwykle −II (w nadtlenkach −I, w OF₂ +II).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "f144d3315",
+     "przod": "Stopień utlenienia Mn w KMnO₄",
+     "tyl": "+VII: 1 + x + 4·(−2) = 0.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "f764db955",
+     "przod": "Stopień utlenienia Cr w K₂Cr₂O₇",
+     "tyl": "+VI: 2·1 + 2x + 7·(−2) = 0.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "f64f2b9c4",
+     "przod": "Stopień utlenienia tlenu w H₂O₂",
+     "tyl": "−I (nadtlenek).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "f3c30ee2e",
+     "przod": "Wyjaśnij pojęcie: utlenianie",
+     "tyl": "Oddawanie elektronów — wzrost stopnia utlenienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "f515d3c3c",
+     "przod": "Wyjaśnij pojęcie: redukcja",
+     "tyl": "Przyjmowanie elektronów — spadek stopnia utlenienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "feeb9a09b",
+     "przod": "Wyjaśnij pojęcie: utleniacz",
+     "tyl": "Substancja, która przyjmuje elektrony (sama się redukuje) i utlenia inną substancję.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "f4fb120bc",
+     "przod": "Wyjaśnij pojęcie: reduktor",
+     "tyl": "Substancja, która oddaje elektrony (sama się utlenia) i redukuje inną substancję.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "fae26a0c2",
+     "przod": "Typowe utleniacze",
+     "tyl": "KMnO₄, K₂Cr₂O₇, HNO₃, stężony H₂SO₄, Cl₂, O₂, H₂O₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "f29b768bd",
+     "przod": "Typowe reduktory",
+     "tyl": "Metale aktywne, H₂, C, CO, H₂S, jony Fe²⁺, I⁻, SO₃²⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "f7f74d344",
+     "przod": "Wyjaśnij pojęcie: reakcja dysproporcjonowania",
+     "tyl": "Reakcja redoks, w której ten sam pierwiastek jednocześnie się utlenia i redukuje, np. Cl₂ + 2NaOH → NaCl + NaClO + H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "f2e01737b",
+     "przod": "Wyjaśnij pojęcie: reakcja synproporcjonowania (komproporcjonowania)",
+     "tyl": "Reakcja, w której ten sam pierwiastek z dwóch różnych stopni utlenienia przechodzi na jeden pośredni, np. 2H₂S + SO₂ → 3S + 2H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "fbfdddacf",
+     "przod": "Dlaczego H₂O₂ może być i utleniaczem, i reduktorem?",
+     "tyl": "Tlen ma w nim pośredni stopień −I: może zredukować się do −II (H₂O) albo utlenić do 0 (O₂).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "f5d30deb1",
+     "przod": "Typowy błąd: utleniacz a pierwiastek utleniany",
+     "tyl": "Mylenie pojęć: utleniacz to substancja, która się REDUKUJE (przyjmuje elektrony), a nie ta, która się utlenia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "fb48df373",
+     "przod": "Podaj nazwę pojęcia: Umowny ładunek atomu w związku, obliczony przy założeniu, że wszystkie wiązania są jonowe (elektrony przypisane atomowi bardziej elektroujemnemu).",
+     "tyl": "stopień utlenienia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "f29cd840a",
+     "przod": "Rozpoznaj: +VII: 1 + x + 4·(−2) = 0.",
+     "tyl": "Stopień utlenienia Mn w KMnO₄",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "f5ed38eac",
+     "przod": "Rozpoznaj: +VI: 2·1 + 2x + 7·(−2) = 0.",
+     "tyl": "Stopień utlenienia Cr w K₂Cr₂O₇",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "f0708d640",
+     "przod": "Rozpoznaj: −I (nadtlenek).",
+     "tyl": "Stopień utlenienia tlenu w H₂O₂",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    },
+    {
+     "id": "f6cf11c01",
+     "przod": "Podaj nazwę pojęcia: Przyjmowanie elektronów — spadek stopnia utlenienia.",
+     "tyl": "redukcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.1–3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p9169d647",
+     "pytanie": "Stopień utlenienia siarki w H₂SO₄ wynosi:",
+     "odpowiedzi": [
+      "+IV",
+      "+VI",
+      "+II",
+      "−II"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "2·1 + x + 4·(−2) = 0.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p85cc70e7",
+     "pytanie": "W reakcji Zn + Cu²⁺ → Zn²⁺ + Cu reduktorem jest:",
+     "odpowiedzi": [
+      "Zn²⁺",
+      "Cu",
+      "Cu²⁺",
+      "Zn"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Cynk oddaje elektrony.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc5dade6f",
+     "pytanie": "Utleniacz w reakcji redoks:",
+     "odpowiedzi": [
+      "przyjmuje elektrony i się redukuje",
+      "oddaje elektrony",
+      "zwiększa swój stopień utlenienia",
+      "zawsze jest metalem"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Utleniacz ulega redukcji.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa2394020",
+     "pytanie": "Cl₂ + 2NaOH → NaCl + NaClO + H₂O to reakcja:",
+     "odpowiedzi": [
+      "wymiany",
+      "synproporcjonowania",
+      "zobojętniania",
+      "dysproporcjonowania"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Chlor z 0 przechodzi na −I i +I.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-bilans",
+   "nazwa": "Bilansowanie równań redoks",
+   "opis": "Wymaganie VIII.4–5 podstawy programowej.",
+   "wymaganie": "VIII.4–5",
+   "fiszki": [
+    {
+     "id": "f5492495b",
+     "przod": "Bilansowanie redoks metodą bilansu elektronowego — kroki",
+     "tyl": "1) stopnie utlenienia, 2) wskazać pierwiastki zmieniające stopień, 3) zapisać połówkowe równania z elektronami, 4) wyrównać liczbę elektronów (mnożniki), 5) przenieść współczynniki, 6) dobrać resztę (H, O).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "f49012b97",
+     "przod": "Metoda jonowo-elektronowa — kroki",
+     "tyl": "1) zapisać połówkowe reakcje dla utleniacza i reduktora, 2) zbilansować atomy inne niż O i H, 3) tlen — cząsteczkami H₂O, 4) wodór — jonami H⁺ (kwasowe) lub H₂O/OH⁻ (zasadowe), 5) ładunek — elektronami, 6) wyrównać elektrony i zsumować.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "fd6fe9d6f",
+     "przod": "Połówkowa redukcja MnO₄⁻ w środowisku kwasowym",
+     "tyl": "MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "fc2d2b40c",
+     "przod": "Połówkowa redukcja MnO₄⁻ w środowisku obojętnym",
+     "tyl": "MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "fc2200572",
+     "przod": "Połówkowa redukcja MnO₄⁻ w środowisku zasadowym",
+     "tyl": "MnO₄⁻ + e⁻ → MnO₄²⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "f716c2218",
+     "przod": "Połówkowa redukcja Cr₂O₇²⁻ w środowisku kwasowym",
+     "tyl": "Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "fec40f1bd",
+     "przod": "Połówkowe utlenianie Fe²⁺",
+     "tyl": "Fe²⁺ → Fe³⁺ + e⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "f46443be1",
+     "przod": "Połówkowe utlenianie H₂O₂",
+     "tyl": "H₂O₂ → O₂ + 2H⁺ + 2e⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "fd8546de6",
+     "przod": "Jak sprawdzić zbilansowane równanie redoks?",
+     "tyl": "Liczba atomów każdego pierwiastka i suma ładunków muszą być równe po obu stronach; liczba elektronów oddanych = przyjętych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "fb7524237",
+     "przod": "Typowy błąd w bilansowaniu w środowisku zasadowym",
+     "tyl": "Dodawanie jonów H⁺ zamiast OH⁻ i H₂O. W środowisku zasadowym nie może być H⁺ w równaniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "f556ff574",
+     "przod": "KMnO₄ + Na₂SO₃ w środowisku kwasowym (H₂SO₄) — równanie jonowe",
+     "tyl": "2MnO₄⁻ + 5SO₃²⁻ + 6H⁺ → 2Mn²⁺ + 5SO₄²⁻ + 3H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "fc4f19d87",
+     "przod": "Rozpoznaj: Fe²⁺ → Fe³⁺ + e⁻.",
+     "tyl": "Połówkowe utlenianie Fe²⁺",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pbc569d3e",
+     "pytanie": "Ile elektronów przyjmuje jon MnO₄⁻, redukując się do Mn²⁺?",
+     "odpowiedzi": [
+      "5",
+      "1",
+      "7",
+      "3"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Mn: +VII → +II.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1c9b7566",
+     "pytanie": "W metodzie jonowo-elektronowej w środowisku kwasowym niedobór tlenu uzupełnia się:",
+     "odpowiedzi": [
+      "jonami OH⁻",
+      "jonami H⁺",
+      "tlenem O₂",
+      "cząsteczkami H₂O"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Tlen — wodą, wodór — jonami H⁺.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p21551d67",
+     "pytanie": "Ile elektronów przyjmuje jon Cr₂O₇²⁻ przechodząc w 2Cr³⁺?",
+     "odpowiedzi": [
+      "2",
+      "12",
+      "3",
+      "6"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Każdy Cr: +VI → +III, razem 6 e⁻.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p72a75812",
+     "pytanie": "W równaniu redoks w środowisku zasadowym NIE może wystąpić:",
+     "odpowiedzi": [
+      "H₂O",
+      "H⁺",
+      "OH⁻",
+      "e⁻ w równaniach połówkowych"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Środowisko zasadowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-ogniwa",
+   "nazwa": "Ogniwa, szereg napięciowy i SEM",
+   "opis": "Wymaganie IX.1–5 podstawy programowej.",
+   "wymaganie": "IX.1–5",
+   "fiszki": [
+    {
+     "id": "fbabad793",
+     "przod": "Wyjaśnij pojęcie: ogniwo galwaniczne",
+     "tyl": "Układ dwóch półogniw, w którym energia reakcji redoks zamienia się w energię elektryczną; utlenianie i redukcja zachodzą w różnych miejscach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f95d339be",
+     "przod": "Anoda i katoda w ogniwie galwanicznym",
+     "tyl": "Anoda — elektroda, na której zachodzi utlenianie (biegun ujemny); katoda — redukcja (biegun dodatni).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f4cd52bf1",
+     "przod": "Wyjaśnij pojęcie: potencjał standardowy elektrody",
+     "tyl": "Potencjał półogniwa względem standardowej elektrody wodorowej (0 V) w warunkach standardowych (stężenie jonów 1 mol/dm³, 25°C).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f6bd20507",
+     "przod": "Szereg napięciowy metali",
+     "tyl": "Metale uszeregowane według potencjałów standardowych; im niższy potencjał, tym silniejszy reduktor (łatwiej się utlenia).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f74a51ddb",
+     "przod": "Jak wskazać anodę i katodę z potencjałów?",
+     "tyl": "Półogniwo o niższym potencjale jest anodą (−), o wyższym — katodą (+).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f8f52aafd",
+     "przod": "Siła elektromotoryczna ogniwa (SEM)",
+     "tyl": "SEM = E(katody) − E(anody), czyli potencjał wyższy minus niższy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f9dfa9a17",
+     "przod": "Schemat ogniwa Daniella",
+     "tyl": "(−) Zn | Zn²⁺ || Cu²⁺ | Cu (+); SEM° = 0,34 − (−0,76) = 1,10 V.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "fba0455f5",
+     "przod": "Rola klucza elektrolitycznego (mostka solnego)",
+     "tyl": "Zamyka obwód wewnętrzny i wyrównuje ładunki w roztworach przez przepływ jonów, nie dopuszczając do mieszania roztworów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f0713c9eb",
+     "przod": "Kierunek przepływu elektronów w ogniwie",
+     "tyl": "Przewodnikiem zewnętrznym od anody (−) do katody (+).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f6091d6fa",
+     "przod": "Potencjał standardowy a potencjał elektrody (uwaga CKE 2026)",
+     "tyl": "Potencjał standardowy dotyczy stężenia 1 mol/dm³; przy innych stężeniach potencjał elektrody jest inny (równanie Nernsta) — nie wolno ich utożsamiać.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f1ff7f5d9",
+     "przod": "Równanie Nernsta dla elektrody metalicznej (25°C)",
+     "tyl": "E = E° + (0,059/n) · log[Mⁿ⁺] — wzrost stężenia jonów metalu podwyższa potencjał elektrody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "fc5f17e1c",
+     "przod": "Ogniwo stężeniowe",
+     "tyl": "Dwa takie same półogniwa o różnych stężeniach jonów; katodą jest elektroda w roztworze o większym stężeniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "fbb08a47c",
+     "przod": "Akumulator ołowiowy — reakcje rozładowania",
+     "tyl": "Anoda: Pb + SO₄²⁻ → PbSO₄ + 2e⁻; katoda: PbO₂ + 4H⁺ + SO₄²⁻ + 2e⁻ → PbSO₄ + 2H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f7c004a3c",
+     "przod": "Rozpoznaj: SEM = E(katody) − E(anody), czyli potencjał wyższy minus niższy.",
+     "tyl": "Siła elektromotoryczna ogniwa (SEM)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f36ee2b93",
+     "przod": "Rozpoznaj: Przewodnikiem zewnętrznym od anody (−) do katody (+).",
+     "tyl": "Kierunek przepływu elektronów w ogniwie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p8f8fbcea",
+     "pytanie": "W ogniwie Zn–Cu anodą jest:",
+     "odpowiedzi": [
+      "klucz elektrolityczny",
+      "roztwór CuSO₄",
+      "miedź",
+      "cynk"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Zn ma niższy potencjał (−0,76 V).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3af9603b",
+     "pytanie": "E°(Ag⁺/Ag) = 0,80 V, E°(Cu²⁺/Cu) = 0,34 V. SEM ogniwa wynosi:",
+     "odpowiedzi": [
+      "1,14 V",
+      "0,34 V",
+      "0,46 V",
+      "0,80 V"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "0,80 − 0,34.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe9303bcc",
+     "pytanie": "Na katodzie ogniwa galwanicznego zachodzi:",
+     "odpowiedzi": [
+      "redukcja",
+      "utlenianie",
+      "rozpuszczanie elektrody",
+      "wydzielanie tlenu zawsze"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Katoda (+) — redukcja.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p74801977",
+     "pytanie": "Klucz elektrolityczny służy do:",
+     "odpowiedzi": [
+      "mieszania roztworów",
+      "zamknięcia obwodu przez przepływ jonów",
+      "przewodzenia elektronów",
+      "pomiaru napięcia"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wyrównuje ładunki w roztworach.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-elektroliza",
+   "nazwa": "Elektroliza i korozja",
+   "opis": "Wymaganie IX.6–9 podstawy programowej.",
+   "wymaganie": "IX.6–9",
+   "fiszki": [
+    {
+     "id": "fee6028df",
+     "przod": "Wyjaśnij pojęcie: elektroliza",
+     "tyl": "Proces redoks wymuszony przepływem prądu stałego przez elektrolit (roztwór lub stop).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f04bcf388",
+     "przod": "Katoda i anoda w elektrolizie",
+     "tyl": "Katoda (−) — redukcja; anoda (+) — utlenianie. Znaki biegunów odwrotne niż w ogniwie, ale nazwy procesów te same.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f1447da77",
+     "przod": "Elektroliza stopionego NaCl",
+     "tyl": "Katoda: Na⁺ + e⁻ → Na; anoda: 2Cl⁻ → Cl₂ + 2e⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "feb063cc2",
+     "przod": "Elektroliza wodnego roztworu NaCl",
+     "tyl": "Katoda: 2H₂O + 2e⁻ → H₂ + 2OH⁻; anoda: 2Cl⁻ → Cl₂ + 2e⁻ — w roztworze powstaje NaOH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f367176bc",
+     "przod": "Co redukuje się na katodzie w roztworze wodnym?",
+     "tyl": "Kationy metali mniej aktywnych (Cu²⁺, Ag⁺) — wydziela się metal; przy kationach metali aktywnych (Na⁺, K⁺, Ca²⁺, Al³⁺) redukuje się woda (H₂).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f45523a0c",
+     "przod": "Co utlenia się na anodzie obojętnej w roztworze wodnym?",
+     "tyl": "Aniony beztlenowe (Cl⁻, Br⁻, I⁻) — wydziela się fluorowiec; przy anionach tlenowych (SO₄²⁻, NO₃⁻) utlenia się woda (O₂).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f0e939ba0",
+     "przod": "Elektroliza roztworu CuSO₄ (elektrody obojętne)",
+     "tyl": "Katoda: Cu²⁺ + 2e⁻ → Cu; anoda: 2H₂O → O₂ + 4H⁺ + 4e⁻; roztwór się zakwasza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "fee87bdbc",
+     "przod": "Elektroliza z anodą rozpuszczalną (miedzianą)",
+     "tyl": "Anoda Cu utlenia się: Cu → Cu²⁺ + 2e⁻ (rafinacja elektrolityczna miedzi).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "fef6bb567",
+     "przod": "I prawo Faradaya",
+     "tyl": "Masa substancji wydzielonej na elektrodzie jest proporcjonalna do ładunku: m = (M · I · t) / (n · F); F = 96500 C/mol.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f9e5c1e08",
+     "przod": "Wyjaśnij pojęcie: korozja elektrochemiczna",
+     "tyl": "Niszczenie metalu w wyniku działania mikroogniw powstających na styku metalu z innym metalem lub zanieczyszczeniami w obecności wilgoci (elektrolitu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f12764f9b",
+     "przod": "Ochrona protektorowa",
+     "tyl": "Połączenie chronionego metalu z metalem aktywniejszym (np. cynkiem lub magnezem), który utlenia się zamiast niego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f5898db8a",
+     "przod": "Dlaczego porysowana blacha ocynkowana nie rdzewieje, a pobielana (cynowana) rdzewieje szybciej?",
+     "tyl": "Cynk jest aktywniejszy od żelaza i utlenia się zamiast niego; cyna jest mniej aktywna, więc w mikroogniwie anodą staje się żelazo.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "fd316bee9",
+     "przod": "Rozpoznaj: Katoda: Na⁺ + e⁻ → Na; anoda: 2Cl⁻ → Cl₂ + 2e⁻.",
+     "tyl": "Elektroliza stopionego NaCl",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f6a5aae3c",
+     "przod": "Rozpoznaj: Masa substancji wydzielonej na elektrodzie jest proporcjonalna do ładunku: m = (M · I · t) / (n · F); F = 96500 C/mol.",
+     "tyl": "I prawo Faradaya",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f98927a6a",
+     "przod": "Rozpoznaj: Połączenie chronionego metalu z metalem aktywniejszym (np. cynkiem lub magnezem), który utlenia się zamiast niego.",
+     "tyl": "Ochrona protektorowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p0bce7e0f",
+     "pytanie": "W elektrolizie wodnego roztworu KNO₃ na katodzie wydziela się:",
+     "odpowiedzi": [
+      "N₂",
+      "H₂",
+      "O₂",
+      "K"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "K⁺ jest za aktywny — redukuje się woda.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6f11f605",
+     "pytanie": "Na anodzie obojętnej w elektrolizie roztworu CuCl₂ wydziela się:",
+     "odpowiedzi": [
+      "Cu",
+      "O₂",
+      "H₂",
+      "Cl₂"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Anion beztlenowy utlenia się.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7f1c4da8",
+     "pytanie": "W elektrolizie katoda jest biegunem:",
+     "odpowiedzi": [
+      "ujemnym",
+      "zależnym od elektrolitu",
+      "obojętnym",
+      "dodatnim"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Katoda (−) — redukcja.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8e79b3c8",
+     "pytanie": "Ochrona protektorowa stalowego kadłuba statku polega na przymocowaniu:",
+     "odpowiedzi": [
+      "płyt miedzianych",
+      "płyt cynkowych",
+      "płyt srebrnych",
+      "płyt cynowych"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Zn jest aktywniejszy od Fe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
