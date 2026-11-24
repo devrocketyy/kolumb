@@ -1,0 +1,242 @@
+{
+ "id": "chemia-zycia",
+ "nazwa": "Chemia wokół nas i środowisko",
+ "opis": "Chemia w życiu codziennym, tworzywa, paliwa, ochrona środowiska.",
+ "poddzialy": [
+  {
+   "id": "c-chemia-zycia",
+   "nazwa": "Chemia w życiu codziennym",
+   "opis": "Wymaganie XXI podstawy programowej.",
+   "wymaganie": "XXI",
+   "fiszki": [
+    {
+     "id": "f25befc0c",
+     "przod": "Tworzywa sztuczne — podział",
+     "tyl": "Termoplasty (miękną po ogrzaniu, można je przetwarzać, np. PE, PVC, PS) i duroplasty (utwardzają się nieodwracalnie, np. żywice fenolowo-formaldehydowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXI"
+    },
+    {
+     "id": "ffb1cff77",
+     "przod": "Polikondensacja a polimeryzacja",
+     "tyl": "Polimeryzacja — łączenie monomerów bez produktów ubocznych; polikondensacja — z wydzieleniem małocząsteczkowego produktu (np. wody), np. poliamidy, poliestry.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXI"
+    },
+    {
+     "id": "fff860116",
+     "przod": "Środki piorące i myjące",
+     "tyl": "Mydła i detergenty (syntetyczne środki powierzchniowo czynne); detergenty działają też w twardej wodzie, bo ich sole wapnia są rozpuszczalne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXI"
+    },
+    {
+     "id": "f2391ab7a",
+     "przod": "Paliwa — ropa naftowa",
+     "tyl": "Mieszanina węglowodorów rozdzielana przez destylację frakcyjną (benzyna, nafta, olej napędowy, mazut); dalej kraking i reforming.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXI"
+    },
+    {
+     "id": "fe98c2d33",
+     "przod": "Gaz ziemny",
+     "tyl": "Głównie metan; paliwo o czystszym spalaniu niż węgiel (mniej CO₂ na jednostkę energii, brak SO₂ i pyłów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXI"
+    },
+    {
+     "id": "fd771081a",
+     "przod": "Leki — przykłady związków",
+     "tyl": "Kwas acetylosalicylowy (aspiryna — ester kwasu salicylowego), paracetamol (amid), antybiotyki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXI"
+    },
+    {
+     "id": "f0ead208b",
+     "przod": "Dodatki do żywności",
+     "tyl": "Konserwanty (np. kwas benzoesowy, sorbinowy), przeciwutleniacze, barwniki, emulgatory — oznaczane symbolami E.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXI"
+    },
+    {
+     "id": "f1842f0c8",
+     "przod": "Szkło i ceramika",
+     "tyl": "Szkło — stopione SiO₂ z Na₂CO₃ i CaCO₃ (bezpostaciowe); ceramika i cement — z glinokrzemianów i wapienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXI"
+    },
+    {
+     "id": "fa12c996a",
+     "przod": "Rozpoznaj: Głównie metan; paliwo o czystszym spalaniu niż węgiel (mniej CO₂ na jednostkę energii, brak SO₂ i pyłów).",
+     "tyl": "Gaz ziemny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXI"
+    },
+    {
+     "id": "f558892a0",
+     "przod": "Rozpoznaj: Konserwanty (np. kwas benzoesowy, sorbinowy), przeciwutleniacze, barwniki, emulgatory — oznaczane symbolami E.",
+     "tyl": "Dodatki do żywności",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXI"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p56211654",
+     "pytanie": "Który proces zachodzi z wydzieleniem wody?",
+     "odpowiedzi": [
+      "polimeryzacja etenu",
+      "addycja bromu",
+      "kraking",
+      "polikondensacja"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Np. powstawanie poliamidów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p913a0f67",
+     "pytanie": "Termoplastem jest:",
+     "odpowiedzi": [
+      "polietylen",
+      "bakelit",
+      "duroplast",
+      "żywica fenolowo-formaldehydowa"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Mięknie po ogrzaniu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-srodowisko",
+   "nazwa": "Elementy ochrony środowiska",
+   "opis": "Wymaganie XXII podstawy programowej.",
+   "wymaganie": "XXII",
+   "fiszki": [
+    {
+     "id": "f510122ff",
+     "przod": "Kwaśne deszcze — przyczyny",
+     "tyl": "Tlenki siarki (SO₂ ze spalania węgla) i azotu (NOₓ ze spalin) reagują z wodą w atmosferze, tworząc kwasy H₂SO₃, H₂SO₄, HNO₃.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXII"
+    },
+    {
+     "id": "f83bea4b2",
+     "przod": "Skutki kwaśnych deszczy",
+     "tyl": "Zakwaszenie gleb i wód, uszkodzenie lasów, niszczenie budowli z wapienia i marmuru (CaCO₃ + H₂SO₄ → CaSO₄ + CO₂ + H₂O), korozja metali.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXII"
+    },
+    {
+     "id": "f9f7b8f8d",
+     "przod": "Efekt cieplarniany",
+     "tyl": "Zatrzymywanie promieniowania cieplnego Ziemi przez gazy cieplarniane (CO₂, CH₄, H₂O, N₂O) — wzrost ich stężenia ociepla klimat.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXII"
+    },
+    {
+     "id": "fe82f3b21",
+     "przod": "Dziura ozonowa",
+     "tyl": "Zmniejszenie stężenia ozonu w stratosferze, głównie przez freony (chlorofluorowęglowodory) — rodniki chloru katalitycznie rozkładają O₃.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXII"
+    },
+    {
+     "id": "f67e8a834",
+     "przod": "Smog",
+     "tyl": "Londyński (zimowy) — SO₂, sadza, mgła; fotochemiczny (letni) — tlenki azotu, węglowodory i ozon pod wpływem światła.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXII"
+    },
+    {
+     "id": "fbbe65220",
+     "przod": "Eutrofizacja wód",
+     "tyl": "Przeżyźnienie wód związkami azotu i fosforu (nawozy, ścieki) → zakwity glonów → spadek ilości tlenu w wodzie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXII"
+    },
+    {
+     "id": "f28d781b0",
+     "przod": "Odsiarczanie spalin",
+     "tyl": "Wiązanie SO₂ np. zawiesiną wapna lub wapienia: 2CaCO₃ + 2SO₂ + O₂ → 2CaSO₄ + 2CO₂ (gips).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXII"
+    },
+    {
+     "id": "f147a4bbb",
+     "przod": "Katalizator w samochodzie",
+     "tyl": "Przekształca CO, NOₓ i niespalone węglowodory w CO₂, N₂ i H₂O (metale szlachetne: Pt, Pd, Rh).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXII"
+    },
+    {
+     "id": "fb96f2ce3",
+     "przod": "Metale ciężkie w środowisku",
+     "tyl": "Pb, Hg, Cd — kumulują się w organizmach, denaturują białka (wiążą się z grupami –SH enzymów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXII"
+    },
+    {
+     "id": "f1785c2e2",
+     "przod": "Rozpoznaj: Zmniejszenie stężenia ozonu w stratosferze, głównie przez freony (chlorofluorowęglowodory) — rodniki chloru katalitycznie rozkładają O₃.",
+     "tyl": "Dziura ozonowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXII"
+    },
+    {
+     "id": "f5c319d83",
+     "przod": "Rozpoznaj: Londyński (zimowy) — SO₂, sadza, mgła; fotochemiczny (letni) — tlenki azotu, węglowodory i ozon pod wpływem światła.",
+     "tyl": "Smog",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXII"
+    },
+    {
+     "id": "fd914f972",
+     "przod": "Rozpoznaj: Przeżyźnienie wód związkami azotu i fosforu (nawozy, ścieki) → zakwity glonów → spadek ilości tlenu w wodzie.",
+     "tyl": "Eutrofizacja wód",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXII"
+    },
+    {
+     "id": "f70cd88be",
+     "przod": "Rozpoznaj: Wiązanie SO₂ np. zawiesiną wapna lub wapienia: 2CaCO₃ + 2SO₂ + O₂ → 2CaSO₄ + 2CO₂ (gips).",
+     "tyl": "Odsiarczanie spalin",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXII"
+    },
+    {
+     "id": "f38ac8923",
+     "przod": "Rozpoznaj: Przekształca CO, NOₓ i niespalone węglowodory w CO₂, N₂ i H₂O (metale szlachetne: Pt, Pd, Rh).",
+     "tyl": "Katalizator w samochodzie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXII"
+    },
+    {
+     "id": "f8e5b7715",
+     "przod": "Rozpoznaj: Pb, Hg, Cd — kumulują się w organizmach, denaturują białka (wiążą się z grupami –SH enzymów).",
+     "tyl": "Metale ciężkie w środowisku",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XXII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pab77c938",
+     "pytanie": "Główną przyczyną kwaśnych deszczy jest emisja:",
+     "odpowiedzi": [
+      "N₂",
+      "O₃",
+      "SO₂ i NOₓ",
+      "CO₂ i CH₄"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Tworzą kwasy siarkowe i azotowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0bb800d1",
+     "pytanie": "Eutrofizację wód powodują głównie związki:",
+     "odpowiedzi": [
+      "siarki i chloru",
+      "azotu i fosforu",
+      "sodu i potasu",
+      "węgla i wodoru"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Nawozy i ścieki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p963b3493",
+     "pytanie": "Dziurę ozonową wywołują przede wszystkim:",
+     "odpowiedzi": [
+      "freony",
+      "tlenki siarki",
+      "metan",
+      "dwutlenek węgla"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Rodniki chloru rozkładają ozon.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

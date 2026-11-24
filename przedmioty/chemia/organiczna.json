@@ -1,0 +1,664 @@
+{
+ "id": "organiczna",
+ "nazwa": "Wstęp do chemii organicznej i węglowodory",
+ "opis": "Izomeria, alkany, alkeny, alkiny, areny i mechanizmy reakcji.",
+ "poddzialy": [
+  {
+   "id": "c-izomeria",
+   "nazwa": "Izomeria i nazewnictwo",
+   "opis": "Wymaganie XII podstawy programowej.",
+   "wymaganie": "XII",
+   "fiszki": [
+    {
+     "id": "f997b22ff",
+     "przod": "Wyjaśnij pojęcie: izomery",
+     "tyl": "Związki o tym samym wzorze sumarycznym, a różnej budowie (lub ułożeniu w przestrzeni), a więc różnych właściwościach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f46976d06",
+     "przod": "Izomeria łańcuchowa (szkieletowa)",
+     "tyl": "Różny układ łańcucha węglowego (prosty lub rozgałęziony), np. butan i 2-metylopropan.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f9dff79c7",
+     "przod": "Izomeria położenia",
+     "tyl": "Różne położenie grupy funkcyjnej lub wiązania wielokrotnego, np. propan-1-ol i propan-2-ol; but-1-en i but-2-en.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "fe2f596ab",
+     "przod": "Izomeria funkcyjna",
+     "tyl": "Różne grupy funkcyjne przy tym samym wzorze sumarycznym, np. etanol i eter dimetylowy (C₂H₆O); propanal i propanon.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f7b157b1a",
+     "przod": "Wyjaśnij pojęcie: izomeria geometryczna (cis–trans)",
+     "tyl": "Różne ułożenie podstawników względem płaszczyzny wiązania podwójnego (lub pierścienia); warunek: każdy atom C wiązania podwójnego ma dwa różne podstawniki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "ff45117bb",
+     "przod": "Typowy błąd: izomeria cis–trans",
+     "tyl": "Wskazywanie izomerii geometrycznej, gdy jeden z atomów węgla wiązania podwójnego ma dwa jednakowe podstawniki (np. propen nie ma izomerów cis–trans).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f6c550136",
+     "przod": "Wyjaśnij pojęcie: atom węgla asymetryczny (centrum stereogeniczne)",
+     "tyl": "Atom węgla połączony z czterema różnymi podstawnikami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "fd176e3d2",
+     "przod": "Wyjaśnij pojęcie: enancjomery",
+     "tyl": "Izomery optyczne będące swoimi lustrzanymi odbiciami, nienakładalne na siebie (jak lewa i prawa dłoń); skręcają płaszczyznę światła spolaryzowanego w przeciwne strony.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "ff602daf6",
+     "przod": "Wyjaśnij pojęcie: chiralność",
+     "tyl": "Cecha cząsteczki, która nie jest identyczna ze swoim odbiciem lustrzanym — zwykle ma atom węgla asymetryczny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f6a802526",
+     "przod": "Wyjaśnij pojęcie: mieszanina racemiczna",
+     "tyl": "Mieszanina równomolowa dwóch enancjomerów — optycznie nieczynna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f435e6cd6",
+     "przod": "Wzory Fischera",
+     "tyl": "Projekcja cząsteczki z atomem asymetrycznym: linie poziome — wiązania „do obserwatora”, pionowe — „od obserwatora”; konfiguracja D/L według położenia grupy –OH (–NH₂) przy ostatnim asymetrycznym C.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f52f77065",
+     "przod": "Liczba stereoizomerów przy n atomach asymetrycznych",
+     "tyl": "Maksymalnie 2ⁿ (mniej, jeśli występują formy mezo).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "fbcc9ceeb",
+     "przod": "Wyjaśnij pojęcie: szereg homologiczny",
+     "tyl": "Szereg związków o podobnej budowie i właściwościach, różniących się o grupę –CH₂–, opisany wzorem ogólnym (np. alkany CₙH₂ₙ₊₂).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f2597c432",
+     "przod": "Zasady nazewnictwa IUPAC (podstawowe)",
+     "tyl": "Najdłuższy łańcuch zawierający grupę funkcyjną; numeracja tak, by grupa (wiązanie wielokrotne) miała najniższy lokant; podstawniki alfabetycznie z lokantami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f1ab55222",
+     "przod": "Wyjaśnij pojęcie: rzędowość atomu węgla",
+     "tyl": "Liczba atomów węgla połączonych z danym atomem węgla: I-rzędowy (1 C), II-rzędowy (2 C), III-rzędowy (3 C), IV-rzędowy (4 C).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "fbc4cb4ba",
+     "przod": "Podaj nazwę pojęcia: Związki o tym samym wzorze sumarycznym, a różnej budowie (lub ułożeniu w przestrzeni), a więc różnych właściwościach.",
+     "tyl": "izomery",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f6cb353d2",
+     "przod": "Podaj nazwę pojęcia: Różne ułożenie podstawników względem płaszczyzny wiązania podwójnego (lub pierścienia); warunek: każdy atom C wiązania podwójnego ma dwa różne podstawniki.",
+     "tyl": "izomeria geometryczna (cis–trans)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f0544c2c2",
+     "przod": "Podaj nazwę pojęcia: Izomery optyczne będące swoimi lustrzanymi odbiciami, nienakładalne na siebie (jak lewa i prawa dłoń); skręcają płaszczyznę światła spolaryzowanego w przeciwne strony.",
+     "tyl": "enancjomery",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "ffebf5c1b",
+     "przod": "Podaj nazwę pojęcia: Cecha cząsteczki, która nie jest identyczna ze swoim odbiciem lustrzanym — zwykle ma atom węgla asymetryczny.",
+     "tyl": "chiralność",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f6633fd91",
+     "przod": "Rozpoznaj: Projekcja cząsteczki z atomem asymetrycznym: linie poziome — wiązania „do obserwatora”, pionowe — „od obserwatora”; konfiguracja D/L według położenia grupy –OH (–NH₂) przy ostatnim asymetrycznym C.",
+     "tyl": "Wzory Fischera",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f68f53f93",
+     "przod": "Rozpoznaj: Maksymalnie 2ⁿ (mniej, jeśli występują formy mezo).",
+     "tyl": "Liczba stereoizomerów przy n atomach asymetrycznych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p9fa4dca8",
+     "pytanie": "Etanol i eter dimetylowy to izomery:",
+     "odpowiedzi": [
+      "łańcuchowe",
+      "optyczne",
+      "funkcyjne",
+      "położenia"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ten sam wzór C₂H₆O, różne grupy funkcyjne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p543fa71a",
+     "pytanie": "Który związek ma izomery cis–trans?",
+     "odpowiedzi": [
+      "but-2-en",
+      "propen",
+      "2-metylopropen",
+      "eten"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Każdy C wiązania podwójnego ma dwa różne podstawniki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf02d7df7",
+     "pytanie": "Atom węgla asymetryczny ma:",
+     "odpowiedzi": [
+      "dwa wiązania podwójne",
+      "cztery różne podstawniki",
+      "trzy atomy wodoru",
+      "hybrydyzację sp²"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Warunek chiralności.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pdc3ebd84",
+     "pytanie": "Ile stereoizomerów może mieć związek z dwoma atomami asymetrycznymi (bez form mezo)?",
+     "odpowiedzi": [
+      "4",
+      "2",
+      "6",
+      "8"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "2ⁿ = 2² = 4.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd5c5173f",
+     "pytanie": "Mieszanina racemiczna jest:",
+     "odpowiedzi": [
+      "zawsze stała",
+      "czynna optycznie",
+      "optycznie nieczynna",
+      "czystym enancjomerem"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Skręcalności enancjomerów się znoszą.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-alkany",
+   "nazwa": "Alkany i cykloalkany",
+   "opis": "Wymaganie XIII.1–4 podstawy programowej.",
+   "wymaganie": "XIII.1–4",
+   "fiszki": [
+    {
+     "id": "f15a9abf5",
+     "przod": "Wzór ogólny alkanów",
+     "tyl": "CₙH₂ₙ₊₂ — węglowodory nasycone, tylko wiązania pojedyncze, atomy C o hybrydyzacji sp³.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.1–4"
+    },
+    {
+     "id": "fe13813d5",
+     "przod": "Wzór ogólny cykloalkanów",
+     "tyl": "CₙH₂ₙ (np. cykloheksan C₆H₁₂).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.1–4"
+    },
+    {
+     "id": "f9fac5316",
+     "przod": "Właściwości fizyczne alkanów",
+     "tyl": "Niepolarne, nierozpuszczalne w wodzie; C₁–C₄ to gazy, C₅–C₁₇ ciecze, wyższe — ciała stałe; temperatura wrzenia rośnie z długością łańcucha.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.1–4"
+    },
+    {
+     "id": "fd06b588b",
+     "przod": "Spalanie całkowite alkanów",
+     "tyl": "CₙH₂ₙ₊₂ + O₂ → CO₂ + H₂O, np. CH₄ + 2O₂ → CO₂ + 2H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.1–4"
+    },
+    {
+     "id": "f9f6454d1",
+     "przod": "Spalanie niecałkowite",
+     "tyl": "Przy niedostatku tlenu powstaje CO (półspalanie) lub C (sadza), np. 2CH₄ + 3O₂ → 2CO + 4H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.1–4"
+    },
+    {
+     "id": "ffdc57963",
+     "przod": "Substytucja rodnikowa — warunki i przykład",
+     "tyl": "Reakcja z fluorowcem w świetle (hν): CH₄ + Cl₂ → CH₃Cl + HCl.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.1–4"
+    },
+    {
+     "id": "f3ecc82c6",
+     "przod": "Etapy mechanizmu substytucji rodnikowej",
+     "tyl": "Inicjacja (rozpad Cl₂ na rodniki pod wpływem światła), propagacja (rodniki reagują z cząsteczkami, tworząc nowe rodniki), terminacja (łączenie się rodników).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.1–4"
+    },
+    {
+     "id": "fed1b993e",
+     "przod": "Wyjaśnij pojęcie: rodnik",
+     "tyl": "Drobina z niesparowanym elektronem, np. Cl•, CH₃• — bardzo reaktywna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.1–4"
+    },
+    {
+     "id": "f67a76f07",
+     "przod": "Który atom H alkanu najłatwiej ulega substytucji?",
+     "tyl": "Przy węglu III-rzędowym, potem II-rzędowym, najtrudniej przy I-rzędowym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.1–4"
+    },
+    {
+     "id": "fa817eaf9",
+     "przod": "Kraking i reforming",
+     "tyl": "Kraking — rozkład dłuższych węglowodorów na krótsze (więcej benzyny, alkeny); reforming — przekształcenie w węglowodory rozgałęzione i aromatyczne (wyższa liczba oktanowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.1–4"
+    },
+    {
+     "id": "f0c1314c4",
+     "przod": "Wyjaśnij pojęcie: liczba oktanowa",
+     "tyl": "Miara odporności benzyny na spalanie stukowe; izooktan = 100, heptan = 0.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.1–4"
+    },
+    {
+     "id": "fdd66dce2",
+     "przod": "Wyjaśnij pojęcie: konformacja",
+     "tyl": "Różne ułożenia atomów cząsteczki wynikające z obrotu wokół wiązań pojedynczych; cykloheksan przyjmuje konformację krzesłową (najtrwalszą) i łódkową.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.1–4"
+    },
+    {
+     "id": "f67051118",
+     "przod": "Rozpoznaj: CₙH₂ₙ₊₂ + O₂ → CO₂ + H₂O, np. CH₄ + 2O₂ → CO₂ + 2H₂O.",
+     "tyl": "Spalanie całkowite alkanów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.1–4"
+    },
+    {
+     "id": "fdc82853b",
+     "przod": "Podaj nazwę pojęcia: Drobina z niesparowanym elektronem, np. Cl•, CH₃• — bardzo reaktywna.",
+     "tyl": "rodnik",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.1–4"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pa6b0072f",
+     "pytanie": "Wzór C₅H₁₂ należy do szeregu:",
+     "odpowiedzi": [
+      "cykloalkanów",
+      "alkanów",
+      "alkenów",
+      "alkinów"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "CₙH₂ₙ₊₂ dla n = 5.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1156d02c",
+     "pytanie": "Pierwszym etapem substytucji rodnikowej jest:",
+     "odpowiedzi": [
+      "terminacja",
+      "inicjacja — rozpad Cl₂ na rodniki",
+      "addycja",
+      "propagacja"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Pod wpływem światła.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0e35303d",
+     "pytanie": "Produkty spalania całkowitego metanu to:",
+     "odpowiedzi": [
+      "C i H₂",
+      "CO₂ i H₂O",
+      "CO i H₂O",
+      "CO₂ i H₂"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "CH₄ + 2O₂ → CO₂ + 2H₂O.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc7048700",
+     "pytanie": "Reakcja metanu z chlorem w świetle to:",
+     "odpowiedzi": [
+      "eliminacja",
+      "addycja",
+      "polimeryzacja",
+      "substytucja rodnikowa"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Atom H zastąpiony przez Cl.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-alkeny",
+   "nazwa": "Alkeny i alkiny",
+   "opis": "Wymaganie XIII.5–9 podstawy programowej.",
+   "wymaganie": "XIII.5–9",
+   "fiszki": [
+    {
+     "id": "f26a80c2e",
+     "przod": "Wzór ogólny alkenów i alkinów",
+     "tyl": "Alkeny CₙH₂ₙ (wiązanie C=C, sp²); alkiny CₙH₂ₙ₋₂ (wiązanie C≡C, sp).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "fa92369de",
+     "przod": "Addycja do alkenów — przykłady",
+     "tyl": "Z H₂ (katalizator Ni/Pt) → alkan; z Br₂ → dibromopochodna; z HCl → chloropochodna; z H₂O (H⁺) → alkohol.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "f69e87bc1",
+     "przod": "Odbarwianie wody bromowej przez eten",
+     "tyl": "CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br (1,2-dibromoetan) — dowód obecności wiązania wielokrotnego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "f5c7a3ef5",
+     "przod": "Reguła Markownikowa",
+     "tyl": "Przy addycji HX do niesymetrycznego alkenu atom wodoru przyłącza się do atomu węgla, który ma więcej atomów wodoru (np. propen + HCl → 2-chloropropan).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "fbc193903",
+     "przod": "Mechanizm addycji elektrofilowej",
+     "tyl": "Elektrofil (np. H⁺, Br⁺) atakuje bogate w elektrony wiązanie π, powstaje karbokation, do którego przyłącza się nukleofil.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "f0fc5acc8",
+     "przod": "Utlenianie alkenów KMnO₄ (środowisko obojętne)",
+     "tyl": "Powstaje diol (np. z etenu glikol etylenowy), a fioletowy roztwór odbarwia się i wytrąca brunatny MnO₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "fbe3be098",
+     "przod": "Polimeryzacja alkenów",
+     "tyl": "Łączenie wielu cząsteczek monomeru dzięki rozerwaniu wiązań π, np. n CH₂=CH₂ → (–CH₂–CH₂–)ₙ (polietylen).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "f7d10d42e",
+     "przod": "Otrzymywanie etenu",
+     "tyl": "Dehydratacja etanolu (stężony H₂SO₄, ogrzewanie) albo kraking; eliminacja HX z chlorowcopochodnej (KOH w alkoholu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "f889f7592",
+     "przod": "Otrzymywanie etynu (acetylenu)",
+     "tyl": "Karbid z wodą: CaC₂ + 2H₂O → C₂H₂ + Ca(OH)₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "fc81a4503",
+     "przod": "Addycja wody do etynu (reakcja Kuczerowa)",
+     "tyl": "HC≡CH + H₂O → CH₃CHO (przez nietrwały alkohol winylowy; katalizator HgSO₄, H⁺) — powstaje etanal.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "fdab1c540",
+     "przod": "Trimeryzacja etynu",
+     "tyl": "3HC≡CH → C₆H₆ (benzen) — w wysokiej temperaturze, z katalizatorem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "fcd77526f",
+     "przod": "Typowy błąd: wzór polimeru",
+     "tyl": "Pozostawienie wiązania podwójnego w merze polimeru albo zapisanie monomeru zamiast powtarzającego się fragmentu z nawiasem i indeksem n.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "fa1b060e0",
+     "przod": "Rozpoznaj: Przy addycji HX do niesymetrycznego alkenu atom wodoru przyłącza się do atomu węgla, który ma więcej atomów wodoru (np. propen + HCl → 2-chloropropan).",
+     "tyl": "Reguła Markownikowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "f22e1511d",
+     "przod": "Rozpoznaj: Powstaje diol (np. z etenu glikol etylenowy), a fioletowy roztwór odbarwia się i wytrąca brunatny MnO₂.",
+     "tyl": "Utlenianie alkenów KMnO₄ (środowisko obojętne)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "f99e40d9a",
+     "przod": "Rozpoznaj: Łączenie wielu cząsteczek monomeru dzięki rozerwaniu wiązań π, np. n CH₂=CH₂ → (–CH₂–CH₂–)ₙ (polietylen).",
+     "tyl": "Polimeryzacja alkenów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "fcb1534b7",
+     "przod": "Rozpoznaj: Dehydratacja etanolu (stężony H₂SO₄, ogrzewanie) albo kraking; eliminacja HX z chlorowcopochodnej (KOH w alkoholu).",
+     "tyl": "Otrzymywanie etenu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "f8bc8ec61",
+     "przod": "Rozpoznaj: Karbid z wodą: CaC₂ + 2H₂O → C₂H₂ + Ca(OH)₂.",
+     "tyl": "Otrzymywanie etynu (acetylenu)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "f8d280638",
+     "przod": "Rozpoznaj: HC≡CH + H₂O → CH₃CHO (przez nietrwały alkohol winylowy; katalizator HgSO₄, H⁺) — powstaje etanal.",
+     "tyl": "Addycja wody do etynu (reakcja Kuczerowa)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    },
+    {
+     "id": "ff6ae0ce8",
+     "przod": "Rozpoznaj: 3HC≡CH → C₆H₆ (benzen) — w wysokiej temperaturze, z katalizatorem.",
+     "tyl": "Trimeryzacja etynu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.5–9"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p1c73194f",
+     "pytanie": "Propen + HBr — główny produkt według reguły Markownikowa:",
+     "odpowiedzi": [
+      "propan",
+      "2-bromopropan",
+      "1-bromopropan",
+      "1,2-dibromopropan"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "H przyłącza się do C bogatszego w wodór.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p387c3f4d",
+     "pytanie": "Wzór ogólny alkinów to:",
+     "odpowiedzi": [
+      "CₙHₙ",
+      "CₙH₂ₙ₋₂",
+      "CₙH₂ₙ",
+      "CₙH₂ₙ₊₂"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Jedno wiązanie potrójne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9376e8f3",
+     "pytanie": "Etyn otrzymuje się w reakcji:",
+     "odpowiedzi": [
+      "etanolu z H₂SO₄",
+      "benzenu z wodorem",
+      "karbidu z wodą",
+      "metanu z chlorem"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "CaC₂ + 2H₂O → C₂H₂ + Ca(OH)₂.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pdc0a435a",
+     "pytanie": "Odbarwienie wody bromowej świadczy o obecności:",
+     "odpowiedzi": [
+      "grupy –COOH",
+      "grupy –OH",
+      "pierścienia benzenowego",
+      "wiązania wielokrotnego C=C lub C≡C"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Addycja bromu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-areny",
+   "nazwa": "Węglowodory aromatyczne",
+   "opis": "Wymaganie XIII.10–12 podstawy programowej.",
+   "wymaganie": "XIII.10–12",
+   "fiszki": [
+    {
+     "id": "f5b3edd72",
+     "przod": "Budowa benzenu",
+     "tyl": "Pierścień sześciu atomów C o hybrydyzacji sp²; sześć elektronów π zdelokalizowanych nad i pod płaszczyzną pierścienia (sekstet elektronowy). Wszystkie wiązania C–C jednakowej długości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.10–12"
+    },
+    {
+     "id": "f6542b800",
+     "przod": "Wyjaśnij pojęcie: aromatyczność",
+     "tyl": "Szczególna trwałość płaskich, cyklicznych układów ze zdelokalizowanymi elektronami π (4n + 2 elektronów, reguła Hückla).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.10–12"
+    },
+    {
+     "id": "f7841f577",
+     "przod": "Dlaczego benzen nie odbarwia wody bromowej?",
+     "tyl": "Zdelokalizowany układ elektronów π jest trwały — benzen nie ulega łatwo addycji, tylko substytucji (z katalizatorem).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.10–12"
+    },
+    {
+     "id": "ff48267b7",
+     "przod": "Substytucja elektrofilowa — bromowanie benzenu",
+     "tyl": "C₆H₆ + Br₂ → C₆H₅Br + HBr (katalizator FeBr₃).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.10–12"
+    },
+    {
+     "id": "fdf7dd658",
+     "przod": "Nitrowanie benzenu",
+     "tyl": "C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O (mieszanina nitrująca: stężony HNO₃ + stężony H₂SO₄).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.10–12"
+    },
+    {
+     "id": "fc44ba652",
+     "przod": "Wpływ podstawnika na kolejną substytucję (kierowanie)",
+     "tyl": "Podstawniki I rodzaju (–OH, –NH₂, –CH₃, –Cl) kierują do pozycji orto i para; II rodzaju (–NO₂, –COOH, –CHO, –SO₃H) — do pozycji meta.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.10–12"
+    },
+    {
+     "id": "f96a4ce71",
+     "przod": "Toluen z chlorem: w świetle a z katalizatorem",
+     "tyl": "W świetle (hν) — substytucja rodnikowa w grupie –CH₃ (chlorek benzylu); z FeCl₃ — substytucja w pierścieniu (orto i para).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.10–12"
+    },
+    {
+     "id": "fe84d04b0",
+     "przod": "Utlenianie toluenu",
+     "tyl": "KMnO₄ utlenia grupę metylową do –COOH — powstaje kwas benzoesowy (pierścień pozostaje nienaruszony).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.10–12"
+    },
+    {
+     "id": "fdfe6fe9b",
+     "przod": "Wielopierścieniowe węglowodory aromatyczne",
+     "tyl": "Naftalen (2 pierścienie), antracen (3) — część z nich ma działanie rakotwórcze (np. benzo[a]piren w dymie i spalinach).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.10–12"
+    },
+    {
+     "id": "fd3712265",
+     "przod": "Podaj nazwę pojęcia: Szczególna trwałość płaskich, cyklicznych układów ze zdelokalizowanymi elektronami π (4n + 2 elektronów, reguła Hückla).",
+     "tyl": "aromatyczność",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.10–12"
+    },
+    {
+     "id": "fd67ac02a",
+     "przod": "Rozpoznaj: C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O (mieszanina nitrująca: stężony HNO₃ + stężony H₂SO₄).",
+     "tyl": "Nitrowanie benzenu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.10–12"
+    },
+    {
+     "id": "f2c3ec4e0",
+     "przod": "Rozpoznaj: Naftalen (2 pierścienie), antracen (3) — część z nich ma działanie rakotwórcze (np. benzo[a]piren w dymie i spalinach).",
+     "tyl": "Wielopierścieniowe węglowodory aromatyczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIII.10–12"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p09c1246e",
+     "pytanie": "Benzen z bromem w obecności FeBr₃ ulega:",
+     "odpowiedzi": [
+      "polimeryzacji",
+      "substytucji elektrofilowej",
+      "addycji",
+      "substytucji rodnikowej"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Powstaje bromobenzen.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbaf15c3d",
+     "pytanie": "Grupa –NO₂ w pierścieniu kieruje kolejny podstawnik w pozycję:",
+     "odpowiedzi": [
+      "orto i para",
+      "orto",
+      "para",
+      "meta"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Podstawnik II rodzaju.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe97186c7",
+     "pytanie": "Hybrydyzacja atomów węgla w benzenie to:",
+     "odpowiedzi": [
+      "sp",
+      "sp³",
+      "sp²",
+      "sp³d"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Płaski pierścień.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p71c6e43b",
+     "pytanie": "Produktem utleniania toluenu KMnO₄ jest:",
+     "odpowiedzi": [
+      "benzen",
+      "kwas benzoesowy",
+      "fenol",
+      "benzaldehyd"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Utlenia się grupa –CH₃.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

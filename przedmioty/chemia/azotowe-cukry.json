@@ -1,0 +1,468 @@
+{
+ "id": "azotowe-cukry",
+ "nazwa": "Związki azotu, białka i cukry",
+ "opis": "Aminy i amidy, aminokwasy, peptydy i białka, cukry.",
+ "poddzialy": [
+  {
+   "id": "c-aminy",
+   "nazwa": "Aminy i amidy",
+   "opis": "Wymaganie XVIII podstawy programowej.",
+   "wymaganie": "XVIII",
+   "fiszki": [
+    {
+     "id": "ffccff3fd",
+     "przod": "Wyjaśnij pojęcie: amina",
+     "tyl": "Pochodna amoniaku, w której atomy wodoru zastąpiono grupami węglowodorowymi; grupa funkcyjna aminowa –NH₂ (w aminach I-rzędowych).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    },
+    {
+     "id": "fade59da5",
+     "przod": "Rzędowość amin",
+     "tyl": "Liczba grup węglowodorowych przy atomie azotu: CH₃NH₂ (I-rzędowa), (CH₃)₂NH (II-rzędowa), (CH₃)₃N (III-rzędowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    },
+    {
+     "id": "f20e73324",
+     "przod": "Zasadowość amin",
+     "tyl": "Wolna para elektronowa azotu przyjmuje proton (zasada Brønsteda): CH₃NH₂ + H₂O ⇄ CH₃NH₃⁺ + OH⁻. Aminy alifatyczne są mocniejszymi zasadami niż amoniak.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    },
+    {
+     "id": "f95798a66",
+     "przod": "Dlaczego anilina jest słabszą zasadą niż metyloamina?",
+     "tyl": "Wolna para azotu w anilinie jest częściowo wciągnięta w układ elektronów π pierścienia, więc słabiej przyłącza proton.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    },
+    {
+     "id": "f3d14471b",
+     "przod": "Aminy z kwasami",
+     "tyl": "Tworzą sole, np. CH₃NH₂ + HCl → CH₃NH₃⁺Cl⁻ (chlorek metyloamoniowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    },
+    {
+     "id": "fcbad0cd5",
+     "przod": "Otrzymywanie aniliny",
+     "tyl": "Redukcja nitrobenzenu: C₆H₅NO₂ + 6[H] → C₆H₅NH₂ + 2H₂O (np. Fe lub Zn w HCl).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    },
+    {
+     "id": "f4aceed3c",
+     "przod": "Anilina z wodą bromową",
+     "tyl": "Biały osad 2,4,6-tribromoaniliny — grupa –NH₂ ułatwia substytucję w pozycjach orto i para.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    },
+    {
+     "id": "fe31dbb79",
+     "przod": "Wyjaśnij pojęcie: amid",
+     "tyl": "Pochodna kwasu karboksylowego z grupą –CONH₂ zamiast –COOH, np. acetamid CH₃CONH₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    },
+    {
+     "id": "f1ac2e13c",
+     "przod": "Mocznik",
+     "tyl": "Diamid kwasu węglowego CO(NH₂)₂; końcowy produkt przemiany białek u ssaków; nawóz azotowy; z wodą (hydroliza) daje CO₂ i NH₃.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    },
+    {
+     "id": "faedfbd47",
+     "przod": "Hydroliza amidów",
+     "tyl": "W środowisku kwasowym → kwas karboksylowy i sól amonowa; zasadowym → sól kwasu i amoniak.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    },
+    {
+     "id": "f12a82c90",
+     "przod": "Wiązanie amidowe (peptydowe)",
+     "tyl": "–CO–NH– — powstaje w reakcji grupy karboksylowej z grupą aminową (kondensacja z wydzieleniem wody).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    },
+    {
+     "id": "f65e7698e",
+     "przod": "Rozpoznaj: Tworzą sole, np. CH₃NH₂ + HCl → CH₃NH₃⁺Cl⁻ (chlorek metyloamoniowy).",
+     "tyl": "Aminy z kwasami",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    },
+    {
+     "id": "f4070cc69",
+     "przod": "Rozpoznaj: Redukcja nitrobenzenu: C₆H₅NO₂ + 6[H] → C₆H₅NH₂ + 2H₂O (np. Fe lub Zn w HCl).",
+     "tyl": "Otrzymywanie aniliny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    },
+    {
+     "id": "f8452fc4d",
+     "przod": "Rozpoznaj: Diamid kwasu węglowego CO(NH₂)₂; końcowy produkt przemiany białek u ssaków; nawóz azotowy; z wodą (hydroliza) daje CO₂ i NH₃.",
+     "tyl": "Mocznik",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    },
+    {
+     "id": "fe26a198a",
+     "przod": "Rozpoznaj: W środowisku kwasowym → kwas karboksylowy i sól amonowa; zasadowym → sól kwasu i amoniak.",
+     "tyl": "Hydroliza amidów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    },
+    {
+     "id": "f5e91c3fe",
+     "przod": "Rozpoznaj: –CO–NH– — powstaje w reakcji grupy karboksylowej z grupą aminową (kondensacja z wydzieleniem wody).",
+     "tyl": "Wiązanie amidowe (peptydowe)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVIII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pc3d6bd31",
+     "pytanie": "Wodny roztwór metyloaminy ma odczyn:",
+     "odpowiedzi": [
+      "nie zależy od niczego",
+      "kwasowy",
+      "obojętny",
+      "zasadowy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Azot przyjmuje proton z wody.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb5f3e68d",
+     "pytanie": "Najsłabszą zasadą jest:",
+     "odpowiedzi": [
+      "metyloamina",
+      "etyloamina",
+      "anilina",
+      "dimetyloamina"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wolna para azotu w delokalizacji z pierścieniem.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa20f621c",
+     "pytanie": "Mocznik to:",
+     "odpowiedzi": [
+      "diamid kwasu węglowego",
+      "ester",
+      "amina",
+      "aminokwas"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "CO(NH₂)₂.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-aminokwasy",
+   "nazwa": "Aminokwasy, peptydy i białka",
+   "opis": "Wymaganie XIX podstawy programowej.",
+   "wymaganie": "XIX",
+   "fiszki": [
+    {
+     "id": "f702023f4",
+     "przod": "Budowa α-aminokwasu",
+     "tyl": "Atom węgla α połączony z grupą –NH₂, grupą –COOH, atomem H i łańcuchem bocznym R.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "f47d54fb5",
+     "przod": "Wyjaśnij pojęcie: jon obojnaczy (amfijon)",
+     "tyl": "Forma aminokwasu z grupą –NH₃⁺ i –COO⁻ w jednej cząsteczce (wewnętrzna sól) — w niej aminokwasy występują w stanie stałym i w roztworze przy pH punktu izoelektrycznego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "f62e9e274",
+     "przod": "Amfoteryczność aminokwasów",
+     "tyl": "Reagują i z kwasami (przez grupę –NH₂), i z zasadami (przez –COOH).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "fab8ec49b",
+     "przod": "Wyjaśnij pojęcie: punkt izoelektryczny (pI)",
+     "tyl": "pH, przy którym aminokwas występuje głównie jako jon obojnaczy o ładunku sumarycznym 0 i nie wędruje w polu elektrycznym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "f249fc6f3",
+     "przod": "Forma aminokwasu w roztworze kwasowym i zasadowym",
+     "tyl": "Kwasowym (pH < pI) — kation (–NH₃⁺, –COOH); zasadowym (pH > pI) — anion (–NH₂, –COO⁻).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "f678be738",
+     "przod": "Czynność optyczna aminokwasów",
+     "tyl": "Wszystkie α-aminokwasy białkowe oprócz glicyny mają asymetryczny atom węgla α; w białkach występują aminokwasy L.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "f4abea831",
+     "przod": "Ile dipeptydów może powstać z dwóch różnych aminokwasów?",
+     "tyl": "Dwa (np. Gly-Ala i Ala-Gly), a z uwzględnieniem dipeptydów z dwóch takich samych — cztery.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "f9f2109f6",
+     "przod": "Wyjaśnij pojęcie: wiązanie peptydowe",
+     "tyl": "Wiązanie amidowe –CO–NH– między grupą karboksylową jednego aminokwasu a aminową drugiego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "fce786473",
+     "przod": "Struktury białek",
+     "tyl": "I-rzędowa — sekwencja aminokwasów; II-rzędowa — helisa α, harmonijka β (wiązania wodorowe); III-rzędowa — przestrzenne ułożenie łańcucha; IV-rzędowa — kilka łańcuchów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "f984f59d6",
+     "przod": "Denaturacja białek",
+     "tyl": "Nieodwracalna utrata struktury (II–IV-rzędowej) pod wpływem m.in. wysokiej temperatury, stężonych kwasów i zasad, soli metali ciężkich, alkoholu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "fbef6bce7",
+     "przod": "Wysalanie białek",
+     "tyl": "Odwracalne wytrącanie białka z roztworu po dodaniu soli metali lekkich (np. NaCl, (NH₄)₂SO₄); po dodaniu wody białko się rozpuszcza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "f355f7533",
+     "przod": "Wykrywanie białek",
+     "tyl": "Reakcja biuretowa (CuSO₄ + NaOH) — fioletowe zabarwienie (wiązania peptydowe, min. 2); reakcja ksantoproteinowa (stęż. HNO₃) — żółte zabarwienie (pierścienie aromatyczne).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "fe4766ec7",
+     "przod": "Podaj nazwę pojęcia: Forma aminokwasu z grupą –NH₃⁺ i –COO⁻ w jednej cząsteczce (wewnętrzna sól) — w niej aminokwasy występują w stanie stałym i w roztworze przy pH punktu izoelektrycznego.",
+     "tyl": "jon obojnaczy (amfijon)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "f89d2f484",
+     "przod": "Rozpoznaj: Reagują i z kwasami (przez grupę –NH₂), i z zasadami (przez –COOH).",
+     "tyl": "Amfoteryczność aminokwasów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "f2ed6e280",
+     "przod": "Podaj nazwę pojęcia: pH, przy którym aminokwas występuje głównie jako jon obojnaczy o ładunku sumarycznym 0 i nie wędruje w polu elektrycznym.",
+     "tyl": "punkt izoelektryczny (pI)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "f9fd0c088",
+     "przod": "Rozpoznaj: I-rzędowa — sekwencja aminokwasów; II-rzędowa — helisa α, harmonijka β (wiązania wodorowe); III-rzędowa — przestrzenne ułożenie łańcucha; IV-rzędowa — kilka łańcuchów.",
+     "tyl": "Struktury białek",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "f37fd9872",
+     "przod": "Rozpoznaj: Nieodwracalna utrata struktury (II–IV-rzędowej) pod wpływem m.in. wysokiej temperatury, stężonych kwasów i zasad, soli metali ciężkich, alkoholu.",
+     "tyl": "Denaturacja białek",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "f9dc63c27",
+     "przod": "Rozpoznaj: Odwracalne wytrącanie białka z roztworu po dodaniu soli metali lekkich (np. NaCl, (NH₄)₂SO₄); po dodaniu wody białko się rozpuszcza.",
+     "tyl": "Wysalanie białek",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    },
+    {
+     "id": "f6a5061e7",
+     "przod": "Rozpoznaj: Reakcja biuretowa (CuSO₄ + NaOH) — fioletowe zabarwienie (wiązania peptydowe, min. 2); reakcja ksantoproteinowa (stęż. HNO₃) — żółte zabarwienie (pierścienie aromatyczne).",
+     "tyl": "Wykrywanie białek",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIX"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pa14cf3dd",
+     "pytanie": "Który aminokwas nie jest czynny optycznie?",
+     "odpowiedzi": [
+      "glicyna",
+      "seryna",
+      "alanina",
+      "cysteina"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Ma dwa atomy H przy węglu α.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7b4b4e88",
+     "pytanie": "Wysalanie białka to proces:",
+     "odpowiedzi": [
+      "odwracalny",
+      "zachodzący tylko w wysokiej temperaturze",
+      "tożsamy z denaturacją",
+      "nieodwracalny"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Białko nie traci struktury.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb53c714f",
+     "pytanie": "Reakcja biuretowa wykrywa:",
+     "odpowiedzi": [
+      "pierścienie aromatyczne",
+      "grupy –OH",
+      "wiązania peptydowe",
+      "cukry redukujące"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Fioletowe zabarwienie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcea3cffe",
+     "pytanie": "W silnie kwasowym roztworze aminokwas występuje głównie jako:",
+     "odpowiedzi": [
+      "anion",
+      "jon obojnaczy",
+      "kation",
+      "cząsteczka obojętna bez ładunków"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Grupa –COO⁻ ulega protonowaniu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-cukry",
+   "nazwa": "Cukry",
+   "opis": "Wymaganie XX podstawy programowej.",
+   "wymaganie": "XX",
+   "fiszki": [
+    {
+     "id": "fb35cc1b1",
+     "przod": "Podział cukrów",
+     "tyl": "Monosacharydy (glukoza, fruktoza, ryboza), disacharydy (sacharoza, maltoza, laktoza), polisacharydy (skrobia, celuloza, glikogen).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XX"
+    },
+    {
+     "id": "f9988b0d2",
+     "przod": "Glukoza — budowa",
+     "tyl": "C₆H₁₂O₆, aldoheksoza: grupa aldehydowa i pięć grup –OH; w roztworze głównie w formie pierścieniowej (α i β).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XX"
+    },
+    {
+     "id": "fbca9c2d6",
+     "przod": "Fruktoza — budowa",
+     "tyl": "C₆H₁₂O₆, ketoheksoza (grupa karbonylowa przy C2); izomer glukozy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XX"
+    },
+    {
+     "id": "fc4c39ee7",
+     "przod": "Właściwości redukujące glukozy",
+     "tyl": "Daje pozytywną próbę Tollensa i Trommera (grupa aldehydowa w formie łańcuchowej).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XX"
+    },
+    {
+     "id": "fa2a0bd0a",
+     "przod": "Dlaczego fruktoza daje próbę Tollensa, choć jest ketozą?",
+     "tyl": "W środowisku zasadowym ulega przemianie (tautomeryzacji) do formy z grupą aldehydową.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XX"
+    },
+    {
+     "id": "f03281d82",
+     "przod": "Jak odróżnić glukozę od fruktozy?",
+     "tyl": "Woda bromowa: glukoza (aldoza) ją odbarwia (utlenia się do kwasu glukonowego), fruktoza nie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XX"
+    },
+    {
+     "id": "fc9d6d39f",
+     "przod": "Wiązanie glikozydowe",
+     "tyl": "Wiązanie między grupą –OH półacetalową jednego cukru a grupą –OH drugiego, z wydzieleniem wody; łączy podjednostki di- i polisacharydów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XX"
+    },
+    {
+     "id": "fee6ce151",
+     "przod": "Sacharoza — właściwości",
+     "tyl": "Disacharyd z glukozy i fruktozy; nie ma właściwości redukujących (oba anomeryczne atomy węgla w wiązaniu glikozydowym), nie daje próby Tollensa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XX"
+    },
+    {
+     "id": "f0c51f6e9",
+     "przod": "Maltoza i laktoza — właściwości",
+     "tyl": "Disacharydy redukujące — mają wolną grupę półacetalową, dają próbę Tollensa i Trommera.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XX"
+    },
+    {
+     "id": "f806a8fbf",
+     "przod": "Hydroliza sacharozy",
+     "tyl": "C₁₂H₂₂O₁₁ + H₂O → glukoza + fruktoza (H⁺ lub enzym) — powstały roztwór daje próbę Tollensa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XX"
+    },
+    {
+     "id": "f9f6f0298",
+     "przod": "Skrobia a celuloza",
+     "tyl": "Skrobia — z α-glukozy (amyloza, amylopektyna), z jodem granatowa; celuloza — z β-glukozy, liniowe łańcuchy, materiał budulcowy roślin.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XX"
+    },
+    {
+     "id": "f1e0572eb",
+     "przod": "Hydroliza skrobi",
+     "tyl": "Skrobia → dekstryny → maltoza → glukoza (kwas lub enzymy, np. amylaza).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XX"
+    },
+    {
+     "id": "f1d38532d",
+     "przod": "Rozpoznaj: C₁₂H₂₂O₁₁ + H₂O → glukoza + fruktoza (H⁺ lub enzym) — powstały roztwór daje próbę Tollensa.",
+     "tyl": "Hydroliza sacharozy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XX"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p73d14d99",
+     "pytanie": "Który cukier NIE ma właściwości redukujących?",
+     "odpowiedzi": [
+      "laktoza",
+      "maltoza",
+      "sacharoza",
+      "glukoza"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Brak wolnej grupy półacetalowej.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p794ee61f",
+     "pytanie": "Wodę bromową odbarwia:",
+     "odpowiedzi": [
+      "celuloza",
+      "glukoza",
+      "fruktoza",
+      "sacharoza"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Aldoza utlenia się do kwasu glukonowego.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pefd029d6",
+     "pytanie": "Skrobię wykrywa się:",
+     "odpowiedzi": [
+      "jodyną (płynem Lugola)",
+      "próbą biuretową",
+      "FeCl₃",
+      "wodą bromową"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Granatowe zabarwienie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p73d69e44",
+     "pytanie": "Produkty hydrolizy sacharozy to:",
+     "odpowiedzi": [
+      "maltoza",
+      "glukoza i fruktoza",
+      "dwie cząsteczki glukozy",
+      "glukoza i galaktoza"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Sacharoza = glukoza + fruktoza.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

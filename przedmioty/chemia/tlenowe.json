@@ -1,0 +1,645 @@
+{
+ "id": "tlenowe",
+ "nazwa": "Tlenowe pochodne węglowodorów",
+ "opis": "Alkohole i fenole, aldehydy i ketony, kwasy karboksylowe, estry i tłuszcze.",
+ "poddzialy": [
+  {
+   "id": "c-alkohole",
+   "nazwa": "Alkohole i fenole",
+   "opis": "Wymaganie XIV podstawy programowej.",
+   "wymaganie": "XIV",
+   "fiszki": [
+    {
+     "id": "fe2fe51b9",
+     "przod": "Wzór ogólny alkoholi monohydroksylowych nasyconych",
+     "tyl": "CₙH₂ₙ₊₁OH; grupa funkcyjna hydroksylowa –OH przy atomie węgla o hybrydyzacji sp³.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "f0b7d76ea",
+     "przod": "Rzędowość alkoholi",
+     "tyl": "Zależy od rzędowości atomu C z grupą –OH: I-rzędowy (etanol), II-rzędowy (propan-2-ol), III-rzędowy (2-metylopropan-2-ol).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "fe5e7e7fa",
+     "przod": "Odczyn wodnych roztworów alkoholi",
+     "tyl": "Obojętny — alkohole praktycznie nie dysocjują w wodzie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "facf88626",
+     "przod": "Reakcja alkoholu z sodem",
+     "tyl": "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂↑ (etanolan sodu); świadczy o obecności wodoru w grupie –OH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "ff38e2169",
+     "przod": "Utlenianie alkoholi I-rzędowych",
+     "tyl": "Do aldehydów, a dalej do kwasów karboksylowych, np. etanol → etanal → kwas etanowy (CuO na gorąco, K₂Cr₂O₇/H⁺).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "f46278bf9",
+     "przod": "Utlenianie alkoholi II- i III-rzędowych",
+     "tyl": "II-rzędowe utleniają się do ketonów (propan-2-ol → propanon); III-rzędowe w łagodnych warunkach się nie utleniają.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "fc276ef7a",
+     "przod": "Dehydratacja alkoholi",
+     "tyl": "Eliminacja wody (stężony H₂SO₄, ogrzewanie) — powstaje alken: C₂H₅OH → CH₂=CH₂ + H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "ffd75e58f",
+     "przod": "Fermentacja alkoholowa",
+     "tyl": "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ (drożdże, warunki beztlenowe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "ff5ebd85e",
+     "przod": "Glicerol i glikol — wykrywanie",
+     "tyl": "Alkohole polihydroksylowe (z grupami –OH przy sąsiednich atomach C) roztwarzają świeżo strącony Cu(OH)₂ z utworzeniem szafirowego (lazurowego) roztworu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "fdab102ab",
+     "przod": "Budowa fenolu",
+     "tyl": "Grupa –OH bezpośrednio przy pierścieniu aromatycznym (C₆H₅OH).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "f0f2d8a1b",
+     "przod": "Dlaczego fenol jest kwasem, a etanol nie?",
+     "tyl": "Anion fenolanowy jest stabilizowany przez delokalizację ładunku w pierścieniu, więc wiązanie O–H łatwiej się rozrywa; fenol reaguje z NaOH, etanol nie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "f9ec8194a",
+     "przod": "Fenol z NaOH",
+     "tyl": "C₆H₅OH + NaOH → C₆H₅ONa + H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "fb5baf32b",
+     "przod": "Fenol z wodą bromową",
+     "tyl": "Powstaje biały osad 2,4,6-tribromofenolu — grupa –OH ułatwia substytucję w pozycjach orto i para.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "fb31502ee",
+     "przod": "Wykrywanie fenolu FeCl₃",
+     "tyl": "Fioletowe zabarwienie roztworu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "f6998f2a1",
+     "przod": "Etanol z kwasem karboksylowym",
+     "tyl": "Reakcja estryfikacji (H⁺, ogrzewanie): powstaje ester i woda.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "f19961d26",
+     "przod": "Rozpoznaj: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂↑ (etanolan sodu); świadczy o obecności wodoru w grupie –OH.",
+     "tyl": "Reakcja alkoholu z sodem",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "f6e1b50f6",
+     "przod": "Rozpoznaj: Do aldehydów, a dalej do kwasów karboksylowych, np. etanol → etanal → kwas etanowy (CuO na gorąco, K₂Cr₂O₇/H⁺).",
+     "tyl": "Utlenianie alkoholi I-rzędowych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "f7c7cda62",
+     "przod": "Rozpoznaj: Eliminacja wody (stężony H₂SO₄, ogrzewanie) — powstaje alken: C₂H₅OH → CH₂=CH₂ + H₂O.",
+     "tyl": "Dehydratacja alkoholi",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "fcb128a30",
+     "przod": "Rozpoznaj: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ (drożdże, warunki beztlenowe).",
+     "tyl": "Fermentacja alkoholowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "fc7248757",
+     "przod": "Rozpoznaj: Fioletowe zabarwienie roztworu.",
+     "tyl": "Wykrywanie fenolu FeCl₃",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    },
+    {
+     "id": "f03c6fb87",
+     "przod": "Rozpoznaj: Reakcja estryfikacji (H⁺, ogrzewanie): powstaje ester i woda.",
+     "tyl": "Etanol z kwasem karboksylowym",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XIV"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p26f7891c",
+     "pytanie": "Produktem utlenienia propan-2-olu jest:",
+     "odpowiedzi": [
+      "propen",
+      "propanal",
+      "kwas propanowy",
+      "propanon"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Alkohol II-rzędowy → keton.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd10d08c4",
+     "pytanie": "Który związek reaguje z NaOH?",
+     "odpowiedzi": [
+      "etanol",
+      "glicerol",
+      "fenol",
+      "metanol"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Fenol ma charakter słabo kwasowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0d07a87a",
+     "pytanie": "Szafirowy roztwór z Cu(OH)₂ daje:",
+     "odpowiedzi": [
+      "aceton",
+      "fenol",
+      "etanol",
+      "glicerol"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Alkohol polihydroksylowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p99a9e062",
+     "pytanie": "Dehydratacja etanolu prowadzi do:",
+     "odpowiedzi": [
+      "etenu",
+      "etanu",
+      "etanalu",
+      "eteru"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Eliminacja wody (w odpowiedniej temperaturze).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p409739fe",
+     "pytanie": "Wodny roztwór etanolu ma odczyn:",
+     "odpowiedzi": [
+      "kwasowy",
+      "zasadowy",
+      "obojętny",
+      "zależny od stężenia"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Alkohole nie dysocjują w wodzie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-karbonylowe",
+   "nazwa": "Aldehydy i ketony",
+   "opis": "Wymaganie XV podstawy programowej.",
+   "wymaganie": "XV",
+   "fiszki": [
+    {
+     "id": "f91f19aa9",
+     "przod": "Grupa karbonylowa",
+     "tyl": ">C=O; w aldehydach na końcu łańcucha (–CHO), w ketonach w środku (C–CO–C).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XV"
+    },
+    {
+     "id": "f4f515683",
+     "przod": "Otrzymywanie aldehydów i ketonów",
+     "tyl": "Aldehydy — utlenianie alkoholi I-rzędowych; ketony — utlenianie alkoholi II-rzędowych (np. CuO, ogrzewanie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XV"
+    },
+    {
+     "id": "f2eba634f",
+     "przod": "Właściwości redukujące aldehydów",
+     "tyl": "Aldehydy łatwo utleniają się do kwasów karboksylowych, więc są reduktorami — dają pozytywną próbę Tollensa i Trommera. Ketony nie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XV"
+    },
+    {
+     "id": "fb04091c0",
+     "przod": "Próba Tollensa — równanie (uproszczone)",
+     "tyl": "RCHO + 2[Ag(NH₃)₂]⁺ + 2OH⁻ → RCOO⁻ + 2Ag↓ + 4NH₃ + H₂O (często zapis RCHO + Ag₂O → RCOOH + 2Ag) — srebrne lustro.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XV"
+    },
+    {
+     "id": "f19b0bd5b",
+     "przod": "Próba Trommera",
+     "tyl": "Aldehyd ogrzewany ze świeżo strąconym Cu(OH)₂ w środowisku zasadowym: niebieski osad przechodzi w ceglastoczerwony Cu₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XV"
+    },
+    {
+     "id": "f20fe9cd3",
+     "przod": "Jak odróżnić propanal od propanonu?",
+     "tyl": "Próbą Tollensa lub Trommera — pozytywny wynik daje tylko aldehyd (propanal).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XV"
+    },
+    {
+     "id": "f4f570923",
+     "przod": "Metanal (formaldehyd)",
+     "tyl": "Gaz; jego 35–40% roztwór wodny to formalina (konserwowanie preparatów); daje próbę Tollensa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XV"
+    },
+    {
+     "id": "fc9a24e26",
+     "przod": "Propanon (aceton)",
+     "tyl": "Najprostszy keton; dobry rozpuszczalnik (np. zmywacz do paznokci), miesza się z wodą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XV"
+    },
+    {
+     "id": "fd6e94086",
+     "przod": "Addycja do grupy karbonylowej",
+     "tyl": "Przyłączanie np. wodoru (redukcja do alkoholu): aldehyd → alkohol I-rzędowy, keton → alkohol II-rzędowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XV"
+    },
+    {
+     "id": "f5b9e4677",
+     "przod": "Typowy błąd: próba Trommera",
+     "tyl": "Opisanie obserwacji bez ogrzewania albo zapisanie produktu jako Cu lub CuO zamiast ceglastoczerwonego Cu₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XV"
+    },
+    {
+     "id": "fdb966c3d",
+     "przod": "Rozpoznaj: >C=O; w aldehydach na końcu łańcucha (–CHO), w ketonach w środku (C–CO–C).",
+     "tyl": "Grupa karbonylowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XV"
+    },
+    {
+     "id": "f69e89677",
+     "przod": "Rozpoznaj: Aldehyd ogrzewany ze świeżo strąconym Cu(OH)₂ w środowisku zasadowym: niebieski osad przechodzi w ceglastoczerwony Cu₂O.",
+     "tyl": "Próba Trommera",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XV"
+    },
+    {
+     "id": "f8b504a8f",
+     "przod": "Rozpoznaj: Najprostszy keton; dobry rozpuszczalnik (np. zmywacz do paznokci), miesza się z wodą.",
+     "tyl": "Propanon (aceton)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XV"
+    },
+    {
+     "id": "f8b101f00",
+     "przod": "Rozpoznaj: Przyłączanie np. wodoru (redukcja do alkoholu): aldehyd → alkohol I-rzędowy, keton → alkohol II-rzędowy.",
+     "tyl": "Addycja do grupy karbonylowej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XV"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p2b3a04f0",
+     "pytanie": "Pozytywną próbę Tollensa daje:",
+     "odpowiedzi": [
+      "etanal",
+      "kwas octowy",
+      "propanon",
+      "etanol"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Aldehyd jest reduktorem.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p00cbdd7d",
+     "pytanie": "Produktem próby Trommera z aldehydem jest osad:",
+     "odpowiedzi": [
+      "ceglastoczerwony Cu₂O",
+      "niebieski Cu(OH)₂",
+      "czarny CuO",
+      "metaliczna miedź"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Cu(II) redukuje się do Cu(I).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1fbdfae0",
+     "pytanie": "Redukcja propanonu wodorem daje:",
+     "odpowiedzi": [
+      "propanal",
+      "propan",
+      "propan-1-ol",
+      "propan-2-ol"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Keton → alkohol II-rzędowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-karboksylowe",
+   "nazwa": "Kwasy karboksylowe",
+   "opis": "Wymaganie XVI podstawy programowej.",
+   "wymaganie": "XVI",
+   "fiszki": [
+    {
+     "id": "f9971aa66",
+     "przod": "Grupa karboksylowa",
+     "tyl": "–COOH (połączenie grupy karbonylowej i hydroksylowej).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVI"
+    },
+    {
+     "id": "f704a84a9",
+     "przod": "Moc kwasów karboksylowych",
+     "tyl": "Słabe kwasy; moc maleje ze wzrostem długości łańcucha; kwas mrówkowy (HCOOH) jest najmocniejszy z nasyconych monokarboksylowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVI"
+    },
+    {
+     "id": "f429a1bd2",
+     "przod": "Dysocjacja kwasu octowego",
+     "tyl": "CH₃COOH ⇄ CH₃COO⁻ + H⁺ (słaby elektrolit).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVI"
+    },
+    {
+     "id": "f47e1d6a8",
+     "przod": "Typowe reakcje kwasów karboksylowych",
+     "tyl": "Z metalami aktywnymi (wodór), z tlenkami metali, z zasadami (sól i woda), z solami słabszych kwasów (np. z węglanami — CO₂), z alkoholami (estryfikacja).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVI"
+    },
+    {
+     "id": "fd436308b",
+     "przod": "Kwas octowy z Na₂CO₃",
+     "tyl": "2CH₃COOH + Na₂CO₃ → 2CH₃COONa + CO₂↑ + H₂O — dowód, że kwas octowy jest mocniejszy od węglowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVI"
+    },
+    {
+     "id": "f910a0f9c",
+     "przod": "Kwas mrówkowy — szczególna właściwość",
+     "tyl": "Ma w cząsteczce ugrupowanie aldehydowe, więc daje pozytywną próbę Tollensa (jest reduktorem).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVI"
+    },
+    {
+     "id": "f428e3880",
+     "przod": "Wyższe kwasy tłuszczowe",
+     "tyl": "Kwas palmitynowy C₁₅H₃₁COOH i stearynowy C₁₇H₃₅COOH (nasycone), oleinowy C₁₇H₃₃COOH (nienasycony, odbarwia wodę bromową).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVI"
+    },
+    {
+     "id": "fad4bf31c",
+     "przod": "Wyjaśnij pojęcie: mydło",
+     "tyl": "Sól sodowa (mydło twarde) lub potasowa (mydło miękkie) wyższego kwasu tłuszczowego, np. C₁₇H₃₅COONa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVI"
+    },
+    {
+     "id": "f09d0a9ca",
+     "przod": "Dlaczego wodny roztwór mydła ma odczyn zasadowy?",
+     "tyl": "Anion słabego kwasu hydrolizuje: C₁₇H₃₅COO⁻ + H₂O ⇄ C₁₇H₃₅COOH + OH⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVI"
+    },
+    {
+     "id": "fa20b3ad9",
+     "przod": "Jak mydło usuwa brud tłuszczowy?",
+     "tyl": "Anion ma część hydrofobową (łańcuch węglowy), która wnika w tłuszcz, i hydrofilową (–COO⁻), zwróconą do wody — tworzą się micele, które woda spłukuje.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVI"
+    },
+    {
+     "id": "f80f32f0a",
+     "przod": "Dlaczego mydło słabo pieni się w twardej wodzie?",
+     "tyl": "Jony Ca²⁺ i Mg²⁺ tworzą z anionami mydła nierozpuszczalne sole (osad), zużywając mydło.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVI"
+    },
+    {
+     "id": "f41710692",
+     "przod": "Hydroksykwasy i kwasy dikarboksylowe — przykłady",
+     "tyl": "Kwas mlekowy (2-hydroksypropanowy, ma atom asymetryczny), kwas szczawiowy (etanodiowy), kwas cytrynowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVI"
+    },
+    {
+     "id": "f2ba1c776",
+     "przod": "Rozpoznaj: CH₃COOH ⇄ CH₃COO⁻ + H⁺ (słaby elektrolit).",
+     "tyl": "Dysocjacja kwasu octowego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVI"
+    },
+    {
+     "id": "fd33f6d81",
+     "przod": "Rozpoznaj: Kwas palmitynowy C₁₅H₃₁COOH i stearynowy C₁₇H₃₅COOH (nasycone), oleinowy C₁₇H₃₃COOH (nienasycony, odbarwia wodę bromową).",
+     "tyl": "Wyższe kwasy tłuszczowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVI"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p7d218368",
+     "pytanie": "Najmocniejszym kwasem jest:",
+     "odpowiedzi": [
+      "kwas masłowy",
+      "kwas mrówkowy",
+      "kwas octowy",
+      "kwas propanowy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Najkrótszy łańcuch.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4ce46d2c",
+     "pytanie": "Który kwas daje pozytywną próbę Tollensa?",
+     "odpowiedzi": [
+      "stearynowy",
+      "mrówkowy",
+      "benzoesowy",
+      "octowy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ma ugrupowanie aldehydowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p59b15e9d",
+     "pytanie": "Wodny roztwór mydła sodowego ma odczyn:",
+     "odpowiedzi": [
+      "obojętny",
+      "kwasowy",
+      "nie da się określić",
+      "zasadowy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Hydroliza anionu słabego kwasu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2f7a0cd6",
+     "pytanie": "Wodę bromową odbarwia kwas:",
+     "odpowiedzi": [
+      "octowy",
+      "palmitynowy",
+      "oleinowy",
+      "stearynowy"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ma wiązanie podwójne C=C.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-estry",
+   "nazwa": "Estry i tłuszcze",
+   "opis": "Wymaganie XVII podstawy programowej.",
+   "wymaganie": "XVII",
+   "fiszki": [
+    {
+     "id": "f43aef244",
+     "przod": "Reakcja estryfikacji",
+     "tyl": "Kwas karboksylowy + alkohol ⇄ ester + woda (katalizator: stężony H₂SO₄, ogrzewanie); reakcja odwracalna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    },
+    {
+     "id": "f017f51fa",
+     "przod": "Przykład estryfikacji",
+     "tyl": "CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O (octan etylu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    },
+    {
+     "id": "fdf169b1f",
+     "przod": "Skąd pochodzi tlen w wodzie powstałej przy estryfikacji?",
+     "tyl": "Z grupy –OH kwasu karboksylowego (badania z izotopem ¹⁸O w alkoholu — znakowany tlen trafia do estru).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    },
+    {
+     "id": "f261e7033",
+     "przod": "Rola stężonego H₂SO₄ w estryfikacji",
+     "tyl": "Katalizator i substancja wiążąca wodę — przesuwa równowagę w stronę estru.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    },
+    {
+     "id": "f32540993",
+     "przod": "Nazewnictwo estrów",
+     "tyl": "Nazwa anionu kwasu + nazwa grupy alkilowej alkoholu, np. CH₃COOCH₃ — octan metylu (etanian metylu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    },
+    {
+     "id": "f142e14f6",
+     "przod": "Hydroliza estru w środowisku kwasowym",
+     "tyl": "Odwracalna: ester + H₂O ⇄ kwas + alkohol.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    },
+    {
+     "id": "f5ab8d252",
+     "przod": "Hydroliza zasadowa estru (zmydlanie)",
+     "tyl": "Nieodwracalna: ester + NaOH → sól kwasu + alkohol.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    },
+    {
+     "id": "f0a65f62a",
+     "przod": "Wyjaśnij pojęcie: tłuszcz",
+     "tyl": "Ester glicerolu i wyższych kwasów tłuszczowych (triacyloglicerol).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    },
+    {
+     "id": "f983441a9",
+     "przod": "Tłuszcze stałe i ciekłe",
+     "tyl": "Stałe (zwierzęce) — przewaga reszt kwasów nasyconych; ciekłe (oleje roślinne) — przewaga reszt kwasów nienasyconych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    },
+    {
+     "id": "fbc3f0620",
+     "przod": "Utwardzanie tłuszczów",
+     "tyl": "Uwodornienie wiązań podwójnych w resztach kwasów nienasyconych (H₂, katalizator Ni) — z olejów powstają tłuszcze stałe (margaryna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    },
+    {
+     "id": "f32a10cbf",
+     "przod": "Zmydlanie tłuszczu — produkty",
+     "tyl": "Tłuszcz + 3NaOH → glicerol + 3 cząsteczki mydła (sól sodowa kwasu tłuszczowego).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    },
+    {
+     "id": "fa28e4c72",
+     "przod": "Jak wykryć nienasycenie tłuszczu?",
+     "tyl": "Woda bromowa lub roztwór KMnO₄ — odbarwienie przez tłuszcz ciekły (olej).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    },
+    {
+     "id": "f3938a928",
+     "przod": "Właściwości estrów niskocząsteczkowych",
+     "tyl": "Lotne ciecze o przyjemnym, owocowym zapachu (aromaty spożywcze), słabo rozpuszczalne w wodzie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    },
+    {
+     "id": "fdc0f5d76",
+     "przod": "Rozpoznaj: Nazwa anionu kwasu + nazwa grupy alkilowej alkoholu, np. CH₃COOCH₃ — octan metylu (etanian metylu).",
+     "tyl": "Nazewnictwo estrów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    },
+    {
+     "id": "fff943fa9",
+     "przod": "Rozpoznaj: Odwracalna: ester + H₂O ⇄ kwas + alkohol.",
+     "tyl": "Hydroliza estru w środowisku kwasowym",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    },
+    {
+     "id": "fb36c1bf2",
+     "przod": "Rozpoznaj: Nieodwracalna: ester + NaOH → sól kwasu + alkohol.",
+     "tyl": "Hydroliza zasadowa estru (zmydlanie)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XVII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p6bbbabe0",
+     "pytanie": "Produkty zasadowej hydrolizy octanu etylu z NaOH to:",
+     "odpowiedzi": [
+      "octan sodu i etanol",
+      "etanal i NaOH",
+      "kwas octowy i etanol",
+      "octan sodu i woda"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Zmydlanie daje sól i alkohol.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p11caed74",
+     "pytanie": "Nazwa CH₃COOCH₃ to:",
+     "odpowiedzi": [
+      "metanian metylu",
+      "octan etylu",
+      "etanian etylu",
+      "octan metylu"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Reszta kwasu octowego + metyl.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe0c77978",
+     "pytanie": "Utwardzanie tłuszczów polega na:",
+     "odpowiedzi": [
+      "hydrolizie",
+      "estryfikacji",
+      "uwodornieniu wiązań podwójnych",
+      "zmydlaniu"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Addycja wodoru.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0ae5fabe",
+     "pytanie": "Tłuszcze ciekłe (oleje) zawierają głównie reszty kwasów:",
+     "odpowiedzi": [
+      "octowego",
+      "mrówkowego",
+      "nienasyconych",
+      "nasyconych"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wiązania C=C obniżają temperaturę topnienia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
