@@ -1,125 +1,87 @@
-# IndexLab · Biologia · Odcinek 62 · „Trzy serca i niebieska krew”
+# IndexLab · Biologia · Odcinek 62 · „Trzy serca ośmiornicy”
 Temat: Bezkręgowce
-Dział: Zwierzęta i systematyka
-Długość: ok. 8 minut (ok. 1040 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane. „Parzydełkowce” — pa-rzy-deł-KOW-ce. „Hemocyjanina” — he-mo-cy-ja-NI-na.
+Dział: Zwierzęta
+Długość: ok. 5 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-62-bezkregowce.json
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Oceanarium, wielkie akwarium. Za szybą ośmiornica powoli przepływa między kamieniami. Zmienia kolor z rdzawego na blady, potem na pręgowany, w ciągu sekundy. Wsuwa jedno z ramion do szczeliny i wyciąga z niej kraba.
+Oceanarium. Za szybą ośmiornica przepływa między kamieniami i w ciągu sekundy zmienia kolor. Wsuwa ramię w szczelinę i wyciąga kraba.
+
+Ośmiornica ma trzy serca. Jej krew jest niebieska, bo tlen przenosi białko z miedzią, a nie z żelazem. Większość jej neuronów jest w ramionach, które działają częściowo same.
 
 [pauza]
 
-Ośmiornica jest bardzo dziwnym zwierzęciem. Ma trzy serca: dwa pompują krew przez skrzela, trzecie przez resztę ciała. Jej krew jest niebieska, bo tlen przenosi w niej białko z miedzią, a nie z żelazem jak u nas. Ma dziewięć mózgów, jeden główny i po jednym zwoju w każdym ramieniu. Potrafi otworzyć słoik z zakręcaną pokrywką od środka. A wszystko to bez jednej kości.
-
-Ośmiornica to mięczak. Bliski krewny ślimaka z twojego ogródka. I jeden z wielu bezkręgowców, czyli zwierząt bez kręgosłupa, które stanowią ponad dziewięćdziesiąt pięć procent gatunków zwierząt na Ziemi.
+A jednak ośmiornica jest spokrewniona ze ślimakiem. Oba to mięczaki.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. Dziś przegląd bezkręgowców. Nie będę wymieniał wszystkiego, co istnieje. Skupię się na tym, o co pyta CKE: plan budowy i przystosowania do środowiska.
+Dzień dobry, tu IndexLab. Dziś bezkręgowce, czyli większość zwierząt na Ziemi.
 
-## Gąbki: bez tkanek
+## Cechy budowy
 
-Gąbki to najprostsze zwierzęta. Nie mają prawdziwych tkanek ani narządów. Ich ciało to worek z porami, przez które przepływa woda. Komórki z wicią napędzają przepływ wody i wyłapują z niej cząstki pokarmu. Gąbki żyją przyczepione do dna, głównie w morzach.
+Porządkujemy je według kilku cech. Symetria: promienista, jak u parzydełkowców, albo dwuboczna, jak u większości zwierząt. Liczba listków zarodkowych: dwa albo trzy. Jama ciała: brak, jama pierwotna albo wtórna, czyli celoma.
 
-## Parzydełkowce: dwie warstwy
+## Przegląd grup
 
-Stułbia, meduza, ukwiał, koral. Parzydełkowce mają ciało zbudowane z dwóch warstw komórek. Mają jeden otwór, który jest jednocześnie gębowym i odbytowym. Wokół niego są ramiona z parzydełkami, komórkami, które wystrzeliwują jak harpun nitkę z jadem.
+Gąbki nie mają tkanek. Parzydełkowce, jak meduzy i stułbie, mają symetrię promienistą i komórki parzydełkowe.
 
-Są symetryczne promieniście, jak koło: można je przeciąć na równe połowy w wielu płaszczyznach. To pasuje do życia w miejscu albo w toni wodnej, gdzie pokarm może nadpłynąć z każdej strony.
+Płazińce, jak tasiemce i przywry, są spłaszczone i nie mają jamy ciała. Nicienie mają jamę pierwotną i są często pasożytami, jak glista ludzka. Pierścienice, jak dżdżownica, mają ciało podzielone na segmenty i zamknięty układ krwionośny.
 
-Wiele parzydełkowców ma przemianę pokoleń: osiadłego polipa i pływającą meduzę. Na maturze w 2023 roku było zadanie o mejozie u krążkopławów. Mejoza zachodzi u meduzy, przy wytwarzaniu gamet.
+[wolniej] Stawonogi to najliczniejsza grupa. Mają odnóża członowane i szkielet zewnętrzny z chityny, który muszą zrzucać, żeby rosnąć. To linienie. Należą tu owady, pajęczaki i skorupiaki. Owady mają trzy pary odnóży, pajęczaki cztery.
 
-Koralowce budują rafy. W ich komórkach żyją glony, które prowadzą fotosyntezę i dostarczają im cukrów. Gdy woda jest za ciepła, korale wyrzucają glony i bieleją, a potem mogą zginąć.
+Mięczaki mają miękkie ciało, często z muszlą: ślimaki, małże i głowonogi. Szkarłupnie, jak rozgwiazdy, są bliżej spokrewnione z kręgowcami, niż się wydaje.
 
-## Płazińce: robaki płaskie
+[pytanie: owady]
 
-Płazińce, jak tasiemce i przywry, mają ciało płaskie i symetrię dwuboczną: jedna płaszczyzna dzieli je na lewą i prawą połowę. To przystosowanie do ruchu w jednym kierunku, z przodem, gdzie skupiają się narządy zmysłów.
-
-Wiele płazińców to pasożyty. Tasiemiec żyje w jelicie człowieka i ma przystosowania, o które CKE często pyta. Nie ma układu pokarmowego, bo wchłania strawiony już pokarm całą powierzchnią ciała. Ma przyssawki i haczyki do przyczepiania się do ściany jelita. Ma okrywę odporną na enzymy trawienne żywiciela. I produkuje ogromne ilości jaj, bo szansa, że któreś trafi do nowego żywiciela, jest mała. Każdy człon tasiemca ma narządy męskie i żeńskie, jest obojnakiem.
-
-## Nicienie
-
-Nicienie to robaki obłe, o ciele okrągłym w przekroju. Mają już dwa otwory: gębowy i odbytowy, więc pokarm płynie w jednym kierunku. Glista ludzka i owsik to pasożyty człowieka. Glistą zarażamy się przez brudne ręce i niemyte warzywa, na których są jej jaja.
-
-## Pierścienice
-
-Dżdżownica, pijawka. Ciało pierścienic jest podzielone na segmenty, czyli pierścienie. Mają już układ krwionośny zamknięty, w którym krew płynie w naczyniach. Oddychają całą powierzchnią ciała, dlatego dżdżownica musi mieć wilgotną skórę i wychodzi na powierzchnię po deszczu, kiedy w zalanej glebie brakuje tlenu.
-
-Dżdżownice są niezwykle pożyteczne. Drążą korytarze, które napowietrzają glebę, i mieszają warstwy gleby. Przepuszczają przez siebie ogromne ilości ziemi i resztek roślin, tworząc próchnicę.
-
-Pijawka lekarska wydziela substancję, która hamuje krzepnięcie krwi. Wykorzystuje się ją do dziś w medycynie.
-
-## Stawonogi: najliczniejsi
-
-Stawonogi to największa grupa zwierząt na Ziemi. Należą do nich owady, pajęczaki, skorupiaki i wije. Same owady to ponad milion opisanych gatunków.
-
-Co je łączy? Odnóża zbudowane z ruchomo połączonych członów, stąd nazwa. I szkielet zewnętrzny, czyli pancerz z chityny. Pancerz chroni i podtrzymuje ciało, ale nie rośnie. Dlatego stawonogi muszą okresowo zrzucać pancerz i wytwarzać nowy, większy. To linienie.
-
-Mają układ krwionośny otwarty: hemolimfa wylewa się z naczyń do jamy ciała i opływa narządy.
-
-Owady mają trzy pary odnóży i ciało podzielone na głowę, tułów i odwłok. Oddychają tchawkami: rozgałęzionymi rurkami, które doprowadzają powietrze bezpośrednio do komórek. Dlatego u owadów krew nie przenosi tlenu. Na maturze 2023 było pytanie o polisacharyd usztywniający tchawki owadów. To chityna.
-
-Pajęczaki mają cztery pary odnóży i nie mają czułków. Skorupiaki, jak rak czy krab, oddychają skrzelami.
-
-## Mięczaki
-
-Ślimak, małż, ośmiornica. Mięczaki mają miękkie, niesegmentowane ciało. Większość ma muszlę z węglanu wapnia, wytwarzaną przez fałd skóry zwany płaszczem. U ośmiornicy muszla zanikła, a u kałamarnicy została tylko szczątkowa, wewnątrz ciała.
-
-Małże są filtratorami: przepuszczają przez skrzela wodę i wyłapują z niej cząstki pokarmu. Jeden duży małż filtruje dziesiątki litrów wody na dobę, oczyszczając jeziora.
-
-Głowonogi, jak ośmiornica i kałamarnica, mają najbardziej rozwinięty układ nerwowy i najlepsze oczy wśród bezkręgowców.
-
-[pauza]
-
-Zatrzymaj się. Dlaczego stawonogi muszą linieć?
+Sprawdź się. Jak odróżnić owada od pająka po liczbie odnóży?
 
 [pauza, dłuższa]
 
-Bo mają szkielet zewnętrzny z chityny, który nie rośnie razem z ciałem. Żeby urosnąć, muszą go zrzucić i wytworzyć nowy, większy.
+[odpowiedź]
 
-## Szkarłupnie
+Owad ma trzy pary odnóży, czyli sześć. Pajęczak ma cztery pary, czyli osiem.
 
-Na koniec rozgwiazdy i jeżowce. Szkarłupnie mają szkielet wewnętrzny z płytek wapiennych pod skórą i układ wodny, czyli sieć kanałów wypełnionych wodą morską, który porusza drobnymi nóżkami ambulakralnymi. Dorosłe są symetryczne promieniście, często pięciopromiennie, ale ich larwy mają symetrię dwuboczną. Ciekawostka: szkarłupnie są bliżej spokrewnione ze strunowcami, a więc i z nami, niż z innymi bezkręgowcami.
+[koniec odpowiedzi]
+
+## Pasożyty
+
+Tasiemiec nie ma przewodu pokarmowego i wchłania pokarm całą powierzchnią ciała. Ma przyssawki i haczyki, a jego człony są pełne jaj. Człowiek zaraża się, jedząc niedogotowane mięso z larwami.
+
+[pytanie: tasiemiec]
+
+Sprawdź się. Podaj dwa przystosowania tasiemca do pasożytnictwa.
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Na przykład haczyki i przyssawki do przyczepiania się, brak przewodu pokarmowego i wchłanianie pokarmu całym ciałem, ogromna liczba jaj.
+
+[koniec odpowiedzi]
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Przystosowania pasożytów, szczególnie tasiemca. Porównanie układów narządów: oddechowego, krwionośnego, typu symetrii. Rozpoznawanie grup po cechach. Linienie u stawonogów. Rola dżdżownic w glebie i małży w oczyszczaniu wody.
+Cechy grup bezkręgowców i rozpoznawanie ich na rysunkach. Przystosowania pasożytów. Cykle rozwojowe pasożytów i profilaktyka.
 
-## Na spokojnie
+[pytanie: linienie]
 
-[muzyka, cicho]
+Ostatnie pytanie. Dlaczego stawonogi muszą linieć?
 
-Podsumujmy. Gąbki nie mają tkanek. Parzydełkowce mają dwie warstwy komórek, parzydełka i symetrię promienistą. Płazińce są płaskie, wiele z nich to pasożyty z przyssawkami i bez układu pokarmowego. Nicienie mają dwa otwory przewodu pokarmowego. Pierścienice mają segmenty i zamknięty układ krwionośny. Stawonogi mają chitynowy szkielet zewnętrzny i linieją, owady oddychają tchawkami. Mięczaki mają płaszcz i muszlę, małże filtrują wodę. Szkarłupnie mają układ wodny.
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Bo ich sztywny szkielet zewnętrzny z chityny nie rośnie razem z ciałem.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: dlaczego tasiemiec nie ma układu pokarmowego?
-
-[pauza, dłuższa]
-
-Bo żyje w jelicie żywiciela, gdzie pokarm jest już strawiony. Wchłania gotowe składniki odżywcze całą powierzchnią ciała.
-
-Drugie: dlaczego u owadów krew nie musi przenosić tlenu?
-
-[pauza, dłuższa]
-
-Bo tchawki doprowadzają powietrze bezpośrednio do tkanek i komórek.
-
-Trzecie: dlaczego po ulewnym deszczu dżdżownice wychodzą na powierzchnię?
-
-[pauza, dłuższa]
-
-Bo oddychają całą powierzchnią ciała, a w zalanej wodą glebie brakuje tlenu.
-
-[pauza]
-
-W następnym odcinku kręgowce. I ryba, która trzysta siedemdziesiąt milionów lat temu wypełzła z wody na ląd. Do usłyszenia.
+W następnym odcinku ryba z szyją, która pomogła zrozumieć, jak kręgowce wyszły na ląd. Do usłyszenia.
 
 [muzyka, wyciszenie]

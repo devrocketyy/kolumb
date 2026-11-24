@@ -1,121 +1,92 @@
-# IndexLab · Biologia · Odcinek 63 · „Ryba, która wyszła na ląd”
+# IndexLab · Biologia · Odcinek 63 · „Ryba z szyją”
 Temat: Kręgowce
-Dział: Zwierzęta i systematyka
-Długość: ok. 9 minut (ok. 1100 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane. „Tiktaalik” czytamy: tik-TA-lik.
+Dział: Zwierzęta
+Długość: ok. 5 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-63-kregowce.json
+Uwaga dla lektora: „Tiktaalik” — tik-TA-lik. „Shubin” — SZU-bin. „owodniowce” — o-wod-NIOW-ce.
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Arktyka kanadyjska, Wyspa Ellesmere’a, lato 2004 roku. Paleontolog Neil Shubin i jego zespół już czwarty sezon rozbijają skały na pustkowiu, kilkaset kilometrów od najbliższego człowieka. Szukają skamieniałości. Wybrali to miejsce, bo skały mają tu około trzystu siedemdziesięciu pięciu milionów lat. Akurat z czasów, kiedy ryby zaczynały wychodzić na ląd.
+Arktyka kanadyjska, lato 2004 roku. Paleontolog Neil Shubin i jego zespół już czwarty sezon rozbijają skały na pustkowiu. Szukają skamieniałości przejściowej między rybami a zwierzętami lądowymi.
+
+I znajdują. Rybę z płaską głową jak u krokodyla, z oczami na wierzchu i z szyją. W płetwach piersiowych ma kości ułożone jak ramię, łokieć i nadgarstek.
 
 [pauza]
 
-I znajdują. W skale wystaje płaski pysk. Potem cała czaszka. Potem płetwy. To ryba, ale dziwna. Ma płaską głowę jak krokodyl, z oczami na wierzchu. Ma szyję, której ryby nie mają. A w płetwach piersiowych ma kości, które układają się jak ramię, łokieć i nadgarstek. Mogła się na nich podpierać na mieliźnie.
-
-Nazwali ją Tiktaalik, w języku Inuitów to znaczy duża ryba słodkowodna. Brakujące ogniwo między rybami a czworonogami. Twój bardzo daleki przodek, który dał początek wszystkim kręgowcom lądowym.
+Nazwali ją Tiktaalik. To ryba, która mogła podpierać się płetwami na płyciźnie.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. Dziś kręgowce: ryby, płazy, gady, ptaki i ssaki. Jak zmieniały się ich układy narządów w drodze z wody na ląd.
-
-## Co łączy kręgowce
-
-Kręgowce należą do strunowców. Wszystkie strunowce w jakimś okresie życia mają strunę grzbietową, czyli sprężysty pręt wzdłuż grzbietu, cewkę nerwową nad nią i szczeliny skrzelowe w gardle. U kręgowców struna grzbietowa zostaje zastąpiona kręgosłupem, a przed nim jest czaszka chroniąca mózg.
-
-Kręgowce mają szkielet wewnętrzny, który rośnie razem z ciałem, więc nie muszą linieć jak stawonogi. Mają zamknięty układ krwionośny z sercem po stronie brzusznej.
+Dzień dobry, tu IndexLab. Dziś kręgowce i ich droga z wody na ląd.
 
 ## Ryby
 
-Ryby oddychają skrzelami. Woda przepływa przez skrzela, a tlen dyfunduje z wody do krwi w cienkich blaszkach skrzelowych. Krew w naczyniach skrzeli płynie w przeciwnym kierunku niż woda. To przeciwprąd: dzięki niemu krew na całej długości blaszki spotyka wodę bogatszą w tlen niż ona sama, i pobiera tlen bardzo wydajnie.
-
-Serce ryby ma dwie części: jeden przedsionek i jedną komorę. Krew płynie z serca do skrzeli, potem do ciała, potem wraca do serca. Jeden obieg.
-
-Większość ryb kostnoszkieletowych ma pęcherz pławny, worek z gazem, którym regulują głębokość pływania. Ryby słodkowodne i morskie mają przeciwne problemy z wodą, do czego wrócimy w odcinku o wydalaniu.
+Ryby oddychają skrzelami i mają serce z jednym przedsionkiem i jedną komorą. Krew przechodzi przez serce raz na obieg. Linia boczna wyczuwa ruchy wody. Pęcherz pławny pozwala regulować głębokość.
 
 ## Płazy
 
-Płazy, czyli żaby, ropuchy, traszki i salamandry, żyją na granicy wody i lądu. Ich larwy, kijanki, żyją w wodzie i oddychają skrzelami. Dorosłe żyją głównie na lądzie, ale muszą wracać do wody, żeby złożyć jaja, które nie mają twardej osłonki.
+Płazy żyją na granicy dwóch światów. Larwa, czyli kijanka, oddycha skrzelami w wodzie. Dorosła żaba oddycha płucami i wilgotną skórą. Płazy składają jaja bez osłonek odpornych na wysychanie, więc muszą wracać do wody.
 
-Dorosłe płazy oddychają płucami, ale ich płuca są proste, workowate, o małej powierzchni. Nie mają klatki piersiowej ani przepony. Powietrze wtłaczają do płuc ruchami dna jamy gębowej, jakby połykały. Dlatego bardzo ważne jest dla nich oddychanie przez skórę. Skóra płaza jest cienka, wilgotna, silnie ukrwiona. Musi być wilgotna, bo tlen rozpuszcza się w wilgoci zanim przejdzie do krwi. Dlatego płazy żyją w wilgotnych miejscach.
+## Owodniowce
 
-[wolniej] To było na maturze w 2023 roku. Trzeba było wyjaśnić, dlaczego wymiana gazowa w płucach płazów jest mniej wydajna niż u ssaków: workowate płuca o małej powierzchni i wentylacja ruchami dna jamy gębowej, bez klatki piersiowej.
+[wolniej] Przełomem było jajo z błonami płodowymi, w tym owodnią, która otacza zarodek własnym, wodnym środowiskiem. Dzięki temu gady, ptaki i ssaki mogły rozmnażać się z dala od wody. Nazywamy je owodniowcami.
 
-Serce płaza ma trzy części: dwa przedsionki i jedną komorę. Krew z płuc i krew z ciała częściowo mieszają się w komorze.
+Gady mają suchą skórę pokrytą łuskami i są zmiennocieplne.
 
-## Gady: jajo na ląd
+Ptaki są stałocieplne, mają pióra i lekkie, puste w środku kości. Oddychają płucami z workami powietrznymi, dzięki którym powietrze przepływa przez płuca w jedną stronę.
 
-Gady, czyli jaszczurki, węże, żółwie i krokodyle, rozwiązały problem rozmnażania na lądzie. Wynalazły jajo owodniowe.
+Ssaki są stałocieplne, mają sierść i karmią młode mlekiem. Większość rodzi żywe młode.
 
-[wolniej] Jajo owodniowe ma skorupkę, która chroni przed wyschnięciem, i błony płodowe. Owodnia otacza zarodek płynem, jakby nosił ze sobą własny mały staw. Inne błony gromadzą odpady i umożliwiają wymianę gazową przez skorupkę. Dzięki temu gady mogą składać jaja na suchym lądzie, daleko od wody. Gady, ptaki i ssaki razem nazywamy owodniowcami.
+[pytanie: owodnia]
 
-Gady mają suchą skórę pokrytą zrogowaciałymi łuskami, która chroni przed utratą wody. Na maturze w 2023 roku było zadanie o amfisbenach. Zrzucanie zrogowaciałego naskórka świadczyło o tym, że to gady. Płuca gadów są bardziej pofałdowane niż u płazów, a powietrze wciągają ruchami żeber.
-
-Gady są zmiennocieplne. Temperatura ich ciała zależy od otoczenia. Dlatego jaszczurka rano wygrzewa się na kamieniu, a w chłodne dni jest ospała.
-
-## Ptaki
-
-Ptaki to potomkowie dinozaurów, przystosowani do lotu. Wszystko w ich ciele jest podporządkowane lekkości i sile.
-
-Kości ptaków są puste w środku, wypełnione powietrzem. Mostek ma wielki grzebień, do którego przyczepiają się potężne mięśnie poruszające skrzydłami. Nie mają zębów, a pokarm rozdrabnia mięśniowy żołądek z kamykami.
-
-Ptaki mają najwydajniejszy układ oddechowy wśród kręgowców. Oprócz płuc mają worki powietrzne, które działają jak miechy. Dzięki nim powietrze przepływa przez płuca w jednym kierunku i zarówno przy wdechu, jak i przy wydechu przez płuca płynie świeże powietrze. To podwójne oddychanie. Pozwala ptakom latać wysoko, gdzie powietrze jest rzadkie.
-
-Serce ptaka ma cztery części: dwa przedsionki i dwie komory. Krew natleniona i odtlenowana nigdy się nie mieszają. Ptaki są stałocieplne, a pióra izolują je od zimna.
-
-## Ssaki
-
-Ssaki mają sierść, która izoluje ciało, i gruczoły mlekowe, którymi samice karmią młode. Są stałocieplne. Serce ma cztery części, jak u ptaków.
-
-Ssaki mają płuca z milionami pęcherzyków płucnych o ogromnej powierzchni i przeponę, mięsień, który razem z mięśniami międzyżebrowymi wentyluje płuca. Mają zróżnicowane zęby: siekacze, kły, przedtrzonowce i trzonowce, dopasowane do diety. U roślinożerców trzonowce są szerokie i płaskie do rozcierania, u drapieżników ostre i tnące.
-
-Większość ssaków rozwija się w macicy, połączona z matką łożyskiem. Ale są wyjątki: stekowce, jak dziobak, składają jaja, a torbacze, jak kangur, rodzą bardzo małe młode, które dalej rozwijają się w torbie.
-
-[pauza]
-
-Zatrzymaj się. Dlaczego czterodziałowe serce sprzyja stałocieplności?
+Sprawdź się. Co pozwoliło gadom jako pierwszym kręgowcom rozmnażać się z dala od wody?
 
 [pauza, dłuższa]
 
-Bo krew natleniona nie miesza się z odtlenowaną. Do tkanek trafia krew w pełni bogata w tlen, co pozwala na intensywne oddychanie komórkowe i wytwarzanie dużej ilości energii i ciepła.
+[odpowiedź]
+
+Jajo z błonami płodowymi, w tym z owodnią, które chroniło zarodek przed wyschnięciem.
+
+[koniec odpowiedzi]
+
+## Krążenie
+
+Ryby mają serce dwudziałowe i jeden obieg. Płazy mają dwa przedsionki i jedną komorę, więc krew się częściowo miesza. U ptaków i ssaków serce jest czterodziałowe i krew utlenowana nie miesza się z odtlenowaną. To pozwala na stałocieplność i wysoki metabolizm.
+
+[pytanie: serce]
+
+Sprawdź się. Dlaczego czterodziałowe serce sprzyja stałocieplności?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Bo krew utlenowana nie miesza się z odtlenowaną, więc tkanki dostają dużo tlenu, który pozwala na intensywny metabolizm i wytwarzanie ciepła.
+
+[koniec odpowiedzi]
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Porównanie budowy serca i układu oddechowego w kolejnych gromadach. Przystosowania do życia na lądzie: jajo owodniowe, sucha skóra, płuca o dużej powierzchni. Przystosowania ptaków do lotu. Zmienno- i stałocieplność. Przystosowania zębów do pokarmu.
+Przystosowania gromad do środowiska. Ewolucja serca i oddychania. Rola owodni.
 
-## Na spokojnie
+[pytanie: plazy]
 
-[muzyka, cicho]
+Ostatnie pytanie. Dlaczego płazy wracają do wody, by się rozmnażać?
 
-Podsumujmy. Ryby oddychają skrzelami w przeciwprądzie i mają serce dwudziałowe. Płazy mają proste płuca, oddychają też przez wilgotną skórę, mają serce trójdziałowe, a jaja składają w wodzie. Gady mają jajo owodniowe, suchą skórę z łuskami i są zmiennocieplne. Ptaki mają puste kości, worki powietrzne, czterodziałowe serce i są stałocieplne. Ssaki mają sierść, gruczoły mlekowe, przeponę, pęcherzyki płucne i zróżnicowane zęby.
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Bo ich jaja nie mają osłon chroniących przed wysychaniem, a larwy oddychają skrzelami.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: dlaczego żaby nie mogą żyć w suchym miejscu?
-
-[pauza, dłuższa]
-
-Bo ważną część wymiany gazowej prowadzą przez skórę, która musi być wilgotna. Ich skóra słabo chroni przed utratą wody, a jaja muszą rozwijać się w wodzie.
-
-Drugie: jakie znaczenie ma jajo owodniowe?
-
-[pauza, dłuższa]
-
-Pozwala rozmnażać się na lądzie bez wody. Skorupka chroni przed wyschnięciem, a owodnia otacza zarodek płynem.
-
-Trzecie: dlaczego ptaki mogą latać na dużych wysokościach, gdzie jest mało tlenu?
-
-[pauza, dłuższa]
-
-Dzięki workom powietrznym, które sprawiają, że świeże powietrze przepływa przez płuca w jednym kierunku przy wdechu i przy wydechu. To bardzo wydajna wymiana gazowa.
-
-[pauza]
-
-W następnym odcinku powtórka działu. Przejdziemy po drzewie rodowym zwierząt, od gąbki do człowieka. Do usłyszenia.
+W następnym odcinku powtórka działu o zwierzętach. Do usłyszenia.
 
 [muzyka, wyciszenie]
