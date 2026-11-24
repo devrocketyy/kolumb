@@ -1304,8 +1304,12 @@ function viewBledy(sid) {
 // ---------- wyszukiwarka pojęć ----------
 let searchQ = '';
 function viewSzukaj() {
-  app.innerHTML = `${pageHead('Szukaj', null)}
-    <input class="type-input search-input" id="q" type="search" autocomplete="off" placeholder="np. kontrasygnata, art. 104, NATO…" aria-label="Szukaj w fiszkach" value="${esc(searchQ)}">
+  // szukamy tylko w bieżącym przedmiocie
+  const cs = currentSubject();
+  if (!cs) return notFound();
+  const przyklad = { biologia: 'np. mitochondrium, ATP, mejoza…', historia: 'np. unia lubelska, 1569, Piłsudski…', wos: 'np. kontrasygnata, art. 104, NATO…' }[cs.id] || 'Wpisz szukane słowo…';
+  app.innerHTML = `${pageHead(`Szukaj · ${cs.nazwa}`, null)}
+    <input class="type-input search-input" id="q" type="search" autocomplete="off" placeholder="${przyklad}" aria-label="Szukaj w fiszkach: ${esc(cs.nazwa)}" value="${esc(searchQ)}">
     <p class="muted small" id="q-info"></p>
     <div class="review-list" id="q-res"></div>`;
   const inp = app.querySelector('#q');
@@ -1314,10 +1318,10 @@ function viewSzukaj() {
     const q = norm(searchQ);
     const res = app.querySelector('#q-res');
     const info = app.querySelector('#q-info');
-    if (q.length < 2) { res.innerHTML = ''; info.textContent = 'Wpisz co najmniej 2 znaki. Przeszukiwane są wszystkie fiszki i pytania.'; return; }
+    if (q.length < 2) { res.innerHTML = ''; info.textContent = `Wpisz co najmniej 2 znaki. Przeszukiwane są fiszki z przedmiotu: ${cs.nazwa}.`; return; }
     const words = q.split(' ');
     const hits = [];
-    for (const s of subjects) for (const u of allUnits(s)) {
+    for (const s of [cs]) for (const u of allUnits(s)) {
       for (const f of u.fiszki) {
         const a = norm(f.przod), b = norm(f.tyl);
         if (words.every((w) => a.includes(w) || b.includes(w))) hits.push({ s, u, f, score: (a.includes(q) ? 0 : 1) + (kindOf(f) === 'term' ? 2 : 0) });
