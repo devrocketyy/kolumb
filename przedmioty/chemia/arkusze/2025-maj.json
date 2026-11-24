@@ -1,0 +1,593 @@
+{
+ "id": "2025-maj",
+ "nazwa": "Matura maj 2025",
+ "opis": "Egzamin maturalny z chemii, poziom rozszerzony, Formuła 2023 — termin główny 2025 r., 60 pkt, 180 min.",
+ "link": "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2025/Chemia/MCHP-R0-100-A-2505-arkusz.pdf",
+ "linkZasady": "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2025/zasady_oceniania/MCHP-R0-100-2505-zasady.pdf",
+ "zrodlo": "Arkusz: CKE, maj 2025 (otwórz PDF). Odpowiedzi i omówienia: opracowanie IndexLab na podstawie zasad oceniania CKE.",
+ "wiazki": [
+  {
+   "nr": "1",
+   "strona": 3,
+   "tytul": "Pierwiastki E i X",
+   "zadania": [
+    {
+     "nr": "1.1",
+     "punkty": 2,
+     "polecenie": "Podaj symbole pierwiastków E i X, ich bloki i liczbę elektronów walencyjnych.",
+     "odpowiedz": "E: Si, blok p, 4; X: Cl, blok p, 7.",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "Ustal pierwiastki z opisu w arkuszu, potem odczytaj konfigurację walencyjną: Si 3s²3p², Cl 3s²3p⁵.",
+     "dzialy": [
+      "atom"
+     ]
+    },
+    {
+     "nr": "1.2",
+     "punkty": 1,
+     "polecenie": "Podaj główną i poboczną liczbę kwantową niesparowanego elektronu atomu E.",
+     "odpowiedz": "n = 3, l = 1",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Niesparowane elektrony krzemu są na podpowłoce 3p: n = 3, l = 1 (p).",
+     "dzialy": [
+      "atom"
+     ]
+    },
+    {
+     "nr": "1.3",
+     "punkty": 1,
+     "polecenie": "Zapisz pełną konfigurację elektronową jonu X⁻.",
+     "odpowiedz": "1s² 2s² 2p⁶ 3s² 3p⁶",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Cl⁻ ma 18 elektronów — konfiguracja argonu.",
+     "dzialy": [
+      "atom"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "2",
+   "strona": 4,
+   "tytul": "Rozszczepienie uranu",
+   "zadania": [
+    {
+     "nr": "2.2",
+     "punkty": 1,
+     "polecenie": "²³⁵U + n → ⁹³Sr + X + 3n: wskaż jądro X (¹³⁹I / ¹⁴⁰Xe / ¹⁴⁰Ba) i jądro o większym stosunku n/p (²³⁵U / ⁹³Sr).",
+     "odpowiedz": "¹⁴⁰Xe; ²³⁵U",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Masa: 236 = 93 + A + 3 → A = 140; ładunek: 92 = 38 + Z → Z = 54 (Xe). n/p: U 143/92 ≈ 1,55; Sr 55/38 ≈ 1,45.",
+     "dzialy": [
+      "atom"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "3",
+   "strona": 5,
+   "tytul": "Tlenek jodu(V)",
+   "zadania": [
+    {
+     "nr": "3.1",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji I₂O₅ z wodą.",
+     "odpowiedz": "I₂O₅ + H₂O → 2HIO₃",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Tlenek kwasowy + woda → kwas jodowy(V).",
+     "dzialy": [
+      "nieorganiczne"
+     ]
+    },
+    {
+     "nr": "3.2",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji I₂O₅ z CO.",
+     "odpowiedz": "I₂O₅ + 5CO → I₂ + 5CO₂",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Bilans elektronowy: 2 I(+V) przyjmują 10 e⁻, 5 C(+II) oddaje 10 e⁻. Fioletowe pary jodu na zdjęciu.",
+     "dzialy": [
+      "nieorganiczne"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "4",
+   "strona": 5,
+   "tytul": "Wzór tlenku jodu",
+   "zadania": [
+    {
+     "nr": "4",
+     "punkty": 2,
+     "polecenie": "Tlen stanowi 20,14% masy tlenku; we wzorze rzeczywistym jest dwa razy więcej atomów I niż w empirycznym. Podaj oba wzory.",
+     "odpowiedz": "Empiryczny: IO₂; rzeczywisty: I₂O₄.",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "RACHUNEK: n(O) = 20,14/16 = 1,26; n(I) = 79,86/126,9 = 0,63 → 1 : 2. Wzór rzeczywisty to podwojony empiryczny.",
+     "dzialy": [
+      "stechiometria"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "5",
+   "strona": 6,
+   "tytul": "Trichlorek jodu",
+   "zadania": [
+    {
+     "nr": "5.1",
+     "punkty": 2,
+     "polecenie": "Zapisz równanie połówkowe redukcji i dobierz współczynniki: IO₃⁻ + I₂ + H⁺ + Cl⁻ → ICl₃ + H₂O.",
+     "odpowiedz": "Redukcja: IO₃⁻ + 3Cl⁻ + 6H⁺ + 2e⁻ → ICl₃ + 3H₂O. Całość: 3IO₃⁻ + I₂ + 18H⁺ + 15Cl⁻ → 5ICl₃ + 9H₂O.",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "I(+V) → I(+III) przyjmuje 2e⁻; I₂(0) → 2I(+III) oddaje 6e⁻, więc 3 : 1. Środowisko kwasowe — po stronie substratów H⁺.",
+     "dzialy": [
+      "redoks"
+     ]
+    },
+    {
+     "nr": "5.2",
+     "punkty": 2,
+     "polecenie": "Narysuj wzór elektronowy ICl₃ i rozstrzygnij, czy cząsteczka jest płaska trygonalna (VSEPR).",
+     "odpowiedz": "Jod z trzema wiązaniami I–Cl i dwiema wolnymi parami; nie — Lp = 3 + 2 = 5.",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "Liczba przestrzenna 5 → bipiramida trygonalna rozkładu par, kształt cząsteczki — litera T. Pułapka: pominięcie wolnych par na atomie centralnym.",
+     "dzialy": [
+      "redoks"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "6",
+   "strona": 7,
+   "tytul": "Czysty tlenek miedzi(II)",
+   "zadania": [
+    {
+     "nr": "6",
+     "punkty": 1,
+     "polecenie": "Ba(OH)₂ dodano do roztworów CuCl₂ i CuSO₄: w której probówce po rozkładzie powstał osad tylko tlenku metalu? Uzasadnij.",
+     "odpowiedz": "W probówce I (z CuCl₂). W probówce II (z CuSO₄) obok Cu(OH)₂ wytrąca się nierozpuszczalny BaSO₄.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "BaSO₄ jest drugim osadem, którego nie da się oddzielić od CuO sączeniem.",
+     "dzialy": [
+      "umiejetnosci"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "7",
+   "strona": 8,
+   "tytul": "Wodorotlenki",
+   "zadania": [
+    {
+     "nr": "7.1",
+     "punkty": 1,
+     "polecenie": "Wskaż wodorotlenki w zawiesinach probówek I i II (reakcje z HCl i H₂SO₄).",
+     "odpowiedz": "I: Ca(OH)₂; II: Al(OH)₃.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Ca(OH)₂ z H₂SO₄ daje trudno rozpuszczalny CaSO₄ (zawiesina zostaje), Al(OH)₃ roztwarza się w obu kwasach.",
+     "dzialy": [
+      "nieorganiczne"
+     ]
+    },
+    {
+     "nr": "7.2",
+     "punkty": 2,
+     "polecenie": "Zapisz: rozkład termiczny wodorotlenku z probówki III (cząsteczkowo) i roztwarzanie wodorotlenku z IV w NaOH (jonowo).",
+     "odpowiedz": "Cu(OH)₂ → CuO + H₂O (ogrzewanie); Cr(OH)₃ + OH⁻ → [Cr(OH)₄]⁻",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "Niebieski Cu(OH)₂ czernieje po ogrzaniu; zielony Cr(OH)₃ jest amfoteryczny. Dopuszczalny też [Cr(OH)₆]³⁻.",
+     "dzialy": [
+      "nieorganiczne"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "8",
+   "strona": 9,
+   "tytul": "Otrzymywanie HBr",
+   "zadania": [
+    {
+     "nr": "8",
+     "punkty": 2,
+     "polecenie": "9,5 g KBr → HBr → 80 cm³ kwasu; 1 cm³ zobojętniono 6,9 cm³ KOH o pH = 13. Oblicz, jaki procent KBr przereagował.",
+     "odpowiedz": "ok. 69,2%",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "MODEL: KOH → HBr w próbce → w całym roztworze → KBr. RACHUNEK: [OH⁻] = 0,1; n = 0,1 · 0,0069 = 6,9·10⁻⁴ mol; × 80 = 0,0552 mol; m(KBr) = 0,0552 · 119 = 6,57 g; 6,57/9,5 = 69,2%. Pułapka: zapomnienie o przeliczeniu z 1 cm³ na 80 cm³.",
+     "dzialy": [
+      "stechiometria"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "9",
+   "strona": 10,
+   "tytul": "Metale i kwasy",
+   "zadania": [
+    {
+     "nr": "9",
+     "punkty": 2,
+     "polecenie": "Zn, Ag, HCl, HNO₃ — każdy raz. Zapisz równania jonowe obu doświadczeń.",
+     "odpowiedz": "Ag + NO₃⁻ + 2H⁺ → Ag⁺ + NO₂ + H₂O; Zn + 2H⁺ → Zn²⁺ + H₂",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "Srebro (E° > 0) nie wypiera wodoru — roztwarza je tylko kwas utleniający (brunatny NO₂ ze stężonego HNO₃). Cynk reaguje z HCl.",
+     "dzialy": [
+      "redoks"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "10",
+   "strona": 11,
+   "tytul": "Kinetyka syntezy XY₂",
+   "zadania": [
+    {
+     "nr": "10.1",
+     "punkty": 1,
+     "polecenie": "Oceń: (1) zmniejszenie objętości (T = const) zwiększa szybkość; (2) wzrost temperatury zmniejsza szybkość.",
+     "odpowiedz": "P, F",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Mniejsza objętość → większe stężenia → większa szybkość. Wzrost temperatury zwiększa szybkość (zwiększa stałą k).",
+     "dzialy": [
+      "kinetyka"
+     ]
+    },
+    {
+     "nr": "10.2",
+     "punkty": 4,
+     "polecenie": "Z wykresów ustal wykładniki a i b, oblicz k i szybkość reakcji, gdy w reaktorze 4,0 dm³ (start: 12 mol, mieszanina stechiometryczna) jest łącznie 9,0 mol gazów.",
+     "odpowiedz": "a = 1, b = 2; k = 1 mol⁻²·dm⁶·s⁻¹; v = 0,0625 mol·dm⁻³·s⁻¹",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "RACHUNEK: start 4 mol X₂ + 8 mol Y₂; ubyło x: 12 − x = 9 → x = 3; zostało 1 mol X₂ i 2 mol Y₂ → [X₂] = 0,25, [Y₂] = 0,5; v = 1 · 0,25 · 0,5² = 0,0625. Pułapka: jednostka k zależy od rzędu reakcji (tu 3).",
+     "dzialy": [
+      "kinetyka"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "11",
+   "strona": 12,
+   "tytul": "Fosforany sodu",
+   "zadania": [
+    {
+     "nr": "11",
+     "punkty": 2,
+     "polecenie": "Zapisz (Brønsted) równania decydujące o odczynie Na₂HPO₄ i NaH₂PO₄.",
+     "odpowiedz": "HPO₄²⁻ + H₂O ⇄ H₂PO₄⁻ + OH⁻ (zasadowy); H₂PO₄⁻ + H₂O ⇄ HPO₄²⁻ + H₃O⁺ (kwasowy).",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "Oba jony są amfiprotyczne — przewaga jednego procesu wynika z wyników doświadczenia (fenoloftaleina malinowa tylko dla Na₂HPO₄).",
+     "dzialy": [
+      "roztwory-wodne"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "12",
+   "strona": 13,
+   "tytul": "pH chlorku amonu",
+   "zadania": [
+    {
+     "nr": "12",
+     "punkty": 3,
+     "polecenie": "0,10 g NH₄Cl w 100 cm³. Oblicz pH (do 0,1) i wybierz barwę błękitu bromotymolowego (A/B/C).",
+     "odpowiedz": "pH ≈ 5,5; zdjęcie B (żółta barwa).",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "MODEL: Ka(NH₄⁺) = Kw/Kb. RACHUNEK: Ka = 10⁻¹⁴/1,78·10⁻⁵ = 5,62·10⁻¹⁰; c = 0,10/53,5/0,1 = 0,0187; [H⁺] = √(Ka·c) ≈ 3,3·10⁻⁶; pH = 5,5. Pułapka: użycie Kb zamiast Ka.",
+     "dzialy": [
+      "roztwory-wodne"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "13",
+   "strona": 14,
+   "tytul": "Stała równowagi syntezy amoniaku",
+   "zadania": [
+    {
+     "nr": "13",
+     "punkty": 2,
+     "polecenie": "[N₂]₀ = 0,20, [H₂]₀ = 0,60 mol·dm⁻³; ciśnienie spadło do 75%. Oblicz Kc.",
+     "odpowiedz": "Kc ≈ 14,8",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "MODEL: p ~ łączne stężenie (V, T const). RACHUNEK: 0,8 − 2x = 0,6 → x = 0,1; [NH₃] = 0,2, [N₂] = 0,1, [H₂] = 0,3; K = 0,2²/(0,1 · 0,3³) = 0,04/0,0027 = 14,8. SPRAWDZENIE: K bez jednostki lub mol⁻²·dm⁶.",
+     "dzialy": [
+      "kinetyka"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "14",
+   "strona": 15,
+   "tytul": "Półogniwa redoks",
+   "zadania": [
+    {
+     "nr": "14.1",
+     "punkty": 2,
+     "polecenie": "Aby malało pH w półogniwie A, stężenie H⁺ musi się (zwiększać/zmniejszać), zachodzi (redukcja/utlenianie), drugie półogniwo jest (anodą/katodą). Z którym (B/C) połączyć A?",
+     "odpowiedz": "zwiększać; utlenianie; katodą; z półogniwem C.",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "Spadek pH = przybywa H⁺, a H⁺ powstają przy utlenianiu → A jest anodą, więc drugie półogniwo musi mieć wyższy potencjał (C).",
+     "dzialy": [
+      "redoks"
+     ]
+    },
+    {
+     "nr": "14.2",
+     "punkty": 1,
+     "polecenie": "Zapisz schemat ogniwa z półogniw B i C.",
+     "odpowiedz": "(−) Pt | Br⁻, Br₂ || Co³⁺, Co²⁺ | Pt (+)",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Anodą jest półogniwo o niższym potencjale (Br₂/Br⁻), katodą Co³⁺/Co²⁺.",
+     "dzialy": [
+      "redoks"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "15",
+   "strona": 16,
+   "tytul": "Energia spalania LPG",
+   "zadania": [
+    {
+     "nr": "15",
+     "punkty": 2,
+     "polecenie": "Oblicz energię wydzieloną przy spaleniu 1,0 dm³ letniego LPG (dane: skład i gęstość z tabeli, entalpie spalania).",
+     "odpowiedz": "ok. 27 900 kJ",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "RACHUNEK: m = 560 g; n(propan) : n(butan) = 3 : 7; 44·(3/7)n + 58n = 560 → n(butan) = 7,29 mol, n(propan) = 3,12 mol; E = 7,29 · 2878 + 3,12 · 2219 ≈ 27 900 kJ.",
+     "dzialy": [
+      "kinetyka"
+     ]
+    },
+    {
+     "nr": "16",
+     "punkty": 1,
+     "polecenie": "Energia ze spalenia 1 dm³ zimowego LPG jest (mniejsza/taka sama/większa) niż letniego; więcej CO₂ z 1 dm³ daje LPG (letni/zimowy).",
+     "odpowiedz": "mniejsza niż; letni",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Zimowy ma więcej propanu — mniejsza gęstość i mniej atomów C w 1 dm³ cieczy.",
+     "dzialy": [
+      "kinetyka"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "17",
+   "strona": 17,
+   "tytul": "Hydratacja alkenów",
+   "zadania": [
+    {
+     "nr": "17.1",
+     "punkty": 2,
+     "polecenie": "Podaj alkeny i warunki, z których przez przyłączenie wody powstają 3-metylopentan-3-ol oraz pentan-3-ol.",
+     "odpowiedz": "Np. CH₃–CH=C(CH₃)–CH₂–CH₃ (lub CH₂=C(C₂H₅)₂ itp.) oraz CH₃–CH=CH–CH₂–CH₃; warunki: H⁺ (np. H₂SO₄), podwyższona temperatura.",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "Reguła Markownikowa: –OH trafia do bardziej podstawionego atomu węgla. Pent-1-en dałby pentan-2-ol, nie pentan-3-ol.",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "18",
+     "punkty": 1,
+     "polecenie": "Typ i mechanizm reakcji p-ksylenu z Br₂: w świetle oraz z Fe.",
+     "odpowiedz": "Oba — substytucja; światło: rodnikowy, Fe: elektrofilowy.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Światło → podstawienie H w grupie CH₃; Fe (FeBr₃) → podstawienie H w pierścieniu.",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "19",
+     "punkty": 1,
+     "polecenie": "Napisz równanie monobromowania p-ksylenu w świetle.",
+     "odpowiedz": "CH₃–C₆H₄–CH₃ + Br₂ → CH₃–C₆H₄–CH₂Br + HBr (światło)",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Brom zastępuje H w łańcuchu bocznym, nie w pierścieniu.",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "20",
+     "punkty": 1,
+     "polecenie": "Napisz wzór kwasu tereftalowego.",
+     "odpowiedz": "HOOC–C₆H₄–COOH (podstawniki w pozycjach 1,4)",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Obie grupy CH₃ utleniają się do –COOH.",
+     "dzialy": [
+      "organiczna"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "21",
+   "strona": 19,
+   "tytul": "Borowodorek sodu",
+   "zadania": [
+    {
+     "nr": "21",
+     "punkty": 1,
+     "polecenie": "Uzupełnij schemat otrzymywania 2,2-dimetylopropan-1-olu z użyciem NaBH₄.",
+     "odpowiedz": "(CH₃)₃C–CHO → (CH₃)₃C–CH₂OH",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Alkohol I-rzędowy powstaje z aldehydu.",
+     "dzialy": [
+      "tlenowe"
+     ]
+    },
+    {
+     "nr": "22",
+     "punkty": 1,
+     "polecenie": "Która redukcja — propan-2-onu czy butan-2-onu — daje mieszaninę enancjomerów? Uzasadnij.",
+     "odpowiedz": "Butan-2-onu — powstały butan-2-ol ma asymetryczny atom węgla.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Propan-2-ol ma przy C2 dwie jednakowe grupy CH₃ — jest achiralny.",
+     "dzialy": [
+      "tlenowe"
+     ]
+    },
+    {
+     "nr": "23",
+     "punkty": 2,
+     "polecenie": "Redukcja substratu do feksofenadyny wymaga (2/3) moli elektronów; hybrydyzacja redukowanego C: w substracie (sp/sp²/sp³), w produkcie (sp/sp²/sp³).",
+     "odpowiedz": "2; sp²; sp³",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "C=O → CH–OH: stopień utlenienia węgla spada o 2. Węgiel karbonylowy sp², alkoholowy sp³.",
+     "dzialy": [
+      "tlenowe"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "24",
+   "strona": 20,
+   "tytul": "Temperatury wrzenia estrów",
+   "zadania": [
+    {
+     "nr": "24",
+     "punkty": 1,
+     "polecenie": "Uszereguj estry A–C według rosnącej temperatury wrzenia.",
+     "odpowiedz": "A, C, B",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Przy tej samej masie molowej silniej rozgałęziona cząsteczka ma mniejszą powierzchnię kontaktu i słabsze oddziaływania — niższą temperaturę wrzenia.",
+     "dzialy": [
+      "tlenowe"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "25",
+   "strona": 21,
+   "tytul": "PLA",
+   "zadania": [
+    {
+     "nr": "25.1",
+     "punkty": 1,
+     "polecenie": "Uzupełnij wzory obu enancjomerów kwasu mlekowego (lustrzane odbicia).",
+     "odpowiedz": "Przy C* podstawniki: COOH, H, CH₃, OH — w drugim wzorze rozmieszczone jak w lustrze.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Punkt tylko, gdy wzory są rzeczywiście lustrzanymi odbiciami.",
+     "dzialy": [
+      "azotowe-cukry"
+     ]
+    },
+    {
+     "nr": "25.2",
+     "punkty": 1,
+     "polecenie": "Napisz wzór poli(kwasu mlekowego).",
+     "odpowiedz": "[–O–CH(CH₃)–CO–]ₙ",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Polikondensacja: grupa –OH jednej cząsteczki z –COOH drugiej, wiązanie estrowe.",
+     "dzialy": [
+      "azotowe-cukry"
+     ]
+    },
+    {
+     "nr": "26",
+     "punkty": 1,
+     "polecenie": "Cu(OH)₂ + glicerol / kwas mlekowy / tripeptyd: wskaż probówkę z kwasem mlekowym i zapisz równanie.",
+     "odpowiedz": "III; 2CH₃CH(OH)COOH + Cu(OH)₂ → (CH₃CH(OH)COO)₂Cu + 2H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Kwas zobojętnia wodorotlenek — niebieski roztwór soli; glicerol — szafirowy kompleks, tripeptyd — fioletowy (biuretowa).",
+     "dzialy": [
+      "azotowe-cukry"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "27",
+   "strona": 22,
+   "tytul": "Oktopamina",
+   "zadania": [
+    {
+     "nr": "27.1",
+     "punkty": 1,
+     "polecenie": "Oceń: (1) grupy –OH oktopaminy różnią się zdolnością odłączania protonu; (2) oktopamina może być utleniona do ketonu.",
+     "odpowiedz": "P, P",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Fenolowa –OH jest kwasowa, alkoholowa — praktycznie nie. Alkoholowa –OH jest II-rzędowa → keton.",
+     "dzialy": [
+      "azotowe-cukry"
+     ]
+    },
+    {
+     "nr": "27.3",
+     "punkty": 1,
+     "polecenie": "Uzupełnij równanie reakcji oktopaminy z HNO₂ (wydziela się N₂).",
+     "odpowiedz": "HO–C₆H₄–CH(OH)–CH₂–NH₃⁺ + HNO₂ → HO–C₆H₄–CH(OH)–CH₂OH + N₂ + H₃O⁺",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Amina I-rzędowa + HNO₂ → alkohol + N₂. Produkt ma dwie sąsiednie –OH — roztwarza Cu(OH)₂ na szafirowo.",
+     "dzialy": [
+      "azotowe-cukry"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "28",
+   "strona": 23,
+   "tytul": "Synteza alaniny",
+   "zadania": [
+    {
+     "nr": "28.1",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji kwasu propanowego z Br₂ (P).",
+     "odpowiedz": "CH₃–CH₂–COOH + Br₂ → CH₃–CHBr–COOH + HBr",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Bromowanie w pozycji α (katalizator — fosfor).",
+     "dzialy": [
+      "azotowe-cukry"
+     ]
+    },
+    {
+     "nr": "28.2",
+     "punkty": 1,
+     "polecenie": "Zapisz jonowo reakcję związku A z NH₃ (1 : 3).",
+     "odpowiedz": "CH₃–CHBr–COOH + 3NH₃ → CH₃–CH(NH₂)–COO⁻ + 2NH₄⁺ + Br⁻",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Jedna cząsteczka NH₃ podstawia Br, druga wiąże HBr, trzecia zobojętnia –COOH.",
+     "dzialy": [
+      "azotowe-cukry"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "29",
+   "strona": 24,
+   "tytul": "Monosacharydy",
+   "zadania": [
+    {
+     "nr": "29",
+     "punkty": 1,
+     "polecenie": "Wskaż numery pentoz i parę anomerów (wzory 1–4).",
+     "odpowiedz": "Pentozy: 1, 4; anomery: 2, 3.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Anomery różnią się tylko położeniem –OH przy węglu anomerycznym (C1).",
+     "dzialy": [
+      "azotowe-cukry"
+     ]
+    }
+   ]
+  }
+ ]
+}
