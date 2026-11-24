@@ -3,7 +3,7 @@ T = {}
 
 T['c-polecenia'] = dict(F=[
  ('Karta wybranych wzorów i stałych', 'Broszura CKE dostępna na egzaminie: układ okresowy, tablice rozpuszczalności, potencjały, stałe dysocjacji, wzory.'),
- ('Kalkulator na maturze z chemii', 'Dozwolony kalkulator prosty lub naukowy (bez funkcji programowania i komunikacji).'),
+ ('Kalkulator na maturze z chemii', 'Dozwolony kalkulator naukowy (bez funkcji komunikacji), linijka i karta wybranych wzorów CKE.'),
  ('Czas egzaminu z chemii (rozszerzenie)', '180 minut, ok. 60 punktów.'),
  ('Próg zdania rozszerzenia', 'Brak progu — wynik w procentach liczy się przy rekrutacji.'),
 ])

@@ -23,7 +23,6 @@ q('c-okresowosc',
  ('Pierwiastkiem bloku d jest:', ['*mangan', 'glin', 'wapń', 'selen'], 'Grupa 7.'),
  ('Spośród Na, Mg, Al, Cl najmniejszy promień atomowy ma:', ['*chlor', 'sód', 'magnez', 'glin'], 'Maleje w prawo.'))
 q('c-promieniotworczosc',
- ('Wskaż poprawne dokończenie: najbardziej przenikliwe jest promieniowanie:', ['*γ', 'α', 'β⁻', 'β⁺'], 'Fale elektromagnetyczne.'),
  ('Okres półtrwania zależy od:', ['*rodzaju izotopu', 'masy próbki', 'temperatury', 'ciśnienia'], 'Stała charakterystyczna.'))
 q('c-wiazania',
  ('Wiązanie koordynacyjne występuje w jonie:', ['*H₃O⁺', 'Cl⁻', 'Na⁺', 'O²⁻'], 'Woda oddaje parę dla H⁺.'),
@@ -101,8 +100,7 @@ q('c-elektroliza',
  ('Elektroliza stopionego NaCl daje na katodzie:', ['*sód', 'wodór', 'chlor', 'tlen'], 'Brak wody.'),
  ('Stała Faradaya wynosi ok.:', ['*96 500 C/mol', '6,02·10²³ C', '8,314 C', '22,4 C'], 'Ładunek mola elektronów.'))
 q('c-izomeria',
- ('Izomerem funkcyjnym etanolu jest:', ['*eter dimetylowy', 'metanol', 'etanal', 'kwas octowy'], 'C₂H₆O.'),
- ('Wskaż poprawne dokończenie: mieszanina racemiczna jest:', ['*optycznie nieczynna', 'prawoskrętna', 'lewoskrętna', 'zawsze krystaliczna'], 'Równe ilości enancjomerów.'))
+ ('Izomerem funkcyjnym etanolu jest:', ['*eter dimetylowy', 'metanol', 'etanal', 'kwas octowy'], 'C₂H₆O.'))
 q('c-alkany',
  ('Pierwszy etap substytucji rodnikowej to:', ['*inicjacja', 'propagacja', 'terminacja', 'eliminacja'], 'Rozpad Cl₂ na rodniki.'),
  ('Produktem niecałkowitego spalania metanu może być:', ['*CO', 'CO₂ i O₂', 'H₂O₂', 'CH₃OH'], 'Niedobór tlenu.'))

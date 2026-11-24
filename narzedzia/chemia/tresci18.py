@@ -103,8 +103,7 @@ q('c-alkany',
  ('Nazwa CH₃–CH(CH₃)–CH(CH₃)–CH₃:', ['*2,3-dimetylobutan', '2,2-dimetylobutan', 'heksan', '3-metylopentan'], 'Łańcuch 4 C.'),
  ('Gaz ziemny to głównie:', ['*metan', 'etan', 'propan', 'butan'], 'CH₄.'))
 q('c-alkeny',
- ('Wodę bromową odbarwia:', ['*propen', 'propan', 'benzen', 'cykloheksan'], 'Wiązanie C=C.'),
- ('Wskaż poprawną odpowiedź — wzór ogólny alkinów to:', ['*CₙH₂ₙ₋₂', 'CₙH₂ₙ', 'CₙH₂ₙ₊₂', 'CₙHₙ'], 'Wiązanie potrójne.'))
+ ('Wodę bromową odbarwia:', ['*propen', 'propan', 'benzen', 'cykloheksan'], 'Wiązanie C=C.'))
 q('c-areny',
  ('Kwas benzoesowy kieruje podstawnik w położenie:', ['*meta', 'orto', 'para', 'orto i para'], 'Grupa dezaktywująca.'),
  ('Nitrobenzen otrzymuje się z benzenu i:', ['*HNO₃/H₂SO₄', 'HCl', 'NaNO₂', 'NH₃'], 'Mieszanina nitrująca.'))
@@ -121,8 +120,7 @@ q('c-estry',
  ('Hydroliza octanu etylu w NaOH daje:', ['*octan sodu i etanol', 'kwas octowy i etanol', 'etanol i etan', 'octan sodu i eten'], 'Zmydlanie.'),
  ('Tłuszcze to estry glicerolu i:', ['*wyższych kwasów tłuszczowych', 'kwasu octowego', 'etanolu', 'aminokwasów'], 'Triacyloglicerole.'))
 q('c-aminy',
- ('Metyloamina z HCl tworzy:', ['*chlorek metyloamoniowy', 'chlorometan', 'metanol', 'amid'], 'Sól.'),
- ('Wskaż poprawną odpowiedź — mocznik to:', ['*diamid kwasu węglowego', 'amina III-rzędowa', 'aminokwas', 'ester'], '(NH₂)₂CO.'))
+ ('Metyloamina z HCl tworzy:', ['*chlorek metyloamoniowy', 'chlorometan', 'metanol', 'amid'], 'Sól.'))
 q('c-aminokwasy',
  ('Tripeptyd ma wiązań peptydowych:', ['*2', '3', '1', '4'], 'n − 1.'),
  ('Lizyna jest aminokwasem:', ['*zasadowym', 'kwasowym', 'obojętnym', 'siarkowym'], 'Dodatkowa grupa aminowa.'))

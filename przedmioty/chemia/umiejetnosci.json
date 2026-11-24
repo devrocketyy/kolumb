@@ -288,7 +288,7 @@
     {
      "id": "f35c4e872",
      "przod": "Kalkulator na maturze z chemii",
-     "tyl": "Dozwolony kalkulator prosty lub naukowy (bez funkcji programowania i komunikacji).",
+     "tyl": "Dozwolony kalkulator naukowy (bez funkcji komunikacji), linijka i karta wybranych wzorów CKE.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne I–II"
     },
     {
@@ -390,12 +390,12 @@
      "id": "p5e9f1be8",
      "pytanie": "Uczeń napisał poprawne równanie, a obok dopisał błędną nazwę produktu. Co zwykle się dzieje?",
      "odpowiedzi": [
-      "traci punkt, bo odpowiedź zawiera błąd merytoryczny",
-      "otrzymuje pełną liczbę punktów",
-      "egzaminator pomija dopisek",
-      "otrzymuje pół punktu"
+      "otrzymuje pełną liczbę punktów za równanie",
+      "traci punkt, bo odpowiedź zawiera błąd",
+      "otrzymuje połowę punktów za zadanie",
+      "egzaminator pomija dopisek jako nieistotny"
      ],
-     "poprawna": "A",
+     "poprawna": "B",
      "wyjasnienie": "CKE: niepotrzebne, błędne komentarze powodują utratę punktów.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -416,12 +416,12 @@
      "id": "p9a455671",
      "pytanie": "Co oznacza „roztwarzanie” cynku w kwasie solnym?",
      "odpowiedzi": [
-      "fizyczne rozpuszczenie metalu",
-      "topnienie metalu",
-      "reakcję chemiczną metalu z kwasem, w której metal przechodzi do roztworu jako jony",
-      "osadzanie cynku na dnie"
+      "reakcję metalu z kwasem — powstają jony Zn²⁺",
+      "osadzanie się cynku na dnie naczynia",
+      "fizyczne rozpuszczenie metalu bez reakcji",
+      "topnienie metalu pod wpływem ciepła reakcji"
      ],
-     "poprawna": "C",
+     "poprawna": "A",
      "wyjasnienie": "Zn + 2H⁺ → Zn²⁺ + H₂ — to reakcja, a nie rozpuszczanie.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -456,9 +456,9 @@
      "pytanie": "Polecenie „Uzasadnij” wymaga:",
      "odpowiedzi": [
       "podania przyczyny z odwołaniem do danych",
-      "narysowania wykresu",
-      "samego podania odpowiedzi",
-      "podania wzoru ogólnego"
+      "samego podania odpowiedzi bez komentarza",
+      "narysowania wykresu na podstawie danych",
+      "podania wzoru ogólnego związku"
      ],
      "poprawna": "A",
      "wyjasnienie": "Uzasadnienie = związek przyczynowo-skutkowy.",
@@ -1645,12 +1645,12 @@
      "id": "p7dd3eaba",
      "pytanie": "Jaką barwę ma osad Cu(OH)₂?",
      "odpowiedzi": [
-      "niebieski, galaretowaty",
-      "brunatny",
-      "żółty",
-      "biały"
+      "żółtą",
+      "brunatną",
+      "białą",
+      "niebieską"
      ],
-     "poprawna": "A",
+     "poprawna": "D",
      "wyjasnienie": "Cu(OH)₂ — niebieski, galaretowaty.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
