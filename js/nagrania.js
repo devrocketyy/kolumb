@@ -287,5 +287,23 @@ export const NAGRANIA_AUTO = {
   "min": 4,
   "czasy": "podcast/mp3/biologia-48-wirusy.json",
   "pytania": "podcast/pytania/biologia-48-wirusy.json"
+ },
+ "biologia/p/b-bakterie": {
+  "plik": "podcast/mp3/biologia-49-bakterie.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-49-bakterie.json",
+  "pytania": "podcast/pytania/biologia-49-bakterie.json"
+ },
+ "biologia/p/b-protisty": {
+  "plik": "podcast/mp3/biologia-50-protisty.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-50-protisty.json",
+  "pytania": "podcast/pytania/biologia-50-protisty.json"
+ },
+ "biologia/p/b-grzyby": {
+  "plik": "podcast/mp3/biologia-51-grzyby.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-51-grzyby.json",
+  "pytania": "podcast/pytania/biologia-51-grzyby.json"
  }
 };
