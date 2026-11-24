@@ -47,6 +47,69 @@
    "dzial": "umiejetnosci"
   },
   {
+   "tytul": "Błędy w odpowiedzi ucznia — równanie jonowe",
+   "material": "Tekst autorski. Uczeń zapisał reakcję CaCO₃ z kwasem solnym: CO₃²⁻ + 2H⁺ → CO₂ + H₂O.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wskaż błąd i podaj poprawny zapis.",
+     "odpowiedz": "CaCO₃ jest trudno rozpuszczalny — nie rozpisuje się go na jony: CaCO₃ + 2H⁺ → Ca²⁺ + CO₂ + H₂O.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Typowy błąd z raportów CKE.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-umiejetnosci-03",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Błędy w odpowiedzi ucznia — obliczenia",
+   "material": "Tekst autorski. Uczeń obliczył pH 0,01 M Ba(OH)₂ jako 12.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wskaż błąd i podaj poprawny wynik.",
+     "odpowiedz": "Pominął dwie grupy OH⁻: [OH⁻] = 0,02 → pOH = 1,7 → pH = 12,3.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    }
+   ],
+   "id": "b-umiejetnosci-04",
+   "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Plan doświadczenia — elektroliza",
+   "material": "Tekst autorski. Należy wykazać, że podczas elektrolizy roztworu KI przy anodzie powstaje jod.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaproponuj odczynnik do wykrycia jodu i obserwację.",
+     "odpowiedz": "Kleik skrobiowy — granatowe zabarwienie przy anodzie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaproponuj wskaźnik pokazujący zmianę odczynu przy katodzie i obserwację.",
+     "odpowiedz": "Fenoloftaleina — malinowe zabarwienie (powstają jony OH⁻).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-05",
+   "dzial": "umiejetnosci"
+  },
+  {
    "tytul": "Trzy bezbarwne roztwory",
    "material": "Tekst autorski. W trzech nieopisanych probówkach znajdują się wodne roztwory: NaCl, Na₂SO₄ i Na₂CO₃. Do dyspozycji są: roztwór BaCl₂, kwas solny, roztwór AgNO₃, fenoloftaleina.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -79,7 +142,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-03",
+   "id": "b-umiejetnosci-06",
    "dzial": "umiejetnosci"
   },
   {
@@ -106,7 +169,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-04",
+   "id": "b-umiejetnosci-07",
    "dzial": "umiejetnosci"
   },
   {
@@ -142,7 +205,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-05",
+   "id": "b-umiejetnosci-08",
    "dzial": "umiejetnosci"
   }
  ]

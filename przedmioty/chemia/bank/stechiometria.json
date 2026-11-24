@@ -209,6 +209,33 @@
    "dzial": "stechiometria"
   },
   {
+   "tytul": "Analiza miareczkowa — Cl⁻ metodą Mohra",
+   "material": "Tekst autorski. 20,0 cm³ wody mineralnej zmiareczkowano 0,0100 M AgNO₃ wobec K₂CrO₄ — zużyto 12,0 cm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stężenie jonów Cl⁻ w mg/dm³ (M(Cl) = 35,5).",
+     "odpowiedz": "ok. 213 mg/dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n = 1,2·10⁻⁴ mol w 20 cm³ → 6,0·10⁻³ mol/dm³ · 35,5 g = 0,213 g/dm³.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jak rozpoznać punkt końcowy.",
+     "odpowiedz": "Pojawia się ceglastoczerwony osad Ag₂CrO₄.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wytrąca się po całkowitym strąceniu AgCl.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-10",
+   "dzial": "stechiometria"
+  },
+  {
    "tytul": "Mieszanina węglanów",
    "material": "Tekst autorski. Mieszaninę Na₂CO₃ i NaHCO₃ o masie 2,74 g roztworzono w nadmiarze kwasu solnego. Wydzieliło się 0,672 dm³ CO₂ (warunki normalne). M(Na₂CO₃) = 106 g/mol, M(NaHCO₃) = 84 g/mol.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -232,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-10",
+   "id": "b-stechiometria-11",
    "dzial": "stechiometria"
   },
   {
@@ -259,7 +286,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-11",
+   "id": "b-stechiometria-12",
    "dzial": "stechiometria"
   },
   {
@@ -286,7 +313,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-12",
+   "id": "b-stechiometria-13",
    "dzial": "stechiometria"
   },
   {
@@ -304,7 +331,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-13",
+   "id": "b-stechiometria-14",
    "dzial": "stechiometria"
   },
   {
@@ -322,7 +349,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-14",
+   "id": "b-stechiometria-15",
    "dzial": "stechiometria"
   },
   {
@@ -340,7 +367,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-15",
+   "id": "b-stechiometria-16",
    "dzial": "stechiometria"
   },
   {
@@ -358,7 +385,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-16",
+   "id": "b-stechiometria-17",
    "dzial": "stechiometria"
   },
   {
@@ -385,7 +412,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-17",
+   "id": "b-stechiometria-18",
    "dzial": "stechiometria"
   },
   {
@@ -403,7 +430,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-18",
+   "id": "b-stechiometria-19",
    "dzial": "stechiometria"
   },
   {
@@ -421,7 +448,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-19",
+   "id": "b-stechiometria-20",
    "dzial": "stechiometria"
   },
   {
@@ -439,7 +466,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-20",
+   "id": "b-stechiometria-21",
    "dzial": "stechiometria"
   },
   {
@@ -457,7 +484,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-21",
+   "id": "b-stechiometria-22",
    "dzial": "stechiometria"
   },
   {
@@ -475,7 +502,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-22",
+   "id": "b-stechiometria-23",
    "dzial": "stechiometria"
   },
   {
@@ -502,7 +529,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-23",
+   "id": "b-stechiometria-24",
    "dzial": "stechiometria"
   }
  ]
