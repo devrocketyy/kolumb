@@ -1,0 +1,9 @@
+{
+  "odcinek": "biologia-22-fermentacje",
+  "pytania": [
+    {"id": "znaczenie", "typ": "abcd", "pytanie": "Jakie jest znaczenie fermentacji dla komórki?", "odpowiedzi": ["Odtwarza NAD+, dzięki czemu glikoliza może trwać", "Dostarcza większość ATP", "Usuwa tlen z komórki", "Produkuje glukozę"], "poprawna": 0, "wyjasnienie": "Sama fermentacja nie daje ATP — umożliwia dalszą glikolizę."},
+    {"id": "kiszonki", "typ": "abcd", "pytanie": "Dlaczego kiszonki długo się nie psują?", "odpowiedzi": ["Mleczan zakwasza środowisko i hamuje bakterie gnilne", "Sól zabija wszystkie bakterie", "Etanol z fermentacji je konserwuje", "Brak tlenu zatrzymuje wszystkie przemiany"], "poprawna": 0, "wyjasnienie": "Bakterie fermentacji mlekowej wytwarzają mleczan."},
+    {"id": "atp-fermentacji", "typ": "laczenie", "polecenie": "Połącz proces z produktami.", "pary": [["Fermentacja mleczanowa", "mleczan"], ["Fermentacja alkoholowa", "etanol i dwutlenek węgla"], ["Glikoliza", "2 ATP i 2 pirogroniany"], ["Oddychanie tlenowe", "ok. 30 ATP"]], "wyjasnienie": "Fermentacje dają tylko 2 ATP z glikolizy."},
+    {"id": "glodowka", "typ": "abcd", "pytanie": "Skąd mózg bierze glukozę po kilku dniach głodówki?", "odpowiedzi": ["Z glukoneogenezy w wątrobie", "Z glikogenu mięśni", "Z fermentacji alkoholowej", "Z rozkładu DNA"], "poprawna": 0, "wyjasnienie": "Glikogen wątroby wyczerpuje się w ok. dobę; potem glukozę daje glukoneogeneza."}
+  ]
+}

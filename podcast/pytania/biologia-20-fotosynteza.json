@@ -1,0 +1,9 @@
+{
+  "odcinek": "biologia-20-fotosynteza",
+  "pytania": [
+    {"id": "tlen", "typ": "abcd", "pytanie": "Skąd pochodzi tlen wydzielany w fotosyntezie?", "odpowiedzi": ["Z wody, w fotolizie w fazie zależnej od światła", "Z dwutlenku węgla, w cyklu Calvina", "Z glukozy", "Z RuBP"], "poprawna": 0, "wyjasnienie": "Udowodnili to Ruben i Kamen, używając wody z ciężkim izotopem tlenu."},
+    {"id": "calvin", "typ": "laczenie", "polecenie": "Połącz fazę z miejscem i produktami.", "pary": [["Faza zależna od światła", "tylakoidy: tlen, ATP, NADPH"], ["Cykl Calvina", "stroma: cukier z dwutlenku węgla"], ["RuBisCO", "przyłącza dwutlenek węgla do RuBP"]], "wyjasnienie": "Cykl Calvina zużywa ATP i NADPH z fazy świetlnej."},
+    {"id": "czynnik", "typ": "abcd", "pytanie": "Przy słabym świetle zwiększono stężenie CO₂, a fotosynteza nie przyspieszyła. Dlaczego?", "odpowiedzi": ["Czynnikiem ograniczającym było światło", "CO₂ hamuje fotosyntezę", "Zabrakło tlenu", "RuBisCO uległo denaturacji"], "poprawna": 0, "wyjasnienie": "Intensywność ogranicza czynnik, którego jest najmniej względem potrzeb."},
+    {"id": "priestley", "typ": "abcd", "pytanie": "Dlaczego mysz pod kloszem z miętą przeżyła?", "odpowiedzi": ["Mięta w świetle wydzielała tlen w fotosyntezie", "Mięta pochłaniała tlen", "Mięta wydzielała dwutlenek węgla", "Mysz jadła miętę"], "poprawna": 0, "wyjasnienie": "W świetle roślina „naprawia powietrze”, wydzielając tlen."}
+  ]
+}

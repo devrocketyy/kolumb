@@ -21,7 +21,8 @@ KLUCZ = os.environ.get('GOOGLE_TTS_KEY', 'x')  # 'x' — w środowisku Claude pr
 WYMOWA = [
     (r'\bmRNA\b', 'em-er-en-a'), (r'\btRNA\b', 'te-er-en-a'), (r'\brRNA\b', 'er-er-en-a'),
     (r'\bDNA\b', 'de-en-a'), (r'\bRNA\b', 'er-en-a'), (r'\bATP\b', 'a-te-pe'), (r'\bADP\b', 'a-de-pe'),
-    (r'\bNADPH\b', 'en-a-de-pe-ha'), (r'\bNADH\b', 'en-a-de-ha'), (r'\bFADH2\b', 'fad-ha-dwa'), (r'\bNAD\b', 'nad'),
+    (r'\bNADPH\b', 'en-a-de-pe-ha'), (r'\bNADH\b', 'en-a-de-ha'), (r'\bFADH2\b', 'fad-ha-dwa'), (r'\bNADP\b', 'en-a-de-pe'), (r'\bFADH\b', 'fad-ha'), (r'\bRuBP\b', 'ru-be-pe'),
+    (r'\bRuBisCO\b', 'rubisko'), (r'\bCoA\b', 'ko-a'), (r'\bPGA\b', 'pe-gie-a'), (r'\bNAD\b', 'nad'),
     (r'\bpH\b', 'pe-ha'), (r'\bCO2\b', 'dwutlenek węgla'), (r'\bO2\b', 'tlen'), (r'\bH2O\b', 'woda'),
     (r'\bPCR\b', 'pe-ce-er'), (r'\bGMO\b', 'gie-em-o'), (r'\bCKE\b', 'ce-ka-e'), (r'\bHIV\b', 'ha-i-fau'),
     (r'\bAIDS\b', 'ejds'), (r'\bUV\b', 'u-fau'), (r'\bIndexLab\b', 'Indeks Lab'), (r'\bcrossing-over\b', 'krosing ower'),

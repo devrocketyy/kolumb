@@ -1,0 +1,9 @@
+{
+  "odcinek": "biologia-21-oddychanie",
+  "pytania": [
+    {"id": "etapy", "typ": "laczenie", "polecenie": "Połącz etap oddychania z miejscem.", "pary": [["Glikoliza", "cytoplazma"], ["Cykl Krebsa", "macierz mitochondrium"], ["Łańcuch oddechowy", "wewnętrzna błona mitochondrium"]], "wyjasnienie": "Reakcja pomostowa też zachodzi w macierzy."},
+    {"id": "rola-tlenu", "typ": "abcd", "pytanie": "Jaka jest rola tlenu w oddychaniu komórkowym?", "odpowiedzi": ["Jest ostatecznym akceptorem elektronów w łańcuchu oddechowym", "Rozkłada glukozę w glikolizie", "Jest źródłem dwutlenku węgla", "Przenosi protony przez syntazę ATP"], "poprawna": 0, "wyjasnienie": "Tlen przyjmuje elektrony i protony, tworząc wodę."},
+    {"id": "krwinki", "typ": "abcd", "pytanie": "Dlaczego erytrocyty człowieka uzyskują ATP tylko z glikolizy?", "odpowiedzi": ["Nie mają mitochondriów", "Nie mają hemoglobiny", "Nie pobierają glukozy", "Mają za dużo tlenu"], "poprawna": 0, "wyjasnienie": "Pozostałe etapy oddychania zachodzą w mitochondriach."},
+    {"id": "woda-co2", "typ": "abcd", "pytanie": "W co zamienia się tlen, którym oddychasz?", "odpowiedzi": ["W wodę", "W dwutlenek węgla", "W glukozę", "W ATP"], "poprawna": 0, "wyjasnienie": "Dwutlenek węgla pochodzi z węgla glukozy, a tlen trafia do wody."}
+  ]
+}

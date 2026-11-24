@@ -1,0 +1,11 @@
+{
+  "odcinek": "biologia-23-powtorka-metabolizm",
+  "pytania": [
+    {"id": "fotoliza", "typ": "abcd", "pytanie": "Co powstaje w fazie zależnej od światła?", "odpowiedzi": ["Tlen, ATP i NADPH", "Glukoza i woda", "Dwutlenek węgla i ATP", "Tylko tlen"], "poprawna": 0, "wyjasnienie": "Glukoza powstaje dopiero w cyklu Calvina."},
+    {"id": "calvin", "typ": "abcd", "pytanie": "Co zużywa cykl Calvina?", "odpowiedzi": ["ATP i NADPH z fazy świetlnej", "Tlen i glukozę", "NADH i FADH₂", "Mleczan"], "poprawna": 0, "wyjasnienie": "Zużywa też dwutlenek węgla, wiązany przez RuBisCO."},
+    {"id": "enzym", "typ": "abcd", "pytanie": "Dlaczego umiarkowany wzrost temperatury przyspiesza reakcje enzymatyczne?", "odpowiedzi": ["Cząsteczki częściej się zderzają", "Enzymy ulegają denaturacji", "Rośnie energia aktywacji", "Powstaje więcej enzymów"], "poprawna": 0, "wyjasnienie": "Powyżej optimum enzymy się denaturują i aktywność spada."},
+    {"id": "mleczan", "typ": "abcd", "pytanie": "Po co mięśniu fermentacja mleczanowa?", "odpowiedzi": ["Odtwarza NAD+ potrzebny glikolizie", "Daje 30 ATP", "Wytwarza tlen", "Rozkłada glikogen"], "poprawna": 0, "wyjasnienie": "Sama fermentacja nie daje ATP."},
+    {"id": "tlen", "typ": "abcd", "pytanie": "Jaką rolę pełni tlen w mitochondriach?", "odpowiedzi": ["Jest ostatecznym akceptorem elektronów", "Rozkłada pirogronian", "Tworzy dwutlenek węgla", "Napędza glikolizę"], "poprawna": 0, "wyjasnienie": "Tlen przyjmuje elektrony i protony, tworząc wodę."},
+    {"id": "corich", "typ": "abcd", "pytanie": "Co dzieje się z mleczanem po wysiłku?", "odpowiedzi": ["W wątrobie zamienia się w glukozę", "Zostaje w mięśniach i powoduje zakwasy", "Jest wydychany", "Zamienia się w etanol"], "poprawna": 0, "wyjasnienie": "To cykl Corich. Zakwasy to mikrouszkodzenia mięśni."}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "odcinek": "biologia-19-enzymy",
+  "pytania": [
+    {"id": "energia-aktywacji", "typ": "abcd", "pytanie": "Na czym polega działanie enzymu?", "odpowiedzi": ["Obniża energię aktywacji reakcji", "Dostarcza energii do reakcji", "Zmienia produkty reakcji", "Zużywa się w każdej reakcji"], "poprawna": 0, "wyjasnienie": "Enzym przyspiesza reakcję i wychodzi z niej niezmieniony."},
+    {"id": "lodowka", "typ": "abcd", "pytanie": "Enzym przechowywany w lodówce ogrzano do 37°C. Co się stanie?", "odpowiedzi": ["Odzyska aktywność", "Nie zadziała, bo uległ denaturacji", "Zadziała tylko z inhibitorem", "Zadziała wolniej niż przed schłodzeniem na zawsze"], "poprawna": 0, "wyjasnienie": "Niska temperatura spowalnia enzym, ale go nie niszczy."},
+    {"id": "inhibitor", "typ": "laczenie", "polecenie": "Połącz pojęcie z opisem.", "pary": [["Inhibitor kompetycyjny", "zajmuje centrum aktywne, wypiera go nadmiar substratu"], ["Inhibitor niekompetycyjny", "zmienia kształt enzymu z innego miejsca"], ["Regulacja allosteryczna", "produkt końcowy hamuje pierwszy enzym szlaku"]], "wyjasnienie": "Tylko inhibitor kompetycyjny konkuruje z substratem o centrum aktywne."},
+    {"id": "pepsyna", "typ": "abcd", "pytanie": "Dlaczego pepsyna przestaje działać w dwunastnicy?", "odpowiedzi": ["pH jest tam lekko zasadowe, a pepsyna ma optimum w silnie kwaśnym", "Temperatura jest za niska", "W dwunastnicy nie ma białek", "Pepsyna jest tam trawiona przez amylazę"], "poprawna": 0, "wyjasnienie": "Zmiana pH zmienia ładunki w centrum aktywnym."}
+  ]
+}

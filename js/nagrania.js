@@ -65,5 +65,29 @@ export const NAGRANIA_AUTO = {
   "min": 4,
   "czasy": "podcast/mp3/biologia-11-powtorka-biochemia.json",
   "pytania": "podcast/pytania/biologia-11-powtorka-biochemia.json"
+ },
+ "biologia/p/b-typy-komorek": {
+  "plik": "podcast/mp3/biologia-12-typy-komorek.mp3",
+  "min": 6,
+  "czasy": "podcast/mp3/biologia-12-typy-komorek.json",
+  "pytania": "podcast/pytania/biologia-12-typy-komorek.json"
+ },
+ "biologia/p/b-blony": {
+  "plik": "podcast/mp3/biologia-13-blony.mp3",
+  "min": 6,
+  "czasy": "podcast/mp3/biologia-13-blony.json",
+  "pytania": "podcast/pytania/biologia-13-blony.json"
+ },
+ "biologia/p/b-jadro": {
+  "plik": "podcast/mp3/biologia-14-jadro.mp3",
+  "min": 5,
+  "czasy": "podcast/mp3/biologia-14-jadro.json",
+  "pytania": "podcast/pytania/biologia-14-jadro.json"
+ },
+ "biologia/p/b-mitochondria": {
+  "plik": "podcast/mp3/biologia-15-mitochondria.mp3",
+  "min": 5,
+  "czasy": "podcast/mp3/biologia-15-mitochondria.json",
+  "pytania": "podcast/pytania/biologia-15-mitochondria.json"
  }
 };

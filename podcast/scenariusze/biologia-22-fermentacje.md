@@ -1,121 +1,112 @@
-# IndexLab · Biologia · Odcinek 22 · „Drożdże w cieście i mit o zakwasach”
-Temat: Fermentacje, glukoneogeneza i glikogenoliza
+# IndexLab · Biologia · Odcinek 22 · „Prawda o zakwasach”
+Temat: Fermentacje i przemiany glukozy w wątrobie
 Dział: Metabolizm
-Długość: ok. 8 minut (ok. 960 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane.
+Długość: ok. 7 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-22-fermentacje.json
+Uwaga dla lektora: „Corich” — KO-rich.
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Biegniesz czterysta metrów. Ostatnia prosta. Nogi zaczynają palić, mięśnie sztywnieją, każdy krok jest trudniejszy. Na mecie padasz na trawę.
+Biegniesz czterysta metrów. Na ostatniej prostej nogi palą, mięśnie sztywnieją. Na mecie padasz na trawę.
 
-Następnego dnia rano budzisz się i ledwo schodzisz po schodach. Mięśnie bolą. Zakwasy. Wszyscy wiedzą, skąd się biorą: z kwasu mlekowego, który został w mięśniach.
+Następnego dnia ledwo schodzisz po schodach. Zakwasy. Wszyscy wiedzą, skąd się biorą: z kwasu mlekowego, który został w mięśniach.
 
 [pauza]
 
-Tyle że to nieprawda.
-
-Pieczenie na mecie rzeczywiście wiąże się z tym, co się dzieje w mięśniu bez tlenu. Ale mleczan znika z mięśni w ciągu godziny po wysiłku. Ból następnego dnia ma inną przyczynę: mikrouszkodzenia włókien mięśniowych i stan zapalny, który je naprawia. Mit o zakwasach od kwasu mlekowego przetrwał dziesięciolecia, ale badania go obaliły.
-
-Dziś zobaczymy, co naprawdę robi komórka, kiedy brakuje tlenu.
+Tyle że to nieprawda. Mleczan znika z mięśni w ciągu godziny po wysiłku. Ból następnego dnia ma inną przyczynę: mikrouszkodzenia włókien mięśniowych i stan zapalny przy ich naprawie.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. Dziś fermentacje, a na koniec dwa procesy, którymi wątroba pilnuje poziomu cukru we krwi.
+Dzień dobry, tu IndexLab. Dziś fermentacje, czyli co robi komórka bez tlenu, a na koniec dwa procesy, którymi wątroba pilnuje cukru we krwi.
 
-## Problem: brak tlenu
+## Problem pustych taksówek
 
-Z poprzedniego odcinka wiesz, że bez tlenu łańcuch oddechowy staje. A wtedy staje też cykl Krebsa, bo NADH nie ma gdzie oddać elektronów. Zostaje tylko glikoliza, która tlenu nie potrzebuje i daje dwa ATP.
+Bez tlenu staje łańcuch oddechowy, a z nim cykl Krebsa. Zostaje glikoliza, która daje dwa ATP. Ale glikoliza potrzebuje NAD plus, czyli pustych taksówek. W glikolizie zamieniają się w NADH.
 
-Ale i glikoliza ma problem. Żeby mogła działać, potrzebuje NAD plus, czyli pustych taksówek. W glikolizie NAD plus zamienia się w NADH. Jeśli NADH nie zostanie z powrotem rozładowany, NAD plus szybko się skończy i glikoliza też stanie.
+[wolniej] Jeśli NADH nie zostanie rozładowany, NAD plus się skończy i glikoliza stanie. Fermentacja odtwarza NAD plus. Sama nie daje ATP.
 
-[wolniej] Fermentacja to rozwiązanie tego problemu. Jej jedynym celem jest odzyskanie NAD plus, żeby glikoliza mogła dalej działać. Fermentacja sama nie daje żadnego dodatkowego ATP. Całe ATP pochodzi z glikolizy.
+[pytanie: znaczenie]
 
-To najważniejsze zdanie tego odcinka i najczęstsze pytanie na maturze.
-
-## Fermentacja mleczanowa
-
-W mięśniach człowieka, a także u bakterii kwasu mlekowego, pirogronian z glikolizy przyjmuje elektrony z NADH i zamienia się w mleczan. NADH oddaje elektrony i staje się z powrotem NAD plus. Glikoliza może działać dalej.
-
-Kiedy w mięśniu brakuje tlenu? Przy bardzo intensywnym, krótkim wysiłku, gdy krew nie nadąża z dostarczaniem tlenu. Mięsień przez chwilę pracuje na samej glikolizie i fermentacji. Daje to mało ATP, ale szybko.
-
-Co dzieje się z mleczanem? Krew zanosi go do wątroby. Tam, kiedy tlenu już jest dość, mleczan zamienia się z powrotem w pirogronian, a z niego w glukozę. Glukoza wraca do mięśni. Ten obieg mięsień–wątroba–mięsień nazywa się cyklem Corich.
-
-Bakterie fermentacji mlekowej robią to samo, i dzięki nim masz jogurt, kefir, kiszone ogórki i kapustę. Mleczan zakwasza środowisko, co hamuje rozwój bakterii gnilnych. Stąd kiszenie jako sposób konserwowania żywności.
-
-## Fermentacja alkoholowa
-
-Drożdże i niektóre bakterie robią to inaczej. Od pirogronianu najpierw odcinają dwutlenek węgla, a z reszty powstaje aldehyd octowy. Ten przyjmuje elektrony z NADH i zamienia się w etanol, czyli alkohol. NAD plus jest odzyskany.
-
-Produkty: etanol i dwutlenek węgla. Dwutlenek węgla to te bąbelki, które spulchniają ciasto drożdżowe. W piekarniku alkohol odparowuje, a dziury po bąbelkach zostają. W piwie i winie zostaje alkohol, a w szampanie i piwie także bąbelki.
-
-[pauza]
-
-Zatrzymaj się. Ile ATP daje fermentacja alkoholowa z jednej cząsteczki glukozy?
+Sprawdź się. Jakie jest znaczenie fermentacji dla komórki?
 
 [pauza, dłuższa]
 
-Dwa ATP, i wszystkie pochodzą z glikolizy. Sama fermentacja żadnego ATP nie daje. Jej zadaniem jest odtworzenie NAD plus.
+[odpowiedź]
 
-## Porównanie z oddychaniem
+Odtwarza NAD plus z NADH, dzięki czemu glikoliza może trwać i dostarczać ATP bez tlenu.
 
-Dlaczego organizmy w ogóle oddychają tlenowo, skoro fermentacja jest prostsza? Bo z jednej glukozy fermentacja daje dwa ATP, a oddychanie tlenowe około trzydziestu. Prawie piętnaście razy więcej. W fermentacji większość energii zostaje uwięziona w produkcie: w mleczanie albo w etanolu. Etanol pali się w silniku samochodu, bo wciąż jest w nim mnóstwo energii.
+[koniec odpowiedzi]
 
-## Glikogenoliza i glukoneogeneza: wątroba pilnuje cukru
+## Fermentacja mleczanowa
 
-Teraz dwa procesy, które łatwo pomylić, bo mają podobne nazwy.
+W mięśniach i u bakterii kwasu mlekowego pirogronian przyjmuje elektrony z NADH i zamienia się w mleczan. NAD plus wraca do glikolizy.
 
-Mózg potrzebuje glukozy przez cały czas, również w nocy, kiedy nie jesz. Kto ją dostarcza? Wątroba.
+Mięsień robi to przy krótkim, bardzo intensywnym wysiłku, gdy krew nie nadąża z tlenem. Mleczan krew zanosi do wątroby, gdzie zamienia się z powrotem w glukozę, a glukoza wraca do mięśni. To cykl Corich.
 
-Glikogenoliza to rozkład glikogenu do glukozy. Liza to rozpad. Wątroba ma zapas glikogenu i kiedy poziom cukru we krwi spada, rozkłada go i uwalnia glukozę do krwi. To szybkie źródło, ale zapas wystarcza na mniej więcej dobę.
+Bakterie fermentacji mlekowej dają nam jogurt, kefir i kiszonki. Mleczan zakwasza środowisko i hamuje bakterie gnilne.
 
-Mięśnie też mają glikogen, ale rozkładają go tylko na własne potrzeby. Nie oddają glukozy do krwi.
+[pytanie: kiszonki]
 
-Glukoneogeneza to synteza glukozy od nowa, ze związków, które nie są cukrami. Gluko-neo-geneza: powstawanie nowej glukozy. Surowcem są mleczan, glicerol z tłuszczów i niektóre aminokwasy. Zachodzi głównie w wątrobie, a podczas długiego głodu także w nerkach. Dzięki niej mózg dostaje glukozę nawet po kilku dniach bez jedzenia.
+Sprawdź się. Dlaczego kiszonki długo się nie psują?
 
-[wolniej] Prosty sposób, żeby nie pomylić: glikogenoliza rozkłada gotowy magazyn, glukoneogeneza buduje glukozę od zera z innych związków.
+[pauza, dłuższa]
 
-Oba procesy uruchamia glukagon, hormon trzustki, który podnosi poziom cukru we krwi. Wrócimy do tego w dziale o hormonach.
+[odpowiedź]
+
+Bo bakterie fermentacji mlekowej wytwarzają mleczan, który zakwasza środowisko i hamuje rozwój bakterii gnilnych.
+
+[koniec odpowiedzi]
+
+## Fermentacja alkoholowa
+
+Drożdże najpierw odcinają od pirogronianu dwutlenek węgla, a powstały aldehyd octowy przyjmuje elektrony z NADH i staje się etanolem.
+
+Produkty to etanol i dwutlenek węgla. Bąbelki dwutlenku węgla spulchniają ciasto drożdżowe, a alkohol odparowuje w piekarniku.
+
+Fermentacja daje z glukozy dwa ATP, a oddychanie tlenowe około trzydziestu. Dlatego organizmy wolą tlen.
+
+[pytanie: atp-fermentacji]
+
+Sprawdź się. Ile ATP daje fermentacja alkoholowa z jednej glukozy i skąd się biorą?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Dwa ATP, wszystkie z glikolizy. Sama fermentacja ATP nie daje.
+
+[koniec odpowiedzi]
+
+## Wątroba i cukier we krwi
+
+Mózg potrzebuje glukozy cały czas. Dostarcza jej wątroba, na dwa sposoby.
+
+Glikogenoliza to rozkład glikogenu do glukozy. Szybko, ale zapas starcza na mniej więcej dobę. Mięśnie też mają glikogen, ale zużywają go tylko na własne potrzeby.
+
+Glukoneogeneza to synteza nowej glukozy ze związków, które nie są cukrami: z mleczanu, glicerolu i niektórych aminokwasów. Oba procesy uruchamia glukagon.
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Najczęstsze polecenie: „Wyjaśnij znaczenie fermentacji dla komórki”. Odpowiedź za punkt: fermentacja odtwarza NAD plus z NADH, dzięki czemu glikoliza może trwać i dostarczać ATP w warunkach beztlenowych. Pamiętaj, żeby nie pisać, że fermentacja „daje energię”.
+Znaczenie fermentacji: odtworzenie NAD plus. Porównanie fermentacji mleczanowej i alkoholowej. Doświadczenie z drożdżami i balonikiem, który nadmuchuje się dwutlenkiem węgla.
 
-Drugie: porównanie fermentacji mleczanowej i alkoholowej, ich produktów i organizmów. Trzecie: doświadczenia z drożdżami, na przykład drożdże z cukrem w kolbie z balonikiem, który się nadmuchuje od dwutlenku węgla. I zastosowania: kiszonki, jogurty, pieczywo, piwo.
+[pytanie: glodowka]
 
-## Na spokojnie
+Ostatnie pytanie. Po trzech dniach głodówki mózg wciąż dostaje glukozę, choć glikogen się wyczerpał. Skąd?
 
-[muzyka, cicho]
+[pauza, dłuższa]
 
-Podsumujmy. Bez tlenu działa tylko glikoliza, która daje dwa ATP. Fermentacja odtwarza NAD plus potrzebny glikolizie. W fermentacji mleczanowej pirogronian zamienia się w mleczan, w alkoholowej w etanol i dwutlenek węgla. Oddychanie tlenowe daje około piętnaście razy więcej ATP. Glikogenoliza to rozkład glikogenu, glukoneogeneza to synteza glukozy z mleczanu, glicerolu i aminokwasów.
+[odpowiedź]
+
+Z glukoneogenezy w wątrobie, z glicerolu, mleczanu i aminokwasów.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: dlaczego kiszonki długo się nie psują?
-
-[pauza, dłuższa]
-
-Bo bakterie fermentacji mlekowej wytwarzają mleczan, który zakwasza środowisko i hamuje rozwój bakterii gnilnych.
-
-Drugie: co dzieje się z mleczanem po zakończeniu sprintu?
-
-[pauza, dłuższa]
-
-Krew zanosi go do wątroby, gdzie w obecności tlenu jest przekształcany w pirogronian i dalej w glukozę w glukoneogenezie. To cykl Corich.
-
-Trzecie: po trzech dniach głodówki mózg nadal dostaje glukozę. Skąd, skoro zapas glikogenu wyczerpał się po dobie?
-
-[pauza, dłuższa]
-
-Z glukoneogenezy w wątrobie, która wytwarza glukozę z glicerolu z tłuszczów i z aminokwasów.
-
-[pauza]
-
-W następnym odcinku powtórka metabolizmu. Prześledzimy drogę jednego atomu węgla: z powietrza do liścia, do twojego mięśnia i z powrotem do powietrza. Do usłyszenia.
+W następnym odcinku powtórka metabolizmu, przez jeden dzień z życia sprintera i jednego liścia. Do usłyszenia.
 
 [muzyka, wyciszenie]

@@ -1,194 +1,116 @@
-# IndexLab · Biologia · Odcinek 23 · Powtórka działu „Podróż atomu węgla”
+# IndexLab · Biologia · Odcinek 23 · Powtórka działu „Sprinter i liść”
 Dział: Metabolizm (odcinki 18–22)
-Długość: ok. 9 minut (ok. 1080 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane.
+Długość: ok. 6 minut (format 2.0, powtórka z pytań), jeden narrator.
+Pytania: podcast/pytania/biologia-23-powtorka-metabolizm.json
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Lipiec, wczesne popołudnie, pole pszenicy pod Opolem. W powietrzu nad polem unosi się cząsteczka dwutlenku węgla. W jej środku jest jeden atom węgla. Ten atom może mieć miliony lat. Mógł być kiedyś w paprotniku z karbonu, w muszli małża, w oddechu dinozaura.
+Stadion, słoneczne popołudnie. Na bieżni sprinter rozgrzewa się przed biegiem. Obok bieżni rośnie klon. Jeden z jego liści łapie właśnie słońce.
 
-[pauza]
-
-Dziś pójdziemy za tym atomem. Prześledzimy jego drogę z powietrza do liścia, do ziarna, do kromki chleba, do twojego mięśnia i z powrotem do powietrza. Po drodze przejdziemy przez wszystko, czego nauczyliśmy się w dziale o metabolizmie.
-
-Jak zawsze w powtórce: przy każdym pytaniu zatrzymaj nagranie i spróbuj odpowiedzieć sam.
+Przez kilka minut będziemy śledzić oba: liść, który buduje cukier, i sprintera, który go spala. Na każdym kroku pytanie.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. To powtórka działu metabolizm.
+Dzień dobry, tu IndexLab. To powtórka działu o metabolizmie.
 
-## Etap pierwszy: wejście do liścia
+## Liść
 
-Cząsteczka dwutlenku węgla wpada przez otwarty aparat szparkowy do wnętrza liścia pszenicy. Dyfunduje do komórki miękiszu, przez ścianę, przez błonę, aż do chloroplastu. Trafia do stromy.
+Światło pada na liść. W tylakoidach rozbijana jest woda.
 
-Pytanie: jaki enzym wiąże dwutlenek węgla w cyklu Calvina i z jakim związkiem?
+[pytanie: fotoliza]
 
-[pauza, dłuższa]
-
-RuBisCO, który przyłącza dwutlenek węgla do pięciowęglowego RuBP. To karboksylacja, pierwszy etap cyklu Calvina. Powstają dwie cząsteczki trójwęglowego PGA.
-
-Nasz atom węgla jest teraz w PGA.
-
-## Etap drugi: ładowanie energią
-
-Żeby PGA stało się cukrem, potrzebna jest energia i elektrony. Przychodzą z tylakoidów, z fazy zależnej od światła.
-
-Pytanie: jakie dwa związki dostarcza faza zależna od światła do cyklu Calvina?
+Sprawdź się. Co powstaje w fazie zależnej od światła?
 
 [pauza, dłuższa]
 
-ATP i NADPH.
+[odpowiedź]
 
-Pytanie: skąd pochodzą elektrony, które niesie NADPH, i co przy tym powstaje?
+Tlen, ATP i NADPH.
 
-[pauza, dłuższa]
+[koniec odpowiedzi]
 
-Z wody, w fotolizie wody przy fotosystemie drugim. Przy tym powstaje tlen. Cały tlen wydzielany w fotosyntezie pochodzi z wody, a nie z dwutlenku węgla.
+W stromie RuBisCO przyłącza dwutlenek węgla z powietrza.
 
-PGA zostaje zredukowane do aldehydu trójwęglowego. Pytanie: jak nazywa się ten etap i co go napędza?
+[pytanie: calvin]
 
-[pauza, dłuższa]
-
-Redukcja, napędzana przez ATP i NADPH. Potem większość aldehydu wraca do regeneracji RuBP, a część idzie na budowę cukrów.
-
-Nasz atom trafia do tej części, która staje się glukozą.
-
-## Etap trzeci: magazyn w ziarnie
-
-Glukoza z liścia nie zostaje w nim. Zamienia się w sacharozę i płynie łykiem do kłosa, do rozwijającego się ziarna. Tam znowu zamienia się w glukozę, a glukozy łączą się w skrobię.
-
-Pytanie: jaki to typ procesu, anaboliczny czy kataboliczny, i dlaczego?
+Sprawdź się. Jak nazywa się ten cykl i co zużywa?
 
 [pauza, dłuższa]
 
-Anaboliczny, bo z małych cząsteczek powstaje duża, a proces wymaga nakładu energii z ATP.
+[odpowiedź]
 
-Nasz atom jest teraz w cząsteczce skrobi, w ziarnie pszenicy. Ziarno trafia do młyna, mąka do piekarni, chleb na twój talerz.
+Cykl Calvina. Zużywa ATP i NADPH z fazy świetlnej.
 
-## Etap czwarty: trawienie i krew
+[koniec odpowiedzi]
 
-Jesz kanapkę. Amylaza w ślinie, a potem amylaza trzustkowa w jelicie rozkładają skrobię.
+## Sprinter na starcie
 
-Pytanie: dlaczego amylaza w ogóle może przyspieszyć tę reakcję? Jak działa enzym?
+Sprinter zjadł wcześniej makaron. Glukoza z niego krąży we krwi i trafia do mięśni. Wystrzał.
 
-[pauza, dłuższa]
+[pytanie: enzym]
 
-Enzym obniża energię aktywacji reakcji. Skrobia wiąże się w centrum aktywnym amylazy, które pasuje do wiązań między alfa-glukozami.
-
-Pytanie: dlaczego amylaza ślinowa przestaje działać w żołądku?
+Sprawdź się. Mięśnie się rozgrzewają. Dlaczego umiarkowany wzrost temperatury przyspiesza reakcje enzymatyczne?
 
 [pauza, dłuższa]
 
-Bo w żołądku jest bardzo kwaśne pH, a amylaza ślinowa ma optimum w pH obojętnym. Zmiana pH zmienia ładunki w centrum aktywnym, a przy skrajnym pH enzym ulega denaturacji.
+[odpowiedź]
 
-Glukoza z naszym atomem przechodzi przez ścianę jelita do krwi i dociera do mięśnia twojej nogi. Wchodzi do komórki mięśniowej.
+Bo cząsteczki szybciej się poruszają i częściej się zderzają. Dopiero powyżej temperatury optymalnej enzymy ulegają denaturacji.
 
-## Etap piąty: glikoliza
+[koniec odpowiedzi]
 
-W cytoplazmie komórki mięśniowej zaczyna się rozkład. Glikoliza.
+## Ostatnia prosta
 
-Pytanie: co powstaje z jednej glukozy w glikolizie i ile ATP zysku?
+Krew nie nadąża z tlenem. Mięśnie przechodzą na glikolizę i fermentację.
 
-[pauza, dłuższa]
+[pytanie: mleczan]
 
-Dwie cząsteczki pirogronianu, dwa NADH i dwa ATP netto.
-
-Teraz rozwidlenie dróg. Załóżmy, że właśnie biegniesz sprint. Mięśniom brakuje tlenu.
-
-Pytanie: co stanie się z pirogronianem i po co?
+Sprawdź się. Po co mięśniu fermentacja mleczanowa, skoro nie daje ATP?
 
 [pauza, dłuższa]
 
-Zamieni się w mleczan w fermentacji mleczanowej. Celem jest odtworzenie NAD plus z NADH, żeby glikoliza mogła dalej działać i dostarczać ATP. Sama fermentacja ATP nie daje.
+[odpowiedź]
 
-Ale załóżmy, że spacerujesz spokojnie, tlenu jest dość. Nasz atom idzie dalej, do mitochondrium.
+Bo odtwarza NAD plus, dzięki czemu glikoliza może dalej dostarczać ATP bez tlenu.
 
-## Etap szósty: mitochondrium
+[koniec odpowiedzi]
 
-Pirogronian wchodzi do macierzy mitochondrium. Dehydrogenaza pirogronianowa odcina od niego jeden atom węgla.
+## Po biegu
 
-Pytanie: w jakiej postaci odcinany jest węgiel i jak nazywa się ten etap?
+Sprinter odpoczywa i ciężko oddycha. Tlenu znowu jest dość.
 
-[pauza, dłuższa]
+[pytanie: tlen]
 
-W postaci dwutlenku węgla, w reakcji pomostowej. Z reszty powstaje acetylo-CoA.
-
-Nasz atom miał szczęście albo pecha, został w grupie acetylowej. Trafia do cyklu Krebsa.
-
-Pytanie: gdzie zachodzi cykl Krebsa i co z niego wychodzi?
+Sprawdź się. Jaką rolę pełni teraz tlen w jego mitochondriach?
 
 [pauza, dłuższa]
 
-W macierzy mitochondrium. Wychodzą dwutlenek węgla, NADH, FADH dwa i trochę ATP.
+[odpowiedź]
 
-W jednym z kolejnych obrotów cyklu nasz atom zostaje odcięty. Znowu jest dwutlenkiem węgla.
+Jest ostatecznym akceptorem elektronów w łańcuchu oddechowym i tworzy wodę.
 
-## Etap siódmy: co z energią
+[koniec odpowiedzi]
 
-Gdzie podziała się energia, którą nasz atom niósł od liścia? Jest w NADH i FADH dwa.
+[pytanie: corich]
 
-Pytanie: co się dzieje z elektronami z NADH i jaką rolę gra tlen?
-
-[pauza, dłuższa]
-
-NADH oddaje elektrony do łańcucha oddechowego na wewnętrznej błonie mitochondrium. Elektrony przechodzą przez kolejne białka, ich energia pompuje protony do przestrzeni międzybłonowej. Powrót protonów przez syntazę ATP napędza produkcję ATP. Na końcu elektrony przyjmuje tlen, który z protonami tworzy wodę.
-
-Pytanie: dlaczego cyjanek jest śmiertelny?
+Sprawdź się. Co dzieje się z mleczanem po biegu?
 
 [pauza, dłuższa]
 
-Bo blokuje ostatnie białko łańcucha oddechowego, które przekazuje elektrony na tlen. Łańcuch staje, ATP przestaje powstawać, komórki tracą energię mimo obecności tlenu.
+[odpowiedź]
 
-## Etap ostatni: powrót do powietrza
+Krew zanosi go do wątroby, gdzie zamienia się w glukozę. To cykl Corich.
 
-Dwutlenek węgla z naszym atomem dyfunduje z komórki mięśniowej do krwi. Krew niesie go do płuc. Wydychasz go.
+[koniec odpowiedzi]
 
-I nasz atom znowu unosi się w powietrzu. Może za tydzień trafi do liścia klonu w parku. Może za rok do glonów w Bałtyku. Ten obieg nigdy się nie kończy.
-
-[pauza]
-
-## Wielki obraz
-
-[muzyka, krótko]
-
-Zbierzmy to. Fotosynteza i oddychanie to dwie strony jednego koła.
-
-Fotosynteza bierze dwutlenek węgla, wodę i światło, a daje glukozę i tlen. Oddychanie bierze glukozę i tlen, a daje dwutlenek węgla, wodę i ATP.
-
-W fotosyntezie elektrony płyną z wody na NADP plus i dalej do cukru. W oddychaniu elektrony płyną z cukru na NAD plus i dalej do tlenu, tworząc wodę.
-
-Fotosynteza to anabolizm, oddychanie to katabolizm. Łącznikiem jest ATP, moneta, którą każdy proces albo wydaje, albo zarabia.
-
-A wszystko to zachodzi dzięki enzymom, białkom, które obniżają energię aktywacji i których działanie zależy od temperatury i pH.
-
-## Na spokojnie
+## Na koniec
 
 [muzyka, cicho]
 
-Trzy ostatnie pytania, łączące wszystko.
+Liść buduje glukozę ze światła, wody i dwutlenku węgla. Sprinter rozkłada ją w glikolizie, cyklu Krebsa i łańcuchu oddechowym, a bez tlenu ratuje się fermentacją. Dwie strony tej samej monety.
 
-Pierwsze: porównaj, gdzie w komórce roślinnej zachodzi fotosynteza, a gdzie oddychanie. Czy roślina też oddycha?
-
-[pauza, dłuższa]
-
-Fotosynteza zachodzi w chloroplastach, oddychanie w cytoplazmie i mitochondriach. Tak, roślina oddycha cały czas, w dzień i w nocy. W dzień fotosynteza jest zwykle intensywniejsza, więc roślina wydziela więcej tlenu, niż zużywa.
-
-Drugie: wymień trzy procesy, w których powstaje ATP, i powiedz, gdzie zachodzą.
-
-[pauza, dłuższa]
-
-Glikoliza w cytoplazmie, przez fosforylację substratową. Łańcuch oddechowy na wewnętrznej błonie mitochondrium, przez fosforylację oksydacyjną. Faza zależna od światła w tylakoidach chloroplastu, przez fotofosforylację.
-
-Trzecie: dlaczego drożdże w szczelnie zamkniętym słoju z cukrem po pewnym czasie przestają się rozmnażać, choć cukru jest jeszcze dużo?
-
-[pauza, dłuższa]
-
-Bo bez tlenu przechodzą na fermentację alkoholową, która daje mało ATP. A gromadzący się etanol w wysokim stężeniu jest dla nich toksyczny.
-
-[pauza]
-
-To koniec działu o metabolizmie. W następnym dziale podziały komórkowe. Zaczniemy od zagadki: jak w jądrze o średnicy kilku mikrometrów mieszczą się dwa metry DNA. Do usłyszenia.
+W następnym odcinku zaczynamy dział o podziałach komórki, od tego, ile metrów DNA mieści się w jednym jądrze. Do usłyszenia.
 
 [muzyka, wyciszenie]

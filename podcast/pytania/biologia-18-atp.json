@@ -1,0 +1,17 @@
+{
+  "odcinek": "biologia-18-atp",
+  "pytania": [
+    {"id": "anabolizm", "typ": "laczenie", "polecenie": "Połącz proces z typem przemiany.",
+     "pary": [["Synteza glikogenu", "anabolizm"], ["Oddychanie komórkowe", "katabolizm"], ["Fotosynteza", "anabolizm"], ["Trawienie białek", "katabolizm"]],
+     "wyjasnienie": "Anabolizm buduje i pochłania energię, katabolizm rozkłada i ją uwalnia."},
+    {"id": "fosforylacja", "typ": "abcd", "pytanie": "Jak powstaje większość ATP w komórce zwierzęcej?",
+     "odpowiedzi": ["Przez fosforylację oksydacyjną w mitochondriach", "Przez fosforylację substratową w glikolizie", "Przez fotofosforylację", "Przez hydrolizę ADP"],
+     "poprawna": 0, "wyjasnienie": "Fosforylacja oksydacyjna korzysta z energii łańcucha oddechowego."},
+    {"id": "utlenianie", "typ": "abcd", "pytanie": "Związek X oddaje wodór, który przyjmuje NAD+. Co zaszło?",
+     "odpowiedzi": ["X został utleniony, NAD+ zredukowany do NADH", "X został zredukowany, NAD+ utleniony", "Oba zostały utlenione", "Zaszła fosforylacja"],
+     "poprawna": 0, "wyjasnienie": "Utlenianie to utrata elektronów (wodoru), redukcja to ich przyjęcie."},
+    {"id": "przenosniki", "typ": "laczenie", "polecenie": "Połącz przenośnik z procesem.",
+     "pary": [["NADPH", "cykl Calvina w fotosyntezie"], ["NADH", "transport elektronów do łańcucha oddechowego"], ["FADH₂", "cykl Krebsa"]],
+     "wyjasnienie": "NADP+ to taksówka fotosyntezy, NAD+ i FAD — oddychania."}
+  ]
+}
