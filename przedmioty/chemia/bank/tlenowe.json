@@ -288,6 +288,51 @@
    ],
    "id": "b-tlenowe-11",
    "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Alkohol nieznany",
+   "material": "Tekst autorski. 3,7 g alkoholu monohydroksylowego nasyconego przereagowało z sodem; wydzieliło się 0,56 dm³ H₂ (w. n.).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Ustal wzór sumaryczny alkoholu.",
+     "odpowiedz": "C₄H₉OH",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(H₂) = 0,025 → n(alkoholu) = 0,05; M = 74 → 14n + 18 = 74 → n = 4.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wzór izomeru tego alkoholu, który nie utlenia się CuO.",
+     "odpowiedz": "(CH₃)₃C–OH",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Alkohol III-rzędowy.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-12",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Kwasy i fenole — reakcje z NaHCO₃",
+   "material": "Tekst autorski. Do roztworów kwasu benzoesowego i fenolu dodano NaHCO₃.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w której probówce wydzielił się gaz, i napisz równanie.",
+     "odpowiedz": "Kwas benzoesowy: C₆H₅COOH + HCO₃⁻ → C₆H₅COO⁻ + CO₂ + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Fenol jest słabszy od kwasu węglowego — nie reaguje.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-tlenowe-13",
+   "dzial": "tlenowe"
   }
  ]
 }

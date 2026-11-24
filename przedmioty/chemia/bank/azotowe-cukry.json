@@ -252,6 +252,51 @@
    ],
    "id": "b-azotowe-cukry-09",
    "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Hydroliza białka — liczba aminokwasów",
+   "material": "Tekst autorski. Peptyd o masie molowej 531 g/mol zbudowany jest wyłącznie z reszt glicyny (75 g/mol).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz, z ilu reszt glicyny zbudowany jest peptyd.",
+     "odpowiedz": "9",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: masa peptydu = suma mas aminokwasów − masa wody z (n − 1) wiązań. RACHUNEK: 75n − 18(n − 1) = 531 → 57n = 513 → n = 9. SPRAWDZENIE: 675 − 144 = 531.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-azotowe-cukry-10",
+   "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Skrobia — hydroliza",
+   "material": "Tekst autorski. Skrobię ogrzewano z rozcieńczonym HCl, pobierając co kilka minut próbki do roztworu jodu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Opisz zmianę obserwacji w kolejnych próbkach.",
+     "odpowiedz": "Granatowa → fioletowa → czerwonobrunatna → brak zabarwienia (żółta barwa jodu).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Postępująca hydroliza skraca łańcuchy.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jak wykazać obecność glukozy po hydrolizie.",
+     "odpowiedz": "Próba Trommera po zobojętnieniu — ceglasty osad.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Trzeba zalkalizować roztwór.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-azotowe-cukry-11",
+   "dzial": "azotowe-cukry"
   }
  ]
 }

@@ -297,6 +297,60 @@
    ],
    "id": "b-stechiometria-12",
    "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Tlenek nieznanego metalu",
+   "material": "Tekst autorski. Tlenek dwuwartościowego metalu M zawiera 80,0% masowych metalu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Ustal masę molową metalu i jego symbol.",
+     "odpowiedz": "M = 64 g/mol — miedź (CuO)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wzór MO: M/(M + 16) = 0,8 → 0,2M = 12,8 → M = 64.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-13",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Węglik wapnia i etyn",
+   "material": "Tekst autorski. Z 80 g technicznego karbidu otrzymano 22,4 dm³ etynu (w. n.). M(CaC₂) = 64 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz zawartość procentową CaC₂ w karbidzie.",
+     "odpowiedz": "80%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(C₂H₂) = 1 mol = n(CaC₂) → 64 g; 64/80 = 80%.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-14",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Wydajność wieloetapowa",
+   "material": "Tekst autorski. Z benzenu otrzymuje się nitrobenzen (wydajność 80%), a z niego anilinę (wydajność 75%).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę aniliny (M = 93 g/mol) otrzymanej z 78 g benzenu (M = 78 g/mol).",
+     "odpowiedz": "55,8 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "1 mol benzenu · 0,8 · 0,75 = 0,6 mol aniliny = 55,8 g.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-15",
+   "dzial": "stechiometria"
   }
  ]
 }

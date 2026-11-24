@@ -333,6 +333,60 @@
    ],
    "id": "b-redoks-11",
    "dzial": "redoks"
+  },
+  {
+   "tytul": "Utlenianie H₂O₂ manganianem",
+   "material": "Tekst autorski. Zakwaszony roztwór KMnO₄ odbarwia się po dodaniu H₂O₂; wydziela się bezbarwny gaz.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równanie reakcji w formie jonowej skróconej.",
+     "odpowiedz": "2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "H₂O₂ jest tu reduktorem.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę wydzielającego się gazu i sposób jego identyfikacji.",
+     "odpowiedz": "Tlen — rozżarza tlące się łuczywko.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-12",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Ogniwo — obliczenie SEM",
+   "material": "Tekst autorski. Zbudowano ogniwo Mg | Mg²⁺ || Ag⁺ | Ag. E°: Mg −2,37 V, Ag +0,80 V.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz SEM ogniwa w warunkach standardowych.",
+     "odpowiedz": "3,17 V",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,80 − (−2,37).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz sumaryczne równanie reakcji w ogniwie.",
+     "odpowiedz": "Mg + 2Ag⁺ → Mg²⁺ + 2Ag",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Współczynnik 2 nie zmienia potencjału.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-13",
+   "dzial": "redoks"
   }
  ]
 }

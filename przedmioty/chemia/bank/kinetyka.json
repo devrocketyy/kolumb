@@ -297,6 +297,60 @@
    ],
    "id": "b-kinetyka-10",
    "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Wpływ temperatury — van ’t Hoff",
+   "material": "Tekst autorski. Szybkość reakcji wzrasta 2 razy przy podwyższeniu temperatury o 10°C. W 20°C reakcja trwa 64 minuty.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz czas trwania reakcji w 60°C.",
+     "odpowiedz": "4 minuty",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4 przyrosty po 10°C → szybkość × 16; 64/16 = 4.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij na poziomie cząsteczkowym, dlaczego temperatura zwiększa szybkość reakcji.",
+     "odpowiedz": "Rośnie energia kinetyczna cząsteczek, więc większy ich odsetek ma energię co najmniej równą energii aktywacji — rośnie liczba skutecznych zderzeń.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-11",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Entalpia z entalpii tworzenia",
+   "material": "Tekst autorski. ΔHf: CH₄ = −75, CO₂ = −394, H₂O(c) = −286 kJ/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz entalpię spalania metanu.",
+     "odpowiedz": "−891 kJ/mol",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "ΔH = (−394 + 2·(−286)) − (−75) = −966 + 75 = −891. O₂ — pierwiastek, ΔHf = 0.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz energię wydzieloną przy spaleniu 8 g metanu.",
+     "odpowiedz": "ok. 446 kJ",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,5 mol · 891.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-12",
+   "dzial": "kinetyka"
   }
  ]
 }

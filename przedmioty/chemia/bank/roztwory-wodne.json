@@ -333,6 +333,51 @@
    ],
    "id": "b-roztwory-wodne-14",
    "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Bufor fosforanowy",
+   "material": "Tekst autorski. Roztwór zawiera NaH₂PO₄ i Na₂HPO₄ w stosunku molowym 1 : 1; pKa₂ kwasu fosforowego = 7,2.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj pH buforu.",
+     "odpowiedz": "7,2",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "pH = pKa + log 1.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równania reakcji buforu z dodanym H⁺ i z dodanym OH⁻.",
+     "odpowiedz": "HPO₄²⁻ + H⁺ → H₂PO₄⁻; H₂PO₄⁻ + OH⁻ → HPO₄²⁻ + H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Bufor podobny do występujących w komórkach.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-15",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Miareczkowanie kwasu dwuprotonowego",
+   "material": "Tekst autorski. 10,0 cm³ roztworu H₂SO₄ zmiareczkowano 0,20 M NaOH — zużyto 15,0 cm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stężenie molowe kwasu.",
+     "odpowiedz": "0,15 mol·dm⁻³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(NaOH) = 3,0·10⁻³; n(H₂SO₄) = 1,5·10⁻³ (stosunek 1 : 2); c = 0,15. Pułapka: stosunek 1 : 1.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-wodne-16",
+   "dzial": "roztwory-wodne"
   }
  ]
 }
