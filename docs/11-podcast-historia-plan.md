@@ -35,33 +35,33 @@ Pliki: `podcast/scenariusze/historia-NN-<temat>.md`.
 
 ## Dział 1. Wprowadzenie i umiejętności egzaminacyjne
 
-**1. Historia jako nauka** `h-nauka` ⬜
+**1. Historia jako nauka** `h-nauka` ✅
 - **Haczyk:** fałszywy „Dar Konstantyna” — dokument, który przez 700 lat wpływał na politykę Europy, i Lorenzo Valla, który w XV w. udowodnił fałszerstwo, analizując sam język.
 - **Treść:** czym jest historia; źródła pisane, materialne, ikonograficzne, ustne; krytyka zewnętrzna i wewnętrzna; nauki pomocnicze (chronologia, paleografia, numizmatyka, heraldyka).
 - **Matura:** rozpoznanie typu źródła; ocena wiarygodności (autor, czas, cel powstania).
 
-**2. Chronologia historyczna** `h-chronologia` ⬜
+**2. Chronologia historyczna** `h-chronologia` ✅
 - **Haczyk:** dlaczego rewolucja październikowa wybuchła w listopadzie — kalendarz juliański i gregoriański.
 - **Treść:** epoki i ich umowne granice; wieki i lata (pułapka: 1500 to XV w.); ery; porządkowanie wydarzeń; synchronizacja dziejów Polski i świata.
 - **Matura:** ustal kolejność, przyporządkuj wydarzenie do wieku lub okresu; typowe błędy z przełomem wieków.
 
-**3. Analiza i interpretacja źródeł** `h-zrodla` ⬜
+**3. Analiza i interpretacja źródeł** `h-zrodla` ✅
 - **Haczyk:** jedna bitwa, dwie kroniki — Grunwald oczami Długosza i oczami kronikarza krzyżackiego.
 - **Treść:** czytanie źródła pisanego, mapy, ilustracji, plakatu, karykatury i danych statystycznych; kontekst; „na podstawie źródła” a „na podstawie wiedzy”.
 - **Matura:** odpowiedź z odwołaniem do konkretnego fragmentu źródła; rozpoznawanie intencji autora.
 
-**4. Wypowiedź argumentacyjna** `h-narracja` ⬜
+**4. Wypowiedź argumentacyjna** `h-narracja` ✅
 - **Haczyk:** egzaminator czyta wypracowanie — w pierwszych zdaniach widzi, czy jest teza, czy tylko streszczenie podręcznika.
 - **Treść:** teza, argumenty z faktami, kontrargument, wniosek; dobór przykładów z różnych płaszczyzn (polityka, gospodarka, społeczeństwo, kultura); język historyczny.
 - **Matura:** kryteria oceny wypracowania; najczęstsze błędy: brak tezy, ogólniki, błędy rzeczowe.
 
-**5. Powtórka działu: Wprowadzenie i umiejętności** `umiejetnosci` ⬜
+**5. Powtórka działu: Wprowadzenie i umiejętności** `umiejetnosci` ✅
 - **Treść:** jedno źródło przeprowadzone przez wszystkie typy pytań: datowanie, typ źródła, wiarygodność, kontekst — i plan krótkiej wypowiedzi argumentacyjnej.
 
 ## Dział 2. Starożytność
 
 **6. Pradzieje i starożytny Wschód** `h-wschod` ✏️
-- **Pilot:** gotowy jako `historia-01-pierwsze-cywilizacje.md`, do przerobienia na nowy format i numer.
+- **Pilot:** gotowy jako `historia-06-wschod-pilot.md`, do przerobienia na nowy format i numer.
 - **Haczyk:** Göbekli Tepe — świątynia starsza niż rolnictwo.
 - **Treść:** rewolucja neolityczna; cywilizacje rzeczne (Mezopotamia, Egipt, Indie, Chiny); pismo; kodeks Hammurabiego; Izraelici i monoteizm.
 - **Matura:** cechy cywilizacji rzecznych; źródła prawa (Hammurabi); wpływ geografii na rozwój.

@@ -43,7 +43,7 @@ Lista odcinków w aplikacji (Nauka → Podcast IndexLab) tworzy się sama z dzia
 2. **Fala 2:** tematy o największej wadze na maturze — WOS: ustrój RP, prawo, społeczeństwo; historia: średniowiecze, nowożytność, XIX w., 1914–1939.
 3. **Fala 3:** pozostałe tematy.
 
-Gotowe scenariusze pilotażowe: `podcast/scenariusze/wos-01-socjalizacja.md`, `podcast/scenariusze/historia-01-pierwsze-cywilizacje.md`, `podcast/scenariusze/biologia-06-woda.md`, `podcast/scenariusze/biologia-07-weglowodany.md`.
+Gotowe scenariusze pilotażowe: `podcast/scenariusze/wos-01-socjalizacja.md`, `podcast/scenariusze/historia-06-wschod-pilot.md`, `podcast/scenariusze/biologia-06-woda.md`, `podcast/scenariusze/biologia-07-weglowodany.md`.
 
 ## Koszt lektora (szacunek)
 36 h nagrań ≈ 2,2 mln znaków scenariusza. W Azure Neural TTS (ok. 15 USD / 1 mln znaków) to ok. 35 USD za cały kurs, z poprawkami ok. 50–70 USD.
