@@ -359,5 +359,47 @@ export const NAGRANIA_AUTO = {
   "min": 3,
   "czasy": "podcast/mp3/biologia-60-powtorka-rosliny.json",
   "pytania": "podcast/pytania/biologia-60-powtorka-rosliny.json"
+ },
+ "biologia/p/b-systematyka": {
+  "plik": "podcast/mp3/biologia-61-systematyka.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-61-systematyka.json",
+  "pytania": "podcast/pytania/biologia-61-systematyka.json"
+ },
+ "biologia/p/b-bezkregowce": {
+  "plik": "podcast/mp3/biologia-62-bezkregowce.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-62-bezkregowce.json",
+  "pytania": "podcast/pytania/biologia-62-bezkregowce.json"
+ },
+ "biologia/p/b-kregowce": {
+  "plik": "podcast/mp3/biologia-63-kregowce.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-63-kregowce.json",
+  "pytania": "podcast/pytania/biologia-63-kregowce.json"
+ },
+ "biologia/d/zwierzeta": {
+  "plik": "podcast/mp3/biologia-64-powtorka-zwierzeta.mp3",
+  "min": 3,
+  "czasy": "podcast/mp3/biologia-64-powtorka-zwierzeta.json",
+  "pytania": "podcast/pytania/biologia-64-powtorka-zwierzeta.json"
+ },
+ "biologia/p/b-tkanki-zwierzece": {
+  "plik": "podcast/mp3/biologia-65-tkanki-homeostaza.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-65-tkanki-homeostaza.json",
+  "pytania": "podcast/pytania/biologia-65-tkanki-homeostaza.json"
+ },
+ "biologia/p/b-odzywianie": {
+  "plik": "podcast/mp3/biologia-66-trawienie.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-66-trawienie.json",
+  "pytania": "podcast/pytania/biologia-66-trawienie.json"
+ },
+ "biologia/p/b-odpornosc": {
+  "plik": "podcast/mp3/biologia-67-odpornosc.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-67-odpornosc.json",
+  "pytania": "podcast/pytania/biologia-67-odpornosc.json"
  }
 };
