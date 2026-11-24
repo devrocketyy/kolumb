@@ -198,6 +198,60 @@
    ],
    "id": "b-stechiometria-07",
    "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Wzór hydratu z ubytku masy",
+   "material": "Tekst autorski. Próbkę uwodnionego chlorku baru BaCl₂·xH₂O o masie 2,44 g prażono do stałej masy, która wyniosła 2,08 g. M(BaCl₂) = 208 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Ustal wartość x i napisz wzór hydratu.",
+     "odpowiedz": "BaCl₂·2H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "RACHUNEK: n(BaCl₂) = 2,08/208 = 0,0100 mol; m(H₂O) = 0,36 g = 0,0200 mol; x = 2. SPRAWDZENIE: M(hydratu) = 244 g/mol — zgadza się z masą próbki.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-08",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Reakcja z gazem w nadmiarze",
+   "material": "Tekst autorski. W zamkniętym naczyniu zmieszano 5 dm³ H₂ i 4 dm³ O₂ i spowodowano reakcję. Następnie ochłodzono układ do temperatury pokojowej (woda — ciecz). Objętości w tych samych warunkach.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz objętość i skład gazu pozostałego po reakcji.",
+     "odpowiedz": "1,5 dm³ O₂",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "2H₂ + O₂ → 2H₂O: 5 dm³ H₂ zużywa 2,5 dm³ O₂; zostaje 4 − 2,5 = 1,5 dm³ tlenu. Woda jako ciecz nie wlicza się do objętości gazów.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-09",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Oznaczanie kwasu w occie",
+   "material": "Tekst autorski. 10,0 cm³ octu rozcieńczono do 100 cm³. 25,0 cm³ tego roztworu zmiareczkowano 0,100 M NaOH — zużyto 20,8 cm³. Gęstość octu przyjmij 1,00 g/cm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stężenie procentowe kwasu octowego w occie.",
+     "odpowiedz": "ok. 5,0%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "RACHUNEK: n(NaOH) = 2,08·10⁻³ mol w 25 cm³; w 100 cm³ (czyli w 10 cm³ octu): 8,32·10⁻³ mol; m = 8,32·10⁻³ · 60 = 0,499 g w 10 g octu → 4,99%. Pułapka: zapomnienie o rozcieńczeniu (× 4).",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-10",
+   "dzial": "stechiometria"
   }
  ]
 }

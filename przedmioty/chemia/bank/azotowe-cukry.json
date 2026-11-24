@@ -171,6 +171,60 @@
    ],
    "id": "b-azotowe-cukry-06",
    "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Hydroliza sacharozy",
+   "material": "Tekst autorski. 34,2 g sacharozy (M = 342 g/mol) poddano całkowitej hydrolizie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz łączną masę otrzymanych monosacharydów.",
+     "odpowiedz": "36,0 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,1 mol sacharozy + 0,1 mol H₂O → 0,1 mol glukozy + 0,1 mol fruktozy; 0,2 · 180 = 36 g.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy roztwór po hydrolizie daje próbę Trommera.",
+     "odpowiedz": "Tak — powstałe monosacharydy są redukujące.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-azotowe-cukry-07",
+   "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Peptyd — masa i sekwencja",
+   "material": "Tekst autorski. Tripeptyd zbudowany z glicyny (75), alaniny (89) i seryny (105).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę molową tripeptydu.",
+     "odpowiedz": "233 g/mol",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "75 + 89 + 105 − 2·18.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, ile różnych tripeptydów można zbudować z tych trzech aminokwasów (każdy raz).",
+     "odpowiedz": "6",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3! permutacji.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-azotowe-cukry-08",
+   "dzial": "azotowe-cukry"
   }
  ]
 }

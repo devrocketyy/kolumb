@@ -198,6 +198,42 @@
    ],
    "id": "b-organiczna-07",
    "dzial": "organiczna"
+  },
+  {
+   "tytul": "Spalanie i wzór alkinu",
+   "material": "Tekst autorski. 1 mol węglowodoru z szeregu alkinów do całkowitego spalenia potrzebuje 5,5 mola tlenu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Ustal wzór sumaryczny alkinu i podaj nazwy jego izomerów o łańcuchu prostym.",
+     "odpowiedz": "C₄H₆; but-1-yn i but-2-yn",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "CₙH₂ₙ₋₂ + (3n−1)/2 O₂: (3n − 1)/2 = 5,5 → n = 4.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-organiczna-08",
+   "dzial": "organiczna"
+  },
+  {
+   "tytul": "Aromatyczne — kolejność syntezy",
+   "material": "Tekst autorski. Z benzenu należy otrzymać kwas 3-nitrobenzoesowy, dysponując: CH₃Cl/AlCl₃, HNO₃/H₂SO₄, KMnO₄.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Zaproponuj kolejność etapów i uzasadnij.",
+     "odpowiedz": "Alkilowanie → utlenienie do kwasu benzoesowego → nitrowanie (–COOH kieruje w meta).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Nitrowanie toluenu dałoby orto/para.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-organiczna-09",
+   "dzial": "organiczna"
   }
  ]
 }

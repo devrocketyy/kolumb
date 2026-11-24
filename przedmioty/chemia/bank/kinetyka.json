@@ -234,6 +234,33 @@
    ],
    "id": "b-kinetyka-08",
    "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Stała równowagi dysocjacji N₂O₄",
+   "material": "Tekst autorski. W naczyniu 2,0 dm³ umieszczono 0,40 mol N₂O₄. Po ustaleniu równowagi N₂O₄ ⇄ 2NO₂ w naczyniu było 0,20 mol NO₂.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stężeniową stałą równowagi.",
+     "odpowiedz": "K ≈ 0,067",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: N₂O₄ ⇄ 2NO₂ — powstało 0,20 mol NO₂, więc przereagowało 0,10 mol N₂O₄. RACHUNEK: [N₂O₄] = 0,30/2,0 = 0,15; [NO₂] = 0,20/2,0 = 0,10; K = 0,10²/0,15 = 0,067. SPRAWDZENIE: stężenia, nie liczby moli (V = 2 dm³).",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Brunatna barwa mieszaniny pogłębia się po ogrzaniu. Rozstrzygnij, czy dysocjacja N₂O₄ jest endo- czy egzotermiczna.",
+     "odpowiedz": "Endotermiczna",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ogrzanie przesuwa równowagę w stronę NO₂.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-09",
+   "dzial": "kinetyka"
   }
  ]
 }

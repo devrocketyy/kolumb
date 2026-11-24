@@ -153,6 +153,51 @@
    ],
    "id": "b-roztwory-06",
    "dzial": "roztwory"
+  },
+  {
+   "tytul": "Zatężanie roztworu",
+   "material": "Tekst autorski. Z 400 g roztworu NaCl o stężeniu 5% odparowano 150 g wody.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie procentowe otrzymanego roztworu.",
+     "odpowiedz": "8%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "ms = 20 g; mr = 250 g; 20/250 = 8%.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile gramów NaCl należy jeszcze dodać, aby stężenie wzrosło do 10%.",
+     "odpowiedz": "ok. 5,56 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(20 + x)/(250 + x) = 0,1 → 0,9x = 5 → x = 5,56 g.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-07",
+   "dzial": "roztwory"
+  },
+  {
+   "tytul": "Stężenie molowe z procentowego",
+   "material": "Tekst autorski. Roztwór NaOH ma stężenie 20% i gęstość 1,22 g/cm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stężenie molowe roztworu.",
+     "odpowiedz": "6,1 mol·dm⁻³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Cm = Cp·d/(M·100%) = 20 · 1220/(40 · 100) = 6,1. Gęstość w g/dm³.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-08",
+   "dzial": "roztwory"
   }
  ]
 }

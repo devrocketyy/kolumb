@@ -243,6 +243,51 @@
    ],
    "id": "b-redoks-07",
    "dzial": "redoks"
+  },
+  {
+   "tytul": "Dichromian i alkohol",
+   "material": "Tekst autorski. Zakwaszony roztwór K₂Cr₂O₇ ogrzewano z etanolem; barwa zmieniła się z pomarańczowej na zieloną.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równania połówkowe i sumaryczne (produkt: aldehyd).",
+     "odpowiedz": "Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O; C₂H₅OH → CH₃CHO + 2H⁺ + 2e⁻; Cr₂O₇²⁻ + 3C₂H₅OH + 8H⁺ → 2Cr³⁺ + 3CH₃CHO + 7H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Zasada działania dawnych alkomatów.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-redoks-08",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Potencjały — przewidywanie reakcji",
+   "material": "Tekst autorski. E°: Fe³⁺/Fe²⁺ = 0,77 V; I₂/I⁻ = 0,54 V; Br₂/Br⁻ = 1,07 V.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy jony Fe³⁺ utlenią jony I⁻ i Br⁻.",
+     "odpowiedz": "I⁻ — tak; Br⁻ — nie",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Utleniacz musi mieć wyższy potencjał niż para reduktora: 0,77 > 0,54, ale < 1,07.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie zachodzącej reakcji.",
+     "odpowiedz": "2Fe³⁺ + 2I⁻ → 2Fe²⁺ + I₂",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-09",
+   "dzial": "redoks"
   }
  ]
 }

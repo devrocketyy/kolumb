@@ -198,6 +198,60 @@
    ],
    "id": "b-tlenowe-07",
    "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Utlenianie aldehydu",
+   "material": "Tekst autorski. 4,4 g etanalu poddano próbie Tollensa (z nadmiarem odczynnika).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę wydzielonego srebra.",
+     "odpowiedz": "21,6 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(CH₃CHO) = 0,1 mol; 1 mol aldehydu → 2 mol Ag; m = 0,2 · 108 = 21,6 g.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, ile gramów srebra dałoby 0,1 mola metanalu.",
+     "odpowiedz": "43,2 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Metanal daje 4 Ag (utlenia się aż do CO₂/węglanu).",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-08",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Tłuszcz — liczba zmydlania",
+   "material": "Tekst autorski. Tristearynian glicerolu (M = 890 g/mol) poddano zmydlaniu KOH (M = 56 g/mol).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz, ile mg KOH potrzeba do zmydlenia 1 g tłuszczu.",
+     "odpowiedz": "ok. 189 mg",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "1 g / 890 = 1,124·10⁻³ mol; × 3 mol KOH = 3,37·10⁻³ mol · 56 g = 0,189 g.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz nazwę soli powstającej w reakcji.",
+     "odpowiedz": "stearynian potasu",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mydło potasowe (maziste).",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-09",
+   "dzial": "tlenowe"
   }
  ]
 }

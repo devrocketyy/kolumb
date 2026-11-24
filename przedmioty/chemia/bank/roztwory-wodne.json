@@ -216,6 +216,69 @@
    ],
    "id": "b-roztwory-wodne-08",
    "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "pH po zmieszaniu kwasu i zasady",
+   "material": "Tekst autorski. Zmieszano 30,0 cm³ HCl o stężeniu 0,100 mol·dm⁻³ i 20,0 cm³ NaOH o stężeniu 0,200 mol·dm⁻³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz pH roztworu.",
+     "odpowiedz": "pH ≈ 12,3",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(H⁺) = 3,0·10⁻³; n(OH⁻) = 4,0·10⁻³; nadmiar OH⁻ 1,0·10⁻³ w 0,050 dm³ → 0,020 M; pOH = 1,70; pH = 12,30.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-wodne-09",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Słaba zasada",
+   "material": "Tekst autorski. Roztwór amoniaku ma stężenie 0,10 mol·dm⁻³; Kb = 1,8·10⁻⁵.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz pH roztworu.",
+     "odpowiedz": "pH ≈ 11,1",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "[OH⁻] = √(1,8·10⁻⁶) = 1,34·10⁻³; pOH = 2,87; pH = 11,13. Warunek c/Kb > 400 spełniony.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oblicz stopień dysocjacji amoniaku.",
+     "odpowiedz": "ok. 1,3%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "α = [OH⁻]/c = 0,0134.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-10",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Wskaźniki — identyfikacja",
+   "material": "Tekst autorski. Trzy probówki zawierają roztwory: HCl, NaCl, Na₂CO₃ (po 0,1 mol·dm⁻³). Dostępny jest tylko oranż metylowy i fenoloftaleina.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Opisz identyfikację roztworów.",
+     "odpowiedz": "Fenoloftaleina: malinowa — Na₂CO₃. Oranż metylowy w pozostałych: czerwony — HCl, żółty — NaCl.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Dwa wskaźniki o różnych zakresach.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-wodne-11",
+   "dzial": "roztwory-wodne"
   }
  ]
 }
