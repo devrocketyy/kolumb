@@ -89,6 +89,16 @@ def load_tresci():
                 T[k]['Q'] = T[k].get('Q', []) + v.get('Q', [])
             else:
                 T[k] = dict(v)
+    # ta sama fiszka (ten sam przód) dopisana w późniejszej porcji — zostaje tylko pierwsze wystąpienie
+    widziane = set()
+    for k in T:
+        nowe = []
+        for f in T[k].get('F', []):
+            klucz = f[0].strip().lower()
+            if klucz not in widziane:
+                widziane.add(klucz)
+                nowe.append(f)
+        T[k]['F'] = nowe
     return T
 
 
