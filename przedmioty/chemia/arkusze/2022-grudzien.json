@@ -1,0 +1,348 @@
+{
+ "id": "2022-grudzien",
+ "nazwa": "Próbna CKE grudzień 2022",
+ "opis": "Test diagnostyczny CKE z chemii (poziom rozszerzony, Formuła 2023), grudzień 2022 r.",
+ "link": "https://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2023/",
+ "zrodlo": "Arkusz: CKE, test diagnostyczny grudzień 2022. Odpowiedzi i omówienia: opracowanie IndexLab na podstawie zasad oceniania CKE.",
+ "wiazki": [
+  {
+   "nr": "1",
+   "strona": 2,
+   "tytul": "Budowa atomu",
+   "zadania": [
+    {
+     "nr": "1.1",
+     "punkty": 1,
+     "polecenie": "Zidentyfikuj pierwiastki X1–X3.",
+     "odpowiedz": "X1: O; X2: K; X3: Mn",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "atom"
+     ]
+    },
+    {
+     "nr": "1.2",
+     "punkty": 1,
+     "polecenie": "Podaj n i l elektronów walencyjnych o najwyższej energii dla X1 i X3.",
+     "odpowiedz": "O: n = 2, l = 1; Mn: n = 3, l = 2",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Mn — ostatnie elektrony na 3d.",
+     "dzialy": [
+      "atom"
+     ]
+    },
+    {
+     "nr": "3.2",
+     "punkty": 1,
+     "polecenie": "Ile przemian β⁻ zachodzi w drodze ²²⁶Ra → ²¹⁰Pb?",
+     "odpowiedz": "2",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "4 przemiany α obniżają Z o 8 (88 → 80), a Pb ma Z = 82 → 2 β⁻.",
+     "dzialy": [
+      "atom"
+     ]
+    },
+    {
+     "nr": "4",
+     "punkty": 1,
+     "polecenie": "Zapisz konfigurację chromu.",
+     "odpowiedz": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s¹",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Promocja elektronu — półzapełniona podpowłoka d.",
+     "dzialy": [
+      "atom"
+     ]
+    },
+    {
+     "nr": "6",
+     "punkty": 1,
+     "polecenie": "Określ typ kryształów substancji A i B.",
+     "odpowiedz": "A — jonowe; B — molekularne",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Na podstawie właściwości z tabeli (przewodnictwo po stopieniu, temperatura topnienia).",
+     "dzialy": [
+      "atom"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "7",
+   "strona": 4,
+   "tytul": "Energetyka i stechiometria",
+   "zadania": [
+    {
+     "nr": "7",
+     "punkty": 1,
+     "polecenie": "Czy spalanie CO do CO₂ jest egzotermiczne? Uzasadnij entalpiami tworzenia.",
+     "odpowiedz": "Tak — entalpia tworzenia CO₂ jest znacznie niższa niż CO, więc energia jest uwalniana.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "ΔH = ΣΔHf(produkty) − ΣΔHf(substraty) < 0.",
+     "dzialy": [
+      "kinetyka"
+     ]
+    },
+    {
+     "nr": "9",
+     "punkty": 1,
+     "polecenie": "Który metal nie reaguje ze stężonym HNO₃? Uzasadnij.",
+     "odpowiedz": "Al — ulega pasywacji.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Także Fe i Cr pasywują się w stężonym HNO₃.",
+     "dzialy": [
+      "kinetyka"
+     ]
+    },
+    {
+     "nr": "11.2",
+     "punkty": 2,
+     "polecenie": "Zidentyfikuj substancje X i Y na podstawie krzywych rozpuszczalności.",
+     "odpowiedz": "X: NH₃ — rozpuszczalność maleje z temperaturą (gaz); Y: NH₄Cl — rośnie.",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "—",
+     "dzialy": [
+      "kinetyka"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "12",
+   "strona": 6,
+   "tytul": "Nadtlenek wodoru i wodorotlenki",
+   "zadania": [
+    {
+     "nr": "12.1",
+     "punkty": 2,
+     "polecenie": "Zapisz reakcje H₂O₂ z Fe(OH)₂ i z [Cr(OH)₆]³⁻.",
+     "odpowiedz": "2Fe(OH)₂ + H₂O₂ → 2Fe(OH)₃; 2[Cr(OH)₆]³⁻ + 3H₂O₂ → 2CrO₄²⁻ + 8H₂O + 2OH⁻",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "H₂O₂ jako utleniacz.",
+     "dzialy": [
+      "redoks"
+     ]
+    },
+    {
+     "nr": "12.2",
+     "punkty": 1,
+     "polecenie": "Czy w reakcji z KMnO₄ H₂O₂ był utleniaczem? Uzasadnij.",
+     "odpowiedz": "Nie — MnO₄⁻ zredukował się do MnO₂, a H₂O₂ utlenił się do O₂, więc był reduktorem.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "H₂O₂ może być i utleniaczem, i reduktorem.",
+     "dzialy": [
+      "redoks"
+     ]
+    },
+    {
+     "nr": "13",
+     "punkty": 1,
+     "polecenie": "Czy nadmiarem NaOH można wytrącić ilościowo Al(OH)₃? Uzasadnij.",
+     "odpowiedz": "Nie — Al(OH)₃ jest amfoteryczny i roztworzy się w nadmiarze NaOH.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "redoks"
+     ]
+    },
+    {
+     "nr": "14.2",
+     "punkty": 1,
+     "polecenie": "Napisz reakcję P₄O₁₀ z wodą.",
+     "odpowiedz": "P₄O₁₀ + 6H₂O → 4H₃PO₄",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "redoks"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "16",
+   "strona": 8,
+   "tytul": "Bromiany i halogeny",
+   "zadania": [
+    {
+     "nr": "16.2",
+     "punkty": 1,
+     "polecenie": "Jak zmieni się szybkość reakcji (v ∝ [H⁺]²), jeśli pH wzrośnie o 0,3?",
+     "odpowiedz": "Zmaleje 4-krotnie",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "10⁻⁰·³ = 0,5 → [H⁺] dwa razy mniejsze → 0,5² = 0,25.",
+     "dzialy": [
+      "redoks"
+     ]
+    },
+    {
+     "nr": "17",
+     "punkty": 1,
+     "polecenie": "Dlaczego warstwa chloroformu jest na dole? Nazwij proces.",
+     "odpowiedz": "Chloroform ma większą gęstość niż woda; ekstrakcja.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "redoks"
+     ]
+    },
+    {
+     "nr": "18",
+     "punkty": 1,
+     "polecenie": "Czy NO₃⁻ (H⁺) utleni jony Br⁻ i I⁻? Uzasadnij potencjałami.",
+     "odpowiedz": "Br⁻ — nie; I⁻ — tak. Potencjał NO₃⁻/NO jest wyższy niż I₂/I⁻, ale niższy niż Br₂/Br⁻.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "redoks"
+     ]
+    },
+    {
+     "nr": "19",
+     "punkty": 1,
+     "polecenie": "Zapisz schematy ogniw Zn–Co i Mn–Zn.",
+     "odpowiedz": "(−) Zn | Zn²⁺ || Co²⁺ | Co (+); (−) Mn | Mn²⁺ || Zn²⁺ | Zn (+)",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Anoda — metal o niższym potencjale.",
+     "dzialy": [
+      "redoks"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "20",
+   "strona": 10,
+   "tytul": "Organiczne",
+   "zadania": [
+    {
+     "nr": "20",
+     "punkty": 1,
+     "polecenie": "Podaj wzór i nazwę opisanego aldehydu.",
+     "odpowiedz": "HCHO — metanal (formaldehyd)",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "21",
+     "punkty": 2,
+     "polecenie": "Przypisz kationy pikom widma masowego chlorobenzenu i wyjaśnij stosunek pików.",
+     "odpowiedz": "1: C₆H₅⁺; 2: C₆H₅³⁵Cl⁺; 3: C₆H₅³⁷Cl⁺; chlor zawiera ok. 3 razy więcej ³⁵Cl niż ³⁷Cl.",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "—",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "22.1",
+     "punkty": 1,
+     "polecenie": "Zapisz reakcję acetylenku sodu z wodą.",
+     "odpowiedz": "HC≡CNa + H₂O → HC≡CH + NaOH",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Etyn jest słabszym kwasem niż woda.",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "23",
+     "punkty": 2,
+     "polecenie": "Podaj typy reakcji i wzory A i C.",
+     "odpowiedz": "B — eliminacja, B → C — addycja; A: CH₃CH₂CH₂CH₂Br; C: CH₃CH₂CHBrCH₃",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "Eliminacja do but-1-enu, potem addycja HBr wg Markownikowa.",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "24.2",
+     "punkty": 1,
+     "polecenie": "Zapisz hydrolizę fenolanu (Brønsted).",
+     "odpowiedz": "C₆H₅O⁻ + H₂O ⇄ C₆H₅OH + OH⁻",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "26",
+     "punkty": 1,
+     "polecenie": "Podaj wzory trzech izomerycznych alkoholi C₄H₉OH.",
+     "odpowiedz": "A: CH₃CH₂CH₂CH₂OH; B: CH₃CH₂CH(OH)CH₃; C: (CH₃)₃COH",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "I-, II- i III-rzędowy.",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "27",
+     "punkty": 1,
+     "polecenie": "Przyporządkuj roztwory: propano-1-amina, propan-1-ol, glicyna, kwas propanowy.",
+     "odpowiedz": "2, 1, 4, 3",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Odczyn: amina zasadowy, alkohol i glicyna obojętne, kwas kwasowy.",
+     "dzialy": [
+      "organiczna"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "29",
+   "strona": 13,
+   "tytul": "Tłuszcze, alkohole, peptydy",
+   "zadania": [
+    {
+     "nr": "29.1",
+     "punkty": 2,
+     "polecenie": "Zapisz addycję I₂ do kwasu oleinowego i transestryfikację trioleinianu glicerolu metanolem.",
+     "odpowiedz": "C₈H₁₇CH=CHC₇H₁₄COOH + I₂ → C₈H₁₇CHI–CHIC₇H₁₄COOH; triolein + 3CH₃OH → glicerol + 3C₁₇H₃₃COOCH₃",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "Liczba jodowa mierzy nienasycenie.",
+     "dzialy": [
+      "tlenowe"
+     ]
+    },
+    {
+     "nr": "31",
+     "punkty": 1,
+     "polecenie": "Zapisz reakcję metanolu z sodem i nazwij produkt.",
+     "odpowiedz": "2CH₃OH + 2Na → 2CH₃ONa + H₂; metanolan sodu",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "tlenowe"
+     ]
+    },
+    {
+     "nr": "32",
+     "punkty": 1,
+     "polecenie": "Czy opisany izomer bromowania jest produktem głównym? Uzasadnij.",
+     "odpowiedz": "Tak — –CHO kieruje w meta, –OH w orto; brom zajmuje położenie zgodne z oboma.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "tlenowe"
+     ]
+    },
+    {
+     "nr": "34",
+     "punkty": 1,
+     "polecenie": "Podaj sekwencję tripeptydu.",
+     "odpowiedz": "Gly-Leu-Lys",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "tlenowe"
+     ]
+    }
+   ]
+  }
+ ]
+}
