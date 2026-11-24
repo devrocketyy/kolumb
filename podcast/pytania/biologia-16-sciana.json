@@ -1,0 +1,17 @@
+{
+  "odcinek": "biologia-16-sciana",
+  "pytania": [
+    {"id": "sciany", "typ": "laczenie", "polecenie": "Połącz organizm z budulcem ściany komórkowej.",
+     "pary": [["Roślina", "celuloza"], ["Grzyb", "chityna"], ["Bakteria", "mureina"]],
+     "wyjasnienie": "Komórki zwierzęce nie mają ściany komórkowej."},
+    {"id": "pekanie", "typ": "abcd", "pytanie": "Dlaczego komórka roślinna w wodzie destylowanej nie pęka?",
+     "odpowiedzi": ["Ściana komórkowa stawia opór napierającej wakuoli", "Wakuola nie pobiera wody", "Błona roślinna jest nieprzepuszczalna dla wody", "Cytoplazma rośliny jest hipotoniczna"],
+     "poprawna": 0, "wyjasnienie": "Woda wpływa, wakuola pęcznieje, ale ściana nie pozwala komórce pęknąć — powstaje turgor."},
+    {"id": "cytoszkielet", "typ": "laczenie", "polecenie": "Połącz element cytoszkieletu z funkcją.",
+     "pary": [["Mikrotubule", "wrzeciono podziałowe i transport pęcherzyków"], ["Mikrofilamenty", "ruch pełzakowaty i skurcz z miozyną"], ["Filamenty pośrednie", "wytrzymałość na rozciąganie"]],
+     "wyjasnienie": "Mikrotubule są najgrubsze, mikrofilamenty z aktyny najcieńsze."},
+    {"id": "lignina", "typ": "abcd", "pytanie": "Czym różni się ściana zdrewniała od skorkowaciałej?",
+     "odpowiedzi": ["Zdrewniała ma ligninę i jest twarda, skorkowaciała ma suberynę i nie przepuszcza wody", "Zdrewniała jest elastyczna, skorkowaciała sztywna", "Zdrewniała występuje u grzybów, skorkowaciała u roślin", "Obie zawierają chitynę"],
+     "poprawna": 0, "wyjasnienie": "Lignina — drewnienie, suberyna — korkowacenie."}
+  ]
+}

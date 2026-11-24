@@ -1,0 +1,17 @@
+{
+  "odcinek": "biologia-15-mitochondria",
+  "pytania": [
+    {"id": "grzebienie", "typ": "abcd", "pytanie": "Jakie znaczenie mają grzebienie mitochondrialne?",
+     "odpowiedzi": ["Zwiększają powierzchnię błony z łańcuchem oddechowym, więc powstaje więcej ATP", "Magazynują glukozę", "Chronią DNA mitochondrium", "Umożliwiają fotosyntezę"],
+     "poprawna": 0, "wyjasnienie": "Większa powierzchnia wewnętrznej błony = więcej miejsca na łańcuch oddechowy."},
+    {"id": "jesien", "typ": "abcd", "pytanie": "Dlaczego liście jesienią żółkną?",
+     "odpowiedzi": ["Chlorofil jest rozkładany i odsłania karotenoidy", "Liście wytwarzają nowe żółte barwniki z wody", "Chloroplasty zamieniają się w mitochondria", "Liście tracą ścianę komórkową"],
+     "poprawna": 0, "wyjasnienie": "Karotenoidy były w liściu cały czas, zasłonięte przez chlorofil."},
+    {"id": "dowody", "typ": "abcd", "pytanie": "Który z poniższych faktów jest dowodem endosymbiotycznego pochodzenia mitochondriów?",
+     "odpowiedzi": ["Mają własne koliste DNA i rybosomy typu bakteryjnego", "Występują w każdej komórce bakterii", "Mają jedną błonę", "Powstają w aparacie Golgiego"],
+     "poprawna": 0, "wyjasnienie": "Inne dowody: podwójna błona, podział podobny do bakteryjnego, wielkość bakterii."},
+    {"id": "matka", "typ": "abcd", "pytanie": "Po kim dziedziczymy DNA mitochondrialne?",
+     "odpowiedzi": ["Po matce", "Po ojcu", "Po obojgu rodzicach po połowie", "Losowo po jednym z rodziców"],
+     "poprawna": 0, "wyjasnienie": "Mitochondria zarodka pochodzą z komórki jajowej."}
+  ]
+}

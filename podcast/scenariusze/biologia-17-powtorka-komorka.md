@@ -1,212 +1,122 @@
-# IndexLab · Biologia · Odcinek 17 · Powtórka działu „Wycieczka po komórce”
+# IndexLab · Biologia · Odcinek 17 · Powtórka działu „Podróż cząsteczki glukozy”
 Dział: Komórka (odcinki 12–16)
-Długość: ok. 9 minut (ok. 1160 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane.
+Długość: ok. 7 minut (format 2.0, powtórka z pytań), jeden narrator.
+Pytania: podcast/pytania/biologia-17-powtorka-komorka.json
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Wyobraź sobie, że jesteś cząsteczką glukozy. Maleńką, sześciowęglową, z grupami OH, które lubią wodę. Płyniesz z wodą, która przesącza się między komórkami gdzieś w liściu. Przed tobą wyrasta ściana. Wysoka, z setek warstw włókien. To ściana komórki miękiszu liścia.
+Wyobraź sobie, że jesteś cząsteczką glukozy. Płyniesz z wodą między komórkami liścia. Przed tobą wyrasta ściana.
 
-[pauza]
-
-Dziś zwiedzimy komórkę od środka. Nie jako lista organelli do zapamiętania, ale jako miejsce, przez które przechodzisz. I na każdym przystanku zadam ci pytanie. Zatrzymaj nagranie, odpowiedz, a potem posłuchaj, czy się zgadzamy.
+Przejdziemy razem przez komórkę, od ściany do jądra. Na każdym przystanku pytanie.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. To powtórka działu komórka.
+Dzień dobry, tu IndexLab. To powtórka działu o komórce.
 
-## Przystanek pierwszy: ściana
+## Ściana
 
-Ściana komórki roślinnej to pierwsza przeszkoda. Ale dla małej cząsteczki jak ty nie jest szczelna. Między włókienkami jest dużo przestrzeni i przechodzisz przez nią jak przez gęsty żywopłot.
+Dla małej cząsteczki ściana nie jest szczelna. Przechodzisz przez nią jak przez gęsty żywopłot.
 
-Pytanie: z czego zbudowana jest ściana komórki roślinnej, a z czego grzybowej i bakteryjnej?
+[pytanie: sciana]
 
-[pauza, dłuższa]
-
-Roślinna z celulozy, grzybowa z chityny, bakteryjna z mureiny.
-
-Pytanie drugie: jaka jest różnica między ścianą zdrewniałą a skorkowaciałą?
+Sprawdź się. Z czego zbudowana jest ściana komórki roślinnej, a z czego grzybowej?
 
 [pauza, dłuższa]
 
-Zdrewniała jest przesycona ligniną i jest twarda, odporna na ściskanie. Skorkowaciała jest przesycona suberyną i jest nieprzepuszczalna dla wody i gazów.
+[odpowiedź]
 
-Zauważasz w ścianie cienkie kanały, przez które przechodzi cytoplazma do sąsiedniej komórki. To plazmodesmy.
+Roślinnej z celulozy, grzybowej z chityny.
 
-## Przystanek drugi: błona
+[koniec odpowiedzi]
 
-Teraz prawdziwa granica. Błona komórkowa. Wygląda jak płynna, ruchoma tafla z cząsteczek ustawionych w dwóch warstwach. Główki na zewnątrz, ogonki do środka.
+## Błona
 
-Pytanie: jaki model opisuje budowę błony i dlaczego taka nazwa?
+Teraz prawdziwa granica: płynna tafla fosfolipidów. Jesteś polarna, więc nie przejdziesz przez środek dwuwarstwy. Ale białko w błonie ma dla ciebie miejsce. Wchodzisz, białko zmienia kształt i wypuszcza cię do środka, bez zużycia ATP.
 
-[pauza, dłuższa]
+[pytanie: transport]
 
-Model płynnej mozaiki. Płynnej, bo fosfolipidy i białka mogą się przemieszczać w błonie. Mozaiki, bo błona składa się z różnych elementów: fosfolipidów, białek, cholesterolu, glikokaliksu.
-
-Jesteś glukozą. Masz grupy OH, jesteś polarna. Nie przejdziesz przez środek dwuwarstwy, bo jest hydrofobowy. Ale widzisz białko w błonie, które ma w środku idealnie dopasowane miejsce. Wchodzisz, białko zmienia kształt i wypuszcza cię po drugiej stronie. W komórce glukozy jest mniej niż na zewnątrz.
-
-Pytanie: jaki to był rodzaj transportu?
+Sprawdź się. Jaki to był rodzaj transportu?
 
 [pauza, dłuższa]
 
-Dyfuzja ułatwiona. Przez białko przenośnikowe, zgodnie z gradientem stężeń, bez ATP.
+[odpowiedź]
 
-Obok widzisz inne białko, które pracuje ciężko, zużywając ATP. Wyrzuca na zewnątrz jony sodu, a wpuszcza potas. Pytanie: co to jest i dlaczego potrzebuje energii?
+Dyfuzja ułatwiona: przez białko przenośnikowe, z gradientem stężeń, bez ATP.
 
-[pauza, dłuższa]
+[koniec odpowiedzi]
 
-Pompa sodowo-potasowa. Potrzebuje ATP, bo przenosi jony przeciw gradientowi stężeń. To transport aktywny.
+## Wakuola
 
-## Przystanek trzeci: wakuola i osmoza
+Większość komórki zajmuje wakuola. Nagle ktoś skrapia liść stężonym roztworem soli.
 
-Jesteś w cytoplazmie. Większość wnętrza komórki zajmuje ogromna wakuola, otoczona tonoplastem.
+[pytanie: plazmoliza]
 
-Wyobraź sobie, że liść, w którym jesteś, nagle zostaje skropiony stężonym roztworem soli. Pytanie: co stanie się z komórką?
-
-[pauza, dłuższa]
-
-Roztwór na zewnątrz jest hipertoniczny. Woda wypływa z wakuoli przez osmozę, wakuola się kurczy, protoplast odstaje od ściany. To plazmoliza. Liść więdnie.
-
-A gdyby potem liść wrzucić do czystej wody?
+Sprawdź się. Co stanie się z komórką?
 
 [pauza, dłuższa]
 
-Woda wpłynie z powrotem, protoplast wróci do ściany. Deplazmoliza i przywrócenie turgoru. Komórka nie pęknie, bo ma ścianę.
+[odpowiedź]
 
-## Przystanek czwarty: jądro
+Roztwór jest hipertoniczny. Woda wypływa z wakuoli, protoplast odstaje od ściany. To plazmoliza.
 
-Płyniesz dalej, w głąb. Przed tobą kula otoczona podwójną błoną z otworami. Jądro.
+[koniec odpowiedzi]
 
-Pytanie: co przechodzi przez pory jądrowe w każdą stronę?
+## Jądro i fabryka
 
-[pauza, dłuższa]
+Płyniesz w głąb. Przed tobą kula z podwójną błoną i porami. Wokół niej sieć kanałów pokrytych ziarenkami.
 
-Z jądra wychodzi RNA, między innymi mRNA i podjednostki rybosomów. Do jądra wchodzą białka, na przykład enzymy potrzebne do pracy z DNA.
+[pytanie: siateczka]
 
-W środku widać ciemniejszą, gęstą plamę. Pytanie: co to jest i co tam powstaje?
-
-[pauza, dłuższa]
-
-Jąderko. Powstaje w nim rybosomowe RNA i składane są podjednostki rybosomów.
-
-## Przystanek piąty: fabryka białek
-
-Wokół jądra rozciąga się sieć kanałów pokrytych ziarenkami. Pytanie: co to za organellum i jakie białka tu powstają?
+Sprawdź się. Co to za kanały i co w nich powstaje?
 
 [pauza, dłuższa]
 
-Siateczka śródplazmatyczna szorstka, z rybosomami na powierzchni. Powstają tu białka wydzielane z komórki, białka błonowe i białka lizosomów.
+[odpowiedź]
 
-Pytanie: ułóż drogę białka wydzielniczego.
+Siateczka śródplazmatyczna szorstka. Na jej rybosomach powstają białka wydzielane z komórki, białka błon i lizosomów.
 
-[pauza, dłuższa]
+[koniec odpowiedzi]
 
-Rybosom na siateczce szorstkiej, wnętrze siateczki, pęcherzyk transportowy, aparat Golgiego, pęcherzyk wydzielniczy, egzocytoza.
+## Elektrownia
 
-A obok jest siateczka bez ziarenek. Pytanie: czym się zajmuje siateczka gładka?
+W końcu trafiasz do organellum z dwiema błonami i pofałdowaną błoną wewnętrzną. Tu zostaniesz spalona, a energia zamieni się w ATP.
 
-[pauza, dłuższa]
+[pytanie: mitochondrium]
 
-Syntezą lipidów, w tym hormonów steroidowych, odtruwaniem i magazynowaniem jonów wapnia.
-
-## Przystanek szósty: elektrownie
-
-Między siateczką widzisz owalne organella z dwiema błonami. Wewnętrzna fałduje się w grzebienie. Pytanie: co to jest i po co te fałdy?
+Sprawdź się. Co to za organellum i podaj jeden dowód, że pochodzi od bakterii.
 
 [pauza, dłuższa]
 
-Mitochondria. Grzebienie zwiększają powierzchnię wewnętrznej błony, na której zachodzi łańcuch oddechowy i synteza ATP. Większa powierzchnia to więcej ATP.
+[odpowiedź]
 
-Jesteś w komórce liścia, więc widzisz też zielone organella z błonami ułożonymi w stosy. Pytanie: jak nazywają się te stosy i co w nich zachodzi?
+Mitochondrium. Dowód: na przykład własne koliste DNA albo rybosomy typu bakteryjnego.
 
-[pauza, dłuższa]
+[koniec odpowiedzi]
 
-Grana, czyli stosy tylakoidów w chloroplastach. W ich błonach jest chlorofil i zachodzi faza fotosyntezy zależna od światła.
+## Mikroskop
 
-Pytanie najważniejsze z tego przystanku: podaj trzy dowody na to, że mitochondria i chloroplasty pochodzą od bakterii.
+Na koniec ktoś ogląda twój liść pod mikroskopem: okular dziesięć razy, obiektyw czterdzieści razy.
 
-[pauza, dłuższa]
+[pytanie: mikroskop]
 
-Mają własne koliste DNA, jak bakterie. Mają rybosomy typu bakteryjnego. Mają dwie błony. Rozmnażają się przez podział. Wystarczą trzy z tych czterech.
-
-## Przystanek siódmy: szkielet i ruch
-
-Wzdłuż drogi widzisz cienkie rurki i włókna. Po niektórych przesuwają się pęcherzyki. Pytanie: jakie trzy rodzaje włókien tworzą cytoszkielet?
+Sprawdź się. Jakie jest powiększenie i czy da się zobaczyć rybosomy?
 
 [pauza, dłuższa]
 
-Mikrotubule, czyli najgrubsze rurki z tubuliny. Mikrofilamenty, najcieńsze, z aktyny. I filamenty pośrednie.
+[odpowiedź]
 
-Pytanie: która z tych struktur bierze udział w podziale komórki?
+Czterysta razy. Rybosomów nie da się zobaczyć, bo są mniejsze niż rozdzielczość mikroskopu świetlnego.
 
-[pauza, dłuższa]
+[koniec odpowiedzi]
 
-Mikrotubule. Tworzą wrzeciono podziałowe.
-
-## Przystanek ósmy: porównanie
-
-Wychodzisz z komórki roślinnej. Obok jest komórka zwierzęca. Pytanie: wymień cztery różnice.
-
-[pauza, dłuższa]
-
-Roślinna ma ścianę z celulozy, zwierzęca nie ma. Roślinna ma plastydy, zwierzęca nie ma. Roślinna ma dużą centralną wakuolę, zwierzęca ma małe wakuole albo wcale. Materiał zapasowy w roślinnej to skrobia, w zwierzęcej glikogen. Zwierzęca ma też centriole, które u większości roślin nie występują.
-
-A dalej, w kropli wody, bakteria. Pytanie: czym różni się od obu?
-
-[pauza, dłuższa]
-
-Nie ma jądra, jej DNA leży w nukleoidzie. Nie ma organelli błonowych. Ma mniejsze rybosomy. Często ma plazmidy. Ściana zbudowana jest z mureiny.
-
-## Przystanek ostatni: mikroskop
-
-Na koniec cofnijmy się. Patrzysz na tę komórkę pod mikroskopem. Pytanie: obraz komórki ma długość trzydziestu sześciu milimetrów, powiększenie wynosi czterysta pięćdziesiąt razy. Jaka jest rzeczywista długość komórki w mikrometrach?
-
-[pauza, dłuższa]
-
-Trzydzieści sześć milimetrów przez czterysta pięćdziesiąt to zero przecinek zero osiem milimetra. Razy tysiąc: osiemdziesiąt mikrometrów.
-
-Pytanie: czy w mikroskopie świetlnym zobaczysz rybosomy?
-
-[pauza, dłuższa]
-
-Nie. Są mniejsze niż rozdzielczość mikroskopu świetlnego. Potrzebny jest mikroskop elektronowy.
-
-## Jak to się łączy
-
-[muzyka, krótko]
-
-Jeśli z tego działu zapamiętasz jedną rzecz, niech to będzie ta: każda komórka jest zbudowana pod swoje zadanie. Komórka trzustki, która wydziela enzymy, ma ogromną siateczkę szorstką i aparat Golgiego. Komórka mięśnia sercowego ma mnóstwo mitochondriów. Komórka miękiszu liścia ma chloroplasty. Komórka drewna ma zdrewniałą ścianę i często jest martwa, zostaje z niej tylko rurka do przewodzenia wody.
-
-Na maturze to najczęstszy typ polecenia z tego działu: „Wykaż związek budowy komórki z jej funkcją”. Odpowiedź zawsze w tej samej formie. Cecha budowy, na przykład liczne mitochondria. I jak umożliwia funkcję: dostarczają dużo ATP potrzebnego do ciągłej pracy.
-
-## Na spokojnie
+## Na koniec
 
 [muzyka, cicho]
 
-Trzy ostatnie pytania łączące wszystko.
+Ściana, błona, wakuola, jądro z fabryką białek i mitochondrium. Cały dział w jednej podróży.
 
-Pierwsze: komórki nabłonka jelita, które wchłaniają glukozę, mają na powierzchni tysiące mikrokosmków i dużo mitochondriów. Wykaż związek tych cech z funkcją.
-
-[pauza, dłuższa]
-
-Mikrokosmki zwiększają powierzchnię błony, przez którą zachodzi wchłanianie. Liczne mitochondria dostarczają ATP do transportu aktywnego, który pozwala pobierać substancje wbrew gradientowi stężeń.
-
-Drugie: dlaczego erytrocyt w wodzie destylowanej pęka, a komórka skórki cebuli nie?
-
-[pauza, dłuższa]
-
-Bo woda wpływa do obu przez osmozę, ale komórka cebuli ma ścianę komórkową, która powstrzymuje pęcznienie. Erytrocyt nie ma ściany.
-
-Trzecie: w hodowli komórek zablokowano tworzenie mikrotubul. Jaki proces zostanie zaburzony?
-
-[pauza, dłuższa]
-
-Podział komórki, bo nie powstanie wrzeciono podziałowe i chromosomy nie zostaną rozdzielone. Zaburzony będzie też transport pęcherzyków w komórce.
-
-[pauza]
-
-To koniec działu o komórce. W następnym dziale metabolizm. A zaczniemy od tego, że każdego dnia twój organizm przerabia masę ATP porównywalną z masą twojego ciała. Do usłyszenia.
+W następnym odcinku zaczynamy metabolizm, od cząsteczki, którą zużywasz i odtwarzasz w ilości mniej więcej twojej masy ciała dziennie. ATP. Do usłyszenia.
 
 [muzyka, wyciszenie]
