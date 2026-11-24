@@ -1,0 +1,383 @@
+{
+ "id": "roztwory",
+ "nazwa": "Roztwory",
+ "opis": "Stężenia procentowe i molowe, rozpuszczalność, rozcieńczanie i mieszanie roztworów.",
+ "poddzialy": [
+  {
+   "id": "c-stezenia",
+   "nazwa": "Stężenie procentowe i molowe",
+   "opis": "Wymaganie V.1–4 podstawy programowej.",
+   "wymaganie": "V.1–4",
+   "fiszki": [
+    {
+     "id": "f8dc6b517",
+     "przod": "Wyjaśnij pojęcie: roztwór",
+     "tyl": "Jednorodna mieszanina rozpuszczalnika i substancji rozpuszczonej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "ffaebb17d",
+     "przod": "Wyjaśnij pojęcie: stężenie procentowe (masowe)",
+     "tyl": "Masa substancji rozpuszczonej w 100 g roztworu: Cp = (ms/mr) · 100%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "f034a2e21",
+     "przod": "Wyjaśnij pojęcie: stężenie molowe",
+     "tyl": "Liczba moli substancji rozpuszczonej w 1 dm³ roztworu: Cm = n/V [mol/dm³].",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "f488f22a5",
+     "przod": "Masa roztworu",
+     "tyl": "mr = ms + mrozp (masa substancji + masa rozpuszczalnika) albo mr = d · V.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "fc4e2e193",
+     "przod": "Typowy błąd: objętość roztworu a objętość wody",
+     "tyl": "Do wzoru na Cm podstawia się objętość ROZTWORU, a nie użytej wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "fa70f1b0c",
+     "przod": "Wzór na przeliczanie Cp na Cm",
+     "tyl": "Cm = (Cp · d) / (M · 100%), d w g/dm³.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "fd4558167",
+     "przod": "Jak przygotować roztwór o określonym Cm?",
+     "tyl": "Obliczyć n = Cm·V i m = n·M, odważyć substancję, rozpuścić w części wody w kolbie miarowej i uzupełnić wodą do kreski.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "f609ee616",
+     "przod": "Jak liczyć stężenie, gdy rozpuszczasz hydrat (np. CuSO₄·5H₂O)?",
+     "tyl": "Masa substancji (ms) to tylko masa soli bezwodnej zawarta w hydracie; woda krystalizacyjna wchodzi do rozpuszczalnika.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "f0708e018",
+     "przod": "Typowy błąd przy rozpuszczaniu hydratu",
+     "tyl": "Przyjęcie całej masy hydratu jako masy substancji rozpuszczonej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "f4d168df3",
+     "przod": "Stężenie jonów w roztworze soli",
+     "tyl": "Zależy od wzoru soli, np. 0,1 mol/dm³ Na₂SO₄: [Na⁺] = 0,2 mol/dm³, [SO₄²⁻] = 0,1 mol/dm³.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "f11c52b72",
+     "przod": "Wyjaśnij pojęcie: stężenie ppm",
+     "tyl": "Liczba części masowych substancji na milion części roztworu (1 ppm = 1 mg/kg); używane przy bardzo małych stężeniach, np. zanieczyszczeń.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "f32a14a0c",
+     "przod": "Podaj nazwę pojęcia: Jednorodna mieszanina rozpuszczalnika i substancji rozpuszczonej.",
+     "tyl": "roztwór",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "fbcd6b89c",
+     "przod": "Podaj nazwę pojęcia: Masa substancji rozpuszczonej w 100 g roztworu: Cp = (ms/mr) · 100%.",
+     "tyl": "stężenie procentowe (masowe)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    },
+    {
+     "id": "f1383d095",
+     "przod": "Podaj nazwę pojęcia: Liczba moli substancji rozpuszczonej w 1 dm³ roztworu: Cm = n/V [mol/dm³].",
+     "tyl": "stężenie molowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.1–4"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p625f85e3",
+     "pytanie": "W 200 g roztworu jest 30 g soli. Cp wynosi:",
+     "odpowiedzi": [
+      "30%",
+      "15%",
+      "20%",
+      "17,6%"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "30/200 · 100%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8b212790",
+     "pytanie": "W 500 cm³ roztworu jest 0,2 mola NaCl. Cm wynosi:",
+     "odpowiedzi": [
+      "2,5 mol/dm³",
+      "0,2 mol/dm³",
+      "0,1 mol/dm³",
+      "0,4 mol/dm³"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "0,2 mol / 0,5 dm³.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "paf2029a8",
+     "pytanie": "Jakie jest stężenie jonów Cl⁻ w 0,1 M CaCl₂?",
+     "odpowiedzi": [
+      "0,1 mol/dm³",
+      "0,05 mol/dm³",
+      "0,3 mol/dm³",
+      "0,2 mol/dm³"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Każdy CaCl₂ daje 2 Cl⁻.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa3d8f824",
+     "pytanie": "Rozpuszczając hydrat, jako ms we wzorze na Cp przyjmujemy:",
+     "odpowiedzi": [
+      "masę soli bezwodnej w hydracie",
+      "masę rozpuszczalnika",
+      "masę wody krystalizacyjnej",
+      "masę hydratu"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Woda krystalizacyjna dołącza do rozpuszczalnika.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-rozpuszczalnosc",
+   "nazwa": "Rozpuszczalność i roztwory nasycone",
+   "opis": "Wymaganie V.5–6 podstawy programowej.",
+   "wymaganie": "V.5–6",
+   "fiszki": [
+    {
+     "id": "fef67af5e",
+     "przod": "Wyjaśnij pojęcie: rozpuszczalność",
+     "tyl": "Maksymalna masa substancji, jaką można rozpuścić w 100 g rozpuszczalnika w danej temperaturze, otrzymując roztwór nasycony.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "ff8b285db",
+     "przod": "Wyjaśnij pojęcie: roztwór nasycony",
+     "tyl": "Roztwór, w którym w danej temperaturze nie można już rozpuścić więcej substancji (pozostaje w równowadze z nierozpuszczonym osadem).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "f2a74c30c",
+     "przod": "Wyjaśnij pojęcie: roztwór nienasycony",
+     "tyl": "Roztwór, w którym można jeszcze rozpuścić dodatkową porcję substancji w danej temperaturze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "f12d65330",
+     "przod": "Wyjaśnij pojęcie: roztwór przesycony",
+     "tyl": "Nietrwały roztwór zawierający więcej substancji niż roztwór nasycony; drobny kryształek wywołuje krystalizację nadmiaru.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "f1767239e",
+     "przod": "Jak temperatura wpływa na rozpuszczalność ciał stałych i gazów?",
+     "tyl": "Rozpuszczalność większości ciał stałych rośnie ze wzrostem temperatury; rozpuszczalność gazów maleje (a rośnie ze wzrostem ciśnienia).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "f3452f3f7",
+     "przod": "Jak obliczyć Cp roztworu nasyconego z rozpuszczalności R?",
+     "tyl": "Cp = R / (100 + R) · 100% (R — g substancji na 100 g wody).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "f2027c67e",
+     "przod": "Typowy błąd: rozpuszczalność a stężenie procentowe",
+     "tyl": "Utożsamianie rozpuszczalności (g na 100 g WODY) ze stężeniem procentowym (g na 100 g ROZTWORU).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "f73795026",
+     "przod": "Jak obliczyć masę kryształów wydzielonych po ochłodzeniu roztworu nasyconego?",
+     "tyl": "Policzyć masę substancji w roztworze w wyższej temperaturze i masę, która zostaje rozpuszczona w niższej (przy tej samej masie wody); różnica to masa kryształów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "f2b093651",
+     "przod": "Wyjaśnij pojęcie: krystalizacja",
+     "tyl": "Wydzielanie się substancji z roztworu w postaci kryształów, np. po ochłodzeniu roztworu nasyconego lub odparowaniu rozpuszczalnika.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "fd97d8106",
+     "przod": "Jak odczytać rozpuszczalność z krzywej rozpuszczalności?",
+     "tyl": "Znaleźć temperaturę na osi poziomej i odczytać z krzywej masę substancji na 100 g wody na osi pionowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    },
+    {
+     "id": "fcee6f6ac",
+     "przod": "Podaj nazwę pojęcia: Wydzielanie się substancji z roztworu w postaci kryształów, np. po ochłodzeniu roztworu nasyconego lub odparowaniu rozpuszczalnika.",
+     "tyl": "krystalizacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.5–6"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p578ce84f",
+     "pytanie": "Rozpuszczalność soli w 20°C wynosi 25 g/100 g wody. Cp roztworu nasyconego to:",
+     "odpowiedzi": [
+      "33,3%",
+      "12,5%",
+      "20%",
+      "25%"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "25/125 · 100%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p843ab9c0",
+     "pytanie": "Jak zmienia się rozpuszczalność gazów ze wzrostem temperatury?",
+     "odpowiedzi": [
+      "nie zmienia się",
+      "rośnie",
+      "maleje",
+      "najpierw rośnie, potem maleje"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Dlatego ciepła woda zawiera mniej tlenu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe68a53ea",
+     "pytanie": "Roztwór, w którym można jeszcze rozpuścić substancję, to roztwór:",
+     "odpowiedzi": [
+      "koloidalny",
+      "przesycony",
+      "nasycony",
+      "nienasycony"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Nie osiągnięto rozpuszczalności.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-mieszanie",
+   "nazwa": "Rozcieńczanie, zatężanie i mieszanie roztworów",
+   "opis": "Wymaganie V.7–8 podstawy programowej.",
+   "wymaganie": "V.7–8",
+   "fiszki": [
+    {
+     "id": "fd920180e",
+     "przod": "Wyjaśnij pojęcie: rozcieńczanie roztworu",
+     "tyl": "Dodawanie rozpuszczalnika — masa (liczba moli) substancji się nie zmienia, rośnie masa (objętość) roztworu, więc stężenie maleje.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "fd46448e6",
+     "przod": "Wzór dla rozcieńczania (stężenie molowe)",
+     "tyl": "C₁·V₁ = C₂·V₂ — liczba moli substancji przed i po rozcieńczeniu jest taka sama.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f696d3b22",
+     "przod": "Wzór dla rozcieńczania (stężenie procentowe)",
+     "tyl": "Cp₁·m₁ = Cp₂·m₂ (masa substancji się nie zmienia).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f8f7ca4fe",
+     "przod": "Wyjaśnij pojęcie: zatężanie roztworu",
+     "tyl": "Zwiększanie stężenia przez odparowanie rozpuszczalnika albo dodanie substancji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f75326b21",
+     "przod": "Jak obliczyć Cp po zmieszaniu dwóch roztworów tej samej substancji?",
+     "tyl": "Cp = (ms₁ + ms₂) / (mr₁ + mr₂) · 100% — sumuje się masy substancji i masy roztworów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f7c8758fa",
+     "przod": "Reguła krzyżowa (metoda krzyża)",
+     "tyl": "Przy mieszaniu roztworów o stężeniach C₁ i C₂, by otrzymać C: masy roztworów mają się jak (C₂ − C) : (C − C₁). Woda = roztwór 0%, czysta substancja = 100%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f86a4d41d",
+     "przod": "Typowy błąd przy mieszaniu roztworów",
+     "tyl": "Uśrednianie stężeń (np. (10% + 30%)/2 = 20%) bez uwzględnienia mas mieszanych roztworów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f434afc0c",
+     "przod": "Czy objętości roztworów się sumują przy mieszaniu?",
+     "tyl": "Nie zawsze dokładnie (kontrakcja objętości); w zadaniach z Cm przyjmuje się sumowanie objętości tylko wtedy, gdy polecenie na to pozwala.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "fa57c525a",
+     "przod": "Jak liczyć stężenie po zmieszaniu roztworów, które ze sobą reagują?",
+     "tyl": "Najpierw obliczyć mole reagentów i ustalić, co przereagowało (stechiometria, nadmiar), a dopiero potem stężenia pozostałych substancji w łącznej objętości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f2cbfcaf3",
+     "przod": "Podaj nazwę pojęcia: Zwiększanie stężenia przez odparowanie rozpuszczalnika albo dodanie substancji.",
+     "tyl": "zatężanie roztworu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    },
+    {
+     "id": "f8aba07a0",
+     "przod": "Rozpoznaj: Przy mieszaniu roztworów o stężeniach C₁ i C₂, by otrzymać C: masy roztworów mają się jak (C₂ − C) : (C − C₁). Woda = roztwór 0%, czysta substancja = 100%.",
+     "tyl": "Reguła krzyżowa (metoda krzyża)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. V.7–8"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p60451871",
+     "pytanie": "Do 100 g 20% roztworu dodano 100 g wody. Cp wynosi:",
+     "odpowiedzi": [
+      "15%",
+      "10%",
+      "40%",
+      "20%"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "20 g / 200 g.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7406a5ef",
+     "pytanie": "50 cm³ roztworu 2 mol/dm³ rozcieńczono do 200 cm³. Cm wynosi:",
+     "odpowiedzi": [
+      "4 mol/dm³",
+      "1 mol/dm³",
+      "0,25 mol/dm³",
+      "0,5 mol/dm³"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "C₁V₁ = C₂V₂: 2·50 = C·200.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3b9a03ba",
+     "pytanie": "Zmieszano 100 g 10% i 300 g 30% roztworu. Cp mieszaniny:",
+     "odpowiedzi": [
+      "20%",
+      "15%",
+      "40%",
+      "25%"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "(10 + 90)/400 · 100%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

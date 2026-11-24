@@ -1,0 +1,670 @@
+{
+ "id": "roztwory-wodne",
+ "nazwa": "Reakcje w roztworach wodnych",
+ "opis": "Kwasy i zasady Brønsteda, pH, dysocjacja, hydroliza, bufory, reakcje jonowe.",
+ "poddzialy": [
+  {
+   "id": "c-kwasy-zasady",
+   "nazwa": "Teoria Brønsteda i dysocjacja elektrolityczna",
+   "opis": "Wymaganie VI.1–3 podstawy programowej.",
+   "wymaganie": "VI.1–3",
+   "fiszki": [
+    {
+     "id": "f8dcb2378",
+     "przod": "Wyjaśnij pojęcie: dysocjacja elektrolityczna",
+     "tyl": "Rozpad substancji na jony pod wpływem rozpuszczalnika polarnego (wody).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "fe5614e09",
+     "przod": "Wyjaśnij pojęcie: elektrolit",
+     "tyl": "Substancja, której roztwór wodny (lub stop) przewodzi prąd dzięki obecności jonów (kwasy, zasady, sole).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f4b20f484",
+     "przod": "Elektrolity mocne i słabe",
+     "tyl": "Mocne dysocjują praktycznie całkowicie (HCl, HNO₃, H₂SO₄, NaOH, KOH, większość soli); słabe — częściowo (CH₃COOH, H₂S, H₂CO₃, NH₃·H₂O).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f4fb4816a",
+     "przod": "Kwas i zasada według Arrheniusa",
+     "tyl": "Kwas — substancja, która w wodzie dysocjuje z wytworzeniem jonów H⁺ (H₃O⁺); zasada — z wytworzeniem jonów OH⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "fc2470457",
+     "przod": "Kwas i zasada według Brønsteda–Lowry’ego",
+     "tyl": "Kwas — donor protonu (H⁺); zasada — akceptor protonu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f458d87ae",
+     "przod": "Wyjaśnij pojęcie: sprzężona para kwas–zasada",
+     "tyl": "Kwas i zasada różniące się o jeden proton, np. NH₄⁺/NH₃, H₂O/OH⁻, HCO₃⁻/CO₃²⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f40d71b03",
+     "przod": "Jak wskazać kwas i zasadę Brønsteda w równaniu NH₃ + H₂O ⇄ NH₄⁺ + OH⁻?",
+     "tyl": "H₂O oddaje proton — kwas; NH₃ go przyjmuje — zasada. Sprzężone pary: NH₄⁺/NH₃ oraz H₂O/OH⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "fa328e46f",
+     "przod": "Wyjaśnij pojęcie: amfolit (substancja amfiprotyczna)",
+     "tyl": "Drobina, która może być i kwasem, i zasadą Brønsteda, np. H₂O, HCO₃⁻, HSO₄⁻, H₂PO₄⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f6df98bcd",
+     "przod": "Zależność mocy kwasu i sprzężonej z nim zasady",
+     "tyl": "Im mocniejszy kwas, tym słabsza sprzężona z nim zasada (np. HCl — mocny kwas, Cl⁻ — bardzo słaba zasada).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f88ee4198",
+     "przod": "Dysocjacja wielostopniowa kwasu wieloprotonowego",
+     "tyl": "Zachodzi etapami, a każdy kolejny stopień w mniejszym stopniu, np. H₃PO₄ ⇄ H⁺ + H₂PO₄⁻; H₂PO₄⁻ ⇄ H⁺ + HPO₄²⁻; HPO₄²⁻ ⇄ H⁺ + PO₄³⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "ff21d5ef8",
+     "przod": "Zapis jonu oksoniowego",
+     "tyl": "H₃O⁺ — proton związany z cząsteczką wody (wiązaniem koordynacyjnym); w uproszczeniu zapisuje się H⁺.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f7122e2b6",
+     "przod": "Autodysocjacja (autoprotoliza) wody",
+     "tyl": "H₂O + H₂O ⇄ H₃O⁺ + OH⁻; iloczyn jonowy wody Kw = [H⁺][OH⁻] = 10⁻¹⁴ (w 25°C).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f577e19ed",
+     "przod": "Podaj nazwę pojęcia: Rozpad substancji na jony pod wpływem rozpuszczalnika polarnego (wody).",
+     "tyl": "dysocjacja elektrolityczna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f1cfdf534",
+     "przod": "Podaj nazwę pojęcia: Substancja, której roztwór wodny (lub stop) przewodzi prąd dzięki obecności jonów (kwasy, zasady, sole).",
+     "tyl": "elektrolit",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "fa0f15885",
+     "przod": "Podaj nazwę pojęcia: Drobina, która może być i kwasem, i zasadą Brønsteda, np. H₂O, HCO₃⁻, HSO₄⁻, H₂PO₄⁻.",
+     "tyl": "amfolit (substancja amfiprotyczna)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f68fff7f6",
+     "przod": "Rozpoznaj: Zachodzi etapami, a każdy kolejny stopień w mniejszym stopniu, np. H₃PO₄ ⇄ H⁺ + H₂PO₄⁻; H₂PO₄⁻ ⇄ H⁺ + HPO₄²⁻; HPO₄²⁻ ⇄ H⁺ + PO₄³⁻.",
+     "tyl": "Dysocjacja wielostopniowa kwasu wieloprotonowego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pc9532df1",
+     "pytanie": "W równaniu HCO₃⁻ + H₂O ⇄ CO₃²⁻ + H₃O⁺ jon HCO₃⁻ jest:",
+     "odpowiedzi": [
+      "kwasem Brønsteda",
+      "zasadą",
+      "solą",
+      "nie bierze udziału w przemianie"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Oddaje proton.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbbaf9c92",
+     "pytanie": "Sprzężoną zasadą kwasu H₂SO₄ jest:",
+     "odpowiedzi": [
+      "H₂O",
+      "H₃SO₄⁺",
+      "HSO₄⁻",
+      "SO₄²⁻"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Różnią się o jeden proton.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1e8a67dc",
+     "pytanie": "Który kwas jest słabym elektrolitem?",
+     "odpowiedzi": [
+      "CH₃COOH",
+      "HBr",
+      "HCl",
+      "HNO₃"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Dysocjuje częściowo.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa49c336d",
+     "pytanie": "Amfolitem jest:",
+     "odpowiedzi": [
+      "Na⁺",
+      "H₂O",
+      "NH₄⁺",
+      "Cl⁻"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Woda może oddać i przyjąć proton.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-ph",
+   "nazwa": "pH, stała i stopień dysocjacji",
+   "opis": "Wymaganie VI.4–7 podstawy programowej.",
+   "wymaganie": "VI.4–7",
+   "fiszki": [
+    {
+     "id": "fbf6b95b7",
+     "przod": "Definicja pH",
+     "tyl": "pH = −log[H⁺] (stężenie jonów wodorowych w mol/dm³).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f2ed84777",
+     "przod": "Definicja pOH i związek z pH",
+     "tyl": "pOH = −log[OH⁻]; w 25°C pH + pOH = 14.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "fa76bda91",
+     "przod": "Odczyn roztworu a pH (25°C)",
+     "tyl": "pH < 7 — kwasowy, pH = 7 — obojętny, pH > 7 — zasadowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "fdbbf3c69",
+     "przod": "pH roztworu mocnego kwasu jednoprotonowego",
+     "tyl": "[H⁺] = Cm kwasu, np. 0,01 mol/dm³ HCl → pH = 2.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "fe3610c9d",
+     "przod": "pH roztworu mocnej zasady",
+     "tyl": "[OH⁻] = Cm (dla NaOH) lub 2·Cm (dla Ba(OH)₂); pOH = −log[OH⁻]; pH = 14 − pOH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f81a7c743",
+     "przod": "Jak zmienia się pH przy rozcieńczeniu mocnego kwasu 10 razy?",
+     "tyl": "Wzrasta o 1 (np. z 2 do 3).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "fde8cd227",
+     "przod": "Wyjaśnij pojęcie: stała dysocjacji (Ka, Kb)",
+     "tyl": "Stała równowagi dysocjacji słabego elektrolitu, np. dla HA ⇄ H⁺ + A⁻: Ka = [H⁺][A⁻]/[HA]. Im większa, tym mocniejszy elektrolit; zależy tylko od temperatury.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f30e8d2e7",
+     "przod": "Wyjaśnij pojęcie: stopień dysocjacji α",
+     "tyl": "Stosunek liczby cząsteczek, które zdysocjowały, do całkowitej liczby cząsteczek elektrolitu: α = Czdys / C₀ (często w %).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f66ff1b68",
+     "przod": "Prawo rozcieńczeń Ostwalda",
+     "tyl": "K = α²·C₀ / (1 − α); dla słabych elektrolitów (α < 5%) w przybliżeniu K ≈ α²·C₀.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f6e7d0273",
+     "przod": "Jak stopień dysocjacji zależy od stężenia?",
+     "tyl": "Rośnie przy rozcieńczaniu (maleje C₀), choć stała dysocjacji się nie zmienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f2d3279c8",
+     "przod": "pH słabego kwasu — przybliżenie",
+     "tyl": "[H⁺] ≈ √(Ka·C₀), gdy C₀/Ka ≥ 400 (α < 5%).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "fd322059b",
+     "przod": "Typowy błąd przy pH słabego kwasu",
+     "tyl": "Przyjęcie [H⁺] = C₀, jakby kwas był mocny, albo użycie przybliżenia √(Ka·C₀), gdy warunek C₀/Ka ≥ 400 nie jest spełniony.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f10e07cdc",
+     "przod": "Jak obliczyć [H⁺] z pH?",
+     "tyl": "[H⁺] = 10⁻ᵖᴴ, np. pH = 3,5 → [H⁺] ≈ 3,16 · 10⁻⁴ mol/dm³.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "ff224bb03",
+     "przod": "Jak obliczyć pH po zmieszaniu mocnego kwasu z mocną zasadą?",
+     "tyl": "Obliczyć mole H⁺ i OH⁻, odjąć (zobojętnienie), nadmiar podzielić przez łączną objętość, policzyć pH lub pOH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "fb01aecf0",
+     "przod": "Typowy błąd: kwas wieloprotonowy",
+     "tyl": "Dla 0,01 M H₂SO₄ (mocny w 1. stopniu) w zadaniach często przyjmuje się [H⁺] = 0,02 mol/dm³ — trzeba czytać, co zakłada polecenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f33c50a07",
+     "przod": "Rozpoznaj: pH = −log[H⁺] (stężenie jonów wodorowych w mol/dm³).",
+     "tyl": "Definicja pH",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f55ecaa59",
+     "przod": "Rozpoznaj: pOH = −log[OH⁻]; w 25°C pH + pOH = 14.",
+     "tyl": "Definicja pOH i związek z pH",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f6f9039c4",
+     "przod": "Rozpoznaj: [OH⁻] = Cm (dla NaOH) lub 2·Cm (dla Ba(OH)₂); pOH = −log[OH⁻]; pH = 14 − pOH.",
+     "tyl": "pH roztworu mocnej zasady",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f8b33fd45",
+     "przod": "Rozpoznaj: K = α²·C₀ / (1 − α); dla słabych elektrolitów (α < 5%) w przybliżeniu K ≈ α²·C₀.",
+     "tyl": "Prawo rozcieńczeń Ostwalda",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p74a670f1",
+     "pytanie": "pH roztworu HCl o stężeniu 0,001 mol/dm³ wynosi:",
+     "odpowiedzi": [
+      "3",
+      "1",
+      "2",
+      "11"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "[H⁺] = 10⁻³.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8481c044",
+     "pytanie": "pH roztworu NaOH o stężeniu 0,01 mol/dm³ wynosi:",
+     "odpowiedzi": [
+      "12",
+      "14",
+      "10",
+      "2"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "pOH = 2, pH = 14 − 2.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p710d70a7",
+     "pytanie": "Stopień dysocjacji słabego kwasu przy rozcieńczaniu:",
+     "odpowiedzi": [
+      "rośnie",
+      "maleje",
+      "nie zmienia się",
+      "spada do zera"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Prawo rozcieńczeń Ostwalda.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf5e2b3b2",
+     "pytanie": "Stała dysocjacji zależy od:",
+     "odpowiedzi": [
+      "stężenia",
+      "objętości",
+      "stopnia dysocjacji",
+      "temperatury"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Jak każda stała równowagi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc22153d5",
+     "pytanie": "Ka kwasu wynosi 10⁻⁵, C₀ = 0,1 mol/dm³. pH wynosi około:",
+     "odpowiedzi": [
+      "2",
+      "3",
+      "5",
+      "1"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "[H⁺] = √(10⁻⁶) = 10⁻³.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-hydroliza",
+   "nazwa": "Hydroliza soli i roztwory buforowe",
+   "opis": "Wymaganie VI.8–9 podstawy programowej.",
+   "wymaganie": "VI.8–9",
+   "fiszki": [
+    {
+     "id": "f1b839b6c",
+     "przod": "Wyjaśnij pojęcie: hydroliza soli",
+     "tyl": "Reakcja jonów soli z wodą, w której powstaje słaby elektrolit, a roztwór zmienia odczyn.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f5d1412bf",
+     "przod": "Odczyn soli mocnego kwasu i mocnej zasady",
+     "tyl": "Obojętny — sól nie ulega hydrolizie (np. NaCl, KNO₃, Na₂SO₄).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "ffffef08c",
+     "przod": "Odczyn soli słabego kwasu i mocnej zasady",
+     "tyl": "Zasadowy — hydrolizie ulega anion, np. CH₃COO⁻ + H₂O ⇄ CH₃COOH + OH⁻ (CH₃COONa, Na₂CO₃, K₂S).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f6ce8e8c6",
+     "przod": "Odczyn soli mocnego kwasu i słabej zasady",
+     "tyl": "Kwasowy — hydrolizie ulega kation, np. NH₄⁺ + H₂O ⇄ NH₃ + H₃O⁺ (NH₄Cl), także sole Al³⁺, Fe³⁺, Cu²⁺, Zn²⁺.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "fc0ffe409",
+     "przod": "Hydroliza kationów metali (np. Al³⁺)",
+     "tyl": "Uwodniony kation działa jak kwas: [Al(H₂O)₆]³⁺ + H₂O ⇄ [Al(H₂O)₅OH]²⁺ + H₃O⁺ — roztwór jest kwasowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f1bd7dc6f",
+     "przod": "Jak zapisać równanie hydrolizy w formie jonowej skróconej?",
+     "tyl": "Tylko jon ulegający hydrolizie + H₂O ⇄ słaby elektrolit + H⁺ (lub H₃O⁺) albo OH⁻; jony „widzowie” pomijamy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "fccb955f1",
+     "przod": "Typowy błąd w równaniu hydrolizy",
+     "tyl": "Zapisanie hydrolizy jonu mocnego elektrolitu (np. Cl⁻ czy Na⁺) albo strzałki jednokierunkowej zamiast ⇄.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f58c18927",
+     "przod": "Wyjaśnij pojęcie: roztwór buforowy",
+     "tyl": "Roztwór, który utrzymuje prawie stałe pH po dodaniu niewielkich ilości kwasu lub zasady albo po rozcieńczeniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f7f055834",
+     "przod": "Skład roztworu buforowego",
+     "tyl": "Słaby kwas i jego sól z mocną zasadą (np. CH₃COOH/CH₃COONa) albo słaba zasada i jej sól z mocnym kwasem (np. NH₃/NH₄Cl).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f24bf3695",
+     "przod": "Jak działa bufor octanowy po dodaniu kwasu?",
+     "tyl": "Jony CH₃COO⁻ wiążą dodane H⁺: CH₃COO⁻ + H⁺ → CH₃COOH, więc pH prawie się nie zmienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f981ddcc2",
+     "przod": "Jak działa bufor octanowy po dodaniu zasady?",
+     "tyl": "Kwas octowy zobojętnia dodane OH⁻: CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f99aba684",
+     "przod": "pH buforu (równanie Hendersona–Hasselbalcha)",
+     "tyl": "pH = pKa + log([sól]/[kwas]); gdy stężenia są równe, pH = pKa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "ff94432f8",
+     "przod": "Bufory w organizmie człowieka",
+     "tyl": "Wodorowęglanowy (H₂CO₃/HCO₃⁻) we krwi utrzymuje pH ok. 7,4; fosforanowy i białczanowy w komórkach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f71e25543",
+     "przod": "Rozpoznaj: Obojętny — sól nie ulega hydrolizie (np. NaCl, KNO₃, Na₂SO₄).",
+     "tyl": "Odczyn soli mocnego kwasu i mocnej zasady",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f405d66d8",
+     "przod": "Rozpoznaj: Kwasowy — hydrolizie ulega kation, np. NH₄⁺ + H₂O ⇄ NH₃ + H₃O⁺ (NH₄Cl), także sole Al³⁺, Fe³⁺, Cu²⁺, Zn²⁺.",
+     "tyl": "Odczyn soli mocnego kwasu i słabej zasady",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f480c82d4",
+     "przod": "Rozpoznaj: Słaby kwas i jego sól z mocną zasadą (np. CH₃COOH/CH₃COONa) albo słaba zasada i jej sól z mocnym kwasem (np. NH₃/NH₄Cl).",
+     "tyl": "Skład roztworu buforowego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "fb8317e37",
+     "przod": "Rozpoznaj: pH = pKa + log([sól]/[kwas]); gdy stężenia są równe, pH = pKa.",
+     "tyl": "pH buforu (równanie Hendersona–Hasselbalcha)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "fac769efd",
+     "przod": "Rozpoznaj: Wodorowęglanowy (H₂CO₃/HCO₃⁻) we krwi utrzymuje pH ok. 7,4; fosforanowy i białczanowy w komórkach.",
+     "tyl": "Bufory w organizmie człowieka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pe02f0929",
+     "pytanie": "Który roztwór ma odczyn zasadowy?",
+     "odpowiedzi": [
+      "K₂CO₃",
+      "KNO₃",
+      "NH₄Cl",
+      "NaCl"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Sól słabego kwasu i mocnej zasady — hydroliza anionu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p464c70b8",
+     "pytanie": "Odczyn wodnego roztworu NH₄Cl jest:",
+     "odpowiedzi": [
+      "obojętny",
+      "kwasowy",
+      "zależy od stężenia",
+      "zasadowy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Hydroliza kationu NH₄⁺.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p17b640c1",
+     "pytanie": "Roztworem buforowym jest mieszanina:",
+     "odpowiedzi": [
+      "NaOH i NaCl",
+      "HCl i NaCl",
+      "CH₃COOH i CH₃COONa",
+      "HNO₃ i KNO₃"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Słaby kwas + jego sól.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p73828afd",
+     "pytanie": "Poprawne równanie hydrolizy octanu sodu w formie jonowej skróconej:",
+     "odpowiedzi": [
+      "CH₃COO⁻ + H⁺ → CH₃COOH",
+      "CH₃COO⁻ + H₂O ⇄ CH₃COOH + OH⁻",
+      "Na⁺ + H₂O ⇄ NaOH + H⁺",
+      "CH₃COONa + H₂O → CH₃COOH + NaOH"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Hydrolizuje tylko anion słabego kwasu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-jonowe",
+   "nazwa": "Reakcje strąceniowe i zobojętniania, równania jonowe",
+   "opis": "Wymaganie VI.10–12 podstawy programowej.",
+   "wymaganie": "VI.10–12",
+   "fiszki": [
+    {
+     "id": "f0997632e",
+     "przod": "Reakcja zobojętniania — równanie jonowe skrócone",
+     "tyl": "H⁺ + OH⁻ → H₂O (dla mocnego kwasu i mocnej zasady).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "fdd34a425",
+     "przod": "Wyjaśnij pojęcie: reakcja strąceniowa",
+     "tyl": "Reakcja jonów w roztworze, w której powstaje trudno rozpuszczalny związek (osad), np. Ag⁺ + Cl⁻ → AgCl↓.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "f1446fb16",
+     "przod": "Jak przewidzieć, czy wytrąci się osad?",
+     "tyl": "Sprawdzić w tabeli rozpuszczalności, czy produkt wymiany jonów jest trudno rozpuszczalny w wodzie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "fa189aaf1",
+     "przod": "Wyjaśnij pojęcie: iloczyn rozpuszczalności (Ks)",
+     "tyl": "Iloczyn stężeń jonów trudno rozpuszczalnej soli w roztworze nasyconym, w potęgach równych współczynnikom, np. Ks(AgCl) = [Ag⁺][Cl⁻].",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "fda03c58f",
+     "przod": "Kiedy wytrąca się osad (z Ks)?",
+     "tyl": "Gdy iloczyn stężeń jonów w roztworze przekroczy wartość Ks.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "f0ebe220f",
+     "przod": "Wyrażenie na Ks dla Ca₃(PO₄)₂",
+     "tyl": "Ks = [Ca²⁺]³[PO₄³⁻]².",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "fde9162f5",
+     "przod": "Wyjaśnij pojęcie: efekt wspólnego jonu",
+     "tyl": "Dodanie jonu wspólnego z trudno rozpuszczalną solą zmniejsza jej rozpuszczalność (przesuwa równowagę w stronę osadu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "fbea38a00",
+     "przod": "Reakcja kwasu z solą słabszego kwasu",
+     "tyl": "Mocniejszy kwas wypiera słabszy z jego soli, np. CaCO₃ + 2H⁺ → Ca²⁺ + CO₂↑ + H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "ff3f69264",
+     "przod": "Typowe gazy powstające w reakcjach jonowych",
+     "tyl": "CO₂ (węglany + kwas), H₂S (siarczki + kwas), SO₂ (siarczany(IV) + kwas), NH₃ (sole amonowe + zasada, ogrzewanie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "f39ea0cd8",
+     "przod": "Jak zapisać równanie jonowe skrócone krok po kroku?",
+     "tyl": "1) równanie cząsteczkowe, 2) rozpisać na jony mocne elektrolity rozpuszczalne, 3) skreślić jony, które się nie zmieniają, 4) sprawdzić atomy i ładunki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "f2513baa0",
+     "przod": "Jakich substancji nie rozpisuje się na jony?",
+     "tyl": "Osadów, gazów, wody, tlenków, słabych elektrolitów (słabe kwasy i zasady), substancji niezdysocjowanych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "f50b947a2",
+     "przod": "Wyjaśnij pojęcie: miareczkowanie alkacymetryczne",
+     "tyl": "Oznaczanie stężenia kwasu (zasady) przez stopniowe dodawanie zasady (kwasu) o znanym stężeniu do punktu równoważnikowego, wskazanego np. zmianą barwy wskaźnika.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "fe0d21bbf",
+     "przod": "Rozpoznaj: Ks = [Ca²⁺]³[PO₄³⁻]².",
+     "tyl": "Wyrażenie na Ks dla Ca₃(PO₄)₂",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "fa28f4fc1",
+     "przod": "Podaj nazwę pojęcia: Oznaczanie stężenia kwasu (zasady) przez stopniowe dodawanie zasady (kwasu) o znanym stężeniu do punktu równoważnikowego, wskazanego np. zmianą barwy wskaźnika.",
+     "tyl": "miareczkowanie alkacymetryczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pad63d493",
+     "pytanie": "Które jony utworzą osad w roztworze?",
+     "odpowiedzi": [
+      "K⁺ i NO₃⁻",
+      "Na⁺ i Cl⁻",
+      "Ba²⁺ i SO₄²⁻",
+      "NH₄⁺ i Cl⁻"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "BaSO₄ jest trudno rozpuszczalny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa3e044bf",
+     "pytanie": "Wyrażenie na iloczyn rozpuszczalności PbI₂ to:",
+     "odpowiedzi": [
+      "[Pb²⁺][I⁻]²",
+      "2[Pb²⁺][I⁻]",
+      "[Pb²⁺]²[I⁻]",
+      "[Pb²⁺][I⁻]"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Wykładniki = współczynniki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0b2e5d48",
+     "pytanie": "Równanie jonowe skrócone reakcji Na₂CO₃ z HCl:",
+     "odpowiedzi": [
+      "Na₂CO₃ + 2H⁺ → 2Na⁺ + H₂CO₃",
+      "H⁺ + OH⁻ → H₂O",
+      "Na⁺ + Cl⁻ → NaCl",
+      "CO₃²⁻ + 2H⁺ → CO₂ + H₂O"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Kwas węglowy rozkłada się na CO₂ i wodę.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p61d209b7",
+     "pytanie": "Dodanie NaCl do nasyconego roztworu AgCl spowoduje:",
+     "odpowiedzi": [
+      "wytrącenie dodatkowej ilości AgCl",
+      "brak zmian",
+      "rozpuszczenie osadu",
+      "powstanie gazu"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Efekt wspólnego jonu Cl⁻.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,493 @@
+{
+ "id": "kinetyka",
+ "nazwa": "Energetyka, kinetyka i równowaga",
+ "opis": "Efekty energetyczne, prawo Hessa, szybkość reakcji, stan równowagi i reguła przekory.",
+ "poddzialy": [
+  {
+   "id": "c-energetyka",
+   "nazwa": "Efekty energetyczne, entalpia i prawo Hessa",
+   "opis": "Wymaganie IV.1–4 podstawy programowej.",
+   "wymaganie": "IV.1–4",
+   "fiszki": [
+    {
+     "id": "f0999bb08",
+     "przod": "Wyjaśnij pojęcie: układ i otoczenie",
+     "tyl": "Układ — wyodrębniona część materii, którą badamy (np. reagenty w probówce); otoczenie — wszystko poza układem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "fc6ea7886",
+     "przod": "Układ otwarty, zamknięty i izolowany",
+     "tyl": "Otwarty — wymienia z otoczeniem energię i materię; zamknięty — tylko energię; izolowany — ani energii, ani materii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f532fb1f8",
+     "przod": "Wyjaśnij pojęcie: reakcja egzotermiczna",
+     "tyl": "Reakcja, w której układ oddaje ciepło do otoczenia; ΔH < 0 (np. spalanie, zobojętnianie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "fcecfe9e3",
+     "przod": "Wyjaśnij pojęcie: reakcja endotermiczna",
+     "tyl": "Reakcja, w której układ pobiera ciepło z otoczenia; ΔH > 0 (np. rozkład termiczny CaCO₃, fotosynteza).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "fdf16b81a",
+     "przod": "Wyjaśnij pojęcie: entalpia (ΔH)",
+     "tyl": "Ciepło reakcji przebiegającej pod stałym ciśnieniem; ΔH = H(produktów) − H(substratów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "fbb7b235e",
+     "przod": "Wyjaśnij pojęcie: standardowa entalpia tworzenia",
+     "tyl": "Efekt cieplny tworzenia 1 mola związku z pierwiastków w ich trwałych postaciach, w warunkach standardowych. Dla pierwiastków w stanie trwałym = 0.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "fa3d488f1",
+     "przod": "Jak obliczyć ΔH reakcji z entalpii tworzenia?",
+     "tyl": "ΔH = Σ ΔH°tw(produktów) − Σ ΔH°tw(substratów), z uwzględnieniem współczynników stechiometrycznych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f3edcd5a7",
+     "przod": "Prawo Hessa",
+     "tyl": "Efekt cieplny reakcji zależy tylko od stanu początkowego i końcowego, a nie od drogi przemiany — można go obliczyć, sumując równania etapów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f6e096a5f",
+     "przod": "Jak korzystać z prawa Hessa?",
+     "tyl": "Przekształcić podane równania (odwrócić — zmienić znak ΔH; pomnożyć przez liczbę — pomnożyć ΔH), aby ich suma dała szukaną reakcję; zsumować ΔH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "fb9912963",
+     "przod": "Typowy błąd przy prawie Hessa",
+     "tyl": "Odwrócenie równania bez zmiany znaku ΔH albo pomnożenie równania bez pomnożenia ΔH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f2d695350",
+     "przod": "Jak obliczyć ΔH z energii wiązań?",
+     "tyl": "ΔH = Σ E(wiązań zrywanych w substratach) − Σ E(wiązań tworzonych w produktach).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f2f103235",
+     "przod": "Wyjaśnij pojęcie: energia aktywacji",
+     "tyl": "Minimalna energia, jaką muszą mieć zderzające się drobiny, aby reakcja zaszła (bariera energetyczna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "fab3d2c52",
+     "przod": "Wykres energetyczny reakcji egzotermicznej",
+     "tyl": "Produkty leżą niżej niż substraty; ΔH < 0; garb między nimi to energia aktywacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "fdc9a3bbc",
+     "przod": "Wyjaśnij pojęcie: kompleks aktywny (stan przejściowy)",
+     "tyl": "Nietrwały układ atomów o najwyższej energii na drodze reakcji, w którym stare wiązania się rozrywają, a nowe tworzą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f31857ae4",
+     "przod": "Czy katalizator zmienia ΔH reakcji?",
+     "tyl": "Nie. Katalizator obniża energię aktywacji, ale ΔH (różnica energii produktów i substratów) zostaje taka sama.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f1ad6e4ce",
+     "przod": "Podaj nazwę pojęcia: Ciepło reakcji przebiegającej pod stałym ciśnieniem; ΔH = H(produktów) − H(substratów).",
+     "tyl": "entalpia (ΔH)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "fa9158dbf",
+     "przod": "Rozpoznaj: Efekt cieplny reakcji zależy tylko od stanu początkowego i końcowego, a nie od drogi przemiany — można go obliczyć, sumując równania etapów.",
+     "tyl": "Prawo Hessa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    },
+    {
+     "id": "f8d670d11",
+     "przod": "Podaj nazwę pojęcia: Nietrwały układ atomów o najwyższej energii na drodze reakcji, w którym stare wiązania się rozrywają, a nowe tworzą.",
+     "tyl": "kompleks aktywny (stan przejściowy)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.1–4"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p2467647c",
+     "pytanie": "Reakcja ma ΔH = −90 kJ. Jest to reakcja:",
+     "odpowiedzi": [
+      "endotermiczna",
+      "izotermiczna",
+      "nie da się ocenić",
+      "egzotermiczna"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "ΔH < 0 — ciepło oddane do otoczenia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p28cb0045",
+     "pytanie": "Jeśli dla reakcji A → B ΔH = +50 kJ, to dla B → A:",
+     "odpowiedzi": [
+      "ΔH = +50 kJ",
+      "ΔH = 0",
+      "ΔH = +100 kJ",
+      "ΔH = −50 kJ"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Odwrócenie równania zmienia znak ΔH.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa965036e",
+     "pytanie": "Katalizator:",
+     "odpowiedzi": [
+      "przesuwa równowagę",
+      "zużywa się w reakcji",
+      "obniża energię aktywacji",
+      "zmienia ΔH reakcji"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Działa na kinetykę, nie na termodynamikę.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p721df2d7",
+     "pytanie": "Standardowa entalpia tworzenia O₂(g) wynosi:",
+     "odpowiedzi": [
+      "0",
+      "nie da się określić",
+      "+498 kJ/mol",
+      "−286 kJ/mol"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Pierwiastek w stanie trwałym.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-szybkosc",
+   "nazwa": "Szybkość reakcji i katalizatory",
+   "opis": "Wymaganie IV.5–7 podstawy programowej.",
+   "wymaganie": "IV.5–7",
+   "fiszki": [
+    {
+     "id": "f249d7970",
+     "przod": "Wyjaśnij pojęcie: szybkość reakcji",
+     "tyl": "Zmiana stężenia substratu (ubytek) lub produktu (przyrost) w jednostce czasu, np. v = Δc/Δt w mol·dm⁻³·s⁻¹.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f800d3520",
+     "przod": "Czynniki wpływające na szybkość reakcji",
+     "tyl": "Stężenie (ciśnienie gazów) reagentów, temperatura, stopień rozdrobnienia (powierzchnia), katalizator, rodzaj reagentów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "faeb6d8d0",
+     "przod": "Jak temperatura wpływa na szybkość reakcji?",
+     "tyl": "Wzrost temperatury zwiększa szybkość — więcej drobin ma energię co najmniej równą energii aktywacji i zderzenia są częstsze (reguła van ’t Hoffa: +10°C → ok. 2–4 razy szybciej).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "fa6a43227",
+     "przod": "Dlaczego rozdrobnienie przyspiesza reakcję?",
+     "tyl": "Zwiększa powierzchnię kontaktu reagentów, więc rośnie liczba zderzeń skutecznych (np. pył węglowy spala się wybuchowo).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f97e0e8b9",
+     "przod": "Wyjaśnij pojęcie: równanie kinetyczne",
+     "tyl": "Zależność szybkości od stężeń substratów, np. v = k·[A]ᵃ·[B]ᵇ; k — stała szybkości (zależy od temperatury i katalizatora, nie od stężeń).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f384c6c2f",
+     "przod": "Jak zmieni się szybkość reakcji v = k[A]²[B], gdy [A] wzrośnie 2 razy?",
+     "tyl": "Wzrośnie 4 razy (2²).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f9d31eb68",
+     "przod": "Jak zmiana objętości naczynia wpływa na szybkość reakcji gazów?",
+     "tyl": "Zmniejszenie objętości (wzrost ciśnienia) zwiększa stężenia gazów, a więc szybkość; np. dwukrotne zmniejszenie objętości → każde stężenie ×2.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "fa6794053",
+     "przod": "Wyjaśnij pojęcie: katalizator",
+     "tyl": "Substancja, która zwiększa szybkość reakcji, obniżając energię aktywacji (zmienia mechanizm), i po reakcji pozostaje niezmieniona.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f5223bced",
+     "przod": "Wyjaśnij pojęcie: inhibitor",
+     "tyl": "Substancja zmniejszająca szybkość reakcji (np. przeciwutleniacze w żywności).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "fd28bf247",
+     "przod": "Kataliza homogeniczna i heterogeniczna",
+     "tyl": "Homogeniczna — katalizator i reagenty w tej samej fazie (np. H⁺ w roztworze); heterogeniczna — w różnych fazach (np. Pt, Fe w syntezie NH₃).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f52978b08",
+     "przod": "Wyjaśnij pojęcie: okres półtrwania reakcji",
+     "tyl": "Czas, po którym stężenie substratu zmniejsza się o połowę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "fa06b0a86",
+     "przod": "Podaj nazwę pojęcia: Zmiana stężenia substratu (ubytek) lub produktu (przyrost) w jednostce czasu, np. v = Δc/Δt w mol·dm⁻³·s⁻¹.",
+     "tyl": "szybkość reakcji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "fc49c868d",
+     "przod": "Podaj nazwę pojęcia: Zależność szybkości od stężeń substratów, np. v = k·[A]ᵃ·[B]ᵇ; k — stała szybkości (zależy od temperatury i katalizatora, nie od stężeń).",
+     "tyl": "równanie kinetyczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "f2e7407d7",
+     "przod": "Podaj nazwę pojęcia: Substancja, która zwiększa szybkość reakcji, obniżając energię aktywacji (zmienia mechanizm), i po reakcji pozostaje niezmieniona.",
+     "tyl": "katalizator",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "fd16e1cd8",
+     "przod": "Podaj nazwę pojęcia: Substancja zmniejszająca szybkość reakcji (np. przeciwutleniacze w żywności).",
+     "tyl": "inhibitor",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    },
+    {
+     "id": "fcd31e3aa",
+     "przod": "Podaj nazwę pojęcia: Czas, po którym stężenie substratu zmniejsza się o połowę.",
+     "tyl": "okres półtrwania reakcji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.5–7"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pf3e1dde3",
+     "pytanie": "v = k[A][B]. Jak zmieni się szybkość, gdy oba stężenia wzrosną dwukrotnie?",
+     "odpowiedzi": [
+      "8 razy",
+      "4 razy",
+      "nie zmieni się",
+      "2 razy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "2 · 2 = 4.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa298f793",
+     "pytanie": "Który czynnik NIE zmienia stałej szybkości k?",
+     "odpowiedzi": [
+      "temperatura",
+      "stężenie substratów",
+      "rodzaj reakcji",
+      "katalizator"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "k zależy od temperatury i katalizatora.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf922e981",
+     "pytanie": "Dlaczego proszek cynku reaguje z kwasem szybciej niż granulka?",
+     "odpowiedzi": [
+      "ma większą masę",
+      "ma inną entalpię",
+      "ma większą powierzchnię kontaktu",
+      "jest katalizatorem"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Więcej zderzeń skutecznych.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "c-rownowaga",
+   "nazwa": "Stan równowagi, stała równowagi i reguła przekory",
+   "opis": "Wymaganie IV.8–11 podstawy programowej.",
+   "wymaganie": "IV.8–11",
+   "fiszki": [
+    {
+     "id": "f20c40bc9",
+     "przod": "Wyjaśnij pojęcie: reakcja odwracalna",
+     "tyl": "Reakcja, która może przebiegać w obu kierunkach; zapis ⇄.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "fcdee76b4",
+     "przod": "Wyjaśnij pojęcie: stan równowagi dynamicznej",
+     "tyl": "Stan, w którym szybkości reakcji w obu kierunkach są równe, więc stężenia reagentów się nie zmieniają, choć obie reakcje wciąż zachodzą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "fc8703474",
+     "przod": "Wyrażenie na stałą równowagi K",
+     "tyl": "Dla aA + bB ⇄ cC + dD: K = [C]ᶜ[D]ᵈ / ([A]ᵃ[B]ᵇ) — stężenia równowagowe, wykładniki = współczynniki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "f075ea695",
+     "przod": "Czego nie wpisuje się do wyrażenia na stałą równowagi?",
+     "tyl": "Substancji stałych i czystych cieczy (np. C(s), CaCO₃(s), H₂O jako rozpuszczalnika).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "fe0529b2b",
+     "przod": "Od czego zależy wartość stałej równowagi?",
+     "tyl": "Tylko od temperatury (i rodzaju reakcji). Nie zależy od stężeń, ciśnienia ani katalizatora.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "f806d9b42",
+     "przod": "Co mówi duża wartość K (K ≫ 1)?",
+     "tyl": "Że w stanie równowagi przeważają produkty — reakcja przebiega prawie do końca.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "f4aa3d251",
+     "przod": "Reguła przekory (Le Chateliera–Brauna)",
+     "tyl": "Układ w równowadze, poddany zewnętrznemu działaniu, reaguje tak, by to działanie zmniejszyć — równowaga przesuwa się w stronę przeciwdziałającą zmianie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "f4928685c",
+     "przod": "Jak zwiększenie stężenia substratu wpływa na równowagę?",
+     "tyl": "Przesuwa ją w prawo (w stronę produktów); K się nie zmienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "faffc9eea",
+     "przod": "Jak usunięcie produktu wpływa na równowagę?",
+     "tyl": "Przesuwa ją w prawo — układ odtwarza usunięty produkt (sposób zwiększenia wydajności).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "f8e97b53a",
+     "przod": "Jak wzrost ciśnienia wpływa na równowagę reakcji gazowej?",
+     "tyl": "Przesuwa ją w stronę mniejszej liczby moli gazów; gdy liczba moli gazów po obu stronach jest równa — brak wpływu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "fdaf2639d",
+     "przod": "Jak wzrost temperatury wpływa na równowagę?",
+     "tyl": "Przesuwa ją w stronę reakcji endotermicznej; dla reakcji egzotermicznej (ΔH < 0) — w lewo, a K maleje.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "f4aa0b4eb",
+     "przod": "Czy katalizator przesuwa równowagę?",
+     "tyl": "Nie. Przyspiesza obie reakcje jednakowo, więc tylko skraca czas dojścia do równowagi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "fe37bb400",
+     "przod": "Typowy błąd według CKE 2026 w zadaniach z równowagą",
+     "tyl": "Zastosowanie niewłaściwej stałej równowagi (np. wyrażenia dla innej reakcji lub z pominiętymi współczynnikami) albo podstawienie stężeń początkowych zamiast równowagowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "f503e1440",
+     "przod": "Jak liczyć stężenia równowagowe — tabela „start–zmiana–równowaga”?",
+     "tyl": "Zapisać stężenia początkowe, zmianę wynikającą ze stechiometrii (x, 2x…) i stężenia równowagowe; podstawić do K i rozwiązać.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "fb25aa968",
+     "przod": "Synteza amoniaku N₂ + 3H₂ ⇄ 2NH₃, ΔH < 0 — warunki korzystne dla wydajności",
+     "tyl": "Wysokie ciśnienie (mniej moli gazów po prawej), niska temperatura (reakcja egzotermiczna) i usuwanie NH₃; w praktyce umiarkowana temperatura i katalizator (Fe) dla szybkości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    },
+    {
+     "id": "fd3486c59",
+     "przod": "Rozpoznaj: Układ w równowadze, poddany zewnętrznemu działaniu, reaguje tak, by to działanie zmniejszyć — równowaga przesuwa się w stronę przeciwdziałającą zmianie.",
+     "tyl": "Reguła przekory (Le Chateliera–Brauna)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IV.8–11"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p12a80140",
+     "pytanie": "Stała równowagi zależy od:",
+     "odpowiedzi": [
+      "katalizatora",
+      "ciśnienia",
+      "stężeń reagentów",
+      "temperatury"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Tylko od temperatury.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5d4962d4",
+     "pytanie": "Dla reakcji 2SO₂ + O₂ ⇄ 2SO₃ (gazy) wzrost ciśnienia przesuwa równowagę:",
+     "odpowiedzi": [
+      "nie wpływa",
+      "zależy od katalizatora",
+      "w lewo",
+      "w prawo"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "3 mole gazów → 2 mole gazów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p97cd7e68",
+     "pytanie": "Reakcja egzotermiczna w równowadze. Po podgrzaniu:",
+     "odpowiedzi": [
+      "K wzrośnie",
+      "równowaga przesunie się w lewo, K zmaleje",
+      "równowaga przesunie się w prawo",
+      "nic się nie zmieni"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ogrzewanie sprzyja reakcji endotermicznej (odwrotnej).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5cdac0c6",
+     "pytanie": "Wyrażenie na stałą równowagi CaCO₃(s) ⇄ CaO(s) + CO₂(g) to:",
+     "odpowiedzi": [
+      "K = [CaO][CO₂]/[CaCO₃]",
+      "K = [CaO]/[CaCO₃]",
+      "K = [CO₂]",
+      "K = 1/[CO₂]"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ciał stałych nie wpisujemy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pade1965c",
+     "pytanie": "Dla H₂ + I₂ ⇄ 2HI (gazy) wzrost ciśnienia:",
+     "odpowiedzi": [
+      "nie przesuwa równowagi",
+      "zmienia K",
+      "przesuwa w lewo",
+      "przesuwa równowagę w prawo"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Po obu stronach 2 mole gazów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
