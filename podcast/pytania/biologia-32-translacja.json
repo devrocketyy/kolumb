@@ -1,0 +1,6 @@
+{"odcinek": "biologia-32-translacja", "pytania": [
+ {"id": "cechy", "typ": "laczenie", "polecenie": "Połącz cechę kodu genetycznego z jej opisem.", "pary": [["Trójkowy", "kodon to trzy nukleotydy"], ["Zdegenerowany", "aminokwas może mieć kilka kodonów"], ["Jednoznaczny", "kodon oznacza tylko jeden aminokwas"], ["Uniwersalny", "ten sam u prawie wszystkich organizmów"]], "wyjasnienie": "Nie myl zdegenerowania z jednoznacznością."},
+ {"id": "antykodon", "typ": "abcd", "pytanie": "Kodon mRNA: GCU. Jaki jest antykodon tRNA?", "odpowiedzi": ["CGA", "GCU", "CGT", "UGC"], "poprawna": 0, "wyjasnienie": "Antykodon jest komplementarny do kodonu: G–C, C–G, U–A."},
+ {"id": "start", "typ": "abcd", "pytanie": "Który kodon rozpoczyna translację?", "odpowiedzi": ["AUG — metionina", "UAA — stop", "UUU — fenyloalanina", "GCU — alanina"], "poprawna": 0, "wyjasnienie": "AUG to kodon start i jednocześnie kodon metioniny."},
+ {"id": "uniwersalny", "typ": "abcd", "pytanie": "Dlaczego bakteria może wytworzyć ludzką insulinę według ludzkiego genu?", "odpowiedzi": ["Kod genetyczny jest uniwersalny", "Bakterie mają ludzkie rybosomy", "Insulina nie jest białkiem", "Kod jest zdegenerowany"], "poprawna": 0, "wyjasnienie": "Te same kodony oznaczają te same aminokwasy u bakterii i człowieka."}
+]}

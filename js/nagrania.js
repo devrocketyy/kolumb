@@ -101,5 +101,17 @@ export const NAGRANIA_AUTO = {
   "min": 4,
   "czasy": "podcast/mp3/biologia-17-powtorka-komorka.json",
   "pytania": "podcast/pytania/biologia-17-powtorka-komorka.json"
+ },
+ "biologia/p/b-atp": {
+  "plik": "podcast/mp3/biologia-18-atp.mp3",
+  "min": 6,
+  "czasy": "podcast/mp3/biologia-18-atp.json",
+  "pytania": "podcast/pytania/biologia-18-atp.json"
+ },
+ "biologia/p/b-enzymy": {
+  "plik": "podcast/mp3/biologia-19-enzymy.mp3",
+  "min": 6,
+  "czasy": "podcast/mp3/biologia-19-enzymy.json",
+  "pytania": "podcast/pytania/biologia-19-enzymy.json"
  }
 };

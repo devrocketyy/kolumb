@@ -1,123 +1,98 @@
-# IndexLab · Biologia · Odcinek 33 · „To samo DNA, inna komórka”
+# IndexLab · Biologia · Odcinek 33 · „To samo DNA, inne komórki”
 Temat: Regulacja ekspresji genów
 Dział: Genetyka molekularna
-Długość: ok. 7 minut (ok. 860 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane. „lac” czytamy: lak.
+Długość: ok. 6 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-33-regulacja.json
+Uwaga dla lektora: „Jacob” — ża-KOB. „Monod” — mo-NO.
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Komórka siatkówki w twoim oku. Wypełniona barwnikami wrażliwymi na światło. Reaguje na pojedyncze fotony.
+Komórka siatkówki w twoim oku jest wypełniona barwnikami, które reagują na pojedyncze fotony. Komórka wątroby jest wypełniona enzymami, które rozkładają alkohol i magazynują glikogen.
 
-Komórka twojej wątroby. Wypełniona enzymami, które rozkładają alkohol, magazynują glikogen, produkują żółć.
+Wyglądają zupełnie inaczej i robią zupełnie co innego. A mają dokładnie to samo DNA.
 
 [pauza]
 
-Wyglądają zupełnie inaczej i robią zupełnie co innego. A mają dokładnie to samo DNA. Każdy gen, który jest w komórce oka, jest też w komórce wątroby. Każda litera. Obie powstały z jednej zapłodnionej komórki jajowej przez mitozę.
-
-Skąd różnica? Nie z tego, jakie geny komórka ma. Z tego, które z nich włącza.
+Różnica nie leży w tym, jakie geny mają, ale w tym, które z nich są włączone.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. Dziś regulacja ekspresji genów. Jak komórka decyduje, które geny czytać, a które zostawić na półce. Zaczniemy od bakterii, bo tam mechanizm jest najprostszy i najczęściej pojawia się na maturze.
+Dzień dobry, tu IndexLab. Dziś regulacja ekspresji genów, czyli jak komórka włącza i wyłącza geny.
 
-## Po co regulować
+## Po co regulacja
 
-Ekspresja genu kosztuje. Transkrypcja, translacja, produkcja białek, to wszystko zużywa ATP i surowce. Komórka, która produkowałaby wszystkie białka naraz, marnowałaby ogromne ilości energii. Lepiej produkować tylko to, co jest w danej chwili potrzebne.
+U bakterii regulacja pozwala reagować na otoczenie: jest cukier, to włączam enzymy do jego rozkładu. Nie ma, to wyłączam i oszczędzam energię.
 
-U bakterii regulacja pozwala reagować na otoczenie. Jest cukier do zjedzenia, to włączam enzymy do jego rozkładu. Nie ma, to wyłączam.
-
-U organizmów wielokomórkowych regulacja dodatkowo decyduje o tym, czym komórka jest. Neuron, mięsień, krwinka. To nazywamy różnicowaniem komórek.
+U organizmów wielokomórkowych decyduje też o tym, czym komórka jest. To różnicowanie komórek.
 
 ## Operon laktozowy
 
-W latach sześćdziesiątych dwaj Francuzi, François Jacob i Jacques Monod, badali bakterię pałeczkę okrężnicy. Zauważyli, że bakteria produkuje enzymy do rozkładu laktozy, cukru mlecznego, tylko wtedy, gdy laktoza jest w pożywce. Jak to robi?
+W latach sześćdziesiątych François Jacob i Jacques Monod zbadali, jak pałeczka okrężnicy włącza geny do rozkładu laktozy.
 
-Przypomnij sobie z odcinka o budowie genu: u bakterii geny działające razem leżą obok siebie i mają wspólny promotor. To operon. Operon laktozowy ma kilka elementów.
+Operon laktozowy ma geny struktury, czyli trzy geny enzymów, promotor, do którego przyłącza się polimeraza, i operator, czyli przełącznik. Osobno leży gen regulatorowy, który koduje białko represor.
 
-Geny struktury. Trzy geny kodujące enzymy potrzebne do pobrania i rozkładu laktozy.
+[wolniej] Bez laktozy represor siedzi na operatorze jak szlaban. Polimeraza nie może przejechać i geny są wyłączone.
 
-Promotor. Miejsce, gdzie przyłącza się polimeraza RNA.
+Gdy pojawia się laktoza, jej pochodna przyłącza się do represora. Represor zmienia kształt i odpada. Szlaban się podnosi i geny są przepisywane. Gdy laktoza się skończy, represor wraca na operator.
 
-Operator. Krótki odcinek DNA między promotorem a genami struktury. To przełącznik.
+[pytanie: laktoza]
 
-I osobno, w innym miejscu DNA, gen regulatorowy. Koduje białko zwane represorem.
-
-## Jak działa przełącznik
-
-Sytuacja pierwsza: w otoczeniu nie ma laktozy.
-
-Represor jest aktywny. Przyłącza się do operatora i siedzi na nim jak szlaban na drodze. Polimeraza RNA przyłącza się do promotora, ale nie może przejechać dalej, bo blokuje ją represor. Geny struktury nie są przepisywane. Bakteria nie produkuje enzymów, których nie potrzebuje.
-
-Sytuacja druga: w otoczeniu pojawia się laktoza.
-
-Laktoza, a dokładniej jej pochodna, przyłącza się do represora. Represor zmienia kształt i odpada od operatora. Szlaban się podnosi. Polimeraza RNA przejeżdża, przepisuje geny struktury, rybosomy produkują enzymy. Bakteria zaczyna rozkładać laktozę.
-
-Kiedy laktoza się skończy, represor znowu jest wolny, wraca na operator i geny się wyłączają.
-
-[wolniej] Laktoza działa tu jako induktor. Włącza geny, dezaktywując represor. Dlatego operon laktozowy nazywamy operonem indukowanym.
-
-[pauza]
-
-Zatrzymaj się. Co się stanie, jeśli mutacja uszkodzi gen represora tak, że represor nie powstaje?
+Sprawdź się. Co robi represor, gdy w otoczeniu nie ma laktozy?
 
 [pauza, dłuższa]
 
-Geny struktury będą przepisywane cały czas, także bez laktozy. Nie ma szlabanu, więc polimeraza zawsze przejeżdża. Bakteria marnuje energię na enzymy, których nie potrzebuje.
+[odpowiedź]
 
-## Regulacja u eukariontów
+Przyłącza się do operatora i blokuje polimerazę RNA, więc geny struktury nie są przepisywane.
 
-U nas regulacja jest dużo bardziej złożona. Może zachodzić na wielu poziomach. Przejdźmy przez najważniejsze.
+[koniec odpowiedzi]
 
-Poziom chromatyny. Pamiętasz euchromatynę i heterochromatynę? Gen w zwartej heterochromatynie jest niedostępny. Jednym ze sposobów wyłączania genów jest metylacja DNA, czyli przyczepianie małych grup metylowych do cytozyn. Metylowane geny zwykle są wyciszone. To jeden z mechanizmów epigenetyki: zmian w działaniu genów, które nie zmieniają sekwencji DNA.
+[pytanie: mutacja-represora]
 
-Poziom transkrypcji. Polimeraza RNA u eukariontów potrzebuje białek zwanych czynnikami transkrypcyjnymi. Różne komórki mają różne zestawy tych czynników, więc włączają różne geny. Komórka wątroby ma czynniki, które włączają geny enzymów wątrobowych. Neuron ma inne. Hormony, na przykład steroidowe, często działają właśnie tak: wchodzą do komórki, łączą się z białkiem receptorowym i razem włączają określone geny.
+Sprawdź się. Co się stanie, jeśli mutacja sprawi, że represor w ogóle nie powstaje?
 
-Poziom obróbki RNA. Alternatywny splicing, o którym już mówiliśmy.
+[pauza, dłuższa]
 
-Poziom po transkrypcji. Małe cząsteczki RNA, na przykład mikroRNA, mogą przyłączać się do mRNA i blokować jego translację albo prowadzić do jego rozkładu. Gen został przepisany, ale białko nie powstaje.
+[odpowiedź]
 
-Poziom białka. Białka mogą być aktywowane, dezaktywowane albo rozkładane. Pamiętasz z odcinka o enzymach regulację allosteryczną?
+Geny struktury będą przepisywane cały czas, także bez laktozy. Bakteria marnuje energię na niepotrzebne enzymy.
+
+[koniec odpowiedzi]
+
+## Eukarionty
+
+U nas regulacja zachodzi na wielu poziomach.
+
+Chromatyna: gen w zwartej heterochromatynie jest niedostępny. Jeden ze sposobów wyłączania to metylacja DNA.
+
+Transkrypcja: polimeraza potrzebuje czynników transkrypcyjnych. Różne komórki mają różne ich zestawy, więc włączają różne geny.
+
+Obróbka RNA: alternatywny splicing daje różne białka z jednego genu.
+
+Translacja i trwałość białek: komórka może też regulować, jak długo żyje mRNA i białko.
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Prawie zawsze operon laktozowy. Schemat z elementami do nazwania: promotor, operator, geny struktury, gen regulatorowy, represor. I pytanie, co się dzieje w obecności i w braku laktozy, albo przy mutacji któregoś elementu. Odpowiadając, mów konkretnie: czy represor jest związany z operatorem, czy polimeraza może przepisać geny.
+Operon laktozowy w sytuacji z laktozą i bez niej, oraz skutki mutacji jego elementów. Poziomy regulacji u eukariontów. Wyjaśnienie różnicowania komórek.
 
-Rzadziej: poziomy regulacji u eukariontów i różnicowanie komórek.
+[pytanie: roznicowanie]
 
-## Na spokojnie
+Ostatnie pytanie. Dlaczego komórka oka i komórka wątroby różnią się, choć mają to samo DNA?
 
-[muzyka, cicho]
+[pauza, dłuższa]
 
-Podsumujmy. Wszystkie komórki organizmu mają te same geny, ale różnią się tym, które geny są aktywne. Operon laktozowy ma promotor, operator i geny struktury. Represor kodowany przez gen regulatorowy blokuje operator. Laktoza jako induktor odłącza represor i geny są przepisywane. U eukariontów regulacja zachodzi na poziomie chromatyny i metylacji, czynników transkrypcyjnych, splicingu, mikroRNA i aktywności białek.
+[odpowiedź]
+
+Bo mają włączone różne geny. Różne zestawy czynników transkrypcyjnych i różny stan chromatyny sprawiają, że powstają w nich różne białka.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: mutacja w operatorze sprawiła, że represor nie może się do niego przyłączyć. Co się stanie?
-
-[pauza, dłuższa]
-
-Geny struktury będą przepisywane cały czas, niezależnie od obecności laktozy.
-
-Drugie: dlaczego komórka mięśniowa nie produkuje hemoglobiny, choć ma jej gen?
-
-[pauza, dłuższa]
-
-Bo w komórce mięśniowej gen hemoglobiny jest wyłączony. Ma ona inny zestaw czynników transkrypcyjnych i aktywnych genów niż komórki, z których powstają erytrocyty.
-
-Trzecie: co to jest induktor w operonie laktozowym?
-
-[pauza, dłuższa]
-
-Laktoza, a dokładniej jej pochodna. Łączy się z represorem, który odłącza się od operatora i pozwala przepisywać geny.
-
-[pauza]
-
-W następnym odcinku powtórka całego działu. Przejdziemy drogę od genu insuliny do cząsteczki insuliny we krwi. Do usłyszenia.
+W następnym odcinku powtórka genetyki molekularnej: od genu do białka w jednej podróży. Do usłyszenia.
 
 [muzyka, wyciszenie]

@@ -1,0 +1,5 @@
+{"odcinek": "biologia-30-gen", "pytania": [
+ {"id": "eksony", "typ": "laczenie", "polecenie": "Połącz element genu z jego rolą.", "pary": [["Promotor", "miejsce przyłączenia polimerazy RNA"], ["Ekson", "fragment, który zostaje w mRNA"], ["Intron", "fragment wycinany w splicingu"], ["Terminator", "sygnał końca transkrypcji"]], "wyjasnienie": "Splicing wycina introny i skleja eksony."},
+ {"id": "bakteria", "typ": "abcd", "pytanie": "Czym gen bakterii zwykle różni się od genu człowieka?", "odpowiedzi": ["Nie ma intronów i często należy do operonu", "Ma więcej intronów", "Nie ma promotora", "Jest przepisywany z obu nici naraz"], "poprawna": 0, "wyjasnienie": "Operon to kilka genów ze wspólnym promotorem."},
+ {"id": "kodujaca", "typ": "abcd", "pytanie": "Która nić DNA ma sekwencję jak mRNA (z T zamiast U)?", "odpowiedzi": ["Kodująca", "Matrycowa", "Obie", "Żadna"], "poprawna": 0, "wyjasnienie": "Polimeraza czyta nić matrycową, więc mRNA jest podobne do kodującej."}
+]}

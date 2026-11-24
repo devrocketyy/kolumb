@@ -1,119 +1,108 @@
-# IndexLab · Biologia · Odcinek 32 · „Pierwsze słowo kodu”
+# IndexLab · Biologia · Odcinek 32 · „U, U, U”
 Temat: Kod genetyczny i translacja
 Dział: Genetyka molekularna
-Długość: ok. 8 minut (ok. 950 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane. „Nirenberg” czytamy: NI-ren-berg. Kodony czytamy literami: „UUU” — „u, u, u”.
+Długość: ok. 7 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-32-translacja.json
+Uwaga dla lektora: „Matthaei” — ma-TEJ. „Nirenberga” — NI-ren-ber-ga. Sekwencje nukleotydów czytamy literami, z pauzami między kodonami.
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Narodowe Instytuty Zdrowia, Stany Zjednoczone, maj 1961 roku. Trzecia nad ranem. Niemiecki postdok Heinrich Matthaei pracuje w laboratorium Marshalla Nirenberga. Przygotowuje serię probówek. W każdej jest wyciąg z bakterii z rybosomami, wszystkie dwadzieścia aminokwasów i trochę sztucznie zrobionego RNA.
+Stany Zjednoczone, maj 1961 roku, trzecia nad ranem. Heinrich Matthaei pracuje w laboratorium Marshalla Nirenberga. Do probówek z rybosomami i aminokwasami dodaje sztuczne RNA.
+
+W jednej probówce RNA zbudowane jest wyłącznie z uracylu. U, U, U, U, w nieskończoność.
 
 [pauza]
 
-W jednej probówce RNA jest wyjątkowe. Zbudowane wyłącznie z uracylu. U, U, U, U, w nieskończoność.
-
-Po kilku godzinach Matthaei sprawdza, co powstało. W probówce z samym uracylem rybosomy zbudowały łańcuch białka. Z jednego jedynego aminokwasu, powtarzanego bez końca. Fenyloalaniny.
-
-To był moment, w którym ludzkość odczytała pierwsze słowo w języku życia. U, U, U znaczy fenyloalanina. W ciągu kilku następnych lat odczytano cały słownik. Nirenberg dostał za to Nagrodę Nobla.
+Po kilku godzinach w tej probówce powstaje białko z jednego aminokwasu, fenyloalaniny. Pierwsze słowo kodu genetycznego zostało odczytane: U, U, U oznacza fenyloalaninę.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. W poprzednim odcinku przepisaliśmy gen na mRNA. Dziś zobaczymy, jak rybosom tłumaczy to mRNA na białko. I poznamy kod, którym ta informacja jest zapisana.
-
-## Kod genetyczny: trójki
-
-Problem jest prosty. Są cztery rodzaje nukleotydów, a dwadzieścia aminokwasów. Gdyby jeden nukleotyd oznaczał jeden aminokwas, starczyłoby na cztery. Gdyby dwa nukleotydy, cztery razy cztery, starczyłoby na szesnaście. Za mało. Trzy nukleotydy dają cztery razy cztery razy cztery, czyli sześćdziesiąt cztery kombinacje. Wystarczy z zapasem.
-
-[wolniej] I rzeczywiście: jeden aminokwas koduje trójka nukleotydów w mRNA. Taką trójkę nazywamy kodonem.
+Dzień dobry, tu IndexLab. Dziś kod genetyczny i translacja, czyli jak z mRNA powstaje białko.
 
 ## Cechy kodu
 
-Kod genetyczny ma kilka cech, o które CKE pyta bardzo często. Przejdźmy przez nie.
+Kod jest trójkowy: kodon to trzy nukleotydy. Cztery zasady dają sześćdziesiąt cztery kodony.
 
-Kod jest trójkowy. Jeden kodon to trzy nukleotydy.
+Kod jest zdegenerowany: większość aminokwasów ma kilka kodonów.
 
-Kod jest zdegenerowany, albo nadmiarowy. Sześćdziesiąt cztery kodony na dwadzieścia aminokwasów oznacza, że większość aminokwasów jest kodowana przez kilka różnych kodonów. Fenyloalaninę kodują U, U, U i U, U, C. Leucynę aż sześć kodonów. Tylko metionina i tryptofan mają po jednym. To ważne: dzięki temu niektóre mutacje nie zmieniają białka.
+[wolniej] Kod jest jednoznaczny: jeden kodon oznacza zawsze jeden aminokwas. Nie myl tego z degeneracją.
 
-Kod jest jednoznaczny. Jeden kodon oznacza zawsze tylko jeden aminokwas. Nie myl tego z degeneracją: jeden aminokwas może mieć kilka kodonów, ale jeden kodon nie może oznaczać kilku aminokwasów.
+Kod jest bezprzecinkowy i niezachodzący: kodony leżą jeden za drugim, a każdy nukleotyd należy do jednego kodonu. I jest uniwersalny: ten sam kodon znaczy to samo u bakterii i u człowieka, z drobnymi wyjątkami.
 
-Kod jest bezprzecinkowy. Kodony leżą jeden za drugim, bez przerw i znaków oddzielających.
+Kodon start, A, U, G, koduje metioninę i rozpoczyna białko. Trzy kodony stop nie kodują aminokwasu i kończą translację.
 
-Kod jest niezachodzący. Każdy nukleotyd należy tylko do jednego kodonu.
+[pytanie: cechy]
 
-Kod jest uniwersalny. Ten sam kodon oznacza ten sam aminokwas u bakterii, grzyba, rośliny i człowieka. Z drobnymi wyjątkami, na przykład w mitochondriach. Dzięki uniwersalności ludzki gen insuliny działa w bakterii.
-
-[pauza]
-
-Są jeszcze kodony specjalne. Kodon start, A, U, G, oznacza początek białka i jednocześnie koduje metioninę. Dlatego każde białko zaczyna się od metioniny, choć często jest ona później odcinana. Trzy kodony stop: U, A, A, U, A, G i U, G, A. Nie kodują żadnego aminokwasu. Oznaczają koniec.
-
-## Uczestnicy translacji
-
-Translacja odbywa się na rybosomie. Rybosom ma dwie podjednostki, małą i dużą, i trzy miejsca, w których mieszczą się cząsteczki tRNA.
-
-tRNA to tłumacze. Każda cząsteczka tRNA ma kształt przypominający koniczynę albo literę L. Na jednym końcu przyczepiony jest aminokwas. Na drugim jest antykodon: trójka nukleotydów komplementarna do kodonu w mRNA.
-
-[wolniej] Antykodon odczytuje kodon na zasadzie komplementarności. Jeśli kodon to A, U, G, antykodon to U, A, C. I tRNA z tym antykodonem zawsze niesie metioninę.
-
-Kto przyczepia właściwy aminokwas do właściwego tRNA? Specjalne enzymy, dla każdego aminokwasu inny. To one tak naprawdę są tłumaczami, bo łączą świat nukleotydów ze światem aminokwasów. Ten proces wymaga energii z ATP.
-
-## Translacja w trzech krokach
-
-Inicjacja. Mała podjednostka rybosomu przyłącza się do mRNA i przesuwa się do kodonu start, A, U, G. Przyłącza się tRNA z metioniną. Dołącza duża podjednostka. Rybosom jest gotowy.
-
-Elongacja. Do następnego kodonu przyłącza się tRNA z pasującym antykodonem i swoim aminokwasem. Rybosom łączy aminokwasy wiązaniem peptydowym. Potem przesuwa się o jeden kodon dalej. Puste tRNA odpada, a wchodzi następne. I tak kodon po kodonie. Białko rośnie od końca N do końca C.
-
-Terminacja. Kiedy rybosom dojdzie do kodonu stop, nie ma tRNA, które by do niego pasowało. Zamiast niego przyłącza się białko zwane czynnikiem uwalniającym. Gotowy łańcuch odłącza się, rybosom rozpada się na podjednostki.
-
-Jedno mRNA może być czytane jednocześnie przez wiele rybosomów, jeden za drugim, jak pociągi na torze. Taki zespół to polisom. Dzięki temu z jednej kopii powstaje szybko wiele białek.
-
-[pauza]
-
-Zatrzymaj się. Kodon w mRNA to G, C, U. Jaki jest antykodon tRNA?
+Sprawdź się. Czym różni się zdegenerowanie kodu od jego jednoznaczności?
 
 [pauza, dłuższa]
 
-C, G, A. Komplementarnie: naprzeciw G jest C, naprzeciw C jest G, naprzeciw U jest A.
+[odpowiedź]
+
+Zdegenerowanie: jeden aminokwas może mieć kilka kodonów. Jednoznaczność: jeden kodon oznacza zawsze tylko jeden aminokwas.
+
+[koniec odpowiedzi]
+
+## Rybosom i tRNA
+
+Translacja zachodzi na rybosomie z dwóch podjednostek. tRNA to tłumacze. Na jednym końcu niosą aminokwas, a na drugim mają antykodon, komplementarny do kodonu w mRNA. Właściwy aminokwas do tRNA przyczepiają specjalne enzymy.
+
+## Trzy etapy
+
+Inicjacja: mała podjednostka znajduje na mRNA kodon start. Przyłącza się tRNA z metioniną i duża podjednostka.
+
+Elongacja: kolejne tRNA przynoszą aminokwasy pasujące do kodonów, a rybosom łączy je wiązaniem peptydowym i przesuwa się o jeden kodon.
+
+Terminacja: przy kodonie stop nie ma pasującego tRNA. Przyłącza się czynnik uwalniający i białko odpada.
+
+Jedno mRNA może czytać naraz wiele rybosomów. To polisom.
+
+[pytanie: antykodon]
+
+Sprawdź się. Kodon w mRNA to G, C, U. Jaki jest antykodon tRNA?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+C, G, A.
+
+[koniec odpowiedzi]
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Prawie zawsze tabela kodu genetycznego i zadanie, w którym trzeba przetłumaczyć sekwencję. Na maturze w 2023 roku trzeba było podać sekwencję aminokwasów, dwie możliwe sekwencje mRNA wynikające z degeneracji kodu i kodon stop po krótkim peptydzie.
+Prawie zawsze tabela kodu i tłumaczenie sekwencji. Pułapki: tabela dotyczy mRNA, więc jeśli masz nić matrycową DNA, najpierw zapisz mRNA. Szukaj kodonu start. Zatrzymaj się na kodonie stop.
 
-Pułapki. Zawsze sprawdź, czy dostałeś DNA czy mRNA. Kod w tabeli dotyczy mRNA. Jeśli masz nić matrycową DNA, najpierw zapisz mRNA. Szukaj kodonu start, A, U, G, i od niego czytaj trójkami. Zatrzymaj się na pierwszym kodonie stop. I pamiętaj, że degeneracja to „jeden aminokwas, wiele kodonów”, a nie odwrotnie.
+[pytanie: start]
 
-## Na spokojnie
+Sprawdź się. Jaki kodon rozpoczyna translację i jaki aminokwas koduje?
 
-[muzyka, cicho]
+[pauza, dłuższa]
 
-Podsumujmy. Kod genetyczny jest trójkowy, zdegenerowany, jednoznaczny, bezprzecinkowy, niezachodzący i uniwersalny. A, U, G to kodon start i metionina, U, A, A, U, A, G i U, G, A to kodony stop. tRNA niesie aminokwas i ma antykodon komplementarny do kodonu. Translacja na rybosomie ma etapy inicjacji, elongacji i terminacji. Białko powstaje od końca N do C.
+[odpowiedź]
+
+A, U, G. Koduje metioninę.
+
+[koniec odpowiedzi]
+
+[pytanie: uniwersalny]
+
+Ostatnie pytanie. Dlaczego bakteria może wyprodukować ludzką insulinę według ludzkiego genu?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Bo kod genetyczny jest uniwersalny: te same kodony oznaczają te same aminokwasy u bakterii i u człowieka.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: mutacja zmieniła kodon U, U, U na U, U, C. Czy zmieni się białko?
-
-[pauza, dłuższa]
-
-Nie. Oba kodony kodują fenyloalaninę. To skutek degeneracji kodu.
-
-Drugie: dlaczego ludzka insulina produkowana przez bakterie ma taką samą sekwencję aminokwasów jak u człowieka?
-
-[pauza, dłuższa]
-
-Bo kod genetyczny jest uniwersalny. Te same kodony oznaczają te same aminokwasy u bakterii i u człowieka.
-
-Trzecie: z ilu aminokwasów będzie się składał peptyd, jeśli mRNA ma kodon start, dziewięć kolejnych kodonów i kodon stop?
-
-[pauza, dłuższa]
-
-Z dziesięciu. Metionina z kodonu start plus dziewięć aminokwasów. Kodon stop nie koduje aminokwasu.
-
-[pauza]
-
-W następnym odcinku zagadka. Komórka twojego oka i komórka twojej wątroby mają dokładnie to samo DNA. Dlaczego są tak różne? Do usłyszenia.
+W następnym odcinku regulacja genów: dlaczego komórka oka i komórka wątroby mają to samo DNA, a robią coś zupełnie innego. Do usłyszenia.
 
 [muzyka, wyciszenie]

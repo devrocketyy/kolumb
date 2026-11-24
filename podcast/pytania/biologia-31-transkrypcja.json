@@ -1,0 +1,5 @@
+{"odcinek": "biologia-31-transkrypcja", "pytania": [
+ {"id": "sekwencja", "typ": "abcd", "pytanie": "Nić matrycowa DNA: T A C G. Jaki będzie fragment RNA?", "odpowiedzi": ["A U G C", "A T G C", "T A C G", "U A C G"], "poprawna": 0, "wyjasnienie": "RNA jest komplementarne do nici matrycowej, z uracylem zamiast tyminy."},
+ {"id": "obrobka", "typ": "laczenie", "polecenie": "Połącz etap obróbki pre-mRNA z opisem.", "pary": [["Czapeczka", "dodawana na końcu 5', chroni i ułatwia rozpoznanie"], ["Ogon poli-A", "szereg adenin na końcu 3'"], ["Splicing", "wycięcie intronów i połączenie eksonów"]], "wyjasnienie": "Obróbka zachodzi tylko u eukariontów."},
+ {"id": "replikacja", "typ": "abcd", "pytanie": "Czym transkrypcja różni się od replikacji?", "odpowiedzi": ["Polimeraza RNA nie potrzebuje startera i przepisuje tylko gen", "Transkrypcja kopiuje całe DNA", "Transkrypcja używa tyminy", "W transkrypcji powstają dwie nici"], "poprawna": 0, "wyjasnienie": "Powstaje jednoniciowe RNA z uracylem."}
+]}
