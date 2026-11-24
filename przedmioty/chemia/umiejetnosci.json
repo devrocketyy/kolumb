@@ -731,6 +731,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
     },
     {
+     "id": "facc1fc29",
+     "przod": "Błąd bezwzględny",
+     "tyl": "Różnica między wartością zmierzoną a rzeczywistą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fd6878202",
+     "przod": "Błąd względny",
+     "tyl": "Błąd bezwzględny podzielony przez wartość rzeczywistą (często w %).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f7a62fc23",
+     "przod": "Interpolacja",
+     "tyl": "Szacowanie wartości między punktami pomiarowymi (np. odczyt z wykresu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f8365e916",
+     "przod": "Ekstrapolacja",
+     "tyl": "Szacowanie wartości poza zakresem pomiarów — ryzykowne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
      "id": "f129472c3",
      "przod": "Rozpoznaj: Cm = (Cp · d) / (M · 100%), gdzie d — gęstość roztworu w g/dm³ (uwaga: g/cm³ × 1000 = g/dm³).",
      "tyl": "Przeliczanie Cp na Cm",
@@ -770,6 +794,24 @@
      "id": "f8831bc21",
      "przod": "Rozpoznaj: Nₐ = 6,02·10²³, R = 8,314 J·mol⁻¹·K⁻¹ (83,14 hPa·dm³·mol⁻¹·K⁻¹), F = 96 500 C·mol⁻¹, Vm = 22,4 dm³·mol⁻¹.",
      "tyl": "Stałe z karty wzorów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fca227303",
+     "przod": "Rozpoznaj: Różnica między wartością zmierzoną a rzeczywistą.",
+     "tyl": "Błąd bezwzględny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f6ea24c60",
+     "przod": "Rozpoznaj: Szacowanie wartości między punktami pomiarowymi (np. odczyt z wykresu).",
+     "tyl": "Interpolacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fbb2d1a90",
+     "przod": "Rozpoznaj: Szacowanie wartości poza zakresem pomiarów — ryzykowne.",
+     "tyl": "Ekstrapolacja",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
     }
    ],
@@ -1297,6 +1339,72 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
     },
     {
+     "id": "f8db966f7",
+     "przod": "Odczynnik",
+     "tyl": "Substancja dodawana w doświadczeniu w celu wywołania reakcji lub identyfikacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f6d940c0a",
+     "przod": "Titrant",
+     "tyl": "Roztwór o znanym stężeniu dodawany z biurety podczas miareczkowania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fd77a3b29",
+     "przod": "Analit",
+     "tyl": "Substancja, której ilość lub stężenie oznaczamy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f61d671e9",
+     "przod": "Punkt równoważnikowy",
+     "tyl": "Moment miareczkowania, gdy reagenty przereagowały w stosunku stechiometrycznym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f48094e74",
+     "przod": "Punkt końcowy miareczkowania",
+     "tyl": "Moment zmiany barwy wskaźnika (powinien być bliski punktowi równoważnikowemu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f7640facb",
+     "przod": "Wskaźnik kwasowo-zasadowy",
+     "tyl": "Słaby kwas lub zasada organiczna zmieniająca barwę w określonym zakresie pH.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f25e5fda1",
+     "przod": "Hipoteza",
+     "tyl": "Przypuszczenie badawcze, które można zweryfikować doświadczeniem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f26aeb2ed",
+     "przod": "Próba ślepa (kontrolna)",
+     "tyl": "Doświadczenie wykonane bez badanego czynnika — do porównania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fcdc290a5",
+     "przod": "Osad",
+     "tyl": "Ciało stałe wydzielające się z roztworu w wyniku reakcji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fa6ceed4c",
+     "przod": "Przesącz",
+     "tyl": "Ciecz, która przeszła przez sączek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f7305bea6",
+     "przod": "Wyciąg (dygestorium)",
+     "tyl": "Szafa z wentylacją do pracy z substancjami lotnymi i trującymi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
      "id": "f90d51537",
      "przod": "Rozpoznaj: Biały, serowaty osad, ciemniejący na świetle.",
      "tyl": "Barwa i wygląd osadu AgCl",
@@ -1426,6 +1534,54 @@
      "id": "f7e117770",
      "przod": "Rozpoznaj: Reakcja biuretowa (fiolet) lub ksantoproteinowa (żółć).",
      "tyl": "Odczynnik do odróżnienia białka od cukru",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f1933a872",
+     "przod": "Rozpoznaj: Substancja dodawana w doświadczeniu w celu wywołania reakcji lub identyfikacji.",
+     "tyl": "Odczynnik",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f3eb0f73d",
+     "przod": "Rozpoznaj: Roztwór o znanym stężeniu dodawany z biurety podczas miareczkowania.",
+     "tyl": "Titrant",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fed13e25d",
+     "przod": "Rozpoznaj: Substancja, której ilość lub stężenie oznaczamy.",
+     "tyl": "Analit",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f96a92f8e",
+     "przod": "Rozpoznaj: Moment miareczkowania, gdy reagenty przereagowały w stosunku stechiometrycznym.",
+     "tyl": "Punkt równoważnikowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f7ac3fa93",
+     "przod": "Rozpoznaj: Przypuszczenie badawcze, które można zweryfikować doświadczeniem.",
+     "tyl": "Hipoteza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f0fd3fe64",
+     "przod": "Rozpoznaj: Doświadczenie wykonane bez badanego czynnika — do porównania.",
+     "tyl": "Próba ślepa (kontrolna)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f5badc1ed",
+     "przod": "Rozpoznaj: Ciało stałe wydzielające się z roztworu w wyniku reakcji.",
+     "tyl": "Osad",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fadff02fc",
+     "przod": "Rozpoznaj: Szafa z wentylacją do pracy z substancjami lotnymi i trującymi.",
+     "tyl": "Wyciąg (dygestorium)",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
     }
    ],
