@@ -1,0 +1,6 @@
+{"odcinek": "biologia-35-krzyzowki", "pytania": [
+ {"id": "pojecia", "typ": "laczenie", "polecenie": "Połącz pojęcie z przykładem lub definicją.", "pary": [["Heterozygota", "Aa"], ["Homozygota recesywna", "aa"], ["Genotyp", "zestaw alleli"], ["Fenotyp", "wygląd cechy, np. żółte nasiona"]], "wyjasnienie": "Allel dominujący zapisujemy dużą literą, recesywny małą."},
+ {"id": "stosunek", "typ": "abcd", "pytanie": "Aa × Aa przy pełnej dominacji. Jaki jest stosunek fenotypów?", "odpowiedzi": ["3 : 1", "1 : 2 : 1", "1 : 1", "9 : 3 : 3 : 1"], "poprawna": 0, "wyjasnienie": "Genotypy 1 AA : 2 Aa : 1 aa, fenotypy 3 : 1."},
+ {"id": "testowa", "typ": "abcd", "pytanie": "Po co wykonuje się krzyżówkę testową?", "odpowiedzi": ["By ustalić, czy osobnik z cechą dominującą jest homo- czy heterozygotą", "By uzyskać czystą linię", "By wywołać mutację", "By policzyć odległość genów"], "poprawna": 0, "wyjasnienie": "Krzyżuje się badanego osobnika z homozygotą recesywną."},
+ {"id": "dihybryd", "typ": "abcd", "pytanie": "AaBb × AaBb, geny na różnych chromosomach. Jaki stosunek fenotypów?", "odpowiedzi": ["9 : 3 : 3 : 1", "3 : 1", "1 : 1 : 1 : 1", "1 : 2 : 1"], "poprawna": 0, "wyjasnienie": "Geny niesprzężone dziedziczą się niezależnie (II prawo Mendla)."}
+]}

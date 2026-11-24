@@ -1,133 +1,88 @@
-# IndexLab · Biologia · Odcinek 36 · „Trzy kolory labradora”
-Temat: Współdziałanie genów i allele wielokrotne
-Dział: Genetyka klasyczna i zmienność
-Długość: ok. 8 minut (ok. 1000 słów), jeden narrator, spokojnie.
-Uwaga dla lektora: nagłówki „##” nie są czytane. Allele grup krwi czytamy: „I A” — „i a”, „I B” — „i be”, „i” — „małe i”.
+# IndexLab · Biologia · Odcinek 36 · „Labradory w trzech kolorach”
+Temat: Dominacja niezupełna, kodominacja, allele wielokrotne, współdziałanie genów
+Dział: Genetyka klasyczna
+Długość: ok. 6 minut (format 2.0), jeden narrator.
+Pytania: podcast/pytania/biologia-36-wspoldzialanie.json
+Uwaga dla lektora: allele grup krwi czytamy: „i A”, „i B”, „małe i”.
 
 ---
 
 [muzyka, cicho, kilka sekund]
 
-Hodowla labradorów. Czarna suka i czarny pies, oboje z rodowodem. Rodzi się miot ośmiu szczeniąt. Pięć czarnych. Jedno brązowe, czekoladowe. I dwa żółte, jasne jak słoma.
+Hodowla labradorów. Czarna suka i czarny pies. Rodzi się osiem szczeniąt: pięć czarnych, jedno czekoladowe i dwa żółte.
+
+Właściciel jest zaskoczony. Skąd żółte, skoro rodzice są czarni? I skąd brązowe?
 
 [pauza]
 
-Właściciel jest zaskoczony. Skąd żółte, skoro rodzice są czarni? I skąd brązowe? Gdyby kolor sierści zależał od jednego genu, z dwóch czarnych rodziców mogłyby wyjść najwyżej dwa kolory: czarny i jeden inny. A tu są trzy.
-
-Odpowiedź jest taka, że kolor sierści labradora zależy nie od jednego, a od dwóch genów. I jeden z nich potrafi przykryć działanie drugiego.
-
-Na maturze z 2023 roku było właśnie zadanie z labradorami. Dziś zobaczysz, jak je rozwiązać.
+Bo kolor sierści labradora zależy nie od jednego, a od dwóch genów. I jeden z nich potrafi przykryć działanie drugiego.
 
 [muzyka, krótko]
 
-Dzień dobry, tu IndexLab. W poprzednim odcinku Mendel i jego proporcje. Dziś przypadki, gdy dziedziczenie jest bardziej skomplikowane: kiedy allele nie dzielą się na dominujący i recesywny, kiedy alleli jest więcej niż dwa, i kiedy geny współdziałają.
+Dzień dobry, tu IndexLab. Dziś przypadki, w których dziedziczenie wygląda inaczej niż u Mendla.
 
 ## Dominacja niezupełna
 
-U Mendla jeden allel całkowicie przykrywał drugi. Ale nie zawsze tak jest.
-
-Lwia paszcza, roślina ogrodowa. Skrzyżuj odmianę o kwiatach czerwonych z odmianą o kwiatach białych. W pokoleniu F jeden kwiaty są różowe. Ani czerwone, ani białe, coś pomiędzy.
-
-To dominacja niezupełna. Heterozygota ma fenotyp pośredni między dwiema homozygotami. Allel czerwony w jednej kopii daje za mało barwnika, żeby kwiat był w pełni czerwony.
-
-Skrzyżuj różowe ze sobą. W F dwa: jedna czwarta czerwonych, połowa różowych, jedna czwarta białych. Jeden do dwóch do jednego. Zauważ: tu stosunek fenotypów jest taki sam jak stosunek genotypów. Każdy genotyp ma swój osobny wygląd.
+Lwia paszcza. Czerwona odmiana skrzyżowana z białą daje w F jeden kwiaty różowe. To dominacja niezupełna: heterozygota ma fenotyp pośredni. W F dwa jest jedna czwarta czerwonych, połowa różowych i jedna czwarta białych. Stosunek fenotypów jest taki sam jak genotypów: jeden do dwóch do jednego.
 
 ## Kodominacja i grupy krwi
 
-Kodominacja to coś innego. Tu heterozygota nie ma fenotypu pośredniego, tylko ujawnia oba allele jednocześnie, w pełni.
+W kodominacji heterozygota ujawnia oba allele w pełni. Przykład to grupy krwi w układzie AB zero. Gen ma tu trzy allele, czyli allele wielokrotne: i A daje antygen A, i B daje antygen B, a małe i nie daje żadnego.
 
-Najlepszy przykład to grupy krwi w układzie AB zero. I od razu drugie pojęcie: allele wielokrotne. Gen grup krwi ma nie dwa, a trzy allele. Oznaczamy je: I A, I B i małe i.
+i A oraz i B są kodominujące, a oba dominują nad małym i. Grupa A to i A i A albo i A małe i. Grupa B analogicznie. Grupa AB to i A i B. Grupa zero to dwa małe i.
 
-Allel I A powoduje, że na erytrocytach jest antygen A. Allel I B, że jest antygen B. Allel małe i nie daje żadnego antygenu.
+[pytanie: grupy]
 
-I A i I B są wobec siebie kodominujące. Osoba I A I B ma na erytrocytach oba antygeny i ma grupę AB. Oba allele I A i I B dominują nad małym i.
-
-Grupy krwi i genotypy:
-
-Grupa A: I A I A albo I A i.
-
-Grupa B: I B I B albo I B i.
-
-Grupa AB: tylko I A I B.
-
-Grupa zero: tylko i i, homozygota recesywna.
-
-[wolniej] Uwaga na częsty błąd. Każdy człowiek ma tylko dwa allele tego genu, choć w populacji są trzy rodzaje. Allele wielokrotne to więcej niż dwa allele w populacji, a nie w jednym organizmie.
-
-[pauza]
-
-Zatrzymaj się. Matka ma grupę A, ojciec grupę B. Ich dziecko ma grupę zero. Jakie genotypy mają rodzice?
+Sprawdź się. Matka ma grupę A, ojciec B, a dziecko zero. Jakie genotypy mają rodzice?
 
 [pauza, dłuższa]
 
-Matka I A i, ojciec I B i. Dziecko dostało od każdego allel małe i. Rodzice z grupami A i B mogą mieć dzieci z każdą z czterech grup.
+[odpowiedź]
 
-## Epistaza: labrador
+Matka i A małe i, ojciec i B małe i. Każde przekazało dziecku allel małe i.
 
-Teraz współdziałanie dwóch genów. Wróćmy do labradorów.
+[koniec odpowiedzi]
 
-Pierwszy gen, oznaczmy go B, decyduje o rodzaju barwnika. Allel B daje barwnik czarny, allel b brązowy. B dominuje nad b.
+## Współdziałanie genów
 
-Drugi gen, E, decyduje, czy barwnik w ogóle odkłada się w sierści. Allel E pozwala barwnikowi odłożyć się w sierści. Homozygota ee nie odkłada barwnika w sierści, i pies jest żółty, niezależnie od tego, jakie allele ma w genie B.
+Wróćmy do labradorów. Pierwszy gen decyduje o rodzaju barwnika: duże B daje czarny, małe b brązowy. Drugi gen decyduje, czy barwnik w ogóle odkłada się w sierści. Duże E pozwala, a dwa małe e blokują.
 
-[wolniej] To jest epistaza: jeden gen przykrywa działanie drugiego genu. Genotyp ee jest epistatyczny wobec genu B. Żółty labrador może mieć w genie B allele czarne albo brązowe, ale ich nie widać w sierści.
+[wolniej] Pies z dwoma małymi e jest żółty, niezależnie od genu B. Jeden gen przykrywa działanie drugiego. To epistaza.
 
-Ciekawostka z matury: u żółtych labradorów allele genu B ujawniają się w kolorze nosa i warg. Żółty pies z allelem B ma czarny nos, a żółty bb ma brązowy nos.
+Dwa czarne psy, podwójne heterozygoty, mogą więc mieć szczenięta czarne, brązowe i żółte, w stosunku dziewięć do trzech do czterech.
 
-Kolory:
+[pytanie: epistaza]
 
-E i co najmniej jeden allel B: czarny.
+Sprawdź się. Dlaczego labrador z genotypem małe e małe e jest żółty, nawet jeśli ma allel duże B?
 
-E i bb: brązowy.
+[pauza, dłuższa]
 
-ee i cokolwiek: żółty.
+[odpowiedź]
 
-Nasi rodzice byli czarni, a urodziły się dzieci we wszystkich trzech kolorach. Musieli więc być podwójnymi heterozygotami: EeBb razy EeBb. Wtedy w potomstwie stosunek wynosi dziewięć czarnych do trzech brązowych do czterech żółtych. Zauważ, że to zmodyfikowane dziewięć do trzech do trzech do jednego Mendla. Dwie ostatnie grupy, trzy i jeden, połączyły się w cztery, bo wszystkie ee są żółte.
+Bo dwa allele małe e blokują odkładanie barwnika w sierści. Gen E przykrywa działanie genu B.
 
-[pauza]
-
-Na maturze 2023 była inna krzyżówka: żółta suka eeBb i brązowy pies Eebb. Potomstwo: czarne, brązowe i żółte w stosunku jeden do jednego do dwóch.
-
-## Geny kumulatywne
-
-I ostatni przypadek, krótko. Niektóre cechy, jak wzrost człowieka czy kolor skóry, nie mają kilku wyraźnych kategorii, tylko płynne przejście. Zależą od wielu genów naraz, z których każdy dokłada trochę efektu. Mówimy o dziedziczeniu poligenicznym albo kumulatywnym. Im więcej alleli „wzrostowych”, tym wyższa osoba. Do tego dochodzi wpływ środowiska, na przykład odżywiania.
+[koniec odpowiedzi]
 
 ## Co z tego będzie na maturze
 
 [muzyka, krótko]
 
-Krzyżówki z grupami krwi, w tym zadania na ustalenie ojcostwa: czy mężczyzna z określoną grupą może być ojcem dziecka. Krzyżówki z dominacją niezupełną. I epistaza, rozpoznawana po nietypowych stosunkach, na przykład dziewięć do trzech do czterech albo dziewięć do siedmiu. Kiedy widzisz w zadaniu dwie cechy, ale proporcje się nie zgadzają z Mendlem, pomyśl o współdziałaniu genów.
+Rozróżnienie dominacji niezupełnej i kodominacji. Grupy krwi i ustalanie genotypów rodziców. Zmodyfikowane stosunki, na przykład dziewięć do trzech do czterech.
 
-## Na spokojnie
+[pytanie: rozroznienie]
 
-[muzyka, cicho]
+Ostatnie pytanie. Czym różni się dominacja niezupełna od kodominacji?
 
-Podsumujmy. W dominacji niezupełnej heterozygota ma fenotyp pośredni, a stosunek fenotypów to jeden do dwóch do jednego. W kodominacji heterozygota ujawnia oba allele, jak grupa AB. Allele wielokrotne to więcej niż dwa allele genu w populacji, jak I A, I B i i. W epistazie jeden gen przykrywa działanie drugiego, jak ee u labradora. Cechy ilościowe zależą od wielu genów i środowiska.
+[pauza, dłuższa]
+
+[odpowiedź]
+
+W dominacji niezupełnej heterozygota ma fenotyp pośredni, jak różowy kwiat. W kodominacji ujawnia oba allele w pełni, jak grupa krwi AB.
+
+[koniec odpowiedzi]
 
 [pauza]
 
-Trzy pytania. Po każdym pauza.
-
-Pierwsze: dziecko ma grupę AB. Czy jeden z rodziców może mieć grupę zero?
-
-[pauza, dłuższa]
-
-Nie. Dziecko z grupą AB musi dostać I A od jednego rodzica i I B od drugiego. Rodzic z grupą zero ma tylko allele małe i.
-
-Drugie: skrzyżowano różową lwią paszczę z białą. Jakie będzie potomstwo?
-
-[pauza, dłuższa]
-
-Połowa różowych, połowa białych.
-
-Trzecie: żółty labrador ma czarny nos. Co wiemy o jego genotypie?
-
-[pauza, dłuższa]
-
-Że jest ee, bo jest żółty, i ma co najmniej jeden allel B, bo nos jest czarny. Czyli eeBB albo eeBb.
-
-[pauza]
-
-W następnym odcinku muszki owocowe, które nie posłuchały Mendla. I geny, które trzymają się razem, bo leżą na jednym chromosomie. Do usłyszenia.
+W następnym odcinku pokój pełen muszek owocowych i pierwsza mapa genów narysowana w jedną noc. Do usłyszenia.
 
 [muzyka, wyciszenie]
