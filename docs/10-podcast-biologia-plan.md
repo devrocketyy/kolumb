@@ -21,6 +21,20 @@
 
 ---
 
+
+## Format 2.0 (od 24 listopada 2026) — obowiązuje przy przeróbce wszystkich odcinków
+
+- **Odcinek tematyczny: 8–10 min** (ok. 750–1000 słów). Bez sekcji „Na spokojnie” (streszczenia) — tę rolę pełnią pytania.
+- **6 pytań na odcinek**, co ok. 1,5–2 min, zawsze zaraz po omówionym fragmencie: 4–5 ABCD/łączenie z treści, 1 „która odpowiedź dostanie punkt” (matura), 1 na koniec.
+- Każde pytanie jest też **czytane na głos** („Sprawdź się…”, pauza, odpowiedź) — tryb pasywny też sprawdza. W scenariuszu: `[pytanie: id]`, potem pytanie, `[pauza, dłuższa]`, `[odpowiedź]` … `[koniec odpowiedzi]`.
+- Pytania do odcinka: `podcast/pytania/<odcinek>.json`.
+- **Powtórka działu: ok. 10 min, zbudowana z pytań** (8–10 pytań z całego działu, krótki łącznik narracyjny jak w historii odc. 9), zamiast 25–30 min streszczenia.
+- Wzór: `biologia-06-woda.md`.
+
+### Stan przeróbki na format 2.0
+- ✅ 6 Woda (pilot)
+- ⬜ pozostałe odcinki — partiami, dział po dziale
+
 ## Dział 1. Umiejętności egzaminacyjne
 
 **1. Czasowniki operacyjne i budowa odpowiedzi** `b-czasowniki` ✅

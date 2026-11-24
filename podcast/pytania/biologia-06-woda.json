@@ -9,19 +9,20 @@
       "typ": "laczenie",
       "polecenie": "Połącz pierwiastek z miejscem, w którym pracuje.",
       "pary": [
-        ["Magnez", "środek cząsteczki chlorofilu"],
-        ["Żelazo", "hem w hemoglobinie"],
-        ["Jod", "hormony tarczycy"]
+        [
+          "Magnez",
+          "środek cząsteczki chlorofilu"
+        ],
+        [
+          "Żelazo",
+          "hem w hemoglobinie"
+        ],
+        [
+          "Jod",
+          "hormony tarczycy"
+        ]
       ],
       "wyjasnienie": "Trzy pary z odcinka: magnez i zielony liść, żelazo i czerwona krew, jod i tarczyca."
-    },
-    {
-      "id": "molibden",
-      "typ": "abcd",
-      "pytanie": "Bakterie w korzeniach grochu wiążą azot z powietrza. Który mikroelement jest potrzebny ich enzymowi?",
-      "odpowiedzi": ["Molibden", "Jod", "Sód", "Siarka"],
-      "poprawna": 0,
-      "wyjasnienie": "Molibden wchodzi w skład enzymu, którym bakterie brodawkowe wiążą azot atmosferyczny. Siarka to makroelement z aminokwasów, a jod działa w tarczycy."
     },
     {
       "id": "siarkowodor",
@@ -54,10 +55,22 @@
       "typ": "laczenie",
       "polecenie": "Połącz właściwość wody z jej skutkiem dla organizmów.",
       "pary": [
-        ["Duże ciepło właściwe", "łagodny klimat nad morzem"],
-        ["Wysokie ciepło parowania", "pot chłodzi ciało"],
-        ["Spójność (kohezja)", "nieprzerwany słup wody w naczyniach drzewa"],
-        ["Polarność", "rozpuszczanie jonów i cukrów"]
+        [
+          "Duże ciepło właściwe",
+          "łagodny klimat nad morzem"
+        ],
+        [
+          "Wysokie ciepło parowania",
+          "pot chłodzi ciało"
+        ],
+        [
+          "Spójność (kohezja)",
+          "nieprzerwany słup wody w naczyniach drzewa"
+        ],
+        [
+          "Polarność",
+          "rozpuszczanie jonów i cukrów"
+        ]
       ],
       "wyjasnienie": "Trzy rodziny właściwości: woda i ciepło, woda, która się trzyma, i woda, która rozpuszcza. Wszystkie biorą się z polarności i wiązań wodorowych."
     },
@@ -75,36 +88,15 @@
       "wyjasnienie": "Przepis na punkt: najpierw właściwość, potem skutek dla organizmu. Pozostałe odpowiedzi nie podają właściwości wody albo nie mówią, co z niej wynika."
     },
     {
-      "id": "morze",
-      "typ": "abcd",
-      "pytanie": "Dlaczego w miastach nad morzem rzadziej zdarzają się ekstremalne upały i mrozy?",
-      "odpowiedzi": [
-        "Woda ma duże ciepło właściwe: latem powoli się nagrzewa, a zimą powoli oddaje ciepło",
-        "Morska woda jest słona, więc nie zamarza",
-        "Nad morzem zawsze wieje wiatr",
-        "Woda ma duże napięcie powierzchniowe"
-      ],
-      "poprawna": 0,
-      "wyjasnienie": "Duże ciepło właściwe sprawia, że morze działa jak bufor temperatury dla całej okolicy."
-    },
-    {
-      "id": "tluszcz",
-      "typ": "abcd",
-      "pytanie": "Dlaczego tłuszcz z patelni spłuczesz dopiero wodą z płynem do naczyń?",
-      "odpowiedzi": [
-        "Cząsteczki płynu jednym końcem wiążą tłuszcz, a drugim wodę, więc otaczają kropelki tłuszczu",
-        "Płyn rozkłada tłuszcz na wodę i dwutlenek węgla",
-        "Płyn sprawia, że tłuszcz staje się polarny",
-        "Płyn podnosi temperaturę wody"
-      ],
-      "poprawna": 0,
-      "wyjasnienie": "Tłuszcz jest hydrofobowy. Cząsteczki płynu, podobnie jak fosfolipidy, mają część hydrofilową i hydrofobową, więc łączą tłuszcz z wodą."
-    },
-    {
       "id": "ogorki",
       "typ": "abcd",
       "pytanie": "Na grządce ogórków żółkną dolne, najstarsze liście, a młode są zielone. Którego pierwiastka najpewniej brakuje?",
-      "odpowiedzi": ["Magnezu", "Żelaza", "Jodu", "Sodu"],
+      "odpowiedzi": [
+        "Magnezu",
+        "Żelaza",
+        "Jodu",
+        "Sodu"
+      ],
       "poprawna": 0,
       "wyjasnienie": "Magnez przemieszcza się w roślinie, więc roślina zabiera go ze starych liści dla młodych. Przy braku żelaza żółkną najpierw liście młode."
     }
