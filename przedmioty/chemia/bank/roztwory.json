@@ -198,6 +198,51 @@
    ],
    "id": "b-roztwory-08",
    "dzial": "roztwory"
+  },
+  {
+   "tytul": "Ile wody odparować",
+   "material": "Tekst autorski. Mamy 300 g roztworu cukru o stężeniu 12%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę wody, którą trzeba odparować, aby otrzymać roztwór 20%.",
+     "odpowiedz": "120 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "ms = 36 g; mr₂ = 36/0,2 = 180 g; 300 − 180 = 120 g.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile gramów cukru trzeba dodać do początkowego roztworu, aby otrzymać roztwór 20%.",
+     "odpowiedz": "30 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(36 + x)/(300 + x) = 0,2 → 0,8x = 24 → x = 30 g.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-09",
+   "dzial": "roztwory"
+  },
+  {
+   "tytul": "Stężenie molowe jonów po zmieszaniu",
+   "material": "Tekst autorski. Zmieszano 100 cm³ 0,2 M NaCl i 300 cm³ 0,1 M CaCl₂ (objętości się sumują).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stężenie jonów Cl⁻ w roztworze.",
+     "odpowiedz": "0,2 mol·dm⁻³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(Cl⁻) = 0,02 + 0,06 = 0,08 mol; V = 0,4 dm³; c = 0,2.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-10",
+   "dzial": "roztwory"
   }
  ]
 }

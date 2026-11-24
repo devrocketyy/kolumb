@@ -279,6 +279,60 @@
    ],
    "id": "b-roztwory-wodne-11",
    "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "pH bardzo rozcieńczonego kwasu",
+   "material": "Tekst autorski. Roztwór HCl o stężeniu 10⁻³ mol·dm⁻³ rozcieńczono 100 000 razy.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy pH otrzymanego roztworu wynosi 8. Uzasadnij.",
+     "odpowiedz": "Nie — roztwór kwasu nie może mieć odczynu zasadowego; pH będzie nieco mniejsze od 7 (decyduje autodysocjacja wody).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Klasyczna pułapka.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-wodne-12",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Hydroliza i pH soli",
+   "material": "Tekst autorski. Roztwór CH₃COONa ma stężenie 0,10 mol·dm⁻³; Ka(CH₃COOH) = 1,8·10⁻⁵.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz pH roztworu.",
+     "odpowiedz": "pH ≈ 8,9",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Kb = 10⁻¹⁴/1,8·10⁻⁵ = 5,6·10⁻¹⁰; [OH⁻] = √(5,6·10⁻¹¹) = 7,5·10⁻⁶; pOH = 5,13; pH = 8,87.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-wodne-13",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Strącanie selektywne",
+   "material": "Tekst autorski. Roztwór zawiera jony Cl⁻ i I⁻, każdy o stężeniu 0,01 mol·dm⁻³. Ks(AgCl) = 1,8·10⁻¹⁰, Ks(AgI) = 8,5·10⁻¹⁷. Dodaje się kroplami AgNO₃.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, który osad wytrąci się jako pierwszy. Uzasadnij.",
+     "odpowiedz": "AgI — wymaga znacznie mniejszego stężenia Ag⁺ (8,5·10⁻¹⁵ wobec 1,8·10⁻⁸ mol·dm⁻³).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "[Ag⁺] = Ks/[X⁻].",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-wodne-14",
+   "dzial": "roztwory-wodne"
   }
  ]
 }

@@ -261,6 +261,42 @@
    ],
    "id": "b-kinetyka-09",
    "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Wydajność syntezy amoniaku",
+   "material": "Tekst autorski. Do reaktora wprowadzono 1 mol N₂ i 3 mol H₂; w stanie równowagi było 1 mol NH₃.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wydajność reakcji.",
+     "odpowiedz": "50%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Teoretycznie 2 mol NH₃; 1/2 = 50%.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz łączną liczbę moli gazów w stanie równowagi.",
+     "odpowiedz": "3 mol",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "N₂ 0,5 + H₂ 1,5 + NH₃ 1.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jak zmieni się ciśnienie w reaktorze (V, T const) w porównaniu z początkowym.",
+     "odpowiedz": "Zmaleje o 25% (z 4 do 3 moli).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-kinetyka-10",
+   "dzial": "kinetyka"
   }
  ]
 }

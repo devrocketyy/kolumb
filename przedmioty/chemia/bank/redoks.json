@@ -288,6 +288,51 @@
    ],
    "id": "b-redoks-09",
    "dzial": "redoks"
+  },
+  {
+   "tytul": "Bilans w środowisku zasadowym",
+   "material": "Tekst autorski. Jony chromu(III) w środowisku zasadowym są utleniane przez H₂O₂ do jonów chromianowych(VI).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równania połówkowe i sumaryczne w formie jonowej (substrat: [Cr(OH)₄]⁻).",
+     "odpowiedz": "Utlenianie: [Cr(OH)₄]⁻ + 4OH⁻ → CrO₄²⁻ + 4H₂O + 3e⁻; redukcja: H₂O₂ + 2e⁻ → 2OH⁻; sumarycznie: 2[Cr(OH)₄]⁻ + 3H₂O₂ + 2OH⁻ → 2CrO₄²⁻ + 8H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Elektrony: 2 × 3 = 3 × 2.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj zmianę barwy roztworu.",
+     "odpowiedz": "Zielona → żółta",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-10",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Korozja i ochrona",
+   "material": "Tekst autorski. Dwa żelazne gwoździe: I — owinięty drutem cynkowym, II — owinięty drutem miedzianym, umieszczono w wodzie z solą.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, który gwóźdź szybciej skoroduje. Uzasadnij.",
+     "odpowiedz": "Gwóźdź II — żelazo jest aktywniejsze od miedzi i w ogniwie Fe–Cu staje się anodą (utlenia się).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "W ogniwie Zn–Fe anodą jest cynk — chroni żelazo.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-redoks-11",
+   "dzial": "redoks"
   }
  ]
 }

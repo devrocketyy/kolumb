@@ -171,6 +171,42 @@
    ],
    "id": "b-atom-06",
    "dzial": "atom"
+  },
+  {
+   "tytul": "Rozpad promieniotwórczy jodu",
+   "material": "Tekst autorski. Izotop ¹³¹I (T½ = 8 dni), stosowany w leczeniu tarczycy, ulega przemianie β⁻. Pacjentowi podano 40 mg tego izotopu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie przemiany ¹³¹I.",
+     "odpowiedz": "¹³¹₅₃I → ¹³¹₅₄Xe + ⁰₋₁e",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "β⁻: Z + 1.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę izotopu, która pozostanie po 32 dniach.",
+     "odpowiedz": "2,5 mg",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "32/8 = 4 okresy; 40 · (½)⁴ = 2,5 mg.",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, po ilu dniach rozpadnie się 87,5% izotopu.",
+     "odpowiedz": "24 dni",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zostaje 12,5% = (½)³ → 3 okresy.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-atom-07",
+   "dzial": "atom"
   }
  ]
 }

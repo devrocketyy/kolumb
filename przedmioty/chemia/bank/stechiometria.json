@@ -252,6 +252,51 @@
    ],
    "id": "b-stechiometria-10",
    "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Stop dwóch metali",
+   "material": "Tekst autorski. Stop cynku i miedzi o masie 10,0 g roztworzono w nadmiarze kwasu solnego; wydzieliło się 1,12 dm³ wodoru (w. n.). M(Zn) = 65 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz zawartość procentową miedzi w stopie.",
+     "odpowiedz": "67,5%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Z kwasem solnym reaguje tylko cynk: n(H₂) = 0,05 mol = n(Zn); m(Zn) = 3,25 g; Cu = 6,75 g → 67,5%.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego miedź nie reaguje z kwasem solnym.",
+     "odpowiedz": "Miedź ma dodatni potencjał standardowy (+0,34 V) — nie wypiera wodoru z kwasów nieutleniających.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-11",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Prażenie wapienia",
+   "material": "Tekst autorski. Prażono 50 g wapienia zawierającego 90% CaCO₃ (reszta — nierozkładające się zanieczyszczenia).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę stałej pozostałości po całkowitym rozkładzie CaCO₃.",
+     "odpowiedz": "30,2 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "m(CaCO₃) = 45 g = 0,45 mol → CO₂ 19,8 g; pozostałość = 50 − 19,8 = 30,2 g.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-12",
+   "dzial": "stechiometria"
   }
  ]
 }
