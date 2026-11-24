@@ -24,7 +24,7 @@ BANK = {'stechiometria': [
  B('Przeliczanie stężeń',
    'Tekst autorski. Stężony kwas solny ma stężenie 36% i gęstość 1,18 g/cm³. M(HCl) = 36,5 g/mol.',
    T('oblicz', 2, 'Oblicz stężenie molowe tego kwasu. Wynik podaj z dokładnością do jednego miejsca po przecinku.', 'Cm ≈ 11,6 mol/dm³', 'MODEL: Cm = Cp · d / (M · 100%), d w g/dm³. RACHUNEK: d = 1180 g/dm³; Cm = 36 · 1180 / (36,5 · 100) = 11,64 ≈ 11,6 mol/dm³. SPRAWDZENIE: typowy błąd to d = 1,18 g/cm³ bez przeliczenia — wynik 1000 razy za mały.'),
-   T('oblicz', 1, 'Oblicz, jaką objętość tego kwasu trzeba odmierzyć, aby przygotować 500 cm³ roztworu HCl o stężeniu 0,5 mol/dm³.', 'ok. 21,6 cm³', 'n = 0,5 · 0,5 = 0,25 mol; V = n/Cm = 0,25/11,64 = 0,0215 dm³ ≈ 21,5–21,6 cm³.')),
+   T('oblicz', 1, 'Oblicz, jaką objętość tego kwasu trzeba odmierzyć, aby przygotować 500 cm³ roztworu HCl o stężeniu 0,5 mol/dm³.', 'ok. 21,5 cm³', 'n = 0,5 · 0,5 = 0,25 mol; V = n/Cm = 0,25/11,64 = 0,0215 dm³ ≈ 21,5 cm³.')),
  B('Krzywa rozpuszczalności',
    'Tekst autorski. Rozpuszczalność azotanu(V) potasu wynosi: w 20°C — 32 g/100 g wody, w 60°C — 110 g/100 g wody.',
    T('oblicz', 1, 'Oblicz stężenie procentowe nasyconego roztworu KNO₃ w 60°C.', 'ok. 52,4%', 'Cp = 110/(100 + 110) · 100% = 52,38%. Pułapka: dzielimy przez masę ROZTWORU (210 g), a nie wody.'),
