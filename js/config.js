@@ -30,3 +30,9 @@ export const PRYWATNE = {
   wlaczone: true,
   kluczSha256: '980fb41d7bfee5062b0862055bffccf56fc39d360a05fdb17c7d2782cfd0ed1c',
 };
+
+// Nowy wygląd (kolory przedmiotów, kolorowe dobre/złe odpowiedzi, animacja nagrody). Style w css/nowy.css.
+// Aby wrócić do starego, czarno-białego wyglądu: zmień nowy na false.
+export const WYGLAD = {
+  nowy: true,
+};

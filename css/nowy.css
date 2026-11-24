@@ -1,0 +1,52 @@
+/* IndexLab — nowy wygląd. Działa tylko, gdy w js/config.js jest WYGLAD.nowy = true (klasa .wyglad-nowy na <html>).
+   Stary wygląd: ustaw WYGLAD.nowy na false. Ten plik niczego nie zmienia, dopóki klasa nie jest ustawiona.
+   Co robi: każdy przedmiot ma swój kolor akcentu (pasek postępu, kółka, ikona, wyróżnienia),
+   dobre odpowiedzi są zielone, złe czerwone, a reszta zostaje czarno-biała. */
+
+.wyglad-nowy {
+  --s-bio: #2F7D4F; --s-bio-soft: #E3F0E7;
+  --s-his: #A8620E; --s-his-soft: #F6EBDB;
+  --s-wos: #2C5AA8; --s-wos-soft: #E1E8F5;
+  --ok: #1E6B3F; --ok-fill: #2E8B57; --ok-shadow: #2E8B57; --ok-soft: #E4F2E9;
+  --bad: #A3302A; --bad-fill: #C8463E; --bad-shadow: #C8463E; --bad-soft: #FBE9E7;
+}
+@media (prefers-color-scheme: dark) {
+  :root.wyglad-nowy:not([data-theme="light"]) {
+    --s-bio: #5DBE84; --s-bio-soft: #16281D;
+    --s-his: #E0A04A; --s-his-soft: #2A1F10;
+    --s-wos: #7FA6EC; --s-wos-soft: #141E30;
+    --ok: #7FD3A0; --ok-fill: #3FA56B; --ok-shadow: #3FA56B; --ok-soft: #13261A;
+    --bad: #F0958E; --bad-fill: #D2554D; --bad-shadow: #D2554D; --bad-soft: #2C1513;
+  }
+}
+:root.wyglad-nowy[data-theme="dark"] {
+  --s-bio: #5DBE84; --s-bio-soft: #16281D;
+  --s-his: #E0A04A; --s-his-soft: #2A1F10;
+  --s-wos: #7FA6EC; --s-wos-soft: #141E30;
+  --ok: #7FD3A0; --ok-fill: #3FA56B; --ok-shadow: #3FA56B; --ok-soft: #13261A;
+  --bad: #F0958E; --bad-fill: #D2554D; --bad-shadow: #D2554D; --bad-soft: #2C1513;
+}
+
+/* Akcent = kolor wybranego przedmiotu */
+.wyglad-nowy[data-przedmiot="biologia"] { --accent: var(--s-bio); --accent-shadow: var(--s-bio); --accent-text: var(--s-bio); --accent-soft: var(--s-bio-soft); }
+.wyglad-nowy[data-przedmiot="historia"] { --accent: var(--s-his); --accent-shadow: var(--s-his); --accent-text: var(--s-his); --accent-soft: var(--s-his-soft); }
+.wyglad-nowy[data-przedmiot="wos"] { --accent: var(--s-wos); --accent-shadow: var(--s-wos); --accent-text: var(--s-wos); --accent-soft: var(--s-wos-soft); }
+.wyglad-nowy[data-przedmiot] { --on-accent: #FFFFFF; }
+
+/* Ikona przedmiotu: na wyborze przedmiotu każdy ma swój kolor, w pigułce kursu kolor bieżącego */
+.wyglad-nowy .subj-icon[data-sid="biologia"] { background: var(--s-bio); color: #fff; }
+.wyglad-nowy .subj-icon[data-sid="historia"] { background: var(--s-his); color: #fff; }
+.wyglad-nowy .subj-icon[data-sid="wos"] { background: var(--s-wos); color: #fff; }
+.wyglad-nowy[data-przedmiot] .course-pill-icon { background: var(--accent); color: #fff; }
+
+/* Aktywna zakładka na dole w kolorze przedmiotu */
+.wyglad-nowy[data-przedmiot] .tabbar a.active { color: var(--accent); }
+
+/* Postęp i kółka: w kolorze przedmiotu, ukończone na zielono */
+.wyglad-nowy .progress span { background: var(--accent); }
+.wyglad-nowy .quest.done .progress span { background: var(--ok-fill); }
+
+/* Nagroda po lekcji: gwiazdka z logo wyskakuje i lekko się obraca, jak na ekranie wczytywania */
+.wyglad-nowy .result-icon { animation: nowy-nagroda .7s cubic-bezier(.3, 1.6, .5, 1) both; }
+@keyframes nowy-nagroda { from { transform: scale(0) rotate(-90deg); } to { transform: scale(1) rotate(0); } }
+@media (prefers-reduced-motion: reduce) { .wyglad-nowy .result-icon { animation: none; } }

@@ -6,6 +6,7 @@ import * as cloud from './cloud.js';
 import * as dostep from './dostep.js';
 import * as podcast from './podcast.js';
 import * as CFG from './config.js';
+if (CFG.WYGLAD?.nowy) document.documentElement.classList.add('wyglad-nowy');
 import { cardKey, nextState, intervalLabel, summary, buildQueue, newAllowance, MASTERED_BOX, setAutoRate, tempoAuto, newPerDay } from './srs.js';
 
 const REPORT_EMAIL = 'kontakt.indexlab@gmail.com';
@@ -2997,7 +2998,7 @@ function viewPrzedmiot() {
       const dni = s.egzamin ? Math.ceil((new Date(s.egzamin + 'T09:00') - Date.now()) / DAY) : null;
       const sm = !s.szkielet && s.dzialy.length ? summary(s.id, allUnits(s), 0) : null;
       return `<button type="button" class="subj-tile ${s.id === cur ? 'active' : ''}" data-sid="${esc(s.id)}">
-        <span class="subj-icon">${subjectIcon(s)}</span>
+        <span class="subj-icon" data-sid="${esc(s.id)}">${subjectIcon(s)}</span>
         <span class="subj-body"><span class="subj-name">${esc(s.nazwa)}</span>
           <small>Matura rozszerzona${dni > 0 ? ` · egzamin za ${dni} ${plural(dni, 'dzień', 'dni', 'dni')}` : ''}</small>
           ${sm ? `<span class="subj-prog"><span class="core-mini"><i style="width:${sm.progress * 100}%"></i></span><b>${pct(sm.progress)}%</b></span>` : ''}</span>
@@ -3887,6 +3888,7 @@ function route() {
   if (!hash.startsWith('#/egzamin/')) clearInterval(examTimer);
 
   // bramka: najpierw logowanie (profil), potem wybór przedmiotu
+  document.documentElement.dataset.przedmiot = store.get().settings?.przedmiot || '';
   const gate = !store.loggedIn() ? viewKonto : !store.get().settings.przedmiot && subjects.length && !/^#\/(przedmiot|start)$/.test(hash) ? viewPrzedmiot : null;
   const hit = gate ? null : routes.find(([re]) => re.test(hash));
   if (!gate && hit && !/^#\/(konto|przedmiot|start)$/.test(hash) && czekajNaTresc(hash)) { updateTopStats(); return; }
