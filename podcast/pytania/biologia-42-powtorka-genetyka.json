@@ -1,0 +1,7 @@
+{"odcinek": "biologia-42-powtorka-genetyka", "pytania": [
+ {"id": "oczy", "typ": "abcd", "pytanie": "Tata ma brązowe oczy (dominujące), mama niebieskie, dziecko niebieskie. Jaki genotyp ma tata?", "odpowiedzi": ["Aa", "AA", "aa", "Nie da się ustalić"], "poprawna": 0, "wyjasnienie": "Dziecko aa dostało allel a od każdego rodzica."},
+ {"id": "szansa", "typ": "abcd", "pytanie": "Aa × aa. Jaka jest szansa na dziecko z cechą recesywną?", "odpowiedzi": ["50%", "25%", "75%", "0%"], "poprawna": 0, "wyjasnienie": "Połowa potomstwa to Aa, połowa aa."},
+ {"id": "grupy", "typ": "abcd", "pytanie": "Rodzice Iᴬi i Iᴮi. Jakie grupy krwi mogą mieć dzieci?", "odpowiedzi": ["A, B, AB i 0", "Tylko A i B", "Tylko AB", "Tylko 0"], "poprawna": 0, "wyjasnienie": "Każda kombinacja alleli jest możliwa."},
+ {"id": "daltonizm", "typ": "abcd", "pytanie": "Syn daltonista, rodzice widzą prawidłowo. Od kogo ma allel?", "odpowiedzi": ["Od matki-nosicielki", "Od ojca", "Od obojga", "To nowa mutacja u ojca"], "poprawna": 0, "wyjasnienie": "Syn dostaje X od matki, Y od ojca."},
+ {"id": "mukowiscydoza", "typ": "abcd", "pytanie": "Zdrowi rodzice, heterozygoty, mają dziecko. Jaka jest szansa na mukowiscydozę?", "odpowiedzi": ["25%", "50%", "75%", "100%"], "poprawna": 0, "wyjasnienie": "Aa × Aa daje 1/4 aa."}
+]}

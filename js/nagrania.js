@@ -113,5 +113,47 @@ export const NAGRANIA_AUTO = {
   "min": 6,
   "czasy": "podcast/mp3/biologia-19-enzymy.json",
   "pytania": "podcast/pytania/biologia-19-enzymy.json"
+ },
+ "biologia/p/b-fotosynteza": {
+  "plik": "podcast/mp3/biologia-20-fotosynteza.mp3",
+  "min": 6,
+  "czasy": "podcast/mp3/biologia-20-fotosynteza.json",
+  "pytania": "podcast/pytania/biologia-20-fotosynteza.json"
+ },
+ "biologia/p/b-oddychanie": {
+  "plik": "podcast/mp3/biologia-21-oddychanie.mp3",
+  "min": 5,
+  "czasy": "podcast/mp3/biologia-21-oddychanie.json",
+  "pytania": "podcast/pytania/biologia-21-oddychanie.json"
+ },
+ "biologia/p/b-fermentacje": {
+  "plik": "podcast/mp3/biologia-22-fermentacje.mp3",
+  "min": 5,
+  "czasy": "podcast/mp3/biologia-22-fermentacje.json",
+  "pytania": "podcast/pytania/biologia-22-fermentacje.json"
+ },
+ "biologia/d/metabolizm": {
+  "plik": "podcast/mp3/biologia-23-powtorka-metabolizm.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-23-powtorka-metabolizm.json",
+  "pytania": "podcast/pytania/biologia-23-powtorka-metabolizm.json"
+ },
+ "biologia/p/b-genom": {
+  "plik": "podcast/mp3/biologia-24-genom.mp3",
+  "min": 5,
+  "czasy": "podcast/mp3/biologia-24-genom.json",
+  "pytania": "podcast/pytania/biologia-24-genom.json"
+ },
+ "biologia/p/b-replikacja": {
+  "plik": "podcast/mp3/biologia-25-replikacja.mp3",
+  "min": 5,
+  "czasy": "podcast/mp3/biologia-25-replikacja.json",
+  "pytania": "podcast/pytania/biologia-25-replikacja.json"
+ },
+ "biologia/p/b-cykl": {
+  "plik": "podcast/mp3/biologia-26-cykl.mp3",
+  "min": 4,
+  "czasy": "podcast/mp3/biologia-26-cykl.json",
+  "pytania": "podcast/pytania/biologia-26-cykl.json"
  }
 };
