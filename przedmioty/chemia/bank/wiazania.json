@@ -2,6 +2,33 @@
  "dzial": "wiazania",
  "wiazki": [
   {
+   "tytul": "Wzory elektronowe",
+   "material": "Tekst autorski. Rozpatrz cząsteczki: HCN, SO₂, CO.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj liczbę wiązań σ i π w HCN i w CO.",
+     "odpowiedz": "HCN: 2σ, 2π; CO: 1σ, 2π",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wiązania potrójne C≡N i C≡O (w CO jedno wiązanie koordynacyjne).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj kształt cząsteczki SO₂ i czy jest polarna.",
+     "odpowiedz": "Kątowa; polarna",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wolna para na S.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-wiazania-01",
+   "dzial": "wiazania"
+  },
+  {
    "tytul": "Temperatury wrzenia",
    "material": "Tekst autorski. Temperatury wrzenia: H₂O — 100°C, H₂S — −60°C, H₂Se — −41°C, H₂Te — −2°C.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -25,7 +52,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-01",
+   "id": "b-wiazania-02",
    "dzial": "wiazania"
   },
   {
@@ -52,7 +79,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-02",
+   "id": "b-wiazania-03",
    "dzial": "wiazania"
   },
   {
@@ -88,7 +115,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-wiazania-03",
+   "id": "b-wiazania-04",
    "dzial": "wiazania"
   },
   {
@@ -115,7 +142,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-04",
+   "id": "b-wiazania-05",
    "dzial": "wiazania"
   },
   {
@@ -142,7 +169,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-05",
+   "id": "b-wiazania-06",
    "dzial": "wiazania"
   }
  ]

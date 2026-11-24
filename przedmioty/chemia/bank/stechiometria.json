@@ -101,6 +101,42 @@
    "dzial": "stechiometria"
   },
   {
+   "tytul": "Reakcja w roztworze — osad",
+   "material": "Tekst autorski. Zmieszano 100 cm³ 0,2 M AgNO₃ i 50 cm³ 0,3 M NaCl. M(AgCl) = 143,5 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę osadu AgCl i podaj, który jon pozostał w nadmiarze.",
+     "odpowiedz": "2,15 g; nadmiar Ag⁺",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(Ag⁺) = 0,02, n(Cl⁻) = 0,015 → AgCl 0,015 mol · 143,5 = 2,15 g; zostaje 0,005 mol Ag⁺.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-04",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Gęstość gazu",
+   "material": "Tekst autorski. Gęstość pewnego gazu w warunkach normalnych wynosi 1,96 g/dm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę molową gazu i zaproponuj jego wzór.",
+     "odpowiedz": "44 g/mol — np. CO₂ lub C₃H₈",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1,96 · 22,4.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-05",
+   "dzial": "stechiometria"
+  },
+  {
    "tytul": "Mieszanina węglanów",
    "material": "Tekst autorski. Mieszaninę Na₂CO₃ i NaHCO₃ o masie 2,74 g roztworzono w nadmiarze kwasu solnego. Wydzieliło się 0,672 dm³ CO₂ (warunki normalne). M(Na₂CO₃) = 106 g/mol, M(NaHCO₃) = 84 g/mol.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -124,7 +160,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-04",
+   "id": "b-stechiometria-06",
    "dzial": "stechiometria"
   },
   {
@@ -151,7 +187,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-05",
+   "id": "b-stechiometria-07",
    "dzial": "stechiometria"
   },
   {
@@ -178,7 +214,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-06",
+   "id": "b-stechiometria-08",
    "dzial": "stechiometria"
   },
   {
@@ -196,7 +232,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-07",
+   "id": "b-stechiometria-09",
    "dzial": "stechiometria"
   },
   {
@@ -214,7 +250,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-08",
+   "id": "b-stechiometria-10",
    "dzial": "stechiometria"
   },
   {
@@ -232,7 +268,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-09",
+   "id": "b-stechiometria-11",
    "dzial": "stechiometria"
   },
   {
@@ -250,7 +286,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-10",
+   "id": "b-stechiometria-12",
    "dzial": "stechiometria"
   },
   {
@@ -277,7 +313,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-11",
+   "id": "b-stechiometria-13",
    "dzial": "stechiometria"
   },
   {
@@ -295,7 +331,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-12",
+   "id": "b-stechiometria-14",
    "dzial": "stechiometria"
   },
   {
@@ -313,7 +349,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-13",
+   "id": "b-stechiometria-15",
    "dzial": "stechiometria"
   },
   {
@@ -331,7 +367,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-14",
+   "id": "b-stechiometria-16",
    "dzial": "stechiometria"
   },
   {
@@ -349,7 +385,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-15",
+   "id": "b-stechiometria-17",
    "dzial": "stechiometria"
   },
   {
@@ -367,7 +403,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-16",
+   "id": "b-stechiometria-18",
    "dzial": "stechiometria"
   },
   {
@@ -394,7 +430,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-17",
+   "id": "b-stechiometria-19",
    "dzial": "stechiometria"
   }
  ]

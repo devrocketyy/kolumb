@@ -2,6 +2,60 @@
  "dzial": "redoks",
  "wiazki": [
   {
+   "tytul": "Miedź i kwas azotowy",
+   "material": "Tekst autorski. Miedź roztworzono w rozcieńczonym HNO₃.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równania połówkowe i sumaryczne w formie jonowej.",
+     "odpowiedz": "Cu → Cu²⁺ + 2e⁻ (×3); NO₃⁻ + 4H⁺ + 3e⁻ → NO + 2H₂O (×2); 3Cu + 2NO₃⁻ + 8H⁺ → 3Cu²⁺ + 2NO + 4H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Opisz, co obserwujemy u wylotu probówki.",
+     "odpowiedz": "Bezbarwny gaz NO brunatnieje na powietrzu (utlenia się do NO₂).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-01",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Akumulator ołowiowy",
+   "material": "Tekst autorski. Podczas rozładowania akumulatora: Pb + PbO₂ + 2H₂SO₄ → 2PbSO₄ + 2H₂O.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równania reakcji na anodzie i na katodzie.",
+     "odpowiedz": "Anoda: Pb + SO₄²⁻ → PbSO₄ + 2e⁻; katoda: PbO₂ + 4H⁺ + SO₄²⁻ + 2e⁻ → PbSO₄ + 2H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jak zmienia się gęstość elektrolitu podczas rozładowania.",
+     "odpowiedz": "Maleje — ubywa H₂SO₄, przybywa wody.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Pomiar gęstości = stan naładowania.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-02",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Manganian(VII) potasu",
    "material": "Tekst autorski. Do zakwaszonego kwasem siarkowym(VI) roztworu siarczanu(VI) żelaza(II) wkraplano fioletowy roztwór KMnO₄. Roztwór manganianu odbarwiał się, a roztwór w probówce zmienił barwę z bladozielonej na żółtą.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -34,7 +88,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-01",
+   "id": "b-redoks-03",
    "dzial": "redoks"
   },
   {
@@ -79,7 +133,7 @@
      "nr": "4"
     }
    ],
-   "id": "b-redoks-02",
+   "id": "b-redoks-04",
    "dzial": "redoks"
   },
   {
@@ -115,7 +169,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-03",
+   "id": "b-redoks-05",
    "dzial": "redoks"
   },
   {
@@ -151,7 +205,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-04",
+   "id": "b-redoks-06",
    "dzial": "redoks"
   },
   {
@@ -187,7 +241,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-05",
+   "id": "b-redoks-07",
    "dzial": "redoks"
   },
   {
@@ -214,7 +268,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-06",
+   "id": "b-redoks-08",
    "dzial": "redoks"
   },
   {
@@ -241,7 +295,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-07",
+   "id": "b-redoks-09",
    "dzial": "redoks"
   },
   {
@@ -259,7 +313,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-08",
+   "id": "b-redoks-10",
    "dzial": "redoks"
   },
   {
@@ -286,7 +340,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-09",
+   "id": "b-redoks-11",
    "dzial": "redoks"
   },
   {
@@ -313,7 +367,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-10",
+   "id": "b-redoks-12",
    "dzial": "redoks"
   },
   {
@@ -331,7 +385,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-11",
+   "id": "b-redoks-13",
    "dzial": "redoks"
   },
   {
@@ -358,7 +412,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-12",
+   "id": "b-redoks-14",
    "dzial": "redoks"
   },
   {
@@ -385,7 +439,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-13",
+   "id": "b-redoks-15",
    "dzial": "redoks"
   },
   {
@@ -403,7 +457,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-14",
+   "id": "b-redoks-16",
    "dzial": "redoks"
   },
   {
@@ -421,7 +475,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-15",
+   "id": "b-redoks-17",
    "dzial": "redoks"
   }
  ]

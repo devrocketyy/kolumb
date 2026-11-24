@@ -2,6 +2,42 @@
  "dzial": "azotowe-cukry",
  "wiazki": [
   {
+   "tytul": "Wykrywanie białek",
+   "material": "Tekst autorski. Roztwór żelatyny i roztwór albuminy jaja badano HNO₃ (stęż.) i Cu(OH)₂ (NaOH).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, która próba wypadnie pozytywnie dla obu białek.",
+     "odpowiedz": "Biuretowa (fioletowe zabarwienie) — oba mają wiązania peptydowe.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Żelatyna ma bardzo mało aminokwasów aromatycznych — próba ksantoproteinowa słaba.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-azotowe-cukry-01",
+   "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Glukoza — masa produktu fermentacji",
+   "material": "Tekst autorski. Fermentacji poddano 360 g glukozy; wydajność 80%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę etanolu.",
+     "odpowiedz": "ok. 147 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "2 mol glukozy → 4 mol etanolu · 0,8 = 3,2 mol · 46 = 147,2 g.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-azotowe-cukry-02",
+   "dzial": "azotowe-cukry"
+  },
+  {
    "tytul": "Glicyna i alanina",
    "material": "Tekst autorski. Glicyna (H₂N–CH₂–COOH) i alanina (H₂N–CH(CH₃)–COOH) to najprostsze aminokwasy białkowe.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -34,7 +70,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-azotowe-cukry-01",
+   "id": "b-azotowe-cukry-03",
    "dzial": "azotowe-cukry"
   },
   {
@@ -61,7 +97,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-02",
+   "id": "b-azotowe-cukry-04",
    "dzial": "azotowe-cukry"
   },
   {
@@ -88,7 +124,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-03",
+   "id": "b-azotowe-cukry-05",
    "dzial": "azotowe-cukry"
   },
   {
@@ -115,7 +151,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-04",
+   "id": "b-azotowe-cukry-06",
    "dzial": "azotowe-cukry"
   },
   {
@@ -142,7 +178,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-05",
+   "id": "b-azotowe-cukry-07",
    "dzial": "azotowe-cukry"
   },
   {
@@ -169,7 +205,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-06",
+   "id": "b-azotowe-cukry-08",
    "dzial": "azotowe-cukry"
   },
   {
@@ -196,7 +232,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-07",
+   "id": "b-azotowe-cukry-09",
    "dzial": "azotowe-cukry"
   },
   {
@@ -223,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-08",
+   "id": "b-azotowe-cukry-10",
    "dzial": "azotowe-cukry"
   },
   {
@@ -250,7 +286,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-09",
+   "id": "b-azotowe-cukry-11",
    "dzial": "azotowe-cukry"
   },
   {
@@ -268,7 +304,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-10",
+   "id": "b-azotowe-cukry-12",
    "dzial": "azotowe-cukry"
   },
   {
@@ -295,7 +331,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-11",
+   "id": "b-azotowe-cukry-13",
    "dzial": "azotowe-cukry"
   },
   {
@@ -313,7 +349,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-12",
+   "id": "b-azotowe-cukry-14",
    "dzial": "azotowe-cukry"
   },
   {
@@ -331,7 +367,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-13",
+   "id": "b-azotowe-cukry-15",
    "dzial": "azotowe-cukry"
   }
  ]

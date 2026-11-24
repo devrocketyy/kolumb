@@ -2,6 +2,42 @@
  "dzial": "tlenowe",
  "wiazki": [
   {
+   "tytul": "Moc kwasów karboksylowych",
+   "material": "Tekst autorski. Rozpatrz: CH₃COOH, ClCH₂COOH, HCOOH, CH₃CH₂COOH.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Uszereguj kwasy od najsłabszego do najmocniejszego.",
+     "odpowiedz": "CH₃CH₂COOH < CH₃COOH < HCOOH < ClCH₂COOH",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Grupy alkilowe osłabiają, Cl wzmacnia.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-tlenowe-01",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Estry — hydroliza ilościowa",
+   "material": "Tekst autorski. 4,4 g octanu etylu (M = 88 g/mol) zhydrolizowano w 100 cm³ roztworu NaOH o stężeniu 1,0 mol·dm⁻³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz liczbę moli NaOH pozostałego po reakcji.",
+     "odpowiedz": "0,05 mol",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(estru) = 0,05; NaOH 0,1 − 0,05 = 0,05 mol.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-tlenowe-02",
+   "dzial": "tlenowe"
+  },
+  {
    "tytul": "Utlenianie alkoholi",
    "material": "Tekst autorski. Trzy izomeryczne alkohole o wzorze C₄H₉OH: butan-1-ol, butan-2-ol i 2-metylopropan-2-ol ogrzewano z tlenkiem miedzi(II).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -25,7 +61,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-01",
+   "id": "b-tlenowe-03",
    "dzial": "tlenowe"
   },
   {
@@ -61,7 +97,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-tlenowe-02",
+   "id": "b-tlenowe-04",
    "dzial": "tlenowe"
   },
   {
@@ -88,7 +124,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-03",
+   "id": "b-tlenowe-05",
    "dzial": "tlenowe"
   },
   {
@@ -115,7 +151,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-04",
+   "id": "b-tlenowe-06",
    "dzial": "tlenowe"
   },
   {
@@ -142,7 +178,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-05",
+   "id": "b-tlenowe-07",
    "dzial": "tlenowe"
   },
   {
@@ -169,7 +205,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-06",
+   "id": "b-tlenowe-08",
    "dzial": "tlenowe"
   },
   {
@@ -196,7 +232,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-07",
+   "id": "b-tlenowe-09",
    "dzial": "tlenowe"
   },
   {
@@ -223,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-08",
+   "id": "b-tlenowe-10",
    "dzial": "tlenowe"
   },
   {
@@ -250,7 +286,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-09",
+   "id": "b-tlenowe-11",
    "dzial": "tlenowe"
   },
   {
@@ -268,7 +304,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-10",
+   "id": "b-tlenowe-12",
    "dzial": "tlenowe"
   },
   {
@@ -286,7 +322,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-11",
+   "id": "b-tlenowe-13",
    "dzial": "tlenowe"
   },
   {
@@ -313,7 +349,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-12",
+   "id": "b-tlenowe-14",
    "dzial": "tlenowe"
   },
   {
@@ -331,7 +367,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-13",
+   "id": "b-tlenowe-15",
    "dzial": "tlenowe"
   },
   {
@@ -349,7 +385,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-14",
+   "id": "b-tlenowe-16",
    "dzial": "tlenowe"
   },
   {
@@ -367,7 +403,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-15",
+   "id": "b-tlenowe-17",
    "dzial": "tlenowe"
   }
  ]

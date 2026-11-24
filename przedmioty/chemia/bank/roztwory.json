@@ -83,6 +83,33 @@
    "dzial": "roztwory"
   },
   {
+   "tytul": "Roztwór z dwóch soli",
+   "material": "Tekst autorski. W 200 g wody rozpuszczono 10 g NaCl i 15 g KCl.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie procentowe KCl.",
+     "odpowiedz": "ok. 6,7%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "15/225.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie procentowe jonów Cl⁻ (M(Cl) = 35,5; M(NaCl) = 58,5; M(KCl) = 74,5).",
+     "odpowiedz": "ok. 5,9%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "m(Cl) = 10·35,5/58,5 + 15·35,5/74,5 = 6,07 + 7,15 = 13,2 g; 13,2/225 = 5,9%.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-04",
+   "dzial": "roztwory"
+  },
+  {
    "tytul": "Roztwór z hydratu",
    "material": "Tekst autorski. Należy przygotować 200 g roztworu CuSO₄ o stężeniu 8%, używając CuSO₄·5H₂O (M = 250 g/mol, M(CuSO₄) = 160 g/mol).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -97,7 +124,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-04",
+   "id": "b-roztwory-05",
    "dzial": "roztwory"
   },
   {
@@ -115,7 +142,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-05",
+   "id": "b-roztwory-06",
    "dzial": "roztwory"
   },
   {
@@ -151,7 +178,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-06",
+   "id": "b-roztwory-07",
    "dzial": "roztwory"
   },
   {
@@ -178,7 +205,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-07",
+   "id": "b-roztwory-08",
    "dzial": "roztwory"
   },
   {
@@ -196,7 +223,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-08",
+   "id": "b-roztwory-09",
    "dzial": "roztwory"
   },
   {
@@ -223,7 +250,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-09",
+   "id": "b-roztwory-10",
    "dzial": "roztwory"
   },
   {
@@ -241,7 +268,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-10",
+   "id": "b-roztwory-11",
    "dzial": "roztwory"
   },
   {
@@ -268,7 +295,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-11",
+   "id": "b-roztwory-12",
    "dzial": "roztwory"
   },
   {
@@ -286,7 +313,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-12",
+   "id": "b-roztwory-13",
    "dzial": "roztwory"
   },
   {
@@ -313,7 +340,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-13",
+   "id": "b-roztwory-14",
    "dzial": "roztwory"
   }
  ]
