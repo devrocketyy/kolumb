@@ -1,0 +1,112 @@
+{
+  "odcinek": "biologia-06-woda",
+  "klucz": "biologia/p/b-woda",
+  "tytul": "Cząsteczka, która udaje, że jest większa",
+  "uwaga": "Kolejność = kolejność znaczników [pytanie: id] w scenariuszu. typ: abcd | laczenie | kolejnosc. W trybie aktywnym odtwarzacz zatrzymuje się na znaczniku i pokazuje kartę. Poprawna odpowiedź jest zapisana jako pierwsza — odtwarzacz losuje kolejność odpowiedzi i par.",
+  "pytania": [
+    {
+      "id": "pierwiastki-pary",
+      "typ": "laczenie",
+      "polecenie": "Połącz pierwiastek z miejscem, w którym pracuje.",
+      "pary": [
+        ["Magnez", "środek cząsteczki chlorofilu"],
+        ["Żelazo", "hem w hemoglobinie"],
+        ["Jod", "hormony tarczycy"]
+      ],
+      "wyjasnienie": "Trzy pary z odcinka: magnez i zielony liść, żelazo i czerwona krew, jod i tarczyca."
+    },
+    {
+      "id": "molibden",
+      "typ": "abcd",
+      "pytanie": "Bakterie w korzeniach grochu wiążą azot z powietrza. Który mikroelement jest potrzebny ich enzymowi?",
+      "odpowiedzi": ["Molibden", "Jod", "Sód", "Siarka"],
+      "poprawna": 0,
+      "wyjasnienie": "Molibden wchodzi w skład enzymu, którym bakterie brodawkowe wiążą azot atmosferyczny. Siarka to makroelement z aminokwasów, a jod działa w tarczycy."
+    },
+    {
+      "id": "siarkowodor",
+      "typ": "abcd",
+      "pytanie": "Siarkowodór (H₂S) jest cięższy od wody, a w temperaturze pokojowej jest gazem. Dlaczego woda jest cieczą?",
+      "odpowiedzi": [
+        "Cząsteczki wody łączą się wiązaniami wodorowymi",
+        "Cząsteczka wody jest cięższa od cząsteczki H₂S",
+        "Woda nie ma ładunków, więc cząsteczki się nie odpychają",
+        "Atomy w cząsteczce wody ułożone są w linii prostej"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Woda jest polarna (dipol), więc jej cząsteczki przyciągają się wiązaniami wodorowymi. Jest lżejsza od H₂S, a jej cząsteczka jest zgięta, a nie prosta."
+    },
+    {
+      "id": "lod",
+      "typ": "abcd",
+      "pytanie": "Dlaczego ryby przeżywają zimę na dnie zamarzniętego jeziora?",
+      "odpowiedzi": [
+        "Lód jest lżejszy od wody, pływa i izoluje, a przy dnie zostaje woda o temperaturze ok. 4°C",
+        "Lód jest cięższy od wody, więc opada na dno i ogrzewa je",
+        "Woda przy dnie ma 0°C, ale ryby nie odczuwają zimna",
+        "Jezioro zamarza od dna, a ryby uciekają pod sam lód"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "W lodzie cząsteczki tworzą ażurową siatkę, więc lód ma mniejszą gęstość niż woda. Najgęstsza woda (ok. 4°C) opada na dno, a lód na górze działa jak koc."
+    },
+    {
+      "id": "wlasciwosci-skutki",
+      "typ": "laczenie",
+      "polecenie": "Połącz właściwość wody z jej skutkiem dla organizmów.",
+      "pary": [
+        ["Duże ciepło właściwe", "łagodny klimat nad morzem"],
+        ["Wysokie ciepło parowania", "pot chłodzi ciało"],
+        ["Spójność (kohezja)", "nieprzerwany słup wody w naczyniach drzewa"],
+        ["Polarność", "rozpuszczanie jonów i cukrów"]
+      ],
+      "wyjasnienie": "Trzy rodziny właściwości: woda i ciepło, woda, która się trzyma, i woda, która rozpuszcza. Wszystkie biorą się z polarności i wiązań wodorowych."
+    },
+    {
+      "id": "matura-punkt",
+      "typ": "abcd",
+      "pytanie": "Polecenie: „Wyjaśnij znaczenie parowania wody dla organizmu człowieka”. Która odpowiedź dostanie punkt?",
+      "odpowiedzi": [
+        "Woda ma wysokie ciepło parowania, dlatego parujący pot odbiera ciału dużo ciepła i obniża jego temperaturę",
+        "Woda chłodzi organizm",
+        "Pot paruje, bo jest ciepło",
+        "Parowanie jest ważne dla termoregulacji"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Przepis na punkt: najpierw właściwość, potem skutek dla organizmu. Pozostałe odpowiedzi nie podają właściwości wody albo nie mówią, co z niej wynika."
+    },
+    {
+      "id": "morze",
+      "typ": "abcd",
+      "pytanie": "Dlaczego w miastach nad morzem rzadziej zdarzają się ekstremalne upały i mrozy?",
+      "odpowiedzi": [
+        "Woda ma duże ciepło właściwe: latem powoli się nagrzewa, a zimą powoli oddaje ciepło",
+        "Morska woda jest słona, więc nie zamarza",
+        "Nad morzem zawsze wieje wiatr",
+        "Woda ma duże napięcie powierzchniowe"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Duże ciepło właściwe sprawia, że morze działa jak bufor temperatury dla całej okolicy."
+    },
+    {
+      "id": "tluszcz",
+      "typ": "abcd",
+      "pytanie": "Dlaczego tłuszcz z patelni spłuczesz dopiero wodą z płynem do naczyń?",
+      "odpowiedzi": [
+        "Cząsteczki płynu jednym końcem wiążą tłuszcz, a drugim wodę, więc otaczają kropelki tłuszczu",
+        "Płyn rozkłada tłuszcz na wodę i dwutlenek węgla",
+        "Płyn sprawia, że tłuszcz staje się polarny",
+        "Płyn podnosi temperaturę wody"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Tłuszcz jest hydrofobowy. Cząsteczki płynu, podobnie jak fosfolipidy, mają część hydrofilową i hydrofobową, więc łączą tłuszcz z wodą."
+    },
+    {
+      "id": "ogorki",
+      "typ": "abcd",
+      "pytanie": "Na grządce ogórków żółkną dolne, najstarsze liście, a młode są zielone. Którego pierwiastka najpewniej brakuje?",
+      "odpowiedzi": ["Magnezu", "Żelaza", "Jodu", "Sodu"],
+      "poprawna": 0,
+      "wyjasnienie": "Magnez przemieszcza się w roślinie, więc roślina zabiera go ze starych liści dla młodych. Przy braku żelaza żółkną najpierw liście młode."
+    }
+  ]
+}

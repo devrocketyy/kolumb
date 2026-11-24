@@ -3,6 +3,7 @@ Temat: Woda, makro- i mikroelementy
 Dział: Biochemia
 Długość: ok. 13 minut (ok. 1570 słów), jeden narrator, spokojnie.
 Uwaga dla lektora: nagłówki „##” to tylko podział dla redakcji — nie są czytane. Wskazówki w nawiasach kwadratowych zamieniamy na znaczniki SSML.
+Pytania: podcast/pytania/biologia-06-woda.json. Znacznik [pytanie: id] to miejsce zatrzymania w trybie aktywnym (nie jest czytany). [odpowiedź] … [koniec odpowiedzi] to fragment, który tryb aktywny pomija, bo uczeń zobaczył odpowiedź na karcie.
 
 ---
 
@@ -48,6 +49,8 @@ Para trzecia: jod i tarczyca. Jod wchodzi w skład hormonów tarczycy. Gdy go br
 
 [pauza]
 
+[pytanie: pierwiastki-pary]
+
 Do tych trzech par dołóż jeszcze kilka krótkich skojarzeń.
 
 Wapń to kości i zęby. Ale jony wapnia mają też drugie zadanie: uruchamiają skurcz mięśni i pomagają krwi krzepnąć.
@@ -59,6 +62,8 @@ Siarka siedzi w dwóch aminokwasach. Jeden z nich, cysteina, tworzy mostki, któ
 Sód i potas zawsze idą w parze. Sodu jest dużo na zewnątrz komórki, potasu w środku. Ta różnica to podstawa przewodzenia impulsów nerwowych.
 
 I ciekawostka, którą CKE lubi: molibden. Potrzebuje go enzym, którym bakterie w korzeniach roślin motylkowych wiążą azot z powietrza.
+
+[pytanie: molibden]
 
 ## Część druga: dlaczego woda jest dziwna
 
@@ -78,6 +83,8 @@ A skoro każda cząsteczka ma plus i minus, to cząsteczki się przyciągają. W
 
 I teraz najważniejsze zdanie tego odcinka. Prawie wszystkie niezwykłe właściwości wody biorą się z tego, że jest polarna i tworzy wiązania wodorowe. Jeśli to zrozumiesz, nie musisz uczyć się właściwości wody na pamięć. Możesz je wyprowadzić.
 
+[pytanie: siarkowodor]
+
 ## Część trzecia: trzy rodziny właściwości
 
 Podzielmy właściwości wody na trzy rodziny.
@@ -89,6 +96,8 @@ Rodzina pierwsza: woda i ciepło.
 Jeszcze więcej energii trzeba, żeby woda wyparowała, bo cząsteczka musi zerwać wszystkie wiązania z sąsiadami naraz. Dlatego parowanie mocno chłodzi. Ty się pocisz, roślina transpiruje, i w obu przypadkach parująca woda zabiera ze sobą ciepło.
 
 I wreszcie lód. Kiedy woda zamarza, każda cząsteczka łapie czterech sąsiadów i wszystkie układają się w regularną, ażurową siatkę. Coś jak plaster miodu: dużo pustego miejsca w środku. Dlatego lód jest lżejszy od wody i pływa. A najgęstsza woda, ta w czterech stopniach, opada na dno. Stąd te cztery stopnie przy dnie naszego jeziora. Lód na górze działa jak koc.
+
+[pytanie: lod]
 
 [pauza]
 
@@ -116,11 +125,17 @@ I ostatnie, bardzo praktyczne zadanie wody w tej rodzinie. Kiedy komórka rośli
 
 [pauza]
 
+[pytanie: wlasciwosci-skutki]
+
 Zatrzymaj się na moment. Możesz nawet zatrzymać nagranie. Spróbuj powiedzieć na głos trzy rodziny właściwości wody, które przed chwilą omówiliśmy.
 
 [pauza, dłuższa]
 
+[odpowiedź]
+
 Woda i ciepło. Woda, która się trzyma. Woda, która rozpuszcza. Jeśli to masz, masz szkielet całego tematu.
+
+[koniec odpowiedzi]
 
 ## Co z tego będzie na maturze
 
@@ -138,6 +153,8 @@ Drugi częsty typ to niedobory pierwiastków. Dostajesz opis objawu i masz wskaz
 
 I trzeci typ: pytanie o funkcję pierwiastka. Wtedy zawsze nazwij konkretny związek albo proces. Nie „wapń jest potrzebny do kości”, tylko „wapń buduje tkankę kostną” albo „jony wapnia uruchamiają skurcz mięśni”.
 
+[pytanie: matura-punkt]
+
 ## Na spokojnie
 
 [muzyka, cicho]
@@ -150,23 +167,41 @@ Woda jest polarna i tworzy wiązania wodorowe. Z tego wynikają trzy rodziny jej
 
 Na koniec trzy pytania. Po każdym zrobię krótką pauzę, więc spróbuj odpowiedzieć, zanim usłyszysz moją wersję.
 
+[pytanie: morze]
+
 Pytanie pierwsze: dlaczego w miastach nad morzem rzadziej zdarzają się ekstremalne upały i mrozy niż w głębi lądu?
 
 [pauza, dłuższa]
 
+[odpowiedź]
+
 Bo woda ma duże ciepło właściwe. Morze latem powoli się nagrzewa i chłodzi okolicę, a zimą powoli oddaje zgromadzone ciepło.
+
+[koniec odpowiedzi]
+
+[pytanie: tluszcz]
 
 Pytanie drugie: dlaczego tłuszczu z patelni nie zmyjesz samą wodą, a z płynem do naczyń już tak?
 
 [pauza, dłuższa]
 
+[odpowiedź]
+
 Bo tłuszcz jest hydrofobowy. Płyn do naczyń ma cząsteczki podobne do fosfolipidu: jednym końcem łapią tłuszcz, a drugim wodę. Otaczają kropelki tłuszczu i woda może je spłukać.
+
+[koniec odpowiedzi]
+
+[pytanie: ogorki]
 
 Pytanie trzecie: na grządce ogórków żółkną dolne, najstarsze liście, a młode są zielone. Którego pierwiastka może brakować?
 
 [pauza, dłuższa]
 
+[odpowiedź]
+
 Najprawdopodobniej magnezu. Magnez się przemieszcza, więc roślina zabiera go ze starych liści i ratuje nim młode.
+
+[koniec odpowiedzi]
 
 [pauza]
 
