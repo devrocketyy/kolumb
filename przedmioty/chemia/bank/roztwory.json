@@ -1,0 +1,86 @@
+{
+ "dzial": "roztwory",
+ "wiazki": [
+  {
+   "tytul": "Roztwór do sterylizacji",
+   "material": "Tekst autorski. Należy przygotować 250 g 5-procentowego roztworu nadmanganianu potasu (manganianu(VII) potasu), a następnie rozcieńczyć go wodą do stężenia 0,1%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masy KMnO₄ i wody potrzebne do przygotowania roztworu 5%.",
+     "odpowiedz": "m(KMnO₄) = 12,5 g; m(H₂O) = 237,5 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "ms = Cp · mr / 100% = 5 · 250/100 = 12,5 g; woda = 250 − 12,5 = 237,5 g.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę wody, którą trzeba dodać do całego roztworu 5%, aby otrzymać roztwór 0,1%.",
+     "odpowiedz": "12 250 g wody (12,25 kg)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: masa substancji się nie zmienia; mr₂ = ms/Cp₂. RACHUNEK: mr₂ = 12,5/0,001 = 12 500 g; dodana woda = 12 500 − 250 = 12 250 g. SPRAWDZENIE: stężenie spada 50 razy, więc masa roztworu rośnie 50 razy (250 g · 50 = 12 500 g).",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-01",
+   "dzial": "roztwory"
+  },
+  {
+   "tytul": "Przeliczanie stężeń",
+   "material": "Tekst autorski. Stężony kwas solny ma stężenie 36% i gęstość 1,18 g/cm³. M(HCl) = 36,5 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stężenie molowe tego kwasu. Wynik podaj z dokładnością do jednego miejsca po przecinku.",
+     "odpowiedz": "Cm ≈ 11,6 mol/dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: Cm = Cp · d / (M · 100%), d w g/dm³. RACHUNEK: d = 1180 g/dm³; Cm = 36 · 1180 / (36,5 · 100) = 11,64 ≈ 11,6 mol/dm³. SPRAWDZENIE: typowy błąd to d = 1,18 g/cm³ bez przeliczenia — wynik 1000 razy za mały.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaką objętość tego kwasu trzeba odmierzyć, aby przygotować 500 cm³ roztworu HCl o stężeniu 0,5 mol/dm³.",
+     "odpowiedz": "ok. 21,6 cm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "n = 0,5 · 0,5 = 0,25 mol; V = n/Cm = 0,25/11,64 = 0,0215 dm³ ≈ 21,5–21,6 cm³.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-02",
+   "dzial": "roztwory"
+  },
+  {
+   "tytul": "Krzywa rozpuszczalności",
+   "material": "Tekst autorski. Rozpuszczalność azotanu(V) potasu wynosi: w 20°C — 32 g/100 g wody, w 60°C — 110 g/100 g wody.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie procentowe nasyconego roztworu KNO₃ w 60°C.",
+     "odpowiedz": "ok. 52,4%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Cp = 110/(100 + 110) · 100% = 52,38%. Pułapka: dzielimy przez masę ROZTWORU (210 g), a nie wody.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Nasycony w 60°C roztwór zawierający 100 g wody ochłodzono do 20°C. Oblicz masę wydzielonych kryształów.",
+     "odpowiedz": "78 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "W 100 g wody w 60°C jest 110 g soli, w 20°C może być 32 g; wydzieli się 110 − 32 = 78 g.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-03",
+   "dzial": "roztwory"
+  }
+ ]
+}

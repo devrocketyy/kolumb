@@ -1,0 +1,95 @@
+{
+ "dzial": "roztwory-wodne",
+ "wiazki": [
+  {
+   "tytul": "pH roztworów",
+   "material": "Tekst autorski. Przygotowano roztwory o stężeniu 0,01 mol/dm³: A — HCl, B — NaOH, C — CH₃COOH (Ka = 1,8 · 10⁻⁵), D — CH₃COONa.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Uszereguj roztwory według rosnącego pH.",
+     "odpowiedz": "A < C < D < B",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mocny kwas (pH 2) < słaby kwas (pH ok. 3,4) < sól słabego kwasu i mocnej zasady (lekko zasadowy) < mocna zasada (pH 12).",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz pH roztworu C. Wynik podaj z dokładnością do jednego miejsca po przecinku.",
+     "odpowiedz": "pH ≈ 3,4",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: słaby kwas, C₀/Ka = 0,01/1,8·10⁻⁵ ≈ 556 > 400, więc [H⁺] ≈ √(Ka·C₀). RACHUNEK: √(1,8·10⁻⁷) = 4,24·10⁻⁴; pH = −log(4,24·10⁻⁴) = 3,37 ≈ 3,4. SPRAWDZENIE: pH większe niż dla mocnego kwasu o tym samym stężeniu (2) — ma sens.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz w formie jonowej skróconej równanie reakcji, która decyduje o odczynie roztworu D.",
+     "odpowiedz": "CH₃COO⁻ + H₂O ⇄ CH₃COOH + OH⁻",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Hydrolizie ulega anion słabego kwasu; Na⁺ nie hydrolizuje.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-roztwory-wodne-01",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Zobojętnianie",
+   "material": "Tekst autorski. Zmieszano 50 cm³ roztworu HCl o stężeniu 0,2 mol/dm³ z 50 cm³ roztworu NaOH o stężeniu 0,1 mol/dm³. Przyjmij, że objętości się sumują.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz pH otrzymanego roztworu.",
+     "odpowiedz": "pH ≈ 1,3",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: H⁺ + OH⁻ → H₂O, nadmiar H⁺ w łącznej objętości. RACHUNEK: n(H⁺) = 0,01 mol, n(OH⁻) = 0,005 mol; nadmiar 0,005 mol w 0,1 dm³ → [H⁺] = 0,05 mol/dm³; pH = −log 0,05 = 1,30. SPRAWDZENIE: roztwór kwasowy, bo kwasu było więcej.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, jaką barwę przyjmie w tym roztworze fenoloftaleina. Uzasadnij.",
+     "odpowiedz": "Pozostanie bezbarwna, bo roztwór ma odczyn kwasowy (nadmiar jonów H⁺).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Fenoloftaleina barwi się na malinowo dopiero w środowisku zasadowym.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-02",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Bufor octanowy",
+   "material": "Tekst autorski. Roztwór zawiera kwas octowy i octan sodu, oba o stężeniu 0,1 mol/dm³. pKa kwasu octowego = 4,74.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj pH tego roztworu.",
+     "odpowiedz": "pH = 4,74",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Dla równych stężeń kwasu i soli pH = pKa (Henderson–Hasselbalch: log 1 = 0).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz w formie jonowej skróconej równania reakcji zachodzących po dodaniu do buforu niewielkiej ilości: a) HCl, b) NaOH.",
+     "odpowiedz": "a) CH₃COO⁻ + H⁺ → CH₃COOH; b) CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Jeden składnik buforu wiąże dodany kwas, drugi — zasadę; dlatego pH zmienia się nieznacznie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-03",
+   "dzial": "roztwory-wodne"
+  }
+ ]
+}

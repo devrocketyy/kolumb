@@ -1,0 +1,104 @@
+{
+ "dzial": "stechiometria",
+ "wiazki": [
+  {
+   "tytul": "Spalanie magnezu",
+   "material": "Tekst autorski. Wstążkę magnezu o masie 0,48 g spalono w powietrzu. Otrzymano białą substancję — tlenek magnezu. Przyjmij masy molowe: Mg — 24 g/mol, O — 16 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji spalania magnezu.",
+     "odpowiedz": "2Mg + O₂ → 2MgO",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Współczynniki: 2 atomy Mg i 2 atomy O po obu stronach.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę tlenku magnezu, który powstał, jeśli magnez przereagował całkowicie. Wynik podaj w gramach z dokładnością do dwóch miejsc po przecinku.",
+     "odpowiedz": "m(MgO) = 0,80 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: n(Mg) = m/M, z równania n(MgO) = n(Mg), m = n · M(MgO). RACHUNEK: n(Mg) = 0,48/24 = 0,02 mol; M(MgO) = 40 g/mol; m = 0,02 · 40 = 0,80 g. SPRAWDZENIE: masa produktu większa od masy Mg — zgodne z tym, że przyłączył się tlen.",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz objętość tlenu (w warunkach normalnych) potrzebną do spalenia tej porcji magnezu. Wynik podaj w cm³.",
+     "odpowiedz": "V(O₂) = 224 cm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "n(O₂) = n(Mg)/2 = 0,01 mol; V = 0,01 · 22,4 dm³ = 0,224 dm³ = 224 cm³. Pułapka: stosunek Mg : O₂ = 2 : 1, a nie 1 : 1.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-stechiometria-01",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Wapień i kwas solny",
+   "material": "Tekst autorski. Próbkę wapienia o masie 12,5 g, zawierającą węglan wapnia i zanieczyszczenia niereagujące z kwasem, roztworzono w nadmiarze kwasu solnego. Wydzieliło się 2,24 dm³ CO₂ (warunki normalne). M(CaCO₃) = 100 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz w formie jonowej skróconej równanie reakcji węglanu wapnia z kwasem solnym.",
+     "odpowiedz": "CaCO₃ + 2H⁺ → Ca²⁺ + CO₂↑ + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "CaCO₃ jest trudno rozpuszczalny — zapisujemy go cząsteczkowo; Cl⁻ to jony widzowie.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz zawartość procentową CaCO₃ w próbce wapienia.",
+     "odpowiedz": "80%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: n(CO₂) → n(CaCO₃) (1 : 1) → m(CaCO₃) → % w próbce. RACHUNEK: n(CO₂) = 2,24/22,4 = 0,1 mol; m(CaCO₃) = 0,1 · 100 = 10 g; 10/12,5 · 100% = 80%. SPRAWDZENIE: wynik < 100% — próbka była zanieczyszczona, zgodnie z treścią.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego do obliczeń nie można użyć masy całej próbki wapienia.",
+     "odpowiedz": "Bo próbka zawiera zanieczyszczenia, które nie reagują z kwasem i nie dają CO₂; z kwasem reaguje tylko CaCO₃.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Typowy błąd CKE: niewłaściwa interpretacja składu mieszaniny.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-stechiometria-02",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Synteza z wydajnością",
+   "material": "Tekst autorski. Amoniak otrzymuje się w reakcji N₂ + 3H₂ ⇄ 2NH₃. W reaktorze użyto 28 kg azotu i 9 kg wodoru. Otrzymano 13,6 kg amoniaku. M(N₂) = 28 g/mol, M(H₂) = 2 g/mol, M(NH₃) = 17 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Ustal, który substrat został użyty w nadmiarze. Odpowiedź uzasadnij obliczeniami.",
+     "odpowiedz": "Wodór (H₂) jest w nadmiarze.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "n(N₂) = 28 000/28 = 1000 mol; n(H₂) = 9000/2 = 4500 mol. Do 1000 mol N₂ potrzeba 3000 mol H₂, a jest 4500 mol — wodór jest w nadmiarze, a azot ogranicza ilość produktu.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz wydajność reakcji.",
+     "odpowiedz": "W = 40%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "MODEL: ilość teoretyczna z substratu w niedomiarze (N₂). RACHUNEK: 1000 mol N₂ → 2000 mol NH₃ → 2000 · 17 = 34 000 g = 34 kg; W = 13,6/34 · 100% = 40%. SPRAWDZENIE: W ≤ 100%.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-03",
+   "dzial": "stechiometria"
+  }
+ ]
+}
