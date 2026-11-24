@@ -34,3 +34,11 @@
 /* Baner „Zainstaluj IndexLab” w kolorze przedmiotu */
 .wyglad-nowy .install-banner { background: var(--s-kolor-soft); border-color: color-mix(in srgb, var(--s-kolor) 55%, transparent); }
 .wyglad-nowy .install-banner .btn { --b: var(--s-kolor); --bs: var(--s-kolor); --bc: #fff; background: var(--s-kolor); color: #fff; }
+
+/* Seria (streak): ognisty pomarańcz */
+.wyglad-nowy { --flame: #F2600C; }
+@media (prefers-color-scheme: dark) { :root.wyglad-nowy:not([data-theme="light"]) { --flame: #FF7A2E; } }
+:root.wyglad-nowy[data-theme="dark"] { --flame: #FF7A2E; }
+.wyglad-nowy .chip-flame.on svg path,
+.wyglad-nowy .lv-row svg path { fill: var(--flame); stroke: var(--flame); }
+.wyglad-nowy .lv-row svg, .wyglad-nowy .goal-text > span:last-child svg { color: var(--flame); }
