@@ -50,3 +50,17 @@
 .wyglad-nowy .result-icon { animation: nowy-nagroda .7s cubic-bezier(.3, 1.6, .5, 1) both; }
 @keyframes nowy-nagroda { from { transform: scale(0) rotate(-90deg); } to { transform: scale(1) rotate(0); } }
 @media (prefers-reduced-motion: reduce) { .wyglad-nowy .result-icon { animation: none; } }
+
+/* ---------- Więcej koloru: przyciski, zakładki, karta postępu, nagłówki ----------
+   Żeby zostawić kolor tylko w ikonach przedmiotów, usuń wszystko od tej linii w dół. */
+.wyglad-nowy[data-przedmiot] { --primary: var(--accent); --primary-shadow: var(--accent); --primary-soft: var(--accent-soft); --on-primary: #FFFFFF; }
+@media (prefers-color-scheme: dark) { :root.wyglad-nowy[data-przedmiot]:not([data-theme="light"]) { --on-primary: #0B0B0B; --on-accent: #0B0B0B; } }
+:root.wyglad-nowy[data-przedmiot][data-theme="dark"] { --on-primary: #0B0B0B; --on-accent: #0B0B0B; }
+
+.wyglad-nowy[data-przedmiot] .tabbar a.active { color: var(--accent); }
+.wyglad-nowy[data-przedmiot] .tabbar a.active::before { background: var(--accent); }
+.wyglad-nowy[data-przedmiot] .core-card { background: var(--accent); color: var(--on-primary); }
+.wyglad-nowy[data-przedmiot] .core-card .eyebrow { color: color-mix(in srgb, var(--on-primary) 75%, transparent); }
+.wyglad-nowy[data-przedmiot] .eyebrow { color: var(--accent); }
+.wyglad-nowy[data-przedmiot] .ring-goal span { color: var(--accent); }
+.wyglad-nowy[data-przedmiot] .plan-card { border-color: color-mix(in srgb, var(--accent) 45%, var(--border)); }
