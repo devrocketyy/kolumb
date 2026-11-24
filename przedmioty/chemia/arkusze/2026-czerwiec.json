@@ -2,7 +2,8 @@
  "id": "2026-czerwiec",
  "nazwa": "Matura czerwiec 2026",
  "opis": "Egzamin maturalny z chemii, poziom rozszerzony, Formuła 2023 — termin dodatkowy 2026 r.",
- "link": "https://cke.gov.pl/egzamin-maturalny/egzamin-maturalny-w-formule-2023/arkusze/",
+ "link": "https://arkusze.pl/maturalne/chemia-2026-czerwiec-matura-rozszerzona.pdf",
+ "linkZasady": "https://arkusze.pl/maturalne/chemia-2026-czerwiec-matura-rozszerzona-odpowiedzi.pdf",
  "zrodlo": "Arkusz: CKE, termin dodatkowy czerwiec 2026 (MCHP-R0-100-2606). Odpowiedzi i omówienia: opracowanie IndexLab na podstawie zasad oceniania CKE.",
  "wiazki": [
   {
@@ -13,10 +14,10 @@
     {
      "nr": "1.1",
      "punkty": 1,
-     "polecenie": "Podaj symbole A i Q oraz blok.",
-     "odpowiedz": "A: Cu; Q: Cr; blok d.",
+     "polecenie": "Podaj symbole i blok pierwiastków A i Q (opis w arkuszu).",
+     "odpowiedz": "A: Cu; Q: Cr; blok d",
      "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
-     "omowienie": "Oba mają „promocję” elektronu: Cu 4s¹3d¹⁰, Cr 4s¹3d⁵.",
+     "omowienie": "Oba mają promocję elektronu: Cu 4s¹3d¹⁰, Cr 4s¹3d⁵.",
      "dzialy": [
       "atom"
      ]
@@ -24,10 +25,10 @@
     {
      "nr": "1.2",
      "punkty": 1,
-     "polecenie": "Zapisz klatkowo konfigurację jonu (do 3d).",
-     "odpowiedz": "…3s² 3p⁶ 3d⁹ — jeden niesparowany elektron (Cu²⁺)",
+     "polecenie": "Zapisz klatkowo konfigurację jonu A²⁺ (Cu²⁺).",
+     "odpowiedz": "…3s² 3p⁶ 3d⁹ — cztery pary i jeden niesparowany elektron 3d",
      "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
-     "omowienie": "Kation traci najpierw 4s.",
+     "omowienie": "Kation traci elektron 4s i jeden 3d.",
      "dzialy": [
       "atom"
      ]
@@ -35,50 +36,90 @@
     {
      "nr": "2",
      "punkty": 1,
-     "polecenie": "Podaj pierwiastek i cząstkę emitowaną w opisanej przemianie.",
-     "odpowiedz": "Ca; β⁻",
+     "polecenie": "Rozpad ⁴⁰K (90% rozpadów): podaj produkt i emitowaną cząstkę.",
+     "odpowiedz": "Ca; β⁻ (e⁻)",
      "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
-     "omowienie": "—",
+     "omowienie": "⁴⁰₁₉K → ⁴⁰₂₀Ca + e⁻.",
      "dzialy": [
       "atom"
      ]
     },
     {
-     "nr": "6",
+     "nr": "3",
      "punkty": 1,
-     "polecenie": "Narysuj wzór monomeru AlCl₃ i wyjaśnij skłonność do dimeryzacji.",
-     "odpowiedz": "Al z trzema wiązaniami Al–Cl; glin ma tylko sekstet — brakuje mu dwóch elektronów do oktetu.",
+     "polecenie": "NCl₃, NH₄⁺, OF₂: hybrydyzacja atomu centralnego (A sp / B sp² / C sp³); w OF₂ jest (D najmniejsza / E największa) liczba wolnych par, dlatego kąt jest najmniejszy.",
+     "odpowiedz": "C, E",
      "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
-     "omowienie": "Dimer powstaje przez wiązania koordynacyjne Cl → Al.",
+     "omowienie": "Wszystkie Lp = 4 (sp³); OF₂ ma 2 wolne pary — najsilniej ściskają kąt (103°).",
      "dzialy": [
       "atom"
+     ]
+    },
+    {
+     "nr": "4",
+     "punkty": 1,
+     "polecenie": "1,00 g O₂ i 1,00 g O₃ (w. n.): porównaj liczbę atomów O, objętość i gęstość (A mniejsza / B większa / C taka sama).",
+     "odpowiedz": "liczba atomów — C; objętość O₂ — B; gęstość O₂ — A",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Ta sama masa tlenu = ta sama liczba atomów. Cząsteczek O₂ jest więcej (1/32 > 1/48 mola), więc O₂ zajmuje większą objętość i ma mniejszą gęstość.",
+     "dzialy": [
+      "atom"
+     ]
+    },
+    {
+     "nr": "5",
+     "punkty": 1,
+     "polecenie": "Oceń: (1) O ma mniejszą energię jonizacji niż N, bo ma większy promień; (2) Be ma wyższą energię jonizacji niż B, bo ma zapełnioną podpowłokę 2s.",
+     "odpowiedz": "F, P",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "O ma mniejszy promień; niższa energia jonizacji wynika z odpychania elektronów w sparowanym orbitalu 2p.",
+     "dzialy": [
+      "atom"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "6",
+   "strona": 5,
+   "tytul": "Chlorek glinu",
+   "zadania": [
+    {
+     "nr": "6",
+     "punkty": 2,
+     "polecenie": "Zidentyfikuj metal (3. okres, blok p, chlorek sublimuje i dimeryzuje), narysuj wzór elektronowy monomeru i wyjaśnij dimeryzację.",
+     "odpowiedz": "Al; AlCl₃ — Al z trzema wiązaniami, Cl z trzema wolnymi parami; glin ma tylko 6 elektronów walencyjnych — przyjmuje wolną parę chloru sąsiedniej cząsteczki (wiązanie koordynacyjne).",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "Deficyt elektronowy + wolne pary = dimer Al₂Cl₆.",
+     "dzialy": [
+      "wiazania"
+     ]
+    },
+    {
+     "nr": "7",
+     "punkty": 1,
+     "polecenie": "Reakcja chloru z glinem (A jest / B nie jest) redoks, bo (3 zmieniają się stopnie utlenienia metalu i chloru).",
+     "odpowiedz": "A3",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Odpowiedzi 1 i 2 odwracają role (metal oddaje, chlor przyjmuje elektrony).",
+     "dzialy": [
+      "wiazania"
      ]
     }
    ]
   },
   {
    "nr": "8",
-   "strona": 5,
+   "strona": 6,
    "tytul": "Kinetyka 2NO + O₂",
    "zadania": [
     {
      "nr": "8",
-     "punkty": 2,
-     "polecenie": "Odczytaj z wykresu dane i ustal rzędy reakcji względem O₂ i NO.",
-     "odpowiedz": "O₂: 1; NO: 2 (dwukrotny wzrost [NO] → czterokrotny wzrost v)",
+     "punkty": 3,
+     "polecenie": "Z wykresu v(c(NO)) przy [O₂] = 0,050 M uzupełnij tabelę, ustal wykładniki i oblicz k z jednostką.",
+     "odpowiedz": "c(NO) = 0,056 → v = 1,10; c = 0,034 → v ≈ 0,40; v = k·[NO]²·[O₂]; k ≈ 7·10³ dm⁶·mol⁻²·s⁻¹",
      "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
-     "omowienie": "—",
-     "dzialy": [
-      "kinetyka"
-     ]
-    },
-    {
-     "nr": "9.3",
-     "punkty": 1,
-     "polecenie": "Zapisz reakcję HF z SiO₂.",
-     "odpowiedz": "4HF + SiO₂ → SiF₄ + 2H₂O",
-     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
-     "omowienie": "Dlatego HF przechowuje się w naczyniach z tworzyw.",
+     "omowienie": "RACHUNEK: k = 1,10/(0,056² · 0,05) = 7015. Rząd względem NO = 2 (2× stężenie → 4× szybkość). Jednostka dla reakcji III rzędu.",
      "dzialy": [
       "kinetyka"
      ]
@@ -86,17 +127,75 @@
    ]
   },
   {
-   "nr": "11",
+   "nr": "9",
    "strona": 7,
+   "tytul": "Fluorowcowodory",
+   "zadania": [
+    {
+     "nr": "9.1",
+     "punkty": 1,
+     "polecenie": "Oceń: (1) wysoka temperatura wrzenia HF wynika z wiązań wodorowych; (2) moc kwasów HX maleje ze wzrostem promienia fluorowca.",
+     "odpowiedz": "P, F",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Moc rośnie: HF < HCl < HBr < HI.",
+     "dzialy": [
+      "nieorganiczne"
+     ]
+    },
+    {
+     "nr": "9.2",
+     "punkty": 1,
+     "polecenie": "Utworzenie 3,01·10²³ cząsteczek wodorku HX wydziela 18,15 kJ. Zidentyfikuj wodorek.",
+     "odpowiedz": "HBr",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "ΔHf = −36,3 kJ/mol — wartość dla HBr.",
+     "dzialy": [
+      "nieorganiczne"
+     ]
+    },
+    {
+     "nr": "9.3",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji SiO₂ z kwasem HX tworzącym SiX₄.",
+     "odpowiedz": "4HF + SiO₂ → SiF₄ + 2H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Trawienie szkła.",
+     "dzialy": [
+      "nieorganiczne"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "10",
+   "strona": 8,
+   "tytul": "Związki manganu",
+   "zadania": [
+    {
+     "nr": "10",
+     "punkty": 2,
+     "polecenie": "Przyporządkuj zdjęcia (KMnO₄, MnSO₄ + H₂SO₄, związek Mn(IV)) i zapisz równanie powstawania Mn³⁺.",
+     "odpowiedz": "KMnO₄ — 2; MnSO₄ — 3; Mn(IV) — 4; 4Mn²⁺ + MnO₄⁻ + 8H⁺ → 5Mn³⁺ + 4H₂O",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "Synproporcjonowanie: Mn(+VII) i Mn(+II) → Mn(+III).",
+     "dzialy": [
+      "redoks"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "11",
+   "strona": 9,
    "tytul": "Siarczan miedzi(II)",
    "zadania": [
     {
      "nr": "11.1",
-     "punkty": 2,
-     "polecenie": "Narysuj krzywą rozpuszczalności i odczytaj ją w 72°C.",
+     "punkty": 1,
+     "polecenie": "Narysuj krzywą rozpuszczalności CuSO₄ i odczytaj ją w 72°C.",
      "odpowiedz": "ok. 50 g/100 g wody (±2)",
-     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
-     "omowienie": "Sześć punktów połączonych krzywą.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Sześć punktów połączonych krzywą lub odcinkami.",
      "dzialy": [
       "roztwory"
      ]
@@ -104,10 +203,21 @@
     {
      "nr": "11.2",
      "punkty": 2,
-     "polecenie": "Rozstrzygnij, czy roztwór (70 g soli, 150 g wody) jest nasycony, i oblicz jego stężenie.",
-     "odpowiedz": "Nasycony (w równowadze z osadem); ok. 16,7%",
+     "polecenie": "70 g CuSO₄ + 150 g wody (20°C, rozpuszczalność 20 g). Rozstrzygnij, jaki to roztwór, i oblicz Cp.",
+     "odpowiedz": "Nasycony (z osadem); ok. 16,7%",
      "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
-     "omowienie": "Rozpuści się tylko 1,5 · 20 = 30 g soli; 30/180 = 16,7%.",
+     "omowienie": "Rozpuści się 30 g; 30/180 = 16,7%. Pułapka: liczenie 70/220.",
+     "dzialy": [
+      "roztwory"
+     ]
+    },
+    {
+     "nr": "12",
+     "punkty": 1,
+     "polecenie": "Prażenie CuSO₄·5H₂O: oceń (1) masa zmalała przez utratę wody; (2) biała substancja to bezwodny CuSO₄, higroskopijny.",
+     "odpowiedz": "P, P",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Na powietrzu biały proszek znów niebieszczeje.",
      "dzialy": [
       "roztwory"
      ]
@@ -116,16 +226,16 @@
   },
   {
    "nr": "13",
-   "strona": 9,
+   "strona": 10,
    "tytul": "Tiosiarczany",
    "zadania": [
     {
      "nr": "13",
      "punkty": 1,
-     "polecenie": "Zapisz (Brønsted) hydrolizę jonu tiosiarczanowego.",
+     "polecenie": "Zapisz (Brønsted) dysocjację zasadową anionu tiosiarczanowego.",
      "odpowiedz": "S₂O₃²⁻ + H₂O ⇄ HS₂O₃⁻ + OH⁻",
      "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
-     "omowienie": "—",
+     "omowienie": "Kb bardzo mała — słaba zasada.",
      "dzialy": [
       "redoks"
      ]
@@ -133,10 +243,10 @@
     {
      "nr": "14",
      "punkty": 1,
-     "polecenie": "Napisz równanie rozkładu Ag₂S₂O₃ w wodzie.",
+     "polecenie": "Napisz równanie przemiany osadu Ag₂S₂O₃ w czarny Ag₂S.",
      "odpowiedz": "Ag₂S₂O₃ + H₂O → Ag₂S + SO₄²⁻ + 2H⁺",
      "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
-     "omowienie": "Biały osad czernieje (Ag₂S).",
+     "omowienie": "Siarczan wykryto Ba²⁺ w przesączu.",
      "dzialy": [
       "redoks"
      ]
@@ -144,10 +254,10 @@
     {
      "nr": "15",
      "punkty": 2,
-     "polecenie": "Z 1,26 g Na₂SO₃ otrzymano 2,48 g hydratu Na₂S₂O₃. Ustal wzór hydratu.",
-     "odpowiedz": "Na₂S₂O₃·5H₂O",
+     "polecenie": "Z 1,26 g Na₂SO₃ powstało 2,48 g hydratu Na₂S₂O₃. Oblicz masę wody i wzór hydratu.",
+     "odpowiedz": "0,90 g; Na₂S₂O₃·5H₂O",
      "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
-     "omowienie": "n = 0,010 mol → 1,58 g bezwodnego; woda 0,90 g = 0,05 mol → 5H₂O.",
+     "omowienie": "n = 0,0100 mol → 1,58 g bezwodnego; woda 0,90 g = 0,05 mol → 5.",
      "dzialy": [
       "redoks"
      ]
@@ -155,43 +265,10 @@
     {
      "nr": "16",
      "punkty": 2,
-     "polecenie": "Zapisz utlenianie S₂O₃²⁻ i dobierz współczynniki reakcji z Br₂.",
-     "odpowiedz": "S₂O₃²⁻ + 5H₂O → 2SO₄²⁻ + 10H⁺ + 8e⁻; S₂O₃²⁻ + 4Br₂ + 5H₂O → 2SO₄²⁻ + 10H⁺ + 8Br⁻",
+     "polecenie": "Podaj liczbę elektronów oddanych przez S₂O₃²⁻ i pobranych przez Br₂; dobierz współczynniki.",
+     "odpowiedz": "−8e⁻ i +2e⁻; S₂O₃²⁻ + 4Br₂ + 5H₂O → 2SO₄²⁻ + 10H⁺ + 8Br⁻",
      "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
-     "omowienie": "—",
-     "dzialy": [
-      "redoks"
-     ]
-    },
-    {
-     "nr": "17",
-     "punkty": 1,
-     "polecenie": "Zapisz reakcję [Cu(H₂O)₆]²⁺ z amoniakiem.",
-     "odpowiedz": "[Cu(H₂O)₆]²⁺ + 4NH₃ → [Cu(NH₃)₄(H₂O)₂]²⁺ + 4H₂O",
-     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
-     "omowienie": "Ciemnoniebieski (szafirowy) roztwór.",
-     "dzialy": [
-      "redoks"
-     ]
-    },
-    {
-     "nr": "18",
-     "punkty": 1,
-     "polecenie": "W której probówce (H₂S czy (NH₄)₂S) powstał osad? Uzasadnij.",
-     "odpowiedz": "W probówce z (NH₄)₂S — sól dysocjuje całkowicie, więc [S²⁻] jest duże; H₂S dysocjuje słabo i Ks nie zostaje przekroczony.",
-     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
-     "omowienie": "—",
-     "dzialy": [
-      "redoks"
-     ]
-    },
-    {
-     "nr": "19.2",
-     "punkty": 1,
-     "polecenie": "Zapisz reakcję kobaltu z jonami srebra.",
-     "odpowiedz": "Co + 2Ag⁺ → Co²⁺ + 2Ag",
-     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
-     "omowienie": "—",
+     "omowienie": "2 S: +II → +VI.",
      "dzialy": [
       "redoks"
      ]
@@ -199,85 +276,274 @@
    ]
   },
   {
-   "nr": "20",
-   "strona": 11,
-   "tytul": "Związki organiczne",
+   "nr": "17",
+   "strona": 12,
+   "tytul": "Kompleksy i siarczki",
    "zadania": [
     {
-     "nr": "21",
+     "nr": "17",
+     "punkty": 1,
+     "polecenie": "Zapisz wymianę ligandów [Cu(H₂O)₆]²⁺ z amoniakiem i wskaż zdjęcie.",
+     "odpowiedz": "[Cu(H₂O)₆]²⁺ + 4NH₃ → [Cu(NH₃)₄(H₂O)₂]²⁺ + 4H₂O; zdjęcie II",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Ciemnoniebieski (szafirowy) roztwór.",
+     "dzialy": [
+      "nieorganiczne"
+     ]
+    },
+    {
+     "nr": "18",
      "punkty": 2,
-     "polecenie": "Reakcja I rzędu: oblicz k, stężenie Cr₂O₇²⁻ po 10 min i objętość tiosiarczanu do oznaczenia.",
-     "odpowiedz": "k = 0,4 min⁻¹; c ≈ 4,6·10⁻⁴ mol·dm⁻³",
+     "polecenie": "W której probówce (H₂S czy (NH₄)₂S z FeSO₄) powstał FeS? Uzasadnij.",
+     "odpowiedz": "II — (NH₄)₂S dysocjuje całkowicie, [S²⁻] jest duże; H₂S daje za mało S²⁻, Ks nie zostaje przekroczony.",
      "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
-     "omowienie": "log c = log c₀ − kt/2,303.",
+     "omowienie": "—",
+     "dzialy": [
+      "nieorganiczne"
+     ]
+    },
+    {
+     "nr": "19.1",
+     "punkty": 1,
+     "polecenie": "Reakcja zaszła tylko w (A probówce I / B II), a masa roztworu (1 wzrosła / 2 zmalała).",
+     "odpowiedz": "A2",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Kobalt wypiera srebro: z roztworu ubywa 2 × 108 g Ag, przybywa 59 g Co.",
+     "dzialy": [
+      "nieorganiczne"
+     ]
+    },
+    {
+     "nr": "19.2",
+     "punkty": 1,
+     "polecenie": "Napisz równanie jonowe reakcji.",
+     "odpowiedz": "Co + 2Ag⁺ → Co²⁺ + 2Ag",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "nieorganiczne"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "20",
+   "strona": 14,
+   "tytul": "Węglowodory C₅H₁₀",
+   "zadania": [
+    {
+     "nr": "20.1",
+     "punkty": 1,
+     "polecenie": "Węglowodór X (C + H = 15 atomów; 15 wiązań σ, 0 π; atomy C: 1 I-rzędowy, 3 II-rzędowe, 1 III-rzędowy). Napisz jego wzór.",
+     "odpowiedz": "Metylocyklobutan (pierścień czteroczłonowy z grupą CH₃)",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Brak wiązań π przy wzorze C₅H₁₀ → pierścień. Jeden C III-rzędowy z grupą CH₃ — tylko metylocyklobutan.",
      "dzialy": [
       "organiczna"
      ]
     },
     {
-     "nr": "23",
+     "nr": "20.2",
      "punkty": 1,
-     "polecenie": "Napisz wzory polimerów PVAc i PVA.",
-     "odpowiedz": "PVAc: [–CH₂–CH(OCOCH₃)–]ₙ; PVA: [–CH₂–CH(OH)–]ₙ",
+     "polecenie": "Y z KMnO₄ daje 2-metylobutano-1,2-diol. Podaj produkt główny i uboczny reakcji Y z wodą.",
+     "odpowiedz": "Y = 2-metylobut-1-en; główny: CH₃–C(CH₃)(OH)–CH₂–CH₃ (2-metylobutan-2-ol); uboczny: HO–CH₂–CH(CH₃)–CH₂–CH₃ (2-metylobutan-1-ol)",
      "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
-     "omowienie": "PVA otrzymuje się przez hydrolizę PVAc.",
+     "omowienie": "Położenie –OH w diolu wskazuje wiązanie C=C między C1 i C2. Reguła Markownikowa.",
      "dzialy": [
       "organiczna"
+     ]
+    },
+    {
+     "nr": "20.3",
+     "punkty": 1,
+     "polecenie": "Reakcja Y z wodą to (A substytucja / B addycja) wg mechanizmu (1 elektrofilowego / 2 nukleofilowego / 3 rodnikowego).",
+     "odpowiedz": "B1",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "organiczna"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "21",
+   "strona": 16,
+   "tytul": "Kinetyka utleniania etanolu",
+   "zadania": [
+    {
+     "nr": "21",
+     "punkty": 4,
+     "polecenie": "v = k·[Cr₂O₇²⁻]: z wykresu oblicz k, stężenie Cr₂O₇²⁻ po 10 min (c₀ = 0,025) i objętość Na₂S₂O₃ do oznaczenia jodometrycznego.",
+     "odpowiedz": "k = 0,4 min⁻¹; c ≈ 4,6·10⁻⁴ mol·dm⁻³; V z bilansu 1 Cr₂O₇²⁻ → 3 I₂ → 6 S₂O₃²⁻",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "k = v/c = 0,0016/0,004; log c = log 0,025 − 0,4·10/2,303 → c = 4,58·10⁻⁴; w 10 cm³ 4,58·10⁻⁶ mol → n(S₂O₃²⁻) = 2,75·10⁻⁵ mol; V = n/c(titranta).",
+     "dzialy": [
+      "kinetyka"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "22",
+   "strona": 17,
+   "tytul": "Ciągi przemian",
+   "zadania": [
+    {
+     "nr": "22",
+     "punkty": 2,
+     "polecenie": "C₅H₁₂O → (K₂Cr₂O₇) → C₅H₁₀O; A → (−H₂O) → C → (Br₂) → 2,3-dibromo-2-metylobutan. Podaj A, B, C.",
+     "odpowiedz": "A: (CH₃)₂CH–CH(OH)–CH₃; B: (CH₃)₂CH–CO–CH₃; C: (CH₃)₂C=CH–CH₃",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "Produkt bromowania wskazuje położenie C=C; utlenienie do ketonu — alkohol II-rzędowy.",
+     "dzialy": [
+      "tlenowe"
+     ]
+    },
+    {
+     "nr": "23",
+     "punkty": 2,
+     "polecenie": "Napisz wzory PVAc i PVA.",
+     "odpowiedz": "PVAc: [–CH₂–CH(OCOCH₃)–]ₙ; PVA: [–CH₂–CH(OH)–]ₙ",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "PVA otrzymuje się przez hydrolizę PVAc (alkohol winylowy nie istnieje jako monomer).",
+     "dzialy": [
+      "tlenowe"
      ]
     },
     {
      "nr": "24",
      "punkty": 1,
-     "polecenie": "Zapisz próbę Trommera z propanalem.",
+     "polecenie": "Zapisz próbę Trommera z propanalem (związek Q).",
      "odpowiedz": "2Cu(OH)₂ + CH₃CH₂CHO + OH⁻ → Cu₂O + CH₃CH₂COO⁻ + 3H₂O",
      "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
-     "omowienie": "W środowisku zasadowym powstaje anion, nie kwas.",
+     "omowienie": "Zapis z kwasem propanowym = błąd (środowisko zasadowe).",
      "dzialy": [
-      "organiczna"
+      "tlenowe"
      ]
     },
     {
+     "nr": "25",
+     "punkty": 2,
+     "polecenie": "Kwas benzoesowy: chlorowanie (FeCl₃), reakcja z NaOH i dekarboksylacja soli.",
+     "odpowiedz": "C₆H₅COOH + Cl₂ → m-ClC₆H₄COOH + HCl; B: C₆H₅COONa; C: benzen (C₆H₆)",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "–COOH kieruje w meta; stapianie z NaOH/CaO odszczepia CO₂.",
+     "dzialy": [
+      "tlenowe"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "26",
+   "strona": 19,
+   "tytul": "N-metylopiperazyna",
+   "zadania": [
+    {
      "nr": "26.1",
      "punkty": 1,
-     "polecenie": "Czy protonowanie N-metylopiperazyny jest egzo- czy endotermiczne?",
+     "polecenie": "Czy protonowanie (dysocjacja zasadowa) jest egzo- czy endotermiczne?",
      "odpowiedz": "Egzotermiczne — Kb maleje ze wzrostem temperatury.",
      "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
      "omowienie": "—",
      "dzialy": [
-      "organiczna"
+      "roztwory-wodne"
+     ]
+    },
+    {
+     "nr": "26.2",
+     "punkty": 1,
+     "polecenie": "Która forma kationowa (I–III) praktycznie nie występuje? Uzasadnij.",
+     "odpowiedz": "II — proton nie przyłącza się do N z grupą metylową, zanim nie przyłączy się do bardziej zasadowego N.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "roztwory-wodne"
+     ]
+    },
+    {
+     "nr": "26.3",
+     "punkty": 1,
+     "polecenie": "Zapisz pierwszy etap dysocjacji zasadowej.",
+     "odpowiedz": "HN(CH₂CH₂)₂N–CH₃ + H₂O ⇄ H₂N⁺(CH₂CH₂)₂N–CH₃ + OH⁻",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Protonuje się N–H (większa Kb).",
+     "dzialy": [
+      "roztwory-wodne"
      ]
     },
     {
      "nr": "26.4",
      "punkty": 2,
-     "polecenie": "Oblicz pH 0,2 M roztworu N-metylopiperazyny (pKb1 = 4,86).",
-     "odpowiedz": "[OH⁻] ≈ 1,66·10⁻³; pH ≈ 11,2",
+     "polecenie": "Oblicz pH 0,20 M roztworu (pKb1 = 4,86).",
+     "odpowiedz": "pH ≈ 11,2",
      "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
-     "omowienie": "Uwzględnij tylko pierwszy etap.",
+     "omowienie": "Kb = 1,38·10⁻⁵; [OH⁻] = √(Kb·c) = 1,66·10⁻³; pOH 2,78.",
      "dzialy": [
-      "organiczna"
+      "roztwory-wodne"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "27",
+   "strona": 21,
+   "tytul": "Kapsaicyna i peptydy",
+   "zadania": [
+    {
+     "nr": "27",
+     "punkty": 2,
+     "polecenie": "Wybierz odczynnik hydrolizy kapsaicyny (powstaje fenolan) i napisz wzór drugiego produktu.",
+     "odpowiedz": "NaOH(aq); anion (CH₃)₂CH–CH=CH–(CH₂)₄–COO⁻",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "Hydroliza zasadowa wiązania amidowego: powstaje anion kwasu karboksylowego, a grupa fenolowa drugiego produktu jest w formie fenolanu.",
+     "dzialy": [
+      "azotowe-cukry"
      ]
     },
     {
      "nr": "28.1",
      "punkty": 1,
-     "polecenie": "Który z kwasów daje fioletowe zabarwienie z FeCl₃? Uzasadnij.",
-     "odpowiedz": "Kwas salicylowy (–OH przy pierścieniu) — tworzy z Fe³⁺ fioletowy kompleks.",
+     "polecenie": "Który związek dał fioletowe zabarwienie z FeCl₃? Uzasadnij.",
+     "odpowiedz": "Kwas salicylowy (–OH przy pierścieniu)",
      "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
      "omowienie": "—",
      "dzialy": [
-      "organiczna"
+      "azotowe-cukry"
+     ]
+    },
+    {
+     "nr": "29",
+     "punkty": 3,
+     "polecenie": "Pochodna 2,4-dinitrofenylowa N-końcowego aminokwasu: M = 271,19 g/mol, 41,30% O, 15,49% N. Ustal M aminokwasu i jego wzór.",
+     "odpowiedz": "105 g/mol — seryna HOCH₂–CH(NH₂)–COOH",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "O: 112 g = 7 atomów, N: 42 g = 3 atomy; 6 O i 2 N to grupy NO₂ i –COOH/NH → łańcuch boczny ma 1 O, 0 N. 271 − 166 (reszta DNP) = 105.",
+     "dzialy": [
+      "azotowe-cukry"
      ]
     },
     {
      "nr": "30.1",
      "punkty": 1,
-     "polecenie": "Ile moli elektronów oddaje 1 mol związku w opisanej reakcji?",
+     "polecenie": "Ile moli elektronów oddaje 1 mol aldozy w utlenianiu do kwasu aldarowego?",
      "odpowiedz": "6",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "–CHO → –COOH (2e⁻) i –CH₂OH → –COOH (4e⁻).",
+     "dzialy": [
+      "azotowe-cukry"
+     ]
+    },
+    {
+     "nr": "30.2",
+     "punkty": 1,
+     "polecenie": "Z której aldoheksozy (I/II) powstał chiralny kwas aldarowy? Uzasadnij.",
+     "odpowiedz": "II — kwas z I ma płaszczyznę symetrii (mezo).",
      "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
      "omowienie": "—",
      "dzialy": [
-      "organiczna"
+      "azotowe-cukry"
      ]
     }
    ]
