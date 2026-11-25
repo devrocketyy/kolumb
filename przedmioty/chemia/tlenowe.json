@@ -2163,6 +2163,34 @@
        "d": "HCl > CH₃COOH > H₂CO₃ > C₆H₅OH"
       }
      ]
+    },
+    {
+     "id": "sc16b4476",
+     "typ": "proces",
+     "tytul": "Otrzymywanie kwasów karboksylowych",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Utlenianie alkoholi I-rzędowych",
+       "d": "np. KMnO₄ lub K₂Cr₂O₇ w H⁺"
+      },
+      {
+       "t": "Utlenianie aldehydów",
+       "d": "nawet łagodnymi utleniaczami"
+      },
+      {
+       "t": "Fermentacja octowa",
+       "d": "C₂H₅OH + O₂ → CH₃COOH + H₂O (bakterie)"
+      },
+      {
+       "t": "Hydroliza estrów",
+       "d": "w środowisku kwasowym"
+      },
+      {
+       "t": "Wypieranie z soli",
+       "d": "mocniejszy kwas + sól kwasu karboksylowego"
+      }
+     ]
     }
    ]
   },
@@ -2797,6 +2825,30 @@
       {
        "t": "Hydroliza zasadowa (zmydlanie)",
        "d": "nieodwracalna: powstaje sól kwasu i alkohol"
+      }
+     ]
+    },
+    {
+     "id": "s074e4213",
+     "typ": "proces",
+     "tytul": "Otrzymywanie mydła",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Tłuszcz + NaOH(aq)",
+       "d": "ogrzewanie (zmydlanie)"
+      },
+      {
+       "t": "Produkty",
+       "d": "glicerol i sole sodowe kwasów tłuszczowych"
+      },
+      {
+       "t": "Wysalanie",
+       "d": "dodatek NaCl wydziela mydło z roztworu"
+      },
+      {
+       "t": "Działanie myjące",
+       "d": "część hydrofobowa wiąże brud, hydrofilowa — wodę (micele)"
       }
      ]
     }

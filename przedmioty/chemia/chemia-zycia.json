@@ -651,6 +651,32 @@
      "wyjasnienie": "Po zarobieniu wodą twardnieje do gipsu krystalicznego.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sd993d666",
+     "typ": "proces",
+     "tytul": "Cykl wapniowy w budownictwie",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Prażenie wapienia",
+       "d": "CaCO₃ → CaO + CO₂"
+      },
+      {
+       "t": "Gaszenie wapna",
+       "d": "CaO + H₂O → Ca(OH)₂"
+      },
+      {
+       "t": "Zaprawa wapienna",
+       "d": "Ca(OH)₂ + piasek + woda"
+      },
+      {
+       "t": "Twardnienie",
+       "d": "Ca(OH)₂ + CO₂ → CaCO₃ + H₂O"
+      }
+     ]
+    }
    ]
   },
   {

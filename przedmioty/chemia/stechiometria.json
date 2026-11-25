@@ -508,6 +508,36 @@
      "wyjasnienie": "Każda cząsteczka CO₂ ma 2 atomy O.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s958eb921",
+     "typ": "proces",
+     "tytul": "Przeliczanie wielkości chemicznych",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Masa → mole",
+       "d": "n = m / M"
+      },
+      {
+       "t": "Objętość gazu (w. n.) → mole",
+       "d": "n = V / 22,4 dm³"
+      },
+      {
+       "t": "Liczba drobin → mole",
+       "d": "n = N / 6,02 · 10²³"
+      },
+      {
+       "t": "Inne warunki",
+       "d": "n = pV / RT"
+      },
+      {
+       "t": "Roztwór",
+       "d": "n = c · V"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1629,6 +1659,36 @@
      "poprawna": "D",
      "wyjasnienie": "H₂ + Cl₂ → 2HCl.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s20fc11d1",
+     "typ": "proces",
+     "tytul": "Analiza mieszaniny dwóch substancji",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Oznacz niewiadome",
+       "d": "x i y — liczby moli składników"
+      },
+      {
+       "t": "Równanie masy",
+       "d": "Mₐx + M_by = masa mieszaniny"
+      },
+      {
+       "t": "Równanie produktu",
+       "d": "z równań reakcji, np. objętość gazu"
+      },
+      {
+       "t": "Rozwiąż układ",
+       "d": "sprawdź, czy x i y są dodatnie"
+      },
+      {
+       "t": "Odpowiedź",
+       "d": "masa lub procent składnika"
+      }
+     ]
     }
    ]
   }

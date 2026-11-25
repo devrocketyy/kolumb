@@ -593,6 +593,33 @@
      "wyjasnienie": "Woda może oddać i przyjąć proton.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s072d1139",
+     "typ": "proces",
+     "tytul": "Wskazywanie sprzężonych par kwas–zasada",
+     "opis": "",
+     "uwaga": "Para sprzężona różni się dokładnie jednym protonem, np. H₂O / OH⁻, H₃O⁺ / H₂O.",
+     "kroki": [
+      {
+       "t": "Znajdź drobinę, która oddaje H⁺",
+       "d": "to kwas"
+      },
+      {
+       "t": "Drobina po oddaniu H⁺",
+       "d": "to zasada sprzężona"
+      },
+      {
+       "t": "Znajdź drobinę, która przyjmuje H⁺",
+       "d": "to zasada"
+      },
+      {
+       "t": "Drobina po przyjęciu H⁺",
+       "d": "to kwas sprzężony"
+      }
+     ]
+    }
    ]
   },
   {

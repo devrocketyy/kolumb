@@ -2534,6 +2534,34 @@
        "d": "wymusza reakcję niesamorzutną"
       }
      ]
+    },
+    {
+     "id": "s68c12d35",
+     "typ": "proces",
+     "tytul": "Przewidywanie produktów elektrolizy roztworu wodnego",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Katoda — kation metalu mało aktywnego",
+       "d": "wydziela się metal (Cu, Ag)"
+      },
+      {
+       "t": "Katoda — kation metalu aktywnego",
+       "d": "redukuje się woda — wodór"
+      },
+      {
+       "t": "Anoda — Cl⁻, Br⁻, I⁻",
+       "d": "wydziela się halogen"
+      },
+      {
+       "t": "Anoda — aniony tlenowe, F⁻",
+       "d": "utlenia się woda — tlen"
+      },
+      {
+       "t": "Anoda roztwarzalna",
+       "d": "metal anody przechodzi do roztworu"
+      }
+     ]
     }
    ]
   }

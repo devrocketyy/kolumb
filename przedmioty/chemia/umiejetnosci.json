@@ -568,6 +568,36 @@
      "wyjasnienie": "Punkt często łączy schemat i obserwacje.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "scbe88289",
+     "typ": "proces",
+     "tytul": "Jak odpowiadać na polecenia „wyjaśnij” i „uzasadnij”",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Przeczytaj, czego dotyczy pytanie",
+       "d": "zjawisko, wybór czy wynik doświadczenia"
+      },
+      {
+       "t": "Wskaż przyczynę",
+       "d": "odwołaj się do budowy, właściwości lub danych z informacji"
+      },
+      {
+       "t": "Połącz przyczynę ze skutkiem",
+       "d": "„ponieważ…, więc…”"
+      },
+      {
+       "t": "Użyj terminologii",
+       "d": "np. hydroliza anionowa, efekt wspólnego jonu"
+      },
+      {
+       "t": "Sprawdź zgodność z poleceniem",
+       "d": "nie dopisuj sprzecznych informacji"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2375,6 +2405,67 @@
        "ly": 280,
        "n": "Płuczka",
        "d": "oczyszcza lub suszy gaz (np. stężony H₂SO₄ suszy CO₂)"
+      }
+     ]
+    },
+    {
+     "id": "s594ecddf",
+     "typ": "proces",
+     "tytul": "Projektowanie doświadczenia — krok po kroku",
+     "opis": "",
+     "uwaga": "Obserwacja to to, co widzisz; wniosek to to, co z tego wynika.",
+     "kroki": [
+      {
+       "t": "Cel",
+       "d": "co ma zostać wykazane lub odróżnione"
+      },
+      {
+       "t": "Wybór odczynnika",
+       "d": "taki, który da różne obserwacje dla badanych substancji"
+      },
+      {
+       "t": "Schemat",
+       "d": "odczynnik → probówki z badanymi substancjami"
+      },
+      {
+       "t": "Obserwacje",
+       "d": "zmiany barwy, osad, gaz, zapach — bez nazw produktów"
+      },
+      {
+       "t": "Wniosek",
+       "d": "nazwy substancji lub równania reakcji"
+      }
+     ]
+    },
+    {
+     "id": "sca082da4",
+     "typ": "proces",
+     "tytul": "Identyfikacja jonów w roztworze",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Cl⁻",
+       "d": "AgNO₃ — biały osad AgCl"
+      },
+      {
+       "t": "SO₄²⁻",
+       "d": "BaCl₂ — biały osad nierozpuszczalny w HCl"
+      },
+      {
+       "t": "CO₃²⁻",
+       "d": "HCl — gaz mętniejący wodę wapienną"
+      },
+      {
+       "t": "NH₄⁺",
+       "d": "NaOH, ogrzewanie — zapach NH₃, papierek niebieszczeje"
+      },
+      {
+       "t": "Fe³⁺",
+       "d": "NaOH — brunatny osad; KSCN — krwistoczerwone zabarwienie"
+      },
+      {
+       "t": "Cu²⁺",
+       "d": "NaOH — niebieski osad Cu(OH)₂"
       }
      ]
     }

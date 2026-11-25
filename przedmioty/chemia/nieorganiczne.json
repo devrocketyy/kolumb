@@ -567,6 +567,32 @@
      "wyjasnienie": "Wodorek jonowy z wodą daje wodór.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s798456b9",
+     "typ": "proces",
+     "tytul": "Ustalanie charakteru tlenku",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Reaguje z kwasem, nie z zasadą",
+       "d": "zasadowy"
+      },
+      {
+       "t": "Reaguje z zasadą, nie z kwasem",
+       "d": "kwasowy"
+      },
+      {
+       "t": "Reaguje z kwasem i z zasadą",
+       "d": "amfoteryczny"
+      },
+      {
+       "t": "Nie reaguje z żadnym",
+       "d": "obojętny"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1695,6 +1721,44 @@
      "poprawna": "C",
      "wyjasnienie": "Powstaje hydrat CuSO₄·5H₂O.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s918cd032",
+     "typ": "proces",
+     "tytul": "Metody otrzymywania soli",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Metal + kwas",
+       "d": "np. Zn + 2HCl → ZnCl₂ + H₂"
+      },
+      {
+       "t": "Tlenek metalu + kwas",
+       "d": "np. CuO + H₂SO₄ → CuSO₄ + H₂O"
+      },
+      {
+       "t": "Wodorotlenek + kwas",
+       "d": "zobojętnianie"
+      },
+      {
+       "t": "Tlenek kwasowy + zasada",
+       "d": "np. CO₂ + 2NaOH → Na₂CO₃ + H₂O"
+      },
+      {
+       "t": "Tlenek zasadowy + tlenek kwasowy",
+       "d": "np. CaO + CO₂ → CaCO₃"
+      },
+      {
+       "t": "Sól + sól (strącanie)",
+       "d": "np. AgNO₃ + NaCl → AgCl↓ + NaNO₃"
+      },
+      {
+       "t": "Metal + niemetal",
+       "d": "np. 2Na + Cl₂ → 2NaCl"
+      }
+     ]
     }
    ]
   },

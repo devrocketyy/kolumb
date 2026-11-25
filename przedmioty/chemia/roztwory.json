@@ -1205,6 +1205,30 @@
        "d": "roztwór nienasycony"
       }
      ]
+    },
+    {
+     "id": "saa56d0aa",
+     "typ": "proces",
+     "tytul": "Krystalizacja przez ochłodzenie — obliczenia",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Skład roztworu nasyconego w T₁",
+       "d": "masa wody i soli z rozpuszczalności"
+      },
+      {
+       "t": "Ile soli pozostanie w T₂",
+       "d": "rozpuszczalność w T₂ · masa wody / 100"
+      },
+      {
+       "t": "Masa kryształów",
+       "d": "różnica mas soli"
+      },
+      {
+       "t": "Hydrat",
+       "d": "kryształy zabierają wodę — przelicz masę soli bezwodnej i wody"
+      }
+     ]
     }
    ]
   },
