@@ -1073,6 +1073,51 @@
    "dzial": "roztwory-wodne"
   },
   {
+   "tytul": "Słaba zasada — pH",
+   "material": "Tekst autorski. Roztwór NH₃ ma stężenie 0,01 mol/dm³; Kb = 1,8 · 10⁻⁵.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz pH roztworu.",
+     "odpowiedz": "ok. 10,6",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "[OH⁻] = √(1,8 · 10⁻⁷) = 4,24 · 10⁻⁴; pOH = 3,37.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stopień dysocjacji.",
+     "odpowiedz": "ok. 4,2%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4,24 · 10⁻⁴ / 0,01.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-44",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Jony w roztworze — strącanie",
+   "material": "Tekst autorski. Roztwór zawiera Ag⁺, Cu²⁺ i Fe³⁺. Dodano nadmiar NaCl, osad odsączono, a do przesączu dodano nadmiar NH₃(aq).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj wzory osadów i barwę przesączu po dodaniu amoniaku.",
+     "odpowiedz": "po NaCl: AgCl; po NH₃: brunatny Fe(OH)₃, przesącz szafirowy [Cu(NH₃)₄]²⁺",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Cu(OH)₂ roztwarza się w nadmiarze NH₃.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-wodne-45",
+   "dzial": "roztwory-wodne"
+  },
+  {
    "tytul": "Stopień dysocjacji",
    "material": "Tekst autorski. W roztworze kwasu metanowego (HCOOH) o stężeniu 0,10 mol·dm⁻³ stopień dysocjacji wynosi 4,2%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1096,7 +1141,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-44",
+   "id": "b-roztwory-wodne-46",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1123,7 +1168,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-45",
+   "id": "b-roztwory-wodne-47",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1159,7 +1204,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-wodne-46",
+   "id": "b-roztwory-wodne-48",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1177,7 +1222,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-47",
+   "id": "b-roztwory-wodne-49",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1195,7 +1240,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-48",
+   "id": "b-roztwory-wodne-50",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1213,7 +1258,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-49",
+   "id": "b-roztwory-wodne-51",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1240,7 +1285,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-50",
+   "id": "b-roztwory-wodne-52",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1258,7 +1303,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-51",
+   "id": "b-roztwory-wodne-53",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1276,7 +1321,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-52",
+   "id": "b-roztwory-wodne-54",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1294,7 +1339,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-53",
+   "id": "b-roztwory-wodne-55",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1312,7 +1357,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-54",
+   "id": "b-roztwory-wodne-56",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1339,7 +1384,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-55",
+   "id": "b-roztwory-wodne-57",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1357,7 +1402,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-56",
+   "id": "b-roztwory-wodne-58",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1375,7 +1420,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-57",
+   "id": "b-roztwory-wodne-59",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1393,7 +1438,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-58",
+   "id": "b-roztwory-wodne-60",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1411,7 +1456,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-59",
+   "id": "b-roztwory-wodne-61",
    "dzial": "roztwory-wodne"
   }
  ]
