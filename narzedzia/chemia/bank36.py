@@ -1,0 +1,80 @@
+# Bank zadań autorskich — chemia, część 36: duża paczka — wiązki CKE 2023+.
+BANK = {'atom': [
+ B('Konfiguracja jonów żelaza',
+   'Tekst autorski. Związki żelaza(III) są na ogół trwalsze od związków żelaza(II) — roztwory soli Fe²⁺ łatwo utleniają się na powietrzu.',
+   T('podaj', 1, 'Zapisz skrócone konfiguracje Fe²⁺ i Fe³⁺.', 'Fe²⁺: [Ar] 3d⁶; Fe³⁺: [Ar] 3d⁵', '—'),
+   T('wyjasnij', 1, 'Wyjaśnij większą trwałość Fe³⁺ na podstawie konfiguracji.', 'Fe³⁺ ma półzapełnioną podpowłokę 3d⁵ — szczególnie trwały układ.', '—')),
+], 'wiazania': [
+ B('Temperatury wrzenia halogenowodorów',
+   'Tekst autorski. Temperatury wrzenia: HF 20°C, HCl −85°C, HBr −67°C, HI −35°C.',
+   T('wyjasnij', 2, 'Wyjaśnij anomalię HF oraz wzrost temperatury od HCl do HI.', 'HF tworzy wiązania wodorowe; od HCl do HI rośnie masa i siły van der Waalsa.', '—')),
+], 'stechiometria': [
+ B('Oznaczanie wody w hydracie',
+   'Tekst autorski. Próbkę 2,46 g MgSO₄ · xH₂O (sól gorzka) wyprażono. Masa soli bezwodnej: 1,20 g.',
+   T('oblicz', 2, 'Ustal wartość x.', 'x = 7', 'n(MgSO₄) = 0,01; n(H₂O) = 1,26/18 = 0,07.')),
+ B('Gaz z reakcji i warunki niestandardowe',
+   'Tekst autorski. 0,65 g cynku przereagowało z nadmiarem kwasu. Wodór zebrano w 27°C pod ciśnieniem 1000 hPa (R = 83,1 hPa · dm³ · mol⁻¹ · K⁻¹).',
+   T('oblicz', 2, 'Oblicz objętość wodoru w tych warunkach.', 'ok. 0,249 dm³', 'n = 0,01 mol; V = 0,01 · 83,1 · 300 / 1000.')),
+], 'roztwory': [
+ B('Roztwór z kryształów hydratu',
+   'Tekst autorski. Rozpuszczono 28,6 g Na₂CO₃·10H₂O (M = 286 g/mol) w 71,4 g wody.',
+   T('oblicz', 2, 'Oblicz stężenie procentowe Na₂CO₃ w roztworze.', '10,6%', 'n = 0,1 mol → 10,6 g Na₂CO₃ w 100 g roztworu.')),
+], 'kinetyka': [
+ B('Wpływ temperatury na równowagę i szybkość',
+   'Tekst autorski. Reakcja A + B ⇄ C jest egzotermiczna.',
+   T('podaj', 2, 'Podaj, jak wzrost temperatury wpływa na: a) szybkość reakcji w prawo, b) szybkość reakcji w lewo, c) wydajność C.', 'a) rośnie; b) rośnie (bardziej); c) maleje', 'Temperatura przyspiesza obie reakcje, ale bardziej endotermiczną.')),
+], 'roztwory-wodne': [
+ B('Strącanie i rozpuszczalność',
+   'Tekst autorski. Kₛ(PbI₂) = 8,5 · 10⁻⁹. Zmieszano równe objętości roztworów Pb(NO₃)₂ 0,002 mol/dm³ i KI 0,002 mol/dm³.',
+   T('oblicz', 2, 'Sprawdź obliczeniem, czy wytrąci się osad PbI₂.', 'nie — iloczyn jonowy 1 · 10⁻⁹ < Kₛ', 'Po zmieszaniu: [Pb²⁺] = [I⁻] = 0,001; Q = 0,001 · 0,001² = 10⁻⁹.')),
+ B('Hydroliza i wskaźniki',
+   'Tekst autorski. Do roztworów K₂S, KNO₃, ZnSO₄ dodano kilka kropel uniwersalnego wskaźnika.',
+   T('podaj', 2, 'Podaj barwy i odczyny roztworów.', 'K₂S — zasadowy (niebieska/zielononiebieska); KNO₃ — obojętny (żółta); ZnSO₄ — kwasowy (pomarańczowa/czerwona)', '—')),
+], 'redoks': [
+ B('Reakcja nadmanganianu z kwasem szczawiowym — kinetyka',
+   'Tekst autorski. Reakcja MnO₄⁻ z kwasem szczawiowym początkowo biegnie wolno, a potem gwałtownie przyspiesza.',
+   T('wyjasnij', 1, 'Wyjaśnij przyspieszenie reakcji.', 'Autokataliza — powstające jony Mn²⁺ katalizują reakcję.', '—'),
+   T('podaj', 1, 'Podaj stosunek molowy MnO₄⁻ do H₂C₂O₄.', '2 : 5', '—')),
+ B('Ogniwo i elektroliza — porównanie',
+   'Tekst autorski. Ogniwo Zn–Cu zasilało elektrolizer z roztworem CuSO₄ i elektrodami grafitowymi.',
+   T('podaj', 2, 'Podaj, na której elektrodzie elektrolizera osadza się miedź i jaki gaz wydziela się na drugiej.', 'katoda (połączona z anodą ogniwa — biegunem ujemnym); tlen na anodzie', '—')),
+], 'tlenowe': [
+ B('Glicerol i jego pochodne',
+   'Tekst autorski. Glicerol jest składnikiem tłuszczów, a w reakcji z HNO₃ (H₂SO₄) tworzy nitroglicerynę.',
+   T('podaj', 1, 'Napisz wzór półstrukturalny glicerolu.', 'CH₂(OH)–CH(OH)–CH₂(OH)', '—'),
+   T('podaj', 1, 'Określ typ związku, jakim jest nitrogliceryna.', 'ester (kwasu azotowego(V) i glicerolu)', 'Nie jest związkiem nitrowym.')),
+ B('Kwasy karboksylowe w reakcji z metalami',
+   'Tekst autorski. 12 g kwasu octowego przereagowało z nadmiarem magnezu.',
+   T('oblicz', 2, 'Oblicz objętość wodoru (w. n.).', '2,24 dm³', '0,2 mol kwasu → 0,1 mol H₂.'),
+   T('podaj', 1, 'Podaj nazwę soli.', 'octan magnezu', '—')),
+], 'organiczna': [
+ B('Węglowodór z ozonolizy',
+   'Tekst autorski. Ozonoliza węglowodoru dała wyłącznie propanon.',
+   T('podaj', 1, 'Podaj wzór i nazwę węglowodoru.', '(CH₃)₂C=C(CH₃)₂ — 2,3-dimetylobut-2-en', 'Symetryczny alken.')),
+ B('Halogenoalkany — reaktywność',
+   'Tekst autorski. Porównano szybkość hydrolizy 1-chlorobutanu, 1-bromobutanu i 1-jodobutanu.',
+   T('podaj', 1, 'Uszereguj je według rosnącej szybkości hydrolizy.', 'chloro- < bromo- < jodo-', 'Najsłabsze wiązanie C–I.')),
+], 'azotowe-cukry': [
+ B('Punkt izoelektryczny a rozpuszczalność',
+   'Tekst autorski. Białka najsłabiej rozpuszczają się w roztworze o pH równym ich punktowi izoelektrycznemu.',
+   T('wyjasnij', 1, 'Wyjaśnij to zjawisko.', 'W pI cząsteczki mają wypadkowy ładunek zero — nie odpychają się i łatwo agregują.', '—'),
+   T('podaj', 1, 'Podaj zastosowanie tej właściwości.', 'wytrącanie kazeiny z mleka przy zakwaszaniu (np. twaróg)', '—')),
+ B('Wiązanie glikozydowe',
+   'Tekst autorski. Maltoza powstaje z dwóch cząsteczek α-glukozy.',
+   T('podaj', 1, 'Podaj rodzaj wiązania w maltozie.', 'α-1,4-glikozydowe', '—'),
+   T('podaj', 1, 'Rozstrzygnij, czy maltoza daje próbę Trommera.', 'tak — ma wolną grupę półacetalową', '—')),
+], 'nieorganiczne': [
+ B('Wodór — otrzymywanie i właściwości',
+   'Tekst autorski. Wodór otrzymano w reakcji Zn z HCl i zebrano metodą wypierania wody.',
+   T('podaj', 1, 'Podaj, w jakiej pozycji ustawić probówkę przy zbieraniu wodoru metodą wypierania powietrza.', 'wylotem do dołu', 'Wodór jest lżejszy od powietrza.'),
+   T('podaj', 1, 'Podaj sposób sprawdzenia czystości wodoru.', 'próba z zapaloną zapałką — czysty wodór spala się cicho, mieszanina z powietrzem daje charakterystyczny trzask', '—')),
+], 'chemia-zycia': [
+ B('Zakwaszenie gleby nawozami',
+   'Tekst autorski. Długotrwałe nawożenie siarczanem amonu obniża pH gleby.',
+   T('wyjasnij', 1, 'Wyjaśnij przyczynę.', 'Jony NH₄⁺ hydrolizują z wytworzeniem H₃O⁺ (oraz utleniają się w glebie do HNO₃).', '—'),
+   T('podaj', 1, 'Napisz równanie reakcji zobojętniania gleby wapnem gaszonym.', 'Ca(OH)₂ + 2H⁺ → Ca²⁺ + 2H₂O', '—')),
+], 'umiejetnosci': [
+ B('Wybór metody rozdziału',
+   'Tekst autorski. Należy rozdzielić: I — wodę i olej, II — piasek i wodę, III — etanol i wodę, IV — barwniki atramentu.',
+   T('podaj', 2, 'Dobierz metodę do każdej mieszaniny.', 'I — rozdzielacz; II — sączenie (lub dekantacja); III — destylacja; IV — chromatografia', '—')),
+]}
