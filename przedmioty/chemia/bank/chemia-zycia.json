@@ -272,6 +272,33 @@
    "dzial": "chemia-zycia"
   },
   {
+   "tytul": "Witamina C — oznaczanie",
+   "material": "Tekst autorski. Witaminę C (C₆H₈O₆, M = 176 g/mol) oznacza się jodometrycznie: C₆H₈O₆ + I₂ → C₆H₆O₆ + 2HI. Na zmiareczkowanie tabletki zużyto 28,4 cm³ I₂ o stężeniu 0,1 mol/dm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę witaminy C w tabletce.",
+     "odpowiedz": "ok. 0,5 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "2,84 · 10⁻³ mol · 176 = 0,4998 g.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jaką funkcję pełni witamina C w tej reakcji.",
+     "odpowiedz": "reduktor",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-chemia-zycia-11",
+   "dzial": "chemia-zycia"
+  },
+  {
    "tytul": "Mydło w twardej wodzie",
    "material": "Tekst autorski. Do wody wodociągowej dodano roztwór stearynianu sodu — powstał biały osad.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -295,7 +322,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-11",
+   "id": "b-chemia-zycia-12",
    "dzial": "chemia-zycia"
   },
   {
@@ -322,7 +349,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-12",
+   "id": "b-chemia-zycia-13",
    "dzial": "chemia-zycia"
   },
   {
@@ -349,7 +376,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-13",
+   "id": "b-chemia-zycia-14",
    "dzial": "chemia-zycia"
   },
   {
@@ -367,7 +394,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-chemia-zycia-14",
+   "id": "b-chemia-zycia-15",
    "dzial": "chemia-zycia"
   }
  ]

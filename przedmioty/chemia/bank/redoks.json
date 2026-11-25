@@ -713,6 +713,42 @@
    "dzial": "redoks"
   },
   {
+   "tytul": "Elektroliza stopionego NaCl",
+   "material": "Tekst autorski. Przemysłowo sód otrzymuje się przez elektrolizę stopionego NaCl.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równania procesów elektrodowych.",
+     "odpowiedz": "K: Na⁺ + e⁻ → Na; A: 2Cl⁻ → Cl₂ + 2e⁻",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego sodu nie otrzymuje się z wodnego roztworu NaCl.",
+     "odpowiedz": "W roztworze wodnym na katodzie redukuje się woda (wodór), a nie Na⁺.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę sodu otrzymanego przy przepływie 96 500 C.",
+     "odpowiedz": "23 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 mol elektronów → 1 mol Na.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-redoks-26",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Manganometria",
    "material": "Tekst autorski. Próbkę soli Mohra zawierającą jony Fe²⁺ zmiareczkowano w środowisku kwasowym roztworem KMnO₄ o stężeniu 0,0200 mol·dm⁻³; zużyto 15,0 cm³ titranta.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -745,7 +781,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-26",
+   "id": "b-redoks-27",
    "dzial": "redoks"
   },
   {
@@ -781,7 +817,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-27",
+   "id": "b-redoks-28",
    "dzial": "redoks"
   },
   {
@@ -808,7 +844,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-28",
+   "id": "b-redoks-29",
    "dzial": "redoks"
   },
   {
@@ -835,7 +871,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-29",
+   "id": "b-redoks-30",
    "dzial": "redoks"
   },
   {
@@ -853,7 +889,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-30",
+   "id": "b-redoks-31",
    "dzial": "redoks"
   },
   {
@@ -880,7 +916,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-31",
+   "id": "b-redoks-32",
    "dzial": "redoks"
   },
   {
@@ -907,7 +943,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-32",
+   "id": "b-redoks-33",
    "dzial": "redoks"
   },
   {
@@ -925,7 +961,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-33",
+   "id": "b-redoks-34",
    "dzial": "redoks"
   },
   {
@@ -952,7 +988,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-34",
+   "id": "b-redoks-35",
    "dzial": "redoks"
   },
   {
@@ -979,7 +1015,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-35",
+   "id": "b-redoks-36",
    "dzial": "redoks"
   },
   {
@@ -997,7 +1033,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-36",
+   "id": "b-redoks-37",
    "dzial": "redoks"
   },
   {
@@ -1015,7 +1051,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-37",
+   "id": "b-redoks-38",
    "dzial": "redoks"
   }
  ]

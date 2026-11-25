@@ -722,6 +722,51 @@
    "dzial": "stechiometria"
   },
   {
+   "tytul": "Spalanie magnezu",
+   "material": "Tekst autorski. Spalono 4,8 g magnezu w powietrzu. Część magnezu przereagowała z azotem: 3Mg + N₂ → Mg₃N₂. Masa produktów wyniosła 7,6 g.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masy MgO i Mg₃N₂ w produktach.",
+     "odpowiedz": "5,6 g MgO i 2,0 g Mg₃N₂",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(Mg) = 0,2 mol; x — mole Mg w MgO: 40x + (100/3)(0,2 − x) = 7,6 → x = 0,14; MgO: 5,6 g; Mg₃N₂: 0,02 mol · 100 g/mol = 2,0 g.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji Mg₃N₂ z wodą.",
+     "odpowiedz": "Mg₃N₂ + 6H₂O → 3Mg(OH)₂ + 2NH₃",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wyczuwalny zapach amoniaku.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-30",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Wydajność syntezy",
+   "material": "Tekst autorski. Z 23 g etanolu otrzymano 26,4 g octanu etylu w reakcji z nadmiarem kwasu octowego.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz wydajność reakcji.",
+     "odpowiedz": "60%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(etanolu) = 0,5 mol → teoretycznie 44 g estru; 26,4 / 44.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-31",
+   "dzial": "stechiometria"
+  },
+  {
    "tytul": "Mieszanina węglanów",
    "material": "Tekst autorski. Mieszaninę Na₂CO₃ i NaHCO₃ o masie 2,74 g roztworzono w nadmiarze kwasu solnego. Wydzieliło się 0,672 dm³ CO₂ (warunki normalne). M(Na₂CO₃) = 106 g/mol, M(NaHCO₃) = 84 g/mol.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -745,7 +790,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-30",
+   "id": "b-stechiometria-32",
    "dzial": "stechiometria"
   },
   {
@@ -772,7 +817,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-31",
+   "id": "b-stechiometria-33",
    "dzial": "stechiometria"
   },
   {
@@ -799,7 +844,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-32",
+   "id": "b-stechiometria-34",
    "dzial": "stechiometria"
   },
   {
@@ -817,7 +862,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-33",
+   "id": "b-stechiometria-35",
    "dzial": "stechiometria"
   },
   {
@@ -835,7 +880,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-34",
+   "id": "b-stechiometria-36",
    "dzial": "stechiometria"
   },
   {
@@ -853,7 +898,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-35",
+   "id": "b-stechiometria-37",
    "dzial": "stechiometria"
   },
   {
@@ -871,7 +916,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-36",
+   "id": "b-stechiometria-38",
    "dzial": "stechiometria"
   },
   {
@@ -898,7 +943,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-37",
+   "id": "b-stechiometria-39",
    "dzial": "stechiometria"
   },
   {
@@ -916,7 +961,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-38",
+   "id": "b-stechiometria-40",
    "dzial": "stechiometria"
   },
   {
@@ -934,7 +979,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-39",
+   "id": "b-stechiometria-41",
    "dzial": "stechiometria"
   },
   {
@@ -952,7 +997,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-40",
+   "id": "b-stechiometria-42",
    "dzial": "stechiometria"
   },
   {
@@ -970,7 +1015,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-41",
+   "id": "b-stechiometria-43",
    "dzial": "stechiometria"
   },
   {
@@ -988,7 +1033,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-42",
+   "id": "b-stechiometria-44",
    "dzial": "stechiometria"
   },
   {
@@ -1015,7 +1060,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-43",
+   "id": "b-stechiometria-45",
    "dzial": "stechiometria"
   }
  ]

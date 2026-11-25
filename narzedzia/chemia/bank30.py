@@ -12,7 +12,7 @@ BANK = {'atom': [
 ], 'stechiometria': [
  B('Spalanie magnezu',
    'Tekst autorski. Spalono 4,8 g magnezu w powietrzu. Część magnezu przereagowała z azotem: 3Mg + N₂ → Mg₃N₂. Masa produktów wyniosła 7,6 g.',
-   T('oblicz', 2, 'Oblicz masy MgO i Mg₃N₂ w produktach.', '5,6 g MgO i 2,0 g Mg₃N₂', 'n(Mg) = 0,2 mol; x — mole Mg w MgO: 40x + (100/3)(0,2 − x) = 7,6 → x = 0,14; MgO: 5,6 g; Mg₃N₂: 0,02 mol · 100 g/mol = 2,0 g.'),,
+   T('oblicz', 2, 'Oblicz masy MgO i Mg₃N₂ w produktach.', '5,6 g MgO i 2,0 g Mg₃N₂', 'n(Mg) = 0,2 mol; x — mole Mg w MgO: 40x + (100/3)(0,2 − x) = 7,6 → x = 0,14; MgO: 5,6 g; Mg₃N₂: 0,02 mol · 100 g/mol = 2,0 g.'),
    T('podaj', 1, 'Napisz równanie reakcji Mg₃N₂ z wodą.', 'Mg₃N₂ + 6H₂O → 3Mg(OH)₂ + 2NH₃', 'Wyczuwalny zapach amoniaku.')),
  B('Wydajność syntezy',
    'Tekst autorski. Z 23 g etanolu otrzymano 26,4 g octanu etylu w reakcji z nadmiarem kwasu octowego.',
