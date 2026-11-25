@@ -5,10 +5,10 @@
 |---|---|---|---|---|
 | Działy / poddziały | 13 / 71 | 13 / 45 | 10 / 62 | 9 / 54 |
 | Fiszki (z odwrotnymi) | 4522 | 2366 | 4332 | 5937 |
-| Pytania ABCD | 1492 | 596 | 671 | 537 |
+| Pytania ABCD | 1492 | 712 | 671 | 537 |
 | Zadania autorskie (wiązki / zadania) | 467 / 903 | 284 / 478 | 573 / 1038 | 580 / 1092 |
-| Arkusze CKE z omówieniem | 7 | **19** | 9 | 9 |
-| Zadania z arkuszy | 343 | **816** | 338 | 381 |
+| Arkusze CKE z omówieniem | 7 | 11 | 9 | 9 |
+| Zadania z arkuszy | 343 | 460 | 338 | 381 |
 | Schematy / rysunki | **171** | 31 | 0 | 0 |
 | Podcast: scenariusze / mp3 | 84 / 67 | 0 / 0 | 9 / 0 | 1 / 0 |
 | Poprawna = najdłuższa ABCD | 21% | 22% | 20% | 23% |
@@ -17,7 +17,7 @@
 Wszystkie przedmioty mają ABCD poniżej poziomu losowego (25%), więc długość odpowiedzi nie zdradza poprawnej.
 
 ## Chemia — mocne strony
-- Najwięcej arkuszy CKE spośród przedmiotów: 11 z formuły 2023 i 8 z formuły 2015, łącznie 816 zadań z omówieniem.
+- Komplet 11 arkuszy CKE formuły 2023 z omówieniem (460 zadań).
 - Wystartowały schematy: 12 rysunków SVG (zestawy laboratoryjne, krzywe miareczkowania, wykresy energetyczne, ogniwo, elektroliza) i 19 schematów procesów (algorytmy obliczeń, redoks, VSEPR, nazewnictwo, mechanizmy, identyfikacja cukrów i białek).
 
 ## Chemia — luki względem innych przedmiotów
@@ -35,3 +35,33 @@ Wszystkie przedmioty mają ABCD poniżej poziomu losowego (25%), więc długoś�
 5. Fiszki: do ok. 3500.
 6. Płatności: dodać chemię do Stripe i Supabase po decyzji o cenie.
 7. Weryfikacja ręczna: przejrzeć obliczenia z raportu nocnego (`docs/15-chemia-raport-nocny.md`).
+
+## Czas przejścia kursu (szacunek)
+Założenia:
+- fiszka: ok. 40 s łącznie z powtórkami;
+- pytanie ABCD: 45 s;
+- zadanie autorskie: 3 min;
+- zadanie z arkusza: 4,3 min (180 min / ok. 42 zadania);
+- schemat: 2 min;
+- podcast: czas nagrań.
+
+| Przedmiot | Czas |
+|---|---|
+| Biologia | ok. 150 h |
+| WOS | ok. 155 h |
+| Historia | ok. 130 h |
+| Chemia teraz | ok. 95 h |
+| **Chemia — cel** | **ok. 170 h** |
+
+## Chemia — docelowo (najlepszy kurs na rynku)
+| Element | Teraz | Cel |
+|---|---|---|
+| Fiszki (z odwrotnymi) | 2366 | 4500 |
+| Pytania ABCD (bez pytań z podcastu) | 712 | 1500 |
+| Pytania w podcaście (osobno) | 0 | ok. 250 |
+| Zadania autorskie | 478 | 1200 (ok. 600 wiązek) |
+| Arkusze CKE od 2023 z omówieniem | 11 | wszystkie nowe arkusze CKE na bieżąco |
+| Schematy (rysunki + procesy) | 31 | 100 |
+| Podcast | 0 | ok. 50 odcinków (ok. 3,5 h) |
+
+Poziom zadań: jak w arkuszach CKE 2023+. Mają być wiązki z tekstem źródłowym, tabelą lub wykresem, obliczenia wieloetapowe i projekt doświadczenia. Pytania ABCD mają sprawdzać rozumowanie, a nie same definicje.
