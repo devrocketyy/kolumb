@@ -504,6 +504,58 @@
      "poprawna": "D",
      "wyjasnienie": "Średnia ważona.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p083ad4f5",
+     "pytanie": "Jon ⁵⁶Fe³⁺ zawiera:",
+     "odpowiedzi": [
+      "26 p, 30 n, 23 e⁻",
+      "26 p, 56 n, 23 e⁻",
+      "23 p, 30 n, 26 e⁻",
+      "26 p, 30 n, 29 e⁻"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Z = 26 protonów, 56 − 26 = 30 neutronów, kation 3+ ma o 3 elektrony mniej.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd15dea26",
+     "pytanie": "Chlor ma średnią masę atomową 35,45 u i izotopy ³⁵Cl i ³⁷Cl. Zawartość ³⁷Cl wynosi ok.:",
+     "odpowiedzi": [
+      "22,5%",
+      "45,0%",
+      "35,5%",
+      "77,5%"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "35x + 37(1 − x) = 35,45 → x = 0,775, czyli ³⁷Cl stanowi 22,5%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pad063ddf",
+     "pytanie": "Izotopy tego samego pierwiastka różnią się:",
+     "odpowiedzi": [
+      "liczbą neutronów",
+      "liczbą protonów",
+      "liczbą elektronów",
+      "ładunkiem jądra"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Liczba atomowa jest ta sama, inna liczba masowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcc0133e8",
+     "pytanie": "Drobiny izoelektronowe to:",
+     "odpowiedzi": [
+      "Na⁺, Mg²⁺, F⁻",
+      "Na, Mg, Al",
+      "Na⁺, K⁺, Rb⁺",
+      "Cl⁻, Br⁻, I⁻"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Wszystkie mają po 10 elektronów (konfiguracja neonu).",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -1063,6 +1115,71 @@
      "poprawna": "D",
      "wyjasnienie": "3d⁵.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p638d19e4",
+     "pytanie": "Liczba niesparowanych elektronów w atomie Fe w stanie podstawowym to:",
+     "odpowiedzi": [
+      "4",
+      "0",
+      "6",
+      "2"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "3d⁶: jeden orbital podwójnie zajęty, cztery pojedynczo.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p334a11a9",
+     "pytanie": "Elektron opisany liczbami n = 3, l = 2 należy do podpowłoki:",
+     "odpowiedzi": [
+      "3d",
+      "3s",
+      "2d",
+      "3p"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "l = 2 oznacza podpowłokę d; podpowłoka 2d nie istnieje.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb67baba1",
+     "pytanie": "Konfiguracja [Ar] 3d⁵ odpowiada jonowi:",
+     "odpowiedzi": [
+      "Fe³⁺",
+      "Fe²⁺",
+      "Co²⁺",
+      "Cr³⁺"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Fe: [Ar] 4s² 3d⁶ — po oddaniu trzech elektronów zostaje 3d⁵.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8741f022",
+     "pytanie": "Maksymalna liczba elektronów na powłoce n = 3 wynosi:",
+     "odpowiedzi": [
+      "18",
+      "8",
+      "9",
+      "32"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "2n² = 18 (3s, 3p, 3d).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p88fb0f63",
+     "pytanie": "Atom w stanie podstawowym ma 3 elektrony na podpowłoce 4p. To:",
+     "odpowiedzi": [
+      "arsen",
+      "azot",
+      "fosfor",
+      "gal"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "[Ar] 4s² 3d¹⁰ 4p³ — grupa 15, okres 4.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ],
    "schematy": [
@@ -1620,6 +1737,45 @@
      "poprawna": "A",
      "wyjasnienie": "Reaguje z kwasem i zasadą.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb9a4bb7d",
+     "pytanie": "Największy promień spośród podanych ma:",
+     "odpowiedzi": [
+      "Cl⁻",
+      "K⁺",
+      "Ca²⁺",
+      "S²⁻"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Drobiny izoelektronowe: im mniejszy ładunek jądra, tym większy promień.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6dbf6280",
+     "pytanie": "Pierwsza energia jonizacji jest najwyższa dla:",
+     "odpowiedzi": [
+      "sodu",
+      "fluoru",
+      "tlenu",
+      "neonu"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Gaz szlachetny o zamkniętej powłoce i małym promieniu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p77346dba",
+     "pytanie": "W okresie 3 od Na do Cl:",
+     "odpowiedzi": [
+      "rośnie promień atomu",
+      "maleje liczba elektronów walencyjnych",
+      "rośnie charakter metaliczny",
+      "rośnie elektroujemność"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Rośnie ładunek jądra przy tej samej liczbie powłok.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -2140,6 +2296,45 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "(238 − 206)/4.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc22d383b",
+     "pytanie": "W przemianie β⁻ liczba masowa:",
+     "odpowiedzi": [
+      "nie zmienia się",
+      "maleje o 4",
+      "rośnie o 1",
+      "maleje o 1"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Neutron przechodzi w proton — A bez zmian, Z rośnie o 1.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb74175bd",
+     "pytanie": "²²⁶Ra po przemianie α daje:",
+     "odpowiedzi": [
+      "²²²Po",
+      "²²⁶Ac",
+      "²²²Rn",
+      "²³⁰Th"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "A − 4, Z − 2: z radu (88) powstaje radon (86).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p12fb2743",
+     "pytanie": "Promieniowanie najbardziej przenikliwe to:",
+     "odpowiedzi": [
+      "γ",
+      "β⁻",
+      "β⁺",
+      "α"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Fala elektromagnetyczna, zatrzymuje ją dopiero gruba warstwa ołowiu.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ],
