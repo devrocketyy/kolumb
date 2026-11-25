@@ -1093,6 +1093,42 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
     },
     {
+     "id": "f1fad3a9d",
+     "przod": "Półreakcja redukcji NO₃⁻ do NO",
+     "tyl": "NO₃⁻ + 4H⁺ + 3e⁻ → NO + 2H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "f4e4ef4e3",
+     "przod": "Półreakcja redukcji NO₃⁻ do NO₂",
+     "tyl": "NO₃⁻ + 2H⁺ + e⁻ → NO₂ + H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "ff0df1026",
+     "przod": "Półreakcja utleniania SO₃²⁻",
+     "tyl": "SO₃²⁻ + H₂O → SO₄²⁻ + 2H⁺ + 2e⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "f61959eb4",
+     "przod": "Półreakcja utleniania Fe²⁺",
+     "tyl": "Fe²⁺ → Fe³⁺ + e⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "f5a4711f3",
+     "przod": "Półreakcja utleniania szczawianów",
+     "tyl": "C₂O₄²⁻ → 2CO₂ + 2e⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "fd54faccf",
+     "przod": "Półreakcja redukcji Cl₂",
+     "tyl": "Cl₂ + 2e⁻ → 2Cl⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
      "id": "f5492495b",
      "przod": "Bilansowanie redoks metodą bilansu elektronowego — kroki",
      "tyl": "1) stopnie utlenienia, 2) wskazać pierwiastki zmieniające stopień, 3) zapisać połówkowe równania z elektronami, 4) wyrównać liczbę elektronów (mnożniki), 5) przenieść współczynniki, 6) dobrać resztę (H, O).",
@@ -1267,9 +1303,21 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
     },
     {
+     "id": "f3598d5fe",
+     "przod": "Rozpoznaj: NO₃⁻ + 4H⁺ + 3e⁻ → NO + 2H₂O.",
+     "tyl": "Półreakcja redukcji NO₃⁻ do NO",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
      "id": "fc4f19d87",
      "przod": "Rozpoznaj: Fe²⁺ → Fe³⁺ + e⁻.",
-     "tyl": "Połówkowe utlenianie Fe²⁺",
+     "tyl": "Półreakcja utleniania Fe²⁺",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
+    },
+    {
+     "id": "f7fea9595",
+     "przod": "Rozpoznaj: C₂O₄²⁻ → 2CO₂ + 2e⁻.",
+     "tyl": "Półreakcja utleniania szczawianów",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VIII.4–5"
     }
    ],
@@ -2053,6 +2101,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
     },
     {
+     "id": "f039639c0",
+     "przod": "Ogniwo cynkowo-węglowe",
+     "tyl": "Bateria „paluszek” — anoda cynkowa, katoda z MnO₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f7a45a0a1",
+     "przod": "Ogniwo alkaliczne",
+     "tyl": "Elektrolit KOH — większa pojemność niż cynkowo-węglowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f4557d47a",
+     "przod": "Akumulator NiMH",
+     "tyl": "Ogniwo wielokrotnego ładowania z wodorkiem metalu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
      "id": "fbabad793",
      "przod": "Wyjaśnij pojęcie: ogniwo galwaniczne",
      "tyl": "Układ dwóch półogniw, w którym energia reakcji redoks zamienia się w energię elektryczną; utlenianie i redukcja zachodzą w różnych miejscach.",
@@ -2284,6 +2350,18 @@
      "id": "f6e21cb31",
      "przod": "Rozpoznaj: Elektroda, na której zachodzi redukcja.",
      "tyl": "Katoda",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "fd1393b03",
+     "przod": "Rozpoznaj: Elektrolit KOH — większa pojemność niż cynkowo-węglowe.",
+     "tyl": "Ogniwo alkaliczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
+    },
+    {
+     "id": "f10901a0b",
+     "przod": "Rozpoznaj: Ogniwo wielokrotnego ładowania z wodorkiem metalu.",
+     "tyl": "Akumulator NiMH",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.1–5"
     },
     {
@@ -3090,6 +3168,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
     },
     {
+     "id": "fd95a2c2d",
+     "przod": "Elektroliza stopionego Al₂O₃ — elektrody",
+     "tyl": "Grafitowe; anoda zużywa się (spala w tlenie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "ff414af07",
+     "przod": "Elektroliza w przemyśle chloro-alkalicznym",
+     "tyl": "Produkcja Cl₂, H₂ i NaOH z solanki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "ff9a20fa0",
+     "przod": "Złocenie i srebrzenie",
+     "tyl": "Galwaniczne pokrywanie metali szlachetnymi warstwami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
      "id": "fee6028df",
      "przod": "Wyjaśnij pojęcie: elektroliza",
      "tyl": "Proces redoks wymuszony przepływem prądu stałego przez elektrolit (roztwór lub stop).",
@@ -3285,6 +3381,18 @@
      "id": "fa2d71597",
      "przod": "Rozpoznaj: Metal aktywniejszy chroniący konstrukcję przed korozją.",
      "tyl": "Protektor",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f558f4067",
+     "przod": "Rozpoznaj: Produkcja Cl₂, H₂ i NaOH z solanki.",
+     "tyl": "Elektroliza w przemyśle chloro-alkalicznym",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
+    },
+    {
+     "id": "f27a0e4f4",
+     "przod": "Rozpoznaj: Galwaniczne pokrywanie metali szlachetnymi warstwami.",
+     "tyl": "Złocenie i srebrzenie",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. IX.6–9"
     },
     {
