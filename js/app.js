@@ -3392,7 +3392,7 @@ function viewStats() {
 // ---------- płatny dostęp: plany, zakup, kody ----------
 const maZablokowane = () => subjects.some((s) => s.dzialy.some((d) => d.zablokowany) || s.arkusze.some((a) => a.zablokowany));
 
-const PRZEDMIOTY_PLATNE = ['biologia', 'historia', 'wos'];
+const PRZEDMIOTY_PLATNE = ['biologia', 'chemia', 'historia', 'wos'];
 const nazwaPrzedmiotu = (id) => subjects.find((x) => x.id === id)?.nazwa || id;
 const zl = (t) => Number(String(t).replace(/[^\d,]/g, '').replace(',', '.')) || 0;
 
@@ -3957,7 +3957,7 @@ async function viewPanel() {
       </div>
       <section class="card">
         <h2 class="card-title">Dostępy według przedmiotu</h2>
-        <ul class="panel-list">${['biologia', 'historia', 'wos'].map((id) => `<li><span>${esc(nazwaPrzedmiotu(id))}</span><b>${prz[id] || 0}</b></li>`).join('')}
+        <ul class="panel-list">${['biologia', 'chemia', 'historia', 'wos'].map((id) => `<li><span>${esc(nazwaPrzedmiotu(id))}</span><b>${prz[id] || 0}</b></li>`).join('')}
           <li><span>Pełny dostęp (wszystkie)</span><b>${st.pelny_dostep || 0}</b></li>
           <li><span>Polecenia (nagrodzone)</span><b>${st.polecenia} (${st.polecenia_nagrodzone})</b></li></ul>
       </section>
@@ -3986,7 +3986,7 @@ async function viewPanel() {
         <h3 class="panel-sub">Nadaj dostęp ręcznie</h3>
         <form class="panel-form" id="p-nadaj">
           <input class="type-input" name="email" type="email" placeholder="e-mail" aria-label="E-mail" required>
-          <select class="type-input" name="przedmiot" aria-label="Przedmiot"><option value="">Wszystkie przedmioty</option>${['biologia', 'historia', 'wos'].map((id) => `<option value="${id}">${esc(nazwaPrzedmiotu(id))}</option>`).join('')}</select>
+          <select class="type-input" name="przedmiot" aria-label="Przedmiot"><option value="">Wszystkie przedmioty</option>${['biologia', 'chemia', 'historia', 'wos'].map((id) => `<option value="${id}">${esc(nazwaPrzedmiotu(id))}</option>`).join('')}</select>
           <input class="type-input" name="do" type="date" value="2027-05-31" aria-label="Ważny do" required>
           <button class="btn btn-primary btn-sm">Nadaj</button>
         </form>
