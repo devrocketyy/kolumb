@@ -1396,6 +1396,34 @@
        "d": "sp³ z 2 wolnymi parami, kąt ok. 104,5°"
       }
      ]
+    },
+    {
+     "id": "sf7fd7936",
+     "typ": "proces",
+     "tytul": "Ocena polarności cząsteczki",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Czy wiązania są spolaryzowane?",
+       "d": "różnica elektroujemności atomów"
+      },
+      {
+       "t": "Ustal kształt",
+       "d": "VSEPR — z liczby przestrzennej i wolnych par"
+      },
+      {
+       "t": "Czy kształt jest symetryczny?",
+       "d": "liniowy, trójkątny płaski, tetraedr z jednakowymi podstawnikami"
+      },
+      {
+       "t": "Symetryczny",
+       "d": "cząsteczka niepolarna (CO₂, BF₃, CCl₄)"
+      },
+      {
+       "t": "Niesymetryczny",
+       "d": "cząsteczka polarna (H₂O, NH₃, CHCl₃)"
+      }
+     ]
     }
    ]
   },

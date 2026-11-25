@@ -737,6 +737,34 @@
        "d": "c = n / 1 dm³ — skrótowo c = cₚ · d · 10 / M"
       }
      ]
+    },
+    {
+     "id": "sb2b01c6b",
+     "typ": "proces",
+     "tytul": "Sporządzanie roztworu o określonym stężeniu molowym",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Oblicz masę substancji",
+       "d": "m = c · V · M"
+      },
+      {
+       "t": "Odważ substancję",
+       "d": "na wadze analitycznej"
+      },
+      {
+       "t": "Rozpuść w zlewce",
+       "d": "w niewielkiej ilości wody"
+      },
+      {
+       "t": "Przenieś do kolby miarowej",
+       "d": "przepłucz zlewkę i lejek"
+      },
+      {
+       "t": "Uzupełnij do kreski",
+       "d": "menisk dolny na wysokości kreski, wymieszaj"
+      }
+     ]
     }
    ]
   },
