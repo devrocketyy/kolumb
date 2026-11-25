@@ -533,6 +533,60 @@
    "dzial": "tlenowe"
   },
   {
+   "tytul": "Utlenianie alkoholi izomerycznych",
+   "material": "Tekst autorski. Trzy alkohole C₄H₁₀O (A, B, C) utleniano CuO. A dał aldehyd, B — keton, C nie reagował.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj wzory i nazwy A, B i C (dla A podaj jeden możliwy izomer).",
+     "odpowiedz": "A: CH₃CH₂CH₂CH₂OH (butan-1-ol) lub (CH₃)₂CHCH₂OH; B: CH₃CH(OH)CH₂CH₃ (butan-2-ol); C: (CH₃)₃COH (2-metylopropan-2-ol)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż alkohol, który ma asymetryczny atom węgla.",
+     "odpowiedz": "B — butan-2-ol",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-23",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Analiza tłuszczu",
+   "material": "Tekst autorski. Trioleinian glicerolu (M = 884 g/mol) zawiera trzy reszty kwasu oleinowego, każda z jednym wiązaniem C=C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę wodoru potrzebną do całkowitego uwodornienia 88,4 g tego tłuszczu.",
+     "odpowiedz": "0,6 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "0,1 mol tłuszczu · 3 mol H₂ = 0,3 mol · 2 g/mol.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę produktu i jego stan skupienia w temperaturze pokojowej.",
+     "odpowiedz": "tristearynian glicerolu; stały",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Utwardzanie tłuszczów.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-24",
+   "dzial": "tlenowe"
+  },
+  {
    "tytul": "Utlenianie alkoholi",
    "material": "Tekst autorski. Trzy izomeryczne alkohole o wzorze C₄H₉OH: butan-1-ol, butan-2-ol i 2-metylopropan-2-ol ogrzewano z tlenkiem miedzi(II).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -556,7 +610,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-23",
+   "id": "b-tlenowe-25",
    "dzial": "tlenowe"
   },
   {
@@ -592,7 +646,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-tlenowe-24",
+   "id": "b-tlenowe-26",
    "dzial": "tlenowe"
   },
   {
@@ -619,7 +673,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-25",
+   "id": "b-tlenowe-27",
    "dzial": "tlenowe"
   },
   {
@@ -646,7 +700,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-26",
+   "id": "b-tlenowe-28",
    "dzial": "tlenowe"
   },
   {
@@ -673,7 +727,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-27",
+   "id": "b-tlenowe-29",
    "dzial": "tlenowe"
   },
   {
@@ -700,7 +754,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-28",
+   "id": "b-tlenowe-30",
    "dzial": "tlenowe"
   },
   {
@@ -727,7 +781,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-29",
+   "id": "b-tlenowe-31",
    "dzial": "tlenowe"
   },
   {
@@ -754,7 +808,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-30",
+   "id": "b-tlenowe-32",
    "dzial": "tlenowe"
   },
   {
@@ -781,7 +835,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-31",
+   "id": "b-tlenowe-33",
    "dzial": "tlenowe"
   },
   {
@@ -799,7 +853,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-32",
+   "id": "b-tlenowe-34",
    "dzial": "tlenowe"
   },
   {
@@ -817,7 +871,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-33",
+   "id": "b-tlenowe-35",
    "dzial": "tlenowe"
   },
   {
@@ -844,7 +898,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-34",
+   "id": "b-tlenowe-36",
    "dzial": "tlenowe"
   },
   {
@@ -862,7 +916,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-35",
+   "id": "b-tlenowe-37",
    "dzial": "tlenowe"
   },
   {
@@ -880,7 +934,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-36",
+   "id": "b-tlenowe-38",
    "dzial": "tlenowe"
   },
   {
@@ -898,7 +952,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-37",
+   "id": "b-tlenowe-39",
    "dzial": "tlenowe"
   }
  ]

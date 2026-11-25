@@ -353,6 +353,33 @@
    "dzial": "roztwory"
   },
   {
+   "tytul": "Stężenie a gęstość",
+   "material": "Tekst autorski. Kwas azotowy(V) o stężeniu 63% ma gęstość 1,38 g/cm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stężenie molowe tego kwasu.",
+     "odpowiedz": "ok. 13,8 mol/dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "63 · 1,38 · 10 / 63.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz objętość tego kwasu potrzebną do przygotowania 1 dm³ roztworu 1 mol/dm³.",
+     "odpowiedz": "ok. 72,5 cm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 / 13,8 dm³.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-14",
+   "dzial": "roztwory"
+  },
+  {
    "tytul": "Roztwór z hydratu",
    "material": "Tekst autorski. Należy przygotować 200 g roztworu CuSO₄ o stężeniu 8%, używając CuSO₄·5H₂O (M = 250 g/mol, M(CuSO₄) = 160 g/mol).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -367,7 +394,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-14",
+   "id": "b-roztwory-15",
    "dzial": "roztwory"
   },
   {
@@ -385,7 +412,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-15",
+   "id": "b-roztwory-16",
    "dzial": "roztwory"
   },
   {
@@ -421,7 +448,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-16",
+   "id": "b-roztwory-17",
    "dzial": "roztwory"
   },
   {
@@ -448,7 +475,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-17",
+   "id": "b-roztwory-18",
    "dzial": "roztwory"
   },
   {
@@ -466,7 +493,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-18",
+   "id": "b-roztwory-19",
    "dzial": "roztwory"
   },
   {
@@ -493,7 +520,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-19",
+   "id": "b-roztwory-20",
    "dzial": "roztwory"
   },
   {
@@ -511,7 +538,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-20",
+   "id": "b-roztwory-21",
    "dzial": "roztwory"
   },
   {
@@ -538,7 +565,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-21",
+   "id": "b-roztwory-22",
    "dzial": "roztwory"
   },
   {
@@ -556,7 +583,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-22",
+   "id": "b-roztwory-23",
    "dzial": "roztwory"
   },
   {
@@ -583,7 +610,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-23",
+   "id": "b-roztwory-24",
    "dzial": "roztwory"
   }
  ]

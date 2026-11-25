@@ -1,0 +1,40 @@
+# Bank zadań autorskich — chemia, część 24: wiązki CKE 2023+ — stechiometria, roztwory, tlenowe, organiczna, nieorganiczne.
+BANK = {'stechiometria': [
+ B('Saletra amonowa — rozkład',
+   'Tekst autorski. Azotan(V) amonu rozkłada się po ogrzaniu: NH₄NO₃ → N₂O + 2H₂O. Ogrzano 16 g NH₄NO₃.',
+   T('oblicz', 2, 'Oblicz objętość N₂O (w. n.) i masę wody.', '4,48 dm³ N₂O; 7,2 g H₂O', 'n = 16/80 = 0,2 mol.'),
+   T('podaj', 1, 'Określ stopnie utlenienia azotu w NH₄⁺, NO₃⁻ i N₂O i nazwij typ tej reakcji redoks.', '−III, +V, +I; synproporcjonowanie (komproporcjonowanie)', '—')),
+ B('Gaz z reakcji metalu z kwasem',
+   'Tekst autorski. 2,7 g pewnego metalu trójwartościowego roztworzono w kwasie solnym; wydzieliło się 3,36 dm³ H₂ (w. n.).',
+   T('oblicz', 2, 'Zidentyfikuj metal.', 'glin (M = 27 g/mol)', '2Me + 6HCl → 2MeCl₃ + 3H₂; n(H₂) = 0,15 → n(Me) = 0,1 mol.'),
+   T('podaj', 1, 'Napisz równanie reakcji tego metalu z roztworem NaOH.', '2Al + 2NaOH + 6H₂O → 2Na[Al(OH)₄] + 3H₂', '—')),
+], 'roztwory': [
+ B('Stężenie a gęstość',
+   'Tekst autorski. Kwas azotowy(V) o stężeniu 63% ma gęstość 1,38 g/cm³.',
+   T('oblicz', 2, 'Oblicz stężenie molowe tego kwasu.', 'ok. 13,8 mol/dm³', '63 · 1,38 · 10 / 63.'),
+   T('oblicz', 1, 'Oblicz objętość tego kwasu potrzebną do przygotowania 1 dm³ roztworu 1 mol/dm³.', 'ok. 72,5 cm³', '1 / 13,8 dm³.')),
+], 'tlenowe': [
+ B('Utlenianie alkoholi izomerycznych',
+   'Tekst autorski. Trzy alkohole C₄H₁₀O (A, B, C) utleniano CuO. A dał aldehyd, B — keton, C nie reagował.',
+   T('podaj', 2, 'Podaj wzory i nazwy A, B i C (dla A podaj jeden możliwy izomer).', 'A: CH₃CH₂CH₂CH₂OH (butan-1-ol) lub (CH₃)₂CHCH₂OH; B: CH₃CH(OH)CH₂CH₃ (butan-2-ol); C: (CH₃)₃COH (2-metylopropan-2-ol)', '—'),
+   T('podaj', 1, 'Wskaż alkohol, który ma asymetryczny atom węgla.', 'B — butan-2-ol', '—')),
+ B('Analiza tłuszczu',
+   'Tekst autorski. Trioleinian glicerolu (M = 884 g/mol) zawiera trzy reszty kwasu oleinowego, każda z jednym wiązaniem C=C.',
+   T('oblicz', 2, 'Oblicz masę wodoru potrzebną do całkowitego uwodornienia 88,4 g tego tłuszczu.', '0,6 g', '0,1 mol tłuszczu · 3 mol H₂ = 0,3 mol · 2 g/mol.'),
+   T('podaj', 1, 'Podaj nazwę produktu i jego stan skupienia w temperaturze pokojowej.', 'tristearynian glicerolu; stały', 'Utwardzanie tłuszczów.')),
+], 'organiczna': [
+ B('Mechanizmy reakcji',
+   'Tekst autorski. Przeprowadzono reakcje: 1) metan + Cl₂ (światło); 2) eten + HBr; 3) bromoetan + NaOH(aq); 4) benzen + HNO₃/H₂SO₄.',
+   T('podaj', 2, 'Określ typ i mechanizm każdej reakcji.', '1: substytucja rodnikowa; 2: addycja elektrofilowa; 3: substytucja nukleofilowa; 4: substytucja elektrofilowa', '—'),
+   T('podaj', 1, 'Podaj wzór czynnika atakującego w reakcji 4.', 'NO₂⁺ (kation nitroniowy)', '—')),
+ B('Izomeria optyczna',
+   'Tekst autorski. Rozpatrz związki: propan-2-ol, butan-2-ol, kwas 2-hydroksypropanowy, glicerol.',
+   T('podaj', 1, 'Wskaż związki chiralne.', 'butan-2-ol i kwas 2-hydroksypropanowy (mlekowy)', 'Propan-2-ol i glicerol mają przy C2 dwa jednakowe podstawniki.'),
+   T('podaj', 1, 'Podaj, czym różnią się enancjomery kwasu mlekowego we właściwościach fizycznych.', 'kierunkiem skręcania płaszczyzny światła spolaryzowanego', '—')),
+], 'nieorganiczne': [
+ B('Amoniak w przemyśle',
+   'Tekst autorski. Amoniak z syntezy Habera–Boscha służy do produkcji kwasu azotowego(V) metodą Ostwalda: 4NH₃ + 5O₂ → 4NO + 6H₂O; 2NO + O₂ → 2NO₂; 3NO₂ + H₂O → 2HNO₃ + NO.',
+   T('podaj', 1, 'Określ zmianę stopnia utlenienia azotu w pierwszym etapie.', 'z −III na +II', '—'),
+   T('podaj', 1, 'Nazwij typ reakcji redoks w trzecim etapie.', 'dysproporcjonowanie (N z +IV na +V i +II)', '—'),
+   T('podaj', 1, 'Podaj dwa zastosowania HNO₃.', 'produkcja nawozów (saletry), materiałów wybuchowych, barwników', '—')),
+]}
