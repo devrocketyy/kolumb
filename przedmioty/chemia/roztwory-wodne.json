@@ -160,6 +160,42 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
     },
     {
+     "id": "fa6921b38",
+     "przod": "Teoria Brønsteda — kwas",
+     "tyl": "Donor protonu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "fa184b539",
+     "przod": "Teoria Brønsteda — zasada",
+     "tyl": "Akceptor protonu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f1e9478fd",
+     "przod": "Autoprotoliza wody",
+     "tyl": "2H₂O ⇄ H₃O⁺ + OH⁻.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "fba44e8e2",
+     "przod": "Dysocjacja stopniowa H₂SO₄",
+     "tyl": "I stopień całkowity (H₂SO₄ → H⁺ + HSO₄⁻), II stopień częściowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f69b9a6f8",
+     "przod": "Mocne kwasy",
+     "tyl": "HCl, HBr, HI, HNO₃, H₂SO₄ (I stopień), HClO₄.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f4c0c27b1",
+     "przod": "Elektrolity słabe",
+     "tyl": "Dysocjują częściowo, np. CH₃COOH, NH₃·H₂O, H₂CO₃.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
      "id": "f8dcb2378",
      "przod": "Wyjaśnij pojęcie: dysocjacja elektrolityczna",
      "tyl": "Rozpad substancji na jony pod wpływem rozpuszczalnika polarnego (wody).",
@@ -331,6 +367,18 @@
      "id": "f6f3902e1",
      "przod": "Rozpoznaj: Substancja reagująca i z kwasami, i z zasadami (Al(OH)₃, aminokwasy).",
      "tyl": "Amfolit",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "ffe92e3ff",
+     "przod": "Rozpoznaj: HCl, HBr, HI, HNO₃, H₂SO₄ (I stopień), HClO₄.",
+     "tyl": "Mocne kwasy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f689032df",
+     "przod": "Rozpoznaj: Dysocjują częściowo, np. CH₃COOH, NH₃·H₂O, H₂CO₃.",
+     "tyl": "Elektrolity słabe",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.1–3"
     },
     {
@@ -701,12 +749,6 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
     },
     {
-     "id": "f0f354482",
-     "przod": "Pojemność buforowa",
-     "tyl": "Ilość kwasu/zasady, którą bufor zneutralizuje bez znacznej zmiany pH; największa przy c_soli = c_kwasu.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
-    },
-    {
      "id": "fb7c8b46e",
      "przod": "Bufory w organizmie",
      "tyl": "Wodorowęglanowy (krew, pH 7,4), fosforanowy (komórki), białczanowy.",
@@ -751,7 +793,61 @@
     {
      "id": "fbf6b95b7",
      "przod": "Definicja pH",
-     "tyl": "pH = −log[H⁺] (stężenie jonów wodorowych w mol/dm³).",
+     "tyl": "pH = −log[H⁺].",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f7d3165df",
+     "przod": "Definicja pOH",
+     "tyl": "pOH = −log[OH⁻]; pH + pOH = 14 (25°C).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f2a7173e3",
+     "przod": "Stała dysocjacji kwasu Ka",
+     "tyl": "Ka = [H⁺][A⁻] / [HA].",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f57fc9076",
+     "przod": "pKa",
+     "tyl": "pKa = −log Ka; im mniejsze pKa, tym mocniejszy kwas.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "fb5ec75da",
+     "przod": "Stopień dysocjacji",
+     "tyl": "α = liczba cząsteczek zdysocjowanych / liczba wszystkich cząsteczek elektrolitu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f860ceaa4",
+     "przod": "Wpływ temperatury na stałą dysocjacji",
+     "tyl": "Stała zależy od temperatury, nie od stężenia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f95f31731",
+     "przod": "Zakres zmiany barwy fenoloftaleiny",
+     "tyl": "pH 8,2–10: bezbarwna → malinowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "fd490af33",
+     "przod": "Zakres zmiany barwy oranżu metylowego",
+     "tyl": "pH 3,1–4,4: czerwony → żółty (pomarańczowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "fbfe8204a",
+     "przod": "Barwa lakmusu",
+     "tyl": "Kwasowe — czerwony, zasadowe — niebieski.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f7e2c202a",
+     "przod": "Uniwersalny papierek wskaźnikowy",
+     "tyl": "Kwasowe: czerwony/pomarańczowy; obojętne: żółty; zasadowe: zielony → granatowy.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
     },
     {
@@ -923,9 +1019,51 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
     },
     {
-     "id": "f33c50a07",
-     "przod": "Rozpoznaj: pH = −log[H⁺] (stężenie jonów wodorowych w mol/dm³).",
+     "id": "f4145e29e",
+     "przod": "Rozpoznaj: pH = −log[H⁺].",
      "tyl": "Definicja pH",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "fb5375596",
+     "przod": "Rozpoznaj: pOH = −log[OH⁻]; pH + pOH = 14 (25°C).",
+     "tyl": "Definicja pOH",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "fb59ad1c2",
+     "przod": "Rozpoznaj: Ka = [H⁺][A⁻] / [HA].",
+     "tyl": "Stała dysocjacji kwasu Ka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f0614c496",
+     "przod": "Rozpoznaj: pKa = −log Ka; im mniejsze pKa, tym mocniejszy kwas.",
+     "tyl": "pKa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "fdbc223d0",
+     "przod": "Rozpoznaj: pH 8,2–10: bezbarwna → malinowa.",
+     "tyl": "Zakres zmiany barwy fenoloftaleiny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f4fff633d",
+     "przod": "Rozpoznaj: pH 3,1–4,4: czerwony → żółty (pomarańczowy).",
+     "tyl": "Zakres zmiany barwy oranżu metylowego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "f0a71cfed",
+     "przod": "Rozpoznaj: Kwasowe — czerwony, zasadowe — niebieski.",
+     "tyl": "Barwa lakmusu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
+    },
+    {
+     "id": "fe8835328",
+     "przod": "Rozpoznaj: Kwasowe: czerwony/pomarańczowy; obojętne: żółty; zasadowe: zielony → granatowy.",
+     "tyl": "Uniwersalny papierek wskaźnikowy",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.4–7"
     },
     {
@@ -1519,6 +1657,54 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
     },
     {
+     "id": "f9cda4204",
+     "przod": "Hydroliza soli",
+     "tyl": "Reakcja jonów soli z wodą, zmieniająca odczyn roztworu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f96772599",
+     "przod": "Stała hydrolizy (zasadowości) anionu",
+     "tyl": "Kb = Kw / Ka kwasu sprzężonego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f3f3c2883",
+     "przod": "Bufor — definicja",
+     "tyl": "Roztwór, którego pH prawie się nie zmienia po dodaniu niewielkiej ilości kwasu, zasady lub po rozcieńczeniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "ff6d1975f",
+     "przod": "Bufor octanowy",
+     "tyl": "CH₃COOH + CH₃COONa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "fd109bb15",
+     "przod": "Bufor amonowy",
+     "tyl": "NH₃·H₂O + NH₄Cl.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "ffd5c1f90",
+     "przod": "Bufor wodorowęglanowy we krwi",
+     "tyl": "H₂CO₃ / HCO₃⁻ — utrzymuje pH ok. 7,4.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f29a3c049",
+     "przod": "pH buforu (Henderson)",
+     "tyl": "pH = pKa + log(c_soli / c_kwasu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f0f354482",
+     "przod": "Pojemność buforowa",
+     "tyl": "Ilość kwasu lub zasady, którą bufor może zneutralizować — rośnie ze stężeniem składników.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
      "id": "f1b839b6c",
      "przod": "Wyjaśnij pojęcie: hydroliza soli",
      "tyl": "Reakcja jonów soli z wodą, w której powstaje słaby elektrolit, a roztwór zmienia odczyn.",
@@ -1642,6 +1828,36 @@
      "id": "f8dfb18c9",
      "przod": "Rozpoznaj: Reakcja substancji z wodą prowadząca do jej rozkładu (soli — zmiana odczynu; estrów, białek, cukrów — rozpad wiązań).",
      "tyl": "Hydroliza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f354fe7ea",
+     "przod": "Rozpoznaj: Kb = Kw / Ka kwasu sprzężonego.",
+     "tyl": "Stała hydrolizy (zasadowości) anionu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f811f32e7",
+     "przod": "Rozpoznaj: CH₃COOH + CH₃COONa.",
+     "tyl": "Bufor octanowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "ff1fff561",
+     "przod": "Rozpoznaj: NH₃·H₂O + NH₄Cl.",
+     "tyl": "Bufor amonowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f8032400d",
+     "przod": "Rozpoznaj: H₂CO₃ / HCO₃⁻ — utrzymuje pH ok. 7,4.",
+     "tyl": "Bufor wodorowęglanowy we krwi",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
+    },
+    {
+     "id": "f96475cfa",
+     "przod": "Rozpoznaj: pH = pKa + log(c_soli / c_kwasu).",
+     "tyl": "pH buforu (Henderson)",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.8–9"
     },
     {
@@ -2085,6 +2301,54 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
     },
     {
+     "id": "fafc766cb",
+     "przod": "Reakcja zobojętniania",
+     "tyl": "H⁺ + OH⁻ → H₂O.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "fedeb4b20",
+     "przod": "Tabela rozpuszczalności — rozpuszczalne zawsze",
+     "tyl": "Sole Na⁺, K⁺, NH₄⁺ oraz azotany(V).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "fd8e0e77e",
+     "przod": "Trudno rozpuszczalne chlorki",
+     "tyl": "AgCl, PbCl₂ (słabo), Hg₂Cl₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "f596d9eb1",
+     "przod": "Trudno rozpuszczalne siarczany(VI)",
+     "tyl": "BaSO₄, PbSO₄, CaSO₄ (słabo), SrSO₄.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "f755b98f7",
+     "przod": "Barwa AgBr i AgI",
+     "tyl": "AgBr — jasnożółty, AgI — żółty.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "f6a05ca2a",
+     "przod": "Barwa siarczków",
+     "tyl": "CuS, PbS, Ag₂S — czarne; ZnS — biały; CdS — żółty.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "fc0c61284",
+     "przod": "Jon obojętny",
+     "tyl": "Jon, który nie bierze udziału w reakcji i występuje po obu stronach równania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "fc7cbeb28",
+     "przod": "Wymiana jonowa — warunek zajścia",
+     "tyl": "Powstanie osadu, gazu lub słabego elektrolitu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
      "id": "f0997632e",
      "przod": "Reakcja zobojętniania — równanie jonowe skrócone",
      "tyl": "H⁺ + OH⁻ → H₂O (dla mocnego kwasu i mocnej zasady).",
@@ -2262,6 +2526,36 @@
      "id": "fb86a2432",
      "przod": "Rozpoznaj: Stała równowagi osad ⇄ jony w roztworze nasyconym.",
      "tyl": "Iloczyn rozpuszczalności",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "f2d263245",
+     "przod": "Rozpoznaj: H⁺ + OH⁻ → H₂O.",
+     "tyl": "Reakcja zobojętniania",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "f3b2fbfb6",
+     "przod": "Rozpoznaj: AgCl, PbCl₂ (słabo), Hg₂Cl₂.",
+     "tyl": "Trudno rozpuszczalne chlorki",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "f22527fc8",
+     "przod": "Rozpoznaj: BaSO₄, PbSO₄, CaSO₄ (słabo), SrSO₄.",
+     "tyl": "Trudno rozpuszczalne siarczany(VI)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "f7c054610",
+     "przod": "Rozpoznaj: CuS, PbS, Ag₂S — czarne; ZnS — biały; CdS — żółty.",
+     "tyl": "Barwa siarczków",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
+    },
+    {
+     "id": "f09f52c9d",
+     "przod": "Rozpoznaj: Jon, który nie bierze udziału w reakcji i występuje po obu stronach równania.",
+     "tyl": "Jon obojętny",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. VI.10–12"
     },
     {
