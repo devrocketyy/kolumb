@@ -853,6 +853,42 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
     },
     {
+     "id": "fab11cd21",
+     "przod": "Cyfry znaczące",
+     "tyl": "Wszystkie cyfry od pierwszej niezerowej; wynik nie powinien być dokładniejszy niż dane.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f07f300e6",
+     "przod": "Zaokrąglanie w obliczeniach wieloetapowych",
+     "tyl": "Wyniki pośrednie zostaw z większą dokładnością, zaokrąglaj dopiero na końcu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fd5490dbb",
+     "przod": "Jednostki w Clapeyronie",
+     "tyl": "p w hPa, V w dm³, T w K, R = 83,1 hPa · dm³ · mol⁻¹ · K⁻¹.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fa191c957",
+     "przod": "Sprawdzenie wymiaru",
+     "tyl": "Jednostka wyniku musi wynikać z działań (np. g/mol · mol = g).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f2e3e7f0d",
+     "przod": "Typowy błąd: cm³ i dm³",
+     "tyl": "W c = n/V objętość wstawiaj w dm³.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f221e3281",
+     "przod": "Metoda proporcji",
+     "tyl": "Ułóż proporcję ze stosunku molowego z równania reakcji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
      "id": "f129472c3",
      "przod": "Rozpoznaj: Cm = (Cp · d) / (M · 100%), gdzie d — gęstość roztworu w g/dm³ (uwaga: g/cm³ × 1000 = g/dm³).",
      "tyl": "Przeliczanie Cp na Cm",
@@ -910,6 +946,18 @@
      "id": "fbb2d1a90",
      "przod": "Rozpoznaj: Szacowanie wartości poza zakresem pomiarów — ryzykowne.",
      "tyl": "Ekstrapolacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "ff56ff19a",
+     "przod": "Rozpoznaj: p w hPa, V w dm³, T w K, R = 83,1 hPa · dm³ · mol⁻¹ · K⁻¹.",
+     "tyl": "Jednostki w Clapeyronie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fec6c5345",
+     "przod": "Rozpoznaj: Jednostka wyniku musi wynikać z działań (np. g/mol · mol = g).",
+     "tyl": "Sprawdzenie wymiaru",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne II"
     }
    ],
@@ -1631,6 +1679,36 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
     },
     {
+     "id": "ffb1ac975",
+     "przod": "Obserwacja a wniosek",
+     "tyl": "Obserwacja opisuje zmiany (barwa, osad, gaz), wniosek — nazwy substancji i równania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fc1be6025",
+     "przod": "Próba kontrolna",
+     "tyl": "Doświadczenie bez badanego czynnika — punkt odniesienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "fc4901c73",
+     "przod": "Zmienna niezależna",
+     "tyl": "Czynnik, który celowo zmieniamy w doświadczeniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "ffebda552",
+     "przod": "Zmienna zależna",
+     "tyl": "Wielkość, którą mierzymy (np. objętość gazu, czas reakcji).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f6e174520",
+     "przod": "Zasada BHP: rozcieńczanie kwasu",
+     "tyl": "Zawsze wlewamy kwas do wody, nigdy odwrotnie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
      "id": "f90d51537",
      "przod": "Rozpoznaj: Biały, serowaty osad, ciemniejący na świetle.",
      "tyl": "Barwa i wygląd osadu AgCl",
@@ -1808,6 +1886,24 @@
      "id": "fadff02fc",
      "przod": "Rozpoznaj: Szafa z wentylacją do pracy z substancjami lotnymi i trującymi.",
      "tyl": "Wyciąg (dygestorium)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f0d14aca2",
+     "przod": "Rozpoznaj: Doświadczenie bez badanego czynnika — punkt odniesienia.",
+     "tyl": "Próba kontrolna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f618a0821",
+     "przod": "Rozpoznaj: Wielkość, którą mierzymy (np. objętość gazu, czas reakcji).",
+     "tyl": "Zmienna zależna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
+    },
+    {
+     "id": "f4a772278",
+     "przod": "Rozpoznaj: Zawsze wlewamy kwas do wody, nigdy odwrotnie.",
+     "tyl": "Zasada BHP: rozcieńczanie kwasu",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), wymagania ogólne III"
     }
    ],
