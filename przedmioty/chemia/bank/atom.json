@@ -821,6 +821,69 @@
    "dzial": "atom"
   },
   {
+   "tytul": "Pierwiastki bloku d",
+   "material": "Tekst autorski. Mangan tworzy związki: MnO, MnO₂, K₂MnO₄, KMnO₄.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj stopnie utlenienia manganu w tych związkach.",
+     "odpowiedz": "+II, +IV, +VI, +VII",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz skróconą konfigurację Mn²⁺.",
+     "odpowiedz": "[Ar] 3d⁵",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mn: [Ar] 4s² 3d⁵.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż tlenek o charakterze kwasowym spośród MnO i Mn₂O₇.",
+     "odpowiedz": "Mn₂O₇",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wysoki stopień utlenienia.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-atom-29",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Izotopy chloru",
+   "material": "Tekst autorski. Chlor ma izotopy ³⁵Cl (34,97 u) i ³⁷Cl (36,97 u). Średnia masa atomowa wynosi 35,45 u.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz procentową zawartość ³⁵Cl.",
+     "odpowiedz": "ok. 76%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "34,97x + 36,97(1 − x) = 35,45 → 2x = 1,52 → x = 0,76.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj liczbę możliwych mas cząsteczek Cl₂ (z różnych kombinacji izotopów).",
+     "odpowiedz": "3 (70, 72 i 74 u)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "³⁵Cl₂, ³⁵Cl³⁷Cl, ³⁷Cl₂.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-30",
+   "dzial": "atom"
+  },
+  {
    "tytul": "Skład izotopowy chloru",
    "material": "Tekst autorski. Chlor występuje w przyrodzie jako mieszanina izotopów ³⁵Cl (masa 34,97 u) i ³⁷Cl (36,97 u). Średnia masa atomowa chloru wynosi 35,45 u.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -844,7 +907,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-29",
+   "id": "b-atom-31",
    "dzial": "atom"
   },
   {
@@ -871,7 +934,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-30",
+   "id": "b-atom-32",
    "dzial": "atom"
   },
   {
@@ -898,7 +961,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-31",
+   "id": "b-atom-33",
    "dzial": "atom"
   },
   {
@@ -934,7 +997,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-32",
+   "id": "b-atom-34",
    "dzial": "atom"
   }
  ]

@@ -686,6 +686,60 @@
    "dzial": "kinetyka"
   },
   {
+   "tytul": "Energia aktywacji i katalizator",
+   "material": "Tekst autorski. Rozkład H₂O₂ bez katalizatora ma Eₐ ≈ 75 kJ/mol, z jonami I⁻ — ok. 56 kJ/mol, a z enzymem katalazą — ok. 23 kJ/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż najskuteczniejszy katalizator i uzasadnij.",
+     "odpowiedz": "katalaza — najniższa energia aktywacji",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ, czy katalizatory zmieniają ΔH rozkładu H₂O₂.",
+     "odpowiedz": "nie",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "ΔH zależy tylko od stanu początkowego i końcowego.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-27",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Równowaga estryfikacji — wydajność",
+   "material": "Tekst autorski. Zmieszano 2 mole kwasu octowego i 1 mol etanolu. K = 4.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz liczbę moli estru w stanie równowagi.",
+     "odpowiedz": "ok. 0,85 mol",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "x² / ((2 − x)(1 − x)) = 4 → 3x² − 12x + 8 = 0 → x = 0,845.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Porównaj z wynikiem dla 1 mola kwasu i 1 mola etanolu (0,67 mol) i wyjaśnij różnicę.",
+     "odpowiedz": "Nadmiar kwasu przesuwa równowagę w prawo — więcej estru (reguła przekory).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-28",
+   "dzial": "kinetyka"
+  },
+  {
    "tytul": "Okres półtrwania reakcji I rzędu",
    "material": "Tekst autorski. Rozkład pewnego związku jest reakcją I rzędu. Po 30 minutach jego stężenie spadło z 0,80 do 0,20 mol·dm⁻³.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -718,7 +772,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-27",
+   "id": "b-kinetyka-29",
    "dzial": "kinetyka"
   },
   {
@@ -745,7 +799,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-28",
+   "id": "b-kinetyka-30",
    "dzial": "kinetyka"
   },
   {
@@ -772,7 +826,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-29",
+   "id": "b-kinetyka-31",
    "dzial": "kinetyka"
   },
   {
@@ -799,7 +853,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-30",
+   "id": "b-kinetyka-32",
    "dzial": "kinetyka"
   },
   {
@@ -826,7 +880,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-31",
+   "id": "b-kinetyka-33",
    "dzial": "kinetyka"
   },
   {
@@ -853,7 +907,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-32",
+   "id": "b-kinetyka-34",
    "dzial": "kinetyka"
   },
   {
@@ -889,7 +943,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-33",
+   "id": "b-kinetyka-35",
    "dzial": "kinetyka"
   },
   {
@@ -916,7 +970,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-34",
+   "id": "b-kinetyka-36",
    "dzial": "kinetyka"
   },
   {
@@ -943,7 +997,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-35",
+   "id": "b-kinetyka-37",
    "dzial": "kinetyka"
   },
   {
@@ -961,7 +1015,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-36",
+   "id": "b-kinetyka-38",
    "dzial": "kinetyka"
   },
   {
@@ -979,7 +1033,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-37",
+   "id": "b-kinetyka-39",
    "dzial": "kinetyka"
   }
  ]

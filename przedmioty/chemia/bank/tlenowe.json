@@ -668,6 +668,60 @@
    "dzial": "tlenowe"
   },
   {
+   "tytul": "Otrzymywanie mydła",
+   "material": "Tekst autorski. Ogrzewano 89 g tristearynianu glicerolu (M = 890 g/mol) z nadmiarem NaOH.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji.",
+     "odpowiedz": "(C₁₇H₃₅COO)₃C₃H₅ + 3NaOH → 3C₁₇H₃₅COONa + C₃H₅(OH)₃",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę stearynianu sodu (M = 306 g/mol).",
+     "odpowiedz": "91,8 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "0,1 mol tłuszczu → 0,3 mol mydła.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-28",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Kwas mrówkowy — właściwości redukujące",
+   "material": "Tekst autorski. Kwas mrówkowy odbarwia zakwaszony roztwór KMnO₄; wydziela się gaz mętniejący wodę wapienną.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równanie jonowe reakcji.",
+     "odpowiedz": "5HCOOH + 2MnO₄⁻ + 6H⁺ → 2Mn²⁺ + 5CO₂ + 8H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego kwas octowy nie daje tej reakcji.",
+     "odpowiedz": "Nie ma ugrupowania aldehydowego (H–C=O), które łatwo się utlenia.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-29",
+   "dzial": "tlenowe"
+  },
+  {
    "tytul": "Utlenianie alkoholi",
    "material": "Tekst autorski. Trzy izomeryczne alkohole o wzorze C₄H₉OH: butan-1-ol, butan-2-ol i 2-metylopropan-2-ol ogrzewano z tlenkiem miedzi(II).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -691,7 +745,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-28",
+   "id": "b-tlenowe-30",
    "dzial": "tlenowe"
   },
   {
@@ -727,7 +781,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-tlenowe-29",
+   "id": "b-tlenowe-31",
    "dzial": "tlenowe"
   },
   {
@@ -754,7 +808,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-30",
+   "id": "b-tlenowe-32",
    "dzial": "tlenowe"
   },
   {
@@ -781,7 +835,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-31",
+   "id": "b-tlenowe-33",
    "dzial": "tlenowe"
   },
   {
@@ -808,7 +862,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-32",
+   "id": "b-tlenowe-34",
    "dzial": "tlenowe"
   },
   {
@@ -835,7 +889,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-33",
+   "id": "b-tlenowe-35",
    "dzial": "tlenowe"
   },
   {
@@ -862,7 +916,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-34",
+   "id": "b-tlenowe-36",
    "dzial": "tlenowe"
   },
   {
@@ -889,7 +943,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-35",
+   "id": "b-tlenowe-37",
    "dzial": "tlenowe"
   },
   {
@@ -916,7 +970,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-36",
+   "id": "b-tlenowe-38",
    "dzial": "tlenowe"
   },
   {
@@ -934,7 +988,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-37",
+   "id": "b-tlenowe-39",
    "dzial": "tlenowe"
   },
   {
@@ -952,7 +1006,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-38",
+   "id": "b-tlenowe-40",
    "dzial": "tlenowe"
   },
   {
@@ -979,7 +1033,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-39",
+   "id": "b-tlenowe-41",
    "dzial": "tlenowe"
   },
   {
@@ -997,7 +1051,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-40",
+   "id": "b-tlenowe-42",
    "dzial": "tlenowe"
   },
   {
@@ -1015,7 +1069,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-41",
+   "id": "b-tlenowe-43",
    "dzial": "tlenowe"
   },
   {
@@ -1033,7 +1087,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-42",
+   "id": "b-tlenowe-44",
    "dzial": "tlenowe"
   }
  ]

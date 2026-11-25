@@ -173,6 +173,33 @@
    "dzial": "umiejetnosci"
   },
   {
+   "tytul": "Odczyt z wykresu rozpuszczalności",
+   "material": "Tekst autorski. Rozpuszczalność KCl: 20°C — 34 g, 60°C — 46 g, 80°C — 51 g (na 100 g wody).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę KCl, która wykrystalizuje po ochłodzeniu 151 g roztworu nasyconego z 80°C do 20°C.",
+     "odpowiedz": "17 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "151 g = 100 g wody + 51 g KCl; w 20°C zostaje 34 g.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Oceń, czy 50 g KCl rozpuści się całkowicie w 100 g wody w 60°C.",
+     "odpowiedz": "nie — rozpuści się 46 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-08",
+   "dzial": "umiejetnosci"
+  },
+  {
    "tytul": "Trzy bezbarwne roztwory",
    "material": "Tekst autorski. W trzech nieopisanych probówkach znajdują się wodne roztwory: NaCl, Na₂SO₄ i Na₂CO₃. Do dyspozycji są: roztwór BaCl₂, kwas solny, roztwór AgNO₃, fenoloftaleina.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -205,7 +232,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-08",
+   "id": "b-umiejetnosci-09",
    "dzial": "umiejetnosci"
   },
   {
@@ -232,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-09",
+   "id": "b-umiejetnosci-10",
    "dzial": "umiejetnosci"
   },
   {
@@ -268,7 +295,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-10",
+   "id": "b-umiejetnosci-11",
    "dzial": "umiejetnosci"
   }
  ]

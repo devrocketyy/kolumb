@@ -668,6 +668,60 @@
    "dzial": "stechiometria"
   },
   {
+   "tytul": "Otrzymywanie wodoru",
+   "material": "Tekst autorski. Do 6,5 g cynku dodano 100 cm³ HCl o stężeniu 1,0 mol/dm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz objętość wydzielonego wodoru (w. n.).",
+     "odpowiedz": "1,12 dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Zn: 0,1 mol; HCl: 0,1 mol — HCl w niedomiarze (potrzeba 0,2) → 0,05 mol H₂.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę cynku, która pozostała.",
+     "odpowiedz": "3,25 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przereagowało 0,05 mol Zn.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-28",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Analiza związku organicznego",
+   "material": "Tekst autorski. Związek zawiera 52,2% C, 13,0% H i 34,8% O. Jego pary są 23 razy cięższe od wodoru.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Ustal wzór rzeczywisty związku.",
+     "odpowiedz": "C₂H₆O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "C : H : O = 4,35 : 13 : 2,17 = 2 : 6 : 1; M = 46 g/mol.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wzory półstrukturalne dwóch izomerów i wskaż, który reaguje z sodem.",
+     "odpowiedz": "CH₃CH₂OH (reaguje z Na) i CH₃OCH₃",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Eter nie ma atomu H przy tlenie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-29",
+   "dzial": "stechiometria"
+  },
+  {
    "tytul": "Mieszanina węglanów",
    "material": "Tekst autorski. Mieszaninę Na₂CO₃ i NaHCO₃ o masie 2,74 g roztworzono w nadmiarze kwasu solnego. Wydzieliło się 0,672 dm³ CO₂ (warunki normalne). M(Na₂CO₃) = 106 g/mol, M(NaHCO₃) = 84 g/mol.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -691,7 +745,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-28",
+   "id": "b-stechiometria-30",
    "dzial": "stechiometria"
   },
   {
@@ -718,7 +772,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-29",
+   "id": "b-stechiometria-31",
    "dzial": "stechiometria"
   },
   {
@@ -745,7 +799,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-30",
+   "id": "b-stechiometria-32",
    "dzial": "stechiometria"
   },
   {
@@ -763,7 +817,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-31",
+   "id": "b-stechiometria-33",
    "dzial": "stechiometria"
   },
   {
@@ -781,7 +835,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-32",
+   "id": "b-stechiometria-34",
    "dzial": "stechiometria"
   },
   {
@@ -799,7 +853,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-33",
+   "id": "b-stechiometria-35",
    "dzial": "stechiometria"
   },
   {
@@ -817,7 +871,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-34",
+   "id": "b-stechiometria-36",
    "dzial": "stechiometria"
   },
   {
@@ -844,7 +898,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-35",
+   "id": "b-stechiometria-37",
    "dzial": "stechiometria"
   },
   {
@@ -862,7 +916,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-36",
+   "id": "b-stechiometria-38",
    "dzial": "stechiometria"
   },
   {
@@ -880,7 +934,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-37",
+   "id": "b-stechiometria-39",
    "dzial": "stechiometria"
   },
   {
@@ -898,7 +952,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-38",
+   "id": "b-stechiometria-40",
    "dzial": "stechiometria"
   },
   {
@@ -916,7 +970,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-39",
+   "id": "b-stechiometria-41",
    "dzial": "stechiometria"
   },
   {
@@ -934,7 +988,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-40",
+   "id": "b-stechiometria-42",
    "dzial": "stechiometria"
   },
   {
@@ -961,7 +1015,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-41",
+   "id": "b-stechiometria-43",
    "dzial": "stechiometria"
   }
  ]

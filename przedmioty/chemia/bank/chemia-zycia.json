@@ -218,6 +218,33 @@
    "dzial": "chemia-zycia"
   },
   {
+   "tytul": "Nawozy fosforowe",
+   "material": "Tekst autorski. Superfosfat otrzymuje się z fosforytu: Ca₃(PO₄)₂ + 2H₂SO₄ → Ca(H₂PO₄)₂ + 2CaSO₄.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego fosforyt przerabia się na superfosfat.",
+     "odpowiedz": "Ca₃(PO₄)₂ jest nierozpuszczalny — rośliny nie mogą go pobrać; Ca(H₂PO₄)₂ jest rozpuszczalny.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę H₂SO₄ potrzebną do przerobu 310 kg Ca₃(PO₄)₂.",
+     "odpowiedz": "196 kg",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 kmol fosforanu → 2 kmol H₂SO₄ · 98.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-chemia-zycia-09",
+   "dzial": "chemia-zycia"
+  },
+  {
    "tytul": "Kwaśne deszcze i zabytki",
    "material": "Tekst autorski. Na powierzchni marmurowych rzeźb w miastach tworzy się krucha warstwa gipsu (CaSO₄·2H₂O).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -241,7 +268,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-09",
+   "id": "b-chemia-zycia-10",
    "dzial": "chemia-zycia"
   },
   {
@@ -268,7 +295,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-10",
+   "id": "b-chemia-zycia-11",
    "dzial": "chemia-zycia"
   },
   {
@@ -295,7 +322,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-11",
+   "id": "b-chemia-zycia-12",
    "dzial": "chemia-zycia"
   },
   {
@@ -322,7 +349,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-12",
+   "id": "b-chemia-zycia-13",
    "dzial": "chemia-zycia"
   },
   {
@@ -340,7 +367,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-chemia-zycia-13",
+   "id": "b-chemia-zycia-14",
    "dzial": "chemia-zycia"
   }
  ]

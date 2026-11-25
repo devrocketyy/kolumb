@@ -542,6 +542,69 @@
    "dzial": "azotowe-cukry"
   },
   {
+   "tytul": "Właściwości glukozy",
+   "material": "Tekst autorski. Glukoza w roztworze występuje głównie w formie pierścieniowej (α i β), ale daje próby Tollensa i Trommera.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego glukoza daje próby na aldehydy.",
+     "odpowiedz": "Forma pierścieniowa jest w równowadze z łańcuchową, która ma grupę –CHO.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz, jaki produkt powstaje z glukozy w próbie Tollensa.",
+     "odpowiedz": "kwas glukonowy (jego sól amonowa)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę srebra wydzieloną przez 1,8 g glukozy.",
+     "odpowiedz": "2,16 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,01 mol glukozy → 0,02 mol Ag · 108.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-azotowe-cukry-23",
+   "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Peptydy — budowa",
+   "material": "Tekst autorski. Rozpatrz dipeptyd Ala-Gly.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz wzór półstrukturalny dipeptydu.",
+     "odpowiedz": "H₂N–CH(CH₃)–CO–NH–CH₂–COOH",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "N-koniec — alanina.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę molową dipeptydu (Ala 89, Gly 75 g/mol).",
+     "odpowiedz": "146 g/mol",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "89 + 75 − 18.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-azotowe-cukry-24",
+   "dzial": "azotowe-cukry"
+  },
+  {
    "tytul": "Glicyna i alanina",
    "material": "Tekst autorski. Glicyna (H₂N–CH₂–COOH) i alanina (H₂N–CH(CH₃)–COOH) to najprostsze aminokwasy białkowe.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -574,7 +637,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-azotowe-cukry-23",
+   "id": "b-azotowe-cukry-25",
    "dzial": "azotowe-cukry"
   },
   {
@@ -601,7 +664,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-24",
+   "id": "b-azotowe-cukry-26",
    "dzial": "azotowe-cukry"
   },
   {
@@ -628,7 +691,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-25",
+   "id": "b-azotowe-cukry-27",
    "dzial": "azotowe-cukry"
   },
   {
@@ -655,7 +718,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-26",
+   "id": "b-azotowe-cukry-28",
    "dzial": "azotowe-cukry"
   },
   {
@@ -682,7 +745,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-27",
+   "id": "b-azotowe-cukry-29",
    "dzial": "azotowe-cukry"
   },
   {
@@ -709,7 +772,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-28",
+   "id": "b-azotowe-cukry-30",
    "dzial": "azotowe-cukry"
   },
   {
@@ -736,7 +799,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-29",
+   "id": "b-azotowe-cukry-31",
    "dzial": "azotowe-cukry"
   },
   {
@@ -763,7 +826,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-30",
+   "id": "b-azotowe-cukry-32",
    "dzial": "azotowe-cukry"
   },
   {
@@ -790,7 +853,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-31",
+   "id": "b-azotowe-cukry-33",
    "dzial": "azotowe-cukry"
   },
   {
@@ -808,7 +871,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-32",
+   "id": "b-azotowe-cukry-34",
    "dzial": "azotowe-cukry"
   },
   {
@@ -835,7 +898,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-33",
+   "id": "b-azotowe-cukry-35",
    "dzial": "azotowe-cukry"
   },
   {
@@ -853,7 +916,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-34",
+   "id": "b-azotowe-cukry-36",
    "dzial": "azotowe-cukry"
   },
   {
@@ -871,7 +934,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-35",
+   "id": "b-azotowe-cukry-37",
    "dzial": "azotowe-cukry"
   }
  ]

@@ -785,6 +785,51 @@
    "dzial": "organiczna"
   },
   {
+   "tytul": "Synteza z etenu",
+   "material": "Tekst autorski. Z etenu otrzymano kolejno: X (addycja HBr) → Y (NaOH aq) → Z (CuO, ogrzewanie) → kwas octowy.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj wzory i nazwy X, Y i Z.",
+     "odpowiedz": "X: CH₃CH₂Br (bromoetan); Y: CH₃CH₂OH (etanol); Z: CH₃CHO (etanal)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj odczynnik utleniający Z do kwasu octowego.",
+     "odpowiedz": "np. odczynnik Tollensa, Cu(OH)₂ lub KMnO₄/H⁺",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-organiczna-30",
+   "dzial": "organiczna"
+  },
+  {
+   "tytul": "Aromatyczność i reaktywność",
+   "material": "Tekst autorski. Porównano reakcje z bromem: cykloheksenu, benzenu i fenolu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj warunki i typ reakcji dla każdego związku.",
+     "odpowiedz": "cykloheksen: addycja, bez katalizatora; benzen: substytucja, katalizator FeBr₃; fenol: substytucja, woda bromowa, bez katalizatora",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Fenol — pierścień aktywowany przez –OH.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-organiczna-31",
+   "dzial": "organiczna"
+  },
+  {
    "tytul": "Bromowanie etenu i benzenu",
    "material": "Tekst autorski. Do dwóch probówek z wodą bromową dodano: do I — eten (przepuszczono gaz), do II — benzen (bez katalizatora). W probówce I woda bromowa odbarwiła się, w II — nie.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -808,7 +853,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-30",
+   "id": "b-organiczna-32",
    "dzial": "organiczna"
   },
   {
@@ -835,7 +880,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-31",
+   "id": "b-organiczna-33",
    "dzial": "organiczna"
   },
   {
@@ -862,7 +907,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-32",
+   "id": "b-organiczna-34",
    "dzial": "organiczna"
   },
   {
@@ -889,7 +934,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-33",
+   "id": "b-organiczna-35",
    "dzial": "organiczna"
   },
   {
@@ -925,7 +970,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-organiczna-34",
+   "id": "b-organiczna-36",
    "dzial": "organiczna"
   },
   {
@@ -952,7 +997,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-35",
+   "id": "b-organiczna-37",
    "dzial": "organiczna"
   },
   {
@@ -979,7 +1024,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-36",
+   "id": "b-organiczna-38",
    "dzial": "organiczna"
   },
   {
@@ -997,7 +1042,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-37",
+   "id": "b-organiczna-39",
    "dzial": "organiczna"
   },
   {
@@ -1015,7 +1060,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-38",
+   "id": "b-organiczna-40",
    "dzial": "organiczna"
   },
   {
@@ -1033,7 +1078,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-39",
+   "id": "b-organiczna-41",
    "dzial": "organiczna"
   },
   {
@@ -1060,7 +1105,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-40",
+   "id": "b-organiczna-42",
    "dzial": "organiczna"
   },
   {
@@ -1096,7 +1141,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-organiczna-41",
+   "id": "b-organiczna-43",
    "dzial": "organiczna"
   },
   {
@@ -1123,7 +1168,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-42",
+   "id": "b-organiczna-44",
    "dzial": "organiczna"
   },
   {
@@ -1141,7 +1186,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-43",
+   "id": "b-organiczna-45",
    "dzial": "organiczna"
   },
   {
@@ -1159,7 +1204,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-44",
+   "id": "b-organiczna-46",
    "dzial": "organiczna"
   }
  ]

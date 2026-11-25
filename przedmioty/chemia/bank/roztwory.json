@@ -434,6 +434,51 @@
    "dzial": "roztwory"
   },
   {
+   "tytul": "Przygotowanie roztworu do miareczkowania",
+   "material": "Tekst autorski. Należy przygotować 250 cm³ roztworu kwasu szczawiowego o stężeniu 0,05 mol/dm³ z dihydratu (COOH)₂·2H₂O (M = 126 g/mol).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę dihydratu do odważenia.",
+     "odpowiedz": "ok. 1,58 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "0,0125 mol · 126 g/mol = 1,575 g.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę naczynia, w którym przygotujesz roztwór.",
+     "odpowiedz": "kolba miarowa (250 cm³)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-17",
+   "dzial": "roztwory"
+  },
+  {
+   "tytul": "Mieszanie roztworów molowych",
+   "material": "Tekst autorski. Zmieszano 200 cm³ roztworu NaCl o stężeniu 0,30 mol/dm³ z 300 cm³ roztworu CaCl₂ o stężeniu 0,10 mol/dm³ (przyjmij addytywność objętości).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stężenie jonów Cl⁻ w roztworze końcowym.",
+     "odpowiedz": "0,24 mol/dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(Cl⁻) = 0,06 + 0,06 = 0,12 mol / 0,5 dm³.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-18",
+   "dzial": "roztwory"
+  },
+  {
    "tytul": "Roztwór z hydratu",
    "material": "Tekst autorski. Należy przygotować 200 g roztworu CuSO₄ o stężeniu 8%, używając CuSO₄·5H₂O (M = 250 g/mol, M(CuSO₄) = 160 g/mol).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -448,7 +493,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-17",
+   "id": "b-roztwory-19",
    "dzial": "roztwory"
   },
   {
@@ -466,7 +511,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-18",
+   "id": "b-roztwory-20",
    "dzial": "roztwory"
   },
   {
@@ -502,7 +547,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-19",
+   "id": "b-roztwory-21",
    "dzial": "roztwory"
   },
   {
@@ -529,7 +574,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-20",
+   "id": "b-roztwory-22",
    "dzial": "roztwory"
   },
   {
@@ -547,7 +592,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-21",
+   "id": "b-roztwory-23",
    "dzial": "roztwory"
   },
   {
@@ -574,7 +619,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-22",
+   "id": "b-roztwory-24",
    "dzial": "roztwory"
   },
   {
@@ -592,7 +637,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-23",
+   "id": "b-roztwory-25",
    "dzial": "roztwory"
   },
   {
@@ -619,7 +664,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-24",
+   "id": "b-roztwory-26",
    "dzial": "roztwory"
   },
   {
@@ -637,7 +682,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-25",
+   "id": "b-roztwory-27",
    "dzial": "roztwory"
   },
   {
@@ -664,7 +709,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-26",
+   "id": "b-roztwory-28",
    "dzial": "roztwory"
   }
  ]

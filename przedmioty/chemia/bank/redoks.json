@@ -659,6 +659,60 @@
    "dzial": "redoks"
   },
   {
+   "tytul": "Ogniwo stężeniowe",
+   "material": "Tekst autorski. Dwa półogniwa miedziane zanurzono w roztworach CuSO₄ o stężeniach 1 mol/dm³ i 0,01 mol/dm³ i połączono kluczem.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż anodę ogniwa.",
+     "odpowiedz": "półogniwo z roztworem 0,01 mol/dm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Niższe stężenie — niższy potencjał.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Opisz, jak zmieniają się stężenia w półogniwach podczas pracy ogniwa.",
+     "odpowiedz": "w rozcieńczonym rośnie, w stężonym maleje — aż do wyrównania",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-24",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Bilans w środowisku zasadowym",
+   "material": "Tekst autorski. W środowisku zasadowym Cr(OH)₃ utlenia się nadtlenkiem wodoru do jonów chromianowych(VI).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równania połówkowe i sumaryczne równanie jonowe.",
+     "odpowiedz": "Cr(OH)₃ + 5OH⁻ → CrO₄²⁻ + 4H₂O + 3e⁻ (×2); H₂O₂ + 2e⁻ → 2OH⁻ (×3); 2Cr(OH)₃ + 3H₂O₂ + 4OH⁻ → 2CrO₄²⁻ + 8H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Sprawdź bilans O, H i ładunku.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj zmianę barwy.",
+     "odpowiedz": "zielony osad → żółty roztwór",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-25",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Manganometria",
    "material": "Tekst autorski. Próbkę soli Mohra zawierającą jony Fe²⁺ zmiareczkowano w środowisku kwasowym roztworem KMnO₄ o stężeniu 0,0200 mol·dm⁻³; zużyto 15,0 cm³ titranta.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -691,7 +745,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-24",
+   "id": "b-redoks-26",
    "dzial": "redoks"
   },
   {
@@ -727,7 +781,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-25",
+   "id": "b-redoks-27",
    "dzial": "redoks"
   },
   {
@@ -754,7 +808,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-26",
+   "id": "b-redoks-28",
    "dzial": "redoks"
   },
   {
@@ -781,7 +835,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-27",
+   "id": "b-redoks-29",
    "dzial": "redoks"
   },
   {
@@ -799,7 +853,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-28",
+   "id": "b-redoks-30",
    "dzial": "redoks"
   },
   {
@@ -826,7 +880,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-29",
+   "id": "b-redoks-31",
    "dzial": "redoks"
   },
   {
@@ -853,7 +907,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-30",
+   "id": "b-redoks-32",
    "dzial": "redoks"
   },
   {
@@ -871,7 +925,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-31",
+   "id": "b-redoks-33",
    "dzial": "redoks"
   },
   {
@@ -898,7 +952,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-32",
+   "id": "b-redoks-34",
    "dzial": "redoks"
   },
   {
@@ -925,7 +979,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-33",
+   "id": "b-redoks-35",
    "dzial": "redoks"
   },
   {
@@ -943,7 +997,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-34",
+   "id": "b-redoks-36",
    "dzial": "redoks"
   },
   {
@@ -961,7 +1015,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-35",
+   "id": "b-redoks-37",
    "dzial": "redoks"
   }
  ]
