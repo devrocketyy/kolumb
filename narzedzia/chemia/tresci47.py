@@ -18,7 +18,7 @@ T['c-wiazania'] = dict(Q=[
 ])
 
 T['c-oddzialywania'] = dict(Q=[
- ('Butan wrze w temperaturze wyższej niż 2-metylopropan, ponieważ:', ['*ma większą powierzchnię kontaktu cząsteczek', 'tworzy wiązania wodorowe', 'jest polarny', 'ma większą masę molową'], 'Obie cząsteczki mają tę samą masę.'),
+ ('Butan wrze w temperaturze wyższej niż 2-metylopropan, ponieważ:', ['*ma większą powierzchnię kontaktu cząsteczek', 'tworzy międzycząsteczkowe wiązania wodorowe', 'jest cząsteczką wyraźnie polarną', 'ma wyraźnie większą masę molową'], 'Obie cząsteczki mają tę samą masę.'),
  ('Diament nie przewodzi prądu, ponieważ:', ['*nie ma zdelokalizowanych elektronów', 'ma budowę jonową z ruchomymi jonami', 'jest zbudowany z cząsteczek C₂', 'ma niską temperaturę topnienia'], 'Każdy C tworzy 4 wiązania σ.'),
 ])
 
