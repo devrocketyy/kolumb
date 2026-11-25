@@ -380,6 +380,33 @@
    "dzial": "chemia-zycia"
   },
   {
+   "tytul": "Bezpieczeństwo w domu",
+   "material": "Tekst autorski. Na etykiecie środka do czyszczenia toalet: „zawiera HCl, nie mieszać z wybielaczem”.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji wydzielającej toksyczny gaz po zmieszaniu z NaClO.",
+     "odpowiedz": "NaClO + 2HCl → NaCl + Cl₂ + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ, jaki to typ reakcji redoks.",
+     "odpowiedz": "synproporcjonowanie (Cl: +I i −I → 0)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-chemia-zycia-15",
+   "dzial": "chemia-zycia"
+  },
+  {
    "tytul": "Mydło w twardej wodzie",
    "material": "Tekst autorski. Do wody wodociągowej dodano roztwór stearynianu sodu — powstał biały osad.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -403,7 +430,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-15",
+   "id": "b-chemia-zycia-16",
    "dzial": "chemia-zycia"
   },
   {
@@ -430,7 +457,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-16",
+   "id": "b-chemia-zycia-17",
    "dzial": "chemia-zycia"
   },
   {
@@ -457,7 +484,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-17",
+   "id": "b-chemia-zycia-18",
    "dzial": "chemia-zycia"
   },
   {
@@ -475,7 +502,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-chemia-zycia-18",
+   "id": "b-chemia-zycia-19",
    "dzial": "chemia-zycia"
   }
  ]

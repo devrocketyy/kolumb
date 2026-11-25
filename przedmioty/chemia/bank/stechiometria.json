@@ -902,6 +902,42 @@
    "dzial": "stechiometria"
   },
   {
+   "tytul": "Utlenianie amoniaku — wydajność przemysłowa",
+   "material": "Tekst autorski. W metodzie Ostwalda z 1 t NH₃ otrzymano 3,15 t HNO₃ (sumarycznie NH₃ → HNO₃ w stosunku 1 : 1).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz wydajność całego procesu.",
+     "odpowiedz": "ok. 85%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Teoretycznie: 1/17 · 63 = 3,71 t; 3,15/3,71 = 0,85.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-38",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Spalanie mieszaniny CO i H₂",
+   "material": "Tekst autorski. 20 dm³ mieszaniny CO i H₂ spalono, zużywając 10 dm³ O₂ (te same warunki).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego z tych danych nie da się ustalić składu mieszaniny, i zaproponuj dodatkowy pomiar.",
+     "odpowiedz": "Oba gazy zużywają po 0,5 obj. O₂ na objętość — 10 dm³ O₂ dla każdego składu. Trzeba zmierzyć np. objętość CO₂ (lub masę wody).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "2CO + O₂ → 2CO₂; 2H₂ + O₂ → 2H₂O.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-39",
+   "dzial": "stechiometria"
+  },
+  {
    "tytul": "Mieszanina węglanów",
    "material": "Tekst autorski. Mieszaninę Na₂CO₃ i NaHCO₃ o masie 2,74 g roztworzono w nadmiarze kwasu solnego. Wydzieliło się 0,672 dm³ CO₂ (warunki normalne). M(Na₂CO₃) = 106 g/mol, M(NaHCO₃) = 84 g/mol.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -925,7 +961,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-38",
+   "id": "b-stechiometria-40",
    "dzial": "stechiometria"
   },
   {
@@ -952,7 +988,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-39",
+   "id": "b-stechiometria-41",
    "dzial": "stechiometria"
   },
   {
@@ -979,7 +1015,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-40",
+   "id": "b-stechiometria-42",
    "dzial": "stechiometria"
   },
   {
@@ -997,7 +1033,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-41",
+   "id": "b-stechiometria-43",
    "dzial": "stechiometria"
   },
   {
@@ -1015,7 +1051,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-42",
+   "id": "b-stechiometria-44",
    "dzial": "stechiometria"
   },
   {
@@ -1033,7 +1069,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-43",
+   "id": "b-stechiometria-45",
    "dzial": "stechiometria"
   },
   {
@@ -1051,7 +1087,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-44",
+   "id": "b-stechiometria-46",
    "dzial": "stechiometria"
   },
   {
@@ -1078,7 +1114,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-45",
+   "id": "b-stechiometria-47",
    "dzial": "stechiometria"
   },
   {
@@ -1096,7 +1132,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-46",
+   "id": "b-stechiometria-48",
    "dzial": "stechiometria"
   },
   {
@@ -1114,7 +1150,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-47",
+   "id": "b-stechiometria-49",
    "dzial": "stechiometria"
   },
   {
@@ -1132,7 +1168,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-48",
+   "id": "b-stechiometria-50",
    "dzial": "stechiometria"
   },
   {
@@ -1150,7 +1186,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-49",
+   "id": "b-stechiometria-51",
    "dzial": "stechiometria"
   },
   {
@@ -1168,7 +1204,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-50",
+   "id": "b-stechiometria-52",
    "dzial": "stechiometria"
   },
   {
@@ -1195,7 +1231,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-51",
+   "id": "b-stechiometria-53",
    "dzial": "stechiometria"
   }
  ]

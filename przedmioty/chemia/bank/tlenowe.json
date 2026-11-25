@@ -1010,6 +1010,60 @@
    "dzial": "tlenowe"
   },
   {
+   "tytul": "Tłuszcz — liczba jodowa",
+   "material": "Tekst autorski. 100 g oleju przyłączyło 50,8 g jodu. Masa molowa trójglicerydu wynosi ok. 880 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz średnią liczbę wiązań C=C w cząsteczce tłuszczu.",
+     "odpowiedz": "ok. 1,76",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(I₂) = 0,2 mol na 100 g = 0,1136 mol tłuszczu → 0,2/0,1136.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, czy olej o wyższej liczbie jodowej jest bardziej, czy mniej nasycony.",
+     "odpowiedz": "mniej nasycony",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-41",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Aldehydy w reakcji z Cu(OH)₂",
+   "material": "Tekst autorski. Do probówek z etanalem i propanonem dodano zawiesiny Cu(OH)₂ w NaOH i ogrzano.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Opisz obserwacje w obu probówkach.",
+     "odpowiedz": "etanal: ceglasty osad; propanon: brak zmian (niebieski osad czernieje do CuO)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji etanalu (forma cząsteczkowa, środowisko zasadowe).",
+     "odpowiedz": "CH₃CHO + 2Cu(OH)₂ + NaOH → CH₃COONa + Cu₂O + 3H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-42",
+   "dzial": "tlenowe"
+  },
+  {
    "tytul": "Identyfikacja alkoholi i fenolu",
    "material": "Tekst autorski. W trzech probówkach znajdują się: etanol, glicerol i fenol (roztwór wodny).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1033,7 +1087,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-41",
+   "id": "b-tlenowe-43",
    "dzial": "tlenowe"
   },
   {
@@ -1060,7 +1114,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-42",
+   "id": "b-tlenowe-44",
    "dzial": "tlenowe"
   },
   {
@@ -1087,7 +1141,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-43",
+   "id": "b-tlenowe-45",
    "dzial": "tlenowe"
   },
   {
@@ -1114,7 +1168,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-44",
+   "id": "b-tlenowe-46",
    "dzial": "tlenowe"
   },
   {
@@ -1141,7 +1195,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-45",
+   "id": "b-tlenowe-47",
    "dzial": "tlenowe"
   },
   {
@@ -1168,7 +1222,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-46",
+   "id": "b-tlenowe-48",
    "dzial": "tlenowe"
   },
   {
@@ -1186,7 +1240,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-47",
+   "id": "b-tlenowe-49",
    "dzial": "tlenowe"
   },
   {
@@ -1204,7 +1258,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-48",
+   "id": "b-tlenowe-50",
    "dzial": "tlenowe"
   },
   {
@@ -1231,7 +1285,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-49",
+   "id": "b-tlenowe-51",
    "dzial": "tlenowe"
   },
   {
@@ -1249,7 +1303,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-50",
+   "id": "b-tlenowe-52",
    "dzial": "tlenowe"
   },
   {
@@ -1267,7 +1321,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-51",
+   "id": "b-tlenowe-53",
    "dzial": "tlenowe"
   },
   {
@@ -1285,7 +1339,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-52",
+   "id": "b-tlenowe-54",
    "dzial": "tlenowe"
   }
  ]

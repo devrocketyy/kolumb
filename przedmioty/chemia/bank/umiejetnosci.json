@@ -353,6 +353,33 @@
    "dzial": "umiejetnosci"
   },
   {
+   "tytul": "Ocena wiarygodności doświadczenia",
+   "material": "Tekst autorski. Uczeń porównywał szybkość reakcji Zn z HCl w dwóch temperaturach, ale w drugiej próbie użył cynku w proszku zamiast granulek.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Oceń poprawność doświadczenia.",
+     "odpowiedz": "Niepoprawne — zmieniono dwa czynniki naraz (temperatura i rozdrobnienie), więc nie można wskazać przyczyny różnicy.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaproponuj poprawkę.",
+     "odpowiedz": "W obu próbach użyć cynku o takim samym rozdrobnieniu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-14",
+   "dzial": "umiejetnosci"
+  },
+  {
    "tytul": "Planowanie doświadczenia — szybkość reakcji",
    "material": "Tekst autorski. Uczeń chce sprawdzić, jak stopień rozdrobnienia wpływa na szybkość reakcji marmuru z kwasem solnym.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -385,7 +412,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-14",
+   "id": "b-umiejetnosci-15",
    "dzial": "umiejetnosci"
   }
  ]

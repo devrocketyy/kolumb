@@ -902,6 +902,51 @@
    "dzial": "roztwory-wodne"
   },
   {
+   "tytul": "pH a stała dysocjacji kwasu",
+   "material": "Tekst autorski. Roztwór kwasu HA o stężeniu 0,1 mol/dm³ ma pH = 3.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz Ka i stopień dysocjacji.",
+     "odpowiedz": "Ka ≈ 1,0 · 10⁻⁵; α = 1%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "[H⁺] = 10⁻³; Ka = 10⁻⁶ / 0,099.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jak zmieni się pH po dodaniu soli NaA.",
+     "odpowiedz": "wzrośnie",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Efekt wspólnego jonu — bufor.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-36",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Rozpoznawanie roztworów po pH",
+   "material": "Tekst autorski. W czterech probówkach są roztwory 0,1 mol/dm³: HCl, NH₄Cl, NaCl, Na₂CO₃. Zmierzone pH: 1; 5,1; 7; 11,6.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Przyporządkuj pH roztworom.",
+     "odpowiedz": "HCl — 1; NH₄Cl — 5,1; NaCl — 7; Na₂CO₃ — 11,6",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-wodne-37",
+   "dzial": "roztwory-wodne"
+  },
+  {
    "tytul": "Stopień dysocjacji",
    "material": "Tekst autorski. W roztworze kwasu metanowego (HCOOH) o stężeniu 0,10 mol·dm⁻³ stopień dysocjacji wynosi 4,2%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -925,7 +970,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-36",
+   "id": "b-roztwory-wodne-38",
    "dzial": "roztwory-wodne"
   },
   {
@@ -952,7 +997,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-37",
+   "id": "b-roztwory-wodne-39",
    "dzial": "roztwory-wodne"
   },
   {
@@ -988,7 +1033,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-wodne-38",
+   "id": "b-roztwory-wodne-40",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1006,7 +1051,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-39",
+   "id": "b-roztwory-wodne-41",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1024,7 +1069,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-40",
+   "id": "b-roztwory-wodne-42",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1042,7 +1087,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-41",
+   "id": "b-roztwory-wodne-43",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1069,7 +1114,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-42",
+   "id": "b-roztwory-wodne-44",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1087,7 +1132,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-43",
+   "id": "b-roztwory-wodne-45",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1105,7 +1150,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-44",
+   "id": "b-roztwory-wodne-46",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1123,7 +1168,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-45",
+   "id": "b-roztwory-wodne-47",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1141,7 +1186,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-46",
+   "id": "b-roztwory-wodne-48",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1168,7 +1213,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-47",
+   "id": "b-roztwory-wodne-49",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1186,7 +1231,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-48",
+   "id": "b-roztwory-wodne-50",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1204,7 +1249,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-49",
+   "id": "b-roztwory-wodne-51",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1222,7 +1267,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-50",
+   "id": "b-roztwory-wodne-52",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1240,7 +1285,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-51",
+   "id": "b-roztwory-wodne-53",
    "dzial": "roztwory-wodne"
   }
  ]

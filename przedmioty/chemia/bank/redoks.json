@@ -893,6 +893,51 @@
    "dzial": "redoks"
   },
   {
+   "tytul": "Bilans z H₂O₂ w środowisku kwasowym",
+   "material": "Tekst autorski. Nadtlenek wodoru utlenia jony jodkowe w środowisku kwasowym.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równania połówkowe i sumaryczne równanie jonowe.",
+     "odpowiedz": "H₂O₂ + 2H⁺ + 2e⁻ → 2H₂O; 2I⁻ → I₂ + 2e⁻; H₂O₂ + 2I⁻ + 2H⁺ → I₂ + 2H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj odczynnik i obserwację potwierdzającą powstanie jodu.",
+     "odpowiedz": "skrobia — granatowe zabarwienie",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-33",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Korozja miedzi i żelaza",
+   "material": "Tekst autorski. Stalową rurę połączono z miedzianą w instalacji wodnej. Po kilku latach w miejscu połączenia rura stalowa skorodowała.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przyczynę korozji i wskaż, który metal był anodą.",
+     "odpowiedz": "Powstało ogniwo galwaniczne Fe–Cu; żelazo (niższy potencjał) było anodą i utleniało się.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    }
+   ],
+   "id": "b-redoks-34",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Manganometria",
    "material": "Tekst autorski. Próbkę soli Mohra zawierającą jony Fe²⁺ zmiareczkowano w środowisku kwasowym roztworem KMnO₄ o stężeniu 0,0200 mol·dm⁻³; zużyto 15,0 cm³ titranta.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -925,7 +970,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-33",
+   "id": "b-redoks-35",
    "dzial": "redoks"
   },
   {
@@ -961,7 +1006,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-34",
+   "id": "b-redoks-36",
    "dzial": "redoks"
   },
   {
@@ -988,7 +1033,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-35",
+   "id": "b-redoks-37",
    "dzial": "redoks"
   },
   {
@@ -1015,7 +1060,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-36",
+   "id": "b-redoks-38",
    "dzial": "redoks"
   },
   {
@@ -1033,7 +1078,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-37",
+   "id": "b-redoks-39",
    "dzial": "redoks"
   },
   {
@@ -1060,7 +1105,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-38",
+   "id": "b-redoks-40",
    "dzial": "redoks"
   },
   {
@@ -1087,7 +1132,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-39",
+   "id": "b-redoks-41",
    "dzial": "redoks"
   },
   {
@@ -1105,7 +1150,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-40",
+   "id": "b-redoks-42",
    "dzial": "redoks"
   },
   {
@@ -1132,7 +1177,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-41",
+   "id": "b-redoks-43",
    "dzial": "redoks"
   },
   {
@@ -1159,7 +1204,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-42",
+   "id": "b-redoks-44",
    "dzial": "redoks"
   },
   {
@@ -1177,7 +1222,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-43",
+   "id": "b-redoks-45",
    "dzial": "redoks"
   },
   {
@@ -1195,7 +1240,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-44",
+   "id": "b-redoks-46",
    "dzial": "redoks"
   }
  ]

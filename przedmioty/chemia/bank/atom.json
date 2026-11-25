@@ -992,6 +992,33 @@
    "dzial": "atom"
   },
   {
+   "tytul": "Izotopy wodoru w reakcjach",
+   "material": "Tekst autorski. Ciężka woda D₂O ma temperaturę wrzenia 101,4°C, a zwykła woda 100°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz zawartość procentową deuteru (masowo) w D₂O.",
+     "odpowiedz": "20%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4 / 20.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego H₂O i D₂O mają niemal identyczne właściwości chemiczne.",
+     "odpowiedz": "O właściwościach chemicznych decyduje konfiguracja elektronowa, która jest taka sama.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-35",
+   "dzial": "atom"
+  },
+  {
    "tytul": "Skład izotopowy chloru",
    "material": "Tekst autorski. Chlor występuje w przyrodzie jako mieszanina izotopów ³⁵Cl (masa 34,97 u) i ³⁷Cl (36,97 u). Średnia masa atomowa chloru wynosi 35,45 u.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1015,7 +1042,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-35",
+   "id": "b-atom-36",
    "dzial": "atom"
   },
   {
@@ -1042,7 +1069,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-36",
+   "id": "b-atom-37",
    "dzial": "atom"
   },
   {
@@ -1069,7 +1096,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-37",
+   "id": "b-atom-38",
    "dzial": "atom"
   },
   {
@@ -1105,7 +1132,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-38",
+   "id": "b-atom-39",
    "dzial": "atom"
   }
  ]
