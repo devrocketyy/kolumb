@@ -1143,6 +1143,32 @@
      "wyjasnienie": "Keton → alkohol II-rzędowy.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s8a2695b7",
+     "typ": "proces",
+     "tytul": "Odróżnianie aldehydów i ketonów",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Próba Tollensa",
+       "d": "aldehyd: lustro srebrne; keton: brak zmian"
+      },
+      {
+       "t": "Próba Trommera",
+       "d": "aldehyd: ceglasty osad Cu₂O; keton: brak"
+      },
+      {
+       "t": "Próba jodoformowa",
+       "d": "żółty osad CHI₃ — metyloketony, etanal i etanol"
+      },
+      {
+       "t": "Utlenianie K₂Cr₂O₇",
+       "d": "aldehyd utlenia się do kwasu, keton nie"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1672,6 +1698,36 @@
      "poprawna": "C",
      "wyjasnienie": "Ma wiązanie podwójne C=C.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s242ea918",
+     "typ": "proces",
+     "tytul": "Porównanie mocy kwasów — doświadczenie",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Kwas mocniejszy + sól słabszego kwasu",
+       "d": "wypiera słabszy kwas"
+      },
+      {
+       "t": "HCl + CH₃COONa",
+       "d": "zapach octu"
+      },
+      {
+       "t": "CH₃COOH + NaHCO₃",
+       "d": "wydziela się CO₂"
+      },
+      {
+       "t": "CO₂ + fenolan sodu",
+       "d": "zmętnienie — wydziela się fenol"
+      },
+      {
+       "t": "Wniosek",
+       "d": "HCl > CH₃COOH > H₂CO₃ > C₆H₅OH"
+      }
+     ]
     }
    ]
   },

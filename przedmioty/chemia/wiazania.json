@@ -1093,6 +1093,57 @@
        "d": "polarne wiązania + niesymetryczny kształt = cząsteczka polarna"
       }
      ]
+    },
+    {
+     "id": "sd313f111",
+     "typ": "rysunek",
+     "tytul": "Kształty cząsteczek (VSEPR)",
+     "opis": "Najczęstsze kształty cząsteczek na maturze. Owalami zaznaczono wolne pary elektronowe.",
+     "uwaga": "Hybrydyzacja NH₃ i H₂O to sp³, ale kształtu nie nazywa się tetraedrem — opisujesz położenie atomów, nie wolnych par.",
+     "svg": "<circle class=\"f2\" cx=\"30\" cy=\"70\" r=\"7\"/><circle class=\"f\" cx=\"60\" cy=\"70\" r=\"9\"/><circle class=\"f2\" cx=\"90\" cy=\"70\" r=\"7\"/><line class=\"s\" x1=\"37\" y1=\"67\" x2=\"51\" y2=\"67\"/><line class=\"s\" x1=\"37\" y1=\"73\" x2=\"51\" y2=\"73\"/><line class=\"s\" x1=\"69\" y1=\"67\" x2=\"83\" y2=\"67\"/><line class=\"s\" x1=\"69\" y1=\"73\" x2=\"83\" y2=\"73\"/><circle class=\"f\" cx=\"200\" cy=\"70\" r=\"9\"/><line class=\"s\" x1=\"200\" y1=\"61\" x2=\"200\" y2=\"32\"/><line class=\"s\" x1=\"192\" y1=\"75\" x2=\"166\" y2=\"92\"/><line class=\"s\" x1=\"208\" y1=\"75\" x2=\"234\" y2=\"92\"/><circle class=\"f2\" cx=\"200\" cy=\"28\" r=\"7\"/><circle class=\"f2\" cx=\"162\" cy=\"94\" r=\"7\"/><circle class=\"f2\" cx=\"238\" cy=\"94\" r=\"7\"/><circle class=\"f\" cx=\"330\" cy=\"70\" r=\"9\"/><line class=\"s\" x1=\"330\" y1=\"61\" x2=\"330\" y2=\"30\"/><line class=\"s\" x1=\"322\" y1=\"74\" x2=\"298\" y2=\"92\"/><line class=\"s\" x1=\"338\" y1=\"74\" x2=\"362\" y2=\"92\"/><path class=\"dash\" d=\"M330 79 L340 108\"/><circle class=\"f2\" cx=\"330\" cy=\"26\" r=\"5\"/><circle class=\"f2\" cx=\"295\" cy=\"94\" r=\"5\"/><circle class=\"f2\" cx=\"365\" cy=\"94\" r=\"5\"/><circle class=\"f2\" cx=\"342\" cy=\"112\" r=\"5\"/><circle class=\"f\" cx=\"90\" cy=\"200\" r=\"9\"/><line class=\"s\" x1=\"83\" y1=\"206\" x2=\"60\" y2=\"230\"/><line class=\"s\" x1=\"97\" y1=\"206\" x2=\"120\" y2=\"230\"/><path class=\"dash\" d=\"M90 209 L95 240\"/><circle class=\"f2\" cx=\"57\" cy=\"233\" r=\"5\"/><circle class=\"f2\" cx=\"123\" cy=\"233\" r=\"5\"/><circle class=\"f2\" cx=\"96\" cy=\"244\" r=\"5\"/><ellipse class=\"s2\" cx=\"90\" cy=\"176\" rx=\"7\" ry=\"12\"/><circle class=\"f\" cx=\"280\" cy=\"200\" r=\"9\"/><line class=\"s\" x1=\"273\" y1=\"206\" x2=\"250\" y2=\"230\"/><line class=\"s\" x1=\"287\" y1=\"206\" x2=\"310\" y2=\"230\"/><circle class=\"f2\" cx=\"247\" cy=\"233\" r=\"5\"/><circle class=\"f2\" cx=\"313\" cy=\"233\" r=\"5\"/><ellipse class=\"s2\" cx=\"270\" cy=\"178\" rx=\"6\" ry=\"11\" transform=\"rotate(-20 270 178)\"/><ellipse class=\"s2\" cx=\"290\" cy=\"178\" rx=\"6\" ry=\"11\" transform=\"rotate(20 290 178)\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 60,
+       "y": 70,
+       "lx": 60,
+       "ly": 120,
+       "n": "Liniowa (CO₂)",
+       "d": "sp, kąt 180°, 2 obszary elektronowe"
+      },
+      {
+       "x": 200,
+       "y": 70,
+       "lx": 200,
+       "ly": 130,
+       "n": "Trójkątna płaska (BF₃)",
+       "d": "sp², kąt 120°"
+      },
+      {
+       "x": 330,
+       "y": 70,
+       "lx": 330,
+       "ly": 140,
+       "n": "Tetraedryczna (CH₄)",
+       "d": "sp³, kąt 109,5°"
+      },
+      {
+       "x": 90,
+       "y": 200,
+       "lx": 30,
+       "ly": 280,
+       "n": "Piramida trygonalna (NH₃)",
+       "d": "sp³ z 1 wolną parą, kąt ok. 107°"
+      },
+      {
+       "x": 280,
+       "y": 200,
+       "lx": 340,
+       "ly": 280,
+       "n": "Kątowa (H₂O)",
+       "d": "sp³ z 2 wolnymi parami, kąt ok. 104,5°"
+      }
+     ]
     }
    ]
   },
@@ -1629,6 +1680,110 @@
      "poprawna": "B",
      "wyjasnienie": "Niepolarny I₂ w niepolarnym rozpuszczalniku.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s834dac0e",
+     "typ": "rysunek",
+     "tytul": "Diagram fazowy",
+     "opis": "Ogólny diagram fazowy substancji (przebieg poglądowy).",
+     "uwaga": "Dla wody krzywa topnienia jest nachylona w lewo (lód ma mniejszą gęstość niż woda). Dla CO₂ punkt potrójny leży powyżej 1 atm — dlatego suchy lód sublimuje.",
+     "svg": "<path class=\"s\" d=\"M50 35 V255 H370\"/><text class=\"t\" x=\"300\" y=\"275\">temperatura</text><text class=\"t\" x=\"8\" y=\"30\">ciśnienie</text><path class=\"s\" d=\"M60 250 C120 230 150 190 180 170\"/><path class=\"s\" d=\"M180 170 C185 120 195 80 205 40\"/><path class=\"s\" d=\"M180 170 C230 150 290 110 330 70\"/><circle class=\"d\" cx=\"180\" cy=\"170\" r=\"4\"/><circle class=\"d\" cx=\"330\" cy=\"70\" r=\"4\"/><text class=\"t\" x=\"95\" y=\"120\">ciało stałe</text><text class=\"t\" x=\"230\" y=\"70\">ciecz</text><text class=\"t\" x=\"250\" y=\"205\">gaz</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 180,
+       "y": 170,
+       "lx": 120,
+       "ly": 200,
+       "n": "Punkt potrójny",
+       "d": "współistnieją wszystkie trzy fazy"
+      },
+      {
+       "x": 330,
+       "y": 70,
+       "lx": 365,
+       "ly": 105,
+       "n": "Punkt krytyczny",
+       "d": "powyżej niego nie da się odróżnić cieczy od gazu"
+      },
+      {
+       "x": 120,
+       "y": 222,
+       "lx": 150,
+       "ly": 245,
+       "n": "Krzywa sublimacji",
+       "d": "równowaga ciało stałe ⇄ gaz"
+      },
+      {
+       "x": 194,
+       "y": 100,
+       "lx": 160,
+       "ly": 60,
+       "n": "Krzywa topnienia",
+       "d": "równowaga ciało stałe ⇄ ciecz"
+      },
+      {
+       "x": 260,
+       "y": 128,
+       "lx": 300,
+       "ly": 150,
+       "n": "Krzywa wrzenia",
+       "d": "równowaga ciecz ⇄ gaz"
+      }
+     ]
+    },
+    {
+     "id": "s55ad50a0",
+     "typ": "rysunek",
+     "tytul": "Krzywa ogrzewania wody",
+     "opis": "Temperatura próbki lodu ogrzewanej ze stałą mocą.",
+     "uwaga": "Podczas przemian fazowych temperatura się nie zmienia. Odcinek wrzenia jest dłuższy, bo ciepło parowania wody jest dużo większe niż ciepło topnienia.",
+     "svg": "<path class=\"s\" d=\"M50 35 V255 H370\"/><text class=\"t\" x=\"290\" y=\"275\">czas ogrzewania</text><text class=\"t\" x=\"8\" y=\"30\">t, °C</text><path class=\"s\" d=\"M55 240 L100 200 H170 L230 110 H320 L360 60\"/><path class=\"dash\" d=\"M50 200 H100 M50 110 H230\"/><text class=\"t\" x=\"28\" y=\"204\">0</text><text class=\"t\" x=\"20\" y=\"114\">100</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 78,
+       "y": 220,
+       "lx": 40,
+       "ly": 250,
+       "n": "Ogrzewanie lodu",
+       "d": "rośnie temperatura ciała stałego"
+      },
+      {
+       "x": 135,
+       "y": 200,
+       "lx": 135,
+       "ly": 230,
+       "n": "Topnienie",
+       "d": "temperatura stała — energia idzie na zrywanie sieci"
+      },
+      {
+       "x": 200,
+       "y": 155,
+       "lx": 160,
+       "ly": 140,
+       "n": "Ogrzewanie wody",
+       "d": "rośnie temperatura cieczy"
+      },
+      {
+       "x": 275,
+       "y": 110,
+       "lx": 275,
+       "ly": 140,
+       "n": "Wrzenie",
+       "d": "temperatura stała — dłuższy odcinek niż topnienie"
+      },
+      {
+       "x": 340,
+       "y": 85,
+       "lx": 370,
+       "ly": 120,
+       "n": "Ogrzewanie pary",
+       "d": ""
+      }
+     ]
     }
    ]
   }

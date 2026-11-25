@@ -1623,6 +1623,34 @@
        "d": "SEM = E°(katody) − E°(anody) = 0,34 − (−0,76) = 1,10 V"
       }
      ]
+    },
+    {
+     "id": "s0589ebe0",
+     "typ": "proces",
+     "tytul": "Ustalanie anody i katody w ogniwie",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Odczytaj potencjały standardowe",
+       "d": "z karty wzorów CKE"
+      },
+      {
+       "t": "Niższy potencjał",
+       "d": "anoda, biegun ujemny, utlenianie"
+      },
+      {
+       "t": "Wyższy potencjał",
+       "d": "katoda, biegun dodatni, redukcja"
+      },
+      {
+       "t": "SEM",
+       "d": "E°(katody) − E°(anody), zawsze dodatnia"
+      },
+      {
+       "t": "Schemat ogniwa",
+       "d": "anoda | jon anody || jon katody | katoda"
+      }
+     ]
     }
    ]
   },

@@ -1214,6 +1214,49 @@
        "d": "najpierw usuwa się elektrony 4s, potem 3d"
       }
      ]
+    },
+    {
+     "id": "s28135269",
+     "typ": "rysunek",
+     "tytul": "Kształty orbitali s, p i d",
+     "opis": "Kontury obszarów, w których prawdopodobieństwo znalezienia elektronu jest największe.",
+     "uwaga": "Orbital nie jest torem elektronu. Na każdym orbitalu mieszczą się najwyżej 2 elektrony o przeciwnych spinach.",
+     "svg": "<circle class=\"f\" cx=\"70\" cy=\"150\" r=\"34\"/><ellipse class=\"f\" cx=\"200\" cy=\"120\" rx=\"11\" ry=\"28\" transform=\"rotate(0 200 120)\"/><ellipse class=\"f\" cx=\"200\" cy=\"180\" rx=\"11\" ry=\"28\" transform=\"rotate(0 200 180)\"/><ellipse class=\"f\" cx=\"354\" cy=\"126\" rx=\"26\" ry=\"10\" transform=\"rotate(-45 354 126)\"/><ellipse class=\"f\" cx=\"306\" cy=\"174\" rx=\"26\" ry=\"10\" transform=\"rotate(-45 306 174)\"/><ellipse class=\"f\" cx=\"306\" cy=\"126\" rx=\"26\" ry=\"10\" transform=\"rotate(45 306 126)\"/><ellipse class=\"f\" cx=\"354\" cy=\"174\" rx=\"26\" ry=\"10\" transform=\"rotate(45 354 174)\"/><circle class=\"d\" cx=\"70\" cy=\"150\" r=\"2.5\"/><circle class=\"d\" cx=\"200\" cy=\"150\" r=\"2.5\"/><circle class=\"d\" cx=\"330\" cy=\"150\" r=\"2.5\"/><path class=\"dash\" d=\"M200 90 V210 M140 150 H260\"/><text class=\"t\" x=\"196\" y=\"84\">z</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 70,
+       "y": 150,
+       "lx": 70,
+       "ly": 240,
+       "n": "Orbital s",
+       "d": "kulisty; l = 0, jeden na powłokę"
+      },
+      {
+       "x": 200,
+       "y": 120,
+       "lx": 200,
+       "ly": 240,
+       "n": "Orbital p",
+       "d": "dwa „płaty”; l = 1, trzy orbitale px, py, pz"
+      },
+      {
+       "x": 330,
+       "y": 150,
+       "lx": 330,
+       "ly": 240,
+       "n": "Orbital d",
+       "d": "cztery płaty (większość); l = 2, pięć orbitali"
+      },
+      {
+       "x": 200,
+       "y": 150,
+       "lx": 260,
+       "ly": 60,
+       "n": "Płaszczyzna węzłowa",
+       "d": "prawdopodobieństwo znalezienia elektronu równe zeru"
+      }
+     ]
     }
    ]
   },

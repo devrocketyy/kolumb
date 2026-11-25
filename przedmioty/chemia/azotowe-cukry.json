@@ -542,6 +542,32 @@
      "wyjasnienie": "W środowisku zasadowym powstaje sól i amoniak.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "saedfbd47",
+     "typ": "proces",
+     "tytul": "Hydroliza amidów",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Środowisko kwasowe",
+       "d": "RCONH₂ + H₂O + H⁺ → RCOOH + NH₄⁺"
+      },
+      {
+       "t": "Środowisko zasadowe",
+       "d": "RCONH₂ + OH⁻ → RCOO⁻ + NH₃↑"
+      },
+      {
+       "t": "Mocznik w kwasie",
+       "d": "CO(NH₂)₂ + H₂O + 2H⁺ → CO₂↑ + 2NH₄⁺"
+      },
+      {
+       "t": "Mocznik w zasadzie",
+       "d": "CO(NH₂)₂ + 2OH⁻ → CO₃²⁻ + 2NH₃↑"
+      }
+     ]
+    }
    ]
   },
   {

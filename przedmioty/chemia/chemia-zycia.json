@@ -1060,6 +1060,36 @@
      "wyjasnienie": "Nawożenie wód.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s5fe98075",
+     "typ": "proces",
+     "tytul": "Kwaśne deszcze — powstawanie",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Spalanie paliw z siarką",
+       "d": "S + O₂ → SO₂"
+      },
+      {
+       "t": "Utlenianie w atmosferze",
+       "d": "2SO₂ + O₂ → 2SO₃"
+      },
+      {
+       "t": "Reakcja z wodą",
+       "d": "SO₃ + H₂O → H₂SO₄"
+      },
+      {
+       "t": "Tlenki azotu",
+       "d": "NO₂ z wodą i tlenem → HNO₃"
+      },
+      {
+       "t": "Skutki",
+       "d": "zakwaszenie gleb i wód, niszczenie budowli z wapienia"
+      }
+     ]
+    }
    ]
   }
  ]

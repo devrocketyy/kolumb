@@ -2187,6 +2187,36 @@
      "wyjasnienie": "Dichromian(VI).",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sbdd41d9d",
+     "typ": "proces",
+     "tytul": "Szereg aktywności metali (wybrane)",
+     "opis": "Metal stojący wyżej wypiera z roztworów soli metale stojące niżej.",
+     "kroki": [
+      {
+       "t": "K, Ca, Na",
+       "d": "reagują z wodą na zimno"
+      },
+      {
+       "t": "Mg, Al, Zn, Fe",
+       "d": "wypierają wodór z kwasów nieutleniających"
+      },
+      {
+       "t": "H",
+       "d": "punkt odniesienia (E° = 0 V)"
+      },
+      {
+       "t": "Cu, Hg, Ag",
+       "d": "nie wypierają wodoru; roztwarzają się w kwasach utleniających"
+      },
+      {
+       "t": "Au, Pt",
+       "d": "tylko woda królewska"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2781,6 +2811,40 @@
      "poprawna": "C",
      "wyjasnienie": "Wiązanie CO₂ z powietrza.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s4b8fd6c2",
+     "typ": "proces",
+     "tytul": "Wykrywanie gazów w laboratorium",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "O₂",
+       "d": "rozżarzone łuczywo zapala się"
+      },
+      {
+       "t": "H₂",
+       "d": "zapalony — charakterystyczny dźwięk (mieszanina piorunująca)"
+      },
+      {
+       "t": "CO₂",
+       "d": "woda wapienna mętnieje"
+      },
+      {
+       "t": "NH₃",
+       "d": "wilgotny papierek uniwersalny barwi się na niebiesko"
+      },
+      {
+       "t": "Cl₂",
+       "d": "wilgotny papierek jodoskrobiowy granatowieje"
+      },
+      {
+       "t": "SO₂",
+       "d": "odbarwia roztwór KMnO₄ i wodę bromową"
+      }
+     ]
     }
    ]
   }
