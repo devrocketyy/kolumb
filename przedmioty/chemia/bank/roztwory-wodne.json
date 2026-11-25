@@ -569,6 +569,69 @@
    "dzial": "roztwory-wodne"
   },
   {
+   "tytul": "Moc kwasów z wartości Ka",
+   "material": "Tekst autorski. Ka (25°C): HF 6,3 · 10⁻⁴; HCOOH 1,8 · 10⁻⁴; CH₃COOH 1,8 · 10⁻⁵; HCN 6,2 · 10⁻¹⁰.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Uszereguj kwasy według rosnącej mocy.",
+     "odpowiedz": "HCN < CH₃COOH < HCOOH < HF",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż zasadę sprzężoną, która jest najmocniejsza.",
+     "odpowiedz": "CN⁻",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Najsłabszy kwas → najmocniejsza zasada sprzężona.",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz pH roztworu HCOOH o stężeniu 0,18 mol/dm³ (α < 5%).",
+     "odpowiedz": "pH ≈ 2,24",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "[H⁺] = √(1,8 · 10⁻⁴ · 0,18) = √(3,24 · 10⁻⁵) = 5,7 · 10⁻³.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-roztwory-wodne-23",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Hydroliza a pH soli amonowej",
+   "material": "Tekst autorski. Roztwór NH₄Cl ma stężenie 0,1 mol/dm³. Kb(NH₃) = 1,8 · 10⁻⁵.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie hydrolizy.",
+     "odpowiedz": "NH₄⁺ + H₂O ⇄ NH₃ + H₃O⁺",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz pH roztworu.",
+     "odpowiedz": "pH ≈ 5,1",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Ka = Kw/Kb = 5,6 · 10⁻¹⁰; [H⁺] = √(5,6 · 10⁻¹¹) = 7,5 · 10⁻⁶.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-24",
+   "dzial": "roztwory-wodne"
+  },
+  {
    "tytul": "Stopień dysocjacji",
    "material": "Tekst autorski. W roztworze kwasu metanowego (HCOOH) o stężeniu 0,10 mol·dm⁻³ stopień dysocjacji wynosi 4,2%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -592,7 +655,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-23",
+   "id": "b-roztwory-wodne-25",
    "dzial": "roztwory-wodne"
   },
   {
@@ -619,7 +682,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-24",
+   "id": "b-roztwory-wodne-26",
    "dzial": "roztwory-wodne"
   },
   {
@@ -655,7 +718,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-wodne-25",
+   "id": "b-roztwory-wodne-27",
    "dzial": "roztwory-wodne"
   },
   {
@@ -673,7 +736,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-26",
+   "id": "b-roztwory-wodne-28",
    "dzial": "roztwory-wodne"
   },
   {
@@ -691,7 +754,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-27",
+   "id": "b-roztwory-wodne-29",
    "dzial": "roztwory-wodne"
   },
   {
@@ -709,7 +772,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-28",
+   "id": "b-roztwory-wodne-30",
    "dzial": "roztwory-wodne"
   },
   {
@@ -736,7 +799,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-29",
+   "id": "b-roztwory-wodne-31",
    "dzial": "roztwory-wodne"
   },
   {
@@ -754,7 +817,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-30",
+   "id": "b-roztwory-wodne-32",
    "dzial": "roztwory-wodne"
   },
   {
@@ -772,7 +835,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-31",
+   "id": "b-roztwory-wodne-33",
    "dzial": "roztwory-wodne"
   },
   {
@@ -790,7 +853,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-32",
+   "id": "b-roztwory-wodne-34",
    "dzial": "roztwory-wodne"
   },
   {
@@ -808,7 +871,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-33",
+   "id": "b-roztwory-wodne-35",
    "dzial": "roztwory-wodne"
   },
   {
@@ -835,7 +898,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-34",
+   "id": "b-roztwory-wodne-36",
    "dzial": "roztwory-wodne"
   },
   {
@@ -853,7 +916,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-35",
+   "id": "b-roztwory-wodne-37",
    "dzial": "roztwory-wodne"
   },
   {
@@ -871,7 +934,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-36",
+   "id": "b-roztwory-wodne-38",
    "dzial": "roztwory-wodne"
   },
   {
@@ -889,7 +952,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-37",
+   "id": "b-roztwory-wodne-39",
    "dzial": "roztwory-wodne"
   },
   {
@@ -907,7 +970,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-38",
+   "id": "b-roztwory-wodne-40",
    "dzial": "roztwory-wodne"
   }
  ]
