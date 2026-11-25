@@ -137,6 +137,60 @@
    "dzial": "wiazania"
   },
   {
+   "tytul": "Właściwości a rodzaj wiązania",
+   "material": "Tekst autorski. Substancja A topnieje w 801°C i przewodzi prąd w stanie stopionym. Substancja B topnieje w −114°C, a jej roztwór wodny przewodzi prąd. Substancja C topnieje w 1710°C i nie przewodzi prądu w żadnym stanie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Przyporządkuj typ kryształu i podaj przykład dla A, B i C.",
+     "odpowiedz": "A: jonowy (NaCl); B: molekularny, polarny (HCl); C: kowalencyjny (SiO₂)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "B dysocjuje w wodzie, choć sam nie ma jonów.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego A nie przewodzi prądu w stanie stałym.",
+     "odpowiedz": "Jony są unieruchomione w sieci krystalicznej.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-wiazania-07",
+   "dzial": "wiazania"
+  },
+  {
+   "tytul": "Wiązania w jonie amonowym i hydroniowym",
+   "material": "Tekst autorski. Jony NH₄⁺ i H₃O⁺ powstają przez przyłączenie protonu do cząsteczek NH₃ i H₂O.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj kształt obu jonów.",
+     "odpowiedz": "NH₄⁺ — tetraedr; H₃O⁺ — piramida trygonalna",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "H₃O⁺ ma jedną wolną parę.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w NH₄⁺ wszystkie wiązania N–H są równocenne, choć jedno powstało jako koordynacyjne.",
+     "odpowiedz": "Po utworzeniu wiązania koordynacyjne nie różni się od kowalencyjnego — hybrydyzacja sp³ i delokalizacja ładunku.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-wiazania-08",
+   "dzial": "wiazania"
+  },
+  {
    "tytul": "Temperatury wrzenia",
    "material": "Tekst autorski. Temperatury wrzenia: H₂O — 100°C, H₂S — −60°C, H₂Se — −41°C, H₂Te — −2°C.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -160,7 +214,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-07",
+   "id": "b-wiazania-09",
    "dzial": "wiazania"
   },
   {
@@ -187,7 +241,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-08",
+   "id": "b-wiazania-10",
    "dzial": "wiazania"
   },
   {
@@ -223,7 +277,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-wiazania-09",
+   "id": "b-wiazania-11",
    "dzial": "wiazania"
   },
   {
@@ -250,7 +304,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-10",
+   "id": "b-wiazania-12",
    "dzial": "wiazania"
   },
   {
@@ -277,7 +331,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-11",
+   "id": "b-wiazania-13",
    "dzial": "wiazania"
   }
  ]

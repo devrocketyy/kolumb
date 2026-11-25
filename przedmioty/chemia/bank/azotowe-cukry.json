@@ -290,6 +290,78 @@
    "dzial": "azotowe-cukry"
   },
   {
+   "tytul": "Tripeptyd",
+   "material": "Tekst autorski. Tripeptyd zbudowany z glicyny, alaniny i seryny poddano hydrolizie częściowej. Otrzymano dipeptydy Ala-Ser i Gly-Ala.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Ustal sekwencję tripeptydu.",
+     "odpowiedz": "Gly-Ala-Ser",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wspólny fragment — Ala w środku.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj liczbę wiązań peptydowych i liczbę asymetrycznych atomów węgla w tripeptydzie.",
+     "odpowiedz": "2 wiązania peptydowe; 2 atomy asymetryczne",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Glicyna nie ma centrum stereogenicznego.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę reakcji, którą potwierdzisz obecność wiązań peptydowych.",
+     "odpowiedz": "reakcja biuretowa",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wymaga co najmniej dwóch wiązań peptydowych.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-azotowe-cukry-15",
+   "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Maltoza i sacharoza",
+   "material": "Tekst autorski. Maltoza i sacharoza to disacharydy o wzorze C₁₂H₂₂O₁₁. Tylko jedna z nich daje pozytywną próbę Tollensa.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż, która, i uzasadnij budową.",
+     "odpowiedz": "maltoza — ma wolną grupę półacetalową (wiązanie α-1,4)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Sacharoza: wiązanie α,β-1,2.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj produkty hydrolizy każdego disacharydu.",
+     "odpowiedz": "maltoza: 2 glukoza; sacharoza: glukoza + fruktoza",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę glukozy z całkowitej hydrolizy 34,2 g maltozy.",
+     "odpowiedz": "36 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,1 mol maltozy → 0,2 mol glukozy · 180.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-azotowe-cukry-16",
+   "dzial": "azotowe-cukry"
+  },
+  {
    "tytul": "Glicyna i alanina",
    "material": "Tekst autorski. Glicyna (H₂N–CH₂–COOH) i alanina (H₂N–CH(CH₃)–COOH) to najprostsze aminokwasy białkowe.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -322,7 +394,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-azotowe-cukry-15",
+   "id": "b-azotowe-cukry-17",
    "dzial": "azotowe-cukry"
   },
   {
@@ -349,7 +421,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-16",
+   "id": "b-azotowe-cukry-18",
    "dzial": "azotowe-cukry"
   },
   {
@@ -376,7 +448,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-17",
+   "id": "b-azotowe-cukry-19",
    "dzial": "azotowe-cukry"
   },
   {
@@ -403,7 +475,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-18",
+   "id": "b-azotowe-cukry-20",
    "dzial": "azotowe-cukry"
   },
   {
@@ -430,7 +502,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-19",
+   "id": "b-azotowe-cukry-21",
    "dzial": "azotowe-cukry"
   },
   {
@@ -457,7 +529,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-20",
+   "id": "b-azotowe-cukry-22",
    "dzial": "azotowe-cukry"
   },
   {
@@ -484,7 +556,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-21",
+   "id": "b-azotowe-cukry-23",
    "dzial": "azotowe-cukry"
   },
   {
@@ -511,7 +583,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-22",
+   "id": "b-azotowe-cukry-24",
    "dzial": "azotowe-cukry"
   },
   {
@@ -538,7 +610,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-23",
+   "id": "b-azotowe-cukry-25",
    "dzial": "azotowe-cukry"
   },
   {
@@ -556,7 +628,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-24",
+   "id": "b-azotowe-cukry-26",
    "dzial": "azotowe-cukry"
   },
   {
@@ -583,7 +655,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-25",
+   "id": "b-azotowe-cukry-27",
    "dzial": "azotowe-cukry"
   },
   {
@@ -601,7 +673,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-26",
+   "id": "b-azotowe-cukry-28",
    "dzial": "azotowe-cukry"
   },
   {
@@ -619,7 +691,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-27",
+   "id": "b-azotowe-cukry-29",
    "dzial": "azotowe-cukry"
   }
  ]
