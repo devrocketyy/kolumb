@@ -182,6 +182,42 @@
    "dzial": "chemia-zycia"
   },
   {
+   "tytul": "Kwasowość gleby",
+   "material": "Tekst autorski. Gleba ma pH = 5. Rolnik chce podnieść pH do 6,5 przez wapnowanie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wzór i nazwę substancji stosowanej do wapnowania.",
+     "odpowiedz": "CaCO₃ (węglan wapnia) lub CaO",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie jonowe reakcji CaCO₃ z kwasem w glebie.",
+     "odpowiedz": "CaCO₃ + 2H⁺ → Ca²⁺ + CO₂ + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy zmaleje stężenie H⁺ po zmianie pH z 5 na 6,5.",
+     "odpowiedz": "ok. 32 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "10^1,5 ≈ 31,6.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-chemia-zycia-08",
+   "dzial": "chemia-zycia"
+  },
+  {
    "tytul": "Kwaśne deszcze i zabytki",
    "material": "Tekst autorski. Na powierzchni marmurowych rzeźb w miastach tworzy się krucha warstwa gipsu (CaSO₄·2H₂O).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -205,7 +241,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-08",
+   "id": "b-chemia-zycia-09",
    "dzial": "chemia-zycia"
   },
   {
@@ -232,7 +268,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-09",
+   "id": "b-chemia-zycia-10",
    "dzial": "chemia-zycia"
   },
   {
@@ -259,7 +295,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-10",
+   "id": "b-chemia-zycia-11",
    "dzial": "chemia-zycia"
   },
   {
@@ -286,7 +322,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-11",
+   "id": "b-chemia-zycia-12",
    "dzial": "chemia-zycia"
   },
   {
@@ -304,7 +340,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-chemia-zycia-12",
+   "id": "b-chemia-zycia-13",
    "dzial": "chemia-zycia"
   }
  ]

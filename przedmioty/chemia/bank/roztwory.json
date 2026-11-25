@@ -380,6 +380,33 @@
    "dzial": "roztwory"
   },
   {
+   "tytul": "Woda morska",
+   "material": "Tekst autorski. Woda morska zawiera ok. 3,5% soli, z czego ok. 78% stanowi NaCl.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę NaCl, którą można otrzymać z 1 tony wody morskiej.",
+     "odpowiedz": "ok. 27,3 kg",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "1000 · 0,035 · 0,78.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj metodę otrzymywania soli z wody morskiej.",
+     "odpowiedz": "odparowanie wody (warzelnie, saliny)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-15",
+   "dzial": "roztwory"
+  },
+  {
    "tytul": "Roztwór z hydratu",
    "material": "Tekst autorski. Należy przygotować 200 g roztworu CuSO₄ o stężeniu 8%, używając CuSO₄·5H₂O (M = 250 g/mol, M(CuSO₄) = 160 g/mol).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -394,7 +421,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-15",
+   "id": "b-roztwory-16",
    "dzial": "roztwory"
   },
   {
@@ -412,7 +439,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-16",
+   "id": "b-roztwory-17",
    "dzial": "roztwory"
   },
   {
@@ -448,7 +475,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-17",
+   "id": "b-roztwory-18",
    "dzial": "roztwory"
   },
   {
@@ -475,7 +502,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-18",
+   "id": "b-roztwory-19",
    "dzial": "roztwory"
   },
   {
@@ -493,7 +520,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-19",
+   "id": "b-roztwory-20",
    "dzial": "roztwory"
   },
   {
@@ -520,7 +547,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-20",
+   "id": "b-roztwory-21",
    "dzial": "roztwory"
   },
   {
@@ -538,7 +565,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-21",
+   "id": "b-roztwory-22",
    "dzial": "roztwory"
   },
   {
@@ -565,7 +592,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-22",
+   "id": "b-roztwory-23",
    "dzial": "roztwory"
   },
   {
@@ -583,7 +610,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-23",
+   "id": "b-roztwory-24",
    "dzial": "roztwory"
   },
   {
@@ -610,7 +637,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-24",
+   "id": "b-roztwory-25",
    "dzial": "roztwory"
   }
  ]

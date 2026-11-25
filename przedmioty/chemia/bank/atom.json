@@ -731,6 +731,42 @@
    "dzial": "atom"
   },
   {
+   "tytul": "Okresowość — pierwiastki X, Y, Z",
+   "material": "Tekst autorski. X jest najbardziej elektroujemnym pierwiastkiem. Y leży w 3. okresie i tworzy tlenek amfoteryczny. Z ma konfigurację [Kr] 5s¹.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zidentyfikuj X, Y i Z.",
+     "odpowiedz": "X: F; Y: Al; Z: Rb",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wzór i rodzaj wiązania w związku Y z X.",
+     "odpowiedz": "AlF₃ — wiązanie jonowe",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Różnica elektroujemności ok. 2,5.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Uszereguj X, Y, Z według rosnącego promienia atomu.",
+     "odpowiedz": "F < Al < Rb",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-atom-26",
+   "dzial": "atom"
+  },
+  {
    "tytul": "Skład izotopowy chloru",
    "material": "Tekst autorski. Chlor występuje w przyrodzie jako mieszanina izotopów ³⁵Cl (masa 34,97 u) i ³⁷Cl (36,97 u). Średnia masa atomowa chloru wynosi 35,45 u.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -754,7 +790,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-26",
+   "id": "b-atom-27",
    "dzial": "atom"
   },
   {
@@ -781,7 +817,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-27",
+   "id": "b-atom-28",
    "dzial": "atom"
   },
   {
@@ -808,7 +844,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-28",
+   "id": "b-atom-29",
    "dzial": "atom"
   },
   {
@@ -844,7 +880,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-29",
+   "id": "b-atom-30",
    "dzial": "atom"
   }
  ]
