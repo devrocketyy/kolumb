@@ -524,6 +524,42 @@
    "dzial": "atom"
   },
   {
+   "tytul": "Izotopy w medycynie",
+   "material": "Tekst autorski. Jod-131 (T½ = 8 dni) stosuje się w leczeniu chorób tarczycy. Ulega przemianie β⁻.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie przemiany jodu-131.",
+     "odpowiedz": "¹³¹₅₃I → ¹³¹₅₄Xe + ⁰₋₁e",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaki procent początkowej ilości I-131 pozostanie po 24 dniach.",
+     "odpowiedz": "12,5%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Trzy okresy półtrwania.",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz liczbę neutronów w jądrze I-131.",
+     "odpowiedz": "78",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "131 − 53.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-atom-19",
+   "dzial": "atom"
+  },
+  {
    "tytul": "Izotopy boru",
    "material": "Tekst autorski. Bor występuje w przyrodzie w postaci dwóch trwałych izotopów: ¹⁰B i ¹¹B. Średnia masa atomowa boru wynosi 10,81 u.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -547,7 +583,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-19",
+   "id": "b-atom-20",
    "dzial": "atom"
   },
   {
@@ -583,7 +619,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-20",
+   "id": "b-atom-21",
    "dzial": "atom"
   },
   {
@@ -610,7 +646,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-21",
+   "id": "b-atom-22",
    "dzial": "atom"
   },
   {
@@ -637,7 +673,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-22",
+   "id": "b-atom-23",
    "dzial": "atom"
   },
   {
@@ -664,7 +700,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-23",
+   "id": "b-atom-24",
    "dzial": "atom"
   },
   {
@@ -691,7 +727,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-24",
+   "id": "b-atom-25",
    "dzial": "atom"
   },
   {
@@ -727,7 +763,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-25",
+   "id": "b-atom-26",
    "dzial": "atom"
   }
  ]

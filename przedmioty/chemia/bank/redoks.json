@@ -218,6 +218,78 @@
    "dzial": "redoks"
   },
   {
+   "tytul": "Manganometria — oznaczanie żelaza",
+   "material": "Tekst autorski. Próbkę soli Mohra rozpuszczono w rozcieńczonym H₂SO₄ i miareczkowano roztworem KMnO₄ o stężeniu 0,020 mol/dm³. Zużyto 15,0 cm³ titranta.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz w formie jonowej skróconej równanie reakcji.",
+     "odpowiedz": "MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę żelaza w próbce.",
+     "odpowiedz": "0,084 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(MnO₄⁻) = 3,0 · 10⁻⁴; n(Fe²⁺) = 1,5 · 10⁻³ mol · 56 g/mol.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w tym miareczkowaniu nie dodaje się wskaźnika.",
+     "odpowiedz": "KMnO₄ jest fioletowy, a Mn²⁺ prawie bezbarwny — pierwsza nadmiarowa kropla daje trwałe różowe zabarwienie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Titrant pełni rolę wskaźnika.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-redoks-11",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Elektroliza siarczanu miedzi(II)",
+   "material": "Tekst autorski. Wodny roztwór CuSO₄ elektrolizowano prądem 2,0 A przez 32 min 10 s (1930 s) na elektrodach platynowych.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równania procesów elektrodowych.",
+     "odpowiedz": "K: Cu²⁺ + 2e⁻ → Cu; A: 2H₂O → O₂ + 4H⁺ + 4e⁻",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Aniony SO₄²⁻ się nie utleniają.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę miedzi wydzielonej na katodzie.",
+     "odpowiedz": "ok. 1,28 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Q = 3860 C; n(e⁻) = 0,04 mol; n(Cu) = 0,02 mol · 64.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jak zmieni się pH roztworu podczas elektrolizy.",
+     "odpowiedz": "maleje — powstają jony H⁺",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-redoks-12",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Manganian(VII) potasu",
    "material": "Tekst autorski. Do zakwaszonego kwasem siarkowym(VI) roztworu siarczanu(VI) żelaza(II) wkraplano fioletowy roztwór KMnO₄. Roztwór manganianu odbarwiał się, a roztwór w probówce zmienił barwę z bladozielonej na żółtą.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -250,7 +322,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-11",
+   "id": "b-redoks-13",
    "dzial": "redoks"
   },
   {
@@ -295,7 +367,7 @@
      "nr": "4"
     }
    ],
-   "id": "b-redoks-12",
+   "id": "b-redoks-14",
    "dzial": "redoks"
   },
   {
@@ -331,7 +403,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-13",
+   "id": "b-redoks-15",
    "dzial": "redoks"
   },
   {
@@ -367,7 +439,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-14",
+   "id": "b-redoks-16",
    "dzial": "redoks"
   },
   {
@@ -403,7 +475,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-15",
+   "id": "b-redoks-17",
    "dzial": "redoks"
   },
   {
@@ -430,7 +502,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-16",
+   "id": "b-redoks-18",
    "dzial": "redoks"
   },
   {
@@ -457,7 +529,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-17",
+   "id": "b-redoks-19",
    "dzial": "redoks"
   },
   {
@@ -475,7 +547,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-18",
+   "id": "b-redoks-20",
    "dzial": "redoks"
   },
   {
@@ -502,7 +574,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-19",
+   "id": "b-redoks-21",
    "dzial": "redoks"
   },
   {
@@ -529,7 +601,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-20",
+   "id": "b-redoks-22",
    "dzial": "redoks"
   },
   {
@@ -547,7 +619,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-21",
+   "id": "b-redoks-23",
    "dzial": "redoks"
   },
   {
@@ -574,7 +646,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-22",
+   "id": "b-redoks-24",
    "dzial": "redoks"
   },
   {
@@ -601,7 +673,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-23",
+   "id": "b-redoks-25",
    "dzial": "redoks"
   },
   {
@@ -619,7 +691,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-24",
+   "id": "b-redoks-26",
    "dzial": "redoks"
   },
   {
@@ -637,7 +709,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-25",
+   "id": "b-redoks-27",
    "dzial": "redoks"
   }
  ]

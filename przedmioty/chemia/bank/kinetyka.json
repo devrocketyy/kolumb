@@ -281,6 +281,87 @@
    "dzial": "kinetyka"
   },
   {
+   "tytul": "Rozkład nadtlenku wodoru",
+   "material": "Tekst autorski. Rozkład H₂O₂ przyspiesza MnO₂. W doświadczeniu do 50 cm³ roztworu H₂O₂ dodano szczyptę MnO₂ i co minutę mierzono objętość wydzielonego tlenu: 0, 24, 40, 50, 55, 56, 56 cm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji i podaj rolę MnO₂.",
+     "odpowiedz": "2H₂O₂ → 2H₂O + O₂; katalizator",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "MnO₂ nie zużywa się — można go odsączyć i użyć ponownie.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego objętość tlenu przyrasta coraz wolniej.",
+     "odpowiedz": "Maleje stężenie H₂O₂, więc maleje szybkość reakcji.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Po 5 min substrat się wyczerpał.",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średnią szybkość wydzielania tlenu w pierwszych 2 minutach.",
+     "odpowiedz": "20 cm³/min",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "40 cm³ / 2 min.",
+     "nr": "3"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jak zmieni się końcowa objętość tlenu, jeśli użyje się dwa razy więcej MnO₂.",
+     "odpowiedz": "nie zmieni się (reakcja będzie szybsza)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Katalizator nie zmienia ilości produktu.",
+     "nr": "4"
+    }
+   ],
+   "id": "b-kinetyka-14",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Równowaga estryfikacji",
+   "material": "Tekst autorski. Zmieszano 1 mol kwasu octowego i 1 mol etanolu. Stała równowagi estryfikacji w danej temperaturze wynosi 4.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz liczbę moli estru w stanie równowagi.",
+     "odpowiedz": "ok. 0,67 mol",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "x² / (1 − x)² = 4 → x / (1 − x) = 2 → x = 2/3.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj dwa sposoby zwiększenia wydajności estru.",
+     "odpowiedz": "nadmiar jednego substratu; usuwanie wody lub estru (np. oddestylowanie)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Reguła przekory.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij rolę stężonego H₂SO₄ w tej reakcji.",
+     "odpowiedz": "katalizuje reakcję i wiąże wodę, przesuwając równowagę w prawo",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-kinetyka-15",
+   "dzial": "kinetyka"
+  },
+  {
    "tytul": "Prawo Hessa",
    "material": "Tekst autorski. Dane: (1) C(grafit) + O₂ → CO₂, ΔH₁ = −394 kJ; (2) CO + ½O₂ → CO₂, ΔH₂ = −283 kJ.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -304,7 +385,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-14",
+   "id": "b-kinetyka-16",
    "dzial": "kinetyka"
   },
   {
@@ -340,7 +421,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-15",
+   "id": "b-kinetyka-17",
    "dzial": "kinetyka"
   },
   {
@@ -367,7 +448,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-16",
+   "id": "b-kinetyka-18",
    "dzial": "kinetyka"
   },
   {
@@ -403,7 +484,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-17",
+   "id": "b-kinetyka-19",
    "dzial": "kinetyka"
   },
   {
@@ -430,7 +511,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-18",
+   "id": "b-kinetyka-20",
    "dzial": "kinetyka"
   },
   {
@@ -457,7 +538,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-19",
+   "id": "b-kinetyka-21",
    "dzial": "kinetyka"
   },
   {
@@ -484,7 +565,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-20",
+   "id": "b-kinetyka-22",
    "dzial": "kinetyka"
   },
   {
@@ -511,7 +592,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-21",
+   "id": "b-kinetyka-23",
    "dzial": "kinetyka"
   },
   {
@@ -538,7 +619,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-22",
+   "id": "b-kinetyka-24",
    "dzial": "kinetyka"
   },
   {
@@ -574,7 +655,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-23",
+   "id": "b-kinetyka-25",
    "dzial": "kinetyka"
   },
   {
@@ -601,7 +682,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-24",
+   "id": "b-kinetyka-26",
    "dzial": "kinetyka"
   },
   {
@@ -628,7 +709,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-25",
+   "id": "b-kinetyka-27",
    "dzial": "kinetyka"
   },
   {
@@ -646,7 +727,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-26",
+   "id": "b-kinetyka-28",
    "dzial": "kinetyka"
   },
   {
@@ -664,7 +745,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-27",
+   "id": "b-kinetyka-29",
    "dzial": "kinetyka"
   }
  ]

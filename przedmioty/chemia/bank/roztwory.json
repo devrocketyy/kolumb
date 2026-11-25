@@ -164,6 +164,78 @@
    "dzial": "roztwory"
   },
   {
+   "tytul": "Roztwór do akwarium",
+   "material": "Tekst autorski. Akwarysta przygotowuje roztwór NaCl do kąpieli leczniczej ryb. Ma 2,0 kg roztworu 1,5% i chce otrzymać roztwór 0,5%. Dysponuje też stałym NaCl i wodą destylowaną.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę wody, którą należy dodać do 2,0 kg roztworu 1,5%, aby otrzymać roztwór 0,5%.",
+     "odpowiedz": "4,0 kg",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "mₛ = 30 g; m_r = 30 / 0,005 = 6000 g; woda = 6000 − 2000 = 4000 g.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie molowe roztworu 0,5% (przyjmij d = 1,00 g/cm³).",
+     "odpowiedz": "ok. 0,085 mol/dm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "c = 0,5 · 1,00 · 10 / 58,5.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę szkła, w którym najdokładniej przygotujesz 250 cm³ roztworu o znanym stężeniu molowym.",
+     "odpowiedz": "kolba miarowa",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Cylinder miarowy jest mniej dokładny.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-roztwory-08",
+   "dzial": "roztwory"
+  },
+  {
+   "tytul": "Krystalizacja azotanu(V) potasu",
+   "material": "Tekst autorski. Rozpuszczalność KNO₃ wynosi 110 g/100 g wody w 60°C i 32 g/100 g wody w 20°C. Przygotowano 420 g roztworu nasyconego w 60°C i ochłodzono go do 20°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę KNO₃, która wykrystalizuje.",
+     "odpowiedz": "156 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "420 g roztworu = 200 g wody + 220 g soli. W 20°C w 200 g wody zostaje 64 g; 220 − 64 = 156 g.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie procentowe roztworu po ochłodzeniu.",
+     "odpowiedz": "ok. 24,2%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "32 / 132 — roztwór nad kryształami jest nasycony w 20°C.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego krystalizację przez ochładzanie stosuje się do KNO₃, a nie do NaCl.",
+     "odpowiedz": "Rozpuszczalność NaCl prawie nie zależy od temperatury, więc po ochłodzeniu wydzieliłoby się bardzo mało soli.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "NaCl krystalizuje się przez odparowanie wody.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-roztwory-09",
+   "dzial": "roztwory"
+  },
+  {
    "tytul": "Roztwór z hydratu",
    "material": "Tekst autorski. Należy przygotować 200 g roztworu CuSO₄ o stężeniu 8%, używając CuSO₄·5H₂O (M = 250 g/mol, M(CuSO₄) = 160 g/mol).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -178,7 +250,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-08",
+   "id": "b-roztwory-10",
    "dzial": "roztwory"
   },
   {
@@ -196,7 +268,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-09",
+   "id": "b-roztwory-11",
    "dzial": "roztwory"
   },
   {
@@ -232,7 +304,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-10",
+   "id": "b-roztwory-12",
    "dzial": "roztwory"
   },
   {
@@ -259,7 +331,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-11",
+   "id": "b-roztwory-13",
    "dzial": "roztwory"
   },
   {
@@ -277,7 +349,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-12",
+   "id": "b-roztwory-14",
    "dzial": "roztwory"
   },
   {
@@ -304,7 +376,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-13",
+   "id": "b-roztwory-15",
    "dzial": "roztwory"
   },
   {
@@ -322,7 +394,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-14",
+   "id": "b-roztwory-16",
    "dzial": "roztwory"
   },
   {
@@ -349,7 +421,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-15",
+   "id": "b-roztwory-17",
    "dzial": "roztwory"
   },
   {
@@ -367,7 +439,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-16",
+   "id": "b-roztwory-18",
    "dzial": "roztwory"
   },
   {
@@ -394,7 +466,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-17",
+   "id": "b-roztwory-19",
    "dzial": "roztwory"
   }
  ]

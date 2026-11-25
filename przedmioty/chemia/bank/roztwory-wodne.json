@@ -254,6 +254,114 @@
    "dzial": "roztwory-wodne"
   },
   {
+   "tytul": "Bufor octanowy w laboratorium",
+   "material": "Tekst autorski. Zmieszano 100 cm³ roztworu CH₃COOH o stężeniu 0,20 mol/dm³ i 100 cm³ roztworu CH₃COONa o stężeniu 0,20 mol/dm³. Ka(CH₃COOH) = 1,8 · 10⁻⁵.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz pH otrzymanego buforu.",
+     "odpowiedz": "pH ≈ 4,74",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Stężenia kwasu i soli równe: [H⁺] = Ka · c(kwas)/c(sól) = Ka; pH = pKa.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz w formie jonowej skróconej równania reakcji zachodzących po dodaniu do buforu niewielkiej ilości HCl oraz niewielkiej ilości NaOH.",
+     "odpowiedz": "CH₃COO⁻ + H⁺ → CH₃COOH; CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Bufor wiąże zarówno H⁺, jak i OH⁻.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Oceń, czy pH buforu zmieni się po dwukrotnym rozcieńczeniu wodą. Uzasadnij.",
+     "odpowiedz": "Praktycznie nie — stosunek stężeń kwasu i soli pozostaje taki sam.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "pH buforu zależy od stosunku, nie od bezwzględnych stężeń.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-roztwory-wodne-12",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Twardość wody",
+   "material": "Tekst autorski. Twardość przemijającą wody powodują Ca(HCO₃)₂ i Mg(HCO₃)₂, a twardość nieprzemijającą — m.in. CaSO₄. W próbce 1,0 dm³ wody oznaczono 0,12 g jonów Ca²⁺.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji usuwania twardości przemijającej przez gotowanie (dla soli wapnia).",
+     "odpowiedz": "Ca(HCO₃)₂ → CaCO₃↓ + CO₂ + H₂O (T)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Powstaje kamień kotłowy.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaproponuj odczynnik usuwający twardość nieprzemijającą i napisz równanie jonowe.",
+     "odpowiedz": "Na₂CO₃: Ca²⁺ + CO₃²⁻ → CaCO₃↓",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Możliwy też Na₃PO₄.",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie molowe jonów Ca²⁺ w tej wodzie.",
+     "odpowiedz": "0,003 mol/dm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,12 / 40 = 0,003 mol.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-roztwory-wodne-13",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Strącanie i iloczyn rozpuszczalności",
+   "material": "Tekst autorski. Kₛ(AgCl) = 1,8 · 10⁻¹⁰, Kₛ(AgI) = 8,3 · 10⁻¹⁷. Do roztworu zawierającego jony Cl⁻ i I⁻ (po 0,01 mol/dm³) dodawano kroplami roztwór AgNO₃.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, który osad wytrąci się jako pierwszy. Uzasadnij.",
+     "odpowiedz": "AgI — ma mniejszy iloczyn rozpuszczalności, więc do jego strącenia wystarcza mniejsze stężenie Ag⁺.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Dla AgI: [Ag⁺] > 8,3 · 10⁻¹⁵; dla AgCl: [Ag⁺] > 1,8 · 10⁻⁸.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz minimalne stężenie Ag⁺ potrzebne do strącenia AgCl.",
+     "odpowiedz": "1,8 · 10⁻⁸ mol/dm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kₛ / [Cl⁻].",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj barwy obu osadów.",
+     "odpowiedz": "AgCl — biały; AgI — żółty",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-roztwory-wodne-14",
+   "dzial": "roztwory-wodne"
+  },
+  {
    "tytul": "Stopień dysocjacji",
    "material": "Tekst autorski. W roztworze kwasu metanowego (HCOOH) o stężeniu 0,10 mol·dm⁻³ stopień dysocjacji wynosi 4,2%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -277,7 +385,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-12",
+   "id": "b-roztwory-wodne-15",
    "dzial": "roztwory-wodne"
   },
   {
@@ -304,7 +412,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-13",
+   "id": "b-roztwory-wodne-16",
    "dzial": "roztwory-wodne"
   },
   {
@@ -340,7 +448,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-wodne-14",
+   "id": "b-roztwory-wodne-17",
    "dzial": "roztwory-wodne"
   },
   {
@@ -358,7 +466,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-15",
+   "id": "b-roztwory-wodne-18",
    "dzial": "roztwory-wodne"
   },
   {
@@ -376,7 +484,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-16",
+   "id": "b-roztwory-wodne-19",
    "dzial": "roztwory-wodne"
   },
   {
@@ -394,7 +502,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-17",
+   "id": "b-roztwory-wodne-20",
    "dzial": "roztwory-wodne"
   },
   {
@@ -421,7 +529,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-18",
+   "id": "b-roztwory-wodne-21",
    "dzial": "roztwory-wodne"
   },
   {
@@ -439,7 +547,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-19",
+   "id": "b-roztwory-wodne-22",
    "dzial": "roztwory-wodne"
   },
   {
@@ -457,7 +565,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-20",
+   "id": "b-roztwory-wodne-23",
    "dzial": "roztwory-wodne"
   },
   {
@@ -475,7 +583,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-21",
+   "id": "b-roztwory-wodne-24",
    "dzial": "roztwory-wodne"
   },
   {
@@ -493,7 +601,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-22",
+   "id": "b-roztwory-wodne-25",
    "dzial": "roztwory-wodne"
   },
   {
@@ -520,7 +628,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-23",
+   "id": "b-roztwory-wodne-26",
    "dzial": "roztwory-wodne"
   },
   {
@@ -538,7 +646,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-24",
+   "id": "b-roztwory-wodne-27",
    "dzial": "roztwory-wodne"
   },
   {
@@ -556,7 +664,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-25",
+   "id": "b-roztwory-wodne-28",
    "dzial": "roztwory-wodne"
   },
   {
@@ -574,7 +682,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-26",
+   "id": "b-roztwory-wodne-29",
    "dzial": "roztwory-wodne"
   },
   {
@@ -592,7 +700,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-27",
+   "id": "b-roztwory-wodne-30",
    "dzial": "roztwory-wodne"
   }
  ]

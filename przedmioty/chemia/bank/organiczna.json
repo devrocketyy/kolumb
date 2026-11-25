@@ -236,6 +236,123 @@
    "dzial": "organiczna"
   },
   {
+   "tytul": "Identyfikacja izomerów C₃H₆O",
+   "material": "Tekst autorski. Dwa związki X i Y mają wzór C₃H₆O. Tylko X daje lustro srebrne w próbie Tollensa. Y daje pozytywny wynik próby jodoformowej.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj wzory półstrukturalne i nazwy X i Y.",
+     "odpowiedz": "X: CH₃CH₂CHO — propanal; Y: CH₃COCH₃ — propanon",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie redukcji Y wodorem i nazwę produktu.",
+     "odpowiedz": "CH₃COCH₃ + H₂ → CH₃CH(OH)CH₃ (kat.); propan-2-ol",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wzór trzeciego izomeru C₃H₆O, który odbarwia wodę bromową.",
+     "odpowiedz": "np. CH₂=CH–CH₂OH (alkohol allilowy)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Możliwe też etery winylowe lub cykliczne.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-organiczna-12",
+   "dzial": "organiczna"
+  },
+  {
+   "tytul": "Synteza estru zapachowego",
+   "material": "Tekst autorski. Octan etylu otrzymuje się z etenu w trzech etapach: eten → etanol → (część etanolu) kwas octowy → ester.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równania reakcji etapu 1 i etapu 3.",
+     "odpowiedz": "CH₂=CH₂ + H₂O → CH₃CH₂OH (H⁺); CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O (H₂SO₄)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę estru otrzymanego z 28 kg etenu, jeśli połowę etanolu utleniono do kwasu, a wydajność estryfikacji wyniosła 60% (pozostałe etapy 100%).",
+     "odpowiedz": "26,4 kg",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "1 kmol etenu → 1 kmol etanolu: 0,5 kmol do kwasu, 0,5 kmol zostaje. Ester: 0,5 · 0,6 = 0,3 kmol · 88 kg/kmol.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-organiczna-13",
+   "dzial": "organiczna"
+  },
+  {
+   "tytul": "Aminokwasy w roztworze",
+   "material": "Tekst autorski. Alanina ma punkt izoelektryczny pI = 6,0, kwas glutaminowy pI = 3,2, lizyna pI = 9,7. Mieszaninę umieszczono w buforze o pH = 6,0 i poddano elektroforezie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Przyporządkuj aminokwasy: który wędruje do anody, który do katody, a który pozostaje w miejscu.",
+     "odpowiedz": "do anody: kwas glutaminowy; do katody: lizyna; w miejscu: alanina",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "pH > pI → anion; pH < pI → kation.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz wzór jonu, w jakim występuje alanina w roztworze o pH = 1.",
+     "odpowiedz": "CH₃CH(NH₃⁺)COOH",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Silnie kwasowe środowisko — kation.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-organiczna-14",
+   "dzial": "organiczna"
+  },
+  {
+   "tytul": "Cukry w laboratorium",
+   "material": "Tekst autorski. W czterech probówkach są wodne roztwory: glukozy, fruktozy, sacharozy i skrobi (zawiesina). Dostępne odczynniki: płyn Lugola, woda bromowa z NaHCO₃, odczynnik Tollensa.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Zaplanuj kolejność prób pozwalającą zidentyfikować wszystkie substancje i podaj obserwacje.",
+     "odpowiedz": "Lugol: granat — skrobia. Tollens: lustro — glukoza i fruktoza; brak — sacharoza. Woda bromowa: odbarwia — glukoza; brak zmian — fruktoza.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Fruktoza w środowisku zasadowym daje próbę Tollensa.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego sacharoza nie daje próby Tollensa.",
+     "odpowiedz": "Oba atomy węgla anomerycznego tworzą wiązanie glikozydowe — brak wolnej grupy półacetalowej.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-organiczna-15",
+   "dzial": "organiczna"
+  },
+  {
    "tytul": "Bromowanie etenu i benzenu",
    "material": "Tekst autorski. Do dwóch probówek z wodą bromową dodano: do I — eten (przepuszczono gaz), do II — benzen (bez katalizatora). W probówce I woda bromowa odbarwiła się, w II — nie.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -259,7 +376,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-12",
+   "id": "b-organiczna-16",
    "dzial": "organiczna"
   },
   {
@@ -286,7 +403,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-13",
+   "id": "b-organiczna-17",
    "dzial": "organiczna"
   },
   {
@@ -313,7 +430,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-14",
+   "id": "b-organiczna-18",
    "dzial": "organiczna"
   },
   {
@@ -340,7 +457,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-15",
+   "id": "b-organiczna-19",
    "dzial": "organiczna"
   },
   {
@@ -376,7 +493,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-organiczna-16",
+   "id": "b-organiczna-20",
    "dzial": "organiczna"
   },
   {
@@ -403,7 +520,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-17",
+   "id": "b-organiczna-21",
    "dzial": "organiczna"
   },
   {
@@ -430,7 +547,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-18",
+   "id": "b-organiczna-22",
    "dzial": "organiczna"
   },
   {
@@ -448,7 +565,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-19",
+   "id": "b-organiczna-23",
    "dzial": "organiczna"
   },
   {
@@ -466,7 +583,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-20",
+   "id": "b-organiczna-24",
    "dzial": "organiczna"
   },
   {
@@ -484,7 +601,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-21",
+   "id": "b-organiczna-25",
    "dzial": "organiczna"
   },
   {
@@ -511,7 +628,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-22",
+   "id": "b-organiczna-26",
    "dzial": "organiczna"
   },
   {
@@ -547,7 +664,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-organiczna-23",
+   "id": "b-organiczna-27",
    "dzial": "organiczna"
   },
   {
@@ -574,7 +691,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-24",
+   "id": "b-organiczna-28",
    "dzial": "organiczna"
   },
   {
@@ -592,7 +709,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-25",
+   "id": "b-organiczna-29",
    "dzial": "organiczna"
   },
   {
@@ -610,7 +727,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-26",
+   "id": "b-organiczna-30",
    "dzial": "organiczna"
   }
  ]
