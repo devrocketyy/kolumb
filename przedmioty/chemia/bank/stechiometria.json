@@ -812,6 +812,51 @@
    "dzial": "stechiometria"
   },
   {
+   "tytul": "Saletra w prochu",
+   "material": "Tekst autorski. Proch czarny spala się wg równania: 2KNO₃ + S + 3C → K₂S + N₂ + 3CO₂.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz objętość gazów (w. n.) z 20,2 g KNO₃.",
+     "odpowiedz": "8,96 dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(KNO₃) = 0,2 mol → 0,1 mol N₂ + 0,3 mol CO₂ = 0,4 mol · 22,4.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż utleniacze w tej reakcji.",
+     "odpowiedz": "KNO₃ (azot) i siarka",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "N: +V → 0; S: 0 → −II; C: 0 → +IV (reduktor).",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-34",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Czystość wapienia",
+   "material": "Tekst autorski. 25 g wapienia wyprażono. Ubytek masy wyniósł 8,8 g (tylko CaCO₃ ulega rozkładowi).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz zawartość procentową CaCO₃ w wapieniu.",
+     "odpowiedz": "80%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "m(CO₂) = 8,8 g = 0,2 mol → 20 g CaCO₃.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-35",
+   "dzial": "stechiometria"
+  },
+  {
    "tytul": "Mieszanina węglanów",
    "material": "Tekst autorski. Mieszaninę Na₂CO₃ i NaHCO₃ o masie 2,74 g roztworzono w nadmiarze kwasu solnego. Wydzieliło się 0,672 dm³ CO₂ (warunki normalne). M(Na₂CO₃) = 106 g/mol, M(NaHCO₃) = 84 g/mol.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -835,7 +880,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-34",
+   "id": "b-stechiometria-36",
    "dzial": "stechiometria"
   },
   {
@@ -862,7 +907,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-35",
+   "id": "b-stechiometria-37",
    "dzial": "stechiometria"
   },
   {
@@ -889,7 +934,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-36",
+   "id": "b-stechiometria-38",
    "dzial": "stechiometria"
   },
   {
@@ -907,7 +952,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-37",
+   "id": "b-stechiometria-39",
    "dzial": "stechiometria"
   },
   {
@@ -925,7 +970,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-38",
+   "id": "b-stechiometria-40",
    "dzial": "stechiometria"
   },
   {
@@ -943,7 +988,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-39",
+   "id": "b-stechiometria-41",
    "dzial": "stechiometria"
   },
   {
@@ -961,7 +1006,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-40",
+   "id": "b-stechiometria-42",
    "dzial": "stechiometria"
   },
   {
@@ -988,7 +1033,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-41",
+   "id": "b-stechiometria-43",
    "dzial": "stechiometria"
   },
   {
@@ -1006,7 +1051,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-42",
+   "id": "b-stechiometria-44",
    "dzial": "stechiometria"
   },
   {
@@ -1024,7 +1069,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-43",
+   "id": "b-stechiometria-45",
    "dzial": "stechiometria"
   },
   {
@@ -1042,7 +1087,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-44",
+   "id": "b-stechiometria-46",
    "dzial": "stechiometria"
   },
   {
@@ -1060,7 +1105,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-45",
+   "id": "b-stechiometria-47",
    "dzial": "stechiometria"
   },
   {
@@ -1078,7 +1123,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-46",
+   "id": "b-stechiometria-48",
    "dzial": "stechiometria"
   },
   {
@@ -1105,7 +1150,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-47",
+   "id": "b-stechiometria-49",
    "dzial": "stechiometria"
   }
  ]

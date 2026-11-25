@@ -326,6 +326,33 @@
    "dzial": "chemia-zycia"
   },
   {
+   "tytul": "Soda oczyszczona w kuchni",
+   "material": "Tekst autorski. Proszek do pieczenia zawiera NaHCO₃ i kwas (np. winowy). W cieście wydziela się CO₂.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie jonowe reakcji wodorowęglanu z kwasem.",
+     "odpowiedz": "HCO₃⁻ + H⁺ → CO₂ + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz objętość CO₂ (w. n.) z 4,2 g NaHCO₃.",
+     "odpowiedz": "1,12 dm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,05 mol.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-chemia-zycia-13",
+   "dzial": "chemia-zycia"
+  },
+  {
    "tytul": "Mydło w twardej wodzie",
    "material": "Tekst autorski. Do wody wodociągowej dodano roztwór stearynianu sodu — powstał biały osad.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -349,7 +376,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-13",
+   "id": "b-chemia-zycia-14",
    "dzial": "chemia-zycia"
   },
   {
@@ -376,7 +403,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-14",
+   "id": "b-chemia-zycia-15",
    "dzial": "chemia-zycia"
   },
   {
@@ -403,7 +430,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-15",
+   "id": "b-chemia-zycia-16",
    "dzial": "chemia-zycia"
   },
   {
@@ -421,7 +448,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-chemia-zycia-16",
+   "id": "b-chemia-zycia-17",
    "dzial": "chemia-zycia"
   }
  ]

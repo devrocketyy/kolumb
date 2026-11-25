@@ -1019,6 +1019,60 @@
    "dzial": "organiczna"
   },
   {
+   "tytul": "Węglowodór z produktów spalania",
+   "material": "Tekst autorski. Spalenie 0,1 mola węglowodoru dało 13,2 g CO₂ i 5,4 g H₂O.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Ustal wzór sumaryczny węglowodoru.",
+     "odpowiedz": "C₃H₆",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(CO₂) = 0,3 → 3 C; n(H₂O) = 0,3 → 6 H.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwy dwóch izomerów o tym wzorze.",
+     "odpowiedz": "propen i cyklopropan",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-organiczna-39",
+   "dzial": "organiczna"
+  },
+  {
+   "tytul": "Halogenopochodne",
+   "material": "Tekst autorski. 2-bromopropan ogrzewano z KOH w etanolu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji i podaj jej typ.",
+     "odpowiedz": "CH₃CHBrCH₃ + KOH → CH₂=CHCH₃ + KBr + H₂O; eliminacja",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj produkt reakcji tego samego związku z wodnym roztworem KOH.",
+     "odpowiedz": "propan-2-ol",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Substytucja nukleofilowa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-organiczna-40",
+   "dzial": "organiczna"
+  },
+  {
    "tytul": "Ustalanie wzoru węglowodoru",
    "material": "Tekst autorski. Spalono całkowicie 2,8 g węglowodoru i otrzymano 8,8 g CO₂ oraz 3,6 g wody. Gęstość par tego węglowodoru względem wodoru wynosi 28.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1042,7 +1096,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-39",
+   "id": "b-organiczna-41",
    "dzial": "organiczna"
   },
   {
@@ -1078,7 +1132,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-organiczna-40",
+   "id": "b-organiczna-42",
    "dzial": "organiczna"
   },
   {
@@ -1105,7 +1159,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-41",
+   "id": "b-organiczna-43",
    "dzial": "organiczna"
   },
   {
@@ -1132,7 +1186,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-42",
+   "id": "b-organiczna-44",
    "dzial": "organiczna"
   },
   {
@@ -1150,7 +1204,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-43",
+   "id": "b-organiczna-45",
    "dzial": "organiczna"
   },
   {
@@ -1168,7 +1222,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-44",
+   "id": "b-organiczna-46",
    "dzial": "organiczna"
   },
   {
@@ -1186,7 +1240,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-45",
+   "id": "b-organiczna-47",
    "dzial": "organiczna"
   },
   {
@@ -1213,7 +1267,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-46",
+   "id": "b-organiczna-48",
    "dzial": "organiczna"
   },
   {
@@ -1249,7 +1303,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-organiczna-47",
+   "id": "b-organiczna-49",
    "dzial": "organiczna"
   },
   {
@@ -1276,7 +1330,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-48",
+   "id": "b-organiczna-50",
    "dzial": "organiczna"
   },
   {
@@ -1294,7 +1348,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-49",
+   "id": "b-organiczna-51",
    "dzial": "organiczna"
   },
   {
@@ -1312,7 +1366,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-50",
+   "id": "b-organiczna-52",
    "dzial": "organiczna"
   }
  ]

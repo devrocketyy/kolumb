@@ -938,6 +938,33 @@
    "dzial": "atom"
   },
   {
+   "tytul": "Szereg uranowo-radowy — fragment",
+   "material": "Tekst autorski. Rad-226 przechodzi przez przemiany: ²²⁶Ra → (α) X → (α) Y → (α) Z.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj symbole i liczby masowe X, Y i Z.",
+     "odpowiedz": "X: ²²²Rn; Y: ²¹⁸Po; Z: ²¹⁴Pb",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Każda α: A − 4, Z − 2.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż, który z nuklidów jest gazem szlachetnym.",
+     "odpowiedz": "²²²Rn (radon)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Radon gromadzi się w piwnicach.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-33",
+   "dzial": "atom"
+  },
+  {
    "tytul": "Skład izotopowy chloru",
    "material": "Tekst autorski. Chlor występuje w przyrodzie jako mieszanina izotopów ³⁵Cl (masa 34,97 u) i ³⁷Cl (36,97 u). Średnia masa atomowa chloru wynosi 35,45 u.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -961,7 +988,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-33",
+   "id": "b-atom-34",
    "dzial": "atom"
   },
   {
@@ -988,7 +1015,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-34",
+   "id": "b-atom-35",
    "dzial": "atom"
   },
   {
@@ -1015,7 +1042,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-35",
+   "id": "b-atom-36",
    "dzial": "atom"
   },
   {
@@ -1051,7 +1078,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-36",
+   "id": "b-atom-37",
    "dzial": "atom"
   }
  ]

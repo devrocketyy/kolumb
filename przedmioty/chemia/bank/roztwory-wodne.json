@@ -821,6 +821,42 @@
    "dzial": "roztwory-wodne"
   },
   {
+   "tytul": "pH mieszaniny",
+   "material": "Tekst autorski. Zmieszano 50 cm³ NaOH 0,2 mol/dm³ i 50 cm³ HCl 0,1 mol/dm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz pH roztworu.",
+     "odpowiedz": "pH ≈ 12,7",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Nadmiar OH⁻: 0,005 mol / 0,1 dm³ = 0,05; pOH = 1,3.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-wodne-32",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Dobór odczynnika do strącania",
+   "material": "Tekst autorski. Roztwór zawiera jony Ba²⁺, Ag⁺ i Cu²⁺. Należy je kolejno wytrącić: najpierw Ag⁺, potem Ba²⁺, potem Cu²⁺.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Dobierz kolejne odczynniki (spośród NaCl, Na₂SO₄, NaOH) i podaj wzory osadów.",
+     "odpowiedz": "NaCl → AgCl; Na₂SO₄ → BaSO₄; NaOH → Cu(OH)₂",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Każdy odczynnik strąca tylko jeden jon na danym etapie.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-roztwory-wodne-33",
+   "dzial": "roztwory-wodne"
+  },
+  {
    "tytul": "Stopień dysocjacji",
    "material": "Tekst autorski. W roztworze kwasu metanowego (HCOOH) o stężeniu 0,10 mol·dm⁻³ stopień dysocjacji wynosi 4,2%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -844,7 +880,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-32",
+   "id": "b-roztwory-wodne-34",
    "dzial": "roztwory-wodne"
   },
   {
@@ -871,7 +907,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-33",
+   "id": "b-roztwory-wodne-35",
    "dzial": "roztwory-wodne"
   },
   {
@@ -907,7 +943,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-wodne-34",
+   "id": "b-roztwory-wodne-36",
    "dzial": "roztwory-wodne"
   },
   {
@@ -925,7 +961,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-35",
+   "id": "b-roztwory-wodne-37",
    "dzial": "roztwory-wodne"
   },
   {
@@ -943,7 +979,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-36",
+   "id": "b-roztwory-wodne-38",
    "dzial": "roztwory-wodne"
   },
   {
@@ -961,7 +997,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-37",
+   "id": "b-roztwory-wodne-39",
    "dzial": "roztwory-wodne"
   },
   {
@@ -988,7 +1024,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-38",
+   "id": "b-roztwory-wodne-40",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1006,7 +1042,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-39",
+   "id": "b-roztwory-wodne-41",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1024,7 +1060,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-40",
+   "id": "b-roztwory-wodne-42",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1042,7 +1078,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-41",
+   "id": "b-roztwory-wodne-43",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1060,7 +1096,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-42",
+   "id": "b-roztwory-wodne-44",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1087,7 +1123,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-43",
+   "id": "b-roztwory-wodne-45",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1105,7 +1141,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-44",
+   "id": "b-roztwory-wodne-46",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1123,7 +1159,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-45",
+   "id": "b-roztwory-wodne-47",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1141,7 +1177,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-46",
+   "id": "b-roztwory-wodne-48",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1159,7 +1195,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-47",
+   "id": "b-roztwory-wodne-49",
    "dzial": "roztwory-wodne"
   }
  ]

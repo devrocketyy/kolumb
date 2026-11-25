@@ -803,6 +803,51 @@
    "dzial": "redoks"
   },
   {
+   "tytul": "Utlenianie żelaza(II)",
+   "material": "Tekst autorski. Roztwór FeSO₄ zakwaszono i dodano wody utlenionej. Roztwór zmienił barwę z jasnozielonej na żółtą.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równanie jonowe reakcji.",
+     "odpowiedz": "2Fe²⁺ + H₂O₂ + 2H⁺ → 2Fe³⁺ + 2H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj odczynnik potwierdzający obecność Fe³⁺ i obserwację.",
+     "odpowiedz": "KSCN — krwistoczerwone zabarwienie",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-29",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Elektroliza wody",
+   "material": "Tekst autorski. Elektrolizę zakwaszonej wody prowadzono prądem 1,93 A przez 10 000 s.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz objętości wodoru i tlenu (w. n.).",
+     "odpowiedz": "H₂: 2,24 dm³; O₂: 1,12 dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Q = 19 300 C = 0,2 mol e⁻ → 0,1 mol H₂, 0,05 mol O₂.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-redoks-30",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Manganometria",
    "material": "Tekst autorski. Próbkę soli Mohra zawierającą jony Fe²⁺ zmiareczkowano w środowisku kwasowym roztworem KMnO₄ o stężeniu 0,0200 mol·dm⁻³; zużyto 15,0 cm³ titranta.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -835,7 +880,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-29",
+   "id": "b-redoks-31",
    "dzial": "redoks"
   },
   {
@@ -871,7 +916,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-30",
+   "id": "b-redoks-32",
    "dzial": "redoks"
   },
   {
@@ -898,7 +943,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-31",
+   "id": "b-redoks-33",
    "dzial": "redoks"
   },
   {
@@ -925,7 +970,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-32",
+   "id": "b-redoks-34",
    "dzial": "redoks"
   },
   {
@@ -943,7 +988,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-33",
+   "id": "b-redoks-35",
    "dzial": "redoks"
   },
   {
@@ -970,7 +1015,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-34",
+   "id": "b-redoks-36",
    "dzial": "redoks"
   },
   {
@@ -997,7 +1042,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-35",
+   "id": "b-redoks-37",
    "dzial": "redoks"
   },
   {
@@ -1015,7 +1060,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-36",
+   "id": "b-redoks-38",
    "dzial": "redoks"
   },
   {
@@ -1042,7 +1087,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-37",
+   "id": "b-redoks-39",
    "dzial": "redoks"
   },
   {
@@ -1069,7 +1114,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-38",
+   "id": "b-redoks-40",
    "dzial": "redoks"
   },
   {
@@ -1087,7 +1132,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-39",
+   "id": "b-redoks-41",
    "dzial": "redoks"
   },
   {
@@ -1105,7 +1150,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-40",
+   "id": "b-redoks-42",
    "dzial": "redoks"
   }
  ]
