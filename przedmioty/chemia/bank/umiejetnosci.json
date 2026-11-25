@@ -380,6 +380,33 @@
    "dzial": "umiejetnosci"
   },
   {
+   "tytul": "Odczyt z wykresu szybkości",
+   "material": "Tekst autorski. Objętość wydzielonego CO₂ w reakcji CaCO₃ z HCl: 0 s — 0, 30 s — 40, 60 s — 64, 90 s — 76, 120 s — 80, 150 s — 80 cm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średnią szybkość w pierwszych 30 s i między 60 a 90 s.",
+     "odpowiedz": "1,33 cm³/s i 0,4 cm³/s",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, po jakim czasie reakcja się zakończyła.",
+     "odpowiedz": "po ok. 120 s",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Objętość przestała rosnąć.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-15",
+   "dzial": "umiejetnosci"
+  },
+  {
    "tytul": "Planowanie doświadczenia — szybkość reakcji",
    "material": "Tekst autorski. Uczeń chce sprawdzić, jak stopień rozdrobnienia wpływa na szybkość reakcji marmuru z kwasem solnym.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -412,7 +439,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-15",
+   "id": "b-umiejetnosci-16",
    "dzial": "umiejetnosci"
   }
  ]

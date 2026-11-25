@@ -875,6 +875,33 @@
    "dzial": "kinetyka"
   },
   {
+   "tytul": "Endotermiczna równowaga",
+   "material": "Tekst autorski. N₂O₄ ⇄ 2NO₂, ΔH > 0. W 1 dm³ w stanie równowagi: [N₂O₄] = 0,04, [NO₂] = 0,12 mol/dm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz K.",
+     "odpowiedz": "0,36",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,12² / 0,04.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj, jak zmieni się barwa mieszaniny po: a) ogrzaniu, b) sprężeniu.",
+     "odpowiedz": "a) ciemnieje (więcej NO₂); b) chwilowo ciemnieje, potem jaśnieje (równowaga w lewo)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Przy sprężeniu rośnie stężenie, a potem przesuwa się równowaga.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-34",
+   "dzial": "kinetyka"
+  },
+  {
    "tytul": "Okres półtrwania reakcji I rzędu",
    "material": "Tekst autorski. Rozkład pewnego związku jest reakcją I rzędu. Po 30 minutach jego stężenie spadło z 0,80 do 0,20 mol·dm⁻³.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -907,7 +934,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-34",
+   "id": "b-kinetyka-35",
    "dzial": "kinetyka"
   },
   {
@@ -934,7 +961,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-35",
+   "id": "b-kinetyka-36",
    "dzial": "kinetyka"
   },
   {
@@ -961,7 +988,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-36",
+   "id": "b-kinetyka-37",
    "dzial": "kinetyka"
   },
   {
@@ -988,7 +1015,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-37",
+   "id": "b-kinetyka-38",
    "dzial": "kinetyka"
   },
   {
@@ -1015,7 +1042,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-38",
+   "id": "b-kinetyka-39",
    "dzial": "kinetyka"
   },
   {
@@ -1042,7 +1069,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-39",
+   "id": "b-kinetyka-40",
    "dzial": "kinetyka"
   },
   {
@@ -1078,7 +1105,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-40",
+   "id": "b-kinetyka-41",
    "dzial": "kinetyka"
   },
   {
@@ -1105,7 +1132,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-41",
+   "id": "b-kinetyka-42",
    "dzial": "kinetyka"
   },
   {
@@ -1132,7 +1159,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-42",
+   "id": "b-kinetyka-43",
    "dzial": "kinetyka"
   },
   {
@@ -1150,7 +1177,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-43",
+   "id": "b-kinetyka-44",
    "dzial": "kinetyka"
   },
   {
@@ -1168,7 +1195,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-44",
+   "id": "b-kinetyka-45",
    "dzial": "kinetyka"
   }
  ]

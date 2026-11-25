@@ -614,6 +614,33 @@
    "dzial": "roztwory"
   },
   {
+   "tytul": "Rozpuszczanie gazu",
+   "material": "Tekst autorski. W 1 dm³ wody rozpuszczono 448 dm³ HCl (w. n.). Gęstość roztworu wynosi 1,18 g/cm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stężenie procentowe kwasu solnego.",
+     "odpowiedz": "ok. 42,2%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n = 20 mol = 730 g HCl; 730/1730.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie molowe.",
+     "odpowiedz": "ok. 13,6 mol/dm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "V = 1730/1,18 = 1466 cm³; 20/1,466.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-24",
+   "dzial": "roztwory"
+  },
+  {
    "tytul": "Roztwór z hydratu",
    "material": "Tekst autorski. Należy przygotować 200 g roztworu CuSO₄ o stężeniu 8%, używając CuSO₄·5H₂O (M = 250 g/mol, M(CuSO₄) = 160 g/mol).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -628,7 +655,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-24",
+   "id": "b-roztwory-25",
    "dzial": "roztwory"
   },
   {
@@ -646,7 +673,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-25",
+   "id": "b-roztwory-26",
    "dzial": "roztwory"
   },
   {
@@ -682,7 +709,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-26",
+   "id": "b-roztwory-27",
    "dzial": "roztwory"
   },
   {
@@ -709,7 +736,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-27",
+   "id": "b-roztwory-28",
    "dzial": "roztwory"
   },
   {
@@ -727,7 +754,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-28",
+   "id": "b-roztwory-29",
    "dzial": "roztwory"
   },
   {
@@ -754,7 +781,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-29",
+   "id": "b-roztwory-30",
    "dzial": "roztwory"
   },
   {
@@ -772,7 +799,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-30",
+   "id": "b-roztwory-31",
    "dzial": "roztwory"
   },
   {
@@ -799,7 +826,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-31",
+   "id": "b-roztwory-32",
    "dzial": "roztwory"
   },
   {
@@ -817,7 +844,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-32",
+   "id": "b-roztwory-33",
    "dzial": "roztwory"
   },
   {
@@ -844,7 +871,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-33",
+   "id": "b-roztwory-34",
    "dzial": "roztwory"
   }
  ]

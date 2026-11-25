@@ -1019,6 +1019,33 @@
    "dzial": "atom"
   },
   {
+   "tytul": "Promieniotwórczość — bilans",
+   "material": "Tekst autorski. Tor-232 w szeregu przemian przechodzi w ołów-208, emitując cząstki α i β⁻. Jedną z przemian jest ²²⁸Ra → ²²⁸Ac.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ rodzaj przemiany ²²⁸Ra → ²²⁸Ac.",
+     "odpowiedz": "β⁻",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "A stałe, Z rośnie o 1.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile przemian α zachodzi w całym szeregu.",
+     "odpowiedz": "6",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(232 − 208)/4.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-36",
+   "dzial": "atom"
+  },
+  {
    "tytul": "Skład izotopowy chloru",
    "material": "Tekst autorski. Chlor występuje w przyrodzie jako mieszanina izotopów ³⁵Cl (masa 34,97 u) i ³⁷Cl (36,97 u). Średnia masa atomowa chloru wynosi 35,45 u.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1042,7 +1069,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-36",
+   "id": "b-atom-37",
    "dzial": "atom"
   },
   {
@@ -1069,7 +1096,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-37",
+   "id": "b-atom-38",
    "dzial": "atom"
   },
   {
@@ -1096,7 +1123,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-38",
+   "id": "b-atom-39",
    "dzial": "atom"
   },
   {
@@ -1132,7 +1159,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-39",
+   "id": "b-atom-40",
    "dzial": "atom"
   }
  ]

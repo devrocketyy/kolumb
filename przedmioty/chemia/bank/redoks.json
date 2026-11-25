@@ -938,6 +938,60 @@
    "dzial": "redoks"
   },
   {
+   "tytul": "Utlenianie alkoholu dichromianem — ilościowo",
+   "material": "Tekst autorski. 0,1 mola etanolu utleniono do kwasu octowego dichromianem potasu w H₂SO₄: 2Cr₂O₇²⁻ + 3C₂H₅OH + 16H⁺ → 4Cr³⁺ + 3CH₃COOH + 11H₂O.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę K₂Cr₂O₇ (M = 294 g/mol) potrzebną do reakcji.",
+     "odpowiedz": "ok. 19,6 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n = 2/3 · 0,1 = 0,0667 mol · 294.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj zmianę stopnia utlenienia węgla grupy funkcyjnej.",
+     "odpowiedz": "z −I na +III",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "C w –CH₂OH: −I; w –COOH: +III.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-35",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Szereg aktywności — doświadczenie",
+   "material": "Tekst autorski. Płytki z Mg, Zn, Cu zanurzono w roztworze AgNO₃, a płytkę Ag w roztworze Cu(NO₃)₂.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż, w których przypadkach zaszła reakcja.",
+     "odpowiedz": "Mg, Zn i Cu w AgNO₃; Ag w Cu(NO₃)₂ — nie",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie jonowe reakcji miedzi.",
+     "odpowiedz": "Cu + 2Ag⁺ → Cu²⁺ + 2Ag",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-36",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Manganometria",
    "material": "Tekst autorski. Próbkę soli Mohra zawierającą jony Fe²⁺ zmiareczkowano w środowisku kwasowym roztworem KMnO₄ o stężeniu 0,0200 mol·dm⁻³; zużyto 15,0 cm³ titranta.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -970,7 +1024,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-35",
+   "id": "b-redoks-37",
    "dzial": "redoks"
   },
   {
@@ -1006,7 +1060,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-36",
+   "id": "b-redoks-38",
    "dzial": "redoks"
   },
   {
@@ -1033,7 +1087,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-37",
+   "id": "b-redoks-39",
    "dzial": "redoks"
   },
   {
@@ -1060,7 +1114,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-38",
+   "id": "b-redoks-40",
    "dzial": "redoks"
   },
   {
@@ -1078,7 +1132,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-39",
+   "id": "b-redoks-41",
    "dzial": "redoks"
   },
   {
@@ -1105,7 +1159,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-40",
+   "id": "b-redoks-42",
    "dzial": "redoks"
   },
   {
@@ -1132,7 +1186,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-41",
+   "id": "b-redoks-43",
    "dzial": "redoks"
   },
   {
@@ -1150,7 +1204,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-42",
+   "id": "b-redoks-44",
    "dzial": "redoks"
   },
   {
@@ -1177,7 +1231,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-43",
+   "id": "b-redoks-45",
    "dzial": "redoks"
   },
   {
@@ -1204,7 +1258,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-44",
+   "id": "b-redoks-46",
    "dzial": "redoks"
   },
   {
@@ -1222,7 +1276,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-45",
+   "id": "b-redoks-47",
    "dzial": "redoks"
   },
   {
@@ -1240,7 +1294,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-46",
+   "id": "b-redoks-48",
    "dzial": "redoks"
   }
  ]

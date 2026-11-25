@@ -947,6 +947,60 @@
    "dzial": "roztwory-wodne"
   },
   {
+   "tytul": "Miareczkowanie słabej zasady",
+   "material": "Tekst autorski. 25 cm³ roztworu NH₃ zmiareczkowano HCl 0,1 mol/dm³, zużywając 20 cm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie amoniaku.",
+     "odpowiedz": "0,08 mol/dm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,002 mol / 0,025 dm³.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj odczyn w punkcie równoważnikowym i dobierz wskaźnik.",
+     "odpowiedz": "kwasowy; oranż metylowy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Hydroliza NH₄⁺.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-38",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Iloczyn jonowy wody",
+   "material": "Tekst autorski. W 60°C Kw = 9,6 · 10⁻¹⁴.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz pH czystej wody w 60°C.",
+     "odpowiedz": "ok. 6,5",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "[H⁺] = √(9,6 · 10⁻¹⁴) = 3,1 · 10⁻⁷.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy woda w 60°C jest kwasowa. Uzasadnij.",
+     "odpowiedz": "Nie — jest obojętna, bo [H⁺] = [OH⁻].",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-39",
+   "dzial": "roztwory-wodne"
+  },
+  {
    "tytul": "Stopień dysocjacji",
    "material": "Tekst autorski. W roztworze kwasu metanowego (HCOOH) o stężeniu 0,10 mol·dm⁻³ stopień dysocjacji wynosi 4,2%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -970,7 +1024,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-38",
+   "id": "b-roztwory-wodne-40",
    "dzial": "roztwory-wodne"
   },
   {
@@ -997,7 +1051,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-39",
+   "id": "b-roztwory-wodne-41",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1033,7 +1087,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-wodne-40",
+   "id": "b-roztwory-wodne-42",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1051,7 +1105,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-41",
+   "id": "b-roztwory-wodne-43",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1069,7 +1123,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-42",
+   "id": "b-roztwory-wodne-44",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1087,7 +1141,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-43",
+   "id": "b-roztwory-wodne-45",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1114,7 +1168,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-44",
+   "id": "b-roztwory-wodne-46",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1132,7 +1186,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-45",
+   "id": "b-roztwory-wodne-47",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1150,7 +1204,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-46",
+   "id": "b-roztwory-wodne-48",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1168,7 +1222,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-47",
+   "id": "b-roztwory-wodne-49",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1186,7 +1240,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-48",
+   "id": "b-roztwory-wodne-50",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1213,7 +1267,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-49",
+   "id": "b-roztwory-wodne-51",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1231,7 +1285,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-50",
+   "id": "b-roztwory-wodne-52",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1249,7 +1303,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-51",
+   "id": "b-roztwory-wodne-53",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1267,7 +1321,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-52",
+   "id": "b-roztwory-wodne-54",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1285,7 +1339,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-53",
+   "id": "b-roztwory-wodne-55",
    "dzial": "roztwory-wodne"
   }
  ]
