@@ -137,6 +137,42 @@
    "dzial": "umiejetnosci"
   },
   {
+   "tytul": "Analiza wyniku doświadczenia",
+   "material": "Tekst autorski. Uczeń badał wpływ temperatury na szybkość reakcji Mg z HCl. W 20°C wydzieliło się 30 cm³ H₂ w ciągu 60 s, w 40°C — 30 cm³ w 15 s. Stężenie kwasu i masa Mg były w obu próbach jednakowe.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj zmienną niezależną i zmienną zależną.",
+     "odpowiedz": "niezależna: temperatura; zależna: czas wydzielenia 30 cm³ H₂ (szybkość)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy wzrosła szybkość reakcji.",
+     "odpowiedz": "4 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "60 / 15.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wartość współczynnika temperaturowego szybkości (na 10°C).",
+     "odpowiedz": "2",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2² = 4 dla wzrostu o 20°C.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-umiejetnosci-07",
+   "dzial": "umiejetnosci"
+  },
+  {
    "tytul": "Trzy bezbarwne roztwory",
    "material": "Tekst autorski. W trzech nieopisanych probówkach znajdują się wodne roztwory: NaCl, Na₂SO₄ i Na₂CO₃. Do dyspozycji są: roztwór BaCl₂, kwas solny, roztwór AgNO₃, fenoloftaleina.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -169,7 +205,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-07",
+   "id": "b-umiejetnosci-08",
    "dzial": "umiejetnosci"
   },
   {
@@ -196,7 +232,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-08",
+   "id": "b-umiejetnosci-09",
    "dzial": "umiejetnosci"
   },
   {
@@ -232,7 +268,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-09",
+   "id": "b-umiejetnosci-10",
    "dzial": "umiejetnosci"
   }
  ]

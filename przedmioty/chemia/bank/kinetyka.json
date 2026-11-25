@@ -605,6 +605,33 @@
    "dzial": "kinetyka"
   },
   {
+   "tytul": "Równowaga w syntezie metanolu",
+   "material": "Tekst autorski. CO(g) + 2H₂(g) ⇄ CH₃OH(g), ΔH < 0. Do reaktora o objętości 2 dm³ wprowadzono 2 mole CO i 4 mole H₂. W stanie równowagi powstało 1 mol metanolu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stałą równowagi Kc.",
+     "odpowiedz": "Kc = 1",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Równowaga: CO 1 mol (0,5 mol/dm³), H₂ 2 mol (1 mol/dm³), CH₃OH 1 mol (0,5 mol/dm³); K = 0,5 / (0,5 · 1²) = 1.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj dwa sposoby zwiększenia wydajności metanolu.",
+     "odpowiedz": "zwiększenie ciśnienia; obniżenie temperatury (lub usuwanie metanolu)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mniej moli gazów po prawej, reakcja egzotermiczna.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-24",
+   "dzial": "kinetyka"
+  },
+  {
    "tytul": "Okres półtrwania reakcji I rzędu",
    "material": "Tekst autorski. Rozkład pewnego związku jest reakcją I rzędu. Po 30 minutach jego stężenie spadło z 0,80 do 0,20 mol·dm⁻³.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -637,7 +664,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-24",
+   "id": "b-kinetyka-25",
    "dzial": "kinetyka"
   },
   {
@@ -664,7 +691,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-25",
+   "id": "b-kinetyka-26",
    "dzial": "kinetyka"
   },
   {
@@ -691,7 +718,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-26",
+   "id": "b-kinetyka-27",
    "dzial": "kinetyka"
   },
   {
@@ -718,7 +745,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-27",
+   "id": "b-kinetyka-28",
    "dzial": "kinetyka"
   },
   {
@@ -745,7 +772,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-28",
+   "id": "b-kinetyka-29",
    "dzial": "kinetyka"
   },
   {
@@ -772,7 +799,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-29",
+   "id": "b-kinetyka-30",
    "dzial": "kinetyka"
   },
   {
@@ -808,7 +835,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-30",
+   "id": "b-kinetyka-31",
    "dzial": "kinetyka"
   },
   {
@@ -835,7 +862,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-31",
+   "id": "b-kinetyka-32",
    "dzial": "kinetyka"
   },
   {
@@ -862,7 +889,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-32",
+   "id": "b-kinetyka-33",
    "dzial": "kinetyka"
   },
   {
@@ -880,7 +907,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-33",
+   "id": "b-kinetyka-34",
    "dzial": "kinetyka"
   },
   {
@@ -898,7 +925,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-34",
+   "id": "b-kinetyka-35",
    "dzial": "kinetyka"
   }
  ]
