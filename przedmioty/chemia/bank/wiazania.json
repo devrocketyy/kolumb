@@ -380,6 +380,60 @@
    "dzial": "wiazania"
   },
   {
+   "tytul": "Sól kompleksowa",
+   "material": "Tekst autorski. Heksacyjanożelazian(II) potasu ma wzór K₄[Fe(CN)₆].",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj stopień utlenienia żelaza i liczbę koordynacyjną.",
+     "odpowiedz": "+II; LK = 6",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4 · (+1) + x + 6 · (−1) = 0.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie dysocjacji tej soli.",
+     "odpowiedz": "K₄[Fe(CN)₆] → 4K⁺ + [Fe(CN)₆]⁴⁻",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jon kompleksowy nie rozpada się.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-wiazania-16",
+   "dzial": "wiazania"
+  },
+  {
+   "tytul": "Kryształy jonowe",
+   "material": "Tekst autorski. Temperatury topnienia: NaF 993°C, NaCl 801°C, NaBr 747°C, MgO 2852°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij spadek temperatury topnienia w szeregu NaF–NaCl–NaBr.",
+     "odpowiedz": "Rośnie promień anionu — słabsze przyciąganie jonów w sieci.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij bardzo wysoką temperaturę topnienia MgO.",
+     "odpowiedz": "Jony o ładunkach 2+ i 2− i małych promieniach — bardzo silne przyciąganie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-wiazania-17",
+   "dzial": "wiazania"
+  },
+  {
    "tytul": "Polarność cząsteczek",
    "material": "Tekst autorski. Rozpatrz cząsteczki: CO₂, H₂O, BF₃, NH₃, CCl₄, CHCl₃.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -412,7 +466,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-wiazania-16",
+   "id": "b-wiazania-18",
    "dzial": "wiazania"
   },
   {
@@ -439,7 +493,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-17",
+   "id": "b-wiazania-19",
    "dzial": "wiazania"
   },
   {
@@ -466,7 +520,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-18",
+   "id": "b-wiazania-20",
    "dzial": "wiazania"
   }
  ]

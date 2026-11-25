@@ -263,6 +263,33 @@
    "dzial": "umiejetnosci"
   },
   {
+   "tytul": "Analiza tabeli danych",
+   "material": "Tekst autorski. Temperatury wrzenia alkoholi: metanol 65°C, etanol 78°C, propan-1-ol 97°C, butan-1-ol 117°C, 2-metylopropan-2-ol 82°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Sformułuj zależność dla alkoholi prostołańcuchowych.",
+     "odpowiedz": "Temperatura wrzenia rośnie ze wzrostem długości łańcucha (masy cząsteczkowej).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego 2-metylopropan-2-ol wrze niżej niż butan-1-ol.",
+     "odpowiedz": "Rozgałęziona, bardziej kulista cząsteczka — mniejsza powierzchnia kontaktu, słabsze oddziaływania.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-11",
+   "dzial": "umiejetnosci"
+  },
+  {
    "tytul": "Planowanie doświadczenia — szybkość reakcji",
    "material": "Tekst autorski. Uczeń chce sprawdzić, jak stopień rozdrobnienia wpływa na szybkość reakcji marmuru z kwasem solnym.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -295,7 +322,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-11",
+   "id": "b-umiejetnosci-12",
    "dzial": "umiejetnosci"
   }
  ]

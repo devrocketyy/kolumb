@@ -767,6 +767,60 @@
    "dzial": "roztwory-wodne"
   },
   {
+   "tytul": "Odczyn soli kwasu wieloprotonowego",
+   "material": "Tekst autorski. Porównano roztwory 0,1 mol/dm³: Na₂CO₃, NaHCO₃, NaHSO₄, Na₂SO₄.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Uszereguj roztwory według rosnącego pH.",
+     "odpowiedz": "NaHSO₄ < Na₂SO₄ < NaHCO₃ < Na₂CO₃",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równania reakcji decydujących o odczynie NaHSO₄ i Na₂CO₃.",
+     "odpowiedz": "HSO₄⁻ ⇄ H⁺ + SO₄²⁻; CO₃²⁻ + H₂O ⇄ HCO₃⁻ + OH⁻",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-30",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Miareczkowanie kwasu octowego w occie",
+   "material": "Tekst autorski. 10,0 cm³ octu rozcieńczono do 100 cm³. 20,0 cm³ tego roztworu zmiareczkowano NaOH o stężeniu 0,1 mol/dm³, zużywając 20,0 cm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stężenie molowe kwasu octowego w occie.",
+     "odpowiedz": "1,0 mol/dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(NaOH) = 0,002 mol w 20 cm³ → 0,01 mol w 100 cm³ = 10 cm³ octu.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie procentowe octu (d = 1,0 g/cm³).",
+     "odpowiedz": "6%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 · 60 / (10 · 1).",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-31",
+   "dzial": "roztwory-wodne"
+  },
+  {
    "tytul": "Stopień dysocjacji",
    "material": "Tekst autorski. W roztworze kwasu metanowego (HCOOH) o stężeniu 0,10 mol·dm⁻³ stopień dysocjacji wynosi 4,2%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -790,7 +844,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-30",
+   "id": "b-roztwory-wodne-32",
    "dzial": "roztwory-wodne"
   },
   {
@@ -817,7 +871,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-31",
+   "id": "b-roztwory-wodne-33",
    "dzial": "roztwory-wodne"
   },
   {
@@ -853,7 +907,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-wodne-32",
+   "id": "b-roztwory-wodne-34",
    "dzial": "roztwory-wodne"
   },
   {
@@ -871,7 +925,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-33",
+   "id": "b-roztwory-wodne-35",
    "dzial": "roztwory-wodne"
   },
   {
@@ -889,7 +943,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-34",
+   "id": "b-roztwory-wodne-36",
    "dzial": "roztwory-wodne"
   },
   {
@@ -907,7 +961,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-35",
+   "id": "b-roztwory-wodne-37",
    "dzial": "roztwory-wodne"
   },
   {
@@ -934,7 +988,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-36",
+   "id": "b-roztwory-wodne-38",
    "dzial": "roztwory-wodne"
   },
   {
@@ -952,7 +1006,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-37",
+   "id": "b-roztwory-wodne-39",
    "dzial": "roztwory-wodne"
   },
   {
@@ -970,7 +1024,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-38",
+   "id": "b-roztwory-wodne-40",
    "dzial": "roztwory-wodne"
   },
   {
@@ -988,7 +1042,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-39",
+   "id": "b-roztwory-wodne-41",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1006,7 +1060,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-40",
+   "id": "b-roztwory-wodne-42",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1033,7 +1087,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-41",
+   "id": "b-roztwory-wodne-43",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1051,7 +1105,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-42",
+   "id": "b-roztwory-wodne-44",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1069,7 +1123,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-43",
+   "id": "b-roztwory-wodne-45",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1087,7 +1141,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-44",
+   "id": "b-roztwory-wodne-46",
    "dzial": "roztwory-wodne"
   },
   {
@@ -1105,7 +1159,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-45",
+   "id": "b-roztwory-wodne-47",
    "dzial": "roztwory-wodne"
   }
  ]

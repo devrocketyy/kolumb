@@ -506,6 +506,33 @@
    "dzial": "roztwory"
   },
   {
+   "tytul": "Roztwór wody utlenionej",
+   "material": "Tekst autorski. Woda utleniona zawiera 3% H₂O₂ (d = 1,01 g/cm³).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz objętość tlenu (w. n.) z całkowitego rozkładu 100 cm³ tego roztworu.",
+     "odpowiedz": "ok. 1,0 dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "m = 101 g; H₂O₂: 3,03 g = 0,089 mol → 0,0446 mol O₂ · 22,4.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie molowe H₂O₂.",
+     "odpowiedz": "ok. 0,89 mol/dm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3 · 1,01 · 10 / 34.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-20",
+   "dzial": "roztwory"
+  },
+  {
    "tytul": "Roztwór z hydratu",
    "material": "Tekst autorski. Należy przygotować 200 g roztworu CuSO₄ o stężeniu 8%, używając CuSO₄·5H₂O (M = 250 g/mol, M(CuSO₄) = 160 g/mol).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -520,7 +547,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-20",
+   "id": "b-roztwory-21",
    "dzial": "roztwory"
   },
   {
@@ -538,7 +565,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-21",
+   "id": "b-roztwory-22",
    "dzial": "roztwory"
   },
   {
@@ -574,7 +601,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-22",
+   "id": "b-roztwory-23",
    "dzial": "roztwory"
   },
   {
@@ -601,7 +628,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-23",
+   "id": "b-roztwory-24",
    "dzial": "roztwory"
   },
   {
@@ -619,7 +646,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-24",
+   "id": "b-roztwory-25",
    "dzial": "roztwory"
   },
   {
@@ -646,7 +673,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-25",
+   "id": "b-roztwory-26",
    "dzial": "roztwory"
   },
   {
@@ -664,7 +691,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-26",
+   "id": "b-roztwory-27",
    "dzial": "roztwory"
   },
   {
@@ -691,7 +718,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-27",
+   "id": "b-roztwory-28",
    "dzial": "roztwory"
   },
   {
@@ -709,7 +736,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-28",
+   "id": "b-roztwory-29",
    "dzial": "roztwory"
   },
   {
@@ -736,7 +763,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-29",
+   "id": "b-roztwory-30",
    "dzial": "roztwory"
   }
  ]

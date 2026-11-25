@@ -767,6 +767,51 @@
    "dzial": "stechiometria"
   },
   {
+   "tytul": "Analiza stopu złota",
+   "material": "Tekst autorski. Próbkę stopu złota z miedzią o masie 5,00 g roztworzono w HNO₃ — złoto pozostało nienaruszone. Z roztworu wytrącono Cu(OH)₂ i wyprażono do CuO, otrzymując 1,59 g.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz zawartość procentową złota w stopie.",
+     "odpowiedz": "ok. 74,6%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(CuO) = 0,02 mol → m(Cu) = 1,27 g; Au = 3,73 g.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie prażenia Cu(OH)₂.",
+     "odpowiedz": "Cu(OH)₂ → CuO + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-32",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Gazy w reakcji",
+   "material": "Tekst autorski. Spalono 10 dm³ etenu w 40 dm³ tlenu (te same warunki, woda skroplona).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz objętość i skład gazów po reakcji.",
+     "odpowiedz": "30 dm³: 20 dm³ CO₂ i 10 dm³ O₂",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "C₂H₄ + 3O₂ → 2CO₂ + 2H₂O; zużyto 30 dm³ O₂.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-33",
+   "dzial": "stechiometria"
+  },
+  {
    "tytul": "Mieszanina węglanów",
    "material": "Tekst autorski. Mieszaninę Na₂CO₃ i NaHCO₃ o masie 2,74 g roztworzono w nadmiarze kwasu solnego. Wydzieliło się 0,672 dm³ CO₂ (warunki normalne). M(Na₂CO₃) = 106 g/mol, M(NaHCO₃) = 84 g/mol.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -790,7 +835,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-32",
+   "id": "b-stechiometria-34",
    "dzial": "stechiometria"
   },
   {
@@ -817,7 +862,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-33",
+   "id": "b-stechiometria-35",
    "dzial": "stechiometria"
   },
   {
@@ -844,7 +889,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-34",
+   "id": "b-stechiometria-36",
    "dzial": "stechiometria"
   },
   {
@@ -862,7 +907,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-35",
+   "id": "b-stechiometria-37",
    "dzial": "stechiometria"
   },
   {
@@ -880,7 +925,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-36",
+   "id": "b-stechiometria-38",
    "dzial": "stechiometria"
   },
   {
@@ -898,7 +943,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-37",
+   "id": "b-stechiometria-39",
    "dzial": "stechiometria"
   },
   {
@@ -916,7 +961,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-38",
+   "id": "b-stechiometria-40",
    "dzial": "stechiometria"
   },
   {
@@ -943,7 +988,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-39",
+   "id": "b-stechiometria-41",
    "dzial": "stechiometria"
   },
   {
@@ -961,7 +1006,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-40",
+   "id": "b-stechiometria-42",
    "dzial": "stechiometria"
   },
   {
@@ -979,7 +1024,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-41",
+   "id": "b-stechiometria-43",
    "dzial": "stechiometria"
   },
   {
@@ -997,7 +1042,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-42",
+   "id": "b-stechiometria-44",
    "dzial": "stechiometria"
   },
   {
@@ -1015,7 +1060,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-43",
+   "id": "b-stechiometria-45",
    "dzial": "stechiometria"
   },
   {
@@ -1033,7 +1078,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-44",
+   "id": "b-stechiometria-46",
    "dzial": "stechiometria"
   },
   {
@@ -1060,7 +1105,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-45",
+   "id": "b-stechiometria-47",
    "dzial": "stechiometria"
   }
  ]

@@ -704,6 +704,51 @@
    "dzial": "azotowe-cukry"
   },
   {
+   "tytul": "Białko — skład",
+   "material": "Tekst autorski. Hemoglobina zawiera 0,34% żelaza; każda cząsteczka ma 4 atomy Fe.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę molową hemoglobiny.",
+     "odpowiedz": "ok. 66 000 g/mol",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "4 · 56 / 0,0034 ≈ 65 900.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-azotowe-cukry-29",
+   "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Glukoza a fruktoza — doświadczenie",
+   "material": "Tekst autorski. Do roztworów glukozy i fruktozy dodano wody bromowej z NaHCO₃, a do drugiej pary — Cu(OH)₂ i ogrzano.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Opisz obserwacje w czterech probówkach.",
+     "odpowiedz": "woda bromowa: glukoza — odbarwienie, fruktoza — brak zmian; Cu(OH)₂ na gorąco: w obu ceglasty osad",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij wynik dla fruktozy z Cu(OH)₂.",
+     "odpowiedz": "W środowisku zasadowym fruktoza izomeryzuje do aldoz, które redukują Cu²⁺.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-azotowe-cukry-30",
+   "dzial": "azotowe-cukry"
+  },
+  {
    "tytul": "Punkt izoelektryczny",
    "material": "Tekst autorski. Glicyna ma pI = 6,0, kwas glutaminowy pI = 3,2, lizyna pI = 9,7. Mieszaninę umieszczono w buforze o pH 6,0 i przeprowadzono elektroforezę.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -727,7 +772,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-29",
+   "id": "b-azotowe-cukry-31",
    "dzial": "azotowe-cukry"
   },
   {
@@ -754,7 +799,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-30",
+   "id": "b-azotowe-cukry-32",
    "dzial": "azotowe-cukry"
   },
   {
@@ -781,7 +826,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-31",
+   "id": "b-azotowe-cukry-33",
    "dzial": "azotowe-cukry"
   },
   {
@@ -808,7 +853,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-32",
+   "id": "b-azotowe-cukry-34",
    "dzial": "azotowe-cukry"
   },
   {
@@ -835,7 +880,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-33",
+   "id": "b-azotowe-cukry-35",
    "dzial": "azotowe-cukry"
   },
   {
@@ -862,7 +907,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-34",
+   "id": "b-azotowe-cukry-36",
    "dzial": "azotowe-cukry"
   },
   {
@@ -889,7 +934,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-35",
+   "id": "b-azotowe-cukry-37",
    "dzial": "azotowe-cukry"
   },
   {
@@ -907,7 +952,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-36",
+   "id": "b-azotowe-cukry-38",
    "dzial": "azotowe-cukry"
   },
   {
@@ -934,7 +979,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-37",
+   "id": "b-azotowe-cukry-39",
    "dzial": "azotowe-cukry"
   },
   {
@@ -952,7 +997,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-38",
+   "id": "b-azotowe-cukry-40",
    "dzial": "azotowe-cukry"
   },
   {
@@ -970,7 +1015,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-39",
+   "id": "b-azotowe-cukry-41",
    "dzial": "azotowe-cukry"
   }
  ]

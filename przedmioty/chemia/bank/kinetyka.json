@@ -767,6 +767,33 @@
    "dzial": "kinetyka"
   },
   {
+   "tytul": "Wyznaczanie stałej równowagi z wydajności",
+   "material": "Tekst autorski. Do naczynia 1 dm³ wprowadzono 1 mol PCl₅. W stanie równowagi PCl₅ ⇄ PCl₃ + Cl₂ rozłożyło się 40% PCl₅.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stałą równowagi.",
+     "odpowiedz": "K ≈ 0,27",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "[PCl₅] = 0,6; [PCl₃] = [Cl₂] = 0,4; K = 0,16/0,6.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jak zmieni się stopień rozkładu PCl₅ po zwiększeniu ciśnienia.",
+     "odpowiedz": "zmaleje",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Więcej moli gazów po prawej.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-30",
+   "dzial": "kinetyka"
+  },
+  {
    "tytul": "Okres półtrwania reakcji I rzędu",
    "material": "Tekst autorski. Rozkład pewnego związku jest reakcją I rzędu. Po 30 minutach jego stężenie spadło z 0,80 do 0,20 mol·dm⁻³.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -799,7 +826,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-30",
+   "id": "b-kinetyka-31",
    "dzial": "kinetyka"
   },
   {
@@ -826,7 +853,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-31",
+   "id": "b-kinetyka-32",
    "dzial": "kinetyka"
   },
   {
@@ -853,7 +880,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-32",
+   "id": "b-kinetyka-33",
    "dzial": "kinetyka"
   },
   {
@@ -880,7 +907,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-33",
+   "id": "b-kinetyka-34",
    "dzial": "kinetyka"
   },
   {
@@ -907,7 +934,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-34",
+   "id": "b-kinetyka-35",
    "dzial": "kinetyka"
   },
   {
@@ -934,7 +961,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-35",
+   "id": "b-kinetyka-36",
    "dzial": "kinetyka"
   },
   {
@@ -970,7 +997,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-36",
+   "id": "b-kinetyka-37",
    "dzial": "kinetyka"
   },
   {
@@ -997,7 +1024,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-37",
+   "id": "b-kinetyka-38",
    "dzial": "kinetyka"
   },
   {
@@ -1024,7 +1051,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-38",
+   "id": "b-kinetyka-39",
    "dzial": "kinetyka"
   },
   {
@@ -1042,7 +1069,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-39",
+   "id": "b-kinetyka-40",
    "dzial": "kinetyka"
   },
   {
@@ -1060,7 +1087,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-40",
+   "id": "b-kinetyka-41",
    "dzial": "kinetyka"
   }
  ]

@@ -299,6 +299,33 @@
    "dzial": "chemia-zycia"
   },
   {
+   "tytul": "Zaprawa gipsowa",
+   "material": "Tekst autorski. Gips palony CaSO₄·½H₂O po zmieszaniu z wodą twardnieje, tworząc CaSO₄·2H₂O.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie twardnienia gipsu.",
+     "odpowiedz": "2CaSO₄·½H₂O + 3H₂O → 2CaSO₄·2H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę wody potrzebną do związania 290 g gipsu palonego (M = 145 g/mol).",
+     "odpowiedz": "54 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2 mol gipsu → 3 mol H₂O.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-chemia-zycia-12",
+   "dzial": "chemia-zycia"
+  },
+  {
    "tytul": "Mydło w twardej wodzie",
    "material": "Tekst autorski. Do wody wodociągowej dodano roztwór stearynianu sodu — powstał biały osad.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -322,7 +349,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-12",
+   "id": "b-chemia-zycia-13",
    "dzial": "chemia-zycia"
   },
   {
@@ -349,7 +376,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-13",
+   "id": "b-chemia-zycia-14",
    "dzial": "chemia-zycia"
   },
   {
@@ -376,7 +403,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-14",
+   "id": "b-chemia-zycia-15",
    "dzial": "chemia-zycia"
   },
   {
@@ -394,7 +421,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-chemia-zycia-15",
+   "id": "b-chemia-zycia-16",
    "dzial": "chemia-zycia"
   }
  ]

@@ -749,6 +749,60 @@
    "dzial": "redoks"
   },
   {
+   "tytul": "Reakcja miedzi z kwasem azotowym(V)",
+   "material": "Tekst autorski. Miedź reaguje z rozcieńczonym HNO₃ z wydzieleniem bezbarwnego gazu, który na powietrzu brunatnieje.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równanie reakcji (cząsteczkowo) i dobierz współczynniki metodą bilansu elektronowego.",
+     "odpowiedz": "3Cu + 8HNO₃ → 3Cu(NO₃)₂ + 2NO + 4H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Cu: 0 → +II (2e⁻ · 3); N: +V → +II (3e⁻ · 2).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji, która powoduje brunatnienie gazu.",
+     "odpowiedz": "2NO + O₂ → 2NO₂",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-27",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Akumulator ołowiowy",
+   "material": "Tekst autorski. Podczas rozładowania akumulatora: Pb + PbO₂ + 2H₂SO₄ → 2PbSO₄ + 2H₂O.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ zmiany stopni utlenienia ołowiu.",
+     "odpowiedz": "Pb: 0 → +II; Pb w PbO₂: +IV → +II",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Synproporcjonowanie.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego stopień naładowania akumulatora można ocenić, mierząc gęstość elektrolitu.",
+     "odpowiedz": "Podczas rozładowania ubywa H₂SO₄ i przybywa wody — gęstość maleje.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-28",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Manganometria",
    "material": "Tekst autorski. Próbkę soli Mohra zawierającą jony Fe²⁺ zmiareczkowano w środowisku kwasowym roztworem KMnO₄ o stężeniu 0,0200 mol·dm⁻³; zużyto 15,0 cm³ titranta.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -781,7 +835,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-27",
+   "id": "b-redoks-29",
    "dzial": "redoks"
   },
   {
@@ -817,7 +871,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-28",
+   "id": "b-redoks-30",
    "dzial": "redoks"
   },
   {
@@ -844,7 +898,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-29",
+   "id": "b-redoks-31",
    "dzial": "redoks"
   },
   {
@@ -871,7 +925,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-30",
+   "id": "b-redoks-32",
    "dzial": "redoks"
   },
   {
@@ -889,7 +943,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-31",
+   "id": "b-redoks-33",
    "dzial": "redoks"
   },
   {
@@ -916,7 +970,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-32",
+   "id": "b-redoks-34",
    "dzial": "redoks"
   },
   {
@@ -943,7 +997,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-33",
+   "id": "b-redoks-35",
    "dzial": "redoks"
   },
   {
@@ -961,7 +1015,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-34",
+   "id": "b-redoks-36",
    "dzial": "redoks"
   },
   {
@@ -988,7 +1042,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-35",
+   "id": "b-redoks-37",
    "dzial": "redoks"
   },
   {
@@ -1015,7 +1069,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-36",
+   "id": "b-redoks-38",
    "dzial": "redoks"
   },
   {
@@ -1033,7 +1087,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-37",
+   "id": "b-redoks-39",
    "dzial": "redoks"
   },
   {
@@ -1051,7 +1105,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-38",
+   "id": "b-redoks-40",
    "dzial": "redoks"
   }
  ]
