@@ -567,6 +567,45 @@
      "poprawna": "C",
      "wyjasnienie": "Punkt często łączy schemat i obserwacje.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb5e7351b",
+     "pytanie": "W poleceniu „Napisz równanie w formie cząsteczkowej” należy:",
+     "odpowiedzi": [
+      "zapisać jony",
+      "pominąć współczynniki",
+      "użyć pełnych wzorów związków",
+      "zapisać tylko substraty"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Forma cząsteczkowa — bez rozpisywania na jony.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p23e93068",
+     "pytanie": "Polecenie „Oceń, czy…” wymaga:",
+     "odpowiedzi": [
+      "podania samego wzoru związku",
+      "narysowania schematu doświadczenia",
+      "rozstrzygnięcia i zwykle uzasadnienia",
+      "wyłącznie wykonania obliczeń"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Bez rozstrzygnięcia brak punktu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2e01398b",
+     "pytanie": "Gdy polecenie wymaga „wzorów półstrukturalnych”, wzór CH₃CH₂OH zapisany jako C₂H₆O jest:",
+     "odpowiedzi": [
+      "akceptowany zawsze",
+      "błędny",
+      "poprawny przy dobrej nazwie",
+      "poprawny"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wzór sumaryczny nie spełnia warunku zadania.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ],
    "schematy": [
@@ -1220,6 +1259,45 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Wydajność nie może przekroczyć 100%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8ba44d81",
+     "pytanie": "Uczeń policzył n = V/22,4 dla roztworu. Błąd polega na tym, że:",
+     "odpowiedzi": [
+      "objętość molowa dotyczy gazów",
+      "wynik zawsze wychodzi ujemny",
+      "brak jednostki",
+      "trzeba dzielić przez 24,4"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Dla roztworu: n = c · V.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5513dba4",
+     "pytanie": "W obliczeniu masy produktu uczeń pominął współczynniki równania. Wynik będzie:",
+     "odpowiedzi": [
+      "poprawny przy wydajności 100%",
+      "błędny, gdy współczynniki są różne od 1",
+      "zawsze poprawny",
+      "poprawny dla gazów"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Stosunek molowy wynika ze współczynników.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf08d332a",
+     "pytanie": "Zamiana 250 cm³ na dm³ daje:",
+     "odpowiedzi": [
+      "0,25 dm³",
+      "0,025 dm³",
+      "25 dm³",
+      "2,5 dm³"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "1 dm³ = 1000 cm³.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ],
