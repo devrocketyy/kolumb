@@ -1,0 +1,495 @@
+{
+ "id": "2015-maj-f2015",
+ "nazwa": "Matura maj 2015 (formuła 2015)",
+ "opis": "Egzamin maturalny z chemii, poziom rozszerzony, formuła 2015 — maj 2015 (pierwszy egzamin tej formuły). Zakres bardzo zbliżony do wymagań 2027.",
+ "link": "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Arkusze_egzaminacyjne/2015/formula_od_2015/MCH-R1_1P-152.pdf",
+ "linkZasady": "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Arkusze_egzaminacyjne/2015/formula_od_2015/odpowiedzi/MCH-R1-N.pdf",
+ "zrodlo": "Arkusz: CKE, maj 2015, formuła 2015 (MCH-R1_1P-152). Odpowiedzi i omówienia: opracowanie IndexLab na podstawie zasad oceniania CKE.",
+ "wiazki": [
+  {
+   "nr": "1",
+   "strona": 6,
+   "tytul": "Brom i wiązania",
+   "zadania": [
+    {
+     "nr": "1",
+     "punkty": 1,
+     "polecenie": "Uzupełnij tekst o konfiguracji bromu.",
+     "odpowiedz": "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁵; 7 elektronów walencyjnych; blok p",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "atom"
+     ]
+    },
+    {
+     "nr": "3",
+     "punkty": 1,
+     "polecenie": "Średnia masa atomowa bromu 79,90 u; izotopy 78,92 u i 80,92 u. Oblicz ich zawartość procentową.",
+     "odpowiedz": "⁷⁹Br: 51%; ⁸¹Br: 49%",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "78,92x + 80,92(1 − x) = 79,90 → x = 0,51.",
+     "dzialy": [
+      "atom"
+     ]
+    },
+    {
+     "nr": "4",
+     "punkty": 1,
+     "polecenie": "Określ rodzaj wiązania w CBr₄, CaBr₂, HBr.",
+     "odpowiedz": "CBr₄: kowalencyjne (spolaryzowane); CaBr₂: jonowe; HBr: kowalencyjne spolaryzowane",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "atom"
+     ]
+    },
+    {
+     "nr": "5.1",
+     "punkty": 1,
+     "polecenie": "Podaj hybrydyzację S i geometrię cząsteczki SO₃.",
+     "odpowiedz": "sp²; płaska",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "atom"
+     ]
+    },
+    {
+     "nr": "5.2",
+     "punkty": 1,
+     "polecenie": "Podaj liczbę wiązań σ i π w SO₃ (struktura z arkusza).",
+     "odpowiedz": "3 σ, 1 π",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "atom"
+     ]
+    },
+    {
+     "nr": "7",
+     "punkty": 1,
+     "polecenie": "Uzupełnij zdania o budowie lodu.",
+     "odpowiedz": "wiązania wodorowe; każda cząsteczka z czterema innymi (tetraedr)",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Luźna struktura — lód ma mniejszą gęstość niż woda.",
+     "dzialy": [
+      "atom"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "8",
+   "strona": 4,
+   "tytul": "Stechiometria i równowaga",
+   "zadania": [
+    {
+     "nr": "8",
+     "punkty": 2,
+     "polecenie": "Po reakcji H₂ z O₂ zostało tylko 0,9 g wody. Podaj stosunek objętościowy i masowy oraz masy substratów.",
+     "odpowiedz": "V 2 : 1; m 1 : 8; 0,1 g H₂ i 0,8 g O₂",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "Reagenty w stosunku stechiometrycznym.",
+     "dzialy": [
+      "stechiometria"
+     ]
+    },
+    {
+     "nr": "9",
+     "punkty": 2,
+     "polecenie": "Z 1 kg CaSO₄ (2CaSO₄ + C → 2CaO + 2SO₂ + CO₂) otrzymano 150 dm³ SO₂ (w. n.). Oblicz wydajność.",
+     "odpowiedz": "ok. 91%",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "n(CaSO₄) = 1000/136 = 7,35 mol → teoretycznie 164,7 dm³ SO₂; 150/164,7 = 91,1%.",
+     "dzialy": [
+      "stechiometria"
+     ]
+    },
+    {
+     "nr": "10",
+     "punkty": 1,
+     "polecenie": "Uzupełnij zdania o wpływie temperatury i rozdrobnienia na proces.",
+     "odpowiedz": "wzrost T zwiększa wydajność — proces endoenergetyczny",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "stechiometria"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "12",
+   "strona": 6,
+   "tytul": "Roztwory i jony",
+   "zadania": [
+    {
+     "nr": "12",
+     "punkty": 1,
+     "polecenie": "Porównaj pH: Ba(OH)₂ 0,05; KOH 0,1; NH₃ 0,1; (4) w arkuszu.",
+     "odpowiedz": "1 = 2; 2 > 3; 3 > 4",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Ba(OH)₂ 0,05 mol/dm³ daje [OH⁻] = 0,1.",
+     "dzialy": [
+      "roztwory"
+     ]
+    },
+    {
+     "nr": "13",
+     "punkty": 1,
+     "polecenie": "Porównaj kwasy chlorowy(I) i chlorowy(III).",
+     "odpowiedz": "w HClO wiązanie O–H mniej spolaryzowane; HClO słabszy",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Więcej atomów O — mocniejszy kwas.",
+     "dzialy": [
+      "roztwory"
+     ]
+    },
+    {
+     "nr": "14.1",
+     "punkty": 1,
+     "polecenie": "Dobierz odczynniki do strącenia kolejno Ag⁺, Ba²⁺, Mg²⁺.",
+     "odpowiedz": "I: NaCl; II: Na₂CrO₄; III: K₂SiO₃",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "roztwory"
+     ]
+    },
+    {
+     "nr": "14.2",
+     "punkty": 1,
+     "polecenie": "Podaj wzory osadów.",
+     "odpowiedz": "AgCl; BaCrO₄; MgSiO₃",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "roztwory"
+     ]
+    },
+    {
+     "nr": "15",
+     "punkty": 2,
+     "polecenie": "Podaj odczyn i równania hydrolizy: stearynian (I) i sól amonowa (II).",
+     "odpowiedz": "I zasadowy: C₁₇H₃₅COO⁻ + H₂O ⇄ C₁₇H₃₅COOH + OH⁻; II kwasowy: NH₄⁺ + H₂O ⇄ NH₃ + H₃O⁺",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "—",
+     "dzialy": [
+      "roztwory"
+     ]
+    },
+    {
+     "nr": "16",
+     "punkty": 1,
+     "polecenie": "Określ funkcję NH₄⁺ i C₁₇H₃₅COO⁻ wg Brønsteda.",
+     "odpowiedz": "NH₄⁺ — kwas; C₁₇H₃₅COO⁻ — zasada",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "roztwory"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "17",
+   "strona": 4,
+   "tytul": "Energetyka i otrzymywanie soli",
+   "zadania": [
+    {
+     "nr": "17",
+     "punkty": 1,
+     "polecenie": "Wybierz wykres dla A → C (ΔH < 0) → B (ΔH > 0).",
+     "odpowiedz": "wykres II",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "nieorganiczne"
+     ]
+    },
+    {
+     "nr": "19.1",
+     "punkty": 1,
+     "polecenie": "Dobierz odczynniki do otrzymania soli trzema metodami (metal + kwas, tlenek + kwas, wodorotlenek + kwas).",
+     "odpowiedz": "I: CaO + HCl; II: Al + HCl (lub rozc. H₂SO₄); III: Cu(OH)₂ + H₂SO₄ (lub HCl)",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "nieorganiczne"
+     ]
+    },
+    {
+     "nr": "19.2",
+     "punkty": 1,
+     "polecenie": "Napisz równanie jonowe reakcji w probówce III.",
+     "odpowiedz": "Cu(OH)₂ + 2H⁺ → Cu²⁺ + 2H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "nieorganiczne"
+     ]
+    },
+    {
+     "nr": "21",
+     "punkty": 2,
+     "polecenie": "Napisz równania reakcji AlCl₃ z NaOH dodawanym porcjami (glin LK = 4).",
+     "odpowiedz": "Al³⁺ + 3OH⁻ → Al(OH)₃↓; Al(OH)₃ + OH⁻ → [Al(OH)₄]⁻",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "—",
+     "dzialy": [
+      "nieorganiczne"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "23",
+   "strona": 4,
+   "tytul": "Manganian(VII) i kwas szczawiowy",
+   "zadania": [
+    {
+     "nr": "23.1",
+     "punkty": 2,
+     "polecenie": "Napisz równania połówkowe.",
+     "odpowiedz": "MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O (×2); (COOH)₂ → 2CO₂ + 2H⁺ + 2e⁻ (×5)",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "—",
+     "dzialy": [
+      "redoks"
+     ]
+    },
+    {
+     "nr": "23.2",
+     "punkty": 1,
+     "polecenie": "Dobierz współczynniki.",
+     "odpowiedz": "2MnO₄⁻ + 5(COOH)₂ + 6H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "redoks"
+     ]
+    },
+    {
+     "nr": "23.3",
+     "punkty": 1,
+     "polecenie": "Wskaż utleniacz i reduktor.",
+     "odpowiedz": "utleniacz: MnO₄⁻; reduktor: (COOH)₂",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "redoks"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "24",
+   "strona": 7,
+   "tytul": "Węglowodory i alkohole",
+   "zadania": [
+    {
+     "nr": "24",
+     "punkty": 1,
+     "polecenie": "Oceń prawdziwość zdań o przeróbce ropy i gazu.",
+     "odpowiedz": "1. P, 2. F, 3. P",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Smoła i koks to produkty pirolizy węgla, nie ropy.",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "25",
+     "punkty": 2,
+     "polecenie": "Napisz równania addycji HBr do 2-metylobut-1-enu i substytucji bromu w 2-metylobutanie.",
+     "odpowiedz": "CH₂=C(CH₃)CH₂CH₃ + HBr → CH₃CBr(CH₃)CH₂CH₃; CH₃CH(CH₃)CH₂CH₃ + Br₂ → CH₃CBr(CH₃)CH₂CH₃ + HBr",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "—",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "26",
+     "punkty": 1,
+     "polecenie": "Podaj mechanizmy obu reakcji.",
+     "odpowiedz": "addycja — elektrofilowy; substytucja — rodnikowy",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "27",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego oba procesy dają 2-bromo-2-metylobutan.",
+     "odpowiedz": "addycja wg reguły Markownikowa; w substytucji łatwiej podstawiany jest H przy C trzeciorzędowym",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "28",
+     "punkty": 2,
+     "polecenie": "Podaj wzór, nazwę i rzędowość optycznie czynnego alkoholu C₅ o prostym łańcuchu, którego utlenienie daje keton.",
+     "odpowiedz": "CH₃CH(OH)CH₂CH₂CH₃; pentan-2-ol; II-rzędowy",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "Pentan-3-ol nie jest chiralny.",
+     "dzialy": [
+      "organiczna"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "29",
+   "strona": 4,
+   "tytul": "Związki karbonylowe i kwasy",
+   "zadania": [
+    {
+     "nr": "29",
+     "punkty": 1,
+     "polecenie": "Wybierz poprawne nazwy związków I i II (arkusz).",
+     "odpowiedz": "B",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "30",
+     "punkty": 1,
+     "polecenie": "Wybierz zdania prawdziwe dla związku II.",
+     "odpowiedz": "1. i 3.",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "31",
+     "punkty": 2,
+     "polecenie": "Oblicz pH roztworu kwasu octowego 6,0% (d = 1,00 g/cm³), Ka = 1,8 · 10⁻⁵.",
+     "odpowiedz": "pH ≈ 2,4",
+     "zasady": "Pełna punktacja tylko przy poprawnej metodzie, poprawnych obliczeniach i wyniku z jednostką (szczegóły: zasady oceniania CKE).",
+     "omowienie": "c = 60/60 = 1,0 mol/dm³; [H⁺] = √(1,8 · 10⁻⁵) = 4,2 · 10⁻³.",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "33.2",
+     "punkty": 1,
+     "polecenie": "CH₃COONa + kwas pirogronowy — opisz obserwacje potwierdzające moc kwasów.",
+     "odpowiedz": "wyczuwalny zapach octu",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Mocniejszy kwas pirogronowy wypiera kwas octowy.",
+     "dzialy": [
+      "organiczna"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": "34",
+   "strona": 7,
+   "tytul": "Tłuszcze, cukry, peptydy",
+   "zadania": [
+    {
+     "nr": "34",
+     "punkty": 1,
+     "polecenie": "Jak odróżnić parafinę od stearyny?",
+     "odpowiedz": "C — zbadać ich zachowanie wobec NaOH",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "Stearyna (mieszanina kwasów tłuszczowych) reaguje z zasadą, parafina — nie.",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "35",
+     "punkty": 1,
+     "polecenie": "Uzupełnij wzór Hawortha α-D-glukopiranozy.",
+     "odpowiedz": "przy C1 grupa –OH w dół (α); układ –OH jak w projekcji Fischera: prawe w dół, lewe w górę",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "36",
+     "punkty": 1,
+     "polecenie": "Uszereguj tłuszcze wg rosnącej liczby jodowej (arkusz).",
+     "odpowiedz": "III, II, I",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "37",
+     "punkty": 1,
+     "polecenie": "Zidentyfikuj substancje w naczyniach I–IV.",
+     "odpowiedz": "I: fenol; II: Gly-Ala-Gly; III: glukoza; IV: glicerol",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "38",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę reakcji dającej fioletowe zabarwienie w naczyniu II.",
+     "odpowiedz": "reakcja biuretowa",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "„Kompleksowanie” to za mało.",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "39",
+     "punkty": 1,
+     "polecenie": "Jaki element budowy glukozy i glicerolu daje szafirowe zabarwienie z Cu(OH)₂?",
+     "odpowiedz": "grupy –OH przy sąsiednich atomach węgla",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "40",
+     "punkty": 1,
+     "polecenie": "Dlaczego ceglasty osad powstał z glukozą, a nie z glicerolem?",
+     "odpowiedz": "glukoza ma grupę aldehydową (redukującą), glicerol — nie",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "organiczna"
+     ]
+    },
+    {
+     "nr": "41",
+     "punkty": 1,
+     "polecenie": "Podaj sekwencję tripeptydu Gly/Ala (opis w arkuszu).",
+     "odpowiedz": "Ala-Ala-Gly",
+     "zasady": "1 pkt – odpowiedź poprawna (zgodna z zasadami oceniania CKE).\n0 pkt – odpowiedź niepoprawna, niepełna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "dzialy": [
+      "organiczna"
+     ]
+    }
+   ]
+  }
+ ]
+}
