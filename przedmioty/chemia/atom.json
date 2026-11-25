@@ -650,6 +650,28 @@
      "wyjasnienie": "Średnia ważona składu izotopowego.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s28ca65ac",
+     "typ": "proces",
+     "tytul": "Obliczanie średniej masy atomowej i składu izotopowego",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Średnia masa z udziałów",
+       "d": "A = Σ (masa izotopu · udział)"
+      },
+      {
+       "t": "Skład z masy średniej (2 izotopy)",
+       "d": "A = m₁x + m₂(1 − x) — rozwiąż względem x"
+      },
+      {
+       "t": "Sprawdzenie",
+       "d": "masa średnia leży bliżej izotopu o większym udziale"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2680,6 +2702,34 @@
       {
        "t": "Wiek próbki",
        "d": "z ilości pozostałej odczytaj n, potem t = n · T½"
+      }
+     ]
+    },
+    {
+     "id": "s0f5f4fbc",
+     "typ": "proces",
+     "tytul": "Uzupełnianie równań reakcji jądrowych",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Suma liczb masowych",
+       "d": "po obu stronach równa"
+      },
+      {
+       "t": "Suma liczb atomowych",
+       "d": "po obu stronach równa"
+      },
+      {
+       "t": "Cząstka α",
+       "d": "⁴₂He"
+      },
+      {
+       "t": "Cząstka β⁻",
+       "d": "⁰₋₁e"
+      },
+      {
+       "t": "Neutron i proton",
+       "d": "¹₀n i ¹₁p"
       }
      ]
     }

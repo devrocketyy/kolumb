@@ -1428,6 +1428,30 @@
        "d": "łączenie dwóch rodników"
       }
      ]
+    },
+    {
+     "id": "s7a77a924",
+     "typ": "proces",
+     "tytul": "Nazewnictwo alkanów rozgałęzionych",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Najdłuższy łańcuch",
+       "d": "nazwa podstawowa"
+      },
+      {
+       "t": "Numeracja",
+       "d": "od końca bliższego rozgałęzieniu"
+      },
+      {
+       "t": "Podstawniki",
+       "d": "lokant + nazwa (metylo-, etylo-), alfabetycznie"
+      },
+      {
+       "t": "Takie same podstawniki",
+       "d": "przedrostki di-, tri-, tetra-"
+      }
+     ]
     }
    ]
   },

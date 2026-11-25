@@ -2036,6 +2036,34 @@
        "d": ""
       }
      ]
+    },
+    {
+     "id": "se05c53e5",
+     "typ": "proces",
+     "tytul": "Przewidywanie temperatury wrzenia",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Rodzaj kryształu",
+       "d": "kowalencyjny > jonowy > metaliczny (zwykle) > molekularny"
+      },
+      {
+       "t": "Wiązania wodorowe",
+       "d": "znacznie podwyższają temperaturę wrzenia"
+      },
+      {
+       "t": "Polarność",
+       "d": "cząsteczki polarne wrzą wyżej niż niepolarne o podobnej masie"
+      },
+      {
+       "t": "Masa cząsteczkowa",
+       "d": "większa masa — silniejsze siły van der Waalsa"
+      },
+      {
+       "t": "Kształt",
+       "d": "łańcuchy proste wrzą wyżej niż rozgałęzione"
+      }
+     ]
     }
    ]
   }

@@ -1152,6 +1152,30 @@
        "d": "M związku / M wzoru empirycznego = krotność"
       }
      ]
+    },
+    {
+     "id": "sa0398b2b",
+     "typ": "proces",
+     "tytul": "Ustalanie wzoru z procentowego składu",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Przyjmij 100 g związku",
+       "d": "procenty = masy w gramach"
+      },
+      {
+       "t": "Podziel przez masy molowe",
+       "d": "liczby moli pierwiastków"
+      },
+      {
+       "t": "Podziel przez najmniejszą",
+       "d": "stosunek liczb całkowitych (ew. pomnóż)"
+      },
+      {
+       "t": "Wzór rzeczywisty",
+       "d": "porównaj z masą molową"
+      }
+     ]
     }
    ]
   },

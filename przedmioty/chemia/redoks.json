@@ -586,6 +586,60 @@
      "wyjasnienie": "Chlor z 0 przechodzi na −I i +I.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sdcbc1ce3",
+     "typ": "proces",
+     "tytul": "Ustalanie stopnia utlenienia",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Pierwiastki w stanie wolnym",
+       "d": "0"
+      },
+      {
+       "t": "Pewne stopnie",
+       "d": "F: −I; litowce +I; berylowce +II; H zwykle +I; O zwykle −II"
+      },
+      {
+       "t": "Suma w cząsteczce",
+       "d": "równa 0"
+      },
+      {
+       "t": "Suma w jonie",
+       "d": "równa ładunkowi jonu"
+      },
+      {
+       "t": "Wylicz niewiadomą",
+       "d": "z równania sumy"
+      }
+     ]
+    },
+    {
+     "id": "s96a5fec3",
+     "typ": "proces",
+     "tytul": "Rozpoznawanie reakcji redoks",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Ustal stopnie utlenienia wszystkich pierwiastków",
+       "d": "po obu stronach"
+      },
+      {
+       "t": "Czy któryś się zmienił?",
+       "d": "jeśli nie — to nie jest redoks"
+      },
+      {
+       "t": "Wzrost stopnia",
+       "d": "utlenianie — ta drobina to reduktor"
+      },
+      {
+       "t": "Spadek stopnia",
+       "d": "redukcja — ta drobina to utleniacz"
+      }
+     ]
+    }
    ]
   },
   {

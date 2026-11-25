@@ -1340,6 +1340,34 @@
        "d": "kryształy zabierają wodę — przelicz masę soli bezwodnej i wody"
       }
      ]
+    },
+    {
+     "id": "sade9ea1f",
+     "typ": "proces",
+     "tytul": "Iloczyn rozpuszczalności — obliczenia",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Zapisz równanie dysocjacji",
+       "d": "np. MₐXᵦ ⇄ aMⁿ⁺ + bXᵐ⁻"
+      },
+      {
+       "t": "Wyraź stężenia przez s",
+       "d": "[M] = a·s, [X] = b·s"
+      },
+      {
+       "t": "Wstaw do Kₛ",
+       "d": "Kₛ = (as)ᵃ(bs)ᵇ"
+      },
+      {
+       "t": "Rozwiąż względem s",
+       "d": "rozpuszczalność molowa"
+      },
+      {
+       "t": "Ze wspólnym jonem",
+       "d": "s = Kₛ / stężenie wspólnego jonu (dla soli typu MX)"
+      }
+     ]
     }
    ]
   },
@@ -1940,6 +1968,30 @@
       {
        "t": "Nowe stężenie",
        "d": "cₚ = mₛ / m_r · 100%"
+      }
+     ]
+    },
+    {
+     "id": "s97ea83b7",
+     "typ": "proces",
+     "tytul": "Reguła krzyżowa (mieszanie roztworów)",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Wpisz stężenia",
+       "d": "c₁ i c₂ roztworów wyjściowych, c — docelowe"
+      },
+      {
+       "t": "Odejmij po przekątnych",
+       "d": "|c₂ − c| i |c − c₁|"
+      },
+      {
+       "t": "Stosunek mas",
+       "d": "m₁ : m₂ = |c₂ − c| : |c − c₁|"
+      },
+      {
+       "t": "Woda i czysta substancja",
+       "d": "0% i 100%"
       }
      ]
     }

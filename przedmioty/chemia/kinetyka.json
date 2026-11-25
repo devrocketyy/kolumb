@@ -754,6 +754,30 @@
        "d": "skróć substancje po obu stronach"
       }
      ]
+    },
+    {
+     "id": "s0423ad8b",
+     "typ": "proces",
+     "tytul": "Obliczanie ΔH z energii wiązań",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Narysuj wzory strukturalne",
+       "d": "policz wiązania w substratach i produktach"
+      },
+      {
+       "t": "Energia wiązań zrywanych",
+       "d": "suma dla substratów"
+      },
+      {
+       "t": "Energia wiązań tworzonych",
+       "d": "suma dla produktów"
+      },
+      {
+       "t": "ΔH = Σ zrywane − Σ tworzone",
+       "d": "ujemne — reakcja egzotermiczna"
+      }
+     ]
     }
    ]
   },

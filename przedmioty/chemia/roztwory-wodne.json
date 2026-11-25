@@ -667,6 +667,30 @@
        "d": "to kwas sprzężony"
       }
      ]
+    },
+    {
+     "id": "s5cf21804",
+     "typ": "proces",
+     "tytul": "Porównywanie mocy kwasów",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Ka lub pKa",
+       "d": "większe Ka (mniejsze pKa) — mocniejszy kwas"
+      },
+      {
+       "t": "Kwasy tlenowe tego samego pierwiastka",
+       "d": "więcej atomów O — mocniejszy"
+      },
+      {
+       "t": "Kwasy beztlenowe w grupie",
+       "d": "moc rośnie w dół (HF < HCl < HBr < HI)"
+      },
+      {
+       "t": "Doświadczenie",
+       "d": "mocniejszy kwas wypiera słabszy z jego soli"
+      }
+     ]
     }
    ]
   },
@@ -2924,6 +2948,30 @@
       {
        "t": "Sprawdź ładunki",
        "d": "suma po lewej = suma po prawej"
+      }
+     ]
+    },
+    {
+     "id": "s9dadcd51",
+     "typ": "proces",
+     "tytul": "Przewidywanie, czy powstanie osad",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Wypisz możliwe produkty wymiany",
+       "d": "pary kation–anion z obu roztworów"
+      },
+      {
+       "t": "Sprawdź w tabeli rozpuszczalności",
+       "d": "czy któryś produkt jest trudno rozpuszczalny"
+      },
+      {
+       "t": "Jeśli tak",
+       "d": "powstaje osad — zapisz równanie jonowe"
+      },
+      {
+       "t": "Jeśli nie",
+       "d": "brak reakcji (wszystkie jony zostają w roztworze)"
       }
      ]
     }

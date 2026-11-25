@@ -1614,6 +1614,30 @@
        "d": "aldehyd utlenia się do kwasu, keton nie"
       }
      ]
+    },
+    {
+     "id": "se9a9157d",
+     "typ": "proces",
+     "tytul": "Otrzymywanie i reakcje związków karbonylowych",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Alkohol I-rzędowy → aldehyd",
+       "d": "CuO lub K₂Cr₂O₇ (łagodnie)"
+      },
+      {
+       "t": "Alkohol II-rzędowy → keton",
+       "d": "CuO lub K₂Cr₂O₇"
+      },
+      {
+       "t": "Aldehyd → kwas",
+       "d": "utlenianie (Tollens, Trommer, KMnO₄)"
+      },
+      {
+       "t": "Aldehyd/keton → alkohol",
+       "d": "redukcja wodorem (kat.)"
+      }
+     ]
     }
    ]
   },
@@ -3098,6 +3122,30 @@
       {
        "t": "Działanie myjące",
        "d": "część hydrofobowa wiąże brud, hydrofilowa — wodę (micele)"
+      }
+     ]
+    },
+    {
+     "id": "s32540993",
+     "typ": "proces",
+     "tytul": "Nazewnictwo estrów",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Rozpoznaj część kwasową",
+       "d": "R–COO– (z atomem C grupy karbonylowej)"
+      },
+      {
+       "t": "Rozpoznaj część alkoholową",
+       "d": "grupa alkilowa przy tlenie"
+      },
+      {
+       "t": "Nazwa",
+       "d": "anion kwasu + nazwa grupy alkilowej, np. etanian propylu"
+      },
+      {
+       "t": "Nazwy zwyczajowe",
+       "d": "octan, mrówczan, maślan"
       }
      ]
     }

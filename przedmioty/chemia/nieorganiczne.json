@@ -631,6 +631,34 @@
        "d": "obojętny"
       }
      ]
+    },
+    {
+     "id": "sfb3a4810",
+     "typ": "proces",
+     "tytul": "Reakcje tlenków — przegląd",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Tlenek zasadowy + woda",
+       "d": "wodorotlenek (tylko tlenki litowców i cięższych berylowców)"
+      },
+      {
+       "t": "Tlenek kwasowy + woda",
+       "d": "kwas tlenowy (poza SiO₂)"
+      },
+      {
+       "t": "Tlenek zasadowy + kwas",
+       "d": "sól + woda"
+      },
+      {
+       "t": "Tlenek kwasowy + zasada",
+       "d": "sól + woda"
+      },
+      {
+       "t": "Tlenek amfoteryczny",
+       "d": "reaguje z kwasami i mocnymi zasadami"
+      }
+     ]
     }
    ]
   },
@@ -1926,6 +1954,34 @@
       {
        "t": "Metal + niemetal",
        "d": "np. 2Na + Cl₂ → 2NaCl"
+      }
+     ]
+    },
+    {
+     "id": "s3e9a18ad",
+     "typ": "proces",
+     "tytul": "Nazewnictwo soli",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Nazwa anionu",
+       "d": "od kwasu: -ek (beztlenowe), -an (tlenowe)"
+      },
+      {
+       "t": "Stopień utlenienia",
+       "d": "w nawiasie, gdy pierwiastek ma kilka, np. siarczan(IV)"
+      },
+      {
+       "t": "Nazwa kationu",
+       "d": "w dopełniaczu, z wartościowością metalu, np. żelaza(III)"
+      },
+      {
+       "t": "Wodorosole",
+       "d": "przedrostek wodoro-/diwodoro-"
+      },
+      {
+       "t": "Hydraty",
+       "d": "woda krystalizacyjna, np. „—woda(1/5)”"
       }
      ]
     }
@@ -3562,6 +3618,34 @@
       {
        "t": "SO₂",
        "d": "odbarwia roztwór KMnO₄ i wodę bromową"
+      }
+     ]
+    },
+    {
+     "id": "sb8cd953e",
+     "typ": "proces",
+     "tytul": "Właściwości halogenów w grupie",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Fluor",
+       "d": "najsilniejszy utleniacz, gaz jasnożółty"
+      },
+      {
+       "t": "Chlor",
+       "d": "gaz żółtozielony, wypiera Br₂ i I₂"
+      },
+      {
+       "t": "Brom",
+       "d": "ciecz brunatnoczerwona, wypiera I₂"
+      },
+      {
+       "t": "Jod",
+       "d": "ciało stałe fioletowoczarne, sublimuje"
+      },
+      {
+       "t": "Trend w dół grupy",
+       "d": "maleje elektroujemność i aktywność utleniająca"
       }
      ]
     }
