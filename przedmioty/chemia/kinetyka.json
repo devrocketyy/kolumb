@@ -559,6 +559,32 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
+     "id": "paa77a7da",
+     "pytanie": "ΔHₜ(CO₂) = −394 kJ/mol, ΔHₜ(H₂O) = −286 kJ/mol, ΔHₜ(CH₄) = −75 kJ/mol. ΔH spalania CH₄ to:",
+     "odpowiedzi": [
+      "−891 kJ/mol",
+      "−605 kJ/mol",
+      "+891 kJ/mol",
+      "−755 kJ/mol"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "(−394 − 572) − (−75).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf16a9a24",
+     "pytanie": "Energia wiązań: H–H 436, Cl–Cl 243, H–Cl 432 kJ/mol. ΔH reakcji H₂ + Cl₂ → 2HCl to:",
+     "odpowiedzi": [
+      "+247 kJ",
+      "−247 kJ",
+      "+185 kJ",
+      "−185 kJ"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "(436 + 243) − 2 · 432.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
      "id": "p2467647c",
      "pytanie": "Reakcja ma ΔH = −90 kJ. Jest to reakcja:",
      "odpowiedzi": [
@@ -1146,6 +1172,58 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
+     "id": "p35c7c8b8",
+     "pytanie": "Podwyższenie temperatury o 20 K przy współczynniku temperaturowym 3 zwiększa szybkość:",
+     "odpowiedzi": [
+      "9 razy",
+      "6 razy",
+      "20 razy",
+      "3 razy"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "3² = 9.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4c42d313",
+     "pytanie": "Szybkość reakcji A + B → C nie zależy od [B]. Rząd względem B wynosi:",
+     "odpowiedzi": [
+      "1",
+      "2",
+      "0",
+      "−1"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wykładnik zero.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8fb0e5d2",
+     "pytanie": "Reakcja 2NO + O₂ → 2NO₂ ma v = k[NO]²[O₂]. Trzykrotny wzrost [NO] zwiększa szybkość:",
+     "odpowiedzi": [
+      "6 razy",
+      "9 razy",
+      "27 razy",
+      "3 razy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "3².",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6b06bd5d",
+     "pytanie": "Szybkość reakcji cynku z HCl nie zależy od:",
+     "odpowiedzi": [
+      "objętości kwasu (przy stałym stężeniu)",
+      "temperatury mieszaniny reakcyjnej",
+      "stężenia użytego kwasu solnego",
+      "stopnia rozdrobnienia cynku"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Liczy się stężenie, nie objętość.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
      "id": "pf3e1dde3",
      "pytanie": "v = k[A][B]. Jak zmieni się szybkość, gdy oba stężenia wzrosną dwukrotnie?",
      "odpowiedzi": [
@@ -1719,6 +1797,58 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Po obu stronach 2 mole gazów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc446878c",
+     "pytanie": "Dla 2SO₂ + O₂ ⇄ 2SO₃ wyrażenie na K to:",
+     "odpowiedzi": [
+      "2[SO₃] / (2[SO₂][O₂])",
+      "[SO₂]²[O₂] / [SO₃]²",
+      "[SO₃] / ([SO₂][O₂])",
+      "[SO₃]² / ([SO₂]²[O₂])"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Potęgi = współczynniki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "paa5bf4be",
+     "pytanie": "Jeśli Q > K, układ:",
+     "odpowiedzi": [
+      "reaguje w prawo",
+      "reaguje w lewo",
+      "jest w równowadze",
+      "nie reaguje"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Za dużo produktów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p55e687cb",
+     "pytanie": "Dla A ⇄ B: K = 4. Stężenie równowagowe B przy [A] = 0,5 mol/dm³ wynosi:",
+     "odpowiedzi": [
+      "0,125 mol/dm³",
+      "8 mol/dm³",
+      "2 mol/dm³",
+      "4,5 mol/dm³"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "[B] = K · [A].",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb507bc47",
+     "pytanie": "Usunięcie CO₂ z układu CaCO₃ ⇄ CaO + CO₂ powoduje:",
+     "odpowiedzi": [
+      "brak zmian",
+      "powstawanie CaCO₃",
+      "zmianę wartości K",
+      "rozkład większej ilości CaCO₃"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Reguła przekory.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
