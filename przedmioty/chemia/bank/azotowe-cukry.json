@@ -425,6 +425,69 @@
    "dzial": "azotowe-cukry"
   },
   {
+   "tytul": "Punkt izoelektryczny",
+   "material": "Tekst autorski. Glicyna ma pI = 6,0. Przygotowano trzy roztwory glicyny o pH: 2, 6 i 11.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz wzory form glicyny dominujących w każdym roztworze.",
+     "odpowiedz": "pH 2: H₃N⁺CH₂COOH; pH 6: H₃N⁺CH₂COO⁻; pH 11: H₂NCH₂COO⁻",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w którym roztworze glicyna nie wędruje w polu elektrycznym.",
+     "odpowiedz": "pH = 6",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ładunek wypadkowy zero.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-azotowe-cukry-19",
+   "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Skrobia i celuloza",
+   "material": "Tekst autorski. Skrobia i celuloza zbudowane są z reszt glukozy, ale tylko skrobia jest trawiona przez człowieka.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij przyczynę różnicy.",
+     "odpowiedz": "Celuloza ma wiązania β-1,4-glikozydowe, których nie rozkładają enzymy człowieka; skrobia — α-1,4 i α-1,6.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę glukozy z całkowitej hydrolizy 81 g skrobi.",
+     "odpowiedz": "90 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "81 / 162 = 0,5 mola merów · 180 g/mol.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj odczynnik i obserwację potwierdzającą całkowitą hydrolizę skrobi.",
+     "odpowiedz": "płyn Lugola — brak granatowego zabarwienia",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-azotowe-cukry-20",
+   "dzial": "azotowe-cukry"
+  },
+  {
    "tytul": "Glicyna i alanina",
    "material": "Tekst autorski. Glicyna (H₂N–CH₂–COOH) i alanina (H₂N–CH(CH₃)–COOH) to najprostsze aminokwasy białkowe.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -457,7 +520,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-azotowe-cukry-19",
+   "id": "b-azotowe-cukry-21",
    "dzial": "azotowe-cukry"
   },
   {
@@ -484,7 +547,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-20",
+   "id": "b-azotowe-cukry-22",
    "dzial": "azotowe-cukry"
   },
   {
@@ -511,7 +574,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-21",
+   "id": "b-azotowe-cukry-23",
    "dzial": "azotowe-cukry"
   },
   {
@@ -538,7 +601,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-22",
+   "id": "b-azotowe-cukry-24",
    "dzial": "azotowe-cukry"
   },
   {
@@ -565,7 +628,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-23",
+   "id": "b-azotowe-cukry-25",
    "dzial": "azotowe-cukry"
   },
   {
@@ -592,7 +655,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-24",
+   "id": "b-azotowe-cukry-26",
    "dzial": "azotowe-cukry"
   },
   {
@@ -619,7 +682,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-25",
+   "id": "b-azotowe-cukry-27",
    "dzial": "azotowe-cukry"
   },
   {
@@ -646,7 +709,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-26",
+   "id": "b-azotowe-cukry-28",
    "dzial": "azotowe-cukry"
   },
   {
@@ -673,7 +736,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-27",
+   "id": "b-azotowe-cukry-29",
    "dzial": "azotowe-cukry"
   },
   {
@@ -691,7 +754,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-28",
+   "id": "b-azotowe-cukry-30",
    "dzial": "azotowe-cukry"
   },
   {
@@ -718,7 +781,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-29",
+   "id": "b-azotowe-cukry-31",
    "dzial": "azotowe-cukry"
   },
   {
@@ -736,7 +799,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-30",
+   "id": "b-azotowe-cukry-32",
    "dzial": "azotowe-cukry"
   },
   {
@@ -754,7 +817,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-31",
+   "id": "b-azotowe-cukry-33",
    "dzial": "azotowe-cukry"
   }
  ]

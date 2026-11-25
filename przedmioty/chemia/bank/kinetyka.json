@@ -569,6 +569,42 @@
    "dzial": "kinetyka"
   },
   {
+   "tytul": "Reakcja tiosiarczanu z kwasem",
+   "material": "Tekst autorski. Na₂S₂O₃ reaguje z HCl: S₂O₃²⁻ + 2H⁺ → S↓ + SO₂ + H₂O. Mierzono czas, po którym zmętnienie zasłoniło znak pod kolbą, w różnych temperaturach: 20°C — 120 s, 30°C — 60 s, 40°C — 30 s.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ współczynnik temperaturowy szybkości reakcji.",
+     "odpowiedz": "2",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Każde +10°C skraca czas o połowę.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Przewidź czas zmętnienia w 50°C.",
+     "odpowiedz": "15 s",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Szybkość dwa razy większa.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, czy reakcja jest redoks, i uzasadnij.",
+     "odpowiedz": "Tak — dysproporcjonowanie siarki (+II → 0 i +IV).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-kinetyka-23",
+   "dzial": "kinetyka"
+  },
+  {
    "tytul": "Okres półtrwania reakcji I rzędu",
    "material": "Tekst autorski. Rozkład pewnego związku jest reakcją I rzędu. Po 30 minutach jego stężenie spadło z 0,80 do 0,20 mol·dm⁻³.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -601,7 +637,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-23",
+   "id": "b-kinetyka-24",
    "dzial": "kinetyka"
   },
   {
@@ -628,7 +664,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-24",
+   "id": "b-kinetyka-25",
    "dzial": "kinetyka"
   },
   {
@@ -655,7 +691,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-25",
+   "id": "b-kinetyka-26",
    "dzial": "kinetyka"
   },
   {
@@ -682,7 +718,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-26",
+   "id": "b-kinetyka-27",
    "dzial": "kinetyka"
   },
   {
@@ -709,7 +745,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-27",
+   "id": "b-kinetyka-28",
    "dzial": "kinetyka"
   },
   {
@@ -736,7 +772,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-28",
+   "id": "b-kinetyka-29",
    "dzial": "kinetyka"
   },
   {
@@ -772,7 +808,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-29",
+   "id": "b-kinetyka-30",
    "dzial": "kinetyka"
   },
   {
@@ -799,7 +835,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-30",
+   "id": "b-kinetyka-31",
    "dzial": "kinetyka"
   },
   {
@@ -826,7 +862,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-31",
+   "id": "b-kinetyka-32",
    "dzial": "kinetyka"
   },
   {
@@ -844,7 +880,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-32",
+   "id": "b-kinetyka-33",
    "dzial": "kinetyka"
   },
   {
@@ -862,7 +898,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-33",
+   "id": "b-kinetyka-34",
    "dzial": "kinetyka"
   }
  ]

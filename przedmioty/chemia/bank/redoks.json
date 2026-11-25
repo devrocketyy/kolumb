@@ -506,6 +506,69 @@
    "dzial": "redoks"
   },
   {
+   "tytul": "Chromian i dichromian",
+   "material": "Tekst autorski. Do żółtego roztworu K₂CrO₄ dodano kwasu siarkowego(VI) — roztwór zmienił barwę na pomarańczową. Następnie dodano roztworu Na₂SO₃ — roztwór stał się zielony.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie jonowe przemiany chromianu w dichromian.",
+     "odpowiedz": "2CrO₄²⁻ + 2H⁺ ⇄ Cr₂O₇²⁻ + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "To nie jest reakcja redoks — Cr pozostaje na +VI.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz w formie jonowej skróconej równanie reakcji dichromianu z siarczanem(IV) w środowisku kwasowym.",
+     "odpowiedz": "Cr₂O₇²⁻ + 3SO₃²⁻ + 8H⁺ → 2Cr³⁺ + 3SO₄²⁻ + 4H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Cr: +VI → +III (6e⁻), S: +IV → +VI (2e⁻ · 3).",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż utleniacz i reduktor w drugiej reakcji.",
+     "odpowiedz": "utleniacz: Cr₂O₇²⁻; reduktor: SO₃²⁻",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-redoks-19",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Rafinacja miedzi",
+   "material": "Tekst autorski. Surowa miedź (anoda) zawiera domieszki Zn, Fe, Ag i Au. Elektrolitem jest zakwaszony roztwór CuSO₄, katodą — cienka blacha z czystej miedzi.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równania procesów zachodzących na anodzie (dla miedzi) i na katodzie.",
+     "odpowiedz": "A: Cu → Cu²⁺ + 2e⁻; K: Cu²⁺ + 2e⁻ → Cu",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, co dzieje się z domieszkami Zn i Fe oraz Ag i Au.",
+     "odpowiedz": "Zn i Fe (bardziej aktywne) utleniają się i przechodzą do roztworu, ale nie osadzają się na katodzie; Ag i Au (mniej aktywne) nie utleniają się i opadają jako szlam anodowy.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Szlam anodowy jest źródłem metali szlachetnych.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-20",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Manganometria",
    "material": "Tekst autorski. Próbkę soli Mohra zawierającą jony Fe²⁺ zmiareczkowano w środowisku kwasowym roztworem KMnO₄ o stężeniu 0,0200 mol·dm⁻³; zużyto 15,0 cm³ titranta.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -538,7 +601,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-19",
+   "id": "b-redoks-21",
    "dzial": "redoks"
   },
   {
@@ -574,7 +637,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-20",
+   "id": "b-redoks-22",
    "dzial": "redoks"
   },
   {
@@ -601,7 +664,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-21",
+   "id": "b-redoks-23",
    "dzial": "redoks"
   },
   {
@@ -628,7 +691,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-22",
+   "id": "b-redoks-24",
    "dzial": "redoks"
   },
   {
@@ -646,7 +709,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-23",
+   "id": "b-redoks-25",
    "dzial": "redoks"
   },
   {
@@ -673,7 +736,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-24",
+   "id": "b-redoks-26",
    "dzial": "redoks"
   },
   {
@@ -700,7 +763,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-25",
+   "id": "b-redoks-27",
    "dzial": "redoks"
   },
   {
@@ -718,7 +781,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-26",
+   "id": "b-redoks-28",
    "dzial": "redoks"
   },
   {
@@ -745,7 +808,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-27",
+   "id": "b-redoks-29",
    "dzial": "redoks"
   },
   {
@@ -772,7 +835,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-28",
+   "id": "b-redoks-30",
    "dzial": "redoks"
   },
   {
@@ -790,7 +853,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-29",
+   "id": "b-redoks-31",
    "dzial": "redoks"
   },
   {
@@ -808,7 +871,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-30",
+   "id": "b-redoks-32",
    "dzial": "redoks"
   }
  ]

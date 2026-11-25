@@ -1,0 +1,41 @@
+# Bank zadań autorskich — chemia, część 23: wiązki CKE 2023+ — redoks, kinetyka, roztwory wodne, azotowe, atom.
+BANK = {'redoks': [
+ B('Chromian i dichromian',
+   'Tekst autorski. Do żółtego roztworu K₂CrO₄ dodano kwasu siarkowego(VI) — roztwór zmienił barwę na pomarańczową. Następnie dodano roztworu Na₂SO₃ — roztwór stał się zielony.',
+   T('podaj', 1, 'Napisz równanie jonowe przemiany chromianu w dichromian.', '2CrO₄²⁻ + 2H⁺ ⇄ Cr₂O₇²⁻ + H₂O', 'To nie jest reakcja redoks — Cr pozostaje na +VI.'),
+   T('podaj', 2, 'Napisz w formie jonowej skróconej równanie reakcji dichromianu z siarczanem(IV) w środowisku kwasowym.', 'Cr₂O₇²⁻ + 3SO₃²⁻ + 8H⁺ → 2Cr³⁺ + 3SO₄²⁻ + 4H₂O', 'Cr: +VI → +III (6e⁻), S: +IV → +VI (2e⁻ · 3).'),
+   T('podaj', 1, 'Wskaż utleniacz i reduktor w drugiej reakcji.', 'utleniacz: Cr₂O₇²⁻; reduktor: SO₃²⁻', '—')),
+ B('Rafinacja miedzi',
+   'Tekst autorski. Surowa miedź (anoda) zawiera domieszki Zn, Fe, Ag i Au. Elektrolitem jest zakwaszony roztwór CuSO₄, katodą — cienka blacha z czystej miedzi.',
+   T('podaj', 1, 'Napisz równania procesów zachodzących na anodzie (dla miedzi) i na katodzie.', 'A: Cu → Cu²⁺ + 2e⁻; K: Cu²⁺ + 2e⁻ → Cu', '—'),
+   T('wyjasnij', 2, 'Wyjaśnij, co dzieje się z domieszkami Zn i Fe oraz Ag i Au.', 'Zn i Fe (bardziej aktywne) utleniają się i przechodzą do roztworu, ale nie osadzają się na katodzie; Ag i Au (mniej aktywne) nie utleniają się i opadają jako szlam anodowy.', 'Szlam anodowy jest źródłem metali szlachetnych.')),
+], 'kinetyka': [
+ B('Reakcja tiosiarczanu z kwasem',
+   'Tekst autorski. Na₂S₂O₃ reaguje z HCl: S₂O₃²⁻ + 2H⁺ → S↓ + SO₂ + H₂O. Mierzono czas, po którym zmętnienie zasłoniło znak pod kolbą, w różnych temperaturach: 20°C — 120 s, 30°C — 60 s, 40°C — 30 s.',
+   T('podaj', 1, 'Określ współczynnik temperaturowy szybkości reakcji.', '2', 'Każde +10°C skraca czas o połowę.'),
+   T('oblicz', 1, 'Przewidź czas zmętnienia w 50°C.', '15 s', 'Szybkość dwa razy większa.'),
+   T('podaj', 1, 'Podaj, czy reakcja jest redoks, i uzasadnij.', 'Tak — dysproporcjonowanie siarki (+II → 0 i +IV).', '—')),
+], 'roztwory-wodne': [
+ B('Przewodnictwo podczas miareczkowania',
+   'Tekst autorski. Roztwór Ba(OH)₂ miareczkowano roztworem H₂SO₄ i mierzono przewodnictwo elektryczne roztworu.',
+   T('podaj', 1, 'Napisz równanie jonowe reakcji.', 'Ba²⁺ + 2OH⁻ + 2H⁺ + SO₄²⁻ → BaSO₄↓ + 2H₂O', '—'),
+   T('wyjasnij', 2, 'Opisz i wyjaśnij przebieg zmian przewodnictwa do punktu równoważnikowego i po nim.', 'Do PR maleje (jony wiązane w osad i wodę), w PR prawie zero, po PR rośnie (nadmiar jonów H⁺ i SO₄²⁻).', 'Jony H⁺ i OH⁻ są najbardziej ruchliwe.')),
+ B('Amfolity — wodorowęglan',
+   'Tekst autorski. Jon HCO₃⁻ może reagować z H₃O⁺ i z OH⁻.',
+   T('podaj', 2, 'Napisz równania obu reakcji i wskaż w każdej sprzężoną parę kwas–zasada z udziałem HCO₃⁻.', 'HCO₃⁻ + H₃O⁺ → H₂CO₃ + H₂O (para H₂CO₃/HCO₃⁻); HCO₃⁻ + OH⁻ → CO₃²⁻ + H₂O (para HCO₃⁻/CO₃²⁻)', '—'),
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego NaHCO₃ łagodzi zgagę.', 'Wiąże nadmiar H⁺ z soku żołądkowego (HCO₃⁻ + H⁺ → CO₂ + H₂O).', '—')),
+], 'azotowe-cukry': [
+ B('Punkt izoelektryczny',
+   'Tekst autorski. Glicyna ma pI = 6,0. Przygotowano trzy roztwory glicyny o pH: 2, 6 i 11.',
+   T('podaj', 2, 'Napisz wzory form glicyny dominujących w każdym roztworze.', 'pH 2: H₃N⁺CH₂COOH; pH 6: H₃N⁺CH₂COO⁻; pH 11: H₂NCH₂COO⁻', '—'),
+   T('podaj', 1, 'Podaj, w którym roztworze glicyna nie wędruje w polu elektrycznym.', 'pH = 6', 'Ładunek wypadkowy zero.')),
+ B('Skrobia i celuloza',
+   'Tekst autorski. Skrobia i celuloza zbudowane są z reszt glukozy, ale tylko skrobia jest trawiona przez człowieka.',
+   T('wyjasnij', 1, 'Wyjaśnij przyczynę różnicy.', 'Celuloza ma wiązania β-1,4-glikozydowe, których nie rozkładają enzymy człowieka; skrobia — α-1,4 i α-1,6.', '—'),
+   T('oblicz', 1, 'Oblicz masę glukozy z całkowitej hydrolizy 81 g skrobi.', '90 g', '81 / 162 = 0,5 mola merów · 180 g/mol.'),
+   T('podaj', 1, 'Podaj odczynnik i obserwację potwierdzającą całkowitą hydrolizę skrobi.', 'płyn Lugola — brak granatowego zabarwienia', '—')),
+], 'atom': [
+ B('Konfiguracja a właściwości magnetyczne',
+   'Tekst autorski. Substancje zawierające niesparowane elektrony są przyciągane przez magnes (paramagnetyki).',
+   T('podaj', 2, 'Podaj liczbę niesparowanych elektronów w jonach: Zn²⁺, Cu²⁺, Fe³⁺, Mn²⁺ i wskaż jon diamagnetyczny.', 'Zn²⁺: 0; Cu²⁺: 1; Fe³⁺: 5; Mn²⁺: 5 — diamagnetyczny Zn²⁺', 'Zn²⁺: 3d¹⁰; Cu²⁺: 3d⁹; Fe³⁺ i Mn²⁺: 3d⁵.')),
+]}
