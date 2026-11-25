@@ -362,6 +362,69 @@
    "dzial": "azotowe-cukry"
   },
   {
+   "tytul": "Glukoza — fermentacja i utlenianie",
+   "material": "Tekst autorski. 360 g glukozy poddano fermentacji alkoholowej z wydajnością 75%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie fermentacji alkoholowej.",
+     "odpowiedz": "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Drożdże.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz objętość CO₂ (w. n.) otrzymanego w tej reakcji.",
+     "odpowiedz": "67,2 dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "2 mol glukozy → 4 mol CO₂ · 0,75 = 3 mol · 22,4.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jaki produkt powstaje, gdy glukoza reaguje z wodą bromową (środowisko NaHCO₃).",
+     "odpowiedz": "kwas glukonowy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Utlenia się tylko grupa aldehydowa.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-azotowe-cukry-17",
+   "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Białka — doświadczenia",
+   "material": "Tekst autorski. Do trzech probówek z roztworem białka jaja kurzego dodano: I — nasycony roztwór (NH₄)₂SO₄, II — roztwór CuSO₄, III — stężony HNO₃.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj obserwacje i nazwy procesów w probówkach I–III.",
+     "odpowiedz": "I: osad, rozpuszcza się po dodaniu wody — wysalanie; II: osad, nie rozpuszcza się — denaturacja; III: żółte zabarwienie — reakcja ksantoproteinowa (i denaturacja)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego przy zatruciu solami metali ciężkich podaje się mleko lub białko jaja.",
+     "odpowiedz": "Białko wiąże jony metali ciężkich (denaturuje się zamiast białek organizmu).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-azotowe-cukry-18",
+   "dzial": "azotowe-cukry"
+  },
+  {
    "tytul": "Glicyna i alanina",
    "material": "Tekst autorski. Glicyna (H₂N–CH₂–COOH) i alanina (H₂N–CH(CH₃)–COOH) to najprostsze aminokwasy białkowe.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -394,7 +457,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-azotowe-cukry-17",
+   "id": "b-azotowe-cukry-19",
    "dzial": "azotowe-cukry"
   },
   {
@@ -421,7 +484,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-18",
+   "id": "b-azotowe-cukry-20",
    "dzial": "azotowe-cukry"
   },
   {
@@ -448,7 +511,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-19",
+   "id": "b-azotowe-cukry-21",
    "dzial": "azotowe-cukry"
   },
   {
@@ -475,7 +538,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-20",
+   "id": "b-azotowe-cukry-22",
    "dzial": "azotowe-cukry"
   },
   {
@@ -502,7 +565,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-21",
+   "id": "b-azotowe-cukry-23",
    "dzial": "azotowe-cukry"
   },
   {
@@ -529,7 +592,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-22",
+   "id": "b-azotowe-cukry-24",
    "dzial": "azotowe-cukry"
   },
   {
@@ -556,7 +619,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-23",
+   "id": "b-azotowe-cukry-25",
    "dzial": "azotowe-cukry"
   },
   {
@@ -583,7 +646,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-24",
+   "id": "b-azotowe-cukry-26",
    "dzial": "azotowe-cukry"
   },
   {
@@ -610,7 +673,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-25",
+   "id": "b-azotowe-cukry-27",
    "dzial": "azotowe-cukry"
   },
   {
@@ -628,7 +691,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-26",
+   "id": "b-azotowe-cukry-28",
    "dzial": "azotowe-cukry"
   },
   {
@@ -655,7 +718,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-27",
+   "id": "b-azotowe-cukry-29",
    "dzial": "azotowe-cukry"
   },
   {
@@ -673,7 +736,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-28",
+   "id": "b-azotowe-cukry-30",
    "dzial": "azotowe-cukry"
   },
   {
@@ -691,7 +754,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-29",
+   "id": "b-azotowe-cukry-31",
    "dzial": "azotowe-cukry"
   }
  ]

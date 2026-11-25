@@ -461,6 +461,78 @@
    "dzial": "tlenowe"
   },
   {
+   "tytul": "Aspiryna",
+   "material": "Tekst autorski. Kwas acetylosalicylowy (aspirynę) otrzymuje się z kwasu salicylowego (M = 138 g/mol) i bezwodnika octowego. Produkt ma M = 180 g/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwy dwóch grup funkcyjnych w cząsteczce kwasu salicylowego.",
+     "odpowiedz": "karboksylowa i hydroksylowa (fenolowa)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę aspiryny otrzymanej z 27,6 g kwasu salicylowego przy wydajności 85%.",
+     "odpowiedz": "30,6 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "0,2 mol · 180 g/mol · 0,85.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj odczynnik, który pozwoli wykryć nieprzereagowany kwas salicylowy w produkcie, i obserwację.",
+     "odpowiedz": "FeCl₃(aq) — fioletowe zabarwienie",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Aspiryna nie ma wolnej grupy fenolowej.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-tlenowe-21",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Kwasy w żywności",
+   "material": "Tekst autorski. Kwas mlekowy powstaje przy kwaśnieniu mleka, kwas szczawiowy występuje w szczawiu, a kwas cytrynowy w cytrynach.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz wzór półstrukturalny kwasu mlekowego i wskaż asymetryczny atom węgla.",
+     "odpowiedz": "CH₃–C*H(OH)–COOH",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Cztery różne podstawniki przy C2.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji kwasu szczawiowego z nadmiarem NaOH.",
+     "odpowiedz": "HOOC–COOH + 2NaOH → NaOOC–COONa + 2H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę NaOH potrzebną do zobojętnienia 0,9 g kwasu szczawiowego (M = 90 g/mol).",
+     "odpowiedz": "0,8 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,01 mol kwasu → 0,02 mol NaOH.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-tlenowe-22",
+   "dzial": "tlenowe"
+  },
+  {
    "tytul": "Utlenianie alkoholi",
    "material": "Tekst autorski. Trzy izomeryczne alkohole o wzorze C₄H₉OH: butan-1-ol, butan-2-ol i 2-metylopropan-2-ol ogrzewano z tlenkiem miedzi(II).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -484,7 +556,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-21",
+   "id": "b-tlenowe-23",
    "dzial": "tlenowe"
   },
   {
@@ -520,7 +592,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-tlenowe-22",
+   "id": "b-tlenowe-24",
    "dzial": "tlenowe"
   },
   {
@@ -547,7 +619,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-23",
+   "id": "b-tlenowe-25",
    "dzial": "tlenowe"
   },
   {
@@ -574,7 +646,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-24",
+   "id": "b-tlenowe-26",
    "dzial": "tlenowe"
   },
   {
@@ -601,7 +673,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-25",
+   "id": "b-tlenowe-27",
    "dzial": "tlenowe"
   },
   {
@@ -628,7 +700,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-26",
+   "id": "b-tlenowe-28",
    "dzial": "tlenowe"
   },
   {
@@ -655,7 +727,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-27",
+   "id": "b-tlenowe-29",
    "dzial": "tlenowe"
   },
   {
@@ -682,7 +754,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-28",
+   "id": "b-tlenowe-30",
    "dzial": "tlenowe"
   },
   {
@@ -709,7 +781,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-29",
+   "id": "b-tlenowe-31",
    "dzial": "tlenowe"
   },
   {
@@ -727,7 +799,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-30",
+   "id": "b-tlenowe-32",
    "dzial": "tlenowe"
   },
   {
@@ -745,7 +817,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-31",
+   "id": "b-tlenowe-33",
    "dzial": "tlenowe"
   },
   {
@@ -772,7 +844,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-32",
+   "id": "b-tlenowe-34",
    "dzial": "tlenowe"
   },
   {
@@ -790,7 +862,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-33",
+   "id": "b-tlenowe-35",
    "dzial": "tlenowe"
   },
   {
@@ -808,7 +880,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-34",
+   "id": "b-tlenowe-36",
    "dzial": "tlenowe"
   },
   {
@@ -826,7 +898,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-35",
+   "id": "b-tlenowe-37",
    "dzial": "tlenowe"
   }
  ]

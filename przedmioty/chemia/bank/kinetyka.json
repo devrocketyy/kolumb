@@ -506,6 +506,69 @@
    "dzial": "kinetyka"
   },
   {
+   "tytul": "Katalizator samochodowy",
+   "material": "Tekst autorski. W katalizatorze trójdrożnym zachodzą m.in. reakcje: 2CO + O₂ → 2CO₂ oraz 2NO + 2CO → N₂ + 2CO₂. Katalizatorem są Pt, Pd i Rh na nośniku ceramicznym.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ rodzaj katalizy.",
+     "odpowiedz": "heterogeniczna",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Katalizator stały, reagenty gazowe.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż utleniacz i reduktor w drugiej reakcji.",
+     "odpowiedz": "utleniacz: NO; reduktor: CO",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "N: +II → 0; C: +II → +IV.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego katalizator działa dopiero po rozgrzaniu.",
+     "odpowiedz": "Szybkość reakcji na powierzchni rośnie z temperaturą — zimny katalizator przyspiesza reakcje zbyt słabo.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-kinetyka-21",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Wpływ stężenia na szybkość",
+   "material": "Tekst autorski. Do dwóch kolb z jednakowymi kawałkami cynku dodano po 50 cm³ HCl: do kolby I o stężeniu 1 mol/dm³, do kolby II — 2 mol/dm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż kolbę, w której reakcja przebiegała szybciej, i uzasadnij.",
+     "odpowiedz": "II — większe stężenie H⁺, więcej skutecznych zderzeń",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz maksymalną objętość wodoru (w. n.) w kolbie I, jeśli cynk był w nadmiarze.",
+     "odpowiedz": "0,56 dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(HCl) = 0,05 mol → 0,025 mol H₂.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-22",
+   "dzial": "kinetyka"
+  },
+  {
    "tytul": "Okres półtrwania reakcji I rzędu",
    "material": "Tekst autorski. Rozkład pewnego związku jest reakcją I rzędu. Po 30 minutach jego stężenie spadło z 0,80 do 0,20 mol·dm⁻³.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -538,7 +601,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-21",
+   "id": "b-kinetyka-23",
    "dzial": "kinetyka"
   },
   {
@@ -565,7 +628,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-22",
+   "id": "b-kinetyka-24",
    "dzial": "kinetyka"
   },
   {
@@ -592,7 +655,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-23",
+   "id": "b-kinetyka-25",
    "dzial": "kinetyka"
   },
   {
@@ -619,7 +682,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-24",
+   "id": "b-kinetyka-26",
    "dzial": "kinetyka"
   },
   {
@@ -646,7 +709,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-25",
+   "id": "b-kinetyka-27",
    "dzial": "kinetyka"
   },
   {
@@ -673,7 +736,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-26",
+   "id": "b-kinetyka-28",
    "dzial": "kinetyka"
   },
   {
@@ -709,7 +772,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-27",
+   "id": "b-kinetyka-29",
    "dzial": "kinetyka"
   },
   {
@@ -736,7 +799,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-28",
+   "id": "b-kinetyka-30",
    "dzial": "kinetyka"
   },
   {
@@ -763,7 +826,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-29",
+   "id": "b-kinetyka-31",
    "dzial": "kinetyka"
   },
   {
@@ -781,7 +844,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-30",
+   "id": "b-kinetyka-32",
    "dzial": "kinetyka"
   },
   {
@@ -799,7 +862,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-31",
+   "id": "b-kinetyka-33",
    "dzial": "kinetyka"
   }
  ]

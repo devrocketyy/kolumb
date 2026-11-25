@@ -416,6 +416,60 @@
    "dzial": "roztwory-wodne"
   },
   {
+   "tytul": "Stała dysocjacji z pH",
+   "material": "Tekst autorski. Roztwór kwasu HA o stężeniu 0,05 mol/dm³ ma pH = 3,0.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stopień dysocjacji i stałą dysocjacji HA.",
+     "odpowiedz": "α = 2%; Ka ≈ 2,0 · 10⁻⁵",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "[H⁺] = 10⁻³; α = 10⁻³/0,05; Ka = 10⁻⁶ / (0,05 − 0,001) ≈ 2,04 · 10⁻⁵.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, jak zmieni się α po rozcieńczeniu roztworu.",
+     "odpowiedz": "wzrośnie",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Prawo rozcieńczeń Ostwalda.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-17",
+   "dzial": "roztwory-wodne"
+  },
+  {
+   "tytul": "Iloczyn rozpuszczalności — obliczenia",
+   "material": "Tekst autorski. Kₛ(BaSO₄) = 1,1 · 10⁻¹⁰ (25°C).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz rozpuszczalność molową BaSO₄ w wodzie.",
+     "odpowiedz": "ok. 1,05 · 10⁻⁵ mol/dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "s = √Kₛ.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz rozpuszczalność BaSO₄ w roztworze Na₂SO₄ o stężeniu 0,01 mol/dm³.",
+     "odpowiedz": "1,1 · 10⁻⁸ mol/dm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "s = Kₛ / 0,01 — efekt wspólnego jonu.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-wodne-18",
+   "dzial": "roztwory-wodne"
+  },
+  {
    "tytul": "Stopień dysocjacji",
    "material": "Tekst autorski. W roztworze kwasu metanowego (HCOOH) o stężeniu 0,10 mol·dm⁻³ stopień dysocjacji wynosi 4,2%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -439,7 +493,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-17",
+   "id": "b-roztwory-wodne-19",
    "dzial": "roztwory-wodne"
   },
   {
@@ -466,7 +520,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-18",
+   "id": "b-roztwory-wodne-20",
    "dzial": "roztwory-wodne"
   },
   {
@@ -502,7 +556,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-roztwory-wodne-19",
+   "id": "b-roztwory-wodne-21",
    "dzial": "roztwory-wodne"
   },
   {
@@ -520,7 +574,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-20",
+   "id": "b-roztwory-wodne-22",
    "dzial": "roztwory-wodne"
   },
   {
@@ -538,7 +592,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-21",
+   "id": "b-roztwory-wodne-23",
    "dzial": "roztwory-wodne"
   },
   {
@@ -556,7 +610,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-22",
+   "id": "b-roztwory-wodne-24",
    "dzial": "roztwory-wodne"
   },
   {
@@ -583,7 +637,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-23",
+   "id": "b-roztwory-wodne-25",
    "dzial": "roztwory-wodne"
   },
   {
@@ -601,7 +655,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-24",
+   "id": "b-roztwory-wodne-26",
    "dzial": "roztwory-wodne"
   },
   {
@@ -619,7 +673,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-25",
+   "id": "b-roztwory-wodne-27",
    "dzial": "roztwory-wodne"
   },
   {
@@ -637,7 +691,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-26",
+   "id": "b-roztwory-wodne-28",
    "dzial": "roztwory-wodne"
   },
   {
@@ -655,7 +709,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-27",
+   "id": "b-roztwory-wodne-29",
    "dzial": "roztwory-wodne"
   },
   {
@@ -682,7 +736,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-wodne-28",
+   "id": "b-roztwory-wodne-30",
    "dzial": "roztwory-wodne"
   },
   {
@@ -700,7 +754,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-29",
+   "id": "b-roztwory-wodne-31",
    "dzial": "roztwory-wodne"
   },
   {
@@ -718,7 +772,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-30",
+   "id": "b-roztwory-wodne-32",
    "dzial": "roztwory-wodne"
   },
   {
@@ -736,7 +790,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-31",
+   "id": "b-roztwory-wodne-33",
    "dzial": "roztwory-wodne"
   },
   {
@@ -754,7 +808,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-wodne-32",
+   "id": "b-roztwory-wodne-34",
    "dzial": "roztwory-wodne"
   }
  ]
