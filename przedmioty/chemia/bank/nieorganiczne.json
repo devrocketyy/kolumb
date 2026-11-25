@@ -191,6 +191,114 @@
    "dzial": "nieorganiczne"
   },
   {
+   "tytul": "Amfoteryczny cynk",
+   "material": "Tekst autorski. Do roztworu ZnSO₄ dodawano kroplami NaOH(aq). Najpierw wytrącił się biały osad, który w nadmiarze odczynnika się roztworzył.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz w formie jonowej skróconej równania obu reakcji.",
+     "odpowiedz": "Zn²⁺ + 2OH⁻ → Zn(OH)₂↓; Zn(OH)₂ + 2OH⁻ → [Zn(OH)₄]²⁻",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jaki odczynnik (inny niż NaOH) roztworzy osad Zn(OH)₂, wykazując jego charakter zasadowy, i napisz równanie.",
+     "odpowiedz": "HCl: Zn(OH)₂ + 2H⁺ → Zn²⁺ + 2H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Amfoteryczność = reakcje z kwasami i zasadami.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego tego doświadczenia nie da się przeprowadzić z Mg²⁺.",
+     "odpowiedz": "Mg(OH)₂ nie jest amfoteryczny — nie roztwarza się w nadmiarze zasady.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-nieorganiczne-09",
+   "dzial": "nieorganiczne"
+  },
+  {
+   "tytul": "Węglany i wodorowęglany",
+   "material": "Tekst autorski. Ogrzewano 16,8 g NaHCO₃ aż do stałej masy.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji.",
+     "odpowiedz": "2NaHCO₃ → Na₂CO₃ + CO₂ + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zasada działania proszku do pieczenia.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz ubytek masy próbki.",
+     "odpowiedz": "6,2 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "0,2 mol NaHCO₃ → 0,1 mol Na₂CO₃ (10,6 g); 16,8 − 10,6.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zaproponuj sposób sprawdzenia, że wydzielający się gaz to CO₂.",
+     "odpowiedz": "przepuścić przez wodę wapienną — zmętnienie",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-nieorganiczne-10",
+   "dzial": "nieorganiczne"
+  },
+  {
+   "tytul": "Halogeny — szereg aktywności",
+   "material": "Tekst autorski. Do trzech probówek z roztworami KCl, KBr i KI dodano wody chlorowej, a następnie po 1 cm³ heksanu i wstrząśnięto.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Opisz zabarwienie warstwy heksanowej w każdej probówce.",
+     "odpowiedz": "KCl: bezbarwna; KBr: pomarańczowa (Br₂); KI: fioletowa (I₂)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Chlor wypiera brom i jod.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie jonowe reakcji w probówce z KI.",
+     "odpowiedz": "Cl₂ + 2I⁻ → 2Cl⁻ + I₂",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Uszereguj halogeny Cl₂, Br₂, I₂ od najsilniejszego utleniacza.",
+     "odpowiedz": "Cl₂ > Br₂ > I₂",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-nieorganiczne-11",
+   "dzial": "nieorganiczne"
+  },
+  {
    "tytul": "Amfoteryczność wodorotlenku cynku",
    "material": "Tekst autorski. Do roztworu ZnSO₄ dodawano kroplami roztwór NaOH. Najpierw wytrącił się biały, galaretowaty osad, który po dodaniu nadmiaru NaOH zniknął. Druga porcja osadu roztworzyła się w kwasie solnym.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -214,7 +322,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-nieorganiczne-09",
+   "id": "b-nieorganiczne-12",
    "dzial": "nieorganiczne"
   },
   {
@@ -241,7 +349,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-nieorganiczne-10",
+   "id": "b-nieorganiczne-13",
    "dzial": "nieorganiczne"
   },
   {
@@ -268,7 +376,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-nieorganiczne-11",
+   "id": "b-nieorganiczne-14",
    "dzial": "nieorganiczne"
   },
   {
@@ -304,7 +412,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-nieorganiczne-12",
+   "id": "b-nieorganiczne-15",
    "dzial": "nieorganiczne"
   },
   {
@@ -331,7 +439,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-nieorganiczne-13",
+   "id": "b-nieorganiczne-16",
    "dzial": "nieorganiczne"
   },
   {
@@ -358,7 +466,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-nieorganiczne-14",
+   "id": "b-nieorganiczne-17",
    "dzial": "nieorganiczne"
   },
   {
@@ -385,7 +493,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-nieorganiczne-15",
+   "id": "b-nieorganiczne-18",
    "dzial": "nieorganiczne"
   },
   {
@@ -412,7 +520,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-nieorganiczne-16",
+   "id": "b-nieorganiczne-19",
    "dzial": "nieorganiczne"
   },
   {
@@ -439,7 +547,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-nieorganiczne-17",
+   "id": "b-nieorganiczne-20",
    "dzial": "nieorganiczne"
   },
   {
@@ -466,7 +574,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-nieorganiczne-18",
+   "id": "b-nieorganiczne-21",
    "dzial": "nieorganiczne"
   },
   {
@@ -493,7 +601,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-nieorganiczne-19",
+   "id": "b-nieorganiczne-22",
    "dzial": "nieorganiczne"
   },
   {
@@ -520,7 +628,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-nieorganiczne-20",
+   "id": "b-nieorganiczne-23",
    "dzial": "nieorganiczne"
   },
   {
@@ -538,7 +646,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-nieorganiczne-21",
+   "id": "b-nieorganiczne-24",
    "dzial": "nieorganiczne"
   },
   {
@@ -556,7 +664,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-nieorganiczne-22",
+   "id": "b-nieorganiczne-25",
    "dzial": "nieorganiczne"
   },
   {
@@ -583,7 +691,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-nieorganiczne-23",
+   "id": "b-nieorganiczne-26",
    "dzial": "nieorganiczne"
   },
   {
@@ -601,7 +709,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-nieorganiczne-24",
+   "id": "b-nieorganiczne-27",
    "dzial": "nieorganiczne"
   }
  ]

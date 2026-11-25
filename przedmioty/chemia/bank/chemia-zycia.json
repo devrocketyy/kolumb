@@ -83,6 +83,69 @@
    "dzial": "chemia-zycia"
   },
   {
+   "tytul": "Środki czystości",
+   "material": "Tekst autorski. Płyn do udrażniania rur zawiera NaOH, a odkamieniacz — kwas cytrynowy. Na etykiecie wybielacza widnieje ostrzeżenie: „Nie mieszać z preparatami zawierającymi kwasy — wydziela się toksyczny gaz”.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego NaOH udrażnia rury zatkane tłuszczem.",
+     "odpowiedz": "Zmydla tłuszcze — powstają rozpuszczalne mydła i glicerol.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie jonowe reakcji odkamieniacza (H⁺) z kamieniem kotłowym (CaCO₃).",
+     "odpowiedz": "CaCO₃ + 2H⁺ → Ca²⁺ + CO₂ + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wybielacz zawiera NaClO i NaCl. Napisz równanie reakcji wydzielania toksycznego gazu po zakwaszeniu.",
+     "odpowiedz": "ClO⁻ + Cl⁻ + 2H⁺ → Cl₂ + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Synproporcjonowanie chloru.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-chemia-zycia-05",
+   "dzial": "chemia-zycia"
+  },
+  {
+   "tytul": "Leki zobojętniające",
+   "material": "Tekst autorski. Tabletka na zgagę zawiera 0,5 g Mg(OH)₂. Sok żołądkowy zawiera HCl o stężeniu ok. 0,1 mol/dm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji.",
+     "odpowiedz": "Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz objętość soku żołądkowego, którą zobojętni jedna tabletka.",
+     "odpowiedz": "ok. 172 cm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(Mg(OH)₂) = 0,5/58 = 8,62 · 10⁻³; n(HCl) = 1,72 · 10⁻² mol / 0,1.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-chemia-zycia-06",
+   "dzial": "chemia-zycia"
+  },
+  {
    "tytul": "Kwaśne deszcze i zabytki",
    "material": "Tekst autorski. Na powierzchni marmurowych rzeźb w miastach tworzy się krucha warstwa gipsu (CaSO₄·2H₂O).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -106,7 +169,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-05",
+   "id": "b-chemia-zycia-07",
    "dzial": "chemia-zycia"
   },
   {
@@ -133,7 +196,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-06",
+   "id": "b-chemia-zycia-08",
    "dzial": "chemia-zycia"
   },
   {
@@ -160,7 +223,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-07",
+   "id": "b-chemia-zycia-09",
    "dzial": "chemia-zycia"
   },
   {
@@ -187,7 +250,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-08",
+   "id": "b-chemia-zycia-10",
    "dzial": "chemia-zycia"
   },
   {
@@ -205,7 +268,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-chemia-zycia-09",
+   "id": "b-chemia-zycia-11",
    "dzial": "chemia-zycia"
   }
  ]

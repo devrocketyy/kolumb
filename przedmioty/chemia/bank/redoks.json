@@ -290,6 +290,78 @@
    "dzial": "redoks"
   },
   {
+   "tytul": "Ogniwo z magnezem",
+   "material": "Tekst autorski. Zbudowano ogniwo z półogniw Mg/Mg²⁺ (E° = −2,37 V) i Ag/Ag⁺ (E° = +0,80 V).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz schemat ogniwa.",
+     "odpowiedz": "Mg | Mg²⁺ || Ag⁺ | Ag",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Anoda z lewej.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz równania reakcji elektrodowych i sumaryczne.",
+     "odpowiedz": "A: Mg → Mg²⁺ + 2e⁻; K: Ag⁺ + e⁻ → Ag (×2); Mg + 2Ag⁺ → Mg²⁺ + 2Ag",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz SEM ogniwa.",
+     "odpowiedz": "3,17 V",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,80 − (−2,37).",
+     "nr": "3"
+    }
+   ],
+   "id": "b-redoks-13",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Jodometria",
+   "material": "Tekst autorski. Jod wydzielony w reakcji próbki z nadmiarem KI zmiareczkowano roztworem Na₂S₂O₃ o stężeniu 0,10 mol/dm³: I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻. Zużyto 20,0 cm³ titranta.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz liczbę moli jodu i jego masę.",
+     "odpowiedz": "1,0 · 10⁻³ mol; 0,254 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(S₂O₃²⁻) = 2,0 · 10⁻³ mol; n(I₂) = połowa.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wskaźnik i zmianę barwy w punkcie końcowym.",
+     "odpowiedz": "skrobia; granatowy → bezbarwny",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Skrobię dodaje się pod koniec miareczkowania.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Określ średni stopień utlenienia siarki w S₂O₃²⁻ i S₄O₆²⁻.",
+     "odpowiedz": "+II i +2,5",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Tiosiarczan jest reduktorem.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-redoks-14",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Manganian(VII) potasu",
    "material": "Tekst autorski. Do zakwaszonego kwasem siarkowym(VI) roztworu siarczanu(VI) żelaza(II) wkraplano fioletowy roztwór KMnO₄. Roztwór manganianu odbarwiał się, a roztwór w probówce zmienił barwę z bladozielonej na żółtą.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -322,7 +394,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-13",
+   "id": "b-redoks-15",
    "dzial": "redoks"
   },
   {
@@ -367,7 +439,7 @@
      "nr": "4"
     }
    ],
-   "id": "b-redoks-14",
+   "id": "b-redoks-16",
    "dzial": "redoks"
   },
   {
@@ -403,7 +475,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-15",
+   "id": "b-redoks-17",
    "dzial": "redoks"
   },
   {
@@ -439,7 +511,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-16",
+   "id": "b-redoks-18",
    "dzial": "redoks"
   },
   {
@@ -475,7 +547,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-17",
+   "id": "b-redoks-19",
    "dzial": "redoks"
   },
   {
@@ -502,7 +574,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-18",
+   "id": "b-redoks-20",
    "dzial": "redoks"
   },
   {
@@ -529,7 +601,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-19",
+   "id": "b-redoks-21",
    "dzial": "redoks"
   },
   {
@@ -547,7 +619,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-20",
+   "id": "b-redoks-22",
    "dzial": "redoks"
   },
   {
@@ -574,7 +646,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-21",
+   "id": "b-redoks-23",
    "dzial": "redoks"
   },
   {
@@ -601,7 +673,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-22",
+   "id": "b-redoks-24",
    "dzial": "redoks"
   },
   {
@@ -619,7 +691,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-23",
+   "id": "b-redoks-25",
    "dzial": "redoks"
   },
   {
@@ -646,7 +718,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-24",
+   "id": "b-redoks-26",
    "dzial": "redoks"
   },
   {
@@ -673,7 +745,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-25",
+   "id": "b-redoks-27",
    "dzial": "redoks"
   },
   {
@@ -691,7 +763,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-26",
+   "id": "b-redoks-28",
    "dzial": "redoks"
   },
   {
@@ -709,7 +781,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-27",
+   "id": "b-redoks-29",
    "dzial": "redoks"
   }
  ]

@@ -110,6 +110,33 @@
    "dzial": "umiejetnosci"
   },
   {
+   "tytul": "Planowanie doświadczenia — moc kwasów",
+   "material": "Tekst autorski. Uczeń chce udowodnić, że kwas octowy jest mocniejszy od węglowego, a słabszy od solnego. Ma do dyspozycji: CH₃COOH(aq), HCl(aq), CH₃COONa(s), Na₂CO₃(s), wodę wapienną.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Zaprojektuj dwa doświadczenia (odczynniki, obserwacje) prowadzące do tego wniosku.",
+     "odpowiedz": "1) CH₃COOH + Na₂CO₃ → wydziela się gaz mętniejący wodę wapienną; 2) HCl + CH₃COONa → zapach octu",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Mocniejszy kwas wypiera słabszy z jego soli.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie jonowe reakcji z doświadczenia 2.",
+     "odpowiedz": "CH₃COO⁻ + H⁺ → CH₃COOH",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-06",
+   "dzial": "umiejetnosci"
+  },
+  {
    "tytul": "Trzy bezbarwne roztwory",
    "material": "Tekst autorski. W trzech nieopisanych probówkach znajdują się wodne roztwory: NaCl, Na₂SO₄ i Na₂CO₃. Do dyspozycji są: roztwór BaCl₂, kwas solny, roztwór AgNO₃, fenoloftaleina.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -142,7 +169,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-06",
+   "id": "b-umiejetnosci-07",
    "dzial": "umiejetnosci"
   },
   {
@@ -169,7 +196,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-07",
+   "id": "b-umiejetnosci-08",
    "dzial": "umiejetnosci"
   },
   {
@@ -205,7 +232,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-08",
+   "id": "b-umiejetnosci-09",
    "dzial": "umiejetnosci"
   }
  ]
