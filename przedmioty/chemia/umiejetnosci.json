@@ -2564,6 +2564,57 @@
        "d": "NaOH — niebieski osad Cu(OH)₂"
       }
      ]
+    },
+    {
+     "id": "s3b87b6d7",
+     "typ": "rysunek",
+     "tytul": "Chromatografia cienkowarstwowa",
+     "opis": "Rozdział mieszaniny dwóch składników; z prawej — wzorzec jednego z nich.",
+     "uwaga": "Rf = droga plamki / droga czoła eluentu. Ta sama wartość Rf co wzorca wskazuje tę samą substancję.",
+     "svg": "<rect class=\"f\" x=\"140\" y=\"30\" width=\"120\" height=\"230\" rx=\"4\"/><path class=\"s2\" d=\"M140 225 H260\"/><rect class=\"f2\" x=\"130\" y=\"245\" width=\"140\" height=\"25\" rx=\"3\"/><circle class=\"d\" cx=\"170\" cy=\"225\" r=\"5\"/><circle class=\"d\" cx=\"230\" cy=\"225\" r=\"5\"/><circle class=\"d\" cx=\"170\" cy=\"90\" r=\"6\"/><circle class=\"d\" cx=\"170\" cy=\"160\" r=\"6\"/><circle class=\"d\" cx=\"230\" cy=\"90\" r=\"6\"/><path class=\"dash\" d=\"M140 60 H260\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 170,
+       "y": 225,
+       "lx": 80,
+       "ly": 225,
+       "n": "Linia startu",
+       "d": "nanosi się krople mieszaniny i wzorców; nad poziomem eluentu"
+      },
+      {
+       "x": 200,
+       "y": 257,
+       "lx": 300,
+       "ly": 270,
+       "n": "Eluent (faza ruchoma)",
+       "d": "wędruje w górę dzięki zjawiskom kapilarnym"
+      },
+      {
+       "x": 200,
+       "y": 60,
+       "lx": 300,
+       "ly": 50,
+       "n": "Czoło eluentu",
+       "d": "zaznacza się po wyjęciu płytki"
+      },
+      {
+       "x": 170,
+       "y": 90,
+       "lx": 80,
+       "ly": 90,
+       "n": "Składnik o dużym Rf",
+       "d": "słabo zatrzymywany przez fazę stacjonarną"
+      },
+      {
+       "x": 170,
+       "y": 160,
+       "lx": 80,
+       "ly": 160,
+       "n": "Składnik o małym Rf",
+       "d": "silniej oddziałuje z fazą stacjonarną"
+      }
+     ]
     }
    ]
   }

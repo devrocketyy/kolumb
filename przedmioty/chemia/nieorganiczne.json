@@ -1229,6 +1229,40 @@
      "wyjasnienie": "Odbiera wodór i tlen w postaci wody.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s934ec152",
+     "typ": "proces",
+     "tytul": "Otrzymywanie wodorotlenków i kwasów",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Metal aktywny + woda",
+       "d": "wodorotlenek + H₂ (np. Na, Ca)"
+      },
+      {
+       "t": "Tlenek zasadowy + woda",
+       "d": "wodorotlenek (np. CaO)"
+      },
+      {
+       "t": "Sól + mocna zasada",
+       "d": "wodorotlenek trudno rozpuszczalny (strącanie)"
+      },
+      {
+       "t": "Tlenek kwasowy + woda",
+       "d": "kwas tlenowy (np. SO₃ → H₂SO₄)"
+      },
+      {
+       "t": "Niemetal + wodór, potem woda",
+       "d": "kwas beztlenowy (np. HCl)"
+      },
+      {
+       "t": "Sól + mocniejszy kwas",
+       "d": "słabszy kwas (wypieranie)"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2694,6 +2728,34 @@
       {
        "t": "Au, Pt",
        "d": "tylko woda królewska"
+      }
+     ]
+    },
+    {
+     "id": "s0810b6de",
+     "typ": "proces",
+     "tytul": "Korozja żelaza i ochrona",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Utlenianie żelaza (anoda)",
+       "d": "Fe → Fe²⁺ + 2e⁻"
+      },
+      {
+       "t": "Redukcja tlenu (katoda)",
+       "d": "O₂ + 2H₂O + 4e⁻ → 4OH⁻"
+      },
+      {
+       "t": "Powstanie rdzy",
+       "d": "Fe(OH)₂ → Fe(OH)₃ → Fe₂O₃·nH₂O"
+      },
+      {
+       "t": "Ochrona bierna",
+       "d": "farby, lakiery, warstwa cynku lub chromu"
+      },
+      {
+       "t": "Ochrona czynna",
+       "d": "protektor (Zn, Mg) lub ochrona katodowa"
       }
      ]
     }

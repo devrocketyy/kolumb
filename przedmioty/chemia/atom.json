@@ -1389,6 +1389,34 @@
        "d": "prawdopodobieństwo znalezienia elektronu równe zeru"
       }
      ]
+    },
+    {
+     "id": "seb84df6a",
+     "typ": "proces",
+     "tytul": "Zapis konfiguracji elektronowej jonu",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Ustal Z i ładunek",
+       "d": "liczba elektronów = Z − ładunek"
+      },
+      {
+       "t": "Zapisz konfigurację atomu",
+       "d": "kolejność zapełniania podpowłok"
+      },
+      {
+       "t": "Kation bloku s, p",
+       "d": "usuń elektrony z najwyższej powłoki"
+      },
+      {
+       "t": "Kation bloku d",
+       "d": "najpierw usuń elektrony 4s, potem 3d"
+      },
+      {
+       "t": "Anion",
+       "d": "dodaj elektrony do najbliższej podpowłoki — zwykle konfiguracja gazu szlachetnego"
+      }
+     ]
     }
    ]
   },
@@ -2628,6 +2656,30 @@
       {
        "t": "Liczba β⁻",
        "d": "= Z(produkt) − (Z(substrat) − 2α)"
+      }
+     ]
+    },
+    {
+     "id": "sb2ee5a2f",
+     "typ": "proces",
+     "tytul": "Obliczenia z okresem półtrwania",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Liczba okresów półtrwania",
+       "d": "n = t / T½"
+      },
+      {
+       "t": "Pozostała ilość",
+       "d": "m = m₀ · (1/2)ⁿ"
+      },
+      {
+       "t": "Ilość rozpadnięta",
+       "d": "m₀ − m"
+      },
+      {
+       "t": "Wiek próbki",
+       "d": "z ilości pozostałej odczytaj n, potem t = n · T½"
       }
      ]
     }

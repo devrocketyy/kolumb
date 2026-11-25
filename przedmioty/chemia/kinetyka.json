@@ -713,6 +713,34 @@
        "d": "reakcja egzotermiczna — ciepło oddawane do otoczenia"
       }
      ]
+    },
+    {
+     "id": "sb9df11cb",
+     "typ": "proces",
+     "tytul": "Obliczanie ΔH z prawa Hessa",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Zapisz reakcję docelową",
+       "d": "z właściwymi współczynnikami"
+      },
+      {
+       "t": "Dobierz reakcje dane",
+       "d": "tak, aby po dodaniu dały reakcję docelową"
+      },
+      {
+       "t": "Odwróć, jeśli trzeba",
+       "d": "zmień znak ΔH"
+      },
+      {
+       "t": "Pomnóż, jeśli trzeba",
+       "d": "pomnóż też ΔH"
+      },
+      {
+       "t": "Dodaj równania i ΔH",
+       "d": "skróć substancje po obu stronach"
+      }
+     ]
     }
    ]
   },
@@ -1364,6 +1392,38 @@
        "ly": 165,
        "n": "ΔH > 0",
        "d": "reakcja endotermiczna — ciepło pobierane"
+      }
+     ]
+    },
+    {
+     "id": "s800d3520",
+     "typ": "proces",
+     "tytul": "Czynniki wpływające na szybkość reakcji",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Stężenie substratów",
+       "d": "więcej zderzeń w jednostce czasu"
+      },
+      {
+       "t": "Temperatura",
+       "d": "więcej cząsteczek o energii ≥ Eₐ"
+      },
+      {
+       "t": "Rozdrobnienie",
+       "d": "większa powierzchnia kontaktu"
+      },
+      {
+       "t": "Katalizator",
+       "d": "niższa energia aktywacji"
+      },
+      {
+       "t": "Ciśnienie (gazy)",
+       "d": "wzrost stężenia reagentów gazowych"
+      },
+      {
+       "t": "Rodzaj substratów",
+       "d": "np. aktywność metalu"
       }
      ]
     }
@@ -2049,6 +2109,49 @@
       {
        "t": "Katalizator",
        "d": "brak przesunięcia, szybciej osiągnięta równowaga"
+      }
+     ]
+    },
+    {
+     "id": "s462ebe7b",
+     "typ": "rysunek",
+     "tytul": "Dochodzenie do stanu równowagi",
+     "opis": "Zmiany stężeń substratu i produktu w czasie reakcji odwracalnej.",
+     "uwaga": "W stanie równowagi stężenia nie muszą być równe — są tylko stałe w czasie.",
+     "svg": "<path class=\"s\" d=\"M50 35 V255 H370\"/><text class=\"t\" x=\"310\" y=\"273\">czas</text><text class=\"t\" x=\"6\" y=\"29\">stężenie</text><path class=\"s\" d=\"M50 50 C110 120 150 150 220 160 H370\"/><path class=\"s2\" d=\"M50 255 C110 200 150 185 220 180 H370\"/><path class=\"dash\" d=\"M220 40 V255\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 80,
+       "y": 82,
+       "lx": 120,
+       "ly": 60,
+       "n": "Substrat",
+       "d": "stężenie maleje, coraz wolniej"
+      },
+      {
+       "x": 80,
+       "y": 225,
+       "lx": 120,
+       "ly": 240,
+       "n": "Produkt",
+       "d": "stężenie rośnie, coraz wolniej"
+      },
+      {
+       "x": 220,
+       "y": 120,
+       "lx": 270,
+       "ly": 110,
+       "n": "Osiągnięcie stanu równowagi",
+       "d": "od tej chwili stężenia są stałe"
+      },
+      {
+       "x": 300,
+       "y": 160,
+       "lx": 330,
+       "ly": 140,
+       "n": "Stan równowagi dynamicznej",
+       "d": "v reakcji w prawo = v reakcji w lewo"
       }
      ]
     }

@@ -590,6 +590,36 @@
      "wyjasnienie": "Tlen ma 6 elektronów walencyjnych, 2 tworzą wiązania.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sa7d28945",
+     "typ": "proces",
+     "tytul": "Rysowanie wzoru elektronowego",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Policz elektrony walencyjne",
+       "d": "suma dla wszystkich atomów ± ładunek jonu"
+      },
+      {
+       "t": "Ustal szkielet",
+       "d": "atom centralny, wokół ligandy"
+      },
+      {
+       "t": "Wiązania pojedyncze",
+       "d": "po jednej kresce między atomami"
+      },
+      {
+       "t": "Uzupełnij oktety",
+       "d": "wolne pary — najpierw na atomach zewnętrznych"
+      },
+      {
+       "t": "Wiązania wielokrotne",
+       "d": "jeśli atom centralny nie ma oktetu"
+      }
+     ]
+    }
    ]
   },
   {

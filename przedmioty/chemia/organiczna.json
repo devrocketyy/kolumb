@@ -753,6 +753,34 @@
        "d": "izomeria geometryczna nie występuje"
       }
      ]
+    },
+    {
+     "id": "sa16e2206",
+     "typ": "proces",
+     "tytul": "Rozpoznawanie rodzaju izomerii",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Ten sam wzór sumaryczny?",
+       "d": "jeśli nie — to nie są izomery"
+      },
+      {
+       "t": "Inny szkielet węglowy",
+       "d": "izomeria łańcuchowa"
+      },
+      {
+       "t": "Inne położenie grupy lub wiązania",
+       "d": "izomeria położeniowa"
+      },
+      {
+       "t": "Inna grupa funkcyjna",
+       "d": "izomeria funkcyjna"
+      },
+      {
+       "t": "Inne rozmieszczenie w przestrzeni",
+       "d": "stereoizomeria: cis–trans lub optyczna"
+      }
+     ]
     }
    ]
   },
