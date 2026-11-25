@@ -1037,6 +1037,51 @@
    "dzial": "redoks"
   },
   {
+   "tytul": "Utlenianie metali kwasem azotowym(V)",
+   "material": "Tekst autorski. Srebro roztwarza się w stężonym HNO₃: Ag + 2HNO₃ → AgNO₃ + NO₂ + H₂O.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż utleniacz i reduktor.",
+     "odpowiedz": "utleniacz: HNO₃ (N +V); reduktor: Ag",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz objętość NO₂ (w. n.) z 10,8 g srebra.",
+     "odpowiedz": "2,24 dm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,1 mol Ag → 0,1 mol NO₂.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-39",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Elektroliza — ilościowo",
+   "material": "Tekst autorski. Prowadzono elektrolizę wodnego roztworu AgNO₃ prądem 0,5 A przez 1930 s.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę srebra wydzielonego na katodzie.",
+     "odpowiedz": "1,08 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Q = 965 C = 0,01 mol e⁻ → 0,01 mol Ag.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-redoks-40",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Manganometria",
    "material": "Tekst autorski. Próbkę soli Mohra zawierającą jony Fe²⁺ zmiareczkowano w środowisku kwasowym roztworem KMnO₄ o stężeniu 0,0200 mol·dm⁻³; zużyto 15,0 cm³ titranta.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1069,7 +1114,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-39",
+   "id": "b-redoks-41",
    "dzial": "redoks"
   },
   {
@@ -1105,7 +1150,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-40",
+   "id": "b-redoks-42",
    "dzial": "redoks"
   },
   {
@@ -1132,7 +1177,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-41",
+   "id": "b-redoks-43",
    "dzial": "redoks"
   },
   {
@@ -1159,7 +1204,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-42",
+   "id": "b-redoks-44",
    "dzial": "redoks"
   },
   {
@@ -1177,7 +1222,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-43",
+   "id": "b-redoks-45",
    "dzial": "redoks"
   },
   {
@@ -1204,7 +1249,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-44",
+   "id": "b-redoks-46",
    "dzial": "redoks"
   },
   {
@@ -1231,7 +1276,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-45",
+   "id": "b-redoks-47",
    "dzial": "redoks"
   },
   {
@@ -1249,7 +1294,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-46",
+   "id": "b-redoks-48",
    "dzial": "redoks"
   },
   {
@@ -1276,7 +1321,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-47",
+   "id": "b-redoks-49",
    "dzial": "redoks"
   },
   {
@@ -1303,7 +1348,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-48",
+   "id": "b-redoks-50",
    "dzial": "redoks"
   },
   {
@@ -1321,7 +1366,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-49",
+   "id": "b-redoks-51",
    "dzial": "redoks"
   },
   {
@@ -1339,7 +1384,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-50",
+   "id": "b-redoks-52",
    "dzial": "redoks"
   }
  ]

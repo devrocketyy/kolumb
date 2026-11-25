@@ -1019,6 +1019,51 @@
    "dzial": "stechiometria"
   },
   {
+   "tytul": "Analiza tlenku metalu",
+   "material": "Tekst autorski. 8,0 g tlenku dwuwartościowego metalu zredukowano wodorem, otrzymując 6,4 g metalu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Zidentyfikuj metal.",
+     "odpowiedz": "miedź (M = 64 g/mol)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "m(O) = 1,6 g = 0,1 mol → 0,1 mol metalu; 6,4/0,1.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji.",
+     "odpowiedz": "CuO + H₂ → Cu + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-44",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Spalanie siarki — gaz w nadmiarze",
+   "material": "Tekst autorski. Spalono 6,4 g siarki w 11,2 dm³ tlenu (w. n.).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz objętość tlenu po reakcji i objętość SO₂.",
+     "odpowiedz": "O₂: 6,72 dm³; SO₂: 4,48 dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "S: 0,2 mol zużywa 0,2 mol O₂ z 0,5 mol.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-45",
+   "dzial": "stechiometria"
+  },
+  {
    "tytul": "Mieszanina węglanów",
    "material": "Tekst autorski. Mieszaninę Na₂CO₃ i NaHCO₃ o masie 2,74 g roztworzono w nadmiarze kwasu solnego. Wydzieliło się 0,672 dm³ CO₂ (warunki normalne). M(Na₂CO₃) = 106 g/mol, M(NaHCO₃) = 84 g/mol.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1042,7 +1087,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-44",
+   "id": "b-stechiometria-46",
    "dzial": "stechiometria"
   },
   {
@@ -1069,7 +1114,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-45",
+   "id": "b-stechiometria-47",
    "dzial": "stechiometria"
   },
   {
@@ -1096,7 +1141,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-46",
+   "id": "b-stechiometria-48",
    "dzial": "stechiometria"
   },
   {
@@ -1114,7 +1159,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-47",
+   "id": "b-stechiometria-49",
    "dzial": "stechiometria"
   },
   {
@@ -1132,7 +1177,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-48",
+   "id": "b-stechiometria-50",
    "dzial": "stechiometria"
   },
   {
@@ -1150,7 +1195,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-49",
+   "id": "b-stechiometria-51",
    "dzial": "stechiometria"
   },
   {
@@ -1168,7 +1213,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-50",
+   "id": "b-stechiometria-52",
    "dzial": "stechiometria"
   },
   {
@@ -1195,7 +1240,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-51",
+   "id": "b-stechiometria-53",
    "dzial": "stechiometria"
   },
   {
@@ -1213,7 +1258,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-52",
+   "id": "b-stechiometria-54",
    "dzial": "stechiometria"
   },
   {
@@ -1231,7 +1276,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-53",
+   "id": "b-stechiometria-55",
    "dzial": "stechiometria"
   },
   {
@@ -1249,7 +1294,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-54",
+   "id": "b-stechiometria-56",
    "dzial": "stechiometria"
   },
   {
@@ -1267,7 +1312,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-55",
+   "id": "b-stechiometria-57",
    "dzial": "stechiometria"
   },
   {
@@ -1285,7 +1330,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-56",
+   "id": "b-stechiometria-58",
    "dzial": "stechiometria"
   },
   {
@@ -1312,7 +1357,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-57",
+   "id": "b-stechiometria-59",
    "dzial": "stechiometria"
   }
  ]

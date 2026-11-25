@@ -425,6 +425,33 @@
    "dzial": "umiejetnosci"
   },
   {
+   "tytul": "Analiza wyników miareczkowania",
+   "material": "Tekst autorski. Trzy pomiary objętości titranta: 20,1; 20,3; 22,5 cm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Wskaż wynik odbiegający i uzasadnij jego odrzucenie.",
+     "odpowiedz": "22,5 cm³ — wyraźnie różni się od pozostałych (błąd gruby)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średnią z wiarygodnych pomiarów.",
+     "odpowiedz": "20,2 cm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-17",
+   "dzial": "umiejetnosci"
+  },
+  {
    "tytul": "Planowanie doświadczenia — szybkość reakcji",
    "material": "Tekst autorski. Uczeń chce sprawdzić, jak stopień rozdrobnienia wpływa na szybkość reakcji marmuru z kwasem solnym.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -457,7 +484,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-17",
+   "id": "b-umiejetnosci-18",
    "dzial": "umiejetnosci"
   }
  ]

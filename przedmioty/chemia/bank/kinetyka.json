@@ -920,6 +920,33 @@
    "dzial": "kinetyka"
   },
   {
+   "tytul": "Równowaga syntezy HI",
+   "material": "Tekst autorski. H₂(g) + I₂(g) ⇄ 2HI(g); K = 49. Do 1 dm³ wprowadzono po 1 molu H₂ i I₂.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz liczbę moli HI w stanie równowagi.",
+     "odpowiedz": "ok. 1,56 mol",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "(2x)² / (1 − x)² = 49 → 2x/(1 − x) = 7 → x = 7/9; 2x = 1,56.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jak zmieni się skład po zwiększeniu ciśnienia.",
+     "odpowiedz": "nie zmieni się",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Równa liczba moli gazów.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-36",
+   "dzial": "kinetyka"
+  },
+  {
    "tytul": "Okres półtrwania reakcji I rzędu",
    "material": "Tekst autorski. Rozkład pewnego związku jest reakcją I rzędu. Po 30 minutach jego stężenie spadło z 0,80 do 0,20 mol·dm⁻³.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -952,7 +979,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-36",
+   "id": "b-kinetyka-37",
    "dzial": "kinetyka"
   },
   {
@@ -979,7 +1006,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-37",
+   "id": "b-kinetyka-38",
    "dzial": "kinetyka"
   },
   {
@@ -1006,7 +1033,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-38",
+   "id": "b-kinetyka-39",
    "dzial": "kinetyka"
   },
   {
@@ -1033,7 +1060,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-39",
+   "id": "b-kinetyka-40",
    "dzial": "kinetyka"
   },
   {
@@ -1060,7 +1087,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-40",
+   "id": "b-kinetyka-41",
    "dzial": "kinetyka"
   },
   {
@@ -1087,7 +1114,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-41",
+   "id": "b-kinetyka-42",
    "dzial": "kinetyka"
   },
   {
@@ -1123,7 +1150,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-42",
+   "id": "b-kinetyka-43",
    "dzial": "kinetyka"
   },
   {
@@ -1150,7 +1177,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-43",
+   "id": "b-kinetyka-44",
    "dzial": "kinetyka"
   },
   {
@@ -1177,7 +1204,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-44",
+   "id": "b-kinetyka-45",
    "dzial": "kinetyka"
   },
   {
@@ -1195,7 +1222,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-45",
+   "id": "b-kinetyka-46",
    "dzial": "kinetyka"
   },
   {
@@ -1213,7 +1240,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-46",
+   "id": "b-kinetyka-47",
    "dzial": "kinetyka"
   }
  ]

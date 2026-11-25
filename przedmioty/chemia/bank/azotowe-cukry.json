@@ -1001,6 +1001,51 @@
    "dzial": "azotowe-cukry"
   },
   {
+   "tytul": "Analiza tripeptydu",
+   "material": "Tekst autorski. Tripeptyd ma masę molową 203 g/mol i zbudowany jest z glicyny (75) i alaniny (89).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Ustal skład tripeptydu (ile reszt każdego aminokwasu).",
+     "odpowiedz": "2 Gly i 1 Ala",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "2 · 75 + 89 − 2 · 18 = 203.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj liczbę możliwych sekwencji.",
+     "odpowiedz": "3 (Gly-Gly-Ala, Gly-Ala-Gly, Ala-Gly-Gly)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-azotowe-cukry-41",
+   "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Polisacharydy — porównanie",
+   "material": "Tekst autorski. Porównano skrobię i celulozę.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie różnice w budowie i jedną we właściwościach.",
+     "odpowiedz": "Budowa: α- vs β-glukoza; skrobia rozgałęziona (amylopektyna), celuloza liniowa. Właściwości: skrobia daje granat z jodem / jest trawiona przez człowieka, celuloza nie.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    }
+   ],
+   "id": "b-azotowe-cukry-42",
+   "dzial": "azotowe-cukry"
+  },
+  {
    "tytul": "Punkt izoelektryczny",
    "material": "Tekst autorski. Glicyna ma pI = 6,0, kwas glutaminowy pI = 3,2, lizyna pI = 9,7. Mieszaninę umieszczono w buforze o pH 6,0 i przeprowadzono elektroforezę.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1024,7 +1069,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-41",
+   "id": "b-azotowe-cukry-43",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1051,7 +1096,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-42",
+   "id": "b-azotowe-cukry-44",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1078,7 +1123,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-43",
+   "id": "b-azotowe-cukry-45",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1105,7 +1150,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-44",
+   "id": "b-azotowe-cukry-46",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1132,7 +1177,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-45",
+   "id": "b-azotowe-cukry-47",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1159,7 +1204,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-46",
+   "id": "b-azotowe-cukry-48",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1186,7 +1231,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-47",
+   "id": "b-azotowe-cukry-49",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1204,7 +1249,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-48",
+   "id": "b-azotowe-cukry-50",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1231,7 +1276,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-49",
+   "id": "b-azotowe-cukry-51",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1249,7 +1294,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-50",
+   "id": "b-azotowe-cukry-52",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1267,7 +1312,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-51",
+   "id": "b-azotowe-cukry-53",
    "dzial": "azotowe-cukry"
   }
  ]

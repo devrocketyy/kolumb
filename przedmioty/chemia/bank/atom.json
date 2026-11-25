@@ -1073,6 +1073,33 @@
    "dzial": "atom"
   },
   {
+   "tytul": "Okres półtrwania — wykres",
+   "material": "Tekst autorski. Masa próbki izotopu promieniotwórczego zmieniała się: 0 h — 80 mg, 6 h — 40 mg, 12 h — 20 mg.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj okres półtrwania izotopu.",
+     "odpowiedz": "6 h",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę izotopu po 30 h.",
+     "odpowiedz": "2,5 mg",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "5 okresów: 80/32.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-38",
+   "dzial": "atom"
+  },
+  {
    "tytul": "Skład izotopowy chloru",
    "material": "Tekst autorski. Chlor występuje w przyrodzie jako mieszanina izotopów ³⁵Cl (masa 34,97 u) i ³⁷Cl (36,97 u). Średnia masa atomowa chloru wynosi 35,45 u.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1096,7 +1123,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-38",
+   "id": "b-atom-39",
    "dzial": "atom"
   },
   {
@@ -1123,7 +1150,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-39",
+   "id": "b-atom-40",
    "dzial": "atom"
   },
   {
@@ -1150,7 +1177,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-40",
+   "id": "b-atom-41",
    "dzial": "atom"
   },
   {
@@ -1186,7 +1213,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-41",
+   "id": "b-atom-42",
    "dzial": "atom"
   }
  ]

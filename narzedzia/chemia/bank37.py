@@ -1,0 +1,81 @@
+# Bank zadań autorskich — chemia, część 37: duża paczka — wiązki CKE 2023+.
+BANK = {'atom': [
+ B('Okres półtrwania — wykres',
+   'Tekst autorski. Masa próbki izotopu promieniotwórczego zmieniała się: 0 h — 80 mg, 6 h — 40 mg, 12 h — 20 mg.',
+   T('podaj', 1, 'Podaj okres półtrwania izotopu.', '6 h', '—'),
+   T('oblicz', 1, 'Oblicz masę izotopu po 30 h.', '2,5 mg', '5 okresów: 80/32.')),
+], 'wiazania': [
+ B('Kryształy różnych typów',
+   'Tekst autorski. Porównano: diament, NaCl, lód, miedź.',
+   T('podaj', 2, 'Podaj rodzaj kryształu i drobiny w węzłach sieci każdej substancji.', 'diament — kowalencyjny (atomy C); NaCl — jonowy (Na⁺, Cl⁻); lód — molekularny (cząsteczki H₂O); Cu — metaliczny (kationy Cu i elektrony)', '—')),
+], 'stechiometria': [
+ B('Analiza tlenku metalu',
+   'Tekst autorski. 8,0 g tlenku dwuwartościowego metalu zredukowano wodorem, otrzymując 6,4 g metalu.',
+   T('oblicz', 2, 'Zidentyfikuj metal.', 'miedź (M = 64 g/mol)', 'm(O) = 1,6 g = 0,1 mol → 0,1 mol metalu; 6,4/0,1.'),
+   T('podaj', 1, 'Napisz równanie reakcji.', 'CuO + H₂ → Cu + H₂O', '—')),
+ B('Spalanie siarki — gaz w nadmiarze',
+   'Tekst autorski. Spalono 6,4 g siarki w 11,2 dm³ tlenu (w. n.).',
+   T('oblicz', 2, 'Oblicz objętość tlenu po reakcji i objętość SO₂.', 'O₂: 6,72 dm³; SO₂: 4,48 dm³', 'S: 0,2 mol zużywa 0,2 mol O₂ z 0,5 mol.')),
+], 'roztwory': [
+ B('Stężenia jonów po zmieszaniu',
+   'Tekst autorski. Zmieszano 100 cm³ roztworu K₂SO₄ 0,1 mol/dm³ i 100 cm³ roztworu KCl 0,2 mol/dm³.',
+   T('oblicz', 2, 'Oblicz stężenie jonów K⁺ w roztworze końcowym.', '0,2 mol/dm³', 'n(K⁺) = 0,02 + 0,02 = 0,04 mol / 0,2 dm³.')),
+], 'kinetyka': [
+ B('Równowaga syntezy HI',
+   'Tekst autorski. H₂(g) + I₂(g) ⇄ 2HI(g); K = 49. Do 1 dm³ wprowadzono po 1 molu H₂ i I₂.',
+   T('oblicz', 2, 'Oblicz liczbę moli HI w stanie równowagi.', 'ok. 1,56 mol', '(2x)² / (1 − x)² = 49 → 2x/(1 − x) = 7 → x = 7/9; 2x = 1,56.'),
+   T('podaj', 1, 'Podaj, jak zmieni się skład po zwiększeniu ciśnienia.', 'nie zmieni się', 'Równa liczba moli gazów.')),
+], 'roztwory-wodne': [
+ B('Odczyn roztworu po reakcji',
+   'Tekst autorski. Zmieszano równomolowe ilości: I — NH₃ i HCl; II — NaOH i CH₃COOH; III — NaOH i HCl.',
+   T('podaj', 2, 'Podaj odczyn każdego roztworu i uzasadnij dla I i II.', 'I — kwasowy (hydroliza NH₄⁺); II — zasadowy (hydroliza CH₃COO⁻); III — obojętny', '—')),
+ B('Bufor — dodatek kwasu',
+   'Tekst autorski. Bufor zawiera po 0,1 mol CH₃COOH i CH₃COONa w 1 dm³ (pKa = 4,74). Dodano 0,01 mol HCl.',
+   T('oblicz', 2, 'Oblicz pH po dodaniu kwasu.', 'ok. 4,65', 'Kwas: 0,11; sól: 0,09; pH = 4,74 + log(0,09/0,11) = 4,74 − 0,087.')),
+], 'redoks': [
+ B('Utlenianie metali kwasem azotowym(V)',
+   'Tekst autorski. Srebro roztwarza się w stężonym HNO₃: Ag + 2HNO₃ → AgNO₃ + NO₂ + H₂O.',
+   T('podaj', 1, 'Wskaż utleniacz i reduktor.', 'utleniacz: HNO₃ (N +V); reduktor: Ag', '—'),
+   T('oblicz', 1, 'Oblicz objętość NO₂ (w. n.) z 10,8 g srebra.', '2,24 dm³', '0,1 mol Ag → 0,1 mol NO₂.')),
+ B('Elektroliza — ilościowo',
+   'Tekst autorski. Prowadzono elektrolizę wodnego roztworu AgNO₃ prądem 0,5 A przez 1930 s.',
+   T('oblicz', 2, 'Oblicz masę srebra wydzielonego na katodzie.', '1,08 g', 'Q = 965 C = 0,01 mol e⁻ → 0,01 mol Ag.')),
+], 'tlenowe': [
+ B('Hydroliza estru — produkty',
+   'Tekst autorski. Ester o wzorze C₅H₁₀O₂ poddano hydrolizie zasadowej. Jednym z produktów był etanol.',
+   T('podaj', 2, 'Podaj wzór i nazwę estru oraz drugiego produktu.', 'CH₃CH₂COOC₂H₅ — propanian etylu; propanian sodu', '—')),
+ B('Alkohole — odróżnianie',
+   'Tekst autorski. W dwóch probówkach są propan-1-ol i propan-2-ol.',
+   T('podaj', 2, 'Zaproponuj sposób odróżnienia z użyciem CuO i odczynnika Tollensa.', 'Utlenić CuO: propan-1-ol → propanal (daje lustro srebrne), propan-2-ol → propanon (nie daje).', '—')),
+], 'organiczna': [
+ B('Mechanizm chlorowania',
+   'Tekst autorski. Chlorowanie etanu na świetle przebiega łańcuchowo.',
+   T('podaj', 2, 'Napisz równania etapu inicjacji i dwóch etapów propagacji.', 'Cl₂ → 2Cl·; Cl· + C₂H₆ → HCl + C₂H₅·; C₂H₅· + Cl₂ → C₂H₅Cl + Cl·', '—'),
+   T('podaj', 1, 'Podaj przykład etapu zakończenia łańcucha.', 'np. 2C₂H₅· → C₄H₁₀ lub Cl· + C₂H₅· → C₂H₅Cl', '—')),
+ B('Związki aromatyczne — synteza',
+   'Tekst autorski. Z benzenu otrzymano anilinę w dwóch etapach.',
+   T('podaj', 2, 'Podaj odczynniki i produkt pośredni.', 'etap 1: HNO₃/H₂SO₄ → nitrobenzen; etap 2: redukcja (np. Fe/HCl lub H₂/kat.)', '—')),
+], 'azotowe-cukry': [
+ B('Analiza tripeptydu',
+   'Tekst autorski. Tripeptyd ma masę molową 203 g/mol i zbudowany jest z glicyny (75) i alaniny (89).',
+   T('oblicz', 2, 'Ustal skład tripeptydu (ile reszt każdego aminokwasu).', '2 Gly i 1 Ala', '2 · 75 + 89 − 2 · 18 = 203.'),
+   T('podaj', 1, 'Podaj liczbę możliwych sekwencji.', '3 (Gly-Gly-Ala, Gly-Ala-Gly, Ala-Gly-Gly)', '—')),
+ B('Polisacharydy — porównanie',
+   'Tekst autorski. Porównano skrobię i celulozę.',
+   T('podaj', 2, 'Podaj dwie różnice w budowie i jedną we właściwościach.', 'Budowa: α- vs β-glukoza; skrobia rozgałęziona (amylopektyna), celuloza liniowa. Właściwości: skrobia daje granat z jodem / jest trawiona przez człowieka, celuloza nie.', '—')),
+], 'nieorganiczne': [
+ B('Kwasy i ich sole — schemat przemian',
+   'Tekst autorski. Przemiany: P → P₄O₁₀ → H₃PO₄ → Na₃PO₄ → Ag₃PO₄.',
+   T('podaj', 2, 'Napisz równania przemian 2, 3 i 4.', 'P₄O₁₀ + 6H₂O → 4H₃PO₄; H₃PO₄ + 3NaOH → Na₃PO₄ + 3H₂O; Na₃PO₄ + 3AgNO₃ → Ag₃PO₄↓ + 3NaNO₃', '—'),
+   T('podaj', 1, 'Podaj barwę osadu Ag₃PO₄.', 'żółta', '—')),
+], 'chemia-zycia': [
+ B('Spalanie paliw i CO₂',
+   'Tekst autorski. Porównano emisję CO₂ ze spalenia 1 mola metanu i 1 mola oktanu.',
+   T('podaj', 1, 'Podaj liczbę moli CO₂ w obu przypadkach.', 'metan: 1 mol; oktan: 8 moli', '—'),
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego gaz ziemny uważa się za „czystsze” paliwo kopalne.', 'Na jednostkę energii emituje mniej CO₂ (więcej wodoru w cząsteczce) i nie zawiera siarki ani pyłów.', '—')),
+], 'umiejetnosci': [
+ B('Analiza wyników miareczkowania',
+   'Tekst autorski. Trzy pomiary objętości titranta: 20,1; 20,3; 22,5 cm³.',
+   T('podaj', 1, 'Wskaż wynik odbiegający i uzasadnij jego odrzucenie.', '22,5 cm³ — wyraźnie różni się od pozostałych (błąd gruby)', '—'),
+   T('oblicz', 1, 'Oblicz średnią z wiarygodnych pomiarów.', '20,2 cm³', '—')),
+]}
