@@ -956,6 +956,60 @@
    "dzial": "tlenowe"
   },
   {
+   "tytul": "Kwasy karboksylowe — porównanie",
+   "material": "Tekst autorski. Porównano kwas octowy, kwas chlorooctowy i kwas trichlorooctowy.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Uszereguj je według rosnącej mocy.",
+     "odpowiedz": "octowy < chlorooctowy < trichlorooctowy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij przyczynę.",
+     "odpowiedz": "Elektroujemne atomy Cl przyciągają elektrony, osłabiając wiązanie O–H i stabilizując anion.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-39",
+   "dzial": "tlenowe"
+  },
+  {
+   "tytul": "Etanol jako paliwo",
+   "material": "Tekst autorski. Bioetanol dodaje się do benzyny. ΔH spalania etanolu = −1367 kJ/mol.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz ciepło spalenia 1 kg etanolu.",
+     "odpowiedz": "ok. 29 700 kJ",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "1000/46 = 21,7 mol · 1367.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie fermentacji, z której otrzymuje się bioetanol.",
+     "odpowiedz": "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-tlenowe-40",
+   "dzial": "tlenowe"
+  },
+  {
    "tytul": "Identyfikacja alkoholi i fenolu",
    "material": "Tekst autorski. W trzech probówkach znajdują się: etanol, glicerol i fenol (roztwór wodny).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -979,7 +1033,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-39",
+   "id": "b-tlenowe-41",
    "dzial": "tlenowe"
   },
   {
@@ -1006,7 +1060,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-40",
+   "id": "b-tlenowe-42",
    "dzial": "tlenowe"
   },
   {
@@ -1033,7 +1087,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-41",
+   "id": "b-tlenowe-43",
    "dzial": "tlenowe"
   },
   {
@@ -1060,7 +1114,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-42",
+   "id": "b-tlenowe-44",
    "dzial": "tlenowe"
   },
   {
@@ -1087,7 +1141,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-43",
+   "id": "b-tlenowe-45",
    "dzial": "tlenowe"
   },
   {
@@ -1114,7 +1168,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-44",
+   "id": "b-tlenowe-46",
    "dzial": "tlenowe"
   },
   {
@@ -1132,7 +1186,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-45",
+   "id": "b-tlenowe-47",
    "dzial": "tlenowe"
   },
   {
@@ -1150,7 +1204,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-46",
+   "id": "b-tlenowe-48",
    "dzial": "tlenowe"
   },
   {
@@ -1177,7 +1231,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-tlenowe-47",
+   "id": "b-tlenowe-49",
    "dzial": "tlenowe"
   },
   {
@@ -1195,7 +1249,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-48",
+   "id": "b-tlenowe-50",
    "dzial": "tlenowe"
   },
   {
@@ -1213,7 +1267,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-49",
+   "id": "b-tlenowe-51",
    "dzial": "tlenowe"
   },
   {
@@ -1231,7 +1285,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-tlenowe-50",
+   "id": "b-tlenowe-52",
    "dzial": "tlenowe"
   }
  ]

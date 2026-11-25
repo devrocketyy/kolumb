@@ -857,6 +857,51 @@
    "dzial": "stechiometria"
   },
   {
+   "tytul": "Węglik wapnia",
+   "material": "Tekst autorski. Karbid (CaC₂) technicznej czystości 80% reaguje z wodą: CaC₂ + 2H₂O → C₂H₂ + Ca(OH)₂.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz objętość etynu (w. n.) z 160 g karbidu.",
+     "odpowiedz": "44,8 dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "m(CaC₂) = 128 g = 2 mol → 2 mol C₂H₂.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie całkowitego spalania etynu.",
+     "odpowiedz": "2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-36",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Mieszanina NaCl i KCl",
+   "material": "Tekst autorski. 13,3 g mieszaniny NaCl i KCl rozpuszczono i dodano nadmiaru AgNO₃. Otrzymano 28,7 g AgCl.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę NaCl w mieszaninie.",
+     "odpowiedz": "5,85 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(AgCl) = 0,2 mol; x + y = 0,2; 58,5x + 74,5y = 13,3 → 16y = 1,6 → y = 0,1, x = 0,1.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-37",
+   "dzial": "stechiometria"
+  },
+  {
    "tytul": "Mieszanina węglanów",
    "material": "Tekst autorski. Mieszaninę Na₂CO₃ i NaHCO₃ o masie 2,74 g roztworzono w nadmiarze kwasu solnego. Wydzieliło się 0,672 dm³ CO₂ (warunki normalne). M(Na₂CO₃) = 106 g/mol, M(NaHCO₃) = 84 g/mol.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -880,7 +925,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-36",
+   "id": "b-stechiometria-38",
    "dzial": "stechiometria"
   },
   {
@@ -907,7 +952,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-37",
+   "id": "b-stechiometria-39",
    "dzial": "stechiometria"
   },
   {
@@ -934,7 +979,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-38",
+   "id": "b-stechiometria-40",
    "dzial": "stechiometria"
   },
   {
@@ -952,7 +997,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-39",
+   "id": "b-stechiometria-41",
    "dzial": "stechiometria"
   },
   {
@@ -970,7 +1015,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-40",
+   "id": "b-stechiometria-42",
    "dzial": "stechiometria"
   },
   {
@@ -988,7 +1033,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-41",
+   "id": "b-stechiometria-43",
    "dzial": "stechiometria"
   },
   {
@@ -1006,7 +1051,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-42",
+   "id": "b-stechiometria-44",
    "dzial": "stechiometria"
   },
   {
@@ -1033,7 +1078,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-43",
+   "id": "b-stechiometria-45",
    "dzial": "stechiometria"
   },
   {
@@ -1051,7 +1096,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-44",
+   "id": "b-stechiometria-46",
    "dzial": "stechiometria"
   },
   {
@@ -1069,7 +1114,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-45",
+   "id": "b-stechiometria-47",
    "dzial": "stechiometria"
   },
   {
@@ -1087,7 +1132,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-46",
+   "id": "b-stechiometria-48",
    "dzial": "stechiometria"
   },
   {
@@ -1105,7 +1150,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-47",
+   "id": "b-stechiometria-49",
    "dzial": "stechiometria"
   },
   {
@@ -1123,7 +1168,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-48",
+   "id": "b-stechiometria-50",
    "dzial": "stechiometria"
   },
   {
@@ -1150,7 +1195,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-49",
+   "id": "b-stechiometria-51",
    "dzial": "stechiometria"
   }
  ]

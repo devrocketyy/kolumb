@@ -848,6 +848,51 @@
    "dzial": "redoks"
   },
   {
+   "tytul": "Reakcja chloru z zasadą",
+   "material": "Tekst autorski. Chlor wprowadzony do zimnego roztworu NaOH tworzy wybielacz.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji w formie jonowej.",
+     "odpowiedz": "Cl₂ + 2OH⁻ → Cl⁻ + ClO⁻ + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę typu reakcji redoks i stopnie utlenienia chloru w produktach.",
+     "odpowiedz": "dysproporcjonowanie; −I i +I",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-31",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Miareczkowanie manganometryczne nadtlenku wodoru",
+   "material": "Tekst autorski. 10,0 cm³ roztworu H₂O₂ zmiareczkowano zakwaszonym KMnO₄ o stężeniu 0,02 mol/dm³, zużywając 20,0 cm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stężenie molowe H₂O₂.",
+     "odpowiedz": "0,1 mol/dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(MnO₄⁻) = 4 · 10⁻⁴; n(H₂O₂) = 5/2 · 4 · 10⁻⁴ = 10⁻³ mol / 0,01 dm³.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-redoks-32",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Manganometria",
    "material": "Tekst autorski. Próbkę soli Mohra zawierającą jony Fe²⁺ zmiareczkowano w środowisku kwasowym roztworem KMnO₄ o stężeniu 0,0200 mol·dm⁻³; zużyto 15,0 cm³ titranta.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -880,7 +925,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-31",
+   "id": "b-redoks-33",
    "dzial": "redoks"
   },
   {
@@ -916,7 +961,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-32",
+   "id": "b-redoks-34",
    "dzial": "redoks"
   },
   {
@@ -943,7 +988,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-33",
+   "id": "b-redoks-35",
    "dzial": "redoks"
   },
   {
@@ -970,7 +1015,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-34",
+   "id": "b-redoks-36",
    "dzial": "redoks"
   },
   {
@@ -988,7 +1033,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-35",
+   "id": "b-redoks-37",
    "dzial": "redoks"
   },
   {
@@ -1015,7 +1060,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-36",
+   "id": "b-redoks-38",
    "dzial": "redoks"
   },
   {
@@ -1042,7 +1087,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-37",
+   "id": "b-redoks-39",
    "dzial": "redoks"
   },
   {
@@ -1060,7 +1105,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-38",
+   "id": "b-redoks-40",
    "dzial": "redoks"
   },
   {
@@ -1087,7 +1132,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-39",
+   "id": "b-redoks-41",
    "dzial": "redoks"
   },
   {
@@ -1114,7 +1159,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-40",
+   "id": "b-redoks-42",
    "dzial": "redoks"
   },
   {
@@ -1132,7 +1177,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-41",
+   "id": "b-redoks-43",
    "dzial": "redoks"
   },
   {
@@ -1150,7 +1195,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-42",
+   "id": "b-redoks-44",
    "dzial": "redoks"
   }
  ]

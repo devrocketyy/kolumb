@@ -821,6 +821,33 @@
    "dzial": "kinetyka"
   },
   {
+   "tytul": "Rząd reakcji z danych",
+   "material": "Tekst autorski. Dla reakcji 2NO + O₂ → 2NO₂: podwojenie [NO] zwiększa szybkość 4 razy, a podwojenie [O₂] — 2 razy.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie kinetyczne.",
+     "odpowiedz": "v = k[NO]²[O₂]",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy wzrośnie szybkość po trzykrotnym zwiększeniu obu stężeń.",
+     "odpowiedz": "27 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3² · 3.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-32",
+   "dzial": "kinetyka"
+  },
+  {
    "tytul": "Okres półtrwania reakcji I rzędu",
    "material": "Tekst autorski. Rozkład pewnego związku jest reakcją I rzędu. Po 30 minutach jego stężenie spadło z 0,80 do 0,20 mol·dm⁻³.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -853,7 +880,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-32",
+   "id": "b-kinetyka-33",
    "dzial": "kinetyka"
   },
   {
@@ -880,7 +907,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-33",
+   "id": "b-kinetyka-34",
    "dzial": "kinetyka"
   },
   {
@@ -907,7 +934,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-34",
+   "id": "b-kinetyka-35",
    "dzial": "kinetyka"
   },
   {
@@ -934,7 +961,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-35",
+   "id": "b-kinetyka-36",
    "dzial": "kinetyka"
   },
   {
@@ -961,7 +988,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-36",
+   "id": "b-kinetyka-37",
    "dzial": "kinetyka"
   },
   {
@@ -988,7 +1015,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-37",
+   "id": "b-kinetyka-38",
    "dzial": "kinetyka"
   },
   {
@@ -1024,7 +1051,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-38",
+   "id": "b-kinetyka-39",
    "dzial": "kinetyka"
   },
   {
@@ -1051,7 +1078,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-39",
+   "id": "b-kinetyka-40",
    "dzial": "kinetyka"
   },
   {
@@ -1078,7 +1105,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-40",
+   "id": "b-kinetyka-41",
    "dzial": "kinetyka"
   },
   {
@@ -1096,7 +1123,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-41",
+   "id": "b-kinetyka-42",
    "dzial": "kinetyka"
   },
   {
@@ -1114,7 +1141,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-42",
+   "id": "b-kinetyka-43",
    "dzial": "kinetyka"
   }
  ]
