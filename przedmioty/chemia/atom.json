@@ -1820,6 +1820,51 @@
      "wyjasnienie": "Rośnie ładunek jądra przy tej samej liczbie powłok.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sf683a951",
+     "typ": "rysunek",
+     "tytul": "Zmiany właściwości w układzie okresowym",
+     "opis": "Kierunki zmian promienia atomowego, elektroujemności i energii jonizacji (gazy szlachetne pominięte przy elektroujemności).",
+     "uwaga": "Najbardziej elektroujemny jest fluor, najmniej — cez i frans. Charakter niemetaliczny rośnie w prawo i w górę.",
+     "svg": "<rect class=\"f\" x=\"60\" y=\"60\" width=\"280\" height=\"160\" rx=\"6\"/><path class=\"s2\" d=\"M100 60 v160\"/><path class=\"s2\" d=\"M140 60 v160\"/><path class=\"s2\" d=\"M180 60 v160\"/><path class=\"s2\" d=\"M220 60 v160\"/><path class=\"s2\" d=\"M260 60 v160\"/><path class=\"s2\" d=\"M300 60 v160\"/><path class=\"s2\" d=\"M60 100 h280\"/><path class=\"s2\" d=\"M60 140 h280\"/><path class=\"s2\" d=\"M60 180 h280\"/><path class=\"s\" d=\"M80 245 H320\"/><path class=\"d\" d=\"M320 241 l8 4 l-8 4 z\"/><path class=\"s\" d=\"M35 80 V200\"/><path class=\"d\" d=\"M31 200 l4 8 l4 -8 z\"/><path class=\"dash\" d=\"M80 40 H320\"/><path class=\"d\" d=\"M80 36 l-8 4 l8 4 z\"/><path class=\"dash\" d=\"M365 80 V200\"/><path class=\"d\" d=\"M361 200 l4 8 l4 -8 z\"/><text class=\"t\" x=\"120\" y=\"262\">elektroujemność, energia jonizacji ↑</text><text class=\"t\" x=\"140\" y=\"32\">promień atomowy ↑</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 245,
+       "lx": 200,
+       "ly": 285,
+       "n": "W okresie (w prawo)",
+       "d": "rośnie elektroujemność i energia jonizacji, maleje promień"
+      },
+      {
+       "x": 35,
+       "y": 140,
+       "lx": 15,
+       "ly": 140,
+       "n": "W grupie (w dół)",
+       "d": "rośnie promień i charakter metaliczny, maleje energia jonizacji"
+      },
+      {
+       "x": 80,
+       "y": 40,
+       "lx": 40,
+       "ly": 20,
+       "n": "Promień w okresie",
+       "d": "największy w grupie 1 (lewa strona)"
+      },
+      {
+       "x": 365,
+       "y": 140,
+       "lx": 385,
+       "ly": 140,
+       "n": "Promień w grupie",
+       "d": "rośnie w dół — przybywa powłok"
+      }
+     ]
+    }
    ]
   },
   {

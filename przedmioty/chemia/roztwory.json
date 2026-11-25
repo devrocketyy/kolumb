@@ -614,6 +614,32 @@
      "wyjasnienie": "Woda krystalizacyjna dołącza do rozpuszczalnika.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s0ff02487",
+     "typ": "proces",
+     "tytul": "Przeliczanie stężenia procentowego na molowe",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Przyjmij 1 dm³ roztworu",
+       "d": "masa = 1000 · d (g)"
+      },
+      {
+       "t": "Masa substancji",
+       "d": "mₛ = cₚ · m_r / 100%"
+      },
+      {
+       "t": "Liczba moli",
+       "d": "n = mₛ / M"
+      },
+      {
+       "t": "Stężenie molowe",
+       "d": "c = n / 1 dm³ — skrótowo c = cₚ · d · 10 / M"
+      }
+     ]
+    }
    ]
   },
   {

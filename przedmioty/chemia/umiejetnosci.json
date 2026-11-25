@@ -2291,6 +2291,92 @@
        "d": "utrzymuje biuretę w pionie"
       }
      ]
+    },
+    {
+     "id": "s7c763e63",
+     "typ": "rysunek",
+     "tytul": "Ogrzewanie pod chłodnicą zwrotną",
+     "opis": "Zestaw do długotrwałego ogrzewania mieszaniny bez utraty lotnych składników (np. estryfikacja, hydroliza estru).",
+     "uwaga": "Chłodnica zwrotna stoi pionowo — w odróżnieniu od destylacji produkt nie opuszcza kolby.",
+     "svg": "<path class=\"s\" d=\"M193 150 v-130 M207 150 v-130\"/><path class=\"f\" d=\"M180 40 h40 v90 h-40 z\"/><path class=\"s\" d=\"M193 40 v90 M207 40 v90\"/><path class=\"s\" d=\"M220 120 h30 M180 50 h-30\"/><path class=\"s\" d=\"M193 150 v20 a40 40 0 1 0 14 0 v-20\"/><path class=\"f\" d=\"M168 215 a33 33 0 0 0 64 0 z\"/><rect class=\"f2\" x=\"170\" y=\"262\" width=\"60\" height=\"16\" rx=\"4\"/><circle class=\"s2\" cx=\"190\" cy=\"225\" r=\"2\"/><circle class=\"s2\" cx=\"205\" cy=\"232\" r=\"2\"/><circle class=\"s2\" cx=\"212\" cy=\"220\" r=\"2\"/><text class=\"t\" x=\"252\" y=\"124\">← woda (wlot)</text><text class=\"t\" x=\"92\" y=\"54\">woda (wylot) ←</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 85,
+       "lx": 290,
+       "ly": 80,
+       "n": "Chłodnica zwrotna",
+       "d": "woda wpływa dołem, wypływa górą; pary skraplają się i wracają do kolby"
+      },
+      {
+       "x": 200,
+       "y": 220,
+       "lx": 290,
+       "ly": 220,
+       "n": "Mieszanina reakcyjna",
+       "d": "np. kwas + alkohol + kilka kropli stężonego H₂SO₄"
+      },
+      {
+       "x": 190,
+       "y": 225,
+       "lx": 100,
+       "ly": 240,
+       "n": "Kamyczki wrzenne",
+       "d": "zapobiegają przegrzaniu i gwałtownemu wrzeniu"
+      },
+      {
+       "x": 200,
+       "y": 270,
+       "lx": 290,
+       "ly": 280,
+       "n": "Czasza grzejna",
+       "d": "łagodne, równomierne ogrzewanie"
+      }
+     ]
+    },
+    {
+     "id": "s2dea5d14",
+     "typ": "rysunek",
+     "tytul": "Otrzymywanie gazu z wkraplaczem",
+     "opis": "Zestaw do otrzymywania gazu z cieczy i ciała stałego bez ogrzewania.",
+     "uwaga": "Gaz suszy się w płuczce ze stężonym H₂SO₄ (nie dla NH₃ — ten suszy się CaO).",
+     "svg": "<path class=\"s\" d=\"M110 60 h40 l-8 40 v40 h-24 v-40 z\"/><path class=\"f\" d=\"M114 64 h32 l-6 30 h-20 z\"/><rect class=\"d\" x=\"120\" y=\"112\" width=\"20\" height=\"5\" rx=\"2\"/><path class=\"s\" d=\"M126 140 v20 M134 140 v20\"/><path class=\"s\" d=\"M70 160 h120 M80 160 v80 a50 30 0 0 0 100 0 v-80\"/><path class=\"f2\" d=\"M86 225 h88 a44 22 0 0 1 -88 0 z\"/><path class=\"s\" d=\"M180 180 h80 v-60 h40\"/><path class=\"s\" d=\"M290 100 v120 h80 v-120\"/><rect class=\"f\" x=\"291\" y=\"160.0\" width=\"78\" height=\"59.0\"/><path class=\"s\" d=\"M300 120 v80 M308 120 v80\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 130,
+       "y": 80,
+       "lx": 50,
+       "ly": 60,
+       "n": "Wkraplacz",
+       "d": "zawiera ciecz, np. kwas solny; kran reguluje szybkość reakcji"
+      },
+      {
+       "x": 130,
+       "y": 232,
+       "lx": 60,
+       "ly": 280,
+       "n": "Kolba z ciałem stałym",
+       "d": "np. cynk, CaCO₃ lub Na₂SO₃"
+      },
+      {
+       "x": 230,
+       "y": 180,
+       "lx": 230,
+       "ly": 210,
+       "n": "Rurka odprowadzająca",
+       "d": "prowadzi gaz do płuczki lub odbieralnika"
+      },
+      {
+       "x": 330,
+       "y": 190,
+       "lx": 370,
+       "ly": 280,
+       "n": "Płuczka",
+       "d": "oczyszcza lub suszy gaz (np. stężony H₂SO₄ suszy CO₂)"
+      }
+     ]
     }
    ]
   }

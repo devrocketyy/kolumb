@@ -1288,6 +1288,34 @@
        "d": "pH słabego kwasu wyższe niż mocnego o tym samym stężeniu"
       }
      ]
+    },
+    {
+     "id": "sbe1fc64d",
+     "typ": "proces",
+     "tytul": "Obliczanie pH słabego kwasu",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Zapisz równanie dysocjacji",
+       "d": "HA ⇄ H⁺ + A⁻"
+      },
+      {
+       "t": "Sprawdź c/Ka",
+       "d": "jeśli > 400 (α < 5%), można stosować uproszczenie"
+      },
+      {
+       "t": "Uproszczenie",
+       "d": "[H⁺] = √(Ka · c)"
+      },
+      {
+       "t": "Bez uproszczenia",
+       "d": "Ka = x² / (c − x) — równanie kwadratowe"
+      },
+      {
+       "t": "pH",
+       "d": "−log[H⁺]; podaj z dokładnością wymaganą w poleceniu"
+      }
+     ]
     }
    ]
   },
@@ -1776,6 +1804,40 @@
      "poprawna": "B",
      "wyjasnienie": "Hydrolizuje tylko anion słabego kwasu.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s0ba7ce6e",
+     "typ": "proces",
+     "tytul": "Przewidywanie odczynu roztworu soli",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Rozpoznaj kwas i zasadę",
+       "d": "z których pochodzi sól"
+      },
+      {
+       "t": "Mocny kwas + mocna zasada",
+       "d": "brak hydrolizy, odczyn obojętny (NaCl, KNO₃)"
+      },
+      {
+       "t": "Słaby kwas + mocna zasada",
+       "d": "hydroliza anionowa, odczyn zasadowy (Na₂CO₃, CH₃COONa)"
+      },
+      {
+       "t": "Mocny kwas + słaba zasada",
+       "d": "hydroliza kationowa, odczyn kwasowy (NH₄Cl, AlCl₃)"
+      },
+      {
+       "t": "Słaby kwas + słaba zasada",
+       "d": "odczyn zależy od Ka i Kb (CH₃COONH₄ — ok. obojętny)"
+      },
+      {
+       "t": "Wodorosole",
+       "d": "porównaj dysocjację i hydrolizę: NaHCO₃ — zasadowy, NaHSO₄ — kwasowy"
+      }
+     ]
     }
    ]
   },

@@ -1002,6 +1002,36 @@
      "wyjasnienie": "Mnożymy przez 2.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sd50898ba",
+     "typ": "proces",
+     "tytul": "Ustalanie wzoru związku z analizy spalania",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Masa C",
+       "d": "z masy CO₂: m(C) = m(CO₂) · 12/44"
+      },
+      {
+       "t": "Masa H",
+       "d": "z masy H₂O: m(H) = m(H₂O) · 2/18"
+      },
+      {
+       "t": "Masa O",
+       "d": "różnica: masa próbki − m(C) − m(H)"
+      },
+      {
+       "t": "Stosunek moli",
+       "d": "podziel przez najmniejszą liczbę → wzór empiryczny"
+      },
+      {
+       "t": "Wzór rzeczywisty",
+       "d": "M związku / M wzoru empirycznego = krotność"
+      }
+     ]
+    }
    ]
   },
   {

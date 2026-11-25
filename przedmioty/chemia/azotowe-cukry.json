@@ -1376,6 +1376,30 @@
        "d": "roztwory soli lekkich metali — odwracalne"
       }
      ]
+    },
+    {
+     "id": "s89887e31",
+     "typ": "proces",
+     "tytul": "Ustalanie sekwencji peptydu z hydrolizy częściowej",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Wypisz dipeptydy i tripeptydy",
+       "d": "z wyników hydrolizy"
+      },
+      {
+       "t": "Szukaj wspólnych reszt",
+       "d": "nakładają się na siebie fragmenty"
+      },
+      {
+       "t": "Ustal N-koniec",
+       "d": "reszta z wolną grupą –NH₂ (zapisywana z lewej)"
+      },
+      {
+       "t": "Złóż sekwencję",
+       "d": "sprawdź, czy wyjaśnia wszystkie fragmenty"
+      }
+     ]
     }
    ]
   },
@@ -2106,6 +2130,38 @@
       {
        "t": "Sacharoza",
        "d": "nieredukująca; po hydrolizie daje pozytywny wynik"
+      }
+     ]
+    },
+    {
+     "id": "s01bfde85",
+     "typ": "proces",
+     "tytul": "Od projekcji Fischera do wzoru Hawortha (D-glukoza)",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Łańcuch w projekcji Fischera",
+       "d": "grupa –CHO na górze, –CH₂OH na dole"
+      },
+      {
+       "t": "Zamknięcie pierścienia",
+       "d": "–OH przy C5 atakuje C1 — powstaje półacetal (pierścień sześcioczłonowy)"
+      },
+      {
+       "t": "Podstawniki z prawej strony",
+       "d": "w Haworcie skierowane w dół"
+      },
+      {
+       "t": "Podstawniki z lewej strony",
+       "d": "w Haworcie skierowane w górę"
+      },
+      {
+       "t": "Grupa –CH₂OH (D-cukry)",
+       "d": "skierowana w górę"
+      },
+      {
+       "t": "Anomer α / β",
+       "d": "–OH przy C1 w dół (α) lub w górę (β)"
       }
      ]
     }
