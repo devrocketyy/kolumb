@@ -21,7 +21,7 @@ T['c-izomeria'] = dict(F=[
  ('Zasada numeracji łańcucha', 'Najdłuższy łańcuch; numeracja tak, by podstawniki (grupa funkcyjna) miały najniższe lokanty.'),
  ('Kolejność podstawników w nazwie', 'Alfabetyczna (bromo, chloro, etylo, metylo…); przedrostki di-, tri- nie wpływają na kolejność.'),
  ('Liczba izomerów konstytucyjnych C₄H₁₀O (alkohole)', '4: butan-1-ol, butan-2-ol, 2-metylopropan-1-ol, 2-metylopropan-2-ol.'),
- ('Liczba izomerów C₄H₉Cl', '4.'),
+ ('Liczba izomerów C₄H₉Cl', '4 izomery konstytucyjne (1- i 2-chlorobutan, 1-chloro-2-metylopropan, 2-chloro-2-metylopropan); 2-chlorobutan ma dodatkowo 2 enancjomery.'),
  ('Konfiguracja R/S — kryterium', 'Priorytety podstawników wg liczby atomowej; patrzymy z najniższym priorytetem z tyłu.'),
  ('Diastereoizomery cis–trans a właściwości', 'Różnią się temperaturą wrzenia i topnienia (enancjomery — nie, tylko skręcalnością).'),
 ])

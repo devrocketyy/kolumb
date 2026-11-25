@@ -1108,6 +1108,32 @@
      "wyjasnienie": "Metal ciężki.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s355f7533",
+     "typ": "proces",
+     "tytul": "Wykrywanie białek",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Reakcja biuretowa",
+       "d": "Cu²⁺ w środowisku zasadowym — fioletowe; min. 2 wiązania peptydowe"
+      },
+      {
+       "t": "Reakcja ksantoproteinowa",
+       "d": "stężony HNO₃ — żółte; aminokwasy z pierścieniem aromatycznym"
+      },
+      {
+       "t": "Denaturacja",
+       "d": "sole metali ciężkich, etanol, temperatura — nieodwracalna"
+      },
+      {
+       "t": "Wysalanie",
+       "d": "roztwory soli lekkich metali — odwracalne"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1731,6 +1757,36 @@
      "poprawna": "A",
      "wyjasnienie": "α i β.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "sac7445eb",
+     "typ": "proces",
+     "tytul": "Identyfikacja cukrów — kolejność prób",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Cu(OH)₂ na zimno",
+       "d": "szafirowy roztwór — wiele grup –OH przy sąsiednich C"
+      },
+      {
+       "t": "Próba Trommera / Tollensa",
+       "d": "cukry redukujące (glukoza, fruktoza, maltoza, laktoza)"
+      },
+      {
+       "t": "Woda bromowa + NaHCO₃",
+       "d": "odbarwia tylko aldozy — odróżnia glukozę od fruktozy"
+      },
+      {
+       "t": "Jod (płyn Lugola)",
+       "d": "skrobia — granatowe zabarwienie"
+      },
+      {
+       "t": "Sacharoza",
+       "d": "nieredukująca; po hydrolizie daje pozytywny wynik"
+      }
+     ]
     }
    ]
   }

@@ -972,6 +972,37 @@
      "wyjasnienie": "Model VSEPR.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sbab3042d",
+     "typ": "proces",
+     "tytul": "Ustalanie kształtu cząsteczki (VSEPR)",
+     "opis": "",
+     "uwaga": "CO₂ ma wiązania polarne, ale jest liniowa, więc niepolarna.",
+     "kroki": [
+      {
+       "t": "Atom centralny",
+       "d": "zwykle najmniej elektroujemny (nie H)"
+      },
+      {
+       "t": "Liczba przestrzenna",
+       "d": "atomy przyłączone + wolne pary atomu centralnego"
+      },
+      {
+       "t": "Hybrydyzacja",
+       "d": "2 → sp, 3 → sp², 4 → sp³"
+      },
+      {
+       "t": "Kształt",
+       "d": "liczą się tylko atomy: NH₃ — piramida, H₂O — kątowa"
+      },
+      {
+       "t": "Polarność",
+       "d": "polarne wiązania + niesymetryczny kształt = cząsteczka polarna"
+      }
+     ]
+    }
    ]
   },
   {

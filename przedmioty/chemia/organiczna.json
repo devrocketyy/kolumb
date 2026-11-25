@@ -102,7 +102,7 @@
     {
      "id": "f9f7f3aa3",
      "przod": "Liczba izomerów C₄H₉Cl",
-     "tyl": "4.",
+     "tyl": "4 izomery konstytucyjne (1- i 2-chlorobutan, 1-chloro-2-metylopropan, 2-chloro-2-metylopropan); 2-chlorobutan ma dodatkowo 2 enancjomery.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
     },
     {
@@ -313,12 +313,6 @@
      "id": "f2832c346",
      "przod": "Rozpoznaj: 4: butan-1-ol, butan-2-ol, 2-metylopropan-1-ol, 2-metylopropan-2-ol.",
      "tyl": "Liczba izomerów konstytucyjnych C₄H₁₀O (alkohole)",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
-    },
-    {
-     "id": "f92441b2e",
-     "przod": "Rozpoznaj: 4.",
-     "tyl": "Liczba izomerów C₄H₉Cl",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. XII"
     },
     {
@@ -544,6 +538,52 @@
      "poprawna": "C",
      "wyjasnienie": "Skręcalności enancjomerów się znoszą.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s219cce38",
+     "typ": "proces",
+     "tytul": "Nazewnictwo systematyczne związku organicznego",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Najdłuższy łańcuch",
+       "d": "zawierający grupę funkcyjną i wiązania wielokrotne"
+      },
+      {
+       "t": "Numeracja",
+       "d": "najniższy lokant dla grupy głównej, potem wiązań wielokrotnych, potem podstawników"
+      },
+      {
+       "t": "Podstawniki",
+       "d": "alfabetycznie, z przedrostkami di-, tri-"
+      },
+      {
+       "t": "Końcówka",
+       "d": "-an, -en, -yn, -ol, -al, -on, kwas -owy"
+      }
+     ]
+    },
+    {
+     "id": "sc8ae3ca7",
+     "typ": "proces",
+     "tytul": "Sprawdzanie izomerii cis–trans",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Wiązanie C=C lub pierścień",
+       "d": "brak swobodnej rotacji"
+      },
+      {
+       "t": "Każdy atom C wiązania",
+       "d": "musi mieć dwa różne podstawniki"
+      },
+      {
+       "t": "Jeśli przy jednym C dwa jednakowe",
+       "d": "izomeria geometryczna nie występuje"
+      }
+     ]
     }
    ]
   },
@@ -1012,6 +1052,33 @@
      "poprawna": "D",
      "wyjasnienie": "Atom H zastąpiony przez Cl.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s5acbd9a2",
+     "typ": "proces",
+     "tytul": "Mechanizm chlorowania alkanu (rodnikowy)",
+     "opis": "",
+     "uwaga": "Najłatwiej podstawiany jest H przy węglu III-rzędowym (najtrwalszy rodnik).",
+     "kroki": [
+      {
+       "t": "Inicjacja",
+       "d": "Cl₂ → 2Cl· pod wpływem światła"
+      },
+      {
+       "t": "Propagacja I",
+       "d": "Cl· + RH → HCl + R·"
+      },
+      {
+       "t": "Propagacja II",
+       "d": "R· + Cl₂ → RCl + Cl·"
+      },
+      {
+       "t": "Terminacja",
+       "d": "łączenie dwóch rodników"
+      }
+     ]
     }
    ]
   },
@@ -1586,6 +1653,32 @@
      "poprawna": "D",
      "wyjasnienie": "Addycja bromu.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s13b86c92",
+     "typ": "proces",
+     "tytul": "Addycja elektrofilowa HX do alkenu",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Atak H⁺ na wiązanie π",
+       "d": "powstaje karbokation"
+      },
+      {
+       "t": "Trwalszy karbokation",
+       "d": "na atomie C o większej liczbie podstawników"
+      },
+      {
+       "t": "Przyłączenie X⁻",
+       "d": "reguła Markownikowa"
+      },
+      {
+       "t": "Nadtlenki (tylko HBr)",
+       "d": "mechanizm rodnikowy — produkt antymarkownikowski"
+      }
+     ]
     }
    ]
   },

@@ -1066,6 +1066,82 @@
      "wyjasnienie": "Q = I·t, t w sekundach.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s3dcde0c6",
+     "typ": "proces",
+     "tytul": "Model rozwiązania zadania obliczeniowego",
+     "opis": "Schemat punktowany przez CKE: metoda + obliczenia + wynik z jednostką.",
+     "kroki": [
+      {
+       "t": "Równanie reakcji",
+       "d": "zapisz i uzgodnij — bez tego proporcja jest błędna"
+      },
+      {
+       "t": "Dane i szukane",
+       "d": "z jednostkami; przelicz cm³ na dm³, mg na g"
+      },
+      {
+       "t": "Liczba moli",
+       "d": "n = m/M, n = V/22,4 dm³ (w. n.), n = c · V"
+      },
+      {
+       "t": "Proporcja ze stosunku molowego",
+       "d": "współczynniki równania"
+      },
+      {
+       "t": "Wynik i jednostka",
+       "d": "zaokrąglenie wg polecenia; sprawdź sens (czy masa nie większa od substratu)"
+      }
+     ]
+    },
+    {
+     "id": "sd147fba2",
+     "typ": "proces",
+     "tytul": "Obliczenia z nadmiarem",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Liczby moli obu substratów"
+      },
+      {
+       "t": "Podziel przez współczynniki",
+       "d": "mniejszy iloraz = substrat w niedomiarze"
+      },
+      {
+       "t": "Licz produkt z niedomiaru",
+       "d": "substrat w nadmiarze zostaje częściowo nieprzereagowany"
+      },
+      {
+       "t": "Skład mieszaniny końcowej",
+       "d": "produkty + pozostały nadmiar"
+      }
+     ]
+    },
+    {
+     "id": "s6b66ec61",
+     "typ": "proces",
+     "tytul": "Wydajność reakcji",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Ilość teoretyczna",
+       "d": "z równania, przy 100% przereagowania"
+      },
+      {
+       "t": "Ilość praktyczna",
+       "d": "otrzymana w doświadczeniu"
+      },
+      {
+       "t": "W = praktyczna / teoretyczna · 100%"
+      },
+      {
+       "t": "Proces wieloetapowy",
+       "d": "wydajność całkowita = iloczyn wydajności etapów"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1848,6 +1924,230 @@
      "poprawna": "B",
      "wyjasnienie": "NH₃ lżejszy od powietrza i rozpuszczalny w wodzie.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "sccc166cd",
+     "typ": "rysunek",
+     "tytul": "Destylacja prosta",
+     "opis": "Zestaw do rozdzielania cieczy o różnych temperaturach wrzenia.",
+     "uwaga": "Typowe pytania: gdzie umieścić termometr, którędy wpływa woda do chłodnicy, który składnik jest w destylacie.",
+     "svg": "<path class=\"s\" d=\"M83.0 70 v46 a42 42 0 1 0 14 0 v-46\"/><path class=\"f\" d=\"M54 162 a36 36 0 0 0 72 0 z\"/><rect class=\"f2\" x=\"80\" y=\"225\" width=\"20\" height=\"34\"/><rect class=\"f2\" x=\"68\" y=\"259\" width=\"44\" height=\"8\" rx=\"2\"/><path class=\"s\" d=\"M90 221 q-9 -14 0 -30 q9 16 0 30\"/><path class=\"s\" d=\"M83 82 h-10 M97 82 h40\"/><path class=\"s2\" d=\"M90 60 v-22\"/><rect class=\"f2\" x=\"86\" y=\"30\" width=\"8\" height=\"12\"/><path class=\"f\" d=\"M137 74 L300 150 L294 162 L131 86 z\"/><path class=\"s\" d=\"M150 78 L290 148\"/><path class=\"s2\" d=\"M180 75 v-18 M265 140 v26\"/><path class=\"s\" d=\"M285 175 v70 h70 v-70\"/><rect class=\"f\" x=\"286\" y=\"220.5\" width=\"68\" height=\"23.5\"/><text class=\"t\" x=\"168\" y=\"52\">woda ↓</text><text class=\"t\" x=\"252\" y=\"182\">↑ woda</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 90,
+       "y": 150,
+       "lx": 30,
+       "ly": 150,
+       "n": "Kolba z mieszaniną",
+       "d": "ciecz ogrzewana do wrzenia"
+      },
+      {
+       "x": 90,
+       "y": 36,
+       "lx": 40,
+       "ly": 22,
+       "n": "Termometr",
+       "d": "zbiornik rtęci na wysokości bocznego odprowadzenia — mierzy temperaturę par"
+      },
+      {
+       "x": 215,
+       "y": 115,
+       "lx": 220,
+       "ly": 92,
+       "n": "Chłodnica",
+       "d": "pary skraplają się; woda płynie przeciwprądowo (wpływa dołem)"
+      },
+      {
+       "x": 320,
+       "y": 230,
+       "lx": 370,
+       "ly": 280,
+       "n": "Odbieralnik",
+       "d": "zbiera destylat — składnik o niższej temperaturze wrzenia"
+      },
+      {
+       "x": 90,
+       "y": 205,
+       "lx": 150,
+       "ly": 270,
+       "n": "Źródło ciepła",
+       "d": "palnik lub czasza grzejna"
+      }
+     ]
+    },
+    {
+     "id": "s1c4d1806",
+     "typ": "rysunek",
+     "tytul": "Sączenie",
+     "opis": "Oddzielanie osadu od roztworu.",
+     "uwaga": "Sączenie rozdziela mieszaninę niejednorodną ciało stałe–ciecz. Roztwór nie da się „przesączyć” na składniki.",
+     "svg": "<path class=\"s\" d=\"M140 60 L260 60 L215 150 L185 150 z\"/><path class=\"dash\" d=\"M150 66 L250 66 L210 144 L190 144 z\"/><path class=\"s\" d=\"M193 150 v60 M207 150 v60\"/><path class=\"s\" d=\"M150 190 v80 h100 v-80\"/><rect class=\"f\" x=\"151\" y=\"246.0\" width=\"98\" height=\"23.0\"/><path class=\"f2\" d=\"M155 68 L245 68 L232 92 L168 92 z\"/><path class=\"s2\" d=\"M120 30 l40 30\"/><text class=\"t\" x=\"70\" y=\"26\">bagietka</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 80,
+       "lx": 300,
+       "ly": 70,
+       "n": "Osad na sączku",
+       "d": "substancja nierozpuszczalna zostaje na bibule"
+      },
+      {
+       "x": 230,
+       "y": 120,
+       "lx": 310,
+       "ly": 120,
+       "n": "Sączek z bibuły",
+       "d": "złożony i zwilżony, przylega do lejka"
+      },
+      {
+       "x": 200,
+       "y": 255,
+       "lx": 300,
+       "ly": 270,
+       "n": "Przesącz",
+       "d": "klarowny roztwór substancji rozpuszczonych"
+      },
+      {
+       "x": 140,
+       "y": 60,
+       "lx": 60,
+       "ly": 80,
+       "n": "Lejek",
+       "d": "nóżka dotyka ścianki zlewki — ciecz spływa bez rozpryskiwania"
+      }
+     ]
+    },
+    {
+     "id": "s28826809",
+     "typ": "rysunek",
+     "tytul": "Rozdzielacz",
+     "opis": "Rozdzielanie dwóch niemieszających się cieczy.",
+     "uwaga": "O tym, która warstwa jest na dole, decyduje gęstość, a nie polarność.",
+     "svg": "<path class=\"s\" d=\"M170 40 h60 M175 40 C160 120 160 170 196 205 h8 C240 170 240 120 225 40\"/><path class=\"f\" d=\"M168 120 C168 165 175 185 196 203 h8 C225 185 232 165 232 120 z\"/><path class=\"f2\" d=\"M166 82 C164 100 165 112 168 120 h64 C235 112 236 100 234 82 z\"/><path class=\"s\" d=\"M197 205 v40 M203 205 v40\"/><rect class=\"d\" x=\"186\" y=\"220\" width=\"28\" height=\"6\" rx=\"2\"/><rect class=\"f2\" x=\"187\" y=\"30\" width=\"26\" height=\"10\" rx=\"2\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 100,
+       "lx": 300,
+       "ly": 90,
+       "n": "Warstwa górna",
+       "d": "ciecz o mniejszej gęstości, np. benzyna lub eter"
+      },
+      {
+       "x": 200,
+       "y": 160,
+       "lx": 300,
+       "ly": 160,
+       "n": "Warstwa dolna",
+       "d": "ciecz o większej gęstości, np. woda lub CCl₄"
+      },
+      {
+       "x": 200,
+       "y": 223,
+       "lx": 300,
+       "ly": 230,
+       "n": "Kran",
+       "d": "spuszcza się nim dolną warstwę"
+      },
+      {
+       "x": 200,
+       "y": 35,
+       "lx": 300,
+       "ly": 30,
+       "n": "Korek",
+       "d": "zdejmuje się go przed otwarciem kranu"
+      }
+     ]
+    },
+    {
+     "id": "sea34ce1a",
+     "typ": "rysunek",
+     "tytul": "Zbieranie gazu nad wodą",
+     "opis": "Otrzymywanie i zbieranie gazu słabo rozpuszczalnego w wodzie.",
+     "uwaga": "NH₃ i HCl zbiera się wyłącznie „na sucho” (bardzo dobrze rozpuszczalne). Wylot do góry — gazy lżejsze od powietrza (H₂, NH₃), do dołu — cięższe (CO₂, Cl₂).",
+     "svg": "<path class=\"s\" d=\"M60 60 h40 M65 60 v120 a15 15 0 0 0 30 0 v-120\"/><path class=\"f\" d=\"M66 140 v40 a14 14 0 0 0 28 0 v-40 z\"/><path class=\"s\" d=\"M80 60 v-20 h150 v170\"/><path class=\"s\" d=\"M180 160 v100 h140 v-100\"/><rect class=\"f\" x=\"181\" y=\"190.0\" width=\"138\" height=\"69.0\"/><path class=\"s\" d=\"M215 120 v110 a8 8 0 0 0 16 0 v-110\"/><path class=\"f\" d=\"M216 170 v60 a7 7 0 0 0 14 0 v-60 z\"/><rect class=\"f2\" x=\"70\" y=\"220\" width=\"20\" height=\"34\"/><rect class=\"f2\" x=\"58\" y=\"254\" width=\"44\" height=\"8\" rx=\"2\"/><path class=\"s\" d=\"M80 216 q-9 -14 0 -30 q9 16 0 30\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 80,
+       "y": 160,
+       "lx": 20,
+       "ly": 150,
+       "n": "Probówka z substratami",
+       "d": "ogrzewana mieszanina, np. KMnO₄ lub KClO₃ z MnO₂"
+      },
+      {
+       "x": 223,
+       "y": 140,
+       "lx": 300,
+       "ly": 110,
+       "n": "Gaz zebrany nad wodą",
+       "d": "metoda dla gazów słabo rozpuszczalnych w wodzie (O₂, H₂, N₂)"
+      },
+      {
+       "x": 260,
+       "y": 230,
+       "lx": 360,
+       "ly": 280,
+       "n": "Wanna z wodą",
+       "d": "gaz wypiera wodę z odwróconej probówki"
+      },
+      {
+       "x": 155,
+       "y": 40,
+       "lx": 150,
+       "ly": 20,
+       "n": "Rurka odprowadzająca",
+       "d": "po zakończeniu najpierw wyjmuje się ją z wody, potem gasi palnik"
+      }
+     ]
+    },
+    {
+     "id": "s4d2bda08",
+     "typ": "rysunek",
+     "tytul": "Zestaw do miareczkowania",
+     "opis": "Oznaczanie stężenia analitu titrantem o znanym stężeniu.",
+     "svg": "<path class=\"s\" d=\"M190 20 v170 M210 20 v170\"/><rect class=\"f\" x=\"191\" y=\"60\" width=\"18\" height=\"130\"/><path class=\"s2\" d=\"M191 70 h8\"/><path class=\"s2\" d=\"M191 82 h8\"/><path class=\"s2\" d=\"M191 94 h8\"/><path class=\"s2\" d=\"M191 106 h8\"/><path class=\"s2\" d=\"M191 118 h8\"/><path class=\"s2\" d=\"M191 130 h8\"/><path class=\"s2\" d=\"M191 142 h8\"/><path class=\"s2\" d=\"M191 154 h8\"/><path class=\"s2\" d=\"M191 166 h8\"/><path class=\"s2\" d=\"M191 178 h8\"/><path class=\"s\" d=\"M195 190 v20 h10 v-20\"/><rect class=\"d\" x=\"183\" y=\"196\" width=\"34\" height=\"5\" rx=\"2\"/><path class=\"s\" d=\"M196 210 l2 14 h4 l2 -14\"/><path class=\"s\" d=\"M185 232 h30 M188 232 v10 L150 285 h100 L212 242 v-10\"/><path class=\"f\" d=\"M162 272 L238 272 L250 285 L150 285 z\"/><path class=\"s\" d=\"M100 290 h200 M120 20 v270 M120 40 h70\"/><rect class=\"f2\" x=\"100\" y=\"286\" width=\"60\" height=\"6\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 120,
+       "lx": 290,
+       "ly": 100,
+       "n": "Biureta z titrantem",
+       "d": "roztwór o znanym stężeniu; odczyt z dokładnością do 0,05 cm³"
+      },
+      {
+       "x": 200,
+       "y": 198,
+       "lx": 290,
+       "ly": 190,
+       "n": "Kranik",
+       "d": "pozwala dodawać titrant kroplami"
+      },
+      {
+       "x": 200,
+       "y": 278,
+       "lx": 300,
+       "ly": 270,
+       "n": "Kolba stożkowa z analitem",
+       "d": "odmierzona pipetą objętość i kilka kropli wskaźnika"
+      },
+      {
+       "x": 120,
+       "y": 160,
+       "lx": 50,
+       "ly": 150,
+       "n": "Statyw",
+       "d": "utrzymuje biuretę w pionie"
+      }
+     ]
     }
    ]
   }

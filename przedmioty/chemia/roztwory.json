@@ -869,6 +869,59 @@
      "wyjasnienie": "Nie osiągnięto rozpuszczalności.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sf08cc8cd",
+     "typ": "rysunek",
+     "tytul": "Krzywe rozpuszczalności",
+     "opis": "Rozpuszczalność substancji w wodzie w zależności od temperatury (przebieg poglądowy).",
+     "uwaga": "Z krzywej odczytujesz masę substancji w 100 g wody. Masa roztworu nasyconego = 100 g + rozpuszczalność.",
+     "svg": "<path class=\"s\" d=\"M50 35 V255 H370\"/><path class=\"d\" d=\"M46 41 l4 -8 l4 8 z\"/><path class=\"d\" d=\"M364 251 l8 4 l-8 4 z\"/><text class=\"t\" x=\"310\" y=\"273\">temperatura, °C</text><text class=\"t\" x=\"6\" y=\"29\">g/100 g wody</text><path class=\"s\" d=\"M50 200 C150 185 250 120 370 40\"/><path class=\"s\" d=\"M50 150 C150 148 250 146 370 144\"/><path class=\"s2\" d=\"M50 120 C150 170 250 205 370 225\"/><circle class=\"d\" cx=\"250\" cy=\"120\" r=\"4\"/><circle class=\"d\" cx=\"250\" cy=\"180\" r=\"3\"/><path class=\"dash\" d=\"M250 120 V255\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 330,
+       "y": 70,
+       "lx": 330,
+       "ly": 30,
+       "n": "KNO₃",
+       "d": "rozpuszczalność silnie rośnie z temperaturą"
+      },
+      {
+       "x": 330,
+       "y": 145,
+       "lx": 340,
+       "ly": 165,
+       "n": "NaCl",
+       "d": "rozpuszczalność prawie stała"
+      },
+      {
+       "x": 330,
+       "y": 221,
+       "lx": 330,
+       "ly": 245,
+       "n": "Gaz (np. CO₂)",
+       "d": "rozpuszczalność gazów maleje z temperaturą"
+      },
+      {
+       "x": 250,
+       "y": 120,
+       "lx": 200,
+       "ly": 70,
+       "n": "Punkt na krzywej",
+       "d": "roztwór nasycony"
+      },
+      {
+       "x": 250,
+       "y": 180,
+       "lx": 200,
+       "ly": 200,
+       "n": "Punkt pod krzywą",
+       "d": "roztwór nienasycony"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1263,6 +1316,33 @@
      "poprawna": "D",
      "wyjasnienie": "(10 + 90)/400 · 100%.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "sc238d567",
+     "typ": "proces",
+     "tytul": "Mieszanie i rozcieńczanie roztworów",
+     "opis": "",
+     "uwaga": "Stężenia molowe przy mieszaniu: sumuj liczby moli i objętości (jeśli polecenie pozwala).",
+     "kroki": [
+      {
+       "t": "Masa substancji przed",
+       "d": "mₛ = cₚ · m_r / 100%"
+      },
+      {
+       "t": "Masa substancji po",
+       "d": "suma mas substancji z obu roztworów"
+      },
+      {
+       "t": "Masa roztworu po",
+       "d": "suma mas roztworów (+ dodana woda)"
+      },
+      {
+       "t": "Nowe stężenie",
+       "d": "cₚ = mₛ / m_r · 100%"
+      }
+     ]
     }
    ]
   }

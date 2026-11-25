@@ -1064,6 +1064,40 @@
      "wyjasnienie": "3d⁵.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sdc0d3575",
+     "typ": "proces",
+     "tytul": "Kolejność zapełniania podpowłok",
+     "opis": "Reguła Hunda: elektrony najpierw pojedynczo, o równoległych spinach.",
+     "kroki": [
+      {
+       "t": "1s"
+      },
+      {
+       "t": "2s → 2p"
+      },
+      {
+       "t": "3s → 3p"
+      },
+      {
+       "t": "4s → 3d → 4p",
+       "d": "reguła n + l: 4s ma niższą energię niż 3d"
+      },
+      {
+       "t": "5s → 4d → 5p"
+      },
+      {
+       "t": "Wyjątki: Cr, Cu",
+       "d": "4s¹ 3d⁵ i 4s¹ 3d¹⁰ — trwała podpowłoka półzapełniona lub zapełniona"
+      },
+      {
+       "t": "Jony bloku d",
+       "d": "najpierw usuwa się elektrony 4s, potem 3d"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2107,6 +2141,32 @@
      "poprawna": "D",
      "wyjasnienie": "(238 − 206)/4.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "se69c4695",
+     "typ": "proces",
+     "tytul": "Ustalanie liczby przemian α i β⁻ w szeregu",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Różnica liczb masowych",
+       "d": "liczba przemian α = ΔA / 4"
+      },
+      {
+       "t": "Spadek Z po przemianach α",
+       "d": "2 · liczba α"
+      },
+      {
+       "t": "Porównaj z Z produktu",
+       "d": "każda β⁻ zwiększa Z o 1"
+      },
+      {
+       "t": "Liczba β⁻",
+       "d": "= Z(produkt) − (Z(substrat) − 2α)"
+      }
+     ]
     }
    ]
   }

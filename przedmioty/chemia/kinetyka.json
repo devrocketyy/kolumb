@@ -510,6 +510,58 @@
      "wyjasnienie": "Pierwiastek w stanie trwałym.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sab3d2c52",
+     "typ": "rysunek",
+     "tytul": "Wykres energetyczny reakcji egzotermicznej",
+     "opis": "Zmiana energii układu w trakcie reakcji.",
+     "svg": "<path class=\"s\" d=\"M50 35 V255 H370\"/><path class=\"d\" d=\"M46 41 l4 -8 l4 8 z\"/><path class=\"d\" d=\"M364 251 l8 4 l-8 4 z\"/><text class=\"t\" x=\"310\" y=\"273\">przebieg reakcji</text><text class=\"t\" x=\"6\" y=\"29\">energia</text><path class=\"s\" d=\"M60 110 H110 C150 110 160 50 190 50 C220 50 230 170 270 170 H360\"/><path class=\"s2\" d=\"M85 110 V50 M85 54 l-3 6 h6 z\"/><path class=\"s2\" d=\"M330 110 V170 M330 166 l-3 -6 h6 z\"/><path class=\"dash\" d=\"M110 110 H340\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 80,
+       "y": 110,
+       "lx": 60,
+       "ly": 140,
+       "n": "Substraty",
+       "d": "wyższa entalpia"
+      },
+      {
+       "x": 190,
+       "y": 50,
+       "lx": 190,
+       "ly": 25,
+       "n": "Kompleks aktywny",
+       "d": "stan przejściowy na szczycie bariery"
+      },
+      {
+       "x": 85,
+       "y": 80,
+       "lx": 30,
+       "ly": 80,
+       "n": "Energia aktywacji Eₐ",
+       "d": "katalizator ją obniża, ΔH się nie zmienia"
+      },
+      {
+       "x": 300,
+       "y": 170,
+       "lx": 300,
+       "ly": 205,
+       "n": "Produkty",
+       "d": "niższa entalpia"
+      },
+      {
+       "x": 330,
+       "y": 140,
+       "lx": 375,
+       "ly": 140,
+       "n": "ΔH < 0",
+       "d": "reakcja egzotermiczna — ciepło oddawane do otoczenia"
+      }
+     ]
+    }
    ]
   },
   {
@@ -964,6 +1016,59 @@
      "wyjasnienie": "Więcej zderzeń skutecznych.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s732d9015",
+     "typ": "rysunek",
+     "tytul": "Działanie katalizatora na wykresie energetycznym",
+     "opis": "Reakcja endotermiczna z katalizatorem i bez niego.",
+     "uwaga": "Katalizator nie zmienia ΔH ani stałej równowagi — przyspiesza osiągnięcie stanu równowagi.",
+     "svg": "<path class=\"s\" d=\"M50 35 V255 H370\"/><path class=\"d\" d=\"M46 41 l4 -8 l4 8 z\"/><path class=\"d\" d=\"M364 251 l8 4 l-8 4 z\"/><text class=\"t\" x=\"310\" y=\"273\">przebieg reakcji</text><text class=\"t\" x=\"6\" y=\"29\">energia</text><path class=\"s\" d=\"M60 190 H110 C150 190 160 60 190 60 C220 60 230 120 270 120 H360\"/><path class=\"dash\" d=\"M60 190 C150 190 170 110 190 110 C215 110 235 120 270 120\"/><path class=\"dash\" d=\"M110 190 H340\"/><path class=\"s2\" d=\"M330 190 V120 M330 124 l-3 6 h6 z\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 80,
+       "y": 190,
+       "lx": 60,
+       "ly": 220,
+       "n": "Substraty",
+       "d": "niższa entalpia"
+      },
+      {
+       "x": 190,
+       "y": 60,
+       "lx": 190,
+       "ly": 30,
+       "n": "Bariera bez katalizatora",
+       "d": "wyższa energia aktywacji"
+      },
+      {
+       "x": 190,
+       "y": 110,
+       "lx": 130,
+       "ly": 95,
+       "n": "Bariera z katalizatorem",
+       "d": "niższa energia aktywacji, inna droga reakcji"
+      },
+      {
+       "x": 300,
+       "y": 120,
+       "lx": 300,
+       "ly": 100,
+       "n": "Produkty",
+       "d": "wyższa entalpia"
+      },
+      {
+       "x": 330,
+       "y": 155,
+       "lx": 375,
+       "ly": 165,
+       "n": "ΔH > 0",
+       "d": "reakcja endotermiczna — ciepło pobierane"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1401,6 +1506,64 @@
      "poprawna": "A",
      "wyjasnienie": "Po obu stronach 2 mole gazów.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "scbce0e98",
+     "typ": "proces",
+     "tytul": "Obliczanie stałej równowagi (tabela „początek–zmiana–równowaga”)",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Stężenia początkowe",
+       "d": "n/V"
+      },
+      {
+       "t": "Zmiana",
+       "d": "x pomnożone przez współczynniki"
+      },
+      {
+       "t": "Stężenia równowagowe",
+       "d": "początek ± zmiana"
+      },
+      {
+       "t": "Wyrażenie na K",
+       "d": "produkty / substraty w potęgach współczynników; bez ciał stałych i wody-rozpuszczalnika"
+      },
+      {
+       "t": "Rozwiąż i sprawdź",
+       "d": "stężenia nie mogą wyjść ujemne"
+      }
+     ]
+    },
+    {
+     "id": "s8ce6395b",
+     "typ": "proces",
+     "tytul": "Reguła przekory — szybka analiza",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Dodanie substratu",
+       "d": "równowaga w prawo"
+      },
+      {
+       "t": "Usunięcie produktu",
+       "d": "równowaga w prawo"
+      },
+      {
+       "t": "Wzrost ciśnienia",
+       "d": "w stronę mniejszej liczby moli gazów"
+      },
+      {
+       "t": "Wzrost temperatury",
+       "d": "w stronę reakcji endotermicznej; zmienia się K"
+      },
+      {
+       "t": "Katalizator",
+       "d": "brak przesunięcia, szybciej osiągnięta równowaga"
+      }
+     ]
     }
    ]
   }

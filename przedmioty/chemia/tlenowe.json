@@ -523,6 +523,32 @@
      "wyjasnienie": "Alkohole nie dysocjują w wodzie.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s9d413c8d",
+     "typ": "proces",
+     "tytul": "Utlenianie alkoholi",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Alkohol I-rzędowy",
+       "d": "→ aldehyd → kwas karboksylowy"
+      },
+      {
+       "t": "Alkohol II-rzędowy",
+       "d": "→ keton"
+      },
+      {
+       "t": "Alkohol III-rzędowy",
+       "d": "nie utlenia się w łagodnych warunkach"
+      },
+      {
+       "t": "Utleniacze",
+       "d": "CuO (T), K₂Cr₂O₇/H⁺ (pomarańczowy → zielony), KMnO₄/H⁺"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1970,6 +1996,32 @@
      "poprawna": "C",
      "wyjasnienie": "Wiązania C=C obniżają temperaturę topnienia.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "sc6107a65",
+     "typ": "proces",
+     "tytul": "Estryfikacja i hydroliza estrów",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Kwas + alkohol",
+       "d": "stężony H₂SO₄, ogrzewanie — reakcja odwracalna"
+      },
+      {
+       "t": "Pochodzenie atomów O",
+       "d": "woda powstaje z –OH kwasu i H alkoholu"
+      },
+      {
+       "t": "Hydroliza kwasowa",
+       "d": "odwracalna: ester + woda ⇄ kwas + alkohol"
+      },
+      {
+       "t": "Hydroliza zasadowa (zmydlanie)",
+       "d": "nieodwracalna: powstaje sól kwasu i alkohol"
+      }
+     ]
     }
    ]
   }

@@ -1032,6 +1032,94 @@
      "wyjasnienie": "[H⁺] = √(10⁻⁶) = 10⁻³.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s2ade2572",
+     "typ": "rysunek",
+     "tytul": "Krzywa miareczkowania mocnego kwasu mocną zasadą",
+     "opis": "pH roztworu HCl w zależności od objętości dodanego NaOH.",
+     "uwaga": "Objętość w punkcie równoważnikowym: n(HCl) = n(NaOH). Szeroki skok pH — pasuje zarówno oranż metylowy, jak i fenoloftaleina.",
+     "svg": "<path class=\"s\" d=\"M50 35 V255 H370\"/><path class=\"d\" d=\"M46 41 l4 -8 l4 8 z\"/><path class=\"d\" d=\"M364 251 l8 4 l-8 4 z\"/><text class=\"t\" x=\"310\" y=\"273\">V titranta</text><text class=\"t\" x=\"6\" y=\"29\">pH</text><path class=\"s\" d=\"M50 210 C120 205 175 200 195 190 C205 185 208 170 210 130 C212 90 215 75 225 70 C260 62 320 60 370 58\"/><path class=\"dash\" d=\"M210 130 V255 M50 130 H210\"/><text class=\"t\" x=\"20\" y=\"134\">7</text><text class=\"t\" x=\"200\" y=\"270\">Vₑ</text><text class=\"t\" x=\"20\" y=\"214\">1</text><text class=\"t\" x=\"20\" y=\"62\">13</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 90,
+       "y": 208,
+       "lx": 90,
+       "ly": 250,
+       "n": "Nadmiar kwasu",
+       "d": "pH rośnie powoli"
+      },
+      {
+       "x": 210,
+       "y": 130,
+       "lx": 280,
+       "ly": 140,
+       "n": "Punkt równoważnikowy",
+       "d": "mocny kwas + mocna zasada: pH = 7"
+      },
+      {
+       "x": 209,
+       "y": 170,
+       "lx": 150,
+       "ly": 110,
+       "n": "Skok pH",
+       "d": "wskaźnik musi zmieniać barwę w tym zakresie (np. fenoloftaleina)"
+      },
+      {
+       "x": 320,
+       "y": 60,
+       "lx": 340,
+       "ly": 100,
+       "n": "Nadmiar zasady",
+       "d": "pH dąży do pH titranta"
+      }
+     ]
+    },
+    {
+     "id": "sb33eb0f2",
+     "typ": "rysunek",
+     "tytul": "Krzywa miareczkowania słabego kwasu mocną zasadą",
+     "opis": "pH roztworu CH₃COOH w zależności od objętości dodanego NaOH.",
+     "uwaga": "Punkt równoważnikowy przy pH > 7 — wskaźnikiem jest fenoloftaleina, nie oranż metylowy.",
+     "svg": "<path class=\"s\" d=\"M50 35 V255 H370\"/><path class=\"d\" d=\"M46 41 l4 -8 l4 8 z\"/><path class=\"d\" d=\"M364 251 l8 4 l-8 4 z\"/><text class=\"t\" x=\"310\" y=\"273\">V NaOH</text><text class=\"t\" x=\"6\" y=\"29\">pH</text><path class=\"s\" d=\"M50 190 C70 160 90 150 130 145 C170 140 200 130 215 115 C222 100 224 80 230 70 C260 62 320 60 370 58\"/><path class=\"dash\" d=\"M130 145 V255 M50 145 H130 M220 92 V255\"/><text class=\"t\" x=\"16\" y=\"149\">pKa</text><text class=\"t\" x=\"118\" y=\"270\">½Vₑ</text><text class=\"t\" x=\"212\" y=\"270\">Vₑ</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 130,
+       "y": 145,
+       "lx": 100,
+       "ly": 110,
+       "n": "Obszar buforowy",
+       "d": "mieszanina CH₃COOH/CH₃COO⁻ — pH zmienia się wolno"
+      },
+      {
+       "x": 130,
+       "y": 145,
+       "lx": 150,
+       "ly": 200,
+       "n": "Połowa zobojętnienia",
+       "d": "pH = pKa"
+      },
+      {
+       "x": 220,
+       "y": 92,
+       "lx": 290,
+       "ly": 120,
+       "n": "Punkt równoważnikowy",
+       "d": "pH > 7 — hydroliza anionu słabego kwasu"
+      },
+      {
+       "x": 50,
+       "y": 190,
+       "lx": 70,
+       "ly": 230,
+       "n": "Początek",
+       "d": "pH słabego kwasu wyższe niż mocnego o tym samym stężeniu"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1983,6 +2071,36 @@
      "poprawna": "A",
      "wyjasnienie": "Efekt wspólnego jonu Cl⁻.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s42b1073e",
+     "typ": "proces",
+     "tytul": "Zapis równania jonowego skróconego",
+     "opis": "",
+     "kroki": [
+      {
+       "t": "Równanie cząsteczkowe",
+       "d": "uzgodnione"
+      },
+      {
+       "t": "Rozpisz na jony",
+       "d": "tylko mocne elektrolity rozpuszczalne w wodzie"
+      },
+      {
+       "t": "Nie rozpisuj",
+       "d": "osadów, gazów, wody, słabych elektrolitów"
+      },
+      {
+       "t": "Skreśl jony obojętne",
+       "d": "występujące po obu stronach"
+      },
+      {
+       "t": "Sprawdź ładunki",
+       "d": "suma po lewej = suma po prawej"
+      }
+     ]
     }
    ]
   }
