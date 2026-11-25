@@ -1,7 +1,7 @@
 # Chemia — raport nocny (24/25 listopada 2026)
 
 ## Co zrobiono
-- Dodano 9 arkuszy CKE maj **starej formuły (2015)**: 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022. Każde zadanie ma odpowiedź i omówienie IndexLab, a link prowadzi do PDF na cke.gov.pl. Wszystkie linki do arkuszy i zasad 2015–2019 zwracają 200.
+- Dodano 8 arkuszy CKE maj **starej formuły (2015)**: 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022. Każde zadanie ma odpowiedź i omówienie IndexLab, a link prowadzi do PDF na cke.gov.pl. Wszystkie linki do arkuszy i zasad 2015–2019 zwracają 200.
 - Razem w aplikacji jest **19 arkuszy**: 11 z formuły 2023 i 8 z formuły 2015.
 - Brak kopiowania materiałów CKE: w aplikacji jest tylko link i własne omówienie.
 
@@ -19,7 +19,7 @@ Pominąłem je, bo wymagają danych z rysunku/tabeli albo odpowiedzi nie dało s
 | Arkusz | Pominięte zadania |
 |---|---|
 | maj 2015 | 2, 6, 11, 18, 20, 22, 32.1, 32.2, 33.1 |
-| maj 2016 | 5, 6, 8, 11, 20, 23, 31, 33.2, 37 |
+| maj 2016 | 5, 6, 8, 11, 20, 23, 31, 37 |
 | maj 2017 | 6, 8, 15, 19, 24, 25, 26, 27.2, 33.2, 35, 37 |
 | maj 2018 | 2, 3, 5, 6, 9.2, 14, 19, 23, 36 |
 | maj 2019 | 11, 17, 28 |
