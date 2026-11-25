@@ -659,6 +659,33 @@
    "dzial": "kinetyka"
   },
   {
+   "tytul": "Rozkład N₂O₅",
+   "material": "Tekst autorski. Rozkład 2N₂O₅ → 4NO₂ + O₂ jest reakcją pierwszego rzędu. Okres półtrwania w danej temperaturze wynosi 20 min. Początkowe stężenie N₂O₅ wynosiło 0,8 mol/dm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie N₂O₅ po 60 min.",
+     "odpowiedz": "0,1 mol/dm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Trzy okresy półtrwania.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie NO₂ po 60 min (V = const).",
+     "odpowiedz": "1,4 mol/dm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przereagowało 0,7 mol/dm³ N₂O₅ → 2 · 0,7.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-26",
+   "dzial": "kinetyka"
+  },
+  {
    "tytul": "Okres półtrwania reakcji I rzędu",
    "material": "Tekst autorski. Rozkład pewnego związku jest reakcją I rzędu. Po 30 minutach jego stężenie spadło z 0,80 do 0,20 mol·dm⁻³.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -691,7 +718,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-26",
+   "id": "b-kinetyka-27",
    "dzial": "kinetyka"
   },
   {
@@ -718,7 +745,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-27",
+   "id": "b-kinetyka-28",
    "dzial": "kinetyka"
   },
   {
@@ -745,7 +772,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-28",
+   "id": "b-kinetyka-29",
    "dzial": "kinetyka"
   },
   {
@@ -772,7 +799,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-29",
+   "id": "b-kinetyka-30",
    "dzial": "kinetyka"
   },
   {
@@ -799,7 +826,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-30",
+   "id": "b-kinetyka-31",
    "dzial": "kinetyka"
   },
   {
@@ -826,7 +853,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-31",
+   "id": "b-kinetyka-32",
    "dzial": "kinetyka"
   },
   {
@@ -862,7 +889,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-32",
+   "id": "b-kinetyka-33",
    "dzial": "kinetyka"
   },
   {
@@ -889,7 +916,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-33",
+   "id": "b-kinetyka-34",
    "dzial": "kinetyka"
   },
   {
@@ -916,7 +943,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-34",
+   "id": "b-kinetyka-35",
    "dzial": "kinetyka"
   },
   {
@@ -934,7 +961,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-35",
+   "id": "b-kinetyka-36",
    "dzial": "kinetyka"
   },
   {
@@ -952,7 +979,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-36",
+   "id": "b-kinetyka-37",
    "dzial": "kinetyka"
   }
  ]

@@ -299,6 +299,33 @@
    "dzial": "wiazania"
   },
   {
+   "tytul": "Budowa CO₂ i SO₂",
+   "material": "Tekst autorski. CO₂ i SO₂ to tlenki o wzorze typu XO₂, ale tylko jeden z nich jest cząsteczką polarną.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj hybrydyzację atomu centralnego, kształt i polarność każdej cząsteczki.",
+     "odpowiedz": "CO₂: sp, liniowa, niepolarna; SO₂: sp², kątowa, polarna",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wolna para na S.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego SO₂ lepiej rozpuszcza się w wodzie niż CO₂.",
+     "odpowiedz": "SO₂ jest polarny i silniej oddziałuje z polarnymi cząsteczkami wody (oraz z nią reaguje).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-wiazania-13",
+   "dzial": "wiazania"
+  },
+  {
    "tytul": "Polarność cząsteczek",
    "material": "Tekst autorski. Rozpatrz cząsteczki: CO₂, H₂O, BF₃, NH₃, CCl₄, CHCl₃.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -331,7 +358,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-wiazania-13",
+   "id": "b-wiazania-14",
    "dzial": "wiazania"
   },
   {
@@ -358,7 +385,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-14",
+   "id": "b-wiazania-15",
    "dzial": "wiazania"
   },
   {
@@ -385,7 +412,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-wiazania-15",
+   "id": "b-wiazania-16",
    "dzial": "wiazania"
   }
  ]

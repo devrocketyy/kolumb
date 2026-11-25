@@ -767,6 +767,60 @@
    "dzial": "atom"
   },
   {
+   "tytul": "Promieniotwórczość w medycynie i datowaniu",
+   "material": "Tekst autorski. Technet-99m (T½ = 6 h) stosuje się w diagnostyce. Pacjentowi podano preparat o aktywności 800 MBq.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz aktywność preparatu po 24 h.",
+     "odpowiedz": "50 MBq",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4 okresy półtrwania: 800/16.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego krótki okres półtrwania jest zaletą w diagnostyce.",
+     "odpowiedz": "Izotop szybko traci aktywność — pacjent otrzymuje małą dawkę promieniowania.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-27",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Energia jonizacji magnezu",
+   "material": "Tekst autorski. Kolejne energie jonizacji Mg (kJ/mol): 738, 1451, 7733, 10 540.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij duży skok między drugą a trzecią energią jonizacji.",
+     "odpowiedz": "Trzeci elektron pochodzi z zamkniętej powłoki 2p⁶, bliżej jądra — trudniej go oderwać.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wzór jonu, który tworzy Mg w związkach.",
+     "odpowiedz": "Mg²⁺",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-28",
+   "dzial": "atom"
+  },
+  {
    "tytul": "Skład izotopowy chloru",
    "material": "Tekst autorski. Chlor występuje w przyrodzie jako mieszanina izotopów ³⁵Cl (masa 34,97 u) i ³⁷Cl (36,97 u). Średnia masa atomowa chloru wynosi 35,45 u.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -790,7 +844,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-27",
+   "id": "b-atom-29",
    "dzial": "atom"
   },
   {
@@ -817,7 +871,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-28",
+   "id": "b-atom-30",
    "dzial": "atom"
   },
   {
@@ -844,7 +898,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-29",
+   "id": "b-atom-31",
    "dzial": "atom"
   },
   {
@@ -880,7 +934,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-30",
+   "id": "b-atom-32",
    "dzial": "atom"
   }
  ]

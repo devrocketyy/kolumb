@@ -623,6 +623,51 @@
    "dzial": "stechiometria"
   },
   {
+   "tytul": "Utlenianie amoniaku — nadmiar",
+   "material": "Tekst autorski. Zmieszano 6,8 g NH₃ i 12,8 g O₂. Zachodzi reakcja 4NH₃ + 5O₂ → 4NO + 6H₂O.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Wskaż substrat w niedomiarze i oblicz masę NO.",
+     "odpowiedz": "O₂ w niedomiarze; 9,6 g NO",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "n(NH₃) = 0,4 → 0,4/4 = 0,1; n(O₂) = 0,4 → 0,4/5 = 0,08 (mniej). n(NO) = 0,4 · 4/5 = 0,32 mol · 30 g/mol.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę wody.",
+     "odpowiedz": "ok. 8,6 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "n(H₂O) = 0,4 · 6/5 = 0,48 mol · 18 = 8,64 g.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-26",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Wzór soli z analizy",
+   "material": "Tekst autorski. Sól zawiera 32,4% Na, 22,5% S i 45,1% O.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Ustal wzór empiryczny soli i podaj jej nazwę.",
+     "odpowiedz": "Na₂SO₄ — siarczan(VI) sodu",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Na : S : O = 1,41 : 0,70 : 2,82 = 2 : 1 : 4.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-27",
+   "dzial": "stechiometria"
+  },
+  {
    "tytul": "Mieszanina węglanów",
    "material": "Tekst autorski. Mieszaninę Na₂CO₃ i NaHCO₃ o masie 2,74 g roztworzono w nadmiarze kwasu solnego. Wydzieliło się 0,672 dm³ CO₂ (warunki normalne). M(Na₂CO₃) = 106 g/mol, M(NaHCO₃) = 84 g/mol.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -646,7 +691,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-26",
+   "id": "b-stechiometria-28",
    "dzial": "stechiometria"
   },
   {
@@ -673,7 +718,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-27",
+   "id": "b-stechiometria-29",
    "dzial": "stechiometria"
   },
   {
@@ -700,7 +745,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-28",
+   "id": "b-stechiometria-30",
    "dzial": "stechiometria"
   },
   {
@@ -718,7 +763,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-29",
+   "id": "b-stechiometria-31",
    "dzial": "stechiometria"
   },
   {
@@ -736,7 +781,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-30",
+   "id": "b-stechiometria-32",
    "dzial": "stechiometria"
   },
   {
@@ -754,7 +799,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-31",
+   "id": "b-stechiometria-33",
    "dzial": "stechiometria"
   },
   {
@@ -772,7 +817,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-32",
+   "id": "b-stechiometria-34",
    "dzial": "stechiometria"
   },
   {
@@ -799,7 +844,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-33",
+   "id": "b-stechiometria-35",
    "dzial": "stechiometria"
   },
   {
@@ -817,7 +862,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-34",
+   "id": "b-stechiometria-36",
    "dzial": "stechiometria"
   },
   {
@@ -835,7 +880,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-35",
+   "id": "b-stechiometria-37",
    "dzial": "stechiometria"
   },
   {
@@ -853,7 +898,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-36",
+   "id": "b-stechiometria-38",
    "dzial": "stechiometria"
   },
   {
@@ -871,7 +916,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-37",
+   "id": "b-stechiometria-39",
    "dzial": "stechiometria"
   },
   {
@@ -889,7 +934,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-38",
+   "id": "b-stechiometria-40",
    "dzial": "stechiometria"
   },
   {
@@ -916,7 +961,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-39",
+   "id": "b-stechiometria-41",
    "dzial": "stechiometria"
   }
  ]
