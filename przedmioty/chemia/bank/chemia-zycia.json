@@ -147,6 +147,42 @@
   },
   {
    "tytul": "Kwaśne deszcze i zabytki",
+   "material": "Tekst autorski. Rzeźby z marmuru (CaCO₃) niszczeją pod wpływem kwaśnych deszczów zawierających H₂SO₄.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji marmuru z kwasem siarkowym(VI).",
+     "odpowiedz": "CaCO₃ + H₂SO₄ → CaSO₄ + CO₂ + H₂O",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Gips jest bardziej rozpuszczalny i kruszy się.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę CaCO₃, którą rozłoży 1 kg kwasu siarkowego(VI).",
+     "odpowiedz": "ok. 1,02 kg",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1000/98 = 10,2 mol · 100 g/mol.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj dwa sposoby ograniczania emisji SO₂ w elektrowniach.",
+     "odpowiedz": "odsiarczanie spalin (CaCO₃/CaO), stosowanie paliw o małej zawartości siarki",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-chemia-zycia-07",
+   "dzial": "chemia-zycia"
+  },
+  {
+   "tytul": "Kwaśne deszcze i zabytki",
    "material": "Tekst autorski. Na powierzchni marmurowych rzeźb w miastach tworzy się krucha warstwa gipsu (CaSO₄·2H₂O).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
    "zadania": [
@@ -169,7 +205,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-07",
+   "id": "b-chemia-zycia-08",
    "dzial": "chemia-zycia"
   },
   {
@@ -196,7 +232,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-08",
+   "id": "b-chemia-zycia-09",
    "dzial": "chemia-zycia"
   },
   {
@@ -223,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-09",
+   "id": "b-chemia-zycia-10",
    "dzial": "chemia-zycia"
   },
   {
@@ -250,7 +286,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-10",
+   "id": "b-chemia-zycia-11",
    "dzial": "chemia-zycia"
   },
   {
@@ -268,7 +304,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-chemia-zycia-11",
+   "id": "b-chemia-zycia-12",
    "dzial": "chemia-zycia"
   }
  ]

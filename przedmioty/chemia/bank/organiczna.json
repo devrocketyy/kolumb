@@ -614,6 +614,60 @@
    "dzial": "organiczna"
   },
   {
+   "tytul": "Od alkenu do kwasu",
+   "material": "Tekst autorski. Z propenu otrzymano kwas propanowy: propen → X (HBr, nadtlenki) → propan-1-ol → Y → kwas propanowy. Związek Y daje pozytywną próbę Tollensa.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj wzory i nazwy X i Y oraz odczynnik przemiany X → propan-1-ol.",
+     "odpowiedz": "X: CH₃CH₂CH₂Br (1-bromopropan); Y: CH₃CH₂CHO (propanal); NaOH(aq), ogrzewanie",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Nadtlenki — addycja antymarkownikowska.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego bezpośrednia hydratacja propenu w środowisku kwasowym nie prowadzi do kwasu propanowego.",
+     "odpowiedz": "Powstaje propan-2-ol, który utlenia się do ketonu (propanonu), a nie do aldehydu i kwasu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-organiczna-24",
+   "dzial": "organiczna"
+  },
+  {
+   "tytul": "Etanol czy metanol?",
+   "material": "Tekst autorski. W dwóch butelkach bez etykiet są etanol i metanol. Uczeń przeprowadza próbę jodoformową (I₂ + NaOH).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w której probówce powstanie żółty osad, i nazwę osadu.",
+     "odpowiedz": "z etanolem; jodoform (CHI₃)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Etanol utlenia się do etanalu z grupą CH₃–C=O.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego rozróżnianie tych alkoholi jest ważne.",
+     "odpowiedz": "Metanol jest silnie trujący (uszkadza nerw wzrokowy), a nie da się go odróżnić zapachem.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-organiczna-25",
+   "dzial": "organiczna"
+  },
+  {
    "tytul": "Bromowanie etenu i benzenu",
    "material": "Tekst autorski. Do dwóch probówek z wodą bromową dodano: do I — eten (przepuszczono gaz), do II — benzen (bez katalizatora). W probówce I woda bromowa odbarwiła się, w II — nie.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -637,7 +691,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-24",
+   "id": "b-organiczna-26",
    "dzial": "organiczna"
   },
   {
@@ -664,7 +718,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-25",
+   "id": "b-organiczna-27",
    "dzial": "organiczna"
   },
   {
@@ -691,7 +745,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-26",
+   "id": "b-organiczna-28",
    "dzial": "organiczna"
   },
   {
@@ -718,7 +772,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-27",
+   "id": "b-organiczna-29",
    "dzial": "organiczna"
   },
   {
@@ -754,7 +808,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-organiczna-28",
+   "id": "b-organiczna-30",
    "dzial": "organiczna"
   },
   {
@@ -781,7 +835,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-29",
+   "id": "b-organiczna-31",
    "dzial": "organiczna"
   },
   {
@@ -808,7 +862,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-30",
+   "id": "b-organiczna-32",
    "dzial": "organiczna"
   },
   {
@@ -826,7 +880,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-31",
+   "id": "b-organiczna-33",
    "dzial": "organiczna"
   },
   {
@@ -844,7 +898,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-32",
+   "id": "b-organiczna-34",
    "dzial": "organiczna"
   },
   {
@@ -862,7 +916,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-33",
+   "id": "b-organiczna-35",
    "dzial": "organiczna"
   },
   {
@@ -889,7 +943,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-34",
+   "id": "b-organiczna-36",
    "dzial": "organiczna"
   },
   {
@@ -925,7 +979,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-organiczna-35",
+   "id": "b-organiczna-37",
    "dzial": "organiczna"
   },
   {
@@ -952,7 +1006,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-36",
+   "id": "b-organiczna-38",
    "dzial": "organiczna"
   },
   {
@@ -970,7 +1024,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-37",
+   "id": "b-organiczna-39",
    "dzial": "organiczna"
   },
   {
@@ -988,7 +1042,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-38",
+   "id": "b-organiczna-40",
    "dzial": "organiczna"
   }
  ]
