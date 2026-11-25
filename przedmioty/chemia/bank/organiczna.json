@@ -515,6 +515,105 @@
    "dzial": "organiczna"
   },
   {
+   "tytul": "Węglowodór z analizy i reakcji",
+   "material": "Tekst autorski. Węglowodór X zawiera 85,7% węgla i ma gęstość par względem wodoru 28. X odbarwia wodę bromową i występuje w postaci izomerów cis–trans.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Ustal wzór sumaryczny X.",
+     "odpowiedz": "C₄H₈",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "M = 56; 85,7% C → 48 g C, 8 g H.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wzór półstrukturalny i nazwę X.",
+     "odpowiedz": "CH₃–CH=CH–CH₃; but-2-en",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jedyny izomer C₄H₈ z izomerią geometryczną.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji X z HBr i nazwę produktu.",
+     "odpowiedz": "CH₃CH=CHCH₃ + HBr → CH₃CHBrCH₂CH₃; 2-bromobutan",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Alken symetryczny — jeden produkt.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-organiczna-21",
+   "dzial": "organiczna"
+  },
+  {
+   "tytul": "Estry — ustalanie budowy",
+   "material": "Tekst autorski. Ester E o wzorze C₄H₈O₂ poddano hydrolizie. Jednym z produktów był kwas, który daje pozytywną próbę Tollensa.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj wzór półstrukturalny i nazwę E oraz drugiego produktu hydrolizy.",
+     "odpowiedz": "HCOOCH₂CH₂CH₃ — metanian propylu; propan-1-ol (lub HCOOCH(CH₃)₂ — metanian izopropylu i propan-2-ol)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Kwasem redukującym jest tylko kwas mrówkowy.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wzór innego estru C₄H₈O₂, którego produkty hydrolizy nie dają próby Tollensa.",
+     "odpowiedz": "np. CH₃COOC₂H₅ (octan etylu)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-organiczna-22",
+   "dzial": "organiczna"
+  },
+  {
+   "tytul": "Aminy — zasadowość",
+   "material": "Tekst autorski. Porównano wodne roztwory o tym samym stężeniu: amoniaku, metyloaminy i aniliny (słabo rozpuszczalna).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Uszereguj związki według rosnącej mocy jako zasady.",
+     "odpowiedz": "anilina < amoniak < metyloamina",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij położenie metyloaminy w szeregu.",
+     "odpowiedz": "Grupa metylowa zwiększa gęstość elektronową na atomie azotu — łatwiej przyjmuje proton.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji metyloaminy z wodą.",
+     "odpowiedz": "CH₃NH₂ + H₂O ⇄ CH₃NH₃⁺ + OH⁻",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-organiczna-23",
+   "dzial": "organiczna"
+  },
+  {
    "tytul": "Bromowanie etenu i benzenu",
    "material": "Tekst autorski. Do dwóch probówek z wodą bromową dodano: do I — eten (przepuszczono gaz), do II — benzen (bez katalizatora). W probówce I woda bromowa odbarwiła się, w II — nie.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -538,7 +637,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-21",
+   "id": "b-organiczna-24",
    "dzial": "organiczna"
   },
   {
@@ -565,7 +664,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-22",
+   "id": "b-organiczna-25",
    "dzial": "organiczna"
   },
   {
@@ -592,7 +691,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-23",
+   "id": "b-organiczna-26",
    "dzial": "organiczna"
   },
   {
@@ -619,7 +718,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-24",
+   "id": "b-organiczna-27",
    "dzial": "organiczna"
   },
   {
@@ -655,7 +754,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-organiczna-25",
+   "id": "b-organiczna-28",
    "dzial": "organiczna"
   },
   {
@@ -682,7 +781,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-26",
+   "id": "b-organiczna-29",
    "dzial": "organiczna"
   },
   {
@@ -709,7 +808,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-27",
+   "id": "b-organiczna-30",
    "dzial": "organiczna"
   },
   {
@@ -727,7 +826,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-28",
+   "id": "b-organiczna-31",
    "dzial": "organiczna"
   },
   {
@@ -745,7 +844,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-29",
+   "id": "b-organiczna-32",
    "dzial": "organiczna"
   },
   {
@@ -763,7 +862,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-30",
+   "id": "b-organiczna-33",
    "dzial": "organiczna"
   },
   {
@@ -790,7 +889,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-31",
+   "id": "b-organiczna-34",
    "dzial": "organiczna"
   },
   {
@@ -826,7 +925,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-organiczna-32",
+   "id": "b-organiczna-35",
    "dzial": "organiczna"
   },
   {
@@ -853,7 +952,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-organiczna-33",
+   "id": "b-organiczna-36",
    "dzial": "organiczna"
   },
   {
@@ -871,7 +970,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-34",
+   "id": "b-organiczna-37",
    "dzial": "organiczna"
   },
   {
@@ -889,7 +988,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-organiczna-35",
+   "id": "b-organiczna-38",
    "dzial": "organiczna"
   }
  ]

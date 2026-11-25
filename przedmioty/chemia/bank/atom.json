@@ -650,6 +650,69 @@
    "dzial": "atom"
   },
   {
+   "tytul": "Pierwiastek z energii jonizacji i konfiguracji",
+   "material": "Tekst autorski. Pierwiastek E leży w 4. okresie. Jego jon E³⁺ ma konfigurację [Ar] 3d³. Tworzy barwne związki na stopniach utlenienia +II, +III i +VI.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj symbol E i numer grupy.",
+     "odpowiedz": "Cr; grupa 6",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Cr: [Ar] 4s¹ 3d⁵; Cr³⁺: 3d³.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj liczbę niesparowanych elektronów w atomie E w stanie podstawowym.",
+     "odpowiedz": "6",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4s¹ i pięć elektronów 3d.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz wzory tlenku i soli potasowej E na +VI stopniu utlenienia.",
+     "odpowiedz": "CrO₃; K₂CrO₄ (lub K₂Cr₂O₇)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "3"
+    }
+   ],
+   "id": "b-atom-23",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Datowanie i bilans przemian",
+   "material": "Tekst autorski. Uran-238 przechodzi w szeregu przemian w trwały ołów-206.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz liczbę przemian α i β⁻ w tym szeregu.",
+     "odpowiedz": "8 α i 6 β⁻",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "(238 − 206)/4 = 8; Z: 92 − 16 = 76; 82 − 76 = 6.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, ile neutronów ma jądro ²⁰⁶Pb.",
+     "odpowiedz": "124",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "206 − 82.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-24",
+   "dzial": "atom"
+  },
+  {
    "tytul": "Skład izotopowy chloru",
    "material": "Tekst autorski. Chlor występuje w przyrodzie jako mieszanina izotopów ³⁵Cl (masa 34,97 u) i ³⁷Cl (36,97 u). Średnia masa atomowa chloru wynosi 35,45 u.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -673,7 +736,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-23",
+   "id": "b-atom-25",
    "dzial": "atom"
   },
   {
@@ -700,7 +763,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-24",
+   "id": "b-atom-26",
    "dzial": "atom"
   },
   {
@@ -727,7 +790,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-25",
+   "id": "b-atom-27",
    "dzial": "atom"
   },
   {
@@ -763,7 +826,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-26",
+   "id": "b-atom-28",
    "dzial": "atom"
   }
  ]

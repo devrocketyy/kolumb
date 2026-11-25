@@ -408,6 +408,69 @@
   },
   {
    "tytul": "Mieszanina węglanów",
+   "material": "Tekst autorski. Mieszaninę CaCO₃ i MgCO₃ o masie 18,4 g wyprażono do stałej masy. Otrzymano 4,48 dm³ CO₂ (w. n.).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równania rozkładu obu węglanów.",
+     "odpowiedz": "CaCO₃ → CaO + CO₂; MgCO₃ → MgO + CO₂",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę każdego węglanu w mieszaninie.",
+     "odpowiedz": "10 g CaCO₃ i 8,4 g MgCO₃",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "x + y = 0,2 mol; 100x + 84y = 18,4 → 16x = 1,6 → x = 0,1.",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę stałej pozostałości po prażeniu.",
+     "odpowiedz": "9,6 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "18,4 − 0,2 · 44 = 9,6 g.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-stechiometria-18",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Wydajność syntezy amoniaku",
+   "material": "Tekst autorski. Do reaktora wprowadzono 28 kg azotu i 9 kg wodoru. Otrzymano 13,6 kg amoniaku.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Wskaż substrat w niedomiarze.",
+     "odpowiedz": "azot (1 kmol N₂ wymaga 3 kmol H₂, a jest 4,5 kmol H₂)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz wydajność reakcji.",
+     "odpowiedz": "40%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Teoretycznie 2 kmol NH₃ = 34 kg; 13,6 / 34.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-19",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Mieszanina węglanów",
    "material": "Tekst autorski. Mieszaninę Na₂CO₃ i NaHCO₃ o masie 2,74 g roztworzono w nadmiarze kwasu solnego. Wydzieliło się 0,672 dm³ CO₂ (warunki normalne). M(Na₂CO₃) = 106 g/mol, M(NaHCO₃) = 84 g/mol.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
    "zadania": [
@@ -430,7 +493,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-18",
+   "id": "b-stechiometria-20",
    "dzial": "stechiometria"
   },
   {
@@ -457,7 +520,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-19",
+   "id": "b-stechiometria-21",
    "dzial": "stechiometria"
   },
   {
@@ -484,7 +547,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-20",
+   "id": "b-stechiometria-22",
    "dzial": "stechiometria"
   },
   {
@@ -502,7 +565,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-21",
+   "id": "b-stechiometria-23",
    "dzial": "stechiometria"
   },
   {
@@ -520,7 +583,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-22",
+   "id": "b-stechiometria-24",
    "dzial": "stechiometria"
   },
   {
@@ -538,7 +601,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-23",
+   "id": "b-stechiometria-25",
    "dzial": "stechiometria"
   },
   {
@@ -556,7 +619,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-24",
+   "id": "b-stechiometria-26",
    "dzial": "stechiometria"
   },
   {
@@ -583,7 +646,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-25",
+   "id": "b-stechiometria-27",
    "dzial": "stechiometria"
   },
   {
@@ -601,7 +664,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-26",
+   "id": "b-stechiometria-28",
    "dzial": "stechiometria"
   },
   {
@@ -619,7 +682,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-27",
+   "id": "b-stechiometria-29",
    "dzial": "stechiometria"
   },
   {
@@ -637,7 +700,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-28",
+   "id": "b-stechiometria-30",
    "dzial": "stechiometria"
   },
   {
@@ -655,7 +718,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-29",
+   "id": "b-stechiometria-31",
    "dzial": "stechiometria"
   },
   {
@@ -673,7 +736,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-30",
+   "id": "b-stechiometria-32",
    "dzial": "stechiometria"
   },
   {
@@ -700,7 +763,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-31",
+   "id": "b-stechiometria-33",
    "dzial": "stechiometria"
   }
  ]
