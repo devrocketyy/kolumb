@@ -21,7 +21,7 @@ Wszystkie przedmioty mają ABCD poniżej poziomu losowego (25%), więc długoś�
 - Wystartowały schematy: 12 rysunków SVG (zestawy laboratoryjne, krzywe miareczkowania, wykresy energetyczne, ogniwo, elektroliza) i 19 schematów procesów (algorytmy obliczeń, redoks, VSEPR, nazewnictwo, mechanizmy, identyfikacja cukrów i białek).
 
 ## Chemia — luki względem innych przedmiotów
-1. **Fiszki i ABCD:** około połowa tego, co ma biologia (2366 fiszek wobec 4522, 596 ABCD wobec 1492).
+1. **Fiszki i ABCD:** około połowa tego, co ma biologia (2366 fiszek wobec 4522, 712 ABCD wobec 1492).
 2. **Zadania autorskie:** 478, a pozostałe przedmioty mają 900–1100.
 3. **Podcast:** brak (biologia ma 84 scenariusze).
 4. **Schematy:** 31, a biologia ma 171.
@@ -30,9 +30,9 @@ Wszystkie przedmioty mają ABCD poniżej poziomu losowego (25%), więc długoś�
 ## Plan dla chemii (kolejność)
 1. Schematy: do ok. 80–100. Następne będą orbitale i kształty cząsteczek, diagram fazowy, wzory szkieletowe, izomery, szereg aktywności i zestawy do otrzymywania gazów.
 2. Podcast: scenariusze w formacie 2.0, jak biologia (ok. 45–58 odcinków, z pytaniami JSON). Mp3 tylko po zgodzie.
-3. ABCD: do ok. 1200 (+600), zwłaszcza organiczna, roztwory i redoks.
-4. Zadania autorskie: do ok. 900 (+400). Razem z arkuszami da to ok. 2900 zadań (cel Top 1: 2500+).
-5. Fiszki: do ok. 3500.
+3. ABCD: do ok. 1500, zwłaszcza organiczna, roztwory i redoks.
+4. Zadania autorskie: do ok. 1200.
+5. Fiszki: do ok. 4500.
 6. Płatności: dodać chemię do Stripe i Supabase po decyzji o cenie.
 7. Weryfikacja ręczna: przejrzeć obliczenia z raportu nocnego (`docs/15-chemia-raport-nocny.md`).
 
