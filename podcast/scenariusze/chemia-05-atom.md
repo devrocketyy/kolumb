@@ -27,6 +27,10 @@ Wniosek z doświadczenia Rutherforda: atom jest prawie pusty. Prawie cała masa 
 
 W jądrze są dwa rodzaje cząstek. Protony — z ładunkiem dodatnim. Neutrony — bez ładunku. Oba mają masę mniej więcej jednej atomowej jednostki masy. Elektron jest około tysiąc osiemset czterdzieści razy lżejszy i ma ładunek ujemny.
 
+Liczby, żeby poczuć skalę. Promień jądra to około dziesięć do minus piętnastej metra, promień atomu — około dziesięć do minus dziesiątej. Atom jest więc mniej więcej sto tysięcy razy większy od swojego jądra.
+
+Masy też się bardzo różnią. Proton i neutron ważą prawie tyle samo, a elektron jest od nich około tysiąc osiemset czterdzieści razy lżejszy. Dlatego przy liczeniu masy atomu elektrony się pomija, a jon waży praktycznie tyle samo co atom.
+
 [pytanie: czastki]
 
 Sprawdź się. Która cząstka atomu nie ma ładunku?
@@ -65,6 +69,8 @@ Teraz rzecz, która myli wielu maturzystów. Atomy tego samego pierwiastka mogą
 
 Węgiel dwanaście, węgiel trzynaście, węgiel czternaście. Chemicznie zachowują się praktycznie tak samo, bo o chemii decydują elektrony. Różnią się masą, a niektóre — jak węgiel czternaście — także trwałością jądra.
 
+Izotopy wodoru mają nawet własne nazwy. Zwykły wodór, czyli prot, ma w jądrze tylko proton. Deuter ma proton i neutron. Tryt — proton i dwa neutrony, i jest promieniotwórczy. Woda z deuterem zamiast zwykłego wodoru to ciężka woda, D₂O. Jest o około dziesięć procent gęstsza od zwykłej i stosuje się ją w niektórych reaktorach jądrowych.
+
 [pytanie: izotopy]
 
 Sprawdź się. Czym różnią się izotopy tego samego pierwiastka?
@@ -84,6 +90,10 @@ Dlaczego w układzie okresowym masa atomowa chloru to trzydzieści pięć i czte
 Jak policzyć skład? Oznaczasz udział lżejszego izotopu jako x. Wtedy: trzydzieści pięć razy x plus trzydzieści siedem razy jeden minus x równa się trzydzieści pięć i czterdzieści pięć setnych. Wychodzi x równe zero i siedemdziesiąt siedem i pół setnej. Czyli około siedemdziesięciu ośmiu procent chloru trzydzieści pięć.
 
 [wolniej] Szybki test sensu: średnia leży bliżej izotopu, którego jest więcej.
+
+Policzmy chlor do końca. Trzydzieści pięć x plus trzydzieści siedem razy jeden minus x równa się trzydzieści pięć i czterdzieści pięć setnych. Po przekształceniu: trzydzieści siedem minus dwa x równa się trzydzieści pięć i czterdzieści pięć setnych. Dwa x to jeden i pięćdziesiąt pięć setnych, więc x to siedemdziesiąt siedem i pół setnej. Chloru trzydzieści pięć jest około siedemdziesięciu ośmiu procent.
+
+Typowy błąd: liczenie zwykłej średniej, bez wag — trzydzieści sześć. To dawałoby po pięćdziesiąt procent każdego izotopu, a w przyrodzie tak nie jest.
 
 [pytanie: srednia]
 

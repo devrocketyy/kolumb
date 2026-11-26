@@ -29,6 +29,10 @@ Na podpowłoce s jest jeden orbital, na p — trzy, na d — pięć, na f — si
 
 Stąd pojemności: s mieści dwa elektrony, p — sześć, d — dziesięć, f — czternaście.
 
+Hotel ma jeszcze dwie liczby. Magnetyczna liczba kwantowa, m, numeruje pokoje na korytarzu — od minus l do plus l. Na korytarzu p, gdzie l wynosi jeden, są trzy pokoje: minus jeden, zero, plus jeden. Spinowa liczba kwantowa mówi, w którą stronę „kręci się” elektron: plus albo minus jedna druga.
+
+Z tego wynika prosta reguła: na powłoce o numerze n mieści się najwyżej dwa n kwadrat elektronów. Na trzeciej — osiemnaście, na czwartej — trzydzieści dwa.
+
 [pytanie: pojemnosc]
 
 Sprawdź się. Ile najwięcej elektronów zmieści podpowłoka d?
@@ -48,6 +52,10 @@ Elektrony meldują się od pokoi o najniższej energii. Kolejność jest prawie 
 Podpowłoka cztery s ma niższą energię niż trzy d. Dlatego potas i wapń mają elektrony na czwartej powłoce, zanim zapełni się trzecia.
 
 [wolniej] Zapamiętaj: cztery s przed trzy d. A przy jonach — odwrotnie: elektrony odchodzą najpierw z czterech s.
+
+Mini-ćwiczenie. Brom ma trzydzieści pięć elektronów. Argon to osiemnaście, potem cztery s dwa, trzy d dziesięć i cztery p pięć. Razem: osiemnaście plus dwa plus dziesięć plus pięć — trzydzieści pięć. Elektrony walencyjne to te z czwartej powłoki: siedem. Grupa siedemnasta, okres czwarty. Zgadza się z układem.
+
+Typowy błąd: liczenie elektronów trzy d jako walencyjnych dla bromu. W bloku p podpowłoka d przedostatniej powłoki jest już zapełniona i do walencyjnych się jej nie wlicza.
 
 [pytanie: kolejnosc]
 
@@ -84,6 +92,10 @@ Dwa. Cztery elektrony na trzech orbitalach p: jeden orbital ma parę, dwa mają 
 Chrom i miedź łamią regułę kolejności. Chrom ma cztery s jeden i trzy d pięć, zamiast cztery s dwa i trzy d cztery. Miedź ma cztery s jeden i trzy d dziesięć.
 
 Dlaczego? Bo podpowłoka d zapełniona do połowy albo całkowicie jest szczególnie trwała. Elektron przechodzi z czterech s, żeby ją uzyskać.
+
+Wyjątki mają skutki w jonach. Miedź: argon, cztery s jeden, trzy d dziesięć. Jon Cu⁺ traci elektron cztery s i ma zapełnione trzy d dziesięć — wszystkie elektrony sparowane. Jon Cu²⁺ traci jeszcze jeden elektron z trzy d i ma trzy d dziewięć, z jednym elektronem niesparowanym.
+
+To dlatego związki miedzi dwa są zwykle barwne, na przykład niebieski siarczan miedzi, a wiele związków miedzi jeden jest bezbarwnych.
 
 [pytanie: wyjatki]
 
