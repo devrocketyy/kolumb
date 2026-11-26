@@ -29,6 +29,8 @@ Numer okresu to liczba powłok. Sód ma trzy powłoki — jest w trzecim okresie
 
 Numer grupy dla bloków s i p mówi o elektronach walencyjnych. Grupa pierwsza i druga — tyle elektronów walencyjnych, ile numer grupy. Grupy od trzynastej do osiemnastej — numer grupy minus dziesięć.
 
+Przepowiednie Mendelejewa się sprawdziły. Pierwiastek, który nazwał eka-krzemem, odkryto w tysiąc osiemset osiemdziesiątym szóstym roku i nazwano germanem. Jego masa, gęstość i wzór tlenku były niemal dokładnie takie, jak przewidział Mendelejew. To jeden z najpiękniejszych dowodów, że dobra teoria naukowa potrafi przewidywać.
+
 [pytanie: polozenie]
 
 Sprawdź się. Pierwiastek ma konfigurację neon, trzy s dwa, trzy p pięć. Gdzie leży?
@@ -44,6 +46,10 @@ Okres trzeci, grupa siedemnasta. To chlor — ma siedem elektronów walencyjnych
 ## Bloki
 
 Układ dzieli się na bloki od nazwy podpowłoki, która jest zapełniana jako ostatnia. Blok s — grupy pierwsza i druga. Blok p — grupy od trzynastej do osiemnastej. Blok d — środek tablicy, metale przejściowe. Blok f — lantanowce i aktynowce, wysunięte na dół.
+
+Na dole układu, zwykle wysunięte pod spód, leżą lantanowce i aktynowce — blok f. Wysuwa się je tylko po to, żeby tabela zmieściła się na kartce. W rzeczywistości należałyby do szóstego i siódmego okresu, między grupą drugą a trzecią.
+
+Typowy błąd: przypisanie helu do bloku p, bo stoi nad neonem. Hel ma konfigurację jeden s dwa, więc należy do bloku s. Stoi w osiemnastej grupie, bo jak inne gazy szlachetne ma zamkniętą powłokę i nie reaguje.
 
 [pytanie: blok]
 
@@ -63,6 +69,10 @@ Idąc w okresie od lewej do prawej, przybywa protonów, a elektrony trafiają na
 
 Skutki? Promień atomu maleje. Elektroujemność rośnie. Energia jonizacji rośnie. Charakter metaliczny słabnie — od sodu, bardzo aktywnego metalu, do chloru, aktywnego niemetalu.
 
+Trendy dotyczą też jonów. Kation jest mniejszy od swojego atomu, bo stracił elektrony, a często całą powłokę. Na⁺ jest wyraźnie mniejszy niż Na. Anion jest większy od atomu: Cl⁻ jest większy niż Cl, bo dodatkowy elektron zwiększa odpychanie.
+
+Ciekawy przypadek to jony izoelektronowe, czyli o tej samej liczbie elektronów. O²⁻, F⁻, Na⁺ i Mg²⁺ mają po dziesięć elektronów. Promień maleje w tej kolejności, bo rośnie ładunek jądra, które przyciąga tę samą liczbę elektronów.
+
 [pytanie: okres]
 
 Sprawdź się. Który atom ma mniejszy promień: sód czy chlor?
@@ -80,6 +90,8 @@ Chlor. W tym samym okresie ma większy ładunek jądra, które mocniej przyciąg
 W grupie, od góry do dołu, przybywa powłok. Elektrony walencyjne są coraz dalej od jądra.
 
 Promień rośnie. Elektroujemność maleje. Energia jonizacji maleje — elektron łatwiej oderwać. Dlatego w grupie litowców aktywność rośnie w dół: lit reaguje z wodą spokojnie, potas z płomieniem, a cez wręcz wybuchowo.
+
+Aktywność rośnie w dół grupy tylko u metali. U niemetali jest odwrotnie: najaktywniejszy jest fluor, na górze siedemnastej grupy, a w dół grupy aktywność halogenów maleje. Fluor najchętniej przyjmuje elektron, bo jest mały i ma wysoką elektroujemność.
 
 [pytanie: grupa]
 

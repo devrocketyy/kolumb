@@ -31,6 +31,10 @@ Obserwacja to to, co widzisz, słyszysz albo czujesz. Wydziela się bezbarwny ga
 
 Nie piszesz „wydziela się wodór”, bo wodoru nie widać. Widać pęcherzyki bezbarwnego gazu. Wniosek to dopiero to, co z obserwacji wynika: że ten gaz to wodór, że zaszła reakcja, że cynk jest aktywniejszy od wodoru.
 
+Obserwacje to nie tylko wzrok. Zapach też się liczy: „wyczuwa się charakterystyczny, drażniący zapach” to dobra obserwacja przy amoniaku. Ciepło też: „probówka się ogrzewa”. Ale „wydziela się amoniak” to już wniosek.
+
+Dobry sprawdzian: czy osoba, która nie zna chemii, mogłaby to zobaczyć? Jeśli tak — to obserwacja. Jeśli potrzebna jest wiedza o tym, co to za substancja — to wniosek.
+
 [pytanie: obserwacja]
 
 Sprawdź się. Do probówki z cynkiem wlano kwas solny. Która odpowiedź jest obserwacją?
@@ -56,6 +60,10 @@ Każde polecenie zaczyna się od czasownika. I ten czasownik jest instrukcją, i
 „Uzasadnij” — masz już rozstrzygnięcie, dopisz argument.
 
 „Oceń, czy” — najpierw tak albo nie, potem zwykle uzasadnienie. Bez rozstrzygnięcia nie ma punktu, nawet jeśli argument jest świetny.
+
+Kilka czasowników wartych dopisania do listy. „Porównaj” — musisz wskazać obie strony i to, czym się różnią. Samo opisanie jednej to połowa odpowiedzi. „Zaprojektuj” — zwykle schemat plus obserwacje. „Napisz równanie” — z uzgodnionymi współczynnikami, bez tego punktu nie ma.
+
+Typowy błąd: odpowiadanie na „wyjaśnij” samym stwierdzeniem faktu. „Woda ma wysoką temperaturę wrzenia” to nie wyjaśnienie. Wyjaśnienie brzmi: „ponieważ jej cząsteczki tworzą wiązania wodorowe, których rozerwanie wymaga dużej energii”.
 
 [pytanie: wyjasnij]
 
@@ -104,6 +112,10 @@ Polecenie to nie tylko czasownik. W zadaniu są warunki, które zmieniają odpow
 „Wynik podaj z dokładnością do pierwszego miejsca po przecinku” — inna dokładność to utracony punkt.
 
 [wolniej] Zanim zaczniesz pisać, podkreśl w poleceniu czasownik, formę zapisu i każdy warunek.
+
+Szukaj też warunków fizycznych. „W warunkach normalnych” oznacza, że możesz użyć objętości molowej dwadzieścia dwa i cztery dziesiąte decymetra sześciennego. Jeśli tego zwrotu nie ma, a podano temperaturę i ciśnienie, liczysz z równania Clapeyrona.
+
+„Przy założeniu, że wydajność wynosi sto procent” — nie musisz nic korygować. „Przyjmij, że gęstość roztworu wynosi jeden gram na centymetr sześcienny” — wolno ci utożsamić centymetry z gramami. Takie założenia są po to, żeby ci ułatwić życie. Wykorzystaj je.
 
 [pytanie: odczynniki]
 
