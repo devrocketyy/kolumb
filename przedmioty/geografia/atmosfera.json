@@ -2561,6 +2561,49 @@
    ],
    "schematy": [
     {
+     "id": "s85136da5",
+     "typ": "rysunek",
+     "tytul": "Klimatogram: klimat umiarkowany przejściowy (Warszawa)",
+     "opis": "Klimatogram autorski stacji w środkowej Polsce (wartości przybliżone).",
+     "uwaga": "Klimat przejściowy: amplituda ok. 21°C — większa niż w klimacie morskim, mniejsza niż w kontynentalnym; opady umiarkowane z maksimum latem.",
+     "svg": "<path class=\"dash\" d=\"M45 250.0 H330\"/><path class=\"dash\" d=\"M45 197.5 H330\"/><path class=\"dash\" d=\"M45 145.0 H330\"/><path class=\"dash\" d=\"M45 92.5 H330\"/><path class=\"dash\" d=\"M45 40.0 H330\"/><rect class=\"gw2\" x=\"48.0\" y=\"187.0\" width=\"17.8\" height=\"63.0\"/><rect class=\"gw2\" x=\"71.8\" y=\"191.2\" width=\"17.8\" height=\"58.8\"/><rect class=\"gw2\" x=\"95.5\" y=\"180.7\" width=\"17.8\" height=\"69.3\"/><rect class=\"gw2\" x=\"119.2\" y=\"170.2\" width=\"17.8\" height=\"79.8\"/><rect class=\"gw2\" x=\"143.0\" y=\"134.5\" width=\"17.8\" height=\"115.5\"/><rect class=\"gw2\" x=\"166.8\" y=\"113.5\" width=\"17.8\" height=\"136.5\"/><rect class=\"gw2\" x=\"190.5\" y=\"92.5\" width=\"17.8\" height=\"157.5\"/><rect class=\"gw2\" x=\"214.2\" y=\"124.0\" width=\"17.8\" height=\"126.0\"/><rect class=\"gw2\" x=\"238.0\" y=\"155.5\" width=\"17.8\" height=\"94.5\"/><rect class=\"gw2\" x=\"261.8\" y=\"170.2\" width=\"17.8\" height=\"79.8\"/><rect class=\"gw2\" x=\"285.5\" y=\"170.2\" width=\"17.8\" height=\"79.8\"/><rect class=\"gw2\" x=\"309.2\" y=\"166.0\" width=\"17.8\" height=\"84.0\"/><polyline class=\"hot\" fill=\"none\" points=\"56.9,208.0 80.6,202.8 104.4,181.8 128.1,150.2 151.9,124.0 175.6,108.2 199.4,97.8 223.1,103.0 246.9,124.0 270.6,150.2 294.4,176.5 318.1,197.5\"/><circle class=\"hotf\" cx=\"56.9\" cy=\"208.0\" r=\"2.4\"/><circle class=\"hotf\" cx=\"80.6\" cy=\"202.8\" r=\"2.4\"/><circle class=\"hotf\" cx=\"104.4\" cy=\"181.8\" r=\"2.4\"/><circle class=\"hotf\" cx=\"128.1\" cy=\"150.2\" r=\"2.4\"/><circle class=\"hotf\" cx=\"151.9\" cy=\"124.0\" r=\"2.4\"/><circle class=\"hotf\" cx=\"175.6\" cy=\"108.2\" r=\"2.4\"/><circle class=\"hotf\" cx=\"199.4\" cy=\"97.8\" r=\"2.4\"/><circle class=\"hotf\" cx=\"223.1\" cy=\"103.0\" r=\"2.4\"/><circle class=\"hotf\" cx=\"246.9\" cy=\"124.0\" r=\"2.4\"/><circle class=\"hotf\" cx=\"270.6\" cy=\"150.2\" r=\"2.4\"/><circle class=\"hotf\" cx=\"294.4\" cy=\"176.5\" r=\"2.4\"/><circle class=\"hotf\" cx=\"318.1\" cy=\"197.5\" r=\"2.4\"/><path class=\"s\" d=\"M45 40 V250 H330 V40\"/><path class=\"s\" d=\"M41 250.0 H45\"/><text class=\"ts\" x=\"39\" y=\"253.0\" text-anchor=\"end\">-10</text><path class=\"s\" d=\"M41 197.5 H45\"/><text class=\"ts\" x=\"39\" y=\"200.5\" text-anchor=\"end\">0</text><path class=\"s\" d=\"M41 145.0 H45\"/><text class=\"ts\" x=\"39\" y=\"148.0\" text-anchor=\"end\">10</text><path class=\"s\" d=\"M41 92.5 H45\"/><text class=\"ts\" x=\"39\" y=\"95.5\" text-anchor=\"end\">20</text><path class=\"s\" d=\"M41 40.0 H45\"/><text class=\"ts\" x=\"39\" y=\"43.0\" text-anchor=\"end\">30</text><path class=\"s\" d=\"M330 250.0 H334\"/><text class=\"ts\" x=\"336\" y=\"253.0\">0</text><path class=\"s\" d=\"M330 197.5 H334\"/><text class=\"ts\" x=\"336\" y=\"200.5\">25</text><path class=\"s\" d=\"M330 145.0 H334\"/><text class=\"ts\" x=\"336\" y=\"148.0\">50</text><path class=\"s\" d=\"M330 92.5 H334\"/><text class=\"ts\" x=\"336\" y=\"95.5\">75</text><path class=\"s\" d=\"M330 40.0 H334\"/><text class=\"ts\" x=\"336\" y=\"43.0\">100</text><text class=\"ts\" x=\"56.9\" y=\"263\" text-anchor=\"middle\">I</text><text class=\"ts\" x=\"80.6\" y=\"263\" text-anchor=\"middle\">F</text><text class=\"ts\" x=\"104.4\" y=\"263\" text-anchor=\"middle\">M</text><text class=\"ts\" x=\"128.1\" y=\"263\" text-anchor=\"middle\">A</text><text class=\"ts\" x=\"151.9\" y=\"263\" text-anchor=\"middle\">M</text><text class=\"ts\" x=\"175.6\" y=\"263\" text-anchor=\"middle\">J</text><text class=\"ts\" x=\"199.4\" y=\"263\" text-anchor=\"middle\">J</text><text class=\"ts\" x=\"223.1\" y=\"263\" text-anchor=\"middle\">A</text><text class=\"ts\" x=\"246.9\" y=\"263\" text-anchor=\"middle\">S</text><text class=\"ts\" x=\"270.6\" y=\"263\" text-anchor=\"middle\">O</text><text class=\"ts\" x=\"294.4\" y=\"263\" text-anchor=\"middle\">N</text><text class=\"ts\" x=\"318.1\" y=\"263\" text-anchor=\"middle\">D</text><text class=\"ts\" x=\"39\" y=\"32\" text-anchor=\"end\">°C</text><text class=\"ts\" x=\"336\" y=\"32\">mm</text><text class=\"tb\" x=\"188\" y=\"282\" text-anchor=\"middle\">średnia 8,7°C · amplituda 21°C · suma opadów 545 mm</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 56.875,
+       "y": 208.0,
+       "lx": 95,
+       "ly": 215,
+       "n": "Zima",
+       "d": "Styczeń ok. −2°C — miesiące z ujemną średnią"
+      },
+      {
+       "x": 199.375,
+       "y": 97.75,
+       "lx": 200,
+       "ly": 30,
+       "n": "Lato",
+       "d": "Lipiec ok. 19°C"
+      },
+      {
+       "x": 199.375,
+       "y": 92.5,
+       "lx": 180,
+       "ly": 135,
+       "n": "Maksimum opadów",
+       "d": "Lipiec — opady konwekcyjne (burze)"
+      },
+      {
+       "x": 80.625,
+       "y": 191.2,
+       "lx": 120,
+       "ly": 160,
+       "n": "Mało opadów zimą",
+       "d": "Luty ok. 28 mm"
+      }
+     ]
+    },
+    {
      "id": "sdbd63066",
      "typ": "rysunek",
      "tytul": "Klimatogram: klimat równikowy wilgotny",
