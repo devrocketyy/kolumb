@@ -25,6 +25,12 @@ Wodorotlenki litowców, czyli sodu i potasu, są dobrze rozpuszczalne i silnie z
 
 Wodorotlenki metali ciężkich, jak miedzi czy żelaza, są nierozpuszczalne. Otrzymuje się je strącając: sól metalu plus zasada. Po ogrzaniu rozkładają się: niebieski wodorotlenek miedzi dwa czernieje, bo powstaje tlenek miedzi dwa i woda.
 
+Mini-obliczenie. Cztery gramy wodorotlenku sodu rozpuszczono i uzupełniono wodą do stu centymetrów sześciennych. Jakie jest pH? Cztery gramy to jedna dziesiąta mola, w jednej dziesiątej decymetra — stężenie jeden mol na decymetr. Stężenie OH⁻ jeden, pOH zero, pH czternaście.
+
+Stały wodorotlenek sodu jest higroskopijny — pochłania wilgoć z powietrza i rozpływa się. Pochłania też dwutlenek węgla i stopniowo zamienia się w węglan sodu. Dlatego przechowuje się go w szczelnie zamkniętych naczyniach.
+
+Wodorotlenek żelaza trzy to rdzawobrunatny osad. Jego barwa pozwala odróżnić jony żelaza trzy od żelaza dwa, które dają osad zielonkawy.
+
 [pytanie: cuoh2]
 
 Sprawdź się. Co powstaje po ogrzaniu wodorotlenku miedzi dwa?
@@ -74,6 +80,12 @@ Kwasy dzielimy na beztlenowe — chlorowodorowy, siarkowodorowy — i tlenowe, k
 Moc kwasów tlenowych tego samego pierwiastka rośnie ze stopniem utlenienia. Kwas chlorowy siedem, HClO₄, to jeden z najmocniejszych kwasów.
 
 Kwas węglowy jest nietrwały: rozkłada się na dwutlenek węgla i wodę. Dlatego otwarta butelka wody gazowanej traci bąbelki.
+
+Kwas siarkowy jest dwuprotonowy, więc do zobojętnienia potrzebuje dwóch moli zasady na mol kwasu. Dziewięć i osiem dziesiątych grama H₂SO₄ to jedna dziesiąta mola. Zobojętni dwie dziesiąte mola NaOH, czyli osiem gramów.
+
+Stężony kwas azotowy na świetle rozkłada się z wydzieleniem brunatnego dwutlenku azotu, dlatego żółknie i przechowuje się go w ciemnych butelkach.
+
+Typowy błąd: nazywanie wodnego roztworu HCl „chlorowodorem”. Chlorowodór to gaz. Jego wodny roztwór to kwas chlorowodorowy, czyli solny.
 
 [pytanie: moc]
 

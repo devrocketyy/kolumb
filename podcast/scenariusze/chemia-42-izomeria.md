@@ -27,6 +27,10 @@ Izomeria łańcuchowa: butan i metylopropan — łańcuch prosty albo rozgałęz
 
 Ile izomerów ma C₄H₁₀? Dwa. C₅H₁₂? Trzy: pentan, metylobutan i dimetylopropan.
 
+Liczba izomerów szybko rośnie. Heksan, C₆H₁₄, ma już pięć izomerów konstytucyjnych, a alkan z dwudziestoma atomami węgla — ponad trzysta sześćdziesiąt sześć tysięcy.
+
+A ile izomerów ma C₄H₈? Alkeny: but-1-en, but-2-en w dwóch formach cis i trans, metylopropen. Plus cykloalkany: cyklobutan i metylocyklopropan. Razem sześć, jeśli liczyć cis i trans osobno.
+
 [pytanie: pentan]
 
 Sprawdź się. Ile izomerów konstytucyjnych ma alkan C₅H₁₂?
@@ -75,6 +79,10 @@ Atom węgla połączony z czterema różnymi podstawnikami to centrum stereogeni
 
 Butan-2-ol: drugi węgiel ma wodór, grupę OH, metyl i etyl. Cztery różne — jest chiralny.
 
+Enancjomery mają identyczne temperatury topnienia i wrzenia, gęstość, rozpuszczalność. Różnią się kierunkiem skręcania płaszczyzny światła spolaryzowanego i tym, jak reagują z innymi cząsteczkami chiralnymi — na przykład z enzymami.
+
+Tragiczny przykład to talidomid, lek podawany w latach pięćdziesiątych kobietom w ciąży. Jeden enancjomer działał uspokajająco, drugi powodował ciężkie wady rozwojowe u dzieci. Od tego czasu leki chiralne bada się bardzo starannie.
+
 [pytanie: chiralny]
 
 Sprawdź się. Czy propan-2-ol ma asymetryczny atom węgla?
@@ -92,6 +100,10 @@ Nie. Drugi węgiel ma dwie jednakowe grupy metylowe.
 Zasady w skrócie. Znajdź najdłuższy łańcuch — to rdzeń nazwy. Numeruj tak, żeby grupa funkcyjna, a jeśli jej nie ma, podstawniki dostały jak najniższe numery. Podstawniki wymień alfabetycznie, z lokantami i przedrostkami di, tri.
 
 Uwaga na pułapkę: najdłuższy łańcuch nie musi iść prosto w rysunku. Często zakręca przez rozgałęzienie.
+
+Typowy błąd: nazwa „2-etylobutan”. Jeśli przy drugim węglu butanu jest grupa etylowa, to najdłuższy łańcuch ma tak naprawdę pięć atomów węgla — przez tę grupę. Poprawna nazwa: 3-metylopentan. Zasada: grupa etylowa nie może stać przy drugim węglu łańcucha głównego, bo wtedy łańcuch dałoby się wydłużyć.
+
+Przy kilku różnych podstawnikach wymieniamy je alfabetycznie, pomijając przedrostki di i tri: 3-etylo-2-metyloheksan, a nie odwrotnie.
 
 [pytanie: nazwa]
 

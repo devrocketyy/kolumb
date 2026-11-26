@@ -29,6 +29,12 @@ Obie dają też pozytywne próby Trommera i Tollensa. Fruktoza, choć jest ketoz
 
 Jak je odróżnić? Wodą bromową. Glukoza ją odbarwia, bo grupa aldehydowa utlenia się do karboksylowej. Fruktoza nie.
 
+Skąd w ogóle bierze się glukoza? Z fotosyntezy. Rośliny z sześciu cząsteczek dwutlenku węgla i sześciu cząsteczek wody, przy udziale światła, tworzą cząsteczkę glukozy i sześć cząsteczek tlenu. Oddychanie komórkowe to ta sama reakcja w drugą stronę, z wydzieleniem energii.
+
+W roztworze glukoza występuje głównie w formie pierścieniowej. Forma łańcuchowa, z wolną grupą aldehydową, to niewielki ułamek, ale stale się odtwarza — i to ona odpowiada za próby Tollensa i Trommera.
+
+Typowy błąd: uznanie, że fruktoza nie daje próby Trommera, „bo jest ketozą”. Daje, bo w środowisku zasadowym przekształca się częściowo w aldozę.
+
 [pytanie: odroznienie]
 
 Sprawdź się. Jak odróżnić glukozę od fruktozy?
@@ -59,6 +65,10 @@ Sacharoza, czyli zwykły cukier, to dwucukier zbudowany z glukozy i fruktozy. Wi
 
 Ale po hydrolizie, w środowisku kwasowym, rozpada się na glukozę i fruktozę. Wtedy próba Trommera wychodzi pozytywnie.
 
+Mini-obliczenie. Ile gramów glukozy powstanie z hydrolizy trzystu czterdziestu dwóch gramów sacharozy? To jeden mol sacharozy. Powstanie mol glukozy i mol fruktozy, po sto osiemdziesiąt gramów. Razem trzysta sześćdziesiąt gramów — o osiemnaście więcej niż sacharozy, bo przyłączyła się cząsteczka wody.
+
+Mieszanina glukozy i fruktozy powstała z hydrolizy to cukier inwertowany. Jest słodszy od sacharozy. Podobny skład ma miód.
+
 [pytanie: sacharoza]
 
 Sprawdź się. Czy sacharoza daje pozytywną próbę Trommera?
@@ -77,6 +87,10 @@ Skrobia i celuloza zbudowane są z reszt glukozy. Różnią się rodzajem wiąza
 
 Skrobię wykrywa się jodem: płyn Lugola daje granatowe zabarwienie.
 
+Skrobia i celuloza różnią się sposobem połączenia reszt glukozy. W skrobi wiązania są typu alfa i łańcuch zwija się w spiralę. W celulozie wiązania są typu beta i łańcuchy są proste, ułożone równolegle i spięte wiązaniami wodorowymi w mocne włókna. Dlatego z celulozy jest drewno, papier i bawełna.
+
+Ludzkie enzymy trawienne rozkładają tylko wiązania alfa. Krowa trawi trawę dzięki bakteriom w żwaczu, które mają enzymy rozkładające celulozę.
+
 [pytanie: skrobia]
 
 Sprawdź się. Jak wykryć skrobię?
@@ -94,6 +108,10 @@ Jodem, na przykład płynem Lugola. Pojawia się granatowe zabarwienie.
 Drożdże zamieniają glukozę w etanol i dwutlenek węgla: C₆H₁₂O₆ daje dwa C₂H₅OH i dwa CO₂.
 
 Sto osiemdziesiąt gramów glukozy to jeden mol. Powstaną dwa mole etanolu, czyli dziewięćdziesiąt dwa gramy.
+
+Drożdże przestają pracować, gdy stężenie etanolu dojdzie do kilkunastu procent — alkohol staje się dla nich trujący. Dlatego wina mają zwykle do piętnastu procent alkoholu, a mocniejsze trunki uzyskuje się przez destylację.
+
+Typowy błąd w zadaniach: zapominanie o dwóch cząsteczkach dwutlenku węgla. Z jednego mola glukozy powstają dwa mole etanolu i dwa mole CO₂, razem sto osiemdziesiąt gramów — masa się zgadza.
 
 [pytanie: fermentacja]
 
