@@ -951,6 +951,57 @@
        "d": "Słabe — opady nawalne"
       }
      ]
+    },
+    {
+     "id": "s9597b538",
+     "typ": "rysunek",
+     "tytul": "Wody podziemne i źródło artezyjskie",
+     "opis": "Niecka artezyjska — wody podziemne pod ciśnieniem.",
+     "uwaga": "Wody artezyjskie występują np. w niecce warszawskiej i w Wielkim Basenie Artezyjskim w Australii.",
+     "svg": "<path style=\"fill:#a1887f\" d=\"M0 60 Q200 140 400 60 V300 H0 Z\"/><path style=\"fill:#90caf9\" d=\"M0 60 Q200 200 400 60 L400 90 Q200 235 0 90 Z\"/><path style=\"fill:#6d4c41\" d=\"M0 90 Q200 235 400 90 V300 H0 Z\"/><path class=\"s\" d=\"M196 132 V92 M204 132 V92\"/><path class=\"s2\" d=\"M200 95 V70 M192 80 L200 68 L208 80\"/><path class=\"dash\" d=\"M0 58 H400\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 20,
+       "y": 64,
+       "lx": 30,
+       "ly": 30,
+       "n": "Obszar zasilania",
+       "d": "Woda wsiąka w odsłoniętą warstwę przepuszczalną"
+      },
+      {
+       "x": 110,
+       "y": 140,
+       "lx": 90,
+       "ly": 200,
+       "n": "Warstwa wodonośna",
+       "d": "Piaski lub piaskowce między skałami nieprzepuszczalnymi"
+      },
+      {
+       "x": 280,
+       "y": 110,
+       "lx": 300,
+       "ly": 150,
+       "n": "Warstwa nieprzepuszczalna",
+       "d": "Iły, gliny — nad i pod wodonośną"
+      },
+      {
+       "x": 200,
+       "y": 95,
+       "lx": 230,
+       "ly": 85,
+       "n": "Studnia artezyjska",
+       "d": "Woda pod ciśnieniem wypływa sama"
+      },
+      {
+       "x": 380,
+       "y": 58,
+       "lx": 330,
+       "ly": 40,
+       "n": "Poziom zasilania",
+       "d": "Woda wypływa, gdy wylot leży niżej niż ten poziom"
+      }
+     ]
     }
    ]
   },

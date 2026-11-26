@@ -390,6 +390,35 @@
        "d": "Urodzenia poniżej zgonów — ubytek naturalny i starzenie się (np. Polska, Japonia)."
       }
      ]
+    },
+    {
+     "id": "sb669d382",
+     "typ": "proces",
+     "tytul": "Czynniki migracji: wypychające i przyciągające",
+     "opis": "Model push–pull do zadań o migracjach.",
+     "uwaga": "Zawsze rozróżniaj przyczynę po stronie kraju pochodzenia (push) i kraju docelowego (pull).",
+     "kroki": [
+      {
+       "t": "Czynniki wypychające (push)",
+       "d": "Bezrobocie, bieda, wojna, prześladowania, klęski żywiołowe, susza."
+      },
+      {
+       "t": "Czynniki przyciągające (pull)",
+       "d": "Praca i wyższe płace, bezpieczeństwo, edukacja, opieka zdrowotna, rodzina."
+      },
+      {
+       "t": "Przeszkody",
+       "d": "Odległość, koszty, granice i wizy, bariery językowe."
+      },
+      {
+       "t": "Skutki dla kraju emigracji",
+       "d": "Odpływ młodych, drenaż mózgów, przekazy pieniężne od emigrantów."
+      },
+      {
+       "t": "Skutki dla kraju imigracji",
+       "d": "Uzupełnienie rynku pracy, odmłodzenie, różnorodność kulturowa, problemy integracji."
+      }
+     ]
     }
    ]
   },
@@ -1183,6 +1212,31 @@
        "ly": 150,
        "n": "Strefa podmiejska",
        "d": "Suburbia, domy jednorodzinne, centra handlowe"
+      }
+     ]
+    },
+    {
+     "id": "s80bf1acd",
+     "typ": "proces",
+     "tytul": "Fazy rozwoju miasta",
+     "opis": "Cykl urbanizacji wg modelu stadiów rozwoju.",
+     "uwaga": "W Polsce wokół dużych miast trwa silna suburbanizacja (np. gminy wokół Warszawy, Krakowa, Wrocławia).",
+     "kroki": [
+      {
+       "t": "Urbanizacja",
+       "d": "Szybki napływ ludności do centrum miasta — industrializacja."
+      },
+      {
+       "t": "Suburbanizacja",
+       "d": "Ludność i usługi przenoszą się na przedmieścia; rośnie strefa podmiejska."
+      },
+      {
+       "t": "Dezurbanizacja",
+       "d": "Spada liczba ludności całego zespołu miejskiego, rozwijają się małe miasta."
+      },
+      {
+       "t": "Reurbanizacja",
+       "d": "Powrót do odnowionych centrów — rewitalizacja, gentryfikacja."
       }
      ]
     }

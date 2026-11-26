@@ -524,6 +524,65 @@
        "d": "Sudety (stare, odmłodzone) i Karpaty (młode, alpejskie)"
       }
      ]
+    },
+    {
+     "id": "s87021d91",
+     "typ": "rysunek",
+     "tytul": "Krajobraz polodowcowy w przekroju",
+     "opis": "Układ form polodowcowych: wysoczyzna – morena czołowa – sandr.",
+     "uwaga": "Kolejność od strony lądolodu: wysoczyzna morenowa, morena czołowa, sandr, pradolina.",
+     "svg": "<path style=\"fill:#e0e0e0\" d=\"M0 0 H400 V300 H0 Z\" opacity=\"0.3\"/><path style=\"fill:#b3e5fc;stroke:#4fc3f7\" d=\"M0 80 L120 80 Q140 80 140 140 L0 160 Z\"/><path class=\"f2\" d=\"M0 160 L140 140 Q150 120 170 125 L180 160 L215 150 L230 130 Q250 100 270 130 L290 175 L400 185 V300 H0 Z\"/><path style=\"fill:#ffe082\" d=\"M290 175 L400 185 V200 L290 190 Z\"/><path style=\"fill:#64b5f6\" d=\"M185 158 L212 151 L205 175 L192 175 Z\"/><path class=\"s2\" d=\"M300 165 L380 172 M370 166 L380 172 L370 178\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 70,
+       "y": 120,
+       "lx": 40,
+       "ly": 50,
+       "n": "Lądolód",
+       "d": "Czoło lądolodu w czasie postoju"
+      },
+      {
+       "x": 155,
+       "y": 130,
+       "lx": 140,
+       "ly": 100,
+       "n": "Wysoczyzna morenowa",
+       "d": "Glina zwałowa spod lodu"
+      },
+      {
+       "x": 250,
+       "y": 112,
+       "lx": 260,
+       "ly": 70,
+       "n": "Morena czołowa",
+       "d": "Wał materiału przy czole lądolodu"
+      },
+      {
+       "x": 198,
+       "y": 165,
+       "lx": 190,
+       "ly": 220,
+       "n": "Jezioro rynnowe",
+       "d": "Rynna wyżłobiona przez wody pod lodem"
+      },
+      {
+       "x": 340,
+       "y": 182,
+       "lx": 330,
+       "ly": 230,
+       "n": "Sandr",
+       "d": "Piaski i żwiry wód roztopowych"
+      },
+      {
+       "x": 340,
+       "y": 168,
+       "lx": 340,
+       "ly": 145,
+       "n": "Wody roztopowe",
+       "d": "Płyną od czoła lądolodu"
+      }
+     ]
     }
    ]
   },
