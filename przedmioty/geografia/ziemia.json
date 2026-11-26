@@ -934,58 +934,58 @@
      "id": "s210feca8",
      "typ": "rysunek",
      "tytul": "Oświetlenie Ziemi 22 czerwca",
-     "opis": "Oświetlenie Ziemi w dniu przesilenia letniego na półkuli północnej.",
-     "uwaga": "22 czerwca na półkuli N dzień jest dłuższy niż noc, a na półkuli S — krótszy.",
-     "svg": "<circle class=\"d\" cx=\"200\" cy=\"150\" r=\"110\"/><path class=\"f2\" d=\"M200 40 A110 110 0 0 1 200 260 A60 110 0 0 0 200 40 Z\" opacity=\"0.5\"/><path class=\"s\" d=\"M200 40 A60 110 0 0 0 200 260\"/><circle class=\"s\" cx=\"200\" cy=\"150\" r=\"110\"/><g transform=\"rotate(-22 200 150)\"><path class=\"s\" d=\"M200 30 V270\"/><path class=\"dash\" d=\"M90 150 H310 M101 102 H299 M101 198 H299 M140 58 H260 M140 242 H260\"/></g><path class=\"s2\" d=\"M20 150 H70 M55 140 L70 150 L55 160\"/>",
+     "opis": "Oświetlenie Ziemi w dniu przesilenia letniego na półkuli północnej (Słońce z lewej).",
+     "uwaga": "22 czerwca: na półkuli N dzień jest dłuższy od nocy i tym dłuższy, im dalej na północ; na kole podbiegunowym S i dalej trwa noc polarna.",
+     "svg": "<defs><clipPath id=\"g3z\"><circle cx=\"150\" cy=\"150\" r=\"108\"/></clipPath></defs><circle class=\"gw\" cx=\"150\" cy=\"150\" r=\"108\"/><g transform=\"rotate(-23.45 150 150)\"><path class=\"s2\" d=\"M107.0 50.9 H193.0\"/><path class=\"s2\" d=\"M50.9 107.0 H249.1\"/><path class=\"s\" d=\"M42.0 150.0 H258.0\"/><path class=\"s2\" d=\"M50.9 193.0 H249.1\"/><path class=\"s2\" d=\"M107.0 249.1 H193.0\"/><path class=\"s\" d=\"M150 24 V276\"/><circle class=\"d\" cx=\"150\" cy=\"42\" r=\"3\"/></g><rect class=\"gs2\" x=\"150\" y=\"0\" width=\"200\" height=\"300\" clip-path=\"url(#g3z)\" opacity=\"0.6\"/><circle class=\"s\" cx=\"150\" cy=\"150\" r=\"108\"/><path class=\"dash\" d=\"M150 32 V268\"/><path class=\"hot\" d=\"M4.0 70.0 L36.0 70.0\"/><path class=\"hotf\" d=\"M36.0 70.0 L29.7 73.0 L29.7 67.0 Z\"/><path class=\"hot\" d=\"M4.0 110.0 L36.0 110.0\"/><path class=\"hotf\" d=\"M36.0 110.0 L29.7 113.0 L29.7 107.0 Z\"/><path class=\"hot\" d=\"M4.0 150.0 L36.0 150.0\"/><path class=\"hotf\" d=\"M36.0 150.0 L29.7 153.0 L29.7 147.0 Z\"/><path class=\"hot\" d=\"M4.0 190.0 L36.0 190.0\"/><path class=\"hotf\" d=\"M36.0 190.0 L29.7 193.0 L29.7 187.0 Z\"/><path class=\"hot\" d=\"M4.0 230.0 L36.0 230.0\"/><path class=\"hotf\" d=\"M36.0 230.0 L29.7 233.0 L29.7 227.0 Z\"/><text class=\"ts\" x=\"20\" y=\"285\">promienie Słońca</text><text class=\"tb\" x=\"215\" y=\"270\">noc</text><text class=\"tb\" x=\"70\" y=\"270\">dzień</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 45,
-       "y": 150,
-       "lx": 30,
-       "ly": 130,
-       "n": "Promienie Słońca",
-       "d": "Padają z lewej strony"
+       "x": 107.02154781877809,
+       "y": 50.91996846939128,
+       "lx": 290,
+       "ly": 30,
+       "n": "Biegun N",
+       "d": "Oś nachylona ku Słońcu — dzień polarny"
       },
       {
-       "x": 182,
-       "y": 106,
-       "lx": 60,
-       "ly": 95,
+       "x": 41.97310584744568,
+       "y": 149.9881782902122,
+       "lx": 285,
+       "ly": 75,
        "n": "Zwrotnik Raka",
-       "d": "Słońce w zenicie — 23°27′N"
+       "d": "Słońce w zenicie w południe — 23°27′N"
       },
       {
-       "x": 200,
-       "y": 60,
-       "lx": 220,
-       "ly": 25,
-       "n": "Dzień polarny",
-       "d": "Za kołem podbiegunowym N cała doba oświetlona"
+       "x": 112.19488002577702,
+       "y": 62.84626856103861,
+       "lx": 285,
+       "ly": 115,
+       "n": "Za kołem N",
+       "d": "Za kołem podbiegunowym N cała doba jest oświetlona"
       },
       {
-       "x": 200,
-       "y": 245,
-       "lx": 220,
-       "ly": 285,
-       "n": "Noc polarna",
-       "d": "Za kołem podbiegunowym S"
-      },
-      {
-       "x": 160,
-       "y": 140,
-       "lx": 120,
-       "ly": 175,
-       "n": "Linia terminatora",
+       "x": 150,
+       "y": 200,
+       "lx": 285,
+       "ly": 160,
+       "n": "Terminator",
        "d": "Granica dnia i nocy"
       },
       {
-       "x": 200,
-       "y": 150,
-       "lx": 230,
-       "ly": 145,
-       "n": "Oś Ziemi",
-       "d": "Nachylona — półkula N zwrócona ku Słońcu"
+       "x": 187.80511997422298,
+       "y": 237.1537314389614,
+       "lx": 285,
+       "ly": 205,
+       "n": "Za kołem S",
+       "d": "Za kołem podbiegunowym S noc polarna — Słońce nie wschodzi"
+      },
+      {
+       "x": 94.95553803855071,
+       "y": 173.87691787845662,
+       "lx": 285,
+       "ly": 250,
+       "n": "Równik",
+       "d": "Dzień i noc po 12 h przez cały rok"
       }
      ]
     }

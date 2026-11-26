@@ -1474,50 +1474,58 @@
      "id": "s9c897ea8",
      "typ": "rysunek",
      "tytul": "Niż baryczny w planie",
-     "opis": "Niż z frontami — tak wygląda na mapie synoptycznej.",
-     "uwaga": "Na półkuli N powietrze krąży w niżu przeciwnie do ruchu wskazówek zegara.",
-     "svg": "<ellipse class=\"s\" cx=\"180\" cy=\"150\" rx=\"40\" ry=\"30\"/><ellipse class=\"s\" cx=\"180\" cy=\"150\" rx=\"90\" ry=\"65\"/><ellipse class=\"s\" cx=\"180\" cy=\"150\" rx=\"150\" ry=\"110\"/><text class=\"t\" x=\"172\" y=\"155\">N</text><path class=\"s2\" d=\"M180 150 C240 160 280 200 300 250\"/><path class=\"s2\" d=\"M180 150 C220 160 230 210 200 260\" stroke-dasharray=\"6 4\"/>",
+     "opis": "Niż z frontami na mapie synoptycznej (półkula N).",
+     "uwaga": "Na półkuli N powietrze w niżu krąży przeciwnie do ruchu wskazówek zegara i wpływa do środka; po przejściu frontu chłodnego następuje ochłodzenie.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gp\" d=\"M170 140 L290 200 C270 230 230 255 175 262 Z\" opacity=\"0.55\"/><ellipse class=\"s2\" cx=\"170\" cy=\"140\" rx=\"35\" ry=\"26\" fill=\"none\"/><text class=\"ts\" x=\"138\" y=\"137\">990</text><ellipse class=\"s2\" cx=\"170\" cy=\"140\" rx=\"75\" ry=\"55\" fill=\"none\"/><text class=\"ts\" x=\"98\" y=\"137\">995</text><ellipse class=\"s2\" cx=\"170\" cy=\"140\" rx=\"115\" ry=\"85\" fill=\"none\"/><text class=\"ts\" x=\"58\" y=\"137\">1000</text><ellipse class=\"s2\" cx=\"170\" cy=\"140\" rx=\"155\" ry=\"118\" fill=\"none\"/><text class=\"ts\" x=\"18\" y=\"137\">1005</text><text class=\"tb\" x=\"170\" y=\"145\" text-anchor=\"middle\">N</text><path class=\"hot\" d=\"M170 140 C220 160 260 180 290 200\"/><path class=\"hotf\" d=\"M205 150 a6 6 0 0 1 11 5 Z\"/><path class=\"hotf\" d=\"M235 165 a6 6 0 0 1 11 5 Z\"/><path class=\"hotf\" d=\"M262 182 a6 6 0 0 1 11 5 Z\"/><path class=\"cold\" d=\"M170 140 C180 190 180 230 175 262\"/><path class=\"coldf\" d=\"M179 169 L179 181 L189 175 Z\"/><path class=\"coldf\" d=\"M181 199 L181 211 L191 205 Z\"/><path class=\"coldf\" d=\"M179 229 L179 241 L189 235 Z\"/><path class=\"s2\" d=\"M250.0 70.0 L200.0 60.0\"/><path class=\"d\" d=\"M200.0 60.0 L205.8 58.5 L204.8 63.6 Z\"/><path class=\"s2\" d=\"M90.0 90.0 L80.0 140.0\"/><path class=\"d\" d=\"M80.0 140.0 L78.5 134.2 L83.6 135.2 Z\"/><path class=\"s2\" d=\"M110.0 225.0 L160.0 240.0\"/><path class=\"d\" d=\"M160.0 240.0 L154.1 240.9 L155.6 235.9 Z\"/><path class=\"s2\" d=\"M290.0 150.0 L285.0 100.0\"/><path class=\"d\" d=\"M285.0 100.0 L288.1 105.1 L282.9 105.6 Z\"/><path class=\"s\" d=\"M330.0 270.0 L385.0 270.0\"/><path class=\"d\" d=\"M385.0 270.0 L377.8 273.5 L377.8 266.5 Z\"/><text class=\"ts\" x=\"300\" y=\"290\">ruch niżu (na wschód)</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 180,
-       "y": 150,
-       "lx": 150,
-       "ly": 120,
+       "x": 170,
+       "y": 140,
+       "lx": 100,
+       "ly": 25,
        "n": "Ośrodek niżu",
-       "d": "Najniższe ciśnienie"
+       "d": "Najniższe ciśnienie (poniżej 990 hPa)"
       },
       {
-       "x": 270,
-       "y": 205,
-       "lx": 320,
-       "ly": 200,
+       "x": 262,
+       "y": 186,
+       "lx": 300,
+       "ly": 170,
        "n": "Front ciepły",
-       "d": "Przed nim opady ciągłe"
+       "d": "Półkola — przed nim długie opady ciągłe"
       },
       {
-       "x": 210,
-       "y": 230,
-       "lx": 240,
+       "x": 181,
+       "y": 215,
+       "lx": 120,
        "ly": 270,
        "n": "Front chłodny",
-       "d": "Burze i ulewy"
+       "d": "Trójkąty — burze i ulewy"
       },
       {
-       "x": 240,
-       "y": 225,
-       "lx": 270,
-       "ly": 245,
+       "x": 215,
+       "y": 215,
+       "lx": 290,
+       "ly": 230,
        "n": "Wycinek ciepły",
-       "d": "Ciepłe powietrze między frontami"
+       "d": "Ciepła masa między frontami"
       },
       {
-       "x": 330,
-       "y": 150,
-       "lx": 360,
-       "ly": 130,
+       "x": 325,
+       "y": 140,
+       "lx": 340,
+       "ly": 110,
        "n": "Izobara",
-       "d": "Linia jednakowego ciśnienia"
+       "d": "Linia jednakowego ciśnienia (co 5 hPa)"
+      },
+      {
+       "x": 225,
+       "y": 63,
+       "lx": 250,
+       "ly": 25,
+       "n": "Wiatr",
+       "d": "Krąży przeciwnie do wskazówek zegara, ku środkowi"
       }
      ]
     }

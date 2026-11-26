@@ -1427,42 +1427,58 @@
      "id": "s319fb043",
      "typ": "rysunek",
      "tytul": "Lodowiec górski",
-     "opis": "Budowa lodowca dolinnego.",
-     "uwaga": "Po zaniku lodowca zostaje cyrk (kar) z jeziorem i dolina w kształcie U.",
-     "svg": "<path class=\"f2\" d=\"M20 280 L120 40 L170 80 L260 60 L380 280 Z\" opacity=\"0.3\"/><path class=\"d\" d=\"M120 60 C150 100 190 110 210 140 C240 190 260 230 300 270 L340 270 C300 230 280 180 250 130 C230 100 200 80 170 80 Z\"/><path class=\"dash\" d=\"M60 140 H340\"/><path class=\"f2\" d=\"M300 270 C320 260 340 265 345 275 Z\"/>",
+     "opis": "Budowa lodowca górskiego (dolinnego) — przekrój wzdłuż doliny.",
+     "uwaga": "Powyżej granicy wiecznego śniegu przeważa zasilanie, poniżej — ablacja (topnienie). Po zaniku lodowca zostaje cyrk (kar) z jeziorem i dolina U.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gs2\" d=\"M0 300 V70 L40 30 L80 50 L110 20 L150 60 L220 120 L300 180 L400 210 V300 Z\"/><path class=\"gi\" d=\"M45 70 Q70 40 110 45 Q140 60 150 80 L220 140 L290 196 Q300 206 290 214 L270 214 Q240 190 200 162 L120 110 Q70 100 45 70 Z\"/><path class=\"s2\" d=\"M160 112 l10 -8\"/><path class=\"s2\" d=\"M180 128 l10 -8\"/><path class=\"s2\" d=\"M200 142 l10 -8\"/><path class=\"s2\" d=\"M220 158 l10 -8\"/><path class=\"s2\" d=\"M240 172 l10 -8\"/><path class=\"gc\" d=\"M262 214 Q280 196 300 210 Q290 226 262 222 Z\"/><path class=\"gc\" d=\"M160 92 l60 48 l-4 4 l-60 -47 Z\" opacity=\"0.9\"/><path class=\"cold\" d=\"M285 222 C310 240 340 250 400 252\" style=\"stroke-width:3\"/><path class=\"dash\" d=\"M0 112 H400\"/><text class=\"ts\" x=\"395\" y=\"106\" text-anchor=\"end\">granica wiecznego śniegu</text><path class=\"gw\" d=\"M300 268 q20 -8 40 0 q-20 8 -40 0 Z\"/>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 160,
-       "y": 85,
-       "lx": 100,
-       "ly": 100,
+       "x": 85,
+       "y": 70,
+       "lx": 120,
+       "ly": 20,
        "n": "Pole firnowe",
-       "d": "Obszar zasilania w cyrku lodowcowym"
+       "d": "Obszar zasilania w cyrku — śnieg zmienia się w lód"
       },
       {
-       "x": 90,
-       "y": 140,
-       "lx": 40,
-       "ly": 130,
-       "n": "Granica wiecznego śniegu",
-       "d": "Powyżej przeważa zasilanie"
-      },
-      {
-       "x": 250,
-       "y": 190,
-       "lx": 300,
-       "ly": 170,
+       "x": 190,
+       "y": 150,
+       "lx": 120,
+       "ly": 190,
        "n": "Jęzor lodowcowy",
        "d": "Spływa doliną poniżej granicy wiecznego śniegu"
       },
       {
-       "x": 322,
-       "y": 268,
-       "lx": 360,
-       "ly": 250,
+       "x": 210,
+       "y": 150,
+       "lx": 260,
+       "ly": 130,
+       "n": "Szczeliny",
+       "d": "Lód pęka na załomach podłoża"
+      },
+      {
+       "x": 188,
+       "y": 116,
+       "lx": 250,
+       "ly": 70,
+       "n": "Morena boczna",
+       "d": "Materiał zebrany ze stoków"
+      },
+      {
+       "x": 282,
+       "y": 210,
+       "lx": 270,
+       "ly": 240,
        "n": "Morena czołowa",
        "d": "Wał osadów przed czołem lodowca"
+      },
+      {
+       "x": 340,
+       "y": 250,
+       "lx": 350,
+       "ly": 285,
+       "n": "Potok",
+       "d": "Wody roztopowe wypływają spod lodowca"
       }
      ]
     }
