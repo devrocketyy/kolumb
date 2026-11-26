@@ -1943,6 +1943,49 @@
        "d": "Abrazja podcina strome brzegi — Wolin, Orłowo."
       }
      ]
+    },
+    {
+     "id": "secd9c5ca",
+     "typ": "rysunek",
+     "tytul": "Wybrzeże fiordowe i szkierowe (widok z góry)",
+     "opis": "Dwa typy wybrzeży powstałych z zalania rzeźby polodowcowej.",
+     "uwaga": "Fiordy — Norwegia, Chile, Nowa Zelandia; szkiery — Szwecja, Finlandia. Oba powstały po stopnieniu lądolodu i podniesieniu poziomu morza.",
+     "svg": "<rect class=\"gw2\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gs\" d=\"M0 0 H190 V300 H0 Z\"/><path class=\"gw2\" d=\"M0 150 C40 140 70 160 100 130 C120 110 140 120 160 90 C170 78 182 80 190 70 L190 82 C178 92 168 98 160 108 C140 132 125 124 105 145 C78 172 40 160 0 170 Z\"/><path class=\"gs2\" d=\"M0 0 H190 V60 C150 70 110 60 60 80 C40 90 20 110 0 115 Z\" opacity=\"0.6\"/><path class=\"gi\" d=\"M120 20 C140 10 170 15 185 30 C165 40 140 35 120 20 Z\"/><path class=\"gt\" d=\"M210 0 H400 V300 H210 Z\"/><path class=\"gw2\" d=\"M210 120 C260 140 300 200 260 300 H210 Z\"/><ellipse class=\"gs ol\" cx=\"222\" cy=\"150\" rx=\"5\" ry=\"3.0\"/><ellipse class=\"gs ol\" cx=\"238\" cy=\"170\" rx=\"7\" ry=\"4.2\"/><ellipse class=\"gs ol\" cx=\"225\" cy=\"195\" rx=\"4\" ry=\"2.4\"/><ellipse class=\"gs ol\" cx=\"250\" cy=\"205\" rx=\"6\" ry=\"3.6\"/><ellipse class=\"gs ol\" cx=\"232\" cy=\"225\" rx=\"5\" ry=\"3.0\"/><ellipse class=\"gs ol\" cx=\"255\" cy=\"240\" rx=\"4\" ry=\"2.4\"/><ellipse class=\"gs ol\" cx=\"240\" cy=\"260\" rx=\"6\" ry=\"3.6\"/><ellipse class=\"gs ol\" cx=\"225\" cy=\"280\" rx=\"4\" ry=\"2.4\"/><ellipse class=\"gs ol\" cx=\"262\" cy=\"275\" rx=\"5\" ry=\"3.0\"/><ellipse class=\"gs ol\" cx=\"248\" cy=\"185\" rx=\"3\" ry=\"1.8\"/><ellipse class=\"gs ol\" cx=\"270\" cy=\"225\" rx=\"3\" ry=\"1.8\"/><rect class=\"gn\" x=\"190\" y=\"0\" width=\"20\" height=\"300\"/><text class=\"tb\" x=\"95\" y=\"292\" text-anchor=\"middle\">fiord</text><text class=\"tb\" x=\"330\" y=\"292\" text-anchor=\"middle\">szkiery</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 120,
+       "y": 120,
+       "lx": 60,
+       "ly": 210,
+       "n": "Fiord",
+       "d": "Zalany żłób lodowcowy: wąski, głęboki, ze stromymi ścianami"
+      },
+      {
+       "x": 150,
+       "y": 25,
+       "lx": 100,
+       "ly": 40,
+       "n": "Lodowiec",
+       "d": "Dawniej wypełniał dolinę aż do morza"
+      },
+      {
+       "x": 238,
+       "y": 170,
+       "lx": 320,
+       "ly": 120,
+       "n": "Szkiery",
+       "d": "Zalane wygłady i mutony — tysiące wysepek"
+      },
+      {
+       "x": 300,
+       "y": 80,
+       "lx": 285,
+       "ly": 40,
+       "n": "Ląd wygładzony",
+       "d": "Rzeźba wypolerowana przez lądolód"
+      }
+     ]
     }
    ]
   }

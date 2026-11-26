@@ -1359,6 +1359,65 @@
        "d": "Osady rzeczne budujące terasy"
       }
      ]
+    },
+    {
+     "id": "s130ba74c",
+     "typ": "rysunek",
+     "tytul": "Dorzecze i dział wodny (widok z góry)",
+     "opis": "Schemat dorzecza z siecią rzeczną.",
+     "uwaga": "Dorzecze — obszar zasilania jednej rzeki; zlewisko — obszar odwadniany do jednego morza lub oceanu. Prawy i lewy dopływ określa się, patrząc z biegiem rzeki.",
+     "svg": "<rect class=\"gt\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gw2\" d=\"M0 250 Q120 240 240 255 Q320 262 400 250 V300 H0 Z\"/><path class=\"gl\" d=\"M30 30 C80 10 160 20 200 40 C240 60 260 110 250 160 C240 200 200 230 160 250 C110 255 60 240 40 200 C20 150 10 80 30 30 Z\" opacity=\"0.55\"/><path class=\"dash\" d=\"M30 30 C80 10 160 20 200 40 C240 60 260 110 250 160 C240 200 200 230 160 250 C110 255 60 240 40 200 C20 150 10 80 30 30 Z\" style=\"stroke-width:2\"/><path class=\"cold\" d=\"M140 248 C135 200 140 150 120 110 C105 80 90 60 70 40\" style=\"stroke-width:3.4\"/><path class=\"cold\" d=\"M134 190 C170 180 200 160 225 130 M124 120 C100 125 70 120 45 140 M140 160 C110 170 80 180 55 205 M115 90 C140 75 170 65 195 55\" style=\"stroke-width:1.8\"/><path class=\"cold\" d=\"M330 250 C325 200 310 150 300 90 M318 170 C340 160 360 140 380 120\" style=\"stroke-width:2.4\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 72,
+       "y": 42,
+       "lx": 60,
+       "ly": 15,
+       "n": "Źródło",
+       "d": "Początek rzeki głównej"
+      },
+      {
+       "x": 135,
+       "y": 175,
+       "lx": 180,
+       "ly": 200,
+       "n": "Rzeka główna",
+       "d": "Uchodzi do morza"
+      },
+      {
+       "x": 210,
+       "y": 145,
+       "lx": 270,
+       "ly": 70,
+       "n": "Dopływ",
+       "d": "Prawy dopływ rzeki głównej"
+      },
+      {
+       "x": 245,
+       "y": 120,
+       "lx": 290,
+       "ly": 30,
+       "n": "Dział wodny",
+       "d": "Granica dorzecza — linia grzbietowa"
+      },
+      {
+       "x": 100,
+       "y": 200,
+       "lx": 110,
+       "ly": 280,
+       "n": "Dorzecze",
+       "d": "Obszar, z którego wody spływają do jednej rzeki"
+      },
+      {
+       "x": 330,
+       "y": 230,
+       "lx": 300,
+       "ly": 280,
+       "n": "Inne dorzecze",
+       "d": "Inna rzeka — po drugiej stronie działu"
+      }
+     ]
     }
    ]
   },

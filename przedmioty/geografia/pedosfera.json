@@ -957,6 +957,57 @@
        "d": "Powyżej 2300 m — skały, porosty, mchy"
       }
      ]
+    },
+    {
+     "id": "s30fa60f6",
+     "typ": "rysunek",
+     "tytul": "Piętra klimatyczno-roślinne w Andach",
+     "opis": "Piętrowość klimatu i użytkowania ziemi w Andach równikowych (wartości przybliżone).",
+     "uwaga": "W strefie równikowej to wysokość, a nie pora roku, decyduje o temperaturze — w górach można przejść przez wszystkie strefy klimatyczne na kilkudziesięciu kilometrach.",
+     "svg": "<defs><clipPath id=\"g9an\"><path d=\"M10 280 L10 270 L40 255 L70 225 L95 190 L120 150 L140 110 L160 70 L175 40 L185 32 L195 44 L215 90 L240 150 L265 200 L290 240 L310 280 Z\"/></clipPath></defs><rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><g transform=\"scale(0.8 1)\"><g clip-path=\"url(#g9an)\"><rect class=\"gf2\" x=\"0\" y=\"230\" width=\"320\" height=\"60\"/><rect class=\"gf\" x=\"0\" y=\"180\" width=\"320\" height=\"50\"/><rect class=\"gt\" x=\"0\" y=\"105\" width=\"320\" height=\"75\"/><rect class=\"gp\" x=\"0\" y=\"55\" width=\"320\" height=\"50\"/><rect class=\"gi\" x=\"0\" y=\"0\" width=\"320\" height=\"55\" style=\"stroke:none\"/></g><path class=\"s\" d=\"M10 280 L10 270 L40 255 L70 225 L95 190 L120 150 L140 110 L160 70 L175 40 L185 32 L195 44 L215 90 L240 150 L265 200 L290 240 L310 280 Z\"/></g><path class=\"dash\" d=\"M10 230 H258\"/><path class=\"s\" d=\"M6 230 H10\"/><text class=\"ts\" x=\"4\" y=\"227\">1000 m</text><path class=\"dash\" d=\"M10 180 H258\"/><path class=\"s\" d=\"M6 180 H10\"/><text class=\"ts\" x=\"4\" y=\"177\">2000 m</text><path class=\"dash\" d=\"M10 105 H258\"/><path class=\"s\" d=\"M6 105 H10\"/><text class=\"ts\" x=\"4\" y=\"102\">3500 m</text><path class=\"dash\" d=\"M10 55 H258\"/><path class=\"s\" d=\"M6 55 H10\"/><text class=\"ts\" x=\"4\" y=\"52\">4500 m</text><text class=\"ts\" x=\"258\" y=\"252\" text-anchor=\"end\">24–28°C</text><text class=\"ts\" x=\"258\" y=\"202\" text-anchor=\"end\">18–24°C</text><text class=\"ts\" x=\"258\" y=\"140\" text-anchor=\"end\">12–18°C</text><text class=\"ts\" x=\"258\" y=\"77\" text-anchor=\"end\">6–12°C</text><text class=\"ts\" x=\"258\" y=\"27\" text-anchor=\"end\">< 6°C</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 48,
+       "y": 262,
+       "lx": 262,
+       "ly": 262,
+       "n": "Tierra caliente",
+       "d": "Do ok. 1000 m — las równikowy, banany, kakao, trzcina"
+      },
+      {
+       "x": 76,
+       "y": 212,
+       "lx": 262,
+       "ly": 215,
+       "n": "Tierra templada",
+       "d": "Do ok. 2000 m — kawa, kukurydza; najgęściej zaludnione"
+      },
+      {
+       "x": 104,
+       "y": 162,
+       "lx": 262,
+       "ly": 165,
+       "n": "Tierra fría",
+       "d": "Do ok. 3500 m — ziemniaki, zboża; Bogota, Quito"
+      },
+      {
+       "x": 128,
+       "y": 98,
+       "lx": 262,
+       "ly": 110,
+       "n": "Puna / páramo",
+       "d": "Do ok. 4500 m — murawy, wypas lam i alpak"
+      },
+      {
+       "x": 146,
+       "y": 40,
+       "lx": 262,
+       "ly": 55,
+       "n": "Tierra helada",
+       "d": "Wiecznie śnieżne szczyty"
+      }
+     ]
     }
    ]
   }

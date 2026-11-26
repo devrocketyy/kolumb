@@ -525,6 +525,65 @@
        "d": "Rolnictwo intensywne tradycyjne — Azja Monsunowa."
       }
      ]
+    },
+    {
+     "id": "s3245aefb",
+     "typ": "rysunek",
+     "tytul": "Model pierścieni von Thünena",
+     "opis": "Model rozmieszczenia upraw wokół rynku zbytu (J.H. von Thünen, 1826).",
+     "uwaga": "Im dalej od miasta, tym wyższe koszty transportu i niższa renta z ziemi — dlatego blisko miasta opłacają się uprawy intensywne, a daleko ekstensywne.",
+     "svg": "<rect class=\"gt\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><circle class=\"gp\" cx=\"150\" cy=\"150\" r=\"135\" opacity=\"0.7\"/><circle class=\"gt\" cx=\"150\" cy=\"150\" r=\"105\" style=\"stroke:var(--text-2)\"/><circle class=\"gc\" cx=\"150\" cy=\"150\" r=\"78\" opacity=\"0.8\"/><circle class=\"gf2\" cx=\"150\" cy=\"150\" r=\"52\"/><circle class=\"gf\" cx=\"150\" cy=\"150\" r=\"28\"/><rect class=\"d\" x=\"140\" y=\"140\" width=\"20\" height=\"20\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 150,
+       "y": 150,
+       "lx": 300,
+       "ly": 40,
+       "n": "Miasto",
+       "d": "Rynek zbytu w centrum"
+      },
+      {
+       "x": 169,
+       "y": 150,
+       "lx": 300,
+       "ly": 80,
+       "n": "Ogrodnictwo",
+       "d": "Warzywa, mleko — szybko się psują, drogi transport"
+      },
+      {
+       "x": 190,
+       "y": 150,
+       "lx": 300,
+       "ly": 120,
+       "n": "Las",
+       "d": "Drewno na opał i budowę — ciężkie w transporcie"
+      },
+      {
+       "x": 215,
+       "y": 150,
+       "lx": 300,
+       "ly": 160,
+       "n": "Uprawy polowe",
+       "d": "Uprawy polowe z płodozmianem"
+      },
+      {
+       "x": 242,
+       "y": 150,
+       "lx": 300,
+       "ly": 200,
+       "n": "Ekstensywne",
+       "d": "Ugorowanie, niższe nakłady"
+      },
+      {
+       "x": 270,
+       "y": 150,
+       "lx": 300,
+       "ly": 240,
+       "n": "Hodowla",
+       "d": "Ekstensywny wypas — zwierzęta „idą same” na rynek"
+      }
+     ]
     }
    ]
   },
@@ -944,6 +1003,51 @@
      "poprawna": "D",
      "wyjasnienie": "Chiny, Indie, Sri Lanka.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s45f7e75f",
+     "typ": "rysunek",
+     "tytul": "Tarasy ryżowe na stoku (przekrój)",
+     "opis": "Uprawa ryżu na tarasach — Azja Południowo-Wschodnia (np. Indonezja, Filipiny, Chiny).",
+     "uwaga": "Tarasowanie pozwala uprawiać strome stoki, chroni glebę przed erozją i umożliwia zalewanie pól. Wymaga bardzo dużych nakładów pracy ręcznej — rolnictwo intensywne tradycyjne.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gl\" d=\"M0 300 L0 250 L80 250 L80 210 L140 210 L140 170 L200 170 L200 130 L260 130 L260 90 L320 90 L320 50 L400 50 L400 300 Z\"/><rect class=\"gw\" x=\"22\" y=\"242\" width=\"56\" height=\"8\"/><path class=\"gf2\" d=\"M28 243 l-2 -9 M28 243 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M37 243 l-2 -9 M37 243 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M46 243 l-2 -9 M46 243 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M55 243 l-2 -9 M55 243 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M64 243 l-2 -9 M64 243 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M73 243 l-2 -9 M73 243 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><rect class=\"gc\" x=\"76\" y=\"238\" width=\"5\" height=\"12\"/><rect class=\"gw\" x=\"82\" y=\"202\" width=\"56\" height=\"8\"/><path class=\"gf2\" d=\"M88 203 l-2 -9 M88 203 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M97 203 l-2 -9 M97 203 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M106 203 l-2 -9 M106 203 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M115 203 l-2 -9 M115 203 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M124 203 l-2 -9 M124 203 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M133 203 l-2 -9 M133 203 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><rect class=\"gc\" x=\"136\" y=\"198\" width=\"5\" height=\"12\"/><rect class=\"gw\" x=\"142\" y=\"162\" width=\"56\" height=\"8\"/><path class=\"gf2\" d=\"M148 163 l-2 -9 M148 163 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M157 163 l-2 -9 M157 163 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M166 163 l-2 -9 M166 163 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M175 163 l-2 -9 M175 163 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M184 163 l-2 -9 M184 163 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M193 163 l-2 -9 M193 163 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><rect class=\"gc\" x=\"196\" y=\"158\" width=\"5\" height=\"12\"/><rect class=\"gw\" x=\"202\" y=\"122\" width=\"56\" height=\"8\"/><path class=\"gf2\" d=\"M208 123 l-2 -9 M208 123 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M217 123 l-2 -9 M217 123 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M226 123 l-2 -9 M226 123 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M235 123 l-2 -9 M235 123 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M244 123 l-2 -9 M244 123 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M253 123 l-2 -9 M253 123 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><rect class=\"gc\" x=\"256\" y=\"118\" width=\"5\" height=\"12\"/><rect class=\"gw\" x=\"262\" y=\"82\" width=\"56\" height=\"8\"/><path class=\"gf2\" d=\"M268 83 l-2 -9 M268 83 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M277 83 l-2 -9 M277 83 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M286 83 l-2 -9 M286 83 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M295 83 l-2 -9 M295 83 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M304 83 l-2 -9 M304 83 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><path class=\"gf2\" d=\"M313 83 l-2 -9 M313 83 l2 -9\" style=\"stroke:var(--g-las2);stroke-width:1.4;fill:none\"/><rect class=\"gc\" x=\"316\" y=\"78\" width=\"5\" height=\"12\"/><path class=\"s\" d=\"M0 250 L80 250 L80 210 L140 210 L140 170 L200 170 L200 130 L260 130 L260 90 L320 90 L320 50 L400 50 L400 300\"/><path class=\"dash\" d=\"M0 250 L380 30\"/><text class=\"ts\" x=\"20\" y=\"228\">pierwotny stok</text><path class=\"f\" d=\"M345 50 v-12 l8 -8 l8 8 v12 Z\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 110,
+       "y": 205,
+       "lx": 120,
+       "ly": 150,
+       "n": "Pole ryżowe",
+       "d": "Zalane wodą — ryż rośnie w płytkiej wodzie"
+      },
+      {
+       "x": 138,
+       "y": 196,
+       "lx": 175,
+       "ly": 225,
+       "n": "Grobla",
+       "d": "Zatrzymuje wodę i glebę na tarasie"
+      },
+      {
+       "x": 230,
+       "y": 115,
+       "lx": 210,
+       "ly": 60,
+       "n": "Taras",
+       "d": "Poziomy stopień wycięty w stoku"
+      },
+      {
+       "x": 300,
+       "y": 70,
+       "lx": 305,
+       "ly": 110,
+       "n": "Mniej erozji",
+       "d": "Tarasy zatrzymują spływ wody i gleby"
+      }
+     ]
     }
    ]
   }

@@ -1011,6 +1011,49 @@
        "d": "Przy ziemi wiatr od lądu ku morzu"
       }
      ]
+    },
+    {
+     "id": "sb017d9b9",
+     "typ": "rysunek",
+     "tytul": "Komórka Hadleya (przekrój pionowy)",
+     "opis": "Pionowy schemat cyrkulacji między równikiem a zwrotnikiem (półkula N).",
+     "uwaga": "Komórka Hadleya tłumaczy wilgotny klimat równikowy (wznoszenie, opady zenitalne) i pustynie zwrotnikowe (osiadanie suchego powietrza w wyżach).",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gf\" x=\"20\" y=\"240\" width=\"120\" height=\"20\"/><rect class=\"gp\" x=\"260\" y=\"240\" width=\"120\" height=\"20\"/><rect class=\"gl\" x=\"140\" y=\"240\" width=\"120\" height=\"20\"/><path class=\"s\" d=\"M20 240 H380 M20 40 V260\"/><path class=\"s\" d=\"M70.0 220.0 L70.0 70.0\"/><path class=\"d\" d=\"M70.0 70.0 L73.9 78.1 L66.1 78.1 Z\"/><path class=\"s\" d=\"M90.0 55.0 L300.0 55.0\"/><path class=\"d\" d=\"M300.0 55.0 L291.9 58.9 L291.9 51.1 Z\"/><path class=\"s\" d=\"M330.0 70.0 L330.0 220.0\"/><path class=\"d\" d=\"M330.0 220.0 L326.1 211.9 L333.9 211.9 Z\"/><path class=\"cold\" d=\"M310.0 230.0 L100.0 230.0\"/><path class=\"coldf\" d=\"M100.0 230.0 L108.1 226.1 L108.1 233.9 Z\"/><path class=\"gk\" d=\"M50 150 q-10 0 -10 -9 q0 -10 12 -9 q4 -12 18 -9 q10 -7 18 3 q12 0 12 10 q0 9 -12 9 Z\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M55 156 l-3 12\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M66 156 l-3 12\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M77 156 l-3 12\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M88 156 l-3 12\"/><circle class=\"gm2\" cx=\"330\" cy=\"120\" r=\"12\"/><text class=\"tb\" x=\"70\" y=\"276\" text-anchor=\"middle\">0° · N</text><text class=\"tb\" x=\"330\" y=\"276\" text-anchor=\"middle\">30°N · W</text><text class=\"ts\" x=\"195\" y=\"48\" text-anchor=\"middle\">ok. 12–15 km</text><text class=\"ts\" x=\"200\" y=\"296\" text-anchor=\"middle\">N — niż równikowy, W — wyż zwrotnikowy</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 70,
+       "y": 180,
+       "lx": 110,
+       "ly": 160,
+       "n": "Wznoszenie",
+       "d": "Nagrzane powietrze nad równikiem — chmury i ulewy"
+      },
+      {
+       "x": 200,
+       "y": 55,
+       "lx": 210,
+       "ly": 90,
+       "n": "Odpływ górą",
+       "d": "Powietrze płynie ku zwrotnikom"
+      },
+      {
+       "x": 330,
+       "y": 180,
+       "lx": 290,
+       "ly": 160,
+       "n": "Osiadanie",
+       "d": "Suche powietrze ogrzewa się — pustynie"
+      },
+      {
+       "x": 200,
+       "y": 230,
+       "lx": 230,
+       "ly": 205,
+       "n": "Pasaty",
+       "d": "Wracają przy ziemi ku równikowi"
+      }
+     ]
     }
    ]
   },
