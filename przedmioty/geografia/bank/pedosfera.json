@@ -56,6 +56,42 @@
    "dzial": "pedosfera"
   },
   {
+   "tytul": "Wylesianie Amazonii",
+   "material": "Tekst autorski. Rocznie wycina się ok. 10 000 km² lasu amazońskiego, którego powierzchnia wynosi ok. 5,5 mln km².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaki procent lasu wycina się rocznie. Wynik zaokrąglij do 0,01%.",
+     "odpowiedz": "ok. 0,18%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "10 000 / 5 500 000 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny wylesiania Amazonii.",
+     "odpowiedz": "Pastwiska dla bydła, uprawa soi, wyrąb drewna, budowa dróg i kopalni, osadnictwo.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego po wycięciu lasu równikowego gleby szybko tracą żyzność.",
+     "odpowiedz": "Składniki pokarmowe są zgromadzone w biomasie, a gleby laterytowe są ubogie — intensywne opady szybko wymywają resztki składników.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Gleby ubogie.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-pedosfera-03",
+   "dzial": "pedosfera"
+  },
+  {
    "tytul": "Gleba stepowa",
    "material": "Tekst autorski. Profil glebowy: poziom próchniczny A ciemny, o miąższości ok. 1 m, na lessie. Klimat: opady ok. 450 mm, ciepłe lato, mroźna zima. Roślinność naturalna — trawy.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -79,7 +115,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-pedosfera-03",
+   "id": "b-pedosfera-04",
    "dzial": "pedosfera"
   },
   {
@@ -106,7 +142,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-pedosfera-04",
+   "id": "b-pedosfera-05",
    "dzial": "pedosfera"
   }
  ]

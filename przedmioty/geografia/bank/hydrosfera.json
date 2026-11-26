@@ -317,6 +317,60 @@
    "dzial": "hydrosfera"
   },
   {
+   "tytul": "Zbiornik Nasera",
+   "material": "Tekst autorski. Pojemność Jeziora Nasera wynosi ok. 162 km³, a roczny odpływ Nilu w Asuanie — ok. 84 km³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile lat odpływu Nilu może zmagazynować zbiornik. Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 1,9 roku",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "162 / 84.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj po jednym pozytywnym i negatywnym skutku budowy Wysokiej Tamy w Asuanie.",
+     "odpowiedz": "Pozytywny: ochrona przed powodziami, nawadnianie, energia elektryczna; negatywny: brak żyznego mułu na polach (więcej nawozów), erozja delty, zasolenie gleb.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Po jednym.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-14",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Tsunami",
+   "material": "Tekst autorski. Fala tsunami porusza się po oceanie z prędkością ok. 700 km/h. Wybrzeże leży 1400 km od epicentrum.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, po jakim czasie fala dotrze do wybrzeża.",
+     "odpowiedz": "po 2 godzinach",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1400 / 700.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden sposób ograniczania skutków tsunami.",
+     "odpowiedz": "System ostrzegania (boje, syreny), drogi ewakuacyjne, zakaz zabudowy niskich wybrzeży, falochrony, ochrona namorzynów.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jeden.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-15",
+   "dzial": "hydrosfera"
+  },
+  {
    "tytul": "Pomiar przepływu",
    "material": "Tekst autorski. W przekroju pomiarowym rzeka ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -340,7 +394,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-14",
+   "id": "b-hydrosfera-16",
    "dzial": "hydrosfera"
   },
   {
@@ -376,7 +430,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-hydrosfera-15",
+   "id": "b-hydrosfera-17",
    "dzial": "hydrosfera"
   },
   {
@@ -394,7 +448,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-hydrosfera-16",
+   "id": "b-hydrosfera-18",
    "dzial": "hydrosfera"
   },
   {
@@ -421,7 +475,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-17",
+   "id": "b-hydrosfera-19",
    "dzial": "hydrosfera"
   },
   {
@@ -448,7 +502,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-18",
+   "id": "b-hydrosfera-20",
    "dzial": "hydrosfera"
   },
   {
@@ -475,7 +529,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-19",
+   "id": "b-hydrosfera-21",
    "dzial": "hydrosfera"
   },
   {
@@ -502,7 +556,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-20",
+   "id": "b-hydrosfera-22",
    "dzial": "hydrosfera"
   },
   {
@@ -529,7 +583,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-21",
+   "id": "b-hydrosfera-23",
    "dzial": "hydrosfera"
   }
  ]

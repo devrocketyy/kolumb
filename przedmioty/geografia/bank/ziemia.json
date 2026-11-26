@@ -416,6 +416,114 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Odległość wzdłuż południka",
+   "material": "Tekst autorski. Punkt A leży na 52°N, 21°E, a punkt B na 49°N, 21°E. Przyjmij 1° = 111 km.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość między punktami.",
+     "odpowiedz": "ok. 333 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3° × 111 km.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-19",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Antypody",
+   "material": "Tekst autorski. Punkt X ma współrzędne 50°N, 20°E.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj współrzędne antypodów punktu X.",
+     "odpowiedz": "50°S, 160°W",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Szerokość przeciwna, długość 180° − 20°.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-20",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Czas w Moskwie i Warszawie",
+   "material": "Tekst autorski. W Moskwie (UTC+3) jest 12:00, a w Polsce obowiązuje czas zimowy (UTC+1).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Podaj godzinę w Warszawie.",
+     "odpowiedz": "10:00",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Różnica 2 h.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, o ile godzin zmniejszy się różnica latem, gdy w Polsce obowiązuje czas letni, a w Moskwie nie zmienia się czasu.",
+     "odpowiedz": "o 1 godzinę (różnica 1 h)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "UTC+2 i UTC+3.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-21",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Równonoc w Gdańsku",
+   "material": "Tekst autorski. Gdańsk leży na ok. 54°20′N.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania w Gdańsku 21 marca.",
+     "odpowiedz": "35°40′",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 54°20′.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, nad którym równoleżnikiem Słońce góruje w zenicie w tym dniu.",
+     "odpowiedz": "nad równikiem",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Równonoc.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-22",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Kąt padania promieni",
+   "material": "Tekst autorski. W lipcu Słońce góruje w Polsce wysoko, a w grudniu nisko nad horyzontem.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego latem powierzchnia Ziemi w Polsce nagrzewa się silniej.",
+     "odpowiedz": "Słońce świeci pod większym kątem, więc ta sama wiązka promieni pada na mniejszą powierzchnię i przechodzi krótszą drogę przez atmosferę; dzień jest też dłuższy.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Kąt padania i długość dnia.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-23",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Zgorzelcem i Terespolem",
    "material": "Tekst autorski. Zgorzelec leży na ok. 15°00′E, Terespol na ok. 23°40′E. Jest zima (obowiązuje czas UTC+1).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -439,7 +547,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-19",
+   "id": "b-ziemia-24",
    "dzial": "ziemia"
   },
   {
@@ -466,7 +574,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-20",
+   "id": "b-ziemia-25",
    "dzial": "ziemia"
   },
   {
@@ -493,7 +601,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-21",
+   "id": "b-ziemia-26",
    "dzial": "ziemia"
   },
   {
@@ -529,7 +637,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-22",
+   "id": "b-ziemia-27",
    "dzial": "ziemia"
   },
   {
@@ -556,7 +664,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-23",
+   "id": "b-ziemia-28",
    "dzial": "ziemia"
   },
   {
@@ -583,7 +691,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-24",
+   "id": "b-ziemia-29",
    "dzial": "ziemia"
   },
   {
@@ -601,7 +709,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-25",
+   "id": "b-ziemia-30",
    "dzial": "ziemia"
   }
  ]
