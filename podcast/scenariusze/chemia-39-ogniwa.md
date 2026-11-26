@@ -99,6 +99,18 @@ Zero czterdzieści sześć wolta. Katodą jest srebro.
 
 Typowe zadania: napisz schemat ogniwa, równania reakcji na elektrodach, wskaż kierunek przepływu elektronów, oblicz SEM. Kierunek elektronów w przewodzie: zawsze od anody do katody.
 
+[pytanie: podsumowanie]
+
+Sprawdź się. W którą stronę płyną elektrony w przewodzie ogniwa Daniella?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Od cynku do miedzi, czyli od anody do katody.
+
+[koniec odpowiedzi]
+
 W następnym odcinku odwracamy proces: elektroliza i korozja.
 
 [muzyka, cicho]

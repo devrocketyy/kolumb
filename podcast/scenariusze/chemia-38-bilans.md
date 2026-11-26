@@ -103,6 +103,18 @@ Pięć. Mangan przyjmuje pięć elektronów, każdy jon żelaza oddaje jeden.
 
 Polecenie zwykle brzmi: dobierz współczynniki metodą bilansu elektronowego, a w formie jonowej — zapisz równania połówkowe. Zawsze sprawdź na końcu trzy rzeczy: atomy, ładunki i elektrony.
 
+[pytanie: podsumowanie]
+
+Sprawdź się. Co obserwujemy, gdy KMnO₄ reaguje z reduktorem w środowisku obojętnym?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Wytrąca się brunatny osad tlenku manganu cztery.
+
+[koniec odpowiedzi]
+
 W następnym odcinku: jak z reakcji redoks zrobić baterię. Ogniwa galwaniczne.
 
 [muzyka, cicho]
