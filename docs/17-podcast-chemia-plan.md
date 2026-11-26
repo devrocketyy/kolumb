@@ -46,9 +46,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 ## Dział: Mol i stechiometria
 
-**14. Mol, masa molowa, objętość molowa gazów** `c-mol` ⬜
+**14. Mol, masa molowa, objętość molowa gazów** `c-mol` ✅
 
-**15. Wzory empiryczne i rzeczywiste, skład procentowy** `c-wzory` ⬜
+**15. Wzory empiryczne i rzeczywiste, skład procentowy** `c-wzory` ✅
 
 **16. Obliczenia z równań: nadmiar, wydajność, mieszaniny** `c-stechiometria` ⬜
 

@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-14-mol",
+  "pytania": [
+    {
+      "id": "avogadro",
+      "typ": "abcd",
+      "pytanie": "Liczba cząsteczek w 0,5 mola H₂O:",
+      "odpowiedzi": [
+        "3,01·10²³",
+        "6,02·10²³",
+        "1,20·10²⁴",
+        "9,03·10²³"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "0,5 · 6,02·10²³."
+    },
+    {
+      "id": "atomy",
+      "typ": "abcd",
+      "pytanie": "W 0,5 mola H₂O jest atomów:",
+      "odpowiedzi": [
+        "1,5 mola",
+        "0,5 mola",
+        "1 mol",
+        "3 mole"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "3 atomy w cząsteczce · 0,5 mola."
+    },
+    {
+      "id": "masa",
+      "typ": "abcd",
+      "pytanie": "9 g H₂O (M = 18 g/mol) to:",
+      "odpowiedzi": [
+        "0,5 mola",
+        "2 mole",
+        "9 moli",
+        "0,18 mola"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "n = m / M."
+    },
+    {
+      "id": "objetosc",
+      "typ": "abcd",
+      "pytanie": "Masa 11,2 dm³ CO₂ (warunki normalne) wynosi:",
+      "odpowiedzi": [
+        "22 g",
+        "44 g",
+        "11 g",
+        "88 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "11,2 / 22,4 = 0,5 mola; 0,5 · 44 g/mol."
+    },
+    {
+      "id": "pulapka",
+      "typ": "abcd",
+      "pytanie": "Objętość 22,4 dm³/mol można stosować dla:",
+      "odpowiedzi": [
+        "gazów w warunkach normalnych",
+        "każdej substancji",
+        "cieczy w 25°C",
+        "ciał stałych"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Klasyczna pułapka."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Więcej cząsteczek zawiera:",
+      "odpowiedzi": [
+        "obie tyle samo",
+        "2 g H₂",
+        "32 g O₂",
+        "nie da się ocenić"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "M(H₂) = 2, M(O₂) = 32 — po 1 molu."
+    }
+  ]
+}
