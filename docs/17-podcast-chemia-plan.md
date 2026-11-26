@@ -132,9 +132,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **49. Kwasy karboksylowe** `c-karboksylowe` ✅
 
-**50. Estry i tłuszcze** `c-estry` ⬜
+**50. Estry i tłuszcze** `c-estry` ✅
 
-**51. Powtórka działu: Tlenowe pochodne węglowodorów** `tlenowe` ⬜
+**51. Powtórka działu: Tlenowe pochodne węglowodorów** `tlenowe` ✅
 
 ## Dział: Związki azotu, białka i cukry
 

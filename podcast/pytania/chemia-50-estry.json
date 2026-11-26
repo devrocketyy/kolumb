@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-50-estry",
+  "pytania": [
+    {
+      "id": "nazwa",
+      "typ": "abcd",
+      "pytanie": "CH₃COOH + C₂H₅OH ⇌",
+      "odpowiedzi": [
+        "CH₃COOC₂H₅ + H₂O",
+        "C₂H₅COOCH₃ + H₂O",
+        "CH₃COOH·C₂H₅OH",
+        "CH₃COONa + C₂H₅OH"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Nazwa: kwas → „-an”, alkohol → „-ylu”."
+    },
+    {
+      "id": "katalizator",
+      "typ": "abcd",
+      "pytanie": "Stężony H₂SO₄ w estryfikacji:",
+      "odpowiedzi": [
+        "katalizuje i wiąże wodę",
+        "jest substratem",
+        "utlenia alkohol",
+        "zobojętnia kwas"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Reguła przekory: usuwanie produktu."
+    },
+    {
+      "id": "zasadowa",
+      "typ": "abcd",
+      "pytanie": "CH₃COOC₂H₅ + NaOH →",
+      "odpowiedzi": [
+        "CH₃COONa + C₂H₅OH",
+        "CH₃COOH + C₂H₅ONa",
+        "CH₃COONa + C₂H₄ + H₂O",
+        "brak reakcji"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Hydroliza zasadowa jest nieodwracalna."
+    },
+    {
+      "id": "olej",
+      "typ": "abcd",
+      "pytanie": "Olej od smalcu odróżnisz:",
+      "odpowiedzi": [
+        "wodą bromową",
+        "wodą wapienną",
+        "fenoloftaleiną",
+        "próbą Tollensa"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Oleje zawierają reszty kwasów nienasyconych."
+    },
+    {
+      "id": "zmydlanie",
+      "typ": "abcd",
+      "pytanie": "Zmydlenie 1 mola tristearynianu glicerolu wymaga:",
+      "odpowiedzi": [
+        "3 moli NaOH",
+        "1 mola NaOH",
+        "2 moli NaOH",
+        "6 moli NaOH"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Trzy reszty kwasowe."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Margarynę otrzymuje się przez:",
+      "odpowiedzi": [
+        "uwodornienie oleju",
+        "zmydlanie oleju",
+        "estryfikację glicerolu",
+        "utlenianie oleju"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Addycja H₂ do C=C, katalizator niklowy."
+    }
+  ]
+}
