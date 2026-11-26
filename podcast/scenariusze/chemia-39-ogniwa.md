@@ -109,6 +109,10 @@ Zero czterdzieści sześć wolta. Katodą jest srebro.
 
 Typowe zadania: napisz schemat ogniwa, równania reakcji na elektrodach, wskaż kierunek przepływu elektronów, oblicz SEM. Kierunek elektronów w przewodzie: zawsze od anody do katody.
 
+Zapis schematu ogniwa ma swoje zasady. Po lewej zawsze anoda, po prawej katoda. Pojedyncza kreska oznacza granicę faz, czyli metal i roztwór. Podwójna kreska oznacza klucz elektrolityczny. Dla ogniwa cynkowo-srebrowego: Zn, kreska, Zn²⁺, dwie kreski, Ag⁺, kreska, Ag.
+
+Typowy błąd: zapisanie równania reakcji w ogniwie bez wyrównania elektronów. Srebro przyjmuje jeden elektron, cynk oddaje dwa — więc na jeden atom cynku przypadają dwa jony srebra: Zn plus dwa Ag⁺ daje Zn²⁺ i dwa Ag.
+
 [pytanie: podsumowanie]
 
 Sprawdź się. W którą stronę płyną elektrony w przewodzie ogniwa Daniella?

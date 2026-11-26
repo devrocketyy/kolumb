@@ -22,6 +22,10 @@ Pierwiastek X leży w czwartym okresie, w bloku d. Jego jon X²⁺ ma pięć nie
 
 Pięć niesparowanych elektronów to podpowłoka d zapełniona do połowy: trzy d pięć. Jon dwa plus stracił dwa elektrony — najpierw z czterech s. Więc atom miał cztery s dwa, trzy d pięć.
 
+Narysuj to w klatkach. Pięć klatek podpowłoki trzy d i pięć elektronów. Reguła Hunda mówi, że elektrony najpierw zajmują puste klatki pojedynczo, ze zgodnym spinem. Więc w każdej klatce po jednej strzałce — pięć niesparowanych elektronów. Gdyby elektronów było sześć, jak w Fe²⁺, szósty musiałby się sparować i niesparowanych zostałyby cztery.
+
+Typowy błąd: odbieranie elektronów najpierw z trzy d, bo „zapisuje się je na końcu”. Przy tworzeniu kationów metali bloku d najpierw odchodzą elektrony cztery s, bo są na powłoce najdalszej od jądra.
+
 [pytanie: identyfikacja]
 
 Sprawdź się. Który to pierwiastek?
@@ -54,6 +58,10 @@ W siódmej. Dwa elektrony cztery s plus pięć elektronów trzy d.
 
 Siedem elektronów walencyjnych oznacza, że mangan może oddać ich nawet siedem. Najwyższy stopień utlenienia to plus siedem — w manganianie potasu, KMnO₄.
 
+Mangan ma wiele stopni utlenienia, a charakter jego tlenków zmienia się razem z nimi. Tlenek manganu dwa, MnO, jest zasadowy. Tlenek manganu cztery, MnO₂, amfoteryczny — to ten brunatny proszek, katalizator rozkładu wody utlenionej. Tlenek manganu siedem, Mn₂O₇, kwasowy — z wodą daje kwas manganowy siedem.
+
+To ogólna reguła dla metali przejściowych: im wyższy stopień utlenienia, tym bardziej kwasowy charakter tlenku. Taki sam trend znajdziesz u chromu.
+
 [pytanie: stopien]
 
 Sprawdź się. Jaki jest maksymalny stopień utlenienia manganu?
@@ -69,6 +77,10 @@ Plus siedem, na przykład w KMnO₄ i Mn₂O₇.
 ## Wskazówka czwarta: izotop
 
 Mangan występuje w przyrodzie prawie wyłącznie jako jeden izotop: mangan pięćdziesiąt pięć. Liczba atomowa: dwadzieścia pięć.
+
+Mangan jest pierwiastkiem monoizotopowym — w przyrodzie występuje praktycznie tylko jako mangan pięćdziesiąt pięć. Dlatego jego masa atomowa w układzie okresowym, pięćdziesiąt cztery i dziewięćdziesiąt cztery setne, jest bardzo bliska liczbie całkowitej. U chloru, który ma dwa izotopy w dużych ilościach, masa atomowa to trzydzieści pięć i pół.
+
+Mangan to też ważny dodatek do stali: zwiększa jej twardość i odporność na ścieranie. Stal manganowa idzie na szyny kolejowe i łyżki koparek.
 
 [pytanie: neutrony]
 
