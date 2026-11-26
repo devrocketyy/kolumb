@@ -25,6 +25,12 @@ Propan to C₃H₈. Spala się całkowicie według równania: C₃H₈ plus pię
 
 Masa molowa propanu: trzy razy dwanaście plus osiem — czterdzieści cztery gramy na mol. Jedenaście gramów to więc jedna czwarta mola.
 
+Najpierw sprawdź, czy równanie jest zbilansowane. Po lewej trzy węgle, po prawej trzy w CO₂. Wodorów osiem, po prawej cztery wody po dwa. Tlenów po lewej dziesięć, po prawej sześć w CO₂ i cztery w wodzie. Zgadza się.
+
+Typowy błąd: pisanie wzoru propanu jako C₃H₆. To propen. Alkany mają wzór CnH₂n₊₂, więc dla trzech węgli — osiem wodorów.
+
+Propan to gaz cięższy od powietrza. Jego gęstość w warunkach normalnych to czterdzieści cztery przez dwadzieścia dwa i cztery, około jednego przecinek dziewięćdziesiąt sześć grama na decymetr. Powietrze ma około jednego przecinek dwudziestu dziewięciu. Dlatego ulatniający się propan zbiera się przy podłodze, a butli nie przechowuje się w piwnicy.
+
 [pytanie: mole]
 
 Sprawdź się. Ile moli to 11 gramów propanu?
@@ -55,6 +61,12 @@ Z równania: jeden mol propanu potrzebuje pięciu moli tlenu i daje trzy mole CO
 
 Dla ćwierci mola: tlenu jeden i jedna czwarta mola, dwutlenku węgla trzy czwarte mola, wody jeden mol.
 
+A ile powietrza zużyje płomień? Tlen stanowi około dwudziestu jeden procent objętości powietrza. Dwadzieścia osiem decymetrów tlenu przez dwadzieścia jeden setnych to około stu trzydziestu trzech decymetrów sześciennych powietrza.
+
+Jeśli tlenu jest za mało, spalanie jest niecałkowite. Powstaje trujący tlenek węgla: C₃H₈ plus trzy i pół O₂ daje trzy CO i cztery H₂O. Dlatego kuchenki nie wolno używać w zamkniętym namiocie.
+
+Sprawdź prawo zachowania masy. Jedenaście gramów propanu i czterdzieści gramów tlenu, bo jeden i ćwierć mola razy trzydzieści dwa, daje razem pięćdziesiąt jeden gramów. Produkty: trzydzieści trzy gramy CO₂ i osiemnaście gramów wody — też pięćdziesiąt jeden.
+
 [pytanie: tlen]
 
 Sprawdź się. Ile decymetrów sześciennych tlenu, w warunkach normalnych, zużyje spalanie 11 g propanu?
@@ -83,6 +95,8 @@ Trzydzieści trzy gramy. Trzy czwarte mola razy czterdzieści cztery.
 
 Na koniec sam propan. Węgiel waży w nim trzydzieści sześć z czterdziestu czterech gramów na mol.
 
+Dla porównania butan, C₄H₁₀, ma masę molową pięćdziesiąt osiem. Węgiel to czterdzieści osiem przez pięćdziesiąt osiem, czyli około osiemdziesięciu dwóch i ośmiu dziesiątych procent. Im dłuższy łańcuch alkanu, tym zawartość węgla bliższa granicy około osiemdziesięciu pięciu i siedmiu dziesiątych procent, czyli wartości dla CH₂.
+
 [pytanie: procent]
 
 Sprawdź się. Jaki procent masy propanu stanowi węgiel?
@@ -98,6 +112,8 @@ Około osiemdziesięciu jeden i osiem dziesiątych procent.
 ## Co z tego będzie na maturze
 
 W tym dziale wszystko przechodzi przez mole. Sprawdź, czy dane dotyczą gazu w warunkach normalnych, czy któryś substrat nie jest w nadmiarze i czy pytają o masę, objętość, czy liczbę drobin.
+
+Zapamiętaj sprawdzian, który pomaga wyłapać błędy: suma mas substratów musi być równa sumie mas produktów. Jeśli po obliczeniach coś się nie zgadza, wróć do równania — najczęściej błąd jest we współczynnikach.
 
 [pytanie: podsumowanie]
 
