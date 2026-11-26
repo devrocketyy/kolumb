@@ -1,0 +1,83 @@
+# Bank zadań autorskich — chemia, część 39: duża paczka — wiązki CKE 2023+ (domykanie do 1200).
+BANK = {'atom': [
+ B('Jony izoelektroniczne',
+   'Tekst autorski. Rozpatrz drobiny: O²⁻, F⁻, Na⁺, Mg²⁺, Al³⁺.',
+   T('podaj', 1, 'Podaj wspólną liczbę elektronów.', '10', 'Konfiguracja neonu.'),
+   T('podaj', 1, 'Uszereguj drobiny według malejącego promienia.', 'O²⁻ > F⁻ > Na⁺ > Mg²⁺ > Al³⁺', 'Rośnie ładunek jądra.')),
+ B('Masa atomowa z widma',
+   'Tekst autorski. Magnez: ²⁴Mg (79%), ²⁵Mg (10%), ²⁶Mg (11%). Przyjmij masy izotopów równe liczbom masowym.',
+   T('oblicz', 2, 'Oblicz średnią masę atomową magnezu.', '24,32 u', '0,79 · 24 + 0,10 · 25 + 0,11 · 26 = 18,96 + 2,5 + 2,86.')),
+], 'wiazania': [
+ B('Wiązania w kwasie siarkowym(VI)',
+   'Tekst autorski. W cząsteczce H₂SO₄ atom siarki połączony jest z dwiema grupami –OH i dwoma atomami tlenu.',
+   T('podaj', 1, 'Podaj liczbę wiązań σ w cząsteczce H₂SO₄.', '6', '4 S–O + 2 O–H.'),
+   T('podaj', 1, 'Podaj kształt cząsteczki wokół atomu siarki.', 'tetraedr (zniekształcony)', '—')),
+], 'stechiometria': [
+ B('Reakcja w roztworze — ilości',
+   'Tekst autorski. Do 50 cm³ roztworu AgNO₃ (0,2 mol/dm³) dodano 50 cm³ roztworu NaCl (0,1 mol/dm³).',
+   T('oblicz', 2, 'Oblicz masę osadu AgCl.', '0,7175 g', 'n(Cl⁻) = 0,005 mol (niedomiar) · 143,5.'),
+   T('oblicz', 1, 'Oblicz stężenie jonów Ag⁺ po reakcji.', '0,05 mol/dm³', '0,005 mol / 0,1 dm³.')),
+ B('Spalanie alkoholu',
+   'Tekst autorski. Spalono całkowicie 4,6 g etanolu.',
+   T('oblicz', 2, 'Oblicz objętość CO₂ (w. n.) i masę wody.', '4,48 dm³ CO₂; 5,4 g H₂O', '0,1 mol C₂H₅OH → 0,2 mol CO₂ i 0,3 mol H₂O.')),
+], 'roztwory': [
+ B('Stężenie po rozpuszczeniu metalu',
+   'Tekst autorski. 2,3 g sodu wrzucono do 97,8 g wody.',
+   T('oblicz', 2, 'Oblicz stężenie procentowe NaOH w otrzymanym roztworze.', '4%', 'n(Na) = 0,1 → 4 g NaOH; ubyło 0,1 g H₂; m_r = 100 g.')),
+], 'kinetyka': [
+ B('Stała równowagi z danych początkowych',
+   'Tekst autorski. Do 2 dm³ wprowadzono 4 mole A i 2 mole B. Reakcja A + B ⇄ C. W równowadze jest 1,6 mola C.',
+   T('oblicz', 2, 'Oblicz Kc.', 'ok. 3,33', '[A] = 1,2, [B] = 0,2, [C] = 0,8 mol/dm³; K = 0,8 / (1,2 · 0,2) = 0,8 / 0,24.')),
+], 'roztwory-wodne': [
+ B('Porównanie mocy kwasów — doświadczenie',
+   'Tekst autorski. Do dwóch probówek z jednakowymi kawałkami magnezu wlano po 10 cm³ roztworów 0,1 mol/dm³: HCl i CH₃COOH.',
+   T('podaj', 1, 'Wskaż probówkę z szybszym wydzielaniem gazu i uzasadnij.', 'z HCl — większe stężenie jonów H⁺', '—'),
+   T('podaj', 1, 'Porównaj objętości wodoru po całkowitym przereagowaniu kwasów (Mg w nadmiarze).', 'jednakowe', 'Ta sama liczba moli kwasu jednoprotonowego.')),
+ B('pH roztworu soli kwaśnej',
+   'Tekst autorski. Roztwór NaHSO₄ o stężeniu 0,01 mol/dm³ (przyjmij całkowitą dysocjację HSO₄⁻).',
+   T('oblicz', 1, 'Oblicz pH.', '2', '[H⁺] = 0,01.')),
+], 'redoks': [
+ B('Potencjały i przewidywanie reakcji',
+   'Tekst autorski. E°: Fe³⁺/Fe²⁺ +0,77 V; I₂/I⁻ +0,54 V; Br₂/Br⁻ +1,07 V.',
+   T('podaj', 2, 'Rozstrzygnij, czy Fe³⁺ utleni jony I⁻ i Br⁻. Uzasadnij.', 'I⁻ — tak (0,77 > 0,54); Br⁻ — nie (0,77 < 1,07)', 'Utleniacz musi mieć wyższy potencjał.'),
+   T('podaj', 1, 'Napisz równanie reakcji, która zachodzi.', '2Fe³⁺ + 2I⁻ → 2Fe²⁺ + I₂', '—')),
+], 'tlenowe': [
+ B('Utlenianie alkoholi — produkty',
+   'Tekst autorski. Utleniano CuO: metanol, propan-2-ol, 2-metylopropan-2-ol.',
+   T('podaj', 2, 'Podaj produkty organiczne (lub brak reakcji).', 'metanal; propanon; brak reakcji', '—')),
+ B('Mydło a detergent',
+   'Tekst autorski. Mydło sodowe w twardej wodzie traci właściwości myjące, a detergent syntetyczny (alkilosiarczan) — nie.',
+   T('podaj', 1, 'Napisz równanie jonowe reakcji stearynianu z jonami Ca²⁺.', '2C₁₇H₃₅COO⁻ + Ca²⁺ → (C₁₇H₃₅COO)₂Ca↓', '—'),
+   T('wyjasnij', 1, 'Wyjaśnij przewagę detergentu.', 'Jego sole wapniowe są rozpuszczalne — nie tworzy osadów w twardej wodzie.', '—')),
+], 'organiczna': [
+ B('Spalanie węglowodoru — wzór',
+   'Tekst autorski. 0,2 mola węglowodoru spalono całkowicie, otrzymując 17,92 dm³ CO₂ (w. n.) i 14,4 g H₂O.',
+   T('oblicz', 2, 'Ustal wzór sumaryczny.', 'C₄H₈', 'n(CO₂) = 0,8 → 4 C; n(H₂O) = 0,8 → 8 H.'),
+   T('podaj', 1, 'Podaj, jak sprawdzić, czy to alken czy cykloalkan.', 'woda bromowa — alken ją odbarwia', '—')),
+ B('Halogenopochodne — substytucja i eliminacja',
+   'Tekst autorski. 2-chloro-2-metylopropan ogrzewano raz z wodnym, a raz z alkoholowym roztworem NaOH.',
+   T('podaj', 2, 'Podaj nazwy produktów organicznych w obu przypadkach.', 'wodny: 2-metylopropan-2-ol; alkoholowy: 2-metylopropen', '—')),
+], 'azotowe-cukry': [
+ B('Aminokwasy — punkt izoelektryczny',
+   'Tekst autorski. Mieszanina glicyny (pI 6,0) i lizyny (pI 9,7) w buforze o pH 6,0 umieszczona w polu elektrycznym.',
+   T('podaj', 1, 'Opisz zachowanie obu aminokwasów.', 'glicyna — nie wędruje; lizyna — wędruje do katody', 'pH < pI → kation.')),
+ B('Fruktoza i glukoza — budowa',
+   'Tekst autorski. Glukoza i fruktoza mają wzór C₆H₁₂O₆.',
+   T('podaj', 1, 'Podaj typ izomerii i różnicę w budowie.', 'izomeria funkcyjna: glukoza — aldoza (–CHO), fruktoza — ketoza (C=O)', '—'),
+   T('podaj', 1, 'Podaj odczynnik, który odróżni oba cukry.', 'woda bromowa z NaHCO₃', '—')),
+], 'nieorganiczne': [
+ B('Amoniak — synteza i właściwości',
+   'Tekst autorski. Amoniak rozpuszcza się w wodzie, tworząc roztwór o odczynie zasadowym.',
+   T('podaj', 1, 'Napisz równanie reakcji amoniaku z wodą.', 'NH₃ + H₂O ⇄ NH₄⁺ + OH⁻', '—'),
+   T('podaj', 1, 'Napisz równanie reakcji amoniaku z kwasem siarkowym(VI) (nadmiar NH₃).', '2NH₃ + H₂SO₄ → (NH₄)₂SO₄', '—')),
+], 'chemia-zycia': [
+ B('Zaprawa murarska',
+   'Tekst autorski. Zaprawa wapienna twardnieje na powietrzu w ciągu wielu tygodni.',
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego proces trwa długo.', 'Zależy od powolnego pochłaniania CO₂ z powietrza (niskie stężenie) i dyfuzji w głąb zaprawy.', '—'),
+   T('podaj', 1, 'Napisz równanie reakcji twardnienia.', 'Ca(OH)₂ + CO₂ → CaCO₃ + H₂O', '—')),
+], 'umiejetnosci': [
+ B('Hipoteza i zmienne',
+   'Tekst autorski. Uczeń sprawdza, czy temperatura wpływa na rozpuszczalność KNO₃.',
+   T('podaj', 1, 'Podaj zmienną niezależną i zależną.', 'niezależna: temperatura; zależna: masa KNO₃ rozpuszczona w 100 g wody', '—'),
+   T('podaj', 1, 'Podaj jedną wielkość, która musi być stała.', 'masa wody (lub czas mieszania, rozdrobnienie soli)', '—')),
+]}

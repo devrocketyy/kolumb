@@ -1127,6 +1127,51 @@
    "dzial": "atom"
   },
   {
+   "tytul": "Jony izoelektroniczne",
+   "material": "Tekst autorski. Rozpatrz drobiny: O²⁻, F⁻, Na⁺, Mg²⁺, Al³⁺.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wspólną liczbę elektronów.",
+     "odpowiedz": "10",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Konfiguracja neonu.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Uszereguj drobiny według malejącego promienia.",
+     "odpowiedz": "O²⁻ > F⁻ > Na⁺ > Mg²⁺ > Al³⁺",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Rośnie ładunek jądra.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-40",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Masa atomowa z widma",
+   "material": "Tekst autorski. Magnez: ²⁴Mg (79%), ²⁵Mg (10%), ²⁶Mg (11%). Przyjmij masy izotopów równe liczbom masowym.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz średnią masę atomową magnezu.",
+     "odpowiedz": "24,32 u",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "0,79 · 24 + 0,10 · 25 + 0,11 · 26 = 18,96 + 2,5 + 2,86.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-atom-41",
+   "dzial": "atom"
+  },
+  {
    "tytul": "Skład izotopowy chloru",
    "material": "Tekst autorski. Chlor występuje w przyrodzie jako mieszanina izotopów ³⁵Cl (masa 34,97 u) i ³⁷Cl (36,97 u). Średnia masa atomowa chloru wynosi 35,45 u.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1150,7 +1195,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-40",
+   "id": "b-atom-42",
    "dzial": "atom"
   },
   {
@@ -1177,7 +1222,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-41",
+   "id": "b-atom-43",
    "dzial": "atom"
   },
   {
@@ -1204,7 +1249,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-42",
+   "id": "b-atom-44",
    "dzial": "atom"
   },
   {
@@ -1240,7 +1285,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-43",
+   "id": "b-atom-45",
    "dzial": "atom"
   }
  ]

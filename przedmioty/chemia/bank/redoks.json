@@ -1127,6 +1127,33 @@
    "dzial": "redoks"
   },
   {
+   "tytul": "Potencjały i przewidywanie reakcji",
+   "material": "Tekst autorski. E°: Fe³⁺/Fe²⁺ +0,77 V; I₂/I⁻ +0,54 V; Br₂/Br⁻ +1,07 V.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Rozstrzygnij, czy Fe³⁺ utleni jony I⁻ i Br⁻. Uzasadnij.",
+     "odpowiedz": "I⁻ — tak (0,77 > 0,54); Br⁻ — nie (0,77 < 1,07)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Utleniacz musi mieć wyższy potencjał.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji, która zachodzi.",
+     "odpowiedz": "2Fe³⁺ + 2I⁻ → 2Fe²⁺ + I₂",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-redoks-43",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Manganometria",
    "material": "Tekst autorski. Próbkę soli Mohra zawierającą jony Fe²⁺ zmiareczkowano w środowisku kwasowym roztworem KMnO₄ o stężeniu 0,0200 mol·dm⁻³; zużyto 15,0 cm³ titranta.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1159,7 +1186,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-43",
+   "id": "b-redoks-44",
    "dzial": "redoks"
   },
   {
@@ -1195,7 +1222,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-redoks-44",
+   "id": "b-redoks-45",
    "dzial": "redoks"
   },
   {
@@ -1222,7 +1249,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-45",
+   "id": "b-redoks-46",
    "dzial": "redoks"
   },
   {
@@ -1249,7 +1276,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-46",
+   "id": "b-redoks-47",
    "dzial": "redoks"
   },
   {
@@ -1267,7 +1294,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-47",
+   "id": "b-redoks-48",
    "dzial": "redoks"
   },
   {
@@ -1294,7 +1321,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-48",
+   "id": "b-redoks-49",
    "dzial": "redoks"
   },
   {
@@ -1321,7 +1348,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-49",
+   "id": "b-redoks-50",
    "dzial": "redoks"
   },
   {
@@ -1339,7 +1366,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-50",
+   "id": "b-redoks-51",
    "dzial": "redoks"
   },
   {
@@ -1366,7 +1393,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-51",
+   "id": "b-redoks-52",
    "dzial": "redoks"
   },
   {
@@ -1393,7 +1420,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-52",
+   "id": "b-redoks-53",
    "dzial": "redoks"
   },
   {
@@ -1411,7 +1438,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-53",
+   "id": "b-redoks-54",
    "dzial": "redoks"
   },
   {
@@ -1429,7 +1456,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-54",
+   "id": "b-redoks-55",
    "dzial": "redoks"
   }
  ]
