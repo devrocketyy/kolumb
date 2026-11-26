@@ -52,20 +52,6 @@ S['g-rzeki'] = [
       uwaga='Ustrój deszczowo-śnieżny ma dodatkowe wyraźne wezbranie letnie; górski — maksima wiosną i latem.'),
 ]
 
-S['g-rzezba'] = [
- dict(typ='rysunek', tytul='Profil doliny V i U',
-      svg=('<path class="f2" d="M10 60 L90 230 L110 230 L190 60 L190 290 L10 290 Z"/>'
-           '<path d="M90 230 H110 V240 H90 Z" fill="#64b5f6"/>'
-           '<path class="f2" d="M210 60 L240 80 Q250 230 300 230 Q350 230 360 80 L390 60 L390 290 L210 290 Z"/>'
-           '<path d="M285 230 H315 V238 H285 Z" fill="#64b5f6"/>'),
-      znaczniki=[(100, 235, 70, 270, 'Dolina V', 'Erozja wgłębna rzeki górskiej'),
-                 (50, 140, 30, 110, 'Strome stoki', 'Ruchy masowe, spłukiwanie'),
-                 (300, 228, 300, 270, 'Dolina U (żłób)', 'Erozja lodowca górskiego'),
-                 (240, 80, 225, 45, 'Wiszące zbocza', 'Prawie pionowe ściany żłobu')],
-      opis='Porównanie przekroju doliny rzecznej i lodowcowej.',
-      uwaga='W Tatrach doliny U to np. Dolina Pięciu Stawów i Dolina Białki — przekształcone przez lodowce plejstoceńskie.'),
-]
-
 S['g-urbanizacja'] = [
  dict(typ='rysunek', tytul='Strefy w mieście (model koncentryczny)',
       svg=('<circle class="d" cx="200" cy="150" r="135" fill="#e8f5e9"/>'
@@ -79,19 +65,6 @@ S['g-urbanizacja'] = [
                  (200, 25, 370, 150, 'Strefa podmiejska', 'Suburbia, domy jednorodzinne, centra handlowe')],
       opis='Uproszczony model stref funkcjonalnych miasta.',
       uwaga='Ceny gruntów i wysokość zabudowy są największe w CBD i maleją ku przedmieściom.'),
-]
-
-S['g-demografia'] = [
- dict(typ='rysunek', tytul='Piramida wieku: kraj młody i starzejący się',
-      svg=(''.join(f'<rect x="{100-w}" y="{40+i*22}" width="{w}" height="18" fill="#64b5f6"/><rect x="100" y="{40+i*22}" width="{w}" height="18" fill="#ef9a9a"/>' for i, w in enumerate([8,14,22,32,44,58,72,85,95,]))
-           + ''.join(f'<rect x="{300-w}" y="{40+i*22}" width="{w}" height="18" fill="#64b5f6"/><rect x="300" y="{40+i*22}" width="{w}" height="18" fill="#ef9a9a"/>' for i, w in enumerate([30,48,60,66,64,58,52,44,40]))
-           + '<text class="t" x="55" y="30">Kraj A</text><text class="t" x="255" y="30">Kraj B</text>'),
-      znaczniki=[(100, 225, 60, 270, 'Szeroka podstawa', 'Wysoki przyrost naturalny — faza II'),
-                 (100, 50, 140, 50, 'Wąski wierzchołek', 'Krótkie trwanie życia'),
-                 (300, 125, 380, 110, 'Szeroki środek i wierzch', 'Starzenie się — faza IV/V'),
-                 (300, 225, 360, 270, 'Zwężona podstawa', 'Niska dzietność')],
-      opis='Porównanie struktury wieku i płci (dane umowne).',
-      uwaga='Kraj A np. Niger, kraj B np. Włochy lub Japonia.'),
 ]
 
 S['g-energetyka'] = [

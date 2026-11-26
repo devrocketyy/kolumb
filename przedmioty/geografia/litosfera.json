@@ -644,6 +644,57 @@
        "d": "Ognisko trzęsień i źródło magmy"
       }
      ]
+    },
+    {
+     "id": "sb1361e8c",
+     "typ": "rysunek",
+     "tytul": "Plama gorąca i łańcuch wysp",
+     "opis": "Powstawanie łańcucha wysp wulkanicznych nad plamą gorąca.",
+     "uwaga": "Wiek wysp rośnie w kierunku ruchu płyty — to dowód na przesuwanie się płyt.",
+     "svg": "<path d=\"M10 120 H390 V140 H10 Z\" style=\"fill:#64b5f6\"/><path class=\"f2\" d=\"M10 140 H390 V190 H10 Z\"/><path d=\"M10 190 H390 V290 H10 Z\" style=\"fill:#ffccbc\"/><path class=\"f2\" d=\"M300 140 L320 80 L340 140 Z M220 140 L235 105 L250 140 Z M140 140 L150 125 L160 140 Z M60 140 L65 135 L70 140 Z\"/><path style=\"fill:#e64a19\" d=\"M310 290 Q300 220 320 190 Q330 220 330 290 Z\"/><path class=\"s2\" d=\"M360 165 H260 M272 157 L260 165 L272 173\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 320,
+       "y": 85,
+       "lx": 350,
+       "ly": 60,
+       "n": "Czynny wulkan",
+       "d": "Leży nad plamą gorąca (np. Hawaje)"
+      },
+      {
+       "x": 235,
+       "y": 108,
+       "lx": 230,
+       "ly": 80,
+       "n": "Wygasły wulkan",
+       "d": "Przesunięty wraz z płytą"
+      },
+      {
+       "x": 65,
+       "y": 137,
+       "lx": 50,
+       "ly": 100,
+       "n": "Najstarsza wyspa",
+       "d": "Zerodowana, przechodzi w atol"
+      },
+      {
+       "x": 318,
+       "y": 250,
+       "lx": 350,
+       "ly": 240,
+       "n": "Pióropusz płaszcza",
+       "d": "Gorąca magma z głębi płaszcza"
+      },
+      {
+       "x": 300,
+       "y": 165,
+       "lx": 280,
+       "ly": 210,
+       "n": "Ruch płyty",
+       "d": "Płyta przesuwa się nad nieruchomą plamą"
+      }
+     ]
     }
    ]
   },
@@ -1607,49 +1658,6 @@
        "ly": 50,
        "n": "Rzeka",
        "d": "Jedno koryto do ujścia"
-      }
-     ]
-    },
-    {
-     "id": "s598d9e9a",
-     "typ": "rysunek",
-     "tytul": "Profil doliny V i U",
-     "opis": "Porównanie przekroju doliny rzecznej i lodowcowej.",
-     "uwaga": "W Tatrach doliny U to np. Dolina Pięciu Stawów i Dolina Białki — przekształcone przez lodowce plejstoceńskie.",
-     "svg": "<path class=\"f2\" d=\"M10 60 L90 230 L110 230 L190 60 L190 290 L10 290 Z\"/><path d=\"M90 230 H110 V240 H90 Z\" fill=\"#64b5f6\"/><path class=\"f2\" d=\"M210 60 L240 80 Q250 230 300 230 Q350 230 360 80 L390 60 L390 290 L210 290 Z\"/><path d=\"M285 230 H315 V238 H285 Z\" fill=\"#64b5f6\"/>",
-     "viewBox": "0 0 400 300",
-     "znaczniki": [
-      {
-       "x": 100,
-       "y": 235,
-       "lx": 70,
-       "ly": 270,
-       "n": "Dolina V",
-       "d": "Erozja wgłębna rzeki górskiej"
-      },
-      {
-       "x": 50,
-       "y": 140,
-       "lx": 30,
-       "ly": 110,
-       "n": "Strome stoki",
-       "d": "Ruchy masowe, spłukiwanie"
-      },
-      {
-       "x": 300,
-       "y": 228,
-       "lx": 300,
-       "ly": 270,
-       "n": "Dolina U (żłób)",
-       "d": "Erozja lodowca górskiego"
-      },
-      {
-       "x": 240,
-       "y": 80,
-       "lx": 225,
-       "ly": 45,
-       "n": "Wiszące zbocza",
-       "d": "Prawie pionowe ściany żłobu"
       }
      ]
     }

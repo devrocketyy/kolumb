@@ -423,6 +423,57 @@
        "d": "Przy przekroczeniu północy lub linii zmiany daty zmień datę."
       }
      ]
+    },
+    {
+     "id": "see30ca12",
+     "typ": "rysunek",
+     "tytul": "Strefy czasowe wokół Polski",
+     "opis": "Uproszczony układ stref czasowych w Europie.",
+     "uwaga": "Południkiem środkowym strefy UTC+1 jest 15°E — przechodzi przez Zgorzelec i Stargard.",
+     "svg": "<rect x=\"20\" y=\"40\" width=\"90\" height=\"200\" style=\"fill:#e3f2fd;stroke:#999\"/><text class=\"t\" x=\"40\" y=\"260\">UTC+0</text><rect x=\"110\" y=\"40\" width=\"90\" height=\"200\" style=\"fill:#c8e6c9;stroke:#999\"/><text class=\"t\" x=\"130\" y=\"260\">UTC+1</text><rect x=\"200\" y=\"40\" width=\"90\" height=\"200\" style=\"fill:#fff9c4;stroke:#999\"/><text class=\"t\" x=\"220\" y=\"260\">UTC+2</text><rect x=\"290\" y=\"40\" width=\"90\" height=\"200\" style=\"fill:#ffe0b2;stroke:#999\"/><text class=\"t\" x=\"310\" y=\"260\">UTC+3</text><path class=\"dash\" d=\"M65 40 V240 M155 40 V240 M245 40 V240 M335 40 V240\"/><text class=\"t\" x=\"55\" y=\"30\">0°</text><text class=\"t\" x=\"140\" y=\"30\">15°E</text><text class=\"t\" x=\"230\" y=\"30\">30°E</text><text class=\"t\" x=\"320\" y=\"30\">45°E</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 65,
+       "y": 120,
+       "lx": 40,
+       "ly": 100,
+       "n": "Londyn",
+       "d": "UTC+0 (zimą)"
+      },
+      {
+       "x": 155,
+       "y": 140,
+       "lx": 175,
+       "ly": 120,
+       "n": "Polska",
+       "d": "UTC+1 zimą, UTC+2 latem"
+      },
+      {
+       "x": 245,
+       "y": 160,
+       "lx": 265,
+       "ly": 140,
+       "n": "Ukraina, Finlandia",
+       "d": "UTC+2"
+      },
+      {
+       "x": 335,
+       "y": 180,
+       "lx": 350,
+       "ly": 160,
+       "n": "Moskwa",
+       "d": "UTC+3 przez cały rok"
+      },
+      {
+       "x": 110,
+       "y": 210,
+       "lx": 120,
+       "ly": 225,
+       "n": "Granica strefy",
+       "d": "Co 15° — 1 godzina (granice zwykle wzdłuż granic państw)"
+      }
+     ]
     }
    ]
   },

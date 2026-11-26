@@ -1195,6 +1195,43 @@
      "wyjasnienie": "Handel z Chinami.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s9d4aafe4",
+     "typ": "rysunek",
+     "tytul": "Struktura zatrudnienia a poziom rozwoju",
+     "opis": "Udział sektorów w zatrudnieniu (rolnictwo zielone, przemysł brązowy, usługi niebieskie), dane umowne.",
+     "uwaga": "Teoria trzech sektorów (Fisher–Clark): wraz z rozwojem zatrudnienie przesuwa się z rolnictwa do przemysłu, a potem do usług.",
+     "svg": "<rect x=\"60\" y=\"120\" width=\"60\" height=\"140\" style=\"fill:#9ccc65\"/><rect x=\"60\" y=\"100\" width=\"60\" height=\"20\" style=\"fill:#8d6e63\"/><rect x=\"60\" y=\"60\" width=\"60\" height=\"40\" style=\"fill:#64b5f6\"/><rect x=\"170\" y=\"200\" width=\"60\" height=\"60\" style=\"fill:#9ccc65\"/><rect x=\"170\" y=\"140\" width=\"60\" height=\"60\" style=\"fill:#8d6e63\"/><rect x=\"170\" y=\"60\" width=\"60\" height=\"80\" style=\"fill:#64b5f6\"/><rect x=\"280\" y=\"254\" width=\"60\" height=\"6\" style=\"fill:#9ccc65\"/><rect x=\"280\" y=\"214\" width=\"60\" height=\"40\" style=\"fill:#8d6e63\"/><rect x=\"280\" y=\"60\" width=\"60\" height=\"154\" style=\"fill:#64b5f6\"/><text class=\"t\" x=\"55\" y=\"280\">Kraj A</text><text class=\"t\" x=\"165\" y=\"280\">Kraj B</text><text class=\"t\" x=\"275\" y=\"280\">Kraj C</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 90,
+       "y": 190,
+       "lx": 20,
+       "ly": 200,
+       "n": "Rolnictwo",
+       "d": "Kraj A: 70% — przedprzemysłowy"
+      },
+      {
+       "x": 200,
+       "y": 170,
+       "lx": 140,
+       "ly": 140,
+       "n": "Przemysł",
+       "d": "Kraj B: 30% — przemysłowy"
+      },
+      {
+       "x": 310,
+       "y": 130,
+       "lx": 370,
+       "ly": 100,
+       "n": "Usługi",
+       "d": "Kraj C: 77% — postindustrialny"
+      }
+     ]
+    }
    ]
   }
  ]
