@@ -3,7 +3,7 @@
 Numer odcinka → id tematu/działu bierze z planu (docs/10 biologia, docs/11 historia).
   python3 narzedzia/spis-podcastu.py"""
 import glob, json, math, os, re
-PLANY = {'biologia': 'docs/10-podcast-biologia-plan.md', 'historia': 'docs/11-podcast-historia-plan.md'}
+PLANY = {'biologia': 'docs/10-podcast-biologia-plan.md', 'historia': 'docs/11-podcast-historia-plan.md', 'chemia': 'docs/17-podcast-chemia-plan.md'}
 ids = {}
 for przedmiot, plan in PLANY.items():
     if os.path.exists(plan):
@@ -16,7 +16,7 @@ for pj in sorted(glob.glob('podcast/mp3/*.json')):
     if not m or (m.group(1), int(m.group(2))) not in ids:
         print('pomijam', d['odcinek']); continue
     przedmiot, ident = m.group(1), ids[(m.group(1), int(m.group(2)))]
-    typ = 'p' if ident.startswith(('b-', 'h-', 's-')) else 'd'
+    typ = 'p' if ident.startswith(('b-', 'h-', 's-', 'c-')) else 'd'
     wpis = {'plik': f"podcast/mp3/{d['odcinek']}.mp3", 'min': max(1, math.ceil(d['dlugosc'] / 60)), 'czasy': pj}
     if os.path.exists(f"podcast/pytania/{d['odcinek']}.json"):
         wpis['pytania'] = f"podcast/pytania/{d['odcinek']}.json"

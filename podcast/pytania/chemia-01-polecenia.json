@@ -1,0 +1,11 @@
+{
+  "odcinek": "chemia-01-polecenia",
+  "pytania": [
+    {"id": "obserwacja", "typ": "abcd", "pytanie": "Do cynku wlano kwas solny. Która odpowiedź jest obserwacją?", "odpowiedzi": ["Wydzielają się pęcherzyki bezbarwnego gazu", "Wydziela się wodór", "Powstaje chlorek cynku", "Zachodzi reakcja redoks"], "poprawna": 0, "wyjasnienie": "Obserwacja opisuje to, co widać. Nazwa gazu to już wniosek."},
+    {"id": "wyjasnij", "typ": "abcd", "pytanie": "Czego wymaga polecenie „wyjaśnij”?", "odpowiedzi": ["Przyczyny i skutku", "Samego wzoru substancji", "Rozstrzygnięcia tak lub nie", "Wyniku z jednostką"], "poprawna": 0, "wyjasnienie": "„Wyjaśnij” to związek przyczyny ze skutkiem, np. zdanie z „ponieważ”."},
+    {"id": "forma-jonowa", "typ": "abcd", "pytanie": "Jak zapisujesz kwas octowy w równaniu jonowym skróconym?", "odpowiedzi": ["CH₃COOH", "CH₃COO⁻ + H⁺", "CH₃COO⁻ + H₃O⁺", "Pomijasz go"], "poprawna": 0, "wyjasnienie": "Słabe elektrolity zapisuje się w formie cząsteczkowej."},
+    {"id": "odczynniki", "typ": "abcd", "pytanie": "Polecenie: „Wybierz odczynnik spośród podanych”. Znasz lepszy spoza listy. Co robisz?", "odpowiedzi": ["Wybierasz odczynnik z listy", "Podajesz swój, lepszy", "Podajesz oba", "Pomijasz zadanie"], "poprawna": 0, "wyjasnienie": "Odczynnik spoza listy jest niezgodny z poleceniem."},
+    {"id": "dwie-odpowiedzi", "typ": "abcd", "pytanie": "Uczeń napisał: „Gaz to tlen albo wodór”. Poprawny jest wodór. Ile punktów?", "odpowiedzi": ["Zero", "Pełna liczba punktów", "Połowa punktów", "Punkt, jeśli dopisze uzasadnienie"], "poprawna": 0, "wyjasnienie": "Dwie sprzeczne odpowiedzi ocenia się jak błędną."},
+    {"id": "podsumowanie", "typ": "abcd", "pytanie": "Polecenie: „Oceń, czy reakcja zaszła”. Co musi zawierać odpowiedź?", "odpowiedzi": ["Rozstrzygnięcie i uzasadnienie", "Samo równanie reakcji", "Samo uzasadnienie", "Nazwę produktu"], "poprawna": 0, "wyjasnienie": "Bez rozstrzygnięcia nie ma punktu, nawet przy dobrym argumencie."}
+  ]
+}
