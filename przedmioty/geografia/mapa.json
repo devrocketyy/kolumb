@@ -124,6 +124,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
+     "id": "fffe6f54b",
+     "przod": "Skala 1:1 000 000",
+     "tyl": "1 cm na mapie = 10 km w terenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f1116797e",
+     "przod": "Skala 1:200 000",
+     "tyl": "1 cm = 2 km — mapy samochodowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f3671a563",
+     "przod": "Pomniejszenie skali",
+     "tyl": "Mapa 1:100 000 jest w mniejszej skali niż 1:50 000 — pokazuje większy obszar mniej szczegółowo.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f8302ddba",
+     "przod": "Obliczanie skali z porównania odległości",
+     "tyl": "Np. 15 km w terenie = 3 cm na mapie → 1 cm = 5 km → skala 1:500 000.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
      "id": "f533f96a2",
      "przod": "Skala 1:10 000 — mianowana",
      "tyl": "1 cm — 100 m.",
@@ -229,6 +253,12 @@
      "id": "f0346ed98",
      "przod": "Rozpoznaj: Odcinkami lub nitką: drogę dzieli się na krótkie proste odcinki i sumuje ich długości.",
      "tyl": "Pomiar drogi krętej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fcf93f9fc",
+     "przod": "Rozpoznaj: Np. 15 km w terenie = 3 cm na mapie → 1 cm = 5 km → skala 1:500 000.",
+     "tyl": "Obliczanie skali z porównania odległości",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
@@ -399,6 +429,45 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Ta sama odległość w terenie zajmuje dwa razy więcej centymetrów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1da14b61",
+     "pytanie": "Odległość 15 km w terenie ma na mapie 3 cm. Skala mapy:",
+     "odpowiedzi": [
+      "1:50 000",
+      "1:5 000 000",
+      "1:150 000",
+      "1:500 000"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "1 cm = 5 km.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8e07faf3",
+     "pytanie": "Na mapie 1:200 000 odcinek 4,5 cm to w terenie:",
+     "odpowiedzi": [
+      "0,9 km",
+      "45 km",
+      "9 km",
+      "90 km"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "4,5 × 2 km.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p463aba96",
+     "pytanie": "W większej skali jest mapa:",
+     "odpowiedzi": [
+      "1:100 000",
+      "1:1 000 000",
+      "1:500 000",
+      "1:25 000"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Mniejszy mianownik.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
@@ -1508,6 +1577,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
     },
     {
+     "id": "f37b666c7",
+     "przod": "Azymut topograficzny",
+     "tyl": "Kąt mierzony od kierunku północy siatki kilometrowej mapy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f70b9bd39",
+     "przod": "Wyznaczanie azymutu na mapie",
+     "tyl": "Kątomierz przykładamy do linii północ–południe; kąt mierzymy zgodnie z ruchem wskazówek zegara.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f729c894a",
+     "przod": "Marsz na azymut",
+     "tyl": "Poruszanie się w terenie w stałym kierunku wyznaczonym kompasem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f27e3313f",
+     "przod": "Kierunek przeciwny do azymutu 60°",
+     "tyl": "Azymut wsteczny 240° — kierunek południowo-zachodni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
      "id": "f54484475",
      "przod": "Rozpoznaj: Wskazówkę godzinową kieruje się na Słońce; dwusieczna kąta z „12” (latem z „1”) wskazuje południe.",
      "tyl": "Wyznaczanie północy zegarkiem",
@@ -1553,6 +1646,24 @@
      "id": "f0c524ee8",
      "przod": "Rozpoznaj: Domyślnie góra mapy to północ, chyba że strzałka północy wskazuje inaczej.",
      "tyl": "Kierunek na mapie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f8c0242e4",
+     "przod": "Rozpoznaj: Kąt mierzony od kierunku północy siatki kilometrowej mapy.",
+     "tyl": "Azymut topograficzny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fc2c91af9",
+     "przod": "Rozpoznaj: Kątomierz przykładamy do linii północ–południe; kąt mierzymy zgodnie z ruchem wskazówek zegara.",
+     "tyl": "Wyznaczanie azymutu na mapie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fd3497657",
+     "przod": "Rozpoznaj: Poruszanie się w terenie w stałym kierunku wyznaczonym kompasem.",
+     "tyl": "Marsz na azymut",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
     }
    ],
@@ -1763,6 +1874,32 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Między W (270°) a N (360°).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2709cc9c",
+     "pytanie": "Azymut mierzymy od kierunku:",
+     "odpowiedzi": [
+      "południowego, przeciwnie do wskazówek",
+      "północnego, zgodnie z ruchem wskazówek zegara",
+      "zachodniego, przeciwnie do wskazówek",
+      "wschodniego, zgodnie ze wskazówkami"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Od N.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p29d89616",
+     "pytanie": "Azymut 270° wskazuje kierunek:",
+     "odpowiedzi": [
+      "wschodni",
+      "południowy",
+      "północny",
+      "zachodni"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "W.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

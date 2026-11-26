@@ -535,6 +535,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
     },
     {
+     "id": "f3fd0f34c",
+     "przod": "Wykres słupkowy skumulowany",
+     "tyl": "Słupki dzielone na części — pokazuje strukturę w kilku jednostkach naraz.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "fe439594a",
+     "przod": "Diagram trójkątny",
+     "tyl": "Pokazuje strukturę z trzech składników sumujących się do 100% — np. zatrudnienie w trzech sektorach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f4e7938a0",
+     "przod": "Wykres dwuosiowy",
+     "tyl": "Dwie wielkości o różnych jednostkach na dwóch osiach — np. klimatogram.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "fd6ee074b",
+     "przod": "Anamorfoza",
+     "tyl": "Mapa, na której powierzchnia państw jest proporcjonalna do zjawiska (np. liczby ludności).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
      "id": "fdbf5b2be",
      "przod": "Rozpoznaj: Mapa z diagramami (słupki, koła) umieszczonymi w jednostkach przestrzennych — pokazuje wartości bezwzględne, np. liczbę ludności.",
      "tyl": "Kartodiagram",
@@ -598,6 +622,24 @@
      "id": "f52d28b8d",
      "przod": "Rozpoznaj: Linie łączące punkty o tej samej wartości (izotermy, izohiety, poziomice).",
      "tyl": "Metoda izolinii",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f670539a8",
+     "przod": "Rozpoznaj: Pokazuje strukturę z trzech składników sumujących się do 100% — np. zatrudnienie w trzech sektorach.",
+     "tyl": "Diagram trójkątny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f6ced7f55",
+     "przod": "Rozpoznaj: Dwie wielkości o różnych jednostkach na dwóch osiach — np. klimatogram.",
+     "tyl": "Wykres dwuosiowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f95f0c134",
+     "przod": "Rozpoznaj: Mapa, na której powierzchnia państw jest proporcjonalna do zjawiska (np. liczby ludności).",
+     "tyl": "Anamorfoza",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
     }
    ],
@@ -809,6 +851,32 @@
      "poprawna": "D",
      "wyjasnienie": "Linia zasięgu.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1e691534",
+     "pytanie": "Strukturę zatrudnienia w trzech sektorach dla wielu krajów najlepiej pokazać na:",
+     "odpowiedzi": [
+      "profilu terenu",
+      "mapie izarytmicznej",
+      "wykresie liniowym",
+      "diagramie trójkątnym"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Trzy składniki = 100%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pebcd4949",
+     "pytanie": "Mapa, na której wielkość państw zależy od liczby ludności, to:",
+     "odpowiedzi": [
+      "anamorfoza",
+      "kartogram",
+      "mapa hipsometryczna",
+      "ortofotomapa"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Zniekształcona powierzchnia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -951,6 +1019,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
     },
     {
+     "id": "fea8d91bd",
+     "przod": "Gęstość sieci kolejowej",
+     "tyl": "Długość linii (km) na 100 km² powierzchni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "fabdba3f9",
+     "przod": "Średnia ważona",
+     "tyl": "Gdy jednostki mają różną wielkość, średnią liczy się z wagami (np. ludnością).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "fd5b35b85",
+     "przod": "Zaokrąglenia na maturze",
+     "tyl": "Zaokrąglaj dopiero wynik końcowy, z dokładnością podaną w poleceniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
      "id": "f28a2c695",
      "przod": "Rozpoznaj: Liczba ludności podzielona przez powierzchnię, w os./km².",
      "tyl": "Gęstość zaludnienia",
@@ -1020,6 +1106,12 @@
      "id": "fdd805cde",
      "przod": "Rozpoznaj: Zbiory / powierzchnia uprawy (t/ha lub dt/ha).",
      "tyl": "Plon",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f9c60c4cc",
+     "przod": "Rozpoznaj: Długość linii (km) na 100 km² powierzchni.",
+     "tyl": "Gęstość sieci kolejowej",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
     }
    ],
@@ -1230,6 +1322,32 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "6 t/ha.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1b1300ab",
+     "pytanie": "Województwo 20 000 km², lasy 6000 km². Lesistość:",
+     "odpowiedzi": [
+      "33%",
+      "60%",
+      "30%",
+      "3%"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "6000/20 000.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p36021210",
+     "pytanie": "Linie kolejowe 1800 km na 20 000 km². Gęstość sieci:",
+     "odpowiedzi": [
+      "0,9 km/100 km²",
+      "11 km/100 km²",
+      "90 km/100 km²",
+      "9 km/100 km²"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "1800/200.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
