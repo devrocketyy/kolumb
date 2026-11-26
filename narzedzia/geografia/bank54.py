@@ -40,7 +40,8 @@ BANK = {'mapa': [
 ], 'rolnictwo': [
  B('Plon ziemniaków w Holandii',
    'Tekst autorski. Holandia zebrała 6,6 mln t ziemniaków z 165 tys. ha.',
-   T('oblicz', 1, 'Oblicz plon ziemniaków.', '400 dt/ha', '40 t/ha.')),
+   T('oblicz', 1, 'Oblicz plon ziemniaków.', '400 dt/ha', '40 t/ha.'),
+   T('podaj', 1, 'Podaj, ile razy plon ten jest wyższy od polskiego (ok. 300 dt/ha). Wynik zaokrąglij do 0,01.', 'ok. 1,33 razy', '400 / 300.')),
 ], 'przemysl': [
  B('Długość linii kolei dużych prędkości',
    'Tekst autorski. Chiny mają ok. 45 000 km linii kolei dużych prędkości, a cały świat ok. 65 000 km.',
