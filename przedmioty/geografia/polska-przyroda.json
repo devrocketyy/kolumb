@@ -1,0 +1,700 @@
+{
+ "id": "polska-przyroda",
+ "nazwa": "Środowisko przyrodnicze Polski",
+ "opis": "Geologia i rzeźba, klimat, wody, gleby, krajobrazy i ochrona przyrody Polski.",
+ "poddzialy": [
+  {
+   "id": "g-pl-geologia",
+   "nazwa": "Budowa geologiczna, rzeźba i surowce Polski",
+   "opis": "Wymaganie XIII.1–3 podstawy programowej.",
+   "wymaganie": "XIII.1–3",
+   "fiszki": [
+    {
+     "id": "fc559f915",
+     "przod": "Pasy rzeźby Polski (od północy)",
+     "tyl": "Pobrzeża, pojezierza, niziny środkowopolskie, wyżyny, kotliny podkarpackie, góry.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "fc5dbcd21",
+     "przod": "Najwyższy i najniższy punkt Polski",
+     "tyl": "Rysy — 2499 m n.p.m.; Raczki Elbląskie na Żuławach — ok. 1,8 m p.p.m.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "f54518106",
+     "przod": "Zlodowacenia skandynawskie w Polsce",
+     "tyl": "Południowopolskie, środkowopolskie i północnopolskie (Wisły). Ostatnie ukształtowało pojezierza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "f57db7fe3",
+     "przod": "Rzeźba młodoglacjalna",
+     "tyl": "Świeża rzeźba po ostatnim zlodowaceniu: liczne jeziora, wzgórza morenowe — pojezierza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "f90cb64af",
+     "przod": "Rzeźba staroglacjalna",
+     "tyl": "Złagodzona rzeźba po starszych zlodowaceniach, mało jezior — niziny środkowopolskie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "f22b4edfe",
+     "przod": "Lessy w Polsce",
+     "tyl": "Osady pyłowe nawiane w czasie zlodowaceń; podłoże żyznych gleb na Wyżynie Lubelskiej, Sandomierskiej i Płaskowyżu Głubczyckim.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "f80ffa8cd",
+     "przod": "Węgiel kamienny w Polsce",
+     "tyl": "Górnośląskie Zagłębie Węglowe i Lubelskie Zagłębie Węglowe (kopalnia Bogdanka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "f8982934a",
+     "przod": "Węgiel brunatny w Polsce",
+     "tyl": "Bełchatów, Turów, rejon Konina — wydobycie odkrywkowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "fb1855af8",
+     "przod": "Rudy miedzi w Polsce",
+     "tyl": "Legnicko-Głogowski Okręg Miedziowy (LGOM).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "f2ea5b762",
+     "przod": "Sól kamienna w Polsce",
+     "tyl": "Wieliczka i Bochnia (historycznie), Kłodawa, rejon Inowrocławia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "f09bfde0c",
+     "przod": "Najstarsze góry w Polsce",
+     "tyl": "Sudety i Góry Świętokrzyskie — fałdowane w orogenezach kaledońskiej i hercyńskiej, potem zrównane i odmłodzone.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "fb62f1666",
+     "przod": "Karpaty",
+     "tyl": "Góry młode, fałdowane w orogenezie alpejskiej; Tatry to ich najwyższa część.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "f837923ec",
+     "przod": "Rozpoznaj: Rysy — 2499 m n.p.m.; Raczki Elbląskie na Żuławach — ok. 1,8 m p.p.m.",
+     "tyl": "Najwyższy i najniższy punkt Polski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "f337d47ad",
+     "przod": "Rozpoznaj: Południowopolskie, środkowopolskie i północnopolskie (Wisły). Ostatnie ukształtowało pojezierza.",
+     "tyl": "Zlodowacenia skandynawskie w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "fa628c494",
+     "przod": "Rozpoznaj: Osady pyłowe nawiane w czasie zlodowaceń; podłoże żyznych gleb na Wyżynie Lubelskiej, Sandomierskiej i Płaskowyżu Głubczyckim.",
+     "tyl": "Lessy w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "f693468b1",
+     "przod": "Rozpoznaj: Górnośląskie Zagłębie Węglowe i Lubelskie Zagłębie Węglowe (kopalnia Bogdanka).",
+     "tyl": "Węgiel kamienny w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "f38d0440e",
+     "przod": "Rozpoznaj: Bełchatów, Turów, rejon Konina — wydobycie odkrywkowe.",
+     "tyl": "Węgiel brunatny w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "f207d4c92",
+     "przod": "Rozpoznaj: Wieliczka i Bochnia (historycznie), Kłodawa, rejon Inowrocławia.",
+     "tyl": "Sól kamienna w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    },
+    {
+     "id": "f88b0529f",
+     "przod": "Rozpoznaj: Góry młode, fałdowane w orogenezie alpejskiej; Tatry to ich najwyższa część.",
+     "tyl": "Karpaty",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.1–3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pe1c69428",
+     "pytanie": "Rzeźba z licznymi jeziorami i świeżymi wzgórzami morenowymi występuje w pasie:",
+     "odpowiedzi": [
+      "nizin środkowopolskich",
+      "kotlin podkarpackich",
+      "pojezierzy",
+      "wyżyn"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Pozostałość zlodowacenia północnopolskiego.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p51de5284",
+     "pytanie": "Najniższy punkt Polski leży na:",
+     "odpowiedzi": [
+      "Nizinie Śląskiej",
+      "Żuławach Wiślanych",
+      "Kotlinie Sandomierskiej",
+      "Pobrzeżu Szczecińskim"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Raczki Elbląskie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p62e1d682",
+     "pytanie": "Wydobycie węgla brunatnego metodą odkrywkową prowadzi się w:",
+     "odpowiedzi": [
+      "Bogdance",
+      "Kłodawie",
+      "Lubinie",
+      "Bełchatowie"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Bogdanka — węgiel kamienny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p25030bdb",
+     "pytanie": "Rudy miedzi wydobywa się w Polsce głównie w:",
+     "odpowiedzi": [
+      "rejonie Tarnobrzega",
+      "GZW na Śląsku",
+      "Zagłębiu Lubelskim",
+      "LGOM na Dolnym Śląsku"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Legnica, Głogów, Lubin.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd46c83f6",
+     "pytanie": "Karpaty powstały w orogenezie:",
+     "odpowiedzi": [
+      "kaledońskiej",
+      "hercyńskiej",
+      "prekambryjskiej",
+      "alpejskiej"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Góry młode.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2734049d",
+     "pytanie": "Żyzne gleby Wyżyny Lubelskiej rozwinęły się głównie na:",
+     "odpowiedzi": [
+      "glinach morenowych",
+      "piaskach sandrowych",
+      "torfach",
+      "lessach"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Pyły nawiane w plejstocenie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-pl-klimat",
+   "nazwa": "Klimat Polski",
+   "opis": "Wymaganie XIII.4 podstawy programowej.",
+   "wymaganie": "XIII.4",
+   "fiszki": [
+    {
+     "id": "f20b95136",
+     "przod": "Średnia roczna temperatura w Polsce",
+     "tyl": "Około 8–9°C na nizinach; w górach znacznie niższa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "fba073d72",
+     "przod": "Średnia roczna suma opadów w Polsce",
+     "tyl": "Około 600 mm; najwięcej w Tatrach (powyżej 1500 mm), najmniej na Kujawach (poniżej 500 mm).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f1cce72fa",
+     "przod": "Okres wegetacyjny w Polsce",
+     "tyl": "Najdłuższy na zachodzie i południowym zachodzie (np. Nizina Śląska), najkrótszy na północnym wschodzie i w górach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "ffd0158d1",
+     "przod": "Przeważające wiatry w Polsce",
+     "tyl": "Zachodnie — napływ powietrza polarno-morskiego znad Atlantyku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f42af04da",
+     "przod": "Wiatr halny",
+     "tyl": "Ciepły, suchy wiatr fenowy w Tatrach i Podhalu, wiejący najczęściej jesienią i wiosną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f2b07bced",
+     "przod": "Wzrost kontynentalizmu w Polsce",
+     "tyl": "Amplituda roczna temperatury rośnie z zachodu na wschód; zimy są chłodniejsze na wschodzie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "fd1e9afbf",
+     "przod": "Najzimniejszy region Polski (poza górami)",
+     "tyl": "Północno-wschodnia część kraju — Suwalszczyzna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f08b5beb8",
+     "przod": "Pory roku termiczne",
+     "tyl": "Wyróżnia się sześć: przedwiośnie, wiosna, lato, przedzimie, zima i jesień.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f79ec4989",
+     "przod": "Rozpoznaj: Około 8–9°C na nizinach; w górach znacznie niższa.",
+     "tyl": "Średnia roczna temperatura w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f21c09e72",
+     "przod": "Rozpoznaj: Około 600 mm; najwięcej w Tatrach (powyżej 1500 mm), najmniej na Kujawach (poniżej 500 mm).",
+     "tyl": "Średnia roczna suma opadów w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "fdabaf672",
+     "przod": "Rozpoznaj: Najdłuższy na zachodzie i południowym zachodzie (np. Nizina Śląska), najkrótszy na północnym wschodzie i w górach.",
+     "tyl": "Okres wegetacyjny w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f27400ee0",
+     "przod": "Rozpoznaj: Zachodnie — napływ powietrza polarno-morskiego znad Atlantyku.",
+     "tyl": "Przeważające wiatry w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "ff65e6085",
+     "przod": "Rozpoznaj: Amplituda roczna temperatury rośnie z zachodu na wschód; zimy są chłodniejsze na wschodzie.",
+     "tyl": "Wzrost kontynentalizmu w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "fe4d9c33c",
+     "przod": "Rozpoznaj: Północno-wschodnia część kraju — Suwalszczyzna.",
+     "tyl": "Najzimniejszy region Polski (poza górami)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f5353b152",
+     "przod": "Rozpoznaj: Wyróżnia się sześć: przedwiośnie, wiosna, lato, przedzimie, zima i jesień.",
+     "tyl": "Pory roku termiczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pe9b09844",
+     "pytanie": "Najmniejsze opady roczne w Polsce występują na:",
+     "odpowiedzi": [
+      "Pogórzu Karpackim",
+      "Pojezierzu Pomorskim",
+      "Kujawach",
+      "Podhalu"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Cień opadowy, poniżej 500 mm.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7696bdee",
+     "pytanie": "Okres wegetacyjny jest najdłuższy na:",
+     "odpowiedzi": [
+      "Podhalu",
+      "Suwalszczyźnie",
+      "Pojezierzu Mazurskim",
+      "Nizinie Śląskiej"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Łagodny klimat na zachodzie i południowym zachodzie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd80029d0",
+     "pytanie": "Amplituda roczna temperatury w Polsce rośnie w kierunku:",
+     "odpowiedzi": [
+      "zachodnim",
+      "wschodnim",
+      "północnym",
+      "tylko ku górom"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wpływy kontynentalne ze wschodu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1e8a9815",
+     "pytanie": "Przeważają w Polsce wiatry z kierunku:",
+     "odpowiedzi": [
+      "północnego",
+      "południowego",
+      "zachodniego",
+      "wschodniego"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Cyrkulacja zachodnia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9f233c4c",
+     "pytanie": "Średnia roczna suma opadów w Polsce wynosi około:",
+     "odpowiedzi": [
+      "1500 mm",
+      "1000 mm",
+      "200 mm",
+      "600 mm"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Więcej w górach, mniej na Kujawach.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7cb4f6cc",
+     "pytanie": "Wiatr halny jest wiatrem typu:",
+     "odpowiedzi": [
+      "fenowego — ciepłym i suchym",
+      "pasatowego — stałym",
+      "monsunowego — wilgotnym",
+      "bryzowego — od morza"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Opada po zawietrznej stronie Tatr.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-pl-wody",
+   "nazwa": "Wody Polski i Bałtyk",
+   "opis": "Wymaganie XIII.5 podstawy programowej.",
+   "wymaganie": "XIII.5",
+   "fiszki": [
+    {
+     "id": "f7b458f47",
+     "przod": "Zlewisko Bałtyku w Polsce",
+     "tyl": "Ponad 99% obszaru Polski leży w zlewisku Morza Bałtyckiego; dorzecza Wisły (ok. 54%) i Odry (ok. 34%).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.5"
+    },
+    {
+     "id": "f7a2f02ec",
+     "przod": "Wisła",
+     "tyl": "Najdłuższa rzeka Polski (ponad 1000 km), wypływa z Baraniej Góry w Beskidzie Śląskim, uchodzi do Zatoki Gdańskiej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.5"
+    },
+    {
+     "id": "fa65b92aa",
+     "przod": "Odra",
+     "tyl": "Druga co do długości rzeka Polski, wypływa w Czechach, uchodzi do Zalewu Szczecińskiego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.5"
+    },
+    {
+     "id": "f8a8bcd21",
+     "przod": "Asymetria dorzecza Wisły",
+     "tyl": "Dorzecze jest prawostronnie asymetryczne — więcej i dłuższych dopływów prawych (np. Bug, San, Dunajec).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.5"
+    },
+    {
+     "id": "fb5fcfc36",
+     "przod": "Największe jezioro Polski",
+     "tyl": "Śniardwy (ok. 113 km²) na Pojezierzu Mazurskim.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.5"
+    },
+    {
+     "id": "f31b92f68",
+     "przod": "Bałtyk",
+     "tyl": "Płytkie (średnio ok. 52 m), słabo zasolone morze śródlądowe, połączone z oceanem przez cieśniny duńskie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.5"
+    },
+    {
+     "id": "ff5df9dfe",
+     "przod": "Powodzie w Polsce",
+     "tyl": "Roztopowe (wiosna), opadowe (lato — najgroźniejsze w górach), zatorowe (lód) i sztormowe (wybrzeże).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.5"
+    },
+    {
+     "id": "f657eea1f",
+     "przod": "Zbiorniki retencyjne",
+     "tyl": "Gromadzą wodę, chronią przed powodzią i suszą, np. Solina na Sanie, Zbiornik Czorsztyński na Dunajcu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.5"
+    },
+    {
+     "id": "f7136821e",
+     "przod": "Rozpoznaj: Najdłuższa rzeka Polski (ponad 1000 km), wypływa z Baraniej Góry w Beskidzie Śląskim, uchodzi do Zatoki Gdańskiej.",
+     "tyl": "Wisła",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.5"
+    },
+    {
+     "id": "f9e345574",
+     "przod": "Rozpoznaj: Druga co do długości rzeka Polski, wypływa w Czechach, uchodzi do Zalewu Szczecińskiego.",
+     "tyl": "Odra",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.5"
+    },
+    {
+     "id": "f9c78ba48",
+     "przod": "Rozpoznaj: Śniardwy (ok. 113 km²) na Pojezierzu Mazurskim.",
+     "tyl": "Największe jezioro Polski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.5"
+    },
+    {
+     "id": "f84ae9bc0",
+     "przod": "Rozpoznaj: Płytkie (średnio ok. 52 m), słabo zasolone morze śródlądowe, połączone z oceanem przez cieśniny duńskie.",
+     "tyl": "Bałtyk",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.5"
+    },
+    {
+     "id": "f83d32a55",
+     "przod": "Rozpoznaj: Roztopowe (wiosna), opadowe (lato — najgroźniejsze w górach), zatorowe (lód) i sztormowe (wybrzeże).",
+     "tyl": "Powodzie w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.5"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p5b73fdb7",
+     "pytanie": "Największym jeziorem Polski jest:",
+     "odpowiedzi": [
+      "Mamry",
+      "Hańcza",
+      "Śniardwy",
+      "Łebsko"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Hańcza — najgłębsze.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7510c02b",
+     "pytanie": "Dorzecze Wisły jest asymetryczne, ponieważ:",
+     "odpowiedzi": [
+      "ma więcej i dłuższych dopływów prawostronnych",
+      "nie ma dopływów górskich",
+      "płynie tylko przez niziny",
+      "ma więcej dopływów lewostronnych"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Bug, Narew, San, Dunajec.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4c3d5284",
+     "pytanie": "Wisła uchodzi do:",
+     "odpowiedzi": [
+      "Zalewu Wiślanego",
+      "Zatoki Pomorskiej",
+      "Zalewu Szczecińskiego",
+      "Zatoki Gdańskiej"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Odra uchodzi do Zalewu Szczecińskiego.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p16c73534",
+     "pytanie": "Najgroźniejsze powodzie w Karpatach to powodzie:",
+     "odpowiedzi": [
+      "roztopowe w zimie",
+      "zatorowe w lecie",
+      "sztormowe",
+      "opadowe w lecie"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Ulewy na stromych stokach.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p71498c0e",
+     "pytanie": "Zbiornik Solina powstał na rzece:",
+     "odpowiedzi": [
+      "Odra",
+      "Bug",
+      "Dunajec",
+      "San"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Bieszczady.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p11a227ae",
+     "pytanie": "Średnia głębokość Bałtyku wynosi około:",
+     "odpowiedzi": [
+      "52 m",
+      "520 m",
+      "1500 m",
+      "5 m"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Płytkie morze szelfowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-pl-krajobrazy",
+   "nazwa": "Gleby, krajobrazy i ochrona przyrody Polski",
+   "opis": "Wymaganie XIII.6–8, XIV podstawy programowej.",
+   "wymaganie": "XIII.6–8, XIV",
+   "fiszki": [
+    {
+     "id": "f63664a4f",
+     "przod": "Parki narodowe w Polsce",
+     "tyl": "Jest ich 23 — najwyższa forma ochrony przyrody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "fa0540c6e",
+     "przod": "Najstarszy polski park narodowy",
+     "tyl": "Białowieski — chroni Puszczę Białowieską, ostoję żubra; wpisany na listę UNESCO.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "fa9b52ea7",
+     "przod": "Słowiński Park Narodowy",
+     "tyl": "Chroni ruchome wydmy na Mierzei Łebskiej i jeziora przybrzeżne (Łebsko, Gardno).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f2037be2f",
+     "przod": "Biebrzański Park Narodowy",
+     "tyl": "Największy w Polsce — chroni bagna i torfowiska doliny Biebrzy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f8bb1ef1a",
+     "przod": "Rezerwat przyrody",
+     "tyl": "Obszar chroniący zachowane w stanie naturalnym ekosystemy, gatunki lub twory przyrody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f6820c5e4",
+     "przod": "Natura 2000",
+     "tyl": "Europejska sieć obszarów chroniących siedliska i gatunki ważne dla Unii Europejskiej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f86dbad60",
+     "przod": "Pomnik przyrody",
+     "tyl": "Pojedynczy twór przyrody o szczególnej wartości, np. stare drzewo, głaz narzutowy, źródło.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f89bd08c7",
+     "przod": "Krajobraz kulturowy",
+     "tyl": "Krajobraz przekształcony przez człowieka, np. rolniczy, miejski, przemysłowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f4e50b395",
+     "przod": "Gleby Polski",
+     "tyl": "Przeważają gleby bielicowe i rdzawe (mało żyzne) oraz brunatne; żyzne czarnoziemy, mady i rędziny zajmują małą powierzchnię.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f30b9e887",
+     "przod": "Rozpoznaj: Jest ich 23 — najwyższa forma ochrony przyrody.",
+     "tyl": "Parki narodowe w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f4c124d70",
+     "przod": "Rozpoznaj: Białowieski — chroni Puszczę Białowieską, ostoję żubra; wpisany na listę UNESCO.",
+     "tyl": "Najstarszy polski park narodowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f4103e2d0",
+     "przod": "Rozpoznaj: Chroni ruchome wydmy na Mierzei Łebskiej i jeziora przybrzeżne (Łebsko, Gardno).",
+     "tyl": "Słowiński Park Narodowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pbdd1eb5f",
+     "pytanie": "Najwyższą formą ochrony przyrody w Polsce jest:",
+     "odpowiedzi": [
+      "pomnik przyrody",
+      "użytek ekologiczny",
+      "park narodowy",
+      "park krajobrazowy"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Jest ich 23.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5d3b2937",
+     "pytanie": "Ruchome wydmy chroni:",
+     "odpowiedzi": [
+      "Białowieski Park Narodowy",
+      "Pieniński Park Narodowy",
+      "Biebrzański Park Narodowy",
+      "Słowiński Park Narodowy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Mierzeja Łebska.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd0fb5184",
+     "pytanie": "Największym polskim parkiem narodowym jest:",
+     "odpowiedzi": [
+      "Białowieski",
+      "Biebrzański",
+      "Kampinoski",
+      "Tatrzański"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Bagna doliny Biebrzy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p971c4abe",
+     "pytanie": "Głaz narzutowy objęty ochroną to przykład:",
+     "odpowiedzi": [
+      "obszaru Natura 2000",
+      "pomnika przyrody",
+      "rezerwatu",
+      "parku narodowego"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Pojedynczy twór przyrody.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4c3e13ff",
+     "pytanie": "W Polsce powierzchniowo przeważają gleby:",
+     "odpowiedzi": [
+      "czarnoziemy",
+      "mady",
+      "bielicowe i rdzawe",
+      "rędziny"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Na piaskach polodowcowych.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
