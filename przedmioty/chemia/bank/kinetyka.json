@@ -1127,6 +1127,33 @@
    "dzial": "kinetyka"
   },
   {
+   "tytul": "Energia aktywacji z wykresu",
+   "material": "Tekst autorski. Na wykresie energetycznym: substraty 100 kJ, kompleks aktywny 250 kJ, produkty 40 kJ.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz energię aktywacji i ΔH reakcji.",
+     "odpowiedz": "Eₐ = 150 kJ; ΔH = −60 kJ",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz energię aktywacji reakcji odwrotnej.",
+     "odpowiedz": "210 kJ",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "250 − 40.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-44",
+   "dzial": "kinetyka"
+  },
+  {
    "tytul": "Prawo Hessa",
    "material": "Tekst autorski. C(grafit) + O₂ → CO₂, ΔH₁ = −394 kJ; CO + ½O₂ → CO₂, ΔH₂ = −283 kJ.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1150,7 +1177,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-44",
+   "id": "b-kinetyka-45",
    "dzial": "kinetyka"
   },
   {
@@ -1177,7 +1204,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-45",
+   "id": "b-kinetyka-46",
    "dzial": "kinetyka"
   },
   {
@@ -1204,7 +1231,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-46",
+   "id": "b-kinetyka-47",
    "dzial": "kinetyka"
   },
   {
@@ -1240,7 +1267,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-47",
+   "id": "b-kinetyka-48",
    "dzial": "kinetyka"
   },
   {
@@ -1267,7 +1294,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-48",
+   "id": "b-kinetyka-49",
    "dzial": "kinetyka"
   },
   {
@@ -1294,7 +1321,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-49",
+   "id": "b-kinetyka-50",
    "dzial": "kinetyka"
   },
   {
@@ -1312,7 +1339,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-50",
+   "id": "b-kinetyka-51",
    "dzial": "kinetyka"
   },
   {
@@ -1330,7 +1357,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-51",
+   "id": "b-kinetyka-52",
    "dzial": "kinetyka"
   }
  ]

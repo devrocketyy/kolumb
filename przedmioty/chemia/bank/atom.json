@@ -1226,6 +1226,33 @@
    "dzial": "atom"
   },
   {
+   "tytul": "Elektrony walencyjne i wiązania",
+   "material": "Tekst autorski. Azot i fosfor należą do grupy 15, ale azot tworzy cząsteczki N₂, a fosfor — P₄.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj liczbę elektronów walencyjnych obu pierwiastków.",
+     "odpowiedz": "5",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego azot tworzy wiązanie potrójne, a fosfor — pojedyncze.",
+     "odpowiedz": "Mały atom N skutecznie tworzy wiązania π; duży atom P słabo nakłada orbitale p bocznie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-44",
+   "dzial": "atom"
+  },
+  {
    "tytul": "Skład izotopowy chloru",
    "material": "Tekst autorski. Chlor występuje w przyrodzie jako mieszanina izotopów ³⁵Cl (masa 34,97 u) i ³⁷Cl (36,97 u). Średnia masa atomowa chloru wynosi 35,45 u.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1249,7 +1276,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-44",
+   "id": "b-atom-45",
    "dzial": "atom"
   },
   {
@@ -1276,7 +1303,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-45",
+   "id": "b-atom-46",
    "dzial": "atom"
   },
   {
@@ -1303,7 +1330,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-46",
+   "id": "b-atom-47",
    "dzial": "atom"
   },
   {
@@ -1339,7 +1366,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-47",
+   "id": "b-atom-48",
    "dzial": "atom"
   }
  ]

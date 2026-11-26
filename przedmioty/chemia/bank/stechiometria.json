@@ -1316,6 +1316,60 @@
    "dzial": "stechiometria"
   },
   {
+   "tytul": "Analiza mieszaniny Fe i Cu",
+   "material": "Tekst autorski. 12 g mieszaniny Fe i Cu potraktowano nadmiarem HCl. Wydzieliło się 2,24 dm³ H₂ (w. n.).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę miedzi w mieszaninie.",
+     "odpowiedz": "6,4 g",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Fe: 0,1 mol = 5,6 g; Cu = 12 − 5,6.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji, która zaszła.",
+     "odpowiedz": "Fe + 2HCl → FeCl₂ + H₂",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-56",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Tlenek i wodorotlenek",
+   "material": "Tekst autorski. 5,6 g CaO rozpuszczono w wodzie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę powstałego Ca(OH)₂.",
+     "odpowiedz": "7,4 g",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,1 mol · 74.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz objętość HCl 0,5 mol/dm³ do zobojętnienia.",
+     "odpowiedz": "400 cm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,2 mol HCl / 0,5.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-57",
+   "dzial": "stechiometria"
+  },
+  {
    "tytul": "Spalanie mieszaniny gazów",
    "material": "Tekst autorski. 10 dm³ mieszaniny metanu i etanu spalono całkowicie, zużywając 29 dm³ tlenu (te same warunki ciśnienia i temperatury).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1330,7 +1384,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-56",
+   "id": "b-stechiometria-58",
    "dzial": "stechiometria"
   },
   {
@@ -1348,7 +1402,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-57",
+   "id": "b-stechiometria-59",
    "dzial": "stechiometria"
   },
   {
@@ -1366,7 +1420,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-58",
+   "id": "b-stechiometria-60",
    "dzial": "stechiometria"
   },
   {
@@ -1384,7 +1438,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-59",
+   "id": "b-stechiometria-61",
    "dzial": "stechiometria"
   },
   {
@@ -1411,7 +1465,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-60",
+   "id": "b-stechiometria-62",
    "dzial": "stechiometria"
   },
   {
@@ -1429,7 +1483,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-61",
+   "id": "b-stechiometria-63",
    "dzial": "stechiometria"
   },
   {
@@ -1447,7 +1501,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-62",
+   "id": "b-stechiometria-64",
    "dzial": "stechiometria"
   },
   {
@@ -1465,7 +1519,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-63",
+   "id": "b-stechiometria-65",
    "dzial": "stechiometria"
   },
   {
@@ -1483,7 +1537,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-64",
+   "id": "b-stechiometria-66",
    "dzial": "stechiometria"
   },
   {
@@ -1501,7 +1555,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-65",
+   "id": "b-stechiometria-67",
    "dzial": "stechiometria"
   },
   {
@@ -1528,7 +1582,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-66",
+   "id": "b-stechiometria-68",
    "dzial": "stechiometria"
   }
  ]

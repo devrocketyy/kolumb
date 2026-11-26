@@ -1,0 +1,76 @@
+# Bank zadań autorskich — chemia, część 41: domknięcie do 1200 zadań.
+BANK = {'atom': [
+ B('Elektrony walencyjne i wiązania',
+   'Tekst autorski. Azot i fosfor należą do grupy 15, ale azot tworzy cząsteczki N₂, a fosfor — P₄.',
+   T('podaj', 1, 'Podaj liczbę elektronów walencyjnych obu pierwiastków.', '5', '—'),
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego azot tworzy wiązanie potrójne, a fosfor — pojedyncze.', 'Mały atom N skutecznie tworzy wiązania π; duży atom P słabo nakłada orbitale p bocznie.', '—')),
+], 'stechiometria': [
+ B('Analiza mieszaniny Fe i Cu',
+   'Tekst autorski. 12 g mieszaniny Fe i Cu potraktowano nadmiarem HCl. Wydzieliło się 2,24 dm³ H₂ (w. n.).',
+   T('oblicz', 2, 'Oblicz masę miedzi w mieszaninie.', '6,4 g', 'Fe: 0,1 mol = 5,6 g; Cu = 12 − 5,6.'),
+   T('podaj', 1, 'Napisz równanie reakcji, która zaszła.', 'Fe + 2HCl → FeCl₂ + H₂', '—')),
+ B('Tlenek i wodorotlenek',
+   'Tekst autorski. 5,6 g CaO rozpuszczono w wodzie.',
+   T('oblicz', 1, 'Oblicz masę powstałego Ca(OH)₂.', '7,4 g', '0,1 mol · 74.'),
+   T('oblicz', 1, 'Oblicz objętość HCl 0,5 mol/dm³ do zobojętnienia.', '400 cm³', '0,2 mol HCl / 0,5.')),
+], 'roztwory': [
+ B('Roztwór kwasu z gazu',
+   'Tekst autorski. W 200 cm³ wody rozpuszczono 4,48 dm³ HCl (w. n.); objętość roztworu wyniosła 200 cm³.',
+   T('oblicz', 1, 'Oblicz stężenie molowe.', '1 mol/dm³', '0,2 mol / 0,2 dm³.'),
+   T('oblicz', 1, 'Oblicz pH roztworu po rozcieńczeniu go 100 razy.', '2', 'c = 0,01.')),
+], 'kinetyka': [
+ B('Energia aktywacji z wykresu',
+   'Tekst autorski. Na wykresie energetycznym: substraty 100 kJ, kompleks aktywny 250 kJ, produkty 40 kJ.',
+   T('oblicz', 1, 'Oblicz energię aktywacji i ΔH reakcji.', 'Eₐ = 150 kJ; ΔH = −60 kJ', '—'),
+   T('oblicz', 1, 'Oblicz energię aktywacji reakcji odwrotnej.', '210 kJ', '250 − 40.')),
+], 'roztwory-wodne': [
+ B('Bufor — pH z danych',
+   'Tekst autorski. Bufor zawiera 0,2 mol NH₃ i 0,1 mol NH₄Cl w 1 dm³ (pKb = 4,74).',
+   T('oblicz', 2, 'Oblicz pH buforu.', 'ok. 9,56', 'pOH = 4,74 + log(0,1/0,2) = 4,44.')),
+ B('Strącanie siarczanów',
+   'Tekst autorski. Do 50 cm³ roztworu Na₂SO₄ dodano nadmiar BaCl₂. Otrzymano 1,165 g osadu.',
+   T('oblicz', 2, 'Oblicz stężenie molowe Na₂SO₄.', '0,1 mol/dm³', 'n(BaSO₄) = 0,005 mol / 0,05 dm³.')),
+], 'redoks': [
+ B('Kwas azotowy stężony i rozcieńczony',
+   'Tekst autorski. Miedź reaguje z kwasem azotowym(V) inaczej w zależności od stężenia.',
+   T('podaj', 2, 'Podaj wzory gazów powstających w obu przypadkach i ich barwy.', 'stężony: NO₂ — brunatny; rozcieńczony: NO — bezbarwny (brunatnieje na powietrzu)', '—')),
+ B('Liczba elektronów w reakcji',
+   'Tekst autorski. W reakcji 2Al + 3Cu²⁺ → 2Al³⁺ + 3Cu przereagowało 5,4 g glinu.',
+   T('oblicz', 2, 'Oblicz liczbę moli przeniesionych elektronów i masę wydzielonej miedzi.', '0,6 mol e⁻; 19,2 g Cu', '0,2 mol Al · 3 e⁻; 0,3 mol Cu · 64.')),
+], 'tlenowe': [
+ B('Estry — hydroliza ilościowo',
+   'Tekst autorski. Zhydrolizowano zasadowo 17,6 g octanu etylu.',
+   T('oblicz', 2, 'Oblicz masę octanu sodu.', '16,4 g', '0,2 mol · 82.')),
+ B('Fenol — reakcja z bromem ilościowo',
+   'Tekst autorski. 0,94 g fenolu przereagowało z nadmiarem wody bromowej.',
+   T('oblicz', 2, 'Oblicz masę osadu 2,4,6-tribromofenolu (M = 331 g/mol).', '3,31 g', '0,01 mol.')),
+], 'organiczna': [
+ B('Szereg homologiczny',
+   'Tekst autorski. Alkany: CH₄, C₂H₆, C₃H₈, …',
+   T('podaj', 1, 'Podaj różnicę mas molowych kolejnych homologów.', '14 g/mol (grupa CH₂)', '—'),
+   T('podaj', 1, 'Podaj wzór alkanu o 20 atomach wodoru.', 'C₉H₂₀', '2n + 2 = 20.')),
+ B('Izomery optyczne — liczba',
+   'Tekst autorski. 2,3-dichlorobutan ma dwa asymetryczne atomy węgla.',
+   T('podaj', 1, 'Podaj liczbę stereoizomerów.', '3 (para enancjomerów i forma mezo)', 'Cząsteczka symetryczna.')),
+], 'azotowe-cukry': [
+ B('Dipeptyd — wzór i hydroliza',
+   'Tekst autorski. Dipeptyd Gly-Ala poddano hydrolizie.',
+   T('podaj', 1, 'Napisz równanie hydrolizy (wzory półstrukturalne).', 'H₂NCH₂CONHCH(CH₃)COOH + H₂O → H₂NCH₂COOH + H₂NCH(CH₃)COOH', '—')),
+ B('Skrobia — hydroliza ilościowa',
+   'Tekst autorski. Zhydrolizowano 32,4 g skrobi do glukozy z wydajnością 90%.',
+   T('oblicz', 2, 'Oblicz masę glukozy.', '32,4 g', '0,2 mol merów · 180 · 0,9.')),
+], 'nieorganiczne': [
+ B('Wodorki',
+   'Tekst autorski. Wodorek sodu NaH reaguje z wodą.',
+   T('podaj', 1, 'Napisz równanie reakcji.', 'NaH + H₂O → NaOH + H₂', '—'),
+   T('podaj', 1, 'Podaj stopień utlenienia wodoru w NaH.', '−I', '—')),
+], 'chemia-zycia': [
+ B('Kwas w napojach',
+   'Tekst autorski. Napój typu cola zawiera kwas fosforowy(V) i ma pH ok. 2,5.',
+   T('oblicz', 1, 'Oblicz stężenie jonów H⁺.', 'ok. 3,2 · 10⁻³ mol/dm³', '10⁻²·⁵.'),
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego częste picie takich napojów szkodzi szkliwu.', 'Kwas rozpuszcza związki wapnia w szkliwie zębów.', '—')),
+], 'umiejetnosci': [
+ B('Dobór wskaźnika',
+   'Tekst autorski. Miareczkowano słaby kwas mocną zasadą; punkt równoważnikowy wypada przy pH 8,7.',
+   T('podaj', 1, 'Wybierz wskaźnik spośród: oranż metylowy (3,1–4,4), czerwień metylowa (4,4–6,2), fenoloftaleina (8,2–10).', 'fenoloftaleina', 'Zakres obejmuje pH punktu równoważnikowego.')),
+]}

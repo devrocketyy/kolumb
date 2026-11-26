@@ -560,6 +560,33 @@
    "dzial": "chemia-zycia"
   },
   {
+   "tytul": "Kwas w napojach",
+   "material": "Tekst autorski. Napój typu cola zawiera kwas fosforowy(V) i ma pH ok. 2,5.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie jonów H⁺.",
+     "odpowiedz": "ok. 3,2 · 10⁻³ mol/dm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "10⁻²·⁵.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego częste picie takich napojów szkodzi szkliwu.",
+     "odpowiedz": "Kwas rozpuszcza związki wapnia w szkliwie zębów.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-chemia-zycia-22",
+   "dzial": "chemia-zycia"
+  },
+  {
    "tytul": "Mydło w twardej wodzie",
    "material": "Tekst autorski. Do wody wodociągowej dodano roztwór stearynianu sodu — powstał biały osad.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -583,7 +610,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-22",
+   "id": "b-chemia-zycia-23",
    "dzial": "chemia-zycia"
   },
   {
@@ -610,7 +637,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-23",
+   "id": "b-chemia-zycia-24",
    "dzial": "chemia-zycia"
   },
   {
@@ -637,7 +664,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-24",
+   "id": "b-chemia-zycia-25",
    "dzial": "chemia-zycia"
   },
   {
@@ -655,7 +682,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-chemia-zycia-25",
+   "id": "b-chemia-zycia-26",
    "dzial": "chemia-zycia"
   }
  ]

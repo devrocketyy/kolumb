@@ -848,6 +848,33 @@
    "dzial": "roztwory"
   },
   {
+   "tytul": "Roztwór kwasu z gazu",
+   "material": "Tekst autorski. W 200 cm³ wody rozpuszczono 4,48 dm³ HCl (w. n.); objętość roztworu wyniosła 200 cm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stężenie molowe.",
+     "odpowiedz": "1 mol/dm³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,2 mol / 0,2 dm³.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz pH roztworu po rozcieńczeniu go 100 razy.",
+     "odpowiedz": "2",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "c = 0,01.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-roztwory-34",
+   "dzial": "roztwory"
+  },
+  {
    "tytul": "Zatężanie roztworu",
    "material": "Tekst autorski. Z 400 g roztworu NaCl o stężeniu 5% odparowano 150 g wody.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -871,7 +898,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-34",
+   "id": "b-roztwory-35",
    "dzial": "roztwory"
   },
   {
@@ -889,7 +916,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-35",
+   "id": "b-roztwory-36",
    "dzial": "roztwory"
   },
   {
@@ -916,7 +943,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-36",
+   "id": "b-roztwory-37",
    "dzial": "roztwory"
   },
   {
@@ -934,7 +961,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-37",
+   "id": "b-roztwory-38",
    "dzial": "roztwory"
   },
   {
@@ -961,7 +988,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-38",
+   "id": "b-roztwory-39",
    "dzial": "roztwory"
   },
   {
@@ -979,7 +1006,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-roztwory-39",
+   "id": "b-roztwory-40",
    "dzial": "roztwory"
   },
   {
@@ -1006,7 +1033,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-roztwory-40",
+   "id": "b-roztwory-41",
    "dzial": "roztwory"
   }
  ]
