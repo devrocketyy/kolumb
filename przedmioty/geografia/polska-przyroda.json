@@ -1024,6 +1024,43 @@
      "wyjasnienie": "Chłodniej i bardziej kontynentalnie.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s0f6a99b5",
+     "typ": "rysunek",
+     "tytul": "Opady roczne na przekroju Polski N–S",
+     "opis": "Średnie roczne sumy opadów wybranych stacji na linii północ–południe (wartości przybliżone).",
+     "uwaga": "Opady w Polsce rosną z wysokością (opady orograficzne). Średnio w Polsce spada ok. 600 mm rocznie, najmniej na Kujawach i w Wielkopolsce.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gw2\" x=\"18\" y=\"122\" width=\"24\" height=\"48\"/><text class=\"tb\" x=\"30\" y=\"116\" text-anchor=\"middle\">600</text><text class=\"ts\" x=\"30\" y=\"292\" text-anchor=\"middle\">Gdańsk</text><rect class=\"gw2\" x=\"64\" y=\"114\" width=\"24\" height=\"56\"/><text class=\"tb\" x=\"76\" y=\"108\" text-anchor=\"middle\">700</text><text class=\"ts\" x=\"76\" y=\"292\" text-anchor=\"middle\">Kartuzy</text><rect class=\"gw2\" x=\"110\" y=\"128\" width=\"24\" height=\"42\"/><text class=\"tb\" x=\"122\" y=\"122\" text-anchor=\"middle\">520</text><text class=\"ts\" x=\"122\" y=\"292\" text-anchor=\"middle\">Toruń</text><rect class=\"gw2\" x=\"156\" y=\"132\" width=\"24\" height=\"38\"/><text class=\"tb\" x=\"168\" y=\"126\" text-anchor=\"middle\">480</text><text class=\"ts\" x=\"168\" y=\"292\" text-anchor=\"middle\">Kujawy</text><rect class=\"gw2\" x=\"202\" y=\"126\" width=\"24\" height=\"44\"/><text class=\"tb\" x=\"214\" y=\"120\" text-anchor=\"middle\">550</text><text class=\"ts\" x=\"214\" y=\"292\" text-anchor=\"middle\">Warszawa</text><rect class=\"gw2\" x=\"248\" y=\"114\" width=\"24\" height=\"56\"/><text class=\"tb\" x=\"260\" y=\"108\" text-anchor=\"middle\">700</text><text class=\"ts\" x=\"260\" y=\"292\" text-anchor=\"middle\">Kraków</text><rect class=\"gw2\" x=\"294\" y=\"82\" width=\"24\" height=\"88\"/><text class=\"tb\" x=\"306\" y=\"76\" text-anchor=\"middle\">1100</text><text class=\"ts\" x=\"306\" y=\"292\" text-anchor=\"middle\">Zakopane</text><rect class=\"gw2\" x=\"340\" y=\"34\" width=\"24\" height=\"136\"/><text class=\"tb\" x=\"352\" y=\"28\" text-anchor=\"middle\">1700</text><text class=\"ts\" x=\"352\" y=\"292\" text-anchor=\"middle\">Kasprowy</text><polygon class=\"gl\" points=\"10,280 30,277 76,268 122,275 168,274 214,274 260,268 306,240 352,188 390,280\"/><polyline class=\"s\" fill=\"none\" points=\"30,277 76,268 122,275 168,274 214,274 260,268 306,240 352,188\"/><path class=\"s\" d=\"M10 170 H390\"/><text class=\"ts\" x=\"8\" y=\"14\">opady roczne [mm]</text><text class=\"ts\" x=\"8\" y=\"200\">wysokość (przewyższona)</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 76,
+       "y": 114,
+       "lx": 95,
+       "ly": 40,
+       "n": "Pojezierze",
+       "d": "Wyżej położone — opady orograficzne ok. 700 mm"
+      },
+      {
+       "x": 168,
+       "y": 132,
+       "lx": 175,
+       "ly": 70,
+       "n": "Kujawy",
+       "d": "Najsuchszy region — cień opadowy pojezierzy"
+      },
+      {
+       "x": 352,
+       "y": 34,
+       "lx": 320,
+       "ly": 30,
+       "n": "Tatry",
+       "d": "Najwyższe opady — ponad 1700 mm"
+      }
+     ]
+    }
    ]
   },
   {

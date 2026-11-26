@@ -454,6 +454,57 @@
      ]
     },
     {
+     "id": "sae2aa2a1",
+     "typ": "rysunek",
+     "tytul": "Przejście demograficzne — wykres",
+     "opis": "Zmiany współczynników urodzeń i zgonów w kolejnych fazach (wartości umowne); pole między krzywymi — przyrost naturalny.",
+     "uwaga": "Przykłady: faza II–III — Niger, Nigeria; faza III — Indie; faza IV — USA, Francja; faza V — Polska, Japonia, Włochy.",
+     "svg": "<path class=\"dash\" d=\"M50 250 H380\"/><text class=\"ts\" x=\"44\" y=\"253\" text-anchor=\"end\">0</text><path class=\"dash\" d=\"M50 206 H380\"/><text class=\"ts\" x=\"44\" y=\"209\" text-anchor=\"end\">10</text><path class=\"dash\" d=\"M50 162 H380\"/><text class=\"ts\" x=\"44\" y=\"165\" text-anchor=\"end\">20</text><path class=\"dash\" d=\"M50 118 H380\"/><text class=\"ts\" x=\"44\" y=\"121\" text-anchor=\"end\">30</text><path class=\"dash\" d=\"M50 74 H380\"/><text class=\"ts\" x=\"44\" y=\"77\" text-anchor=\"end\">40</text><path class=\"s2\" d=\"M116 30 V250\"/><path class=\"s2\" d=\"M182 30 V250\"/><path class=\"s2\" d=\"M248 30 V250\"/><path class=\"s2\" d=\"M314 30 V250\"/><text class=\"tb\" x=\"83\" y=\"268\" text-anchor=\"middle\">I</text><text class=\"tb\" x=\"149\" y=\"268\" text-anchor=\"middle\">II</text><text class=\"tb\" x=\"215\" y=\"268\" text-anchor=\"middle\">III</text><text class=\"tb\" x=\"281\" y=\"268\" text-anchor=\"middle\">IV</text><text class=\"tb\" x=\"347\" y=\"268\" text-anchor=\"middle\">V</text><polygon class=\"gp\" opacity=\"0.7\" points=\"50.0,74.0 116.0,74.0 155.6,78.4 182.0,91.6 221.6,135.6 248.0,170.8 281.0,188.4 314.0,197.2 353.6,210.4 380.0,214.8 380.0,197.2 353.6,199.4 314.0,203.8 248.0,201.6 221.6,197.2 182.0,179.6 155.6,153.2 116.0,100.4 89.6,87.2 50.0,82.8\"/><polyline class=\"hot\" fill=\"none\" points=\"50.0,74.0 116.0,74.0 155.6,78.4 182.0,91.6 221.6,135.6 248.0,170.8 281.0,188.4 314.0,197.2 353.6,210.4 380.0,214.8\"/><polyline class=\"cold\" fill=\"none\" points=\"50.0,82.8 89.6,87.2 116.0,100.4 155.6,153.2 182.0,179.6 221.6,197.2 248.0,201.6 314.0,203.8 353.6,199.4 380.0,197.2\"/><path class=\"s\" d=\"M50 30 V250 H380\"/><text class=\"ts\" x=\"8\" y=\"22\">‰</text><text class=\"ts\" x=\"215\" y=\"288\" text-anchor=\"middle\">fazy przejścia demograficznego</text><rect class=\"hotf\" x=\"280\" y=\"34\" width=\"14\" height=\"3\"/><text class=\"ts\" x=\"298\" y=\"38\">urodzenia</text><rect class=\"coldf\" x=\"280\" y=\"46\" width=\"14\" height=\"3\"/><text class=\"ts\" x=\"298\" y=\"50\">zgony</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 83.0,
+       "y": 78.39999999999998,
+       "lx": 90,
+       "ly": 80,
+       "n": "Faza I",
+       "d": "Wysokie urodzenia i zgony — przyrost bliski zera"
+      },
+      {
+       "x": 168.8,
+       "y": 126.79999999999998,
+       "lx": 160,
+       "ly": 60,
+       "n": "Eksplozja",
+       "d": "Faza II: zgony gwałtownie spadają, urodzenia wysokie"
+      },
+      {
+       "x": 221.6,
+       "y": 135.6,
+       "lx": 245,
+       "ly": 100,
+       "n": "Faza III",
+       "d": "Spadek urodzeń — przyrost maleje"
+      },
+      {
+       "x": 281.0,
+       "y": 197.2,
+       "lx": 270,
+       "ly": 170,
+       "n": "Faza IV",
+       "d": "Niskie urodzenia i zgony"
+      },
+      {
+       "x": 366.8,
+       "y": 206.0,
+       "lx": 345,
+       "ly": 200,
+       "n": "Faza V",
+       "d": "Ubytek naturalny — zgony powyżej urodzeń"
+      }
+     ]
+    },
+    {
      "id": "sb669d382",
      "typ": "proces",
      "tytul": "Czynniki migracji: wypychające i przyciągające",

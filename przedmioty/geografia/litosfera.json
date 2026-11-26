@@ -1307,6 +1307,51 @@
      "wyjasnienie": "Zasada superpozycji.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s8b400765",
+     "typ": "rysunek",
+     "tytul": "Wietrzenie mrozowe skały",
+     "opis": "Etapy wietrzenia mrozowego (zamróz) przy wielokrotnym przechodzeniu temperatury przez 0°C.",
+     "uwaga": "Wietrzenie mrozowe jest najsilniejsze w klimatach, w których temperatura często przechodzi przez 0°C: w górach i strefie subpolarnej. Tworzy piargi (Tatry) i gołoborza (Góry Świętokrzyskie).",
+     "svg": "<rect class=\"gs\" x=\"15\" y=\"60\" width=\"110\" height=\"160\"/><path class=\"d\" d=\"M70 60 L65 100 L73 130\" style=\"fill:none;stroke:var(--text);stroke-width:2\"/><rect class=\"gs\" x=\"145\" y=\"60\" width=\"110\" height=\"160\"/><path class=\"d\" d=\"M200 60 L195 120 L203 155\" style=\"fill:none;stroke:var(--text);stroke-width:3\"/><path class=\"gw\" d=\"M195 62 L201 62 L200 120 Z\"/><rect class=\"gs\" x=\"275\" y=\"60\" width=\"110\" height=\"160\"/><path class=\"d\" d=\"M330 60 L325 140 L333 180\" style=\"fill:none;stroke:var(--text);stroke-width:4\"/><path class=\"gi\" d=\"M323 62 L335 62 L332 140 Z\"/><path class=\"s\" d=\"M317.0 90.0 L303.0 90.0\"/><path class=\"d\" d=\"M303.0 90.0 L308.4 87.4 L308.4 92.6 Z\"/><path class=\"s\" d=\"M341.0 90.0 L355.0 90.0\"/><path class=\"d\" d=\"M355.0 90.0 L349.6 92.6 L349.6 87.4 Z\"/><path class=\"gs2 ol\" d=\"M290 270 l8 -12 l10 4 l4 10 Z\"/><path class=\"gs2 ol\" d=\"M310 270 l8 -12 l10 4 l4 10 Z\"/><path class=\"gs2 ol\" d=\"M335 270 l8 -12 l10 4 l4 10 Z\"/><path class=\"gs2 ol\" d=\"M355 270 l8 -12 l10 4 l4 10 Z\"/><rect class=\"gt\" x=\"0\" y=\"280\" width=\"400\" height=\"20\"/><text class=\"tb\" x=\"70\" y=\"245\" text-anchor=\"middle\">1. szczelina</text><text class=\"tb\" x=\"200\" y=\"245\" text-anchor=\"middle\">2. woda (dzień)</text><text class=\"tb\" x=\"330\" y=\"245\" text-anchor=\"middle\">3. lód (noc)</text><text class=\"ts\" x=\"200\" y=\"30\" text-anchor=\"middle\">lód zajmuje o ok. 9% większą objętość niż woda</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 70,
+       "y": 100,
+       "lx": 100,
+       "ly": 50,
+       "n": "Szczelina",
+       "d": "Spękanie w skale"
+      },
+      {
+       "x": 200,
+       "y": 90,
+       "lx": 230,
+       "ly": 50,
+       "n": "Woda",
+       "d": "Wnika w szczelinę w ciągu dnia"
+      },
+      {
+       "x": 330,
+       "y": 90,
+       "lx": 360,
+       "ly": 50,
+       "n": "Lód",
+       "d": "Zamarza nocą i rozsadza skałę"
+      },
+      {
+       "x": 320,
+       "y": 266,
+       "lx": 260,
+       "ly": 270,
+       "n": "Gruz skalny",
+       "d": "Ostrokrawędzisty rumosz — piargi, gołoborza"
+      }
+     ]
+    }
    ]
   },
   {

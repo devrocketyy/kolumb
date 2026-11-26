@@ -874,6 +874,43 @@
      "wyjasnienie": "Gmina Baranów.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s1979d4f8",
+     "typ": "rysunek",
+     "tytul": "Użytkowanie ziemi w Polsce",
+     "opis": "Struktura użytkowania ziemi w Polsce (wartości zaokrąglone).",
+     "uwaga": "Najwyższą lesistość mają województwa lubuskie i podkarpackie (ok. 50% i 40%), najniższą — łódzkie i mazowieckie (ok. 20–23%).",
+     "svg": "<path class=\"gt ol\" d=\"M140 150 L140.0 40.0 A110 110 0 1 1 75.3 239.0 Z\"/><text class=\"tb\" x=\"207\" y=\"176\" text-anchor=\"middle\">60%</text><path class=\"gf2 ol\" d=\"M140 150 L75.3 239.0 A110 110 0 0 1 81.1 57.1 Z\"/><text class=\"tb\" x=\"70\" y=\"152\" text-anchor=\"middle\">31%</text><path class=\"gs ol\" d=\"M140 150 L81.1 57.1 A110 110 0 0 1 112.6 43.5 Z\"/><text class=\"tb\" x=\"112\" y=\"90\" text-anchor=\"middle\">5%</text><path class=\"gw2 ol\" d=\"M140 150 L112.6 43.5 A110 110 0 0 1 126.2 40.9 Z\"/><path class=\"gp ol\" d=\"M140 150 L126.2 40.9 A110 110 0 0 1 140.0 40.0 Z\"/><rect class=\"gt ol\" x=\"275\" y=\"60\" width=\"14\" height=\"14\"/><text class=\"ts\" x=\"295\" y=\"71\">Użytki rolne — 60%</text><rect class=\"gf2 ol\" x=\"275\" y=\"84\" width=\"14\" height=\"14\"/><text class=\"ts\" x=\"295\" y=\"95\">Lasy — 31%</text><rect class=\"gs ol\" x=\"275\" y=\"108\" width=\"14\" height=\"14\"/><text class=\"ts\" x=\"295\" y=\"119\">Zabudowa — 5%</text><rect class=\"gw2 ol\" x=\"275\" y=\"132\" width=\"14\" height=\"14\"/><text class=\"ts\" x=\"295\" y=\"143\">Wody — 2%</text><rect class=\"gp ol\" x=\"275\" y=\"156\" width=\"14\" height=\"14\"/><text class=\"ts\" x=\"295\" y=\"167\">Inne — 2%</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 120,
+       "y": 210,
+       "lx": 150,
+       "ly": 285,
+       "n": "Użytki rolne",
+       "d": "Grunty orne, łąki, pastwiska, sady — ok. 60%"
+      },
+      {
+       "x": 70,
+       "y": 110,
+       "lx": 90,
+       "ly": 22,
+       "n": "Lasy",
+       "d": "Ok. 31% — lesistość rośnie dzięki zalesieniom"
+      },
+      {
+       "x": 150,
+       "y": 45,
+       "lx": 200,
+       "ly": 22,
+       "n": "Zabudowa",
+       "d": "Tereny osiedlowe i komunikacyjne — szybko rosną"
+      }
+     ]
+    }
    ]
   }
  ]

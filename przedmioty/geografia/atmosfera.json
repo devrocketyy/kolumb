@@ -381,6 +381,49 @@
    ],
    "schematy": [
     {
+     "id": "sc3f5d7df",
+     "typ": "rysunek",
+     "tytul": "Inwersja temperatury i smog w dolinie",
+     "opis": "Przekrój przez dolinę z miastem w czasie inwersji temperatury (wartości przybliżone).",
+     "uwaga": "Inwersja tworzy się przy pogodzie wyżowej: bezchmurne noce wychładzają grunt, zimne powietrze spływa do dolin. Blokuje mieszanie pionowe — stąd smog w Krakowie, Nowym Targu, Zakopanem.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gs2\" d=\"M0 120 L60 90 L110 160 L290 160 L340 80 L400 110 V300 H0 Z\"/><path class=\"gc\" d=\"M110 160 L290 160 L290 200 L110 200 Z\" opacity=\"0.0\"/><rect class=\"gs\" x=\"0\" y=\"160\" width=\"400\" height=\"140\" opacity=\"0.5\"/><path class=\"gs2\" d=\"M60 125 Q200 120 340 118\" style=\"fill:none;stroke:var(--text-2);stroke-dasharray:6 4\"/><rect class=\"gk\" x=\"110\" y=\"128\" width=\"180\" height=\"32\" style=\"opacity:.55;stroke:none\"/><rect class=\"d\" x=\"130\" y=\"142\" width=\"10\" height=\"18\"/><rect class=\"d\" x=\"145\" y=\"134\" width=\"10\" height=\"26\"/><rect class=\"d\" x=\"175\" y=\"146\" width=\"10\" height=\"14\"/><rect class=\"d\" x=\"220\" y=\"138\" width=\"10\" height=\"22\"/><rect class=\"d\" x=\"250\" y=\"144\" width=\"10\" height=\"16\"/><rect class=\"d\" x=\"270\" y=\"148\" width=\"10\" height=\"12\"/><path class=\"s2\" d=\"M150 124 q6 -8 0 -16 q-6 -8 0 -14\" style=\"fill:none\"/><path class=\"s2\" d=\"M225 128 q6 -8 0 -16 q-6 -8 0 -14\" style=\"fill:none\"/><path class=\"hot\" d=\"M380.0 60.0 L380.0 40.0\"/><path class=\"hotf\" d=\"M380.0 40.0 L382.6 45.4 L377.4 45.4 Z\"/><path class=\"s\" d=\"M360 160 V30\"/><text class=\"ts\" x=\"356\" y=\"161\" text-anchor=\"end\">−8°C</text><path class=\"s\" d=\"M356 158 H360\"/><text class=\"ts\" x=\"356\" y=\"127\" text-anchor=\"end\">−2°C</text><path class=\"s\" d=\"M356 124 H360\"/><text class=\"ts\" x=\"356\" y=\"63\" text-anchor=\"end\">−5°C</text><path class=\"s\" d=\"M356 60 H360\"/><polyline class=\"hot\" fill=\"none\" points=\"335,158 350,124 340,60\"/><text class=\"ts\" x=\"200\" y=\"290\" text-anchor=\"middle\">dolina w czasie wyżu zimą — brak wiatru, bezchmurna noc</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 145,
+       "lx": 160,
+       "ly": 210,
+       "n": "Smog",
+       "d": "Pyły i gazy zalegają przy ziemi"
+      },
+      {
+       "x": 200,
+       "y": 122,
+       "lx": 200,
+       "ly": 50,
+       "n": "Warstwa inwersyjna",
+       "d": "Cieplejsze powietrze nad zimnym — „pokrywka”"
+      },
+      {
+       "x": 150,
+       "y": 140,
+       "lx": 60,
+       "ly": 240,
+       "n": "Kominy",
+       "d": "Niska emisja z ogrzewania domów"
+      },
+      {
+       "x": 345,
+       "y": 140,
+       "lx": 300,
+       "ly": 230,
+       "n": "Profil temperatury",
+       "d": "Przy ziemi zimniej niż wyżej — odwrotnie niż zwykle"
+      }
+     ]
+    },
+    {
      "id": "s5a5d1c33",
      "typ": "rysunek",
      "tytul": "Fen — przekrój przez góry",
