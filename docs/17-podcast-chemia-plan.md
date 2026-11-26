@@ -20,11 +20,11 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **3. Doświadczenia: projekt, obserwacje, wnioski i identyfikacja substancji** `c-doswiadczenia` ✅
 
-**4. Powtórka działu: Umiejętności egzaminacyjne** `umiejetnosci` ⬜
+**4. Powtórka działu: Umiejętności egzaminacyjne** `umiejetnosci` ✅
 
 ## Dział: Budowa atomu i układ okresowy
 
-**5. Budowa atomu, izotopy i masa atomowa** `c-atom` ⬜
+**5. Budowa atomu, izotopy i masa atomowa** `c-atom` ✅
 
 **6. Konfiguracja elektronowa, liczby kwantowe i orbitale** `c-konfiguracja` ⬜
 

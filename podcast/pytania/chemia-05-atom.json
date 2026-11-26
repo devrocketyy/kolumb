@@ -1,0 +1,11 @@
+{
+  "odcinek": "chemia-05-atom",
+  "pytania": [
+    {"id": "czastki", "typ": "abcd", "pytanie": "Która cząstka atomu nie ma ładunku?", "odpowiedzi": ["Neutron", "Proton", "Elektron", "Jon"], "poprawna": 0, "wyjasnienie": "Proton +, elektron −, neutron obojętny."},
+    {"id": "liczby", "typ": "abcd", "pytanie": "Jon ⁵⁶Fe³⁺ (Z = 26) ma:", "odpowiedzi": ["26 p, 30 n, 23 e⁻", "26 p, 30 n, 26 e⁻", "26 p, 56 n, 23 e⁻", "23 p, 30 n, 26 e⁻"], "poprawna": 0, "wyjasnienie": "Neutrony: 56 − 26 = 30. Kation 3+ ma o 3 elektrony mniej."},
+    {"id": "izotopy", "typ": "abcd", "pytanie": "Izotopy tego samego pierwiastka różnią się:", "odpowiedzi": ["Liczbą neutronów", "Liczbą protonów", "Ładunkiem jądra", "Liczbą elektronów w obojętnym atomie"], "poprawna": 0, "wyjasnienie": "Ta sama liczba atomowa, inna liczba masowa."},
+    {"id": "srednia", "typ": "abcd", "pytanie": "Masa atomowa 10,81 u, izotopy 10 i 11 u. Którego izotopu jest więcej?", "odpowiedzi": ["O masie 11", "O masie 10", "Tyle samo", "Nie da się ocenić"], "poprawna": 0, "wyjasnienie": "Średnia leży bliżej izotopu przeważającego."},
+    {"id": "matura", "typ": "abcd", "pytanie": "Ile elektronów ma jon S²⁻ (Z = 16)?", "odpowiedzi": ["18", "16", "14", "32"], "poprawna": 0, "wyjasnienie": "Anion przyjął dwa elektrony."},
+    {"id": "podsumowanie", "typ": "abcd", "pytanie": "O tym, jakim pierwiastkiem jest atom, decyduje:", "odpowiedzi": ["Liczba protonów", "Liczba neutronów", "Liczba masowa", "Liczba elektronów walencyjnych"], "poprawna": 0, "wyjasnienie": "Liczba atomowa Z = liczba protonów."}
+  ]
+}

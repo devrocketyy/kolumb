@@ -1,0 +1,11 @@
+{
+  "odcinek": "chemia-04-powtorka-umiejetnosci",
+  "pytania": [
+    {"id": "jonowe", "typ": "abcd", "pytanie": "Równanie jonowe skrócone reakcji marmuru z kwasem solnym to:", "odpowiedzi": ["CaCO₃ + 2H⁺ → Ca²⁺ + CO₂ + H₂O", "Ca²⁺ + CO₃²⁻ + 2H⁺ → Ca²⁺ + CO₂ + H₂O", "CaCO₃ + 2HCl → CaCl₂ + CO₂ + H₂O", "CO₃²⁻ + 2Cl⁻ → CO₂ + Cl₂O"], "poprawna": 0, "wyjasnienie": "CaCO₃ jest ciałem stałym — nie rozpisuje się go na jony."},
+    {"id": "obserwacja", "typ": "abcd", "pytanie": "Która odpowiedź jest obserwacją reakcji marmuru z HCl?", "odpowiedzi": ["Ciało stałe się roztwarza, wydzielają się pęcherzyki gazu", "Powstaje chlorek wapnia", "Wydziela się CO₂", "Zachodzi reakcja wymiany"], "poprawna": 0, "wyjasnienie": "Obserwacja opisuje to, co widać."},
+    {"id": "obliczenia", "typ": "abcd", "pytanie": "Ile dm³ CO₂ (w. n.) da 10 g marmuru zawierającego 90% CaCO₃?", "odpowiedzi": ["ok. 2,0 dm³", "2,24 dm³", "22,4 dm³", "0,9 dm³"], "poprawna": 0, "wyjasnienie": "9 g CaCO₃ = 0,09 mola · 22,4 dm³/mol = 2,02 dm³."},
+    {"id": "odroznienie", "typ": "abcd", "pytanie": "Którym odczynnikiem odróżnisz marmur od gipsu?", "odpowiedzi": ["Kwasem solnym", "Wodą", "Roztworem NaCl", "Żadnym z tych"], "poprawna": 0, "wyjasnienie": "Tylko z marmurem wydziela się gaz."},
+    {"id": "punkt", "typ": "abcd", "pytanie": "Sam wynik obliczeń bez rozwiązania — czy daje punkt?", "odpowiedzi": ["Zwykle nie", "Zawsze tak", "Tak, jeśli ma jednostkę", "Tak, jeśli jest zaokrąglony"], "poprawna": 0, "wyjasnienie": "Oceniana jest metoda, obliczenia i wynik."},
+    {"id": "podsumowanie", "typ": "abcd", "pytanie": "Dlaczego woda nie odróżni marmuru od gipsu?", "odpowiedzi": ["Obie substancje zachowają się w niej tak samo", "Woda reaguje z obiema gwałtownie", "Woda rozpuszcza tylko marmur", "Woda rozpuszcza tylko gips"], "poprawna": 0, "wyjasnienie": "Odczynnik musi dać różne obserwacje."}
+  ]
+}
