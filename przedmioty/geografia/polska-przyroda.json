@@ -605,9 +605,33 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
     },
     {
+     "id": "f6786c36a",
+     "przod": "Okres wegetacyjny",
+     "tyl": "Liczba dni ze średnią dobową temperaturą powyżej 5°C; w Polsce od ok. 180 (Suwałki) do ponad 220 dni (Nizina Śląska).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f42dc6b42",
+     "przod": "Masy powietrza polarnomorskiego",
+     "tyl": "Najczęściej napływają do Polski (ok. 60% dni) — latem ochłodzenie i opady, zimą odwilż.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "fea90f027",
+     "przod": "Masy powietrza polarnokontynentalnego",
+     "tyl": "Ze wschodu — latem upał i susza, zimą silne mrozy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f42af04da",
+     "przod": "Wiatr halny",
+     "tyl": "Fen w Tatrach — ciepły, suchy wiatr z południa, najczęściej jesienią i wiosną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
      "id": "f20b95136",
      "przod": "Średnia roczna temperatura w Polsce",
-     "tyl": "Około 8–9°C na nizinach; w górach znacznie niższa.",
+     "tyl": "Ok. 8–9°C (ostatnio rośnie); najcieplej na zachodzie, najchłodniej na północnym wschodzie i w górach.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
     },
     {
@@ -626,12 +650,6 @@
      "id": "ffd0158d1",
      "przod": "Przeważające wiatry w Polsce",
      "tyl": "Zachodnie — napływ powietrza polarno-morskiego znad Atlantyku.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
-    },
-    {
-     "id": "f42af04da",
-     "przod": "Wiatr halny",
-     "tyl": "Ciepły, suchy wiatr fenowy w Tatrach i Podhalu, wiejący najczęściej jesienią i wiosną.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
     },
     {
@@ -707,8 +725,26 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
     },
     {
-     "id": "f79ec4989",
-     "przod": "Rozpoznaj: Około 8–9°C na nizinach; w górach znacznie niższa.",
+     "id": "f8f5981a8",
+     "przod": "Rozpoznaj: Liczba dni ze średnią dobową temperaturą powyżej 5°C; w Polsce od ok. 180 (Suwałki) do ponad 220 dni (Nizina Śląska).",
+     "tyl": "Okres wegetacyjny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f6ea8fc1f",
+     "przod": "Rozpoznaj: Najczęściej napływają do Polski (ok. 60% dni) — latem ochłodzenie i opady, zimą odwilż.",
+     "tyl": "Masy powietrza polarnomorskiego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f320135d3",
+     "przod": "Rozpoznaj: Ze wschodu — latem upał i susza, zimą silne mrozy.",
+     "tyl": "Masy powietrza polarnokontynentalnego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "fcbbea690",
+     "przod": "Rozpoznaj: Ok. 8–9°C (ostatnio rośnie); najcieplej na zachodzie, najchłodniej na północnym wschodzie i w górach.",
      "tyl": "Średnia roczna temperatura w Polsce",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
     },
@@ -817,6 +853,45 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Ponad 220 dni.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc10607a4",
+     "pytanie": "Najczęściej do Polski napływają masy powietrza:",
+     "odpowiedzi": [
+      "polarnokontynentalne",
+      "polarnomorskie",
+      "zwrotnikowe",
+      "arktyczne"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Znad Atlantyku.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5ffeab8f",
+     "pytanie": "Okres wegetacyjny to liczba dni ze średnią temperaturą powyżej:",
+     "odpowiedzi": [
+      "0°C",
+      "10°C",
+      "15°C",
+      "5°C"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Wzrost roślin.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe85ecb04",
+     "pytanie": "Latem upał i suszę przynoszą do Polski masy:",
+     "odpowiedzi": [
+      "polarnomorskie",
+      "polarnokontynentalne",
+      "arktyczne",
+      "równikowe"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ze wschodu.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
