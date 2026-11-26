@@ -1,0 +1,472 @@
+{
+ "id": "przemysl",
+ "nazwa": "Przemysł, energia i usługi",
+ "opis": "Surowce i energetyka, przemysł, transport, łączność, turystyka, handel.",
+ "poddzialy": [
+  {
+   "id": "g-energetyka",
+   "nazwa": "Surowce mineralne i energetyka",
+   "opis": "Wymaganie XI.1–3 podstawy programowej.",
+   "wymaganie": "XI.1–3",
+   "fiszki": [
+    {
+     "id": "f26e4fb57",
+     "przod": "Surowce energetyczne nieodnawialne",
+     "tyl": "Węgiel kamienny i brunatny, ropa naftowa, gaz ziemny, uran.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.1–3"
+    },
+    {
+     "id": "fa9d3ead1",
+     "przod": "Odnawialne źródła energii (OZE)",
+     "tyl": "Energia wiatru, słońca, wody, geotermalna i biomasy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.1–3"
+    },
+    {
+     "id": "fe4260ad8",
+     "przod": "Największa elektrownia wodna świata",
+     "tyl": "Tama Trzech Przełomów na Jangcy w Chinach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.1–3"
+    },
+    {
+     "id": "ff8643624",
+     "przod": "Energetyka geotermalna",
+     "tyl": "Wykorzystuje ciepło wnętrza Ziemi; bardzo rozwinięta w Islandii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.1–3"
+    },
+    {
+     "id": "f39369aa8",
+     "przod": "Energetyka jądrowa",
+     "tyl": "Największy udział w produkcji energii elektrycznej ma Francja (około dwóch trzecich).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.1–3"
+    },
+    {
+     "id": "fe704de9c",
+     "przod": "OPEC",
+     "tyl": "Organizacja krajów eksportujących ropę naftową, m.in. Arabia Saudyjska, Iran, Irak, Kuwejt, ZEA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.1–3"
+    },
+    {
+     "id": "fc8fc9642",
+     "przod": "Struktura energetyki Polski",
+     "tyl": "Dominuje węgiel (ponad połowa produkcji energii elektrycznej), szybko rośnie udział OZE, zwłaszcza wiatru i fotowoltaiki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.1–3"
+    },
+    {
+     "id": "f30113f34",
+     "przod": "Transformacja energetyczna",
+     "tyl": "Odchodzenie od paliw kopalnych na rzecz OZE i energii jądrowej w celu ograniczenia emisji CO₂.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.1–3"
+    },
+    {
+     "id": "f3da6cb65",
+     "przod": "Zalety i wady OZE",
+     "tyl": "Zalety: brak emisji, niewyczerpalność. Wady: zależność od pogody, potrzeba magazynowania energii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.1–3"
+    },
+    {
+     "id": "f999c7508",
+     "przod": "Rozpoznaj: Węgiel kamienny i brunatny, ropa naftowa, gaz ziemny, uran.",
+     "tyl": "Surowce energetyczne nieodnawialne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.1–3"
+    },
+    {
+     "id": "fbd611411",
+     "przod": "Rozpoznaj: Tama Trzech Przełomów na Jangcy w Chinach.",
+     "tyl": "Największa elektrownia wodna świata",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.1–3"
+    },
+    {
+     "id": "f2cb4ff8f",
+     "przod": "Rozpoznaj: Wykorzystuje ciepło wnętrza Ziemi; bardzo rozwinięta w Islandii.",
+     "tyl": "Energetyka geotermalna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.1–3"
+    },
+    {
+     "id": "fa5af06d0",
+     "przod": "Rozpoznaj: Organizacja krajów eksportujących ropę naftową, m.in. Arabia Saudyjska, Iran, Irak, Kuwejt, ZEA.",
+     "tyl": "OPEC",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.1–3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p9e1f6b3b",
+     "pytanie": "Odnawialnym źródłem energii jest:",
+     "odpowiedzi": [
+      "węgiel brunatny",
+      "gaz ziemny",
+      "uran",
+      "energia geotermalna"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Ciepło wnętrza Ziemi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa0fccb57",
+     "pytanie": "Największy udział energetyki jądrowej w produkcji prądu ma:",
+     "odpowiedzi": [
+      "Polska",
+      "Francja",
+      "Norwegia",
+      "Niemcy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ok. 2/3 energii elektrycznej.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p20853c7b",
+     "pytanie": "Tama Trzech Przełomów leży na rzece:",
+     "odpowiedzi": [
+      "Mekong",
+      "Huang He",
+      "Jangcy",
+      "Ganges"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Chiny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p117d4ed3",
+     "pytanie": "W produkcji energii elektrycznej w Polsce wciąż dominuje:",
+     "odpowiedzi": [
+      "gaz ziemny",
+      "energia wodna",
+      "węgiel",
+      "energia jądrowa"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Udział OZE rośnie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "peacec0b7",
+     "pytanie": "Wadą elektrowni wiatrowych i słonecznych jest:",
+     "odpowiedzi": [
+      "produkcja odpadów radioaktywnych",
+      "wyczerpywanie się zasobów",
+      "zależność produkcji od pogody",
+      "emisja dwutlenku węgla"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Potrzebne magazyny energii.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-przemysl",
+   "nazwa": "Przemysł i jego lokalizacja",
+   "opis": "Wymaganie XI.4–6 podstawy programowej.",
+   "wymaganie": "XI.4–6",
+   "fiszki": [
+    {
+     "id": "f652e639e",
+     "przod": "Czynniki lokalizacji przemysłu",
+     "tyl": "Surowce, energia, woda, siła robocza, rynek zbytu, transport, kapitał, polityka państwa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    },
+    {
+     "id": "f493c4a08",
+     "przod": "Przemysł wysokiej technologii",
+     "tyl": "Lokalizuje się przy ośrodkach naukowych i wykwalifikowanej kadrze — technopolie, np. Dolina Krzemowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    },
+    {
+     "id": "fae34e614",
+     "przod": "Technopolia",
+     "tyl": "Ośrodek łączący uczelnie, laboratoria i firmy innowacyjne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    },
+    {
+     "id": "f2d0d4ec6",
+     "przod": "Deindustrializacja",
+     "tyl": "Spadek znaczenia przemysłu w gospodarce i zatrudnieniu — typowy dla krajów wysoko rozwiniętych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    },
+    {
+     "id": "f3c5d2845",
+     "przod": "Outsourcing i offshoring",
+     "tyl": "Przenoszenie produkcji lub usług do innych firm i krajów o niższych kosztach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    },
+    {
+     "id": "f7bd807ac",
+     "przod": "Restrukturyzacja przemysłu",
+     "tyl": "Przekształcenie struktury przemysłu: zamykanie nierentownych zakładów, rozwój nowych gałęzi — np. Górny Śląsk.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    },
+    {
+     "id": "f4c0622f4",
+     "przod": "Specjalne strefy ekonomiczne",
+     "tyl": "Obszary z ulgami podatkowymi przyciągające inwestorów; w Polsce zastąpione Polską Strefą Inwestycji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    },
+    {
+     "id": "fe2d49cd7",
+     "przod": "Okręg przemysłowy",
+     "tyl": "Obszar dużej koncentracji zakładów przemysłowych, np. Górnośląski Okręg Przemysłowy, Zagłębie Ruhry.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    },
+    {
+     "id": "f859adaee",
+     "przod": "Przemysł w Chinach",
+     "tyl": "Chiny są największym producentem przemysłowym świata („fabryka świata”).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    },
+    {
+     "id": "fa7d4d7c1",
+     "przod": "Rozpoznaj: Ośrodek łączący uczelnie, laboratoria i firmy innowacyjne.",
+     "tyl": "Technopolia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    },
+    {
+     "id": "f547cbb79",
+     "przod": "Rozpoznaj: Spadek znaczenia przemysłu w gospodarce i zatrudnieniu — typowy dla krajów wysoko rozwiniętych.",
+     "tyl": "Deindustrializacja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    },
+    {
+     "id": "f02169415",
+     "przod": "Rozpoznaj: Przenoszenie produkcji lub usług do innych firm i krajów o niższych kosztach.",
+     "tyl": "Outsourcing i offshoring",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pcb606837",
+     "pytanie": "Dolina Krzemowa jest przykładem:",
+     "odpowiedzi": [
+      "technopolii",
+      "portu przeładunkowego",
+      "specjalnej strefy rolnej",
+      "okręgu górniczego"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Przemysł wysokiej technologii.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pebb63a3b",
+     "pytanie": "Spadek znaczenia przemysłu w gospodarce to:",
+     "odpowiedzi": [
+      "industrializacja",
+      "deindustrializacja",
+      "urbanizacja",
+      "kolektywizacja"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Rośnie rola usług.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8f1d2813",
+     "pytanie": "Najważniejszym czynnikiem lokalizacji przemysłu high-tech jest:",
+     "odpowiedzi": [
+      "wykwalifikowana kadra i zaplecze naukowe",
+      "bliskość dużych złóż surowców mineralnych",
+      "dostęp do dużych rzek i wody chłodzącej",
+      "tania energia z elektrowni węglowych"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Wiedza i innowacje.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pef0a1f50",
+     "pytanie": "Przeniesienie produkcji do kraju o tańszej sile roboczej to:",
+     "odpowiedzi": [
+      "reurbanizacja",
+      "deglomeracja",
+      "offshoring",
+      "kolektywizacja"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Często do Azji.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p42d90936",
+     "pytanie": "„Fabryką świata” nazywa się:",
+     "odpowiedzi": [
+      "USA",
+      "Niemcy",
+      "Chiny",
+      "Japonię"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Największa produkcja przemysłowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-uslugi",
+   "nazwa": "Transport, łączność, turystyka i handel",
+   "opis": "Wymaganie XII podstawy programowej.",
+   "wymaganie": "XII",
+   "fiszki": [
+    {
+     "id": "f30402184",
+     "przod": "Rodzaje usług",
+     "tyl": "Podstawowe (handel, transport), wyższego rzędu (finanse, nauka, IT), turystyka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f72a15738",
+     "przod": "Transport morski",
+     "tyl": "Najtańszy w przewozie ładunków masowych i kontenerów na duże odległości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "fed230655",
+     "przod": "Transport lotniczy",
+     "tyl": "Najszybszy, ale najdroższy; przewozi pasażerów i ładunki cenne lub pilne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f12656958",
+     "przod": "Największy port kontenerowy świata",
+     "tyl": "Szanghaj.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f9306ca28",
+     "przod": "Porty Polski",
+     "tyl": "Gdańsk (największy), Gdynia, Szczecin–Świnoujście (z terminalem LNG w Świnoujściu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f0faf1d4d",
+     "przod": "Turystyka",
+     "tyl": "Najwięcej turystów zagranicznych przyjmuje Francja; ważne kierunki: Hiszpania, USA, Włochy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f03e41f4f",
+     "przod": "Uwarunkowania turystyki",
+     "tyl": "Walory przyrodnicze (klimat, morze, góry) i kulturowe (zabytki), infrastruktura, bezpieczeństwo.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f48c8b39a",
+     "przod": "Handel międzynarodowy",
+     "tyl": "Największymi eksporterami są Chiny, USA i Niemcy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f4d622cfb",
+     "przod": "Łączność i internet",
+     "tyl": "Rozwój sieci światłowodowych i satelitarnych — podstawa globalizacji i pracy zdalnej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f95ed11a9",
+     "przod": "Rozpoznaj: Najtańszy w przewozie ładunków masowych i kontenerów na duże odległości.",
+     "tyl": "Transport morski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "fa24206c5",
+     "przod": "Rozpoznaj: Najszybszy, ale najdroższy; przewozi pasażerów i ładunki cenne lub pilne.",
+     "tyl": "Transport lotniczy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f86e246bc",
+     "przod": "Rozpoznaj: Szanghaj.",
+     "tyl": "Największy port kontenerowy świata",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "fc27f8ac6",
+     "przod": "Rozpoznaj: Gdańsk (największy), Gdynia, Szczecin–Świnoujście (z terminalem LNG w Świnoujściu).",
+     "tyl": "Porty Polski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "ffafc2a9f",
+     "przod": "Rozpoznaj: Największymi eksporterami są Chiny, USA i Niemcy.",
+     "tyl": "Handel międzynarodowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f8331806e",
+     "przod": "Rozpoznaj: Rozwój sieci światłowodowych i satelitarnych — podstawa globalizacji i pracy zdalnej.",
+     "tyl": "Łączność i internet",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p91dedcc4",
+     "pytanie": "Najtańszy w przewozie ładunków masowych na duże odległości jest transport:",
+     "odpowiedzi": [
+      "morski",
+      "lotniczy",
+      "kolejowy dużych prędkości",
+      "samochodowy"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Ogromna ładowność statków.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2ca77e2a",
+     "pytanie": "Największym portem Polski jest:",
+     "odpowiedzi": [
+      "Gdynia",
+      "Gdańsk",
+      "Szczecin",
+      "Kołobrzeg"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Głównie ładunki masowe i kontenery.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0d41064a",
+     "pytanie": "Terminal LNG w Polsce znajduje się w:",
+     "odpowiedzi": [
+      "Elblągu",
+      "Ustce",
+      "Świnoujściu",
+      "Gdyni"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Import skroplonego gazu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p113cf607",
+     "pytanie": "Najwięcej turystów zagranicznych przyjmuje:",
+     "odpowiedzi": [
+      "Brazylia",
+      "Kanada",
+      "Polska",
+      "Francja"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Także Hiszpania i USA.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3a9bd0f6",
+     "pytanie": "Największym portem kontenerowym świata jest:",
+     "odpowiedzi": [
+      "Nowy Jork",
+      "Szanghaj",
+      "Rotterdam",
+      "Hamburg"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Chiny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,355 @@
+{
+ "id": "rolnictwo",
+ "nazwa": "Rolnictwo",
+ "opis": "Warunki rozwoju, typy rolnictwa, uprawy, chów, rybołówstwo, gospodarka żywnościowa.",
+ "poddzialy": [
+  {
+   "id": "g-rolnictwo",
+   "nazwa": "Warunki i typy rolnictwa",
+   "opis": "Wymaganie X.1–3 podstawy programowej.",
+   "wymaganie": "X.1–3",
+   "fiszki": [
+    {
+     "id": "fd610e1b1",
+     "przod": "Przyrodnicze czynniki rozwoju rolnictwa",
+     "tyl": "Klimat (temperatura, opady, okres wegetacyjny), gleby, ukształtowanie terenu, stosunki wodne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f1792dbdb",
+     "przod": "Pozaprzyrodnicze czynniki rozwoju rolnictwa",
+     "tyl": "Mechanizacja, chemizacja, struktura agrarna, kapitał, rynek zbytu, polityka rolna, tradycja.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f03e2461a",
+     "przod": "Rolnictwo intensywne",
+     "tyl": "Wysokie nakłady pracy lub kapitału na hektar i wysokie plony — np. Europa Zachodnia, Azja monsunowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "ffc526c8c",
+     "przod": "Rolnictwo ekstensywne",
+     "tyl": "Niskie nakłady na hektar i niskie plony na dużych obszarach — np. pasterstwo, wielkie farmy zbożowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f1e09bfa8",
+     "przod": "Rolnictwo plantacyjne",
+     "tyl": "Duże gospodarstwa w strefie gorącej uprawiające jedną roślinę na eksport (kawa, kakao, trzcina cukrowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "ff74fdd0e",
+     "przod": "Zielona rewolucja",
+     "tyl": "Wprowadzenie od lat 60. XX w. wydajnych odmian zbóż, nawozów i nawadniania w krajach rozwijających się — wzrost plonów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "fe2c2b1d4",
+     "przod": "Struktura agrarna",
+     "tyl": "Podział gospodarstw według wielkości i form własności.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f4e20045a",
+     "przod": "Wspólna Polityka Rolna UE",
+     "tyl": "Dopłaty bezpośrednie i programy rozwoju obszarów wiejskich dla rolników z państw UE.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "fe712a041",
+     "przod": "Rolnictwo ekologiczne",
+     "tyl": "Produkcja bez syntetycznych nawozów i środków ochrony roślin.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f50b35322",
+     "przod": "Rozpoznaj: Klimat (temperatura, opady, okres wegetacyjny), gleby, ukształtowanie terenu, stosunki wodne.",
+     "tyl": "Przyrodnicze czynniki rozwoju rolnictwa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "fc1f8bf23",
+     "przod": "Rozpoznaj: Mechanizacja, chemizacja, struktura agrarna, kapitał, rynek zbytu, polityka rolna, tradycja.",
+     "tyl": "Pozaprzyrodnicze czynniki rozwoju rolnictwa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "fbe6b46d1",
+     "przod": "Rozpoznaj: Wysokie nakłady pracy lub kapitału na hektar i wysokie plony — np. Europa Zachodnia, Azja monsunowa.",
+     "tyl": "Rolnictwo intensywne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f2b734533",
+     "przod": "Rozpoznaj: Niskie nakłady na hektar i niskie plony na dużych obszarach — np. pasterstwo, wielkie farmy zbożowe.",
+     "tyl": "Rolnictwo ekstensywne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "fd3d8b536",
+     "przod": "Rozpoznaj: Duże gospodarstwa w strefie gorącej uprawiające jedną roślinę na eksport (kawa, kakao, trzcina cukrowa).",
+     "tyl": "Rolnictwo plantacyjne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f4882e359",
+     "przod": "Rozpoznaj: Wprowadzenie od lat 60. XX w. wydajnych odmian zbóż, nawozów i nawadniania w krajach rozwijających się — wzrost plonów.",
+     "tyl": "Zielona rewolucja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f1fe23dc9",
+     "przod": "Rozpoznaj: Dopłaty bezpośrednie i programy rozwoju obszarów wiejskich dla rolników z państw UE.",
+     "tyl": "Wspólna Polityka Rolna UE",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f4ac17806",
+     "przod": "Rozpoznaj: Produkcja bez syntetycznych nawozów i środków ochrony roślin.",
+     "tyl": "Rolnictwo ekologiczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p6c2292df",
+     "pytanie": "Czynnikiem pozaprzyrodniczym rozwoju rolnictwa jest:",
+     "odpowiedzi": [
+      "długość okresu wegetacyjnego",
+      "żyzność gleb",
+      "stopień mechanizacji",
+      "suma opadów"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Zależy od człowieka i kapitału.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe8c6ef38",
+     "pytanie": "Rolnictwo plantacyjne jest nastawione głównie na:",
+     "odpowiedzi": [
+      "uprawę zbóż na paszę",
+      "samozaopatrzenie rodziny",
+      "chów bydła mlecznego",
+      "produkcję na eksport jednej rośliny"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Kawa, kakao, trzcina cukrowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9acc3301",
+     "pytanie": "Zielona rewolucja polegała na:",
+     "odpowiedzi": [
+      "przejściu na rolnictwo ekologiczne",
+      "zastąpieniu upraw hodowlą",
+      "wprowadzeniu wydajnych odmian, nawozów i nawadniania",
+      "kolektywizacji gospodarstw"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Zwłaszcza w Azji.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcc831003",
+     "pytanie": "Pasterstwo koczownicze to przykład rolnictwa:",
+     "odpowiedzi": [
+      "plantacyjnego",
+      "podmiejskiego",
+      "intensywnego",
+      "ekstensywnego"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Niskie nakłady na dużym obszarze.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pce8df66b",
+     "pytanie": "Dopłaty bezpośrednie dla rolników w Polsce są elementem:",
+     "odpowiedzi": [
+      "zielonej rewolucji",
+      "reformy rolnej z 1944 r.",
+      "polityki antynatalistycznej",
+      "Wspólnej Polityki Rolnej UE"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Od 2004 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-uprawy",
+   "nazwa": "Uprawy, chów zwierząt, rybołówstwo i problem wyżywienia",
+   "opis": "Wymaganie X.4–6 podstawy programowej.",
+   "wymaganie": "X.4–6",
+   "fiszki": [
+    {
+     "id": "f19ee213b",
+     "przod": "Ryż",
+     "tyl": "Uprawa w Azji monsunowej (gorąco i wilgotno); najwięcej produkują Chiny i Indie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "fb5add293",
+     "przod": "Pszenica",
+     "tyl": "Główne zboże strefy umiarkowanej; najwięcej produkują Chiny, Indie i Rosja.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "ff61ce7db",
+     "przod": "Kawa",
+     "tyl": "Uprawa podzwrotnikowa i zwrotnikowa; największy producent — Brazylia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f1de42d5a",
+     "przod": "Kakao",
+     "tyl": "Uprawa w wilgotnym klimacie równikowym; największy producent — Wybrzeże Kości Słoniowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f5f5b78f9",
+     "przod": "Soja",
+     "tyl": "Ważna roślina oleista i pastewna; najwięcej produkują Brazylia i USA.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "fdfc03da5",
+     "przod": "Uprawy w Polsce",
+     "tyl": "Przeważają zboża (pszenica, pszenżyto, kukurydza), ważne są rzepak, ziemniaki, buraki cukrowe; Polska jest czołowym producentem jabłek w UE.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f9aa5910b",
+     "przod": "Chów zwierząt w Polsce",
+     "tyl": "Rozwinięty chów drobiu (jeden z największych w UE), trzody chlewnej i bydła mlecznego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f2a962a58",
+     "przod": "Akwakultura",
+     "tyl": "Hodowla ryb i owoców morza w kontrolowanych warunkach; najwięcej w Chinach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f2a97c893",
+     "przod": "Problem wyżywienia",
+     "tyl": "Niedożywienie dotyczy głównie Afryki Subsaharyjskiej i części Azji Południowej; przyczyny: susze, konflikty, bieda.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f8471960a",
+     "przod": "Rozpoznaj: Uprawa w Azji monsunowej (gorąco i wilgotno); najwięcej produkują Chiny i Indie.",
+     "tyl": "Ryż",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "fb923d311",
+     "przod": "Rozpoznaj: Główne zboże strefy umiarkowanej; najwięcej produkują Chiny, Indie i Rosja.",
+     "tyl": "Pszenica",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "fb1d06c4b",
+     "przod": "Rozpoznaj: Uprawa podzwrotnikowa i zwrotnikowa; największy producent — Brazylia.",
+     "tyl": "Kawa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f64ce30ad",
+     "przod": "Rozpoznaj: Uprawa w wilgotnym klimacie równikowym; największy producent — Wybrzeże Kości Słoniowej.",
+     "tyl": "Kakao",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "fec2720ab",
+     "przod": "Rozpoznaj: Ważna roślina oleista i pastewna; najwięcej produkują Brazylia i USA.",
+     "tyl": "Soja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f79649eb0",
+     "przod": "Rozpoznaj: Przeważają zboża (pszenica, pszenżyto, kukurydza), ważne są rzepak, ziemniaki, buraki cukrowe; Polska jest czołowym producentem jabłek w UE.",
+     "tyl": "Uprawy w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "fa63253e2",
+     "przod": "Rozpoznaj: Hodowla ryb i owoców morza w kontrolowanych warunkach; najwięcej w Chinach.",
+     "tyl": "Akwakultura",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p219f7cc4",
+     "pytanie": "Największym producentem kawy jest:",
+     "odpowiedzi": [
+      "Wietnam",
+      "Kolumbia",
+      "Etiopia",
+      "Brazylia"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Wietnam jest drugi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p557caa01",
+     "pytanie": "Ryż uprawia się głównie w:",
+     "odpowiedzi": [
+      "Azji monsunowej",
+      "Afryce Północnej",
+      "Ameryce Północnej",
+      "Europie Środkowej"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Wymaga ciepła i wody.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p127ecd52",
+     "pytanie": "Największym producentem kakao jest:",
+     "odpowiedzi": [
+      "Indie",
+      "Brazylia",
+      "Wybrzeże Kości Słoniowej",
+      "Meksyk"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Afryka Zachodnia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7aa3b372",
+     "pytanie": "Polska jest czołowym producentem w UE:",
+     "odpowiedzi": [
+      "oliwek i owoców cytrusowych",
+      "jabłek i mięsa drobiowego",
+      "ryżu i ziaren soi",
+      "kawy i ziaren kakaowca"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Sady na Mazowszu i w Sandomierskiem.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p66829dd8",
+     "pytanie": "Niedożywienie dotyczy przede wszystkim:",
+     "odpowiedzi": [
+      "Australii",
+      "Afryki Subsaharyjskiej",
+      "Ameryki Północnej",
+      "Europy Zachodniej"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Susze, konflikty, bieda.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
