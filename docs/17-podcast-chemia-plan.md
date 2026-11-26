@@ -122,11 +122,11 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **45. Węglowodory aromatyczne** `c-areny` ✅
 
-**46. Powtórka działu: Wstęp do chemii organicznej i węglowodory** `organiczna` ⬜
+**46. Powtórka działu: Wstęp do chemii organicznej i węglowodory** `organiczna` ✅
 
 ## Dział: Tlenowe pochodne węglowodorów
 
-**47. Alkohole i fenole** `c-alkohole` ⬜
+**47. Alkohole i fenole** `c-alkohole` ✅
 
 **48. Aldehydy i ketony** `c-karbonylowe` ⬜
 

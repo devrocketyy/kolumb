@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-46-powtorka-organiczna",
+  "pytania": [
+    {
+      "id": "brom",
+      "typ": "abcd",
+      "pytanie": "Wodę bromową odbarwi:",
+      "odpowiedzi": [
+        "heks-1-en",
+        "heksan",
+        "toluen",
+        "wszystkie trzy"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Tylko alken ulega addycji."
+    },
+    {
+      "id": "wzor",
+      "typ": "abcd",
+      "pytanie": "Wzór sumaryczny heks-1-enu:",
+      "odpowiedzi": [
+        "C₆H₁₂",
+        "C₆H₁₄",
+        "C₆H₁₀",
+        "C₆H₆"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Alken: CnH₂n."
+    },
+    {
+      "id": "kmno4",
+      "typ": "abcd",
+      "pytanie": "Toluen od heksanu odróżnisz:",
+      "odpowiedzi": [
+        "roztworem KMnO₄ przy ogrzewaniu",
+        "wodą bromową w ciemności",
+        "wodą wapienną",
+        "zapachem — to jedyna metoda"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Utlenia się łańcuch boczny toluenu."
+    },
+    {
+      "id": "cistrans",
+      "typ": "abcd",
+      "pytanie": "Izomerię cis-trans wykazuje:",
+      "odpowiedzi": [
+        "heks-2-en",
+        "heks-1-en",
+        "heksan",
+        "cykloheksan"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Oba węgle przy C=C muszą mieć różne podstawniki."
+    },
+    {
+      "id": "masa",
+      "typ": "abcd",
+      "pytanie": "Masa Br₂ przyłączonego przez 2,8 g C₂H₄:",
+      "odpowiedzi": [
+        "16 g",
+        "8 g",
+        "32 g",
+        "2,8 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "n = 2,8 / 28 = 0,1; M(Br₂) = 160."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Heks-1-en + Br₂ → 1,2-dibromoheksan to:",
+      "odpowiedzi": [
+        "addycja",
+        "substytucja",
+        "eliminacja",
+        "kondensacja"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Przyłączenie do wiązania podwójnego."
+    }
+  ]
+}
