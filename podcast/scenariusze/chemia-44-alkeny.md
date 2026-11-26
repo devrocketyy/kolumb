@@ -25,6 +25,10 @@ Alkeny mają wiązanie podwójne C=C: jedno sigma i jedno pi. Wiązanie pi jest 
 
 Eten z bromem daje jeden, dwa-dibromoetan. Brunatna woda bromowa się odbarwia. To klasyczny test na wiązanie wielokrotne. Odbarwia się też roztwór manganianu potasu.
 
+Mini-obliczenie. Ile gramów bromu przyłączy pięć i sześć dziesiątych decymetra sześciennego etenu w warunkach normalnych? To ćwierć mola etenu. Stosunek jeden do jednego, więc ćwierć mola bromu, a masa molowa Br₂ to sto sześćdziesiąt. Wychodzi czterdzieści gramów.
+
+Addycji ulegają też wodór, chlorowodór i woda. Uwodornienie etenu daje etan, a przyłączenie wody, w obecności kwasu, daje etanol — tak produkuje się etanol przemysłowo.
+
 [pytanie: brom]
 
 Sprawdź się. Jaki produkt powstaje w reakcji etenu z bromem?
@@ -55,6 +59,10 @@ Gdy do niesymetrycznego alkenu, jak propen, przyłączasz HBr albo wodę, pojawi
 
 Propen plus HBr daje więc głównie dwa-bromopropan. Propen plus woda, w obecności kwasu, daje propan-2-ol.
 
+Najprostszy sposób na zapamiętanie: „bogaty się bogaci”. Wodór idzie do tego węgla, który już ma więcej wodorów.
+
+Typowy błąd: stosowanie reguły do symetrycznych alkenów. Dla etenu albo but-2-enu nie ma znaczenia, gdzie pójdzie wodór — oba atomy węgla przy wiązaniu podwójnym są równoważne i powstaje jeden produkt.
+
 [pytanie: markownikow]
 
 Sprawdź się. Jaki produkt główny powstaje w reakcji propenu z HBr?
@@ -70,6 +78,10 @@ Sprawdź się. Jaki produkt główny powstaje w reakcji propenu z HBr?
 ## Polimeryzacja
 
 Alkeny mogą łączyć się ze sobą w długie łańcuchy. To polimeryzacja: tysiące cząsteczek etenu dają polietylen. Z propenu powstaje polipropylen, z chlorku winylu — polichlorek winylu, PCW.
+
+Polimeryzacja addycyjna zachowuje masę: z tysiąca cząsteczek etenu powstaje łańcuch o masie tysiąca cząsteczek. Nic się nie odłącza.
+
+Najważniejsze polimery z alkenów to polietylen na folie, polipropylen na opakowania i włókna, polichlorek winylu na rury i wykładziny oraz polistyren na styropian. Ich trwałość jest zaletą w użyciu i problemem w środowisku — rozkładają się setki lat.
 
 [pytanie: polimer]
 
@@ -88,6 +100,10 @@ Polietylen.
 Alkiny mają wiązanie potrójne: jedno sigma i dwa pi. Wzór ogólny CnH₂n₋₂. Atomy węgla przy wiązaniu potrójnym mają hybrydyzację sp, a cząsteczka etynu jest liniowa.
 
 Etyn, czyli acetylen, otrzymuje się z karbidu: CaC₂ plus dwie cząsteczki wody daje C₂H₂ i wodorotlenek wapnia. Etyn może przyłączyć dwie cząsteczki bromu — powstaje 1,1,2,2-tetrabromoetan.
+
+Etyn spala się w tlenie bardzo gorącym płomieniem, około trzech tysięcy stopni. Dlatego służy do spawania i cięcia metali.
+
+Etyn przyłącza też chlorowodór — powstaje chloroeten, czyli chlorek winylu, monomer PCW. A przyłączenie wody, w obecności soli rtęci, daje etanal.
 
 [pytanie: karbid]
 

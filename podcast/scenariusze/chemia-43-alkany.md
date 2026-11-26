@@ -25,6 +25,10 @@ Alkany to węglowodory nasycone: tylko wiązania pojedyncze. Wzór ogólny CnH�
 
 Temperatura wrzenia rośnie z długością łańcucha, bo rosną siły van der Waalsa. A przy tej samej liczbie atomów węgla — izomer rozgałęziony wrze niżej, bo cząsteczki mają mniejszą powierzchnię styku.
 
+Skąd biorą się alkany? Głównie z ropy naftowej i gazu ziemnego. Ropę rozdziela się przez destylację frakcyjną na frakcje o różnych temperaturach wrzenia: gazy, benzynę, naftę, olej napędowy, aż po mazut i asfalt.
+
+Metan, główny składnik gazu ziemnego, jest bezwonny. Charakterystyczny zapach gazu w kuchni pochodzi od dodawanych w małych ilościach związków siarki — żeby wyciek był wyczuwalny.
+
 [pytanie: wzor]
 
 Sprawdź się. Jaki wzór sumaryczny ma alkan o ośmiu atomach węgla?
@@ -57,6 +61,12 @@ Metan z chlorem w świetle: CH₄ plus Cl₂ daje CH₃Cl i HCl. Mechanizm: świ
 
 W ciemności i bez ogrzewania alkany nie odbarwiają wody bromowej. To odróżnia je od alkenów.
 
+Reakcja metanu z chlorem na jednym podstawieniu się nie zatrzymuje. Powstaje mieszanina: chlorometan, dichlorometan, trichlorometan, czyli chloroform, i tetrachlorometan. Ich proporcje zależą od ilości chloru.
+
+Dla dłuższych alkanów pojawia się izomeria produktów. Propan z chlorem daje dwa monochloropochodne: 1-chloropropan i 2-chloropropan.
+
+Typowy błąd: zapisanie w produktach samego chlorowodoru bez pochodnej albo odwrotnie. Każde podstawienie daje jedną cząsteczkę HCl.
+
 [pytanie: substytucja]
 
 Sprawdź się. Jaki typ reakcji zachodzi między metanem a chlorem w świetle?
@@ -86,6 +96,10 @@ Nie. Alkany nie mają wiązań wielokrotnych.
 Spalanie całkowite daje dwutlenek węgla i wodę. Oktan: dwa C₈H₁₈ plus dwadzieścia pięć O₂ daje szesnaście CO₂ i osiemnaście H₂O. Przy niedoborze tlenu powstaje trujący tlenek węgla albo sadza.
 
 Cykloalkany to łańcuchy zamknięte w pierścień. Wzór CnH₂n — taki sam jak alkenów, więc cykloheksan i heks-1-en to izomery. Ale cykloalkany chemicznie zachowują się jak alkany.
+
+Mini-obliczenie. Ile decymetrów sześciennych tlenu, w warunkach normalnych, potrzeba do całkowitego spalenia ośmiu gramów metanu? To pół mola metanu. Równanie: CH₄ plus dwa O₂ daje CO₂ i dwie H₂O. Potrzeba jednego mola tlenu, czyli dwudziestu dwóch i czterech dziesiątych decymetra sześciennego.
+
+Długie alkany z ropy rozbija się na krótsze w procesie krakingu. Powstaje więcej cennej benzyny, a przy okazji alkeny — surowiec do tworzyw sztucznych.
 
 [pytanie: cyklo]
 
