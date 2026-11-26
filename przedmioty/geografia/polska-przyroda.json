@@ -1110,6 +1110,49 @@
        "d": "Najwyższe opady — ponad 1700 mm"
       }
      ]
+    },
+    {
+     "id": "sc3f2d72e",
+     "typ": "rysunek",
+     "tytul": "Temperatura stycznia w Polsce — izotermy",
+     "opis": "Uproszczony przebieg izoterm stycznia w Polsce.",
+     "uwaga": "Zimą o temperaturze decyduje odległość od Atlantyku (kontynentalizm), dlatego izotermy biegną z północy na południe. Latem przebiegają równoleżnikowo — najcieplej na południu.",
+     "svg": "<defs><clipPath id=\"g13pl\"><path d=\"M33 118 L50 190 L64 194 L108 206 L122 222 L159 230 L193 250 L217 254 L244 254 L285 254 L322 266 L329 246 L353 214 L373 198 L356 166 L367 122 L353 90 L353 62 L329 54 L220 54 L186 54 L176 38 L115 50 L37 74 L44 98 Z\"/></clipPath></defs><rect class=\"gw\" x=\"0\" y=\"0\" width=\"400\" height=\"300\" opacity=\"0.5\"/><path class=\"gt\" d=\"M33 118 L50 190 L64 194 L108 206 L122 222 L159 230 L193 250 L217 254 L244 254 L285 254 L322 266 L329 246 L353 214 L373 198 L356 166 L367 122 L353 90 L353 62 L329 54 L220 54 L186 54 L176 38 L115 50 L37 74 L44 98 Z\"/><g clip-path=\"url(#g13pl)\"><path class=\"cold\" d=\"M54 30 L78 270\"/><path class=\"cold\" d=\"M118 30 L152 270\"/><path class=\"cold\" d=\"M193 30 L227 270\"/><path class=\"cold\" d=\"M268 30 L302 270\"/><path class=\"cold\" d=\"M333 30 L363 270\"/><path class=\"gi\" d=\"M200 258 Q234 240 268 258 Z\" style=\"stroke:none\"/></g><path class=\"s\" d=\"M33 118 L50 190 L64 194 L108 206 L122 222 L159 230 L193 250 L217 254 L244 254 L285 254 L322 266 L329 246 L353 214 L373 198 L356 166 L367 122 L353 90 L353 62 L329 54 L220 54 L186 54 L176 38 L115 50 L37 74 L44 98 Z\"/><text class=\"tb\" x=\"60\" y=\"90\" text-anchor=\"middle\">0°C</text><text class=\"tb\" x=\"127\" y=\"90\" text-anchor=\"middle\">−1°C</text><text class=\"tb\" x=\"202\" y=\"90\" text-anchor=\"middle\">−2°C</text><text class=\"tb\" x=\"276\" y=\"90\" text-anchor=\"middle\">−3°C</text><text class=\"tb\" x=\"340\" y=\"90\" text-anchor=\"middle\">−4°C</text><text class=\"ts\" x=\"8\" y=\"292\">izotermy stycznia (°C) — wartości przybliżone</text><text class=\"tb\" x=\"200\" y=\"18\" text-anchor=\"middle\">Morze Bałtyckie</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 50.39999999999999,
+       "y": 85.99999999999994,
+       "lx": 60,
+       "ly": 60,
+       "n": "Zachód",
+       "d": "Najcieplejsza zima — wpływ mas oceanicznych (ok. 0°C)"
+      },
+      {
+       "x": 342.79999999999995,
+       "y": 74.00000000000006,
+       "lx": 330,
+       "ly": 60,
+       "n": "Suwałki",
+       "d": "Najzimniej na nizinach — ok. −4°C i mniej"
+      },
+      {
+       "x": 234,
+       "y": 245.99999999999994,
+       "lx": 250,
+       "ly": 285,
+       "n": "Tatry",
+       "d": "W górach jeszcze zimniej — spadek z wysokością"
+      },
+      {
+       "x": 210.20000000000002,
+       "y": 150.0,
+       "lx": 170,
+       "ly": 150,
+       "n": "Przebieg izoterm",
+       "d": "Południkowy — temperatura spada z zachodu na wschód"
+      }
+     ]
     }
    ]
   },

@@ -1435,6 +1435,49 @@
        "d": "295 m n.p.m."
       }
      ]
+    },
+    {
+     "id": "sf9dc27e1",
+     "typ": "rysunek",
+     "tytul": "Dolina rzeczna na mapie poziomicowej",
+     "opis": "Fragment mapy poziomicowej z doliną rzeczną (cięcie poziomic 10 m).",
+     "uwaga": "Na mapie poziomicowej dolina to poziomice wygięte w kształt litery V lub U skierowanej w górę rzeki; grzbiet — wygięte w dół stoku. Rzeka płynie zawsze od wyższych poziomic do niższych.",
+     "svg": "<rect class=\"gt\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"s\" d=\"M0 270 Q100 265 200 215 Q300 265 400 270\" style=\"fill:none\"/><text class=\"ts\" x=\"8\" y=\"266\">200</text><text class=\"ts\" x=\"392\" y=\"266\" text-anchor=\"end\">200</text><path class=\"s\" d=\"M0 215 Q100 210 200 160 Q300 210 400 215\" style=\"fill:none\"/><text class=\"ts\" x=\"8\" y=\"211\">210</text><text class=\"ts\" x=\"392\" y=\"211\" text-anchor=\"end\">210</text><path class=\"s\" d=\"M0 160 Q100 155 200 105 Q300 155 400 160\" style=\"fill:none\"/><text class=\"ts\" x=\"8\" y=\"156\">220</text><text class=\"ts\" x=\"392\" y=\"156\" text-anchor=\"end\">220</text><path class=\"s\" d=\"M0 105 Q100 100 200 50 Q300 100 400 105\" style=\"fill:none\"/><text class=\"ts\" x=\"8\" y=\"101\">230</text><text class=\"ts\" x=\"392\" y=\"101\" text-anchor=\"end\">230</text><path class=\"s\" d=\"M0 50 Q100 45 200 -5 Q300 45 400 50\" style=\"fill:none\"/><text class=\"ts\" x=\"8\" y=\"46\">240</text><text class=\"ts\" x=\"392\" y=\"46\" text-anchor=\"end\">240</text><path class=\"cold\" d=\"M200 0 C195 60 205 140 198 200 C194 240 202 270 200 300\" style=\"stroke-width:3\"/><path class=\"cold\" d=\"M212.0 240.0 L212.0 280.0\"/><path class=\"coldf\" d=\"M212.0 280.0 L209.0 273.7 L215.0 273.7 Z\"/><path class=\"dash\" d=\"M20 150 H380\"/><text class=\"tb\" x=\"14\" y=\"146\">A</text><text class=\"tb\" x=\"384\" y=\"146\">B</text><path class=\"d\" d=\"M370 30 l-6 14 l6 -4 l6 4 Z\"/><text class=\"tb\" x=\"370\" y=\"58\" text-anchor=\"middle\">N</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 160,
+       "lx": 250,
+       "ly": 120,
+       "n": "Wygięcie poziomic",
+       "d": "Poziomice tworzą „V” skierowane w górę doliny"
+      },
+      {
+       "x": 198,
+       "y": 230,
+       "lx": 140,
+       "ly": 255,
+       "n": "Rzeka",
+       "d": "Płynie z północy na południe — w dół doliny"
+      },
+      {
+       "x": 100,
+       "y": 214,
+       "lx": 110,
+       "ly": 185,
+       "n": "Zbocze doliny",
+       "d": "Wysokość rośnie od rzeki ku krawędziom"
+      },
+      {
+       "x": 300,
+       "y": 150,
+       "lx": 315,
+       "ly": 175,
+       "n": "Linia A–B",
+       "d": "Profil przez dolinę: wysoko – nisko – wysoko"
+      }
+     ]
     }
    ]
   },
