@@ -32,7 +32,7 @@ Q=[
 Q=[
  ('Największym producentem kawy jest:', ['*Brazylia', 'Kolumbia', 'Etiopia', 'Wietnam'], 'Wietnam jest drugi.'),
  ('Ryż uprawia się głównie w:', ['*Azji monsunowej', 'Europie Środkowej', 'Afryce Północnej', 'Ameryce Północnej'], 'Wymaga ciepła i wody.'),
- ('Największym producentem kakao jest:', ['*Wybrzeże Kości Słoniowej', 'Brazylia', 'Indie', 'Meksyk'], 'Afryka Zachodnia.'),
+ ('Największym producentem kakao jest:', ['*Wybrzeże Kości Słoniowej', 'Republika Południowej Afryki', 'Stany Zjednoczone', 'Arabia Saudyjska'], 'Afryka Zachodnia.'),
  ('Polska jest czołowym producentem w UE:', ['*jabłek i mięsa drobiowego', 'kawy i ziaren kakaowca', 'ryżu i ziaren soi', 'oliwek i owoców cytrusowych'], 'Sady na Mazowszu i w Sandomierskiem.'),
  ('Niedożywienie dotyczy przede wszystkim:', ['*Afryki Subsaharyjskiej', 'Europy Zachodniej', 'Ameryki Północnej', 'Australii'], 'Susze, konflikty, bieda.'),
 ]),
