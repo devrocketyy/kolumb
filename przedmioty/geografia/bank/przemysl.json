@@ -63,6 +63,33 @@
    ],
    "id": "b-przemysl-02",
    "dzial": "przemysl"
+  },
+  {
+   "tytul": "Restrukturyzacja okręgu górniczego",
+   "material": "Tekst autorski. Zatrudnienie w górnictwie węgla kamiennego w pewnym okręgu spadło z ok. 390 tys. osób do ok. 80 tys. osób.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz procentowy spadek zatrudnienia.",
+     "odpowiedz": "ok. 79,5%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(390 − 80) / 390 × 100%.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa działania, które pomagają regionowi po zamknięciu kopalń.",
+     "odpowiedz": "Np. przekwalifikowanie pracowników, przyciąganie inwestorów (strefy inwestycyjne), rozwój usług i turystyki industrialnej, rekultywacja terenów.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Restrukturyzacja.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-03",
+   "dzial": "przemysl"
   }
  ]
 }

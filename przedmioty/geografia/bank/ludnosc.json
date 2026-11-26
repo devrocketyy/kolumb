@@ -63,6 +63,42 @@
    ],
    "id": "b-ludnosc-02",
    "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Miasto i strefa podmiejska",
+   "material": "Tekst autorski. Liczba ludności miasta X w latach 1990 i 2020: centrum 400 tys. → 300 tys.; strefa podmiejska 100 tys. → 200 tys.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz zmianę procentową liczby ludności centrum i strefy podmiejskiej.",
+     "odpowiedz": "centrum −25%, strefa +100%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(300 − 400) / 400 i (200 − 100) / 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę procesu, który ilustrują dane.",
+     "odpowiedz": "suburbanizacja",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przenoszenie się ludności na przedmieścia.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden negatywny skutek tego procesu.",
+     "odpowiedz": "Np. korki i wydłużone dojazdy, zabudowa terenów rolnych, koszty infrastruktury.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Rozlewanie się miast.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-ludnosc-03",
+   "dzial": "ludnosc"
   }
  ]
 }

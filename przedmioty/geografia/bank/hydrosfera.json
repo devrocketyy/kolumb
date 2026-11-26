@@ -27,6 +27,87 @@
    ],
    "id": "b-hydrosfera-01",
    "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Pomiar przepływu",
+   "material": "Tekst autorski. W przekroju pomiarowym rzeka ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz przepływ rzeki.",
+     "odpowiedz": "80 m³/s",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Pole przekroju 40 × 2,5 = 100 m²; 100 × 0,8.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz objętość wody, która przepływa przez przekrój w ciągu doby.",
+     "odpowiedz": "ok. 6,9 mln m³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "80 × 86 400 = 6 912 000 m³.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-02",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Rzeka nizinna przez rok",
+   "material": "Tekst autorski. Średnie miesięczne przepływy rzeki (m³/s): I 60, II 75, III 140, IV 180, V 110, VI 70, VII 65, VIII 50, IX 45, X 50, XI 55, XII 58.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj miesiąc z najwyższym przepływem i jego przyczynę.",
+     "odpowiedz": "Kwiecień — topnienie pokrywy śnieżnej.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wezbranie roztopowe.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę ustroju rzecznego tej rzeki.",
+     "odpowiedz": "niwalny (śnieżny)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Maksimum wiosenne.",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stosunek przepływu maksymalnego do minimalnego.",
+     "odpowiedz": "4",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "180 / 45.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-hydrosfera-03",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Spadek a wysokość koryta",
+   "material": "Tekst autorski. Rzeka w punkcie A płynie na wysokości 300 m n.p.m. Średni spadek na odcinku do punktu B wynosi 2‰, a odległość wzdłuż koryta to 15 km.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz wysokość koryta w punkcie B.",
+     "odpowiedz": "270 m n.p.m.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Obniżenie 15 000 m × 0,002 = 30 m.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-hydrosfera-04",
+   "dzial": "hydrosfera"
   }
  ]
 }

@@ -1,0 +1,46 @@
+# Bank zadań autorskich — geografia, część 3: wody, litosfera, gleby, Polska, miasta, przemysł. Dane autorskie (przybliżone).
+BANK = {'hydrosfera': [
+ B('Pomiar przepływu',
+   'Tekst autorski. W przekroju pomiarowym rzeka ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.',
+   T('oblicz', 1, 'Oblicz przepływ rzeki.', '80 m³/s', 'Pole przekroju 40 × 2,5 = 100 m²; 100 × 0,8.'),
+   T('oblicz', 1, 'Oblicz objętość wody, która przepływa przez przekrój w ciągu doby.', 'ok. 6,9 mln m³', '80 × 86 400 = 6 912 000 m³.')),
+ B('Rzeka nizinna przez rok',
+   'Tekst autorski. Średnie miesięczne przepływy rzeki (m³/s): I 60, II 75, III 140, IV 180, V 110, VI 70, VII 65, VIII 50, IX 45, X 50, XI 55, XII 58.',
+   T('podaj', 1, 'Podaj miesiąc z najwyższym przepływem i jego przyczynę.', 'Kwiecień — topnienie pokrywy śnieżnej.', 'Wezbranie roztopowe.'),
+   T('podaj', 1, 'Podaj nazwę ustroju rzecznego tej rzeki.', 'niwalny (śnieżny)', 'Maksimum wiosenne.'),
+   T('oblicz', 1, 'Oblicz stosunek przepływu maksymalnego do minimalnego.', '4', '180 / 45.')),
+ B('Spadek a wysokość koryta',
+   'Tekst autorski. Rzeka w punkcie A płynie na wysokości 300 m n.p.m. Średni spadek na odcinku do punktu B wynosi 2‰, a odległość wzdłuż koryta to 15 km.',
+   T('oblicz', 2, 'Oblicz wysokość koryta w punkcie B.', '270 m n.p.m.', 'Obniżenie 15 000 m × 0,002 = 30 m.')),
+], 'litosfera': [
+ B('Profil geologiczny',
+   'Tekst autorski. W odsłonięciu od dołu występują: piaskowce i łupki z wkładkami węgla (karbon), wapienie z amonitami (jura), glina z głazami narzutowymi (czwartorzęd). Warstwy nie są zaburzone.',
+   T('podaj', 1, 'Podaj najstarszą warstwę. Uzasadnij.', 'Piaskowce i łupki karbońskie — leżą najniżej (zasada superpozycji).', 'Warstwy niezaburzone.'),
+   T('podaj', 1, 'Podaj, w czasie jakiego zjawiska osadziła się glina z głazami narzutowymi.', 'Zlodowacenia (lądolód skandynawski).', 'Czwartorzęd.'),
+   T('wyjasnij', 1, 'Wyjaśnij, na co wskazuje obecność amonitów w wapieniach.', 'Osady powstały w środowisku morskim.', 'Amonity to zwierzęta morskie.')),
+ B('Lodowiec w odwrocie',
+   'Tekst autorski. Czoło lodowca alpejskiego cofnęło się w ciągu 40 lat o 1,2 km.',
+   T('oblicz', 1, 'Oblicz średnie tempo cofania się lodowca w metrach na rok.', '30 m/rok', '1200 m / 40 lat.'),
+   T('podaj', 1, 'Podaj główną przyczynę zaniku lodowców górskich.', 'Ocieplenie klimatu (ujemny bilans masy — topnienie przewyższa zasilanie).', 'Globalne ocieplenie.')),
+], 'pedosfera': [
+ B('Gleba stepowa',
+   'Tekst autorski. Profil glebowy: poziom próchniczny A ciemny, o miąższości ok. 1 m, na lessie. Klimat: opady ok. 450 mm, ciepłe lato, mroźna zima. Roślinność naturalna — trawy.',
+   T('podaj', 1, 'Podaj typ gleby.', 'czarnoziem', 'Gruby poziom próchniczny pod trawami stepu.'),
+   T('wyjasnij', 1, 'Wyjaśnij, dlaczego poziom próchniczny jest tak gruby.', 'Obumierające korzenie traw dostarczają dużo materii organicznej, a małe opady ograniczają wymywanie.', 'Także mroźna zima hamuje rozkład.')),
+], 'polska-przyroda': [
+ B('Jezioro na pojezierzu',
+   'Tekst autorski. Jezioro na Pojezierzu Pomorskim ma 6 km długości, 0,5 km szerokości i głębokość maksymalną 40 m; jest wydłużone w kierunku N–S.',
+   T('podaj', 1, 'Podaj genetyczny typ jeziora.', 'rynnowe (polodowcowe)', 'Długie, wąskie, głębokie.'),
+   T('wyjasnij', 1, 'Wyjaśnij, jak powstała misa tego jeziora.', 'Wyżłobiły ją wody płynące pod lądolodem pod ciśnieniem.', 'Rynna subglacjalna.')),
+], 'ludnosc': [
+ B('Miasto i strefa podmiejska',
+   'Tekst autorski. Liczba ludności miasta X w latach 1990 i 2020: centrum 400 tys. → 300 tys.; strefa podmiejska 100 tys. → 200 tys.',
+   T('oblicz', 1, 'Oblicz zmianę procentową liczby ludności centrum i strefy podmiejskiej.', 'centrum −25%, strefa +100%', '(300 − 400) / 400 i (200 − 100) / 100.'),
+   T('podaj', 1, 'Podaj nazwę procesu, który ilustrują dane.', 'suburbanizacja', 'Przenoszenie się ludności na przedmieścia.'),
+   T('podaj', 1, 'Podaj jeden negatywny skutek tego procesu.', 'Np. korki i wydłużone dojazdy, zabudowa terenów rolnych, koszty infrastruktury.', 'Rozlewanie się miast.')),
+], 'przemysl': [
+ B('Restrukturyzacja okręgu górniczego',
+   'Tekst autorski. Zatrudnienie w górnictwie węgla kamiennego w pewnym okręgu spadło z ok. 390 tys. osób do ok. 80 tys. osób.',
+   T('oblicz', 1, 'Oblicz procentowy spadek zatrudnienia.', 'ok. 79,5%', '(390 − 80) / 390 × 100%.'),
+   T('podaj', 2, 'Podaj dwa działania, które pomagają regionowi po zamknięciu kopalń.', 'Np. przekwalifikowanie pracowników, przyciąganie inwestorów (strefy inwestycyjne), rozwój usług i turystyki industrialnej, rekultywacja terenów.', 'Restrukturyzacja.')),
+]}
