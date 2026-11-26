@@ -83,6 +83,51 @@
    "dzial": "hydrosfera"
   },
   {
+   "tytul": "Spadek rzeki w biegach",
+   "material": "Tekst autorski. Rzeka ma źródło na 1200 m n.p.m. Po 90 km płynie na wysokości 380 m, po 350 km — 60 m, a po 560 km uchodzi do morza.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz średni spadek (‰) w biegu górnym (0–90 km) i dolnym (350–560 km).",
+     "odpowiedz": "górny ok. 9,1‰, dolny ok. 0,29‰",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "820 m / 90 km; 60 m / 210 km.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, jak spadek wpływa na przewagę erozji lub akumulacji.",
+     "odpowiedz": "Duży spadek daje dużą prędkość i energię wody — przeważa erozja; mały spadek zmniejsza prędkość, więc rzeka odkłada niesiony materiał.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Energia wody.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-04",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Taśmociąg oceaniczny",
+   "material": "Tekst autorski. Topnienie lądolodu Grenlandii dostarcza do Atlantyku Północnego coraz więcej słodkiej wody.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, jak może to wpłynąć na cyrkulację termohalinową i klimat Europy.",
+     "odpowiedz": "Słodka woda zmniejsza zasolenie i gęstość wód powierzchniowych, więc słabiej toną; osłabia to cyrkulację i dopływ ciepłych wód Prądu Północnoatlantyckiego — klimat Europy Zachodniej mógłby się ochłodzić.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Gęstość wody.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-hydrosfera-05",
+   "dzial": "hydrosfera"
+  },
+  {
    "tytul": "Pomiar przepływu",
    "material": "Tekst autorski. W przekroju pomiarowym rzeka ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -106,7 +151,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-04",
+   "id": "b-hydrosfera-06",
    "dzial": "hydrosfera"
   },
   {
@@ -142,7 +187,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-hydrosfera-05",
+   "id": "b-hydrosfera-07",
    "dzial": "hydrosfera"
   },
   {
@@ -160,7 +205,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-hydrosfera-06",
+   "id": "b-hydrosfera-08",
    "dzial": "hydrosfera"
   },
   {
@@ -187,7 +232,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-07",
+   "id": "b-hydrosfera-09",
    "dzial": "hydrosfera"
   },
   {
@@ -214,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-08",
+   "id": "b-hydrosfera-10",
    "dzial": "hydrosfera"
   },
   {
@@ -241,7 +286,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-09",
+   "id": "b-hydrosfera-11",
    "dzial": "hydrosfera"
   },
   {
@@ -268,7 +313,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-10",
+   "id": "b-hydrosfera-12",
    "dzial": "hydrosfera"
   },
   {
@@ -295,7 +340,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-11",
+   "id": "b-hydrosfera-13",
    "dzial": "hydrosfera"
   }
  ]

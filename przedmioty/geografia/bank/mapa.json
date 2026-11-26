@@ -92,6 +92,33 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Profil rzeki z mapy",
+   "material": "Tekst autorski. Na mapie w skali 1:50 000 odcinek potoku między poziomicami 640 m i 520 m ma długość 6 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz średni spadek potoku w promilach.",
+     "odpowiedz": "40‰",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "120 m / 3000 m × 1000.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w którym biegu rzeki najpewniej leży ten odcinek.",
+     "odpowiedz": "w biegu górnym",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Duży spadek.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-04",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Wycieczka na wieżę widokową",
    "material": "Tekst autorski. Na mapie w skali 1:25 000 kościół leży na wysokości 212 m n.p.m., a wieża widokowa na wzgórzu — 347 m n.p.m. Odległość między nimi na mapie: 8 cm. Wieża leży od kościoła w kierunku azymutu 135°.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -124,7 +151,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-04",
+   "id": "b-mapa-05",
    "dzial": "mapa"
   },
   {
@@ -142,7 +169,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-05",
+   "id": "b-mapa-06",
    "dzial": "mapa"
   },
   {
@@ -169,7 +196,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-06",
+   "id": "b-mapa-07",
    "dzial": "mapa"
   },
   {
@@ -205,7 +232,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-07",
+   "id": "b-mapa-08",
    "dzial": "mapa"
   },
   {
@@ -232,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-08",
+   "id": "b-mapa-09",
    "dzial": "mapa"
   },
   {
@@ -259,7 +286,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-09",
+   "id": "b-mapa-10",
    "dzial": "mapa"
   },
   {
@@ -277,7 +304,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-10",
+   "id": "b-mapa-11",
    "dzial": "mapa"
   }
  ]

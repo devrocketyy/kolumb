@@ -119,6 +119,51 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Tempo wzrostu ludności",
+   "material": "Tekst autorski. Ludność świata: 1960 — 3 mld, 1974 — 4 mld, 1987 — 5 mld, 1999 — 6 mld, 2011 — 7 mld, 2022 — 8 mld.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile lat trwało przyrastanie o kolejny miliard w okresach 1960–1974 i 2011–2022.",
+     "odpowiedz": "14 lat i 11 lat",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Różnice dat.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego mimo spadku dzietności liczba ludności wciąż szybko rośnie.",
+     "odpowiedz": "Liczne pokolenia z okresu wysokiej dzietności są teraz w wieku rodzicielskim, a długość życia rośnie (inercja demograficzna).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Struktura wieku.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-05",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Indie i Chiny",
+   "material": "Tekst autorski. Indie liczą ok. 1,44 mld, a Chiny ok. 1,41 mld mieszkańców. Współczynnik dzietności: Indie ok. 2,0, Chiny ok. 1,0.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, w którym kraju liczba ludności będzie dłużej rosła. Uzasadnij.",
+     "odpowiedz": "W Indiach — dzietność bliska zastępowalności i młodsza struktura wieku; w Chinach dzietność jest bardzo niska i ludność już maleje.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Polityka jednego dziecka w Chinach.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-06",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Miasto i strefa podmiejska",
    "material": "Tekst autorski. Liczba ludności miasta X w latach 1990 i 2020: centrum 400 tys. → 300 tys.; strefa podmiejska 100 tys. → 200 tys.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -151,7 +196,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-05",
+   "id": "b-ludnosc-07",
    "dzial": "ludnosc"
   },
   {
@@ -187,7 +232,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-06",
+   "id": "b-ludnosc-08",
    "dzial": "ludnosc"
   },
   {
@@ -214,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-07",
+   "id": "b-ludnosc-09",
    "dzial": "ludnosc"
   },
   {
@@ -250,7 +295,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-08",
+   "id": "b-ludnosc-10",
    "dzial": "ludnosc"
   },
   {
@@ -277,7 +322,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-09",
+   "id": "b-ludnosc-11",
    "dzial": "ludnosc"
   },
   {
@@ -313,7 +358,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-10",
+   "id": "b-ludnosc-12",
    "dzial": "ludnosc"
   }
  ]
