@@ -83,6 +83,33 @@
    "dzial": "rolnictwo"
   },
   {
+   "tytul": "Pszenica i bydło",
+   "material": "Tekst autorski. W Polsce zebrano 12 mln t pszenicy z 2,4 mln ha. Pogłowie bydła wynosi 6,4 mln sztuk, a powierzchnia użytków rolnych — 14,3 mln ha.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz plon pszenicy w dt/ha.",
+     "odpowiedz": "50 dt/ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "12 mln t / 2,4 mln ha = 5 t/ha.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz obsadę bydła na 100 ha użytków rolnych.",
+     "odpowiedz": "ok. 45 sztuk",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "6,4 / 14,3 × 100 ≈ 44,8.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-04",
+   "dzial": "rolnictwo"
+  },
+  {
    "tytul": "Gospodarstwo na Kujawach",
    "material": "Tekst autorski. Gospodarstwo uprawia: pszenicę na 25 ha (plon 6 t/ha), rzepak na 10 ha (plon 3,5 t/ha) i ziemniaki na 5 ha (plon 28 t/ha).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -115,7 +142,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rolnictwo-04",
+   "id": "b-rolnictwo-05",
    "dzial": "rolnictwo"
   },
   {
@@ -142,7 +169,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-05",
+   "id": "b-rolnictwo-06",
    "dzial": "rolnictwo"
   },
   {
@@ -169,7 +196,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-06",
+   "id": "b-rolnictwo-07",
    "dzial": "rolnictwo"
   },
   {
@@ -196,7 +223,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-07",
+   "id": "b-rolnictwo-08",
    "dzial": "rolnictwo"
   }
  ]

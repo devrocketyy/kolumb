@@ -389,6 +389,69 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Podlasie",
+   "material": "Tekst autorski. Województwo podlaskie ma ok. 1,15 mln mieszkańców i powierzchnię ok. 20 200 km². Współczynnik przyrostu naturalnego wynosi −3‰.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz gęstość zaludnienia.",
+     "odpowiedz": "ok. 57 os./km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 150 000 / 20 200.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczny ubytek naturalny ludności.",
+     "odpowiedz": "ok. 3450 osób",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 150 000 × 0,003.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedną przyczynę niskiej gęstości zaludnienia Podlasia.",
+     "odpowiedz": "Słabe uprzemysłowienie, przewaga rolnictwa, odpływ młodych do dużych miast, duże kompleksy leśne i bagna (Puszcza Białowieska, Biebrza).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jedna przyczyna.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-ludnosc-16",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Starzenie się Polski",
+   "material": "Tekst autorski. Udział osób w wieku 65+ w Polsce wynosił 12,3% w 2000 r. i 20,4% w 2024 r.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, o ile punktów procentowych wzrósł ten udział.",
+     "odpowiedz": "o 8,1 p.p.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "20,4 − 12,3.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny starzenia się ludności Polski.",
+     "odpowiedz": "Spadek dzietności poniżej zastępowalności pokoleń, wydłużenie trwania życia, emigracja młodych.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-17",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Miasto i strefa podmiejska",
    "material": "Tekst autorski. Liczba ludności miasta X w latach 1990 i 2020: centrum 400 tys. → 300 tys.; strefa podmiejska 100 tys. → 200 tys.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -421,7 +484,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-16",
+   "id": "b-ludnosc-18",
    "dzial": "ludnosc"
   },
   {
@@ -457,7 +520,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-17",
+   "id": "b-ludnosc-19",
    "dzial": "ludnosc"
   },
   {
@@ -484,7 +547,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-18",
+   "id": "b-ludnosc-20",
    "dzial": "ludnosc"
   },
   {
@@ -520,7 +583,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-19",
+   "id": "b-ludnosc-21",
    "dzial": "ludnosc"
   },
   {
@@ -547,7 +610,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-20",
+   "id": "b-ludnosc-22",
    "dzial": "ludnosc"
   },
   {
@@ -583,7 +646,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-21",
+   "id": "b-ludnosc-23",
    "dzial": "ludnosc"
   }
  ]

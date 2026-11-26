@@ -29,6 +29,33 @@
    "dzial": "czlowiek"
   },
   {
+   "tytul": "Lesistość Polski",
+   "material": "Tekst autorski. Lesistość Polski wynosiła ok. 20,8% w 1945 r. i ok. 31% w 2024 r. Powierzchnia Polski to ok. 312,7 tys. km².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię lasów w 2024 r. w tys. km².",
+     "odpowiedz": "ok. 96,9 tys. km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "312,7 × 0,31.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny wzrostu lesistości Polski po 1945 r.",
+     "odpowiedz": "Zalesianie słabych gruntów porolnych, programy zwiększania lesistości, ochrona lasów, spadek powierzchni upraw.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-czlowiek-02",
+   "dzial": "czlowiek"
+  },
+  {
    "tytul": "Emisje na mieszkańca",
    "material": "Tekst autorski. Kraj X emituje 300 mln t CO₂ rocznie i ma 37,5 mln mieszkańców. Kraj Y emituje 1000 mln t CO₂ i ma 1,4 mld mieszkańców.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -52,7 +79,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-02",
+   "id": "b-czlowiek-03",
    "dzial": "czlowiek"
   },
   {
@@ -79,7 +106,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-03",
+   "id": "b-czlowiek-04",
    "dzial": "czlowiek"
   },
   {
@@ -106,7 +133,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-04",
+   "id": "b-czlowiek-05",
    "dzial": "czlowiek"
   },
   {
@@ -133,7 +160,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-05",
+   "id": "b-czlowiek-06",
    "dzial": "czlowiek"
   }
  ]

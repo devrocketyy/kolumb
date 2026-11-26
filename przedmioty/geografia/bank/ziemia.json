@@ -263,6 +263,69 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Sylwester w Sydney",
+   "material": "Tekst autorski. Pokaz fajerwerków w Sydney (w grudniu UTC+11) rozpoczyna się 31 grudnia o 20:00 czasu lokalnego.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Podaj datę i godzinę w Warszawie (UTC+1) w chwili rozpoczęcia pokazu.",
+     "odpowiedz": "31 grudnia, 10:00",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "20:00 − 10 h.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-12",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Słońce na zwrotniku Koziorożca",
+   "material": "Tekst autorski. Punkt X leży na zwrotniku Koziorożca (23°27′S).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania w punkcie X 22 czerwca.",
+     "odpowiedz": "43°06′",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "90° − 23°27′ − 23°27′.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj datę, w której Słońce góruje w zenicie nad punktem X.",
+     "odpowiedz": "22 grudnia",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przesilenie na półkuli S.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-13",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Górowanie w Polsce",
+   "material": "Tekst autorski. Zimą w pewnej miejscowości w Polsce Słońce górowało o 11:44 czasu urzędowego (UTC+1).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz długość geograficzną miejscowości.",
+     "odpowiedz": "19°E",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "16 min przed 12:00 → 4° na wschód od 15°E.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-14",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Zgorzelcem i Terespolem",
    "material": "Tekst autorski. Zgorzelec leży na ok. 15°00′E, Terespol na ok. 23°40′E. Jest zima (obowiązuje czas UTC+1).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -286,7 +349,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-12",
+   "id": "b-ziemia-15",
    "dzial": "ziemia"
   },
   {
@@ -313,7 +376,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-13",
+   "id": "b-ziemia-16",
    "dzial": "ziemia"
   },
   {
@@ -340,7 +403,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-14",
+   "id": "b-ziemia-17",
    "dzial": "ziemia"
   },
   {
@@ -376,7 +439,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-15",
+   "id": "b-ziemia-18",
    "dzial": "ziemia"
   },
   {
@@ -403,7 +466,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-16",
+   "id": "b-ziemia-19",
    "dzial": "ziemia"
   },
   {
@@ -430,7 +493,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-17",
+   "id": "b-ziemia-20",
    "dzial": "ziemia"
   },
   {
@@ -448,7 +511,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-18",
+   "id": "b-ziemia-21",
    "dzial": "ziemia"
   }
  ]

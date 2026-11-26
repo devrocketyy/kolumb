@@ -164,6 +164,51 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Import gazu",
+   "material": "Tekst autorski. Polska zużywa ok. 20 mld m³ gazu ziemnego rocznie, z czego ok. 15 mld m³ pochodzi z importu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stopień zależności od importu gazu.",
+     "odpowiedz": "75%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "15 / 20 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę złoża lub regionu wydobycia gazu w Polsce.",
+     "odpowiedz": "Np. Podkarpacie (zapadlisko przedkarpackie) lub Niż Polski (Wielkopolska, Pomorze Zachodnie).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Własne wydobycie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-07",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Funkcja turystyczna",
+   "material": "Tekst autorski. Miejscowość liczy 27 000 mieszkańców i przyjmuje rocznie 300 000 turystów. Wskaźnik Schneidera = liczba turystów / liczba mieszkańców × 100.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik Schneidera.",
+     "odpowiedz": "ok. 1111",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "300 000 / 27 000 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-08",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Struktura produkcji energii",
    "material": "Tekst autorski. Kraj Q wyprodukował 160 TWh energii elektrycznej: węgiel 55%, gaz ziemny 10%, wiatr 15%, słońce 10%, biomasa 8%, woda 2%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -196,7 +241,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-przemysl-07",
+   "id": "b-przemysl-09",
    "dzial": "przemysl"
   },
   {
@@ -223,7 +268,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-08",
+   "id": "b-przemysl-10",
    "dzial": "przemysl"
   },
   {
@@ -250,7 +295,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-09",
+   "id": "b-przemysl-11",
    "dzial": "przemysl"
   },
   {
@@ -277,7 +322,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-10",
+   "id": "b-przemysl-12",
    "dzial": "przemysl"
   },
   {
@@ -304,7 +349,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-11",
+   "id": "b-przemysl-13",
    "dzial": "przemysl"
   },
   {
@@ -331,7 +376,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-12",
+   "id": "b-przemysl-14",
    "dzial": "przemysl"
   },
   {
@@ -358,7 +403,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-13",
+   "id": "b-przemysl-15",
    "dzial": "przemysl"
   }
  ]

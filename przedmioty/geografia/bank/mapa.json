@@ -380,6 +380,60 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Profil wzdłuż linii",
+   "material": "Tekst autorski. Na linii profilu odczytano z mapy wysokości punktów: A — 210 m, B — 250 m, C — 235 m, D — 290 m n.p.m. Odległości w terenie: A–B 600 m, B–C 300 m, C–D 400 m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średni spadek terenu na odcinku C–D w procentach.",
+     "odpowiedz": "ok. 13,8%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "55 m / 400 m × 100% = 13,75%.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj odcinek profilu, na którym teren obniża się.",
+     "odpowiedz": "B–C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Z 250 do 235 m.",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość względną punktu D nad najniższym punktem profilu.",
+     "odpowiedz": "80 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "290 − 210.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-mapa-15",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Długość drogi po stoku",
+   "material": "Tekst autorski. Odległość pozioma między dwoma punktami wynosi 900 m, a różnica wysokości — 120 m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz rzeczywistą długość prostej drogi po stoku. Wynik zaokrąglij do 1 m.",
+     "odpowiedz": "ok. 908 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "√(900² + 120²) ≈ 907,9.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-16",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Wycieczka na wieżę widokową",
    "material": "Tekst autorski. Na mapie w skali 1:25 000 kościół leży na wysokości 212 m n.p.m., a wieża widokowa na wzgórzu — 347 m n.p.m. Odległość między nimi na mapie: 8 cm. Wieża leży od kościoła w kierunku azymutu 135°.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -412,7 +466,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-15",
+   "id": "b-mapa-17",
    "dzial": "mapa"
   },
   {
@@ -430,7 +484,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-16",
+   "id": "b-mapa-18",
    "dzial": "mapa"
   },
   {
@@ -457,7 +511,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-17",
+   "id": "b-mapa-19",
    "dzial": "mapa"
   },
   {
@@ -493,7 +547,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-18",
+   "id": "b-mapa-20",
    "dzial": "mapa"
   },
   {
@@ -520,7 +574,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-19",
+   "id": "b-mapa-21",
    "dzial": "mapa"
   },
   {
@@ -547,7 +601,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-20",
+   "id": "b-mapa-22",
    "dzial": "mapa"
   },
   {
@@ -565,7 +619,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-21",
+   "id": "b-mapa-23",
    "dzial": "mapa"
   }
  ]
