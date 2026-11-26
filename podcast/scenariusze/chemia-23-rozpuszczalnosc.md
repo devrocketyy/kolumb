@@ -69,6 +69,18 @@ Maleje. Ciepła woda rozpuszcza mniej gazu.
 
 [koniec odpowiedzi]
 
+[pytanie: krzywe]
+
+Sprawdź się. Która sól lepiej nadaje się do oczyszczania przez krystalizację z ochładzanego roztworu: azotan potasu czy chlorek sodu?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Azotan potasu. Jego rozpuszczalność silnie spada przy ochładzaniu, a chlorku sodu prawie się nie zmienia.
+
+[koniec odpowiedzi]
+
 ## Krystalizacja
 
 Co się dzieje, gdy nasycony roztwór azotanu potasu ostygnie z sześćdziesięciu do dwudziestu stopni? Woda nie utrzyma już tyle soli i nadmiar wykrystalizuje.
