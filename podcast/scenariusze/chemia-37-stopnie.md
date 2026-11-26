@@ -105,6 +105,18 @@ Cynk. Oddaje elektrony i sam się utlenia.
 
 Typowe polecenia: oblicz stopnie utlenienia, wskaż utleniacz i reduktor, określ, czy reakcja jest redoks. Uwaga na dysproporcjonowanie: ten sam pierwiastek jednocześnie się utlenia i redukuje. Na przykład chlor w zasadzie daje chlorki na minus jeden i podchloryny na plus jeden.
 
+[pytanie: podsumowanie]
+
+Sprawdź się. Co dzieje się z utleniaczem w reakcji redoks?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Redukuje się. Przyjmuje elektrony, jego stopień utlenienia maleje.
+
+[koniec odpowiedzi]
+
 W następnym odcinku: jak zbilansować równanie redoks metodą bilansu elektronowego.
 
 [muzyka, cicho]

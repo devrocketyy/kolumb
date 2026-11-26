@@ -65,6 +65,19 @@
       ],
       "poprawna": 0,
       "wyjasnienie": "Reduktor oddaje elektrony."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Utleniacz w reakcji redoks:",
+      "odpowiedzi": [
+        "przyjmuje elektrony i się redukuje",
+        "oddaje elektrony i się utlenia",
+        "nie zmienia stopnia utlenienia",
+        "zawsze jest tlenem"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Utleniacz utlenia innych, sam się redukuje."
     }
   ]
 }
