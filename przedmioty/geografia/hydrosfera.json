@@ -987,6 +987,51 @@
      "wyjasnienie": "Ok. 2/3 wód słodkich.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s319fb043",
+     "typ": "rysunek",
+     "tytul": "Lodowiec górski",
+     "opis": "Budowa lodowca dolinnego.",
+     "uwaga": "Po zaniku lodowca zostaje cyrk (kar) z jeziorem i dolina w kształcie U.",
+     "svg": "<path class=\"f2\" d=\"M20 280 L120 40 L170 80 L260 60 L380 280 Z\" opacity=\"0.3\"/><path class=\"d\" d=\"M120 60 C150 100 190 110 210 140 C240 190 260 230 300 270 L340 270 C300 230 280 180 250 130 C230 100 200 80 170 80 Z\"/><path class=\"dash\" d=\"M60 140 H340\"/><path class=\"f2\" d=\"M300 270 C320 260 340 265 345 275 Z\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 160,
+       "y": 85,
+       "lx": 100,
+       "ly": 100,
+       "n": "Pole firnowe",
+       "d": "Obszar zasilania w cyrku lodowcowym"
+      },
+      {
+       "x": 90,
+       "y": 140,
+       "lx": 40,
+       "ly": 130,
+       "n": "Granica wiecznego śniegu",
+       "d": "Powyżej przeważa zasilanie"
+      },
+      {
+       "x": 250,
+       "y": 190,
+       "lx": 300,
+       "ly": 170,
+       "n": "Jęzor lodowcowy",
+       "d": "Spływa doliną poniżej granicy wiecznego śniegu"
+      },
+      {
+       "x": 322,
+       "y": 268,
+       "lx": 360,
+       "ly": 250,
+       "n": "Morena czołowa",
+       "d": "Wał osadów przed czołem lodowca"
+      }
+     ]
+    }
    ]
   }
  ]

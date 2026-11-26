@@ -330,6 +330,37 @@
      "wyjasnienie": "Cień zawsze jest kolisty.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sbb4dd7bc",
+     "typ": "proces",
+     "tytul": "Obliczanie czasu słonecznego i strefowego",
+     "opis": "Algorytm do zadań maturalnych.",
+     "uwaga": "Najczęstszy błąd: odejmowanie czasu przy przesuwaniu się na wschód.",
+     "kroki": [
+      {
+       "t": "Ustal różnicę długości geograficznej",
+       "d": "Jeśli punkty leżą na tej samej półkuli — odejmij; na różnych (E i W) — dodaj."
+      },
+      {
+       "t": "Przelicz na czas słoneczny",
+       "d": "1° = 4 min, 1′ = 4 s."
+      },
+      {
+       "t": "Ustal kierunek",
+       "d": "Na wschód czas jest późniejszy (dodaj), na zachód — wcześniejszy (odejmij)."
+      },
+      {
+       "t": "Dla czasu strefowego",
+       "d": "Policz różnicę stref (po 1 h); uwzględnij czas letni, jeśli jest podany."
+      },
+      {
+       "t": "Sprawdź datę",
+       "d": "Przy przekroczeniu północy lub linii zmiany daty zmień datę."
+      }
+     ]
+    }
    ]
   },
   {
@@ -703,6 +734,65 @@
        "ly": 190,
        "n": "Zwrotnik Koziorożca",
        "d": "23°27′S"
+      }
+     ]
+    },
+    {
+     "id": "s210feca8",
+     "typ": "rysunek",
+     "tytul": "Oświetlenie Ziemi 22 czerwca",
+     "opis": "Oświetlenie Ziemi w dniu przesilenia letniego na półkuli północnej.",
+     "uwaga": "22 czerwca na półkuli N dzień jest dłuższy niż noc, a na półkuli S — krótszy.",
+     "svg": "<circle class=\"d\" cx=\"200\" cy=\"150\" r=\"110\"/><path class=\"f2\" d=\"M200 40 A110 110 0 0 1 200 260 A60 110 0 0 0 200 40 Z\" opacity=\"0.5\"/><path class=\"s\" d=\"M200 40 A60 110 0 0 0 200 260\"/><circle class=\"s\" cx=\"200\" cy=\"150\" r=\"110\"/><g transform=\"rotate(-22 200 150)\"><path class=\"s\" d=\"M200 30 V270\"/><path class=\"dash\" d=\"M90 150 H310 M101 102 H299 M101 198 H299 M140 58 H260 M140 242 H260\"/></g><path class=\"s2\" d=\"M20 150 H70 M55 140 L70 150 L55 160\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 45,
+       "y": 150,
+       "lx": 30,
+       "ly": 130,
+       "n": "Promienie Słońca",
+       "d": "Padają z lewej strony"
+      },
+      {
+       "x": 182,
+       "y": 106,
+       "lx": 60,
+       "ly": 95,
+       "n": "Zwrotnik Raka",
+       "d": "Słońce w zenicie — 23°27′N"
+      },
+      {
+       "x": 200,
+       "y": 60,
+       "lx": 220,
+       "ly": 25,
+       "n": "Dzień polarny",
+       "d": "Za kołem podbiegunowym N cała doba oświetlona"
+      },
+      {
+       "x": 200,
+       "y": 245,
+       "lx": 220,
+       "ly": 285,
+       "n": "Noc polarna",
+       "d": "Za kołem podbiegunowym S"
+      },
+      {
+       "x": 160,
+       "y": 140,
+       "lx": 120,
+       "ly": 175,
+       "n": "Linia terminatora",
+       "d": "Granica dnia i nocy"
+      },
+      {
+       "x": 200,
+       "y": 150,
+       "lx": 230,
+       "ly": 145,
+       "n": "Oś Ziemi",
+       "d": "Nachylona — półkula N zwrócona ku Słońcu"
       }
      ]
     }

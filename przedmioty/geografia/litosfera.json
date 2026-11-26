@@ -512,6 +512,57 @@
        "d": "Gazy i materiał piroklastyczny"
       }
      ]
+    },
+    {
+     "id": "s64a3b173",
+     "typ": "rysunek",
+     "tytul": "Subdukcja na granicy płyt",
+     "opis": "Zbieżna granica płyty oceanicznej i kontynentalnej (np. Andy).",
+     "uwaga": "Przy subdukcji powstają rowy oceaniczne, łańcuchy wulkanów i silne trzęsienia ziemi.",
+     "svg": "<path class=\"f\" d=\"M20 100 H220 L380 70 V150 L220 140 H20 Z\" opacity=\"0.5\"/><path class=\"f2\" d=\"M20 140 H200 L330 280 L300 280 L190 160 H20 Z\" opacity=\"0.6\"/><path class=\"s\" d=\"M200 100 L220 125 L240 95\"/><path class=\"f2\" d=\"M300 70 L320 40 L340 70 Z\"/><path class=\"s2\" d=\"M270 200 C290 150 310 110 320 70\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 100,
+       "y": 150,
+       "lx": 60,
+       "ly": 180,
+       "n": "Płyta oceaniczna",
+       "d": "Cięższa — zanurza się pod kontynentalną"
+      },
+      {
+       "x": 320,
+       "y": 110,
+       "lx": 360,
+       "ly": 160,
+       "n": "Płyta kontynentalna",
+       "d": "Lżejsza, wypiętrzana"
+      },
+      {
+       "x": 220,
+       "y": 122,
+       "lx": 210,
+       "ly": 75,
+       "n": "Rów oceaniczny",
+       "d": "Najgłębsze części oceanu"
+      },
+      {
+       "x": 320,
+       "y": 50,
+       "lx": 360,
+       "ly": 30,
+       "n": "Wulkan",
+       "d": "Magma z topniejącej płyty wznosi się ku powierzchni"
+      },
+      {
+       "x": 270,
+       "y": 230,
+       "lx": 230,
+       "ly": 260,
+       "n": "Strefa topnienia",
+       "d": "Ognisko trzęsień i źródło magmy"
+      }
+     ]
     }
    ]
   },
@@ -1251,6 +1302,143 @@
        "ly": 175,
        "n": "Wiatr (barchan)",
        "d": "Wieje od strony czoła ku ramionom"
+      }
+     ]
+    },
+    {
+     "id": "sf01a80e6",
+     "typ": "rysunek",
+     "tytul": "Jaskinia krasowa",
+     "opis": "Formy krasu podziemnego i powierzchniowego w skałach wapiennych.",
+     "uwaga": "Nacieki powstają, gdy z wody wytrąca się węglan wapnia: Ca(HCO₃)₂ → CaCO₃ + H₂O + CO₂.",
+     "svg": "<path class=\"f\" d=\"M20 60 H380 V280 H20 Z\" opacity=\"0.35\"/><path class=\"s\" d=\"M20 60 H380\"/><path class=\"d\" d=\"M90 170 C110 130 290 130 310 170 C300 220 110 220 90 170 Z\"/><path class=\"s\" d=\"M150 140 L150 165 M175 136 L175 158 M240 138 L240 162\"/><path class=\"s\" d=\"M160 212 L160 192 M230 212 L230 188\"/><path class=\"f2\" d=\"M60 60 L80 100 L100 60 Z\"/><path class=\"s2\" d=\"M330 170 C350 180 360 200 380 205\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 80,
+       "y": 75,
+       "lx": 50,
+       "ly": 40,
+       "n": "Lej krasowy",
+       "d": "Zapadlisko na powierzchni"
+      },
+      {
+       "x": 175,
+       "y": 150,
+       "lx": 190,
+       "ly": 115,
+       "n": "Stalaktyt",
+       "d": "Naciek zwisający ze stropu"
+      },
+      {
+       "x": 230,
+       "y": 195,
+       "lx": 260,
+       "ly": 235,
+       "n": "Stalagmit",
+       "d": "Naciek rosnący od dna"
+      },
+      {
+       "x": 200,
+       "y": 175,
+       "lx": 120,
+       "ly": 190,
+       "n": "Komora jaskini",
+       "d": "Rozpuszczony wapień"
+      },
+      {
+       "x": 360,
+       "y": 198,
+       "lx": 360,
+       "ly": 230,
+       "n": "Wywierzysko",
+       "d": "Wypływ wody krasowej na powierzchnię"
+      }
+     ]
+    },
+    {
+     "id": "s7dcaacdf",
+     "typ": "rysunek",
+     "tytul": "Wybrzeże klifowe",
+     "opis": "Rzeźba wybrzeża niszczonego przez morze (np. Wolin, Orłowo).",
+     "uwaga": "Po podcięciu niszy górna część klifu obrywa się i klif cofa się w głąb lądu.",
+     "svg": "<path class=\"f\" d=\"M20 60 H230 L250 260 H20 Z\" opacity=\"0.6\"/><path class=\"s\" d=\"M230 60 L250 260\"/><path class=\"s2\" d=\"M250 200 H380\"/><path class=\"f2\" d=\"M250 240 L380 255 V280 H20 V260 H250 Z\" opacity=\"0.4\"/><path class=\"d\" d=\"M240 190 C250 200 248 215 240 220 Z\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 235,
+       "y": 110,
+       "lx": 200,
+       "ly": 90,
+       "n": "Klif",
+       "d": "Strome urwisko niszczone przez fale"
+      },
+      {
+       "x": 243,
+       "y": 205,
+       "lx": 280,
+       "ly": 180,
+       "n": "Nisza abrazyjna",
+       "d": "Podcięcie u podstawy klifu"
+      },
+      {
+       "x": 320,
+       "y": 200,
+       "lx": 330,
+       "ly": 175,
+       "n": "Fale",
+       "d": "Abrazja — niszczenie brzegu"
+      },
+      {
+       "x": 320,
+       "y": 250,
+       "lx": 350,
+       "ly": 270,
+       "n": "Platforma abrazyjna",
+       "d": "Zrównane dno przed klifem"
+      }
+     ]
+    },
+    {
+     "id": "se1e80eff",
+     "typ": "rysunek",
+     "tytul": "Delta i estuarium",
+     "opis": "Dwa typy ujść rzecznych.",
+     "uwaga": "Delta powstaje, gdy rzeka niesie dużo osadów, a pływy i prądy są słabe.",
+     "svg": "<path class=\"s2\" d=\"M40 20 C60 80 80 110 90 140\"/><path class=\"s2\" d=\"M90 140 L50 260 M90 140 L90 270 M90 140 L130 260 M90 140 L160 230\"/><path class=\"f\" d=\"M30 180 L170 180 L190 280 L20 280 Z\" opacity=\"0.4\"/><path class=\"s2\" d=\"M300 20 C300 100 305 150 310 170\"/><path class=\"s\" d=\"M290 170 L240 280 M330 170 L380 280\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 90,
+       "y": 140,
+       "lx": 120,
+       "ly": 125,
+       "n": "Rozgałęzienie koryta",
+       "d": "Rzeka dzieli się na odnogi"
+      },
+      {
+       "x": 90,
+       "y": 230,
+       "lx": 40,
+       "ly": 200,
+       "n": "Delta",
+       "d": "Osady narastają, ląd przyrasta — małe pływy (np. Wisła, Nil)"
+      },
+      {
+       "x": 310,
+       "y": 230,
+       "lx": 340,
+       "ly": 220,
+       "n": "Estuarium",
+       "d": "Lejkowate ujście poszerzane przez pływy (np. Tamiza)"
+      },
+      {
+       "x": 300,
+       "y": 60,
+       "lx": 330,
+       "ly": 50,
+       "n": "Rzeka",
+       "d": "Jedno koryto do ujścia"
       }
      ]
     }
