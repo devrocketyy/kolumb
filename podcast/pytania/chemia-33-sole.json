@@ -1,0 +1,70 @@
+{
+  "odcinek": "chemia-33-sole",
+  "pytania": [
+    {
+      "id": "zn",
+      "typ": "abcd",
+      "pytanie": "Zn + 2HCl →",
+      "odpowiedzi": [
+        "ZnCl₂ + H₂",
+        "ZnCl₂ + H₂O",
+        "ZnH₂ + Cl₂",
+        "brak reakcji"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Cynk jest aktywniejszy od wodoru."
+    },
+    {
+      "id": "cu",
+      "typ": "abcd",
+      "pytanie": "Miedź z rozcieńczonym HCl:",
+      "odpowiedzi": [
+        "nie reaguje",
+        "daje CuCl₂ i H₂",
+        "daje CuCl i H₂O",
+        "reaguje wybuchowo"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Szereg aktywności metali."
+    },
+    {
+      "id": "tlenek-zasada",
+      "typ": "abcd",
+      "pytanie": "CO₂ + 2NaOH →",
+      "odpowiedzi": [
+        "Na₂CO₃ + H₂O",
+        "NaHCO₃ + H₂",
+        "Na₂O + H₂CO₃",
+        "brak reakcji"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Tlenek kwasowy + zasada."
+    },
+    {
+      "id": "nahco3",
+      "typ": "abcd",
+      "pytanie": "2NaHCO₃ →(ogrzewanie)",
+      "odpowiedzi": [
+        "Na₂CO₃ + CO₂ + H₂O",
+        "Na₂O + 2CO₂ + H₂",
+        "2Na + 2CO₂ + H₂O",
+        "NaOH + CO₂"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Dlatego soda spulchnia ciasto."
+    },
+    {
+      "id": "hydrat",
+      "typ": "abcd",
+      "pytanie": "Zawartość wody w CuSO₄·5H₂O (M = 249,5 g/mol):",
+      "odpowiedzi": [
+        "ok. 36%",
+        "ok. 64%",
+        "ok. 18%",
+        "ok. 50%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "5 · 18 = 90; 90 / 249,5."
+    }
+  ]
+}

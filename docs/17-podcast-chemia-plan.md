@@ -90,9 +90,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **31. Tlenki i wodorki, charakter chemiczny, amfoteryczność** `c-tlenki` ✅
 
-**32. Wodorotlenki i kwasy** `c-wodorotlenki-kwasy` ⬜
+**32. Wodorotlenki i kwasy** `c-wodorotlenki-kwasy` ✅
 
-**33. Sole i ich otrzymywanie** `c-sole` ⬜
+**33. Sole i ich otrzymywanie** `c-sole` ✅
 
 **34. Metale i ich związki** `c-metale` ⬜
 
