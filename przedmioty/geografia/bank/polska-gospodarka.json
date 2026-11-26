@@ -54,6 +54,33 @@
    ],
    "id": "b-polska-gospodarka-02",
    "dzial": "polska-gospodarka"
+  },
+  {
+   "tytul": "Ubytek ludności",
+   "material": "Tekst autorski. Liczba ludności Polski wynosiła 38,5 mln w 2011 r. i 37,5 mln w 2024 r.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik dynamiki liczby ludności (2011 = 100%). Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "97,4%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "37,5 / 38,5 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny spadku liczby ludności Polski.",
+     "odpowiedz": "Ujemny przyrost naturalny (niska dzietność, starzenie się) oraz emigracja zagraniczna.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Po jednej z demografii i migracji.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-gospodarka-03",
+   "dzial": "polska-gospodarka"
   }
  ]
 }

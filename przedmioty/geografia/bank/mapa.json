@@ -207,6 +207,33 @@
    ],
    "id": "b-mapa-07",
    "dzial": "mapa"
+  },
+  {
+   "tytul": "Analiza buforowa",
+   "material": "Tekst autorski. Planowana droga ekspresowa ma odcinek prosty długości 4 km. W GIS wyznaczono bufor 500 m po obu stronach drogi.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię bufora w hektarach (pomiń zaokrąglenia na końcach odcinka).",
+     "odpowiedz": "400 ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4 km × 1 km = 4 km².",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj przykład zastosowania takiej analizy.",
+     "odpowiedz": "Np. ocena, ile budynków lub obszarów chronionych znajdzie się w strefie hałasu drogi.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Planowanie przestrzenne.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-08",
+   "dzial": "mapa"
   }
  ]
 }

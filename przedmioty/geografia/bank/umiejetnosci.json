@@ -36,6 +36,33 @@
    ],
    "id": "b-umiejetnosci-01",
    "dzial": "umiejetnosci"
+  },
+  {
+   "tytul": "Odczyt z wykresu kołowego",
+   "material": "Tekst autorski. Na wykresie kołowym struktury użytkowania ziemi w gminie użytki rolne zajmują wycinek o kącie 216°, a lasy — 90°.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział procentowy użytków rolnych i lasów.",
+     "odpowiedz": "użytki rolne 60%, lasy 25%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "216/360 i 90/360.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię lasów, jeśli gmina ma 120 km².",
+     "odpowiedz": "30 km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "25% × 120.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-02",
+   "dzial": "umiejetnosci"
   }
  ]
 }
