@@ -686,6 +686,78 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Ubytek naturalny Polski",
+   "material": "Tekst autorski. W roku w Polsce urodziło się ok. 270 tys. dzieci, a zmarło ok. 410 tys. osób. Liczba ludności wynosi 37,5 mln.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz przyrost naturalny w liczbach bezwzględnych i współczynnik w promilach. Wynik zaokrąglij do 0,1‰.",
+     "odpowiedz": "−140 tys.; ok. −3,7‰",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "−140 000 / 37 500 000 × 1000.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny niskiej liczby urodzeń w Polsce.",
+     "odpowiedz": "Późniejsze zakładanie rodzin, koszty utrzymania i mieszkań, model rodziny z jednym dzieckiem, emigracja młodych, kariera zawodowa kobiet.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-28",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Gęstość zaludnienia Polski",
+   "material": "Tekst autorski. Polska liczy 37,5 mln mieszkańców i ma powierzchnię 312,7 tys. km².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz gęstość zaludnienia Polski.",
+     "odpowiedz": "ok. 120 os./km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "37 500 000 / 312 700.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-29",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Urbanizacja województwa łódzkiego",
+   "material": "Tekst autorski. Województwo łódzkie liczy 2,4 mln mieszkańców, z czego 1,49 mln mieszka w miastach.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik urbanizacji. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 62%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1,49 / 2,4 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedną przyczynę historyczną rozwoju Łodzi.",
+     "odpowiedz": "Rozwój przemysłu włókienniczego w XIX w.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ziemia obiecana.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-30",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Miasto i strefa podmiejska",
    "material": "Tekst autorski. Liczba ludności miasta X w latach 1990 i 2020: centrum 400 tys. → 300 tys.; strefa podmiejska 100 tys. → 200 tys.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -718,7 +790,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-28",
+   "id": "b-ludnosc-31",
    "dzial": "ludnosc"
   },
   {
@@ -754,7 +826,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-29",
+   "id": "b-ludnosc-32",
    "dzial": "ludnosc"
   },
   {
@@ -781,7 +853,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-30",
+   "id": "b-ludnosc-33",
    "dzial": "ludnosc"
   },
   {
@@ -817,7 +889,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-31",
+   "id": "b-ludnosc-34",
    "dzial": "ludnosc"
   },
   {
@@ -844,7 +916,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-32",
+   "id": "b-ludnosc-35",
    "dzial": "ludnosc"
   },
   {
@@ -880,7 +952,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-33",
+   "id": "b-ludnosc-36",
    "dzial": "ludnosc"
   }
  ]

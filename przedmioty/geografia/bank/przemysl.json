@@ -344,6 +344,96 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Fotowoltaika",
+   "material": "Tekst autorski. W Polsce wyprodukowano ok. 165 TWh energii elektrycznej, z czego ok. 18 TWh z fotowoltaiki.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział fotowoltaiki w produkcji energii. Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "ok. 10,9%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "18 / 165 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w której części Polski warunki dla fotowoltaiki są najlepsze, i uzasadnij.",
+     "odpowiedz": "Na południu i południowym wschodzie — Słońce góruje wyżej i usłonecznienie jest największe.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Usłonecznienie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-14",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Gęstość autostrad",
+   "material": "Tekst autorski. W Polsce jest ok. 5000 km autostrad i dróg ekspresowych, a powierzchnia kraju wynosi 312,7 tys. km².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz gęstość sieci tych dróg w km na 100 km². Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 1,6 km/100 km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "5000 / 3127.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-15",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Lotnisko Chopina",
+   "material": "Tekst autorski. Lotnisko Chopina obsłużyło 21 mln pasażerów, a wszystkie lotniska w Polsce — 57 mln.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział Lotniska Chopina w ruchu pasażerskim. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 37%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "21 / 57 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-16",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Funkcja turystyczna Kołobrzegu",
+   "material": "Tekst autorski. Kołobrzeg ma ok. 45 000 mieszkańców i ok. 20 000 miejsc noclegowych.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik Baretje’a.",
+     "odpowiedz": "ok. 44",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "20 000 / 45 000 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa czynniki rozwoju turystyki w Kołobrzegu.",
+     "odpowiedz": "Położenie nad morzem i plaże, klimat i walory uzdrowiskowe (solanki, borowiny), port i infrastruktura.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-17",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Restrukturyzacja okręgu górniczego",
    "material": "Tekst autorski. Zatrudnienie w górnictwie węgla kamiennego w pewnym okręgu spadło z ok. 390 tys. osób do ok. 80 tys. osób.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -367,7 +457,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-14",
+   "id": "b-przemysl-18",
    "dzial": "przemysl"
   },
   {
@@ -394,7 +484,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-15",
+   "id": "b-przemysl-19",
    "dzial": "przemysl"
   },
   {
@@ -421,7 +511,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-16",
+   "id": "b-przemysl-20",
    "dzial": "przemysl"
   },
   {
@@ -448,7 +538,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-17",
+   "id": "b-przemysl-21",
    "dzial": "przemysl"
   },
   {
@@ -475,7 +565,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-18",
+   "id": "b-przemysl-22",
    "dzial": "przemysl"
   }
  ]

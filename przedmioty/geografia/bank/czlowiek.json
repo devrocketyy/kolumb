@@ -191,6 +191,78 @@
    "dzial": "czlowiek"
   },
   {
+   "tytul": "Emisja CO₂ na mieszkańca",
+   "material": "Tekst autorski. Polska emituje ok. 300 mln t CO₂ rocznie, a liczba ludności wynosi 37,5 mln.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz emisję CO₂ na mieszkańca.",
+     "odpowiedz": "8 t",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "300 / 37,5.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-czlowiek-08",
+   "dzial": "czlowiek"
+  },
+  {
+   "tytul": "Recykling odpadów",
+   "material": "Tekst autorski. W Polsce powstaje ok. 13 mln t odpadów komunalnych rocznie, z czego ok. 27% poddaje się recyklingowi.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę odpadów poddanych recyklingowi.",
+     "odpowiedz": "ok. 3,5 mln t",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "13 × 0,27.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa sposoby zmniejszenia ilości odpadów składowanych.",
+     "odpowiedz": "Segregacja i recykling, kompostowanie bioodpadów, system kaucyjny, ograniczanie opakowań jednorazowych, termiczne przekształcanie z odzyskiem energii.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-czlowiek-09",
+   "dzial": "czlowiek"
+  },
+  {
+   "tytul": "Zużycie wody",
+   "material": "Tekst autorski. W Polsce pobiera się ok. 9 km³ wody rocznie, z czego ok. 70% na potrzeby przemysłu i energetyki.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz pobór wody przez przemysł i energetykę.",
+     "odpowiedz": "ok. 6,3 km³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "9 × 0,7.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego energetyka zużywa dużo wody.",
+     "odpowiedz": "Elektrownie cieplne (węglowe, a w przyszłości jądrowe) potrzebują wody do chłodzenia.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Chłodzenie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-czlowiek-10",
+   "dzial": "czlowiek"
+  },
+  {
    "tytul": "Emisja CO₂",
    "material": "Tekst autorski. Kraj liczący 38 mln mieszkańców emituje rocznie 300 mln t CO₂, z czego 70% pochodzi z energetyki opartej na węglu.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -214,7 +286,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-08",
+   "id": "b-czlowiek-11",
    "dzial": "czlowiek"
   },
   {
@@ -241,7 +313,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-09",
+   "id": "b-czlowiek-12",
    "dzial": "czlowiek"
   }
  ]

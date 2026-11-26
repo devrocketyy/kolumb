@@ -524,6 +524,78 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Górowanie w Białymstoku",
+   "material": "Tekst autorski. Białystok leży na ok. 23°10′E. Obowiązuje czas zimowy (UTC+1).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz godzinę górowania Słońca w Białymstoku w czasie urzędowym.",
+     "odpowiedz": "11:27:20",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "8°10′ = 32 min 40 s przed 12:00.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-24",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Lot przez Pacyfik",
+   "material": "Tekst autorski. Samolot wylatuje z Auckland (w styczniu UTC+13) 3 stycznia o 19:00 czasu lokalnego i leci 12 godzin do Los Angeles (UTC−8).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Podaj datę i godzinę lądowania w czasie lokalnym Los Angeles.",
+     "odpowiedz": "3 stycznia, 10:00",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "19:00 UTC+13 = 6:00 UTC; +12 h = 18:00 UTC; −8 h = 10:00.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego samolot ląduje „wcześniej” niż wystartował.",
+     "odpowiedz": "Przelatuje przez linię zmiany daty z zachodu na wschód — data cofa się o dobę.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Linia zmiany daty.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-25",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Kraków i statek",
+   "material": "Tekst autorski. Kraków leży na 50°N. Na statku na półkuli N Słońce górowało o 10:20 UTC.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania w Krakowie 21 marca.",
+     "odpowiedz": "40°",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 50°.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz długość geograficzną statku.",
+     "odpowiedz": "25°E",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "100 min przed 12:00 UTC → 25° na wschód.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-26",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Zgorzelcem i Terespolem",
    "material": "Tekst autorski. Zgorzelec leży na ok. 15°00′E, Terespol na ok. 23°40′E. Jest zima (obowiązuje czas UTC+1).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -547,7 +619,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-24",
+   "id": "b-ziemia-27",
    "dzial": "ziemia"
   },
   {
@@ -574,7 +646,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-25",
+   "id": "b-ziemia-28",
    "dzial": "ziemia"
   },
   {
@@ -601,7 +673,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-26",
+   "id": "b-ziemia-29",
    "dzial": "ziemia"
   },
   {
@@ -637,7 +709,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-27",
+   "id": "b-ziemia-30",
    "dzial": "ziemia"
   },
   {
@@ -664,7 +736,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-28",
+   "id": "b-ziemia-31",
    "dzial": "ziemia"
   },
   {
@@ -691,7 +763,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-29",
+   "id": "b-ziemia-32",
    "dzial": "ziemia"
   },
   {
@@ -709,7 +781,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-30",
+   "id": "b-ziemia-33",
    "dzial": "ziemia"
   }
  ]

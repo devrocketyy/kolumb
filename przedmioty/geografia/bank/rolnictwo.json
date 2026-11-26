@@ -254,6 +254,96 @@
    "dzial": "rolnictwo"
   },
   {
+   "tytul": "Rzepak i zboża",
+   "material": "Tekst autorski. Zbiory rzepaku wyniosły 3,5 mln t z 1 mln ha. Zboża zajmują 7,3 mln ha z 10,8 mln ha gruntów ornych.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz plon rzepaku.",
+     "odpowiedz": "35 dt/ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3,5 t/ha.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział zbóż w powierzchni gruntów ornych. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 68%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "7,3 / 10,8 × 100 ≈ 67,6.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedno zastosowanie rzepaku.",
+     "odpowiedz": "Olej spożywczy, biopaliwo (biodiesel), pasza (makuch).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jedno.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-rolnictwo-10",
+   "dzial": "rolnictwo"
+  },
+  {
+   "tytul": "Obsada trzody chlewnej",
+   "material": "Tekst autorski. Pogłowie świń w Polsce wynosi ok. 10 mln sztuk, a powierzchnia użytków rolnych — 14,3 mln ha.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz obsadę świń na 100 ha użytków rolnych.",
+     "odpowiedz": "ok. 70 sztuk",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "10 / 14,3 × 100 ≈ 69,9.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj województwo o największym pogłowiu świń.",
+     "odpowiedz": "wielkopolskie",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Rolnictwo towarowe.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-11",
+   "dzial": "rolnictwo"
+  },
+  {
+   "tytul": "Handel żywnością",
+   "material": "Tekst autorski. Polska wyeksportowała żywność za ok. 250 mld zł, a zaimportowała za ok. 150 mld zł.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz saldo handlu żywnością.",
+     "odpowiedz": "+100 mld zł",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "250 − 150.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie grupy produktów rolno-spożywczych, które Polska dużo eksportuje.",
+     "odpowiedz": "Mięso drobiowe, wyroby mleczne, słodycze i wyroby czekoladowe, papierosy, jabłka i soki, pieczarki.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-12",
+   "dzial": "rolnictwo"
+  },
+  {
    "tytul": "Plony pszenicy",
    "material": "Tekst autorski. W województwie zebrano 4,5 mln t zbóż z powierzchni 750 tys. ha.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -277,7 +367,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-10",
+   "id": "b-rolnictwo-13",
    "dzial": "rolnictwo"
   },
   {
@@ -304,7 +394,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-11",
+   "id": "b-rolnictwo-14",
    "dzial": "rolnictwo"
   }
  ]

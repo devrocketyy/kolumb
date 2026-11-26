@@ -605,6 +605,105 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Marsz do schroniska",
+   "material": "Tekst autorski. Na mapie w skali 1:50 000 schronisko leży w kierunku azymutu 225° od parkingu, w odległości 4,2 cm. Turysta idzie z prędkością 4 km/h.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj kierunek geograficzny drogi do schroniska.",
+     "odpowiedz": "południowo-zachodni (SW)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Azymut 225°.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość w terenie.",
+     "odpowiedz": "2,1 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4,2 × 500 m.",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz czas marszu w minutach (pomijając ukształtowanie terenu).",
+     "odpowiedz": "ok. 32 min",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2,1 / 4 × 60 = 31,5.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-mapa-24",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Działka na mapie 1:5000",
+   "material": "Tekst autorski. Na mapie w skali 1:5000 działka ma kształt prostokąta 2 cm × 3 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię działki w hektarach.",
+     "odpowiedz": "1,5 ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 cm² = 0,25 ha; 6 × 0,25.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-25",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Przewyższenie profilu",
+   "material": "Tekst autorski. Profil terenu narysowano w skali poziomej 1:50 000 i pionowej 1:5000.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz przewyższenie profilu.",
+     "odpowiedz": "10 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "50 000 / 5000.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, po co stosuje się przewyższenie.",
+     "odpowiedz": "Różnice wysokości są małe w porównaniu z odległościami — bez przewyższenia profil byłby prawie płaski i nieczytelny.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Czytelność.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-26",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Spadek Wisły na nizinie",
+   "material": "Tekst autorski. Na odcinku 120 km Wisła obniża się o 30 m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średni spadek rzeki w promilach.",
+     "odpowiedz": "0,25‰",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "30 m / 120 000 m × 1000.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-27",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Wycieczka na wieżę widokową",
    "material": "Tekst autorski. Na mapie w skali 1:25 000 kościół leży na wysokości 212 m n.p.m., a wieża widokowa na wzgórzu — 347 m n.p.m. Odległość między nimi na mapie: 8 cm. Wieża leży od kościoła w kierunku azymutu 135°.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -637,7 +736,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-24",
+   "id": "b-mapa-28",
    "dzial": "mapa"
   },
   {
@@ -655,7 +754,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-25",
+   "id": "b-mapa-29",
    "dzial": "mapa"
   },
   {
@@ -682,7 +781,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-26",
+   "id": "b-mapa-30",
    "dzial": "mapa"
   },
   {
@@ -718,7 +817,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-27",
+   "id": "b-mapa-31",
    "dzial": "mapa"
   },
   {
@@ -745,7 +844,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-28",
+   "id": "b-mapa-32",
    "dzial": "mapa"
   },
   {
@@ -772,7 +871,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-29",
+   "id": "b-mapa-33",
    "dzial": "mapa"
   },
   {
@@ -790,7 +889,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-30",
+   "id": "b-mapa-34",
    "dzial": "mapa"
   }
  ]
