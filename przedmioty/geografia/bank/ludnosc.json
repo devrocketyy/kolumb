@@ -578,6 +578,60 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Gęstość zaludnienia województw",
+   "material": "Tekst autorski. Województwo śląskie: 4,3 mln mieszkańców, 12 300 km². Województwo warmińsko-mazurskie: 1,4 mln, 24 200 km².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz gęstość zaludnienia obu województw.",
+     "odpowiedz": "śląskie ok. 350 os./km², warmińsko-mazurskie ok. 58 os./km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ludność / powierzchnia.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przyczyny różnicy gęstości zaludnienia.",
+     "odpowiedz": "Na Śląsku rozwój przemysłu wydobywczego i ciężkiego przyciągał ludność i stworzył konurbację; Warmia i Mazury to region rolniczy i turystyczny z dużą liczbą jezior i lasów, słabo uprzemysłowiony.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Industrializacja.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-24",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Aglomeracje w Polsce",
+   "material": "Tekst autorski. Aglomeracja warszawska liczy ok. 3,3 mln mieszkańców, a samo miasto Warszawa — ok. 1,86 mln.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaki odsetek mieszkańców aglomeracji mieszka poza Warszawą.",
+     "odpowiedz": "ok. 44%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(3,3 − 1,86) / 3,3 × 100 ≈ 43,6.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę typu tej aglomeracji ze względu na liczbę ośrodków.",
+     "odpowiedz": "monocentryczna",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jedno centrum.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-25",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Miasto i strefa podmiejska",
    "material": "Tekst autorski. Liczba ludności miasta X w latach 1990 i 2020: centrum 400 tys. → 300 tys.; strefa podmiejska 100 tys. → 200 tys.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -610,7 +664,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-24",
+   "id": "b-ludnosc-26",
    "dzial": "ludnosc"
   },
   {
@@ -646,7 +700,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-25",
+   "id": "b-ludnosc-27",
    "dzial": "ludnosc"
   },
   {
@@ -673,7 +727,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-26",
+   "id": "b-ludnosc-28",
    "dzial": "ludnosc"
   },
   {
@@ -709,7 +763,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-27",
+   "id": "b-ludnosc-29",
    "dzial": "ludnosc"
   },
   {
@@ -736,7 +790,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-28",
+   "id": "b-ludnosc-30",
    "dzial": "ludnosc"
   },
   {
@@ -772,7 +826,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-29",
+   "id": "b-ludnosc-31",
    "dzial": "ludnosc"
   }
  ]

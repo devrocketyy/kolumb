@@ -137,6 +137,60 @@
    "dzial": "czlowiek"
   },
   {
+   "tytul": "Susza w Polsce",
+   "material": "Tekst autorski. W 2015 r. przepływ Wisły w Warszawie spadł do ok. 100 m³/s, przy średnim ok. 570 m³/s.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaki procent średniego przepływu stanowił przepływ w czasie suszy.",
+     "odpowiedz": "ok. 18%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "100 / 570 × 100 ≈ 17,5.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa sposoby zwiększenia retencji wody w Polsce.",
+     "odpowiedz": "Budowa małych zbiorników retencyjnych, odtwarzanie mokradeł, zalesianie, ograniczanie uszczelniania gruntów w miastach (ogrody deszczowe).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-czlowiek-06",
+   "dzial": "czlowiek"
+  },
+  {
+   "tytul": "Smog zimą",
+   "material": "Tekst autorski. Norma dobowa PM10 wynosi 50 µg/m³. W Nowym Targu zmierzono 230 µg/m³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy przekroczono normę.",
+     "odpowiedz": "ok. 4,6 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "230 / 50.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego Kotlina Nowotarska jest szczególnie narażona na smog.",
+     "odpowiedz": "Położenie w kotlinie sprzyja zaleganiu zimnego powietrza i inwersji temperatury, a domy ogrzewane są węglem i drewnem (niska emisja).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Inwersja.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-czlowiek-07",
+   "dzial": "czlowiek"
+  },
+  {
    "tytul": "Emisja CO₂",
    "material": "Tekst autorski. Kraj liczący 38 mln mieszkańców emituje rocznie 300 mln t CO₂, z czego 70% pochodzi z energetyki opartej na węglu.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -160,7 +214,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-06",
+   "id": "b-czlowiek-08",
    "dzial": "czlowiek"
   },
   {
@@ -187,7 +241,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-07",
+   "id": "b-czlowiek-09",
    "dzial": "czlowiek"
   }
  ]

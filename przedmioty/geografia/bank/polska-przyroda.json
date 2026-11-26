@@ -236,6 +236,96 @@
    "dzial": "polska-przyroda"
   },
   {
+   "tytul": "Tatry w liczbach",
+   "material": "Tekst autorski. Morskie Oko leży na wysokości 1395 m n.p.m., a szczyt Rysów — 2499 m n.p.m. Odległość pozioma między nimi wynosi ok. 2,6 km.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość względną Rysów nad Morskim Okiem.",
+     "odpowiedz": "1104 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2499 − 1395.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz średni spadek terenu w procentach. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 42%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "1104 / 2600 × 100.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj genezę jeziora Morskie Oko.",
+     "odpowiedz": "polodowcowe — cyrkowe (karowe), zatamowane moreną",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kar w Tatrach.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-polska-przyroda-10",
+   "dzial": "polska-przyroda"
+  },
+  {
+   "tytul": "Wody Polski",
+   "material": "Tekst autorski. Roczne zasoby wód powierzchniowych Polski wynoszą ok. 60 km³, a liczba ludności — 37,5 mln.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz zasoby wody na mieszkańca w m³ na rok.",
+     "odpowiedz": "ok. 1600 m³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "60 000 000 000 / 37 500 000.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego zasoby wody w Polsce są małe na tle Europy.",
+     "odpowiedz": "Opady są umiarkowane (ok. 600 mm), a duża część wody paruje; mała retencja (mało jezior zaporowych, osuszone mokradła), szybki odpływ do Bałtyku.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Bilans wodny.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-przyroda-11",
+   "dzial": "polska-przyroda"
+  },
+  {
+   "tytul": "Klimat Polski — kontynentalizm",
+   "material": "Tekst autorski. Roczna amplituda temperatury wynosi w Świnoujściu ok. 17°C, w Warszawie ok. 21°C, a w Suwałkach ok. 23°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w jakim kierunku rośnie amplituda temperatury w Polsce.",
+     "odpowiedz": "z zachodu na wschód (i z północnego zachodu na północny wschód)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kontynentalizm.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij przyczynę tej prawidłowości.",
+     "odpowiedz": "Wraz z odległością od Atlantyku słabnie łagodzący wpływ mas oceanicznych, a rośnie wpływ mas kontynentalnych (mroźne zimy, ciepłe lata).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Masy powietrza.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-przyroda-12",
+   "dzial": "polska-przyroda"
+  },
+  {
    "tytul": "Jezioro na pojezierzu",
    "material": "Tekst autorski. Jezioro na Pojezierzu Pomorskim ma 6 km długości, 0,5 km szerokości i głębokość maksymalną 40 m; jest wydłużone w kierunku N–S.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -259,7 +349,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-10",
+   "id": "b-polska-przyroda-13",
    "dzial": "polska-przyroda"
   },
   {
@@ -286,7 +376,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-11",
+   "id": "b-polska-przyroda-14",
    "dzial": "polska-przyroda"
   },
   {
@@ -313,7 +403,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-12",
+   "id": "b-polska-przyroda-15",
    "dzial": "polska-przyroda"
   },
   {
@@ -340,7 +430,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-13",
+   "id": "b-polska-przyroda-16",
    "dzial": "polska-przyroda"
   },
   {
@@ -367,7 +457,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-14",
+   "id": "b-polska-przyroda-17",
    "dzial": "polska-przyroda"
   },
   {
@@ -394,7 +484,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-15",
+   "id": "b-polska-przyroda-18",
    "dzial": "polska-przyroda"
   }
  ]
