@@ -551,6 +551,87 @@
    "dzial": "hydrosfera"
   },
   {
+   "tytul": "Odpływ jednostkowy Wisły",
+   "material": "Tekst autorski. Średni przepływ Wisły przy ujściu wynosi ok. 1080 m³/s, a powierzchnia dorzecza — ok. 194 000 km².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odpływ jednostkowy w l/(s·km²). Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 5,6 l/(s·km²)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 080 000 l/s / 194 000 km².",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego odpływ jednostkowy w dorzeczu Wisły jest mały w porównaniu z rzekami górskimi.",
+     "odpowiedz": "Dorzecze leży głównie na nizinach z umiarkowanymi opadami i dużym parowaniem; przepuszczalne podłoże i małe spadki.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Niziny.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-23",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Dunajec",
+   "material": "Tekst autorski. Dunajec ma najwyższe przepływy w maju–lipcu, a gwałtowne wezbrania po ulewach.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj typ ustroju Dunajca.",
+     "odpowiedz": "górski (deszczowo-śnieżny)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wezbrania wiosną i latem.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego rzeki karpackie mają gwałtowne wezbrania.",
+     "odpowiedz": "Duże spadki i strome stoki przyspieszają spływ; obfite opady nawalne latem i roztopy śniegu w górach; mała retencja płytkich gleb na fliszu.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Szybki spływ.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-24",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Zlewisko Bałtyku",
+   "material": "Tekst autorski. Do zlewiska Morza Bałtyckiego należy ok. 99,7% powierzchni Polski (312,7 tys. km²).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię Polski poza zlewiskiem Bałtyku w km².",
+     "odpowiedz": "ok. 940 km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "312 700 × 0,003.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, do zlewisk jakich mórz należy ta pozostała część.",
+     "odpowiedz": "Morza Czarnego (Dniestr, Orawa) i Morza Północnego (Izera, Łaba)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Niewielkie fragmenty.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-25",
+   "dzial": "hydrosfera"
+  },
+  {
    "tytul": "Przepływ rzeki",
    "material": "Tekst autorski. W przekroju wodowskazowym koryto ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -574,7 +655,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-23",
+   "id": "b-hydrosfera-26",
    "dzial": "hydrosfera"
   },
   {
@@ -601,7 +682,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-24",
+   "id": "b-hydrosfera-27",
    "dzial": "hydrosfera"
   },
   {
@@ -628,7 +709,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-25",
+   "id": "b-hydrosfera-28",
    "dzial": "hydrosfera"
   },
   {
@@ -655,7 +736,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-26",
+   "id": "b-hydrosfera-29",
    "dzial": "hydrosfera"
   },
   {
@@ -682,7 +763,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-27",
+   "id": "b-hydrosfera-30",
    "dzial": "hydrosfera"
   }
  ]

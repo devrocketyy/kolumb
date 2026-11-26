@@ -632,6 +632,114 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Elektrownia jądrowa",
+   "material": "Tekst autorski. Pierwsza polska elektrownia jądrowa ma mieć moc ok. 3,75 GW i pracować ok. 8000 h w roku. Produkcja energii w Polsce wynosi ok. 165 TWh.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczną produkcję elektrowni w TWh.",
+     "odpowiedz": "30 TWh",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3,75 GW × 8000 h = 30 000 GWh.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaką część obecnej produkcji energii stanowiłoby to. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 18%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "30 / 165 × 100.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa czynniki lokalizacji elektrowni jądrowej.",
+     "odpowiedz": "Dostęp do dużej ilości wody do chłodzenia (morze), stabilne podłoże bez trzęsień ziemi, odległość od dużych miast, dostęp do sieci przesyłowej, akceptacja społeczna.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-przemysl-26",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Restrukturyzacja Śląska",
+   "material": "Tekst autorski. Zatrudnienie w górnictwie węgla kamiennego wynosiło ok. 390 tys. osób w 1990 r. i ok. 75 tys. w 2024 r.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, o ile procent zmalało zatrudnienie. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "o ok. 81%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "315 / 390 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa kierunki przemian gospodarczych Górnego Śląska.",
+     "odpowiedz": "Rozwój przemysłu motoryzacyjnego i nowoczesnego (SSE), usług i biznesu, kultury (Strefa Kultury w Katowicach), rewitalizacja terenów poprzemysłowych.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-27",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Przewozy kolejowe",
+   "material": "Tekst autorski. Polskie koleje przewiozły w roku ok. 400 mln pasażerów.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średnią liczbę przejazdów koleją na mieszkańca (37,5 mln). Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 10,7",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "400 / 37,5.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedną zaletę transportu kolejowego dla środowiska.",
+     "odpowiedz": "Mniejsza emisja CO₂ i zanieczyszczeń na pasażera niż samochód, mniejsze zajęcie terenu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jedna.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-28",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Centralny Port Komunikacyjny",
+   "material": "Tekst autorski. Nowe duże lotnisko planuje się w centralnej Polsce, między Warszawą a Łodzią.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa argumenty za taką lokalizacją.",
+     "odpowiedz": "Centralne położenie w kraju i bliskość dwóch dużych miast, możliwość połączenia z siecią kolei dużych prędkości i autostradami (A1, A2), dostępność wolnych terenów.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-29",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Struktura produkcji energii",
    "material": "Tekst autorski. W pewnym kraju wyprodukowano 160 TWh energii elektrycznej, w tym 88 TWh w elektrowniach węglowych, 16 TWh gazowych, 32 TWh wiatrowych, 16 TWh słonecznych i 8 TWh w innych źródłach.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -655,7 +763,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-26",
+   "id": "b-przemysl-30",
    "dzial": "przemysl"
   },
   {
@@ -682,7 +790,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-27",
+   "id": "b-przemysl-31",
    "dzial": "przemysl"
   },
   {
@@ -709,7 +817,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-28",
+   "id": "b-przemysl-32",
    "dzial": "przemysl"
   },
   {
@@ -736,7 +844,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-29",
+   "id": "b-przemysl-33",
    "dzial": "przemysl"
   }
  ]

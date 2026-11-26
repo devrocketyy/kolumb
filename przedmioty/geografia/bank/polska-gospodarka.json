@@ -380,6 +380,60 @@
    "dzial": "polska-gospodarka"
   },
   {
+   "tytul": "Port w Gdańsku a zaplecze",
+   "material": "Tekst autorski. Port w Gdańsku obsługuje ładunki z całej Polski oraz z Czech, Słowacji i Węgier.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę obszaru, który port obsługuje, w terminologii geografii transportu.",
+     "odpowiedz": "zaplecze portu (hinterland)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Hinterland.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden czynnik zwiększający zaplecze portu.",
+     "odpowiedz": "Dobre połączenia kolejowe i drogowe (A1), transport rzeczny, nowoczesne terminale kontenerowe.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jeden.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-gospodarka-16",
+   "dzial": "polska-gospodarka"
+  },
+  {
+   "tytul": "Wschód Polski",
+   "material": "Tekst autorski. PKB na mieszkańca województwa lubelskiego wynosi ok. 70% średniej krajowej, a mazowieckiego — ok. 160%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy PKB na mieszkańca Mazowsza jest wyższy niż Lubelszczyzny. Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 2,3 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "160 / 70.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny słabszego rozwoju województw wschodnich.",
+     "odpowiedz": "Przewaga rozdrobnionego rolnictwa, słabsze uprzemysłowienie, położenie przy zewnętrznej granicy UE, gorsza infrastruktura, odpływ młodych.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-gospodarka-17",
+   "dzial": "polska-gospodarka"
+  },
+  {
    "tytul": "Struktura zatrudnienia",
    "material": "Tekst autorski. W kraju X w rolnictwie pracuje 8% zatrudnionych, w przemyśle i budownictwie 30%, w usługach 62%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -403,7 +457,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-16",
+   "id": "b-polska-gospodarka-18",
    "dzial": "polska-gospodarka"
   },
   {
@@ -430,7 +484,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-17",
+   "id": "b-polska-gospodarka-19",
    "dzial": "polska-gospodarka"
   },
   {
@@ -457,7 +511,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-18",
+   "id": "b-polska-gospodarka-20",
    "dzial": "polska-gospodarka"
   }
  ]

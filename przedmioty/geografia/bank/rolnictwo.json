@@ -443,6 +443,60 @@
    "dzial": "rolnictwo"
   },
   {
+   "tytul": "Struktura obszarowa gospodarstw",
+   "material": "Tekst autorski. Gospodarstwa powyżej 50 ha stanowią ok. 3% liczby gospodarstw w Polsce, ale użytkują ok. 30% użytków rolnych.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, o czym świadczą te dane.",
+     "odpowiedz": "O silnym rozdrobnieniu rolnictwa — większość gospodarstw jest mała, a ziemia koncentruje się w niewielkiej liczbie dużych gospodarstw.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Struktura agrarna.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj region Polski z największym udziałem dużych gospodarstw i jego przyczynę historyczną.",
+     "odpowiedz": "Polska północna i zachodnia (np. zachodniopomorskie, warmińsko-mazurskie) — po 1945 r. powstały tam PGR-y, które później sprywatyzowano w dużych jednostkach.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "PGR.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-17",
+   "dzial": "rolnictwo"
+  },
+  {
+   "tytul": "Plony w Polsce i Holandii",
+   "material": "Tekst autorski. Plon pszenicy wynosi w Polsce ok. 50 dt/ha, a w Holandii ok. 90 dt/ha.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy plon w Holandii jest wyższy.",
+     "odpowiedz": "1,8 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90 / 50.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny wyższych plonów w Holandii.",
+     "odpowiedz": "Wysokie nakłady nawozów i środków ochrony roślin, nowoczesna technologia i nauka, żyzne gleby polderowe, łagodny klimat morski, duże gospodarstwa towarowe.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-18",
+   "dzial": "rolnictwo"
+  },
+  {
    "tytul": "Plony pszenicy",
    "material": "Tekst autorski. W województwie zebrano 4,5 mln t zbóż z powierzchni 750 tys. ha.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -466,7 +520,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-17",
+   "id": "b-rolnictwo-19",
    "dzial": "rolnictwo"
   },
   {
@@ -493,7 +547,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-18",
+   "id": "b-rolnictwo-20",
    "dzial": "rolnictwo"
   }
  ]
