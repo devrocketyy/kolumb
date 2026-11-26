@@ -25,6 +25,12 @@ Kwas karboksylowy reaguje z alkoholem, tworząc ester i wodę. Kwas octowy z eta
 
 Dwie ważne cechy. Katalizatorem jest stężony kwas siarkowy, który dodatkowo wiąże wodę. I reakcja jest odwracalna — ustala się równowaga, więc wydajność nie sięga stu procent.
 
+Mini-obliczenie. Z sześciu gramów kwasu octowego i czterech i sześciu dziesiątych grama etanolu — po jednej dziesiątej mola — teoretycznie powstanie jedna dziesiąta mola octanu etylu. Jego masa molowa to osiemdziesiąt osiem, więc osiem i osiem dziesiątych grama. Jeśli wydajność wynosi sześćdziesiąt siedem procent, otrzymasz około pięciu i dziewięciu dziesiątych grama.
+
+Estry tworzą też kwasy nieorganiczne. Nitrogliceryna to ester glicerolu i kwasu azotowego — mimo mylącej nazwy nie jest związkiem nitrowym.
+
+Typowy błąd: zapisanie wody jako produktu powstałego z wodoru alkoholu i grupy OH kwasu, ale z błędnym wzorem estru. Grupa OH odchodzi od kwasu, a wodór od alkoholu. W estrze tlen alkoholu łączy się z węglem karbonylowym kwasu.
+
 [pytanie: nazwa]
 
 Sprawdź się. Jak nazywa się ester powstały z kwasu octowego i etanolu?
@@ -55,6 +61,8 @@ Estry można rozłożyć wodą. Hydroliza w środowisku kwasowym jest odwracalna
 
 Hydroliza w środowisku zasadowym, z wodorotlenkiem sodu, jest nieodwracalna. Zamiast kwasu powstaje jego sól, która z alkoholem już nie reaguje.
 
+Hydroliza zasadowa jest szybsza i całkowita, dlatego w praktyce, na przykład przy oznaczaniu estrów, stosuje się właśnie ją. Wodorotlenek sodu zużywa się w stosunku jeden do jednego z wiązaniami estrowymi.
+
 [pytanie: zasadowa]
 
 Sprawdź się. Co powstaje w hydrolizie octanu etylu wodorotlenkiem sodu?
@@ -74,6 +82,12 @@ Tłuszcze to estry glicerolu i wyższych kwasów tłuszczowych. Glicerol ma trzy
 Tłuszcze stałe, zwierzęce, zawierają głównie kwasy nasycone. Ciekłe oleje roślinne — nienasycone. Dlatego olej odbarwia wodę bromową. Uwodornienie wiązań podwójnych w oleju to utwardzanie — tak produkuje się margarynę.
 
 Hydroliza zasadowa tłuszczu to zmydlanie. Tristearynian glicerolu z trzema cząsteczkami NaOH daje glicerol i trzy cząsteczki stearynianu sodu, czyli mydła.
+
+Olej rzepakowy można przerobić na biodiesel. Reakcja z metanolem wymienia glicerol na metanol — powstają estry metylowe kwasów tłuszczowych, mniejsze cząsteczki, które świetnie się spalają w silniku. To transestryfikacja.
+
+Tłuszcze jełczeją, bo wiązania podwójne utleniają się na powietrzu. Dlatego olej przechowuje się w ciemnej, szczelnej butelce.
+
+Woski to również estry, ale wyższych kwasów tłuszczowych z długołańcuchowymi alkoholami jednowodorotlenowymi, a nie z glicerolem.
 
 [pytanie: olej]
 

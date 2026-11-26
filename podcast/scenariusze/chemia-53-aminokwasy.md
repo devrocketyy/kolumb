@@ -27,6 +27,12 @@ W roztworze i w krysztale istnieje głównie jako jon obojnaczy: grupa karboksyl
 
 Wszystkie białkowe aminokwasy oprócz glicyny mają asymetryczny atom węgla, więc są chiralne. Glicyna ma przy tym węglu dwa wodory.
 
+Amfoteryczność łatwo zapisać. Glicyna z kwasem solnym: grupa aminowa przyjmuje proton, powstaje kation. Glicyna z wodorotlenkiem sodu: grupa karboksylowa oddaje proton, powstaje anion.
+
+Każdy aminokwas ma swój punkt izoelektryczny — wartość pH, przy której przeważa jon obojnaczy, a cząsteczka jako całość jest obojętna. W polu elektrycznym nie wędruje wtedy do żadnej elektrody.
+
+Część aminokwasów to aminokwasy egzogenne. Organizm człowieka nie potrafi ich wytworzyć, więc muszą pochodzić z pożywienia.
+
 [pytanie: obojnaczy]
 
 Sprawdź się. Jak nazywa się forma aminokwasu z ładunkiem dodatnim i ujemnym w tej samej cząsteczce?
@@ -57,6 +63,12 @@ Dwa aminokwasy łączą się: grupa karboksylowa jednego z grupą aminową drugi
 
 Z glicyny i alaniny można zrobić dwa różne dipeptydy: Gly-Ala i Ala-Gly. Kolejność ma znaczenie, bo jeden koniec ma wolną grupę aminową, drugi karboksylową.
 
+Mini-obliczenie. Jaka jest masa molowa dipeptydu Gly-Ala? Glicyna ma siedemdziesiąt pięć, alanina osiemdziesiąt dziewięć. Przy łączeniu odchodzi cząsteczka wody, osiemnaście. Siedemdziesiąt pięć plus osiemdziesiąt dziewięć minus osiemnaście daje sto czterdzieści sześć gramów na mol.
+
+A ile tripeptydów można zrobić z trzech różnych aminokwasów, jeśli każdy występuje raz? Trzy razy dwa razy jeden — sześć.
+
+Typowy błąd: zaznaczanie jako wiązania peptydowego całej grupy –CO–NH– razem z sąsiednimi węglami. Wiązanie peptydowe to wiązanie między węglem karbonylowym a azotem.
+
 [pytanie: dipeptydy]
 
 Sprawdź się. Ile różnych dipeptydów można utworzyć z glicyny i alaniny, jeśli każdy zawiera obie reszty?
@@ -74,6 +86,10 @@ Dwa: Gly-Ala i Ala-Gly.
 Białka wykrywa się dwiema reakcjami. Biuretową — z wodorotlenkiem miedzi w zasadowym środowisku, fioletowe zabarwienie; wymaga co najmniej dwóch wiązań peptydowych. Ksantoproteinową — ze stężonym kwasem azotowym, żółte zabarwienie; pochodzi od aminokwasów z pierścieniem aromatycznym.
 
 Denaturacja to nieodwracalne zniszczenie struktury przestrzennej: wysoka temperatura, sole metali ciężkich, alkohol, stężone kwasy. Wysalanie, na przykład chlorkiem sodu, jest odwracalne — białko wytrąca się, ale po dodaniu wody znów się rozpuszcza.
+
+Białka mają kilka poziomów budowy. Struktura pierwszorzędowa to kolejność aminokwasów. Drugorzędowa to helisy i harmonijki utrzymywane wiązaniami wodorowymi. Trzeciorzędowa to przestrzenne zwinięcie całego łańcucha. Czwartorzędowa — połączenie kilku łańcuchów, jak w hemoglobinie.
+
+Denaturacja niszczy struktury wyższych rzędów, ale nie rozrywa wiązań peptydowych. Kolejność aminokwasów zostaje. Dlatego ugotowane białko nadal ma tę samą wartość odżywczą.
 
 [pytanie: ksantoproteinowa]
 
