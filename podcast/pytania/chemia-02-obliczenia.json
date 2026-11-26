@@ -1,0 +1,11 @@
+{
+  "odcinek": "chemia-02-obliczenia",
+  "pytania": [
+    {"id": "rownanie", "typ": "abcd", "pytanie": "Dlaczego zadanie stechiometryczne zaczynasz od uzgodnienia równania?", "odpowiedzi": ["Współczynniki wyznaczają stosunek molowy", "Bo tak wymaga regulamin", "Żeby policzyć masę molową", "Żeby wiedzieć, czy reakcja jest egzotermiczna"], "poprawna": 0, "wyjasnienie": "Bez poprawnych współczynników proporcja molowa jest błędna."},
+    {"id": "jednostki", "typ": "abcd", "pytanie": "Ile moli jest w 50 cm³ roztworu o stężeniu 2 mol/dm³?", "odpowiedzi": ["0,1 mola", "100 moli", "0,025 mola", "1 mol"], "poprawna": 0, "wyjasnienie": "50 cm³ = 0,05 dm³; 0,05 · 2 = 0,1 mola."},
+    {"id": "niedomiar", "typ": "abcd", "pytanie": "2 mole H₂ i 2 mole O₂, reakcja 2H₂ + O₂ → 2H₂O. Co jest w niedomiarze?", "odpowiedzi": ["Wodór", "Tlen", "Żaden — stosunek stechiometryczny", "Woda"], "poprawna": 0, "wyjasnienie": "Iloraz dla H₂: 2/2 = 1; dla O₂: 2/1 = 2. Mniejszy — niedomiar."},
+    {"id": "sens", "typ": "abcd", "pytanie": "Z obliczeń wyszła wydajność 110%. Co to oznacza?", "odpowiedzi": ["Błąd w obliczeniach lub danych", "Bardzo dobrą reakcję", "Użycie katalizatora", "Nadmiar substratu"], "poprawna": 0, "wyjasnienie": "Wydajność nie może przekroczyć 100%."},
+    {"id": "zaokraglanie", "typ": "abcd", "pytanie": "Kiedy zaokrąglać w zadaniu wieloetapowym?", "odpowiedzi": ["Dopiero wynik końcowy", "Każdy wynik pośredni do jedności", "Na początku, dane wejściowe", "Nigdy"], "poprawna": 0, "wyjasnienie": "Zbyt wczesne zaokrąglenie przesuwa wynik końcowy."},
+    {"id": "podsumowanie", "typ": "abcd", "pytanie": "Który zestaw to cztery kroki modelu obliczeń?", "odpowiedzi": ["Równanie, mole, proporcja, wynik z sensem", "Dane, wynik, jednostka, wzór", "Masa, objętość, gęstość, stężenie", "Wzór, nazwa, równanie, obserwacja"], "poprawna": 0, "wyjasnienie": "Ten sam schemat działa w prawie każdym zadaniu rachunkowym."}
+  ]
+}

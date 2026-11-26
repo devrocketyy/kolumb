@@ -16,9 +16,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **1. Czytanie poleceń, czasowniki operacyjne i warunki zadania** `c-polecenia` ✅
 
-**2. Model obliczeń, jednostki, zaokrąglenia i sens wyniku** `c-obliczenia` ⬜
+**2. Model obliczeń, jednostki, zaokrąglenia i sens wyniku** `c-obliczenia` ✅
 
-**3. Doświadczenia: projekt, obserwacje, wnioski i identyfikacja substancji** `c-doswiadczenia` ⬜
+**3. Doświadczenia: projekt, obserwacje, wnioski i identyfikacja substancji** `c-doswiadczenia` ✅
 
 **4. Powtórka działu: Umiejętności egzaminacyjne** `umiejetnosci` ⬜
 
