@@ -1415,6 +1415,42 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Długość linii kolei dużych prędkości",
+   "material": "Tekst autorski. Chiny mają ok. 45 000 km linii kolei dużych prędkości, a cały świat ok. 65 000 km.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział Chin. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 69%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "45 / 65 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-61",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Turystyka w Egipcie",
+   "material": "Tekst autorski. Egipt odwiedza ok. 15 mln turystów zagranicznych rocznie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa walory turystyczne Egiptu.",
+     "odpowiedz": "Zabytki starożytne (piramidy w Gizie, Luksor), rafy koralowe Morza Czerwonego (Hurghada, Szarm el-Szejk), słoneczny klimat przez cały rok.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-62",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Farma wiatrowa",
    "material": "Tekst autorski. Farma wiatrowa ma moc zainstalowaną 50 MW. Średnio przez rok pracuje z wykorzystaniem 30% mocy (rok = 8760 h).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1438,7 +1474,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-61",
+   "id": "b-przemysl-63",
    "dzial": "przemysl"
   },
   {
@@ -1465,7 +1501,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-62",
+   "id": "b-przemysl-64",
    "dzial": "przemysl"
   }
  ]

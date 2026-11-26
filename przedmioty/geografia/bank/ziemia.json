@@ -1541,6 +1541,60 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Kair i Warszawa",
+   "material": "Tekst autorski. Kair stosuje zimą UTC+2, a Warszawa UTC+1. W Kairze jest 14:00.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Podaj godzinę w Warszawie.",
+     "odpowiedz": "13:00",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "−1 h.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-73",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Wysokość Słońca na zwrotniku Raka 21 III",
+   "material": "Tekst autorski. Punkt leży na 23°27′N.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania 21 marca.",
+     "odpowiedz": "66°33′",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 23°27′.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-74",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Gdzie zenit 22 grudnia?",
+   "material": "Tekst autorski. 22 grudnia Słońce góruje w zenicie nad jednym z równoleżników.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę i szerokość tego równoleżnika.",
+     "odpowiedz": "zwrotnik Koziorożca, 23°27′S",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przesilenie zimowe na półkuli N.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-75",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Krakowem",
    "material": "Tekst autorski. Kraków leży na ok. 50°N.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1564,7 +1618,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-73",
+   "id": "b-ziemia-76",
    "dzial": "ziemia"
   },
   {
@@ -1600,7 +1654,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-74",
+   "id": "b-ziemia-77",
    "dzial": "ziemia"
   },
   {
@@ -1627,7 +1681,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-75",
+   "id": "b-ziemia-78",
    "dzial": "ziemia"
   },
   {
@@ -1654,7 +1708,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-76",
+   "id": "b-ziemia-79",
    "dzial": "ziemia"
   },
   {
@@ -1672,7 +1726,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-77",
+   "id": "b-ziemia-80",
    "dzial": "ziemia"
   }
  ]

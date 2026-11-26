@@ -1,0 +1,56 @@
+# Bank zadań autorskich — geografia, część 54: typowe zadania maturalne (formuła 2023) — uzupełnienie. Dane autorskie.
+BANK = {'mapa': [
+ B('Odległość z mapy 1:100 000',
+   'Tekst autorski. Na mapie w skali 1:100 000 odległość między miastami wynosi 8,4 cm.',
+   T('oblicz', 1, 'Oblicz odległość w terenie.', '8,4 km', '1 cm = 1 km.')),
+ B('Powierzchnia z dwóch długości',
+   'Tekst autorski. Prostokątne pole ma na mapie 1:25 000 wymiary 2,4 cm × 1,6 cm.',
+   T('oblicz', 1, 'Oblicz powierzchnię pola w hektarach.', '24 ha', '600 m × 400 m = 240 000 m².')),
+], 'ziemia': [
+ B('Kair i Warszawa',
+   'Tekst autorski. Kair stosuje zimą UTC+2, a Warszawa UTC+1. W Kairze jest 14:00.',
+   T('oblicz', 1, 'Podaj godzinę w Warszawie.', '13:00', '−1 h.')),
+ B('Wysokość Słońca na zwrotniku Raka 21 III',
+   'Tekst autorski. Punkt leży na 23°27′N.',
+   T('oblicz', 1, 'Oblicz wysokość Słońca w momencie górowania 21 marca.', '66°33′', '90° − 23°27′.')),
+ B('Gdzie zenit 22 grudnia?',
+   'Tekst autorski. 22 grudnia Słońce góruje w zenicie nad jednym z równoleżników.',
+   T('podaj', 1, 'Podaj nazwę i szerokość tego równoleżnika.', 'zwrotnik Koziorożca, 23°27′S', 'Przesilenie zimowe na półkuli N.')),
+], 'atmosfera': [
+ B('Wilgotność i mgła',
+   'Tekst autorski. Wieczorem powietrze o temperaturze 12°C zawiera 9,4 g pary wodnej w 1 m³. Przy 10°C maksymalna zawartość wynosi 9,4 g/m³.',
+   T('podaj', 1, 'Podaj temperaturę punktu rosy tego powietrza.', '10°C', 'Nasycenie przy 10°C.'),
+   T('podaj', 1, 'Podaj, co się stanie, gdy nocą temperatura spadnie do 8°C.', 'Nastąpi kondensacja — powstanie mgła lub rosa.', 'Poniżej punktu rosy.')),
+ B('Wiatr na mapie',
+   'Tekst autorski. Na mapie synoptycznej izobary nad Polską są ułożone bardzo gęsto.',
+   T('podaj', 1, 'Podaj, jaki wiatr wieje w tym obszarze.', 'silny wiatr (duży gradient baryczny)', 'Gęste izobary.')),
+], 'hydrosfera': [
+ B('Morze Bałtyckie',
+   'Tekst autorski. Bałtyk ma powierzchnię ok. 415 tys. km² i średnią głębokość ok. 52 m.',
+   T('oblicz', 1, 'Oblicz objętość wód Bałtyku w km³. Wynik zaokrąglij do 100 km³.', 'ok. 21 600 km³', '415 000 × 0,052 = 21 580.'),
+   T('podaj', 1, 'Podaj nazwę najgłębszego miejsca Bałtyku.', 'Głębia Landsort (ok. 459 m)', 'Koło Szwecji.')),
+], 'ludnosc': [
+ B('Gęstość zaludnienia Indii',
+   'Tekst autorski. Indie liczą ok. 1,44 mld mieszkańców przy powierzchni ok. 3,29 mln km².',
+   T('oblicz', 1, 'Oblicz gęstość zaludnienia. Wynik zaokrąglij do 1.', 'ok. 438 os./km²', '1 440 000 000 / 3 290 000.')),
+ B('Przyrost w Polsce w latach 80.',
+   'Tekst autorski. W 1983 r. w Polsce urodziło się ok. 720 tys. dzieci, a w 2024 r. ok. 250 tys.',
+   T('oblicz', 1, 'Oblicz, ile razy mniej dzieci urodziło się w 2024 r. Wynik zaokrąglij do 0,1.', 'ok. 2,9 razy', '720 / 250.'),
+   T('podaj', 1, 'Podaj nazwę zjawiska demograficznego z początku lat 80. w Polsce.', 'wyż demograficzny (echo wyżu powojennego)', 'Wyż.')),
+], 'rolnictwo': [
+ B('Plon ziemniaków w Holandii',
+   'Tekst autorski. Holandia zebrała 6,6 mln t ziemniaków z 165 tys. ha.',
+   T('oblicz', 1, 'Oblicz plon ziemniaków.', '400 dt/ha', '40 t/ha.')),
+], 'przemysl': [
+ B('Długość linii kolei dużych prędkości',
+   'Tekst autorski. Chiny mają ok. 45 000 km linii kolei dużych prędkości, a cały świat ok. 65 000 km.',
+   T('oblicz', 1, 'Oblicz udział Chin. Wynik zaokrąglij do 1%.', 'ok. 69%', '45 / 65 × 100.')),
+ B('Turystyka w Egipcie',
+   'Tekst autorski. Egipt odwiedza ok. 15 mln turystów zagranicznych rocznie.',
+   T('podaj', 2, 'Podaj dwa walory turystyczne Egiptu.', 'Zabytki starożytne (piramidy w Gizie, Luksor), rafy koralowe Morza Czerwonego (Hurghada, Szarm el-Szejk), słoneczny klimat przez cały rok.', 'Wystarczą dwa.')),
+], 'polska-przyroda': [
+ B('Parki narodowe Polski',
+   'Tekst autorski. Największym parkiem narodowym w Polsce jest Biebrzański (ok. 592 km²), a najmniejszym Ojcowski (ok. 21 km²).',
+   T('oblicz', 1, 'Oblicz, ile razy Biebrzański Park Narodowy jest większy od Ojcowskiego. Wynik zaokrąglij do 1.', 'ok. 28 razy', '592 / 21.'),
+   T('podaj', 1, 'Podaj główny przedmiot ochrony w Biebrzańskim PN.', 'torfowiska i bagna doliny Biebrzy wraz z ptakami wodno-błotnymi', 'Mokradła.')),
+]}

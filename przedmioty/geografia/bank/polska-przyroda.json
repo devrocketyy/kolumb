@@ -461,6 +461,33 @@
    "dzial": "polska-przyroda"
   },
   {
+   "tytul": "Parki narodowe Polski",
+   "material": "Tekst autorski. Największym parkiem narodowym w Polsce jest Biebrzański (ok. 592 km²), a najmniejszym Ojcowski (ok. 21 km²).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy Biebrzański Park Narodowy jest większy od Ojcowskiego. Wynik zaokrąglij do 1.",
+     "odpowiedz": "ok. 28 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "592 / 21.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj główny przedmiot ochrony w Biebrzańskim PN.",
+     "odpowiedz": "torfowiska i bagna doliny Biebrzy wraz z ptakami wodno-błotnymi",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mokradła.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-przyroda-18",
+   "dzial": "polska-przyroda"
+  },
+  {
    "tytul": "Formy polodowcowe",
    "material": "Tekst autorski. Na Pojezierzu Mazurskim występują: pagórki moreny czołowej, rozległa płaska równina z piasków na przedpolu moren oraz długie wąskie jezioro.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -484,7 +511,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-18",
+   "id": "b-polska-przyroda-19",
    "dzial": "polska-przyroda"
   },
   {
@@ -511,7 +538,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-19",
+   "id": "b-polska-przyroda-20",
    "dzial": "polska-przyroda"
   },
   {
@@ -538,7 +565,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-20",
+   "id": "b-polska-przyroda-21",
    "dzial": "polska-przyroda"
   },
   {
@@ -565,7 +592,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-21",
+   "id": "b-polska-przyroda-22",
    "dzial": "polska-przyroda"
   },
   {
@@ -592,7 +619,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-22",
+   "id": "b-polska-przyroda-23",
    "dzial": "polska-przyroda"
   }
  ]

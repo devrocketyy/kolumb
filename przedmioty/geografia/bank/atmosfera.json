@@ -1269,6 +1269,51 @@
    ],
    "id": "b-atmosfera-48",
    "dzial": "atmosfera"
+  },
+  {
+   "tytul": "Wilgotność i mgła",
+   "material": "Tekst autorski. Wieczorem powietrze o temperaturze 12°C zawiera 9,4 g pary wodnej w 1 m³. Przy 10°C maksymalna zawartość wynosi 9,4 g/m³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj temperaturę punktu rosy tego powietrza.",
+     "odpowiedz": "10°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Nasycenie przy 10°C.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, co się stanie, gdy nocą temperatura spadnie do 8°C.",
+     "odpowiedz": "Nastąpi kondensacja — powstanie mgła lub rosa.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Poniżej punktu rosy.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atmosfera-49",
+   "dzial": "atmosfera"
+  },
+  {
+   "tytul": "Wiatr na mapie",
+   "material": "Tekst autorski. Na mapie synoptycznej izobary nad Polską są ułożone bardzo gęsto.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jaki wiatr wieje w tym obszarze.",
+     "odpowiedz": "silny wiatr (duży gradient baryczny)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Gęste izobary.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-atmosfera-50",
+   "dzial": "atmosfera"
   }
  ]
 }

@@ -1802,6 +1802,42 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Odległość z mapy 1:100 000",
+   "material": "Tekst autorski. Na mapie w skali 1:100 000 odległość między miastami wynosi 8,4 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość w terenie.",
+     "odpowiedz": "8,4 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 cm = 1 km.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-79",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Powierzchnia z dwóch długości",
+   "material": "Tekst autorski. Prostokątne pole ma na mapie 1:25 000 wymiary 2,4 cm × 1,6 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię pola w hektarach.",
+     "odpowiedz": "24 ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "600 m × 400 m = 240 000 m².",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-80",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Jezioro na mapie 1:50 000",
    "material": "Tekst autorski. Na mapie w skali 1:50 000 powierzchnia jeziora, zmierzona metodą kratową, wynosi 6 cm².",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1825,7 +1861,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-79",
+   "id": "b-mapa-81",
    "dzial": "mapa"
   },
   {
@@ -1861,7 +1897,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-80",
+   "id": "b-mapa-82",
    "dzial": "mapa"
   },
   {
@@ -1888,7 +1924,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-81",
+   "id": "b-mapa-83",
    "dzial": "mapa"
   },
   {
@@ -1915,7 +1951,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-82",
+   "id": "b-mapa-84",
    "dzial": "mapa"
   },
   {
@@ -1933,7 +1969,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-83",
+   "id": "b-mapa-85",
    "dzial": "mapa"
   }
  ]

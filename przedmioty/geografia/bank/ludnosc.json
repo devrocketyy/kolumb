@@ -1739,6 +1739,51 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Gęstość zaludnienia Indii",
+   "material": "Tekst autorski. Indie liczą ok. 1,44 mld mieszkańców przy powierzchni ok. 3,29 mln km².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz gęstość zaludnienia. Wynik zaokrąglij do 1.",
+     "odpowiedz": "ok. 438 os./km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 440 000 000 / 3 290 000.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-71",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Przyrost w Polsce w latach 80.",
+   "material": "Tekst autorski. W 1983 r. w Polsce urodziło się ok. 720 tys. dzieci, a w 2024 r. ok. 250 tys.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy mniej dzieci urodziło się w 2024 r. Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 2,9 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "720 / 250.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę zjawiska demograficznego z początku lat 80. w Polsce.",
+     "odpowiedz": "wyż demograficzny (echo wyżu powojennego)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wyż.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-72",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Województwo w liczbach",
    "material": "Tekst autorski. Województwo ma 5,4 mln mieszkańców i powierzchnię 35 600 km². Współczynnik urodzeń wynosi 9,2‰, a zgonów 11,5‰.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1771,7 +1816,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-71",
+   "id": "b-ludnosc-73",
    "dzial": "ludnosc"
   }
  ]
