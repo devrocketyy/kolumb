@@ -25,6 +25,10 @@ W elektrolizie katoda jest podłączona do bieguna ujemnego i zachodzi na niej r
 
 Stopiony chlorek sodu: na katodzie wydziela się metaliczny sód, na anodzie chlor. Tak przemysłowo otrzymuje się sód.
 
+Elektroliza ma mnóstwo zastosowań. Galwanizacja: przedmiot podłączony jako katoda pokrywa się warstwą metalu z roztworu — tak chromuje się armaturę i srebrzy biżuterię. Rafinacja miedzi: anoda z zanieczyszczonej miedzi rozpuszcza się, a na katodzie osiada miedź czysta w dziewięćdziesięciu dziewięciu i dziewięćdziesięciu dziewięciu setnych procenta.
+
+Glin otrzymuje się przez elektrolizę stopionego tlenku glinu rozpuszczonego w kriolicie. Na jeden mol glinu trzeba trzech moli elektronów, czyli prawie dwustu dziewięćdziesięciu tysięcy kulombów. Dlatego huty aluminium buduje się tam, gdzie prąd jest tani.
+
 [pytanie: katoda]
 
 Sprawdź się. Jaki proces zachodzi na katodzie podczas elektrolizy?
@@ -46,6 +50,10 @@ Na katodzie: jony metali aktywnych, takich jak sód czy potas, się nie redukuj�
 Na anodzie, przy elektrodach obojętnych: jony chlorkowe utleniają się do chloru. Jony siarczanowe i azotanowe nie — zamiast nich woda daje tlen.
 
 Wodny roztwór chlorku sodu: na katodzie wodór, na anodzie chlor, a w roztworze zostaje wodorotlenek sodu. Siarczan miedzi: na katodzie miedź, na anodzie tlen.
+
+Elektroliza wody, zakwaszonej albo z dodatkiem siarczanu sodu dla przewodnictwa, daje wodór na katodzie i tlen na anodzie. Objętości gazów mają się jak dwa do jednego — dokładnie jak we wzorze H₂O. To klasyczne doświadczenie potwierdzające skład wody.
+
+Typowy błąd: przewidywanie, że w elektrolizie wodnego roztworu NaCl na katodzie wydzieli się sód. Sód reagowałby z wodą natychmiast. Metal aktywny wydzielisz tylko z soli stopionej, bez wody.
 
 [pytanie: nacl-aq]
 
@@ -94,6 +102,10 @@ Około jednego przecinek dwudziestu siedmiu grama.
 Korozja to niechciane ogniwo. Żelazo rdzewieje, gdy ma jednocześnie kontakt z wodą i tlenem. Sól, na przykład z zimowych dróg, przyspiesza korozję, bo zwiększa przewodnictwo.
 
 Ochrona: pokrycie metalem. Stal ocynkowana jest chroniona nawet po zarysowaniu, bo cynk jest aktywniejszy i to on się utlenia — to ochrona protektorowa. Blacha cynowana, czyli biała blacha puszek, po zarysowaniu rdzewieje szybciej, bo cyna jest mniej aktywna od żelaza i to żelazo staje się anodą.
+
+Korozji sprzyja też kontakt dwóch różnych metali. Stalowa blacha łączona miedzianymi nitami rdzewieje przy nitach szybciej: powstaje ogniwo, w którym żelazo, jako metal aktywniejszy, jest anodą i się utlenia.
+
+Rdza to uwodniony tlenek żelaza trzy, w przybliżeniu Fe₂O₃ razy x H₂O. W przeciwieństwie do tlenku glinu jest porowata i odpada, więc nie chroni metalu pod spodem — korozja postępuje w głąb.
 
 [pytanie: korozja]
 

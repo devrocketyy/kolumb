@@ -63,6 +63,12 @@ Warunek jest ostry: wodór musi być związany z F, O albo N. W metanie wodór j
 
 Stąd zaskakujące temperatury wrzenia. Woda wrze w stu stopniach, a siarkowodór, cięższy od niej, w około minus sześćdziesięciu.
 
+Zobacz, jak wyjątkowa jest woda na tle swoich kuzynów z szesnastej grupy. Siarkowodór wrze w około minus sześćdziesięciu stopniach, selenowodór w minus czterdziestu jeden, tellurowodór w okolicy minus dwóch. Temperatura wrzenia rośnie z masą — tak działają siły van der Waalsa. Gdyby woda trzymała się tego trendu, wrzałaby gdzieś w okolicy minus siedemdziesięciu stopni i nie byłoby życia na Ziemi. Wiązania wodorowe podnoszą ją do stu.
+
+Podobnie amoniak wrze wyżej niż fosforowodór, a fluorowodór wyżej niż chlorowodór.
+
+Wiązania wodorowe trzymają też razem dwie nici DNA i utrzymują kształt białek. Są na tyle słabe, że nici DNA można rozdzielić przy kopiowaniu, i na tyle mocne, że w normalnych warunkach się nie rozpadają.
+
 [pytanie: warunek]
 
 Sprawdź się. Która substancja tworzy wiązania wodorowe: metan czy amoniak?
@@ -92,6 +98,10 @@ Bo cząsteczki wody łączą wiązania wodorowe, a siarkowodoru praktycznie nie.
 Wróćmy do lodu. W lodzie każda cząsteczka wody tworzy wiązania wodorowe z czterema sąsiadami. Powstaje sztywna, ażurowa sieć z dużymi pustymi przestrzeniami.
 
 Kiedy lód się topi, część wiązań wodorowych pęka, sieć się zapada i cząsteczki upakowują się ciaśniej. Dlatego woda jest gęstsza od lodu, a najgęstsza jest w około czterech stopniach Celsjusza.
+
+Wiązania wodorowe tłumaczą też napięcie powierzchniowe wody. Cząsteczki na powierzchni są mocno przyciągane przez sąsiadów, więc powierzchnia zachowuje się jak napięta błonka. Dzięki temu nartniki chodzą po wodzie, a ostrożnie położona igła nie tonie.
+
+Typowy błąd: nazywanie wiązania wodorowego „wiązaniem chemicznym w cząsteczce wody”. Wiązanie wodorowe łączy różne cząsteczki. Wewnątrz cząsteczki wody są wiązania kowalencyjne O–H.
 
 [pytanie: lod]
 

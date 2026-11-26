@@ -45,6 +45,10 @@ Wodór: dwa mole. Tlen: pół mola. Na pół mola tlenu potrzeba tylko jednego m
 
 Zasada: zawsze sprawdź, który substrat się skończy pierwszy. Licz od niego.
 
+Jeszcze jeden przykład, bo to najczęstsza pułapka. Dziesięć gramów wodoru i sześćdziesiąt cztery gramy tlenu. Na pierwszy rzut oka tlenu jest dużo więcej. Ale w molach: wodoru pięć, tlenu dwa. Dwa mole tlenu potrzebują czterech moli wodoru — wodór jest w nadmiarze. Powstają cztery mole wody, siedemdziesiąt dwa gramy, a zostaje mol wodoru, dwa gramy. Sprawdzenie: siedemdziesiąt cztery gramy przed, siedemdziesiąt cztery po.
+
+Typowy błąd: porównywanie mas substratów zamiast moli. Liczy się zawsze stosunek molowy z równania.
+
 [pytanie: niedomiar]
 
 Sprawdź się. Który substrat jest w niedomiarze: 4 g wodoru czy 16 g tlenu?
@@ -75,6 +79,10 @@ W prawdziwym laboratorium rzadko dostajesz tyle, ile wynika z równania. Wydajno
 
 Prażymy pięćdziesiąt gramów węglanu wapnia. CaCO₃ rozkłada się na CaO i CO₂. Pół mola węglanu powinno dać pół mola tlenku wapnia, dwadzieścia osiem gramów. Otrzymano dwadzieścia jeden. Wydajność: dwadzieścia jeden przez dwadzieścia osiem — siedemdziesiąt pięć procent.
 
+W procesach wieloetapowych wydajności się mnożą. Jeśli pierwszy etap ma osiemdziesiąt procent, a drugi pięćdziesiąt, to wydajność całkowita wynosi osiemdziesiąt setnych razy pięćdziesiąt setnych — czterdzieści procent. Dlatego chemicy w przemyśle tak walczą o każdy procent na każdym etapie.
+
+Pamiętaj też o kierunku obliczeń. Gdy znasz wydajność i chcesz otrzymać określoną masę produktu, musisz wziąć więcej substratu: masę teoretyczną dzielisz przez wydajność.
+
 [pytanie: wydajnosc]
 
 Sprawdź się. Z 50 gramów CaCO₃ otrzymano 21 gramów CaO. Jaka była wydajność?
@@ -92,6 +100,8 @@ Siedemdziesiąt pięć procent. Teoretycznie powinno powstać dwadzieścia osiem
 Ostatni typ: mieszanina, w której reaguje tylko jeden składnik. Dziesięć gramów stopu magnezu z miedzią wrzucamy do kwasu solnego. Miedź nie reaguje. Wydzieliło się dwa i dwadzieścia cztery setne decymetra sześciennego wodoru — jedna dziesiąta mola.
 
 Mg plus dwa HCl daje MgCl₂ i H₂, więc magnezu też była jedna dziesiąta mola: dwa i cztery dziesiąte grama. W dziesięciu gramach to dwadzieścia cztery procent.
+
+Trudniejsza wersja: oba składniki mieszaniny reagują. Wtedy oznaczasz liczbę moli jednego jako x, drugiego jako y i układasz dwa równania — jedno z masy mieszaniny, drugie z ilości produktu. To po prostu układ równań z matematyki, tylko z chemicznymi danymi.
 
 [pytanie: mieszanina]
 
