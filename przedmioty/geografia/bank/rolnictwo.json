@@ -63,6 +63,33 @@
    ],
    "id": "b-rolnictwo-02",
    "dzial": "rolnictwo"
+  },
+  {
+   "tytul": "Plony pszenicy",
+   "material": "Tekst autorski. W województwie zebrano 4,5 mln t zbóż z powierzchni 750 tys. ha.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz plon w decytonach z hektara.",
+     "odpowiedz": "60 dt/ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4 500 000 t / 750 000 ha = 6 t/ha = 60 dt/ha.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa przyrodnicze i jeden pozaprzyrodniczy czynnik wysokich plonów.",
+     "odpowiedz": "Przyrodnicze: żyzne gleby (czarnoziemy, mady), długi okres wegetacji; pozaprzyrodniczy: wysokie nawożenie, mechanizacja, duże gospodarstwa.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Np. Żuławy, Opolszczyzna.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-03",
+   "dzial": "rolnictwo"
   }
  ]
 }

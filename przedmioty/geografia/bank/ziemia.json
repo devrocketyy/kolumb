@@ -144,6 +144,96 @@
    ],
    "id": "b-ziemia-05",
    "dzial": "ziemia"
+  },
+  {
+   "tytul": "Słońce nad Krakowem",
+   "material": "Tekst autorski. Kraków leży na ok. 50°N.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania w Krakowie 22 czerwca i 22 grudnia.",
+     "odpowiedz": "63°27′ i 16°33′",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "h = 90° − φ ± 23°27′.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz różnicę między tymi wysokościami.",
+     "odpowiedz": "46°54′",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Dwukrotność nachylenia osi do płaszczyzny równika — 2 × 23°27′.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-06",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Gdzie jest obserwator?",
+   "material": "Tekst autorski. 21 marca obserwator na półkuli północnej zmierzył wysokość Słońca w momencie górowania: 38°. Słońce górowało o 10:36 czasu UTC.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz szerokość geograficzną obserwatora.",
+     "odpowiedz": "52°N",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "W dniu równonocy h = 90° − φ.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz długość geograficzną obserwatora.",
+     "odpowiedz": "21°E",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Górowanie 1 h 24 min przed 12:00 UTC = 84 min / 4 = 21° na wschód.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę stolicy położonej w pobliżu tego punktu.",
+     "odpowiedz": "Warszawa",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "52°N, 21°E.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-ziemia-07",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Wschód Słońca na Bugu i Odrze",
+   "material": "Tekst autorski. W dniu równonocy Słońce górowało nad punktem A (24°E) o 11:24 czasu strefowego UTC+1.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, o której godzinie czasu UTC+1 Słońce góruje nad punktem B (15°E).",
+     "odpowiedz": "12:00",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Różnica 9° = 36 min później.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego na wschodzie Polski Słońce góruje wcześniej.",
+     "odpowiedz": "Ziemia obraca się z zachodu na wschód, więc punkty położone dalej na wschód wcześniej „mijają” Słońce.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ruch obrotowy.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-08",
+   "dzial": "ziemia"
   }
  ]
 }

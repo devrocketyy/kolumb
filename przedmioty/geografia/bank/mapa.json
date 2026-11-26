@@ -144,6 +144,69 @@
    ],
    "id": "b-mapa-05",
    "dzial": "mapa"
+  },
+  {
+   "tytul": "Jezioro na mapie 1:50 000",
+   "material": "Tekst autorski. Na mapie w skali 1:50 000 powierzchnia jeziora, zmierzona metodą kratową, wynosi 6 cm².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię jeziora w terenie w hektarach i km².",
+     "odpowiedz": "150 ha = 1,5 km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 cm² = 0,25 km² = 25 ha; 6 × 25 ha.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Podaj, jaką powierzchnię zajmie to jezioro na mapie w skali 1:25 000.",
+     "odpowiedz": "24 cm²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Skala 2 razy większa → powierzchnia 4 razy większa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-06",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Stok narciarski",
+   "material": "Tekst autorski. Na mapie w skali 1:25 000 górna stacja wyciągu leży na poziomicy 1020 m, dolna na 900 m n.p.m. Odległość między nimi na mapie: 3,2 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość poziomą w terenie.",
+     "odpowiedz": "800 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3,2 × 250 m.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz średni spadek stoku w procentach i w promilach.",
+     "odpowiedz": "15% = 150‰",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "120 m / 800 m.",
+     "nr": "2"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy rzeczywista długość trasy jest większa, czy mniejsza niż 800 m. Uzasadnij.",
+     "odpowiedz": "Większa — 800 m to odległość pozioma, a trasa biegnie po pochyłym stoku (i zwykle krętym).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Rzut poziomy.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-mapa-07",
+   "dzial": "mapa"
   }
  ]
 }
