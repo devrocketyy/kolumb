@@ -25,6 +25,12 @@ Równanie: dwa KMnO₄ plus szesnaście HCl daje dwa KCl, dwa MnCl₂, pięć Cl
 
 Mangan przechodzi z plus siedmiu na plus dwa — redukuje się, więc manganian jest utleniaczem. Chlor przechodzi z minus jednego na zero — utlenia się, więc kwas solny jest reduktorem.
 
+Zapiszmy to samo w formie jonowej, bo tak często wymaga matura. Połówka redukcji: MnO₄⁻ plus osiem H⁺ plus pięć elektronów daje Mn²⁺ i cztery cząsteczki wody. Połówka utleniania: dwa Cl⁻ dają Cl₂ i dwa elektrony.
+
+Zwróć uwagę, skąd biorą się jony H⁺: z kwasu solnego. Kwas pełni tu podwójną rolę. Część cząsteczek dostarcza reduktora, czyli jonów chlorkowych, a wszystkie dostarczają środowiska kwasowego.
+
+Typowy błąd: wskazanie jako reduktora całego „chloru”. Reduktorem są jony chlorkowe, Cl⁻ z kwasu, a produktem utleniania jest chlor cząsteczkowy.
+
 [pytanie: reduktor]
 
 Sprawdź się. Który reagent jest reduktorem w reakcji KMnO₄ z kwasem solnym?
@@ -40,6 +46,10 @@ Kwas solny, a dokładniej jony chlorkowe. Utleniają się do chloru.
 ## Bilans
 
 Mangan przyjmuje pięć elektronów. Każdy atom chloru oddaje jeden, a cząsteczka Cl₂ — dwa. Wspólna wielokrotność to dziesięć: dwa atomy manganu i pięć cząsteczek chloru. Pozostałe sześć jonów chlorkowych z szesnastu cząsteczek kwasu trafia do soli.
+
+Mini-obliczenie. Ile decymetrów sześciennych chloru, w warunkach normalnych, powstanie z trzech i szesnastu setnych grama manganianu potasu? Masa molowa KMnO₄ to sto pięćdziesiąt osiem, więc mamy dwie setne mola. Z równania dwa mole manganianu dają pięć moli chloru, czyli stosunek dwa do pięciu. Chloru powstanie pięć setnych mola — jeden przecinek dwanaście decymetra sześciennego.
+
+Zawsze sprawdzaj bilans ładunków w zapisie jonowym. Po lewej: dwa razy minus jeden, szesnaście plus jeden, dziesięć minus jeden — razem plus cztery. Po prawej: dwa jony Mn²⁺, razem plus cztery. Zgadza się.
 
 [pytanie: cl2]
 
@@ -69,6 +79,10 @@ Plus sześć.
 
 Chlor otrzymuje się też przemysłowo — przez elektrolizę solanki. A gdyby z cynku i srebra zbudować ogniwo, przy potencjałach minus zero siedemdziesiąt sześć i plus zero osiemdziesiąt wolta, dostalibyśmy siłę elektromotoryczną jeden przecinek pięćdziesiąt sześć wolta.
 
+Porównajmy ogniwo i elektrolizę, bo tu najłatwiej o pomyłkę. W obu katoda to redukcja, a anoda to utlenianie. Różnią się znaki. W ogniwie anoda jest ujemna, bo sama oddaje elektrony. W elektrolizie anoda jest dodatnia, bo podłączamy ją do dodatniego bieguna źródła.
+
+Ile ładunku trzeba na jeden mol chloru z solanki? Dwa jony chlorkowe oddają dwa elektrony, więc dwa mole elektronów, czyli około stu dziewięćdziesięciu trzech tysięcy kulombów.
+
 [pytanie: sem]
 
 Sprawdź się. Oblicz SEM ogniwa Zn–Ag (E°: −0,76 V i +0,80 V).
@@ -96,6 +110,8 @@ Na anodzie. Jony chlorkowe się utleniają.
 ## Co z tego będzie na maturze
 
 W tym dziale liczy się precyzja zapisu: elektrony po właściwej stronie, ładunki zbilansowane, poprawna nazwa elektrody. Jedna pomyłka w znaku kosztuje cały punkt.
+
+Przy każdym zadaniu redoks wypisz sobie stopnie utlenienia nad symbolami, zanim zaczniesz bilansować. Zajmuje to pół minuty, a chroni przed najczęstszym błędem: pomyleniem, który atom zmienia stopień utlenienia.
 
 [pytanie: podsumowanie]
 

@@ -23,6 +23,10 @@ Dzień dobry, tu IndexLab. Powtórka działu o roztworach.
 
 Chcemy pięćset gramów roztworu zero przecinek dziewięć procent. Masa soli to zero przecinek dziewięć setnych z pięciuset: cztery i pół grama. Reszta to woda.
 
+Dlaczego akurat zero przecinek dziewięć procent? Bo taki roztwór ma takie samo ciśnienie osmotyczne jak osocze krwi — jest izotoniczny. W wodzie destylowanej krwinki pęczniałyby i pękały, bo woda wnikałaby do nich. W stężonym roztworze soli kurczyłyby się, bo woda by z nich uciekała.
+
+W laboratorium odważasz sól na wadze, przenosisz do zlewki, dodajesz wody i mieszasz do rozpuszczenia. Ważysz wodę, a nie mierzysz objętości, bo stężenie procentowe jest masowe.
+
 [pytanie: sol]
 
 Sprawdź się. Ile gramów NaCl potrzeba na 500 g soli fizjologicznej 0,9%?
@@ -51,6 +55,10 @@ Czterysta dziewięćdziesiąt pięć i pół grama.
 
 Gęstość tak rozcieńczonego roztworu to praktycznie jeden gram na centymetr sześcienny. Litr waży więc tysiąc gramów i zawiera dziewięć gramów soli. Dziewięć przez pięćdziesiąt osiem i pół — około piętnastu setnych mola.
 
+Typowy błąd: przyjęcie, że w litrze roztworu jest tysiąc gramów wody. W rzeczywistości tysiąc gramów to masa całego roztworu — wody jest dziewięćset dziewięćdziesiąt jeden gramów. Przy tak rozcieńczonym roztworze różnica jest pomijalna, ale przy stężonych roztworach trzeba liczyć z gęstości.
+
+Dla porównania: roztwór nasycony chlorku sodu w dwudziestu stopniach ma około dwudziestu sześciu i pół procent. Sól fizjologiczna jest więc prawie trzydzieści razy bardziej rozcieńczona.
+
 [pytanie: molowe]
 
 Sprawdź się. Jakie jest przybliżone stężenie molowe soli fizjologicznej (d ≈ 1 g/cm³)?
@@ -66,6 +74,12 @@ Około piętnastu setnych mola na decymetr sześcienny.
 ## Rozcieńczanie i zatężanie
 
 Gdybyśmy do stu gramów soli fizjologicznej dolali dwieście gramów wody, sól — zero przecinek dziewięć grama — rozłożyłaby się na trzysta gramów roztworu. Gdybyśmy zaś z pięciuset gramów odparowali czterysta gramów wody, cztery i pół grama soli zostałoby w stu gramach roztworu.
+
+Praktyczne zadanie: w aptece jest dziesięcioprocentowy roztwór chlorku sodu. Jak z niego zrobić pięćset gramów soli fizjologicznej?
+
+Potrzebujemy czterech i pół grama soli. W dziesięcioprocentowym roztworze tyle soli jest w czterdziestu pięciu gramach roztworu. Bierzemy więc czterdzieści pięć gramów stężonego roztworu i czterysta pięćdziesiąt pięć gramów wody.
+
+Sprawdzenie: cztery i pół przez pięćset to zero przecinek dziewięć procent. Zgadza się. Ta metoda — „ile substancji potrzebuję i w ilu gramach roztworu ją mam” — działa w każdym zadaniu z rozcieńczaniem.
 
 [pytanie: rozcienczanie]
 

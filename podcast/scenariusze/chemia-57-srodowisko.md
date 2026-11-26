@@ -25,6 +25,12 @@ Węgiel zawiera siarkę. Przy spalaniu powstaje dwutlenek siarki, który w atmos
 
 Rozwiązanie: odsiarczanie spalin. Spaliny przepuszcza się przez zawiesinę węglanu albo wodorotlenku wapnia, która wiąże dwutlenek siarki. Produktem jest gips.
 
+Rozpiszmy przemiany. Siarka spala się do dwutlenku siarki. Dwutlenek siarki z wodą daje słaby kwas siarkowy cztery, H₂SO₃. W atmosferze część SO₂ utlenia się do SO₃, a ten z wodą daje mocny kwas siarkowy sześć.
+
+Mini-obliczenie. Tona węgla zawierającego dwa procent siarki to dwadzieścia kilogramów siarki. Masa molowa siarki to trzydzieści dwa, więc to sześćset dwadzieścia pięć moli. Tyle samo moli SO₂, a jego masa molowa to sześćdziesiąt cztery. Wychodzi czterdzieści kilogramów dwutlenku siarki z jednej tony węgla.
+
+Odsiarczanie zapisuje się często równaniem: dwa CaCO₃ plus dwa SO₂ plus O₂ daje dwa CaSO₄ i dwa CO₂.
+
 [pytanie: so2]
 
 Sprawdź się. Który gaz jest główną przyczyną kwaśnych deszczy z elektrowni węglowych?
@@ -55,6 +61,12 @@ Efekt cieplarniany wzmacniają gazy, które zatrzymują promieniowanie cieplne Z
 
 To co innego niż dziura ozonowa. Ozon w stratosferze chroni nas przed promieniowaniem ultrafioletowym. Niszczyły go freony, związki chloru i fluoru, dziś już zakazane.
 
+Typowy błąd maturalny: mylenie efektu cieplarnianego z dziurą ozonową. Efekt cieplarniany dotyczy zatrzymywania ciepła przy powierzchni Ziemi. Dziura ozonowa dotyczy osłabienia filtra ultrafioletowego w stratosferze. To dwa różne zjawiska, wywoływane przez różne gazy.
+
+Paradoks ozonu: w stratosferze chroni, ale przy ziemi, w smogu letnim, jest szkodliwy. Drażni drogi oddechowe i powstaje z tlenków azotu w słońcu.
+
+Dwutlenek węgla ma jeszcze jeden skutek: rozpuszcza się w oceanach i obniża ich pH. To zakwaszanie oceanów, groźne dla organizmów budujących szkielety z węglanu wapnia.
+
 [pytanie: cieplarniany]
 
 Sprawdź się. Który gaz jest gazem cieplarnianym: metan czy azot?
@@ -84,6 +96,10 @@ Freony, czyli chlorofluorowęglowodory.
 Katalizator samochodowy, z platyną, palladem i rodem, zamienia tlenek węgla w dwutlenek węgla, tlenki azotu w azot, a niespalone węglowodory w dwutlenek węgla i wodę.
 
 Zanieczyszczenie wód: azotany i fosforany z nawozów powodują eutrofizację. Glony się rozrastają, potem obumierają, a ich rozkład zużywa tlen w wodzie.
+
+Reakcje w katalizatorze zapisuje się tak: dwa CO plus O₂ daje dwa CO₂. Dwa NO plus dwa CO daje N₂ i dwa CO₂ — tu tlenek węgla jest reduktorem tlenków azotu. Elegancko: jedno zanieczyszczenie usuwa drugie.
+
+Eutrofizację można ograniczyć, usuwając fosforany w oczyszczalniach ścieków — na przykład strącając je jonami wapnia lub żelaza jako trudno rozpuszczalne fosforany.
 
 [pytanie: eutrofizacja]
 
