@@ -94,9 +94,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **33. Sole i ich otrzymywanie** `c-sole` ✅
 
-**34. Metale i ich związki** `c-metale` ⬜
+**34. Metale i ich związki** `c-metale` ✅
 
-**35. Niemetale, ich związki i zastosowania** `c-niemetale` ⬜
+**35. Niemetale, ich związki i zastosowania** `c-niemetale` ✅
 
 **36. Powtórka działu: Związki nieorganiczne, metale i niemetale** `nieorganiczne` ⬜
 

@@ -1,0 +1,70 @@
+{
+  "odcinek": "chemia-34-metale",
+  "pytania": [
+    {
+      "id": "wypieranie",
+      "typ": "abcd",
+      "pytanie": "Reakcja zajdzie w przypadku:",
+      "odpowiedzi": [
+        "Zn + CuSO₄",
+        "Ag + CuSO₄",
+        "Cu + ZnSO₄",
+        "Au + AgNO₃"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Aktywniejszy metal wypiera mniej aktywny."
+    },
+    {
+      "id": "gwozdz",
+      "typ": "abcd",
+      "pytanie": "Skrócone równanie: żelazo w roztworze CuSO₄:",
+      "odpowiedzi": [
+        "Fe + Cu²⁺ → Fe²⁺ + Cu",
+        "Fe + CuSO₄ → FeSO₄ + Cu²⁺",
+        "Fe²⁺ + Cu → Fe + Cu²⁺",
+        "2Fe + 3Cu²⁺ → 2Fe³⁺ + 3Cu"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "W tych warunkach żelazo przechodzi na +II."
+    },
+    {
+      "id": "plomien",
+      "typ": "abcd",
+      "pytanie": "Sole sodu barwią płomień palnika na kolor:",
+      "odpowiedzi": [
+        "żółty",
+        "fioletowy",
+        "ceglastoczerwony",
+        "zielony"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Potas — fioletowy, wapń — ceglastoczerwony."
+    },
+    {
+      "id": "pasywacja",
+      "typ": "abcd",
+      "pytanie": "Glin w stężonym HNO₃:",
+      "odpowiedzi": [
+        "ulega pasywacji",
+        "rozpuszcza się z wydzieleniem wodoru",
+        "wypiera azot",
+        "tworzy amalgamat"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Warstwa tlenku chroni metal."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Miedź z rozcieńczonym HNO₃:",
+      "odpowiedzi": [
+        "reaguje, wydziela się NO",
+        "reaguje, wydziela się H₂",
+        "nie reaguje",
+        "ulega pasywacji"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "3Cu + 8HNO₃ → 3Cu(NO₃)₂ + 2NO + 4H₂O."
+    }
+  ]
+}
