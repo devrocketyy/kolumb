@@ -308,6 +308,78 @@
    "dzial": "polska-gospodarka"
   },
   {
+   "tytul": "Użytki rolne Polski",
+   "material": "Tekst autorski. Użytki rolne zajmują w Polsce ok. 14,3 mln ha, a powierzchnia kraju wynosi ok. 31,27 mln ha.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział użytków rolnych w powierzchni Polski. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 46%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "14,3 / 31,27 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-polska-gospodarka-13",
+   "dzial": "polska-gospodarka"
+  },
+  {
+   "tytul": "Handel z UE",
+   "material": "Tekst autorski. Eksport Polski wynosi ok. 380 mld euro, z czego ok. 75% trafia do państw UE.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wartość eksportu do UE.",
+     "odpowiedz": "ok. 285 mld euro",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "380 × 0,75.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedną przyczynę dominacji UE w handlu Polski.",
+     "odpowiedz": "Wspólny rynek bez ceł, bliskość geograficzna, powiązania gospodarcze z Niemcami.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jedna.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-gospodarka-14",
+   "dzial": "polska-gospodarka"
+  },
+  {
+   "tytul": "Turystyka w Krakowie",
+   "material": "Tekst autorski. Kraków odwiedza rocznie ok. 15 mln turystów, a mieszka w nim ok. 800 tys. osób.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik Schneidera.",
+     "odpowiedz": "ok. 1875",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "15 / 0,8 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa negatywne skutki masowej turystyki dla mieszkańców centrum Krakowa.",
+     "odpowiedz": "Wzrost cen mieszkań i najmu krótkoterminowego, wypieranie mieszkańców (turystyfikacja), hałas, zatłoczenie, zanik usług dla mieszkańców.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-gospodarka-15",
+   "dzial": "polska-gospodarka"
+  },
+  {
    "tytul": "Struktura zatrudnienia",
    "material": "Tekst autorski. W kraju X w rolnictwie pracuje 8% zatrudnionych, w przemyśle i budownictwie 30%, w usługach 62%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -331,7 +403,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-13",
+   "id": "b-polska-gospodarka-16",
    "dzial": "polska-gospodarka"
   },
   {
@@ -358,7 +430,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-14",
+   "id": "b-polska-gospodarka-17",
    "dzial": "polska-gospodarka"
   },
   {
@@ -385,7 +457,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-15",
+   "id": "b-polska-gospodarka-18",
    "dzial": "polska-gospodarka"
   }
  ]

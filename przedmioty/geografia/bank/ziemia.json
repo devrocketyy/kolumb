@@ -704,6 +704,69 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Górowanie w Poznaniu",
+   "material": "Tekst autorski. Poznań leży na ok. 16°55′E. Obowiązuje czas zimowy (UTC+1).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz godzinę górowania Słońca w Poznaniu w czasie urzędowym.",
+     "odpowiedz": "11:52:20",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "1°55′ = 115′ × 4 s = 7 min 40 s przed 12:00.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-32",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Statek na 180°",
+   "material": "Tekst autorski. Statek płynący z zachodu na wschód przekroczył południk 180° 15 czerwca o 23:00 czasu lokalnego.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj datę i godzinę na statku tuż po przekroczeniu linii zmiany daty.",
+     "odpowiedz": "14 czerwca, 23:00",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Na wschód — data cofa się o dobę.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-33",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Koło podbiegunowe",
+   "material": "Tekst autorski. Punkt leży na kole podbiegunowym północnym (66°33′N).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania 22 czerwca.",
+     "odpowiedz": "46°54′",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 66°33′ + 23°27′.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania 22 grudnia i nazwij zjawisko.",
+     "odpowiedz": "0° — Słońce tylko dotyka horyzontu; początek nocy polarnej",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 66°33′ − 23°27′.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-34",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Zgorzelcem i Terespolem",
    "material": "Tekst autorski. Zgorzelec leży na ok. 15°00′E, Terespol na ok. 23°40′E. Jest zima (obowiązuje czas UTC+1).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -727,7 +790,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-32",
+   "id": "b-ziemia-35",
    "dzial": "ziemia"
   },
   {
@@ -754,7 +817,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-33",
+   "id": "b-ziemia-36",
    "dzial": "ziemia"
   },
   {
@@ -781,7 +844,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-34",
+   "id": "b-ziemia-37",
    "dzial": "ziemia"
   },
   {
@@ -817,7 +880,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-35",
+   "id": "b-ziemia-38",
    "dzial": "ziemia"
   },
   {
@@ -844,7 +907,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-36",
+   "id": "b-ziemia-39",
    "dzial": "ziemia"
   },
   {
@@ -871,7 +934,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-37",
+   "id": "b-ziemia-40",
    "dzial": "ziemia"
   },
   {
@@ -889,7 +952,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-38",
+   "id": "b-ziemia-41",
    "dzial": "ziemia"
   }
  ]

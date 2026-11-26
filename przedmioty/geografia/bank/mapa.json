@@ -848,6 +848,78 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Kierunek spływu z poziomic",
+   "material": "Tekst autorski. Na mapie poziomice przecinające dolinę tworzą wygięcia w kształcie litery V skierowane ostrzem na północ.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w którą stronę płynie potok w tej dolinie. Uzasadnij.",
+     "odpowiedz": "Na południe — w dolinie poziomice wyginają się w górę doliny (pod prąd), więc wyżej jest północ.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "V w górę doliny.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-34",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Skala z porównania map",
+   "material": "Tekst autorski. Ten sam odcinek ma na mapie w skali 1:25 000 długość 4 cm, a na drugiej mapie — 1 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz skalę drugiej mapy.",
+     "odpowiedz": "1:100 000",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4 cm × 250 m = 1 km = 1 cm.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-35",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Skala z powierzchni",
+   "material": "Tekst autorski. Na mapie kwadrat o powierzchni 4 cm² odpowiada 1 km² w terenie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz skalę liczbową mapy.",
+     "odpowiedz": "1:50 000",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Bok 2 cm = 1 km → 1 cm = 500 m.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-36",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Najwyżej i najniżej w Polsce",
+   "material": "Tekst autorski. Najwyższy punkt Polski to Rysy (2499 m n.p.m.), a najniższy leży na Żuławach (ok. 1,8 m p.p.m.).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz różnicę wysokości między tymi punktami.",
+     "odpowiedz": "ok. 2500,8 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2499 − (−1,8).",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-37",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Wycieczka na wieżę widokową",
    "material": "Tekst autorski. Na mapie w skali 1:25 000 kościół leży na wysokości 212 m n.p.m., a wieża widokowa na wzgórzu — 347 m n.p.m. Odległość między nimi na mapie: 8 cm. Wieża leży od kościoła w kierunku azymutu 135°.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -880,7 +952,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-34",
+   "id": "b-mapa-38",
    "dzial": "mapa"
   },
   {
@@ -898,7 +970,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-35",
+   "id": "b-mapa-39",
    "dzial": "mapa"
   },
   {
@@ -925,7 +997,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-36",
+   "id": "b-mapa-40",
    "dzial": "mapa"
   },
   {
@@ -961,7 +1033,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-37",
+   "id": "b-mapa-41",
    "dzial": "mapa"
   },
   {
@@ -988,7 +1060,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-38",
+   "id": "b-mapa-42",
    "dzial": "mapa"
   },
   {
@@ -1015,7 +1087,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-39",
+   "id": "b-mapa-43",
    "dzial": "mapa"
   },
   {
@@ -1033,7 +1105,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-40",
+   "id": "b-mapa-44",
    "dzial": "mapa"
   }
  ]

@@ -281,6 +281,69 @@
    "dzial": "czlowiek"
   },
   {
+   "tytul": "Obszary chronione",
+   "material": "Tekst autorski. 23 parki narodowe zajmują w Polsce ok. 315 tys. ha, a obszary Natura 2000 — ok. 20% powierzchni kraju (31,27 mln ha).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział parków narodowych w powierzchni Polski. Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "ok. 1,0%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "315 000 / 31 270 000 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię obszarów Natura 2000 w mln ha.",
+     "odpowiedz": "ok. 6,25 mln ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "31,27 × 0,2.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj najstarszy (i jeden z najcenniejszych) park narodowy w Polsce.",
+     "odpowiedz": "Białowieski Park Narodowy (UNESCO)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Puszcza Białowieska.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-czlowiek-12",
+   "dzial": "czlowiek"
+  },
+  {
+   "tytul": "Szkody górnicze",
+   "material": "Tekst autorski. Na Górnym Śląsku nad wyrobiskami kopalń powstają zapadliska, a budynki pękają.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij przyczynę powstawania zapadlisk.",
+     "odpowiedz": "Po wydobyciu węgla pozostają puste przestrzenie, w które osiadają skały nadkładu — obniża się powierzchnia terenu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Osiadanie.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa inne skutki górnictwa dla środowiska.",
+     "odpowiedz": "Hałdy, zmiany stosunków wodnych (zalewiska lub lej depresji), zasolenie rzek wodami kopalnianymi, emisja metanu, przekształcenie krajobrazu.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-czlowiek-13",
+   "dzial": "czlowiek"
+  },
+  {
    "tytul": "Emisja CO₂",
    "material": "Tekst autorski. Kraj liczący 38 mln mieszkańców emituje rocznie 300 mln t CO₂, z czego 70% pochodzi z energetyki opartej na węglu.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -304,7 +367,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-12",
+   "id": "b-czlowiek-14",
    "dzial": "czlowiek"
   },
   {
@@ -331,7 +394,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-13",
+   "id": "b-czlowiek-15",
    "dzial": "czlowiek"
   }
  ]
