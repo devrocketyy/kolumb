@@ -104,9 +104,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **37. Stopnie utlenienia, utleniacz i reduktor** `c-stopnie` ✅
 
-**38. Bilansowanie równań redoks** `c-bilans` ⬜
+**38. Bilansowanie równań redoks** `c-bilans` ✅
 
-**39. Ogniwa, szereg napięciowy i SEM** `c-ogniwa` ⬜
+**39. Ogniwa, szereg napięciowy i SEM** `c-ogniwa` ✅
 
 **40. Elektroliza i korozja** `c-elektroliza` ⬜
 

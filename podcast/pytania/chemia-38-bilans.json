@@ -1,0 +1,70 @@
+{
+  "odcinek": "chemia-38-bilans",
+  "pytania": [
+    {
+      "id": "elektrony",
+      "typ": "abcd",
+      "pytanie": "Azot N⁺ⱽ → N⁺ᴵᴵ przyjmuje:",
+      "odpowiedzi": [
+        "3 elektrony",
+        "2 elektrony",
+        "5 elektronów",
+        "1 elektron"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "5 − 2 = 3."
+    },
+    {
+      "id": "hno3",
+      "typ": "abcd",
+      "pytanie": "Współczynnik przy HNO₃ w 3Cu + …HNO₃ → 3Cu(NO₃)₂ + 2NO + 4H₂O:",
+      "odpowiedzi": [
+        "8",
+        "6",
+        "2",
+        "4"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Nie wszystkie cząsteczki kwasu są utleniaczem."
+    },
+    {
+      "id": "nww",
+      "typ": "abcd",
+      "pytanie": "Współczynnik 3 przy Cu wynika z:",
+      "odpowiedzi": [
+        "wyrównania liczby elektronów: 2 · 3 = 3 · 2",
+        "liczby atomów tlenu",
+        "masy molowej miedzi",
+        "ładunku jonu azotanowego"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "NWW(2, 3) = 6."
+    },
+    {
+      "id": "mn-kwas",
+      "typ": "abcd",
+      "pytanie": "KMnO₄ w środowisku kwasowym redukuje się do:",
+      "odpowiedzi": [
+        "Mn²⁺ — roztwór się odbarwia",
+        "MnO₂ — brunatny osad",
+        "MnO₄²⁻ — roztwór zielenieje",
+        "Mn — szary osad"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Mn⁺ⱽᴵᴵ → Mn⁺ᴵᴵ, 5 elektronów."
+    },
+    {
+      "id": "fe",
+      "typ": "abcd",
+      "pytanie": "Stosunek MnO₄⁻ : Fe²⁺ w środowisku kwasowym:",
+      "odpowiedzi": [
+        "1 : 5",
+        "1 : 1",
+        "5 : 1",
+        "1 : 2"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Bilans: 5 e⁻."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "odcinek": "chemia-39-ogniwa",
+  "pytania": [
+    {
+      "id": "anoda",
+      "typ": "abcd",
+      "pytanie": "W ogniwie Zn|Zn²⁺||Cu²⁺|Cu anodą jest:",
+      "odpowiedzi": [
+        "elektroda cynkowa",
+        "elektroda miedziana",
+        "klucz elektrolityczny",
+        "roztwór CuSO₄"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Anoda — utlenianie."
+    },
+    {
+      "id": "masa",
+      "typ": "abcd",
+      "pytanie": "Podczas pracy ogniwa Daniella masa elektrody cynkowej:",
+      "odpowiedzi": [
+        "maleje",
+        "rośnie",
+        "nie zmienia się",
+        "najpierw rośnie, potem maleje"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Zn → Zn²⁺ + 2e⁻."
+    },
+    {
+      "id": "klucz",
+      "typ": "abcd",
+      "pytanie": "Klucz elektrolityczny w ogniwie:",
+      "odpowiedzi": [
+        "umożliwia przepływ jonów między półogniwami",
+        "przewodzi elektrony między elektrodami",
+        "jest katalizatorem",
+        "jest źródłem jonów metalu"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Elektrony płyną drutem, jony — kluczem."
+    },
+    {
+      "id": "sem",
+      "typ": "abcd",
+      "pytanie": "SEM ogniwa Zn–Cu (E°: −0,76 V i +0,34 V):",
+      "odpowiedzi": [
+        "1,10 V",
+        "0,42 V",
+        "−1,10 V",
+        "0,26 V"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "SEM = E(katody) − E(anody)."
+    },
+    {
+      "id": "ag",
+      "typ": "abcd",
+      "pytanie": "SEM ogniwa Cu–Ag (E°: +0,34 V i +0,80 V):",
+      "odpowiedzi": [
+        "0,46 V",
+        "1,14 V",
+        "0,80 V",
+        "0,34 V"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "0,80 − 0,34."
+    }
+  ]
+}
