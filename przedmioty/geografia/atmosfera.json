@@ -462,6 +462,57 @@
      ]
     },
     {
+     "id": "sec0f44ea",
+     "typ": "rysunek",
+     "tytul": "Bilans promieniowania słonecznego",
+     "opis": "Uproszczony bilans promieniowania krótkofalowego (wartości przybliżone, 100 = całe promieniowanie u górnej granicy atmosfery).",
+     "uwaga": "Łącznie ok. 30% promieniowania jest odbijane (albedo planety). Ogrzana powierzchnia oddaje ciepło jako promieniowanie długofalowe, które gazy cieplarniane częściowo zatrzymują.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gw\" x=\"0\" y=\"110\" width=\"400\" height=\"110\" opacity=\"0.35\"/><rect class=\"gl\" x=\"0\" y=\"220\" width=\"400\" height=\"80\"/><circle class=\"gm2\" cx=\"40\" cy=\"40\" r=\"22\"/><text class=\"tb\" x=\"40\" y=\"45\" text-anchor=\"middle\">100</text><path class=\"gk\" d=\"M160 150 q-14 0 -14 -12 q0 -13 16 -12 q6 -16 24 -12 q14 -9 24 4 q16 0 16 13 q0 12 -16 12 Z\"/><path class=\"hot\" d=\"M62.0 55.0 L120.0 210.0\"/><path class=\"hotf\" d=\"M120.0 210.0 L113.5 203.8 L120.8 201.0 Z\"/><path class=\"s\" d=\"M150.0 125.0 L150.0 70.0\"/><path class=\"d\" d=\"M150.0 70.0 L153.5 77.2 L146.5 77.2 Z\"/><path class=\"s\" d=\"M250.0 210.0 L270.0 70.0\"/><path class=\"d\" d=\"M270.0 70.0 L272.4 77.6 L265.5 76.6 Z\"/><path class=\"s\" d=\"M110.0 160.0 L90.0 70.0\"/><path class=\"d\" d=\"M90.0 70.0 L95.0 76.3 L88.2 77.8 Z\"/><path class=\"hot\" d=\"M330.0 215.0 L330.0 140.0\"/><path class=\"hotf\" d=\"M330.0 140.0 L333.5 147.2 L326.5 147.2 Z\"/><path class=\"hot\" d=\"M330.0 135.0 L330.0 70.0\"/><path class=\"hotf\" d=\"M330.0 70.0 L333.5 77.2 L326.5 77.2 Z\"/><text class=\"tb\" x=\"155\" y=\"62\" text-anchor=\"middle\">20</text><text class=\"tb\" x=\"275\" y=\"62\" text-anchor=\"middle\">4</text><text class=\"tb\" x=\"85\" y=\"62\" text-anchor=\"middle\">6</text><text class=\"tb\" x=\"130\" y=\"235\" text-anchor=\"middle\">50</text><text class=\"tb\" x=\"270\" y=\"165\" text-anchor=\"middle\">pochłonięte 20</text><text class=\"tb\" x=\"345\" y=\"105\" text-anchor=\"middle\">ciepło</text><text class=\"ts\" x=\"8\" y=\"292\">powierzchnia Ziemi</text><text class=\"ts\" x=\"395\" y=\"125\" text-anchor=\"end\">atmosfera</text><text class=\"ts\" x=\"200\" y=\"18\" text-anchor=\"middle\">przestrzeń kosmiczna</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 58,
+       "y": 58,
+       "lx": 80,
+       "ly": 100,
+       "n": "Promieniowanie Słońca",
+       "d": "100 jednostek docierających do atmosfery"
+      },
+      {
+       "x": 150,
+       "y": 100,
+       "lx": 190,
+       "ly": 80,
+       "n": "Odbite od chmur",
+       "d": "Ok. 20 jednostek"
+      },
+      {
+       "x": 100,
+       "y": 115,
+       "lx": 112,
+       "ly": 195,
+       "n": "Rozproszone",
+       "d": "Ok. 6 — rozproszenie w atmosferze"
+      },
+      {
+       "x": 262,
+       "y": 140,
+       "lx": 250,
+       "ly": 200,
+       "n": "Odbite od podłoża",
+       "d": "Ok. 4 — zależy od albedo"
+      },
+      {
+       "x": 120,
+       "y": 210,
+       "lx": 170,
+       "ly": 250,
+       "n": "Pochłonięte",
+       "d": "Ok. 50 przez powierzchnię; ok. 20 przez atmosferę i chmury"
+      }
+     ]
+    },
+    {
      "id": "s5a5d1c33",
      "typ": "rysunek",
      "tytul": "Fen — przekrój przez góry",

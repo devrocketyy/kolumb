@@ -1880,6 +1880,57 @@
    ],
    "schematy": [
     {
+     "id": "s5784f7c4",
+     "typ": "rysunek",
+     "tytul": "Osuwisko na stoku (przekrój)",
+     "opis": "Budowa osuwiska — najczęstszego ruchu masowego w Karpatach fliszowych.",
+     "uwaga": "Osuwiskom sprzyjają: flisz (piaskowce na łupkach), ulewy i roztopy, podcinanie stoków przez rzeki i drogi, wylesianie. Zapobiegają im drenaże, zalesianie i mury oporowe.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gl\" d=\"M0 70 L120 75 L330 240 L400 245 V300 H0 Z\"/><path class=\"gc\" d=\"M0 110 L140 112 L400 275 V285 L140 122 L0 120 Z\" opacity=\"0.6\"/><path class=\"gc\" d=\"M0 150 L175 152 L400 290 V300 L175 162 L0 160 Z\" opacity=\"0.6\"/><path class=\"gl2 ol\" d=\"M150 98 C170 120 200 150 215 175 C235 200 250 225 300 236 L330 240 L300 220 C270 205 240 175 225 150 C210 125 180 108 150 98 Z\"/><path class=\"s\" d=\"M150 98 C160 150 210 210 300 236\" style=\"stroke-dasharray:6 4\"/><path class=\"s\" d=\"M150 98 L158 120\" style=\"stroke-width:2.2\"/><path class=\"s\" d=\"M205.0 140.0 L245.0 175.0\"/><path class=\"d\" d=\"M245.0 175.0 L237.3 172.9 L241.9 167.6 Z\"/><path class=\"gk\" d=\"M50 30 q-6 0 -6 -5 q0 -6 7 -5 q3 -7 10 -5 q6 -4 10 2 q7 0 7 6 q0 5 -7 5 Z\"/><path class=\"gk\" d=\"M90 20 q-6 0 -6 -5 q0 -6 7 -5 q3 -7 10 -5 q6 -4 10 2 q7 0 7 6 q0 5 -7 5 Z\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M50 38 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M60 38 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M70 38 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M90 38 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M100 38 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M110 38 l-3 10\"/><path class=\"f\" d=\"M335 238 v-10 l6 -6 l6 6 v10 Z\"/><text class=\"ts\" x=\"200\" y=\"290\" text-anchor=\"middle\">stok we fliszu karpackim po długotrwałych opadach</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 155,
+       "y": 108,
+       "lx": 120,
+       "ly": 40,
+       "n": "Nisza osuwiskowa",
+       "d": "Skarpa w miejscu oderwania mas"
+      },
+      {
+       "x": 230,
+       "y": 190,
+       "lx": 290,
+       "ly": 150,
+       "n": "Koluwium",
+       "d": "Przemieszczony materiał (jęzor osuwiska)"
+      },
+      {
+       "x": 190,
+       "y": 168,
+       "lx": 150,
+       "ly": 210,
+       "n": "Powierzchnia poślizgu",
+       "d": "Nasiąknięte łupki działają jak smar"
+      },
+      {
+       "x": 80,
+       "y": 45,
+       "lx": 100,
+       "ly": 110,
+       "n": "Opady",
+       "d": "Długotrwałe deszcze nasycają skały wodą"
+      },
+      {
+       "x": 341,
+       "y": 228,
+       "lx": 330,
+       "ly": 190,
+       "n": "Zagrożone domy",
+       "d": "Osuwiska niszczą zabudowę i drogi"
+      }
+     ]
+    },
+    {
      "id": "sead6610b",
      "typ": "rysunek",
      "tytul": "Dolina rzeczna V i dolina lodowcowa U",

@@ -1213,6 +1213,57 @@
    ],
    "schematy": [
     {
+     "id": "s40f1a922",
+     "typ": "rysunek",
+     "tytul": "Profil podłużny rzeki",
+     "opis": "Wklęsły profil podłużny rzeki od źródła do ujścia (dane umowne).",
+     "uwaga": "Spadek rzeki maleje od źródła do ujścia, dlatego w biegu górnym przeważa erozja, a w dolnym — akumulacja. Profil wyrównany ma kształt krzywej wklęsłej.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><polygon class=\"gl\" points=\"40,250 40,46 52,97 71,148 96,185 127,208 164,221 207,231 257,240 313,246 362,249 387,250 387,250\"/><polyline class=\"cold\" fill=\"none\" style=\"stroke-width:3\" points=\"40,46 52,97 71,148 96,185 127,208 164,221 207,231 257,240 313,246 362,249 387,250\"/><rect class=\"gw2\" x=\"387\" y=\"245\" width=\"13\" height=\"10\"/><path class=\"dash\" d=\"M96 30 V250\"/><path class=\"dash\" d=\"M257 30 V250\"/><text class=\"tb\" x=\"68\" y=\"45\" text-anchor=\"middle\">bieg górny</text><text class=\"tb\" x=\"175\" y=\"45\" text-anchor=\"middle\">bieg środkowy</text><text class=\"tb\" x=\"320\" y=\"45\" text-anchor=\"middle\">bieg dolny</text><path class=\"s\" d=\"M40 30 V250 H390\"/><path class=\"s\" d=\"M36 250 H40\"/><text class=\"ts\" x=\"33\" y=\"253\" text-anchor=\"end\">0</text><path class=\"s\" d=\"M36 182 H40\"/><text class=\"ts\" x=\"33\" y=\"185\" text-anchor=\"end\">400</text><path class=\"s\" d=\"M36 114 H40\"/><text class=\"ts\" x=\"33\" y=\"117\" text-anchor=\"end\">800</text><path class=\"s\" d=\"M36 46 H40\"/><text class=\"ts\" x=\"33\" y=\"49\" text-anchor=\"end\">1200</text><text class=\"ts\" x=\"40\" y=\"264\" text-anchor=\"middle\">0</text><text class=\"ts\" x=\"164\" y=\"264\" text-anchor=\"middle\">200</text><text class=\"ts\" x=\"288\" y=\"264\" text-anchor=\"middle\">400</text><text class=\"ts\" x=\"5\" y=\"22\">m n.p.m.</text><text class=\"ts\" x=\"390\" y=\"278\" text-anchor=\"end\">odległość od źródła [km]</text><text class=\"ts\" x=\"200\" y=\"294\" text-anchor=\"middle\">profil podłużny przybliżony — przewyższenie ok. ×200</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 46.2,
+       "y": 71.5,
+       "lx": 70,
+       "ly": 80,
+       "n": "Źródło",
+       "d": "W górach — duży spadek"
+      },
+      {
+       "x": 71.0,
+       "y": 148.0,
+       "lx": 110,
+       "ly": 150,
+       "n": "Erozja wgłębna",
+       "d": "Bieg górny: dolina V, progi, wodospady"
+      },
+      {
+       "x": 164.0,
+       "y": 221.1,
+       "lx": 220,
+       "ly": 120,
+       "n": "Transport",
+       "d": "Bieg środkowy: erozja boczna, meandry"
+      },
+      {
+       "x": 312.8,
+       "y": 245.75,
+       "lx": 320,
+       "ly": 190,
+       "n": "Akumulacja",
+       "d": "Bieg dolny: mały spadek, osady, delta"
+      },
+      {
+       "x": 390,
+       "y": 250,
+       "lx": 360,
+       "ly": 225,
+       "n": "Ujście",
+       "d": "Baza erozyjna — poziom morza"
+      }
+     ]
+    },
+    {
      "id": "s8ea628a7",
      "typ": "rysunek",
      "tytul": "Meander i starorzecze",
