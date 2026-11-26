@@ -24,3 +24,11 @@ T['c-doswiadczenia'] = dict(F=[
  ('Bagietka', 'Szklany pręcik do mieszania i przelewania cieczy.'),
  ('Probówka', 'Wąskie szklane naczynie do prowadzenia reakcji w małej skali.'),
 ])
+T['c-metale'] = dict(F=[
+ ('Stal', 'Stop żelaza z węglem (do ok. dwóch procent) i dodatkami.'),
+ ('Żeliwo', 'Stop żelaza z węglem o większej zawartości węgla, kruchy.'),
+ ('Magnez', 'Lekki metal palący się oślepiającym płomieniem.'),
+ ('Wapń', 'Metal grupy drugiej, reaguje z wodą na zimno.'),
+ ('Potas', 'Bardzo aktywny litowiec, barwi płomień na fioletowo.'),
+ ('Srebro', 'Metal szlachetny o najlepszym przewodnictwie elektrycznym.'),
+])

@@ -29,5 +29,6 @@ BANK = {'stechiometria': [
 ], 'azotowe-cukry': [
  B('Aminokwas z masy molowej',
    'Tekst autorski. Dipeptyd zbudowany z dwóch reszt tego samego aminokwasu ma masę 160 g/mol.',
-   T('oblicz', 1, 'Oblicz masę molową aminokwasu i podaj jego nazwę.', '89 g/mol — alanina', '(160 + 18)/2.')),
+   T('oblicz', 1, 'Oblicz masę molową aminokwasu i podaj jego nazwę.', '89 g/mol — alanina', '(160 + 18)/2.'),
+   T('podaj', 1, 'Podaj liczbę wiązań peptydowych w tym dipeptydzie.', '1', 'n − 1.')),
 ]}
