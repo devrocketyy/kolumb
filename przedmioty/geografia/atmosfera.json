@@ -40,6 +40,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
     },
     {
+     "id": "fb265b22f",
+     "przod": "Bilans promieniowania Ziemi",
+     "tyl": "Ok. 30% promieniowania słonecznego jest odbijane (albedo planety), ok. 70% pochłaniane przez atmosferę i powierzchnię.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fde8b22b7",
+     "przod": "Albedo",
+     "tyl": "Zdolność powierzchni do odbijania promieniowania: śnieg świeży ok. 80–90%, las ok. 10–15%, woda kilka %.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f55336aa0",
+     "przod": "Promieniowanie długofalowe",
+     "tyl": "Ziemia wypromieniowuje ciepło (podczerwień), które gazy cieplarniane częściowo zatrzymują.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
      "id": "f767c469b",
      "przod": "Skład powietrza (suchego)",
      "tyl": "Azot ok. 78%, tlen ok. 21%, argon ok. 0,9%, dwutlenek węgla ok. 0,04%.",
@@ -76,12 +94,6 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
     },
     {
-     "id": "fde8b22b7",
-     "przod": "Albedo",
-     "tyl": "Zdolność powierzchni do odbijania promieniowania. Śnieg ma duże albedo (do 90%), las i ocean — małe.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
-    },
-    {
      "id": "fd11a39e8",
      "przod": "Inwersja temperatury",
      "tyl": "Sytuacja, w której temperatura rośnie z wysokością; sprzyja zaleganiu mgieł i smogu w kotlinach.",
@@ -97,12 +109,6 @@
      "id": "fc2110196",
      "przod": "Typowy błąd: gradient",
      "tyl": "Gradient 0,6°C/100 m to średnia dla powietrza wilgotnego; dla powietrza suchego spadek wynosi ok. 1°C/100 m.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
-    },
-    {
-     "id": "fb265b22f",
-     "przod": "Bilans promieniowania Ziemi",
-     "tyl": "Promieniowanie krótkofalowe Słońca ogrzewa powierzchnię, ta emituje promieniowanie długofalowe, które częściowo zatrzymują gazy cieplarniane.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
     },
     {
@@ -157,6 +163,12 @@
      "id": "f01ac9252",
      "przod": "Rozpoznaj: Obszary o najwyższych temperaturach: Dolina Śmierci, Sahara (Dallol w Etiopii — najwyższa średnia roczna).",
      "tyl": "Biegun ciepła",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fd1673445",
+     "przod": "Rozpoznaj: Zdolność powierzchni do odbijania promieniowania: śnieg świeży ok. 80–90%, las ok. 10–15%, woda kilka %.",
+     "tyl": "Albedo",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
     },
     {
@@ -246,6 +258,32 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Więcej lądów na półkuli N.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd0dca330",
+     "pytanie": "Powierzchnia o najmniejszym albedo spośród podanych to:",
+     "odpowiedzi": [
+      "ciemna toń oceanu",
+      "jasny piasek pustyni",
+      "lodowiec",
+      "świeży śnieg"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Woda pochłania większość promieniowania.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pdd52f624",
+     "pytanie": "Jaka część promieniowania słonecznego jest odbijana przez Ziemię i atmosferę?",
+     "odpowiedzi": [
+      "ok. 70%",
+      "ok. 90%",
+      "ok. 30%",
+      "ok. 5%"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Albedo planety.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
