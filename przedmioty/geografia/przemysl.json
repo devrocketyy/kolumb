@@ -588,25 +588,31 @@
     {
      "id": "f652e639e",
      "przod": "Czynniki lokalizacji przemysłu",
-     "tyl": "Surowce, energia, woda, siła robocza, rynek zbytu, transport, kapitał, polityka państwa.",
+     "tyl": "Surowce, energia, siła robocza, rynek zbytu, transport, kapitał, technologie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    },
+    {
+     "id": "ff167da96",
+     "przod": "Przemysł zaawansowanych technologii",
+     "tyl": "Wymaga wykwalifikowanych kadr i ośrodków naukowych — Dolina Krzemowa, Bangalore.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    },
+    {
+     "id": "fae34e614",
+     "przod": "Technopolia",
+     "tyl": "Ośrodki łączące uczelnie, laboratoria i firmy high-tech (Tsukuba, Sophia Antipolis).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    },
+    {
+     "id": "f2d0d4ec6",
+     "przod": "Deindustrializacja",
+     "tyl": "Spadek znaczenia przemysłu tradycyjnego (górnictwo, hutnictwo) — np. Zagłębie Ruhry, Śląsk.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
     },
     {
      "id": "f493c4a08",
      "przod": "Przemysł wysokiej technologii",
      "tyl": "Lokalizuje się przy ośrodkach naukowych i wykwalifikowanej kadrze — technopolie, np. Dolina Krzemowa.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
-    },
-    {
-     "id": "fae34e614",
-     "przod": "Technopolia",
-     "tyl": "Ośrodek łączący uczelnie, laboratoria i firmy innowacyjne.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
-    },
-    {
-     "id": "f2d0d4ec6",
-     "przod": "Deindustrializacja",
-     "tyl": "Spadek znaczenia przemysłu w gospodarce i zatrudnieniu — typowy dla krajów wysoko rozwiniętych.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
     },
     {
@@ -706,14 +712,20 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
     },
     {
-     "id": "fa7d4d7c1",
-     "przod": "Rozpoznaj: Ośrodek łączący uczelnie, laboratoria i firmy innowacyjne.",
+     "id": "fbe781ae1",
+     "przod": "Rozpoznaj: Wymaga wykwalifikowanych kadr i ośrodków naukowych — Dolina Krzemowa, Bangalore.",
+     "tyl": "Przemysł zaawansowanych technologii",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
+    },
+    {
+     "id": "f8627f06a",
+     "przod": "Rozpoznaj: Ośrodki łączące uczelnie, laboratoria i firmy high-tech (Tsukuba, Sophia Antipolis).",
      "tyl": "Technopolia",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
     },
     {
-     "id": "f547cbb79",
-     "przod": "Rozpoznaj: Spadek znaczenia przemysłu w gospodarce i zatrudnieniu — typowy dla krajów wysoko rozwiniętych.",
+     "id": "f129f5e2f",
+     "przod": "Rozpoznaj: Spadek znaczenia przemysłu tradycyjnego (górnictwo, hutnictwo) — np. Zagłębie Ruhry, Śląsk.",
      "tyl": "Deindustrializacja",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XI.4–6"
     },
@@ -793,6 +805,32 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Ropa i gaz.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1960af67",
+     "pytanie": "Dla przemysłu high-tech najważniejszym czynnikiem lokalizacji jest:",
+     "odpowiedzi": [
+      "żyzne gleby w okolicy",
+      "kadra i zaplecze naukowe",
+      "dostęp do taniej wody",
+      "bliskość złóż węgla"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Dolina Krzemowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p96c885f2",
+     "pytanie": "Spadek znaczenia górnictwa i hutnictwa to:",
+     "odpowiedzi": [
+      "deindustrializacja",
+      "reurbanizacja",
+      "industrializacja",
+      "konteneryzacja"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Np. Zagłębie Ruhry.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
