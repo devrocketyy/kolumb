@@ -53,7 +53,7 @@ Stopnie utlenienia przydają się też w chemii organicznej. Prześledźmy węgi
 
 To ten sam szereg, który znasz z utleniania alkoholi: alkohol, aldehyd, kwas, dwutlenek węgla. Każdy krok to utlenienie o dwa stopnie.
 
-Typowy błąd: zapis stopnia utlenienia cyframi arabskimi z plusem za liczbą, jak ładunek jonu. Stopień utlenienia zapisuje się zwykle cyfrą rzymską z znakiem przed nią, na przykład plus siedem jako +VII, a ładunek jonu jako 2+.
+Typowy błąd: zapis stopnia utlenienia cyframi arabskimi z plusem za liczbą, jak ładunek jonu. Stopień utlenienia zapisuje się zwykle cyfrą rzymską ze znakiem przed nią, na przykład plus siedem jako +VII, a ładunek jonu jako 2+.
 
 [pytanie: kmno4]
 
