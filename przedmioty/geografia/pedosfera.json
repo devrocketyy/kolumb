@@ -312,6 +312,36 @@
    "wymaganie": "VI.4–5",
    "fiszki": [
     {
+     "id": "f14e33ed6",
+     "przod": "Las twardolistny",
+     "tyl": "Zimozielone lasy z dębem korkowym i oliwką — klimat śródziemnomorski.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "fa98a6e34",
+     "przod": "Las monsunowy",
+     "tyl": "Las zrzucający liście w porze suchej — Azja Południowa (np. tek).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "ff87df852",
+     "przod": "Lasy namorzynowe",
+     "tyl": "Lasy na wybrzeżach zalewanych przez pływy w strefie gorącej, z korzeniami oddechowymi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "f8c3d8293",
+     "przod": "Prerie i pampa",
+     "tyl": "Stepy Ameryki Północnej (prerie) i Południowej (pampa) — obecnie głównie pola uprawne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "f680f8b7f",
+     "przod": "Endemit",
+     "tyl": "Gatunek występujący tylko na ograniczonym obszarze, np. lemury na Madagaskarze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
      "id": "fd601886b",
      "przod": "Wilgotny las równikowy",
      "tyl": "Strefa równikowa: wielowarstwowy, wiecznie zielony las o największej różnorodności gatunków.",
@@ -372,6 +402,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
     },
     {
+     "id": "fed09350f",
+     "przod": "Rozpoznaj: Zimozielone lasy z dębem korkowym i oliwką — klimat śródziemnomorski.",
+     "tyl": "Las twardolistny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "f26f1a283",
+     "przod": "Rozpoznaj: Las zrzucający liście w porze suchej — Azja Południowa (np. tek).",
+     "tyl": "Las monsunowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "f1f742aca",
+     "przod": "Rozpoznaj: Gatunek występujący tylko na ograniczonym obszarze, np. lemury na Madagaskarze.",
+     "tyl": "Endemit",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
      "id": "fb555f100",
      "przod": "Rozpoznaj: Strefa podrównikowa: trawy z pojedynczymi drzewami (baobaby, akacje), wyraźna pora sucha.",
      "tyl": "Sawanna",
@@ -415,6 +463,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "pd2ef9f57",
+     "pytanie": "Lasy na zalewanych przez pływy wybrzeżach strefy gorącej to:",
+     "odpowiedzi": [
+      "makia",
+      "namorzyny",
+      "tajga",
+      "tundra"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Mangrowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa11897b2",
+     "pytanie": "Gatunek występujący tylko na Madagaskarze to przykład:",
+     "odpowiedzi": [
+      "endemitu",
+      "kosmopolity",
+      "reliktu polodowcowego",
+      "gatunku inwazyjnego"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Lemury.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7829bbde",
+     "pytanie": "Pampa to step w:",
+     "odpowiedzi": [
+      "Ameryce Północnej",
+      "Afryce",
+      "Ameryce Południowej",
+      "Azji"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Prerie — Ameryka Północna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "pbffd4bf7",
      "pytanie": "Twardolistna, zimozielona makia jest typowa dla klimatu:",

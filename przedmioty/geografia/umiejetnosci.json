@@ -82,6 +82,42 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
     },
     {
+     "id": "fc086a403",
+     "przod": "Polecenie „przedstaw”",
+     "tyl": "Opis zjawiska lub procesu w kilku zdaniach, z właściwą terminologią — bez oceny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "ff0648d06",
+     "przod": "Polecenie „określ”",
+     "tyl": "Wskazanie cechy, kierunku lub typu, np. „Określ ekspozycję stoku” — odpowiedź krótka, konkretna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f6ecb19fe",
+     "przod": "Polecenie „sformułuj wniosek”",
+     "tyl": "Uogólnienie wynikające z danych, np. „Wraz ze wzrostem wysokości spada temperatura”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fe10e3afe",
+     "przod": "Polecenie „zaznacz na mapie”",
+     "tyl": "Znak lub litera dokładnie w miejscu obiektu; niejednoznaczne zaznaczenie nie daje punktu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f5eb189e2",
+     "przod": "Odpowiedź z dwoma elementami",
+     "tyl": "Gdy polecenie żąda dwóch przyczyn lub skutków, każda musi być inna — powtórzenie tej samej myśli innymi słowami daje 1 pkt.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f8e2a9379",
+     "przod": "Odpowiedź na „podaj przyczynę”",
+     "tyl": "Przyczyna musi poprzedzać skutek i go wyjaśniać, np. „ponieważ stok ma ekspozycję północną, śnieg zalega dłużej”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
      "id": "fa535e2ec",
      "przod": "Rozpoznaj: Zamiast „dobre warunki” — „żyzne gleby (czarnoziemy)”. Ogólnik bez nazwy cechy nie daje punktu.",
      "tyl": "Konkret w odpowiedzi",
@@ -91,6 +127,12 @@
      "id": "fa7ce3e03",
      "przod": "Rozpoznaj: Muszą być zapisane poprawnie i jednoznacznie, np. „Kotlina Kłodzka”, a nie „kotlina na południu”.",
      "tyl": "Nazwy geograficzne w odpowiedzi",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fc434a65d",
+     "przod": "Rozpoznaj: Gdy polecenie żąda dwóch przyczyn lub skutków, każda musi być inna — powtórzenie tej samej myśli innymi słowami daje 1 pkt.",
+     "tyl": "Odpowiedź z dwoma elementami",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
     }
    ],
@@ -171,6 +213,58 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Wyjaśnienie wskazuje konkretne przyczyny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p83478cb8",
+     "pytanie": "Polecenie „Sformułuj wniosek” wymaga:",
+     "odpowiedzi": [
+      "przepisania danych z tabeli",
+      "opisu metody badania",
+      "podania jednej liczby",
+      "uogólnienia wynikającego z danych"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Np. zależności między zjawiskami.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p12da556e",
+     "pytanie": "Uczeń podał dwie przyczyny: „mało opadów” i „brak deszczu”. Za drugą przyczynę:",
+     "odpowiedzi": [
+      "otrzyma dodatkowy punkt",
+      "otrzyma punkt",
+      "otrzyma pół punktu",
+      "nie otrzyma punktu — to ta sama myśl"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Elementy muszą być różne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf2db3234",
+     "pytanie": "Polecenie „Określ ekspozycję stoku” wymaga podania:",
+     "odpowiedzi": [
+      "wysokości stoku",
+      "nachylenia w procentach",
+      "kierunku, w który zwrócony jest stok",
+      "rodzaju skał na stoku"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Np. południowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p70b7fc7a",
+     "pytanie": "Zaznaczenie na mapie jest poprawne, gdy:",
+     "odpowiedzi": [
+      "jest opisane tylko słownie",
+      "jednoznacznie wskazuje miejsce obiektu",
+      "leży w pobliżu obiektu",
+      "obejmuje kilka możliwych miejsc"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Precyzja.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -254,6 +348,42 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
     },
     {
+     "id": "f82c6ad1c",
+     "przod": "Diagram kołowy",
+     "tyl": "Pokazuje strukturę całości (udziały procentowe), np. strukturę zatrudnienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "fa8fe6eff",
+     "przod": "Wykres liniowy",
+     "tyl": "Pokazuje zmiany wartości w czasie, np. liczbę ludności w kolejnych latach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "ff124615f",
+     "przod": "Wykres słupkowy",
+     "tyl": "Porównuje wartości różnych obiektów lub okresów, np. opady w miesiącach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f0c6a4428",
+     "przod": "Hydrogram a klimatogram",
+     "tyl": "Hydrogram — przepływ rzeki w czasie; klimatogram — temperatura i opady w miesiącach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f4969a9c8",
+     "przod": "Róża wiatrów",
+     "tyl": "Diagram pokazujący częstość wiatrów z różnych kierunków.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f2ad57327",
+     "przod": "Średnia arytmetyczna z tabeli",
+     "tyl": "Suma wartości / liczba wartości, np. średnia roczna temperatura z 12 miesięcy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
      "id": "fdbf5b2be",
      "przod": "Rozpoznaj: Mapa z diagramami (słupki, koła) umieszczonymi w jednostkach przestrzennych — pokazuje wartości bezwzględne, np. liczbę ludności.",
      "tyl": "Kartodiagram",
@@ -287,6 +417,24 @@
      "id": "ff97ef792",
      "przod": "Rozpoznaj: Opis: kierunek (wzrost/spadek), tempo (szybki/powolny), wartości i lata skrajne.",
      "tyl": "Czytanie trendu na wykresie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "fa2036984",
+     "przod": "Rozpoznaj: Pokazuje strukturę całości (udziały procentowe), np. strukturę zatrudnienia.",
+     "tyl": "Diagram kołowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f4628300f",
+     "przod": "Rozpoznaj: Pokazuje zmiany wartości w czasie, np. liczbę ludności w kolejnych latach.",
+     "tyl": "Wykres liniowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f8d51cd5e",
+     "przod": "Rozpoznaj: Porównuje wartości różnych obiektów lub okresów, np. opady w miesiącach.",
+     "tyl": "Wykres słupkowy",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
     }
    ],
@@ -368,6 +516,58 @@
      "poprawna": "A",
      "wyjasnienie": "Wartości bezwzględne w punktach.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1e06ae93",
+     "pytanie": "Częstość wiatrów z różnych kierunków przedstawia:",
+     "odpowiedzi": [
+      "piramida wieku",
+      "klimatogram",
+      "róża wiatrów",
+      "hydrogram"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Diagram kierunkowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb4cfccbe",
+     "pytanie": "Zmiany liczby ludności w kolejnych latach najlepiej pokazuje wykres:",
+     "odpowiedzi": [
+      "róża wiatrów",
+      "kołowy",
+      "trójkątny",
+      "liniowy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Zmiany w czasie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9303ee1b",
+     "pytanie": "Strukturę zatrudnienia w trzech sektorach w jednym roku dobrze pokazuje diagram:",
+     "odpowiedzi": [
+      "liniowy",
+      "hydrogram",
+      "profil terenu",
+      "kołowy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Udziały całości.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4cce79ba",
+     "pytanie": "Średnie temperatury miesięcy: −2, 0, 4, 9, 14, 17, 19, 18, 14, 9, 4, 0. Średnia roczna wynosi:",
+     "odpowiedzi": [
+      "8,8°C",
+      "7,5°C",
+      "9,5°C",
+      "10,5°C"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Suma 106 / 12 ≈ 8,8.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -438,6 +638,42 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
     },
     {
+     "id": "f60cb8509",
+     "przod": "Wskaźnik obciążenia demograficznego — obliczenie",
+     "tyl": "(ludność przedprodukcyjna + poprodukcyjna) / ludność produkcyjna × 100.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f9a0e0fdb",
+     "przod": "Wskaźnik lesistości",
+     "tyl": "Powierzchnia lasów / powierzchnia obszaru × 100%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f9a89f672",
+     "przod": "Średnia gęstość dróg",
+     "tyl": "Długość dróg / powierzchnia obszaru, w km/100 km².",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f24227507",
+     "przod": "PKB na osobę",
+     "tyl": "PKB kraju / liczba ludności.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f6b41344d",
+     "przod": "Dynamika zmian (indeks)",
+     "tyl": "Wartość w roku badanym / wartość w roku bazowym × 100. Indeks 120 to wzrost o 20%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f4b86f765",
+     "przod": "Zaokrąglanie w geografii",
+     "tyl": "Wynik podaje się z dokładnością wymaganą w poleceniu; obliczenia pośrednie lepiej prowadzić dokładniej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
      "id": "f28a2c695",
      "przod": "Rozpoznaj: Liczba ludności podzielona przez powierzchnię, w os./km².",
      "tyl": "Gęstość zaludnienia",
@@ -465,6 +701,24 @@
      "id": "f4091f06f",
      "przod": "Rozpoznaj: Liczba kobiet przypadająca na 100 mężczyzn.",
      "tyl": "Wskaźnik feminizacji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f5a6c7a03",
+     "przod": "Rozpoznaj: Powierzchnia lasów / powierzchnia obszaru × 100%.",
+     "tyl": "Wskaźnik lesistości",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f06772c25",
+     "przod": "Rozpoznaj: PKB kraju / liczba ludności.",
+     "tyl": "PKB na osobę",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "fda98b491",
+     "przod": "Rozpoznaj: Wynik podaje się z dokładnością wymaganą w poleceniu; obliczenia pośrednie lepiej prowadzić dokładniej.",
+     "tyl": "Zaokrąglanie w geografii",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
     }
    ],
@@ -545,6 +799,58 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "0,5 / 2,0 × 100%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe520eb48",
+     "pytanie": "Gmina ma 200 km², z czego lasy zajmują 70 km². Lesistość wynosi:",
+     "odpowiedzi": [
+      "13%",
+      "2,9%",
+      "70%",
+      "35%"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "70 / 200 × 100%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p544ce74d",
+     "pytanie": "Indeks dynamiki wynosi 85. Oznacza to:",
+     "odpowiedzi": [
+      "wzrost o 85%",
+      "spadek o 15%",
+      "wzrost o 15%",
+      "spadek o 85%"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "85 − 100 = −15.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pdb374b0b",
+     "pytanie": "Kraj o PKB 600 mld USD i 30 mln mieszkańców ma PKB na osobę:",
+     "odpowiedzi": [
+      "18 000 USD",
+      "200 000 USD",
+      "20 000 USD",
+      "2000 USD"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "600 mld / 30 mln.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb9959fe0",
+     "pytanie": "Przedprodukcyjni 18 tys., produkcyjni 60 tys., poprodukcyjni 15 tys. Obciążenie demograficzne:",
+     "odpowiedzi": [
+      "55",
+      "33",
+      "25",
+      "45"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "(18 + 15) / 60 × 100.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

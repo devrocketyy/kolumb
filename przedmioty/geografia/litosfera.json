@@ -331,6 +331,36 @@
    "wymaganie": "V.4–5",
    "fiszki": [
     {
+     "id": "ffef6c1d2",
+     "przod": "Minerał a skała",
+     "tyl": "Minerał — jednorodny składnik o określonym składzie (np. kwarc); skała — zespół minerałów (np. granit: kwarc, skaleń, mika).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "f31fbcd05",
+     "przod": "Skala twardości Mohsa",
+     "tyl": "Skala od 1 (talk) do 10 (diament); kwarc ma twardość 7.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "f1947e45c",
+     "przod": "Bursztyn",
+     "tyl": "Skamieniała żywica drzew iglastych sprzed ok. 40 mln lat — wydobywany nad Bałtykiem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "f6d14b04b",
+     "przod": "Wapień",
+     "tyl": "Skała osadowa z węglanu wapnia, często organogeniczna; burzy się z kwasem solnym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "f7945f554",
+     "przod": "Neogen i paleogen",
+     "tyl": "Okresy kenozoiku przed czwartorzędem; w neogenie powstały m.in. złoża węgla brunatnego i soli w Polsce.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
      "id": "ff213551e",
      "przod": "Skały magmowe głębinowe",
      "tyl": "Krystalizują powoli w głębi Ziemi — duże kryształy, np. granit.",
@@ -397,6 +427,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
     },
     {
+     "id": "fc9c33b79",
+     "przod": "Rozpoznaj: Skamieniała żywica drzew iglastych sprzed ok. 40 mln lat — wydobywany nad Bałtykiem.",
+     "tyl": "Bursztyn",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "feb493dbb",
+     "przod": "Rozpoznaj: Skała osadowa z węglanu wapnia, często organogeniczna; burzy się z kwasem solnym.",
+     "tyl": "Wapień",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
      "id": "feeac99ef",
      "przod": "Rozpoznaj: Krzepną szybko na powierzchni — drobne kryształy, np. bazalt.",
      "tyl": "Skały magmowe wylewne",
@@ -446,6 +488,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p9b58726c",
+     "pytanie": "Najtwardszym minerałem w skali Mohsa jest:",
+     "odpowiedzi": [
+      "talk",
+      "diament",
+      "kwarc",
+      "gips"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Twardość 10.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc6fa227f",
+     "pytanie": "Skała, która burzy się po polaniu kwasem solnym, to:",
+     "odpowiedzi": [
+      "wapień",
+      "kwarcyt",
+      "granit",
+      "bazalt"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Węglan wapnia wydziela CO₂.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p68a2d33b",
+     "pytanie": "Bursztyn to skamieniała:",
+     "odpowiedzi": [
+      "żywica drzew iglastych",
+      "lawa wulkaniczna",
+      "kość dinozaura",
+      "muszla małży"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Sprzed ok. 40 mln lat.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "pfc9a6f97",
      "pytanie": "Marmur powstaje w wyniku metamorfizmu:",

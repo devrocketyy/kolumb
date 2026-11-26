@@ -339,6 +339,36 @@
    "wymaganie": "II.3–4",
    "fiszki": [
     {
+     "id": "ff2186ac2",
+     "przod": "Rok zwrotnikowy",
+     "tyl": "Czas między kolejnymi równonocami wiosennymi — ok. 365 dni 5 h 49 min; stąd lata przestępne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "fe433f533",
+     "przod": "Pozorna wędrówka Słońca",
+     "tyl": "W ciągu roku Słońce w południe góruje w zenicie kolejno nad różnymi równoleżnikami między zwrotnikami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "fc0a3895e",
+     "przod": "Dni zenitalnego górowania na równiku",
+     "tyl": "Ok. 21 marca i 23 września (równonoce).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f83c72deb",
+     "przod": "Noc polarna na biegunie północnym",
+     "tyl": "Trwa ok. pół roku — od równonocy jesiennej do wiosennej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "fc3a4149f",
+     "przod": "Zmierzch cywilny i biała noc",
+     "tyl": "W pobliżu kół podbiegunowych latem Słońce zachodzi płytko pod horyzont i noce są jasne — białe noce, np. w Sankt Petersburgu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
      "id": "f14cdbeea",
      "przod": "Ruch obiegowy Ziemi",
      "tyl": "Obieg wokół Słońca po orbicie eliptycznej w ciągu ok. 365 dni 6 godzin.",
@@ -411,6 +441,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
     },
     {
+     "id": "fb28cd2ea",
+     "przod": "Rozpoznaj: Czas między kolejnymi równonocami wiosennymi — ok. 365 dni 5 h 49 min; stąd lata przestępne.",
+     "tyl": "Rok zwrotnikowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "fb0a1019a",
+     "przod": "Rozpoznaj: Ok. 21 marca i 23 września (równonoce).",
+     "tyl": "Dni zenitalnego górowania na równiku",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f67d62546",
+     "przod": "Rozpoznaj: Trwa ok. pół roku — od równonocy jesiennej do wiosennej.",
+     "tyl": "Noc polarna na biegunie północnym",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f603c62b3",
+     "przod": "Rozpoznaj: W pobliżu kół podbiegunowych latem Słońce zachodzi płytko pod horyzont i noce są jasne — białe noce, np. w Sankt Petersburgu.",
+     "tyl": "Zmierzch cywilny i biała noc",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
      "id": "f2e80b700",
      "przod": "Rozpoznaj: Oś tworzy z płaszczyzną orbity kąt 66°33′ (odchylenie od prostopadłej 23°27′) i zachowuje stały kierunek w przestrzeni.",
      "tyl": "Nachylenie osi Ziemi",
@@ -448,6 +502,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "pb000fb1e",
+     "pytanie": "Na równiku Słońce góruje w zenicie:",
+     "odpowiedzi": [
+      "22 grudnia",
+      "21 marca i 23 września",
+      "codziennie",
+      "22 czerwca"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Dni równonocy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p50e3a182",
+     "pytanie": "Białe noce są zjawiskiem typowym dla:",
+     "odpowiedzi": [
+      "Polski w grudniu",
+      "zwrotników zimą",
+      "okolic kół podbiegunowych latem",
+      "równika przez cały rok"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Np. Sankt Petersburg.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1974edcb",
+     "pytanie": "Noc polarna na biegunie północnym trwa około:",
+     "odpowiedzi": [
+      "jednej doby",
+      "trzech miesięcy",
+      "pół roku",
+      "tygodnia"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Od 23 IX do 21 III.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "p4c0e69f9",
      "pytanie": "Słońce góruje w zenicie nad zwrotnikiem Raka w dniu:",

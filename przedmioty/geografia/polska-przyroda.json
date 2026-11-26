@@ -941,6 +941,36 @@
    "wymaganie": "XIII.6–8, XIV",
    "fiszki": [
     {
+     "id": "fd2999270",
+     "przod": "Tatrzański Park Narodowy",
+     "tyl": "Chroni najwyższe góry Polski o rzeźbie alpejskiej; jeziora polodowcowe (Morskie Oko, Czarny Staw).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f6827dcca",
+     "przod": "Karkonoski Park Narodowy",
+     "tyl": "Chroni najwyższą część Sudetów ze Śnieżką (1603 m); kotły polodowcowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "fc81e9643",
+     "przod": "Woliński Park Narodowy",
+     "tyl": "Chroni wyspę Wolin z wysokimi klifami nad Bałtykiem i ostoją bielika.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f74e382d7",
+     "przod": "Park krajobrazowy",
+     "tyl": "Obszar chroniony ze względu na walory przyrodnicze, historyczne i kulturowe, z możliwością działalności gospodarczej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "fc224e4b3",
+     "przod": "Obiekty UNESCO związane z przyrodą w Polsce",
+     "tyl": "Puszcza Białowieska (obiekt przyrodniczy, wspólnie z Białorusią); Park Mużakowski to krajobraz kulturowy (wspólnie z Niemcami).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
      "id": "f63664a4f",
      "przod": "Parki narodowe w Polsce",
      "tyl": "Jest ich 23 — najwyższa forma ochrony przyrody.",
@@ -995,6 +1025,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
     },
     {
+     "id": "f8b7d9c1f",
+     "przod": "Rozpoznaj: Chroni najwyższe góry Polski o rzeźbie alpejskiej; jeziora polodowcowe (Morskie Oko, Czarny Staw).",
+     "tyl": "Tatrzański Park Narodowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "fae5db5ee",
+     "przod": "Rozpoznaj: Chroni najwyższą część Sudetów ze Śnieżką (1603 m); kotły polodowcowe.",
+     "tyl": "Karkonoski Park Narodowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f0e2ddb15",
+     "przod": "Rozpoznaj: Chroni wyspę Wolin z wysokimi klifami nad Bałtykiem i ostoją bielika.",
+     "tyl": "Woliński Park Narodowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "ff9ef8d59",
+     "przod": "Rozpoznaj: Obszar chroniony ze względu na walory przyrodnicze, historyczne i kulturowe, z możliwością działalności gospodarczej.",
+     "tyl": "Park krajobrazowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
      "id": "f30b9e887",
      "przod": "Rozpoznaj: Jest ich 23 — najwyższa forma ochrony przyrody.",
      "tyl": "Parki narodowe w Polsce",
@@ -1014,6 +1068,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "pdd0f6126",
+     "pytanie": "Śnieżka leży na terenie:",
+     "odpowiedzi": [
+      "Tatrzańskiego Parku Narodowego",
+      "Karkonoskiego Parku Narodowego",
+      "Gorczańskiego Parku Narodowego",
+      "Bieszczadzkiego Parku Narodowego"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Sudety.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb0579af0",
+     "pytanie": "Wysokie klify nad Bałtykiem chroni:",
+     "odpowiedzi": [
+      "Magurski Park Narodowy",
+      "Ojcowski Park Narodowy",
+      "Woliński Park Narodowy",
+      "Kampinoski Park Narodowy"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wyspa Wolin.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p70ca99a3",
+     "pytanie": "Przyrodniczym obiektem UNESCO w Polsce jest:",
+     "odpowiedzi": [
+      "Pojezierze Mazurskie",
+      "Wyżyna Lubelska",
+      "Puszcza Białowieska",
+      "Puszcza Kampinoska"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wspólnie z Białorusią.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "pbdd1eb5f",
      "pytanie": "Najwyższą formą ochrony przyrody w Polsce jest:",

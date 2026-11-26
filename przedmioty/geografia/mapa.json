@@ -10,6 +10,30 @@
    "wymaganie": "I.3",
    "fiszki": [
     {
+     "id": "f88ddfe0f",
+     "przod": "Podziałka liniowa a pomniejszenie mapy",
+     "tyl": "Przy kserowaniu w pomniejszeniu skala liczbowa przestaje być prawdziwa, a podziałka liniowa nadal działa — zmniejsza się razem z mapą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f38558249",
+     "przod": "Mapa topograficzna",
+     "tyl": "Mapa w dużej skali (np. 1:10 000–1:100 000) z dokładną rzeźbą, wodami, osadnictwem i drogami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f6c47024a",
+     "przod": "Plan miasta",
+     "tyl": "Mapa w bardzo dużej skali, zwykle 1:5 000–1:20 000.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f3a42b0e8",
+     "przod": "Generalizacja kartograficzna",
+     "tyl": "Upraszczanie treści przy zmniejszaniu skali: pomijanie szczegółów, wygładzanie linii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
      "id": "fe0fa8c02",
      "przod": "Skala liczbowa",
      "tyl": "Zapis 1:50 000 oznacza, że 1 cm na mapie to 50 000 cm, czyli 500 m w terenie.",
@@ -142,6 +166,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
+     "id": "fc5d75920",
+     "przod": "Rozpoznaj: Mapa w bardzo dużej skali, zwykle 1:5 000–1:20 000.",
+     "tyl": "Plan miasta",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "ff649dd49",
+     "przod": "Rozpoznaj: Upraszczanie treści przy zmniejszaniu skali: pomijanie szczegółów, wygładzanie linii.",
+     "tyl": "Generalizacja kartograficzna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
      "id": "f4bc7efec",
      "przod": "Rozpoznaj: Zapis 1:50 000 oznacza, że 1 cm na mapie to 50 000 cm, czyli 500 m w terenie.",
      "tyl": "Skala liczbowa",
@@ -185,6 +221,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p5a327d01",
+     "pytanie": "Mapę 1:50 000 pomniejszono dwukrotnie. Nowa skala to:",
+     "odpowiedzi": [
+      "1:200 000",
+      "1:50 000",
+      "1:100 000",
+      "1:25 000"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ta sama odległość zajmuje dwa razy mniej centymetrów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p459ba66b",
+     "pytanie": "Upraszczanie treści mapy przy zmniejszaniu skali to:",
+     "odpowiedzi": [
+      "interpolacja",
+      "odwzorowanie",
+      "teledetekcja",
+      "generalizacja"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Pomijanie szczegółów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9644ec7f",
+     "pytanie": "Po skserowaniu mapy w powiększeniu poprawnie można mierzyć za pomocą:",
+     "odpowiedzi": [
+      "podziałki liniowej",
+      "żadnej z nich",
+      "skali mianowanej z legendy",
+      "skali liczbowej z legendy"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Podziałka zmienia się z mapą.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "p2885461d",
      "pytanie": "Na mapie 1:50 000 odległość wynosi 6 cm. W terenie to:",
@@ -337,6 +412,36 @@
    "wymaganie": "I.3",
    "fiszki": [
     {
+     "id": "fe5919927",
+     "przod": "Antypody",
+     "tyl": "Punkty położone po przeciwnych stronach Ziemi: szerokość o przeciwnej nazwie półkuli, długość różniąca się o 180°. Np. 50°N, 20°E ↔ 50°S, 160°W.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "ffd528a16",
+     "przod": "Skrajne punkty Polski",
+     "tyl": "Północ: Jastrzębia Góra (ok. 54°50′N); południe: Opołonek w Bieszczadach (ok. 49°00′N).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f69baccce",
+     "przod": "Rozciągłość południkowa Polski",
+     "tyl": "Ok. 5°50′, czyli ok. 650 km.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f3f3e2a98",
+     "przod": "Rozciągłość równoleżnikowa Polski",
+     "tyl": "Ok. 10°01′ (od ok. 14°07′E do ok. 24°09′E), czyli ok. 690 km.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fd9826d3d",
+     "przod": "Długość 1° równoleżnika",
+     "tyl": "Maleje ku biegunom: na równiku ok. 111 km, na 60° ok. 56 km (111 × cos 60°).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
      "id": "f5f207896",
      "przod": "Szerokość geograficzna",
      "tyl": "Odległość kątowa punktu od równika, mierzona wzdłuż południka: 0°–90° N lub S.",
@@ -397,6 +502,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
+     "id": "f05baf223",
+     "przod": "Rozpoznaj: Punkty położone po przeciwnych stronach Ziemi: szerokość o przeciwnej nazwie półkuli, długość różniąca się o 180°. Np. 50°N, 20°E ↔ 50°S, 160°W.",
+     "tyl": "Antypody",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "feb480570",
+     "przod": "Rozpoznaj: Północ: Jastrzębia Góra (ok. 54°50′N); południe: Opołonek w Bieszczadach (ok. 49°00′N).",
+     "tyl": "Skrajne punkty Polski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "ff2dd6ccc",
+     "przod": "Rozpoznaj: Ok. 5°50′, czyli ok. 650 km.",
+     "tyl": "Rozciągłość południkowa Polski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f31b37184",
+     "przod": "Rozpoznaj: Ok. 10°01′ (od ok. 14°07′E do ok. 24°09′E), czyli ok. 690 km.",
+     "tyl": "Rozciągłość równoleżnikowa Polski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
      "id": "f281ec08e",
      "przod": "Rozpoznaj: Odległość kątowa punktu od równika, mierzona wzdłuż południka: 0°–90° N lub S.",
      "tyl": "Szerokość geograficzna",
@@ -440,6 +569,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p328e0df9",
+     "pytanie": "Antypodą punktu 50°N, 20°E jest punkt:",
+     "odpowiedzi": [
+      "50°S, 20°W",
+      "40°S, 160°E",
+      "50°S, 160°W",
+      "50°N, 160°W"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Zmiana półkul i długość 180° − 20°.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8fb43b4c",
+     "pytanie": "Rozciągłość południkowa Polski wynosi około:",
+     "odpowiedzi": [
+      "10°01′",
+      "5°50′",
+      "2°30′",
+      "15°"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Od ok. 49°N do 54°50′N.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8ac09904",
+     "pytanie": "Długość 1° równoleżnika na 60°N wynosi około:",
+     "odpowiedzi": [
+      "78 km",
+      "30 km",
+      "56 km",
+      "111 km"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "111 × 0,5.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "p964965ca",
      "pytanie": "Punkty A (50°N, 20°E) i B (40°N, 20°E). Odległość między nimi wynosi około:",
@@ -879,6 +1047,30 @@
    "wymaganie": "I.4",
    "fiszki": [
     {
+     "id": "fd746dd3f",
+     "przod": "Deklinacja magnetyczna",
+     "tyl": "Kąt między kierunkiem północy geograficznej a magnetycznej (wskazywanej przez kompas).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f31476260",
+     "przod": "Orientowanie mapy według obiektów",
+     "tyl": "Ustawienie mapy tak, by linia łącząca dwa obiekty na mapie pokrywała się z ich położeniem w terenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f3dfcc3cf",
+     "przod": "Wyznaczanie kierunków według Słońca w Polsce",
+     "tyl": "Rano Słońce jest na wschodzie (latem na północnym wschodzie), w południe na południu, wieczorem na zachodzie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f5c986509",
+     "przod": "Krzyż Południa",
+     "tyl": "Gwiazdozbiór pomagający wyznaczyć kierunek południowy na półkuli południowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
      "id": "fc4fab0fb",
      "przod": "Azymut",
      "tyl": "Kąt mierzony zgodnie z ruchem wskazówek zegara od kierunku północnego do kierunku na obiekt: 0°–360°.",
@@ -952,6 +1144,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "pf280120a",
+     "pytanie": "Kąt między północą geograficzną a magnetyczną to:",
+     "odpowiedzi": [
+      "szerokość geograficzna",
+      "deklinacja magnetyczna",
+      "azymut",
+      "kąt padania promieni"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Kompas wskazuje biegun magnetyczny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe38900b1",
+     "pytanie": "Na półkuli południowej kierunek południowy pomaga wyznaczyć:",
+     "odpowiedzi": [
+      "Gwiazda Polarna",
+      "Kasjopeja",
+      "Wielki Wóz",
+      "Krzyż Południa"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Gwiazda Polarna nie jest tam widoczna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p811592b9",
+     "pytanie": "Latem w Polsce Słońce wschodzi na:",
+     "odpowiedzi": [
+      "południowym wschodzie",
+      "północnym wschodzie",
+      "południu",
+      "zachodzie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Zimą — na południowym wschodzie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "pc17fa0c5",
      "pytanie": "Azymut kierunku południowo-zachodniego wynosi:",
@@ -1039,6 +1270,30 @@
    "wymaganie": "I.5–6",
    "fiszki": [
     {
+     "id": "f673c8add",
+     "przod": "Dane wektorowe i rastrowe",
+     "tyl": "Wektorowe — punkty, linie, poligony (np. drogi); rastrowe — siatka komórek (np. zdjęcie satelitarne, model terenu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f827aa985",
+     "przod": "Geoportal",
+     "tyl": "Serwis internetowy udostępniający dane przestrzenne, np. polski geoportal.gov.pl.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f077a9083",
+     "przod": "Lidar",
+     "tyl": "Skanowanie laserowe z samolotu — bardzo dokładny model wysokości terenu, także pod lasem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f7cdb81b2",
+     "przod": "Zastosowania teledetekcji",
+     "tyl": "Monitoring pożarów, powodzi, upraw, wylesiania, zmian lodowców.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
      "id": "ff2c2d174",
      "przod": "GIS",
      "tyl": "System Informacji Geograficznej — narzędzie do gromadzenia, analizy i prezentacji danych przestrzennych w warstwach.",
@@ -1087,6 +1342,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
     },
     {
+     "id": "f8863758a",
+     "przod": "Rozpoznaj: Skanowanie laserowe z samolotu — bardzo dokładny model wysokości terenu, także pod lasem.",
+     "tyl": "Lidar",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fb450b0a6",
+     "przod": "Rozpoznaj: Monitoring pożarów, powodzi, upraw, wylesiania, zmian lodowców.",
+     "tyl": "Zastosowania teledetekcji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
      "id": "ff72bd1e3",
      "przod": "Rozpoznaj: System Informacji Geograficznej — narzędzie do gromadzenia, analizy i prezentacji danych przestrzennych w warstwach.",
      "tyl": "GIS",
@@ -1124,6 +1391,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p1bf05d44",
+     "pytanie": "Drogi w GIS najczęściej zapisuje się jako dane:",
+     "odpowiedzi": [
+      "wektorowe (linie)",
+      "rastrowe",
+      "tabelaryczne bez położenia",
+      "dźwiękowe"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Linie łamane.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8746b883",
+     "pytanie": "Model wysokości terenu pod koronami drzew dobrze tworzy:",
+     "odpowiedzi": [
+      "mapa kartodiagramowa",
+      "róża wiatrów",
+      "zdjęcie w świetle widzialnym",
+      "lidar"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Laser przenika między liśćmi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe50a22cc",
+     "pytanie": "Polskim serwisem udostępniającym dane przestrzenne jest:",
+     "odpowiedzi": [
+      "stat.gov.pl jako mapa topograficzna",
+      "geoportal.gov.pl",
+      "imgw.pl jako ortofotomapa",
+      "cke.gov.pl"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ortofotomapy, mapy topograficzne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "p59606a68",
      "pytanie": "Strefa 1 km wokół lotniska wyznaczona w GIS to wynik analizy:",

@@ -615,6 +615,36 @@
    "wymaganie": "IV.6–7",
    "fiszki": [
     {
+     "id": "fa08288f2",
+     "przod": "Pole firnowe",
+     "tyl": "Obszar zasilania lodowca, gdzie śnieg przekształca się w firn, a potem w lód.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "fca1d065a",
+     "przod": "Jęzor lodowcowy",
+     "tyl": "Część lodowca spływająca w dół doliny poniżej granicy wiecznego śniegu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "f90988ebb",
+     "przod": "Bilans masy lodowca",
+     "tyl": "Różnica między zasilaniem (opady śniegu) a ablacją (topnienie, sublimacja, cielenie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "f82d168c9",
+     "przod": "Cielenie lodowca",
+     "tyl": "Odłamywanie się brył lodu od czoła lodowca do morza — powstają góry lodowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "f5373d195",
+     "przod": "Zanik lodowców górskich",
+     "tyl": "Większość lodowców świata cofa się wskutek ocieplenia klimatu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
      "id": "f9836489c",
      "przod": "Lodowce górskie",
      "tyl": "Powstają powyżej granicy wiecznego śniegu; spływają dolinami (np. Alpy, Himalaje).",
@@ -669,6 +699,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
     },
     {
+     "id": "f9171d6a6",
+     "przod": "Rozpoznaj: Obszar zasilania lodowca, gdzie śnieg przekształca się w firn, a potem w lód.",
+     "tyl": "Pole firnowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
      "id": "f6b808e3f",
      "przod": "Rozpoznaj: Powstają powyżej granicy wiecznego śniegu; spływają dolinami (np. Alpy, Himalaje).",
      "tyl": "Lodowce górskie",
@@ -700,6 +736,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p1105e0e2",
+     "pytanie": "Odłamywanie się brył lodu od czoła lodowca do morza to:",
+     "odpowiedzi": [
+      "erozja wsteczna",
+      "akumulacja",
+      "cielenie",
+      "ablacja w polu firnowym"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Powstają góry lodowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf678f20f",
+     "pytanie": "Obszar zasilania lodowca górskiego to:",
+     "odpowiedzi": [
+      "pole firnowe",
+      "jęzor lodowcowy",
+      "sandr",
+      "morena czołowa"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Powyżej granicy wiecznego śniegu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7313ea10",
+     "pytanie": "Ujemny bilans masy lodowca oznacza, że lodowiec:",
+     "odpowiedzi": [
+      "zmniejsza się",
+      "nie zmienia się",
+      "zamienia się w lądolód",
+      "rośnie"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Ablacja przewyższa zasilanie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "pc43df899",
      "pytanie": "Woda, która po nawierceniu sama wypływa na powierzchnię, to woda:",
