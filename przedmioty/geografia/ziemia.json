@@ -883,58 +883,50 @@
      "id": "sb2c2eea6",
      "typ": "rysunek",
      "tytul": "Strefy oświetlenia Ziemi",
-     "opis": "Podział Ziemi na strefy według kąta padania promieni słonecznych.",
-     "uwaga": "Granice stref oświetlenia wynikają z nachylenia osi Ziemi (23°27′).",
-     "svg": "<circle class=\"s\" cx=\"200\" cy=\"150\" r=\"120\"/><path class=\"f2\" d=\"M120 60 A120 120 0 0 1 280 60 Z\"/><path class=\"f2\" d=\"M120 240 A120 120 0 0 0 280 240 Z\"/><path class=\"f\" d=\"M85 112 H315 V188 H85 Z\" opacity=\"0.6\"/><path class=\"s2\" d=\"M80 150 H320\"/><path class=\"dash\" d=\"M85 112 H315\"/><path class=\"dash\" d=\"M85 188 H315\"/><path class=\"dash\" d=\"M120 60 H280\"/><path class=\"dash\" d=\"M120 240 H280\"/>",
+     "opis": "Podział Ziemi według warunków oświetlenia (żółty — gorąca, zielony — umiarkowane, błękit — podbiegunowe).",
+     "uwaga": "Granice stref wynikają z nachylenia osi Ziemi: zwrotniki leżą na 23°27′, koła podbiegunowe na 90° − 23°27′ = 66°33′.",
+     "svg": "<defs><clipPath id=\"g1osw\"><circle cx=\"140\" cy=\"150\" r=\"115\"/></clipPath></defs><g clip-path=\"url(#g1osw)\"><rect class=\"gi\" x=\"0\" y=\"0\" width=\"400\" height=\"300\" style=\"stroke:none\"/><rect class=\"gt\" x=\"0\" y=\"44.5\" width=\"300\" height=\"211.0\"/><rect class=\"gp\" x=\"0\" y=\"104.2\" width=\"300\" height=\"91.5\"/></g><circle class=\"s\" cx=\"140\" cy=\"150\" r=\"115\"/><path class=\"dash\" d=\"M94.2 44.5 H185.8\"/><path class=\"dash\" d=\"M34.5 104.2 H245.5\"/><path class=\"s\" d=\"M25.0 150.0 H255.0\"/><path class=\"dash\" d=\"M34.5 195.8 H245.5\"/><path class=\"dash\" d=\"M94.2 255.5 H185.8\"/><text class=\"ts\" x=\"189.8\" y=\"47.5\">66°33′N</text><text class=\"ts\" x=\"249.5\" y=\"107.2\">23°27′N</text><text class=\"ts\" x=\"259.0\" y=\"153.0\">0°</text><text class=\"ts\" x=\"249.5\" y=\"198.8\">23°27′S</text><text class=\"ts\" x=\"189.8\" y=\"258.5\">66°33′S</text><path class=\"hot\" d=\"M5.0 110.0 L18.0 110.0\"/><path class=\"hotf\" d=\"M18.0 110.0 L12.6 112.6 L12.6 107.4 Z\"/><path class=\"hot\" d=\"M5.0 150.0 L18.0 150.0\"/><path class=\"hotf\" d=\"M18.0 150.0 L12.6 152.6 L12.6 147.4 Z\"/><path class=\"hot\" d=\"M5.0 190.0 L18.0 190.0\"/><path class=\"hotf\" d=\"M18.0 190.0 L12.6 192.6 L12.6 187.4 Z\"/>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 200,
+       "x": 140,
        "y": 150,
-       "lx": 340,
+       "lx": 262,
        "ly": 150,
        "n": "Strefa gorąca",
        "d": "Między zwrotnikami — Słońce może górować w zenicie"
       },
       {
-       "x": 200,
-       "y": 85,
-       "lx": 340,
-       "ly": 85,
-       "n": "Strefa umiarkowana północna",
-       "d": "Między zwrotnikiem Raka a kołem podbiegunowym"
+       "x": 140,
+       "y": 75,
+       "lx": 262,
+       "ly": 80,
+       "n": "Umiarkowana N",
+       "d": "Słońce nigdy w zenicie; brak dnia i nocy polarnej"
       },
       {
-       "x": 200,
+       "x": 140,
        "y": 45,
-       "lx": 340,
-       "ly": 40,
-       "n": "Strefa zimna północna",
+       "lx": 262,
+       "ly": 22,
+       "n": "Podbiegunowa N",
        "d": "Za kołem podbiegunowym — dzień i noc polarna"
       },
       {
-       "x": 300,
-       "y": 112,
-       "lx": 360,
-       "ly": 115,
-       "n": "Zwrotnik Raka",
-       "d": "23°27′N"
+       "x": 140,
+       "y": 225,
+       "lx": 262,
+       "ly": 220,
+       "n": "Umiarkowana S",
+       "d": "Między zwrotnikiem Koziorożca a kołem podbiegunowym S"
       },
       {
-       "x": 280,
-       "y": 60,
-       "lx": 360,
-       "ly": 62,
-       "n": "Koło podbiegunowe",
-       "d": "66°33′N"
-      },
-      {
-       "x": 300,
-       "y": 188,
-       "lx": 360,
-       "ly": 190,
-       "n": "Zwrotnik Koziorożca",
-       "d": "23°27′S"
+       "x": 140,
+       "y": 262,
+       "lx": 262,
+       "ly": 280,
+       "n": "Podbiegunowa S",
+       "d": "Za kołem podbiegunowym S"
       }
      ]
     },

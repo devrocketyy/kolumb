@@ -17,8 +17,8 @@ S['g-atmosfera'] = [
            '<path class="gf2" d="M40 272 L40 212 L100 195 L130 160 L140 170 L110 205 L40 228 Z" opacity="0.8"/>'
            '<path class="gf2" d="M395 272 L395 197 L330 188 L300 165 L292 178 L330 200 L395 215 Z" opacity="0.8"/>'
            # chmury i opad po stronie dowietrznej
-           '<path class="f" d="M118 150 q-14 0 -14 -12 q0 -12 14 -12 q4 -14 20 -12 q10 -12 24 -2 q16 0 16 13 q0 13 -16 13 Z"/>'
-           '<path class="f" d="M150 112 q-12 0 -12 -10 q0 -10 12 -10 q4 -12 18 -10 q10 -9 20 0 q12 1 12 11 q0 9 -12 9 Z"/>'
+           '<path class="gk" d="M118 150 q-14 0 -14 -12 q0 -12 14 -12 q4 -14 20 -12 q10 -12 24 -2 q16 0 16 13 q0 13 -16 13 Z"/>'
+           '<path class="gk" d="M150 112 q-12 0 -12 -10 q0 -10 12 -10 q4 -12 18 -10 q10 -9 20 0 q12 1 12 11 q0 9 -12 9 Z"/>'
            + ''.join(f'<path class="cold" style="stroke-width:1.2" d="M{x} {y} l-4 12"/>' for x, y in ((112, 154), (124, 156), (136, 154), (148, 156), (160, 154), (158, 116), (170, 118)))
            # droga powietrza
            + '<path class="cold" d="M48 228 L104 208"/><path class="cold" d="M104 208 L150 150 L198 64" style="stroke-dasharray:6 3"/>'

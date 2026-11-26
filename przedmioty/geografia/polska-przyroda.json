@@ -470,58 +470,58 @@
      "id": "s32f63045",
      "typ": "rysunek",
      "tytul": "Pasy rzeźby Polski",
-     "opis": "Równoleżnikowy układ krain w Polsce (schemat).",
-     "uwaga": "Układ pasowy wynika z budowy geologicznej i zasięgu zlodowaceń — najmłodsza rzeźba polodowcowa na północy.",
-     "svg": "<path class=\"s\" d=\"M40 20 H360 V280 H40 Z\"/><path class=\"f\" d=\"M40 20 H360 V45 H40 Z\" opacity=\"0.4\"/><path class=\"f\" d=\"M40 45 H360 V95 H40 Z\" opacity=\"0.6\"/><path class=\"f\" d=\"M40 95 H360 V165 H40 Z\" opacity=\"0.25\"/><path class=\"f2\" d=\"M40 165 H360 V215 H40 Z\" opacity=\"0.5\"/><path class=\"f\" d=\"M40 215 H360 V240 H40 Z\" opacity=\"0.35\"/><path class=\"f2\" d=\"M40 240 H360 V280 H40 Z\"/>",
+     "opis": "Uproszczony przekrój północ–południe przez Polskę (wysokości przewyższone).",
+     "uwaga": "Układ pasowy wynika z budowy geologicznej i zasięgu zlodowaceń: najświeższa rzeźba polodowcowa jest na północy, najstarsza i najwyższa — na południu.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"245\"/><rect class=\"gw\" x=\"0\" y=\"230\" width=\"34\" height=\"15\"/><polygon class=\"gl\" points=\"30,245 30.0,245.0 41.6,244.6 50.3,244.8 61.9,240.5 73.5,234.5 82.2,237.9 90.9,232.2 102.5,236.0 114.1,233.8 125.7,236.8 137.3,235.2 151.8,236.0 163.4,233.0 175.0,234.5 189.5,231.5 201.1,227.0 212.7,222.5 224.3,225.5 235.9,220.2 247.5,224.0 259.1,227.8 270.7,230.0 282.3,229.2 293.9,230.8 302.6,225.5 314.2,213.5 325.8,206.0 337.4,192.5 349.0,177.5 357.7,147.5 366.4,125.0 372.2,57.6 378.0,132.5 383.8,177.5 383.8,245\"/><polyline class=\"s\" fill=\"none\" points=\"30.0,245.0 41.6,244.6 50.3,244.8 61.9,240.5 73.5,234.5 82.2,237.9 90.9,232.2 102.5,236.0 114.1,233.8 125.7,236.8 137.3,235.2 151.8,236.0 163.4,233.0 175.0,234.5 189.5,231.5 201.1,227.0 212.7,222.5 224.3,225.5 235.9,220.2 247.5,224.0 259.1,227.8 270.7,230.0 282.3,229.2 293.9,230.8 302.6,225.5 314.2,213.5 325.8,206.0 337.4,192.5 349.0,177.5 357.7,147.5 366.4,125.0 372.2,57.6 378.0,132.5 383.8,177.5\"/><ellipse class=\"gw\" cx=\"82.2\" cy=\"239.9\" rx=\"4\" ry=\"1.6\"/><ellipse class=\"gw\" cx=\"102.5\" cy=\"238.0\" rx=\"4\" ry=\"1.6\"/><ellipse class=\"gw\" cx=\"125.7\" cy=\"238.8\" rx=\"4\" ry=\"1.6\"/><rect class=\"gs2\" x=\"0\" y=\"245\" width=\"400\" height=\"20\"/><path class=\"dash\" d=\"M50.3 30 V245\"/><path class=\"dash\" d=\"M163.4 30 V245\"/><path class=\"dash\" d=\"M198.2 30 V245\"/><path class=\"dash\" d=\"M293.9 30 V245\"/><path class=\"dash\" d=\"M308.4 30 V245\"/><text class=\"ts\" x=\"40\" y=\"282\" text-anchor=\"middle\">pobrzeża</text><text class=\"ts\" x=\"105\" y=\"282\" text-anchor=\"middle\">pojezierza</text><text class=\"ts\" x=\"180\" y=\"282\" text-anchor=\"middle\">niziny</text><text class=\"ts\" x=\"247\" y=\"282\" text-anchor=\"middle\">wyżyny</text><text class=\"ts\" x=\"300\" y=\"282\" text-anchor=\"middle\">kotliny</text><text class=\"ts\" x=\"350\" y=\"282\" text-anchor=\"middle\">góry</text><text class=\"ts\" x=\"5\" y=\"296\">N — Bałtyk</text><text class=\"ts\" x=\"395\" y=\"296\" text-anchor=\"end\">S — Tatry</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 200,
-       "y": 32,
-       "lx": 380,
-       "ly": 32,
+       "x": 41.6,
+       "y": 244.625,
+       "lx": 55,
+       "ly": 40,
        "n": "Pobrzeża",
-       "d": "Wydmy, mierzeje, jeziora przybrzeżne, klify"
+       "d": "Niskie wybrzeże: mierzeje, wydmy, jeziora przybrzeżne, klify"
       },
       {
-       "x": 200,
-       "y": 70,
-       "lx": 380,
+       "x": 102.5,
+       "y": 236.0,
+       "lx": 112,
        "ly": 70,
        "n": "Pojezierza",
-       "d": "Rzeźba młodoglacjalna, liczne jeziora"
+       "d": "Młodoglacjalne: moreny, rynny z jeziorami, sandry"
       },
       {
-       "x": 200,
-       "y": 130,
-       "lx": 380,
+       "x": 175.0,
+       "y": 234.5,
+       "lx": 185,
+       "ly": 100,
+       "n": "Niziny",
+       "d": "Staroglacjalne, zrównane, z pradolinami"
+      },
+      {
+       "x": 235.9,
+       "y": 220.25,
+       "lx": 245,
        "ly": 130,
-       "n": "Niziny Środkowopolskie",
-       "d": "Rzeźba staroglacjalna, pradoliny"
-      },
-      {
-       "x": 200,
-       "y": 190,
-       "lx": 380,
-       "ly": 190,
        "n": "Wyżyny",
-       "d": "Starsze skały, lessy, kras"
+       "d": "Starsze skały, less, formy krasowe"
       },
       {
-       "x": 200,
-       "y": 228,
-       "lx": 380,
-       "ly": 228,
-       "n": "Kotliny podkarpackie",
-       "d": "Obniżenia u podnóża Karpat"
+       "x": 293.9,
+       "y": 230.75,
+       "lx": 300,
+       "ly": 110,
+       "n": "Kotliny",
+       "d": "Kotliny podkarpackie — zapadliska u podnóża Karpat"
       },
       {
-       "x": 200,
-       "y": 260,
-       "lx": 380,
-       "ly": 260,
-       "n": "Góry",
-       "d": "Sudety (stare, odmłodzone) i Karpaty (młode, alpejskie)"
+       "x": 372.2,
+       "y": 57.57500000000002,
+       "lx": 300,
+       "ly": 30,
+       "n": "Karpaty",
+       "d": "Góry młode (orogeneza alpejska); Tatry z Rysami 2499 m"
       }
      ]
     },

@@ -1221,42 +1221,50 @@
      "id": "s96a7a455",
      "typ": "rysunek",
      "tytul": "Poziomice: wzgórze i stoki",
-     "opis": "Wzgórze na mapie poziomicowej z cięciem 10 m.",
-     "uwaga": "Gęste poziomice = stromo. Zamknięte poziomice o rosnących wartościach = wzniesienie, o malejących = zagłębienie.",
-     "svg": "<path class=\"s\" d=\"M100 240 C100 120 160 60 220 60 C300 60 360 140 360 240\"/><path class=\"s\" d=\"M115 240 C115 140 165 95 215 95 C280 95 310 160 310 240\"/><path class=\"s\" d=\"M130 240 C130 165 170 130 210 130 C250 130 260 180 260 240\"/><ellipse class=\"s\" cx=\"190\" cy=\"190\" rx=\"40\" ry=\"25\"/><path class=\"s2\" d=\"M330 240 L345 295\"/><text class=\"t\" x=\"215\" y=\"55\">300</text><text class=\"t\" x=\"210\" y=\"90\">310</text><text class=\"t\" x=\"205\" y=\"125\">320</text><text class=\"t\" x=\"178\" y=\"194\">330</text>",
+     "opis": "Wzgórze na mapie poziomicowej, cięcie 10 m, kolory warstw wysokości.",
+     "uwaga": "Gęste poziomice = stromo, rzadkie = łagodnie. Zamknięte poziomice o rosnących wartościach oznaczają wzniesienie, o malejących — zagłębienie.",
+     "svg": "<rect class=\"gt\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gp ol\" d=\"M45 230 C35 120 130 38 240 42 C345 48 380 140 365 222 C350 282 110 292 45 230 Z\"/><path class=\"gl ol\" d=\"M70 214 C62 128 140 72 232 76 C318 80 342 150 330 205 C316 252 125 262 70 214 Z\"/><path class=\"gl2 ol\" d=\"M88 200 C82 140 148 104 222 108 C290 112 305 162 294 194 C282 226 140 236 88 200 Z\"/><path class=\"gs ol\" d=\"M106 186 C102 150 155 132 208 136 C252 139 264 168 256 186 C246 206 132 214 106 186 Z\"/><path class=\"cold\" d=\"M352 258 Q362 272 372 284 T392 300\" style=\"stroke-width:2.6\"/><path class=\"d\" d=\"M176 168 l5 -9 l5 9 Z\"/><text class=\"tb\" x=\"181\" y=\"182\" text-anchor=\"middle\">334,5</text><text class=\"ts\" x=\"200\" y=\"281\" text-anchor=\"middle\">300</text><text class=\"ts\" x=\"200\" y=\"251\" text-anchor=\"middle\">310</text><text class=\"ts\" x=\"200\" y=\"228\" text-anchor=\"middle\">320</text><text class=\"ts\" x=\"200\" y=\"209\" text-anchor=\"middle\">330</text><path class=\"dash\" d=\"M20 165 H385\"/><text class=\"tb\" x=\"12\" y=\"169\">A</text><text class=\"tb\" x=\"388\" y=\"169\">B</text><path class=\"s\" d=\"M20 285 H120 M20 280 V290 M70 282 V288 M120 280 V290\"/><text class=\"ts\" x=\"20\" y=\"277\">0</text><text class=\"ts\" x=\"62\" y=\"277\">250</text><text class=\"ts\" x=\"108\" y=\"277\">500 m</text><path class=\"d\" d=\"M375 16 L381 34 L375 30 L369 34 Z\"/><text class=\"tb\" x=\"375\" y=\"48\" text-anchor=\"middle\">N</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 190,
-       "y": 190,
-       "lx": 190,
-       "ly": 235,
+       "x": 181,
+       "y": 163,
+       "lx": 215,
+       "ly": 22,
        "n": "Szczyt",
-       "d": "Zamknięta poziomica o najwyższej wartości"
+       "d": "Punkt wysokościowy 334,5 m wewnątrz najwyższej poziomicy"
       },
       {
-       "x": 115,
-       "y": 200,
-       "lx": 60,
-       "ly": 200,
+       "x": 78,
+       "y": 195,
+       "lx": 90,
+       "ly": 25,
        "n": "Stok stromy",
-       "d": "Poziomice gęsto — duża różnica wysokości na małej odległości"
+       "d": "Po stronie zachodniej poziomice leżą gęsto — duży spadek"
       },
       {
        "x": 320,
-       "y": 170,
-       "lx": 375,
-       "ly": 160,
+       "y": 120,
+       "lx": 300,
+       "ly": 100,
        "n": "Stok łagodny",
-       "d": "Poziomice rzadko"
+       "d": "Po stronie wschodniej poziomice są rozsunięte"
       },
       {
-       "x": 338,
-       "y": 268,
-       "lx": 375,
-       "ly": 280,
+       "x": 366,
+       "y": 276,
+       "lx": 345,
+       "ly": 240,
        "n": "Ciek",
-       "d": "Woda spływa prostopadle do poziomic, od wyższych ku niższym"
+       "d": "Spływa od wyższych poziomic ku niższym, prostopadle do nich"
+      },
+      {
+       "x": 300,
+       "y": 165,
+       "lx": 285,
+       "ly": 135,
+       "n": "Linia profilu A–B",
+       "d": "Wzdłuż niej wykreśla się przekrój terenu"
       }
      ]
     },
@@ -1264,42 +1272,42 @@
      "id": "s8cfda7aa",
      "typ": "rysunek",
      "tytul": "Profil terenu z mapy",
-     "opis": "Przekrój terenu wykreślony z punktów przecięcia linii z poziomicami.",
-     "uwaga": "Na osi poziomej odległość według skali mapy, na pionowej — wysokość. Podaj przewyższenie, jeśli skale są różne.",
-     "svg": "<path class=\"s\" d=\"M30 250 H370\"/><path class=\"s\" d=\"M30 250 V40\"/><path class=\"f\" d=\"M30 250 L30 200 L90 170 L150 110 L190 90 L230 130 L280 150 L330 190 L370 210 L370 250 Z\"/><path class=\"dash\" d=\"M190 90 L190 250\"/><text class=\"t\" x=\"10\" y=\"205\">200</text><text class=\"t\" x=\"10\" y=\"95\">300</text><text class=\"t\" x=\"180\" y=\"268\">km</text>",
+     "opis": "Przekrój wzdłuż linii A–B z mapy poziomicowej (dane autorskie).",
+     "uwaga": "Oś pozioma — odległość według skali mapy, pionowa — wysokość. Przewyższenie = skala pionowa / skala pozioma; bez niego profil byłby niemal płaski.",
+     "svg": "<rect class=\"gn\" x=\"60\" y=\"20\" width=\"310\" height=\"230\"/><path class=\"dash\" d=\"M60 250 H370\"/><text class=\"ts\" x=\"55\" y=\"253\" text-anchor=\"end\">280</text><path class=\"dash\" d=\"M60 186 H370\"/><text class=\"ts\" x=\"55\" y=\"189\" text-anchor=\"end\">300</text><path class=\"dash\" d=\"M60 122 H370\"/><text class=\"ts\" x=\"55\" y=\"125\" text-anchor=\"end\">320</text><path class=\"dash\" d=\"M60 58 H370\"/><text class=\"ts\" x=\"55\" y=\"61\" text-anchor=\"end\">340</text><path class=\"s\" d=\"M60 250 V255\"/><text class=\"ts\" x=\"60\" y=\"266\" text-anchor=\"middle\">0</text><path class=\"s\" d=\"M138 250 V255\"/><text class=\"ts\" x=\"138\" y=\"266\" text-anchor=\"middle\">0.5</text><path class=\"s\" d=\"M215 250 V255\"/><text class=\"ts\" x=\"215\" y=\"266\" text-anchor=\"middle\">1</text><path class=\"s\" d=\"M292 250 V255\"/><text class=\"ts\" x=\"292\" y=\"266\" text-anchor=\"middle\">1.5</text><path class=\"s\" d=\"M370 250 V255\"/><text class=\"ts\" x=\"370\" y=\"266\" text-anchor=\"middle\">2</text><polygon class=\"gl2\" points=\"60,250 60.0,198.8 83.2,176.4 106.5,144.4 125.1,112.4 145.2,86.8 168.5,75.6 191.8,83.6 222.8,106.0 261.5,134.8 308.0,170.0 346.8,192.4 370.0,202.0 370.0,250\"/><polygon class=\"gl\" points=\"60,250 60.0,206.8 83.2,184.4 106.5,152.4 125.1,120.4 145.2,94.8 168.5,83.6 191.8,91.6 222.8,114.0 261.5,142.8 308.0,178.0 346.8,200.4 370.0,210.0 370.0,250\"/><polyline class=\"s\" style=\"stroke-width:2.2\" fill=\"none\" points=\"60.0,198.8 83.2,176.4 106.5,144.4 125.1,112.4 145.2,86.8 168.5,75.6 191.8,83.6 222.8,106.0 261.5,134.8 308.0,170.0 346.8,192.4 370.0,202.0\"/><path class=\"s\" d=\"M60 20 V250 H370\"/><path class=\"dash\" d=\"M168.5 75.6 V250\"/><text class=\"ts\" x=\"8\" y=\"14\">m n.p.m.</text><text class=\"ts\" x=\"370\" y=\"282\" text-anchor=\"end\">odległość [km]</text><text class=\"tb\" x=\"60\" y=\"15\" text-anchor=\"middle\">A</text><text class=\"tb\" x=\"370\" y=\"15\" text-anchor=\"middle\">B</text><text class=\"ts\" x=\"215\" y=\"292\" text-anchor=\"middle\">skala pozioma 1:25 000, pionowa 1:2 500 — przewyższenie ×10</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 190,
-       "y": 90,
-       "lx": 210,
-       "ly": 70,
+       "x": 168.5,
+       "y": 75.6,
+       "lx": 230,
+       "ly": 45,
        "n": "Kulminacja",
-       "d": "Najwyższy punkt na linii profilu"
+       "d": "334,5 m — 0,7 km od punktu A"
       },
       {
-       "x": 110,
-       "y": 150,
-       "lx": 80,
-       "ly": 125,
+       "x": 114.25,
+       "y": 131.6,
+       "lx": 120,
+       "ly": 120,
        "n": "Stok zachodni",
-       "d": "Bardziej stromy — szybki przyrost wysokości"
+       "d": "Stromszy: ok. 38 m na 0,7 km"
       },
       {
-       "x": 300,
-       "y": 170,
-       "lx": 320,
-       "ly": 150,
+       "x": 277.0,
+       "y": 147.6,
+       "lx": 300,
+       "ly": 120,
        "n": "Stok wschodni",
-       "d": "Łagodniejszy"
+       "d": "Łagodniejszy: ok. 40 m na 1,3 km"
       },
       {
-       "x": 30,
-       "y": 150,
-       "lx": 50,
-       "ly": 50,
-       "n": "Skala pionowa",
-       "d": "Zwykle przewyższona, by uwidocznić rzeźbę"
+       "x": 370,
+       "y": 202.0,
+       "lx": 340,
+       "ly": 200,
+       "n": "Punkt B",
+       "d": "295 m n.p.m."
       }
      ]
     }

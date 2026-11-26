@@ -539,58 +539,66 @@
      "id": "s095ef939",
      "typ": "rysunek",
      "tytul": "Przekrój stratowulkanu",
-     "opis": "Budowa wulkanu warstwowego.",
-     "uwaga": "Stratowulkany powstają głównie w strefach subdukcji (lawa lepka, erupcje wybuchowe).",
-     "svg": "<path class=\"f\" d=\"M30 270 L170 70 L230 70 L370 270 Z\"/><path class=\"s2\" d=\"M200 270 L200 70\"/><ellipse class=\"f2\" cx=\"200\" cy=\"280\" rx=\"60\" ry=\"14\"/><path class=\"s\" d=\"M60 230 L340 230 M90 190 L310 190 M120 150 L280 150 M150 110 L250 110\"/><path class=\"s\" d=\"M200 140 L270 175\"/><path class=\"dash\" d=\"M190 60 C170 30 210 20 200 5\"/>",
+     "opis": "Budowa wulkanu warstwowego (stratowulkanu).",
+     "uwaga": "Stratowulkany powstają głównie w strefach subdukcji: lawa jest lepka, a erupcje wybuchowe (np. Etna, Fudżi, Wezuwiusz).",
+     "svg": "<defs><clipPath id=\"g1st\"><path d=\"M15 250 L125 72 L165 72 L275 250 Z\"/></clipPath></defs><rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"250\"/><g clip-path=\"url(#g1st)\"><path class=\"gm2\" style=\"stroke:none\" d=\"M0 250 Q145 170 290 250 V268 Q145 188 0 268 Z\"/><path class=\"gs\" style=\"stroke:none\" d=\"M0 232 Q145 152 290 232 V250 Q145 170 0 250 Z\"/><path class=\"gm2\" style=\"stroke:none\" d=\"M0 214 Q145 134 290 214 V232 Q145 152 0 232 Z\"/><path class=\"gs\" style=\"stroke:none\" d=\"M0 196 Q145 116 290 196 V214 Q145 134 0 214 Z\"/><path class=\"gm2\" style=\"stroke:none\" d=\"M0 178 Q145 98 290 178 V196 Q145 116 0 196 Z\"/><path class=\"gs\" style=\"stroke:none\" d=\"M0 160 Q145 80 290 160 V178 Q145 98 0 178 Z\"/><path class=\"gm2\" style=\"stroke:none\" d=\"M0 142 Q145 62 290 142 V160 Q145 80 0 160 Z\"/><path class=\"gs\" style=\"stroke:none\" d=\"M0 124 Q145 44 290 124 V142 Q145 62 0 142 Z\"/><path class=\"gm2\" style=\"stroke:none\" d=\"M0 106 Q145 26 290 106 V124 Q145 44 0 124 Z\"/><path class=\"gs\" style=\"stroke:none\" d=\"M0 88 Q145 8 290 88 V106 Q145 26 0 106 Z\"/><path class=\"gm2\" style=\"stroke:none\" d=\"M0 70 Q145 -10 290 70 V88 Q145 8 0 88 Z\"/><path class=\"gs\" style=\"stroke:none\" d=\"M0 52 Q145 -28 290 52 V70 Q145 -10 0 70 Z\"/></g><path class=\"s\" d=\"M15 250 L125 72 L165 72 L275 250\"/><rect class=\"gs2\" x=\"0\" y=\"250\" width=\"400\" height=\"50\"/><ellipse class=\"gm\" cx=\"145\" cy=\"282\" rx=\"75\" ry=\"15\"/><path class=\"gm\" d=\"M139 270 L141 74 L149 74 L151 270 Z\"/><path class=\"gm\" d=\"M146 160 L189 114 L194 119 L150 168 Z\"/><path class=\"gs2 ol\" d=\"M182 124 L192 106 L202 124 Z\"/><path class=\"gm\" d=\"M189 108 L192 104 L195 108 Z\"/><path class=\"gm\" d=\"M126 74 L84 140 L91 142 L131 77 Z\"/><g transform=\"translate(-55 0)\"><path class=\"gk\" d=\"M175 70 C150 70 140 52 158 44 C150 22 180 10 196 22 C205 2 240 6 240 26 C262 20 275 42 258 54 C270 70 245 78 230 70 Z\" opacity=\"0.95\"/></g><circle class=\"d\" cx=\"95\" cy=\"90\" r=\"2\"/><circle class=\"d\" cx=\"205\" cy=\"85\" r=\"2\"/><circle class=\"d\" cx=\"85\" cy=\"60\" r=\"2\"/><circle class=\"d\" cx=\"215\" cy=\"64\" r=\"2\"/><circle class=\"d\" cx=\"115\" cy=\"48\" r=\"2\"/><text class=\"ts\" x=\"8\" y=\"296\">skorupa ziemska</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 200,
-       "y": 280,
-       "lx": 280,
-       "ly": 290,
-       "n": "Komora magmowa",
-       "d": "Zbiornik magmy pod wulkanem"
+       "x": 150,
+       "y": 35,
+       "lx": 285,
+       "ly": 22,
+       "n": "Chmura erupcyjna",
+       "d": "Gazy, popiół i bomby wulkaniczne"
       },
       {
-       "x": 200,
-       "y": 200,
-       "lx": 160,
-       "ly": 205,
-       "n": "Komin główny",
-       "d": "Droga magmy na powierzchnię"
-      },
-      {
-       "x": 200,
-       "y": 70,
-       "lx": 240,
+       "x": 145,
+       "y": 74,
+       "lx": 285,
        "ly": 55,
        "n": "Krater",
        "d": "Otwór na szczycie stożka"
       },
       {
-       "x": 270,
-       "y": 175,
-       "lx": 300,
-       "ly": 160,
-       "n": "Komin boczny",
-       "d": "Erupcje z boku stożka (stożki pasożytnicze)"
+       "x": 192,
+       "y": 110,
+       "lx": 285,
+       "ly": 88,
+       "n": "Stożek boczny",
+       "d": "Pasożytniczy — erupcja z komina bocznego"
       },
       {
-       "x": 90,
-       "y": 190,
-       "lx": 50,
-       "ly": 175,
-       "n": "Warstwy lawy i popiołów",
-       "d": "Na przemian — stąd nazwa stratowulkan"
+       "x": 100,
+       "y": 118,
+       "lx": 285,
+       "ly": 121,
+       "n": "Potok lawy",
+       "d": "Lepka lawa andezytowa spływa na krótkim odcinku"
       },
       {
-       "x": 200,
-       "y": 25,
-       "lx": 240,
-       "ly": 20,
-       "n": "Chmura erupcyjna",
-       "d": "Gazy i materiał piroklastyczny"
+       "x": 230,
+       "y": 205,
+       "lx": 285,
+       "ly": 154,
+       "n": "Lawa i popiół",
+       "d": "Warstwy na przemian — stąd nazwa wulkanu warstwowego"
+      },
+      {
+       "x": 145,
+       "y": 215,
+       "lx": 285,
+       "ly": 200,
+       "n": "Komin główny",
+       "d": "Droga magmy na powierzchnię"
+      },
+      {
+       "x": 190,
+       "y": 282,
+       "lx": 285,
+       "ly": 268,
+       "n": "Komora magmowa",
+       "d": "Zbiornik magmy w skorupie pod wulkanem"
       }
      ]
     },

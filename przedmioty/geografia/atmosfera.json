@@ -386,7 +386,7 @@
      "tytul": "Fen — przekrój przez góry",
      "opis": "Mechanizm wiatru fenowego z obliczeniem temperatur (przykład autorski).",
      "uwaga": "Algorytm: 1) wznoszenie do poziomu kondensacji 1°C/100 m, 2) dalej 0,6°C/100 m do grzbietu, 3) opadanie 1°C/100 m. Wynik zawsze sprawdzaj: po zawietrznej musi być cieplej.",
-     "svg": "<rect class=\"gn\" x=\"40\" y=\"10\" width=\"355\" height=\"262\"/><path class=\"s\" d=\"M40 272 V14\"/><path class=\"s2\" d=\"M36 272 H40\"/><text class=\"ts\" x=\"33\" y=\"275\" text-anchor=\"end\">0</text><path class=\"s2\" d=\"M36 222 H40\"/><text class=\"ts\" x=\"33\" y=\"225\" text-anchor=\"end\">500</text><path class=\"s2\" d=\"M36 172 H40\"/><text class=\"ts\" x=\"33\" y=\"175\" text-anchor=\"end\">1000</text><path class=\"s2\" d=\"M36 122 H40\"/><text class=\"ts\" x=\"33\" y=\"125\" text-anchor=\"end\">1500</text><path class=\"s2\" d=\"M36 72 H40\"/><text class=\"ts\" x=\"33\" y=\"75\" text-anchor=\"end\">2000</text><text class=\"ts\" x=\"8\" y=\"12\">m n.p.m.</text><path class=\"dash\" d=\"M40 152 H395\"/><text class=\"ts\" x=\"44\" y=\"164\">poziom kondensacji 1200 m</text><path class=\"gs2\" d=\"M40 272 L40 205 L95 188 L150 120 L190 70 L215 52 L240 75 L285 140 L330 180 L395 190 L395 272 Z\"/><path class=\"gs\" d=\"M40 272 L40 212 L100 195 L155 128 L196 76 L215 58 L236 80 L280 148 L330 188 L395 197 L395 272 Z\"/><path style=\"fill:#fff\" d=\"M196 76 L215 58 L236 80 L226 84 L215 76 L205 86 Z\" opacity=\"0.9\"/><path class=\"gf2\" d=\"M40 272 L40 212 L100 195 L130 160 L140 170 L110 205 L40 228 Z\" opacity=\"0.8\"/><path class=\"gf2\" d=\"M395 272 L395 197 L330 188 L300 165 L292 178 L330 200 L395 215 Z\" opacity=\"0.8\"/><path class=\"f\" d=\"M118 150 q-14 0 -14 -12 q0 -12 14 -12 q4 -14 20 -12 q10 -12 24 -2 q16 0 16 13 q0 13 -16 13 Z\"/><path class=\"f\" d=\"M150 112 q-12 0 -12 -10 q0 -10 12 -10 q4 -12 18 -10 q10 -9 20 0 q12 1 12 11 q0 9 -12 9 Z\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M112 154 l-4 12\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M124 156 l-4 12\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M136 154 l-4 12\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M148 156 l-4 12\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M160 154 l-4 12\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M158 116 l-4 12\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M170 118 l-4 12\"/><path class=\"cold\" d=\"M48 228 L104 208\"/><path class=\"cold\" d=\"M104 208 L150 150 L198 64\" style=\"stroke-dasharray:6 3\"/><path class=\"hot\" d=\"M232 64 L285 140 L345 198 L378 205\"/><path class=\"hotf\" d=\"M378 205 l-10 -7 l1 11 Z\"/><path class=\"s2\" d=\"M198 64 Q215 40 232 64\"/><rect class=\"f\" x=\"46\" y=\"234\" width=\"88\" height=\"18\" rx=\"4\"/><text class=\"tb\" x=\"90\" y=\"247\" text-anchor=\"middle\">700 m · 10°C</text><rect class=\"f\" x=\"170\" y=\"20\" width=\"90\" height=\"18\" rx=\"4\"/><text class=\"tb\" x=\"215\" y=\"33\" text-anchor=\"middle\">2200 m · −1°C</text><rect class=\"f\" x=\"300\" y=\"222\" width=\"90\" height=\"18\" rx=\"4\"/><text class=\"tb\" x=\"345\" y=\"235\" text-anchor=\"middle\">850 m · 12,5°C</text><path class=\"f\" d=\"M352 197 h10 v-8 l5 -5 l5 5 v8 h8 v-6 l4 -4 l4 4 v6 Z\"/><text class=\"ts\" x=\"70\" y=\"290\" text-anchor=\"middle\">strona dowietrzna</text><text class=\"ts\" x=\"345\" y=\"290\" text-anchor=\"middle\">strona zawietrzna</text>",
+     "svg": "<rect class=\"gn\" x=\"40\" y=\"10\" width=\"355\" height=\"262\"/><path class=\"s\" d=\"M40 272 V14\"/><path class=\"s2\" d=\"M36 272 H40\"/><text class=\"ts\" x=\"33\" y=\"275\" text-anchor=\"end\">0</text><path class=\"s2\" d=\"M36 222 H40\"/><text class=\"ts\" x=\"33\" y=\"225\" text-anchor=\"end\">500</text><path class=\"s2\" d=\"M36 172 H40\"/><text class=\"ts\" x=\"33\" y=\"175\" text-anchor=\"end\">1000</text><path class=\"s2\" d=\"M36 122 H40\"/><text class=\"ts\" x=\"33\" y=\"125\" text-anchor=\"end\">1500</text><path class=\"s2\" d=\"M36 72 H40\"/><text class=\"ts\" x=\"33\" y=\"75\" text-anchor=\"end\">2000</text><text class=\"ts\" x=\"8\" y=\"12\">m n.p.m.</text><path class=\"dash\" d=\"M40 152 H395\"/><text class=\"ts\" x=\"44\" y=\"164\">poziom kondensacji 1200 m</text><path class=\"gs2\" d=\"M40 272 L40 205 L95 188 L150 120 L190 70 L215 52 L240 75 L285 140 L330 180 L395 190 L395 272 Z\"/><path class=\"gs\" d=\"M40 272 L40 212 L100 195 L155 128 L196 76 L215 58 L236 80 L280 148 L330 188 L395 197 L395 272 Z\"/><path style=\"fill:#fff\" d=\"M196 76 L215 58 L236 80 L226 84 L215 76 L205 86 Z\" opacity=\"0.9\"/><path class=\"gf2\" d=\"M40 272 L40 212 L100 195 L130 160 L140 170 L110 205 L40 228 Z\" opacity=\"0.8\"/><path class=\"gf2\" d=\"M395 272 L395 197 L330 188 L300 165 L292 178 L330 200 L395 215 Z\" opacity=\"0.8\"/><path class=\"gk\" d=\"M118 150 q-14 0 -14 -12 q0 -12 14 -12 q4 -14 20 -12 q10 -12 24 -2 q16 0 16 13 q0 13 -16 13 Z\"/><path class=\"gk\" d=\"M150 112 q-12 0 -12 -10 q0 -10 12 -10 q4 -12 18 -10 q10 -9 20 0 q12 1 12 11 q0 9 -12 9 Z\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M112 154 l-4 12\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M124 156 l-4 12\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M136 154 l-4 12\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M148 156 l-4 12\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M160 154 l-4 12\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M158 116 l-4 12\"/><path class=\"cold\" style=\"stroke-width:1.2\" d=\"M170 118 l-4 12\"/><path class=\"cold\" d=\"M48 228 L104 208\"/><path class=\"cold\" d=\"M104 208 L150 150 L198 64\" style=\"stroke-dasharray:6 3\"/><path class=\"hot\" d=\"M232 64 L285 140 L345 198 L378 205\"/><path class=\"hotf\" d=\"M378 205 l-10 -7 l1 11 Z\"/><path class=\"s2\" d=\"M198 64 Q215 40 232 64\"/><rect class=\"f\" x=\"46\" y=\"234\" width=\"88\" height=\"18\" rx=\"4\"/><text class=\"tb\" x=\"90\" y=\"247\" text-anchor=\"middle\">700 m · 10°C</text><rect class=\"f\" x=\"170\" y=\"20\" width=\"90\" height=\"18\" rx=\"4\"/><text class=\"tb\" x=\"215\" y=\"33\" text-anchor=\"middle\">2200 m · −1°C</text><rect class=\"f\" x=\"300\" y=\"222\" width=\"90\" height=\"18\" rx=\"4\"/><text class=\"tb\" x=\"345\" y=\"235\" text-anchor=\"middle\">850 m · 12,5°C</text><path class=\"f\" d=\"M352 197 h10 v-8 l5 -5 l5 5 v8 h8 v-6 l4 -4 l4 4 v6 Z\"/><text class=\"ts\" x=\"70\" y=\"290\" text-anchor=\"middle\">strona dowietrzna</text><text class=\"ts\" x=\"345\" y=\"290\" text-anchor=\"middle\">strona zawietrzna</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
@@ -914,58 +914,50 @@
      "id": "se2662b57",
      "typ": "rysunek",
      "tytul": "Cyrkulacja atmosferyczna",
-     "opis": "Uproszczony układ stref ciśnienia i stałych wiatrów.",
-     "uwaga": "Na półkuli N wiatry odchylają się w prawo, na S w lewo (siła Coriolisa).",
-     "svg": "<path class=\"s\" d=\"M60 20 H340 M60 280 H340\"/><path class=\"s2\" d=\"M60 150 H340\"/><path class=\"dash\" d=\"M60 95 H340 M60 205 H340 M60 50 H340 M60 250 H340\"/><path class=\"s\" d=\"M150 100 L130 140\"/><path class=\"s\" d=\"M260 100 L240 140\"/><path class=\"s\" d=\"M150 200 L130 160\"/><path class=\"s\" d=\"M260 200 L240 160\"/><path class=\"s\" d=\"M130 90 L170 60\"/><path class=\"s\" d=\"M240 90 L280 60\"/><text class=\"t\" x=\"20\" y=\"155\">0°</text><text class=\"t\" x=\"15\" y=\"100\">30°N</text><text class=\"t\" x=\"15\" y=\"55\">60°N</text><text class=\"t\" x=\"15\" y=\"210\">30°S</text>",
+     "opis": "Układ stref ciśnienia i stałych wiatrów na Ziemi.",
+     "uwaga": "Na półkuli N wiatry odchylają się w prawo, na S w lewo (siła Coriolisa). W wyżu zwrotnikowym opadające suche powietrze tworzy pustynie.",
+     "svg": "<circle class=\"gw\" cx=\"150\" cy=\"150\" r=\"118\"/><path class=\"dash\" d=\"M91.0 47.8 H209.0\"/><path class=\"dash\" d=\"M47.8 91.0 H252.2\"/><path class=\"s\" d=\"M32.0 150.0 H268.0\"/><path class=\"dash\" d=\"M47.8 209.0 H252.2\"/><path class=\"dash\" d=\"M91.0 252.2 H209.0\"/><circle class=\"s\" cx=\"150\" cy=\"150\" r=\"118\"/><path class=\"cold\" d=\"M113.0 114.5 L97.0 124.5\"/><path class=\"coldf\" d=\"M97.0 124.5 L100.2 119.4 L103.0 123.8 Z\"/><path class=\"cold\" d=\"M173.0 114.5 L157.0 124.5\"/><path class=\"coldf\" d=\"M157.0 124.5 L160.2 119.4 L163.0 123.8 Z\"/><path class=\"cold\" d=\"M113.0 185.5 L97.0 175.5\"/><path class=\"coldf\" d=\"M97.0 175.5 L103.0 176.2 L100.2 180.6 Z\"/><path class=\"cold\" d=\"M173.0 185.5 L157.0 175.5\"/><path class=\"coldf\" d=\"M157.0 175.5 L163.0 176.2 L160.2 180.6 Z\"/><path class=\"cold\" d=\"M97.0 70.6 L113.0 62.6\"/><path class=\"coldf\" d=\"M113.0 62.6 L109.3 67.3 L107.0 62.6 Z\"/><path class=\"cold\" d=\"M157.0 70.6 L173.0 62.6\"/><path class=\"coldf\" d=\"M173.0 62.6 L169.3 67.3 L167.0 62.6 Z\"/><path class=\"cold\" d=\"M97.0 229.4 L113.0 237.4\"/><path class=\"coldf\" d=\"M113.0 237.4 L107.0 237.4 L109.3 232.7 Z\"/><path class=\"cold\" d=\"M157.0 229.4 L173.0 237.4\"/><path class=\"coldf\" d=\"M173.0 237.4 L167.0 237.4 L169.3 232.7 Z\"/><path class=\"cold\" d=\"M146.0 33.0 L134.0 39.0\"/><path class=\"coldf\" d=\"M134.0 39.0 L137.7 34.3 L140.0 38.9 Z\"/><path class=\"cold\" d=\"M146.0 267.0 L134.0 261.0\"/><path class=\"coldf\" d=\"M134.0 261.0 L140.0 261.1 L137.7 265.7 Z\"/><text class=\"tb\" x=\"156.0\" y=\"44.0\">W</text><text class=\"tb\" x=\"215.0\" y=\"51.8\">N</text><text class=\"tb\" x=\"258.2\" y=\"95.0\">W</text><text class=\"tb\" x=\"274.0\" y=\"154.0\">N</text><text class=\"tb\" x=\"258.2\" y=\"213.0\">W</text><text class=\"tb\" x=\"215.0\" y=\"256.2\">N</text><text class=\"tb\" x=\"156.0\" y=\"266.0\">W</text><text class=\"ts\" x=\"8\" y=\"292\">W — wyż, N — niż; strzałki — kierunek wiatru przy powierzchni</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 140,
-       "y": 120,
-       "lx": 100,
-       "ly": 125,
+       "x": 135,
+       "y": 119.45935267790256,
+       "lx": 290,
+       "ly": 110,
        "n": "Pasaty NE",
-       "d": "Wieją od wyżów zwrotnikowych ku równikowi, odchylone w prawo"
+       "d": "Od wyżów zwrotnikowych ku równikowi; odchylone w prawo"
       },
       {
-       "x": 140,
-       "y": 180,
-       "lx": 100,
-       "ly": 185,
+       "x": 135,
+       "y": 180.54064732209744,
+       "lx": 290,
+       "ly": 205,
        "n": "Pasaty SE",
        "d": "Na półkuli S odchylone w lewo"
       },
       {
-       "x": 200,
+       "x": 60,
        "y": 150,
-       "lx": 200,
-       "ly": 135,
+       "lx": 70,
+       "ly": 18,
        "n": "Niż równikowy",
-       "d": "Strefa konwergencji, wznoszenie powietrza i opady"
+       "d": "Wznoszenie powietrza, chmury kłębiaste, codzienne opady"
       },
       {
-       "x": 200,
-       "y": 95,
-       "lx": 300,
-       "ly": 100,
-       "n": "Wyż zwrotnikowy",
-       "d": "Opadanie suchego powietrza — pustynie"
-      },
-      {
-       "x": 150,
-       "y": 75,
-       "lx": 120,
-       "ly": 55,
+       "x": 165,
+       "y": 66.5613998199874,
+       "lx": 290,
+       "ly": 70,
        "n": "Wiatry zachodnie",
-       "d": "Strefa umiarkowana"
+       "d": "Między wyżem zwrotnikowym a niżem subpolarnym"
       },
       {
-       "x": 200,
-       "y": 50,
-       "lx": 300,
-       "ly": 45,
-       "n": "Niż subpolarny",
-       "d": "Ok. 60°, zbieżność mas powietrza"
+       "x": 140,
+       "y": 36.020752497889944,
+       "lx": 290,
+       "ly": 30,
+       "n": "Wschodnie polarne",
+       "d": "Od wyżu polarnego"
       }
      ]
     },
@@ -1423,50 +1415,58 @@
      "id": "sdc3c5b14",
      "typ": "rysunek",
      "tytul": "Front ciepły i front chłodny",
-     "opis": "Przekroje przez fronty atmosferyczne.",
-     "uwaga": "Po przejściu frontu ciepłego — ocieplenie, po chłodnym — ochłodzenie i poprawa widzialności.",
-     "svg": "<path class=\"s\" d=\"M10 260 H390\"/><path class=\"f\" d=\"M20 260 L180 120 L180 260 Z\"/><path class=\"f2\" d=\"M220 260 C250 180 280 150 380 140 L380 260 Z\"/><path class=\"s2\" d=\"M20 258 L180 120\"/><path class=\"s2\" d=\"M220 258 C250 180 280 150 380 140\"/><path class=\"dash\" d=\"M60 110 H160 M270 80 C300 60 330 60 360 80\"/>",
+     "opis": "Przekrój przez niż z frontem chłodnym (po lewej) i ciepłym (po prawej); oba przesuwają się na wschód.",
+     "uwaga": "Front ciepły: najpierw chmury piętra wysokiego, potem długie opady, po przejściu ocieplenie. Front chłodny: gwałtowne ulewy i burze, po przejściu ochłodzenie i poprawa widzialności.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"260\"/><path class=\"gi\" style=\"stroke:none\" d=\"M0 260 L0 40 C40 80 75 170 95 260 Z\"/><path class=\"gp\" style=\"stroke:none\" opacity=\"0.55\" d=\"M95 260 C75 170 40 80 0 40 L0 0 L400 0 L400 60 C330 90 260 160 220 260 Z\"/><path class=\"gi\" style=\"stroke:none\" d=\"M220 260 C260 160 330 90 400 60 L400 260 Z\"/><path class=\"cold\" d=\"M0 40 C40 80 75 170 95 260\"/><path class=\"hot\" d=\"M220 260 C260 160 330 90 400 60\"/><path class=\"gk\" d=\"M70 205 C55 205 50 185 65 178 C60 150 85 140 98 150 C100 120 120 70 125 50 C110 44 85 46 70 40 L175 40 C160 46 140 46 135 52 C140 90 150 130 150 160 C170 160 172 185 158 195 C158 210 140 210 130 205 Z\"/><path class=\"gk\" d=\"M215 205 C205 190 225 178 245 180 C250 160 285 150 305 160 C320 140 360 135 380 150 C395 150 400 165 400 175 L400 200 C370 205 300 210 215 205 Z\"/><path class=\"s2\" d=\"M320 70 q15 -8 30 0 M340 52 q15 -8 30 0 M300 92 q14 -8 28 0\"/><path class=\"cold\" style=\"stroke-width:1.3\" d=\"M95 210 l-5 14\"/><path class=\"cold\" style=\"stroke-width:1.3\" d=\"M107 210 l-5 14\"/><path class=\"cold\" style=\"stroke-width:1.3\" d=\"M119 210 l-5 14\"/><path class=\"cold\" style=\"stroke-width:1.3\" d=\"M131 210 l-5 14\"/><path class=\"cold\" style=\"stroke-width:1.3\" d=\"M143 210 l-5 14\"/><path class=\"cold\" style=\"stroke-width:1.1\" d=\"M230 208 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.1\" d=\"M242 208 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.1\" d=\"M254 208 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.1\" d=\"M266 208 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.1\" d=\"M278 208 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.1\" d=\"M290 208 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.1\" d=\"M302 208 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.1\" d=\"M314 208 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.1\" d=\"M326 208 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.1\" d=\"M338 208 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.1\" d=\"M350 208 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.1\" d=\"M362 208 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.1\" d=\"M374 208 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.1\" d=\"M386 208 l-3 10\"/><path class=\"cold\" style=\"stroke-width:1.1\" d=\"M398 208 l-3 10\"/><rect class=\"gl\" x=\"0\" y=\"260\" width=\"400\" height=\"40\"/><path class=\"s\" d=\"M0 260 H400\"/><path class=\"coldf\" d=\"M60 260 l7 -10 l7 10 Z\"/><path class=\"coldf\" d=\"M76 260 l7 -10 l7 10 Z\"/><path class=\"hotf\" d=\"M205 260 a7 7 0 0 1 14 0 Z\"/><path class=\"hotf\" d=\"M221 260 a7 7 0 0 1 14 0 Z\"/><path class=\"s\" d=\"M20.0 280.0 L70.0 280.0\"/><path class=\"d\" d=\"M70.0 280.0 L63.7 283.0 L63.7 277.0 Z\"/><path class=\"s\" d=\"M180.0 280.0 L230.0 280.0\"/><path class=\"d\" d=\"M230.0 280.0 L223.7 283.0 L223.7 277.0 Z\"/><text class=\"ts\" x=\"75\" y=\"284\">ruch frontów</text><text class=\"tb\" x=\"18\" y=\"150\">chłodne</text><text class=\"tb\" x=\"330\" y=\"240\">chłodne</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 100,
-       "y": 195,
-       "lx": 60,
-       "ly": 230,
-       "n": "Front ciepły",
-       "d": "Ciepłe powietrze łagodnie nasuwa się na chłodne"
-      },
-      {
-       "x": 110,
-       "y": 110,
-       "lx": 110,
-       "ly": 90,
-       "n": "Chmury warstwowe",
-       "d": "Długotrwałe opady ciągłe"
-      },
-      {
-       "x": 260,
-       "y": 200,
-       "lx": 250,
-       "ly": 230,
+       "x": 34,
+       "y": 88,
+       "lx": 50,
+       "ly": 20,
        "n": "Front chłodny",
-       "d": "Chłodne powietrze wciska się pod ciepłe"
+       "d": "Chłodne powietrze wciska się klinem pod ciepłe i gwałtownie je wypiera ku górze"
       },
       {
-       "x": 315,
-       "y": 70,
+       "x": 120,
+       "y": 110,
+       "lx": 175,
+       "ly": 70,
+       "n": "Cumulonimbus",
+       "d": "Chmura burzowa z kowadłem — krótkie ulewy, burze, porywy wiatru"
+      },
+      {
+       "x": 348,
+       "y": 90,
        "lx": 330,
-       "ly": 40,
-       "n": "Chmury kłębiaste",
-       "d": "Krótkie ulewy, burze"
+       "ly": 138,
+       "n": "Front ciepły",
+       "d": "Ciepłe powietrze łagodnie wślizguje się po klinie chłodnego"
       },
       {
-       "x": 180,
-       "y": 200,
-       "lx": 200,
-       "ly": 210,
-       "n": "Powietrze ciepłe",
-       "d": "Między frontami (wycinek ciepły niżu)"
+       "x": 300,
+       "y": 190,
+       "lx": 270,
+       "ly": 235,
+       "n": "Nimbostratus",
+       "d": "Długotrwałe opady ciągłe na szerokim pasie przed frontem"
+      },
+      {
+       "x": 335,
+       "y": 62,
+       "lx": 300,
+       "ly": 30,
+       "n": "Cirrus",
+       "d": "Pierzaste chmury wysokie — zwiastun frontu ciepłego"
+      },
+      {
+       "x": 190,
+       "y": 125,
+       "lx": 205,
+       "ly": 100,
+       "n": "Wycinek ciepły",
+       "d": "Ciepła masa powietrza między frontami niżu"
       }
      ]
     },
