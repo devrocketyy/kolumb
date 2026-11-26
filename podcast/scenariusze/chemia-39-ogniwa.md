@@ -27,6 +27,10 @@ Cynk jest aktywniejszy: oddaje elektrony i przechodzi do roztworu. To anoda — 
 
 Zapis schematu: Zn, kreska, Zn²⁺, dwie kreski, Cu²⁺, kreska, Cu.
 
+Co dokładnie robi klucz elektrolityczny? Zwykle wypełnia go roztwór chlorku lub azotanu potasu. Gdy w półogniwie cynkowym przybywa jonów Zn²⁺, aniony z klucza wędrują tam, żeby zrównoważyć ładunek. Do półogniwa miedzianego, gdzie jony Cu²⁺ ubywają, wędrują kationy potasu. Bez klucza ładunki szybko by się rozdzieliły i prąd przestałby płynąć.
+
+Mini-obliczenie. Przez ogniwo przepłynęła jedna dziesiąta mola elektronów. Cynk oddaje dwa elektrony na atom, więc rozpuściło się pięć setnych mola cynku — trzy i dwadzieścia siedem setnych grama. Na katodzie osadziło się pięć setnych mola miedzi — trzy i osiemnaście setnych grama.
+
 [pytanie: anoda]
 
 Sprawdź się. Która elektroda w ogniwie Daniella jest anodą?
@@ -70,6 +74,12 @@ Każde półogniwo ma swój potencjał standardowy, mierzony względem elektrody
 Siła elektromotoryczna ogniwa to potencjał katody minus potencjał anody. Zero trzydzieści cztery minus minus zero siedemdziesiąt sześć — jeden przecinek jeden wolta.
 
 Zasada: katodą jest zawsze półogniwo o wyższym potencjale.
+
+Im większa różnica potencjałów, tym wyższe napięcie. Ogniwo magnezowo-miedziane, przy potencjale magnezu minus dwa przecinek trzydzieści siedem wolta, dałoby dwa przecinek siedemdziesiąt jeden wolta.
+
+Szereg napięciowy pozwala też przewidzieć, czy reakcja zajdzie bez prądu. Metal o niższym potencjale wypiera z roztworu jony metalu o wyższym potencjale. To ta sama zasada co przy gwoździu w siarczanie miedzi.
+
+Typowy błąd: odejmowanie potencjałów w złej kolejności i ujemna SEM. Siła elektromotoryczna działającego ogniwa zawsze jest dodatnia. Jeśli wyszła ujemna, zamieniłeś katodę z anodą.
 
 [pytanie: sem]
 

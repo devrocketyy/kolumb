@@ -23,6 +23,10 @@ Dzień dobry, tu IndexLab. Powtórka działu o reakcjach w roztworach wodnych.
 
 Dodajemy fenoloftaleinę do każdej probówki. Malinowe zabarwienie pojawi się w roztworach o odczynie zasadowym. Wodorotlenek sodu — oczywiście. Ale też węglan sodu, bo jon węglanowy ulega hydrolizie i powstają jony OH⁻.
 
+Fenoloftaleina jest bezbarwna w roztworach kwasowych i obojętnych, a malinowa powyżej pH około ośmiu. Dlatego nie odróżni kwasu solnego od chlorku sodu — w obu pozostanie bezbarwna. Uniwersalny papierek wskaźnikowy dałby więcej informacji: czerwony w kwasie, żółtozielony w roztworze obojętnym, niebieski w zasadach.
+
+Typowy błąd: zapis, że węglan sodu „jest zasadą, bo ma jony OH⁻”. Węglan sodu nie zawiera grup OH. Jony wodorotlenkowe powstają dopiero w reakcji jonu węglanowego z wodą, czyli w hydrolizie.
+
 [pytanie: fenoloftaleina]
 
 Sprawdź się. W których probówkach fenoloftaleina zabarwi się na malinowo?
@@ -51,6 +55,12 @@ CO₃²⁻ plus H₂O w równowadze z HCO₃⁻ i OH⁻.
 
 Do dwóch malinowych probówek dolewamy kwasu solnego. W jednej pojawiają się bąbelki gazu — to węglan. W drugiej gazu nie ma, tylko znika malinowy kolor — zachodzi zobojętnianie.
 
+Gdy do malinowego roztworu wodorotlenku sodu dolewamy kwas, w pewnym momencie barwa znika. To punkt zobojętnienia — na tym polega miareczkowanie.
+
+Mini-obliczenie. Ile centymetrów sześciennych kwasu solnego o stężeniu jedna dziesiąta mola na decymetr zobojętni dwadzieścia centymetrów sześciennych NaOH o tym samym stężeniu? Stosunek molowy jeden do jednego, stężenia równe, więc objętości też równe: dwadzieścia centymetrów sześciennych.
+
+A z węglanem? Do całkowitego przereagowania jeden mol węglanu potrzebuje dwóch moli HCl. Przy tych samych stężeniach zużylibyśmy dwa razy więcej kwasu.
+
 [pytanie: gaz]
 
 Sprawdź się. Która z probówek musuje po dodaniu HCl?
@@ -66,6 +76,10 @@ Ta z węglanem sodu. Wydziela się dwutlenek węgla.
 ## Krok trzeci: azotan srebra
 
 Zostały dwie probówki bez barwy: kwas solny i chlorek sodu. Azotan srebra da z obiema biały osad chlorku srebra, więc tu się nie przyda. Wystarczy fenoloftaleina z kroku pierwszego, a raczej pomiar pH: kwas solny ma pH niskie, roztwór chlorku sodu — obojętne.
+
+Jest też inna droga odróżnienia kwasu solnego od chlorku sodu: dodać kawałek cynku albo magnezu. W kwasie wydzieli się wodór, w roztworze soli nic się nie stanie. Albo dodać węglanu sodu — w kwasie pojawią się bąbelki dwutlenku węgla.
+
+Ciekawostka o osadzie chlorku srebra: na świetle powoli ciemnieje, bo rozkłada się z wydzieleniem srebra. Na tej przemianie opierała się dawna fotografia.
 
 [pytanie: ph]
 

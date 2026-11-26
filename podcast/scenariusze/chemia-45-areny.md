@@ -25,6 +25,12 @@ Benzen, C₆H₆, to płaski pierścień sześciu atomów węgla o hybrydyzacji 
 
 Dlatego wszystkie wiązania węgiel–węgiel w benzenie są jednakowe. Ich długość leży między wiązaniem pojedynczym a podwójnym.
 
+Konkretne liczby pomagają to zapamiętać. Wiązanie pojedyncze węgiel–węgiel ma długość około stu pięćdziesięciu czterech pikometrów, podwójne — około stu trzydziestu czterech. W benzenie wszystkie sześć wiązań ma po około sto trzydzieści dziewięć. Dokładnie pomiędzy.
+
+Dlatego dziś benzen rysuje się jako sześciokąt z okręgiem w środku. Okrąg to chmura zdelokalizowanych elektronów. Wzór Kekulégo z trzema kreskami podwójnymi wciąż jest dopuszczalny, ale trzeba pamiętać, że wiązania nie „przeskakują” — po prostu żaden z tych zapisów nie oddaje rzeczywistości sam.
+
+Ciekawostka praktyczna: benzen jest rakotwórczy, dlatego w laboratoriach szkolnych zastępuje się go toluenem.
+
 [pytanie: budowa]
 
 Sprawdź się. Jakie są długości wiązań C–C w benzenie?
@@ -55,6 +61,12 @@ Mimo formalnych wiązań podwójnych benzen nie odbarwia wody bromowej. Addycja 
 
 Bromowanie: benzen z bromem, w obecności katalizatora FeBr₃, daje bromobenzen i bromowodór. Nitrowanie: benzen z mieszaniną nitrującą, czyli stężonym kwasem azotowym i siarkowym, daje nitrobenzen i wodę.
 
+Rola katalizatora w bromowaniu jest kluczowa. Bromek żelaza trzy polaryzuje cząsteczkę bromu tak, że powstaje silny elektrofil — kation bromu. Dopiero on potrafi zaatakować trwały pierścień. Dlatego to substytucja elektrofilowa.
+
+W nitrowaniu stężony kwas siarkowy pomaga wytworzyć z kwasu azotowego kation nitroniowy, NO₂⁺. To on jest elektrofilem.
+
+Mini-obliczenie. Ile gramów bromobenzenu otrzymasz z siedmiu i ośmiu dziesiątych grama benzenu przy wydajności stu procent? Masa molowa benzenu to siedemdziesiąt osiem — mamy jedną dziesiątą mola. Bromobenzen, C₆H₅Br, ma masę molową sto pięćdziesiąt siedem. Wychodzi piętnaście i siedem dziesiątych grama.
+
 [pytanie: bromowanie]
 
 Sprawdź się. Jakie produkty daje bromowanie benzenu z FeBr₃?
@@ -84,6 +96,10 @@ Nie. Nie ulega addycji, bo zniszczyłaby trwały układ aromatyczny.
 Toluen to metylobenzen. Grupa metylowa ułatwia substytucję i kieruje nowe podstawniki w położenia orto i para.
 
 Inną różnicą jest łańcuch boczny: manganian potasu utlenia go do grupy karboksylowej. Z toluenu powstaje kwas benzoesowy. Sam benzen manganianem się nie utlenia.
+
+Uważaj na warunki reakcji toluenu z chlorem, bo decydują o produkcie. Z katalizatorem, na przykład chlorkiem żelaza trzy, chlor podstawia wodór w pierścieniu — w położeniach orto i para. W świetle, bez katalizatora, zachodzi substytucja rodnikowa w grupie metylowej, jak w alkanach.
+
+To jeden z ulubionych tematów maturalnych: ten sam substrat, inny warunek, inny produkt. W odpowiedzi zawsze zapisuj warunki nad strzałką.
 
 [pytanie: toluen]
 
