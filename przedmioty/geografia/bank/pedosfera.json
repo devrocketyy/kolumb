@@ -92,6 +92,87 @@
    "dzial": "pedosfera"
   },
   {
+   "tytul": "Rozpoznaj glebę",
+   "material": "Tekst autorski. Profil glebowy: bardzo gruby (ok. 1 m) ciemny poziom próchniczny A na lessie; brak poziomu wymywania. Gleba powstała pod roślinnością trawiastą.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj typ gleby.",
+     "odpowiedz": "czarnoziem",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Step, less.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj strefę klimatyczno-roślinną, w której ta gleba dominuje.",
+     "odpowiedz": "stepy strefy umiarkowanej (klimat kontynentalny)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ukraina, Rosja.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-pedosfera-04",
+   "dzial": "pedosfera"
+  },
+  {
+   "tytul": "Klimat tundry",
+   "material": "Tekst autorski. Stacja X: lipiec 8°C, styczeń −28°C, opady ok. 250 mm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy w otoczeniu stacji może rosnąć las. Uzasadnij.",
+     "odpowiedz": "Nie — średnia temperatura najcieplejszego miesiąca jest niższa niż 10°C (granica lasu).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Granica 10°C.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę formacji roślinnej wokół stacji.",
+     "odpowiedz": "tundra",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Klimat subpolarny.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-pedosfera-05",
+   "dzial": "pedosfera"
+  },
+  {
+   "tytul": "Temperatura w Andach",
+   "material": "Tekst autorski. Na wybrzeżu Ekwadoru temperatura wynosi 27°C. Przyjmij spadek 0,6°C/100 m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz temperaturę w Quito (ok. 2600 m n.p.m.).",
+     "odpowiedz": "ok. 11,4°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2600 × 0,006 = 15,6; 27 − 15,6.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę piętra klimatycznego, w którym leży Quito.",
+     "odpowiedz": "tierra fría",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ok. 2000–3500 m.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-pedosfera-06",
+   "dzial": "pedosfera"
+  },
+  {
    "tytul": "Gleba stepowa",
    "material": "Tekst autorski. Profil glebowy: poziom próchniczny A ciemny, o miąższości ok. 1 m, na lessie. Klimat: opady ok. 450 mm, ciepłe lato, mroźna zima. Roślinność naturalna — trawy.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -115,7 +196,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-pedosfera-04",
+   "id": "b-pedosfera-07",
    "dzial": "pedosfera"
   },
   {
@@ -142,7 +223,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-pedosfera-05",
+   "id": "b-pedosfera-08",
    "dzial": "pedosfera"
   }
  ]

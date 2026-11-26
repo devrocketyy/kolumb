@@ -758,6 +758,51 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Imigracja do Niemiec",
+   "material": "Tekst autorski. Do Niemiec (84 mln mieszkańców) napłynęło w roku 1,5 mln osób, a wyjechało 1,2 mln.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz saldo migracji i jego współczynnik. Wynik zaokrąglij do 0,1‰.",
+     "odpowiedz": "+300 tys.; ok. +3,6‰",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "300 000 / 84 000 000 × 1000.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa czynniki przyciągające imigrantów do Niemiec.",
+     "odpowiedz": "Wysokie płace i dostęp do pracy, niedobór pracowników, stabilność i bezpieczeństwo, rozwinięty system socjalny, obecność diaspor.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-31",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Megamiasto Tokio",
+   "material": "Tekst autorski. Zespół miejski Tokio liczy ok. 37 mln mieszkańców, a Japonia ok. 124 mln.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaki odsetek ludności Japonii mieszka w zespole miejskim Tokio. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 30%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "37 / 124 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-32",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Miasto i strefa podmiejska",
    "material": "Tekst autorski. Liczba ludności miasta X w latach 1990 i 2020: centrum 400 tys. → 300 tys.; strefa podmiejska 100 tys. → 200 tys.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -790,7 +835,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-31",
+   "id": "b-ludnosc-33",
    "dzial": "ludnosc"
   },
   {
@@ -826,7 +871,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-32",
+   "id": "b-ludnosc-34",
    "dzial": "ludnosc"
   },
   {
@@ -853,7 +898,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-33",
+   "id": "b-ludnosc-35",
    "dzial": "ludnosc"
   },
   {
@@ -889,7 +934,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-34",
+   "id": "b-ludnosc-36",
    "dzial": "ludnosc"
   },
   {
@@ -916,7 +961,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-35",
+   "id": "b-ludnosc-37",
    "dzial": "ludnosc"
   },
   {
@@ -952,7 +997,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-36",
+   "id": "b-ludnosc-38",
    "dzial": "ludnosc"
   }
  ]

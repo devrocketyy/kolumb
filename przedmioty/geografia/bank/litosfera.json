@@ -165,6 +165,105 @@
   },
   {
    "tytul": "Profil geologiczny",
+   "material": "Tekst autorski. W odsłonięciu od dołu występują: łupki permskie, piaskowce triasowe, wapienie jurajskie. Warstwy leżą poziomo i nie są zaburzone.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę najmłodszej warstwy i uzasadnij na podstawie zasady superpozycji.",
+     "odpowiedz": "wapienie jurajskie — w niezaburzonym układzie warstwa wyżej leżąca jest młodsza",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Superpozycja.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę ery, w której powstały wszystkie wymienione skały poza łupkami.",
+     "odpowiedz": "mezozoik (trias, jura)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Perm — paleozoik.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-litosfera-07",
+   "dzial": "litosfera"
+  },
+  {
+   "tytul": "Rozsuwanie się płyt",
+   "material": "Tekst autorski. Płyty litosfery oddalają się od siebie średnio o 5 cm na rok.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, o ile kilometrów oddalą się w ciągu 20 mln lat.",
+     "odpowiedz": "1000 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "5 cm × 20 000 000 = 100 000 000 cm.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-litosfera-08",
+   "dzial": "litosfera"
+  },
+  {
+   "tytul": "Rosnące Himalaje",
+   "material": "Tekst autorski. Himalaje wypiętrzają się o ok. 5 mm na rok.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wypiętrzenie w ciągu 1 mln lat (bez uwzględnienia erozji).",
+     "odpowiedz": "5 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "5 mm × 1 000 000.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij przyczynę wypiętrzania Himalajów.",
+     "odpowiedz": "Kolizja płyty indyjskiej z eurazjatycką — kontynentalne płyty zderzają się i fałdują (orogeneza alpejska trwa).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kolizja płyt.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-litosfera-09",
+   "dzial": "litosfera"
+  },
+  {
+   "tytul": "Gdzie wietrzenie mrozowe?",
+   "material": "Tekst autorski. Porównaj trzy miejsca: Tatry (2000 m n.p.m.), Amazonia i wnętrze Sahary.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, gdzie wietrzenie mrozowe jest najsilniejsze. Uzasadnij.",
+     "odpowiedz": "W Tatrach — temperatura często przechodzi przez 0°C, a woda zamarza w szczelinach i rozsadza skały.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zamróz.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj rodzaj wietrzenia dominujący w Amazonii.",
+     "odpowiedz": "chemiczne (wysoka temperatura i wilgotność)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Klimat równikowy.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-litosfera-10",
+   "dzial": "litosfera"
+  },
+  {
+   "tytul": "Profil geologiczny",
    "material": "Tekst autorski. W odsłonięciu od dołu występują: piaskowce i łupki z wkładkami węgla (karbon), wapienie z amonitami (jura), glina z głazami narzutowymi (czwartorzęd). Warstwy nie są zaburzone.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
    "zadania": [
@@ -196,7 +295,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-litosfera-07",
+   "id": "b-litosfera-11",
    "dzial": "litosfera"
   },
   {
@@ -223,7 +322,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-litosfera-08",
+   "id": "b-litosfera-12",
    "dzial": "litosfera"
   },
   {
@@ -259,7 +358,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-litosfera-09",
+   "id": "b-litosfera-13",
    "dzial": "litosfera"
   },
   {
@@ -286,7 +385,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-litosfera-10",
+   "id": "b-litosfera-14",
    "dzial": "litosfera"
   },
   {
@@ -322,7 +421,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-litosfera-11",
+   "id": "b-litosfera-15",
    "dzial": "litosfera"
   }
  ]
