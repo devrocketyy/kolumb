@@ -27,6 +27,12 @@ Kwas plus zasada — zobojętnianie. Metal plus kwas — powstaje sól i wodór.
 
 Uwaga na metal z kwasem: działa tylko dla metali aktywniejszych od wodoru. Cynk z kwasem solnym — tak. Miedź z kwasem solnym — nie.
 
+Przykład z laboratorium: czarny tlenek miedzi dwa wsypany do rozcieńczonego kwasu siarkowego i ogrzany rozpuszcza się, a roztwór robi się niebieski. Powstał siarczan miedzi. To metoda „tlenek metalu plus kwas”, przydatna wtedy, gdy metal sam z kwasem nie reaguje.
+
+Sole trudno rozpuszczalne otrzymuje się metodą strąceniową. Na przykład siarczan baru: roztwór chlorku baru plus roztwór siarczanu sodu. Osad odsącza się, przemywa wodą i suszy.
+
+Typowy błąd: wybranie dwóch soli, z których żadna kombinacja nie daje osadu. Zawsze sprawdź w tablicy rozpuszczalności, czy produkt rzeczywiście się wytrąci.
+
 [pytanie: zn]
 
 Sprawdź się. Jakie produkty powstają w reakcji cynku z kwasem solnym?
@@ -68,6 +74,12 @@ Węglan sodu i woda.
 Sole bywają też wodorosolami — mają w anionie niepodstawiony wodór. Wodorowęglan sodu, czyli soda oczyszczona, NaHCO₃. Po ogrzaniu rozkłada się na węglan sodu, dwutlenek węgla i wodę. Stąd rośnie ciasto.
 
 Są też hydraty: sole z wodą krystalizacyjną. Niebieski siarczan miedzi pięciowodny, CuSO₄ razy pięć H₂O. Woda stanowi w nim około trzydziestu sześciu procent masy. Po wyprażeniu zostaje biały, bezwodny siarczan miedzi.
+
+Mini-obliczenie z hydratem. Ile gramów bezwodnego siarczanu miedzi zostanie po wyprażeniu dwóch i czterystu dziewięćdziesięciu pięciu tysięcznych grama CuSO₄ razy pięć H₂O? To jedna setna mola hydratu. Woda to pięć setnych mola, czyli dziewięć dziesiątych grama. Zostanie jeden przecinek pięćset dziewięćdziesiąt pięć tysięcznych grama białego proszku.
+
+Ta przemiana działa w obie strony. Biały, bezwodny siarczan miedzi po dodaniu kropli wody znów niebieszczeje — to prosty test na obecność wody.
+
+Wodorosole bywają kwaśne. Wodorosiarczan sodu, NaHSO₄, daje roztwór o odczynie kwasowym, bo jon HSO₄⁻ odszczepia proton. Za to wodorowęglan sodu daje odczyn słabo zasadowy. Odczyn wodorosoli trzeba więc rozważać za każdym razem osobno.
 
 [pytanie: nahco3]
 

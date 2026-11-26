@@ -25,6 +25,12 @@ Aminy to pochodne amoniaku, w którym atomy wodoru zastąpiono grupami węglowod
 
 Azot ma wolną parę elektronową, więc aminy przyjmują proton jak amoniak. Są zasadami Brønsteda. W wodzie: CH₃NH₂ plus H₂O w równowadze z CH₃NH₃⁺ i OH⁻. Z kwasem solnym tworzą sole: chlorek metyloamoniowy. To dlatego cytryna usuwa rybi zapach.
 
+Jak mocne są aminy w porównaniu z amoniakiem? Alifatyczne, jak metyloamina, są nieco mocniejsze. Grupa metylowa „dopycha” elektrony do azotu, więc wolna para chętniej przyjmuje proton.
+
+Mini-obliczenie. Ile gramów chlorowodoru zobojętni trzy i jedną dziesiątą grama metyloaminy? Masa molowa CH₃NH₂ to trzydzieści jeden — mamy jedną dziesiątą mola. Stosunek jeden do jednego, więc potrzeba jednej dziesiątej mola HCl, czyli trzech i sześćdziesięciu pięciu setnych grama.
+
+Zapach rozkładającego się mięsa pochodzi od diamin o wymownych nazwach: putrescyny i kadaweryny. Powstają przy rozkładzie białek przez bakterie.
+
 [pytanie: zasada]
 
 Sprawdź się. Jaki odczyn ma wodny roztwór metyloaminy?
@@ -55,6 +61,10 @@ Anilina to amina aromatyczna: grupa NH₂ przy pierścieniu benzenowym. Jest sł
 
 Z wodą bromową anilina daje biały osad 2,4,6-tribromoaniliny, podobnie jak fenol.
 
+Anilina jest bezbarwną cieczą, ale na powietrzu szybko brązowieje, bo łatwo się utlenia. Historycznie była surowcem do produkcji barwników — pierwsze syntetyczne barwniki w dziewiętnastym wieku powstały właśnie z aniliny.
+
+Typowy błąd: przypisywanie anilinie odczynu silnie zasadowego. Jej wodny roztwór jest tylko bardzo słabo zasadowy, a anilina słabo rozpuszcza się w wodzie. Za to łatwo rozpuszcza się w kwasie solnym, tworząc chlorek aniliniowy.
+
 [pytanie: anilina]
 
 Sprawdź się. Która zasada jest słabsza: amoniak czy anilina?
@@ -74,6 +84,12 @@ Amidy mają grupę –CONH₂. Najważniejszy amid to mocznik, CO(NH₂)₂, w k
 Ogrzewany mocznik daje biuret i amoniak. Biuret z wodorotlenkiem miedzi dwa w środowisku zasadowym daje fioletowe zabarwienie. To reakcja biuretowa — zapamiętaj ją, wróci przy białkach.
 
 Amidy ulegają hydrolizie. Mocznik z wodą, w obecności enzymu ureazy, daje dwutlenek węgla i amoniak.
+
+Amidy w przeciwieństwie do amin nie mają właściwości zasadowych. Wolna para azotu jest „wciągnięta” przez sąsiednią grupę karbonylową.
+
+Hydroliza amidu w środowisku zasadowym daje sól kwasu i amoniak. Acetamid z wodorotlenkiem sodu, po ogrzaniu, daje octan sodu i amoniak, który barwi zwilżony papierek uniwersalny na niebiesko. To sposób na wykrycie grupy amidowej.
+
+Mocznik jest też nawozem. Zawartość azotu: dwa atomy azotu, dwadzieścia osiem, przez masę molową sześćdziesiąt. Około czterdziestu sześciu i siedmiu dziesiątych procent. To jeden z najbogatszych w azot nawozów stałych.
 
 [pytanie: mocznik]
 

@@ -27,6 +27,10 @@ W graficie atomy tworzą płaskie warstwy, a jeden elektron na atom jest zdeloka
 
 Tlen też ma odmiany: zwykły tlen O₂ i ozon O₃.
 
+Węgiel ma jeszcze inne odmiany. Fulereny to cząsteczki w kształcie piłki, z których najsłynniejsza zawiera sześćdziesiąt atomów węgla. Grafen to pojedyncza warstwa grafitu, grubości jednego atomu — bardzo wytrzymała i świetnie przewodząca.
+
+Ozon czujesz czasem po burzy jako charakterystyczny, świeży zapach. Wyładowania elektryczne rozbijają cząsteczki tlenu, a wolne atomy łączą się z O₂ w O₃.
+
 [pytanie: grafit]
 
 Sprawdź się. Dlaczego grafit przewodzi prąd, a diament nie?
@@ -57,6 +61,12 @@ Fluorowce, czyli halogeny, to najaktywniejsze niemetale. Aktywność maleje w gr
 
 Aktywniejszy halogen wypiera mniej aktywny z jego soli. Chlor wprowadzony do roztworu bromku potasu wypiera brom — roztwór brunatnieje. Równanie: Cl₂ plus dwa KBr daje dwa KCl i Br₂. Jod chloru nie wyprze.
 
+Stany skupienia halogenów w temperaturze pokojowej zmieniają się w grupie. Fluor i chlor to gazy, brom — brunatna ciecz, jod — fioletowoczarne kryształy. Przyczyną są rosnące siły van der Waalsa przy coraz większych cząsteczkach. Jod ma jeszcze jedną ciekawą cechę: ogrzewany sublimuje, przechodząc od razu w fioletowe pary.
+
+Chlor jest silnym utleniaczem. Dlatego służy do odkażania wody w wodociągach i basenach.
+
+Typowy błąd: odwrócenie kierunku wypierania. To bardziej aktywny halogen wypiera mniej aktywny z soli. Chlor wypiera brom i jod, brom wypiera jod, a jod nie wypiera nikogo.
+
 [pytanie: halogeny]
 
 Sprawdź się. Czy jod wyprze brom z roztworu bromku potasu?
@@ -86,6 +96,12 @@ Roztwór zabarwi się na żółtobrunatno od wypartego bromu.
 Tlen w laboratorium otrzymuje się na przykład z rozkładu wody utlenionej z tlenkiem manganu cztery jako katalizatorem: dwa H₂O₂ daje dwa H₂O i O₂. Wykrywa się go żarzącym łuczywem, które się zapala.
 
 Azot stanowi około siedemdziesięciu ośmiu procent powietrza, ale jest bardzo mało reaktywny. Powód: wiązanie potrójne w cząsteczce N₂ jest bardzo trwałe.
+
+Mini-obliczenie. Ile decymetrów sześciennych tlenu, w warunkach normalnych, powstanie z rozkładu sześciu i ośmiu dziesiątych grama nadtlenku wodoru? Masa molowa H₂O₂ to trzydzieści cztery — mamy dwie dziesiąte mola. Z równania dwa mole nadtlenku dają jeden mol tlenu. Powstanie jedna dziesiąta mola, czyli dwa i dwadzieścia cztery setne decymetra sześciennego.
+
+Mała reaktywność azotu to wyzwanie dla przyrody. Rośliny nie potrafią same pobrać azotu z powietrza. Robią to bakterie brodawkowe w korzeniach roślin motylkowych, a przemysł — przez syntezę amoniaku.
+
+Tlenki azotu mają różne barwy: tlenek azotu dwa jest bezbarwny, a dwutlenek azotu brunatny. To dlatego bezbarwny gaz z reakcji miedzi z kwasem azotowym brązowieje na powietrzu.
 
 [pytanie: tlen]
 
