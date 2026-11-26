@@ -533,6 +533,78 @@
    "dzial": "swiat"
   },
   {
+   "tytul": "Urbanizacja Chin",
+   "material": "Tekst autorski. Wskaźnik urbanizacji Chin wynosił ok. 19% w 1980 r. i ok. 66% w 2024 r.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz zmianę w punktach procentowych.",
+     "odpowiedz": "wzrost o 47 p.p.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "66 − 19.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny szybkiej urbanizacji Chin.",
+     "odpowiedz": "Industrializacja i rozwój specjalnych stref ekonomicznych, migracje ze wsi do miast za pracą, polityka państwa (budowa nowych miast), wyższe dochody w miastach.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-swiat-21",
+   "dzial": "swiat"
+  },
+  {
+   "tytul": "Norwegia i ropa",
+   "material": "Tekst autorski. Norwegia wydobywa ropę i gaz spod dna Morza Północnego, a zyski odkłada w funduszu majątkowym.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę obszaru, na którym wydobywa się ropę spod dna morza.",
+     "odpowiedz": "szelf kontynentalny (Morza Północnego)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wydobycie offshore.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego Norwegia odkłada zyski z ropy w funduszu.",
+     "odpowiedz": "Zasoby są nieodnawialne — fundusz ma zapewnić dochody przyszłym pokoleniom i chronić gospodarkę przed wahaniami cen ropy.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zrównoważony rozwój.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-swiat-22",
+   "dzial": "swiat"
+  },
+  {
+   "tytul": "Turystyka zagraniczna Polaków",
+   "material": "Tekst autorski. Polacy odbyli w roku ok. 14 mln wyjazdów turystycznych za granicę, najczęściej do Chorwacji, Grecji, Hiszpanii i Włoch.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wspólną cechę klimatu tych krajów przyciągającą turystów.",
+     "odpowiedz": "klimat śródziemnomorski — gorące, słoneczne i suche lato",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Lato.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-swiat-23",
+   "dzial": "swiat"
+  },
+  {
    "tytul": "PKB na mieszkańca",
    "material": "Tekst autorski. Kraj A: PKB 500 mld USD, 25 mln mieszkańców. Kraj B: PKB 900 mld USD, 300 mln mieszkańców.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -556,7 +628,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-swiat-21",
+   "id": "b-swiat-24",
    "dzial": "swiat"
   },
   {
@@ -583,7 +655,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-swiat-22",
+   "id": "b-swiat-25",
    "dzial": "swiat"
   },
   {
@@ -610,7 +682,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-swiat-23",
+   "id": "b-swiat-26",
    "dzial": "swiat"
   },
   {
@@ -637,7 +709,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-swiat-24",
+   "id": "b-swiat-27",
    "dzial": "swiat"
   }
  ]

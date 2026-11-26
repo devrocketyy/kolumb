@@ -929,6 +929,69 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Lot do Bangkoku",
+   "material": "Tekst autorski. Samolot wylatuje z Warszawy (zimą UTC+1) 10 lutego o 22:00 i leci 11 godzin do Bangkoku (UTC+7).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Podaj datę i godzinę lądowania w czasie lokalnym Bangkoku.",
+     "odpowiedz": "11 lutego, 15:00",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "22:00 UTC+1 = 21:00 UTC; +11 h = 8:00 UTC; +7 h.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-43",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Lizbona",
+   "material": "Tekst autorski. Lizbona leży na ok. 9°W i stosuje zimą czas UTC+0.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz, o której godzinie czasu urzędowego Słońce góruje w Lizbonie.",
+     "odpowiedz": "12:36",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "9° × 4 min = 36 min po 12:00 UTC.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w Lizbonie Słońce góruje później niż o 12:00.",
+     "odpowiedz": "Lizbona leży na zachód od południka środkowego swojej strefy (0°), więc Słońce dociera nad nią później.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Położenie w strefie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-44",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Słońce nad Sydney",
+   "material": "Tekst autorski. Sydney leży na ok. 34°S.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania 22 grudnia i podaj stronę nieba.",
+     "odpowiedz": "79°27′, po stronie północnej",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 34° + 23°27′.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-45",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Zgorzelcem i Terespolem",
    "material": "Tekst autorski. Zgorzelec leży na ok. 15°00′E, Terespol na ok. 23°40′E. Jest zima (obowiązuje czas UTC+1).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -952,7 +1015,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-43",
+   "id": "b-ziemia-46",
    "dzial": "ziemia"
   },
   {
@@ -979,7 +1042,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-44",
+   "id": "b-ziemia-47",
    "dzial": "ziemia"
   },
   {
@@ -1006,7 +1069,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-45",
+   "id": "b-ziemia-48",
    "dzial": "ziemia"
   },
   {
@@ -1042,7 +1105,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-46",
+   "id": "b-ziemia-49",
    "dzial": "ziemia"
   },
   {
@@ -1069,7 +1132,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-47",
+   "id": "b-ziemia-50",
    "dzial": "ziemia"
   },
   {
@@ -1096,7 +1159,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-48",
+   "id": "b-ziemia-51",
    "dzial": "ziemia"
   },
   {
@@ -1114,7 +1177,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-49",
+   "id": "b-ziemia-52",
    "dzial": "ziemia"
   }
  ]

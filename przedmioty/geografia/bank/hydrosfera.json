@@ -632,6 +632,69 @@
    "dzial": "hydrosfera"
   },
   {
+   "tytul": "Morze Śródziemne",
+   "material": "Tekst autorski. Zasolenie Morza Śródziemnego wynosi ok. 38‰, a średnie zasolenie oceanów — ok. 35‰.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przyczyny wyższego zasolenia Morza Śródziemnego.",
+     "odpowiedz": "Gorący i suchy klimat — parowanie przewyższa opady i dopływ wód rzecznych; ograniczona wymiana wód z oceanem przez wąską Cieśninę Gibraltarską.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Bilans wodny.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-hydrosfera-26",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Objętość jeziora",
+   "material": "Tekst autorski. Jezioro ma powierzchnię 12 km² i średnią głębokość 9 m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz objętość wody w jeziorze w km³.",
+     "odpowiedz": "0,108 km³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "12 km² × 0,009 km.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-hydrosfera-27",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Wydajność źródła",
+   "material": "Tekst autorski. Źródło ma wydajność 5 l/s.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz dobową wydajność źródła w m³.",
+     "odpowiedz": "432 m³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "5 l/s × 86 400 s = 432 000 l.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę wypływu wód krasowych o bardzo dużej wydajności.",
+     "odpowiedz": "wywierzysko (np. Wywierzysko Goryczkowe w Tatrach)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kras.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-28",
+   "dzial": "hydrosfera"
+  },
+  {
    "tytul": "Przepływ rzeki",
    "material": "Tekst autorski. W przekroju wodowskazowym koryto ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -655,7 +718,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-26",
+   "id": "b-hydrosfera-29",
    "dzial": "hydrosfera"
   },
   {
@@ -682,7 +745,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-27",
+   "id": "b-hydrosfera-30",
    "dzial": "hydrosfera"
   },
   {
@@ -709,7 +772,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-28",
+   "id": "b-hydrosfera-31",
    "dzial": "hydrosfera"
   },
   {
@@ -736,7 +799,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-29",
+   "id": "b-hydrosfera-32",
    "dzial": "hydrosfera"
   },
   {
@@ -763,7 +826,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-30",
+   "id": "b-hydrosfera-33",
    "dzial": "hydrosfera"
   }
  ]

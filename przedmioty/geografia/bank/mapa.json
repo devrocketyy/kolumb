@@ -1109,6 +1109,96 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Wzgórze nad doliną",
+   "material": "Tekst autorski. Na mapie punkt wysokościowy na wzgórzu ma 387,5 m n.p.m., a dno doliny rzeki obok — 312 m n.p.m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość względną wzgórza nad dnem doliny.",
+     "odpowiedz": "75,5 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "387,5 − 312.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-46",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Kręta rzeka",
+   "material": "Tekst autorski. Na mapie w skali 1:50 000 rzeka między dwoma mostami ma długość 9,4 cm (mierzona nitką), a odległość w linii prostej wynosi 3,8 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz rzeczywistą długość rzeki i odległość w linii prostej.",
+     "odpowiedz": "4,7 km i 1,9 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "× 500 m.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik krętości rzeki (długość rzeki / odległość w linii prostej). Wynik zaokrąglij do 0,01.",
+     "odpowiedz": "ok. 2,47",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "9,4 / 3,8.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w jakim biegu rzeki najczęściej występuje duża krętość.",
+     "odpowiedz": "w biegu dolnym (meandry na nizinach)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mały spadek.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-mapa-47",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Kierunek biegu rzeki",
+   "material": "Tekst autorski. Rzeka płynie z południowego wschodu na północny zachód.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj azymut kierunku jej biegu.",
+     "odpowiedz": "315°",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "NW.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-48",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Zakład na planie",
+   "material": "Tekst autorski. Na planie w skali 1:10 000 teren zakładu ma kształt prostokąta 1,5 cm × 0,8 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wymiary terenu w metrach i jego powierzchnię w hektarach.",
+     "odpowiedz": "150 m × 80 m; 1,2 ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "12 000 m².",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-49",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Wycieczka na wieżę widokową",
    "material": "Tekst autorski. Na mapie w skali 1:25 000 kościół leży na wysokości 212 m n.p.m., a wieża widokowa na wzgórzu — 347 m n.p.m. Odległość między nimi na mapie: 8 cm. Wieża leży od kościoła w kierunku azymutu 135°.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1141,7 +1231,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-46",
+   "id": "b-mapa-50",
    "dzial": "mapa"
   },
   {
@@ -1159,7 +1249,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-47",
+   "id": "b-mapa-51",
    "dzial": "mapa"
   },
   {
@@ -1186,7 +1276,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-48",
+   "id": "b-mapa-52",
    "dzial": "mapa"
   },
   {
@@ -1222,7 +1312,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-49",
+   "id": "b-mapa-53",
    "dzial": "mapa"
   },
   {
@@ -1249,7 +1339,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-50",
+   "id": "b-mapa-54",
    "dzial": "mapa"
   },
   {
@@ -1276,7 +1366,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-51",
+   "id": "b-mapa-55",
    "dzial": "mapa"
   },
   {
@@ -1294,7 +1384,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-52",
+   "id": "b-mapa-56",
    "dzial": "mapa"
   }
  ]
