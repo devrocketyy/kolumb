@@ -1010,6 +1010,51 @@
    "dzial": "hydrosfera"
   },
   {
+   "tytul": "Bilans jeziora",
+   "material": "Tekst autorski. Jezioro otrzymuje rocznie z rzek 120 mln m³ wody i 30 mln m³ z opadów, a traci 40 mln m³ przez parowanie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile wody odpływa z jeziora rzeką, jeśli jego poziom się nie zmienia.",
+     "odpowiedz": "110 mln m³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "120 + 30 − 40.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-hydrosfera-42",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Zasolenie z wody i soli",
+   "material": "Tekst autorski. W 1 kg wody z Morza Martwego jest ok. 340 g soli.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz zasolenie w promilach.",
+     "odpowiedz": "ok. 340‰",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "340 / 1000 × 1000.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w Morzu Martwym można unosić się na powierzchni bez pływania.",
+     "odpowiedz": "Bardzo duże zasolenie zwiększa gęstość wody i siłę wyporu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Gęstość.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-43",
+   "dzial": "hydrosfera"
+  },
+  {
    "tytul": "Zanikające jezioro",
    "material": "Tekst autorski. Jezioro polodowcowe miało w 1960 r. powierzchnię 12 km². Co roku jego powierzchnia zmniejsza się średnio o 0,15 km².",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1033,7 +1078,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-42",
+   "id": "b-hydrosfera-44",
    "dzial": "hydrosfera"
   },
   {
@@ -1060,7 +1105,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-43",
+   "id": "b-hydrosfera-45",
    "dzial": "hydrosfera"
   }
  ]

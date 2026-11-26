@@ -479,6 +479,33 @@
    "dzial": "czlowiek"
   },
   {
+   "tytul": "Emisja CO₂ USA i Indii",
+   "material": "Tekst autorski. USA emitują ok. 4,9 mld t CO₂ przy 335 mln mieszkańców, a Indie ok. 2,8 mld t przy 1,44 mld.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz emisję na mieszkańca w obu krajach. Wyniki zaokrąglij do 0,1 t.",
+     "odpowiedz": "USA ok. 14,6 t; Indie ok. 1,9 t",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Emisja / ludność.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij przyczynę tak dużej różnicy.",
+     "odpowiedz": "W USA wysokie zużycie energii na osobę (transport samochodowy, klimatyzacja, przemysł, wysoki poziom konsumpcji); w Indiach niski poziom dochodów i zużycia energii przez większość ludności.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Poziom rozwoju.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-czlowiek-20",
+   "dzial": "czlowiek"
+  },
+  {
    "tytul": "Emisja CO₂",
    "material": "Tekst autorski. Kraj liczący 38 mln mieszkańców emituje rocznie 300 mln t CO₂, z czego 70% pochodzi z energetyki opartej na węglu.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -502,7 +529,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-20",
+   "id": "b-czlowiek-21",
    "dzial": "czlowiek"
   },
   {
@@ -529,7 +556,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-21",
+   "id": "b-czlowiek-22",
    "dzial": "czlowiek"
   }
  ]

@@ -1379,6 +1379,42 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Moc farmy fotowoltaicznej",
+   "material": "Tekst autorski. Farma fotowoltaiczna ma moc 50 MW i wytwarza ok. 1000 MWh z 1 MW rocznie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczną produkcję energii w GWh.",
+     "odpowiedz": "50 GWh",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "50 × 1000 MWh.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-59",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Ruch w porcie lotniczym",
+   "material": "Tekst autorski. Lotnisko w Krakowie obsłużyło ok. 11 mln pasażerów, a lotnisko w Gdańsku ok. 6,5 mln.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, o ile procent więcej pasażerów obsłużył Kraków. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "o ok. 69%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4,5 / 6,5 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-60",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Farma wiatrowa",
    "material": "Tekst autorski. Farma wiatrowa ma moc zainstalowaną 50 MW. Średnio przez rok pracuje z wykorzystaniem 30% mocy (rok = 8760 h).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1402,7 +1438,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-59",
+   "id": "b-przemysl-61",
    "dzial": "przemysl"
   },
   {
@@ -1429,7 +1465,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-60",
+   "id": "b-przemysl-62",
    "dzial": "przemysl"
   }
  ]

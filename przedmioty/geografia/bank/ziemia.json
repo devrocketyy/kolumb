@@ -1469,6 +1469,78 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Godzina w Londynie",
+   "material": "Tekst autorski. Latem w Warszawie (UTC+2) jest 18:30. Londyn stosuje latem UTC+1.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Podaj godzinę w Londynie.",
+     "odpowiedz": "17:30",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "−1 h.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-69",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Słońce nad Gdynią w czerwcu",
+   "material": "Tekst autorski. Gdynia leży na ok. 54°30′N.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania 22 czerwca.",
+     "odpowiedz": "58°57′",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 54°30′ + 23°27′.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-70",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Długość z górowania o 12:48 UTC",
+   "material": "Tekst autorski. W pewnym miejscu Słońce górowało o 12:48 UTC.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz długość geograficzną miejsca.",
+     "odpowiedz": "12°W",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "48 min / 4 = 12° na zachód.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-71",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Czas na wschodzie Polski",
+   "material": "Tekst autorski. Kiedy w Słubicach (14°35′E) jest 12:00 czasu słonecznego, w Terespolu (23°40′E) jest później.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz czas słoneczny w Terespolu.",
+     "odpowiedz": "12:36:20",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "9°05′ = 545′ × 4 s = 36 min 20 s.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-72",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Krakowem",
    "material": "Tekst autorski. Kraków leży na ok. 50°N.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1492,7 +1564,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-69",
+   "id": "b-ziemia-73",
    "dzial": "ziemia"
   },
   {
@@ -1528,7 +1600,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-70",
+   "id": "b-ziemia-74",
    "dzial": "ziemia"
   },
   {
@@ -1555,7 +1627,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-71",
+   "id": "b-ziemia-75",
    "dzial": "ziemia"
   },
   {
@@ -1582,7 +1654,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-72",
+   "id": "b-ziemia-76",
    "dzial": "ziemia"
   },
   {
@@ -1600,7 +1672,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-73",
+   "id": "b-ziemia-77",
    "dzial": "ziemia"
   }
  ]

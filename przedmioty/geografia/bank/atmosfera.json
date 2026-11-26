@@ -1224,6 +1224,51 @@
    ],
    "id": "b-atmosfera-46",
    "dzial": "atmosfera"
+  },
+  {
+   "tytul": "Temperatura na Babiej Górze",
+   "material": "Tekst autorski. W Zawoi (700 m n.p.m.) temperatura wynosi 14°C. Babia Góra ma 1725 m n.p.m. Przyjmij spadek 0,6°C/100 m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz temperaturę na szczycie Babiej Góry.",
+     "odpowiedz": "7,85°C ≈ 7,9°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1025 m × 0,006 = 6,15; 14 − 6,15.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-atmosfera-47",
+   "dzial": "atmosfera"
+  },
+  {
+   "tytul": "Amplituda w Polsce",
+   "material": "Tekst autorski. W Szczecinie średnia temperatura stycznia wynosi 0°C, a lipca 18°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczną amplitudę temperatury.",
+     "odpowiedz": "18°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "18 − 0.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, czy amplituda w Białymstoku będzie większa, czy mniejsza, i dlaczego.",
+     "odpowiedz": "Większa — Białystok leży dalej na wschód, w strefie silniejszych wpływów kontynentalnych.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kontynentalizm.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atmosfera-48",
+   "dzial": "atmosfera"
   }
  ]
 }

@@ -1676,6 +1676,69 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Saldo migracji gminy",
+   "material": "Tekst autorski. Do gminy liczącej 20 000 mieszkańców napłynęło 500 osób, a wyjechało 300.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz współczynnik salda migracji.",
+     "odpowiedz": "+10‰",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "200 / 20 000 × 1000.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-68",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Starość w Europie",
+   "material": "Tekst autorski. We Włoszech udział osób 65+ wynosi ok. 24%, a dzieci 0–14 ok. 12%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik starości (65+ na 100 dzieci).",
+     "odpowiedz": "200",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "24 / 12 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-69",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Urbanizacja Brazylii",
+   "material": "Tekst autorski. Brazylia liczy ok. 216 mln mieszkańców, a wskaźnik urbanizacji wynosi ok. 88%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz liczbę mieszkańców miast. Wynik zaokrąglij do 1 mln.",
+     "odpowiedz": "ok. 190 mln",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "216 × 0,88 = 190,1.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę dzielnic nędzy w miastach Brazylii.",
+     "odpowiedz": "fawele",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Rio de Janeiro.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-70",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Województwo w liczbach",
    "material": "Tekst autorski. Województwo ma 5,4 mln mieszkańców i powierzchnię 35 600 km². Współczynnik urodzeń wynosi 9,2‰, a zgonów 11,5‰.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1708,7 +1771,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-68",
+   "id": "b-ludnosc-71",
    "dzial": "ludnosc"
   }
  ]

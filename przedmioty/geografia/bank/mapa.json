@@ -1730,6 +1730,78 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Lotnisko na mapie",
+   "material": "Tekst autorski. Pas startowy ma na mapie w skali 1:25 000 długość 12 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz długość pasa startowego w terenie.",
+     "odpowiedz": "3 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "12 × 250 m.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-75",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Skala z długości mostu",
+   "material": "Tekst autorski. Most o długości 800 m ma na mapie 1,6 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz skalę mapy.",
+     "odpowiedz": "1:50 000",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "80 000 cm / 1,6.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-76",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Spadek w promilach i procentach",
+   "material": "Tekst autorski. Na odcinku 4 km teren obniża się o 6 m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz spadek w promilach i w procentach.",
+     "odpowiedz": "1,5‰ = 0,15%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "6 / 4000.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-77",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Wysokość względna nad jeziorem",
+   "material": "Tekst autorski. Lustro jeziora leży na 132 m n.p.m., a wzgórze nad nim ma 218 m n.p.m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość względną wzgórza nad jeziorem.",
+     "odpowiedz": "86 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "218 − 132.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-78",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Jezioro na mapie 1:50 000",
    "material": "Tekst autorski. Na mapie w skali 1:50 000 powierzchnia jeziora, zmierzona metodą kratową, wynosi 6 cm².",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1753,7 +1825,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-75",
+   "id": "b-mapa-79",
    "dzial": "mapa"
   },
   {
@@ -1789,7 +1861,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-76",
+   "id": "b-mapa-80",
    "dzial": "mapa"
   },
   {
@@ -1816,7 +1888,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-77",
+   "id": "b-mapa-81",
    "dzial": "mapa"
   },
   {
@@ -1843,7 +1915,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-78",
+   "id": "b-mapa-82",
    "dzial": "mapa"
   },
   {
@@ -1861,7 +1933,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-79",
+   "id": "b-mapa-83",
    "dzial": "mapa"
   }
  ]
