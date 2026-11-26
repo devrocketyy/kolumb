@@ -90,6 +90,33 @@
    ],
    "id": "b-rolnictwo-03",
    "dzial": "rolnictwo"
+  },
+  {
+   "tytul": "Użytkowanie ziemi w gminie",
+   "material": "Tekst autorski. Gmina ma powierzchnię 80 km², z czego 52 km² to użytki rolne, a 18 km² lasy.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział użytków rolnych i lasów w powierzchni gminy.",
+     "odpowiedz": "UR 65%, lasy 22,5%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "52/80 i 18/80.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj dwa przyrodnicze czynniki sprzyjające dużemu udziałowi użytków rolnych.",
+     "odpowiedz": "Np. żyzne gleby, równinna rzeźba, korzystny klimat (długi okres wegetacji).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-04",
+   "dzial": "rolnictwo"
   }
  ]
 }

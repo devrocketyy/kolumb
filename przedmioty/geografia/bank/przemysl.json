@@ -144,6 +144,60 @@
    ],
    "id": "b-przemysl-05",
    "dzial": "przemysl"
+  },
+  {
+   "tytul": "Farma wiatrowa",
+   "material": "Tekst autorski. Farma wiatrowa ma moc zainstalowaną 50 MW. Średnio przez rok pracuje z wykorzystaniem 30% mocy (rok = 8760 h).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz roczną produkcję energii w GWh.",
+     "odpowiedz": "ok. 131 GWh",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "50 MW × 8760 h × 0,3 = 131 400 MWh.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego farmy na morzu mają wyższy współczynnik wykorzystania mocy niż na lądzie.",
+     "odpowiedz": "Nad morzem wiatr jest silniejszy i bardziej stały — brak przeszkód terenowych i mniejsze tarcie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Offshore.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-06",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Energetyka a węgiel",
+   "material": "Tekst autorski. W 1990 r. węgiel dawał w Polsce ok. 95% energii elektrycznej, w 2024 r. ok. 57%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, o ile punktów procentowych zmalał udział węgla.",
+     "odpowiedz": "o 38 punktów procentowych",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "95 − 57.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny spadku udziału węgla w produkcji energii w Polsce.",
+     "odpowiedz": "Rozwój OZE (wiatr, fotowoltaika), polityka klimatyczna UE i koszt uprawnień do emisji CO₂, wzrost znaczenia gazu.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-07",
+   "dzial": "przemysl"
   }
  ]
 }

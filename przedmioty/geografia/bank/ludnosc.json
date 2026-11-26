@@ -225,6 +225,42 @@
    ],
    "id": "b-ludnosc-07",
    "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Województwo w liczbach",
+   "material": "Tekst autorski. Województwo ma 5,4 mln mieszkańców i powierzchnię 35 600 km². Współczynnik urodzeń wynosi 9,2‰, a zgonów 11,5‰.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz gęstość zaludnienia.",
+     "odpowiedz": "ok. 152 os./km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "5 400 000 / 35 600.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz współczynnik przyrostu naturalnego.",
+     "odpowiedz": "−2,3‰",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "9,2 − 11,5.",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, o ile osób zmniejszy się w ciągu roku liczba ludności z powodu ubytku naturalnego.",
+     "odpowiedz": "ok. 12 400 osób",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "5 400 000 × 0,0023 = 12 420.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-ludnosc-08",
+   "dzial": "ludnosc"
   }
  ]
 }

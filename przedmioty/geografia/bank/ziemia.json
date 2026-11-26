@@ -234,6 +234,51 @@
    ],
    "id": "b-ziemia-08",
    "dzial": "ziemia"
+  },
+  {
+   "tytul": "Słońce nad Gdańskiem",
+   "material": "Tekst autorski. Gdańsk leży na ok. 54°20′N.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania w Gdańsku 22 grudnia i 22 czerwca.",
+     "odpowiedz": "12°13′ i 59°07′",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "90° − 54°20′ ∓ 23°27′.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w Gdańsku zimą dzień jest krótszy niż w Zakopanem.",
+     "odpowiedz": "Gdańsk leży dalej na północ; zimą na półkuli N długość dnia maleje wraz ze wzrostem szerokości geograficznej.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Nachylenie osi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-09",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Lot do Tokio",
+   "material": "Tekst autorski. Samolot wylatuje z Warszawy (zimą UTC+1) o 10:00 czasu lokalnego 15 stycznia i leci do Tokio (UTC+9) 11 godzin.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Podaj datę i godzinę lądowania w czasie lokalnym Tokio.",
+     "odpowiedz": "16 stycznia, 05:00",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wylot 09:00 UTC, przylot 20:00 UTC; +9 h.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-10",
+   "dzial": "ziemia"
   }
  ]
 }

@@ -234,6 +234,51 @@
    ],
    "id": "b-mapa-08",
    "dzial": "mapa"
+  },
+  {
+   "tytul": "Odległość wzdłuż równoleżnika",
+   "material": "Tekst autorski. Punkty A (52°N, 14°E) i B (52°N, 24°E) leżą na tym samym równoleżniku. Długość 1° na równiku przyjmij jako 111,3 km, cos 52° ≈ 0,616.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz odległość między punktami wzdłuż równoleżnika.",
+     "odpowiedz": "ok. 686 km",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "10° × 111,3 km × 0,616.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego 1° długości geograficznej na 52°N jest krótszy niż na równiku.",
+     "odpowiedz": "Równoleżniki maleją ku biegunom, bo południki zbiegają się w biegunach.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "cos φ.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-09",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Działka na planie",
+   "material": "Tekst autorski. Na mapie w skali 1:10 000 działka ma kształt prostokąta 2,5 cm × 4 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię działki w terenie w hektarach.",
+     "odpowiedz": "10 ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 cm² = 1 ha; 10 cm².",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-10",
+   "dzial": "mapa"
   }
  ]
 }
