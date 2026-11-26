@@ -25,6 +25,12 @@ Mol to porcja zawierająca sześć przecinek zero dwa razy dziesięć do dwudzie
 
 Drobiną może być cokolwiek: atom, cząsteczka, jon, elektron. Mol atomów żelaza, mol cząsteczek wody, mol jonów sodu — zawsze tyle samo sztuk.
 
+Jak wielka jest ta liczba? Gdyby rozsypać mol ziaren piasku, pokryłyby całą Polskę warstwą wysoką na kilkadziesiąt metrów. A mol cząsteczek wody to zaledwie osiemnaście gramów — mniej niż łyk.
+
+Liczba Avogadra pozwala policzyć masę jednej cząsteczki. Cząsteczka wody waży osiemnaście gramów podzielone przez sześć przecinek zero dwa razy dziesięć do dwudziestej trzeciej. Wychodzi około trzech razy dziesięć do minus dwudziestej trzeciej grama.
+
+Typowy błąd: mylenie liczby moli cząsteczek z liczbą moli atomów. Mol tlenu O₂ to mol cząsteczek, ale dwa mole atomów tlenu.
+
 [pytanie: avogadro]
 
 Sprawdź się. Ile cząsteczek zawiera pół mola wody?
@@ -55,6 +61,10 @@ Masa jednego mola to masa molowa. Liczbowo jest równa masie cząsteczkowej z uk
 
 Woda: dwa razy jeden plus szesnaście — osiemnaście gramów na mol. Więc dziewięć gramów wody to pół mola. Wzór jest jeden: liczba moli równa się masa podzielona przez masę molową.
 
+Masa atomowa w układzie okresowym jest podana w unitach — jednostkach masy atomowej. Jeden unit to jedna dwunasta masy atomu węgla dwanaście. Ta sama liczba wyrażona w gramach na mol to masa molowa. To nie przypadek: stała Avogadra została dobrana tak, żeby te liczby się pokrywały.
+
+Masy atomowe pierwiastków nie są liczbami całkowitymi, bo to średnie ważone mas izotopów. Chlor ma trzydzieści pięć i pół, bo w przyrodzie występuje mieszanina chloru trzydzieści pięć i trzydzieści siedem.
+
 [pytanie: masa]
 
 Sprawdź się. Ile moli to dziewięć gramów wody?
@@ -72,6 +82,12 @@ Pół mola. Dziewięć podzielić przez osiemnaście.
 Z gazami jest jeszcze prościej. Mol dowolnego gazu w warunkach normalnych — zero stopni Celsjusza i ciśnienie tysiąc trzynaście hektopaskali — zajmuje dwadzieścia dwa i cztery dziesiąte decymetra sześciennego. To prawo Avogadra: równe objętości gazów w tych samych warunkach zawierają tyle samo cząsteczek.
 
 Uwaga: dotyczy tylko gazów. Mol wody w stanie ciekłym ma osiemnaście centymetrów sześciennych, nie dwadzieścia dwa litry.
+
+Dwadzieścia dwa i cztery dziesiąte decymetra sześciennego dotyczy zera stopni Celsjusza. W temperaturze pokojowej, dwudziestu pięciu stopniach, mol gazu zajmuje około dwudziestu czterech i pół decymetra. Na maturze warunki są zawsze podane — sprawdzaj je.
+
+Gdy warunki są nietypowe, używa się równania Clapeyrona: ciśnienie razy objętość równa się liczba moli razy stała gazowa razy temperatura w kelwinach.
+
+Z objętości molowej łatwo policzyć gęstość gazu. Dwutlenek węgla: czterdzieści cztery przez dwadzieścia dwa i cztery, około jeden przecinek dziewięćdziesiąt sześć grama na decymetr. Cięższy od powietrza — dlatego gromadzi się w piwnicach i studniach.
 
 [pytanie: objetosc]
 

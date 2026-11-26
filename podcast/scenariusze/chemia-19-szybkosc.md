@@ -25,6 +25,10 @@ Dzień dobry, tu IndexLab. Dziś: szybkość reakcji.
 
 Stąd cztery czynniki: stężenie, temperatura, rozdrobnienie i katalizator. Pył cukrowy ma ogromną powierzchnię, więc zderzeń z tlenem jest niewyobrażalnie więcej niż dla kostki.
 
+Szybkość reakcji liczy się jako zmianę stężenia w czasie. Mini-obliczenie: stężenie substratu spadło z pięciu dziesiątych do trzech dziesiątych mola na decymetr w ciągu czterdziestu sekund. Szybkość średnia: dwie dziesiąte przez czterdzieści — pięć tysięcznych mola na decymetr sześcienny na sekundę.
+
+Szybkość zwykle maleje w miarę trwania reakcji, bo ubywa substratów i zderzeń jest coraz mniej. Na wykresie stężenia od czasu krzywa jest najpierw stroma, potem coraz bardziej płaska.
+
 [pytanie: rozdrobnienie]
 
 Sprawdź się. Dlaczego sproszkowany cynk reaguje z kwasem szybciej niż granulki?
@@ -42,6 +46,10 @@ Bo ma większą powierzchnię kontaktu, więc więcej zderzeń z cząsteczkami k
 Temperatura działa najsilniej. Reguła van 't Hoffa: wzrost temperatury o dziesięć stopni przyspiesza większość reakcji dwa do czterech razy.
 
 Jeśli współczynnik wynosi dwa, a temperaturę podnosisz o trzydzieści stopni, to trzy kroki po dziesięć: dwa razy dwa razy dwa — szybkość rośnie osiem razy.
+
+W kuchni stosujesz to codziennie. Lodówka spowalnia reakcje psucia się jedzenia. Szybkowar podnosi temperaturę wrzenia wody powyżej stu stopni, więc ziemniaki gotują się szybciej.
+
+Uwaga na enzymy: to katalizatory biologiczne, które działają najlepiej w temperaturze ciała, około trzydziestu siedmiu stopni. W wyższej temperaturze białko enzymu ulega denaturacji i reakcja zamiast przyspieszyć — zwalnia.
 
 [pytanie: vanthoff]
 
@@ -88,6 +96,10 @@ Osiem razy. Cztery razy dwa.
 ## Katalizator
 
 Katalizator otwiera reakcji inną drogę, o niższej energii aktywacji. Sam się nie zużywa — po reakcji jest w tej samej ilości. Przykłady: tlenek manganu czwartego przy rozkładzie wody utlenionej, enzymy w organizmie, platyna i rod w katalizatorze samochodowym.
+
+Są też substancje działające odwrotnie: inhibitory. Spowalniają reakcje. Konserwanty w żywności i dodatki przeciwutleniające w olejach to właśnie inhibitory niechcianych reakcji.
+
+Typowy błąd: przekonanie, że katalizator zwiększa ilość produktu. Katalizator tylko przyspiesza dojście do stanu końcowego. Ile produktu powstanie, zależy od stechiometrii i równowagi, a nie od katalizatora.
 
 [pytanie: kat]
 

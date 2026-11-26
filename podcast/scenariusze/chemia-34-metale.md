@@ -25,6 +25,10 @@ Szereg aktywności metali porządkuje je od najchętniej oddających elektrony: 
 
 Dwie reguły. Pierwsza: metal aktywniejszy wypiera mniej aktywny z roztworu jego soli. Druga: metale przed wodorem wypierają wodór z kwasów nieutleniających, metale po wodorze — nie.
 
+Mini-obliczenie. Blaszkę cynkową zanurzono w roztworze siarczanu miedzi. Przereagowała jedna dziesiąta mola cynku. Jak zmieniła się masa blaszki? Ubyło sześć i pięćdziesiąt cztery setne grama cynku, a osiadło sześć i trzydzieści pięć setnych grama miedzi. Masa blaszki zmalała o dziewiętnaście setnych grama.
+
+Z żelazem jest odwrotnie. Jedna dziesiąta mola żelaza to pięć i sześć dziesiątych grama, a osiada sześć i trzydzieści pięć setnych grama miedzi. Gwóźdź staje się cięższy o siedemdziesiąt pięć setnych grama. Zadania o zmianie masy płytki to klasyka matury — licz osobno ubytek i przyrost.
+
 [pytanie: wypieranie]
 
 Sprawdź się. Czy srebro wyprze miedź z roztworu siarczanu miedzi?
@@ -55,6 +59,10 @@ Sód i potas reagują z wodą gwałtownie: powstaje wodorotlenek i wodór. Dwa N
 
 Związki tych metali barwią płomień. Sód — na żółto, potas — na fioletowo, wapń — na ceglastoczerwono. To prosta metoda identyfikacji.
 
+Mini-obliczenie. Ile wodoru, w warunkach normalnych, wydzieli się z dwóch i trzech dziesiątych grama sodu? To jedna dziesiąta mola sodu. Z równania dwa mole sodu dają mol wodoru — więc pięć setnych mola, jeden przecinek dwanaście decymetra sześciennego. W roztworze powstanie jedna dziesiąta mola NaOH, cztery gramy.
+
+Aktywność litowców rośnie w dół grupy. Lit reaguje z wodą spokojnie, sód energicznie, a potas tak gwałtownie, że wydzielający się wodór się zapala.
+
 [pytanie: plomien]
 
 Sprawdź się. Na jaki kolor sole sodu barwią płomień?
@@ -74,6 +82,10 @@ Glin teoretycznie jest bardzo aktywny, a jednak garnek z aluminium nie rozpuszcz
 Podobnie zachowują się glin i żelazo w stężonym kwasie azotowym: zamiast się rozpuścić, pokrywają się warstwą tlenku i reakcja ustaje. To pasywacja. Dlatego stężony kwas azotowy można przewozić w stalowych lub aluminiowych cysternach.
 
 Glin jest też amfoteryczny: rozpuszcza się i w kwasach, i w roztworze wodorotlenku sodu.
+
+Metale rzadko używa się w czystej postaci. Stal to stop żelaza z węglem, mosiądz — miedzi z cynkiem, brąz — miedzi z cyną. Stopy mają inne właściwości niż składniki: są zwykle twardsze i bardziej odporne na korozję.
+
+Typowy błąd: przekonanie, że glin „nie reaguje z kwasami”. Z rozcieńczonym kwasem solnym reaguje i wydziela wodór. Pasywuje się tylko w stężonych kwasach utleniających.
 
 [pytanie: pasywacja]
 
