@@ -1172,6 +1172,60 @@
    "dzial": "atom"
   },
   {
+   "tytul": "Jony a położenie w układzie",
+   "material": "Tekst autorski. Pierwiastki X i Y tworzą jony X⁺ i Y²⁻ o konfiguracji argonu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zidentyfikuj X i Y.",
+     "odpowiedz": "X: K; Y: S",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wzór i rodzaj wiązania w związku X z Y.",
+     "odpowiedz": "K₂S — jonowe",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-42",
+   "dzial": "atom"
+  },
+  {
+   "tytul": "Przemiany jądrowe w szeregu",
+   "material": "Tekst autorski. Polon-210 ulega przemianie α (T½ = 138 dni).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie przemiany.",
+     "odpowiedz": "²¹⁰₈₄Po → ²⁰⁶₈₂Pb + ⁴₂He",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaka część próbki pozostanie po 414 dniach.",
+     "odpowiedz": "1/8 (12,5%)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Trzy okresy półtrwania.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atom-43",
+   "dzial": "atom"
+  },
+  {
    "tytul": "Skład izotopowy chloru",
    "material": "Tekst autorski. Chlor występuje w przyrodzie jako mieszanina izotopów ³⁵Cl (masa 34,97 u) i ³⁷Cl (36,97 u). Średnia masa atomowa chloru wynosi 35,45 u.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1195,7 +1249,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-42",
+   "id": "b-atom-44",
    "dzial": "atom"
   },
   {
@@ -1222,7 +1276,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-43",
+   "id": "b-atom-45",
    "dzial": "atom"
   },
   {
@@ -1249,7 +1303,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atom-44",
+   "id": "b-atom-46",
    "dzial": "atom"
   },
   {
@@ -1285,7 +1339,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atom-45",
+   "id": "b-atom-47",
    "dzial": "atom"
   }
  ]

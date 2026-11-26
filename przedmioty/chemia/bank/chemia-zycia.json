@@ -533,6 +533,33 @@
    "dzial": "chemia-zycia"
   },
   {
+   "tytul": "Chlorowanie wody",
+   "material": "Tekst autorski. Do wody pitnej dodaje się chlor lub podchloryn.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie reakcji chloru z wodą.",
+     "odpowiedz": "Cl₂ + H₂O ⇄ HCl + HClO",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, który produkt działa bakteriobójczo.",
+     "odpowiedz": "HClO — silny utleniacz niszczący drobnoustroje.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-chemia-zycia-21",
+   "dzial": "chemia-zycia"
+  },
+  {
    "tytul": "Mydło w twardej wodzie",
    "material": "Tekst autorski. Do wody wodociągowej dodano roztwór stearynianu sodu — powstał biały osad.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -556,7 +583,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-21",
+   "id": "b-chemia-zycia-22",
    "dzial": "chemia-zycia"
   },
   {
@@ -583,7 +610,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-22",
+   "id": "b-chemia-zycia-23",
    "dzial": "chemia-zycia"
   },
   {
@@ -610,7 +637,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-chemia-zycia-23",
+   "id": "b-chemia-zycia-24",
    "dzial": "chemia-zycia"
   },
   {
@@ -628,7 +655,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-chemia-zycia-24",
+   "id": "b-chemia-zycia-25",
    "dzial": "chemia-zycia"
   }
  ]

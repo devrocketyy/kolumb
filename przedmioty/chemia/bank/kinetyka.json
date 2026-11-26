@@ -1082,6 +1082,51 @@
    "dzial": "kinetyka"
   },
   {
+   "tytul": "Szybkość a stężenie",
+   "material": "Tekst autorski. Reakcja A → produkty jest drugiego rzędu względem A. Przy [A] = 0,1 mol/dm³ v = 2 · 10⁻⁴ mol · dm⁻³ · s⁻¹.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stałą szybkości.",
+     "odpowiedz": "0,02 dm³ · mol⁻¹ · s⁻¹",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "k = v / [A]².",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz szybkość przy [A] = 0,3 mol/dm³.",
+     "odpowiedz": "1,8 · 10⁻³ mol · dm⁻³ · s⁻¹",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,02 · 0,09.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-kinetyka-42",
+   "dzial": "kinetyka"
+  },
+  {
+   "tytul": "Równowaga — reguła przekory w praktyce",
+   "material": "Tekst autorski. Fe³⁺ + SCN⁻ ⇄ [FeSCN]²⁺ (krwistoczerwony).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj zmianę barwy po dodaniu: a) FeCl₃, b) KSCN, c) wody.",
+     "odpowiedz": "a) ciemnieje; b) ciemnieje; c) jaśnieje",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Rozcieńczenie przesuwa równowagę w stronę większej liczby drobin.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-kinetyka-43",
+   "dzial": "kinetyka"
+  },
+  {
    "tytul": "Prawo Hessa",
    "material": "Tekst autorski. C(grafit) + O₂ → CO₂, ΔH₁ = −394 kJ; CO + ½O₂ → CO₂, ΔH₂ = −283 kJ.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1105,7 +1150,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-42",
+   "id": "b-kinetyka-44",
    "dzial": "kinetyka"
   },
   {
@@ -1132,7 +1177,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-43",
+   "id": "b-kinetyka-45",
    "dzial": "kinetyka"
   },
   {
@@ -1159,7 +1204,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-44",
+   "id": "b-kinetyka-46",
    "dzial": "kinetyka"
   },
   {
@@ -1195,7 +1240,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-kinetyka-45",
+   "id": "b-kinetyka-47",
    "dzial": "kinetyka"
   },
   {
@@ -1222,7 +1267,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-46",
+   "id": "b-kinetyka-48",
    "dzial": "kinetyka"
   },
   {
@@ -1249,7 +1294,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-kinetyka-47",
+   "id": "b-kinetyka-49",
    "dzial": "kinetyka"
   },
   {
@@ -1267,7 +1312,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-48",
+   "id": "b-kinetyka-50",
    "dzial": "kinetyka"
   },
   {
@@ -1285,7 +1330,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-kinetyka-49",
+   "id": "b-kinetyka-51",
    "dzial": "kinetyka"
   }
  ]

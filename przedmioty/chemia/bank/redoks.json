@@ -1226,6 +1226,42 @@
    "dzial": "redoks"
   },
   {
+   "tytul": "Wybielacz i jodki",
+   "material": "Tekst autorski. Jony ClO⁻ w środowisku kwasowym utleniają jony I⁻ do I₂.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Napisz sumaryczne równanie jonowe.",
+     "odpowiedz": "ClO⁻ + 2I⁻ + 2H⁺ → Cl⁻ + I₂ + H₂O",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Cl: +I → −I (2e⁻).",
+     "nr": "1"
+    }
+   ],
+   "id": "b-redoks-46",
+   "dzial": "redoks"
+  },
+  {
+   "tytul": "Bilans z dichromianem i Fe²⁺",
+   "material": "Tekst autorski. Na zmiareczkowanie 25 cm³ roztworu Fe²⁺ zużyto 10 cm³ K₂Cr₂O₇ o stężeniu 0,02 mol/dm³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz stężenie Fe²⁺.",
+     "odpowiedz": "0,048 mol/dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Cr₂O₇²⁻ + 6Fe²⁺: n(Fe²⁺) = 6 · 2 · 10⁻⁴ = 1,2 · 10⁻³ / 0,025.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-redoks-47",
+   "dzial": "redoks"
+  },
+  {
    "tytul": "Prawo Faradaya",
    "material": "Tekst autorski. Przez roztwór AgNO₃ przepuszczano prąd o natężeniu 2,0 A przez 16 min 5 s. F = 96 500 C/mol, M(Ag) = 108 g/mol.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1249,7 +1285,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-46",
+   "id": "b-redoks-48",
    "dzial": "redoks"
   },
   {
@@ -1276,7 +1312,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-47",
+   "id": "b-redoks-49",
    "dzial": "redoks"
   },
   {
@@ -1294,7 +1330,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-48",
+   "id": "b-redoks-50",
    "dzial": "redoks"
   },
   {
@@ -1321,7 +1357,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-49",
+   "id": "b-redoks-51",
    "dzial": "redoks"
   },
   {
@@ -1348,7 +1384,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-50",
+   "id": "b-redoks-52",
    "dzial": "redoks"
   },
   {
@@ -1366,7 +1402,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-51",
+   "id": "b-redoks-53",
    "dzial": "redoks"
   },
   {
@@ -1393,7 +1429,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-52",
+   "id": "b-redoks-54",
    "dzial": "redoks"
   },
   {
@@ -1420,7 +1456,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-redoks-53",
+   "id": "b-redoks-55",
    "dzial": "redoks"
   },
   {
@@ -1438,7 +1474,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-54",
+   "id": "b-redoks-56",
    "dzial": "redoks"
   },
   {
@@ -1456,7 +1492,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-redoks-55",
+   "id": "b-redoks-57",
    "dzial": "redoks"
   }
  ]

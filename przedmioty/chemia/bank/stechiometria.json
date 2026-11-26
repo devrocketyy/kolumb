@@ -1244,6 +1244,78 @@
    "dzial": "stechiometria"
   },
   {
+   "tytul": "Spalanie magnezu w CO₂",
+   "material": "Tekst autorski. Magnez spala się w CO₂: 2Mg + CO₂ → 2MgO + C. Spalono 4,8 g magnezu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz masę węgla i objętość zużytego CO₂ (w. n.).",
+     "odpowiedz": "1,2 g C; 2,24 dm³ CO₂",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "0,2 mol Mg → 0,1 mol CO₂ → 0,1 mol C.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego płonącego magnezu nie gasi się gaśnicą CO₂.",
+     "odpowiedz": "Magnez reaguje z CO₂ i dalej się pali.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-53",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Wzór tlenku żelaza",
+   "material": "Tekst autorski. Tlenek żelaza zawiera 72,4% żelaza.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Ustal wzór tlenku.",
+     "odpowiedz": "Fe₃O₄",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Fe : O = 1,293 : 1,725 = 3 : 4.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-stechiometria-54",
+   "dzial": "stechiometria"
+  },
+  {
+   "tytul": "Siarczan miedzi w rolnictwie",
+   "material": "Tekst autorski. Ciecz bordoska zawiera CuSO₄ i Ca(OH)₂. Przygotowano roztwór z 25 g CuSO₄·5H₂O.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz liczbę moli jonów Cu²⁺.",
+     "odpowiedz": "0,1 mol",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "25 / 250.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Napisz równanie jonowe reakcji z Ca(OH)₂.",
+     "odpowiedz": "Cu²⁺ + 2OH⁻ → Cu(OH)₂↓",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-stechiometria-55",
+   "dzial": "stechiometria"
+  },
+  {
    "tytul": "Spalanie mieszaniny gazów",
    "material": "Tekst autorski. 10 dm³ mieszaniny metanu i etanu spalono całkowicie, zużywając 29 dm³ tlenu (te same warunki ciśnienia i temperatury).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1258,7 +1330,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-53",
+   "id": "b-stechiometria-56",
    "dzial": "stechiometria"
   },
   {
@@ -1276,7 +1348,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-54",
+   "id": "b-stechiometria-57",
    "dzial": "stechiometria"
   },
   {
@@ -1294,7 +1366,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-55",
+   "id": "b-stechiometria-58",
    "dzial": "stechiometria"
   },
   {
@@ -1312,7 +1384,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-56",
+   "id": "b-stechiometria-59",
    "dzial": "stechiometria"
   },
   {
@@ -1339,7 +1411,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-57",
+   "id": "b-stechiometria-60",
    "dzial": "stechiometria"
   },
   {
@@ -1357,7 +1429,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-58",
+   "id": "b-stechiometria-61",
    "dzial": "stechiometria"
   },
   {
@@ -1375,7 +1447,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-59",
+   "id": "b-stechiometria-62",
    "dzial": "stechiometria"
   },
   {
@@ -1393,7 +1465,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-60",
+   "id": "b-stechiometria-63",
    "dzial": "stechiometria"
   },
   {
@@ -1411,7 +1483,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-61",
+   "id": "b-stechiometria-64",
    "dzial": "stechiometria"
   },
   {
@@ -1429,7 +1501,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-stechiometria-62",
+   "id": "b-stechiometria-65",
    "dzial": "stechiometria"
   },
   {
@@ -1456,7 +1528,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-stechiometria-63",
+   "id": "b-stechiometria-66",
    "dzial": "stechiometria"
   }
  ]

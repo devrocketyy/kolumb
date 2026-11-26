@@ -1199,6 +1199,51 @@
    "dzial": "azotowe-cukry"
   },
   {
+   "tytul": "Hydroliza białka — produkty",
+   "material": "Tekst autorski. Białko poddano hydrolizie kwasowej, a potem próbie biuretowej.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wynik próby biuretowej po całkowitej hydrolizie.",
+     "odpowiedz": "negatywny",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Brak wiązań peptydowych.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj produkt hydrolizy.",
+     "odpowiedz": "mieszanina aminokwasów",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "—",
+     "nr": "2"
+    }
+   ],
+   "id": "b-azotowe-cukry-49",
+   "dzial": "azotowe-cukry"
+  },
+  {
+   "tytul": "Glukoza — masa produktów",
+   "material": "Tekst autorski. Glukozę poddano całkowitemu spaleniu (oddychanie).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz objętość O₂ (w. n.) potrzebną do spalenia 18 g glukozy.",
+     "odpowiedz": "13,44 dm³",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "0,1 mol · 6 mol O₂ · 22,4.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-azotowe-cukry-50",
+   "dzial": "azotowe-cukry"
+  },
+  {
    "tytul": "Cukry — wzory Hawortha",
    "material": "Tekst autorski. D-glukoza w roztworze tworzy dwa anomery piranozowe.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1222,7 +1267,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-49",
+   "id": "b-azotowe-cukry-51",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1249,7 +1294,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-50",
+   "id": "b-azotowe-cukry-52",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1276,7 +1321,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-51",
+   "id": "b-azotowe-cukry-53",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1303,7 +1348,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-52",
+   "id": "b-azotowe-cukry-54",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1330,7 +1375,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-53",
+   "id": "b-azotowe-cukry-55",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1348,7 +1393,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-54",
+   "id": "b-azotowe-cukry-56",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1375,7 +1420,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-azotowe-cukry-55",
+   "id": "b-azotowe-cukry-57",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1393,7 +1438,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-56",
+   "id": "b-azotowe-cukry-58",
    "dzial": "azotowe-cukry"
   },
   {
@@ -1411,7 +1456,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-azotowe-cukry-57",
+   "id": "b-azotowe-cukry-59",
    "dzial": "azotowe-cukry"
   }
  ]
