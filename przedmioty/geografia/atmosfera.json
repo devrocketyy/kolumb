@@ -2283,6 +2283,84 @@
        "d": "Mała — morski; duża — kontynentalny."
       }
      ]
+    },
+    {
+     "id": "s039cafda",
+     "typ": "rysunek",
+     "tytul": "Klimatogram: klimat umiarkowany kontynentalny chłodny (tajga)",
+     "opis": "Klimatogram autorski dla stacji we wschodniej Syberii (dane przybliżone).",
+     "uwaga": "Mimo małych opadów klimat nie jest suchy — niskie parowanie i wieczna zmarzlina zatrzymują wodę.",
+     "svg": "<path class=\"s\" d=\"M50 40 V260 H370 V40\"/><rect class=\"f\" x=\"53.0\" y=\"248.3\" width=\"20.7\" height=\"11.7\"/><rect class=\"f\" x=\"79.7\" y=\"251.2\" width=\"20.7\" height=\"8.8\"/><rect class=\"f\" x=\"106.3\" y=\"252.7\" width=\"20.7\" height=\"7.3\"/><rect class=\"f\" x=\"133.0\" y=\"248.3\" width=\"20.7\" height=\"11.7\"/><rect class=\"f\" x=\"159.7\" y=\"238.0\" width=\"20.7\" height=\"22.0\"/><rect class=\"f\" x=\"186.3\" y=\"216.0\" width=\"20.7\" height=\"44.0\"/><rect class=\"f\" x=\"213.0\" y=\"201.3\" width=\"20.7\" height=\"58.7\"/><rect class=\"f\" x=\"239.7\" y=\"204.3\" width=\"20.7\" height=\"55.7\"/><rect class=\"f\" x=\"266.3\" y=\"227.7\" width=\"20.7\" height=\"32.3\"/><rect class=\"f\" x=\"293.0\" y=\"238.0\" width=\"20.7\" height=\"22.0\"/><rect class=\"f\" x=\"319.7\" y=\"242.4\" width=\"20.7\" height=\"17.6\"/><rect class=\"f\" x=\"346.3\" y=\"246.8\" width=\"20.7\" height=\"13.2\"/><polyline class=\"s2\" fill=\"none\" points=\"63.3,253.7 90.0,238.0 116.7,197.1 143.3,150.0 170.0,112.3 196.7,84.0 223.3,74.6 250.0,87.1 276.7,115.4 303.3,159.4 330.0,219.1 356.7,247.4\"/><path class=\"dash\" d=\"M50 134.3 H370\"/><text class=\"t\" x=\"15\" y=\"138.3\">0°C</text><text class=\"t\" x=\"58.0\" y=\"278\">I</text><text class=\"t\" x=\"84.7\" y=\"278\">F</text><text class=\"t\" x=\"111.3\" y=\"278\">M</text><text class=\"t\" x=\"138.0\" y=\"278\">A</text><text class=\"t\" x=\"164.7\" y=\"278\">M</text><text class=\"t\" x=\"191.3\" y=\"278\">J</text><text class=\"t\" x=\"218.0\" y=\"278\">J</text><text class=\"t\" x=\"244.7\" y=\"278\">A</text><text class=\"t\" x=\"271.3\" y=\"278\">S</text><text class=\"t\" x=\"298.0\" y=\"278\">O</text><text class=\"t\" x=\"324.7\" y=\"278\">N</text><text class=\"t\" x=\"351.3\" y=\"278\">D</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 63,
+       "y": 253.71428571428572,
+       "lx": 90,
+       "ly": 250,
+       "n": "Mroźna zima",
+       "d": "Styczeń ok. −38°C (np. Jakuck)"
+      },
+      {
+       "x": 237,
+       "y": 74.57142857142858,
+       "lx": 220,
+       "ly": 70,
+       "n": "Krótkie, ciepłe lato",
+       "d": "Lipiec ok. 19°C"
+      },
+      {
+       "x": 250,
+       "y": 200,
+       "lx": 300,
+       "ly": 120,
+       "n": "Opady letnie",
+       "d": "Maksimum latem, rocznie ok. 210 mm"
+      },
+      {
+       "x": 330,
+       "y": 219.14285714285714,
+       "lx": 330,
+       "ly": 245,
+       "n": "Amplituda",
+       "d": "Ok. 57°C — klimat skrajnie kontynentalny"
+      }
+     ]
+    },
+    {
+     "id": "s01f80179",
+     "typ": "rysunek",
+     "tytul": "Klimatogram: klimat zwrotnikowy suchy (pustynia)",
+     "opis": "Klimatogram autorski dla stacji na Saharze (dane przybliżone).",
+     "uwaga": "Na pustyniach duża jest dobowa amplituda temperatury — noce bywają chłodne.",
+     "svg": "<path class=\"s\" d=\"M50 40 V260 H370 V40\"/><rect class=\"f\" x=\"53.0\" y=\"246.8\" width=\"20.7\" height=\"13.2\"/><rect class=\"f\" x=\"79.7\" y=\"251.2\" width=\"20.7\" height=\"8.8\"/><rect class=\"f\" x=\"106.3\" y=\"251.2\" width=\"20.7\" height=\"8.8\"/><rect class=\"f\" x=\"133.0\" y=\"255.6\" width=\"20.7\" height=\"4.4\"/><rect class=\"f\" x=\"159.7\" y=\"260.0\" width=\"20.7\" height=\"0.0\"/><rect class=\"f\" x=\"186.3\" y=\"260.0\" width=\"20.7\" height=\"0.0\"/><rect class=\"f\" x=\"213.0\" y=\"260.0\" width=\"20.7\" height=\"0.0\"/><rect class=\"f\" x=\"239.7\" y=\"255.6\" width=\"20.7\" height=\"4.4\"/><rect class=\"f\" x=\"266.3\" y=\"260.0\" width=\"20.7\" height=\"0.0\"/><rect class=\"f\" x=\"293.0\" y=\"255.6\" width=\"20.7\" height=\"4.4\"/><rect class=\"f\" x=\"319.7\" y=\"251.2\" width=\"20.7\" height=\"8.8\"/><rect class=\"f\" x=\"346.3\" y=\"246.8\" width=\"20.7\" height=\"13.2\"/><polyline class=\"s2\" fill=\"none\" points=\"63.3,188.5 90.0,177.5 116.7,155.5 143.3,128.0 170.0,106.0 196.7,89.5 223.3,84.0 250.0,84.0 276.7,100.5 303.3,122.5 330.0,155.5 356.7,183.0\"/><path class=\"dash\" d=\"M50 260.0 H370\"/><text class=\"t\" x=\"15\" y=\"264.0\">0°C</text><text class=\"t\" x=\"58.0\" y=\"278\">I</text><text class=\"t\" x=\"84.7\" y=\"278\">F</text><text class=\"t\" x=\"111.3\" y=\"278\">M</text><text class=\"t\" x=\"138.0\" y=\"278\">A</text><text class=\"t\" x=\"164.7\" y=\"278\">M</text><text class=\"t\" x=\"191.3\" y=\"278\">J</text><text class=\"t\" x=\"218.0\" y=\"278\">J</text><text class=\"t\" x=\"244.7\" y=\"278\">A</text><text class=\"t\" x=\"271.3\" y=\"278\">S</text><text class=\"t\" x=\"298.0\" y=\"278\">O</text><text class=\"t\" x=\"324.7\" y=\"278\">N</text><text class=\"t\" x=\"351.3\" y=\"278\">D</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 237,
+       "y": 84.0,
+       "lx": 230,
+       "ly": 60,
+       "n": "Upalne lato",
+       "d": "Średnio ponad 30°C"
+      },
+      {
+       "x": 63,
+       "y": 188.5,
+       "lx": 80,
+       "ly": 140,
+       "n": "Ciepła zima",
+       "d": "Ok. 13°C"
+      },
+      {
+       "x": 200,
+       "y": 255,
+       "lx": 200,
+       "ly": 230,
+       "n": "Brak opadów",
+       "d": "Rocznie ok. 15 mm"
+      }
+     ]
     }
    ]
   }

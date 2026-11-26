@@ -695,6 +695,49 @@
        "d": "Płyta przesuwa się nad nieruchomą plamą"
       }
      ]
+    },
+    {
+     "id": "s6620b144",
+     "typ": "rysunek",
+     "tytul": "Zrąb i rów tektoniczny",
+     "opis": "Przekrój przez strukturę zrębowo-rowową.",
+     "uwaga": "Przykłady: zrąb — Sudety (Śnieżnik), rów — Kotlina Kłodzka; rowy na świecie: Wielkie Rowy Afrykańskie, rów Renu.",
+     "svg": "<path class=\"f2\" d=\"M20 120 H120 L130 200 L270 200 L280 120 H380 V280 H20 Z\"/><path style=\"fill:#ffcc80\" d=\"M20 150 H120 L124 180 H276 L280 150 H380 V165 H282 L280 215 H120 L118 165 H20 Z\"/><path class=\"s\" d=\"M120 110 L135 290 M280 110 L265 290\"/><path class=\"s2\" d=\"M200 140 V185 M192 175 L200 187 L208 175\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 70,
+       "y": 120,
+       "lx": 60,
+       "ly": 95,
+       "n": "Zrąb",
+       "d": "Blok wyniesiony między uskokami"
+      },
+      {
+       "x": 200,
+       "y": 200,
+       "lx": 200,
+       "ly": 235,
+       "n": "Rów tektoniczny",
+       "d": "Blok obniżony wzdłuż uskoków"
+      },
+      {
+       "x": 127,
+       "y": 150,
+       "lx": 150,
+       "ly": 100,
+       "n": "Uskok",
+       "d": "Pęknięcie z przesunięciem bloków"
+      },
+      {
+       "x": 70,
+       "y": 158,
+       "lx": 40,
+       "ly": 260,
+       "n": "Warstwa przewodnia",
+       "d": "Ta sama warstwa na różnych wysokościach"
+      }
+     ]
     }
    ]
   },
@@ -1733,6 +1776,39 @@
        "ly": 50,
        "n": "Rzeka",
        "d": "Jedno koryto do ujścia"
+      }
+     ]
+    },
+    {
+     "id": "s88bb0731",
+     "typ": "proces",
+     "tytul": "Typy wybrzeży morskich — jak je rozpoznać",
+     "opis": "Wybrzeża powstałe z zalania lądu i działalności morza.",
+     "uwaga": "Przy wybrzeżach z zalania lądu zawsze podaj, jaka forma została zalana.",
+     "kroki": [
+      {
+       "t": "Fiordowe",
+       "d": "Zalane doliny lodowcowe (żłoby) — głębokie i wąskie zatoki, Norwegia."
+      },
+      {
+       "t": "Szkierowe",
+       "d": "Zalane wygłady i mutony — tysiące skalistych wysepek, Szwecja i Finlandia."
+      },
+      {
+       "t": "Riasowe",
+       "d": "Zalane doliny rzeczne w górach — Bretania, Galicja."
+      },
+      {
+       "t": "Dalmatyńskie",
+       "d": "Zalane równoległe pasma górskie — wyspy wzdłuż brzegu, Chorwacja."
+      },
+      {
+       "t": "Mierzejowo-zalewowe",
+       "d": "Mierzeje odcinają zalewy — polski Bałtyk (Zalew Wiślany)."
+      },
+      {
+       "t": "Klifowe",
+       "d": "Abrazja podcina strome brzegi — Wolin, Orłowo."
       }
      ]
     }
