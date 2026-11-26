@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-18-energetyka",
+  "pytania": [
+    {
+      "id": "znak",
+      "typ": "abcd",
+      "pytanie": "Dla reakcji egzotermicznej:",
+      "odpowiedzi": [
+        "ΔH < 0",
+        "ΔH > 0",
+        "ΔH = 0",
+        "znak zależy od katalizatora"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Układ traci energię."
+    },
+    {
+      "id": "oklad",
+      "typ": "abcd",
+      "pytanie": "Rozpuszczanie NH₄NO₃, które ochładza wodę, jest procesem:",
+      "odpowiedzi": [
+        "endotermicznym, ΔH > 0",
+        "egzotermicznym, ΔH < 0",
+        "egzotermicznym, ΔH > 0",
+        "bez efektu cieplnego"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Otoczenie się ochładza."
+    },
+    {
+      "id": "metan",
+      "typ": "abcd",
+      "pytanie": "Ciepło ze spalenia 8 g CH₄ (ΔH = −890 kJ/mol):",
+      "odpowiedzi": [
+        "445 kJ",
+        "890 kJ",
+        "7120 kJ",
+        "111 kJ"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "n = 8/16 = 0,5 mola."
+    },
+    {
+      "id": "hess",
+      "typ": "abcd",
+      "pytanie": "ΔH tworzenia CO z podanych danych:",
+      "odpowiedzi": [
+        "−111 kJ",
+        "−677 kJ",
+        "+111 kJ",
+        "−283 kJ"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "−394 − (−283)."
+    },
+    {
+      "id": "katalizator",
+      "typ": "abcd",
+      "pytanie": "Katalizator:",
+      "odpowiedzi": [
+        "obniża energię aktywacji, nie zmienia ΔH",
+        "obniża ΔH reakcji",
+        "zmienia znak ΔH",
+        "podwyższa energię aktywacji"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Stan początkowy i końcowy bez zmian."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Po odwróceniu równania termochemicznego ΔH:",
+      "odpowiedzi": [
+        "zmienia znak",
+        "pozostaje bez zmian",
+        "rośnie dwukrotnie",
+        "spada do zera"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Reakcja odwrotna ma przeciwny efekt."
+    }
+  ]
+}

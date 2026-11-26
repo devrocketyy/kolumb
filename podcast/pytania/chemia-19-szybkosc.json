@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-19-szybkosc",
+  "pytania": [
+    {
+      "id": "rozdrobnienie",
+      "typ": "abcd",
+      "pytanie": "Proszek cynku reaguje z HCl szybciej niż granulki, ponieważ:",
+      "odpowiedzi": [
+        "ma większą powierzchnię kontaktu",
+        "ma większą masę molową",
+        "reakcja jest bardziej egzotermiczna",
+        "zmienia się produkt reakcji"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Więcej skutecznych zderzeń."
+    },
+    {
+      "id": "vanthoff",
+      "typ": "abcd",
+      "pytanie": "Przy współczynniku 2 wzrost temperatury o 30°C zwiększa szybkość:",
+      "odpowiedzi": [
+        "8 razy",
+        "6 razy",
+        "3 razy",
+        "60 razy"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "2³ = 8."
+    },
+    {
+      "id": "stezenie",
+      "typ": "abcd",
+      "pytanie": "v = k[A]²[B]. Po dwukrotnym wzroście [A] szybkość:",
+      "odpowiedzi": [
+        "wzrośnie 4 razy",
+        "wzrośnie 2 razy",
+        "wzrośnie 8 razy",
+        "nie zmieni się"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "2² = 4."
+    },
+    {
+      "id": "oba",
+      "typ": "abcd",
+      "pytanie": "v = k[A]²[B]. Po podwojeniu [A] i [B] szybkość:",
+      "odpowiedzi": [
+        "wzrośnie 8 razy",
+        "wzrośnie 4 razy",
+        "wzrośnie 6 razy",
+        "wzrośnie 16 razy"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "2² · 2 = 8."
+    },
+    {
+      "id": "kat",
+      "typ": "abcd",
+      "pytanie": "Katalizator po zakończeniu reakcji:",
+      "odpowiedzi": [
+        "pozostaje w niezmienionej ilości",
+        "zużywa się całkowicie",
+        "zamienia się w produkt",
+        "zwiększa wydajność ponad 100%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Uczestniczy w etapach pośrednich, ale się odtwarza."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Badając wpływ temperatury, trzeba utrzymać stałe:",
+      "odpowiedzi": [
+        "stężenie i rozdrobnienie substratów",
+        "tylko objętość naczynia",
+        "tylko temperaturę",
+        "nic — zmienia się wszystko naraz"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Zmienna niezależna jest jedna."
+    }
+  ]
+}

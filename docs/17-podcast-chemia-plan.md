@@ -56,9 +56,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 ## Dział: Energetyka, kinetyka i równowaga
 
-**18. Efekty energetyczne, entalpia i prawo Hessa** `c-energetyka` ⬜
+**18. Efekty energetyczne, entalpia i prawo Hessa** `c-energetyka` ✅
 
-**19. Szybkość reakcji i katalizatory** `c-szybkosc` ⬜
+**19. Szybkość reakcji i katalizatory** `c-szybkosc` ✅
 
 **20. Stan równowagi, stała równowagi i reguła przekory** `c-rownowaga` ⬜
 
