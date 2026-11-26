@@ -57,7 +57,7 @@ Pozytywny: ceglastoczerwony osad tlenku miedzi jeden.
 
 Drugi krok: etanal utlenia się do kwasu octowego. Kwas octowy reaguje z sodą, wydzielając dwutlenek węgla — jest mocniejszy od kwasu węglowego.
 
-Warto pamiętać, jak słaby jest ten kwas. Roztwór octu spożywczego, mniej więcej dziesięcioprocentowy, ma pH około dwóch i pół. Kwas solny o porównywalnym stężeniu molowym miałby pH bliskie zeru. To dlatego ocet możemy pić rozcieńczony w sałatce, a kwasu solnego nie.
+Warto pamiętać, jak słaby jest ten kwas. Ocet spożywczy, sześcioprocentowy, czyli mniej więcej jednomolowy, ma pH około dwóch i pół. Kwas solny o porównywalnym stężeniu molowym miałby pH bliskie zeru. To dlatego ocet możemy pić rozcieńczony w sałatce, a kwasu solnego nie.
 
 Mimo to kwas octowy wystarcza, żeby rozpuścić kamień, bo kwas węglowy jest jeszcze słabszy. Szereg mocy, który warto znać: kwasy mineralne, jak solny czy siarkowy, potem karboksylowe, potem węglowy, a na końcu fenol. Każdy mocniejszy wypiera słabszy z jego soli.
 
