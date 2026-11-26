@@ -2648,6 +2648,49 @@
      ]
     },
     {
+     "id": "s09f4bdd7",
+     "typ": "rysunek",
+     "tytul": "Klimatogram: klimat umiarkowany morski (Brest)",
+     "opis": "Klimatogram autorski stacji na zachodnim wybrzeżu Francji (wartości przybliżone).",
+     "uwaga": "Klimat morski: mała amplituda (ok. 10°C), łagodne zimy i chłodne lata dzięki Prądowi Północnoatlantyckiemu i wiatrom zachodnim; opady przez cały rok.",
+     "svg": "<path class=\"dash\" d=\"M45 250.0 H330\"/><path class=\"dash\" d=\"M45 180.0 H330\"/><path class=\"dash\" d=\"M45 110.0 H330\"/><path class=\"dash\" d=\"M45 40.0 H330\"/><rect class=\"gw2\" x=\"48.0\" y=\"79.4\" width=\"17.8\" height=\"170.6\"/><rect class=\"gw2\" x=\"71.8\" y=\"118.8\" width=\"17.8\" height=\"131.2\"/><rect class=\"gw2\" x=\"95.5\" y=\"131.9\" width=\"17.8\" height=\"118.1\"/><rect class=\"gw2\" x=\"119.2\" y=\"158.1\" width=\"17.8\" height=\"91.9\"/><rect class=\"gw2\" x=\"143.0\" y=\"158.1\" width=\"17.8\" height=\"91.9\"/><rect class=\"gw2\" x=\"166.8\" y=\"184.4\" width=\"17.8\" height=\"65.6\"/><rect class=\"gw2\" x=\"190.5\" y=\"184.4\" width=\"17.8\" height=\"65.6\"/><rect class=\"gw2\" x=\"214.2\" y=\"171.2\" width=\"17.8\" height=\"78.8\"/><rect class=\"gw2\" x=\"238.0\" y=\"145.0\" width=\"17.8\" height=\"105.0\"/><rect class=\"gw2\" x=\"261.8\" y=\"105.6\" width=\"17.8\" height=\"144.4\"/><rect class=\"gw2\" x=\"285.5\" y=\"92.5\" width=\"17.8\" height=\"157.5\"/><rect class=\"gw2\" x=\"309.2\" y=\"66.2\" width=\"17.8\" height=\"183.8\"/><polyline class=\"hot\" fill=\"none\" points=\"56.9,201.0 80.6,201.0 104.4,194.0 128.1,180.0 151.9,159.0 175.6,145.0 199.4,131.0 223.1,131.0 246.9,138.0 270.6,159.0 294.4,180.0 318.1,194.0\"/><circle class=\"hotf\" cx=\"56.9\" cy=\"201.0\" r=\"2.4\"/><circle class=\"hotf\" cx=\"80.6\" cy=\"201.0\" r=\"2.4\"/><circle class=\"hotf\" cx=\"104.4\" cy=\"194.0\" r=\"2.4\"/><circle class=\"hotf\" cx=\"128.1\" cy=\"180.0\" r=\"2.4\"/><circle class=\"hotf\" cx=\"151.9\" cy=\"159.0\" r=\"2.4\"/><circle class=\"hotf\" cx=\"175.6\" cy=\"145.0\" r=\"2.4\"/><circle class=\"hotf\" cx=\"199.4\" cy=\"131.0\" r=\"2.4\"/><circle class=\"hotf\" cx=\"223.1\" cy=\"131.0\" r=\"2.4\"/><circle class=\"hotf\" cx=\"246.9\" cy=\"138.0\" r=\"2.4\"/><circle class=\"hotf\" cx=\"270.6\" cy=\"159.0\" r=\"2.4\"/><circle class=\"hotf\" cx=\"294.4\" cy=\"180.0\" r=\"2.4\"/><circle class=\"hotf\" cx=\"318.1\" cy=\"194.0\" r=\"2.4\"/><path class=\"s\" d=\"M45 40 V250 H330 V40\"/><path class=\"s\" d=\"M41 250.0 H45\"/><text class=\"ts\" x=\"39\" y=\"253.0\" text-anchor=\"end\">0</text><path class=\"s\" d=\"M41 180.0 H45\"/><text class=\"ts\" x=\"39\" y=\"183.0\" text-anchor=\"end\">10</text><path class=\"s\" d=\"M41 110.0 H45\"/><text class=\"ts\" x=\"39\" y=\"113.0\" text-anchor=\"end\">20</text><path class=\"s\" d=\"M41 40.0 H45\"/><text class=\"ts\" x=\"39\" y=\"43.0\" text-anchor=\"end\">30</text><path class=\"s\" d=\"M330 250.0 H334\"/><text class=\"ts\" x=\"336\" y=\"253.0\">0</text><path class=\"s\" d=\"M330 197.5 H334\"/><text class=\"ts\" x=\"336\" y=\"200.5\">40</text><path class=\"s\" d=\"M330 145.0 H334\"/><text class=\"ts\" x=\"336\" y=\"148.0\">80</text><path class=\"s\" d=\"M330 92.5 H334\"/><text class=\"ts\" x=\"336\" y=\"95.5\">120</text><path class=\"s\" d=\"M330 40.0 H334\"/><text class=\"ts\" x=\"336\" y=\"43.0\">160</text><text class=\"ts\" x=\"56.9\" y=\"263\" text-anchor=\"middle\">I</text><text class=\"ts\" x=\"80.6\" y=\"263\" text-anchor=\"middle\">F</text><text class=\"ts\" x=\"104.4\" y=\"263\" text-anchor=\"middle\">M</text><text class=\"ts\" x=\"128.1\" y=\"263\" text-anchor=\"middle\">A</text><text class=\"ts\" x=\"151.9\" y=\"263\" text-anchor=\"middle\">M</text><text class=\"ts\" x=\"175.6\" y=\"263\" text-anchor=\"middle\">J</text><text class=\"ts\" x=\"199.4\" y=\"263\" text-anchor=\"middle\">J</text><text class=\"ts\" x=\"223.1\" y=\"263\" text-anchor=\"middle\">A</text><text class=\"ts\" x=\"246.9\" y=\"263\" text-anchor=\"middle\">S</text><text class=\"ts\" x=\"270.6\" y=\"263\" text-anchor=\"middle\">O</text><text class=\"ts\" x=\"294.4\" y=\"263\" text-anchor=\"middle\">N</text><text class=\"ts\" x=\"318.1\" y=\"263\" text-anchor=\"middle\">D</text><text class=\"ts\" x=\"39\" y=\"32\" text-anchor=\"end\">°C</text><text class=\"ts\" x=\"336\" y=\"32\">mm</text><text class=\"tb\" x=\"188\" y=\"282\" text-anchor=\"middle\">średnia 11,8°C · amplituda 10°C · suma opadów 1070 mm</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 56.875,
+       "y": 201.0,
+       "lx": 95,
+       "ly": 70,
+       "n": "Łagodna zima",
+       "d": "Styczeń ok. 7°C — brak mrozów"
+      },
+      {
+       "x": 223.125,
+       "y": 131.0,
+       "lx": 210,
+       "ly": 30,
+       "n": "Chłodne lato",
+       "d": "Sierpień ok. 17°C"
+      },
+      {
+       "x": 318.125,
+       "y": 66.25,
+       "lx": 260,
+       "ly": 90,
+       "n": "Mokra zima",
+       "d": "Najwięcej opadów jesienią i zimą — niże z Atlantyku"
+      },
+      {
+       "x": 175.625,
+       "y": 184.375,
+       "lx": 150,
+       "ly": 160,
+       "n": "Suchsze lato",
+       "d": "Mniej opadów, ale żaden miesiąc nie jest suchy"
+      }
+     ]
+    },
+    {
      "id": "sdbd63066",
      "typ": "rysunek",
      "tytul": "Klimatogram: klimat równikowy wilgotny",
