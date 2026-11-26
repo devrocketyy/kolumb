@@ -54,6 +54,19 @@
       "wyjasnienie": "K⁺ i NO₃⁻ są obserwatorami."
     },
     {
+      "id": "gaz",
+      "typ": "abcd",
+      "pytanie": "Skrócony zapis jonowy reakcji Na₂CO₃ + HCl:",
+      "odpowiedzi": [
+        "CO₃²⁻ + 2H⁺ → CO₂↑ + H₂O",
+        "Na⁺ + Cl⁻ → NaCl",
+        "CO₃²⁻ + H⁺ → CO₂ + OH⁻",
+        "Na₂CO₃ + 2H⁺ → 2Na⁺ + H₂CO₃"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Siłą napędową jest wydzielanie gazu."
+    },
+    {
       "id": "podsumowanie",
       "typ": "abcd",
       "pytanie": "Masa AgCl z 0,1 mola AgNO₃ (nadmiar NaCl):",

@@ -87,6 +87,18 @@ H⁺ plus OH⁻ daje H₂O.
 
 [koniec odpowiedzi]
 
+[pytanie: gaz]
+
+Sprawdź się. Jaki jest skrócony zapis jonowy reakcji węglanu sodu z kwasem solnym?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+CO₃²⁻ plus dwa H⁺ daje CO₂ i H₂O.
+
+[koniec odpowiedzi]
+
 ## Co z tego będzie na maturze
 
 Bardzo częste polecenie: zaprojektuj doświadczenie, które pozwoli odróżnić dwie sole, podaj obserwacje i zapis jonowy. Wybierz odczynnik, który z jedną solą daje osad albo gaz, a z drugą nie. Obserwacje to to, co widać: „wytrąca się biały osad”, a nie „powstaje AgCl”.
