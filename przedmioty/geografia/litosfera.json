@@ -1441,6 +1441,49 @@
        "d": "Jedno koryto do ujścia"
       }
      ]
+    },
+    {
+     "id": "s598d9e9a",
+     "typ": "rysunek",
+     "tytul": "Profil doliny V i U",
+     "opis": "Porównanie przekroju doliny rzecznej i lodowcowej.",
+     "uwaga": "W Tatrach doliny U to np. Dolina Pięciu Stawów i Dolina Białki — przekształcone przez lodowce plejstoceńskie.",
+     "svg": "<path class=\"f2\" d=\"M10 60 L90 230 L110 230 L190 60 L190 290 L10 290 Z\"/><path d=\"M90 230 H110 V240 H90 Z\" fill=\"#64b5f6\"/><path class=\"f2\" d=\"M210 60 L240 80 Q250 230 300 230 Q350 230 360 80 L390 60 L390 290 L210 290 Z\"/><path d=\"M285 230 H315 V238 H285 Z\" fill=\"#64b5f6\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 100,
+       "y": 235,
+       "lx": 70,
+       "ly": 270,
+       "n": "Dolina V",
+       "d": "Erozja wgłębna rzeki górskiej"
+      },
+      {
+       "x": 50,
+       "y": 140,
+       "lx": 30,
+       "ly": 110,
+       "n": "Strome stoki",
+       "d": "Ruchy masowe, spłukiwanie"
+      },
+      {
+       "x": 300,
+       "y": 228,
+       "lx": 300,
+       "ly": 270,
+       "n": "Dolina U (żłób)",
+       "d": "Erozja lodowca górskiego"
+      },
+      {
+       "x": 240,
+       "y": 80,
+       "lx": 225,
+       "ly": 45,
+       "n": "Wiszące zbocza",
+       "d": "Prawie pionowe ściany żłobu"
+      }
+     ]
     }
    ]
   }

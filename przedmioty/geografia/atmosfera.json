@@ -378,6 +378,59 @@
      "wyjasnienie": "−18°C byłoby bez efektu cieplarnianego.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s5a5d1c33",
+     "typ": "rysunek",
+     "tytul": "Fen — przekrój przez góry",
+     "opis": "Mechanizm powstawania wiatru fenowego.",
+     "uwaga": "Na maturze liczysz temperaturę: najpierw wznoszenie (sucho- i wilgotnoadiabatyczne), potem opadanie 1°C/100 m.",
+     "svg": "<path class=\"f2\" d=\"M20 270 L120 220 L200 70 L280 230 L380 260 L380 290 L20 290 Z\"/><path class=\"s2\" d=\"M30 250 L110 205 L190 70 M210 70 L290 215 L370 245\"/><path class=\"s2\" d=\"M360 238 L370 245 L358 250\"/><ellipse class=\"d\" cx=\"150\" cy=\"130\" rx=\"45\" ry=\"22\"/><path class=\"dash\" d=\"M90 150 l-6 18 M110 152 l-6 18 M130 152 l-6 18\"/><text class=\"t\" x=\"20\" y=\"235\">10°C</text><text class=\"t\" x=\"180\" y=\"55\">−1°C</text><text class=\"t\" x=\"330\" y=\"230\">12,5°C</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 70,
+       "y": 228,
+       "lx": 40,
+       "ly": 200,
+       "n": "Strona dowietrzna",
+       "d": "Powietrze wznosi się i ochładza"
+      },
+      {
+       "x": 150,
+       "y": 130,
+       "lx": 95,
+       "ly": 100,
+       "n": "Chmury i opady",
+       "d": "Kondensacja — ciepło kondensacji spowalnia ochładzanie (ok. 0,6°C/100 m)"
+      },
+      {
+       "x": 200,
+       "y": 70,
+       "lx": 240,
+       "ly": 60,
+       "n": "Grzbiet",
+       "d": "Powietrze traci większość wilgoci"
+      },
+      {
+       "x": 300,
+       "y": 220,
+       "lx": 300,
+       "ly": 190,
+       "n": "Strona zawietrzna",
+       "d": "Suche powietrze opada i ogrzewa się o 1°C/100 m"
+      },
+      {
+       "x": 360,
+       "y": 245,
+       "lx": 330,
+       "ly": 275,
+       "n": "Ciepły, suchy wiatr",
+       "d": "Fen (w Tatrach — halny)"
+      }
+     ]
+    }
    ]
   },
   {
@@ -787,6 +840,65 @@
        "ly": 45,
        "n": "Niż subpolarny",
        "d": "Ok. 60°, zbieżność mas powietrza"
+      }
+     ]
+    },
+    {
+     "id": "s08685ccf",
+     "typ": "rysunek",
+     "tytul": "Bryza dzienna i nocna",
+     "opis": "Cyrkulacja bryzowa nad wybrzeżem w dzień i w nocy.",
+     "uwaga": "Wiatr zawsze wieje przy ziemi od wyżu do niżu — od chłodniejszego do cieplejszego podłoża.",
+     "svg": "<path class=\"f\" d=\"M10 150 H190 V180 H10 Z\"/><path class=\"s2\" d=\"M10 150 H190\" opacity=\"0\"/><rect class=\"d\" x=\"10\" y=\"150\" width=\"0\" height=\"0\"/><path d=\"M100 150 H190 V180 H100 Z\" fill=\"#64b5f6\"/><path class=\"s\" d=\"M150 140 H40 M50 133 L40 140 L50 147 M40 135 V60 M140 60 H40 M150 60 V135 M143 125 L150 135 L157 125\"/><text class=\"t\" x=\"70\" y=\"30\">DZIEŃ</text><path class=\"f\" d=\"M210 150 H390 V180 H210 Z\"/><path d=\"M300 150 H390 V180 H300 Z\" fill=\"#64b5f6\"/><path class=\"s\" d=\"M240 140 H350 M340 133 L350 140 L340 147 M350 135 V60 M250 60 H350 M240 60 V135 M233 125 L240 135 L247 125\"/><text class=\"t\" x=\"270\" y=\"30\">NOC</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 55,
+       "y": 165,
+       "lx": 40,
+       "ly": 210,
+       "n": "Ląd w dzień",
+       "d": "Nagrzewa się szybciej — powietrze wznosi się, niż"
+      },
+      {
+       "x": 145,
+       "y": 165,
+       "lx": 140,
+       "ly": 210,
+       "n": "Morze w dzień",
+       "d": "Chłodniejsze — wyż"
+      },
+      {
+       "x": 95,
+       "y": 140,
+       "lx": 95,
+       "ly": 120,
+       "n": "Bryza morska",
+       "d": "Przy ziemi wiatr od morza"
+      },
+      {
+       "x": 255,
+       "y": 165,
+       "lx": 240,
+       "ly": 240,
+       "n": "Ląd nocą",
+       "d": "Szybko się wychładza — wyż"
+      },
+      {
+       "x": 345,
+       "y": 165,
+       "lx": 350,
+       "ly": 240,
+       "n": "Morze nocą",
+       "d": "Cieplejsze — niż"
+      },
+      {
+       "x": 295,
+       "y": 140,
+       "lx": 295,
+       "ly": 120,
+       "n": "Bryza lądowa",
+       "d": "Przy ziemi wiatr od lądu"
       }
      ]
     }

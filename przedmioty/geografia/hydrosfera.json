@@ -834,6 +834,43 @@
      "wyjasnienie": "Woda dłużej zostaje w zlewni.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s7f021056",
+     "typ": "rysunek",
+     "tytul": "Ustrój rzeki nizinnej (śnieżny)",
+     "opis": "Średnie miesięczne przepływy rzeki o ustroju śnieżnym, dane autorskie.",
+     "uwaga": "Ustrój deszczowo-śnieżny ma dodatkowe wyraźne wezbranie letnie; górski — maksima wiosną i latem.",
+     "svg": "<path class=\"s\" d=\"M40 260 H380 M40 260 V30\"/><rect style=\"fill:#64b5f6\" x=\"48\" y=\"170\" width=\"20\" height=\"90\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"75\" y=\"150\" width=\"20\" height=\"110\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"102\" y=\"90\" width=\"20\" height=\"170\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"129\" y=\"60\" width=\"20\" height=\"200\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"156\" y=\"130\" width=\"20\" height=\"130\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"183\" y=\"160\" width=\"20\" height=\"100\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"210\" y=\"165\" width=\"20\" height=\"95\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"237\" y=\"175\" width=\"20\" height=\"85\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"264\" y=\"190\" width=\"20\" height=\"70\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"291\" y=\"185\" width=\"20\" height=\"75\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"318\" y=\"175\" width=\"20\" height=\"85\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"345\" y=\"165\" width=\"20\" height=\"95\" fill=\"#64b5f6\"/><text class=\"t\" x=\"52\" y=\"278\">I</text><text class=\"t\" x=\"79\" y=\"278\">II</text><text class=\"t\" x=\"106\" y=\"278\">III</text><text class=\"t\" x=\"133\" y=\"278\">IV</text><text class=\"t\" x=\"160\" y=\"278\">V</text><text class=\"t\" x=\"187\" y=\"278\">VI</text><text class=\"t\" x=\"214\" y=\"278\">VII</text><text class=\"t\" x=\"241\" y=\"278\">VIII</text><text class=\"t\" x=\"268\" y=\"278\">IX</text><text class=\"t\" x=\"295\" y=\"278\">X</text><text class=\"t\" x=\"322\" y=\"278\">XI</text><text class=\"t\" x=\"349\" y=\"278\">XII</text><text class=\"t\" x=\"45\" y=\"25\">przepływ</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 137,
+       "y": 60,
+       "lx": 160,
+       "ly": 40,
+       "n": "Wezbranie roztopowe",
+       "d": "Marzec–kwiecień: topnienie śniegu"
+      },
+      {
+       "x": 264,
+       "y": 190,
+       "lx": 270,
+       "ly": 150,
+       "n": "Niżówka",
+       "d": "Późne lato–wrzesień: parowanie i transpiracja"
+      },
+      {
+       "x": 210,
+       "y": 165,
+       "lx": 200,
+       "ly": 120,
+       "n": "Wezbranie letnie",
+       "d": "Słabe — opady nawalne"
+      }
+     ]
+    }
    ]
   },
   {
