@@ -97,6 +97,18 @@ Około trzydziestu sześciu procent. Dziewięćdziesiąt przez dwieście czterdz
 
 Najczęściej: podaj trzy metody otrzymania danej soli i napisz równania. Albo: zaprojektuj otrzymanie soli trudno rozpuszczalnej metodą strąceniową. Pamiętaj o szeregu aktywności metali i o tym, że sól plus sól reaguje tylko wtedy, gdy powstaje osad.
 
+[pytanie: podsumowanie]
+
+Sprawdź się. Czy zmieszanie roztworów NaCl i KNO₃ prowadzi do reakcji?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Nie. Wszystkie możliwe produkty są rozpuszczalne, więc nie powstaje osad.
+
+[koniec odpowiedzi]
+
 W następnym odcinku: metale i ich związki.
 
 [muzyka, cicho]
