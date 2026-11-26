@@ -111,11 +111,11 @@ for lat, t in ((90, 'W'), (60, 'N'), (30, 'W'), (0, 'N'), (-30, 'W'), (-60, 'N')
 _cyr += '<text class="ts" x="8" y="292">W — wyż, N — niż; strzałki — kierunek wiatru przy powierzchni</text>'
 S['g-cisnienie'] = [
  dict(typ='rysunek', tytul='Cyrkulacja atmosferyczna', svg=_cyr,
-      znaczniki=[(135, _y(15), 290, 110, 'Pasaty NE', 'Od wyżów zwrotnikowych ku równikowi; odchylone w prawo'),
-                 (135, _y(-15), 290, 205, 'Pasaty SE', 'Na półkuli S odchylone w lewo'),
+      znaczniki=[(135, _y(15), 278, 110, 'Pasaty NE', 'Od wyżów zwrotnikowych ku równikowi; odchylone w prawo'),
+                 (135, _y(-15), 278, 205, 'Pasaty SE', 'Na półkuli S odchylone w lewo'),
                  (60, 150, 70, 18, 'Niż równikowy', 'Wznoszenie powietrza, chmury kłębiaste, codzienne opady'),
-                 (165, _y(45), 290, 70, 'Wiatry zachodnie', 'Między wyżem zwrotnikowym a niżem subpolarnym'),
-                 (140, _y(75), 290, 30, 'Wschodnie polarne', 'Od wyżu polarnego')],
+                 (165, _y(45), 278, 70, 'Wiatry zachodnie', 'Między wyżem zwrotnikowym a niżem subpolarnym'),
+                 (140, _y(75), 278, 30, 'Wschodnie polarne', 'Od wyżu polarnego')],
       opis='Układ stref ciśnienia i stałych wiatrów na Ziemi.',
       uwaga='Na półkuli N wiatry odchylają się w prawo, na S w lewo (siła Coriolisa). W wyżu zwrotnikowym opadające suche powietrze tworzy pustynie.'),
 ]
@@ -168,7 +168,7 @@ _st = ('<defs><clipPath id="g1st"><path d="M15 250 L125 72 L165 72 L275 250 Z"/>
        + '<text class="ts" x="8" y="296">skorupa ziemska</text>')
 S['g-tektonika'] = [
  dict(typ='rysunek', tytul='Przekrój stratowulkanu', svg=_st,
-      znaczniki=[(150, 35, 285, 22, 'Chmura erupcyjna', 'Gazy, popiół i bomby wulkaniczne'),
+      znaczniki=[(150, 35, 268, 22, 'Chmura erupcyjna', 'Gazy, popiół i bomby wulkaniczne'),
                  (145, 74, 285, 55, 'Krater', 'Otwór na szczycie stożka'),
                  (192, 110, 285, 88, 'Stożek boczny', 'Pasożytniczy — erupcja z komina bocznego'),
                  (100, 118, 285, 121, 'Potok lawy', 'Lepka lawa andezytowa spływa na krótkim odcinku'),

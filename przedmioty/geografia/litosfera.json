@@ -547,7 +547,7 @@
       {
        "x": 150,
        "y": 35,
-       "lx": 285,
+       "lx": 268,
        "ly": 22,
        "n": "Chmura erupcyjna",
        "d": "Gazy, popiół i bomby wulkaniczne"
@@ -1525,85 +1525,58 @@
      "id": "sead6610b",
      "typ": "rysunek",
      "tytul": "Dolina rzeczna V i dolina lodowcowa U",
-     "opis": "Porównanie przekrojów doliny rzecznej i lodowcowej.",
-     "uwaga": "Kształt U jest dowodem dawnego zlodowacenia gór, np. w Tatrach.",
-     "svg": "<path class=\"f\" d=\"M20 60 L100 240 L120 240 L190 60 Z\" opacity=\"0.5\"/><path class=\"s\" d=\"M20 60 L100 240 L120 240 L190 60\"/><path class=\"f\" d=\"M210 60 C210 230 240 240 295 240 C350 240 380 230 380 60 Z\" opacity=\"0.5\"/><path class=\"s\" d=\"M210 60 C210 230 240 240 295 240 C350 240 380 230 380 60\"/><path class=\"s2\" d=\"M100 240 H120\"/><text class=\"t\" x=\"85\" y=\"275\">V</text><text class=\"t\" x=\"290\" y=\"275\">U</text>",
-     "viewBox": "0 0 400 300",
-     "znaczniki": [
-      {
-       "x": 110,
-       "y": 240,
-       "lx": 140,
-       "ly": 255,
-       "n": "Rzeka w dnie doliny V",
-       "d": "Erozja wgłębna w górnym biegu"
-      },
-      {
-       "x": 60,
-       "y": 150,
-       "lx": 30,
-       "ly": 160,
-       "n": "Strome zbocza V",
-       "d": "Wąskie dno, przekrój klinowy"
-      },
-      {
-       "x": 295,
-       "y": 240,
-       "lx": 330,
-       "ly": 260,
-       "n": "Szerokie płaskie dno",
-       "d": "Wyżłobione przez lodowiec"
-      },
-      {
-       "x": 215,
-       "y": 150,
-       "lx": 245,
-       "ly": 130,
-       "n": "Strome ściany U",
-       "d": "Żłób lodowcowy, np. Dolina Pięciu Stawów"
-      }
-     ]
-    },
-    {
-     "id": "s8ea628a7",
-     "typ": "rysunek",
-     "tytul": "Meander i starorzecze",
-     "opis": "Kręty bieg rzeki nizinnej.",
-     "uwaga": "Na brzegu wklęsłym przeważa erozja, na wypukłym — akumulacja.",
-     "svg": "<path class=\"s2\" d=\"M20 150 C80 60 140 60 160 150 C180 240 240 240 260 150 C280 60 340 60 380 150\"/><path class=\"s2\" d=\"M300 230 C340 230 360 260 330 275 C300 290 270 260 300 230\" fill=\"none\"/><path class=\"dash\" d=\"M120 75 L100 60 M200 225 L220 240\"/>",
+     "opis": "Porównanie przekrojów doliny rzecznej (V) i lodowcowej (U).",
+     "uwaga": "Kształt U jest dowodem dawnego zlodowacenia gór — w Tatrach np. Dolina Pięciu Stawów Polskich, Dolina Białki.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gs2\" d=\"M10 60 L15 60 L80 228 L100 228 L165 60 L190 60 L190 290 L10 290 Z\"/><path class=\"gs\" d=\"M10 60 L15 60 L80 228 L100 228 L165 60 L190 60 L190 120 L170 120 L105 250 L75 250 L10 110 Z\" opacity=\"0.85\"/><path class=\"gw2\" d=\"M80 228 L100 228 L96 240 L84 240 Z\"/><path class=\"gf2\" d=\"M22 78 l-6 0 l6 -13 l6 13 Z\"/><path class=\"gf2\" d=\"M34 108 l-6 0 l6 -13 l6 13 Z\"/><path class=\"gf2\" d=\"M160 78 l-6 0 l6 -13 l6 13 Z\"/><path class=\"gf2\" d=\"M148 108 l-6 0 l6 -13 l6 13 Z\"/><path class=\"gs2\" d=\"M210 60 L225 60 C232 150 250 225 300 228 C350 225 368 150 375 60 L390 60 L390 290 L210 290 Z\"/><path class=\"gs\" d=\"M210 60 L225 60 C232 150 250 225 300 228 C350 225 368 150 375 60 L390 60 L390 115 L380 115 C372 190 350 248 300 250 C250 248 228 190 220 115 L210 115 Z\" opacity=\"0.85\"/><path class=\"gw2\" d=\"M272 228 C285 232 315 232 328 228 Z\" style=\"stroke:none\"/><ellipse class=\"gw\" cx=\"300\" cy=\"228\" rx=\"26\" ry=\"3\"/><path class=\"gc\" d=\"M238 200 q8 -10 16 0 Z M346 200 q8 -10 16 0 Z\"/><path class=\"gi\" style=\"stroke-dasharray:4 3;fill:none\" d=\"M222 75 C230 160 252 222 300 225 C348 222 370 160 378 75\"/><text class=\"ts\" x=\"300\" y=\"70\" text-anchor=\"middle\">dawna powierzchnia lodowca</text><text class=\"tb\" x=\"90\" y=\"282\" text-anchor=\"middle\">dolina rzeczna V</text><text class=\"tb\" x=\"300\" y=\"282\" text-anchor=\"middle\">dolina lodowcowa U (żłób)</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
        "x": 90,
-       "y": 78,
+       "y": 234,
+       "lx": 120,
+       "ly": 255,
+       "n": "Potok",
+       "d": "Erozja wgłębna pogłębia wąskie dno"
+      },
+      {
+       "x": 45,
+       "y": 150,
        "lx": 60,
-       "ly": 40,
-       "n": "Brzeg wklęsły",
-       "d": "Erozja — prąd uderza w brzeg, powstaje podcięcie"
+       "ly": 25,
+       "n": "Stoki V",
+       "d": "Strome, proste; spłukiwanie i ruchy masowe"
       },
       {
-       "x": 125,
-       "y": 130,
-       "lx": 110,
-       "ly": 160,
-       "n": "Brzeg wypukły",
-       "d": "Akumulacja — łacha piaszczysta"
+       "x": 300,
+       "y": 228,
+       "lx": 312,
+       "ly": 262,
+       "n": "Płaskie dno",
+       "d": "Wyżłobione przez lodowiec; jeziora polodowcowe"
       },
       {
-       "x": 210,
-       "y": 215,
-       "lx": 240,
-       "ly": 205,
-       "n": "Zakole",
-       "d": "Meander przesuwa się z biegiem rzeki"
+       "x": 228,
+       "y": 140,
+       "lx": 245,
+       "ly": 30,
+       "n": "Strome ściany",
+       "d": "Wygładzone przez lód"
       },
       {
-       "x": 330,
-       "y": 275,
-       "lx": 360,
-       "ly": 290,
-       "n": "Starorzecze",
-       "d": "Odcięte zakole, jezioro w dolinie"
+       "x": 354,
+       "y": 196,
+       "lx": 330,
+       "ly": 170,
+       "n": "Morena",
+       "d": "Wał materiału pozostawiony przez lodowiec"
+      },
+      {
+       "x": 300,
+       "y": 70,
+       "lx": 290,
+       "ly": 50,
+       "n": "Zasięg lodu",
+       "d": "Grubość dawnego lodowca"
       }
      ]
     },
@@ -1611,42 +1584,58 @@
      "id": "s300e35d7",
      "typ": "rysunek",
      "tytul": "Wydma paraboliczna i barchan",
-     "opis": "Kształt wydmy wskazuje kierunek wiatru.",
-     "uwaga": "Najczęstsze pytanie: w którą stronę wiał wiatr. Ramiona barchanu „uciekają” z wiatrem.",
-     "svg": "<path class=\"f\" d=\"M40 90 C80 40 160 40 180 90 C150 70 110 70 80 90 L40 90 Z\"/><path class=\"f\" d=\"M220 210 C260 260 340 260 360 210 C330 230 290 230 260 210 L220 210 Z\"/><path class=\"s2\" d=\"M110 170 V110\"/><path class=\"s2\" d=\"M100 122 L110 105 L120 122\"/><path class=\"s2\" d=\"M290 200 V140\"/><path class=\"s2\" d=\"M280 152 L290 135 L300 152\"/>",
+     "opis": "Kształt wydmy wskazuje kierunek wiatru (widok z góry).",
+     "uwaga": "Paraboliczna (wybrzeża, np. Mierzeja Łebska): ramiona pod wiatr. Barchan (pustynie bez roślinności): ramiona z wiatrem.",
+     "svg": "<rect class=\"gp\" x=\"0\" y=\"0\" width=\"400\" height=\"300\" opacity=\"0.45\"/><path class=\"s\" d=\"M200 20 V270\" style=\"stroke-dasharray:4 3\"/><path class=\"gp ol\" d=\"M40 70 C90 60 140 80 160 140 C140 200 90 220 40 210 L45 196 C85 200 120 185 135 140 C120 100 85 88 45 84 Z\"/><path class=\"gc\" d=\"M118 88 C140 100 158 120 160 140 C158 160 140 182 118 194 C135 175 145 160 146 140 C145 120 135 105 118 88 Z\" opacity=\"0.8\"/><path class=\"gt\" d=\"M48 80 l-4 0 l4 -8 l4 8 Z\"/><path class=\"gt\" d=\"M60 82 l-4 0 l4 -8 l4 8 Z\"/><path class=\"gt\" d=\"M50 206 l-4 0 l4 -8 l4 8 Z\"/><path class=\"gt\" d=\"M62 204 l-4 0 l4 -8 l4 8 Z\"/><path class=\"gp ol\" d=\"M250 140 C250 95 290 75 360 70 C320 90 300 115 300 140 C300 165 320 190 360 210 C290 205 250 185 250 140 Z\"/><path class=\"gc\" d=\"M360 70 C320 90 300 115 300 140 C300 165 320 190 360 210 C330 180 318 160 318 140 C318 120 330 100 360 70 Z\" opacity=\"0.7\"/><path class=\"s\" d=\"M20 268 H50\"/><path class=\"d\" d=\"M50 268 l-7 -4 l0 8 Z\"/><path class=\"s\" d=\"M70 268 H100\"/><path class=\"d\" d=\"M100 268 l-7 -4 l0 8 Z\"/><path class=\"s\" d=\"M120 268 H150\"/><path class=\"d\" d=\"M150 268 l-7 -4 l0 8 Z\"/><path class=\"s\" d=\"M220 268 H250\"/><path class=\"d\" d=\"M250 268 l-7 -4 l0 8 Z\"/><path class=\"s\" d=\"M270 268 H300\"/><path class=\"d\" d=\"M300 268 l-7 -4 l0 8 Z\"/><path class=\"s\" d=\"M320 268 H350\"/><path class=\"d\" d=\"M350 268 l-7 -4 l0 8 Z\"/><text class=\"tb\" x=\"100\" y=\"245\" text-anchor=\"middle\">wydma paraboliczna</text><text class=\"tb\" x=\"300\" y=\"245\" text-anchor=\"middle\">barchan</text><text class=\"ts\" x=\"200\" y=\"290\" text-anchor=\"middle\">wiatr z zachodu na wschód — widok z góry</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 110,
-       "y": 55,
-       "lx": 110,
+       "x": 50,
+       "y": 77,
+       "lx": 60,
        "ly": 25,
-       "n": "Wydma paraboliczna",
-       "d": "Ramiona skierowane pod wiatr — wybrzeża (Mierzeja Łebska)"
+       "n": "Ramiona",
+       "d": "Paraboli: skierowane POD wiatr — utrwalone roślinnością"
       },
       {
-       "x": 290,
-       "y": 245,
-       "lx": 290,
-       "ly": 280,
-       "n": "Barchan",
-       "d": "Ramiona skierowane z wiatrem — pustynie"
+       "x": 152,
+       "y": 140,
+       "lx": 175,
+       "ly": 110,
+       "n": "Czoło",
+       "d": "Wędruje z wiatrem; stromy stok zawietrzny po stronie wschodniej"
       },
       {
-       "x": 110,
-       "y": 150,
-       "lx": 70,
-       "ly": 160,
-       "n": "Wiatr (parabola)",
-       "d": "Wieje od strony ramion ku czołu wydmy"
+       "x": 350,
+       "y": 74,
+       "lx": 300,
+       "ly": 25,
+       "n": "Rogi",
+       "d": "Barchanu: skierowane Z WIATREM — na brzegach piasek przesypuje się szybciej"
       },
       {
-       "x": 290,
-       "y": 180,
+       "x": 345,
+       "y": 140,
        "lx": 330,
-       "ly": 175,
-       "n": "Wiatr (barchan)",
-       "d": "Wieje od strony czoła ku ramionom"
+       "ly": 112,
+       "n": "Zawietrzny",
+       "d": "Stromy (ok. 30–34°), wklęsły stok barchanu"
+      },
+      {
+       "x": 100,
+       "y": 268,
+       "lx": 150,
+       "ly": 238,
+       "n": "Wiatr",
+       "d": "Stały kierunek wiatru — z zachodu"
+      },
+      {
+       "x": 265,
+       "y": 140,
+       "lx": 225,
+       "ly": 180,
+       "n": "Dowietrzny",
+       "d": "Łagodny stok, po którym piasek jest wwiewany"
       }
      ]
     },

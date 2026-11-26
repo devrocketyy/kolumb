@@ -791,42 +791,50 @@
      "id": "s8343caef",
      "typ": "rysunek",
      "tytul": "Piramidy wieku: młode i starzejące się społeczeństwo",
-     "opis": "Dwa typy struktury wieku ludności.",
-     "uwaga": "Piramida „ula” lub „urny” oznacza starzenie się społeczeństwa.",
-     "svg": "<path class=\"s\" d=\"M100 40 V270 M300 40 V270\"/><path class=\"f\" d=\"M100 60 L110 60 L130 110 L150 160 L170 210 L185 260 L100 260 Z\"/><path class=\"f2\" d=\"M100 60 L90 60 L70 110 L50 160 L30 210 L15 260 L100 260 Z\" opacity=\"0.7\"/><path class=\"f\" d=\"M300 60 L320 60 L340 110 L345 160 L335 210 L320 260 L300 260 Z\"/><path class=\"f2\" d=\"M300 60 L285 60 L262 110 L256 160 L264 210 L278 260 L300 260 Z\" opacity=\"0.7\"/>",
+     "opis": "Struktura wieku i płci w dwóch krajach (dane umowne, grupy pięcioletnie).",
+     "uwaga": "Kraj A — piramida „progresywna” (np. Niger, Mali), kraj B — „regresywna”, w kształcie urny (np. Japonia, Włochy, coraz bardziej Polska).",
+     "svg": "<path class=\"s\" d=\"M100 30 V258\"/><rect class=\"gw2\" x=\"19.2\" y=\"242\" width=\"80.8\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"242\" width=\"79.1\" height=\"12\"/><rect class=\"gw2\" x=\"26.9\" y=\"228\" width=\"73.1\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"228\" width=\"71.6\" height=\"12\"/><rect class=\"gw2\" x=\"35.4\" y=\"214\" width=\"64.6\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"214\" width=\"63.3\" height=\"12\"/><rect class=\"gw2\" x=\"43.9\" y=\"200\" width=\"56.1\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"200\" width=\"55.0\" height=\"12\"/><rect class=\"gw2\" x=\"51.5\" y=\"186\" width=\"48.5\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"186\" width=\"47.5\" height=\"12\"/><rect class=\"gw2\" x=\"59.2\" y=\"172\" width=\"40.8\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"172\" width=\"40.0\" height=\"12\"/><rect class=\"gw2\" x=\"66.0\" y=\"158\" width=\"34.0\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"158\" width=\"33.3\" height=\"12\"/><rect class=\"gw2\" x=\"72.0\" y=\"144\" width=\"28.0\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"144\" width=\"27.5\" height=\"12\"/><rect class=\"gw2\" x=\"77.0\" y=\"130\" width=\"23.0\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"130\" width=\"22.5\" height=\"12\"/><rect class=\"gw2\" x=\"82.2\" y=\"116\" width=\"17.9\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"116\" width=\"17.5\" height=\"12\"/><rect class=\"gw2\" x=\"86.4\" y=\"102\" width=\"13.6\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"102\" width=\"13.3\" height=\"12\"/><rect class=\"gw2\" x=\"89.8\" y=\"88\" width=\"10.2\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"88\" width=\"10.0\" height=\"12\"/><rect class=\"gw2\" x=\"93.2\" y=\"74\" width=\"6.8\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"74\" width=\"9.2\" height=\"12\"/><rect class=\"gw2\" x=\"95.8\" y=\"60\" width=\"4.2\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"60\" width=\"9.2\" height=\"12\"/><rect class=\"gw2\" x=\"97.5\" y=\"46\" width=\"2.5\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"46\" width=\"10.0\" height=\"12\"/><rect class=\"gw2\" x=\"98.3\" y=\"32\" width=\"1.7\" height=\"12\"/><rect class=\"gm2\" x=\"100\" y=\"32\" width=\"11.7\" height=\"12\"/><path class=\"s\" d=\"M15 258 H185\"/><path class=\"s\" d=\"M15 258 v4\"/><text class=\"ts\" x=\"15\" y=\"270\" text-anchor=\"middle\">10</text><path class=\"s\" d=\"M58 258 v4\"/><text class=\"ts\" x=\"58\" y=\"270\" text-anchor=\"middle\">5</text><path class=\"s\" d=\"M142 258 v4\"/><text class=\"ts\" x=\"142\" y=\"270\" text-anchor=\"middle\">5</text><path class=\"s\" d=\"M185 258 v4\"/><text class=\"ts\" x=\"185\" y=\"270\" text-anchor=\"middle\">10</text><text class=\"tb\" x=\"100\" y=\"20\" text-anchor=\"middle\">kraj A</text><path class=\"s\" d=\"M285 30 V258\"/><rect class=\"gw2\" x=\"268.0\" y=\"242\" width=\"17.0\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"242\" width=\"16.7\" height=\"12\"/><rect class=\"gw2\" x=\"267.1\" y=\"228\" width=\"17.9\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"228\" width=\"17.5\" height=\"12\"/><rect class=\"gw2\" x=\"266.3\" y=\"214\" width=\"18.7\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"214\" width=\"18.3\" height=\"12\"/><rect class=\"gw2\" x=\"264.6\" y=\"200\" width=\"20.4\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"200\" width=\"20.0\" height=\"12\"/><rect class=\"gw2\" x=\"262.9\" y=\"186\" width=\"22.1\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"186\" width=\"21.7\" height=\"12\"/><rect class=\"gw2\" x=\"261.2\" y=\"172\" width=\"23.8\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"172\" width=\"23.3\" height=\"12\"/><rect class=\"gw2\" x=\"259.5\" y=\"158\" width=\"25.5\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"158\" width=\"25.0\" height=\"12\"/><rect class=\"gw2\" x=\"258.6\" y=\"144\" width=\"26.4\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"144\" width=\"25.8\" height=\"12\"/><rect class=\"gw2\" x=\"256.9\" y=\"130\" width=\"28.0\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"130\" width=\"27.5\" height=\"12\"/><rect class=\"gw2\" x=\"256.1\" y=\"116\" width=\"28.9\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"116\" width=\"28.3\" height=\"12\"/><rect class=\"gw2\" x=\"254.4\" y=\"102\" width=\"30.6\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"102\" width=\"30.0\" height=\"12\"/><rect class=\"gw2\" x=\"252.7\" y=\"88\" width=\"32.3\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"88\" width=\"31.7\" height=\"12\"/><rect class=\"gw2\" x=\"255.2\" y=\"74\" width=\"29.8\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"74\" width=\"31.7\" height=\"12\"/><rect class=\"gw2\" x=\"257.8\" y=\"60\" width=\"27.2\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"60\" width=\"31.7\" height=\"12\"/><rect class=\"gw2\" x=\"262.9\" y=\"46\" width=\"22.1\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"46\" width=\"29.2\" height=\"12\"/><rect class=\"gw2\" x=\"264.6\" y=\"32\" width=\"20.4\" height=\"12\"/><rect class=\"gm2\" x=\"285\" y=\"32\" width=\"30.0\" height=\"12\"/><path class=\"s\" d=\"M200 258 H370\"/><path class=\"s\" d=\"M200 258 v4\"/><text class=\"ts\" x=\"200\" y=\"270\" text-anchor=\"middle\">10</text><path class=\"s\" d=\"M242 258 v4\"/><text class=\"ts\" x=\"242\" y=\"270\" text-anchor=\"middle\">5</text><path class=\"s\" d=\"M328 258 v4\"/><text class=\"ts\" x=\"328\" y=\"270\" text-anchor=\"middle\">5</text><path class=\"s\" d=\"M370 258 v4\"/><text class=\"ts\" x=\"370\" y=\"270\" text-anchor=\"middle\">10</text><text class=\"tb\" x=\"285\" y=\"20\" text-anchor=\"middle\">kraj B</text><text class=\"ts\" x=\"200\" y=\"252\" text-anchor=\"middle\">0</text><text class=\"ts\" x=\"200\" y=\"210\" text-anchor=\"middle\">15</text><text class=\"ts\" x=\"200\" y=\"168\" text-anchor=\"middle\">30</text><text class=\"ts\" x=\"200\" y=\"126\" text-anchor=\"middle\">45</text><text class=\"ts\" x=\"200\" y=\"84\" text-anchor=\"middle\">60</text><text class=\"ts\" x=\"200\" y=\"42\" text-anchor=\"middle\">75+</text><text class=\"ts\" x=\"180\" y=\"296\" text-anchor=\"middle\">% ludności · niebieski — mężczyźni, pomarańczowy — kobiety</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 100,
-       "y": 255,
-       "lx": 100,
-       "ly": 285,
-       "n": "Szeroka podstawa",
-       "d": "Dużo dzieci — wysoki przyrost naturalny (np. Nigeria)"
+       "x": 25,
+       "y": 248,
+       "lx": 40,
+       "ly": 60,
+       "n": "Podstawa A",
+       "d": "Szeroka: dużo dzieci — wysoki przyrost naturalny (np. Niger)"
       },
       {
-       "x": 300,
-       "y": 255,
-       "lx": 300,
-       "ly": 285,
-       "n": "Zwężona podstawa",
-       "d": "Mało urodzeń — starzenie się (np. Polska, Japonia)"
+       "x": 104,
+       "y": 40,
+       "lx": 150,
+       "ly": 50,
+       "n": "Wierzchołek",
+       "d": "Wąski: krótkie przeciętne trwanie życia"
       },
       {
-       "x": 340,
-       "y": 120,
-       "lx": 370,
-       "ly": 100,
-       "n": "Szeroki środek i wierzchołek",
-       "d": "Duży udział osób w wieku produkcyjnym i starszych"
+       "x": 272,
+       "y": 248,
+       "lx": 335,
+       "ly": 282,
+       "n": "Podstawa",
+       "d": "Zwężona: mało urodzeń — niska dzietność"
       },
       {
-       "x": 30,
-       "y": 210,
-       "lx": 20,
-       "ly": 180,
-       "n": "Mężczyźni / kobiety",
-       "d": "Po obu stronach osi — struktura płci"
+       "x": 255,
+       "y": 110,
+       "lx": 225,
+       "ly": 105,
+       "n": "Środek",
+       "d": "Szeroki: liczne roczniki dawnych wyżów demograficznych"
+      },
+      {
+       "x": 305,
+       "y": 44,
+       "lx": 335,
+       "ly": 22,
+       "n": "Kobiety",
+       "d": "Przewaga kobiet wśród najstarszych — dłuższe trwanie życia"
       }
      ]
     }

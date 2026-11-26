@@ -911,50 +911,50 @@
      "id": "s46d6027c",
      "typ": "rysunek",
      "tytul": "Piętra roślinności w Tatrach",
-     "opis": "Piętrowy układ roślinności w zależności od wysokości.",
-     "uwaga": "Granice pięter są wyżej na stokach południowych i niżej na północnych.",
-     "svg": "<path class=\"f\" d=\"M20 280 L170 40 L230 40 L380 280 Z\" opacity=\"0.25\"/><path class=\"s\" d=\"M20 280 L170 40 L230 40 L380 280\"/><path class=\"dash\" d=\"M65 208 H335 M100 152 H300 M130 104 H270 M152 69 H248\"/>",
+     "opis": "Piętrowy układ roślinności w zależności od wysokości (granice orientacyjne, stok północny).",
+     "uwaga": "Granice pięter leżą wyżej na stokach południowych (cieplejszych) i niżej na północnych. Temperatura spada o ok. 0,6°C na każde 100 m.",
+     "svg": "<defs><clipPath id=\"g2tat\"><path d=\"M10 285 L10 250 L60 220 L95 160 L130 95 L150 40 L165 28 L180 50 L205 110 L240 175 L270 230 L285 285 Z\"/></clipPath></defs><rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><g clip-path=\"url(#g2tat)\"><rect class=\"gf\" x=\"0\" y=\"208\" width=\"300\" height=\"100\"/><rect class=\"gf2\" x=\"0\" y=\"166\" width=\"300\" height=\"42\"/><rect class=\"gt\" x=\"0\" y=\"131\" width=\"300\" height=\"35\" style=\"opacity:0.85\"/><rect class=\"gp\" x=\"0\" y=\"61\" width=\"300\" height=\"70\" style=\"opacity:0.7\"/><rect class=\"gs\" x=\"0\" y=\"0\" width=\"300\" height=\"61\"/></g><path class=\"s\" d=\"M10 285 L10 250 L60 220 L95 160 L130 95 L150 40 L165 28 L180 50 L205 110 L240 175 L270 230 L285 285 Z\"/><circle class=\"gf2\" cx=\"40\" cy=\"238\" r=\"5\"/><circle class=\"gf2\" cx=\"55\" cy=\"228\" r=\"5\"/><circle class=\"gf2\" cx=\"250\" cy=\"240\" r=\"5\"/><circle class=\"gf2\" cx=\"262\" cy=\"252\" r=\"5\"/><path class=\"gg\" d=\"M92 180 l-5 0 l5 -12 l5 12 Z\" opacity=\"0.6\"/><path class=\"gg\" d=\"M215 160 l-5 0 l5 -12 l5 12 Z\" opacity=\"0.6\"/><path class=\"gg\" d=\"M228 178 l-5 0 l5 -12 l5 12 Z\" opacity=\"0.6\"/><path class=\"dash\" d=\"M10 208 H290\"/><text class=\"ts\" x=\"12\" y=\"205\">1250 m</text><path class=\"dash\" d=\"M10 166 H290\"/><text class=\"ts\" x=\"12\" y=\"163\">1550 m</text><path class=\"dash\" d=\"M10 131 H290\"/><text class=\"ts\" x=\"12\" y=\"128\">1800 m</text><path class=\"dash\" d=\"M10 61 H290\"/><text class=\"ts\" x=\"12\" y=\"58\">2300 m</text><text class=\"tb\" x=\"165\" y=\"20\" text-anchor=\"middle\">Gerlach / Rysy ok. 2500 m</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 200,
-       "y": 245,
-       "lx": 340,
-       "ly": 255,
+       "x": 70,
+       "y": 255,
+       "lx": 300,
+       "ly": 268,
        "n": "Regiel dolny",
-       "d": "Do ok. 1250 m — lasy mieszane, buk, jodła"
+       "d": "Do ok. 1250 m — buk, jodła, świerk (dziś głównie świerczyny)"
       },
       {
-       "x": 200,
-       "y": 180,
-       "lx": 340,
-       "ly": 185,
+       "x": 225,
+       "y": 190,
+       "lx": 300,
+       "ly": 205,
        "n": "Regiel górny",
-       "d": "Do ok. 1550 m — świerk"
+       "d": "Do ok. 1550 m — bór świerkowy"
       },
       {
-       "x": 200,
-       "y": 128,
-       "lx": 340,
-       "ly": 130,
+       "x": 110,
+       "y": 140,
+       "lx": 300,
+       "ly": 150,
        "n": "Kosodrzewina",
-       "d": "Do ok. 1800 m — kosówka"
+       "d": "Do ok. 1800 m — zarośla sosny górskiej (kosówki)"
       },
       {
-       "x": 200,
-       "y": 86,
-       "lx": 340,
-       "ly": 85,
+       "x": 190,
+       "y": 90,
+       "lx": 300,
+       "ly": 100,
        "n": "Hale",
-       "d": "Do ok. 2300 m — łąki wysokogórskie"
+       "d": "Do ok. 2300 m — murawy wysokogórskie"
       },
       {
-       "x": 200,
-       "y": 52,
-       "lx": 340,
-       "ly": 45,
+       "x": 160,
+       "y": 40,
+       "lx": 300,
+       "ly": 50,
        "n": "Turnie",
-       "d": "Powyżej — skały, porosty"
+       "d": "Powyżej 2300 m — skały, porosty, mchy"
       }
      ]
     }

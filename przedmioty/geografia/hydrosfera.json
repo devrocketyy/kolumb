@@ -918,6 +918,65 @@
    ],
    "schematy": [
     {
+     "id": "s8ea628a7",
+     "typ": "rysunek",
+     "tytul": "Meander i starorzecze",
+     "opis": "Rzeka meandrująca w dnie doliny nizinnej (widok z góry).",
+     "uwaga": "Na brzegu wklęsłym przeważa erozja, na wypukłym — akumulacja. Gdy rzeka przetnie szyję meandra, zakole zostaje odcięte i powstaje starorzecze.",
+     "svg": "<rect class=\"gt\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gp ol\" d=\"M82 105 C100 84 140 84 158 105 C140 96 100 96 82 105 Z\"/><path class=\"gp ol\" d=\"M238 192 C256 212 294 212 312 192 C294 203 256 203 238 192 Z\" transform=\"rotate(180 275 200)\"/><path d=\"M-10 190 C40 190 60 70 120 70 C180 70 210 225 275 225 C335 225 360 120 410 120\" style=\"fill:none;stroke:var(--g-woda2);stroke-width:16;stroke-linecap:round\"/><path d=\"M-10 190 C40 190 60 70 120 70 C180 70 210 225 275 225 C335 225 360 120 410 120\" style=\"fill:none;stroke:var(--g-woda);stroke-width:10;stroke-linecap:round\"/><path class=\"s\" d=\"M95 52 l-2 -7 M110 50 l0 -7 M125 50 l1 -7 M140 53 l3 -7 M258 243 l-2 7 M273 245 l0 7 M288 244 l2 7\"/><path class=\"gw ol\" d=\"M30 250 C10 240 20 215 50 220 C75 224 95 240 120 236 C100 255 60 262 30 250 Z\"/><path class=\"dash\" d=\"M18 238 C40 200 90 215 130 232\"/><path class=\"gf2\" d=\"M200 50 l-5 0 l5 -11 l5 11 Z\"/><path class=\"gf2\" d=\"M215 40 l-5 0 l5 -11 l5 11 Z\"/><path class=\"gf2\" d=\"M350 270 l-5 0 l5 -11 l5 11 Z\"/><path class=\"gf2\" d=\"M370 262 l-5 0 l5 -11 l5 11 Z\"/><path class=\"gf2\" d=\"M30 120 l-5 0 l5 -11 l5 11 Z\"/><path class=\"gf2\" d=\"M45 110 l-5 0 l5 -11 l5 11 Z\"/><path class=\"gf2\" d=\"M330 60 l-5 0 l5 -11 l5 11 Z\"/><path class=\"cold\" d=\"M355 118 q10 -6 22 -6\"/><path class=\"coldf\" d=\"M380 112 l-8 -4 l0 8 Z\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 118,
+       "y": 52,
+       "lx": 160,
+       "ly": 25,
+       "n": "Brzeg wklęsły",
+       "d": "Erozja boczna — nurt podcina brzeg, powstaje skarpa"
+      },
+      {
+       "x": 120,
+       "y": 96,
+       "lx": 170,
+       "ly": 125,
+       "n": "Łacha",
+       "d": "Brzeg wypukły — akumulacja piasku przy wolnym nurcie"
+      },
+      {
+       "x": 275,
+       "y": 200,
+       "lx": 230,
+       "ly": 160,
+       "n": "Brzeg wypukły",
+       "d": "Wewnątrz zakola — łacha meandrowa"
+      },
+      {
+       "x": 273,
+       "y": 246,
+       "lx": 320,
+       "ly": 280,
+       "n": "Skarpa",
+       "d": "Brzeg wklęsły — erozja boczna"
+      },
+      {
+       "x": 60,
+       "y": 238,
+       "lx": 90,
+       "ly": 280,
+       "n": "Starorzecze",
+       "d": "Odcięty dawny meander — jezioro w dnie doliny"
+      },
+      {
+       "x": 365,
+       "y": 116,
+       "lx": 340,
+       "ly": 85,
+       "n": "Nurt",
+       "d": "Rzeka płynie z zachodu na wschód"
+      }
+     ]
+    },
+    {
      "id": "s7f021056",
      "typ": "rysunek",
      "tytul": "Ustrój rzeki nizinnej (śnieżny)",
