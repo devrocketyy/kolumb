@@ -173,6 +173,60 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Dwa szczyty i przełęcz",
+   "material": "Tekst autorski. Na mapie w skali 1:25 000 szczyt zachodni ma 342 m, wschodni 346 m n.p.m., a leżąca między nimi przełęcz — 305 m n.p.m. Odległość między szczytami na mapie wynosi 6,8 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość między szczytami w terenie.",
+     "odpowiedz": "1,7 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "6,8 × 250 m = 1700 m.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość względną szczytu wschodniego nad przełęczą.",
+     "odpowiedz": "41 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "346 − 305.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jak na mapie poziomicowej rozpoznać przełęcz.",
+     "odpowiedz": "Między dwoma zespołami zamkniętych poziomic poziomice tworzą przewężenie (kształt klepsydry); teren opada w obie strony poprzecznie do grzbietu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kształt poziomic.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-mapa-07",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Stok wypukły czy wklęsły",
+   "material": "Tekst autorski. Na stoku co 100 m odległości poziomej zmierzono wysokości: 400, 396, 390, 380, 362, 340 m n.p.m. (od szczytu w dół).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy stok jest wypukły, czy wklęsły. Uzasadnij.",
+     "odpowiedz": "Wypukły — spadek rośnie w dół stoku (4, 6, 10, 18, 22 m na 100 m), więc stok jest najbardziej stromy u podnóża.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Profil stoku.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-08",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Wycieczka na wieżę widokową",
    "material": "Tekst autorski. Na mapie w skali 1:25 000 kościół leży na wysokości 212 m n.p.m., a wieża widokowa na wzgórzu — 347 m n.p.m. Odległość między nimi na mapie: 8 cm. Wieża leży od kościoła w kierunku azymutu 135°.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -205,7 +259,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-07",
+   "id": "b-mapa-09",
    "dzial": "mapa"
   },
   {
@@ -223,7 +277,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-08",
+   "id": "b-mapa-10",
    "dzial": "mapa"
   },
   {
@@ -250,7 +304,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-09",
+   "id": "b-mapa-11",
    "dzial": "mapa"
   },
   {
@@ -286,7 +340,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-10",
+   "id": "b-mapa-12",
    "dzial": "mapa"
   },
   {
@@ -313,7 +367,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-11",
+   "id": "b-mapa-13",
    "dzial": "mapa"
   },
   {
@@ -340,7 +394,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-12",
+   "id": "b-mapa-14",
    "dzial": "mapa"
   },
   {
@@ -358,7 +412,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-13",
+   "id": "b-mapa-15",
    "dzial": "mapa"
   }
  ]

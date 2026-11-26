@@ -218,6 +218,33 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Gmina podmiejska",
+   "material": "Tekst autorski. Liczba mieszkańców gminy pod Wrocławiem wzrosła w ciągu 15 lat z 12 000 do 18 000.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, o ile procent wzrosła liczba mieszkańców.",
+     "odpowiedz": "o 50%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "6000 / 12 000 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa skutki suburbanizacji dla gminy podmiejskiej.",
+     "odpowiedz": "Np. wzrost dochodów z podatków, potrzeba budowy szkół, dróg i kanalizacji, korki, zanik krajobrazu wiejskiego.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-09",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Miasto i strefa podmiejska",
    "material": "Tekst autorski. Liczba ludności miasta X w latach 1990 i 2020: centrum 400 tys. → 300 tys.; strefa podmiejska 100 tys. → 200 tys.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -250,7 +277,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-09",
+   "id": "b-ludnosc-10",
    "dzial": "ludnosc"
   },
   {
@@ -286,7 +313,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-10",
+   "id": "b-ludnosc-11",
    "dzial": "ludnosc"
   },
   {
@@ -313,7 +340,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-11",
+   "id": "b-ludnosc-12",
    "dzial": "ludnosc"
   },
   {
@@ -349,7 +376,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-12",
+   "id": "b-ludnosc-13",
    "dzial": "ludnosc"
   },
   {
@@ -376,7 +403,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-13",
+   "id": "b-ludnosc-14",
    "dzial": "ludnosc"
   },
   {
@@ -412,7 +439,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-14",
+   "id": "b-ludnosc-15",
    "dzial": "ludnosc"
   }
  ]
