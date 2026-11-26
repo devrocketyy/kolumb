@@ -980,34 +980,34 @@
      "id": "s7f021056",
      "typ": "rysunek",
      "tytul": "Ustrój rzeki nizinnej (śnieżny)",
-     "opis": "Średnie miesięczne przepływy rzeki o ustroju śnieżnym, dane autorskie.",
-     "uwaga": "Ustrój deszczowo-śnieżny ma dodatkowe wyraźne wezbranie letnie; górski — maksima wiosną i latem.",
-     "svg": "<path class=\"s\" d=\"M40 260 H380 M40 260 V30\"/><rect style=\"fill:#64b5f6\" x=\"48\" y=\"170\" width=\"20\" height=\"90\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"75\" y=\"150\" width=\"20\" height=\"110\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"102\" y=\"90\" width=\"20\" height=\"170\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"129\" y=\"60\" width=\"20\" height=\"200\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"156\" y=\"130\" width=\"20\" height=\"130\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"183\" y=\"160\" width=\"20\" height=\"100\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"210\" y=\"165\" width=\"20\" height=\"95\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"237\" y=\"175\" width=\"20\" height=\"85\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"264\" y=\"190\" width=\"20\" height=\"70\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"291\" y=\"185\" width=\"20\" height=\"75\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"318\" y=\"175\" width=\"20\" height=\"85\" fill=\"#64b5f6\"/><rect style=\"fill:#64b5f6\" x=\"345\" y=\"165\" width=\"20\" height=\"95\" fill=\"#64b5f6\"/><text class=\"t\" x=\"52\" y=\"278\">I</text><text class=\"t\" x=\"79\" y=\"278\">II</text><text class=\"t\" x=\"106\" y=\"278\">III</text><text class=\"t\" x=\"133\" y=\"278\">IV</text><text class=\"t\" x=\"160\" y=\"278\">V</text><text class=\"t\" x=\"187\" y=\"278\">VI</text><text class=\"t\" x=\"214\" y=\"278\">VII</text><text class=\"t\" x=\"241\" y=\"278\">VIII</text><text class=\"t\" x=\"268\" y=\"278\">IX</text><text class=\"t\" x=\"295\" y=\"278\">X</text><text class=\"t\" x=\"322\" y=\"278\">XI</text><text class=\"t\" x=\"349\" y=\"278\">XII</text><text class=\"t\" x=\"45\" y=\"25\">przepływ</text>",
+     "opis": "Średnie miesięczne przepływy rzeki o ustroju śnieżnym (dane autorskie).",
+     "uwaga": "Ustrój śnieżny: jedno wyraźne maksimum wiosną. Śnieżno-deszczowy: dodatkowe wezbranie letnie. Górski (np. Dunajec): wezbrania wiosną i latem.",
+     "svg": "<path class=\"dash\" d=\"M50 200 H385\"/><path class=\"s\" d=\"M46 200 H50\"/><text class=\"ts\" x=\"44\" y=\"203\" text-anchor=\"end\">50</text><path class=\"dash\" d=\"M50 150 H385\"/><path class=\"s\" d=\"M46 150 H50\"/><text class=\"ts\" x=\"44\" y=\"153\" text-anchor=\"end\">100</text><path class=\"dash\" d=\"M50 100 H385\"/><path class=\"s\" d=\"M46 100 H50\"/><text class=\"ts\" x=\"44\" y=\"103\" text-anchor=\"end\">150</text><path class=\"dash\" d=\"M50 50 H385\"/><path class=\"s\" d=\"M46 50 H50\"/><text class=\"ts\" x=\"44\" y=\"53\" text-anchor=\"end\">200</text><rect class=\"gw2\" x=\"55.0\" y=\"160\" width=\"21\" height=\"90\"/><rect class=\"gw2\" x=\"82.5\" y=\"140\" width=\"21\" height=\"110\"/><rect class=\"gw2\" x=\"110.0\" y=\"80\" width=\"21\" height=\"170\"/><rect class=\"gw2\" x=\"137.5\" y=\"50\" width=\"21\" height=\"200\"/><rect class=\"gw2\" x=\"165.0\" y=\"120\" width=\"21\" height=\"130\"/><rect class=\"gw2\" x=\"192.5\" y=\"150\" width=\"21\" height=\"100\"/><rect class=\"gw2\" x=\"220.0\" y=\"155\" width=\"21\" height=\"95\"/><rect class=\"gw2\" x=\"247.5\" y=\"165\" width=\"21\" height=\"85\"/><rect class=\"gw2\" x=\"275.0\" y=\"180\" width=\"21\" height=\"70\"/><rect class=\"gw2\" x=\"302.5\" y=\"175\" width=\"21\" height=\"75\"/><rect class=\"gw2\" x=\"330.0\" y=\"165\" width=\"21\" height=\"85\"/><rect class=\"gw2\" x=\"357.5\" y=\"155\" width=\"21\" height=\"95\"/><path class=\"hot\" d=\"M50 141.2 H385\" style=\"stroke-dasharray:6 4\"/><text class=\"ts\" x=\"383\" y=\"136\" text-anchor=\"end\">średni przepływ ok. 109 m³/s</text><path class=\"s\" d=\"M50 30 V250 H385\"/><text class=\"ts\" x=\"65.5\" y=\"264\" text-anchor=\"middle\">I</text><text class=\"ts\" x=\"93.0\" y=\"264\" text-anchor=\"middle\">II</text><text class=\"ts\" x=\"120.5\" y=\"264\" text-anchor=\"middle\">III</text><text class=\"ts\" x=\"148.0\" y=\"264\" text-anchor=\"middle\">IV</text><text class=\"ts\" x=\"175.5\" y=\"264\" text-anchor=\"middle\">V</text><text class=\"ts\" x=\"203.0\" y=\"264\" text-anchor=\"middle\">VI</text><text class=\"ts\" x=\"230.5\" y=\"264\" text-anchor=\"middle\">VII</text><text class=\"ts\" x=\"258.0\" y=\"264\" text-anchor=\"middle\">VIII</text><text class=\"ts\" x=\"285.5\" y=\"264\" text-anchor=\"middle\">IX</text><text class=\"ts\" x=\"313.0\" y=\"264\" text-anchor=\"middle\">X</text><text class=\"ts\" x=\"340.5\" y=\"264\" text-anchor=\"middle\">XI</text><text class=\"ts\" x=\"368.0\" y=\"264\" text-anchor=\"middle\">XII</text><text class=\"ts\" x=\"8\" y=\"22\">Q [m³/s]</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 137,
-       "y": 60,
-       "lx": 160,
+       "x": 148,
+       "y": 50.0,
+       "lx": 190,
        "ly": 40,
        "n": "Wezbranie roztopowe",
-       "d": "Marzec–kwiecień: topnienie śniegu"
+       "d": "Marzec–kwiecień: topnienie śniegu, gleba jeszcze zamarznięta"
       },
       {
-       "x": 264,
-       "y": 190,
-       "lx": 270,
-       "ly": 150,
-       "n": "Niżówka",
-       "d": "Późne lato–wrzesień: parowanie i transpiracja"
-      },
-      {
-       "x": 210,
-       "y": 165,
-       "lx": 200,
+       "x": 286,
+       "y": 180.0,
+       "lx": 300,
        "ly": 120,
-       "n": "Wezbranie letnie",
-       "d": "Słabe — opady nawalne"
+       "n": "Niżówka",
+       "d": "Wrzesień: duże parowanie i transpiracja"
+      },
+      {
+       "x": 215,
+       "y": 155.0,
+       "lx": 240,
+       "ly": 175,
+       "n": "Lato",
+       "d": "Opady nawalne dają tylko krótkie, małe wezbrania"
       }
      ]
     },

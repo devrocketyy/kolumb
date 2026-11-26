@@ -72,9 +72,9 @@ def _panel(x0, dzien):
 S['g-cisnienie'] = [
  dict(typ='rysunek', tytul='Bryza dzienna i nocna',
       svg=_panel(5, True) + _panel(205, False) + '<text class="ts" x="200" y="285" text-anchor="middle">W — wyż, N — niż; temperatura podłoża po południu i przed świtem</text>',
-      znaczniki=[(50, 130, 70, 120, 'Wznoszenie', 'Nad nagrzanym lądem powietrze się wznosi — niż'),
+      znaczniki=[(50, 130, 70, 120, 'Dniem nad lądem', 'Nad nagrzanym lądem powietrze się wznosi — niż'),
                  (100, 175, 100, 155, 'Bryza morska', 'Przy ziemi wiatr od morza ku lądowi'),
-                 (355, 130, 335, 120, 'Wznoszenie', 'Nocą nad cieplejszym morzem — niż'),
+                 (355, 130, 335, 120, 'Nocą nad morzem', 'Nocą nad cieplejszym morzem — niż'),
                  (300, 175, 300, 155, 'Bryza lądowa', 'Przy ziemi wiatr od lądu ku morzu')],
       opis='Cyrkulacja bryzowa nad wybrzeżem w ciągu doby.',
       uwaga='Ląd nagrzewa się i stygnie szybciej niż woda. Wiatr przy ziemi wieje od wyżu do niżu, czyli od chłodniejszego podłoża ku cieplejszemu.'),

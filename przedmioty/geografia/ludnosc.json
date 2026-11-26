@@ -1308,42 +1308,50 @@
      "id": "sfef18ae5",
      "typ": "rysunek",
      "tytul": "Strefy w mieście (model koncentryczny)",
-     "opis": "Uproszczony model stref funkcjonalnych miasta.",
-     "uwaga": "Ceny gruntów i wysokość zabudowy są największe w CBD i maleją ku przedmieściom.",
-     "svg": "<circle class=\"d\" cx=\"200\" cy=\"150\" r=\"135\" fill=\"#e8f5e9\"/><circle cx=\"200\" cy=\"150\" r=\"100\" fill=\"#fff9c4\" stroke=\"#999\"/><circle cx=\"200\" cy=\"150\" r=\"65\" fill=\"#ffe0b2\" stroke=\"#999\"/><circle cx=\"200\" cy=\"150\" r=\"30\" fill=\"#ef9a9a\" stroke=\"#999\"/><text class=\"t\" x=\"185\" y=\"155\">CBD</text>",
+     "opis": "Uproszczony model stref funkcjonalnych miasta (Burgessa) i spadek cen gruntu.",
+     "uwaga": "W CBD ceny gruntu i wysokość zabudowy są największe — opłaca się tam tylko działalność o dużym dochodzie z m² (biura, banki, handel).",
+     "svg": "<rect class=\"gt\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><circle class=\"gt\" cx=\"135\" cy=\"150\" r=\"128\" style=\"stroke:var(--text-2);stroke-width:1\"/><circle class=\"gc\" cx=\"135\" cy=\"150\" r=\"95\" opacity=\"0.6\"/><circle class=\"gs\" cx=\"135\" cy=\"150\" r=\"62\"/><circle class=\"gm2\" cx=\"135\" cy=\"150\" r=\"28\"/><path class=\"s2\" d=\"M135 150 L262 196\"/><path class=\"s2\" d=\"M135 150 L89 277\"/><path class=\"s2\" d=\"M135 150 L8 104\"/><path class=\"s2\" d=\"M135 150 L181 23\"/><rect class=\"d\" x=\"122\" y=\"130\" width=\"5\" height=\"20\"/><rect class=\"d\" x=\"129\" y=\"122\" width=\"5\" height=\"28\"/><rect class=\"d\" x=\"136\" y=\"126\" width=\"5\" height=\"24\"/><rect class=\"d\" x=\"143\" y=\"134\" width=\"5\" height=\"16\"/><path class=\"d\" d=\"M95 115 h10 v-8 l-3 -3 v3 l-3 -3 v3 l-4 -3 Z\" opacity=\"0.8\"/><path class=\"d\" d=\"M172 190 h10 v-8 l-3 -3 v3 l-3 -3 v3 l-4 -3 Z\" opacity=\"0.8\"/><rect class=\"f\" x=\"70\" y=\"140\" width=\"8\" height=\"5\"/><rect class=\"f\" x=\"78\" y=\"150\" width=\"8\" height=\"5\"/><rect class=\"f\" x=\"190\" y=\"130\" width=\"8\" height=\"5\"/><rect class=\"f\" x=\"200\" y=\"142\" width=\"8\" height=\"5\"/><rect class=\"f\" x=\"120\" y=\"220\" width=\"8\" height=\"5\"/><rect class=\"f\" x=\"130\" y=\"228\" width=\"8\" height=\"5\"/><path class=\"f\" d=\"M30 150 v-4 l3 -3 l3 3 v4 Z\"/><path class=\"f\" d=\"M40 100 v-4 l3 -3 l3 3 v4 Z\"/><path class=\"f\" d=\"M240 170 v-4 l3 -3 l3 3 v4 Z\"/><path class=\"f\" d=\"M230 220 v-4 l3 -3 l3 3 v4 Z\"/><path class=\"f\" d=\"M130 40 v-4 l3 -3 l3 3 v4 Z\"/><path class=\"f\" d=\"M150 270 v-4 l3 -3 l3 3 v4 Z\"/><path class=\"s\" d=\"M280 200 V285 H395\"/><path class=\"hot\" d=\"M282 205 C300 260 330 275 392 280\"/><text class=\"ts\" x=\"282\" y=\"196\">cena gruntu</text><text class=\"ts\" x=\"393\" y=\"296\" text-anchor=\"end\">odległość od centrum</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
+       "x": 135,
+       "y": 140,
+       "lx": 280,
+       "ly": 25,
+       "n": "CBD",
+       "d": "Centrum biznesu: biurowce, banki, handel"
+      },
+      {
+       "x": 100,
+       "y": 112,
+       "lx": 280,
+       "ly": 60,
+       "n": "Przejściowa",
+       "d": "Stara zabudowa, dawny przemysł, rewitalizacja"
+      },
+      {
        "x": 205,
        "y": 140,
+       "lx": 280,
+       "ly": 95,
+       "n": "Mieszkaniowa",
+       "d": "Kamienice i osiedla bloków"
+      },
+      {
+       "x": 238,
+       "y": 175,
+       "lx": 280,
+       "ly": 130,
+       "n": "Podmiejska",
+       "d": "Suburbia: domy, centra handlowe, logistyka"
+      },
+      {
+       "x": 300,
+       "y": 245,
        "lx": 330,
-       "ly": 30,
-       "n": "CBD",
-       "d": "Centrum biznesowe: biura, banki, handel"
-      },
-      {
-       "x": 200,
-       "y": 100,
-       "lx": 370,
-       "ly": 70,
-       "n": "Strefa przejściowa",
-       "d": "Stara zabudowa, przemysł, rewitalizacja"
-      },
-      {
-       "x": 200,
-       "y": 65,
-       "lx": 370,
-       "ly": 110,
-       "n": "Strefa mieszkaniowa",
-       "d": "Bloki i kamienice"
-      },
-      {
-       "x": 200,
-       "y": 25,
-       "lx": 370,
-       "ly": 150,
-       "n": "Strefa podmiejska",
-       "d": "Suburbia, domy jednorodzinne, centra handlowe"
+       "ly": 225,
+       "n": "Renta",
+       "d": "Ceny gruntów maleją wraz z odległością od centrum"
       }
      ]
     },
