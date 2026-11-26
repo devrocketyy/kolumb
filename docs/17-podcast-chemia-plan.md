@@ -66,9 +66,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 ## Dział: Roztwory
 
-**22. Stężenie procentowe i molowe** `c-stezenia` ⬜
+**22. Stężenie procentowe i molowe** `c-stezenia` ✅
 
-**23. Rozpuszczalność i roztwory nasycone** `c-rozpuszczalnosc` ⬜
+**23. Rozpuszczalność i roztwory nasycone** `c-rozpuszczalnosc` ✅
 
 **24. Rozcieńczanie, zatężanie i mieszanie roztworów** `c-mieszanie` ⬜
 

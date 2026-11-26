@@ -1,0 +1,70 @@
+{
+  "odcinek": "chemia-23-rozpuszczalnosc",
+  "pytania": [
+    {
+      "id": "naczynie",
+      "typ": "abcd",
+      "pytanie": "Maksymalna masa NaCl w 50 g wody (rozpuszczalność 36 g/100 g):",
+      "odpowiedzi": [
+        "18 g",
+        "36 g",
+        "72 g",
+        "14 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Proporcja do 100 g wody."
+    },
+    {
+      "id": "stezenie",
+      "typ": "abcd",
+      "pytanie": "Stężenie nasyconego roztworu NaCl (36 g/100 g wody):",
+      "odpowiedzi": [
+        "26,5%",
+        "36%",
+        "64%",
+        "18%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Masa roztworu = 136 g. Klasyczna pułapka: to nie 36%."
+    },
+    {
+      "id": "gazy",
+      "typ": "abcd",
+      "pytanie": "Rozpuszczalność tlenu w wodzie po ogrzaniu:",
+      "odpowiedzi": [
+        "maleje",
+        "rośnie",
+        "nie zmienia się",
+        "najpierw rośnie, potem maleje"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Odwrotnie niż dla większości ciał stałych."
+    },
+    {
+      "id": "krystalizacja",
+      "typ": "abcd",
+      "pytanie": "Masa KNO₃, która wykrystalizuje z 210 g roztworu nasyconego (60°C → 20°C):",
+      "odpowiedzi": [
+        "78 g",
+        "110 g",
+        "32 g",
+        "39 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "210 g roztworu = 100 g wody + 110 g soli."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Roztwór, w którym można rozpuścić jeszcze więcej substancji, to roztwór:",
+      "odpowiedzi": [
+        "nienasycony",
+        "nasycony",
+        "przesycony",
+        "koloidalny"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Nasycony — więcej się nie rozpuści."
+    }
+  ]
+}

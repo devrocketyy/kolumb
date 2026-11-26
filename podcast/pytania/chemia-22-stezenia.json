@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-22-stezenia",
+  "pytania": [
+    {
+      "id": "procentowe",
+      "typ": "abcd",
+      "pytanie": "Stężenie roztworu: 20 g NaCl + 180 g wody:",
+      "odpowiedzi": [
+        "10%",
+        "11,1%",
+        "20%",
+        "18%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Masa roztworu = 200 g."
+    },
+    {
+      "id": "molowe",
+      "typ": "abcd",
+      "pytanie": "Stężenie molowe: 0,1 mola NaCl w 250 cm³ roztworu:",
+      "odpowiedzi": [
+        "0,4 mol/dm³",
+        "0,025 mol/dm³",
+        "0,1 mol/dm³",
+        "2,5 mol/dm³"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "0,1 / 0,25."
+    },
+    {
+      "id": "naoh",
+      "typ": "abcd",
+      "pytanie": "Masa NaOH do 500 cm³ roztworu 0,2 mol/dm³:",
+      "odpowiedzi": [
+        "4 g",
+        "8 g",
+        "40 g",
+        "0,1 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "n = 0,2 · 0,5 = 0,1 mola; M = 40 g/mol."
+    },
+    {
+      "id": "hcl",
+      "typ": "abcd",
+      "pytanie": "Stężenie molowe HCl 36,5% (d = 1,18 g/cm³):",
+      "odpowiedzi": [
+        "11,8 mol/dm³",
+        "1,18 mol/dm³",
+        "36,5 mol/dm³",
+        "10 mol/dm³"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "1180 g · 0,365 = 430,7 g; / 36,5 g/mol."
+    },
+    {
+      "id": "odwrotnie",
+      "typ": "abcd",
+      "pytanie": "Stężenie procentowe NaOH 2 mol/dm³ (d = 1,08 g/cm³):",
+      "odpowiedzi": [
+        "7,4%",
+        "8,0%",
+        "2,0%",
+        "4,3%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "2 · 40 = 80 g; 80 / 1080."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "250 cm³ to:",
+      "odpowiedzi": [
+        "0,25 dm³",
+        "2,5 dm³",
+        "25 dm³",
+        "0,025 dm³"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "1 dm³ = 1000 cm³."
+    }
+  ]
+}
