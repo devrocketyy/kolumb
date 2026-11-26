@@ -82,6 +82,54 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
     },
     {
+     "id": "f555fdde9",
+     "przod": "Strefy czasowe",
+     "tyl": "Teoretycznie 24 strefy po 15° długości geograficznej; granice często dostosowane do granic państw.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "febed1009",
+     "przod": "Czas uniwersalny (UTC)",
+     "tyl": "Czas słoneczny średni południka zerowego, podstawa wyznaczania czasu strefowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fd91d2756",
+     "przod": "Południk 15°E",
+     "tyl": "Południk środkowy strefy czasu środkowoeuropejskiego — przebiega przez zachodnią Polskę (okolice Zgorzelca).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f9b8c756d",
+     "przod": "Czas w Polsce a czas słoneczny",
+     "tyl": "Zimą na wschód od 15°E czas słoneczny jest późniejszy niż urzędowy (Słońce góruje przed 12:00 czasu urzędowego), na zachód od 15°E — wcześniejszy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f6e6a11db",
+     "przod": "Obliczanie czasu strefowego",
+     "tyl": "Różnica stref × 1 h. Na wschód — dodaj, na zachód — odejmij. Np. 12:00 w Polsce (UTC+1) to 20:00 w Tokio (UTC+9).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fb203cafa",
+     "przod": "Czas letni",
+     "tyl": "Przesunięcie zegarów o 1 h do przodu od ostatniej niedzieli marca do ostatniej niedzieli października (w UE).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f8f92c576",
+     "przod": "Kraje z wieloma strefami czasowymi",
+     "tyl": "Rosja (11), USA, Kanada, Australia, Brazylia. Chiny mimo rozległości mają jedną strefę (UTC+8).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fa496bbf8",
+     "przod": "Dowód kulistości Ziemi — przykłady",
+     "tyl": "Okrągły cień Ziemi na Księżycu podczas zaćmienia, zdjęcia satelitarne, rozszerzanie się horyzontu z wysokością.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
      "id": "ffa44f126",
      "przod": "Rozpoznaj: Największa na równiku (ok. 1670 km/h), maleje ku biegunom, na biegunach równa 0.",
      "tyl": "Prędkość liniowa ruchu obrotowego",
@@ -103,6 +151,12 @@
      "id": "f9496e76e",
      "przod": "Rozpoznaj: Różnica długości geograficznej × 4 min. Na wschód dodajemy, na zachód odejmujemy.",
      "tyl": "Obliczanie czasu słonecznego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f1c4893be",
+     "przod": "Rozpoznaj: Przesunięcie zegarów o 1 h do przodu od ostatniej niedzieli marca do ostatniej niedzieli października (w UE).",
+     "tyl": "Czas letni",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
     }
    ],
@@ -209,6 +263,71 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Pory roku to skutek ruchu obiegowego i nachylenia osi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0ab035a2",
+     "pytanie": "Gdy w Warszawie (UTC+1) jest 10:00, w Nowym Jorku (UTC−5) jest:",
+     "odpowiedzi": [
+      "5:00",
+      "16:00",
+      "4:00",
+      "15:00"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Różnica 6 h na zachód.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p08180639",
+     "pytanie": "Gdy w Londynie (UTC) jest 18:00, w Pekinie (UTC+8) jest:",
+     "odpowiedzi": [
+      "2:00 następnego dnia",
+      "10:00 tego samego dnia",
+      "18:00",
+      "26:00"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "18 + 8 = 26 → 2:00.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe2ccf69a",
+     "pytanie": "Południkiem środkowym strefy czasu środkowoeuropejskiego jest:",
+     "odpowiedzi": [
+      "20°E",
+      "30°E",
+      "15°E",
+      "0°"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "UTC+1.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa7f94ea9",
+     "pytanie": "Chiny stosują:",
+     "odpowiedzi": [
+      "pięć stref czasowych",
+      "jedną strefę czasową",
+      "jedenaście stref czasowych",
+      "czas słoneczny każdego miasta"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "UTC+8 w całym kraju.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p56756a28",
+     "pytanie": "Dowodem kulistości Ziemi jest:",
+     "odpowiedzi": [
+      "istnienie stref klimatycznych na Ziemi",
+      "okrągły cień Ziemi na Księżycu podczas zaćmienia",
+      "występowanie pływów morskich co dobę",
+      "zmiana pór roku w ciągu całego roku"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Cień zawsze jest kolisty.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -502,6 +621,60 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
     },
     {
+     "id": "fe514e91c",
+     "przod": "Wysokość Słońca w strefie międzyzwrotnikowej",
+     "tyl": "Słońce góruje w zenicie dwa razy w roku (na zwrotnikach — raz).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fdf1006eb",
+     "przod": "Wysokość Słońca na równiku w dniu równonocy",
+     "tyl": "90° — Słońce w zenicie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f5162f99b",
+     "przod": "Wysokość Słońca na biegunie północnym 22 czerwca",
+     "tyl": "23°27′ (przez całą dobę Słońce krąży nad horyzontem).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f0ced8003",
+     "przod": "Szerokość geograficzna z wysokości Słońca 22 czerwca (na N od zwrotnika)",
+     "tyl": "φ = 90° − h + 23°27′. Np. h = 60° → φ = 53°27′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f2f470ae2",
+     "przod": "Szerokość geograficzna z wysokości Słońca 22 grudnia (na półkuli N)",
+     "tyl": "φ = 90° − h − 23°27′. Np. h = 20° → φ = 46°33′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "faafa6464",
+     "przod": "Różnica wysokości Słońca w ciągu roku (poza tropikami)",
+     "tyl": "Między przesileniami wynosi 46°54′ (2 × 23°27′).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fa65436f1",
+     "przod": "Gdzie Słońce góruje na północy nieba?",
+     "tyl": "Na półkuli południowej poza zwrotnikiem oraz w strefie międzyzwrotnikowej w części roku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f5371b76e",
+     "przod": "Długość dnia na równiku",
+     "tyl": "Zawsze ok. 12 h przez cały rok.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fc291615c",
+     "przod": "Zorza polarna",
+     "tyl": "Świecenie górnych warstw atmosfery wywołane wiatrem słonecznym, widoczne głównie w strefach okołobiegunowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
      "id": "fef92f783",
      "przod": "Rozpoznaj: h = 90° − φ (φ — szerokość geograficzna).",
      "tyl": "Wysokość Słońca w dniach równonocy",
@@ -517,6 +690,24 @@
      "id": "fb5f4983f",
      "przod": "Rozpoznaj: Punkt na niebie dokładnie nad obserwatorem; Słońce w zenicie ma wysokość 90°.",
      "tyl": "Zenit",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fea79a25f",
+     "przod": "Rozpoznaj: Między przesileniami wynosi 46°54′ (2 × 23°27′).",
+     "tyl": "Różnica wysokości Słońca w ciągu roku (poza tropikami)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f180569fb",
+     "przod": "Rozpoznaj: Zawsze ok. 12 h przez cały rok.",
+     "tyl": "Długość dnia na równiku",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fd65f5ed3",
+     "przod": "Rozpoznaj: Świecenie górnych warstw atmosfery wywołane wiatrem słonecznym, widoczne głównie w strefach okołobiegunowych.",
+     "tyl": "Zorza polarna",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
     }
    ],
@@ -610,6 +801,71 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Kąt padania promieni.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4d615777",
+     "pytanie": "22 czerwca Słońce górowało na wysokości 60° (punkt na półkuli N poza tropikami). Szerokość geograficzna wynosi:",
+     "odpowiedzi": [
+      "30°N",
+      "6°33′N",
+      "53°27′N",
+      "36°33′N"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "90 − 60 + 23°27′.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pec2abce1",
+     "pytanie": "22 grudnia Słońce górowało na wysokości 20° na półkuli N. Szerokość wynosi:",
+     "odpowiedzi": [
+      "23°27′N",
+      "46°33′N",
+      "93°27′N",
+      "70°N"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "90 − 20 − 23°27′.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p529d5e22",
+     "pytanie": "Różnica wysokości górowania Słońca w Krakowie między 22 czerwca a 22 grudnia wynosi:",
+     "odpowiedzi": [
+      "90°",
+      "46°54′",
+      "23°27′",
+      "50°"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Dwa razy 23°27′.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p76fe3734",
+     "pytanie": "Na równiku długość dnia w ciągu roku:",
+     "odpowiedzi": [
+      "waha się od 0 do 24 h",
+      "jest stała, ok. 12 h",
+      "jest najdłuższa 22 grudnia",
+      "wynosi 16 h latem"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Brak zmian długości dnia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb2cce670",
+     "pytanie": "Wysokość Słońca na biegunie północnym 22 czerwca wynosi:",
+     "odpowiedzi": [
+      "66°33′",
+      "23°27′",
+      "90°",
+      "0°"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "90 − 90 + 23°27′.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
