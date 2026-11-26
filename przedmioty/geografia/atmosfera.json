@@ -1564,6 +1564,86 @@
      "wyjasnienie": "Ocieplenie wód wschodniego Pacyfiku.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sdbd63066",
+     "typ": "rysunek",
+     "tytul": "Klimatogram: klimat równikowy wilgotny",
+     "opis": "Rozpoznawanie klimatu z wykresu temperatury i opadów.",
+     "uwaga": "Mała amplituda + duże opady przez cały rok = klimat równikowy wilgotny.",
+     "svg": "<path class=\"s\" d=\"M50 40 V260 H370 V40\"/><rect class=\"f\" x=\"53.0\" y=\"76.7\" width=\"20.7\" height=\"183.3\"/><rect class=\"f\" x=\"79.7\" y=\"91.3\" width=\"20.7\" height=\"168.7\"/><rect class=\"f\" x=\"106.3\" y=\"69.3\" width=\"20.7\" height=\"190.7\"/><rect class=\"f\" x=\"133.0\" y=\"54.7\" width=\"20.7\" height=\"205.3\"/><rect class=\"f\" x=\"159.7\" y=\"84.0\" width=\"20.7\" height=\"176.0\"/><rect class=\"f\" x=\"186.3\" y=\"128.0\" width=\"20.7\" height=\"132.0\"/><rect class=\"f\" x=\"213.0\" y=\"135.3\" width=\"20.7\" height=\"124.7\"/><rect class=\"f\" x=\"239.7\" y=\"128.0\" width=\"20.7\" height=\"132.0\"/><rect class=\"f\" x=\"266.3\" y=\"113.3\" width=\"20.7\" height=\"146.7\"/><rect class=\"f\" x=\"293.0\" y=\"84.0\" width=\"20.7\" height=\"176.0\"/><rect class=\"f\" x=\"319.7\" y=\"69.3\" width=\"20.7\" height=\"190.7\"/><rect class=\"f\" x=\"346.3\" y=\"62.0\" width=\"20.7\" height=\"198.0\"/><polyline class=\"s2\" fill=\"none\" points=\"63.3,53.2 90.0,53.2 116.7,53.2 143.3,53.2 170.0,53.2 196.7,57.6 223.3,57.6 250.0,57.6 276.7,53.2 303.3,53.2 330.0,53.2 356.7,53.2\"/><path class=\"dash\" d=\"M50 172.0 H370\"/><text class=\"t\" x=\"20\" y=\"176.0\">0°C</text><text class=\"t\" x=\"58.0\" y=\"278\">I</text><text class=\"t\" x=\"84.7\" y=\"278\">F</text><text class=\"t\" x=\"111.3\" y=\"278\">M</text><text class=\"t\" x=\"138.0\" y=\"278\">A</text><text class=\"t\" x=\"164.7\" y=\"278\">M</text><text class=\"t\" x=\"191.3\" y=\"278\">J</text><text class=\"t\" x=\"218.0\" y=\"278\">J</text><text class=\"t\" x=\"244.7\" y=\"278\">A</text><text class=\"t\" x=\"271.3\" y=\"278\">S</text><text class=\"t\" x=\"298.0\" y=\"278\">O</text><text class=\"t\" x=\"324.7\" y=\"278\">N</text><text class=\"t\" x=\"351.3\" y=\"278\">D</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 80,
+       "y": 53.19999999999999,
+       "lx": 70,
+       "ly": 30,
+       "n": "Temperatura",
+       "d": "Ok. 26–27°C przez cały rok — amplituda ok. 1°C"
+      },
+      {
+       "x": 210,
+       "y": 120,
+       "lx": 210,
+       "ly": 25,
+       "n": "Opady",
+       "d": "Obfite w każdym miesiącu, suma ponad 2500 mm"
+      },
+      {
+       "x": 200,
+       "y": 172.0,
+       "lx": 300,
+       "ly": 164.0,
+       "n": "Brak termicznej zimy",
+       "d": "Temperatura nigdy nie spada w pobliże 0°C"
+      }
+     ]
+    },
+    {
+     "id": "s5bdd2eaa",
+     "typ": "rysunek",
+     "tytul": "Klimatogram: klimat śródziemnomorski",
+     "opis": "Klimat strefy podzwrotnikowej z suchym latem.",
+     "uwaga": "Na półkuli N suche lato przypada na VI–VIII — wtedy dominuje wyż zwrotnikowy.",
+     "svg": "<path class=\"s\" d=\"M50 40 V260 H370 V40\"/><rect class=\"f\" x=\"53.0\" y=\"201.3\" width=\"20.7\" height=\"58.7\"/><rect class=\"f\" x=\"79.7\" y=\"208.7\" width=\"20.7\" height=\"51.3\"/><rect class=\"f\" x=\"106.3\" y=\"219.7\" width=\"20.7\" height=\"40.3\"/><rect class=\"f\" x=\"133.0\" y=\"230.7\" width=\"20.7\" height=\"29.3\"/><rect class=\"f\" x=\"159.7\" y=\"241.7\" width=\"20.7\" height=\"18.3\"/><rect class=\"f\" x=\"186.3\" y=\"254.1\" width=\"20.7\" height=\"5.9\"/><rect class=\"f\" x=\"213.0\" y=\"258.5\" width=\"20.7\" height=\"1.5\"/><rect class=\"f\" x=\"239.7\" y=\"257.1\" width=\"20.7\" height=\"2.9\"/><rect class=\"f\" x=\"266.3\" y=\"241.7\" width=\"20.7\" height=\"18.3\"/><rect class=\"f\" x=\"293.0\" y=\"216.0\" width=\"20.7\" height=\"44.0\"/><rect class=\"f\" x=\"319.7\" y=\"197.7\" width=\"20.7\" height=\"62.3\"/><rect class=\"f\" x=\"346.3\" y=\"194.0\" width=\"20.7\" height=\"66.0\"/><polyline class=\"s2\" fill=\"none\" points=\"63.3,128.0 90.0,123.6 116.7,114.8 143.3,106.0 170.0,88.4 196.7,70.8 223.3,57.6 250.0,57.6 276.7,70.8 303.3,88.4 330.0,110.4 356.7,123.6\"/><path class=\"dash\" d=\"M50 172.0 H370\"/><text class=\"t\" x=\"20\" y=\"176.0\">0°C</text><text class=\"t\" x=\"58.0\" y=\"278\">I</text><text class=\"t\" x=\"84.7\" y=\"278\">F</text><text class=\"t\" x=\"111.3\" y=\"278\">M</text><text class=\"t\" x=\"138.0\" y=\"278\">A</text><text class=\"t\" x=\"164.7\" y=\"278\">M</text><text class=\"t\" x=\"191.3\" y=\"278\">J</text><text class=\"t\" x=\"218.0\" y=\"278\">J</text><text class=\"t\" x=\"244.7\" y=\"278\">A</text><text class=\"t\" x=\"271.3\" y=\"278\">S</text><text class=\"t\" x=\"298.0\" y=\"278\">O</text><text class=\"t\" x=\"324.7\" y=\"278\">N</text><text class=\"t\" x=\"351.3\" y=\"278\">D</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 240,
+       "y": 57.599999999999994,
+       "lx": 260,
+       "ly": 30,
+       "n": "Gorące lato",
+       "d": "Średnio ponad 22°C w lipcu i sierpniu"
+      },
+      {
+       "x": 210,
+       "y": 255,
+       "lx": 250,
+       "ly": 235,
+       "n": "Susza letnia",
+       "d": "Najmniej opadów w porze najcieplejszej"
+      },
+      {
+       "x": 355,
+       "y": 215,
+       "lx": 340,
+       "ly": 195,
+       "n": "Wilgotna zima",
+       "d": "Najwięcej opadów od listopada do stycznia"
+      },
+      {
+       "x": 70,
+       "y": 128.0,
+       "lx": 90,
+       "ly": 153.0,
+       "n": "Łagodna zima",
+       "d": "Brak średnich miesięcznych poniżej 0°C"
+      }
+     ]
+    }
    ]
   }
  ]

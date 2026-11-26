@@ -1105,6 +1105,51 @@
      "wyjasnienie": "Krynica, Szczawnica.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s3d19af41",
+     "typ": "rysunek",
+     "tytul": "Mierzeja i zalew",
+     "opis": "Wybrzeże akumulacyjne — np. Mierzeja Wiślana i Zalew Wiślany.",
+     "uwaga": "Mierzeje i zalewy powstają w wyniku akumulacji morskiej, nie abrazji.",
+     "svg": "<path class=\"f2\" d=\"M20 280 L20 180 C100 170 160 200 220 180 C280 160 340 190 380 180 L380 280 Z\" opacity=\"0.4\"/><path class=\"f\" d=\"M20 140 C120 130 260 130 380 140 L380 150 C260 142 120 142 20 152 Z\"/><path class=\"s2\" d=\"M40 165 C120 158 260 158 360 165\"/><path class=\"dash\" d=\"M20 40 H380\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 140,
+       "lx": 200,
+       "ly": 115,
+       "n": "Mierzeja",
+       "d": "Wał piasku usypany przez prądy przybrzeżne"
+      },
+      {
+       "x": 200,
+       "y": 165,
+       "lx": 240,
+       "ly": 170,
+       "n": "Zalew",
+       "d": "Odcięty fragment zatoki, wody wysłodzone przez rzeki"
+      },
+      {
+       "x": 200,
+       "y": 80,
+       "lx": 200,
+       "ly": 60,
+       "n": "Morze otwarte",
+       "d": "Bałtyk"
+      },
+      {
+       "x": 120,
+       "y": 230,
+       "lx": 80,
+       "ly": 255,
+       "n": "Ląd i ujście rzeki",
+       "d": "Rzeka zasila zalew wodą słodką"
+      }
+     ]
+    }
    ]
   },
   {

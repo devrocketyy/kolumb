@@ -1123,6 +1123,137 @@
      "wyjasnienie": "Pływy wymywają osady.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sead6610b",
+     "typ": "rysunek",
+     "tytul": "Dolina rzeczna V i dolina lodowcowa U",
+     "opis": "Porównanie przekrojów doliny rzecznej i lodowcowej.",
+     "uwaga": "Kształt U jest dowodem dawnego zlodowacenia gór, np. w Tatrach.",
+     "svg": "<path class=\"f\" d=\"M20 60 L100 240 L120 240 L190 60 Z\" opacity=\"0.5\"/><path class=\"s\" d=\"M20 60 L100 240 L120 240 L190 60\"/><path class=\"f\" d=\"M210 60 C210 230 240 240 295 240 C350 240 380 230 380 60 Z\" opacity=\"0.5\"/><path class=\"s\" d=\"M210 60 C210 230 240 240 295 240 C350 240 380 230 380 60\"/><path class=\"s2\" d=\"M100 240 H120\"/><text class=\"t\" x=\"85\" y=\"275\">V</text><text class=\"t\" x=\"290\" y=\"275\">U</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 110,
+       "y": 240,
+       "lx": 140,
+       "ly": 255,
+       "n": "Rzeka w dnie doliny V",
+       "d": "Erozja wgłębna w górnym biegu"
+      },
+      {
+       "x": 60,
+       "y": 150,
+       "lx": 30,
+       "ly": 160,
+       "n": "Strome zbocza V",
+       "d": "Wąskie dno, przekrój klinowy"
+      },
+      {
+       "x": 295,
+       "y": 240,
+       "lx": 330,
+       "ly": 260,
+       "n": "Szerokie płaskie dno",
+       "d": "Wyżłobione przez lodowiec"
+      },
+      {
+       "x": 215,
+       "y": 150,
+       "lx": 245,
+       "ly": 130,
+       "n": "Strome ściany U",
+       "d": "Żłób lodowcowy, np. Dolina Pięciu Stawów"
+      }
+     ]
+    },
+    {
+     "id": "s8ea628a7",
+     "typ": "rysunek",
+     "tytul": "Meander i starorzecze",
+     "opis": "Kręty bieg rzeki nizinnej.",
+     "uwaga": "Na brzegu wklęsłym przeważa erozja, na wypukłym — akumulacja.",
+     "svg": "<path class=\"s2\" d=\"M20 150 C80 60 140 60 160 150 C180 240 240 240 260 150 C280 60 340 60 380 150\"/><path class=\"s2\" d=\"M300 230 C340 230 360 260 330 275 C300 290 270 260 300 230\" fill=\"none\"/><path class=\"dash\" d=\"M120 75 L100 60 M200 225 L220 240\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 90,
+       "y": 78,
+       "lx": 60,
+       "ly": 40,
+       "n": "Brzeg wklęsły",
+       "d": "Erozja — prąd uderza w brzeg, powstaje podcięcie"
+      },
+      {
+       "x": 125,
+       "y": 130,
+       "lx": 110,
+       "ly": 160,
+       "n": "Brzeg wypukły",
+       "d": "Akumulacja — łacha piaszczysta"
+      },
+      {
+       "x": 210,
+       "y": 215,
+       "lx": 240,
+       "ly": 205,
+       "n": "Zakole",
+       "d": "Meander przesuwa się z biegiem rzeki"
+      },
+      {
+       "x": 330,
+       "y": 275,
+       "lx": 360,
+       "ly": 290,
+       "n": "Starorzecze",
+       "d": "Odcięte zakole, jezioro w dolinie"
+      }
+     ]
+    },
+    {
+     "id": "s300e35d7",
+     "typ": "rysunek",
+     "tytul": "Wydma paraboliczna i barchan",
+     "opis": "Kształt wydmy wskazuje kierunek wiatru.",
+     "uwaga": "Najczęstsze pytanie: w którą stronę wiał wiatr. Ramiona barchanu „uciekają” z wiatrem.",
+     "svg": "<path class=\"f\" d=\"M40 90 C80 40 160 40 180 90 C150 70 110 70 80 90 L40 90 Z\"/><path class=\"f\" d=\"M220 210 C260 260 340 260 360 210 C330 230 290 230 260 210 L220 210 Z\"/><path class=\"s2\" d=\"M110 170 V110\"/><path class=\"s2\" d=\"M100 122 L110 105 L120 122\"/><path class=\"s2\" d=\"M290 200 V140\"/><path class=\"s2\" d=\"M280 152 L290 135 L300 152\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 110,
+       "y": 55,
+       "lx": 110,
+       "ly": 25,
+       "n": "Wydma paraboliczna",
+       "d": "Ramiona skierowane pod wiatr — wybrzeża (Mierzeja Łebska)"
+      },
+      {
+       "x": 290,
+       "y": 245,
+       "lx": 290,
+       "ly": 280,
+       "n": "Barchan",
+       "d": "Ramiona skierowane z wiatrem — pustynie"
+      },
+      {
+       "x": 110,
+       "y": 150,
+       "lx": 70,
+       "ly": 160,
+       "n": "Wiatr (parabola)",
+       "d": "Wieje od strony ramion ku czołu wydmy"
+      },
+      {
+       "x": 290,
+       "y": 180,
+       "lx": 330,
+       "ly": 175,
+       "n": "Wiatr (barchan)",
+       "d": "Wieje od strony czoła ku ramionom"
+      }
+     ]
+    }
    ]
   }
  ]

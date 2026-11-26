@@ -563,6 +563,51 @@
      "wyjasnienie": "Śląsk Opolski.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s8343caef",
+     "typ": "rysunek",
+     "tytul": "Piramidy wieku: młode i starzejące się społeczeństwo",
+     "opis": "Dwa typy struktury wieku ludności.",
+     "uwaga": "Piramida „ula” lub „urny” oznacza starzenie się społeczeństwa.",
+     "svg": "<path class=\"s\" d=\"M100 40 V270 M300 40 V270\"/><path class=\"f\" d=\"M100 60 L110 60 L130 110 L150 160 L170 210 L185 260 L100 260 Z\"/><path class=\"f2\" d=\"M100 60 L90 60 L70 110 L50 160 L30 210 L15 260 L100 260 Z\" opacity=\"0.7\"/><path class=\"f\" d=\"M300 60 L320 60 L340 110 L345 160 L335 210 L320 260 L300 260 Z\"/><path class=\"f2\" d=\"M300 60 L285 60 L262 110 L256 160 L264 210 L278 260 L300 260 Z\" opacity=\"0.7\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 100,
+       "y": 255,
+       "lx": 100,
+       "ly": 285,
+       "n": "Szeroka podstawa",
+       "d": "Dużo dzieci — wysoki przyrost naturalny (np. Nigeria)"
+      },
+      {
+       "x": 300,
+       "y": 255,
+       "lx": 300,
+       "ly": 285,
+       "n": "Zwężona podstawa",
+       "d": "Mało urodzeń — starzenie się (np. Polska, Japonia)"
+      },
+      {
+       "x": 340,
+       "y": 120,
+       "lx": 370,
+       "ly": 100,
+       "n": "Szeroki środek i wierzchołek",
+       "d": "Duży udział osób w wieku produkcyjnym i starszych"
+      },
+      {
+       "x": 30,
+       "y": 210,
+       "lx": 20,
+       "ly": 180,
+       "n": "Mężczyźni / kobiety",
+       "d": "Po obu stronach osi — struktura płci"
+      }
+     ]
+    }
    ]
   },
   {

@@ -633,6 +633,59 @@
      "wyjasnienie": "Pora deszczowa i sucha.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s46d6027c",
+     "typ": "rysunek",
+     "tytul": "Piętra roślinności w Tatrach",
+     "opis": "Piętrowy układ roślinności w zależności od wysokości.",
+     "uwaga": "Granice pięter są wyżej na stokach południowych i niżej na północnych.",
+     "svg": "<path class=\"f\" d=\"M20 280 L170 40 L230 40 L380 280 Z\" opacity=\"0.25\"/><path class=\"s\" d=\"M20 280 L170 40 L230 40 L380 280\"/><path class=\"dash\" d=\"M65 208 H335 M100 152 H300 M130 104 H270 M152 69 H248\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 245,
+       "lx": 340,
+       "ly": 255,
+       "n": "Regiel dolny",
+       "d": "Do ok. 1250 m — lasy mieszane, buk, jodła"
+      },
+      {
+       "x": 200,
+       "y": 180,
+       "lx": 340,
+       "ly": 185,
+       "n": "Regiel górny",
+       "d": "Do ok. 1550 m — świerk"
+      },
+      {
+       "x": 200,
+       "y": 128,
+       "lx": 340,
+       "ly": 130,
+       "n": "Kosodrzewina",
+       "d": "Do ok. 1800 m — kosówka"
+      },
+      {
+       "x": 200,
+       "y": 86,
+       "lx": 340,
+       "ly": 85,
+       "n": "Hale",
+       "d": "Do ok. 2300 m — łąki wysokogórskie"
+      },
+      {
+       "x": 200,
+       "y": 52,
+       "lx": 340,
+       "ly": 45,
+       "n": "Turnie",
+       "d": "Powyżej — skały, porosty"
+      }
+     ]
+    }
    ]
   }
  ]
