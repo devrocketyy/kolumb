@@ -119,6 +119,78 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Czas słoneczny Krakowa i Szczecina",
+   "material": "Tekst autorski. Kraków leży na ok. 20°00′E, a Szczecin na ok. 14°30′E.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz czas słoneczny w Szczecinie, gdy w Krakowie jest 12:00 czasu słonecznego.",
+     "odpowiedz": "11:38",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Różnica 5°30′ = 22 min; Szczecin leży na zachód — wcześniej.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego oba miasta mają ten sam czas urzędowy.",
+     "odpowiedz": "Leżą w tej samej strefie czasowej (UTC+1), w której obowiązuje czas słoneczny południka 15°E.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Czas strefowy.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-05",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Lot do Nowego Jorku latem",
+   "material": "Tekst autorski. Samolot startuje z Warszawy 10 lipca o 13:00 czasu letniego (UTC+2) i leci 9 godzin do Nowego Jorku (latem UTC−4).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Podaj godzinę lądowania w czasie lokalnym Nowego Jorku.",
+     "odpowiedz": "16:00, 10 lipca",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "13:00 UTC+2 = 11:00 UTC; +9 h = 20:00 UTC; −4 h = 16:00.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-06",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Szerokość z wysokości Słońca",
+   "material": "Tekst autorski. 21 marca w punkcie X na półkuli północnej Słońce górowało na wysokości 50°.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz szerokość geograficzną punktu X.",
+     "odpowiedz": "40°N",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 50°.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania w punkcie X 22 grudnia.",
+     "odpowiedz": "26°33′",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 40° − 23°27′.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-07",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Zgorzelcem i Terespolem",
    "material": "Tekst autorski. Zgorzelec leży na ok. 15°00′E, Terespol na ok. 23°40′E. Jest zima (obowiązuje czas UTC+1).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -142,7 +214,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-05",
+   "id": "b-ziemia-08",
    "dzial": "ziemia"
   },
   {
@@ -169,7 +241,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-06",
+   "id": "b-ziemia-09",
    "dzial": "ziemia"
   },
   {
@@ -196,7 +268,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-07",
+   "id": "b-ziemia-10",
    "dzial": "ziemia"
   },
   {
@@ -232,7 +304,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-08",
+   "id": "b-ziemia-11",
    "dzial": "ziemia"
   },
   {
@@ -259,7 +331,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-09",
+   "id": "b-ziemia-12",
    "dzial": "ziemia"
   },
   {
@@ -286,7 +358,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-10",
+   "id": "b-ziemia-13",
    "dzial": "ziemia"
   },
   {
@@ -304,7 +376,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-11",
+   "id": "b-ziemia-14",
    "dzial": "ziemia"
   }
  ]

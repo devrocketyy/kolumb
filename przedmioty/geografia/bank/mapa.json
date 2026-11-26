@@ -227,6 +227,87 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Podejście na szczyt",
+   "material": "Tekst autorski. Na mapie w skali 1:50 000 schronisko leży na wysokości 1120 m n.p.m., a szczyt — 1415 m n.p.m. Odległość między nimi na mapie wynosi 2,4 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość w terenie (w poziomie) między schroniskiem a szczytem.",
+     "odpowiedz": "1,2 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2,4 cm × 500 m.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość względną szczytu nad schroniskiem.",
+     "odpowiedz": "295 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1415 − 1120.",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz średni spadek terenu w procentach. Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "ok. 24,6%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "295 m / 1200 m × 100%.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-mapa-09",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Powierzchnia jeziora metodą kratową",
+   "material": "Tekst autorski. Na mapie w skali 1:25 000 jezioro obejmuje 18 pełnych kratek o boku 1 cm i 10 kratek niepełnych (liczonych jako połowy).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz powierzchnię jeziora w terenie w hektarach.",
+     "odpowiedz": "ok. 144 ha",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "18 + 10 × 0,5 = 23 cm²; 1 cm² = 6,25 ha; 23 × 6,25 = 143,75 ha.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-10",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Azymut z wieży widokowej",
+   "material": "Tekst autorski. Z wieży widokowej kościół widać w kierunku azymutu 300°, a jezioro — 120°.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj kierunek geograficzny, w którym leży kościół.",
+     "odpowiedz": "północny zachód (WNW)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "300° — między W (270°) a NW (315°).",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy kościół i jezioro leżą po przeciwnych stronach wieży. Uzasadnij.",
+     "odpowiedz": "Tak — azymuty różnią się o 180° (300° − 120°).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Azymut wsteczny.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-11",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Wycieczka na wieżę widokową",
    "material": "Tekst autorski. Na mapie w skali 1:25 000 kościół leży na wysokości 212 m n.p.m., a wieża widokowa na wzgórzu — 347 m n.p.m. Odległość między nimi na mapie: 8 cm. Wieża leży od kościoła w kierunku azymutu 135°.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -259,7 +340,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-09",
+   "id": "b-mapa-12",
    "dzial": "mapa"
   },
   {
@@ -277,7 +358,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-10",
+   "id": "b-mapa-13",
    "dzial": "mapa"
   },
   {
@@ -304,7 +385,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-11",
+   "id": "b-mapa-14",
    "dzial": "mapa"
   },
   {
@@ -340,7 +421,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-12",
+   "id": "b-mapa-15",
    "dzial": "mapa"
   },
   {
@@ -367,7 +448,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-13",
+   "id": "b-mapa-16",
    "dzial": "mapa"
   },
   {
@@ -394,7 +475,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-14",
+   "id": "b-mapa-17",
    "dzial": "mapa"
   },
   {
@@ -412,7 +493,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-15",
+   "id": "b-mapa-18",
    "dzial": "mapa"
   }
  ]

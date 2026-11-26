@@ -56,6 +56,33 @@
    "dzial": "rolnictwo"
   },
   {
+   "tytul": "Plony ziemniaków",
+   "material": "Tekst autorski. W Polsce zebrano 6 mln t ziemniaków z powierzchni 200 tys. ha.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz plon ziemniaków w decytonach z hektara.",
+     "odpowiedz": "300 dt/ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "6 000 000 t / 200 000 ha = 30 t/ha.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego powierzchnia uprawy ziemniaków w Polsce od lat maleje.",
+     "odpowiedz": "Spadło spożycie ziemniaków i wykorzystanie ich na paszę (hodowla trzody opiera się na paszach przemysłowych), a uprawa jest pracochłonna.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zmiany konsumpcji i hodowli.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-03",
+   "dzial": "rolnictwo"
+  },
+  {
    "tytul": "Gospodarstwo na Kujawach",
    "material": "Tekst autorski. Gospodarstwo uprawia: pszenicę na 25 ha (plon 6 t/ha), rzepak na 10 ha (plon 3,5 t/ha) i ziemniaki na 5 ha (plon 28 t/ha).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -88,7 +115,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rolnictwo-03",
+   "id": "b-rolnictwo-04",
    "dzial": "rolnictwo"
   },
   {
@@ -115,7 +142,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-04",
+   "id": "b-rolnictwo-05",
    "dzial": "rolnictwo"
   },
   {
@@ -142,7 +169,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-05",
+   "id": "b-rolnictwo-06",
    "dzial": "rolnictwo"
   },
   {
@@ -169,7 +196,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-06",
+   "id": "b-rolnictwo-07",
    "dzial": "rolnictwo"
   }
  ]

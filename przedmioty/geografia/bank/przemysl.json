@@ -110,6 +110,60 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Energia z wiatru",
+   "material": "Tekst autorski. Produkcja energii z wiatru w Polsce wyniosła ok. 7,7 TWh w 2014 r. i ok. 25 TWh w 2024 r.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik dynamiki produkcji (2014 = 100%).",
+     "odpowiedz": "ok. 325%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "25 / 7,7 × 100 ≈ 324,7.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj region Polski o najlepszych warunkach dla energetyki wiatrowej.",
+     "odpowiedz": "Pomorze (wybrzeże) i obszary morskie Bałtyku",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Silne, stałe wiatry.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-05",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Funkcja turystyczna Zakopanego",
+   "material": "Tekst autorski. Zakopane liczy ok. 27 000 mieszkańców i ma ok. 20 000 miejsc noclegowych. Wskaźnik Baretje’a = liczba miejsc noclegowych / liczba mieszkańców × 100.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik Baretje’a dla Zakopanego.",
+     "odpowiedz": "ok. 74",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "20 000 / 27 000 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa walory przyrodnicze, które decydują o rozwoju turystyki w Zakopanem.",
+     "odpowiedz": "Rzeźba wysokogórska Tatr, warunki do narciarstwa (długo zalegający śnieg), Tatrzański Park Narodowy, jaskinie i stawy.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-06",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Struktura produkcji energii",
    "material": "Tekst autorski. Kraj Q wyprodukował 160 TWh energii elektrycznej: węgiel 55%, gaz ziemny 10%, wiatr 15%, słońce 10%, biomasa 8%, woda 2%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -142,7 +196,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-przemysl-05",
+   "id": "b-przemysl-07",
    "dzial": "przemysl"
   },
   {
@@ -169,7 +223,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-06",
+   "id": "b-przemysl-08",
    "dzial": "przemysl"
   },
   {
@@ -196,7 +250,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-07",
+   "id": "b-przemysl-09",
    "dzial": "przemysl"
   },
   {
@@ -223,7 +277,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-08",
+   "id": "b-przemysl-10",
    "dzial": "przemysl"
   },
   {
@@ -250,7 +304,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-09",
+   "id": "b-przemysl-11",
    "dzial": "przemysl"
   },
   {
@@ -277,7 +331,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-10",
+   "id": "b-przemysl-12",
    "dzial": "przemysl"
   },
   {
@@ -304,7 +358,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-11",
+   "id": "b-przemysl-13",
    "dzial": "przemysl"
   }
  ]

@@ -200,6 +200,33 @@
    "dzial": "hydrosfera"
   },
   {
+   "tytul": "Odpływ jednostkowy",
+   "material": "Tekst autorski. Średni przepływ rzeki wynosi 60 m³/s, a powierzchnia jej dorzecza — 4800 km².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odpływ jednostkowy w l/s z 1 km².",
+     "odpowiedz": "12,5 l/(s·km²)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "60 000 l/s / 4800 km².",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden czynnik przyrodniczy, który zwiększa odpływ jednostkowy.",
+     "odpowiedz": "Np. duże opady, nieprzepuszczalne podłoże, strome stoki (góry).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jeden.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-09",
+   "dzial": "hydrosfera"
+  },
+  {
    "tytul": "Pomiar przepływu",
    "material": "Tekst autorski. W przekroju pomiarowym rzeka ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -223,7 +250,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-09",
+   "id": "b-hydrosfera-10",
    "dzial": "hydrosfera"
   },
   {
@@ -259,7 +286,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-hydrosfera-10",
+   "id": "b-hydrosfera-11",
    "dzial": "hydrosfera"
   },
   {
@@ -277,7 +304,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-hydrosfera-11",
+   "id": "b-hydrosfera-12",
    "dzial": "hydrosfera"
   },
   {
@@ -304,7 +331,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-12",
+   "id": "b-hydrosfera-13",
    "dzial": "hydrosfera"
   },
   {
@@ -331,7 +358,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-13",
+   "id": "b-hydrosfera-14",
    "dzial": "hydrosfera"
   },
   {
@@ -358,7 +385,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-14",
+   "id": "b-hydrosfera-15",
    "dzial": "hydrosfera"
   },
   {
@@ -385,7 +412,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-15",
+   "id": "b-hydrosfera-16",
    "dzial": "hydrosfera"
   },
   {
@@ -412,7 +439,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-16",
+   "id": "b-hydrosfera-17",
    "dzial": "hydrosfera"
   }
  ]

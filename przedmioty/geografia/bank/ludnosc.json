@@ -245,6 +245,78 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Obciążenie demograficzne",
+   "material": "Tekst autorski. Struktura wieku ludności województwa: 0–17 lat — 18%, 18–64 lata — 61%, 65 lat i więcej — 21%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz współczynnik obciążenia demograficznego (liczba osób w wieku nieprodukcyjnym na 100 osób w wieku produkcyjnym).",
+     "odpowiedz": "ok. 64",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(18 + 21) / 61 × 100 ≈ 63,9.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa skutki gospodarcze wysokiego udziału osób w wieku 65+.",
+     "odpowiedz": "Wzrost wydatków na emerytury i ochronę zdrowia; niedobór pracowników; rozwój usług opiekuńczych (srebrna gospodarka).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-10",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Saldo migracji w powiecie",
+   "material": "Tekst autorski. Do powiatu liczącego 80 000 mieszkańców napłynęło w ciągu roku 3200 osób, a odpłynęło 2400.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz współczynnik salda migracji w promilach.",
+     "odpowiedz": "+10‰",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(3200 − 2400) / 80 000 × 1000.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jakiego typu może być ten powiat, biorąc pod uwagę dodatnie saldo migracji.",
+     "odpowiedz": "Np. powiat podmiejski wokół dużego miasta (suburbanizacja).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Strefa podmiejska.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-11",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Wskaźnik urbanizacji",
+   "material": "Tekst autorski. Województwo liczy 2,1 mln mieszkańców, z czego 1,26 mln mieszka w miastach.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik urbanizacji.",
+     "odpowiedz": "60%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1,26 / 2,1 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-12",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Miasto i strefa podmiejska",
    "material": "Tekst autorski. Liczba ludności miasta X w latach 1990 i 2020: centrum 400 tys. → 300 tys.; strefa podmiejska 100 tys. → 200 tys.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -277,7 +349,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-10",
+   "id": "b-ludnosc-13",
    "dzial": "ludnosc"
   },
   {
@@ -313,7 +385,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-11",
+   "id": "b-ludnosc-14",
    "dzial": "ludnosc"
   },
   {
@@ -340,7 +412,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-12",
+   "id": "b-ludnosc-15",
    "dzial": "ludnosc"
   },
   {
@@ -376,7 +448,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-13",
+   "id": "b-ludnosc-16",
    "dzial": "ludnosc"
   },
   {
@@ -403,7 +475,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-14",
+   "id": "b-ludnosc-17",
    "dzial": "ludnosc"
   },
   {
@@ -439,7 +511,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-15",
+   "id": "b-ludnosc-18",
    "dzial": "ludnosc"
   }
  ]
