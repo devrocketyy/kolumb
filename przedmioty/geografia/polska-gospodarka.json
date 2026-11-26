@@ -287,6 +287,42 @@
    "wymaganie": "XV.5–10",
    "fiszki": [
     {
+     "id": "f29d7f98a",
+     "przod": "Specjalizacja rolnicza regionów Polski",
+     "tyl": "Wielkopolska i Kujawy — zboża i chów; Mazowsze — sadownictwo; Podlasie — chów bydła mlecznego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.5–10"
+    },
+    {
+     "id": "f1e8234a8",
+     "przod": "Okręgi przemysłowe Polski",
+     "tyl": "Górnośląski (największy), Warszawski, Łódzki, Krakowski, Wrocławski, Gdański.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.5–10"
+    },
+    {
+     "id": "fddbd0540",
+     "przod": "Przemysł stoczniowy w Polsce",
+     "tyl": "Gdańsk, Gdynia, Szczecin — dziś głównie budowa specjalistycznych jednostek i remonty.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.5–10"
+    },
+    {
+     "id": "fc631126a",
+     "przod": "Transport kolejowy w Polsce",
+     "tyl": "Gęstość sieci największa na Śląsku; modernizacja linii i rozwój kolei dużych prędkości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.5–10"
+    },
+    {
+     "id": "f02d5fc79",
+     "przod": "Drogi wodne w Polsce",
+     "tyl": "Słabo wykorzystane; najważniejsza Odrzańska Droga Wodna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.5–10"
+    },
+    {
+     "id": "f4abe3080",
+     "przod": "Eksport Polski",
+     "tyl": "Głównie maszyny i urządzenia, pojazdy i części, meble, żywność; większość do krajów UE.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.5–10"
+    },
+    {
      "id": "fdb4dc8a9",
      "przod": "Rozdrobnienie rolnictwa w Polsce",
      "tyl": "Przeważają małe gospodarstwa (średnio ok. 11 ha); największe w województwach zachodnich i północnych.",
@@ -371,6 +407,36 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.5–10"
     },
     {
+     "id": "f05875c0e",
+     "przod": "Rozpoznaj: Górnośląski (największy), Warszawski, Łódzki, Krakowski, Wrocławski, Gdański.",
+     "tyl": "Okręgi przemysłowe Polski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.5–10"
+    },
+    {
+     "id": "fea4e40c6",
+     "przod": "Rozpoznaj: Gdańsk, Gdynia, Szczecin — dziś głównie budowa specjalistycznych jednostek i remonty.",
+     "tyl": "Przemysł stoczniowy w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.5–10"
+    },
+    {
+     "id": "fc8a39782",
+     "przod": "Rozpoznaj: Gęstość sieci największa na Śląsku; modernizacja linii i rozwój kolei dużych prędkości.",
+     "tyl": "Transport kolejowy w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.5–10"
+    },
+    {
+     "id": "f4afae1c3",
+     "przod": "Rozpoznaj: Słabo wykorzystane; najważniejsza Odrzańska Droga Wodna.",
+     "tyl": "Drogi wodne w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.5–10"
+    },
+    {
+     "id": "f032fbd65",
+     "przod": "Rozpoznaj: Głównie maszyny i urządzenia, pojazdy i części, meble, żywność; większość do krajów UE.",
+     "tyl": "Eksport Polski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.5–10"
+    },
+    {
      "id": "faeff3414",
      "przod": "Rozpoznaj: Przeważają małe gospodarstwa (średnio ok. 11 ha); największe w województwach zachodnich i północnych.",
      "tyl": "Rozdrobnienie rolnictwa w Polsce",
@@ -432,6 +498,58 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p4a6346fc",
+     "pytanie": "Chów bydła mlecznego dominuje w województwie:",
+     "odpowiedzi": [
+      "podlaskim",
+      "dolnośląskim",
+      "śląskim",
+      "świętokrzyskim"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Łąki i pastwiska.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa4fabe44",
+     "pytanie": "Największym okręgiem przemysłowym Polski jest:",
+     "odpowiedzi": [
+      "Łódzki",
+      "Wrocławski",
+      "Gdański",
+      "Górnośląski"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Węgiel i przemysł ciężki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7bed8a45",
+     "pytanie": "Najważniejszą śródlądową drogą wodną w Polsce jest:",
+     "odpowiedzi": [
+      "Kanał Elbląski",
+      "Kanał Augustowski",
+      "Odrzańska Droga Wodna",
+      "Wisła w Tatrach"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Żegluga towarowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7677cfd5",
+     "pytanie": "Większość polskiego eksportu trafia do:",
+     "odpowiedzi": [
+      "Ameryki Południowej",
+      "Chin",
+      "Afryki",
+      "krajów Unii Europejskiej"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Zwłaszcza Niemiec.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "p1522cc4f",
      "pytanie": "Największa elektrownia w Polsce znajduje się w:",

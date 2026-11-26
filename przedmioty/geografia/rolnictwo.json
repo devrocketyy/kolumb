@@ -305,6 +305,48 @@
    "wymaganie": "X.4–6",
    "fiszki": [
     {
+     "id": "fce573c7f",
+     "przod": "Żyto",
+     "tyl": "Zboże o małych wymaganiach glebowych i klimatycznych — dawniej podstawowe zboże w Polsce.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f65ce0f98",
+     "przod": "Pszenżyto",
+     "tyl": "Mieszaniec pszenicy i żyta — popularny w Polsce, uprawiany na paszę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f232b7e49",
+     "przod": "Rzepak",
+     "tyl": "Roślina oleista strefy umiarkowanej; w Polsce głównie na zachodzie i północy, także na biopaliwa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f8ee3f9ef",
+     "przod": "Ziemniaki w Polsce",
+     "tyl": "Uprawa maleje; dawniej Polska była jednym z największych producentów na świecie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f9de2c647",
+     "przod": "Uprawy przemysłowe",
+     "tyl": "Rośliny dostarczające surowców dla przemysłu: buraki cukrowe, rzepak, len, tytoń, chmiel.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f5353e56b",
+     "przod": "Chmiel w Polsce",
+     "tyl": "Uprawiany głównie na Lubelszczyźnie — surowiec dla browarów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f97b53d87",
+     "przod": "Sady w Polsce",
+     "tyl": "Największy region sadowniczy — okolice Grójca na Mazowszu, także Sandomierszczyzna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
      "id": "f19ee213b",
      "przod": "Ryż",
      "tyl": "Uprawa w Azji monsunowej (gorąco i wilgotno); najwięcej produkują Chiny i Indie.",
@@ -395,6 +437,36 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
     },
     {
+     "id": "f81499ce1",
+     "przod": "Rozpoznaj: Zboże o małych wymaganiach glebowych i klimatycznych — dawniej podstawowe zboże w Polsce.",
+     "tyl": "Żyto",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "fb340c330",
+     "przod": "Rozpoznaj: Roślina oleista strefy umiarkowanej; w Polsce głównie na zachodzie i północy, także na biopaliwa.",
+     "tyl": "Rzepak",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "fd38247e2",
+     "przod": "Rozpoznaj: Uprawa maleje; dawniej Polska była jednym z największych producentów na świecie.",
+     "tyl": "Ziemniaki w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f0fbba463",
+     "przod": "Rozpoznaj: Uprawiany głównie na Lubelszczyźnie — surowiec dla browarów.",
+     "tyl": "Chmiel w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f3abcb317",
+     "przod": "Rozpoznaj: Największy region sadowniczy — okolice Grójca na Mazowszu, także Sandomierszczyzna.",
+     "tyl": "Sady w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
      "id": "f8471960a",
      "przod": "Rozpoznaj: Uprawa w Azji monsunowej (gorąco i wilgotno); najwięcej produkują Chiny i Indie.",
      "tyl": "Ryż",
@@ -474,6 +546,58 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p6b7bcd91",
+     "pytanie": "Największy region sadowniczy w Polsce leży w okolicach:",
+     "odpowiedzi": [
+      "Suwałk",
+      "Grójca",
+      "Szczecina",
+      "Zakopanego"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Mazowsze.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pdb4db276",
+     "pytanie": "Chmiel uprawia się w Polsce głównie na:",
+     "odpowiedzi": [
+      "Pomorzu",
+      "Lubelszczyźnie",
+      "Podhalu",
+      "Dolnym Śląsku"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Dla browarów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p90b14118",
+     "pytanie": "Zbożem o najmniejszych wymaganiach glebowych jest:",
+     "odpowiedzi": [
+      "pszenica",
+      "żyto",
+      "kukurydza",
+      "jęczmień browarny"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Rośnie na glebach słabych.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3f12d7f3",
+     "pytanie": "Roślinami przemysłowymi są:",
+     "odpowiedzi": [
+      "jabłka i wiśnie",
+      "buraki cukrowe i rzepak",
+      "żyto i owies",
+      "ziemniaki jadalne i marchew"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Surowiec dla przemysłu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "p219f7cc4",
      "pytanie": "Największym producentem kawy jest:",

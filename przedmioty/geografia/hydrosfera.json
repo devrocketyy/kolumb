@@ -335,6 +335,48 @@
    "wymaganie": "IV.4–5",
    "fiszki": [
     {
+     "id": "f6a93cde0",
+     "przod": "Największe rzeki Europy",
+     "tyl": "Wołga (najdłuższa), Dunaj (płynie przez najwięcej państw), Ren (ważny szlak żeglugowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "f7094e476",
+     "przod": "Missisipi",
+     "tyl": "Największa rzeka Ameryki Północnej; uchodzi deltą do Zatoki Meksykańskiej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "f597fa6dc",
+     "przod": "Jangcy i Huang He",
+     "tyl": "Największe rzeki Chin; Huang He (Żółta Rzeka) niesie ogromne ilości lessu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "ffcfa7c48",
+     "przod": "Ganges",
+     "tyl": "Święta rzeka Indii; wraz z Brahmaputrą tworzy największą deltę świata.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "fff03d1ae",
+     "przod": "Kongo",
+     "tyl": "Rzeka o drugim co do wielkości przepływie na świecie, przecina równik dwukrotnie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "f11a8495a",
+     "przod": "Wodospady — przykłady",
+     "tyl": "Wiktorii (Zambezi), Niagara (USA/Kanada), Iguazú (Brazylia/Argentyna), Angel (najwyższy, Wenezuela).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "fb43e8d87",
+     "przod": "Największe jeziora świata",
+     "tyl": "Morze Kaspijskie (największe powierzchniowo), Jezioro Górne (największe słodkowodne), Bajkał (najgłębsze).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
      "id": "fff67dab4",
      "przod": "Dorzecze",
      "tyl": "Obszar, z którego wody spływają do jednej rzeki głównej.",
@@ -449,6 +491,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
     },
     {
+     "id": "f8d6c779b",
+     "przod": "Rozpoznaj: Największa rzeka Ameryki Północnej; uchodzi deltą do Zatoki Meksykańskiej.",
+     "tyl": "Missisipi",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "f33afc08a",
+     "przod": "Rozpoznaj: Święta rzeka Indii; wraz z Brahmaputrą tworzy największą deltę świata.",
+     "tyl": "Ganges",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "f30425d2e",
+     "przod": "Rozpoznaj: Rzeka o drugim co do wielkości przepływie na świecie, przecina równik dwukrotnie.",
+     "tyl": "Kongo",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
      "id": "fbfb95267",
      "przod": "Rozpoznaj: Obszar, z którego wody spływają do jednej rzeki głównej.",
      "tyl": "Dorzecze",
@@ -498,6 +558,58 @@
     }
    ],
    "pytania": [
+    {
+     "id": "pc38ea78e",
+     "pytanie": "Przez najwięcej państw przepływa:",
+     "odpowiedzi": [
+      "Wołga",
+      "Wisła",
+      "Ren",
+      "Dunaj"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Dziesięć państw.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa32db711",
+     "pytanie": "Największą deltę świata tworzą:",
+     "odpowiedzi": [
+      "Nil i Kongo",
+      "Ganges i Brahmaputra",
+      "Missisipi i Missouri",
+      "Ren i Mozela"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Bangladesz.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p90982e05",
+     "pytanie": "Najwyższym wodospadem świata jest:",
+     "odpowiedzi": [
+      "Iguazú",
+      "Salto Angel",
+      "Wodospad Wiktorii",
+      "Niagara"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wenezuela, ok. 979 m.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb88e194c",
+     "pytanie": "Największym jeziorem pod względem powierzchni jest:",
+     "odpowiedzi": [
+      "Bajkał",
+      "Morze Kaspijskie",
+      "Jezioro Wiktorii",
+      "Jezioro Górne"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Jezioro słone, reliktowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "pb804823f",
      "pytanie": "Rzeka ma przekrój 200 m² i prędkość 1,5 m/s. Przepływ wynosi:",

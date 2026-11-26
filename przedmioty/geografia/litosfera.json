@@ -10,6 +10,48 @@
    "wymaganie": "V.1–3",
    "fiszki": [
     {
+     "id": "fc66e45c3",
+     "przod": "Najwyższe góry świata",
+     "tyl": "Himalaje z Mount Everestem (8849 m) — kolizja płyty indyjskiej z euroazjatycką.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "fe3579b1e",
+     "przod": "Andy",
+     "tyl": "Najdłuższe pasmo górskie lądowe — strefa subdukcji płyty Nazca pod południowoamerykańską; liczne wulkany.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "f37246839",
+     "przod": "Alpy",
+     "tyl": "Najwyższe góry Europy Zachodniej (Mont Blanc ok. 4806 m) — orogeneza alpejska.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "f7cda9ce9",
+     "przod": "Ural",
+     "tyl": "Stare góry na granicy Europy i Azji, fałdowane w orogenezie hercyńskiej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "ffeccd7fd",
+     "przod": "Najwyższy szczyt Europy",
+     "tyl": "Elbrus na Kaukazie (5642 m), jeśli granicę Europy prowadzi się grzbietem Kaukazu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "f68d6e0b3",
+     "przod": "Wulkany w Europie",
+     "tyl": "Etna i Wezuwiusz (Włochy), Hekla (Islandia).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "f8a299c74",
+     "przod": "Trzęsienia ziemi w Polsce",
+     "tyl": "Rzadkie i słabe; częstsze są wstrząsy górnicze na Śląsku i w LGOM.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
      "id": "f7279ceeb",
      "przod": "Budowa wnętrza Ziemi",
      "tyl": "Skorupa ziemska, płaszcz (górny i dolny), jądro zewnętrzne (płynne) i wewnętrzne (stałe).",
@@ -124,6 +166,42 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
     },
     {
+     "id": "ff4dadea9",
+     "przod": "Rozpoznaj: Himalaje z Mount Everestem (8849 m) — kolizja płyty indyjskiej z euroazjatycką.",
+     "tyl": "Najwyższe góry świata",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "f9d52e8dc",
+     "przod": "Rozpoznaj: Najdłuższe pasmo górskie lądowe — strefa subdukcji płyty Nazca pod południowoamerykańską; liczne wulkany.",
+     "tyl": "Andy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "f12daf8ff",
+     "przod": "Rozpoznaj: Najwyższe góry Europy Zachodniej (Mont Blanc ok. 4806 m) — orogeneza alpejska.",
+     "tyl": "Alpy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "f1bf880f0",
+     "przod": "Rozpoznaj: Stare góry na granicy Europy i Azji, fałdowane w orogenezie hercyńskiej.",
+     "tyl": "Ural",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "fea792021",
+     "przod": "Rozpoznaj: Etna i Wezuwiusz (Włochy), Hekla (Islandia).",
+     "tyl": "Wulkany w Europie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "fffc3ae02",
+     "przod": "Rozpoznaj: Rzadkie i słabe; częstsze są wstrząsy górnicze na Śląsku i w LGOM.",
+     "tyl": "Trzęsienia ziemi w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
      "id": "ff12cb33c",
      "przod": "Rozpoznaj: Skorupa ziemska wraz z najwyższą, sztywną częścią płaszcza; podzielona na płyty.",
      "tyl": "Litosfera",
@@ -179,6 +257,58 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p5c0cdbab",
+     "pytanie": "Andy powstały w strefie:",
+     "odpowiedzi": [
+      "subdukcji",
+      "ryftu",
+      "gorącej plamy",
+      "uskoku przesuwczego"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Płyta Nazca.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p486be4ab",
+     "pytanie": "Ural to góry:",
+     "odpowiedzi": [
+      "zrębowe kenozoiczne",
+      "stare, hercyńskie",
+      "wulkaniczne",
+      "młode, alpejskie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Granica Europy i Azji.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p04c481a9",
+     "pytanie": "Najwyższym szczytem Alp jest:",
+     "odpowiedzi": [
+      "Zugspitze",
+      "Elbrus",
+      "Matterhorn",
+      "Mont Blanc"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Ok. 4806 m.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4c21b102",
+     "pytanie": "Wstrząsy w Polsce są najczęściej:",
+     "odpowiedzi": [
+      "skutkiem subdukcji",
+      "związane z wulkanizmem",
+      "wywołane działalnością górniczą",
+      "wywołane przez gorącą plamę"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Śląsk, LGOM.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "p26dacf59",
      "pytanie": "Himalaje powstały w wyniku:",
