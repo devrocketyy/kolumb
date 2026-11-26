@@ -1019,6 +1019,33 @@
    "dzial": "atmosfera"
   },
   {
+   "tytul": "Burza latem",
+   "material": "Tekst autorski. W upalne lipcowe popołudnie nad Polską rozwinęły się chmury Cumulonimbus i doszło do gwałtownej burzy.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, jak powstają opady konwekcyjne.",
+     "odpowiedz": "Silnie nagrzane od podłoża wilgotne powietrze wznosi się, ochładza do punktu rosy, para kondensuje i tworzą się wysokie chmury kłębiaste dające ulewy, często z gradem.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Konwekcja.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedno zagrożenie związane z burzami.",
+     "odpowiedz": "Wyładowania atmosferyczne, grad, nawalne opady i podtopienia, silny wiatr (szkwał), trąby powietrzne.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jedno.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atmosfera-39",
+   "dzial": "atmosfera"
+  },
+  {
    "tytul": "Fen w Zakopanem",
    "material": "Tekst autorski. Wilgotne powietrze o temperaturze 10°C wznosi się po południowym stoku Tatr od 700 m n.p.m. Kondensacja zaczyna się na 1200 m n.p.m., grzbiet ma 2200 m n.p.m. Po stronie północnej powietrze opada do Zakopanego (850 m n.p.m.). Przyjmij: powietrze suche 1°C/100 m, wilgotne 0,6°C/100 m.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1051,7 +1078,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atmosfera-39",
+   "id": "b-atmosfera-40",
    "dzial": "atmosfera"
   },
   {
@@ -1078,7 +1105,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atmosfera-40",
+   "id": "b-atmosfera-41",
    "dzial": "atmosfera"
   },
   {
@@ -1105,7 +1132,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atmosfera-41",
+   "id": "b-atmosfera-42",
    "dzial": "atmosfera"
   }
  ]

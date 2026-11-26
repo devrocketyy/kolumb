@@ -659,6 +659,51 @@
    "dzial": "rolnictwo"
   },
   {
+   "tytul": "Zboże na mieszkańca Polski",
+   "material": "Tekst autorski. Polska zbiera ok. 35 mln t zbóż rocznie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz produkcję zbóż na mieszkańca (37,5 mln) w kg.",
+     "odpowiedz": "ok. 933 kg",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "35 000 000 000 / 37 500 000.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj główny kierunek wykorzystania zbóż w Polsce.",
+     "odpowiedz": "pasza dla zwierząt (także eksport i przemysł)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Hodowla.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-26",
+   "dzial": "rolnictwo"
+  },
+  {
+   "tytul": "Plon jabłek",
+   "material": "Tekst autorski. Sady jabłoniowe zajmują w Polsce ok. 160 tys. ha, a zbiory wynoszą ok. 4 mln t.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz plon jabłek w t/ha.",
+     "odpowiedz": "25 t/ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4 000 000 / 160 000.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-rolnictwo-27",
+   "dzial": "rolnictwo"
+  },
+  {
    "tytul": "Plony pszenicy",
    "material": "Tekst autorski. W województwie zebrano 4,5 mln t zbóż z powierzchni 750 tys. ha.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -682,7 +727,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-26",
+   "id": "b-rolnictwo-28",
    "dzial": "rolnictwo"
   },
   {
@@ -709,7 +754,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-27",
+   "id": "b-rolnictwo-29",
    "dzial": "rolnictwo"
   }
  ]

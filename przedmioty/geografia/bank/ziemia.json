@@ -1271,6 +1271,69 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Antypody Warszawy",
+   "material": "Tekst autorski. Warszawa ma współrzędne ok. 52°14′N, 21°01′E.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj współrzędne antypodów Warszawy.",
+     "odpowiedz": "52°14′S, 158°59′W",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Długość: 180° − 21°01′.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, na jakim oceanie leżą antypody Warszawy.",
+     "odpowiedz": "na Oceanie Spokojnym (na południowy wschód od Nowej Zelandii)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Pacyfik.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-59",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Warszawa i Nowy Jork — czas słoneczny",
+   "material": "Tekst autorski. Warszawa leży na ok. 21°E, a Nowy Jork na ok. 74°W. W Warszawie jest 12:00 czasu słonecznego.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz czas słoneczny w Nowym Jorku.",
+     "odpowiedz": "5:40",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Różnica 95° = 380 min = 6 h 20 min; NY na zachodzie.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-60",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Suwałki w grudniu",
+   "material": "Tekst autorski. Suwałki leżą na ok. 54°06′N.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania 22 grudnia.",
+     "odpowiedz": "12°27′",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 54°06′ − 23°27′.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-61",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Krakowem",
    "material": "Tekst autorski. Kraków leży na ok. 50°N.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1294,7 +1357,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-59",
+   "id": "b-ziemia-62",
    "dzial": "ziemia"
   },
   {
@@ -1330,7 +1393,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-60",
+   "id": "b-ziemia-63",
    "dzial": "ziemia"
   },
   {
@@ -1357,7 +1420,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-61",
+   "id": "b-ziemia-64",
    "dzial": "ziemia"
   },
   {
@@ -1384,7 +1447,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-62",
+   "id": "b-ziemia-65",
    "dzial": "ziemia"
   },
   {
@@ -1402,7 +1465,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-63",
+   "id": "b-ziemia-66",
    "dzial": "ziemia"
   }
  ]

@@ -803,6 +803,51 @@
    "dzial": "hydrosfera"
   },
   {
+   "tytul": "Powódź 1997",
+   "material": "Tekst autorski. W lipcu 1997 r. przepływ Odry we Wrocławiu osiągnął ok. 3500 m³/s, przy średnim ok. 550 m³/s.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy przepływ powodziowy przekroczył średni. Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 6,4 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3500 / 550.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj meteorologiczną przyczynę powodzi 1997 r.",
+     "odpowiedz": "Wielodniowe, bardzo obfite opady z niżu śródziemnomorskiego (Vb) nad Sudetami i Karpatami.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Niż genueński.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-33",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Słodka woda",
+   "material": "Tekst autorski. Wody słodkie stanowią ok. 2,5% hydrosfery, z czego ok. 69% jest zgromadzone w lodowcach.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaki odsetek całej hydrosfery stanowi woda w lodowcach. Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "ok. 1,7%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2,5 × 0,69.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-hydrosfera-34",
+   "dzial": "hydrosfera"
+  },
+  {
    "tytul": "Przepływ rzeki",
    "material": "Tekst autorski. W przekroju wodowskazowym koryto ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -826,7 +871,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-33",
+   "id": "b-hydrosfera-35",
    "dzial": "hydrosfera"
   },
   {
@@ -853,7 +898,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-34",
+   "id": "b-hydrosfera-36",
    "dzial": "hydrosfera"
   },
   {
@@ -880,7 +925,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-35",
+   "id": "b-hydrosfera-37",
    "dzial": "hydrosfera"
   },
   {
@@ -907,7 +952,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-36",
+   "id": "b-hydrosfera-38",
    "dzial": "hydrosfera"
   },
   {
@@ -934,7 +979,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-37",
+   "id": "b-hydrosfera-39",
    "dzial": "hydrosfera"
   }
  ]

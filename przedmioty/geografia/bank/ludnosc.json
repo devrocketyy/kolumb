@@ -1388,6 +1388,78 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Gęstość zaludnienia Warszawy",
+   "material": "Tekst autorski. Warszawa liczy ok. 1,86 mln mieszkańców i ma powierzchnię ok. 517 km².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz gęstość zaludnienia Warszawy. Wynik zaokrąglij do 1.",
+     "odpowiedz": "ok. 3598 os./km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 860 000 / 517.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-55",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Wykształcenie wyższe",
+   "material": "Tekst autorski. Wykształcenie wyższe ma ok. 30% z ok. 30 mln dorosłych Polaków.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz liczbę osób z wykształceniem wyższym.",
+     "odpowiedz": "ok. 9 mln",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "30 × 0,3.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w jakich województwach udział osób z wyższym wykształceniem jest największy.",
+     "odpowiedz": "W województwach z dużymi ośrodkami akademickimi (mazowieckie, małopolskie, dolnośląskie, pomorskie).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Miasta uniwersyteckie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-56",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Przekazy pieniężne Filipin",
+   "material": "Tekst autorski. Emigranci z Filipin przesyłają do kraju ok. 37 mld USD rocznie, a PKB Filipin wynosi ok. 435 mld USD.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział przekazów w PKB. Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "ok. 8,5%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "37 / 435 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedno znaczenie przekazów pieniężnych dla gospodarki kraju emigracji.",
+     "odpowiedz": "Zwiększają dochody i konsumpcję rodzin, finansują edukację i budowę domów, napływ dewiz.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jedno.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-57",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Saldo migracji powiatu",
    "material": "Tekst autorski. W powiecie mieszkającym 120 000 osób w ciągu roku zameldowało się 2400 osób, a wymeldowało 3000 osób. Urodziło się 1100 dzieci, zmarło 1500 osób.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1420,7 +1492,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-55",
+   "id": "b-ludnosc-58",
    "dzial": "ludnosc"
   },
   {
@@ -1447,7 +1519,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-56",
+   "id": "b-ludnosc-59",
    "dzial": "ludnosc"
   },
   {
@@ -1483,7 +1555,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-57",
+   "id": "b-ludnosc-60",
    "dzial": "ludnosc"
   }
  ]

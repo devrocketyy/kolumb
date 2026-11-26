@@ -1082,6 +1082,69 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Miedź i srebro z Polski",
+   "material": "Tekst autorski. Polska produkuje ok. 590 tys. t miedzi (świat ok. 22 mln t) i ok. 1300 t srebra (świat ok. 26 000 t).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział Polski w światowej produkcji miedzi i srebra. Wyniki zaokrąglij do 0,1%.",
+     "odpowiedz": "miedź ok. 2,7%, srebro 5,0%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,59 / 22 i 1300 / 26 000.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę okręgu, w którym wydobywa się te surowce.",
+     "odpowiedz": "Legnicko-Głogowski Okręg Miedziowy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "KGHM.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-45",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Koleje dużych prędkości",
+   "material": "Tekst autorski. W Europie rozwijają się koleje dużych prędkości (powyżej 250 km/h).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie zalety kolei dużych prędkości w porównaniu z lotami krajowymi.",
+     "odpowiedz": "Mniejsza emisja CO₂, dworce w centrach miast, krótszy łączny czas podróży na odległościach do ok. 600–800 km, brak długich odpraw.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-46",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Noclegi w Polsce",
+   "material": "Tekst autorski. W turystycznych obiektach noclegowych w Polsce udzielono ok. 100 mln noclegów rocznie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz liczbę noclegów na mieszkańca Polski (37,5 mln). Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 2,7",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "100 / 37,5.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-47",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Struktura produkcji energii",
    "material": "Tekst autorski. W pewnym kraju wyprodukowano 160 TWh energii elektrycznej, w tym 88 TWh w elektrowniach węglowych, 16 TWh gazowych, 32 TWh wiatrowych, 16 TWh słonecznych i 8 TWh w innych źródłach.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1105,7 +1168,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-45",
+   "id": "b-przemysl-48",
    "dzial": "przemysl"
   },
   {
@@ -1132,7 +1195,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-46",
+   "id": "b-przemysl-49",
    "dzial": "przemysl"
   },
   {
@@ -1159,7 +1222,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-47",
+   "id": "b-przemysl-50",
    "dzial": "przemysl"
   },
   {
@@ -1186,7 +1249,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-48",
+   "id": "b-przemysl-51",
    "dzial": "przemysl"
   }
  ]

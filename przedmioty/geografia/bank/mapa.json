@@ -1469,6 +1469,87 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Powiat na mapie 1:200 000",
+   "material": "Tekst autorski. Na mapie w skali 1:200 000 powiat zajmuje 8 cm².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię powiatu w km².",
+     "odpowiedz": "32 km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 cm = 2 km, 1 cm² = 4 km².",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-62",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Długość granicy",
+   "material": "Tekst autorski. Na mapie w skali 1:1 000 000 odcinek granicy ma długość 12,3 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz długość odcinka granicy w terenie.",
+     "odpowiedz": "123 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 cm = 10 km.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-63",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Śnieżka nad Karpaczem",
+   "material": "Tekst autorski. Śnieżka ma 1603 m n.p.m., a centrum Karpacza leży na ok. 600 m n.p.m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość względną Śnieżki nad Karpaczem.",
+     "odpowiedz": "1003 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1603 − 600.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę pasma górskiego, w którym leży Śnieżka.",
+     "odpowiedz": "Karkonosze (Sudety Zachodnie)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Sudety.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-64",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Kąt i spadek",
+   "material": "Tekst autorski. Stok nachylony jest pod kątem 10°. Tangens 10° ≈ 0,176.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz spadek stoku w procentach.",
+     "odpowiedz": "ok. 17,6%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "tg 10° × 100%.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-65",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Jezioro na mapie 1:50 000",
    "material": "Tekst autorski. Na mapie w skali 1:50 000 powierzchnia jeziora, zmierzona metodą kratową, wynosi 6 cm².",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1492,7 +1573,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-62",
+   "id": "b-mapa-66",
    "dzial": "mapa"
   },
   {
@@ -1528,7 +1609,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-63",
+   "id": "b-mapa-67",
    "dzial": "mapa"
   },
   {
@@ -1555,7 +1636,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-64",
+   "id": "b-mapa-68",
    "dzial": "mapa"
   },
   {
@@ -1582,7 +1663,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-65",
+   "id": "b-mapa-69",
    "dzial": "mapa"
   },
   {
@@ -1600,7 +1681,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-66",
+   "id": "b-mapa-70",
    "dzial": "mapa"
   }
  ]
