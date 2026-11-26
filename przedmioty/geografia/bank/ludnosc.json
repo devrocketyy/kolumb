@@ -317,6 +317,78 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Przyrost rzeczywisty",
+   "material": "Tekst autorski. W województwie współczynnik urodzeń wynosi 10,1‰, zgonów 12,4‰, a saldo migracji +1,5‰.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz współczynnik przyrostu rzeczywistego.",
+     "odpowiedz": "−0,8‰",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(10,1 − 12,4) + 1,5.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy liczba ludności województwa rośnie, czy maleje. Uzasadnij.",
+     "odpowiedz": "Maleje — dodatnie saldo migracji nie równoważy ubytku naturalnego.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przyrost rzeczywisty ujemny.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-13",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Współczynnik feminizacji",
+   "material": "Tekst autorski. W Polsce mieszka ok. 19,6 mln kobiet i 18,3 mln mężczyzn.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz współczynnik feminizacji.",
+     "odpowiedz": "ok. 107",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "19,6 / 18,3 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego przewaga kobiet rośnie w starszych grupach wieku.",
+     "odpowiedz": "Kobiety żyją dłużej (ok. 8 lat) — większa umieralność mężczyzn (tryb życia, praca, choroby układu krążenia).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Nadumieralność mężczyzn.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-14",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Dynamika liczby ludności",
+   "material": "Tekst autorski. Liczba ludności Polski wynosiła 38,2 mln w 2000 r. i 37,5 mln w 2024 r.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik dynamiki (2000 = 100%). Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "98,2%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "37,5 / 38,2 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-15",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Miasto i strefa podmiejska",
    "material": "Tekst autorski. Liczba ludności miasta X w latach 1990 i 2020: centrum 400 tys. → 300 tys.; strefa podmiejska 100 tys. → 200 tys.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -349,7 +421,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-13",
+   "id": "b-ludnosc-16",
    "dzial": "ludnosc"
   },
   {
@@ -385,7 +457,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-14",
+   "id": "b-ludnosc-17",
    "dzial": "ludnosc"
   },
   {
@@ -412,7 +484,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-15",
+   "id": "b-ludnosc-18",
    "dzial": "ludnosc"
   },
   {
@@ -448,7 +520,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-16",
+   "id": "b-ludnosc-19",
    "dzial": "ludnosc"
   },
   {
@@ -475,7 +547,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-17",
+   "id": "b-ludnosc-20",
    "dzial": "ludnosc"
   },
   {
@@ -511,7 +583,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-18",
+   "id": "b-ludnosc-21",
    "dzial": "ludnosc"
   }
  ]

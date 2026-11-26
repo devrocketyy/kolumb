@@ -308,6 +308,78 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Spadek drogi na mapie",
+   "material": "Tekst autorski. Na mapie w skali 1:25 000 droga łączy punkt A (380 m n.p.m.) z punktem B (455 m n.p.m.). Długość odcinka AB na mapie wynosi 3,6 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz długość odcinka AB w terenie.",
+     "odpowiedz": "900 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3,6 × 250 m.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz średni spadek drogi w procentach. Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "ok. 8,3%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "75 m / 900 m × 100%.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-12",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Zmiana skali mapy",
+   "material": "Tekst autorski. Na mapie w skali 1:50 000 odcinek drogi ma 5 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz długość tego odcinka na mapie w skali 1:200 000.",
+     "odpowiedz": "1,25 cm",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2,5 km / 2 km na 1 cm.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, która z tych map jest w większej skali.",
+     "odpowiedz": "1:50 000",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mniejszy mianownik.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-13",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Las na mapie",
+   "material": "Tekst autorski. Na mapie w skali 1:50 000 las ma kształt prostokąta o bokach 3 cm i 2,5 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię lasu w terenie w hektarach.",
+     "odpowiedz": "187,5 ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "7,5 cm² × 25 ha.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-14",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Wycieczka na wieżę widokową",
    "material": "Tekst autorski. Na mapie w skali 1:25 000 kościół leży na wysokości 212 m n.p.m., a wieża widokowa na wzgórzu — 347 m n.p.m. Odległość między nimi na mapie: 8 cm. Wieża leży od kościoła w kierunku azymutu 135°.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -340,7 +412,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-12",
+   "id": "b-mapa-15",
    "dzial": "mapa"
   },
   {
@@ -358,7 +430,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-13",
+   "id": "b-mapa-16",
    "dzial": "mapa"
   },
   {
@@ -385,7 +457,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-14",
+   "id": "b-mapa-17",
    "dzial": "mapa"
   },
   {
@@ -421,7 +493,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-15",
+   "id": "b-mapa-18",
    "dzial": "mapa"
   },
   {
@@ -448,7 +520,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-16",
+   "id": "b-mapa-19",
    "dzial": "mapa"
   },
   {
@@ -475,7 +547,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-17",
+   "id": "b-mapa-20",
    "dzial": "mapa"
   },
   {
@@ -493,7 +565,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-18",
+   "id": "b-mapa-21",
    "dzial": "mapa"
   }
  ]

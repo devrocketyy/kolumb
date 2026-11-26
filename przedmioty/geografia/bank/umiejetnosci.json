@@ -65,6 +65,24 @@
    "dzial": "umiejetnosci"
   },
   {
+   "tytul": "Wykres kołowy",
+   "material": "Tekst autorski. Lasy zajmują 31% powierzchni Polski.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz kąt wycinka koła odpowiadający lasom na wykresie kołowym.",
+     "odpowiedz": "ok. 112°",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,31 × 360° = 111,6°.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-umiejetnosci-03",
+   "dzial": "umiejetnosci"
+  },
+  {
    "tytul": "Klimatogram stacji nizinnej",
    "material": "Tekst autorski. Średnie miesięczne temperatury (°C) stacji X: I −3, II −2, III 2, IV 8, V 13, VI 16, VII 18, VIII 17, IX 13, X 8, XI 3, XII −1. Roczna suma opadów: 560 mm, maksimum w lipcu.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -97,7 +115,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-03",
+   "id": "b-umiejetnosci-04",
    "dzial": "umiejetnosci"
   },
   {
@@ -124,7 +142,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-04",
+   "id": "b-umiejetnosci-05",
    "dzial": "umiejetnosci"
   }
  ]

@@ -191,6 +191,78 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Telefon z Tokio",
+   "material": "Tekst autorski. 28 grudnia o 8:00 czasu lokalnego w Tokio (UTC+9) zadzwoniono do Warszawy (zimą UTC+1).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Podaj datę i godzinę w Warszawie w chwili połączenia.",
+     "odpowiedz": "28 grudnia, 0:00",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "8:00 − 8 h.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-08",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Czas słoneczny na dwóch półkulach",
+   "material": "Tekst autorski. W punkcie A (30°E) jest 12:00 czasu słonecznego.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz czas słoneczny w punkcie B (45°W).",
+     "odpowiedz": "7:00",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Różnica 75° = 300 min = 5 h; B na zachodzie — wcześniej.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-09",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Słońce nad Rzymem",
+   "material": "Tekst autorski. Rzym leży na ok. 41°54′N.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania w Rzymie 22 czerwca.",
+     "odpowiedz": "71°33′",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 41°54′ + 23°27′.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-10",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Gdzie jest statek?",
+   "material": "Tekst autorski. Na statku na półkuli północnej Słońce górowało o 13:20 czasu UTC.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz długość geograficzną statku.",
+     "odpowiedz": "20°W",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "80 min po 12:00 UTC → 80 / 4 = 20° na zachód.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-11",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Zgorzelcem i Terespolem",
    "material": "Tekst autorski. Zgorzelec leży na ok. 15°00′E, Terespol na ok. 23°40′E. Jest zima (obowiązuje czas UTC+1).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -214,7 +286,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-08",
+   "id": "b-ziemia-12",
    "dzial": "ziemia"
   },
   {
@@ -241,7 +313,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-09",
+   "id": "b-ziemia-13",
    "dzial": "ziemia"
   },
   {
@@ -268,7 +340,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-10",
+   "id": "b-ziemia-14",
    "dzial": "ziemia"
   },
   {
@@ -304,7 +376,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-11",
+   "id": "b-ziemia-15",
    "dzial": "ziemia"
   },
   {
@@ -331,7 +403,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-12",
+   "id": "b-ziemia-16",
    "dzial": "ziemia"
   },
   {
@@ -358,7 +430,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-13",
+   "id": "b-ziemia-17",
    "dzial": "ziemia"
   },
   {
@@ -376,7 +448,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-14",
+   "id": "b-ziemia-18",
    "dzial": "ziemia"
   }
  ]

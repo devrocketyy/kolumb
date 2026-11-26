@@ -110,6 +110,78 @@
    "dzial": "polska-gospodarka"
   },
   {
+   "tytul": "Rolnictwo w PKB",
+   "material": "Tekst autorski. PKB Polski wyniósł ok. 3400 mld zł, z czego rolnictwo wytworzyło ok. 85 mld zł; w rolnictwie pracuje ok. 8% zatrudnionych.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział rolnictwa w PKB.",
+     "odpowiedz": "ok. 2,5%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "85 / 3400 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, o czym świadczy porównanie udziału rolnictwa w PKB i w zatrudnieniu.",
+     "odpowiedz": "O niskiej wydajności pracy w rolnictwie — 8% pracujących wytwarza tylko 2,5% PKB (rozdrobnione gospodarstwa, ukryte bezrobocie).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wydajność.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-gospodarka-05",
+   "dzial": "polska-gospodarka"
+  },
+  {
+   "tytul": "Turystyka w regionie",
+   "material": "Tekst autorski. W regionie udzielono w roku 1,2 mln noclegów 300 tys. turystów.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średnią długość pobytu turysty.",
+     "odpowiedz": "4 noclegi",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 200 000 / 300 000.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-polska-gospodarka-06",
+   "dzial": "polska-gospodarka"
+  },
+  {
+   "tytul": "Zużycie energii",
+   "material": "Tekst autorski. Zużycie energii elektrycznej w Polsce wynosi ok. 170 TWh rocznie, a liczba ludności — 37,5 mln.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz zużycie energii na mieszkańca w kWh.",
+     "odpowiedz": "ok. 4530 kWh",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "170 000 000 000 kWh / 37 500 000.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, czy jest to wartość większa czy mniejsza niż w Norwegii, i jedną przyczynę.",
+     "odpowiedz": "mniejsza — w Norwegii tania energia wodna i ogrzewanie elektryczne",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Norwegia — ok. 23 000 kWh.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-gospodarka-07",
+   "dzial": "polska-gospodarka"
+  },
+  {
    "tytul": "Struktura zatrudnienia",
    "material": "Tekst autorski. W kraju X w rolnictwie pracuje 8% zatrudnionych, w przemyśle i budownictwie 30%, w usługach 62%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -133,7 +205,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-05",
+   "id": "b-polska-gospodarka-08",
    "dzial": "polska-gospodarka"
   },
   {
@@ -160,7 +232,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-06",
+   "id": "b-polska-gospodarka-09",
    "dzial": "polska-gospodarka"
   },
   {
@@ -187,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-07",
+   "id": "b-polska-gospodarka-10",
    "dzial": "polska-gospodarka"
   }
  ]

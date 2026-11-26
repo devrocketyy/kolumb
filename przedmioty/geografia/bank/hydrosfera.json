@@ -227,6 +227,51 @@
    "dzial": "hydrosfera"
   },
   {
+   "tytul": "Zasolenie",
+   "material": "Tekst autorski. Z 3 kg wody morskiej po odparowaniu otrzymano 105 g soli.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz zasolenie wody w promilach.",
+     "odpowiedz": "35‰",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "105 / 3000 × 1000.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, czy jest to wartość wyższa, niższa czy równa średniemu zasoleniu oceanów.",
+     "odpowiedz": "równa średniej (ok. 35‰)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Średnie zasolenie oceanów.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-10",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Przepływ w korycie",
+   "material": "Tekst autorski. Koryto rzeki ma szerokość 25 m i średnią głębokość 1,6 m; średnia prędkość wody wynosi 0,9 m/s.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz przepływ wody.",
+     "odpowiedz": "36 m³/s",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "25 × 1,6 × 0,9.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-hydrosfera-11",
+   "dzial": "hydrosfera"
+  },
+  {
    "tytul": "Pomiar przepływu",
    "material": "Tekst autorski. W przekroju pomiarowym rzeka ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -250,7 +295,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-10",
+   "id": "b-hydrosfera-12",
    "dzial": "hydrosfera"
   },
   {
@@ -286,7 +331,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-hydrosfera-11",
+   "id": "b-hydrosfera-13",
    "dzial": "hydrosfera"
   },
   {
@@ -304,7 +349,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-hydrosfera-12",
+   "id": "b-hydrosfera-14",
    "dzial": "hydrosfera"
   },
   {
@@ -331,7 +376,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-13",
+   "id": "b-hydrosfera-15",
    "dzial": "hydrosfera"
   },
   {
@@ -358,7 +403,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-14",
+   "id": "b-hydrosfera-16",
    "dzial": "hydrosfera"
   },
   {
@@ -385,7 +430,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-15",
+   "id": "b-hydrosfera-17",
    "dzial": "hydrosfera"
   },
   {
@@ -412,7 +457,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-16",
+   "id": "b-hydrosfera-18",
    "dzial": "hydrosfera"
   },
   {
@@ -439,7 +484,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-17",
+   "id": "b-hydrosfera-19",
    "dzial": "hydrosfera"
   }
  ]
