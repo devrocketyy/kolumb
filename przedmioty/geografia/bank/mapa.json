@@ -1550,6 +1550,87 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Park na planie",
+   "material": "Tekst autorski. Park miejski ma powierzchnię 3,5 ha.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię parku na planie w skali 1:10 000.",
+     "odpowiedz": "3,5 cm²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 cm² = 1 ha.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-66",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Dwie mapy jednego terenu",
+   "material": "Tekst autorski. Ten sam las przedstawiono na mapach w skalach 1:25 000 i 1:50 000.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy większą powierzchnię zajmuje las na mapie 1:25 000.",
+     "odpowiedz": "4 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Skala 2 razy większa → powierzchnia 2² razy.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-67",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Średni spadek trasy",
+   "material": "Tekst autorski. Trasa rowerowa zaczyna się na 280 m n.p.m. i po 2 km (w poziomie) kończy na 220 m n.p.m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średni spadek trasy w procentach.",
+     "odpowiedz": "3%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "60 / 2000 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-68",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Kościół i szkoła",
+   "material": "Tekst autorski. Ze szkoły kościół widać w kierunku azymutu 160°.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj kierunek geograficzny ze szkoły na kościół.",
+     "odpowiedz": "południowo-południowo-wschodni (SSE)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "160° — między S i SE.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz azymut z kościoła na szkołę.",
+     "odpowiedz": "340°",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "160° + 180°.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-69",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Jezioro na mapie 1:50 000",
    "material": "Tekst autorski. Na mapie w skali 1:50 000 powierzchnia jeziora, zmierzona metodą kratową, wynosi 6 cm².",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1573,7 +1654,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-66",
+   "id": "b-mapa-70",
    "dzial": "mapa"
   },
   {
@@ -1609,7 +1690,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-67",
+   "id": "b-mapa-71",
    "dzial": "mapa"
   },
   {
@@ -1636,7 +1717,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-68",
+   "id": "b-mapa-72",
    "dzial": "mapa"
   },
   {
@@ -1663,7 +1744,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-69",
+   "id": "b-mapa-73",
    "dzial": "mapa"
   },
   {
@@ -1681,7 +1762,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-70",
+   "id": "b-mapa-74",
    "dzial": "mapa"
   }
  ]

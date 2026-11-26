@@ -1523,6 +1523,78 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Liczba zgonów",
+   "material": "Tekst autorski. Współczynnik zgonów w Polsce wynosi ok. 11,5‰, a liczba ludności — 37,5 mln.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz liczbę zgonów w ciągu roku.",
+     "odpowiedz": "ok. 431 tys.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "37 500 000 × 0,0115.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-60",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Przyrost rzeczywisty Polski",
+   "material": "Tekst autorski. W roku w Polsce urodziło się 270 tys. dzieci, zmarło 410 tys. osób, a saldo migracji zagranicznych wyniosło +40 tys.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz przyrost rzeczywisty ludności.",
+     "odpowiedz": "−100 tys.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "270 − 410 + 40.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-61",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Feminizacja w miastach",
+   "material": "Tekst autorski. W miastach Polski na 100 mężczyzn przypada ok. 110 kobiet, a na wsi ok. 100.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij przyczynę wyższej feminizacji w miastach.",
+     "odpowiedz": "Kobiety częściej migrują do miast na studia i do pracy w usługach, a w miastach mieszka więcej starszych kobiet (dłuższe życie).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Migracje i struktura wieku.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-62",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Duże miasta Polski",
+   "material": "Tekst autorski. W Polsce jest ok. 1000 miast, z czego 36 liczy ponad 100 tys. mieszkańców.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział miast powyżej 100 tys. mieszkańców w ogólnej liczbie miast. Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "ok. 3,6%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "36 / 1000 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-63",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Województwo w liczbach",
    "material": "Tekst autorski. Województwo ma 5,4 mln mieszkańców i powierzchnię 35 600 km². Współczynnik urodzeń wynosi 9,2‰, a zgonów 11,5‰.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1555,7 +1627,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-60",
+   "id": "b-ludnosc-64",
    "dzial": "ludnosc"
   }
  ]

@@ -1199,6 +1199,60 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Morskie farmy wiatrowe",
+   "material": "Tekst autorski. Do 2030 r. na Bałtyku ma powstać ok. 5,9 GW mocy w farmach wiatrowych, pracujących średnio ok. 3500 h w roku z pełną mocą.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczną produkcję energii w TWh. Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 20,7 TWh",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "5,9 GW × 3500 h = 20 650 GWh.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-50",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Przemysł spożywczy",
+   "material": "Tekst autorski. Przemysł spożywczy jest jedną z największych gałęzi przemysłu w Polsce.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa czynniki rozwoju przemysłu spożywczego w Polsce.",
+     "odpowiedz": "Duża produkcja rolna (surowce), duży rynek wewnętrzny, dostęp do rynku UE, tradycja i marki, relatywnie niskie koszty pracy.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-51",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Centra logistyczne w Strykowie",
+   "material": "Tekst autorski. W okolicach Strykowa pod Łodzią powstało wiele centrów logistycznych.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij przyczynę ich lokalizacji.",
+     "odpowiedz": "Węzeł autostrad A1 i A2 w centrum Polski — dogodny dojazd do całego kraju i do granic.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Węzeł transportowy.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-52",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Farma wiatrowa",
    "material": "Tekst autorski. Farma wiatrowa ma moc zainstalowaną 50 MW. Średnio przez rok pracuje z wykorzystaniem 30% mocy (rok = 8760 h).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1222,7 +1276,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-50",
+   "id": "b-przemysl-53",
    "dzial": "przemysl"
   },
   {
@@ -1249,7 +1303,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-51",
+   "id": "b-przemysl-54",
    "dzial": "przemysl"
   }
  ]

@@ -848,6 +848,51 @@
    "dzial": "hydrosfera"
   },
   {
+   "tytul": "Delta Gangesu",
+   "material": "Tekst autorski. Delta Gangesu i Brahmaputry w Bangladeszu jest regularnie zalewana.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny częstych powodzi w delcie.",
+     "odpowiedz": "Monsun letni z ulewami, topnienie śniegu i lodowców w Himalajach, niskie położenie delty, cyklony tropikalne i fale sztormowe z Zatoki Bengalskiej, wylesianie w górnym biegu.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-hydrosfera-35",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Lądolód Antarktydy",
+   "material": "Tekst autorski. Lądolód Antarktydy ma objętość ok. 26,5 mln km³, a powierzchnia oceanów wynosi ok. 361 mln km².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz w uproszczeniu (bez uwzględnienia gęstości lodu), o ile metrów podniósłby się poziom oceanów po jego stopieniu. Wynik zaokrąglij do 1 m.",
+     "odpowiedz": "ok. 73 m",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "26,5 / 361 = 0,073 km.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, dlaczego rzeczywisty wzrost byłby mniejszy.",
+     "odpowiedz": "Lód ma mniejszą gęstość niż woda, a część lądolodu leży poniżej poziomu morza.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Uproszczenie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-36",
+   "dzial": "hydrosfera"
+  },
+  {
    "tytul": "Przepływ rzeki",
    "material": "Tekst autorski. W przekroju wodowskazowym koryto ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -871,7 +916,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-35",
+   "id": "b-hydrosfera-37",
    "dzial": "hydrosfera"
   },
   {
@@ -898,7 +943,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-36",
+   "id": "b-hydrosfera-38",
    "dzial": "hydrosfera"
   },
   {
@@ -925,7 +970,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-37",
+   "id": "b-hydrosfera-39",
    "dzial": "hydrosfera"
   },
   {
@@ -952,7 +997,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-38",
+   "id": "b-hydrosfera-40",
    "dzial": "hydrosfera"
   },
   {
@@ -979,7 +1024,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-39",
+   "id": "b-hydrosfera-41",
    "dzial": "hydrosfera"
   }
  ]

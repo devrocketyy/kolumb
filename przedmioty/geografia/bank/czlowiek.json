@@ -443,6 +443,24 @@
    "dzial": "czlowiek"
   },
   {
+   "tytul": "Odpady na mieszkańca",
+   "material": "Tekst autorski. W Polsce powstaje ok. 13 mln t odpadów komunalnych rocznie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz ilość odpadów na mieszkańca (37,5 mln). Wynik zaokrąglij do 1 kg.",
+     "odpowiedz": "ok. 347 kg",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "13 000 000 000 / 37 500 000.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-czlowiek-18",
+   "dzial": "czlowiek"
+  },
+  {
    "tytul": "Emisja CO₂",
    "material": "Tekst autorski. Kraj liczący 38 mln mieszkańców emituje rocznie 300 mln t CO₂, z czego 70% pochodzi z energetyki opartej na węglu.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -466,7 +484,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-18",
+   "id": "b-czlowiek-19",
    "dzial": "czlowiek"
   },
   {
@@ -493,7 +511,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-19",
+   "id": "b-czlowiek-20",
    "dzial": "czlowiek"
   }
  ]

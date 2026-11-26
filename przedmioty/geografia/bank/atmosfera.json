@@ -1046,6 +1046,51 @@
    "dzial": "atmosfera"
   },
   {
+   "tytul": "Mroźna zima",
+   "material": "Tekst autorski. W styczniu do Polski napłynęła masa powietrza polarnego kontynentalnego znad Rosji.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie cechy pogody przy napływie tej masy zimą.",
+     "odpowiedz": "Silny mróz, bezchmurne niebo lub małe zachmurzenie, brak opadów, niska wilgotność.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-atmosfera-40",
+   "dzial": "atmosfera"
+  },
+  {
+   "tytul": "Bergen",
+   "material": "Tekst autorski. Bergen (Norwegia): suma opadów ok. 2250 mm, styczeń 2°C, lipiec 15°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczną amplitudę temperatury.",
+     "odpowiedz": "13°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "15 − 2.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przyczynę bardzo dużych opadów w Bergen.",
+     "odpowiedz": "Wilgotne powietrze znad Atlantyku niesione wiatrami zachodnimi wznosi się na stokach Gór Skandynawskich — opady orograficzne; ciepły Prąd Północnoatlantycki zwiększa parowanie.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Orografia + wiatry zachodnie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atmosfera-41",
+   "dzial": "atmosfera"
+  },
+  {
    "tytul": "Fen w Zakopanem",
    "material": "Tekst autorski. Wilgotne powietrze o temperaturze 10°C wznosi się po południowym stoku Tatr od 700 m n.p.m. Kondensacja zaczyna się na 1200 m n.p.m., grzbiet ma 2200 m n.p.m. Po stronie północnej powietrze opada do Zakopanego (850 m n.p.m.). Przyjmij: powietrze suche 1°C/100 m, wilgotne 0,6°C/100 m.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1078,7 +1123,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atmosfera-40",
+   "id": "b-atmosfera-42",
    "dzial": "atmosfera"
   },
   {
@@ -1105,7 +1150,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atmosfera-41",
+   "id": "b-atmosfera-43",
    "dzial": "atmosfera"
   },
   {
@@ -1132,7 +1177,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atmosfera-42",
+   "id": "b-atmosfera-44",
    "dzial": "atmosfera"
   }
  ]

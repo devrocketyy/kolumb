@@ -1334,6 +1334,60 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Perth",
+   "material": "Tekst autorski. Perth (Australia) stosuje czas UTC+8 przez cały rok.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz różnicę czasu między Perth a Warszawą zimą (UTC+1) i latem (UTC+2).",
+     "odpowiedz": "zimą 7 h, latem 6 h",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "8 − 1 i 8 − 2.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-62",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Zenit na 10°N",
+   "material": "Tekst autorski. Punkt leży na 10°N.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, ile razy w roku Słońce góruje w zenicie nad tym punktem. Uzasadnij.",
+     "odpowiedz": "Dwa razy — punkt leży między zwrotnikami; Słońce przechodzi nad nim w drodze ku zwrotnikowi Raka (kwiecień) i z powrotem (sierpień).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Strefa międzyzwrotnikowa.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-63",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Równonoc",
+   "material": "Tekst autorski. W pewnych dniach na całej Ziemi dzień trwa tyle co noc.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj daty tych dni i nad jakim równoleżnikiem Słońce wtedy góruje w zenicie.",
+     "odpowiedz": "21 marca i 23 września; nad równikiem",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Równonoce.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-64",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Krakowem",
    "material": "Tekst autorski. Kraków leży na ok. 50°N.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1357,7 +1411,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-62",
+   "id": "b-ziemia-65",
    "dzial": "ziemia"
   },
   {
@@ -1393,7 +1447,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-63",
+   "id": "b-ziemia-66",
    "dzial": "ziemia"
   },
   {
@@ -1420,7 +1474,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-64",
+   "id": "b-ziemia-67",
    "dzial": "ziemia"
   },
   {
@@ -1447,7 +1501,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-65",
+   "id": "b-ziemia-68",
    "dzial": "ziemia"
   },
   {
@@ -1465,7 +1519,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-66",
+   "id": "b-ziemia-69",
    "dzial": "ziemia"
   }
  ]
