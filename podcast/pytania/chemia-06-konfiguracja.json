@@ -1,0 +1,11 @@
+{
+  "odcinek": "chemia-06-konfiguracja",
+  "pytania": [
+    {"id": "pojemnosc", "typ": "abcd", "pytanie": "Ile najwięcej elektronów mieści podpowłoka d?", "odpowiedzi": ["10", "6", "14", "5"], "poprawna": 0, "wyjasnienie": "Pięć orbitali po dwa elektrony."},
+    {"id": "kolejnosc", "typ": "abcd", "pytanie": "Konfiguracja jonu Fe²⁺ to:", "odpowiedzi": ["[Ar] 3d⁶", "[Ar] 4s² 3d⁴", "[Ar] 4s² 3d⁶", "[Ar] 4s¹ 3d⁵"], "poprawna": 0, "wyjasnienie": "Z jonów metali bloku d najpierw odchodzą elektrony 4s."},
+    {"id": "hund", "typ": "abcd", "pytanie": "Ile niesparowanych elektronów ma atom tlenu?", "odpowiedzi": ["2", "4", "6", "0"], "poprawna": 0, "wyjasnienie": "2p⁴: jedna para i dwa pojedyncze elektrony."},
+    {"id": "wyjatki", "typ": "abcd", "pytanie": "Ile niesparowanych elektronów ma atom chromu?", "odpowiedzi": ["6", "4", "2", "5"], "poprawna": 0, "wyjasnienie": "4s¹ 3d⁵ — wszystkie pojedynczo."},
+    {"id": "klatki", "typ": "abcd", "pytanie": "Zapis klatkowy bez numerów powłok i symboli podpowłok:", "odpowiedzi": ["nie daje punktu", "daje pełny punkt", "daje punkt, jeśli strzałki są dobre", "daje połowę punktu"], "poprawna": 0, "wyjasnienie": "Oznaczenie powłoki i podpowłoki jest wymagane."},
+    {"id": "podsumowanie", "typ": "abcd", "pytanie": "Elektrony najpierw zajmują orbitale pojedynczo. To reguła:", "odpowiedzi": ["Hunda", "Pauliego", "Markownikowa", "Zajcewa"], "poprawna": 0, "wyjasnienie": "Zakaz Pauliego dotyczy maksymalnie dwóch elektronów na orbital."}
+  ]
+}

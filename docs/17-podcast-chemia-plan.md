@@ -26,9 +26,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **5. Budowa atomu, izotopy i masa atomowa** `c-atom` ✅
 
-**6. Konfiguracja elektronowa, liczby kwantowe i orbitale** `c-konfiguracja` ⬜
+**6. Konfiguracja elektronowa, liczby kwantowe i orbitale** `c-konfiguracja` ✅
 
-**7. Układ okresowy i prawo okresowości** `c-okresowosc` ⬜
+**7. Układ okresowy i prawo okresowości** `c-okresowosc` ✅
 
 **8. Przemiany promieniotwórcze i okres półtrwania** `c-promieniotworczosc` ⬜
 

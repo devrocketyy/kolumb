@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-07-okresowosc",
+  "pytania": [
+    {
+      "id": "polozenie",
+      "typ": "abcd",
+      "pytanie": "[Ne] 3s² 3p⁵ — gdzie leży ten pierwiastek?",
+      "odpowiedzi": [
+        "Okres 3, grupa 17",
+        "Okres 3, grupa 5",
+        "Okres 5, grupa 3",
+        "Okres 2, grupa 17"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Trzy powłoki, siedem elektronów walencyjnych — chlor."
+    },
+    {
+      "id": "blok",
+      "typ": "abcd",
+      "pytanie": "Do którego bloku należy żelazo?",
+      "odpowiedzi": [
+        "d",
+        "s",
+        "p",
+        "f"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Ostatnio zapełniana podpowłoka 3d."
+    },
+    {
+      "id": "okres",
+      "typ": "abcd",
+      "pytanie": "Który atom ma mniejszy promień?",
+      "odpowiedzi": [
+        "Chlor",
+        "Sód",
+        "Oba jednakowy",
+        "Zależy od temperatury"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "W okresie promień maleje w prawo."
+    },
+    {
+      "id": "grupa",
+      "typ": "abcd",
+      "pytanie": "Dlaczego potas jest aktywniejszy od litu?",
+      "odpowiedzi": [
+        "Elektron walencyjny jest dalej od jądra",
+        "Ma więcej elektronów walencyjnych",
+        "Ma większą elektroujemność",
+        "Ma mniejszy promień"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Łatwiej oderwać słabiej przyciągany elektron."
+    },
+    {
+      "id": "tlenki",
+      "typ": "abcd",
+      "pytanie": "Tlenek glinu ma charakter:",
+      "odpowiedzi": [
+        "Amfoteryczny",
+        "Zasadowy",
+        "Kwasowy",
+        "Obojętny"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Reaguje z kwasami i mocnymi zasadami."
+    },
+    {
+      "id": "szereg",
+      "typ": "abcd",
+      "pytanie": "Rosnąca elektroujemność:",
+      "odpowiedzi": [
+        "Na < Mg < Cl",
+        "Cl < Mg < Na",
+        "Mg < Na < Cl",
+        "Na < Cl < Mg"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "W okresie elektroujemność rośnie w prawo."
+    }
+  ]
+}
