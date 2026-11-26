@@ -1264,34 +1264,34 @@
      "id": "s9d4aafe4",
      "typ": "rysunek",
      "tytul": "Struktura zatrudnienia a poziom rozwoju",
-     "opis": "Udział sektorów w zatrudnieniu (rolnictwo zielone, przemysł brązowy, usługi niebieskie), dane umowne.",
-     "uwaga": "Teoria trzech sektorów (Fisher–Clark): wraz z rozwojem zatrudnienie przesuwa się z rolnictwa do przemysłu, a potem do usług.",
-     "svg": "<rect x=\"60\" y=\"120\" width=\"60\" height=\"140\" style=\"fill:#9ccc65\"/><rect x=\"60\" y=\"100\" width=\"60\" height=\"20\" style=\"fill:#8d6e63\"/><rect x=\"60\" y=\"60\" width=\"60\" height=\"40\" style=\"fill:#64b5f6\"/><rect x=\"170\" y=\"200\" width=\"60\" height=\"60\" style=\"fill:#9ccc65\"/><rect x=\"170\" y=\"140\" width=\"60\" height=\"60\" style=\"fill:#8d6e63\"/><rect x=\"170\" y=\"60\" width=\"60\" height=\"80\" style=\"fill:#64b5f6\"/><rect x=\"280\" y=\"254\" width=\"60\" height=\"6\" style=\"fill:#9ccc65\"/><rect x=\"280\" y=\"214\" width=\"60\" height=\"40\" style=\"fill:#8d6e63\"/><rect x=\"280\" y=\"60\" width=\"60\" height=\"154\" style=\"fill:#64b5f6\"/><text class=\"t\" x=\"55\" y=\"280\">Kraj A</text><text class=\"t\" x=\"165\" y=\"280\">Kraj B</text><text class=\"t\" x=\"275\" y=\"280\">Kraj C</text>",
+     "opis": "Udział sektorów gospodarki w zatrudnieniu (%) — dane umowne.",
+     "uwaga": "Teoria trzech sektorów (Fisher–Clark): wraz z rozwojem zatrudnienie przesuwa się z rolnictwa do przemysłu, a potem do usług. Polska: ok. 8% rolnictwo, 30% przemysł, 62% usługi.",
+     "svg": "<path class=\"dash\" d=\"M50 255 H280\"/><text class=\"ts\" x=\"44\" y=\"258\" text-anchor=\"end\">0%</text><path class=\"dash\" d=\"M50 202 H280\"/><text class=\"ts\" x=\"44\" y=\"206\" text-anchor=\"end\">25%</text><path class=\"dash\" d=\"M50 150 H280\"/><text class=\"ts\" x=\"44\" y=\"153\" text-anchor=\"end\">50%</text><path class=\"dash\" d=\"M50 98 H280\"/><text class=\"ts\" x=\"44\" y=\"100\" text-anchor=\"end\">75%</text><path class=\"dash\" d=\"M50 45 H280\"/><text class=\"ts\" x=\"44\" y=\"48\" text-anchor=\"end\">100%</text><rect class=\"gf ol\" x=\"70\" y=\"108.0\" width=\"46\" height=\"147.0\"/><text class=\"tb\" x=\"93\" y=\"185.5\" text-anchor=\"middle\">70</text><rect class=\"gs2 ol\" x=\"70\" y=\"87.0\" width=\"46\" height=\"21.0\"/><text class=\"tb\" x=\"93\" y=\"101.5\" text-anchor=\"middle\">10</text><rect class=\"gw2 ol\" x=\"70\" y=\"45.0\" width=\"46\" height=\"42.0\"/><text class=\"tb\" x=\"93\" y=\"70.0\" text-anchor=\"middle\">20</text><text class=\"tb\" x=\"93\" y=\"272\" text-anchor=\"middle\">Kraj A</text><rect class=\"gf ol\" x=\"142\" y=\"192.0\" width=\"46\" height=\"63.0\"/><text class=\"tb\" x=\"165\" y=\"227.5\" text-anchor=\"middle\">30</text><rect class=\"gs2 ol\" x=\"142\" y=\"129.0\" width=\"46\" height=\"63.0\"/><text class=\"tb\" x=\"165\" y=\"164.5\" text-anchor=\"middle\">30</text><rect class=\"gw2 ol\" x=\"142\" y=\"45.0\" width=\"46\" height=\"84.0\"/><text class=\"tb\" x=\"165\" y=\"91.0\" text-anchor=\"middle\">40</text><text class=\"tb\" x=\"165\" y=\"272\" text-anchor=\"middle\">Kraj B</text><rect class=\"gf ol\" x=\"214\" y=\"248.7\" width=\"46\" height=\"6.3\"/><rect class=\"gs2 ol\" x=\"214\" y=\"206.7\" width=\"46\" height=\"42.0\"/><text class=\"tb\" x=\"237\" y=\"231.7\" text-anchor=\"middle\">20</text><rect class=\"gw2 ol\" x=\"214\" y=\"45.0\" width=\"46\" height=\"161.7\"/><text class=\"tb\" x=\"237\" y=\"129.8\" text-anchor=\"middle\">77</text><text class=\"tb\" x=\"237\" y=\"272\" text-anchor=\"middle\">Kraj C</text><path class=\"s\" d=\"M50 40 V255 H280\"/><rect class=\"gw2 ol\" x=\"300\" y=\"200\" width=\"12\" height=\"12\"/><text class=\"ts\" x=\"318\" y=\"210\">usługi</text><rect class=\"gs2 ol\" x=\"300\" y=\"220\" width=\"12\" height=\"12\"/><text class=\"ts\" x=\"318\" y=\"230\">przemysł</text><rect class=\"gf ol\" x=\"300\" y=\"240\" width=\"12\" height=\"12\"/><text class=\"ts\" x=\"318\" y=\"250\">rolnictwo</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 90,
-       "y": 190,
-       "lx": 20,
-       "ly": 200,
-       "n": "Rolnictwo",
-       "d": "Kraj A: 70% — przedprzemysłowy"
+       "x": 93,
+       "y": 45,
+       "lx": 100,
+       "ly": 22,
+       "n": "Rolniczy",
+       "d": "Kraj A: 70% w rolnictwie — gospodarka przedprzemysłowa"
       },
       {
-       "x": 200,
-       "y": 170,
-       "lx": 140,
-       "ly": 140,
-       "n": "Przemysł",
-       "d": "Kraj B: 30% — przemysłowy"
+       "x": 165,
+       "y": 45,
+       "lx": 180,
+       "ly": 22,
+       "n": "Przemysłowy",
+       "d": "Kraj B: duży udział przemysłu, usługi rosną"
       },
       {
-       "x": 310,
-       "y": 130,
-       "lx": 370,
-       "ly": 100,
-       "n": "Usługi",
-       "d": "Kraj C: 77% — postindustrialny"
+       "x": 237,
+       "y": 45,
+       "lx": 276,
+       "ly": 22,
+       "n": "Usługowy",
+       "d": "Kraj C: 77% w usługach — postindustrialny"
       }
      ]
     }

@@ -1015,23 +1015,23 @@
      "id": "s9597b538",
      "typ": "rysunek",
      "tytul": "Wody podziemne i źródło artezyjskie",
-     "opis": "Niecka artezyjska — wody podziemne pod ciśnieniem.",
-     "uwaga": "Wody artezyjskie występują np. w niecce warszawskiej i w Wielkim Basenie Artezyjskim w Australii.",
-     "svg": "<path style=\"fill:#a1887f\" d=\"M0 60 Q200 140 400 60 V300 H0 Z\"/><path style=\"fill:#90caf9\" d=\"M0 60 Q200 200 400 60 L400 90 Q200 235 0 90 Z\"/><path style=\"fill:#6d4c41\" d=\"M0 90 Q200 235 400 90 V300 H0 Z\"/><path class=\"s\" d=\"M196 132 V92 M204 132 V92\"/><path class=\"s2\" d=\"M200 95 V70 M192 80 L200 68 L208 80\"/><path class=\"dash\" d=\"M0 58 H400\"/>",
+     "opis": "Niecka artezyjska — wody podziemne pod ciśnieniem hydrostatycznym (przekrój).",
+     "uwaga": "Wody artezyjskie występują np. w niecce warszawskiej (Mazowsze) i w Wielkim Basenie Artezyjskim w Australii.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gl\" d=\"M0 60 Q200 140 400 60 V300 H0 Z\"/><path class=\"gw ol\" d=\"M0 60 Q200 200 400 60 L400 90 Q200 235 0 90 Z\"/><path class=\"gs2\" d=\"M0 90 Q200 235 400 90 V300 H0 Z\"/><circle class=\"d\" cx=\"60\" cy=\"92\" r=\"1\"/><circle class=\"d\" cx=\"110\" cy=\"112\" r=\"1\"/><circle class=\"d\" cx=\"160\" cy=\"126\" r=\"1\"/><circle class=\"d\" cx=\"240\" cy=\"126\" r=\"1\"/><circle class=\"d\" cx=\"290\" cy=\"112\" r=\"1\"/><circle class=\"d\" cx=\"340\" cy=\"92\" r=\"1\"/><circle class=\"d\" cx=\"200\" cy=\"130\" r=\"1\"/><path class=\"s\" d=\"M196 132 V92 M204 132 V92\"/><path class=\"cold\" d=\"M200.0 95.0 L200.0 68.0\"/><path class=\"coldf\" d=\"M200.0 68.0 L203.5 75.2 L196.5 75.2 Z\"/><path class=\"cold\" d=\"M200 68 q-10 6 -18 18 M200 68 q10 6 18 18\" style=\"stroke-width:1.5\"/><path class=\"dash\" d=\"M0 58 H400\"/><path class=\"cold\" d=\"M10.0 28.0 L16.0 48.0\"/><path class=\"coldf\" d=\"M16.0 48.0 L12.6 44.3 L16.8 43.1 Z\"/><path class=\"cold\" d=\"M30.0 28.0 L36.0 48.0\"/><path class=\"coldf\" d=\"M36.0 48.0 L32.6 44.3 L36.8 43.1 Z\"/><path class=\"cold\" d=\"M360.0 28.0 L366.0 48.0\"/><path class=\"coldf\" d=\"M366.0 48.0 L362.6 44.3 L366.8 43.1 Z\"/><path class=\"cold\" d=\"M380.0 28.0 L386.0 48.0\"/><path class=\"coldf\" d=\"M386.0 48.0 L382.6 44.3 L386.8 43.1 Z\"/><text class=\"ts\" x=\"200\" y=\"290\" text-anchor=\"middle\">skały nieprzepuszczalne (iły)</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
        "x": 20,
        "y": 64,
-       "lx": 30,
-       "ly": 30,
+       "lx": 60,
+       "ly": 25,
        "n": "Obszar zasilania",
-       "d": "Woda wsiąka w odsłoniętą warstwę przepuszczalną"
+       "d": "Opady wsiąkają w odsłoniętą warstwę wodonośną"
       },
       {
        "x": 110,
        "y": 140,
-       "lx": 90,
+       "lx": 120,
        "ly": 200,
        "n": "Warstwa wodonośna",
        "d": "Piaski lub piaskowce między skałami nieprzepuszczalnymi"
@@ -1041,22 +1041,22 @@
        "y": 110,
        "lx": 300,
        "ly": 150,
-       "n": "Warstwa nieprzepuszczalna",
-       "d": "Iły, gliny — nad i pod wodonośną"
+       "n": "Nadkład",
+       "d": "Nieprzepuszczalny — utrzymuje wodę pod ciśnieniem"
       },
       {
        "x": 200,
-       "y": 95,
+       "y": 80,
        "lx": 230,
-       "ly": 85,
+       "ly": 30,
        "n": "Studnia artezyjska",
-       "d": "Woda pod ciśnieniem wypływa sama"
+       "d": "Woda pod ciśnieniem sama wypływa na powierzchnię"
       },
       {
-       "x": 380,
+       "x": 370,
        "y": 58,
-       "lx": 330,
-       "ly": 40,
+       "lx": 340,
+       "ly": 80,
        "n": "Poziom zasilania",
        "d": "Woda wypływa, gdy wylot leży niżej niż ten poziom"
       }

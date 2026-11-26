@@ -665,48 +665,48 @@
      "id": "sb1361e8c",
      "typ": "rysunek",
      "tytul": "Plama gorąca i łańcuch wysp",
-     "opis": "Powstawanie łańcucha wysp wulkanicznych nad plamą gorąca.",
-     "uwaga": "Wiek wysp rośnie w kierunku ruchu płyty — to dowód na przesuwanie się płyt.",
-     "svg": "<path d=\"M10 120 H390 V140 H10 Z\" style=\"fill:#64b5f6\"/><path class=\"f2\" d=\"M10 140 H390 V190 H10 Z\"/><path d=\"M10 190 H390 V290 H10 Z\" style=\"fill:#ffccbc\"/><path class=\"f2\" d=\"M300 140 L320 80 L340 140 Z M220 140 L235 105 L250 140 Z M140 140 L150 125 L160 140 Z M60 140 L65 135 L70 140 Z\"/><path style=\"fill:#e64a19\" d=\"M310 290 Q300 220 320 190 Q330 220 330 290 Z\"/><path class=\"s2\" d=\"M360 165 H260 M272 157 L260 165 L272 173\"/>",
+     "opis": "Powstawanie łańcucha wysp wulkanicznych nad plamą gorąca (wiek wysp przybliżony).",
+     "uwaga": "Wiek wysp rośnie w kierunku ruchu płyty — to jeden z dowodów na przesuwanie się płyt. Starsze wyspy są niższe: wulkany wygasają, erodują i osiadają.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gw2\" x=\"0\" y=\"110\" width=\"400\" height=\"40\"/><path class=\"gs2\" d=\"M0 150 H400 V190 H0 Z\"/><path class=\"gs\" d=\"M0 150 H400 V158 H0 Z\" opacity=\"0.8\"/><rect class=\"gm2\" x=\"0\" y=\"190\" width=\"400\" height=\"110\"/><path class=\"gm\" d=\"M300 300 C292 250 310 215 312 190 L328 190 C330 215 348 250 340 300 Z\"/><path class=\"gm\" d=\"M316 190 L318 110 L322 110 L324 190 Z\"/><path class=\"gs2 ol\" d=\"M34 150 Q40 98 46 150 Z\"/><text class=\"ts\" x=\"40\" y=\"205\" text-anchor=\"middle\">atol</text><path class=\"gs2 ol\" d=\"M101 150 Q115 82 129 150 Z\"/><text class=\"ts\" x=\"115\" y=\"205\" text-anchor=\"middle\">5 mln lat</text><path class=\"gs2 ol\" d=\"M161 150 Q185 62 209 150 Z\"/><text class=\"ts\" x=\"185\" y=\"205\" text-anchor=\"middle\">3 mln lat</text><path class=\"gs2 ol\" d=\"M216 150 Q250 42 284 150 Z\"/><text class=\"ts\" x=\"250\" y=\"205\" text-anchor=\"middle\">1 mln lat</text><path class=\"gs2 ol\" d=\"M268 150 Q320 6 372 150 Z\"/><text class=\"ts\" x=\"320\" y=\"205\" text-anchor=\"middle\">0</text><ellipse class=\"gp\" cx=\"40\" cy=\"110\" rx=\"14\" ry=\"3\"/><path class=\"gm\" d=\"M316 12 L320 6 L324 12 Z\"/><path class=\"gm\" d=\"M320 12 C334 40 338 70 346 108 L340 110 C332 72 328 44 318 14 Z\" opacity=\"0.9\"/><path class=\"gk\" d=\"M300 14 q-8 -10 6 -14 q10 -8 20 2 q14 -2 12 10 q-6 8 -20 4 q-10 6 -18 -2 Z\"/><path class=\"s\" d=\"M250.0 232.0 L150.0 232.0\"/><path class=\"d\" d=\"M150.0 232.0 L157.2 228.5 L157.2 235.5 Z\"/><text class=\"ts\" x=\"200\" y=\"248\" text-anchor=\"middle\">ruch płyty ~8 cm/rok</text><text class=\"ts\" x=\"8\" y=\"292\">płaszcz (astenosfera)</text><text class=\"ts\" x=\"8\" y=\"145\">dno oceanu</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
        "x": 320,
-       "y": 85,
-       "lx": 350,
-       "ly": 60,
+       "y": 50,
+       "lx": 240,
+       "ly": 30,
        "n": "Czynny wulkan",
-       "d": "Leży nad plamą gorąca (np. Hawaje)"
+       "d": "Nad plamą gorąca — tarczowy, lawa rzadka (np. Hawaje)"
       },
       {
-       "x": 235,
-       "y": 108,
-       "lx": 230,
-       "ly": 80,
+       "x": 250,
+       "y": 85,
+       "lx": 180,
+       "ly": 60,
        "n": "Wygasły wulkan",
-       "d": "Przesunięty wraz z płytą"
+       "d": "Przesunięty z płytą poza plamę"
       },
       {
-       "x": 65,
-       "y": 137,
-       "lx": 50,
-       "ly": 100,
-       "n": "Najstarsza wyspa",
-       "d": "Zerodowana, przechodzi w atol"
+       "x": 40,
+       "y": 108,
+       "lx": 60,
+       "ly": 88,
+       "n": "Atol",
+       "d": "Pierścień raf na zatopionej wyspie"
       },
       {
-       "x": 318,
-       "y": 250,
-       "lx": 350,
-       "ly": 240,
+       "x": 322,
+       "y": 270,
+       "lx": 290,
+       "ly": 285,
        "n": "Pióropusz płaszcza",
-       "d": "Gorąca magma z głębi płaszcza"
+       "d": "Gorąca materia z głębi płaszcza — plama stoi w miejscu"
       },
       {
-       "x": 300,
-       "y": 165,
-       "lx": 280,
-       "ly": 210,
+       "x": 170,
+       "y": 232,
+       "lx": 140,
+       "ly": 270,
        "n": "Ruch płyty",
        "d": "Płyta przesuwa się nad nieruchomą plamą"
       }
@@ -717,41 +717,49 @@
      "typ": "rysunek",
      "tytul": "Zrąb i rów tektoniczny",
      "opis": "Przekrój przez strukturę zrębowo-rowową.",
-     "uwaga": "Przykłady: zrąb — Sudety (Śnieżnik), rów — Kotlina Kłodzka; rowy na świecie: Wielkie Rowy Afrykańskie, rów Renu.",
-     "svg": "<path class=\"f2\" d=\"M20 120 H120 L130 200 L270 200 L280 120 H380 V280 H20 Z\"/><path style=\"fill:#ffcc80\" d=\"M20 150 H120 L124 180 H276 L280 150 H380 V165 H282 L280 215 H120 L118 165 H20 Z\"/><path class=\"s\" d=\"M120 110 L135 290 M280 110 L265 290\"/><path class=\"s2\" d=\"M200 140 V185 M192 175 L200 187 L208 175\"/>",
+     "uwaga": "Przykłady: Sudety (zręby i rowy, np. Śnieżnik i Kotlina Kłodzka), rów Renu, Wielkie Rowy Afrykańskie (z jeziorami Tanganika i Malawi).",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gl\" d=\"M10 90 H118 L126 165 H274 L282 90 H390 V290 H10 Z\"/><path class=\"gp\" d=\"M10 120 H120 L122 140 H10 Z M280 120 H390 V140 H278 Z M124 195 H276 L274 215 H126 Z\"/><path class=\"gc\" d=\"M10 160 H122 L124 180 H10 Z M278 160 H390 V180 H276 Z M128 235 H272 L270 255 H130 Z\"/><path class=\"s\" d=\"M114 70 L132 290 M286 70 L268 290\"/><path class=\"s\" d=\"M105.0 200.0 L105.0 175.0\"/><path class=\"d\" d=\"M105.0 175.0 L107.6 180.4 L102.4 180.4 Z\"/><path class=\"s\" d=\"M140.0 225.0 L140.0 250.0\"/><path class=\"d\" d=\"M140.0 250.0 L137.4 244.6 L142.6 244.6 Z\"/><path class=\"s\" d=\"M295.0 200.0 L295.0 175.0\"/><path class=\"d\" d=\"M295.0 175.0 L297.6 180.4 L292.4 180.4 Z\"/><path class=\"s\" d=\"M260.0 225.0 L260.0 250.0\"/><path class=\"d\" d=\"M260.0 250.0 L257.4 244.6 L262.6 244.6 Z\"/><path class=\"gw\" d=\"M150 165 H250 V172 H150 Z\"/><text class=\"tb\" x=\"60\" y=\"82\" text-anchor=\"middle\">zrąb</text><text class=\"tb\" x=\"200\" y=\"155\" text-anchor=\"middle\">rów</text><text class=\"tb\" x=\"340\" y=\"82\" text-anchor=\"middle\">zrąb</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
-       "x": 70,
-       "y": 120,
+       "x": 60,
+       "y": 92,
        "lx": 60,
-       "ly": 95,
+       "ly": 30,
        "n": "Zrąb",
-       "d": "Blok wyniesiony między uskokami"
+       "d": "Blok wyniesiony między uskokami (np. Śnieżnik)"
       },
       {
        "x": 200,
-       "y": 200,
+       "y": 168,
        "lx": 200,
-       "ly": 235,
-       "n": "Rów tektoniczny",
-       "d": "Blok obniżony wzdłuż uskoków"
+       "ly": 115,
+       "n": "Rów",
+       "d": "Blok obniżony wzdłuż uskoków (np. Kotlina Kłodzka)"
       },
       {
-       "x": 127,
-       "y": 150,
-       "lx": 150,
-       "ly": 100,
+       "x": 120,
+       "y": 110,
+       "lx": 160,
+       "ly": 50,
        "n": "Uskok",
-       "d": "Pęknięcie z przesunięciem bloków"
+       "d": "Pęknięcie skorupy z przesunięciem bloków"
       },
       {
-       "x": 70,
-       "y": 158,
-       "lx": 40,
-       "ly": 260,
-       "n": "Warstwa przewodnia",
-       "d": "Ta sama warstwa na różnych wysokościach"
+       "x": 60,
+       "y": 130,
+       "lx": 70,
+       "ly": 225,
+       "n": "Ta sama warstwa",
+       "d": "Leży na różnej wysokości po obu stronach uskoku — dowód przesunięcia"
+      },
+      {
+       "x": 140,
+       "y": 238,
+       "lx": 175,
+       "ly": 275,
+       "n": "Ruch w dół",
+       "d": "Środkowy blok osiadł"
       }
      ]
     }

@@ -13,7 +13,7 @@ S['g-atmosfera'] = [
            # góry: tło i pierwszy plan
            '<path class="gs2" d="M40 272 L40 205 L95 188 L150 120 L190 70 L215 52 L240 75 L285 140 L330 180 L395 190 L395 272 Z"/>'
            '<path class="gs" d="M40 272 L40 212 L100 195 L155 128 L196 76 L215 58 L236 80 L280 148 L330 188 L395 197 L395 272 Z"/>'
-           '<path style="fill:#fff" d="M196 76 L215 58 L236 80 L226 84 L215 76 L205 86 Z" opacity="0.9"/>'
+           '<path class="gi" d="M196 76 L215 58 L236 80 L226 84 L215 76 L205 86 Z" opacity="0.9"/>'
            '<path class="gf2" d="M40 272 L40 212 L100 195 L130 160 L140 170 L110 205 L40 228 Z" opacity="0.8"/>'
            '<path class="gf2" d="M395 272 L395 197 L330 188 L300 165 L292 178 L330 200 L395 215 Z" opacity="0.8"/>'
            # chmury i opad po stronie dowietrznej

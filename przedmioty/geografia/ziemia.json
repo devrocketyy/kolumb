@@ -428,50 +428,42 @@
      "id": "see30ca12",
      "typ": "rysunek",
      "tytul": "Strefy czasowe wokół Polski",
-     "opis": "Uproszczony układ stref czasowych w Europie.",
-     "uwaga": "Południkiem środkowym strefy UTC+1 jest 15°E — przechodzi przez Zgorzelec i Stargard.",
-     "svg": "<rect x=\"20\" y=\"40\" width=\"90\" height=\"200\" style=\"fill:#e3f2fd;stroke:#999\"/><text class=\"t\" x=\"40\" y=\"260\">UTC+0</text><rect x=\"110\" y=\"40\" width=\"90\" height=\"200\" style=\"fill:#c8e6c9;stroke:#999\"/><text class=\"t\" x=\"130\" y=\"260\">UTC+1</text><rect x=\"200\" y=\"40\" width=\"90\" height=\"200\" style=\"fill:#fff9c4;stroke:#999\"/><text class=\"t\" x=\"220\" y=\"260\">UTC+2</text><rect x=\"290\" y=\"40\" width=\"90\" height=\"200\" style=\"fill:#ffe0b2;stroke:#999\"/><text class=\"t\" x=\"310\" y=\"260\">UTC+3</text><path class=\"dash\" d=\"M65 40 V240 M155 40 V240 M245 40 V240 M335 40 V240\"/><text class=\"t\" x=\"55\" y=\"30\">0°</text><text class=\"t\" x=\"140\" y=\"30\">15°E</text><text class=\"t\" x=\"230\" y=\"30\">30°E</text><text class=\"t\" x=\"320\" y=\"30\">45°E</text>",
+     "opis": "Uproszczony układ stref czasowych w Europie (każda strefa ma szerokość 15°).",
+     "uwaga": "Południk środkowy strefy UTC+1 to 15°E — przechodzi m.in. przez Zgorzelec i okolice Stargardu. Na wschód od niego Słońce góruje przed 12:00 czasu strefowego.",
+     "svg": "<rect class=\"gw\" x=\"20\" y=\"40\" width=\"90\" height=\"190\"/><rect class=\"gt\" x=\"110\" y=\"40\" width=\"90\" height=\"190\"/><rect class=\"gp\" x=\"200\" y=\"40\" width=\"90\" height=\"190\"/><rect class=\"gc\" x=\"290\" y=\"40\" width=\"90\" height=\"190\"/><path class=\"dash\" d=\"M65 40 V230\"/><text class=\"ts\" x=\"65\" y=\"34\" text-anchor=\"middle\">0°</text><path class=\"dash\" d=\"M155 40 V230\"/><text class=\"ts\" x=\"155\" y=\"34\" text-anchor=\"middle\">15°E</text><path class=\"dash\" d=\"M245 40 V230\"/><text class=\"ts\" x=\"245\" y=\"34\" text-anchor=\"middle\">30°E</text><path class=\"dash\" d=\"M335 40 V230\"/><text class=\"ts\" x=\"335\" y=\"34\" text-anchor=\"middle\">45°E</text><path class=\"s\" d=\"M20 40 H380 V230 H20 Z\"/><circle class=\"f\" cx=\"65\" cy=\"190\" r=\"16\"/><path class=\"s\" d=\"M65 190 V176 M65 190 L65.0 181.0\" style=\"stroke-width:2.4\"/><text class=\"tb\" x=\"65\" y=\"252\" text-anchor=\"middle\">12:00</text><text class=\"ts\" x=\"65\" y=\"268\" text-anchor=\"middle\">Londyn</text><text class=\"tb\" x=\"65\" y=\"130\" text-anchor=\"middle\">UTC+0</text><circle class=\"f\" cx=\"155\" cy=\"190\" r=\"16\"/><path class=\"s\" d=\"M155 190 V176 M155 190 L159.5 182.2\" style=\"stroke-width:2.4\"/><text class=\"tb\" x=\"155\" y=\"252\" text-anchor=\"middle\">13:00</text><text class=\"ts\" x=\"155\" y=\"268\" text-anchor=\"middle\">Warszawa</text><text class=\"tb\" x=\"155\" y=\"130\" text-anchor=\"middle\">UTC+1</text><circle class=\"f\" cx=\"245\" cy=\"190\" r=\"16\"/><path class=\"s\" d=\"M245 190 V176 M245 190 L252.8 185.5\" style=\"stroke-width:2.4\"/><text class=\"tb\" x=\"245\" y=\"252\" text-anchor=\"middle\">14:00</text><text class=\"ts\" x=\"245\" y=\"268\" text-anchor=\"middle\">Kijów</text><text class=\"tb\" x=\"245\" y=\"130\" text-anchor=\"middle\">UTC+2</text><circle class=\"f\" cx=\"335\" cy=\"190\" r=\"16\"/><path class=\"s\" d=\"M335 190 V176 M335 190 L344.0 190.0\" style=\"stroke-width:2.4\"/><text class=\"tb\" x=\"335\" y=\"252\" text-anchor=\"middle\">15:00</text><text class=\"ts\" x=\"335\" y=\"268\" text-anchor=\"middle\">Moskwa</text><text class=\"tb\" x=\"335\" y=\"130\" text-anchor=\"middle\">UTC+3</text><text class=\"ts\" x=\"200\" y=\"290\" text-anchor=\"middle\">czas strefowy, gdy w Londynie jest 12:00 (zima)</text>",
      "viewBox": "0 0 400 300",
      "znaczniki": [
       {
        "x": 65,
-       "y": 120,
-       "lx": 40,
-       "ly": 100,
-       "n": "Londyn",
-       "d": "UTC+0 (zimą)"
+       "y": 100,
+       "lx": 100,
+       "ly": 52,
+       "n": "Strefa UTC+0",
+       "d": "Środkowy południk 0° (Greenwich)"
       },
       {
        "x": 155,
-       "y": 140,
-       "lx": 175,
-       "ly": 120,
+       "y": 100,
+       "lx": 190,
+       "ly": 70,
        "n": "Polska",
-       "d": "UTC+1 zimą, UTC+2 latem"
-      },
-      {
-       "x": 245,
-       "y": 160,
-       "lx": 265,
-       "ly": 140,
-       "n": "Ukraina, Finlandia",
-       "d": "UTC+2"
+       "d": "Strefa UTC+1 (południk 15°E), latem czas UTC+2"
       },
       {
        "x": 335,
-       "y": 180,
-       "lx": 350,
-       "ly": 160,
+       "y": 100,
+       "lx": 300,
+       "ly": 52,
        "n": "Moskwa",
        "d": "UTC+3 przez cały rok"
       },
       {
        "x": 110,
        "y": 210,
-       "lx": 120,
-       "ly": 225,
+       "lx": 135,
+       "ly": 215,
        "n": "Granica strefy",
-       "d": "Co 15° — 1 godzina (granice zwykle wzdłuż granic państw)"
+       "d": "Co 15° — 1 godzina różnicy; w praktyce granice biegną wzdłuż granic państw"
       }
      ]
     }
