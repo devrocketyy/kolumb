@@ -173,6 +173,60 @@
    "dzial": "rolnictwo"
   },
   {
+   "tytul": "Buraki cukrowe",
+   "material": "Tekst autorski. W Polsce zebrano 15 mln t buraków cukrowych z powierzchni 250 tys. ha.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz plon buraków w dt/ha.",
+     "odpowiedz": "600 dt/ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "15 000 000 t / 250 000 ha = 60 t/ha.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa przyrodnicze warunki uprawy buraków cukrowych.",
+     "odpowiedz": "Żyzne gleby (czarnoziemy, czarne ziemie, gleby brunatne, mady), długi okres wegetacji, dostateczne opady.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-07",
+   "dzial": "rolnictwo"
+  },
+  {
+   "tytul": "Mleczność krów",
+   "material": "Tekst autorski. W Polsce wyprodukowano ok. 12 mld l mleka, a pogłowie krów mlecznych wynosi ok. 2,3 mln.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średnią wydajność mleczną krowy w litrach na rok.",
+     "odpowiedz": "ok. 5200 l",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "12 000 / 2,3 ≈ 5217.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj województwo o największej produkcji mleka w Polsce.",
+     "odpowiedz": "podlaskie",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mazowieckie także dużo.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-08",
+   "dzial": "rolnictwo"
+  },
+  {
    "tytul": "Plony pszenicy",
    "material": "Tekst autorski. W województwie zebrano 4,5 mln t zbóż z powierzchni 750 tys. ha.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -196,7 +250,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-07",
+   "id": "b-rolnictwo-09",
    "dzial": "rolnictwo"
   },
   {
@@ -223,7 +277,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-08",
+   "id": "b-rolnictwo-10",
    "dzial": "rolnictwo"
   }
  ]

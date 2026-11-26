@@ -137,6 +137,33 @@
    "dzial": "litosfera"
   },
   {
+   "tytul": "Siła trzęsień ziemi",
+   "material": "Tekst autorski. Wzrost magnitudy o 1 oznacza ok. 32 razy większą energię wstrząsu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy więcej energii wyzwala trzęsienie o magnitudzie 7 niż o magnitudzie 5.",
+     "odpowiedz": "ok. 1000 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "32 × 32 ≈ 1024.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę strefy, w której trzęsienia ziemi i wulkany występują najczęściej.",
+     "odpowiedz": "Pacyficzny Pierścień Ognia",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Strefy subdukcji.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-litosfera-06",
+   "dzial": "litosfera"
+  },
+  {
    "tytul": "Profil geologiczny",
    "material": "Tekst autorski. W odsłonięciu od dołu występują: piaskowce i łupki z wkładkami węgla (karbon), wapienie z amonitami (jura), glina z głazami narzutowymi (czwartorzęd). Warstwy nie są zaburzone.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -169,7 +196,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-litosfera-06",
+   "id": "b-litosfera-07",
    "dzial": "litosfera"
   },
   {
@@ -196,7 +223,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-litosfera-07",
+   "id": "b-litosfera-08",
    "dzial": "litosfera"
   },
   {
@@ -232,7 +259,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-litosfera-08",
+   "id": "b-litosfera-09",
    "dzial": "litosfera"
   },
   {
@@ -259,7 +286,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-litosfera-09",
+   "id": "b-litosfera-10",
    "dzial": "litosfera"
   },
   {
@@ -295,7 +322,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-litosfera-10",
+   "id": "b-litosfera-11",
    "dzial": "litosfera"
   }
  ]

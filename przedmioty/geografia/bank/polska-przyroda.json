@@ -209,6 +209,33 @@
    "dzial": "polska-przyroda"
   },
   {
+   "tytul": "Klif w Jastrzębiej Górze",
+   "material": "Tekst autorski. Klif cofa się średnio o 0,5 m rocznie. Budynek stoi 60 m od krawędzi klifu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, po ilu latach krawędź klifu dotrze do budynku (przy stałym tempie).",
+     "odpowiedz": "120 lat",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "60 / 0,5.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden sposób ochrony klifu.",
+     "odpowiedz": "Np. opaska brzegowa z kamieni, ostrogi, sztuczne zasilanie plaży piaskiem, odwodnienie i zalesienie klifu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jeden.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-przyroda-09",
+   "dzial": "polska-przyroda"
+  },
+  {
    "tytul": "Jezioro na pojezierzu",
    "material": "Tekst autorski. Jezioro na Pojezierzu Pomorskim ma 6 km długości, 0,5 km szerokości i głębokość maksymalną 40 m; jest wydłużone w kierunku N–S.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -232,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-09",
+   "id": "b-polska-przyroda-10",
    "dzial": "polska-przyroda"
   },
   {
@@ -259,7 +286,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-10",
+   "id": "b-polska-przyroda-11",
    "dzial": "polska-przyroda"
   },
   {
@@ -286,7 +313,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-11",
+   "id": "b-polska-przyroda-12",
    "dzial": "polska-przyroda"
   },
   {
@@ -313,7 +340,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-12",
+   "id": "b-polska-przyroda-13",
    "dzial": "polska-przyroda"
   },
   {
@@ -340,7 +367,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-13",
+   "id": "b-polska-przyroda-14",
    "dzial": "polska-przyroda"
   },
   {
@@ -367,7 +394,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-14",
+   "id": "b-polska-przyroda-15",
    "dzial": "polska-przyroda"
   }
  ]

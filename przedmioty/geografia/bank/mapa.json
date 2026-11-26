@@ -434,6 +434,78 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Plan miasta 1:10 000",
+   "material": "Tekst autorski. Na planie w skali 1:10 000 odległość między dworcem a ratuszem wynosi 7,5 cm, a stadion ma na planie kształt prostokąta 1 cm × 0,7 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość w terenie między dworcem a ratuszem.",
+     "odpowiedz": "750 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "7,5 × 100 m.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię stadionu w hektarach.",
+     "odpowiedz": "0,7 ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 cm² = 1 ha.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-17",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Spadek potoku",
+   "material": "Tekst autorski. Na mapie w skali 1:25 000 odcinek potoku między poziomicami 250 m i 230 m ma długość 5 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz średni spadek potoku w promilach.",
+     "odpowiedz": "16‰",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "20 m / 1250 m × 1000.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-18",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Skala mianowana i azymut",
+   "material": "Tekst autorski. Mapa ma skalę liczbową 1:250 000. Z punktu A do punktu B idzie się w kierunku azymutu 35°.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz skalę mianowaną tej mapy.",
+     "odpowiedz": "1 cm — 2,5 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "250 000 cm = 2,5 km.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz azymut drogi powrotnej z B do A.",
+     "odpowiedz": "215°",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "35° + 180°.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-19",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Wycieczka na wieżę widokową",
    "material": "Tekst autorski. Na mapie w skali 1:25 000 kościół leży na wysokości 212 m n.p.m., a wieża widokowa na wzgórzu — 347 m n.p.m. Odległość między nimi na mapie: 8 cm. Wieża leży od kościoła w kierunku azymutu 135°.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -466,7 +538,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-17",
+   "id": "b-mapa-20",
    "dzial": "mapa"
   },
   {
@@ -484,7 +556,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-18",
+   "id": "b-mapa-21",
    "dzial": "mapa"
   },
   {
@@ -511,7 +583,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-19",
+   "id": "b-mapa-22",
    "dzial": "mapa"
   },
   {
@@ -547,7 +619,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-20",
+   "id": "b-mapa-23",
    "dzial": "mapa"
   },
   {
@@ -574,7 +646,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-21",
+   "id": "b-mapa-24",
    "dzial": "mapa"
   },
   {
@@ -601,7 +673,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-22",
+   "id": "b-mapa-25",
    "dzial": "mapa"
   },
   {
@@ -619,7 +691,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-23",
+   "id": "b-mapa-26",
    "dzial": "mapa"
   }
  ]

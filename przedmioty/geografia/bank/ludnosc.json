@@ -452,6 +452,132 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Kurczące się miasto",
+   "material": "Tekst autorski. Liczba mieszkańców miasta wynosiła 700 tys. w 2010 r. i 670 tys. w 2024 r.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, o ile procent zmalała liczba mieszkańców. Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "o ok. 4,3%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "30 / 700 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny spadku liczby mieszkańców dużego miasta w Polsce.",
+     "odpowiedz": "Ujemny przyrost naturalny, wyprowadzki do strefy podmiejskiej (suburbanizacja), emigracja.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-18",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Pracujący w usługach",
+   "material": "Tekst autorski. W Polsce pracuje ok. 16,8 mln osób, z czego 61% w usługach.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz liczbę pracujących w usługach.",
+     "odpowiedz": "ok. 10,2 mln",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "16,8 × 0,61 = 10,25.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-19",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Podwojenie ludności",
+   "material": "Tekst autorski. Ludność kraju A rośnie o 1% rocznie, a kraju B o 3,5% rocznie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oszacuj czas podwojenia ludności obu krajów (reguła 70).",
+     "odpowiedz": "A — 70 lat, B — 20 lat",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "70 / 1 i 70 / 3,5.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-20",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Saldo migracji międzynarodowych",
+   "material": "Tekst autorski. W roku do kraju przyjechało na stałe 120 tys. imigrantów, a wyjechało 95 tys. emigrantów. Liczba ludności wynosi 25 mln.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz saldo migracji i jego współczynnik w promilach.",
+     "odpowiedz": "+25 tys.; +1‰",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "25 000 / 25 000 000 × 1000.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-21",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Młode społeczeństwo",
+   "material": "Tekst autorski. Struktura wieku: 0–14 lat — 40%, 15–64 lata — 57%, 65+ — 3%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz współczynnik obciążenia demograficznego.",
+     "odpowiedz": "ok. 75",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(40 + 3) / 57 × 100 ≈ 75,4.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj fazę przejścia demograficznego, w której najpewniej jest ten kraj.",
+     "odpowiedz": "faza II–III (eksplozja demograficzna)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Bardzo młoda struktura.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-22",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Ludność miejska świata",
+   "material": "Tekst autorski. Ludność świata wynosi ok. 8,1 mld, a wskaźnik urbanizacji — ok. 57%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz liczbę mieszkańców miast na świecie.",
+     "odpowiedz": "ok. 4,6 mld",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "8,1 × 0,57.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-23",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Miasto i strefa podmiejska",
    "material": "Tekst autorski. Liczba ludności miasta X w latach 1990 i 2020: centrum 400 tys. → 300 tys.; strefa podmiejska 100 tys. → 200 tys.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -484,7 +610,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-18",
+   "id": "b-ludnosc-24",
    "dzial": "ludnosc"
   },
   {
@@ -520,7 +646,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-19",
+   "id": "b-ludnosc-25",
    "dzial": "ludnosc"
   },
   {
@@ -547,7 +673,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-20",
+   "id": "b-ludnosc-26",
    "dzial": "ludnosc"
   },
   {
@@ -583,7 +709,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-21",
+   "id": "b-ludnosc-27",
    "dzial": "ludnosc"
   },
   {
@@ -610,7 +736,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-22",
+   "id": "b-ludnosc-28",
    "dzial": "ludnosc"
   },
   {
@@ -646,7 +772,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-23",
+   "id": "b-ludnosc-29",
    "dzial": "ludnosc"
   }
  ]

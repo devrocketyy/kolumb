@@ -326,6 +326,96 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Mecz w Los Angeles",
+   "material": "Tekst autorski. Mecz w Los Angeles (zimą UTC−8) rozpoczyna się 15 stycznia o 19:00 czasu lokalnego.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Podaj datę i godzinę rozpoczęcia meczu w Warszawie (UTC+1).",
+     "odpowiedz": "16 stycznia, 4:00",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "19:00 + 9 h.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-15",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Linia zmiany daty",
+   "material": "Tekst autorski. Samoa stosuje czas UTC+13, a Hawaje — UTC−10. Na Hawajach jest 1 stycznia, godz. 10:00.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Podaj datę i godzinę na Samoa.",
+     "odpowiedz": "2 stycznia, 9:00",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Różnica 23 h.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego mimo bliskości obu archipelagów różnica dat jest tak duża.",
+     "odpowiedz": "Leżą po przeciwnych stronach linii zmiany daty — przy jej przekraczaniu na zachód data zwiększa się o dobę.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Linia zmiany daty.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-16",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Przemyśl i Słubice",
+   "material": "Tekst autorski. Przemyśl leży na ok. 22°45′E, a Słubice na ok. 14°35′E.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz różnicę czasu słonecznego między tymi miastami.",
+     "odpowiedz": "32 min 40 s",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "8°10′ = 490′ × 4 s = 1960 s.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-17",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Słońce zimą",
+   "material": "Tekst autorski. 22 grudnia obserwator na półkuli północnej zmierzył wysokość Słońca w momencie górowania: 30°.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz szerokość geograficzną obserwatora.",
+     "odpowiedz": "36°33′N",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 30° − 23°27′.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj wysokość Słońca w momencie górowania na równiku w tym dniu i stronę nieba.",
+     "odpowiedz": "66°33′, po stronie południowej",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Słońce nad zwrotnikiem Koziorożca.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-18",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Zgorzelcem i Terespolem",
    "material": "Tekst autorski. Zgorzelec leży na ok. 15°00′E, Terespol na ok. 23°40′E. Jest zima (obowiązuje czas UTC+1).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -349,7 +439,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-15",
+   "id": "b-ziemia-19",
    "dzial": "ziemia"
   },
   {
@@ -376,7 +466,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-16",
+   "id": "b-ziemia-20",
    "dzial": "ziemia"
   },
   {
@@ -403,7 +493,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-17",
+   "id": "b-ziemia-21",
    "dzial": "ziemia"
   },
   {
@@ -439,7 +529,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-18",
+   "id": "b-ziemia-22",
    "dzial": "ziemia"
   },
   {
@@ -466,7 +556,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-19",
+   "id": "b-ziemia-23",
    "dzial": "ziemia"
   },
   {
@@ -493,7 +583,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-20",
+   "id": "b-ziemia-24",
    "dzial": "ziemia"
   },
   {
@@ -511,7 +601,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-21",
+   "id": "b-ziemia-25",
    "dzial": "ziemia"
   }
  ]

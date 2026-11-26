@@ -110,6 +110,33 @@
    "dzial": "czlowiek"
   },
   {
+   "tytul": "Emisja CO₂ w Polsce",
+   "material": "Tekst autorski. Emisja CO₂ w Polsce wyniosła ok. 380 mln t w 1990 r. i ok. 300 mln t w 2023 r.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, o ile procent zmniejszyła się emisja. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "o ok. 21%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "80 / 380 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa działania, które ograniczyły emisję w Polsce.",
+     "odpowiedz": "Restrukturyzacja przemysłu ciężkiego po 1989 r., modernizacja elektrowni, rozwój OZE, termomodernizacja budynków.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-czlowiek-05",
+   "dzial": "czlowiek"
+  },
+  {
    "tytul": "Emisja CO₂",
    "material": "Tekst autorski. Kraj liczący 38 mln mieszkańców emituje rocznie 300 mln t CO₂, z czego 70% pochodzi z energetyki opartej na węglu.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -133,7 +160,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-05",
+   "id": "b-czlowiek-06",
    "dzial": "czlowiek"
   },
   {
@@ -160,7 +187,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-06",
+   "id": "b-czlowiek-07",
    "dzial": "czlowiek"
   }
  ]

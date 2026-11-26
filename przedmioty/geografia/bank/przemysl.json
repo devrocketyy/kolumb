@@ -272,6 +272,78 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Węgiel kamienny",
+   "material": "Tekst autorski. Wydobycie węgla kamiennego w Polsce wyniosło ok. 147 mln t w 1990 r. i ok. 45 mln t w 2024 r.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik dynamiki wydobycia (1990 = 100%). Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "ok. 30,6%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "45 / 147 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny spadku wydobycia węgla kamiennego w Polsce.",
+     "odpowiedz": "Wyczerpywanie się łatwo dostępnych złóż i wysokie koszty wydobycia, tańszy węgiel z importu, polityka klimatyczna i rozwój OZE, restrukturyzacja górnictwa.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-11",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Turyści zagraniczni",
+   "material": "Tekst autorski. Polskę odwiedziło w roku ok. 20 mln turystów zagranicznych, którzy wydali ok. 50 mld zł.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średnie wydatki jednego turysty.",
+     "odpowiedz": "2500 zł",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "50 mld / 20 mln.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-12",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Transport ładunków",
+   "material": "Tekst autorski. W Polsce przewieziono w roku ok. 2,2 mld t ładunków, z czego 85% transportem samochodowym.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę ładunków przewiezionych transportem samochodowym.",
+     "odpowiedz": "ok. 1,87 mld t",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2,2 × 0,85.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedną zaletę transportu kolejowego w porównaniu z samochodowym.",
+     "odpowiedz": "Mniejsza emisja CO₂ na tonę ładunku, mniejsze koszty na dużych odległościach, przewóz ładunków masowych.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jedna.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-13",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Restrukturyzacja okręgu górniczego",
    "material": "Tekst autorski. Zatrudnienie w górnictwie węgla kamiennego w pewnym okręgu spadło z ok. 390 tys. osób do ok. 80 tys. osób.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -295,7 +367,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-11",
+   "id": "b-przemysl-14",
    "dzial": "przemysl"
   },
   {
@@ -322,7 +394,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-12",
+   "id": "b-przemysl-15",
    "dzial": "przemysl"
   },
   {
@@ -349,7 +421,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-13",
+   "id": "b-przemysl-16",
    "dzial": "przemysl"
   },
   {
@@ -376,7 +448,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-14",
+   "id": "b-przemysl-17",
    "dzial": "przemysl"
   },
   {
@@ -403,7 +475,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-15",
+   "id": "b-przemysl-18",
    "dzial": "przemysl"
   }
  ]

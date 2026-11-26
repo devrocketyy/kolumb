@@ -272,6 +272,51 @@
    "dzial": "hydrosfera"
   },
   {
+   "tytul": "Roczny odpływ Wisły",
+   "material": "Tekst autorski. Średni przepływ Wisły przy ujściu wynosi ok. 1080 m³/s. Rok ma ok. 31,5 mln sekund.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczny odpływ Wisły w km³.",
+     "odpowiedz": "ok. 34 km³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1080 × 31 536 000 ≈ 34,1 mld m³.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaki odsetek tego odpływu mógłby zmagazynować zbiornik o pojemności 500 mln m³.",
+     "odpowiedz": "ok. 1,5%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,5 / 34 × 100.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-12",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Bałtyk i Morze Czerwone",
+   "material": "Tekst autorski. Zasolenie Bałtyku wynosi ok. 7‰, a Morza Czerwonego — ok. 40‰.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przyczyny różnicy zasolenia obu mórz.",
+     "odpowiedz": "Do Morza Czerwonego nie uchodzą rzeki, a w gorącym, suchym klimacie parowanie jest bardzo duże; do Bałtyku uchodzi wiele rzek, parowanie jest małe w chłodnym klimacie, a wymiana wód z oceanem ograniczona.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Bilans wodny.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-hydrosfera-13",
+   "dzial": "hydrosfera"
+  },
+  {
    "tytul": "Pomiar przepływu",
    "material": "Tekst autorski. W przekroju pomiarowym rzeka ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -295,7 +340,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-12",
+   "id": "b-hydrosfera-14",
    "dzial": "hydrosfera"
   },
   {
@@ -331,7 +376,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-hydrosfera-13",
+   "id": "b-hydrosfera-15",
    "dzial": "hydrosfera"
   },
   {
@@ -349,7 +394,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-hydrosfera-14",
+   "id": "b-hydrosfera-16",
    "dzial": "hydrosfera"
   },
   {
@@ -376,7 +421,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-15",
+   "id": "b-hydrosfera-17",
    "dzial": "hydrosfera"
   },
   {
@@ -403,7 +448,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-16",
+   "id": "b-hydrosfera-18",
    "dzial": "hydrosfera"
   },
   {
@@ -430,7 +475,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-17",
+   "id": "b-hydrosfera-19",
    "dzial": "hydrosfera"
   },
   {
@@ -457,7 +502,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-18",
+   "id": "b-hydrosfera-20",
    "dzial": "hydrosfera"
   },
   {
@@ -484,7 +529,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-19",
+   "id": "b-hydrosfera-21",
    "dzial": "hydrosfera"
   }
  ]
