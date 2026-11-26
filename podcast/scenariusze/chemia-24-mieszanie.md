@@ -25,6 +25,10 @@ Masz dwieście gramów roztworu piętnastoprocentowego. Substancji jest trzydzie
 
 Dla stężeń molowych tak samo, tylko liczysz mole: liczba moli przed równa się liczbie moli po. Stężenie razy objętość przed równa się stężenie razy objętość po.
 
+Typowy błąd: rozumienie „rozcieńczyć jeden do czterech” jako „cztery razy”. Zwykle oznacza to jedną część koncentratu na cztery części wody, czyli pięć części razem — stężenie spada pięciokrotnie. W zadaniu zawsze sprawdź, jak autor definiuje proporcję.
+
+Uwaga na objętości. Przy rozcieńczaniu wodnych roztworów soli zwykle zakłada się, że objętości się sumują. Ale na przykład pięćdziesiąt mililitrów etanolu i pięćdziesiąt mililitrów wody dają mniej niż sto mililitrów mieszaniny, bo cząsteczki upakowują się ciaśniej dzięki wiązaniom wodorowym. Masy zawsze się sumują, objętości — nie zawsze.
+
 [pytanie: rozcienczanie]
 
 Sprawdź się. Jakie stężenie otrzymasz, dodając 100 g wody do 200 g roztworu 15-procentowego?
@@ -88,6 +92,10 @@ Mieszając dwa roztwory, sumujesz substancje i sumujesz masy. Sto gramów dziesi
 Wynik zawsze leży między stężeniami wyjściowymi, bliżej tego roztworu, którego było więcej. To dobry sprawdzian.
 
 Szybka metoda to tak zwana reguła krzyża: masy roztworów mają się do siebie odwrotnie jak odległości ich stężeń od stężenia docelowego.
+
+Mieszanie roztworów molowych liczy się tak samo, tylko przez mole. Sto centymetrów sześciennych roztworu jednomolowego zawiera jedną dziesiątą mola. Trzysta centymetrów roztworu o stężeniu dwie dziesiąte — sześć setnych mola. Razem szesnaście setnych mola w czterystu centymetrach, czyli czterech dziesiątych decymetra. Stężenie: cztery dziesiąte mola na decymetr.
+
+Sprawdzenie: wynik leży między jeden a dwie dziesiąte, bliżej dwóch dziesiątych, bo tego roztworu było więcej. Zgadza się.
 
 [pytanie: mieszanie]
 

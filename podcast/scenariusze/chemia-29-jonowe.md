@@ -27,6 +27,10 @@ Zapis jonowy pełny: rozpisujesz mocne elektrolity rozpuszczalne na jony. Osad, 
 
 Zapis jonowy skrócony: wykreślasz jony, które nic nie robią — jony obserwatorzy. Tu sód i azotan. Zostaje Ag⁺ plus Cl⁻ daje AgCl.
 
+Kluczowa zasada przy rozpisywaniu na jony: rozpisujesz tylko mocne elektrolity, które są w roztworze. Słabe kwasy, jak octowy, zostają w postaci cząsteczkowej. Reakcja kwasu octowego z wodorotlenkiem sodu w zapisie skróconym to więc CH₃COOH plus OH⁻ daje CH₃COO⁻ i H₂O, a nie H⁺ plus OH⁻.
+
+Typowy błąd: rozpisanie osadu na jony. Chlorek srebra po prawej stronie zostaje jako AgCl ze strzałką w dół.
+
 [pytanie: skrocony]
 
 Sprawdź się. Jak wygląda skrócony zapis jonowy reakcji AgNO₃ z NaCl?
@@ -57,6 +61,10 @@ Czy powstanie osad, sprawdzasz w tablicy rozpuszczalności. Kilka wartych zapami
 
 Sole sodu, potasu, amonu i wszystkie azotany są rozpuszczalne. Dlatego to dobre źródła jonów do reakcji strąceniowych.
 
+Mini-obliczenie. Ile gramów siarczanu baru wytrąci się z roztworu zawierającego dwadzieścia i osiem dziesiątych grama chlorku baru, po dodaniu nadmiaru siarczanu sodu? Masa molowa BaCl₂ to dwieście osiem — jedna dziesiąta mola. Siarczanu baru powstanie też jedna dziesiąta mola, a jego masa molowa to dwieście trzydzieści trzy. Wychodzi dwadzieścia trzy i trzy dziesiąte grama.
+
+Siarczan baru jest tak trudno rozpuszczalny, że podaje się go pacjentom jako kontrast do zdjęć rentgenowskich przewodu pokarmowego. Rozpuszczalne sole baru są trujące, ale z siarczanu jony baru praktycznie się nie uwalniają.
+
 [pytanie: cuoh]
 
 Sprawdź się. Jaki osad powstanie po dodaniu NaOH do roztworu CuSO₄?
@@ -74,6 +82,8 @@ Niebieski, galaretowaty osad wodorotlenku miedzi dwa.
 Reakcja mocnego kwasu z mocną zasadą, bez względu na to, które to są, ma ten sam zapis skrócony: H⁺ plus OH⁻ daje H₂O.
 
 Jest jeszcze trzecia siła napędowa reakcji jonowych: powstanie gazu. Węglan z kwasem: CO₃²⁻ plus dwa H⁺ daje CO₂ i H₂O. Stąd musowanie, gdy polejesz kamień octem.
+
+Jeszcze jeden gaz wart zapamiętania: amoniak. Sól amonowa ogrzana z wodorotlenkiem sodu wydziela amoniak: NH₄⁺ plus OH⁻ daje NH₃ i H₂O. Rozpoznasz go po zapachu i po tym, że zwilżony papierek uniwersalny nad probówką zabarwi się na niebiesko. To test na jony amonowe.
 
 [pytanie: zobojetnianie]
 
