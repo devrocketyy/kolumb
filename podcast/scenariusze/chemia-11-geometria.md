@@ -27,6 +27,10 @@ Liczysz tak zwaną liczbę przestrzenną: atomy przyłączone do atomu centralne
 
 Dwa — układ liniowy, kąt sto osiemdziesiąt stopni. Trzy — trójkąt płaski, sto dwadzieścia stopni. Cztery — tetraedr, sto dziewięć i pół stopnia.
 
+Trzy obszary to na przykład fluorek boru, BF₃. Bor ma tylko trzy elektrony walencyjne, tworzy trzy wiązania i nie ma wolnej pary. Cząsteczka jest płaskim trójkątem z kątami po sto dwadzieścia stopni.
+
+Typowy błąd: liczenie wiązania podwójnego jako dwóch obszarów. Wiązanie podwójne albo potrójne to jeden obszar elektronowy. Dlatego w CO₂ węgiel ma dwa obszary, choć tworzy cztery wiązania.
+
 [pytanie: liczba]
 
 Sprawdź się. Jaka jest liczba przestrzenna atomu węgla w metanie?
@@ -65,6 +69,10 @@ Amoniak: azot ma trzy atomy wodoru i jedną wolną parę. Hybrydyzacja sp³, ale
 
 Wolne pary odpychają mocniej niż pary wiążące, więc ściskają kąty. W amoniaku kąt ma około stu siedmiu stopni, w wodzie — około stu czterech i pół.
 
+Dwutlenek siarki to dobry przykład pośredni. Siarka ma dwa atomy tlenu i jedną wolną parę — trzy obszary, hybrydyzacja sp². Ale kształt jest kątowy, nie trójkątny, bo jeden wierzchołek zajmuje wolna para.
+
+A jon amonowy, NH₄⁺? Azot ma cztery atomy wodoru i zero wolnych par — idealny tetraedr, kąty sto dziewięć i pół stopnia. Wolna para amoniaku stała się wiązaniem z protonem.
+
 [pytanie: ksztalt]
 
 Sprawdź się. Jaki kształt ma cząsteczka amoniaku?
@@ -96,6 +104,10 @@ Cząsteczka może mieć wiązania polarne, a mimo to być niepolarna. Decyduje s
 Dwutlenek węgla: dwa polarne wiązania C=O, ale cząsteczka jest liniowa i symetryczna. Przesunięcia ładunku się znoszą — cząsteczka jest niepolarna. Tetrachlorometan — tak samo, symetryczny tetraedr.
 
 Woda: wiązania polarne i kształt kątowy, niesymetryczny. Cząsteczka polarna.
+
+Symetria musi dotyczyć także rodzaju podstawników. Dichlorometan, CH₂Cl₂, ma kształt tetraedru, ale dwa wierzchołki zajmują wodory, a dwa chlory. Przesunięcia ładunku się nie znoszą — cząsteczka jest polarna. Tetrachlorometan z czterema chlorami — niepolarny.
+
+Polarność ma praktyczne skutki. Strumień wody spływający z kranu odchyla się w stronę naelektryzowanej plastikowej linijki, bo polarne cząsteczki ustawiają się w polu elektrycznym. Strumień niepolarnej cieczy, na przykład heksanu, prawie się nie odchyli.
 
 [pytanie: polarnosc]
 

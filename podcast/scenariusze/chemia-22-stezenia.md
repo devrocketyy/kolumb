@@ -25,6 +25,12 @@ Stężenie procentowe mówi, ile gramów substancji jest w stu gramach roztworu.
 
 Pułapka numer jeden: masa roztworu to substancja plus rozpuszczalnik. Dwadzieścia gramów soli w stu osiemdziesięciu gramach wody to dwieście gramów roztworu — i stężenie dziesięć procent, nie jedenaście.
 
+Często masę roztworu trzeba policzyć z objętości i gęstości. Mini-obliczenie: dwieście centymetrów sześciennych roztworu o gęstości jeden przecinek dwa grama na centymetr waży dwieście czterdzieści gramów. Jeśli stężenie to dwadzieścia procent, substancji jest czterdzieści osiem gramów.
+
+Typowy błąd: utożsamianie centymetrów sześciennych z gramami. To działa tylko dla wody i bardzo rozcieńczonych roztworów wodnych, których gęstość jest bliska jednego grama na centymetr.
+
+Przy bardzo małych stężeniach używa się jednostki ppm — części na milion, czyli miligramów na kilogram. W ten sposób podaje się na przykład zawartość azotanów w wodzie pitnej.
+
 [pytanie: procentowe]
 
 Sprawdź się. Jakie stężenie ma roztwór z 20 g soli i 180 g wody?
@@ -42,6 +48,10 @@ Dziesięć procent. Dwadzieścia przez dwieście.
 Stężenie molowe mówi, ile moli substancji jest w jednym decymetrze sześciennym roztworu. Liczba moli przez objętość roztworu w decymetrach.
 
 Pięć i osiemdziesiąt pięć setnych grama chlorku sodu to jedna dziesiąta mola. Rozpuszczamy i uzupełniamy wodą do dwustu pięćdziesięciu centymetrów sześciennych, czyli ćwierci litra. Stężenie: jedna dziesiąta przez ćwierć — cztery dziesiąte mola na decymetr.
+
+Stężenie molowe spotkasz w wynikach badań krwi. Glukoza na czczo to około pięciu milimoli na litr. Przeliczmy: pięć tysięcznych mola razy sto osiemdziesiąt gramów na mol — dziewięćdziesiąt setnych grama w litrze, czyli dziewięćdziesiąt miligramów na decylitr. To ta sama wartość, którą podają polskie laboratoria.
+
+W laboratorium roztwór molowy przygotowuje się w kolbie miarowej: odważoną substancję rozpuszcza się w części wody, a potem dopełnia wodą do kreski. Liczy się objętość całego roztworu, nie dodanej wody.
 
 [pytanie: molowe]
 

@@ -25,6 +25,10 @@ Najpierw stara, ale wciąż potrzebna teoria Arrheniusa. Elektrolit to substancj
 
 Elektrolity mocne dysocjują praktycznie całkowicie: kwas solny, azotowy, siarkowy, wodorotlenki sodu i potasu, prawie wszystkie sole. Słabe tylko w niewielkim stopniu: kwas octowy, węglowy, amoniak w wodzie.
 
+Ważny szczegół zapisu: w wodzie wolne protony nie istnieją. Proton od razu łączy się z cząsteczką wody i powstaje jon oksoniowy, H₃O⁺. Zapis H⁺ to skrót, który matura akceptuje, ale warto wiedzieć, co się pod nim kryje.
+
+Typowy błąd: przekonanie, że roztwór przewodzi tym lepiej, im więcej substancji rozpuścimy. Liczy się liczba jonów. Roztwór kwasu octowego, nawet stężony, przewodzi słabo, bo zdysocjowało niewiele cząsteczek.
+
 [pytanie: mocny]
 
 Sprawdź się. Który kwas jest elektrolitem słabym: azotowy czy octowy?
@@ -61,6 +65,10 @@ Każdy kwas po oddaniu protonu staje się zasadą — sprzężoną z nim. NH₄�
 
 Woda jest amfoteryczna, czyli amfiprotyczna: z amoniakiem zachowuje się jak kwas, z chlorowodorem jak zasada, bo przyjmuje proton i powstaje jon oksoniowy H₃O⁺. Podobnie jony wodorowe, na przykład HCO₃⁻, mogą proton i oddać, i przyjąć.
 
+Moc kwasu i jego zasady sprzężonej są ze sobą powiązane. Im mocniejszy kwas, tym słabsza jego zasada sprzężona. Chlorowodór jest bardzo mocnym kwasem, więc jon chlorkowy praktycznie nie przyjmuje protonów — dlatego nie hydrolizuje. Kwas octowy jest słaby, więc jon octanowy jest zauważalną zasadą.
+
+Typowy błąd: mylenie kierunków w parze wody. Zasadą sprzężoną z wodą jest OH⁻ — woda oddała proton. Kwasem sprzężonym z wodą jest H₃O⁺ — woda przyjęła proton.
+
 [pytanie: sprzezona]
 
 Sprawdź się. Jaka jest zasada sprzężona z jonem HCO₃⁻?
@@ -88,6 +96,10 @@ HSO₄⁻. Może oddać proton i stać się SO₄²⁻ albo przyjąć i stać si
 ## Dysocjacja stopniowa
 
 Kwasy wieloprotonowe oddają protony po kolei. Kwas fosforowy: najpierw H₃PO₄ daje H⁺ i H₂PO₄⁻, potem powstaje HPO₄²⁻, na końcu PO₄³⁻. Każdy kolejny etap zachodzi w mniejszym stopniu, bo trudniej oderwać proton od coraz bardziej ujemnego jonu.
+
+Kwas siarkowy jest wyjątkiem wśród kwasów wieloprotonowych: jego pierwszy etap dysocjacji jest praktycznie całkowity, bo to mocny kwas. Drugi etap, z jonu HSO₄⁻, zachodzi już tylko częściowo.
+
+Mini-obliczenie. W roztworze kwasu siarkowego o stężeniu jedna dziesiąta mola na decymetr stężenie jonów wodorowych wynosi co najmniej jedną dziesiątą — z samego pierwszego etapu. Drugi etap dodaje jeszcze trochę, więc pH jest nieco niższe niż jeden.
 
 [pytanie: stopniowa]
 
