@@ -189,6 +189,33 @@
    ],
    "id": "b-hydrosfera-07",
    "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Zanikające jezioro",
+   "material": "Tekst autorski. Jezioro polodowcowe miało w 1960 r. powierzchnię 12 km². Co roku jego powierzchnia zmniejsza się średnio o 0,15 km².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, w którym roku powierzchnia jeziora zmniejszy się o połowę (przy stałym tempie).",
+     "odpowiedz": "2000",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "6 km² / 0,15 km²/rok = 40 lat.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Podaj dwa naturalne procesy prowadzące do zaniku jezior.",
+     "odpowiedz": "Zarastanie (rozwój roślinności, torfowiska), zasypywanie osadami niesionymi przez rzeki, obniżanie poziomu wód gruntowych.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-08",
+   "dzial": "hydrosfera"
   }
  ]
 }

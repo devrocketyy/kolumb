@@ -54,6 +54,33 @@
    ],
    "id": "b-czlowiek-02",
    "dzial": "czlowiek"
+  },
+  {
+   "tytul": "Emisja CO₂",
+   "material": "Tekst autorski. Kraj liczący 38 mln mieszkańców emituje rocznie 300 mln t CO₂, z czego 70% pochodzi z energetyki opartej na węglu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz emisję CO₂ na mieszkańca. Wynik zaokrąglij do 0,1 t.",
+     "odpowiedz": "ok. 7,9 t",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "300 / 38.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa działania, które zmniejszą emisję w tym kraju.",
+     "odpowiedz": "Np. rozwój OZE i energetyki jądrowej, termomodernizacja budynków, transport publiczny i elektromobilność.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-czlowiek-03",
+   "dzial": "czlowiek"
   }
  ]
 }

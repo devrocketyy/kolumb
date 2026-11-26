@@ -27,6 +27,33 @@
    ],
    "id": "b-pedosfera-01",
    "dzial": "pedosfera"
+  },
+  {
+   "tytul": "Profil gleby",
+   "material": "Tekst autorski. Opis profilu: O — ściółka; A — cienki poziom próchniczny; E — jasnoszary poziom wymywania; B — rdzawy poziom wmywania związków żelaza i glinu; C — piasek.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę typu gleby.",
+     "odpowiedz": "gleba bielicowa",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Poziom E — eluwialny.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, w jakich warunkach powstaje ta gleba i dlaczego ma niską przydatność rolniczą.",
+     "odpowiedz": "Na ubogich piaskach pod lasem iglastym, w klimacie wilgotnym i chłodnym — kwaśna próchnica powoduje wymywanie składników; gleba jest kwaśna, uboga w próchnicę i składniki pokarmowe.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Bielicowanie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-pedosfera-02",
+   "dzial": "pedosfera"
   }
  ]
 }

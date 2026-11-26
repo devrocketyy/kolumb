@@ -1,0 +1,41 @@
+{
+ "dzial": "umiejetnosci",
+ "wiazki": [
+  {
+   "tytul": "Klimatogram stacji nizinnej",
+   "material": "Tekst autorski. Średnie miesięczne temperatury (°C) stacji X: I −3, II −2, III 2, IV 8, V 13, VI 16, VII 18, VIII 17, IX 13, X 8, XI 3, XII −1. Roczna suma opadów: 560 mm, maksimum w lipcu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średnią roczną temperaturę powietrza. Wynik zaokrąglij do 0,1°C.",
+     "odpowiedz": "7,7°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Suma 92 / 12 ≈ 7,67.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczną amplitudę temperatury.",
+     "odpowiedz": "21°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "18 − (−3).",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj typ klimatu tej stacji.",
+     "odpowiedz": "umiarkowany przejściowy (ciepły, przejściowy między morskim a kontynentalnym)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Np. środkowa Polska.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-umiejetnosci-01",
+   "dzial": "umiejetnosci"
+  }
+ ]
+}
