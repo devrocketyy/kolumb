@@ -27,6 +27,10 @@ Tlenki metali aktywnych to tlenki zasadowe. Z wodą dają wodorotlenki, reagują
 
 W okresie charakter zmienia się od zasadowego do kwasowego: tlenek sodu w trzecim okresie jest silnie zasadowy, tlenek chloru siedem — silnie kwasowy.
 
+Mini-obliczenie. Ile gramów wodorotlenku wapnia powstanie z pięciu i sześciu dziesiątych grama tlenku wapnia? Masa molowa CaO to pięćdziesiąt sześć — jedna dziesiąta mola. Masa molowa Ca(OH)₂ to siedemdziesiąt cztery. Powstanie siedem i cztery dziesiąte grama.
+
+Typowy błąd: przekonanie, że każdy tlenek kwasowy reaguje z wodą. Krzemionka, SiO₂, jest tlenkiem kwasowym — reaguje z zasadami w wysokiej temperaturze — ale w wodzie się nie rozpuszcza. Dlatego piasek leży spokojnie na dnie morza.
+
 [pytanie: so3]
 
 Sprawdź się. Jaki charakter ma tlenek siarki sześć, SO₃?
@@ -59,6 +63,10 @@ Tlenek cynku z kwasem solnym daje chlorek cynku i wodę. Z wodorotlenkiem sodu i
 
 Są też tlenki obojętne, które nie reagują ani z kwasami, ani z zasadami, ani z wodą: tlenek węgla dwa i tlenek azotu dwa.
 
+Zapiszmy amfoteryczność tlenku glinu. Z kwasem: Al₂O₃ plus sześć HCl daje dwa AlCl₃ i trzy H₂O. Z zasadą i wodą: Al₂O₃ plus dwa NaOH plus trzy H₂O daje dwa Na[Al(OH)₄], tetrahydroksoglinian sodu.
+
+Tlenek węgla jest obojętny, ale wcale nie jest niegroźny. To silna trucizna i dobry reduktor — w wielkim piecu redukuje tlenki żelaza do metalu.
+
 [pytanie: amfoteryczny]
 
 Sprawdź się. Który tlenek reaguje zarówno z HCl, jak i z NaOH?
@@ -88,6 +96,8 @@ Obojętny. Nie reaguje ani z kwasami, ani z zasadami.
 Wodorki niemetali też różnią się zachowaniem w wodzie. Chlorowodór daje kwas solny. Siarkowodór — słaby kwas. Amoniak — odczyn zasadowy. A metan w wodzie się praktycznie nie rozpuszcza i odczynu nie zmienia.
 
 Wodorki metali aktywnych, jak wodorek sodu, reagują z wodą gwałtownie: powstaje wodorotlenek i wodór.
+
+Istnieje też grupa tlenków nietypowych: nadtlenki. W nadtlenku sodu, Na₂O₂, tlen ma stopień utlenienia minus jeden. Z wodą nadtlenek daje wodorotlenek i tlen — dlatego stosowano go w aparatach oddechowych na okrętach podwodnych.
 
 [pytanie: podsumowanie]
 

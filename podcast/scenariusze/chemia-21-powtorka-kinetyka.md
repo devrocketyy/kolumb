@@ -23,6 +23,10 @@ Dzień dobry, tu IndexLab. Powtórka działu o energii, szybkości i równowadze
 
 Reakcja: N₂ plus trzy H₂ daje dwa NH₃. Delta H wynosi około minus dziewięćdziesiąt dwa kilodżule. Na dwa mole amoniaku.
 
+Mini-obliczenie. Ile ciepła wydzieli się przy syntezie trzydziestu czterech gramów amoniaku? Masa molowa NH₃ to siedemnaście — mamy dwa mole. Równanie termochemiczne dotyczy właśnie dwóch moli, więc wydzieli się dziewięćdziesiąt dwa kilodżule.
+
+Ten sam przykład pokazuje regułę: jeśli równanie pomnożysz przez dwa, delta H też mnożysz przez dwa. Jeśli odwrócisz, zmieniasz znak. Rozkład dwóch moli amoniaku na azot i wodór pochłonie więc dziewięćdziesiąt dwa kilodżule.
+
 [pytanie: delta]
 
 Sprawdź się. Ile ciepła wydziela się przy powstaniu jednego mola amoniaku, jeśli ΔH = −92 kJ dla równania z dwoma molami?
@@ -40,6 +44,10 @@ Czterdzieści sześć kilodżuli. Połowa wartości z równania.
 Stała równowagi: stężenie amoniaku do kwadratu przez stężenie azotu razy stężenie wodoru do sześcianu.
 
 Przykład: w równowadze stężenie azotu jeden, wodoru dwa, amoniaku dwa mole na decymetr sześcienny. K równa się cztery przez jeden razy osiem — pół.
+
+Typowy błąd: wpisywanie do wyrażenia na stałą równowagi współczynników jako mnożników, a nie wykładników. Dwa NH₃ w równaniu oznacza stężenie amoniaku do kwadratu, a nie razy dwa.
+
+Co się stanie, gdy dodamy azotu? Układ zużyje jego część, równowaga przesunie się w prawo i przybędzie amoniaku. Ale wartość stałej K się nie zmieni — zmieni się tylko skład mieszaniny. K zależy wyłącznie od temperatury.
 
 [pytanie: wyrazenie]
 
@@ -70,6 +78,10 @@ Pół. Cztery przez osiem.
 Teraz paradoks przemysłu. Reakcja jest egzotermiczna, więc niska temperatura przesuwa równowagę w stronę amoniaku. Ale w niskiej temperaturze reakcja jest strasznie wolna.
 
 Dlatego stosuje się kompromis: około czterystu pięćdziesięciu stopni, wysokie ciśnienie, około dwustu atmosfer, i katalizator żelazowy. Wysokie ciśnienie przesuwa równowagę w prawo, a katalizator przyspiesza jej osiągnięcie.
+
+Nawet w tych warunkach w jednym przejściu przez reaktor reaguje tylko kilkanaście procent gazów. Dlatego amoniak skrapla się i odbiera, a nieprzereagowany azot i wodór zawraca do reaktora. Usuwanie produktu dodatkowo przesuwa równowagę w prawo.
+
+Historia tej reakcji ma też ciemną stronę. Fritz Haber dostał Nagrodę Nobla w tysiąc dziewięćset osiemnastym roku za syntezę amoniaku, ale ten sam człowiek kierował użyciem gazów bojowych w pierwszej wojnie światowej. Amoniak służył też do produkcji materiałów wybuchowych. Chemia daje narzędzia; jak ich użyć, decydują ludzie.
 
 [pytanie: kompromis]
 
