@@ -118,9 +118,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **43. Alkany i cykloalkany** `c-alkany` ✅
 
-**44. Alkeny i alkiny** `c-alkeny` ⬜
+**44. Alkeny i alkiny** `c-alkeny` ✅
 
-**45. Węglowodory aromatyczne** `c-areny` ⬜
+**45. Węglowodory aromatyczne** `c-areny` ✅
 
 **46. Powtórka działu: Wstęp do chemii organicznej i węglowodory** `organiczna` ⬜
 
