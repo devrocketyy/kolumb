@@ -839,6 +839,60 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Wskaźnik starości",
+   "material": "Tekst autorski. W Polsce udział dzieci (0–14 lat) wynosi ok. 15%, a osób 65+ ok. 20%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik starości (osoby 65+ na 100 dzieci 0–14). Wynik zaokrąglij do 1.",
+     "odpowiedz": "ok. 133",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "20 / 15 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj typ piramidy wieku odpowiadający takiej strukturze.",
+     "odpowiedz": "regresywna (urnowa) — starzejące się społeczeństwo",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wąska podstawa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-34",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Dzietność w Polsce",
+   "material": "Tekst autorski. Współczynnik dzietności w Polsce wynosi ok. 1,16.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, co oznacza ta wartość dla przyszłej liczby ludności.",
+     "odpowiedz": "Jest znacznie niższa od 2,1 (prostej zastępowalności pokoleń) — każde kolejne pokolenie będzie mniej liczne, ludność będzie maleć.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zastępowalność.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa działania polityki prorodzinnej.",
+     "odpowiedz": "Świadczenia na dzieci, żłobki i przedszkola, ulgi podatkowe, urlopy rodzicielskie, programy mieszkaniowe.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-35",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Ludność Nigerii",
    "material": "Tekst autorski. Kraj liczy ok. 230 mln mieszkańców, a współczynnik przyrostu naturalnego wynosi ok. 25‰.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -871,7 +925,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-34",
+   "id": "b-ludnosc-36",
    "dzial": "ludnosc"
   },
   {
@@ -898,7 +952,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-35",
+   "id": "b-ludnosc-37",
    "dzial": "ludnosc"
   },
   {
@@ -934,7 +988,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-36",
+   "id": "b-ludnosc-38",
    "dzial": "ludnosc"
   },
   {
@@ -961,7 +1015,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-37",
+   "id": "b-ludnosc-39",
    "dzial": "ludnosc"
   },
   {
@@ -997,7 +1051,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-38",
+   "id": "b-ludnosc-40",
    "dzial": "ludnosc"
   }
  ]

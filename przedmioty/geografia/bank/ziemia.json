@@ -596,6 +596,114 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Telefon do Tokio latem",
+   "material": "Tekst autorski. Latem w Polsce obowiązuje UTC+2, a w Tokio UTC+9. W Warszawie jest 15:00.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Podaj godzinę w Tokio.",
+     "odpowiedz": "22:00",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "+7 h.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-27",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Długość z czasu słonecznego",
+   "material": "Tekst autorski. Zimą (UTC+1) w miejscowości w Polsce czas urzędowy wynosi 12:00, a czas słoneczny 12:20.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz długość geograficzną miejscowości.",
+     "odpowiedz": "20°E",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "20 min = 5° na wschód od 15°E.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-28",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Słońce nad Warszawą",
+   "material": "Tekst autorski. Warszawa leży na ok. 52°15′N.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania w Warszawie 22 czerwca.",
+     "odpowiedz": "61°12′",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 52°15′ + 23°27′.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę równoleżnika, nad którym w tym dniu Słońce góruje w zenicie.",
+     "odpowiedz": "zwrotnik Raka (23°27′N)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przesilenie letnie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-29",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Murmańsk",
+   "material": "Tekst autorski. Murmańsk leży na ok. 68°58′N.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy w Murmańsku występuje noc polarna. Uzasadnij.",
+     "odpowiedz": "Tak — leży na północ od koła podbiegunowego (66°33′N).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Koło podbiegunowe.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego port w Murmańsku nie zamarza mimo dalekiego położenia na północy.",
+     "odpowiedz": "Docierają tam ciepłe wody Prądu Północnoatlantyckiego (jego odnogi — Prądu Nordkapskiego).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ciepły prąd.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-30",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Peryhelium w zimie",
+   "material": "Tekst autorski. Ziemia jest najbliżej Słońca (peryhelium) ok. 3 stycznia.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego mimo to na półkuli północnej w styczniu jest zima.",
+     "odpowiedz": "Pory roku wynikają z nachylenia osi Ziemi do płaszczyzny orbity, a nie z odległości od Słońca — w styczniu półkula N jest odchylona od Słońca, promienie padają pod małym kątem, a dzień jest krótki.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Nachylenie osi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-31",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Zgorzelcem i Terespolem",
    "material": "Tekst autorski. Zgorzelec leży na ok. 15°00′E, Terespol na ok. 23°40′E. Jest zima (obowiązuje czas UTC+1).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -619,7 +727,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-27",
+   "id": "b-ziemia-32",
    "dzial": "ziemia"
   },
   {
@@ -646,7 +754,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-28",
+   "id": "b-ziemia-33",
    "dzial": "ziemia"
   },
   {
@@ -673,7 +781,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-29",
+   "id": "b-ziemia-34",
    "dzial": "ziemia"
   },
   {
@@ -709,7 +817,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-30",
+   "id": "b-ziemia-35",
    "dzial": "ziemia"
   },
   {
@@ -736,7 +844,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-31",
+   "id": "b-ziemia-36",
    "dzial": "ziemia"
   },
   {
@@ -763,7 +871,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-32",
+   "id": "b-ziemia-37",
    "dzial": "ziemia"
   },
   {
@@ -781,7 +889,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-33",
+   "id": "b-ziemia-38",
    "dzial": "ziemia"
   }
  ]

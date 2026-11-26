@@ -461,6 +461,105 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Sieć kolejowa",
+   "material": "Tekst autorski. Długość linii kolejowych w Polsce wynosi ok. 19 000 km.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz gęstość sieci kolejowej w km na 100 km² (powierzchnia 312,7 tys. km²). Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 6,1 km/100 km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "19 000 / 3127.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj region Polski o największej gęstości sieci kolejowej.",
+     "odpowiedz": "Górny Śląsk (województwo śląskie)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przemysł.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-19",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Ropa naftowa",
+   "material": "Tekst autorski. Polska zużywa ok. 30 mln t ropy rocznie, a wydobywa ok. 1 mln t.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział importu w zaopatrzeniu w ropę. Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "ok. 96,7%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "29 / 30 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę miejscowości z największą rafinerią w Polsce.",
+     "odpowiedz": "Płock",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Orlen.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-20",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Energetyka wodna",
+   "material": "Tekst autorski. Elektrownie wodne wytwarzają ok. 2% energii elektrycznej w Polsce (ok. 165 TWh).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz produkcję energii w elektrowniach wodnych.",
+     "odpowiedz": "ok. 3,3 TWh",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "165 × 0,02.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego energetyka wodna w Polsce jest słabo rozwinięta.",
+     "odpowiedz": "Przeważają niziny — rzeki mają małe spadki, przepływy są niewielkie i zmienne; mało dogodnych miejsc na zbiorniki (góry tylko na południu).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Warunki przyrodnicze.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-21",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Wydajność pracy w przemyśle",
+   "material": "Tekst autorski. Wartość produkcji sprzedanej przemysłu wyniosła 1200 mld zł przy 3 mln zatrudnionych.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wartość produkcji na jednego zatrudnionego.",
+     "odpowiedz": "400 tys. zł",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1200 mld / 3 mln.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-22",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Struktura produkcji energii",
    "material": "Tekst autorski. W pewnym kraju wyprodukowano 160 TWh energii elektrycznej, w tym 88 TWh w elektrowniach węglowych, 16 TWh gazowych, 32 TWh wiatrowych, 16 TWh słonecznych i 8 TWh w innych źródłach.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -484,7 +583,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-19",
+   "id": "b-przemysl-23",
    "dzial": "przemysl"
   },
   {
@@ -511,7 +610,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-20",
+   "id": "b-przemysl-24",
    "dzial": "przemysl"
   },
   {
@@ -538,7 +637,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-21",
+   "id": "b-przemysl-25",
    "dzial": "przemysl"
   },
   {
@@ -565,7 +664,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-22",
+   "id": "b-przemysl-26",
    "dzial": "przemysl"
   }
  ]

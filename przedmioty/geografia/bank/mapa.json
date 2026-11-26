@@ -704,6 +704,150 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Współrzędne Zakopanego",
+   "material": "Tekst autorski. Punkt X ma współrzędne ok. 49°18′N, 19°57′E. Przyjmij 1° szerokości = 111 km.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę pasma górskiego, przy którym leży punkt X.",
+     "odpowiedz": "Tatry (Podhale, Zakopane)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Południe Polski.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość punktu X od równoleżnika 50°N mierzoną wzdłuż południka.",
+     "odpowiedz": "ok. 78 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "42′ = 0,7° × 111 km.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-28",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Rozciągłość Polski",
+   "material": "Tekst autorski. Skrajne punkty Polski leżą na 49°00′N i 54°50′N. Przyjmij 1° = 111 km.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz rozciągłość południkową Polski w km.",
+     "odpowiedz": "ok. 648 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "5°50′ ≈ 5,83° × 111 km.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-29",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Pole uprawne",
+   "material": "Tekst autorski. Pole ma w terenie wymiary 400 m × 250 m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię pola w hektarach.",
+     "odpowiedz": "10 ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "100 000 m².",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wymiary pola na mapie w skali 1:10 000.",
+     "odpowiedz": "4 cm × 2,5 cm",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 cm = 100 m.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-30",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Wysokość z obliczonego spadku",
+   "material": "Tekst autorski. Punkt A leży na wysokości 820 m n.p.m. Droga do punktu B ma długość poziomą 1,5 km i średni spadek 12% (w dół).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz wysokość punktu B.",
+     "odpowiedz": "640 m n.p.m.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "1500 m × 0,12 = 180 m; 820 − 180.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-31",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Marsz w dwóch kierunkach",
+   "material": "Tekst autorski. Turysta przeszedł 2 km na północ, a potem 2 km na wschód.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość w linii prostej od punktu startu. Wynik zaokrąglij do 0,01 km.",
+     "odpowiedz": "ok. 2,83 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "√(2² + 2²).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj azymut, w którym musi iść, aby wrócić najkrótszą drogą do startu.",
+     "odpowiedz": "225°",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Na południowy zachód.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-32",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Skala 1:20 000",
+   "material": "Tekst autorski. Mapa turystyczna ma skalę 1:20 000.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz skalę mianowaną.",
+     "odpowiedz": "1 cm — 200 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "20 000 cm.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz długość na mapie odcinka 2 km w terenie.",
+     "odpowiedz": "10 cm",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2000 / 200.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-33",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Wycieczka na wieżę widokową",
    "material": "Tekst autorski. Na mapie w skali 1:25 000 kościół leży na wysokości 212 m n.p.m., a wieża widokowa na wzgórzu — 347 m n.p.m. Odległość między nimi na mapie: 8 cm. Wieża leży od kościoła w kierunku azymutu 135°.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -736,7 +880,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-28",
+   "id": "b-mapa-34",
    "dzial": "mapa"
   },
   {
@@ -754,7 +898,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-29",
+   "id": "b-mapa-35",
    "dzial": "mapa"
   },
   {
@@ -781,7 +925,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-30",
+   "id": "b-mapa-36",
    "dzial": "mapa"
   },
   {
@@ -817,7 +961,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-31",
+   "id": "b-mapa-37",
    "dzial": "mapa"
   },
   {
@@ -844,7 +988,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-32",
+   "id": "b-mapa-38",
    "dzial": "mapa"
   },
   {
@@ -871,7 +1015,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-33",
+   "id": "b-mapa-39",
    "dzial": "mapa"
   },
   {
@@ -889,7 +1033,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-34",
+   "id": "b-mapa-40",
    "dzial": "mapa"
   }
  ]

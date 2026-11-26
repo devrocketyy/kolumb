@@ -344,6 +344,51 @@
    "dzial": "rolnictwo"
   },
   {
+   "tytul": "Jabłka z Polski",
+   "material": "Tekst autorski. Polska produkuje ok. 4 mln t jabłek, a cała Unia Europejska — ok. 12 mln t.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział Polski w produkcji jabłek w UE. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 33%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4 / 12 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa czynniki rozwoju sadownictwa w okolicach Grójca.",
+     "odpowiedz": "Bliskość rynku zbytu (Warszawa), tradycja, przechowalnie i przetwórnie, odpowiednie gleby i klimat, doświadczeni sadownicy.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-13",
+   "dzial": "rolnictwo"
+  },
+  {
+   "tytul": "Warunki przyrodnicze rolnictwa",
+   "material": "Tekst autorski. W gminie A dominują gleby klasy II–III, okres wegetacji trwa 220 dni, teren jest równinny. W gminie B — gleby klasy V–VI, 190 dni, teren pagórkowaty.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, która gmina ma lepsze warunki do intensywnej uprawy zbóż. Uzasadnij dwoma argumentami.",
+     "odpowiedz": "Gmina A — żyźniejsze gleby i dłuższy okres wegetacji, a równinny teren ułatwia mechanizację.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Porównanie warunków.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-rolnictwo-14",
+   "dzial": "rolnictwo"
+  },
+  {
    "tytul": "Plony pszenicy",
    "material": "Tekst autorski. W województwie zebrano 4,5 mln t zbóż z powierzchni 750 tys. ha.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -367,7 +412,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-13",
+   "id": "b-rolnictwo-15",
    "dzial": "rolnictwo"
   },
   {
@@ -394,7 +439,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-14",
+   "id": "b-rolnictwo-16",
    "dzial": "rolnictwo"
   }
  ]
