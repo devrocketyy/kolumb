@@ -1631,6 +1631,105 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Skala z odległości 18 km",
+   "material": "Tekst autorski. Odległość 18 km w terenie wynosi na mapie 7,2 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz skalę mapy.",
+     "odpowiedz": "1:250 000",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 800 000 cm / 7,2.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-70",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Droga a linia prosta",
+   "material": "Tekst autorski. Droga między wsiami ma 14 km, a odległość w linii prostej — 10 km.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik wydłużenia drogi (długość drogi / odległość w linii prostej).",
+     "odpowiedz": "1,4",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "14 / 10.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedną przyczynę przyrodniczą wydłużenia drogi.",
+     "odpowiedz": "Np. jezioro, bagno, rzeka bez mostu lub strome wzniesienie na trasie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przeszkoda terenowa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-71",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Staw na mapie 1:50 000",
+   "material": "Tekst autorski. Na mapie w skali 1:50 000 staw zajmuje 0,6 cm².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię stawu w hektarach.",
+     "odpowiedz": "15 ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,6 × 25 ha.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-72",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Stok narciarski",
+   "material": "Tekst autorski. Stok narciarski pokonuje 450 m różnicy wysokości na odcinku poziomym 1,5 km.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średni spadek stoku w procentach.",
+     "odpowiedz": "30%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "450 / 1500 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-73",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Różnica wysokości ze spadku",
+   "material": "Tekst autorski. Droga ma średni spadek 4% na odcinku poziomym 2,5 km.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz różnicę wysokości między końcami drogi.",
+     "odpowiedz": "100 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2500 × 0,04.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-74",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Jezioro na mapie 1:50 000",
    "material": "Tekst autorski. Na mapie w skali 1:50 000 powierzchnia jeziora, zmierzona metodą kratową, wynosi 6 cm².",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1654,7 +1753,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-70",
+   "id": "b-mapa-75",
    "dzial": "mapa"
   },
   {
@@ -1690,7 +1789,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-71",
+   "id": "b-mapa-76",
    "dzial": "mapa"
   },
   {
@@ -1717,7 +1816,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-72",
+   "id": "b-mapa-77",
    "dzial": "mapa"
   },
   {
@@ -1744,7 +1843,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-73",
+   "id": "b-mapa-78",
    "dzial": "mapa"
   },
   {
@@ -1762,7 +1861,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-74",
+   "id": "b-mapa-79",
    "dzial": "mapa"
   }
  ]

@@ -749,6 +749,60 @@
    "dzial": "rolnictwo"
   },
   {
+   "tytul": "Pszenica: świat i Polska",
+   "material": "Tekst autorski. Średni plon pszenicy na świecie wynosi ok. 35 dt/ha, a w Polsce ok. 50 dt/ha.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy plon w Polsce jest wyższy. Wynik zaokrąglij do 0,01.",
+     "odpowiedz": "ok. 1,43 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "50 / 35.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-rolnictwo-30",
+   "dzial": "rolnictwo"
+  },
+  {
+   "tytul": "Akwakultura Chin",
+   "material": "Tekst autorski. Chiny produkują ok. 70 mln t ryb i owoców morza w akwakulturze, a cały świat ok. 130 mln t.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział Chin. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 54%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "70 / 130 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-rolnictwo-31",
+   "dzial": "rolnictwo"
+  },
+  {
+   "tytul": "Ojczyzna kawy",
+   "material": "Tekst autorski. Kawa pochodzi z Etiopii, a dziś najwięcej produkuje jej Brazylia.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę regionu Brazylii z najlepszymi glebami pod kawę.",
+     "odpowiedz": "Wyżyna Brazylijska (gleby terra roxa)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Terra roxa.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-rolnictwo-32",
+   "dzial": "rolnictwo"
+  },
+  {
    "tytul": "Plony pszenicy",
    "material": "Tekst autorski. W województwie zebrano 4,5 mln t zbóż z powierzchni 750 tys. ha.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -772,7 +826,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-30",
+   "id": "b-rolnictwo-33",
    "dzial": "rolnictwo"
   },
   {
@@ -799,7 +853,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-31",
+   "id": "b-rolnictwo-34",
    "dzial": "rolnictwo"
   }
  ]

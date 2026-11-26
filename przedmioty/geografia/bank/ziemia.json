@@ -1388,6 +1388,87 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Górowanie na Helu",
+   "material": "Tekst autorski. Hel leży na ok. 18°48′E. Obowiązuje czas zimowy (UTC+1).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz godzinę górowania Słońca na Helu w czasie urzędowym.",
+     "odpowiedz": "11:44:48",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "3°48′ = 228′ × 4 s = 15 min 12 s przed 12:00.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-65",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Nowy Jork wieczorem",
+   "material": "Tekst autorski. Zimą w Warszawie (UTC+1) jest 20:00. Nowy Jork stosuje zimą UTC−5.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Podaj godzinę w Nowym Jorku.",
+     "odpowiedz": "14:00",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "−6 h.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-66",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Słońce nad Kapsztadem",
+   "material": "Tekst autorski. Kapsztad leży na ok. 34°S.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania 21 marca i podaj stronę nieba.",
+     "odpowiedz": "56°, po stronie północnej",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 34°.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-67",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Szerokość z wysokości Słońca w marcu",
+   "material": "Tekst autorski. 21 marca w punkcie na półkuli północnej Słońce górowało na wysokości 70°.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz szerokość geograficzną punktu.",
+     "odpowiedz": "20°N",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 70°.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy w tym punkcie Słońce może górować w zenicie. Uzasadnij.",
+     "odpowiedz": "Tak — punkt leży między zwrotnikami (20°N < 23°27′N).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Strefa międzyzwrotnikowa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-68",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Krakowem",
    "material": "Tekst autorski. Kraków leży na ok. 50°N.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1411,7 +1492,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-65",
+   "id": "b-ziemia-69",
    "dzial": "ziemia"
   },
   {
@@ -1447,7 +1528,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-66",
+   "id": "b-ziemia-70",
    "dzial": "ziemia"
   },
   {
@@ -1474,7 +1555,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-67",
+   "id": "b-ziemia-71",
    "dzial": "ziemia"
   },
   {
@@ -1501,7 +1582,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-68",
+   "id": "b-ziemia-72",
    "dzial": "ziemia"
   },
   {
@@ -1519,7 +1600,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-69",
+   "id": "b-ziemia-73",
    "dzial": "ziemia"
   }
  ]

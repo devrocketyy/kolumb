@@ -1179,6 +1179,51 @@
    ],
    "id": "b-atmosfera-44",
    "dzial": "atmosfera"
+  },
+  {
+   "tytul": "Kilimandżaro",
+   "material": "Tekst autorski. U podnóża Kilimandżaro (800 m n.p.m.) temperatura wynosi 25°C. Szczyt ma 5895 m n.p.m. Przyjmij spadek 0,6°C/100 m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz temperaturę na szczycie. Wynik zaokrąglij do 0,1°C.",
+     "odpowiedz": "ok. −5,6°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "5095 m × 0,006 = 30,6; 25 − 30,6.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego na Kilimandżaro leżą lodowce, choć góra stoi blisko równika.",
+     "odpowiedz": "Temperatura spada z wysokością — na szczycie jest poniżej 0°C mimo położenia w strefie gorącej.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Piętrowość klimatu.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atmosfera-45",
+   "dzial": "atmosfera"
+  },
+  {
+   "tytul": "Opady lipcowe na Helu",
+   "material": "Tekst autorski. Roczna suma opadów na Helu wynosi 560 mm, a w lipcu spada 75 mm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział opadów lipcowych w sumie rocznej. Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "ok. 13,4%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "75 / 560 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-atmosfera-46",
+   "dzial": "atmosfera"
   }
  ]
 }
