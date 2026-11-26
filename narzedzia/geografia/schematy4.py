@@ -40,53 +40,86 @@ S['g-atmosfera'] = [
       uwaga='Algorytm: 1) wznoszenie do poziomu kondensacji 1°C/100 m, 2) dalej 0,6°C/100 m do grzbietu, 3) opadanie 1°C/100 m. Wynik zawsze sprawdzaj: po zawietrznej musi być cieplej.'),
 ]
 
+import math
+
+
+def strz(x1, y1, x2, y2, cls='s', g=7):
+    a = math.atan2(y2 - y1, x2 - x1)
+    f = 'hotf' if cls == 'hot' else 'coldf' if cls == 'cold' else 'd'
+    return (f'<path class="{cls}" d="M{x1:.1f} {y1:.1f} L{x2:.1f} {y2:.1f}"/><path class="{f}" d="M{x2:.1f} {y2:.1f} '
+            f'L{x2 - g * math.cos(a - 0.45):.1f} {y2 - g * math.sin(a - 0.45):.1f} L{x2 - g * math.cos(a + 0.45):.1f} {y2 - g * math.sin(a + 0.45):.1f} Z"/>')
+
+
+def _panel(x0, dzien):
+    """Panel bryzy: ląd po lewej, morze po prawej (szer. 190)."""
+    o = f'<rect class="gn" x="{x0}" y="20" width="190" height="210"/>'
+    o += f'<path class="gl" d="M{x0} 230 V186 Q{x0 + 50} 182 {x0 + 95} 190 V230 Z"/><rect class="gw2" x="{x0 + 95}" y="190" width="95" height="40"/>'
+    o += ''.join(f'<path class="cold" style="stroke-width:1.2" d="M{x0 + 105 + i * 20} 196 q5 -4 10 0"/>' for i in range(4))
+    o += f'<path class="f" d="M{x0 + 20} 186 v-10 l6 -6 l6 6 v10 Z"/><path class="gf2" d="M{x0 + 50} 186 l-6 0 l6 -14 l6 14 Z"/>'
+    if dzien:
+        o += f'<circle class="gm2" cx="{x0 + 165}" cy="42" r="11"/>'
+        o += strz(x0 + 140, 175, x0 + 60, 175) + strz(x0 + 45, 168, x0 + 45, 90) + strz(x0 + 60, 80, x0 + 140, 80) + strz(x0 + 150, 90, x0 + 150, 165)
+        ln, mo = ('N', '28°C'), ('W', '18°C')
+    else:
+        o += f'<path class="gk" d="M{x0 + 160} 32 a12 12 0 1 0 12 16 a9 9 0 1 1 -12 -16 Z"/>'
+        o += strz(x0 + 60, 175, x0 + 140, 175) + strz(x0 + 150, 168, x0 + 150, 90) + strz(x0 + 140, 80, x0 + 60, 80) + strz(x0 + 45, 90, x0 + 45, 165)
+        ln, mo = ('W', '12°C'), ('N', '17°C')
+    o += f'<text class="tb" x="{x0 + 45}" y="215" text-anchor="middle">{ln[0]} · {ln[1]}</text><text class="tb" x="{x0 + 145}" y="215" text-anchor="middle">{mo[0]} · {mo[1]}</text>'
+    o += f'<text class="tb" x="{x0 + 95}" y="250" text-anchor="middle">{"DZIEŃ — bryza morska" if dzien else "NOC — bryza lądowa"}</text>'
+    return o
+
+
 S['g-cisnienie'] = [
  dict(typ='rysunek', tytul='Bryza dzienna i nocna',
-      svg=('<path class="f" d="M10 150 H190 V180 H10 Z"/><path class="s2" d="M10 150 H190" opacity="0"/>'
-           '<rect class="d" x="10" y="150" width="0" height="0"/>'
-           '<path d="M100 150 H190 V180 H100 Z" fill="#64b5f6"/>'
-           '<path class="s" d="M150 140 H40 M50 133 L40 140 L50 147 M40 135 V60 M140 60 H40 M150 60 V135 M143 125 L150 135 L157 125"/>'
-           '<text class="t" x="70" y="30">DZIEŃ</text>'
-           '<path class="f" d="M210 150 H390 V180 H210 Z"/>'
-           '<path d="M300 150 H390 V180 H300 Z" fill="#64b5f6"/>'
-           '<path class="s" d="M240 140 H350 M340 133 L350 140 L340 147 M350 135 V60 M250 60 H350 M240 60 V135 M233 125 L240 135 L247 125"/>'
-           '<text class="t" x="270" y="30">NOC</text>'),
-      znaczniki=[(55, 165, 40, 210, 'Ląd w dzień', 'Nagrzewa się szybciej — powietrze wznosi się, niż'),
-                 (145, 165, 140, 210, 'Morze w dzień', 'Chłodniejsze — wyż'),
-                 (95, 140, 95, 120, 'Bryza morska', 'Przy ziemi wiatr od morza'),
-                 (255, 165, 240, 240, 'Ląd nocą', 'Szybko się wychładza — wyż'),
-                 (345, 165, 350, 240, 'Morze nocą', 'Cieplejsze — niż'),
-                 (295, 140, 295, 120, 'Bryza lądowa', 'Przy ziemi wiatr od lądu')],
-      opis='Cyrkulacja bryzowa nad wybrzeżem w dzień i w nocy.',
-      uwaga='Wiatr zawsze wieje przy ziemi od wyżu do niżu — od chłodniejszego do cieplejszego podłoża.'),
+      svg=_panel(5, True) + _panel(205, False) + '<text class="ts" x="200" y="285" text-anchor="middle">W — wyż, N — niż; temperatura podłoża po południu i przed świtem</text>',
+      znaczniki=[(50, 130, 70, 120, 'Wznoszenie', 'Nad nagrzanym lądem powietrze się wznosi — niż'),
+                 (100, 175, 100, 155, 'Bryza morska', 'Przy ziemi wiatr od morza ku lądowi'),
+                 (355, 130, 335, 120, 'Wznoszenie', 'Nocą nad cieplejszym morzem — niż'),
+                 (300, 175, 300, 155, 'Bryza lądowa', 'Przy ziemi wiatr od lądu ku morzu')],
+      opis='Cyrkulacja bryzowa nad wybrzeżem w ciągu doby.',
+      uwaga='Ląd nagrzewa się i stygnie szybciej niż woda. Wiatr przy ziemi wieje od wyżu do niżu, czyli od chłodniejszego podłoża ku cieplejszemu.'),
 ]
 
+_Q = [90, 110, 170, 200, 130, 100, 95, 85, 70, 75, 85, 95]
+_qy = lambda q: 250 - q * 1.0
+_sr = sum(_Q) / 12
 S['g-rzeki'] = [
  dict(typ='rysunek', tytul='Ustrój rzeki nizinnej (śnieżny)',
-      svg=('<path class="s" d="M40 260 H380 M40 260 V30"/>'
-           + ''.join(f'<rect style="fill:#64b5f6" x="{48+i*27}" y="{260-h}" width="20" height="{h}" fill="#64b5f6"/>' for i, h in enumerate([90,110,170,200,130,100,95,85,70,75,85,95]))
-           + ''.join(f'<text class="t" x="{52+i*27}" y="278">{m}</text>' for i, m in enumerate('I II III IV V VI VII VIII IX X XI XII'.split()))
-           + '<text class="t" x="45" y="25">przepływ</text>'),
-      znaczniki=[(137, 60, 160, 40, 'Wezbranie roztopowe', 'Marzec–kwiecień: topnienie śniegu'),
-                 (264, 190, 270, 150, 'Niżówka', 'Późne lato–wrzesień: parowanie i transpiracja'),
-                 (210, 165, 200, 120, 'Wezbranie letnie', 'Słabe — opady nawalne')],
-      opis='Średnie miesięczne przepływy rzeki o ustroju śnieżnym, dane autorskie.',
-      uwaga='Ustrój deszczowo-śnieżny ma dodatkowe wyraźne wezbranie letnie; górski — maksima wiosną i latem.'),
+      svg=(''.join(f'<path class="dash" d="M50 {_qy(q):.0f} H385"/><path class="s" d="M46 {_qy(q):.0f} H50"/><text class="ts" x="44" y="{_qy(q) + 3:.0f}" text-anchor="end">{q}</text>' for q in (50, 100, 150, 200))
+           + ''.join(f'<rect class="gw2" x="{55 + i * 27.5:.1f}" y="{_qy(q):.0f}" width="21" height="{q}"/>' for i, q in enumerate(_Q))
+           + f'<path class="hot" d="M50 {_qy(_sr):.1f} H385" style="stroke-dasharray:6 4"/><text class="ts" x="383" y="{_qy(_sr) - 5:.0f}" text-anchor="end">średni przepływ ok. 109 m³/s</text>'
+           + '<path class="s" d="M50 30 V250 H385"/>'
+           + ''.join(f'<text class="ts" x="{65.5 + i * 27.5:.1f}" y="264" text-anchor="middle">{m}</text>' for i, m in enumerate('I II III IV V VI VII VIII IX X XI XII'.split()))
+           + '<text class="ts" x="8" y="22">Q [m³/s]</text>'),
+      znaczniki=[(148, _qy(200), 190, 40, 'Wezbranie roztopowe', 'Marzec–kwiecień: topnienie śniegu, gleba jeszcze zamarznięta'),
+                 (286, _qy(70), 300, 120, 'Niżówka', 'Wrzesień: duże parowanie i transpiracja'),
+                 (215, _qy(95), 240, 175, 'Lato', 'Opady nawalne dają tylko krótkie, małe wezbrania')],
+      opis='Średnie miesięczne przepływy rzeki o ustroju śnieżnym (dane autorskie).',
+      uwaga='Ustrój śnieżny: jedno wyraźne maksimum wiosną. Śnieżno-deszczowy: dodatkowe wezbranie letnie. Górski (np. Dunajec): wezbrania wiosną i latem.'),
 ]
 
+_mc = ('<rect class="gt" x="0" y="0" width="400" height="300"/>'
+       '<circle class="gt" cx="135" cy="150" r="128" style="stroke:var(--text-2);stroke-width:1"/>'
+       '<circle class="gc" cx="135" cy="150" r="95" opacity="0.6"/>'
+       '<circle class="gs" cx="135" cy="150" r="62"/>'
+       '<circle class="gm2" cx="135" cy="150" r="28"/>'
+       + ''.join(f'<path class="s2" d="M135 150 L{135 + 135 * math.cos(math.radians(a)):.0f} {150 + 135 * math.sin(math.radians(a)):.0f}"/>' for a in (20, 110, 200, 290))
+       + ''.join(f'<rect class="d" x="{x}" y="{150 - h}" width="5" height="{h}"/>' for x, h in ((122, 20), (129, 28), (136, 24), (143, 16)))
+       + ''.join(f'<path class="d" d="M{x} {y} h10 v-8 l-3 -3 v3 l-3 -3 v3 l-4 -3 Z" opacity="0.8"/>' for x, y in ((95, 115), (172, 190)))
+       + ''.join(f'<rect class="f" x="{x}" y="{y}" width="8" height="5"/>' for x, y in ((70, 140), (78, 150), (190, 130), (200, 142), (120, 220), (130, 228)))
+       + ''.join(f'<path class="f" d="M{x} {y} v-4 l3 -3 l3 3 v4 Z"/>' for x, y in ((30, 150), (40, 100), (240, 170), (230, 220), (130, 40), (150, 270)))
+       # wykres cen gruntu
+       + '<path class="s" d="M280 200 V285 H395"/><path class="hot" d="M282 205 C300 260 330 275 392 280"/>'
+       + '<text class="ts" x="282" y="196">cena gruntu</text><text class="ts" x="393" y="296" text-anchor="end">odległość od centrum</text>')
 S['g-urbanizacja'] = [
- dict(typ='rysunek', tytul='Strefy w mieście (model koncentryczny)',
-      svg=('<circle class="d" cx="200" cy="150" r="135" fill="#e8f5e9"/>'
-           '<circle cx="200" cy="150" r="100" fill="#fff9c4" stroke="#999"/>'
-           '<circle cx="200" cy="150" r="65" fill="#ffe0b2" stroke="#999"/>'
-           '<circle cx="200" cy="150" r="30" fill="#ef9a9a" stroke="#999"/>'
-           '<text class="t" x="185" y="155">CBD</text>'),
-      znaczniki=[(205, 140, 330, 30, 'CBD', 'Centrum biznesowe: biura, banki, handel'),
-                 (200, 100, 370, 70, 'Strefa przejściowa', 'Stara zabudowa, przemysł, rewitalizacja'),
-                 (200, 65, 370, 110, 'Strefa mieszkaniowa', 'Bloki i kamienice'),
-                 (200, 25, 370, 150, 'Strefa podmiejska', 'Suburbia, domy jednorodzinne, centra handlowe')],
-      opis='Uproszczony model stref funkcjonalnych miasta.',
-      uwaga='Ceny gruntów i wysokość zabudowy są największe w CBD i maleją ku przedmieściom.'),
+ dict(typ='rysunek', tytul='Strefy w mieście (model koncentryczny)', svg=_mc,
+      znaczniki=[(135, 140, 280, 25, 'CBD', 'Centrum biznesu: biurowce, banki, handel'),
+                 (100, 112, 280, 60, 'Przejściowa', 'Stara zabudowa, dawny przemysł, rewitalizacja'),
+                 (205, 140, 280, 95, 'Mieszkaniowa', 'Kamienice i osiedla bloków'),
+                 (238, 175, 280, 130, 'Podmiejska', 'Suburbia: domy, centra handlowe, logistyka'),
+                 (300, 245, 330, 225, 'Renta', 'Ceny gruntów maleją wraz z odległością od centrum')],
+      opis='Uproszczony model stref funkcjonalnych miasta (Burgessa) i spadek cen gruntu.',
+      uwaga='W CBD ceny gruntu i wysokość zabudowy są największe — opłaca się tam tylko działalność o dużym dochodzie z m² (biura, banki, handel).'),
 ]
 
 S['g-energetyka'] = [
