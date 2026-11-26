@@ -126,6 +126,96 @@
    ],
    "id": "b-atmosfera-04",
    "dzial": "atmosfera"
+  },
+  {
+   "tytul": "Fen w Zakopanem",
+   "material": "Tekst autorski. Wilgotne powietrze o temperaturze 10°C wznosi się po południowym stoku Tatr od 700 m n.p.m. Kondensacja zaczyna się na 1200 m n.p.m., grzbiet ma 2200 m n.p.m. Po stronie północnej powietrze opada do Zakopanego (850 m n.p.m.). Przyjmij: powietrze suche 1°C/100 m, wilgotne 0,6°C/100 m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz temperaturę powietrza na grzbiecie.",
+     "odpowiedz": "–1°C",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "700→1200 m: −5°C (5°C); 1200→2200 m: −6°C → −1°C.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz temperaturę powietrza w Zakopanem.",
+     "odpowiedz": "12,5°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Opadanie suchoadiabatyczne 1350 m: −1 + 13,5.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego powietrze po stronie zawietrznej jest cieplejsze niż na tej samej wysokości po stronie dowietrznej.",
+     "odpowiedz": "Przy wznoszeniu część ochłodzenia równoważy ciepło kondensacji, a przy opadaniu powietrze (już suche) ogrzewa się szybciej — 1°C/100 m.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Różne gradienty.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-atmosfera-05",
+   "dzial": "atmosfera"
+  },
+  {
+   "tytul": "Wilgotność względna",
+   "material": "Tekst autorski. W powietrzu o temperaturze 20°C jest 8,6 g pary wodnej w 1 m³. Maksymalna wilgotność przy 20°C wynosi 17,3 g/m³, a przy 10°C — 9,4 g/m³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wilgotność względną powietrza.",
+     "odpowiedz": "ok. 50%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "8,6 / 17,3 × 100%.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy po ochłodzeniu tego powietrza do 10°C nastąpi kondensacja. Uzasadnij.",
+     "odpowiedz": "Nie — 8,6 g/m³ < 9,4 g/m³, powietrze nie osiągnie nasycenia.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Punkt rosy jest niższy niż 10°C.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atmosfera-06",
+   "dzial": "atmosfera"
+  },
+  {
+   "tytul": "Bryza nad Bałtykiem",
+   "material": "Tekst autorski. Słoneczny lipcowy dzień w Łebie: o 14:00 temperatura plaży wynosi 28°C, a powierzchni morza 18°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj kierunek wiatru (od morza czy od lądu) w ciągu dnia.",
+     "odpowiedz": "od morza (bryza morska)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Nad lądem niższe ciśnienie.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij mechanizm powstawania tego wiatru.",
+     "odpowiedz": "Ląd nagrzewa się szybciej niż woda; nad cieplejszym lądem powietrze wznosi się i tworzy się niż, nad chłodniejszym morzem — wyż; powietrze płynie od wyżu do niżu, czyli od morza.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Nocą odwrotnie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atmosfera-07",
+   "dzial": "atmosfera"
   }
  ]
 }

@@ -108,6 +108,87 @@
    ],
    "id": "b-hydrosfera-04",
    "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Przepływ rzeki",
+   "material": "Tekst autorski. W przekroju wodowskazowym koryto ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz przepływ wody w m³/s.",
+     "odpowiedz": "80 m³/s",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "40 × 2,5 × 0,8.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile km³ wody przepływa przez ten przekrój w ciągu roku (365 dni).",
+     "odpowiedz": "ok. 2,5 km³",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "80 × 31 536 000 s ≈ 2,52 mld m³.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-05",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Zasolenie zatoki",
+   "material": "Tekst autorski. Z 5 kg wody pobranej w Zatoce Gdańskiej po odparowaniu otrzymano 35 g soli.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz zasolenie wody w promilach.",
+     "odpowiedz": "7‰",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "35 g / 5000 g × 1000.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny niskiego zasolenia Bałtyku.",
+     "odpowiedz": "Duży dopływ wód rzecznych, małe parowanie w chłodnym klimacie, ograniczona wymiana wód z oceanem przez wąskie i płytkie Cieśniny Duńskie.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-06",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Ustrój rzeki",
+   "material": "Tekst autorski. Rzeka nizinna w Polsce ma najwyższe średnie przepływy w kwietniu, a najniższe we wrześniu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę tego typu ustroju rzecznego.",
+     "odpowiedz": "śnieżny (niwalny), słabo lub średnio rozwinięty",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wezbranie roztopowe.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij przyczynę niskich stanów wody we wrześniu.",
+     "odpowiedz": "Duże parowanie i transpiracja latem oraz zużycie wody przez rośliny — mimo opadów rzeka jest zasilana głównie wodami podziemnymi.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Niżówka letnio-jesienna.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-07",
+   "dzial": "hydrosfera"
   }
  ]
 }

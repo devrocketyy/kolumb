@@ -90,6 +90,60 @@
    ],
    "id": "b-przemysl-03",
    "dzial": "przemysl"
+  },
+  {
+   "tytul": "Struktura produkcji energii",
+   "material": "Tekst autorski. W pewnym kraju wyprodukowano 160 TWh energii elektrycznej, w tym 88 TWh w elektrowniach węglowych, 16 TWh gazowych, 32 TWh wiatrowych, 16 TWh słonecznych i 8 TWh w innych źródłach.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział źródeł odnawialnych (wiatr i słońce) w produkcji energii.",
+     "odpowiedz": "30%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "48 / 160 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj po jednej zalecie i wadzie energetyki wiatrowej.",
+     "odpowiedz": "Zaleta: brak emisji CO₂, darmowe paliwo; wada: niestabilność produkcji zależnej od pogody, hałas, wpływ na krajobraz i ptaki.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Po jednej.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-04",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Lokalizacja huty",
+   "material": "Tekst autorski. Huta aluminium powstała w Norwegii nad fiordem, z dala od złóż boksytu, obok dużej elektrowni wodnej.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, który czynnik lokalizacji zadecydował o położeniu huty.",
+     "odpowiedz": "Dostęp do taniej i dużej ilości energii elektrycznej z hydroelektrowni — produkcja aluminium (elektroliza) jest bardzo energochłonna; surowiec dowozi się tanio statkami.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Przemysł energochłonny.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy przemysł aluminiowy jest zorientowany na surowiec, czy na energię.",
+     "odpowiedz": "na energię",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Energochłonność.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-05",
+   "dzial": "przemysl"
   }
  ]
 }

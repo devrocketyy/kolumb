@@ -162,6 +162,69 @@
    ],
    "id": "b-ludnosc-05",
    "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Saldo migracji powiatu",
+   "material": "Tekst autorski. W powiecie mieszkającym 120 000 osób w ciągu roku zameldowało się 2400 osób, a wymeldowało 3000 osób. Urodziło się 1100 dzieci, zmarło 1500 osób.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz saldo migracji i współczynnik salda migracji (‰).",
+     "odpowiedz": "−600 osób; −5‰",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(2400 − 3000) / 120 000 × 1000.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz rzeczywisty przyrost ludności.",
+     "odpowiedz": "−1000 osób",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przyrost naturalny −400 + saldo −600.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj dwa możliwe skutki takich procesów dla powiatu.",
+     "odpowiedz": "Np. starzenie się ludności, wyludnianie wsi, spadek dochodów samorządu, zamykanie szkół.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-ludnosc-06",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Wskaźnik urbanizacji",
+   "material": "Tekst autorski. Kraj liczy 38 mln mieszkańców, z czego 22,8 mln mieszka w miastach.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik urbanizacji.",
+     "odpowiedz": "60%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "22,8 / 38 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, czym różni się suburbanizacja od reurbanizacji.",
+     "odpowiedz": "Suburbanizacja — przenoszenie się ludności i funkcji z centrum na przedmieścia; reurbanizacja — ponowny napływ do odnowionych centrów miast.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Fazy cyklu rozwoju miasta.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-07",
+   "dzial": "ludnosc"
   }
  ]
 }
