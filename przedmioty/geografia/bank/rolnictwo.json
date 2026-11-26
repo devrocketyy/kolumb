@@ -551,6 +551,42 @@
    "dzial": "rolnictwo"
   },
   {
+   "tytul": "Ziemia na pracującego",
+   "material": "Tekst autorski. W rolnictwie pracuje ok. 1,3 mln osób, a użytki rolne zajmują 14,3 mln ha.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię użytków rolnych przypadającą na jednego pracującego.",
+     "odpowiedz": "11 ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "14,3 / 1,3.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-rolnictwo-21",
+   "dzial": "rolnictwo"
+  },
+  {
+   "tytul": "Ziemniaki dawniej i dziś",
+   "material": "Tekst autorski. Zbiory ziemniaków w Polsce wynosiły ok. 36 mln t w 1990 r. i ok. 6 mln t w 2024 r.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik dynamiki (1990 = 100%). Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "ok. 16,7%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "6 / 36 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-rolnictwo-22",
+   "dzial": "rolnictwo"
+  },
+  {
    "tytul": "Plony pszenicy",
    "material": "Tekst autorski. W województwie zebrano 4,5 mln t zbóż z powierzchni 750 tys. ha.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -574,7 +610,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-21",
+   "id": "b-rolnictwo-23",
    "dzial": "rolnictwo"
   },
   {
@@ -601,7 +637,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-22",
+   "id": "b-rolnictwo-24",
    "dzial": "rolnictwo"
   }
  ]

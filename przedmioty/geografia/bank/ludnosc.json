@@ -1226,6 +1226,78 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Dzietność Nigru i Polski",
+   "material": "Tekst autorski. Współczynnik dzietności wynosi w Nigrze ok. 6,7, a w Polsce ok. 1,16.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy dzietność w Nigrze jest wyższa. Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 5,8 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "6,7 / 1,16.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny wysokiej dzietności w Nigrze.",
+     "odpowiedz": "Dominacja rolnictwa (dzieci jako siła robocza), niski poziom wykształcenia kobiet, wczesne małżeństwa, tradycje i religia, słaby dostęp do antykoncepcji, wysoka umieralność dzieci.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-48",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Przyrost ludności Indii",
+   "material": "Tekst autorski. Indie liczą ok. 1,44 mld mieszkańców, a roczny przyrost wynosi ok. 0,8%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczny przyrost liczby ludności w mln. Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 11,5 mln",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1440 × 0,008.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-49",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Ukraińcy w Polsce",
+   "material": "Tekst autorski. W Polsce mieszka ok. 1 mln obywateli Ukrainy przy 37,5 mln mieszkańców.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział obywateli Ukrainy w ludności Polski. Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "ok. 2,7%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 / 37,5 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa czynniki napływu Ukraińców do Polski.",
+     "odpowiedz": "Wojna w Ukrainie (od 2022 r.), praca i wyższe płace, bliskość geograficzna i kulturowa, sieci migracyjne.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-50",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Saldo migracji powiatu",
    "material": "Tekst autorski. W powiecie mieszkającym 120 000 osób w ciągu roku zameldowało się 2400 osób, a wymeldowało 3000 osób. Urodziło się 1100 dzieci, zmarło 1500 osób.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1258,7 +1330,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-48",
+   "id": "b-ludnosc-51",
    "dzial": "ludnosc"
   },
   {
@@ -1285,7 +1357,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-49",
+   "id": "b-ludnosc-52",
    "dzial": "ludnosc"
   },
   {
@@ -1321,7 +1393,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-50",
+   "id": "b-ludnosc-53",
    "dzial": "ludnosc"
   }
  ]

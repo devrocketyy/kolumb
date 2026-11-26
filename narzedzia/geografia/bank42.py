@@ -1,0 +1,43 @@
+# Bank zadań autorskich — geografia, część 42: typowe zadania maturalne (formuła 2023) — społeczeństwo, gospodarka, środowisko. Dane autorskie.
+BANK = {'ludnosc': [
+ B('Dzietność Nigru i Polski',
+   'Tekst autorski. Współczynnik dzietności wynosi w Nigrze ok. 6,7, a w Polsce ok. 1,16.',
+   T('oblicz', 1, 'Oblicz, ile razy dzietność w Nigrze jest wyższa. Wynik zaokrąglij do 0,1.', 'ok. 5,8 razy', '6,7 / 1,16.'),
+   T('podaj', 2, 'Podaj dwie przyczyny wysokiej dzietności w Nigrze.', 'Dominacja rolnictwa (dzieci jako siła robocza), niski poziom wykształcenia kobiet, wczesne małżeństwa, tradycje i religia, słaby dostęp do antykoncepcji, wysoka umieralność dzieci.', 'Wystarczą dwie.')),
+ B('Przyrost ludności Indii',
+   'Tekst autorski. Indie liczą ok. 1,44 mld mieszkańców, a roczny przyrost wynosi ok. 0,8%.',
+   T('oblicz', 1, 'Oblicz roczny przyrost liczby ludności w mln. Wynik zaokrąglij do 0,1.', 'ok. 11,5 mln', '1440 × 0,008.')),
+ B('Ukraińcy w Polsce',
+   'Tekst autorski. W Polsce mieszka ok. 1 mln obywateli Ukrainy przy 37,5 mln mieszkańców.',
+   T('oblicz', 1, 'Oblicz udział obywateli Ukrainy w ludności Polski. Wynik zaokrąglij do 0,1%.', 'ok. 2,7%', '1 / 37,5 × 100.'),
+   T('podaj', 2, 'Podaj dwa czynniki napływu Ukraińców do Polski.', 'Wojna w Ukrainie (od 2022 r.), praca i wyższe płace, bliskość geograficzna i kulturowa, sieci migracyjne.', 'Wystarczą dwa.')),
+], 'rolnictwo': [
+ B('Ziemia na pracującego',
+   'Tekst autorski. W rolnictwie pracuje ok. 1,3 mln osób, a użytki rolne zajmują 14,3 mln ha.',
+   T('oblicz', 1, 'Oblicz powierzchnię użytków rolnych przypadającą na jednego pracującego.', '11 ha', '14,3 / 1,3.')),
+ B('Ziemniaki dawniej i dziś',
+   'Tekst autorski. Zbiory ziemniaków w Polsce wynosiły ok. 36 mln t w 1990 r. i ok. 6 mln t w 2024 r.',
+   T('oblicz', 1, 'Oblicz wskaźnik dynamiki (1990 = 100%). Wynik zaokrąglij do 0,1%.', 'ok. 16,7%', '6 / 36 × 100.')),
+], 'przemysl': [
+ B('Turów',
+   'Tekst autorski. Kopalnia węgla brunatnego Turów leży przy granicy z Czechami i Niemcami.',
+   T('wyjasnij', 2, 'Wyjaśnij, dlaczego kopalnia stała się przedmiotem sporu z Czechami.', 'Odkrywka obniża poziom wód gruntowych (lej depresji) po stronie czeskiej — wysychały studnie; dochodzą hałas i pylenie.', 'Lej depresji.')),
+ B('Baterie z Polski',
+   'Tekst autorski. Pod Wrocławiem działa jedna z największych w Europie fabryk akumulatorów do samochodów elektrycznych.',
+   T('podaj', 2, 'Podaj dwa czynniki lokalizacji tej fabryki.', 'Specjalna strefa ekonomiczna i ulgi, wykwalifikowana siła robocza i uczelnie Wrocławia, bliskość producentów samochodów w Niemczech, autostrada A4.', 'Wystarczą dwa.')),
+ B('Transport morski',
+   'Tekst autorski. Ok. 80% światowego handlu (wg masy) przewozi się drogą morską.',
+   T('podaj', 2, 'Podaj dwie przyczyny dominacji transportu morskiego w handlu światowym.', 'Najniższy koszt przewozu tony ładunku na duże odległości, ogromna ładowność statków, konteneryzacja, połączenia między kontynentami.', 'Wystarczą dwie.')),
+], 'czlowiek': [
+ B('Tatrzański Park Narodowy',
+   'Tekst autorski. TPN o powierzchni ok. 211 km² odwiedza ok. 4 mln osób rocznie.',
+   T('oblicz', 1, 'Oblicz liczbę odwiedzających na 1 km² parku. Wynik zaokrąglij do 1000.', 'ok. 19 000', '4 000 000 / 211.'),
+   T('podaj', 2, 'Podaj dwa negatywne skutki tak dużego ruchu turystycznego.', 'Erozja szlaków, zaśmiecanie, płoszenie zwierząt, zadeptywanie roślinności, zatłoczenie i hałas.', 'Wystarczą dwa.')),
+ B('Strefy beztlenowe Bałtyku',
+   'Tekst autorski. W głębiach Bałtyku powstają rozległe strefy bez tlenu.',
+   T('wyjasnij', 2, 'Wyjaśnij przyczyny powstawania stref beztlenowych.', 'Dopływ biogenów (nawozy, ścieki) powoduje zakwity glonów, których rozkład zużywa tlen; słaba wymiana wód z oceanem i trwałe uwarstwienie (słona, cięższa woda przy dnie).', 'Eutrofizacja.')),
+], 'swiat': [
+ B('Dolina Krzemowa',
+   'Tekst autorski. W Dolinie Krzemowej (Kalifornia) skupiają się firmy z branży elektroniki i IT.',
+   T('podaj', 2, 'Podaj dwa czynniki lokalizacji przemysłu zaawansowanych technologii w Dolinie Krzemowej.', 'Uniwersytety i ośrodki badawcze (Stanford, Berkeley), wykwalifikowani specjaliści, kapitał (fundusze venture capital), atrakcyjny klimat i jakość życia.', 'Wystarczą dwa.')),
+]}

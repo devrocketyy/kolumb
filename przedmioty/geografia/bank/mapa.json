@@ -1253,6 +1253,87 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Gmina na mapie przeglądowej",
+   "material": "Tekst autorski. Na mapie w skali 1:100 000 gmina zajmuje 15 cm².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię gminy w km².",
+     "odpowiedz": "15 km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 cm = 1 km, 1 cm² = 1 km².",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-52",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Poziomice co 20 m",
+   "material": "Tekst autorski. Na mapie z cięciem poziomic co 20 m stok wznosi się od 200 m do 300 m n.p.m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile poziomic (łącznie z poziomicami 200 i 300 m) przecina stok.",
+     "odpowiedz": "6",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "200, 220, 240, 260, 280, 300.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-53",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Spadek z rozstawu poziomic",
+   "material": "Tekst autorski. Na mapie w skali 1:25 000 o cięciu poziomic 10 m dwie sąsiednie poziomice są oddalone o 0,5 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz spadek stoku w procentach.",
+     "odpowiedz": "8%",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "0,5 cm = 125 m; 10 / 125 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-54",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Punkt na siatce",
+   "material": "Tekst autorski. Punkt B leży 3 km na wschód i 3 km na północ od punktu A.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość AB. Wynik zaokrąglij do 0,01 km.",
+     "odpowiedz": "ok. 4,24 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "√(3² + 3²).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj azymut z A do B.",
+     "odpowiedz": "45°",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "NE.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-55",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Jezioro na mapie 1:50 000",
    "material": "Tekst autorski. Na mapie w skali 1:50 000 powierzchnia jeziora, zmierzona metodą kratową, wynosi 6 cm².",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1276,7 +1357,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-52",
+   "id": "b-mapa-56",
    "dzial": "mapa"
   },
   {
@@ -1312,7 +1393,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-53",
+   "id": "b-mapa-57",
    "dzial": "mapa"
   },
   {
@@ -1339,7 +1420,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-54",
+   "id": "b-mapa-58",
    "dzial": "mapa"
   },
   {
@@ -1366,7 +1447,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-55",
+   "id": "b-mapa-59",
    "dzial": "mapa"
   },
   {
@@ -1384,7 +1465,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-56",
+   "id": "b-mapa-60",
    "dzial": "mapa"
   }
  ]

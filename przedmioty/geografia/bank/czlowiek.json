@@ -344,6 +344,51 @@
    "dzial": "czlowiek"
   },
   {
+   "tytul": "Tatrzański Park Narodowy",
+   "material": "Tekst autorski. TPN o powierzchni ok. 211 km² odwiedza ok. 4 mln osób rocznie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz liczbę odwiedzających na 1 km² parku. Wynik zaokrąglij do 1000.",
+     "odpowiedz": "ok. 19 000",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4 000 000 / 211.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa negatywne skutki tak dużego ruchu turystycznego.",
+     "odpowiedz": "Erozja szlaków, zaśmiecanie, płoszenie zwierząt, zadeptywanie roślinności, zatłoczenie i hałas.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-czlowiek-14",
+   "dzial": "czlowiek"
+  },
+  {
+   "tytul": "Strefy beztlenowe Bałtyku",
+   "material": "Tekst autorski. W głębiach Bałtyku powstają rozległe strefy bez tlenu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przyczyny powstawania stref beztlenowych.",
+     "odpowiedz": "Dopływ biogenów (nawozy, ścieki) powoduje zakwity glonów, których rozkład zużywa tlen; słaba wymiana wód z oceanem i trwałe uwarstwienie (słona, cięższa woda przy dnie).",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Eutrofizacja.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-czlowiek-15",
+   "dzial": "czlowiek"
+  },
+  {
    "tytul": "Emisja CO₂",
    "material": "Tekst autorski. Kraj liczący 38 mln mieszkańców emituje rocznie 300 mln t CO₂, z czego 70% pochodzi z energetyki opartej na węglu.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -367,7 +412,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-14",
+   "id": "b-czlowiek-16",
    "dzial": "czlowiek"
   },
   {
@@ -394,7 +439,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-15",
+   "id": "b-czlowiek-17",
    "dzial": "czlowiek"
   }
  ]

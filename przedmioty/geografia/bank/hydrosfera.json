@@ -695,6 +695,33 @@
    "dzial": "hydrosfera"
   },
   {
+   "tytul": "Stan alarmowy",
+   "material": "Tekst autorski. Na wodowskazie stan wody wynosi 520 cm, a stan alarmowy — 450 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz przekroczenie stanu alarmowego.",
+     "odpowiedz": "70 cm",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "520 − 450.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny powodzi letnich w dorzeczu Odry i Wisły.",
+     "odpowiedz": "Długotrwałe, obfite opady (niże śródziemnomorskie), ulewy w górach, szybki spływ ze stoków, zabudowa terenów zalewowych, wylesianie.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-29",
+   "dzial": "hydrosfera"
+  },
+  {
    "tytul": "Przepływ rzeki",
    "material": "Tekst autorski. W przekroju wodowskazowym koryto ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -718,7 +745,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-29",
+   "id": "b-hydrosfera-30",
    "dzial": "hydrosfera"
   },
   {
@@ -745,7 +772,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-30",
+   "id": "b-hydrosfera-31",
    "dzial": "hydrosfera"
   },
   {
@@ -772,7 +799,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-31",
+   "id": "b-hydrosfera-32",
    "dzial": "hydrosfera"
   },
   {
@@ -799,7 +826,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-32",
+   "id": "b-hydrosfera-33",
    "dzial": "hydrosfera"
   },
   {
@@ -826,7 +853,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-33",
+   "id": "b-hydrosfera-34",
    "dzial": "hydrosfera"
   }
  ]

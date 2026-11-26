@@ -1046,6 +1046,69 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Szerokość Londynu",
+   "material": "Tekst autorski. 21 marca w Londynie Słońce górowało na wysokości 38°30′.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz szerokość geograficzną Londynu.",
+     "odpowiedz": "51°30′N",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 38°30′.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-48",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Rio de Janeiro",
+   "material": "Tekst autorski. Zimą w Warszawie (UTC+1) jest 9:00. Rio de Janeiro stosuje UTC−3.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Podaj godzinę w Rio de Janeiro.",
+     "odpowiedz": "5:00",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "−4 h.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj porę roku w Rio de Janeiro w styczniu.",
+     "odpowiedz": "lato",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Półkula południowa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-49",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Dzień w Gdańsku i Krakowie",
+   "material": "Tekst autorski. Gdańsk leży na ok. 54°N, a Kraków na ok. 50°N.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, gdzie 22 czerwca dzień jest dłuższy. Uzasadnij.",
+     "odpowiedz": "W Gdańsku — latem na półkuli N długość dnia rośnie wraz z szerokością geograficzną.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Oświetlenie Ziemi.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-50",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Krakowem",
    "material": "Tekst autorski. Kraków leży na ok. 50°N.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1069,7 +1132,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-48",
+   "id": "b-ziemia-51",
    "dzial": "ziemia"
   },
   {
@@ -1105,7 +1168,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-49",
+   "id": "b-ziemia-52",
    "dzial": "ziemia"
   },
   {
@@ -1132,7 +1195,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-50",
+   "id": "b-ziemia-53",
    "dzial": "ziemia"
   },
   {
@@ -1159,7 +1222,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-51",
+   "id": "b-ziemia-54",
    "dzial": "ziemia"
   },
   {
@@ -1177,7 +1240,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-52",
+   "id": "b-ziemia-55",
    "dzial": "ziemia"
   }
  ]

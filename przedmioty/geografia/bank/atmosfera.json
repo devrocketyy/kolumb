@@ -893,6 +893,60 @@
    "dzial": "atmosfera"
   },
   {
+   "tytul": "Amplituda dobowa na pustyni",
+   "material": "Tekst autorski. Na Saharze w ciągu doby zmierzono temperaturę maksymalną 40°C i minimalną 5°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz dobową amplitudę temperatury.",
+     "odpowiedz": "35°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "40 − 5.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przyczyny tak dużej amplitudy dobowej.",
+     "odpowiedz": "Bezchmurne niebo i suche powietrze — w dzień silne nagrzewanie, a nocą szybkie wypromieniowanie ciepła; brak roślinności i wody, piasek szybko się nagrzewa i stygnie.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Brak chmur i wilgoci.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atmosfera-34",
+   "dzial": "atmosfera"
+  },
+  {
+   "tytul": "Ciśnienie na Evereście",
+   "material": "Tekst autorski. Na szczycie Mount Everestu ciśnienie wynosi ok. 1/3 ciśnienia na poziomie morza (1013 hPa).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz przybliżone ciśnienie na szczycie.",
+     "odpowiedz": "ok. 340 hPa",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1013 / 3.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden skutek niskiego ciśnienia dla himalaistów.",
+     "odpowiedz": "Mniej tlenu — choroba wysokościowa, konieczność aklimatyzacji lub tlenu z butli.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jeden.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atmosfera-35",
+   "dzial": "atmosfera"
+  },
+  {
    "tytul": "Fen w Zakopanem",
    "material": "Tekst autorski. Wilgotne powietrze o temperaturze 10°C wznosi się po południowym stoku Tatr od 700 m n.p.m. Kondensacja zaczyna się na 1200 m n.p.m., grzbiet ma 2200 m n.p.m. Po stronie północnej powietrze opada do Zakopanego (850 m n.p.m.). Przyjmij: powietrze suche 1°C/100 m, wilgotne 0,6°C/100 m.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -925,7 +979,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atmosfera-34",
+   "id": "b-atmosfera-36",
    "dzial": "atmosfera"
   },
   {
@@ -952,7 +1006,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atmosfera-35",
+   "id": "b-atmosfera-37",
    "dzial": "atmosfera"
   },
   {
@@ -979,7 +1033,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atmosfera-36",
+   "id": "b-atmosfera-38",
    "dzial": "atmosfera"
   }
  ]
