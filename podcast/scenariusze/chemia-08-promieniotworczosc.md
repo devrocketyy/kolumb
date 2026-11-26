@@ -29,6 +29,10 @@ Przemiana beta minus: w jądrze neutron zamienia się w proton, a z jądra wylat
 
 Promieniowanie gamma: to fala elektromagnetyczna, sama energia. Nie zmienia ani liczby masowej, ani atomowej.
 
+Jest jeszcze przemiana beta plus. W jądrze proton zamienia się w neutron, a z jądra wylatuje pozyton, czyli dodatnio naładowany odpowiednik elektronu. Liczba masowa się nie zmienia, liczba atomowa maleje o jeden. Pozytony wykorzystuje się w medycynie, w tomografii PET, która pokazuje, gdzie w organizmie komórki zużywają najwięcej glukozy.
+
+Typowy błąd: przekonanie, że elektron w przemianie beta minus pochodzi z powłoki elektronowej. Pochodzi z jądra — powstaje w chwili przemiany neutronu w proton.
+
 [pytanie: alfa]
 
 Sprawdź się. Rad dwieście dwadzieścia sześć ulega przemianie alfa. Jaki nuklid powstaje?
@@ -57,6 +61,8 @@ Nie zmienia się. Zmienia się tylko liczba atomowa — rośnie o jeden.
 
 Cząstki alfa są ciężkie i wolne. Zatrzyma je kartka papieru albo naskórek. Beta przenika dalej — zatrzyma je cienka blacha aluminiowa. Gamma przenika najgłębiej — potrzebna jest gruba warstwa ołowiu albo betonu.
 
+Mała przenikliwość nie znaczy, że alfa jest niegroźne. Z zewnątrz zatrzyma je naskórek. Ale substancja promieniotwórcza wdychana lub połknięta napromieniowuje tkanki od środka, bez żadnej osłony. Dlatego groźny jest radon — gaz promieniotwórczy, który może gromadzić się w piwnicach i źle wietrzonych budynkach.
+
 [pytanie: przenikliwosc]
 
 Sprawdź się. Które promieniowanie zatrzyma zwykła kartka papieru?
@@ -76,6 +82,10 @@ A teraz zegar archeologa. Okres półtrwania to czas, po którym rozpada się po
 Po jednym okresie zostaje połowa. Po dwóch — ćwierć. Po trzech — jedna ósma.
 
 Żywe drzewo pobiera węgiel z powietrza i ma stałą zawartość węgla czternaście. Kiedy obumiera, przestaje go pobierać, a ten, który ma, powoli się rozpada.
+
+Mini-obliczenie z medycyny. Jod sto trzydzieści jeden, używany w leczeniu tarczycy, ma okres półtrwania około ośmiu dni. Ile zostanie z osiemdziesięciu miligramów po dwudziestu czterech dniach? Dwadzieścia cztery dni to trzy okresy półtrwania. Osiemdziesiąt, czterdzieści, dwadzieścia, dziesięć. Zostanie dziesięć miligramów.
+
+Typowy błąd: rozumowanie, że po dwóch okresach półtrwania izotop znika całkowicie, „bo dwie połówki dają całość”. Każdy kolejny okres zabiera połowę tego, co zostało, a nie połowę początkowej ilości.
 
 [pytanie: polowa]
 

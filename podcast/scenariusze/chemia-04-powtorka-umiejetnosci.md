@@ -22,6 +22,8 @@ Pierwsze polecenie brzmi: „Napisz w formie jonowej skróconej równanie reakcj
 
 Zanim cokolwiek napiszesz, podkreślasz: forma jonowa skrócona. Marmur to węglan wapnia — ciało stałe, nierozpuszczalne. Nie rozpisujesz go na jony. Kwas solny to mocny elektrolit — piszesz jony wodorowe. Produkty: jony wapnia, dwutlenek węgla i woda. Jony chlorkowe są obserwatorami, więc ich nie ma.
 
+Warto mieć listę słów, które w poleceniu zmieniają wszystko. „Cząsteczkowo” czy „jonowo”. „Wzór” czy „nazwa”. „Półstrukturalny” czy „sumaryczny”. „Z dokładnością do” — ile miejsc po przecinku. „Uzasadnij” — czyli nie wystarczy sama odpowiedź. Podkreślanie tych słów zajmuje kilka sekund, a chroni przed najgłupszymi stratami punktów.
+
 [pytanie: jonowe]
 
 Sprawdź się. Jak wygląda to równanie w formie jonowej skróconej?
@@ -58,6 +60,10 @@ Trzecie polecenie: „Oblicz objętość dwutlenku węgla w warunkach normalnych
 
 Model z drugiego odcinka. Równanie już masz. Masa czystego węglanu: dziewięć gramów. Masa molowa węglanu wapnia to sto gramów na mol, więc dziewięć setnych mola. Stosunek jeden do jednego — tyle samo moli dwutlenku węgla. Razy dwadzieścia dwa i cztery dziesiąte decymetra sześciennego.
 
+Te same dane można odwrócić. Gdyby z dziesięciu gramów skały wydzieliło się jeden przecinek siedemdziesiąt dziewięć dwie setne decymetra sześciennego CO₂, ile procent węglanu wapnia zawierała? Jeden przecinek siedem dziewięć dwa przez dwadzieścia dwa i cztery to osiem setnych mola. Węglanu też osiem setnych mola, czyli osiem gramów. Osiem gramów w dziesięciu — osiemdziesiąt procent.
+
+Typowy błąd: liczenie od masy całej próbki, jakby była czystym węglanem. Zawsze najpierw sprawdź, czy próbka zawiera zanieczyszczenia.
+
 [pytanie: obliczenia]
 
 Sprawdź się. Ile decymetrów sześciennych dwutlenku węgla otrzymasz?
@@ -77,6 +83,8 @@ I jeszcze sens wyniku. Gdyby wyszło dwadzieścia decymetrów sześciennych z dz
 Ostatnie polecenie: „Zaprojektuj doświadczenie, które pozwoli odróżnić marmur od gipsu. Wybierz odczynnik spośród: woda, kwas solny, roztwór chlorku sodu”.
 
 Gips to siarczan wapnia. Z kwasem solnym nie wydziela gazu. Marmur — wydziela. Woda i chlorek sodu nie dadzą różnicy.
+
+Schemat doświadczenia na maturze rysujesz prosto: dwie probówki z podpisanymi substancjami i strzałka z nazwą dodawanego odczynnika. Nie potrzeba artystycznego rysunku, liczy się czytelność. W schemacie wpisujesz nazwę lub wzór odczynnika dokładnie z listy w zadaniu — „kwas solny” albo „HCl(aq)”, a nie „jakiś kwas”.
 
 [pytanie: odroznienie]
 
