@@ -458,6 +458,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
     },
     {
+     "id": "fa8af3df7",
+     "przod": "Meander",
+     "tyl": "Zakole rzeki nizinnej powstałe w wyniku erozji bocznej i akumulacji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "f603ab314",
+     "przod": "Starorzecze",
+     "tyl": "Odcięty od koryta dawny meander — jezioro w dolinie rzeki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "f042544f8",
+     "przod": "Estuarium",
+     "tyl": "Lejkowate ujście rzeki poszerzone przez pływy (np. Tamiza, Łaba).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "f5b5a7f19",
+     "przod": "Wododział",
+     "tyl": "Granica między dorzeczami lub zlewiskami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
      "id": "fff67dab4",
      "przod": "Dorzecze",
      "tyl": "Obszar, z którego wody spływają do jednej rzeki głównej.",
@@ -590,15 +614,33 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
     },
     {
-     "id": "fbfb95267",
-     "przod": "Rozpoznaj: Obszar, z którego wody spływają do jednej rzeki głównej.",
-     "tyl": "Dorzecze",
+     "id": "f87acb4f1",
+     "przod": "Rozpoznaj: Zakole rzeki nizinnej powstałe w wyniku erozji bocznej i akumulacji.",
+     "tyl": "Meander",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "f6ab3c669",
+     "przod": "Rozpoznaj: Odcięty od koryta dawny meander — jezioro w dolinie rzeki.",
+     "tyl": "Starorzecze",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "fee748e64",
+     "przod": "Rozpoznaj: Lejkowate ujście rzeki poszerzone przez pływy (np. Tamiza, Łaba).",
+     "tyl": "Estuarium",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
     },
     {
      "id": "fd6fa94e0",
      "przod": "Rozpoznaj: Granica między dorzeczami lub zlewiskami.",
-     "tyl": "Dział wodny",
+     "tyl": "Wododział",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "fbfb95267",
+     "przod": "Rozpoznaj: Obszar, z którego wody spływają do jednej rzeki głównej.",
+     "tyl": "Dorzecze",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
     },
     {
@@ -689,6 +731,45 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Jezioro słone, reliktowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc6dc1540",
+     "pytanie": "Odcięty dawny meander to:",
+     "odpowiedzi": [
+      "delta",
+      "estuarium",
+      "przełom",
+      "starorzecze"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Jezioro w dolinie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4cc237fe",
+     "pytanie": "Lejkowate ujście rzeki kształtowane przez pływy to:",
+     "odpowiedzi": [
+      "meander",
+      "liman",
+      "estuarium",
+      "delta"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Np. Tamiza.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc3c9ccf5",
+     "pytanie": "Linię oddzielającą dorzecza Wisły i Odry nazywamy:",
+     "odpowiedzi": [
+      "izobatą",
+      "wododziałem",
+      "korytem",
+      "terasą"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Dział wodny.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {

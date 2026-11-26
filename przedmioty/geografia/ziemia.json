@@ -10,6 +10,30 @@
    "wymaganie": "II.1–2",
    "fiszki": [
     {
+     "id": "fb2439d30",
+     "przod": "Kierunek ruchu obrotowego",
+     "tyl": "Z zachodu na wschód (przeciwnie do ruchu wskazówek zegara, patrząc znad bieguna N).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fff447f28",
+     "przod": "Spłaszczenie Ziemi",
+     "tyl": "Skutek ruchu obrotowego — promień równikowy (6378 km) jest o ok. 21 km dłuższy od biegunowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f5c81ced2",
+     "przod": "Odchylenie ciał w ruchu",
+     "tyl": "Siła Coriolisa odchyla wiatry i prądy w prawo na półkuli N, w lewo na półkuli S.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "febed1009",
+     "przod": "Czas uniwersalny (UTC)",
+     "tyl": "Czas słoneczny południka 0°; podstawa liczenia czasów strefowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
      "id": "f1bc2bf80",
      "przod": "Ruch obrotowy Ziemi",
      "tyl": "Obrót wokół własnej osi z zachodu na wschód (przeciwnie do ruchu wskazówek zegara, patrząc znad bieguna północnego).",
@@ -88,12 +112,6 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
     },
     {
-     "id": "febed1009",
-     "przod": "Czas uniwersalny (UTC)",
-     "tyl": "Czas słoneczny średni południka zerowego, podstawa wyznaczania czasu strefowego.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
-    },
-    {
      "id": "fd91d2756",
      "przod": "Południk 15°E",
      "tyl": "Południk środkowy strefy czasu środkowoeuropejskiego — przebiega przez zachodnią Polskę (okolice Zgorzelca).",
@@ -130,6 +148,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
     },
     {
+     "id": "f1e12be32",
+     "przod": "Rozpoznaj: Skutek ruchu obrotowego — promień równikowy (6378 km) jest o ok. 21 km dłuższy od biegunowego.",
+     "tyl": "Spłaszczenie Ziemi",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
      "id": "ffa44f126",
      "przod": "Rozpoznaj: Największa na równiku (ok. 1670 km/h), maleje ku biegunom, na biegunach równa 0.",
      "tyl": "Prędkość liniowa ruchu obrotowego",
@@ -161,6 +185,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p243b5fe4",
+     "pytanie": "Ziemia obraca się wokół osi:",
+     "odpowiedzi": [
+      "ze wschodu na zachód",
+      "z zachodu na wschód",
+      "z południa na północ",
+      "z północy na południe"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Stąd wschód Słońca na wschodzie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb5529f10",
+     "pytanie": "Na półkuli południowej siła Coriolisa odchyla ciała w:",
+     "odpowiedzi": [
+      "górę",
+      "nie działa",
+      "lewo",
+      "prawo"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Na N — w prawo.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p66d2aae3",
+     "pytanie": "Czas uniwersalny UTC to czas słoneczny południka:",
+     "odpowiedzi": [
+      "15°E",
+      "0°",
+      "180°",
+      "90°W"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Greenwich.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "pf313db2e",
      "pytanie": "Gdy na południku 15°E jest 12:00 czasu słonecznego, na południku 21°E jest:",
@@ -400,6 +463,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
     },
     {
+     "id": "f5371b76e",
+     "przod": "Długość dnia na równiku",
+     "tyl": "Przez cały rok ok. 12 godzin.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f84f2e66e",
+     "przod": "Długość dnia w Polsce",
+     "tyl": "Od ok. 7,5–8 h (22 XII) do ok. 16,5–17 h (22 VI), zależnie od szerokości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "fa07c8f5d",
+     "przod": "Ekliptyka",
+     "tyl": "Płaszczyzna orbity Ziemi; oś Ziemi jest nachylona do niej pod kątem 66°33′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f47adbb8c",
+     "przod": "Odległość Ziemi od Słońca",
+     "tyl": "Średnio ok. 150 mln km (1 jednostka astronomiczna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
      "id": "f14cdbeea",
      "przod": "Ruch obiegowy Ziemi",
      "tyl": "Obieg wokół Słońca po orbicie eliptycznej w ciągu ok. 365 dni 6 godzin.",
@@ -496,6 +583,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
     },
     {
+     "id": "f99cd4bf2",
+     "przod": "Rozpoznaj: Przez cały rok ok. 12 godzin.",
+     "tyl": "Długość dnia na równiku",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "fb79eed9f",
+     "przod": "Rozpoznaj: Od ok. 7,5–8 h (22 XII) do ok. 16,5–17 h (22 VI), zależnie od szerokości.",
+     "tyl": "Długość dnia w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "fdefae70f",
+     "przod": "Rozpoznaj: Płaszczyzna orbity Ziemi; oś Ziemi jest nachylona do niej pod kątem 66°33′.",
+     "tyl": "Ekliptyka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f4db85a00",
+     "przod": "Rozpoznaj: Średnio ok. 150 mln km (1 jednostka astronomiczna).",
+     "tyl": "Odległość Ziemi od Słońca",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
      "id": "f2e80b700",
      "przod": "Rozpoznaj: Oś tworzy z płaszczyzną orbity kąt 66°33′ (odchylenie od prostopadłej 23°27′) i zachowuje stały kierunek w przestrzeni.",
      "tyl": "Nachylenie osi Ziemi",
@@ -570,6 +681,45 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Od 23 IX do 21 III.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p78c7c601",
+     "pytanie": "Długość dnia na równiku przez cały rok wynosi około:",
+     "odpowiedzi": [
+      "8 godzin",
+      "24 godzin",
+      "12 godzin",
+      "16 godzin"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Brak zmian sezonowych.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p170c0233",
+     "pytanie": "Oś Ziemi jest nachylona do płaszczyzny orbity pod kątem:",
+     "odpowiedzi": [
+      "66°33′",
+      "45°",
+      "90°",
+      "23°27′"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "90° − 23°27′.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf38ead3a",
+     "pytanie": "Średnia odległość Ziemi od Słońca wynosi około:",
+     "odpowiedzi": [
+      "150 mln km",
+      "1,5 mld km",
+      "384 tys. km",
+      "15 mln km"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "384 tys. km — Księżyc.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
@@ -853,12 +1003,6 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
     },
     {
-     "id": "f84f2e66e",
-     "przod": "Długość dnia w Polsce",
-     "tyl": "22 czerwca ok. 16–17 h, 22 grudnia ok. 7–8 h; na północy kraju różnice są większe niż na południu.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
-    },
-    {
      "id": "fc671c5b3",
      "przod": "Typowy błąd: minuty kątowe",
      "tyl": "1° = 60′. Przy odejmowaniu 52°14′ od 90° wynik to 37°46′, a nie 38°86′.",
@@ -907,12 +1051,6 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
     },
     {
-     "id": "f5371b76e",
-     "przod": "Długość dnia na równiku",
-     "tyl": "Zawsze ok. 12 h przez cały rok.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
-    },
-    {
      "id": "fc291615c",
      "przod": "Zorza polarna",
      "tyl": "Świecenie górnych warstw atmosfery wywołane wiatrem słonecznym, widoczne głównie w strefach okołobiegunowych.",
@@ -940,12 +1078,6 @@
      "id": "fea79a25f",
      "przod": "Rozpoznaj: Między przesileniami wynosi 46°54′ (2 × 23°27′).",
      "tyl": "Różnica wysokości Słońca w ciągu roku (poza tropikami)",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
-    },
-    {
-     "id": "f180569fb",
-     "przod": "Rozpoznaj: Zawsze ok. 12 h przez cały rok.",
-     "tyl": "Długość dnia na równiku",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
     },
     {

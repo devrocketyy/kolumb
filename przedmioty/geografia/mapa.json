@@ -34,6 +34,36 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
+     "id": "f73c7ab85",
+     "przod": "Powierzchnia a skala",
+     "tyl": "Gdy skala zmniejsza się 2 razy (np. z 1:25 000 na 1:50 000), powierzchnia na mapie maleje 4 razy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fbe5258e7",
+     "przod": "1 cm² na mapie 1:50 000",
+     "tyl": "Odpowiada 25 ha (0,25 km²) w terenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f20915cb5",
+     "przod": "1 cm² na mapie 1:10 000",
+     "tyl": "Odpowiada 1 ha (10 000 m²) w terenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "faeeb212f",
+     "przod": "Mapa przeglądowa",
+     "tyl": "Mapa w małej skali (np. 1:1 000 000 i mniejszej) przedstawiająca duże obszary w uogólnieniu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fc8b258c4",
+     "przod": "Obliczanie skali z odległości",
+     "tyl": "Skala = odległość na mapie / odległość w terenie, po sprowadzeniu do tych samych jednostek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
      "id": "fe0fa8c02",
      "przod": "Skala liczbowa",
      "tyl": "Zapis 1:50 000 oznacza, że 1 cm na mapie to 50 000 cm, czyli 500 m w terenie.",
@@ -139,12 +169,6 @@
      "id": "f4097b0ac",
      "przod": "Hektar",
      "tyl": "1 ha = 10 000 m² = 0,01 km²; 1 km² = 100 ha.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
-    },
-    {
-     "id": "fc8b258c4",
-     "przod": "Obliczanie skali z odległości",
-     "tyl": "Skala = odległość na mapie / odległość w terenie (w tych samych jednostkach). Np. 5 cm odpowiada 2,5 km → 5 : 250 000 = 1 : 50 000.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
@@ -258,6 +282,45 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Podziałka zmienia się z mapą.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p508b9103",
+     "pytanie": "1 cm² na mapie w skali 1:50 000 to w terenie:",
+     "odpowiedzi": [
+      "2,5 ha",
+      "5 ha",
+      "25 ha",
+      "50 ha"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "500 m × 500 m.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1b7b0696",
+     "pytanie": "Zmiana skali z 1:25 000 na 1:50 000 zmniejsza powierzchnię obiektu na mapie:",
+     "odpowiedzi": [
+      "8 razy",
+      "2 razy",
+      "25 razy",
+      "4 razy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Kwadrat stosunku skal.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb67e0328",
+     "pytanie": "Odcinek 5 km w terenie ma na mapie 10 cm. Skala mapy to:",
+     "odpowiedzi": [
+      "1:500 000",
+      "1:50 000",
+      "1:20 000",
+      "1:5 000"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "500 000 cm / 10.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
@@ -442,6 +505,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
+     "id": "f5e8de6ef",
+     "przod": "Zapis współrzędnych",
+     "tyl": "Najpierw szerokość (N/S), potem długość (E/W), np. 52°14′N, 21°01′E — Warszawa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "ff7dd3a09",
+     "przod": "Równik",
+     "tyl": "Najdłuższy równoleżnik (ok. 40 075 km), szerokość 0°; dzieli Ziemię na półkule N i S.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f91caeb87",
+     "przod": "Południk 0° (Greenwich)",
+     "tyl": "Południk zerowy przechodzący przez obserwatorium w Greenwich; dzieli Ziemię na półkule E i W.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f2c2780ac",
+     "przod": "Odległość wzdłuż południka",
+     "tyl": "Liczymy różnicę szerokości × 111,2 km (1° = 111,2 km).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
      "id": "f5f207896",
      "przod": "Szerokość geograficzna",
      "tyl": "Odległość kątowa punktu od równika, mierzona wzdłuż południka: 0°–90° N lub S.",
@@ -490,12 +577,6 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
-     "id": "f5e8de6ef",
-     "przod": "Zapis współrzędnych",
-     "tyl": "Najpierw szerokość, potem długość, z oznaczeniem półkul, np. 52°14′N, 21°01′E.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
-    },
-    {
      "id": "f895486aa",
      "przod": "Minuta kątowa",
      "tyl": "1° = 60′; 1′ = 60″. Na południku 1′ to około 1,85 km (mila morska).",
@@ -526,6 +607,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
+     "id": "fbc36a328",
+     "przod": "Rozpoznaj: Najpierw szerokość (N/S), potem długość (E/W), np. 52°14′N, 21°01′E — Warszawa.",
+     "tyl": "Zapis współrzędnych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "ffd1fe252",
+     "przod": "Rozpoznaj: Najdłuższy równoleżnik (ok. 40 075 km), szerokość 0°; dzieli Ziemię na półkule N i S.",
+     "tyl": "Równik",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fb1cf347d",
+     "przod": "Rozpoznaj: Liczymy różnicę szerokości × 111,2 km (1° = 111,2 km).",
+     "tyl": "Odległość wzdłuż południka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
      "id": "f281ec08e",
      "przod": "Rozpoznaj: Odległość kątowa punktu od równika, mierzona wzdłuż południka: 0°–90° N lub S.",
      "tyl": "Szerokość geograficzna",
@@ -553,12 +652,6 @@
      "id": "f62c7d83c",
      "przod": "Rozpoznaj: Różnica długości geograficznej skrajnych punktów obszaru (kierunek W–E).",
      "tyl": "Rozciągłość równoleżnikowa",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
-    },
-    {
-     "id": "ffbbb4a80",
-     "przod": "Rozpoznaj: Najpierw szerokość, potem długość, z oznaczeniem półkul, np. 52°14′N, 21°01′E.",
-     "tyl": "Zapis współrzędnych",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
@@ -606,6 +699,45 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "111 × 0,5.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd419eaa4",
+     "pytanie": "Odległość między punktami 50°N, 20°E i 54°N, 20°E wynosi około:",
+     "odpowiedzi": [
+      "445 km",
+      "111 km",
+      "890 km",
+      "220 km"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "4° × 111,2 km.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pec0281ac",
+     "pytanie": "Szerokość geograficzna równika wynosi:",
+     "odpowiedzi": [
+      "180°",
+      "90°",
+      "23°27′",
+      "0°"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Najdłuższy równoleżnik.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0823eb9d",
+     "pytanie": "W zapisie współrzędnych jako pierwszą podaje się:",
+     "odpowiedzi": [
+      "azymut",
+      "długość geograficzną",
+      "szerokość geograficzną",
+      "wysokość n.p.m."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "N/S, potem E/W.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {

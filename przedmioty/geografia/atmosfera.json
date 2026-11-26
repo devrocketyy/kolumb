@@ -440,6 +440,30 @@
    "wymaganie": "III.3–4",
    "fiszki": [
     {
+     "id": "f49eb5f3b",
+     "przod": "Spadek ciśnienia z wysokością",
+     "tyl": "Ok. 1 hPa na każde 8 m w dolnej troposferze; na 5,5 km ciśnienie jest ok. 2 razy mniejsze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "fecf1894e",
+     "przod": "Barometr",
+     "tyl": "Przyrząd do pomiaru ciśnienia atmosferycznego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "f8d7b0ae5",
+     "przod": "Ruch powietrza w niżu na półkuli N",
+     "tyl": "Przeciwnie do ruchu wskazówek zegara, ku środkowi; w wyżu — zgodnie, od środka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "f8db7ff44",
+     "przod": "Wyż azorski i niż islandzki",
+     "tyl": "Ośrodki baryczne decydujące o pogodzie w Europie i w Polsce.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
      "id": "f5415f3a5",
      "przod": "Ciśnienie normalne",
      "tyl": "1013,25 hPa na poziomie morza; z wysokością spada (przy powierzchni ok. 1 hPa na 8 m).",
@@ -554,6 +578,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
     },
     {
+     "id": "f0c21b828",
+     "przod": "Rozpoznaj: Przyrząd do pomiaru ciśnienia atmosferycznego.",
+     "tyl": "Barometr",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "f47979ed9",
+     "przod": "Rozpoznaj: Ośrodki baryczne decydujące o pogodzie w Europie i w Polsce.",
+     "tyl": "Wyż azorski i niż islandzki",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
      "id": "fbdd31dfd",
      "przod": "Rozpoznaj: 1013,25 hPa na poziomie morza; z wysokością spada (przy powierzchni ok. 1 hPa na 8 m).",
      "tyl": "Ciśnienie normalne",
@@ -639,6 +675,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p4c387a0c",
+     "pytanie": "Ciśnienie mierzy się:",
+     "odpowiedzi": [
+      "higrometrem",
+      "anemometrem",
+      "termometrem",
+      "barometrem"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Higrometr — wilgotność.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p50c3ad18",
+     "pytanie": "W niżu na półkuli N powietrze krąży:",
+     "odpowiedzi": [
+      "pionowo w dół bez wirowania",
+      "przeciwnie do ruchu wskazówek zegara",
+      "tylko z zachodu na wschód",
+      "zgodnie z ruchem wskazówek zegara"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Siła Coriolisa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc5c1edc4",
+     "pytanie": "Pogodę w Polsce kształtują m.in.:",
+     "odpowiedzi": [
+      "wyż australijski",
+      "niż aleucki i bryza",
+      "pasaty i monsun",
+      "wyż azorski i niż islandzki"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Ośrodki atlantyckie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "p8f6b8bd0",
      "pytanie": "Na półkuli północnej powietrze w niżu krąży:",
@@ -1476,6 +1551,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
     },
     {
+     "id": "f8c268258",
+     "przod": "Klimat sawanny — klimatogram",
+     "tyl": "Temperatury wysokie cały rok, wyraźna pora sucha i deszczowa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f6a721943",
+     "przod": "Klimat wybitnie kontynentalny — przykład",
+     "tyl": "Jakuck — amplituda roczna ponad 60°C (zima ok. −39°C, lato ok. +19°C).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f3cc8a1e9",
+     "przod": "Klimat górski",
+     "tyl": "Zmienia się piętrowo z wysokością; temperatura spada, opady zwykle rosną do pewnej wysokości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "fad1eb2e9",
+     "przod": "Klasyfikacja Köppena",
+     "tyl": "Podział klimatów na podstawie temperatury i opadów (strefy A, B, C, D, E).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
      "id": "f84e66a8c",
      "przod": "Czynniki klimatotwórcze",
      "tyl": "Szerokość geograficzna, cyrkulacja atmosferyczna, odległość od morza, prądy morskie, wysokość n.p.m., rzeźba terenu.",
@@ -1560,12 +1659,6 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
     },
     {
-     "id": "f3cc8a1e9",
-     "przod": "Klimat górski",
-     "tyl": "Temperatura spada z wysokością, opady rosną do pewnej wysokości; klimat zmienia się piętrowo.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
-    },
-    {
      "id": "f07164b52",
      "przod": "Strefa konwergencji międzyzwrotnikowej (ITCZ)",
      "tyl": "Pas zbieżności pasatów i niskiego ciśnienia przy równiku; przesuwa się z Słońcem i przynosi porę deszczową.",
@@ -1647,6 +1740,18 @@
      "id": "f7cb822b2",
      "przod": "Rozpoznaj: Śródziemnomorski na wybrzeżu — suche lato sprzyja pożarom lasów.",
      "tyl": "Klimat Kalifornii",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f16fa1440",
+     "przod": "Rozpoznaj: Zmienia się piętrowo z wysokością; temperatura spada, opady zwykle rosną do pewnej wysokości.",
+     "tyl": "Klimat górski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f800faf6c",
+     "przod": "Rozpoznaj: Podział klimatów na podstawie temperatury i opadów (strefy A, B, C, D, E).",
+     "tyl": "Klasyfikacja Köppena",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
     },
     {
@@ -1818,6 +1923,45 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Ciepły prąd.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p28d498ff",
+     "pytanie": "Amplitudę roczną temperatury ponad 60°C notuje się w:",
+     "odpowiedzi": [
+      "Jakucku",
+      "Lizbonie",
+      "Singapurze",
+      "Londynie"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Klimat wybitnie kontynentalny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3bfe2901",
+     "pytanie": "W klimacie górskim temperatura wraz z wysokością:",
+     "odpowiedzi": [
+      "rośnie tylko zimą",
+      "spada",
+      "nie zmienia się",
+      "rośnie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Piętrowość.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p18eac74a",
+     "pytanie": "Wyraźną porę suchą i deszczową ma klimat:",
+     "odpowiedzi": [
+      "polarny",
+      "umiarkowany morski",
+      "podrównikowy (sawanny)",
+      "równikowy wilgotny"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ruch strefy zbieżności.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
