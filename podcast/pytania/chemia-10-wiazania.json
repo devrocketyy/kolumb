@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-10-wiazania",
+  "pytania": [
+    {
+      "id": "rodzaj",
+      "typ": "abcd",
+      "pytanie": "Wiązanie w cząsteczce HCl to wiązanie:",
+      "odpowiedzi": [
+        "kowalencyjne spolaryzowane",
+        "kowalencyjne niespolaryzowane",
+        "jonowe",
+        "metaliczne"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Różnica elektroujemności ok. 0,9 — wspólna para przesunięta do Cl."
+    },
+    {
+      "id": "jonowe",
+      "typ": "abcd",
+      "pytanie": "Wiązanie jonowe występuje w:",
+      "odpowiedzi": [
+        "CaCl₂",
+        "CCl₄",
+        "Cl₂",
+        "HCl"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Duża różnica elektroujemności metal–niemetal."
+    },
+    {
+      "id": "koordynacyjne",
+      "typ": "abcd",
+      "pytanie": "Wiązanie koordynacyjne występuje w:",
+      "odpowiedzi": [
+        "NH₄⁺",
+        "OH⁻",
+        "Cl⁻",
+        "CH₄"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Para elektronowa pochodzi od azotu."
+    },
+    {
+      "id": "metale",
+      "typ": "abcd",
+      "pytanie": "Metale przewodzą prąd, ponieważ:",
+      "odpowiedzi": [
+        "mają zdelokalizowane elektrony",
+        "tworzą jony w roztworze",
+        "mają wiązania kowalencyjne",
+        "mają dużą gęstość"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Gaz elektronowy."
+    },
+    {
+      "id": "sigma-pi",
+      "typ": "abcd",
+      "pytanie": "Cząsteczka N₂ zawiera:",
+      "odpowiedzi": [
+        "1 wiązanie σ i 2 wiązania π",
+        "3 wiązania σ",
+        "2 σ i 1 π",
+        "1 σ i 1 π"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Wiązanie potrójne: σ + 2π."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Liczba wolnych par na tlenie w H₂O:",
+      "odpowiedzi": [
+        "2",
+        "1",
+        "3",
+        "0"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Tlen ma 6 elektronów walencyjnych, 2 tworzą wiązania."
+    }
+  ]
+}

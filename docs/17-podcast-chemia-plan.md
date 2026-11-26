@@ -36,9 +36,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 ## Dział: Wiązania i oddziaływania
 
-**10. Wiązania jonowe, kowalencyjne, koordynacyjne i metaliczne** `c-wiazania` ⬜
+**10. Wiązania jonowe, kowalencyjne, koordynacyjne i metaliczne** `c-wiazania` ✅
 
-**11. Hybrydyzacja, kształt i polarność cząsteczek** `c-geometria` ⬜
+**11. Hybrydyzacja, kształt i polarność cząsteczek** `c-geometria` ✅
 
 **12. Oddziaływania międzycząsteczkowe a właściwości substancji** `c-oddzialywania` ⬜
 
