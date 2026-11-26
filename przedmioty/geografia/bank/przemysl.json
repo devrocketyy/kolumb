@@ -56,6 +56,60 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Energia z węgla i OZE",
+   "material": "Tekst autorski. W 2024 r. w Polsce wyprodukowano ok. 165 TWh energii elektrycznej. Węgiel dał ok. 57%, a OZE ok. 28%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz produkcję energii z węgla i z OZE w TWh.",
+     "odpowiedz": "węgiel ok. 94 TWh, OZE ok. 46 TWh",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "165 × 0,57 i 165 × 0,28.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa wyzwania związane z rozwojem OZE w Polsce.",
+     "odpowiedz": "Niestabilność produkcji (pogoda) i potrzeba magazynów energii; rozbudowa sieci przesyłowych; protesty lokalne wobec farm wiatrowych.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-03",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Baltic Pipe",
+   "material": "Tekst autorski. Przepustowość gazociągu Baltic Pipe wynosi ok. 10 mld m³ rocznie, a roczne zużycie gazu w Polsce — ok. 20 mld m³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaką część zapotrzebowania może pokryć gazociąg.",
+     "odpowiedz": "ok. 50%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "10 / 20 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, na czym polega dywersyfikacja dostaw gazu i dlaczego jest ważna.",
+     "odpowiedz": "Pozyskiwanie gazu z wielu źródeł i od wielu dostawców (Norwegia, LNG, własne wydobycie) — uniezależnia od jednego kraju i zwiększa bezpieczeństwo energetyczne.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Bezpieczeństwo.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-04",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Struktura produkcji energii",
    "material": "Tekst autorski. Kraj Q wyprodukował 160 TWh energii elektrycznej: węgiel 55%, gaz ziemny 10%, wiatr 15%, słońce 10%, biomasa 8%, woda 2%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -88,7 +142,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-przemysl-03",
+   "id": "b-przemysl-05",
    "dzial": "przemysl"
   },
   {
@@ -115,7 +169,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-04",
+   "id": "b-przemysl-06",
    "dzial": "przemysl"
   },
   {
@@ -142,7 +196,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-05",
+   "id": "b-przemysl-07",
    "dzial": "przemysl"
   },
   {
@@ -169,7 +223,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-06",
+   "id": "b-przemysl-08",
    "dzial": "przemysl"
   },
   {
@@ -196,7 +250,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-07",
+   "id": "b-przemysl-09",
    "dzial": "przemysl"
   },
   {
@@ -223,7 +277,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-08",
+   "id": "b-przemysl-10",
    "dzial": "przemysl"
   },
   {
@@ -250,7 +304,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-09",
+   "id": "b-przemysl-11",
    "dzial": "przemysl"
   }
  ]

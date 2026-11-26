@@ -29,6 +29,42 @@
    "dzial": "umiejetnosci"
   },
   {
+   "tytul": "Klimatogram Warszawy",
+   "material": "Tekst autorski. Średnie miesięczne temperatury (°C): −2, −1, 3, 9, 14, 17, 19, 18, 14, 9, 4, 0. Opady (mm): 30, 28, 33, 38, 55, 65, 75, 60, 45, 38, 38, 40.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średnią roczną temperaturę. Wynik zaokrąglij do 0,1°C.",
+     "odpowiedz": "8,7°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Suma 104 / 12 ≈ 8,67.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaki odsetek rocznej sumy opadów przypada na czerwiec, lipiec i sierpień.",
+     "odpowiedz": "ok. 36,7%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(65 + 75 + 60) / 545 × 100.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego latem w Polsce spada najwięcej opadów.",
+     "odpowiedz": "Silne nagrzewanie podłoża powoduje konwekcję — powstają chmury kłębiaste i burze; ciepłe powietrze zawiera więcej pary wodnej.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Opady konwekcyjne.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-umiejetnosci-02",
+   "dzial": "umiejetnosci"
+  },
+  {
    "tytul": "Klimatogram stacji nizinnej",
    "material": "Tekst autorski. Średnie miesięczne temperatury (°C) stacji X: I −3, II −2, III 2, IV 8, V 13, VI 16, VII 18, VIII 17, IX 13, X 8, XI 3, XII −1. Roczna suma opadów: 560 mm, maksimum w lipcu.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -61,7 +97,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-02",
+   "id": "b-umiejetnosci-03",
    "dzial": "umiejetnosci"
   },
   {
@@ -88,7 +124,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-03",
+   "id": "b-umiejetnosci-04",
    "dzial": "umiejetnosci"
   }
  ]
