@@ -25,6 +25,10 @@ Rozpuszczalność to maksymalna masa substancji, jaka rozpuści się w stu grama
 
 Chlorek sodu w dwudziestu stopniach: około trzydziestu sześciu gramów na sto gramów wody. Roztwór, który zawiera tyle substancji, ile się da, jest nasycony.
 
+Szybka proporcja przydaje się do przygotowania roztworu nasyconego. Rozpuszczalność azotanu potasu w dwudziestu stopniach to około trzydziestu dwóch gramów na sto gramów wody. W pięćdziesięciu gramach wody rozpuści się więc szesnaście gramów.
+
+Istnieją też roztwory przesycone — zawierają więcej substancji, niż powinny w danej temperaturze. Są nietrwałe. Ogrzewacze do rąk z octanem sodu działają właśnie tak: kliknięcie metalowej blaszki zapoczątkowuje krystalizację, a ta wydziela ciepło.
+
 [pytanie: naczynie]
 
 Sprawdź się. Ile gramów NaCl rozpuści się w 50 g wody, jeśli rozpuszczalność wynosi 36 g na 100 g wody?
@@ -56,6 +60,10 @@ Rozpuszczalność zależy od temperatury. Pokazują to krzywe rozpuszczalności 
 Dla większości ciał stałych rozpuszczalność rośnie z temperaturą. Azotan potasu bardzo mocno: w sześćdziesięciu stopniach około stu dziesięciu gramów na sto gramów wody, w dwudziestu — tylko około trzydziestu dwóch. Chlorek sodu prawie się nie zmienia.
 
 Dla gazów odwrotnie: im cieplej, tym gorzej się rozpuszczają. Dlatego ciepła woda gazowana szybciej traci bąbelki, a ryby w nagrzanym stawie mają mniej tlenu.
+
+Typowy błąd przy odczycie z wykresu: pomylenie osi albo krzywych dwóch soli. Zanim cokolwiek odczytasz, sprawdź, co jest na osi pionowej — zwykle gramy substancji na sto gramów wody — i która krzywa dotyczy której soli.
+
+Rozpuszczalność gazów zależy też od ciśnienia: im wyższe, tym więcej gazu się rozpuści. W zamkniętej butelce wody gazowanej ciśnienie dwutlenku węgla jest wysokie. Po otwarciu spada, gaz przestaje się mieścić w roztworze i wydziela się w postaci bąbelków.
 
 [pytanie: gazy]
 

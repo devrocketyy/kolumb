@@ -57,6 +57,12 @@ Procedura: przyjmij sto gramów związku, więc procenty stają się gramami. Po
 
 Nasz proszek: czterdzieści przez dwanaście daje trzy i trzy dziesiąte. Sześć i siedem dziesiątych przez jeden — sześć i siedem dziesiątych. Pięćdziesiąt trzy i trzy dziesiąte przez szesnaście — trzy i trzy dziesiąte. Stosunek jeden do dwóch do jednego. Wzór empiryczny: CH₂O.
 
+Często dane pochodzą ze spalania. Mini-obliczenie: trzy gramy związku zawierającego węgiel, wodór i tlen spalono. Powstało cztery i cztery dziesiąte grama CO₂ i jeden przecinek osiem grama wody.
+
+Dwutlenek węgla to jedna dziesiąta mola, więc węgla też jedna dziesiąta mola — jeden przecinek dwa grama. Woda to jedna dziesiąta mola, więc wodoru dwie dziesiąte mola — dwie dziesiąte grama. Tlen liczysz z różnicy: trzy minus jeden przecinek dwa minus zero przecinek dwa — jeden przecinek sześć grama, czyli jedna dziesiąta mola. Stosunek jeden do dwóch do jednego. Znowu CH₂O.
+
+Typowy błąd: przypisanie całego tlenu z CO₂ i wody do związku. Tlen pochodzi też z powietrza, dlatego w związku liczy się go z różnicy mas.
+
 [pytanie: empiryczny]
 
 Sprawdź się. Węglowodór zawiera 85,7 procent węgla. Jaki jest jego wzór empiryczny?
@@ -74,6 +80,8 @@ CH₂. Osiemdziesiąt pięć i siedem przez dwanaście daje siedem i czternaści
 Wzór empiryczny to nie koniec. CH₂O to formaldehyd, ale też kwas octowy C₂H₄O₂ i glukoza C₆H₁₂O₆ mają ten sam stosunek atomów.
 
 Potrzebna jest masa molowa. CH₂O waży trzydzieści. Jeśli związek ma masę sto osiemdziesiąt, to wzór trzeba pomnożyć przez sześć. Nasz słodki proszek to glukoza.
+
+Masę molową często podaje się pośrednio, przez gęstość gazu. Jeśli węglowodór o wzorze CH₂ ma w warunkach normalnych gęstość jeden przecinek dwadzieścia pięć grama na decymetr, masa molowa to jeden przecinek dwadzieścia pięć razy dwadzieścia dwa i cztery — dwadzieścia osiem gramów na mol. Dwadzieścia osiem przez czternaście to dwa. To eten, C₂H₄.
 
 [pytanie: rzeczywisty]
 

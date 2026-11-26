@@ -31,6 +31,10 @@ Trzeci: wyrównaj liczbę elektronów. Najmniejsza wspólna wielokrotność dwó
 
 Czwarty: dobierz resztę współczynników. Trzy azotany miedzi zawierają sześć azotanów, plus dwa NO, razem osiem HNO₃. Wodór z ośmiu cząsteczek kwasu daje cztery wody. Wynik: trzy Cu plus osiem HNO₃ daje trzy Cu(NO₃)₂, dwa NO i cztery H₂O.
 
+Typowy błąd przy bilansie: liczenie elektronów dla cząsteczki zamiast dla atomu, albo odwrotnie. Jeśli w cząsteczce są dwa atomy zmieniające stopień utlenienia, na przykład w Cr₂O₇²⁻ dwa atomy chromu, liczbę elektronów mnożysz przez dwa. Dichromian przechodzący w jony Cr³⁺ przyjmuje więc sześć elektronów, a nie trzy.
+
+Przy okazji obserwacja: pomarańczowy roztwór dichromianu w kwasie, z reduktorem, zmienia barwę na zieloną od jonów chromu trzy. Na tej reakcji działały dawniej alkomaty.
+
 [pytanie: elektrony]
 
 Sprawdź się. Ile elektronów przyjmuje atom azotu, przechodząc z HNO₃ do NO?
@@ -74,6 +78,12 @@ Najsłynniejszy utleniacz matury to manganian potasu. Jego zachowanie zależy od
 W środowisku kwasowym mangan przechodzi z plus siedmiu na plus dwa — przyjmuje pięć elektronów. Fioletowy roztwór się odbarwia. W obojętnym — do tlenku manganu cztery, brunatny osad. W silnie zasadowym — do manganianu sześć, roztwór zielenieje.
 
 Z jonami żelaza dwa w kwasie: MnO₄⁻ plus pięć Fe²⁺ plus osiem H⁺ daje Mn²⁺, pięć Fe³⁺ i cztery wody. Sprawdź ładunki: po lewej plus siedemnaście, po prawej też.
+
+W zapisie jonowo-elektronowym bilansujesz najpierw atomy inne niż tlen i wodór, potem tlen cząsteczkami wody, potem wodór jonami H⁺, a na końcu ładunek elektronami. W środowisku obojętnym lub zasadowym tlen i wodór bilansuje się wodą i jonami OH⁻. Na przykład: MnO₄⁻ plus dwie H₂O plus trzy elektrony daje MnO₂ i cztery OH⁻.
+
+Mini-obliczenie z miareczkowania. Na zmiareczkowanie próbki zużyto dwadzieścia centymetrów sześciennych roztworu KMnO₄ o stężeniu dwie setne mola na decymetr. To cztery dziesięciotysięczne mola manganianu. Jonów Fe²⁺ jest pięć razy więcej — dwie tysięczne mola. Masa żelaza: dwie tysięczne razy pięćdziesiąt sześć, czyli sto dwanaście miligramów.
+
+W tym miareczkowaniu manganian jest jednocześnie wskaźnikiem. Dopóki są jony żelaza, fioletowa barwa znika. Pierwsza kropla nadmiaru zabarwia roztwór na różowo — to koniec miareczkowania.
 
 [pytanie: mn-kwas]
 
