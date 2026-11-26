@@ -101,7 +101,7 @@ Q=[
 ],
 Q=[
  ('Osuwiska w Polsce są najczęstsze w:', ['*Karpatach fliszowych', 'Górach Świętokrzyskich', 'Wyżynie Lubelskiej', 'Pojezierzu Mazurskim'], 'Ulewy i warstwy łupków.'),
- ('Grzyby skalne powstają w wyniku:', ['*korazji — szlifowania skał przez niesiony wiatrem piasek', 'erozji wstecznej rzek górskich', 'krasowienia skał wapiennych', 'abrazji fal morskich'], 'Erozja eoliczna.'),
+ ('Grzyby skalne powstają w wyniku:', ['*korazji (szlifowania skał piaskiem)', 'erozji wstecznej rzek górskich', 'krasowienia skał wapiennych', 'abrazji fal morskich'], 'Erozja eoliczna.'),
  ('Stożek napływowy tworzy się:', ['*u wylotu doliny górskiej na równinę', 'u źródeł rzeki wysoko w górach', 'w środku głębokiego jeziora', 'na grzbiecie górskim między szczytami'], 'Rzeka traci prędkość.'),
  ('Estuarium zamiast delty powstaje zwykle, gdy:', ['*pływy morskie są duże', 'morze jest płytkie i prawie bez pływów', 'rzeka niesie bardzo dużo osadów', 'rzeka uchodzi do dużego jeziora'], 'Pływy wymywają osady.'),
 ]),
