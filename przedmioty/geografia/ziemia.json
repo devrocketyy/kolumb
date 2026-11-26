@@ -1,0 +1,618 @@
+{
+ "id": "ziemia",
+ "nazwa": "Ziemia we Wszechświecie",
+ "opis": "Ruch obrotowy i obiegowy, wysokość Słońca, czas słoneczny i strefowy, strefy oświetlenia.",
+ "poddzialy": [
+  {
+   "id": "g-obrotowy",
+   "nazwa": "Ruch obrotowy i jego skutki, czas słoneczny i strefowy",
+   "opis": "Wymaganie II.1–2 podstawy programowej.",
+   "wymaganie": "II.1–2",
+   "fiszki": [
+    {
+     "id": "f1bc2bf80",
+     "przod": "Ruch obrotowy Ziemi",
+     "tyl": "Obrót wokół własnej osi z zachodu na wschód (przeciwnie do ruchu wskazówek zegara, patrząc znad bieguna północnego).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f7b1b4077",
+     "przod": "Doba gwiazdowa i słoneczna",
+     "tyl": "Gwiazdowa — ok. 23 h 56 min (pełny obrót względem gwiazd); słoneczna — 24 h (między kolejnymi górowaniami Słońca).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f30743d1b",
+     "przod": "Prędkość kątowa Ziemi",
+     "tyl": "15° na godzinę, czyli 1° w ciągu 4 minut — jednakowa dla całej Ziemi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f99cf078b",
+     "przod": "Prędkość liniowa ruchu obrotowego",
+     "tyl": "Największa na równiku (ok. 1670 km/h), maleje ku biegunom, na biegunach równa 0.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f6f961d2b",
+     "przod": "Skutki ruchu obrotowego",
+     "tyl": "Następstwo dnia i nocy, pozorny ruch Słońca, różnice czasu słonecznego, siła Coriolisa, spłaszczenie Ziemi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fe08a0e91",
+     "przod": "Siła Coriolisa",
+     "tyl": "Odchyla poruszające się ciała na półkuli północnej w prawo, na południowej w lewo; nie działa wzdłuż równika.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fc54fdec2",
+     "przod": "Czas słoneczny (miejscowy)",
+     "tyl": "Czas wyznaczany przez położenie Słońca; jest jednakowy na całym południku. Na wschód o 1° czas jest późniejszy o 4 min.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f5672ffac",
+     "przod": "Czas strefowy",
+     "tyl": "Czas południka środkowego strefy (co 15°); obowiązuje w całej strefie. Polska — czas środkowoeuropejski (UTC+1), latem UTC+2.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fd38b6940",
+     "przod": "Linia zmiany daty",
+     "tyl": "Przebiega w przybliżeniu wzdłuż 180° południka. Przekraczając ją ze wschodu na zachód, dodaje się dobę; z zachodu na wschód — odejmuje.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f4fdd05f1",
+     "przod": "Obliczanie czasu słonecznego",
+     "tyl": "Różnica długości geograficznej × 4 min. Na wschód dodajemy, na zachód odejmujemy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f4ea33010",
+     "przod": "Typowy błąd: czas słoneczny",
+     "tyl": "Odejmowanie minut przy przesuwaniu się na wschód. Im dalej na wschód, tym później (Słońce wcześniej tam górowało).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f8b469c1b",
+     "przod": "Górowanie Słońca",
+     "tyl": "Najwyższe położenie Słońca nad horyzontem w ciągu dnia — o godzinie 12:00 czasu słonecznego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "ffa44f126",
+     "przod": "Rozpoznaj: Największa na równiku (ok. 1670 km/h), maleje ku biegunom, na biegunach równa 0.",
+     "tyl": "Prędkość liniowa ruchu obrotowego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f204d7424",
+     "przod": "Rozpoznaj: Odchyla poruszające się ciała na półkuli północnej w prawo, na południowej w lewo; nie działa wzdłuż równika.",
+     "tyl": "Siła Coriolisa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f4922e009",
+     "przod": "Rozpoznaj: Przebiega w przybliżeniu wzdłuż 180° południka. Przekraczając ją ze wschodu na zachód, dodaje się dobę; z zachodu na wschód — odejmuje.",
+     "tyl": "Linia zmiany daty",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f9496e76e",
+     "przod": "Rozpoznaj: Różnica długości geograficznej × 4 min. Na wschód dodajemy, na zachód odejmujemy.",
+     "tyl": "Obliczanie czasu słonecznego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pf313db2e",
+     "pytanie": "Gdy na południku 15°E jest 12:00 czasu słonecznego, na południku 21°E jest:",
+     "odpowiedzi": [
+      "13:00",
+      "11:36",
+      "12:06",
+      "12:24"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "6° × 4 min = 24 min; na wschód później.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7f08861c",
+     "pytanie": "Różnica czasu słonecznego między punktami 20°E i 10°W wynosi:",
+     "odpowiedzi": [
+      "2 h",
+      "30 min",
+      "40 min",
+      "1 h"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "30° × 4 min = 120 min.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcb36d81d",
+     "pytanie": "Siła Coriolisa na półkuli północnej odchyla wiatry:",
+     "odpowiedzi": [
+      "nie odchyla ich",
+      "ku równikowi zawsze",
+      "w prawo",
+      "w lewo"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Na południowej — w lewo.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5ea9cdd9",
+     "pytanie": "Prędkość kątowa ruchu obrotowego Ziemi wynosi:",
+     "odpowiedzi": [
+      "4°/h",
+      "15°/h",
+      "360°/min",
+      "1°/h"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "360° na dobę / 24 h.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2f2d60c2",
+     "pytanie": "Polska latem stosuje czas:",
+     "odpowiedzi": [
+      "UTC+1",
+      "UTC+3",
+      "UTC",
+      "UTC+2"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Czas letni środkowoeuropejski.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3af92d01",
+     "pytanie": "Przekraczając linię zmiany daty z zachodu na wschód, należy:",
+     "odpowiedzi": [
+      "odjąć dobę",
+      "odjąć godzinę",
+      "dodać dobę",
+      "nic nie zmieniać"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Ze wschodu na zachód — dodać dobę.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2073de06",
+     "pytanie": "Największą prędkość liniową w ruchu obrotowym ma punkt leżący:",
+     "odpowiedzi": [
+      "na zwrotniku",
+      "na kole podbiegunowym",
+      "na równiku",
+      "na biegunie"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Najdłuższy równoleżnik.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pdf9106ae",
+     "pytanie": "Jeden z NIE-skutków ruchu obrotowego to:",
+     "odpowiedzi": [
+      "różnice czasu słonecznego",
+      "następstwo dnia i nocy",
+      "siła Coriolisa",
+      "pory roku"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Pory roku to skutek ruchu obiegowego i nachylenia osi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-obiegowy",
+   "nazwa": "Ruch obiegowy, pory roku, strefy oświetlenia",
+   "opis": "Wymaganie II.3–4 podstawy programowej.",
+   "wymaganie": "II.3–4",
+   "fiszki": [
+    {
+     "id": "f14cdbeea",
+     "przod": "Ruch obiegowy Ziemi",
+     "tyl": "Obieg wokół Słońca po orbicie eliptycznej w ciągu ok. 365 dni 6 godzin.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f287e5cbb",
+     "przod": "Nachylenie osi Ziemi",
+     "tyl": "Oś tworzy z płaszczyzną orbity kąt 66°33′ (odchylenie od prostopadłej 23°27′) i zachowuje stały kierunek w przestrzeni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "fd4d130f5",
+     "przod": "Peryhelium i aphelium",
+     "tyl": "Peryhelium — najbliżej Słońca (ok. 3 stycznia), aphelium — najdalej (ok. 4 lipca).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f6e89c333",
+     "przod": "Równonoc wiosenna i jesienna",
+     "tyl": "Ok. 21 marca i 23 września: Słońce w zenicie nad równikiem, dzień równy nocy na całej Ziemi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "fd273a8ca",
+     "przod": "Przesilenie letnie (na półkuli N)",
+     "tyl": "Ok. 22 czerwca: Słońce w zenicie nad zwrotnikiem Raka; najdłuższy dzień na półkuli północnej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "fb4e542b3",
+     "przod": "Przesilenie zimowe (na półkuli N)",
+     "tyl": "Ok. 22 grudnia: Słońce w zenicie nad zwrotnikiem Koziorożca; najkrótszy dzień na półkuli północnej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f7c88749b",
+     "przod": "Zwrotniki",
+     "tyl": "Równoleżniki 23°27′N (Raka) i 23°27′S (Koziorożca) — granice obszaru, w którym Słońce może górować w zenicie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f6609be51",
+     "przod": "Koła podbiegunowe",
+     "tyl": "Równoleżniki 66°33′N i S — granice obszarów, w których występuje dzień i noc polarna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f3ae50b3c",
+     "przod": "Strefy oświetlenia",
+     "tyl": "Gorąca (między zwrotnikami), dwie umiarkowane (między zwrotnikiem a kołem podbiegunowym), dwie zimne (za kołami podbiegunowymi).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "fede1c722",
+     "przod": "Dzień polarny",
+     "tyl": "Słońce nie zachodzi przez co najmniej dobę. Na kole podbiegunowym trwa 1 dobę, na biegunie ok. pół roku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f9c77bbb6",
+     "przod": "Skutki ruchu obiegowego",
+     "tyl": "Pory roku, zmiana wysokości Słońca w ciągu roku, różna długość dnia i nocy, strefy oświetlenia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f1c26d991",
+     "przod": "Typowy błąd: pory roku",
+     "tyl": "Pory roku nie wynikają z odległości od Słońca — Ziemia jest najbliżej Słońca w styczniu. Powodem jest nachylenie osi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f2e80b700",
+     "przod": "Rozpoznaj: Oś tworzy z płaszczyzną orbity kąt 66°33′ (odchylenie od prostopadłej 23°27′) i zachowuje stały kierunek w przestrzeni.",
+     "tyl": "Nachylenie osi Ziemi",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f4a3ee279",
+     "przod": "Rozpoznaj: Ok. 21 marca i 23 września: Słońce w zenicie nad równikiem, dzień równy nocy na całej Ziemi.",
+     "tyl": "Równonoc wiosenna i jesienna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f3e65f629",
+     "przod": "Rozpoznaj: Równoleżniki 23°27′N (Raka) i 23°27′S (Koziorożca) — granice obszaru, w którym Słońce może górować w zenicie.",
+     "tyl": "Zwrotniki",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f6f3187a3",
+     "przod": "Rozpoznaj: Równoleżniki 66°33′N i S — granice obszarów, w których występuje dzień i noc polarna.",
+     "tyl": "Koła podbiegunowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f5539a0e9",
+     "przod": "Rozpoznaj: Gorąca (między zwrotnikami), dwie umiarkowane (między zwrotnikiem a kołem podbiegunowym), dwie zimne (za kołami podbiegunowymi).",
+     "tyl": "Strefy oświetlenia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "fd6d8dfb3",
+     "przod": "Rozpoznaj: Słońce nie zachodzi przez co najmniej dobę. Na kole podbiegunowym trwa 1 dobę, na biegunie ok. pół roku.",
+     "tyl": "Dzień polarny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p4c0e69f9",
+     "pytanie": "Słońce góruje w zenicie nad zwrotnikiem Raka w dniu:",
+     "odpowiedzi": [
+      "22 czerwca",
+      "23 września",
+      "22 grudnia",
+      "21 marca"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Przesilenie letnie na półkuli N.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p216d581d",
+     "pytanie": "Ziemia jest najbliżej Słońca (peryhelium) około:",
+     "odpowiedzi": [
+      "4 lipca",
+      "22 czerwca",
+      "3 stycznia",
+      "21 marca"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Pory roku nie zależą od odległości.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe6482015",
+     "pytanie": "Dzień polarny na kole podbiegunowym północnym trwa:",
+     "odpowiedzi": [
+      "pół roku",
+      "tydzień",
+      "1 dobę (ok. 22 czerwca)",
+      "w ogóle nie występuje"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Pół roku trwa na biegunie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbac3e59b",
+     "pytanie": "Strefa oświetlenia gorąca leży:",
+     "odpowiedzi": [
+      "między zwrotnikiem a kołem podbiegunowym",
+      "tylko na równiku",
+      "za kołami podbiegunowymi",
+      "między zwrotnikami"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Tam Słońce może górować w zenicie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0ba28591",
+     "pytanie": "21 marca na całej Ziemi:",
+     "odpowiedzi": [
+      "dzień jest najdłuższy w roku",
+      "Słońce jest w zenicie nad zwrotnikiem Raka",
+      "trwa noc polarna na półkuli S",
+      "dzień trwa tyle co noc"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Równonoc.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf3602896",
+     "pytanie": "Główną przyczyną pór roku jest:",
+     "odpowiedzi": [
+      "zmiany aktywności Słońca",
+      "ruch obrotowy",
+      "nachylenie osi Ziemi do płaszczyzny orbity",
+      "zmiana odległości od Słońca"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Kąt padania promieni zmienia się w ciągu roku.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6b908754",
+     "pytanie": "Szerokość geograficzna zwrotnika Raka wynosi:",
+     "odpowiedzi": [
+      "23°27′N",
+      "0°",
+      "23°27′S",
+      "66°33′N"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Zwrotnik Koziorożca — 23°27′S.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd6e71271",
+     "pytanie": "22 grudnia na półkuli południowej jest:",
+     "odpowiedzi": [
+      "noc polarna na biegunie S",
+      "równonoc",
+      "najkrótszy dzień w roku",
+      "najdłuższy dzień w roku"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "To przesilenie letnie dla półkuli S.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-slonce",
+   "nazwa": "Wysokość Słońca i długość dnia — obliczenia",
+   "opis": "Wymaganie II.5 podstawy programowej.",
+   "wymaganie": "II.5",
+   "fiszki": [
+    {
+     "id": "f05f57212",
+     "przod": "Wysokość Słońca w dniach równonocy",
+     "tyl": "h = 90° − φ (φ — szerokość geograficzna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fd9800d50",
+     "przod": "Wysokość Słońca 22 czerwca (półkula N, poza zwrotnikiem)",
+     "tyl": "h = 90° − φ + 23°27′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f75f6ba09",
+     "przod": "Wysokość Słońca 22 grudnia (półkula N, poza strefą polarną)",
+     "tyl": "h = 90° − φ − 23°27′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f094963f8",
+     "przod": "Wysokość Słońca na półkuli S",
+     "tyl": "22 grudnia: h = 90° − φ + 23°27′; 22 czerwca: h = 90° − φ − 23°27′ (półkula S ma wtedy odpowiednio lato i zimę).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fa3bf3fb0",
+     "przod": "Warszawa (52°14′N) — wysokość Słońca",
+     "tyl": "Równonoc: 37°46′; 22 czerwca: 61°13′; 22 grudnia: 14°19′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f6441bf5d",
+     "przod": "Obliczanie szerokości z wysokości Słońca",
+     "tyl": "W dniu równonocy: φ = 90° − h. Np. h = 40° → φ = 50°.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "ffbae3b2e",
+     "przod": "Kąt padania a nagrzewanie",
+     "tyl": "Im wyżej Słońce, tym mniejszą powierzchnię oświetla ta sama wiązka promieni — powierzchnia nagrzewa się silniej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fd77871fe",
+     "przod": "Zenit",
+     "tyl": "Punkt na niebie dokładnie nad obserwatorem; Słońce w zenicie ma wysokość 90°.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f84f2e66e",
+     "przod": "Długość dnia w Polsce",
+     "tyl": "22 czerwca ok. 16–17 h, 22 grudnia ok. 7–8 h; na północy kraju różnice są większe niż na południu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fc671c5b3",
+     "przod": "Typowy błąd: minuty kątowe",
+     "tyl": "1° = 60′. Przy odejmowaniu 52°14′ od 90° wynik to 37°46′, a nie 38°86′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fef92f783",
+     "przod": "Rozpoznaj: h = 90° − φ (φ — szerokość geograficzna).",
+     "tyl": "Wysokość Słońca w dniach równonocy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fa6719c7e",
+     "przod": "Rozpoznaj: W dniu równonocy: φ = 90° − h. Np. h = 40° → φ = 50°.",
+     "tyl": "Obliczanie szerokości z wysokości Słońca",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fb5f4983f",
+     "przod": "Rozpoznaj: Punkt na niebie dokładnie nad obserwatorem; Słońce w zenicie ma wysokość 90°.",
+     "tyl": "Zenit",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pf9a12835",
+     "pytanie": "Wysokość Słońca w dniu równonocy na 50°N wynosi:",
+     "odpowiedzi": [
+      "16°33′",
+      "50°",
+      "63°27′",
+      "40°"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "90° − 50°.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pdae55852",
+     "pytanie": "Wysokość Słońca 22 czerwca na 50°N wynosi:",
+     "odpowiedzi": [
+      "63°27′",
+      "40°",
+      "73°27′",
+      "16°33′"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "90° − 50° + 23°27′.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06bb9bb5",
+     "pytanie": "Wysokość Słońca 22 grudnia na 50°N wynosi:",
+     "odpowiedzi": [
+      "63°27′",
+      "26°33′",
+      "40°",
+      "16°33′"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "90° − 50° − 23°27′.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p94f6022e",
+     "pytanie": "W dniu równonocy Słońce górowało na wysokości 35°. Szerokość geograficzna wynosi:",
+     "odpowiedzi": [
+      "58°27′",
+      "35°",
+      "45°",
+      "55°"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "φ = 90° − h.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p09ea58c6",
+     "pytanie": "Wysokość Słońca 22 grudnia na 40°S wynosi:",
+     "odpowiedzi": [
+      "73°27′",
+      "26°33′",
+      "50°",
+      "16°33′"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Lato na półkuli S: 90° − 40° + 23°27′.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5b588ef5",
+     "pytanie": "Na zwrotniku Raka 22 czerwca Słońce góruje na wysokości:",
+     "odpowiedzi": [
+      "23°27′",
+      "66°33′",
+      "90°",
+      "43°06′"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Zenit nad zwrotnikiem Raka.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2f4a93a9",
+     "pytanie": "Przy wyższym położeniu Słońca powierzchnia nagrzewa się silniej, ponieważ:",
+     "odpowiedzi": [
+      "warstwa atmosfery staje się wtedy wyraźnie cieńsza",
+      "Ziemia znajduje się wtedy najbliżej Słońca na orbicie",
+      "promienie padają pod większym kątem na mniejszą powierzchnię",
+      "Słońce świeci wtedy znacznie jaśniej niż zwykle"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Kąt padania promieni.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

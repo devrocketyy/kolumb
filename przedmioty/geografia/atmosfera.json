@@ -1,0 +1,829 @@
+{
+ "id": "atmosfera",
+ "nazwa": "Atmosfera i klimat",
+ "opis": "Budowa atmosfery, ciśnienie, wiatry, cyrkulacja, fronty, opady, klimaty i klimatogramy.",
+ "poddzialy": [
+  {
+   "id": "g-atmosfera",
+   "nazwa": "Budowa atmosfery, temperatura i bilans cieplny",
+   "opis": "Wymaganie III.1–2 podstawy programowej.",
+   "wymaganie": "III.1–2",
+   "fiszki": [
+    {
+     "id": "f767c469b",
+     "przod": "Skład powietrza (suchego)",
+     "tyl": "Azot ok. 78%, tlen ok. 21%, argon ok. 0,9%, dwutlenek węgla ok. 0,04%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f98181386",
+     "przod": "Troposfera",
+     "tyl": "Najniższa warstwa, do ok. 8 km nad biegunami i 16–18 km nad równikiem; zachodzą w niej zjawiska pogodowe, temperatura spada z wysokością.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f1e44b352",
+     "przod": "Stratosfera",
+     "tyl": "Warstwa nad troposferą (do ok. 50 km); zawiera ozonosferę, temperatura rośnie z wysokością.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f30c94049",
+     "przod": "Ozonosfera",
+     "tyl": "Warstwa ozonu w stratosferze (ok. 20–30 km) pochłaniająca promieniowanie ultrafioletowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f9a1321e8",
+     "przod": "Gradient termiczny w troposferze",
+     "tyl": "Średnio spadek temperatury o ok. 0,6°C na 100 m wysokości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f9f7b8f8d",
+     "przod": "Efekt cieplarniany",
+     "tyl": "Zatrzymywanie promieniowania długofalowego Ziemi przez gazy cieplarniane (para wodna, CO₂, metan) — bez niego średnia temperatura Ziemi wynosiłaby ok. −18°C.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fde8b22b7",
+     "przod": "Albedo",
+     "tyl": "Zdolność powierzchni do odbijania promieniowania. Śnieg ma duże albedo (do 90%), las i ocean — małe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fd11a39e8",
+     "przod": "Inwersja temperatury",
+     "tyl": "Sytuacja, w której temperatura rośnie z wysokością; sprzyja zaleganiu mgieł i smogu w kotlinach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f58021bb9",
+     "przod": "Amplituda dobowa temperatury",
+     "tyl": "Różnica temperatury najwyższej i najniższej w ciągu doby — duża na pustyniach, mała nad oceanami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fc2110196",
+     "przod": "Typowy błąd: gradient",
+     "tyl": "Gradient 0,6°C/100 m to średnia dla powietrza wilgotnego; dla powietrza suchego spadek wynosi ok. 1°C/100 m.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f11921cd3",
+     "przod": "Rozpoznaj: Azot ok. 78%, tlen ok. 21%, argon ok. 0,9%, dwutlenek węgla ok. 0,04%.",
+     "tyl": "Skład powietrza (suchego)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "faa909479",
+     "przod": "Rozpoznaj: Najniższa warstwa, do ok. 8 km nad biegunami i 16–18 km nad równikiem; zachodzą w niej zjawiska pogodowe, temperatura spada z wysokością.",
+     "tyl": "Troposfera",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f51f23704",
+     "przod": "Rozpoznaj: Warstwa nad troposferą (do ok. 50 km); zawiera ozonosferę, temperatura rośnie z wysokością.",
+     "tyl": "Stratosfera",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f66604a7d",
+     "przod": "Rozpoznaj: Warstwa ozonu w stratosferze (ok. 20–30 km) pochłaniająca promieniowanie ultrafioletowe.",
+     "tyl": "Ozonosfera",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f2627b9bb",
+     "przod": "Rozpoznaj: Średnio spadek temperatury o ok. 0,6°C na 100 m wysokości.",
+     "tyl": "Gradient termiczny w troposferze",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p305177ed",
+     "pytanie": "Przy powierzchni temperatura wynosi 18°C. Na wysokości 2000 m (gradient 0,6°C/100 m) wyniesie:",
+     "odpowiedzi": [
+      "−2°C",
+      "16,8°C",
+      "6°C",
+      "12°C"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "2000 / 100 × 0,6 = 12; 18 − 12.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pec809ac2",
+     "pytanie": "Ozonosfera znajduje się w:",
+     "odpowiedzi": [
+      "troposferze",
+      "stratosferze",
+      "mezosferze",
+      "termosferze"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ok. 20–30 km.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbfe103f9",
+     "pytanie": "Największy udział w suchym powietrzu ma:",
+     "odpowiedzi": [
+      "dwutlenek węgla",
+      "azot",
+      "argon",
+      "tlen"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ok. 78%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4b3aa4a7",
+     "pytanie": "Największe albedo ma:",
+     "odpowiedzi": [
+      "świeży śnieg",
+      "czarnoziem",
+      "las iglasty",
+      "ocean"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Do 90% odbitego promieniowania.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p764fd1fd",
+     "pytanie": "Troposfera jest najgrubsza nad:",
+     "odpowiedzi": [
+      "równikiem",
+      "kołami podbiegunowymi",
+      "zwrotnikami",
+      "biegunami"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Ok. 16–18 km.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "padcc1ce6",
+     "pytanie": "Inwersja temperatury w kotlinie sprzyja:",
+     "odpowiedzi": [
+      "powstawaniu burz",
+      "dużym opadom",
+      "zaleganiu smogu i mgieł",
+      "silnym wiatrom"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Chłodne powietrze zostaje przy dnie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-cisnienie",
+   "nazwa": "Ciśnienie, wiatry i cyrkulacja atmosferyczna",
+   "opis": "Wymaganie III.3–4 podstawy programowej.",
+   "wymaganie": "III.3–4",
+   "fiszki": [
+    {
+     "id": "f5415f3a5",
+     "przod": "Ciśnienie normalne",
+     "tyl": "1013,25 hPa na poziomie morza; z wysokością spada (przy powierzchni ok. 1 hPa na 8 m).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "f5bc49c9c",
+     "przod": "Izobary",
+     "tyl": "Linie łączące punkty o jednakowym ciśnieniu zredukowanym do poziomu morza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "f3d7d9114",
+     "przod": "Niż (cyklon)",
+     "tyl": "Obszar niskiego ciśnienia; na półkuli N powietrze krąży przeciwnie do ruchu wskazówek zegara i wznosi się — zachmurzenie i opady.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "f5f7edb15",
+     "przod": "Wyż (antycyklon)",
+     "tyl": "Obszar wysokiego ciśnienia; na półkuli N powietrze krąży zgodnie z ruchem wskazówek zegara i opada — pogoda bezchmurna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "f7e2b369c",
+     "przod": "Wiatr",
+     "tyl": "Ruch powietrza z obszaru wyższego do niższego ciśnienia; im gęstsze izobary, tym silniejszy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "f53408c8a",
+     "przod": "Pasaty",
+     "tyl": "Stałe wiatry wiejące od zwrotnikowych wyżów ku równikowi; na półkuli N z NE, na S z SE.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "fd01cb100",
+     "przod": "Wiatry zachodnie",
+     "tyl": "Przeważające wiatry w strefie umiarkowanej, wiejące od wyżów zwrotnikowych ku niżom subpolarnym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "fb81b9db8",
+     "przod": "Monsun",
+     "tyl": "Wiatr sezonowy: latem z oceanu na ląd (wilgotny), zimą z lądu na ocean (suchy). Najsilniejszy w Azji Południowej i Wschodniej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "f243ca49b",
+     "przod": "Bryza",
+     "tyl": "Wiatr lokalny nad wybrzeżem: w dzień od morza (bryza morska), w nocy od lądu (bryza lądowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "ff4e0cf96",
+     "przod": "Fen (halny)",
+     "tyl": "Ciepły, suchy, porywisty wiatr opadający po zawietrznej stronie gór. W Tatrach — halny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "f9e90f1e5",
+     "przod": "Mechanizm fenu",
+     "tyl": "Po stronie dowietrznej powietrze wznosi się i ochładza ok. 0,6°C/100 m (kondensacja, opady), po zawietrznej opada suche i ogrzewa się ok. 1°C/100 m.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "fbc791579",
+     "przod": "Cyrkulacja komórkowa",
+     "tyl": "Komórka Hadleya (między równikiem a zwrotnikami), Ferrela (strefa umiarkowana) i polarna.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "fbdd31dfd",
+     "przod": "Rozpoznaj: 1013,25 hPa na poziomie morza; z wysokością spada (przy powierzchni ok. 1 hPa na 8 m).",
+     "tyl": "Ciśnienie normalne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "fb82bbdb9",
+     "przod": "Rozpoznaj: Linie łączące punkty o jednakowym ciśnieniu zredukowanym do poziomu morza.",
+     "tyl": "Izobary",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "f2cadeab3",
+     "przod": "Rozpoznaj: Obszar niskiego ciśnienia; na półkuli N powietrze krąży przeciwnie do ruchu wskazówek zegara i wznosi się — zachmurzenie i opady.",
+     "tyl": "Niż (cyklon)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "f09515aa2",
+     "przod": "Rozpoznaj: Obszar wysokiego ciśnienia; na półkuli N powietrze krąży zgodnie z ruchem wskazówek zegara i opada — pogoda bezchmurna.",
+     "tyl": "Wyż (antycyklon)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "ff991911e",
+     "przod": "Rozpoznaj: Ruch powietrza z obszaru wyższego do niższego ciśnienia; im gęstsze izobary, tym silniejszy.",
+     "tyl": "Wiatr",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "fcd311649",
+     "przod": "Rozpoznaj: Stałe wiatry wiejące od zwrotnikowych wyżów ku równikowi; na półkuli N z NE, na S z SE.",
+     "tyl": "Pasaty",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "f20f0eb38",
+     "przod": "Rozpoznaj: Wiatr sezonowy: latem z oceanu na ląd (wilgotny), zimą z lądu na ocean (suchy). Najsilniejszy w Azji Południowej i Wschodniej.",
+     "tyl": "Monsun",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    },
+    {
+     "id": "f572605fb",
+     "przod": "Rozpoznaj: Po stronie dowietrznej powietrze wznosi się i ochładza ok. 0,6°C/100 m (kondensacja, opady), po zawietrznej opada suche i ogrzewa się ok. 1°C/100 m.",
+     "tyl": "Mechanizm fenu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.3–4"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p8f6b8bd0",
+     "pytanie": "Na półkuli północnej powietrze w niżu krąży:",
+     "odpowiedzi": [
+      "wyłącznie z zachodu na wschód",
+      "prostoliniowo do środka układu",
+      "przeciwnie do ruchu wskazówek zegara",
+      "zgodnie z ruchem wskazówek zegara"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "W wyżu — zgodnie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p772b8a2d",
+     "pytanie": "Pasaty na półkuli północnej wieją z kierunku:",
+     "odpowiedzi": [
+      "zachodniego",
+      "południowo-wschodniego",
+      "północno-wschodniego",
+      "północno-zachodniego"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Odchylenie w prawo od kierunku N.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc0c13cdb",
+     "pytanie": "Bryza morska wieje:",
+     "odpowiedzi": [
+      "w dzień od morza w stronę lądu",
+      "w nocy od morza",
+      "tylko zimą",
+      "w dzień od lądu"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Ląd w dzień nagrzewa się szybciej.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5b0a7a22",
+     "pytanie": "Powietrze o temperaturze 10°C przy podnóżu (500 m) wznosi się do 2500 m (0,6°C/100 m), potem opada do 500 m (1°C/100 m). Temperatura u podnóża zawietrznego:",
+     "odpowiedzi": [
+      "22°C",
+      "2°C",
+      "18°C",
+      "10°C"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Na szczycie 10 − 12 = −2°C; −2 + 20 = 18°C.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p365963bd",
+     "pytanie": "Wyż jest związany z:",
+     "odpowiedzi": [
+      "wznoszeniem powietrza i opadami",
+      "opadaniem powietrza i pogodą bezchmurną",
+      "frontem chłodnym",
+      "monsunem letnim"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Powietrze zstępujące ogrzewa się.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe9e030b1",
+     "pytanie": "Monsun letni w Indiach przynosi:",
+     "odpowiedzi": [
+      "burze piaskowe",
+      "mrozy",
+      "obfite opady z oceanu",
+      "suche powietrze z lądu"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wiatr z Oceanu Indyjskiego.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe806f2c1",
+     "pytanie": "Gęsto położone izobary oznaczają:",
+     "odpowiedzi": [
+      "ciszę",
+      "wyż",
+      "opady śniegu",
+      "silny wiatr"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Duża różnica ciśnień na małej odległości.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-pogoda",
+   "nazwa": "Masy powietrza, fronty, niże i wyże, opady",
+   "opis": "Wymaganie III.5–6 podstawy programowej.",
+   "wymaganie": "III.5–6",
+   "fiszki": [
+    {
+     "id": "f53b55004",
+     "przod": "Masa powietrza",
+     "tyl": "Duża porcja powietrza o jednorodnych cechach (temperatura, wilgotność) nabytych nad obszarem źródłowym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f7a7d8a8d",
+     "przod": "Masy powietrza nad Polską",
+     "tyl": "Polarno-morskie (najczęstsze), polarno-kontynentalne, arktyczne, zwrotnikowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f16c17eb0",
+     "przod": "Front atmosferyczny",
+     "tyl": "Strefa styku dwóch mas powietrza o różnych cechach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "fc2404b95",
+     "przod": "Front ciepły",
+     "tyl": "Ciepłe powietrze nasuwa się na chłodne; chmury warstwowe, długotrwałe opady ciągłe, potem ocieplenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f4720916b",
+     "przod": "Front chłodny",
+     "tyl": "Chłodne powietrze wypiera ciepłe; chmury kłębiaste, krótkie, intensywne opady i burze, potem ochłodzenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f0719b185",
+     "przod": "Opady konwekcyjne",
+     "tyl": "Powstają przy silnym nagrzaniu powierzchni i wznoszeniu powietrza — np. codzienne ulewy w strefie równikowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "fd79080b8",
+     "przod": "Opady orograficzne",
+     "tyl": "Powstają, gdy powietrze wznosi się po stoku gór; najwięcej opadów po stronie dowietrznej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f5ab7795c",
+     "przod": "Opady frontalne",
+     "tyl": "Powstają na frontach atmosferycznych przy wznoszeniu się ciepłego powietrza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "fba24605b",
+     "przod": "Wilgotność względna",
+     "tyl": "Stosunek ilości pary wodnej w powietrzu do maksymalnej możliwej w danej temperaturze, w %.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f2d06baea",
+     "przod": "Punkt rosy",
+     "tyl": "Temperatura, do której trzeba ochłodzić powietrze, by para wodna zaczęła się skraplać.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f0f032dc5",
+     "przod": "Cień opadowy",
+     "tyl": "Obszar suchy po zawietrznej stronie gór.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f44e1fe84",
+     "przod": "Rozpoznaj: Polarno-morskie (najczęstsze), polarno-kontynentalne, arktyczne, zwrotnikowe.",
+     "tyl": "Masy powietrza nad Polską",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f8311fedf",
+     "przod": "Rozpoznaj: Strefa styku dwóch mas powietrza o różnych cechach.",
+     "tyl": "Front atmosferyczny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f16b1be9a",
+     "przod": "Rozpoznaj: Powstają przy silnym nagrzaniu powierzchni i wznoszeniu powietrza — np. codzienne ulewy w strefie równikowej.",
+     "tyl": "Opady konwekcyjne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "fb75a1156",
+     "przod": "Rozpoznaj: Powstają, gdy powietrze wznosi się po stoku gór; najwięcej opadów po stronie dowietrznej.",
+     "tyl": "Opady orograficzne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f5c0be51e",
+     "przod": "Rozpoznaj: Stosunek ilości pary wodnej w powietrzu do maksymalnej możliwej w danej temperaturze, w %.",
+     "tyl": "Wilgotność względna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f5349bd42",
+     "przod": "Rozpoznaj: Temperatura, do której trzeba ochłodzić powietrze, by para wodna zaczęła się skraplać.",
+     "tyl": "Punkt rosy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f05fec81f",
+     "przod": "Rozpoznaj: Obszar suchy po zawietrznej stronie gór.",
+     "tyl": "Cień opadowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pbb7b76b2",
+     "pytanie": "Długotrwałe opady ciągłe i chmury warstwowe są typowe dla frontu:",
+     "odpowiedzi": [
+      "chłodnego",
+      "stacjonarnego tylko nad oceanem",
+      "ciepłego",
+      "zokludowanego tylko latem"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ciepłe powietrze łagodnie nasuwa się na chłodne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p49788d69",
+     "pytanie": "Burze i krótkie ulewy z gwałtownym ochłodzeniem przynosi front:",
+     "odpowiedzi": [
+      "chłodny",
+      "wyż",
+      "masa zwrotnikowa",
+      "ciepły"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Chłodne powietrze gwałtownie wypiera ciepłe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p744ae878",
+     "pytanie": "Najczęstszą masą powietrza nad Polską jest masa:",
+     "odpowiedzi": [
+      "zwrotnikowa",
+      "polarno-morska",
+      "polarno-kontynentalna",
+      "arktyczna"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Napływa znad Atlantyku.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p45b3ff1f",
+     "pytanie": "Opady po dowietrznej stronie gór to opady:",
+     "odpowiedzi": [
+      "monsunowe",
+      "frontalne",
+      "orograficzne",
+      "konwekcyjne"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wymuszone wznoszenie po stoku.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p93204c5e",
+     "pytanie": "Gdy powietrze ochłodzi się do punktu rosy:",
+     "odpowiedzi": [
+      "zanika zachmurzenie",
+      "zaczyna się kondensacja pary wodnej",
+      "wilgotność względna spada do 0%",
+      "ciśnienie gwałtownie rośnie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wilgotność względna osiąga 100%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p47ce7c09",
+     "pytanie": "Obszar suchy za grzbietem górskim to:",
+     "odpowiedzi": [
+      "front ciepły",
+      "cień opadowy",
+      "strefa konwergencji",
+      "oko cyklonu"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Powietrze opada i ogrzewa się.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-klimaty",
+   "nazwa": "Strefy klimatyczne i klimatogramy",
+   "opis": "Wymaganie III.7–8 podstawy programowej.",
+   "wymaganie": "III.7–8",
+   "fiszki": [
+    {
+     "id": "f84e66a8c",
+     "przod": "Czynniki klimatotwórcze",
+     "tyl": "Szerokość geograficzna, cyrkulacja atmosferyczna, odległość od morza, prądy morskie, wysokość n.p.m., rzeźba terenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "fc7204b70",
+     "przod": "Klimat równikowy wilgotny",
+     "tyl": "Wysokie temperatury (ok. 25–28°C) przez cały rok, mała amplituda roczna, opady całoroczne, zwykle powyżej 2000 mm.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f91ce6253",
+     "przod": "Klimat podrównikowy",
+     "tyl": "Wysokie temperatury, wyraźna pora deszczowa (latem) i sucha.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f6a2fbd84",
+     "przod": "Klimat zwrotnikowy suchy",
+     "tyl": "Bardzo małe opady (poniżej 250 mm), duże dobowe amplitudy temperatury — pustynie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "fcb3fb403",
+     "przod": "Klimat śródziemnomorski",
+     "tyl": "Gorące, suche lato i łagodna, wilgotna zima.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "ffefe700c",
+     "przod": "Klimat umiarkowany morski",
+     "tyl": "Łagodne zimy i chłodne lata, mała amplituda roczna, opady przez cały rok.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f9986b260",
+     "przod": "Klimat umiarkowany kontynentalny",
+     "tyl": "Mroźne zimy i ciepłe lata, duża amplituda roczna, maksimum opadów latem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f78851fa6",
+     "przod": "Klimat subpolarny i polarny",
+     "tyl": "Krótkie, chłodne lato lub jego brak, bardzo mroźne zimy, małe opady.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f098031ee",
+     "przod": "Kontynentalizm klimatu",
+     "tyl": "Wzrost rocznej amplitudy temperatury i spadek opadów w miarę oddalania się od oceanu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f7ed03582",
+     "przod": "Rozpoznawanie klimatogramu — krok 1",
+     "tyl": "Sprawdź, w których miesiącach jest najcieplej: maksimum w lipcu — półkula N, w styczniu — półkula S.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f7d03e3d4",
+     "przod": "Rozpoznawanie klimatogramu — krok 2",
+     "tyl": "Oceń amplitudę i rozkład opadów: mała amplituda i duże opady — równik; suche lato — śródziemnomorski; duża amplituda — kontynentalny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f7d3f996f",
+     "przod": "Klimat Polski",
+     "tyl": "Umiarkowany przejściowy: ścierają się wpływy oceaniczne i kontynentalne; zmienna pogoda.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "fbb736666",
+     "przod": "Rozpoznaj: Wysokie temperatury (ok. 25–28°C) przez cały rok, mała amplituda roczna, opady całoroczne, zwykle powyżej 2000 mm.",
+     "tyl": "Klimat równikowy wilgotny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f51541403",
+     "przod": "Rozpoznaj: Wysokie temperatury, wyraźna pora deszczowa (latem) i sucha.",
+     "tyl": "Klimat podrównikowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "fe9d7f35b",
+     "przod": "Rozpoznaj: Bardzo małe opady (poniżej 250 mm), duże dobowe amplitudy temperatury — pustynie.",
+     "tyl": "Klimat zwrotnikowy suchy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "fe7f27ed9",
+     "przod": "Rozpoznaj: Gorące, suche lato i łagodna, wilgotna zima.",
+     "tyl": "Klimat śródziemnomorski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "fe74b8976",
+     "przod": "Rozpoznaj: Łagodne zimy i chłodne lata, mała amplituda roczna, opady przez cały rok.",
+     "tyl": "Klimat umiarkowany morski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "fe7f5f591",
+     "przod": "Rozpoznaj: Mroźne zimy i ciepłe lata, duża amplituda roczna, maksimum opadów latem.",
+     "tyl": "Klimat umiarkowany kontynentalny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "fa0d87ef6",
+     "przod": "Rozpoznaj: Krótkie, chłodne lato lub jego brak, bardzo mroźne zimy, małe opady.",
+     "tyl": "Klimat subpolarny i polarny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f70872e0b",
+     "przod": "Rozpoznaj: Wzrost rocznej amplitudy temperatury i spadek opadów w miarę oddalania się od oceanu.",
+     "tyl": "Kontynentalizm klimatu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    },
+    {
+     "id": "f7fe3ef49",
+     "przod": "Rozpoznaj: Umiarkowany przejściowy: ścierają się wpływy oceaniczne i kontynentalne; zmienna pogoda.",
+     "tyl": "Klimat Polski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.7–8"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pbc243075",
+     "pytanie": "Klimatogram: temperatury 26–27°C przez cały rok, opady w każdym miesiącu, suma 2500 mm. To klimat:",
+     "odpowiedzi": [
+      "śródziemnomorski",
+      "zwrotnikowy suchy",
+      "równikowy wilgotny",
+      "umiarkowany morski"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Brak pór roku termicznych, obfite opady.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe1a6a3d9",
+     "pytanie": "Gorące, suche lato i łagodna, deszczowa zima to klimat:",
+     "odpowiedzi": [
+      "śródziemnomorski",
+      "monsunowy",
+      "podrównikowy",
+      "umiarkowany kontynentalny"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Latem wpływ wyżów zwrotnikowych.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pebe398f1",
+     "pytanie": "Najcieplejszy miesiąc w klimatogramie to styczeń. Stacja leży na półkuli:",
+     "odpowiedzi": [
+      "wschodniej",
+      "południowej",
+      "zachodniej",
+      "północnej"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Lato na półkuli S przypada na grudzień–luty.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p218b9d49",
+     "pytanie": "Amplituda roczna temperatury rośnie wraz z:",
+     "odpowiedzi": [
+      "zbliżaniem się do równika",
+      "zbliżaniem się do oceanu",
+      "oddalaniem się od oceanu",
+      "wzrostem zachmurzenia"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Kontynentalizm.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa72e3896",
+     "pytanie": "Ciepły prąd morski przy wybrzeżu:",
+     "odpowiedzi": [
+      "nie wpływa na klimat",
+      "łagodzi zimy i zwiększa opady",
+      "wywołuje pustynie przybrzeżne",
+      "obniża temperaturę lata"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Np. Prąd Północnoatlantycki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06651ce5",
+     "pytanie": "Klimat Polski określa się jako:",
+     "odpowiedzi": [
+      "umiarkowany przejściowy",
+      "umiarkowany morski",
+      "umiarkowany kontynentalny suchy",
+      "subpolarny"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Wpływy oceaniczne i kontynentalne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3d911ce2",
+     "pytanie": "Pustynie przybrzeżne, np. Atakama, powstają m.in. pod wpływem:",
+     "odpowiedzi": [
+      "monsunów",
+      "zimnych prądów morskich",
+      "ciepłych prądów morskich",
+      "niżów równikowych"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Zimna woda ochładza powietrze i hamuje opady.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
