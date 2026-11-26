@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-43-alkany",
+  "pytania": [
+    {
+      "id": "wzor",
+      "typ": "abcd",
+      "pytanie": "Alkan o 8 atomach C ma wzór:",
+      "odpowiedzi": [
+        "C₈H₁₈",
+        "C₈H₁₆",
+        "C₈H₁₄",
+        "C₈H₂₀"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "CnH₂n₊₂."
+    },
+    {
+      "id": "wrzenie",
+      "typ": "abcd",
+      "pytanie": "Wyższą temperaturę wrzenia ma:",
+      "odpowiedzi": [
+        "pentan",
+        "2,2-dimetylopropan",
+        "oba jednakową",
+        "zależy od ciśnienia, nie od budowy"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Rozgałęzienie obniża temperaturę wrzenia."
+    },
+    {
+      "id": "substytucja",
+      "typ": "abcd",
+      "pytanie": "CH₄ + Cl₂ →(hν) CH₃Cl + HCl to:",
+      "odpowiedzi": [
+        "substytucja rodnikowa",
+        "addycja elektrofilowa",
+        "eliminacja",
+        "polimeryzacja"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Wodór zastąpiony chlorem."
+    },
+    {
+      "id": "woda-bromowa",
+      "typ": "abcd",
+      "pytanie": "Heksan z wodą bromową w ciemności:",
+      "odpowiedzi": [
+        "nie reaguje",
+        "odbarwia ją natychmiast",
+        "tworzy osad",
+        "wydziela wodór"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Tak odróżnia się alkany od alkenów."
+    },
+    {
+      "id": "cyklo",
+      "typ": "abcd",
+      "pytanie": "Wzór ogólny cykloalkanów:",
+      "odpowiedzi": [
+        "CnH₂n",
+        "CnH₂n₊₂",
+        "CnH₂n₋₂",
+        "CnHn"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Cykloheksan C₆H₁₂ to izomer heksenu."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Współczynnik przy O₂ w 2C₈H₁₈ + …O₂ → 16CO₂ + 18H₂O:",
+      "odpowiedzi": [
+        "25",
+        "16",
+        "18",
+        "50"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "(32 + 18) / 2 = 25."
+    }
+  ]
+}

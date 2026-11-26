@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-42-izomeria",
+  "pytania": [
+    {
+      "id": "pentan",
+      "typ": "abcd",
+      "pytanie": "Liczba izomerów konstytucyjnych C₅H₁₂:",
+      "odpowiedzi": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Pentan, 2-metylobutan, 2,2-dimetylopropan."
+    },
+    {
+      "id": "funkcyjna",
+      "typ": "abcd",
+      "pytanie": "Etanol i eter dimetylowy to izomery:",
+      "odpowiedzi": [
+        "grup funkcyjnych",
+        "łańcuchowe",
+        "położenia",
+        "optyczne"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Ten sam wzór C₂H₆O, różne grupy funkcyjne."
+    },
+    {
+      "id": "cistrans",
+      "typ": "abcd",
+      "pytanie": "Izomerię cis-trans wykazuje:",
+      "odpowiedzi": [
+        "but-2-en",
+        "but-1-en",
+        "propen",
+        "eten"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Każdy C przy C=C musi mieć dwa różne podstawniki."
+    },
+    {
+      "id": "chiralny",
+      "typ": "abcd",
+      "pytanie": "Asymetryczny atom węgla ma:",
+      "odpowiedzi": [
+        "butan-2-ol",
+        "propan-2-ol",
+        "etanol",
+        "metanol"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Potrzebne cztery różne podstawniki."
+    },
+    {
+      "id": "nazwa",
+      "typ": "abcd",
+      "pytanie": "Nazwa systematyczna CH₃–CH(CH₃)–CH₂–CH₃:",
+      "odpowiedzi": [
+        "2-metylobutan",
+        "3-metylobutan",
+        "pentan",
+        "2-etylopropan"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Najdłuższy łańcuch: 4 C; metyl przy C2."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Liczba izomerów konstytucyjnych C₄H₁₀:",
+      "odpowiedzi": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Łańcuch prosty i rozgałęziony."
+    }
+  ]
+}

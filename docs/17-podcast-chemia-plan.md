@@ -114,9 +114,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 ## Dział: Wstęp do chemii organicznej i węglowodory
 
-**42. Izomeria i nazewnictwo** `c-izomeria` ⬜
+**42. Izomeria i nazewnictwo** `c-izomeria` ✅
 
-**43. Alkany i cykloalkany** `c-alkany` ⬜
+**43. Alkany i cykloalkany** `c-alkany` ✅
 
 **44. Alkeny i alkiny** `c-alkeny` ⬜
 
