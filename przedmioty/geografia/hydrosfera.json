@@ -406,6 +406,108 @@
        "d": "Parowanie z gleby i roślin na lądzie zamyka mały obieg."
       }
      ]
+    },
+    {
+     "id": "s68b5883f",
+     "typ": "rysunek",
+     "tytul": "Prądy morskie Atlantyku Północnego",
+     "opis": "Uproszczony układ głównych prądów Atlantyku Północnego (czerwone — ciepłe, niebieskie — zimne).",
+     "uwaga": "Prądy w strefie zwrotnikowej tworzą wir krążący zgodnie z ruchem wskazówek zegara (półkula N). Zimne prądy wzdłuż zachodnich wybrzeży kontynentów sprzyjają pustyniom nadbrzeżnym.",
+     "svg": "<rect class=\"gw\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gl ol\" d=\"M0 0 H118 L140 38 L114 78 L130 118 L96 158 L72 196 L40 226 L0 236 Z\"/><ellipse class=\"gi\" cx=\"160\" cy=\"22\" rx=\"30\" ry=\"18\"/><path class=\"gl ol\" d=\"M262 0 H400 V128 L334 120 L302 110 L282 80 L302 60 L282 30 Z\"/><path class=\"gl ol\" d=\"M300 132 L400 132 V300 L332 300 L302 258 L272 220 L266 182 Z\"/><path class=\"gl ol\" d=\"M92 262 L150 250 L176 300 H84 Z\"/><path class=\"dash\" d=\"M0 252 H400\"/><text class=\"ts\" x=\"395\" y=\"248\" text-anchor=\"end\">równik</text><path class=\"dash\" d=\"M0 175 H400\" style=\"opacity:.6\"/><text class=\"ts\" x=\"395\" y=\"171\" text-anchor=\"end\">23°27′N</text><path class=\"hot\" d=\"M95 192 C120 175 135 150 150 128 C180 100 230 80 270 62 C290 52 300 42 305 30\" style=\"stroke-width:3.2\"/><path class=\"hotf\" d=\"M305 30 l-9 2 l5 -9 Z\"/><path class=\"hot\" d=\"M262 218 C220 222 170 215 110 200\" style=\"stroke-width:2.6\"/><path class=\"hotf\" d=\"M110 200 l9 -4 l-2 8 Z\"/><path class=\"cold\" d=\"M300 118 C292 140 280 160 276 196\" style=\"stroke-width:3\"/><path class=\"coldf\" d=\"M276 200 l-4 -9 l9 1 Z\"/><path class=\"cold\" d=\"M175 40 C160 55 145 70 132 96\" style=\"stroke-width:3\"/><path class=\"coldf\" d=\"M130 100 l0 -10 l8 4 Z\"/><rect class=\"hotf\" x=\"8\" y=\"270\" width=\"12\" height=\"4\"/><text class=\"ts\" x=\"24\" y=\"275\">ciepły</text><rect class=\"coldf\" x=\"8\" y=\"284\" width=\"12\" height=\"4\"/><text class=\"ts\" x=\"24\" y=\"289\">zimny</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 140,
+       "y": 140,
+       "lx": 160,
+       "ly": 175,
+       "n": "Golfsztrom",
+       "d": "Ciepły — z Zatoki Meksykańskiej wzdłuż wybrzeży USA"
+      },
+      {
+       "x": 240,
+       "y": 75,
+       "lx": 200,
+       "ly": 110,
+       "n": "Północnoatlantycki",
+       "d": "Ciepły — ogrzewa Europę Zachodnią i Norwegię (porty niezamarzające)"
+      },
+      {
+       "x": 285,
+       "y": 160,
+       "lx": 225,
+       "ly": 150,
+       "n": "Kanaryjski",
+       "d": "Zimny — wzdłuż Afryki; pustynia nadbrzeżna Sahara Zachodnia"
+      },
+      {
+       "x": 150,
+       "y": 70,
+       "lx": 190,
+       "ly": 80,
+       "n": "Labradorski",
+       "d": "Zimny — z Arktyki, niesie góry lodowe"
+      },
+      {
+       "x": 190,
+       "y": 214,
+       "lx": 170,
+       "ly": 235,
+       "n": "Pasatowy Północny",
+       "d": "Ciepły — pędzony przez pasaty na zachód"
+      }
+     ]
+    },
+    {
+     "id": "se4537375",
+     "typ": "rysunek",
+     "tytul": "Warunki normalne i El Niño na Pacyfiku",
+     "opis": "Przekrój przez równikowy Pacyfik w warunkach normalnych i w czasie El Niño.",
+     "uwaga": "El Niño występuje co 2–7 lat. Zanika upwelling przy Peru — spadają połowy sardeli; w Australii i Indonezji susze i pożary, w Peru i Ekwadorze ulewy i powodzie.",
+     "svg": "<rect class=\"gn\" x=\"5\" y=\"20\" width=\"190\" height=\"80\"/><rect class=\"gw2\" x=\"5\" y=\"100\" width=\"190\" height=\"140\"/><path class=\"gl ol\" d=\"M5 100 L27 100 L23 240 L5 240 Z\"/><path class=\"gl ol\" d=\"M195 100 L173 100 L179 240 L195 240 Z\"/><path class=\"gm2\" d=\"M27 100 L173 100 L173 108 Q95 125 25 165 Z\" opacity=\"0.85\"/><path class=\"dash\" d=\"M25 168 Q95 128 173 110\"/><path class=\"s\" d=\"M115.0 70.0 L75.0 70.0\"/><path class=\"d\" d=\"M75.0 70.0 L81.3 67.0 L81.3 73.0 Z\"/><path class=\"s\" d=\"M170.0 70.0 L130.0 70.0\"/><path class=\"d\" d=\"M130.0 70.0 L136.3 67.0 L136.3 73.0 Z\"/><path class=\"gk\" d=\"M35 60 q-8 0 -8 -7 q0 -7 9 -7 q3 -8 13 -6 q8 -5 13 2 q8 0 8 7 q0 7 -8 7 Z\"/><path class=\"cold\" d=\"M155.0 140.0 L155.0 112.0\"/><path class=\"coldf\" d=\"M155.0 112.0 L157.6 117.4 L152.4 117.4 Z\"/><text class=\"tb\" x=\"100\" y=\"258\" text-anchor=\"middle\">warunki normalne</text><text class=\"ts\" x=\"9\" y=\"275\">Australia</text><text class=\"ts\" x=\"191\" y=\"275\" text-anchor=\"end\">Peru</text><rect class=\"gn\" x=\"205\" y=\"20\" width=\"190\" height=\"80\"/><rect class=\"gw2\" x=\"205\" y=\"100\" width=\"190\" height=\"140\"/><path class=\"gl ol\" d=\"M205 100 L227 100 L223 240 L205 240 Z\"/><path class=\"gl ol\" d=\"M395 100 L373 100 L379 240 L395 240 Z\"/><path class=\"gm2\" d=\"M227 100 L373 100 L373 132 Q295 138 225 140 Z\" opacity=\"0.85\"/><path class=\"dash\" d=\"M225 143 Q295 141 373 135\"/><path class=\"s\" d=\"M265.0 70.0 L305.0 70.0\"/><path class=\"d\" d=\"M305.0 70.0 L298.7 73.0 L298.7 67.0 Z\"/><path class=\"gk\" d=\"M345 60 q-8 0 -8 -7 q0 -7 9 -7 q3 -8 13 -6 q8 -5 13 2 q8 0 8 7 q0 7 -8 7 Z\"/><text class=\"tb\" x=\"300\" y=\"258\" text-anchor=\"middle\">El Niño</text><text class=\"ts\" x=\"209\" y=\"275\">Australia</text><text class=\"ts\" x=\"391\" y=\"275\" text-anchor=\"end\">Peru</text><text class=\"ts\" x=\"200\" y=\"292\" text-anchor=\"middle\">przekrój wzdłuż równika; linia przerywana — termoklina</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 80,
+       "y": 70,
+       "lx": 60,
+       "ly": 30,
+       "n": "Pasaty",
+       "d": "Silne — spychają ciepłą wodę na zachód"
+      },
+      {
+       "x": 60,
+       "y": 120,
+       "lx": 70,
+       "ly": 200,
+       "n": "Ciepła woda",
+       "d": "Gromadzi się przy Indonezji — opady"
+      },
+      {
+       "x": 155,
+       "y": 126,
+       "lx": 120,
+       "ly": 160,
+       "n": "Upwelling",
+       "d": "Zimne wody wypływają przy Peru — bogate łowiska"
+      },
+      {
+       "x": 285,
+       "y": 70,
+       "lx": 270,
+       "ly": 30,
+       "n": "Osłabienie pasatów",
+       "d": "Ciepła woda przesuwa się na wschód"
+      },
+      {
+       "x": 360,
+       "y": 60,
+       "lx": 345,
+       "ly": 160,
+       "n": "Ulewy w Peru",
+       "d": "Powodzie w Ameryce Płd., susze w Australii i Indonezji"
+      }
+     ]
     }
    ]
   },
@@ -1059,6 +1161,65 @@
        "ly": 80,
        "n": "Poziom zasilania",
        "d": "Woda wypływa, gdy wylot leży niżej niż ten poziom"
+      }
+     ]
+    },
+    {
+     "id": "s2c948008",
+     "typ": "rysunek",
+     "tytul": "Terasy rzeczne w przekroju doliny",
+     "opis": "Przekrój doliny z terasami (wysokości umowne).",
+     "uwaga": "Terasy powstają, gdy rzeka na przemian akumuluje osady i wcina się w nie (np. po obniżeniu poziomu morza lub wypiętrzeniu terenu). Im wyżej terasa, tym jest starsza.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gl\" d=\"M0 60 L40 62 L60 100 L110 102 L125 150 L165 152 L175 200 L225 200 L235 152 L275 150 L290 102 L340 100 L360 62 L400 60 V300 H0 Z\"/><path class=\"gp\" d=\"M60 100 L110 102 L112 112 L62 110 Z M290 102 L340 100 L338 110 L288 112 Z M125 150 L165 152 L166 162 L126 160 Z M235 152 L275 150 L274 160 L234 162 Z M175 200 L225 200 L225 212 L175 212 Z\"/><path class=\"gw2\" d=\"M188 200 H212 L208 210 H192 Z\"/><path class=\"s\" d=\"M0 60 L40 62 L60 100 L110 102 L125 150 L165 152 L175 200 L225 200 L235 152 L275 150 L290 102 L340 100 L360 62 L400 60\"/><path class=\"gs2\" d=\"M0 240 H400 V300 H0 Z\" opacity=\"0.6\"/><path class=\"s\" d=\"M385 200 V60\"/><path class=\"s\" d=\"M381 200 H385\"/><text class=\"ts\" x=\"378\" y=\"203\" text-anchor=\"end\">0</text><path class=\"s\" d=\"M381 152 H385\"/><text class=\"ts\" x=\"378\" y=\"155\" text-anchor=\"end\">5</text><path class=\"s\" d=\"M381 101 H385\"/><text class=\"ts\" x=\"378\" y=\"104\" text-anchor=\"end\">15</text><path class=\"s\" d=\"M381 61 H385\"/><text class=\"ts\" x=\"378\" y=\"64\" text-anchor=\"end\">30</text><text class=\"ts\" x=\"395\" y=\"50\" text-anchor=\"end\">m nad rzeką</text><path class=\"dash\" d=\"M150 185 H250\"/><text class=\"ts\" x=\"200\" y=\"182\" text-anchor=\"middle\">zasięg wezbrań</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 205,
+       "lx": 230,
+       "ly": 240,
+       "n": "Koryto",
+       "d": "Rzeka w dnie doliny"
+      },
+      {
+       "x": 215,
+       "y": 200,
+       "lx": 270,
+       "ly": 185,
+       "n": "Terasa zalewowa",
+       "d": "Zalewana w czasie wezbrań"
+      },
+      {
+       "x": 145,
+       "y": 151,
+       "lx": 90,
+       "ly": 140,
+       "n": "Terasa I",
+       "d": "Nadzalewowa — dawne dno doliny"
+      },
+      {
+       "x": 85,
+       "y": 101,
+       "lx": 100,
+       "ly": 75,
+       "n": "Terasa II",
+       "d": "Starsza i wyżej położona"
+      },
+      {
+       "x": 50,
+       "y": 82,
+       "lx": 60,
+       "ly": 30,
+       "n": "Zbocze doliny",
+       "d": "Krawędź wysoczyzny"
+      },
+      {
+       "x": 90,
+       "y": 108,
+       "lx": 140,
+       "ly": 125,
+       "n": "Aluwia",
+       "d": "Osady rzeczne budujące terasy"
       }
      ]
     }
