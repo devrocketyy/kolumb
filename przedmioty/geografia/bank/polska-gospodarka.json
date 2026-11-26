@@ -56,6 +56,33 @@
    "dzial": "polska-gospodarka"
   },
   {
+   "tytul": "Eksport do Niemiec",
+   "material": "Tekst autorski. Eksport Polski wyniósł 380 mld euro, z czego do Niemiec — 105 mld euro.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział Niemiec w eksporcie Polski. Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "ok. 27,6%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "105 / 380 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny dużego znaczenia Niemiec w handlu Polski.",
+     "odpowiedz": "Sąsiedztwo i bliskość rynku, duża i bogata gospodarka, wspólny rynek UE, powiązania niemieckich koncernów z fabrykami w Polsce.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-gospodarka-03",
+   "dzial": "polska-gospodarka"
+  },
+  {
    "tytul": "Struktura zatrudnienia",
    "material": "Tekst autorski. W kraju X w rolnictwie pracuje 8% zatrudnionych, w przemyśle i budownictwie 30%, w usługach 62%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -79,7 +106,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-03",
+   "id": "b-polska-gospodarka-04",
    "dzial": "polska-gospodarka"
   },
   {
@@ -106,7 +133,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-04",
+   "id": "b-polska-gospodarka-05",
    "dzial": "polska-gospodarka"
   },
   {
@@ -133,7 +160,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-05",
+   "id": "b-polska-gospodarka-06",
    "dzial": "polska-gospodarka"
   }
  ]

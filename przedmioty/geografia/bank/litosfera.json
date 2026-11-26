@@ -83,6 +83,60 @@
    "dzial": "litosfera"
   },
   {
+   "tytul": "Czas trwania er",
+   "material": "Tekst autorski. Mezozoik trwał od 252 do 66 mln lat temu, a wiek Ziemi to ok. 4600 mln lat.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz czas trwania mezozoiku i jego udział w dziejach Ziemi.",
+     "odpowiedz": "186 mln lat, ok. 4%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "252 − 66; 186 / 4600 × 100 ≈ 4,0.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę orogenezy, która trwa od kenozoiku do dziś, i jedno pasmo górskie w Polsce, które w niej powstało.",
+     "odpowiedz": "alpejska; Karpaty (Tatry)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Młode góry.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-litosfera-04",
+   "dzial": "litosfera"
+  },
+  {
+   "tytul": "Sudety i Karpaty",
+   "material": "Tekst autorski. Najwyższy szczyt Sudetów, Śnieżka, ma 1603 m n.p.m., a Karpat w Polsce, Rysy — 2499 m n.p.m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz różnicę wysokości szczytów.",
+     "odpowiedz": "896 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2499 − 1603.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego Sudety są niższe od Karpat, choć powstały wcześniej.",
+     "odpowiedz": "Sudety sfałdowano w orogenezie hercyńskiej — przez setki milionów lat zostały zrównane przez erozję i tylko częściowo odmłodzone; Karpaty są młode (alpejskie), więc erozja nie zdążyła ich obniżyć.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wiek a wysokość gór.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-litosfera-05",
+   "dzial": "litosfera"
+  },
+  {
    "tytul": "Profil geologiczny",
    "material": "Tekst autorski. W odsłonięciu od dołu występują: piaskowce i łupki z wkładkami węgla (karbon), wapienie z amonitami (jura), glina z głazami narzutowymi (czwartorzęd). Warstwy nie są zaburzone.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -115,7 +169,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-litosfera-04",
+   "id": "b-litosfera-06",
    "dzial": "litosfera"
   },
   {
@@ -142,7 +196,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-litosfera-05",
+   "id": "b-litosfera-07",
    "dzial": "litosfera"
   },
   {
@@ -178,7 +232,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-litosfera-06",
+   "id": "b-litosfera-08",
    "dzial": "litosfera"
   },
   {
@@ -205,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-litosfera-07",
+   "id": "b-litosfera-09",
    "dzial": "litosfera"
   },
   {
@@ -241,7 +295,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-litosfera-08",
+   "id": "b-litosfera-10",
    "dzial": "litosfera"
   }
  ]

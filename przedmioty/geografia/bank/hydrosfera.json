@@ -128,6 +128,78 @@
    "dzial": "hydrosfera"
   },
   {
+   "tytul": "Rów i szczyt",
+   "material": "Tekst autorski. Głębia Challengera w Rowie Mariańskim ma ok. 10 900 m głębokości, a Mount Everest 8849 m n.p.m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, o ile metrów rów jest głębszy niż Everest jest wysoki.",
+     "odpowiedz": "ok. 2051 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "10 900 − 8849.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w strefie jakiej granicy płyt powstają rowy oceaniczne.",
+     "odpowiedz": "zbieżnej — strefa subdukcji",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Płyta oceaniczna zanurza się.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-06",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Amazonka i Wisła",
+   "material": "Tekst autorski. Średni przepływ Amazonki przy ujściu wynosi ok. 209 000 m³/s, a Wisły ok. 1080 m³/s.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy przepływ Amazonki jest większy od przepływu Wisły.",
+     "odpowiedz": "ok. 194 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "209 000 / 1080.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny ogromnego przepływu Amazonki.",
+     "odpowiedz": "Bardzo duże dorzecze (ok. 7 mln km²), obfite opady przez cały rok w klimacie równikowym, zasilanie z obu półkul i z Andów.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-07",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Nil — rzeka tranzytowa",
+   "material": "Tekst autorski. Przepływ Nilu na wysokości Chartumu jest większy niż przy ujściu do Morza Śródziemnego.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego przepływ Nilu maleje w dolnym biegu.",
+     "odpowiedz": "Rzeka płynie przez Saharę, gdzie nie ma dopływów, a woda paruje i jest pobierana do nawadniania pól; Nil jest rzeką tranzytową zasilaną z wilgotnych obszarów równikowych i Wyżyny Abisyńskiej.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Rzeka tranzytowa.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-hydrosfera-08",
+   "dzial": "hydrosfera"
+  },
+  {
    "tytul": "Pomiar przepływu",
    "material": "Tekst autorski. W przekroju pomiarowym rzeka ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -151,7 +223,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-06",
+   "id": "b-hydrosfera-09",
    "dzial": "hydrosfera"
   },
   {
@@ -187,7 +259,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-hydrosfera-07",
+   "id": "b-hydrosfera-10",
    "dzial": "hydrosfera"
   },
   {
@@ -205,7 +277,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-hydrosfera-08",
+   "id": "b-hydrosfera-11",
    "dzial": "hydrosfera"
   },
   {
@@ -232,7 +304,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-09",
+   "id": "b-hydrosfera-12",
    "dzial": "hydrosfera"
   },
   {
@@ -259,7 +331,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-10",
+   "id": "b-hydrosfera-13",
    "dzial": "hydrosfera"
   },
   {
@@ -286,7 +358,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-11",
+   "id": "b-hydrosfera-14",
    "dzial": "hydrosfera"
   },
   {
@@ -313,7 +385,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-12",
+   "id": "b-hydrosfera-15",
    "dzial": "hydrosfera"
   },
   {
@@ -340,7 +412,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-13",
+   "id": "b-hydrosfera-16",
    "dzial": "hydrosfera"
   }
  ]

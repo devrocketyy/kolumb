@@ -29,6 +29,33 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Koszt transportu rudy",
+   "material": "Tekst autorski. Przewóz 1 t rudy na 1000 km kosztuje statkiem ok. 10 USD, a koleją ok. 40 USD.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile kosztuje przewóz 200 tys. t rudy na 500 km statkiem i koleją.",
+     "odpowiedz": "statkiem 1 mln USD, koleją 4 mln USD",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "200 000 × 5 USD i × 20 USD.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego nowe huty buduje się w portach.",
+     "odpowiedz": "Ruda i węgiel są importowane drogą morską — budowa huty w porcie eliminuje drogi przeładunek i transport lądowy.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Huta nadmorska.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-02",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Struktura produkcji energii",
    "material": "Tekst autorski. Kraj Q wyprodukował 160 TWh energii elektrycznej: węgiel 55%, gaz ziemny 10%, wiatr 15%, słońce 10%, biomasa 8%, woda 2%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -61,7 +88,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-przemysl-02",
+   "id": "b-przemysl-03",
    "dzial": "przemysl"
   },
   {
@@ -88,7 +115,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-03",
+   "id": "b-przemysl-04",
    "dzial": "przemysl"
   },
   {
@@ -115,7 +142,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-04",
+   "id": "b-przemysl-05",
    "dzial": "przemysl"
   },
   {
@@ -142,7 +169,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-05",
+   "id": "b-przemysl-06",
    "dzial": "przemysl"
   },
   {
@@ -169,7 +196,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-06",
+   "id": "b-przemysl-07",
    "dzial": "przemysl"
   },
   {
@@ -196,7 +223,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-07",
+   "id": "b-przemysl-08",
    "dzial": "przemysl"
   },
   {
@@ -223,7 +250,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-08",
+   "id": "b-przemysl-09",
    "dzial": "przemysl"
   }
  ]
