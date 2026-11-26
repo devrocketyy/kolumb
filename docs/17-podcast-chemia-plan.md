@@ -40,9 +40,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **11. Hybrydyzacja, kształt i polarność cząsteczek** `c-geometria` ✅
 
-**12. Oddziaływania międzycząsteczkowe a właściwości substancji** `c-oddzialywania` ⬜
+**12. Oddziaływania międzycząsteczkowe a właściwości substancji** `c-oddzialywania` ✅
 
-**13. Powtórka działu: Wiązania i oddziaływania** `wiazania` ⬜
+**13. Powtórka działu: Wiązania i oddziaływania** `wiazania` ✅
 
 ## Dział: Mol i stechiometria
 
