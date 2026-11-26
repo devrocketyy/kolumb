@@ -16,7 +16,7 @@ const dni = arg('dni') ? Number(arg('dni')) : null;
 const doDnia = arg('do') ? new Date(`${arg('do')}T23:59:59+02:00`).toISOString() : null;
 const partia = arg('partia', `partia-${new Date().toISOString().slice(0, 10)}`);
 const plan = arg('plan', doDnia ? 'matura' : 'kod');
-const PRZ = ['biologia', 'chemia', 'historia', 'wos'];
+const PRZ = ['biologia', 'chemia', 'geografia', 'historia', 'wos'];
 const przedmioty = arg('przedmioty') ? [...new Set(arg('przedmioty').split(',').map((x) => x.trim()))] : null;
 if (przedmioty && przedmioty.some((x) => !PRZ.includes(x))) { console.error(`--przedmioty: dozwolone ${PRZ.join(', ')}`); process.exit(1); }
 if (!dni && !doDnia) { console.error('Podaj --dni N albo --do RRRR-MM-DD.'); process.exit(1); }

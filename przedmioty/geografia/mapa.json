@@ -1,0 +1,890 @@
+{
+ "id": "mapa",
+ "nazwa": "Mapa i metody badań",
+ "opis": "Skala, mapa topograficzna i szczegółowa, poziomice, profil, azymut, współrzędne, GIS.",
+ "poddzialy": [
+  {
+   "id": "g-skala",
+   "nazwa": "Skala mapy, odległości i powierzchnie",
+   "opis": "Wymaganie I.3 podstawy programowej.",
+   "wymaganie": "I.3",
+   "fiszki": [
+    {
+     "id": "fe0fa8c02",
+     "przod": "Skala liczbowa",
+     "tyl": "Zapis 1:50 000 oznacza, że 1 cm na mapie to 50 000 cm, czyli 500 m w terenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fe417ed0b",
+     "przod": "Skala mianowana",
+     "tyl": "Zapis słowny, np. „1 cm — 500 m”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fc92b27c8",
+     "przod": "Skala liniowa",
+     "tyl": "Odcinek z podziałką odpowiadający odległościom w terenie; przy powiększaniu mapy zmienia się razem z nią.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fbf50fb93",
+     "przod": "Zamiana skali liczbowej na mianowaną",
+     "tyl": "Mianownik skali skraca się o 5 zer, żeby dostać kilometry: 1:200 000 → 1 cm — 2 km.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f0116ddc4",
+     "przod": "Mapa w większej skali",
+     "tyl": "Mniejszy mianownik (np. 1:10 000 to większa skala niż 1:100 000) — mniejszy obszar, więcej szczegółów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f878615c6",
+     "przod": "Odległość w terenie",
+     "tyl": "Odległość na mapie × mianownik skali. 4 cm na mapie 1:25 000 = 100 000 cm = 1 km.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f6f59b410",
+     "przod": "Powierzchnia w terenie",
+     "tyl": "Powierzchnię na mapie mnoży się przez kwadrat mianownika skali. 1 cm² na mapie 1:50 000 = 0,25 km².",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f6d194b4c",
+     "przod": "Mapa szczegółowa na maturze",
+     "tyl": "Arkusz zawiera mapę wybranego regionu Polski (zwykle 1:50 000 lub w podobnej skali) — z niej pochodzą zadania z odległości, wysokości i kierunków.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "ff64fec6c",
+     "przod": "Typowy błąd: powierzchnia",
+     "tyl": "Przy przeliczaniu powierzchni mianownik skali trzeba podnieść do kwadratu — mnożenie tylko przez skalę daje wynik zaniżony wielokrotnie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "febb0d58b",
+     "przod": "Pomiar drogi krętej",
+     "tyl": "Odcinkami lub nitką: drogę dzieli się na krótkie proste odcinki i sumuje ich długości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f4bc7efec",
+     "przod": "Rozpoznaj: Zapis 1:50 000 oznacza, że 1 cm na mapie to 50 000 cm, czyli 500 m w terenie.",
+     "tyl": "Skala liczbowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fe7caaa7b",
+     "przod": "Rozpoznaj: Zapis słowny, np. „1 cm — 500 m”.",
+     "tyl": "Skala mianowana",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fd048c972",
+     "przod": "Rozpoznaj: Odcinek z podziałką odpowiadający odległościom w terenie; przy powiększaniu mapy zmienia się razem z nią.",
+     "tyl": "Skala liniowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fbc6f12fa",
+     "przod": "Rozpoznaj: Arkusz zawiera mapę wybranego regionu Polski (zwykle 1:50 000 lub w podobnej skali) — z niej pochodzą zadania z odległości, wysokości i kierunków.",
+     "tyl": "Mapa szczegółowa na maturze",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f0346ed98",
+     "przod": "Rozpoznaj: Odcinkami lub nitką: drogę dzieli się na krótkie proste odcinki i sumuje ich długości.",
+     "tyl": "Pomiar drogi krętej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p2885461d",
+     "pytanie": "Na mapie 1:50 000 odległość wynosi 6 cm. W terenie to:",
+     "odpowiedzi": [
+      "3 km",
+      "0,3 km",
+      "30 km",
+      "300 m"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "6 × 50 000 cm = 300 000 cm = 3 km.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3e0d7138",
+     "pytanie": "Która skala jest największa?",
+     "odpowiedzi": [
+      "1:1 000 000",
+      "1:50 000",
+      "1:10 000",
+      "1:100 000"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Najmniejszy mianownik — największa skala.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa178fd0c",
+     "pytanie": "Skala 1:250 000 w postaci mianowanej to:",
+     "odpowiedzi": [
+      "1 cm — 0,25 km",
+      "1 cm — 2,5 km",
+      "1 cm — 25 km",
+      "1 cm — 250 m"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "250 000 cm = 2,5 km.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p22124c87",
+     "pytanie": "Jezioro na mapie 1:50 000 zajmuje 4 cm². W terenie ma powierzchnię:",
+     "odpowiedzi": [
+      "1 km²",
+      "4 km²",
+      "0,2 km²",
+      "2 km²"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "1 cm² = 0,5 km × 0,5 km = 0,25 km²; × 4 = 1 km².",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p379814c3",
+     "pytanie": "Odległość 12 km w terenie na mapie 1:200 000 to:",
+     "odpowiedzi": [
+      "6 cm",
+      "60 cm",
+      "12 cm",
+      "2,4 cm"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "1 cm = 2 km.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8f8eb0b5",
+     "pytanie": "Mapę powiększono dwukrotnie. Skala 1:100 000 zmieni się na:",
+     "odpowiedzi": [
+      "1:100 000",
+      "1:50 000",
+      "1:25 000",
+      "1:200 000"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ta sama odległość w terenie zajmuje dwa razy więcej centymetrów.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-wspolrzedne",
+   "nazwa": "Współrzędne geograficzne i siatka kartograficzna",
+   "opis": "Wymaganie I.3 podstawy programowej.",
+   "wymaganie": "I.3",
+   "fiszki": [
+    {
+     "id": "f5f207896",
+     "przod": "Szerokość geograficzna",
+     "tyl": "Odległość kątowa punktu od równika, mierzona wzdłuż południka: 0°–90° N lub S.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f51f92bd2",
+     "przod": "Długość geograficzna",
+     "tyl": "Odległość kątowa od południka zerowego (Greenwich): 0°–180° E lub W.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f807b42b7",
+     "przod": "Równoleżnik",
+     "tyl": "Okrąg łączący punkty o tej samej szerokości geograficznej. Najdłuższy jest równik.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f0d6635fb",
+     "przod": "Południk",
+     "tyl": "Półokrąg łączący bieguny, wszystkie punkty mają tę samą długość geograficzną. Wszystkie południki mają jednakową długość.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f8dd53be2",
+     "przod": "Długość 1° południka",
+     "tyl": "Około 111 km — służy do obliczania odległości między punktami na tym samym południku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f2e167e98",
+     "przod": "Rozciągłość południkowa",
+     "tyl": "Różnica szerokości geograficznej skrajnych punktów obszaru (kierunek N–S).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f8cba93cd",
+     "przod": "Rozciągłość równoleżnikowa",
+     "tyl": "Różnica długości geograficznej skrajnych punktów obszaru (kierunek W–E).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fcae768d0",
+     "przod": "Odległość między punktami na jednym południku",
+     "tyl": "Różnica szerokości (w stopniach) × 111 km. Gdy punkty leżą po obu stronach równika, szerokości się sumuje.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f5e8de6ef",
+     "przod": "Zapis współrzędnych",
+     "tyl": "Najpierw szerokość, potem długość, z oznaczeniem półkul, np. 52°14′N, 21°01′E.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f895486aa",
+     "przod": "Minuta kątowa",
+     "tyl": "1° = 60′; 1′ = 60″. Na południku 1′ to około 1,85 km (mila morska).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f281ec08e",
+     "przod": "Rozpoznaj: Odległość kątowa punktu od równika, mierzona wzdłuż południka: 0°–90° N lub S.",
+     "tyl": "Szerokość geograficzna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f5f1c77d4",
+     "przod": "Rozpoznaj: Odległość kątowa od południka zerowego (Greenwich): 0°–180° E lub W.",
+     "tyl": "Długość geograficzna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f4cd8d6fe",
+     "przod": "Rozpoznaj: Okrąg łączący punkty o tej samej szerokości geograficznej. Najdłuższy jest równik.",
+     "tyl": "Równoleżnik",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fb23ff46d",
+     "przod": "Rozpoznaj: Różnica szerokości geograficznej skrajnych punktów obszaru (kierunek N–S).",
+     "tyl": "Rozciągłość południkowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f62c7d83c",
+     "przod": "Rozpoznaj: Różnica długości geograficznej skrajnych punktów obszaru (kierunek W–E).",
+     "tyl": "Rozciągłość równoleżnikowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "ffbbb4a80",
+     "przod": "Rozpoznaj: Najpierw szerokość, potem długość, z oznaczeniem półkul, np. 52°14′N, 21°01′E.",
+     "tyl": "Zapis współrzędnych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f1a6b300f",
+     "przod": "Rozpoznaj: 1° = 60′; 1′ = 60″. Na południku 1′ to około 1,85 km (mila morska).",
+     "tyl": "Minuta kątowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p964965ca",
+     "pytanie": "Punkty A (50°N, 20°E) i B (40°N, 20°E). Odległość między nimi wynosi około:",
+     "odpowiedzi": [
+      "555 km",
+      "111 km",
+      "2220 km",
+      "1110 km"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "10° × 111 km.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2b27e9b1",
+     "pytanie": "Punkty 10°N i 20°S leżą na tym samym południku. Różnica szerokości wynosi:",
+     "odpowiedzi": [
+      "30°",
+      "20°",
+      "10°",
+      "50°"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Po obu stronach równika szerokości się dodaje.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd83e18cd",
+     "pytanie": "Wszystkie południki:",
+     "odpowiedzi": [
+      "mają jednakową długość",
+      "przecinają się na równiku",
+      "są tym dłuższe, im bliżej równika",
+      "są równoległe"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Każdy łączy bieguny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p07e81837",
+     "pytanie": "Szerokość geograficzna jest mierzona od:",
+     "odpowiedzi": [
+      "zwrotnika Raka",
+      "południka zerowego",
+      "bieguna północnego",
+      "równika"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Długość — od południka zerowego.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7e66516c",
+     "pytanie": "Obszar rozciąga się od 49°N do 55°N. Jego rozciągłość południkowa wynosi:",
+     "odpowiedzi": [
+      "6°",
+      "104°",
+      "55°",
+      "49°"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "55 − 49.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb52cc4a5",
+     "pytanie": "Najdłuższym równoleżnikiem jest:",
+     "odpowiedzi": [
+      "koło podbiegunowe",
+      "zwrotnik Raka",
+      "równik",
+      "każdy jest równy"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Równoleżniki maleją ku biegunom.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-poziomice",
+   "nazwa": "Poziomice, formy terenu, profil i spadek",
+   "opis": "Wymaganie I.4 podstawy programowej.",
+   "wymaganie": "I.4",
+   "fiszki": [
+    {
+     "id": "fe5e2e19c",
+     "przod": "Poziomica (warstwica)",
+     "tyl": "Linia na mapie łącząca punkty o tej samej wysokości bezwzględnej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "ffd521685",
+     "przod": "Cięcie poziomicowe",
+     "tyl": "Różnica wysokości między sąsiednimi poziomicami, np. 10 m na mapie 1:50 000.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fe9bc3cca",
+     "przod": "Gęste poziomice",
+     "tyl": "Duże nachylenie stoku — stok stromy. Rzadkie poziomice — stok łagodny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f8f28488a",
+     "przod": "Wysokość bezwzględna",
+     "tyl": "Wysokość nad poziomem morza (m n.p.m.). W Polsce liczona od średniego poziomu Bałtyku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "ff680ccd6",
+     "przod": "Wysokość względna",
+     "tyl": "Różnica wysokości bezwzględnych dwóch punktów, np. szczytu i dna doliny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fd6ef74c8",
+     "przod": "Dolina na mapie poziomicowej",
+     "tyl": "Poziomice wygięte w stronę wyższych wysokości (w górę doliny), zwykle z ciekiem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fc2b74cc0",
+     "przod": "Grzbiet na mapie poziomicowej",
+     "tyl": "Poziomice wygięte w stronę niższych wysokości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fcb04555c",
+     "przod": "Przełęcz",
+     "tyl": "Najniższy punkt grzbietu między dwoma wzniesieniami; poziomice tworzą kształt siodła.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f8583d999",
+     "przod": "Profil terenu",
+     "tyl": "Przekrój pionowy wzdłuż linii na mapie — rysuje się go, przenosząc punkty przecięcia z poziomicami na wykres wysokość–odległość.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "ff58346ef",
+     "przod": "Spadek terenu (nachylenie)",
+     "tyl": "Różnica wysokości / odległość pozioma. Np. 50 m na 1000 m = 5% (50‰).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f22ac9b7a",
+     "przod": "Spadek rzeki",
+     "tyl": "Różnica wysokości źródła i ujścia (lub dwóch punktów) podzielona przez długość odcinka, w ‰ lub m/km.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f5f69d4d9",
+     "przod": "Ekspozycja stoku",
+     "tyl": "Kierunek, w który zwrócony jest stok. W Polsce stoki południowe są najcieplejsze i najlepiej nasłonecznione.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fb133346b",
+     "przod": "Rozpoznaj: Linia na mapie łącząca punkty o tej samej wysokości bezwzględnej.",
+     "tyl": "Poziomica (warstwica)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "ff3f29607",
+     "przod": "Rozpoznaj: Najniższy punkt grzbietu między dwoma wzniesieniami; poziomice tworzą kształt siodła.",
+     "tyl": "Przełęcz",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f8c1fae1e",
+     "przod": "Rozpoznaj: Przekrój pionowy wzdłuż linii na mapie — rysuje się go, przenosząc punkty przecięcia z poziomicami na wykres wysokość–odległość.",
+     "tyl": "Profil terenu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fbcb5eb1b",
+     "przod": "Rozpoznaj: Różnica wysokości / odległość pozioma. Np. 50 m na 1000 m = 5% (50‰).",
+     "tyl": "Spadek terenu (nachylenie)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f4638bd94",
+     "przod": "Rozpoznaj: Różnica wysokości źródła i ujścia (lub dwóch punktów) podzielona przez długość odcinka, w ‰ lub m/km.",
+     "tyl": "Spadek rzeki",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f34e7864c",
+     "przod": "Rozpoznaj: Kierunek, w który zwrócony jest stok. W Polsce stoki południowe są najcieplejsze i najlepiej nasłonecznione.",
+     "tyl": "Ekspozycja stoku",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pac369dcd",
+     "pytanie": "Gęsto ułożone poziomice oznaczają:",
+     "odpowiedzi": [
+      "stromy stok",
+      "płaski teren",
+      "dolinę rzeczną",
+      "obszar bezodpływowy"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Duża różnica wysokości na małej odległości.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p10174017",
+     "pytanie": "Szczyt 820 m n.p.m., dno doliny 450 m n.p.m. Wysokość względna wynosi:",
+     "odpowiedzi": [
+      "450 m",
+      "1270 m",
+      "820 m",
+      "370 m"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "820 − 450.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p18447021",
+     "pytanie": "Na odcinku 2 km teren obniża się o 60 m. Spadek wynosi:",
+     "odpowiedzi": [
+      "0,3%",
+      "3‰",
+      "60‰",
+      "30‰ (3%)"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "60 m / 2000 m.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9392c3b8",
+     "pytanie": "Rzeka na odcinku 25 km obniża się o 50 m. Jej spadek wynosi:",
+     "odpowiedzi": [
+      "20‰",
+      "2‰ (2 m/km)",
+      "0,5‰",
+      "50‰"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "50 / 25 000 = 0,002.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p91b4ed4c",
+     "pytanie": "Poziomice wygięte w stronę wyższych wysokości oznaczają zwykle:",
+     "odpowiedzi": [
+      "kopiec",
+      "szczyt",
+      "dolinę",
+      "grzbiet"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Dolina „wcina się” w zbocze.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe08e4415",
+     "pytanie": "Najniższe miejsce na grzbiecie między dwoma szczytami to:",
+     "odpowiedzi": [
+      "kotlina",
+      "stożek napływowy",
+      "próg",
+      "przełęcz"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Siodło między wzniesieniami.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p228e0c63",
+     "pytanie": "Najlepiej nasłonecznione w Polsce są stoki o ekspozycji:",
+     "odpowiedzi": [
+      "wschodniej",
+      "południowej",
+      "zachodniej",
+      "północnej"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Słońce w południe jest na południu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-orientacja",
+   "nazwa": "Kierunki, azymut i orientacja mapy",
+   "opis": "Wymaganie I.4 podstawy programowej.",
+   "wymaganie": "I.4",
+   "fiszki": [
+    {
+     "id": "fc4fab0fb",
+     "przod": "Azymut",
+     "tyl": "Kąt mierzony zgodnie z ruchem wskazówek zegara od kierunku północnego do kierunku na obiekt: 0°–360°.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f35b08f7a",
+     "przod": "Azymuty kierunków głównych",
+     "tyl": "N — 0°, E — 90°, S — 180°, W — 270°. NE — 45°, SE — 135°, SW — 225°, NW — 315°.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f2732e33d",
+     "przod": "Azymut odwrotny",
+     "tyl": "Azymut drogi powrotnej: azymut ± 180°. Np. 60° → 240°.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fec9642a7",
+     "przod": "Orientowanie mapy",
+     "tyl": "Ustawienie mapy tak, by jej północ pokrywała się z północą w terenie — za pomocą kompasu lub obiektów terenowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f5ae8fb6c",
+     "przod": "Wyznaczanie północy według Słońca",
+     "tyl": "W Polsce około 12:00 czasu słonecznego Słońce jest na południu; cień wskazuje północ.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f5610b3a1",
+     "przod": "Gwiazda Polarna",
+     "tyl": "Na półkuli północnej wskazuje kierunek północny; jej wysokość nad horyzontem jest równa szerokości geograficznej obserwatora.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f07b2ad1d",
+     "przod": "Kierunek na mapie",
+     "tyl": "Domyślnie góra mapy to północ, chyba że strzałka północy wskazuje inaczej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f67b809a6",
+     "przod": "Typowy błąd: azymut",
+     "tyl": "Liczenie kąta przeciwnie do ruchu wskazówek zegara albo od kierunku południowego.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "ff30cb95c",
+     "przod": "Rozpoznaj: Kąt mierzony zgodnie z ruchem wskazówek zegara od kierunku północnego do kierunku na obiekt: 0°–360°.",
+     "tyl": "Azymut",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fdd92f583",
+     "przod": "Rozpoznaj: N — 0°, E — 90°, S — 180°, W — 270°. NE — 45°, SE — 135°, SW — 225°, NW — 315°.",
+     "tyl": "Azymuty kierunków głównych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f86e5f8a0",
+     "przod": "Rozpoznaj: Na półkuli północnej wskazuje kierunek północny; jej wysokość nad horyzontem jest równa szerokości geograficznej obserwatora.",
+     "tyl": "Gwiazda Polarna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f0c524ee8",
+     "przod": "Rozpoznaj: Domyślnie góra mapy to północ, chyba że strzałka północy wskazuje inaczej.",
+     "tyl": "Kierunek na mapie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pc17fa0c5",
+     "pytanie": "Azymut kierunku południowo-zachodniego wynosi:",
+     "odpowiedzi": [
+      "45°",
+      "135°",
+      "315°",
+      "225°"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "S = 180°, W = 270°, środek = 225°.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p235cf71c",
+     "pytanie": "Turysta szedł azymutem 70°. Azymut drogi powrotnej:",
+     "odpowiedzi": [
+      "110°",
+      "250°",
+      "20°",
+      "290°"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "70 + 180.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2ffbac93",
+     "pytanie": "Azymut 90° wskazuje kierunek:",
+     "odpowiedzi": [
+      "północny",
+      "zachodni",
+      "południowy",
+      "wschodni"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Liczony od N zgodnie z ruchem wskazówek.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4def0d84",
+     "pytanie": "Wysokość Gwiazdy Polarnej nad horyzontem w Warszawie (ok. 52°N) wynosi około:",
+     "odpowiedzi": [
+      "38°",
+      "90°",
+      "23,5°",
+      "52°"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Równa szerokości geograficznej.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2f4fe1ad",
+     "pytanie": "W Polsce w samo południe słoneczne cień pionowego kija wskazuje:",
+     "odpowiedzi": [
+      "zachód",
+      "wschód",
+      "południe",
+      "północ"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Słońce jest wtedy na południu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pfe16ca53",
+     "pytanie": "Azymut 315° to kierunek:",
+     "odpowiedzi": [
+      "południowo-zachodni",
+      "północno-zachodni",
+      "południowo-wschodni",
+      "północno-wschodni"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Między W (270°) a N (360°).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-gis",
+   "nazwa": "Metody prezentacji, GIS i teledetekcja",
+   "opis": "Wymaganie I.5–6 podstawy programowej.",
+   "wymaganie": "I.5–6",
+   "fiszki": [
+    {
+     "id": "ff2c2d174",
+     "przod": "GIS",
+     "tyl": "System Informacji Geograficznej — narzędzie do gromadzenia, analizy i prezentacji danych przestrzennych w warstwach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f34980db8",
+     "przod": "Warstwa w GIS",
+     "tyl": "Zbiór danych jednego rodzaju (np. drogi, rzeki, budynki) nakładany na inne warstwy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f04b97ded",
+     "przod": "Analiza buforowa",
+     "tyl": "Wyznaczenie strefy w określonej odległości od obiektu, np. 500 m od rzeki.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fc77b693d",
+     "przod": "Teledetekcja",
+     "tyl": "Badanie Ziemi z odległości — zdjęcia satelitarne i lotnicze, skanowanie laserowe (lidar).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "ff538a7ed",
+     "przod": "Ortofotomapa",
+     "tyl": "Zdjęcie lotnicze lub satelitarne przetworzone tak, by miało stałą skalę jak mapa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f28df4967",
+     "przod": "GPS / GNSS",
+     "tyl": "Systemy nawigacji satelitarnej wyznaczające położenie na podstawie sygnałów z satelitów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "ff1f99beb",
+     "przod": "Numeryczny model terenu",
+     "tyl": "Cyfrowy zapis ukształtowania powierzchni — podstawa map hipsometrycznych i profili w GIS.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fb8a14133",
+     "przod": "Zastosowanie GIS — przykład",
+     "tyl": "Wyznaczenie terenów zalewowych: nałożenie warstw rzek, wysokości terenu i zabudowy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "ff72bd1e3",
+     "przod": "Rozpoznaj: System Informacji Geograficznej — narzędzie do gromadzenia, analizy i prezentacji danych przestrzennych w warstwach.",
+     "tyl": "GIS",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f2848f7fe",
+     "przod": "Rozpoznaj: Wyznaczenie strefy w określonej odległości od obiektu, np. 500 m od rzeki.",
+     "tyl": "Analiza buforowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f3ba90b2b",
+     "przod": "Rozpoznaj: Badanie Ziemi z odległości — zdjęcia satelitarne i lotnicze, skanowanie laserowe (lidar).",
+     "tyl": "Teledetekcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f656b65ff",
+     "przod": "Rozpoznaj: Zdjęcie lotnicze lub satelitarne przetworzone tak, by miało stałą skalę jak mapa.",
+     "tyl": "Ortofotomapa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fea353082",
+     "przod": "Rozpoznaj: Systemy nawigacji satelitarnej wyznaczające położenie na podstawie sygnałów z satelitów.",
+     "tyl": "GPS / GNSS",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f3d7ee1c4",
+     "przod": "Rozpoznaj: Cyfrowy zapis ukształtowania powierzchni — podstawa map hipsometrycznych i profili w GIS.",
+     "tyl": "Numeryczny model terenu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p59606a68",
+     "pytanie": "Strefa 1 km wokół lotniska wyznaczona w GIS to wynik analizy:",
+     "odpowiedzi": [
+      "buforowej",
+      "sieciowej",
+      "statystycznej",
+      "kartogramu"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Bufor — strefa w zadanej odległości.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0cc09cb8",
+     "pytanie": "Zdjęcie lotnicze przetworzone tak, by miało stałą skalę, to:",
+     "odpowiedzi": [
+      "globus",
+      "ortofotomapa",
+      "kartodiagram",
+      "mapa konturowa"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ortofotomapa ma geometrię mapy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7bc9a695",
+     "pytanie": "Teledetekcja to:",
+     "odpowiedzi": [
+      "wiercenia geologiczne",
+      "pozyskiwanie informacji o Ziemi z odległości",
+      "pomiar ciśnienia na stacjach",
+      "spis ludności"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Np. zdjęcia satelitarne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06b99b25",
+     "pytanie": "Warstwy w GIS służą do:",
+     "odpowiedzi": [
+      "nakładania i analizy różnych danych dla tego samego obszaru",
+      "całkowitego zastępowania mapy topograficznej w terenie",
+      "bezpośredniego pomiaru temperatury i ciśnienia powietrza",
+      "drukowania map wyłącznie w jednej, stałej skali"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Analiza zależności przestrzennych.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

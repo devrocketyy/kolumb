@@ -13,11 +13,11 @@ export const CLOUD = {
 // a płatności obsługują funkcje supabase/functions (Stripe). Instrukcja: README → „Płatny dostęp”.
 export const PREMIUM = {
   wlaczone: true,
-  // Ceny tylko do wyświetlenia — kwoty pobiera Stripe (sekrety STRIPE_PRICE_MATURA_1/2/3/4 i STRIPE_PRICE_MIESIAC_1/2/3/4).
-  // Klucz = liczba przedmiotów w pakiecie.
+  // Ceny tylko do wyświetlenia — kwoty pobiera Stripe (sekrety STRIPE_PRICE_MATURA_1/2/3 i STRIPE_PRICE_MIESIAC_1/2/3).
+  // Klucz = liczba przedmiotów w pakiecie; od 3 przedmiotów obowiązuje cena „wszystko” (próg 3).
   cennik: {
-    matura: { 1: '179 zł', 2: '289 zł', 3: '369 zł', 4: '429 zł' },
-    miesiac: { 1: '35 zł', 2: '55 zł', 3: '69 zł', 4: '79 zł' },
+    matura: { 1: '179 zł', 2: '289 zł', 3: '369 zł', 4: '369 zł', 5: '369 zł' },
+    miesiac: { 1: '35 zł', 2: '55 zł', 3: '70 zł', 4: '70 zł', 5: '70 zł' },
   },
   maturaDo: 'końca maja 2027',
   sklepKodow: '', // np. adres strony kursu na Naffy, gdzie można kupić kod dostępu

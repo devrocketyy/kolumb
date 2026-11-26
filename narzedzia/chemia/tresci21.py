@@ -101,7 +101,7 @@ q('c-elektroliza',
  ('Masa Ag wydzielona przez 1 F:', ['*108 g', '54 g', '216 g', '1 g'], 'Ag⁺ + e⁻.'))
 q('c-izomeria',
  ('Związek chiralny to:', ['*2-bromobutan', '1-bromobutan', '2-bromopropan', 'bromometan'], 'C2 — cztery różne podstawniki.'),
- ('Izomerem propan-1-olu NIE jest:', ['*propanal', 'propan-2-ol', 'eter etylowo-metylowy'], 'Propanal ma wzór C₃H₆O, a propan-1-ol C₃H₈O.'))
+ ('Izomerem propan-1-olu (C₃H₈O) jest:', ['*eter etylowo-metylowy', 'propanal', 'propan-1,2-diol', 'propen'], 'Ten sam wzór C₃H₈O, inna grupa funkcyjna (eter). Propanal to C₃H₆O.'))
 q('c-alkany',
  ('Nazwa CH₃–C(CH₃)₂–CH₃:', ['*2,2-dimetylopropan', '2-metylobutan', 'pentan', 'dimetylopropan-2'], 'Neopentan.'),
  ('Ile wiązań C–H ma propan?', ['*8', '6', '10', '3'], 'C₃H₈.'))

@@ -49,7 +49,7 @@ export async function klientStripe(uid: string, email?: string) {
 export const appUrl = (hash: string) => `${(Deno.env.get('APP_URL') ?? '').replace(/\/+$/, '')}/${hash}`;
 
 // Przedmioty, które można kupić osobno. Lista musi zgadzać się z migracją 004 (check w dostep_przedmiot).
-export const PRZEDMIOTY = ['biologia', 'chemia', 'historia', 'wos'];
+export const PRZEDMIOTY = ['biologia', 'chemia', 'geografia', 'historia', 'wos'];
 export const listaPrzedmiotow = (x: unknown): string[] => {
   const arr = Array.isArray(x) ? x : String(x ?? '').split(',');
   return [...new Set(arr.map((v) => String(v).trim()).filter((v) => PRZEDMIOTY.includes(v)))].sort();
@@ -60,7 +60,8 @@ export const listaPrzedmiotow = (x: unknown): string[] => {
 //  • matura  — jednorazowa płatność za dostęp do dnia DOSTEP_MATURA_DO (karta, BLIK, Przelewy24).
 // Cena zależy od planu i liczby przedmiotów: sekrety STRIPE_PRICE_MATURA_1/2/3 i STRIPE_PRICE_MIESIAC_1/2/3.
 
-const cena = (plan: string, n: number) => Deno.env.get(`STRIPE_PRICE_${plan.toUpperCase()}_${n}`);
+// Progi cenowe: 1 przedmiot, 2 przedmioty, 3 i więcej (cena „wszystko”).
+const cena = (plan: string, n: number) => Deno.env.get(`STRIPE_PRICE_${plan.toUpperCase()}_${Math.min(n, 3)}`);
 
 Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: cors });

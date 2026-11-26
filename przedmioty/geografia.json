@@ -1,0 +1,18 @@
+{
+ "id": "geografia",
+ "nazwa": "Geografia",
+ "skrot": "GEO",
+ "opis": "Matura rozszerzona z geografii (formuła 2023) — praca z mapą, obliczenia krok po kroku, zadania w stylu CKE.",
+ "dzialy": [
+  {
+   "id": "umiejetnosci",
+   "plik": "geografia/umiejetnosci.json"
+  },
+  {
+   "id": "mapa",
+   "plik": "geografia/mapa.json"
+  }
+ ],
+ "arkusze": [],
+ "bank": []
+}

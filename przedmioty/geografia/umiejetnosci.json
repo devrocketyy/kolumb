@@ -1,0 +1,553 @@
+{
+ "id": "umiejetnosci",
+ "nazwa": "Umiejętności maturalne",
+ "opis": "Polecenia, obserwacja i wniosek, czytanie wykresów, tabel, klimatogramów i kartodiagramów.",
+ "poddzialy": [
+  {
+   "id": "g-polecenia",
+   "nazwa": "Czytanie poleceń i formułowanie odpowiedzi",
+   "opis": "Wymaganie og. II podstawy programowej.",
+   "wymaganie": "og. II",
+   "fiszki": [
+    {
+     "id": "f1d93cd94",
+     "przod": "Obserwacja a wniosek w geografii",
+     "tyl": "Obserwacja opisuje to, co widać na mapie, wykresie lub zdjęciu (np. „poziomice zagęszczają się”). Wniosek to wyjaśnienie lub ocena (np. „stok jest stromy”).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fa8093b83",
+     "przod": "Polecenie „podaj” / „wymień”",
+     "tyl": "Krótka odpowiedź bez uzasadnienia: nazwa, liczba, przykład.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f6d1079c4",
+     "przod": "Polecenie „wyjaśnij”",
+     "tyl": "Związek przyczynowo-skutkowy: przyczyna → mechanizm → skutek, zwykle ze słowem „ponieważ”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f969be4af",
+     "przod": "Polecenie „uzasadnij”",
+     "tyl": "Rozstrzygnięcie jest podane lub wybrane; trzeba dopisać argument oparty na materiale lub wiedzy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f974bcd8f",
+     "przod": "Polecenie „oceń, czy…”",
+     "tyl": "Najpierw rozstrzygnięcie (tak/nie), potem uzasadnienie. Bez rozstrzygnięcia nie ma punktu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f1f7c1d4e",
+     "przod": "Polecenie „porównaj”",
+     "tyl": "Trzeba wskazać obie porównywane rzeczy i cechę, którą się różnią lub łączą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f48304132",
+     "przod": "Polecenie „na podstawie mapy”",
+     "tyl": "Odpowiedź musi wynikać z mapy dołączonej do arkusza — nie z ogólnej wiedzy, nawet jeśli jest prawdziwa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fd467064e",
+     "przod": "Odpowiedź z czynnikiem przyrodniczym i pozaprzyrodniczym",
+     "tyl": "Czynniki przyrodnicze: rzeźba, klimat, gleby, wody, surowce. Pozaprzyrodnicze: ludność, kapitał, transport, polityka, tradycja, rynek zbytu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fceb691ce",
+     "przod": "Dwie odpowiedzi „na wszelki wypadek”",
+     "tyl": "Jeśli jedna z podanych odpowiedzi jest błędna, egzaminator przyznaje 0 pkt.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f51a0c0c6",
+     "przod": "Jednostka w odpowiedzi geograficznej",
+     "tyl": "Wynik obliczeń zawsze z jednostką (km, m n.p.m., ‰, os./km², °). Wynik bez jednostki zwykle traci punkt.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f92d84499",
+     "przod": "Konkret w odpowiedzi",
+     "tyl": "Zamiast „dobre warunki” — „żyzne gleby (czarnoziemy)”. Ogólnik bez nazwy cechy nie daje punktu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fea163e49",
+     "przod": "Nazwy geograficzne w odpowiedzi",
+     "tyl": "Muszą być zapisane poprawnie i jednoznacznie, np. „Kotlina Kłodzka”, a nie „kotlina na południu”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fa535e2ec",
+     "przod": "Rozpoznaj: Zamiast „dobre warunki” — „żyzne gleby (czarnoziemy)”. Ogólnik bez nazwy cechy nie daje punktu.",
+     "tyl": "Konkret w odpowiedzi",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "fa7ce3e03",
+     "przod": "Rozpoznaj: Muszą być zapisane poprawnie i jednoznacznie, np. „Kotlina Kłodzka”, a nie „kotlina na południu”.",
+     "tyl": "Nazwy geograficzne w odpowiedzi",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pfec7fa32",
+     "pytanie": "Uczeń napisał: „Na zboczu rośnie las, ponieważ jest tam za stromo na pola”. Pierwsza część zdania to:",
+     "odpowiedzi": [
+      "uzasadnienie",
+      "hipoteza",
+      "wniosek",
+      "obserwacja"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Las na zboczu widać na mapie — to obserwacja; „ponieważ…” to wniosek.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2ca020a8",
+     "pytanie": "Polecenie „Oceń, czy… Odpowiedź uzasadnij” wymaga:",
+     "odpowiedzi": [
+      "rozstrzygnięcia i argumentu",
+      "samego rozstrzygnięcia",
+      "samego argumentu",
+      "przykładu z innego regionu"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Bez rozstrzygnięcia tak/nie punkt nie jest przyznawany.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p82dee9cf",
+     "pytanie": "Który czynnik lokalizacji jest pozaprzyrodniczy?",
+     "odpowiedzi": [
+      "dostępność wykwalifikowanej siły roboczej",
+      "występowanie złóż węgla",
+      "długość okresu wegetacyjnego",
+      "żyzność gleb"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Siła robocza to czynnik społeczno-ekonomiczny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1ac22fd4",
+     "pytanie": "Polecenie „na podstawie mapy” oznacza, że odpowiedź:",
+     "odpowiedzi": [
+      "musi wynikać z treści mapy",
+      "nie wymaga nazw geograficznych",
+      "może mieć dowolną dokładność",
+      "może opierać się wyłącznie na wiedzy własnej"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Egzaminator sprawdza, czy uczeń odczytał mapę.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe4b468bb",
+     "pytanie": "Uczeń podał dwie odpowiedzi, z których jedna jest błędna. Otrzyma:",
+     "odpowiedzi": [
+      "połowę punktów",
+      "pełną liczbę punktów",
+      "1 pkt",
+      "0 pkt"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Odpowiedzi sprzeczne lub z błędną alternatywą nie są punktowane.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1968a562",
+     "pytanie": "Najlepsza odpowiedź na „Wyjaśnij, dlaczego w regionie rozwinęło się sadownictwo”:",
+     "odpowiedzi": [
+      "Ponieważ warunki do prowadzenia działalności rolniczej są tam ogólnie dobre.",
+      "Ponieważ jest to region rolniczy, w którym pracuje wielu rolników.",
+      "Ponieważ żyzne gleby, łagodny klimat i bliski rynek zbytu sprzyjają uprawie owoców.",
+      "Ponieważ w regionie od dawna znajduje się wiele dużych sadów owocowych."
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wyjaśnienie wskazuje konkretne przyczyny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-dane",
+   "nazwa": "Wykresy, tabele, kartodiagramy i kartogramy",
+   "opis": "Wymaganie I.1–2 podstawy programowej.",
+   "wymaganie": "I.1–2",
+   "fiszki": [
+    {
+     "id": "f863f855c",
+     "przod": "Kartodiagram",
+     "tyl": "Mapa z diagramami (słupki, koła) umieszczonymi w jednostkach przestrzennych — pokazuje wartości bezwzględne, np. liczbę ludności.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "fa61821d4",
+     "przod": "Kartogram",
+     "tyl": "Mapa, na której jednostki przestrzenne zabarwiono w zależności od natężenia zjawiska — pokazuje wartości względne, np. gęstość zaludnienia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f7e2959d1",
+     "przod": "Metoda izarytmiczna",
+     "tyl": "Izolinie łączą punkty o tej samej wartości: izotermy (temperatura), izobary (ciśnienie), izohiety (opady), poziomice (wysokość).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "fde7caee0",
+     "przod": "Metoda sygnaturowa",
+     "tyl": "Znaki (punktowe, liniowe, powierzchniowe) pokazują położenie obiektów, np. kopalnie, elektrownie, drogi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "fe1addb60",
+     "przod": "Metoda zasięgów",
+     "tyl": "Linia lub barwa wyznacza obszar występowania zjawiska, np. zasięg zlodowacenia lub upraw.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "fc6730959",
+     "przod": "Metoda kropkowa",
+     "tyl": "Każda kropka oznacza określoną liczbę jednostek (np. 1000 osób) — pokazuje rozmieszczenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f4b8fc96b",
+     "przod": "Klimatogram — elementy",
+     "tyl": "Słupki — miesięczne sumy opadów (mm), linia — średnie miesięczne temperatury (°C); podpis często zawiera roczną sumę opadów i średnią roczną temperaturę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f50e19f24",
+     "przod": "Amplituda roczna temperatury",
+     "tyl": "Różnica między średnią temperaturą najcieplejszego i najzimniejszego miesiąca.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f2a3768c9",
+     "przod": "Piramida wieku",
+     "tyl": "Wykres struktury ludności według wieku i płci. Szeroka podstawa — duży przyrost naturalny; zwężona podstawa — starzenie się społeczeństwa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f0325165c",
+     "przod": "Wykres trójkątny",
+     "tyl": "Pokazuje udziały trzech składników sumujących się do 100% (np. zatrudnienie w rolnictwie, przemyśle i usługach).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "fa06ae2e6",
+     "przod": "Czytanie trendu na wykresie",
+     "tyl": "Opis: kierunek (wzrost/spadek), tempo (szybki/powolny), wartości i lata skrajne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "ffa065528",
+     "przod": "Typowy błąd: kartogram a kartodiagram",
+     "tyl": "Kartogram — wartości względne (na km², na 1000 osób). Kartodiagram — wartości bezwzględne. Pomylenie metod to częsty błąd w zadaniach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "fdbf5b2be",
+     "przod": "Rozpoznaj: Mapa z diagramami (słupki, koła) umieszczonymi w jednostkach przestrzennych — pokazuje wartości bezwzględne, np. liczbę ludności.",
+     "tyl": "Kartodiagram",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "fd55c87b4",
+     "przod": "Rozpoznaj: Mapa, na której jednostki przestrzenne zabarwiono w zależności od natężenia zjawiska — pokazuje wartości względne, np. gęstość zaludnienia.",
+     "tyl": "Kartogram",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f79739dee",
+     "przod": "Rozpoznaj: Izolinie łączą punkty o tej samej wartości: izotermy (temperatura), izobary (ciśnienie), izohiety (opady), poziomice (wysokość).",
+     "tyl": "Metoda izarytmiczna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "ffe253d69",
+     "przod": "Rozpoznaj: Znaki (punktowe, liniowe, powierzchniowe) pokazują położenie obiektów, np. kopalnie, elektrownie, drogi.",
+     "tyl": "Metoda sygnaturowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "fc426f38a",
+     "przod": "Rozpoznaj: Pokazuje udziały trzech składników sumujących się do 100% (np. zatrudnienie w rolnictwie, przemyśle i usługach).",
+     "tyl": "Wykres trójkątny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "ff97ef792",
+     "przod": "Rozpoznaj: Opis: kierunek (wzrost/spadek), tempo (szybki/powolny), wartości i lata skrajne.",
+     "tyl": "Czytanie trendu na wykresie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p1ba4e638",
+     "pytanie": "Gęstość zaludnienia w województwach najlepiej przedstawić metodą:",
+     "odpowiedzi": [
+      "izarytmiczną",
+      "kartogramu",
+      "kartodiagramu",
+      "sygnaturową"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Gęstość to wartość względna (os./km²).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe6f7958c",
+     "pytanie": "Izohiety to linie łączące punkty o jednakowej:",
+     "odpowiedzi": [
+      "sumie opadów",
+      "ciśnieniu",
+      "temperaturze",
+      "wysokości"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Izotermy — temperatura, izobary — ciśnienie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pfde72959",
+     "pytanie": "W klimatogramie słupki przedstawiają zwykle:",
+     "odpowiedzi": [
+      "miesięczne sumy opadów",
+      "ciśnienie atmosferyczne",
+      "średnie temperatury",
+      "liczbę dni słonecznych"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Linia to temperatura.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5de08758",
+     "pytanie": "Średnia temperatura lipca 18°C, stycznia −4°C. Amplituda roczna wynosi:",
+     "odpowiedzi": [
+      "18°C",
+      "7°C",
+      "22°C",
+      "14°C"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "18 − (−4) = 22.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p40847ee4",
+     "pytanie": "Piramida wieku z wąską podstawą i szerokim środkiem wskazuje na:",
+     "odpowiedzi": [
+      "dużą imigrację rodzin z małymi dziećmi",
+      "wysoką umieralność niemowląt i młodzieży",
+      "niski przyrost naturalny i starzenie się",
+      "eksplozję demograficzną i bardzo dużo dzieci"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Mało dzieci — niski przyrost.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcb9eb4fa",
+     "pytanie": "Liczbę ludności miast na mapie najlepiej przedstawić metodą:",
+     "odpowiedzi": [
+      "kartodiagramu (koła o różnej wielkości)",
+      "kartogramu (barwy według natężenia)",
+      "izarytmiczną (linie jednakowych wartości)",
+      "zasięgów (granice występowania zjawiska)"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Wartości bezwzględne w punktach.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-obliczenia",
+   "nazwa": "Obliczenia geograficzne: wskaźniki, gęstość, przyrost, zmiany procentowe",
+   "opis": "Wymaganie og. II.8 podstawy programowej.",
+   "wymaganie": "og. II.8",
+   "fiszki": [
+    {
+     "id": "ffa140763",
+     "przod": "Gęstość zaludnienia",
+     "tyl": "Liczba ludności podzielona przez powierzchnię, w os./km².",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f1a70f028",
+     "przod": "Współczynnik przyrostu naturalnego",
+     "tyl": "(urodzenia − zgony) / liczba ludności × 1000, w ‰.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "fb6567181",
+     "przod": "Saldo migracji",
+     "tyl": "Napływ minus odpływ ludności. Dodatnie — więcej imigrantów, ujemne — więcej emigrantów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "fa7fd1b76",
+     "przod": "Przyrost rzeczywisty",
+     "tyl": "Przyrost naturalny + saldo migracji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "fab5628c9",
+     "przod": "Wskaźnik urbanizacji",
+     "tyl": "Udział ludności miejskiej w ogólnej liczbie ludności, w %.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "fecc5e327",
+     "przod": "Zmiana procentowa",
+     "tyl": "(wartość nowa − wartość dawna) / wartość dawna × 100%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f41f802dc",
+     "przod": "Zmiana w punktach procentowych",
+     "tyl": "Różnica dwóch wartości wyrażonych w procentach, np. z 20% do 25% to wzrost o 5 punktów procentowych, czyli o 25%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "fcd9fd4cb",
+     "przod": "Udział procentowy",
+     "tyl": "Część / całość × 100%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f3e6ce8f7",
+     "przod": "Wskaźnik feminizacji",
+     "tyl": "Liczba kobiet przypadająca na 100 mężczyzn.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f1a0fd648",
+     "przod": "Typowy błąd w obliczeniach",
+     "tyl": "Mylenie ‰ z % albo pominięcie jednostki. Przyrost naturalny podaje się zwykle w promilach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f28a2c695",
+     "przod": "Rozpoznaj: Liczba ludności podzielona przez powierzchnię, w os./km².",
+     "tyl": "Gęstość zaludnienia",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f74e0ca8f",
+     "przod": "Rozpoznaj: (urodzenia − zgony) / liczba ludności × 1000, w ‰.",
+     "tyl": "Współczynnik przyrostu naturalnego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "fd5a490d4",
+     "przod": "Rozpoznaj: Udział ludności miejskiej w ogólnej liczbie ludności, w %.",
+     "tyl": "Wskaźnik urbanizacji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "fed1af035",
+     "przod": "Rozpoznaj: (wartość nowa − wartość dawna) / wartość dawna × 100%.",
+     "tyl": "Zmiana procentowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f4091f06f",
+     "przod": "Rozpoznaj: Liczba kobiet przypadająca na 100 mężczyzn.",
+     "tyl": "Wskaźnik feminizacji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pf809f238",
+     "pytanie": "Gmina ma 12 000 mieszkańców i 80 km². Gęstość zaludnienia wynosi:",
+     "odpowiedzi": [
+      "15 os./km²",
+      "96 os./km²",
+      "1500 os./km²",
+      "150 os./km²"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "12 000 / 80.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p39aee65c",
+     "pytanie": "W mieście o 50 000 mieszkańców urodziło się 600 osób, zmarło 450. Współczynnik przyrostu naturalnego:",
+     "odpowiedzi": [
+      "15‰",
+      "30‰",
+      "3‰",
+      "0,3‰"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "(600 − 450) / 50 000 × 1000 = 3.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc8a00a53",
+     "pytanie": "Przyrost naturalny +1200 osób, saldo migracji −1500. Przyrost rzeczywisty:",
+     "odpowiedzi": [
+      "+2700 osób",
+      "−2700 osób",
+      "+300 osób",
+      "−300 osób"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "1200 + (−1500).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc6575ef2",
+     "pytanie": "Udział usług w zatrudnieniu wzrósł z 40% do 50%. To wzrost o:",
+     "odpowiedzi": [
+      "10 punktów procentowych (25%)",
+      "50%",
+      "10%",
+      "20 punktów procentowych"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "(50 − 40) / 40 = 25%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p52366b92",
+     "pytanie": "Na 100 mężczyzn przypada 107 kobiet. Wskaźnik feminizacji wynosi:",
+     "odpowiedzi": [
+      "1,07",
+      "7",
+      "93",
+      "107"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Z definicji — liczba kobiet na 100 mężczyzn.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa86a21ba",
+     "pytanie": "Ludność wzrosła z 2,0 do 2,5 mln. Zmiana procentowa:",
+     "odpowiedzi": [
+      "+0,5%",
+      "+20%",
+      "+25%",
+      "+50%"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "0,5 / 2,0 × 100%.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

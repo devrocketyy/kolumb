@@ -4,7 +4,8 @@
 // Cena zależy od planu i liczby przedmiotów: sekrety STRIPE_PRICE_MATURA_1/2/3 i STRIPE_PRICE_MIESIAC_1/2/3.
 import { stripe, json, cors, uczen, klientStripe, appUrl, listaPrzedmiotow } from '../_shared/wspolne.ts';
 
-const cena = (plan: string, n: number) => Deno.env.get(`STRIPE_PRICE_${plan.toUpperCase()}_${n}`);
+// Progi cenowe: 1 przedmiot, 2 przedmioty, 3 i więcej (cena „wszystko”).
+const cena = (plan: string, n: number) => Deno.env.get(`STRIPE_PRICE_${plan.toUpperCase()}_${Math.min(n, 3)}`);
 
 Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: cors });
