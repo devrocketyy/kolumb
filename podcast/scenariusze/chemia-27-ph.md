@@ -25,6 +25,10 @@ pH to minus logarytm dziesiętny ze stężenia jonów wodorowych. Jeśli stęże
 
 Kwas solny jest mocny i dysocjuje całkowicie, więc roztwór o stężeniu zero przecinek zero jeden ma pH dwa. Rozcieńczony dziesięć razy — pH trzy.
 
+Kilka wartości z życia, żeby mieć punkt odniesienia. Sok żołądkowy ma pH około jednego do dwóch. Sok z cytryny — około dwóch. Czysta woda — siedem. Krew — siedem i cztery dziesiąte. Mydło — około dziesięciu. Środek do udrażniania rur — powyżej trzynastu.
+
+pH mierzy się pehametrem albo wskaźnikami. Oranż metylowy jest czerwony w silnie kwaśnym środowisku, a żółty powyżej pH około czterech i pół. Fenoloftaleina zmienia barwę dopiero w zasadowym, około pH ośmiu. Dobór wskaźnika zależy od tego, w jakim zakresie pH chcemy coś zobaczyć.
+
 [pytanie: ph-hcl]
 
 Sprawdź się. Jakie pH ma roztwór HCl o stężeniu 0,01 mol/dm³?
@@ -54,6 +58,10 @@ Wzrośnie o jeden. Na przykład z dwóch do trzech.
 W wodzie zawsze iloczyn stężeń H⁺ i OH⁻ wynosi dziesięć do minus czternastej, w dwudziestu pięciu stopniach. Więc pH plus pOH równa się czternaście.
 
 Wodorotlenek sodu o stężeniu zero przecinek zero zero jeden: stężenie OH⁻ dziesięć do minus trzeciej, pOH trzy, pH jedenaście.
+
+Mini-obliczenie z mieszaniem. Pięćdziesiąt centymetrów sześciennych kwasu solnego o stężeniu dwie dziesiąte zmieszano z pięćdziesięcioma centymetrami NaOH o stężeniu jedna dziesiąta. Kwasu było jedna setna mola, zasady pięć tysięcznych. Po zobojętnieniu zostaje pięć tysięcznych mola H⁺ w stu centymetrach, czyli jednej dziesiątej decymetra. Stężenie: pięć setnych mola na decymetr. pH około jednego i trzech dziesiątych.
+
+Typowy błąd: liczenie stężenia nadmiaru w objętości tylko jednego roztworu. Po zmieszaniu objętości się sumują.
 
 [pytanie: ph-naoh]
 
@@ -90,6 +98,10 @@ Jeden przecinek trzy tysięcznej mola na decymetr.
 Stała dysocjacji to stała równowagi dla dysocjacji. Dla kwasu octowego: stężenie H⁺ razy stężenie octanu, przez stężenie niezdysocjowanego kwasu. Zależy tylko od temperatury.
 
 Prawo rozcieńczeń Ostwalda łączy stałą i stopień: dla słabych elektrolitów w przybliżeniu K równa się alfa kwadrat razy stężenie. Wniosek: im bardziej rozcieńczysz słaby kwas, tym większy stopień dysocjacji.
+
+Im większa stała dysocjacji, tym mocniejszy kwas. Kwas octowy ma stałą około jednego przecinek osiem razy dziesięć do minus piątej. Kwas mrówkowy — około dziesięć razy większą, więc jest mocniejszy. Porównując kwasy, zawsze porównuj stałe, a nie stężenia czy pH konkretnych roztworów.
+
+Typowy błąd: przekonanie, że rozcieńczenie zmienia stałą dysocjacji. Zmienia stopień dysocjacji, a stała zależy tylko od temperatury.
 
 [pytanie: ostwald]
 

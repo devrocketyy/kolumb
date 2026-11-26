@@ -45,6 +45,10 @@ Wodór z jodem: H₂ plus I₂ daje dwa HI. W równowadze w litrze jest jedna dz
 
 Duże K oznacza, że w równowadze przeważają produkty. Ciała stałe i woda jako rozpuszczalnik nie wchodzą do wyrażenia.
 
+Często stężenia równowagowe trzeba policzyć samemu. Mini-obliczenie: do litrowego naczynia wprowadzono po jednym molu wodoru i jodu. W równowadze jest jeden przecinek sześć mola jodowodoru. Skoro powstało jeden przecinek sześć mola HI, przereagowało po osiem dziesiątych mola wodoru i jodu. Zostało po dwie dziesiąte. K równa się jeden przecinek sześć do kwadratu przez dwie dziesiąte razy dwie dziesiąte — dwa przecinek pięćdziesiąt sześć przez cztery setne, czyli sześćdziesiąt cztery. Ta sama wartość co wcześniej, bo temperatura się nie zmieniła.
+
+Tabelka „początek, zmiana, równowaga” to najpewniejszy sposób na takie zadania.
+
 [pytanie: k]
 
 Sprawdź się. Oblicz K dla H₂ + I₂ ⇌ 2HI, jeśli [H₂] = [I₂] = 0,1, a [HI] = 0,8 mol/dm³.
@@ -76,6 +80,10 @@ Co się dzieje, gdy zaburzysz równowagę? Reguła Le Chateliera, czyli reguła 
 Synteza amoniaku: N₂ plus trzy H₂ daje dwa NH₃, reakcja egzotermiczna.
 
 Dodasz wodoru — układ go zużywa, równowaga w prawo. Zwiększysz ciśnienie — układ zmniejsza liczbę cząsteczek gazu: z czterech moli po lewej na dwa po prawej, więc w prawo. Podniesiesz temperaturę — układ pochłania ciepło, czyli biegnie kierunek endotermiczny, tutaj w lewo.
+
+Reguła przekory działa też w twoim organizmie. Hemoglobina wiąże tlen w płucach, gdzie jest go dużo, a oddaje w tkankach, gdzie jest go mało. To przesuwanie równowagi przez zmianę stężenia.
+
+Typowy błąd: twierdzenie, że po dodaniu substratu zmienia się stała równowagi. Zmienia się skład mieszaniny, a stała zostaje ta sama. Jedynie zmiana temperatury zmienia wartość K: dla reakcji egzotermicznej ogrzanie ją zmniejsza.
 
 [pytanie: cisnienie]
 

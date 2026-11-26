@@ -27,6 +27,10 @@ Reakcja endoenergetyczna pochłania energię — otoczenie się ochładza. Rozk�
 
 Miarą jest zmiana entalpii, delta H. Dla reakcji egzotermicznej delta H jest ujemna — układ traci energię. Dla endotermicznej dodatnia.
 
+Ogrzewacz do rąk z woreczkiem jednorazowym działa dzięki utlenianiu sproszkowanego żelaza tlenem z powietrza — w gruncie rzeczy to bardzo szybkie rdzewienie. Rozdrobnienie żelaza i obecność soli przyspieszają reakcję, a woreczek oddaje ciepło przez kilka godzin.
+
+Typowy błąd: mylenie znaku delta H z kierunkiem przepływu ciepła w otoczeniu. Gdy otoczenie się nagrzewa, układ traci energię — delta H jest ujemna. Patrz zawsze z punktu widzenia układu.
+
 [pytanie: znak]
 
 Sprawdź się. Jaki znak ma delta H reakcji egzotermicznej?
@@ -75,6 +79,10 @@ Czasem reakcji nie da się zmierzyć bezpośrednio. Spalając węgiel w niedomia
 
 Znamy: spalanie węgla do CO₂, minus trzysta dziewięćdziesiąt cztery. Spalanie CO do CO₂, minus dwieście osiemdziesiąt trzy. Droga przez CO musi dać tyle samo co droga bezpośrednia. Więc tworzenie CO: minus trzysta dziewięćdziesiąt cztery minus minus dwieście osiemdziesiąt trzy — minus sto jedenaście kilodżuli.
 
+Druga, bardzo częsta metoda liczenia: ze standardowych entalpii tworzenia. Entalpia reakcji to suma entalpii tworzenia produktów minus suma entalpii tworzenia substratów. Pierwiastki w stanie podstawowym mają entalpię tworzenia równą zeru.
+
+Sprawdźmy na spalaniu metanu. Entalpia tworzenia CO₂ to minus trzysta dziewięćdziesiąt cztery, ciekłej wody minus dwieście osiemdziesiąt sześć, metanu minus siedemdziesiąt pięć kilodżuli na mol. Produkty: minus trzysta dziewięćdziesiąt cztery plus dwa razy minus dwieście osiemdziesiąt sześć, razem minus dziewięćset sześćdziesiąt sześć. Minus substraty: minus siedemdziesiąt pięć, a tlen ma zero. Wynik: około minus ośmiuset dziewięćdziesięciu jeden. Zgadza się z wartością z równania.
+
 [pytanie: hess]
 
 Sprawdź się. Ile wynosi ΔH reakcji C + ½O₂ → CO, jeśli C → CO₂ ma −394 kJ, a CO → CO₂ ma −283 kJ?
@@ -92,6 +100,10 @@ Minus sto jedenaście kilodżuli. Odejmujemy drugie równanie od pierwszego.
 Nawet reakcja silnie egzotermiczna nie rusza sama. Zapałkę trzeba potrzeć. Potrzebna jest energia aktywacji — próg, który cząsteczki muszą przeskoczyć.
 
 Katalizator obniża ten próg. Ale nie zmienia delta H — stan początkowy i końcowy zostają te same.
+
+Na wykresie energetycznym energia aktywacji to wysokość „górki” między substratami a najwyższym punktem. Delta H to różnica poziomów substratów i produktów. Katalizator obniża górkę, ale poziomy początkowy i końcowy zostają na miejscu.
+
+Typowy błąd: zaznaczanie energii aktywacji od poziomu produktów. Energię aktywacji reakcji w prawo liczy się zawsze od substratów.
 
 [pytanie: katalizator]
 
