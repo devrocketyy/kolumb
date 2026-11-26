@@ -1075,6 +1075,30 @@
    "wymaganie": "V.6–9",
    "fiszki": [
     {
+     "id": "facf41dc4",
+     "przod": "Erozja wsteczna",
+     "tyl": "Cofanie się źródeł rzeki i progów (wodospadów) w górę doliny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f343925f9",
+     "przod": "Erozja wgłębna i boczna",
+     "tyl": "Wgłębna pogłębia koryto (góry), boczna poszerza dolinę (niziny).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f257fcc8a",
+     "przod": "Terasy rzeczne",
+     "tyl": "Stopnie w dolinie rzeki — dawne dna doliny, rozcięte wskutek wzmożonej erozji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f43aaacfb",
+     "przod": "Abrazja",
+     "tyl": "Niszcząca działalność fal morskich — tworzy klif i platformę abrazyjną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
      "id": "fc87fdc17",
      "przod": "Wietrzenie fizyczne",
      "tyl": "Mechaniczny rozpad skał bez zmiany składu, np. mrozowe (zamarzanie wody w szczelinach) i termiczne (na pustyniach).",
@@ -1189,6 +1213,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
     },
     {
+     "id": "fdd5d3c95",
+     "przod": "Rozpoznaj: Cofanie się źródeł rzeki i progów (wodospadów) w górę doliny.",
+     "tyl": "Erozja wsteczna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "fba55faf2",
+     "przod": "Rozpoznaj: Stopnie w dolinie rzeki — dawne dna doliny, rozcięte wskutek wzmożonej erozji.",
+     "tyl": "Terasy rzeczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
      "id": "f3a872805",
      "przod": "Rozpoznaj: Mechaniczny rozpad skał bez zmiany składu, np. mrozowe (zamarzanie wody w szczelinach) i termiczne (na pustyniach).",
      "tyl": "Wietrzenie fizyczne",
@@ -1250,6 +1286,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p9486087f",
+     "pytanie": "Cofanie się wodospadu w górę doliny to:",
+     "odpowiedzi": [
+      "abrazja",
+      "erozja wsteczna",
+      "erozja boczna",
+      "akumulacja"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Np. Niagara.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p80fb2262",
+     "pytanie": "Niszcząca działalność fal morskich to:",
+     "odpowiedzi": [
+      "egzaracja",
+      "deflacja",
+      "abrazja",
+      "korazja"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Klif.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4df46f5b",
+     "pytanie": "Stopnie w dolinie rzeki będące dawnymi dnami to:",
+     "odpowiedzi": [
+      "terasy",
+      "ozy",
+      "moreny",
+      "kemy"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Terasy rzeczne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "p32cbb91f",
      "pytanie": "Jaskinie i stalaktyty to formy rzeźby:",

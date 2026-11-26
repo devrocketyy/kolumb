@@ -12,13 +12,31 @@
     {
      "id": "f2ff7be2f",
      "przod": "Liczba ludności Polski",
-     "tyl": "Ok. 37,5 mln (połowa lat 20. XXI w.) i powoli maleje.",
+     "tyl": "Ok. 37,5 mln (2024) i maleje.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.1–4"
     },
     {
      "id": "f5a5260a5",
      "przod": "Gęstość zaludnienia Polski",
-     "tyl": "Średnio ok. 120 os./km²; najwyższa w województwie śląskim, najniższa w podlaskim.",
+     "tyl": "Ok. 120 os./km²; najwyższa w woj. śląskim, najniższa w podlaskim.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.1–4"
+    },
+    {
+     "id": "f8668f4fe",
+     "przod": "Współczynnik dzietności w Polsce",
+     "tyl": "Ok. 1,1–1,2 — znacznie poniżej zastępowalności pokoleń (2,1).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.1–4"
+    },
+    {
+     "id": "f7d23d76c",
+     "przod": "Emigracja z Polski po 2004 r.",
+     "tyl": "Główne kierunki: Wielka Brytania, Niemcy, Irlandia, Holandia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.1–4"
+    },
+    {
+     "id": "f60325854",
+     "przod": "Imigracja do Polski",
+     "tyl": "Najwięcej imigrantów z Ukrainy, także z Białorusi, Gruzji, Indii.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.1–4"
     },
     {
@@ -31,18 +49,6 @@
      "id": "fc60a8432",
      "przod": "Przyczyny spadku liczby ludności Polski",
      "tyl": "Ujemny przyrost naturalny i niska dzietność oraz emigracja.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.1–4"
-    },
-    {
-     "id": "f7d23d76c",
-     "przod": "Emigracja z Polski po 2004 r.",
-     "tyl": "Masowe wyjazdy do Wielkiej Brytanii, Niemiec i Irlandii po wejściu do UE.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.1–4"
-    },
-    {
-     "id": "f60325854",
-     "przod": "Imigracja do Polski",
-     "tyl": "W ostatnich latach przeważa imigracja, głównie z Ukrainy, także z Białorusi i krajów Azji.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.1–4"
     },
     {
@@ -94,15 +100,21 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.1–4"
     },
     {
-     "id": "f4081adea",
-     "przod": "Rozpoznaj: Ok. 37,5 mln (połowa lat 20. XXI w.) i powoli maleje.",
+     "id": "f077356b1",
+     "przod": "Rozpoznaj: Ok. 37,5 mln (2024) i maleje.",
      "tyl": "Liczba ludności Polski",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.1–4"
     },
     {
-     "id": "f93023415",
-     "przod": "Rozpoznaj: Średnio ok. 120 os./km²; najwyższa w województwie śląskim, najniższa w podlaskim.",
+     "id": "ff1dcd5d9",
+     "przod": "Rozpoznaj: Ok. 120 os./km²; najwyższa w woj. śląskim, najniższa w podlaskim.",
      "tyl": "Gęstość zaludnienia Polski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.1–4"
+    },
+    {
+     "id": "fdda8e1e3",
+     "przod": "Rozpoznaj: Ok. 1,1–1,2 — znacznie poniżej zastępowalności pokoleń (2,1).",
+     "tyl": "Współczynnik dzietności w Polsce",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XV.1–4"
     },
     {
@@ -161,6 +173,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p803ea05d",
+     "pytanie": "Najwyższą gęstość zaludnienia w Polsce ma województwo:",
+     "odpowiedzi": [
+      "mazowieckie",
+      "śląskie",
+      "podlaskie",
+      "małopolskie"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Konurbacja.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcca2f7c3",
+     "pytanie": "Współczynnik dzietności w Polsce wynosi ok.:",
+     "odpowiedzi": [
+      "2,1–2,2",
+      "3,0–3,5",
+      "1,1–1,2",
+      "0,5–0,6"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Poniżej zastępowalności.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p60e43d81",
+     "pytanie": "Najwięcej imigrantów w Polsce pochodzi z:",
+     "odpowiedzi": [
+      "Niemiec",
+      "Francji",
+      "Wietnamu",
+      "Ukrainy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Zwłaszcza po 2022 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "pdba7e519",
      "pytanie": "Najwyższą gęstość zaludnienia ma województwo:",

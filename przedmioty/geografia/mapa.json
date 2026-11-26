@@ -1360,6 +1360,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
     },
     {
+     "id": "fbabac793",
+     "przod": "Busola",
+     "tyl": "Przyrząd do wyznaczania kierunków i azymutów z igłą magnetyczną.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f639db363",
+     "przod": "Orientacja według Słońca",
+     "tyl": "O 12:00 czasu słonecznego Słońce jest na południu (na półkuli N, poza zwrotnikami).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f2ed8eeef",
+     "przod": "Azymut wsteczny",
+     "tyl": "Azymut + 180° (lub − 180°, gdy azymut > 180°).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
      "id": "fc4fab0fb",
      "przod": "Azymut",
      "tyl": "Kąt mierzony zgodnie z ruchem wskazówek zegara od kierunku północnego do kierunku na obiekt: 0°–360°.",
@@ -1423,6 +1441,12 @@
      "id": "f22844d32",
      "przod": "Rozpoznaj: NE, SE, SW, NW — azymuty 45°, 135°, 225°, 315°.",
      "tyl": "Kierunki pośrednie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f4f5ef365",
+     "przod": "Rozpoznaj: Przyrząd do wyznaczania kierunków i azymutów z igłą magnetyczną.",
+     "tyl": "Busola",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
     },
     {
@@ -1527,6 +1551,32 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Półkula N.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p52782ac1",
+     "pytanie": "Azymut wsteczny dla azymutu 250° wynosi:",
+     "odpowiedzi": [
+      "290°",
+      "110°",
+      "70°",
+      "430°"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "250 − 180.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p45301dd5",
+     "pytanie": "W południe słoneczne w Polsce Słońce znajduje się na:",
+     "odpowiedzi": [
+      "zachodzie",
+      "wschodzie",
+      "południu",
+      "północy"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Górowanie.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
@@ -1664,6 +1714,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
     },
     {
+     "id": "f8c9139d1",
+     "przod": "Dane przestrzenne",
+     "tyl": "Informacje o obiektach z przypisanym położeniem (współrzędnymi).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f062b849d",
+     "przod": "Model rastrowy",
+     "tyl": "Obraz złożony z pikseli (np. zdjęcie satelitarne, NMT).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f259edaa2",
+     "przod": "Numeryczny model terenu (NMT)",
+     "tyl": "Cyfrowy zapis wysokości powierzchni terenu — podstawa map spadków i profili.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fa0b23e84",
+     "przod": "Zastosowania GIS",
+     "tyl": "Planowanie przestrzenne, zarządzanie kryzysowe, nawigacja, rolnictwo precyzyjne, ochrona środowiska.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
      "id": "ff2c2d174",
      "przod": "GIS",
      "tyl": "System Informacji Geograficznej — narzędzie do gromadzenia, analizy i prezentacji danych przestrzennych w warstwach.",
@@ -1727,6 +1801,24 @@
      "id": "f0e22fb21",
      "przod": "Rozpoznaj: Zdjęcie lotnicze lub satelitarne przekształcone do skali mapy.",
      "tyl": "Ortofotomapa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fbbedccc5",
+     "przod": "Rozpoznaj: Informacje o obiektach z przypisanym położeniem (współrzędnymi).",
+     "tyl": "Dane przestrzenne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fcd940263",
+     "przod": "Rozpoznaj: Obraz złożony z pikseli (np. zdjęcie satelitarne, NMT).",
+     "tyl": "Model rastrowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f619e8a7c",
+     "przod": "Rozpoznaj: Planowanie przestrzenne, zarządzanie kryzysowe, nawigacja, rolnictwo precyzyjne, ochrona środowiska.",
+     "tyl": "Zastosowania GIS",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
     },
     {
@@ -1831,6 +1923,32 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Trzy współrzędne + czas.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2c492880",
+     "pytanie": "Cyfrowy zapis wysokości terenu to:",
+     "odpowiedzi": [
+      "kartogram",
+      "ortofotomapa",
+      "mapa sozologiczna",
+      "numeryczny model terenu"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "NMT.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2cba02fc",
+     "pytanie": "Zdjęcie satelitarne jest przykładem danych:",
+     "odpowiedzi": [
+      "wektorowych",
+      "tabelarycznych",
+      "opisowych",
+      "rastrowych"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Piksele.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
