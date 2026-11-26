@@ -52,7 +52,7 @@ Q=[
 ],
 Q=[
  ('Zakłady montażowe w Meksyku przy granicy z USA to:', ['*maquiladoras', 'technopolie', 'kolchozy', 'fawele'], 'Eksport do USA.'),
- ('Shenzhen jest przykładem:', ['*specjalnej strefy ekonomicznej w Chinach', 'okręgu węglowego w Rosji', 'portu w Japonii', 'parku narodowego'], 'Od 1980 r.'),
+ ('Shenzhen jest przykładem:', ['*specjalnej strefy ekonomicznej w Chinach', 'okręgu węglowego na Syberii w Rosji', 'portu kontenerowego w Japonii', 'parku narodowego w górach Chin'], 'Od 1980 r.'),
  ('Bangladesz specjalizuje się w eksporcie:', ['*odzieży', 'ropy naftowej', 'samolotów', 'kawy'], 'Tania siła robocza.'),
  ('Gospodarka Rosji opiera się głównie na:', ['*eksporcie surowców energetycznych', 'turystyce zagranicznej i wypoczynkowej', 'usługach finansowych i bankowości', 'rolnictwie plantacyjnym na eksport'], 'Ropa i gaz.'),
 ]),
