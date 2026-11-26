@@ -1036,6 +1036,36 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
     },
     {
+     "id": "fae9570e8",
+     "przod": "Grzbiet na poziomicach",
+     "tyl": "Poziomice wygięte w kształt V skierowany w dół stoku (od szczytu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f3684006c",
+     "przod": "Przełęcz na poziomicach",
+     "tyl": "Obniżenie między dwoma szczytami — poziomice układają się jak „klepsydra”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "ff36aeaf3",
+     "przod": "Kopulaste wzniesienie",
+     "tyl": "Zamknięte poziomice, w środku rzadkie (płaski wierzchołek), na zewnątrz gęste.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fab519509",
+     "przod": "Stok wypukły i wklęsły",
+     "tyl": "Wypukły: poziomice gęste u dołu; wklęsły: poziomice gęste u góry.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f03fd78ee",
+     "przod": "Kreskowanie zagłębień",
+     "tyl": "Krótkie kreski przy poziomicy zwrócone w dół — oznaczają zagłębienie bezodpływowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
      "id": "fa3a5fb85",
      "przod": "Mapa hipsometryczna",
      "tyl": "Mapa z warstwami wysokości oznaczonymi barwami (zielone niziny, żółte i brązowe wyżyny i góry).",
@@ -1051,12 +1081,6 @@
      "id": "fff367c2f",
      "przod": "Kąt nachylenia stoku",
      "tyl": "tg α = różnica wysokości / odległość pozioma. Spadek 100% odpowiada kątowi 45°.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
-    },
-    {
-     "id": "fab519509",
-     "przod": "Stok wypukły i wklęsły",
-     "tyl": "Wypukły — poziomice gęstsze u dołu; wklęsły — poziomice gęstsze u góry stoku.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
     },
     {
@@ -1123,6 +1147,12 @@
      "id": "f34e7864c",
      "przod": "Rozpoznaj: Kierunek, w który zwrócony jest stok. W Polsce stoki południowe są najcieplejsze i najlepiej nasłonecznione.",
      "tyl": "Ekspozycja stoku",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f3b181586",
+     "przod": "Rozpoznaj: Zamknięte poziomice, w środku rzadkie (płaski wierzchołek), na zewnątrz gęste.",
+     "tyl": "Kopulaste wzniesienie",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
     },
     {
@@ -1273,6 +1303,45 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Słońce w południe jest na południu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb4ad3e48",
+     "pytanie": "Poziomice wygięte w V skierowane w dół stoku oznaczają:",
+     "odpowiedzi": [
+      "przełęcz",
+      "grzbiet",
+      "zagłębienie",
+      "dolinę"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Odwrotnie niż dolina.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcb447fb4",
+     "pytanie": "Obniżenie między dwoma szczytami to:",
+     "odpowiedzi": [
+      "przełęcz",
+      "stożek",
+      "kocioł",
+      "kopuła"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Np. Przełęcz Krowiarki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p88f875e7",
+     "pytanie": "Stok wypukły ma poziomice gęstsze:",
+     "odpowiedzi": [
+      "tylko na szczycie",
+      "równomiernie",
+      "w górnej części",
+      "w dolnej części"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Stromo u dołu.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
