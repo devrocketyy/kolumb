@@ -1109,6 +1109,87 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Czas słoneczny Warszawy",
+   "material": "Tekst autorski. W Greenwich (0°) jest 12:00 czasu słonecznego. Warszawa leży na ok. 21°E.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz czas słoneczny w Warszawie.",
+     "odpowiedz": "13:24",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "21° × 4 min = 84 min później.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-51",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Górowanie w Szczecinie",
+   "material": "Tekst autorski. Szczecin leży na ok. 14°33′E. Obowiązuje czas zimowy (UTC+1).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz godzinę górowania Słońca w Szczecinie w czasie urzędowym.",
+     "odpowiedz": "12:01:48",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "27′ × 4 s = 108 s po 12:00 (na zachód od 15°E).",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-52",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Słońce nad Oslo",
+   "material": "Tekst autorski. Oslo leży na ok. 60°N.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania 22 czerwca.",
+     "odpowiedz": "53°27′",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 60° + 23°27′.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę zjawiska, które latem występuje w Oslo zamiast nocy astronomicznej.",
+     "odpowiedz": "białe noce",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zmierzch trwa całą noc.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-53",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Noc polarna na biegunie",
+   "material": "Tekst autorski. Na biegunie północnym Słońce nie wschodzi od ok. 23 września do ok. 21 marca.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz przybliżony czas trwania nocy polarnej w miesiącach.",
+     "odpowiedz": "ok. 6 miesięcy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Od równonocy do równonocy.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-54",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Krakowem",
    "material": "Tekst autorski. Kraków leży na ok. 50°N.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1132,7 +1213,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-51",
+   "id": "b-ziemia-55",
    "dzial": "ziemia"
   },
   {
@@ -1168,7 +1249,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-52",
+   "id": "b-ziemia-56",
    "dzial": "ziemia"
   },
   {
@@ -1195,7 +1276,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-53",
+   "id": "b-ziemia-57",
    "dzial": "ziemia"
   },
   {
@@ -1222,7 +1303,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-54",
+   "id": "b-ziemia-58",
    "dzial": "ziemia"
   },
   {
@@ -1240,7 +1321,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-55",
+   "id": "b-ziemia-59",
    "dzial": "ziemia"
   }
  ]

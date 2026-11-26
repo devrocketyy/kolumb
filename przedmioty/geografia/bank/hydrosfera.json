@@ -722,6 +722,60 @@
    "dzial": "hydrosfera"
   },
   {
+   "tytul": "Współczynnik odpływu Polski",
+   "material": "Tekst autorski. Z Polski odpływa rocznie ok. 60 km³ wody, a średnie opady wynoszą ok. 600 mm. Powierzchnia Polski — 312,7 tys. km².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz odpływ wyrażony warstwą wody w mm. Wynik zaokrąglij do 1 mm.",
+     "odpowiedz": "ok. 192 mm",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "60 km³ / 312 700 km² = 0,000192 km.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz współczynnik odpływu (odpływ / opady). Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 32%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "192 / 600 × 100.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, co dzieje się z pozostałą częścią opadów.",
+     "odpowiedz": "Paruje (ewapotranspiracja) lub zasila wody podziemne.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Bilans wodny.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-hydrosfera-30",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Pływy w Zatoce Fundy",
+   "material": "Tekst autorski. W Zatoce Fundy (Kanada) różnica poziomu wody między przypływem a odpływem dochodzi do 16 m, a na Bałtyku wynosi kilka centymetrów.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przyczyny tak dużej różnicy pływów.",
+     "odpowiedz": "Pływy wywołuje przyciąganie Księżyca i Słońca; Zatoka Fundy jest długa, lejkowata i otwarta na ocean, co spiętrza falę pływową; Bałtyk to małe, prawie zamknięte morze, do którego fala pływowa prawie nie dociera.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Kształt i połączenie z oceanem.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-hydrosfera-31",
+   "dzial": "hydrosfera"
+  },
+  {
    "tytul": "Przepływ rzeki",
    "material": "Tekst autorski. W przekroju wodowskazowym koryto ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -745,7 +799,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-30",
+   "id": "b-hydrosfera-32",
    "dzial": "hydrosfera"
   },
   {
@@ -772,7 +826,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-31",
+   "id": "b-hydrosfera-33",
    "dzial": "hydrosfera"
   },
   {
@@ -799,7 +853,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-32",
+   "id": "b-hydrosfera-34",
    "dzial": "hydrosfera"
   },
   {
@@ -826,7 +880,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-33",
+   "id": "b-hydrosfera-35",
    "dzial": "hydrosfera"
   },
   {
@@ -853,7 +907,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-34",
+   "id": "b-hydrosfera-36",
    "dzial": "hydrosfera"
   }
  ]

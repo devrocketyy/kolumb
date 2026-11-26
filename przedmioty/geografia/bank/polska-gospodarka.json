@@ -605,6 +605,51 @@
    "dzial": "polska-gospodarka"
   },
   {
+   "tytul": "Usługi w PKB",
+   "material": "Tekst autorski. Usługi wytwarzają ok. 62% PKB Polski (ok. 3400 mld zł).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wartość PKB wytworzonego w usługach.",
+     "odpowiedz": "ok. 2108 mld zł",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3400 × 0,62.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-polska-gospodarka-25",
+   "dzial": "polska-gospodarka"
+  },
+  {
+   "tytul": "Import surowców energetycznych",
+   "material": "Tekst autorski. W imporcie Polski ważne miejsce zajmują ropa naftowa i gaz ziemny.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa kierunki dostaw ropy lub gazu do Polski po 2022 r.",
+     "odpowiedz": "Gaz: Norwegia (Baltic Pipe), LNG z USA i Kataru; ropa: Arabia Saudyjska, Norwegia, USA — przez Naftoport w Gdańsku.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego Polska zrezygnowała z rosyjskich surowców.",
+     "odpowiedz": "Ze względu na bezpieczeństwo energetyczne i sankcje po agresji Rosji na Ukrainę (2022) — uniezależnienie od jednego, niepewnego dostawcy.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Dywersyfikacja.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-gospodarka-26",
+   "dzial": "polska-gospodarka"
+  },
+  {
    "tytul": "Struktura zatrudnienia",
    "material": "Tekst autorski. W kraju X w rolnictwie pracuje 8% zatrudnionych, w przemyśle i budownictwie 30%, w usługach 62%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -628,7 +673,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-25",
+   "id": "b-polska-gospodarka-27",
    "dzial": "polska-gospodarka"
   },
   {
@@ -655,7 +700,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-26",
+   "id": "b-polska-gospodarka-28",
    "dzial": "polska-gospodarka"
   },
   {
@@ -682,7 +727,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-27",
+   "id": "b-polska-gospodarka-29",
    "dzial": "polska-gospodarka"
   }
  ]

@@ -587,6 +587,51 @@
    "dzial": "rolnictwo"
   },
   {
+   "tytul": "Nawożenie",
+   "material": "Tekst autorski. W Polsce zużywa się ok. 1,8 mln t nawozów mineralnych (NPK) rocznie na 14,3 mln ha użytków rolnych.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz zużycie nawozów na 1 ha. Wynik zaokrąglij do 1 kg.",
+     "odpowiedz": "ok. 126 kg/ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 800 000 000 kg / 14 300 000 ha.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden negatywny skutek nadmiernego nawożenia dla środowiska.",
+     "odpowiedz": "Eutrofizacja wód (spływ azotu i fosforu), zanieczyszczenie wód podziemnych azotanami, zakwaszenie gleb.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jeden.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-23",
+   "dzial": "rolnictwo"
+  },
+  {
+   "tytul": "Mechanizacja",
+   "material": "Tekst autorski. W Polsce jest ok. 1,5 mln ciągników i ok. 1,3 mln gospodarstw rolnych.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz liczbę ciągników na gospodarstwo. Wynik zaokrąglij do 0,01.",
+     "odpowiedz": "ok. 1,15",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1,5 / 1,3.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-rolnictwo-24",
+   "dzial": "rolnictwo"
+  },
+  {
    "tytul": "Plony pszenicy",
    "material": "Tekst autorski. W województwie zebrano 4,5 mln t zbóż z powierzchni 750 tys. ha.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -610,7 +655,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-23",
+   "id": "b-rolnictwo-25",
    "dzial": "rolnictwo"
   },
   {
@@ -637,7 +682,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-24",
+   "id": "b-rolnictwo-26",
    "dzial": "rolnictwo"
   }
  ]

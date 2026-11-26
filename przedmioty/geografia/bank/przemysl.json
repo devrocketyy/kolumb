@@ -884,6 +884,105 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Stal na mieszkańca",
+   "material": "Tekst autorski. Polska produkuje ok. 7 mln t stali rocznie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz produkcję stali na mieszkańca (37,5 mln) w kg. Wynik zaokrąglij do 1.",
+     "odpowiedz": "ok. 187 kg",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "7 000 000 000 kg / 37 500 000.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj miasto, w którym działa największa huta w Polsce.",
+     "odpowiedz": "Dąbrowa Górnicza (lub Kraków — Nowa Huta)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "ArcelorMittal.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-37",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Boom fotowoltaiki",
+   "material": "Tekst autorski. Produkcja energii z fotowoltaiki w Polsce wyniosła ok. 1 TWh w 2019 r. i ok. 18 TWh w 2024 r.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik dynamiki (2019 = 100%).",
+     "odpowiedz": "1800%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "18 / 1 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny szybkiego rozwoju fotowoltaiki w Polsce.",
+     "odpowiedz": "Programy dotacji (Mój Prąd), spadek cen paneli, wzrost cen energii z węgla, cele klimatyczne UE, prosumenci.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-38",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Kontenery w Polsce",
+   "material": "Tekst autorski. Polskie porty przeładowały ok. 3,1 mln TEU, z czego Gdańsk ok. 2,2 mln TEU.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział Gdańska. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 71%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2,2 / 3,1 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-39",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Turyści zagraniczni w Krakowie",
+   "material": "Tekst autorski. Kraków odwiedza ok. 15 mln turystów rocznie, w tym ok. 3 mln z zagranicy.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział turystów zagranicznych.",
+     "odpowiedz": "20%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3 / 15 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa obiekty z listy UNESCO w okolicach Krakowa przyciągające turystów.",
+     "odpowiedz": "Stare Miasto w Krakowie, Kopalnia Soli w Wieliczce, Auschwitz-Birkenau, Kalwaria Zebrzydowska, drewniane kościoły Małopolski.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-40",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Struktura produkcji energii",
    "material": "Tekst autorski. W pewnym kraju wyprodukowano 160 TWh energii elektrycznej, w tym 88 TWh w elektrowniach węglowych, 16 TWh gazowych, 32 TWh wiatrowych, 16 TWh słonecznych i 8 TWh w innych źródłach.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -907,7 +1006,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-37",
+   "id": "b-przemysl-41",
    "dzial": "przemysl"
   },
   {
@@ -934,7 +1033,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-38",
+   "id": "b-przemysl-42",
    "dzial": "przemysl"
   },
   {
@@ -961,7 +1060,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-39",
+   "id": "b-przemysl-43",
    "dzial": "przemysl"
   },
   {
@@ -988,7 +1087,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-40",
+   "id": "b-przemysl-44",
    "dzial": "przemysl"
   }
  ]

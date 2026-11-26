@@ -389,6 +389,33 @@
    "dzial": "czlowiek"
   },
   {
+   "tytul": "Cele klimatyczne UE",
+   "material": "Tekst autorski. UE chce do 2030 r. zmniejszyć emisję gazów cieplarnianych o co najmniej 55% w stosunku do 1990 r.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz docelową emisję, jeśli w 1990 r. wynosiła ona 4,7 mld t CO₂ ekw.",
+     "odpowiedz": "najwyżej ok. 2,1 mld t",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4,7 × 0,45 ≈ 2,12.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa działania pozwalające osiągnąć ten cel.",
+     "odpowiedz": "Rozwój OZE i energetyki jądrowej, elektromobilność i transport publiczny, termomodernizacja budynków, handel uprawnieniami do emisji.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-czlowiek-16",
+   "dzial": "czlowiek"
+  },
+  {
    "tytul": "Emisja CO₂",
    "material": "Tekst autorski. Kraj liczący 38 mln mieszkańców emituje rocznie 300 mln t CO₂, z czego 70% pochodzi z energetyki opartej na węglu.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -412,7 +439,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-16",
+   "id": "b-czlowiek-17",
    "dzial": "czlowiek"
   },
   {
@@ -439,7 +466,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-17",
+   "id": "b-czlowiek-18",
    "dzial": "czlowiek"
   }
  ]

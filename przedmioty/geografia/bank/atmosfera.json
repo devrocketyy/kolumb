@@ -947,6 +947,51 @@
    "dzial": "atmosfera"
   },
   {
+   "tytul": "Przejście frontu ciepłego",
+   "material": "Tekst autorski. Nad stację meteorologiczną nadciąga front ciepły.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Uporządkuj zjawiska w kolejności występowania: opady ciągłe, chmury pierzaste (Cirrus), wzrost temperatury, chmury warstwowe (Altostratus).",
+     "odpowiedz": "Cirrus → Altostratus → opady ciągłe (Nimbostratus) → wzrost temperatury po przejściu frontu",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Chmury coraz niższe.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-atmosfera-36",
+   "dzial": "atmosfera"
+  },
+  {
+   "tytul": "Przymrozki majowe",
+   "material": "Tekst autorski. W maju do Polski napłynęła masa powietrza arktycznego.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden skutek tego napływu dla rolnictwa.",
+     "odpowiedz": "Przymrozki niszczące kwiaty drzew owocowych i młode uprawy (zimni ogrodnicy).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jeden.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego przymrozki są najsilniejsze w bezchmurne noce.",
+     "odpowiedz": "Bez chmur ziemia szybko wypromieniowuje ciepło, a przy ziemi gromadzi się zimne powietrze.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wypromieniowanie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-atmosfera-37",
+   "dzial": "atmosfera"
+  },
+  {
    "tytul": "Fen w Zakopanem",
    "material": "Tekst autorski. Wilgotne powietrze o temperaturze 10°C wznosi się po południowym stoku Tatr od 700 m n.p.m. Kondensacja zaczyna się na 1200 m n.p.m., grzbiet ma 2200 m n.p.m. Po stronie północnej powietrze opada do Zakopanego (850 m n.p.m.). Przyjmij: powietrze suche 1°C/100 m, wilgotne 0,6°C/100 m.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -979,7 +1024,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-atmosfera-36",
+   "id": "b-atmosfera-38",
    "dzial": "atmosfera"
   },
   {
@@ -1006,7 +1051,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atmosfera-37",
+   "id": "b-atmosfera-39",
    "dzial": "atmosfera"
   },
   {
@@ -1033,7 +1078,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-atmosfera-38",
+   "id": "b-atmosfera-40",
    "dzial": "atmosfera"
   }
  ]

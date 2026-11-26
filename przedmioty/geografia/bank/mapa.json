@@ -1334,6 +1334,51 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Owalne jezioro",
+   "material": "Tekst autorski. Na mapie w skali 1:25 000 jezioro ma kształt elipsy o osiach 2 cm i 1 cm. Pole elipsy = π · a · b (a, b — półosie).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz powierzchnię jeziora w hektarach. Przyjmij π ≈ 3,14. Wynik zaokrąglij do 0,1 ha.",
+     "odpowiedz": "ok. 9,8 ha",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Półosie 250 m i 125 m; 3,14 × 250 × 125 ≈ 98 125 m².",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-56",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Mapa Polski",
+   "material": "Tekst autorski. Na mapie Polski odległość Kraków–Warszawa (ok. 250 km w linii prostej) wynosi 5 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz skalę mapy.",
+     "odpowiedz": "1:5 000 000",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "25 000 000 cm / 5.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, czy na tej mapie można zaznaczyć pojedyncze budynki. Uzasadnij.",
+     "odpowiedz": "Nie — mapa w tak małej skali jest bardzo uogólniona (generalizacja).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mała skala.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-57",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Jezioro na mapie 1:50 000",
    "material": "Tekst autorski. Na mapie w skali 1:50 000 powierzchnia jeziora, zmierzona metodą kratową, wynosi 6 cm².",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1357,7 +1402,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-56",
+   "id": "b-mapa-58",
    "dzial": "mapa"
   },
   {
@@ -1393,7 +1438,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-57",
+   "id": "b-mapa-59",
    "dzial": "mapa"
   },
   {
@@ -1420,7 +1465,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-58",
+   "id": "b-mapa-60",
    "dzial": "mapa"
   },
   {
@@ -1447,7 +1492,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-59",
+   "id": "b-mapa-61",
    "dzial": "mapa"
   },
   {
@@ -1465,7 +1510,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-60",
+   "id": "b-mapa-62",
    "dzial": "mapa"
   }
  ]

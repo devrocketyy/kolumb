@@ -1298,6 +1298,33 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Mazowsze",
+   "material": "Tekst autorski. Województwo mazowieckie liczy 5,5 mln mieszkańców, a jego wskaźnik urbanizacji wynosi ok. 65%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz liczbę mieszkańców miast województwa.",
+     "odpowiedz": "ok. 3,6 mln",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "5,5 × 0,65 = 3,575.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedną przyczynę dodatniego salda migracji województwa mazowieckiego.",
+     "odpowiedz": "Atrakcyjny rynek pracy i wysokie płace w Warszawie, uczelnie, siedziby firm i instytucji.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jedna.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-51",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Saldo migracji powiatu",
    "material": "Tekst autorski. W powiecie mieszkającym 120 000 osób w ciągu roku zameldowało się 2400 osób, a wymeldowało 3000 osób. Urodziło się 1100 dzieci, zmarło 1500 osób.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1330,7 +1357,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-51",
+   "id": "b-ludnosc-52",
    "dzial": "ludnosc"
   },
   {
@@ -1357,7 +1384,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-52",
+   "id": "b-ludnosc-53",
    "dzial": "ludnosc"
   },
   {
@@ -1393,7 +1420,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-53",
+   "id": "b-ludnosc-54",
    "dzial": "ludnosc"
   }
  ]
