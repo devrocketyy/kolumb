@@ -1,0 +1,32 @@
+{
+ "dzial": "hydrosfera",
+ "wiazki": [
+  {
+   "tytul": "Spadek rzeki",
+   "material": "Tekst autorski. Rzeka ma źródła na wysokości 980 m n.p.m., a uchodzi na wysokości 120 m n.p.m. Jej długość wynosi 215 km.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średni spadek rzeki w promilach.",
+     "odpowiedz": "4‰ (4 m/km)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(980 − 120) / 215 000 m = 0,004.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w górnym biegu tej rzeki przeważa erozja wgłębna.",
+     "odpowiedz": "W górnym biegu spadek i prędkość wody są największe, więc rzeka pogłębia koryto.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "W dolnym biegu przeważa akumulacja.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-01",
+   "dzial": "hydrosfera"
+  }
+ ]
+}

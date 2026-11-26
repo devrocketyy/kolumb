@@ -1,0 +1,113 @@
+{
+ "dzial": "atmosfera",
+ "wiazki": [
+  {
+   "tytul": "Stacja kontynentalna",
+   "material": "Tekst autorski. Stacja X: średnia temperatura stycznia −6°C, lipca 19°C. Roczna suma opadów 450 mm, najwięcej w lipcu (75 mm), najmniej w lutym (20 mm).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczną amplitudę temperatury.",
+     "odpowiedz": "25°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "19 − (−6).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, na której półkuli leży stacja. Uzasadnij.",
+     "odpowiedz": "Na północnej — najcieplejszy jest lipiec, a najzimniejszy styczeń.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Na półkuli S byłoby odwrotnie.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj typ klimatu stacji.",
+     "odpowiedz": "umiarkowany kontynentalny",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Duża amplituda, małe opady z maksimum latem.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-atmosfera-01",
+   "dzial": "atmosfera"
+  },
+  {
+   "tytul": "Stacja równikowa",
+   "material": "Tekst autorski. Stacja Y: średnie miesięczne temperatury od 26°C do 28°C, opady w każdym miesiącu powyżej 150 mm, suma roczna 2400 mm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczną amplitudę temperatury.",
+     "odpowiedz": "2°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "28 − 26.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego amplituda roczna jest tak mała.",
+     "odpowiedz": "Słońce przez cały rok góruje wysoko nad horyzontem, a długość dnia jest stała (ok. 12 h).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Brak termicznych pór roku.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę formacji roślinnej typowej dla tego klimatu.",
+     "odpowiedz": "wilgotny las równikowy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wiecznie zielony, wielowarstwowy.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-atmosfera-02",
+   "dzial": "atmosfera"
+  },
+  {
+   "tytul": "Wiatr fenowy",
+   "material": "Tekst autorski. Wilgotne powietrze o temperaturze 15°C na wysokości 400 m n.p.m. przechodzi przez grzbiet o wysokości 2400 m n.p.m. Po stronie dowietrznej temperatura spada o 0,6°C/100 m, a po zawietrznej rośnie o 1°C/100 m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz temperaturę powietrza na grzbiecie.",
+     "odpowiedz": "3°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2000 m × 0,6°C/100 m = 12°C; 15 − 12.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz temperaturę powietrza po zejściu na wysokość 400 m po stronie zawietrznej.",
+     "odpowiedz": "23°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3 + 20.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego po stronie zawietrznej powietrze jest cieplejsze niż przed grzbietem.",
+     "odpowiedz": "Po stronie dowietrznej para wodna się skrapla (opady) i wydziela ciepło, więc powietrze ochładza się wolniej; opada już suche i ogrzewa się szybciej.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Różne gradienty.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-atmosfera-03",
+   "dzial": "atmosfera"
+  }
+ ]
+}

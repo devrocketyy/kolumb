@@ -1,0 +1,68 @@
+{
+ "dzial": "ludnosc",
+ "wiazki": [
+  {
+   "tytul": "Bilans ludności kraju",
+   "material": "Tekst autorski. Kraj Z: liczba ludności 40 mln. W ciągu roku urodziło się 400 tys. osób, zmarło 420 tys. Przybyło 60 tys. imigrantów, wyjechało 30 tys. emigrantów.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz współczynnik przyrostu naturalnego w promilach.",
+     "odpowiedz": "−0,5‰",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(400 − 420) tys. / 40 mln × 1000.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz przyrost rzeczywisty.",
+     "odpowiedz": "+10 tys. osób",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "−20 tys. + 30 tys.",
+     "nr": "2"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy liczba ludności kraju wzrosła. Uzasadnij.",
+     "odpowiedz": "Tak — dodatnie saldo migracji (+30 tys.) przewyższyło ubytek naturalny (−20 tys.).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przyrost rzeczywisty jest dodatni.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-ludnosc-01",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Województwo w liczbach",
+   "material": "Tekst autorski. Województwo W ma powierzchnię 19 000 km² i 2,28 mln mieszkańców, z czego 1,368 mln mieszka w miastach.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz gęstość zaludnienia.",
+     "odpowiedz": "120 os./km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2 280 000 / 19 000.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik urbanizacji.",
+     "odpowiedz": "60%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1,368 / 2,28 × 100%.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-02",
+   "dzial": "ludnosc"
+  }
+ ]
+}

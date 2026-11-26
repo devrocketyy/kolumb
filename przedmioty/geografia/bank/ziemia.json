@@ -1,0 +1,95 @@
+{
+ "dzial": "ziemia",
+ "wiazki": [
+  {
+   "tytul": "Lot przez Atlantyk",
+   "material": "Tekst autorski. Samolot wystartował z Warszawy (zimą obowiązuje UTC+1) o godzinie 10:00 czasu warszawskiego. Lot do Nowego Jorku (UTC−5) trwał 9 godzin.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz, o której godzinie czasu nowojorskiego samolot wylądował.",
+     "odpowiedz": "13:00",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Lądowanie o 19:00 czasu warszawskiego; różnica stref 6 h na zachód: 19 − 6 = 13.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj różnicę czasu strefowego między Warszawą a Nowym Jorkiem.",
+     "odpowiedz": "6 godzin",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "+1 − (−5).",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-01",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Południe słoneczne w Polsce",
+   "material": "Tekst autorski. Szczecin leży na długości geograficznej 14°33′E, a Przemyśl na 22°46′E.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz różnicę czasu słonecznego między Przemyślem a Szczecinem.",
+     "odpowiedz": "32 min 52 s",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Różnica długości 8°13′ = 493′; 493′ × 4 s = 1972 s = 32 min 52 s.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, w którym z miast Słońce góruje wcześniej. Uzasadnij.",
+     "odpowiedz": "W Przemyślu — leży dalej na wschód, a Ziemia obraca się z zachodu na wschód.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1′ długości = 4 s czasu.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-02",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Słońce nad dwoma miastami",
+   "material": "Tekst autorski. Miasto A leży na 54°N, a miasto B na 50°N; oba poza zwrotnikiem.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz wysokość górowania Słońca w obu miastach w dniu przesilenia letniego (22 czerwca).",
+     "odpowiedz": "A: 59°27′, B: 63°27′",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "h = 90° − φ + 23°27′.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość górowania Słońca w mieście A w dniu równonocy.",
+     "odpowiedz": "36°",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 54°.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego 22 czerwca dzień w mieście A jest dłuższy niż w mieście B.",
+     "odpowiedz": "Miasto A leży dalej na północ, a w lecie długość dnia na półkuli północnej rośnie z szerokością geograficzną.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Bliżej koła podbiegunowego.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-ziemia-03",
+   "dzial": "ziemia"
+  }
+ ]
+}

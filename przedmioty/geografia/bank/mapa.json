@@ -1,0 +1,95 @@
+{
+ "dzial": "mapa",
+ "wiazki": [
+  {
+   "tytul": "Szlak na szczyt",
+   "material": "Tekst autorski. Na mapie w skali 1:50 000 schronisko leży na wysokości 1050 m n.p.m., a szczyt na wysokości 1425 m n.p.m. Odległość między nimi zmierzona w linii prostej na mapie wynosi 6 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość w terenie między schroniskiem a szczytem.",
+     "odpowiedz": "3 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "6 cm × 50 000 = 300 000 cm = 3 km.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość względną szczytu nad schroniskiem.",
+     "odpowiedz": "375 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1425 − 1050.",
+     "nr": "2"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średni spadek terenu między schroniskiem a szczytem. Wynik podaj w procentach.",
+     "odpowiedz": "12,5%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "375 m / 3000 m × 100%.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-mapa-01",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Jezioro na mapie",
+   "material": "Tekst autorski. Na mapie w skali 1:25 000 jezioro zajmuje powierzchnię 3 cm². Jego najdłuższa oś ma na mapie 4 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz rzeczywistą powierzchnię jeziora w hektarach.",
+     "odpowiedz": "18,75 ha",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "1 cm² = 250 m × 250 m = 62 500 m² = 6,25 ha; 3 × 6,25.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz długość najdłuższej osi jeziora w terenie.",
+     "odpowiedz": "1 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4 × 250 m.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-02",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Kierunki w terenie",
+   "material": "Tekst autorski. Turysta wyszedł z wieży widokowej w kierunku leśniczówki, idąc azymutem 45°. Po dojściu wrócił tą samą drogą.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj kierunek geograficzny, w którym szedł turysta do leśniczówki.",
+     "odpowiedz": "północno-wschodni (NE)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Azymut 45° leży między N (0°) a E (90°).",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Podaj azymut drogi powrotnej.",
+     "odpowiedz": "225°",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "45° + 180°.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-03",
+   "dzial": "mapa"
+  }
+ ]
+}
