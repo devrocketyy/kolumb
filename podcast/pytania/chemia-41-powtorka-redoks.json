@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-41-powtorka-redoks",
+  "pytania": [
+    {
+      "id": "reduktor",
+      "typ": "abcd",
+      "pytanie": "W reakcji KMnO₄ + HCl → … + Cl₂ reduktorem jest:",
+      "odpowiedzi": [
+        "HCl",
+        "KMnO₄",
+        "MnCl₂",
+        "H₂O"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Cl⁻ˡ → Cl⁰."
+    },
+    {
+      "id": "cl2",
+      "typ": "abcd",
+      "pytanie": "Współczynnik przy Cl₂ w 2KMnO₄ + 16HCl → … :",
+      "odpowiedzi": [
+        "5",
+        "2",
+        "8",
+        "16"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "2 · 5 e⁻ = 5 · 2 e⁻."
+    },
+    {
+      "id": "stopien",
+      "typ": "abcd",
+      "pytanie": "Stopień utlenienia Cr w K₂CrO₄:",
+      "odpowiedzi": [
+        "+VI",
+        "+III",
+        "+VII",
+        "+IV"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "2 · 1 + x − 8 = 0."
+    },
+    {
+      "id": "sem",
+      "typ": "abcd",
+      "pytanie": "SEM ogniwa cynkowo-srebrowego:",
+      "odpowiedzi": [
+        "1,56 V",
+        "0,04 V",
+        "1,10 V",
+        "0,80 V"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "0,80 − (−0,76)."
+    },
+    {
+      "id": "anoda-chlor",
+      "typ": "abcd",
+      "pytanie": "Przy elektrolizie NaCl(aq) chlor wydziela się na:",
+      "odpowiedzi": [
+        "anodzie",
+        "katodzie",
+        "obu elektrodach",
+        "żadnej — powstaje w roztworze"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "2Cl⁻ → Cl₂ + 2e⁻."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Mn⁺ⱽᴵᴵ → Mn⁺ᴵᴵ:",
+      "odpowiedzi": [
+        "przyjmuje 5 e⁻",
+        "oddaje 5 e⁻",
+        "przyjmuje 2 e⁻",
+        "przyjmuje 7 e⁻"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "7 − 2 = 5."
+    }
+  ]
+}

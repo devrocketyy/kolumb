@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-40-elektroliza",
+  "pytania": [
+    {
+      "id": "katoda",
+      "typ": "abcd",
+      "pytanie": "Na katodzie podczas elektrolizy zachodzi:",
+      "odpowiedzi": [
+        "redukcja",
+        "utlenianie",
+        "dysocjacja",
+        "hydroliza"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Katoda — biegun ujemny, redukcja."
+    },
+    {
+      "id": "nacl-aq",
+      "typ": "abcd",
+      "pytanie": "Produkt katodowy elektrolizy NaCl(aq):",
+      "odpowiedzi": [
+        "H₂",
+        "Na",
+        "Cl₂",
+        "O₂"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "2H₂O + 2e⁻ → H₂ + 2OH⁻."
+    },
+    {
+      "id": "cuso4",
+      "typ": "abcd",
+      "pytanie": "Produkt anodowy elektrolizy CuSO₄(aq), elektrody Pt:",
+      "odpowiedzi": [
+        "O₂",
+        "SO₂",
+        "Cu",
+        "H₂"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "2H₂O → O₂ + 4H⁺ + 4e⁻."
+    },
+    {
+      "id": "faraday",
+      "typ": "abcd",
+      "pytanie": "Masa Cu osadzona przez prąd 2 A w ciągu 1930 s (F = 96 500 C/mol):",
+      "odpowiedzi": [
+        "1,27 g",
+        "2,54 g",
+        "0,64 g",
+        "12,7 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Q = 3860 C = 0,04 mol e⁻; n(Cu) = 0,02 mol · 63,5."
+    },
+    {
+      "id": "korozja",
+      "typ": "abcd",
+      "pytanie": "Zarysowana stal ocynkowana nie koroduje, ponieważ:",
+      "odpowiedzi": [
+        "cynk jest aktywniejszy i utlenia się zamiast żelaza",
+        "cynk jest mniej aktywny od żelaza",
+        "zarysowanie zamyka się samo",
+        "żelazo pasywuje się w wodzie"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Ochrona protektorowa."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Po elektrolizie NaCl(aq) roztwór ma odczyn:",
+      "odpowiedzi": [
+        "zasadowy",
+        "kwasowy",
+        "obojętny",
+        "zależy od materiału elektrod"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Na katodzie powstają jony OH⁻."
+    }
+  ]
+}

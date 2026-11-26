@@ -108,9 +108,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **39. Ogniwa, szereg napięciowy i SEM** `c-ogniwa` ✅
 
-**40. Elektroliza i korozja** `c-elektroliza` ⬜
+**40. Elektroliza i korozja** `c-elektroliza` ✅
 
-**41. Powtórka działu: Redoks i elektrochemia** `redoks` ⬜
+**41. Powtórka działu: Redoks i elektrochemia** `redoks` ✅
 
 ## Dział: Wstęp do chemii organicznej i węglowodory
 
