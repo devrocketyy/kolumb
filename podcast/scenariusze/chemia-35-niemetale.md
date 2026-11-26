@@ -69,6 +69,18 @@ Nie. Jod jest mniej aktywny od bromu.
 
 [koniec odpowiedzi]
 
+[pytanie: obserwacja]
+
+Sprawdź się. Co zaobserwujesz po wprowadzeniu chloru do bezbarwnego roztworu bromku potasu?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Roztwór zabarwi się na żółtobrunatno od wypartego bromu.
+
+[koniec odpowiedzi]
+
 ## Tlen i azot
 
 Tlen w laboratorium otrzymuje się na przykład z rozkładu wody utlenionej z tlenkiem manganu cztery jako katalizatorem: dwa H₂O₂ daje dwa H₂O i O₂. Wykrywa się go żarzącym łuczywem, które się zapala.

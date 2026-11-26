@@ -87,6 +87,18 @@ Bo ulega pasywacji: pokrywa się szczelną warstwą tlenku, która chroni metal.
 
 [koniec odpowiedzi]
 
+[pytanie: na-woda]
+
+Sprawdź się. Jakie produkty powstają w reakcji sodu z wodą?
+
+[pauza, dłuższa]
+
+[odpowiedź]
+
+Wodorotlenek sodu i wodór.
+
+[koniec odpowiedzi]
+
 ## Co z tego będzie na maturze
 
 Typowe zadania: przewidź, czy metal wyprze inny metal albo wodór, zapisz równanie; zaprojektuj doświadczenie porównujące aktywność metali; wyjaśnij pasywację. Metale szlachetne, jak miedź i srebro, reagują tylko z kwasami utleniającymi, na przykład z kwasem azotowym — wtedy zamiast wodoru wydzielają się tlenki azotu.
