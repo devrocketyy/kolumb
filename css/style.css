@@ -1565,3 +1565,29 @@ body.wkrotce-on .topbar, body.wkrotce-on .tabbar { display: none; }
 .pod-vol { display: flex; align-items: center; gap: 8px; color: var(--text-2); }
 .pod-vol svg { width: 20px; height: 20px; flex: none; }
 .pod-vol input { width: 130px; accent-color: var(--text); }
+
+/* ---------- paleta schematów geografii (jasny i ciemny motyw) ---------- */
+.schem-fig svg {
+  --g-woda: #9CCBEA; --g-woda2: #5E9FD0; --g-lad: #D9C7A7; --g-lad2: #B89B72; --g-skala: #A39A8F; --g-skala2: #7C7268;
+  --g-piasek: #F0DC9A; --g-las: #8DBF7A; --g-las2: #5E9A4E; --g-lod: #E6F2F8; --g-magma: #E5673C; --g-magma2: #F4A25C;
+  --g-cieplo: #D9462F; --g-zimno: #2F6FD9; --g-niebo: #EEF5FB; --g-gleba: #6E5039; --g-glina: #C9A27A; --g-trawa: #B7D98B;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .schem-fig svg {
+  --g-woda: #24506F; --g-woda2: #3A7BAF; --g-lad: #4A3F30; --g-lad2: #6A5940; --g-skala: #4E4943; --g-skala2: #6B635A;
+  --g-piasek: #6B5E2E; --g-las: #2F5A2A; --g-las2: #44803C; --g-lod: #2B3B45; --g-magma: #C4512B; --g-magma2: #B5763F;
+  --g-cieplo: #FF7A63; --g-zimno: #6EA4FF; --g-niebo: #16202A; --g-gleba: #3A2A1E; --g-glina: #6E5640; --g-trawa: #3F5E2A; } }
+:root[data-theme="dark"] .schem-fig svg {
+  --g-woda: #24506F; --g-woda2: #3A7BAF; --g-lad: #4A3F30; --g-lad2: #6A5940; --g-skala: #4E4943; --g-skala2: #6B635A;
+  --g-piasek: #6B5E2E; --g-las: #2F5A2A; --g-las2: #44803C; --g-lod: #2B3B45; --g-magma: #C4512B; --g-magma2: #B5763F;
+  --g-cieplo: #FF7A63; --g-zimno: #6EA4FF; --g-niebo: #16202A; --g-gleba: #3A2A1E; --g-glina: #6E5640; --g-trawa: #3F5E2A; }
+.schem-fig .gw { fill: var(--g-woda); } .schem-fig .gw2 { fill: var(--g-woda2); }
+.schem-fig .gl { fill: var(--g-lad); } .schem-fig .gl2 { fill: var(--g-lad2); }
+.schem-fig .gs { fill: var(--g-skala); } .schem-fig .gs2 { fill: var(--g-skala2); }
+.schem-fig .gp { fill: var(--g-piasek); } .schem-fig .gf { fill: var(--g-las); } .schem-fig .gf2 { fill: var(--g-las2); }
+.schem-fig .gi { fill: var(--g-lod); stroke: var(--g-woda2); stroke-width: 1; } .schem-fig .gm { fill: var(--g-magma); } .schem-fig .gm2 { fill: var(--g-magma2); }
+.schem-fig .gn { fill: var(--g-niebo); } .schem-fig .gg { fill: var(--g-gleba); } .schem-fig .gc { fill: var(--g-glina); } .schem-fig .gt { fill: var(--g-trawa); }
+.schem-fig .hot { fill: none; stroke: var(--g-cieplo); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.schem-fig .cold { fill: none; stroke: var(--g-zimno); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.schem-fig .hotf { fill: var(--g-cieplo); } .schem-fig .coldf { fill: var(--g-zimno); }
+.schem-fig .ol { stroke: currentColor; stroke-width: 1.2; stroke-linejoin: round; }
+.schem-fig .ts { fill: var(--text-2); font-size: 9.5px; } .schem-fig .tb { fill: var(--text); font-size: 11px; font-weight: 650; }

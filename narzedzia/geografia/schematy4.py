@@ -3,19 +3,41 @@ S = {}
 
 S['g-atmosfera'] = [
  dict(typ='rysunek', tytul='Fen — przekrój przez góry',
-      svg=('<path class="f2" d="M20 270 L120 220 L200 70 L280 230 L380 260 L380 290 L20 290 Z"/>'
-           '<path class="s2" d="M30 250 L110 205 L190 70 M210 70 L290 215 L370 245"/>'
-           '<path class="s2" d="M360 238 L370 245 L358 250"/>'
-           '<ellipse class="d" cx="150" cy="130" rx="45" ry="22"/>'
-           '<path class="dash" d="M90 150 l-6 18 M110 152 l-6 18 M130 152 l-6 18"/>'
-           '<text class="t" x="20" y="235">10°C</text><text class="t" x="180" y="55">−1°C</text><text class="t" x="330" y="230">12,5°C</text>'),
-      znaczniki=[(70, 228, 40, 200, 'Strona dowietrzna', 'Powietrze wznosi się i ochładza'),
-                 (150, 130, 95, 100, 'Chmury i opady', 'Kondensacja — ciepło kondensacji spowalnia ochładzanie (ok. 0,6°C/100 m)'),
-                 (200, 70, 240, 60, 'Grzbiet', 'Powietrze traci większość wilgoci'),
-                 (300, 220, 300, 190, 'Strona zawietrzna', 'Suche powietrze opada i ogrzewa się o 1°C/100 m'),
-                 (360, 245, 330, 275, 'Ciepły, suchy wiatr', 'Fen (w Tatrach — halny)')],
-      opis='Mechanizm powstawania wiatru fenowego.',
-      uwaga='Na maturze liczysz temperaturę: najpierw wznoszenie (sucho- i wilgotnoadiabatyczne), potem opadanie 1°C/100 m.'),
+      svg=('<rect class="gn" x="40" y="10" width="355" height="262"/>'
+           # oś wysokości
+           '<path class="s" d="M40 272 V14"/>'
+           + ''.join(f'<path class="s2" d="M36 {272 - h * 0.1:.0f} H40"/><text class="ts" x="33" y="{275 - h * 0.1:.0f}" text-anchor="end">{h}</text>' for h in (0, 500, 1000, 1500, 2000))
+           + '<text class="ts" x="8" y="12">m n.p.m.</text>'
+           # poziom kondensacji
+           '<path class="dash" d="M40 152 H395"/><text class="ts" x="44" y="164">poziom kondensacji 1200 m</text>'
+           # góry: tło i pierwszy plan
+           '<path class="gs2" d="M40 272 L40 205 L95 188 L150 120 L190 70 L215 52 L240 75 L285 140 L330 180 L395 190 L395 272 Z"/>'
+           '<path class="gs" d="M40 272 L40 212 L100 195 L155 128 L196 76 L215 58 L236 80 L280 148 L330 188 L395 197 L395 272 Z"/>'
+           '<path style="fill:#fff" d="M196 76 L215 58 L236 80 L226 84 L215 76 L205 86 Z" opacity="0.9"/>'
+           '<path class="gf2" d="M40 272 L40 212 L100 195 L130 160 L140 170 L110 205 L40 228 Z" opacity="0.8"/>'
+           '<path class="gf2" d="M395 272 L395 197 L330 188 L300 165 L292 178 L330 200 L395 215 Z" opacity="0.8"/>'
+           # chmury i opad po stronie dowietrznej
+           '<path class="f" d="M118 150 q-14 0 -14 -12 q0 -12 14 -12 q4 -14 20 -12 q10 -12 24 -2 q16 0 16 13 q0 13 -16 13 Z"/>'
+           '<path class="f" d="M150 112 q-12 0 -12 -10 q0 -10 12 -10 q4 -12 18 -10 q10 -9 20 0 q12 1 12 11 q0 9 -12 9 Z"/>'
+           + ''.join(f'<path class="cold" style="stroke-width:1.2" d="M{x} {y} l-4 12"/>' for x, y in ((112, 154), (124, 156), (136, 154), (148, 156), (160, 154), (158, 116), (170, 118)))
+           # droga powietrza
+           + '<path class="cold" d="M48 228 L104 208"/><path class="cold" d="M104 208 L150 150 L198 64" style="stroke-dasharray:6 3"/>'
+           '<path class="hot" d="M232 64 L285 140 L345 198 L378 205"/><path class="hotf" d="M378 205 l-10 -7 l1 11 Z"/>'
+           '<path class="s2" d="M198 64 Q215 40 232 64"/>'
+           # punkty pomiarowe
+           '<rect class="f" x="46" y="234" width="88" height="18" rx="4"/><text class="tb" x="90" y="247" text-anchor="middle">700 m · 10°C</text>'
+           '<rect class="f" x="170" y="20" width="90" height="18" rx="4"/><text class="tb" x="215" y="33" text-anchor="middle">2200 m · −1°C</text>'
+           '<rect class="f" x="300" y="222" width="90" height="18" rx="4"/><text class="tb" x="345" y="235" text-anchor="middle">850 m · 12,5°C</text>'
+           # miasteczko
+           '<path class="f" d="M352 197 h10 v-8 l5 -5 l5 5 v8 h8 v-6 l4 -4 l4 4 v6 Z"/>'
+           '<text class="ts" x="70" y="290" text-anchor="middle">strona dowietrzna</text><text class="ts" x="345" y="290" text-anchor="middle">strona zawietrzna</text>'),
+      znaczniki=[(76, 218, 150, 262, 'Wznoszenie suche', 'Do poziomu kondensacji powietrze ochładza się o 1°C/100 m (10°C → 5°C)'),
+                 (128, 140, 150, 178, 'Chmury i opady', 'Powyżej 1200 m ochładzanie tylko o ok. 0,6°C/100 m — ciepło kondensacji (5°C → −1°C)'),
+                 (215, 58, 290, 60, 'Grzbiet', 'Powietrze straciło większość wilgoci'),
+                 (290, 145, 305, 112, 'Opadanie', 'Suche powietrze ogrzewa się o 1°C/100 m na całej drodze w dół'),
+                 (362, 192, 340, 150, 'Ciepły, suchy wiatr', 'W dolinie o 2,5°C cieplej niż na tej samej wysokości po drugiej stronie — fen (w Tatrach halny)')],
+      opis='Mechanizm wiatru fenowego z obliczeniem temperatur (przykład autorski).',
+      uwaga='Algorytm: 1) wznoszenie do poziomu kondensacji 1°C/100 m, 2) dalej 0,6°C/100 m do grzbietu, 3) opadanie 1°C/100 m. Wynik zawsze sprawdzaj: po zawietrznej musi być cieplej.'),
 ]
 
 S['g-cisnienie'] = [
