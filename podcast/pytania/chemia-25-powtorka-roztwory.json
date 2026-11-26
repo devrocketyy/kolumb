@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-25-powtorka-roztwory",
+  "pytania": [
+    {
+      "id": "sol",
+      "typ": "abcd",
+      "pytanie": "Masa NaCl w 500 g roztworu 0,9%:",
+      "odpowiedzi": [
+        "4,5 g",
+        "45 g",
+        "0,9 g",
+        "9 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "0,009 · 500."
+    },
+    {
+      "id": "woda",
+      "typ": "abcd",
+      "pytanie": "Masa wody w 500 g roztworu 0,9% NaCl:",
+      "odpowiedzi": [
+        "495,5 g",
+        "500 g",
+        "491 g",
+        "450 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "500 − 4,5."
+    },
+    {
+      "id": "molowe",
+      "typ": "abcd",
+      "pytanie": "Stężenie molowe roztworu 0,9% NaCl (d ≈ 1 g/cm³):",
+      "odpowiedzi": [
+        "ok. 0,15 mol/dm³",
+        "ok. 0,9 mol/dm³",
+        "ok. 1,5 mol/dm³",
+        "ok. 0,015 mol/dm³"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "9 g / 58,5 g/mol w 1 dm³."
+    },
+    {
+      "id": "rozcienczanie",
+      "typ": "abcd",
+      "pytanie": "Stężenie po dodaniu 200 g wody do 100 g roztworu 0,9%:",
+      "odpowiedzi": [
+        "0,3%",
+        "0,45%",
+        "0,9%",
+        "0,1%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "0,9 / 300 · 100%."
+    },
+    {
+      "id": "odparowanie",
+      "typ": "abcd",
+      "pytanie": "Stężenie po odparowaniu 400 g wody z 500 g roztworu 0,9%:",
+      "odpowiedzi": [
+        "4,5%",
+        "0,9%",
+        "9%",
+        "2,25%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "4,5 g / 100 g."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Mieszając roztwory 10% i 20% tej samej substancji, otrzymasz stężenie:",
+      "odpowiedzi": [
+        "między 10% a 20%",
+        "zawsze 30%",
+        "zawsze 15%",
+        "powyżej 20%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Stężeń się nie dodaje."
+    }
+  ]
+}

@@ -70,9 +70,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **23. Rozpuszczalność i roztwory nasycone** `c-rozpuszczalnosc` ✅
 
-**24. Rozcieńczanie, zatężanie i mieszanie roztworów** `c-mieszanie` ⬜
+**24. Rozcieńczanie, zatężanie i mieszanie roztworów** `c-mieszanie` ✅
 
-**25. Powtórka działu: Roztwory** `roztwory` ⬜
+**25. Powtórka działu: Roztwory** `roztwory` ✅
 
 ## Dział: Reakcje w roztworach wodnych
 

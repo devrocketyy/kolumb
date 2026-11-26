@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-24-mieszanie",
+  "pytania": [
+    {
+      "id": "rozcienczanie",
+      "typ": "abcd",
+      "pytanie": "Stężenie po dodaniu 100 g wody do 200 g roztworu 15%:",
+      "odpowiedzi": [
+        "10%",
+        "7,5%",
+        "15%",
+        "5%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "m substancji = 30 g; m roztworu = 300 g."
+    },
+    {
+      "id": "molowe",
+      "typ": "abcd",
+      "pytanie": "Objętość wody do rozcieńczenia 50 cm³ roztworu 2 M do 0,5 M:",
+      "odpowiedzi": [
+        "150 cm³",
+        "200 cm³",
+        "100 cm³",
+        "50 cm³"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "c₁V₁ = c₂V₂: 2 · 50 = 0,5 · V₂ → V₂ = 200 cm³. Zakładamy addytywność objętości."
+    },
+    {
+      "id": "odparowanie",
+      "typ": "abcd",
+      "pytanie": "Stężenie po odparowaniu 100 g wody z 200 g roztworu 10%:",
+      "odpowiedzi": [
+        "20%",
+        "10%",
+        "15%",
+        "5%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Masa substancji bez zmian."
+    },
+    {
+      "id": "dosypanie",
+      "typ": "abcd",
+      "pytanie": "Stężenie po dodaniu 10 g soli do 90 g roztworu 10%:",
+      "odpowiedzi": [
+        "19%",
+        "20%",
+        "11,1%",
+        "21,1%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "9 + 10 = 19 g; 90 + 10 = 100 g."
+    },
+    {
+      "id": "mieszanie",
+      "typ": "abcd",
+      "pytanie": "Stężenie po zmieszaniu 100 g roztworu 10% i 300 g roztworu 30%:",
+      "odpowiedzi": [
+        "25%",
+        "20%",
+        "40%",
+        "22,5%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "(10 + 90) / 400."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Masy roztworów 40% i 10% potrzebne do 300 g roztworu 20%:",
+      "odpowiedzi": [
+        "100 g i 200 g",
+        "200 g i 100 g",
+        "150 g i 150 g",
+        "75 g i 225 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Krzyż: (20−10) : (40−20) = 1 : 2. Sprawdź: 40 + 20 = 60 g w 300 g."
+    }
+  ]
+}
