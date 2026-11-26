@@ -138,9 +138,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 ## Dział: Związki azotu, białka i cukry
 
-**52. Aminy i amidy** `c-aminy` ⬜
+**52. Aminy i amidy** `c-aminy` ✅
 
-**53. Aminokwasy, peptydy i białka** `c-aminokwasy` ⬜
+**53. Aminokwasy, peptydy i białka** `c-aminokwasy` ✅
 
 **54. Cukry** `c-cukry` ⬜
 
