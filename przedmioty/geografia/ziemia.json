@@ -1006,6 +1006,30 @@
    "wymaganie": "II.5",
    "fiszki": [
     {
+     "id": "f99c05936",
+     "przod": "Wysokość Słońca a nasłonecznienie",
+     "tyl": "Im wyżej Słońce, tym mniejsza powierzchnia, na którą pada wiązka, i grubsza warstwa atmosfery mniej je osłabia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f8facc06b",
+     "przod": "Górowanie po stronie północnej",
+     "tyl": "Między zwrotnikiem Raka a równikiem w czerwcu Słońce góruje po stronie północnej nieba.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f435cfc2c",
+     "przod": "Wysokość Słońca na biegunie N 22 VI",
+     "tyl": "Ok. 23°27′ — przez całą dobę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fa0657351",
+     "przod": "Wzór dla półkuli N latem",
+     "tyl": "h = 90° − φ + 23°27′ (22 VI); zimą: h = 90° − φ − 23°27′ (22 XII).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
      "id": "f05f57212",
      "przod": "Wysokość Słońca w dniach równonocy",
      "tyl": "h = 90° − φ (φ — szerokość geograficzna).",
@@ -1139,6 +1163,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "pdf06050d",
+     "pytanie": "22 czerwca na biegunie północnym Słońce znajduje się na wysokości ok.:",
+     "odpowiedzi": [
+      "90°",
+      "0°",
+      "66°33′",
+      "23°27′"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Przez całą dobę.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p33444b31",
+     "pytanie": "W Krakowie (50°N) w dniu przesilenia zimowego Słońce góruje na wysokości:",
+     "odpowiedzi": [
+      "16°33′",
+      "26°33′",
+      "63°27′",
+      "40°00′"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "90 − 50 − 23°27′.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0b565ab1",
+     "pytanie": "W czerwcu na 10°N Słońce góruje po stronie:",
+     "odpowiedzi": [
+      "południowej nieba",
+      "północnej nieba",
+      "zachodniej nieba",
+      "wschodniej nieba"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Słońce nad zwrotnikiem Raka.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "pf9a12835",
      "pytanie": "Wysokość Słońca w dniu równonocy na 50°N wynosi:",

@@ -118,6 +118,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
     },
     {
+     "id": "f6a1fe24e",
+     "przod": "Polecenie „Oceń”",
+     "tyl": "Wyraź opinię (np. korzystne/niekorzystne) i podaj argument.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f409c5157",
+     "przod": "Odpowiedź z materiału źródłowego",
+     "tyl": "Gdy polecenie mówi „na podstawie mapy/tabeli” — odpowiedź musi wynikać z tego materiału.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
      "id": "fa535e2ec",
      "przod": "Rozpoznaj: Zamiast „dobre warunki” — „żyzne gleby (czarnoziemy)”. Ogólnik bez nazwy cechy nie daje punktu.",
      "tyl": "Konkret w odpowiedzi",
@@ -266,6 +278,45 @@
      "poprawna": "B",
      "wyjasnienie": "Precyzja.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7f8ed6cf",
+     "pytanie": "Polecenie „Oceń” wymaga:",
+     "odpowiedzi": [
+      "podania definicji pojęcia",
+      "opinii popartej argumentem",
+      "samego wypisania danych",
+      "narysowania wykresu"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ocena + uzasadnienie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa070d429",
+     "pytanie": "Wniosek z danych to:",
+     "odpowiedzi": [
+      "dokładne przepisanie liczb z tabeli",
+      "uogólnienie wynikające z danych",
+      "pytanie badawcze do tematu",
+      "definicja pojęcia z podręcznika"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Nie przepisuj.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb39b46cd",
+     "pytanie": "Odpowiedź „na podstawie mapy” musi:",
+     "odpowiedzi": [
+      "mieć co najmniej 5 zdań",
+      "pochodzić wyłącznie z pamięci",
+      "zawierać rysunek",
+      "wynikać z treści tej mapy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Materiał źródłowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -384,6 +435,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
     },
     {
+     "id": "fbc4da4d9",
+     "przod": "Wykres kołowy",
+     "tyl": "Pokazuje strukturę — udział części w całości (suma 100%).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
      "id": "fdbf5b2be",
      "przod": "Rozpoznaj: Mapa z diagramami (słupki, koła) umieszczonymi w jednostkach przestrzennych — pokazuje wartości bezwzględne, np. liczbę ludności.",
      "tyl": "Kartodiagram",
@@ -435,6 +492,12 @@
      "id": "f8d51cd5e",
      "przod": "Rozpoznaj: Porównuje wartości różnych obiektów lub okresów, np. opady w miesiącach.",
      "tyl": "Wykres słupkowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "fa5d3bf6c",
+     "przod": "Rozpoznaj: Pokazuje strukturę — udział części w całości (suma 100%).",
+     "tyl": "Wykres kołowy",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
     }
    ],
@@ -568,6 +631,45 @@
      "poprawna": "A",
      "wyjasnienie": "Suma 106 / 12 ≈ 8,8.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf22b9f44",
+     "pytanie": "Gęstość zaludnienia w województwach najlepiej przedstawić na:",
+     "odpowiedzi": [
+      "mapie izarytmicznej",
+      "kartodiagramie",
+      "kartogramie",
+      "wykresie liniowym"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wartości względne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0c0ae7e0",
+     "pytanie": "Udział sektorów w PKB najlepiej pokazać na wykresie:",
+     "odpowiedzi": [
+      "punktowym",
+      "kołowym",
+      "klimatogramie",
+      "liniowym"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Struktura.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd21cc003",
+     "pytanie": "Wielkość produkcji w regionach pokazuje się na:",
+     "odpowiedzi": [
+      "mapie hipsometrycznej",
+      "profilu terenu",
+      "kartogramie",
+      "kartodiagramie"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Wartości bezwzględne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -674,6 +776,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
     },
     {
+     "id": "f179f22ad",
+     "przod": "Dynamika zmian (%)",
+     "tyl": "Wartość z roku badanego / wartość z roku bazowego × 100%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f224943da",
+     "przod": "Średnia roczna temperatura",
+     "tyl": "Suma średnich miesięcznych / 12.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "fd0eab0e5",
+     "przod": "Amplituda temperatury",
+     "tyl": "Różnica między najwyższą a najniższą średnią miesięczną temperaturą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
      "id": "f28a2c695",
      "przod": "Rozpoznaj: Liczba ludności podzielona przez powierzchnię, w os./km².",
      "tyl": "Gęstość zaludnienia",
@@ -719,6 +839,12 @@
      "id": "fda98b491",
      "przod": "Rozpoznaj: Wynik podaje się z dokładnością wymaganą w poleceniu; obliczenia pośrednie lepiej prowadzić dokładniej.",
      "tyl": "Zaokrąglanie w geografii",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f8309d754",
+     "przod": "Rozpoznaj: Wartość z roku badanego / wartość z roku bazowego × 100%.",
+     "tyl": "Dynamika zmian (%)",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
     }
    ],
@@ -851,6 +977,45 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "(18 + 15) / 60 × 100.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbb4ca596",
+     "pytanie": "Produkcja wzrosła z 200 do 250 tys. t. Wskaźnik dynamiki wynosi:",
+     "odpowiedzi": [
+      "125%",
+      "80%",
+      "25%",
+      "50%"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "250/200 × 100.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p95407f0d",
+     "pytanie": "Najcieplejszy miesiąc 18°C, najzimniejszy −3°C. Amplituda roczna:",
+     "odpowiedzi": [
+      "21°C",
+      "7,5°C",
+      "18°C",
+      "15°C"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "18 − (−3).",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf7f306a3",
+     "pytanie": "Kraj 2 mln mieszkańców i 40 000 km² ma gęstość:",
+     "odpowiedzi": [
+      "50 os./km²",
+      "200 os./km²",
+      "20 os./km²",
+      "5 os./km²"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "2 000 000 / 40 000.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]

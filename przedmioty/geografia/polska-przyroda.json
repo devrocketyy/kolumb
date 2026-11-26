@@ -534,6 +534,30 @@
    "wymaganie": "XIII.4",
    "fiszki": [
     {
+     "id": "fb019010e",
+     "przod": "Najcieplejszy region Polski",
+     "tyl": "Nizina Śląska i zachodnia Polska — najdłuższy okres wegetacyjny (ponad 220 dni).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f1f189965",
+     "przod": "Najzimniejszy region nizinny",
+     "tyl": "Pojezierze Mazurskie i Suwalszczyzna — „polski biegun zimna”.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f967e68a2",
+     "przod": "Najmniejsze opady w Polsce",
+     "tyl": "Kujawy i Wielkopolska — ok. 450–500 mm rocznie (cień opadowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f7ec31c49",
+     "przod": "Najwyższe opady w Polsce",
+     "tyl": "Tatry — ponad 1500 mm rocznie (Hala Gąsienicowa, Kasprowy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
      "id": "f20b95136",
      "przod": "Średnia roczna temperatura w Polsce",
      "tyl": "Około 8–9°C na nizinach; w górach znacznie niższa.",
@@ -606,12 +630,6 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
     },
     {
-     "id": "fb019010e",
-     "przod": "Najcieplejszy region Polski",
-     "tyl": "Południowy zachód (Nizina Śląska) i doliny podgórskie; najwyższe średnie roczne temperatury.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
-    },
-    {
      "id": "f80c241da",
      "przod": "Pokrywa śnieżna w Polsce",
      "tyl": "Najdłużej zalega w górach i na północnym wschodzie, najkrócej na zachodzie i nad morzem.",
@@ -621,6 +639,24 @@
      "id": "f515de4ed",
      "przod": "Wpływ Bałtyku na klimat wybrzeża",
      "tyl": "Łagodniejsze zimy i chłodniejsze lata, późniejsza wiosna, częste wiatry i bryza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f28e88d68",
+     "przod": "Rozpoznaj: Pojezierze Mazurskie i Suwalszczyzna — „polski biegun zimna”.",
+     "tyl": "Najzimniejszy region nizinny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f57ca3cdb",
+     "przod": "Rozpoznaj: Kujawy i Wielkopolska — ok. 450–500 mm rocznie (cień opadowy).",
+     "tyl": "Najmniejsze opady w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
+    },
+    {
+     "id": "f277e5910",
+     "przod": "Rozpoznaj: Tatry — ponad 1500 mm rocznie (Hala Gąsienicowa, Kasprowy).",
+     "tyl": "Najwyższe opady w Polsce",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
     },
     {
@@ -690,12 +726,6 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
     },
     {
-     "id": "f55bb1d9e",
-     "przod": "Rozpoznaj: Południowy zachód (Nizina Śląska) i doliny podgórskie; najwyższe średnie roczne temperatury.",
-     "tyl": "Najcieplejszy region Polski",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.4"
-    },
-    {
      "id": "fca37cdd0",
      "przod": "Rozpoznaj: Najdłużej zalega w górach i na północnym wschodzie, najkrócej na zachodzie i nad morzem.",
      "tyl": "Pokrywa śnieżna w Polsce",
@@ -703,6 +733,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p2589c758",
+     "pytanie": "Najmniejsze opady w Polsce notuje się na:",
+     "odpowiedzi": [
+      "Pogórzu Karpackim",
+      "Pojezierzu Kaszubskim",
+      "Kujawach",
+      "Podhalu"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ok. 450–500 mm.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p20c4af0c",
+     "pytanie": "„Polskim biegunem zimna” nazywa się:",
+     "odpowiedzi": [
+      "Żuławy Wiślane",
+      "Suwalszczyznę",
+      "Wyżynę Lubelską",
+      "Nizinę Śląską"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Klimat najbardziej kontynentalny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8abe842c",
+     "pytanie": "Najdłuższy okres wegetacyjny w Polsce ma:",
+     "odpowiedzi": [
+      "Pojezierze Mazurskie",
+      "Pojezierze Suwalskie",
+      "Nizina Śląska",
+      "Podhale"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ponad 220 dni.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "pe9b09844",
      "pytanie": "Najmniejsze opady roczne w Polsce występują na:",
@@ -1189,6 +1258,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
     },
     {
+     "id": "f11446cf6",
+     "przod": "Krajobraz młodoglacjalny",
+     "tyl": "Pojezierza — świeże formy ostatniego zlodowacenia: jeziora, moreny, sandry, ozy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f5a773f29",
+     "przod": "Krajobraz staroglacjalny",
+     "tyl": "Niziny środkowej Polski — formy starszych zlodowaceń, zrównane, bez jezior.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "fbc78607c",
+     "przod": "Krajobraz wysokogórski",
+     "tyl": "Tatry — formy polodowcowe (kotły, żłoby), piętra roślinności, turnie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f3c7e00fd",
+     "przod": "Krajobraz lessowy",
+     "tyl": "Wyżyna Lubelska, Sandomierska — wąwozy, żyzne gleby, rolnictwo.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
      "id": "f63664a4f",
      "przod": "Parki narodowe w Polsce",
      "tyl": "Jest ich 23 — najwyższa forma ochrony przyrody.",
@@ -1267,6 +1360,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
     },
     {
+     "id": "f4ba65dfd",
+     "przod": "Rozpoznaj: Pojezierza — świeże formy ostatniego zlodowacenia: jeziora, moreny, sandry, ozy.",
+     "tyl": "Krajobraz młodoglacjalny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f41936e1f",
+     "przod": "Rozpoznaj: Niziny środkowej Polski — formy starszych zlodowaceń, zrównane, bez jezior.",
+     "tyl": "Krajobraz staroglacjalny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "fb645619c",
+     "przod": "Rozpoznaj: Tatry — formy polodowcowe (kotły, żłoby), piętra roślinności, turnie.",
+     "tyl": "Krajobraz wysokogórski",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
+     "id": "f30cea933",
+     "przod": "Rozpoznaj: Wyżyna Lubelska, Sandomierska — wąwozy, żyzne gleby, rolnictwo.",
+     "tyl": "Krajobraz lessowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XIII.6–8, XIV"
+    },
+    {
      "id": "f30b9e887",
      "przod": "Rozpoznaj: Jest ich 23 — najwyższa forma ochrony przyrody.",
      "tyl": "Parki narodowe w Polsce",
@@ -1323,6 +1440,45 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Wspólnie z Białorusią.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa17e021b",
+     "pytanie": "Liczne jeziora, moreny i sandry to krajobraz:",
+     "odpowiedzi": [
+      "młodoglacjalny",
+      "staroglacjalny",
+      "lessowy",
+      "krasowy"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Pojezierza.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd2110551",
+     "pytanie": "Wąwozy i żyzne gleby cechują krajobraz:",
+     "odpowiedzi": [
+      "lessowy",
+      "wydmowy",
+      "wysokogórski",
+      "młodoglacjalny"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Np. Kazimierz Dolny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6613cb73",
+     "pytanie": "Krajobraz staroglacjalny występuje głównie na:",
+     "odpowiedzi": [
+      "nizinach środkowej Polski",
+      "pojezierzach północy",
+      "Tatrach i Pieninach",
+      "wybrzeżu Bałtyku"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Starsze zlodowacenia.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
