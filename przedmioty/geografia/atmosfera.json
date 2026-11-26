@@ -10,6 +10,36 @@
    "wymaganie": "III.1–2",
    "fiszki": [
     {
+     "id": "f5ef47094",
+     "przod": "Izoterma",
+     "tyl": "Linia na mapie łącząca punkty o jednakowej temperaturze powietrza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f9d3c1d10",
+     "przod": "Temperatura zredukowana do poziomu morza",
+     "tyl": "Temperatura przeliczona tak, jakby stacja leżała na poziomie morza — pozwala porównać stacje na różnych wysokościach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f80e2c4e9",
+     "przod": "Promieniowanie słoneczne a zachmurzenie",
+     "tyl": "Chmury zmniejszają nasłonecznienie w dzień, ale nocą ograniczają wypromieniowanie — noce pochmurne są cieplejsze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fb5b50745",
+     "przod": "Termiczny równik",
+     "tyl": "Linia łącząca miejsca o najwyższej średniej temperaturze; leży średnio na półkuli N (ok. 10°N), bo jest tam więcej lądów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f979dbdaa",
+     "przod": "Biegun ciepła",
+     "tyl": "Obszary o najwyższych temperaturach: Dolina Śmierci, Sahara (Dallol w Etiopii — najwyższa średnia roczna).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
      "id": "f767c469b",
      "przod": "Skład powietrza (suchego)",
      "tyl": "Azot ok. 78%, tlen ok. 21%, argon ok. 0,9%, dwutlenek węgla ok. 0,04%.",
@@ -112,6 +142,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
     },
     {
+     "id": "f735e0763",
+     "przod": "Rozpoznaj: Linia na mapie łącząca punkty o jednakowej temperaturze powietrza.",
+     "tyl": "Izoterma",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "fb04872da",
+     "przod": "Rozpoznaj: Linia łącząca miejsca o najwyższej średniej temperaturze; leży średnio na półkuli N (ok. 10°N), bo jest tam więcej lądów.",
+     "tyl": "Termiczny równik",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
+     "id": "f01ac9252",
+     "przod": "Rozpoznaj: Obszary o najwyższych temperaturach: Dolina Śmierci, Sahara (Dallol w Etiopii — najwyższa średnia roczna).",
+     "tyl": "Biegun ciepła",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.1–2"
+    },
+    {
      "id": "f11921cd3",
      "przod": "Rozpoznaj: Azot ok. 78%, tlen ok. 21%, argon ok. 0,9%, dwutlenek węgla ok. 0,04%.",
      "tyl": "Skład powietrza (suchego)",
@@ -161,6 +209,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "pb1c420fb",
+     "pytanie": "Linia łącząca punkty o jednakowej temperaturze to:",
+     "odpowiedzi": [
+      "izoterma",
+      "izobara",
+      "izobata",
+      "izohieta"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Izobata — jednakowa głębokość.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4db207b1",
+     "pytanie": "Pochmurne noce są cieplejsze, ponieważ chmury:",
+     "odpowiedzi": [
+      "ograniczają wypromieniowanie ciepła z powierzchni",
+      "zwiększają albedo powierzchni nocą",
+      "same wytwarzają duże ilości ciepła",
+      "przyspieszają nocne wiatry górskie"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Efekt „kołdry”.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4bb237f5",
+     "pytanie": "Termiczny równik leży średnio na półkuli:",
+     "odpowiedzi": [
+      "zmienia się co roku na S",
+      "dokładnie na 0°",
+      "południowej",
+      "północnej"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Więcej lądów na półkuli N.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "p305177ed",
      "pytanie": "Przy powierzchni temperatura wynosi 18°C. Na wysokości 2000 m (gradient 0,6°C/100 m) wyniesie:",
@@ -712,6 +799,36 @@
    "wymaganie": "III.5–6",
    "fiszki": [
     {
+     "id": "fcc47ecba",
+     "przod": "Prognoza pogody — źródła danych",
+     "tyl": "Stacje meteorologiczne, radiosondy, radary, satelity, modele numeryczne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "fcdc6c408",
+     "przod": "Ciśnienie a pogoda",
+     "tyl": "Spadek ciśnienia zapowiada zwykle niż i pogorszenie pogody; wzrost — wyż i poprawę.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f89769c0b",
+     "przod": "Burza",
+     "tyl": "Zjawisko z wyładowaniami atmosferycznymi w chmurach cumulonimbus; częsta latem przy dużej chwiejności powietrza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "f6ce5d952",
+     "przod": "Trąba powietrzna",
+     "tyl": "Gwałtowny wir powietrza schodzący z chmury burzowej do ziemi; w USA nazywana tornadem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
+     "id": "fbea9dbc4",
+     "przod": "Skala Beauforta",
+     "tyl": "Skala siły wiatru od 0 (cisza) do 12 (huragan).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
      "id": "f53b55004",
      "przod": "Masa powietrza",
      "tyl": "Duża porcja powietrza o jednorodnych cechach (temperatura, wilgotność) nabytych nad obszarem źródłowym.",
@@ -820,6 +937,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
     },
     {
+     "id": "f8e2ad41a",
+     "przod": "Rozpoznaj: Zjawisko z wyładowaniami atmosferycznymi w chmurach cumulonimbus; częsta latem przy dużej chwiejności powietrza.",
+     "tyl": "Burza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. III.5–6"
+    },
+    {
      "id": "f44e1fe84",
      "przod": "Rozpoznaj: Polarno-morskie (najczęstsze), polarno-kontynentalne, arktyczne, zwrotnikowe.",
      "tyl": "Masy powietrza nad Polską",
@@ -887,6 +1010,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "pc9312ff9",
+     "pytanie": "Gwałtowny spadek ciśnienia zapowiada zwykle:",
+     "odpowiedzi": [
+      "nadejście niżu i pogorszenie pogody",
+      "stabilną pogodę wyżową",
+      "mróz i ciszę",
+      "bezchmurne niebo"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Niż — chmury i opady.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4fe7cccf",
+     "pytanie": "Siłę wiatru opisuje skala:",
+     "odpowiedzi": [
+      "Beauforta",
+      "Mohsa",
+      "Richtera",
+      "Mercallego"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "0–12.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p210a3ffa",
+     "pytanie": "Tornado to:",
+     "odpowiedzi": [
+      "gwałtowny wir powietrza schodzący z chmury burzowej",
+      "stały wiatr strefy zwrotnikowej",
+      "zimny wiatr górski",
+      "cyklon tropikalny nad Pacyfikiem"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Trąba powietrzna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "pbb7b76b2",
      "pytanie": "Długotrwałe opady ciągłe i chmury warstwowe są typowe dla frontu:",

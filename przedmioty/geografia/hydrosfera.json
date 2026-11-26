@@ -10,6 +10,36 @@
    "wymaganie": "IV.1–3",
    "fiszki": [
     {
+     "id": "faafb05db",
+     "przod": "Temperatura wód powierzchniowych",
+     "tyl": "Najwyższa w strefie równikowej (ok. 28°C), maleje ku biegunom; w Bałtyku latem ok. 18–20°C.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "fa4a48077",
+     "przod": "Lód morski",
+     "tyl": "Zamarza woda morska; pokrywa Ocean Arktyczny i otacza Antarktydę — jego zasięg maleje wskutek ocieplenia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "f6d7e2628",
+     "przod": "Fale wiatrowe",
+     "tyl": "Powstają pod wpływem wiatru; ich wysokość zależy od siły i czasu wiania oraz rozległości akwenu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "fe5524aee",
+     "przod": "Ocean Arktyczny",
+     "tyl": "Najmniejszy i najpłytszy ocean, w dużej części pokryty lodem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "f1ca56989",
+     "przod": "Morze Martwe",
+     "tyl": "Jezioro bezodpływowe o zasoleniu ok. 340‰; najniżej położony obszar lądu (ok. 430 m p.p.m.).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
      "id": "fabbf3350",
      "przod": "Zasoby wodne Ziemi",
      "tyl": "Ok. 97% to wody słone (oceany i morza), ok. 3% słodkie — większość z nich zgromadzona w lodowcach.",
@@ -112,6 +142,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
     },
     {
+     "id": "f33674c1b",
+     "przod": "Rozpoznaj: Najwyższa w strefie równikowej (ok. 28°C), maleje ku biegunom; w Bałtyku latem ok. 18–20°C.",
+     "tyl": "Temperatura wód powierzchniowych",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "fccf24973",
+     "przod": "Rozpoznaj: Jezioro bezodpływowe o zasoleniu ok. 340‰; najniżej położony obszar lądu (ok. 430 m p.p.m.).",
+     "tyl": "Morze Martwe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
      "id": "fa243f04f",
      "przod": "Rozpoznaj: Ok. 97% to wody słone (oceany i morza), ok. 3% słodkie — większość z nich zgromadzona w lodowcach.",
      "tyl": "Zasoby wodne Ziemi",
@@ -161,6 +203,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "pcecdd4dc",
+     "pytanie": "Najmniejszym oceanem jest:",
+     "odpowiedzi": [
+      "Ocean Spokojny",
+      "Ocean Arktyczny",
+      "Ocean Indyjski",
+      "Ocean Atlantycki"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Także najpłytszy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p724d4a87",
+     "pytanie": "Najniżej położony obszar lądu na Ziemi to okolice:",
+     "odpowiedzi": [
+      "Doliny Śmierci",
+      "Morza Martwego",
+      "Morza Kaspijskiego",
+      "Żuław Wiślanych"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Ok. 430 m p.p.m.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5d1c6e6e",
+     "pytanie": "Temperatura wód powierzchniowych oceanów jest najwyższa w strefie:",
+     "odpowiedzi": [
+      "równikowej",
+      "podbiegunowej",
+      "zwrotnikowej przy zimnych prądach",
+      "umiarkowanej"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Najsilniejsze nasłonecznienie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "pc09a9c93",
      "pytanie": "Średnie zasolenie wód oceanicznych wynosi około:",
@@ -792,6 +873,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
     },
     {
+     "id": "ffef36c93",
+     "przod": "Lodowce Polski",
+     "tyl": "Obecnie w Polsce nie ma lodowców; w Tatrach są tylko płaty wieloletniego śniegu i lodu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "f27dee78f",
+     "przod": "Wzrost poziomu morza",
+     "tyl": "Wynika z topnienia lodowców i lądolodów oraz rozszerzalności cieplnej ogrzewanej wody.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "fe1cf5832",
+     "przod": "Szelfowe lodowce",
+     "tyl": "Płaty lodu lądolodu unoszące się na morzu przy Antarktydzie (np. Lodowiec Szelfowy Rossa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "f276058f7",
+     "przod": "Góry lodowe",
+     "tyl": "Bryły lodu słodkiego pływające w morzu; ok. 9/10 objętości jest pod wodą.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
      "id": "f9836489c",
      "przod": "Lodowce górskie",
      "tyl": "Powstają powyżej granicy wiecznego śniegu; spływają dolinami (np. Alpy, Himalaje).",
@@ -849,6 +954,18 @@
      "id": "f9171d6a6",
      "przod": "Rozpoznaj: Obszar zasilania lodowca, gdzie śnieg przekształca się w firn, a potem w lód.",
      "tyl": "Pole firnowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "fbec43184",
+     "przod": "Rozpoznaj: Wynika z topnienia lodowców i lądolodów oraz rozszerzalności cieplnej ogrzewanej wody.",
+     "tyl": "Wzrost poziomu morza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "f50ea696c",
+     "przod": "Rozpoznaj: Bryły lodu słodkiego pływające w morzu; ok. 9/10 objętości jest pod wodą.",
+     "tyl": "Góry lodowe",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
     },
     {
@@ -920,6 +1037,45 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Ablacja przewyższa zasilanie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2340f155",
+     "pytanie": "Pływająca góra lodowa ma pod wodą około:",
+     "odpowiedzi": [
+      "1/2 objętości",
+      "9/10 objętości",
+      "1/10 objętości",
+      "całą objętość"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Gęstość lodu jest bliska wody.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "peb1a4632",
+     "pytanie": "Wzrost poziomu morza wynika m.in. z:",
+     "odpowiedzi": [
+      "wzrostu zasolenia wód oceanicznych",
+      "spadku średniej temperatury globu",
+      "topnienia lądolodów i rozszerzalności cieplnej wody",
+      "zamarzania wód w strefie polarnej"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ocieplenie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6afe01ee",
+     "pytanie": "Czy w Polsce występują obecnie lodowce?",
+     "odpowiedzi": [
+      "nie, są tylko płaty śniegu w Tatrach",
+      "tak, płaty lodu na Pojezierzu Pomorskim",
+      "tak, mały lodowiec w Karkonoszach",
+      "tak, lodowiec górski pod Kasprowym"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Tatry są za niskie.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {

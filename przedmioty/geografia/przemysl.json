@@ -827,6 +827,30 @@
    "wymaganie": "XII",
    "fiszki": [
     {
+     "id": "fb8c0288f",
+     "przod": "Turystyka w Polsce — rodzaje",
+     "tyl": "Wypoczynkowa (morze, góry, jeziora), kulturowa (Kraków, Gdańsk), uzdrowiskowa, biznesowa, kwalifikowana.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f4268dc72",
+     "przod": "Obiekty UNESCO w Polsce — przykłady",
+     "tyl": "Stare Miasto w Krakowie, kopalnia soli w Wieliczce, Malbork, Toruń, Zamość, Auschwitz-Birkenau.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "f1d96da5b",
+     "przod": "Konteneryzacja",
+     "tyl": "Przewóz towarów w standardowych kontenerach — obniżyła koszty transportu i przyspieszyła globalizację.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
+     "id": "fe2988c16",
+     "przod": "Huby lotnicze",
+     "tyl": "Duże porty przesiadkowe, np. Dubaj, Londyn-Heathrow, Frankfurt, Stambuł.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
      "id": "f30402184",
      "przod": "Rodzaje usług",
      "tyl": "Podstawowe (handel, transport), wyższego rzędu (finanse, nauka, IT), turystyka.",
@@ -917,6 +941,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
     },
     {
+     "id": "fdf7397b3",
+     "przod": "Rozpoznaj: Duże porty przesiadkowe, np. Dubaj, Londyn-Heathrow, Frankfurt, Stambuł.",
+     "tyl": "Huby lotnicze",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. XII"
+    },
+    {
      "id": "f95ed11a9",
      "przod": "Rozpoznaj: Najtańszy w przewozie ładunków masowych i kontenerów na duże odległości.",
      "tyl": "Transport morski",
@@ -978,6 +1008,45 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p55cc7a1e",
+     "pytanie": "Obiektem UNESCO w Polsce jest:",
+     "odpowiedzi": [
+      "Port Gdynia",
+      "Stadion Narodowy",
+      "Pałac Kultury i Nauki",
+      "kopalnia soli w Wieliczce"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Wpisana w 1978 r.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p56d3f950",
+     "pytanie": "Przewóz towarów w standardowych skrzyniach to:",
+     "odpowiedzi": [
+      "deglomeracja",
+      "konteneryzacja",
+      "reurbanizacja",
+      "offshoring"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Przyspieszyła globalizację.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3cdc208f",
+     "pytanie": "Dużym hubem lotniczym jest:",
+     "odpowiedzi": [
+      "Dubaj",
+      "Sopot",
+      "Ełk",
+      "Zakopane"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Port przesiadkowy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "p91dedcc4",
      "pytanie": "Najtańszy w przewozie ładunków masowych na duże odległości jest transport:",
