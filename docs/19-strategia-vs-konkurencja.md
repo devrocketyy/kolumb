@@ -11,7 +11,7 @@
 | Próbny egzamin z timerem | tak | tak |
 | Ocena odpowiedzi otwartych | AI | klucz + omówienie |
 | Darmowy start | 5 pytań dziennie + 1 arkusz, bez karty | darmowe konto (zakres do ustalenia) |
-| Cena | 49 zł/mies. za wszystko | 79 zł/mies. za 1 przedmiot |
+| Cena | 49 zł/mies. za wszystko | 35 zł/mies. za 1 przedmiot (55 / 69 / 79 zł za 2 / 3 / 4) |
 | Strony pod Google | tak (strona na przedmiot) | brak |
 
 **Zasada:** nie ścigamy się na liczbę przedmiotów. Wygrywamy jakością i tym, że uczeń w naszej aplikacji naprawdę zapamiętuje, a nie tylko rozwiązuje.
@@ -31,17 +31,9 @@
 - Każdy przedmiot: niezależny audyt merytoryczny przed sprzedażą (jak chemia).
 - Pisać na stronach przedmiotu: „każde zadanie sprawdzone ręcznie i przeliczone” — to argument przeciw masowej treści AI.
 
-## 3. Cena — przestać przegrywać na starcie
+## 3. Cena
 
-Propozycja do decyzji:
-
-| Pakiet | Cena |
-|---|---|
-| 1 przedmiot | 49 zł/mies. lub 299 zł do matury |
-| 2 przedmioty (np. biol-chem, geo-WOS) | 69 zł/mies. lub 399 zł do matury |
-| Wszystkie 5 | 89 zł/mies. lub 549 zł do matury |
-
-Miesięczna cena jednego przedmiotu = ich cena za wszystko, ale z dużo głębszą treścią. Pakiet „do matury” premiuje zobowiązanie.
+Obecny cennik jest już konkurencyjny: 1 przedmiot 35 zł/mies. (179 zł do matury), 2 — 55 zł, 3 — 69 zł, 4 — 79 zł. Jeden przedmiot jest tańszy niż ich 49 zł. Do ustalenia: cena pakietu 5 przedmiotów po dodaniu geografii.
 
 ## 4. Sprzedaż i widoczność
 
