@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-28-hydroliza",
+  "pytania": [
+    {
+      "id": "odczyn",
+      "typ": "abcd",
+      "pytanie": "Odczyn wodnego roztworu Na₂CO₃:",
+      "odpowiedzi": [
+        "zasadowy",
+        "kwasowy",
+        "obojętny",
+        "zależy od stężenia: kwasowy lub zasadowy"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Hydrolizuje anion CO₃²⁻."
+    },
+    {
+      "id": "nacl",
+      "typ": "abcd",
+      "pytanie": "Hydrolizie NIE ulega:",
+      "odpowiedzi": [
+        "NaCl",
+        "CH₃COONa",
+        "NH₄Cl",
+        "Na₂CO₃"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Ani Na⁺, ani Cl⁻ nie reaguje z wodą."
+    },
+    {
+      "id": "nh4cl",
+      "typ": "abcd",
+      "pytanie": "Hydroliza NH₄⁺ prowadzi do powstania:",
+      "odpowiedzi": [
+        "H₃O⁺",
+        "OH⁻",
+        "Cl⁻",
+        "NH₂⁻"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺."
+    },
+    {
+      "id": "bufor",
+      "typ": "abcd",
+      "pytanie": "Roztwór buforowy tworzą:",
+      "odpowiedzi": [
+        "CH₃COOH i CH₃COONa",
+        "HCl i NaCl",
+        "NaOH i NaCl",
+        "HCl i NaOH"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Słaby kwas + sprzężona zasada."
+    },
+    {
+      "id": "dzialanie",
+      "typ": "abcd",
+      "pytanie": "Dodane do buforu octanowego jony H⁺:",
+      "odpowiedzi": [
+        "wiążą się z CH₃COO⁻ w CH₃COOH",
+        "pozostają wolne w roztworze",
+        "reagują z Na⁺",
+        "wydzielają się jako wodór"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Zasada sprzężona wyłapuje protony."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Odczyn wodnego roztworu CH₃COONa:",
+      "odpowiedzi": [
+        "zasadowy",
+        "kwasowy",
+        "obojętny",
+        "nie da się przewidzieć"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Sól słabego kwasu i mocnej zasady."
+    }
+  ]
+}

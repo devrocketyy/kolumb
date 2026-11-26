@@ -80,9 +80,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **27. pH, stała i stopień dysocjacji** `c-ph` ✅
 
-**28. Hydroliza soli i roztwory buforowe** `c-hydroliza` ⬜
+**28. Hydroliza soli i roztwory buforowe** `c-hydroliza` ✅
 
-**29. Reakcje strąceniowe i zobojętniania, równania jonowe** `c-jonowe` ⬜
+**29. Reakcje strąceniowe i zobojętniania, równania jonowe** `c-jonowe` ✅
 
 **30. Powtórka działu: Reakcje w roztworach wodnych** `roztwory-wodne` ⬜
 

@@ -1,0 +1,70 @@
+{
+  "odcinek": "chemia-29-jonowe",
+  "pytania": [
+    {
+      "id": "skrocony",
+      "typ": "abcd",
+      "pytanie": "Skrócony zapis jonowy reakcji AgNO₃ + NaCl:",
+      "odpowiedzi": [
+        "Ag⁺ + Cl⁻ → AgCl↓",
+        "Na⁺ + NO₃⁻ → NaNO₃",
+        "AgNO₃ + Cl⁻ → AgCl + NO₃⁻",
+        "Ag + Cl → AgCl"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Na⁺ i NO₃⁻ to jony obserwatorzy."
+    },
+    {
+      "id": "obserwator",
+      "typ": "abcd",
+      "pytanie": "Jony obserwatorzy w reakcji AgNO₃ + NaCl to:",
+      "odpowiedzi": [
+        "Na⁺ i NO₃⁻",
+        "Ag⁺ i Cl⁻",
+        "Ag⁺ i NO₃⁻",
+        "Na⁺ i Cl⁻"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Występują po obu stronach bez zmian."
+    },
+    {
+      "id": "cuoh",
+      "typ": "abcd",
+      "pytanie": "Po dodaniu NaOH do roztworu CuSO₄ powstaje:",
+      "odpowiedzi": [
+        "niebieski osad Cu(OH)₂",
+        "biały osad Na₂SO₄",
+        "czarny osad CuO",
+        "brak zmian"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Cu²⁺ + 2OH⁻ → Cu(OH)₂↓."
+    },
+    {
+      "id": "zobojetnianie",
+      "typ": "abcd",
+      "pytanie": "Skrócony zapis jonowy reakcji KOH + HNO₃:",
+      "odpowiedzi": [
+        "H⁺ + OH⁻ → H₂O",
+        "K⁺ + NO₃⁻ → KNO₃",
+        "KOH + H⁺ → K⁺ + H₂O",
+        "H₂ + O₂ → H₂O"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "K⁺ i NO₃⁻ są obserwatorami."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Masa AgCl z 0,1 mola AgNO₃ (nadmiar NaCl):",
+      "odpowiedzi": [
+        "14,35 g",
+        "1,435 g",
+        "17,0 g",
+        "5,85 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "M(AgCl) = 143,5 g/mol."
+    }
+  ]
+}
