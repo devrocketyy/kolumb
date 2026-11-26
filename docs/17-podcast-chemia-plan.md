@@ -50,9 +50,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **15. Wzory empiryczne i rzeczywiste, skład procentowy** `c-wzory` ✅
 
-**16. Obliczenia z równań: nadmiar, wydajność, mieszaniny** `c-stechiometria` ⬜
+**16. Obliczenia z równań: nadmiar, wydajność, mieszaniny** `c-stechiometria` ✅
 
-**17. Powtórka działu: Mol i stechiometria** `stechiometria` ⬜
+**17. Powtórka działu: Mol i stechiometria** `stechiometria` ✅
 
 ## Dział: Energetyka, kinetyka i równowaga
 

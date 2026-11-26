@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-17-powtorka-stechiometria",
+  "pytania": [
+    {
+      "id": "mole",
+      "typ": "abcd",
+      "pytanie": "Liczba moli w 11 g C₃H₈:",
+      "odpowiedzi": [
+        "0,25 mola",
+        "0,5 mola",
+        "4 mole",
+        "0,11 mola"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "M(C₃H₈) = 44 g/mol."
+    },
+    {
+      "id": "czasteczki",
+      "typ": "abcd",
+      "pytanie": "Liczba cząsteczek w 0,25 mola C₃H₈:",
+      "odpowiedzi": [
+        "1,51·10²³",
+        "6,02·10²³",
+        "3,01·10²³",
+        "2,41·10²⁴"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "0,25 · 6,02·10²³."
+    },
+    {
+      "id": "tlen",
+      "typ": "abcd",
+      "pytanie": "Objętość O₂ (w.n.) do spalenia 11 g C₃H₈:",
+      "odpowiedzi": [
+        "28 dm³",
+        "5,6 dm³",
+        "22,4 dm³",
+        "112 dm³"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "1,25 · 22,4."
+    },
+    {
+      "id": "co2",
+      "typ": "abcd",
+      "pytanie": "Masa CO₂ ze spalenia 11 g C₃H₈:",
+      "odpowiedzi": [
+        "33 g",
+        "11 g",
+        "44 g",
+        "132 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "0,75 · 44 g/mol."
+    },
+    {
+      "id": "procent",
+      "typ": "abcd",
+      "pytanie": "Zawartość węgla w C₃H₈:",
+      "odpowiedzi": [
+        "81,8%",
+        "27,3%",
+        "75,0%",
+        "36,0%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "36 / 44."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Masa H₂O ze spalenia 11 g C₃H₈:",
+      "odpowiedzi": [
+        "18 g",
+        "4,5 g",
+        "72 g",
+        "36 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "0,25 · 4 = 1 mol H₂O."
+    }
+  ]
+}

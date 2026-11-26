@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-16-stechiometria",
+  "pytania": [
+    {
+      "id": "cynk",
+      "typ": "abcd",
+      "pytanie": "Objętość H₂ (w.n.) z 13 g Zn w reakcji z HCl:",
+      "odpowiedzi": [
+        "4,48 dm³",
+        "2,24 dm³",
+        "8,96 dm³",
+        "22,4 dm³"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "n(Zn) = 13/65 = 0,2 mola = n(H₂)."
+    },
+    {
+      "id": "niedomiar",
+      "typ": "abcd",
+      "pytanie": "W mieszaninie 4 g H₂ i 16 g O₂ w niedomiarze jest:",
+      "odpowiedzi": [
+        "tlen",
+        "wodór",
+        "żaden — stosunek jest stechiometryczny",
+        "woda"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "n(H₂) = 2, n(O₂) = 0,5; potrzeba 2 : 1."
+    },
+    {
+      "id": "woda",
+      "typ": "abcd",
+      "pytanie": "Masa wody z 4 g H₂ i 16 g O₂:",
+      "odpowiedzi": [
+        "18 g",
+        "20 g",
+        "36 g",
+        "9 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Licz od substratu w niedomiarze. Masy się zgadzają: 20 g = 18 g wody + 2 g H₂."
+    },
+    {
+      "id": "wydajnosc",
+      "typ": "abcd",
+      "pytanie": "Wydajność rozkładu 50 g CaCO₃, jeśli otrzymano 21 g CaO:",
+      "odpowiedzi": [
+        "75%",
+        "42%",
+        "56%",
+        "84%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "m teoretyczna = 0,5 · 56 = 28 g; 21/28."
+    },
+    {
+      "id": "mieszanina",
+      "typ": "abcd",
+      "pytanie": "Zawartość Mg w 10 g stopu Mg–Cu (2,24 dm³ H₂, w.n.):",
+      "odpowiedzi": [
+        "24%",
+        "10%",
+        "48%",
+        "2,4%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Cu nie reaguje z HCl; n(Mg) = n(H₂) = 0,1."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Ilość produktu wyznacza substrat:",
+      "odpowiedzi": [
+        "w niedomiarze",
+        "w nadmiarze",
+        "o większej masie",
+        "o większej masie molowej"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Jak ser w kanapkach."
+    }
+  ]
+}
