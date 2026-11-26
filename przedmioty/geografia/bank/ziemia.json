@@ -794,6 +794,141 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Pekin latem",
+   "material": "Tekst autorski. Latem w Polsce (UTC+2) jest 12:00. Pekin stosuje UTC+8.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Podaj godzinę w Pekinie.",
+     "odpowiedz": "18:00",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "+6 h.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-36",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Pierwszy Nowy Rok",
+   "material": "Tekst autorski. Wyspy Line (Kiribati) stosują czas UTC+14 i jako pierwsze witają Nowy Rok.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Podaj datę i godzinę w Warszawie (UTC+1), gdy na Kiribati wybija północ 1 stycznia.",
+     "odpowiedz": "31 grudnia, 11:00",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0:00 − 13 h.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-37",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Słońce na 30°S",
+   "material": "Tekst autorski. Punkt X leży na 30°S.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania 21 marca i podaj stronę nieba.",
+     "odpowiedz": "60°, po stronie północnej",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 30°; Słońce nad równikiem, czyli na północ od punktu.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-38",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Szerokość z wysokości Słońca w czerwcu",
+   "material": "Tekst autorski. 22 czerwca w punkcie na półkuli N Słońce górowało na wysokości 80° po stronie południowej nieba.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz szerokość geograficzną punktu.",
+     "odpowiedz": "33°27′N",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "90° − 80° + 23°27′.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-39",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Zenit nad Kairem?",
+   "material": "Tekst autorski. Kair leży na ok. 30°N.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy w Kairze Słońce kiedykolwiek góruje w zenicie. Uzasadnij.",
+     "odpowiedz": "Nie — Kair leży na północ od zwrotnika Raka (23°27′N), a zenitalne górowanie możliwe jest tylko między zwrotnikami.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Strefa międzyzwrotnikowa.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-40",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Dzień i noc na równiku",
+   "material": "Tekst autorski. Na równiku przez cały rok dzień trwa ok. 12 godzin.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij przyczynę.",
+     "odpowiedz": "Linia terminatora zawsze dzieli równik na dwie równe części — połowa równika jest oświetlona niezależnie od położenia Ziemi na orbicie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Terminator.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-41",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Strefy czasowe Rosji",
+   "material": "Tekst autorski. Rosja ma 11 stref czasowych — od UTC+2 (Kaliningrad) do UTC+12 (Kamczatka).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz różnicę czasu między Kaliningradem a Kamczatką.",
+     "odpowiedz": "10 godzin",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "12 − 2.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij przyczynę tak wielu stref czasowych.",
+     "odpowiedz": "Duża rozciągłość równoleżnikowa kraju (ok. 170°) — co 15° czas słoneczny różni się o 1 h.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Rozciągłość.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-42",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Zgorzelcem i Terespolem",
    "material": "Tekst autorski. Zgorzelec leży na ok. 15°00′E, Terespol na ok. 23°40′E. Jest zima (obowiązuje czas UTC+1).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -817,7 +952,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-36",
+   "id": "b-ziemia-43",
    "dzial": "ziemia"
   },
   {
@@ -844,7 +979,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-37",
+   "id": "b-ziemia-44",
    "dzial": "ziemia"
   },
   {
@@ -871,7 +1006,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-38",
+   "id": "b-ziemia-45",
    "dzial": "ziemia"
   },
   {
@@ -907,7 +1042,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-39",
+   "id": "b-ziemia-46",
    "dzial": "ziemia"
   },
   {
@@ -934,7 +1069,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-40",
+   "id": "b-ziemia-47",
    "dzial": "ziemia"
   },
   {
@@ -961,7 +1096,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-41",
+   "id": "b-ziemia-48",
    "dzial": "ziemia"
   },
   {
@@ -979,7 +1114,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-42",
+   "id": "b-ziemia-49",
    "dzial": "ziemia"
   }
  ]

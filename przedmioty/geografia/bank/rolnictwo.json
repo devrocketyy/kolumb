@@ -497,6 +497,60 @@
    "dzial": "rolnictwo"
   },
   {
+   "tytul": "Ryż w Indiach",
+   "material": "Tekst autorski. Indie zebrały ok. 135 mln t ryżu z ok. 46 mln ha.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz plon ryżu. Wynik zaokrąglij do 1 dt/ha.",
+     "odpowiedz": "ok. 29 dt/ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "135 / 46 ≈ 2,93 t/ha.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa warunki przyrodnicze uprawy ryżu.",
+     "odpowiedz": "Wysoka temperatura (powyżej ok. 20°C w okresie wegetacji), obfita woda (opady monsunowe lub nawadnianie), równinne tereny lub tarasy, nieprzepuszczalne gleby.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-19",
+   "dzial": "rolnictwo"
+  },
+  {
+   "tytul": "Owce w Nowej Zelandii",
+   "material": "Tekst autorski. Nowa Zelandia ma ok. 25 mln owiec i ok. 5,2 mln mieszkańców.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz liczbę owiec na mieszkańca. Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 4,8",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "25 / 5,2.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden czynnik przyrodniczy sprzyjający hodowli owiec w Nowej Zelandii.",
+     "odpowiedz": "Łagodny, wilgotny klimat morski pozwalający na wypas przez cały rok, rozległe pastwiska.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jeden.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-20",
+   "dzial": "rolnictwo"
+  },
+  {
    "tytul": "Plony pszenicy",
    "material": "Tekst autorski. W województwie zebrano 4,5 mln t zbóż z powierzchni 750 tys. ha.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -520,7 +574,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-19",
+   "id": "b-rolnictwo-21",
    "dzial": "rolnictwo"
   },
   {
@@ -547,7 +601,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-20",
+   "id": "b-rolnictwo-22",
    "dzial": "rolnictwo"
   }
  ]

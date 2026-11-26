@@ -992,6 +992,123 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Odległość w siatce kilometrowej",
+   "material": "Tekst autorski. Na mapie z siatką kilometrową punkt A ma współrzędne (3 km; 2 km), a punkt B (7 km; 5 km).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość AB w linii prostej.",
+     "odpowiedz": "5 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "√(4² + 3²).",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, co ile centymetrów biegną linie siatki kilometrowej na mapie 1:50 000.",
+     "odpowiedz": "co 2 cm",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 km = 2 cm.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-41",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Spadek linii kolejowej",
+   "material": "Tekst autorski. Linia kolejowa ma na odcinku 2 km spadek 25‰.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz różnicę wysokości na tym odcinku.",
+     "odpowiedz": "50 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2000 × 0,025.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-42",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Przewyższenie profilu 2",
+   "material": "Tekst autorski. Profil narysowano w skali poziomej 1:25 000, a w pionie 1 cm odpowiada 50 m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz przewyższenie profilu.",
+     "odpowiedz": "5 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Skala pionowa 1:5000; 25 000 / 5000.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-43",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Kierunki z wieży",
+   "material": "Tekst autorski. Z wieży widokowej kościół widać w kierunku północno-wschodnim.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj azymut kierunku na kościół.",
+     "odpowiedz": "45°",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "NE.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj kierunek, w którym z kościoła widać wieżę.",
+     "odpowiedz": "południowo-zachodni (225°)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kierunek przeciwny.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-44",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Powierzchnia rezerwatu",
+   "material": "Tekst autorski. Rezerwat ma powierzchnię 450 ha.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Wyraź powierzchnię w km².",
+     "odpowiedz": "4,5 km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "100 ha = 1 km².",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię rezerwatu na mapie w skali 1:50 000.",
+     "odpowiedz": "18 cm²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 cm² = 25 ha; 450 / 25.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-45",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Wycieczka na wieżę widokową",
    "material": "Tekst autorski. Na mapie w skali 1:25 000 kościół leży na wysokości 212 m n.p.m., a wieża widokowa na wzgórzu — 347 m n.p.m. Odległość między nimi na mapie: 8 cm. Wieża leży od kościoła w kierunku azymutu 135°.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1024,7 +1141,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-41",
+   "id": "b-mapa-46",
    "dzial": "mapa"
   },
   {
@@ -1042,7 +1159,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-42",
+   "id": "b-mapa-47",
    "dzial": "mapa"
   },
   {
@@ -1069,7 +1186,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-43",
+   "id": "b-mapa-48",
    "dzial": "mapa"
   },
   {
@@ -1105,7 +1222,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-44",
+   "id": "b-mapa-49",
    "dzial": "mapa"
   },
   {
@@ -1132,7 +1249,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-45",
+   "id": "b-mapa-50",
    "dzial": "mapa"
   },
   {
@@ -1159,7 +1276,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-46",
+   "id": "b-mapa-51",
    "dzial": "mapa"
   },
   {
@@ -1177,7 +1294,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-47",
+   "id": "b-mapa-52",
    "dzial": "mapa"
   }
  ]

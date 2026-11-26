@@ -1082,6 +1082,87 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Miasta Afryki",
+   "material": "Tekst autorski. Afrykę zamieszkuje ok. 1,5 mld osób, a wskaźnik urbanizacji wynosi ok. 44%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz liczbę mieszkańców miast Afryki.",
+     "odpowiedz": "ok. 660 mln",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1,5 × 0,44.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa problemy szybkiego rozwoju miast w Afryce.",
+     "odpowiedz": "Slumsy, brak kanalizacji i wody pitnej, bezrobocie i praca w szarej strefie, korki, zanieczyszczenie środowiska.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-43",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Egipt nad Nilem",
+   "material": "Tekst autorski. Egipt liczy ok. 112 mln mieszkańców przy powierzchni ok. 1 mln km². Ok. 95% ludności mieszka w dolinie i delcie Nilu na obszarze ok. 40 tys. km².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średnią gęstość zaludnienia Egiptu.",
+     "odpowiedz": "ok. 112 os./km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "112 000 000 / 1 000 000.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz gęstość zaludnienia doliny i delty Nilu.",
+     "odpowiedz": "ok. 2660 os./km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "106 400 000 / 40 000.",
+     "nr": "2"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij przyczynę tak nierównomiernego rozmieszczenia ludności.",
+     "odpowiedz": "Poza doliną Nilu jest pustynia bez wody; tylko tam można prowadzić rolnictwo (żyzne mady, nawadnianie).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Dostęp do wody.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-ludnosc-44",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Starzejąca się Japonia",
+   "material": "Tekst autorski. W Japonii osoby 65+ stanowią ok. 29%, a dzieci 0–14 ok. 11,5% ludności.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik starości (osoby 65+ na 100 dzieci). Wynik zaokrąglij do 1.",
+     "odpowiedz": "ok. 252",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "29 / 11,5 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-45",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Ludność Nigerii",
    "material": "Tekst autorski. Kraj liczy ok. 230 mln mieszkańców, a współczynnik przyrostu naturalnego wynosi ok. 25‰.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1114,7 +1195,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-43",
+   "id": "b-ludnosc-46",
    "dzial": "ludnosc"
   },
   {
@@ -1141,7 +1222,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-44",
+   "id": "b-ludnosc-47",
    "dzial": "ludnosc"
   },
   {
@@ -1177,7 +1258,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-45",
+   "id": "b-ludnosc-48",
    "dzial": "ludnosc"
   },
   {
@@ -1204,7 +1285,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-46",
+   "id": "b-ludnosc-49",
    "dzial": "ludnosc"
   },
   {
@@ -1240,7 +1321,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-47",
+   "id": "b-ludnosc-50",
    "dzial": "ludnosc"
   }
  ]

@@ -740,6 +740,96 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Odzież z Bangladeszu",
+   "material": "Tekst autorski. Eksport Bangladeszu wynosi ok. 55 mld USD, z czego ok. 85% stanowi odzież.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wartość eksportu odzieży.",
+     "odpowiedz": "ok. 46,75 mld USD",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "55 × 0,85.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny rozwoju przemysłu odzieżowego w Bangladeszu.",
+     "odpowiedz": "Bardzo tania i liczna siła robocza, niskie wymagania kwalifikacyjne, preferencje celne w handlu z UE, napływ zamówień globalnych marek.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-30",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Geotermia w Islandii",
+   "material": "Tekst autorski. Islandia wytwarza ok. 70% energii elektrycznej w elektrowniach wodnych i ok. 30% w geotermalnych.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przyczyny dużego wykorzystania energii geotermalnej w Islandii.",
+     "odpowiedz": "Wyspa leży na Grzbiecie Śródatlantyckim (granica rozbieżna) i nad plamą gorąca — gorące skały i wody blisko powierzchni.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Położenie tektoniczne.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-31",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Eksport Chin",
+   "material": "Tekst autorski. Eksport Chin wynosi ok. 3,4 bln USD, a światowy eksport towarów — ok. 24 bln USD.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział Chin w światowym eksporcie. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 14%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3,4 / 24 × 100.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-32",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Malediwy",
+   "material": "Tekst autorski. Malediwy odwiedza ok. 1,9 mln turystów rocznie, a mieszkańców jest ok. 520 tys.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik Schneidera.",
+     "odpowiedz": "ok. 365",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1,9 / 0,52 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj zagrożenie przyrodnicze, które w przyszłości może zagrozić istnieniu Malediwów.",
+     "odpowiedz": "Wzrost poziomu morza (wyspy leżą średnio ok. 1–2 m n.p.m.)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zmiany klimatu.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-33",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Struktura produkcji energii",
    "material": "Tekst autorski. W pewnym kraju wyprodukowano 160 TWh energii elektrycznej, w tym 88 TWh w elektrowniach węglowych, 16 TWh gazowych, 32 TWh wiatrowych, 16 TWh słonecznych i 8 TWh w innych źródłach.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -763,7 +853,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-30",
+   "id": "b-przemysl-34",
    "dzial": "przemysl"
   },
   {
@@ -790,7 +880,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-31",
+   "id": "b-przemysl-35",
    "dzial": "przemysl"
   },
   {
@@ -817,7 +907,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-32",
+   "id": "b-przemysl-36",
    "dzial": "przemysl"
   },
   {
@@ -844,7 +934,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-33",
+   "id": "b-przemysl-37",
    "dzial": "przemysl"
   }
  ]
