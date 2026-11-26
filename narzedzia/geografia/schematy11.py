@@ -74,7 +74,7 @@ S['g-atmosfera'] = [
  dict(typ='rysunek', tytul='Bilans promieniowania słonecznego', svg=_bp,
       znaczniki=[(58, 58, 80, 100, 'Promieniowanie Słońca', '100 jednostek docierających do atmosfery'),
                  (150, 100, 190, 80, 'Odbite od chmur', 'Ok. 20 jednostek'),
-                 (100, 115, 112, 195, 'Rozproszone', 'Ok. 6 — rozproszenie w atmosferze'),
+                 (100, 115, 112, 172, 'Rozproszone', 'Ok. 6 — rozproszenie w atmosferze'),
                  (262, 140, 250, 200, 'Odbite od podłoża', 'Ok. 4 — zależy od albedo'),
                  (120, 210, 170, 250, 'Pochłonięte', 'Ok. 50 przez powierzchnię; ok. 20 przez atmosferę i chmury')],
       opis='Uproszczony bilans promieniowania krótkofalowego (wartości przybliżone, 100 = całe promieniowanie u górnej granicy atmosfery).',
