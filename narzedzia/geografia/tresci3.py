@@ -106,7 +106,7 @@ Q=[
 Q=[
  ('Na półkuli północnej powietrze w niżu krąży:', ['*przeciwnie do ruchu wskazówek zegara', 'zgodnie z ruchem wskazówek zegara', 'prostoliniowo do środka układu', 'wyłącznie z zachodu na wschód'], 'W wyżu — zgodnie.'),
  ('Pasaty na półkuli północnej wieją z kierunku:', ['*północno-wschodniego', 'południowo-wschodniego', 'zachodniego', 'północno-zachodniego'], 'Odchylenie w prawo od kierunku N.'),
- ('Bryza morska wieje:', ['*w dzień od morza w stronę lądu', 'w nocy od morza', 'w dzień od lądu', 'tylko zimą'], 'Ląd w dzień nagrzewa się szybciej.'),
+ ('Bryza morska wieje:', ['*w dzień od morza w stronę lądu', 'w nocy od morza w stronę lądu', 'w dzień od lądu w stronę morza', 'tylko zimą, gdy morze zamarza'], 'Ląd w dzień nagrzewa się szybciej.'),
  ('Powietrze o temperaturze 10°C przy podnóżu (500 m) wznosi się do 2500 m (0,6°C/100 m), potem opada do 500 m (1°C/100 m). Temperatura u podnóża zawietrznego:', ['*18°C', '10°C', '2°C', '22°C'], 'Na szczycie 10 − 12 = −2°C; −2 + 20 = 18°C.'),
  ('Wyż jest związany z:', ['*opadaniem powietrza i pogodą bezchmurną', 'wznoszeniem powietrza i opadami', 'frontem chłodnym', 'monsunem letnim'], 'Powietrze zstępujące ogrzewa się.'),
  ('Monsun letni w Indiach przynosi:', ['*obfite opady z oceanu', 'suche powietrze z lądu', 'mrozy', 'burze piaskowe'], 'Wiatr z Oceanu Indyjskiego.'),
