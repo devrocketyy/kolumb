@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-54-cukry",
+  "pytania": [
+    {
+      "id": "odroznienie",
+      "typ": "abcd",
+      "pytanie": "Glukozę od fruktozy odróżnisz za pomocą:",
+      "odpowiedzi": [
+        "wody bromowej",
+        "próby Trommera",
+        "Cu(OH)₂ na zimno",
+        "jodyny"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Obie dają próbę Trommera, ale tylko glukoza utlenia się wodą bromową."
+    },
+    {
+      "id": "izomery",
+      "typ": "abcd",
+      "pytanie": "Glukoza i fruktoza to:",
+      "odpowiedzi": [
+        "izomery funkcyjne: aldoza i ketoza",
+        "ten sam związek",
+        "enancjomery",
+        "homologi"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Ten sam wzór C₆H₁₂O₆."
+    },
+    {
+      "id": "sacharoza",
+      "typ": "abcd",
+      "pytanie": "Sacharoza w próbie Trommera:",
+      "odpowiedzi": [
+        "nie daje ceglastego osadu",
+        "daje ceglasty osad",
+        "daje srebrne lustro",
+        "zmienia barwę na fioletową"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Wiązanie glikozydowe blokuje grupy redukujące."
+    },
+    {
+      "id": "skrobia",
+      "typ": "abcd",
+      "pytanie": "Skrobię wykrywa się:",
+      "odpowiedzi": [
+        "jodem — zabarwienie granatowe",
+        "wodą bromową",
+        "Cu(OH)₂ — szafirowy roztwór",
+        "HNO₃ — żółte zabarwienie"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Charakterystyczna reakcja skrobi."
+    },
+    {
+      "id": "fermentacja",
+      "typ": "abcd",
+      "pytanie": "Masa etanolu z 180 g glukozy (wydajność 100%):",
+      "odpowiedzi": [
+        "92 g",
+        "46 g",
+        "180 g",
+        "88 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "1 mol glukozy → 2 mole C₂H₅OH · 46 g/mol."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Hydroliza sacharozy daje:",
+      "odpowiedzi": [
+        "glukozę i fruktozę",
+        "dwie cząsteczki glukozy",
+        "skrobię",
+        "etanol i CO₂"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "C₁₂H₂₂O₁₁ + H₂O → C₆H₁₂O₆ + C₆H₁₂O₆."
+    }
+  ]
+}

@@ -142,9 +142,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **53. Aminokwasy, peptydy i białka** `c-aminokwasy` ✅
 
-**54. Cukry** `c-cukry` ⬜
+**54. Cukry** `c-cukry` ✅
 
-**55. Powtórka działu: Związki azotu, białka i cukry** `azotowe-cukry` ⬜
+**55. Powtórka działu: Związki azotu, białka i cukry** `azotowe-cukry` ✅
 
 ## Dział: Chemia wokół nas i środowisko
 
