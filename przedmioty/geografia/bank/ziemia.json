@@ -92,6 +92,33 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Dzień polarny",
+   "material": "Tekst autorski. Miasto Tromsø leży na ok. 69°40′N.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, czy w Tromsø występuje dzień polarny. Uzasadnij.",
+     "odpowiedz": "Tak — miasto leży na północ od koła podbiegunowego (66°33′N).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Za kołem podbiegunowym.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania 22 czerwca w Tromsø.",
+     "odpowiedz": "43°47′",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 69°40′ + 23°27′.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-04",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Zgorzelcem i Terespolem",
    "material": "Tekst autorski. Zgorzelec leży na ok. 15°00′E, Terespol na ok. 23°40′E. Jest zima (obowiązuje czas UTC+1).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -115,7 +142,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-04",
+   "id": "b-ziemia-05",
    "dzial": "ziemia"
   },
   {
@@ -142,7 +169,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-05",
+   "id": "b-ziemia-06",
    "dzial": "ziemia"
   },
   {
@@ -169,7 +196,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-06",
+   "id": "b-ziemia-07",
    "dzial": "ziemia"
   },
   {
@@ -205,7 +232,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-07",
+   "id": "b-ziemia-08",
    "dzial": "ziemia"
   },
   {
@@ -232,7 +259,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-08",
+   "id": "b-ziemia-09",
    "dzial": "ziemia"
   },
   {
@@ -259,7 +286,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-09",
+   "id": "b-ziemia-10",
    "dzial": "ziemia"
   },
   {
@@ -277,7 +304,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-10",
+   "id": "b-ziemia-11",
    "dzial": "ziemia"
   }
  ]

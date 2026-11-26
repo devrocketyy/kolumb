@@ -2,6 +2,33 @@
  "dzial": "pedosfera",
  "wiazki": [
   {
+   "tytul": "Erozja gleby na stoku",
+   "material": "Tekst autorski. Na zaoranym wzdłuż stoku polu gleba traci przez erozję 20 t/ha rocznie, a w tym samym czasie powstaje 1 t/ha nowej gleby.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz ubytek gleby po 50 latach.",
+     "odpowiedz": "950 t/ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(20 − 1) × 50.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa sposoby ograniczenia erozji gleb na stokach.",
+     "odpowiedz": "Orka w poprzek stoku, tarasowanie, zadrzewienia śródpolne, utrzymywanie okrywy roślinnej (międzyplony), zalesianie stromych stoków.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-pedosfera-01",
+   "dzial": "pedosfera"
+  },
+  {
    "tytul": "Gleba stepowa",
    "material": "Tekst autorski. Profil glebowy: poziom próchniczny A ciemny, o miąższości ok. 1 m, na lessie. Klimat: opady ok. 450 mm, ciepłe lato, mroźna zima. Roślinność naturalna — trawy.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -25,7 +52,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-pedosfera-01",
+   "id": "b-pedosfera-02",
    "dzial": "pedosfera"
   },
   {
@@ -52,7 +79,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-pedosfera-02",
+   "id": "b-pedosfera-03",
    "dzial": "pedosfera"
   }
  ]

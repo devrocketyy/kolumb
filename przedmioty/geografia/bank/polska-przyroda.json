@@ -2,6 +2,33 @@
  "dzial": "polska-przyroda",
  "wiazki": [
   {
+   "tytul": "Okres wegetacyjny",
+   "material": "Tekst autorski. Okres wegetacyjny trwa we Wrocławiu ok. 225 dni, a w Suwałkach ok. 185 dni.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz różnicę długości okresu wegetacyjnego.",
+     "odpowiedz": "40 dni",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "225 − 185.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przyczyny tej różnicy.",
+     "odpowiedz": "Suwałki leżą dalej na północnym wschodzie — silniejszy wpływ mas kontynentalnych i dłuższa, mroźniejsza zima; Wrocław jest pod wpływem łagodnych mas oceanicznych i leży niżej, na południowym zachodzie.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Kontynentalizm, szerokość.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-przyroda-01",
+   "dzial": "polska-przyroda"
+  },
+  {
    "tytul": "Dwie stacje w Polsce",
    "material": "Tekst autorski. Stacja P (zachodnia Polska): średnia temperatura stycznia −0,5°C, lipca 18,5°C. Stacja S (północno-wschodnia Polska): stycznia −4°C, lipca 18°C.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -25,7 +52,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-01",
+   "id": "b-polska-przyroda-02",
    "dzial": "polska-przyroda"
   },
   {
@@ -52,7 +79,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-02",
+   "id": "b-polska-przyroda-03",
    "dzial": "polska-przyroda"
   },
   {
@@ -79,7 +106,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-03",
+   "id": "b-polska-przyroda-04",
    "dzial": "polska-przyroda"
   },
   {
@@ -106,7 +133,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-04",
+   "id": "b-polska-przyroda-05",
    "dzial": "polska-przyroda"
   },
   {
@@ -133,7 +160,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-05",
+   "id": "b-polska-przyroda-06",
    "dzial": "polska-przyroda"
   },
   {
@@ -160,7 +187,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-06",
+   "id": "b-polska-przyroda-07",
    "dzial": "polska-przyroda"
   },
   {
@@ -187,7 +214,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-07",
+   "id": "b-polska-przyroda-08",
    "dzial": "polska-przyroda"
   },
   {
@@ -214,7 +241,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-08",
+   "id": "b-polska-przyroda-09",
    "dzial": "polska-przyroda"
   }
  ]

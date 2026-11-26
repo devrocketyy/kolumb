@@ -2,6 +2,60 @@
  "dzial": "polska-gospodarka",
  "wiazki": [
   {
+   "tytul": "Miedź z Zagłębia Legnicko-Głogowskiego",
+   "material": "Tekst autorski. W ciągu roku wydobyto 30 mln t rudy o średniej zawartości miedzi 1,5%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz masę miedzi zawartej w wydobytej rudzie.",
+     "odpowiedz": "450 tys. t",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "30 000 000 t × 0,015.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę drugiego cennego metalu pozyskiwanego z tych rud.",
+     "odpowiedz": "srebro",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Polska — czołowy producent srebra.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-gospodarka-01",
+   "dzial": "polska-gospodarka"
+  },
+  {
+   "tytul": "Fotowoltaika na dachu",
+   "material": "Tekst autorski. Instalacja o mocy 10 kW produkuje w Polsce ok. 1000 kWh z każdego kW mocy rocznie. Dom zużywa 4000 kWh energii rocznie.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczną produkcję energii i jej nadwyżkę ponad zużycie.",
+     "odpowiedz": "10 000 kWh; nadwyżka 6000 kWh",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "10 × 1000; 10 000 − 4000.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego produkcja z paneli w Polsce jest najmniejsza w grudniu.",
+     "odpowiedz": "Słońce góruje nisko, dzień jest krótki, a zachmurzenie duże — dociera mało promieniowania.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wysokość Słońca, długość dnia.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-gospodarka-02",
+   "dzial": "polska-gospodarka"
+  },
+  {
    "tytul": "Struktura zatrudnienia",
    "material": "Tekst autorski. W kraju X w rolnictwie pracuje 8% zatrudnionych, w przemyśle i budownictwie 30%, w usługach 62%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -25,7 +79,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-01",
+   "id": "b-polska-gospodarka-03",
    "dzial": "polska-gospodarka"
   },
   {
@@ -52,7 +106,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-02",
+   "id": "b-polska-gospodarka-04",
    "dzial": "polska-gospodarka"
   },
   {
@@ -79,7 +133,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-gospodarka-03",
+   "id": "b-polska-gospodarka-05",
    "dzial": "polska-gospodarka"
   }
  ]

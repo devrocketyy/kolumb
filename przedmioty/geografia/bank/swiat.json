@@ -2,6 +2,33 @@
  "dzial": "swiat",
  "wiazki": [
   {
+   "tytul": "BRICS",
+   "material": "Tekst autorski. Kraje BRICS (pierwotne pięć) zamieszkuje ok. 3,3 mld ludzi, a cały świat — ok. 8,1 mld.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział ludności BRICS w ludności świata.",
+     "odpowiedz": "ok. 41%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3,3 / 8,1 × 100 ≈ 40,7.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwy dwóch państw BRICS położonych w Azji.",
+     "odpowiedz": "Chiny i Indie (także Rosja w części)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Pierwotne BRICS.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-swiat-01",
+   "dzial": "swiat"
+  },
+  {
    "tytul": "Wskaźnik rozwoju społecznego",
    "material": "Tekst autorski. HDI wybranych państw: Norwegia 0,966, Polska 0,881, Indie 0,644, Czad 0,394. Przyjmij progi: bardzo wysoki ≥ 0,800; wysoki 0,700–0,799; średni 0,550–0,699; niski < 0,550.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -34,7 +61,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-swiat-01",
+   "id": "b-swiat-02",
    "dzial": "swiat"
   },
   {
@@ -61,7 +88,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-swiat-02",
+   "id": "b-swiat-03",
    "dzial": "swiat"
   },
   {
@@ -88,7 +115,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-swiat-03",
+   "id": "b-swiat-04",
    "dzial": "swiat"
   },
   {
@@ -115,7 +142,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-swiat-04",
+   "id": "b-swiat-05",
    "dzial": "swiat"
   },
   {
@@ -142,7 +169,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-swiat-05",
+   "id": "b-swiat-06",
    "dzial": "swiat"
   },
   {
@@ -169,7 +196,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-swiat-06",
+   "id": "b-swiat-07",
    "dzial": "swiat"
   }
  ]

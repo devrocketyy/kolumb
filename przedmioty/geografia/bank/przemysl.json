@@ -2,6 +2,33 @@
  "dzial": "przemysl",
  "wiazki": [
   {
+   "tytul": "Kanał Sueski",
+   "material": "Tekst autorski. Droga morska Rotterdam–Singapur przez Kanał Sueski ma ok. 15 300 km, a wokół Afryki ok. 21 700 km.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, o ile kilometrów i o ile procent kanał skraca drogę.",
+     "odpowiedz": "o 6400 km, czyli ok. 29%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "6400 / 21 700 × 100 ≈ 29,5.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden skutek gospodarczy zablokowania kanału.",
+     "odpowiedz": "Np. opóźnienia dostaw, wzrost kosztów frachtu i cen towarów, statki kierowane wokół Afryki.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Np. 2021, 2024.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-01",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Struktura produkcji energii",
    "material": "Tekst autorski. Kraj Q wyprodukował 160 TWh energii elektrycznej: węgiel 55%, gaz ziemny 10%, wiatr 15%, słońce 10%, biomasa 8%, woda 2%.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -34,7 +61,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-przemysl-01",
+   "id": "b-przemysl-02",
    "dzial": "przemysl"
   },
   {
@@ -61,7 +88,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-02",
+   "id": "b-przemysl-03",
    "dzial": "przemysl"
   },
   {
@@ -88,7 +115,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-03",
+   "id": "b-przemysl-04",
    "dzial": "przemysl"
   },
   {
@@ -115,7 +142,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-04",
+   "id": "b-przemysl-05",
    "dzial": "przemysl"
   },
   {
@@ -142,7 +169,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-05",
+   "id": "b-przemysl-06",
    "dzial": "przemysl"
   },
   {
@@ -169,7 +196,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-06",
+   "id": "b-przemysl-07",
    "dzial": "przemysl"
   },
   {
@@ -196,7 +223,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-07",
+   "id": "b-przemysl-08",
    "dzial": "przemysl"
   }
  ]
