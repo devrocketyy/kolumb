@@ -148,8 +148,8 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 ## Dział: Chemia wokół nas i środowisko
 
-**56. Chemia w życiu codziennym** `c-chemia-zycia` ⬜
+**56. Chemia w życiu codziennym** `c-chemia-zycia` ✅
 
-**57. Elementy ochrony środowiska** `c-srodowisko` ⬜
+**57. Elementy ochrony środowiska** `c-srodowisko` ✅
 
-**58. Powtórka działu: Chemia wokół nas i środowisko** `chemia-zycia` ⬜
+**58. Powtórka działu: Chemia wokół nas i środowisko** `chemia-zycia` ✅
