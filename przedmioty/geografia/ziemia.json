@@ -645,6 +645,67 @@
      "wyjasnienie": "To przesilenie letnie dla półkuli S.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sb2c2eea6",
+     "typ": "rysunek",
+     "tytul": "Strefy oświetlenia Ziemi",
+     "opis": "Podział Ziemi na strefy według kąta padania promieni słonecznych.",
+     "uwaga": "Granice stref oświetlenia wynikają z nachylenia osi Ziemi (23°27′).",
+     "svg": "<circle class=\"s\" cx=\"200\" cy=\"150\" r=\"120\"/><path class=\"f2\" d=\"M120 60 A120 120 0 0 1 280 60 Z\"/><path class=\"f2\" d=\"M120 240 A120 120 0 0 0 280 240 Z\"/><path class=\"f\" d=\"M85 112 H315 V188 H85 Z\" opacity=\"0.6\"/><path class=\"s2\" d=\"M80 150 H320\"/><path class=\"dash\" d=\"M85 112 H315\"/><path class=\"dash\" d=\"M85 188 H315\"/><path class=\"dash\" d=\"M120 60 H280\"/><path class=\"dash\" d=\"M120 240 H280\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 150,
+       "lx": 340,
+       "ly": 150,
+       "n": "Strefa gorąca",
+       "d": "Między zwrotnikami — Słońce może górować w zenicie"
+      },
+      {
+       "x": 200,
+       "y": 85,
+       "lx": 340,
+       "ly": 85,
+       "n": "Strefa umiarkowana północna",
+       "d": "Między zwrotnikiem Raka a kołem podbiegunowym"
+      },
+      {
+       "x": 200,
+       "y": 45,
+       "lx": 340,
+       "ly": 40,
+       "n": "Strefa zimna północna",
+       "d": "Za kołem podbiegunowym — dzień i noc polarna"
+      },
+      {
+       "x": 300,
+       "y": 112,
+       "lx": 360,
+       "ly": 115,
+       "n": "Zwrotnik Raka",
+       "d": "23°27′N"
+      },
+      {
+       "x": 280,
+       "y": 60,
+       "lx": 360,
+       "ly": 62,
+       "n": "Koło podbiegunowe",
+       "d": "66°33′N"
+      },
+      {
+       "x": 300,
+       "y": 188,
+       "lx": 360,
+       "ly": 190,
+       "n": "Zwrotnik Koziorożca",
+       "d": "23°27′S"
+      }
+     ]
+    }
    ]
   },
   {

@@ -1038,6 +1038,94 @@
      "wyjasnienie": "Wierzchołek V wskazuje kierunek przeciwny do spływu.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s96a7a455",
+     "typ": "rysunek",
+     "tytul": "Poziomice: wzgórze i stoki",
+     "opis": "Wzgórze na mapie poziomicowej z cięciem 10 m.",
+     "uwaga": "Gęste poziomice = stromo. Zamknięte poziomice o rosnących wartościach = wzniesienie, o malejących = zagłębienie.",
+     "svg": "<path class=\"s\" d=\"M100 240 C100 120 160 60 220 60 C300 60 360 140 360 240\"/><path class=\"s\" d=\"M115 240 C115 140 165 95 215 95 C280 95 310 160 310 240\"/><path class=\"s\" d=\"M130 240 C130 165 170 130 210 130 C250 130 260 180 260 240\"/><ellipse class=\"s\" cx=\"190\" cy=\"190\" rx=\"40\" ry=\"25\"/><path class=\"s2\" d=\"M330 240 L345 295\"/><text class=\"t\" x=\"215\" y=\"55\">300</text><text class=\"t\" x=\"210\" y=\"90\">310</text><text class=\"t\" x=\"205\" y=\"125\">320</text><text class=\"t\" x=\"178\" y=\"194\">330</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 190,
+       "y": 190,
+       "lx": 190,
+       "ly": 235,
+       "n": "Szczyt",
+       "d": "Zamknięta poziomica o najwyższej wartości"
+      },
+      {
+       "x": 115,
+       "y": 200,
+       "lx": 60,
+       "ly": 200,
+       "n": "Stok stromy",
+       "d": "Poziomice gęsto — duża różnica wysokości na małej odległości"
+      },
+      {
+       "x": 320,
+       "y": 170,
+       "lx": 375,
+       "ly": 160,
+       "n": "Stok łagodny",
+       "d": "Poziomice rzadko"
+      },
+      {
+       "x": 338,
+       "y": 268,
+       "lx": 375,
+       "ly": 280,
+       "n": "Ciek",
+       "d": "Woda spływa prostopadle do poziomic, od wyższych ku niższym"
+      }
+     ]
+    },
+    {
+     "id": "s8cfda7aa",
+     "typ": "rysunek",
+     "tytul": "Profil terenu z mapy",
+     "opis": "Przekrój terenu wykreślony z punktów przecięcia linii z poziomicami.",
+     "uwaga": "Na osi poziomej odległość według skali mapy, na pionowej — wysokość. Podaj przewyższenie, jeśli skale są różne.",
+     "svg": "<path class=\"s\" d=\"M30 250 H370\"/><path class=\"s\" d=\"M30 250 V40\"/><path class=\"f\" d=\"M30 250 L30 200 L90 170 L150 110 L190 90 L230 130 L280 150 L330 190 L370 210 L370 250 Z\"/><path class=\"dash\" d=\"M190 90 L190 250\"/><text class=\"t\" x=\"10\" y=\"205\">200</text><text class=\"t\" x=\"10\" y=\"95\">300</text><text class=\"t\" x=\"180\" y=\"268\">km</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 190,
+       "y": 90,
+       "lx": 210,
+       "ly": 70,
+       "n": "Kulminacja",
+       "d": "Najwyższy punkt na linii profilu"
+      },
+      {
+       "x": 110,
+       "y": 150,
+       "lx": 80,
+       "ly": 125,
+       "n": "Stok zachodni",
+       "d": "Bardziej stromy — szybki przyrost wysokości"
+      },
+      {
+       "x": 300,
+       "y": 170,
+       "lx": 320,
+       "ly": 150,
+       "n": "Stok wschodni",
+       "d": "Łagodniejszy"
+      },
+      {
+       "x": 30,
+       "y": 150,
+       "lx": 50,
+       "ly": 50,
+       "n": "Skala pionowa",
+       "d": "Zwykle przewyższona, by uwidocznić rzeźbę"
+      }
+     ]
+    }
    ]
   },
   {

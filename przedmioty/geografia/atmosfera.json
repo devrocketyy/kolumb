@@ -642,6 +642,67 @@
      "wyjasnienie": "Wyże zwrotnikowe — ok. 30°.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "se2662b57",
+     "typ": "rysunek",
+     "tytul": "Cyrkulacja atmosferyczna",
+     "opis": "Uproszczony układ stref ciśnienia i stałych wiatrów.",
+     "uwaga": "Na półkuli N wiatry odchylają się w prawo, na S w lewo (siła Coriolisa).",
+     "svg": "<path class=\"s\" d=\"M60 20 H340 M60 280 H340\"/><path class=\"s2\" d=\"M60 150 H340\"/><path class=\"dash\" d=\"M60 95 H340 M60 205 H340 M60 50 H340 M60 250 H340\"/><path class=\"s\" d=\"M150 100 L130 140\"/><path class=\"s\" d=\"M260 100 L240 140\"/><path class=\"s\" d=\"M150 200 L130 160\"/><path class=\"s\" d=\"M260 200 L240 160\"/><path class=\"s\" d=\"M130 90 L170 60\"/><path class=\"s\" d=\"M240 90 L280 60\"/><text class=\"t\" x=\"20\" y=\"155\">0°</text><text class=\"t\" x=\"15\" y=\"100\">30°N</text><text class=\"t\" x=\"15\" y=\"55\">60°N</text><text class=\"t\" x=\"15\" y=\"210\">30°S</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 140,
+       "y": 120,
+       "lx": 100,
+       "ly": 125,
+       "n": "Pasaty NE",
+       "d": "Wieją od wyżów zwrotnikowych ku równikowi, odchylone w prawo"
+      },
+      {
+       "x": 140,
+       "y": 180,
+       "lx": 100,
+       "ly": 185,
+       "n": "Pasaty SE",
+       "d": "Na półkuli S odchylone w lewo"
+      },
+      {
+       "x": 200,
+       "y": 150,
+       "lx": 200,
+       "ly": 135,
+       "n": "Niż równikowy",
+       "d": "Strefa konwergencji, wznoszenie powietrza i opady"
+      },
+      {
+       "x": 200,
+       "y": 95,
+       "lx": 300,
+       "ly": 100,
+       "n": "Wyż zwrotnikowy",
+       "d": "Opadanie suchego powietrza — pustynie"
+      },
+      {
+       "x": 150,
+       "y": 75,
+       "lx": 120,
+       "ly": 55,
+       "n": "Wiatry zachodnie",
+       "d": "Strefa umiarkowana"
+      },
+      {
+       "x": 200,
+       "y": 50,
+       "lx": 300,
+       "ly": 45,
+       "n": "Niż subpolarny",
+       "d": "Ok. 60°, zbieżność mas powietrza"
+      }
+     ]
+    }
    ]
   },
   {
@@ -955,6 +1016,59 @@
      "poprawna": "C",
      "wyjasnienie": "Wypromieniowanie i ochłodzenie.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "sdc3c5b14",
+     "typ": "rysunek",
+     "tytul": "Front ciepły i front chłodny",
+     "opis": "Przekroje przez fronty atmosferyczne.",
+     "uwaga": "Po przejściu frontu ciepłego — ocieplenie, po chłodnym — ochłodzenie i poprawa widzialności.",
+     "svg": "<path class=\"s\" d=\"M10 260 H390\"/><path class=\"f\" d=\"M20 260 L180 120 L180 260 Z\"/><path class=\"f2\" d=\"M220 260 C250 180 280 150 380 140 L380 260 Z\"/><path class=\"s2\" d=\"M20 258 L180 120\"/><path class=\"s2\" d=\"M220 258 C250 180 280 150 380 140\"/><path class=\"dash\" d=\"M60 110 H160 M270 80 C300 60 330 60 360 80\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 100,
+       "y": 195,
+       "lx": 60,
+       "ly": 230,
+       "n": "Front ciepły",
+       "d": "Ciepłe powietrze łagodnie nasuwa się na chłodne"
+      },
+      {
+       "x": 110,
+       "y": 110,
+       "lx": 110,
+       "ly": 90,
+       "n": "Chmury warstwowe",
+       "d": "Długotrwałe opady ciągłe"
+      },
+      {
+       "x": 260,
+       "y": 200,
+       "lx": 250,
+       "ly": 230,
+       "n": "Front chłodny",
+       "d": "Chłodne powietrze wciska się pod ciepłe"
+      },
+      {
+       "x": 315,
+       "y": 70,
+       "lx": 330,
+       "ly": 40,
+       "n": "Chmury kłębiaste",
+       "d": "Krótkie ulewy, burze"
+      },
+      {
+       "x": 180,
+       "y": 200,
+       "lx": 200,
+       "ly": 210,
+       "n": "Powietrze ciepłe",
+       "d": "Między frontami (wycinek ciepły niżu)"
+      }
+     ]
     }
    ]
   },

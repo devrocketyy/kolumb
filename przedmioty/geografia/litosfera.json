@@ -322,6 +322,67 @@
      "wyjasnienie": "Także skamieniałości.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s095ef939",
+     "typ": "rysunek",
+     "tytul": "Przekrój stratowulkanu",
+     "opis": "Budowa wulkanu warstwowego.",
+     "uwaga": "Stratowulkany powstają głównie w strefach subdukcji (lawa lepka, erupcje wybuchowe).",
+     "svg": "<path class=\"f\" d=\"M30 270 L170 70 L230 70 L370 270 Z\"/><path class=\"s2\" d=\"M200 270 L200 70\"/><ellipse class=\"f2\" cx=\"200\" cy=\"280\" rx=\"60\" ry=\"14\"/><path class=\"s\" d=\"M60 230 L340 230 M90 190 L310 190 M120 150 L280 150 M150 110 L250 110\"/><path class=\"s\" d=\"M200 140 L270 175\"/><path class=\"dash\" d=\"M190 60 C170 30 210 20 200 5\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 280,
+       "lx": 280,
+       "ly": 290,
+       "n": "Komora magmowa",
+       "d": "Zbiornik magmy pod wulkanem"
+      },
+      {
+       "x": 200,
+       "y": 200,
+       "lx": 160,
+       "ly": 205,
+       "n": "Komin główny",
+       "d": "Droga magmy na powierzchnię"
+      },
+      {
+       "x": 200,
+       "y": 70,
+       "lx": 240,
+       "ly": 55,
+       "n": "Krater",
+       "d": "Otwór na szczycie stożka"
+      },
+      {
+       "x": 270,
+       "y": 175,
+       "lx": 300,
+       "ly": 160,
+       "n": "Komin boczny",
+       "d": "Erupcje z boku stożka (stożki pasożytnicze)"
+      },
+      {
+       "x": 90,
+       "y": 190,
+       "lx": 50,
+       "ly": 175,
+       "n": "Warstwy lawy i popiołów",
+       "d": "Na przemian — stąd nazwa stratowulkan"
+      },
+      {
+       "x": 200,
+       "y": 25,
+       "lx": 240,
+       "ly": 20,
+       "n": "Chmura erupcyjna",
+       "d": "Gazy i materiał piroklastyczny"
+      }
+     ]
+    }
    ]
   },
   {

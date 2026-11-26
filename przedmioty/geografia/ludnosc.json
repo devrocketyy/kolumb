@@ -291,6 +291,37 @@
      "wyjasnienie": "Kraje rozwinięte.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "scb440a46",
+     "typ": "proces",
+     "tytul": "Przejście demograficzne",
+     "opis": "Model zmian urodzeń i zgonów w miarę rozwoju społeczno-gospodarczego.",
+     "uwaga": "Kraje Afryki Subsaharyjskiej są w fazie II–III, Europa w fazie IV–V.",
+     "kroki": [
+      {
+       "t": "Faza I — przedtransformacyjna",
+       "d": "Wysokie urodzenia i wysokie zgony; przyrost bliski zera."
+      },
+      {
+       "t": "Faza II — spadek zgonów",
+       "d": "Poprawa wyżywienia i medycyny; urodzenia wysokie — eksplozja demograficzna."
+      },
+      {
+       "t": "Faza III — spadek urodzeń",
+       "d": "Urbanizacja, edukacja kobiet, planowanie rodziny; przyrost maleje."
+      },
+      {
+       "t": "Faza IV — posttransformacyjna",
+       "d": "Niskie urodzenia i niskie zgony; przyrost bliski zera."
+      },
+      {
+       "t": "Faza V (wg części autorów)",
+       "d": "Urodzenia poniżej zgonów — ubytek naturalny i starzenie się (np. Polska, Japonia)."
+      }
+     ]
+    }
    ]
   },
   {

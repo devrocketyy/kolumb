@@ -352,6 +352,67 @@
      "wyjasnienie": "Pochodzą ze Skandynawii.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s32f63045",
+     "typ": "rysunek",
+     "tytul": "Pasy rzeźby Polski",
+     "opis": "Równoleżnikowy układ krain w Polsce (schemat).",
+     "uwaga": "Układ pasowy wynika z budowy geologicznej i zasięgu zlodowaceń — najmłodsza rzeźba polodowcowa na północy.",
+     "svg": "<path class=\"s\" d=\"M40 20 H360 V280 H40 Z\"/><path class=\"f\" d=\"M40 20 H360 V45 H40 Z\" opacity=\"0.4\"/><path class=\"f\" d=\"M40 45 H360 V95 H40 Z\" opacity=\"0.6\"/><path class=\"f\" d=\"M40 95 H360 V165 H40 Z\" opacity=\"0.25\"/><path class=\"f2\" d=\"M40 165 H360 V215 H40 Z\" opacity=\"0.5\"/><path class=\"f\" d=\"M40 215 H360 V240 H40 Z\" opacity=\"0.35\"/><path class=\"f2\" d=\"M40 240 H360 V280 H40 Z\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 32,
+       "lx": 380,
+       "ly": 32,
+       "n": "Pobrzeża",
+       "d": "Wydmy, mierzeje, jeziora przybrzeżne, klify"
+      },
+      {
+       "x": 200,
+       "y": 70,
+       "lx": 380,
+       "ly": 70,
+       "n": "Pojezierza",
+       "d": "Rzeźba młodoglacjalna, liczne jeziora"
+      },
+      {
+       "x": 200,
+       "y": 130,
+       "lx": 380,
+       "ly": 130,
+       "n": "Niziny Środkowopolskie",
+       "d": "Rzeźba staroglacjalna, pradoliny"
+      },
+      {
+       "x": 200,
+       "y": 190,
+       "lx": 380,
+       "ly": 190,
+       "n": "Wyżyny",
+       "d": "Starsze skały, lessy, kras"
+      },
+      {
+       "x": 200,
+       "y": 228,
+       "lx": 380,
+       "ly": 228,
+       "n": "Kotliny podkarpackie",
+       "d": "Obniżenia u podnóża Karpat"
+      },
+      {
+       "x": 200,
+       "y": 260,
+       "lx": 380,
+       "ly": 260,
+       "n": "Góry",
+       "d": "Sudety (stare, odmłodzone) i Karpaty (młode, alpejskie)"
+      }
+     ]
+    }
    ]
   },
   {

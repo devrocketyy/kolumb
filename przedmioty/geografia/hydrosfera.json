@@ -291,6 +291,41 @@
      "wyjasnienie": "Płytkie, bogate w życie wody.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "sa1cbe847",
+     "typ": "proces",
+     "tytul": "Obieg wody w przyrodzie",
+     "opis": "Krążenie wody między oceanem, atmosferą i lądem.",
+     "uwaga": "Duży obieg obejmuje ocean i ląd, mały — tylko ocean lub tylko ląd.",
+     "kroki": [
+      {
+       "t": "Parowanie",
+       "d": "Głównie z oceanów, napędzane energią Słońca."
+      },
+      {
+       "t": "Transport pary wodnej",
+       "d": "Wiatry przenoszą parę nad lądy."
+      },
+      {
+       "t": "Kondensacja",
+       "d": "Ochładzające się powietrze tworzy chmury."
+      },
+      {
+       "t": "Opady",
+       "d": "Deszcz i śnieg nad oceanami i lądami."
+      },
+      {
+       "t": "Spływ powierzchniowy i podziemny",
+       "d": "Rzekami i wodami podziemnymi woda wraca do oceanu."
+      },
+      {
+       "t": "Ewapotranspiracja",
+       "d": "Parowanie z gleby i roślin na lądzie zamyka mały obieg."
+      }
+     ]
+    }
    ]
   },
   {
