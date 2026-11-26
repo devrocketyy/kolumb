@@ -25,6 +25,12 @@ Rzędowość alkoholu zależy od tego, z iloma atomami węgla połączony jest w
 
 Rzędowość decyduje o utlenianiu, na przykład tlenkiem miedzi dwa. Alkohol pierwszorzędowy utlenia się do aldehydu, a dalej do kwasu. Drugorzędowy — do ketonu. Trzeciorzędowy w tych warunkach się nie utlenia.
 
+Najprostszy sposób na rzędowość: znajdź atom węgla z grupą OH i policz, ilu ma sąsiadów-węgli. Jeden — pierwszorzędowy. Dwóch — drugorzędowy. Trzech — trzeciorzędowy. Metanol jest wyjątkiem: jego węgiel nie ma żadnego sąsiada, ale utlenia się jak alkohol pierwszorzędowy, do metanalu.
+
+Alkohole mogą też tracić wodę. Etanol ogrzewany ze stężonym kwasem siarkowym, w około stu siedemdziesięciu stopniach, daje eten. To reakcja eliminacji — odwrotność przyłączania wody do alkenu.
+
+Typowy błąd: pomylenie rzędowości alkoholu z rzędowością aminy. W aminach liczy się grupy węglowe przy azocie, w alkoholach — sąsiadów węgla z grupą OH.
+
 [pytanie: utlenianie]
 
 Sprawdź się. Co powstaje przy łagodnym utlenianiu propan-2-olu?
@@ -55,6 +61,12 @@ Alkohole reagują z metalami aktywnymi: etanol z sodem daje etanolan sodu i wod�
 
 Alkohole wielowodorotlenowe z grupami OH przy sąsiednich atomach węgla, jak glikol etylenowy czy glicerol, dają z wodorotlenkiem miedzi dwa szafirowy roztwór. To test na sąsiednie grupy OH.
 
+Mini-obliczenie. Ile decymetrów sześciennych wodoru, w warunkach normalnych, wydzieli się z czterech i sześciu dziesiątych grama etanolu w reakcji z nadmiarem sodu? Masa molowa etanolu to czterdzieści sześć — mamy jedną dziesiątą mola. Z równania dwa mole etanolu dają jeden mol wodoru. Powstanie pięć setnych mola, czyli jeden przecinek dwanaście decymetra sześciennego.
+
+Alkohole mają dużo wyższe temperatury wrzenia niż alkany o podobnej masie, bo tworzą wiązania wodorowe. Krótkie alkohole mieszają się z wodą bez ograniczeń. Im dłuższy łańcuch węglowy, tym rozpuszczalność mniejsza — niepolarny ogon zaczyna dominować.
+
+I ostrzeżenie: metanol jest silnie trujący. Kilka mililitrów może spowodować ślepotę.
+
 [pytanie: sod]
 
 Sprawdź się. Jaki gaz wydziela się w reakcji etanolu z sodem?
@@ -84,6 +96,10 @@ Osad się roztworzy i powstanie szafirowy roztwór.
 Fenol to grupa OH przyłączona bezpośrednio do pierścienia benzenowego. Pierścień sprawia, że fenol jest słabym kwasem — w przeciwieństwie do alkoholi reaguje z wodorotlenkiem sodu, tworząc fenolan sodu.
 
 Fenol rozpoznasz po dwóch reakcjach. Z chlorkiem żelaza trzy daje fioletowe zabarwienie. Z wodą bromową — biały osad 2,4,6-tribromofenolu, bez katalizatora.
+
+Jak słabym kwasem jest fenol? Słabszym nawet od kwasu węglowego. Jeśli przez roztwór fenolanu sodu przepuścisz dwutlenek węgla, wydzieli się z powrotem fenol — roztwór zmętnieje. To dowód, że kwas węglowy wypiera fenol z jego soli.
+
+Zapamiętaj więc szereg mocy: kwasy karboksylowe są mocniejsze od węglowego, a węglowy mocniejszy od fenolu. Dlatego fenol, w przeciwieństwie do kwasu octowego, nie wypiera dwutlenku węgla z węglanów.
 
 [pytanie: fenol]
 

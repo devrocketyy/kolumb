@@ -25,6 +25,10 @@ Grupa karboksylowa to –COOH: grupa karbonylowa i hydroksylowa przy tym samym a
 
 Mają wysokie temperatury wrzenia, wyższe niż alkohole o podobnej masie, bo tworzą dimery połączone dwoma wiązaniami wodorowymi.
 
+Moc kwasów karboksylowych maleje z długością łańcucha. Kwas mrówkowy jest mocniejszy od octowego, a octowy od propanowego. Podstawniki przyciągające elektrony, na przykład chlor, wzmacniają kwas: kwas chlorooctowy jest dużo mocniejszy od octowego.
+
+Nazewnictwo systematyczne: kwas metanowy to mrówkowy, etanowy to octowy. Atom węgla grupy karboksylowej wlicza się do łańcucha — kwas octowy ma dwa atomy węgla.
+
 [pytanie: slaby]
 
 Sprawdź się. Czy kwas octowy jest mocnym, czy słabym kwasem?
@@ -44,6 +48,10 @@ Kwasy karboksylowe zachowują się jak typowe kwasy. Z wodorotlenkami dają sole
 Ta ostatnia reakcja jest ważna: kwas octowy wypiera kwas węglowy z jego soli, więc jest od niego mocniejszy. Dlatego ocet musuje na kamieniu kotłowym.
 
 Liczymy: sześć gramów kwasu octowego, masa molowa sześćdziesiąt, to jedna dziesiąta mola. Do zobojętnienia trzeba jednej dziesiątej mola NaOH, czyli czterech gramów.
+
+Jeszcze jedno obliczenie, z metalem. Magnez z kwasem octowym: Mg plus dwa CH₃COOH daje octan magnezu i wodór. Dwa i cztery dziesiąte grama magnezu to jedna dziesiąta mola. Wydzieli się jedna dziesiąta mola wodoru — dwa i dwadzieścia cztery setne decymetra sześciennego. Kwasu zużyje się dwie dziesiąte mola, czyli dwanaście gramów.
+
+Typowy błąd: zapis wzoru octanu magnezu jako MgCH₃COO. Magnez jest dwuwartościowy, więc potrzebuje dwóch anionów octanowych: (CH₃COO)₂Mg.
 
 [pytanie: weglan]
 
@@ -74,6 +82,10 @@ Cztery gramy. Jedna dziesiąta mola.
 Kwas mrówkowy, HCOOH, jest wyjątkowy: ma przy grupie karboksylowej atom wodoru, czyli zachowuje się trochę jak aldehyd. Daje pozytywną próbę Tollensa.
 
 Kwasy tłuszczowe to kwasy o długich łańcuchach. Stearynowy, C₁₇H₃₅COOH, jest nasycony. Oleinowy, C₁₇H₃₃COOH, ma jedno wiązanie podwójne i odbarwia wodę bromową. Ich sole sodowe i potasowe to mydła.
+
+Mydło też ma swoją słabość: kwaśne środowisko. Gdy do roztworu mydła dodasz kwasu solnego, wytrąci się nierozpuszczalny kwas stearynowy. Mocniejszy kwas wypiera słabszy z jego soli. Dlatego mydło nie myje w wodzie kwaśnej.
+
+Ten sam rodzaj reakcji poznałeś przy węglanach. Zasada jest uniwersalna: znajomość szeregu mocy kwasów pozwala przewidzieć wynik wielu doświadczeń bez uczenia się ich na pamięć.
 
 [pytanie: mrowkowy]
 
