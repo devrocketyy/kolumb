@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-31-tlenki",
+  "pytania": [
+    {
+      "id": "so3",
+      "typ": "abcd",
+      "pytanie": "Charakter chemiczny SO₃:",
+      "odpowiedzi": [
+        "kwasowy",
+        "zasadowy",
+        "amfoteryczny",
+        "obojętny"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "SO₃ + H₂O → H₂SO₄."
+    },
+    {
+      "id": "cao",
+      "typ": "abcd",
+      "pytanie": "CaO + H₂O →",
+      "odpowiedzi": [
+        "Ca(OH)₂",
+        "CaH₂ + O₂",
+        "CaO₂ + H₂",
+        "brak reakcji"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Gaszenie wapna."
+    },
+    {
+      "id": "amfoteryczny",
+      "typ": "abcd",
+      "pytanie": "Tlenkiem amfoterycznym jest:",
+      "odpowiedzi": [
+        "ZnO",
+        "Na₂O",
+        "CO₂",
+        "CO"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Reaguje z kwasami i z zasadami."
+    },
+    {
+      "id": "obojetny",
+      "typ": "abcd",
+      "pytanie": "Charakter chemiczny CO:",
+      "odpowiedzi": [
+        "obojętny",
+        "kwasowy",
+        "zasadowy",
+        "amfoteryczny"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Nie myl z CO₂, który jest kwasowy."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Odczyn wodnego roztworu NH₃:",
+      "odpowiedzi": [
+        "zasadowy",
+        "kwasowy",
+        "obojętny",
+        "nie rozpuszcza się w wodzie"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "NH₃ + H₂O ⇌ NH₄⁺ + OH⁻."
+    },
+    {
+      "id": "trend",
+      "typ": "abcd",
+      "pytanie": "Najsilniej kwasowy tlenek 3. okresu to:",
+      "odpowiedzi": [
+        "Cl₂O₇",
+        "Al₂O₃",
+        "Na₂O",
+        "MgO"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Od lewej do prawej rośnie charakter kwasowy."
+    }
+  ]
+}

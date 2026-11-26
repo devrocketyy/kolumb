@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-30-powtorka-roztwory-wodne",
+  "pytania": [
+    {
+      "id": "fenoloftaleina",
+      "typ": "abcd",
+      "pytanie": "Fenoloftaleina zabarwi się na malinowo w roztworach:",
+      "odpowiedzi": [
+        "NaOH i Na₂CO₃",
+        "tylko NaOH",
+        "HCl i NaCl",
+        "NaCl i Na₂CO₃"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Na₂CO₃ hydrolizuje zasadowo."
+    },
+    {
+      "id": "hydroliza",
+      "typ": "abcd",
+      "pytanie": "Równanie hydrolizy anionu węglanowego (I etap):",
+      "odpowiedzi": [
+        "CO₃²⁻ + H₂O ⇌ HCO₃⁻ + OH⁻",
+        "CO₃²⁻ + H₂O ⇌ CO₂ + 2OH⁻ + H⁺",
+        "Na⁺ + H₂O ⇌ NaOH + H⁺",
+        "CO₃²⁻ + 2H⁺ → CO₂ + H₂O"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Powstają jony OH⁻."
+    },
+    {
+      "id": "gaz",
+      "typ": "abcd",
+      "pytanie": "Po dodaniu HCl gaz wydziela się w probówce z:",
+      "odpowiedzi": [
+        "Na₂CO₃",
+        "NaOH",
+        "NaCl",
+        "żadnej"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "CO₃²⁻ + 2H⁺ → CO₂↑ + H₂O."
+    },
+    {
+      "id": "ph",
+      "typ": "abcd",
+      "pytanie": "pH roztworu HCl 0,1 mol/dm³:",
+      "odpowiedzi": [
+        "1",
+        "0,1",
+        "2",
+        "13"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "−log 10⁻¹."
+    },
+    {
+      "id": "agcl",
+      "typ": "abcd",
+      "pytanie": "AgNO₃ nie odróżni HCl od NaCl, ponieważ:",
+      "odpowiedzi": [
+        "oba zawierają jony Cl⁻",
+        "żaden nie daje osadu",
+        "AgCl jest rozpuszczalny w kwasie",
+        "reakcja wymaga ogrzewania"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Ag⁺ + Cl⁻ → AgCl↓ w obu probówkach."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "W reakcji CO₃²⁻ + H₂O ⇌ HCO₃⁻ + OH⁻ jon węglanowy jest:",
+      "odpowiedzi": [
+        "zasadą Brønsteda",
+        "kwasem Brønsteda",
+        "jonem obserwatorem",
+        "utleniaczem"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Przyjmuje proton."
+    }
+  ]
+}

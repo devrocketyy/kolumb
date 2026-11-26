@@ -84,11 +84,11 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **29. Reakcje strąceniowe i zobojętniania, równania jonowe** `c-jonowe` ✅
 
-**30. Powtórka działu: Reakcje w roztworach wodnych** `roztwory-wodne` ⬜
+**30. Powtórka działu: Reakcje w roztworach wodnych** `roztwory-wodne` ✅
 
 ## Dział: Związki nieorganiczne, metale i niemetale
 
-**31. Tlenki i wodorki, charakter chemiczny, amfoteryczność** `c-tlenki` ⬜
+**31. Tlenki i wodorki, charakter chemiczny, amfoteryczność** `c-tlenki` ✅
 
 **32. Wodorotlenki i kwasy** `c-wodorotlenki-kwasy` ⬜
 
