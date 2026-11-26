@@ -2,6 +2,33 @@
  "dzial": "czlowiek",
  "wiazki": [
   {
+   "tytul": "Protokół montrealski",
+   "material": "Tekst autorski. Po wprowadzeniu Protokołu montrealskiego (1987) produkcja freonów spadła o ponad 98%, a dziura ozonowa zaczęła się powoli zmniejszać.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego zanik warstwy ozonowej jest groźny dla ludzi i przyrody.",
+     "odpowiedz": "Ozon w stratosferze pochłania promieniowanie UV; jego ubytek zwiększa ilość UV przy ziemi — ryzyko nowotworów skóry, chorób oczu i szkód w roślinach oraz planktonie.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Funkcja ozonu.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, nad którym obszarem dziura ozonowa jest największa.",
+     "odpowiedz": "nad Antarktydą",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wiosna półkuli S.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-czlowiek-01",
+   "dzial": "czlowiek"
+  },
+  {
    "tytul": "Emisje na mieszkańca",
    "material": "Tekst autorski. Kraj X emituje 300 mln t CO₂ rocznie i ma 37,5 mln mieszkańców. Kraj Y emituje 1000 mln t CO₂ i ma 1,4 mld mieszkańców.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -25,7 +52,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-01",
+   "id": "b-czlowiek-02",
    "dzial": "czlowiek"
   },
   {
@@ -52,7 +79,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-02",
+   "id": "b-czlowiek-03",
    "dzial": "czlowiek"
   },
   {
@@ -79,7 +106,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-03",
+   "id": "b-czlowiek-04",
    "dzial": "czlowiek"
   },
   {
@@ -106,7 +133,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-04",
+   "id": "b-czlowiek-05",
    "dzial": "czlowiek"
   }
  ]

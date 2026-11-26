@@ -65,6 +65,60 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Megalopolis Tokaido",
+   "material": "Tekst autorski. Pas miast od Tokio do Osaki zamieszkuje ok. 80 mln osób na obszarze ok. 50 000 km². Japonia liczy ok. 124 mln mieszkańców.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz gęstość zaludnienia tego obszaru.",
+     "odpowiedz": "1600 os./km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "80 000 000 / 50 000.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaki odsetek ludności Japonii mieszka w tym pasie.",
+     "odpowiedz": "ok. 65%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "80 / 124 × 100 ≈ 64,5.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-03",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Rewitalizacja w Łodzi",
+   "material": "Tekst autorski. Po upadku przemysłu włókienniczego w Łodzi zabytkowe fabryki przekształcono w centra handlowe, hotele i lofty.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę procesu odnowy zdegradowanych dzielnic.",
+     "odpowiedz": "rewitalizacja",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Np. Manufaktura.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa skutki społeczne takich przemian.",
+     "odpowiedz": "Np. nowe miejsca pracy w usługach, wzrost cen mieszkań i wypieranie dawnych mieszkańców (gentryfikacja), poprawa wizerunku miasta.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-04",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Miasto i strefa podmiejska",
    "material": "Tekst autorski. Liczba ludności miasta X w latach 1990 i 2020: centrum 400 tys. → 300 tys.; strefa podmiejska 100 tys. → 200 tys.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -97,7 +151,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-03",
+   "id": "b-ludnosc-05",
    "dzial": "ludnosc"
   },
   {
@@ -133,7 +187,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-04",
+   "id": "b-ludnosc-06",
    "dzial": "ludnosc"
   },
   {
@@ -160,7 +214,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-05",
+   "id": "b-ludnosc-07",
    "dzial": "ludnosc"
   },
   {
@@ -196,7 +250,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-06",
+   "id": "b-ludnosc-08",
    "dzial": "ludnosc"
   },
   {
@@ -223,7 +277,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-07",
+   "id": "b-ludnosc-09",
    "dzial": "ludnosc"
   },
   {
@@ -259,7 +313,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-08",
+   "id": "b-ludnosc-10",
    "dzial": "ludnosc"
   }
  ]

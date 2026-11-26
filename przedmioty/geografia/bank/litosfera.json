@@ -2,6 +2,60 @@
  "dzial": "litosfera",
  "wiazki": [
   {
+   "tytul": "Uskok San Andreas",
+   "material": "Tekst autorski. Płyty wzdłuż uskoku San Andreas przesuwają się względem siebie średnio o ok. 3,5 cm na rok.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz przesunięcie w ciągu 10 000 lat w metrach.",
+     "odpowiedz": "350 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3,5 cm × 10 000.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj typ granicy płyt i zagrożenie, jakie stwarza.",
+     "odpowiedz": "granica przesuwcza (transformacyjna); silne trzęsienia ziemi",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "San Francisco 1906.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-litosfera-01",
+   "dzial": "litosfera"
+  },
+  {
+   "tytul": "Terasy Wisły",
+   "material": "Tekst autorski. Na przekroju doliny Wisły wyróżniono terasę zalewową (2 m nad rzeką) i dwie nadzalewowe (8 m i 20 m nad rzeką).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, która terasa jest najstarsza. Uzasadnij.",
+     "odpowiedz": "Terasa 20 m — najwyżej położone terasy są najstarsze, bo rzeka później wcinała się coraz głębiej.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zasada wiekowa teras.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj przyczynę wcinania się rzeki w dawne dno doliny.",
+     "odpowiedz": "Np. obniżenie poziomu bazy erozyjnej (morza) lub wypiętrzenie terenu, zwiększenie przepływu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wystarczy jedna.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-litosfera-02",
+   "dzial": "litosfera"
+  },
+  {
    "tytul": "Profil geologiczny",
    "material": "Tekst autorski. W odsłonięciu od dołu występują: piaskowce i łupki z wkładkami węgla (karbon), wapienie z amonitami (jura), glina z głazami narzutowymi (czwartorzęd). Warstwy nie są zaburzone.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -34,7 +88,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-litosfera-01",
+   "id": "b-litosfera-03",
    "dzial": "litosfera"
   },
   {
@@ -61,7 +115,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-litosfera-02",
+   "id": "b-litosfera-04",
    "dzial": "litosfera"
   },
   {
@@ -97,7 +151,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-litosfera-03",
+   "id": "b-litosfera-05",
    "dzial": "litosfera"
   },
   {
@@ -124,7 +178,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-litosfera-04",
+   "id": "b-litosfera-06",
    "dzial": "litosfera"
   },
   {
@@ -160,7 +214,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-litosfera-05",
+   "id": "b-litosfera-07",
    "dzial": "litosfera"
   }
  ]

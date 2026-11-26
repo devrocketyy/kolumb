@@ -2,6 +2,33 @@
  "dzial": "rolnictwo",
  "wiazki": [
   {
+   "tytul": "Akwakultura",
+   "material": "Tekst autorski. Światowa produkcja ryb i owoców morza: połowy 90 mln t, akwakultura 95 mln t.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział akwakultury w produkcji.",
+     "odpowiedz": "ok. 51%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "95 / 185 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedną korzyść i jedno zagrożenie rozwoju akwakultury.",
+     "odpowiedz": "Korzyść: zmniejsza presję na dzikie łowiska; zagrożenie: zanieczyszczenie wód paszą i antybiotykami, niszczenie namorzynów.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Po jednym.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-01",
+   "dzial": "rolnictwo"
+  },
+  {
    "tytul": "Gospodarstwo na Kujawach",
    "material": "Tekst autorski. Gospodarstwo uprawia: pszenicę na 25 ha (plon 6 t/ha), rzepak na 10 ha (plon 3,5 t/ha) i ziemniaki na 5 ha (plon 28 t/ha).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -34,7 +61,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rolnictwo-01",
+   "id": "b-rolnictwo-02",
    "dzial": "rolnictwo"
   },
   {
@@ -61,7 +88,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-02",
+   "id": "b-rolnictwo-03",
    "dzial": "rolnictwo"
   },
   {
@@ -88,7 +115,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-03",
+   "id": "b-rolnictwo-04",
    "dzial": "rolnictwo"
   },
   {
@@ -115,7 +142,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-04",
+   "id": "b-rolnictwo-05",
    "dzial": "rolnictwo"
   }
  ]

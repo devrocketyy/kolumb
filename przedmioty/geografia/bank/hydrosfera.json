@@ -29,6 +29,60 @@
    "dzial": "hydrosfera"
   },
   {
+   "tytul": "El Niño a rybołówstwo",
+   "material": "Tekst autorski. W latach normalnych połowy sardeli w Peru wynoszą ok. 6 mln t rocznie, a w roku silnego El Niño spadły do 1,5 mln t.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, o ile procent spadły połowy.",
+     "odpowiedz": "o 75%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(6 − 1,5) / 6 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego w czasie El Niño połowy przy wybrzeżach Peru maleją.",
+     "odpowiedz": "Pasaty słabną, ciepła woda napływa na wschód i zanika upwelling — do powierzchni nie docierają zimne wody bogate w składniki odżywcze, więc maleje ilość planktonu i ryb.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Łańcuch przyczyn.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-02",
+   "dzial": "hydrosfera"
+  },
+  {
+   "tytul": "Temperatura jeziora",
+   "material": "Tekst autorski. Pomiar w jeziorze w sierpniu: 0 m — 22°C, 5 m — 21°C, 8 m — 12°C, 12 m — 6°C, 20 m — 5°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, na jakiej głębokości znajduje się termoklina.",
+     "odpowiedz": "ok. 5–12 m (najszybszy spadek między 5 a 8 m)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Spadek 9°C na 3 m.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego latem nie dochodzi do mieszania się wód całego jeziora.",
+     "odpowiedz": "Ciepła, lżejsza woda powierzchniowa leży na zimnej i cięższej — termoklina hamuje mieszanie.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Stratyfikacja.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-03",
+   "dzial": "hydrosfera"
+  },
+  {
    "tytul": "Pomiar przepływu",
    "material": "Tekst autorski. W przekroju pomiarowym rzeka ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -52,7 +106,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-02",
+   "id": "b-hydrosfera-04",
    "dzial": "hydrosfera"
   },
   {
@@ -88,7 +142,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-hydrosfera-03",
+   "id": "b-hydrosfera-05",
    "dzial": "hydrosfera"
   },
   {
@@ -106,7 +160,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-hydrosfera-04",
+   "id": "b-hydrosfera-06",
    "dzial": "hydrosfera"
   },
   {
@@ -133,7 +187,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-05",
+   "id": "b-hydrosfera-07",
    "dzial": "hydrosfera"
   },
   {
@@ -160,7 +214,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-06",
+   "id": "b-hydrosfera-08",
    "dzial": "hydrosfera"
   },
   {
@@ -187,7 +241,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-07",
+   "id": "b-hydrosfera-09",
    "dzial": "hydrosfera"
   },
   {
@@ -214,7 +268,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-08",
+   "id": "b-hydrosfera-10",
    "dzial": "hydrosfera"
   },
   {
@@ -241,7 +295,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-09",
+   "id": "b-hydrosfera-11",
    "dzial": "hydrosfera"
   }
  ]
