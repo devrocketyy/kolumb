@@ -76,9 +76,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 ## Dział: Reakcje w roztworach wodnych
 
-**26. Teoria Brønsteda i dysocjacja elektrolityczna** `c-kwasy-zasady` ⬜
+**26. Teoria Brønsteda i dysocjacja elektrolityczna** `c-kwasy-zasady` ✅
 
-**27. pH, stała i stopień dysocjacji** `c-ph` ⬜
+**27. pH, stała i stopień dysocjacji** `c-ph` ✅
 
 **28. Hydroliza soli i roztwory buforowe** `c-hydroliza` ⬜
 

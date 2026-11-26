@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-27-ph",
+  "pytania": [
+    {
+      "id": "ph-hcl",
+      "typ": "abcd",
+      "pytanie": "pH roztworu HCl 0,01 mol/dm³:",
+      "odpowiedzi": [
+        "2",
+        "1",
+        "0,01",
+        "12"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Mocny kwas: [H⁺] = c."
+    },
+    {
+      "id": "rozcienczenie",
+      "typ": "abcd",
+      "pytanie": "Dziesięciokrotne rozcieńczenie mocnego kwasu:",
+      "odpowiedzi": [
+        "podnosi pH o 1",
+        "obniża pH o 1",
+        "podnosi pH 10 razy",
+        "nie zmienia pH"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "[H⁺] spada 10 razy."
+    },
+    {
+      "id": "ph-naoh",
+      "typ": "abcd",
+      "pytanie": "pH roztworu NaOH 0,001 mol/dm³:",
+      "odpowiedzi": [
+        "11",
+        "3",
+        "10",
+        "13"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "pH = 14 − pOH."
+    },
+    {
+      "id": "alfa",
+      "typ": "abcd",
+      "pytanie": "[H⁺] w CH₃COOH 0,1 mol/dm³ przy α = 1,3%:",
+      "odpowiedzi": [
+        "1,3·10⁻³ mol/dm³",
+        "0,1 mol/dm³",
+        "1,3·10⁻² mol/dm³",
+        "1,3 mol/dm³"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "[H⁺] = α · c = 0,013 · 0,1."
+    },
+    {
+      "id": "ostwald",
+      "typ": "abcd",
+      "pytanie": "Po rozcieńczeniu roztworu słabego kwasu stopień dysocjacji:",
+      "odpowiedzi": [
+        "rośnie",
+        "maleje",
+        "nie zmienia się",
+        "spada do zera"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "K ≈ α²c przy stałym K."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Stężenie H⁺ przy pH 2 w porównaniu z pH 5 jest:",
+      "odpowiedzi": [
+        "1000 razy większe",
+        "3 razy większe",
+        "2,5 raza większe",
+        "100 razy większe"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "10³."
+    }
+  ]
+}

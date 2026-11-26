@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-26-kwasy-zasady",
+  "pytania": [
+    {
+      "id": "mocny",
+      "typ": "abcd",
+      "pytanie": "Słabym elektrolitem jest:",
+      "odpowiedzi": [
+        "CH₃COOH",
+        "HNO₃",
+        "HCl",
+        "NaCl"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Kwasy karboksylowe są słabe."
+    },
+    {
+      "id": "nh3",
+      "typ": "abcd",
+      "pytanie": "W reakcji NH₃ + H₂O ⇌ NH₄⁺ + OH⁻ woda jest:",
+      "odpowiedzi": [
+        "kwasem Brønsteda",
+        "zasadą Brønsteda",
+        "katalizatorem",
+        "utleniaczem"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Oddaje proton."
+    },
+    {
+      "id": "sprzezona",
+      "typ": "abcd",
+      "pytanie": "Zasadą sprzężoną z HCO₃⁻ jest:",
+      "odpowiedzi": [
+        "CO₃²⁻",
+        "H₂CO₃",
+        "OH⁻",
+        "CO₂"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Kwas minus proton."
+    },
+    {
+      "id": "amfiprotyczna",
+      "typ": "abcd",
+      "pytanie": "Drobiną amfiprotyczną jest:",
+      "odpowiedzi": [
+        "HSO₄⁻",
+        "Cl⁻",
+        "Na⁺",
+        "NH₄⁺"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Ma proton do oddania i wolną parę do przyjęcia."
+    },
+    {
+      "id": "stopniowa",
+      "typ": "abcd",
+      "pytanie": "W największym stopniu zachodzi dysocjacja:",
+      "odpowiedzi": [
+        "pierwszego stopnia",
+        "drugiego stopnia",
+        "trzeciego stopnia",
+        "wszystkie jednakowo"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Kolejne protony odrywa się od coraz bardziej ujemnych jonów."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Kwasem Brønsteda w reakcji HCl + H₂O → H₃O⁺ + Cl⁻ jest:",
+      "odpowiedzi": [
+        "HCl",
+        "H₂O",
+        "Cl⁻",
+        "żadna drobina"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Woda jest tu zasadą."
+    }
+  ]
+}
