@@ -60,9 +60,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **19. Szybkość reakcji i katalizatory** `c-szybkosc` ✅
 
-**20. Stan równowagi, stała równowagi i reguła przekory** `c-rownowaga` ⬜
+**20. Stan równowagi, stała równowagi i reguła przekory** `c-rownowaga` ✅
 
-**21. Powtórka działu: Energetyka, kinetyka i równowaga** `kinetyka` ⬜
+**21. Powtórka działu: Energetyka, kinetyka i równowaga** `kinetyka` ✅
 
 ## Dział: Roztwory
 

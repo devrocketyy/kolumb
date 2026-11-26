@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-20-rownowaga",
+  "pytania": [
+    {
+      "id": "dynamiczna",
+      "typ": "abcd",
+      "pytanie": "W stanie równowagi chemicznej:",
+      "odpowiedzi": [
+        "szybkości obu reakcji są równe",
+        "stężenia substratów i produktów są równe",
+        "reakcja się zatrzymała",
+        "substraty przereagowały całkowicie"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Równowaga dynamiczna."
+    },
+    {
+      "id": "k",
+      "typ": "abcd",
+      "pytanie": "K dla H₂ + I₂ ⇌ 2HI przy [H₂] = [I₂] = 0,1 i [HI] = 0,8 mol/dm³:",
+      "odpowiedzi": [
+        "64",
+        "80",
+        "8",
+        "0,016"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "0,8² / (0,1 · 0,1) = 0,64 / 0,01."
+    },
+    {
+      "id": "temperatura-k",
+      "typ": "abcd",
+      "pytanie": "Wartość stałej równowagi K zależy od:",
+      "odpowiedzi": [
+        "temperatury",
+        "stężenia substratów",
+        "obecności katalizatora",
+        "ciśnienia"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Zmiana stężeń przesuwa równowagę, ale K zostaje."
+    },
+    {
+      "id": "cisnienie",
+      "typ": "abcd",
+      "pytanie": "N₂ + 3H₂ ⇌ 2NH₃. Wzrost ciśnienia przesuwa równowagę:",
+      "odpowiedzi": [
+        "w prawo",
+        "w lewo",
+        "nie przesuwa",
+        "zależy od katalizatora"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Mniej moli gazu po stronie produktów."
+    },
+    {
+      "id": "temperatura",
+      "typ": "abcd",
+      "pytanie": "N₂ + 3H₂ ⇌ 2NH₃, ΔH < 0. Wzrost temperatury przesuwa równowagę:",
+      "odpowiedzi": [
+        "w lewo",
+        "w prawo",
+        "nie przesuwa",
+        "w prawo, bo rośnie szybkość"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Ogrzanie sprzyja kierunkowi endotermicznemu."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Dodanie katalizatora do układu w równowadze:",
+      "odpowiedzi": [
+        "nie przesuwa równowagi",
+        "przesuwa ją w prawo",
+        "przesuwa ją w lewo",
+        "zmienia wartość K"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Przyspiesza osiągnięcie równowagi."
+    }
+  ]
+}

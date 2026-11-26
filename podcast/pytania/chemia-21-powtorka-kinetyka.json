@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-21-powtorka-kinetyka",
+  "pytania": [
+    {
+      "id": "delta",
+      "typ": "abcd",
+      "pytanie": "Ciepło wydzielone przy tworzeniu 1 mola NH₃ (ΔH = −92 kJ na 2 mole):",
+      "odpowiedzi": [
+        "46 kJ",
+        "92 kJ",
+        "184 kJ",
+        "23 kJ"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "ΔH dotyczy liczby moli z równania."
+    },
+    {
+      "id": "wyrazenie",
+      "typ": "abcd",
+      "pytanie": "Stała równowagi dla N₂ + 3H₂ ⇌ 2NH₃:",
+      "odpowiedzi": [
+        "K = [NH₃]² / ([N₂][H₂]³)",
+        "K = [NH₃] / ([N₂][H₂])",
+        "K = [N₂][H₂]³ / [NH₃]²",
+        "K = 2[NH₃] / ([N₂] + 3[H₂])"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Wykładniki to współczynniki z równania."
+    },
+    {
+      "id": "k",
+      "typ": "abcd",
+      "pytanie": "K przy [N₂] = 1, [H₂] = 2, [NH₃] = 2 mol/dm³:",
+      "odpowiedzi": [
+        "0,5",
+        "1",
+        "2",
+        "0,25"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "2² / (1 · 2³) = 4 / 8."
+    },
+    {
+      "id": "kompromis",
+      "typ": "abcd",
+      "pytanie": "Syntezę NH₃ prowadzi się w ok. 450°C, a nie niżej, ponieważ:",
+      "odpowiedzi": [
+        "w niskiej temperaturze reakcja jest za wolna",
+        "w niskiej temperaturze równowaga przesuwa się w lewo",
+        "katalizator działa tylko w 450°C i nigdzie indziej",
+        "reakcja jest endotermiczna"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Kompromis wydajność–szybkość."
+    },
+    {
+      "id": "katalizator",
+      "typ": "abcd",
+      "pytanie": "Katalizator żelazowy w syntezie NH₃:",
+      "odpowiedzi": [
+        "przyspiesza ustalenie się równowagi",
+        "przesuwa równowagę w prawo",
+        "zmniejsza ΔH reakcji",
+        "zwiększa wartość K"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Obniża energię aktywacji obu kierunków."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Usuwanie NH₃ z mieszaniny reakcyjnej:",
+      "odpowiedzi": [
+        "przesuwa równowagę w prawo",
+        "przesuwa równowagę w lewo",
+        "nie wpływa na równowagę",
+        "zmienia wartość K"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Reguła przekory. Dlatego w przemyśle amoniak skrapla się i odbiera."
+    }
+  ]
+}
