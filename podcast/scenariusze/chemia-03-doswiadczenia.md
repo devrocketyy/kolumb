@@ -25,6 +25,10 @@ Każde doświadczenie ma ten sam szkielet. Cel, czyli co chcesz wykazać. Odczyn
 
 [wolniej] Najważniejsze słowo: różne. Odczynnik, który z każdą probówką zachowa się tak samo, niczego nie rozstrzygnie.
 
+Pomyśl o tym jak o eliminacji podejrzanych. Każdy odczynnik dzieli badane substancje na grupy: te, które reagują, i te, które nie. Najlepszy odczynnik daje od razu kilka różnych efektów. Na przykład wodorotlenek sodu odróżni naraz sole miedzi, żelaza trzy i amonu: niebieski osad, brunatny osad i zapach amoniaku po ogrzaniu.
+
+Typowy błąd: wybranie odczynnika, który z obiema substancjami daje ten sam efekt. Azotan srebra nie odróżni chlorku sodu od chlorku potasu, bo w obu probówkach wytrąci się ten sam biały osad.
+
 [pytanie: odczynnik]
 
 Sprawdź się. Chcesz odróżnić chlorek sodu od węglanu sodu. Który odczynnik wybierzesz: wodę, kwas solny czy roztwór chlorku potasu?
@@ -61,6 +65,10 @@ Kiedy badasz wpływ czynnika, na przykład temperatury na szybkość reakcji, zm
 
 Próba kontrolna to probówka bez badanego czynnika. Punkt odniesienia.
 
+Przykład z życia: chcesz sprawdzić, czy sól przyspiesza rdzewienie gwoździ. Jeden gwóźdź wkładasz do wody z solą, drugi do czystej wody — to próba kontrolna. Gwoździe muszą być takie same, objętość wody taka sama, temperatura i czas też. Zmieniasz tylko obecność soli.
+
+Bez próby kontrolnej nie masz z czym porównać wyniku. Gwóźdź w słonej wodzie zardzewiał? Może zardzewiałby i w czystej.
+
 [pytanie: zmienne]
 
 Sprawdź się. Uczeń w drugiej próbie zmienił naraz temperaturę i rozdrobnienie cynku. Co jest nie tak?
@@ -78,6 +86,10 @@ Zmienił dwa czynniki naraz, więc nie wie, który z nich odpowiada za różnic�
 Obserwacje zapisujesz językiem zmysłów: barwa, osad, gaz, zapach, ciepło. Konkretnie. Nie „roztwór zmienił barwę”, tylko „roztwór zmienił barwę z niebieskiej na bezbarwną”. Nie „powstał osad”, tylko „wytrącił się biały osad”.
 
 Dobrze jest znać kilka barw na pamięć. Wodorotlenek miedzi — niebieski osad. Wodorotlenek żelaza trzy — brunatny. Chlorek srebra — biały. Jodek srebra — żółty.
+
+Rozróżniaj trzy rzeczy: obserwację, wniosek i równanie. Obserwacja: „wydzielają się pęcherzyki bezbarwnego, bezwonnego gazu”. Wniosek: „wydziela się dwutlenek węgla, więc w probówce był węglan”. Równanie: zapis reakcji. Matura często każe zapisać każdą z tych rzeczy w osobnym miejscu — nie mieszaj ich.
+
+Zapamiętaj też obserwacje „negatywne”. Jeśli w jednej probówce nic się nie dzieje, zapisz to: „brak widocznych zmian”. Puste miejsce w tabeli to stracony punkt.
 
 [pytanie: barwa]
 

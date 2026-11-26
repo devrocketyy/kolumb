@@ -27,6 +27,10 @@ Każde zadanie stechiometryczne zaczyna się od równania reakcji. Uzgodnionego.
 
 Jeśli równanie jest źle uzgodnione, cała reszta obliczeń będzie poprawna i bezużyteczna jednocześnie.
 
+Jak szybko sprawdzić, czy równanie jest uzgodnione? Policz atomy każdego pierwiastka po obu stronach, zaczynając od tych, które występują w jednym związku po każdej stronie. Tlen i wodór zostaw na koniec, bo zwykle są w wielu związkach. W równaniach jonowych sprawdź jeszcze sumę ładunków.
+
+Typowy błąd: poprawianie równania przez zmianę indeksów we wzorach. Wzoru wody nie wolno zmienić na H₂O₂, żeby pasowało — to inna substancja. Zmieniasz tylko współczynniki przed wzorami.
+
 [pytanie: rownanie]
 
 Sprawdź się. Dlaczego zadanie obliczeniowe zaczynasz od uzgodnienia równania?
@@ -46,6 +50,10 @@ Drugi krok: wszystko zamieniasz na mole. Mol to wspólna waluta chemii.
 Masa? Dzielisz przez masę molową. Objętość gazu w warunkach normalnych? Dzielisz przez dwadzieścia dwa i cztery dziesiąte decymetra sześciennego na mol. Roztwór? Mnożysz stężenie molowe przez objętość w decymetrach sześciennych.
 
 [wolniej] I tu czai się pułapka sondy marsjańskiej: centymetry sześcienne. Dwieście pięćdziesiąt centymetrów sześciennych to zero i dwadzieścia pięć setnych decymetra sześciennego.
+
+Pełny przykład, krok po kroku. Ile gramów tlenku magnezu powstanie ze spalenia czterech i ośmiu dziesiątych grama magnezu? Równanie: dwa Mg plus O₂ daje dwa MgO. Magnez: cztery i osiem dziesiątych przez dwadzieścia cztery — dwie dziesiąte mola. Stosunek magnezu do tlenku jeden do jednego, więc tlenku też dwie dziesiąte mola. Masa molowa MgO to czterdzieści. Wynik: osiem gramów.
+
+Sprawdzenie sensu: produkt jest cięższy od magnezu, bo przyłączył tlen. Gdyby wyszło mniej niż cztery i osiem dziesiątych grama, wiedziałbyś, że coś jest nie tak.
 
 [pytanie: jednostki]
 
@@ -84,6 +92,10 @@ Czwarty krok: wracasz z moli do tego, o co pytano — do gramów, decymetrów, p
 [wolniej] A potem zadajesz sobie jedno pytanie: czy to ma sens?
 
 Wydajność sto piętnaście procent? Niemożliwe. Masa produktu większa niż masa wszystkich substratów? Niemożliwe. Stężenie roztworu nasyconego sto dwadzieścia procent? Też nie.
+
+Druga strona tego samego: dokładność. Jeśli polecenie mówi „z dokładnością do jednego miejsca po przecinku”, wynik dwanaście przecinek trzydzieści cztery zapisujesz jako dwanaście przecinek trzy. Wynik bez wymaganego zaokrąglenia potrafi kosztować punkt, nawet przy poprawnych obliczeniach.
+
+Masy molowe bierz z karty wzorów dołączonej do arkusza, z takimi zaokrągleniami, jakie tam są. Jeśli użyjesz innych, wynik może nieznacznie odbiegać od klucza.
 
 [pytanie: sens]
 
