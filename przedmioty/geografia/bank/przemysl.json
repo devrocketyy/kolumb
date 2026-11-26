@@ -560,6 +560,78 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Terminal LNG",
+   "material": "Tekst autorski. Terminal LNG w Świnoujściu może przyjąć ok. 6,2 mld m³ gazu rocznie, a zużycie gazu w Polsce wynosi ok. 20 mld m³.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaki procent zużycia może pokryć terminal.",
+     "odpowiedz": "31%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "6,2 / 20 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, w jakiej postaci gaz przypływa do terminalu.",
+     "odpowiedz": "skroplony (LNG) — na metanowcach",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "LNG.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-23",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Uprzemysłowienie",
+   "material": "Tekst autorski. W przemyśle pracuje w Polsce ok. 3 mln osób przy 37,5 mln mieszkańców.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wskaźnik uprzemysłowienia (zatrudnieni w przemyśle na 1000 mieszkańców).",
+     "odpowiedz": "80",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3 / 37,5 × 1000.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-24",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Budownictwo mieszkaniowe",
+   "material": "Tekst autorski. W roku oddano w Polsce ok. 200 tys. mieszkań.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz liczbę mieszkań oddanych na 1000 mieszkańców. Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 5,3",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "200 000 / 37 500.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, gdzie w Polsce buduje się najwięcej mieszkań.",
+     "odpowiedz": "W dużych miastach i ich strefach podmiejskich (Warszawa, Kraków, Wrocław, Gdańsk, Poznań).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Popyt.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-25",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Struktura produkcji energii",
    "material": "Tekst autorski. W pewnym kraju wyprodukowano 160 TWh energii elektrycznej, w tym 88 TWh w elektrowniach węglowych, 16 TWh gazowych, 32 TWh wiatrowych, 16 TWh słonecznych i 8 TWh w innych źródłach.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -583,7 +655,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-23",
+   "id": "b-przemysl-26",
    "dzial": "przemysl"
   },
   {
@@ -610,7 +682,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-24",
+   "id": "b-przemysl-27",
    "dzial": "przemysl"
   },
   {
@@ -637,7 +709,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-25",
+   "id": "b-przemysl-28",
    "dzial": "przemysl"
   },
   {
@@ -664,7 +736,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-26",
+   "id": "b-przemysl-29",
    "dzial": "przemysl"
   }
  ]

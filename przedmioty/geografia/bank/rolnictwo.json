@@ -389,6 +389,60 @@
    "dzial": "rolnictwo"
   },
   {
+   "tytul": "Kukurydza i rzepak",
+   "material": "Tekst autorski. Zbiory kukurydzy na ziarno wyniosły 8 mln t z 1,2 mln ha. Rzepak zajmuje 1 mln ha z 10,8 mln ha gruntów ornych.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz plon kukurydzy. Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 66,7 dt/ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "8 / 1,2 = 6,67 t/ha.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział rzepaku w gruntach ornych. Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "ok. 9,3%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 / 10,8 × 100.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-15",
+   "dzial": "rolnictwo"
+  },
+  {
+   "tytul": "Rybołówstwo",
+   "material": "Tekst autorski. Polskie połowy na Bałtyku wynoszą ok. 130 tys. t rocznie, a połowy Norwegii — ok. 2,5 mln t.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile razy połowy Norwegii są większe. Wynik zaokrąglij do 1.",
+     "odpowiedz": "ok. 19 razy",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2500 / 130 ≈ 19,2.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przyczyny małych połowów na Bałtyku.",
+     "odpowiedz": "Bałtyk jest małym, płytkim i słabo zasolonym morzem o niewielkiej różnorodności ryb; przełowienie i limity połowowe UE, eutrofizacja i strefy beztlenowe.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Warunki i ochrona.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-16",
+   "dzial": "rolnictwo"
+  },
+  {
    "tytul": "Plony pszenicy",
    "material": "Tekst autorski. W województwie zebrano 4,5 mln t zbóż z powierzchni 750 tys. ha.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -412,7 +466,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-15",
+   "id": "b-rolnictwo-17",
    "dzial": "rolnictwo"
   },
   {
@@ -439,7 +493,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-16",
+   "id": "b-rolnictwo-18",
    "dzial": "rolnictwo"
   }
  ]

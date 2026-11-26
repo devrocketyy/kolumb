@@ -506,6 +506,33 @@
    "dzial": "swiat"
   },
   {
+   "tytul": "Polska na tle UE",
+   "material": "Tekst autorski. PKB na mieszkańca Polski (według parytetu siły nabywczej) wynosi ok. 80% średniej UE; w 2004 r. wynosił ok. 50%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, o ile punktów procentowych Polska zbliżyła się do średniej UE.",
+     "odpowiedz": "o 30 p.p.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "80 − 50.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwie przyczyny szybkiego wzrostu gospodarczego Polski po 2004 r.",
+     "odpowiedz": "Fundusze unijne (infrastruktura), dostęp do wspólnego rynku i eksport, napływ inwestycji zagranicznych, wykwalifikowana i względnie tania siła robocza.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-swiat-20",
+   "dzial": "swiat"
+  },
+  {
    "tytul": "PKB na mieszkańca",
    "material": "Tekst autorski. Kraj A: PKB 500 mld USD, 25 mln mieszkańców. Kraj B: PKB 900 mld USD, 300 mln mieszkańców.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -529,7 +556,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-swiat-20",
+   "id": "b-swiat-21",
    "dzial": "swiat"
   },
   {
@@ -556,7 +583,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-swiat-21",
+   "id": "b-swiat-22",
    "dzial": "swiat"
   },
   {
@@ -583,7 +610,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-swiat-22",
+   "id": "b-swiat-23",
    "dzial": "swiat"
   },
   {
@@ -610,7 +637,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-swiat-23",
+   "id": "b-swiat-24",
    "dzial": "swiat"
   }
  ]

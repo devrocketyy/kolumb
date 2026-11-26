@@ -920,6 +920,78 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Jezioro rynnowe na mapie",
+   "material": "Tekst autorski. Na mapie w skali 1:50 000 jezioro ma długość 6 cm i średnią szerokość 0,8 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz długość i szerokość jeziora w terenie.",
+     "odpowiedz": "długość 3 km, szerokość 400 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "6 × 500 m; 0,8 × 500 m.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj genezę jeziora o takim kształcie na pojezierzu.",
+     "odpowiedz": "rynnowe — rynna wyżłobiona przez wody płynące pod lądolodem",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wąskie i długie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-38",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Czas przejścia szlaku",
+   "material": "Tekst autorski. Szlak ma na mapie w skali 1:25 000 długość 12 cm. Start leży na 650 m, a szczyt na 1150 m n.p.m. Przyjmij: 15 min na każdy km i 10 min na każde 100 m podejścia.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz długość szlaku w terenie (w poziomie).",
+     "odpowiedz": "3 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "12 × 250 m.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz przewidywany czas wejścia na szczyt.",
+     "odpowiedz": "95 min (1 h 35 min)",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "3 × 15 = 45 min; 500 m → 50 min.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-39",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Powierzchnia wsi",
+   "material": "Tekst autorski. Na mapie w skali 1:10 000 zabudowa wsi obejmuje 9 kratek o boku 1 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz powierzchnię zabudowy wsi w hektarach.",
+     "odpowiedz": "9 ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 cm² = 1 ha.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-40",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Wycieczka na wieżę widokową",
    "material": "Tekst autorski. Na mapie w skali 1:25 000 kościół leży na wysokości 212 m n.p.m., a wieża widokowa na wzgórzu — 347 m n.p.m. Odległość między nimi na mapie: 8 cm. Wieża leży od kościoła w kierunku azymutu 135°.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -952,7 +1024,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-38",
+   "id": "b-mapa-41",
    "dzial": "mapa"
   },
   {
@@ -970,7 +1042,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-39",
+   "id": "b-mapa-42",
    "dzial": "mapa"
   },
   {
@@ -997,7 +1069,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-40",
+   "id": "b-mapa-43",
    "dzial": "mapa"
   },
   {
@@ -1033,7 +1105,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-41",
+   "id": "b-mapa-44",
    "dzial": "mapa"
   },
   {
@@ -1060,7 +1132,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-42",
+   "id": "b-mapa-45",
    "dzial": "mapa"
   },
   {
@@ -1087,7 +1159,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-43",
+   "id": "b-mapa-46",
    "dzial": "mapa"
   },
   {
@@ -1105,7 +1177,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-44",
+   "id": "b-mapa-47",
    "dzial": "mapa"
   }
  ]

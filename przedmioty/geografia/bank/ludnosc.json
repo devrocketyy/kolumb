@@ -1001,6 +1001,87 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Migracje do Wrocławia",
+   "material": "Tekst autorski. Do Wrocławia (675 tys. mieszkańców) napłynęło w roku 15 000 osób, a wyjechało 10 000.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz współczynnik salda migracji. Wynik zaokrąglij do 0,1‰.",
+     "odpowiedz": "ok. +7,4‰",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "5000 / 675 000 × 1000.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa czynniki przyciągające migrantów do Wrocławia.",
+     "odpowiedz": "Rynek pracy (usługi biznesowe, przemysł nowoczesny), uczelnie, wyższe płace, oferta kulturalna, dobra komunikacja.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-40",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Obciążenie ekonomiczne Polski",
+   "material": "Tekst autorski. W Polsce ok. 18% ludności jest w wieku przedprodukcyjnym, 62% — produkcyjnym, 20% — poprodukcyjnym.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz liczbę osób w wieku nieprodukcyjnym na 100 osób w wieku produkcyjnym.",
+     "odpowiedz": "ok. 61",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "(18 + 20) / 62 × 100 ≈ 61,3.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, jak będzie się zmieniał ten wskaźnik w najbliższych latach, i uzasadnij.",
+     "odpowiedz": "Będzie rósł — przybywa osób starszych, a do wieku produkcyjnego wchodzą mniej liczne roczniki niżu.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Starzenie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-41",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Bezrobocie",
+   "material": "Tekst autorski. W Polsce jest ok. 800 tys. bezrobotnych przy ok. 17,6 mln aktywnych zawodowo.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz stopę bezrobocia. Wynik zaokrąglij do 0,1%.",
+     "odpowiedz": "ok. 4,5%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,8 / 17,6 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj typ regionu w Polsce, w którym bezrobocie jest zwykle najwyższe.",
+     "odpowiedz": "Np. obszary wiejskie i peryferyjne wschodniej i północnej Polski (warmińsko-mazurskie, podkarpackie).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Jeden.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-42",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Ludność Nigerii",
    "material": "Tekst autorski. Kraj liczy ok. 230 mln mieszkańców, a współczynnik przyrostu naturalnego wynosi ok. 25‰.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1033,7 +1114,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-40",
+   "id": "b-ludnosc-43",
    "dzial": "ludnosc"
   },
   {
@@ -1060,7 +1141,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-41",
+   "id": "b-ludnosc-44",
    "dzial": "ludnosc"
   },
   {
@@ -1096,7 +1177,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-42",
+   "id": "b-ludnosc-45",
    "dzial": "ludnosc"
   },
   {
@@ -1123,7 +1204,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-43",
+   "id": "b-ludnosc-46",
    "dzial": "ludnosc"
   },
   {
@@ -1159,7 +1240,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-44",
+   "id": "b-ludnosc-47",
    "dzial": "ludnosc"
   }
  ]

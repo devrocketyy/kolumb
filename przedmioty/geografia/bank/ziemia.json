@@ -767,6 +767,33 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Czas UTC latem",
+   "material": "Tekst autorski. Latem w Warszawie jest 11:00 (UTC+2).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj czas UTC.",
+     "odpowiedz": "9:00",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "11 − 2.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj czas słoneczny południka 15°E w tym momencie.",
+     "odpowiedz": "10:00",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "UTC+1 = czas słoneczny 15°E.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-35",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Zgorzelcem i Terespolem",
    "material": "Tekst autorski. Zgorzelec leży na ok. 15°00′E, Terespol na ok. 23°40′E. Jest zima (obowiązuje czas UTC+1).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -790,7 +817,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-35",
+   "id": "b-ziemia-36",
    "dzial": "ziemia"
   },
   {
@@ -817,7 +844,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-36",
+   "id": "b-ziemia-37",
    "dzial": "ziemia"
   },
   {
@@ -844,7 +871,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-37",
+   "id": "b-ziemia-38",
    "dzial": "ziemia"
   },
   {
@@ -880,7 +907,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-38",
+   "id": "b-ziemia-39",
    "dzial": "ziemia"
   },
   {
@@ -907,7 +934,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-39",
+   "id": "b-ziemia-40",
    "dzial": "ziemia"
   },
   {
@@ -934,7 +961,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-40",
+   "id": "b-ziemia-41",
    "dzial": "ziemia"
   },
   {
@@ -952,7 +979,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-41",
+   "id": "b-ziemia-42",
    "dzial": "ziemia"
   }
  ]
