@@ -90,6 +90,60 @@
    ],
    "id": "b-ziemia-03",
    "dzial": "ziemia"
+  },
+  {
+   "tytul": "Słońce nad Zgorzelcem i Terespolem",
+   "material": "Tekst autorski. Zgorzelec leży na ok. 15°00′E, Terespol na ok. 23°40′E. Jest zima (obowiązuje czas UTC+1).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz, o której godzinie czasu urzędowego Słońce góruje w Terespolu.",
+     "odpowiedz": "ok. 11:25:20",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Różnica długości 8°40′ = 520′ × 4 s = 34 min 40 s; Słońce góruje wcześniej niż na 15°E.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego w Zgorzelcu Słońce góruje około 12:00 czasu urzędowego.",
+     "odpowiedz": "Zgorzelec leży prawie na południku 15°E — środkowym południku strefy UTC+1.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Czas strefowy = czas słoneczny południka środkowego.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-04",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Lot przez linię zmiany daty",
+   "material": "Tekst autorski. Samolot wylatuje z Tokio (UTC+9) 1 lipca o 22:00 czasu lokalnego. Lot do Honolulu (UTC−10) trwa 7 godzin.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Podaj datę i godzinę lądowania w czasie lokalnym Honolulu.",
+     "odpowiedz": "1 lipca, 10:00",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wylot 13:00 UTC; lądowanie 20:00 UTC; −10 h → 10:00 1 lipca.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego samolot ląduje „wcześniej”, niż wystartował.",
+     "odpowiedz": "Przekroczył linię zmiany daty z zachodu na wschód — data cofa się o dobę.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Różnica stref 19 h.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-05",
+   "dzial": "ziemia"
   }
  ]
 }

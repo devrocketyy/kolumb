@@ -90,6 +90,60 @@
    ],
    "id": "b-mapa-03",
    "dzial": "mapa"
+  },
+  {
+   "tytul": "Wycieczka na wieżę widokową",
+   "material": "Tekst autorski. Na mapie w skali 1:25 000 kościół leży na wysokości 212 m n.p.m., a wieża widokowa na wzgórzu — 347 m n.p.m. Odległość między nimi na mapie: 8 cm. Wieża leży od kościoła w kierunku azymutu 135°.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość w terenie między kościołem a wieżą.",
+     "odpowiedz": "2 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "8 cm × 250 m.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średni spadek terenu między obiektami w procentach.",
+     "odpowiedz": "6,75%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "135 m / 2000 m × 100%.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj kierunek geograficzny od kościoła do wieży oraz azymut drogi powrotnej.",
+     "odpowiedz": "południowy wschód (SE); 315°",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "135° + 180°.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-mapa-04",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Las na mapie",
+   "material": "Tekst autorski. Na mapie w skali 1:25 000 kompleks leśny ma kształt prostokąta o bokach 4 cm i 3 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz powierzchnię lasu w terenie w hektarach.",
+     "odpowiedz": "75 ha",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Boki 1 km i 0,75 km → 0,75 km² = 75 ha (lub 12 cm² × 6,25 ha).",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-05",
+   "dzial": "mapa"
   }
  ]
 }

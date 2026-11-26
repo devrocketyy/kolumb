@@ -108,6 +108,24 @@
    ],
    "id": "b-atmosfera-03",
    "dzial": "atmosfera"
+  },
+  {
+   "tytul": "Temperatura na szczycie",
+   "material": "Tekst autorski. U podnóża gór, na wysokości 900 m n.p.m., temperatura wynosi 8°C. Szczyt ma wysokość 1987 m n.p.m. Przyjmij spadek temperatury 0,6°C/100 m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz temperaturę na szczycie. Wynik zaokrąglij do 0,1°C.",
+     "odpowiedz": "ok. 1,5°C",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "1087 m × 0,006 = 6,52°C; 8 − 6,52 ≈ 1,5.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-atmosfera-04",
+   "dzial": "atmosfera"
   }
  ]
 }
