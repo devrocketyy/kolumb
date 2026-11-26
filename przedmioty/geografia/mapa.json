@@ -670,6 +670,54 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
+     "id": "f6a630872",
+     "przod": "Długość 1° równoleżnika na równiku",
+     "tyl": "Ok. 111,3 km.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f53dbc6d4",
+     "przod": "Długość 1° równoleżnika na 60°",
+     "tyl": "Ok. 55,7 km (111,3 × cos 60°).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f3203d25c",
+     "przod": "Jak wyznaczyć szerokość z wysokości Gwiazdy Polarnej?",
+     "tyl": "Na półkuli N wysokość Gwiazdy Polarnej nad horyzontem ≈ szerokości geograficznej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f1b6054c7",
+     "przod": "Szerokość z wysokości górowania Słońca w równonoc",
+     "tyl": "φ = 90° − h.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f9e79a878",
+     "przod": "Długość geograficzna z różnicy czasu słonecznego",
+     "tyl": "1° = 4 min; 15° = 1 h — wschód ma czas późniejszy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f852c12d8",
+     "przod": "Antypody punktu (50°N, 20°E)",
+     "tyl": "(50°S, 160°W) — szerokość przeciwna, długość 180° − λ po drugiej stronie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "ffe9c72c7",
+     "przod": "Współrzędne skrajnych punktów Polski N i S",
+     "tyl": "N: Jastrzębia Góra 54°50′N; S: Opołonek 49°00′N.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f1c3b61c9",
+     "przod": "Współrzędne skrajnych punktów Polski E i W",
+     "tyl": "E: zakole Bugu k. Zosina 24°08′E; W: zakole Odry k. Osinowa Dolnego 14°07′E.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
      "id": "f05baf223",
      "przod": "Rozpoznaj: Punkty położone po przeciwnych stronach Ziemi: szerokość o przeciwnej nazwie półkuli, długość różniąca się o 180°. Np. 50°N, 20°E ↔ 50°S, 160°W.",
      "tyl": "Antypody",
@@ -757,6 +805,30 @@
      "id": "f1a6b300f",
      "przod": "Rozpoznaj: 1° = 60′; 1′ = 60″. Na południku 1′ to około 1,85 km (mila morska).",
      "tyl": "Minuta kątowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f18178593",
+     "przod": "Rozpoznaj: φ = 90° − h.",
+     "tyl": "Szerokość z wysokości górowania Słońca w równonoc",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f37b38a9e",
+     "przod": "Rozpoznaj: 1° = 4 min; 15° = 1 h — wschód ma czas późniejszy.",
+     "tyl": "Długość geograficzna z różnicy czasu słonecznego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f8e06972e",
+     "przod": "Rozpoznaj: N: Jastrzębia Góra 54°50′N; S: Opołonek 49°00′N.",
+     "tyl": "Współrzędne skrajnych punktów Polski N i S",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f87019eff",
+     "przod": "Rozpoznaj: E: zakole Bugu k. Zosina 24°08′E; W: zakole Odry k. Osinowa Dolnego 14°07′E.",
+     "tyl": "Współrzędne skrajnych punktów Polski E i W",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     }
    ],
@@ -941,6 +1013,84 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Równoleżniki maleją ku biegunom.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p33a8e8c7",
+     "pytanie": "Długość 1° równoleżnika jest największa na:",
+     "odpowiedzi": [
+      "45°N",
+      "biegunie",
+      "kole podbiegunowym",
+      "równiku"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Maleje z cos φ.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p806121af",
+     "pytanie": "Antypodami punktu 30°N, 60°W jest punkt:",
+     "odpowiedzi": [
+      "30°S, 120°E",
+      "60°S, 120°W",
+      "30°S, 60°E",
+      "30°N, 120°E"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "180° − 60° = 120°E.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p65065cd1",
+     "pytanie": "Gwiazda Polarna widziana na 52°N jest na wysokości ok.:",
+     "odpowiedzi": [
+      "23°",
+      "52°",
+      "90°",
+      "38°"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "h ≈ φ.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p256ae25f",
+     "pytanie": "Różnica długości 7°30′ odpowiada różnicy czasu słonecznego:",
+     "odpowiedzi": [
+      "30 min",
+      "1 h 30 min",
+      "7 min 30 s",
+      "45 min"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "7,5 × 4 min.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p93438307",
+     "pytanie": "Skrajnym północnym punktem Polski (lądowym) jest:",
+     "odpowiedzi": [
+      "Rozewie",
+      "Łeba",
+      "Hel",
+      "Jastrzębia Góra"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "54°50′N.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p32535b63",
+     "pytanie": "Rozciągłość południkowa Polski wynosi ok.:",
+     "odpowiedzi": [
+      "10°01′",
+      "7°45′",
+      "5°50′",
+      "3°20′"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "49°00′–54°50′.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
@@ -2198,6 +2348,54 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
     },
     {
+     "id": "fb9541261",
+     "przod": "Model wektorowy",
+     "tyl": "Obiekty jako punkty, linie i poligony z atrybutami (np. drogi, granice).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f5ae8e51d",
+     "przod": "Warstwa tematyczna",
+     "tyl": "Zbiór danych jednego rodzaju (np. rzeki, gleby) nakładany z innymi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fbe0f90c2",
+     "przod": "Buforowanie",
+     "tyl": "Wyznaczanie strefy w danej odległości od obiektu (np. 100 m od rzeki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fdec483c2",
+     "przod": "Nakładanie warstw (overlay)",
+     "tyl": "Łączenie warstw w celu znalezienia obszarów spełniających kilka warunków.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f250bb7d2",
+     "przod": "NMT",
+     "tyl": "Numeryczny model terenu — raster wysokości powierzchni gruntu (bez roślin i budynków).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f4cab0dd1",
+     "przod": "NMPT",
+     "tyl": "Numeryczny model pokrycia terenu — z wysokościami budynków i drzew.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fee4439c3",
+     "przod": "Zdjęcie w podczerwieni (CIR)",
+     "tyl": "Roślinność zdrowa — czerwona; woda — ciemna; służy do oceny kondycji roślin.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fcd3462a4",
+     "przod": "GNSS / GPS",
+     "tyl": "Satelitarne systemy nawigacyjne wyznaczające położenie (GPS, Galileo, GLONASS, BeiDou).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
      "id": "f8863758a",
      "przod": "Rozpoznaj: Skanowanie laserowe z samolotu — bardzo dokładny model wysokości terenu, także pod lasem.",
      "tyl": "Lidar",
@@ -2273,6 +2471,48 @@
      "id": "f3d7ee1c4",
      "przod": "Rozpoznaj: Cyfrowy zapis ukształtowania powierzchni — podstawa map hipsometrycznych i profili w GIS.",
      "tyl": "Numeryczny model terenu",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f01b8e132",
+     "przod": "Rozpoznaj: Obiekty jako punkty, linie i poligony z atrybutami (np. drogi, granice).",
+     "tyl": "Model wektorowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f08342b55",
+     "przod": "Rozpoznaj: Zbiór danych jednego rodzaju (np. rzeki, gleby) nakładany z innymi.",
+     "tyl": "Warstwa tematyczna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f645e89b8",
+     "przod": "Rozpoznaj: Wyznaczanie strefy w danej odległości od obiektu (np. 100 m od rzeki).",
+     "tyl": "Buforowanie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fa2241fb6",
+     "przod": "Rozpoznaj: Numeryczny model terenu — raster wysokości powierzchni gruntu (bez roślin i budynków).",
+     "tyl": "NMT",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fc36b0620",
+     "przod": "Rozpoznaj: Numeryczny model pokrycia terenu — z wysokościami budynków i drzew.",
+     "tyl": "NMPT",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fea22a711",
+     "przod": "Rozpoznaj: Roślinność zdrowa — czerwona; woda — ciemna; służy do oceny kondycji roślin.",
+     "tyl": "Zdjęcie w podczerwieni (CIR)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f21e78a6e",
+     "przod": "Rozpoznaj: Satelitarne systemy nawigacyjne wyznaczające położenie (GPS, Galileo, GLONASS, BeiDou).",
+     "tyl": "GNSS / GPS",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
     }
    ],
@@ -2470,6 +2710,84 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Ochrona środowiska.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p18459b71",
+     "pytanie": "Model złożony z pikseli to model:",
+     "odpowiedzi": [
+      "topologiczny",
+      "rastrowy",
+      "obiektowy",
+      "wektorowy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Siatka komórek.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb82e3a54",
+     "pytanie": "Wyznaczenie strefy 500 m wokół drogi to operacja:",
+     "odpowiedzi": [
+      "generalizacji",
+      "interpolacji",
+      "nakładania warstw",
+      "buforowania"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Bufor.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0ffe9945",
+     "pytanie": "Na zdjęciu w podczerwieni zdrowa roślinność jest:",
+     "odpowiedzi": [
+      "biała",
+      "czerwona",
+      "czarna",
+      "niebieska"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Odbija podczerwień.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa99095de",
+     "pytanie": "Model terenu bez budynków i drzew to:",
+     "odpowiedzi": [
+      "mapa wektorowa",
+      "NMT",
+      "NMPT",
+      "ortofotomapa"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Sam grunt.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p57d8c21b",
+     "pytanie": "Rzeźbę pod lasem najlepiej pokazuje:",
+     "odpowiedzi": [
+      "cieniowany model z LIDAR",
+      "mapa polityczna",
+      "zdjęcie w barwach naturalnych",
+      "ortofotomapa"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Laser przenika luki koron.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p417b96f7",
+     "pytanie": "Europejski system nawigacji satelitarnej to:",
+     "odpowiedzi": [
+      "BeiDou",
+      "NAVSTAR",
+      "GLONASS",
+      "Galileo"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "UE.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
