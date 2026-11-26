@@ -119,6 +119,60 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Skala z odległości",
+   "material": "Tekst autorski. Odległość 15 km między dwiema miejscowościami odpowiada na mapie 3 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz skalę liczbową mapy.",
+     "odpowiedz": "1:500 000",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1 500 000 cm / 3.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość w terenie odpowiadającą na tej mapie odcinkowi 7 cm.",
+     "odpowiedz": "35 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "7 × 5 km.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-05",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Marsz na azymut",
+   "material": "Tekst autorski. Turysta przeszedł z punktu A do B w kierunku azymutu 60°, a następnie z B do C w kierunku azymutu 150°.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj kierunki geograficzne obu odcinków marszu.",
+     "odpowiedz": "A–B: północny wschód (ENE); B–C: południowy wschód (SSE)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "60° i 150°.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz azymut drogi powrotnej z B do A.",
+     "odpowiedz": "240°",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "60° + 180°.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-06",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Wycieczka na wieżę widokową",
    "material": "Tekst autorski. Na mapie w skali 1:25 000 kościół leży na wysokości 212 m n.p.m., a wieża widokowa na wzgórzu — 347 m n.p.m. Odległość między nimi na mapie: 8 cm. Wieża leży od kościoła w kierunku azymutu 135°.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -151,7 +205,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-05",
+   "id": "b-mapa-07",
    "dzial": "mapa"
   },
   {
@@ -169,7 +223,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-06",
+   "id": "b-mapa-08",
    "dzial": "mapa"
   },
   {
@@ -196,7 +250,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-07",
+   "id": "b-mapa-09",
    "dzial": "mapa"
   },
   {
@@ -232,7 +286,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-08",
+   "id": "b-mapa-10",
    "dzial": "mapa"
   },
   {
@@ -259,7 +313,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-09",
+   "id": "b-mapa-11",
    "dzial": "mapa"
   },
   {
@@ -286,7 +340,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-10",
+   "id": "b-mapa-12",
    "dzial": "mapa"
   },
   {
@@ -304,7 +358,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-11",
+   "id": "b-mapa-13",
    "dzial": "mapa"
   }
  ]

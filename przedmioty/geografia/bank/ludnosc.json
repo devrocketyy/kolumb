@@ -164,6 +164,60 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Konurbacja górnośląska",
+   "material": "Tekst autorski. Metropolia górnośląska liczy ok. 2,2 mln mieszkańców na powierzchni ok. 2500 km².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz gęstość zaludnienia metropolii.",
+     "odpowiedz": "ok. 880 os./km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "2 200 000 / 2500.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij, dlaczego na Górnym Śląsku powstała konurbacja, a nie aglomeracja z jednym centrum.",
+     "odpowiedz": "Wiele miast rozwijało się równolegle wokół kopalń i hut w XIX–XX w.; z czasem zrosły się w policentryczny zespół bez jednego dominującego ośrodka.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Industrializacja.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-07",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Mediana wieku",
+   "material": "Tekst autorski. Mediana wieku ludności: Niger 15 lat, Polska 42 lata, Japonia 49 lat.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, które z państw ma najstarsze społeczeństwo.",
+     "odpowiedz": "Japonia",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Najwyższa mediana.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, co oznacza mediana wieku 15 lat w Nigrze.",
+     "odpowiedz": "Połowa mieszkańców ma mniej niż 15 lat — bardzo wysoka dzietność i młoda struktura wieku.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mediana.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-08",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Miasto i strefa podmiejska",
    "material": "Tekst autorski. Liczba ludności miasta X w latach 1990 i 2020: centrum 400 tys. → 300 tys.; strefa podmiejska 100 tys. → 200 tys.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -196,7 +250,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-07",
+   "id": "b-ludnosc-09",
    "dzial": "ludnosc"
   },
   {
@@ -232,7 +286,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-08",
+   "id": "b-ludnosc-10",
    "dzial": "ludnosc"
   },
   {
@@ -259,7 +313,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-09",
+   "id": "b-ludnosc-11",
    "dzial": "ludnosc"
   },
   {
@@ -295,7 +349,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-10",
+   "id": "b-ludnosc-12",
    "dzial": "ludnosc"
   },
   {
@@ -322,7 +376,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-11",
+   "id": "b-ludnosc-13",
    "dzial": "ludnosc"
   },
   {
@@ -358,7 +412,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-12",
+   "id": "b-ludnosc-14",
    "dzial": "ludnosc"
   }
  ]

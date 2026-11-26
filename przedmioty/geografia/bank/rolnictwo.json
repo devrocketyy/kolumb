@@ -29,6 +29,33 @@
    "dzial": "rolnictwo"
   },
   {
+   "tytul": "Kawa z Brazylii",
+   "material": "Tekst autorski. Światowa produkcja kawy wynosi ok. 10,5 mln t, a Brazylii ok. 3,4 mln t.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział Brazylii w produkcji kawy. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 32%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3,4 / 10,5 × 100 ≈ 32,4.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 2,
+     "polecenie": "Podaj dwa przyrodnicze warunki uprawy kawy.",
+     "odpowiedz": "Ciepły klimat bez przymrozków (ok. 18–24°C), opady ok. 1500–2000 mm, żyzne gleby (np. terra roxa), wyżynne położenie.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Wystarczą dwa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-02",
+   "dzial": "rolnictwo"
+  },
+  {
    "tytul": "Gospodarstwo na Kujawach",
    "material": "Tekst autorski. Gospodarstwo uprawia: pszenicę na 25 ha (plon 6 t/ha), rzepak na 10 ha (plon 3,5 t/ha) i ziemniaki na 5 ha (plon 28 t/ha).",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -61,7 +88,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-rolnictwo-02",
+   "id": "b-rolnictwo-03",
    "dzial": "rolnictwo"
   },
   {
@@ -88,7 +115,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-03",
+   "id": "b-rolnictwo-04",
    "dzial": "rolnictwo"
   },
   {
@@ -115,7 +142,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-04",
+   "id": "b-rolnictwo-05",
    "dzial": "rolnictwo"
   },
   {
@@ -142,7 +169,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-05",
+   "id": "b-rolnictwo-06",
    "dzial": "rolnictwo"
   }
  ]

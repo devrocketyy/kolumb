@@ -29,6 +29,60 @@
    "dzial": "polska-przyroda"
   },
   {
+   "tytul": "Depresja na Żuławach",
+   "material": "Tekst autorski. Najniżej położony punkt Polski leży na ok. 1,8 m p.p.m., a korona wału przeciwpowodziowego obok — na 6 m n.p.m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz różnicę wysokości między punktem a koroną wału.",
+     "odpowiedz": "7,8 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "6 − (−1,8).",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego Żuławy trzeba stale odwadniać.",
+     "odpowiedz": "Teren leży poniżej poziomu morza i rzek — woda sama nie odpłynie, więc pompownie przepompowują ją z polderów do rzek.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Poldery.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-przyroda-02",
+   "dzial": "polska-przyroda"
+  },
+  {
+   "tytul": "Zimy na zachodzie i wschodzie",
+   "material": "Tekst autorski. Średnia temperatura stycznia w Świnoujściu wynosi ok. 0°C, a w Suwałkach ok. −4°C. Odległość między miastami to ok. 640 km.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średni spadek temperatury stycznia na każde 100 km.",
+     "odpowiedz": "ok. 0,6°C/100 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "4°C / 6,4.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego zimą izotermy w Polsce biegną z północy na południe.",
+     "odpowiedz": "Zimą o temperaturze decyduje odległość od Atlantyku — im dalej na wschód, tym słabszy wpływ ciepłych mas oceanicznych i silniejszy kontynentalnych.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kontynentalizm.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-przyroda-03",
+   "dzial": "polska-przyroda"
+  },
+  {
    "tytul": "Dwie stacje w Polsce",
    "material": "Tekst autorski. Stacja P (zachodnia Polska): średnia temperatura stycznia −0,5°C, lipca 18,5°C. Stacja S (północno-wschodnia Polska): stycznia −4°C, lipca 18°C.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -52,7 +106,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-02",
+   "id": "b-polska-przyroda-04",
    "dzial": "polska-przyroda"
   },
   {
@@ -79,7 +133,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-03",
+   "id": "b-polska-przyroda-05",
    "dzial": "polska-przyroda"
   },
   {
@@ -106,7 +160,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-04",
+   "id": "b-polska-przyroda-06",
    "dzial": "polska-przyroda"
   },
   {
@@ -133,7 +187,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-05",
+   "id": "b-polska-przyroda-07",
    "dzial": "polska-przyroda"
   },
   {
@@ -160,7 +214,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-06",
+   "id": "b-polska-przyroda-08",
    "dzial": "polska-przyroda"
   },
   {
@@ -187,7 +241,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-07",
+   "id": "b-polska-przyroda-09",
    "dzial": "polska-przyroda"
   },
   {
@@ -214,7 +268,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-08",
+   "id": "b-polska-przyroda-10",
    "dzial": "polska-przyroda"
   },
   {
@@ -241,7 +295,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-polska-przyroda-09",
+   "id": "b-polska-przyroda-11",
    "dzial": "polska-przyroda"
   }
  ]

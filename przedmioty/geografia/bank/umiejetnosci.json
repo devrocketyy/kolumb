@@ -2,6 +2,33 @@
  "dzial": "umiejetnosci",
  "wiazki": [
   {
+   "tytul": "Lesistość województwa",
+   "material": "Tekst autorski. Województwo ma 18 000 km², z czego lasy zajmują 9000 km². Lesistość Polski wynosi ok. 31%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz lesistość województwa.",
+     "odpowiedz": "50%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "9000 / 18 000 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj przyczynę przyrodniczą dużej lesistości takiego regionu.",
+     "odpowiedz": "Np. słabe gleby piaszczyste nieprzydatne dla rolnictwa, górzysta rzeźba.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Lubuskie, Podkarpackie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-umiejetnosci-01",
+   "dzial": "umiejetnosci"
+  },
+  {
    "tytul": "Klimatogram stacji nizinnej",
    "material": "Tekst autorski. Średnie miesięczne temperatury (°C) stacji X: I −3, II −2, III 2, IV 8, V 13, VI 16, VII 18, VIII 17, IX 13, X 8, XI 3, XII −1. Roczna suma opadów: 560 mm, maksimum w lipcu.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -34,7 +61,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-umiejetnosci-01",
+   "id": "b-umiejetnosci-02",
    "dzial": "umiejetnosci"
   },
   {
@@ -61,7 +88,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-umiejetnosci-02",
+   "id": "b-umiejetnosci-03",
    "dzial": "umiejetnosci"
   }
  ]
