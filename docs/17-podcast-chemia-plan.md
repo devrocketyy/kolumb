@@ -30,9 +30,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **7. Układ okresowy i prawo okresowości** `c-okresowosc` ✅
 
-**8. Przemiany promieniotwórcze i okres półtrwania** `c-promieniotworczosc` ⬜
+**8. Przemiany promieniotwórcze i okres półtrwania** `c-promieniotworczosc` ✅
 
-**9. Powtórka działu: Budowa atomu i układ okresowy** `atom` ⬜
+**9. Powtórka działu: Budowa atomu i układ okresowy** `atom` ✅
 
 ## Dział: Wiązania i oddziaływania
 

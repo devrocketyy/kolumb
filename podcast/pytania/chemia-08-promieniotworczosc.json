@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-08-promieniotworczosc",
+  "pytania": [
+    {
+      "id": "alfa",
+      "typ": "abcd",
+      "pytanie": "²²⁶Ra ulega przemianie α. Powstaje:",
+      "odpowiedzi": [
+        "²²²Rn",
+        "²²²Po",
+        "²³⁰Th",
+        "²²⁶Ac"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "A − 4, Z − 2: z 88 na 86 (radon)."
+    },
+    {
+      "id": "beta",
+      "typ": "abcd",
+      "pytanie": "Jak zmienia się liczba masowa w przemianie β⁻?",
+      "odpowiedzi": [
+        "Nie zmienia się",
+        "Maleje o 4",
+        "Rośnie o 1",
+        "Maleje o 1"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Neutron zamienia się w proton — A bez zmian, Z + 1."
+    },
+    {
+      "id": "przenikliwosc",
+      "typ": "abcd",
+      "pytanie": "Które promieniowanie zatrzyma kartka papieru?",
+      "odpowiedzi": [
+        "α",
+        "β⁻",
+        "γ",
+        "Żadne"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Cząstki α są ciężkie i mało przenikliwe."
+    },
+    {
+      "id": "polowa",
+      "typ": "abcd",
+      "pytanie": "Zostało 25% ¹⁴C (T½ = 5730 lat). Wiek próbki to ok.:",
+      "odpowiedzi": [
+        "11 460 lat",
+        "5730 lat",
+        "17 190 lat",
+        "1432 lat"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Dwa okresy półtrwania."
+    },
+    {
+      "id": "szereg",
+      "typ": "abcd",
+      "pytanie": "Ile przemian α w szeregu ²³⁸U → ²⁰⁶Pb?",
+      "odpowiedzi": [
+        "8",
+        "6",
+        "10",
+        "4"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "(238 − 206) / 4 = 8."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Ile izotopu zostaje po trzech okresach półtrwania?",
+      "odpowiedzi": [
+        "12,5%",
+        "25%",
+        "33%",
+        "6,25%"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "(1/2)³ = 1/8."
+    }
+  ]
+}
