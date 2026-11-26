@@ -1,0 +1,70 @@
+{
+  "odcinek": "chemia-37-stopnie",
+  "pytania": [
+    {
+      "id": "h2o2",
+      "typ": "abcd",
+      "pytanie": "Stopień utlenienia tlenu w H₂O₂:",
+      "odpowiedzi": [
+        "−I",
+        "−II",
+        "0",
+        "+I"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Dwa H po +I, dwa O muszą dać −2."
+    },
+    {
+      "id": "kmno4",
+      "typ": "abcd",
+      "pytanie": "Stopień utlenienia Mn w KMnO₄:",
+      "odpowiedzi": [
+        "+VII",
+        "+VI",
+        "+IV",
+        "+II"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "+1 + x − 8 = 0."
+    },
+    {
+      "id": "cr",
+      "typ": "abcd",
+      "pytanie": "Stopień utlenienia Cr w Cr₂O₇²⁻:",
+      "odpowiedzi": [
+        "+VI",
+        "+VII",
+        "+III",
+        "+XII"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "2x − 14 = −2."
+    },
+    {
+      "id": "nh4",
+      "typ": "abcd",
+      "pytanie": "Stopień utlenienia N w NH₄⁺:",
+      "odpowiedzi": [
+        "−III",
+        "+III",
+        "+V",
+        "−IV"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "x + 4 = +1."
+    },
+    {
+      "id": "reduktor",
+      "typ": "abcd",
+      "pytanie": "W reakcji Zn + Cu²⁺ → Zn²⁺ + Cu reduktorem jest:",
+      "odpowiedzi": [
+        "Zn",
+        "Cu²⁺",
+        "Zn²⁺",
+        "Cu"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Reduktor oddaje elektrony."
+    }
+  ]
+}

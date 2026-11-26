@@ -98,11 +98,11 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **35. Niemetale, ich związki i zastosowania** `c-niemetale` ✅
 
-**36. Powtórka działu: Związki nieorganiczne, metale i niemetale** `nieorganiczne` ⬜
+**36. Powtórka działu: Związki nieorganiczne, metale i niemetale** `nieorganiczne` ✅
 
 ## Dział: Redoks i elektrochemia
 
-**37. Stopnie utlenienia, utleniacz i reduktor** `c-stopnie` ⬜
+**37. Stopnie utlenienia, utleniacz i reduktor** `c-stopnie` ✅
 
 **38. Bilansowanie równań redoks** `c-bilans` ⬜
 

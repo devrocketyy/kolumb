@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-36-powtorka-nieorganiczne",
+  "pytania": [
+    {
+      "id": "prazenie",
+      "typ": "abcd",
+      "pytanie": "Masa CaO z całkowitego rozkładu 100 g CaCO₃:",
+      "odpowiedzi": [
+        "56 g",
+        "44 g",
+        "100 g",
+        "28 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "M(CaCO₃) = 100, M(CaO) = 56 g/mol."
+    },
+    {
+      "id": "charakter",
+      "typ": "abcd",
+      "pytanie": "Charakter chemiczny CaO:",
+      "odpowiedzi": [
+        "zasadowy",
+        "kwasowy",
+        "amfoteryczny",
+        "obojętny"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Tlenek metalu aktywnego."
+    },
+    {
+      "id": "gaszenie",
+      "typ": "abcd",
+      "pytanie": "Reakcja CaO + H₂O → Ca(OH)₂ jest:",
+      "odpowiedzi": [
+        "egzotermiczna",
+        "endotermiczna",
+        "bez efektu cieplnego",
+        "fotochemiczna"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Woda może się zagotować."
+    },
+    {
+      "id": "twardnienie",
+      "typ": "abcd",
+      "pytanie": "Twardnienie zaprawy wapiennej:",
+      "odpowiedzi": [
+        "Ca(OH)₂ + CO₂ → CaCO₃ + H₂O",
+        "CaO + CO₂ → CaCO₃ + O₂",
+        "CaCO₃ → CaO + CO₂",
+        "Ca + CO₂ → CaCO₃"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Wodorotlenek + tlenek kwasowy → sól + woda."
+    },
+    {
+      "id": "kwas",
+      "typ": "abcd",
+      "pytanie": "CaCO₃ + 2HCl → CaCl₂ + H₂O + …",
+      "odpowiedzi": [
+        "CO₂",
+        "H₂",
+        "Cl₂",
+        "CO"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Węglan + kwas → gaz."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "Związki wapnia barwią płomień na kolor:",
+      "odpowiedzi": [
+        "ceglastoczerwony",
+        "żółty",
+        "fioletowy",
+        "zielony"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Sód — żółty, potas — fioletowy."
+    }
+  ]
+}
