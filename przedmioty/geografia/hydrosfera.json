@@ -1,0 +1,547 @@
+{
+ "id": "hydrosfera",
+ "nazwa": "Hydrosfera",
+ "opis": "Obieg wody, oceany i prądy, rzeki i ustroje, jeziora, lodowce, wody podziemne.",
+ "poddzialy": [
+  {
+   "id": "g-oceany",
+   "nazwa": "Obieg wody, oceany, prądy i pływy",
+   "opis": "Wymaganie IV.1–3 podstawy programowej.",
+   "wymaganie": "IV.1–3",
+   "fiszki": [
+    {
+     "id": "fabbf3350",
+     "przod": "Zasoby wodne Ziemi",
+     "tyl": "Ok. 97% to wody słone (oceany i morza), ok. 3% słodkie — większość z nich zgromadzona w lodowcach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "fa1cbe847",
+     "przod": "Obieg wody w przyrodzie",
+     "tyl": "Parowanie → kondensacja → opady → spływ powierzchniowy i podziemny → parowanie. Napędzany energią Słońca.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "f9ca551d4",
+     "przod": "Zasolenie",
+     "tyl": "Ilość soli rozpuszczonych w wodzie, w ‰. Średnio w oceanach ok. 35‰.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "fbeea65e5",
+     "przod": "Zasolenie Bałtyku",
+     "tyl": "Niskie, średnio ok. 7‰: duży dopływ wód rzecznych, małe parowanie i utrudniona wymiana wód z oceanem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "f93332106",
+     "przod": "Wysokie zasolenie mórz",
+     "tyl": "Np. Morze Czerwone ok. 40‰ — duże parowanie, mały dopływ rzek i małe opady.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "f0e5f743c",
+     "przod": "Prądy ciepłe — przykłady",
+     "tyl": "Zatokowy (Golfsztrom) i Północnoatlantycki, Kuroshio, Brazylijski.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "f38186a8b",
+     "przod": "Prądy zimne — przykłady",
+     "tyl": "Peruwiański (Humboldta), Benguelski, Kanaryjski, Labradorski, Kalifornijski.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "fdbe72e6d",
+     "przod": "Wpływ zimnych prądów",
+     "tyl": "Ochładzają powietrze nad wybrzeżem i hamują opady — sprzyjają powstawaniu pustyń przybrzeżnych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "fdef7a0e6",
+     "przod": "Pływy",
+     "tyl": "Okresowe podnoszenie i opadanie poziomu morza wywołane głównie przyciąganiem Księżyca. Największe (syzygijne) — w nowiu i pełni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "f5cba7168",
+     "przod": "Upwelling",
+     "tyl": "Wynoszenie zimnych, bogatych w składniki odżywcze wód głębinowych ku powierzchni — sprzyja dużym połowom ryb (np. u wybrzeży Peru).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "fa243f04f",
+     "przod": "Rozpoznaj: Ok. 97% to wody słone (oceany i morza), ok. 3% słodkie — większość z nich zgromadzona w lodowcach.",
+     "tyl": "Zasoby wodne Ziemi",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "f8482a339",
+     "przod": "Rozpoznaj: Parowanie → kondensacja → opady → spływ powierzchniowy i podziemny → parowanie. Napędzany energią Słońca.",
+     "tyl": "Obieg wody w przyrodzie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "fa5bdbf01",
+     "przod": "Rozpoznaj: Ilość soli rozpuszczonych w wodzie, w ‰. Średnio w oceanach ok. 35‰.",
+     "tyl": "Zasolenie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "fc6353898",
+     "przod": "Rozpoznaj: Niskie, średnio ok. 7‰: duży dopływ wód rzecznych, małe parowanie i utrudniona wymiana wód z oceanem.",
+     "tyl": "Zasolenie Bałtyku",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "f3572eb4e",
+     "przod": "Rozpoznaj: Np. Morze Czerwone ok. 40‰ — duże parowanie, mały dopływ rzek i małe opady.",
+     "tyl": "Wysokie zasolenie mórz",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "f6cbaa007",
+     "przod": "Rozpoznaj: Okresowe podnoszenie i opadanie poziomu morza wywołane głównie przyciąganiem Księżyca. Największe (syzygijne) — w nowiu i pełni.",
+     "tyl": "Pływy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    },
+    {
+     "id": "fdd03bc12",
+     "przod": "Rozpoznaj: Wynoszenie zimnych, bogatych w składniki odżywcze wód głębinowych ku powierzchni — sprzyja dużym połowom ryb (np. u wybrzeży Peru).",
+     "tyl": "Upwelling",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.1–3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pc09a9c93",
+     "pytanie": "Średnie zasolenie wód oceanicznych wynosi około:",
+     "odpowiedzi": [
+      "3,5‰",
+      "35‰",
+      "7‰",
+      "350‰"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Bałtyk ok. 7‰.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p58ff2ec8",
+     "pytanie": "Niskie zasolenie Bałtyku wynika głównie z:",
+     "odpowiedzi": [
+      "dużego dopływu wód rzecznych i słabej wymiany z oceanem",
+      "dużego parowania w lecie",
+      "bardzo wysokiej temperatury wody przez cały rok",
+      "dopływu wód z Morza Śródziemnego"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Rzeki wysładzają morze.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p867785bb",
+     "pytanie": "Zimnym prądem morskim jest prąd:",
+     "odpowiedzi": [
+      "Zatokowy",
+      "Peruwiański",
+      "Brazylijski",
+      "Kuroshio"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Płynie wzdłuż Ameryki Południowej ku równikowi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7d5b81a7",
+     "pytanie": "Największe pływy występują w czasie:",
+     "odpowiedzi": [
+      "przesileń wyłącznie",
+      "równonocy wyłącznie",
+      "nowiu i pełni",
+      "kwadr Księżyca"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Przyciąganie Słońca i Księżyca się sumuje.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p83e37bc5",
+     "pytanie": "Pustynia Namib powstała m.in. pod wpływem prądu:",
+     "odpowiedzi": [
+      "Benguelskiego",
+      "Wschodnioaustralijskiego",
+      "Kuroshio",
+      "Zatokowego"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Zimny prąd u zachodnich wybrzeży Afryki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0fffae0a",
+     "pytanie": "Upwelling sprzyja:",
+     "odpowiedzi": [
+      "wzrostowi zasolenia",
+      "tworzeniu się lodu morskiego",
+      "rozwojowi rybołówstwa",
+      "powstawaniu raf koralowych w wodach zimnych"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wody bogate w składniki odżywcze.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-rzeki",
+   "nazwa": "Rzeki, ustroje rzeczne i jeziora",
+   "opis": "Wymaganie IV.4–5 podstawy programowej.",
+   "wymaganie": "IV.4–5",
+   "fiszki": [
+    {
+     "id": "fff67dab4",
+     "przod": "Dorzecze",
+     "tyl": "Obszar, z którego wody spływają do jednej rzeki głównej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "f4e70e29a",
+     "przod": "Zlewisko",
+     "tyl": "Obszar, z którego wody spływają do jednego morza lub oceanu. Polska leży głównie w zlewisku Bałtyku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "ff44e7ff7",
+     "przod": "Dział wodny",
+     "tyl": "Granica między dorzeczami lub zlewiskami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "f483e05f1",
+     "przod": "Przepływ rzeki",
+     "tyl": "Objętość wody przepływającej przez przekrój koryta w jednostce czasu (m³/s): przepływ = prędkość × pole przekroju.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "ffacae940",
+     "przod": "Ustrój niwalny",
+     "tyl": "Wezbranie wiosną po roztopach śniegu — typowy dla rzek nizinnych strefy umiarkowanej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "ff05fcfe2",
+     "przod": "Ustrój glacjalny",
+     "tyl": "Maksimum przepływu latem z powodu topnienia lodowców — rzeki alpejskie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "f27178e67",
+     "przod": "Ustrój pluwialny",
+     "tyl": "Wezbrania po opadach deszczu, np. w porze deszczowej lub po ulewach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "fd92135e1",
+     "przod": "Ustrój rzek Polski",
+     "tyl": "Przeważnie niwalno-pluwialny: wezbranie wiosenne (roztopy) i letnie (opady); w górach przeważają wezbrania letnie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "f8c97fc1b",
+     "przod": "Jeziora polodowcowe — typy",
+     "tyl": "Rynnowe (długie, wąskie, głębokie, np. Hańcza), morenowe (płytkie, nieregularne), cyrkowe/karowe (w górach, np. Morskie Oko).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "ff11c6cea",
+     "przod": "Jeziora przybrzeżne",
+     "tyl": "Powstają przez odcięcie zatoki mierzeją, np. Łebsko i Gardno.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "fb20ab6bd",
+     "przod": "Jezioro tektoniczne",
+     "tyl": "W rowie tektonicznym, często bardzo głębokie — np. Bajkał (ok. 1640 m, najgłębsze na świecie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "f0431473c",
+     "przod": "Najgłębsze jezioro Polski",
+     "tyl": "Hańcza (ok. 108 m) — jezioro rynnowe na Pojezierzu Wschodniosuwalskim.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "fbfb95267",
+     "przod": "Rozpoznaj: Obszar, z którego wody spływają do jednej rzeki głównej.",
+     "tyl": "Dorzecze",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "fd6fa94e0",
+     "przod": "Rozpoznaj: Granica między dorzeczami lub zlewiskami.",
+     "tyl": "Dział wodny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    },
+    {
+     "id": "fd7fb62a9",
+     "przod": "Rozpoznaj: Powstają przez odcięcie zatoki mierzeją, np. Łebsko i Gardno.",
+     "tyl": "Jeziora przybrzeżne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.4–5"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pb804823f",
+     "pytanie": "Rzeka ma przekrój 200 m² i prędkość 1,5 m/s. Przepływ wynosi:",
+     "odpowiedzi": [
+      "133 m³/s",
+      "3000 m³/s",
+      "300 m³/s",
+      "201,5 m³/s"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "200 × 1,5.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf50dc1d4",
+     "pytanie": "Maksimum przepływu latem wskutek topnienia lodowców to ustrój:",
+     "odpowiedzi": [
+      "monsunowy",
+      "niwalny",
+      "pluwialny",
+      "glacjalny"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Rzeki wypływające z lodowców.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1975b34f",
+     "pytanie": "Morskie Oko jest jeziorem:",
+     "odpowiedzi": [
+      "rynnowym",
+      "krasowym",
+      "cyrkowym (polodowcowym)",
+      "przybrzeżnym"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Powstało w cyrku lodowcowym.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5b0d67b4",
+     "pytanie": "Jezioro Łebsko powstało przez:",
+     "odpowiedzi": [
+      "zapadnięcie skał wapiennych",
+      "erupcję wulkanu",
+      "wytopienie bryły lodu",
+      "odcięcie zatoki mierzeją"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Jezioro przybrzeżne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p25a72b44",
+     "pytanie": "Granica między dorzeczami to:",
+     "odpowiedzi": [
+      "koryto",
+      "zlewisko",
+      "dział wodny",
+      "delta"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Zlewisko to obszar, nie granica.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe9e8141f",
+     "pytanie": "Najgłębszym jeziorem na świecie jest:",
+     "odpowiedzi": [
+      "Wiktorii",
+      "Bajkał",
+      "Tanganika",
+      "Hańcza"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Jezioro tektoniczne, ok. 1640 m.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p12011db0",
+     "pytanie": "Wiosenne wezbranie rzek nizinnych Polski wynika z:",
+     "odpowiedzi": [
+      "topnienia śniegu",
+      "topnienia lodowców górskich",
+      "pory deszczowej",
+      "pływów morskich"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Ustrój niwalny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-lodowce",
+   "nazwa": "Lodowce, wody podziemne i zasoby wodne",
+   "opis": "Wymaganie IV.6–7 podstawy programowej.",
+   "wymaganie": "IV.6–7",
+   "fiszki": [
+    {
+     "id": "f9836489c",
+     "przod": "Lodowce górskie",
+     "tyl": "Powstają powyżej granicy wiecznego śniegu; spływają dolinami (np. Alpy, Himalaje).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "f3700f98b",
+     "przod": "Lądolody (lodowce kontynentalne)",
+     "tyl": "Pokrywają wielkie obszary: Antarktyda i Grenlandia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "f89d51ed6",
+     "przod": "Granica wiecznego śniegu",
+     "tyl": "Wysokość, powyżej której śnieg nie topnieje w ciągu roku; najwyżej w strefie zwrotnikowej, najniżej w polarnej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "fcb2399c3",
+     "przod": "Wody podziemne — rodzaje",
+     "tyl": "Zaskórne (płytko, zmienne), gruntowe (na pierwszej warstwie nieprzepuszczalnej), wgłębne, artezyjskie (pod ciśnieniem).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "f6705a2af",
+     "przod": "Wody artezyjskie",
+     "tyl": "Uwięzione między warstwami nieprzepuszczalnymi pod ciśnieniem; po nawierceniu same wypływają na powierzchnię.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "fe3d544d1",
+     "przod": "Źródło",
+     "tyl": "Miejsce naturalnego wypływu wód podziemnych na powierzchnię.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "f8cd025dd",
+     "przod": "Skały przepuszczalne i nieprzepuszczalne",
+     "tyl": "Przepuszczalne: piaski, żwiry, piaskowce. Nieprzepuszczalne: gliny, iły.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "f66c5bc1e",
+     "przod": "Deficyt wody",
+     "tyl": "Niedobór wody słodkiej w stosunku do potrzeb; Polska ma małe zasoby wody na mieszkańca na tle Europy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "fa57536cf",
+     "przod": "Wieloletnia zmarzlina",
+     "tyl": "Grunt stale zamarznięty przez co najmniej dwa lata — Syberia, północna Kanada, Alaska.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "f6b808e3f",
+     "przod": "Rozpoznaj: Powstają powyżej granicy wiecznego śniegu; spływają dolinami (np. Alpy, Himalaje).",
+     "tyl": "Lodowce górskie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "f048aced6",
+     "przod": "Rozpoznaj: Pokrywają wielkie obszary: Antarktyda i Grenlandia.",
+     "tyl": "Lądolody (lodowce kontynentalne)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "f75f99f33",
+     "przod": "Rozpoznaj: Uwięzione między warstwami nieprzepuszczalnymi pod ciśnieniem; po nawierceniu same wypływają na powierzchnię.",
+     "tyl": "Wody artezyjskie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "fba5ef85b",
+     "przod": "Rozpoznaj: Miejsce naturalnego wypływu wód podziemnych na powierzchnię.",
+     "tyl": "Źródło",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    },
+    {
+     "id": "f978e26a3",
+     "przod": "Rozpoznaj: Grunt stale zamarznięty przez co najmniej dwa lata — Syberia, północna Kanada, Alaska.",
+     "tyl": "Wieloletnia zmarzlina",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. IV.6–7"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pc43df899",
+     "pytanie": "Woda, która po nawierceniu sama wypływa na powierzchnię, to woda:",
+     "odpowiedzi": [
+      "krasowa",
+      "artezyjska",
+      "zaskórna",
+      "gruntowa"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Jest pod ciśnieniem.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8d66e6db",
+     "pytanie": "Największy lądolód na Ziemi pokrywa:",
+     "odpowiedzi": [
+      "Alaskę",
+      "Antarktydę",
+      "Grenlandię",
+      "Islandię"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Grenlandia jest druga.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0c447886",
+     "pytanie": "Granica wiecznego śniegu leży najwyżej w strefie:",
+     "odpowiedzi": [
+      "umiarkowanej",
+      "zwrotnikowej",
+      "polarnej",
+      "równikowej"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Na równiku nieco niżej przez duże zachmurzenie i opady.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd43d6177",
+     "pytanie": "Warstwą nieprzepuszczalną dla wody jest:",
+     "odpowiedzi": [
+      "piasek",
+      "glina",
+      "piaskowiec",
+      "żwir"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Zatrzymuje wody gruntowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb80d45c9",
+     "pytanie": "Większość wody słodkiej na Ziemi jest zgromadzona w:",
+     "odpowiedzi": [
+      "jeziorach",
+      "atmosferze",
+      "lodowcach",
+      "rzekach"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Ok. 2/3 wód słodkich.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

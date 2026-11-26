@@ -1,0 +1,381 @@
+{
+ "id": "pedosfera",
+ "nazwa": "Pedosfera i biosfera",
+ "opis": "Gleby i procesy glebotwórcze, strefowość gleb i roślinności, biomy.",
+ "poddzialy": [
+  {
+   "id": "g-gleby",
+   "nazwa": "Gleby, profile i procesy glebotwórcze",
+   "opis": "Wymaganie VI.1–3 podstawy programowej.",
+   "wymaganie": "VI.1–3",
+   "fiszki": [
+    {
+     "id": "f3762596e",
+     "przod": "Czynniki glebotwórcze",
+     "tyl": "Skała macierzysta, klimat, organizmy, rzeźba, woda, czas i działalność człowieka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "fe308ec8b",
+     "przod": "Profil glebowy",
+     "tyl": "Układ poziomów: organiczny (O), próchniczny (A), wymywania (E), wmywania (B), skała macierzysta (C).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "fa2d14f6d",
+     "przod": "Gleby strefowe i astrefowe",
+     "tyl": "Strefowe zależą głównie od klimatu i roślinności (np. czarnoziemy); astrefowe — od skały lub wody (np. rędziny, mady).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "fa8dda111",
+     "przod": "Czarnoziemy",
+     "tyl": "Gleby stepów z grubym poziomem próchnicznym — najżyźniejsze; Ukraina, Wyżyna Lubelska, Płaskowyż Głubczycki (ziemie z lessów).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "fd3bfc101",
+     "przod": "Gleby bielicowe",
+     "tyl": "Kwaśne, ubogie, z wyraźnym poziomem wymywania; tajga i lasy iglaste.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f0fdb086d",
+     "przod": "Gleby brunatne",
+     "tyl": "Średnio żyzne, pod lasami liściastymi i mieszanymi strefy umiarkowanej; częste w Polsce.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "fcf776c4f",
+     "przod": "Gleby ferralitowe (laterytowe)",
+     "tyl": "Czerwone gleby strefy równikowej — ubogie, bo składniki odżywcze są wymywane przez intensywne opady.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f2794c12b",
+     "przod": "Mady",
+     "tyl": "Żyzne gleby dolin rzecznych powstające z namułów osadzanych w czasie powodzi (np. Żuławy Wiślane).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "fd79e8922",
+     "przod": "Rędziny",
+     "tyl": "Gleby na skałach wapiennych, zasobne w wapń, np. Wyżyna Lubelska, Niecka Nidziańska.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "fd0d73eea",
+     "przod": "Erozja gleb",
+     "tyl": "Niszczenie gleby przez wodę i wiatr; ograniczają ją tarasowanie, zadrzewienia śródpolne i orka w poprzek stoku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f76b21b5c",
+     "przod": "Rozpoznaj: Układ poziomów: organiczny (O), próchniczny (A), wymywania (E), wmywania (B), skała macierzysta (C).",
+     "tyl": "Profil glebowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f731a40b1",
+     "przod": "Rozpoznaj: Gleby stepów z grubym poziomem próchnicznym — najżyźniejsze; Ukraina, Wyżyna Lubelska, Płaskowyż Głubczycki (ziemie z lessów).",
+     "tyl": "Czarnoziemy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f39cffa12",
+     "przod": "Rozpoznaj: Kwaśne, ubogie, z wyraźnym poziomem wymywania; tajga i lasy iglaste.",
+     "tyl": "Gleby bielicowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f61a204c7",
+     "przod": "Rozpoznaj: Średnio żyzne, pod lasami liściastymi i mieszanymi strefy umiarkowanej; częste w Polsce.",
+     "tyl": "Gleby brunatne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "f4a549aa1",
+     "przod": "Rozpoznaj: Żyzne gleby dolin rzecznych powstające z namułów osadzanych w czasie powodzi (np. Żuławy Wiślane).",
+     "tyl": "Mady",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    },
+    {
+     "id": "fea05fbb8",
+     "przod": "Rozpoznaj: Gleby na skałach wapiennych, zasobne w wapń, np. Wyżyna Lubelska, Niecka Nidziańska.",
+     "tyl": "Rędziny",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.1–3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pc9fe6231",
+     "pytanie": "Najżyźniejszymi glebami są:",
+     "odpowiedzi": [
+      "gleby bielicowe",
+      "gleby tundrowe",
+      "czarnoziemy",
+      "gleby ferralitowe"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Gruby poziom próchniczny.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4299cbca",
+     "pytanie": "Gleby bielicowe są typowe dla:",
+     "odpowiedzi": [
+      "wilgotnych lasów równikowych",
+      "sawann",
+      "tajgi",
+      "stepów"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Kwaśna ściółka iglasta.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "paedb30a5",
+     "pytanie": "Mady powstają:",
+     "odpowiedzi": [
+      "w dolinach rzecznych z namułów",
+      "na wydmach nadmorskich",
+      "na lessach w stepach",
+      "na skałach wapiennych"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Gleby astrefowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p56a38683",
+     "pytanie": "Gleby wilgotnych lasów równikowych są ubogie, ponieważ:",
+     "odpowiedzi": [
+      "brakuje tam roślinności",
+      "intensywne opady wymywają składniki odżywcze",
+      "skała macierzysta to zawsze piasek",
+      "występuje wieloletnia zmarzlina"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Mimo bujnej roślinności.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2fa9b15b",
+     "pytanie": "Erozję gleb na stokach ogranicza:",
+     "odpowiedzi": [
+      "orka wzdłuż stoku",
+      "wypas na stromych zboczach",
+      "orka w poprzek stoku i tarasowanie",
+      "wycinanie lasów"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Hamuje spływ wody.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9574fcad",
+     "pytanie": "Rędziny powstają na podłożu:",
+     "odpowiedzi": [
+      "granitowym",
+      "torfowym",
+      "piaszczystym",
+      "wapiennym"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Gleby astrefowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-biomy",
+   "nazwa": "Strefowość roślinności i biomy",
+   "opis": "Wymaganie VI.4–5 podstawy programowej.",
+   "wymaganie": "VI.4–5",
+   "fiszki": [
+    {
+     "id": "fd601886b",
+     "przod": "Wilgotny las równikowy",
+     "tyl": "Strefa równikowa: wielowarstwowy, wiecznie zielony las o największej różnorodności gatunków.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "f76c039c0",
+     "przod": "Sawanna",
+     "tyl": "Strefa podrównikowa: trawy z pojedynczymi drzewami (baobaby, akacje), wyraźna pora sucha.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "f33956f39",
+     "przod": "Pustynie i półpustynie",
+     "tyl": "Skąpa roślinność przystosowana do suszy (sukulenty, kserofity).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "f81c32d06",
+     "przod": "Roślinność śródziemnomorska",
+     "tyl": "Makia i garig — twardolistne zarośla zimozielone przystosowane do suchego lata.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "f8002b5b8",
+     "przod": "Step (preria, pampa)",
+     "tyl": "Trawiasta roślinność strefy umiarkowanej z małymi opadami; pod nią czarnoziemy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "f734a0ef3",
+     "przod": "Lasy liściaste i mieszane strefy umiarkowanej",
+     "tyl": "Drzewa zrzucające liście zimą (buk, dąb, grab); gleby brunatne.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "fab43395f",
+     "przod": "Tajga",
+     "tyl": "Lasy iglaste strefy umiarkowanej chłodnej (świerk, sosna, modrzew); gleby bielicowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "f17def0f9",
+     "przod": "Tundra",
+     "tyl": "Strefa subpolarna: mchy, porosty, krzewinki, wieloletnia zmarzlina, krótkie lato.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "f71bfece1",
+     "przod": "Piętrowość roślinności w Tatrach",
+     "tyl": "Regiel dolny (las mieszany), regiel górny (świerk), kosodrzewina, hale (łąki), turnie (skały).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "fc1f965ca",
+     "przod": "Strefowość a piętrowość",
+     "tyl": "Strefowość — zmiana roślinności z szerokością geograficzną; piętrowość — z wysokością nad poziomem morza.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "fb555f100",
+     "przod": "Rozpoznaj: Strefa podrównikowa: trawy z pojedynczymi drzewami (baobaby, akacje), wyraźna pora sucha.",
+     "tyl": "Sawanna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "fc2fd9f64",
+     "przod": "Rozpoznaj: Skąpa roślinność przystosowana do suszy (sukulenty, kserofity).",
+     "tyl": "Pustynie i półpustynie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "f8187ac87",
+     "przod": "Rozpoznaj: Makia i garig — twardolistne zarośla zimozielone przystosowane do suchego lata.",
+     "tyl": "Roślinność śródziemnomorska",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "f9eee4eca",
+     "przod": "Rozpoznaj: Trawiasta roślinność strefy umiarkowanej z małymi opadami; pod nią czarnoziemy.",
+     "tyl": "Step (preria, pampa)",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "f55feeba7",
+     "przod": "Rozpoznaj: Lasy iglaste strefy umiarkowanej chłodnej (świerk, sosna, modrzew); gleby bielicowe.",
+     "tyl": "Tajga",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "f5cab25db",
+     "przod": "Rozpoznaj: Strefa subpolarna: mchy, porosty, krzewinki, wieloletnia zmarzlina, krótkie lato.",
+     "tyl": "Tundra",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    },
+    {
+     "id": "ffda4e4a8",
+     "przod": "Rozpoznaj: Regiel dolny (las mieszany), regiel górny (świerk), kosodrzewina, hale (łąki), turnie (skały).",
+     "tyl": "Piętrowość roślinności w Tatrach",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VI.4–5"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pbffd4bf7",
+     "pytanie": "Twardolistna, zimozielona makia jest typowa dla klimatu:",
+     "odpowiedzi": [
+      "kontynentalnego suchego",
+      "śródziemnomorskiego",
+      "tundrowego",
+      "równikowego"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Przystosowana do suchego lata.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc51cc44e",
+     "pytanie": "Biom o największej różnorodności gatunków to:",
+     "odpowiedzi": [
+      "step",
+      "wilgotny las równikowy",
+      "tundra",
+      "tajga"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Stałe ciepło i wilgoć.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd28ff36f",
+     "pytanie": "Piętro kosodrzewiny w Tatrach leży:",
+     "odpowiedzi": [
+      "powyżej regla górnego, poniżej hal",
+      "powyżej turni, na samych szczytach",
+      "poniżej regla dolnego, u podnóża gór",
+      "między reglem dolnym a reglem górnym"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Kolejność: regiel dolny, górny, kosodrzewina, hale, turnie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf47abb0e",
+     "pytanie": "Tundra charakteryzuje się:",
+     "odpowiedzi": [
+      "czarnoziemami i wysokimi trawami stepowymi",
+      "gęstymi lasami iglastymi na glebach bielicowych",
+      "baobabami i akacjami rosnącymi wśród traw",
+      "wieloletnią zmarzliną i roślinnością z mchów i porostów"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Strefa subpolarna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p33963202",
+     "pytanie": "Zmiana roślinności wraz z wysokością n.p.m. to:",
+     "odpowiedzi": [
+      "piętrowość",
+      "kontynentalizm",
+      "sukcesja",
+      "strefowość"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Strefowość — z szerokością geograficzną.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p23376923",
+     "pytanie": "Sawanna występuje głównie w strefie klimatu:",
+     "odpowiedzi": [
+      "równikowego wilgotnego",
+      "polarnego",
+      "podrównikowego",
+      "umiarkowanego chłodnego"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Pora deszczowa i sucha.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}

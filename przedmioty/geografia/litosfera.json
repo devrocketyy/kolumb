@@ -1,0 +1,627 @@
+{
+ "id": "litosfera",
+ "nazwa": "Litosfera i rzeźba",
+ "opis": "Budowa Ziemi, tektonika płyt, wulkanizm, skały, dzieje Ziemi, procesy rzeźbotwórcze.",
+ "poddzialy": [
+  {
+   "id": "g-tektonika",
+   "nazwa": "Budowa Ziemi, tektonika płyt, wulkanizm i trzęsienia ziemi",
+   "opis": "Wymaganie V.1–3 podstawy programowej.",
+   "wymaganie": "V.1–3",
+   "fiszki": [
+    {
+     "id": "f7279ceeb",
+     "przod": "Budowa wnętrza Ziemi",
+     "tyl": "Skorupa ziemska, płaszcz (górny i dolny), jądro zewnętrzne (płynne) i wewnętrzne (stałe).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "fd3467bcf",
+     "przod": "Litosfera",
+     "tyl": "Skorupa ziemska wraz z najwyższą, sztywną częścią płaszcza; podzielona na płyty.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "fefa8dda3",
+     "przod": "Granica rozbieżna płyt",
+     "tyl": "Płyty oddalają się: grzbiety śródoceaniczne, ryfty (np. Wielki Rów Afrykański), powstaje nowa skorupa.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "f84c1a41f",
+     "przod": "Subdukcja",
+     "tyl": "Wciąganie cięższej płyty oceanicznej pod lżejszą; powstają rowy oceaniczne, łuki wysp i wulkany (np. Andy, Japonia).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "f7fbc3a6e",
+     "przod": "Kolizja płyt kontynentalnych",
+     "tyl": "Zderzenie dwóch płyt kontynentalnych — fałdowanie i powstanie wysokich gór (Himalaje).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "f45168e44",
+     "przod": "Granica przesuwcza (transformacyjna)",
+     "tyl": "Płyty przesuwają się wzdłuż siebie — silne trzęsienia ziemi, np. uskok San Andreas.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "f45285636",
+     "przod": "Wulkan tarczowy",
+     "tyl": "Łagodne stoki, wylewy rzadkiej lawy bazaltowej, np. Mauna Loa na Hawajach.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "fa15ed3df",
+     "przod": "Stratowulkan",
+     "tyl": "Strome stoki zbudowane z warstw lawy i materiału piroklastycznego; erupcje wybuchowe (np. Fudżi, Wezuwiusz).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "fae8cf083",
+     "przod": "Gorąca plama",
+     "tyl": "Miejsce wypływu magmy z głębi płaszcza w obrębie płyty, np. Hawaje, Islandia (także na grzbiecie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "f7721243d",
+     "przod": "Hipocentrum i epicentrum",
+     "tyl": "Hipocentrum — ognisko trzęsienia we wnętrzu Ziemi; epicentrum — punkt na powierzchni dokładnie nad nim.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "fea5b3dbb",
+     "przod": "Magnituda (skala Richtera)",
+     "tyl": "Miara energii trzęsienia; skala logarytmiczna — wzrost o 1 to ok. 32 razy więcej energii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "fec4b7650",
+     "przod": "Pacyficzny Pierścień Ognia",
+     "tyl": "Strefa wokół Pacyfiku z największą liczbą wulkanów i trzęsień ziemi — strefy subdukcji.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "ff12cb33c",
+     "przod": "Rozpoznaj: Skorupa ziemska wraz z najwyższą, sztywną częścią płaszcza; podzielona na płyty.",
+     "tyl": "Litosfera",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "f75ae694d",
+     "przod": "Rozpoznaj: Wciąganie cięższej płyty oceanicznej pod lżejszą; powstają rowy oceaniczne, łuki wysp i wulkany (np. Andy, Japonia).",
+     "tyl": "Subdukcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "ffc608688",
+     "przod": "Rozpoznaj: Łagodne stoki, wylewy rzadkiej lawy bazaltowej, np. Mauna Loa na Hawajach.",
+     "tyl": "Wulkan tarczowy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "f1e46f652",
+     "przod": "Rozpoznaj: Strome stoki zbudowane z warstw lawy i materiału piroklastycznego; erupcje wybuchowe (np. Fudżi, Wezuwiusz).",
+     "tyl": "Stratowulkan",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    },
+    {
+     "id": "f23b8ac39",
+     "przod": "Rozpoznaj: Miejsce wypływu magmy z głębi płaszcza w obrębie płyty, np. Hawaje, Islandia (także na grzbiecie).",
+     "tyl": "Gorąca plama",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.1–3"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p26dacf59",
+     "pytanie": "Himalaje powstały w wyniku:",
+     "odpowiedzi": [
+      "działalności gorącej plamy",
+      "rozsuwania się płyt",
+      "kolizji dwóch płyt kontynentalnych",
+      "subdukcji płyty oceanicznej"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Płyta indyjska z euroazjatycką.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1934f9a5",
+     "pytanie": "Rowy oceaniczne powstają na granicach:",
+     "odpowiedzi": [
+      "w środku płyt",
+      "rozbieżnych",
+      "przesuwczych",
+      "zbieżnych z subdukcją"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Np. Rów Mariański.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3da15936",
+     "pytanie": "Wielki Rów Afrykański jest przykładem:",
+     "odpowiedzi": [
+      "strefy subdukcji",
+      "uskoku przesuwczego",
+      "ryftu na granicy rozbieżnej",
+      "gór fałdowych"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Afryka Wschodnia się rozsuwa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7e7a4127",
+     "pytanie": "Wulkany hawajskie są wulkanami:",
+     "odpowiedzi": [
+      "wygasłymi wulkanami błotnymi",
+      "kalderami na granicy przesuwczej",
+      "tarczowymi nad gorącą plamą",
+      "stratowulkanami w strefie subdukcji"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Lawa bazaltowa, łagodne stoki.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7c79f0c9",
+     "pytanie": "Punkt na powierzchni Ziemi nad ogniskiem trzęsienia to:",
+     "odpowiedzi": [
+      "krater",
+      "epicentrum",
+      "uskok",
+      "hipocentrum"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Hipocentrum leży w głębi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p95be1a5f",
+     "pytanie": "Trzęsienie o magnitudzie 7 w porównaniu z 6 uwalnia energię większą około:",
+     "odpowiedzi": [
+      "1 raz",
+      "32 razy",
+      "100 razy",
+      "10 razy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Skala logarytmiczna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf89fdb85",
+     "pytanie": "Uskok San Andreas leży na granicy:",
+     "odpowiedzi": [
+      "rozbieżnej",
+      "zbieżnej z subdukcją",
+      "kolizyjnej",
+      "przesuwczej"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Płyta pacyficzna i północnoamerykańska.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-skaly",
+   "nazwa": "Minerały, skały i dzieje Ziemi",
+   "opis": "Wymaganie V.4–5 podstawy programowej.",
+   "wymaganie": "V.4–5",
+   "fiszki": [
+    {
+     "id": "ff213551e",
+     "przod": "Skały magmowe głębinowe",
+     "tyl": "Krystalizują powoli w głębi Ziemi — duże kryształy, np. granit.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "f3a85b3ab",
+     "przod": "Skały magmowe wylewne",
+     "tyl": "Krzepną szybko na powierzchni — drobne kryształy, np. bazalt.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "f65c2adb8",
+     "przod": "Skały osadowe okruchowe",
+     "tyl": "Powstają z okruchów innych skał: żwir, piasek, piaskowiec, glina, less.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "fbb829672",
+     "przod": "Skały osadowe chemiczne",
+     "tyl": "Wytrącają się z roztworów: sól kamienna, gips.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "fdcfbd6d6",
+     "przod": "Skały osadowe organiczne",
+     "tyl": "Z resztek organizmów: węgiel kamienny i brunatny, torf, wapień organogeniczny, kreda.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "f76bebdd1",
+     "przod": "Skały metamorficzne",
+     "tyl": "Przeobrażone pod wpływem temperatury i ciśnienia: marmur (z wapienia), kwarcyt (z piaskowca), gnejs (z granitu).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "f0888ad67",
+     "przod": "Ery geologiczne",
+     "tyl": "Prekambr, paleozoik, mezozoik, kenozoik (z czwartorzędem — epoką zlodowaceń).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "ffdd0d16d",
+     "przod": "Karbon",
+     "tyl": "Okres paleozoiku, w którym z bujnej roślinności powstały złoża węgla kamiennego (np. Górny Śląsk).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "f31406ff4",
+     "przod": "Orogenezy",
+     "tyl": "Kaledońska i hercyńska (paleozoik), alpejska (mezozoik–kenozoik — Alpy, Karpaty, Himalaje).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "fddab81f1",
+     "przod": "Skamieniałości przewodnie",
+     "tyl": "Szczątki organizmów żyjących krótko, ale na dużym obszarze — pozwalają ustalić wiek warstw.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "f291cbe12",
+     "przod": "Zasada superpozycji",
+     "tyl": "W niezaburzonym układzie warstwy niżej położone są starsze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "feeac99ef",
+     "przod": "Rozpoznaj: Krzepną szybko na powierzchni — drobne kryształy, np. bazalt.",
+     "tyl": "Skały magmowe wylewne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "f7c87a611",
+     "przod": "Rozpoznaj: Wytrącają się z roztworów: sól kamienna, gips.",
+     "tyl": "Skały osadowe chemiczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "ffe6dc18d",
+     "przod": "Rozpoznaj: Przeobrażone pod wpływem temperatury i ciśnienia: marmur (z wapienia), kwarcyt (z piaskowca), gnejs (z granitu).",
+     "tyl": "Skały metamorficzne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "f7c416462",
+     "przod": "Rozpoznaj: Prekambr, paleozoik, mezozoik, kenozoik (z czwartorzędem — epoką zlodowaceń).",
+     "tyl": "Ery geologiczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "f93f888b2",
+     "przod": "Rozpoznaj: Okres paleozoiku, w którym z bujnej roślinności powstały złoża węgla kamiennego (np. Górny Śląsk).",
+     "tyl": "Karbon",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "fe2e6f18d",
+     "przod": "Rozpoznaj: Kaledońska i hercyńska (paleozoik), alpejska (mezozoik–kenozoik — Alpy, Karpaty, Himalaje).",
+     "tyl": "Orogenezy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "f35f468a6",
+     "przod": "Rozpoznaj: Szczątki organizmów żyjących krótko, ale na dużym obszarze — pozwalają ustalić wiek warstw.",
+     "tyl": "Skamieniałości przewodnie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    },
+    {
+     "id": "fbc30e3cf",
+     "przod": "Rozpoznaj: W niezaburzonym układzie warstwy niżej położone są starsze.",
+     "tyl": "Zasada superpozycji",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.4–5"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "pfc9a6f97",
+     "pytanie": "Marmur powstaje w wyniku metamorfizmu:",
+     "odpowiedzi": [
+      "granitu",
+      "piaskowca",
+      "wapienia",
+      "bazaltu"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Kwarcyt — z piaskowca, gnejs — z granitu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa029cf46",
+     "pytanie": "Granit jest skałą:",
+     "odpowiedzi": [
+      "magmową głębinową",
+      "osadową okruchową",
+      "magmową wylewną",
+      "metamorficzną"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Duże kryształy — powolne krzepnięcie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5df1d10d",
+     "pytanie": "Sól kamienna to skała osadowa:",
+     "odpowiedzi": [
+      "okruchowa",
+      "chemiczna",
+      "metamorficzna",
+      "organiczna"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wytrąciła się z odparowującej wody.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p99e5f3d3",
+     "pytanie": "Złoża węgla kamiennego na Górnym Śląsku powstały głównie w okresie:",
+     "odpowiedzi": [
+      "kredy",
+      "karbonu",
+      "jury",
+      "czwartorzędu"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Paleozoik.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd46c83f6",
+     "pytanie": "Karpaty powstały w orogenezie:",
+     "odpowiedzi": [
+      "kaledońskiej",
+      "hercyńskiej",
+      "prekambryjskiej",
+      "alpejskiej"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Tak jak Alpy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5dc3ecbb",
+     "pytanie": "W niezaburzonym układzie warstw najstarsza jest warstwa:",
+     "odpowiedzi": [
+      "środkowa",
+      "najwyższa",
+      "najniższa",
+      "najgrubsza"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Zasada superpozycji.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  },
+  {
+   "id": "g-rzezba",
+   "nazwa": "Procesy rzeźbotwórcze: wietrzenie, rzeki, lodowce, wiatr, morze, kras",
+   "opis": "Wymaganie V.6–9 podstawy programowej.",
+   "wymaganie": "V.6–9",
+   "fiszki": [
+    {
+     "id": "fc87fdc17",
+     "przod": "Wietrzenie fizyczne",
+     "tyl": "Mechaniczny rozpad skał bez zmiany składu, np. mrozowe (zamarzanie wody w szczelinach) i termiczne (na pustyniach).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f0fd618f4",
+     "przod": "Wietrzenie chemiczne",
+     "tyl": "Rozpuszczanie i przemiany składu skał; najintensywniejsze w klimacie ciepłym i wilgotnym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "fc73a5538",
+     "przod": "Kras",
+     "tyl": "Rozpuszczanie skał wapiennych przez wodę z CO₂: CaCO₃ + H₂O + CO₂ → Ca(HCO₃)₂. Formy: jaskinie, lejki, stalaktyty, stalagmity.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f9ba36284",
+     "przod": "Erozja rzeczna",
+     "tyl": "Wgłębna (pogłębianie koryta, w górnym biegu), boczna (poszerzanie doliny, meandry) i wsteczna (cofanie się źródeł).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f8ea628a7",
+     "przod": "Meander i starorzecze",
+     "tyl": "Zakole rzeki nizinnej; odcięte zakole tworzy starorzecze.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "fe1e80eff",
+     "przod": "Delta i estuarium",
+     "tyl": "Delta — ujście rozgałęzione, nadbudowywane osadami; estuarium — lejkowate ujście poszerzane przez pływy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f94d92a97",
+     "przod": "Formy rzeźby lodowcowej",
+     "tyl": "Cyrki (kary), doliny U-kształtne (żłoby), moreny, jeziora rynnowe, głazy narzutowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f596158b6",
+     "przod": "Formy wód lodowcowych",
+     "tyl": "Sandry (równiny piaszczyste przed lodowcem), ozy, kemy, pradoliny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "fcb1a5cea",
+     "przod": "Morena czołowa",
+     "tyl": "Wał materiału skalnego usypany przed czołem lodowca w czasie jego postoju.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f6de9be3c",
+     "przod": "Wydmy",
+     "tyl": "Barchany — w kształcie sierpa, ramionami z wiatrem (pustynie); paraboliczne — ramionami pod wiatr (wybrzeża, np. Słowiński PN).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f2f060786",
+     "przod": "Formy rzeźby wybrzeża",
+     "tyl": "Klif (abrazja — niszczenie przez fale), mierzeja (akumulacja — wał piasku odcinający zatokę), zalew, fiord, szkiery.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f9e08786f",
+     "przod": "Fiord",
+     "tyl": "Długa, wąska i głęboka zatoka powstała przez zalanie doliny lodowcowej — np. wybrzeże Norwegii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f3a872805",
+     "przod": "Rozpoznaj: Mechaniczny rozpad skał bez zmiany składu, np. mrozowe (zamarzanie wody w szczelinach) i termiczne (na pustyniach).",
+     "tyl": "Wietrzenie fizyczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "fc3a8595d",
+     "przod": "Rozpoznaj: Rozpuszczanie i przemiany składu skał; najintensywniejsze w klimacie ciepłym i wilgotnym.",
+     "tyl": "Wietrzenie chemiczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f3432b775",
+     "przod": "Rozpoznaj: Rozpuszczanie skał wapiennych przez wodę z CO₂: CaCO₃ + H₂O + CO₂ → Ca(HCO₃)₂. Formy: jaskinie, lejki, stalaktyty, stalagmity.",
+     "tyl": "Kras",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f90b0802a",
+     "przod": "Rozpoznaj: Wgłębna (pogłębianie koryta, w górnym biegu), boczna (poszerzanie doliny, meandry) i wsteczna (cofanie się źródeł).",
+     "tyl": "Erozja rzeczna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f463e7d11",
+     "przod": "Rozpoznaj: Wał materiału skalnego usypany przed czołem lodowca w czasie jego postoju.",
+     "tyl": "Morena czołowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f1808b94d",
+     "przod": "Rozpoznaj: Barchany — w kształcie sierpa, ramionami z wiatrem (pustynie); paraboliczne — ramionami pod wiatr (wybrzeża, np. Słowiński PN).",
+     "tyl": "Wydmy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    },
+    {
+     "id": "f3b1a3221",
+     "przod": "Rozpoznaj: Długa, wąska i głęboka zatoka powstała przez zalanie doliny lodowcowej — np. wybrzeże Norwegii.",
+     "tyl": "Fiord",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. V.6–9"
+    }
+   ],
+   "pytania": [
+    {
+     "id": "p32cbb91f",
+     "pytanie": "Jaskinie i stalaktyty to formy rzeźby:",
+     "odpowiedzi": [
+      "krasowej",
+      "wulkanicznej",
+      "lodowcowej",
+      "eolicznej"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Rozpuszczanie wapieni.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7c2d10e8",
+     "pytanie": "Dolina w kształcie litery U powstała w wyniku działalności:",
+     "odpowiedzi": [
+      "rzeki w górnym biegu",
+      "lodowca górskiego",
+      "fal morskich",
+      "wiatru"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Rzeka w górach tworzy dolinę V.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p21326f6b",
+     "pytanie": "Sandry to formy powstałe w wyniku działalności:",
+     "odpowiedzi": [
+      "morza",
+      "wód wypływających z lodowca",
+      "lodowca bezpośrednio",
+      "wiatru"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Akumulacja wód fluwioglacjalnych.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "peedbef63",
+     "pytanie": "Klif powstaje w wyniku:",
+     "odpowiedzi": [
+      "akumulacji morskiej",
+      "krasowienia",
+      "abrazji",
+      "erozji wstecznej"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Niszczenie brzegu przez fale.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p06f9e3dd",
+     "pytanie": "Odcięte zakole rzeki to:",
+     "odpowiedzi": [
+      "starorzecze",
+      "meander",
+      "estuarium",
+      "delta"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Meander to zakole jeszcze połączone.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p5107d2c2",
+     "pytanie": "Wietrzenie mrozowe jest najintensywniejsze w klimacie:",
+     "odpowiedzi": [
+      "z częstymi przejściami temperatury przez 0°C",
+      "równikowym wilgotnym",
+      "zwrotnikowym suchym bez mrozów",
+      "monsunowym"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Zamarzanie i rozmarzanie wody w szczelinach.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa1aefbaa",
+     "pytanie": "Fiordy powstały przez zalanie przez morze:",
+     "odpowiedzi": [
+      "dolin rzecznych w delcie",
+      "dolin lodowcowych",
+      "lejów krasowych",
+      "kraterów wulkanicznych"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Typowe dla Norwegii.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ]
+  }
+ ]
+}
