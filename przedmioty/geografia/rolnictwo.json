@@ -10,6 +10,42 @@
    "wymaganie": "X.1–3",
    "fiszki": [
     {
+     "id": "f1c850d84",
+     "przod": "Rolnictwo w Holandii",
+     "tyl": "Bardzo intensywne: szklarnie, kwiaty, warzywa, mleczarstwo — drugi eksporter żywności na świecie mimo małej powierzchni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "fceb07048",
+     "przod": "Pas kukurydziany USA (Corn Belt)",
+     "tyl": "Obszar intensywnej uprawy kukurydzy i soi oraz chowu świń na Środkowym Zachodzie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f75a414ca",
+     "przod": "Rolnictwo w Afryce Subsaharyjskiej",
+     "tyl": "Przeważa rolnictwo samozaopatrzeniowe, niska wydajność; plantacje kakao i kawy na eksport.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "fd81feec8",
+     "przod": "Nawadnianie w Egipcie",
+     "tyl": "Rolnictwo skupione w dolinie i delcie Nilu; zapora w Asuanie reguluje przepływ.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f991b46ac",
+     "przod": "Pampa argentyńska",
+     "tyl": "Żyzne równiny z uprawą pszenicy i soi oraz ekstensywnym chowem bydła.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f331ff2be",
+     "przod": "Rolnictwo w Australii",
+     "tyl": "Wielkie farmy owiec (wełna) i bydła na suchych pastwiskach, uprawa pszenicy na południowym wschodzie i zachodzie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
      "id": "fd610e1b1",
      "przod": "Przyrodnicze czynniki rozwoju rolnictwa",
      "tyl": "Klimat (temperatura, opady, okres wegetacyjny), gleby, ukształtowanie terenu, stosunki wodne.",
@@ -100,6 +136,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
     },
     {
+     "id": "f914b04b5",
+     "przod": "Rozpoznaj: Bardzo intensywne: szklarnie, kwiaty, warzywa, mleczarstwo — drugi eksporter żywności na świecie mimo małej powierzchni.",
+     "tyl": "Rolnictwo w Holandii",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "fa31ee92b",
+     "przod": "Rozpoznaj: Rolnictwo skupione w dolinie i delcie Nilu; zapora w Asuanie reguluje przepływ.",
+     "tyl": "Nawadnianie w Egipcie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f5a57dc5a",
+     "przod": "Rozpoznaj: Żyzne równiny z uprawą pszenicy i soi oraz ekstensywnym chowem bydła.",
+     "tyl": "Pampa argentyńska",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f52135f46",
+     "przod": "Rozpoznaj: Wielkie farmy owiec (wełna) i bydła na suchych pastwiskach, uprawa pszenicy na południowym wschodzie i zachodzie.",
+     "tyl": "Rolnictwo w Australii",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
      "id": "f50b35322",
      "przod": "Rozpoznaj: Klimat (temperatura, opady, okres wegetacyjny), gleby, ukształtowanie terenu, stosunki wodne.",
      "tyl": "Przyrodnicze czynniki rozwoju rolnictwa",
@@ -179,6 +239,58 @@
     }
    ],
    "pytania": [
+    {
+     "id": "p5fd73ae3",
+     "pytanie": "Mała Holandia jest jednym z największych eksporterów żywności dzięki:",
+     "odpowiedzi": [
+      "rozległym plantacjom kawy",
+      "uprawie ryżu na tarasach",
+      "ogromnej powierzchni pól uprawnych",
+      "bardzo intensywnemu rolnictwu i szklarniom"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Wysokie nakłady i technologie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3752d293",
+     "pytanie": "Corn Belt to obszar uprawy:",
+     "odpowiedzi": [
+      "kukurydzy i soi w USA",
+      "kawy w Brazylii",
+      "bawełny w Egipcie",
+      "ryżu w Chinach"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Środkowy Zachód.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc6301939",
+     "pytanie": "Chów owiec na wełnę jest bardzo rozwinięty w:",
+     "odpowiedzi": [
+      "Egipcie",
+      "Japonii",
+      "Australii",
+      "Holandii"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Suche pastwiska.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd2c80ba1",
+     "pytanie": "Rolnictwo Egiptu jest skupione w:",
+     "odpowiedzi": [
+      "na wybrzeżu Morza Czerwonego",
+      "w górach Atlas",
+      "dolinie i delcie Nilu",
+      "na Saharze Zachodniej"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Nawadnianie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
     {
      "id": "p6c2292df",
      "pytanie": "Czynnikiem pozaprzyrodniczym rozwoju rolnictwa jest:",
