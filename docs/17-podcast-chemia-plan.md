@@ -128,9 +128,9 @@ Razem 58 odcinków (45 tematycznych + 13 powtórek działów).
 
 **47. Alkohole i fenole** `c-alkohole` ✅
 
-**48. Aldehydy i ketony** `c-karbonylowe` ⬜
+**48. Aldehydy i ketony** `c-karbonylowe` ✅
 
-**49. Kwasy karboksylowe** `c-karboksylowe` ⬜
+**49. Kwasy karboksylowe** `c-karboksylowe` ✅
 
 **50. Estry i tłuszcze** `c-estry` ⬜
 

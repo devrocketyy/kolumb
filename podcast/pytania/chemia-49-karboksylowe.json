@@ -1,0 +1,83 @@
+{
+  "odcinek": "chemia-49-karboksylowe",
+  "pytania": [
+    {
+      "id": "slaby",
+      "typ": "abcd",
+      "pytanie": "Kwas octowy to elektrolit:",
+      "odpowiedzi": [
+        "słaby",
+        "mocny",
+        "nie jest elektrolitem",
+        "mocniejszy od HCl"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Strzałka równowagowa w równaniu dysocjacji."
+    },
+    {
+      "id": "weglan",
+      "typ": "abcd",
+      "pytanie": "2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + …",
+      "odpowiedzi": [
+        "CO₂",
+        "H₂",
+        "CO",
+        "O₂"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Kwas octowy jest mocniejszy od węglowego."
+    },
+    {
+      "id": "zobojetnianie",
+      "typ": "abcd",
+      "pytanie": "Masa NaOH do zobojętnienia 6 g CH₃COOH:",
+      "odpowiedzi": [
+        "4 g",
+        "6 g",
+        "40 g",
+        "2 g"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "n = 6/60 = 0,1 mola; M(NaOH) = 40."
+    },
+    {
+      "id": "mrowkowy",
+      "typ": "abcd",
+      "pytanie": "Pozytywną próbę Tollensa daje:",
+      "odpowiedzi": [
+        "HCOOH",
+        "CH₃COOH",
+        "C₁₇H₃₅COOH",
+        "C₆H₅COOH"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Atom H przy grupie C=O."
+    },
+    {
+      "id": "oleinowy",
+      "typ": "abcd",
+      "pytanie": "Wodę bromową odbarwia kwas:",
+      "odpowiedzi": [
+        "oleinowy",
+        "stearynowy",
+        "palmitynowy",
+        "octowy"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "C₁₇H₃₃COOH jest nienasycony."
+    },
+    {
+      "id": "podsumowanie",
+      "typ": "abcd",
+      "pytanie": "C₁₇H₃₅COONa to:",
+      "odpowiedzi": [
+        "mydło",
+        "tłuszcz",
+        "ester",
+        "detergent syntetyczny"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Sole sodowe i potasowe wyższych kwasów tłuszczowych."
+    }
+  ]
+}
