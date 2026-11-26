@@ -1028,6 +1028,41 @@
        "d": "Tereny osiedlowe i komunikacyjne — szybko rosną"
       }
      ]
+    },
+    {
+     "id": "s25702531",
+     "typ": "rysunek",
+     "tytul": "Struktura eksportu Polski",
+     "opis": "Główne grupy towarów w eksporcie Polski (wartości przybliżone, zaokrąglone).",
+     "uwaga": "Polska eksportuje głównie wyroby przetworzone, a największym odbiorcą są Niemcy. Dodatnie saldo handlu daje m.in. żywność, meble i pojazdy.",
+     "svg": "<text class=\"ts\" x=\"150\" y=\"55\" text-anchor=\"end\">Meble i inne</text><rect class=\"gl ol\" x=\"156\" y=\"40\" width=\"150\" height=\"22\"/><text class=\"tb\" x=\"312\" y=\"56\">30%</text><text class=\"ts\" x=\"150\" y=\"91\" text-anchor=\"end\">Maszyny i urządzenia</text><rect class=\"gw2 ol\" x=\"156\" y=\"76\" width=\"120\" height=\"22\"/><text class=\"tb\" x=\"282\" y=\"92\">24%</text><text class=\"ts\" x=\"150\" y=\"127\" text-anchor=\"end\">Żywność i napoje</text><rect class=\"gt ol\" x=\"156\" y=\"112\" width=\"65\" height=\"22\"/><text class=\"tb\" x=\"227\" y=\"128\">13%</text><text class=\"ts\" x=\"150\" y=\"163\" text-anchor=\"end\">Pojazdy i części</text><rect class=\"gs2 ol\" x=\"156\" y=\"148\" width=\"60\" height=\"22\"/><text class=\"tb\" x=\"222\" y=\"164\">12%</text><text class=\"ts\" x=\"150\" y=\"199\" text-anchor=\"end\">Chemia i tworzywa</text><rect class=\"gp ol\" x=\"156\" y=\"184\" width=\"60\" height=\"22\"/><text class=\"tb\" x=\"222\" y=\"200\">12%</text><text class=\"ts\" x=\"150\" y=\"235\" text-anchor=\"end\">Metale i wyroby</text><rect class=\"gc ol\" x=\"156\" y=\"220\" width=\"45\" height=\"22\"/><text class=\"tb\" x=\"207\" y=\"236\">9%</text><path class=\"s\" d=\"M156 30 V260\"/><path class=\"dash\" d=\"M206 30 V260\"/><text class=\"ts\" x=\"206\" y=\"274\" text-anchor=\"middle\">10%</text><path class=\"dash\" d=\"M256 30 V260\"/><text class=\"ts\" x=\"256\" y=\"274\" text-anchor=\"middle\">20%</text><path class=\"dash\" d=\"M306 30 V260\"/><text class=\"ts\" x=\"306\" y=\"274\" text-anchor=\"middle\">30%</text><text class=\"ts\" x=\"200\" y=\"292\" text-anchor=\"middle\">udział w wartości eksportu (dane przybliżone)</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 306,
+       "y": 51,
+       "lx": 335,
+       "ly": 40,
+       "n": "Inne",
+       "d": "Meble, odzież, wyroby z drewna, papier, minerały — razem ok. 30%"
+      },
+      {
+       "x": 276,
+       "y": 87,
+       "lx": 335,
+       "ly": 85,
+       "n": "Maszyny",
+       "d": "Największa pojedyncza grupa: AGD, elektronika, baterie"
+      },
+      {
+       "x": 221,
+       "y": 123,
+       "lx": 335,
+       "ly": 130,
+       "n": "Żywność",
+       "d": "Mięso drobiowe, wyroby mleczne, słodycze, owoce"
+      }
+     ]
     }
    ]
   }

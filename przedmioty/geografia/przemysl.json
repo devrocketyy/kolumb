@@ -994,6 +994,67 @@
      "wyjasnienie": "Podobnie jak Górny Śląsk.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s29e57b4c",
+     "typ": "rysunek",
+     "tytul": "Huta przy porcie morskim (plan)",
+     "opis": "Lokalizacja hutnictwa żelaza nad morzem — model „huty nadmorskiej” (np. Dunkierka, Taranto, Kaohsiung).",
+     "uwaga": "Po wyczerpaniu lokalnych złóż hutnictwo przeniosło się do portów: tańszy jest import surowców drogą morską niż transport lądowy. Czynniki: port głębokowodny, wolne tereny, woda, dostęp do rynku.",
+     "svg": "<rect class=\"gt\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gw2\" d=\"M0 190 Q120 175 200 200 Q300 230 400 215 V300 H0 Z\"/><path class=\"gs ol\" d=\"M150 192 H230 V240 H150 Z\"/><path class=\"gw2\" d=\"M160 200 H220 V240 H160 Z\"/><path class=\"gs ol\" d=\"M240 205 L320 220 L318 232 L238 217 Z\"/><path class=\"f ol\" d=\"M120 260 l30 -8 l20 4 l-5 8 l-40 4 Z\"/><path class=\"f ol\" d=\"M300 260 l30 -8 l20 4 l-5 8 l-40 4 Z\"/><rect class=\"gs2\" x=\"165\" y=\"120\" width=\"70\" height=\"45\"/><rect class=\"d\" x=\"175\" y=\"75\" width=\"7\" height=\"45\"/><rect class=\"d\" x=\"190\" y=\"65\" width=\"7\" height=\"55\"/><rect class=\"d\" x=\"215\" y=\"70\" width=\"7\" height=\"50\"/><path class=\"s2\" d=\"M180 72 q8 -10 0 -20 M195 60 q8 -10 0 -20\" style=\"fill:none\"/><ellipse class=\"gs2 ol\" cx=\"245\" cy=\"183\" rx=\"10\" ry=\"5\"/><ellipse class=\"gs2 ol\" cx=\"268\" cy=\"183\" rx=\"10\" ry=\"5\"/><ellipse class=\"gs2 ol\" cx=\"291\" cy=\"183\" rx=\"10\" ry=\"5\"/><path class=\"s\" d=\"M0 140 H160 M200 165 V185 M235 140 H400\" style=\"stroke-width:2.4\"/><path class=\"s\" d=\"M10 136 V144\"/><path class=\"s\" d=\"M22 136 V144\"/><path class=\"s\" d=\"M34 136 V144\"/><path class=\"s\" d=\"M46 136 V144\"/><path class=\"s\" d=\"M58 136 V144\"/><path class=\"s\" d=\"M70 136 V144\"/><path class=\"s\" d=\"M82 136 V144\"/><path class=\"s\" d=\"M94 136 V144\"/><path class=\"s\" d=\"M106 136 V144\"/><path class=\"s\" d=\"M118 136 V144\"/><path class=\"s\" d=\"M130 136 V144\"/><path class=\"s\" d=\"M142 136 V144\"/><path class=\"s\" d=\"M154 136 V144\"/><path class=\"s\" d=\"M245 136 V144\"/><path class=\"s\" d=\"M257 136 V144\"/><path class=\"s\" d=\"M269 136 V144\"/><path class=\"s\" d=\"M281 136 V144\"/><path class=\"s\" d=\"M293 136 V144\"/><path class=\"s\" d=\"M305 136 V144\"/><path class=\"s\" d=\"M317 136 V144\"/><path class=\"s\" d=\"M329 136 V144\"/><path class=\"s\" d=\"M341 136 V144\"/><path class=\"s\" d=\"M353 136 V144\"/><path class=\"s\" d=\"M365 136 V144\"/><path class=\"s\" d=\"M377 136 V144\"/><path class=\"s\" d=\"M389 136 V144\"/><path class=\"cold\" d=\"M80 0 C90 60 70 120 100 185\" style=\"stroke-width:3\"/><path class=\"f\" d=\"M300 60 v-8 l4 -4 l4 4 v8 Z\"/><path class=\"f\" d=\"M312 70 v-8 l4 -4 l4 4 v8 Z\"/><path class=\"f\" d=\"M326 55 v-8 l4 -4 l4 4 v8 Z\"/><path class=\"f\" d=\"M340 75 v-8 l4 -4 l4 4 v8 Z\"/><path class=\"f\" d=\"M355 62 v-8 l4 -4 l4 4 v8 Z\"/><path class=\"f\" d=\"M320 90 v-8 l4 -4 l4 4 v8 Z\"/><text class=\"tb\" x=\"330\" y=\"40\" text-anchor=\"middle\">miasto</text><text class=\"tb\" x=\"40\" y=\"260\" text-anchor=\"middle\">morze</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 142,
+       "lx": 260,
+       "ly": 110,
+       "n": "Huta",
+       "d": "Zakład przy nabrzeżu — surowce bez przeładunku na ląd"
+      },
+      {
+       "x": 190,
+       "y": 220,
+       "lx": 110,
+       "ly": 230,
+       "n": "Port",
+       "d": "Baseny i nabrzeża do rozładunku statków"
+      },
+      {
+       "x": 140,
+       "y": 262,
+       "lx": 160,
+       "ly": 285,
+       "n": "Rudowiec",
+       "d": "Import rudy żelaza (np. z Brazylii, Australii)"
+      },
+      {
+       "x": 268,
+       "y": 183,
+       "lx": 255,
+       "ly": 172,
+       "n": "Hałdy surowców",
+       "d": "Ruda i węgiel koksujący na składowiskach"
+      },
+      {
+       "x": 60,
+       "y": 140,
+       "lx": 70,
+       "ly": 110,
+       "n": "Kolej",
+       "d": "Wywóz wyrobów stalowych w głąb kraju"
+      },
+      {
+       "x": 320,
+       "y": 260,
+       "lx": 310,
+       "ly": 240,
+       "n": "Węglowiec",
+       "d": "Import węgla koksującego"
+      }
+     ]
+    }
    ]
   },
   {
