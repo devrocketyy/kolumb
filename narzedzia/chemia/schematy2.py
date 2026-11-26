@@ -87,7 +87,7 @@ S['c-jonowe'] = [
         ('Równanie cząsteczkowe', 'uzgodnione'),
         ('Rozpisz na jony', 'tylko mocne elektrolity rozpuszczalne w wodzie'),
         ('Nie rozpisuj', 'osadów, gazów, wody, słabych elektrolitów'),
-        ('Skreśl jony obojętne', 'występujące po obu stronach'),
+        ('Skreśl jony widzów', 'występujące po obu stronach'),
         ('Sprawdź ładunki', 'suma po lewej = suma po prawej'),
     ]),
 ]

@@ -14,7 +14,7 @@ T['c-atom'] = dict(F=[
  ('Wyjaśnij pojęcie: atomowa jednostka masy (u)', '1/12 masy atomu izotopu węgla ¹²C; 1 u ≈ 1,66 · 10⁻²⁴ g.'),
  ('Wyjaśnij pojęcie: masa atomowa pierwiastka', 'Średnia ważona mas atomowych izotopów tego pierwiastka, uwzględniająca ich procentową zawartość w przyrodzie.'),
  ('Wzór na masę atomową pierwiastka z izotopów', 'mat = (A₁·x₁ + A₂·x₂ + …) / 100%, gdzie A — masy izotopów, x — ich zawartość procentowa.'),
- ('Przykład: masa atomowa chloru', 'Chlor to ok. 75,8% ³⁵Cl i 24,2% ³⁷Cl: (35·75,8 + 37·24,2)/100 ≈ 35,45 u.'),
+ ('Przykład: masa atomowa chloru', 'Chlor to ok. 75,8% ³⁵Cl i 24,2% ³⁷Cl: (34,97·75,8 + 36,97·24,2)/100 ≈ 35,45 u (przy liczbach masowych 35 i 37 wyszłoby ≈ 35,48 u).'),
  ('Typowy błąd przy obliczaniu masy atomowej', 'Liczenie zwykłej średniej arytmetycznej mas izotopów zamiast średniej ważonej ich zawartością.'),
  ('Wyjaśnij pojęcie: jon', 'Atom lub grupa atomów, która utraciła (kation, ładunek dodatni) albo przyłączyła (anion, ładunek ujemny) elektrony.'),
  ('Ile elektronów ma jon Fe³⁺ (Z = 26)?', '23 elektrony (26 − 3).'),

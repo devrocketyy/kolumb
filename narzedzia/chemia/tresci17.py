@@ -61,7 +61,7 @@ T['c-ph'] = dict(F=[
 
 T['c-energetyka'] = dict(F=[
  ('Układ otwarty, zamknięty, izolowany', 'Otwarty — wymienia masę i energię; zamknięty — tylko energię; izolowany — nic.'),
- ('Proces samorzutny', 'Zachodzi bez dostarczania energii z zewnątrz (np. rozpuszczanie soli, spalanie po zainicjowaniu).'),
+ ('Proces samorzutny', 'Przebiega sam, bez stałej ingerencji z zewnątrz; może pobierać ciepło z otoczenia (np. rozpuszczanie NH₄NO₃, spalanie po zainicjowaniu).'),
  ('Ciepło właściwe wody', 'ok. 4,18 J/(g·K) — do obliczeń kalorymetrycznych: Q = m·c·ΔT.'),
  ('Kalorymetria — zasada', 'Ciepło reakcji = ciepło pochłonięte przez wodę (Q = m·c·ΔT); znak ΔH przeciwny.'),
 ])

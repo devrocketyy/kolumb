@@ -3,7 +3,7 @@ T = {}
 
 T['c-atom'] = dict(Q=[
  ('Jon ⁵⁶Fe³⁺ zawiera:', ['*26 p, 30 n, 23 e⁻', '26 p, 30 n, 29 e⁻', '26 p, 56 n, 23 e⁻', '23 p, 30 n, 26 e⁻'], 'Z = 26 protonów, 56 − 26 = 30 neutronów, kation 3+ ma o 3 elektrony mniej.'),
- ('Chlor ma średnią masę atomową 35,45 u i izotopy ³⁵Cl i ³⁷Cl. Zawartość ³⁷Cl wynosi ok.:', ['*22,5%', '45,0%', '77,5%', '35,5%'], '35x + 37(1 − x) = 35,45 → x = 0,775, czyli ³⁷Cl stanowi 22,5%.'),
+ ('Chlor ma średnią masę atomową 35,45 u i izotopy ³⁵Cl i ³⁷Cl. Przyjmując masy izotopów 35 u i 37 u, zawartość ³⁷Cl wynosi ok.:', ['*22,5%', '45,0%', '77,5%', '35,5%'], '35x + 37(1 − x) = 35,45 → x = 0,775, czyli ³⁷Cl stanowi 22,5%.'),
  ('Izotopy tego samego pierwiastka różnią się:', ['*liczbą neutronów', 'liczbą protonów', 'liczbą elektronów', 'ładunkiem jądra'], 'Liczba atomowa jest ta sama, inna liczba masowa.'),
  ('Drobiny izoelektronowe to:', ['*Na⁺, Mg²⁺, F⁻', 'Na, Mg, Al', 'Cl⁻, Br⁻, I⁻', 'Na⁺, K⁺, Rb⁺'], 'Wszystkie mają po 10 elektronów (konfiguracja neonu).'),
 ])
@@ -178,7 +178,7 @@ T['c-izomeria'] = dict(Q=[
 ])
 
 T['c-alkany'] = dict(Q=[
- ('Produktem głównym monochlorowania 2-metylopropanu jest:', ['*2-chloro-2-metylopropan', '1-chlorobutan', '2-chlorobutan', '1-chloro-2-metylopropan'], 'Najtrwalszy rodnik trzeciorzędowy (przy większym udziale światła i wyższej T selektywność maleje).'),
+ ('Produktem głównym monobromowania 2-metylopropanu (Br₂, światło) jest:', ['*2-bromo-2-metylopropan', '1-bromobutan', '2-bromobutan', '1-bromo-2-metylopropan'], 'Brom jest selektywny i podstawia wodór przy węglu III-rzędowym (najtrwalszy rodnik). Chlor jest mało selektywny.'),
  ('Alkany są mało reaktywne, ponieważ:', ['*mają tylko wiązania σ', 'mają wiązania π', 'są polarne', 'są jonowe'], 'Wiązania C–C i C–H są trwałe i słabo spolaryzowane.'),
 ])
 

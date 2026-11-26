@@ -31,7 +31,7 @@ T['c-aminokwasy'] = dict(F=[
  ('Wyjaśnij pojęcie: wiązanie peptydowe', 'Wiązanie amidowe –CO–NH– między grupą karboksylową jednego aminokwasu a aminową drugiego.'),
  ('Struktury białek', 'I-rzędowa — sekwencja aminokwasów; II-rzędowa — helisa α, harmonijka β (wiązania wodorowe); III-rzędowa — przestrzenne ułożenie łańcucha; IV-rzędowa — kilka łańcuchów.'),
  ('Denaturacja białek', 'Nieodwracalna utrata struktury (II–IV-rzędowej) pod wpływem m.in. wysokiej temperatury, stężonych kwasów i zasad, soli metali ciężkich, alkoholu.'),
- ('Wysalanie białek', 'Odwracalne wytrącanie białka z roztworu po dodaniu soli metali lekkich (np. NaCl, (NH₄)₂SO₄); po dodaniu wody białko się rozpuszcza.'),
+ ('Wysalanie białek', 'Odwracalne wytrącanie białka z roztworu po dodaniu stężonych roztworów soli metali lekkich lub soli amonowych (np. NaCl, (NH₄)₂SO₄); po dodaniu wody białko się rozpuszcza.'),
  ('Wykrywanie białek', 'Reakcja biuretowa (CuSO₄ + NaOH) — fioletowe zabarwienie (wiązania peptydowe, min. 2); reakcja ksantoproteinowa (stęż. HNO₃) — żółte zabarwienie (pierścienie aromatyczne).'),
 ], Q=[
  ('Który aminokwas nie jest czynny optycznie?', ['alanina', '*glicyna', 'seryna', 'cysteina'], 'Ma dwa atomy H przy węglu α.'),

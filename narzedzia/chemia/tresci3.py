@@ -8,7 +8,7 @@ T['c-wiazania'] = dict(F=[
  ('Kiedy powstaje wiązanie jonowe (kryterium elektroujemności)?', 'Gdy różnica elektroujemności łączących się atomów jest duża — umownie ΔE ≥ 1,7.'),
  ('Wyjaśnij pojęcie: wiązanie kowalencyjne (atomowe)', 'Wiązanie utworzone przez wspólną parę (pary) elektronów, do której każdy z atomów wnosi po jednym elektronie.'),
  ('Wiązanie kowalencyjne niespolaryzowane a spolaryzowane', 'Niespolaryzowane — między atomami o tej samej elektroujemności (ΔE ≈ 0, np. H₂, Cl₂); spolaryzowane — wspólna para przesunięta w stronę atomu bardziej elektroujemnego (0 < ΔE < 1,7, np. HCl, H₂O).'),
- ('Wyjaśnij pojęcie: wiązanie koordynacyjne', 'Wiązanie kowalencyjne, w którym obie elektrony wspólnej pary pochodzą od jednego atomu (donora) i trafiają na wolny orbital drugiego (akceptora), np. w NH₄⁺, H₃O⁺, CO.'),
+ ('Wyjaśnij pojęcie: wiązanie koordynacyjne', 'Wiązanie kowalencyjne, w którym oba elektrony wspólnej pary pochodzą od jednego atomu (donora) i trafiają na wolny orbital drugiego (akceptora), np. w NH₄⁺, H₃O⁺, CO.'),
  ('Przykłady drobin z wiązaniem koordynacyjnym', 'NH₄⁺ (N → H⁺), H₃O⁺ (O → H⁺), CO, SO₂, SO₃, HNO₃, H₂SO₄ (w zapisie wzorów elektronowych), związki kompleksowe.'),
  ('Wyjaśnij pojęcie: wiązanie metaliczne', 'Wiązanie w metalach: kationy metalu tworzą sieć krystaliczną, a elektrony walencyjne są zdelokalizowane („gaz elektronowy”).'),
  ('Jak wiązanie metaliczne tłumaczy właściwości metali?', 'Zdelokalizowane elektrony przewodzą prąd i ciepło; warstwy kationów mogą się przesuwać, więc metale są kowalne i ciągliwe; elektrony odbijają światło (połysk).'),

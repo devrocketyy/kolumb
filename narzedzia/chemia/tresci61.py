@@ -23,7 +23,7 @@ T['c-metale'] = dict(F=[
  ('Duraluminium', 'Lekki stop glinu z miedzią i magnezem.'),
  ('Lut miękki', 'Stop cyny z ołowiem (lub cyną i srebrem).'),
  ('Złoto — reakcja z wodą królewską', 'Au + HNO₃ + 4HCl → H[AuCl₄] + NO + 2H₂O.'),
- ('Cynk ocynkowany a cynowany', 'Ocynkowanie chroni protektorowo; cynowanie tylko mechanicznie.'),
+ ('Żelazo ocynkowane a cynowane', 'Ocynkowanie chroni protektorowo; cynowanie tylko mechanicznie.'),
  ('Magnez z CO₂', '2Mg + CO₂ → 2MgO + C — magnez pali się w CO₂.'),
  ('Lit z azotem', '6Li + N₂ → 2Li₃N — reaguje już w temperaturze pokojowej.'),
 ])

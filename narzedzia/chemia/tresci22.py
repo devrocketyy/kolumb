@@ -75,7 +75,7 @@ T['c-sole'] = dict(F=[
  ('Hydrat', 'Sól zawierająca w krysztale wodę krystalizacyjną.'),
  ('Sól podwójna', 'Sól z dwoma rodzajami kationów, np. ałun KAl(SO₄)₂·12H₂O.'),
  ('Higroskopijność', 'Zdolność pochłaniania wilgoci z powietrza (CaCl₂, P₄O₁₀, stęż. H₂SO₄).'),
- ('Rozpływanie się soli', 'Pochłanianie tak dużej ilości wilgoci, że sól tworzy roztwór (np. NaOH, CaCl₂).'),
+ ('Rozpływanie się substancji', 'Pochłanianie tak dużej ilości wilgoci, że substancja tworzy roztwór (np. sól CaCl₂, a także NaOH).'),
  ('Wietrzenie hydratów', 'Samorzutna utrata wody krystalizacyjnej na powietrzu (np. Na₂CO₃·10H₂O).'),
 ])
 

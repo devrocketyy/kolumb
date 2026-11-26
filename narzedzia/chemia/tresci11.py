@@ -254,7 +254,7 @@ T['c-chemia-zycia'] = dict(F=[
  ('Wykrywanie nienasycenia tłuszczu', 'Odbarwienie wody bromowej (lub KMnO₄).'),
  ('Białka — wykrywanie', 'Reakcja biuretowa (Cu(OH)₂ → fioletowe), ksantoproteinowa (HNO₃ → żółte, pierścienie aromatyczne).'),
  ('Denaturacja białek', 'Nieodwracalna utrata struktury: wysoka temperatura, sole metali ciężkich, alkohol, stężone kwasy.'),
- ('Wysalanie białek', 'Odwracalne wytrącenie solami lekkich metali (np. (NH₄)₂SO₄).'),
+ ('Wysalanie białek', 'Odwracalne wytrącenie solami metali lekkich lub solami amonowymi (np. NaCl, (NH₄)₂SO₄).'),
  ('Detergenty a mydła', 'Detergenty (np. alkilobenzenosulfoniany) nie tworzą osadów w twardej wodzie.'),
  ('Budowa cząsteczki substancji powierzchniowo czynnej', 'Część hydrofilowa (głowa jonowa) + hydrofobowa (łańcuch węglowodorowy) — micele.'),
  ('Konserwanty', 'Np. kwas benzoesowy (E210), sorbowy (E200) i ich sole — hamują rozwój drobnoustrojów.'),

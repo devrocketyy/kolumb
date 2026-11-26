@@ -232,7 +232,7 @@ S['c-doswiadczenia'] = [
          uwaga='O tym, która warstwa jest na dole, decyduje gęstość, a nie polarność.'),
     dict(typ='rysunek', tytul='Zbieranie gazu nad wodą', svg=_gaz, znaczniki=_gaz_zn,
          opis='Otrzymywanie i zbieranie gazu słabo rozpuszczalnego w wodzie.',
-         uwaga='NH₃ i HCl zbiera się wyłącznie „na sucho” (bardzo dobrze rozpuszczalne). Wylot do góry — gazy lżejsze od powietrza (H₂, NH₃), do dołu — cięższe (CO₂, Cl₂).'),
+         uwaga='NH₃ i HCl zbiera się wyłącznie „na sucho” (bardzo dobrze rozpuszczalne). Przy wypieraniu powietrza naczynie trzyma się wylotem w dół dla gazów lżejszych od powietrza (H₂, NH₃), a wylotem w górę dla cięższych (CO₂, Cl₂).'),
     dict(typ='rysunek', tytul='Zestaw do miareczkowania', svg=_miareczkowanie, znaczniki=_miareczkowanie_zn,
          opis='Oznaczanie stężenia analitu titrantem o znanym stężeniu.'),
 ]

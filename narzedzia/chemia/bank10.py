@@ -2,7 +2,7 @@
 BANK = {'atom': [
  B('Promienie drobin',
    'Tekst autorski. Rozpatrz drobiny: Na, Na⁺, Cl, Cl⁻.',
-   T('podaj', 1, 'Uszereguj drobiny według rosnącego promienia.', 'Na⁺ < Cl < Cl⁻ < Na', 'Kation mniejszy od atomu, anion większy; Na ma 3 powłoki i mały ładunek jądra.'),
+   T('podaj', 1, 'Uszereguj drobiny według rosnącego promienia: Na⁺, Na, Cl⁻ (osobno: Cl i Cl⁻).', 'Na⁺ < Na; Cl < Cl⁻', 'Kation mniejszy od atomu, anion większy; Na ma 3 powłoki i mały ładunek jądra.'),
    T('wyjasnij', 1, 'Wyjaśnij, dlaczego promień Na⁺ jest znacznie mniejszy niż Na.', 'Na⁺ traci całą powłokę walencyjną (3s), a pozostałe elektrony są silniej przyciągane przez jądro.', '—')),
 ], 'wiazania': [
  B('Wzory elektronowe',

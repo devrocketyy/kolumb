@@ -19,7 +19,7 @@ T['c-wodorotlenki-kwasy'] = dict(F=[
 
 T['c-sole'] = dict(F=[
  ('Chlorek sodu w organizmie', 'Utrzymuje równowagę wodno-elektrolitową.'),
- ('Fosforan(V) wapnia', 'Ca₃(PO₄)₂ — główny składnik kości (hydroksyapatyt).'),
+ ('Fosforan(V) wapnia', 'Fosforany wapnia to główny składnik mineralny kości i zębów (hydroksyapatyt Ca₅(PO₄)₃OH).'),
  ('Węglan potasu', 'K₂CO₃ — potaż, dawniej z popiołu drzewnego.'),
  ('Siarczan(VI) magnezu', 'Sól gorzka MgSO₄·7H₂O — środek przeczyszczający.'),
  ('Siarczan(VI) amonu', '(NH₄)₂SO₄ — nawóz azotowy.'),

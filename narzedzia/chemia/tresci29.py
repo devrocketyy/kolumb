@@ -64,7 +64,7 @@ T['c-ogniwa'] = dict(F=[
  ('Ogniwo galwaniczne', 'Zamienia energię reakcji redoks na energię elektryczną.'),
  ('Półogniwo', 'Elektroda zanurzona w roztworze własnych jonów.'),
  ('Standardowa elektroda wodorowa', 'Pt w H⁺ (1 mol/dm³), H₂ pod 1013 hPa; E° = 0 V.'),
- ('Potencjał standardowy', 'SEM ogniwa złożonego z danego półogniwa i elektrody wodorowej.'),
+ ('Potencjał standardowy', 'Potencjał półogniwa w warunkach standardowych zmierzony względem standardowej elektrody wodorowej (E° = 0); ujemny, gdy półogniwo jest anodą w ogniwie z elektrodą wodorową.'),
  ('Klucz elektrolityczny', 'Zamyka obwód i umożliwia przepływ jonów; nie bierze udziału w reakcji.'),
  ('Kierunek ruchu jonów w kluczu', 'Aniony do anody, kationy do katody.'),
  ('Ogniwo stężeniowe', 'Dwa takie same półogniwa o różnych stężeniach; anodą jest półogniwo rozcieńczone.'),

@@ -55,7 +55,7 @@ W chlorku wapnia. Metal i niemetal o dużej różnicy elektroujemności.
 
 ## Wiązanie koordynacyjne
 
-Czasem obie elektrony wspólnej pary pochodzą od jednego atomu. Tak powstaje jon amonowy: azot w amoniaku ma wolną parę elektronową i oddaje ją protonowi.
+Czasem oba elektrony wspólnej pary pochodzą od jednego atomu. Tak powstaje jon amonowy: azot w amoniaku ma wolną parę elektronową i oddaje ją protonowi.
 
 Po utworzeniu takie wiązanie niczym nie różni się od pozostałych — w jonie NH₄⁺ wszystkie cztery wiązania N–H są jednakowe. Różnica dotyczy tylko pochodzenia pary.
 

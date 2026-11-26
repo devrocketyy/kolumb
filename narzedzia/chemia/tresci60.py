@@ -19,7 +19,7 @@ T['c-konfiguracja'] = dict(Q=[
 
 T['c-okresowosc'] = dict(Q=[
  ('Pierwiastek o konfiguracji walencyjnej 2s² 2p⁴:', ['*tlen', 'siarka', 'węgiel', 'neon'], 'Grupa 16, okres 2.'),
- ('Najsłabszy reduktor wśród litowców:', ['*lit', 'sód', 'potas', 'cez'], 'Najwyższa energia jonizacji w grupie.'),
+ ('Który litowiec ma najwyższą pierwszą energię jonizacji?', ['*lit', 'sód', 'potas', 'cez'], 'Najwyższa energia jonizacji w grupie.'),
 ])
 
 T['c-wiazania'] = dict(Q=[

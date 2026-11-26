@@ -138,7 +138,7 @@
     {
      "id": "f768b3fe5",
      "przod": "Przykład: masa atomowa chloru",
-     "tyl": "Chlor to ok. 75,8% ³⁵Cl i 24,2% ³⁷Cl: (35·75,8 + 37·24,2)/100 ≈ 35,45 u.",
+     "tyl": "Chlor to ok. 75,8% ³⁵Cl i 24,2% ³⁷Cl: (34,97·75,8 + 36,97·24,2)/100 ≈ 35,45 u (przy liczbach masowych 35 i 37 wyszłoby ≈ 35,48 u).",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, chemia (zakres rozszerzony), dz. I.1–2, II.1–2"
     },
     {
@@ -801,15 +801,15 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
-     "id": "pd15dea26",
-     "pytanie": "Chlor ma średnią masę atomową 35,45 u i izotopy ³⁵Cl i ³⁷Cl. Zawartość ³⁷Cl wynosi ok.:",
+     "id": "p393c32e5",
+     "pytanie": "Chlor ma średnią masę atomową 35,45 u i izotopy ³⁵Cl i ³⁷Cl. Przyjmując masy izotopów 35 u i 37 u, zawartość ³⁷Cl wynosi ok.:",
      "odpowiedzi": [
-      "22,5%",
       "45,0%",
+      "22,5%",
       "35,5%",
       "77,5%"
      ],
-     "poprawna": "A",
+     "poprawna": "B",
      "wyjasnienie": "35x + 37(1 − x) = 35,45 → x = 0,775, czyli ³⁷Cl stanowi 22,5%.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
@@ -3183,15 +3183,15 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
-     "id": "p65236280",
-     "pytanie": "Najsłabszy reduktor wśród litowców:",
+     "id": "pcfe7f0cf",
+     "pytanie": "Który litowiec ma najwyższą pierwszą energię jonizacji?",
      "odpowiedzi": [
       "cez",
       "sód",
-      "lit",
-      "potas"
+      "potas",
+      "lit"
      ],
-     "poprawna": "C",
+     "poprawna": "D",
      "wyjasnienie": "Najwyższa energia jonizacji w grupie.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }

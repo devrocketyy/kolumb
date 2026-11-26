@@ -49,7 +49,7 @@ T['c-jonowe'] = dict(F=[
  ('Trudno rozpuszczalne siarczany(VI)', 'BaSO₄, PbSO₄, CaSO₄ (słabo), SrSO₄.'),
  ('Barwa AgBr i AgI', 'AgBr — jasnożółty, AgI — żółty.'),
  ('Barwa siarczków', 'CuS, PbS, Ag₂S — czarne; ZnS — biały; CdS — żółty.'),
- ('Jon obojętny', 'Jon, który nie bierze udziału w reakcji i występuje po obu stronach równania.'),
+ ('Jon widz (obserwator)', 'Jon, który nie bierze udziału w reakcji i występuje po obu stronach równania.'),
  ('Wymiana jonowa — warunek zajścia', 'Powstanie osadu, gazu lub słabego elektrolitu.'),
 ])
 

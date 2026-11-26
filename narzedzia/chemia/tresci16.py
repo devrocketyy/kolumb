@@ -83,7 +83,7 @@ q('c-sole',
  ('Sól o odczynie kwasowym to:', ['*NH₄NO₃', 'K₂S', 'NaNO₃', 'CH₃COOK'], 'Hydroliza kationu NH₄⁺.'))
 q('c-metale',
  ('Pasywacji w stężonym HNO₃ ulega:', ['*glin', 'miedź', 'srebro', 'magnez'], 'Ochronna warstwa tlenku.'),
- ('Z roztworu CuSO₄ miedź wypiera:', ['*żelazo', 'srebro', 'złoto', 'platyna'], 'Fe aktywniejsze od Cu.'))
+ ('Który metal wypiera miedź z roztworu CuSO₄?', ['*żelazo', 'srebro', 'złoto', 'platyna'], 'Fe aktywniejsze od Cu.'))
 q('c-niemetale',
  ('Szkło trawi kwas:', ['*fluorowodorowy', 'solny', 'siarkowy(VI)', 'azotowy(V)'], 'SiO₂ + 4HF.'),
  ('Brunatny gaz to:', ['*NO₂', 'NO', 'N₂O', 'NH₃'], 'Tlenek azotu(IV).'))

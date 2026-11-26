@@ -63,7 +63,7 @@ Kwasu Brønsteda. Oddaje proton amoniakowi.
 
 Każdy kwas po oddaniu protonu staje się zasadą — sprzężoną z nim. NH₄⁺ i NH₃ to para sprzężona. H₂O i OH⁻ — druga para.
 
-Woda jest amfoteryczna, czyli amfiprotyczna: z amoniakiem zachowuje się jak kwas, z chlorowodorem jak zasada, bo przyjmuje proton i powstaje jon oksoniowy H₃O⁺. Podobnie jony wodorowe, na przykład HCO₃⁻, mogą proton i oddać, i przyjąć.
+Woda jest amfoteryczna, czyli amfiprotyczna: z amoniakiem zachowuje się jak kwas, z chlorowodorem jak zasada, bo przyjmuje proton i powstaje jon oksoniowy H₃O⁺. Podobnie aniony wodorosoli, na przykład HCO₃⁻, mogą proton i oddać, i przyjąć.
 
 Moc kwasu i jego zasady sprzężonej są ze sobą powiązane. Im mocniejszy kwas, tym słabsza jego zasada sprzężona. Chlorowodór jest bardzo mocnym kwasem, więc jon chlorkowy praktycznie nie przyjmuje protonów — dlatego nie hydrolizuje. Kwas octowy jest słaby, więc jon octanowy jest zauważalną zasadą.
 

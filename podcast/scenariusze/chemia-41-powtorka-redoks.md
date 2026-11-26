@@ -1,4 +1,4 @@
-# IndexLab · Chemia · Odcinek 41 · „Chlor z nadmanganianu”
+# IndexLab · Chemia · Odcinek 41 · „Chlor z manganianu potasu”
 Powtórka działu
 Dział: Redoks i elektrochemia (odcinki 37–40)
 Długość: ok. 9 minut, jeden narrator, spokojnie.

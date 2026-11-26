@@ -37,7 +37,7 @@ T['c-hydroliza'] = dict(Q=[
 
 T['c-jonowe'] = dict(Q=[
  ('Po zmieszaniu roztworów Pb(NO₃)₂ i KI powstaje:', ['*żółty osad PbI₂', 'biały osad KNO₃', 'czarny osad Pb', 'brak zmian'], 'Pb²⁺ + 2I⁻ → PbI₂↓.'),
- ('Jonem obojętnym w reakcji BaCl₂ + Na₂SO₄ jest:', ['*Na⁺', 'Ba²⁺', 'SO₄²⁻', 'żaden'], 'Na⁺ i Cl⁻ nie biorą udziału w strąceniu.'),
+ ('Jonem widzem (obserwatorem) w reakcji BaCl₂ + Na₂SO₄ jest:', ['*Na⁺', 'Ba²⁺', 'SO₄²⁻', 'żaden'], 'Na⁺ i Cl⁻ nie biorą udziału w strąceniu.'),
  ('Czarny osad z roztworu soli miedzi(II) powstaje po dodaniu:', ['*Na₂S', 'NaOH', 'NaCl', 'Na₂SO₄'], 'CuS.'),
  ('Odczynnikiem na jony SO₄²⁻ jest roztwór:', ['*BaCl₂', 'AgNO₃', 'NaOH', 'KMnO₄'], 'Biały osad BaSO₄ nierozpuszczalny w kwasach.'),
 ])

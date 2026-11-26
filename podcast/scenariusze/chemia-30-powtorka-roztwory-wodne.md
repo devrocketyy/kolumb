@@ -75,7 +75,7 @@ Ta z węglanem sodu. Wydziela się dwutlenek węgla.
 
 ## Krok trzeci: azotan srebra
 
-Zostały dwie probówki bez barwy: kwas solny i chlorek sodu. Azotan srebra da z obiema biały osad chlorku srebra, więc tu się nie przyda. Wystarczy fenoloftaleina z kroku pierwszego, a raczej pomiar pH: kwas solny ma pH niskie, roztwór chlorku sodu — obojętne.
+Zostały dwie probówki bez barwy: kwas solny i chlorek sodu. Azotan srebra da z obiema biały osad chlorku srebra, więc tu się nie przyda. Pomoże za to soda z kroku drugiego: dodana do kwasu solnego wywoła musowanie, a w roztworze chlorku sodu nic się nie stanie. Można też wkroplić badany roztwór do malinowego roztworu NaOH z fenoloftaleiną — odbarwi go tylko kwas.
 
 Jest też inna droga odróżnienia kwasu solnego od chlorku sodu: dodać kawałek cynku albo magnezu. W kwasie wydzieli się wodór, w roztworze soli nic się nie stanie. Albo dodać węglanu sodu — w kwasie pojawią się bąbelki dwutlenku węgla.
 

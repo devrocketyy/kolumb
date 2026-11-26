@@ -27,7 +27,7 @@ BANK = {'stechiometria': [
 ], 'roztwory-wodne': [
  B('Stopień dysocjacji',
    'Tekst autorski. W roztworze kwasu metanowego (HCOOH) o stężeniu 0,10 mol·dm⁻³ stopień dysocjacji wynosi 4,2%.',
-   T('oblicz', 2, 'Oblicz stałą dysocjacji kwasu i pH roztworu.', 'Ka ≈ 1,8·10⁻⁴; pH ≈ 2,4', 'MODEL: [H⁺] = α·c; Ka = α²c/(1 − α). RACHUNEK: [H⁺] = 0,042 · 0,10 = 4,2·10⁻³; pH = 2,38; Ka = (4,2·10⁻³)²/(0,0958) = 1,84·10⁻⁴. SPRAWDZENIE: α > 5% — nie wolno upraszczać do α²c (tu różnica niewielka).'),
+   T('oblicz', 2, 'Oblicz stałą dysocjacji kwasu i pH roztworu.', 'Ka ≈ 1,8·10⁻⁴; pH ≈ 2,4', 'MODEL: [H⁺] = α·c; Ka = α²c/(1 − α). RACHUNEK: [H⁺] = 0,042 · 0,10 = 4,2·10⁻³; pH = 2,38; Ka = (4,2·10⁻³)²/(0,0958) = 1,84·10⁻⁴. SPRAWDZENIE: α < 5%, więc uproszczenie Ka ≈ α²c też byłoby dopuszczalne (1,76·10⁻⁴); wzór pełny daje 1,84·10⁻⁴.'),
    T('rozstrzygnij', 1, 'Rozstrzygnij, czy po rozcieńczeniu roztworu stopień dysocjacji wzrośnie, czy zmaleje. Uzasadnij.', 'Wzrośnie — zgodnie z prawem rozcieńczeń Ostwalda α ≈ √(Ka/c), więc mniejsze c → większe α.', 'pH też wzrośnie, bo [H⁺] maleje mimo większego α.')),
  B('Bufor amonowy',
    'Tekst autorski. Zmieszano 100 cm³ roztworu NH₃ o stężeniu 0,20 mol·dm⁻³ z 100 cm³ roztworu NH₄Cl o stężeniu 0,10 mol·dm⁻³. pKb(NH₃) = 4,75.',

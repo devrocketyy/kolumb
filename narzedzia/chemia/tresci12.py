@@ -151,7 +151,7 @@ T['c-ph'] = dict(F=[
  ('Wskaźniki: fenoloftaleina', 'Bezbarwna w kwasowym i obojętnym, malinowa w zasadowym (pH > 8,2).'),
  ('Wskaźniki: oranż metylowy', 'Czerwony w kwasowym (pH < 3,1), żółty powyżej 4,4.'),
  ('Wskaźniki: błękit bromotymolowy', 'Żółty — kwasowy, zielony — obojętny, niebieski — zasadowy.'),
- ('Wskaźnik uniwersalny', 'Czerwony (silnie kwasowy) → żółty → zielony (obojętny) → niebieski → fioletowy (silnie zasadowy).'),
+ ('Wskaźnik uniwersalny', 'Czerwony (silnie kwasowy) → pomarańczowy → żółty/żółtozielony (obojętny) → niebieski → fioletowy (silnie zasadowy).'),
 ])
 
 T['c-alkeny'] = dict(F=[

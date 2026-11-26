@@ -13,7 +13,7 @@ BANK = {'stechiometria': [
  B('Roztwór nasycony a temperatura',
    'Tekst autorski. Rozpuszczalność CuSO₄ (przeliczona na sól bezwodną): 20°C — 20 g, 60°C — 40 g na 100 g wody.',
    T('oblicz', 1, 'Oblicz stężenie procentowe roztworu nasyconego w 60°C.', 'ok. 28,6%', '40/140.'),
-   T('rozstrzygnij', 1, 'Do 100 g wody w 20°C dodano 25 g CuSO₄. Rozstrzygnij, czy cała sól się rozpuści.', 'Nie — rozpuści się tylko 20 g; 5 g pozostanie (jako osad hydratu).', '—')),
+   T('rozstrzygnij', 1, 'Do 100 g wody w 20°C dodano 25 g CuSO₄. Rozstrzygnij, czy cała sól się rozpuści.', 'Nie — rozpuszczalność w 20°C to ok. 20 g/100 g wody, więc część soli pozostanie (wykrystalizuje jako hydrat CuSO₄·5H₂O).', '—')),
 ], 'roztwory-wodne': [
  B('Bufor fosforanowy',
    'Tekst autorski. Roztwór zawiera NaH₂PO₄ i Na₂HPO₄ w stosunku molowym 1 : 1; pKa₂ kwasu fosforowego = 7,2.',

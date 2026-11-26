@@ -1173,7 +1173,7 @@
      "polecenie": "Oblicz stałą dysocjacji kwasu i pH roztworu.",
      "odpowiedz": "Ka ≈ 1,8·10⁻⁴; pH ≈ 2,4",
      "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
-     "omowienie": "MODEL: [H⁺] = α·c; Ka = α²c/(1 − α). RACHUNEK: [H⁺] = 0,042 · 0,10 = 4,2·10⁻³; pH = 2,38; Ka = (4,2·10⁻³)²/(0,0958) = 1,84·10⁻⁴. SPRAWDZENIE: α > 5% — nie wolno upraszczać do α²c (tu różnica niewielka).",
+     "omowienie": "MODEL: [H⁺] = α·c; Ka = α²c/(1 − α). RACHUNEK: [H⁺] = 0,042 · 0,10 = 4,2·10⁻³; pH = 2,38; Ka = (4,2·10⁻³)²/(0,0958) = 1,84·10⁻⁴. SPRAWDZENIE: α < 5%, więc uproszczenie Ka ≈ α²c też byłoby dopuszczalne (1,76·10⁻⁴); wzór pełny daje 1,84·10⁻⁴.",
      "nr": "1"
     },
     {
