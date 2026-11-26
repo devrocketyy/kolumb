@@ -25,7 +25,7 @@ Mol to porcja zawierająca sześć przecinek zero dwa razy dziesięć do dwudzie
 
 Drobiną może być cokolwiek: atom, cząsteczka, jon, elektron. Mol atomów żelaza, mol cząsteczek wody, mol jonów sodu — zawsze tyle samo sztuk.
 
-Jak wielka jest ta liczba? Gdyby rozsypać mol ziaren piasku, pokryłyby całą Polskę warstwą wysoką na kilkadziesiąt metrów. A mol cząsteczek wody to zaledwie osiemnaście gramów — mniej niż łyk.
+Jak wielka jest ta liczba? Gdyby rozsypać mol ziaren piasku, pokryłyby całą Polskę warstwą grubą na mniej więcej dwa kilometry. A mol cząsteczek wody to zaledwie osiemnaście gramów — mniej niż łyk.
 
 Liczba Avogadra pozwala policzyć masę jednej cząsteczki. Cząsteczka wody waży osiemnaście gramów podzielone przez sześć przecinek zero dwa razy dziesięć do dwudziestej trzeciej. Wychodzi około trzech razy dziesięć do minus dwudziestej trzeciej grama.
 
