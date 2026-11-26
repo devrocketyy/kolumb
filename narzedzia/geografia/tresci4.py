@@ -162,7 +162,7 @@ Q=[
 ],
 Q=[
  ('Twardolistna, zimozielona makia jest typowa dla klimatu:', ['*śródziemnomorskiego', 'równikowego', 'tundrowego', 'kontynentalnego suchego'], 'Przystosowana do suchego lata.'),
- ('Biom o największej różnorodności gatunków to:', ['*wilgotny las równikowy', 'tajga', 'step', 'tundra'], 'Stałe ciepło i wilgoć.'),
+ ('Biom o największej różnorodności gatunków to:', ['*wilgotny las równikowy', 'tajga syberyjska', 'step kontynentalny', 'tundra subpolarna'], 'Stałe ciepło i wilgoć.'),
  ('Piętro kosodrzewiny w Tatrach leży:', ['*powyżej regla górnego, poniżej hal', 'poniżej regla dolnego, u podnóża gór', 'powyżej turni, na samych szczytach', 'między reglem dolnym a reglem górnym'], 'Kolejność: regiel dolny, górny, kosodrzewina, hale, turnie.'),
  ('Tundra charakteryzuje się:', ['*wieloletnią zmarzliną i roślinnością z mchów i porostów', 'gęstymi lasami iglastymi na glebach bielicowych', 'baobabami i akacjami rosnącymi wśród traw', 'czarnoziemami i wysokimi trawami stepowymi'], 'Strefa subpolarna.'),
  ('Zmiana roślinności wraz z wysokością n.p.m. to:', ['*piętrowość', 'strefowość', 'sukcesja', 'kontynentalizm'], 'Strefowość — z szerokością geograficzną.'),
