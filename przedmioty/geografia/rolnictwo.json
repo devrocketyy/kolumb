@@ -64,6 +64,42 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
     },
     {
+     "id": "f58d102d9",
+     "przod": "Plony",
+     "tyl": "Wielkość zbioru z jednostki powierzchni, np. t/ha lub dt/ha (1 dt = 100 kg).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f9af5b43e",
+     "przod": "Zbiory",
+     "tyl": "Łączna wielkość produkcji = plony × powierzchnia upraw.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "faf38f281",
+     "przod": "Struktura użytkowania ziemi",
+     "tyl": "Udział gruntów ornych, łąk i pastwisk, sadów, lasów i innych gruntów w powierzchni kraju.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f6f41d420",
+     "przod": "Nawadnianie",
+     "tyl": "Sztuczne doprowadzanie wody do upraw — kluczowe w Egipcie, Indiach, Chinach i krajach suchych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f70bfefbe",
+     "przod": "Rolnictwo podmiejskie",
+     "tyl": "Intensywna produkcja warzyw, owoców i kwiatów dla pobliskiego miasta.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "fdcf9a4a2",
+     "przod": "Chów ekstensywny bydła",
+     "tyl": "Wypas na rozległych pastwiskach, np. w Argentynie i Australii.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
      "id": "f50b35322",
      "przod": "Rozpoznaj: Klimat (temperatura, opady, okres wegetacyjny), gleby, ukształtowanie terenu, stosunki wodne.",
      "tyl": "Przyrodnicze czynniki rozwoju rolnictwa",
@@ -109,6 +145,36 @@
      "id": "f4ac17806",
      "przod": "Rozpoznaj: Produkcja bez syntetycznych nawozów i środków ochrony roślin.",
      "tyl": "Rolnictwo ekologiczne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "fc01227ff",
+     "przod": "Rozpoznaj: Wielkość zbioru z jednostki powierzchni, np. t/ha lub dt/ha (1 dt = 100 kg).",
+     "tyl": "Plony",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f8fc20ace",
+     "przod": "Rozpoznaj: Łączna wielkość produkcji = plony × powierzchnia upraw.",
+     "tyl": "Zbiory",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "fc9df0efe",
+     "przod": "Rozpoznaj: Sztuczne doprowadzanie wody do upraw — kluczowe w Egipcie, Indiach, Chinach i krajach suchych.",
+     "tyl": "Nawadnianie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f620615d3",
+     "przod": "Rozpoznaj: Intensywna produkcja warzyw, owoców i kwiatów dla pobliskiego miasta.",
+     "tyl": "Rolnictwo podmiejskie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
+    },
+    {
+     "id": "f4e27718a",
+     "przod": "Rozpoznaj: Wypas na rozległych pastwiskach, np. w Argentynie i Australii.",
+     "tyl": "Chów ekstensywny bydła",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.1–3"
     }
    ],
@@ -177,6 +243,58 @@
      "poprawna": "D",
      "wyjasnienie": "Od 2004 r.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9099f294",
+     "pytanie": "Pole o powierzchni 20 ha dało 120 t pszenicy. Plony wynoszą:",
+     "odpowiedzi": [
+      "6 t/ha",
+      "2400 t/ha",
+      "60 t/ha",
+      "0,6 t/ha"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "120 / 20.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3454d226",
+     "pytanie": "Zbiory to iloczyn:",
+     "odpowiedzi": [
+      "plonów i powierzchni upraw",
+      "plonów i liczby rolników",
+      "powierzchni i liczby ludności",
+      "ceny i powierzchni"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Produkcja całkowita.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcb9f522c",
+     "pytanie": "1 decytona to:",
+     "odpowiedzi": [
+      "100 kg",
+      "1000 kg",
+      "10 kg",
+      "1 kg"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "1 t = 10 dt.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe485f012",
+     "pytanie": "Intensywna produkcja warzyw dla pobliskiego miasta to rolnictwo:",
+     "odpowiedzi": [
+      "podmiejskie",
+      "żarowe",
+      "plantacyjne",
+      "koczownicze"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Bliskość rynku zbytu.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
   },
@@ -241,6 +359,42 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
     },
     {
+     "id": "feaa82fc8",
+     "przod": "Kukurydza",
+     "tyl": "Największe zbiory: USA, Chiny, Brazylia; zboże paszowe i surowiec do biopaliw.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f4455f362",
+     "przod": "Bawełna",
+     "tyl": "Roślina włóknista; ważni producenci: Chiny, Indie, USA, Uzbekistan.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "fc730c294",
+     "przod": "Trzcina cukrowa",
+     "tyl": "Uprawa strefy gorącej; największy producent — Brazylia (także na bioetanol).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f188c12c5",
+     "przod": "Buraki cukrowe",
+     "tyl": "Uprawa strefy umiarkowanej na żyznych glebach; w Polsce m.in. na Kujawach i Lubelszczyźnie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f1b16c531",
+     "przod": "Herbata",
+     "tyl": "Wymaga ciepła, dużych opadów i stoków; najwięcej produkują Chiny i Indie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f9660a0f0",
+     "przod": "Oliwki",
+     "tyl": "Uprawa śródziemnomorska; największy producent oliwy — Hiszpania.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
      "id": "f8471960a",
      "przod": "Rozpoznaj: Uprawa w Azji monsunowej (gorąco i wilgotno); najwięcej produkują Chiny i Indie.",
      "tyl": "Ryż",
@@ -280,6 +434,42 @@
      "id": "fa63253e2",
      "przod": "Rozpoznaj: Hodowla ryb i owoców morza w kontrolowanych warunkach; najwięcej w Chinach.",
      "tyl": "Akwakultura",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "fe58e992a",
+     "przod": "Rozpoznaj: Największe zbiory: USA, Chiny, Brazylia; zboże paszowe i surowiec do biopaliw.",
+     "tyl": "Kukurydza",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f1bbdfd96",
+     "przod": "Rozpoznaj: Roślina włóknista; ważni producenci: Chiny, Indie, USA, Uzbekistan.",
+     "tyl": "Bawełna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f784d4ddb",
+     "przod": "Rozpoznaj: Uprawa strefy gorącej; największy producent — Brazylia (także na bioetanol).",
+     "tyl": "Trzcina cukrowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "fcb579c46",
+     "przod": "Rozpoznaj: Uprawa strefy umiarkowanej na żyznych glebach; w Polsce m.in. na Kujawach i Lubelszczyźnie.",
+     "tyl": "Buraki cukrowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f924d5dc5",
+     "przod": "Rozpoznaj: Wymaga ciepła, dużych opadów i stoków; najwięcej produkują Chiny i Indie.",
+     "tyl": "Herbata",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
+    },
+    {
+     "id": "f647405b3",
+     "przod": "Rozpoznaj: Uprawa śródziemnomorska; największy producent oliwy — Hiszpania.",
+     "tyl": "Oliwki",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. X.4–6"
     }
    ],
@@ -347,6 +537,58 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Susze, konflikty, bieda.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p765c32b7",
+     "pytanie": "Największym producentem trzciny cukrowej jest:",
+     "odpowiedzi": [
+      "Kanada",
+      "Rosja",
+      "Brazylia",
+      "Polska"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Także na bioetanol.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4b84bfc2",
+     "pytanie": "Buraki cukrowe uprawia się głównie w strefie:",
+     "odpowiedzi": [
+      "równikowej",
+      "umiarkowanej",
+      "polarnej",
+      "podrównikowej"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Żyzne gleby.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p28717089",
+     "pytanie": "Największym producentem oliwy z oliwek jest:",
+     "odpowiedzi": [
+      "Norwegia",
+      "Polska",
+      "Hiszpania",
+      "Indie"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Klimat śródziemnomorski.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "paa6f32ac",
+     "pytanie": "Herbatę uprawia się najczęściej:",
+     "odpowiedzi": [
+      "w tundrze",
+      "na stepach",
+      "na pustyniach z nawadnianiem",
+      "na stokach w ciepłym i wilgotnym klimacie"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Chiny, Indie, Sri Lanka.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
