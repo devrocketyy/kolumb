@@ -632,6 +632,33 @@
    "dzial": "rolnictwo"
   },
   {
+   "tytul": "Łąki i pastwiska",
+   "material": "Tekst autorski. Trwałe użytki zielone zajmują w Polsce ok. 3,2 mln ha z 14,3 mln ha użytków rolnych.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział łąk i pastwisk. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 22%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3,2 / 14,3 × 100.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj typ terenów, na których najczęściej występują łąki w Polsce.",
+     "odpowiedz": "Doliny rzeczne i tereny podmokłe, góry.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wilgotne gleby.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-25",
+   "dzial": "rolnictwo"
+  },
+  {
    "tytul": "Plony pszenicy",
    "material": "Tekst autorski. W województwie zebrano 4,5 mln t zbóż z powierzchni 750 tys. ha.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -655,7 +682,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-25",
+   "id": "b-rolnictwo-26",
    "dzial": "rolnictwo"
   },
   {
@@ -682,7 +709,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-rolnictwo-26",
+   "id": "b-rolnictwo-27",
    "dzial": "rolnictwo"
   }
  ]

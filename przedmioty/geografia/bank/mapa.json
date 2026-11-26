@@ -1379,6 +1379,96 @@
    "dzial": "mapa"
   },
   {
+   "tytul": "Skala 1:75 000",
+   "material": "Tekst autorski. Mapa ma skalę liczbową 1:75 000.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Zapisz skalę mianowaną.",
+     "odpowiedz": "1 cm — 750 m",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "75 000 cm.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz długość w terenie odcinka 6 cm.",
+     "odpowiedz": "4,5 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "6 × 750 m.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-58",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Trójkątna działka leśna",
+   "material": "Tekst autorski. Na mapie w skali 1:25 000 las ma kształt trójkąta o podstawie 4 cm i wysokości 3 cm.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz powierzchnię lasu w hektarach.",
+     "odpowiedz": "37,5 ha",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "½ × 4 × 3 = 6 cm²; 6 × 6,25 ha.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-59",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Spadek rzeki nizinnej",
+   "material": "Tekst autorski. Na odcinku 3 km poziom rzeki obniża się o 15 m.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz spadek rzeki w promilach.",
+     "odpowiedz": "5‰",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "15 / 3000 × 1000.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-mapa-60",
+   "dzial": "mapa"
+  },
+  {
+   "tytul": "Marsz w terenie",
+   "material": "Tekst autorski. Turysta przeszedł 3 km w kierunku azymutu 90°, a potem 4 km w kierunku azymutu 0°.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz odległość w linii prostej od punktu startu.",
+     "odpowiedz": "5 km",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "√(3² + 4²).",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj kierunek geograficzny, w którym musi iść, aby wrócić do startu.",
+     "odpowiedz": "południowo-zachodni (ok. 217°)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Na zachód i południe.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-mapa-61",
+   "dzial": "mapa"
+  },
+  {
    "tytul": "Jezioro na mapie 1:50 000",
    "material": "Tekst autorski. Na mapie w skali 1:50 000 powierzchnia jeziora, zmierzona metodą kratową, wynosi 6 cm².",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1402,7 +1492,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-58",
+   "id": "b-mapa-62",
    "dzial": "mapa"
   },
   {
@@ -1438,7 +1528,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-mapa-59",
+   "id": "b-mapa-63",
    "dzial": "mapa"
   },
   {
@@ -1465,7 +1555,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-60",
+   "id": "b-mapa-64",
    "dzial": "mapa"
   },
   {
@@ -1492,7 +1582,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-mapa-61",
+   "id": "b-mapa-65",
    "dzial": "mapa"
   },
   {
@@ -1510,7 +1600,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-mapa-62",
+   "id": "b-mapa-66",
    "dzial": "mapa"
   }
  ]

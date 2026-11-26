@@ -1325,6 +1325,69 @@
    "dzial": "ludnosc"
   },
   {
+   "tytul": "Gęsto zaludniona Holandia",
+   "material": "Tekst autorski. Holandia liczy ok. 17,9 mln mieszkańców przy powierzchni ok. 41,5 tys. km².",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz gęstość zaludnienia. Wynik zaokrąglij do 1.",
+     "odpowiedz": "ok. 431 os./km²",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "17 900 000 / 41 500.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-52",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Przyrost w Nigerii",
+   "material": "Tekst autorski. Nigeria liczy ok. 230 mln mieszkańców, a roczny przyrost wynosi ok. 2,4%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczny przyrost liczby ludności w mln. Wynik zaokrąglij do 0,1.",
+     "odpowiedz": "ok. 5,5 mln",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "230 × 0,024 = 5,52.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oszacuj czas podwojenia liczby ludności (reguła 70).",
+     "odpowiedz": "ok. 29 lat",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "70 / 2,4.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ludnosc-53",
+   "dzial": "ludnosc"
+  },
+  {
+   "tytul": "Jednolitość narodowa Polski",
+   "material": "Tekst autorski. Ok. 98% mieszkańców Polski deklaruje narodowość polską.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij historyczne przyczyny jednolitości narodowościowej Polski.",
+     "odpowiedz": "Zagłada Żydów w czasie II wojny światowej, przesunięcie granic i wysiedlenia Niemców oraz przesiedlenia Ukraińców po 1945 r.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Skutki II wojny.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ludnosc-54",
+   "dzial": "ludnosc"
+  },
+  {
    "tytul": "Saldo migracji powiatu",
    "material": "Tekst autorski. W powiecie mieszkającym 120 000 osób w ciągu roku zameldowało się 2400 osób, a wymeldowało 3000 osób. Urodziło się 1100 dzieci, zmarło 1500 osób.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1357,7 +1420,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-52",
+   "id": "b-ludnosc-55",
    "dzial": "ludnosc"
   },
   {
@@ -1384,7 +1447,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ludnosc-53",
+   "id": "b-ludnosc-56",
    "dzial": "ludnosc"
   },
   {
@@ -1420,7 +1483,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ludnosc-54",
+   "id": "b-ludnosc-57",
    "dzial": "ludnosc"
   }
  ]

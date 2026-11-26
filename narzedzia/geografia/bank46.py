@@ -1,0 +1,43 @@
+# Bank zadań autorskich — geografia, część 46: typowe zadania maturalne (formuła 2023) — społeczeństwo i gospodarka. Dane autorskie.
+BANK = {'ludnosc': [
+ B('Gęsto zaludniona Holandia',
+   'Tekst autorski. Holandia liczy ok. 17,9 mln mieszkańców przy powierzchni ok. 41,5 tys. km².',
+   T('oblicz', 1, 'Oblicz gęstość zaludnienia. Wynik zaokrąglij do 1.', 'ok. 431 os./km²', '17 900 000 / 41 500.')),
+ B('Przyrost w Nigerii',
+   'Tekst autorski. Nigeria liczy ok. 230 mln mieszkańców, a roczny przyrost wynosi ok. 2,4%.',
+   T('oblicz', 1, 'Oblicz roczny przyrost liczby ludności w mln. Wynik zaokrąglij do 0,1.', 'ok. 5,5 mln', '230 × 0,024 = 5,52.'),
+   T('oblicz', 1, 'Oszacuj czas podwojenia liczby ludności (reguła 70).', 'ok. 29 lat', '70 / 2,4.')),
+ B('Jednolitość narodowa Polski',
+   'Tekst autorski. Ok. 98% mieszkańców Polski deklaruje narodowość polską.',
+   T('wyjasnij', 2, 'Wyjaśnij historyczne przyczyny jednolitości narodowościowej Polski.', 'Zagłada Żydów w czasie II wojny światowej, przesunięcie granic i wysiedlenia Niemców oraz przesiedlenia Ukraińców po 1945 r.', 'Skutki II wojny.')),
+], 'rolnictwo': [
+ B('Łąki i pastwiska',
+   'Tekst autorski. Trwałe użytki zielone zajmują w Polsce ok. 3,2 mln ha z 14,3 mln ha użytków rolnych.',
+   T('oblicz', 1, 'Oblicz udział łąk i pastwisk. Wynik zaokrąglij do 1%.', 'ok. 22%', '3,2 / 14,3 × 100.'),
+   T('podaj', 1, 'Podaj typ terenów, na których najczęściej występują łąki w Polsce.', 'Doliny rzeczne i tereny podmokłe, góry.', 'Wilgotne gleby.')),
+], 'przemysl': [
+ B('Sprawność elektrowni węglowej',
+   'Tekst autorski. Elektrownia o mocy 1000 MW pracuje 6000 h w roku i spala 3 mln t węgla.',
+   T('oblicz', 1, 'Oblicz roczną produkcję energii w TWh.', '6 TWh', '1000 MW × 6000 h = 6 000 000 MWh.'),
+   T('oblicz', 1, 'Oblicz, ile energii uzyskuje się z 1 mln t węgla.', '2 TWh', '6 / 3.')),
+ B('Sól z Wieliczki',
+   'Tekst autorski. Kopalnia soli w Wieliczce działała od średniowiecza, a dziś jest obiektem UNESCO.',
+   T('podaj', 1, 'Podaj genezę złóż soli kamiennej w okolicach Wieliczki.', 'Osadowe — powstały z odparowania wody morskiej w zapadlisku przedkarpackim (miocen).', 'Ewaporaty.'),
+   T('podaj', 1, 'Podaj obecną główną funkcję kopalni.', 'turystyczna (i uzdrowiskowa)', 'UNESCO.')),
+ B('Autostrada A1',
+   'Tekst autorski. Autostrada A1 ma ok. 570 km. Kierowca przejechał ją w 4 h 45 min.',
+   T('oblicz', 1, 'Oblicz średnią prędkość jazdy.', 'ok. 120 km/h', '570 / 4,75.'),
+   T('podaj', 1, 'Podaj, które dwa obszary Polski łączy autostrada A1.', 'Wybrzeże (Gdańsk) z Górnym Śląskiem (granica z Czechami)', 'Północ–południe.')),
+ B('Turyści w Zakopanem',
+   'Tekst autorski. W Zakopanem udzielono w roku ok. 3 mln noclegów ok. 1 mln turystów.',
+   T('oblicz', 1, 'Oblicz średnią długość pobytu turysty.', '3 noclegi', '3 / 1.')),
+], 'polska-gospodarka': [
+ B('Eksport na mieszkańca',
+   'Tekst autorski. Eksport Polski wyniósł ok. 380 mld euro.',
+   T('oblicz', 1, 'Oblicz wartość eksportu na mieszkańca (37,5 mln). Wynik zaokrąglij do 1 euro.', 'ok. 10 133 euro', '380 000 000 000 / 37 500 000.')),
+], 'czlowiek': [
+ B('Lasy a CO₂',
+   'Tekst autorski. Lasy w Polsce zajmują ok. 9,2 mln ha i pochłaniają średnio ok. 4 t CO₂ z hektara rocznie. Emisja CO₂ w Polsce wynosi ok. 300 mln t.',
+   T('oblicz', 1, 'Oblicz roczne pochłanianie CO₂ przez lasy.', 'ok. 36,8 mln t', '9,2 × 4.'),
+   T('oblicz', 1, 'Oblicz, jaką część emisji pochłaniają lasy. Wynik zaokrąglij do 1%.', 'ok. 12%', '36,8 / 300 × 100.')),
+]}

@@ -416,6 +416,33 @@
    "dzial": "czlowiek"
   },
   {
+   "tytul": "Lasy a CO₂",
+   "material": "Tekst autorski. Lasy w Polsce zajmują ok. 9,2 mln ha i pochłaniają średnio ok. 4 t CO₂ z hektara rocznie. Emisja CO₂ w Polsce wynosi ok. 300 mln t.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczne pochłanianie CO₂ przez lasy.",
+     "odpowiedz": "ok. 36,8 mln t",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "9,2 × 4.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, jaką część emisji pochłaniają lasy. Wynik zaokrąglij do 1%.",
+     "odpowiedz": "ok. 12%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "36,8 / 300 × 100.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-czlowiek-17",
+   "dzial": "czlowiek"
+  },
+  {
    "tytul": "Emisja CO₂",
    "material": "Tekst autorski. Kraj liczący 38 mln mieszkańców emituje rocznie 300 mln t CO₂, z czego 70% pochodzi z energetyki opartej na węglu.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -439,7 +466,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-17",
+   "id": "b-czlowiek-18",
    "dzial": "czlowiek"
   },
   {
@@ -466,7 +493,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-czlowiek-18",
+   "id": "b-czlowiek-19",
    "dzial": "czlowiek"
   }
  ]

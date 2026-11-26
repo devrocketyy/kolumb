@@ -776,6 +776,33 @@
    "dzial": "hydrosfera"
   },
   {
+   "tytul": "Morze Kaspijskie",
+   "material": "Tekst autorski. Morze Kaspijskie jest największym jeziorem świata i nie ma odpływu do oceanu.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj nazwę typu jeziora ze względu na odpływ.",
+     "odpowiedz": "jezioro bezodpływowe (endoreiczne)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Brak odpływu.",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego jego wody są słone.",
+     "odpowiedz": "Woda ubywa tylko przez parowanie, a sole wnoszone przez rzeki (Wołga) pozostają w jeziorze i się kumulują.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Parowanie.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-hydrosfera-32",
+   "dzial": "hydrosfera"
+  },
+  {
    "tytul": "Przepływ rzeki",
    "material": "Tekst autorski. W przekroju wodowskazowym koryto ma szerokość 40 m i średnią głębokość 2,5 m. Średnia prędkość wody wynosi 0,8 m/s.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -799,7 +826,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-32",
+   "id": "b-hydrosfera-33",
    "dzial": "hydrosfera"
   },
   {
@@ -826,7 +853,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-33",
+   "id": "b-hydrosfera-34",
    "dzial": "hydrosfera"
   },
   {
@@ -853,7 +880,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-34",
+   "id": "b-hydrosfera-35",
    "dzial": "hydrosfera"
   },
   {
@@ -880,7 +907,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-35",
+   "id": "b-hydrosfera-36",
    "dzial": "hydrosfera"
   },
   {
@@ -907,7 +934,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-hydrosfera-36",
+   "id": "b-hydrosfera-37",
    "dzial": "hydrosfera"
   }
  ]

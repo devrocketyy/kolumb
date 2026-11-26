@@ -983,6 +983,105 @@
    "dzial": "przemysl"
   },
   {
+   "tytul": "Sprawność elektrowni węglowej",
+   "material": "Tekst autorski. Elektrownia o mocy 1000 MW pracuje 6000 h w roku i spala 3 mln t węgla.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczną produkcję energii w TWh.",
+     "odpowiedz": "6 TWh",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "1000 MW × 6000 h = 6 000 000 MWh.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile energii uzyskuje się z 1 mln t węgla.",
+     "odpowiedz": "2 TWh",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "6 / 3.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-41",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Sól z Wieliczki",
+   "material": "Tekst autorski. Kopalnia soli w Wieliczce działała od średniowiecza, a dziś jest obiektem UNESCO.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj genezę złóż soli kamiennej w okolicach Wieliczki.",
+     "odpowiedz": "Osadowe — powstały z odparowania wody morskiej w zapadlisku przedkarpackim (miocen).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Ewaporaty.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj obecną główną funkcję kopalni.",
+     "odpowiedz": "turystyczna (i uzdrowiskowa)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "UNESCO.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-42",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Autostrada A1",
+   "material": "Tekst autorski. Autostrada A1 ma ok. 570 km. Kierowca przejechał ją w 4 h 45 min.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średnią prędkość jazdy.",
+     "odpowiedz": "ok. 120 km/h",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "570 / 4,75.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj, które dwa obszary Polski łączy autostrada A1.",
+     "odpowiedz": "Wybrzeże (Gdańsk) z Górnym Śląskiem (granica z Czechami)",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Północ–południe.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-43",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Turyści w Zakopanem",
+   "material": "Tekst autorski. W Zakopanem udzielono w roku ok. 3 mln noclegów ok. 1 mln turystów.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz średnią długość pobytu turysty.",
+     "odpowiedz": "3 noclegi",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "3 / 1.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-przemysl-44",
+   "dzial": "przemysl"
+  },
+  {
    "tytul": "Struktura produkcji energii",
    "material": "Tekst autorski. W pewnym kraju wyprodukowano 160 TWh energii elektrycznej, w tym 88 TWh w elektrowniach węglowych, 16 TWh gazowych, 32 TWh wiatrowych, 16 TWh słonecznych i 8 TWh w innych źródłach.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1006,7 +1105,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-41",
+   "id": "b-przemysl-45",
    "dzial": "przemysl"
   },
   {
@@ -1033,7 +1132,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-42",
+   "id": "b-przemysl-46",
    "dzial": "przemysl"
   },
   {
@@ -1060,7 +1159,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-43",
+   "id": "b-przemysl-47",
    "dzial": "przemysl"
   },
   {
@@ -1087,7 +1186,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-przemysl-44",
+   "id": "b-przemysl-48",
    "dzial": "przemysl"
   }
  ]

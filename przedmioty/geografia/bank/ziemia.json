@@ -1190,6 +1190,87 @@
    "dzial": "ziemia"
   },
   {
+   "tytul": "Lot z Tokio latem",
+   "material": "Tekst autorski. Samolot wylatuje z Tokio (UTC+9) 1 sierpnia o 10:00 i leci 13 godzin do Warszawy (latem UTC+2).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Podaj datę i godzinę lądowania w Warszawie.",
+     "odpowiedz": "1 sierpnia, 16:00",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "10:00 UTC+9 = 1:00 UTC; +13 h = 14:00 UTC; +2 h.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-55",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Jedna strefa czasowa Chin",
+   "material": "Tekst autorski. Chiny rozciągają się na ok. 60° długości geograficznej, ale stosują jeden czas UTC+8.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz różnicę czasu słonecznego między skrajnymi punktami Chin.",
+     "odpowiedz": "ok. 4 godziny",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "60° × 4 min = 240 min.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden skutek stosowania jednej strefy czasowej na zachodzie kraju.",
+     "odpowiedz": "Na zachodzie (Sinciang) Słońce wschodzi i zachodzi bardzo późno według zegara — np. górowanie ok. 14:00–15:00; ludzie stosują nieoficjalny czas lokalny.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Rozbieżność z czasem słonecznym.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-ziemia-56",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Zwrotnik Raka w grudniu",
+   "material": "Tekst autorski. Punkt leży na zwrotniku Raka (23°27′N).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz wysokość Słońca w momencie górowania 22 grudnia.",
+     "odpowiedz": "43°06′",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "90° − 23°27′ − 23°27′.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-57",
+   "dzial": "ziemia"
+  },
+  {
+   "tytul": "Obserwator na półkuli południowej",
+   "material": "Tekst autorski. 22 grudnia obserwator zmierzył wysokość Słońca w momencie górowania: 50°, po stronie północnej nieba.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz szerokość geograficzną obserwatora.",
+     "odpowiedz": "63°27′S",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Słońce nad 23°27′S; obserwator 40° dalej na południe.",
+     "nr": "1"
+    }
+   ],
+   "id": "b-ziemia-58",
+   "dzial": "ziemia"
+  },
+  {
    "tytul": "Słońce nad Krakowem",
    "material": "Tekst autorski. Kraków leży na ok. 50°N.",
    "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
@@ -1213,7 +1294,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-55",
+   "id": "b-ziemia-59",
    "dzial": "ziemia"
   },
   {
@@ -1249,7 +1330,7 @@
      "nr": "3"
     }
    ],
-   "id": "b-ziemia-56",
+   "id": "b-ziemia-60",
    "dzial": "ziemia"
   },
   {
@@ -1276,7 +1357,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-57",
+   "id": "b-ziemia-61",
    "dzial": "ziemia"
   },
   {
@@ -1303,7 +1384,7 @@
      "nr": "2"
     }
    ],
-   "id": "b-ziemia-58",
+   "id": "b-ziemia-62",
    "dzial": "ziemia"
   },
   {
@@ -1321,7 +1402,7 @@
      "nr": "1"
     }
    ],
-   "id": "b-ziemia-59",
+   "id": "b-ziemia-63",
    "dzial": "ziemia"
   }
  ]
