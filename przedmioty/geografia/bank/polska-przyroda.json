@@ -1,0 +1,59 @@
+{
+ "dzial": "polska-przyroda",
+ "wiazki": [
+  {
+   "tytul": "Dwie stacje w Polsce",
+   "material": "Tekst autorski. Stacja P (zachodnia Polska): średnia temperatura stycznia −0,5°C, lipca 18,5°C. Stacja S (północno-wschodnia Polska): stycznia −4°C, lipca 18°C.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz roczną amplitudę temperatury na obu stacjach.",
+     "odpowiedz": "P: 19°C, S: 22°C",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "18,5 − (−0,5) i 18 − (−4).",
+     "nr": "1"
+    },
+    {
+     "typ": "wyjasnij",
+     "punkty": 1,
+     "polecenie": "Wyjaśnij, dlaczego amplituda na stacji S jest większa.",
+     "odpowiedz": "Stacja S leży dalej od Atlantyku, więc silniejsze są wpływy kontynentalne (mroźniejsze zimy).",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kontynentalizm rośnie ku wschodowi.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-przyroda-01",
+   "dzial": "polska-przyroda"
+  },
+  {
+   "tytul": "Zbiornik retencyjny",
+   "material": "Tekst autorski. Zbiornik na rzece górskiej ma pojemność 500 mln m³. Średni dopływ wody wynosi 100 m³/s.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz, ile dni trwałoby napełnienie pustego zbiornika przy zamkniętym odpływie.",
+     "odpowiedz": "ok. 58 dni",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "500 000 000 / 100 = 5 000 000 s; / 86 400 s ≈ 57,9 doby.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj dwie funkcje zbiorników retencyjnych.",
+     "odpowiedz": "Np. ochrona przed powodzią, zapas wody na suszę, energetyka wodna, rekreacja.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Retencja.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-polska-przyroda-02",
+   "dzial": "polska-przyroda"
+  }
+ ]
+}

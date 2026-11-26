@@ -1,0 +1,59 @@
+{
+ "dzial": "czlowiek",
+ "wiazki": [
+  {
+   "tytul": "Emisje na mieszkańca",
+   "material": "Tekst autorski. Kraj X emituje 300 mln t CO₂ rocznie i ma 37,5 mln mieszkańców. Kraj Y emituje 1000 mln t CO₂ i ma 1,4 mld mieszkańców.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 2,
+     "polecenie": "Oblicz emisję CO₂ na mieszkańca w obu krajach.",
+     "odpowiedz": "X: 8 t/os., Y: ok. 0,71 t/os.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "300 / 37,5 = 8; 1000 / 1400 ≈ 0,71.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, który kraj ma większy wpływ na klimat w przeliczeniu na mieszkańca.",
+     "odpowiedz": "Kraj X.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Choć łączna emisja kraju Y jest większa.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-czlowiek-01",
+   "dzial": "czlowiek"
+  },
+  {
+   "tytul": "Bałtyk w niebezpieczeństwie",
+   "material": "Tekst autorski. Latem w Zatoce Gdańskiej pojawiają się zakwity sinic, a przy dnie powstają strefy beztlenowe.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "wyjasnij",
+     "punkty": 2,
+     "polecenie": "Wyjaśnij przyczynę zakwitów sinic i jej skutek dla życia w morzu.",
+     "odpowiedz": "Dopływ azotu i fosforu z nawozów i ścieków (eutrofizacja) → masowy rozwój sinic → rozkład martwych glonów zużywa tlen → strefy beztlenowe i śnięcie ryb.",
+     "zasady": "2 pkt – odpowiedź pełna i poprawna (oba wymagane elementy).\n1 pkt – poprawny jeden z dwóch elementów.\n0 pkt – odpowiedź niepoprawna lub brak odpowiedzi.",
+     "omowienie": "Bałtyk ma słabą wymianę wód.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jeden sposób ograniczenia eutrofizacji Bałtyku.",
+     "odpowiedz": "Np. budowa oczyszczalni ścieków, ograniczenie nawożenia, pasy roślinności wzdłuż rzek.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Mniej biogenów.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-czlowiek-02",
+   "dzial": "czlowiek"
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "dzial": "przemysl",
+ "wiazki": [
+  {
+   "tytul": "Struktura produkcji energii",
+   "material": "Tekst autorski. Kraj Q wyprodukował 160 TWh energii elektrycznej: węgiel 55%, gaz ziemny 10%, wiatr 15%, słońce 10%, biomasa 8%, woda 2%.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz łączny udział odnawialnych źródeł energii.",
+     "odpowiedz": "35%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Wiatr, słońce, biomasa, woda: 15 + 10 + 8 + 2.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz, ile TWh wyprodukowały elektrownie wiatrowe.",
+     "odpowiedz": "24 TWh",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "0,15 × 160.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj jedną zaletę i jedną wadę dużego udziału węgla w produkcji energii.",
+     "odpowiedz": "Zaleta: własne złoża, niezależność od importu; wada: duża emisja CO₂ i zanieczyszczeń.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Także koszt uprawnień do emisji.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-przemysl-01",
+   "dzial": "przemysl"
+  },
+  {
+   "tytul": "Lokalizacja zakładów",
+   "material": "Tekst autorski. Planowane są dwa zakłady: huta żelaza oraz fabryka mikroprocesorów.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj najważniejszy czynnik lokalizacji huty żelaza w XIX w.",
+     "odpowiedz": "Bliskość złóż węgla kamiennego i rud żelaza.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Dziś ważniejszy jest transport, np. porty.",
+     "nr": "1"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj dwa czynniki lokalizacji fabryki mikroprocesorów.",
+     "odpowiedz": "Np. wykwalifikowana kadra, bliskość uczelni i ośrodków badawczych, dobra infrastruktura i lotnisko.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Przemysł wysokiej technologii.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-przemysl-02",
+   "dzial": "przemysl"
+  }
+ ]
+}

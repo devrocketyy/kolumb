@@ -1,0 +1,68 @@
+{
+ "dzial": "rolnictwo",
+ "wiazki": [
+  {
+   "tytul": "Gospodarstwo na Kujawach",
+   "material": "Tekst autorski. Gospodarstwo uprawia: pszenicę na 25 ha (plon 6 t/ha), rzepak na 10 ha (plon 3,5 t/ha) i ziemniaki na 5 ha (plon 28 t/ha).",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz zbiory pszenicy.",
+     "odpowiedz": "150 t",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "25 ha × 6 t/ha.",
+     "nr": "1"
+    },
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz udział procentowy pszenicy w powierzchni upraw gospodarstwa.",
+     "odpowiedz": "62,5%",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "25 / 40 × 100%.",
+     "nr": "2"
+    },
+    {
+     "typ": "podaj",
+     "punkty": 1,
+     "polecenie": "Podaj dwa przyrodnicze czynniki sprzyjające uprawie pszenicy na Kujawach.",
+     "odpowiedz": "Np. żyzne gleby (czarne ziemie, brunatne), równinne ukształtowanie terenu, długi okres wegetacyjny.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Kujawy mają też małe opady — to raczej czynnik niekorzystny.",
+     "nr": "3"
+    }
+   ],
+   "id": "b-rolnictwo-01",
+   "dzial": "rolnictwo"
+  },
+  {
+   "tytul": "Porównanie plonów",
+   "material": "Tekst autorski. Kraj A zebrał 120 mln t pszenicy z 24 mln ha, kraj B — 30 mln t z 10 mln ha.",
+   "zrodlo": "Zadanie autorskie IndexLab. Tekst autorski.",
+   "zadania": [
+    {
+     "typ": "oblicz",
+     "punkty": 1,
+     "polecenie": "Oblicz plony pszenicy w obu krajach.",
+     "odpowiedz": "A: 5 t/ha, B: 3 t/ha",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Zbiory / powierzchnia.",
+     "nr": "1"
+    },
+    {
+     "typ": "rozstrzygnij",
+     "punkty": 1,
+     "polecenie": "Rozstrzygnij, w którym kraju rolnictwo jest bardziej intensywne. Uzasadnij.",
+     "odpowiedz": "W kraju A — uzyskuje wyższe plony z hektara.",
+     "zasady": "1 pkt – odpowiedź poprawna, zgodna z poleceniem, z właściwą terminologią (przy rozstrzygnięciu — z trafnym uzasadnieniem).\n0 pkt – odpowiedź niepełna, niezgodna z poleceniem, z błędem merytorycznym lub brak odpowiedzi.",
+     "omowienie": "Intensywność mierzy się m.in. plonami.",
+     "nr": "2"
+    }
+   ],
+   "id": "b-rolnictwo-02",
+   "dzial": "rolnictwo"
+  }
+ ]
+}
