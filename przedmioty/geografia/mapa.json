@@ -529,6 +529,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
+     "id": "fe482e367",
+     "przod": "Długość równoleżnika na 60°",
+     "tyl": "Połowa długości równika — ok. 20 000 km (cos 60° = 0,5).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f503b2d8a",
+     "przod": "Odległość wzdłuż równoleżnika",
+     "tyl": "Różnica długości × 111,3 km × cos φ.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f69f9849a",
+     "przod": "Położenie matematyczne Polski",
+     "tyl": "Ok. 49°00′–54°50′N i 14°07′–24°09′E.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
      "id": "f5f207896",
      "przod": "Szerokość geograficzna",
      "tyl": "Odległość kątowa punktu od równika, mierzona wzdłuż południka: 0°–90° N lub S.",
@@ -622,6 +640,18 @@
      "id": "fb1cf347d",
      "przod": "Rozpoznaj: Liczymy różnicę szerokości × 111,2 km (1° = 111,2 km).",
      "tyl": "Odległość wzdłuż południka",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fd384ceb9",
+     "przod": "Rozpoznaj: Różnica długości × 111,3 km × cos φ.",
+     "tyl": "Odległość wzdłuż równoleżnika",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "ff349fffc",
+     "przod": "Rozpoznaj: Ok. 49°00′–54°50′N i 14°07′–24°09′E.",
+     "tyl": "Położenie matematyczne Polski",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
@@ -738,6 +768,32 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "N/S, potem E/W.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pb6df9d05",
+     "pytanie": "Odległość 10° wzdłuż równoleżnika 60°N wynosi ok.:",
+     "odpowiedzi": [
+      "278 km",
+      "556 km",
+      "111 km",
+      "1113 km"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "10 × 111,3 × 0,5.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p61370abd",
+     "pytanie": "Najdalej na północ wysunięty punkt Polski leży na ok.:",
+     "odpowiedzi": [
+      "56°00′N",
+      "54°50′N",
+      "52°00′N",
+      "49°00′N"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Jastrzębia Góra.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
@@ -1386,6 +1442,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
     },
     {
+     "id": "f968c5078",
+     "przod": "Mech na drzewach a kierunek",
+     "tyl": "Mało pewna metoda — mchy rosną po stronie wilgotniejszej, niekoniecznie północnej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f595a24f8",
+     "przod": "Kierunek wschodu Słońca w Polsce",
+     "tyl": "21 III i 23 IX — dokładnie na wschodzie; latem na północnym wschodzie, zimą na południowym wschodzie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f85b9d412",
+     "przod": "Ołtarze w kościołach",
+     "tyl": "W starych kościołach zwykle skierowane na wschód (orientacja).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
      "id": "fc4fab0fb",
      "przod": "Azymut",
      "tyl": "Kąt mierzony zgodnie z ruchem wskazówek zegara od kierunku północnego do kierunku na obiekt: 0°–360°.",
@@ -1588,6 +1662,32 @@
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
+     "id": "pd6b6f4ed",
+     "pytanie": "22 grudnia w Polsce Słońce wschodzi na:",
+     "odpowiedzi": [
+      "północnym wschodzie",
+      "południowym wschodzie",
+      "dokładnie na wschodzie",
+      "południu"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Krótki dzień.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p13c10c11",
+     "pytanie": "Azymut kierunku południowo-wschodniego wynosi:",
+     "odpowiedzi": [
+      "315°",
+      "225°",
+      "45°",
+      "135°"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "SE.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
      "id": "pc17fa0c5",
      "pytanie": "Azymut kierunku południowo-zachodniego wynosi:",
      "odpowiedzi": [
@@ -1746,6 +1846,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
     },
     {
+     "id": "fc77b693d",
+     "przod": "Teledetekcja",
+     "tyl": "Pozyskiwanie informacji o powierzchni Ziemi z odległości — zdjęcia satelitarne i lotnicze, radar, lidar.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f1f81885c",
+     "przod": "Copernicus i Sentinel",
+     "tyl": "Europejski program obserwacji Ziemi; satelity Sentinel udostępniają dane bezpłatnie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fc96b89f5",
+     "przod": "Rozdzielczość przestrzenna",
+     "tyl": "Wielkość terenu odpowiadająca jednemu pikselowi obrazu (np. 10 m).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
      "id": "ff2c2d174",
      "przod": "GIS",
      "tyl": "System Informacji Geograficznej — narzędzie do gromadzenia, analizy i prezentacji danych przestrzennych w warstwach.",
@@ -1761,12 +1879,6 @@
      "id": "f04b97ded",
      "przod": "Analiza buforowa",
      "tyl": "Wyznaczenie strefy w określonej odległości od obiektu, np. 500 m od rzeki.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
-    },
-    {
-     "id": "fc77b693d",
-     "przod": "Teledetekcja",
-     "tyl": "Badanie Ziemi z odległości — zdjęcia satelitarne i lotnicze, skanowanie laserowe (lidar).",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
     },
     {
@@ -1830,6 +1942,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
     },
     {
+     "id": "f7018d113",
+     "przod": "Rozpoznaj: Pozyskiwanie informacji o powierzchni Ziemi z odległości — zdjęcia satelitarne i lotnicze, radar, lidar.",
+     "tyl": "Teledetekcja",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f425698c7",
+     "przod": "Rozpoznaj: Wielkość terenu odpowiadająca jednemu pikselowi obrazu (np. 10 m).",
+     "tyl": "Rozdzielczość przestrzenna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
      "id": "ff72bd1e3",
      "przod": "Rozpoznaj: System Informacji Geograficznej — narzędzie do gromadzenia, analizy i prezentacji danych przestrzennych w warstwach.",
      "tyl": "GIS",
@@ -1839,12 +1963,6 @@
      "id": "f2848f7fe",
      "przod": "Rozpoznaj: Wyznaczenie strefy w określonej odległości od obiektu, np. 500 m od rzeki.",
      "tyl": "Analiza buforowa",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
-    },
-    {
-     "id": "f3ba90b2b",
-     "przod": "Rozpoznaj: Badanie Ziemi z odległości — zdjęcia satelitarne i lotnicze, skanowanie laserowe (lidar).",
-     "tyl": "Teledetekcja",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
     },
     {
@@ -1957,6 +2075,32 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Piksele.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p88a2461a",
+     "pytanie": "Europejski program obserwacji Ziemi to:",
+     "odpowiedzi": [
+      "Galileo",
+      "Apollo",
+      "Hubble",
+      "Copernicus"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Satelity Sentinel.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd4c6bb96",
+     "pytanie": "Rozdzielczość 10 m oznacza, że jeden piksel to teren:",
+     "odpowiedzi": [
+      "1 × 1 m",
+      "100 × 100 m",
+      "10 × 10 m",
+      "10 × 10 km"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Rozdzielczość przestrzenna.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {

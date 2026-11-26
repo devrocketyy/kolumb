@@ -34,6 +34,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
     },
     {
+     "id": "fa6667195",
+     "przod": "Czas letni w Polsce",
+     "tyl": "Od ostatniej niedzieli marca do ostatniej niedzieli października — UTC+2.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fad040673",
+     "przod": "Różnica czasu Warszawa–Nowy Jork",
+     "tyl": "Zwykle 6 godzin (Nowy Jork UTC−5, Warszawa UTC+1).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
      "id": "f1bc2bf80",
      "przod": "Ruch obrotowy Ziemi",
      "tyl": "Obrót wokół własnej osi z zachodu na wschód (przeciwnie do ruchu wskazówek zegara, patrząc znad bieguna północnego).",
@@ -154,6 +166,12 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
     },
     {
+     "id": "feaff9883",
+     "przod": "Rozpoznaj: Od ostatniej niedzieli marca do ostatniej niedzieli października — UTC+2.",
+     "tyl": "Czas letni w Polsce",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
      "id": "ffa44f126",
      "przod": "Rozpoznaj: Największa na równiku (ok. 1670 km/h), maleje ku biegunom, na biegunach równa 0.",
      "tyl": "Prędkość liniowa ruchu obrotowego",
@@ -222,6 +240,32 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Greenwich.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p17b8b3f0",
+     "pytanie": "Gdy w Warszawie (UTC+1) jest 18:00, w Nowym Jorku (UTC−5) jest:",
+     "odpowiedzi": [
+      "12:00",
+      "24:00",
+      "23:00",
+      "13:00"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Różnica 6 h.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "peddf056f",
+     "pytanie": "Czas letni w Polsce to czas strefy:",
+     "odpowiedzi": [
+      "UTC+0",
+      "UTC+2",
+      "UTC+1",
+      "UTC+3"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Od końca marca do końca października.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
@@ -1014,6 +1058,36 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
     },
     {
+     "id": "f9b67b02b",
+     "przod": "Wysokość Słońca w dniu równonocy",
+     "tyl": "h = 90° − φ (na obu półkulach).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "ffdb9477f",
+     "przod": "Wysokość Słońca na równiku 22 VI",
+     "tyl": "90° − 23°27′ = 66°33′ — Słońce góruje po stronie północnej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f631362e3",
+     "przod": "Wyznaczanie szerokości z wysokości Słońca",
+     "tyl": "Np. 21 III: φ = 90° − h; 22 VI (półkula N): φ = 90° − h + 23°27′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "ffbae3b2e",
+     "przod": "Kąt padania a nagrzewanie",
+     "tyl": "Im większa wysokość Słońca, tym więcej energii na jednostkę powierzchni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fd77871fe",
+     "przod": "Zenit",
+     "tyl": "Punkt na niebie dokładnie nad głową obserwatora (h = 90°).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
      "id": "f05f57212",
      "przod": "Wysokość Słońca w dniach równonocy",
      "tyl": "h = 90° − φ (φ — szerokość geograficzna).",
@@ -1047,18 +1121,6 @@
      "id": "f6441bf5d",
      "przod": "Obliczanie szerokości z wysokości Słońca",
      "tyl": "W dniu równonocy: φ = 90° − h. Np. h = 40° → φ = 50°.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
-    },
-    {
-     "id": "ffbae3b2e",
-     "przod": "Kąt padania a nagrzewanie",
-     "tyl": "Im wyżej Słońce, tym mniejszą powierzchnię oświetla ta sama wiązka promieni — powierzchnia nagrzewa się silniej.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
-    },
-    {
-     "id": "fd77871fe",
-     "przod": "Zenit",
-     "tyl": "Punkt na niebie dokładnie nad obserwatorem; Słońce w zenicie ma wysokość 90°.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
     },
     {
@@ -1116,6 +1178,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
     },
     {
+     "id": "f813706a7",
+     "przod": "Rozpoznaj: h = 90° − φ (na obu półkulach).",
+     "tyl": "Wysokość Słońca w dniu równonocy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f7dbca5f3",
+     "przod": "Rozpoznaj: Np. 21 III: φ = 90° − h; 22 VI (półkula N): φ = 90° − h + 23°27′.",
+     "tyl": "Wyznaczanie szerokości z wysokości Słońca",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fd6b2ecd5",
+     "przod": "Rozpoznaj: Punkt na niebie dokładnie nad głową obserwatora (h = 90°).",
+     "tyl": "Zenit",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
      "id": "fef92f783",
      "przod": "Rozpoznaj: h = 90° − φ (φ — szerokość geograficzna).",
      "tyl": "Wysokość Słońca w dniach równonocy",
@@ -1125,12 +1205,6 @@
      "id": "fa6719c7e",
      "przod": "Rozpoznaj: W dniu równonocy: φ = 90° − h. Np. h = 40° → φ = 50°.",
      "tyl": "Obliczanie szerokości z wysokości Słońca",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
-    },
-    {
-     "id": "fb5f4983f",
-     "przod": "Rozpoznaj: Punkt na niebie dokładnie nad obserwatorem; Słońce w zenicie ma wysokość 90°.",
-     "tyl": "Zenit",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
     },
     {
@@ -1184,6 +1258,45 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Słońce nad zwrotnikiem Raka.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa306a253",
+     "pytanie": "W dniu równonocy na 40°N Słońce góruje na wysokości:",
+     "odpowiedzi": [
+      "73°27′",
+      "26°33′",
+      "50°",
+      "40°"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "90 − 40.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7840b3d1",
+     "pytanie": "22 VI Słońce górowało na wysokości 60°, półkula N. Szerokość obserwatora:",
+     "odpowiedzi": [
+      "53°27′N",
+      "6°33′N",
+      "30°00′N",
+      "36°33′N"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "90 − 60 + 23°27′.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe2644b4e",
+     "pytanie": "Na równiku 22 czerwca Słońce góruje na wysokości:",
+     "odpowiedzi": [
+      "23°27′",
+      "66°33′",
+      "90°",
+      "45°"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "90 − 23°27′.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
