@@ -1240,6 +1240,49 @@
      ]
     },
     {
+     "id": "sb4854b6e",
+     "typ": "rysunek",
+     "tytul": "Dywidenda demograficzna",
+     "opis": "Schemat zmian struktury wieku w trakcie przejścia demograficznego (wartości względne) — wykres autorski IndexLab.",
+     "uwaga": "Dywidendę wykorzystały m.in. Korea Pd. i Chiny (inwestycje w edukację i pracę). Kraje Afryki mogą ją osiągnąć, jeśli spadnie dzietność i powstaną miejsca pracy.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"s\" d=\"M50 40 V250 H380\"/><path class=\"cold\" fill=\"none\" d=\"M50 160 C120 160 160 90 220 80 C280 75 320 130 380 170\" style=\"stroke-width:2.6\"/><path class=\"hot\" fill=\"none\" d=\"M50 90 C120 90 170 190 220 200 C270 205 320 140 380 120\" style=\"stroke-width:2.6\"/><rect class=\"gt\" x=\"170\" y=\"40\" width=\"110\" height=\"210\" style=\"opacity:.35\"/><text class=\"ts\" x=\"215\" y=\"268\" text-anchor=\"middle\">czas (fazy przejścia demograficznego) →</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 220,
+       "y": 80,
+       "lx": 195,
+       "ly": 40,
+       "n": "Udział wieku produkcyjnego",
+       "d": "Rośnie, gdy spada dzietność, a dzieci z wyżu dorastają"
+      },
+      {
+       "x": 220,
+       "y": 200,
+       "lx": 195,
+       "ly": 230,
+       "n": "Obciążenie demograficzne",
+       "d": "Najniższe w „oknie demograficznym”"
+      },
+      {
+       "x": 225,
+       "y": 140,
+       "lx": 120,
+       "ly": 125,
+       "n": "Okno szansy",
+       "d": "Dużo pracujących, mało osób zależnych — szansa na szybki wzrost"
+      },
+      {
+       "x": 370,
+       "y": 165,
+       "lx": 330,
+       "ly": 195,
+       "n": "Starzenie się",
+       "d": "Później rośnie udział seniorów — obciążenie znów rośnie"
+      }
+     ]
+    },
+    {
      "id": "sb669d382",
      "typ": "proces",
      "tytul": "Czynniki migracji: wypychające i przyciągające",

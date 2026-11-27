@@ -955,6 +955,57 @@
      ]
     },
     {
+     "id": "se19d28f5",
+     "typ": "rysunek",
+     "tytul": "Powstawanie węgla (uwęglanie)",
+     "opis": "Etapy uwęglania materii roślinnej (wysokość słupków — symboliczna, maleje miąższość) — rysunek autorski IndexLab.",
+     "uwaga": "Uwęglanie trwa miliony lat: przykrycie osadami → wzrost ciśnienia i temperatury → usuwanie wody i gazów. Im wyższy stopień uwęglenia, tym większa wartość opałowa.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gf ol\" x=\"15\" y=\"90\" width=\"68\" height=\"150\"/><text class=\"ts\" x=\"49\" y=\"262\" text-anchor=\"middle\">bagno karbońskie</text><path class=\"hot\" d=\"M85.0 160.0 L91.0 160.0\"/><path class=\"hot\" d=\"M84.6 162.7 L91.0 160.0 L84.6 157.3\"/><rect class=\"gg ol\" x=\"92\" y=\"112\" width=\"68\" height=\"128\"/><text class=\"ts\" x=\"126\" y=\"276\" text-anchor=\"middle\">torf</text><path class=\"hot\" d=\"M162.0 160.0 L168.0 160.0\"/><path class=\"hot\" d=\"M161.6 162.7 L168.0 160.0 L161.6 157.3\"/><rect class=\"gc ol\" x=\"169\" y=\"134\" width=\"68\" height=\"106\"/><text class=\"ts\" x=\"203\" y=\"262\" text-anchor=\"middle\">węgiel brunatny</text><path class=\"hot\" d=\"M239.0 160.0 L245.0 160.0\"/><path class=\"hot\" d=\"M238.6 162.7 L245.0 160.0 L238.6 157.3\"/><rect class=\"gs2 ol\" x=\"246\" y=\"156\" width=\"68\" height=\"84\"/><text class=\"ts\" x=\"280\" y=\"276\" text-anchor=\"middle\">węgiel kamienny</text><path class=\"hot\" d=\"M316.0 160.0 L322.0 160.0\"/><path class=\"hot\" d=\"M315.6 162.7 L322.0 160.0 L315.6 157.3\"/><rect class=\"gs ol\" x=\"323\" y=\"178\" width=\"68\" height=\"62\"/><text class=\"ts\" x=\"357\" y=\"262\" text-anchor=\"middle\">antracyt</text><path class=\"hot\" d=\"M20.0 60.0 L380.0 60.0\"/><path class=\"hot\" d=\"M373.6 62.7 L380.0 60.0 L373.6 57.3\"/><text class=\"ts\" x=\"200\" y=\"50\" text-anchor=\"middle\">rośnie ciśnienie, temperatura i zawartość węgla pierwiastkowego</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 49,
+       "y": 120,
+       "lx": 80,
+       "ly": 85,
+       "n": "Szczątki roślin",
+       "d": "W karbonie bagienne lasy paprotników i skrzypów"
+      },
+      {
+       "x": 126,
+       "y": 160,
+       "lx": 150,
+       "ly": 120,
+       "n": "Torf",
+       "d": "Brak tlenu w wodzie hamuje rozkład — ok. 60% węgla"
+      },
+      {
+       "x": 203,
+       "y": 175,
+       "lx": 230,
+       "ly": 115,
+       "n": "Węgiel brunatny",
+       "d": "Bełchatów, Turów — młodszy (neogen), mniej kaloryczny"
+      },
+      {
+       "x": 280,
+       "y": 190,
+       "lx": 255,
+       "ly": 145,
+       "n": "Węgiel kamienny",
+       "d": "GZW, LZW — karbon, ok. 80–90% węgla"
+      },
+      {
+       "x": 357,
+       "y": 205,
+       "lx": 340,
+       "ly": 230,
+       "n": "Antracyt",
+       "d": "Najwyższy stopień uwęglenia"
+      }
+     ]
+    },
+    {
      "id": "s87021d91",
      "typ": "rysunek",
      "tytul": "Krajobraz polodowcowy w przekroju",

@@ -3747,6 +3747,49 @@
      ]
     },
     {
+     "id": "s744c2596",
+     "typ": "rysunek",
+     "tytul": "Czynniki lokalizacji centrum logistycznego",
+     "opis": "Schemat typowej lokalizacji parku logistycznego przy węźle komunikacyjnym — rysunek autorski IndexLab.",
+     "uwaga": "Centra logistyczne w Polsce skupiają się wokół Łodzi (Stryków), Warszawy, Poznania, Wrocławia i Górnego Śląska — przy węzłach autostrad i w zasięgu wielkich rynków zbytu.",
+     "svg": "<rect class=\"gt\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"hot\" d=\"M0 150 H400\" style=\"stroke-width:5\"/><path class=\"hot\" d=\"M200 0 V300\" style=\"stroke-width:5\"/><path class=\"s\" d=\"M0 110 C120 110 300 210 400 200\" style=\"stroke-width:3;stroke-dasharray:10 5\"/><rect class=\"gs2 ol\" x=\"215\" y=\"160\" width=\"90\" height=\"50\"/><rect class=\"gs2 ol\" x=\"215\" y=\"215\" width=\"60\" height=\"30\"/><rect class=\"gk ol\" x=\"225\" y=\"168\" width=\"12\" height=\"8\"/><rect class=\"gk ol\" x=\"245\" y=\"168\" width=\"12\" height=\"8\"/><rect class=\"gk ol\" x=\"265\" y=\"168\" width=\"12\" height=\"8\"/><rect class=\"gk ol\" x=\"285\" y=\"168\" width=\"12\" height=\"8\"/><rect class=\"gl2 ol\" x=\"60\" y=\"40\" width=\"80\" height=\"60\"/><text class=\"ts\" x=\"100\" y=\"75\" text-anchor=\"middle\">miasto</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 150,
+       "lx": 140,
+       "ly": 190,
+       "n": "Węzeł autostrad",
+       "d": "Skrzyżowanie A1 i A2 (np. Stryków) — szybki dojazd w całym kraju"
+      },
+      {
+       "x": 330,
+       "y": 190,
+       "lx": 320,
+       "ly": 260,
+       "n": "Bocznica kolejowa",
+       "d": "Transport intermodalny kontenerów"
+      },
+      {
+       "x": 260,
+       "y": 185,
+       "lx": 235,
+       "ly": 125,
+       "n": "Hale magazynowe",
+       "d": "Duża, tania działka poza miastem"
+      },
+      {
+       "x": 100,
+       "y": 70,
+       "lx": 180,
+       "ly": 30,
+       "n": "Rynek i pracownicy",
+       "d": "Bliskość dużego miasta — klienci i kadra"
+      }
+     ]
+    },
+    {
      "id": "s9d4aafe4",
      "typ": "rysunek",
      "tytul": "Struktura zatrudnienia a poziom rozwoju",
