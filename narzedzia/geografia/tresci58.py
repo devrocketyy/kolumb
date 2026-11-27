@@ -1,0 +1,55 @@
+# Geografia — porcja 58 (słabe poddziały: przykłady liczbowe i definicje uzupełniające).
+T = {
+'g-skala': dict(F=[
+ ('Przykład: 5 cm na mapie 1:50 000 — ile w terenie?', '5 × 500 m = 2,5 km.'),
+ ('Przykład: 12 km w terenie na mapie 1:200 000', '12 km ÷ 2 km = 6 cm.'),
+ ('Przykład: 1 cm² na mapie 1:200 000 — ile w terenie?', '2 km × 2 km = 4 km².'),
+ ('Przykład: obszar 3 cm² na mapie 1:50 000', '3 × 0,25 km² = 0,75 km² (75 ha).'),
+ ('Przykład: zamiana skali 1:500 000 na mianowaną', '1 cm – 5 km.'),
+ ('Ar', '100 m² (10 × 10 m); 1 ha = 100 arów.'),
+ ('Ile hektarów ma 1 km²?', '100 ha.'),
+ ('Skala mapy Polski w atlasie szkolnym — typowa', 'Ok. 1:2 000 000 – 1:3 000 000 (mapa przeglądowa).'),
+ ('Zwiększenie skali dwukrotnie — co z powierzchnią na mapie?', 'Powierzchnia na mapie rośnie czterokrotnie (skala powierzchni = kwadrat skali liniowej).'),
+],
+Q=[
+ ('Na mapie w skali 1:50 000 kwadrat o boku 2 cm odpowiada w terenie powierzchni:', ['*1 km²', '2 km²', '0,5 km²', '4 km²'], '1 km × 1 km.'),
+]),
+'g-atmosfera': dict(F=[
+ ('Egzosfera', 'Najwyższa, rozrzedzona warstwa atmosfery (powyżej ok. 500–700 km), przejście w przestrzeń kosmiczną.'),
+ ('Jonosfera', 'Zjonizowana część termosfery — odbija fale radiowe, występują w niej zorze polarne.'),
+ ('Wysokość tropopauzy nad równikiem i biegunami', 'Ok. 16–18 km nad równikiem, ok. 8 km nad biegunami.'),
+ ('Stan nasycenia powietrza', 'Powietrze zawiera maksymalną ilość pary przy danej temperaturze — wilgotność względna 100%.'),
+ ('Sublimacja w atmosferze', 'Przejście pary wodnej bezpośrednio w lód (szron, kryształki w chmurach).'),
+ ('Promieniowanie rozproszone', 'Promieniowanie słoneczne rozproszone przez gazy i pyły — dociera z całego nieba (błękit nieba).'),
+ ('Adwekcja', 'Poziomy napływ mas powietrza (np. adwekcja ciepła).'),
+ ('Konwekcja', 'Pionowe unoszenie się ogrzanego powietrza — tworzy chmury kłębiaste.'),
+],
+Q=[
+ ('Warstwa atmosfery odbijająca fale radiowe i świecąca zorzami to:', ['*jonosferze (termosferze)', 'troposferze nad równikiem', 'warstwie ozonowej w stratosferze', 'dolnej mezosferze nad oceanami'], 'Wysoko.'),
+]),
+'g-wspolrzedne': dict(F=[
+ ('Przykład: odległość Gdańsk (54°21′N) – Kraków (50°04′N) wzdłuż południka', 'Ok. 4°17′ × 111,2 km ≈ 476 km (w przybliżeniu, bo miasta nie leżą na jednym południku).'),
+ ('Przykład: punkt antypodyczny do (30°S, 60°W)', '30°N, 120°E.'),
+ ('Przykład: szerokość, gdy Gwiazda Polarna jest 54° nad horyzontem', '54°N.'),
+ ('Przykład: szerokość, gdy 21 III Słońce góruje na 40° nad płd. horyzontem', '90° − 40° = 50°N.'),
+ ('Zwrotnik Raka — szerokość', 'Ok. 23°26′N.'),
+ ('Koło podbiegunowe północne — szerokość', 'Ok. 66°34′N.'),
+],
+Q=[]),
+'g-orientacja': dict(F=[
+ ('Mapa zorientowana', 'Ułożona tak, że kierunki na mapie pokrywają się z kierunkami w terenie.'),
+ ('Busola a kompas', 'Busola ma podziałkę kątową i celownik do pomiaru azymutu; kompas — tylko igłę magnetyczną i róże kierunków.'),
+ ('Deklinacja w Polsce — wartość', 'Niewielka, wschodnia (ok. 5–7°E), rośnie z zachodu na wschód i z czasem.'),
+ ('Przykład: azymut z punktu A na B wynosi 40° — azymut z B na A?', '220°.'),
+ ('Wyznaczanie północy wg Krzyża Południa', 'Przedłużenie dłuższej osi krzyża ok. 4,5 raza wskazuje biegun południowy nieba.'),
+],
+Q=[]),
+'g-pl-klimat': dict(F=[
+ ('Średnia temperatura stycznia w Polsce', 'Od ok. 0°C na zachodzie do ok. −4°C na północnym wschodzie (bez gór).'),
+ ('Amplituda roczna temperatury w Polsce', 'Od ok. 17–18°C na zachodzie i wybrzeżu do ok. 22°C na wschodzie.'),
+ ('Liczba dni z pokrywą śnieżną w Polsce', 'Od ok. 40 dni na zachodzie do ponad 90 na NE i ponad 150 w Tatrach.'),
+ ('Wiatr bora', 'Zimny, porywisty wiatr spadający z gór ku morzu (np. Adriatyk) — w Polsce nie występuje.'),
+ ('Klimat lokalny (topoklimat)', 'Klimat małego obszaru zależny od rzeźby, pokrycia terenu i zabudowy (dolina, miasto, las).'),
+],
+Q=[]),
+}
