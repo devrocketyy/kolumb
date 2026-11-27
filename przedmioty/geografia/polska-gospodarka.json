@@ -1960,6 +1960,41 @@
        "d": "Mięso drobiowe, wyroby mleczne, słodycze, owoce"
       }
      ]
+    },
+    {
+     "id": "s934410cd",
+     "typ": "rysunek",
+     "tytul": "Struktura pracujących w Polsce: 1989 i 2023",
+     "opis": "Udział pracujących według sektorów (dane przybliżone wg GUS, jak w arkuszu CKE maj 2026) — wykres autorski IndexLab.",
+     "uwaga": "Przemiany po 1989 r.: gospodarka rynkowa, prywatyzacja i inwestycje zagraniczne przesunęły zatrudnienie z rolnictwa i ciężkiego przemysłu do usług — typowa droga kraju doganiającego wysoko rozwinięte.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gt ol\" x=\"90\" y=\"193\" width=\"80\" height=\"57\"/><text class=\"tb\" x=\"130\" y=\"225\" text-anchor=\"middle\">28,6%</text><rect class=\"gs2 ol\" x=\"90\" y=\"121\" width=\"80\" height=\"71\"/><text class=\"tb\" x=\"130\" y=\"161\" text-anchor=\"middle\">35,7%</text><rect class=\"gw2 ol\" x=\"90\" y=\"50\" width=\"80\" height=\"71\"/><text class=\"tb\" x=\"130\" y=\"90\" text-anchor=\"middle\">35,7%</text><text class=\"tb\" x=\"130\" y=\"268\" text-anchor=\"middle\">1989</text><rect class=\"gt ol\" x=\"240\" y=\"234\" width=\"80\" height=\"16\"/><text class=\"tb\" x=\"280\" y=\"246\" text-anchor=\"middle\">8,1%</text><rect class=\"gs2 ol\" x=\"240\" y=\"178\" width=\"80\" height=\"56\"/><text class=\"tb\" x=\"280\" y=\"210\" text-anchor=\"middle\">28,0%</text><rect class=\"gw2 ol\" x=\"240\" y=\"50\" width=\"80\" height=\"128\"/><text class=\"tb\" x=\"280\" y=\"118\" text-anchor=\"middle\">63,9%</text><text class=\"tb\" x=\"280\" y=\"268\" text-anchor=\"middle\">2023</text><path class=\"s\" d=\"M60 250 H360\"/><rect class=\"gt ol\" x=\"20\" y=\"270\" width=\"12\" height=\"10\"/><text class=\"ts\" x=\"36\" y=\"279\">rolnictwo</text><rect class=\"gs2 ol\" x=\"130\" y=\"270\" width=\"12\" height=\"10\"/><text class=\"ts\" x=\"146\" y=\"279\">przemysł i budownictwo</text><rect class=\"gw2 ol\" x=\"290\" y=\"270\" width=\"12\" height=\"10\"/><text class=\"ts\" x=\"306\" y=\"279\">usługi</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 130,
+       "y": 221,
+       "lx": 155,
+       "ly": 200,
+       "n": "Spadek w rolnictwie",
+       "d": "Z 28,6% do 8,1% — modernizacja i scalanie gospodarstw"
+      },
+      {
+       "x": 280,
+       "y": 90,
+       "lx": 255,
+       "ly": 60,
+       "n": "Wzrost usług",
+       "d": "Z 35,7% do 63,9% — finanse, handel, IT, usługi biznesowe"
+      },
+      {
+       "x": 280,
+       "y": 175,
+       "lx": 255,
+       "ly": 150,
+       "n": "Przemysł",
+       "d": "Spadek po restrukturyzacji lat 90., potem stabilizacja ok. 28%"
+      }
+     ]
     }
    ]
   }

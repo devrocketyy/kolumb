@@ -2217,6 +2217,41 @@
        "d": "Przewaga kobiet wśród najstarszych — dłuższe trwanie życia"
       }
      ]
+    },
+    {
+     "id": "s2a1e5915",
+     "typ": "rysunek",
+     "tytul": "Struktura religijna ludności świata (wykres kołowy)",
+     "opis": "Przybliżony udział wyznawców religii w ludności świata (ok. 2020, zaokrąglenia) — wykres autorski IndexLab.",
+     "uwaga": "Udziały są przybliżone i różnią się w zależności od źródła. Wzrost udziału islamu wynika głównie z wysokiej dzietności w krajach muzułmańskich; w Europie rośnie odsetek osób niewierzących.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gw2 ol\" d=\"M150 150 L150.0 40.0 A110 110 0 0 1 252.3 190.5 Z\"/><path class=\"gt ol\" d=\"M150 150 L252.3 190.5 A110 110 0 0 1 109.5 252.3 Z\"/><path class=\"gs2 ol\" d=\"M150 150 L109.5 252.3 A110 110 0 0 1 41.9 170.6 Z\"/><path class=\"hotf ol\" d=\"M150 150 L41.9 170.6 A110 110 0 0 1 69.8 74.7 Z\"/><path class=\"gp ol\" d=\"M150 150 L69.8 74.7 A110 110 0 0 1 109.5 47.7 Z\"/><path class=\"gc ol\" d=\"M150 150 L109.5 47.7 A110 110 0 0 1 150.0 40.0 Z\"/><rect class=\"gw2 ol\" x=\"285\" y=\"60\" width=\"14\" height=\"14\"/><text class=\"ts\" x=\"305\" y=\"72\">chrześcijaństwo 31%</text><rect class=\"gt ol\" x=\"285\" y=\"90\" width=\"14\" height=\"14\"/><text class=\"ts\" x=\"305\" y=\"102\">islam 25%</text><rect class=\"gs2 ol\" x=\"285\" y=\"120\" width=\"14\" height=\"14\"/><text class=\"ts\" x=\"305\" y=\"132\">bez wyznania 16%</text><rect class=\"hotf ol\" x=\"285\" y=\"150\" width=\"14\" height=\"14\"/><text class=\"ts\" x=\"305\" y=\"162\">hinduizm 15%</text><rect class=\"gp ol\" x=\"285\" y=\"180\" width=\"14\" height=\"14\"/><text class=\"ts\" x=\"305\" y=\"192\">buddyzm 7%</text><rect class=\"gc ol\" x=\"285\" y=\"210\" width=\"14\" height=\"14\"/><text class=\"ts\" x=\"305\" y=\"222\">inne 6%</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 80,
+       "lx": 230,
+       "ly": 30,
+       "n": "Chrześcijaństwo",
+       "d": "Ok. 2,4 mld — Europa, Ameryki, Afryka Subsaharyjska"
+      },
+      {
+       "x": 178,
+       "y": 214,
+       "lx": 230,
+       "ly": 270,
+       "n": "Islam",
+       "d": "Ok. 2 mld — najszybciej rosnąca religia (wysoka dzietność)"
+      },
+      {
+       "x": 60,
+       "y": 110,
+       "lx": 85,
+       "ly": 60,
+       "n": "Hinduizm",
+       "d": "Głównie Indie i Nepal"
+      }
+     ]
     }
    ]
   },

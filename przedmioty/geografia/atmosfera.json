@@ -4631,6 +4631,41 @@
      ]
     },
     {
+     "id": "sa723a24b",
+     "typ": "rysunek",
+     "tytul": "Wiatry lokalne basenu Morza Śródziemnego (schemat)",
+     "opis": "Uproszczony schemat wiatrów lokalnych nad Morzem Śródziemnym (bez skali) — rysunek autorski IndexLab.",
+     "uwaga": "Wiatry lokalne powstają przez różnice ciśnienia między lądem a morzem i przez rzeźbę: zimne masy spływają z gór (mistral, bora), a gorące powietrze z pustyni napływa przed niżami (sirocco).",
+     "svg": "<rect class=\"gw\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gl ol\" d=\"M0 0 H400 V120 C350 130 320 150 300 170 C280 160 260 150 250 170 C240 200 220 210 200 190 C180 160 160 150 140 170 C120 190 80 175 60 160 C40 150 20 160 0 165 Z\"/><path class=\"gp ol\" d=\"M0 250 C100 235 300 235 400 250 V300 H0 Z\"/><path class=\"cold\" d=\"M140.0 60.0 L150.0 150.0\"/><path class=\"cold\" d=\"M146.6 143.9 L150.0 150.0 L152.0 143.3\"/><path class=\"cold\" d=\"M255.0 100.0 L265.0 155.0\"/><path class=\"cold\" d=\"M261.2 149.1 L265.0 155.0 L266.5 148.2\"/><path class=\"hot\" d=\"M200.0 245.0 L210.0 205.0\"/><path class=\"hot\" d=\"M211.1 211.9 L210.0 205.0 L205.8 210.6\"/><text class=\"ts\" x=\"200\" y=\"290\" text-anchor=\"middle\">Afryka Północna (Sahara)</text><text class=\"ts\" x=\"200\" y=\"20\" text-anchor=\"middle\">Europa</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 145,
+       "y": 100,
+       "lx": 170,
+       "ly": 100,
+       "n": "Mistral",
+       "d": "Zimny wiatr N doliną Rodanu nad Zatokę Lwią"
+      },
+      {
+       "x": 260,
+       "y": 130,
+       "lx": 340,
+       "ly": 100,
+       "n": "Bora",
+       "d": "Zimny, porywisty wiatr z gór nad Adriatyk"
+      },
+      {
+       "x": 205,
+       "y": 225,
+       "lx": 280,
+       "ly": 215,
+       "n": "Sirocco",
+       "d": "Gorący, pylisty wiatr z Sahary nad Włochy i Maltę"
+      }
+     ]
+    },
+    {
      "id": "s5fba5ed8",
      "typ": "proces",
      "tytul": "Rozpoznawanie typu klimatu z klimatogramu",

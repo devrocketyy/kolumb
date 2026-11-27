@@ -2288,6 +2288,49 @@
      ]
     },
     {
+     "id": "s6d35cb4f",
+     "typ": "rysunek",
+     "tytul": "Wodospad i erozja wsteczna (przekrój)",
+     "opis": "Przekrój przez wodospad na granicy skał odpornych i nieodpornych — rysunek autorski IndexLab.",
+     "uwaga": "Erozja wsteczna przesuwa wodospad w górę doliny. Niagara cofa się nawet o ok. 1 m rocznie (dziś mniej dzięki regulacji przepływu). W Polsce progi skalne tworzą m.in. szumy na Roztoczu i wodospady w Tatrach.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gs ol\" d=\"M0 110 H210 V300 H0 Z\"/><path class=\"gc ol\" d=\"M0 140 H195 C190 170 200 210 230 230 H400 V300 H0 Z\"/><path class=\"gs ol\" d=\"M0 110 H210 V140 H0 Z\"/><path class=\"cold\" d=\"M0 105 H210 C220 140 225 200 230 225 H400\" style=\"fill:none;stroke-width:4\"/><ellipse class=\"gw ol\" cx=\"245\" cy=\"230\" rx=\"25\" ry=\"8\"/><path class=\"hot\" d=\"M260.0 70.0 L200.0 70.0\"/><path class=\"hot\" d=\"M206.4 67.3 L200.0 70.0 L206.4 72.7\"/><text class=\"ts\" x=\"270\" y=\"74\">cofanie się progu</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 100,
+       "y": 125,
+       "lx": 125,
+       "ly": 60,
+       "n": "Twarda skała",
+       "d": "Odporna warstwa tworzy krawędź progu"
+      },
+      {
+       "x": 100,
+       "y": 200,
+       "lx": 125,
+       "ly": 250,
+       "n": "Miękka skała",
+       "d": "Łatwo wymywana pod twardą warstwą"
+      },
+      {
+       "x": 245,
+       "y": 230,
+       "lx": 220,
+       "ly": 285,
+       "n": "Kocioł eworsyjny",
+       "d": "Zagłębienie wybite przez spadającą wodę i okruchy"
+      },
+      {
+       "x": 205,
+       "y": 170,
+       "lx": 180,
+       "ly": 150,
+       "n": "Podcięcie progu",
+       "d": "Woda wymywa miękką skałę — nawis twardej warstwy się obrywa"
+      }
+     ]
+    },
+    {
      "id": "s7f021056",
      "typ": "rysunek",
      "tytul": "Ustrój rzeki nizinnej (śnieżny)",

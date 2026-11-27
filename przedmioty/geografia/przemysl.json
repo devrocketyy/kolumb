@@ -3359,6 +3359,57 @@
    ],
    "schematy": [
     {
+     "id": "sc85ec8d6",
+     "typ": "rysunek",
+     "tytul": "Główne korytarze transportowe Polski (schemat)",
+     "opis": "Uproszczony schemat najważniejszych korytarzy drogowych Polski (bez skali) — rysunek autorski IndexLab.",
+     "uwaga": "Polska leży na skrzyżowaniu korytarzy TEN-T: Morze Północne–Bałtyk (E–W) i Bałtyk–Adriatyk (N–S). Położenie tranzytowe sprzyja rozwojowi logistyki (centra magazynowe przy węzłach autostrad, np. w okolicach Łodzi i Strykowa).",
+     "svg": "<rect class=\"gt\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gl ol\" d=\"M60 40 C150 20 250 25 330 40 C360 90 370 160 340 220 C300 270 120 280 70 240 C40 190 35 100 60 40 Z\"/><path class=\"hot\" d=\"M180 30 L190 150 L200 270\" style=\"stroke-width:3\"/><path class=\"hot\" d=\"M60 135 L200 150 L340 150\" style=\"stroke-width:3\"/><path class=\"cold\" d=\"M200 150 L300 70 L330 45\" style=\"stroke-width:2.5;stroke-dasharray:6 4\"/><path class=\"cold\" d=\"M320 90 L320 160 L300 250\" style=\"stroke-width:2.5;stroke-dasharray:6 4\"/><path class=\"hot\" d=\"M70 230 L200 250 L330 225\" style=\"stroke-width:3\"/><circle class=\"d\" cx=\"185\" cy=\"38\" r=\"4\"/><circle class=\"d\" cx=\"200\" cy=\"150\" r=\"4\"/><circle class=\"d\" cx=\"200\" cy=\"262\" r=\"4\"/><circle class=\"d\" cx=\"70\" cy=\"138\" r=\"4\"/><circle class=\"d\" cx=\"335\" cy=\"225\" r=\"4\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 188,
+       "y": 90,
+       "lx": 110,
+       "ly": 70,
+       "n": "Autostrada A1",
+       "d": "Północ–południe: Gdańsk–Łódź–Śląsk (korytarz Bałtyk–Adriatyk)"
+      },
+      {
+       "x": 120,
+       "y": 142,
+       "lx": 145,
+       "ly": 175,
+       "n": "Autostrada A2",
+       "d": "Zachód–wschód: Świecko–Poznań–Warszawa"
+      },
+      {
+       "x": 260,
+       "y": 102,
+       "lx": 240,
+       "ly": 35,
+       "n": "Via Baltica (S61)",
+       "d": "Do Litwy i państw bałtyckich"
+      },
+      {
+       "x": 320,
+       "y": 125,
+       "lx": 295,
+       "ly": 105,
+       "n": "Via Carpatia (S19)",
+       "d": "Wschodnia Polska: Białystok–Lublin–Rzeszów"
+      },
+      {
+       "x": 130,
+       "y": 241,
+       "lx": 120,
+       "ly": 210,
+       "n": "Autostrada A4",
+       "d": "Południe: Zgorzelec–Wrocław–Katowice–Kraków–Rzeszów"
+      }
+     ]
+    },
+    {
      "id": "s9d4aafe4",
      "typ": "rysunek",
      "tytul": "Struktura zatrudnienia a poziom rozwoju",
