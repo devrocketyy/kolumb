@@ -2225,6 +2225,57 @@
        "d": "Zlodowacenia i pojawienie się człowieka"
       }
      ]
+    },
+    {
+     "id": "s03b1962a",
+     "typ": "rysunek",
+     "tytul": "Cykl skalny (przemiany skał)",
+     "opis": "Uproszczony schemat obiegu materii skalnej — rysunek autorski IndexLab.",
+     "uwaga": "Przykłady przemian: granit → gnejs (metamorfizm), piaskowiec → kwarcyt, wapień → marmur, granit → piasek → piaskowiec (wietrzenie i diageneza).",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gm2 ol\" x=\"140\" y=\"32\" width=\"120\" height=\"36\" rx=\"10\"/><text class=\"tb\" x=\"200\" y=\"55\" text-anchor=\"middle\">magma</text><rect class=\"gs ol\" x=\"270\" y=\"182\" width=\"120\" height=\"36\" rx=\"10\"/><text class=\"tb\" x=\"330\" y=\"205\" text-anchor=\"middle\">skały magmowe</text><rect class=\"gp ol\" x=\"140\" y=\"242\" width=\"120\" height=\"36\" rx=\"10\"/><text class=\"tb\" x=\"200\" y=\"265\" text-anchor=\"middle\">skały osadowe</text><rect class=\"gc ol\" x=\"10\" y=\"182\" width=\"120\" height=\"36\" rx=\"10\"/><text class=\"tb\" x=\"70\" y=\"205\" text-anchor=\"middle\">skały przeobrażone</text><path class=\"hot\" d=\"M250.0 70.0 L320.0 178.0\"/><path class=\"hot\" d=\"M314.2 174.1 L320.0 178.0 L318.8 171.1\"/><path class=\"s\" d=\"M300.0 220.0 L250.0 250.0\"/><path class=\"s\" d=\"M254.1 244.3 L250.0 250.0 L256.9 249.0\"/><path class=\"s\" d=\"M140.0 250.0 L90.0 222.0\"/><path class=\"s\" d=\"M97.0 222.8 L90.0 222.0 L94.3 227.5\"/><path class=\"hot\" d=\"M80.0 178.0 L150.0 70.0\"/><path class=\"hot\" d=\"M148.8 76.9 L150.0 70.0 L144.2 73.9\"/><path class=\"s\" d=\"M320.0 222.0 L130.0 205.0\"/><path class=\"s\" d=\"M136.7 202.9 L130.0 205.0 L136.2 208.3\"/><path class=\"hot\" d=\"M330.0 182.0 L255.0 60.0\"/><path class=\"hot\" d=\"M260.7 64.1 L255.0 60.0 L256.1 66.9\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 290,
+       "y": 125,
+       "lx": 265,
+       "ly": 110,
+       "n": "Krzepnięcie",
+       "d": "Magma stygnie w głębi lub na powierzchni (granit, bazalt)"
+      },
+      {
+       "x": 275,
+       "y": 235,
+       "lx": 250,
+       "ly": 215,
+       "n": "Wietrzenie i sedymentacja",
+       "d": "Okruchy są transportowane i osadzane, potem scementowane (diageneza)"
+      },
+      {
+       "x": 115,
+       "y": 236,
+       "lx": 140,
+       "ly": 292,
+       "n": "Metamorfizm",
+       "d": "Wysoka temperatura i ciśnienie przeobrażają skałę (wapień → marmur)"
+      },
+      {
+       "x": 115,
+       "y": 125,
+       "lx": 140,
+       "ly": 145,
+       "n": "Przetopienie",
+       "d": "W głębi skała topi się i znów staje się magmą"
+      },
+      {
+       "x": 225,
+       "y": 213,
+       "lx": 230,
+       "ly": 170,
+       "n": "Skrót cyklu",
+       "d": "Każda skała może zostać przeobrażona lub zwietrzała bez przejścia całego cyklu"
+      }
+     ]
     }
    ]
   },

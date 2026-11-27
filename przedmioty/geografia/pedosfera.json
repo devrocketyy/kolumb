@@ -1617,6 +1617,57 @@
      ]
     },
     {
+     "id": "sbbb5a5bd",
+     "typ": "rysunek",
+     "tytul": "Strefowość roślinności i gleb od równika do bieguna",
+     "opis": "Uproszczony profil stref roślinnych i glebowych półkuli północnej (bez stref astrefowych) — rysunek autorski IndexLab.",
+     "uwaga": "Strefowość wynika z rozkładu energii słonecznej i opadów. Czynniki astrefowe (góry, prądy morskie, odległość od oceanu) zaburzają ten układ — np. pustynia nadbrzeżna przy zimnym prądzie.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gf2 ol\" x=\"0.0\" y=\"70\" width=\"57.1\" height=\"110\"/><rect class=\"gg ol\" x=\"0.0\" y=\"180\" width=\"57.1\" height=\"60\"/><text class=\"ts\" x=\"28.6\" y=\"256\" text-anchor=\"middle\">ferralitowe</text><rect class=\"gt ol\" x=\"57.1\" y=\"70\" width=\"57.1\" height=\"110\"/><rect class=\"gg ol\" x=\"57.1\" y=\"180\" width=\"57.1\" height=\"60\"/><text class=\"ts\" x=\"85.7\" y=\"256\" text-anchor=\"middle\">czerwone</text><rect class=\"gp ol\" x=\"114.3\" y=\"70\" width=\"57.1\" height=\"110\"/><rect class=\"gg ol\" x=\"114.3\" y=\"180\" width=\"57.1\" height=\"60\"/><text class=\"ts\" x=\"142.9\" y=\"256\" text-anchor=\"middle\">pustynne</text><rect class=\"gl ol\" x=\"171.4\" y=\"70\" width=\"57.1\" height=\"110\"/><rect class=\"gg ol\" x=\"171.4\" y=\"180\" width=\"57.1\" height=\"60\"/><text class=\"ts\" x=\"200.0\" y=\"256\" text-anchor=\"middle\">czarnoziemy</text><rect class=\"gf ol\" x=\"228.6\" y=\"70\" width=\"57.1\" height=\"110\"/><rect class=\"gg ol\" x=\"228.6\" y=\"180\" width=\"57.1\" height=\"60\"/><text class=\"ts\" x=\"257.1\" y=\"256\" text-anchor=\"middle\">brunatne</text><rect class=\"gf2 ol\" x=\"285.7\" y=\"70\" width=\"57.1\" height=\"110\"/><rect class=\"gg ol\" x=\"285.7\" y=\"180\" width=\"57.1\" height=\"60\"/><text class=\"ts\" x=\"314.3\" y=\"256\" text-anchor=\"middle\">bielicowe</text><rect class=\"gi ol\" x=\"342.9\" y=\"70\" width=\"57.1\" height=\"110\"/><rect class=\"gg ol\" x=\"342.9\" y=\"180\" width=\"57.1\" height=\"60\"/><text class=\"ts\" x=\"371.4\" y=\"256\" text-anchor=\"middle\">glejowe</text><text class=\"tb\" x=\"8\" y=\"60\">0° (równik)</text><text class=\"tb\" x=\"392\" y=\"60\" text-anchor=\"end\">90° (biegun)</text><path class=\"s\" d=\"M20.0 272.0 L380.0 272.0\"/><path class=\"s\" d=\"M373.6 274.7 L380.0 272.0 L373.6 269.3\"/><text class=\"ts\" x=\"200\" y=\"290\" text-anchor=\"middle\">maleje dopływ energii słonecznej</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 28,
+       "y": 120,
+       "lx": 50,
+       "ly": 20,
+       "n": "Las równikowy",
+       "d": "Ciepło i wilgotno cały rok — gleby ferralitowe"
+      },
+      {
+       "x": 142,
+       "y": 120,
+       "lx": 160,
+       "ly": 42,
+       "n": "Pustynia",
+       "d": "Wyż zwrotnikowy — skrajny niedobór wody"
+      },
+      {
+       "x": 200,
+       "y": 120,
+       "lx": 250,
+       "ly": 62,
+       "n": "Step",
+       "d": "Czarnoziemy — najżyźniejsze gleby świata"
+      },
+      {
+       "x": 314,
+       "y": 120,
+       "lx": 300,
+       "ly": 225,
+       "n": "Tajga",
+       "d": "Gleby bielicowe pod lasem iglastym"
+      },
+      {
+       "x": 371,
+       "y": 120,
+       "lx": 360,
+       "ly": 250,
+       "n": "Tundra",
+       "d": "Wieloletnia zmarzlina, krótkie lato"
+      }
+     ]
+    },
+    {
      "id": "s30fa60f6",
      "typ": "rysunek",
      "tytul": "Piętra klimatyczno-roślinne w Andach",

@@ -1846,6 +1846,49 @@
      ]
     },
     {
+     "id": "s7b086a5b",
+     "typ": "rysunek",
+     "tytul": "Ustrój monsunowy rzeki (hydrogram)",
+     "opis": "Schematyczny hydrogram rzeki o ustroju monsunowym (wartości względne) — rysunek autorski IndexLab.",
+     "uwaga": "Rzeki monsunowe (Ganges, Brahmaputra, Mekong, Jangcy) mają ogromne letnie wezbrania i powodzie; zimą przepływy są wielokrotnie mniejsze. Porównaj z ustrojem śnieżnym rzek Polski (wezbranie wiosenne).",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gw2\" d=\"M59 250 L59,229 L86,233 L114,233 L141,225 L169,208 L196,134 L224,50 L251,40 L279,82 L306,166 L334,208 L361,225 L361 250 Z\" style=\"opacity:.5\"/><polyline class=\"cold\" fill=\"none\" points=\"59,229 86,233 114,233 141,225 169,208 196,134 224,50 251,40 279,82 306,166 334,208 361,225\" style=\"stroke-width:2.4\"/><path class=\"s\" d=\"M45 40 V250 H375\"/><text class=\"ts\" x=\"59\" y=\"264\" text-anchor=\"middle\">I</text><text class=\"ts\" x=\"86\" y=\"264\" text-anchor=\"middle\">F</text><text class=\"ts\" x=\"114\" y=\"264\" text-anchor=\"middle\">M</text><text class=\"ts\" x=\"141\" y=\"264\" text-anchor=\"middle\">A</text><text class=\"ts\" x=\"169\" y=\"264\" text-anchor=\"middle\">M</text><text class=\"ts\" x=\"196\" y=\"264\" text-anchor=\"middle\">J</text><text class=\"ts\" x=\"224\" y=\"264\" text-anchor=\"middle\">J</text><text class=\"ts\" x=\"251\" y=\"264\" text-anchor=\"middle\">A</text><text class=\"ts\" x=\"279\" y=\"264\" text-anchor=\"middle\">S</text><text class=\"ts\" x=\"306\" y=\"264\" text-anchor=\"middle\">O</text><text class=\"ts\" x=\"334\" y=\"264\" text-anchor=\"middle\">N</text><text class=\"ts\" x=\"361\" y=\"264\" text-anchor=\"middle\">D</text><text class=\"ts\" x=\"39\" y=\"44\" text-anchor=\"end\">max</text><text class=\"ts\" x=\"39\" y=\"250\" text-anchor=\"end\">min</text><text class=\"tb\" x=\"210\" y=\"285\" text-anchor=\"middle\">przepływ rzeki w ciągu roku (np. Ganges)</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 237,
+       "y": 50,
+       "lx": 212,
+       "ly": 30,
+       "n": "Wezbranie letnie",
+       "d": "VII–IX — ulewy monsunu letniego (i topnienie w Himalajach)"
+      },
+      {
+       "x": 100,
+       "y": 230,
+       "lx": 120,
+       "ly": 180,
+       "n": "Niżówka zimowa",
+       "d": "Monsun zimowy — sucha pora, niski przepływ"
+      },
+      {
+       "x": 183,
+       "y": 175,
+       "lx": 208,
+       "ly": 120,
+       "n": "Gwałtowny wzrost",
+       "d": "Czerwiec — nadejście monsunu letniego"
+      },
+      {
+       "x": 320,
+       "y": 200,
+       "lx": 295,
+       "ly": 160,
+       "n": "Opadanie",
+       "d": "Jesień — koniec pory deszczowej"
+      }
+     ]
+    },
+    {
      "id": "s7f021056",
      "typ": "rysunek",
      "tytul": "Ustrój rzeki nizinnej (śnieżny)",

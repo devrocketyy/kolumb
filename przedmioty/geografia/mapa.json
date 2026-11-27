@@ -961,6 +961,51 @@
      "wyjasnienie": "Pokazuje jedno zjawisko.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s46c197e0",
+     "typ": "rysunek",
+     "tytul": "Rodzaje odwzorowań kartograficznych (siatki)",
+     "opis": "Wygląd siatki kartograficznej w trzech podstawowych odwzorowaniach — rysunek autorski IndexLab.",
+     "uwaga": "Rodzaj odwzorowania rozpoznasz po siatce: proste prostopadłe — walcowe; łuki równoleżników i zbiegające się południki — stożkowe; koncentryczne okręgi — azymutalne (biegunowe).",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gw ol\" x=\"20\" y=\"60\" width=\"100\" height=\"140\"/><path class=\"s\" d=\"M20 85 H120\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M20 110 H120\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M20 130 H120\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M20 150 H120\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M20 175 H120\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M40 60 V200\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M60 60 V200\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M80 60 V200\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M100 60 V200\" style=\"stroke-width:.8\"/><path class=\"gw ol\" d=\"M200 60 L145 200 C180 215 220 215 255 200 Z\"/><path class=\"s\" fill=\"none\" d=\"M175 123 C191 128 209 128 225 123\" style=\"stroke-width:.8\"/><path class=\"s\" fill=\"none\" d=\"M164 151 C187 159 213 159 236 151\" style=\"stroke-width:.8\"/><path class=\"s\" fill=\"none\" d=\"M153 179 C183 189 217 189 247 179\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M200 60 L146 205\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M200 60 L182 205\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M200 60 L218 205\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M200 60 L254 205\" style=\"stroke-width:.8\"/><circle class=\"gw ol\" cx=\"330\" cy=\"130\" r=\"60\"/><circle class=\"s\" cx=\"330\" cy=\"130\" r=\"20\" style=\"fill:none;stroke-width:.8\"/><circle class=\"s\" cx=\"330\" cy=\"130\" r=\"40\" style=\"fill:none;stroke-width:.8\"/><path class=\"s\" d=\"M270.0 130.0 L390.0 130.0\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M278.0 100.0 L382.0 160.0\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M300.0 78.0 L360.0 182.0\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M330.0 70.0 L330.0 190.0\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M360.0 78.0 L300.0 182.0\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M382.0 100.0 L278.0 160.0\" style=\"stroke-width:.8\"/><text class=\"tb\" x=\"70\" y=\"40\" text-anchor=\"middle\">walcowe</text><text class=\"tb\" x=\"200\" y=\"40\" text-anchor=\"middle\">stożkowe</text><text class=\"tb\" x=\"330\" y=\"40\" text-anchor=\"middle\">azymutalne</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 70,
+       "y": 130,
+       "lx": 95,
+       "ly": 235,
+       "n": "Siatka prostokątna",
+       "d": "Południki i równoleżniki to proste prostopadłe — mapy świata (Merkator)"
+      },
+      {
+       "x": 200,
+       "y": 160,
+       "lx": 215,
+       "ly": 262,
+       "n": "Łuki i promienie",
+       "d": "Równoleżniki to łuki, południki zbiegają się — mapy średnich szerokości (Europa, Polska)"
+      },
+      {
+       "x": 330,
+       "y": 130,
+       "lx": 305,
+       "ly": 285,
+       "n": "Okręgi i promienie",
+       "d": "Równoleżniki to okręgi wokół bieguna — mapy obszarów polarnych"
+      },
+      {
+       "x": 20,
+       "y": 60,
+       "lx": 40,
+       "ly": 20,
+       "n": "Zniekształcenia",
+       "d": "Każde odwzorowanie zniekształca kąty, odległości albo powierzchnie"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2548,6 +2593,57 @@
        "ly": 265,
        "n": "Źródłowe potoki",
        "d": "Spływają z przełęczy na obie strony grzbietu"
+      }
+     ]
+    },
+    {
+     "id": "s6b977bd2",
+     "typ": "rysunek",
+     "tytul": "Formy terenu na mapie topograficznej — sygnatury",
+     "opis": "Wybrane sygnatury form rzeźby na mapie topograficznej (uproszczone) — rysunek autorski IndexLab.",
+     "uwaga": "Na maturze często trzeba rozpoznać formę z mapy: wąwóz (skarpy po obu stronach), wydmy (łuki poziomic), zagłębienie (kreski spadu do środka), hałdę i wyrobisko (formy antropogeniczne przy kopalniach).",
+     "svg": "<rect class=\"gt\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"s\" d=\"M20 60 H180\" style=\"stroke-width:1.6\"/><path class=\"s\" d=\"M24 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M32 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M40 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M48 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M56 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M64 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M72 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M80 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M88 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M96 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M104 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M112 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M120 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M128 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M136 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M144 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M152 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M160 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M168 60 v8\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M176 60 v8\" style=\"stroke-width:1\"/><text class=\"ts\" x=\"100\" y=\"45\" text-anchor=\"middle\">skarpa</text><path class=\"s\" d=\"M220 40 C230 90 235 140 230 180\" style=\"fill:none;stroke-width:1.6\"/><path class=\"s\" d=\"M260 40 C255 90 255 140 262 180\" style=\"fill:none;stroke-width:1.6\"/><path class=\"s\" d=\"M228 48 h7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M256 48 h-7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M229 58 h7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M256 58 h-7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M229 68 h7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M256 68 h-7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M229 78 h7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M256 78 h-7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M229 88 h7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M256 88 h-7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M230 98 h7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M255 98 h-7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M230 108 h7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M255 108 h-7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M230 118 h7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M255 118 h-7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M231 128 h7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M255 128 h-7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M231 138 h7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M255 138 h-7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M231 148 h7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M255 148 h-7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M232 158 h7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M255 158 h-7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M232 168 h7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M255 168 h-7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M232 178 h7\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M255 178 h-7\" style=\"stroke-width:1\"/><text class=\"ts\" x=\"245\" y=\"30\" text-anchor=\"middle\">wąwóz</text><path class=\"s\" fill=\"none\" d=\"M300 120 C310 90 340 90 350 120\" style=\"stroke-width:1.4\"/><path class=\"s\" fill=\"none\" d=\"M310 120 C318 102 332 102 340 120\" style=\"stroke-width:1.2\"/><path class=\"s\" fill=\"none\" d=\"M340 120 C350 90 380 90 390 120\" style=\"stroke-width:1.4\"/><path class=\"s\" fill=\"none\" d=\"M350 120 C358 102 372 102 380 120\" style=\"stroke-width:1.2\"/><rect class=\"gp\" x=\"295\" y=\"125\" width=\"100\" height=\"0\"/><text class=\"ts\" x=\"345\" y=\"140\" text-anchor=\"middle\">wydmy</text><ellipse class=\"s\" cx=\"90\" cy=\"200\" rx=\"60\" ry=\"35\" style=\"fill:none;stroke-width:1.4\"/><ellipse class=\"s\" cx=\"90\" cy=\"200\" rx=\"35\" ry=\"20\" style=\"fill:none;stroke-width:1.4\"/><path class=\"s\" d=\"M125 200 L118 200\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M115 214 L110 211\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M90 220 L90 215\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M65 214 L70 211\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M55 200 L62 200\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M65 186 L70 189\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M90 180 L90 185\" style=\"stroke-width:1\"/><path class=\"s\" d=\"M115 186 L110 189\" style=\"stroke-width:1\"/><text class=\"ts\" x=\"90\" y=\"255\" text-anchor=\"middle\">zagłębienie bezodpływowe</text><circle class=\"s\" cx=\"300\" cy=\"220\" r=\"45\" style=\"fill:none;stroke-width:1.4\"/><circle class=\"s\" cx=\"300\" cy=\"220\" r=\"25\" style=\"fill:none;stroke-width:1.4\"/><circle class=\"d\" cx=\"300\" cy=\"220\" r=\"3\"/><text class=\"tb\" x=\"308\" y=\"216\">214,5</text><text class=\"ts\" x=\"300\" y=\"285\" text-anchor=\"middle\">kulminacja z punktem wysokościowym</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 100,
+       "y": 64,
+       "lx": 140,
+       "ly": 95,
+       "n": "Ząbki skarpy",
+       "d": "Skierowane w dół skarpy"
+      },
+      {
+       "x": 245,
+       "y": 120,
+       "lx": 300,
+       "ly": 70,
+       "n": "Wąwóz",
+       "d": "Strome ściany z obu stron — ząbki do środka"
+      },
+      {
+       "x": 325,
+       "y": 105,
+       "lx": 300,
+       "ly": 175,
+       "n": "Wydmy",
+       "d": "Łukowate, drobne poziomice na terenie piaszczystym"
+      },
+      {
+       "x": 90,
+       "y": 200,
+       "lx": 170,
+       "ly": 140,
+       "n": "Kreski spadu",
+       "d": "Skierowane do środka — zagłębienie, nie wzgórze"
+      },
+      {
+       "x": 300,
+       "y": 220,
+       "lx": 230,
+       "ly": 260,
+       "n": "Punkt wysokościowy",
+       "d": "Kropka z liczbą — wysokość n.p.m. szczytu"
       }
      ]
     }
