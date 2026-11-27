@@ -758,6 +758,57 @@
    ],
    "schematy": [
     {
+     "id": "s43266f9a",
+     "typ": "rysunek",
+     "tytul": "Linia zmiany daty (schemat)",
+     "opis": "Uproszczony schemat linii zmiany daty na Pacyfiku (bez skali) — rysunek autorski IndexLab.",
+     "uwaga": "Przekraczając linię zmiany daty z zachodu na wschód (np. z Japonii do USA) cofamy datę o jedną dobę, a ze wschodu na zachód — dodajemy dobę. Godzina się przy tym nie zmienia.",
+     "svg": "<rect class=\"gw\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"hot\" d=\"M200 0 V60 L215 90 L215 140 L190 175 L190 230 L205 260 V300\" style=\"fill:none;stroke-width:2.6\"/><path class=\"dash\" d=\"M200 0 V300\"/><path class=\"gl ol\" d=\"M150 40 C170 45 180 60 178 75 C160 80 145 65 150 40 Z\"/><path class=\"gl ol\" d=\"M240 60 C260 55 280 70 270 95 C255 100 240 85 240 60 Z\"/><circle class=\"gl ol\" cx=\"235\" cy=\"160\" r=\"5\"/><circle class=\"gl ol\" cx=\"245\" cy=\"170\" r=\"5\"/><circle class=\"gl ol\" cx=\"160\" cy=\"200\" r=\"5\"/><circle class=\"gl ol\" cx=\"172\" cy=\"215\" r=\"5\"/><circle class=\"gl ol\" cx=\"228\" cy=\"240\" r=\"5\"/><text class=\"tb\" x=\"100\" y=\"150\" text-anchor=\"middle\">wtorek</text><text class=\"tb\" x=\"300\" y=\"150\" text-anchor=\"middle\">poniedziałek</text><path class=\"s\" d=\"M120.0 270.0 L80.0 270.0\"/><path class=\"s\" d=\"M86.4 267.3 L80.0 270.0 L86.4 272.7\"/><path class=\"s\" d=\"M280.0 270.0 L320.0 270.0\"/><path class=\"s\" d=\"M313.6 272.7 L320.0 270.0 L313.6 267.3\"/><text class=\"ts\" x=\"100\" y=\"290\" text-anchor=\"middle\">płynąc na zachód: +1 doba</text><text class=\"ts\" x=\"300\" y=\"290\" text-anchor=\"middle\">płynąc na wschód: −1 doba</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 30,
+       "lx": 260,
+       "ly": 20,
+       "n": "Południk 180°",
+       "d": "Linia zmiany daty biegnie w przybliżeniu wzdłuż niego"
+      },
+      {
+       "x": 215,
+       "y": 115,
+       "lx": 190,
+       "ly": 105,
+       "n": "Odchylenia linii",
+       "d": "Omija lądy i archipelagi, by jedno państwo miało jedną datę"
+      },
+      {
+       "x": 100,
+       "y": 150,
+       "lx": 125,
+       "ly": 200,
+       "n": "Strona zachodnia",
+       "d": "Na zachód od linii data jest o dobę późniejsza (Azja, Oceania)"
+      },
+      {
+       "x": 165,
+       "y": 58,
+       "lx": 70,
+       "ly": 40,
+       "n": "Czukotka",
+       "d": "Rosja — po stronie „jutra”"
+      },
+      {
+       "x": 255,
+       "y": 78,
+       "lx": 330,
+       "ly": 60,
+       "n": "Alaska",
+       "d": "USA — po stronie „wczoraj”"
+      }
+     ]
+    },
+    {
      "id": "sbb4dd7bc",
      "typ": "proces",
      "tytul": "Obliczanie czasu słonecznego i strefowego",
@@ -2486,6 +2537,49 @@
        "ly": 120,
        "n": "Południe słoneczne",
        "d": "Słońce zawsze góruje dokładnie na S"
+      }
+     ]
+    },
+    {
+     "id": "s58e5ff6c",
+     "typ": "rysunek",
+     "tytul": "Drogi Słońca nad horyzontem na 30°S",
+     "opis": "Pozorne drogi Słońca na szerokości 30°S (np. okolice Durbanu, Porto Alegre) — rysunek autorski IndexLab.",
+     "uwaga": "Na półkuli południowej pory roku są odwrócone: najwyżej Słońce góruje 22 grudnia, najniżej 22 czerwca. Wschodzi na E/SE latem i NE zimą — odwrotnie niż w Polsce.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gt ol\" d=\"M0 230 H400 V300 H0 Z\"/><path class=\"hot\" fill=\"none\" d=\"M40 230 Q200 -137 360 230\" style=\"stroke-width:2.2\"/><circle class=\"hotf\" cx=\"200\" cy=\"46\" r=\"7\"/><text class=\"ts\" x=\"210\" y=\"37\">22 XII · 83,5°</text><path class=\"s\" fill=\"none\" d=\"M90 230 Q200 -34 310 230\" style=\"stroke-width:2.2\"/><circle class=\"gs2\" cx=\"200\" cy=\"98\" r=\"7\"/><text class=\"ts\" x=\"210\" y=\"89\">21 III / 23 IX · 60°</text><path class=\"cold\" fill=\"none\" d=\"M140 230 Q200 69 260 230\" style=\"stroke-width:2.2\"/><circle class=\"coldf\" cx=\"200\" cy=\"150\" r=\"7\"/><text class=\"ts\" x=\"210\" y=\"141\">22 VI · 36,5°</text><path class=\"dash\" d=\"M200 230 V30\"/><text class=\"tb\" x=\"40\" y=\"250\" text-anchor=\"middle\">SE</text><text class=\"tb\" x=\"90\" y=\"250\" text-anchor=\"middle\">E</text><text class=\"tb\" x=\"140\" y=\"250\" text-anchor=\"middle\">NE</text><text class=\"tb\" x=\"200\" y=\"250\" text-anchor=\"middle\">N</text><text class=\"tb\" x=\"260\" y=\"250\" text-anchor=\"middle\">NW</text><text class=\"tb\" x=\"310\" y=\"250\" text-anchor=\"middle\">W</text><text class=\"tb\" x=\"360\" y=\"250\" text-anchor=\"middle\">SW</text><text class=\"ts\" x=\"200\" y=\"285\" text-anchor=\"middle\">widok na północ · horyzont · 30°S</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 46,
+       "lx": 225,
+       "ly": 30,
+       "n": "Lato na półkuli S",
+       "d": "22 XII: 90° − 30° + 23°26′ ≈ 83,5°"
+      },
+      {
+       "x": 200,
+       "y": 98,
+       "lx": 300,
+       "ly": 80,
+       "n": "Równonoc",
+       "d": "90° − 30° = 60°"
+      },
+      {
+       "x": 200,
+       "y": 150,
+       "lx": 175,
+       "ly": 160,
+       "n": "Zima na półkuli S",
+       "d": "22 VI: 90° − 30° − 23°26′ ≈ 36,5°"
+      },
+      {
+       "x": 200,
+       "y": 200,
+       "lx": 225,
+       "ly": 200,
+       "n": "Górowanie na północy",
+       "d": "Na półkuli S (poza zwrotnikiem) Słońce góruje nad północnym horyzontem"
       }
      ]
     }

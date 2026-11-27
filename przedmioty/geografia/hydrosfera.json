@@ -928,6 +928,57 @@
      ]
     },
     {
+     "id": "sa0638aab",
+     "typ": "rysunek",
+     "tytul": "Wiry prądów oceanicznych (model oceanu)",
+     "opis": "Model krążenia wód powierzchniowych w oceanie między dwoma kontynentami — rysunek autorski IndexLab.",
+     "uwaga": "Wiry oceaniczne napędzają pasaty i wiatry zachodnie, a siła Coriolisa skręca ruch wody. Efekt: zachodnie wybrzeża kontynentów w strefie zwrotnikowej są chłodne i suche (pustynie nadbrzeżne), wschodnie — ciepłe i wilgotne.",
+     "svg": "<rect class=\"gw\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"dash\" d=\"M0 150 H400\"/><text class=\"ts\" x=\"4\" y=\"146\">równik</text><path class=\"gl ol\" d=\"M0 20 H40 C50 80 45 220 35 280 H0 Z\"/><path class=\"gl ol\" d=\"M400 20 H360 C350 80 355 220 365 280 H400 Z\"/><path class=\"hot\" fill=\"none\" d=\"M80 135 C75 100 85 70 110 58\" style=\"stroke-width:2.4\"/><path class=\"hot\" d=\"M84.0 90.0 L92.0 74.0\"/><path class=\"hot\" d=\"M91.6 81.0 L92.0 74.0 L86.7 78.5\"/><path class=\"s\" fill=\"none\" d=\"M110 58 C170 45 240 45 290 58\" style=\"stroke-width:2.4\"/><path class=\"s\" d=\"M190.0 49.0 L215.0 49.0\"/><path class=\"s\" d=\"M208.6 51.7 L215.0 49.0 L208.6 46.3\"/><path class=\"cold\" fill=\"none\" d=\"M290 58 C315 70 325 100 320 135\" style=\"stroke-width:2.4\"/><path class=\"cold\" d=\"M320.0 105.0 L321.0 122.0\"/><path class=\"cold\" d=\"M317.9 115.7 L321.0 122.0 L323.3 115.4\"/><path class=\"hot\" fill=\"none\" d=\"M320 135 C250 142 150 142 80 135\" style=\"stroke-width:2.4\"/><path class=\"hot\" d=\"M220.0 141.0 L190.0 141.0\"/><path class=\"hot\" d=\"M196.4 138.3 L190.0 141.0 L196.4 143.7\"/><path class=\"hot\" fill=\"none\" d=\"M80 165 C75 200 85 230 110 242\" style=\"stroke-width:2.4\"/><path class=\"hot\" d=\"M84.0 210.0 L92.0 226.0\"/><path class=\"hot\" d=\"M86.7 221.5 L92.0 226.0 L91.6 219.0\"/><path class=\"s\" fill=\"none\" d=\"M110 242 C170 255 240 255 290 242\" style=\"stroke-width:2.4\"/><path class=\"s\" d=\"M190.0 251.0 L215.0 251.0\"/><path class=\"s\" d=\"M208.6 253.7 L215.0 251.0 L208.6 248.3\"/><path class=\"cold\" fill=\"none\" d=\"M290 242 C315 230 325 200 320 165\" style=\"stroke-width:2.4\"/><path class=\"cold\" d=\"M321.0 195.0 L320.0 178.0\"/><path class=\"cold\" d=\"M323.1 184.3 L320.0 178.0 L317.7 184.6\"/><path class=\"hot\" fill=\"none\" d=\"M320 165 C250 158 150 158 80 165\" style=\"stroke-width:2.4\"/><path class=\"hot\" d=\"M220.0 159.0 L190.0 159.0\"/><path class=\"hot\" d=\"M196.4 156.3 L190.0 159.0 L196.4 161.7\"/><text class=\"tb\" x=\"20\" y=\"14\">kontynent W</text><text class=\"tb\" x=\"380\" y=\"14\" text-anchor=\"end\">kontynent E</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 82,
+       "y": 100,
+       "lx": 100,
+       "ly": 95,
+       "n": "Prąd ciepły przy E brzegu",
+       "d": "Wschodnie wybrzeża kontynentów: ciepłe prądy (Golfsztrom, Brazylijski)"
+      },
+      {
+       "x": 321,
+       "y": 100,
+       "lx": 300,
+       "ly": 75,
+       "n": "Prąd zimny przy W brzegu",
+       "d": "Zachodnie wybrzeża: zimne prądy (Kanaryjski, Kalifornijski)"
+      },
+      {
+       "x": 200,
+       "y": 141,
+       "lx": 120,
+       "ly": 125,
+       "n": "Prądy równikowe",
+       "d": "Pasaty pchają wodę ze wschodu na zachód"
+      },
+      {
+       "x": 250,
+       "y": 250,
+       "lx": 200,
+       "ly": 280,
+       "n": "Wir półkuli S",
+       "d": "Krąży przeciwnie do ruchu wskazówek zegara"
+      },
+      {
+       "x": 250,
+       "y": 50,
+       "lx": 260,
+       "ly": 25,
+       "n": "Wir półkuli N",
+       "d": "Krąży zgodnie z ruchem wskazówek zegara"
+      }
+     ]
+    },
+    {
      "id": "s68b5883f",
      "typ": "rysunek",
      "tytul": "Prądy morskie Atlantyku Północnego",

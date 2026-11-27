@@ -1316,6 +1316,57 @@
      ]
     },
     {
+     "id": "s01e3f703",
+     "typ": "rysunek",
+     "tytul": "Gospodarka liniowa a gospodarka o obiegu zamkniętym",
+     "opis": "Porównanie dwóch modeli gospodarki — rysunek autorski IndexLab.",
+     "uwaga": "Gospodarka o obiegu zamkniętym (cyrkularna) to cel polityki UE. Przykłady: kaucja za butelki, prawo do naprawy, recykling elektroodpadów (odzysk metali z telefonów).",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gs2 ol\" x=\"20\" y=\"30\" width=\"80\" height=\"30\" rx=\"6\"/><text class=\"tb\" x=\"60\" y=\"50\" text-anchor=\"middle\">surowce</text><path class=\"s\" d=\"M102.0 45.0 L113.0 45.0\"/><path class=\"s\" d=\"M106.6 47.7 L113.0 45.0 L106.6 42.3\"/><rect class=\"gs2 ol\" x=\"115\" y=\"30\" width=\"80\" height=\"30\" rx=\"6\"/><text class=\"tb\" x=\"155\" y=\"50\" text-anchor=\"middle\">produkcja</text><path class=\"s\" d=\"M197.0 45.0 L208.0 45.0\"/><path class=\"s\" d=\"M201.6 47.7 L208.0 45.0 L201.6 42.3\"/><rect class=\"gs2 ol\" x=\"210\" y=\"30\" width=\"80\" height=\"30\" rx=\"6\"/><text class=\"tb\" x=\"250\" y=\"50\" text-anchor=\"middle\">użycie</text><path class=\"s\" d=\"M292.0 45.0 L303.0 45.0\"/><path class=\"s\" d=\"M296.6 47.7 L303.0 45.0 L296.6 42.3\"/><rect class=\"gs2 ol\" x=\"305\" y=\"30\" width=\"80\" height=\"30\" rx=\"6\"/><text class=\"tb\" x=\"345\" y=\"50\" text-anchor=\"middle\">odpady</text><rect class=\"gt ol\" x=\"162\" y=\"102\" width=\"76\" height=\"26\" rx=\"6\"/><text class=\"tb\" x=\"200\" y=\"120\" text-anchor=\"middle\">projekt</text><circle class=\"hotf\" cx=\"244\" cy=\"129\" r=\"4\"/><rect class=\"gt ol\" x=\"233\" y=\"154\" width=\"76\" height=\"26\" rx=\"6\"/><text class=\"tb\" x=\"271\" y=\"172\" text-anchor=\"middle\">produkcja</text><circle class=\"hotf\" cx=\"271\" cy=\"213\" r=\"4\"/><rect class=\"gt ol\" x=\"206\" y=\"238\" width=\"76\" height=\"26\" rx=\"6\"/><text class=\"tb\" x=\"244\" y=\"256\" text-anchor=\"middle\">użycie</text><circle class=\"hotf\" cx=\"200\" cy=\"265\" r=\"4\"/><rect class=\"gt ol\" x=\"118\" y=\"238\" width=\"76\" height=\"26\" rx=\"6\"/><text class=\"tb\" x=\"156\" y=\"256\" text-anchor=\"middle\">naprawa</text><circle class=\"hotf\" cx=\"129\" cy=\"213\" r=\"4\"/><rect class=\"gt ol\" x=\"91\" y=\"154\" width=\"76\" height=\"26\" rx=\"6\"/><text class=\"tb\" x=\"129\" y=\"172\" text-anchor=\"middle\">recykling</text><circle class=\"hotf\" cx=\"156\" cy=\"129\" r=\"4\"/><circle class=\"dash\" cx=\"200\" cy=\"190\" r=\"75\" style=\"fill:none\"/><text class=\"ts\" x=\"200\" y=\"22\" text-anchor=\"middle\">gospodarka liniowa</text><text class=\"ts\" x=\"200\" y=\"296\" text-anchor=\"middle\">gospodarka o obiegu zamkniętym</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 345,
+       "y": 45,
+       "lx": 330,
+       "ly": 85,
+       "n": "Odpady na końcu",
+       "d": "Model „weź–wyprodukuj–wyrzuć” — rosnące składowiska"
+      },
+      {
+       "x": 238,
+       "y": 115,
+       "lx": 300,
+       "ly": 125,
+       "n": "Projekt",
+       "d": "Produkt projektuje się tak, by dało się go naprawić i odzyskać"
+      },
+      {
+       "x": 153,
+       "y": 251,
+       "lx": 70,
+       "ly": 285,
+       "n": "Naprawa",
+       "d": "Wydłużenie życia produktu zamiast kupna nowego"
+      },
+      {
+       "x": 128,
+       "y": 167,
+       "lx": 153,
+       "ly": 140,
+       "n": "Recykling",
+       "d": "Odzysk surowców wtórnych — zamyka obieg"
+      },
+      {
+       "x": 200,
+       "y": 190,
+       "lx": 182,
+       "ly": 215,
+       "n": "Mniej surowców pierwotnych",
+       "d": "Obieg zmniejsza wydobycie i ilość odpadów"
+      }
+     ]
+    },
+    {
      "id": "scce45d98",
      "typ": "proces",
      "tytul": "Efekt cieplarniany — łańcuch przyczyn i skutków",

@@ -1122,6 +1122,57 @@
      ]
     },
     {
+     "id": "s3226259e",
+     "typ": "rysunek",
+     "tytul": "Pacyficzny Pierścień Ognia (schemat)",
+     "opis": "Uproszczony schemat strefy wulkanów i trzęsień ziemi wokół Pacyfiku — rysunek autorski IndexLab (bez skali i odwzorowania).",
+     "uwaga": "Ok. 75% czynnych wulkanów i ok. 90% trzęsień ziemi występuje wokół Pacyfiku, gdzie płyty oceaniczne wsuwają się pod inne płyty (subdukcja). Tu powstają też tsunami.",
+     "svg": "<rect class=\"gw\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gl ol\" d=\"M0 0 H120 C110 60 90 120 70 160 C60 200 80 250 60 300 H0 Z\"/><path class=\"gl ol\" d=\"M400 0 H300 C310 60 330 110 320 150 C310 200 330 250 340 300 H400 Z\"/><path class=\"gl ol\" d=\"M120 0 C160 10 240 10 300 0 Z\"/><path class=\"hot\" fill=\"none\" d=\"M100 270 C110 200 100 120 130 40 C180 20 250 20 290 40 C315 110 310 200 325 270\" style=\"stroke-width:3;stroke-dasharray:6 4\"/><path class=\"gm ol\" d=\"M106 235 L112 224 L118 235 Z\"/><path class=\"gm ol\" d=\"M102 165 L108 154 L114 165 Z\"/><path class=\"gm ol\" d=\"M116 95 L122 84 L128 95 Z\"/><path class=\"gm ol\" d=\"M164 37 L170 26 L176 37 Z\"/><path class=\"gm ol\" d=\"M234 35 L240 24 L246 35 Z\"/><path class=\"gm ol\" d=\"M289 75 L295 64 L301 75 Z\"/><path class=\"gm ol\" d=\"M306 145 L312 134 L318 145 Z\"/><path class=\"gm ol\" d=\"M312 215 L318 204 L324 215 Z\"/><text class=\"tb\" x=\"210\" y=\"160\" text-anchor=\"middle\">Ocean Spokojny</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 122,
+       "y": 90,
+       "lx": 180,
+       "ly": 90,
+       "n": "Japonia i Kuryle",
+       "d": "Subdukcja płyty pacyficznej — łuki wysp"
+      },
+      {
+       "x": 240,
+       "y": 30,
+       "lx": 260,
+       "ly": 70,
+       "n": "Aleuty i Alaska",
+       "d": "Rowy oceaniczne i wulkany na północy Pacyfiku"
+      },
+      {
+       "x": 312,
+       "y": 140,
+       "lx": 250,
+       "ly": 130,
+       "n": "Kordyliery i Andy",
+       "d": "Subdukcja pod kontynenty amerykańskie"
+      },
+      {
+       "x": 108,
+       "y": 160,
+       "lx": 160,
+       "ly": 200,
+       "n": "Filipiny i Indonezja",
+       "d": "Liczne wulkany i silne trzęsienia ziemi"
+      },
+      {
+       "x": 318,
+       "y": 210,
+       "lx": 260,
+       "ly": 240,
+       "n": "Chile",
+       "d": "Najsilniejsze zmierzone trzęsienie (1960, M 9,5)"
+      }
+     ]
+    },
+    {
      "id": "s64a3b173",
      "typ": "rysunek",
      "tytul": "Subdukcja na granicy płyt",
