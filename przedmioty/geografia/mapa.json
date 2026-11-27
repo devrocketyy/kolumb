@@ -238,6 +238,90 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
+     "id": "f3e63d8b6",
+     "przod": "Obliczanie długości trasy krętej",
+     "tyl": "Mierz odcinkami (nitka, cyrkiel) i sumuj; prosta linia zaniża wynik.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "ff9974733",
+     "przod": "Czas wędrówki — reguła Naismitha (uproszczona)",
+     "tyl": "Ok. 4–5 km/h po płaskim + ok. 1 h na każde 600 m podejścia (CKE podaje własne założenia).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fe066fe49",
+     "przod": "Średnia prędkość",
+     "tyl": "Droga / czas — sprawdzaj, czy w zadaniu jest czas z postojami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f437bab4a",
+     "przod": "Skala a dokładność mapy",
+     "tyl": "Im większa skala, tym mniejsza generalizacja i więcej szczegółów.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f0a693fa5",
+     "przod": "Skala na globusie",
+     "tyl": "Stała we wszystkich kierunkach — brak zniekształceń.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f5fc01fc9",
+     "przod": "Odwzorowanie Merkatora",
+     "tyl": "Wiernokątne; zniekształca powierzchnie ku biegunom (Grenlandia wygląda jak Afryka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f4a273d86",
+     "przod": "Odwzorowanie wiernopowierzchniowe",
+     "tyl": "Zachowuje proporcje powierzchni — do map gęstości, rozmieszczenia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fa154ff4e",
+     "przod": "Odwzorowanie azymutalne",
+     "tyl": "Rzutowanie na płaszczyznę styczną — mapy okołobiegunowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fdf7cad01",
+     "przod": "Układ PL-1992 i PL-2000",
+     "tyl": "Polskie układy współrzędnych prostokątnych dla map urzędowych.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "ff85750b0",
+     "przod": "Ortodroma a loksodroma",
+     "tyl": "Ortodroma — najkrótsza droga po kuli; loksodroma — linia o stałym azymucie (prosta na Merkatorze).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fb15cf782",
+     "przod": "Obliczenie skali z mapy i odległości rzeczywistej",
+     "tyl": "Np. 5 cm na mapie = 2,5 km → 1 cm = 500 m → 1:50 000.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f770017b3",
+     "przod": "Pole powierzchni prostokąta z mapy",
+     "tyl": "Wymiary w cm × wartość 1 cm w km dla każdego boku, potem mnożenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f0816685b",
+     "przod": "Typowy błąd: skala powierzchni",
+     "tyl": "Pomniejszenie skali 2× zmniejsza powierzchnię na mapie 4×.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "ff0cbebc1",
+     "przod": "Podziałka liniowa",
+     "tyl": "Odcinek z opisem odległości — nie zmienia się po kserowaniu ze zmianą rozmiaru (w przeciwieństwie do skali liczbowej).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
      "id": "f533f96a2",
      "przod": "Skala 1:10 000 — mianowana",
      "tyl": "1 cm — 100 m.",
@@ -295,12 +379,6 @@
      "id": "f6d068700",
      "przod": "Zniekształcenia odwzorowań",
      "tyl": "Żadna mapa świata nie zachowuje jednocześnie kątów, powierzchni i odległości; odwzorowanie dobiera się do celu mapy.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
-    },
-    {
-     "id": "f5fc01fc9",
-     "przod": "Odwzorowanie Merkatora",
-     "tyl": "Wiernokątne — ułatwia nawigację, ale silnie powiększa obszary okołobiegunowe (Grenlandia wydaje się wielka).",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
@@ -406,15 +484,63 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
-     "id": "fa6e5ec02",
-     "przod": "Rozpoznaj: 1 ha = 10 000 m² = 0,01 km²; 1 km² = 100 ha.",
-     "tyl": "Hektar",
+     "id": "f1e4318db",
+     "przod": "Rozpoznaj: Mierz odcinkami (nitka, cyrkiel) i sumuj; prosta linia zaniża wynik.",
+     "tyl": "Obliczanie długości trasy krętej",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
-     "id": "fe972332d",
-     "przod": "Rozpoznaj: Wiernokątne — ułatwia nawigację, ale silnie powiększa obszary okołobiegunowe (Grenlandia wydaje się wielka).",
+     "id": "f6630e5e6",
+     "przod": "Rozpoznaj: Droga / czas — sprawdzaj, czy w zadaniu jest czas z postojami.",
+     "tyl": "Średnia prędkość",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f58349704",
+     "przod": "Rozpoznaj: Stała we wszystkich kierunkach — brak zniekształceń.",
+     "tyl": "Skala na globusie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fbc176d9a",
+     "przod": "Rozpoznaj: Wiernokątne; zniekształca powierzchnie ku biegunom (Grenlandia wygląda jak Afryka).",
      "tyl": "Odwzorowanie Merkatora",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fbd3f5b42",
+     "przod": "Rozpoznaj: Zachowuje proporcje powierzchni — do map gęstości, rozmieszczenia.",
+     "tyl": "Odwzorowanie wiernopowierzchniowe",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f90f28d09",
+     "przod": "Rozpoznaj: Rzutowanie na płaszczyznę styczną — mapy okołobiegunowe.",
+     "tyl": "Odwzorowanie azymutalne",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fb85cb4b1",
+     "przod": "Rozpoznaj: Np. 5 cm na mapie = 2,5 km → 1 cm = 500 m → 1:50 000.",
+     "tyl": "Obliczenie skali z mapy i odległości rzeczywistej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f40517f9c",
+     "przod": "Rozpoznaj: Wymiary w cm × wartość 1 cm w km dla każdego boku, potem mnożenie.",
+     "tyl": "Pole powierzchni prostokąta z mapy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fa5a348b4",
+     "przod": "Rozpoznaj: Odcinek z opisem odległości — nie zmienia się po kserowaniu ze zmianą rozmiaru (w przeciwieństwie do skali liczbowej).",
+     "tyl": "Podziałka liniowa",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fa6e5ec02",
+     "przod": "Rozpoznaj: 1 ha = 10 000 m² = 0,01 km²; 1 km² = 100 ha.",
+     "tyl": "Hektar",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     }
    ],
@@ -690,6 +816,84 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Mianownik ×2.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1f152045",
+     "pytanie": "Odwzorowanie Merkatora zniekształca przede wszystkim:",
+     "odpowiedzi": [
+      "kąty między liniami",
+      "linię równika",
+      "powierzchnie",
+      "kierunki na mapie"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Grenlandia.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9649584d",
+     "pytanie": "5 cm na mapie odpowiada 2,5 km — skala to:",
+     "odpowiedzi": [
+      "1:50 000",
+      "1:500 000",
+      "1:25 000",
+      "1:5 000"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "1 cm = 500 m.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe4e4910f",
+     "pytanie": "Najkrótsza droga między punktami na kuli to:",
+     "odpowiedzi": [
+      "loksodroma",
+      "izohieta",
+      "ortodroma",
+      "izobata"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Wielkie koło.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p72096ac5",
+     "pytanie": "Po powiększeniu mapy na ksero poprawna pozostaje:",
+     "odpowiedzi": [
+      "skala mianowana",
+      "żadna skala",
+      "skala liczbowa",
+      "podziałka liniowa"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Rośnie razem z mapą.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pdc6e4ea9",
+     "pytanie": "Zmniejszenie skali dwukrotnie zmniejsza powierzchnię na mapie:",
+     "odpowiedzi": [
+      "4-krotnie",
+      "wcale",
+      "8-krotnie",
+      "2-krotnie"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Kwadrat.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe57285d9",
+     "pytanie": "Proces wyboru i uogólniania treści przy tworzeniu mapy w mniejszej skali nazywamy:",
+     "odpowiedzi": [
+      "interpolacja",
+      "triangulacja",
+      "generalizacja",
+      "georeferencja"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Kartografia.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
@@ -1486,6 +1690,90 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
     },
     {
+     "id": "ff03b12fc",
+     "przod": "Znak triangulacyjny / punkt wysokościowy",
+     "tyl": "Trójkąt lub kropka z liczbą — wysokość punktu n.p.m.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f2eea21f2",
+     "przod": "Skarpa na mapie",
+     "tyl": "Linia z ząbkami skierowanymi w dół skarpy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f56acc241",
+     "przod": "Wąwóz na mapie topograficznej",
+     "tyl": "Wąska dolina ze skarpami po obu stronach (ząbki do środka).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fa6fd3aa9",
+     "przod": "Jak ustalić kierunek spływu rzeki z mapy?",
+     "tyl": "Woda płynie od wyższych poziomic do niższych; jeziora przepływowe — od dopływu do odpływu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f234d97bf",
+     "przod": "Jak odczytać wysokość punktu między poziomicami?",
+     "tyl": "Interpolacja: wysokość niższej poziomicy + część cięcia proporcjonalna do odległości.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fb2c3985b",
+     "przod": "Kąt nachylenia ze spadku",
+     "tyl": "tg α = różnica wysokości / odległość pozioma (np. 100 m na 1 km ≈ 5,7°).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f1f663b6a",
+     "przod": "Dział wodny na mapie",
+     "tyl": "Przebiega grzbietami i kulminacjami — oddziela zlewnie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fa817120e",
+     "przod": "Mokradła na mapie",
+     "tyl": "Niebieskie kreski poziome (sygnatura bagien).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f8daf7459",
+     "przod": "Las na mapie topograficznej",
+     "tyl": "Kolor zielony + znak rodzaju drzewostanu (iglasty, liściasty, mieszany).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fafabc81c",
+     "przod": "Wydmy na mapie",
+     "tyl": "Drobne, zamknięte poziomice w kształcie łuków na piaszczystym terenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fe3ceaad5",
+     "przod": "Hałda na mapie",
+     "tyl": "Zamknięte poziomice antropogeniczne przy kopalni — formy nasypowe.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fed632d2b",
+     "przod": "Wyrobisko na mapie",
+     "tyl": "Zagłębienie z kreskami spadu do środka i sygnaturą kopalni odkrywkowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f3a4d1d47",
+     "przod": "Profil podłużny drogi",
+     "tyl": "Przekrój wzdłuż trasy — ocena podejść i zjazdów (turystyka rowerowa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f33b8d2af",
+     "przod": "Pole mapy (np. C4)",
+     "tyl": "Kratka siatki opisana literą i cyfrą — lokalizacja obiektu w zadaniach CKE.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
      "id": "fa3a5fb85",
      "przod": "Mapa hipsometryczna",
      "tyl": "Mapa z warstwami wysokości oznaczonymi barwami (zielone niziny, żółte i brązowe wyżyny i góry).",
@@ -1615,6 +1903,60 @@
      "id": "f00d0ecc1",
      "przod": "Rozpoznaj: Różnica wysokości / odległość pozioma (× 100% lub kąt).",
      "tyl": "Nachylenie stoku",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fbf52362c",
+     "przod": "Rozpoznaj: Wąska dolina ze skarpami po obu stronach (ząbki do środka).",
+     "tyl": "Wąwóz na mapie topograficznej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f67ac49aa",
+     "przod": "Rozpoznaj: tg α = różnica wysokości / odległość pozioma (np. 100 m na 1 km ≈ 5,7°).",
+     "tyl": "Kąt nachylenia ze spadku",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f0a7eb7ff",
+     "przod": "Rozpoznaj: Przebiega grzbietami i kulminacjami — oddziela zlewnie.",
+     "tyl": "Dział wodny na mapie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fd7c4df99",
+     "przod": "Rozpoznaj: Niebieskie kreski poziome (sygnatura bagien).",
+     "tyl": "Mokradła na mapie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f4a547f43",
+     "przod": "Rozpoznaj: Kolor zielony + znak rodzaju drzewostanu (iglasty, liściasty, mieszany).",
+     "tyl": "Las na mapie topograficznej",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f5e7a006a",
+     "przod": "Rozpoznaj: Drobne, zamknięte poziomice w kształcie łuków na piaszczystym terenie.",
+     "tyl": "Wydmy na mapie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f057ba363",
+     "przod": "Rozpoznaj: Zamknięte poziomice antropogeniczne przy kopalni — formy nasypowe.",
+     "tyl": "Hałda na mapie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f122a720a",
+     "przod": "Rozpoznaj: Zagłębienie z kreskami spadu do środka i sygnaturą kopalni odkrywkowej.",
+     "tyl": "Wyrobisko na mapie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fb531e4d6",
+     "przod": "Rozpoznaj: Przekrój wzdłuż trasy — ocena podejść i zjazdów (turystyka rowerowa).",
+     "tyl": "Profil podłużny drogi",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
     },
     {
@@ -1882,6 +2224,84 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Względna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc10c911a",
+     "pytanie": "Ząbki skarpy na mapie wskazują kierunek:",
+     "odpowiedzi": [
+      "na północ",
+      "w dół skarpy",
+      "zgodnie z rzeką",
+      "w górę skarpy"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Spadek.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3b6fe840",
+     "pytanie": "Najcieplejsza na półkuli N jest ekspozycja:",
+     "odpowiedzi": [
+      "wschodnia",
+      "południowa",
+      "zachodnia",
+      "północna"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Nasłonecznienie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pbd6064b4",
+     "pytanie": "Dział wodny przebiega na mapie:",
+     "odpowiedzi": [
+      "dnami dolin",
+      "brzegami jezior",
+      "grzbietami",
+      "drogami"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Kulminacje.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p10a1948f",
+     "pytanie": "Mokradła oznacza się na mapie:",
+     "odpowiedzi": [
+      "zielonymi kropkami",
+      "niebieskimi kreskami",
+      "czerwonymi liniami",
+      "czarnymi krzyżykami"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Sygnatura bagna.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa24ff570",
+     "pytanie": "Punkt w połowie między poziomicami 200 i 210 m leży na wysokości ok.:",
+     "odpowiedzi": [
+      "205 m",
+      "200 m",
+      "215 m",
+      "210 m"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Interpolacja.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p77babe9c",
+     "pytanie": "Spadek 100 m na 1 km odpowiada kątowi ok.:",
+     "odpowiedzi": [
+      "45°",
+      "1°",
+      "6°",
+      "10°"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "tg α = 0,1.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
