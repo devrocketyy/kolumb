@@ -1355,6 +1355,57 @@
      ]
     },
     {
+     "id": "sfb1665b5",
+     "typ": "rysunek",
+     "tytul": "Obieg węgla w przyrodzie",
+     "opis": "Uproszczony schemat obiegu węgla między atmosferą, biosferą, oceanem i litosferą — rysunek autorski IndexLab.",
+     "uwaga": "Spalanie paliw kopalnych i wylesianie zaburzają obieg węgla — rośnie stężenie CO₂ w atmosferze (z ok. 280 do ponad 420 ppm) i nasila się efekt cieplarniany.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gk ol\" x=\"141\" y=\"25\" width=\"118\" height=\"30\" rx=\"8\"/><text class=\"tb\" x=\"200\" y=\"45\" text-anchor=\"middle\">atmosfera (CO₂)</text><rect class=\"gt ol\" x=\"-2\" y=\"135\" width=\"144\" height=\"30\" rx=\"8\"/><text class=\"tb\" x=\"70\" y=\"155\" text-anchor=\"middle\">rośliny i zwierzęta</text><rect class=\"gs2 ol\" x=\"144\" y=\"235\" width=\"111\" height=\"30\" rx=\"8\"/><text class=\"tb\" x=\"200\" y=\"255\" text-anchor=\"middle\">paliwa kopalne</text><rect class=\"gw2 ol\" x=\"304\" y=\"135\" width=\"52\" height=\"30\" rx=\"8\"/><text class=\"tb\" x=\"330\" y=\"155\" text-anchor=\"middle\">ocean</text><path class=\"cold\" d=\"M150.0 50.0 L90.0 133.0\"/><path class=\"cold\" d=\"M91.6 126.2 L90.0 133.0 L96.0 129.4\"/><path class=\"s\" d=\"M105.0 133.0 L165.0 58.0\"/><path class=\"s\" d=\"M163.1 64.7 L165.0 58.0 L158.8 61.3\"/><path class=\"cold\" d=\"M250.0 58.0 L315.0 133.0\"/><path class=\"cold\" d=\"M308.7 129.9 L315.0 133.0 L312.8 126.3\"/><path class=\"s\" d=\"M300.0 133.0 L230.0 58.0\"/><path class=\"s\" d=\"M236.4 60.9 L230.0 58.0 L232.4 64.6\"/><path class=\"hot\" d=\"M200.0 233.0 L200.0 60.0\"/><path class=\"hot\" d=\"M202.7 66.4 L200.0 60.0 L197.3 66.4\"/><path class=\"s\" d=\"M90.0 168.0 L170.0 238.0\"/><path class=\"s\" d=\"M163.4 235.8 L170.0 238.0 L166.9 231.7\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 120,
+       "y": 90,
+       "lx": 145,
+       "ly": 95,
+       "n": "Fotosynteza",
+       "d": "Rośliny pobierają CO₂ z atmosfery"
+      },
+      {
+       "x": 135,
+       "y": 95,
+       "lx": 160,
+       "ly": 125,
+       "n": "Oddychanie i rozkład",
+       "d": "Organizmy oddają CO₂ do atmosfery"
+      },
+      {
+       "x": 200,
+       "y": 150,
+       "lx": 230,
+       "ly": 160,
+       "n": "Spalanie paliw",
+       "d": "Człowiek uwalnia węgiel zmagazynowany przez miliony lat"
+      },
+      {
+       "x": 282,
+       "y": 95,
+       "lx": 257,
+       "ly": 100,
+       "n": "Wymiana z oceanem",
+       "d": "Ocean pochłania ok. 1/4 emisji CO₂ (zakwaszenie)"
+      },
+      {
+       "x": 130,
+       "y": 203,
+       "lx": 100,
+       "ly": 225,
+       "n": "Fosylizacja",
+       "d": "Szczątki organizmów → węgiel, ropa, gaz (bardzo powoli)"
+      }
+     ]
+    },
+    {
      "id": "scce45d98",
      "typ": "proces",
      "tytul": "Efekt cieplarniany — łańcuch przyczyn i skutków",

@@ -1441,6 +1441,49 @@
      ]
     },
     {
+     "id": "sedc6acdc",
+     "typ": "rysunek",
+     "tytul": "Budowa wnętrza Ziemi (przekrój)",
+     "opis": "Uproszczony przekrój przez wnętrze Ziemi (grubości warstw nie w skali — skorupa powiększona) — rysunek autorski IndexLab.",
+     "uwaga": "Litosfera = skorupa + najwyższa, sztywna część płaszcza; pod nią astenosfera, po której przesuwają się płyty. Granicę skorupa–płaszcz nazywamy nieciągłością Moho.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gl ol\" d=\"M-120 300 A270 270 0 0 1 420 300 Z\"/><path class=\"gm ol\" d=\"M-105 300 A255 255 0 0 1 405 300 Z\"/><path class=\"hotf ol\" d=\"M0 300 A150 150 0 0 1 300 300 Z\"/><path class=\"gi ol\" d=\"M80 300 A70 70 0 0 1 220 300 Z\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 150,
+       "y": 38,
+       "lx": 125,
+       "ly": 25,
+       "n": "Skorupa ziemska",
+       "d": "Kontynentalna 30–70 km, oceaniczna 5–10 km"
+      },
+      {
+       "x": 60,
+       "y": 120,
+       "lx": 300,
+       "ly": 80,
+       "n": "Płaszcz",
+       "d": "Do ok. 2900 km; w górnej części astenosfera — plastyczna"
+      },
+      {
+       "x": 150,
+       "y": 190,
+       "lx": 125,
+       "ly": 150,
+       "n": "Jądro zewnętrzne",
+       "d": "Ciekłe (żelazo, nikiel) — źródło pola magnetycznego"
+      },
+      {
+       "x": 150,
+       "y": 262,
+       "lx": 125,
+       "ly": 230,
+       "n": "Jądro wewnętrzne",
+       "d": "Stałe, temperatura ok. 5000–6000°C"
+      }
+     ]
+    },
+    {
      "id": "s64a3b173",
      "typ": "rysunek",
      "tytul": "Subdukcja na granicy płyt",
