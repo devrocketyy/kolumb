@@ -230,7 +230,7 @@ Q=[
  ('Dorzecze Wisły — udział powierzchni Polski', 'Ok. 55%.'),
  ('Dorzecze Odry — udział powierzchni Polski', 'Ok. 34%.'),
  ('Asymetria dorzecza Wisły', 'Więcej dopływów prawych (Bug, San, Dunajec) niż lewych — nachylenie terenu i kierunek ruchu lodowca.'),
- ('Najdłuższe rzeki Polski', 'Wisła (1047 km), Odra (840 km, 742 km w Polsce), Warta (808 km).'),
+ ('Najdłuższe rzeki Polski', 'Wisła (1047 km), Odra (854 km, ok. 742 km w Polsce), Warta (808 km).'),
  ('Ustrój rzek nizinnych Polski', 'Śnieżno-deszczowy: wezbranie roztopowe wiosną, niżówka latem/jesienią.'),
  ('Ustrój rzek górskich Polski', 'Deszczowo-śnieżny: wezbrania letnie po ulewach (lipiec).'),
  ('Największe jezioro w Polsce', 'Śniardwy (ok. 113 km²).'),

@@ -33,7 +33,7 @@ Q=[
  ('Tsunami na otwartym oceanie są:', ['*niskie, ale bardzo szybkie', 'wysokie i wolne', 'niewidoczne i nieruchome', 'zawsze wyższe niż 20 m'], 'Rosną przy brzegu.'),
 ]),
 'g-demografia': dict(F=[
- ('Liczba ludności świata', 'Ok. 8,1 mld (2024); 8 mld przekroczono w 2022 r.'),
+ ('Liczba ludności świata', 'Ok. 8,2 mld (2025); 8 mld przekroczono w 2022 r.'),
  ('Prognoza ludności świata', 'Wg ONZ szczyt ok. 10,3 mld w latach 2080.'),
  ('Najludniejsze państwa', 'Indie (od 2023 r. pierwsze), Chiny, USA, Indonezja, Pakistan.'),
  ('Najszybszy przyrost ludności', 'Afryka Subsaharyjska — do 2100 r. może mieszkać tam ponad 1/3 ludzkości.'),

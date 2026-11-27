@@ -108,7 +108,7 @@ S['g-pl-wody'] = [
                  (310, 208, 290, 265, 'Rów melioracyjny', 'Zbiera nadmiar wody z pól'),
                  (370, 170, 330, 120, 'Pompownia', 'Przepompowuje wodę ponad wałem — bez niej polder by się zalał')],
       opis='Uproszczony przekrój przez polder z wałem i pompownią (proporcje przesadzone) — rysunek autorski IndexLab.',
-      uwaga='Najniższy punkt Polski: Raczki Elbląskie na Żuławach Wiślanych (ok. 2,2 m p.p.m.). Żuławy wymagają stałej pracy pompowni i utrzymania wałów — zagrożenie przy powodziach i sztormach (cofka).'),
+      uwaga='Najniższy punkt Polski: Raczki Elbląskie na Żuławach Wiślanych (ok. 1,8 m p.p.m.; wg nowszych pomiarów do ok. 2,2 m). Żuławy wymagają stałej pracy pompowni i utrzymania wałów — zagrożenie przy powodziach i sztormach (cofka).'),
 ]
 
 

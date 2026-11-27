@@ -8,7 +8,7 @@ T = {
  ('RPA — gospodarka', 'Najbardziej uprzemysłowione państwo Afryki: złoto, platyna, diamenty, węgiel.'),
  ('Etiopia', 'Wyżyna Abisyńska, ojczyzna kawy; szybki wzrost ludności; tama GERD na Nilu Błękitnym.'),
  ('Kongo (DRK) — surowce', 'Kobalt (ok. 70% świata), miedź, koltan — konflikty o złoża.'),
- ('Azja Południowo-Wschodnia — ASEAN', 'Wspólnota 10 państw (Indonezja, Wietnam, Tajlandia, Malezja, Singapur…).'),
+ ('Azja Południowo-Wschodnia — ASEAN', 'Wspólnota 11 państw (od 2025 r. z Timorem Wschodnim; Indonezja, Wietnam, Tajlandia, Malezja, Singapur…).'),
  ('Wietnam — gospodarka', 'Szybki rozwój: elektronika, tekstylia, kawa, ryż; inwestycje zagraniczne.'),
  ('Indie — kontrasty', 'Sektor IT i kosmiczny obok ubóstwa, slumsów i rolnictwa na własne potrzeby.'),
  ('Bliski Wschód — znaczenie', 'Ok. 50% udokumentowanych zasobów ropy; konflikty; deficyt wody.'),
@@ -22,7 +22,7 @@ Q=[
  ('Maghreb obejmuje m.in.:', ['*Maroko', 'Egipt', 'Sudan', 'Etiopię'], 'Atlas.'),
  ('Najbardziej uprzemysłowionym państwem Afryki jest:', ['*RPA', 'Czad', 'Niger', 'Mali'], 'Złoto, platyna.'),
  ('Rudę żelaza z Carajás eksportuje:', ['*Brazylia', 'Argentyna', 'Chile', 'Peru'], 'Amazonia.'),
- ('Wspólnota państw Azji Pd.-Wsch. to:', ['*ASEAN', 'NAFTA', 'Mercosur', 'OPEC'], '10 państw.'),
+ ('Wspólnota państw Azji Pd.-Wsch. to:', ['*ASEAN', 'NAFTA', 'Mercosur', 'OPEC'], '11 państw (od 2025 r.).'),
  ('Główny odbiorca rudy żelaza z Australii to:', ['*Chiny', 'USA', 'Niemcy', 'Brazylia'], 'Hutnictwo.'),
 ]),
 'g-polityka': dict(F=[
