@@ -1,0 +1,148 @@
+<title>IndexLab kontra konkurencja</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+/* Layout: jedna kolumna raportu (~70ch), tabela porównawcza w poziomym scrollu, priorytety jako lista z chipami. */
+:root{
+  --bg:#FAFAF9; --fg:#141615; --muted:#5E6461; --line:#E2E4E1; --card:#FFFFFF;
+  --accent:#0E7C70; --accent-soft:#E0F2EF; --warn:#A8620E; --warn-soft:#F6EBDB; --bad:#B23A3A; --bad-soft:#F7E3E1;
+  --f-display:"Space Grotesk",system-ui,sans-serif; --f-body:"Inter",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#111312; --fg:#ECEDEC; --muted:#9AA19D; --line:#2A2E2C; --card:#181B1A;
+  --accent:#5CCFC1; --accent-soft:#14292A; --warn:#E0A04A; --warn-soft:#2A1F10; --bad:#E58A84; --bad-soft:#2C1615; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111312; --fg:#ECEDEC; --muted:#9AA19D; --line:#2A2E2C; --card:#181B1A;
+  --accent:#5CCFC1; --accent-soft:#14292A; --warn:#E0A04A; --warn-soft:#2A1F10; --bad:#E58A84; --bad-soft:#2C1615; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:15px/1.6 var(--f-body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px}
+main{max-width:860px;margin:0 auto;display:grid;gap:40px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;line-height:1.2;margin:0}
+h1{font-size:2.1rem}
+h2{font-size:1.4rem;padding-top:8px;border-top:1px solid var(--line)}
+h3{font-size:1.05rem}
+p{margin:0;max-width:70ch}
+.eyebrow{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.lead{color:var(--muted);font-size:1.05rem}
+section{display:grid;gap:16px}
+.comp{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;display:grid;gap:8px;align-content:start;min-width:0}
+.card ul{margin:0;padding-left:18px;color:var(--muted);font-size:.9rem}
+.tag{font-size:.75rem;color:var(--muted)}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:720px;font-size:.88rem}
+th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:center}
+th:first-child,td:first-child{text-align:left}
+thead th{font-family:var(--f-display);font-weight:500}
+tbody tr:last-child td{border-bottom:0}
+.y{color:var(--accent);font-weight:600}.n{color:var(--bad)}.q{color:var(--warn)}
+.us{background:var(--accent-soft)}
+ol.prio{margin:0;padding:0;list-style:none;display:grid;gap:12px;counter-reset:p}
+ol.prio li{counter-increment:p;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px 14px 52px;position:relative;display:grid;gap:6px}
+ol.prio li::before{content:counter(p);position:absolute;left:16px;top:14px;font-family:var(--f-display);font-weight:700;font-size:1.2rem;color:var(--accent)}
+.chip{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:99px;margin-right:6px}
+.c-hi{background:var(--bad-soft);color:var(--bad)}.c-mid{background:var(--warn-soft);color:var(--warn)}.c-lo{background:var(--accent-soft);color:var(--accent)}
+.muted{color:var(--muted);font-size:.88rem}
+a{color:var(--accent)}
+.src{font-size:.82rem;color:var(--muted);display:grid;gap:4px}
+</style>
+<main>
+<header style="display:grid;gap:12px">
+  <span class="eyebrow">Analiza rynku · listopad 2026</span>
+  <h1>IndexLab kontra konkurencja</h1>
+  <p class="lead">Pięć najbliższych konkurentów na rynku przygotowań do matury rozszerzonej i lista funkcji, które dałyby IndexLab przewagę możliwą do sprawdzenia, a nie tylko deklarowaną.</p>
+  <p class="muted">Dane o konkurentach pochodzą z ich stron, App Store i Trustpilot (stan na 27.11.2026). Ceny i funkcje zmieniają się często, więc przed decyzjami warto je sprawdzić ręcznie. Tam, gdzie czegoś nie udało się potwierdzić, tabela pokazuje „?”.</p>
+</header>
+
+<section>
+  <h2>Gdzie IndexLab jest dziś</h2>
+  <p>Mocne strony, które już mamy: 5 przedmiotów rozszerzonych (biologia, chemia, geografia, historia, WOS), tysiące fiszek i pytań ABCD na przedmiot (np. geografia: 4002 fiszki, 1642 ABCD, 1000 zadań, 150 autorskich schematów), omówione arkusze CKE 2023–2026, aplikacja PWA działająca w przeglądarce i na telefonie, odliczanie do matury, dostęp kupowany na przedmiot.</p>
+  <p>Słabe strony: brak matematyki, fizyki i polskiego, brak AI oceniającego odpowiedzi otwarte, brak wideo i kontaktu z nauczycielem, brak natywnej aplikacji w sklepach i mała rozpoznawalność marki.</p>
+</section>
+
+<section>
+  <h2>Pięciu konkurentów</h2>
+  <div class="comp">
+    <article class="card">
+      <span class="tag">Kurs e-learningowy · premium</span>
+      <h3>Więcej niż Matura</h3>
+      <ul><li>8 przedmiotów, w tym geografia, biologia, chemia</li><li>Lekcje, zbiór zadań, narzędzia AI, korepetycje w pakiecie Premium</li><li>Obietnica wyniku w top 15% lub zwrot pieniędzy</li><li>Trustpilot ok. 4,5/5 (ok. 220 opinii); ma aplikację iOS</li></ul>
+    </article>
+    <article class="card">
+      <span class="tag">Aplikacja masowa · subskrypcja</span>
+      <h3>Odrabiamy</h3>
+      <ul><li>Rozwiązania zadań z podręczników, notatki, kursy wideo, AI</li><li>Premium 39 zł/mies., 199 zł/rok; materiały maturalne po 49 zł</li><li>Ogromna baza użytkowników, ale przygotowanie do rozszerzenia nie jest głównym celem</li></ul>
+    </article>
+    <article class="card">
+      <span class="tag">Kursy + AI-tutor</span>
+      <h3>Egzamin.pl</h3>
+      <ul><li>Bank zadań w formacie CKE i kursy wideo</li><li>AI-tutor diagnozujący luki w wiedzy (wg własnego rankingu serwisu)</li><li>Mocny nacisk na biologię i chemię pod medycynę</li></ul>
+    </article>
+    <article class="card">
+      <span class="tag">Kursy z nauczycielem</span>
+      <h3>Maturita</h3>
+      <ul><li>Biologia, chemia i pakiety łączone</li><li>Zajęcia na żywo i wariant indywidualny (Tutor)</li><li>Droższa, „szkolna” forma nauki</li></ul>
+    </article>
+    <article class="card">
+      <span class="tag">Fiszki ogólne</span>
+      <h3>Quizlet / Anki</h3>
+      <ul><li>Bardzo dobre powtórki rozłożone w czasie</li><li>Brak treści pod CKE: uczeń sam robi fiszki albo bierze cudze, często z błędami</li><li>Brak arkuszy i omówień</li></ul>
+    </article>
+  </div>
+  <p class="muted">Bliscy, mniejsi gracze: Gotowi na Maturę (biologia i chemia, 85 lekcji), MaturaLab (iOS, codzienne ćwiczenia i symulacje), DzisiajMatura (zapowiedź na 2026/27), Naukagryzie, Powtórka z biologii.</p>
+</section>
+
+<section>
+  <h2>Porównanie funkcji</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Funkcja</th><th class="us">IndexLab</th><th>Więcej niż Matura</th><th>Odrabiamy</th><th>Egzamin.pl</th><th>Maturita</th><th>Quizlet/Anki</th></tr></thead>
+    <tbody>
+      <tr><td>Fiszki pod CKE</td><td class="us y">tak</td><td class="q">?</td><td class="q">?</td><td class="q">?</td><td class="q">?</td><td class="n">własne</td></tr>
+      <tr><td>Arkusze CKE z omówieniem</td><td class="us y">tak</td><td class="y">tak</td><td class="y">tak</td><td class="y">tak</td><td class="y">tak</td><td class="n">nie</td></tr>
+      <tr><td>Autorskie schematy i rysunki</td><td class="us y">tak</td><td class="q">?</td><td class="q">?</td><td class="q">?</td><td class="q">?</td><td class="n">nie</td></tr>
+      <tr><td>Lekcje wideo</td><td class="us n">nie</td><td class="y">tak</td><td class="y">tak</td><td class="y">tak</td><td class="y">tak</td><td class="n">nie</td></tr>
+      <tr><td>AI ocenia odpowiedzi otwarte</td><td class="us n">nie</td><td class="q">AI, zakres ?</td><td class="q">AI, zakres ?</td><td class="y">AI-tutor</td><td class="n">nie</td><td class="n">nie</td></tr>
+      <tr><td>Kontakt z nauczycielem</td><td class="us n">nie</td><td class="y">Premium</td><td class="n">nie</td><td class="q">?</td><td class="y">tak</td><td class="n">nie</td></tr>
+      <tr><td>Matematyka / fizyka / polski</td><td class="us n">nie</td><td class="y">tak</td><td class="y">tak</td><td class="y">tak</td><td class="q">?</td><td class="n">—</td></tr>
+      <tr><td>Natywna aplikacja w sklepach</td><td class="us q">PWA</td><td class="y">iOS</td><td class="y">tak</td><td class="q">?</td><td class="q">?</td><td class="y">tak</td></tr>
+      <tr><td>Gwarancja wyniku</td><td class="us n">nie</td><td class="y">tak</td><td class="n">nie</td><td class="n">nie</td><td class="n">nie</td><td class="n">nie</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <h2>Co dodać, żeby być obiektywnie lepszym</h2>
+  <p>Kolejność według stosunku efektu do kosztu. „Obiektywnie lepszy” znaczy tu: rzecz, którą uczeń sprawdzi sam w 5 minut, a której nie da mu żaden z konkurentów albo da gorzej.</p>
+  <ol class="prio">
+    <li><div><span class="chip c-hi">najwyższy</span><b>Ocenianie odpowiedzi otwartych według kluczy CKE</b></div><p class="muted">Uczeń pisze odpowiedź, a AI przyznaje punkty dokładnie tak, jak egzaminator: cytuje kryterium z klucza, wskazuje brakujący element („brak czynnika pozaprzyrodniczego”) i pokazuje wzorcową odpowiedź. To największa luka na rynku: konkurenci mają „AI-tutora”, ale nikt wyraźnie nie ocenia według zasad CKE. Mamy już omówienia i klucze do 10 arkuszy na przedmiot, więc dane są gotowe.</p></li>
+    <li><div><span class="chip c-hi">najwyższy</span><b>Pełna symulacja arkusza z wynikiem i przewidywanym procentem</b></div><p class="muted">Arkusz na czas (jak na maturze), automatyczne sprawdzenie zamkniętych i ocena AI otwartych, wynik w procentach i punktach rekrutacyjnych na wybrany kierunek. Uczeń dostaje liczbę, którą może porównać z progiem na medycynę czy prawo.</p></li>
+    <li><div><span class="chip c-hi">najwyższy</span><b>Mapa luk i plan nauki do dnia matury</b></div><p class="muted">Po każdej sesji system liczy opanowanie każdego poddziału i układa plan „co dziś”: fiszki do powtórki, 5 pytań ABCD z najsłabszego działu, jedno zadanie otwarte. Łączy się z istniejącym odliczaniem do matury, więc plan zawsze kończy się na dniu egzaminu.</p></li>
+    <li><div><span class="chip c-mid">wysoki</span><b>Krótkie lekcje audio i wideo do każdego działu</b></div><p class="muted">Mamy już podcast z chemii. Odcinek 5–8 minut na dział, z fiszkami do odsłuchania w drodze do szkoły, wyrówna brak wideo bez kosztu nagrywania kursu z kamerą. Wymaga Twojej zgody na każdą partię nagrań.</p></li>
+    <li><div><span class="chip c-mid">wysoki</span><b>Nowe przedmioty: matematyka rozszerzona i fizyka</b></div><p class="muted">Każdy z konkurentów ma matematykę. Bez niej uczeń kierunków ścisłych i medycznych i tak kupuje drugą platformę. Fizyka dla politechnik, polski rozszerzony później.</p></li>
+    <li><div><span class="chip c-mid">wysoki</span><b>Gwarancja zwrotu pieniędzy</b></div><p class="muted">Nie na wynik (to obietnica bez kontroli), ale na przykład „14 dni bez pytań” albo „zwrot, jeśli zrobisz plan w 80% i nie poprawisz wyniku próbnej matury”. Więcej niż Matura sprzedaje gwarancją, więc jej brak wygląda jak słabość.</p></li>
+    <li><div><span class="chip c-lo">średni</span><b>Wersja w App Store i Google Play</b></div><p class="muted">PWA działa, ale rodzice i uczniowie szukają w sklepie. Opakowanie istniejącej PWA (np. Capacitor) daje widoczność bez przepisywania aplikacji.</p></li>
+    <li><div><span class="chip c-lo">średni</span><b>Raport dla rodzica i licencje dla szkół</b></div><p class="muted">Tygodniowy e-mail z postępem dziecka i panel nauczyciela z wynikami klasy. Rodzic płaci, więc ma widzieć efekt. Szkoły kupują licencje hurtowo, czego nie robi żaden z konkurentów nastawionych na ucznia.</p></li>
+    <li><div><span class="chip c-lo">średni</span><b>Dowody jakości na stronie</b></div><p class="muted">Liczby, które konkurent może sprawdzić: liczba fiszek, zadań i omówionych arkuszy na przedmiot, autorzy i recenzenci treści, wyniki uczniów z poprzedniego roku. Teraz te liczby są w aplikacji, ale nie w sprzedaży.</p></li>
+  </ol>
+</section>
+
+<section>
+  <h2>Pozycjonowanie w jednym zdaniu</h2>
+  <p><b>„Jedyna aplikacja, która sprawdza twoje odpowiedzi tak jak egzaminator CKE i mówi, ile punktów brakuje ci do wymarzonego kierunku.”</b> Pierwsze trzy punkty listy sprawiają, że to zdanie jest prawdziwe. Bez nich IndexLab jest „dobrą bazą fiszek”, a z tym konkuruje darmowe Anki.</p>
+</section>
+
+<section class="src">
+  <h2>Źródła</h2>
+  <a href="https://wiecejnizmatura.pl/kursy">Więcej niż Matura — kursy</a>
+  <a href="https://ie.trustpilot.com/review/wiecejnizmatura.pl">Więcej niż Matura — Trustpilot</a>
+  <a href="https://apps.apple.com/pl/app/odrabiamy-pomoc-w-nauce/id1146781202">Odrabiamy — App Store (ceny Premium)</a>
+  <a href="https://egzamin.pl/kursy-do-matury-z-biologii-i-chemii-ranking-top-5-kierunki-medyczne/">Egzamin.pl — ranking kursów (publikowany przez sam serwis)</a>
+  <a href="https://www.maturita.pl/">Maturita</a>
+  <a href="https://gotowidomatury.pl/">Gotowi na Maturę</a>
+  <a href="https://maturalab.com/">MaturaLab</a>
+  <a href="https://dzisiajmatura.pl/">DzisiajMatura</a>
+  <a href="https://naukagryzie.pl/kursy/matura-rozszerzona">Naukagryzie</a>
+  <a href="https://www.maturaminds.pl/blog/platformy-edukacyjne-matura-2025">Maturaminds — zestawienie platform</a>
+  <a href="https://astra-ai.co/pl/blog/najlepsze-aplikacje-do-nauki/">Astra AI — zestawienie aplikacji do nauki</a>
+</section>
+</main>
