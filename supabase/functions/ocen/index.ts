@@ -2,12 +2,20 @@
 // Body: { przedmiot, zadanie, polecenie, material?, klucz, zasady?, punkty, odpowiedz }
 // → { pkt, max, uzasadnienie, brakuje: string[], wskazowka, limit: { uzyte, max } }
 //
+// Model zależy od liczby punktów: zadania za 1 pkt ocenia tańszy model (Haiku), za 2+ pkt — Sonnet.
+// Limity są wspólne dla całego konta i zależą od planu (liczby kupionych przedmiotów).
+//
 // Sekrety (Supabase → Edge Functions → Secrets):
-//   ANTHROPIC_API_KEY  — klucz API Anthropic (wymagany; nigdy w kodzie ani w przeglądarce),
-//   OCENA_MODEL        — opcjonalnie model (domyślnie claude-sonnet-5-5),
-//   OCENA_EFFORT       — opcjonalnie low | medium | high (domyślnie low — ocena wg klucza nie wymaga długiego namysłu),
-//   OCENA_LIMIT_PREMIUM / OCENA_LIMIT_DEMO — dzienne limity ocen (domyślnie 30 / 3).
-// Wymaga migracji 008_ocena_ai.sql.
+//   ANTHROPIC_API_KEY     — klucz API Anthropic (wymagany; nigdy w kodzie ani w przeglądarce),
+//   OCENA_MODEL_PROSTE    — model do zadań poniżej progu (domyślnie claude-haiku-5-5),
+//   OCENA_MODEL_TRUDNE    — model do zadań od progu w górę (domyślnie claude-sonnet-5-5),
+//   OCENA_PROG_PKT        — od ilu punktów używać modelu „trudne” (domyślnie 2),
+//   OCENA_TRUDNE_PRZEDMIOTY — przedmioty zawsze na modelu „trudne”, np. „historia,wos” (domyślnie brak),
+//   OCENA_EFFORT          — low | medium | high (domyślnie low),
+//   OCENA_LIMITY          — JSON z limitami, domyślnie:
+//     {"darmowe":5,"1":{"dzien":8,"tydzien":40},"2":{"dzien":12,"tydzien":60},"3":{"dzien":15,"tydzien":80}}
+//     („darmowe” = łącznie na konto bez dostępu; klucze 1/2/3 = liczba kupionych przedmiotów, 3 = trzy i więcej lub pełny dostęp).
+// Wymaga migracji 008_ocena_ai.sql i 009_ocena_ai_limity.sql.
 import { createClient } from 'npm:@supabase/supabase-js@2.49.4';
 import Anthropic from 'npm:@anthropic-ai/sdk';
 
@@ -23,22 +31,42 @@ const cors = {
 const json = (body: unknown, status = 200) =>
   new Response(JSON.stringify(body), { status, headers: { ...cors, 'Content-Type': 'application/json' } });
 
-const MODEL = Deno.env.get('OCENA_MODEL') || 'claude-sonnet-5-5';
-const LIMIT_PREMIUM = Number(Deno.env.get('OCENA_LIMIT_PREMIUM') || 30);
-const LIMIT_DEMO = Number(Deno.env.get('OCENA_LIMIT_DEMO') || 3);
+const MODEL_PROSTE = Deno.env.get('OCENA_MODEL_PROSTE') || 'claude-haiku-5-5';
+const MODEL_TRUDNE = Deno.env.get('OCENA_MODEL_TRUDNE') || Deno.env.get('OCENA_MODEL') || 'claude-sonnet-5-5';
+const PROG_PKT = Number(Deno.env.get('OCENA_PROG_PKT') || 2);
+const TRUDNE_PRZEDMIOTY = (Deno.env.get('OCENA_TRUDNE_PRZEDMIOTY') || '').split(',').map((x) => x.trim()).filter(Boolean);
+type Limit = { dzien: number; tydzien: number };
+const LIMITY: { darmowe: number } & Record<string, Limit> = {
+  darmowe: 5,
+  '1': { dzien: 8, tydzien: 40 },
+  '2': { dzien: 12, tydzien: 60 },
+  '3': { dzien: 15, tydzien: 80 },
+  ...(() => { try { return JSON.parse(Deno.env.get('OCENA_LIMITY') || '{}'); } catch { return {}; } })(),
+};
 const PRZEDMIOTY = ['biologia', 'chemia', 'geografia', 'historia', 'wos'];
 const NAZWY: Record<string, string> = { biologia: 'biologii', chemia: 'chemii', geografia: 'geografii', historia: 'historii', wos: 'wiedzy o społeczeństwie' };
 
 const tnij = (v: unknown, n: number) => String(v ?? '').slice(0, n);
 
-async function maDostep(uid: string, przedmiot: string) {
+// Plan ucznia: liczba przedmiotów z ważnym dostępem (pełny dostęp = 3) i czy ma dostęp do tego przedmiotu.
+async function plan(uid: string, przedmiot: string) {
   const teraz = new Date().toISOString();
   const [a, b] = await Promise.all([
     admin.from('dostep').select('user_id').eq('user_id', uid).gt('wazne_do', teraz).maybeSingle(),
-    admin.from('dostep_przedmiot').select('user_id').eq('user_id', uid).eq('przedmiot', przedmiot).gt('wazne_do', teraz).limit(1),
+    admin.from('dostep_przedmiot').select('przedmiot').eq('user_id', uid).gt('wazne_do', teraz),
   ]);
-  return !!a.data || !!(b.data && b.data.length);
+  if (a.data) return { poziom: 3, tenPrzedmiot: true };
+  const lista = new Set((b.data ?? []).map((r: { przedmiot: string }) => r.przedmiot));
+  return { poziom: Math.min(lista.size, 3), tenPrzedmiot: lista.has(przedmiot) };
 }
+
+const ile = async (uid: string, od?: Date, darmowe?: boolean) => {
+  let q = admin.from('ocena_ai').select('id', { count: 'exact', head: true }).eq('user_id', uid);
+  if (od) q = q.gte('created_at', od.toISOString());
+  if (darmowe !== undefined) q = q.eq('darmowa', darmowe);
+  const { count } = await q;
+  return count ?? 0;
+};
 
 const EFFORT = Deno.env.get('OCENA_EFFORT') || 'low';
 // Ustrukturyzowane wyjście: model zwraca gotowy JSON zgodny ze schematem.
@@ -70,15 +98,26 @@ Deno.serve(async (req) => {
     if (odpowiedz.length < 3) return json({ error: 'Najpierw wpisz swoją odpowiedź.' }, 400);
     if (!b.klucz) return json({ error: 'To zadanie nie ma klucza — oceń je samodzielnie.' }, 400);
 
-    const limit = (await maDostep(user.id, przedmiot)) ? LIMIT_PREMIUM : LIMIT_DEMO;
-    const odDnia = new Date(); odDnia.setUTCHours(0, 0, 0, 0);
-    const { count } = await admin.from('ocena_ai').select('id', { count: 'exact', head: true })
-      .eq('user_id', user.id).gte('created_at', odDnia.toISOString());
-    const uzyte = count ?? 0;
-    if (uzyte >= limit) {
-      return json({ error: limit === LIMIT_DEMO
-        ? `Dzienny limit ${LIMIT_DEMO} darmowych ocen AI wykorzystany. Z dostępem Premium masz ${LIMIT_PREMIUM} ocen dziennie.`
-        : `Wykorzystano dzienny limit ${limit} ocen AI. Wróć jutro.`, limit: { uzyte, max: limit } }, 429);
+    // Limity: z dostępem do przedmiotu — dzienny i tygodniowy wg planu; bez dostępu — pula darmowa na całe konto.
+    const p = await plan(user.id, przedmiot);
+    const darmowa = !p.tenPrzedmiot;
+    let limit: Record<string, number>;
+    if (darmowa) {
+      const uzyte = await ile(user.id, undefined, true);
+      limit = { uzyte, max: LIMITY.darmowe };
+      if (uzyte >= LIMITY.darmowe) {
+        return json({ error: p.poziom
+          ? 'Ocena AI działa w przedmiotach z Twojego planu. Ten przedmiot możesz dokupić w zakładce Plany.'
+          : `Wykorzystano ${LIMITY.darmowe} darmowych ocen AI. Z dostępem Premium masz od ${LIMITY['1'].dzien} ocen dziennie.`, limit }, 429);
+      }
+    } else {
+      const L = LIMITY[String(p.poziom)] ?? LIMITY['1'];
+      const dzien = new Date(); dzien.setUTCHours(0, 0, 0, 0);
+      const tydzien = new Date(Date.now() - 7 * 864e5);
+      const [d, t] = await Promise.all([ile(user.id, dzien, false), ile(user.id, tydzien, false)]);
+      limit = { uzyte: d, max: L.dzien, tydzien: t, maxTydzien: L.tydzien };
+      if (d >= L.dzien) return json({ error: `Wykorzystano dzienny limit ${L.dzien} ocen AI. Wróć jutro.`, limit }, 429);
+      if (t >= L.tydzien) return json({ error: `Wykorzystano tygodniowy limit ${L.tydzien} ocen AI (ostatnie 7 dni).`, limit }, 429);
     }
 
     const klucz = Deno.env.get('ANTHROPIC_API_KEY');
@@ -99,11 +138,12 @@ Deno.serve(async (req) => {
       `Oceń odpowiedź (0–${max} pkt).`,
     ].filter(Boolean).join('\n\n');
 
+    const model = max >= PROG_PKT || TRUDNE_PRZEDMIOTY.includes(przedmiot) ? MODEL_TRUDNE : MODEL_PROSTE;
     const client = new Anthropic({ apiKey: klucz });
     let wynik: { pkt?: number; uzasadnienie?: string; brakuje?: unknown[]; wskazowka?: string } | null = null;
     try {
       const out = await client.messages.create({
-        model: MODEL,
+        model,
         max_tokens: 4000,
         system,
         output_config: { effort: EFFORT, format: { type: 'json_schema', schema: SCHEMAT } },
@@ -120,13 +160,13 @@ Deno.serve(async (req) => {
     if (!wynik) return json({ error: 'Nie udało się ocenić odpowiedzi. Spróbuj ponownie.' }, 502);
 
     const pkt = Math.max(0, Math.min(max, Math.round(Number(wynik.pkt) || 0)));
-    await admin.from('ocena_ai').insert({ user_id: user.id, przedmiot, zadanie: tnij(b.zadanie, 120), pkt, max });
+    await admin.from('ocena_ai').insert({ user_id: user.id, przedmiot, zadanie: tnij(b.zadanie, 120), pkt, max, darmowa, model });
     return json({
       pkt, max,
       uzasadnienie: tnij(wynik.uzasadnienie, 1200),
       brakuje: Array.isArray(wynik.brakuje) ? wynik.brakuje.slice(0, 6).map((x: unknown) => tnij(x, 300)) : [],
       wskazowka: tnij(wynik.wskazowka, 600),
-      limit: { uzyte: uzyte + 1, max: limit },
+      limit: { ...limit, uzyte: limit.uzyte + 1, ...(limit.tydzien !== undefined ? { tydzien: limit.tydzien + 1 } : {}) },
     });
   } catch (e) {
     console.error(e);

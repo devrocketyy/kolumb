@@ -2275,7 +2275,7 @@ const aiHtml = (r) => r.error
       <p>${esc(r.uzasadnienie)}</p>
       ${r.brakuje?.length ? `<p class="small"><strong>Czego zabrakło:</strong></p><ul class="small">${r.brakuje.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
       ${r.wskazowka ? `<p class="small"><strong>Wskazówka:</strong> ${esc(r.wskazowka)}</p>` : ''}
-      <p class="muted small">Ocena orientacyjna — porównaj z kluczem poniżej i zapisz wynik.${r.limit ? ` Oceny dziś: ${r.limit.uzyte}/${r.limit.max}.` : ''}</p>
+      <p class="muted small">Ocena orientacyjna — porównaj z kluczem poniżej i zapisz wynik.${r.limit ? (r.limit.maxTydzien ? ` Oceny AI dziś: ${r.limit.uzyte}/${r.limit.max}, w tygodniu: ${r.limit.tydzien}/${r.limit.maxTydzien}.` : ` Darmowe oceny AI: ${r.limit.uzyte}/${r.limit.max}.`) : ''}</p>
     </section>`;
 
 async function ocenAI(z, k, w) {
