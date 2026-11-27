@@ -346,6 +346,54 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
     },
     {
+     "id": "fe9a25710",
+     "przod": "Przykład: w Warszawie (UTC+1) jest 12:00 zimą — która w Tokio (UTC+9)?",
+     "tyl": "20:00.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "ff1cc468a",
+     "przod": "Przykład: lot Warszawa → Nowy Jork 9 h, start 10:00 (UTC+1), NY UTC−5",
+     "tyl": "Lądowanie o 13:00 czasu nowojorskiego (10 + 9 − 6).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f73b9f970",
+     "przod": "Przykład: różnica czasu słonecznego 15°E i 45°E",
+     "tyl": "30° × 4 min = 2 h; na wschodzie później (więcej).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fd3c80abf",
+     "przod": "Przykład: czas słoneczny 12:00 na 0° — jaki na 30°W?",
+     "tyl": "10:00 (30 × 4 min = 2 h wcześniej).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f16b738fc",
+     "przod": "Ile minut różnicy czasu słonecznego daje 1′ długości?",
+     "tyl": "4 sekundy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f439ea461",
+     "przod": "Przekraczanie linii zmiany daty z zachodu na wschód",
+     "tyl": "Cofamy datę o jeden dzień (np. lecąc z Japonii na Hawaje).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f9ff3204e",
+     "przod": "Czas urzędowy w Polsce latem",
+     "tyl": "UTC+2 (czas środkowoeuropejski letni, CEST).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f6155be2f",
+     "przod": "Prędkość liniowa ruchu obrotowego na 60°",
+     "tyl": "Ok. 835 km/h — połowa prędkości na równiku (cos 60° = 0,5).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
      "id": "f555fdde9",
      "przod": "Strefy czasowe",
      "tyl": "Teoretycznie 24 strefy po 15° długości geograficznej; granice często dostosowane do granic państw.",
@@ -463,6 +511,12 @@
      "id": "f7333fadc",
      "przod": "Rozpoznaj: Lecąc na wschód przestawiasz zegarek do przodu.",
      "tyl": "Czas strefowy przy przekraczaniu stref",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f8832694e",
+     "przod": "Rozpoznaj: Cofamy datę o jeden dzień (np. lecąc z Japonii na Hawaje).",
+     "tyl": "Przekraczanie linii zmiany daty z zachodu na wschód",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
     },
     {
@@ -913,6 +967,19 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Lokalnie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3501e451",
+     "pytanie": "Gdy w Warszawie zimą jest 15:00 czasu strefowego, w Londynie jest:",
+     "odpowiedzi": [
+      "14:00",
+      "13:00",
+      "15:00",
+      "16:00"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "UTC+1 → UTC.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
