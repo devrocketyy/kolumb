@@ -1,0 +1,143 @@
+# Geografia — porcja 49 (fiszki „Przykład…” — część 2).
+T = {
+'g-biomy': dict(F=[
+ ('Przykład obszaru lasu równikowego', 'Amazonia, Kotlina Konga, Borneo, Nowa Gwinea.'),
+ ('Przykład obszaru sawanny', 'Serengeti (Tanzania), Llanos (Wenezuela), Campos (Brazylia), północna Australia.'),
+ ('Przykład obszaru stepu', 'Pampa (Argentyna), prerie (USA, Kanada), stepy Ukrainy i Kazachstanu.'),
+ ('Przykład obszaru tajgi', 'Syberia, Kanada, Skandynawia, Finlandia.'),
+ ('Przykład obszaru tundry', 'Północna Kanada, Alaska, północna Rosja, Grenlandia (wybrzeża).'),
+ ('Przykład obszaru makii', 'Wybrzeża Morza Śródziemnego: Korsyka, Grecja, południe Hiszpanii; chaparral w Kalifornii.'),
+ ('Przykład obszaru lasów namorzynowych', 'Sundarbany (Bangladesz, Indie), wybrzeża Indonezji, delta Nigru, Floryda.'),
+],
+Q=[
+ ('Sundarbany to obszar lasów:', ['*namorzynowych', 'iglastych', 'liściastych', 'twardolistnych'], 'Delta Gangesu.'),
+ ('Llanos to sawanna w:', ['*Wenezueli', 'Kenii', 'Australii', 'Indiach'], 'Orinoko.'),
+]),
+'g-gleby': dict(F=[
+ ('Przykład obszaru czarnoziemów', 'Ukraina, południe Rosji, prerie USA, pampa; w Polsce okolice Hrubieszowa.'),
+ ('Przykład obszaru gleb bielicowych w Polsce', 'Puszcza Notecka, Bory Tucholskie, Puszcza Kampinoska.'),
+ ('Przykład obszaru rędzin w Polsce', 'Wyżyna Krakowsko-Częstochowska, Ponidzie, Wyżyna Lubelska (miejscami).'),
+ ('Przykład obszaru mad w Polsce', 'Żuławy Wiślane, doliny Wisły i Odry.'),
+ ('Przykład obszaru gleb torfowych w Polsce', 'Kotlina Biebrzańska, Polesie Lubelskie.'),
+ ('Przykład obszaru zasolonych gleb', 'Azja Środkowa (Uzbekistan), Mezopotamia, dorzecze Murray (Australia).'),
+ ('Przykład obszaru silnej erozji gleb', 'Wyżyna Lessowa w Chinach, Wyżyna Lubelska (wąwozy), Sahel.'),
+],
+Q=[
+ ('Gleby torfowe w Polsce występują m.in. w:', ['*Kotlinie Biebrzańskiej', 'Tatrach', 'Jurze', 'Sudetach'], 'Bagna.'),
+ ('Czarnoziemy w Polsce są m.in. koło:', ['*Hrubieszowa', 'Szczecina', 'Olsztyna', 'Zakopanego'], 'Lessy.'),
+]),
+'g-lodowce': dict(F=[
+ ('Przykład lodowca górskiego', 'Aletsch (Alpy), Perito Moreno (Patagonia), Siachen (Karakorum).'),
+ ('Przykład lodowca szelfowego', 'Lodowiec Szelfowy Rossa, Filchnera-Ronne (Antarktyda).'),
+ ('Przykład fiordów', 'Norwegia (Sognefjord), Chile, Nowa Zelandia (Milford Sound), Grenlandia.'),
+ ('Przykład obszaru wieloletniej zmarzliny', 'Syberia, Alaska, północna Kanada, Wyżyna Tybetańska.'),
+ ('Przykład form polodowcowych w Polsce', 'Pojezierze Mazurskie (rynny), Równina Tucholska (sandr), Pradolina Toruńsko-Eberswaldzka.'),
+ ('Przykład dawnego lodowca w Polsce', 'Tatry — kotły Morskiego Oka i Czarnego Stawu, doliny U-kształtne.'),
+],
+Q=[
+ ('Perito Moreno to lodowiec w:', ['*Patagonii', 'Alpach', 'Himalajach', 'Skandynawii'], 'Argentyna.'),
+ ('Lodowiec Szelfowy Rossa leży na:', ['*Antarktydzie', 'Grenlandii', 'Alasce', 'Islandii'], 'Szelfowy.'),
+]),
+'g-oceany': dict(F=[
+ ('Przykład obszaru upwellingu', 'Wybrzeża Peru i Chile, Namibii, Kalifornii, Mauretanii.'),
+ ('Przykład rafy koralowej', 'Wielka Rafa Koralowa (Australia), Morze Czerwone, Karaiby, Malediwy.'),
+ ('Przykład morza o niskim zasoleniu', 'Bałtyk, Morze Czarne (powierzchniowo), Zatoka Botnicka.'),
+ ('Przykład morza o wysokim zasoleniu', 'Morze Czerwone, Zatoka Perska, Morze Śródziemne.'),
+ ('Przykład rowu oceanicznego', 'Rów Mariański, Atakamski (Peru-Chilijski), Japoński, Kurylski.'),
+ ('Przykład wielkich pływów', 'Zatoka Fundy (Kanada), Zatoka St-Malo (Francja), ujście Severn (Wielka Brytania).'),
+],
+Q=[
+ ('Upwelling występuje m.in. u wybrzeży:', ['*Namibii', 'Norwegii', 'Polski', 'Irlandii'], 'Prąd Benguelski.'),
+]),
+'g-pogoda': dict(F=[
+ ('Przykład regionu z częstymi tornadami', 'Aleja Tornad — Wielkie Równiny USA (Teksas, Oklahoma, Kansas).'),
+ ('Przykład regionu z częstymi tajfunami', 'Filipiny, Japonia, południowe Chiny, Tajwan.'),
+ ('Przykład regionu z częstymi huraganami', 'Karaiby, Floryda, wybrzeże Zatoki Meksykańskiej.'),
+ ('Przykład regionu z częstymi cyklonami', 'Bangladesz, Indie (Zatoka Bengalska), Madagaskar, Mozambik.'),
+ ('Przykład gwałtownej burzy w Polsce', 'Nawałnica z 11 VIII 2017 r. — Bory Tucholskie (derecho, zniszczone lasy).'),
+ ('Przykład wiatru fenowego w Europie', 'Fen w Alpach, halny w Tatrach.'),
+],
+Q=[
+ ('Tajfuny najczęściej nawiedzają:', ['*Filipiny', 'Chile', 'Islandię', 'Egipt'], 'Pacyfik Zach.'),
+]),
+'g-uslugi': dict(F=[
+ ('Przykład kraju z dużym udziałem turystyki w PKB', 'Malediwy, Seszele, Chorwacja, Grecja, Tajlandia.'),
+ ('Przykład regionu turystyki zimowej', 'Alpy (Szwajcaria, Austria, Francja), Tatry, Skandynawia, Góry Skaliste.'),
+ ('Przykład turystyki religijnej', 'Mekka, Watykan, Lourdes, Santiago de Compostela, Częstochowa, Waranasi.'),
+ ('Przykład centrum finansowego', 'Nowy Jork (Wall Street), Londyn (City), Frankfurt, Singapur, Hongkong.'),
+ ('Przykład wielkiego hubu lotniczego', 'Dubaj, Atlanta, Londyn-Heathrow, Frankfurt, Stambuł.'),
+ ('Przykład wielkiego portu kontenerowego', 'Szanghaj, Singapur, Ningbo-Zhoushan, Rotterdam, Busan.'),
+ ('Przykład kraju centrów usług BPO', 'Indie, Filipiny, Polska.'),
+],
+Q=[
+ ('Centrum finansowym Europy kontynentalnej jest:', ['*Frankfurt', 'Lizbona', 'Kraków', 'Ateny'], 'EBC.'),
+]),
+'g-rozwoj': dict(F=[
+ ('Przykład kraju o najwyższym HDI', 'Szwajcaria, Norwegia, Islandia, Dania.'),
+ ('Przykład kraju o najniższym HDI', 'Sudan Południowy, Somalia, Czad, Niger, Republika Środkowoafrykańska.'),
+ ('Przykład kraju „klątwy surowcowej”', 'Nigeria, Wenezuela, Angola, DR Konga.'),
+ ('Przykład kraju sukcesu rozwojowego w Azji', 'Korea Pd., Singapur, Tajwan, Wietnam.'),
+ ('Przykład kraju o dużych nierównościach dochodów', 'RPA, Brazylia, Kolumbia, Namibia.'),
+ ('Przykład kraju o małych nierównościach dochodów', 'Słowacja, Słowenia, kraje skandynawskie.'),
+],
+Q=[
+ ('Największe nierówności dochodów (Gini) ma m.in.:', ['*RPA', 'Słowacja', 'Dania', 'Słowenia'], 'Apartheid.'),
+]),
+'g-polityka': dict(F=[
+ ('Przykład państwa wielonarodowego', 'Szwajcaria, Belgia, Kanada, Indie, Rosja.'),
+ ('Przykład państwa narodowego (jednolitego)', 'Polska, Japonia, Islandia, Portugalia.'),
+ ('Przykład enklawy', 'San Marino i Watykan (we Włoszech), Lesotho (w RPA).'),
+ ('Przykład eksklawy', 'Obwód Królewiecki (Rosja), Alaska (USA), Ceuta i Melilla (Hiszpania).'),
+ ('Przykład państwa federacyjnego', 'Niemcy, USA, Rosja, Indie, Brazylia, Szwajcaria.'),
+ ('Przykład monarchii konstytucyjnej', 'Wielka Brytania, Hiszpania, Szwecja, Norwegia, Japonia.'),
+ ('Przykład terytorium zależnego', 'Grenlandia (Dania), Gujana Francuska, Falklandy (Wielka Brytania).'),
+],
+Q=[
+ ('Ceuta i Melilla to eksklawy:', ['*Hiszpanii', 'Maroka', 'Portugalii', 'Francji'], 'Afryka Pn.'),
+]),
+'g-pl-wody': dict(F=[
+ ('Przykład jeziora rynnowego w Polsce', 'Hańcza, Gopło, Jeziorak, Charzykowskie.'),
+ ('Przykład jeziora morenowego w Polsce', 'Śniardwy, Mamry.'),
+ ('Przykład jeziora przybrzeżnego w Polsce', 'Łebsko, Gardno, Jamno, Wicko.'),
+ ('Przykład jeziora krasowego w Polsce', 'Jeziora Pojezierza Łęczyńsko-Włodawskiego (np. Rotcze).'),
+ ('Przykład zbiornika zaporowego w Polsce', 'Solińskie, Włocławskie, Czorsztyńskie, Goczałkowickie, Jeziorsko.'),
+ ('Przykład rzeki przekopanej w Polsce', 'Wisła (Przekop Wisły 1895), Odra (Kanał Ulgi we Wrocławiu).'),
+ ('Przykład dużej powodzi w Polsce', '1997 (Odra), 2010 (Wisła), 2024 (Kotlina Kłodzka, Nysa Kłodzka).'),
+],
+Q=[
+ ('Jeziorem przybrzeżnym jest:', ['*Gardno', 'Hańcza', 'Mamry', 'Gopło'], 'Mierzeja.'),
+]),
+'g-pl-krajobrazy': dict(F=[
+ ('Przykład krajobrazu górskiego wysokogórskiego w Polsce', 'Tatry (Rysy 2499 m).'),
+ ('Przykład krajobrazu krasowego w Polsce', 'Ojcowski PN, Jaskinia Raj (Góry Świętokrzyskie), Tatry Zachodnie.'),
+ ('Przykład krajobrazu wydmowego w Polsce', 'Słowiński PN (wydmy nadmorskie), Kampinoski PN (śródlądowe).'),
+ ('Przykład krajobrazu bagiennego w Polsce', 'Biebrzański PN, Poleski PN, Narwiański PN.'),
+ ('Przykład krajobrazu wyżynnego lessowego', 'Kazimierz Dolny i Nałęczów — wąwozy lessowe.'),
+ ('Przykład krajobrazu kulturowego wpisanego na listę UNESCO', 'Kalwaria Zebrzydowska, Park Mużakowski, drewniane kościoły Małopolski.'),
+],
+Q=[
+ ('Jaskinia Raj znajduje się w:', ['*Górach Świętokrzyskich', 'Tatrach', 'Sudetach', 'Pieninach'], 'Kras.'),
+]),
+'g-pl-gospodarka': dict(F=[
+ ('Przykład specjalnej strefy ekonomicznej w Polsce (historyczny)', 'Katowicka, Wałbrzyska, Mielecka (pierwsza, 1995) SSE.'),
+ ('Przykład rewitalizacji poprzemysłowej w Polsce', 'Księży Młyn (Łódź), Stara Rzeźnia (Poznań), Nikiszowiec (Katowice).'),
+ ('Przykład firmy wydobywczej w Polsce', 'KGHM (miedź), JSW (węgiel koksowy), PGG (węgiel energetyczny).'),
+ ('Przykład regionu sadowniczego w Polsce', 'Grójec, Sandomierz, Łącko (śliwki).'),
+ ('Przykład regionu rybackiego w Polsce', 'Władysławowo, Ustka, Kołobrzeg; stawy milickie (karp).'),
+ ('Przykład dużego węzła logistycznego w Polsce', 'Stryków, Piotrków Trybunalski, Gądki k. Poznania, Małaszewicze.'),
+],
+Q=[
+ ('Pierwszą SSE w Polsce była strefa:', ['*Mielecka', 'Katowicka', 'Łódzka', 'Pomorska'], '1995.'),
+]),
+'g-pl-ludnosc': dict(F=[
+ ('Przykład regionu wyludniającego się w Polsce', 'Podlasie, Lubelszczyzna, Opolszczyzna, Świętokrzyskie.'),
+ ('Przykład regionu z przyrostem ludności w Polsce', 'Strefy podmiejskie Warszawy, Krakowa, Gdańska, Wrocławia, Poznania.'),
+ ('Przykład skupiska mniejszości niemieckiej', 'Opolszczyzna (gmina Strzelce Opolskie, Gogolin).'),
+ ('Przykład skupiska mniejszości białoruskiej', 'Podlasie (Hajnówka, Bielsk Podlaski).'),
+ ('Przykład skupiska mniejszości litewskiej', 'Sejny, Puńsk.'),
+ ('Przykład regionu z językiem regionalnym', 'Kaszuby (Kartuzy, Kościerzyna).'),
+],
+Q=[
+ ('Mniejszość litewska skupia się w:', ['*Puńsku', 'Opolu', 'Hajnówce', 'Kartuzach'], 'Suwalszczyzna.'),
+]),
+}
