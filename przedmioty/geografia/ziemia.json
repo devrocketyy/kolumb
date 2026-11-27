@@ -430,6 +430,36 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
     },
     {
+     "id": "f854291a3",
+     "przod": "Oblicz: na 20°E jest 12:00 czasu słonecznego — która na 35°E?",
+     "tyl": "Różnica 15° × 4 min = 60 min; na wschodzie później → 13:00.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f52d2ff20",
+     "przod": "Oblicz: na 10°W jest 9:00 czasu słonecznego — która na 25°E?",
+     "tyl": "Różnica 35° × 4 min = 140 min = 2 h 20 min; na wschodzie później → 11:20.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f69d2a3e8",
+     "przod": "Oblicz: w Warszawie zimą 18:00 — która w Pekinie (UTC+8)?",
+     "tyl": "Różnica 7 h → 1:00 następnego dnia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fdca0e28f",
+     "przod": "Oblicz: start z Tokio (UTC+9) o 10:00, lot 11 h — o której lądowanie w Warszawie zimą?",
+     "tyl": "W Tokio będzie 21:00 → w Warszawie (UTC+1) 13:00 tego samego dnia.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fd28da99a",
+     "przod": "Oblicz: różnica czasu słonecznego między Szczecinem (14,5°E) a Białymstokiem (23,2°E)",
+     "tyl": "Ok. 8,7° × 4 min ≈ 35 min; w Białymstoku Słońce góruje wcześniej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
      "id": "f1e12be32",
      "przod": "Rozpoznaj: Skutek ruchu obrotowego — promień równikowy (6378 km) jest o ok. 21 km dłuższy od biegunowego.",
      "tyl": "Spłaszczenie Ziemi",
@@ -1046,6 +1076,19 @@
      "poprawna": "B",
      "wyjasnienie": "Cień zawsze jest kolisty.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p18c8f4ff",
+     "pytanie": "Na południku 10°W jest 9:00 czasu słonecznego. Na południku 25°E jest wtedy:",
+     "odpowiedzi": [
+      "11:00",
+      "7:20",
+      "11:20",
+      "6:40"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "35° × 4 min.",
+     "zrodlo": "Zadanie autorskie IndexLab"
     }
    ],
    "schematy": [
@@ -1590,6 +1633,36 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
     },
     {
+     "id": "fa6881c47",
+     "przod": "Oblicz: wysokość górowania Słońca 22 VI na 50°N",
+     "tyl": "90° − 50° + 23°26′ = 63°26′ (nad południowym horyzontem).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "fceba8add",
+     "przod": "Oblicz: wysokość górowania Słońca 22 XII na 30°S",
+     "tyl": "90° − 30° + 23°26′ = 83°26′ (lato na półkuli S; nad północnym horyzontem).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "fac2c6a3d",
+     "przod": "Oblicz: wysokość górowania Słońca 21 III na 60°N",
+     "tyl": "90° − 60° = 30°.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "f1a397c3a",
+     "przod": "Oblicz: wysokość górowania Słońca 22 VI na 10°N",
+     "tyl": "Słońce nad zwrotnikiem Raka, czyli na północ od miejsca: 90° − (23°26′ − 10°) = 76°34′ nad północnym horyzontem.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
+     "id": "fda37f9e7",
+     "przod": "Oblicz szerokość: 22 VI Słońce górowało 70° nad południowym horyzontem (półkula N)",
+     "tyl": "φ = 90° − 70° + 23°26′ = 43°26′N.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.3–4"
+    },
+    {
      "id": "fb28cd2ea",
      "przod": "Rozpoznaj: Czas między kolejnymi równonocami wiosennymi — ok. 365 dni 5 h 49 min; stąd lata przestępne.",
      "tyl": "Rok zwrotnikowy",
@@ -2122,6 +2195,19 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "UTC+2.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2d9290c5",
+     "pytanie": "Wysokość górowania Słońca 22 czerwca na 50°N wynosi:",
+     "odpowiedzi": [
+      "73°26′",
+      "40°",
+      "16°34′",
+      "63°26′"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "90 − 50 + 23°26′.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ],
