@@ -394,6 +394,54 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VIII.1–4"
     },
     {
+     "id": "fe1f15f69",
+     "przod": "Przyrost rzeczywisty: urodzenia 9‰, zgony 12‰, saldo migracji +1‰",
+     "tyl": "9 − 12 + 1 = −2‰ (ubytek).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VIII.1–4"
+    },
+    {
+     "id": "f87991e6e",
+     "przod": "Przyrost naturalny: 350 tys. urodzeń, 480 tys. zgonów",
+     "tyl": "350 − 480 = −130 tys. (ubytek naturalny).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VIII.1–4"
+    },
+    {
+     "id": "fab222188",
+     "przod": "Saldo migracji: 15 tys. imigrantów, 25 tys. emigrantów",
+     "tyl": "15 − 25 = −10 tys.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VIII.1–4"
+    },
+    {
+     "id": "ff3febf75",
+     "przod": "Współczynnik feminizacji: 19,3 mln kobiet, 18,2 mln mężczyzn",
+     "tyl": "19,3 / 18,2 × 100 ≈ 106.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VIII.1–4"
+    },
+    {
+     "id": "ffab747fe",
+     "przod": "Współczynnik urodzeń: 360 tys. urodzeń przy 37,6 mln ludności",
+     "tyl": "360 000 / 37 600 000 × 1000 ≈ 9,6‰.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VIII.1–4"
+    },
+    {
+     "id": "fc1fea9d9",
+     "przod": "Obciążenie demograficzne: 11 mln nieprodukcyjnych na 22 mln produkcyjnych",
+     "tyl": "11 / 22 × 100 = 50 osób na 100 w wieku produkcyjnym.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VIII.1–4"
+    },
+    {
+     "id": "ff1a77425",
+     "przod": "Czas podwojenia ludności przy przyroście 3% rocznie (reguła 70)",
+     "tyl": "70 / 3 ≈ 23 lata.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VIII.1–4"
+    },
+    {
+     "id": "faad938bd",
+     "przod": "Czas podwojenia ludności przy przyroście 1% rocznie",
+     "tyl": "70 / 1 = 70 lat.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. VIII.1–4"
+    },
+    {
      "id": "fcb440a46",
      "przod": "Przejście demograficzne",
      "tyl": "Model zmian: wysokie urodzenia i zgony → spadek zgonów (eksplozja demograficzna) → spadek urodzeń → niskie urodzenia i zgony.",
@@ -1049,6 +1097,58 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Przymus.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p540f11e6",
+     "pytanie": "Urodzenia 9‰, zgony 12‰, saldo +1‰ — przyrost rzeczywisty to:",
+     "odpowiedzi": [
+      "−2‰",
+      "+2‰",
+      "−3‰",
+      "−4‰"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Suma.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf32f62d2",
+     "pytanie": "15 tys. imigrantów i 25 tys. emigrantów to saldo:",
+     "odpowiedzi": [
+      "−40 tys.",
+      "40 tys.",
+      "+10 tys.",
+      "−10 tys."
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Imigracja − emigracja.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd87048d8",
+     "pytanie": "Przy przyroście 3% rocznie ludność podwoi się w ok.:",
+     "odpowiedzi": [
+      "3 lata",
+      "70 lat",
+      "10 lat",
+      "23 lata"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Reguła 70.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6a48cdbc",
+     "pytanie": "11 mln nieprodukcyjnych na 22 mln produkcyjnych to obciążenie:",
+     "odpowiedzi": [
+      "11",
+      "50",
+      "33",
+      "200"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Na 100.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {

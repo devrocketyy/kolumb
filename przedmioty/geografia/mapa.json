@@ -352,6 +352,54 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
+     "id": "fcba01638",
+     "przod": "Skala, gdy 3 cm na mapie = 1,5 km w terenie",
+     "tyl": "1,5 km = 150 000 cm; 150 000 / 3 = 50 000 → 1:50 000.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fc3f9de28",
+     "przod": "Skala, gdy 4 cm na mapie = 10 km",
+     "tyl": "1 000 000 cm / 4 = 250 000 → 1:250 000.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f2c11e3af",
+     "przod": "Odległość w terenie: 7,2 cm na mapie 1:25 000",
+     "tyl": "7,2 × 250 m = 1800 m = 1,8 km.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f9e8f029c",
+     "przod": "Odległość na mapie 1:200 000 dla 18 km",
+     "tyl": "18 km / 2 km = 9 cm.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f25319862",
+     "przod": "Powierzchnia: kwadrat 2 × 2 cm na mapie 1:50 000",
+     "tyl": "1 cm = 0,5 km → 1 km × 1 km = 1 km².",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f4c248d18",
+     "przod": "Powierzchnia: prostokąt 3 × 4 cm na mapie 1:100 000",
+     "tyl": "3 km × 4 km = 12 km².",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f8250a76c",
+     "przod": "Czas marszu: 12 km przy 4 km/h",
+     "tyl": "3 h.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fbf34532d",
+     "przod": "Czas marszu: 6 km przy 4 km/h i podejście 300 m (10 min na każde 100 m)",
+     "tyl": "1,5 h + 30 min = 2 h.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
      "id": "f533f96a2",
      "przod": "Skala 1:10 000 — mianowana",
      "tyl": "1 cm — 100 m.",
@@ -950,6 +998,58 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "Np. gęstość.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1d09409b",
+     "pytanie": "3 cm na mapie to 1,5 km w terenie — skala wynosi:",
+     "odpowiedzi": [
+      "1:5 000",
+      "1:15 000",
+      "1:50 000",
+      "1:500 000"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "150 000 / 3.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pf7d6cbba",
+     "pytanie": "7,2 cm na mapie 1:25 000 to w terenie:",
+     "odpowiedzi": [
+      "1,8 km",
+      "0,72 km",
+      "7,2 km",
+      "18 km"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "× 250 m.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd629a2c6",
+     "pytanie": "Prostokąt 3 × 4 cm na mapie 1:100 000 to:",
+     "odpowiedzi": [
+      "120 km²",
+      "1,2 km²",
+      "7 km²",
+      "12 km²"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "3 km × 4 km.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p12393119",
+     "pytanie": "18 km na mapie 1:200 000 to odcinek:",
+     "odpowiedzi": [
+      "18 cm",
+      "9 cm",
+      "3,6 cm",
+      "90 cm"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "1 cm = 2 km.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {

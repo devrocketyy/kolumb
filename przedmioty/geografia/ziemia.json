@@ -286,6 +286,66 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
     },
     {
+     "id": "fe96fe7e8",
+     "przod": "Różnica czasu słonecznego: Warszawa (21°E) i Berlin (13°24′E)",
+     "tyl": "7°36′ × 4 min = 30 min 24 s — w Warszawie później.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fd419b3c3",
+     "przod": "Różnica czasu słonecznego: Kraków (19°56′E) i Londyn (0°)",
+     "tyl": "19°56′ × 4 min = 79 min 44 s ≈ 1 h 19 min 44 s.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f8dd15b74",
+     "przod": "Różnica czasu słonecznego: Nowy Jork (74°W) i Warszawa (21°E)",
+     "tyl": "95° × 4 min = 380 min = 6 h 20 min.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fb9023a74",
+     "przod": "W Warszawie (21°E) jest 12:00 czasu słonecznego. Która jest w Berlinie (13°24′E)?",
+     "tyl": "12:00 − 30 min 24 s = 11:29:36.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fdc923da8",
+     "przod": "W Londynie jest 12:00 czasu słonecznego. Która jest na 45°E?",
+     "tyl": "45° × 4 min = 3 h → 15:00.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fca5006fc",
+     "przod": "Zimą w Warszawie jest 14:00 czasu urzędowego. Która jest w Tokio (UTC+9)?",
+     "tyl": "Warszawa UTC+1 → różnica 8 h → 22:00.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "fd31d83b0",
+     "przod": "Latem w Warszawie jest 10:00 czasu urzędowego. Która jest w Londynie (czas letni UTC+1)?",
+     "tyl": "Warszawa UTC+2 → 9:00.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f49a3c009",
+     "przod": "Samolot wylatuje z Warszawy o 10:00 (UTC+1) i leci 9 h do Nowego Jorku (UTC−5). O której ląduje czasu lokalnego?",
+     "tyl": "10:00 + 9 h = 19:00 w Warszawie → 13:00 w Nowym Jorku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "ff32db397",
+     "przod": "Na jakiej długości jest miejsce, gdzie południe słoneczne wypada o 13:20 czasu Greenwich?",
+     "tyl": "80 min / 4 = 20° na zachód → 20°W.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "ff4769ca4",
+     "przod": "Na jakiej długości jest miejsce, gdzie południe słoneczne wypada o 11:00 czasu Greenwich?",
+     "tyl": "60 min / 4 = 15° na wschód → 15°E.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
      "id": "f555fdde9",
      "przod": "Strefy czasowe",
      "tyl": "Teoretycznie 24 strefy po 15° długości geograficznej; granice często dostosowane do granic państw.",
@@ -788,6 +848,71 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Rozkłady jazdy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pc1cde49d",
+     "pytanie": "Różnica czasu słonecznego między 74°W a 21°E wynosi:",
+     "odpowiedzi": [
+      "5 h 00 min",
+      "3 h 40 min",
+      "7 h 15 min",
+      "6 h 20 min"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "95° × 4 min.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p10d11030",
+     "pytanie": "Gdy w Londynie jest 12:00 słonecznego, na 45°E jest:",
+     "odpowiedzi": [
+      "9:00",
+      "14:00",
+      "15:00",
+      "12:45"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "45 × 4 min.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p7f63b00a",
+     "pytanie": "Południe słoneczne o 13:20 GMT wypada na długości:",
+     "odpowiedzi": [
+      "80°E",
+      "20°W",
+      "13°W",
+      "20°E"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Na zachód — później.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4b2dd809",
+     "pytanie": "Zimą 14:00 w Warszawie (UTC+1) to w Tokio (UTC+9):",
+     "odpowiedzi": [
+      "23:00",
+      "20:00",
+      "6:00",
+      "22:00"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "+8 h.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "ped8fd862",
+     "pytanie": "Lot 9 h z Warszawy (10:00, UTC+1) do Nowego Jorku (UTC−5) kończy się o:",
+     "odpowiedzi": [
+      "1:00",
+      "19:00",
+      "7:00",
+      "13:00"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Lokalnie.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
@@ -2274,6 +2399,78 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
     },
     {
+     "id": "fc5d4a443",
+     "przod": "Wysokość górowania Słońca w Warszawie (52°14′N) w równonoc",
+     "tyl": "90° − 52°14′ = 37°46′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f0924e170",
+     "przod": "Wysokość górowania Słońca w Warszawie (52°14′N) 22 VI",
+     "tyl": "37°46′ + 23°26′ = 61°12′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f05864c55",
+     "przod": "Wysokość górowania Słońca w Warszawie (52°14′N) 22 XII",
+     "tyl": "37°46′ − 23°26′ = 14°20′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fe1d13909",
+     "przod": "Wysokość górowania Słońca w Krakowie (50°04′N) 22 VI",
+     "tyl": "90° − 50°04′ + 23°26′ = 63°22′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f7ec31f17",
+     "przod": "Wysokość górowania Słońca w Krakowie (50°04′N) 22 XII",
+     "tyl": "90° − 50°04′ − 23°26′ = 16°30′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f68bb4af5",
+     "przod": "Wysokość górowania Słońca w Gdańsku (54°21′N) 22 VI",
+     "tyl": "90° − 54°21′ + 23°26′ = 59°05′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f4ba88074",
+     "przod": "Wysokość górowania Słońca w Gdańsku (54°21′N) 22 XII",
+     "tyl": "90° − 54°21′ − 23°26′ = 12°13′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f95e3b0f5",
+     "przod": "Różnica wysokości Słońca 22 VI i 22 XII w dowolnym miejscu strefy umiarkowanej",
+     "tyl": "Zawsze 46°52′ (2 × 23°26′).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fb17bbcb9",
+     "przod": "Wysokość górowania Słońca w Kairze (30°N) 22 VI",
+     "tyl": "90° − 30° + 23°26′ = 83°26′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f6f038577",
+     "przod": "Wysokość górowania Słońca w Kairze (30°N) 22 XII",
+     "tyl": "90° − 30° − 23°26′ = 36°34′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "ff8c3f353",
+     "przod": "Wysokość górowania Słońca w Sydney (34°S) 22 XII",
+     "tyl": "90° − 34° + 23°26′ = 79°26′ (lato na półkuli S, Słońce od północy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fb499501e",
+     "przod": "Wysokość górowania Słońca w Sydney (34°S) 22 VI",
+     "tyl": "90° − 34° − 23°26′ = 32°34′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
      "id": "fe514e91c",
      "przod": "Wysokość Słońca w strefie międzyzwrotnikowej",
      "tyl": "Słońce góruje w zenicie dwa razy w roku (na zwrotnikach — raz).",
@@ -2857,6 +3054,71 @@
      ],
      "poprawna": "B",
      "wyjasnienie": "Południe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe2dd9c62",
+     "pytanie": "Wysokość górowania Słońca w Warszawie (52°14′N) 22 VI wynosi:",
+     "odpowiedzi": [
+      "14°20′",
+      "61°12′",
+      "75°40′",
+      "37°46′"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "37°46′ + 23°26′.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcd950780",
+     "pytanie": "Wysokość górowania Słońca w Gdańsku (54°21′N) w równonoc:",
+     "odpowiedzi": [
+      "35°39′",
+      "59°05′",
+      "54°21′",
+      "12°13′"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "90° − φ.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p875cff6c",
+     "pytanie": "Różnica wysokości Słońca między 22 VI a 22 XII to zawsze (poza tropikami i kołami):",
+     "odpowiedzi": [
+      "66°34′",
+      "90°00′",
+      "23°26′",
+      "46°52′"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "2 × δ.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p1af2c136",
+     "pytanie": "Wysokość górowania Słońca w Sydney (34°S) 22 XII wynosi:",
+     "odpowiedzi": [
+      "79°26′",
+      "66°34′",
+      "56°00′",
+      "32°34′"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Lato S.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p53944fa2",
+     "pytanie": "Wysokość górowania Słońca w Krakowie (50°04′N) 22 XII wynosi:",
+     "odpowiedzi": [
+      "26°34′",
+      "39°56′",
+      "63°22′",
+      "16°30′"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "90 − φ − 23°26′.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {

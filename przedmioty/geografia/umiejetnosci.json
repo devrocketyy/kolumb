@@ -1728,6 +1728,78 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
     },
     {
+     "id": "fe692ab29",
+     "przod": "Temperatura na szczycie: podnóże 1000 m — 15°C, szczyt 2500 m, gradient 0,6°C/100 m",
+     "tyl": "1500 m × 0,6/100 = 9°C spadku → 6°C.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f9c5c5f1b",
+     "przod": "Zakopane (838 m) — 10°C. Ile na Kasprowym Wierchu (1987 m) przy 0,6°C/100 m?",
+     "tyl": "Różnica 1149 m → ok. 6,9°C spadku → ok. 3,1°C.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f580b985b",
+     "przod": "Spadek rzeki: 300 m różnicy na 150 km",
+     "tyl": "300 m / 150 000 m × 1000 = 2‰.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "fbb4c2b2d",
+     "przod": "Średni spadek Wisły: źródło ok. 1106 m, długość 1047 km",
+     "tyl": "Ok. 1106 / 1 047 000 × 1000 ≈ 1,06‰.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "ff830e0f3",
+     "przod": "Gęstość zaludnienia Polski: 37,5 mln / 312,7 tys. km²",
+     "tyl": "Ok. 120 os./km².",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "fd54c3a67",
+     "przod": "Amplituda roczna: lipiec 18,5°C, styczeń −3,5°C",
+     "tyl": "18,5 − (−3,5) = 22°C.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "fd17933a5",
+     "przod": "Amplituda roczna: lipiec 27°C, styczeń −15°C",
+     "tyl": "27 − (−15) = 42°C — klimat kontynentalny.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f9c0ca6a8",
+     "przod": "Średnia z 4 pomiarów: 4°C, 9°C, 14°C, 5°C",
+     "tyl": "(4 + 9 + 14 + 5) / 4 = 8°C.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f0fe39440",
+     "przod": "Udział: 30 tys. z 120 tys.",
+     "tyl": "30 / 120 × 100% = 25%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f12e87287",
+     "przod": "Dynamika: z 120 do 150 jednostek",
+     "tyl": "150 / 120 × 100% = 125% → wzrost o 25%.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "fbe42a8f6",
+     "przod": "Zmiana udziału z 12% do 8%",
+     "tyl": "Spadek o 4 punkty procentowe (o 33% względnie).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
+     "id": "f0eff9ae8",
+     "przod": "Plon: 48 tys. t z 8 tys. ha",
+     "tyl": "48 / 8 = 6 t/ha.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II.8"
+    },
+    {
      "id": "f28a2c695",
      "przod": "Rozpoznaj: Liczba ludności podzielona przez powierzchnię, w os./km².",
      "tyl": "Gęstość zaludnienia",
@@ -2223,6 +2295,71 @@
      ],
      "poprawna": "A",
      "wyjasnienie": "52/48 × 100.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p64b36c17",
+     "pytanie": "Spadek rzeki przy 300 m różnicy na 150 km to:",
+     "odpowiedzi": [
+      "2‰",
+      "20‰",
+      "5‰",
+      "0,2‰"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "300/150 000.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p9f2e9762",
+     "pytanie": "Amplituda przy lipcu 27°C i styczniu −15°C wynosi:",
+     "odpowiedzi": [
+      "42°C",
+      "27°C",
+      "12°C",
+      "15°C"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Odejmij ujemną.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p50d011b2",
+     "pytanie": "Wzrost z 120 do 150 to dynamika:",
+     "odpowiedzi": [
+      "30%",
+      "150%",
+      "125%",
+      "80%"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Indeks.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p49c081ab",
+     "pytanie": "Spadek udziału z 12% do 8% to spadek o:",
+     "odpowiedzi": [
+      "8 p.p.",
+      "4 p.p.",
+      "50%",
+      "4%"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Punkty procentowe.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p0afcf32e",
+     "pytanie": "Gęstość zaludnienia Polski wynosi ok.:",
+     "odpowiedzi": [
+      "60 os./km²",
+      "35 os./km²",
+      "120 os./km²",
+      "250 os./km²"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "37,5 mln / 313 tys.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
