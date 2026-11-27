@@ -1142,6 +1142,49 @@
        "d": "Sole zostają na powierzchni — gleba jałowieje"
       }
      ]
+    },
+    {
+     "id": "s7390765c",
+     "typ": "rysunek",
+     "tytul": "Profile gleb: bielica, czarnoziem, rędzina",
+     "opis": "Uproszczone profile trzech typów gleb (miąższości symboliczne) — rysunek autorski IndexLab.",
+     "uwaga": "Bielica — strefowa, pod lasem iglastym na piaskach; czarnoziem — strefowy, pod stepem na lessie; rędzina — astrefowa, na skałach węglanowych.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gf2 ol\" x=\"30\" y=\"40\" width=\"90\" height=\"10\"/><text class=\"tb\" x=\"24\" y=\"49\" text-anchor=\"end\">O</text><rect class=\"gg ol\" x=\"30\" y=\"50\" width=\"90\" height=\"15\"/><text class=\"tb\" x=\"24\" y=\"62\" text-anchor=\"end\">A</text><rect class=\"gi ol\" x=\"30\" y=\"65\" width=\"90\" height=\"40\"/><text class=\"tb\" x=\"24\" y=\"89\" text-anchor=\"end\">E</text><rect class=\"gc ol\" x=\"30\" y=\"105\" width=\"90\" height=\"45\"/><text class=\"tb\" x=\"24\" y=\"132\" text-anchor=\"end\">B</text><rect class=\"gp ol\" x=\"30\" y=\"150\" width=\"90\" height=\"90\"/><text class=\"tb\" x=\"24\" y=\"199\" text-anchor=\"end\">C</text><text class=\"tb\" x=\"75\" y=\"28\" text-anchor=\"middle\">bielica</text><rect class=\"gs2 ol\" x=\"155\" y=\"40\" width=\"90\" height=\"110\"/><text class=\"tb\" x=\"149\" y=\"99\" text-anchor=\"end\">A</text><rect class=\"gg ol\" x=\"155\" y=\"150\" width=\"90\" height=\"40\"/><text class=\"tb\" x=\"149\" y=\"174\" text-anchor=\"end\">AC</text><rect class=\"gp ol\" x=\"155\" y=\"190\" width=\"90\" height=\"50\"/><text class=\"tb\" x=\"149\" y=\"219\" text-anchor=\"end\">C</text><text class=\"tb\" x=\"200\" y=\"28\" text-anchor=\"middle\">czarnoziem</text><rect class=\"gg ol\" x=\"280\" y=\"40\" width=\"90\" height=\"40\"/><text class=\"tb\" x=\"274\" y=\"64\" text-anchor=\"end\">A</text><rect class=\"gc ol\" x=\"280\" y=\"80\" width=\"90\" height=\"30\"/><text class=\"tb\" x=\"274\" y=\"99\" text-anchor=\"end\">AC</text><rect class=\"gs ol\" x=\"280\" y=\"110\" width=\"90\" height=\"130\"/><text class=\"tb\" x=\"274\" y=\"179\" text-anchor=\"end\">C</text><text class=\"tb\" x=\"325\" y=\"28\" text-anchor=\"middle\">rędzina</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 75,
+       "y": 82,
+       "lx": 140,
+       "ly": 12,
+       "n": "Poziom wymywania (E)",
+       "d": "Jasny, wypłukany — cecha bielic"
+      },
+      {
+       "x": 200,
+       "y": 95,
+       "lx": 230,
+       "ly": 150,
+       "n": "Gruby poziom próchniczny",
+       "d": "Czarnoziem: nawet ponad 1 m próchnicy"
+      },
+      {
+       "x": 325,
+       "y": 175,
+       "lx": 270,
+       "ly": 270,
+       "n": "Skała węglanowa (C)",
+       "d": "Rędzina leży płytko na wapieniu"
+      },
+      {
+       "x": 75,
+       "y": 125,
+       "lx": 110,
+       "ly": 200,
+       "n": "Poziom wmywania (B)",
+       "d": "Gromadzą się związki żelaza i glinu"
+      }
+     ]
     }
    ]
   },

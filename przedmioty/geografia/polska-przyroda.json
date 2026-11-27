@@ -3127,6 +3127,49 @@
      ]
     },
     {
+     "id": "s3b64f643",
+     "typ": "rysunek",
+     "tytul": "Typy jezior polodowcowych i przybrzeżnych (przekroje)",
+     "opis": "Uproszczone przekroje przez typowe jeziora Polski — rysunek autorski IndexLab (bez skali).",
+     "uwaga": "Rynnowe wyżłobiły wody pod lądolodem, morenowe wypełniają zagłębienia między pagórkami moren, wytopiskowe powstały po stopieniu brył lodu, przybrzeżne — przez odcięcie zatok mierzeją.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gp ol\" d=\"M10 60 H180 V140 H10 Z\"/><path class=\"gw ol\" d=\"M80 60 L88 128 L102 128 L110 60 Z\"/><path class=\"gc ol\" d=\"M220 140 V70 C240 50 260 50 270 70 C290 80 320 80 330 70 C345 50 365 55 390 70 V140 Z\"/><path class=\"gw ol\" d=\"M270 70 C290 85 320 85 330 70 Z\"/><path class=\"gp ol\" d=\"M10 200 H180 V280 H10 Z\"/><path class=\"gw ol\" d=\"M70 200 C75 235 115 235 120 200 Z\"/><path class=\"gl ol\" d=\"M220 280 V215 H285 V280 Z\"/><path class=\"gw ol\" d=\"M285 215 C295 230 315 230 325 215 Z\"/><path class=\"gp ol\" d=\"M325 215 C330 205 340 205 345 215 V280 H325 Z\"/><path class=\"gw ol\" d=\"M345 215 H390 V280 H345 Z\"/><text class=\"tb\" x=\"95\" y=\"52\" text-anchor=\"middle\">rynnowe</text><text class=\"tb\" x=\"305\" y=\"45\" text-anchor=\"middle\">morenowe</text><text class=\"tb\" x=\"95\" y=\"192\" text-anchor=\"middle\">wytopiskowe</text><text class=\"tb\" x=\"305\" y=\"198\" text-anchor=\"middle\">przybrzeżne</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 95,
+       "y": 110,
+       "lx": 150,
+       "ly": 160,
+       "n": "Rynna",
+       "d": "Wąskie, długie i głębokie (Hańcza 108 m, Gopło)"
+      },
+      {
+       "x": 300,
+       "y": 77,
+       "lx": 275,
+       "ly": 110,
+       "n": "Zagłębienie między morenami",
+       "d": "Płytkie, rozległe, o nieregularnych brzegach (Śniardwy)"
+      },
+      {
+       "x": 95,
+       "y": 215,
+       "lx": 120,
+       "ly": 290,
+       "n": "Oczko wytopiskowe",
+       "d": "Małe, okrągłe — po bryle martwego lodu"
+      },
+      {
+       "x": 335,
+       "y": 225,
+       "lx": 310,
+       "ly": 260,
+       "n": "Mierzeja",
+       "d": "Wał piasku oddziela jezioro od morza (Łebsko, Gardno)"
+      }
+     ]
+    },
+    {
      "id": "s59438b40",
      "typ": "rysunek",
      "tytul": "Termika jeziora latem i zimą",

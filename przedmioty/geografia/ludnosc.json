@@ -4145,6 +4145,49 @@
    ],
    "schematy": [
     {
+     "id": "s49f001ae",
+     "typ": "rysunek",
+     "tytul": "Formy osadnictwa wiejskiego (plan)",
+     "opis": "Uproszczone plany typowych form wsi — rysunek autorski IndexLab.",
+     "uwaga": "Kształt wsi zależy od historii osadnictwa i warunków przyrodniczych: ulicówki zakładano na prawie niemieckim, rozproszona zabudowa powstała po parcelacji majątków i w górach.",
+     "svg": "<rect class=\"gt\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"s\" d=\"M20 70 H180\" style=\"stroke-width:3\"/><rect class=\"gs2 ol\" x=\"30\" y=\"55\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"30\" y=\"75\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"50\" y=\"55\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"50\" y=\"75\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"70\" y=\"55\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"70\" y=\"75\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"90\" y=\"55\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"90\" y=\"75\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"110\" y=\"55\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"110\" y=\"75\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"130\" y=\"55\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"130\" y=\"75\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"150\" y=\"55\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"150\" y=\"75\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"170\" y=\"55\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"170\" y=\"75\" width=\"10\" height=\"10\"/><ellipse class=\"s\" cx=\"300\" cy=\"70\" rx=\"70\" ry=\"35\" style=\"fill:none;stroke-width:3\"/><ellipse class=\"gt ol\" cx=\"300\" cy=\"70\" rx=\"40\" ry=\"15\"/><rect class=\"gs2 ol\" x=\"377\" y=\"65\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"366\" y=\"88\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"336\" y=\"104\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"295\" y=\"110\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"254\" y=\"104\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"224\" y=\"88\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"213\" y=\"65\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"224\" y=\"42\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"254\" y=\"26\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"295\" y=\"20\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"336\" y=\"26\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"366\" y=\"42\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"40\" y=\"190\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"90\" y=\"220\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"140\" y=\"180\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"60\" y=\"260\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"160\" y=\"250\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"120\" y=\"280\" width=\"10\" height=\"10\"/><path class=\"s\" d=\"M220 180 L380 280 M380 180 L220 280 M300 170 V290\" style=\"stroke-width:2\"/><rect class=\"gs2 ol\" x=\"280\" y=\"220\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"310\" y=\"215\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"295\" y=\"240\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"320\" y=\"240\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"270\" y=\"245\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"300\" y=\"260\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"330\" y=\"265\" width=\"10\" height=\"10\"/><rect class=\"gs2 ol\" x=\"285\" y=\"200\" width=\"10\" height=\"10\"/><text class=\"tb\" x=\"100\" y=\"30\" text-anchor=\"middle\">ulicówka</text><text class=\"tb\" x=\"300\" y=\"22\" text-anchor=\"middle\">owalnica</text><text class=\"tb\" x=\"100\" y=\"160\" text-anchor=\"middle\">zabudowa rozproszona</text><text class=\"tb\" x=\"300\" y=\"160\" text-anchor=\"middle\">wieś skupiona</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 100,
+       "y": 70,
+       "lx": 125,
+       "ly": 110,
+       "n": "Wzdłuż drogi",
+       "d": "Ulicówka — zagrody po obu stronach drogi (częsta w Polsce)"
+      },
+      {
+       "x": 300,
+       "y": 70,
+       "lx": 275,
+       "ly": 145,
+       "n": "Plac w środku",
+       "d": "Owalnica — zagrody wokół placu (nawsia), dawniej obronna"
+      },
+      {
+       "x": 90,
+       "y": 225,
+       "lx": 115,
+       "ly": 205,
+       "n": "Kolonie",
+       "d": "Pojedyncze zagrody wśród pól — np. Kurpie, Podhale"
+      },
+      {
+       "x": 300,
+       "y": 230,
+       "lx": 275,
+       "ly": 290,
+       "n": "Skrzyżowanie dróg",
+       "d": "Wieś skupiona, wielodrożnica"
+      }
+     ]
+    },
+    {
      "id": "sfef18ae5",
      "typ": "rysunek",
      "tytul": "Strefy w mieście (model koncentryczny)",

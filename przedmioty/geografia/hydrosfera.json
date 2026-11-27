@@ -4744,6 +4744,49 @@
      ]
     },
     {
+     "id": "s3bc9fe2d",
+     "typ": "rysunek",
+     "tytul": "Powstawanie ozów i kemów (przekrój)",
+     "opis": "Schemat powstawania form glacifluwialnych przy zanikającym lądolodzie — rysunek autorski IndexLab.",
+     "uwaga": "Ozy i kemy zbudowane są z warstwowanych piasków i żwirów (osady wodnolodowcowe), w przeciwieństwie do moren z nieposortowanej gliny. Przykłady: Pojezierze Mazurskie, Pomorze.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gi ol\" d=\"M0 60 H400 V150 H0 Z\"/><path class=\"gw ol\" d=\"M80 150 C90 120 110 120 120 150 Z\"/><path class=\"gw ol\" d=\"M270 60 H300 V150 H270 Z\" style=\"opacity:.7\"/><path class=\"gc ol\" d=\"M0 230 H400 V300 H0 Z\"/><path class=\"gp ol\" d=\"M60 230 C80 180 120 180 140 230 Z\"/><path class=\"gp ol\" d=\"M250 230 C260 195 310 195 320 230 Z\"/><path class=\"dash\" d=\"M0 190 H400\"/><text class=\"ts\" x=\"392\" y=\"186\" text-anchor=\"end\">po stopieniu lodu ↓</text><text class=\"tb\" x=\"8\" y=\"52\">lądolód (martwy lód)</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 100,
+       "y": 140,
+       "lx": 160,
+       "ly": 85,
+       "n": "Tunel podlodowcowy",
+       "d": "Rzeka płynie pod lodem i osadza piasek i żwir"
+      },
+      {
+       "x": 100,
+       "y": 205,
+       "lx": 170,
+       "ly": 270,
+       "n": "Oz",
+       "d": "Wąski, długi wał po rzece podlodowcowej"
+      },
+      {
+       "x": 285,
+       "y": 100,
+       "lx": 260,
+       "ly": 130,
+       "n": "Szczelina w lodzie",
+       "d": "Wypełniana osadami wód roztopowych"
+      },
+      {
+       "x": 285,
+       "y": 210,
+       "lx": 340,
+       "ly": 265,
+       "n": "Kem",
+       "d": "Pagórek z warstwowanych piasków po stopieniu lodu"
+      }
+     ]
+    },
+    {
      "id": "s319fb043",
      "typ": "rysunek",
      "tytul": "Lodowiec górski",

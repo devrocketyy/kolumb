@@ -3646,6 +3646,49 @@
      ]
     },
     {
+     "id": "sdad06005",
+     "typ": "rysunek",
+     "tytul": "Powstawanie niżu na froncie polarnym (widok z góry)",
+     "opis": "Uproszczony model rozwoju niżu (cyklonu umiarkowanych szerokości) — rysunek autorski IndexLab.",
+     "uwaga": "Wędrowne niże powstają na froncie polarnym nad Atlantykiem i przesuwają się nad Europę z zachodu na wschód, przynosząc zmienną pogodę Polsce.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gw2\" x=\"10\" y=\"40\" width=\"120\" height=\"110\" style=\"opacity:.25\"/><path class=\"cold\" d=\"M10 95 H130\" style=\"stroke-width:2.5\"/><path class=\"cold\" d=\"M100.0 70.0 L40.0 70.0\"/><path class=\"cold\" d=\"M46.4 67.3 L40.0 70.0 L46.4 72.7\"/><path class=\"hot\" d=\"M40.0 120.0 L100.0 120.0\"/><path class=\"hot\" d=\"M93.6 122.7 L100.0 120.0 L93.6 117.3\"/><text class=\"tb\" x=\"70\" y=\"170\" text-anchor=\"middle\">etap 1</text><rect class=\"gw2\" x=\"140\" y=\"40\" width=\"120\" height=\"110\" style=\"opacity:.25\"/><path class=\"hot\" d=\"M200 95 Q225 85 255 100\" style=\"fill:none;stroke-width:2.5\"/><path class=\"cold\" d=\"M200 95 Q180 110 155 130\" style=\"fill:none;stroke-width:2.5\"/><text class=\"tb\" x=\"200\" y=\"170\" text-anchor=\"middle\">etap 2</text><rect class=\"gw2\" x=\"270\" y=\"40\" width=\"120\" height=\"110\" style=\"opacity:.25\"/><path class=\"hot\" d=\"M330 90 Q355 90 382 112\" style=\"fill:none;stroke-width:2.5\"/><path class=\"cold\" d=\"M330 90 Q320 115 300 135\" style=\"fill:none;stroke-width:2.5\"/><path class=\"s\" d=\"M310 70 Q322 80 330 90\" style=\"fill:none;stroke-width:2.5;stroke-dasharray:4 3\"/><text class=\"tb\" x=\"330\" y=\"170\" text-anchor=\"middle\">etap 3</text><text class=\"ts\" x=\"200\" y=\"200\" text-anchor=\"middle\">widok z góry, półkula N</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 70,
+       "y": 95,
+       "lx": 95,
+       "ly": 240,
+       "n": "Front polarny",
+       "d": "Granica mas polarnych i zwrotnikowych, wiatry przeciwne"
+      },
+      {
+       "x": 200,
+       "y": 95,
+       "lx": 195,
+       "ly": 260,
+       "n": "Fala frontu",
+       "d": "Front wygina się — tworzy się front ciepły i chłodny"
+      },
+      {
+       "x": 330,
+       "y": 90,
+       "lx": 325,
+       "ly": 240,
+       "n": "Okluzja",
+       "d": "Front chłodny dogania ciepły — niż w pełni rozwinięty"
+      },
+      {
+       "x": 100,
+       "y": 120,
+       "lx": 140,
+       "ly": 220,
+       "n": "Ciepłe powietrze",
+       "d": "Napływa od strony zwrotników"
+      }
+     ]
+    },
+    {
      "id": "s9c897ea8",
      "typ": "rysunek",
      "tytul": "Niż baryczny w planie",
