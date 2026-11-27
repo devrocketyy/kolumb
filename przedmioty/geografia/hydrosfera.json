@@ -1339,6 +1339,57 @@
      ]
     },
     {
+     "id": "sdab9ba9d",
+     "typ": "rysunek",
+     "tytul": "Bałtyk w przekroju — haloklina i wlewy",
+     "opis": "Uproszczony przekrój Bałtyku od Cieśnin Duńskich do Głębi Gotlandzkiej (głębokości przesadzone) — rysunek autorski IndexLab.",
+     "uwaga": "Bałtyk jest morzem śródlądowym o słabej wymianie wód. Duże wlewy zdarzają się rzadko (co kilka–kilkanaście lat), dlatego w głębiach rozwijają się strefy beztlenowe, nasilane eutrofizacją.",
+     "svg": "<rect class=\"gk\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gw ol\" d=\"M0 60 H400 V150 C330 200 300 230 250 240 C200 250 150 200 100 180 C60 170 30 150 0 140 Z\"/><path class=\"gw2\" d=\"M0 128 C60 150 100 168 140 190 C180 215 230 238 260 236 C300 220 340 190 400 152 V150 C380 140 300 135 260 140 C200 142 120 125 0 115 Z\"/><path class=\"dash\" d=\"M0 118 C120 128 200 142 260 140 C300 136 380 140 400 150\"/><path class=\"gs ol\" d=\"M0 140 C30 150 60 170 100 180 C150 200 200 250 250 240 C300 230 330 200 400 150 V300 H0 Z\"/><path class=\"hot\" d=\"M20.0 135.0 L120.0 170.0\"/><path class=\"hot\" d=\"M113.0 170.4 L120.0 170.0 L114.8 165.3\"/><path class=\"cold\" d=\"M300.0 80.0 L60.0 80.0\"/><path class=\"cold\" d=\"M66.4 77.3 L60.0 80.0 L66.4 82.7\"/><text class=\"ts\" x=\"8\" y=\"52\">Cieśniny Duńskie</text><text class=\"ts\" x=\"300\" y=\"52\">Głębia Gotlandzka</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 90,
+       "lx": 230,
+       "ly": 105,
+       "n": "Wody powierzchniowe",
+       "d": "Wysłodzone (ok. 7‰) — dopływ rzek, mały ubytek przez parowanie"
+      },
+      {
+       "x": 230,
+       "y": 140,
+       "lx": 160,
+       "ly": 115,
+       "n": "Haloklina",
+       "d": "Ok. 60–80 m — skok zasolenia, utrudnia mieszanie wód"
+      },
+      {
+       "x": 250,
+       "y": 215,
+       "lx": 225,
+       "ly": 260,
+       "n": "Wody przydenne",
+       "d": "Słone, często beztlenowe (siarkowodór) — martwe strefy"
+      },
+      {
+       "x": 70,
+       "y": 155,
+       "lx": 95,
+       "ly": 210,
+       "n": "Wlew słonych wód",
+       "d": "Z Morza Północnego przy silnych wiatrach zachodnich — dotlenia głębie"
+      },
+      {
+       "x": 180,
+       "y": 80,
+       "lx": 205,
+       "ly": 22,
+       "n": "Odpływ wód wysłodzonych",
+       "d": "Powierzchnią przez cieśniny do Morza Północnego"
+      }
+     ]
+    },
+    {
      "id": "s68b5883f",
      "typ": "rysunek",
      "tytul": "Prądy morskie Atlantyku Północnego",
@@ -3253,6 +3304,49 @@
        "ly": 280,
        "n": "Odpływ (H)",
        "d": "Rzeką wypływa ze zlewni"
+      }
+     ]
+    },
+    {
+     "id": "sf46e3cfb",
+     "typ": "rysunek",
+     "tytul": "Kaptaż rzeczny (przechwycenie rzeki)",
+     "opis": "Schemat kaptażu — rzeka erodująca wstecz przechwytuje górny bieg sąsiedniej rzeki — rysunek autorski IndexLab.",
+     "uwaga": "Kaptaże zmieniają przebieg działów wodnych. W Polsce przykłady opisywano m.in. w Sudetach i Karpatach; dawne pradoliny też były wykorzystywane przez rzeki zmieniające bieg.",
+     "svg": "<rect class=\"gt\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gl2 ol\" d=\"M190 0 C200 60 180 120 200 150 C215 175 205 220 210 300 H260 C255 220 265 175 250 150 C240 120 250 60 240 0 Z\" style=\"opacity:.7\"/><path class=\"cold\" d=\"M40 40 C100 70 160 110 215 150\" style=\"stroke-width:4\"/><path class=\"cold\" d=\"M215 150 C230 200 225 250 235 300\" style=\"stroke-width:5\"/><path class=\"cold\" d=\"M215 150 C260 170 320 200 390 240\" style=\"stroke-width:1.5\"/><path class=\"dash\" d=\"M260 168 C300 190 350 215 390 236\"/><path class=\"cold\" d=\"M225 0 C228 40 220 100 215 150\" style=\"stroke-width:3\"/><path class=\"hot\" d=\"M228.0 40.0 L220.0 100.0\"/><path class=\"hot\" d=\"M218.2 93.2 L220.0 100.0 L223.6 94.0\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 225,
+       "y": 60,
+       "lx": 200,
+       "ly": 55,
+       "n": "Erozja wsteczna",
+       "d": "Rzeka o większym spadku cofa źródła i wcina się w dział wód"
+      },
+      {
+       "x": 215,
+       "y": 150,
+       "lx": 150,
+       "ly": 160,
+       "n": "Kolano kaptażowe",
+       "d": "Miejsce przechwycenia — ostre załamanie biegu rzeki"
+      },
+      {
+       "x": 60,
+       "y": 51,
+       "lx": 85,
+       "ly": 20,
+       "n": "Rzeka przechwycona",
+       "d": "Jej górny bieg płynie teraz do rzeki kaptującej"
+      },
+      {
+       "x": 360,
+       "y": 224,
+       "lx": 330,
+       "ly": 285,
+       "n": "Dolina martwa",
+       "d": "Rzeka pozbawiona źródeł — dolina zbyt szeroka jak na mały ciek (dolina martwa)"
       }
      ]
     },

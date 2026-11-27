@@ -1239,6 +1239,57 @@
      ]
     },
     {
+     "id": "s384e323c",
+     "typ": "rysunek",
+     "tytul": "Cyrkulacja Walkera nad Pacyfikiem (warunki normalne)",
+     "opis": "Komórka cyrkulacji Walkera w pasie równikowym Pacyfiku — rysunek autorski IndexLab.",
+     "uwaga": "Podczas El Niño pasaty słabną, komórka Walkera osłabia się lub odwraca: ciepła woda przesuwa się ku Ameryce — ulewy w Peru, susze w Australii i Indonezji. La Niña wzmacnia układ normalny.",
+     "svg": "<rect class=\"gk\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gw ol\" d=\"M60 200 H340 V300 H60 Z\"/><path class=\"gl ol\" d=\"M0 190 H60 V300 H0 Z\"/><path class=\"gl ol\" d=\"M340 190 H400 V300 H340 Z\"/><path class=\"hotf\" d=\"M250 200 H340 V225 H250 Z\" style=\"opacity:.7\"/><path class=\"coldf\" d=\"M60 200 H150 V225 H60 Z\" style=\"opacity:.7\"/><path class=\"gk ol\" d=\"M330 120 C335 95 365 95 370 120 C390 120 390 145 370 145 H330 C310 145 310 120 330 120 Z\"/><path class=\"cold\" d=\"M340 150 l-5 18\"/><path class=\"cold\" d=\"M352 150 l-5 18\"/><path class=\"cold\" d=\"M364 150 l-5 18\"/><path class=\"hot\" d=\"M310.0 185.0 L310.0 70.0\"/><path class=\"hot\" d=\"M312.7 76.4 L310.0 70.0 L307.3 76.4\"/><path class=\"s\" d=\"M300.0 55.0 L100.0 55.0\"/><path class=\"s\" d=\"M106.4 52.3 L100.0 55.0 L106.4 57.7\"/><path class=\"cold\" d=\"M90.0 70.0 L90.0 185.0\"/><path class=\"cold\" d=\"M87.3 178.6 L90.0 185.0 L92.7 178.6\"/><path class=\"s\" d=\"M110.0 195.0 L290.0 195.0\"/><path class=\"s\" d=\"M283.6 197.7 L290.0 195.0 L283.6 192.3\"/><text class=\"ts\" x=\"8\" y=\"182\">Ameryka Pd.</text><text class=\"ts\" x=\"340\" y=\"182\">Indonezja</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 310,
+       "y": 120,
+       "lx": 255,
+       "ly": 95,
+       "n": "Wznoszenie powietrza",
+       "d": "Nad ciepłymi wodami zach. Pacyfiku — niż, chmury, ulewy"
+      },
+      {
+       "x": 90,
+       "y": 130,
+       "lx": 130,
+       "ly": 155,
+       "n": "Osiadanie powietrza",
+       "d": "Nad chłodnymi wodami u wybrzeży Peru — wyż, susza"
+      },
+      {
+       "x": 200,
+       "y": 195,
+       "lx": 230,
+       "ly": 240,
+       "n": "Pasaty przy powierzchni",
+       "d": "Wieją ze wschodu na zachód i spychają ciepłą wodę"
+      },
+      {
+       "x": 100,
+       "y": 212,
+       "lx": 125,
+       "ly": 280,
+       "n": "Upwelling",
+       "d": "Wypływ zimnych, żyznych wód — bogate łowiska"
+      },
+      {
+       "x": 200,
+       "y": 55,
+       "lx": 210,
+       "ly": 30,
+       "n": "Powrót górą",
+       "d": "Przepływ w górnej troposferze ku wschodowi"
+      }
+     ]
+    },
+    {
      "id": "s5a5d1c33",
      "typ": "rysunek",
      "tytul": "Fen — przekrój przez góry",

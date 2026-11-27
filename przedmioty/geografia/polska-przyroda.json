@@ -3170,6 +3170,49 @@
      ]
     },
     {
+     "id": "sb6c6308f",
+     "typ": "rysunek",
+     "tytul": "Polder — teren poniżej poziomu morza",
+     "opis": "Uproszczony przekrój przez polder z wałem i pompownią (proporcje przesadzone) — rysunek autorski IndexLab.",
+     "uwaga": "Najniższy punkt Polski: Raczki Elbląskie na Żuławach Wiślanych (ok. 2,2 m p.p.m.). Żuławy wymagają stałej pracy pompowni i utrzymania wałów — zagrożenie przy powodziach i sztormach (cofka).",
+     "svg": "<rect class=\"gk\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gw ol\" d=\"M0 150 H120 V300 H0 Z\"/><path class=\"gs ol\" d=\"M110 300 V150 L140 120 L170 120 L200 190 H400 V300 Z\"/><path class=\"gl ol\" d=\"M200 190 H400 V200 H200 Z\"/><path class=\"gw2 ol\" d=\"M300 200 H320 V215 H300 Z\"/><path class=\"gm ol\" d=\"M360 150 H380 V190 H360 Z\"/><path class=\"s\" d=\"M370 150 V130 M358 130 L382 130\"/><path class=\"cold\" d=\"M320.0 208.0 L340.0 175.0\"/><path class=\"cold\" d=\"M339.0 181.9 L340.0 175.0 L334.3 179.1\"/><path class=\"dash\" d=\"M0 150 H120\"/><path class=\"dash\" d=\"M0 230 H400\"/><text class=\"ts\" x=\"215\" y=\"245\">poziom morza (0 m)</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 150,
+       "y": 125,
+       "lx": 160,
+       "ly": 70,
+       "n": "Wał przeciwpowodziowy",
+       "d": "Chroni polder przed zalaniem przez morze lub rzekę"
+      },
+      {
+       "x": 300,
+       "y": 195,
+       "lx": 250,
+       "ly": 165,
+       "n": "Polder",
+       "d": "Obszar osuszony, często poniżej poziomu morza (Żuławy, Holandia)"
+      },
+      {
+       "x": 310,
+       "y": 208,
+       "lx": 290,
+       "ly": 265,
+       "n": "Rów melioracyjny",
+       "d": "Zbiera nadmiar wody z pól"
+      },
+      {
+       "x": 370,
+       "y": 170,
+       "lx": 330,
+       "ly": 120,
+       "n": "Pompownia",
+       "d": "Przepompowuje wodę ponad wałem — bez niej polder by się zalał"
+      }
+     ]
+    },
+    {
      "id": "s59438b40",
      "typ": "rysunek",
      "tytul": "Termika jeziora latem i zimą",
