@@ -2309,6 +2309,100 @@
      ]
     },
     {
+     "id": "s23edba51",
+     "typ": "rysunek",
+     "tytul": "Cyklon tropikalny w przekroju",
+     "opis": "Przekrój przez huragan/tajfun — rysunek autorski IndexLab.",
+     "uwaga": "Cyklon tropikalny czerpie energię z ciepła kondensacji pary nad oceanem ≥ 26–27°C; nie powstaje na równiku (brak siły Coriolisa). Nad lądem słabnie. Nazwy: huragan (Atlantyk), tajfun (Pacyfik Zach.), cyklon (Ocean Indyjski).",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gw ol\" d=\"M0 250 H400 V300 H0 Z\"/><path class=\"gk ol\" d=\"M215 250 C210 100 270 100 265 250 Z\"/><path class=\"gk ol\" d=\"M260 250 C255 65 315 65 310 250 Z\"/><path class=\"gk ol\" d=\"M305 250 C300 45 360 45 355 250 Z\"/><path class=\"gk ol\" d=\"M135 250 C130 100 190 100 185 250 Z\"/><path class=\"gk ol\" d=\"M90 250 C85 65 145 65 140 250 Z\"/><path class=\"gk ol\" d=\"M45 250 C40 45 100 45 95 250 Z\"/><path class=\"gn ol\" d=\"M185 250 C185 120 215 120 215 250 Z\"/><path class=\"hot\" d=\"M60.0 268.0 L180.0 268.0\"/><path class=\"hot\" d=\"M173.6 270.7 L180.0 268.0 L173.6 265.3\"/><path class=\"hot\" d=\"M340.0 268.0 L220.0 268.0\"/><path class=\"hot\" d=\"M226.4 265.3 L220.0 268.0 L226.4 270.7\"/><path class=\"s\" d=\"M110.0 70.0 L30.0 40.0\"/><path class=\"s\" d=\"M37.0 39.7 L30.0 40.0 L35.1 44.8\"/><path class=\"s\" d=\"M290.0 70.0 L370.0 40.0\"/><path class=\"s\" d=\"M364.9 44.8 L370.0 40.0 L363.0 39.7\"/><text class=\"ts\" x=\"8\" y=\"292\">ciepły ocean (powyżej 26–27°C)</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 220,
+       "lx": 260,
+       "ly": 282,
+       "n": "Oko cyklonu",
+       "d": "Spokojny środek — osiadanie powietrza, brak chmur"
+      },
+      {
+       "x": 225,
+       "y": 160,
+       "lx": 120,
+       "ly": 125,
+       "n": "Ściana oka",
+       "d": "Najsilniejsze wiatry i ulewy"
+      },
+      {
+       "x": 120,
+       "y": 268,
+       "lx": 145,
+       "ly": 230,
+       "n": "Wilgotne powietrze",
+       "d": "Wiatry przy oceanie zbiegają się ku środkowi"
+      },
+      {
+       "x": 70,
+       "y": 55,
+       "lx": 140,
+       "ly": 25,
+       "n": "Odpływ górą",
+       "d": "Na wysokości powietrze rozpływa się na zewnątrz"
+      },
+      {
+       "x": 330,
+       "y": 200,
+       "lx": 300,
+       "ly": 110,
+       "n": "Pasma chmur",
+       "d": "Spiralne pasma Cb z opadami"
+      }
+     ]
+    },
+    {
+     "id": "sf6b6d3c5",
+     "typ": "rysunek",
+     "tytul": "Front zokludowany (przekrój)",
+     "opis": "Przekrój przez front zokludowany — rysunek autorski IndexLab.",
+     "uwaga": "Okluzja to końcowy etap rozwoju niżu: ciepły wycinek zostaje oderwany od ziemi. Na mapie synoptycznej oznaczana fioletową linią z trójkątami i półkolami po tej samej stronie.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"cold\" d=\"M0 250 C60 248 120 200 175 150\" style=\"stroke-width:2\"/><path class=\"hot\" d=\"M175 150 C240 170 320 230 400 248\" style=\"stroke-width:2\"/><path class=\"gk ol\" d=\"M120 150 C150 70 260 60 300 150 C260 135 170 140 120 150 Z\"/><path class=\"d\" d=\"M0 250 H400\" style=\"stroke-width:2\"/><text class=\"tb\" x=\"60\" y=\"275\" text-anchor=\"middle\">chłodne</text><text class=\"tb\" x=\"200\" y=\"58\" text-anchor=\"middle\">ciepłe (wypchnięte w górę)</text><text class=\"tb\" x=\"340\" y=\"275\" text-anchor=\"middle\">chłodne</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 175,
+       "y": 150,
+       "lx": 280,
+       "ly": 30,
+       "n": "Okluzja",
+       "d": "Front chłodny dogonił ciepły"
+      },
+      {
+       "x": 80,
+       "y": 220,
+       "lx": 130,
+       "ly": 205,
+       "n": "Chłodne powietrze z tyłu",
+       "d": "Napiera i podnosi powietrze ciepłe"
+      },
+      {
+       "x": 230,
+       "y": 110,
+       "lx": 205,
+       "ly": 90,
+       "n": "Chmury okluzji",
+       "d": "Mieszanka Ns i Cb — opady ciągłe i przelotne"
+      },
+      {
+       "x": 330,
+       "y": 235,
+       "lx": 305,
+       "ly": 160,
+       "n": "Chłodne z przodu",
+       "d": "Powietrze, nad które wcześniej nasuwał się front ciepły"
+      }
+     ]
+    },
+    {
      "id": "s9c897ea8",
      "typ": "rysunek",
      "tytul": "Niż baryczny w planie",

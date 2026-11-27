@@ -2688,6 +2688,108 @@
      ]
     },
     {
+     "id": "s80398b31",
+     "typ": "rysunek",
+     "tytul": "Wąwóz lessowy (przekrój)",
+     "opis": "Przekrój przez wąwóz w pokrywie lessowej (np. Wyżyna Lubelska, Kazimierz Dolny) — rysunek autorski IndexLab.",
+     "uwaga": "Wąwozy lessowe powstają szybko (nawet w kilkadziesiąt lat) przez erozję wąwozową. Ochrona: zalesianie zboczy, orka w poprzek stoku, zadarnianie. Wąwozy utrudniają rolnictwo i budowę dróg.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gp ol\" d=\"M0 80 H120 C150 80 160 210 185 225 H215 C240 210 250 80 280 80 H400 V300 H0 Z\"/><path class=\"gs ol\" d=\"M0 250 H400 V300 H0 Z\"/><path class=\"gt\" d=\"M0 74 H120 V80 H0 Z M280 74 H400 V80 H280 Z\"/><path class=\"gf ol\" d=\"M20 74 l8 -22 l8 22 Z\"/><path class=\"gf ol\" d=\"M50 74 l8 -22 l8 22 Z\"/><path class=\"gf ol\" d=\"M80 74 l8 -22 l8 22 Z\"/><path class=\"gf ol\" d=\"M310 74 l8 -22 l8 22 Z\"/><path class=\"gf ol\" d=\"M340 74 l8 -22 l8 22 Z\"/><path class=\"gf ol\" d=\"M370 74 l8 -22 l8 22 Z\"/><path class=\"gw2 ol\" d=\"M188 225 H212 V231 H188 Z\"/><path class=\"cold\" d=\"M130.0 40.0 L175.0 140.0\"/><path class=\"cold\" d=\"M169.9 135.2 L175.0 140.0 L174.8 133.0\"/><path class=\"cold\" d=\"M270.0 40.0 L225.0 140.0\"/><path class=\"cold\" d=\"M225.2 133.0 L225.0 140.0 L230.1 135.2\"/><text class=\"ts\" x=\"392\" y=\"292\" text-anchor=\"end\">skała podłoża</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 160,
+       "y": 150,
+       "lx": 185,
+       "ly": 150,
+       "n": "Strome ściany",
+       "d": "Less trzyma pionowe ściany, dopóki jest suchy"
+      },
+      {
+       "x": 200,
+       "y": 228,
+       "lx": 290,
+       "ly": 200,
+       "n": "Okresowy ciek",
+       "d": "Woda płynie dnem tylko po ulewach i roztopach"
+      },
+      {
+       "x": 150,
+       "y": 85,
+       "lx": 175,
+       "ly": 120,
+       "n": "Spływ z pól",
+       "d": "Woda z pól bez roślin rozcina less"
+      },
+      {
+       "x": 60,
+       "y": 160,
+       "lx": 85,
+       "ly": 230,
+       "n": "Less",
+       "d": "Pył eoliczny z plejstocenu — miękki, podatny na erozję"
+      },
+      {
+       "x": 100,
+       "y": 70,
+       "lx": 200,
+       "ly": 35,
+       "n": "Pole uprawne",
+       "d": "Orka wzdłuż stoku przyspiesza powstawanie wąwozów"
+      }
+     ]
+    },
+    {
+     "id": "sbb745305",
+     "typ": "rysunek",
+     "tytul": "Kras powierzchniowy i podziemny (przekrój)",
+     "opis": "Formy krasowe w wapieniach — rysunek autorski IndexLab.",
+     "uwaga": "Krasowienie: CaCO₃ + H₂O + CO₂ → Ca(HCO₃)₂. Polskie przykłady: Jura Krakowsko-Częstochowska (ostańce, jaskinie), Tatry Zachodnie, Roztocze, Polesie (jeziora krasowe). Na obszarach krasowych jest rzadka sieć rzek.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gs ol\" d=\"M0 110 H40 L60 140 L80 110 H140 C150 110 150 95 160 70 L175 70 L178 110 H220 V170 H330 V110 H400 V300 H0 Z\"/><path class=\"gs2\" d=\"M0 160 H400 M0 210 H400 M0 255 H400\" style=\"fill:none;stroke-width:1\"/><path class=\"gg\" d=\"M222 160 H328 V170 H222 Z\"/><path class=\"gw\" d=\"M100 230 C150 220 230 235 300 225 L300 240 C230 250 150 238 100 245 Z\"/><path class=\"gs2 ol\" d=\"M150 210 l4 18 l4 -18 Z M190 210 l4 14 l4 -14 Z\"/><text class=\"ts\" x=\"8\" y=\"292\">wapienie</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 60,
+       "y": 130,
+       "lx": 85,
+       "ly": 60,
+       "n": "Lej krasowy",
+       "d": "Zagłębienie po rozpuszczeniu skały lub zapadnięciu stropu"
+      },
+      {
+       "x": 167,
+       "y": 80,
+       "lx": 230,
+       "ly": 40,
+       "n": "Ostaniec",
+       "d": "Odporna skała, która przetrwała rozpuszczanie"
+      },
+      {
+       "x": 275,
+       "y": 165,
+       "lx": 300,
+       "ly": 80,
+       "n": "Polje",
+       "d": "Płaska, rozległa kotlina krasowa z glebą na dnie"
+      },
+      {
+       "x": 200,
+       "y": 238,
+       "lx": 175,
+       "ly": 275,
+       "n": "Rzeka podziemna",
+       "d": "Woda wsiąka szczelinami i płynie w kanałach"
+      },
+      {
+       "x": 154,
+       "y": 220,
+       "lx": 179,
+       "ly": 210,
+       "n": "Stalaktyty",
+       "d": "Nacieki ze stropu jaskini"
+      }
+     ]
+    },
+    {
      "id": "sead6610b",
      "typ": "rysunek",
      "tytul": "Dolina rzeczna V i dolina lodowcowa U",

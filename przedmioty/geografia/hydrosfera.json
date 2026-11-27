@@ -2626,6 +2626,65 @@
    ],
    "schematy": [
     {
+     "id": "s58e9465c",
+     "typ": "rysunek",
+     "tytul": "Strefy krajobrazu polodowcowego (widok z góry)",
+     "opis": "Układ form polodowcowych przed czołem lądolodu (widok z góry, północ u góry) — rysunek autorski IndexLab.",
+     "uwaga": "Kolejność od północy: wysoczyzna morenowa → morena czołowa → sandr → pradolina. W Polsce: Pojezierze Pomorskie, Równina Tucholska (sandr), pradolina Toruńsko-Eberswaldzka.",
+     "svg": "<rect class=\"gt\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gi ol\" d=\"M0 0 H400 V40 C300 55 100 55 0 40 Z\"/><path class=\"gc ol\" d=\"M0 70 C100 95 300 95 400 70 V90 C300 112 100 112 0 90 Z\"/><path class=\"gp ol\" d=\"M0 110 C100 135 300 135 400 110 V230 H0 Z\"/><path class=\"gw ol\" d=\"M0 245 C120 262 280 262 400 245 V275 C280 290 120 290 0 275 Z\"/><path class=\"gw ol\" d=\"M170 40 C165 60 175 80 165 95 L178 95 C188 80 180 60 186 40 Z\"/><ellipse class=\"gw ol\" cx=\"90\" cy=\"60\" rx=\"10\" ry=\"6\"/><ellipse class=\"gw ol\" cx=\"300\" cy=\"58\" rx=\"8\" ry=\"5\"/><path class=\"cold\" d=\"M60.0 135.0 L50.0 215.0\"/><path class=\"cold\" d=\"M48.1 208.3 L50.0 215.0 L53.5 208.9\"/><path class=\"cold\" d=\"M140.0 135.0 L130.0 215.0\"/><path class=\"cold\" d=\"M128.1 208.3 L130.0 215.0 L133.5 208.9\"/><path class=\"cold\" d=\"M230.0 135.0 L220.0 215.0\"/><path class=\"cold\" d=\"M218.1 208.3 L220.0 215.0 L223.5 208.9\"/><path class=\"cold\" d=\"M320.0 135.0 L310.0 215.0\"/><path class=\"cold\" d=\"M308.1 208.3 L310.0 215.0 L313.5 208.9\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 20,
+       "lx": 260,
+       "ly": 20,
+       "n": "Lądolód",
+       "d": "Czoło lądolodu w czasie postoju"
+      },
+      {
+       "x": 300,
+       "y": 88,
+       "lx": 275,
+       "ly": 60,
+       "n": "Morena czołowa",
+       "d": "Wał usypany przed czołem lądolodu"
+      },
+      {
+       "x": 176,
+       "y": 60,
+       "lx": 110,
+       "ly": 30,
+       "n": "Rynna",
+       "d": "Wyżłobiona przez wody pod lodem — dziś jeziora rynnowe"
+      },
+      {
+       "x": 200,
+       "y": 180,
+       "lx": 260,
+       "ly": 160,
+       "n": "Sandr",
+       "d": "Płaska równina piasków i żwirów wód roztopowych"
+      },
+      {
+       "x": 200,
+       "y": 265,
+       "lx": 250,
+       "ly": 230,
+       "n": "Pradolina",
+       "d": "Szeroka dolina odprowadzająca wody wzdłuż czoła ku zachodowi"
+      },
+      {
+       "x": 90,
+       "y": 60,
+       "lx": 115,
+       "ly": 110,
+       "n": "Oczko wytopiskowe",
+       "d": "Jeziorko po stopieniu bryły martwego lodu"
+      }
+     ]
+    },
+    {
      "id": "s319fb043",
      "typ": "rysunek",
      "tytul": "Lodowiec górski",
