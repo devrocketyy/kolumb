@@ -148,6 +148,96 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
+     "id": "f1e98db0b",
+     "przod": "Skala liczbowa 1:25 000 — 1 cm na mapie",
+     "tyl": "To 250 m w terenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f67c684cd",
+     "przod": "Skala liczbowa 1:200 000 — 1 cm na mapie",
+     "tyl": "To 2 km w terenie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "ff64881da",
+     "przod": "Zamiana skali na mianowaną",
+     "tyl": "1:50 000 → 1 cm – 500 m (skreśl dwa zera → metry, pięć zer → km).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f14a20b85",
+     "przod": "Skala powierzchni",
+     "tyl": "Kwadrat skali liniowej: 1:50 000 → 1 cm² = 0,25 km².",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f30fe7906",
+     "przod": "Obliczanie powierzchni z mapy",
+     "tyl": "Pole na mapie (cm²) × (wartość 1 cm w km)².",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fa5764965",
+     "przod": "Pomniejszenie mapy dwukrotnie",
+     "tyl": "Skala zmienia się z 1:50 000 na 1:100 000 (mianownik ×2).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f5e46feaa",
+     "przod": "Odległość na mapie z terenu",
+     "tyl": "Długość w terenie (cm) / mianownik skali.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f964f9c93",
+     "przod": "Skala większa vs mniejsza",
+     "tyl": "Większa = mniejszy mianownik = więcej szczegółów (1:10 000 > 1:1 000 000).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f37ce50f1",
+     "przod": "Mapa topograficzna — skale",
+     "tyl": "1:10 000 – 1:200 000.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f1aa38718",
+     "przod": "Mapa przeglądowo-topograficzna",
+     "tyl": "Skale od 1:200 000 do 1:1 000 000.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "ff72147a4",
+     "przod": "Mapa ogólnogeograficzna",
+     "tyl": "Skala mniejsza niż 1:1 000 000 (atlasy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fb8ea723f",
+     "przod": "Typowy błąd w skali",
+     "tyl": "Zamiana cm na km: 1 km = 100 000 cm.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f338db0b7",
+     "przod": "Obliczanie skali z dwóch punktów",
+     "tyl": "Skala = odległość na mapie / odległość w terenie (te same jednostki).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f169c99e2",
+     "przod": "Mila morska",
+     "tyl": "1852 m — długość 1′ łuku południka.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f129d067c",
+     "przod": "Węzeł",
+     "tyl": "Prędkość 1 mili morskiej na godzinę (ok. 1,85 km/h).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
      "id": "f533f96a2",
      "przod": "Skala 1:10 000 — mianowana",
      "tyl": "1 cm — 100 m.",
@@ -259,6 +349,60 @@
      "id": "fcf93f9fc",
      "przod": "Rozpoznaj: Np. 15 km w terenie = 3 cm na mapie → 1 cm = 5 km → skala 1:500 000.",
      "tyl": "Obliczanie skali z porównania odległości",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f4a86010f",
+     "przod": "Rozpoznaj: 1:50 000 → 1 cm – 500 m (skreśl dwa zera → metry, pięć zer → km).",
+     "tyl": "Zamiana skali na mianowaną",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f3a5dc99d",
+     "przod": "Rozpoznaj: Kwadrat skali liniowej: 1:50 000 → 1 cm² = 0,25 km².",
+     "tyl": "Skala powierzchni",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "fd26e4695",
+     "przod": "Rozpoznaj: Pole na mapie (cm²) × (wartość 1 cm w km)².",
+     "tyl": "Obliczanie powierzchni z mapy",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f3eb4c145",
+     "przod": "Rozpoznaj: Skala zmienia się z 1:50 000 na 1:100 000 (mianownik ×2).",
+     "tyl": "Pomniejszenie mapy dwukrotnie",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f23ae0ce5",
+     "przod": "Rozpoznaj: Skale od 1:200 000 do 1:1 000 000.",
+     "tyl": "Mapa przeglądowo-topograficzna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f2fdda9e8",
+     "przod": "Rozpoznaj: Skala mniejsza niż 1:1 000 000 (atlasy).",
+     "tyl": "Mapa ogólnogeograficzna",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f1307f499",
+     "przod": "Rozpoznaj: Skala = odległość na mapie / odległość w terenie (te same jednostki).",
+     "tyl": "Obliczanie skali z dwóch punktów",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f5daee6cb",
+     "przod": "Rozpoznaj: 1852 m — długość 1′ łuku południka.",
+     "tyl": "Mila morska",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "ff8a525a2",
+     "przod": "Rozpoznaj: Prędkość 1 mili morskiej na godzinę (ok. 1,85 km/h).",
+     "tyl": "Węzeł",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
@@ -468,6 +612,84 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Mniejszy mianownik.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pfedd7c19",
+     "pytanie": "W skali 1:25 000 1 cm na mapie to w terenie:",
+     "odpowiedzi": [
+      "250 m",
+      "25 km",
+      "2,5 km",
+      "25 m"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Skreśl dwa zera.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pe92c2b2c",
+     "pytanie": "W skali 1:50 000 1 cm² na mapie odpowiada:",
+     "odpowiedzi": [
+      "25 km²",
+      "0,25 km²",
+      "5 km²",
+      "0,5 km²"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Kwadrat skali.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "peed72d4c",
+     "pytanie": "Największą skalę ma mapa w skali:",
+     "odpowiedzi": [
+      "1:50 000",
+      "1:100 000",
+      "1:1 000 000",
+      "1:10 000"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Najmniejszy mianownik.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4578b810",
+     "pytanie": "Odcinek 4 km w skali 1:100 000 ma na mapie:",
+     "odpowiedzi": [
+      "4 cm",
+      "0,4 cm",
+      "1 cm",
+      "40 cm"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "1 cm = 1 km.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p2363edfc",
+     "pytanie": "Mila morska ma długość:",
+     "odpowiedzi": [
+      "1852 m",
+      "1000 m",
+      "2000 m",
+      "1609 m"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "1′ łuku.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p433cefb2",
+     "pytanie": "Po dwukrotnym pomniejszeniu mapy 1:50 000 otrzymamy skalę:",
+     "odpowiedzi": [
+      "1:200 000",
+      "1:75 000",
+      "1:100 000",
+      "1:25 000"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Mianownik ×2.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
@@ -1174,12 +1396,6 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
     },
     {
-     "id": "f22ac9b7a",
-     "przod": "Spadek rzeki",
-     "tyl": "Różnica wysokości źródła i ujścia (lub dwóch punktów) podzielona przez długość odcinka, w ‰ lub m/km.",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
-    },
-    {
      "id": "f5f69d4d9",
      "przod": "Ekspozycja stoku",
      "tyl": "Kierunek, w który zwrócony jest stok. W Polsce stoki południowe są najcieplejsze i najlepiej nasłonecznione.",
@@ -1285,12 +1501,6 @@
      "id": "fbcb5eb1b",
      "przod": "Rozpoznaj: Różnica wysokości / odległość pozioma. Np. 50 m na 1000 m = 5% (50‰).",
      "tyl": "Spadek terenu (nachylenie)",
-     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
-    },
-    {
-     "id": "f4638bd94",
-     "przod": "Rozpoznaj: Różnica wysokości źródła i ujścia (lub dwóch punktów) podzielona przez długość odcinka, w ‰ lub m/km.",
-     "tyl": "Spadek rzeki",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
     },
     {
