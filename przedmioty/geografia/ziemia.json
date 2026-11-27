@@ -178,6 +178,66 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
     },
     {
+     "id": "f71545e26",
+     "przod": "Obliczanie czasu słonecznego — krok 1",
+     "tyl": "Oblicz różnicę długości geograficznej (na tej samej półkuli odejmij, na różnych dodaj).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f812bc508",
+     "przod": "Obliczanie czasu słonecznego — krok 2",
+     "tyl": "Pomnóż różnicę: 1° = 4 min, 1′ = 4 s.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f6be9134e",
+     "przod": "Obliczanie czasu słonecznego — krok 3",
+     "tyl": "Na wschód dodaj czas, na zachód odejmij.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f9d2c506c",
+     "przod": "Różnica długości 20°E i 40°W",
+     "tyl": "60° (półkule różne — dodajemy) = 4 h.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f551a2453",
+     "przod": "Południe słoneczne w Polsce wg zegara zimą",
+     "tyl": "Na 15°E — o 12:00; na wschodzie wcześniej (Terespol ok. 11:24), na zachodzie później.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f17c7cea7",
+     "przod": "Czas strefowy przy przekraczaniu stref",
+     "tyl": "Lecąc na wschód przestawiasz zegarek do przodu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f206a312e",
+     "przod": "Linia zmiany daty — kierunek",
+     "tyl": "Płynąc na zachód przez 180° dodajesz dobę, na wschód — odejmujesz.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "ff0182716",
+     "przod": "Czas urzędowy a czas strefowy",
+     "tyl": "Urzędowy ustala państwo (np. Chiny — jedna strefa UTC+8 mimo rozpiętości kilku stref).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f6da8db27",
+     "przod": "Indie — czas urzędowy",
+     "tyl": "UTC+5:30 — półgodzinna różnica.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f910c56ab",
+     "przod": "Pułapka: czas letni w zadaniach",
+     "tyl": "Sprawdź, czy data przypada na czas letni (w Polsce UTC+2 od końca marca do końca października).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
      "id": "f555fdde9",
      "przod": "Strefy czasowe",
      "tyl": "Teoretycznie 24 strefy po 15° długości geograficznej; granice często dostosowane do granic państw.",
@@ -283,6 +343,18 @@
      "id": "f9496e76e",
      "przod": "Rozpoznaj: Różnica długości geograficznej × 4 min. Na wschód dodajemy, na zachód odejmujemy.",
      "tyl": "Obliczanie czasu słonecznego",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f7683b517",
+     "przod": "Rozpoznaj: Na 15°E — o 12:00; na wschodzie wcześniej (Terespol ok. 11:24), na zachodzie później.",
+     "tyl": "Południe słoneczne w Polsce wg zegara zimą",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
+    },
+    {
+     "id": "f7333fadc",
+     "przod": "Rozpoznaj: Lecąc na wschód przestawiasz zegarek do przodu.",
+     "tyl": "Czas strefowy przy przekraczaniu stref",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.1–2"
     },
     {
@@ -538,6 +610,84 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "Pory roku to skutek ruchu obiegowego i nachylenia osi.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pd0d46e7f",
+     "pytanie": "Różnica długości między 20°E a 40°W wynosi:",
+     "odpowiedzi": [
+      "100°",
+      "20°",
+      "40°",
+      "60°"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Różne półkule — suma.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pcf0d785d",
+     "pytanie": "Różnica 60° długości to różnica czasu słonecznego:",
+     "odpowiedzi": [
+      "4 h",
+      "1 h",
+      "6 h",
+      "2 h"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "60 × 4 min.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3c745397",
+     "pytanie": "Południe słoneczne w Terespolu (ok. 23°40′E) zimą wg zegara jest ok.:",
+     "odpowiedzi": [
+      "12:00",
+      "11:25",
+      "12:35",
+      "13:00"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Wschód — wcześniej.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "ped61a877",
+     "pytanie": "Płynąc na zachód przez linię zmiany daty:",
+     "odpowiedzi": [
+      "cofamy zegar o 1 h",
+      "odejmujemy dobę",
+      "nie zmieniamy daty",
+      "dodajemy dobę"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Data.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p71ec1473",
+     "pytanie": "Chiny mimo rozpiętości kilku stref stosują:",
+     "odpowiedzi": [
+      "czas UTC+0",
+      "jeden czas urzędowy",
+      "pięć stref czasu",
+      "czas słoneczny"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "UTC+8.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p340d58c3",
+     "pytanie": "Czas urzędowy Indii to:",
+     "odpowiedzi": [
+      "UTC+4:30",
+      "UTC+6:00",
+      "UTC+5:30",
+      "UTC+5:00"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Pół godziny.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
@@ -1628,6 +1778,66 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
     },
     {
+     "id": "f133404b7",
+     "przod": "Wysokość górowania Słońca na półkuli S (Słońce od północy)",
+     "tyl": "h = 90° − |φ| + δ, gdzie δ dodatnia dla Słońca nad półkulą S (22 XII: +23°26′).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fe93d3ba4",
+     "przod": "Wysokość Słońca 22 XII na 50°N",
+     "tyl": "90° − 50° − 23°26′ = 16°34′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fb52551fe",
+     "przod": "Wysokość Słońca 22 VI na 30°S",
+     "tyl": "90° − 30° − 23°26′ = 36°34′ (Słońce od północy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fe915d925",
+     "przod": "Miejsce, gdzie Słońce góruje w zenicie — jak policzyć?",
+     "tyl": "φ = δ: np. 22 VI zenit nad 23°26′N.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fb634b4b8",
+     "przod": "Szerokość z wysokości Słońca 22 VI (półkula N, Słońce od S)",
+     "tyl": "φ = 90° − h + 23°26′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f8a286362",
+     "przod": "Szerokość z wysokości Słońca 22 XII (półkula N)",
+     "tyl": "φ = 90° − h − 23°26′.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f5cb522f0",
+     "przod": "Gdy Słońce góruje od północy na półkuli N",
+     "tyl": "Miejsce leży między równikiem a Zwrotnikiem Raka, a Słońce jest w zenicie dalej na północ.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "fd5e0fd3e",
+     "przod": "Kąt padania promieni a nagrzewanie",
+     "tyl": "Im wyżej Słońce, tym więcej energii na jednostkę powierzchni.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f2325e3a7",
+     "przod": "Długość dnia 22 VI na kole podbiegunowym N",
+     "tyl": "24 h — Słońce nie zachodzi.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f574b0a17",
+     "przod": "Długość dnia w dniu równonocy",
+     "tyl": "Ok. 12 h na całej Ziemi (poza biegunami).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
      "id": "fe514e91c",
      "przod": "Wysokość Słońca w strefie międzyzwrotnikowej",
      "tyl": "Słońce góruje w zenicie dwa razy w roku (na zwrotnikach — raz).",
@@ -1775,6 +1985,12 @@
      "id": "fa6719c7e",
      "przod": "Rozpoznaj: W dniu równonocy: φ = 90° − h. Np. h = 40° → φ = 50°.",
      "tyl": "Obliczanie szerokości z wysokości Słońca",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
+    },
+    {
+     "id": "f86f1b212",
+     "przod": "Rozpoznaj: Ok. 12 h na całej Ziemi (poza biegunami).",
+     "tyl": "Długość dnia w dniu równonocy",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. II.5"
     },
     {
@@ -2075,6 +2291,84 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Kąt padania promieni.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p94f695d5",
+     "pytanie": "Wysokość górowania Słońca 22 XII na 50°N wynosi:",
+     "odpowiedzi": [
+      "63°26′",
+      "16°34′",
+      "26°34′",
+      "40°00′"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "90 − 50 − 23°26′.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p148f6a74",
+     "pytanie": "22 VI Słońce góruje na 60°N na wysokości:",
+     "odpowiedzi": [
+      "53°26′",
+      "6°34′",
+      "83°26′",
+      "30°00′"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "90 − 60 + 23°26′.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p43c07468",
+     "pytanie": "Słońce 22 VI na 30°S góruje na wysokości:",
+     "odpowiedzi": [
+      "36°34′",
+      "6°34′",
+      "83°26′",
+      "60°00′"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Od północy.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa16714c3",
+     "pytanie": "Na równiku 22 XII Słońce góruje od strony:",
+     "odpowiedzi": [
+      "północnej",
+      "wschodniej",
+      "południowej",
+      "zachodniej"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Zenit nad 23°26′S.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pa19c7bd1",
+     "pytanie": "Słońce góruje 22 VI na 70° nad horyzontem (półkula N, od S). Szerokość to:",
+     "odpowiedzi": [
+      "66°34′N",
+      "3°26′N",
+      "20°00′N",
+      "43°26′N"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "90 − 70 + 23°26′.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p6d7f4af6",
+     "pytanie": "W dniu równonocy dzień trwa ok. 12 h:",
+     "odpowiedzi": [
+      "na całej Ziemi",
+      "tylko na półkuli N",
+      "tylko w strefie umiarkowanej",
+      "tylko na równiku"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "Poza biegunami.",
      "zrodlo": "Zadanie autorskie IndexLab"
     },
     {
