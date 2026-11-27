@@ -1670,6 +1670,18 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
     },
     {
+     "id": "fbc3fc732",
+     "przod": "Typowy błąd: odległość punktów po dwóch stronach równika",
+     "tyl": "Szerokości dodajemy (10°S i 20°N → 30°), a nie odejmujemy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
+     "id": "f28756c10",
+     "przod": "Typowy błąd: długość 1° równoleżnika",
+     "tyl": "111 km obowiązuje tylko na równiku; wyżej mnożymy przez cos szerokości (na 60° — ok. 55,7 km).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.3"
+    },
+    {
      "id": "f05baf223",
      "przod": "Rozpoznaj: Punkty położone po przeciwnych stronach Ziemi: szerokość o przeciwnej nazwie półkuli, długość różniąca się o 180°. Np. 50°N, 20°E ↔ 50°S, 160°W.",
      "tyl": "Antypody",
@@ -3664,6 +3676,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
     },
     {
+     "id": "fba96a6e2",
+     "przod": "Typowy błąd: kierunek wiatru a kierunek ruchu powietrza",
+     "tyl": "Wiatr „zachodni” wieje Z zachodu NA wschód — nazwa mówi, skąd wieje, nie dokąd.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f7b903daa",
+     "przod": "Typowy błąd: azymut odwrotny przy wartości ponad 180°",
+     "tyl": "Od azymutu większego niż 180° odejmujemy 180° (np. 300° → 120°), a do mniejszego dodajemy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fa594228a",
+     "przod": "Typowy błąd: lewy i prawy brzeg rzeki",
+     "tyl": "Określamy, stojąc twarzą Z biegiem rzeki (w stronę ujścia), a nie patrząc na mapę od dołu.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
      "id": "f54484475",
      "przod": "Rozpoznaj: Wskazówkę godzinową kieruje się na Słońce; dwusieczna kąta z „12” (latem z „1”) wskazuje południe.",
      "tyl": "Wyznaczanie północy zegarkiem",
@@ -4423,6 +4453,18 @@
      "id": "f72ea232f",
      "przod": "Indeks NDVI",
      "tyl": "Wskaźnik „zieloności” roślin z kanałów czerwonego i podczerwieni — ocena kondycji roślin, suszy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "ff7494889",
+     "przod": "Typowy błąd: rozdzielczość a skala",
+     "tyl": "Rozdzielczość przestrzenna dotyczy wielkości piksela zdjęcia (np. 10 m), skala — mapy; większa rozdzielczość = mniejszy piksel.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f36aaf4c0",
+     "przod": "Typowy błąd: kolory na zdjęciu w barwach fałszywych",
+     "tyl": "W kompozycji CIR roślinność jest czerwona, nie zielona; woda — ciemnoniebieska lub czarna.",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
     },
     {

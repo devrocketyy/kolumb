@@ -436,6 +436,30 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
     },
     {
+     "id": "f23d8b457",
+     "przod": "Typowy błąd: opis zamiast wyjaśnienia",
+     "tyl": "Polecenie „wyjaśnij” wymaga przyczyny i mechanizmu, nie samego opisu zjawiska.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f639a9463",
+     "przod": "Typowy błąd: odpowiedź niezgodna z materiałem źródłowym",
+     "tyl": "Gdy polecenie mówi „na podstawie danych”, odpowiedź musi wynikać z tabeli lub mapy, nie z ogólnej wiedzy.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "f5478cf09",
+     "przod": "Typowy błąd: brak nazw własnych",
+     "tyl": "Zamiast „ta rzeka” lub „te góry” — podaj nazwę (Odra, Sudety).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
+     "id": "ff1b6dba5",
+     "przod": "Typowy błąd: sprzeczne argumenty",
+     "tyl": "Podanie argumentu za i przeciw w jednej odpowiedzi na „uzasadnij” — odpowiedź nieuznana.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), wymagania ogólne II"
+    },
+    {
      "id": "fa535e2ec",
      "przod": "Rozpoznaj: Zamiast „dobre warunki” — „żyzne gleby (czarnoziemy)”. Ogólnik bez nazwy cechy nie daje punktu.",
      "tyl": "Konkret w odpowiedzi",
@@ -1238,6 +1262,24 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
     },
     {
+     "id": "f9661c027",
+     "przod": "Typowy błąd: wzrost o 50% a wzrost o 50 punktów procentowych",
+     "tyl": "Z 20% do 30% to wzrost o 10 p.p., ale o 50% względem wartości początkowej.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f6b7eedad",
+     "przod": "Typowy błąd: odczyt z wykresu z dwiema osiami",
+     "tyl": "Najpierw ustal, która seria dotyczy której osi (temperatura — lewa, opady — prawa).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
+     "id": "f45a2deb2",
+     "przod": "Typowy błąd: korelacja a przyczyna",
+     "tyl": "Dwie wielkości mogą rosnąć razem bez związku przyczynowego — uzasadnij mechanizm.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.1–2"
+    },
+    {
      "id": "fdbf5b2be",
      "przod": "Rozpoznaj: Mapa z diagramami (słupki, koła) umieszczonymi w jednostkach przestrzennych — pokazuje wartości bezwzględne, np. liczbę ludności.",
      "tyl": "Kartodiagram",
@@ -1715,6 +1757,19 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Dane względne.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p663ea3f7",
+     "pytanie": "Udział zmienił się z 20% do 30%. Wzrost wyniósł:",
+     "odpowiedzi": [
+      "10 punktów procentowych (o 50%)",
+      "10% (o 10 punktów procentowych)",
+      "50 punktów procentowych (o 10%)",
+      "30 punktów procentowych (o 150%)"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "p.p. ≠ %.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
