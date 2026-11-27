@@ -2449,6 +2449,57 @@
      ]
     },
     {
+     "id": "s07ce5c12",
+     "typ": "rysunek",
+     "tytul": "Chmura burzowa Cumulonimbus (przekrój)",
+     "opis": "Uproszczony przekrój dojrzałej chmury Cb — rysunek autorski IndexLab.",
+     "uwaga": "Burze termiczne powstają latem po południu (maksimum nagrzania), frontalne — przy froncie chłodnym. W strefie równikowej burze konwekcyjne zdarzają się niemal codziennie.",
+     "svg": "<rect class=\"gk\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gl ol\" d=\"M0 270 H400 V300 H0 Z\"/><path class=\"gn ol\" d=\"M120 200 C110 160 140 140 150 120 C150 80 170 60 180 50 H100 C130 40 290 40 320 50 H220 C240 70 250 100 250 120 C270 140 290 170 280 200 Z\"/><path class=\"cold\" d=\"M150 205 l-6 50\"/><path class=\"cold\" d=\"M170 205 l-6 50\"/><path class=\"cold\" d=\"M190 205 l-6 50\"/><path class=\"cold\" d=\"M210 205 l-6 50\"/><path class=\"cold\" d=\"M230 205 l-6 50\"/><path class=\"cold\" d=\"M250 205 l-6 50\"/><path class=\"hot\" d=\"M200.0 260.0 L200.0 70.0\"/><path class=\"hot\" d=\"M202.7 76.4 L200.0 70.0 L197.3 76.4\"/><path class=\"cold\" d=\"M300.0 120.0 L330.0 240.0\"/><path class=\"cold\" d=\"M325.8 234.4 L330.0 240.0 L331.1 233.1\"/><path class=\"hot\" d=\"M300 205 L285 235 L298 235 L282 265\" style=\"stroke-width:2\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 150,
+       "lx": 260,
+       "ly": 150,
+       "n": "Prąd wstępujący",
+       "d": "Silna konwekcja nad nagrzanym podłożem"
+      },
+      {
+       "x": 210,
+       "y": 45,
+       "lx": 300,
+       "ly": 25,
+       "n": "Kowadło",
+       "d": "Rozpływ chmury pod tropopauzą (ok. 10–12 km)"
+      },
+      {
+       "x": 306,
+       "y": 140,
+       "lx": 315,
+       "ly": 112,
+       "n": "Prąd w dół",
+       "d": "Zimne powietrze z opadem — szkwał"
+      },
+      {
+       "x": 200,
+       "y": 230,
+       "lx": 120,
+       "ly": 250,
+       "n": "Ulewa, grad",
+       "d": "Opady nawalne, krótkotrwałe"
+      },
+      {
+       "x": 290,
+       "y": 250,
+       "lx": 300,
+       "ly": 285,
+       "n": "Wyładowanie",
+       "d": "Pioruny i grzmoty"
+      }
+     ]
+    },
+    {
      "id": "s08685ccf",
      "typ": "rysunek",
      "tytul": "Bryza dzienna i nocna",
@@ -3792,6 +3843,49 @@
        "ly": 220,
        "n": "Ciepłe powietrze",
        "d": "Napływa od strony zwrotników"
+      }
+     ]
+    },
+    {
+     "id": "s3d97f09b",
+     "typ": "rysunek",
+     "tytul": "Przemiany adiabatyczne — sucha i wilgotna",
+     "opis": "Wznoszenie powietrza po stoku: do poziomu kondensacji przemiana sucha, wyżej wilgotna (wartości przybliżone) — rysunek autorski IndexLab.",
+     "uwaga": "Przykład zadania: na 0 m 20°C, kondensacja na 1000 m (10°C), szczyt 2000 m → 10 − 6 = 4°C. Po zawietrznej powietrze opada suchoadiabatycznie i ogrzewa się — fen.",
+     "svg": "<rect class=\"gk\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gt ol\" d=\"M0 300 V270 C80 260 150 200 200 70 C250 200 320 260 400 270 V300 Z\"/><path class=\"gk ol\" d=\"M95 180 C100 160 130 155 140 165 C155 150 185 160 180 180 Z\"/><path class=\"gk ol\" d=\"M110 150 C120 120 160 110 175 140 C185 140 190 160 175 165 H110 Z\"/><path class=\"dash\" d=\"M0 180 H400\"/><text class=\"ts\" x=\"300\" y=\"175\">poziom kondensacji</text><path class=\"hot\" d=\"M40.0 270.0 L100.0 200.0\"/><path class=\"hot\" d=\"M97.9 206.7 L100.0 200.0 L93.7 203.1\"/><path class=\"cold\" d=\"M140.0 150.0 L185.0 85.0\"/><path class=\"cold\" d=\"M183.6 91.9 L185.0 85.0 L179.1 88.7\"/><text class=\"tb\" x=\"8\" y=\"268\">20°C</text><text class=\"tb\" x=\"8\" y=\"185\">10°C</text><text class=\"tb\" x=\"8\" y=\"85\">4°C</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 70,
+       "y": 235,
+       "lx": 120,
+       "ly": 250,
+       "n": "Gradient suchoadiabatyczny",
+       "d": "Powietrze nienasycone ochładza się o ok. 1°C/100 m"
+      },
+      {
+       "x": 140,
+       "y": 180,
+       "lx": 230,
+       "ly": 205,
+       "n": "Kondensacja",
+       "d": "Osiągnięcie punktu rosy — powstaje chmura"
+      },
+      {
+       "x": 162,
+       "y": 118,
+       "lx": 195,
+       "ly": 112,
+       "n": "Gradient wilgotnoadiabatyczny",
+       "d": "Ok. 0,6°C/100 m — ciepło kondensacji spowalnia ochładzanie"
+      },
+      {
+       "x": 200,
+       "y": 75,
+       "lx": 250,
+       "ly": 45,
+       "n": "Szczyt",
+       "d": "Opady po stronie dowietrznej"
       }
      ]
     },

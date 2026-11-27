@@ -1228,6 +1228,49 @@
        "d": "Gromadzą się związki żelaza i glinu"
       }
      ]
+    },
+    {
+     "id": "s6a8bc501",
+     "typ": "rysunek",
+     "tytul": "Gleby w przekroju doliny rzecznej",
+     "opis": "Uproszczone rozmieszczenie gleb w dolinie (catena) — rysunek autorski IndexLab.",
+     "uwaga": "Mady są żyzne, ale zagrożone powodziami — w dnach dolin częściej łąki i pastwiska niż pola. Typ gleby zależy od skały macierzystej, rzeźby i wody gruntowej.",
+     "svg": "<rect class=\"gk\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gs ol\" d=\"M0 80 C60 85 100 120 130 180 H270 C300 120 340 85 400 80 V300 H0 Z\"/><path class=\"gm ol\" d=\"M0 80 C60 85 100 120 130 180 L135 195 C100 140 60 100 0 98 Z\"/><path class=\"gp ol\" d=\"M130 180 H270 V200 H130 Z\"/><path class=\"gw ol\" d=\"M185 180 H215 V192 H185 Z\"/><path class=\"gc ol\" d=\"M270 180 C300 120 340 85 400 80 V96 C345 100 305 135 268 196 Z\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 160,
+       "y": 190,
+       "lx": 120,
+       "ly": 240,
+       "n": "Mady",
+       "d": "Na osadach powodziowych w dnie doliny — żyzne, warstwowane"
+      },
+      {
+       "x": 200,
+       "y": 186,
+       "lx": 240,
+       "ly": 150,
+       "n": "Rzeka",
+       "d": "Wylewy nanoszą namuły"
+      },
+      {
+       "x": 60,
+       "y": 95,
+       "lx": 70,
+       "ly": 40,
+       "n": "Gleby brunatne/płowe",
+       "d": "Na glinach wysoczyzny"
+      },
+      {
+       "x": 330,
+       "y": 100,
+       "lx": 320,
+       "ly": 40,
+       "n": "Rędziny",
+       "d": "Na zboczu z wapieniem — płytkie, kamieniste"
+      }
+     ]
     }
    ]
   },
