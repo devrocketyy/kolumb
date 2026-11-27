@@ -2594,6 +2594,57 @@
    ],
    "schematy": [
     {
+     "id": "s6b08b631",
+     "typ": "rysunek",
+     "tytul": "Żuławy Wiślane i przekopy (plan uproszczony)",
+     "opis": "Uproszczony plan delty Wisły — rysunek autorski IndexLab (bez skali).",
+     "uwaga": "Żuławy to najżyźniejszy region Polski (mady), ale wymagają stałego odwadniania: wały, kanały, przepompownie. Najniższy punkt Polski: Raczki Elbląskie (ok. −1,8 m).",
+     "svg": "<rect class=\"gw\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gl ol\" d=\"M0 300 V120 C40 110 70 125 110 115 C150 105 200 120 250 110 C300 100 340 120 400 110 V300 Z\"/><path class=\"gt ol\" d=\"M90 300 C100 220 140 160 200 140 C260 160 300 220 320 300 Z\"/><path class=\"cold\" d=\"M150 300 C160 240 180 190 199 112\" style=\"fill:none;stroke-width:4\"/><path class=\"gw\" d=\"M198 140 L200 112 L205 112 L203 140 Z\"/><path class=\"cold\" d=\"M190 175 C230 180 270 190 305 190\" style=\"fill:none;stroke-width:2.5\"/><path class=\"gw ol\" d=\"M300 170 C330 150 370 150 400 160 V215 C370 225 330 215 300 200 Z\"/><path class=\"gp ol\" d=\"M260 120 C300 115 360 125 400 118 V128 C360 135 300 126 262 128 Z\"/><path class=\"hot\" d=\"M350 120 V132\" style=\"stroke-width:3\"/><text class=\"tb\" x=\"20\" y=\"40\">Zatoka Gdańska</text><text class=\"ts\" x=\"392\" y=\"292\" text-anchor=\"end\">teren nad poziomem morza</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 125,
+       "lx": 120,
+       "ly": 80,
+       "n": "Przekop Wisły",
+       "d": "1895 — sztuczne, krótkie ujście chroniące Żuławy przed powodziami"
+      },
+      {
+       "x": 200,
+       "y": 220,
+       "lx": 130,
+       "ly": 250,
+       "n": "Żuławy",
+       "d": "Delta Wisły z madami; część poniżej poziomu morza — poldery i pompy"
+      },
+      {
+       "x": 260,
+       "y": 186,
+       "lx": 330,
+       "ly": 250,
+       "n": "Nogat",
+       "d": "Ramię delty płynące do Zalewu Wiślanego"
+      },
+      {
+       "x": 350,
+       "y": 185,
+       "lx": 340,
+       "ly": 90,
+       "n": "Zalew Wiślany",
+       "d": "Laguna odcięta Mierzeją Wiślaną"
+      },
+      {
+       "x": 350,
+       "y": 126,
+       "lx": 300,
+       "ly": 60,
+       "n": "Przekop Mierzei",
+       "d": "2022 — kanał żeglugowy do portu w Elblągu"
+      }
+     ]
+    },
+    {
      "id": "s3d19af41",
      "typ": "rysunek",
      "tytul": "Mierzeja i zalew",

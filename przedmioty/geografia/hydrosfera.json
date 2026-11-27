@@ -3126,6 +3126,57 @@
      ]
     },
     {
+     "id": "s568e0803",
+     "typ": "rysunek",
+     "tytul": "Arktyka i Antarktyka — porównanie (widok znad biegunów)",
+     "opis": "Uproszczone mapy obszarów okołobiegunowych — rysunek autorski IndexLab.",
+     "uwaga": "Antarktyka jest zimniejsza od Arktyki: wysoki kontynent pokryty lodem i izolowany przez prąd okołobiegunowy. W Arktyce ocean łagodzi zimę (−30 do −40°C), na Antarktydzie notowano −89°C.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><circle class=\"gw ol\" cx=\"100\" cy=\"150\" r=\"90\"/><path class=\"gl ol\" d=\"M10 150 C20 100 40 70 70 62 L60 90 C45 110 40 130 42 150 Z M190 150 C185 110 165 80 140 66 L150 95 C165 115 168 135 168 150 Z M60 235 C80 245 120 245 140 236 L130 215 C110 222 90 222 70 214 Z\"/><path class=\"gi ol\" d=\"M90 75 C120 70 135 90 128 105 C115 112 100 108 90 98 Z\"/><circle class=\"gi\" cx=\"100\" cy=\"150\" r=\"38\" style=\"opacity:.85\"/><circle class=\"gw ol\" cx=\"300\" cy=\"150\" r=\"90\"/><path class=\"gi ol\" d=\"M240 150 C240 100 280 85 310 92 C350 100 365 130 358 160 C350 200 310 215 280 205 C255 197 240 180 240 150 Z\"/><circle class=\"d\" cx=\"100\" cy=\"150\" r=\"3\"/><circle class=\"d\" cx=\"300\" cy=\"150\" r=\"3\"/><text class=\"tb\" x=\"100\" y=\"20\" text-anchor=\"middle\">ARKTYKA</text><text class=\"tb\" x=\"300\" y=\"20\" text-anchor=\"middle\">ANTARKTYKA</text><text class=\"ts\" x=\"100\" y=\"290\" text-anchor=\"middle\">ocean otoczony lądami</text><text class=\"ts\" x=\"300\" y=\"290\" text-anchor=\"middle\">kontynent otoczony oceanem</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 100,
+       "y": 150,
+       "lx": 125,
+       "ly": 200,
+       "n": "Lód morski",
+       "d": "Kra i pak lodowy grubości kilku m — kurczy się latem"
+      },
+      {
+       "x": 110,
+       "y": 88,
+       "lx": 160,
+       "ly": 40,
+       "n": "Grenlandia",
+       "d": "Lądolód na wyspie — jedyny lądolód półkuli N"
+      },
+      {
+       "x": 300,
+       "y": 140,
+       "lx": 275,
+       "ly": 120,
+       "n": "Lądolód antarktyczny",
+       "d": "Średnio ok. 2 km lodu na kontynencie"
+      },
+      {
+       "x": 300,
+       "y": 230,
+       "lx": 275,
+       "ly": 255,
+       "n": "Ocean Południowy",
+       "d": "Silny Dryf Wiatrów Zachodnich wokół kontynentu"
+      },
+      {
+       "x": 40,
+       "y": 120,
+       "lx": 65,
+       "ly": 70,
+       "n": "Wybrzeża Eurazji i Ameryki",
+       "d": "Tundra i wieloletnia zmarzlina"
+      }
+     ]
+    },
+    {
      "id": "s319fb043",
      "typ": "rysunek",
      "tytul": "Lodowiec górski",

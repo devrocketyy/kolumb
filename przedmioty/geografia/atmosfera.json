@@ -2066,6 +2066,57 @@
      ]
     },
     {
+     "id": "s47940e6b",
+     "typ": "rysunek",
+     "tytul": "Ruch powietrza w niżu i wyżu (przekrój pionowy)",
+     "opis": "Schemat cyrkulacji w układach barycznych — rysunek autorski IndexLab.",
+     "uwaga": "Niż: zbieżność przy ziemi + ruch wstępujący = pogoda pochmurna i deszczowa. Wyż: ruch zstępujący + rozbieżność = pogoda bezchmurna (latem upał, zimą mróz i mgły).",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gt ol\" d=\"M0 250 H400 V300 H0 Z\"/><path class=\"gk ol\" d=\"M60 200 C50 130 90 70 120 80 C150 70 190 130 180 200 Z\"/><path class=\"hot\" d=\"M120.0 200.0 L120.0 70.0\"/><path class=\"hot\" d=\"M122.7 76.4 L120.0 70.0 L117.3 76.4\"/><path class=\"s\" d=\"M30.0 240.0 L100.0 240.0\"/><path class=\"s\" d=\"M93.6 242.7 L100.0 240.0 L93.6 237.3\"/><path class=\"s\" d=\"M210.0 240.0 L140.0 240.0\"/><path class=\"s\" d=\"M146.4 237.3 L140.0 240.0 L146.4 242.7\"/><path class=\"s\" d=\"M130.0 50.0 L200.0 40.0\"/><path class=\"s\" d=\"M194.0 43.6 L200.0 40.0 L193.2 38.2\"/><path class=\"s\" d=\"M110.0 50.0 L40.0 40.0\"/><path class=\"s\" d=\"M46.8 38.2 L40.0 40.0 L46.0 43.6\"/><path class=\"cold\" d=\"M300.0 70.0 L300.0 220.0\"/><path class=\"cold\" d=\"M297.3 213.6 L300.0 220.0 L302.7 213.6\"/><path class=\"s\" d=\"M310.0 240.0 L380.0 240.0\"/><path class=\"s\" d=\"M373.6 242.7 L380.0 240.0 L373.6 237.3\"/><path class=\"s\" d=\"M290.0 240.0 L230.0 240.0\"/><path class=\"s\" d=\"M236.4 237.3 L230.0 240.0 L236.4 242.7\"/><path class=\"s\" d=\"M250.0 50.0 L290.0 60.0\"/><path class=\"s\" d=\"M283.1 61.1 L290.0 60.0 L284.4 55.8\"/><path class=\"s\" d=\"M370.0 50.0 L320.0 60.0\"/><path class=\"s\" d=\"M325.8 56.1 L320.0 60.0 L326.9 61.4\"/><text class=\"tb\" x=\"120\" y=\"275\" text-anchor=\"middle\">NIŻ (L)</text><text class=\"tb\" x=\"300\" y=\"275\" text-anchor=\"middle\">WYŻ (H)</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 120,
+       "y": 140,
+       "lx": 145,
+       "ly": 105,
+       "n": "Prądy wstępujące",
+       "d": "Powietrze wznosi się, ochładza — chmury i opady"
+      },
+      {
+       "x": 60,
+       "y": 240,
+       "lx": 85,
+       "ly": 220,
+       "n": "Zbieżność przy ziemi",
+       "d": "Powietrze napływa do środka niżu"
+      },
+      {
+       "x": 300,
+       "y": 150,
+       "lx": 275,
+       "ly": 160,
+       "n": "Prądy zstępujące",
+       "d": "Powietrze opada i ogrzewa się — zanikają chmury"
+      },
+      {
+       "x": 350,
+       "y": 240,
+       "lx": 325,
+       "ly": 195,
+       "n": "Rozbieżność przy ziemi",
+       "d": "Powietrze wypływa z wyżu na boki"
+      },
+      {
+       "x": 170,
+       "y": 45,
+       "lx": 210,
+       "ly": 20,
+       "n": "Odpływ górą",
+       "d": "Na wysokości niż „wysysa” powietrze, wyż je przyjmuje"
+      }
+     ]
+    },
+    {
      "id": "s08685ccf",
      "typ": "rysunek",
      "tytul": "Bryza dzienna i nocna",
