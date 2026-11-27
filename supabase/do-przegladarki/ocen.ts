@@ -7,9 +7,11 @@
 // Sekrety (Supabase → Edge Functions → Secrets):
 //   ANTHROPIC_API_KEY  — klucz API Anthropic (wymagany; nigdy w kodzie ani w przeglądarce),
 //   OCENA_MODEL        — opcjonalnie model (domyślnie claude-sonnet-5-5),
+//   OCENA_EFFORT       — opcjonalnie low | medium | high (domyślnie low — ocena wg klucza nie wymaga długiego namysłu),
 //   OCENA_LIMIT_PREMIUM / OCENA_LIMIT_DEMO — dzienne limity ocen (domyślnie 30 / 3).
 // Wymaga migracji 008_ocena_ai.sql.
 import { createClient } from 'npm:@supabase/supabase-js@2.49.4';
+import Anthropic from 'npm:@anthropic-ai/sdk';
 
 const admin = createClient(Deno.env.get('SUPABASE_URL')!, Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!, {
   auth: { persistSession: false },
@@ -40,19 +42,18 @@ async function maDostep(uid: string, przedmiot: string) {
   return !!a.data || !!(b.data && b.data.length);
 }
 
-const NARZEDZIE = {
-  name: 'ocena',
-  description: 'Zapisz ocenę odpowiedzi ucznia.',
-  input_schema: {
-    type: 'object',
-    properties: {
-      pkt: { type: 'integer', description: 'Przyznane punkty, od 0 do liczby punktów za zadanie.' },
-      uzasadnienie: { type: 'string', description: 'Krótko (1–3 zdania), za co przyznano lub odjęto punkty, z odwołaniem do kryterium.' },
-      brakuje: { type: 'array', items: { type: 'string' }, description: 'Konkretne brakujące lub błędne elementy odpowiedzi (puste, jeśli odpowiedź jest pełna).' },
-      wskazowka: { type: 'string', description: 'Jedna praktyczna wskazówka, jak napisać odpowiedź na pełną liczbę punktów.' },
-    },
-    required: ['pkt', 'uzasadnienie', 'brakuje', 'wskazowka'],
+const EFFORT = Deno.env.get('OCENA_EFFORT') || 'low';
+// Ustrukturyzowane wyjście: model zwraca gotowy JSON zgodny ze schematem.
+const SCHEMAT = {
+  type: 'object',
+  properties: {
+    pkt: { type: 'integer', description: 'Przyznane punkty, od 0 do liczby punktów za zadanie.' },
+    uzasadnienie: { type: 'string', description: 'Krótko (1–3 zdania), za co przyznano lub odjęto punkty, z odwołaniem do kryterium.' },
+    brakuje: { type: 'array', items: { type: 'string' }, description: 'Konkretne brakujące lub błędne elementy odpowiedzi (puste, jeśli odpowiedź jest pełna).' },
+    wskazowka: { type: 'string', description: 'Jedna praktyczna wskazówka, jak napisać odpowiedź na pełną liczbę punktów.' },
   },
+  required: ['pkt', 'uzasadnienie', 'brakuje', 'wskazowka'],
+  additionalProperties: false,
 };
 
 Deno.serve(async (req) => {
@@ -97,27 +98,27 @@ Deno.serve(async (req) => {
       b.zasady ? `<zasady_oceniania>\n${tnij(b.zasady, 3000)}\n</zasady_oceniania>` : '',
       `<punkty>${max}</punkty>`,
       `<odpowiedz_ucznia>\n${odpowiedz}\n</odpowiedz_ucznia>`,
-      `Oceń odpowiedź (0–${max} pkt) i zapisz wynik narzędziem „ocena”.`,
+      `Oceń odpowiedź (0–${max} pkt).`,
     ].filter(Boolean).join('\n\n');
 
-    const r = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: { 'x-api-key': klucz, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
-      body: JSON.stringify({
+    const client = new Anthropic({ apiKey: klucz });
+    let wynik: { pkt?: number; uzasadnienie?: string; brakuje?: unknown[]; wskazowka?: string } | null = null;
+    try {
+      const out = await client.messages.create({
         model: MODEL,
-        max_tokens: 800,
+        max_tokens: 4000,
         system,
-        tools: [NARZEDZIE],
-        tool_choice: { type: 'tool', name: 'ocena' },
+        output_config: { effort: EFFORT, format: { type: 'json_schema', schema: SCHEMAT } },
         messages: [{ role: 'user', content: tresc }],
-      }),
-    });
-    if (!r.ok) {
-      console.error('Anthropic', r.status, await r.text());
-      return json({ error: 'Ocenianie chwilowo nie działa. Spróbuj za chwilę.' }, 502);
+      } as Anthropic.MessageCreateParamsNonStreaming);
+      if (out.stop_reason === 'refusal') return json({ error: 'Tej odpowiedzi nie da się ocenić automatycznie — porównaj ją z kluczem.' }, 422);
+      const t = out.content.find((c) => c.type === 'text');
+      wynik = t && t.type === 'text' ? JSON.parse(t.text) : null;
+    } catch (e) {
+      if (e instanceof Anthropic.RateLimitError) return json({ error: 'Za dużo ocen naraz. Spróbuj za minutę.' }, 429);
+      if (e instanceof Anthropic.APIError) { console.error('Anthropic', e.status, e.message); return json({ error: 'Ocenianie chwilowo nie działa. Spróbuj za chwilę.' }, 502); }
+      throw e;
     }
-    const out = await r.json();
-    const wynik = out.content?.find((c: { type: string }) => c.type === 'tool_use')?.input;
     if (!wynik) return json({ error: 'Nie udało się ocenić odpowiedzi. Spróbuj ponownie.' }, 502);
 
     const pkt = Math.max(0, Math.min(max, Math.round(Number(wynik.pkt) || 0)));
