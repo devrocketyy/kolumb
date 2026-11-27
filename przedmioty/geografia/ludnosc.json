@@ -4409,6 +4409,41 @@
      ]
     },
     {
+     "id": "seb4f4d79",
+     "typ": "rysunek",
+     "tytul": "Układy przestrzenne miast: szachownicowy i promienisto-koncentryczny",
+     "opis": "Dwa modelowe układy sieci ulic — rysunek autorski IndexLab.",
+     "uwaga": "Układ szachownicowy ułatwia orientację i parcelację (miasta lokacyjne, kolonialne, amerykańskie). Promienisty sprzyja dojazdom do centrum, ale je zatłacza. Miasta polskie łączą średniowieczne centrum z późniejszymi obwodnicami.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gt ol\" x=\"15\" y=\"50\" width=\"170\" height=\"200\"/><rect class=\"gt ol\" x=\"215\" y=\"50\" width=\"170\" height=\"200\"/><path class=\"s\" d=\"M43.3 50 V250 M15 83.3 H185\" style=\"stroke-width:3\"/><path class=\"s\" d=\"M71.6 50 V250 M15 116.6 H185\" style=\"stroke-width:3\"/><path class=\"s\" d=\"M99.9 50 V250 M15 149.9 H185\" style=\"stroke-width:3\"/><path class=\"s\" d=\"M128.2 50 V250 M15 183.2 H185\" style=\"stroke-width:3\"/><path class=\"s\" d=\"M156.5 50 V250 M15 216.5 H185\" style=\"stroke-width:3\"/><path class=\"s\" d=\"M300 150 L382.0 150.0\" style=\"stroke-width:3\"/><path class=\"s\" d=\"M300 150 L358.0 217.2\" style=\"stroke-width:3\"/><path class=\"s\" d=\"M300 150 L300.0 245.0\" style=\"stroke-width:3\"/><path class=\"s\" d=\"M300 150 L242.0 217.2\" style=\"stroke-width:3\"/><path class=\"s\" d=\"M300 150 L218.0 150.0\" style=\"stroke-width:3\"/><path class=\"s\" d=\"M300 150 L242.0 82.8\" style=\"stroke-width:3\"/><path class=\"s\" d=\"M300 150 L300.0 55.0\" style=\"stroke-width:3\"/><path class=\"s\" d=\"M300 150 L358.0 82.8\" style=\"stroke-width:3\"/><circle class=\"s\" cx=\"300\" cy=\"150\" r=\"30\" style=\"fill:none;stroke-width:3\"/><circle class=\"s\" cx=\"300\" cy=\"150\" r=\"60\" style=\"fill:none;stroke-width:3\"/><circle class=\"hotf ol\" cx=\"300\" cy=\"150\" r=\"10\"/><text class=\"tb\" x=\"100\" y=\"275\" text-anchor=\"middle\">szachownicowy</text><text class=\"tb\" x=\"300\" y=\"275\" text-anchor=\"middle\">promienisto-koncentryczny</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 71,
+       "y": 83,
+       "lx": 90,
+       "ly": 14,
+       "n": "Regularne kwartały",
+       "d": "Ulice przecinają się pod kątem prostym (Manhattan, Barcelona — Eixample)"
+      },
+      {
+       "x": 300,
+       "y": 150,
+       "lx": 230,
+       "ly": 30,
+       "n": "Centrum",
+       "d": "Z niego wychodzą ulice promieniste"
+      },
+      {
+       "x": 360,
+       "y": 150,
+       "lx": 330,
+       "ly": 30,
+       "n": "Obwodnica",
+       "d": "Ulice koncentryczne łączą promienie (Moskwa, Paryż)"
+      }
+     ]
+    },
+    {
      "id": "sfef18ae5",
      "typ": "rysunek",
      "tytul": "Strefy w mieście (model koncentryczny)",
