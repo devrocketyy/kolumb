@@ -41,6 +41,9 @@ async function funkcja(nazwa, body) {
   return d;
 }
 
+// Ocena odpowiedzi otwartej przez AI (funkcja Edge „ocen”, klucz API tylko na serwerze).
+export const ocen = (body) => funkcja('ocen', body);
+
 export async function kup(plan, przedmioty) {
   const { url } = await funkcja('checkout', { plan, przedmioty });
   location.href = url;

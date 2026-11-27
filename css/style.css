@@ -599,6 +599,12 @@ textarea:focus { outline: none; border-color: var(--primary); background: var(--
 .score-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 18px; }
 .btn-score { flex: 1 1 80px; max-width: 140px; border-color: var(--border); }
 .btn-score.active { --b: var(--accent); --bs: var(--accent-shadow); --bc: var(--on-accent); border-color: transparent; }
+.btn-score.ai-sugg:not(.active) { border: 2px dashed var(--accent); }
+.task-body #ai-ocen { margin-top: 10px; width: 100%; }
+.ai-ocena .card-title { display: flex; align-items: center; gap: 8px; }
+.ai-ocena ul { margin: 4px 0 10px; padding-left: 20px; }
+.ai-ocena p { margin: 0 0 8px; }
+.ai-ocena.err p { margin: 0; color: var(--text-2); }
 .task-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 8px 0; }
 .task-nav .btn:disabled { opacity: .5; }
 .tile-wide { grid-column: 1 / -1; }

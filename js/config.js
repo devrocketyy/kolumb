@@ -36,3 +36,9 @@ export const PRYWATNE = {
 export const WYGLAD = {
   nowy: true,
 };
+
+// Ocenianie odpowiedzi otwartych przez AI (funkcja Edge „ocen” w Supabase, klucz API tylko w sekretach Supabase).
+// Aby ukryć przycisk „Oceń moją odpowiedź (AI)”: zmień ocena na false.
+export const AI = {
+  ocena: true,
+};

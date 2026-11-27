@@ -2215,9 +2215,11 @@ function renderTask() {
 
     <section class="card task-body">
       ${pre(z.polecenie)}
-      <label class="answer-label" for="draft">Twoja odpowiedź <span class="muted">(opcjonalnie, nie jest zapisywana)</span></label>
+      <label class="answer-label" for="draft">Twoja odpowiedź <span class="muted">(${aiOn() ? 'AI oceni ją według klucza CKE' : 'opcjonalnie, nie jest zapisywana'})</span></label>
       <textarea id="draft" rows="4" placeholder="Zapisz odpowiedź, zanim zajrzysz do klucza…">${esc(zs.drafts[k] || '')}</textarea>
+      ${aiOn() && z.odpowiedz ? `<button type="button" class="btn btn-ghost" id="ai-ocen">${ICONS.check}<span>Oceń moją odpowiedź (AI)</span></button>` : ''}
     </section>
+    <div id="ai-area" aria-live="polite">${zs.ai?.[k] ? aiHtml(zs.ai[k]) : ''}</div>
 
     <div id="key-area">${revealed ? keyHtml(z, prev) : `<button type="button" class="btn btn-primary btn-lg" id="reveal">Sprawdź z kluczem</button>`}</div>
 
@@ -2238,6 +2240,7 @@ function renderTask() {
     app.querySelector('#key-area').scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
   if (revealed) bindScore(z, k);
+  app.querySelector('#ai-ocen')?.addEventListener('click', () => ocenAI(z, k, w));
   app.querySelector('#prev').addEventListener('click', () => go(-1));
   app.querySelector('#nextT').addEventListener('click', () => go(1));
   keyHandler = (e) => {
@@ -2261,6 +2264,44 @@ function keyHtml(z, prev) {
     </section>
     <p class="score-q">Ile punktów przyznajesz sobie?</p>
     <div class="score-row">${btns}</div>`;
+}
+
+// ---------- ocena AI odpowiedzi otwartej ----------
+const aiOn = () => cloud.enabled() && CFG.AI?.ocena !== false;
+const aiHtml = (r) => r.error
+  ? `<section class="card ai-ocena err"><p>${esc(r.error)}</p></section>`
+  : `<section class="card ai-ocena">
+      <h2 class="card-title">${ICONS.check} Ocena AI: <b>${r.pkt}/${r.max} pkt</b></h2>
+      <p>${esc(r.uzasadnienie)}</p>
+      ${r.brakuje?.length ? `<p class="small"><strong>Czego zabrakło:</strong></p><ul class="small">${r.brakuje.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
+      ${r.wskazowka ? `<p class="small"><strong>Wskazówka:</strong> ${esc(r.wskazowka)}</p>` : ''}
+      <p class="muted small">Ocena orientacyjna — porównaj z kluczem poniżej i zapisz wynik.${r.limit ? ` Oceny dziś: ${r.limit.uzyte}/${r.limit.max}.` : ''}</p>
+    </section>`;
+
+async function ocenAI(z, k, w) {
+  const odp = (zs.drafts[k] || '').trim();
+  const area = app.querySelector('#ai-area');
+  if (odp.length < 3) { toast('Najpierw wpisz swoją odpowiedź.'); app.querySelector('#draft')?.focus(); return; }
+  const btn = app.querySelector('#ai-ocen');
+  if (btn) { btn.disabled = true; btn.querySelector('span').textContent = 'Oceniam…'; }
+  let r;
+  try {
+    r = await dostep.ocen({
+      przedmiot: zs.s.id, zadanie: `${z.arkusz}/${z.nr}`, polecenie: z.polecenie,
+      material: w?.material || '', klucz: z.odpowiedz || '', zasady: z.zasady || '', punkty: z.punkty, odpowiedz: odp,
+    });
+  } catch (e) {
+    r = { error: e.message || 'Nie udało się ocenić odpowiedzi.' };
+  }
+  (zs.ai ||= {})[k] = r;
+  if (zs.list[zs.i] !== z) return; // uczeń przeszedł dalej
+  area.innerHTML = aiHtml(r);
+  if (btn) { btn.disabled = false; btn.querySelector('span').textContent = 'Oceń ponownie (AI)'; }
+  if (!r.error) {
+    if (!zs.revealed[k]) { zs.revealed[k] = true; app.querySelector('#key-area').innerHTML = keyHtml(z, store.get().zadania[k]); bindScore(z, k); }
+    app.querySelector(`.score-row [data-pkt="${r.pkt}"]`)?.classList.add('ai-sugg');
+  }
+  area.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function bindScore(z, k) {
