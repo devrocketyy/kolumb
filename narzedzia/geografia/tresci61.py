@@ -1,0 +1,47 @@
+# Geografia — porcja 61 (Polska regionalnie: województwa, transport, gospodarka morska).
+T = {
+'g-pl-gospodarka': dict(F=[
+ ('Woj. mazowieckie — specjalność gospodarcza', 'Najwyższy PKB: usługi finansowe i biznesowe w Warszawie, rafineria w Płocku, sadownictwo wokół Grójca.'),
+ ('Woj. śląskie — specjalność gospodarcza', 'Górnictwo węgla kamiennego (GZW, ROW), hutnictwo, motoryzacja (Tychy, Gliwice), restrukturyzacja.'),
+ ('Woj. dolnośląskie — specjalność gospodarcza', 'Miedź (LGOM), węgiel brunatny (Turów), elektronika i usługi we Wrocławiu, uzdrowiska Sudetów.'),
+ ('Woj. wielkopolskie — specjalność gospodarcza', 'Wysoko towarowe rolnictwo, przemysł spożywczy, motoryzacja (Volkswagen Poznań), węgiel brunatny (Konin).'),
+ ('Woj. łódzkie — specjalność gospodarcza', 'Elektrownia Bełchatów (węgiel brunatny), AGD, logistyka w centrum kraju, dawniej włókiennictwo.'),
+ ('Woj. pomorskie — specjalność gospodarcza', 'Porty Gdańsk i Gdynia, rafineria w Gdańsku, stocznie, turystyka nadmorska, IT w Trójmieście.'),
+ ('Woj. zachodniopomorskie — specjalność gospodarcza', 'Porty Szczecin–Świnoujście (terminal LNG), turystyka nadmorska, przemysł chemiczny (Police).'),
+ ('Woj. podkarpackie — specjalność gospodarcza', 'Dolina Lotnicza (Rzeszów, Mielec), przemysł chemiczny (Dębica), turystyka w Bieszczadach.'),
+ ('Woj. lubelskie — specjalność gospodarcza', 'Rolnictwo (chmiel, owoce miękkie, buraki), węgiel kamienny (LZW, Bogdanka), cementownie (Chełm).'),
+ ('Woj. świętokrzyskie — specjalność gospodarcza', 'Przemysł mineralny (wapienie, cementownie), sadownictwo (Sandomierz), targi w Kielcach.'),
+ ('Woj. małopolskie — specjalność gospodarcza', 'Turystyka (Kraków, Zakopane, Wieliczka), usługi IT i BPO w Krakowie, chemia (Oświęcim).'),
+ ('Woj. podlaskie — specjalność gospodarcza', 'Mleczarstwo (spółdzielnie), turystyka przyrodnicza (Biebrza, Białowieża), niska urbanizacja.'),
+ ('Woj. warmińsko-mazurskie — specjalność gospodarcza', 'Turystyka (Mazury), przemysł drzewny i meblarski, oponiarski (Olsztyn).'),
+ ('Woj. kujawsko-pomorskie — specjalność gospodarcza', 'Przemysł chemiczny (Włocławek — Anwil), sól (Inowrocław), rolnictwo, Toruń — nauka i turystyka.'),
+ ('Woj. opolskie — specjalność gospodarcza', 'Cementownie (wapienie i margle), przemysł chemiczny (Kędzierzyn), urodzajne gleby.'),
+ ('Woj. lubuskie — specjalność gospodarcza', 'Najwyższa lesistość w Polsce, przemysł drzewny, położenie przy granicy z Niemcami (logistyka).'),
+],
+Q=[
+ ('Dolina Lotnicza — skupisko firm przemysłu lotniczego — leży głównie w woj.:', ['*podkarpackim', 'mazowieckim', 'pomorskim', 'opolskim'], 'Rzeszów, Mielec.'),
+ ('Największą lesistość spośród województw ma woj.:', ['*lubuskie', 'mazowieckie', 'łódzkie', 'świętokrzyskie'], 'Ok. 50%.'),
+]),
+'g-uslugi': dict(F=[
+ ('Autostrada A1', 'Północ–południe: Gdańsk – Toruń – Łódź – Częstochowa – Katowice – granica z Czechami (Gorzyczki).'),
+ ('Autostrada A4', 'Zachód–wschód na południu: Jędrzychowice – Wrocław – Katowice – Kraków – Rzeszów – Korczowa.'),
+ ('Autostrada A2 — przebieg', 'Świecko – Poznań – Łódź (Stryków) – Warszawa – dalej ku Białej Podlaskiej (w budowie).'),
+ ('Via Carpatia (S19)', 'Droga ekspresowa wzdłuż wschodniej granicy: Litwa – Białystok – Lublin – Rzeszów – Słowacja.'),
+ ('Port Gdańsk — znaczenie', 'Największy port Polski i jeden z największych na Bałtyku; terminal kontenerowy (Baltic Hub), ropa.'),
+ ('Port Gdynia — znaczenie', 'Port uniwersalny i kontenerowy, promy do Szwecji; zbudowany w II RP.'),
+ ('Port Świnoujście — znaczenie', 'Gazoport (terminal LNG), promy do Szwecji, w przyszłości terminal kontenerowy głębokowodny.'),
+ ('Kolej dużych prędkości w Polsce', 'Planowany „igrek” CPK: Warszawa – Łódź – Poznań/Wrocław; dziś najszybsza CMK (do 200 km/h).'),
+ ('Turystyka Podhala', 'Zakopane, narciarstwo, Tatry, kultura góralska, termy (Bukowina, Białka).'),
+ ('Turystyka Trójmiasta', 'Plaże, zabytki Gdańska, Westerplatte, Muzeum II Wojny Światowej, Europejskie Centrum Solidarności.'),
+],
+Q=[
+ ('Centralna Magistrala Kolejowa (CMK) łączy:', ['*Warszawę z Górnym Śląskiem i Krakowem', 'Gdańsk z Poznaniem i Wrocławiem', 'Szczecin z Wrocławiem wzdłuż Odry', 'Lublin z Rzeszowem i Przemyślem'], 'Najszybsza linia.'),
+]),
+'g-pl-ludnosc': dict(F=[
+ ('Stolice województw z dwoma siedzibami władz', 'Kujawsko-pomorskie: Bydgoszcz (wojewoda) i Toruń (sejmik); lubuskie: Gorzów Wlkp. (wojewoda) i Zielona Góra (sejmik).'),
+ ('Najmniej ludne województwo', 'Opolskie (ok. 0,95 mln).'),
+ ('Najbardziej zurbanizowane województwo', 'Śląskie (ok. 76% ludności w miastach).'),
+ ('Województwo z najwyższym przyrostem rzeczywistym', 'Pomorskie i mazowieckie (okolice metropolii) — dodatnie saldo migracji.'),
+],
+Q=[]),
+}
