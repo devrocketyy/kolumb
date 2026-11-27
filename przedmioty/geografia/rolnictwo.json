@@ -1374,6 +1374,49 @@
    ],
    "schematy": [
     {
+     "id": "s2dd232d6",
+     "typ": "rysunek",
+     "tytul": "Pustynnienie Sahelu — błędne koło",
+     "opis": "Model przyczyn i skutków pustynnienia na obszarach suchych — rysunek autorski IndexLab.",
+     "uwaga": "Przerwanie koła: zalesianie (Wielki Zielony Mur), ograniczenie wypasu, kamienne wały zatrzymujące wodę, rolnictwo przystosowane do suszy.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gc ol\" x=\"176\" y=\"32\" width=\"47\" height=\"26\" rx=\"8\"/><text class=\"tb\" x=\"200\" y=\"50\" text-anchor=\"middle\">susza</text><rect class=\"gp ol\" x=\"246\" y=\"84\" width=\"90\" height=\"26\" rx=\"8\"/><text class=\"tb\" x=\"291\" y=\"102\" text-anchor=\"middle\">mniej roślin</text><rect class=\"gc ol\" x=\"205\" y=\"190\" width=\"171\" height=\"26\" rx=\"8\"/><text class=\"tb\" x=\"291\" y=\"208\" text-anchor=\"middle\">nadmierny wypas i wycinka</text><rect class=\"gp ol\" x=\"142\" y=\"242\" width=\"115\" height=\"26\" rx=\"8\"/><text class=\"tb\" x=\"200\" y=\"260\" text-anchor=\"middle\">odsłonięta gleba</text><rect class=\"gc ol\" x=\"33\" y=\"190\" width=\"152\" height=\"26\" rx=\"8\"/><text class=\"tb\" x=\"109\" y=\"208\" text-anchor=\"middle\">erozja i wyższe albedo</text><rect class=\"gp ol\" x=\"39\" y=\"84\" width=\"140\" height=\"26\" rx=\"8\"/><text class=\"tb\" x=\"109\" y=\"102\" text-anchor=\"middle\">jeszcze mniej opadów</text><path class=\"hot\" d=\"M227.3 60.8 L263.7 81.8\"/><path class=\"hot\" d=\"M256.7 80.9 L263.7 81.8 L259.4 76.2\"/><path class=\"hot\" d=\"M290.9 129.0 L290.9 171.0\"/><path class=\"hot\" d=\"M288.2 164.6 L290.9 171.0 L293.7 164.6\"/><path class=\"hot\" d=\"M263.7 218.2 L227.3 239.2\"/><path class=\"hot\" d=\"M231.5 233.7 L227.3 239.2 L234.2 238.4\"/><path class=\"hot\" d=\"M172.7 239.2 L136.3 218.2\"/><path class=\"hot\" d=\"M143.3 219.1 L136.3 218.2 L140.6 223.8\"/><path class=\"hot\" d=\"M109.1 171.0 L109.1 129.0\"/><path class=\"hot\" d=\"M111.8 135.4 L109.1 129.0 L106.3 135.4\"/><path class=\"hot\" d=\"M136.3 81.7 L172.7 60.8\"/><path class=\"hot\" d=\"M168.5 66.3 L172.7 60.8 L165.8 61.6\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 45,
+       "lx": 270,
+       "ly": 20,
+       "n": "Susza",
+       "d": "Słabsze deszcze monsunu zachodnioafrykańskiego"
+      },
+      {
+       "x": 291,
+       "y": 202,
+       "lx": 266,
+       "ly": 280,
+       "n": "Nadmierny wypas",
+       "d": "Rosnąca liczba ludzi i stad, wycinka drzew na opał"
+      },
+      {
+       "x": 109,
+       "y": 202,
+       "lx": 134,
+       "ly": 125,
+       "n": "Wyższe albedo",
+       "d": "Jasna, naga ziemia odbija więcej promieniowania — mniej konwekcji"
+      },
+      {
+       "x": 200,
+       "y": 150,
+       "lx": 195,
+       "ly": 150,
+       "n": "Sprzężenie zwrotne",
+       "d": "Każdy etap nasila kolejny — proces sam się napędza"
+      }
+     ]
+    },
+    {
      "id": "s2373ecbc",
      "typ": "proces",
      "tytul": "Typy rolnictwa — jak je rozpoznać",

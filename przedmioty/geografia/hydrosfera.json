@@ -2499,6 +2499,49 @@
      ]
     },
     {
+     "id": "s9ba94f01",
+     "typ": "rysunek",
+     "tytul": "Hydrogram: zlewnia zurbanizowana a leśna",
+     "opis": "Porównanie reakcji dwóch zlewni na ten sam opad — wykres autorski IndexLab (wartości względne).",
+     "uwaga": "Uszczelnianie powierzchni (asfalt, dachy) skraca czas opóźnienia i podnosi kulminację — rośnie ryzyko powodzi błyskawicznych. Zieleń, retencja i ogrody deszczowe działają odwrotnie.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gw2 ol\" x=\"60\" y=\"40\" width=\"12\" height=\"0\"/><rect class=\"gw2 ol\" x=\"74\" y=\"40\" width=\"12\" height=\"24\"/><rect class=\"gw2 ol\" x=\"88\" y=\"40\" width=\"12\" height=\"56\"/><rect class=\"gw2 ol\" x=\"102\" y=\"40\" width=\"12\" height=\"40\"/><rect class=\"gw2 ol\" x=\"116\" y=\"40\" width=\"12\" height=\"16\"/><rect class=\"gw2 ol\" x=\"130\" y=\"40\" width=\"12\" height=\"0\"/><text class=\"ts\" x=\"60\" y=\"32\">opad</text><path class=\"s\" d=\"M50 260 H380 M50 110 V260\"/><path class=\"hot\" fill=\"none\" d=\"M50 245 C100 245 120 120 150 120 C180 120 190 230 260 240 C300 245 340 245 380 245\" style=\"stroke-width:2.6\"/><path class=\"cold\" fill=\"none\" d=\"M50 245 C120 245 150 200 200 190 C250 185 290 225 380 238\" style=\"stroke-width:2.6\"/><path class=\"dash\" d=\"M95 80 V260\"/><path class=\"dash\" d=\"M150 120 V260\"/><path class=\"dash\" d=\"M200 190 V260\"/><text class=\"ts\" x=\"215\" y=\"278\" text-anchor=\"middle\">czas →</text><text class=\"ts\" x=\"44\" y=\"120\" text-anchor=\"end\">Q</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 150,
+       "y": 120,
+       "lx": 230,
+       "ly": 100,
+       "n": "Zlewnia miejska",
+       "d": "Wysoka, szybka kulminacja — beton i kanalizacja odprowadzają wodę natychmiast"
+      },
+      {
+       "x": 200,
+       "y": 190,
+       "lx": 290,
+       "ly": 170,
+       "n": "Zlewnia leśna",
+       "d": "Niska, późna kulminacja — las i gleba zatrzymują wodę"
+      },
+      {
+       "x": 95,
+       "y": 80,
+       "lx": 120,
+       "ly": 70,
+       "n": "Maksimum opadu",
+       "d": "Punkt odniesienia do liczenia czasu opóźnienia"
+      },
+      {
+       "x": 122,
+       "y": 255,
+       "lx": 147,
+       "ly": 285,
+       "n": "Krótki czas opóźnienia",
+       "d": "W mieście kulminacja następuje niedługo po deszczu"
+      }
+     ]
+    },
+    {
      "id": "s7f021056",
      "typ": "rysunek",
      "tytul": "Ustrój rzeki nizinnej (śnieżny)",

@@ -1285,6 +1285,49 @@
      ]
     },
     {
+     "id": "scd7b8862",
+     "typ": "rysunek",
+     "tytul": "Wulkan tarczowy a stratowulkan — porównanie",
+     "opis": "Porównanie dwóch głównych typów wulkanów (bez zachowania skali) — rysunek autorski IndexLab.",
+     "uwaga": "Tarczowe: plamy gorąca i ryfty (Hawaje, Islandia), erupcje wylewne. Stratowulkany: strefy subdukcji (Fudżi, Etna, Andy), erupcje wybuchowe i największe zagrożenie dla ludzi.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gm2 ol\" d=\"M10 240 C60 200 120 170 150 165 C180 170 220 200 260 240 Z\" style=\"opacity:.9\"/><path class=\"gs ol\" d=\"M250 240 L320 70 L330 70 L395 240 Z\"/><path class=\"s\" d=\"M264 206 L382 206\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M278 172 L369 172\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M292 138 L356 138\" style=\"stroke-width:.8\"/><path class=\"s\" d=\"M306 104 L343 104\" style=\"stroke-width:.8\"/><path class=\"gm\" d=\"M321 70 L323 240 L327 240 L329 70 Z\"/><path class=\"gm\" d=\"M147 165 L149 240 L152 240 L154 165 Z\"/><path class=\"gk ol\" d=\"M300 40 C310 20 340 20 350 40 C365 45 355 60 340 58 C330 66 312 62 305 55 C290 55 290 42 300 40 Z\"/><path class=\"gt ol\" d=\"M0 240 H400 V300 H0 Z\"/><text class=\"tb\" x=\"135\" y=\"275\" text-anchor=\"middle\">wulkan tarczowy</text><text class=\"tb\" x=\"323\" y=\"275\" text-anchor=\"middle\">stratowulkan</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 80,
+       "y": 200,
+       "lx": 105,
+       "ly": 150,
+       "n": "Łagodne stoki",
+       "d": "Rzadka lawa bazaltowa rozlewa się szeroko (Mauna Loa)"
+      },
+      {
+       "x": 300,
+       "y": 140,
+       "lx": 230,
+       "ly": 110,
+       "n": "Warstwy lawy i popiołów",
+       "d": "Lepka lawa i materiał piroklastyczny na zmianę"
+      },
+      {
+       "x": 325,
+       "y": 45,
+       "lx": 260,
+       "ly": 30,
+       "n": "Chmura erupcyjna",
+       "d": "Wybuchowe erupcje — popioły, lawiny piroklastyczne"
+      },
+      {
+       "x": 150,
+       "y": 200,
+       "lx": 200,
+       "ly": 200,
+       "n": "Komin",
+       "d": "Droga magmy z ogniska do krateru"
+      }
+     ]
+    },
+    {
      "id": "s64a3b173",
      "typ": "rysunek",
      "tytul": "Subdukcja na granicy płyt",
@@ -2659,6 +2702,49 @@
        "ly": 170,
        "n": "Skrót cyklu",
        "d": "Każda skała może zostać przeobrażona lub zwietrzała bez przejścia całego cyklu"
+      }
+     ]
+    },
+    {
+     "id": "s31fbcd05",
+     "typ": "rysunek",
+     "tytul": "Skala twardości Mohsa",
+     "opis": "Dziesięć minerałów wzorcowych skali Mohsa (skala porządkowa, nie liniowa) — rysunek autorski IndexLab.",
+     "uwaga": "Skala Mohsa jest względna: każdy minerał rysuje te o niższym numerze. Różnica twardości między korundem (9) a diamentem (10) jest wielokrotnie większa niż między talkiem a gipsem.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gp ol\" x=\"20\" y=\"232\" width=\"30\" height=\"18\"/><text class=\"tb\" x=\"35\" y=\"227\" text-anchor=\"middle\">1</text><text class=\"ts\" x=\"35\" y=\"265\" text-anchor=\"middle\">talk</text><rect class=\"gp ol\" x=\"57\" y=\"212\" width=\"30\" height=\"38\"/><text class=\"tb\" x=\"72\" y=\"207\" text-anchor=\"middle\">2</text><text class=\"ts\" x=\"72\" y=\"279\" text-anchor=\"middle\">gips</text><rect class=\"gc ol\" x=\"94\" y=\"192\" width=\"30\" height=\"58\"/><text class=\"tb\" x=\"109\" y=\"187\" text-anchor=\"middle\">3</text><text class=\"ts\" x=\"109\" y=\"265\" text-anchor=\"middle\">kalcyt</text><rect class=\"gc ol\" x=\"131\" y=\"172\" width=\"30\" height=\"78\"/><text class=\"tb\" x=\"146\" y=\"167\" text-anchor=\"middle\">4</text><text class=\"ts\" x=\"146\" y=\"279\" text-anchor=\"middle\">fluoryt</text><rect class=\"gc ol\" x=\"168\" y=\"152\" width=\"30\" height=\"98\"/><text class=\"tb\" x=\"183\" y=\"147\" text-anchor=\"middle\">5</text><text class=\"ts\" x=\"183\" y=\"265\" text-anchor=\"middle\">apatyt</text><rect class=\"gs2 ol\" x=\"205\" y=\"132\" width=\"30\" height=\"118\"/><text class=\"tb\" x=\"220\" y=\"127\" text-anchor=\"middle\">6</text><text class=\"ts\" x=\"220\" y=\"279\" text-anchor=\"middle\">ortoklaz</text><rect class=\"gs2 ol\" x=\"242\" y=\"112\" width=\"30\" height=\"138\"/><text class=\"tb\" x=\"257\" y=\"107\" text-anchor=\"middle\">7</text><text class=\"ts\" x=\"257\" y=\"265\" text-anchor=\"middle\">kwarc</text><rect class=\"gs2 ol\" x=\"279\" y=\"92\" width=\"30\" height=\"158\"/><text class=\"tb\" x=\"294\" y=\"87\" text-anchor=\"middle\">8</text><text class=\"ts\" x=\"294\" y=\"279\" text-anchor=\"middle\">topaz</text><rect class=\"gi ol\" x=\"316\" y=\"72\" width=\"30\" height=\"178\"/><text class=\"tb\" x=\"331\" y=\"67\" text-anchor=\"middle\">9</text><text class=\"ts\" x=\"331\" y=\"265\" text-anchor=\"middle\">korund</text><rect class=\"gi ol\" x=\"353\" y=\"52\" width=\"30\" height=\"198\"/><text class=\"tb\" x=\"368\" y=\"47\" text-anchor=\"middle\">10</text><text class=\"ts\" x=\"368\" y=\"279\" text-anchor=\"middle\">diament</text><path class=\"s\" d=\"M15 250 H390\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 35,
+       "y": 225,
+       "lx": 60,
+       "ly": 150,
+       "n": "Paznokieć (ok. 2,5)",
+       "d": "Zarysuje talk i gips"
+      },
+      {
+       "x": 220,
+       "y": 120,
+       "lx": 245,
+       "ly": 95,
+       "n": "Nóż stalowy (ok. 5,5)",
+       "d": "Zarysuje minerały do apatytu"
+      },
+      {
+       "x": 257,
+       "y": 115,
+       "lx": 300,
+       "ly": 60,
+       "n": "Kwarc (7)",
+       "d": "Rysuje szkło; główny składnik piasku"
+      },
+      {
+       "x": 368,
+       "y": 52,
+       "lx": 330,
+       "ly": 25,
+       "n": "Diament (10)",
+       "d": "Najtwardszy minerał naturalny"
       }
      ]
     }

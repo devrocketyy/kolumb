@@ -3413,6 +3413,65 @@
      ]
     },
     {
+     "id": "sa7348583",
+     "typ": "rysunek",
+     "tytul": "Model stacji na mapie synoptycznej",
+     "opis": "Uproszczony model zapisu danych stacji meteorologicznej na mapie synoptycznej — rysunek autorski IndexLab.",
+     "uwaga": "Różnica temperatury i punktu rosy mówi o wilgotności: im mniejsza, tym powietrze bliższe nasycenia (mgła, opady). Kierunek wiatru odczytujesz od końca trzonu do kółka.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><circle class=\"s\" cx=\"200\" cy=\"150\" r=\"22\" style=\"fill:none;stroke-width:2\"/><path class=\"d\" d=\"M200 150 L200 128 A22 22 0 0 1 222 150 Z\"/><path class=\"s\" d=\"M215 135 L275 75\" style=\"stroke-width:2\"/><path class=\"s\" d=\"M275 75 L295 85 M265 85 L282 93\" style=\"stroke-width:2\"/><text class=\"tb\" x=\"150\" y=\"130\" text-anchor=\"end\">18</text><text class=\"tb\" x=\"150\" y=\"182\" text-anchor=\"end\">12</text><text class=\"tb\" x=\"245\" y=\"182\">1012</text><text class=\"tb\" x=\"140\" y=\"157\" text-anchor=\"end\">≡</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 150,
+       "y": 125,
+       "lx": 175,
+       "ly": 90,
+       "n": "Temperatura",
+       "d": "Lewy górny róg — temperatura powietrza w °C"
+      },
+      {
+       "x": 150,
+       "y": 177,
+       "lx": 175,
+       "ly": 220,
+       "n": "Punkt rosy",
+       "d": "Lewy dolny róg — temperatura punktu rosy"
+      },
+      {
+       "x": 245,
+       "y": 177,
+       "lx": 320,
+       "ly": 220,
+       "n": "Ciśnienie",
+       "d": "Prawy dolny róg — ciśnienie w hPa"
+      },
+      {
+       "x": 210,
+       "y": 140,
+       "lx": 300,
+       "ly": 120,
+       "n": "Zachmurzenie",
+       "d": "Wypełnienie kółka w oktantach (tu ok. 2/8)"
+      },
+      {
+       "x": 270,
+       "y": 80,
+       "lx": 330,
+       "ly": 40,
+       "n": "Wiatr",
+       "d": "Trzon wskazuje, skąd wieje (tu z NE); kreski — prędkość"
+      },
+      {
+       "x": 138,
+       "y": 153,
+       "lx": 163,
+       "ly": 160,
+       "n": "Zjawisko",
+       "d": "Symbol pogody, np. ≡ — mgła"
+      }
+     ]
+    },
+    {
      "id": "s9c897ea8",
      "typ": "rysunek",
      "tytul": "Niż baryczny w planie",
