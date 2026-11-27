@@ -1204,6 +1204,92 @@
      ]
     },
     {
+     "id": "sdabb902f",
+     "typ": "rysunek",
+     "tytul": "Powstawanie atolu (teoria Darwina)",
+     "opis": "Etapy przekształcania wyspy wulkanicznej w atol — rysunek autorski IndexLab.",
+     "uwaga": "Koralowce żyją tylko w ciepłej, płytkiej i przejrzystej wodzie, dlatego rosną ku górze, gdy dno osiada. Atole są typowe dla Pacyfiku i Oceanu Indyjskiego (Malediwy).",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gw\" x=\"0\" y=\"140\" width=\"400\" height=\"160\"/><path class=\"gs ol\" d=\"M15 290 L58 40 L82 40 L125 290 Z\"/><path class=\"gc ol\" d=\"M30 140 h14 v10 h-14 Z M96 140 h14 v10 h-14 Z\"/><path class=\"gs ol\" d=\"M145 290 L188 85 L212 85 L255 290 Z\"/><path class=\"gc ol\" d=\"M160 140 h14 v10 h-14 Z M226 140 h14 v10 h-14 Z\"/><path class=\"gs ol\" d=\"M275 290 L318 170 L342 170 L385 290 Z\"/><path class=\"gc ol\" d=\"M290 140 h14 v10 h-14 Z M356 140 h14 v10 h-14 Z\"/><path class=\"gc ol\" d=\"M288 130 h18 v12 h-18 Z M354 130 h18 v12 h-18 Z\"/><text class=\"ts\" x=\"70\" y=\"292\" text-anchor=\"middle\">1</text><text class=\"ts\" x=\"200\" y=\"292\" text-anchor=\"middle\">2</text><text class=\"ts\" x=\"330\" y=\"292\" text-anchor=\"middle\">3</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 70,
+       "y": 60,
+       "lx": 120,
+       "ly": 30,
+       "n": "Wyspa wulkaniczna",
+       "d": "Rafa obrzeżająca rośnie przy brzegu"
+      },
+      {
+       "x": 200,
+       "y": 110,
+       "lx": 240,
+       "ly": 70,
+       "n": "Wulkan osiada",
+       "d": "Wyspa się zanurza, rafa rośnie ku górze — rafa barierowa"
+      },
+      {
+       "x": 330,
+       "y": 150,
+       "lx": 280,
+       "ly": 230,
+       "n": "Laguna",
+       "d": "Wulkan pod wodą — w środku płytka laguna"
+      },
+      {
+       "x": 300,
+       "y": 135,
+       "lx": 350,
+       "ly": 95,
+       "n": "Atol",
+       "d": "Pierścień raf wystający nad poziom morza"
+      }
+     ]
+    },
+    {
+     "id": "s7b248a3e",
+     "typ": "rysunek",
+     "tytul": "Pływy syzygijne i kwadraturowe",
+     "opis": "Uproszczony układ Słońce–Ziemia–Księżyc (bez skali) i kształt „garbu” pływowego — rysunek autorski IndexLab.",
+     "uwaga": "Pływy syzygijne występują dwa razy w miesiącu (nów i pełnia), kwadraturowe — w pierwszej i ostatniej kwadrze. W Bałtyku pływy są bardzo małe (kilka cm).",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><circle class=\"hotf\" cx=\"30\" cy=\"80\" r=\"22\"/><circle class=\"hotf\" cx=\"30\" cy=\"225\" r=\"22\"/><ellipse class=\"gw ol\" cx=\"190\" cy=\"80\" rx=\"48\" ry=\"36\"/><circle class=\"gl ol\" cx=\"190\" cy=\"80\" r=\"26\"/><circle class=\"gs2 ol\" cx=\"300\" cy=\"80\" r=\"10\"/><ellipse class=\"gw ol\" cx=\"190\" cy=\"225\" rx=\"36\" ry=\"46\"/><circle class=\"gl ol\" cx=\"190\" cy=\"225\" r=\"26\"/><circle class=\"gs2 ol\" cx=\"190\" cy=\"160\" r=\"10\"/><path class=\"dash\" d=\"M52 80 H290\"/><path class=\"dash\" d=\"M52 225 H160 M190 199 V170\"/><text class=\"tb\" x=\"390\" y=\"18\" text-anchor=\"end\">pływy syzygijne (nów, pełnia)</text><text class=\"tb\" x=\"390\" y=\"270\" text-anchor=\"end\">pływy kwadraturowe (kwadry)</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 300,
+       "y": 80,
+       "lx": 275,
+       "ly": 120,
+       "n": "Księżyc w linii",
+       "d": "Przyciąganie Księżyca i Słońca sumuje się — największe pływy"
+      },
+      {
+       "x": 190,
+       "y": 160,
+       "lx": 165,
+       "ly": 170,
+       "n": "Księżyc pod kątem 90°",
+       "d": "Siły częściowo się znoszą — najmniejsze pływy"
+      },
+      {
+       "x": 238,
+       "y": 80,
+       "lx": 270,
+       "ly": 45,
+       "n": "Wybrzuszenie wody",
+       "d": "Ocean wydłużony wzdłuż linii przyciągania"
+      },
+      {
+       "x": 30,
+       "y": 80,
+       "lx": 60,
+       "ly": 30,
+       "n": "Słońce",
+       "d": "Wpływ ok. 2 razy słabszy niż Księżyca"
+      }
+     ]
+    },
+    {
      "id": "s68b5883f",
      "typ": "rysunek",
      "tytul": "Prądy morskie Atlantyku Północnego",

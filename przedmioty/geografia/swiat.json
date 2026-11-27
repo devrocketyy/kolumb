@@ -1290,6 +1290,43 @@
      "wyjasnienie": "Otoczone przez RPA.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s0edc9620",
+     "typ": "rysunek",
+     "tytul": "Enklawa i eksklawa (schemat)",
+     "opis": "Schemat dwóch pojęć terytorialnych (państwa umowne) — rysunek autorski IndexLab.",
+     "uwaga": "Ten sam obszar może być jednocześnie enklawą (z punktu widzenia państwa, które go otacza) i eksklawą (z punktu widzenia państwa, do którego należy).",
+     "svg": "<rect class=\"gw\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gl ol\" d=\"M20 40 H230 V270 H20 Z\"/><path class=\"gt ol\" d=\"M100 110 H160 V170 H100 Z\"/><path class=\"gt ol\" d=\"M250 40 H380 V200 H250 Z\"/><path class=\"gl ol\" d=\"M300 230 H370 V280 H300 Z\"/><text class=\"tb\" x=\"60\" y=\"60\">państwo A</text><text class=\"tb\" x=\"275\" y=\"60\">państwo B</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 130,
+       "y": 140,
+       "lx": 155,
+       "ly": 210,
+       "n": "Enklawa",
+       "d": "Obszar państwa B otoczony całkowicie przez państwo A (np. San Marino, Lesotho)"
+      },
+      {
+       "x": 335,
+       "y": 255,
+       "lx": 260,
+       "ly": 285,
+       "n": "Eksklawa",
+       "d": "Część państwa A oddzielona od niego (np. Obwód Królewiecki Rosji)"
+      },
+      {
+       "x": 315,
+       "y": 120,
+       "lx": 300,
+       "ly": 150,
+       "n": "Główne terytorium B",
+       "d": "Dla B obszar w środku A jest eksklawą"
+      }
+     ]
+    }
    ]
   },
   {
@@ -2752,6 +2789,43 @@
      "poprawna": "A",
      "wyjasnienie": "Jeden z najwyższych na świecie.",
      "zrodlo": "Zadanie autorskie IndexLab"
+    }
+   ],
+   "schematy": [
+    {
+     "id": "s4e89b61b",
+     "typ": "rysunek",
+     "tytul": "Struktura PKB według sektorów a poziom rozwoju",
+     "opis": "Modelowa struktura PKB (wartości przybliżone, typowe) — wykres autorski IndexLab.",
+     "uwaga": "Wraz z rozwojem maleje udział rolnictwa w PKB, najpierw rośnie, a potem maleje udział przemysłu, a usługi stają się dominujące (model trzech sektorów Fishera–Clarka).",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gt ol\" x=\"50\" y=\"180\" width=\"80\" height=\"70\"/><text class=\"tb\" x=\"90\" y=\"219\" text-anchor=\"middle\">35%</text><rect class=\"gs2 ol\" x=\"50\" y=\"140\" width=\"80\" height=\"40\"/><text class=\"tb\" x=\"90\" y=\"164\" text-anchor=\"middle\">20%</text><rect class=\"gw2 ol\" x=\"50\" y=\"50\" width=\"80\" height=\"90\"/><text class=\"tb\" x=\"90\" y=\"99\" text-anchor=\"middle\">45%</text><text class=\"ts\" x=\"90\" y=\"268\" text-anchor=\"middle\">słabo rozwinięty</text><rect class=\"gt ol\" x=\"165\" y=\"230\" width=\"80\" height=\"20\"/><text class=\"tb\" x=\"205\" y=\"244\" text-anchor=\"middle\">10%</text><rect class=\"gs2 ol\" x=\"165\" y=\"160\" width=\"80\" height=\"70\"/><text class=\"tb\" x=\"205\" y=\"199\" text-anchor=\"middle\">35%</text><rect class=\"gw2 ol\" x=\"165\" y=\"50\" width=\"80\" height=\"110\"/><text class=\"tb\" x=\"205\" y=\"109\" text-anchor=\"middle\">55%</text><text class=\"ts\" x=\"205\" y=\"268\" text-anchor=\"middle\">średnio rozwinięty</text><rect class=\"gt ol\" x=\"280\" y=\"248\" width=\"80\" height=\"2\"/><rect class=\"gs2 ol\" x=\"280\" y=\"204\" width=\"80\" height=\"44\"/><text class=\"tb\" x=\"320\" y=\"230\" text-anchor=\"middle\">22%</text><rect class=\"gw2 ol\" x=\"280\" y=\"50\" width=\"80\" height=\"154\"/><text class=\"tb\" x=\"320\" y=\"131\" text-anchor=\"middle\">77%</text><text class=\"ts\" x=\"320\" y=\"268\" text-anchor=\"middle\">wysoko rozwinięty</text><path class=\"s\" d=\"M40 250 H380\"/><rect class=\"gt ol\" x=\"40\" y=\"280\" width=\"10\" height=\"10\"/><text class=\"ts\" x=\"54\" y=\"289\">rolnictwo</text><rect class=\"gs2 ol\" x=\"140\" y=\"280\" width=\"10\" height=\"10\"/><text class=\"ts\" x=\"154\" y=\"289\">przemysł</text><rect class=\"gw2 ol\" x=\"230\" y=\"280\" width=\"10\" height=\"10\"/><text class=\"ts\" x=\"244\" y=\"289\">usługi</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 90,
+       "y": 215,
+       "lx": 115,
+       "ly": 170,
+       "n": "Duży udział rolnictwa",
+       "d": "Typowe dla krajów słabo rozwiniętych (np. Czad, Etiopia)"
+      },
+      {
+       "x": 205,
+       "y": 165,
+       "lx": 240,
+       "ly": 40,
+       "n": "Wzrost przemysłu",
+       "d": "Industrializacja krajów średnio rozwiniętych (np. Chiny, Indonezja)"
+      },
+      {
+       "x": 320,
+       "y": 120,
+       "lx": 295,
+       "ly": 22,
+       "n": "Dominacja usług",
+       "d": "Kraje wysoko rozwinięte (USA, Wielka Brytania)"
+      }
+     ]
     }
    ]
   }

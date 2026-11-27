@@ -1190,6 +1190,41 @@
      ]
     },
     {
+     "id": "s4eaabdaf",
+     "typ": "rysunek",
+     "tytul": "Elektrownia szczytowo-pompowa — zasada działania",
+     "opis": "Schemat działania elektrowni szczytowo-pompowej (np. Żarnowiec, Porąbka-Żar) — rysunek autorski IndexLab.",
+     "uwaga": "Elektrownia zużywa więcej energii na pompowanie, niż potem oddaje, ale przenosi ją w czasie — z nocy (tania, nadwyżki) na szczyt zapotrzebowania. Ważna przy rozwoju wiatru i fotowoltaiki.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gt ol\" d=\"M0 300 V100 H140 C200 100 230 250 300 250 H400 V300 Z\"/><path class=\"gw ol\" d=\"M20 100 H130 V80 H20 Z\"/><path class=\"gw ol\" d=\"M290 250 H390 V230 H290 Z\"/><path class=\"s\" d=\"M130 95 C190 110 230 230 290 245\" style=\"fill:none;stroke-width:4\"/><rect class=\"gs2 ol\" x=\"250\" y=\"215\" width=\"30\" height=\"20\"/><path class=\"cold\" d=\"M160.0 120.0 L220.0 200.0\"/><path class=\"cold\" d=\"M214.0 196.5 L220.0 200.0 L218.3 193.2\"/><path class=\"hot\" d=\"M235.0 175.0 L175.0 95.0\"/><path class=\"hot\" d=\"M181.0 98.5 L175.0 95.0 L176.7 101.8\"/><text class=\"ts\" x=\"215\" y=\"150\">szczyt — produkcja</text><text class=\"ts\" x=\"120\" y=\"160\" text-anchor=\"end\">noc — pompowanie</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 75,
+       "y": 90,
+       "lx": 100,
+       "ly": 40,
+       "n": "Zbiornik górny",
+       "d": "Magazyn energii w postaci wody na wysokości"
+      },
+      {
+       "x": 340,
+       "y": 240,
+       "lx": 330,
+       "ly": 200,
+       "n": "Zbiornik dolny",
+       "d": "Woda spływa tu w czasie szczytu"
+      },
+      {
+       "x": 265,
+       "y": 225,
+       "lx": 240,
+       "ly": 160,
+       "n": "Turbiny-pompy",
+       "d": "W dzień produkują prąd, w nocy pompują wodę w górę"
+      }
+     ]
+    },
+    {
      "id": "sb5e92dc9",
      "typ": "proces",
      "tytul": "Wybór lokalizacji elektrowni",
