@@ -3660,6 +3660,36 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
     },
     {
+     "id": "fb7f85998",
+     "przod": "Czym się różni raster od wektora?",
+     "tyl": "Raster — siatka pikseli z wartościami; wektor — punkty, linie, poligony z atrybutami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f76132bae",
+     "przod": "Czym się różni NMT od NMPT?",
+     "tyl": "NMT — powierzchnia gruntu; NMPT — z budynkami i drzewami.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "fc542699a",
+     "przod": "Czym się różni ortofotomapa od zdjęcia lotniczego?",
+     "tyl": "Ortofotomapa jest przetworzona do skali mapy (bez zniekształceń perspektywy).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f04136e1e",
+     "przod": "Czym się różni mapa od planu?",
+     "tyl": "Plan — bardzo duża skala, mały obszar, pomija krzywiznę Ziemi; mapa — mniejsza skala, uwzględnia odwzorowanie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
+     "id": "f68fe0acf",
+     "przod": "Czym się różni teledetekcja aktywna od pasywnej?",
+     "tyl": "Aktywna wysyła własny sygnał (radar, LIDAR); pasywna rejestruje promieniowanie odbite lub emitowane (zdjęcia).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.5–6"
+    },
+    {
      "id": "f8863758a",
      "przod": "Rozpoznaj: Skanowanie laserowe z samolotu — bardzo dokładny model wysokości terenu, także pod lasem.",
      "tyl": "Lidar",
@@ -4160,6 +4190,45 @@
      ],
      "poprawna": "C",
      "wyjasnienie": "Seria czasowa.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p8ef3eecd",
+     "pytanie": "Dane z budynkami i drzewami zawiera:",
+     "odpowiedzi": [
+      "ortofotomapa",
+      "NMPT",
+      "NMT",
+      "mapa wektorowa"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Pokrycie.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p4bc66d00",
+     "pytanie": "Teledetekcją aktywną jest:",
+     "odpowiedzi": [
+      "zdjęcie satelitarne",
+      "LIDAR",
+      "zdjęcie lotnicze",
+      "termowizja pasywna"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Własny sygnał.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p41c26267",
+     "pytanie": "Siatka pikseli z wartościami to model:",
+     "odpowiedzi": [
+      "wektorowy",
+      "liniowy",
+      "tabelaryczny",
+      "rastrowy"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "Raster.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
