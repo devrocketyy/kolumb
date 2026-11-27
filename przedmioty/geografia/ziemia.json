@@ -1920,6 +1920,59 @@
      "wyjasnienie": "90 − 90 + 23°27′.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s4b67db46",
+     "typ": "rysunek",
+     "tytul": "Drogi Słońca nad horyzontem na 52°N",
+     "opis": "Pozorne dobowe drogi Słońca w Polsce w dniach przesileń i równonocy (rysunek autorski IndexLab).",
+     "uwaga": "Im wyżej Słońce góruje, tym dłuższa jest jego droga nad horyzontem i dłuższy dzień. Latem w Polsce Słońce wschodzi na NE i zachodzi na NW, zimą — na SE i SW.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gt ol\" d=\"M0 230 H400 V300 H0 Z\"/><path class=\"hot\" fill=\"none\" d=\"M45 230 Q200 -90 355 230\" style=\"stroke-width:2.2\"/><circle class=\"hotf\" cx=\"200\" cy=\"70\" r=\"7\"/><text class=\"ts\" x=\"210\" y=\"61\">22 VI · 61,5°</text><path class=\"s\" fill=\"none\" d=\"M95 230 Q200 32 305 230\" style=\"stroke-width:2.2\"/><circle class=\"gs2\" cx=\"200\" cy=\"131\" r=\"7\"/><text class=\"ts\" x=\"210\" y=\"122\">21 III / 23 IX · 38°</text><path class=\"cold\" fill=\"none\" d=\"M145 230 Q200 155 255 230\" style=\"stroke-width:2.2\"/><circle class=\"coldf\" cx=\"200\" cy=\"192\" r=\"7\"/><text class=\"ts\" x=\"210\" y=\"183\">22 XII · 14,5°</text><path class=\"dash\" d=\"M200 230 V40\"/><text class=\"tb\" x=\"45\" y=\"250\" text-anchor=\"middle\">NE</text><text class=\"tb\" x=\"95\" y=\"250\" text-anchor=\"middle\">E</text><text class=\"tb\" x=\"145\" y=\"250\" text-anchor=\"middle\">SE</text><text class=\"tb\" x=\"200\" y=\"250\" text-anchor=\"middle\">S</text><text class=\"tb\" x=\"255\" y=\"250\" text-anchor=\"middle\">SW</text><text class=\"tb\" x=\"305\" y=\"250\" text-anchor=\"middle\">W</text><text class=\"tb\" x=\"355\" y=\"250\" text-anchor=\"middle\">NW</text><text class=\"ts\" x=\"200\" y=\"285\" text-anchor=\"middle\">widok na południe · horyzont</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 45,
+       "y": 230,
+       "lx": 70,
+       "ly": 205,
+       "n": "Wschód latem",
+       "d": "22 VI Słońce wschodzi na NE — dzień ok. 16,5 h"
+      },
+      {
+       "x": 200,
+       "y": 70,
+       "lx": 120,
+       "ly": 55,
+       "n": "Górowanie letnie",
+       "d": "90° − 52° + 23°26′ ≈ 61,5°"
+      },
+      {
+       "x": 95,
+       "y": 230,
+       "lx": 120,
+       "ly": 270,
+       "n": "Wschód w równonoc",
+       "d": "Dokładnie na E, dzień = noc (12 h)"
+      },
+      {
+       "x": 200,
+       "y": 192,
+       "lx": 175,
+       "ly": 175,
+       "n": "Górowanie zimowe",
+       "d": "90° − 52° − 23°26′ ≈ 14,5°; dzień ok. 7,5 h"
+      },
+      {
+       "x": 200,
+       "y": 150,
+       "lx": 175,
+       "ly": 120,
+       "n": "Południe słoneczne",
+       "d": "Słońce zawsze góruje dokładnie na S"
+      }
+     ]
+    }
    ]
   }
  ]

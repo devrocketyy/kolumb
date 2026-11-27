@@ -576,6 +576,57 @@
    ],
    "schematy": [
     {
+     "id": "sf3e486c1",
+     "typ": "rysunek",
+     "tytul": "Lej depresyjny wokół kopalni odkrywkowej",
+     "opis": "Przekrój przez odkrywkę węgla brunatnego (np. Bełchatów) z rysunkiem autorskim IndexLab.",
+     "uwaga": "Lej depresyjny powiększa się wraz z pogłębianiem wyrobiska. Skutki: zanik studni, przesuszenie gleb i lasów, osiadanie terenu. Po zakończeniu wydobycia wyrobisko zalewa się (np. jezioro Bełchatów).",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gg ol\" d=\"M0 90 H140 L165 175 H235 L260 90 H400 V300 H0 Z\"/><path class=\"gs ol\" d=\"M0 250 H400 V300 H0 Z\"/><path class=\"gw2\" d=\"M0 120 C70 122 120 150 160 195 H240 C280 150 330 122 400 120 V250 H0 Z\" style=\"opacity:.55\"/><path class=\"cold\" d=\"M0 120 C70 122 120 150 160 195 H240 C280 150 330 122 400 120\" style=\"stroke-width:2.2\"/><path class=\"dash\" d=\"M0 108 H400\"/><path class=\"gm2 ol\" d=\"M175 160 h50 v15 h-50 Z\"/><rect class=\"gs2 ol\" x=\"196\" y=\"120\" width=\"8\" height=\"70\"/><path class=\"cold\" d=\"M200.0 125.0 L200.0 70.0\"/><path class=\"cold\" d=\"M202.7 76.4 L200.0 70.0 L197.3 76.4\"/><text class=\"ts\" x=\"392\" y=\"290\" text-anchor=\"end\">skała nieprzepuszczalna</text><rect class=\"gs2 ol\" x=\"50\" y=\"70\" width=\"6\" height=\"22\"/><path class=\"s\" d=\"M53 70 v-10\"/><rect class=\"gs2 ol\" x=\"340\" y=\"70\" width=\"6\" height=\"22\"/><path class=\"s\" d=\"M343 70 v-10\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 168,
+       "lx": 290,
+       "ly": 40,
+       "n": "Pokład węgla",
+       "d": "Złoże pod wodonośnymi piaskami — trzeba je osuszyć"
+      },
+      {
+       "x": 200,
+       "y": 95,
+       "lx": 225,
+       "ly": 18,
+       "n": "Pompy odwadniające",
+       "d": "Studnie wypompowują wodę z wyrobiska"
+      },
+      {
+       "x": 130,
+       "y": 160,
+       "lx": 155,
+       "ly": 210,
+       "n": "Lej depresyjny",
+       "d": "Zwierciadło wód obniża się stożkowo ku odkrywce"
+      },
+      {
+       "x": 53,
+       "y": 85,
+       "lx": 78,
+       "ly": 135,
+       "n": "Wysychające studnie",
+       "d": "Studnie i mokradła w zasięgu leja tracą wodę"
+      },
+      {
+       "x": 300,
+       "y": 108,
+       "lx": 275,
+       "ly": 245,
+       "n": "Dawny poziom wód",
+       "d": "Przerywana linia — zwierciadło przed eksploatacją"
+      }
+     ]
+    },
+    {
      "id": "scce45d98",
      "typ": "proces",
      "tytul": "Efekt cieplarniany — łańcuch przyczyn i skutków",

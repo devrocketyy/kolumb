@@ -635,6 +635,100 @@
      ]
     },
     {
+     "id": "s2ea874a1",
+     "typ": "rysunek",
+     "tytul": "Fałd: antyklina i synklina",
+     "opis": "Przekrój przez sfałdowane warstwy skał osadowych (rysunek autorski IndexLab).",
+     "uwaga": "Fałdowanie to deformacja ciągła (warstwy nie pękają). Na mapie geologicznej antyklinę rozpoznasz po najstarszych skałach w osi, synklinę — po najmłodszych. Przykład w Polsce: Góry Świętokrzyskie, Pieniny, Karpaty fliszowe.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gs ol\" d=\"M0 150 C60 150 70 70 130 70 C190 70 200 230 270 230 C340 230 350 150 400 150 L400 178 C350 178 340 258 270 258 C200 258 190 98 130 98 C70 98 60 178 0 178 Z\"/><path class=\"gc ol\" d=\"M0 178 C60 178 70 98 130 98 C190 98 200 258 270 258 C340 258 350 178 400 178 L400 206 C350 206 340 286 270 286 C200 286 190 126 130 126 C70 126 60 206 0 206 Z\"/><path class=\"gp ol\" d=\"M0 206 C60 206 70 126 130 126 C190 126 200 286 270 286 C340 286 350 206 400 206 L400 234 C350 234 340 314 270 314 C200 314 190 154 130 154 C70 154 60 234 0 234 Z\"/><path class=\"gs2 ol\" d=\"M0 234 C60 234 70 154 130 154 C190 154 200 314 270 314 C340 314 350 234 400 234 L400 262 C350 262 340 342 270 342 C200 342 190 182 130 182 C70 182 60 262 0 262 Z\"/><path class=\"gl ol\" d=\"M0 150 C60 150 70 70 130 70 C190 70 200 230 270 230 C340 230 350 150 400 150 V0 H0 Z\" style=\"opacity:.0\"/><path class=\"dash\" d=\"M130 40 V290\"/><path class=\"dash\" d=\"M270 40 V290\"/><text class=\"tb\" x=\"130\" y=\"32\" text-anchor=\"middle\">oś antykliny</text><text class=\"tb\" x=\"270\" y=\"32\" text-anchor=\"middle\">oś synkliny</text><path class=\"s\" d=\"M20.0 280.0 L70.0 280.0\"/><path class=\"s\" d=\"M63.6 282.7 L70.0 280.0 L63.6 277.3\"/><path class=\"s\" d=\"M380.0 280.0 L330.0 280.0\"/><path class=\"s\" d=\"M336.4 277.3 L330.0 280.0 L336.4 282.7\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 130,
+       "y": 85,
+       "lx": 155,
+       "ly": 55,
+       "n": "Antyklina",
+       "d": "Siodło — warstwy wygięte ku górze; w jądrze najstarsze skały"
+      },
+      {
+       "x": 270,
+       "y": 245,
+       "lx": 330,
+       "ly": 80,
+       "n": "Synklina",
+       "d": "Łęk — warstwy wygięte w dół; w jądrze najmłodsze skały"
+      },
+      {
+       "x": 200,
+       "y": 160,
+       "lx": 230,
+       "ly": 120,
+       "n": "Skrzydło fałdu",
+       "d": "Nachylona część warstw między osiami"
+      },
+      {
+       "x": 45,
+       "y": 280,
+       "lx": 60,
+       "ly": 230,
+       "n": "Kompresja",
+       "d": "Ściskanie poziome przy zderzeniu płyt fałduje warstwy"
+      }
+     ]
+    },
+    {
+     "id": "s2d803c2e",
+     "typ": "rysunek",
+     "tytul": "Grzbiet śródoceaniczny i spreading",
+     "opis": "Przekrój przez granicę rozbieżną na dnie oceanu (rysunek autorski IndexLab).",
+     "uwaga": "Przykład: Grzbiet Śródatlantycki i Islandia. Symetryczne pasy wieku i namagnesowania skał po obu stronach grzbietu to dowód rozrastania się dna oceanicznego (spreadingu).",
+     "svg": "<rect class=\"gw\" x=\"0\" y=\"0\" width=\"400\" height=\"120\"/><path class=\"gm ol\" d=\"M0 300 V180 H400 V300 Z\"/><path class=\"gs ol\" d=\"M0 120 L0 180 L40 180 L40 120 Z\"/><path class=\"gs ol\" d=\"M400 120 L400 180 L360 180 L360 120 Z\"/><path class=\"gs2 ol\" d=\"M40 120 L40 180 L80 180 L80 120 Z\"/><path class=\"gs2 ol\" d=\"M360 120 L360 180 L320 180 L320 120 Z\"/><path class=\"gc ol\" d=\"M80 120 L80 180 L120 180 L120 120 Z\"/><path class=\"gc ol\" d=\"M320 120 L320 180 L280 180 L280 120 Z\"/><path class=\"gs2 ol\" d=\"M120 120 L120 180 L160 180 L160 120 Z\"/><path class=\"gs2 ol\" d=\"M280 120 L280 180 L240 180 L240 120 Z\"/><path class=\"gs ol\" d=\"M160 120 L160 180 L200 180 L200 120 Z\"/><path class=\"gs ol\" d=\"M240 120 L240 180 L200 180 L200 120 Z\"/><path class=\"gs ol\" d=\"M0 120 L170 110 L190 85 L200 100 L210 85 L230 110 L400 120 V122 H0 Z\"/><path class=\"gm2\" d=\"M195 180 L190 120 H210 L205 180 Z\"/><path class=\"hot\" fill=\"none\" d=\"M200 290 C200 240 200 220 200 185\"/><path class=\"hot\" fill=\"none\" d=\"M200 260 C150 255 90 240 60 210\"/><path class=\"hot\" fill=\"none\" d=\"M200 260 C250 255 310 240 340 210\"/><path class=\"s\" d=\"M150.0 150.0 L70.0 150.0\"/><path class=\"s\" d=\"M76.4 147.3 L70.0 150.0 L76.4 152.7\"/><path class=\"s\" d=\"M250.0 150.0 L330.0 150.0\"/><path class=\"s\" d=\"M323.6 152.7 L330.0 150.0 L323.6 147.3\"/><text class=\"ts\" x=\"8\" y=\"114\">ocean</text><text class=\"ts\" x=\"8\" y=\"296\">płaszcz (astenosfera)</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 92,
+       "lx": 260,
+       "ly": 50,
+       "n": "Ryft",
+       "d": "Dolina w osi grzbietu — tu powstaje nowa skorupa"
+      },
+      {
+       "x": 200,
+       "y": 150,
+       "lx": 290,
+       "ly": 205,
+       "n": "Magma",
+       "d": "Wypływa ze szczeliny i krzepnie jako bazalt"
+      },
+      {
+       "x": 100,
+       "y": 150,
+       "lx": 125,
+       "ly": 60,
+       "n": "Rozsuwanie płyt",
+       "d": "Płyty oddalają się o kilka cm rocznie"
+      },
+      {
+       "x": 60,
+       "y": 210,
+       "lx": 85,
+       "ly": 255,
+       "n": "Prądy konwekcyjne",
+       "d": "Rozbieżne prądy w płaszczu ciągną płyty na boki"
+      },
+      {
+       "x": 20,
+       "y": 150,
+       "lx": 110,
+       "ly": 210,
+       "n": "Najstarsze skały",
+       "d": "Wiek dna rośnie symetrycznie z odległością od ryftu"
+      }
+     ]
+    },
+    {
      "id": "s64a3b173",
      "typ": "rysunek",
      "tytul": "Subdukcja na granicy płyt",

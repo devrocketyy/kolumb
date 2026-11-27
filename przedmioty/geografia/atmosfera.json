@@ -1542,6 +1542,49 @@
      ]
     },
     {
+     "id": "s62f28282",
+     "typ": "rysunek",
+     "tytul": "Wiatr a izobary: siły kształtujące kierunek wiatru (półkula N)",
+     "opis": "Schemat sił działających na poruszające się powietrze (rysunek autorski IndexLab).",
+     "uwaga": "Na półkuli N, stojąc plecami do wiatru, niż masz po lewej (prawo Buys-Ballota). Im gęstsze izobary, tym większy gradient i silniejszy wiatr.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"s\" d=\"M20 50 C140 42 250 58 352 50\"/><text class=\"ts\" x=\"356\" y=\"54\">1000 hPa</text><path class=\"s\" d=\"M20 100 C140 92 250 108 352 100\"/><text class=\"ts\" x=\"356\" y=\"104\">1005 hPa</text><path class=\"s\" d=\"M20 150 C140 142 250 158 352 150\"/><text class=\"ts\" x=\"356\" y=\"154\">1010 hPa</text><path class=\"s\" d=\"M20 200 C140 192 250 208 352 200\"/><text class=\"ts\" x=\"356\" y=\"204\">1015 hPa</text><path class=\"s\" d=\"M20 250 C140 242 250 258 352 250\"/><text class=\"ts\" x=\"356\" y=\"254\">1020 hPa</text><text class=\"tb\" x=\"20\" y=\"30\">NIŻ (L)</text><text class=\"tb\" x=\"20\" y=\"290\">WYŻ (H)</text><path class=\"hot\" d=\"M110.0 230.0 L110.0 140.0\"/><path class=\"hot\" d=\"M112.7 146.4 L110.0 140.0 L107.3 146.4\"/><path class=\"cold\" d=\"M110.0 200.0 L190.0 200.0\"/><path class=\"cold\" d=\"M183.6 202.7 L190.0 200.0 L183.6 197.3\"/><path class=\"s\" d=\"M260.0 230.0 L320.0 170.0\"/><path class=\"s\" d=\"M317.4 176.5 L320.0 170.0 L313.5 172.6\"/><path class=\"s\" d=\"M250.0 120.0 L330.0 120.0\"/><path class=\"s\" d=\"M323.6 122.7 L330.0 120.0 L323.6 117.3\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 110,
+       "y": 150,
+       "lx": 135,
+       "ly": 110,
+       "n": "Siła gradientu",
+       "d": "Pcha powietrze od wyżu do niżu, prostopadle do izobar"
+      },
+      {
+       "x": 180,
+       "y": 200,
+       "lx": 170,
+       "ly": 245,
+       "n": "Siła Coriolisa",
+       "d": "Odchyla ruch w prawo na półkuli N"
+      },
+      {
+       "x": 300,
+       "y": 190,
+       "lx": 240,
+       "ly": 285,
+       "n": "Wiatr przyziemny",
+       "d": "Tarcie osłabia Coriolisa — wiatr przecina izobary pod kątem"
+      },
+      {
+       "x": 300,
+       "y": 120,
+       "lx": 295,
+       "ly": 80,
+       "n": "Wiatr geostroficzny",
+       "d": "Wysoko (bez tarcia) wieje równolegle do izobar"
+      }
+     ]
+    },
+    {
      "id": "s08685ccf",
      "typ": "rysunek",
      "tytul": "Bryza dzienna i nocna",
