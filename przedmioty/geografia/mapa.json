@@ -1906,6 +1906,72 @@
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
     },
     {
+     "id": "f7b23b0eb",
+     "przod": "Azymut geograficzny",
+     "tyl": "Kąt między kierunkiem północy geograficznej a kierunkiem do obiektu, mierzony zgodnie z ruchem wskazówek (0°–360°).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "ff8acb7f1",
+     "przod": "Biegun magnetyczny",
+     "tyl": "Punkt, w którym linie pola magnetycznego są pionowe; przesuwa się w czasie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f17e7e70e",
+     "przod": "Orientacja mapy w terenie",
+     "tyl": "Ustawienie mapy tak, by jej północ wskazywała północ w terenie (kompas, obiekty, Słońce).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f74dde11b",
+     "przod": "Wyznaczanie północy wg Słońca w południe",
+     "tyl": "W Polsce w południe słoneczne Słońce jest na południu, cień wskazuje północ.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fbd87cb46",
+     "przod": "Wyznaczanie kierunków za pomocą zegarka",
+     "tyl": "Wskazówkę godzinową kieruje się na Słońce; dwusieczna kąta z godz. 12 wskazuje południe (czas słoneczny).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f36f58300",
+     "przod": "Kierunki pośrednie — azymuty",
+     "tyl": "NE 45°, SE 135°, SW 225°, NW 315°.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f22777ac8",
+     "przod": "Róża kierunków",
+     "tyl": "16 kierunków: N, NNE, NE, ENE, E… (co 22,5°).",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f41668058",
+     "przod": "Kierunek NNW — azymut",
+     "tyl": "337,5°.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f75770f42",
+     "przod": "Pomiar azymutu na mapie",
+     "tyl": "Kątomierzem od północnej linii siatki (południka) do odcinka — zgodnie z ruchem wskazówek.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "f73e48799",
+     "przod": "Punkt widokowy a fotografia",
+     "tyl": "Kierunek zdjęcia ustala się porównując układ szczytów na zdjęciu i na mapie.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fda101b0b",
+     "przod": "Mech na drzewach jako wskazówka",
+     "tyl": "Zawodny — zależy od wilgotności i zacienienia, nie od kierunku.",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
      "id": "f54484475",
      "przod": "Rozpoznaj: Wskazówkę godzinową kieruje się na Słońce; dwusieczna kąta z „12” (latem z „1”) wskazuje południe.",
      "tyl": "Wyznaczanie północy zegarkiem",
@@ -1969,6 +2035,12 @@
      "id": "fd3497657",
      "przod": "Rozpoznaj: Poruszanie się w terenie w stałym kierunku wyznaczonym kompasem.",
      "tyl": "Marsz na azymut",
+     "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
+    },
+    {
+     "id": "fc21d4574",
+     "przod": "Rozpoznaj: Kątomierzem od północnej linii siatki (południka) do odcinka — zgodnie z ruchem wskazówek.",
+     "tyl": "Pomiar azymutu na mapie",
      "zrodlo": "Opracowanie IndexLab · Wymagania egzaminacyjne 2027, geografia (zakres rozszerzony), dz. I.4"
     }
    ],
@@ -2205,6 +2277,84 @@
      ],
      "poprawna": "D",
      "wyjasnienie": "W.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pfd733a9c",
+     "pytanie": "Azymut kierunku SE wynosi:",
+     "odpowiedzi": [
+      "315°",
+      "135°",
+      "45°",
+      "225°"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Pośrodku E i S.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "pac825773",
+     "pytanie": "Azymut wsteczny dla 300° wynosi:",
+     "odpowiedzi": [
+      "120°",
+      "60°",
+      "210°",
+      "30°"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "300 − 180.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p50c17e7d",
+     "pytanie": "Na mapie topograficznej poprawkę między północą magnetyczną a geograficzną nazywamy:",
+     "odpowiedzi": [
+      "zbieżność południków",
+      "azymut magnetyczny",
+      "inklinacja magnetyczna",
+      "deklinacja magnetyczna"
+     ],
+     "poprawna": "D",
+     "wyjasnienie": "W Polsce kilka stopni E.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p3a94262a",
+     "pytanie": "W południe słoneczne w Polsce cień wskazuje:",
+     "odpowiedzi": [
+      "zachód",
+      "południe",
+      "północ",
+      "wschód"
+     ],
+     "poprawna": "C",
+     "wyjasnienie": "Słońce na S.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "peeaac5f0",
+     "pytanie": "Gwiazdę Polarną odnajdziemy, przedłużając tylne gwiazdy:",
+     "odpowiedzi": [
+      "Wielkiego Wozu",
+      "Krzyża Południa",
+      "Kasjopei",
+      "Oriona"
+     ],
+     "poprawna": "A",
+     "wyjasnienie": "×5.",
+     "zrodlo": "Zadanie autorskie IndexLab"
+    },
+    {
+     "id": "p602e816e",
+     "pytanie": "Azymut 337,5° odpowiada kierunkowi:",
+     "odpowiedzi": [
+      "WNW",
+      "NNW",
+      "NNE",
+      "NW"
+     ],
+     "poprawna": "B",
+     "wyjasnienie": "Róża 16 kierunków.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
    ]
