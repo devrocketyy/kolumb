@@ -1,5 +1,6 @@
 // POST /functions/v1/ocen — ocena odpowiedzi otwartej przez AI według klucza i zasad oceniania CKE.
-// Body: { przedmiot, zadanie, polecenie, material?, klucz, zasady?, punkty, odpowiedz }
+// Body: { przedmiot, zadanie, polecenie, material?, klucz, zasady?, punkty, odpowiedz, matura? }
+//   matura — identyfikator sesji próbnej matury (opcjonalnie): oceny w jej ramach liczą się do limitu miesięcznego matur, nie do tygodniowego.
 // → { pkt, max, uzasadnienie, brakuje: string[], wskazowka, limit: { uzyte, max } }
 //
 // Model zależy od liczby punktów: zadania za 1 pkt ocenia tańszy model (Haiku), za 2+ pkt — Sonnet.
@@ -13,8 +14,10 @@
 //   OCENA_TRUDNE_PRZEDMIOTY — przedmioty zawsze na modelu „trudne”, np. „historia,wos” (domyślnie brak),
 //   OCENA_EFFORT          — low | medium | high (domyślnie low),
 //   OCENA_LIMITY          — JSON z limitami, domyślnie:
-//     {"darmowe":3,"1":{"dzien":4,"tydzien":12},"2":{"dzien":6,"tydzien":18},"3":{"dzien":7,"tydzien":20}}
-//     („darmowe” = łącznie na konto bez dostępu; klucze 1/2/3 = liczba kupionych przedmiotów, 3 = trzy i więcej lub pełny dostęp).
+//     {"darmowe":3,"1":{"tydzien":12,"matury":1},"2":{"tydzien":18,"matury":2},"3":{"tydzien":20,"matury":3},"naMature":30}
+//     „darmowe” = oceny zadań łącznie na konto bez dostępu (bez matur AI); klucze 1/2/3 = liczba kupionych przedmiotów
+//     (3 = trzy i więcej lub pełny dostęp): „tydzien” = oceny zadań w ostatnich 7 dniach, „matury” = próbne matury AI
+//     w miesiącu kalendarzowym; „naMature” = maks. liczba ocen w jednej próbnej maturze.
 // Wymaga migracji 008_ocena_ai.sql i 009_ocena_ai_limity.sql.
 import { createClient } from 'npm:@supabase/supabase-js@2.49.4';
 import Anthropic from 'npm:@anthropic-ai/sdk';
@@ -35,12 +38,13 @@ const MODEL_PROSTE = Deno.env.get('OCENA_MODEL_PROSTE') || 'claude-haiku-5-5';
 const MODEL_TRUDNE = Deno.env.get('OCENA_MODEL_TRUDNE') || Deno.env.get('OCENA_MODEL') || 'claude-sonnet-5-5';
 const PROG_PKT = Number(Deno.env.get('OCENA_PROG_PKT') || 2);
 const TRUDNE_PRZEDMIOTY = (Deno.env.get('OCENA_TRUDNE_PRZEDMIOTY') || '').split(',').map((x) => x.trim()).filter(Boolean);
-type Limit = { dzien: number; tydzien: number };
-const LIMITY: { darmowe: number } & Record<string, Limit> = {
+type Limit = { tydzien: number; matury: number };
+const LIMITY: { darmowe: number; naMature: number } & Record<string, Limit> = {
   darmowe: 3,
-  '1': { dzien: 4, tydzien: 12 },
-  '2': { dzien: 6, tydzien: 18 },
-  '3': { dzien: 7, tydzien: 20 },
+  naMature: 30,
+  '1': { tydzien: 12, matury: 1 },
+  '2': { tydzien: 18, matury: 2 },
+  '3': { tydzien: 20, matury: 3 },
   ...(() => { try { return JSON.parse(Deno.env.get('OCENA_LIMITY') || '{}'); } catch { return {}; } })(),
 };
 const PRZEDMIOTY = ['biologia', 'chemia', 'geografia', 'historia', 'wos'];
@@ -60,13 +64,22 @@ async function plan(uid: string, przedmiot: string) {
   return { poziom: Math.min(lista.size, 3), tenPrzedmiot: lista.has(przedmiot) };
 }
 
-const ile = async (uid: string, od?: Date, darmowe?: boolean) => {
+const ile = async (uid: string, od?: Date, darmowe?: boolean, sesja?: string | null) => {
   let q = admin.from('ocena_ai').select('id', { count: 'exact', head: true }).eq('user_id', uid);
   if (od) q = q.gte('created_at', od.toISOString());
   if (darmowe !== undefined) q = q.eq('darmowa', darmowe);
+  if (sesja === null) q = q.is('sesja', null);
+  else if (sesja) q = q.eq('sesja', sesja);
   const { count } = await q;
   return count ?? 0;
 };
+
+// Różne sesje próbnych matur AI rozpoczęte od początku miesiąca kalendarzowego.
+async function maturyWMiesiacu(uid: string) {
+  const m = new Date(); m.setUTCDate(1); m.setUTCHours(0, 0, 0, 0);
+  const { data } = await admin.from('ocena_ai').select('sesja').eq('user_id', uid).gte('created_at', m.toISOString()).not('sesja', 'is', null);
+  return new Set((data ?? []).map((r: { sesja: string }) => r.sesja));
+}
 
 const EFFORT = Deno.env.get('OCENA_EFFORT') || 'low';
 // Ustrukturyzowane wyjście: model zwraca gotowy JSON zgodny ze schematem.
@@ -98,26 +111,36 @@ Deno.serve(async (req) => {
     if (odpowiedz.length < 3) return json({ error: 'Najpierw wpisz swoją odpowiedź.' }, 400);
     if (!b.klucz) return json({ error: 'To zadanie nie ma klucza — oceń je samodzielnie.' }, 400);
 
-    // Limity: z dostępem do przedmiotu — dzienny i tygodniowy wg planu; bez dostępu — pula darmowa na całe konto.
+    // Limity wspólne na konto: oceny zadań — tygodniowo (ostatnie 7 dni), próbne matury AI — w miesiącu kalendarzowym.
+    // Bez dostępu do przedmiotu: darmowa pula ocen zadań na całe konto, bez matur AI.
+    const sesja = b.matura ? tnij(b.matura, 80) : null;
     const p = await plan(user.id, przedmiot);
     const darmowa = !p.tenPrzedmiot;
     let limit: Record<string, number>;
     if (darmowa) {
+      if (sesja) return json({ error: 'Próbna matura z oceną AI jest dostępna w planach Premium.' }, 403);
       const uzyte = await ile(user.id, undefined, true);
       limit = { uzyte, max: LIMITY.darmowe };
       if (uzyte >= LIMITY.darmowe) {
         return json({ error: p.poziom
           ? 'Ocena AI działa w przedmiotach z Twojego planu. Ten przedmiot możesz dokupić w zakładce Plany.'
-          : `Wykorzystano ${LIMITY.darmowe} darmowych ocen AI. Z dostępem Premium masz od ${LIMITY['1'].dzien} ocen dziennie.`, limit }, 429);
+          : `Wykorzystano ${LIMITY.darmowe} darmowe oceny AI. Z dostępem Premium masz od ${LIMITY['1'].tydzien} ocen tygodniowo.`, limit }, 429);
       }
+    } else if (sesja) {
+      const L = LIMITY[String(p.poziom)] ?? LIMITY['1'];
+      const matury = await maturyWMiesiacu(user.id);
+      if (!matury.has(sesja) && matury.size >= L.matury) {
+        return json({ error: `Wykorzystano miesięczny limit ${L.matury} ${L.matury === 1 ? 'próbnej matury' : 'próbnych matur'} z oceną AI. Nowy limit od 1. dnia miesiąca.`,
+          limit: { matury: matury.size, maxMatury: L.matury } }, 429);
+      }
+      const wSesji = await ile(user.id, undefined, undefined, sesja);
+      if (wSesji >= LIMITY.naMature) return json({ error: 'Ta próbna matura ma już ocenione wszystkie zadania.' }, 429);
+      limit = { matury: matury.size + (matury.has(sesja) ? 0 : 1), maxMatury: L.matury };
     } else {
       const L = LIMITY[String(p.poziom)] ?? LIMITY['1'];
-      const dzien = new Date(); dzien.setUTCHours(0, 0, 0, 0);
-      const tydzien = new Date(Date.now() - 7 * 864e5);
-      const [d, t] = await Promise.all([ile(user.id, dzien, false), ile(user.id, tydzien, false)]);
-      limit = { uzyte: d, max: L.dzien, tydzien: t, maxTydzien: L.tydzien };
-      if (d >= L.dzien) return json({ error: `Wykorzystano dzienny limit ${L.dzien} ocen AI. Wróć jutro.`, limit }, 429);
-      if (t >= L.tydzien) return json({ error: `Wykorzystano tygodniowy limit ${L.tydzien} ocen AI (ostatnie 7 dni).`, limit }, 429);
+      const t = await ile(user.id, new Date(Date.now() - 7 * 864e5), false, null);
+      limit = { tydzien: t, maxTydzien: L.tydzien };
+      if (t >= L.tydzien) return json({ error: `Wykorzystano tygodniowy limit ${L.tydzien} ocen AI. Limit odnawia się stopniowo — liczą się ostatnie 7 dni.`, limit }, 429);
     }
 
     const klucz = Deno.env.get('ANTHROPIC_API_KEY');
@@ -160,13 +183,13 @@ Deno.serve(async (req) => {
     if (!wynik) return json({ error: 'Nie udało się ocenić odpowiedzi. Spróbuj ponownie.' }, 502);
 
     const pkt = Math.max(0, Math.min(max, Math.round(Number(wynik.pkt) || 0)));
-    await admin.from('ocena_ai').insert({ user_id: user.id, przedmiot, zadanie: tnij(b.zadanie, 120), pkt, max, darmowa, model });
+    await admin.from('ocena_ai').insert({ user_id: user.id, przedmiot, zadanie: tnij(b.zadanie, 120), pkt, max, darmowa, model, sesja });
     return json({
       pkt, max,
       uzasadnienie: tnij(wynik.uzasadnienie, 1200),
       brakuje: Array.isArray(wynik.brakuje) ? wynik.brakuje.slice(0, 6).map((x: unknown) => tnij(x, 300)) : [],
       wskazowka: tnij(wynik.wskazowka, 600),
-      limit: { ...limit, uzyte: limit.uzyte + 1, ...(limit.tydzien !== undefined ? { tydzien: limit.tydzien + 1 } : {}) },
+      limit: { ...limit, ...(limit.uzyte !== undefined ? { uzyte: limit.uzyte + 1 } : {}), ...(limit.tydzien !== undefined ? { tydzien: limit.tydzien + 1 } : {}) },
     });
   } catch (e) {
     console.error(e);
