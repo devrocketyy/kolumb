@@ -35,24 +35,30 @@ def zbierz(przedmiot):
     # pomiń zadania zależne od rysunku/źródła, którego nie ma w danych
     ZALEZNE = re.compile(r'(ze|na) (schemacie|rysunku|mapie|wykresie|fotografii|ilustracji|planie)|litery? ze|źródł[aoue]m? \d|z (mapy|schematu|wykresu)', re.I)
     return [z for z in out if not ZAMKNIETE.search(z['polecenie']) and len(z['klucz']) > 25 and not (ZALEZNE.search(z['polecenie']) and len(z['material']) < 80)]
-wynik = []
+# tryb przyrostowy: zachowuje istniejące zadania (stabilne id), dolosowuje do N na przedmiot
+sciezka = os.path.join(os.path.dirname(__file__), 'zadania.json')
+stare = json.load(open(sciezka, encoding='utf-8')) if os.path.exists(sciezka) else []
+wynik = list(stare)
 for p in ['biologia', 'chemia', 'geografia', 'historia', 'wos']:
-    pula = zbierz(p)
+    mam = [z for z in stare if z['przedmiot'] == p]
+    uzyte = {(z['zrodlo'], z['nr']) for z in mam}
+    pula = [z for z in zbierz(p) if (z['zrodlo'], z['nr']) not in uzyte]
     for z in pula: z['typ'] = typ(z['polecenie'])
     random.shuffle(pula)
-    wybor, licz = [], {}
-    # kwoty: ok. 55% za 1 pkt, 35% za 2 pkt, reszta 3+; max 1/3 jednego typu
-    kw = {1: round(N * .5), 2: round(N * .35)}
+    licz_p = {k: sum(1 for z in mam if (1 if z['punkty'] == 1 else 2 if z['punkty'] == 2 else 3) == k) for k in (1, 2, 3)}
+    licz_t = {}
+    for z in mam: licz_t[z['typ']] = licz_t.get(z['typ'], 0) + 1
+    kw = {1: round(N * .45), 2: round(N * .35), 3: round(N * .2)}
+    nowe = []
     for z in pula:
+        if len(mam) + len(nowe) >= N: break
         k = 1 if z['punkty'] == 1 else 2 if z['punkty'] == 2 else 3
-        if k == 3: continue
-        if licz.get(('p', k), 0) >= kw.get(k, 0) or licz.get(('t', z['typ']), 0) >= N // 3: continue
-        licz[('p', k)] = licz.get(('p', k), 0) + 1; licz[('t', z['typ'])] = licz.get(('t', z['typ']), 0) + 1; wybor.append(z)
-    for z in pula:
-        if len(wybor) >= N: break
-        if z['punkty'] >= 3 and sum(1 for w in wybor if w['punkty'] >= 3) < N - kw[1] - kw[2] and z not in wybor: wybor.append(z)
-    for i, z in enumerate(wybor): z['id'] = f"{p[:3]}-{i+1:02d}"; z['czesc'] = 'robocza' if i % 4 else 'kontrolna'
-    print(p, len(pula), '->', len(wybor), {t: sum(1 for w in wybor if w['typ'] == t) for t in set(w['typ'] for w in wybor)})
-    wynik += wybor
-json.dump(wynik, open(os.path.join(os.path.dirname(__file__), 'zadania.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        if licz_p[k] >= kw[k] or licz_t.get(z['typ'], 0) >= N // 3: continue
+        licz_p[k] += 1; licz_t[z['typ']] = licz_t.get(z['typ'], 0) + 1; nowe.append(z)
+    nr = len(mam)
+    for z in nowe:
+        nr += 1; z['id'] = f"{p[:3]}-{nr:02d}"; z['czesc'] = 'robocza' if nr % 4 else 'kontrolna'
+    wynik += nowe
+    print(p, 'było', len(mam), '+', len(nowe))
+json.dump(wynik, open(sciezka, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print('razem', len(wynik))
