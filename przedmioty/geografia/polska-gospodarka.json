@@ -740,6 +740,59 @@
      "wyjasnienie": "Ok. 40%.",
      "zrodlo": "Zadanie autorskie IndexLab"
     }
+   ],
+   "schematy": [
+    {
+     "id": "s22afe77d",
+     "typ": "rysunek",
+     "tytul": "Piramida wieku i płci ludności Polski (ok. 2024)",
+     "opis": "Piramida autorska IndexLab na podstawie przybliżonych danych GUS (udział grup 5-letnich w %).",
+     "uwaga": "Kształt regresywny (zbliżony do urny): zwężona podstawa i liczne roczniki średnie. Skutki: starzenie się społeczeństwa, rosnące obciążenie emerytalne, w przyszłości spadek liczby ludności w wieku produkcyjnym.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><rect class=\"gw2 ol\" x=\"140.0\" y=\"262\" width=\"60.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"262\" width=\"57.0\" height=\"11\" style=\"opacity:.75\"/><text class=\"ts\" x=\"394\" y=\"271\" text-anchor=\"end\">0</text><rect class=\"gw2 ol\" x=\"122.0\" y=\"249\" width=\"78.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"249\" width=\"75.0\" height=\"11\" style=\"opacity:.75\"/><rect class=\"gw2 ol\" x=\"122.0\" y=\"236\" width=\"78.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"236\" width=\"75.0\" height=\"11\" style=\"opacity:.75\"/><text class=\"ts\" x=\"394\" y=\"245\" text-anchor=\"end\">10</text><rect class=\"gw2 ol\" x=\"128.0\" y=\"223\" width=\"72.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"223\" width=\"66.0\" height=\"11\" style=\"opacity:.75\"/><rect class=\"gw2 ol\" x=\"125.0\" y=\"210\" width=\"75.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"210\" width=\"69.0\" height=\"11\" style=\"opacity:.75\"/><text class=\"ts\" x=\"394\" y=\"219\" text-anchor=\"end\">20</text><rect class=\"gw2 ol\" x=\"113.0\" y=\"197\" width=\"87.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"197\" width=\"84.0\" height=\"11\" style=\"opacity:.75\"/><rect class=\"gw2 ol\" x=\"92.0\" y=\"184\" width=\"108.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"184\" width=\"105.0\" height=\"11\" style=\"opacity:.75\"/><text class=\"ts\" x=\"394\" y=\"193\" text-anchor=\"end\">30</text><rect class=\"gw2 ol\" x=\"77.0\" y=\"171\" width=\"123.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"171\" width=\"120.0\" height=\"11\" style=\"opacity:.75\"/><rect class=\"gw2 ol\" x=\"83.0\" y=\"158\" width=\"117.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"158\" width=\"114.0\" height=\"11\" style=\"opacity:.75\"/><text class=\"ts\" x=\"394\" y=\"167\" text-anchor=\"end\">40</text><rect class=\"gw2 ol\" x=\"101.0\" y=\"145\" width=\"99.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"145\" width=\"99.0\" height=\"11\" style=\"opacity:.75\"/><rect class=\"gw2 ol\" x=\"113.0\" y=\"132\" width=\"87.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"132\" width=\"90.0\" height=\"11\" style=\"opacity:.75\"/><text class=\"ts\" x=\"394\" y=\"141\" text-anchor=\"end\">50</text><rect class=\"gw2 ol\" x=\"119.0\" y=\"119\" width=\"81.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"119\" width=\"87.0\" height=\"11\" style=\"opacity:.75\"/><rect class=\"gw2 ol\" x=\"110.0\" y=\"106\" width=\"90.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"106\" width=\"102.0\" height=\"11\" style=\"opacity:.75\"/><text class=\"ts\" x=\"394\" y=\"115\" text-anchor=\"end\">60</text><rect class=\"gw2 ol\" x=\"107.0\" y=\"93\" width=\"93.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"93\" width=\"111.0\" height=\"11\" style=\"opacity:.75\"/><rect class=\"gw2 ol\" x=\"134.0\" y=\"80\" width=\"66.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"80\" width=\"87.0\" height=\"11\" style=\"opacity:.75\"/><text class=\"ts\" x=\"394\" y=\"89\" text-anchor=\"end\">70</text><rect class=\"gw2 ol\" x=\"164.0\" y=\"67\" width=\"36.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"67\" width=\"60.0\" height=\"11\" style=\"opacity:.75\"/><rect class=\"gw2 ol\" x=\"182.0\" y=\"54\" width=\"18.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"54\" width=\"39.0\" height=\"11\" style=\"opacity:.75\"/><text class=\"ts\" x=\"394\" y=\"63\" text-anchor=\"end\">80</text><rect class=\"gw2 ol\" x=\"191.0\" y=\"41\" width=\"9.0\" height=\"11\"/><rect class=\"hotf ol\" x=\"200\" y=\"41\" width=\"27.0\" height=\"11\" style=\"opacity:.75\"/><path class=\"s\" d=\"M200 20 V275\"/><text class=\"ts\" x=\"140\" y=\"292\" text-anchor=\"middle\">2%</text><text class=\"ts\" x=\"260\" y=\"292\" text-anchor=\"middle\">2%</text><text class=\"ts\" x=\"80\" y=\"292\" text-anchor=\"middle\">4%</text><text class=\"ts\" x=\"320\" y=\"292\" text-anchor=\"middle\">4%</text><text class=\"tb\" x=\"20\" y=\"20\">mężczyźni</text><text class=\"tb\" x=\"300\" y=\"20\">kobiety</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 85,
+       "y": 168,
+       "lx": 110,
+       "ly": 135,
+       "n": "Wyż lat 80.",
+       "d": "Roczniki 35–44 lata — echo powojennego wyżu"
+      },
+      {
+       "x": 110,
+       "y": 86,
+       "lx": 135,
+       "ly": 35,
+       "n": "Wyż powojenny",
+       "d": "Roczniki ok. 65–74 lata (urodzeni w latach 50.)"
+      },
+      {
+       "x": 150,
+       "y": 262,
+       "lx": 125,
+       "ly": 280,
+       "n": "Zwężona podstawa",
+       "d": "Mało urodzeń — dzietność ok. 1,1–1,2"
+      },
+      {
+       "x": 222,
+       "y": 40,
+       "lx": 197,
+       "ly": 75,
+       "n": "Przewaga kobiet",
+       "d": "Kobiety żyją dłużej — feminizacja wśród starszych"
+      },
+      {
+       "x": 125,
+       "y": 197,
+       "lx": 150,
+       "ly": 215,
+       "n": "Niż lat 90.–2000.",
+       "d": "Mniej osób 20–29 lat"
+      }
+     ]
+    }
    ]
   },
   {

@@ -823,6 +823,57 @@
        "d": "Roślinność iglasta dostarcza kwaśnej ściółki"
       }
      ]
+    },
+    {
+     "id": "s584eaa1f",
+     "typ": "rysunek",
+     "tytul": "Wtórne zasolenie gleby przy nawadnianiu",
+     "opis": "Mechanizm zasolenia gleb na obszarach nawadnianych w klimacie suchym — rysunek autorski IndexLab.",
+     "uwaga": "Przykłady: Azja Środkowa (dorzecze Amu-darii), Pakistan, Mezopotamia, Australia (dorzecze Murray). Zapobieganie: drenaż, nawadnianie kropelkowe, ograniczenie ilości wody, płukanie gleby.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gg ol\" d=\"M0 120 H400 V300 H0 Z\"/><path class=\"gw2\" d=\"M0 215 H400 V300 H0 Z\" style=\"opacity:.6\"/><path class=\"cold\" d=\"M0 215 H400\" style=\"stroke-width:2\"/><path class=\"gw2\" d=\"M0 165 H400 V215 H0 Z\" style=\"opacity:.3\"/><path class=\"dash\" d=\"M0 165 H400\"/><circle class=\"gs2\" cx=\"40\" cy=\"117\" r=\"2.5\"/><circle class=\"gs2\" cx=\"55\" cy=\"116\" r=\"2\"/><circle class=\"gs2\" cx=\"110\" cy=\"117\" r=\"2.5\"/><circle class=\"gs2\" cx=\"125\" cy=\"116\" r=\"2\"/><circle class=\"gs2\" cx=\"180\" cy=\"117\" r=\"2.5\"/><circle class=\"gs2\" cx=\"195\" cy=\"116\" r=\"2\"/><circle class=\"gs2\" cx=\"250\" cy=\"117\" r=\"2.5\"/><circle class=\"gs2\" cx=\"265\" cy=\"116\" r=\"2\"/><circle class=\"gs2\" cx=\"320\" cy=\"117\" r=\"2.5\"/><circle class=\"gs2\" cx=\"335\" cy=\"116\" r=\"2\"/><circle class=\"gs2\" cx=\"380\" cy=\"117\" r=\"2.5\"/><circle class=\"gs2\" cx=\"395\" cy=\"116\" r=\"2\"/><path class=\"cold\" d=\"M70.0 190.0 L70.0 130.0\"/><path class=\"cold\" d=\"M72.7 136.4 L70.0 130.0 L67.3 136.4\"/><path class=\"cold\" d=\"M210.0 190.0 L210.0 130.0\"/><path class=\"cold\" d=\"M212.7 136.4 L210.0 130.0 L207.3 136.4\"/><path class=\"cold\" d=\"M340.0 190.0 L340.0 130.0\"/><path class=\"cold\" d=\"M342.7 136.4 L340.0 130.0 L337.3 136.4\"/><path class=\"hot\" d=\"M150.0 112.0 L150.0 60.0\"/><path class=\"hot\" d=\"M152.7 66.4 L150.0 60.0 L147.3 66.4\"/><path class=\"hot\" d=\"M290.0 112.0 L290.0 60.0\"/><path class=\"hot\" d=\"M292.7 66.4 L290.0 60.0 L287.3 66.4\"/><path class=\"gw ol\" d=\"M20 105 H90 V120 H20 Z\"/><text class=\"ts\" x=\"392\" y=\"292\" text-anchor=\"end\">wody gruntowe</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 55,
+       "y": 112,
+       "lx": 80,
+       "ly": 40,
+       "n": "Kanał nawadniający",
+       "d": "Woda zasila pole i podnosi poziom wód gruntowych"
+      },
+      {
+       "x": 250,
+       "y": 165,
+       "lx": 230,
+       "ly": 195,
+       "n": "Podniesione zwierciadło",
+       "d": "Woda gruntowa zbliża się do powierzchni"
+      },
+      {
+       "x": 70,
+       "y": 150,
+       "lx": 95,
+       "ly": 150,
+       "n": "Podsiąk kapilarny",
+       "d": "Woda z rozpuszczonymi solami wędruje w górę"
+      },
+      {
+       "x": 290,
+       "y": 80,
+       "lx": 265,
+       "ly": 70,
+       "n": "Silne parowanie",
+       "d": "Klimat suchy — woda odparowuje"
+      },
+      {
+       "x": 180,
+       "y": 117,
+       "lx": 220,
+       "ly": 90,
+       "n": "Skorupa solna",
+       "d": "Sole zostają na powierzchni — gleba jałowieje"
+      }
+     ]
     }
    ]
   },

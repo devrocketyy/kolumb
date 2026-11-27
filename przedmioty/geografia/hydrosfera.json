@@ -751,6 +751,57 @@
      ]
     },
     {
+     "id": "s351a06f5",
+     "typ": "rysunek",
+     "tytul": "Profil dna oceanu: szelf, stok, rów",
+     "opis": "Schematyczny przekrój przez brzeg kontynentu i dno oceanu (pionowo przesadzony) — rysunek autorski IndexLab.",
+     "uwaga": "Szelf to podwodne przedłużenie kontynentu — najbardziej produktywna biologicznie i gospodarczo część oceanu (np. Morze Północne, Zatoka Perska). Rowy oceaniczne występują głównie wokół Pacyfiku.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"60\"/><rect class=\"gw\" x=\"0\" y=\"60\" width=\"400\" height=\"240\"/><path class=\"gl ol\" d=\"M0 40 H60 L66 75 H120 L150 85 L200 220 L240 240 H290 L305 290 L315 290 L330 200 L360 150 L400 130 V300 H0 Z\"/><path class=\"dash\" d=\"M0 60 H400\"/><text class=\"ts\" x=\"392\" y=\"56\" text-anchor=\"end\">poziom morza</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 100,
+       "y": 75,
+       "lx": 140,
+       "ly": 110,
+       "n": "Szelf",
+       "d": "Płytka część dna do ok. 200 m — łowiska, ropa i gaz"
+      },
+      {
+       "x": 175,
+       "y": 140,
+       "lx": 200,
+       "ly": 160,
+       "n": "Stok kontynentalny",
+       "d": "Stromy spadek do głębi oceanicznej"
+      },
+      {
+       "x": 265,
+       "y": 240,
+       "lx": 150,
+       "ly": 260,
+       "n": "Równina abisalna",
+       "d": "Płaskie dno na głębokości 4–6 km"
+      },
+      {
+       "x": 310,
+       "y": 288,
+       "lx": 285,
+       "ly": 280,
+       "n": "Rów oceaniczny",
+       "d": "Najgłębsze miejsca nad strefą subdukcji (do ok. 11 km)"
+      },
+      {
+       "x": 360,
+       "y": 150,
+       "lx": 340,
+       "ly": 100,
+       "n": "Łuk wysp / góry",
+       "d": "Wypiętrzenie po drugiej stronie rowu"
+      }
+     ]
+    },
+    {
      "id": "s68b5883f",
      "typ": "rysunek",
      "tytul": "Prądy morskie Atlantyku Północnego",

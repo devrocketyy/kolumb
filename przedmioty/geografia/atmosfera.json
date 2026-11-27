@@ -903,6 +903,49 @@
      ]
     },
     {
+     "id": "s301fd424",
+     "typ": "rysunek",
+     "tytul": "Miejska wyspa ciepła (profil temperatury)",
+     "opis": "Schematyczny profil temperatury przez miasto i jego otoczenie — rysunek autorski IndexLab.",
+     "uwaga": "Przyczyny wyspy ciepła: ciemne, nieprzepuszczalne powierzchnie, emisja ciepła (ruch, ogrzewanie, klimatyzacja), mała ilość zieleni, ograniczone przewietrzanie. Łagodzenie: zielone dachy, parki, zbiorniki wodne, jasne powierzchnie.",
+     "svg": "<rect class=\"gn\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gt ol\" d=\"M0 240 H400 V300 H0 Z\"/><rect class=\"gs2 ol\" x=\"131\" y=\"200\" width=\"18\" height=\"40\"/><rect class=\"gs2 ol\" x=\"151\" y=\"170\" width=\"18\" height=\"70\"/><rect class=\"gs2 ol\" x=\"171\" y=\"130\" width=\"18\" height=\"110\"/><rect class=\"gs2 ol\" x=\"191\" y=\"150\" width=\"18\" height=\"90\"/><rect class=\"gs2 ol\" x=\"211\" y=\"120\" width=\"18\" height=\"120\"/><rect class=\"gs2 ol\" x=\"231\" y=\"180\" width=\"18\" height=\"60\"/><rect class=\"gs2 ol\" x=\"251\" y=\"195\" width=\"18\" height=\"45\"/><rect class=\"gs2 ol\" x=\"101\" y=\"215\" width=\"18\" height=\"25\"/><rect class=\"gs2 ol\" x=\"281\" y=\"215\" width=\"18\" height=\"25\"/><path class=\"gf ol\" d=\"M30 240 l9 -26 l9 26 Z\"/><path class=\"gf ol\" d=\"M60 240 l9 -26 l9 26 Z\"/><path class=\"gf ol\" d=\"M340 240 l9 -26 l9 26 Z\"/><path class=\"gf ol\" d=\"M370 240 l9 -26 l9 26 Z\"/><path class=\"hot\" fill=\"none\" d=\"M10 90 C80 88 100 75 130 55 C170 30 230 30 270 55 C300 75 320 88 390 90\" style=\"stroke-width:2.4\"/><text class=\"ts\" x=\"8\" y=\"80\">temperatura powietrza</text><text class=\"tb\" x=\"40\" y=\"262\">wieś</text><text class=\"tb\" x=\"200\" y=\"262\" text-anchor=\"middle\">centrum</text><text class=\"tb\" x=\"355\" y=\"262\">wieś</text>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 200,
+       "y": 33,
+       "lx": 175,
+       "ly": 20,
+       "n": "Szczyt wyspy ciepła",
+       "d": "Centrum cieplejsze nawet o kilka °C, najbardziej nocą"
+      },
+      {
+       "x": 220,
+       "y": 130,
+       "lx": 300,
+       "ly": 140,
+       "n": "Zabudowa",
+       "d": "Beton i asfalt magazynują ciepło, mało parowania"
+      },
+      {
+       "x": 45,
+       "y": 230,
+       "lx": 70,
+       "ly": 170,
+       "n": "Teren wiejski",
+       "d": "Roślinność i parowanie chłodzą powietrze"
+      },
+      {
+       "x": 130,
+       "y": 56,
+       "lx": 155,
+       "ly": 40,
+       "n": "Spadek ku obrzeżom",
+       "d": "Temperatura maleje wraz z odległością od centrum"
+      }
+     ]
+    },
+    {
      "id": "s5a5d1c33",
      "typ": "rysunek",
      "tytul": "Fen — przekrój przez góry",
@@ -4186,6 +4229,57 @@
        "ly": 160,
        "n": "Suchsze lato",
        "d": "Mniej opadów, ale żaden miesiąc nie jest suchy"
+      }
+     ]
+    },
+    {
+     "id": "s06482960",
+     "typ": "rysunek",
+     "tytul": "Strefy klimatyczne na kontynencie modelowym",
+     "opis": "Model rozkładu klimatów na idealnym kontynencie — rysunek autorski IndexLab.",
+     "uwaga": "Strefy klimatyczne układają się równoleżnikowo, ale zachodnie i wschodnie wybrzeża się różnią: na zachodzie w strefie zwrotnikowej płyną prądy zimne (pustynie nadbrzeżne: Atakama, Namib), na wschodzie — ciepłe (klimaty wilgotne).",
+     "svg": "<rect class=\"gw\" x=\"0\" y=\"0\" width=\"400\" height=\"300\"/><path class=\"gl ol\" d=\"M150 15 C230 10 300 30 290 60 C285 100 270 120 250 150 C240 190 230 230 205 285 C190 285 175 230 165 190 C150 140 110 110 100 70 C95 35 120 18 150 15 Z\"/><path class=\"gf\" d=\"M160 140 H255 V160 H170 Z\" style=\"opacity:.8\"/><path class=\"gp\" d=\"M120 95 H280 V125 H140 Z\" style=\"opacity:.8\"/><path class=\"gp\" d=\"M175 175 H240 V205 H185 Z\" style=\"opacity:.8\"/><path class=\"gt\" d=\"M105 60 H290 V90 H115 Z\" style=\"opacity:.7\"/><path class=\"dash\" d=\"M0 150 H400\"/><text class=\"ts\" x=\"4\" y=\"147\">0°</text><path class=\"dash\" d=\"M0 110 H400\"/><text class=\"ts\" x=\"4\" y=\"107\">23°N</text><path class=\"dash\" d=\"M0 192 H400\"/><text class=\"ts\" x=\"4\" y=\"189\">23°S</text><path class=\"dash\" d=\"M0 40 H400\"/><text class=\"ts\" x=\"4\" y=\"37\">50°N</text><path class=\"dash\" d=\"M0 260 H400\"/><text class=\"ts\" x=\"4\" y=\"257\">50°S</text><path class=\"cold\" d=\"M55.0 95.0 L95.0 120.0\"/><path class=\"cold\" d=\"M88.1 118.9 L95.0 120.0 L91.0 114.3\"/><path class=\"hot\" d=\"M345.0 120.0 L300.0 110.0\"/><path class=\"hot\" d=\"M306.9 108.7 L300.0 110.0 L305.7 114.1\"/>",
+     "viewBox": "0 0 400 300",
+     "znaczniki": [
+      {
+       "x": 210,
+       "y": 150,
+       "lx": 185,
+       "ly": 165,
+       "n": "Klimat równikowy",
+       "d": "Opady cały rok — strefa zbieżności"
+      },
+      {
+       "x": 200,
+       "y": 110,
+       "lx": 230,
+       "ly": 230,
+       "n": "Pustynie zwrotnikowe",
+       "d": "Wyż zwrotnikowy — osiadanie powietrza"
+      },
+      {
+       "x": 112,
+       "y": 112,
+       "lx": 137,
+       "ly": 140,
+       "n": "Pustynia nadbrzeżna",
+       "d": "Zachodnie wybrzeże przy zimnym prądzie — pustynia sięga do morza"
+      },
+      {
+       "x": 280,
+       "y": 95,
+       "lx": 255,
+       "ly": 60,
+       "n": "Wilgotne wybrzeże E",
+       "d": "Wschodnie wybrzeże: ciepły prąd i pasaty znad oceanu"
+      },
+      {
+       "x": 200,
+       "y": 75,
+       "lx": 175,
+       "ly": 25,
+       "n": "Strefa umiarkowana",
+       "d": "Niże i wiatry zachodnie"
       }
      ]
     },
