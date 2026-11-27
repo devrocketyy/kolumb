@@ -79,7 +79,7 @@ S['g-srodowisko'] = [
       znaczniki=[(120, 90, 30, 95, 'Fotosynteza', 'Rośliny pobierają CO₂ z atmosfery'),
                  (135, 95, 160, 125, 'Oddychanie i rozkład', 'Organizmy oddają CO₂ do atmosfery'),
                  (200, 150, 230, 160, 'Spalanie paliw', 'Człowiek uwalnia węgiel zmagazynowany przez miliony lat'),
-                 (282, 95, 330, 100, 'Wymiana z oceanem', 'Ocean pochłania ok. 1/4 emisji CO₂ (zakwaszenie)'),
+                 (282, 95, 330, 112, 'Wymiana z oceanem', 'Ocean pochłania ok. 1/4 emisji CO₂ (zakwaszenie)'),
                  (130, 203, 100, 225, 'Fosylizacja', 'Szczątki organizmów → węgiel, ropa, gaz (bardzo powoli)')],
       opis='Uproszczony schemat obiegu węgla między atmosferą, biosferą, oceanem i litosferą — rysunek autorski IndexLab.',
       uwaga='Spalanie paliw kopalnych i wylesianie zaburzają obieg węgla — rośnie stężenie CO₂ w atmosferze (z ok. 280 do ponad 420 ppm) i nasila się efekt cieplarniany.'),
