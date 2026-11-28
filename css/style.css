@@ -1598,3 +1598,6 @@ body.wkrotce-on .topbar, body.wkrotce-on .tabbar { display: none; }
 .schem-fig .hotf { fill: var(--g-cieplo); } .schem-fig .coldf { fill: var(--g-zimno); }
 .schem-fig .ol { stroke: currentColor; stroke-width: 1.2; stroke-linejoin: round; }
 .schem-fig .ts { fill: var(--text-2); font-size: 9.5px; } .schem-fig .tb { fill: var(--text); font-size: 11px; font-weight: 650; }
+.archiwum { margin-top: 16px; }
+.archiwum summary { cursor: pointer; display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; }
+.archiwum .dzial-list { margin-top: 12px; }

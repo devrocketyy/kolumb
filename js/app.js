@@ -81,6 +81,9 @@ function resolveScope(sid, type, id) {
 const scopePath = (sc) => `${enc(sc.s.id)}/${sc.type}/${enc(sc.id)}`;
 const scopeQuestions = (sc) => sc.units.flatMap((u) => u.pytania.map((q) => ({ q, u })));
 
+// Archiwum: arkusze starszej formuły (np. chemia 2015–2022) — do ćwiczeń, ale poza planem, prognozą i próbną maturą.
+const isArch = (a) => !!a.archiwum || /-f2015$/.test(a.id);
+const glowne = (s) => s.arkusze.filter((a) => !isArch(a));
 const tasksOf = (s, did) => s.arkusze.flatMap((a) => a.zadania.filter((z) => !did || z.dzialy.includes(did)));
 const taskKey = (sid, z) => `${sid}/${z.arkusz}/${z.nr}`;
 
@@ -446,7 +449,7 @@ const isoDay = (t) => { const d = new Date(t); return `${d.getFullYear()}-${Stri
 const fmtDay = (t) => new Date(t).toLocaleDateString('pl-PL', { day: 'numeric', month: 'long', year: 'numeric' });
 const fmtShort = (t) => new Date(t).toLocaleDateString('pl-PL', { day: 'numeric', month: 'short' });
 const todayStart = () => { const d = new Date(); d.setHours(0, 0, 0, 0); return d.getTime(); };
-const allTasks = (s) => [...tasksOf(s), ...bankTasks(s)];
+const allTasks = (s) => [...glowne(s).flatMap((a) => a.zadania), ...bankTasks(s)];
 
 function planOf(s, over) {
   const p = { ...(store.get().settings.plan?.[s.id] || {}), ...(over || {}) };
@@ -462,7 +465,7 @@ function planOf(s, over) {
   const st = store.get().zadania;
   const zad = allTasks(s);
   // zadania za kłódką (arkusze i bank bez dostępu) też należą do materiału — plan pokazuje całość
-  const zZablok = s.arkusze.reduce((n, a) => n + (a.zablokowany ? a.liczbaZadan || 0 : 0), 0) + (s.bankZablokowany || []).reduce((n, b) => n + b.liczba, 0);
+  const zZablok = glowne(s).reduce((n, a) => n + (a.zablokowany ? a.liczbaZadan || 0 : 0), 0) + (s.bankZablokowany || []).reduce((n, b) => n + b.liczba, 0);
   const zLeft = zad.filter((z) => !st[taskKey(s.id, z)]).length + zZablok;
   const dk = store.dayKey();
   const zDzis = zad.filter((z) => { const r = st[taskKey(s.id, z)]; return r?.at && store.dayKey(r.at) === dk; }).length;
@@ -489,7 +492,7 @@ function nextTasksHref(s) {
     if (open(bankTasks(s, d.id))) return `#/zadania/${enc(s.id)}/b/${enc(d.id)}`;
     if (open(tasksOf(s, d.id))) return `#/zadania/${enc(s.id)}/d/${enc(d.id)}`;
   }
-  const a = s.arkusze.find((x) => !x.zablokowany && open(x.zadania));
+  const a = glowne(s).find((x) => !x.zablokowany && open(x.zadania)) || s.arkusze.find((x) => !x.zablokowany && open(x.zadania));
   return a ? `#/zadania/${enc(s.id)}/a/${enc(a.id)}` : '#/matura';
 }
 
@@ -527,7 +530,7 @@ const A_CEL = 0.72; // skuteczność w zadaniach osiągalna przy regularnym ćwi
 function wagiDzialow(s) {
   const w = {};
   const ids = new Set(s.dzialy.map((d) => d.id));
-  for (const a of s.arkusze) for (const z of a.zadania) {
+  for (const a of glowne(s)) for (const z of a.zadania) {
     const ds = z.dzialy.filter((d) => ids.has(d));
     ds.forEach((d) => (w[d] = (w[d] || 0) + z.punkty / ds.length));
   }
@@ -2055,8 +2058,12 @@ function viewMatura(tab) {
   if (tab === 'proba') {
     body = examSection(s);
   } else if (tab === 'cke') {
-    body = `<div class="dzial-list">${s.arkusze.map((a) => a.zablokowany ? lockedRow(a.nazwa, a.liczbaZadan ? `Premium · ${nZadan(a.liczbaZadan)} · ${a.punkty} pkt, z omówieniem` : '') : taskRow(`#/zadania/${enc(s.id)}/a/${enc(a.id)}`, a.nazwa, taskScore(s.id, a.zadania), `<span>${a.punkty} pkt</span>`)).join('')}</div>`
-      || '<p class="muted">Brak arkuszy CKE.</p>';
+    const row = (a) => a.zablokowany ? lockedRow(a.nazwa, a.liczbaZadan ? `Premium · ${nZadan(a.liczbaZadan)} · ${a.punkty} pkt, z omówieniem` : '') : taskRow(`#/zadania/${enc(s.id)}/a/${enc(a.id)}`, a.nazwa, taskScore(s.id, a.zadania), `<span>${a.punkty} pkt</span>`);
+    const arch = s.arkusze.filter(isArch);
+    body = (glowne(s).length ? `<div class="dzial-list">${glowne(s).map(row).join('')}</div>` : '<p class="muted">Brak arkuszy CKE.</p>')
+      + (arch.length ? `<details class="card archiwum"><summary><strong>Archiwum — matury ${esc(arch.map((a) => a.id.slice(0, 4)).sort()[0])}–${esc(arch.map((a) => a.id.slice(0, 4)).sort().pop())} (formuła 2015)</strong> <span class="muted">${arch.length} arkuszy</span></summary>
+          <p class="muted small">Starsza formuła egzaminu. Większość zadań nadal pasuje do matury 2027, ale część zakresu i punktacja się różnią. Archiwum nie wlicza się do planu, prognozy wyniku ani próbnej matury.</p>
+          <div class="dzial-list">${arch.map(row).join('')}</div></details>` : '');
   } else {
     body = `<div class="dzial-list">${s.dzialy.map((d) => {
         const cke = tasksOf(s, d.id);
@@ -2350,7 +2357,7 @@ const isExt = (w) => w.zadania.length === 1 && w.zadania[0].punkty >= 5;
 
 // Wiązki z arkuszy CKE w tym samym formacie co bank autorski.
 function ckeWiazki(s) {
-  return s.arkusze.flatMap((a) => a.wiazki.map((w) => {
+  return glowne(s).flatMap((a) => a.wiazki.map((w) => {
     const c = {};
     w.zadania.forEach((z) => z.dzialy.forEach((d) => (c[d] = (c[d] || 0) + z.punkty)));
     const dzial = Object.keys(c).sort((x, y) => c[y] - c[x])[0] || 'spoleczenstwo';
