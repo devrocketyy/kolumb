@@ -407,7 +407,7 @@ function coreCard(s) {
   const tematy = all.filter((u) => { const x = summary(s.id, [u], 0); return x.total && x.seen === x.total; }).length;
   const rows = s.dzialy.map((d) => { const x = summary(s.id, d.poddzialy, 0); return { d, p: x.total ? x.seen / x.total : 0, m: x.total ? x.mastered / x.total : 0 }; });
   return `<section class="core-card" aria-label="Postęp w podstawie programowej">
-    <div class="core-head"><span class="eyebrow">Podstawa programowa · ${esc(s.skrot || s.nazwa)}</span><a href="#/nauka" class="core-link">Nauka ${ICONS.next}</a></div>
+    <div class="core-head"><span class="eyebrow">Podstawa programowa · ${esc(s.nazwa)}</span><a href="#/nauka" class="core-link">Nauka ${ICONS.next}</a></div>
     <div class="core-num"><b>${pctFine(done)}</b><span>%</span></div>
     <p class="core-sub">materiału przerobione</p>
     <div class="core-bar" role="img" aria-label="Przerobione ${pct(done)}%, opanowane ${pct(mast)}%"><i style="width:${done * 100}%"></i><i class="m" style="width:${mast * 100}%"></i></div>
@@ -1068,7 +1068,7 @@ function subjSwitch() {
   const cur = currentSubject();
   return `<a class="course-pill" href="#/przedmiot" data-course-pill>
     <span class="course-pill-icon">${subjectIcon(cur)}</span>
-    <span class="course-pill-text"><small>Twój kurs</small><b>${esc(cur.nazwa)}</b></span>
+    <span class="course-pill-text"><small>Uczysz się</small><b>${esc(cur.nazwa)}</b></span>
     <span class="course-pill-change">Zmień</span></a>`;
 }
 function bindSubjSwitch() {
@@ -1134,7 +1134,7 @@ function viewNauka() {
 function updateTopStats() {
   const sb = document.getElementById('subj-btn');
   const cs = subjects.length ? currentSubject() : null;
-  if (sb) sb.innerHTML = `${BRAND_MARK}${cs ? `<span class="subj-btn-name">${esc(cs.skrot || cs.nazwa)}</span>` : ''}`;
+  if (sb) sb.innerHTML = cs ? `<span class="subj-icon subj-icon-mini" data-sid="${esc(cs.id)}">${subjectIcon(cs)}</span><span class="subj-btn-name">${esc(cs.nazwa)}</span>` : BRAND_MARK;
   const newsTab = document.querySelector('.tabbar [data-tab="news"]');
   if (newsTab) {
     newsTab.hidden = !cs?.aktualnosci; // zakładka tylko dla przedmiotów z modułem aktualności
@@ -2041,6 +2041,17 @@ function lockedRow(name, opis) {
   </a>`;
 }
 
+// Termin arkusza z identyfikatora (np. 2026-maj, 2024-grudzien, 2026-styczen-probna):
+// rok matury (próbna grudniowa należy do matury następnego roku), nazwa terminu i klucz do sortowania od najnowszych.
+const TERMINY = { maj: ['Termin główny', 3], czerwiec: ['Termin dodatkowy', 2], lipiec: ['Termin dodatkowy', 2], sierpien: ['Termin poprawkowy', 1], grudzien: ['Próbna CKE', 4], styczen: ['Próbna CKE', 4], marzec: ['Próbna CKE', 4], luty: ['Próbna CKE', 4] };
+function terminArkusza(a) {
+  const m = String(a.id).match(/^(\d{4})-([a-z]+)/);
+  if (!m) return { rok: '', nazwa: a.nazwa, klucz: 0 };
+  const rok = Number(m[1]) + (m[2] === 'grudzien' ? 1 : 0);
+  const [nazwa, kol] = TERMINY[m[2]] || [a.nazwa, 0];
+  return { rok, nazwa, klucz: rok * 10 + kol };
+}
+
 function taskRow(href, name, sc, right = '') {
   return `<a class="dzial-row" href="${href}">
     <div class="dzial-row-top"><span class="dzial-name">${esc(name)}</span>${scoreTag(sc)}</div>
@@ -2058,12 +2069,20 @@ function viewMatura(tab) {
   if (tab === 'proba') {
     body = examSection(s);
   } else if (tab === 'cke') {
-    const row = (a) => a.zablokowany ? lockedRow(a.nazwa, a.liczbaZadan ? `Premium · ${nZadan(a.liczbaZadan)} · ${a.punkty} pkt, z omówieniem` : '') : taskRow(`#/zadania/${enc(s.id)}/a/${enc(a.id)}`, a.nazwa, taskScore(s.id, a.zadania), `<span>${a.punkty} pkt</span>`);
+    const row = (a) => { const n = terminArkusza(a).nazwa; return a.zablokowany ? lockedRow(n, a.liczbaZadan ? `Premium · ${nZadan(a.liczbaZadan)} · ${a.punkty} pkt, z omówieniem` : '') : taskRow(`#/zadania/${enc(s.id)}/a/${enc(a.id)}`, n, taskScore(s.id, a.zadania), `<span>${a.punkty} pkt</span>`); };
+    const grupy = (lista) => {
+      const g = new Map();
+      [...lista].sort((x, y) => terminArkusza(y).klucz - terminArkusza(x).klucz).forEach((a) => {
+        const r = terminArkusza(a).rok; if (!g.has(r)) g.set(r, []); g.get(r).push(a);
+      });
+      return [...g].map(([rok, as]) => `<h2 class="ark-rok">Matura ${rok}</h2><div class="dzial-list">${as.map(row).join('')}</div>`).join('');
+    };
     const arch = s.arkusze.filter(isArch);
-    body = (glowne(s).length ? `<div class="dzial-list">${glowne(s).map(row).join('')}</div>` : '<p class="muted">Brak arkuszy CKE.</p>')
-      + (arch.length ? `<details class="card archiwum"><summary><strong>Archiwum — matury ${esc(arch.map((a) => a.id.slice(0, 4)).sort()[0])}–${esc(arch.map((a) => a.id.slice(0, 4)).sort().pop())} (formuła 2015)</strong> <span class="muted">${arch.length} arkuszy</span></summary>
+    const lata = arch.map((a) => terminArkusza(a).rok).sort();
+    body = (glowne(s).length ? grupy(glowne(s)) : '<p class="muted">Brak arkuszy CKE.</p>')
+      + (arch.length ? `<details class="card archiwum"><summary><strong>Archiwum — matury ${lata[0]}–${lata[lata.length - 1]} (formuła 2015)</strong> <span class="muted">${arch.length} arkuszy</span></summary>
           <p class="muted small">Starsza formuła egzaminu. Większość zadań nadal pasuje do matury 2027, ale część zakresu i punktacja się różnią. Archiwum nie wlicza się do planu, prognozy wyniku ani próbnej matury.</p>
-          <div class="dzial-list">${arch.map(row).join('')}</div></details>` : '');
+          ${grupy(arch)}</details>` : '');
   } else {
     body = `<div class="dzial-list">${s.dzialy.map((d) => {
         const cke = tasksOf(s, d.id);
@@ -3245,8 +3264,8 @@ function viewPrzedmiot() {
         <span class="subj-icon" data-sid="${esc(s.id)}">${subjectIcon(s)}</span>
         <span class="subj-body"><span class="subj-name">${esc(s.nazwa)}</span>
           <small>Matura rozszerzona${dni > 0 ? ` · egzamin za ${dni} ${plural(dni, 'dzień', 'dni', 'dni')}` : ''}</small>
-          ${sm ? `<span class="subj-prog"><span class="core-mini"><i style="width:${sm.progress * 100}%"></i></span><b>${pct(sm.progress)}%</b></span>` : ''}</span>
-        ${s.id === cur ? '<span class="subj-badge">Twój kurs</span>' : ICONS.next}</button>`; }).join('')}</div>
+          ${sm ? `<span class="subj-prog"><span class="core-mini"><i style="width:${sm.progress * 100}%"></i></span><b>${pctFine(sm.progress)}%</b></span>` : ''}</span>
+        ${s.id === cur ? '<span class="subj-badge">Wybrany</span>' : ICONS.next}</button>`; }).join('')}</div>
     <button type="button" class="link-btn" data-act="logout">Zmień profil</button>
   </section>`;
   app.querySelector('.subj-grid').addEventListener('click', (e) => {
@@ -3411,7 +3430,7 @@ function viewStats() {
     <section class="card">
       <h2 class="card-title">Opanowanie działów</h2>
       ${per.map(({ s, d, sm }) => `<a class="stat-row" href="${hrefDzial(s.id, d.id)}">
-        <div class="stat-row-top"><span>${esc(s.skrot)} · ${esc(d.nazwa)}</span><strong>${pct(sm.progress)}%</strong></div>
+        <div class="stat-row-top"><span>${esc(s.nazwa)} · ${esc(d.nazwa)}</span><strong>${pct(sm.progress)}%</strong></div>
         ${progressBar(sm.progress, d.nazwa)}
       </a>`).join('') || '<p class="muted">Brak działów.</p>'}
     </section>

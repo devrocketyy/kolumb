@@ -1601,3 +1601,8 @@ body.wkrotce-on .topbar, body.wkrotce-on .tabbar { display: none; }
 .archiwum { margin-top: 16px; }
 .archiwum summary { cursor: pointer; display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; }
 .archiwum .dzial-list { margin-top: 12px; }
+.subj-icon-mini { width: 30px; height: 30px; border-radius: 9px; flex: none; }
+.subj-icon-mini svg { width: 62%; height: 62%; }
+.ark-rok { font-family: var(--font-head); font-size: 1.05rem; margin: 22px 0 10px; }
+.ark-rok:first-child { margin-top: 4px; }
+.archiwum .ark-rok { font-size: .95rem; margin-top: 16px; }
