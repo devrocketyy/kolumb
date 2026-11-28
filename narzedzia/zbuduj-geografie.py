@@ -315,6 +315,7 @@ def main():
         'id': 'geografia', 'nazwa': 'Geografia', 'skrot': 'GEO',
         'opis': 'Matura rozszerzona z geografii (formuła 2023) — praca z mapą, obliczenia krok po kroku, zadania w stylu CKE.',
         'dzialy': [{'id': d, 'plik': f'geografia/{d}.json'} for d in aktywne],
+        'egzamin': '2027-05-14',  # harmonogram CKE 2027: geografia (pr) — 14 maja 2027, godz. 9:00
         'arkusze': [{'id': a['id'], 'plik': f'geografia/arkusze/{a["id"]}.json'} for a in arkusze],
         'bank': [{'plik': f'geografia/bank/{d}.json'} for d in sorted(bank)],
     }

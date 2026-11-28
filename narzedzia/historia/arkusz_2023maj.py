@@ -48,7 +48,7 @@ A = {
     Z('8', 2, 'Sformułuj dwa argumenty, że rycina powstała w kręgu zwolenników reformacji.',
       '1) Szala z samą Biblią przeważa nad szalą z tiarą, kluczami i duchowieństwem — Biblia jako jedyne źródło wiary. 2) Hierarchii Kościoła przeciwstawiono grupę równych sobie wiernych/reformatorów.',
       'Sola Scriptura — kluczowe hasło reformacji; ośmieszanie papiestwa to typowa propaganda protestancka.')),
-  W('9', 13, 'Wazowie i wojny ze Szwecją', 'nowozytnosc',
+  W('9', 12, 'Wazowie i wojny ze Szwecją', 'nowozytnosc',
     Z('9.1', 1, 'Podaj imię władcy, za którego zerwano unię personalną polsko-szwedzką.', 'Zygmunt III Waza.',
       'Zdetronizowany w Szwecji w 1599 r. przez stryja Karola Sudermańskiego.'),
     Z('9.2', 1, 'Podaj inną przyczynę wojen polsko-szwedzkich niż w źródle.', 'Rywalizacja o panowanie na Bałtyku (dominium Maris Baltici) / o Inflanty.',

@@ -740,6 +740,7 @@ body.in-lesson .toast { bottom: calc(250px + env(safe-area-inset-bottom)); }
   .end-tile strong { font-size: 1.1rem; }
   .match { grid-template-columns: 1fr 1.2fr; }
 }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
@@ -1606,3 +1607,19 @@ body.wkrotce-on .topbar, body.wkrotce-on .tabbar { display: none; }
 .ark-rok { font-family: var(--font-head); font-size: 1.05rem; margin: 22px 0 10px; }
 .ark-rok:first-child { margin-top: 4px; }
 .archiwum .ark-rok { font-size: .95rem; margin-top: 16px; }
+
+/* ---------- płynne przejścia przy najechaniu (myszka) ---------- */
+:root { --ease-out: cubic-bezier(.22, .8, .3, 1); --t-hover: .22s; }
+.top-chip, .icon-btn, .btn, .btn-ghost, .btn-report, .option, .subj-tile, .dzial-row, .tile, .card a, .material-link,
+.course-pill, .auth-alt, .auth-eye, .auth-dalej-btn, .pod-speed, .kup-chip, .schem-tabs a, .os-karta, .tabbar a, .subj-btn, .core-link {
+  transition-property: transform, box-shadow, background-color, border-color, color, filter, opacity;
+  transition-duration: var(--t-hover); transition-timing-function: var(--ease-out);
+}
+@media (hover: hover) and (pointer: fine) {
+  .dzial-row:hover, .subj-tile:hover, .course-pill:hover, .material-link:hover, .os-karta:hover, .auth-dalej-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 18px -10px rgb(0 0 0 / .35); }
+  .dzial-row:hover { border-color: var(--text-2); }
+  .option:hover:not(:disabled) { transform: translateY(-1px); }
+  .btn:hover { transform: translateY(-1px); }
+  .btn:active, .dzial-row:active, .subj-tile:active, .option:active:not(:disabled) { transform: translateY(0) scale(.99); transition-duration: .08s; }
+}
+

@@ -297,6 +297,12 @@ def main():
 
     ap = os.path.join(SRC, 'arkusze.py')
     arkusze = runpy.run_path(ap)['ARKUSZE'] if os.path.exists(ap) else []
+    # Archiwum: matury starszej formuły (2015) — do ćwiczeń, poza planem, prognozą i próbną maturą.
+    aa = os.path.join(SRC, 'arkusze_archiwum.py')
+    arch = runpy.run_path(aa)['ARKUSZE'] if os.path.exists(aa) else []
+    for a in arch:
+        a['archiwum'] = True
+    arkusze = arkusze + arch
     op = os.path.join(SRC, 'omowienia_ark.py')
     OM = runpy.run_path(op)['OM'] if os.path.exists(op) else {}
     uzyte_om = set()
@@ -319,6 +325,7 @@ def main():
         'id': 'chemia', 'nazwa': 'Chemia', 'skrot': 'CHE',
         'opis': 'Matura rozszerzona z chemii — wymagania egzaminacyjne 2027, obliczenia krok po kroku, zadania w stylu CKE.',
         'dzialy': [{'id': d, 'plik': f'chemia/{d}.json'} for d in aktywne],
+        'egzamin': '2027-05-13',  # harmonogram CKE 2027: chemia (pr) — 13 maja 2027, godz. 9:00
         'arkusze': [{'id': a['id'], 'plik': f'chemia/arkusze/{a["id"]}.json'} for a in arkusze],
         'bank': [{'plik': f'chemia/bank/{d}.json'} for d in sorted(bank)],
         # data matury z chemii 2027 — do uzupełnienia z harmonogramu CKE (docs/13-chemia-plan.md)
