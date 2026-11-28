@@ -59,7 +59,7 @@ Z = [
  ('2024-czerwiec/19.1', 'oblicz', 'robocza', [
   ('pelna', 'p = 1 − 0,3 = 0,7; 2pq = 2 · 0,7 · 0,3 = 0,42.', 1, [], False),
   ('bledna', '2pq = 2 · 0,3 · 0,3 = 0,18.', 0, ['p = 0,7; 2pq = 0,42'], False),
-  ('czesciowa', 'Heterozygoty to 0,42.', 0, ['obliczenia (p = 0,7; 2pq = 2 · 0,7 · 0,3)'], False),
+  ('inne_slowa', 'Heterozygoty to 0,42.', 1, [], False),
  ]),
  ('2024-czerwiec/14.2', 'wyjasnij', 'kontrolna', [
   ('pelna', 'Amoniak jest silnie toksyczny i trzeba go rozcieńczać dużą ilością wody – zwierzęta wodne mają jej dużo. Lądowe muszą oszczędzać wodę, więc przekształcają amoniak w mniej toksyczny mocznik lub kwas moczowy.', 1, [], False),
