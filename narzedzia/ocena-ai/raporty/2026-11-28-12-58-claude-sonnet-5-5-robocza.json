@@ -1,0 +1,1612 @@
+{
+ "data": "2026-11-28T12:58:46.753Z",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "czesc": "robocza",
+ "tokeny": {
+  "wej": 115247,
+  "wyj": 25177
+ },
+ "koszt_usd": 0.482264,
+ "ogolem": {
+  "n": 97,
+  "bledy": 0,
+  "zgodnosc": 0.9690721649484536,
+  "powazne": 0,
+  "zawyza": 0.020618556701030927,
+  "zaniza": 0.010309278350515464
+ },
+ "przedmiot": {
+  "biologia": {
+   "n": 28,
+   "bledy": 0,
+   "zgodnosc": 0.9642857142857143,
+   "powazne": 0,
+   "zawyza": 0.03571428571428571,
+   "zaniza": 0
+  },
+  "chemia": {
+   "n": 17,
+   "bledy": 0,
+   "zgodnosc": 0.8823529411764706,
+   "powazne": 0,
+   "zawyza": 0.058823529411764705,
+   "zaniza": 0.058823529411764705
+  },
+  "geografia": {
+   "n": 17,
+   "bledy": 0,
+   "zgodnosc": 1,
+   "powazne": 0,
+   "zawyza": 0,
+   "zaniza": 0
+  },
+  "historia": {
+   "n": 17,
+   "bledy": 0,
+   "zgodnosc": 1,
+   "powazne": 0,
+   "zawyza": 0,
+   "zaniza": 0
+  },
+  "wos": {
+   "n": 18,
+   "bledy": 0,
+   "zgodnosc": 1,
+   "powazne": 0,
+   "zawyza": 0,
+   "zaniza": 0
+  }
+ },
+ "typ": {
+  "oblicz": {
+   "n": 10,
+   "bledy": 0,
+   "zgodnosc": 0.7,
+   "powazne": 0,
+   "zawyza": 0.2,
+   "zaniza": 0.1
+  },
+  "okresl": {
+   "n": 10,
+   "bledy": 0,
+   "zgodnosc": 1,
+   "powazne": 0,
+   "zawyza": 0,
+   "zaniza": 0
+  },
+  "podaj": {
+   "n": 29,
+   "bledy": 0,
+   "zgodnosc": 1,
+   "powazne": 0,
+   "zawyza": 0,
+   "zaniza": 0
+  },
+  "rozstrzygnij": {
+   "n": 18,
+   "bledy": 0,
+   "zgodnosc": 1,
+   "powazne": 0,
+   "zawyza": 0,
+   "zaniza": 0
+  },
+  "uzasadnij": {
+   "n": 11,
+   "bledy": 0,
+   "zgodnosc": 1,
+   "powazne": 0,
+   "zawyza": 0,
+   "zaniza": 0
+  },
+  "wyjasnij": {
+   "n": 14,
+   "bledy": 0,
+   "zgodnosc": 1,
+   "powazne": 0,
+   "zawyza": 0,
+   "zaniza": 0
+  },
+  "wykaz": {
+   "n": 5,
+   "bledy": 0,
+   "zgodnosc": 1,
+   "powazne": 0,
+   "zawyza": 0,
+   "zaniza": 0
+  }
+ },
+ "punkty": {
+  "1": {
+   "n": 65,
+   "bledy": 0,
+   "zgodnosc": 0.9846153846153847,
+   "powazne": 0,
+   "zawyza": 0.015384615384615385,
+   "zaniza": 0
+  },
+  "2": {
+   "n": 32,
+   "bledy": 0,
+   "zgodnosc": 0.9375,
+   "powazne": 0,
+   "zawyza": 0.03125,
+   "zaniza": 0.03125
+  }
+ },
+ "wyniki": [
+  {
+   "id": "biologia/2023-maj/4.2#1",
+   "przedmiot": "biologia",
+   "typ": "okresl",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Żeby na początku drugiego etapu wszystkie rośliny były takie same i żeby różnice wynikały tylko z oświetlenia, a nie z innych czynników.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Uczeń wskazuje, że rośliny miały być na starcie jednakowe, a różnice w wyniku mają wynikać tylko z badanego czynnika (oświetlenia), nie z innych czynników. To jest równoważne kluczowi."
+  },
+  {
+   "id": "biologia/2023-maj/1.3#1",
+   "przedmiot": "biologia",
+   "typ": "wykaz",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Dehydrogenaza pirogronianowa zamienia pirogronian powstały w glikolizie w acetylo-CoA, a acetylo-CoA wchodzi do cyklu Krebsa.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Odpowiedź zawiera obie wymagane informacje: pirogronian z glikolizy jest przekształcany w acetylo-CoA, a acetylo-CoA wchodzi do cyklu Krebsa. Jest to zgodne z kluczem, więc punkt należy się w całości."
+  },
+  {
+   "id": "biologia/2023-maj/1.3#2",
+   "przedmiot": "biologia",
+   "typ": "wykaz",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "przekształcenie pirogronianu w acetylo-CoA",
+    "acetylo-CoA jako substrat cyklu Krebsa"
+   ],
+   "odpowiedz": "Bo łączy te dwa procesy i dzięki niej oddychanie działa dalej.",
+   "pkt": 0,
+   "brakuje": [
+    "pirogronian jako produkt glikolizy jest substratem kompleksu",
+    "przekształcenie pirogronianu w acetylo-CoA",
+    "acetylo-CoA jako substrat cyklu Krebsa"
+   ],
+   "uzasadnienie": "Odpowiedź jest ogólnikowa i tylko powtarza tezę polecenia. Nie wskazujesz, że pirogronian z glikolizy jest przekształcany w acetylo-CoA, który wchodzi do cyklu Krebsa."
+  },
+  {
+   "id": "biologia/2023-maj/1.3#3",
+   "przedmiot": "biologia",
+   "typ": "wykaz",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "błędna lokalizacja cyklu Krebsa (macierz mitochondrium)"
+   ],
+   "odpowiedz": "Przekształca pirogronian w acetylo-CoA w cytozolu, który potem trafia do cyklu Krebsa w jądrze komórkowym.",
+   "pkt": 0,
+   "brakuje": [
+    "Błędna lokalizacja: kompleks dehydrogenazy pirogronianowej działa w macierzy mitochondrium, nie w cytozolu",
+    "Błędna lokalizacja cyklu Krebsa: zachodzi w macierzy mitochondrium, nie w jądrze komórkowym",
+    "Brak wskazania, że pirogronian jest produktem glikolizy"
+   ],
+   "uzasadnienie": "Uczeń poprawnie podaje przekształcenie pirogronianu w acetylo-CoA i jego wejście do cyklu Krebsa, ale dodaje błędne informacje o lokalizacji: reakcja nie zachodzi w cytozolu, a cykl Krebsa nie zachodzi w jądrze komórkowym. Poprawna informacja obok błędnej nie daje punktu."
+  },
+  {
+   "id": "biologia/2023-maj/5.1#1",
+   "przedmiot": "biologia",
+   "typ": "podaj",
+   "max": 2,
+   "wzor_pkt": 2,
+   "wzor_brakuje": [],
+   "odpowiedz": "A – karboksylacja, B – redukcja, C – regeneracja RuBP.",
+   "pkt": 2,
+   "brakuje": [],
+   "uzasadnienie": "Wszystkie trzy nazwy etapów (A – karboksylacja, B – redukcja, C – regeneracja RuBP) są zgodne z kluczem, więc przysługują 2 pkt."
+  },
+  {
+   "id": "biologia/2023-maj/5.1#2",
+   "przedmiot": "biologia",
+   "typ": "podaj",
+   "max": 2,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [
+    "C – regeneracja RuBP"
+   ],
+   "odpowiedz": "A – karboksylacja, B – redukcja, C – fosforylacja.",
+   "pkt": 1,
+   "brakuje": [
+    "Etap C: regeneracja RuBP (zamiast fosforylacji)"
+   ],
+   "uzasadnienie": "Poprawnie podałeś nazwy etapów A (karboksylacja) i B (redukcja), co daje 1 pkt. Etap C to regeneracja RuBP, a nie fosforylacja, więc trzeciej nazwy nie można uznać."
+  },
+  {
+   "id": "biologia/2023-maj/5.1#3",
+   "przedmiot": "biologia",
+   "typ": "podaj",
+   "max": 2,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "A – karboksylacja",
+    "B – redukcja"
+   ],
+   "odpowiedz": "A – glikoliza, B – fotoliza wody, C – regeneracja.",
+   "pkt": 0,
+   "brakuje": [
+    "A – karboksylacja (wiązanie CO₂ z RuBP), a nie glikoliza",
+    "B – redukcja (PGA do aldehydu 3-fosfoglicerynowego), a nie fotoliza wody",
+    "C – regeneracja RuBP jest poprawna, ale powinna być nazwana pełniej"
+   ],
+   "uzasadnienie": "Poprawna jest tylko nazwa C (regeneracja), a według zasad oceniania do 1 pkt potrzebne są dwie poprawne nazwy. Nazwy „glikoliza” (A) i „fotoliza wody” (B) są błędne, bo to nie etapy cyklu Calvina."
+  },
+  {
+   "id": "biologia/2023-maj/4.2#2",
+   "przedmiot": "biologia",
+   "typ": "okresl",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "wyrównanie materiału / wykluczenie wpływu innych czynników"
+   ],
+   "odpowiedz": "Żeby rośliny szybciej rosły.",
+   "pkt": 0,
+   "brakuje": [
+    "Wskazanie, że chodzi o uzyskanie możliwie podobnych roślin (np. o zbliżonej zawartości chlorofilu)",
+    "Wskazanie, że chodzi o wykluczenie wpływu innych czynników na wynik doświadczenia"
+   ],
+   "uzasadnienie": "Odpowiedź, że rośliny miały szybciej rosnąć, nie odpowiada kluczowi. Nie wskazuje, że wspólne warunki miały zapewnić podobne rośliny i wykluczyć wpływ innych czynników na wynik doświadczenia."
+  },
+  {
+   "id": "biologia/2024-maj/2#1",
+   "przedmiot": "biologia",
+   "typ": "okresl",
+   "max": 2,
+   "wzor_pkt": 2,
+   "wzor_brakuje": [],
+   "odpowiedz": "Polimeraza syntetyzuje nić DNA na matrycy RNA wirusa, a rybonukleaza rozkłada RNA z hybrydy RNA–DNA, żeby można było dobudować drugą nić DNA.",
+   "pkt": 2,
+   "brakuje": [],
+   "uzasadnienie": "Podałeś obie funkcje zgodnie z kluczem: polimeraza syntetyzuje DNA na matrycy RNA, a rybonukleaza rozkłada RNA w hybrydzie RNA–DNA, co umożliwia dobudowanie drugiej nici DNA."
+  },
+  {
+   "id": "biologia/2024-maj/2#2",
+   "przedmiot": "biologia",
+   "typ": "okresl",
+   "max": 2,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [
+    "funkcja rybonukleazy (rozkład RNA z hybrydy)"
+   ],
+   "odpowiedz": "Polimeraza tworzy DNA na podstawie RNA wirusa.",
+   "pkt": 1,
+   "brakuje": [
+    "Funkcja obszaru o aktywności rybonukleazy: rozkład (hydroliza) nici RNA w hybrydzie RNA-DNA, by mogła powstać druga nić DNA"
+   ],
+   "uzasadnienie": "Funkcja polimerazy jest opisana poprawnie (synteza DNA na matrycy RNA wirusa), ale brakuje funkcji rybonukleazy, więc przyznano 1 z 2 pkt."
+  },
+  {
+   "id": "biologia/2024-maj/2#3",
+   "przedmiot": "biologia",
+   "typ": "okresl",
+   "max": 2,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [
+    "rybonukleaza rozkłada RNA, a nie syntetyzuje"
+   ],
+   "odpowiedz": "Polimeraza syntetyzuje DNA na matrycy RNA, a rybonukleaza syntetyzuje nowe RNA wirusa.",
+   "pkt": 1,
+   "brakuje": [
+    "Rybonukleaza hydrolizuje (rozkłada) nić RNA w hybrydzie RNA-DNA",
+    "Wskazanie, że rozkład RNA umożliwia syntezę drugiej nici DNA"
+   ],
+   "uzasadnienie": "Funkcja polimerazy jest poprawna (synteza DNA na matrycy RNA), ale rybonukleaza nie syntetyzuje RNA – ona rozkłada RNA w hybrydzie RNA-DNA, więc druga funkcja jest błędna."
+  },
+  {
+   "id": "biologia/2024-maj/2#4",
+   "przedmiot": "biologia",
+   "typ": "okresl",
+   "max": 2,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "funkcja polimerazy",
+    "funkcja rybonukleazy"
+   ],
+   "odpowiedz": "Polimeraza rozkłada DNA gospodarza, a rybonukleaza łączy RNA z DNA.",
+   "pkt": 0,
+   "brakuje": [
+    "Polimeraza: synteza nici DNA na matrycy RNA (a następnie drugiej nici DNA na matrycy DNA)",
+    "Rybonukleaza: hydroliza/rozkład nici RNA w hybrydzie RNA-DNA, by mogła powstać druga nić DNA"
+   ],
+   "uzasadnienie": "Obie funkcje są błędne: polimeraza syntetyzuje DNA na matrycy RNA (a nie rozkłada DNA gospodarza), a rybonukleaza rozkłada RNA w hybrydzie RNA-DNA (a nie łączy RNA z DNA)."
+  },
+  {
+   "id": "biologia/2024-maj/17.2#1",
+   "przedmiot": "biologia",
+   "typ": "okresl",
+   "max": 2,
+   "wzor_pkt": 2,
+   "wzor_brakuje": [],
+   "odpowiedz": "Ramię akceptorowe przyłącza aminokwas, a antykodon łączy się komplementarnie z kodonem na mRNA, dzięki czemu wstawiany jest właściwy aminokwas.",
+   "pkt": 2,
+   "brakuje": [],
+   "uzasadnienie": "Podałeś obie funkcje zgodnie z kluczem: ramię akceptorowe przyłącza aminokwas, a antykodon komplementarnie łączy się z kodonem mRNA, co zapewnia wstawienie właściwego aminokwasu."
+  },
+  {
+   "id": "biologia/2024-maj/17.2#2",
+   "przedmiot": "biologia",
+   "typ": "okresl",
+   "max": 2,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [
+    "funkcja antykodonu"
+   ],
+   "odpowiedz": "Ramię akceptorowe przyłącza aminokwas.",
+   "pkt": 1,
+   "brakuje": [
+    "Funkcja antykodonu: komplementarne wiązanie z kodonem mRNA, zapewniające wbudowanie właściwego aminokwasu."
+   ],
+   "uzasadnienie": "Poprawnie podałeś funkcję ramienia akceptorowego (przyłączanie aminokwasu), ale nie opisałeś funkcji antykodonu, więc zgodnie z kluczem przysługuje 1 pkt."
+  },
+  {
+   "id": "biologia/2024-maj/17.2#3",
+   "przedmiot": "biologia",
+   "typ": "okresl",
+   "max": 2,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "funkcja ramienia akceptorowego",
+    "funkcja antykodonu"
+   ],
+   "odpowiedz": "Ramię akceptorowe transportuje tRNA do jądra, a antykodon tnie mRNA.",
+   "pkt": 0,
+   "brakuje": [
+    "Ramię akceptorowe (koniec 3′) przyłącza aminokwas",
+    "Antykodon komplementarnie wiąże się z kodonem mRNA, zapewniając wstawienie właściwego aminokwasu"
+   ],
+   "uzasadnienie": "Obie funkcje podano błędnie: ramię akceptorowe służy do przyłączania aminokwasu, a nie transportu tRNA do jądra, zaś antykodon komplementarnie rozpoznaje kodon mRNA i go nie tnie."
+  },
+  {
+   "id": "biologia/2024-maj/17.2#4",
+   "przedmiot": "biologia",
+   "typ": "okresl",
+   "max": 2,
+   "wzor_pkt": 2,
+   "wzor_brakuje": [],
+   "odpowiedz": "Do końca 3′ (CCA) doczepia się aminokwas; trójka nukleotydów antykodonu paruje się z kodonem mRNA na rybosomie.",
+   "pkt": 2,
+   "brakuje": [],
+   "uzasadnienie": "Podajesz obie funkcje: ramię akceptorowe (koniec 3′ CCA) przyłącza aminokwas, a antykodon komplementarnie paruje się z kodonem mRNA na rybosomie. Odpowiedź jest zgodna z kluczem i nie zawiera błędów."
+  },
+  {
+   "id": "biologia/2025-maj/1.2#1",
+   "przedmiot": "biologia",
+   "typ": "uzasadnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "III-rzędową, bo rybonukleaza ma tylko jeden łańcuch polipeptydowy.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Poprawnie wskazano strukturę III-rzędową i uzasadniono to tym, że rybonukleaza składa się z jednego łańcucha polipeptydowego, co jest zgodne z kluczem."
+  },
+  {
+   "id": "biologia/2025-maj/3.2#1",
+   "przedmiot": "biologia",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Strefa wydłużania.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Podałeś(-aś) strefę wydłużania, co jest zgodne z kluczem, więc spełniasz kryterium zadania."
+  },
+  {
+   "id": "biologia/2025-maj/1.2#2",
+   "przedmiot": "biologia",
+   "typ": "uzasadnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "struktura III-rzędowa – jeden łańcuch"
+   ],
+   "odpowiedz": "IV-rzędową, bo mostki łączą różne białka.",
+   "pkt": 0,
+   "brakuje": [
+    "Poprawne rozstrzygnięcie: struktura III-rzędowa",
+    "Uzasadnienie, że rybonukleaza jest jednym łańcuchem polipeptydowym, a mostki powstają w obrębie tego samego łańcucha",
+    "Zaznaczenie, że struktura IV-rzędowa wymaga kilku łańcuchów polipeptydowych"
+   ],
+   "uzasadnienie": "Rozstrzygnięcie jest błędne: mostki disiarczkowe rybonukleazy stabilizują strukturę III-rzędową, a nie IV-rzędową. Uzasadnienie, że mostki łączą różne białka, jest sprzeczne z faktem, że rybonukleaza to pojedynczy łańcuch polipeptydowy."
+  },
+  {
+   "id": "biologia/2025-maj/3.2#2",
+   "przedmiot": "biologia",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Strefa wzrostu komórek na długość.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Podana 'strefa wzrostu komórek na długość' jest merytorycznie równoważna strefie wydłużania (wzrostu na długość) z klucza, więc spełnia kryterium."
+  },
+  {
+   "id": "biologia/2024-czerwiec/19.1#1",
+   "przedmiot": "biologia",
+   "typ": "oblicz",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "p = 1 − 0,3 = 0,7; 2pq = 2 · 0,7 · 0,3 = 0,42.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Poprawnie obliczyłeś częstość allelu dominującego (p = 0,7) i zastosowałeś wzór 2pq, otrzymując 0,42, co jest zgodne z kluczem."
+  },
+  {
+   "id": "biologia/2024-czerwiec/19.1#2",
+   "przedmiot": "biologia",
+   "typ": "oblicz",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "p = 0,7; 2pq = 0,42"
+   ],
+   "odpowiedz": "2pq = 2 · 0,3 · 0,3 = 0,18.",
+   "pkt": 0,
+   "brakuje": [
+    "Obliczenie częstości allelu dominującego p = 1 − 0,3 = 0,7",
+    "Poprawny wynik 2 · 0,7 · 0,3 = 0,42"
+   ],
+   "uzasadnienie": "Wzór 2pq jest poprawny, ale za p przyjąłeś 0,3 zamiast 0,7 (p = 1 − q). Wynik 0,18 jest błędny, a poprawny to 0,42."
+  },
+  {
+   "id": "biologia/2025-maj/1.2#3",
+   "przedmiot": "biologia",
+   "typ": "uzasadnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "uzasadnienie (jeden łańcuch polipeptydowy)"
+   ],
+   "odpowiedz": "III-rzędową.",
+   "pkt": 0,
+   "brakuje": [
+    "uzasadnienie: rybonukleaza składa się z jednego łańcucha polipeptydowego",
+    "mostki powstają w obrębie jednego łańcucha, a struktura IV-rzędowa wymaga kilku łańcuchów"
+   ],
+   "uzasadnienie": "Poprawnie wskazałeś strukturę III-rzędową, ale polecenie wymaga też uzasadnienia, a go nie podałeś. Według klucza trzeba wskazać, że rybonukleaza to jeden łańcuch polipeptydowy, więc mostki łączą reszty w obrębie tego samego łańcucha."
+  },
+  {
+   "id": "biologia/2024-czerwiec/19.1#3",
+   "przedmiot": "biologia",
+   "typ": "oblicz",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "obliczenia (p = 0,7; 2pq = 2 · 0,7 · 0,3)"
+   ],
+   "odpowiedz": "Heterozygoty to 0,42.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Podany wynik 0,42 jest zgodny z kluczem (2pq = 2·0,7·0,3). Zadanie wymaga obliczenia częstości heterozygot, a poprawny wynik spełnia kryterium."
+  },
+  {
+   "id": "biologia/2025-maj/3.2#3",
+   "przedmiot": "biologia",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "strefa wydłużania"
+   ],
+   "odpowiedz": "Stożek wzrostu (merystem wierzchołkowy).",
+   "pkt": 0,
+   "brakuje": [
+    "Poprawna nazwa strefy: strefa wydłużania (elongacyjna, wzrostu na długość)"
+   ],
+   "uzasadnienie": "Wskazałeś stożek wzrostu (merystem wierzchołkowy), a w kluczu jest strefa wydłużania. Reakcja wygięcia wynika z nierównomiernego wydłużania komórek, a nie z podziałów w merystemie."
+  },
+  {
+   "id": "biologia/2025-czerwiec/14.1#1",
+   "przedmiot": "biologia",
+   "typ": "wyjasnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "HIV niszczy limfocyty T pomocnicze, więc odporność komórkowa słabnie i nie utrzymuje uśpionych prątków w ryzach – zaczynają się namnażać.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Odpowiedź jest zgodna z kluczem: wskazujesz zniszczenie limfocytów T pomocniczych przez HIV, osłabienie odporności komórkowej oraz brak kontroli nad prątkami, które zaczynają się namnażać."
+  },
+  {
+   "id": "biologia/2025-czerwiec/14.1#2",
+   "przedmiot": "biologia",
+   "typ": "wyjasnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "HIV niszczy limfocyty T pomocnicze (CD4)"
+   ],
+   "odpowiedz": "HIV niszczy limfocyty B, więc organizm nie wytwarza przeciwciał i prątki się namnażają.",
+   "pkt": 0,
+   "brakuje": [
+    "Wskazanie limfocytów T pomocniczych jako komórek niszczonych przez HIV",
+    "Odniesienie do osłabienia odporności komórkowej, a nie humoralnej",
+    "Wyjaśnienie, że odporność komórkowa utrzymuje prątki w uśpieniu, a jej osłabienie umożliwia reaktywację i namnażanie"
+   ],
+   "uzasadnienie": "Błędnie wskazujesz limfocyty B i brak przeciwciał jako przyczynę. Klucz wymaga zniszczenia limfocytów T pomocniczych i osłabienia odporności komórkowej, która utrzymuje prątki w uśpieniu."
+  },
+  {
+   "id": "chemia/2026-maj/24#1",
+   "przedmiot": "chemia",
+   "typ": "uzasadnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Projekt 2, bo najpierw wprowadzamy grupę nitrową, a ona kieruje następny podstawnik (chlor) w położenie meta.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Wskazałeś poprawnie projekt 2 i uzasadniłeś, że grupa nitrowa jako podstawnik II rodzaju kieruje chlor w położenie meta, co jest zgodne z kluczem."
+  },
+  {
+   "id": "biologia/2025-czerwiec/14.1#3",
+   "przedmiot": "biologia",
+   "typ": "wyjasnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "zniszczenie limfocytów T pomocniczych"
+   ],
+   "odpowiedz": "Bo chorzy na AIDS mają słabą odporność.",
+   "pkt": 0,
+   "brakuje": [
+    "wskazanie, że HIV niszczy limfocyty T pomocnicze (CD4+)",
+    "osłabienie odporności komórkowej",
+    "brak kontroli nad prątkami i ich namnażanie (reaktywacja gruźlicy)"
+   ],
+   "uzasadnienie": "Odpowiedź jest zbyt ogólna: samo „słaba odporność” nie wyjaśnia mechanizmu. Klucz wymaga wskazania zniszczenia limfocytów T pomocniczych przez HIV i osłabienia odporności komórkowej, która nie utrzymuje prątków w uśpieniu."
+  },
+  {
+   "id": "chemia/2026-maj/24#3",
+   "przedmiot": "chemia",
+   "typ": "uzasadnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "uzasadnienie (kierujący wpływ grupy –NO₂)"
+   ],
+   "odpowiedz": "Projekt 2.",
+   "pkt": 0,
+   "brakuje": [
+    "uzasadnienie: grupa –NO₂ jest podstawnikiem II rzędu i kieruje kolejny podstawnik (Cl) w położenie meta",
+    "wskazanie, że –Cl kieruje w orto/para, więc projekt 1 nie daje produktu meta"
+   ],
+   "uzasadnienie": "Wskazałeś poprawny projekt (2), ale polecenie wymaga uzasadnienia, a go nie podałeś. Według klucza trzeba wyjaśnić, że –NO₂ kieruje w położenie meta, więc odpowiedź jest niepełna."
+  },
+  {
+   "id": "chemia/2026-maj/24#2",
+   "przedmiot": "chemia",
+   "typ": "uzasadnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "projekt 2: –NO₂ kieruje w meta, –Cl w orto/para"
+   ],
+   "odpowiedz": "Projekt 1, bo chlor kieruje w położenie meta.",
+   "pkt": 0,
+   "brakuje": [
+    "Wskazanie projektu 2 jako prowadzącego do produktu meta",
+    "Informacja, że grupa –NO₂ kieruje kolejny podstawnik w położenie meta",
+    "Informacja, że –Cl kieruje w położenie orto/para, więc chlorowanie jako pierwszy etap nie da produktu meta"
+   ],
+   "uzasadnienie": "Wybrałeś projekt 1, a poprawny jest projekt 2. Uzasadnienie też jest błędne, bo chlor jest kierunkującym orto/para, a nie meta."
+  },
+  {
+   "id": "chemia/2015-maj-f2015/5.1#1",
+   "przedmiot": "chemia",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "sp², cząsteczka płaska (trójkątna).",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Podałeś poprawną hybrydyzację atomu S (sp²) oraz poprawną geometrię cząsteczki (płaska, trójkątna), co jest zgodne z kluczem; określenie „trójkątna” jest równoważne i nie jest sprzeczne."
+  },
+  {
+   "id": "chemia/2015-maj-f2015/5.1#2",
+   "przedmiot": "chemia",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "hybrydyzacja sp²"
+   ],
+   "odpowiedz": "sp³, płaska.",
+   "pkt": 0,
+   "brakuje": [
+    "Poprawna hybrydyzacja atomu siarki: sp² (trzy wiązania σ, brak wolnej pary elektronowej na S)"
+   ],
+   "uzasadnienie": "Geometria (płaska) jest poprawna, ale hybrydyzacja S została podana błędnie (sp³ zamiast sp²). Zgodnie z kluczem obie informacje muszą być poprawne, aby przyznać punkt."
+  },
+  {
+   "id": "chemia/2016-maj-f2015/24.2#1",
+   "przedmiot": "chemia",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "A – kwas propanowy, B – propanon (aceton).",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Podałeś poprawne nazwy obu produktów: A – kwas propanowy, B – propanon. Nazwa zwyczajowa „aceton” w nawiasie jest równoważna i nie jest błędem, więc punkt przysługuje."
+  },
+  {
+   "id": "chemia/2016-maj-f2015/24.2#2",
+   "przedmiot": "chemia",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "A – kwas propanowy"
+   ],
+   "odpowiedz": "A – propanal, B – propanon.",
+   "pkt": 0,
+   "brakuje": [
+    "Poprawna nazwa produktu A: kwas propanowy (uczeń podał propanal, który jest substratem lub produktem pośrednim, a nie produktem utleniania)"
+   ],
+   "uzasadnienie": "Produkt A jest błędny: według klucza to kwas propanowy, a uczeń podał propanal. Poprawny jest tylko produkt B (propanon), a punkt przysługuje tylko za obie nazwy poprawne."
+  },
+  {
+   "id": "chemia/2017-maj-f2015/1.3#1",
+   "przedmiot": "chemia",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "X: H₂Se, Z: CrO₃",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Podajesz oba wzory zgodnie z kluczem: wodorek X to H₂Se, a tlenek Z na maksymalnym stopniu utlenienia to CrO₃. Odpowiedź jest pełna i poprawna."
+  },
+  {
+   "id": "chemia/2026-czerwiec/11.2#1",
+   "przedmiot": "chemia",
+   "typ": "oblicz",
+   "max": 2,
+   "wzor_pkt": 2,
+   "wzor_brakuje": [],
+   "odpowiedz": "W 150 g wody rozpuści się 1,5 · 20 g = 30 g soli, a dodano 70 g, więc roztwór jest nasycony z osadem. Cp = 30 / (30 + 150) · 100% ≈ 16,7%.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Rozstrzygnięcie jest poprawne (roztwór nasycony z osadem), ale rozpuszczalność 20 g trzeba odnieść do 100 g wody, więc w 150 g wody rozpuści się 30 g, nie 1,5·20... w rzeczywistości 1,5·20 = 30 g to poprawne. Cp = 30/180·100% ≈ 16,7% jest poprawne, więc pełna odpowiedź."
+  },
+  {
+   "id": "chemia/2017-maj-f2015/1.3#2",
+   "przedmiot": "chemia",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "tlenek na maksymalnym stopniu utlenienia: CrO₃"
+   ],
+   "odpowiedz": "X: H₂Se, Z: Cr₂O₃",
+   "pkt": 0,
+   "brakuje": [
+    "Poprawny wzór tlenku Z na maksymalnym stopniu utlenienia: CrO₃ (zamiast Cr₂O₃)"
+   ],
+   "uzasadnienie": "Wzór wodorku X (H₂Se) jest poprawny, ale tlenek Z na maksymalnym stopniu utlenienia to CrO₃ (Cr(VI)), a nie Cr₂O₃ (Cr(III)). Obie części odpowiedzi muszą być poprawne, więc nie ma punktu."
+  },
+  {
+   "id": "chemia/2026-czerwiec/11.2#2",
+   "przedmiot": "chemia",
+   "typ": "oblicz",
+   "max": 2,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [
+    "Cp liczone tylko z rozpuszczonej soli (30 g) – ok. 16,7%"
+   ],
+   "odpowiedz": "Roztwór nasycony. Cp = 70 / 220 · 100% = 31,8%.",
+   "pkt": 1,
+   "brakuje": [
+    "Obliczenie masy soli rozpuszczonej w 150 g wody: 30 g (reszta 40 g to osad)",
+    "Poprawna masa roztworu: 180 g",
+    "Poprawny wynik Cp ≈ 16,7%"
+   ],
+   "uzasadnienie": "Poprawnie rozstrzygnąłeś, że roztwór jest nasycony (1 pkt), ale do obliczeń użyłeś całej masy soli (70 g), choć w roztworze jest rozpuszczone tylko 30 g (20 g/100 g wody · 150 g), więc Cp jest błędne."
+  },
+  {
+   "id": "chemia/2025-maj/13#1",
+   "przedmiot": "chemia",
+   "typ": "oblicz",
+   "max": 2,
+   "wzor_pkt": 2,
+   "wzor_brakuje": [],
+   "odpowiedz": "N₂ + 3H₂ ⇌ 2NH₃; przereagowało x N₂. Suma: 0,8 − 2x = 0,75 · 0,8 = 0,6 → x = 0,1. [N₂] = 0,1; [H₂] = 0,3; [NH₃] = 0,2. Kc = 0,2² / (0,1 · 0,3³) = 0,04 / 0,0027 ≈ 14,8.",
+   "pkt": 2,
+   "brakuje": [],
+   "uzasadnienie": "Metoda jest poprawna: bilans moli (0,8 − 2x = 0,6, x = 0,1), stężenia równowagowe 0,1; 0,3; 0,2 i wyrażenie na Kc. Wynik ≈ 14,8 zgadza się z kluczem, a Kc tej reakcji jest bezwymiarowe lub ma jednostkę dm⁶·mol⁻², więc brak jednostki nie jest tu istotnym błędem."
+  },
+  {
+   "id": "chemia/2026-czerwiec/11.2#3",
+   "przedmiot": "chemia",
+   "typ": "oblicz",
+   "max": 2,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "roztwór nasycony",
+    "Cp ≈ 16,7%"
+   ],
+   "odpowiedz": "Roztwór nienasycony, Cp = 70/150 = 46,7%.",
+   "pkt": 0,
+   "brakuje": [
+    "Wniosek: roztwór nasycony z osadem (w 150 g wody rozpuszcza się tylko 30 g soli)",
+    "Poprawna masa substancji rozpuszczonej: 30 g",
+    "Poprawna masa roztworu: 180 g",
+    "Wynik Cp ≈ 16,7%"
+   ],
+   "uzasadnienie": "Błędnie określono typ roztworu (nienasycony zamiast nasyconego z osadem) oraz błędnie obliczono Cp: nie uwzględniono, że rozpuści się tylko część soli, a masę roztworu liczono niepoprawnie."
+  },
+  {
+   "id": "chemia/2025-maj/13#3",
+   "przedmiot": "chemia",
+   "typ": "oblicz",
+   "max": 2,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "metoda: bilans stężeń z warunku spadku ciśnienia",
+    "Kc ≈ 14,8"
+   ],
+   "odpowiedz": "Kc = 0,75",
+   "pkt": 0,
+   "brakuje": [
+    "równanie reakcji N₂ + 3H₂ ⇌ 2NH₃",
+    "bilans stężeń w stanie równowagi z użyciem x (spadek liczby moli/ciśnienia do 75%)",
+    "wyznaczenie stężeń równowagowych N₂, H₂, NH₃",
+    "wyrażenie na Kc i poprawne podstawienie",
+    "wynik ok. 14,8 (z uwzględnieniem jednostki wg zasad)"
+   ],
+   "uzasadnienie": "Podana wartość Kc = 0,75 jest błędna (klucz: ok. 14,8) i nie pokazano żadnej metody; wygląda na przepisanie ułamka ciśnienia, a nie obliczenie stałej równowagi."
+  },
+  {
+   "id": "chemia/2025-maj/13#2",
+   "przedmiot": "chemia",
+   "typ": "oblicz",
+   "max": 2,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "błędne wyrażenie na Kc (brak potęg) – błąd metody, wynik ok. 14,8"
+   ],
+   "odpowiedz": "x = 0,1, więc [N₂] = 0,1, [H₂] = 0,3, [NH₃] = 0,2. Kc = 0,2 / (0,1 · 0,3) = 6,67.",
+   "pkt": 1,
+   "brakuje": [
+    "Poprawne wyrażenie na stałą równowagi: Kc = [NH₃]² / ([N₂]·[H₂]³)",
+    "Prawidłowy wynik liczbowy Kc ≈ 14,8"
+   ],
+   "uzasadnienie": "Poprawnie wyznaczasz x = 0,1 i stężenia równowagowe (N₂ 0,1; H₂ 0,3; NH₃ 0,2), więc ta część bilansu jest dobra. Wyrażenie na Kc jest jednak błędne, bo pominąłeś współczynniki stechiometryczne jako wykładniki, więc wynik 6,67 jest zły."
+  },
+  {
+   "id": "chemia/2026-czerwiec/6#1",
+   "przedmiot": "chemia",
+   "typ": "wyjasnij",
+   "max": 2,
+   "wzor_pkt": 2,
+   "wzor_brakuje": [],
+   "odpowiedz": "To glin. W AlCl₃ glin ma tylko 6 elektronów walencyjnych (luka elektronowa), więc przyjmuje wolną parę elektronową od atomu chloru sąsiedniej cząsteczki i tworzy wiązanie koordynacyjne – powstaje dimer Al₂Cl₆. [wzór elektronowy: Al z trzema wiązaniami do Cl, każdy Cl z trzema wolnymi parami]",
+   "pkt": 2,
+   "brakuje": [],
+   "uzasadnienie": "Poprawnie zidentyfikowałeś glin (AlCl₃), opisałeś wzór elektronowy monomeru (Al z trzema wiązaniami, każdy Cl z trzema wolnymi parami) i wyjaśniłeś dimeryzację lukę elektronową Al (6 elektronów) oraz wiązaniem koordynacyjnym z wolnej pary Cl."
+  },
+  {
+   "id": "geografia/2026-maj/6.1#1",
+   "przedmiot": "geografia",
+   "typ": "wyjasnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Flisz to na przemian ułożone warstwy piaskowców i łupków. Łupki nasiąkają wodą i robią się śliskie, więc warstwy położone wyżej na nachylonym stoku zsuwają się po nich.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Wskazujesz naprzemienne warstwy piaskowców i łupków, nasiąkanie łupków wodą i powstanie śliskiej powierzchni poślizgu oraz zsuwanie się warstw na nachylonym stoku. To jest zgodne z kluczem."
+  },
+  {
+   "id": "chemia/2022-grudzien/8#1",
+   "przedmiot": "chemia",
+   "typ": "oblicz",
+   "max": 2,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "obliczenia (metoda)"
+   ],
+   "odpowiedz": "Około 38% glinu, bo tyle wychodzi z proporcji.",
+   "pkt": 0,
+   "brakuje": [
+    "równania reakcji Mg i Al z HCl",
+    "obliczenie ilości wodoru z mieszaniny Mg i Cu (Cu nie reaguje)",
+    "obliczenie masy mieszaniny Mg + Cu",
+    "zapisanie, że masa Al + Ag jest taka sama i ilość H2 jest równa",
+    "obliczenie masy Al i jej procentu w mieszaninie z Ag"
+   ],
+   "uzasadnienie": "Podajesz tylko wynik (ok. 38%), zgodny z kluczem, ale bez żadnej metody ani obliczeń. Zgodnie z kryterium pełna punktacja wymaga poprawnej metody i obliczeń, a samo uzasadnienie „z proporcji” to ogólnik."
+  },
+  {
+   "id": "geografia/2026-maj/10.1#1",
+   "przedmiot": "geografia",
+   "typ": "wyjasnij",
+   "max": 2,
+   "wzor_pkt": 2,
+   "wzor_brakuje": [],
+   "odpowiedz": "Stacja A leży na wybrzeżu, przy zimnym Prądzie Benguelskim, który ochładza powietrze i utrudnia parowanie i powstawanie chmur, więc opadów jest mało. Stacja B leży w głębi lądu, gdzie latem dociera strefa zbieżności i występują deszcze zenitalne.",
+   "pkt": 2,
+   "brakuje": [],
+   "uzasadnienie": "Odpowiedź zawiera oba wymagane elementy: dla stacji A zimny Prąd Benguelski ochładzający powietrze i hamujący parowanie (mało opadów), a dla B położenie w głębi lądu i letnie dotarcie strefy zbieżności z deszczami zenitalnymi. Nie ma elementów błędnych ani sprzecznych."
+  },
+  {
+   "id": "geografia/2026-maj/6.1#2",
+   "przedmiot": "geografia",
+   "typ": "wyjasnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "naprzemianległe piaskowce i łupki",
+    "łupki nasiąknięte wodą jako powierzchnia poślizgu"
+   ],
+   "odpowiedz": "Bo flisz jest miękki i się osuwa.",
+   "pkt": 0,
+   "brakuje": [
+    "Wskazanie naprzemianległego układu piaskowców i łupków",
+    "Rola łupków: nasiąkają wodą i tworzą śliską powierzchnię poślizgu",
+    "Nachylenie warstw sprzyjające zsuwaniu się po stoku"
+   ],
+   "uzasadnienie": "Odpowiedź jest ogólnikowa i częściowo nieprawdziwa. Nie wskazujesz naprzemianległości warstw przepuszczalnych (piaskowce) i nieprzepuszczalnych (łupki) ani roli łupków jako powierzchni poślizgu."
+  },
+  {
+   "id": "geografia/2026-maj/10.1#2",
+   "przedmiot": "geografia",
+   "typ": "wyjasnij",
+   "max": 2,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [
+    "wyjaśnienie dla stacji B (strefa zbieżności, deszcze zenitalne)"
+   ],
+   "odpowiedz": "Na stacji A jest mało opadów przez zimny prąd morski.",
+   "pkt": 1,
+   "brakuje": [
+    "Wyjaśnienie większych opadów na stacji B: położenie w głębi lądu i latem dotarcie strefy zbieżności z deszczami zenitalnymi",
+    "Mechanizm działania zimnego prądu: chłodzi powietrze, stabilizuje je i hamuje parowanie oraz konwekcję",
+    "Nazwa prądu (Benguelski) – nieobowiązkowa, ale wzmacnia odpowiedź"
+   ],
+   "uzasadnienie": "Poprawnie wyjaśniasz małe opady na stacji A wpływem zimnego prądu morskiego (1 pkt), ale nie wyjaśniasz opadów na stacji B, więc brakuje drugiej części porównania."
+  },
+  {
+   "id": "geografia/2026-maj/6.1#3",
+   "przedmiot": "geografia",
+   "typ": "wyjasnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "rola łupków / wody jako powierzchni poślizgu"
+   ],
+   "odpowiedz": "Flisz składa się z różnych warstw skał.",
+   "pkt": 0,
+   "brakuje": [
+    "wskazanie naprzemianległości przepuszczalnych piaskowców i nieprzepuszczalnych łupków",
+    "wyjaśnienie, że łupki nasiąkają wodą i tworzą śliską powierzchnię poślizgu",
+    "wskazanie, że nachylone warstwy mogą zsuwać się po stoku"
+   ],
+   "uzasadnienie": "Odpowiedź jest zbyt ogólna: stwierdzenie, że flisz składa się z różnych warstw skał, nie wyjaśnia, dlaczego sprzyja to ruchom masowym. Brakuje roli łupków i powierzchni poślizgu."
+  },
+  {
+   "id": "geografia/2023-czerwiec/1.2#1",
+   "przedmiot": "geografia",
+   "typ": "wyjasnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Od strony otwartego morza fale i prąd przybrzeżny są silne i wyrównują brzeg, a w Zatoce Puckiej falowanie jest słabe, więc brzeg pozostaje urozmaicony.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Odpowiedź jest zgodna z kluczem: wskazujesz, że od strony otwartego morza silne fale i prąd przybrzeżny wyrównują brzeg, a w Zatoce Puckiej słabe falowanie pozostawia go urozmaicony."
+  },
+  {
+   "id": "geografia/2026-maj/10.1#3",
+   "przedmiot": "geografia",
+   "typ": "wyjasnij",
+   "max": 2,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "zimny prąd przy A",
+    "deszcze zenitalne przy B"
+   ],
+   "odpowiedz": "Stacja B jest wyżej, a im wyżej, tym zawsze mniej opadów, a na wybrzeżu pada dużo przez bliskość morza.",
+   "pkt": 0,
+   "brakuje": [
+    "wpływ zimnego prądu Benguelskiego na stacji A (chłodzenie powietrza, hamowanie parowania, mało opadów)",
+    "wyjaśnienie wysokich opadów na stacji B: latem dociera strefa zbieżności z deszczami zenitalnymi",
+    "poprawne określenie, że na stacji A opadów jest mniej niż na B",
+    "usunięcie błędnego uogólnienia, że wysokość n.p.m. zawsze zmniejsza opady"
+   ],
+   "uzasadnienie": "Odpowiedź jest sprzeczna z kluczem i treścią zadania: wybrzeże (A) ma mniej opadów, a nie więcej, a teza, że wyżej zawsze pada mniej, jest błędna. Nie wskazano zimnego prądu Benguelskiego ani strefy zbieżności z opadami zenitalnymi."
+  },
+  {
+   "id": "geografia/2024-grudzien/10#2",
+   "przedmiot": "geografia",
+   "typ": "podaj",
+   "max": 2,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [
+    "uwarunkowanie astronomiczne – siła Coriolisa"
+   ],
+   "odpowiedz": "Wieje od wyżu zwrotnikowego do niżu równikowego.",
+   "pkt": 1,
+   "brakuje": [
+    "uwarunkowanie astronomiczne: ruch obrotowy Ziemi / siła Coriolisa",
+    "odchylenie wiatru w prawo na półkuli północnej i w lewo na południowej (pasaty NE i SE)"
+   ],
+   "uzasadnienie": "Uwarunkowanie baryczne jest poprawne (od wyżów zwrotnikowych do niżu równikowego), ale brakuje uwarunkowania astronomicznego, czyli odchylenia wiatru przez ruch obrotowy Ziemi (siłę Coriolisa)."
+  },
+  {
+   "id": "geografia/2023-czerwiec/1.2#2",
+   "przedmiot": "geografia",
+   "typ": "wyjasnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "wyrównywanie brzegu przez fale i prąd przybrzeżny (pływy na Bałtyku są znikome)"
+   ],
+   "odpowiedz": "W zatoce fale są słabe; od strony morza brzeg jest wyrównany przez pływy.",
+   "pkt": 0,
+   "brakuje": [
+    "Błędny czynnik: pływy zamiast falowania i prądu przybrzeżnego wyrównujących brzeg od strony morza",
+    "Brak wskazania prądu przybrzeżnego (wzdłużbrzegowego)"
+   ],
+   "uzasadnienie": "Poprawnie podajesz, że w zatoce fale są słabe, ale od strony otwartego morza wskazujesz pływy jako czynnik wyrównujący brzeg. To błąd, bo na Bałtyku pływy są pomijalne, a brzeg wyrównują fale i prąd przybrzeżny. Poprawna informacja obok błędnej nie daje punktu."
+  },
+  {
+   "id": "geografia/2024-grudzien/10#3",
+   "przedmiot": "geografia",
+   "typ": "podaj",
+   "max": 2,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [
+    "kierunek: od wyżu do niżu"
+   ],
+   "odpowiedz": "Wiatr wieje od niżu równikowego do wyżów zwrotnikowych, a odchyla go ruch obrotowy Ziemi.",
+   "pkt": 1,
+   "brakuje": [
+    "Poprawny kierunek barycznego przemieszczania powietrza: od wyżów zwrotnikowych do niżu równikowego",
+    "Wskazanie odchylenia: na półkuli północnej w prawo, na południowej w lewo (siła Coriolisa)"
+   ],
+   "uzasadnienie": "Astronomiczne uwarunkowanie jest poprawne (ruch obrotowy Ziemi odchyla wiatr), ale baryczne jest błędne – kierunek wiatru podano odwrotnie (pasat wieje od wyżów zwrotnikowych do niżu równikowego)."
+  },
+  {
+   "id": "geografia/2024-grudzien/10#1",
+   "przedmiot": "geografia",
+   "typ": "podaj",
+   "max": 2,
+   "wzor_pkt": 2,
+   "wzor_brakuje": [],
+   "odpowiedz": "Baryczne: wiatr wieje od wyżów zwrotnikowych do niżu równikowego. Astronomiczne: ruch obrotowy Ziemi (siła Coriolisa) odchyla go – na półkuli północnej w prawo, na południowej w lewo.",
+   "pkt": 2,
+   "brakuje": [],
+   "uzasadnienie": "Podajesz poprawne uwarunkowanie baryczne (od wyżów zwrotnikowych do niżu równikowego) i astronomiczne (ruch obrotowy Ziemi, siła Coriolisa, odchylenie w prawo na N i w lewo na S). Brak nazwy pasatu NE/SE nie obniża oceny, bo polecenie dotyczy uwarunkowań."
+  },
+  {
+   "id": "geografia/2024-czerwiec/28#1",
+   "przedmiot": "geografia",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Duże, zasobne w wodę rzeki (np. Parana) i wysokie opady w strefie równikowej.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Podajesz dwie poprawne cechy zgodne z kluczem: zasobne w wodę rzeki o dużych przepływach oraz wysokie opady. Przykład rzeki Parana jest trafny, a strefa równikowa nie przeczy treści zadania."
+  },
+  {
+   "id": "geografia/2024-czerwiec/28#2",
+   "przedmiot": "geografia",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "druga cecha (np. wysokie opady, duże spadki rzek)"
+   ],
+   "odpowiedz": "Dużo rzek.",
+   "pkt": 0,
+   "brakuje": [
+    "druga cecha środowiska (np. wysokie opady lub duże spadki rzek na krawędziach wyżyn)",
+    "doprecyzowanie, że rzeki mają duże przepływy i są zasobne w wodę"
+   ],
+   "uzasadnienie": "Zadanie wymaga podania dwóch cech, a uczeń podał tylko jedną, i to zbyt ogólną. Samo „dużo rzek” nie wskazuje, że rzeki są zasobne w wodę, mają duże przepływy lub duże spadki, więc nie spełnia kryterium."
+  },
+  {
+   "id": "geografia/2024-grudzien/30#1",
+   "przedmiot": "geografia",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Szybki wzrost gospodarczy krajów wschodzących, zwłaszcza Chin i Indii, do których przeniesiono dużą część produkcji.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Wskazujesz szybki rozwój krajów wschodzących (Chiny, Indie) oraz przeniesienie do nich produkcji, co jest merytorycznie zgodne z kluczem. Brak wzmianki o wolnym wzroście G7 nie przekreśla odpowiedzi, bo spadek udziału wynika z szybszego wzrostu innych krajów."
+  },
+  {
+   "id": "geografia/2024-grudzien/30#2",
+   "przedmiot": "geografia",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "szybki rozwój gospodarek wschodzących"
+   ],
+   "odpowiedz": "Kraje G7 zmniejszyły liczbę ludności.",
+   "pkt": 0,
+   "brakuje": [
+    "Wskazanie szybkiego rozwoju gospodarczego krajów wschodzących (Chiny, Indie)",
+    "Wskazanie przenoszenia produkcji do tych krajów",
+    "Odniesienie do wolniejszego wzrostu PKB w G7"
+   ],
+   "uzasadnienie": "Podane uwarunkowanie jest błędne: ludność krajów G7 nie zmalała znacząco, a spadek udziału wynika z szybszego wzrostu gospodarek wschodzących (Chiny, Indie). Odpowiedź nie odnosi się do klucza."
+  },
+  {
+   "id": "historia/2025-maj/4#1",
+   "przedmiot": "historia",
+   "typ": "podaj",
+   "max": 2,
+   "wzor_pkt": 2,
+   "wzor_brakuje": [],
+   "odpowiedz": "A – franciszkanie, B – benedyktyni, C – jezuici.",
+   "pkt": 2,
+   "brakuje": [],
+   "uzasadnienie": "Wszystkie trzy nazwy zakonów są poprawne i przypisane do właściwych opisów (A – franciszkanie, B – benedyktyni, C – jezuici), co odpowiada kluczowi na 2 pkt."
+  },
+  {
+   "id": "geografia/2026-styczen/24#1",
+   "przedmiot": "geografia",
+   "typ": "wykaz",
+   "max": 2,
+   "wzor_pkt": 2,
+   "wzor_brakuje": [],
+   "odpowiedz": "W Australii większość kraju ma suchy klimat, dlatego dominują pastwiska (wypas owiec), a uprawy są tylko na wilgotniejszym południowym wschodzie. W Danii są równiny, klimat umiarkowany i żyzne gleby, więc przeważają grunty orne.",
+   "pkt": 2,
+   "brakuje": [],
+   "uzasadnienie": "Odpowiedź zawiera oba wymagane elementy: dla Australii suchy klimat prowadzi do dominacji pastwisk, a uprawy są ograniczone do południowego wschodu; dla Danii równiny, umiarkowany klimat i żyzne gleby warunkują przewagę gruntów ornych. Wszystko jest zgodne z kluczem."
+  },
+  {
+   "id": "historia/2026-maj/18.2#1",
+   "przedmiot": "historia",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Nie. Znaczek upamiętnia traktat wersalski z 1919 r., a dokument dotyczy ustaleń konferencji poczdamskiej z 1945 r. – granica na Odrze i Nysie, Gdańsk pod polską administracją.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Rozstrzygnięcie 'Nie' jest poprawne, a uzasadnienie wskazuje traktat wersalski (1919) na znaczku i konferencję poczdamską (1945) jako źródło dokumentu, z odwołaniem do treści: granica na Odrze i Nysie, Gdańsk. Zgodne z kluczem."
+  },
+  {
+   "id": "historia/2025-maj/4#2",
+   "przedmiot": "historia",
+   "typ": "podaj",
+   "max": 2,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [
+    "B – benedyktyni"
+   ],
+   "odpowiedz": "A – franciszkanie, B – cystersi, C – jezuici.",
+   "pkt": 1,
+   "brakuje": [
+    "B – benedyktyni (podano błędnie cystersów)"
+   ],
+   "uzasadnienie": "Dwie nazwy są poprawne (A – franciszkanie, C – jezuici), a B jest błędne: Monte Cassino to opactwo benedyktynów, nie cystersów. Zgodnie z zasadami dwie poprawne nazwy dają 1 pkt."
+  },
+  {
+   "id": "historia/2025-maj/4#3",
+   "przedmiot": "historia",
+   "typ": "podaj",
+   "max": 2,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "A – franciszkanie",
+    "B – benedyktyni"
+   ],
+   "odpowiedz": "A – dominikanie, B – cystersi, C – jezuici.",
+   "pkt": 0,
+   "brakuje": [
+    "A – franciszkanie (zamiast dominikanów)",
+    "B – benedyktyni (zamiast cystersów)"
+   ],
+   "uzasadnienie": "Tylko C (jezuici) jest poprawne; A (franciszkanie) i B (benedyktyni) są błędne. Do 1 pkt potrzebne są dwie poprawne nazwy, więc odpowiedź nie spełnia kryterium."
+  },
+  {
+   "id": "geografia/2026-styczen/24#2",
+   "przedmiot": "geografia",
+   "typ": "wykaz",
+   "max": 2,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [
+    "Australia: suchy klimat → przewaga pastwisk"
+   ],
+   "odpowiedz": "W Danii dominują grunty orne dzięki równinom i żyznym glebom.",
+   "pkt": 1,
+   "brakuje": [
+    "Australia: suchy klimat w większości kraju, który ogranicza uprawy",
+    "Australia: dominacja pastwisk (np. wypas owiec), a uprawy tylko na SE/w strefach z większą ilością opadów"
+   ],
+   "uzasadnienie": "Poprawnie opisałeś Danię: dominują grunty orne dzięki równinom i żyznym glebom. Brakuje całkowicie części dotyczącej Australii, więc to odpowiedź częściowa."
+  },
+  {
+   "id": "historia/2024-maj/24#1",
+   "przedmiot": "historia",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Nie. Mapa przedstawia interwencję Układu Warszawskiego w Czechosłowacji w 1968 r., a tekst – stłumienie powstania na Węgrzech w 1956 r. (Imre Nagy).",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Uczeń poprawnie rozstrzygnął, że mapa i tekst nie dotyczą tych samych wydarzeń, i uzasadnił to, wskazując interwencję w Czechosłowacji w 1968 r. oraz stłumienie powstania na Węgrzech w 1956 r. (Imre Nagy). Jest to zgodne z kluczem."
+  },
+  {
+   "id": "historia/2026-maj/18.2#2",
+   "przedmiot": "historia",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "uzasadnienie: Wersal 1919 vs Poczdam 1945"
+   ],
+   "odpowiedz": "Nie, bo to są różne dokumenty.",
+   "pkt": 0,
+   "brakuje": [
+    "wskazanie, że znaczek upamiętnia traktat wersalski (1919)",
+    "wskazanie, że dokument pochodzi z konferencji poczdamskiej (1945)",
+    "odwołanie do treści dokumentu, np. granica na Odrze, Gdańsk, część Prus Wschodnich pod administracją Polski"
+   ],
+   "uzasadnienie": "Rozstrzygnięcie „nie” jest poprawne, ale uzasadnienie jest ogólnikowe i nie odwołuje się do źródeł. Nie wskazano, że znaczek dotyczy traktatu wersalskiego, a fragment dokumentu – postanowień konferencji poczdamskiej."
+  },
+  {
+   "id": "historia/2026-maj/18.2#3",
+   "przedmiot": "historia",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "dokument dotyczy konferencji poczdamskiej"
+   ],
+   "odpowiedz": "Nie. Znaczek dotyczy traktatu wersalskiego, a dokument konferencji w Jałcie.",
+   "pkt": 0,
+   "brakuje": [
+    "Poprawne wskazanie konferencji poczdamskiej (1945) zamiast jałtańskiej",
+    "Odwołanie do treści dokumentu (granica na Odrze, Gdańsk, część Prus Wschodnich pod administracją Polski)"
+   ],
+   "uzasadnienie": "Rozstrzygnięcie „Nie” i wskazanie traktatu wersalskiego na znaczku są poprawne, ale uzasadnienie zawiera błąd: dokument pochodzi z konferencji poczdamskiej (1945), a nie jałtańskiej. Błędna informacja obok poprawnej wyklucza przyznanie punktu."
+  },
+  {
+   "id": "historia/2024-maj/24#2",
+   "przedmiot": "historia",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "mapa: Czechosłowacja 1968, tekst: Węgry 1956"
+   ],
+   "odpowiedz": "Tak, obie dotyczą Praskiej Wiosny.",
+   "pkt": 0,
+   "brakuje": [
+    "Poprawne rozstrzygnięcie: mapa i tekst NIE dotyczą tych samych wydarzeń",
+    "Wskazanie, że mapa przedstawia inwazję Układu Warszawskiego na Czechosłowację w 1968 r.",
+    "Wskazanie, że tekst dotyczy powstania węgierskiego z 1956 r. (Nagy, wystąpienie z Układu Warszawskiego)"
+   ],
+   "uzasadnienie": "Rozstrzygnięcie jest błędne: według klucza mapa i tekst dotyczą różnych wydarzeń (mapa – interwencja w Czechosłowacji 1968, tekst – powstanie węgierskie 1956), a uczeń twierdzi, że to te same."
+  },
+  {
+   "id": "historia/2024-grudzien/5.1#1",
+   "przedmiot": "historia",
+   "typ": "wyjasnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Dictatus papae głosił wyższość papieża nad cesarzem. Henryk IV się temu sprzeciwił, został ekskomunikowany i musiał ukorzyć się przed papieżem w Canossie w 1077 r.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Odpowiedź jest zgodna z kluczem: wskazujesz, że Dictatus papae głosił wyższość papieża nad cesarzem, a sprzeciw Henryka IV doprowadził do ekskomuniki i pokuty w Canossie w 1077 r. Związek przyczynowo-skutkowy został poprawnie wyjaśniony."
+  },
+  {
+   "id": "historia/2024-grudzien/5.1#2",
+   "przedmiot": "historia",
+   "typ": "wyjasnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "ekskomunika Henryka IV i Canossa"
+   ],
+   "odpowiedz": "Dokument wywołał konflikt między papieżem a cesarzem.",
+   "pkt": 0,
+   "brakuje": [
+    "wskazanie, że Dictatus papae głosił wyższość papieża nad władzą świecką/cesarzem",
+    "wskazanie sprzeciwu Henryka IV i jego ekskomuniki",
+    "powiązanie z wydarzeniem ze źródła 2 – upokorzeniem Henryka IV w Canossie (1077)"
+   ],
+   "uzasadnienie": "Odpowiedź jest zbyt ogólna: wspomina o konflikcie papieża z cesarzem, ale nie wyjaśnia związku przyczynowo-skutkowego między Dictatus papae a wydarzeniem ze źródła 2 (Canossa)."
+  },
+  {
+   "id": "historia/2024-maj/24#3",
+   "przedmiot": "historia",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Nie – tekst wspomina Nagya i wystąpienie z Układu Warszawskiego, czyli Węgry 1956, a mapa pokazuje wkroczenie wojsk do Czechosłowacji w 1968.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Poprawnie rozstrzygasz, że mapa i tekst nie dotyczą tych samych wydarzeń, i uzasadniasz to odwołaniem do źródeł: tekst – Nagy i wystąpienie z Układu Warszawskiego (Węgry 1956), mapa – wkroczenie wojsk do Czechosłowacji (1968)."
+  },
+  {
+   "id": "historia/2026-maj/22#1",
+   "przedmiot": "historia",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Nie. Na wykresie są Polska i Czechosłowacja, które pod naciskiem ZSRS odrzuciły plan Marshalla, a także państwa spoza Europy, np. Chiny – a plan dotyczył Europy.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Rozstrzygnięcie „Nie” jest poprawne, a uzasadnienie zgodne z kluczem: odwołujesz się do Polski i Czechosłowacji, które pod naciskiem ZSRS odrzuciły plan, oraz do państw spoza Europy (Chiny), a plan dotyczył Europy."
+  },
+  {
+   "id": "historia/2024-grudzien/4#1",
+   "przedmiot": "historia",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Tak. Oba źródła dotyczą Bolesława Chrobrego – napis mówi o synu poganina i chrześcijanki, a źródło 2 o zjeździe gnieźnieńskim, gdy Otton III włożył mu na głowę diadem.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Poprawnie rozstrzygasz, że źródła dotyczą tego samego władcy (Bolesława Chrobrego), i uzasadniasz to odwołaniem do obu źródeł: pochodzenie z napisu oraz zjazd gnieźnieński z włożeniem diademu przez Ottona III."
+  },
+  {
+   "id": "historia/2026-maj/22#2",
+   "przedmiot": "historia",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "Polska odrzuciła udział pod presją ZSRS"
+   ],
+   "odpowiedz": "Nie, bo Polska nie wzięła udziału w planie Marshalla, gdyż nie została zaproszona przez USA.",
+   "pkt": 0,
+   "brakuje": [
+    "Błędna informacja, że Polska nie została zaproszona (w rzeczywistości odrzuciła plan pod presją ZSRS)",
+    "Brak wskazania Czechosłowacji, która również odrzuciła plan",
+    "Brak odwołania do krajów pozaeuropejskich z wykresu (Chiny, Filipiny, Etiopia)",
+    "Brak informacji, że plan Marshalla dotyczył tylko Europy"
+   ],
+   "uzasadnienie": "Rozstrzygnięcie „Nie” jest poprawne, ale uzasadnienie zawiera błąd merytoryczny: Polska została zaproszona i początkowo była skłonna uczestniczyć, po czym pod presją ZSRS odrzuciła plan. Brak też odwołania do krajów spoza Europy widocznych na wykresie."
+  },
+  {
+   "id": "historia/2024-grudzien/4#2",
+   "przedmiot": "historia",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "oba – Bolesław Chrobry"
+   ],
+   "odpowiedz": "Nie, pierwsze dotyczy Mieszka I, a drugie Bolesława Chrobrego.",
+   "pkt": 0,
+   "brakuje": [
+    "Poprawne rozstrzygnięcie: oba źródła dotyczą tego samego władcy, Bolesława Chrobrego",
+    "Uzasadnienie z odwołaniem do źródła 1: syn poganina i chrześcijanki, wyniesiony przez cesarza",
+    "Uzasadnienie z odwołaniem do źródła 2: zjazd gnieźnieński, arcybiskupstwo dla Radzima, korona od Ottona III"
+   ],
+   "uzasadnienie": "Rozstrzygnięcie jest błędne: według klucza oba źródła dotyczą Bolesława Chrobrego, a uczeń twierdzi, że nie i przypisuje pierwsze źródło Mieszkowi I."
+  },
+  {
+   "id": "historia/2026-czerwiec/22#1",
+   "przedmiot": "historia",
+   "typ": "uzasadnij",
+   "max": 2,
+   "wzor_pkt": 2,
+   "wzor_brakuje": [],
+   "odpowiedz": "Fragment o ziemiach polskich mówi o powołaniu rządu w Lublinie i powrocie Piłsudskiego do Warszawy (10 XI 1918), a fragment o Europie – o abdykacji Wilhelma II i rewolucji w Niemczech (9 XI 1918).",
+   "pkt": 2,
+   "brakuje": [],
+   "uzasadnienie": "Podajesz dwa poprawne argumenty zgodne z kluczem: Rząd Tymczasowy w Lublinie i powrót Piłsudskiego (10 XI 1918) oraz abdykację Wilhelma II i rewolucję w Niemczech (9 XI 1918). Każdy z nich osadza fragment w listopadzie 1918 r."
+  },
+  {
+   "id": "historia/2026-czerwiec/22#2",
+   "przedmiot": "historia",
+   "typ": "uzasadnij",
+   "max": 2,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [
+    "argument dotyczący drugiego fragmentu (abdykacja Wilhelma II / rewolucja w Niemczech)"
+   ],
+   "odpowiedz": "Wtedy wrócił Piłsudski i Polska odzyskała niepodległość.",
+   "pkt": 1,
+   "brakuje": [
+    "Drugi argument: abdykacja Wilhelma II i rewolucja w Niemczech (9 XI 1918) lub zakończenie wojny",
+    "Konkretne wydarzenie zamiast ogólnika o odzyskaniu niepodległości (np. Rząd Tymczasowy w Lublinie)",
+    "Odniesienie do treści obu fragmentów źródłowych"
+   ],
+   "uzasadnienie": "Wskazałeś powrót Piłsudskiego, co odpowiada jednemu argumentowi z klucza (10 XI 1918). Sformułowanie „Polska odzyskała niepodległość” jest ogólnikowe i nie odnosi się do konkretnego wydarzenia (np. Rząd Tymczasowy w Lublinie), a brakuje argumentu europejskiego."
+  },
+  {
+   "id": "wos/2024-maj/17.4#1",
+   "przedmiot": "wos",
+   "typ": "uzasadnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Europejski Trybunał Praw Człowieka nie jest instytucją UE – działa w ramach Rady Europy.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Wskazałeś właściwą instytucję spoza systemu UE (Europejski Trybunał Praw Człowieka) i poprawnie uzasadniłeś, że działa w ramach Rady Europy. Odpowiedź jest zgodna z kluczem, choć nazwa trybunału jest podana nieformalnie."
+  },
+  {
+   "id": "wos/2024-maj/17.4#3",
+   "przedmiot": "wos",
+   "typ": "uzasadnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "wskazanie ETPC (Rada Europy)"
+   ],
+   "odpowiedz": "Trybunał Sprawiedliwości UE nie należy do systemu instytucjonalnego UE.",
+   "pkt": 0,
+   "brakuje": [
+    "Wskazanie właściwej instytucji spoza systemu UE (Europejski Trybunał Praw Człowieka)",
+    "Uzasadnienie, że ETPC należy do systemu Rady Europy",
+    "Usunięcie błędnego twierdzenia o TSUE"
+   ],
+   "uzasadnienie": "Uczeń twierdzi, że Trybunał Sprawiedliwości UE nie należy do systemu instytucjonalnego UE, a to nieprawda – TSUE jest jedną z głównych instytucji UE. Prawidłowa odpowiedź wskazuje Europejski Trybunał Praw Człowieka jako instytucję Rady Europy."
+  },
+  {
+   "id": "wos/2026-maj/16.2#1",
+   "przedmiot": "wos",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Organizacja Narodów Zjednoczonych",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Podajesz pełną, poprawną polską nazwę organizacji zgodną z kluczem (Organizacja Narodów Zjednoczonych), więc spełniasz kryterium na 1 pkt."
+  },
+  {
+   "id": "wos/2026-maj/16.2#2",
+   "przedmiot": "wos",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "pełna nazwa (polecenie wymaga pełnej nazwy)"
+   ],
+   "odpowiedz": "ONZ",
+   "pkt": 0,
+   "brakuje": [
+    "Pełna nazwa: Organizacja Narodów Zjednoczonych (zamiast samego skrótu ONZ)"
+   ],
+   "uzasadnienie": "Polecenie wymaga pełnej polskiej nazwy organizacji, a uczeń podał tylko skrót „ONZ”, co nie spełnia wymagania z polecenia."
+  },
+  {
+   "id": "wos/2024-maj/14.2#1",
+   "przedmiot": "wos",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Kodeks cywilny",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Podałeś poprawną nazwę kodeksu – Kodeks cywilny – zgodną z kluczem, więc spełniasz kryterium na 1 pkt."
+  },
+  {
+   "id": "wos/2024-maj/17.4#2",
+   "przedmiot": "wos",
+   "typ": "uzasadnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "ETPC – Rada Europy"
+   ],
+   "odpowiedz": "ETPC nie należy do UE, bo jest organem ONZ.",
+   "pkt": 0,
+   "brakuje": [
+    "Wskazanie, że ETPC (Europejski Trybunał Praw Człowieka) jest instytucją Rady Europy",
+    "Poprawne uzasadnienie – błędnie przypisano ETPC do ONZ"
+   ],
+   "uzasadnienie": "Poprawnie wskazano ETPC jako instytucję spoza UE, ale uzasadnienie jest błędne: ETPC działa w systemie Rady Europy, a nie ONZ. Błędna informacja w uzasadnieniu uniemożliwia przyznanie punktu."
+  },
+  {
+   "id": "wos/2024-maj/14.2#2",
+   "przedmiot": "wos",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "Kodeks cywilny"
+   ],
+   "odpowiedz": "Kodeks karny",
+   "pkt": 0,
+   "brakuje": [
+    "Poprawna nazwa kodeksu: Kodeks cywilny"
+   ],
+   "uzasadnienie": "Podana nazwa „Kodeks karny” jest niepoprawna – według klucza przytoczone przepisy pochodzą z Kodeksu cywilnego, więc nie spełniasz kryterium 1 pkt."
+  },
+  {
+   "id": "wos/2026-maj/16.2#3",
+   "przedmiot": "wos",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "Organizacja Narodów Zjednoczonych"
+   ],
+   "odpowiedz": "NATO",
+   "pkt": 0,
+   "brakuje": [
+    "Poprawna organizacja: Organizacja Narodów Zjednoczonych",
+    "Pełna polska nazwa zamiast skrótu"
+   ],
+   "uzasadnienie": "Podana nazwa (NATO) jest niezgodna z kluczem, w którym poprawną odpowiedzią jest Organizacja Narodów Zjednoczonych. Dodatkowo podano skrót, a polecenie wymagało pełnej polskiej nazwy."
+  },
+  {
+   "id": "wos/2026-czerwiec/13.2#1",
+   "przedmiot": "wos",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Tak. Przepis dotyczy Prezesa NIK (sposób powołania), a tekst opisuje działalność Najwyższej Izby Kontroli.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Rozstrzygnięcie „Tak” jest poprawne, a uzasadnienie odwołuje się do obu materiałów (przepis – sposób powołania Prezesa NIK; tekst – działalność Najwyższej Izby Kontroli) i podaje pełną nazwę organu, co spełnia kryterium na 1 pkt."
+  },
+  {
+   "id": "wos/2024-maj/16.2#1",
+   "przedmiot": "wos",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Tak – operację prowadzono na podstawie rezolucji Rady Bezpieczeństwa ONZ.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Rozstrzygnięcie \"Tak\" jest poprawne, a uzasadnienie wskazuje na rezolucję Rady Bezpieczeństwa ONZ jako podstawę operacji, co odpowiada kluczowi."
+  },
+  {
+   "id": "wos/2026-czerwiec/13.2#2",
+   "przedmiot": "wos",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "uzasadnienie z nazwą organu (NIK)"
+   ],
+   "odpowiedz": "Tak, bo to ten sam organ.",
+   "pkt": 0,
+   "brakuje": [
+    "nazwa organu: Najwyższa Izba Kontroli",
+    "odwołanie do przepisu Konstytucji (np. sposób powołania Prezesa NIK)",
+    "odwołanie do tekstu opisującego działania NIK",
+    "wskazanie, że przepis dotyczy Prezesa NIK jako osoby stojącej na czele organu"
+   ],
+   "uzasadnienie": "Rozstrzygnięcie „Tak” jest poprawne, ale uzasadnienie jest ogólnikowe: nie podajesz nazwy organu (Najwyższa Izba Kontroli) ani nie odwołujesz się do treści obu materiałów źródłowych."
+  },
+  {
+   "id": "wos/2024-maj/16.2#2",
+   "przedmiot": "wos",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "tak – rezolucja RB ONZ"
+   ],
+   "odpowiedz": "Nie, NATO działało samodzielnie.",
+   "pkt": 0,
+   "brakuje": [
+    "Poprawne rozstrzygnięcie: Tak, operacja miała mandat ONZ",
+    "Uzasadnienie odwołujące się do rezolucji Rady Bezpieczeństwa ONZ"
+   ],
+   "uzasadnienie": "Rozstrzygnięcie jest błędne – według klucza operację przeprowadzono na podstawie mandatu ONZ (rezolucji Rady Bezpieczeństwa). Uzasadnienie ucznia jest sprzeczne z tekstem i kluczem, więc punktu nie przyznano."
+  },
+  {
+   "id": "wos/2023-maj/12.2#2",
+   "przedmiot": "wos",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "wydatki > dochody → deficyt"
+   ],
+   "odpowiedz": "Nie, bo budżet musi być zrównoważony.",
+   "pkt": 0,
+   "brakuje": [
+    "Poprawne rozstrzygnięcie: Tak, deficyt jest założony",
+    "Uzasadnienie odwołujące się do dokumentu: planowane wydatki są wyższe niż dochody budżetowe"
+   ],
+   "uzasadnienie": "Rozstrzygnięcie jest błędne – według klucza w uchwale założono deficyt (wydatki wyższe niż dochody). Uzasadnienie to ogólnik niezwiązany z fragmentem uchwały."
+  },
+  {
+   "id": "wos/2023-maj/10.1#1",
+   "przedmiot": "wos",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "1. Francja, 2. Stany Zjednoczone",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Podałeś obie poprawne nazwy państw: Francja oraz Stany Zjednoczone, co jest zgodne z kluczem i spełnia kryterium przyznania punktu."
+  },
+  {
+   "id": "wos/2023-maj/12.2#1",
+   "przedmiot": "wos",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Tak – zaplanowane wydatki są wyższe niż dochody.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Rozstrzygnięcie „Tak” jest poprawne, a uzasadnienie (wydatki wyższe niż dochody) odpowiada kluczowi i wyjaśnia istotę deficytu budżetowego."
+  },
+  {
+   "id": "wos/2023-maj/10.1#2",
+   "przedmiot": "wos",
+   "typ": "podaj",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "2. USA"
+   ],
+   "odpowiedz": "1. Francja, 2. Wielka Brytania",
+   "pkt": 0,
+   "brakuje": [
+    "Poprawna nazwa państwa 2: Stany Zjednoczone (Ameryki) / USA",
+    "Wielka Brytania jest błędną odpowiedzią"
+   ],
+   "uzasadnienie": "Za zadanie przyznaje się 1 pkt tylko za dwie poprawne nazwy państw. Francja jest poprawna, ale Wielka Brytania nie zgadza się z kluczem, który wskazuje Stany Zjednoczone."
+  },
+  {
+   "id": "wos/2025-czerwiec/3.2#1",
+   "przedmiot": "wos",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 1,
+   "wzor_brakuje": [],
+   "odpowiedz": "Tak. Rodzina jest małą grupą pierwotną, a w takich grupach najłatwiej skłonić jednostkę do zachowań zgodnych z oczekiwaniami grupy.",
+   "pkt": 1,
+   "brakuje": [],
+   "uzasadnienie": "Rozstrzygnięcie „Tak” jest poprawne, a uzasadnienie (rodzina jako mała grupa pierwotna, w której najłatwiej skłonić jednostkę do zachowań zgodnych z oczekiwaniami grupy) jest równoważne z kluczem."
+  },
+  {
+   "id": "wos/2025-czerwiec/3.2#2",
+   "przedmiot": "wos",
+   "typ": "rozstrzygnij",
+   "max": 1,
+   "wzor_pkt": 0,
+   "wzor_brakuje": [
+    "uzasadnienie: mała grupa pierwotna, nacisk na zgodność z normami"
+   ],
+   "odpowiedz": "Tak, bo rodzina jest ważna.",
+   "pkt": 0,
+   "brakuje": [
+    "Wyjaśnienie, że wpływ normatywny polega na skłanianiu jednostki do zachowań zgodnych z oczekiwaniami grupy",
+    "Wskazanie, że rodzina jest małą grupą pierwotną, w której presja na zgodność jest silna",
+    "Odniesienie do obu tekstów źródłowych"
+   ],
+   "uzasadnienie": "Rozstrzygnięcie „Tak” jest poprawne, ale uzasadnienie „rodzina jest ważna” to ogólnik. Nie wyjaśnia mechanizmu wpływu normatywnego i nie odwołuje się do tekstów, a zasady wymagają poprawnego uzasadnienia."
+  }
+ ]
+}
