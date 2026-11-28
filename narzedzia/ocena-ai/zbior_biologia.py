@@ -22,7 +22,7 @@ Z = [
  ('2023-maj/5.1', 'podaj', 'robocza', [
   ('pelna', 'A – karboksylacja, B – redukcja, C – regeneracja RuBP.', 2, [], False),
   ('czesciowa', 'A – karboksylacja, B – redukcja, C – fosforylacja.', 1, ['C – regeneracja RuBP'], False),
-  ('bledna', 'A – glikoliza, B – fotoliza wody, C – regeneracja.', 0, ['A – karboksylacja', 'B – redukcja'], True),
+  ('bledna', 'A – glikoliza, B – fotoliza wody, C – regeneracja.', 0, ['A – karboksylacja', 'B – redukcja'], False),
  ]),
  ('2024-maj/2', 'okresl', 'robocza', [
   ('pelna', 'Polimeraza syntetyzuje nić DNA na matrycy RNA wirusa, a rybonukleaza rozkłada RNA z hybrydy RNA–DNA, żeby można było dobudować drugą nić DNA.', 2, [], False),
@@ -59,7 +59,7 @@ Z = [
  ('2024-czerwiec/19.1', 'oblicz', 'robocza', [
   ('pelna', 'p = 1 − 0,3 = 0,7; 2pq = 2 · 0,7 · 0,3 = 0,42.', 1, [], False),
   ('bledna', '2pq = 2 · 0,3 · 0,3 = 0,18.', 0, ['p = 0,7; 2pq = 0,42'], False),
-  ('czesciowa', 'Heterozygoty to 0,42.', 1, [], True),
+  ('czesciowa', 'Heterozygoty to 0,42.', 0, ['obliczenia (p = 0,7; 2pq = 2 · 0,7 · 0,3)'], False),
  ]),
  ('2024-czerwiec/14.2', 'wyjasnij', 'kontrolna', [
   ('pelna', 'Amoniak jest silnie toksyczny i trzeba go rozcieńczać dużą ilością wody – zwierzęta wodne mają jej dużo. Lądowe muszą oszczędzać wodę, więc przekształcają amoniak w mniej toksyczny mocznik lub kwas moczowy.', 1, [], False),
@@ -68,7 +68,7 @@ Z = [
  ('2025-czerwiec/14.1', 'wyjasnij', 'robocza', [
   ('pelna', 'HIV niszczy limfocyty T pomocnicze, więc odporność komórkowa słabnie i nie utrzymuje uśpionych prątków w ryzach – zaczynają się namnażać.', 1, [], False),
   ('popr_plus_blad', 'HIV niszczy limfocyty B, więc organizm nie wytwarza przeciwciał i prątki się namnażają.', 0, ['HIV niszczy limfocyty T pomocnicze (CD4)'], False),
-  ('ogolnik', 'Bo chorzy na AIDS mają słabą odporność.', 0, ['zniszczenie limfocytów T pomocniczych'], True),
+  ('ogolnik', 'Bo chorzy na AIDS mają słabą odporność.', 0, ['zniszczenie limfocytów T pomocniczych'], False),
  ]),
  ('2026-maj/15.2', 'wyjasnij', 'kontrolna', [
   ('pelna', 'Genom HCV to RNA, a PCR powiela tylko DNA, więc najpierw odwrotna transkryptaza robi cDNA na matrycy RNA.', 1, [], False),
