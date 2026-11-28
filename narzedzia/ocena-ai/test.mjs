@@ -4,7 +4,7 @@
 //   node narzedzia/ocena-ai/test.mjs --szacuj [--model haiku|sonnet] [--czesc robocza|kontrolna|wszystko]
 //       → tylko szacunek kosztu, BEZ wywołań API
 //   node narzedzia/ocena-ai/test.mjs --model haiku --czesc robocza --tak
-//       → płatny przebieg (wymaga ANTHROPIC_API_KEY i flagi --tak = zgoda właściciela na koszt)
+//       → płatny przebieg (wymaga klucza w INDEXLAB_KLUCZ_TESTOWY lub ANTHROPIC_API_KEY i flagi --tak = zgoda właściciela na koszt)
 //   Opcje: --limit N (pierwsze N pozycji), --przedmiot biologia, --effort low|medium|high, --rownolegle 4
 //
 // Raport: narzedzia/ocena-ai/raporty/<data>-<model>-<czesc>.{json,md}
@@ -63,7 +63,10 @@ if (!jest('tak')) { console.log('\nPłatny przebieg wymaga flagi --tak (po zgodz
 
 // --- przebieg ---
 const { default: Anthropic } = await import('@anthropic-ai/sdk');
-const client = new Anthropic();
+// Klucz: INDEXLAB_KLUCZ_TESTOWY (środowisko sesji nie przekazuje zmiennej o nazwie ANTHROPIC_API_KEY), albo ANTHROPIC_API_KEY lokalnie.
+const apiKey = process.env.INDEXLAB_KLUCZ_TESTOWY || process.env.ANTHROPIC_API_KEY;
+if (!apiKey) { console.error('Brak klucza: ustaw INDEXLAB_KLUCZ_TESTOWY lub ANTHROPIC_API_KEY.'); process.exit(1); }
+const client = new Anthropic({ apiKey });
 const wyniki = [];
 let wejT = 0, wyjT = 0, i = 0;
 async function ocen(x) {
