@@ -234,6 +234,12 @@ def main():
     print(f'bank zadań autorskich: {sum(len(v) for v in bank.values())} wiązek, {nb} zadań')
 
     arkusze = runpy.run_path(os.path.join(SRC, 'arkusze.py'))['ARKUSZE']
+    # Archiwum: matury starszej formuły (2015) — do ćwiczeń, poza planem, prognozą i próbną maturą.
+    aa = os.path.join(SRC, 'arkusze_archiwum.py')
+    arch = runpy.run_path(aa)['ARKUSZE'] if os.path.exists(aa) else []
+    for a in arch:
+        a['archiwum'] = True
+    arkusze = arkusze + arch
     os.makedirs(os.path.join(OUT, 'arkusze'), exist_ok=True)
     for a in arkusze:
         with open(os.path.join(OUT, 'arkusze', a['id'] + '.json'), 'w') as o:
