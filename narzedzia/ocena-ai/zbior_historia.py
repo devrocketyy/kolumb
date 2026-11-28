@@ -51,6 +51,6 @@ Z = [
  ]),
  ('2026-czerwiec/22', 'uzasadnij', 'robocza', [
   ('pelna', 'Fragment o ziemiach polskich mówi o powołaniu rządu w Lublinie i powrocie Piłsudskiego do Warszawy (10 XI 1918), a fragment o Europie – o abdykacji Wilhelma II i rewolucji w Niemczech (9 XI 1918).', 2, [], False),
-  ('czesciowa', 'Wtedy wrócił Piłsudski i Polska odzyskała niepodległość.', 1, ['argument dotyczący drugiego fragmentu (abdykacja Wilhelma II / rewolucja w Niemczech)'], False),
+  ('czesciowa', 'Wtedy wrócił Piłsudski i Polska odzyskała niepodległość.', 1, ['argument dotyczący drugiego fragmentu (abdykacja Wilhelma II / rewolucja w Niemczech)'], True),
  ]),
 ]

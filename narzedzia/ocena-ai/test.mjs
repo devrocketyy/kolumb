@@ -34,7 +34,7 @@ function zadanie(ref) { // „biologia/2024-maj/17.2”
   for (const w of arkusze.get(k).wiazki) for (const z of w.zadania ?? []) if (String(z.nr) === nr) return z;
   throw new Error(`Brak zadania ${ref}`);
 }
-let lista = zbior.filter((x) => czesc === 'wszystko' || x.czesc === czesc);
+let lista = zbior.filter((x) => (czesc === 'wszystko' || x.czesc === czesc) && (!x.przeglad || process.argv.includes('--z-spornymi'))); // pozycje „do przeglądu” (sporny wzorzec) pomijamy
 if (arg('przedmiot')) lista = lista.filter((x) => x.przedmiot === arg('przedmiot'));
 if (arg('limit')) lista = lista.slice(0, Number(arg('limit')));
 const pozycje = lista.map((x) => {
