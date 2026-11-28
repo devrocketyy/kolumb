@@ -313,6 +313,12 @@ def main():
 
     ap = os.path.join(SRC, 'arkusze.py')
     arkusze = runpy.run_path(ap)['ARKUSZE'] if os.path.exists(ap) else []
+    # Archiwum: matury starszej formuły (2015) — do ćwiczeń, poza planem, prognozą i próbną maturą.
+    aa = os.path.join(SRC, 'arkusze_archiwum.py')
+    arch = runpy.run_path(aa)['ARKUSZE'] if os.path.exists(aa) else []
+    for a in arch:
+        a['archiwum'] = True
+    arkusze = arkusze + arch
     op = os.path.join(SRC, 'omowienia_ark.py')
     OM = runpy.run_path(op)['OM'] if os.path.exists(op) else {}
     uzyte_om = set()
