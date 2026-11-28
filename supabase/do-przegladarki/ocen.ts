@@ -20,7 +20,10 @@
 //     „darmowe” = oceny zadań łącznie na konto bez dostępu (bez matur AI); klucze 1/2/3 = liczba kupionych przedmiotów
 //     (3 = trzy i więcej lub pełny dostęp): „tydzien” = oceny zadań w ostatnich 7 dniach, „matury” = próbne matury AI
 //     w miesiącu kalendarzowym; „naMature” = maks. liczba ocen w jednej próbnej maturze.
-// Wymaga migracji 008_ocena_ai.sql i 009_ocena_ai_limity.sql.
+// Bez płacenia dwa razy: identyczna odpowiedź (po normalizacji spacji i wielkości liter) na to samo zadanie
+// zwraca zapisany wynik — bez wywołania API i bez zużycia limitu (odpowiedź ma pole „zapisana: true”).
+// Zmiana instrukcji oceniania → podbij WERSJA_INSTRUKCJI, aby stare wyniki przestały być używane.
+// Wymaga migracji 008_ocena_ai.sql, 009_ocena_ai_limity.sql i 010_ocena_ai_pamiec.sql.
 import { createClient } from 'npm:@supabase/supabase-js@2.49.4';
 import Anthropic from 'npm:@anthropic-ai/sdk';
 
@@ -53,6 +56,13 @@ const PRZEDMIOTY = ['biologia', 'chemia', 'geografia', 'historia', 'wos'];
 const NAZWY: Record<string, string> = { biologia: 'biologii', chemia: 'chemii', geografia: 'geografii', historia: 'historii', wos: 'wiedzy o społeczeństwie' };
 
 const tnij = (v: unknown, n: number) => String(v ?? '').slice(0, n);
+
+const WERSJA_INSTRUKCJI = '1';
+async function skrot(czesci: unknown[]) {
+  const dane = new TextEncoder().encode(JSON.stringify(czesci));
+  const h = await crypto.subtle.digest('SHA-256', dane);
+  return Array.from(new Uint8Array(h), (x) => x.toString(16).padStart(2, '0')).join('');
+}
 
 // Plan ucznia: liczba przedmiotów z ważnym dostępem (pełny dostęp = 3) i czy ma dostęp do tego przedmiotu.
 async function plan(uid: string, przedmiot: string) {
@@ -113,6 +123,15 @@ Deno.serve(async (req) => {
     if (odpowiedz.length < 3) return json({ error: 'Najpierw wpisz swoją odpowiedź.' }, 400);
     if (!b.klucz) return json({ error: 'To zadanie nie ma klucza — oceń je samodzielnie.' }, 400);
 
+    // Bez płacenia dwa razy: ta sama odpowiedź na to samo zadanie (ten sam klucz i model) → zapisany wynik, bez limitu.
+    const model = max >= PROG_PKT || TRUDNE_PRZEDMIOTY.includes(przedmiot) ? MODEL_TRUDNE : MODEL_PROSTE;
+    const norm = odpowiedz.toLowerCase().replace(/\s+/g, ' ');
+    const hash = await skrot([WERSJA_INSTRUKCJI, model, przedmiot, tnij(b.zadanie, 120), tnij(b.polecenie, 3000),
+      tnij(b.material, 4000), tnij(b.klucz, 3000), tnij(b.zasady, 2000), max, norm]);
+    const { data: zap } = await admin.from('ocena_ai').select('pkt, wynik').eq('skrot', hash).not('wynik', 'is', null)
+      .order('created_at', { ascending: false }).limit(1).maybeSingle();
+    if (zap?.wynik) return json({ pkt: zap.pkt, max, ...zap.wynik, zapisana: true });
+
     // Limity wspólne na konto: oceny zadań — tygodniowo (ostatnie 7 dni), próbne matury AI — w miesiącu kalendarzowym.
     // Bez dostępu do przedmiotu: darmowa pula ocen zadań na całe konto, bez matur AI.
     const sesja = b.matura ? tnij(b.matura, 80) : null;
@@ -163,7 +182,6 @@ Deno.serve(async (req) => {
       `Oceń odpowiedź (0–${max} pkt).`,
     ].filter(Boolean).join('\n\n');
 
-    const model = max >= PROG_PKT || TRUDNE_PRZEDMIOTY.includes(przedmiot) ? MODEL_TRUDNE : MODEL_PROSTE;
     const client = new Anthropic({ apiKey: klucz });
     let wynik: { pkt?: number; uzasadnienie?: string; brakuje?: unknown[]; wskazowka?: string } | null = null;
     try {
@@ -185,12 +203,14 @@ Deno.serve(async (req) => {
     if (!wynik) return json({ error: 'Nie udało się ocenić odpowiedzi. Spróbuj ponownie.' }, 502);
 
     const pkt = Math.max(0, Math.min(max, Math.round(Number(wynik.pkt) || 0)));
-    await admin.from('ocena_ai').insert({ user_id: user.id, przedmiot, zadanie: tnij(b.zadanie, 120), pkt, max, darmowa, model, sesja });
-    return json({
-      pkt, max,
+    const opis = {
       uzasadnienie: tnij(wynik.uzasadnienie, 1200),
       brakuje: Array.isArray(wynik.brakuje) ? wynik.brakuje.slice(0, 6).map((x: unknown) => tnij(x, 300)) : [],
       wskazowka: tnij(wynik.wskazowka, 600),
+    };
+    await admin.from('ocena_ai').insert({ user_id: user.id, przedmiot, zadanie: tnij(b.zadanie, 120), pkt, max, darmowa, model, sesja, skrot: hash, wynik: opis });
+    return json({
+      pkt, max, ...opis,
       limit: { ...limit, ...(limit.uzyte !== undefined ? { uzyte: limit.uzyte + 1 } : {}), ...(limit.tydzien !== undefined ? { tydzien: limit.tydzien + 1 } : {}) },
     });
   } catch (e) {

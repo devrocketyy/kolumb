@@ -2282,7 +2282,7 @@ const aiHtml = (r) => r.error
       <p>${esc(r.uzasadnienie)}</p>
       ${r.brakuje?.length ? `<p class="small"><strong>Czego zabrakło:</strong></p><ul class="small">${r.brakuje.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
       ${r.wskazowka ? `<p class="small"><strong>Wskazówka:</strong> ${esc(r.wskazowka)}</p>` : ''}
-      <p class="muted small">Ocena orientacyjna — porównaj z kluczem poniżej i zapisz wynik.${r.limit ? (r.limit.maxTydzien ? ` Oceny AI w ostatnich 7 dniach: ${r.limit.tydzien}/${r.limit.maxTydzien}.` : r.limit.maxMatury ? ` Próbne matury AI w tym miesiącu: ${r.limit.matury}/${r.limit.maxMatury}.` : ` Darmowe oceny AI: ${r.limit.uzyte}/${r.limit.max}.`) : ''}</p>
+      <p class="muted small">Ocena orientacyjna — porównaj z kluczem poniżej i zapisz wynik.${r.zapisana ? ' Ta odpowiedź była już oceniona — pokazujemy zapisany wynik (bez zużycia limitu).' : ''}${r.limit ? (r.limit.maxTydzien ? ` Oceny AI w ostatnich 7 dniach: ${r.limit.tydzien}/${r.limit.maxTydzien}.` : r.limit.maxMatury ? ` Próbne matury AI w tym miesiącu: ${r.limit.matury}/${r.limit.maxMatury}.` : ` Darmowe oceny AI: ${r.limit.uzyte}/${r.limit.max}.`) : ''}</p>
     </section>`;
 
 async function ocenAI(z, k, w) {
